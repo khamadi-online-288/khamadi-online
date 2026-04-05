@@ -1,11 +1,6 @@
 import { NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.SUPABASE_SERVICE_ROLE_KEY!
-)
-
 const ACHIEVEMENTS = [
   { key: 'first_simulator', goal: 1, source: 'total_simulators' },
   { key: 'three_simulators', goal: 3, source: 'total_simulators' },
@@ -26,6 +21,18 @@ function calcLevel(xp: number) {
 
 export async function POST(req: Request) {
   try {
+    const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+    const serviceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY
+
+    if (!supabaseUrl || !serviceRoleKey) {
+      return NextResponse.json(
+        { error: 'Supabase env missing' },
+        { status: 500 }
+      )
+    }
+
+    const supabase = createClient(supabaseUrl, serviceRoleKey)
+
     const body = await req.json()
 
     const userId = String(body.userId || '')
@@ -33,7 +40,10 @@ export async function POST(req: Request) {
     const score = Number(body.score || 0)
 
     if (!userId || !action) {
-      return NextResponse.json({ error: 'userId және action міндетті' }, { status: 400 })
+      return NextResponse.json(
+        { error: 'userId және action міндетті' },
+        { status: 400 }
+      )
     }
 
     const today = new Date().toISOString().slice(0, 10)
@@ -44,7 +54,7 @@ export async function POST(req: Request) {
       .eq('user_id', userId)
       .maybeSingle()
 
-    let stats = currentStats || {
+    let stats: any = currentStats || {
       user_id: userId,
       xp: 0,
       level: 1,
@@ -66,7 +76,7 @@ export async function POST(req: Request) {
       .eq('activity_date', today)
       .limit(1)
 
-    let alreadyActiveToday = (existingActivity || []).length > 0
+    const alreadyActiveToday = (existingActivity || []).length > 0
 
     if (!alreadyActiveToday) {
       await supabase.from('daily_activity').insert({
@@ -96,7 +106,6 @@ export async function POST(req: Request) {
     if (action === 'simulator_finished') {
       stats.total_simulators = Number(stats.total_simulators || 0) + 1
       xpGain += 30
-
       if (score >= 100) xpGain += 20
       if (score >= 120) xpGain += 30
     }
@@ -120,7 +129,10 @@ export async function POST(req: Request) {
       .upsert(stats, { onConflict: 'user_id' })
 
     if (upsertStatsError) {
-      return NextResponse.json({ error: upsertStatsError.message }, { status: 500 })
+      return NextResponse.json(
+        { error: upsertStatsError.message },
+        { status: 500 }
+      )
     }
 
     const { data: simResults } = await supabase
@@ -182,6 +194,9 @@ export async function POST(req: Request) {
     })
   } catch (error) {
     console.error(error)
-    return NextResponse.json({ error: 'Gamification update қатесі' }, { status: 500 })
+    return NextResponse.json(
+      { error: 'Gamification update қатесі' },
+      { status: 500 }
+    )
   }
 }
