@@ -73,7 +73,7 @@ function Header() {
         </a>
 
         <a
-          href="https://wa.me/77761356435"
+          href="https://wa.me/77066405577"
           target="_blank"
           rel="noopener noreferrer"
           style={s.whatsappIconLink}
@@ -571,7 +571,7 @@ function Footer() {
             Instagram
           </a>
           <a
-            href="https://wa.me/77761356435"
+            href="https://wa.me/77066405577"
             target="_blank"
             rel="noopener noreferrer"
             style={s.footerLink}
@@ -589,7 +589,7 @@ function Footer() {
 function WhatsAppFloat() {
   return (
     <a
-      href="https://wa.me/77761356435"
+      href="https://wa.me/77066405577"
       target="_blank"
       rel="noopener noreferrer"
       style={s.whatsappFloat}
