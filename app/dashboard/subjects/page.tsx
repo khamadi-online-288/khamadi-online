@@ -18,13 +18,9 @@ type Profile = {
 
 function SubjectCard({
   subject,
-  variant = 'normal',
 }: {
   subject: Subject
-  variant?: 'normal' | 'highlight'
 }) {
-  const isHighlight = variant === 'highlight'
-
   return (
     <a
       href={`/dashboard/subjects/${subject.id}`}
@@ -36,26 +32,20 @@ function SubjectCard({
         display: 'block',
         position: 'relative',
         overflow: 'hidden',
-        background: isHighlight
-          ? 'linear-gradient(135deg, rgba(224,242,254,0.96), rgba(255,255,255,0.98))'
-          : 'rgba(255,255,255,0.88)',
-        border: isHighlight
-          ? '1px solid rgba(14,165,233,0.30)'
-          : '1px solid rgba(226,232,240,0.95)',
-        boxShadow: isHighlight
-          ? '0 20px 40px rgba(14,165,233,0.14), inset 0 1px 0 rgba(255,255,255,0.55)'
-          : '0 18px 34px rgba(15,23,42,0.05), inset 0 1px 0 rgba(255,255,255,0.45)',
+        background:
+          'linear-gradient(135deg, rgba(224,242,254,0.96), rgba(255,255,255,0.98))',
+        border: '1px solid rgba(14,165,233,0.24)',
+        boxShadow:
+          '0 20px 40px rgba(14,165,233,0.12), inset 0 1px 0 rgba(255,255,255,0.55)',
         backdropFilter: 'blur(14px)',
-        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
       }}
     >
       <div
         style={{
           position: 'absolute',
           inset: 0,
-          background: isHighlight
-            ? 'radial-gradient(circle at top right, rgba(56,189,248,0.18), transparent 24%)'
-            : 'radial-gradient(circle at top right, rgba(56,189,248,0.08), transparent 22%)',
+          background:
+            'radial-gradient(circle at top right, rgba(56,189,248,0.18), transparent 24%)',
           pointerEvents: 'none',
         }}
       />
@@ -69,16 +59,11 @@ function SubjectCard({
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            background: isHighlight
-              ? 'linear-gradient(135deg, #38BDF8, #0EA5E9)'
-              : '#F8FBFF',
-            border: isHighlight ? 'none' : '1px solid #E2E8F0',
-            color: isHighlight ? '#FFFFFF' : '#0EA5E9',
+            background: 'linear-gradient(135deg, #38BDF8, #0EA5E9)',
+            color: '#FFFFFF',
             fontSize: 28,
             marginBottom: 16,
-            boxShadow: isHighlight
-              ? '0 14px 28px rgba(14,165,233,0.20)'
-              : '0 8px 18px rgba(15,23,42,0.04)',
+            boxShadow: '0 14px 28px rgba(14,165,233,0.20)',
           }}
         >
           {subject.icon || '📘'}
@@ -95,7 +80,7 @@ function SubjectCard({
         >
           <div
             style={{
-              fontSize: 19,
+              fontSize: 20,
               fontWeight: 900,
               letterSpacing: '-0.03em',
               lineHeight: 1.25,
@@ -105,37 +90,20 @@ function SubjectCard({
             {subject.name}
           </div>
 
-          {isHighlight ? (
-            <div
-              style={{
-                padding: '6px 10px',
-                borderRadius: 999,
-                background: 'rgba(14,165,233,0.10)',
-                border: '1px solid rgba(14,165,233,0.16)',
-                color: '#0369A1',
-                fontSize: 11,
-                fontWeight: 800,
-                whiteSpace: 'nowrap',
-              }}
-            >
-              Бейіндік
-            </div>
-          ) : (
-            <div
-              style={{
-                padding: '6px 10px',
-                borderRadius: 999,
-                background: '#F8FAFC',
-                border: '1px solid #E2E8F0',
-                color: '#64748B',
-                fontSize: 11,
-                fontWeight: 800,
-                whiteSpace: 'nowrap',
-              }}
-            >
-              Міндетті
-            </div>
-          )}
+          <div
+            style={{
+              padding: '6px 10px',
+              borderRadius: 999,
+              background: 'rgba(14,165,233,0.10)',
+              border: '1px solid rgba(14,165,233,0.16)',
+              color: '#0369A1',
+              fontSize: 11,
+              fontWeight: 800,
+              whiteSpace: 'nowrap',
+            }}
+          >
+            Бейіндік
+          </div>
         </div>
 
         <div
@@ -146,9 +114,7 @@ function SubjectCard({
             marginBottom: 18,
           }}
         >
-          {isHighlight
-            ? 'Таңдаған бейіндік пәнің. Осы бағыт бойынша терең дайындық жасайсың.'
-            : 'Негізгі міндетті пән. ҰБТ құрылымындағы базалық пәндердің бірі.'}
+          Таңдаған бейіндік пәнің. Осы бағыт бойынша бөлімдер мен тақырыптарды ашасың.
         </div>
 
         <div
@@ -158,7 +124,7 @@ function SubjectCard({
             gap: 8,
             fontSize: 13,
             fontWeight: 800,
-            color: isHighlight ? '#0369A1' : '#0F172A',
+            color: '#0369A1',
           }}
         >
           Пәнді ашу
@@ -212,28 +178,14 @@ export default function SubjectsPage() {
   const mySubjects = useMemo(() => {
     if (!subjects.length) return []
 
-    const mandatory = subjects.filter((s) => s.type === 'main')
+    const p1 = profile?.profile_subject_1?.trim().toLowerCase()
+    const p2 = profile?.profile_subject_2?.trim().toLowerCase()
 
-    const selected = subjects.filter(
-      (s) =>
-        s.name === profile?.profile_subject_1 ||
-        s.name === profile?.profile_subject_2
-    )
-
-    const unique = [...mandatory]
-
-    for (const item of selected) {
-      if (!unique.find((x) => x.id === item.id)) {
-        unique.push(item)
-      }
-    }
-
-    return unique
+    return subjects.filter((s) => {
+      const name = s.name?.trim().toLowerCase()
+      return name === p1 || name === p2
+    })
   }, [subjects, profile])
-
-  const profileNames = useMemo(() => {
-    return [profile?.profile_subject_1, profile?.profile_subject_2].filter(Boolean) as string[]
-  }, [profile])
 
   if (loading) {
     return (
@@ -262,53 +214,52 @@ export default function SubjectsPage() {
         <div style={s.hero}>
           <div style={s.heroBadge}>SUBJECTS</div>
 
-          <h1 style={s.heroTitle}>Сенің пәндерің</h1>
+          <h1 style={s.heroTitle}>Сенің бейіндік пәндерің</h1>
 
           <p style={s.heroText}>
-            Мұнда сенің тіркеуде таңдалған 2 бейіндік пәнің және платформаның негізгі
-            міндетті пәндері көрсетіледі. Әр пәннің ішіне кіріп, бөлімдер мен тақырыптарды
-            толық аша аласың.
+            Мұнда тіркеуде таңдаған 2 бейіндік пәнің ғана көрсетіледі. Осы пәндердің
+            ішіне кіріп, бөлімдер мен тақырыптарды толық оқи аласың.
           </p>
 
           <div style={s.heroMetaGrid}>
             <div style={s.heroMetaCard}>
               <div style={s.heroMetaLabel}>Бейіндік пән 1</div>
-              <div style={s.heroMetaValue}>{profile?.profile_subject_1 || 'Таңдалмаған'}</div>
+              <div style={s.heroMetaValue}>
+                {profile?.profile_subject_1 || 'Таңдалмаған'}
+              </div>
             </div>
 
             <div style={s.heroMetaCard}>
               <div style={s.heroMetaLabel}>Бейіндік пән 2</div>
-              <div style={s.heroMetaValue}>{profile?.profile_subject_2 || 'Таңдалмаған'}</div>
+              <div style={s.heroMetaValue}>
+                {profile?.profile_subject_2 || 'Таңдалмаған'}
+              </div>
             </div>
 
             <div style={s.heroMetaCard}>
-              <div style={s.heroMetaLabel}>Жалпы пән саны</div>
+              <div style={s.heroMetaLabel}>Пән саны</div>
               <div style={s.heroMetaValue}>{mySubjects.length}</div>
             </div>
           </div>
         </div>
 
         <div style={s.sectionHead}>
-          <div style={s.sectionTitle}>3 міндетті + 2 бейіндік пән</div>
+          <div style={s.sectionTitle}>Профиль пәндер</div>
           <div style={s.sectionSub}>
-            Бейіндік пәндер көк акцентпен көрсетілген.
+            Тек өзің таңдаған пәндер көрсетіледі.
           </div>
         </div>
 
         {mySubjects.length > 0 ? (
           <div style={s.grid}>
             {mySubjects.map((subject) => (
-              <SubjectCard
-                key={subject.id}
-                subject={subject}
-                variant={profileNames.includes(subject.name) ? 'highlight' : 'normal'}
-              />
+              <SubjectCard key={subject.id} subject={subject} />
             ))}
           </div>
         ) : (
           <div style={s.emptyCard}>
-            Пәндер табылмады. `subjects` таблицасын және `profiles.profile_subject_1 / profile_subject_2`
-            мәндерін тексер.
+            Профиль пәндер табылмады. `profiles.profile_subject_1` және
+            `profiles.profile_subject_2` мәндерін тексер.
           </div>
         )}
       </div>
@@ -493,7 +444,7 @@ const s: Record<string, React.CSSProperties> = {
 
   grid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+    gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
     gap: 16,
   },
 
