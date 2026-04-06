@@ -39,14 +39,12 @@ export default function TopicPage() {
   const sectionId = Number(params.sectionId)
   const topicId = Number(params.topicId)
 
-  const isKazHistory = subjectId === 1
-  const isMathLiteracy = subjectId === 2
-  const isReading = subjectId === 3
-
   const [loading, setLoading] = useState(true)
   const [topic, setTopic] = useState<Topic | null>(null)
   const [pdfUrl, setPdfUrl] = useState('')
   const [questions, setQuestions] = useState<Question[]>([])
+  const [hasPdf, setHasPdf] = useState(false)
+  const [hasQuiz, setHasQuiz] = useState(false)
 
   const [quizStarted, setQuizStarted] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -77,14 +75,24 @@ export default function TopicPage() {
             .order('id', { ascending: true }),
         ])
 
-      if (topicData) setTopic(topicData)
+      if (topicData) setTopic(topicData as Topic)
 
       const pdfItem = (contentData || []).find(
         (item: TopicContent) => item.content_type === 'pdf'
       )
-      if (pdfItem?.image_url) setPdfUrl(pdfItem.image_url)
 
-      setQuestions((questionsData || []) as Question[])
+      if (pdfItem?.image_url) {
+        setPdfUrl(pdfItem.image_url)
+        setHasPdf(true)
+      } else {
+        setPdfUrl('')
+        setHasPdf(false)
+      }
+
+      const loadedQuestions = (questionsData || []) as Question[]
+      setQuestions(loadedQuestions)
+      setHasQuiz(loadedQuestions.length > 0)
+
       setLoading(false)
     }
 
@@ -147,8 +155,8 @@ export default function TopicPage() {
     return <div style={pageStyle}>Тақырып табылмады</div>
   }
 
-  const showPdfBlock = isKazHistory || isReading
-  const showQuizBlock = isKazHistory || isMathLiteracy
+  const showPdfBlock = hasPdf
+  const showQuizBlock = hasQuiz
 
   return (
     <div style={pageStyle}>
@@ -164,9 +172,10 @@ export default function TopicPage() {
           <h1 style={titleStyle}>{topic.name}</h1>
 
           <p style={subtitleStyle}>
-            {isKazHistory && 'PDF-ті қарап шық. Дайын болсаң, төмендегі квизді баста.'}
-            {isMathLiteracy && 'Есептерді шешіп, біліміңді тексер.'}
-            {isReading && 'Тақырыпты PDF форматында оқы.'}
+            {hasPdf && hasQuiz && 'Алдымен сабақты оқы, содан кейін төмендегі квизді баста.'}
+            {hasPdf && !hasQuiz && 'Бұл тақырыпта PDF сабақ бар.'}
+            {!hasPdf && hasQuiz && 'Бұл тақырыпта квиз бар. Дайын болсаң, баста.'}
+            {!hasPdf && !hasQuiz && 'Бұл тақырыпқа контент әлі толық қосылмаған.'}
           </p>
         </div>
 
@@ -210,8 +219,8 @@ export default function TopicPage() {
             {!quizStarted ? (
               <div style={quizIntroWrapStyle}>
                 <div style={quizIntroStyle}>
-                  {isKazHistory && 'Тақырыпты қарап болған соң, квизді баста.'}
-                  {isMathLiteracy && 'Дайын болсаң, есептерді шығаруды баста.'}
+                  {hasPdf && hasQuiz && 'Сабақты қарап болған соң, квизді баста.'}
+                  {!hasPdf && hasQuiz && 'Дайын болсаң, бірден квизді баста.'}
                 </div>
 
                 {questions.length > 0 ? (
