@@ -1,12 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Montserrat } from 'next/font/google'
 import './globals.css'
-
-const montserrat = Montserrat({
-  subsets: ['latin', 'cyrillic'],
-  variable: '--font-main',
-  display: 'swap',
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://khamadi.online'),
@@ -17,10 +10,9 @@ export const metadata: Metadata = {
   },
 
   description:
-    'KHAMADI ONLINE — ҰБТ-ға онлайн дайындық платформасы. ҰБТ тесттері, пәндер базасы, AI Tutor, толық симулятор және аналитика.',
+    'KHAMADI ONLINE — ҰБТ-ға онлайн дайындық платформасы. ҰБТ тесттері, пәндер базасы, AI tutor, аналитика және толық дайындық жүйесі.',
 
   keywords: [
-    'ҰБТ',
     'ҰБТ дайындық',
     'ЕНТ дайындық',
     'ҰБТ тест',
@@ -28,14 +20,13 @@ export const metadata: Metadata = {
     'ҰБТ платформасы',
     'ЕНТ тест',
     'ҰБТ 2026',
-    'ҰБТ дайындық платформасы',
-    'KHAMADI ONLINE'
+    'Khamadi Online',
   ],
 
+  applicationName: 'KHAMADI ONLINE',
+
   authors: [{ name: 'KHAMADI ONLINE' }],
-
   creator: 'KHAMADI ONLINE',
-
   publisher: 'KHAMADI ONLINE',
 
   robots: {
@@ -46,32 +37,22 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'KHAMADI ONLINE — ҰБТ дайындық платформасы',
     description:
-      'ҰБТ-ға онлайн дайындық: тесттер, түсіндірме сабақтар, AI Tutor және толық аналитика.',
-
+      'ҰБТ-ға онлайн дайындық: тесттер, түсіндірмелер, аналитика және AI tutor.',
     url: 'https://khamadi.online',
-
     siteName: 'KHAMADI ONLINE',
-
     locale: 'kk_KZ',
-
     type: 'website',
   },
 
   twitter: {
     card: 'summary_large_image',
-
     title: 'KHAMADI ONLINE — ҰБТ дайындық платформасы',
-
     description:
-      'ҰБТ-ға онлайн дайындық платформасы: тесттер, аналитика және AI Tutor.',
+      'ҰБТ-ға онлайн дайындық: тесттер, түсіндірмелер және AI tutor.',
   },
 
   alternates: {
     canonical: 'https://khamadi.online',
-  },
-
-  icons: {
-    icon: '/favicon.ico',
   },
 }
 
@@ -88,9 +69,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="kk">
-      <body className={montserrat.variable}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
