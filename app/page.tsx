@@ -3,40 +3,39 @@
 import { motion } from 'framer-motion'
 
 const fadeUp = {
-  initial: { opacity: 0, y: 40 },
+  initial: { opacity: 0, y: 32 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, amount: 0.2 },
   transition: { duration: 0.7 },
 }
 
-const staggerWrap = {
+const stagger = {
   initial: {},
   whileInView: {
     transition: {
-      staggerChildren: 0.12,
+      staggerChildren: 0.1,
     },
   },
-  viewport: { once: true, amount: 0.2 },
+  viewport: { once: true, amount: 0.15 },
 }
 
 export default function LandingPage() {
   return (
     <main style={s.page}>
-      <div style={s.bgGlowTop} />
-      <div style={s.bgGlowBottom} />
+      <div style={s.glowTop} />
+      <div style={s.glowBottom} />
 
       <Header />
       <Hero />
-      <SocialProof />
-      <WhySection />
-      <SubjectsSection />
-      <AiTutorSection />
-      <SimulatorSection />
-      <AnalyticsSection />
-      <ParentsSection />
-      <TestimonialsSection />
-      <FinalCta />
+      <Stats />
+      <Features />
+      <Subjects />
+      <AiTutor />
+      <Simulator />
+      <Parents />
+      <FinalCTA />
       <Footer />
+      <WhatsAppFloat />
     </main>
   )
 }
@@ -56,10 +55,35 @@ function Header() {
         <a href="#features" style={s.navLink}>Мүмкіндіктер</a>
         <a href="#subjects" style={s.navLink}>Пәндер</a>
         <a href="#ai" style={s.navLink}>AI Tutor</a>
+        <a href="#simulator" style={s.navLink}>Симулятор</a>
         <a href="#parents" style={s.navLink}>Ата-ана</a>
       </nav>
 
       <div style={s.headerButtons}>
+        <a
+          href="https://www.instagram.com/khamadi.online?igsh=MWV2c2hmOTJpNXJkZw%3D%3D&utm_source=qr"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={s.iconLink}
+          aria-label="Instagram"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M7 2C4.239 2 2 4.239 2 7v10c0 2.761 2.239 5 5 5h10c2.761 0 5-2.239 5-5V7c0-2.761-2.239-5-5-5H7zm10 1.5A3.5 3.5 0 0 1 20.5 7v10a3.5 3.5 0 0 1-3.5 3.5H7A3.5 3.5 0 0 1 3.5 17V7A3.5 3.5 0 0 1 7 3.5h10zM12 7.8A4.2 4.2 0 1 0 16.2 12 4.205 4.205 0 0 0 12 7.8zm0 6.9A2.7 2.7 0 1 1 14.7 12 2.703 2.703 0 0 1 12 14.7zm5.1-7.65a1.05 1.05 0 1 0 1.05 1.05 1.052 1.052 0 0 0-1.05-1.05z" />
+          </svg>
+        </a>
+
+        <a
+          href="https://wa.me/77761356435"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={s.whatsappIconLink}
+          aria-label="WhatsApp"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.52 0 .18 5.34.18 11.88c0 2.1.54 4.14 1.56 5.94L0 24l6.36-1.68a11.86 11.86 0 0 0 5.7 1.44h.06c6.54 0 11.88-5.34 11.88-11.88 0-3.18-1.26-6.18-3.48-8.4zM12.12 21.78h-.06a9.9 9.9 0 0 1-5.04-1.38l-.36-.18-3.78.96 1.02-3.66-.24-.36a9.87 9.87 0 0 1-1.56-5.28c0-5.46 4.44-9.9 9.9-9.9 2.64 0 5.1 1.02 6.96 2.88a9.78 9.78 0 0 1 2.88 7.02c0 5.46-4.44 9.9-9.72 9.9zm5.4-7.38c-.3-.18-1.8-.9-2.1-1.02-.24-.06-.48-.12-.66.18-.18.3-.72 1.02-.9 1.2-.12.18-.3.24-.6.06-.3-.18-1.2-.42-2.28-1.38-.84-.72-1.44-1.62-1.62-1.92-.18-.3 0-.42.12-.6.12-.12.3-.3.42-.48.18-.18.24-.3.36-.54.12-.18.06-.42 0-.54-.06-.18-.66-1.62-.9-2.16-.24-.6-.48-.48-.66-.48h-.54c-.18 0-.48.06-.72.3-.24.3-.96.9-.96 2.16 0 1.32.96 2.58 1.08 2.76.18.18 1.92 3 4.68 4.08.66.3 1.2.42 1.62.54.66.18 1.26.18 1.74.12.54-.06 1.8-.72 2.04-1.44.3-.72.3-1.32.18-1.44-.06-.12-.24-.18-.54-.36z" />
+          </svg>
+        </a>
+
         <a href="/login" style={s.headerGhost}>Кіру</a>
         <a href="/register" style={s.headerPrimary}>Бастау</a>
       </div>
@@ -72,7 +96,7 @@ function Hero() {
     <section style={s.heroSection}>
       <div style={s.heroGrid}>
         <motion.div {...fadeUp} style={s.heroLeft}>
-          <div style={s.heroBadge}>PREMIUM UBT PLATFORM</div>
+          <div style={s.heroBadge}>PREMIUM UBT ECOSYSTEM</div>
 
           <h1 style={s.heroTitle}>
             ҰБТ-ға дайындықтың
@@ -81,10 +105,9 @@ function Hero() {
           </h1>
 
           <p style={s.heroText}>
-            KHAMADI ONLINE — бұл жай ғана оқу платформасы емес. Бұл —
-            AI тьютор, толық ҰБТ симуляторы, пәндер базасы, прогресс анализ,
-            жеке оқу жоспары және ата-ана кабинеті біріктірілген
-            жаңа буындағы EdTech жүйе.
+            KHAMADI ONLINE — AI Tutor, толық ҰБТ симуляторы, пәндер базасы,
+            нәтижені талдау, жеке оқу жоспары және ата-ана кабинеті бар
+            біртұтас EdTech платформа.
           </p>
 
           <div style={s.heroButtons}>
@@ -93,32 +116,22 @@ function Hero() {
           </div>
 
           <div style={s.heroMiniStats}>
-            <div style={s.heroMiniStat}>
+            <div style={s.heroMiniCard}>
               <div style={s.heroMiniValue}>1000+</div>
               <div style={s.heroMiniLabel}>сабақ пен тест</div>
             </div>
-
-            <div style={s.heroMiniDivider} />
-
-            <div style={s.heroMiniStat}>
+            <div style={s.heroMiniCard}>
               <div style={s.heroMiniValue}>AI</div>
               <div style={s.heroMiniLabel}>жылдам түсіндіру</div>
             </div>
-
-            <div style={s.heroMiniDivider} />
-
-            <div style={s.heroMiniStat}>
+            <div style={s.heroMiniCard}>
               <div style={s.heroMiniValue}>120+</div>
               <div style={s.heroMiniLabel}>мақсатты нәтиже</div>
             </div>
           </div>
         </motion.div>
 
-        <motion.div
-          {...fadeUp}
-          transition={{ duration: 0.8, delay: 0.1 }}
-          style={s.heroRight}
-        >
+        <motion.div {...fadeUp} transition={{ duration: 0.8, delay: 0.1 }} style={s.heroRight}>
           <div style={s.mockupOuter}>
             <div style={s.mockupTopbar}>
               <div style={s.mockDots}>
@@ -130,48 +143,38 @@ function Hero() {
             </div>
 
             <div style={s.mockupBody}>
-              <div style={s.mockupHero}>
-                <div style={s.mockupHeroLeft}>
-                  <div style={s.mockPill}>ҰБТ 2026</div>
-                  <div style={s.mockupBigTitle}>120+ нәтиже бағыты</div>
-                  <div style={s.mockupText}>
-                    AI анализ, симулятор, пәндер және күнделікті жоспар
-                  </div>
-
-                  <div style={s.mockupButtons}>
-                    <div style={s.mockPrimaryBtn}>Симулятор</div>
-                    <div style={s.mockSecondaryBtn}>AI анализ</div>
-                  </div>
-                </div>
-
-                <div style={s.mockupHeroCard}>
-                  <div style={s.mockupHeroCardTitle}>Бүгінгі оқу жоспары</div>
-                  <div style={s.mockListItem}>Математика — 20 сұрақ</div>
-                  <div style={s.mockListItem}>Қазақстан тарихы — mini test</div>
-                  <div style={s.mockListItem}>Физика — 1 тақырып қайталау</div>
+              <div style={s.mockupBanner}>
+                <div style={s.mockupBadge}>ҰБТ 2026</div>
+                <div style={s.mockupBig}>120+ нәтиже бағыты</div>
+                <div style={s.mockupSub}>
+                  Симулятор, AI анализ, пәндер және күнделікті оқу жоспары
                 </div>
               </div>
 
-              <div style={s.mockupStats}>
+              <div style={s.mockupCards}>
                 <div style={s.mockStatCard}>
                   <div style={s.mockStatLabel}>XP</div>
                   <div style={s.mockStatValue}>2450</div>
                 </div>
-
                 <div style={s.mockStatCard}>
-                  <div style={s.mockStatLabel}>Level</div>
+                  <div style={s.mockStatLabel}>LEVEL</div>
                   <div style={s.mockStatValue}>24</div>
                 </div>
-
                 <div style={s.mockStatCard}>
-                  <div style={s.mockStatLabel}>Streak</div>
-                  <div style={s.mockStatValue}>17 күн</div>
+                  <div style={s.mockStatLabel}>STREAK</div>
+                  <div style={s.mockStatValue}>17</div>
                 </div>
-
                 <div style={s.mockStatCard}>
-                  <div style={s.mockStatLabel}>Үздік балл</div>
+                  <div style={s.mockStatLabel}>BEST</div>
                   <div style={s.mockStatValue}>121</div>
                 </div>
+              </div>
+
+              <div style={s.mockupPlan}>
+                <div style={s.mockupPlanTitle}>Бүгінгі оқу жоспары</div>
+                <div style={s.mockItem}>Математика — 20 сұрақ</div>
+                <div style={s.mockItem}>Қазақстан тарихы — mini test</div>
+                <div style={s.mockItem}>Физика — 1 тақырып қайталау</div>
               </div>
             </div>
           </div>
@@ -181,7 +184,7 @@ function Hero() {
   )
 }
 
-function SocialProof() {
+function Stats() {
   const items = [
     ['10000+', 'оқушы дайындалуда'],
     ['1000+', 'сабақ пен тест'],
@@ -192,10 +195,9 @@ function SocialProof() {
   return (
     <section style={s.sectionWrapSm}>
       <motion.div
-        variants={staggerWrap}
+        variants={stagger}
         initial="initial"
         whileInView="whileInView"
-        viewport={{ once: true, amount: 0.2 }}
         style={s.statsGrid}
       >
         {items.map(([value, label]) => (
@@ -209,7 +211,7 @@ function SocialProof() {
   )
 }
 
-function WhySection() {
+function Features() {
   const cards = [
     {
       title: 'ҰБТ симулятор',
@@ -235,21 +237,19 @@ function WhySection() {
         <div style={s.sectionBadge}>WHY KHAMADI ONLINE</div>
         <h2 style={s.sectionTitle}>Платформа мүмкіндіктері</h2>
         <p style={s.sectionText}>
-          Дайындықты тек контентпен емес, жүйемен, анализбен және тұрақты
-          мотивациямен күшейтетін толық экожүйе.
+          Контент, жүйе, анализ және тұрақты мотивацияны біріктіретін толық дайындық ортасы.
         </p>
       </motion.div>
 
       <motion.div
-        variants={staggerWrap}
+        variants={stagger}
         initial="initial"
         whileInView="whileInView"
-        viewport={{ once: true, amount: 0.2 }}
         style={s.featureGrid}
       >
         {cards.map((card) => (
           <motion.div key={card.title} variants={fadeUp} style={s.featureCard}>
-            <div style={s.featureIconCircle}>•</div>
+            <div style={s.featureIcon}>•</div>
             <div style={s.featureTitle}>{card.title}</div>
             <div style={s.featureText}>{card.text}</div>
           </motion.div>
@@ -259,7 +259,7 @@ function WhySection() {
   )
 }
 
-function SubjectsSection() {
+function Subjects() {
   const subjects = [
     'Қазақстан тарихы',
     'Математика',
@@ -272,22 +272,20 @@ function SubjectsSection() {
   ]
 
   return (
-    <section id="subjects" style={s.darkBlockWrap}>
-      <div style={s.darkBlock}>
+    <section id="subjects" style={s.darkSectionOuter}>
+      <div style={s.darkSection}>
         <motion.div {...fadeUp} style={s.sectionHeadDark}>
           <div style={s.sectionBadgeDark}>SUBJECTS</div>
           <h2 style={s.sectionTitleDark}>ҰБТ пәндері</h2>
           <p style={s.sectionTextDark}>
-            Пәндер бойынша құрылымдалған материалдар, тақырыптық сабақтар және
-            тұрақты тесттік дайындық.
+            Пәндер бойынша құрылымдалған сабақтар, тесттер және тұрақты дайындық.
           </p>
         </motion.div>
 
         <motion.div
-          variants={staggerWrap}
+          variants={stagger}
           initial="initial"
           whileInView="whileInView"
-          viewport={{ once: true, amount: 0.2 }}
           style={s.subjectGrid}
         >
           {subjects.map((subject) => (
@@ -302,131 +300,204 @@ function SubjectsSection() {
   )
 }
 
-function AiTutorSection() {
+function AiTutor() {
   return (
     <section id="ai" style={s.sectionWrap}>
-      <div style={s.splitGrid}>
-        <motion.div {...fadeUp}>
-          <div style={s.sectionBadge}>AI TUTOR</div>
-          <h2 style={s.sectionTitle}>Түсінбеген тақырыпты бірден сұра</h2>
-          <p style={s.sectionTextLeft}>
-            AI Tutor оқушыға түсінбеген бөлімді қарапайым, қысқа және нақты тілмен
-            түсіндіріп береді. Бұл уақыт үнемдейді және жеке репетитор эффектісін
-            береді.
-          </p>
+      <div style={s.aiSectionShell}>
+        <div style={s.splitGrid}>
+          <motion.div {...fadeUp}>
+            <div style={s.sectionBadge}>AI TUTOR</div>
 
-          <ul style={s.bulletList}>
-            <li style={s.bulletItem}>Тақырыптарды қайта түсіндіру</li>
-            <li style={s.bulletItem}>Мысалмен көрсету</li>
-            <li style={s.bulletItem}>Қате кеткен жерді талдау</li>
-            <li style={s.bulletItem}>Жылдам жауап форматы</li>
-          </ul>
+            <h2 style={s.sectionTitle}>
+              AI Tutor —
+              <br />
+              жеке көмекші сияқты
+            </h2>
 
-          <a href="/dashboard/ai-tutor" style={s.primaryBtn}>AI тьюторды ашу</a>
-        </motion.div>
+            <p style={s.sectionTextLeft}>
+              KHAMADI ONLINE ішіндегі AI Tutor оқушыға күрделі тақырыптарды
+              қарапайым тілмен, нақты мысалмен және қысқа форматта түсіндіріп береді.
+              Бұл жеке репетитор эффектісін береді және уақытты үнемдейді.
+            </p>
 
-        <motion.div
-          {...fadeUp}
-          transition={{ duration: 0.8, delay: 0.1 }}
-          style={s.glassPreview}
-        >
-          <div style={s.chatHeader}>AI Tutor Preview</div>
-          <div style={s.chatBubbleUser}>Фотоэффект деген не?</div>
-          <div style={s.chatBubbleBot}>
-            Фотоэффект — жарықтың әсерінен металдан электрондардың бөлініп шығу құбылысы.
-          </div>
-          <div style={s.chatBubbleBotSoft}>
-            Қажет болса, формуласы мен мысалын да түсіндіремін.
-          </div>
-        </motion.div>
-      </div>
-    </section>
-  )
-}
+            <div style={s.aiFeatureList}>
+              <div style={s.aiFeatureItem}>
+                <div style={s.aiFeatureDot}>✓</div>
+                <div>
+                  <div style={s.aiFeatureTitle}>Қарапайым түсіндіру</div>
+                  <div style={s.aiFeatureText}>
+                    Күрделі тақырыпты жеңіл тілмен ашады
+                  </div>
+                </div>
+              </div>
 
-function SimulatorSection() {
-  return (
-    <section style={s.sectionWrap}>
-      <div style={s.splitGridReverse}>
-        <motion.div {...fadeUp} style={s.simulatorVisual}>
-          <div style={s.simBigCard}>140</div>
-          <div style={s.simSmallCardRow}>
-            <div style={s.simSmallCard}>4 сағат</div>
-            <div style={s.simSmallCard}>AI анализ</div>
-          </div>
-        </motion.div>
+              <div style={s.aiFeatureItem}>
+                <div style={s.aiFeatureDot}>✓</div>
+                <div>
+                  <div style={s.aiFeatureTitle}>Мысалмен көрсету</div>
+                  <div style={s.aiFeatureText}>
+                    Формула, есеп, терминдерді нақтылайды
+                  </div>
+                </div>
+              </div>
 
-        <motion.div {...fadeUp}>
-          <div style={s.sectionBadge}>SIMULATOR</div>
-          <h2 style={s.sectionTitle}>Нағыз ҰБТ форматы</h2>
-          <p style={s.sectionTextLeft}>
-            Симулятор арқылы оқушы өз деңгейін көреді, уақытпен жұмыс істеуді
-            үйренеді және нақты нәтиже динамикасын бақылайды.
-          </p>
+              <div style={s.aiFeatureItem}>
+                <div style={s.aiFeatureDot}>✓</div>
+                <div>
+                  <div style={s.aiFeatureTitle}>Жылдам жауап</div>
+                  <div style={s.aiFeatureText}>
+                    Бірден көмек аласың, күтіп отырмайсың
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <ul style={s.bulletList}>
-            <li style={s.bulletItem}>ҰБТ-ға ұқсас тест құрылымы</li>
-            <li style={s.bulletItem}>Уақытпен жұмыс</li>
-            <li style={s.bulletItem}>Нәтиже мен қателер анализі</li>
-            <li style={s.bulletItem}>Үздік балл tracking</li>
-          </ul>
+            <a href="/dashboard/ai-tutor" style={s.primaryBtn}>
+              AI Tutor ашу
+            </a>
+          </motion.div>
 
-          <a href="/dashboard/simulator" style={s.primaryBtn}>Симуляторды ашу</a>
-        </motion.div>
-      </div>
-    </section>
-  )
-}
+          <motion.div
+            {...fadeUp}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            style={s.aiPreviewWrap}
+          >
+            <div style={s.aiPreviewTop}>
+              <div style={s.aiPreviewBadge}>LIVE AI PREVIEW</div>
+              <div style={s.aiPreviewTitle}>AI Tutor диалогы</div>
+            </div>
 
-function AnalyticsSection() {
-  return (
-    <section style={s.analyticsWrap}>
-      <motion.div {...fadeUp} style={s.analyticsCard}>
-        <div style={s.sectionBadge}>ANALYTICS</div>
-        <h2 style={s.sectionTitle}>Прогресс анализ</h2>
-        <p style={s.sectionTextCenter}>
-          Оқушы қай бөлімде әлсіз екенін, қай пәнде өсу бар екенін және қандай
-          бағытта жұмыс істеу керегін көре алады.
-        </p>
+            <div style={s.aiConversation}>
+              <div style={s.userBubble}>Фотоэффект деген не?</div>
 
-        <div style={s.analyticsBars}>
-          <div style={s.barCol}>
-            <div style={{ ...s.bar, height: 80 }} />
-            <span style={s.barLabel}>1</span>
-          </div>
-          <div style={s.barCol}>
-            <div style={{ ...s.bar, height: 130 }} />
-            <span style={s.barLabel}>2</span>
-          </div>
-          <div style={s.barCol}>
-            <div style={{ ...s.bar, height: 105 }} />
-            <span style={s.barLabel}>3</span>
-          </div>
-          <div style={s.barCol}>
-            <div style={{ ...s.bar, height: 180 }} />
-            <span style={s.barLabel}>4</span>
-          </div>
-          <div style={s.barCol}>
-            <div style={{ ...s.bar, height: 220 }} />
-            <span style={s.barLabel}>5</span>
-          </div>
+              <div style={s.botBubble}>
+                Фотоэффект — жарықтың әсерінен металдан электрондардың бөлініп шығу құбылысы.
+              </div>
+
+              <div style={s.botSoftBubble}>
+                Қарапайым айтсақ: жарық металға түскенде, оның бетінен электрондар ұшып шығады.
+              </div>
+
+              <div style={s.botSoftBubble}>
+                Қаласаң, мен саған осыны ҰБТ форматына сай қысқаша мысалмен түсіндіріп беремін.
+              </div>
+            </div>
+
+            <div style={s.aiBottomCards}>
+              <div style={s.aiMiniCard}>
+                <div style={s.aiMiniLabel}>Формат</div>
+                <div style={s.aiMiniValue}>Q&A</div>
+              </div>
+
+              <div style={s.aiMiniCard}>
+                <div style={s.aiMiniLabel}>Жылдамдық</div>
+                <div style={s.aiMiniValue}>Instant</div>
+              </div>
+
+              <div style={s.aiMiniCard}>
+                <div style={s.aiMiniLabel}>Мақсат</div>
+                <div style={s.aiMiniValue}>120+</div>
+              </div>
+            </div>
+          </motion.div>
         </div>
-      </motion.div>
+      </div>
     </section>
   )
 }
 
-function ParentsSection() {
+function Simulator() {
   return (
-    <section id="parents" style={s.darkBlockWrap}>
-      <div style={s.darkBlock}>
+    <section id="simulator" style={s.sectionWrap}>
+      <div style={s.simSectionShell}>
+        <div style={s.splitGrid}>
+          <motion.div {...fadeUp} style={s.simulatorVisual}>
+            <div style={s.simVisualTop}>
+              <div style={s.simVisualBadge}>FULL UBT MODE</div>
+              <div style={s.simVisualTitle}>ҰБТ симуляторы</div>
+            </div>
+
+            <div style={s.simScorePanel}>
+              <div style={s.simScoreBig}>140</div>
+              <div style={s.simScoreText}>толық тест форматы</div>
+            </div>
+
+            <div style={s.simInfoGrid}>
+              <div style={s.simInfoCard}>
+                <div style={s.simInfoLabel}>Уақыт</div>
+                <div style={s.simInfoValue}>4 сағат</div>
+              </div>
+              <div style={s.simInfoCard}>
+                <div style={s.simInfoLabel}>Анализ</div>
+                <div style={s.simInfoValue}>AI</div>
+              </div>
+              <div style={s.simInfoCard}>
+                <div style={s.simInfoLabel}>Формат</div>
+                <div style={s.simInfoValue}>ҰБТ</div>
+              </div>
+              <div style={s.simInfoCard}>
+                <div style={s.simInfoLabel}>Нәтиже</div>
+                <div style={s.simInfoValue}>Балл</div>
+              </div>
+            </div>
+          </motion.div>
+
+          <motion.div {...fadeUp}>
+            <div style={s.sectionBadge}>SIMULATOR</div>
+            <h2 style={s.sectionTitle}>
+              Нағыз ҰБТ сияқты
+              <br />
+              толық тәжірибе
+            </h2>
+
+            <p style={s.sectionTextLeft}>
+              Бұл жай тест емес. Оқушы уақытпен жұмыс істейді, шынайы форматқа
+              үйренеді, қателерді талдайды және өз нәтижесін жүйелі түрде көтереді.
+            </p>
+
+            <div style={s.simBulletCards}>
+              <div style={s.simBulletCard}>
+                <div style={s.simBulletTitle}>Нағыз құрылым</div>
+                <div style={s.simBulletText}>
+                  ҰБТ-ға ұқсас сұрақ форматы мен логикасы
+                </div>
+              </div>
+
+              <div style={s.simBulletCard}>
+                <div style={s.simBulletTitle}>Уақыт қысымы</div>
+                <div style={s.simBulletText}>
+                  Таймингпен жұмыс істеуді үйретеді
+                </div>
+              </div>
+
+              <div style={s.simBulletCard}>
+                <div style={s.simBulletTitle}>Нәтиже талдауы</div>
+                <div style={s.simBulletText}>
+                  Әлсіз және күшті бөлімдерді көруге болады
+                </div>
+              </div>
+            </div>
+
+            <a href="/dashboard/simulator" style={s.primaryBtn}>
+              Симуляторды ашу
+            </a>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function Parents() {
+  return (
+    <section id="parents" style={s.darkSectionOuter}>
+      <div style={s.darkSection}>
         <div style={s.splitGridDark}>
           <motion.div {...fadeUp}>
             <div style={s.sectionBadgeDark}>PARENT CABINET</div>
             <h2 style={s.sectionTitleDark}>Ата-ана кабинеті</h2>
             <p style={s.sectionTextDarkLeft}>
-              Ата-аналар баланың прогресін, оқу жоспарын және соңғы нәтижелерін
-              көре алады. Бұл бақылауды күшейтіп, жүйелі дайындыққа көмектеседі.
+              Ата-аналар баланың прогресін, оқу жоспарын және соңғы нәтижелерін көре алады.
             </p>
 
             <ul style={s.bulletListDark}>
@@ -436,27 +507,17 @@ function ParentsSection() {
               <li style={s.bulletItemDark}>Тұрақты дайындықты бақылау</li>
             </ul>
 
-            <a href="/parent/login" style={s.primaryBtn}>Ата-ана кіруі</a>
+            <a href="/parent/login" style={s.primaryBtn}>
+              Ата-ана кіруі
+            </a>
           </motion.div>
 
-          <motion.div {...fadeUp} style={s.parentPreview}>
-            <div style={s.parentCardTop}>Parent Dashboard</div>
-            <div style={s.parentLine}>
-              <span>Соңғы балл</span>
-              <strong>104</strong>
-            </div>
-            <div style={s.parentLine}>
-              <span>Үздік балл</span>
-              <strong>118</strong>
-            </div>
-            <div style={s.parentLine}>
-              <span>Study plan</span>
-              <strong>78%</strong>
-            </div>
-            <div style={s.parentLine}>
-              <span>Streak</span>
-              <strong>12 күн</strong>
-            </div>
+          <motion.div {...fadeUp} style={s.parentCard}>
+            <div style={s.parentTitle}>Parent Dashboard</div>
+            <div style={s.parentRow}><span>Соңғы балл</span><strong>104</strong></div>
+            <div style={s.parentRow}><span>Үздік балл</span><strong>118</strong></div>
+            <div style={s.parentRow}><span>Study plan</span><strong>78%</strong></div>
+            <div style={s.parentRow}><span>Streak</span><strong>12 күн</strong></div>
           </motion.div>
         </div>
       </div>
@@ -464,67 +525,21 @@ function ParentsSection() {
   )
 }
 
-function TestimonialsSection() {
-  const items = [
-    {
-      name: 'Аружан',
-      text: 'Платформа өте ыңғайлы. Симулятор мен AI Tutor нақты көмектесті.',
-    },
-    {
-      name: 'Нұрсұлтан',
-      text: 'ҰБТ-ға дайындық жүйелі болды. Нәтиже динамикасын көру өте пайдалы.',
-    },
-    {
-      name: 'Айару',
-      text: 'Пәндер реттелген, интерфейс әдемі, оқу процесі жеңіл болды.',
-    },
-  ]
-
+function FinalCTA() {
   return (
-    <section style={s.sectionWrap}>
-      <motion.div {...fadeUp} style={s.sectionHead}>
-        <div style={s.sectionBadge}>REVIEWS</div>
-        <h2 style={s.sectionTitle}>Оқушылар пікірі</h2>
-        <p style={s.sectionText}>
-          Платформаны қолданған оқушылардың алғашқы әсері мен нәтижелері.
-        </p>
-      </motion.div>
-
-      <motion.div
-        variants={staggerWrap}
-        initial="initial"
-        whileInView="whileInView"
-        viewport={{ once: true, amount: 0.2 }}
-        style={s.testimonialGrid}
-      >
-        {items.map((item) => (
-          <motion.div key={item.name} variants={fadeUp} style={s.testimonialCard}>
-            <div style={s.testimonialText}>{item.text}</div>
-            <div style={s.testimonialName}>{item.name}</div>
-          </motion.div>
-        ))}
-      </motion.div>
-    </section>
-  )
-}
-
-function FinalCta() {
-  return (
-    <section style={s.finalWrap}>
-      <motion.div {...fadeUp} style={s.finalCard}>
+    <section style={s.ctaWrap}>
+      <motion.div {...fadeUp} style={s.ctaCard}>
         <div style={s.sectionBadgeDark}>START NOW</div>
-        <h2 style={s.finalTitle}>
-          ҰБТ-ға жүйелі дайындал
+        <h2 style={s.ctaTitle}>
+          ҰБТ-ға KHAMADI ONLINE-мен
           <br />
-          KHAMADI ONLINE-мен
+          жүйелі дайындал
         </h2>
-
-        <p style={s.finalText}>
-          Жеке дайындық жүйесі, AI қолдауы және толық оқу экожүйесі —
-          жоғары нәтижеге апаратын дұрыс жол.
+        <p style={s.ctaText}>
+          AI Tutor, толық симулятор, пәндер базасы және прогресс бақылауы —
+          жоғары нәтижеге апаратын нақты жүйе.
         </p>
-
-        <div style={s.finalButtons}>
+        <div style={s.ctaButtons}>
           <a href="/register" style={s.primaryBtnBig}>Дайындықты бастау</a>
           <a href="/login" style={s.secondaryBtnBig}>Аккаунтқа кіру</a>
         </div>
@@ -546,12 +561,45 @@ function Footer() {
           <a href="#features" style={s.footerLink}>Мүмкіндіктер</a>
           <a href="#subjects" style={s.footerLink}>Пәндер</a>
           <a href="#ai" style={s.footerLink}>AI Tutor</a>
-          <a href="/login" style={s.footerLink}>Кіру</a>
+          <a href="#simulator" style={s.footerLink}>Симулятор</a>
+          <a
+            href="https://www.instagram.com/khamadi.online?igsh=MWV2c2hmOTJpNXJkZw%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={s.footerLink}
+          >
+            Instagram
+          </a>
+          <a
+            href="https://wa.me/77761356435"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={s.footerLink}
+          >
+            WhatsApp
+          </a>
         </div>
       </div>
 
       <div style={s.footerBottom}>© 2026 KHAMADI ONLINE</div>
     </footer>
+  )
+}
+
+function WhatsAppFloat() {
+  return (
+    <a
+      href="https://wa.me/77761356435"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={s.whatsappFloat}
+      aria-label="WhatsApp"
+    >
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.52 0 .18 5.34.18 11.88c0 2.1.54 4.14 1.56 5.94L0 24l6.36-1.68a11.86 11.86 0 0 0 5.7 1.44h.06c6.54 0 11.88-5.34 11.88-11.88 0-3.18-1.26-6.18-3.48-8.4zM12.12 21.78h-.06a9.9 9.9 0 0 1-5.04-1.38l-.36-.18-3.78.96 1.02-3.66-.24-.36a9.87 9.87 0 0 1-1.56-5.28c0-5.46 4.44-9.9 9.9-9.9 2.64 0 5.1 1.02 6.96 2.88a9.78 9.78 0 0 1 2.88 7.02c0 5.46-4.44 9.9-9.72 9.9zm5.4-7.38c-.3-.18-1.8-.9-2.1-1.02-.24-.06-.48-.12-.66.18-.18.3-.72 1.02-.9 1.2-.12.18-.3.24-.6.06-.3-.18-1.2-.42-2.28-1.38-.84-.72-1.44-1.62-1.62-1.92-.18-.3 0-.42.12-.6.12-.12.3-.3.42-.48.18-.18.24-.3.36-.54.12-.18.06-.42 0-.54-.06-.18-.66-1.62-.9-2.16-.24-.6-.48-.48-.66-.48h-.54c-.18 0-.48.06-.72.3-.24.3-.96.9-.96 2.16 0 1.32.96 2.58 1.08 2.76.18.18 1.92 3 4.68 4.08.66.3 1.2.42 1.62.54.66.18 1.26.18 1.74.12.54-.06 1.8-.72 2.04-1.44.3-.72.3-1.32.18-1.44-.06-.12-.24-.18-.54-.36z" />
+      </svg>
+      <span style={{ marginLeft: 10 }}>WhatsApp</span>
+    </a>
   )
 }
 
@@ -566,7 +614,7 @@ const s: Record<string, React.CSSProperties> = {
     fontFamily: 'Montserrat, sans-serif',
   },
 
-  bgGlowTop: {
+  glowTop: {
     position: 'absolute',
     right: -140,
     top: -140,
@@ -578,7 +626,7 @@ const s: Record<string, React.CSSProperties> = {
     pointerEvents: 'none',
   },
 
-  bgGlowBottom: {
+  glowBottom: {
     position: 'absolute',
     left: -140,
     bottom: -140,
@@ -652,6 +700,33 @@ const s: Record<string, React.CSSProperties> = {
     display: 'flex',
     alignItems: 'center',
     gap: 10,
+  },
+
+  iconLink: {
+    width: 44,
+    height: 44,
+    borderRadius: 14,
+    border: '1px solid #E2E8F0',
+    background: 'rgba(255,255,255,0.84)',
+    color: '#0F172A',
+    textDecoration: 'none',
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    boxShadow: '0 10px 20px rgba(15,23,42,0.05)',
+  },
+
+  whatsappIconLink: {
+    width: 44,
+    height: 44,
+    borderRadius: 14,
+    background: '#25D366',
+    color: '#FFFFFF',
+    textDecoration: 'none',
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    boxShadow: '0 14px 28px rgba(37,211,102,0.25)',
   },
 
   headerGhost: {
@@ -776,14 +851,18 @@ const s: Record<string, React.CSSProperties> = {
   },
 
   heroMiniStats: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: 20,
-    flexWrap: 'wrap',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+    gap: 12,
+    maxWidth: 640,
   },
 
-  heroMiniStat: {
-    minWidth: 110,
+  heroMiniCard: {
+    background: 'rgba(255,255,255,0.78)',
+    border: '1px solid rgba(226,232,240,0.95)',
+    borderRadius: 20,
+    padding: 18,
+    boxShadow: '0 10px 20px rgba(15,23,42,0.04)',
   },
 
   heroMiniValue: {
@@ -798,12 +877,6 @@ const s: Record<string, React.CSSProperties> = {
     fontSize: 13,
     color: '#64748B',
     lineHeight: 1.5,
-  },
-
-  heroMiniDivider: {
-    width: 1,
-    height: 42,
-    background: '#E2E8F0',
   },
 
   mockupOuter: {
@@ -849,22 +922,16 @@ const s: Record<string, React.CSSProperties> = {
     padding: 20,
   },
 
-  mockupHero: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 0.95fr',
-    gap: 14,
-    marginBottom: 14,
-  },
-
-  mockupHeroLeft: {
+  mockupBanner: {
     borderRadius: 24,
     padding: 22,
     background:
       'radial-gradient(circle at top right, rgba(56,189,248,0.16), transparent 26%), linear-gradient(135deg, #050816 0%, #102A43 70%, #0EA5E9 100%)',
     color: '#FFFFFF',
+    marginBottom: 14,
   },
 
-  mockPill: {
+  mockupBadge: {
     display: 'inline-flex',
     padding: '8px 12px',
     borderRadius: 999,
@@ -875,82 +942,24 @@ const s: Record<string, React.CSSProperties> = {
     marginBottom: 14,
   },
 
-  mockupBigTitle: {
+  mockupBig: {
     fontSize: 30,
     lineHeight: 1.05,
     fontWeight: 900,
     marginBottom: 10,
   },
 
-  mockupText: {
+  mockupSub: {
     fontSize: 13,
     lineHeight: 1.7,
     color: 'rgba(255,255,255,0.74)',
-    marginBottom: 16,
   },
 
-  mockupButtons: {
-    display: 'flex',
-    gap: 8,
-    flexWrap: 'wrap',
-  },
-
-  mockPrimaryBtn: {
-    minHeight: 36,
-    padding: '0 12px',
-    borderRadius: 12,
-    background: '#FFFFFF',
-    color: '#0F172A',
-    fontSize: 12,
-    fontWeight: 800,
-    display: 'inline-flex',
-    alignItems: 'center',
-  },
-
-  mockSecondaryBtn: {
-    minHeight: 36,
-    padding: '0 12px',
-    borderRadius: 12,
-    background: 'rgba(255,255,255,0.08)',
-    border: '1px solid rgba(255,255,255,0.08)',
-    color: '#FFFFFF',
-    fontSize: 12,
-    fontWeight: 700,
-    display: 'inline-flex',
-    alignItems: 'center',
-  },
-
-  mockupHeroCard: {
-    borderRadius: 24,
-    padding: 20,
-    background: 'rgba(255,255,255,0.06)',
-    color: '#FFFFFF',
-    border: '1px solid rgba(255,255,255,0.06)',
-    backdropFilter: 'blur(10px)',
-  },
-
-  mockupHeroCardTitle: {
-    fontSize: 15,
-    fontWeight: 900,
-    marginBottom: 14,
-  },
-
-  mockListItem: {
-    minHeight: 38,
-    padding: '0 12px',
-    borderRadius: 12,
-    background: 'rgba(255,255,255,0.08)',
-    fontSize: 12,
-    display: 'flex',
-    alignItems: 'center',
-    marginBottom: 8,
-    color: 'rgba(255,255,255,0.82)',
-  },
-
-  mockupStats: {
+  mockupCards: {
     display: 'grid',
     gridTemplateColumns: 'repeat(4, 1fr)',
     gap: 10,
+    marginBottom: 14,
   },
 
   mockStatCard: {
@@ -975,6 +984,32 @@ const s: Record<string, React.CSSProperties> = {
     lineHeight: 1,
   },
 
+  mockupPlan: {
+    borderRadius: 24,
+    padding: 20,
+    background: 'rgba(255,255,255,0.06)',
+    color: '#FFFFFF',
+    border: '1px solid rgba(255,255,255,0.06)',
+  },
+
+  mockupPlanTitle: {
+    fontSize: 15,
+    fontWeight: 900,
+    marginBottom: 14,
+  },
+
+  mockItem: {
+    minHeight: 38,
+    padding: '0 12px',
+    borderRadius: 12,
+    background: 'rgba(255,255,255,0.08)',
+    fontSize: 12,
+    display: 'flex',
+    alignItems: 'center',
+    marginBottom: 8,
+    color: 'rgba(255,255,255,0.82)',
+  },
+
   sectionWrapSm: {
     maxWidth: 1280,
     margin: '0 auto',
@@ -994,7 +1029,6 @@ const s: Record<string, React.CSSProperties> = {
     padding: 28,
     textAlign: 'center',
     boxShadow: '0 14px 26px rgba(15,23,42,0.04)',
-    backdropFilter: 'blur(12px)',
   },
 
   statValue: {
@@ -1067,7 +1101,7 @@ const s: Record<string, React.CSSProperties> = {
     minHeight: 220,
   },
 
-  featureIconCircle: {
+  featureIcon: {
     width: 46,
     height: 46,
     borderRadius: 14,
@@ -1095,11 +1129,11 @@ const s: Record<string, React.CSSProperties> = {
     color: '#64748B',
   },
 
-  darkBlockWrap: {
+  darkSectionOuter: {
     padding: '0 24px',
   },
 
-  darkBlock: {
+  darkSection: {
     maxWidth: 1280,
     margin: '0 auto',
     padding: '80px 32px',
@@ -1160,7 +1194,6 @@ const s: Record<string, React.CSSProperties> = {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'flex-end',
-    boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.05)',
   },
 
   subjectIcon: {
@@ -1189,13 +1222,6 @@ const s: Record<string, React.CSSProperties> = {
     alignItems: 'center',
   },
 
-  splitGridReverse: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: 28,
-    alignItems: 'center',
-  },
-
   sectionTextLeft: {
     fontSize: 16,
     lineHeight: 1.9,
@@ -1216,24 +1242,128 @@ const s: Record<string, React.CSSProperties> = {
     lineHeight: 1.8,
   },
 
-  glassPreview: {
-    borderRadius: 30,
-    padding: 24,
-    background: 'rgba(255,255,255,0.70)',
+  aiSectionShell: {
+    borderRadius: 36,
+    padding: 32,
+    background: 'rgba(255,255,255,0.78)',
     border: '1px solid rgba(226,232,240,0.95)',
     boxShadow: '0 20px 40px rgba(15,23,42,0.06)',
-    backdropFilter: 'blur(14px)',
-    minHeight: 360,
   },
 
-  chatHeader: {
-    fontSize: 18,
+  aiFeatureList: {
+    display: 'grid',
+    gap: 14,
+    marginBottom: 26,
+  },
+
+  aiFeatureItem: {
+    display: 'flex',
+    alignItems: 'flex-start',
+    gap: 14,
+    padding: '14px 16px',
+    borderRadius: 18,
+    background: '#F8FBFF',
+    border: '1px solid #E2E8F0',
+  },
+
+  aiFeatureDot: {
+    width: 28,
+    height: 28,
+    borderRadius: 999,
+    background: 'linear-gradient(135deg, #38BDF8, #0EA5E9)',
+    color: '#FFFFFF',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: 13,
     fontWeight: 900,
+    flexShrink: 0,
+  },
+
+  aiFeatureTitle: {
+    fontSize: 15,
+    fontWeight: 800,
     color: '#0F172A',
+    marginBottom: 4,
+  },
+
+  aiFeatureText: {
+    fontSize: 13,
+    lineHeight: 1.7,
+    color: '#64748B',
+  },
+
+  aiPreviewWrap: {
+    borderRadius: 30,
+    padding: 24,
+    background:
+      'radial-gradient(circle at top right, rgba(56,189,248,0.10), transparent 22%), linear-gradient(180deg, #FFFFFF 0%, #F8FBFF 100%)',
+    border: '1px solid rgba(226,232,240,0.95)',
+    boxShadow: '0 18px 34px rgba(15,23,42,0.05)',
+    minHeight: 420,
+    display: 'flex',
+    flexDirection: 'column',
+  },
+
+  aiPreviewTop: {
     marginBottom: 18,
   },
 
-  chatBubbleUser: {
+  aiPreviewBadge: {
+    display: 'inline-flex',
+    padding: '8px 12px',
+    borderRadius: 999,
+    background: '#E0F2FE',
+    color: '#0369A1',
+    fontSize: 11,
+    fontWeight: 800,
+    marginBottom: 12,
+  },
+
+  aiPreviewTitle: {
+    fontSize: 20,
+    fontWeight: 900,
+    color: '#0F172A',
+    letterSpacing: '-0.02em',
+  },
+
+  aiConversation: {
+    display: 'grid',
+    gap: 12,
+    marginBottom: 18,
+  },
+
+  aiBottomCards: {
+    marginTop: 'auto',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)',
+    gap: 10,
+  },
+
+  aiMiniCard: {
+    borderRadius: 18,
+    padding: 16,
+    background: '#FFFFFF',
+    border: '1px solid #E2E8F0',
+    boxShadow: '0 10px 20px rgba(15,23,42,0.04)',
+  },
+
+  aiMiniLabel: {
+    fontSize: 11,
+    fontWeight: 800,
+    color: '#64748B',
+    textTransform: 'uppercase',
+    letterSpacing: '0.05em',
+    marginBottom: 8,
+  },
+
+  aiMiniValue: {
+    fontSize: 20,
+    fontWeight: 900,
+    color: '#0F172A',
+  },
+
+  userBubble: {
     marginLeft: 'auto',
     maxWidth: '82%',
     padding: '14px 16px',
@@ -1245,7 +1375,7 @@ const s: Record<string, React.CSSProperties> = {
     marginBottom: 12,
   },
 
-  chatBubbleBot: {
+  botBubble: {
     maxWidth: '88%',
     padding: '14px 16px',
     borderRadius: '18px 18px 18px 6px',
@@ -1256,7 +1386,7 @@ const s: Record<string, React.CSSProperties> = {
     marginBottom: 12,
   },
 
-  chatBubbleBotSoft: {
+  botSoftBubble: {
     maxWidth: '88%',
     padding: '14px 16px',
     borderRadius: '18px 18px 18px 6px',
@@ -1266,93 +1396,119 @@ const s: Record<string, React.CSSProperties> = {
     lineHeight: 1.7,
   },
 
+  simSectionShell: {
+    borderRadius: 36,
+    padding: 32,
+    background:
+      'radial-gradient(circle at top right, rgba(56,189,248,0.08), transparent 24%), linear-gradient(180deg, #FFFFFF 0%, #F8FBFF 100%)',
+    border: '1px solid rgba(226,232,240,0.95)',
+    boxShadow: '0 20px 40px rgba(15,23,42,0.06)',
+  },
+
   simulatorVisual: {},
 
-  simBigCard: {
-    height: 240,
+  simVisualTop: {
+    marginBottom: 16,
+  },
+
+  simVisualBadge: {
+    display: 'inline-flex',
+    padding: '8px 12px',
+    borderRadius: 999,
+    background: '#E0F2FE',
+    color: '#0369A1',
+    fontSize: 11,
+    fontWeight: 800,
+    marginBottom: 12,
+  },
+
+  simVisualTitle: {
+    fontSize: 24,
+    fontWeight: 900,
+    color: '#0F172A',
+    letterSpacing: '-0.02em',
+  },
+
+  simScorePanel: {
+    height: 220,
     borderRadius: 30,
     background: 'linear-gradient(135deg, #0F172A 0%, #111827 100%)',
     color: '#FFFFFF',
     display: 'flex',
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    fontSize: 84,
-    fontWeight: 900,
-    letterSpacing: '-0.05em',
-    marginBottom: 14,
+    marginBottom: 16,
     boxShadow: '0 24px 44px rgba(15,23,42,0.14)',
   },
 
-  simSmallCardRow: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: 14,
+  simScoreBig: {
+    fontSize: 84,
+    fontWeight: 900,
+    letterSpacing: '-0.05em',
+    lineHeight: 1,
+    marginBottom: 8,
   },
 
-  simSmallCard: {
-    minHeight: 90,
-    borderRadius: 22,
+  simScoreText: {
+    fontSize: 15,
+    color: 'rgba(255,255,255,0.72)',
+  },
+
+  simInfoGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(2, 1fr)',
+    gap: 12,
+  },
+
+  simInfoCard: {
+    minHeight: 86,
+    borderRadius: 20,
     background: '#FFFFFF',
     border: '1px solid #E2E8F0',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    fontSize: 18,
+    padding: 16,
+    boxShadow: '0 10px 20px rgba(15,23,42,0.04)',
+  },
+
+  simInfoLabel: {
+    fontSize: 11,
+    fontWeight: 800,
+    color: '#64748B',
+    textTransform: 'uppercase',
+    letterSpacing: '0.05em',
+    marginBottom: 8,
+  },
+
+  simInfoValue: {
+    fontSize: 22,
+    fontWeight: 900,
+    color: '#0F172A',
+  },
+
+  simBulletCards: {
+    display: 'grid',
+    gap: 12,
+    marginBottom: 26,
+  },
+
+  simBulletCard: {
+    borderRadius: 18,
+    padding: '16px 18px',
+    background: '#F8FBFF',
+    border: '1px solid #E2E8F0',
+  },
+
+  simBulletTitle: {
+    fontSize: 15,
     fontWeight: 800,
     color: '#0F172A',
-    boxShadow: '0 12px 24px rgba(15,23,42,0.05)',
+    marginBottom: 6,
   },
 
-  analyticsWrap: {
-    maxWidth: 1280,
-    margin: '0 auto',
-    padding: '0 24px 80px',
-  },
-
-  analyticsCard: {
-    borderRadius: 40,
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    padding: 34,
-    boxShadow: '0 18px 34px rgba(15,23,42,0.05)',
-    textAlign: 'center',
-  },
-
-  sectionTextCenter: {
-    fontSize: 16,
-    lineHeight: 1.9,
+  simBulletText: {
+    fontSize: 13,
+    lineHeight: 1.7,
     color: '#64748B',
-    maxWidth: 760,
-    margin: '0 auto 28px',
-  },
-
-  analyticsBars: {
-    height: 280,
-    display: 'flex',
-    alignItems: 'flex-end',
-    justifyContent: 'center',
-    gap: 16,
-    paddingTop: 20,
-  },
-
-  barCol: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    gap: 10,
-  },
-
-  bar: {
-    width: 64,
-    borderRadius: 18,
-    background: 'linear-gradient(180deg, #38BDF8 0%, #0EA5E9 100%)',
-    boxShadow: '0 12px 24px rgba(14,165,233,0.18)',
-  },
-
-  barLabel: {
-    fontSize: 12,
-    color: '#64748B',
-    fontWeight: 700,
   },
 
   splitGridDark: {
@@ -1382,22 +1538,21 @@ const s: Record<string, React.CSSProperties> = {
     lineHeight: 1.8,
   },
 
-  parentPreview: {
+  parentCard: {
     borderRadius: 28,
     padding: 24,
     background: 'rgba(255,255,255,0.08)',
     border: '1px solid rgba(255,255,255,0.08)',
-    boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.05)',
   },
 
-  parentCardTop: {
+  parentTitle: {
     fontSize: 18,
     fontWeight: 900,
     color: '#FFFFFF',
     marginBottom: 18,
   },
 
-  parentLine: {
+  parentRow: {
     minHeight: 52,
     padding: '0 16px',
     borderRadius: 16,
@@ -1410,40 +1565,13 @@ const s: Record<string, React.CSSProperties> = {
     fontSize: 14,
   },
 
-  testimonialGrid: {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)',
-    gap: 16,
-  },
-
-  testimonialCard: {
-    borderRadius: 28,
-    padding: 24,
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    boxShadow: '0 14px 26px rgba(15,23,42,0.04)',
-  },
-
-  testimonialText: {
-    fontSize: 15,
-    lineHeight: 1.9,
-    color: '#475569',
-    marginBottom: 18,
-  },
-
-  testimonialName: {
-    fontSize: 15,
-    fontWeight: 900,
-    color: '#0F172A',
-  },
-
-  finalWrap: {
+  ctaWrap: {
     maxWidth: 1280,
     margin: '0 auto',
-    padding: '0 24px 90px',
+    padding: '80px 24px 90px',
   },
 
-  finalCard: {
+  ctaCard: {
     borderRadius: 40,
     padding: 40,
     background:
@@ -1453,7 +1581,7 @@ const s: Record<string, React.CSSProperties> = {
     boxShadow: '0 30px 60px rgba(2,8,23,0.18)',
   },
 
-  finalTitle: {
+  ctaTitle: {
     fontSize: 56,
     lineHeight: 1.02,
     fontWeight: 900,
@@ -1461,7 +1589,7 @@ const s: Record<string, React.CSSProperties> = {
     margin: '0 0 16px 0',
   },
 
-  finalText: {
+  ctaText: {
     fontSize: 16,
     lineHeight: 1.9,
     color: 'rgba(255,255,255,0.76)',
@@ -1469,7 +1597,7 @@ const s: Record<string, React.CSSProperties> = {
     margin: '0 auto 26px',
   },
 
-  finalButtons: {
+  ctaButtons: {
     display: 'flex',
     justifyContent: 'center',
     gap: 12,
@@ -1549,5 +1677,23 @@ const s: Record<string, React.CSSProperties> = {
     marginTop: 18,
     fontSize: 12,
     color: '#94A3B8',
+  },
+
+  whatsappFloat: {
+    position: 'fixed',
+    right: 26,
+    bottom: 26,
+    minHeight: 56,
+    padding: '0 18px',
+    borderRadius: 999,
+    background: '#25D366',
+    color: '#FFFFFF',
+    fontWeight: 800,
+    textDecoration: 'none',
+    display: 'inline-flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    boxShadow: '0 24px 40px rgba(37,211,102,0.30)',
+    zIndex: 100,
   },
 }
