@@ -1,288 +1,326 @@
 'use client'
 
-export default function HomePage() {
-  return (
-    <main
-      style={{
-        minHeight: '100vh',
-        background:
-          'radial-gradient(circle at top right, rgba(56,189,248,0.10), transparent 22%), radial-gradient(circle at bottom left, rgba(14,165,233,0.08), transparent 24%), linear-gradient(180deg, #F8FCFF 0%, #FFFFFF 58%, #EEF8FF 100%)',
-        color: '#0F172A',
-      }}
-    >
-      <header
-        style={{
-          maxWidth: 1240,
-          margin: '0 auto',
-          padding: '20px 24px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: 16,
-        }}
-      >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <div
-            style={{
-              width: 42,
-              height: 42,
-              borderRadius: 14,
-              background: 'linear-gradient(135deg,#38BDF8,#0EA5E9)',
-              color: '#fff',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              fontWeight: 900,
-              fontSize: 18,
-            }}
-          >
-            K
-          </div>
+import { motion } from 'framer-motion'
+import { useEffect, useState } from 'react'
 
+function getDaysToUBT() {
+  const target = new Date('2026-06-20T00:00:00')
+  const now = new Date()
+  const diff = target.getTime() - now.getTime()
+  return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)))
+}
+
+export default function HomePage() {
+  const [days, setDays] = useState(0)
+
+  useEffect(() => {
+    setDays(getDaysToUBT())
+  }, [])
+
+  return (
+    <main style={s.page}>
+      
+      {/* HEADER */}
+      <header style={s.header}>
+        <div style={s.logoBox}>
+          <div style={s.logo}>K</div>
           <div>
-            <div style={{ fontSize: 15, fontWeight: 900 }}>KHAMADI ONLINE</div>
-            <div style={{ fontSize: 12, color: '#64748B' }}>
-              ҰБТ preparation platform
-            </div>
+            <div style={s.logoTitle}>KHAMADI ONLINE</div>
+            <div style={s.logoSub}>ҰБТ preparation platform</div>
           </div>
         </div>
 
-        <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap' }}>
-          <a href="/login" style={ghostBtn}>Оқушы кіруі</a>
-          <a href="/parent/login" style={ghostBtn}>Ата-ана кіруі</a>
-          <a href="/register" style={darkBtn}>Бастау</a>
+        <div style={s.nav}>
+          <a href="/login" style={s.navBtn}>Кіру</a>
+          <a href="/register" style={s.navPrimary}>Бастау</a>
         </div>
       </header>
 
-      <section
-        style={{
-          maxWidth: 1240,
-          margin: '0 auto',
-          padding: '40px 24px 24px',
-          display: 'grid',
-          gridTemplateColumns: '1.1fr 0.9fr',
-          gap: 24,
-          alignItems: 'center',
-        }}
-      >
-        <div>
-          <div
-            style={{
-              display: 'inline-flex',
-              padding: '10px 14px',
-              borderRadius: 999,
-              background: '#E0F2FE',
-              color: '#0369A1',
-              fontSize: 12,
-              fontWeight: 800,
-              marginBottom: 18,
-            }}
-          >
-            KHAMADI ONLINE · UBT 2026
-          </div>
+      {/* HERO */}
+      <section style={s.hero}>
 
-          <h1
-            style={{
-              fontSize: 64,
-              lineHeight: 0.98,
-              fontWeight: 900,
-              letterSpacing: '-0.05em',
-              color: '#0F172A',
-              margin: 0,
-              marginBottom: 18,
-              maxWidth: 760,
-            }}
-          >
-            ҰБТ-ға дайындықтың жаңа деңгейі.
+        <motion.div
+          initial={{opacity:0, y:60}}
+          animate={{opacity:1, y:0}}
+          transition={{duration:0.8}}
+        >
+          <div style={s.badge}>ҰБТ 2026</div>
+
+          <h1 style={s.heroTitle}>
+            ҰБТ-ға дайындықтың
+            <br/>
+            жаңа деңгейі
           </h1>
 
-          <p
-            style={{
-              fontSize: 18,
-              lineHeight: 1.9,
-              color: '#64748B',
-              maxWidth: 700,
-              margin: 0,
-              marginBottom: 26,
-            }}
-          >
-            Симулятор, AI тьютор, пәндер, жеке оқу жоспары, анализ және ата-ана кабинеті —
+          <p style={s.heroSub}>
+            AI тьютор, толық тест симуляторы,
+            пәндер базасы және ата-ана кабинеті —
             барлығы бір платформада.
           </p>
 
-          <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-            <a href="/register" style={darkBtnLarge}>Тіркелуді бастау</a>
-            <a href="/login" style={ghostBtnLarge}>Аккаунтқа кіру</a>
+          <div style={s.heroButtons}>
+            <a href="/register" style={s.primaryBtn}>Дайындықты бастау</a>
+            <a href="/login" style={s.secondaryBtn}>Аккаунтқа кіру</a>
           </div>
-        </div>
+        </motion.div>
 
-        <div
-          style={{
-            borderRadius: 32,
-            padding: 28,
-            background:
-              'radial-gradient(circle at top right, rgba(56,189,248,0.22), transparent 24%), linear-gradient(135deg, #050816 0%, #0B1120 42%, #102A43 70%, #0EA5E9 100%)',
-            color: '#FFFFFF',
-            boxShadow: '0 30px 60px rgba(2,8,23,0.24)',
-            minHeight: 420,
-            display: 'flex',
-            flexDirection: 'column',
-            justifyContent: 'space-between',
-          }}
+        <motion.div
+          initial={{opacity:0, scale:0.9}}
+          animate={{opacity:1, scale:1}}
+          transition={{duration:0.9}}
+          style={s.countCard}
         >
-          <div>
-            <div
-              style={{
-                display: 'inline-flex',
-                padding: '10px 14px',
-                borderRadius: 999,
-                background: 'rgba(255,255,255,0.10)',
-                border: '1px solid rgba(255,255,255,0.10)',
-                fontSize: 12,
-                fontWeight: 800,
-                marginBottom: 18,
-              }}
-            >
-              Premium UBT Dashboard
-            </div>
+          <div style={s.countLabel}>ҰБТ-ға дейін</div>
+          <div style={s.countNumber}>{days}</div>
+          <div style={s.countSub}>күн қалды</div>
+        </motion.div>
 
-            <div
-              style={{
-                fontSize: 44,
-                lineHeight: 1.02,
-                fontWeight: 900,
-                letterSpacing: '-0.04em',
-                marginBottom: 14,
-              }}
-            >
-              120+ баллға
-              <br />
-              бірге жетеміз.
-            </div>
+      </section>
 
-            <div
-              style={{
-                fontSize: 15,
-                lineHeight: 1.8,
-                color: 'rgba(255,255,255,0.76)',
-              }}
-            >
-              Оқу жоспары, күнделікті мақсат, AI анализ және нақты прогресс —
-              барлығы бір жерде.
-            </div>
-          </div>
+      {/* FEATURES */}
+      <section style={s.section}>
+        <motion.h2
+          initial={{opacity:0,y:40}}
+          whileInView={{opacity:1,y:0}}
+          transition={{duration:0.6}}
+          viewport={{once:true}}
+          style={s.sectionTitle}
+        >
+          Платформа мүмкіндіктері
+        </motion.h2>
 
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: 12,
-              marginTop: 24,
-            }}
-          >
-            <InfoCard title="ҰБТ симулятор" text="Толық форматтағы тест" />
-            <InfoCard title="AI тьютор" text="Жылдам түсіндіру" />
-            <InfoCard title="Пәндер" text="PDF + quiz + сабақ" />
-            <InfoCard title="Ата-ана кабинеті" text="Прогресті бақылау" />
-          </div>
+        <div style={s.grid4}>
+
+          <Feature title="ҰБТ симулятор" text="Нағыз тест форматы" />
+
+          <Feature title="AI Tutor" text="Тақырып түсіндіру" />
+
+          <Feature title="Пәндер" text="PDF + тесттер" />
+
+          <Feature title="Прогресс" text="Нәтижені бақылау" />
+
         </div>
       </section>
+
+      {/* DARK SECTION */}
+      <section style={s.darkSection}>
+
+        <motion.h2
+          initial={{opacity:0}}
+          whileInView={{opacity:1}}
+          viewport={{once:true}}
+          style={s.darkTitle}
+        >
+          120+ баллға бірге жетеміз
+        </motion.h2>
+
+        <p style={s.darkText}>
+          Дұрыс стратегия, жүйелі оқу және толық анализ
+          арқылы гранттық нәтижеге жету мүмкін.
+        </p>
+
+        <a href="/register" style={s.ctaBtn}>
+          Қазір бастау
+        </a>
+
+      </section>
+
+      {/* FOOTER */}
+      <footer style={s.footer}>
+        <div>KHAMADI ONLINE</div>
+        <div style={s.footerSub}>© 2026</div>
+      </footer>
+
     </main>
   )
 }
 
-function InfoCard({
-  title,
-  text,
-}: {
-  title: string
-  text: string
-}) {
+function Feature({title,text}:{title:string,text:string}) {
   return (
-    <div
-      style={{
-        borderRadius: 18,
-        padding: 16,
-        background: 'rgba(255,255,255,0.08)',
-        border: '1px solid rgba(255,255,255,0.08)',
-      }}
+    <motion.div
+      initial={{opacity:0,y:40}}
+      whileInView={{opacity:1,y:0}}
+      transition={{duration:0.5}}
+      viewport={{once:true}}
+      style={s.feature}
     >
-      <div
-        style={{
-          fontSize: 14,
-          fontWeight: 800,
-          marginBottom: 6,
-        }}
-      >
-        {title}
-      </div>
-      <div
-        style={{
-          fontSize: 13,
-          lineHeight: 1.6,
-          color: 'rgba(255,255,255,0.72)',
-        }}
-      >
-        {text}
-      </div>
-    </div>
+      <div style={s.featureTitle}>{title}</div>
+      <div style={s.featureText}>{text}</div>
+    </motion.div>
   )
 }
 
-const darkBtn: React.CSSProperties = {
-  minHeight: 42,
-  padding: '0 16px',
-  borderRadius: 14,
-  background: '#0F172A',
-  color: '#FFFFFF',
-  textDecoration: 'none',
-  fontWeight: 800,
-  fontSize: 14,
-  display: 'inline-flex',
-  alignItems: 'center',
-  justifyContent: 'center',
+const s:any={
+
+page:{
+fontFamily:'Montserrat, sans-serif',
+background:'#FFFFFF'
+},
+
+header:{
+maxWidth:1200,
+margin:'0 auto',
+padding:24,
+display:'flex',
+justifyContent:'space-between',
+alignItems:'center'
+},
+
+logoBox:{display:'flex',gap:12,alignItems:'center'},
+
+logo:{
+width:40,
+height:40,
+borderRadius:12,
+background:'#0EA5E9',
+color:'#fff',
+display:'flex',
+alignItems:'center',
+justifyContent:'center',
+fontWeight:900
+},
+
+logoTitle:{fontWeight:900},
+logoSub:{fontSize:12,color:'#64748B'},
+
+nav:{display:'flex',gap:10},
+
+navBtn:{
+padding:'10px 16px',
+border:'1px solid #E2E8F0',
+borderRadius:12
+},
+
+navPrimary:{
+padding:'10px 16px',
+borderRadius:12,
+background:'#0F172A',
+color:'#fff'
+},
+
+hero:{
+maxWidth:1200,
+margin:'0 auto',
+padding:60,
+display:'grid',
+gridTemplateColumns:'1fr 1fr',
+gap:40,
+alignItems:'center'
+},
+
+badge:{
+background:'#E0F2FE',
+padding:'8px 14px',
+borderRadius:999,
+color:'#0369A1',
+fontWeight:800,
+width:'fit-content'
+},
+
+heroTitle:{
+fontSize:64,
+fontWeight:900,
+margin:'20px 0'
+},
+
+heroSub:{
+fontSize:18,
+color:'#64748B'
+},
+
+heroButtons:{
+display:'flex',
+gap:12,
+marginTop:20
+},
+
+primaryBtn:{
+padding:'14px 22px',
+background:'#0EA5E9',
+color:'#fff',
+borderRadius:14
+},
+
+secondaryBtn:{
+padding:'14px 22px',
+border:'1px solid #E2E8F0',
+borderRadius:14
+},
+
+countCard:{
+background:'#0F172A',
+color:'#fff',
+borderRadius:20,
+padding:40,
+textAlign:'center'
+},
+
+countNumber:{
+fontSize:80,
+fontWeight:900
+},
+
+section:{
+maxWidth:1200,
+margin:'100px auto',
+padding:20,
+textAlign:'center'
+},
+
+sectionTitle:{
+fontSize:42,
+fontWeight:900,
+marginBottom:40
+},
+
+grid4:{
+display:'grid',
+gridTemplateColumns:'repeat(4,1fr)',
+gap:20
+},
+
+feature:{
+padding:30,
+borderRadius:20,
+border:'1px solid #E2E8F0'
+},
+
+featureTitle:{fontWeight:900},
+featureText:{color:'#64748B'},
+
+darkSection:{
+background:'#0F172A',
+color:'#fff',
+padding:100,
+textAlign:'center'
+},
+
+darkTitle:{
+fontSize:48,
+fontWeight:900,
+marginBottom:20
+},
+
+darkText:{
+color:'rgba(255,255,255,0.7)',
+marginBottom:30
+},
+
+ctaBtn:{
+padding:'16px 26px',
+background:'#0EA5E9',
+borderRadius:16
+},
+
+footer:{
+padding:40,
+textAlign:'center',
+borderTop:'1px solid #E2E8F0'
+},
+
+footerSub:{
+fontSize:12,
+color:'#64748B'
 }
 
-const ghostBtn: React.CSSProperties = {
-  minHeight: 42,
-  padding: '0 16px',
-  borderRadius: 14,
-  border: '1px solid #E2E8F0',
-  background: '#FFFFFF',
-  color: '#0F172A',
-  textDecoration: 'none',
-  fontWeight: 800,
-  fontSize: 14,
-  display: 'inline-flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-}
-
-const darkBtnLarge: React.CSSProperties = {
-  minHeight: 52,
-  padding: '0 22px',
-  borderRadius: 18,
-  background: '#0F172A',
-  color: '#FFFFFF',
-  textDecoration: 'none',
-  fontWeight: 800,
-  fontSize: 15,
-  display: 'inline-flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-}
-
-const ghostBtnLarge: React.CSSProperties = {
-  minHeight: 52,
-  padding: '0 22px',
-  borderRadius: 18,
-  border: '1px solid #E2E8F0',
-  background: '#FFFFFF',
-  color: '#0F172A',
-  textDecoration: 'none',
-  fontWeight: 800,
-  fontSize: 15,
-  display: 'inline-flex',
-  alignItems: 'center',
-  justifyContent: 'center',
 }
