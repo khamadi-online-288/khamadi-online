@@ -1,93 +1,67 @@
-'use client'
+import type { Metadata, Viewport } from 'next'
+import './globals.css'
 
-import { useEffect, useState } from 'react'
-import { usePathname, useRouter } from 'next/navigation'
-import DashboardRouteShell from '@/components/dashboard/DashboardRouteShell'
-import { supabase } from '@/lib/supabase'
+export const metadata: Metadata = {
+  metadataBase: new URL('https://khamadi.online'),
+  title: 'ҰБТ дайындық платформасы | KHAMADI ONLINE',
+  description:
+    'KHAMADI ONLINE — ҰБТ-ға онлайн дайындық платформасы. ҰБТ тесттері, түсіндірме сабақтар, аналитика, AI tutor және толық дайындық жүйесі.',
+  keywords: [
+    'ҰБТ',
+    'ҰБТ дайындық',
+    'ЕНТ дайындық',
+    'ҰБТ тест',
+    'ҰБТ онлайн',
+    'ҰБТ платформасы',
+    'ЕНТ тест',
+    'ҰБТ-ға дайындық',
+    'KHAMADI ONLINE',
+  ],
+  applicationName: 'KHAMADI ONLINE',
+  authors: [{ name: 'KHAMADI ONLINE' }],
+  creator: 'KHAMADI ONLINE',
+  publisher: 'KHAMADI ONLINE',
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: 'ҰБТ дайындық платформасы | KHAMADI ONLINE',
+    description:
+      'ҰБТ-ға онлайн дайындық: тесттер, түсіндірмелер, аналитика және AI tutor.',
+    url: 'https://khamadi.online',
+    siteName: 'KHAMADI ONLINE',
+    locale: 'kk_KZ',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ҰБТ дайындық платформасы | KHAMADI ONLINE',
+    description:
+      'ҰБТ-ға онлайн дайындық: тесттер, түсіндірмелер, аналитика және AI tutor.',
+  },
+  alternates: {
+    canonical: 'https://khamadi.online',
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
+}
 
-export default function DashboardLayout({
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0EA5E9',
+}
+
+export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode
-}) {
-  const router = useRouter()
-  const pathname = usePathname()
-  const [checking, setChecking] = useState(true)
-
-  useEffect(() => {
-    let mounted = true
-
-    async function checkAuth() {
-      const {
-        data: { user },
-      } = await supabase.auth.getUser()
-
-      if (!mounted) return
-
-      const isParentPath = pathname.startsWith('/dashboard/parent')
-
-      if (!user) {
-        router.replace(isParentPath ? '/parent/login' : '/login')
-        return
-      }
-
-      const { data: profile } = await supabase
-        .from('profiles')
-        .select('role')
-        .eq('id', user.id)
-        .maybeSingle()
-
-      const role = profile?.role
-
-      if (role === 'parent' && !isParentPath) {
-        router.replace('/dashboard/parent')
-        return
-      }
-
-      if (role === 'student' && isParentPath) {
-        router.replace('/dashboard')
-        return
-      }
-
-      setChecking(false)
-    }
-
-    checkAuth()
-
-    const {
-      data: { subscription },
-    } = supabase.auth.onAuthStateChange((_event, session) => {
-      const isParentPath = pathname.startsWith('/dashboard/parent')
-
-      if (!session?.user) {
-        router.replace(isParentPath ? '/parent/login' : '/login')
-      }
-    })
-
-    return () => {
-      mounted = false
-      subscription.unsubscribe()
-    }
-  }, [router, pathname])
-
-  if (checking) {
-    return (
-      <div
-        style={{
-          minHeight: '100vh',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          background: '#F8FAFC',
-          color: '#0F172A',
-          fontSize: '16px',
-          fontWeight: 700,
-        }}
-      >
-        Жүктелуде...
-      </div>
-    )
-  }
-
-  return <DashboardRouteShell>{children}</DashboardRouteShell>
+}>) {
+  return (
+    <html lang="kk">
+      <body>{children}</body>
+    </html>
+  )
 }
