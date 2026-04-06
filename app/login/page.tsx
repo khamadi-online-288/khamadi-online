@@ -7,6 +7,7 @@ import { supabase } from '@/lib/supabase'
 type LoginRole = 'student' | 'parent'
 
 type Profile = {
+  id?: string
   role: string | null
   approval_status: string | null
 }
@@ -41,13 +42,20 @@ export default function LoginPage() {
         return
       }
 
+      const userId = data.user.id
+
       const { data: profile, error: profileError } = await supabase
         .from('profiles')
-        .select('role, approval_status')
-        .eq('id', data.user.id)
-        .single()
+        .select('id, role, approval_status')
+        .eq('id', userId)
+        .maybeSingle()
 
-      if (profileError || !profile) {
+      if (profileError) {
+        alert(profileError.message)
+        return
+      }
+
+      if (!profile) {
         alert('Профиль табылмады')
         return
       }
@@ -55,6 +63,11 @@ export default function LoginPage() {
       const typedProfile = profile as Profile
       const userRole = typedProfile.role
       const approvalStatus = typedProfile.approval_status || 'pending'
+
+      if (userRole === 'super_admin' || userRole === 'admin') {
+        window.location.href = '/dashboard/admin'
+        return
+      }
 
       if (approvalStatus !== 'approved') {
         await supabase.auth.signOut()
@@ -82,12 +95,9 @@ export default function LoginPage() {
         return
       }
 
-      if (userRole === 'admin' || userRole === 'super_admin') {
-        window.location.href = '/dashboard/admin'
-        return
-      }
-
       alert('Аккаунт рөлі дұрыс емес')
+    } catch (err: any) {
+      alert(err?.message || 'Кіру кезінде қате орын алды')
     } finally {
       setLoading(false)
     }
