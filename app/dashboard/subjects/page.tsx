@@ -23,53 +23,147 @@ function SubjectCard({
   subject: Subject
   variant?: 'normal' | 'highlight'
 }) {
+  const isHighlight = variant === 'highlight'
+
   return (
     <a
       href={`/dashboard/subjects/${subject.id}`}
       style={{
         textDecoration: 'none',
         color: '#0F172A',
-        padding: '22px',
-        borderRadius: '24px',
-        border:
-          variant === 'highlight'
-            ? '1px solid rgba(14,165,233,0.35)'
-            : '1px solid rgba(226,232,240,0.95)',
-        background:
-          variant === 'highlight'
-            ? 'linear-gradient(135deg, rgba(224,242,254,0.95), rgba(255,255,255,0.98))'
-            : 'rgba(255,255,255,0.86)',
-        boxShadow:
-          variant === 'highlight'
-            ? '0 18px 36px rgba(14,165,233,0.12), inset 0 1px 0 rgba(255,255,255,0.45)'
-            : '0 18px 34px rgba(15,23,42,0.05), inset 0 1px 0 rgba(255,255,255,0.45)',
-        backdropFilter: 'blur(14px)',
+        borderRadius: 28,
+        padding: 22,
         display: 'block',
+        position: 'relative',
+        overflow: 'hidden',
+        background: isHighlight
+          ? 'linear-gradient(135deg, rgba(224,242,254,0.96), rgba(255,255,255,0.98))'
+          : 'rgba(255,255,255,0.88)',
+        border: isHighlight
+          ? '1px solid rgba(14,165,233,0.30)'
+          : '1px solid rgba(226,232,240,0.95)',
+        boxShadow: isHighlight
+          ? '0 20px 40px rgba(14,165,233,0.14), inset 0 1px 0 rgba(255,255,255,0.55)'
+          : '0 18px 34px rgba(15,23,42,0.05), inset 0 1px 0 rgba(255,255,255,0.45)',
+        backdropFilter: 'blur(14px)',
+        transition: 'transform 0.2s ease, box-shadow 0.2s ease',
       }}
     >
-      <div style={{ fontSize: '28px', marginBottom: '12px' }}>
-        {subject.icon || '📘'}
-      </div>
-
       <div
         style={{
-          fontSize: '18px',
-          fontWeight: 800,
-          marginBottom: '8px',
-          letterSpacing: '-0.3px',
+          position: 'absolute',
+          inset: 0,
+          background: isHighlight
+            ? 'radial-gradient(circle at top right, rgba(56,189,248,0.18), transparent 24%)'
+            : 'radial-gradient(circle at top right, rgba(56,189,248,0.08), transparent 22%)',
+          pointerEvents: 'none',
         }}
-      >
-        {subject.name}
-      </div>
+      />
 
-      <div
-        style={{
-          fontSize: '13px',
-          color: '#64748B',
-          lineHeight: 1.6,
-        }}
-      >
-        Пәнді ашу →
+      <div style={{ position: 'relative', zIndex: 1 }}>
+        <div
+          style={{
+            width: 56,
+            height: 56,
+            borderRadius: 18,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: isHighlight
+              ? 'linear-gradient(135deg, #38BDF8, #0EA5E9)'
+              : '#F8FBFF',
+            border: isHighlight ? 'none' : '1px solid #E2E8F0',
+            color: isHighlight ? '#FFFFFF' : '#0EA5E9',
+            fontSize: 28,
+            marginBottom: 16,
+            boxShadow: isHighlight
+              ? '0 14px 28px rgba(14,165,233,0.20)'
+              : '0 8px 18px rgba(15,23,42,0.04)',
+          }}
+        >
+          {subject.icon || '📘'}
+        </div>
+
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: 10,
+            marginBottom: 10,
+          }}
+        >
+          <div
+            style={{
+              fontSize: 19,
+              fontWeight: 900,
+              letterSpacing: '-0.03em',
+              lineHeight: 1.25,
+              color: '#0F172A',
+            }}
+          >
+            {subject.name}
+          </div>
+
+          {isHighlight ? (
+            <div
+              style={{
+                padding: '6px 10px',
+                borderRadius: 999,
+                background: 'rgba(14,165,233,0.10)',
+                border: '1px solid rgba(14,165,233,0.16)',
+                color: '#0369A1',
+                fontSize: 11,
+                fontWeight: 800,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              Бейіндік
+            </div>
+          ) : (
+            <div
+              style={{
+                padding: '6px 10px',
+                borderRadius: 999,
+                background: '#F8FAFC',
+                border: '1px solid #E2E8F0',
+                color: '#64748B',
+                fontSize: 11,
+                fontWeight: 800,
+                whiteSpace: 'nowrap',
+              }}
+            >
+              Міндетті
+            </div>
+          )}
+        </div>
+
+        <div
+          style={{
+            fontSize: 13,
+            color: '#64748B',
+            lineHeight: 1.7,
+            marginBottom: 18,
+          }}
+        >
+          {isHighlight
+            ? 'Таңдаған бейіндік пәнің. Осы бағыт бойынша терең дайындық жасайсың.'
+            : 'Негізгі міндетті пән. ҰБТ құрылымындағы базалық пәндердің бірі.'}
+        </div>
+
+        <div
+          style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: 8,
+            fontSize: 13,
+            fontWeight: 800,
+            color: isHighlight ? '#0369A1' : '#0F172A',
+          }}
+        >
+          Пәнді ашу
+          <span>→</span>
+        </div>
       </div>
     </a>
   )
@@ -118,7 +212,7 @@ export default function SubjectsPage() {
   const mySubjects = useMemo(() => {
     if (!subjects.length) return []
 
-    const mandatory = subjects.filter((s) => s.type === 'mandatory')
+    const mandatory = subjects.filter((s) => s.type === 'main')
 
     const selected = subjects.filter(
       (s) =>
@@ -137,100 +231,279 @@ export default function SubjectsPage() {
     return unique
   }, [subjects, profile])
 
+  const profileNames = useMemo(() => {
+    return [profile?.profile_subject_1, profile?.profile_subject_2].filter(Boolean) as string[]
+  }, [profile])
+
   if (loading) {
     return (
-      <div style={{ padding: '24px', fontSize: '16px', fontWeight: 700 }}>
-        Жүктелуде...
+      <div style={s.loadingPage}>
+        <div style={s.loadingCard}>
+          <div style={s.loader} />
+          <div style={s.loadingText}>Пәндер жүктелуде...</div>
+        </div>
+
+        <style>{`
+          @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+          }
+        `}</style>
       </div>
     )
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '22px', padding: '24px' }}>
-      <div
-        style={{
-          position: 'relative',
-          overflow: 'hidden',
-          borderRadius: '34px',
-          padding: '30px',
-          background:
-            'radial-gradient(circle at top left, rgba(255,255,255,0.18), transparent 22%), linear-gradient(135deg, #020617 0%, #0F172A 36%, #0369A1 68%, #0EA5E9 100%)',
-          color: '#FFFFFF',
-          boxShadow: '0 30px 60px rgba(14,165,233,0.18)',
-        }}
-      >
-        <h1
-          style={{
-            fontSize: '38px',
-            fontWeight: 800,
-            lineHeight: 1.18,
-            marginBottom: '12px',
-            letterSpacing: '-1px',
-          }}
-        >
-          Сенің пәндерің
-        </h1>
+    <div style={s.page}>
+      <div style={s.bgGlowTop} />
+      <div style={s.bgGlowBottom} />
 
-        <p
-          style={{
-            fontSize: '15px',
-            lineHeight: 1.8,
-            color: 'rgba(255,255,255,0.86)',
-            maxWidth: '760px',
-          }}
-        >
-          Мұнда тіркеуде таңдалған 2 бейіндік пән және 3 міндетті пән ғана көрсетіледі.
-        </p>
-      </div>
+      <div style={s.wrap}>
+        <div style={s.hero}>
+          <div style={s.heroBadge}>SUBJECTS</div>
 
-      <div>
-        <div
-          style={{
-            fontSize: '24px',
-            fontWeight: 800,
-            color: '#0F172A',
-            marginBottom: '14px',
-            letterSpacing: '-0.4px',
-          }}
-        >
-          3 міндетті + 2 бейіндік пән
+          <h1 style={s.heroTitle}>Сенің пәндерің</h1>
+
+          <p style={s.heroText}>
+            Мұнда сенің тіркеуде таңдалған 2 бейіндік пәнің және платформаның негізгі
+            міндетті пәндері көрсетіледі. Әр пәннің ішіне кіріп, бөлімдер мен тақырыптарды
+            толық аша аласың.
+          </p>
+
+          <div style={s.heroMetaGrid}>
+            <div style={s.heroMetaCard}>
+              <div style={s.heroMetaLabel}>Бейіндік пән 1</div>
+              <div style={s.heroMetaValue}>{profile?.profile_subject_1 || 'Таңдалмаған'}</div>
+            </div>
+
+            <div style={s.heroMetaCard}>
+              <div style={s.heroMetaLabel}>Бейіндік пән 2</div>
+              <div style={s.heroMetaValue}>{profile?.profile_subject_2 || 'Таңдалмаған'}</div>
+            </div>
+
+            <div style={s.heroMetaCard}>
+              <div style={s.heroMetaLabel}>Жалпы пән саны</div>
+              <div style={s.heroMetaValue}>{mySubjects.length}</div>
+            </div>
+          </div>
+        </div>
+
+        <div style={s.sectionHead}>
+          <div style={s.sectionTitle}>3 міндетті + 2 бейіндік пән</div>
+          <div style={s.sectionSub}>
+            Бейіндік пәндер көк акцентпен көрсетілген.
+          </div>
         </div>
 
         {mySubjects.length > 0 ? (
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(3, 1fr)',
-              gap: '16px',
-            }}
-          >
+          <div style={s.grid}>
             {mySubjects.map((subject) => (
               <SubjectCard
                 key={subject.id}
                 subject={subject}
-                variant={
-                  subject.name === profile?.profile_subject_1 ||
-                  subject.name === profile?.profile_subject_2
-                    ? 'highlight'
-                    : 'normal'
-                }
+                variant={profileNames.includes(subject.name) ? 'highlight' : 'normal'}
               />
             ))}
           </div>
         ) : (
-          <div
-            style={{
-              padding: '20px',
-              borderRadius: '18px',
-              border: '1px solid #E2E8F0',
-              background: '#FFFFFF',
-              color: '#64748B',
-            }}
-          >
-            Пәндер табылмады. Алдымен `subjects` таблицасын және профильдегі пәндерді тексер.
+          <div style={s.emptyCard}>
+            Пәндер табылмады. `subjects` таблицасын және `profiles.profile_subject_1 / profile_subject_2`
+            мәндерін тексер.
           </div>
         )}
       </div>
     </div>
   )
+}
+
+const s: Record<string, React.CSSProperties> = {
+  page: {
+    minHeight: '100vh',
+    background:
+      'radial-gradient(circle at top right, rgba(56,189,248,0.10), transparent 24%), radial-gradient(circle at bottom left, rgba(14,165,233,0.08), transparent 22%), linear-gradient(180deg, #F8FCFF 0%, #FFFFFF 58%, #EEF8FF 100%)',
+    padding: '24px 20px 48px',
+    position: 'relative',
+    overflow: 'hidden',
+  },
+
+  bgGlowTop: {
+    position: 'absolute',
+    right: -120,
+    top: -120,
+    width: 320,
+    height: 320,
+    borderRadius: '999px',
+    background: 'rgba(56,189,248,0.14)',
+    filter: 'blur(80px)',
+    pointerEvents: 'none',
+  },
+
+  bgGlowBottom: {
+    position: 'absolute',
+    left: -100,
+    bottom: -100,
+    width: 280,
+    height: 280,
+    borderRadius: '999px',
+    background: 'rgba(14,165,233,0.10)',
+    filter: 'blur(80px)',
+    pointerEvents: 'none',
+  },
+
+  wrap: {
+    maxWidth: 1240,
+    margin: '0 auto',
+    position: 'relative',
+    zIndex: 1,
+    display: 'grid',
+    gap: 20,
+  },
+
+  loadingPage: {
+    minHeight: '100vh',
+    background: '#F8FAFC',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 24,
+  },
+
+  loadingCard: {
+    width: 220,
+    height: 180,
+    borderRadius: 28,
+    background: 'rgba(255,255,255,0.82)',
+    border: '1px solid rgba(226,232,240,0.95)',
+    boxShadow: '0 20px 40px rgba(15,23,42,0.06)',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backdropFilter: 'blur(14px)',
+  },
+
+  loader: {
+    width: 54,
+    height: 54,
+    border: '4px solid #0EA5E9',
+    borderTopColor: 'transparent',
+    borderRadius: '50%',
+    animation: 'spin 1s linear infinite',
+    marginBottom: 18,
+  },
+
+  loadingText: {
+    fontSize: 15,
+    fontWeight: 700,
+    color: '#64748B',
+  },
+
+  hero: {
+    borderRadius: 34,
+    padding: 30,
+    background:
+      'radial-gradient(circle at top right, rgba(56,189,248,0.16), transparent 24%), linear-gradient(135deg, rgba(255,255,255,0.78) 0%, rgba(240,249,255,0.94) 100%)',
+    border: '1px solid rgba(226,232,240,0.95)',
+    boxShadow: '0 24px 50px rgba(15,23,42,0.06)',
+    backdropFilter: 'blur(16px)',
+  },
+
+  heroBadge: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    padding: '10px 14px',
+    borderRadius: 999,
+    background: '#FFFFFF',
+    border: '1px solid #E2E8F0',
+    color: '#0EA5E9',
+    fontSize: 12,
+    fontWeight: 800,
+    boxShadow: '0 8px 20px rgba(15,23,42,0.04)',
+    marginBottom: 16,
+  },
+
+  heroTitle: {
+    fontSize: 42,
+    fontWeight: 900,
+    lineHeight: 1.05,
+    letterSpacing: '-0.05em',
+    color: '#0F172A',
+    margin: 0,
+    marginBottom: 14,
+  },
+
+  heroText: {
+    maxWidth: 860,
+    fontSize: 15,
+    lineHeight: 1.85,
+    color: '#64748B',
+    margin: 0,
+    marginBottom: 22,
+  },
+
+  heroMetaGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+    gap: 14,
+  },
+
+  heroMetaCard: {
+    borderRadius: 22,
+    padding: 18,
+    background: 'rgba(255,255,255,0.88)',
+    border: '1px solid #E2E8F0',
+    boxShadow: '0 10px 24px rgba(15,23,42,0.04)',
+  },
+
+  heroMetaLabel: {
+    fontSize: 11,
+    fontWeight: 800,
+    textTransform: 'uppercase',
+    letterSpacing: '0.08em',
+    color: '#64748B',
+    marginBottom: 8,
+  },
+
+  heroMetaValue: {
+    fontSize: 20,
+    fontWeight: 900,
+    lineHeight: 1.2,
+    color: '#0F172A',
+    letterSpacing: '-0.03em',
+  },
+
+  sectionHead: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 6,
+  },
+
+  sectionTitle: {
+    fontSize: 26,
+    fontWeight: 900,
+    letterSpacing: '-0.03em',
+    color: '#0F172A',
+  },
+
+  sectionSub: {
+    fontSize: 14,
+    color: '#64748B',
+    lineHeight: 1.7,
+  },
+
+  grid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
+    gap: 16,
+  },
+
+  emptyCard: {
+    padding: 22,
+    borderRadius: 22,
+    border: '1px solid #E2E8F0',
+    background: '#FFFFFF',
+    color: '#64748B',
+    boxShadow: '0 10px 24px rgba(15,23,42,0.04)',
+    lineHeight: 1.8,
+  },
 }
