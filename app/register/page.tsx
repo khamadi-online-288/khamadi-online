@@ -199,6 +199,7 @@ export default function RegisterPage() {
         profile_subject_2: selectedCombo.subject2,
         profile_combo: selectedCombo.label,
         student_code: studentCodeValue,
+        approval_status: 'pending',
       })
 
       if (profileError) {
