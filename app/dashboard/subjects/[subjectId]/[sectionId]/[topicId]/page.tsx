@@ -39,7 +39,9 @@ export default function TopicPage() {
   const sectionId = Number(params.sectionId)
   const topicId = Number(params.topicId)
 
+  const isKazHistory = subjectId === 1
   const isMathLiteracy = subjectId === 2
+  const isReading = subjectId === 3
 
   const [loading, setLoading] = useState(true)
   const [topic, setTopic] = useState<Topic | null>(null)
@@ -145,6 +147,9 @@ export default function TopicPage() {
     return <div style={pageStyle}>Тақырып табылмады</div>
   }
 
+  const showPdfBlock = isKazHistory || isReading
+  const showQuizBlock = isKazHistory || isMathLiteracy
+
   return (
     <div style={pageStyle}>
       <div style={containerStyle}>
@@ -157,14 +162,15 @@ export default function TopicPage() {
         <div style={heroStyle}>
           <div style={badgeStyle}>САБАҚ</div>
           <h1 style={titleStyle}>{topic.name}</h1>
+
           <p style={subtitleStyle}>
-            {isMathLiteracy
-              ? 'Есептерді шешіп, біліміңді тексер.'
-              : 'PDF-ті қарап шық. Дайын болсаң, төмендегі квизді баста.'}
+            {isKazHistory && 'PDF-ті қарап шық. Дайын болсаң, төмендегі квизді баста.'}
+            {isMathLiteracy && 'Есептерді шешіп, біліміңді тексер.'}
+            {isReading && 'Тақырыпты PDF форматында оқы.'}
           </p>
         </div>
 
-        {!isMathLiteracy && (
+        {showPdfBlock && (
           <div style={cardStyle}>
             <div style={sectionTitleStyle}>PDF сабақ</div>
 
@@ -185,166 +191,170 @@ export default function TopicPage() {
           </div>
         )}
 
-        <div style={cardStyle}>
-          <div style={quizHeaderStyle}>
-            <div>
-              <div style={sectionTitleStyle}>Геймификациялы квиз</div>
-              <div style={sectionSubtleStyle}>
-                {questions.length ? `${questions.length} сұрақ` : 'Сұрақтар жоқ'}
+        {showQuizBlock && (
+          <div style={cardStyle}>
+            <div style={quizHeaderStyle}>
+              <div>
+                <div style={sectionTitleStyle}>Геймификациялы квиз</div>
+                <div style={sectionSubtleStyle}>
+                  {questions.length ? `${questions.length} сұрақ` : 'Сұрақтар жоқ'}
+                </div>
+              </div>
+
+              <div style={hudStyle}>
+                <div style={hudItemStyle}>❤️ {lives}</div>
+                <div style={hudItemStyle}>⭐ {xp}</div>
               </div>
             </div>
 
-            <div style={hudStyle}>
-              <div style={hudItemStyle}>❤️ {lives}</div>
-              <div style={hudItemStyle}>⭐ {xp}</div>
-            </div>
-          </div>
+            {!quizStarted ? (
+              <div style={quizIntroWrapStyle}>
+                <div style={quizIntroStyle}>
+                  {isKazHistory && 'Тақырыпты қарап болған соң, квизді баста.'}
+                  {isMathLiteracy && 'Дайын болсаң, есептерді шығаруды баста.'}
+                </div>
 
-          {!quizStarted ? (
-            <div style={quizIntroWrapStyle}>
-              <div style={quizIntroStyle}>
-                {isMathLiteracy
-                  ? 'Дайын болсаң, есептерді шығаруды баста.'
-                  : 'Тақырыпты қарап болған соң, квизді баста.'}
+                {questions.length > 0 ? (
+                  <button onClick={() => setQuizStarted(true)} style={startButtonStyle}>
+                    Квизді бастау
+                  </button>
+                ) : null}
               </div>
+            ) : finished ? (
+              <div>
+                <div style={resultGridStyle}>
+                  <div style={resultBoxStyle}>
+                    <div style={resultLabelStyle}>Жалпы балл</div>
+                    <div style={resultValueStyle}>
+                      {score} / {maxScore}
+                    </div>
+                  </div>
 
-              {questions.length > 0 ? (
-                <button onClick={() => setQuizStarted(true)} style={startButtonStyle}>
-                  Квизді бастау
-                </button>
-              ) : null}
-            </div>
-          ) : finished ? (
-            <div>
-              <div style={resultGridStyle}>
-                <div style={resultBoxStyle}>
-                  <div style={resultLabelStyle}>Жалпы балл</div>
-                  <div style={resultValueStyle}>
-                    {score} / {maxScore}
+                  <div style={resultBoxStyle}>
+                    <div style={resultLabelStyle}>Пайыз</div>
+                    <div style={resultValueStyle}>
+                      {maxScore ? Math.round((score / maxScore) * 100) : 0}%
+                    </div>
+                  </div>
+
+                  <div style={resultBoxStyle}>
+                    <div style={resultLabelStyle}>XP</div>
+                    <div style={resultValueStyle}>{xp}</div>
                   </div>
                 </div>
 
-                <div style={resultBoxStyle}>
-                  <div style={resultLabelStyle}>Пайыз</div>
-                  <div style={resultValueStyle}>
-                    {maxScore ? Math.round((score / maxScore) * 100) : 0}%
-                  </div>
-                </div>
+                <div style={{ marginTop: 24 }}>
+                  {questions.map((q, index) => {
+                    const picked = answers[q.id] || 'Жауап жоқ'
+                    const correct = picked === q.correct_answer
 
-                <div style={resultBoxStyle}>
-                  <div style={resultLabelStyle}>XP</div>
-                  <div style={resultValueStyle}>{xp}</div>
+                    return (
+                      <div key={q.id} style={reviewCardStyle}>
+                        <div style={reviewQuestionStyle}>
+                          {index + 1}. {q.question_text}
+                        </div>
+                        <div style={reviewMetaStyle}>
+                          Сенің жауабың: <b>{picked}</b> | Дұрыс жауап: <b>{q.correct_answer}</b>
+                        </div>
+                        {q.explanation ? (
+                          <div style={reviewExplanationStyle}>{q.explanation}</div>
+                        ) : null}
+                        <div
+                          style={{
+                            ...reviewStatusStyle,
+                            color: correct ? '#166534' : '#991B1B',
+                          }}
+                        >
+                          {correct ? 'Дұрыс' : 'Қате'}
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
+            ) : currentQuestion ? (
+              <div>
+                <div style={progressStyle}>
+                  {currentIndex + 1} / {questions.length}
+                </div>
 
-              <div style={{ marginTop: 24 }}>
-                {questions.map((q, index) => {
-                  const picked = answers[q.id] || 'Жауап жоқ'
-                  const correct = picked === q.correct_answer
+                <div style={questionStyle}>{currentQuestion.question_text}</div>
 
-                  return (
-                    <div key={q.id} style={reviewCardStyle}>
-                      <div style={reviewQuestionStyle}>
-                        {index + 1}. {q.question_text}
-                      </div>
-                      <div style={reviewMetaStyle}>
-                        Сенің жауабың: <b>{picked}</b> | Дұрыс жауап: <b>{q.correct_answer}</b>
-                      </div>
-                      {q.explanation ? (
-                        <div style={reviewExplanationStyle}>{q.explanation}</div>
-                      ) : null}
-                      <div
+                <div style={optionsWrapStyle}>
+                  {(['A', 'B', 'C', 'D'] as const).map((letter) => {
+                    const text =
+                      currentQuestion[`option_${letter.toLowerCase()}` as keyof Question] as string
+                    const isCorrect = currentQuestion.correct_answer === letter
+                    const isSelected = selectedAnswer === letter
+
+                    let background = '#FFFFFF'
+                    let border = '1px solid #E2E8F0'
+
+                    if (showFeedback) {
+                      if (isCorrect) {
+                        background = '#DCFCE7'
+                        border = '1px solid #86EFAC'
+                      } else if (isSelected) {
+                        background = '#FEE2E2'
+                        border = '1px solid #FCA5A5'
+                      }
+                    }
+
+                    return (
+                      <button
+                        key={letter}
+                        type="button"
+                        onClick={() => handleSelect(letter)}
                         style={{
-                          ...reviewStatusStyle,
-                          color: correct ? '#166534' : '#991B1B',
+                          ...optionStyle,
+                          background,
+                          border,
+                          cursor: showFeedback ? 'default' : 'pointer',
                         }}
                       >
-                        {correct ? 'Дұрыс' : 'Қате'}
-                      </div>
-                    </div>
-                  )
-                })}
-              </div>
-            </div>
-          ) : currentQuestion ? (
-            <div>
-              <div style={progressStyle}>
-                {currentIndex + 1} / {questions.length}
-              </div>
+                        <div style={optionLetterStyle}>{letter}</div>
+                        <div style={optionTextStyle}>{text}</div>
+                      </button>
+                    )
+                  })}
+                </div>
 
-              <div style={questionStyle}>{currentQuestion.question_text}</div>
-
-              <div style={optionsWrapStyle}>
-                {(['A', 'B', 'C', 'D'] as const).map((letter) => {
-                  const text = currentQuestion[`option_${letter.toLowerCase()}` as keyof Question] as string
-                  const isCorrect = currentQuestion.correct_answer === letter
-                  const isSelected = selectedAnswer === letter
-
-                  let background = '#FFFFFF'
-                  let border = '1px solid #E2E8F0'
-
-                  if (showFeedback) {
-                    if (isCorrect) {
-                      background = '#DCFCE7'
-                      border = '1px solid #86EFAC'
-                    } else if (isSelected) {
-                      background = '#FEE2E2'
-                      border = '1px solid #FCA5A5'
-                    }
-                  }
-
-                  return (
-                    <button
-                      key={letter}
-                      type="button"
-                      onClick={() => handleSelect(letter)}
+                {showFeedback ? (
+                  <div style={feedbackBoxStyle}>
+                    <div
                       style={{
-                        ...optionStyle,
-                        background,
-                        border,
-                        cursor: showFeedback ? 'default' : 'pointer',
+                        fontSize: '18px',
+                        fontWeight: 800,
+                        color:
+                          selectedAnswer === currentQuestion.correct_answer
+                            ? '#166534'
+                            : '#991B1B',
                       }}
                     >
-                      <div style={optionLetterStyle}>{letter}</div>
-                      <div style={optionTextStyle}>{text}</div>
-                    </button>
-                  )
-                })}
-              </div>
-
-              {showFeedback ? (
-                <div style={feedbackBoxStyle}>
-                  <div
-                    style={{
-                      fontSize: '18px',
-                      fontWeight: 800,
-                      color:
-                        selectedAnswer === currentQuestion.correct_answer ? '#166534' : '#991B1B',
-                    }}
-                  >
-                    {selectedAnswer === currentQuestion.correct_answer ? 'Дұрыс!' : 'Қате'}
-                  </div>
-
-                  {currentQuestion.explanation ? (
-                    <div style={feedbackTextStyle}>{currentQuestion.explanation}</div>
-                  ) : null}
-
-                  {lives <= 0 ? (
-                    <div style={{ marginTop: 10, color: '#991B1B', fontWeight: 700 }}>
-                      Өмір қалмады
+                      {selectedAnswer === currentQuestion.correct_answer ? 'Дұрыс!' : 'Қате'}
                     </div>
-                  ) : null}
 
-                  <button onClick={handleNext} style={nextButtonStyle}>
-                    {currentIndex === questions.length - 1 || lives <= 0 ? 'Аяқтау' : 'Келесі'}
-                  </button>
-                </div>
-              ) : null}
-            </div>
-          ) : (
-            <div style={emptyStyle}>Сұрақтар табылмады</div>
-          )}
-        </div>
+                    {currentQuestion.explanation ? (
+                      <div style={feedbackTextStyle}>{currentQuestion.explanation}</div>
+                    ) : null}
+
+                    {lives <= 0 ? (
+                      <div style={{ marginTop: 10, color: '#991B1B', fontWeight: 700 }}>
+                        Өмір қалмады
+                      </div>
+                    ) : null}
+
+                    <button onClick={handleNext} style={nextButtonStyle}>
+                      {currentIndex === questions.length - 1 || lives <= 0 ? 'Аяқтау' : 'Келесі'}
+                    </button>
+                  </div>
+                ) : null}
+              </div>
+            ) : (
+              <div style={emptyStyle}>Сұрақтар табылмады</div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   )
