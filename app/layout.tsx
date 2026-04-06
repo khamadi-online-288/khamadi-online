@@ -1,5 +1,12 @@
 import type { Metadata, Viewport } from 'next'
+import { Montserrat } from 'next/font/google'
 import './globals.css'
+
+const montserrat = Montserrat({
+  subsets: ['latin', 'cyrillic'],
+  variable: '--font-main',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://khamadi.online'),
@@ -24,7 +31,6 @@ export const metadata: Metadata = {
   ],
 
   applicationName: 'KHAMADI ONLINE',
-
   authors: [{ name: 'KHAMADI ONLINE' }],
   creator: 'KHAMADI ONLINE',
   publisher: 'KHAMADI ONLINE',
@@ -69,7 +75,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="kk">
-      <body>{children}</body>
+      <body className={montserrat.variable}>{children}</body>
     </html>
   )
 }
