@@ -416,9 +416,9 @@ function Hero() {
               color: '#0c4a6e', marginBottom: 26,
             }}
           >
-            ҰБТ-ге жаңа{' '}
-            <span className="text-gradient">деңгейде</span>
-            <br />дайындал
+            ҰБТ-ге ДАЙЫНДЫҚТЫҢ{' '}
+            <span className="text-gradient">ЗАМАНАУИ</span>
+            <br />ДЕҢГЕЙІ
           </motion.h1>
 
           {/* Subheadline */}
@@ -426,8 +426,8 @@ function Hero() {
             variants={heroItem}
             style={{ fontSize: 18, lineHeight: 1.85, color: '#475569', marginBottom: 38, maxWidth: 560 }}
           >
-            AI тьютор, нақты форматтағы симулятор, дербес оқу жоспары. Барлығы
-            бір жерде — 120+ балл алу үшін жасалған.
+            AI талдау, нақты ҰБТ симуляторы және жеке оқу жоспары арқылы
+            жүйелі дайындалып, жоғары нәтижеге жетіңіз.
           </motion.p>
 
           {/* CTA buttons */}
@@ -619,9 +619,9 @@ function Subjects() {
           <div className="section-kicker">Пәндер</div>
           <h2 className="section-title">Барлық ҰБТ пәндері</h2>
           <p className="section-text">
-            Міндетті пәндерден бастап барлық бейіндік комбинацияларға дейін — AI
-            тьютор мен авторлы контент.
-          </p>
+         Міндетті пәндерден бастап барлық бейіндік комбинацияларға дейін —
+         <span style={{ whiteSpace: "nowrap" }}>AI-мұғаліммен</span> бірге авторлы контент.
+         </p>
         </motion.div>
 
         <motion.div
@@ -668,10 +668,10 @@ function AiTutor() {
           <div style={{ position: 'relative', zIndex: 1 }}>
             <div className="section-kicker light">AI Технология</div>
             <h2 className="ai-title">
-              Нақты уақытта сұраққа жауап беретін AI тьютор
+              Нақты уақытта сұраққа жауап беретін AI мұғалім
             </h2>
             <p className="ai-text">
-              Claude AI негізінде жұмыс істейді — кез-келген пәннен, кез-келген
+              KHAMADI AI негізінде жұмыс істейді — кез-келген пәннен, кез-келген
               деңгейде. Түсіндіреді, мысал береді, стратегия ұсынады. 24/7 қол жетімді.
             </p>
 
@@ -1000,8 +1000,9 @@ function FinalCTA() {
             <div className="section-kicker">Бастау</div>
             <h2 className="cta-title">ҰБТ-ға бірге<br />дайындалайық</h2>
             <p className="cta-text">
-              Ең жақсы нәтиже үшін ең жақсы инструментпен. KHAMADI ONLINE — 120+
-              балл алу жолыңда серіктесің.
+              Ең жақсы нәтиже үшін ең жақсы платформамен.
+              <br />
+              KHAMADI ONLINE — 120+ балл алу жолыңда серіктесің.
             </p>
           </div>
 
