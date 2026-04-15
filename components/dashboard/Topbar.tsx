@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import { supabase } from '@/lib/supabase'
 
 type Profile = {
@@ -37,13 +38,7 @@ export default function Topbar() {
     try {
       setLoading(true)
       await supabase.auth.signOut()
-
-      if (profile?.role === 'parent') {
-        window.location.href = '/parent/login'
-        return
-      }
-
-      window.location.href = '/login'
+      window.location.href = profile?.role === 'parent' ? '/parent/login' : '/login'
     } finally {
       setLoading(false)
     }
@@ -53,16 +48,23 @@ export default function Topbar() {
     profile?.full_name?.trim()?.split(' ')[0] ||
     (profile?.role === 'parent' ? 'Ата-ана' : 'Оқушы')
 
+  const initials = firstName.charAt(0).toUpperCase()
+
   return (
-    <header
+    <motion.header
+      initial={{ y: -10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       style={{
         position: 'sticky',
         top: 0,
         zIndex: 40,
-        background: 'rgba(255,255,255,0.78)',
-        backdropFilter: 'blur(18px)',
-        borderBottom: '1px solid #EEF2F7',
-        padding: '16px 24px',
+        background: 'rgba(255,255,255,0.82)',
+        backdropFilter: 'blur(20px)',
+        WebkitBackdropFilter: 'blur(20px)',
+        borderBottom: '1px solid rgba(14,165,233,0.10)',
+        padding: '14px 28px',
+        boxShadow: '0 1px 20px rgba(14,165,233,0.06)',
       }}
     >
       <div
@@ -73,82 +75,104 @@ export default function Topbar() {
           gap: 16,
         }}
       >
+        {/* Left: greeting */}
         <div>
           <div
             style={{
-              fontSize: 12,
-              fontWeight: 700,
-              color: '#64748B',
-              marginBottom: 4,
-              letterSpacing: '0.06em',
+              fontSize: 11,
+              fontWeight: 800,
+              color: '#94a3b8',
+              marginBottom: 3,
+              letterSpacing: '0.08em',
               textTransform: 'uppercase',
             }}
           >
             KHAMADI ONLINE
           </div>
-
           <div
             style={{
-              fontSize: 24,
+              fontSize: 22,
               fontWeight: 900,
-              color: '#0F172A',
-              letterSpacing: '-0.03em',
-              lineHeight: 1.1,
+              color: '#0c4a6e',
+              letterSpacing: '-0.04em',
+              lineHeight: 1.15,
             }}
           >
-            Сәлем, {firstName}
+            Сәлем, {firstName} 👋
           </div>
         </div>
 
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 10,
-          }}
-        >
-          <Link
-            href="/dashboard/profile"
-            style={{
-              textDecoration: 'none',
-              minHeight: 42,
-              padding: '0 16px',
-              borderRadius: 14,
-              border: '1px solid #E2E8F0',
-              background: '#FFFFFF',
-              color: '#0F172A',
-              fontSize: 14,
-              fontWeight: 800,
-              display: 'inline-flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              boxShadow: '0 8px 20px rgba(15,23,42,0.04)',
-            }}
-          >
-            Профиль
+        {/* Right: actions */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          {/* Profile avatar button */}
+          <Link href="/dashboard/profile" style={{ textDecoration: 'none' }}>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.97 }}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 10,
+                padding: '8px 14px',
+                borderRadius: 14,
+                border: '1px solid rgba(14,165,233,0.15)',
+                background: '#ffffff',
+                color: '#0c4a6e',
+                fontSize: 14,
+                fontWeight: 800,
+                boxShadow: '0 4px 16px rgba(14,165,233,0.06)',
+                cursor: 'pointer',
+                letterSpacing: '-0.01em',
+              }}
+            >
+              <div
+                style={{
+                  width: 30,
+                  height: 30,
+                  borderRadius: 999,
+                  background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  fontSize: 13,
+                  fontWeight: 900,
+                  color: '#ffffff',
+                  flexShrink: 0,
+                }}
+              >
+                {initials}
+              </div>
+              Профиль
+            </motion.div>
           </Link>
 
-          <button
+          {/* Logout button */}
+          <motion.button
             onClick={handleLogout}
             disabled={loading}
+            whileHover={{ scale: loading ? 1 : 1.04, boxShadow: '0 8px 22px rgba(14,165,233,0.20)' }}
+            whileTap={{ scale: 0.97 }}
             style={{
-              minHeight: 42,
-              padding: '0 16px',
+              minHeight: 46,
+              padding: '0 18px',
               borderRadius: 14,
               border: 'none',
-              background: '#0F172A',
-              color: '#FFFFFF',
+              background: loading
+                ? 'rgba(14,165,233,0.12)'
+                : 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+              color: loading ? '#0ea5e9' : '#ffffff',
               fontSize: 14,
               fontWeight: 800,
               cursor: loading ? 'not-allowed' : 'pointer',
-              boxShadow: '0 10px 24px rgba(15,23,42,0.10)',
-              opacity: loading ? 0.7 : 1,
+              boxShadow: loading ? 'none' : '0 6px 20px rgba(14,165,233,0.22)',
+              letterSpacing: '-0.01em',
+              transition: 'all 0.2s',
             }}
           >
-            {loading ? 'Шығу...' : 'Logout'}
-          </button>
+            {loading ? '...' : 'Шығу'}
+          </motion.button>
         </div>
       </div>
-    </header>
+    </motion.header>
   )
 }

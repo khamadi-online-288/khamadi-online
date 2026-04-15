@@ -67,11 +67,13 @@ export default function DashboardRouteShell({
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          fontWeight: 700,
-          color: '#64748B',
+          background: 'linear-gradient(160deg, #f8fcff 0%, #ffffff 55%, #f0f9ff 100%)',
         }}
       >
-        Жүктелуде...
+        <div style={{ textAlign: 'center' }}>
+          <div className="spinner" style={{ margin: '0 auto 14px' }} />
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700, margin: 0 }}>Жүктелуде...</p>
+        </div>
       </div>
     )
   }

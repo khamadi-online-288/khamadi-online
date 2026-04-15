@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import { motion } from 'framer-motion'
 import { supabase } from '@/lib/supabase'
 
 type Subject = {
@@ -15,86 +16,94 @@ type Profile = {
   profile_subject_2: string | null
 }
 
+const MANDATORY_NAMES = [
+  'Қазақстан тарихы',
+  'Оқу сауаттылығы',
+  'Математикалық сауаттылық',
+]
+
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 18 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
+
 function SubjectCard({
   subject,
-  highlight = false,
+  variant = 'mandatory',
+  index = 0,
 }: {
   subject: Subject
-  highlight?: boolean
+  variant?: 'mandatory' | 'profile'
+  index?: number
 }) {
+  const isProfile = variant === 'profile'
+
   return (
-    <a
+    <motion.a
       href={`/dashboard/subjects/${subject.id}`}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.1 + index * 0.07, ease: [0.22, 1, 0.36, 1] }}
+      whileHover={{
+        y: -4,
+        boxShadow: isProfile
+          ? '0 24px 48px rgba(14,165,233,0.18)'
+          : '0 20px 40px rgba(14,165,233,0.10)',
+      }}
       style={{
         textDecoration: 'none',
-        color: '#0F172A',
-        borderRadius: 24,
-        padding: 22,
+        color: '#0c4a6e',
+        borderRadius: 26,
+        padding: 24,
         display: 'block',
-        background: highlight
-          ? 'linear-gradient(135deg, rgba(224,242,254,0.96), rgba(255,255,255,0.98))'
-          : 'rgba(255,255,255,0.92)',
-        border: highlight
-          ? '1px solid rgba(14,165,233,0.28)'
-          : '1px solid rgba(226,232,240,0.95)',
-        boxShadow: highlight
-          ? '0 18px 36px rgba(14,165,233,0.12)'
-          : '0 16px 30px rgba(15,23,42,0.05)',
+        background: isProfile
+          ? 'linear-gradient(135deg, rgba(14,165,233,0.07), rgba(255,255,255,0.98))'
+          : '#fff',
+        border: isProfile
+          ? '1.5px solid rgba(14,165,233,0.28)'
+          : '1px solid rgba(14,165,233,0.14)',
+        boxShadow: isProfile
+          ? '0 14px 32px rgba(14,165,233,0.10)'
+          : '0 10px 24px rgba(14,165,233,0.06)',
+        transition: 'box-shadow 0.2s',
       }}
     >
+      {/* Icon */}
       <div
         style={{
-          width: 54,
-          height: 54,
-          borderRadius: 16,
+          width: 56,
+          height: 56,
+          borderRadius: 18,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          background: highlight
-            ? 'linear-gradient(135deg, #38BDF8, #0EA5E9)'
-            : '#F8FAFC',
-          border: highlight ? 'none' : '1px solid #E2E8F0',
-          color: highlight ? '#FFFFFF' : '#0EA5E9',
+          background: isProfile
+            ? 'linear-gradient(135deg, #38bdf8, #0ea5e9)'
+            : '#f0f9ff',
+          border: isProfile ? 'none' : '1px solid rgba(14,165,233,0.14)',
           fontSize: 26,
-          marginBottom: 14,
+          marginBottom: 16,
         }}
       >
-        {subject.icon || '📘'}
+        {subject.icon || (isProfile ? '⭐' : '📘')}
       </div>
 
-      <div
-        style={{
-          fontSize: 18,
-          fontWeight: 800,
-          lineHeight: 1.3,
-          marginBottom: 8,
-          letterSpacing: '-0.02em',
-        }}
-      >
+      {/* Name */}
+      <div style={{ fontSize: 17, fontWeight: 900, lineHeight: 1.3, marginBottom: 8, letterSpacing: '-0.02em', color: '#0c4a6e' }}>
         {subject.name}
       </div>
 
-      <div
-        style={{
-          fontSize: 13,
-          color: '#64748B',
-          lineHeight: 1.6,
-          marginBottom: 12,
-        }}
-      >
-        {highlight ? 'Бейіндік пән' : 'Міндетті пән'}
+      {/* Badge */}
+      <div style={{ fontSize: 12, color: isProfile ? '#0ea5e9' : '#64748b', lineHeight: 1.6, marginBottom: 14, fontWeight: 700 }}>
+        {isProfile ? 'Бейіндік пән' : 'Міндетті пән'}
       </div>
 
-      <div
-        style={{
-          fontSize: 13,
-          fontWeight: 800,
-          color: highlight ? '#0369A1' : '#0F172A',
-        }}
-      >
+      {/* CTA */}
+      <div style={{ fontSize: 13, fontWeight: 900, color: isProfile ? '#0ea5e9' : '#0c4a6e' }}>
         Пәнді ашу →
       </div>
-    </a>
+    </motion.a>
   )
 }
 
@@ -107,15 +116,8 @@ export default function SubjectsPage() {
     const load = async () => {
       try {
         setLoading(true)
-
-        const {
-          data: { user },
-        } = await supabase.auth.getUser()
-
-        if (!user) {
-          window.location.href = '/login'
-          return
-        }
+        const { data: { user } } = await supabase.auth.getUser()
+        if (!user) { window.location.href = '/login'; return }
 
         const { data: profileData } = await supabase
           .from('profiles')
@@ -123,9 +125,7 @@ export default function SubjectsPage() {
           .eq('id', user.id)
           .single()
 
-        if (profileData) {
-          setProfile(profileData as Profile)
-        }
+        if (profileData) setProfile(profileData as Profile)
 
         const { data: subjectsData } = await supabase
           .from('subjects')
@@ -139,288 +139,203 @@ export default function SubjectsPage() {
         setLoading(false)
       }
     }
-
     load()
   }, [])
 
-  const mySubjects = useMemo(() => {
-    if (!subjects.length) return []
+  // 3 міндетті пән — only from DB by name
+  const mandatorySubjects = useMemo(() => {
+    return MANDATORY_NAMES.map((name) =>
+      subjects.find((s) => s.name === name)
+    ).filter(Boolean) as Subject[]
+  }, [subjects])
 
-    const mandatoryNames = [
-      'Қазақстан тарихы',
-      'Оқу сауаттылығы',
-      'Математикалық сауаттылық',
-    ]
-
+  // 2 бейіндік пән — from user profile
+  const profileSubjects = useMemo(() => {
     const p1 = profile?.profile_subject_1?.trim().toLowerCase()
     const p2 = profile?.profile_subject_2?.trim().toLowerCase()
-
-    const mandatory = subjects.filter((s) =>
-      mandatoryNames.includes(s.name)
-    )
-
-    const selected = subjects.filter((s) => {
+    return subjects.filter((s) => {
       const name = s.name.trim().toLowerCase()
-      return name === p1 || name === p2
+      return (p1 && name === p1) || (p2 && name === p2)
     })
-
-    const unique: Subject[] = []
-
-    for (const item of [...mandatory, ...selected]) {
-      if (!unique.find((x) => x.id === item.id)) {
-        unique.push(item)
-      }
-    }
-
-    return unique
   }, [subjects, profile])
 
   if (loading) {
     return (
-      <div
-        style={{
-          minHeight: '100vh',
-          padding: 24,
-          background: '#F8FAFC',
-          color: '#64748B',
-          fontWeight: 700,
-        }}
-      >
-        Жүктелуде...
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center' }}>
+          <div className="spinner" style={{ margin: '0 auto 14px' }} />
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Пәндер жүктелуде...</p>
+        </div>
       </div>
     )
   }
 
   return (
-    <div
-      style={{
-        minHeight: '100vh',
-        padding: 24,
-        background:
-          'radial-gradient(circle at top right, rgba(56,189,248,0.10), transparent 24%), radial-gradient(circle at bottom left, rgba(14,165,233,0.08), transparent 22%), linear-gradient(180deg, #F8FCFF 0%, #FFFFFF 58%, #EEF8FF 100%)',
-      }}
-    >
-      <div
-        style={{
-          maxWidth: 1240,
-          margin: '0 auto',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: 20,
-        }}
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
+
+      {/* ── Page header ── */}
+      <motion.div {...fadeUp(0)}>
+        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
+          Subjects
+        </div>
+        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 6 }}>
+          Сенің пәндерің
+        </h1>
+        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, margin: 0 }}>
+          ҰБТ форматы бойынша 3 міндетті пән және 2 бейіндік пән.
+        </p>
+      </motion.div>
+
+      {/* ── Summary mini-cards ── */}
+      <motion.div
+        {...fadeUp(0.06)}
+        style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14 }}
       >
-        <div
-          style={{
-            borderRadius: 30,
-            padding: 28,
-            background:
-              'radial-gradient(circle at top right, rgba(56,189,248,0.16), transparent 24%), linear-gradient(135deg, rgba(255,255,255,0.80) 0%, rgba(240,249,255,0.94) 100%)',
-            border: '1px solid rgba(226,232,240,0.95)',
-            boxShadow: '0 24px 50px rgba(15,23,42,0.06)',
-          }}
-        >
-          <div
+        {[
+          { label: 'Бейіндік пән 1', value: profile?.profile_subject_1 || 'Таңдалмаған' },
+          { label: 'Бейіндік пән 2', value: profile?.profile_subject_2 || 'Таңдалмаған' },
+          { label: 'Жалпы пән саны', value: String(mandatorySubjects.length + profileSubjects.length) },
+        ].map((item, i) => (
+          <motion.div
+            key={item.label}
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.08 + i * 0.07, ease: [0.22, 1, 0.36, 1] }}
             style={{
-              display: 'inline-flex',
-              padding: '8px 12px',
-              borderRadius: 999,
-              background: '#E0F2FE',
-              color: '#0369A1',
-              fontSize: 12,
-              fontWeight: 800,
-              marginBottom: 12,
+              background: '#fff',
+              border: '1px solid rgba(14,165,233,0.14)',
+              borderRadius: 22,
+              padding: '18px 20px',
+              boxShadow: '0 8px 20px rgba(14,165,233,0.07)',
             }}
           >
-            SUBJECTS
+            <div style={{ fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 8 }}>
+              {item.label}
+            </div>
+            <div style={{ fontSize: 18, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.02em' }}>
+              {item.value}
+            </div>
+          </motion.div>
+        ))}
+      </motion.div>
+
+      {/* ══════════════════════════════════
+          БЛОК 1 — 3 міндетті пән
+      ══════════════════════════════════ */}
+      <div>
+        {/* Section heading */}
+        <motion.div {...fadeUp(0.12)} style={{ marginBottom: 18 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 6 }}>
+            <div style={{
+              width: 36, height: 36, borderRadius: 12,
+              background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.18)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 18,
+            }}>
+              📋
+            </div>
+            <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.03em', margin: 0 }}>
+              3 міндетті пән
+            </h2>
           </div>
-
-          <h1
-            style={{
-              fontSize: 40,
-              fontWeight: 900,
-              lineHeight: 1.05,
-              letterSpacing: '-0.04em',
-              color: '#0F172A',
-              margin: 0,
-              marginBottom: 12,
-            }}
-          >
-            Сенің пәндерің
-          </h1>
-
-          <p
-            style={{
-              fontSize: 15,
-              lineHeight: 1.8,
-              color: '#64748B',
-              margin: 0,
-              marginBottom: 18,
-              maxWidth: 820,
-            }}
-          >
-            Мұнда ҰБТ форматы бойынша 3 міндетті пән және 2 таңдау пән көрсетіледі.
+          <p style={{ fontSize: 13, color: '#64748b', fontWeight: 600, margin: 0, paddingLeft: 48 }}>
+            Барлық талапкерлер үшін бірдей міндетті.
           </p>
+        </motion.div>
 
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(3, minmax(0, 1fr))',
-              gap: 12,
-            }}
-          >
-            <div
-              style={{
-                borderRadius: 18,
-                padding: 16,
-                background: '#FFFFFF',
-                border: '1px solid #E2E8F0',
-              }}
-            >
-              <div
-                style={{
-                  fontSize: 11,
-                  fontWeight: 800,
-                  color: '#64748B',
-                  textTransform: 'uppercase',
-                  marginBottom: 8,
-                }}
-              >
-                Бейіндік пән 1
-              </div>
-              <div
-                style={{
-                  fontSize: 18,
-                  fontWeight: 800,
-                  color: '#0F172A',
-                }}
-              >
-                {profile?.profile_subject_1 || 'Таңдалмаған'}
-              </div>
-            </div>
-
-            <div
-              style={{
-                borderRadius: 18,
-                padding: 16,
-                background: '#FFFFFF',
-                border: '1px solid #E2E8F0',
-              }}
-            >
-              <div
-                style={{
-                  fontSize: 11,
-                  fontWeight: 800,
-                  color: '#64748B',
-                  textTransform: 'uppercase',
-                  marginBottom: 8,
-                }}
-              >
-                Бейіндік пән 2
-              </div>
-              <div
-                style={{
-                  fontSize: 18,
-                  fontWeight: 800,
-                  color: '#0F172A',
-                }}
-              >
-                {profile?.profile_subject_2 || 'Таңдалмаған'}
-              </div>
-            </div>
-
-            <div
-              style={{
-                borderRadius: 18,
-                padding: 16,
-                background: '#FFFFFF',
-                border: '1px solid #E2E8F0',
-              }}
-            >
-              <div
-                style={{
-                  fontSize: 11,
-                  fontWeight: 800,
-                  color: '#64748B',
-                  textTransform: 'uppercase',
-                  marginBottom: 8,
-                }}
-              >
-                Жалпы пән саны
-              </div>
-              <div
-                style={{
-                  fontSize: 18,
-                  fontWeight: 800,
-                  color: '#0F172A',
-                }}
-              >
-                {mySubjects.length}
-              </div>
-            </div>
+        {mandatorySubjects.length > 0 ? (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
+            {mandatorySubjects.map((subject, i) => (
+              <SubjectCard key={subject.id} subject={subject} variant="mandatory" index={i} />
+            ))}
           </div>
-        </div>
-
-        <div>
-          <div
-            style={{
-              fontSize: 26,
-              fontWeight: 900,
-              color: '#0F172A',
-              letterSpacing: '-0.03em',
-              marginBottom: 6,
-            }}
+        ) : (
+          <motion.div
+            {...fadeUp(0.16)}
+            style={{ padding: 20, borderRadius: 18, background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.14)', color: '#64748b', fontSize: 14, fontWeight: 600 }}
           >
-            3 міндетті + 2 таңдау пән
-          </div>
-
-          <div
-            style={{
-              fontSize: 14,
-              color: '#64748B',
-              lineHeight: 1.7,
-              marginBottom: 18,
-            }}
-          >
-            Бейіндік пәндер көк акцентпен белгіленген.
-          </div>
-
-          {mySubjects.length > 0 ? (
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-                gap: 16,
-              }}
-            >
-              {mySubjects.map((subject) => (
-                <SubjectCard
-                  key={subject.id}
-                  subject={subject}
-                  highlight={
-                    subject.name === profile?.profile_subject_1 ||
-                    subject.name === profile?.profile_subject_2
-                  }
-                />
-              ))}
-            </div>
-          ) : (
-            <div
-              style={{
-                padding: 22,
-                borderRadius: 22,
-                border: '1px solid #E2E8F0',
-                background: '#FFFFFF',
-                color: '#64748B',
-                boxShadow: '0 10px 24px rgba(15,23,42,0.04)',
-                lineHeight: 1.8,
-              }}
-            >
-              Пәндер табылмады. `subjects` таблицасындағы атаулар мен
-              `profiles.profile_subject_1/profile_subject_2` мәндерін тексер.
-            </div>
-          )}
-        </div>
+            Міндетті пәндер жүктелмеді. `subjects` таблицасын тексеріңіз.
+          </motion.div>
+        )}
       </div>
+
+      {/* Divider */}
+      <motion.div
+        {...fadeUp(0.18)}
+        style={{ height: 1, background: 'linear-gradient(90deg, rgba(14,165,233,0.18), rgba(14,165,233,0.04))' }}
+      />
+
+      {/* ══════════════════════════════════
+          БЛОК 2 — 2 бейіндік пән
+      ══════════════════════════════════ */}
+      <div>
+        {/* Section heading */}
+        <motion.div {...fadeUp(0.2)} style={{ marginBottom: 18 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 6 }}>
+            <div style={{
+              width: 36, height: 36, borderRadius: 12,
+              background: 'linear-gradient(135deg, rgba(14,165,233,0.12), rgba(56,189,248,0.08))',
+              border: '1px solid rgba(14,165,233,0.22)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center',
+              fontSize: 18,
+            }}>
+              ⭐
+            </div>
+            <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.03em', margin: 0 }}>
+              2 бейіндік пән
+            </h2>
+          </div>
+          <p style={{ fontSize: 13, color: '#64748b', fontWeight: 600, margin: 0, paddingLeft: 48 }}>
+            Профиліңде таңдалған мамандық бағыты.
+          </p>
+        </motion.div>
+
+        {profileSubjects.length > 0 ? (
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16 }}>
+            {profileSubjects.map((subject, i) => (
+              <SubjectCard key={subject.id} subject={subject} variant="profile" index={i} />
+            ))}
+          </div>
+        ) : (
+          <motion.div
+            {...fadeUp(0.24)}
+            style={{
+              padding: 28,
+              borderRadius: 22,
+              background: 'linear-gradient(135deg, #f0f9ff, #e0f2fe)',
+              border: '1px solid rgba(14,165,233,0.16)',
+              textAlign: 'center',
+            }}
+          >
+            <div style={{ fontSize: 32, marginBottom: 12 }}>📚</div>
+            <div style={{ fontSize: 15, fontWeight: 900, color: '#0c4a6e', marginBottom: 8, letterSpacing: '-0.02em' }}>
+              Бейіндік пәндер таңдалмаған
+            </div>
+            <p style={{ fontSize: 13, color: '#64748b', lineHeight: 1.75, margin: '0 0 18px', fontWeight: 600 }}>
+              Профиліңде бейіндік пәндерді таңдасаң, олар осы жерде пайда болады.
+            </p>
+            <motion.a
+              href="/dashboard/profile"
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.97 }}
+              style={{
+                display: 'inline-flex',
+                padding: '10px 20px',
+                borderRadius: 999,
+                background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+                color: '#fff',
+                fontSize: 13,
+                fontWeight: 800,
+                textDecoration: 'none',
+                boxShadow: '0 8px 20px rgba(14,165,233,0.22)',
+              }}
+            >
+              Профильге өту →
+            </motion.a>
+          </motion.div>
+        )}
+      </div>
+
     </div>
   )
 }

@@ -2,6 +2,7 @@
 
 import Sidebar from '@/components/dashboard/Sidebar'
 import Topbar from '@/components/dashboard/Topbar'
+import { motion } from 'framer-motion'
 
 export default function DashboardShell({
   children,
@@ -13,20 +14,26 @@ export default function DashboardShell({
       style={{
         minHeight: '100vh',
         display: 'grid',
-        gridTemplateColumns: '320px minmax(0, 1fr)',
-        background:
-          'radial-gradient(circle at top right, rgba(56,189,248,0.05), transparent 22%), radial-gradient(circle at bottom left, rgba(14,165,233,0.05), transparent 24%), linear-gradient(180deg, #F8FAFC 0%, #FFFFFF 58%, #F8FBFF 100%)',
+        gridTemplateColumns: '272px minmax(0, 1fr)',
+        background: 'linear-gradient(160deg, #f8fcff 0%, #ffffff 55%, #f0f9ff 100%)',
       }}
     >
+      {/* Sidebar column */}
       <div
         style={{
           minWidth: 0,
-          borderRight: '1px solid #EAEFF5',
+          height: '100vh',
+          position: 'sticky',
+          top: 0,
+          overflowX: 'hidden',
+          overflowY: 'auto',
+          borderRight: '1px solid rgba(14,165,233,0.10)',
         }}
       >
         <Sidebar />
       </div>
 
+      {/* Main content column */}
       <div
         style={{
           minWidth: 0,
@@ -36,14 +43,18 @@ export default function DashboardShell({
       >
         <Topbar />
 
-        <main
+        <motion.main
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
           style={{
-            padding: '24px 28px 32px',
+            padding: '28px 32px 48px',
             minWidth: 0,
+            flex: 1,
           }}
         >
           {children}
-        </main>
+        </motion.main>
       </div>
     </div>
   )

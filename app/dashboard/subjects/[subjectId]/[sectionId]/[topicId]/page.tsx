@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import { useEffect, useMemo, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { supabase } from '@/lib/supabase'
 
 type Topic = {
@@ -33,6 +34,12 @@ type Question = {
   points: number
 }
 
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 18 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
+
 export default function TopicPage() {
   const params = useParams()
   const subjectId = Number(params.subjectId)
@@ -59,28 +66,16 @@ export default function TopicPage() {
   useEffect(() => {
     const loadData = async () => {
       setLoading(true)
-
       const [{ data: topicData }, { data: contentData }, { data: questionsData }] =
         await Promise.all([
           supabase.from('topics').select('id, name').eq('id', topicId).single(),
-          supabase
-            .from('topic_content')
-            .select('*')
-            .eq('topic_id', topicId)
-            .order('order_index', { ascending: true }),
-          supabase
-            .from('questions')
-            .select('*')
-            .eq('topic_id', topicId)
-            .order('id', { ascending: true }),
+          supabase.from('topic_content').select('*').eq('topic_id', topicId).order('order_index', { ascending: true }),
+          supabase.from('questions').select('*').eq('topic_id', topicId).order('id', { ascending: true }),
         ])
 
       if (topicData) setTopic(topicData as Topic)
 
-      const pdfItem = (contentData || []).find(
-        (item: TopicContent) => item.content_type === 'pdf'
-      )
-
+      const pdfItem = (contentData || []).find((item: TopicContent) => item.content_type === 'pdf')
       if (pdfItem?.image_url) {
         setPdfUrl(pdfItem.image_url)
         setHasPdf(true)
@@ -92,10 +87,8 @@ export default function TopicPage() {
       const loadedQuestions = (questionsData || []) as Question[]
       setQuestions(loadedQuestions)
       setHasQuiz(loadedQuestions.length > 0)
-
       setLoading(false)
     }
-
     if (topicId) loadData()
   }, [topicId])
 
@@ -114,30 +107,19 @@ export default function TopicPage() {
 
   const handleSelect = (letter: string) => {
     if (showFeedback || !currentQuestion) return
-
     setSelectedAnswer(letter)
-    setAnswers((prev) => ({
-      ...prev,
-      [currentQuestion.id]: letter,
-    }))
-
+    setAnswers((prev) => ({ ...prev, [currentQuestion.id]: letter }))
     const correct = currentQuestion.correct_answer === letter
-
     if (correct) {
       setXp((prev) => prev + 10)
     } else {
       setLives((prev) => Math.max(0, prev - 1))
     }
-
     setShowFeedback(true)
   }
 
   const handleNext = () => {
-    if (lives <= 0) {
-      setFinished(true)
-      return
-    }
-
+    if (lives <= 0) { setFinished(true); return }
     if (currentIndex < questions.length - 1) {
       setCurrentIndex((prev) => prev + 1)
       setSelectedAnswer(null)
@@ -148,481 +130,234 @@ export default function TopicPage() {
   }
 
   if (loading) {
-    return <div style={pageStyle}>Жүктелуде...</div>
+    return (
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center' }}>
+          <div className="spinner" style={{ margin: '0 auto 14px' }} />
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Жүктелуде...</p>
+        </div>
+      </div>
+    )
   }
 
   if (!topic) {
-    return <div style={pageStyle}>Тақырып табылмады</div>
+    return (
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <p style={{ color: '#64748b', fontSize: 15, fontWeight: 700 }}>Тақырып табылмады</p>
+      </div>
+    )
   }
 
-  const showPdfBlock = hasPdf
-  const showQuizBlock = hasQuiz
-
   return (
-    <div style={pageStyle}>
-      <div style={containerStyle}>
-        <div style={topBarStyle}>
-          <Link href={`/dashboard/subjects/${subjectId}/${sectionId}`} style={backLinkStyle}>
-            ← Модульге қайту
-          </Link>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+      {/* Back link */}
+      <motion.div {...fadeUp(0)}>
+        <Link href={`/dashboard/subjects/${subjectId}/${sectionId}`} style={{ color: '#0ea5e9', fontWeight: 800, textDecoration: 'none', fontSize: 14 }}>
+          ← Модульге қайту
+        </Link>
+      </motion.div>
+
+      {/* Hero */}
+      <motion.div
+        {...fadeUp(0.04)}
+        style={{
+          background: '#fff',
+          border: '1px solid rgba(14,165,233,0.14)',
+          borderRadius: 26,
+          padding: 28,
+          boxShadow: '0 14px 32px rgba(14,165,233,0.07)',
+        }}
+      >
+        <div style={{ display: 'inline-flex', padding: '7px 12px', borderRadius: 999, background: '#e0f2fe', color: '#0369a1', fontSize: 12, fontWeight: 800, marginBottom: 14 }}>
+          САБАҚ
         </div>
+        <h1 style={{ fontSize: 30, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.04em', margin: '0 0 10px' }}>
+          {topic.name}
+        </h1>
+        <p style={{ fontSize: 14, color: '#64748b', lineHeight: 1.75, margin: 0, fontWeight: 600 }}>
+          {hasPdf && hasQuiz && 'Алдымен сабақты оқы, содан кейін төмендегі квизді баста.'}
+          {hasPdf && !hasQuiz && 'Бұл тақырыпта PDF сабақ бар.'}
+          {!hasPdf && hasQuiz && 'Бұл тақырыпта квиз бар. Дайын болсаң, баста.'}
+          {!hasPdf && !hasQuiz && 'Бұл тақырыпқа контент әлі толық қосылмаған.'}
+        </p>
+      </motion.div>
 
-        <div style={heroStyle}>
-          <div style={badgeStyle}>САБАҚ</div>
-          <h1 style={titleStyle}>{topic.name}</h1>
+      {/* PDF block */}
+      {hasPdf && (
+        <motion.div
+          {...fadeUp(0.08)}
+          style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
+        >
+          <div style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', marginBottom: 16, letterSpacing: '-0.03em' }}>PDF сабақ</div>
+          {pdfUrl ? (
+            <iframe
+              src={pdfUrl}
+              width="100%"
+              height="720"
+              style={{ border: '1px solid rgba(14,165,233,0.14)', borderRadius: 16 }}
+            />
+          ) : (
+            <div style={{ color: '#94a3b8', fontSize: 14, fontWeight: 600 }}>PDF табылмады</div>
+          )}
+        </motion.div>
+      )}
 
-          <p style={subtitleStyle}>
-            {hasPdf && hasQuiz && 'Алдымен сабақты оқы, содан кейін төмендегі квизді баста.'}
-            {hasPdf && !hasQuiz && 'Бұл тақырыпта PDF сабақ бар.'}
-            {!hasPdf && hasQuiz && 'Бұл тақырыпта квиз бар. Дайын болсаң, баста.'}
-            {!hasPdf && !hasQuiz && 'Бұл тақырыпқа контент әлі толық қосылмаған.'}
-          </p>
-        </div>
-
-        {showPdfBlock && (
-          <div style={cardStyle}>
-            <div style={sectionTitleStyle}>PDF сабақ</div>
-
-            {pdfUrl ? (
-              <iframe
-                src={pdfUrl}
-                width="100%"
-                height="720"
-                style={{
-                  border: '1px solid #E2E8F0',
-                  borderRadius: '16px',
-                  marginTop: '12px',
-                }}
-              />
-            ) : (
-              <div style={emptyStyle}>PDF табылмады</div>
-            )}
-          </div>
-        )}
-
-        {showQuizBlock && (
-          <div style={cardStyle}>
-            <div style={quizHeaderStyle}>
-              <div>
-                <div style={sectionTitleStyle}>Геймификациялы квиз</div>
-                <div style={sectionSubtleStyle}>
-                  {questions.length ? `${questions.length} сұрақ` : 'Сұрақтар жоқ'}
-                </div>
-              </div>
-
-              <div style={hudStyle}>
-                <div style={hudItemStyle}>❤️ {lives}</div>
-                <div style={hudItemStyle}>⭐ {xp}</div>
+      {/* Quiz block */}
+      {hasQuiz && (
+        <motion.div
+          {...fadeUp(0.12)}
+          style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
+        >
+          {/* Quiz header */}
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 16, marginBottom: 18 }}>
+            <div>
+              <div style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.03em' }}>Геймификациялы квиз</div>
+              <div style={{ marginTop: 6, color: '#64748b', fontSize: 13, fontWeight: 600 }}>
+                {questions.length ? `${questions.length} сұрақ` : 'Сұрақтар жоқ'}
               </div>
             </div>
+            <div style={{ display: 'flex', gap: 10 }}>
+              {[{ label: `❤️ ${lives}` }, { label: `⭐ ${xp}` }].map((h) => (
+                <div key={h.label} style={{ background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 12, padding: '9px 14px', fontWeight: 900, color: '#0c4a6e', fontSize: 14 }}>
+                  {h.label}
+                </div>
+              ))}
+            </div>
+          </div>
 
+          <AnimatePresence mode="wait">
             {!quizStarted ? (
-              <div style={quizIntroWrapStyle}>
-                <div style={quizIntroStyle}>
+              <motion.div
+                key="intro"
+                initial={{ opacity: 0, y: 10 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -10 }}
+                style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 16 }}
+              >
+                <div style={{ color: '#475569', fontSize: 14, fontWeight: 600 }}>
                   {hasPdf && hasQuiz && 'Сабақты қарап болған соң, квизді баста.'}
                   {!hasPdf && hasQuiz && 'Дайын болсаң, бірден квизді баста.'}
                 </div>
-
-                {questions.length > 0 ? (
-                  <button onClick={() => setQuizStarted(true)} style={startButtonStyle}>
+                {questions.length > 0 && (
+                  <motion.button
+                    whileHover={{ scale: 1.04 }}
+                    whileTap={{ scale: 0.96 }}
+                    onClick={() => setQuizStarted(true)}
+                    style={{ border: 'none', background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)', color: '#fff', borderRadius: 14, padding: '13px 20px', fontWeight: 900, cursor: 'pointer', boxShadow: '0 10px 22px rgba(14,165,233,0.2)', fontSize: 14 }}
+                  >
                     Квизді бастау
-                  </button>
-                ) : null}
-              </div>
+                  </motion.button>
+                )}
+              </motion.div>
             ) : finished ? (
-              <div>
-                <div style={resultGridStyle}>
-                  <div style={resultBoxStyle}>
-                    <div style={resultLabelStyle}>Жалпы балл</div>
-                    <div style={resultValueStyle}>
-                      {score} / {maxScore}
+              <motion.div key="finished" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
+                {/* Results */}
+                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 14, marginBottom: 24 }}>
+                  {[
+                    { label: 'Жалпы балл', value: `${score} / ${maxScore}` },
+                    { label: 'Пайыз', value: `${maxScore ? Math.round((score / maxScore) * 100) : 0}%` },
+                    { label: 'XP', value: String(xp) },
+                  ].map((r) => (
+                    <div key={r.label} style={{ background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 18, padding: 20, textAlign: 'center' }}>
+                      <div style={{ fontSize: 12, color: '#64748b', marginBottom: 8, fontWeight: 700 }}>{r.label}</div>
+                      <div style={{ fontSize: 26, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.03em' }}>{r.value}</div>
                     </div>
-                  </div>
-
-                  <div style={resultBoxStyle}>
-                    <div style={resultLabelStyle}>Пайыз</div>
-                    <div style={resultValueStyle}>
-                      {maxScore ? Math.round((score / maxScore) * 100) : 0}%
-                    </div>
-                  </div>
-
-                  <div style={resultBoxStyle}>
-                    <div style={resultLabelStyle}>XP</div>
-                    <div style={resultValueStyle}>{xp}</div>
-                  </div>
+                  ))}
                 </div>
-
-                <div style={{ marginTop: 24 }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
                   {questions.map((q, index) => {
                     const picked = answers[q.id] || 'Жауап жоқ'
                     const correct = picked === q.correct_answer
-
                     return (
-                      <div key={q.id} style={reviewCardStyle}>
-                        <div style={reviewQuestionStyle}>
+                      <div key={q.id} style={{ border: `1px solid ${correct ? '#bbf7d0' : '#fecaca'}`, borderRadius: 16, padding: 16, background: correct ? '#f0fdf4' : '#fef2f2' }}>
+                        <div style={{ fontSize: 15, fontWeight: 700, color: '#0c4a6e', lineHeight: 1.6, marginBottom: 8 }}>
                           {index + 1}. {q.question_text}
                         </div>
-                        <div style={reviewMetaStyle}>
+                        <div style={{ fontSize: 13, color: '#475569', fontWeight: 600 }}>
                           Сенің жауабың: <b>{picked}</b> | Дұрыс жауап: <b>{q.correct_answer}</b>
                         </div>
-                        {q.explanation ? (
-                          <div style={reviewExplanationStyle}>{q.explanation}</div>
-                        ) : null}
-                        <div
-                          style={{
-                            ...reviewStatusStyle,
-                            color: correct ? '#166534' : '#991B1B',
-                          }}
-                        >
+                        {q.explanation && (
+                          <div style={{ marginTop: 8, fontSize: 13, color: '#334155', lineHeight: 1.7, fontWeight: 600 }}>{q.explanation}</div>
+                        )}
+                        <div style={{ marginTop: 8, fontSize: 13, fontWeight: 900, color: correct ? '#166534' : '#991b1b' }}>
                           {correct ? 'Дұрыс' : 'Қате'}
                         </div>
                       </div>
                     )
                   })}
                 </div>
-              </div>
+              </motion.div>
             ) : currentQuestion ? (
-              <div>
-                <div style={progressStyle}>
+              <motion.div key={`q-${currentIndex}`} initial={{ opacity: 0, x: 10 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -10 }} transition={{ duration: 0.3 }}>
+                <div style={{ color: '#64748b', fontSize: 13, fontWeight: 700, marginBottom: 14 }}>
                   {currentIndex + 1} / {questions.length}
                 </div>
-
-                <div style={questionStyle}>{currentQuestion.question_text}</div>
-
-                <div style={optionsWrapStyle}>
+                <div style={{ fontSize: 22, fontWeight: 900, color: '#0c4a6e', lineHeight: 1.5, marginBottom: 20, letterSpacing: '-0.02em' }}>
+                  {currentQuestion.question_text}
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                   {(['A', 'B', 'C', 'D'] as const).map((letter) => {
-                    const text =
-                      currentQuestion[`option_${letter.toLowerCase()}` as keyof Question] as string
+                    const text = currentQuestion[`option_${letter.toLowerCase()}` as keyof Question] as string
                     const isCorrect = currentQuestion.correct_answer === letter
                     const isSelected = selectedAnswer === letter
-
-                    let background = '#FFFFFF'
-                    let border = '1px solid #E2E8F0'
-
+                    let bg = '#fff'
+                    let border = '1px solid rgba(14,165,233,0.14)'
                     if (showFeedback) {
-                      if (isCorrect) {
-                        background = '#DCFCE7'
-                        border = '1px solid #86EFAC'
-                      } else if (isSelected) {
-                        background = '#FEE2E2'
-                        border = '1px solid #FCA5A5'
-                      }
+                      if (isCorrect) { bg = '#dcfce7'; border = '1px solid #86efac' }
+                      else if (isSelected) { bg = '#fee2e2'; border = '1px solid #fca5a5' }
                     }
-
                     return (
-                      <button
+                      <motion.button
                         key={letter}
+                        whileHover={!showFeedback ? { scale: 1.01 } : {}}
                         type="button"
                         onClick={() => handleSelect(letter)}
                         style={{
-                          ...optionStyle,
-                          background,
-                          border,
-                          cursor: showFeedback ? 'default' : 'pointer',
+                          display: 'flex', gap: 14, alignItems: 'flex-start', width: '100%',
+                          borderRadius: 16, padding: 16, textAlign: 'left',
+                          background: bg, border, cursor: showFeedback ? 'default' : 'pointer',
                         }}
                       >
-                        <div style={optionLetterStyle}>{letter}</div>
-                        <div style={optionTextStyle}>{text}</div>
-                      </button>
+                        <div style={{ minWidth: 34, height: 34, borderRadius: 999, background: '#e0f2fe', color: '#0ea5e9', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: 14 }}>
+                          {letter}
+                        </div>
+                        <div style={{ flex: 1, fontSize: 15, color: '#0c4a6e', lineHeight: 1.6, fontWeight: 600 }}>{text}</div>
+                      </motion.button>
                     )
                   })}
                 </div>
-
-                {showFeedback ? (
-                  <div style={feedbackBoxStyle}>
-                    <div
-                      style={{
-                        fontSize: '18px',
-                        fontWeight: 800,
-                        color:
-                          selectedAnswer === currentQuestion.correct_answer
-                            ? '#166534'
-                            : '#991B1B',
-                      }}
-                    >
+                {showFeedback && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    style={{ marginTop: 20, padding: 18, borderRadius: 16, background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.14)' }}
+                  >
+                    <div style={{ fontSize: 17, fontWeight: 900, color: selectedAnswer === currentQuestion.correct_answer ? '#166534' : '#991b1b' }}>
                       {selectedAnswer === currentQuestion.correct_answer ? 'Дұрыс!' : 'Қате'}
                     </div>
-
-                    {currentQuestion.explanation ? (
-                      <div style={feedbackTextStyle}>{currentQuestion.explanation}</div>
-                    ) : null}
-
-                    {lives <= 0 ? (
-                      <div style={{ marginTop: 10, color: '#991B1B', fontWeight: 700 }}>
-                        Өмір қалмады
-                      </div>
-                    ) : null}
-
-                    <button onClick={handleNext} style={nextButtonStyle}>
+                    {currentQuestion.explanation && (
+                      <div style={{ marginTop: 10, color: '#334155', lineHeight: 1.7, fontSize: 14, fontWeight: 600 }}>{currentQuestion.explanation}</div>
+                    )}
+                    {lives <= 0 && (
+                      <div style={{ marginTop: 10, color: '#991b1b', fontWeight: 700, fontSize: 14 }}>Өмір қалмады</div>
+                    )}
+                    <motion.button
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.97 }}
+                      onClick={handleNext}
+                      style={{ marginTop: 14, border: 'none', background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)', color: '#fff', borderRadius: 12, padding: '11px 18px', fontWeight: 900, cursor: 'pointer', fontSize: 14, boxShadow: '0 8px 18px rgba(14,165,233,0.2)' }}
+                    >
                       {currentIndex === questions.length - 1 || lives <= 0 ? 'Аяқтау' : 'Келесі'}
-                    </button>
-                  </div>
-                ) : null}
-              </div>
+                    </motion.button>
+                  </motion.div>
+                )}
+              </motion.div>
             ) : (
-              <div style={emptyStyle}>Сұрақтар табылмады</div>
+              <div style={{ color: '#94a3b8', fontSize: 14, fontWeight: 600 }}>Сұрақтар табылмады</div>
             )}
-          </div>
-        )}
-      </div>
+          </AnimatePresence>
+        </motion.div>
+      )}
     </div>
   )
-}
-
-const pageStyle: React.CSSProperties = {
-  minHeight: '100vh',
-  background: '#F8FAFC',
-  padding: '24px',
-}
-
-const containerStyle: React.CSSProperties = {
-  maxWidth: '1100px',
-  margin: '0 auto',
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '20px',
-}
-
-const topBarStyle: React.CSSProperties = {
-  display: 'flex',
-  alignItems: 'center',
-}
-
-const backLinkStyle: React.CSSProperties = {
-  color: '#0EA5E9',
-  fontWeight: 700,
-  textDecoration: 'none',
-}
-
-const heroStyle: React.CSSProperties = {
-  background: '#FFFFFF',
-  border: '1px solid #E2E8F0',
-  borderRadius: '24px',
-  padding: '28px',
-}
-
-const badgeStyle: React.CSSProperties = {
-  display: 'inline-block',
-  background: '#E0F2FE',
-  color: '#0369A1',
-  borderRadius: '999px',
-  padding: '8px 12px',
-  fontSize: '12px',
-  fontWeight: 800,
-}
-
-const titleStyle: React.CSSProperties = {
-  marginTop: '14px',
-  fontSize: '34px',
-  fontWeight: 800,
-  color: '#0F172A',
-}
-
-const subtitleStyle: React.CSSProperties = {
-  marginTop: '10px',
-  fontSize: '15px',
-  color: '#64748B',
-  lineHeight: 1.7,
-}
-
-const cardStyle: React.CSSProperties = {
-  background: '#FFFFFF',
-  border: '1px solid #E2E8F0',
-  borderRadius: '24px',
-  padding: '24px',
-}
-
-const sectionTitleStyle: React.CSSProperties = {
-  fontSize: '22px',
-  fontWeight: 800,
-  color: '#0F172A',
-}
-
-const emptyStyle: React.CSSProperties = {
-  marginTop: '16px',
-  color: '#64748B',
-}
-
-const quizHeaderStyle: React.CSSProperties = {
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  gap: '16px',
-}
-
-const sectionSubtleStyle: React.CSSProperties = {
-  marginTop: '6px',
-  color: '#64748B',
-  fontSize: '14px',
-}
-
-const hudStyle: React.CSSProperties = {
-  display: 'flex',
-  gap: '10px',
-}
-
-const hudItemStyle: React.CSSProperties = {
-  background: '#F8FAFC',
-  border: '1px solid #E2E8F0',
-  borderRadius: '12px',
-  padding: '10px 14px',
-  fontWeight: 800,
-  color: '#0F172A',
-}
-
-const quizIntroWrapStyle: React.CSSProperties = {
-  marginTop: '18px',
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-  gap: '16px',
-}
-
-const quizIntroStyle: React.CSSProperties = {
-  color: '#475569',
-  fontSize: '15px',
-}
-
-const startButtonStyle: React.CSSProperties = {
-  border: 'none',
-  background: 'linear-gradient(135deg, #38BDF8, #0EA5E9)',
-  color: '#FFFFFF',
-  borderRadius: '14px',
-  padding: '14px 18px',
-  fontWeight: 800,
-  cursor: 'pointer',
-}
-
-const progressStyle: React.CSSProperties = {
-  color: '#64748B',
-  fontSize: '14px',
-  marginBottom: '16px',
-  marginTop: '18px',
-}
-
-const questionStyle: React.CSSProperties = {
-  fontSize: '24px',
-  fontWeight: 700,
-  color: '#0F172A',
-  lineHeight: 1.55,
-  marginBottom: '20px',
-}
-
-const optionsWrapStyle: React.CSSProperties = {
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '12px',
-}
-
-const optionStyle: React.CSSProperties = {
-  display: 'flex',
-  gap: '14px',
-  alignItems: 'flex-start',
-  width: '100%',
-  borderRadius: '16px',
-  padding: '16px',
-  textAlign: 'left',
-}
-
-const optionLetterStyle: React.CSSProperties = {
-  minWidth: '34px',
-  height: '34px',
-  borderRadius: '999px',
-  background: '#EFF6FF',
-  color: '#0EA5E9',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  fontWeight: 800,
-}
-
-const optionTextStyle: React.CSSProperties = {
-  flex: 1,
-  fontSize: '16px',
-  color: '#0F172A',
-  lineHeight: 1.6,
-}
-
-const feedbackBoxStyle: React.CSSProperties = {
-  marginTop: '20px',
-  padding: '18px',
-  borderRadius: '16px',
-  background: '#F8FAFC',
-  border: '1px solid #E2E8F0',
-}
-
-const feedbackTextStyle: React.CSSProperties = {
-  marginTop: '10px',
-  color: '#334155',
-  lineHeight: 1.7,
-}
-
-const nextButtonStyle: React.CSSProperties = {
-  marginTop: '14px',
-  border: 'none',
-  background: '#0EA5E9',
-  color: '#FFFFFF',
-  borderRadius: '12px',
-  padding: '12px 18px',
-  fontWeight: 800,
-  cursor: 'pointer',
-}
-
-const resultGridStyle: React.CSSProperties = {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(3, 1fr)',
-  gap: '16px',
-  marginTop: '18px',
-}
-
-const resultBoxStyle: React.CSSProperties = {
-  background: '#F8FAFC',
-  border: '1px solid #E2E8F0',
-  borderRadius: '18px',
-  padding: '20px',
-}
-
-const resultLabelStyle: React.CSSProperties = {
-  fontSize: '14px',
-  color: '#64748B',
-  marginBottom: '8px',
-}
-
-const resultValueStyle: React.CSSProperties = {
-  fontSize: '28px',
-  fontWeight: 800,
-  color: '#0F172A',
-}
-
-const reviewCardStyle: React.CSSProperties = {
-  border: '1px solid #E2E8F0',
-  borderRadius: '16px',
-  padding: '16px',
-  marginBottom: '12px',
-}
-
-const reviewQuestionStyle: React.CSSProperties = {
-  fontSize: '16px',
-  fontWeight: 700,
-  color: '#0F172A',
-  lineHeight: 1.6,
-}
-
-const reviewMetaStyle: React.CSSProperties = {
-  marginTop: '8px',
-  fontSize: '14px',
-  color: '#475569',
-}
-
-const reviewExplanationStyle: React.CSSProperties = {
-  marginTop: '8px',
-  fontSize: '14px',
-  color: '#0F172A',
-  lineHeight: 1.6,
-}
-
-const reviewStatusStyle: React.CSSProperties = {
-  marginTop: '10px',
-  fontSize: '14px',
-  fontWeight: 800,
 }

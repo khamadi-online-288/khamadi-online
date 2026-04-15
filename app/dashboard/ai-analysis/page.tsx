@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { supabase } from '../../../lib/supabase'
 
 type Analysis = {
@@ -19,69 +20,47 @@ type Profile = {
   profile_subject_2?: string | null
 }
 
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 18 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
+
 export default function AiAnalysisPage() {
   const [loading, setLoading] = useState(false)
   const [dataLoading, setDataLoading] = useState(true)
   const [profile, setProfile] = useState<Profile | null>(null)
-  const [simulatorData, setSimulatorData] = useState<any[]>([])
-  const [examData, setExamData] = useState<any[]>([])
+  const [simulatorData, setSimulatorData] = useState<unknown[]>([])
+  const [examData, setExamData] = useState<unknown[]>([])
   const [analysis, setAnalysis] = useState<Analysis | null>(null)
   const [error, setError] = useState('')
 
   useEffect(() => {
     async function loadData() {
       try {
-        const {
-          data: { user }
-        } = await supabase.auth.getUser()
+        const { data: { user } } = await supabase.auth.getUser()
+        if (!user) { setDataLoading(false); return }
 
-        if (!user) {
-          setDataLoading(false)
-          return
-        }
+        const [profileRes, simRes, examRes] = await Promise.all([
+          supabase.from('profiles').select('id, full_name, profile_subject_1, profile_subject_2').eq('id', user.id).single(),
+          supabase.from('simulator_results').select('*').eq('user_id', user.id).order('created_at', { ascending: false }).limit(5),
+          supabase.from('exam_attempts').select('*').eq('student_id', user.id).order('created_at', { ascending: false }).limit(20),
+        ])
 
-        const { data: profileData } = await supabase
-          .from('profiles')
-          .select('id, full_name, profile_subject_1, profile_subject_2')
-          .eq('id', user.id)
-          .single()
-
-        setProfile(profileData)
-
-        const { data: simResults } = await supabase
-          .from('simulator_results')
-          .select('*')
-          .eq('user_id', user.id)
-          .order('created_at', { ascending: false })
-          .limit(5)
-
-        setSimulatorData(simResults || [])
-
-        const { data: examResults } = await supabase
-          .from('exam_attempts')
-          .select('*')
-          .eq('student_id', user.id)
-          .order('created_at', { ascending: false })
-          .limit(20)
-
-        setExamData(examResults || [])
-      } catch (e) {
-        console.error(e)
-      } finally {
-        setDataLoading(false)
-      }
+        setProfile(profileRes.data)
+        setSimulatorData(simRes.data || [])
+        setExamData(examRes.data || [])
+      } catch (e) { console.error(e) }
+      finally { setDataLoading(false) }
     }
-
     loadData()
   }, [])
 
   const runAnalysis = async () => {
     if (!profile) return
-
     setLoading(true)
     setError('')
     setAnalysis(null)
-
     try {
       const res = await fetch('/api/ai-analysis', {
         method: 'POST',
@@ -91,31 +70,21 @@ export default function AiAnalysisPage() {
           profileSubject1: profile.profile_subject_1,
           profileSubject2: profile.profile_subject_2,
           simulatorResults: simulatorData,
-          examResults: examData
-        })
+          examResults: examData,
+        }),
       })
-
       const data = await res.json()
       setAnalysis(data)
-    } catch {
-      setError('Қате орын алды. Қайта көріңіз.')
-    }
-
+    } catch { setError('Қате орын алды. Қайта көріңіз.') }
     setLoading(false)
   }
 
   if (dataLoading) {
     return (
-      <div style={s.loadingPage}>
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div style={{ textAlign: 'center' }}>
-          <div style={s.loader} />
-          <p style={s.loadingText}>Деректер жүктелуде...</p>
-          <style>{`
-            @keyframes spin {
-              from { transform: rotate(0deg); }
-              to { transform: rotate(360deg); }
-            }
-          `}</style>
+          <div className="spinner" style={{ margin: '0 auto 14px' }} />
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Деректер жүктелуде...</p>
         </div>
       </div>
     )
@@ -125,534 +94,207 @@ export default function AiAnalysisPage() {
   const firstName = profile?.full_name?.trim()?.split(' ')[0] || 'Оқушы'
 
   return (
-    <div style={s.page}>
-      <div style={s.wrap}>
-        <div style={s.hero}>
-          <div style={s.heroLeft}>
-            <div style={s.badge}>AI АНАЛИЗ</div>
-            <div style={s.hello}>
-              Сәлем, <span style={s.helloName}>{firstName}</span>
-            </div>
-            <h1 style={s.heroTitle}>Білім анализі</h1>
-            <p style={s.heroText}>
-              AI сенің симулятор және тақырыптық тест нәтижелеріңді талдап,
-              әлсіз тұстарды анықтап, жеке оқу жоспарын ұсынады.
-            </p>
-          </div>
-
-          <div style={s.heroRight}>
-            <div style={s.miniStatCard}>
-              <div style={s.miniStatIcon}>📊</div>
-              <div style={s.miniStatValue}>{simulatorData.length}</div>
-              <div style={s.miniStatLabel}>Симулятор</div>
-            </div>
-
-            <div style={s.miniStatCard}>
-              <div style={s.miniStatIcon}>📝</div>
-              <div style={s.miniStatValue}>{examData.length}</div>
-              <div style={s.miniStatLabel}>Тақырып тесті</div>
-            </div>
-
-            <div style={s.miniStatCard}>
-              <div style={s.miniStatIcon}>📚</div>
-              <div style={s.miniStatValueSmall}>{profile?.profile_subject_1 || '-'}</div>
-              <div style={s.miniStatLabel}>Бейінді пән 1</div>
-            </div>
-
-            <div style={s.miniStatCard}>
-              <div style={s.miniStatIcon}>📚</div>
-              <div style={s.miniStatValueSmall}>{profile?.profile_subject_2 || '-'}</div>
-              <div style={s.miniStatLabel}>Бейінді пән 2</div>
-            </div>
-          </div>
+    <div>
+      {/* Header */}
+      <motion.div {...fadeUp(0)} style={{ marginBottom: 22 }}>
+        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
+          AI Анализ
         </div>
+        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 6 }}>
+          Білім анализі
+        </h1>
+        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, margin: 0 }}>
+          AI сенің симулятор және тақырыптық тест нәтижелеріңді талдап, жеке ұсыныс дайындайды.
+        </p>
+      </motion.div>
 
-        {!hasData ? (
-          <div style={s.emptyBox}>
-            <div style={s.emptyIcon}>📊</div>
-            <h2 style={s.emptyTitle}>Деректер жоқ</h2>
-            <p style={s.emptyText}>
-              AI анализ жасау үшін алдымен симулятор немесе тақырыптық тест тапсыру қажет.
-            </p>
-            <a href="/dashboard/simulator" style={s.primaryLink}>
-              Симуляторға өту
-            </a>
+      {/* Hero */}
+      <motion.div
+        {...fadeUp(0.06)}
+        style={{
+          borderRadius: 30, padding: 28, marginBottom: 22,
+          background: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)',
+          border: '1px solid rgba(14,165,233,0.18)',
+          boxShadow: '0 20px 44px rgba(14,165,233,0.1)',
+          display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: 24,
+        }}
+      >
+        <div>
+          <div style={{ fontSize: 13, color: '#64748b', marginBottom: 8, fontWeight: 600 }}>
+            Сәлем, <strong style={{ color: '#0c4a6e' }}>{firstName}</strong>
           </div>
-        ) : !analysis ? (
-          <div style={s.startCard}>
-            <div style={s.startIcon}>🤖</div>
-            <h2 style={s.startTitle}>AI анализге дайынмын</h2>
-            <p style={s.startText}>
-              {simulatorData.length} симулятор және {examData.length} тақырыптық тест
-              нәтижесін талдап, саған нақты ұсыныс, болжам және оқу жоспарын дайындаймын.
-            </p>
+          <h2 style={{ fontSize: 28, fontWeight: 900, color: '#0c4a6e', margin: '0 0 12px', letterSpacing: '-0.04em' }}>Білім анализі</h2>
+          <p style={{ fontSize: 14, lineHeight: 1.8, color: '#475569', margin: 0, fontWeight: 600 }}>
+            AI сенің симулятор және тақырыптық тест нәтижелеріңді талдап, әлсіз тұстарды анықтап, жеке оқу жоспарын ұсынады.
+          </p>
+        </div>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, alignContent: 'start' }}>
+          {[
+            { icon: '📊', val: String(simulatorData.length), label: 'Симулятор' },
+            { icon: '📝', val: String(examData.length), label: 'Тақырып тесті' },
+            { icon: '📚', val: profile?.profile_subject_1 || '—', label: 'Бейінді пән 1', small: true },
+            { icon: '📚', val: profile?.profile_subject_2 || '—', label: 'Бейінді пән 2', small: true },
+          ].map((s, i) => (
+            <motion.div
+              key={s.label}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.1 + i * 0.07 }}
+              style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 18, padding: '14px', textAlign: 'center', boxShadow: '0 6px 14px rgba(14,165,233,0.07)' }}
+            >
+              <div style={{ fontSize: 20, marginBottom: 6 }}>{s.icon}</div>
+              <div style={{ fontSize: s.small ? 13 : 20, fontWeight: 900, color: '#0c4a6e', marginBottom: 3, lineHeight: 1.2 }}>{s.val}</div>
+              <div style={{ fontSize: 11, color: '#64748b', fontWeight: 700 }}>{s.label}</div>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
 
-            <button
+      {/* Content */}
+      {!hasData ? (
+        <motion.div
+          {...fadeUp(0.12)}
+          style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 28, padding: '52px 32px', textAlign: 'center', boxShadow: '0 20px 44px rgba(14,165,233,0.08)' }}
+        >
+          <div style={{ fontSize: 56, marginBottom: 16 }}>📊</div>
+          <h2 style={{ fontSize: 24, fontWeight: 900, color: '#0c4a6e', margin: '0 0 10px', letterSpacing: '-0.03em' }}>Деректер жоқ</h2>
+          <p style={{ color: '#64748b', fontSize: 15, lineHeight: 1.8, margin: '0 auto 24px', maxWidth: 440 }}>
+            AI анализ жасау үшін алдымен симулятор немесе тақырыптық тест тапсыру қажет.
+          </p>
+          <motion.a
+            href="/dashboard/simulator"
+            whileHover={{ scale: 1.04, boxShadow: '0 18px 36px rgba(14,165,233,0.32)' }}
+            whileTap={{ scale: 0.97 }}
+            style={{ display: 'inline-flex', alignItems: 'center', padding: '14px 28px', borderRadius: 16, background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)', color: '#fff', fontWeight: 800, textDecoration: 'none', fontSize: 15, boxShadow: '0 12px 28px rgba(14,165,233,0.28)' }}
+          >
+            Симуляторға өту
+          </motion.a>
+        </motion.div>
+      ) : !analysis ? (
+        <motion.div
+          {...fadeUp(0.12)}
+          style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 28, padding: '52px 32px', textAlign: 'center', boxShadow: '0 20px 44px rgba(14,165,233,0.08)' }}
+        >
+          <div style={{ fontSize: 60, marginBottom: 16 }}>🤖</div>
+          <h2 style={{ fontSize: 26, fontWeight: 900, color: '#0c4a6e', margin: '0 0 12px', letterSpacing: '-0.04em' }}>AI анализге дайынмын</h2>
+          <p style={{ color: '#64748b', fontSize: 15, lineHeight: 1.8, margin: '0 auto 28px', maxWidth: 520 }}>
+            {simulatorData.length} симулятор және {examData.length} тақырыптық тест нәтижесін талдап, саған нақты ұсыныс, болжам және оқу жоспарын дайындаймын.
+          </p>
+          <motion.button
+            onClick={runAnalysis}
+            disabled={loading}
+            whileHover={!loading ? { scale: 1.04, boxShadow: '0 20px 44px rgba(14,165,233,0.36)' } : {}}
+            whileTap={!loading ? { scale: 0.97 } : {}}
+            style={{
+              padding: '16px 36px', borderRadius: 16, border: 'none',
+              background: loading ? 'rgba(14,165,233,0.5)' : 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+              color: '#fff', fontWeight: 800, fontSize: 16,
+              cursor: loading ? 'not-allowed' : 'pointer',
+              boxShadow: loading ? 'none' : '0 14px 30px rgba(14,165,233,0.3)',
+            }}
+          >
+            {loading ? (
+              <span style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <span className="spin" style={{ width: 18, height: 18, border: '2.5px solid rgba(255,255,255,0.4)', borderTopColor: '#fff', borderRadius: 999, display: 'inline-block' }} />
+                Анализ жасалуда...
+              </span>
+            ) : '✦ AI Анализді бастау'}
+          </motion.button>
+
+          <AnimatePresence>
+            {error && (
+              <motion.p
+                initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+                style={{ color: '#dc2626', marginTop: 14, marginBottom: 0, fontSize: 14, fontWeight: 700 }}
+              >
+                {error}
+              </motion.p>
+            )}
+          </AnimatePresence>
+        </motion.div>
+      ) : (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          {[
+            { num: '1', title: 'Жалпы білім деңгейі', content: analysis.overview, tone: 'default' as const },
+            { num: '2', title: 'Пәндер бойынша деңгей', content: analysis.subjectLevels, tone: 'default' as const, variant: 'levels' as const },
+            { num: '3', title: 'Әлсіз тақырыптар', content: analysis.weakTopics, tone: 'default' as const },
+            { num: '4', title: 'ҰБТ баллын болжау', content: analysis.scorePrediction, tone: 'blue' as const },
+            { num: '5', title: 'Персоналды оқу жоспары', content: analysis.studyPlan, tone: 'default' as const },
+            { num: '6', title: 'Ата-анаға есеп', content: analysis.parentReport, tone: 'green' as const },
+          ].map((section, i) => (
+            <motion.div
+              key={section.num}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }}
+            >
+              <AnalysisSection {...section} />
+            </motion.div>
+          ))}
+
+          <motion.div {...fadeUp(0.4)} style={{ textAlign: 'center', paddingTop: 4 }}>
+            <motion.button
               onClick={runAnalysis}
               disabled={loading}
+              whileHover={!loading ? { scale: 1.03, boxShadow: '0 18px 36px rgba(14,165,233,0.32)' } : {}}
+              whileTap={!loading ? { scale: 0.97 } : {}}
               style={{
-                ...s.analyzeBtn,
-                opacity: loading ? 0.75 : 1,
-                cursor: loading ? 'not-allowed' : 'pointer'
+                padding: '14px 32px', borderRadius: 16, border: 'none',
+                background: loading ? 'rgba(14,165,233,0.5)' : 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+                color: '#fff', fontWeight: 800, fontSize: 15,
+                cursor: loading ? 'not-allowed' : 'pointer',
+                boxShadow: loading ? 'none' : '0 12px 28px rgba(14,165,233,0.28)',
               }}
             >
-              {loading ? 'Анализ жасалуда...' : 'AI Анализді бастау'}
-            </button>
-
-            {error ? <p style={s.errorText}>{error}</p> : null}
-          </div>
-        ) : (
-          <div style={s.analysisWrap}>
-            <Section
-              number="1"
-              title="Жалпы білім деңгейі"
-              content={analysis.overview}
-            />
-
-            <Section
-              number="2"
-              title="Пәндер бойынша деңгей"
-              content={analysis.subjectLevels}
-              variant="levels"
-            />
-
-            <Section
-              number="3"
-              title="Әлсіз тақырыптар"
-              content={analysis.weakTopics}
-            />
-
-            <Section
-              number="4"
-              title="ҰБТ баллын болжау"
-              content={analysis.scorePrediction}
-              tone="blue"
-            />
-
-            <Section
-              number="5"
-              title="Персоналды оқу жоспары"
-              content={analysis.studyPlan}
-            />
-
-            <Section
-              number="6"
-              title="Ата-анаға есеп"
-              content={analysis.parentReport}
-              tone="green"
-            />
-
-            <button
-              onClick={runAnalysis}
-              disabled={loading}
-              style={{
-                ...s.analyzeBtn,
-                marginTop: 4,
-                opacity: loading ? 0.75 : 1,
-                cursor: loading ? 'not-allowed' : 'pointer'
-              }}
-            >
-              {loading ? 'Жаңартылуда...' : 'Қайта анализ жасау'}
-            </button>
-          </div>
-        )}
-      </div>
+              {loading ? 'Жаңартылуда...' : '↺ Қайта анализ жасау'}
+            </motion.button>
+          </motion.div>
+        </div>
+      )}
     </div>
   )
 }
 
-function Section({
-  number,
-  title,
-  content,
-  tone = 'default',
-  variant = 'default'
+function AnalysisSection({
+  num, title, content, tone = 'default', variant = 'default'
 }: {
-  number: string
-  title: string
-  content: string
+  num: string; title: string; content: string
   tone?: 'default' | 'blue' | 'green'
   variant?: 'default' | 'levels'
 }) {
-  const toneStyles =
-    tone === 'blue'
-      ? {
-          box: {
-            background: '#EFF6FF',
-            border: '1px solid #BFDBFE'
-          },
-          circle: {
-            background: '#0EA5E9'
-          },
-          text: {
-            color: '#1D4ED8'
-          }
-        }
-      : tone === 'green'
-      ? {
-          box: {
-            background: '#F0FDF4',
-            border: '1px solid #BBF7D0'
-          },
-          circle: {
-            background: '#16A34A'
-          },
-          text: {
-            color: '#166534'
-          }
-        }
-      : {
-          box: {
-            background: '#FFFFFF',
-            border: '1px solid #E2E8F0'
-          },
-          circle: {
-            background: '#0F172A'
-          },
-          text: {
-            color: '#334155'
-          }
-        }
+  const toneMap = {
+    blue:    { bg: '#eff6ff', border: 'rgba(14,165,233,0.2)', circle: '#0ea5e9', text: '#1d4ed8' },
+    green:   { bg: '#f0fdf4', border: '#bbf7d0', circle: '#16a34a', text: '#166534' },
+    default: { bg: 'rgba(255,255,255,0.92)', border: 'rgba(14,165,233,0.14)', circle: '#0c4a6e', text: '#334155' },
+  }
+  const t = toneMap[tone]
 
   return (
-    <div
-      style={{
-        ...s.section,
-        ...toneStyles.box
-      }}
-    >
-      <div style={s.sectionHeader}>
-        <span
-          style={{
-            ...s.sectionNum,
-            ...toneStyles.circle
-          }}
-        >
-          {number}
-        </span>
-        <h2 style={s.sectionTitle}>{title}</h2>
+    <div style={{ borderRadius: 24, padding: 24, background: t.bg, border: `1px solid ${t.border}`, boxShadow: '0 10px 24px rgba(14,165,233,0.06)' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
+        <div style={{ width: 34, height: 34, borderRadius: '50%', background: t.circle, color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: 14, flexShrink: 0 }}>
+          {num}
+        </div>
+        <h2 style={{ fontSize: 19, fontWeight: 900, color: '#0c4a6e', margin: 0, letterSpacing: '-0.03em' }}>{title}</h2>
       </div>
-
       <div>
         {content.split('\n').filter(Boolean).map((line, i) => {
           const isStrong = line.toLowerCase().includes('күшті')
           const isWeak = line.toLowerCase().includes('әлсіз')
           const isMedium = line.toLowerCase().includes('орташа')
-
           if (variant === 'levels') {
             return (
-              <div key={i} style={s.levelRow}>
-                <div style={s.levelIconWrap}>
+              <div key={i} style={{ display: 'flex', alignItems: 'flex-start', gap: 10, marginBottom: 8 }}>
+                <div style={{ width: 22, flexShrink: 0, fontSize: 15, lineHeight: '22px' }}>
                   {isStrong ? '✅' : isWeak ? '❌' : isMedium ? '⚠️' : '•'}
                 </div>
-                <p
-                  style={{
-                    ...s.sectionParagraph,
-                    ...toneStyles.text,
-                    margin: 0
-                  }}
-                >
-                  {line}
-                </p>
+                <p style={{ margin: 0, fontSize: 14, lineHeight: 1.8, color: t.text, fontWeight: 600 }}>{line}</p>
               </div>
             )
           }
-
-          return (
-            <p
-              key={i}
-              style={{
-                ...s.sectionParagraph,
-                ...toneStyles.text
-              }}
-            >
-              {line}
-            </p>
-          )
+          return <p key={i} style={{ margin: '0 0 8px', fontSize: 14, lineHeight: 1.85, color: t.text, fontWeight: 600 }}>{line}</p>
         })}
       </div>
     </div>
   )
-}
-
-const s: Record<string, React.CSSProperties> = {
-  page: {
-    minHeight: '100vh',
-    background: '#F8FAFC',
-    padding: '24px 20px 40px'
-  },
-
-  wrap: {
-    maxWidth: 980,
-    margin: '0 auto'
-  },
-
-  loadingPage: {
-    minHeight: '100vh',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    background: '#F8FAFC'
-  },
-
-  loader: {
-    width: 52,
-    height: 52,
-    border: '4px solid #0EA5E9',
-    borderTopColor: 'transparent',
-    borderRadius: '50%',
-    margin: '0 auto 16px',
-    animation: 'spin 1s linear infinite'
-  },
-
-  loadingText: {
-    color: '#64748B',
-    fontSize: 15,
-    margin: 0
-  },
-
-  hero: {
-    display: 'grid',
-    gridTemplateColumns: '1.2fr 0.8fr',
-    gap: 20,
-    background: 'linear-gradient(135deg, #E0F2FE 0%, #F0F9FF 100%)',
-    border: '1px solid #E2E8F0',
-    borderRadius: 28,
-    padding: 28,
-    boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)',
-    marginBottom: 22
-  },
-
-  heroLeft: {},
-
-  heroRight: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: 12,
-    alignContent: 'start'
-  },
-
-  badge: {
-    display: 'inline-flex',
-    alignItems: 'center',
-    padding: '9px 13px',
-    borderRadius: 999,
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    color: '#0EA5E9',
-    fontSize: 12,
-    fontWeight: 800,
-    marginBottom: 16
-  },
-
-  hello: {
-    fontSize: 15,
-    color: '#64748B',
-    marginBottom: 8
-  },
-
-  helloName: {
-    color: '#0F172A',
-    fontWeight: 800
-  },
-
-  heroTitle: {
-    fontSize: 34,
-    fontWeight: 800,
-    lineHeight: 1.12,
-    letterSpacing: '-0.03em',
-    color: '#0F172A',
-    margin: 0,
-    marginBottom: 12
-  },
-
-  heroText: {
-    fontSize: 16,
-    lineHeight: 1.8,
-    color: '#64748B',
-    margin: 0
-  },
-
-  miniStatCard: {
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    borderRadius: 18,
-    padding: 18,
-    textAlign: 'center',
-    boxShadow: '0 8px 24px rgba(15, 23, 42, 0.04)'
-  },
-
-  miniStatIcon: {
-    fontSize: 24,
-    marginBottom: 8
-  },
-
-  miniStatValue: {
-    fontSize: 24,
-    fontWeight: 800,
-    color: '#0F172A',
-    lineHeight: 1.15,
-    marginBottom: 4
-  },
-
-  miniStatValueSmall: {
-    fontSize: 16,
-    fontWeight: 700,
-    color: '#0F172A',
-    lineHeight: 1.35,
-    marginBottom: 4
-  },
-
-  miniStatLabel: {
-    fontSize: 12,
-    color: '#64748B'
-  },
-
-  emptyBox: {
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    borderRadius: 24,
-    padding: 48,
-    textAlign: 'center',
-    boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)'
-  },
-
-  emptyIcon: {
-    fontSize: 52,
-    marginBottom: 14
-  },
-
-  emptyTitle: {
-    fontSize: 22,
-    fontWeight: 800,
-    color: '#0F172A',
-    margin: '0 0 8px 0'
-  },
-
-  emptyText: {
-    color: '#64748B',
-    fontSize: 15,
-    lineHeight: 1.7,
-    margin: '0 0 22px 0'
-  },
-
-  primaryLink: {
-    display: 'inline-flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: '14px 24px',
-    borderRadius: 14,
-    background: '#0EA5E9',
-    color: '#FFFFFF',
-    fontWeight: 800,
-    textDecoration: 'none',
-    fontSize: 15,
-    boxShadow: '0 10px 24px rgba(14,165,233,0.20)'
-  },
-
-  startCard: {
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    borderRadius: 24,
-    padding: 48,
-    textAlign: 'center',
-    boxShadow: '0 10px 30px rgba(15,23,42,0.05)'
-  },
-
-  startIcon: {
-    fontSize: 58,
-    marginBottom: 14
-  },
-
-  startTitle: {
-    fontSize: 28,
-    fontWeight: 800,
-    color: '#0F172A',
-    margin: '0 0 10px 0'
-  },
-
-  startText: {
-    color: '#64748B',
-    fontSize: 15,
-    lineHeight: 1.75,
-    margin: '0 auto 28px auto',
-    maxWidth: 520
-  },
-
-  analyzeBtn: {
-    padding: '16px 32px',
-    borderRadius: 16,
-    border: 'none',
-    background: '#0EA5E9',
-    color: '#FFFFFF',
-    fontWeight: 800,
-    fontSize: 16,
-    boxShadow: '0 10px 24px rgba(14,165,233,0.25)'
-  },
-
-  errorText: {
-    color: '#DC2626',
-    marginTop: 14,
-    marginBottom: 0,
-    fontSize: 14
-  },
-
-  analysisWrap: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: 16
-  },
-
-  section: {
-    borderRadius: 22,
-    padding: 24,
-    boxShadow: '0 6px 20px rgba(15,23,42,0.04)'
-  },
-
-  sectionHeader: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: 12,
-    marginBottom: 16
-  },
-
-  sectionNum: {
-    width: 34,
-    height: 34,
-    borderRadius: '50%',
-    color: '#FFFFFF',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    fontWeight: 900,
-    fontSize: 14,
-    flexShrink: 0
-  },
-
-  sectionTitle: {
-    fontSize: 21,
-    fontWeight: 800,
-    color: '#0F172A',
-    margin: 0
-  },
-
-  sectionParagraph: {
-    margin: '0 0 9px 0',
-    fontSize: 15,
-    lineHeight: 1.8
-  },
-
-  levelRow: {
-    display: 'flex',
-    alignItems: 'flex-start',
-    gap: 10,
-    marginBottom: 8
-  },
-
-  levelIconWrap: {
-    width: 22,
-    flexShrink: 0,
-    fontSize: 15,
-    lineHeight: '24px'
-  }
 }

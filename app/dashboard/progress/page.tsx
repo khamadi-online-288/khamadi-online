@@ -1,29 +1,21 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import { motion } from 'framer-motion'
 import { supabase } from '../../../lib/supabase'
 
-type StudyPlanRow = {
-  id: number
-  status: string
-  subject: string
-}
-
-type SimulatorResultRow = {
-  id: number
-  total_score?: number | null
-  created_at?: string | null
-}
-
+type StudyPlanRow = { id: number; status: string; subject: string }
+type SimulatorResultRow = { id: number; total_score?: number | null; created_at?: string | null }
 type UserStats = {
-  xp: number
-  level: number
-  streak: number
-  longest_streak: number
-  total_simulators: number
-  total_study_done: number
-  total_ai_analysis: number
+  xp: number; level: number; streak: number; longest_streak: number
+  total_simulators: number; total_study_done: number; total_ai_analysis: number
 }
+
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 18 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
 
 export default function ProgressPage() {
   const [loading, setLoading] = useState(true)
@@ -35,45 +27,21 @@ export default function ProgressPage() {
     async function loadProgress() {
       try {
         setLoading(true)
+        const { data: { user } } = await supabase.auth.getUser()
+        if (!user) { setLoading(false); return }
 
-        const {
-          data: { user }
-        } = await supabase.auth.getUser()
+        const [plansRes, simRes, statsRes] = await Promise.all([
+          supabase.from('study_plans').select('id, status, subject').eq('user_id', user.id).order('id', { ascending: true }),
+          supabase.from('simulator_results').select('id, total_score, created_at').eq('user_id', user.id).order('created_at', { ascending: false }).limit(20),
+          supabase.from('user_stats').select('xp, level, streak, longest_streak, total_simulators, total_study_done, total_ai_analysis').eq('user_id', user.id).maybeSingle(),
+        ])
 
-        if (!user) {
-          setLoading(false)
-          return
-        }
-
-        const { data: plansData } = await supabase
-          .from('study_plans')
-          .select('id, status, subject')
-          .eq('user_id', user.id)
-          .order('id', { ascending: true })
-
-        const { data: simData } = await supabase
-          .from('simulator_results')
-          .select('id, total_score, created_at')
-          .eq('user_id', user.id)
-          .order('created_at', { ascending: false })
-          .limit(20)
-
-        const { data: statsData } = await supabase
-          .from('user_stats')
-          .select('xp, level, streak, longest_streak, total_simulators, total_study_done, total_ai_analysis')
-          .eq('user_id', user.id)
-          .maybeSingle()
-
-        setStudyPlans((plansData || []) as StudyPlanRow[])
-        setSimulatorResults((simData || []) as SimulatorResultRow[])
-        setStats((statsData || null) as UserStats | null)
-      } catch (error) {
-        console.error(error)
-      } finally {
-        setLoading(false)
-      }
+        setStudyPlans((plansRes.data || []) as StudyPlanRow[])
+        setSimulatorResults((simRes.data || []) as SimulatorResultRow[])
+        setStats((statsRes.data || null) as UserStats | null)
+      } catch (error) { console.error(error) }
+      finally { setLoading(false) }
     }
-
     loadProgress()
   }, [])
 
@@ -82,30 +50,19 @@ export default function ProgressPage() {
   const completionRate = totalPlans > 0 ? Math.round((completedPlans / totalPlans) * 100) : 0
 
   const totalSimulators = simulatorResults.length
-  const bestScore = simulatorResults.length
-    ? Math.max(...simulatorResults.map((r) => Number(r.total_score || 0)))
-    : 0
-  const avgScore = simulatorResults.length
-    ? Math.round(
-        simulatorResults.reduce((sum, r) => sum + Number(r.total_score || 0), 0) /
-          simulatorResults.length
-      )
-    : 0
+  const bestScore = simulatorResults.length ? Math.max(...simulatorResults.map((r) => Number(r.total_score || 0))) : 0
+  const avgScore = simulatorResults.length ? Math.round(simulatorResults.reduce((sum, r) => sum + Number(r.total_score || 0), 0) / simulatorResults.length) : 0
   const latestScore = simulatorResults.length ? Number(simulatorResults[0].total_score || 0) : 0
 
   const subjectProgress = useMemo(() => {
     const grouped: Record<string, { total: number; done: number }> = {}
-
     studyPlans.forEach((item) => {
       if (!grouped[item.subject]) grouped[item.subject] = { total: 0, done: 0 }
       grouped[item.subject].total += 1
       if (item.status === 'done') grouped[item.subject].done += 1
     })
-
     return Object.entries(grouped).map(([subject, value]) => ({
-      subject,
-      total: value.total,
-      done: value.done,
+      subject, total: value.total, done: value.done,
       percent: value.total > 0 ? Math.round((value.done / value.total) * 100) : 0
     }))
   }, [studyPlans])
@@ -119,214 +76,186 @@ export default function ProgressPage() {
 
   if (loading) {
     return (
-      <div style={s.loadingPage}>
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div style={{ textAlign: 'center' }}>
-          <div style={s.loader} />
-          <p style={s.loadingText}>Прогресс жүктелуде...</p>
-          <style>{`
-            @keyframes spin {
-              from { transform: rotate(0deg); }
-              to { transform: rotate(360deg); }
-            }
-          `}</style>
+          <div className="spinner" style={{ margin: '0 auto 14px' }} />
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Прогресс жүктелуде...</p>
         </div>
       </div>
     )
   }
 
   return (
-    <div style={s.page}>
-      <div style={s.wrap}>
-        <div style={s.hero}>
-          <div style={s.heroLeft}>
-            <div style={s.badge}>PROGRESS</div>
-            <h1 style={s.heroTitle}>Оқу прогресі</h1>
-            <p style={s.heroText}>
-              XP, деңгей, streak, study plan және симулятор нәтижелері осы жерде көрсетіледі.
-            </p>
-          </div>
-
-          <div style={s.heroRight}>
-            <div style={s.bigStatCard}>
-              <div style={s.bigStatNumber}>Lv. {level}</div>
-              <div style={s.bigStatLabel}>Деңгей</div>
-            </div>
-
-            <div style={s.bigStatCard}>
-              <div style={s.bigStatNumber}>{streak}🔥</div>
-              <div style={s.bigStatLabel}>Қазіргі streak</div>
-            </div>
-          </div>
+    <div>
+      {/* Header */}
+      <motion.div {...fadeUp(0)} style={{ marginBottom: 24 }}>
+        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
+          Progress
         </div>
+        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 6 }}>
+          Оқу прогресі
+        </h1>
+        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, margin: 0 }}>
+          XP, деңгей, streak, study plan және симулятор нәтижелері осы жерде көрсетіледі.
+        </p>
+      </motion.div>
 
-        <div style={s.statsGrid}>
-          <div style={s.statCard}>
-            <div style={s.statIcon}>⭐</div>
-            <div style={s.statNumber}>{xp}</div>
-            <div style={s.statLabel}>XP</div>
+      {/* Hero card */}
+      <motion.div
+        {...fadeUp(0.06)}
+        style={{
+          borderRadius: 30, padding: 28, marginBottom: 20,
+          background: 'linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%)',
+          boxShadow: '0 24px 56px rgba(12,74,110,0.22)',
+          display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: 24,
+        }}
+      >
+        <div>
+          <div style={{ display: 'inline-flex', padding: '8px 14px', borderRadius: 999, background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.14)', fontSize: 12, fontWeight: 900, color: '#fff', marginBottom: 14, letterSpacing: '0.06em' }}>
+            PROGRESS
           </div>
-
-          <div style={s.statCard}>
-            <div style={s.statIcon}>✅</div>
-            <div style={s.statNumber}>{completedPlans}</div>
-            <div style={s.statLabel}>Done tasks</div>
-          </div>
-
-          <div style={s.statCard}>
-            <div style={s.statIcon}>📝</div>
-            <div style={s.statNumber}>{totalSimulators}</div>
-            <div style={s.statLabel}>Симулятор саны</div>
-          </div>
-
-          <div style={s.statCard}>
-            <div style={s.statIcon}>🏆</div>
-            <div style={s.statNumber}>{bestScore}</div>
-            <div style={s.statLabel}>Ең жоғары балл</div>
-          </div>
+          <h2 style={{ fontSize: 36, fontWeight: 900, color: '#fff', letterSpacing: '-0.05em', margin: '0 0 12px', lineHeight: 1.05 }}>
+            Оқу прогресі
+          </h2>
+          <p style={{ fontSize: 15, lineHeight: 1.8, color: 'rgba(255,255,255,0.75)', margin: 0 }}>
+            XP, деңгей, streak, study plan және симулятор нәтижелері осы жерде көрсетіледі.
+          </p>
         </div>
-
-        <div style={s.mainGrid}>
-          <div style={s.card}>
-            <h2 style={s.cardTitle}>Level progress</h2>
-
-            <div style={s.metricRow}>
-              <div style={s.metricLabel}>Қазіргі деңгей</div>
-              <div style={s.metricValue}>Level {level}</div>
-            </div>
-            <div style={s.track}>
-              <div style={{ ...s.fill, width: `${xpProgress}%` }} />
-            </div>
-            <div style={s.smallNote}>{xpIntoLevel} / 100 XP келесі деңгейге</div>
-
-            <div style={{ height: 18 }} />
-
-            <div style={s.metricRow}>
-              <div style={s.metricLabel}>Study Plan completion</div>
-              <div style={s.metricValue}>{completionRate}%</div>
-            </div>
-            <div style={s.track}>
-              <div style={{ ...s.fill, width: `${completionRate}%` }} />
-            </div>
-
-            <div style={{ height: 18 }} />
-
-            <div style={s.metricRow}>
-              <div style={s.metricLabel}>Орташа симулятор балы</div>
-              <div style={s.metricValue}>{avgScore}</div>
-            </div>
-            <div style={s.track}>
-              <div style={{ ...s.fill, width: `${(Math.min(avgScore, 140) / 140) * 100}%` }} />
-            </div>
-          </div>
-
-          <div style={s.card}>
-            <h2 style={s.cardTitle}>Streak & consistency</h2>
-
-            <div style={s.streakBox}>
-              <div style={s.streakMain}>{streak} 🔥</div>
-              <div style={s.streakLabel}>Қазіргі streak</div>
-            </div>
-
-            <div style={{ height: 16 }} />
-
-            <div style={s.metricRow}>
-              <div style={s.metricLabel}>Ең ұзақ streak</div>
-              <div style={s.metricValue}>{longestStreak} күн</div>
-            </div>
-
-            <div style={s.metricRow}>
-              <div style={s.metricLabel}>Соңғы симулятор</div>
-              <div style={s.metricValue}>{latestScore}</div>
-            </div>
-
-            <div style={s.metricRow}>
-              <div style={s.metricLabel}>AI analysis саны</div>
-              <div style={s.metricValue}>{Number(stats?.total_ai_analysis || 0)}</div>
-            </div>
-          </div>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, alignContent: 'start' }}>
+          {[{ num: `Lv. ${level}`, label: 'Деңгей' }, { num: `${streak}🔥`, label: 'Streak' }].map((s, i) => (
+            <motion.div
+              key={s.label}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.1 + i * 0.08 }}
+              style={{ background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.14)', borderRadius: 20, padding: 18, textAlign: 'center' }}
+            >
+              <div style={{ fontSize: 26, fontWeight: 900, color: '#fff', lineHeight: 1.1 }}>{s.num}</div>
+              <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.65)', marginTop: 5, fontWeight: 700 }}>{s.label}</div>
+            </motion.div>
+          ))}
         </div>
+      </motion.div>
 
-        <div style={s.card}>
-          <h2 style={s.cardTitle}>Пәндер бойынша прогресс</h2>
+      {/* 4 stat cards */}
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14, marginBottom: 20 }}>
+        {[
+          { icon: '⭐', num: String(xp), label: 'XP' },
+          { icon: '✅', num: String(completedPlans), label: 'Done tasks' },
+          { icon: '📝', num: String(totalSimulators), label: 'Симулятор саны' },
+          { icon: '🏆', num: String(bestScore), label: 'Ең жоғары балл' },
+        ].map((s, i) => (
+          <motion.div
+            key={s.label}
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 + i * 0.07, ease: [0.22, 1, 0.36, 1] }}
+            whileHover={{ y: -3, boxShadow: '0 16px 32px rgba(14,165,233,0.14)' }}
+            style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 22, padding: 20, textAlign: 'center', boxShadow: '0 8px 20px rgba(14,165,233,0.07)', transition: 'box-shadow 0.2s' }}
+          >
+            <div style={{ fontSize: 26, marginBottom: 8 }}>{s.icon}</div>
+            <div style={{ fontSize: 24, fontWeight: 900, color: '#0c4a6e', marginBottom: 4, letterSpacing: '-0.03em' }}>{s.num}</div>
+            <div style={{ fontSize: 12, color: '#64748b', fontWeight: 700 }}>{s.label}</div>
+          </motion.div>
+        ))}
+      </div>
 
-          {subjectProgress.length === 0 ? (
-            <p style={s.emptyText}>Әзірше progress дерегі жоқ</p>
-          ) : (
-            subjectProgress.map((item, index) => (
-              <div
-                key={item.subject}
-                style={{
-                  ...s.subjectRow,
-                  borderBottom: index === subjectProgress.length - 1 ? 'none' : '1px solid #EEF2F7'
-                }}
-              >
-                <div style={s.subjectTop}>
+      {/* Progress cards grid */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 18, marginBottom: 18 }}>
+        {/* Level progress */}
+        <motion.div
+          {...fadeUp(0.2)}
+          style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
+        >
+          <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: '0 0 20px', letterSpacing: '-0.03em' }}>Level progress</h2>
+
+          {[
+            { label: `Level ${level} — XP прогресі`, value: xpProgress, note: `${xpIntoLevel} / 100 XP келесі деңгейге` },
+            { label: 'Study Plan аяқтау', value: completionRate },
+            { label: `Орташа симулятор балы (${avgScore})`, value: Math.round((Math.min(avgScore, 140) / 140) * 100) },
+          ].map((item, i) => (
+            <div key={i} style={{ marginBottom: 18 }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+                <div style={{ fontSize: 13, fontWeight: 700, color: '#334155' }}>{item.label}</div>
+                <div style={{ fontSize: 13, fontWeight: 900, color: '#0ea5e9' }}>{item.value}%</div>
+              </div>
+              <div style={{ width: '100%', height: 8, borderRadius: 999, background: '#e2e8f0', overflow: 'hidden' }}>
+                <motion.div
+                  initial={{ width: 0 }}
+                  animate={{ width: `${item.value}%` }}
+                  transition={{ duration: 0.8, delay: 0.3 + i * 0.1, ease: [0.22, 1, 0.36, 1] }}
+                  style={{ height: '100%', borderRadius: 999, background: 'linear-gradient(90deg, #38bdf8, #0ea5e9)' }}
+                />
+              </div>
+              {item.note && <div style={{ marginTop: 6, color: '#94a3b8', fontSize: 12, fontWeight: 600 }}>{item.note}</div>}
+            </div>
+          ))}
+        </motion.div>
+
+        {/* Streak card */}
+        <motion.div
+          {...fadeUp(0.24)}
+          style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
+        >
+          <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: '0 0 20px', letterSpacing: '-0.03em' }}>Streak & consistency</h2>
+
+          <motion.div
+            initial={{ scale: 0.9, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            style={{ background: 'linear-gradient(135deg, #fff7ed, #fef3c7)', border: '1px solid #fed7aa', borderRadius: 20, padding: '22px', textAlign: 'center', marginBottom: 18 }}
+          >
+            <div style={{ fontSize: 36, fontWeight: 900, color: '#c2410c', lineHeight: 1.1 }}>{streak} 🔥</div>
+            <div style={{ fontSize: 13, color: '#9a3412', marginTop: 6, fontWeight: 700 }}>Қазіргі streak</div>
+          </motion.div>
+
+          {[
+            { label: 'Ең ұзақ streak', value: `${longestStreak} күн` },
+            { label: 'Соңғы симулятор балл', value: String(latestScore) },
+            { label: 'AI analysis саны', value: String(stats?.total_ai_analysis || 0) },
+          ].map((item) => (
+            <div key={item.label} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '12px 0', borderBottom: '1px solid rgba(14,165,233,0.08)' }}>
+              <div style={{ fontSize: 13, fontWeight: 700, color: '#475569' }}>{item.label}</div>
+              <div style={{ fontSize: 14, fontWeight: 900, color: '#0c4a6e' }}>{item.value}</div>
+            </div>
+          ))}
+        </motion.div>
+      </div>
+
+      {/* Subject progress */}
+      <motion.div
+        {...fadeUp(0.28)}
+        style={{ background: 'rgba(255,255,255,0.9)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
+      >
+        <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: '0 0 20px', letterSpacing: '-0.03em' }}>Пәндер бойынша прогресс</h2>
+
+        {subjectProgress.length === 0 ? (
+          <p style={{ color: '#94a3b8', fontSize: 14, fontWeight: 600 }}>Әзірше progress дерегі жоқ</p>
+        ) : (
+          subjectProgress.map((item, index) => {
+            const barColor = item.percent >= 70 ? '#22c55e' : item.percent >= 40 ? '#0ea5e9' : '#f59e0b'
+            return (
+              <div key={item.subject} style={{ paddingBottom: 16, marginBottom: 16, borderBottom: index === subjectProgress.length - 1 ? 'none' : '1px solid rgba(14,165,233,0.08)' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginBottom: 8 }}>
                   <div>
-                    <div style={s.subjectName}>{item.subject}</div>
-                    <div style={s.subjectMeta}>{item.done} / {item.total} орындалды</div>
+                    <div style={{ fontSize: 14, fontWeight: 800, color: '#0c4a6e', marginBottom: 2 }}>{item.subject}</div>
+                    <div style={{ fontSize: 12, color: '#64748b', fontWeight: 600 }}>{item.done} / {item.total} орындалды</div>
                   </div>
-                  <div style={s.subjectPercent}>{item.percent}%</div>
+                  <div style={{ fontSize: 14, fontWeight: 900, color: '#0ea5e9' }}>{item.percent}%</div>
                 </div>
-
-                <div style={s.track}>
-                  <div
-                    style={{
-                      ...s.fill,
-                      width: `${item.percent}%`,
-                      background:
-                        item.percent >= 70
-                          ? '#22C55E'
-                          : item.percent >= 40
-                          ? '#0EA5E9'
-                          : '#F59E0B'
-                    }}
+                <div style={{ width: '100%', height: 8, borderRadius: 999, background: '#e2e8f0', overflow: 'hidden' }}>
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${item.percent}%` }}
+                    transition={{ duration: 0.8, delay: 0.3 + index * 0.06, ease: [0.22, 1, 0.36, 1] }}
+                    style={{ height: '100%', borderRadius: 999, background: barColor }}
                   />
                 </div>
               </div>
-            ))
-          )}
-        </div>
-      </div>
+            )
+          })
+        )}
+      </motion.div>
     </div>
   )
-}
-
-const s: Record<string, React.CSSProperties> = {
-  page: { minHeight: '100vh', background: '#F8FAFC', padding: '24px 20px 40px' },
-  wrap: { maxWidth: 1180, margin: '0 auto' },
-  loadingPage: { minHeight: '100vh', background: '#F8FAFC', display: 'flex', alignItems: 'center', justifyContent: 'center' },
-  loader: { width: 52, height: 52, border: '4px solid #0EA5E9', borderTopColor: 'transparent', borderRadius: '50%', margin: '0 auto 16px', animation: 'spin 1s linear infinite' },
-  loadingText: { color: '#64748B', fontSize: 15, margin: 0 },
-  hero: { display: 'grid', gridTemplateColumns: '1.15fr 0.85fr', gap: 20, background: 'linear-gradient(135deg, #E0F2FE 0%, #F0F9FF 100%)', border: '1px solid #E2E8F0', borderRadius: 28, padding: 28, boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)', marginBottom: 22 },
-  heroLeft: {},
-  heroRight: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, alignContent: 'start' },
-  badge: { display: 'inline-flex', alignItems: 'center', padding: '9px 13px', borderRadius: 999, background: '#FFFFFF', border: '1px solid #E2E8F0', color: '#0EA5E9', fontSize: 12, fontWeight: 800, marginBottom: 16 },
-  heroTitle: { fontSize: 34, fontWeight: 800, lineHeight: 1.12, letterSpacing: '-0.03em', color: '#0F172A', margin: 0, marginBottom: 12 },
-  heroText: { fontSize: 16, lineHeight: 1.8, color: '#64748B', margin: 0 },
-  bigStatCard: { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 20, padding: 22, textAlign: 'center', boxShadow: '0 8px 24px rgba(15, 23, 42, 0.04)' },
-  bigStatNumber: { fontSize: 30, fontWeight: 800, lineHeight: 1.1, color: '#0F172A' },
-  bigStatLabel: { fontSize: 13, color: '#64748B', marginTop: 6 },
-  statsGrid: { display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14, marginBottom: 22 },
-  statCard: { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 20, padding: 20, textAlign: 'center', boxShadow: '0 8px 24px rgba(15, 23, 42, 0.04)' },
-  statIcon: { fontSize: 24, marginBottom: 8 },
-  statNumber: { fontSize: 24, fontWeight: 800, color: '#0F172A', marginBottom: 4 },
-  statLabel: { fontSize: 12, color: '#64748B' },
-  mainGrid: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, marginBottom: 20 },
-  card: { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 24, padding: 24, boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)', marginBottom: 20 },
-  cardTitle: { fontSize: 24, fontWeight: 800, lineHeight: 1.2, color: '#0F172A', margin: 0, marginBottom: 18 },
-  metricRow: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 10, marginBottom: 10 },
-  metricLabel: { fontSize: 15, fontWeight: 600, color: '#334155' },
-  metricValue: { fontSize: 15, fontWeight: 800, color: '#0EA5E9' },
-  track: { width: '100%', height: 10, borderRadius: 999, background: '#E2E8F0', overflow: 'hidden' },
-  fill: { height: '100%', borderRadius: 999, background: '#0EA5E9' },
-  smallNote: { marginTop: 8, color: '#64748B', fontSize: 13 },
-  streakBox: { background: '#FFF7ED', border: '1px solid #FED7AA', borderRadius: 20, padding: 24, textAlign: 'center' },
-  streakMain: { fontSize: 36, fontWeight: 900, color: '#C2410C', lineHeight: 1.1 },
-  streakLabel: { fontSize: 14, color: '#9A3412', marginTop: 6 },
-  emptyText: { color: '#64748B', fontSize: 15, lineHeight: 1.7, margin: 0 },
-  subjectRow: { padding: '16px 0' },
-  subjectTop: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginBottom: 10 },
-  subjectName: { fontSize: 15, fontWeight: 700, color: '#0F172A', marginBottom: 3 },
-  subjectMeta: { fontSize: 13, color: '#64748B' },
-  subjectPercent: { fontSize: 15, fontWeight: 800, color: '#0EA5E9' }
 }

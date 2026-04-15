@@ -2,19 +2,34 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import { useParams, useRouter } from 'next/navigation'
+import { motion } from 'framer-motion'
 
 type SubjectResult = {
   name: string
+  score: number
+  maxScore: number
+  correct: number
   answered: number
   total: number
 }
 
+type WrongQuestion = {
+  subject: string
+  question: string
+  userAnswer: string
+  correctAnswer: string
+}
+
 type ResultData = {
+  totalScore: number
+  maxScore: number
   totalAnswered: number
   totalQuestions: number
   timeSpent: number
   sessionId: string
   subjectResults: SubjectResult[]
+  wrongQuestions: WrongQuestion[]
+  studentName: string
 }
 
 function formatTime(sec: number) {
@@ -24,42 +39,75 @@ function formatTime(sec: number) {
   return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`
 }
 
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
+
 export default function SimulatorResultPage() {
   const params = useParams()
   const router = useRouter()
   const sessionId = String(params.sessionId || '1')
 
   const [result, setResult] = useState<ResultData | null>(null)
+  const [aiReview, setAiReview] = useState('')
+  const [aiLoading, setAiLoading] = useState(false)
 
   useEffect(() => {
     const raw = localStorage.getItem('simulator_result')
     if (raw) {
-      try {
-        setResult(JSON.parse(raw))
-      } catch (e) {
-        console.error(e)
-      }
+      try { setResult(JSON.parse(raw)) } catch (e) { console.error(e) }
     }
   }, [])
 
+  useEffect(() => {
+    if (!result) return
+    const callAI = async () => {
+      setAiLoading(true)
+      try {
+        const resp = await fetch('/api/ai-review', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            studentName: result.studentName,
+            totalScore: result.totalScore,
+            maxScore: result.maxScore,
+            subjectScores: result.subjectResults.map(s => ({ name: s.name, score: s.score, max: s.maxScore })),
+            wrongQuestions: result.wrongQuestions,
+          }),
+        })
+        const data = await resp.json()
+        setAiReview(data.review || '')
+      } catch {
+        setAiReview('AI талдауын алу мүмкін болмады.')
+      } finally {
+        setAiLoading(false)
+      }
+    }
+    callAI()
+  }, [result])
+
+  const totalScore = result?.totalScore ?? 0
+  const maxScore = result?.maxScore ?? 140
   const totalAnswered = result?.totalAnswered ?? 0
   const totalQuestions = result?.totalQuestions ?? 120
   const timeSpent = result?.timeSpent ?? 0
   const subjectResults = result?.subjectResults ?? []
 
   const percent = useMemo(() => {
-    if (!totalQuestions) return 0
-    return Math.round((totalAnswered / totalQuestions) * 100)
-  }, [totalAnswered, totalQuestions])
+    if (!maxScore) return 0
+    return Math.round((totalScore / maxScore) * 100)
+  }, [totalScore, maxScore])
 
   const bestSubject = useMemo(() => {
     if (!subjectResults.length) return null
-    return [...subjectResults].sort((a, b) => (b.answered / b.total) - (a.answered / a.total))[0]
+    return [...subjectResults].sort((a, b) => (b.score / (b.maxScore || 1)) - (a.score / (a.maxScore || 1)))[0]
   }, [subjectResults])
 
   const weakSubject = useMemo(() => {
     if (!subjectResults.length) return null
-    return [...subjectResults].sort((a, b) => (a.answered / a.total) - (b.answered / b.total))[0]
+    return [...subjectResults].sort((a, b) => (a.score / (a.maxScore || 1)) - (b.score / (b.maxScore || 1)))[0]
   }, [subjectResults])
 
   const passed = percent >= 50
@@ -73,10 +121,10 @@ export default function SimulatorResultPage() {
 
   if (!result) {
     return (
-      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#F8FAFC' }}>
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(160deg, #f0f9ff, #fff)' }}>
         <div style={{ textAlign: 'center' }}>
-          <p style={{ color: '#64748B', fontSize: 16, marginBottom: 16 }}>Нәтиже табылмады</p>
-          <button onClick={() => router.push('/dashboard/simulator')} style={{ padding: '12px 24px', borderRadius: 12, border: 'none', background: '#0EA5E9', color: '#fff', fontWeight: 700, cursor: 'pointer' }}>
+          <p style={{ color: '#64748b', fontSize: 16, marginBottom: 16, fontWeight: 700 }}>Нәтиже табылмады</p>
+          <button onClick={() => router.push('/dashboard/simulator')} style={{ padding: '12px 24px', borderRadius: 14, border: 'none', background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)', color: '#fff', fontWeight: 800, cursor: 'pointer' }}>
             Симуляторға оралу
           </button>
         </div>
@@ -85,140 +133,194 @@ export default function SimulatorResultPage() {
   }
 
   return (
-    <div style={s.page}>
-      <div style={s.wrap}>
-        <div style={s.topBlock}>
-          <div style={s.topLabel}>НӘТИЖЕ</div>
-          <h1 style={s.topTitle}>Симулятор нәтижесі</h1>
-          <p style={s.topText}>Жалпы нәтижең, пәндер бойынша бөлініс және келесі қадамдар осында көрсетіледі.</p>
+    <div>
+      {/* Header */}
+      <motion.div {...fadeUp(0)} style={{ marginBottom: 22 }}>
+        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
+          Нәтиже
         </div>
+        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 6 }}>
+          Симулятор нәтижесі
+        </h1>
+        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, margin: 0 }}>
+          Пәндер бойынша нақты балл, қателер талдауы және AI кеңестер.
+        </p>
+      </motion.div>
 
-        <div style={s.hero}>
-          <div style={s.heroLeft}>
-            <div style={s.badgeRow}>
-              <div style={s.badge}>Session #{sessionId.slice(0, 8)}</div>
-              <div style={{ ...s.badge, color: passed ? '#16A34A' : '#DC2626', border: passed ? '1px solid #BBF7D0' : '1px solid #FECACA', background: passed ? '#F0FDF4' : '#FEF2F2' }}>
-                {passed ? '✅ Өту балы жиналды' : '❌ Нәтижені көтеру керек'}
-              </div>
+      {/* Hero score */}
+      <motion.div
+        {...fadeUp(0.06)}
+        style={{
+          borderRadius: 30, padding: 28, marginBottom: 20,
+          background: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)',
+          border: '1px solid rgba(14,165,233,0.18)',
+          boxShadow: '0 20px 44px rgba(14,165,233,0.1)',
+          display: 'grid', gridTemplateColumns: '1.3fr 0.7fr', gap: 24,
+        }}
+      >
+        <div>
+          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 18 }}>
+            <div style={{ display: 'inline-flex', alignItems: 'center', padding: '8px 14px', borderRadius: 999, background: '#fff', border: '1px solid rgba(14,165,233,0.2)', color: '#0ea5e9', fontSize: 12, fontWeight: 800 }}>
+              Session #{sessionId.slice(0, 8)}
             </div>
-
-            <div style={s.scoreRow}>
-              <div style={s.scoreMain}>{totalAnswered}</div>
-              <div style={s.scoreMax}>/ {totalQuestions}</div>
-            </div>
-
-            <div style={s.heroText}>
-              Жалпы нәтиже: <strong>{percent}%</strong><br />
-              {bestSubject && <>Ең мықты пән: <strong>{bestSubject.name}</strong><br /></>}
-              {weakSubject && <>Ең әлсіз пән: <strong>{weakSubject.name}</strong></>}
+            <div style={{
+              display: 'inline-flex', alignItems: 'center', padding: '8px 14px', borderRadius: 999, fontSize: 12, fontWeight: 800,
+              color: passed ? '#166534' : '#dc2626',
+              border: passed ? '1px solid #bbf7d0' : '1px solid #fecaca',
+              background: passed ? '#f0fdf4' : '#fef2f2',
+            }}>
+              {passed ? '✓ Өту балы жиналды' : '✗ Нәтижені көтеру керек'}
             </div>
           </div>
 
-          <div style={s.heroRight}>
-            <div style={s.statCard}>
-              <div style={s.statNumber}>{percent}%</div>
-              <div style={s.statLabel}>Жалпы пайыз</div>
-            </div>
-            <div style={s.statCard}>
-              <div style={s.statNumber}>{totalAnswered}</div>
-              <div style={s.statLabel}>Жауап берілді</div>
-            </div>
-            <div style={s.statCard}>
-              <div style={s.statNumber}>{totalQuestions - totalAnswered}</div>
-              <div style={s.statLabel}>Жауапсыз</div>
-            </div>
-            <div style={s.statCard}>
-              <div style={s.statNumber}>{formatTime(timeSpent)}</div>
-              <div style={s.statLabel}>Уақыт</div>
-            </div>
+          <div style={{ display: 'flex', alignItems: 'flex-end', gap: 10, marginBottom: 16 }}>
+            <div style={{ fontSize: 72, lineHeight: 1, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em' }}>{totalScore}</div>
+            <div style={{ fontSize: 22, fontWeight: 700, color: '#64748b', paddingBottom: 10 }}>/ {maxScore} балл</div>
+          </div>
+
+          <div style={{ fontSize: 14, lineHeight: 1.9, color: '#475569', fontWeight: 600 }}>
+            Жалпы нәтиже: <strong style={{ color: '#0c4a6e' }}>{percent}%</strong><br />
+            Жауап берілді: <strong style={{ color: '#0c4a6e' }}>{totalAnswered} / {totalQuestions}</strong> сұрақ<br />
+            {bestSubject && <>Ең мықты: <strong style={{ color: '#0c4a6e' }}>{bestSubject.name}</strong> ({bestSubject.score}/{bestSubject.maxScore})<br /></>}
+            {weakSubject && <>Ең әлсіз: <strong style={{ color: '#0c4a6e' }}>{weakSubject.name}</strong> ({weakSubject.score}/{weakSubject.maxScore})</>}
           </div>
         </div>
 
-        <div style={s.grid}>
-          <div style={s.card}>
-            <h2 style={s.cardTitle}>Пәндер бойынша нәтиже</h2>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, alignContent: 'start' }}>
+          {[
+            { num: String(totalScore), label: 'Жиналған балл' },
+            { num: `${percent}%`, label: 'Жалпы пайыз' },
+            { num: String(totalAnswered), label: 'Жауап берілді' },
+            { num: formatTime(timeSpent), label: 'Уақыт' },
+          ].map((s, i) => (
+            <motion.div
+              key={s.label}
+              initial={{ opacity: 0, scale: 0.92 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.12 + i * 0.06 }}
+              style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 20, padding: '16px', textAlign: 'center', boxShadow: '0 8px 20px rgba(14,165,233,0.07)' }}
+            >
+              <div style={{ fontSize: 22, fontWeight: 900, color: '#0c4a6e', lineHeight: 1.1, letterSpacing: '-0.03em' }}>{s.num}</div>
+              <div style={{ fontSize: 11, color: '#64748b', marginTop: 5, fontWeight: 700 }}>{s.label}</div>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
+
+      {/* Main grid */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 340px', gap: 18 }}>
+        {/* Left */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
+          {/* Subject scores */}
+          <motion.div
+            {...fadeUp(0.12)}
+            style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 26, boxShadow: '0 16px 36px rgba(14,165,233,0.08)' }}
+          >
+            <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: '0 0 20px', letterSpacing: '-0.03em' }}>
+              Пәндер бойынша балл
+            </h2>
             {subjectResults.map((item, index) => {
-              const p = item.total ? Math.round((item.answered / item.total) * 100) : 0
+              const p = item.maxScore ? Math.round((item.score / item.maxScore) * 100) : 0
+              const barColor = p >= 70 ? '#22c55e' : p >= 50 ? '#0ea5e9' : '#f59e0b'
               return (
-                <div key={item.name} style={{ ...s.resultRow, borderBottom: index === subjectResults.length - 1 ? 'none' : '1px solid #EEF2F7' }}>
-                  <div style={s.resultTop}>
+                <div key={item.name} style={{ paddingBottom: 16, marginBottom: 16, borderBottom: index === subjectResults.length - 1 ? 'none' : '1px solid rgba(14,165,233,0.08)' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginBottom: 8 }}>
                     <div>
-                      <div style={s.resultName}>{item.name}</div>
-                      <div style={s.resultSmall}>{p}% жауап берілді</div>
+                      <div style={{ fontSize: 14, fontWeight: 800, color: '#0c4a6e', marginBottom: 2 }}>{item.name}</div>
+                      <div style={{ fontSize: 12, color: '#64748b', fontWeight: 600 }}>{item.correct} дұрыс / {item.total} сұрақ · {p}%</div>
                     </div>
-                    <div style={s.resultScore}>{item.answered} / {item.total}</div>
+                    <div style={{ fontSize: 14, fontWeight: 900, color: '#0ea5e9', whiteSpace: 'nowrap' }}>{item.score} / {item.maxScore}</div>
                   </div>
-                  <div style={s.track}>
-                    <div style={{ ...s.fill, width: `${p}%`, background: p >= 70 ? '#22C55E' : p >= 50 ? '#0EA5E9' : '#F59E0B' }} />
+                  <div style={{ width: '100%', height: 8, borderRadius: 999, background: '#e2e8f0', overflow: 'hidden' }}>
+                    <motion.div
+                      initial={{ width: 0 }}
+                      animate={{ width: `${p}%` }}
+                      transition={{ duration: 0.8, delay: 0.2 + index * 0.08, ease: [0.22, 1, 0.36, 1] }}
+                      style={{ height: '100%', borderRadius: 999, background: barColor }}
+                    />
                   </div>
                 </div>
               )
             })}
-          </div>
+          </motion.div>
 
-          <div>
-            <div style={s.sideCard}>
-              <h3 style={s.sideTitle}>Қысқа талдау</h3>
-              <div style={s.sideText}>
-                {bestSubject && <>Ең мықты жағың — <strong>{bestSubject.name}</strong>.<br /></>}
-                {weakSubject && <>Ең көп жұмыс қажет — <strong>{weakSubject.name}</strong>.<br /></>}
-                Әлсіз бөлімдерден бастап, тағы бір толық симулятор тапсырған дұрыс.
+          {/* AI Review */}
+          <motion.div
+            {...fadeUp(0.18)}
+            style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 26, padding: 26, boxShadow: '0 16px 36px rgba(14,165,233,0.08)' }}
+          >
+            <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: '0 0 18px', letterSpacing: '-0.03em', display: 'flex', alignItems: 'center', gap: 8 }}>
+              <span>✦</span> AI Талдау
+            </h2>
+            {aiLoading ? (
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12, padding: '28px 0' }}>
+                <div className="spinner" style={{ width: 40, height: 40 }} />
+                <div style={{ fontSize: 14, fontWeight: 700, color: '#64748b' }}>AI нәтижені талдауда, күте тұрыңыз...</div>
               </div>
-            </div>
+            ) : aiReview ? (
+              <div style={{ fontSize: 14, lineHeight: 1.9, color: '#334155', whiteSpace: 'pre-wrap', fontWeight: 600 }}>{aiReview}</div>
+            ) : (
+              <div style={{ color: '#94a3b8', fontSize: 14, fontWeight: 600 }}>AI талдауы қолжетімді емес.</div>
+            )}
+          </motion.div>
+        </div>
 
-            <div style={s.sideCard}>
-              <h3 style={s.sideTitle}>Ұсыныс</h3>
-              <div style={s.sideText}>{recommendation}</div>
-            </div>
+        {/* Right sidebar */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+          <motion.div
+            {...fadeUp(0.14)}
+            style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 24, padding: 22, boxShadow: '0 14px 30px rgba(14,165,233,0.07)' }}
+          >
+            <h3 style={{ fontSize: 17, fontWeight: 900, color: '#0c4a6e', margin: '0 0 12px', letterSpacing: '-0.03em' }}>Қысқа талдау</h3>
+            <p style={{ fontSize: 13, lineHeight: 1.8, color: '#475569', margin: 0, fontWeight: 600 }}>
+              {bestSubject && <>Ең мықты жағың — <strong>{bestSubject.name}</strong> ({bestSubject.score}/{bestSubject.maxScore}).<br /></>}
+              {weakSubject && <>Ең көп жұмыс қажет — <strong>{weakSubject.name}</strong> ({weakSubject.score}/{weakSubject.maxScore}).<br /></>}
+              Әлсіз бөлімдерден бастап, тағы бір толық симулятор тапсырған дұрыс.
+            </p>
+          </motion.div>
 
-            <div style={s.sideCard}>
-              <h3 style={s.sideTitle}>Әрі қарай не істейміз?</h3>
-              <button style={s.primaryBtn} onClick={() => router.push('/dashboard/simulator')}>
-                🔄 Қайта тапсыру
-              </button>
-              <button style={s.secondaryBtn} onClick={() => router.push('/dashboard')}>
+          <motion.div
+            {...fadeUp(0.18)}
+            style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 24, padding: 22, boxShadow: '0 14px 30px rgba(14,165,233,0.07)' }}
+          >
+            <h3 style={{ fontSize: 17, fontWeight: 900, color: '#0c4a6e', margin: '0 0 12px', letterSpacing: '-0.03em' }}>Ұсыныс</h3>
+            <p style={{ fontSize: 13, lineHeight: 1.8, color: '#475569', margin: 0, fontWeight: 600 }}>{recommendation}</p>
+          </motion.div>
+
+          <motion.div
+            {...fadeUp(0.22)}
+            style={{ background: 'rgba(255,255,255,0.92)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 24, padding: 22, boxShadow: '0 14px 30px rgba(14,165,233,0.07)' }}
+          >
+            <h3 style={{ fontSize: 17, fontWeight: 900, color: '#0c4a6e', margin: '0 0 14px', letterSpacing: '-0.03em' }}>Әрі қарай не істейміз?</h3>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+              <motion.button
+                onClick={() => router.push('/dashboard/simulator')}
+                whileHover={{ scale: 1.02, boxShadow: '0 16px 32px rgba(14,165,233,0.3)' }}
+                whileTap={{ scale: 0.97 }}
+                style={{ width: '100%', padding: '13px 16px', borderRadius: 14, border: 'none', background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)', color: '#fff', fontWeight: 800, fontSize: 14, cursor: 'pointer', boxShadow: '0 10px 22px rgba(14,165,233,0.24)' }}
+              >
+                ↺ Қайта тапсыру
+              </motion.button>
+              <motion.button
+                onClick={() => router.push('/dashboard/ai-analysis')}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.97 }}
+                style={{ width: '100%', padding: '13px 16px', borderRadius: 14, border: '1px solid rgba(14,165,233,0.2)', background: '#fff', color: '#0369a1', fontWeight: 800, fontSize: 14, cursor: 'pointer' }}
+              >
+                ◉ Толық AI талдау
+              </motion.button>
+              <motion.button
+                onClick={() => router.push('/dashboard')}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.97 }}
+                style={{ width: '100%', padding: '13px 16px', borderRadius: 14, border: '1px solid rgba(14,165,233,0.2)', background: '#fff', color: '#64748b', fontWeight: 700, fontSize: 14, cursor: 'pointer' }}
+              >
                 Dashboard-қа қайту
-              </button>
+              </motion.button>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
   )
-}
-
-const s: Record<string, React.CSSProperties> = {
-  page: { minHeight: '100vh', background: '#F8FAFC', padding: '24px 20px 40px' },
-  wrap: { maxWidth: 1180, margin: '0 auto' },
-  topBlock: { marginBottom: 18 },
-  topLabel: { fontSize: 13, fontWeight: 700, color: '#0EA5E9', marginBottom: 8, textTransform: 'uppercase', letterSpacing: '0.08em' },
-  topTitle: { fontSize: 34, fontWeight: 800, lineHeight: 1.15, letterSpacing: '-0.03em', color: '#0F172A', margin: 0, marginBottom: 8 },
-  topText: { fontSize: 15, lineHeight: 1.7, color: '#64748B', margin: 0 },
-  hero: { display: 'grid', gridTemplateColumns: '1.35fr 0.65fr', gap: 20, background: 'linear-gradient(135deg, #E0F2FE 0%, #F0F9FF 100%)', border: '1px solid #E2E8F0', borderRadius: 28, padding: 28, boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)', marginBottom: 20 },
-  heroLeft: {},
-  heroRight: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 14, alignContent: 'start' },
-  badgeRow: { display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 18 },
-  badge: { display: 'inline-flex', alignItems: 'center', padding: '9px 13px', borderRadius: 999, background: '#FFFFFF', border: '1px solid #E2E8F0', color: '#0EA5E9', fontSize: 12, fontWeight: 800 },
-  scoreRow: { display: 'flex', alignItems: 'flex-end', gap: 10, marginBottom: 14 },
-  scoreMain: { fontSize: 72, lineHeight: 1, fontWeight: 900, color: '#0F172A' },
-  scoreMax: { fontSize: 30, fontWeight: 700, color: '#64748B', paddingBottom: 8 },
-  heroText: { fontSize: 16, lineHeight: 1.8, color: '#475569' },
-  statCard: { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 20, padding: 20, textAlign: 'center', boxShadow: '0 8px 24px rgba(15, 23, 42, 0.04)' },
-  statNumber: { fontSize: 28, fontWeight: 800, lineHeight: 1.1, color: '#0F172A' },
-  statLabel: { fontSize: 13, color: '#64748B', marginTop: 4 },
-  grid: { display: 'grid', gridTemplateColumns: '1fr 360px', gap: 20 },
-  card: { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 24, padding: 24, boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)' },
-  cardTitle: { fontSize: 24, fontWeight: 800, lineHeight: 1.2, color: '#0F172A', margin: 0, marginBottom: 18 },
-  resultRow: { padding: '16px 0' },
-  resultTop: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginBottom: 10 },
-  resultName: { fontSize: 15, fontWeight: 700, color: '#0F172A', marginBottom: 3 },
-  resultSmall: { fontSize: 13, color: '#64748B' },
-  resultScore: { fontSize: 15, fontWeight: 800, color: '#0EA5E9' },
-  track: { width: '100%', height: 10, borderRadius: 999, background: '#E2E8F0', overflow: 'hidden' },
-  fill: { height: '100%', borderRadius: 999 },
-  sideCard: { background: '#FFFFFF', border: '1px solid #E2E8F0', borderRadius: 24, padding: 22, boxShadow: '0 10px 30px rgba(15, 23, 42, 0.05)', marginBottom: 16 },
-  sideTitle: { fontSize: 20, fontWeight: 800, color: '#0F172A', margin: '0 0 12px 0' },
-  sideText: { fontSize: 15, lineHeight: 1.75, color: '#475569', marginBottom: 0 },
-  primaryBtn: { width: '100%', padding: '14px 16px', borderRadius: 16, border: 'none', background: '#0EA5E9', color: '#FFFFFF', fontWeight: 800, fontSize: 15, cursor: 'pointer', marginBottom: 10, boxShadow: '0 10px 24px rgba(14, 165, 233, 0.20)' },
-  secondaryBtn: { width: '100%', padding: '14px 16px', borderRadius: 16, border: '1px solid #CBD5E1', background: '#FFFFFF', color: '#0F172A', fontWeight: 700, fontSize: 15, cursor: 'pointer' },
 }

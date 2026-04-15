@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import { motion } from 'framer-motion'
 import { supabase } from '../../../lib/supabase'
 
 type Profile = {
@@ -12,9 +13,14 @@ type Profile = {
   student_code?: string | null
 }
 
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 22 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.6, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
+
 export default function SimulatorPage() {
   const router = useRouter()
-
   const [profile, setProfile] = useState<Profile | null>(null)
   const [loading, setLoading] = useState(true)
   const [starting, setStarting] = useState(false)
@@ -25,26 +31,15 @@ export default function SimulatorPage() {
   useEffect(() => {
     async function loadData() {
       try {
-        const {
-          data: { user },
-        } = await supabase.auth.getUser()
-
-        if (!user) {
-          setLoading(false)
-          return
-        }
+        const { data: { user } } = await supabase.auth.getUser()
+        if (!user) { setLoading(false); return }
 
         const { data, error } = await supabase
           .from('profiles')
           .select('id, full_name, profile_subject_1, profile_subject_2, student_code')
-          .eq('id', user.id)
-          .single()
+          .eq('id', user.id).single()
 
-        if (error || !data) {
-          setLoading(false)
-          return
-        }
-
+        if (error || !data) { setLoading(false); return }
         setProfile(data as Profile)
 
         const oneWeekAgo = new Date()
@@ -56,609 +51,206 @@ export default function SimulatorPage() {
           .eq('student_id', data.id)
           .gte('created_at', oneWeekAgo.toISOString())
           .order('created_at', { ascending: false })
-          .limit(1)
-          .single()
+          .limit(1).single()
 
         if (recentSession) {
           setLastTestDate(recentSession.created_at)
-          const next = new Date(
-            new Date(recentSession.created_at).getTime() + 7 * 24 * 60 * 60 * 1000
-          )
+          const next = new Date(new Date(recentSession.created_at).getTime() + 7 * 24 * 60 * 60 * 1000)
           setNextTestDate(next.toLocaleDateString('ru-RU'))
           setCanTakeTest(false)
-        } else {
-          setCanTakeTest(true)
         }
-      } catch (e) {
-        console.error(e)
-      } finally {
-        setLoading(false)
-      }
+      } catch (e) { console.error(e) }
+      finally { setLoading(false) }
     }
-
     loadData()
   }, [])
 
   const firstName = useMemo(() => {
     const raw = profile?.full_name?.trim()
-    if (!raw) return 'Оқушы'
-    return raw.split(' ')[0]
+    return raw ? raw.split(' ')[0] : 'Оқушы'
   }, [profile])
 
   const handleStart = async () => {
     if (!profile?.id || starting || !canTakeTest) return
-
     try {
       setStarting(true)
-
       const { data, error } = await supabase
         .from('simulator_sessions')
         .insert({ student_id: profile.id, variant_id: 1 })
-        .select('id')
-        .single()
+        .select('id').single()
 
-      if (error) {
-        console.error(error)
-        setStarting(false)
-        return
-      }
-
+      if (error) { console.error(error); setStarting(false); return }
       router.push(`/dashboard/simulator/${data.id}`)
-    } catch (e) {
-      console.error(e)
-      setStarting(false)
-    }
+    } catch (e) { console.error(e); setStarting(false) }
   }
 
   if (loading) {
     return (
-      <div style={s.loadingPage}>
-        <div style={s.loadingCard}>
-          <div style={s.loader} />
-          <div style={s.loadingText}>Симулятор жүктелуде...</div>
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center' }}>
+          <div className="spinner" style={{ margin: '0 auto 16px' }} />
+          <p style={{ color: '#64748b', fontSize: 15, fontWeight: 700 }}>Симулятор жүктелуде...</p>
         </div>
-
-        <style>{`
-          @keyframes spin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-          }
-        `}</style>
       </div>
     )
   }
 
   return (
-    <div style={s.page}>
-      <div style={s.bgGlowTop} />
-      <div style={s.bgGlowBottom} />
-
-      <div style={s.wrap}>
-        <div style={s.topBlock}>
-          <div style={s.pageLabel}>ҰБТ симулятор</div>
-          <h1 style={s.pageTitle}>Нақты форматтағы тестке дайындал</h1>
-          <p style={s.pageText}>
-            Уақыт шектеуі, пән құрылымы және тест өту логикасы шынайы ҰБТ форматына жақын.
-          </p>
+    <div>
+      {/* Page header */}
+      <motion.div {...fadeUp(0)} style={{ marginBottom: 24 }}>
+        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
+          ҰБТ Симулятор
         </div>
+        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 8 }}>
+          Нақты форматтағы тест тәжірибесі
+        </h1>
+        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.8, maxWidth: 680 }}>
+          Уақыт шектеуі, пән құрылымы және тест логикасы шынайы ҰБТ форматына барынша жақын.
+        </p>
+      </motion.div>
 
-        <div style={s.hero}>
-          <div style={s.heroLeft}>
-            <div style={s.heroTopRow}>
-              <div style={s.badge}>KHAMADI ONLINE</div>
-              <div style={s.softPill}>PREMIUM SIMULATOR</div>
-            </div>
+      {/* Main hero card */}
+      <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: 20, marginBottom: 20 }}>
+        {/* Left */}
+        <motion.div
+          {...fadeUp(0.08)}
+          style={{
+            borderRadius: 30,
+            padding: '32px',
+            background: 'linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%)',
+            border: '1px solid rgba(14,165,233,0.18)',
+            boxShadow: '0 16px 44px rgba(14,165,233,0.08)',
+          }}
+        >
+          <div style={{ display: 'flex', gap: 10, marginBottom: 20, flexWrap: 'wrap' }}>
+            <span style={{ padding: '8px 14px', borderRadius: 999, background: '#fff', border: '1px solid rgba(14,165,233,0.18)', color: '#0ea5e9', fontSize: 12, fontWeight: 800 }}>KHAMADI ONLINE</span>
+            <span style={{ padding: '8px 14px', borderRadius: 999, background: 'rgba(14,165,233,0.08)', border: '1px solid rgba(14,165,233,0.14)', color: '#0369a1', fontSize: 12, fontWeight: 800 }}>PREMIUM SIMULATOR</span>
+          </div>
 
-            <div style={s.hello}>
-              Сәлем, <span style={s.helloName}>{firstName}</span>
-            </div>
+          <div style={{ fontSize: 14, color: '#64748b', marginBottom: 10 }}>
+            Сәлем, <strong style={{ color: '#0c4a6e' }}>{firstName}</strong>
+          </div>
 
-            <h2 style={s.heroTitle}>ҰБТ Симуляторы</h2>
+          <h2 style={{ fontSize: 34, fontWeight: 900, letterSpacing: '-0.05em', color: '#0c4a6e', margin: '0 0 14px' }}>
+            ҰБТ Симуляторы
+          </h2>
 
-            <p style={s.heroText}>
-              Бұл бөлімде сен уақытқа жұмыс істеп, өзіңнің нақты деңгейіңді көре аласың.
-              Формат, тайминг және тест логикасы шынайы емтиханға барынша жақын жасалған.
-            </p>
+          <p style={{ fontSize: 15, lineHeight: 1.85, color: '#64748b', marginBottom: 24 }}>
+            Уақытқа жұмыс істеп, өзіңнің нақты деңгейіңді бақыла. AI арқылы генерацияланған 120 сұрақ — шынайы ҰБТ форматына сай.
+          </p>
 
-            <div style={s.infoGrid}>
-              <div style={s.infoCard}>
-                <div style={s.infoLabel}>СТУДЕНТ КОДЫ</div>
-                <div style={s.infoValue}>{profile?.student_code || '-'}</div>
+          {/* Info grid */}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 22 }}>
+            {[
+              { label: 'СТУДЕНТ КОДЫ', value: profile?.student_code || '-' },
+              { label: 'ПӘНДЕР', value: `${profile?.profile_subject_1 || '?'} + ${profile?.profile_subject_2 || '?'}` },
+              { label: 'УАҚЫТ', value: '240 минут' },
+              { label: 'СҰРАҚ', value: '120 сұрақ' },
+            ].map((item) => (
+              <div key={item.label} style={{ background: 'rgba(255,255,255,0.85)', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 18, padding: '14px 16px', boxShadow: '0 4px 14px rgba(14,165,233,0.06)' }}>
+                <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.08em', marginBottom: 6, textTransform: 'uppercase' }}>{item.label}</div>
+                <div style={{ fontSize: 14, fontWeight: 800, color: '#0c4a6e', lineHeight: 1.5 }}>{item.value}</div>
               </div>
+            ))}
+          </div>
 
-              <div style={s.infoCard}>
-                <div style={s.infoLabel}>ПРОФИЛЬ ПӘН 1</div>
-                <div style={s.infoValue}>{profile?.profile_subject_1 || 'Таңдалмаған'}</div>
+          {/* AI info badge */}
+          <div style={{ background: 'linear-gradient(135deg, #eff6ff, #f8fbff)', border: '1px solid #bfdbfe', borderRadius: 16, padding: '12px 16px', fontSize: 13, color: '#1d4ed8', fontWeight: 700, marginBottom: 22, display: 'flex', alignItems: 'center', gap: 10 }}>
+            <span style={{ fontSize: 16 }}>✦</span>
+            AI арқылы нақты ҰБТ форматына жақын 120 сұрақ генерацияланады
+          </div>
+
+          {!canTakeTest ? (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.97 }}
+              animate={{ opacity: 1, scale: 1 }}
+              style={{ background: 'linear-gradient(135deg, #fef2f2, #fff7f7)', border: '1px solid #fecaca', borderRadius: 22, padding: 24, textAlign: 'center', boxShadow: '0 8px 24px rgba(239,68,68,0.08)' }}
+            >
+              <div style={{ fontSize: 36, marginBottom: 12 }}>⏳</div>
+              <div style={{ fontSize: 16, fontWeight: 900, color: '#dc2626', marginBottom: 10 }}>Тест аптасына 1 рет тапсырылады</div>
+              <div style={{ fontSize: 14, color: '#64748b', lineHeight: 1.8 }}>
+                Соңғы тест: <strong style={{ color: '#0c4a6e' }}>{lastTestDate ? new Date(lastTestDate).toLocaleDateString('ru-RU') : '-'}</strong>
               </div>
-
-              <div style={s.infoCard}>
-                <div style={s.infoLabel}>ПРОФИЛЬ ПӘН 2</div>
-                <div style={s.infoValue}>{profile?.profile_subject_2 || 'Таңдалмаған'}</div>
+              <div style={{ fontSize: 14, color: '#64748b', lineHeight: 1.8 }}>
+                Келесі тест: <strong style={{ color: '#0c4a6e' }}>{nextTestDate || '-'}</strong>
               </div>
+            </motion.div>
+          ) : (
+            <motion.button
+              onClick={handleStart}
+              disabled={starting}
+              whileHover={!starting ? { scale: 1.02, boxShadow: '0 22px 48px rgba(14,165,233,0.38)' } : {}}
+              whileTap={!starting ? { scale: 0.98 } : {}}
+              style={{
+                width: '100%', minHeight: 58, borderRadius: 18, border: 'none',
+                background: starting ? 'rgba(14,165,233,0.5)' : 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+                color: '#fff', fontWeight: 900, fontSize: 16,
+                boxShadow: '0 14px 32px rgba(14,165,233,0.30)',
+                cursor: starting ? 'not-allowed' : 'pointer', letterSpacing: '-0.02em',
+                position: 'relative', overflow: 'hidden',
+              }}
+            >
+              {starting ? 'ТЕСТ АШЫЛУДА...' : '▶  ТЕСТТІ БАСТАУ'}
+            </motion.button>
+          )}
+        </motion.div>
 
-              <div style={s.infoCard}>
-                <div style={s.infoLabel}>УАҚЫТ</div>
-                <div style={s.infoValue}>240 минут</div>
-              </div>
-            </div>
+        {/* Right stats */}
+        <div style={{ display: 'grid', gap: 16, alignContent: 'start' }}>
+          {/* Big stat */}
+          <motion.div
+            {...fadeUp(0.12)}
+            style={{
+              borderRadius: 28,
+              padding: '28px 24px',
+              background: 'linear-gradient(135deg, #0c4a6e 0%, #0369a1 100%)',
+              color: '#fff',
+              textAlign: 'center',
+              boxShadow: '0 20px 44px rgba(12,74,110,0.22)',
+            }}
+          >
+            <div style={{ fontSize: 80, fontWeight: 900, lineHeight: 1, letterSpacing: '-0.06em', marginBottom: 8 }}>120</div>
+            <div style={{ fontSize: 18, fontWeight: 800, marginBottom: 6 }}>Сұрақ</div>
+            <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)' }}>толық ҰБТ құрылымы</div>
+          </motion.div>
 
-            <div style={s.aiInfo}>
-              <span style={s.aiIcon}>✦</span>
-              <span>AI арқылы нақты ҰБТ форматына жақын 120 сұрақ генерацияланады</span>
-            </div>
-
-            {!canTakeTest ? (
-              <div style={s.blockedBox}>
-                <div style={s.blockedIcon}>⏳</div>
-                <div style={s.blockedTitle}>Тест аптасына 1 рет тапсырылады</div>
-                <div style={s.blockedText}>
-                  Соңғы тест уақыты:{' '}
-                  <strong style={{ color: '#0F172A' }}>
-                    {lastTestDate
-                      ? new Date(lastTestDate).toLocaleDateString('ru-RU')
-                      : '-'}
-                  </strong>
-                </div>
-                <div style={s.blockedText}>
-                  Келесі тест күні:{' '}
-                  <strong style={{ color: '#0F172A' }}>{nextTestDate || '-'}</strong>
-                </div>
-              </div>
-            ) : (
-              <button
-                style={{
-                  ...s.startBtn,
-                  opacity: starting ? 0.7 : 1,
-                  cursor: starting ? 'not-allowed' : 'pointer',
-                }}
-                onClick={handleStart}
-                disabled={starting}
+          {/* Small stats */}
+          <motion.div {...fadeUp(0.16)} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+            {[
+              { val: '140', label: 'Макс. балл' },
+              { val: '5', label: 'Пән' },
+              { val: '240', label: 'Минут' },
+              { val: '1/апта', label: 'Лимит' },
+            ].map((s) => (
+              <motion.div
+                key={s.label}
+                whileHover={{ y: -3, boxShadow: '0 14px 32px rgba(14,165,233,0.14)' }}
+                style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 20, padding: '18px', textAlign: 'center', boxShadow: '0 6px 18px rgba(14,165,233,0.06)', transition: 'box-shadow 0.2s' }}
               >
-                <span style={s.startBtnGlow} />
-                <span style={s.startBtnText}>
-                  {starting ? 'ТЕСТ АШЫЛУДА...' : 'ТЕСТТІ БАСТАУ'}
-                </span>
-              </button>
-            )}
-          </div>
+                <div style={{ fontSize: 26, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.04em', lineHeight: 1.1 }}>{s.val}</div>
+                <div style={{ fontSize: 12, color: '#64748b', marginTop: 6, fontWeight: 700 }}>{s.label}</div>
+              </motion.div>
+            ))}
+          </motion.div>
 
-          <div style={s.heroRight}>
-            <div style={s.statCardLarge}>
-              <div style={s.statBigNumber}>120</div>
-              <div style={s.statBigLabel}>Сұрақ</div>
-              <div style={s.statBigSub}>толық ҰБТ құрылымы</div>
+          {/* Benefits */}
+          <motion.div
+            {...fadeUp(0.2)}
+            style={{ borderRadius: 22, padding: '20px', background: '#fff', border: '1px solid rgba(14,165,233,0.14)', boxShadow: '0 6px 18px rgba(14,165,233,0.06)' }}
+          >
+            <div style={{ fontSize: 14, fontWeight: 900, color: '#0c4a6e', marginBottom: 14 }}>Симулятор не береді?</div>
+            <div style={{ display: 'grid', gap: 10 }}>
+              {['Нақты уақытқа үйретеді', 'Балл деңгейіңді көрсетеді', 'Психологиялық дайындық'].map((item) => (
+                <div key={item} style={{ display: 'flex', alignItems: 'center', gap: 10, minHeight: 42, padding: '0 14px', borderRadius: 14, background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.12)', fontSize: 13, fontWeight: 700, color: '#334155' }}>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0ea5e9" strokeWidth="3"><path d="M5 12l5 5L20 7" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                  {item}
+                </div>
+              ))}
             </div>
-
-            <div style={s.statGrid}>
-              <div style={s.statCard}>
-                <div style={s.statNumber}>140</div>
-                <div style={s.statLabel}>Макс. балл</div>
-              </div>
-
-              <div style={s.statCard}>
-                <div style={s.statNumber}>5</div>
-                <div style={s.statLabel}>Пән</div>
-              </div>
-
-              <div style={s.statCard}>
-                <div style={s.statNumber}>240</div>
-                <div style={s.statLabel}>Минут</div>
-              </div>
-
-              <div style={s.statCard}>
-                <div style={s.statNumber}>1/апта</div>
-                <div style={s.statLabel}>Лимит</div>
-              </div>
-            </div>
-
-            <div style={s.sideGlassCard}>
-              <div style={s.sideGlassTitle}>Симулятор не береді?</div>
-              <div style={s.sideGlassList}>
-                <div style={s.sideGlassItem}>Нақты уақытқа үйретеді</div>
-                <div style={s.sideGlassItem}>Балл деңгейіңді көрсетеді</div>
-                <div style={s.sideGlassItem}>Психологиялық дайындық береді</div>
-              </div>
-            </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
   )
-}
-
-const s: Record<string, React.CSSProperties> = {
-  page: {
-    minHeight: '100vh',
-    background:
-      'radial-gradient(circle at top right, rgba(56,189,248,0.10), transparent 24%), radial-gradient(circle at bottom left, rgba(14,165,233,0.08), transparent 22%), linear-gradient(180deg, #F8FCFF 0%, #FFFFFF 58%, #EEF8FF 100%)',
-    padding: '24px 20px 48px',
-    position: 'relative',
-    overflow: 'hidden',
-  },
-
-  bgGlowTop: {
-    position: 'absolute',
-    right: -120,
-    top: -120,
-    width: 320,
-    height: 320,
-    borderRadius: '999px',
-    background: 'rgba(56,189,248,0.14)',
-    filter: 'blur(80px)',
-    pointerEvents: 'none',
-  },
-
-  bgGlowBottom: {
-    position: 'absolute',
-    left: -100,
-    bottom: -100,
-    width: 280,
-    height: 280,
-    borderRadius: '999px',
-    background: 'rgba(14,165,233,0.10)',
-    filter: 'blur(80px)',
-    pointerEvents: 'none',
-  },
-
-  wrap: {
-    maxWidth: 1220,
-    margin: '0 auto',
-    position: 'relative',
-    zIndex: 1,
-  },
-
-  loadingPage: {
-    minHeight: '100vh',
-    background: '#F8FAFC',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 24,
-  },
-
-  loadingCard: {
-    width: 220,
-    height: 180,
-    borderRadius: 28,
-    background: 'rgba(255,255,255,0.82)',
-    border: '1px solid rgba(226,232,240,0.95)',
-    boxShadow: '0 20px 40px rgba(15,23,42,0.06)',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    backdropFilter: 'blur(14px)',
-  },
-
-  loader: {
-    width: 54,
-    height: 54,
-    border: '4px solid #0EA5E9',
-    borderTopColor: 'transparent',
-    borderRadius: '50%',
-    animation: 'spin 1s linear infinite',
-    marginBottom: 18,
-  },
-
-  loadingText: {
-    fontSize: 15,
-    fontWeight: 700,
-    color: '#64748B',
-  },
-
-  topBlock: {
-    marginBottom: 20,
-  },
-
-  pageLabel: {
-    fontSize: 12,
-    fontWeight: 800,
-    color: '#0EA5E9',
-    marginBottom: 8,
-    textTransform: 'uppercase',
-    letterSpacing: '0.10em',
-  },
-
-  pageTitle: {
-    fontSize: 38,
-    fontWeight: 900,
-    lineHeight: 1.08,
-    letterSpacing: '-0.04em',
-    color: '#0F172A',
-    margin: 0,
-    marginBottom: 10,
-  },
-
-  pageText: {
-    fontSize: 15,
-    lineHeight: 1.8,
-    color: '#64748B',
-    margin: 0,
-    maxWidth: 760,
-  },
-
-  hero: {
-    display: 'grid',
-    gridTemplateColumns: '1.2fr 0.8fr',
-    gap: 22,
-    padding: 30,
-    borderRadius: 34,
-    background:
-      'radial-gradient(circle at top right, rgba(56,189,248,0.16), transparent 24%), linear-gradient(135deg, rgba(255,255,255,0.78) 0%, rgba(240,249,255,0.92) 100%)',
-    border: '1px solid rgba(226,232,240,0.95)',
-    boxShadow: '0 24px 50px rgba(15,23,42,0.06)',
-    backdropFilter: 'blur(16px)',
-  },
-
-  heroLeft: {},
-
-  heroRight: {
-    display: 'grid',
-    gap: 14,
-    alignContent: 'start',
-  },
-
-  heroTopRow: {
-    display: 'flex',
-    gap: 10,
-    flexWrap: 'wrap',
-    marginBottom: 16,
-  },
-
-  badge: {
-    display: 'inline-flex',
-    alignItems: 'center',
-    padding: '10px 14px',
-    borderRadius: 999,
-    background: '#FFFFFF',
-    border: '1px solid #E2E8F0',
-    color: '#0EA5E9',
-    fontSize: 12,
-    fontWeight: 800,
-    boxShadow: '0 8px 20px rgba(15,23,42,0.04)',
-  },
-
-  softPill: {
-    display: 'inline-flex',
-    alignItems: 'center',
-    padding: '10px 14px',
-    borderRadius: 999,
-    background: 'rgba(14,165,233,0.08)',
-    border: '1px solid rgba(14,165,233,0.14)',
-    color: '#0369A1',
-    fontSize: 12,
-    fontWeight: 800,
-  },
-
-  hello: {
-    fontSize: 15,
-    color: '#64748B',
-    marginBottom: 10,
-  },
-
-  helloName: {
-    color: '#0F172A',
-    fontWeight: 800,
-  },
-
-  heroTitle: {
-    fontSize: 40,
-    fontWeight: 900,
-    lineHeight: 1.08,
-    letterSpacing: '-0.04em',
-    color: '#0F172A',
-    margin: 0,
-    marginBottom: 14,
-  },
-
-  heroText: {
-    fontSize: 16,
-    lineHeight: 1.85,
-    color: '#64748B',
-    margin: 0,
-    marginBottom: 22,
-    maxWidth: 700,
-  },
-
-  infoGrid: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: 12,
-    marginBottom: 20,
-  },
-
-  infoCard: {
-    background: 'rgba(255,255,255,0.92)',
-    border: '1px solid #E2E8F0',
-    borderRadius: 20,
-    padding: 16,
-    boxShadow: '0 10px 24px rgba(15,23,42,0.04)',
-  },
-
-  infoLabel: {
-    fontSize: 11,
-    fontWeight: 800,
-    textTransform: 'uppercase',
-    letterSpacing: '0.08em',
-    color: '#64748B',
-    marginBottom: 6,
-  },
-
-  infoValue: {
-    fontSize: 15,
-    fontWeight: 800,
-    lineHeight: 1.5,
-    color: '#0F172A',
-  },
-
-  aiInfo: {
-    background: 'linear-gradient(135deg, #EFF6FF, #F8FBFF)',
-    border: '1px solid #BFDBFE',
-    borderRadius: 16,
-    padding: '14px 16px',
-    fontSize: 14,
-    color: '#1D4ED8',
-    fontWeight: 700,
-    marginBottom: 18,
-    display: 'flex',
-    alignItems: 'center',
-    gap: 10,
-  },
-
-  aiIcon: {
-    fontSize: 16,
-    lineHeight: 1,
-  },
-
-  blockedBox: {
-    background: 'linear-gradient(135deg, #FEF2F2, #FFF7F7)',
-    border: '1px solid #FECACA',
-    borderRadius: 20,
-    padding: 24,
-    textAlign: 'center',
-    boxShadow: '0 10px 24px rgba(239,68,68,0.06)',
-  },
-
-  blockedIcon: {
-    fontSize: 34,
-    marginBottom: 10,
-  },
-
-  blockedTitle: {
-    fontSize: 17,
-    fontWeight: 900,
-    color: '#DC2626',
-    marginBottom: 10,
-  },
-
-  blockedText: {
-    fontSize: 14,
-    color: '#64748B',
-    lineHeight: 1.8,
-  },
-
-  startBtn: {
-    position: 'relative',
-    width: '100%',
-    minHeight: 58,
-    padding: '0 20px',
-    borderRadius: 18,
-    border: 'none',
-    background: 'linear-gradient(135deg, #38BDF8, #0EA5E9)',
-    color: '#FFFFFF',
-    fontWeight: 900,
-    fontSize: 15,
-    boxShadow: '0 16px 30px rgba(14,165,233,0.24)',
-    overflow: 'hidden',
-  },
-
-  startBtnGlow: {
-    position: 'absolute',
-    inset: 0,
-    background:
-      'linear-gradient(90deg, rgba(255,255,255,0.00), rgba(255,255,255,0.18), rgba(255,255,255,0.00))',
-    pointerEvents: 'none',
-  },
-
-  startBtnText: {
-    position: 'relative',
-    zIndex: 1,
-  },
-
-  statCardLarge: {
-    borderRadius: 30,
-    padding: 24,
-    background:
-      'radial-gradient(circle at top right, rgba(56,189,248,0.18), transparent 24%), linear-gradient(135deg, #0B1120 0%, #111827 100%)',
-    color: '#FFFFFF',
-    boxShadow: '0 24px 44px rgba(15,23,42,0.16)',
-    minHeight: 220,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-
-  statBigNumber: {
-    fontSize: 76,
-    fontWeight: 900,
-    lineHeight: 1,
-    letterSpacing: '-0.05em',
-    marginBottom: 8,
-  },
-
-  statBigLabel: {
-    fontSize: 18,
-    fontWeight: 800,
-    color: '#FFFFFF',
-    marginBottom: 6,
-  },
-
-  statBigSub: {
-    fontSize: 13,
-    color: 'rgba(255,255,255,0.68)',
-  },
-
-  statGrid: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: 14,
-  },
-
-  statCard: {
-    background: 'rgba(255,255,255,0.88)',
-    border: '1px solid #E2E8F0',
-    borderRadius: 22,
-    padding: 20,
-    textAlign: 'center',
-    boxShadow: '0 10px 24px rgba(15,23,42,0.04)',
-  },
-
-  statNumber: {
-    fontSize: 28,
-    fontWeight: 900,
-    lineHeight: 1.1,
-    color: '#0F172A',
-  },
-
-  statLabel: {
-    fontSize: 13,
-    color: '#64748B',
-    marginTop: 6,
-    fontWeight: 700,
-  },
-
-  sideGlassCard: {
-    borderRadius: 24,
-    padding: 18,
-    background: 'rgba(255,255,255,0.68)',
-    border: '1px solid rgba(226,232,240,0.95)',
-    boxShadow: '0 12px 26px rgba(15,23,42,0.05)',
-    backdropFilter: 'blur(14px)',
-  },
-
-  sideGlassTitle: {
-    fontSize: 15,
-    fontWeight: 900,
-    color: '#0F172A',
-    marginBottom: 12,
-  },
-
-  sideGlassList: {
-    display: 'grid',
-    gap: 10,
-  },
-
-  sideGlassItem: {
-    minHeight: 42,
-    padding: '0 14px',
-    borderRadius: 14,
-    background: '#F8FBFF',
-    border: '1px solid #E2E8F0',
-    display: 'flex',
-    alignItems: 'center',
-    fontSize: 13,
-    fontWeight: 700,
-    color: '#334155',
-  },
 }

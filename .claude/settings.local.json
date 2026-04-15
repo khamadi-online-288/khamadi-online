@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Read(//tmp/**)",
+      "Bash(tsc --version)",
+      "Bash(tsc --noEmit --project tsconfig.json)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(./node_modules/.bin/next build:*)",
+      "Bash(npx uipro-cli:*)",
+      "Bash(claude mcp:*)",
+      "Bash(npm install:*)",
+      "Bash(npx skills *)",
+      "Bash(node -e \"require\\('./node_modules/typescript'\\)\")",
+      "Bash(npx next *)"
+    ]
+  }
+}

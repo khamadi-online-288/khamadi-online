@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useMemo, useState } from 'react'
+import { motion } from 'framer-motion'
 import { supabase } from '@/lib/supabase'
 import { useParams } from 'next/navigation'
 
@@ -25,108 +26,53 @@ type Topic = {
   order_index: number
 }
 
-function HeroBadge({ children }: { children: React.ReactNode }) {
-  return (
-    <div
-      style={{
-        display: 'inline-flex',
-        padding: '10px 14px',
-        borderRadius: '999px',
-        background: 'rgba(255,255,255,0.12)',
-        border: '1px solid rgba(255,255,255,0.16)',
-        fontSize: '12px',
-        fontWeight: 800,
-      }}
-    >
-      {children}
-    </div>
-  )
-}
+const fadeUp = (delay = 0) => ({
+  initial: { opacity: 0, y: 18 },
+  animate: { opacity: 1, y: 0 },
+  transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
+})
 
-function TopicCard({
-  topic,
-  subjectId,
-  sectionId,
-  index,
-}: {
-  topic: Topic
-  subjectId: number
-  sectionId: number
-  index: number
-}) {
+function TopicCard({ topic, subjectId, sectionId, index }: { topic: Topic; subjectId: number; sectionId: number; index: number }) {
   return (
-    <a
+    <motion.a
       href={`/dashboard/subjects/${subjectId}/${sectionId}/${topic.id}`}
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.18 + index * 0.06, ease: [0.22, 1, 0.36, 1] }}
+      whileHover={{ y: -4, boxShadow: '0 22px 44px rgba(14,165,233,0.14)' }}
       style={{
         textDecoration: 'none',
-        color: '#0F172A',
-        padding: '20px',
-        borderRadius: '22px',
-        border: '1px solid rgba(226,232,240,0.95)',
-        background:
-          index % 2 === 0
-            ? 'linear-gradient(135deg, rgba(255,255,255,0.96), rgba(248,250,252,0.95))'
-            : 'linear-gradient(135deg, rgba(224,242,254,0.70), rgba(255,255,255,0.96))',
-        boxShadow:
-          '0 18px 34px rgba(15,23,42,0.05), inset 0 1px 0 rgba(255,255,255,0.45)',
+        color: '#0c4a6e',
+        padding: 20,
+        borderRadius: 22,
+        border: index % 2 === 0 ? '1px solid rgba(14,165,233,0.14)' : '1.5px solid rgba(14,165,233,0.22)',
+        background: index % 2 === 0 ? '#fff' : 'linear-gradient(135deg, rgba(14,165,233,0.06), rgba(255,255,255,0.98))',
+        boxShadow: '0 10px 24px rgba(14,165,233,0.07)',
         display: 'block',
+        transition: 'box-shadow 0.2s',
       }}
     >
       <div
         style={{
-          width: '42px',
-          height: '42px',
-          borderRadius: '14px',
-          background: 'linear-gradient(135deg, #38BDF8, #0EA5E9)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          color: '#FFFFFF',
-          fontWeight: 800,
-          fontSize: '17px',
-          marginBottom: '14px',
-          boxShadow: '0 14px 24px rgba(14,165,233,0.18)',
+          width: 42, height: 42, borderRadius: 14,
+          background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: '#fff', fontWeight: 900, fontSize: 17, marginBottom: 14,
+          boxShadow: '0 10px 22px rgba(14,165,233,0.2)',
         }}
       >
         {index + 1}
       </div>
-
-      <div
-        style={{
-          fontSize: '18px',
-          fontWeight: 800,
-          marginBottom: '8px',
-          letterSpacing: '-0.3px',
-        }}
-      >
+      <div style={{ fontSize: 17, fontWeight: 900, marginBottom: 8, letterSpacing: '-0.02em' }}>
         {topic.name}
       </div>
-
-      <div
-        style={{
-          fontSize: '13px',
-          color: '#64748B',
-          lineHeight: 1.7,
-          marginBottom: '12px',
-        }}
-      >
+      <div style={{ fontSize: 13, color: '#64748b', lineHeight: 1.7, marginBottom: 12, fontWeight: 600 }}>
         Сабақты ашу және контентті оқу
       </div>
-
-      <div
-        style={{
-          display: 'inline-flex',
-          padding: '8px 12px',
-          borderRadius: '999px',
-          background: '#E0F2FE',
-          color: '#0369A1',
-          fontSize: '12px',
-          fontWeight: 800,
-        }}
-      >
+      <div style={{ display: 'inline-flex', padding: '7px 12px', borderRadius: 999, background: '#e0f2fe', color: '#0369a1', fontSize: 12, fontWeight: 800 }}>
         Тақырыпты ашу →
       </div>
-    </a>
+    </motion.a>
   )
 }
 
@@ -143,245 +89,117 @@ export default function TopicsPage() {
   useEffect(() => {
     const load = async () => {
       setLoading(true)
-
-      const { data: subjectData } = await supabase
-        .from('subjects')
-        .select('*')
-        .eq('id', subjectId)
-        .single()
-
-      const { data: sectionData } = await supabase
-        .from('sections')
-        .select('*')
-        .eq('id', sectionId)
-        .single()
-
+      const { data: subjectData } = await supabase.from('subjects').select('*').eq('id', subjectId).single()
+      const { data: sectionData } = await supabase.from('sections').select('*').eq('id', sectionId).single()
       const { data: topicsData, error: topicsError } = await supabase
-        .from('topics')
-        .select('*')
-        .eq('section_id', sectionId)
-        .order('order_index', { ascending: true })
-
+        .from('topics').select('*').eq('section_id', sectionId).order('order_index', { ascending: true })
       if (subjectData) setSubject(subjectData as Subject)
       if (sectionData) setSection(sectionData as Section)
       if (!topicsError) setTopics((topicsData as Topic[]) || [])
-
       setLoading(false)
     }
-
-    if (subjectId && sectionId) {
-      load()
-    }
+    if (subjectId && sectionId) load()
   }, [subjectId, sectionId])
 
-  const stats = useMemo(() => {
-    return {
-      topicsCount: topics.length,
-      progress: topics.length ? Math.min(20 + topics.length * 5, 100) : 0,
-    }
-  }, [topics])
+  const stats = useMemo(() => ({
+    topicsCount: topics.length,
+    progress: topics.length ? Math.min(20 + topics.length * 5, 100) : 0,
+  }), [topics])
 
   if (loading) {
     return (
-      <div
-        style={{
-          padding: '24px',
-          fontSize: '16px',
-          fontWeight: 700,
-          color: '#0F172A',
-        }}
-      >
-        Жүктелуде...
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ textAlign: 'center' }}>
+          <div className="spinner" style={{ margin: '0 auto 14px' }} />
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Жүктелуде...</p>
+        </div>
       </div>
     )
   }
 
   if (!subject || !section) {
     return (
-      <div
-        style={{
-          padding: '24px',
-          fontSize: '16px',
-          fontWeight: 700,
-          color: '#0F172A',
-        }}
-      >
-        Бөлім немесе пән табылмады
+      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <p style={{ color: '#64748b', fontSize: 15, fontWeight: 700 }}>Бөлім немесе пән табылмады</p>
       </div>
     )
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '22px' }}>
-      <div
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
+      {/* Header */}
+      <motion.div {...fadeUp(0)} style={{ marginBottom: 4 }}>
+        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
+          {subject.icon || '📘'} {subject.name}
+        </div>
+        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 6 }}>
+          {section.name}
+        </h1>
+        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, margin: 0 }}>
+          Тақырыпты басқанда нақты сабақ беті ашылады.
+        </p>
+      </motion.div>
+
+      {/* Hero */}
+      <motion.div
+        {...fadeUp(0.06)}
         style={{
-          position: 'relative',
-          overflow: 'hidden',
-          borderRadius: '34px',
-          padding: '30px',
-          background:
-            'radial-gradient(circle at top left, rgba(255,255,255,0.18), transparent 22%), linear-gradient(135deg, #020617 0%, #0F172A 36%, #0369A1 68%, #0EA5E9 100%)',
-          color: '#FFFFFF',
-          boxShadow: '0 30px 60px rgba(14,165,233,0.18)',
+          position: 'relative', overflow: 'hidden', borderRadius: 30, padding: '28px 30px',
+          background: 'linear-gradient(135deg, #0c4a6e 0%, #0369a1 60%, #0ea5e9 100%)',
+          color: '#fff', boxShadow: '0 28px 56px rgba(14,165,233,0.2)',
         }}
       >
-        <div
-          style={{
-            position: 'absolute',
-            top: '-50px',
-            right: '-40px',
-            width: '220px',
-            height: '220px',
-            borderRadius: '999px',
-            background: 'rgba(255,255,255,0.10)',
-            filter: 'blur(26px)',
-          }}
-        />
-        <div
-          style={{
-            position: 'absolute',
-            bottom: '-70px',
-            left: '-40px',
-            width: '220px',
-            height: '220px',
-            borderRadius: '999px',
-            background: 'rgba(125,211,252,0.12)',
-            filter: 'blur(28px)',
-          }}
-        />
-
+        <div style={{ position: 'absolute', top: -50, right: -40, width: 220, height: 220, borderRadius: 999, background: 'rgba(255,255,255,0.10)', filter: 'blur(26px)' }} />
+        <div style={{ position: 'absolute', bottom: -70, left: -40, width: 220, height: 220, borderRadius: 999, background: 'rgba(125,211,252,0.12)', filter: 'blur(28px)' }} />
         <div style={{ position: 'relative', zIndex: 2 }}>
-          <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '16px' }}>
-            <HeroBadge>
-              {subject.icon || '📘'} {subject.name}
-            </HeroBadge>
-            <HeroBadge>{stats.topicsCount} тақырып</HeroBadge>
+          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 14 }}>
+            {[`${subject.icon || '📘'} ${subject.name}`, `${stats.topicsCount} тақырып`].map((label) => (
+              <div key={label} style={{ display: 'inline-flex', padding: '8px 14px', borderRadius: 999, background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.16)', fontSize: 12, fontWeight: 900, letterSpacing: '0.06em' }}>
+                {label}
+              </div>
+            ))}
           </div>
-
-          <h1
-            style={{
-              fontSize: '36px',
-              fontWeight: 800,
-              lineHeight: 1.18,
-              marginBottom: '12px',
-              letterSpacing: '-1px',
-            }}
-          >
+          <h2 style={{ fontSize: 34, fontWeight: 900, lineHeight: 1.15, letterSpacing: '-0.05em', margin: '0 0 10px' }}>
             {section.name}
-          </h1>
-
-          <p
-            style={{
-              fontSize: '15px',
-              lineHeight: 1.8,
-              color: 'rgba(255,255,255,0.86)',
-              maxWidth: '780px',
-              marginBottom: '18px',
-            }}
-          >
+          </h2>
+          <p style={{ fontSize: 15, lineHeight: 1.8, color: 'rgba(255,255,255,0.82)', maxWidth: 780, margin: '0 0 18px' }}>
             Бұл бөлімнің ішіндегі тақырыптар. Тақырыпты басқанда нақты сабақ беті ашылады.
           </p>
-
-          <div
-            style={{
-              width: '100%',
-              maxWidth: '420px',
-              height: '12px',
-              borderRadius: '999px',
-              background: 'rgba(255,255,255,0.16)',
-              overflow: 'hidden',
-            }}
-          >
-            <div
-              style={{
-                width: `${stats.progress}%`,
-                height: '100%',
-                borderRadius: '999px',
-                background: 'linear-gradient(90deg, #BAE6FD, #FFFFFF)',
-              }}
+          <div style={{ width: '100%', maxWidth: 420, height: 10, borderRadius: 999, background: 'rgba(255,255,255,0.16)', overflow: 'hidden' }}>
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${stats.progress}%` }}
+              transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
+              style={{ height: '100%', borderRadius: 999, background: 'linear-gradient(90deg, #bae6fd, #fff)' }}
             />
           </div>
-
-          <div
-            style={{
-              fontSize: '13px',
-              fontWeight: 700,
-              marginTop: '10px',
-              color: 'rgba(255,255,255,0.82)',
-            }}
-          >
+          <div style={{ fontSize: 13, fontWeight: 700, marginTop: 10, color: 'rgba(255,255,255,0.82)' }}>
             Бөлім прогресі: {stats.progress}%
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div
-        style={{
-          background: 'rgba(255,255,255,0.82)',
-          border: '1px solid rgba(226,232,240,0.95)',
-          borderRadius: '28px',
-          padding: '24px',
-          boxShadow:
-            '0 20px 40px rgba(15,23,42,0.05), inset 0 1px 0 rgba(255,255,255,0.45)',
-          backdropFilter: 'blur(14px)',
-        }}
+      {/* Topics */}
+      <motion.div
+        {...fadeUp(0.14)}
+        style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 28, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
       >
-        <div
-          style={{
-            fontSize: '24px',
-            fontWeight: 800,
-            color: '#0F172A',
-            marginBottom: '8px',
-            letterSpacing: '-0.4px',
-          }}
-        >
-          Тақырыптар
-        </div>
-
-        <div
-          style={{
-            fontSize: '13px',
-            color: '#64748B',
-            lineHeight: 1.7,
-            marginBottom: '18px',
-          }}
-        >
+        <div style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', marginBottom: 6, letterSpacing: '-0.03em' }}>Тақырыптар</div>
+        <div style={{ fontSize: 13, color: '#64748b', lineHeight: 1.7, marginBottom: 18, fontWeight: 600 }}>
           Тақырыпты басқанда lesson page ашылады.
         </div>
-
         {topics.length > 0 ? (
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(2, 1fr)',
-              gap: '16px',
-            }}
-          >
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16 }}>
             {topics.map((topic, index) => (
-              <TopicCard
-                key={topic.id}
-                topic={topic}
-                subjectId={subjectId}
-                sectionId={sectionId}
-                index={index}
-              />
+              <TopicCard key={topic.id} topic={topic} subjectId={subjectId} sectionId={sectionId} index={index} />
             ))}
           </div>
         ) : (
-          <div
-            style={{
-              padding: '20px',
-              borderRadius: '18px',
-              background: '#F8FAFC',
-              border: '1px solid #E2E8F0',
-              color: '#64748B',
-              lineHeight: 1.7,
-            }}
-          >
+          <div style={{ padding: 20, borderRadius: 18, background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.14)', color: '#64748b', lineHeight: 1.7, fontWeight: 600, fontSize: 14 }}>
             Бұл бөлімге тақырыптар әлі қосылмаған.
           </div>
         )}
-      </div>
+      </motion.div>
     </div>
   )
 }

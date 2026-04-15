@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import AuthQuotePanel from '@/components/AuthQuotePanel'
 import { supabase } from '@/lib/supabase'
 
@@ -17,87 +18,58 @@ export default function LoginPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [loading, setLoading] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
   const canLogin = Boolean(email.trim() && password.trim())
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!canLogin || loading) return
+    setError(null)
 
     try {
       setLoading(true)
 
-      const { data, error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      })
+      const { data, error: authError } = await supabase.auth.signInWithPassword({ email, password })
 
-      if (error) {
-        alert(error.message)
-        return
-      }
-
-      if (!data.user) {
-        alert('Қолданушы табылмады')
-        return
-      }
-
-      const userId = data.user.id
+      if (authError) { setError(authError.message); return }
+      if (!data.user) { setError('Қолданушы табылмады'); return }
 
       const { data: profile, error: profileError } = await supabase
         .from('profiles')
         .select('id, role, approval_status')
-        .eq('id', userId)
+        .eq('id', data.user.id)
         .maybeSingle()
 
-      if (profileError) {
-        alert(profileError.message)
-        return
-      }
-
-      if (!profile) {
-        alert('Профиль табылмады')
-        return
-      }
+      if (profileError) { setError(profileError.message); return }
+      if (!profile) { setError('Профиль табылмады'); return }
 
       const typedProfile = profile as Profile
       const userRole = typedProfile.role
       const approvalStatus = typedProfile.approval_status || 'pending'
 
       if (userRole === 'super_admin' || userRole === 'admin') {
-        window.location.href = '/dashboard/admin'
-        return
+        window.location.href = '/dashboard/admin'; return
       }
 
       if (approvalStatus !== 'approved') {
         await supabase.auth.signOut()
-        window.location.href = '/pending-approval'
-        return
+        window.location.href = '/pending-approval'; return
       }
 
       if (userRole === 'student') {
-        if (role !== 'student') {
-          alert('Бұл аккаунт оқушы ретінде тіркелген')
-          return
-        }
-
-        window.location.href = '/dashboard'
-        return
+        if (role !== 'student') { setError('Бұл аккаунт оқушы ретінде тіркелген'); return }
+        window.location.href = '/dashboard'; return
       }
 
       if (userRole === 'parent') {
-        if (role !== 'parent') {
-          alert('Бұл аккаунт ата-ана ретінде тіркелген')
-          return
-        }
-
-        window.location.href = '/dashboard/parent'
-        return
+        if (role !== 'parent') { setError('Бұл аккаунт ата-ана ретінде тіркелген'); return }
+        window.location.href = '/dashboard/parent'; return
       }
 
-      alert('Аккаунт рөлі дұрыс емес')
-    } catch (err: any) {
-      alert(err?.message || 'Кіру кезінде қате орын алды')
+      setError('Аккаунт рөлі дұрыс емес')
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : 'Кіру кезінде қате орын алды')
     } finally {
       setLoading(false)
     }
@@ -108,108 +80,138 @@ export default function LoginPage() {
       style={{
         minHeight: '100vh',
         display: 'grid',
-        gridTemplateColumns: '1.03fr 0.97fr',
-        background:
-          'radial-gradient(circle at top right, rgba(56,189,248,0.12), transparent 22%), radial-gradient(circle at bottom left, rgba(14,165,233,0.10), transparent 24%), linear-gradient(180deg, #F8FCFF 0%, #FFFFFF 55%, #EFF8FF 100%)',
+        gridTemplateColumns: '1.05fr 0.95fr',
+        background: 'linear-gradient(160deg, #f8fcff 0%, #ffffff 55%, #f0f9ff 100%)',
       }}
     >
+      {/* Left panel */}
+      <div style={{ display: 'none' }} className="auth-panel-hide">
+        <AuthQuotePanel />
+      </div>
       <AuthQuotePanel />
 
+      {/* Right — form */}
       <div
         style={{
           position: 'relative',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          padding: '28px',
+          padding: '32px 28px',
           overflow: 'hidden',
         }}
       >
-        <Glow x="80%" y="15%" size={210} opacity={0.16} />
-        <Glow x="12%" y="82%" size={240} opacity={0.11} />
+        {/* Glow blobs */}
+        <div style={{ position: 'absolute', right: '-5%', top: '5%', width: 260, height: 260, borderRadius: 999, background: 'rgba(56,189,248,0.14)', filter: 'blur(60px)', pointerEvents: 'none' }} />
+        <div style={{ position: 'absolute', left: '5%', bottom: '8%', width: 220, height: 220, borderRadius: 999, background: 'rgba(14,165,233,0.10)', filter: 'blur(50px)', pointerEvents: 'none' }} />
 
-        <div
+        <motion.div
+          initial={{ opacity: 0, y: 28, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 0.75, ease: [0.22, 1, 0.36, 1] }}
           style={{
             position: 'relative',
             zIndex: 2,
             width: '100%',
-            maxWidth: '560px',
-            background: 'rgba(255,255,255,0.80)',
-            border: '1px solid rgba(226,232,240,0.95)',
-            borderRadius: '34px',
-            padding: '28px',
-            boxShadow:
-              '0 30px 70px rgba(15,23,42,0.08), 0 0 0 1px rgba(255,255,255,0.4) inset',
-            backdropFilter: 'blur(18px)',
+            maxWidth: 520,
+            background: 'rgba(255,255,255,0.88)',
+            border: '1px solid rgba(14,165,233,0.15)',
+            borderRadius: 32,
+            padding: '36px 32px',
+            boxShadow: '0 32px 80px rgba(14,165,233,0.10), 0 0 0 1px rgba(255,255,255,0.5) inset',
+            backdropFilter: 'blur(20px)',
           }}
         >
-          <Badge>АККАУНТҚА КІРУ</Badge>
-
-          <h1
+          {/* Badge */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.88 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.45, delay: 0.1 }}
             style={{
-              fontSize: '30px',
+              display: 'inline-flex',
+              padding: '8px 16px',
+              borderRadius: 999,
+              background: 'rgba(224,242,254,0.9)',
+              border: '1px solid rgba(14,165,233,0.18)',
+              color: '#0369a1',
+              fontSize: 12,
               fontWeight: 800,
-              color: '#0F172A',
-              marginBottom: '8px',
-              letterSpacing: '-0.6px',
+              marginBottom: 18,
+              letterSpacing: '0.4px',
             }}
+          >
+            АККАУНТҚА КІРУ
+          </motion.div>
+
+          <motion.h1
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.55, delay: 0.15 }}
+            style={{ fontSize: 28, fontWeight: 800, color: '#0c4a6e', marginBottom: 8, letterSpacing: '-0.8px' }}
           >
             Қайта қош келдіңіз
-          </h1>
+          </motion.h1>
 
-          <p
-            style={{
-              fontSize: '14px',
-              color: '#64748B',
-              lineHeight: 1.7,
-              marginBottom: '22px',
-            }}
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            style={{ fontSize: 14, color: '#64748b', lineHeight: 1.75, marginBottom: 26 }}
           >
             Оқушы немесе ата-ана аккаунтымен кіріп, дайындықты жалғастырыңыз.
-          </p>
+          </motion.p>
 
-          <div
+          {/* Role switcher */}
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.25 }}
             style={{
               display: 'grid',
               gridTemplateColumns: '1fr 1fr',
-              gap: '10px',
-              background: 'rgba(248,250,252,0.92)',
-              border: '1px solid #E2E8F0',
+              gap: 10,
+              background: 'rgba(248,250,252,0.95)',
+              border: '1px solid rgba(14,165,233,0.12)',
               padding: '8px',
-              borderRadius: '22px',
-              marginBottom: '22px',
+              borderRadius: 22,
+              marginBottom: 26,
             }}
           >
-            <button
-              type="button"
-              onClick={() => setRole('student')}
-              style={tabButton(role === 'student')}
-            >
-              <div style={{ fontSize: '16px', fontWeight: 800, marginBottom: '4px' }}>
-                Оқушы
-              </div>
-              <div style={{ fontSize: '12px', lineHeight: 1.5, opacity: 0.9 }}>
-                Жеке оқу аккаунты
-              </div>
-            </button>
+            {(['student', 'parent'] as LoginRole[]).map((r) => (
+              <motion.button
+                key={r}
+                type="button"
+                onClick={() => setRole(r)}
+                whileTap={{ scale: 0.97 }}
+                style={{
+                  border: 'none',
+                  borderRadius: 15,
+                  padding: '14px 16px',
+                  background: role === r ? 'linear-gradient(135deg, #38bdf8, #0ea5e9)' : 'transparent',
+                  color: role === r ? '#ffffff' : '#64748b',
+                  textAlign: 'left',
+                  cursor: 'pointer',
+                  boxShadow: role === r ? '0 10px 24px rgba(14,165,233,0.22)' : 'none',
+                  transition: 'all 0.22s ease',
+                }}
+              >
+                <div style={{ fontSize: 15, fontWeight: 800, marginBottom: 3 }}>
+                  {r === 'student' ? 'Оқушы' : 'Ата-ана'}
+                </div>
+                <div style={{ fontSize: 12, lineHeight: 1.5, opacity: 0.88 }}>
+                  {r === 'student' ? 'Жеке оқу аккаунты' : 'Баланың прогресін бақылау'}
+                </div>
+              </motion.button>
+            ))}
+          </motion.div>
 
-            <button
-              type="button"
-              onClick={() => setRole('parent')}
-              style={tabButton(role === 'parent')}
-            >
-              <div style={{ fontSize: '16px', fontWeight: 800, marginBottom: '4px' }}>
-                Ата-ана
-              </div>
-              <div style={{ fontSize: '12px', lineHeight: 1.5, opacity: 0.9 }}>
-                Баланың прогресін бақылау
-              </div>
-            </button>
-          </div>
-
-          <form
+          {/* Form */}
+          <motion.form
             onSubmit={handleLogin}
-            style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            style={{ display: 'flex', flexDirection: 'column', gap: 16 }}
           >
             <Field label="Email">
               <input
@@ -217,7 +219,7 @@ export default function LoginPage() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="example@gmail.com"
-                style={inputStyle}
+                className="input-field"
               />
             </Field>
 
@@ -227,149 +229,92 @@ export default function LoginPage() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Құпиясөзді енгізіңіз"
-                style={inputStyle}
+                className="input-field"
               />
             </Field>
 
-            <button type="submit" style={primaryButton(!canLogin || loading)}>
-              {loading ? 'Кіріп жатыр...' : 'Кіру'}
-            </button>
-          </form>
+            {/* Error message */}
+            <AnimatePresence>
+              {error && (
+                <motion.div
+                  initial={{ opacity: 0, y: -8, height: 0 }}
+                  animate={{ opacity: 1, y: 0, height: 'auto' }}
+                  exit={{ opacity: 0, y: -8, height: 0 }}
+                  style={{
+                    padding: '12px 16px',
+                    borderRadius: 14,
+                    background: 'rgba(254,242,242,0.9)',
+                    border: '1px solid rgba(252,165,165,0.5)',
+                    color: '#dc2626',
+                    fontSize: 13,
+                    fontWeight: 700,
+                    lineHeight: 1.6,
+                  }}
+                >
+                  {error}
+                </motion.div>
+              )}
+            </AnimatePresence>
 
-          <div
-            style={{
-              marginTop: '20px',
-              textAlign: 'center',
-              fontSize: '14px',
-              color: '#64748B',
-            }}
+            <motion.button
+              type="submit"
+              disabled={!canLogin || loading}
+              whileHover={canLogin && !loading ? { scale: 1.02, boxShadow: '0 18px 38px rgba(14,165,233,0.32)' } : {}}
+              whileTap={canLogin && !loading ? { scale: 0.98 } : {}}
+              style={{
+                padding: '15px 24px',
+                borderRadius: 16,
+                border: 'none',
+                background:
+                  !canLogin || loading
+                    ? 'linear-gradient(135deg, #bae6fd, #7dd3fc)'
+                    : 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
+                color: '#ffffff',
+                fontSize: 15,
+                fontWeight: 800,
+                cursor: !canLogin || loading ? 'not-allowed' : 'pointer',
+                boxShadow:
+                  !canLogin || loading
+                    ? 'none'
+                    : '0 14px 30px rgba(14,165,233,0.28)',
+                opacity: !canLogin || loading ? 0.75 : 1,
+                letterSpacing: '-0.01em',
+              }}
+            >
+              {loading ? (
+                <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 10 }}>
+                  <span className="spin" style={{ width: 18, height: 18, border: '2.5px solid rgba(255,255,255,0.4)', borderTopColor: '#ffffff', borderRadius: 999, display: 'inline-block' }} />
+                  Кіріп жатыр...
+                </span>
+              ) : 'Кіру'}
+            </motion.button>
+          </motion.form>
+
+          {/* Register link */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.45 }}
+            style={{ marginTop: 22, textAlign: 'center', fontSize: 14, color: '#64748b' }}
           >
             Аккаунтыңыз жоқ па?{' '}
-            <a
-              href="/register"
-              style={{ color: '#0284C7', fontWeight: 800, textDecoration: 'none' }}
-            >
+            <a href="/register" style={{ color: '#0284c7', fontWeight: 800, textDecoration: 'none' }}>
               Тіркелу
             </a>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
     </div>
   )
 }
 
-function Glow({
-  x,
-  y,
-  size,
-  opacity,
-}: {
-  x: string
-  y: string
-  size: number
-  opacity: number
-}) {
-  return (
-    <div
-      style={{
-        position: 'absolute',
-        left: x,
-        top: y,
-        width: size,
-        height: size,
-        borderRadius: '999px',
-        background: `rgba(56,189,248,${opacity})`,
-        filter: 'blur(40px)',
-        transform: 'translate(-50%, -50%)',
-      }}
-    />
-  )
-}
-
-function Badge({ children }: { children: React.ReactNode }) {
-  return (
-    <div
-      style={{
-        display: 'inline-flex',
-        padding: '10px 14px',
-        borderRadius: '999px',
-        background: '#E0F2FE',
-        color: '#0369A1',
-        fontSize: '12px',
-        fontWeight: 800,
-        marginBottom: '14px',
-      }}
-    >
-      {children}
-    </div>
-  )
-}
-
-function Field({
-  label,
-  children,
-}: {
-  label: string
-  children: React.ReactNode
-}) {
+function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <div>
-      <label
-        style={{
-          display: 'block',
-          marginBottom: '8px',
-          fontSize: '13px',
-          fontWeight: 800,
-          color: '#334155',
-        }}
-      >
+      <label style={{ display: 'block', marginBottom: 8, fontSize: 13, fontWeight: 800, color: '#334155' }}>
         {label}
       </label>
       {children}
     </div>
   )
-}
-
-const inputStyle: React.CSSProperties = {
-  width: '100%',
-  padding: '14px 16px',
-  borderRadius: '16px',
-  border: '1px solid #CBD5E1',
-  outline: 'none',
-  fontSize: '14px',
-  color: '#0F172A',
-  background: '#FFFFFF',
-  boxShadow: '0 4px 10px rgba(15,23,42,0.02) inset',
-}
-
-function primaryButton(disabled: boolean): React.CSSProperties {
-  return {
-    padding: '14px 22px',
-    borderRadius: '16px',
-    border: 'none',
-    background: disabled
-      ? 'linear-gradient(135deg, #BAE6FD, #7DD3FC)'
-      : 'linear-gradient(135deg, #38BDF8, #0EA5E9)',
-    color: '#FFFFFF',
-    fontSize: '14px',
-    fontWeight: 800,
-    cursor: disabled ? 'not-allowed' : 'pointer',
-    boxShadow: disabled ? 'none' : '0 16px 32px rgba(14,165,233,0.24)',
-    opacity: disabled ? 0.72 : 1,
-  }
-}
-
-function tabButton(active: boolean): React.CSSProperties {
-  return {
-    border: 'none',
-    borderRadius: '16px',
-    padding: '16px',
-    background: active
-      ? 'linear-gradient(135deg, #38BDF8, #0EA5E9)'
-      : 'transparent',
-    color: active ? '#FFFFFF' : '#0F172A',
-    textAlign: 'left',
-    cursor: 'pointer',
-    boxShadow: active ? '0 14px 24px rgba(14,165,233,0.18)' : 'none',
-  }
 }
