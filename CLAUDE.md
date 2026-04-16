@@ -91,8 +91,34 @@ questions: id, variant_id, subject, question_num, question_type,
 
 -- Пользователи / прогресс
 profiles: id, user_id, name, role (student|parent)
-quiz_results: id, user_id, subject, score, total, created_at
 simulator_sessions: id, user_id, variant_id, answers, score, completed_at
+
+-- Геймификация
+user_stats: user_id, xp, level, streak, longest_streak, last_activity_date,
+            total_simulators, total_study_done, total_ai_analysis,
+            total_quizzes, total_perfect_quizzes, updated_at
+user_achievements: id, user_id, achievement_key, unlocked, progress, unlocked_at
+daily_activity: id, user_id, activity_date, activity_type
+
+-- Квиз-результаты (создать если нет):
+-- CREATE TABLE quiz_results (
+--   id               bigserial PRIMARY KEY,
+--   user_id          uuid REFERENCES auth.users NOT NULL,
+--   section_id       integer NOT NULL,
+--   subject_id       integer NOT NULL,
+--   score            integer NOT NULL,        -- процент правильных (0-100)
+--   xp_earned        integer NOT NULL DEFAULT 0,
+--   correct_answers  integer NOT NULL DEFAULT 0,
+--   total_questions  integer NOT NULL DEFAULT 0,
+--   max_streak       integer NOT NULL DEFAULT 0,
+--   difficulty       text NOT NULL DEFAULT 'medium',
+--   time_seconds     integer NOT NULL DEFAULT 0,
+--   created_at       timestamptz NOT NULL DEFAULT now()
+-- );
+-- CREATE INDEX ON quiz_results(user_id, section_id);
+-- ALTER TABLE quiz_results ENABLE ROW LEVEL SECURITY;
+-- CREATE POLICY "Users read own" ON quiz_results FOR SELECT USING (auth.uid() = user_id);
+-- (inserts are done via service role key in /api/update-gamification)
 ```
 
 ---

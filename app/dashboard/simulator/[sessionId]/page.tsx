@@ -429,12 +429,23 @@ export default function SimulatorSessionPage() {
           || user.email?.split('@')[0]
           || 'Студент'
 
+        const completedAt = new Date().toISOString()
+
         await supabase.from('simulator_sessions').insert({
           user_id: user.id,
           variant_id: 1,
           answers: JSON.stringify({ regular: answers, matching: matchAnswers }),
           score: totalScore,
-          completed_at: new Date().toISOString(),
+          completed_at: completedAt,
+        })
+
+        /* also write to simulator_results — read by dashboard, progress, parent, ai-analysis */
+        await supabase.from('simulator_results').insert({
+          user_id:     user.id,
+          total_score: totalScore,
+          max_score:   maxScore,
+          subject_results: JSON.stringify(subjectResults),
+          created_at:  completedAt,
         })
       }
     } catch (e) {

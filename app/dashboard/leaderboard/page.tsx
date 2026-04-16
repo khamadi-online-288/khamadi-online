@@ -54,8 +54,8 @@ export default function LeaderboardPage() {
       if (mode === 'week') since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString()
       else if (mode === 'month') since = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString()
 
-      let sessionQuery = supabase.from('simulator_sessions').select('user_id, score, completed_at')
-      if (since) sessionQuery = sessionQuery.gte('completed_at', since)
+      let sessionQuery = supabase.from('simulator_results').select('user_id, total_score, created_at')
+      if (since) sessionQuery = sessionQuery.gte('created_at', since)
 
       const [sessionsRes, profilesRes] = await Promise.all([
         sessionQuery,
@@ -64,7 +64,11 @@ export default function LeaderboardPage() {
 
       if (sessionsRes.error) throw new Error(sessionsRes.error.message)
 
-      const sessions = (sessionsRes.data || []) as Session[]
+      const sessions = ((sessionsRes.data || []) as unknown as Array<{ user_id: string; total_score: number | null; created_at: string | null }>).map(r => ({
+        user_id: r.user_id,
+        score: r.total_score,
+        completed_at: r.created_at,
+      })) as Session[]
       const profiles = (profilesRes.data || []) as Profile[]
       const profileMap = new Map(profiles.map((p) => [p.id, p]))
 

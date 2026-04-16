@@ -12,7 +12,11 @@ const ACHIEVEMENTS = [
   { key: 'ai_analysis', goal: 1, source: 'total_ai_analysis' },
   { key: 'streak_3', goal: 3, source: 'streak' },
   { key: 'streak_7', goal: 7, source: 'streak' },
-  { key: 'streak_30', goal: 30, source: 'streak' }
+  { key: 'streak_30', goal: 30, source: 'streak' },
+  { key: 'first_quiz', goal: 1, source: 'total_quizzes' },
+  { key: 'ten_quizzes', goal: 10, source: 'total_quizzes' },
+  { key: 'fifty_quizzes', goal: 50, source: 'total_quizzes' },
+  { key: 'quiz_perfect', goal: 1, source: 'total_perfect_quizzes' },
 ]
 
 function calcLevel(xp: number) {
@@ -35,9 +39,17 @@ export async function POST(req: Request) {
 
     const body = await req.json()
 
-    const userId = String(body.userId || '')
-    const action = String(body.action || '')
-    const score = Number(body.score || 0)
+    const userId     = String(body.userId || '')
+    const action     = String(body.action || '')
+    const score      = Number(body.score || 0)
+    const xpEarned   = Number(body.xp_earned || 0)
+    const sectionId  = body.section_id ? Number(body.section_id) : null
+    const subjectId  = body.subject_id ? Number(body.subject_id) : null
+    const correctAns = Number(body.correct_answers || 0)
+    const totalQ     = Number(body.total_questions || 0)
+    const maxStreak  = Number(body.max_streak || 0)
+    const diffLabel  = String(body.difficulty || 'medium')
+    const timeSecs   = Number(body.time_seconds || 0)
 
     if (!userId || !action) {
       return NextResponse.json(
@@ -120,6 +132,32 @@ export async function POST(req: Request) {
       xpGain += 15
     }
 
+    if (action === 'quiz_finished') {
+      stats.total_quizzes = Number(stats.total_quizzes || 0) + 1
+      xpGain += xpEarned
+      const isPerfect = totalQ > 0 && correctAns === totalQ
+      if (isPerfect) {
+        stats.total_perfect_quizzes = Number(stats.total_perfect_quizzes || 0) + 1
+      }
+
+      /* save quiz result row — ignore duplicate errors */
+      if (sectionId && subjectId) {
+        await supabase.from('quiz_results').insert({
+          user_id:          userId,
+          section_id:       sectionId,
+          subject_id:       subjectId,
+          score:            totalQ > 0 ? Math.round((correctAns / totalQ) * 100) : 0,
+          xp_earned:        xpEarned,
+          correct_answers:  correctAns,
+          total_questions:  totalQ,
+          max_streak:       maxStreak,
+          difficulty:       diffLabel,
+          time_seconds:     timeSecs,
+          created_at:       new Date().toISOString(),
+        })
+      }
+    }
+
     stats.xp = Number(stats.xp || 0) + xpGain
     stats.level = calcLevel(Number(stats.xp || 0))
     stats.updated_at = new Date().toISOString()
@@ -153,6 +191,8 @@ export async function POST(req: Request) {
       if (a.source === 'total_ai_analysis') value = Number(stats.total_ai_analysis || 0)
       if (a.source === 'streak') value = Number(stats.streak || 0)
       if (a.source === 'best_score') value = bestScore
+      if (a.source === 'total_quizzes') value = Number(stats.total_quizzes || 0)
+      if (a.source === 'total_perfect_quizzes') value = Number(stats.total_perfect_quizzes || 0)
 
       return {
         user_id: userId,

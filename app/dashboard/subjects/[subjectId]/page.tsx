@@ -1,200 +1,293 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
+import { useParams, useRouter } from 'next/navigation'
 import { supabase } from '@/lib/supabase'
-import { useParams } from 'next/navigation'
 
-type Subject = {
-  id: number
-  name: string
-  icon: string | null
-  type: string
-}
+/* ── Types ── */
+type Subject    = { id: number; name: string; icon: string | null; type: string }
+type Section    = { id: number; subject_id: number; name: string; grade: string | null; order_index: number }
+type BestResult = { score: number; xp: number; difficulty: string; maxStreak: number }
 
-type Section = {
-  id: number
-  subject_id: number
-  name: string
-  grade: string | null
-  order_index: number
-}
+const EASE = [0.22, 1, 0.36, 1] as [number, number, number, number]
 
-const fadeUp = (delay = 0) => ({
-  initial: { opacity: 0, y: 18 },
-  animate: { opacity: 1, y: 0 },
-  transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] },
-})
+export default function SubjectModulesPage() {
+  const { subjectId } = useParams<{ subjectId: string }>()
+  const router = useRouter()
 
-function SectionCard({ section, subjectId, index }: { section: Section; subjectId: number; index: number }) {
-  return (
-    <motion.a
-      href={`/dashboard/subjects/${subjectId}/${section.id}`}
-      initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: 0.18 + index * 0.06, ease: [0.22, 1, 0.36, 1] }}
-      whileHover={{ y: -4, boxShadow: '0 22px 44px rgba(14,165,233,0.14)' }}
-      style={{
-        textDecoration: 'none',
-        color: '#0c4a6e',
-        padding: 22,
-        borderRadius: 24,
-        border: index % 2 === 0 ? '1px solid rgba(14,165,233,0.14)' : '1.5px solid rgba(14,165,233,0.22)',
-        background: index % 2 === 0 ? '#fff' : 'linear-gradient(135deg, rgba(14,165,233,0.06), rgba(255,255,255,0.98))',
-        boxShadow: '0 10px 24px rgba(14,165,233,0.07)',
-        display: 'block',
-        transition: 'box-shadow 0.2s',
-      }}
-    >
-      <div
-        style={{
-          width: 44, height: 44, borderRadius: 14,
-          background: 'linear-gradient(135deg, #38bdf8, #0ea5e9)',
-          display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: '#fff', fontWeight: 900, fontSize: 18, marginBottom: 14,
-          boxShadow: '0 10px 22px rgba(14,165,233,0.2)',
-        }}
-      >
-        {index + 1}
-      </div>
-
-      <div style={{ fontSize: 18, fontWeight: 900, marginBottom: 8, letterSpacing: '-0.02em' }}>
-        {section.name}
-      </div>
-
-      <div style={{ fontSize: 13, color: '#64748b', lineHeight: 1.7, marginBottom: 14, fontWeight: 600 }}>
-        Осы бөлімнің ішіндегі тақырыптарды ашу
-      </div>
-
-      <div style={{ display: 'inline-flex', padding: '7px 12px', borderRadius: 999, background: '#e0f2fe', color: '#0369a1', fontSize: 12, fontWeight: 800 }}>
-        Бөлімді ашу →
-      </div>
-    </motion.a>
-  )
-}
-
-export default function SubjectSectionsPage() {
-  const params = useParams()
-  const subjectId = Number(params.subjectId)
-
-  const [loading, setLoading] = useState(true)
-  const [subject, setSubject] = useState<Subject | null>(null)
-  const [sections, setSections] = useState<Section[]>([])
+  const [subject,        setSubject]        = useState<Subject | null>(null)
+  const [sections,       setSections]       = useState<Section[]>([])
+  const [questionCounts, setQuestionCounts] = useState<Record<number, number>>({})
+  const [bestResults,    setBestResults]    = useState<Record<number, BestResult>>({})
+  const [loading,        setLoading]        = useState(true)
 
   useEffect(() => {
-    const load = async () => {
-      setLoading(true)
-      const { data: subjectData, error: subjectError } = await supabase
-        .from('subjects').select('*').eq('id', subjectId).single()
-      if (subjectError || !subjectData) { setLoading(false); return }
-      setSubject(subjectData as Subject)
-      const { data: sectionsData, error: sectionsError } = await supabase
-        .from('sections').select('*').eq('subject_id', subjectId).order('order_index', { ascending: true })
-      if (!sectionsError) setSections((sectionsData as Section[]) || [])
+    async function load() {
+      const [{ data: subjectData }, { data: sectionsData }, { data: { user } }] = await Promise.all([
+        supabase.from('subjects').select('*').eq('id', subjectId).single(),
+        supabase.from('sections').select('*').eq('subject_id', subjectId).order('order_index', { ascending: true }),
+        supabase.auth.getUser(),
+      ])
+
+      if (subjectData) setSubject(subjectData)
+
+      if (sectionsData) {
+        setSections(sectionsData)
+
+        /* count questions directly by section_id — no topics needed */
+        const counts: Record<number, number> = {}
+        await Promise.all(
+          sectionsData.map(async (section) => {
+            const { count } = await supabase
+              .from('questions')
+              .select('*', { count: 'exact', head: true })
+              .eq('section_id', section.id)
+            counts[section.id] = count ?? 0
+          })
+        )
+        setQuestionCounts(counts)
+
+        /* load best results — prefer Supabase, fall back to localStorage */
+        const results: Record<number, BestResult> = {}
+
+        /* 1. localStorage baseline (instant, no network) */
+        sectionsData.forEach(s => {
+          const stored = localStorage.getItem(`quiz_best_${s.id}`)
+          if (stored) { try { results[s.id] = JSON.parse(stored) } catch {} }
+        })
+
+        /* 2. Supabase override — fetch best quiz result per section */
+        if (user) {
+          const sectionIds = sectionsData.map(s => s.id)
+          const { data: dbResults } = await supabase
+            .from('quiz_results')
+            .select('section_id, score, xp_earned, difficulty, max_streak')
+            .eq('user_id', user.id)
+            .in('section_id', sectionIds)
+            .order('score', { ascending: false })
+
+          if (dbResults) {
+            /* keep only best row per section */
+            const seen = new Set<number>()
+            for (const row of dbResults) {
+              if (!seen.has(row.section_id)) {
+                seen.add(row.section_id)
+                results[row.section_id] = {
+                  score:     row.score,
+                  xp:        row.xp_earned,
+                  difficulty: row.difficulty,
+                  maxStreak: row.max_streak,
+                }
+                /* keep localStorage in sync */
+                localStorage.setItem(`quiz_best_${row.section_id}`, JSON.stringify(results[row.section_id]))
+              }
+            }
+          }
+        }
+
+        setBestResults(results)
+      }
+
       setLoading(false)
     }
-    if (subjectId) load()
-  }, [subjectId])
-
-  const stats = useMemo(() => ({
-    sectionsCount: sections.length,
-    progress: sections.length ? Math.min(18 + sections.length * 4, 100) : 0,
-  }), [sections])
+    load()
+  }, [subjectId, router])
 
   if (loading) {
     return (
-      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ textAlign: 'center' }}>
-          <div className="spinner" style={{ margin: '0 auto 14px' }} />
-          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Жүктелуде...</p>
+      <>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: 400 }}>
+          <div className="spinner" />
         </div>
-      </div>
+      </>
     )
   }
 
   if (!subject) {
     return (
-      <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <p style={{ color: '#64748b', fontSize: 15, fontWeight: 700 }}>Пән табылмады</p>
-      </div>
+      <>
+        <div style={{ textAlign: 'center', padding: 80, color: '#64748b', fontSize: 16, fontWeight: 700 }}>
+          Пән табылмады
+        </div>
+      </>
     )
   }
 
+  const completedCount = sections.filter(s => bestResults[s.id]).length
+  const progressPct    = sections.length > 0 ? Math.round((completedCount / sections.length) * 100) : 0
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: 22 }}>
-      {/* Header */}
-      <motion.div {...fadeUp(0)} style={{ marginBottom: 4 }}>
-        <div style={{ fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 8 }}>
-          Пән
-        </div>
-        <h1 style={{ fontSize: 32, fontWeight: 900, color: '#0c4a6e', letterSpacing: '-0.05em', margin: 0, marginBottom: 6 }}>
-          {subject.icon || '📘'} {subject.name}
-        </h1>
-        <p style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, margin: 0 }}>
-          Бөлімді басқанда соның ішіндегі тақырыптар ашылады.
-        </p>
-      </motion.div>
+    <>
+      <div style={{ maxWidth: 860, margin: '0 auto', padding: '32px 24px' }}>
 
-      {/* Hero */}
-      <motion.div
-        {...fadeUp(0.06)}
-        style={{
-          position: 'relative', overflow: 'hidden', borderRadius: 30, padding: '28px 30px',
-          background: 'linear-gradient(135deg, #0c4a6e 0%, #0369a1 60%, #0ea5e9 100%)',
-          color: '#fff', boxShadow: '0 28px 56px rgba(14,165,233,0.2)',
-        }}
-      >
-        <div style={{ position: 'absolute', top: -50, right: -40, width: 220, height: 220, borderRadius: 999, background: 'rgba(255,255,255,0.10)', filter: 'blur(26px)' }} />
-        <div style={{ position: 'absolute', bottom: -70, left: -40, width: 220, height: 220, borderRadius: 999, background: 'rgba(125,211,252,0.12)', filter: 'blur(28px)' }} />
-        <div style={{ position: 'relative', zIndex: 2 }}>
-          <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 14 }}>
-            {[`${subject.icon || '📘'} ${subject.name}`, `${stats.sectionsCount} бөлім`].map((label) => (
-              <div key={label} style={{ display: 'inline-flex', padding: '8px 14px', borderRadius: 999, background: 'rgba(255,255,255,0.12)', border: '1px solid rgba(255,255,255,0.16)', fontSize: 12, fontWeight: 900, letterSpacing: '0.06em' }}>
-                {label}
+        {/* ── Breadcrumb ── */}
+        <motion.button
+          initial={{ opacity: 0, x: -10 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.4, ease: EASE }}
+          onClick={() => router.push('/dashboard/subjects')}
+          style={{
+            display: 'inline-flex', alignItems: 'center', gap: 6,
+            background: 'none', border: 'none', cursor: 'pointer',
+            color: '#64748b', fontSize: 14, fontWeight: 700,
+            padding: '4px 0', marginBottom: 20,
+          }}
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+            <path d="M19 12H5M12 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          Пәндер
+        </motion.button>
+
+        {/* ── Hero header ── */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.55, ease: EASE, delay: 0.05 }}
+          style={{
+            background: 'linear-gradient(135deg, #0c4a6e 0%, #0ea5e9 100%)',
+            borderRadius: 28, padding: '28px 32px', marginBottom: 28,
+            boxShadow: '0 20px 48px rgba(14,165,233,0.22)', position: 'relative', overflow: 'hidden',
+          }}
+        >
+          <div style={{
+            position: 'absolute', inset: 0,
+            backgroundImage: 'linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px)',
+            backgroundSize: '40px 40px', pointerEvents: 'none',
+          }} />
+          <div style={{ position: 'relative', zIndex: 1, display: 'flex', alignItems: 'center', gap: 18, marginBottom: 22 }}>
+            <div style={{
+              width: 60, height: 60, borderRadius: 20,
+              background: 'rgba(255,255,255,0.18)', backdropFilter: 'blur(8px)',
+              border: '1px solid rgba(255,255,255,0.25)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 30, flexShrink: 0,
+            }}>
+              {subject.icon ?? '📚'}
+            </div>
+            <div>
+              <h1 style={{ fontSize: 26, fontWeight: 900, color: '#fff', letterSpacing: '-0.4px', margin: 0 }}>
+                {subject.name}
+              </h1>
+              <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.75)', fontWeight: 700, marginTop: 4 }}>
+                {sections.length} модуль · {completedCount} аяқталды
               </div>
-            ))}
+            </div>
           </div>
-          <h2 style={{ fontSize: 34, fontWeight: 900, lineHeight: 1.15, letterSpacing: '-0.05em', margin: '0 0 10px' }}>
-            {subject.name}
-          </h2>
-          <p style={{ fontSize: 15, lineHeight: 1.8, color: 'rgba(255,255,255,0.82)', maxWidth: 780, margin: '0 0 18px' }}>
-            Бұл жерде пәннің бөлімдері тұрады. Бөлімді басқанда соның ішіндегі тақырыптар ашылады.
-          </p>
-          <div style={{ width: '100%', maxWidth: 420, height: 10, borderRadius: 999, background: 'rgba(255,255,255,0.16)', overflow: 'hidden' }}>
-            <motion.div
-              initial={{ width: 0 }}
-              animate={{ width: `${stats.progress}%` }}
-              transition={{ duration: 1, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-              style={{ height: '100%', borderRadius: 999, background: 'linear-gradient(90deg, #bae6fd, #fff)' }}
-            />
+          <div style={{ position: 'relative', zIndex: 1 }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8 }}>
+              <span style={{ fontSize: 13, fontWeight: 700, color: 'rgba(255,255,255,0.8)' }}>Жалпы прогресс</span>
+              <span style={{ fontSize: 13, fontWeight: 900, color: '#fff' }}>{progressPct}%</span>
+            </div>
+            <div style={{ height: 7, borderRadius: 999, background: 'rgba(255,255,255,0.18)', overflow: 'hidden' }}>
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: `${progressPct}%` }}
+                transition={{ duration: 1.1, ease: EASE, delay: 0.35 }}
+                style={{ height: '100%', borderRadius: 999, background: 'rgba(255,255,255,0.9)' }}
+              />
+            </div>
           </div>
-          <div style={{ fontSize: 13, fontWeight: 700, marginTop: 10, color: 'rgba(255,255,255,0.82)' }}>
-            Пән прогресі: {stats.progress}%
-          </div>
-        </div>
-      </motion.div>
+        </motion.div>
 
-      {/* Sections */}
-      <motion.div
-        {...fadeUp(0.14)}
-        style={{ background: '#fff', border: '1px solid rgba(14,165,233,0.14)', borderRadius: 28, padding: 24, boxShadow: '0 14px 32px rgba(14,165,233,0.07)' }}
-      >
-        <div style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', marginBottom: 6, letterSpacing: '-0.03em' }}>Бөлімдер</div>
-        <div style={{ fontSize: 13, color: '#64748b', lineHeight: 1.7, marginBottom: 18, fontWeight: 600 }}>
-          Қай бөлімді ашсаң, соған тиесілі тақырыптар шығады.
+        {/* ── Modules list ── */}
+        <div style={{ display: 'grid', gap: 12 }}>
+          {sections.map((section, i) => {
+            const best       = bestResults[section.id]
+            const qCount     = questionCounts[section.id] ?? 0
+            const isComplete = !!best
+
+            return (
+              <motion.div
+                key={section.id}
+                initial={{ opacity: 0, y: 18 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.12 + i * 0.055, ease: EASE }}
+                whileHover={{ y: -3, boxShadow: '0 16px 44px rgba(14,165,233,0.14)', transition: { duration: 0.2 } }}
+                onClick={() => router.push(`/dashboard/subjects/${subjectId}/${section.id}`)}
+                style={{
+                  background: '#ffffff',
+                  border: `1.5px solid ${isComplete ? 'rgba(14,165,233,0.28)' : 'rgba(226,232,240,0.9)'}`,
+                  borderRadius: 20, padding: '18px 22px',
+                  cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 18,
+                  boxShadow: isComplete ? '0 4px 20px rgba(14,165,233,0.08)' : '0 2px 12px rgba(0,0,0,0.04)',
+                }}
+              >
+                {/* Badge */}
+                <div style={{
+                  width: 48, height: 48, borderRadius: 14, flexShrink: 0,
+                  background: isComplete ? 'linear-gradient(135deg, #38bdf8, #0ea5e9)' : 'linear-gradient(135deg, #f0f9ff, #e0f2fe)',
+                  border: `1px solid ${isComplete ? 'transparent' : 'rgba(14,165,233,0.18)'}`,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  fontSize: isComplete ? 20 : 15, fontWeight: 900,
+                  color: isComplete ? '#fff' : '#0c4a6e',
+                }}>
+                  {isComplete ? '✓' : String(i + 1).padStart(2, '0')}
+                </div>
+
+                {/* Info */}
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{
+                    fontSize: 16, fontWeight: 800, color: '#0c4a6e', marginBottom: 5,
+                    whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
+                  }}>
+                    {section.name}
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12, flexWrap: 'wrap' }}>
+                    {qCount > 0 && (
+                      <span style={{ fontSize: 13, color: '#64748b', fontWeight: 700 }}>📝 {qCount} сұрақ</span>
+                    )}
+                    {best && (
+                      <>
+                        <span style={{ fontSize: 13, color: '#22c55e', fontWeight: 800 }}>✓ {best.score}%</span>
+                        <span style={{ fontSize: 13, color: '#0ea5e9', fontWeight: 800 }}>⚡ {best.xp} XP</span>
+                        {best.maxStreak >= 3 && (
+                          <span style={{ fontSize: 13, color: '#f97316', fontWeight: 800 }}>🔥 {best.maxStreak} стрик</span>
+                        )}
+                      </>
+                    )}
+                    {!best && qCount === 0 && (
+                      <span style={{ fontSize: 13, color: '#94a3b8', fontWeight: 700 }}>Сұрақтар жоқ</span>
+                    )}
+                  </div>
+                </div>
+
+                {/* Right side */}
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexShrink: 0 }}>
+                  {!isComplete && qCount > 0 && (
+                    <div style={{
+                      padding: '5px 12px', borderRadius: 999,
+                      background: 'linear-gradient(135deg, rgba(56,189,248,0.12), rgba(14,165,233,0.12))',
+                      color: '#0ea5e9', fontSize: 11, fontWeight: 900, letterSpacing: '0.05em',
+                    }}>
+                      КВИЗ
+                    </div>
+                  )}
+                  {isComplete && (
+                    <div style={{
+                      padding: '5px 12px', borderRadius: 999,
+                      background: 'rgba(34,197,94,0.1)', color: '#16a34a',
+                      fontSize: 11, fontWeight: 900, letterSpacing: '0.05em',
+                    }}>
+                      ӨТІЛДІ
+                    </div>
+                  )}
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#cbd5e1" strokeWidth="2.5">
+                    <path d="M9 18l6-6-6-6" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+              </motion.div>
+            )
+          })}
         </div>
-        {sections.length > 0 ? (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 16 }}>
-            {sections.map((section, index) => (
-              <SectionCard key={section.id} section={section} subjectId={subjectId} index={index} />
-            ))}
-          </div>
-        ) : (
-          <div style={{ padding: 20, borderRadius: 18, background: '#f0f9ff', border: '1px solid rgba(14,165,233,0.14)', color: '#64748b', lineHeight: 1.7, fontWeight: 600, fontSize: 14 }}>
-            Бұл пәнге бөлімдер әлі қосылмаған.
+
+        {sections.length === 0 && (
+          <div style={{ textAlign: 'center', padding: '80px 0', color: '#94a3b8' }}>
+            <div style={{ fontSize: 48, marginBottom: 12 }}>📭</div>
+            <div style={{ fontSize: 16, fontWeight: 700 }}>Модульдер жоқ</div>
           </div>
         )}
-      </motion.div>
-    </div>
+      </div>
+    </>
   )
 }

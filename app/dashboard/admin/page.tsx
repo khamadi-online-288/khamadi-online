@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
-import { supabase } from '@/lib/supabase'
 
 type Profile = {
   id: string
@@ -24,26 +23,26 @@ export default function AdminPage() {
   const [loading, setLoading] = useState(true)
 
   async function loadProfiles() {
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('*')
-      .order('created_at', { ascending: false })
-
-    if (!error && data) setProfiles(data)
+    setLoading(true)
+    const res = await fetch('/api/admin/profiles')
+    const json = await res.json()
+    if (json.profiles) setProfiles(json.profiles)
     setLoading(false)
   }
 
   useEffect(() => { loadProfiles() }, [])
 
-  async function approveUser(id: string) {
-    await supabase.from('profiles').update({ approval_status: 'approved' }).eq('id', id)
+  async function updateStatus(id: string, approval_status: string) {
+    await fetch('/api/admin/profiles', {
+      method: 'PATCH',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id, approval_status }),
+    })
     loadProfiles()
   }
 
-  async function rejectUser(id: string) {
-    await supabase.from('profiles').update({ approval_status: 'rejected' }).eq('id', id)
-    loadProfiles()
-  }
+  const approveUser = (id: string) => updateStatus(id, 'approved')
+  const rejectUser  = (id: string) => updateStatus(id, 'rejected')
 
   if (loading) {
     return (
