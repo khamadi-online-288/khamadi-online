@@ -38,7 +38,7 @@ export default function Topbar() {
     try {
       setLoading(true)
       await supabase.auth.signOut()
-      window.location.href = profile?.role === 'parent' ? '/parent/login' : '/login'
+      window.location.href = profile?.role === 'parent' ? '/ent/parent/login' : '/ent/login'
     } finally {
       setLoading(false)
     }
@@ -105,7 +105,7 @@ export default function Topbar() {
         {/* Right: actions */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           {/* Profile avatar button */}
-          <Link href="/dashboard/profile" style={{ textDecoration: 'none' }}>
+          <Link href="/ent/dashboard/profile" style={{ textDecoration: 'none' }}>
             <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}

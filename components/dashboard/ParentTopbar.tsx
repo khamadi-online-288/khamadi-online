@@ -29,7 +29,7 @@ export default function ParentTopbar() {
     try {
       setLoading(true)
       await supabase.auth.signOut()
-      window.location.href = '/parent/login'
+      window.location.href = '/ent/parent/login'
     } finally {
       setLoading(false)
     }

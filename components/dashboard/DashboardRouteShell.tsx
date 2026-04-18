@@ -25,7 +25,7 @@ export default function DashboardRouteShell({
         } = await supabase.auth.getUser()
 
         if (!user) {
-          router.replace('/login')
+          router.replace('/ent/login')
           return
         }
 
@@ -37,20 +37,20 @@ export default function DashboardRouteShell({
 
         if (error || !profile) {
           await supabase.auth.signOut()
-          router.replace('/login')
+          router.replace('/ent/login')
           return
         }
 
         if (profile.approval_status !== 'approved') {
           await supabase.auth.signOut()
-          router.replace('/pending-approval')
+          router.replace('/ent/pending-approval')
           return
         }
 
         setAllowed(true)
       } catch (error) {
         console.error(error)
-        router.replace('/login')
+        router.replace('/ent/login')
       } finally {
         setLoading(false)
       }
@@ -80,7 +80,7 @@ export default function DashboardRouteShell({
 
   if (!allowed) return null
 
-  if (pathname.startsWith('/dashboard/parent')) {
+  if (pathname.startsWith('/ent/dashboard/parent')) {
     return <ParentShell>{children}</ParentShell>
   }
 

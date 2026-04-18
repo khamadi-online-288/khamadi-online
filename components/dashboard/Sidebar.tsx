@@ -11,18 +11,18 @@ type NavItem = {
 }
 
 const items: NavItem[] = [
-  { href: '/dashboard',                  label: 'Басты бет',       icon: '⌂' },
-  { href: '/dashboard/simulator',        label: 'ҰБТ симуляторы', icon: '◎' },
-  { href: '/dashboard/subjects',         label: 'Пәндер',          icon: '▤' },
-  { href: '/dashboard/ai-tutor',         label: 'AI тьютор',       icon: '✦' },
-  { href: '/dashboard/ai-analysis',      label: 'AI анализ',       icon: '◈' },
-  { href: '/dashboard/study-plan',       label: 'Оқу жоспары',     icon: '◻' },
-  { href: '/dashboard/progress',         label: 'Прогресс',        icon: '▲' },
-  { href: '/dashboard/leaderboard',      label: 'Рейтинг',         icon: '◆' },
-  { href: '/dashboard/achievements',     label: 'Жетістіктер',     icon: '★' },
-  { href: '/dashboard/universities',     label: 'Университеттер',  icon: '◑' },
-  { href: '/dashboard/ubt-info',         label: 'ҰБТ туралы',      icon: 'ℹ' },
-  { href: '/dashboard/profile',          label: 'Профиль',         icon: '○' },
+  { href: '/ent/dashboard',                  label: 'Басты бет',       icon: '⌂' },
+  { href: '/ent/dashboard/simulator',        label: 'ҰБТ симуляторы', icon: '◎' },
+  { href: '/ent/dashboard/subjects',         label: 'Пәндер',          icon: '▤' },
+  { href: '/ent/dashboard/ai-tutor',         label: 'AI тьютор',       icon: '✦' },
+  { href: '/ent/dashboard/ai-analysis',      label: 'AI анализ',       icon: '◈' },
+  { href: '/ent/dashboard/study-plan',       label: 'Оқу жоспары',     icon: '◻' },
+  { href: '/ent/dashboard/progress',         label: 'Прогресс',        icon: '▲' },
+  { href: '/ent/dashboard/leaderboard',      label: 'Рейтинг',         icon: '◆' },
+  { href: '/ent/dashboard/achievements',     label: 'Жетістіктер',     icon: '★' },
+  { href: '/ent/dashboard/universities',     label: 'Университеттер',  icon: '◑' },
+  { href: '/ent/dashboard/ubt-info',         label: 'ҰБТ туралы',      icon: 'ℹ' },
+  { href: '/ent/dashboard/profile',          label: 'Профиль',         icon: '○' },
 ]
 
 export default function Sidebar() {
@@ -44,7 +44,7 @@ export default function Sidebar() {
       }}
     >
       {/* Logo */}
-      <Link href="/dashboard" style={{ textDecoration: 'none', display: 'block', marginBottom: 28 }}>
+      <Link href="/ent/dashboard" style={{ textDecoration: 'none', display: 'block', marginBottom: 28 }}>
         <motion.div
           whileHover={{ scale: 1.02 }}
           style={{
@@ -104,7 +104,7 @@ export default function Sidebar() {
         {items.map((item, idx) => {
           const active =
             pathname === item.href ||
-            (item.href !== '/dashboard' && pathname.startsWith(item.href))
+            (item.href !== '/ent/dashboard' && pathname.startsWith(item.href))
 
           return (
             <motion.div
@@ -233,7 +233,7 @@ export default function Sidebar() {
           </div>
 
           <motion.a
-            href="/dashboard/simulator"
+            href="/ent/dashboard/simulator"
             whileHover={{ scale: 1.04, boxShadow: '0 12px 28px rgba(14,165,233,0.32)' }}
             whileTap={{ scale: 0.97 }}
             style={{
