@@ -1,13 +1,10 @@
 'use client'
 
 import { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import AuthQuotePanel from '@/components/AuthQuotePanel'
 import { supabase } from '@/lib/supabase'
 
 export default function ParentRegisterPage() {
-  const router = useRouter()
-
   const [fullName, setFullName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
