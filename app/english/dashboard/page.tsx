@@ -154,11 +154,20 @@ export default function EnglishDashboardPage() {
           .eq('user_id', user.id),
       ])
 
-      const roleData = roleRes.data as UserRole | null
+      let roleData = roleRes.data as UserRole | null
 
       if (!roleData?.role) {
-        router.push('/english/login')
-        return
+        const { data: inserted } = await supabase
+          .from('english_user_roles')
+          .insert({ user_id: user.id, role: 'student', full_name: user.email ?? '' })
+          .select('full_name, role, purpose')
+          .single()
+        roleData = inserted as UserRole | null
+      }
+
+      // If still no role (RLS blocked insert), default to student
+      if (!roleData?.role) {
+        roleData = { full_name: user.email ?? '', role: 'student', purpose: null }
       }
 
       if (roleData.role === 'teacher') {
@@ -1026,7 +1035,6 @@ export default function EnglishDashboardPage() {
           display:grid;
           grid-template-columns:320px 1fr;
           position:relative;
-          overflow:hidden;
         }
 
         .bg-orb{
@@ -1079,6 +1087,7 @@ export default function EnglishDashboardPage() {
           height:100vh;
           padding:18px 16px;
           z-index:2;
+          align-self:start;
         }
 
         .sidebar-inner{

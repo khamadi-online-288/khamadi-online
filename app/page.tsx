@@ -778,7 +778,7 @@ export default function HomePage() {
             ['👥', '1000+', 'Оқушы бізбен бірге'],
             ['⭐', '95%', 'ҰБТ-да жоғары нәтиже'],
             ['📚', '12', 'English курстары'],
-            ['🏆', '2', 'Негізгі білім бағыты'],
+            ['🏆', '3', 'Негізгі білім бағыты'],
           ].map(([icon, value, label], i) => (
             <div
               key={label}
@@ -1062,7 +1062,7 @@ export default function HomePage() {
         <div style={{ maxWidth: 1180, margin: '0 auto' }}>
           <div ref={directionRef} className="fade-start" style={{ textAlign: 'center', marginBottom: 54 }}>
             <div className="section-kicker">БАҒЫТТАР</div>
-            <h2 className="section-title">Біздің негізгі екі даму бағытымыз</h2>
+            <h2 className="section-title">Біздің үш негізгі даму бағытымыз</h2>
             <p
               style={{
                 fontSize: 17,
@@ -1073,15 +1073,15 @@ export default function HomePage() {
                 margin: '18px auto 0',
               }}
             >
-              Бүгінгі таңда KHAMADI ONLINE екі маңызды бағытты біріктіреді:
-              ҰБТ-ға дайындық және English Courses.
+              KHAMADI ONLINE үш маңызды бағытты біріктіреді:
+              ҰБТ дайындығы, English Courses және НИШ/РФМШ/БИЛ дайындығы.
             </p>
           </div>
 
           <div
             style={{
               display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fit,minmax(320px,1fr))',
+              gridTemplateColumns: 'repeat(2, 1fr)',
               gap: 22,
             }}
           >
@@ -1116,6 +1116,24 @@ export default function HomePage() {
               accentBg="rgba(16,185,129,0.07)"
               accentBorder="rgba(16,185,129,0.20)"
             />
+
+            <div style={{ gridColumn: '1 / -1', maxWidth: 500, margin: '0 auto', width: '100%' }}>
+              <DirectionCard
+                icon="🏫"
+                title="НИШ, РФМШ, БИЛ"
+                desc="Назарбаев Зияткерлік мектептері, РФМШ және БИЛ-ге дайындық. Тереңдетілген бағдарлама, сұхбат дайындығы және пәндік дайындық."
+                points={[
+                  'НИШ, РФМШ, БИЛ форматына сай дайындық',
+                  'Математика, ғылым және тіл пәндері',
+                  'Сұхбатқа және тестке дайындық',
+                  'Жеке оқу жоспары',
+                ]}
+                href="/nish"
+                accent="#8b5cf6"
+                accentBg="rgba(139,92,246,0.07)"
+                accentBorder="rgba(139,92,246,0.20)"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -1381,8 +1399,8 @@ export default function HomePage() {
               {[
                 ['ҰБТ Дайындық', '/ent'],
                 ['English Courses', '/english'],
-                ['ҰБТ Тіркелу', '/register'],
-                ['English Тіркелу', '/english/register'],
+                ['НИШ, РФМШ, БИЛ', '/nish'],
+              
               ].map(([label, href]) => (
                 <button
                   key={label}
@@ -1547,6 +1565,12 @@ export default function HomePage() {
         @media (max-width: 640px) {
           section div[style*="grid-template-columns: repeat(4,1fr)"] {
             grid-template-columns: repeat(2,1fr) !important;
+          }
+          section div[style*="grid-template-columns: repeat(2, 1fr)"] {
+            grid-template-columns: 1fr !important;
+          }
+          section div[style*="grid-column: 1 / -1"] {
+            max-width: 100% !important;
           }
           section div[style*="border-right:"] {
             border-right: none !important;

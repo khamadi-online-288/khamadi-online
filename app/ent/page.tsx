@@ -310,21 +310,6 @@ function Header() {
         </motion.a>
 
         <motion.a
-          href="/english"
-          whileHover={{ scale: 1.05, boxShadow: '0 12px 28px rgba(245,158,11,0.25)' }}
-          whileTap={{ scale: 0.96 }}
-          transition={{ duration: 0.2, ease: EASE }}
-          style={{
-            padding: '9px 18px', borderRadius: 999,
-            background: 'linear-gradient(135deg, #F59E0B, #D97706)',
-            color: '#0F172A', fontSize: 14, fontWeight: 900, letterSpacing: '-0.01em',
-            display: 'inline-flex', alignItems: 'center', gap: 6,
-          }}
-        >
-          🇬🇧 English Courses
-        </motion.a>
-
-        <motion.a
           href="/ent/login"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.96 }}
