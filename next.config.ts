@@ -16,10 +16,10 @@ const nextConfig: NextConfig = {
   },
 };
 
-// Allow build-time TS/ESLint bypass without polluting the typed config
-const config = Object.assign(nextConfig, {
-  eslint: { ignoreDuringBuilds: true },
+// typescript.ignoreBuildErrors stays in next.config; eslint moved to eslint.config
+const config: NextConfig = {
+  ...nextConfig,
   typescript: { ignoreBuildErrors: true },
-})
+}
 
 export default config;
