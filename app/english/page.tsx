@@ -2,13 +2,6 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
-import dynamic from 'next/dynamic'
-import { useLang } from './lang-context'
-
-const LangToggle = dynamic(
-  () => import('./lang-context').then(m => ({ default: m.LangToggle })),
-  { ssr: false, loading: () => <span style={{ display: 'inline-block', minWidth: 70, height: 34 }} /> }
-)
 
 function useReveal(threshold = 0.14) {
   const ref = useRef<HTMLDivElement>(null)
@@ -296,7 +289,6 @@ function TrustStat({
 
 export default function EnglishLandingPage() {
   const router = useRouter()
-  const { t } = useLang()
   const [faqOpen, setFaqOpen] = useState<number | null>(null)
   const [navScrolled, setNavScrolled] = useState(false)
   const [cursor, setCursor] = useState({ x: -200, y: -200 })
@@ -417,12 +409,11 @@ export default function EnglishLandingPage() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <LangToggle />
             <button className="btn-ghost" onClick={() => router.push('/english/login')}>
-              {t.login}
+              Войти
             </button>
             <button className="btn-primary" onClick={() => router.push('/english/register')}>
-              {t.register}
+              Регистрация
             </button>
           </div>
         </div>
@@ -454,7 +445,7 @@ export default function EnglishLandingPage() {
         >
           <div style={{ paddingTop: 16 }}>
             <Reveal>
-              <div className="hero-badge">✦ {t.heroBadge}</div>
+              <div className="hero-badge">✦ Digital-платформа</div>
             </Reveal>
 
             <Reveal delay={80}>
@@ -469,11 +460,11 @@ export default function EnglishLandingPage() {
                   maxWidth: 820,
                 }}
               >
-                {t.heroTitle1}
+                Английский язык
                 <br />
                 <span className="hero-gradient">
-                  {t.heroTitle2}
-                  <br />{t.heroTitle3}
+                  который выглядит ярко
+                  <br />и учит эффективно
                 </span>
               </h1>
             </Reveal>
@@ -489,17 +480,19 @@ export default function EnglishLandingPage() {
                   fontWeight: 500,
                 }}
               >
-                {t.heroSubtitle}
+                Современные курсы от A1 до C1 по стандарту CEFR. Чистый интерфейс,
+                сильная структура, AI-помощник, интерактивные уроки и сертификат
+                по завершении — всё в одной digital-платформе.
               </p>
             </Reveal>
 
             <Reveal delay={220}>
               <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', marginBottom: 40 }}>
                 <button className="btn-hero-primary" onClick={() => router.push('/english/register')}>
-                  {t.startLearning}
+                  Начать обучение →
                 </button>
                 <button className="btn-hero-glass" onClick={() => router.push('/english/login')}>
-                  {t.loginAccount}
+                  Войти в аккаунт
                 </button>
               </div>
             </Reveal>
@@ -614,15 +607,17 @@ export default function EnglishLandingPage() {
       <section id="courses" className="section-wrap">
         <div className="container">
           <Reveal style={{ textAlign: 'center', marginBottom: 56 }}>
-            <div className="section-kicker">{t.courses}</div>
-            <h2 className="section-title">{t.directionsSectionTitle}</h2>
-            <p className="section-text">{t.directionsSubtitle}</p>
+            <div className="section-kicker">Направления</div>
+            <h2 className="section-title">12 курсов для разных целей</h2>
+            <p className="section-text">
+              От первых шагов до профессионального владения языком — выбери программу под свой уровень и задачу.
+            </p>
           </Reveal>
 
           <Reveal style={{ marginBottom: 54 }}>
             <div className="line-heading">
               <div className="line" />
-              <span>{t.generalEnglish}</span>
+              <span>General English</span>
             </div>
 
             <div className="cards-grid general-grid">
@@ -651,7 +646,7 @@ export default function EnglishLandingPage() {
           <Reveal>
             <div className="line-heading">
               <div className="line" />
-              <span>{t.specialPurposes}</span>
+              <span>English for Special Purposes</span>
             </div>
 
             <div className="cards-grid special-grid">
@@ -678,8 +673,8 @@ export default function EnglishLandingPage() {
       <section id="how-it-works" className="section-soft">
         <div className="container">
           <Reveal style={{ textAlign: 'center', marginBottom: 56 }}>
-            <div className="section-kicker">{t.howItWorks}</div>
-            <h2 className="section-title">{t.howItWorksTitle}</h2>
+            <div className="section-kicker">Как это работает</div>
+            <h2 className="section-title">Четыре шага к сильному английскому</h2>
           </Reveal>
 
           <div className="cards-grid steps-grid">
@@ -932,7 +927,8 @@ export default function EnglishLandingPage() {
               <div className="cta-glow" />
               <div style={{ position: 'relative', zIndex: 1 }}>
                 <div className="cta-title">
-                  {t.ctaTitle}
+                  Начни учить английский
+                  <br />уже сегодня
                 </div>
                 <p className="cta-text">
                   Зарегистрируйся и получи доступ к платформе, где обучение выглядит чисто, ярко, современно и работает на результат.
@@ -941,10 +937,10 @@ export default function EnglishLandingPage() {
 
               <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', position: 'relative', zIndex: 1 }}>
                 <button className="cta-primary" onClick={() => router.push('/english/register')}>
-                  {t.register}
+                  Зарегистрироваться
                 </button>
                 <button className="cta-ghost" onClick={() => router.push('/')}>
-                  {t.backHome}
+                  ← На главную
                 </button>
               </div>
             </div>
