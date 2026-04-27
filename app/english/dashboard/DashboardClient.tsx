@@ -362,7 +362,14 @@ export default function DashboardClient() {
   const weekData = useMemo(() => calcWeekActivity(progress), [progress])
 
   const generalCourses = useMemo(() => courses.filter(c => c.category === 'General English'), [courses])
-  const trackCourse    = useMemo(() => trackTitle ? courses.find(c => c.title === trackTitle) ?? null : null, [trackTitle, courses])
+  const espCourses     = useMemo(() => courses.filter(c => c.category === 'English for Special Purposes'), [courses])
+  const trackCourse    = useMemo(() => {
+    if (!trackTitle) return espCourses[0] ?? null
+    return courses.find(c => c.title === trackTitle)
+      ?? courses.find(c => c.title.toLowerCase().includes(trackTitle.toLowerCase()))
+      ?? espCourses[0]
+      ?? null
+  }, [trackTitle, courses, espCourses])
 
   const overallProgress = useMemo(() => {
     const total = lessons.length

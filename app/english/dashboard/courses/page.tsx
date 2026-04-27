@@ -92,10 +92,14 @@ export default async function CoursesPage() {
     .filter(c => c.category === 'General English')
     .map(enrich)
 
-  const trackCourse = trackTitle
-    ? allCourses.find(c => c.title === trackTitle) ?? null
+  const espCourses = allCourses
+    .filter(c => c.category === 'English for Special Purposes')
+    .map(enrich)
+
+  // Student's chosen track — match by title or partial match
+  const trackCourseId = trackTitle
+    ? (espCourses.find(c => c.title === trackTitle) ?? espCourses.find(c => c.title.toLowerCase().includes(trackTitle.toLowerCase())))?.id ?? null
     : null
-  const trackEnriched = trackCourse ? enrich(trackCourse) : null
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
@@ -127,19 +131,26 @@ export default async function CoursesPage() {
         </div>
       </section>
 
-      {/* ── ESP Track ── */}
-      {trackEnriched && (
+      {/* ── ESP Courses ── */}
+      {espCourses.length > 0 && (
         <section>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 8 }}>
             <div style={{ width: 3, height: 20, borderRadius: 99, background: 'linear-gradient(180deg, #C9933B, #e8b14f)' }} />
             <span style={{ fontSize: 13, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.01em' }}>
-              Профессиональный трек
+              English for Special Purposes
             </span>
-            <span style={{ fontSize: 12, color: '#94a3b8', fontWeight: 700 }}>English for Special Purposes</span>
           </div>
 
-          <div style={{ maxWidth: 340 }}>
-            <CourseCard course={trackEnriched} />
+          {trackCourseId && (
+            <div style={{ marginBottom: 10, padding: '7px 12px', borderRadius: 10, background: 'rgba(201,147,59,0.08)', border: '1px solid rgba(201,147,59,0.2)', fontSize: 12, fontWeight: 700, color: '#92600a', display: 'inline-flex', alignItems: 'center', gap: 6 }}>
+              ⭐ Ваш трек выделен
+            </div>
+          )}
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 20 }}>
+            {espCourses.map(course => (
+              <CourseCard key={course.id} course={course} isMyTrack={course.id === trackCourseId} />
+            ))}
           </div>
         </section>
       )}
@@ -148,7 +159,7 @@ export default async function CoursesPage() {
   )
 }
 
-function CourseCard({ course }: { course: CourseWithProgress }) {
+function CourseCard({ course, isMyTrack = false }: { course: CourseWithProgress; isMyTrack?: boolean }) {
   const isESP    = course.category === 'English for Special Purposes'
   const levelKey = course.level?.match(/^[ABC][12]/)?.[0] ?? ''
   const cardStyle = isESP
@@ -164,6 +175,7 @@ function CourseCard({ course }: { course: CourseWithProgress }) {
       style={{
         textDecoration: 'none',
         display: 'flex',
+        outline: isMyTrack ? '2px solid #C9933B' : undefined,
         flexDirection: 'column',
         borderRadius: 16,
         overflow: 'hidden',
