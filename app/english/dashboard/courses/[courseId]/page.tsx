@@ -241,8 +241,7 @@ export default function CoursePage() {
                             modLessons.map((lesson, li) => {
                               const done = progress.get(lesson.id) ?? false
                               const meta = TYPE_META[lesson.lesson_type] ?? TYPE_META.grammar
-                              const prevDone = li === 0 || (progress.get(modLessons[li - 1]?.id) ?? false)
-                              const locked   = !prevDone
+                              const locked   = false
 
                               return (
                                 <div
