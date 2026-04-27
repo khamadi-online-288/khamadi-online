@@ -40,7 +40,7 @@ export default function EnglishLoginPage() {
 
       const { data: roleData } = await supabase
         .from('english_user_roles')
-        .select('role, status')
+        .select('role')
         .eq('user_id', userId)
         .maybeSingle()
 
@@ -50,25 +50,13 @@ export default function EnglishLoginPage() {
         return
       }
 
-      const rd = roleData as { role: string; status?: string }
+      const role = (roleData as { role: string }).role
 
-      // Block pending/rejected users
-      if (rd.status === 'pending') {
-        await supabase.auth.signOut()
-        window.location.href = '/english/pending'
-        return
-      }
-      if (rd.status === 'rejected') {
-        await supabase.auth.signOut()
-        window.location.href = '/english/rejected'
-        return
-      }
-
-      // Redirect by role — full reload ensures cookies are set
-      const dest = rd.role === 'admin'   ? '/english/admin'
-        : rd.role === 'teacher'  ? '/english/teacher'
-        : rd.role === 'support'  ? '/english/support-agent'
-        : rd.role === 'curator'  ? '/english/curator'
+      // Redirect by role — layout will handle pending/rejected check
+      const dest = role === 'admin'   ? '/english/admin'
+        : role === 'teacher'  ? '/english/teacher'
+        : role === 'support'  ? '/english/support-agent'
+        : role === 'curator'  ? '/english/curator'
         : '/english/dashboard'
       window.location.href = dest
     } catch {

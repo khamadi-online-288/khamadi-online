@@ -12,15 +12,11 @@ export default async function DashboardLayout({ children }: { children: React.Re
 
   const { data: profile } = await supabase
     .from('english_user_roles')
-    .select('full_name, role, current_level, status')
+    .select('full_name, role, current_level')
     .eq('user_id', user.id)
     .maybeSingle()
 
   if (!profile) redirect('/english/register')
-
-  const status = (profile as { status?: string } | null)?.status
-  if (status === 'pending')  redirect('/english/pending')
-  if (status === 'rejected') redirect('/english/rejected')
 
   const role     = (profile?.role          ?? 'student') as UserRole
   const level    = (profile?.current_level ?? '')        as CefrLevel | ''

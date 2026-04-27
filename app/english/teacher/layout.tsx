@@ -9,16 +9,12 @@ export default async function EnglishTeacherLayout({ children }: { children: Rea
 
   const { data: roleRow } = await supabase
     .from('english_user_roles')
-    .select('role, status')
+    .select('role')
     .eq('user_id', session.user.id)
     .maybeSingle()
 
-  const r      = (roleRow as { role: string; status?: string } | null)?.role
-  const status = (roleRow as { role: string; status?: string } | null)?.status
-
+  const r = (roleRow as { role: string } | null)?.role
   if (r !== 'teacher' && r !== 'admin') redirect('/english/dashboard')
-  if (status === 'pending')  redirect('/english/pending')
-  if (status === 'rejected') redirect('/english/rejected')
 
   supabase.from('profiles').update({ last_seen_at: new Date().toISOString() }).eq('id', session.user.id)
 
