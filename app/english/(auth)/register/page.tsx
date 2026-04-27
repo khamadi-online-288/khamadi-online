@@ -65,24 +65,21 @@ export default function EnglishRegisterPage() {
 
       if (!userId) { setError('Не удалось определить пользователя.'); return }
 
-      // Check if English profile already exists
+      // Check if English profile already exists (select only 'role' — always exists)
       const { data: existing } = await supabase
         .from('english_user_roles')
-        .select('role, status')
+        .select('role')
         .eq('user_id', userId)
         .maybeSingle()
 
       if (existing) {
-        const ex = existing as { role: string; status?: string | null }
+        // User already registered — show pending screen (they're waiting for approval)
         await supabase.auth.signOut()
-        // If already pending — show the waiting screen again
-        if (ex.status === 'pending') { setDone(true); return }
-        // Otherwise already approved — go to login
-        router.push('/english/login')
+        setDone(true)
         return
       }
 
-      // Create English platform profile with status: pending
+      // Try INSERT with status + email (migration 044 columns)
       const { error: insertErr } = await supabase.from('english_user_roles').insert({
         user_id:   userId,
         full_name: fullName,
@@ -93,16 +90,24 @@ export default function EnglishRegisterPage() {
       })
 
       if (insertErr) {
-        setError(`Ошибка создания профиля: ${insertErr.message}`)
-        return
+        // Fallback: insert without migration-044 columns (status/email not yet added)
+        const { error: insertErr2 } = await supabase.from('english_user_roles').insert({
+          user_id:   userId,
+          full_name: fullName,
+          role,
+          purpose:   role === 'student' ? studentPurpose : null,
+        })
+        if (insertErr2) {
+          setError(`Ошибка создания профиля: ${insertErr2.message}`)
+          return
+        }
       }
 
-      // Notify all admins
+      // Notify all admins (try — non-blocking)
       const { data: admins } = await supabase
         .from('english_user_roles')
         .select('user_id')
         .eq('role', 'admin')
-        .eq('status', 'approved')
       if (admins && admins.length > 0) {
         await supabase.from('english_notifications').insert(
           (admins as { user_id: string }[]).map(a => ({

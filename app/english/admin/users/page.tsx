@@ -37,7 +37,6 @@ export default function AdminUsersPage() {
   async function load() {
     setLoading(true)
 
-    // Single source of truth: english_user_roles has status + email
     const { data: rolesData } = await supabase
       .from('english_user_roles')
       .select('user_id, full_name, email, role, status, created_at, language_level:current_level')
@@ -54,10 +53,11 @@ export default function AdminUsersPage() {
       full_name:       r.full_name ?? '',
       email:           r.email ?? '',
       role_from_table: r.role,
-      status:          r.status ?? 'approved',
+      // null status means registered before migration 044 — show as pending
+      status:          r.status ?? 'pending',
       created_at:      r.created_at ?? '',
       language_level:  r.language_level ?? '',
-      is_active:       r.status !== 'rejected',
+      is_active:       true,
     }))
 
     setUsers(merged)
