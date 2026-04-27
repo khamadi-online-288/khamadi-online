@@ -98,11 +98,12 @@ export default function EnglishRegisterPage() {
         return
       }
 
-      // Mark profile as pending in profiles table
+      // Mark profile as pending — role field is NOT NULL so must be included
       await supabase.from('profiles').upsert({
         id:              userId,
         email:           email.trim().toLowerCase(),
         full_name:       fullName,
+        role:            'student',
         status:          'pending',
         is_english_user: true,
       })

@@ -36,6 +36,17 @@ export default function AdminUsersPage() {
 
   async function load() {
     setLoading(true)
+
+    // Load pending users directly — independent of english_user_roles join
+    const pendingRes = await supabase
+      .from('profiles')
+      .select('id,full_name,email,is_active,last_seen_at,created_at,language_level,avatar_url,status')
+      .eq('status', 'pending')
+      .eq('is_english_user', true)
+      .order('created_at', { ascending: false })
+      .limit(200)
+
+    // Load approved/all English platform users via english_user_roles
     const rolesRes = await supabase.from('english_user_roles').select('user_id,role')
     const roleMap: Record<string, string> = {}
     const englishUserIds: string[] = []
@@ -43,17 +54,34 @@ export default function AdminUsersPage() {
       roleMap[r.user_id] = r.role
       englishUserIds.push(r.user_id)
     })
-    if (englishUserIds.length === 0) { setUsers([]); setLoading(false); return }
-    const profilesRes = await supabase
-      .from('profiles')
-      .select('id,full_name,email,is_active,last_seen_at,created_at,language_level,department,avatar_url,status')
-      .in('id', englishUserIds)
-      .order('created_at', { ascending: false })
-      .limit(300)
-    setUsers(((profilesRes.data ?? []) as Record<string, unknown>[]).map(p => ({
+
+    let approvedUsers: UserRow[] = []
+    if (englishUserIds.length > 0) {
+      const profilesRes = await supabase
+        .from('profiles')
+        .select('id,full_name,email,is_active,last_seen_at,created_at,language_level,department,avatar_url,status')
+        .in('id', englishUserIds)
+        .neq('status', 'pending')
+        .order('created_at', { ascending: false })
+        .limit(300)
+      approvedUsers = ((profilesRes.data ?? []) as Record<string, unknown>[]).map(p => ({
+        ...p,
+        role_from_table: roleMap[(p.id as string)] ?? '',
+      })) as UserRow[]
+    }
+
+    const pendingUsers = ((pendingRes.data ?? []) as Record<string, unknown>[]).map(p => ({
       ...p,
-      role_from_table: roleMap[(p.id as string)] ?? '',
-    })) as UserRow[])
+      role_from_table: roleMap[(p.id as string)] ?? 'student',
+    })) as UserRow[]
+
+    // Merge: pending first, then approved (dedup by id)
+    const seen = new Set<string>()
+    const merged: UserRow[] = []
+    for (const u of [...pendingUsers, ...approvedUsers]) {
+      if (!seen.has(u.id)) { seen.add(u.id); merged.push(u) }
+    }
+    setUsers(merged)
     setLoading(false)
   }
 
