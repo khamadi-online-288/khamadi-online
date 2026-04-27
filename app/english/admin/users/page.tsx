@@ -83,6 +83,8 @@ export default function AdminUsersPage() {
     }
     setUsers(merged)
     setLoading(false)
+    // Auto-switch to pending tab if there are new applications
+    if (pendingUsers.length > 0) setPageTab('pending')
   }
 
   async function loadGroups() {
@@ -136,13 +138,16 @@ export default function AdminUsersPage() {
       body:    'Ваша заявка одобрена. Можете войти и начать обучение.',
       type:    'system',
     })
+    // Move user from pending to approved in local state
     setUsers(u => u.map(x => x.id === approveTarget.id
-      ? { ...x, status: 'approved', role_from_table: approveForm.role, language_level: approveForm.level }
+      ? { ...x, status: 'approved', role_from_table: approveForm.role, language_level: approveForm.level, is_active: true }
       : x
     ))
     setApproveTarget(null)
     setApproveForm({ role: 'student', level: 'A1', groupId: '' })
     setSaving(false)
+    // Switch to All tab so admin sees the newly approved user
+    setPageTab('all')
   }
 
   async function rejectUser() {
@@ -158,7 +163,8 @@ export default function AdminUsersPage() {
       body:    rejectReason || 'Ваша заявка была отклонена администратором.',
       type:    'system',
     })
-    setUsers(u => u.map(x => x.id === rejectTarget.id ? { ...x, status: 'rejected' } : x))
+    // Remove rejected user from the list entirely
+    setUsers(u => u.filter(x => x.id !== rejectTarget.id))
     setRejectTarget(null)
     setRejectReason('')
     setSaving(false)

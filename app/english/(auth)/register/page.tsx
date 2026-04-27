@@ -98,15 +98,21 @@ export default function EnglishRegisterPage() {
         return
       }
 
-      // Mark profile as pending — role field is NOT NULL so must be included
-      await supabase.from('profiles').upsert({
+      // Mark profile as pending in profiles table
+      // onConflict:'id' handles both INSERT (new user) and UPDATE (trigger already created row)
+      const { error: profileErr } = await supabase.from('profiles').upsert({
         id:              userId,
         email:           email.trim().toLowerCase(),
         full_name:       fullName,
         role:            'student',
         status:          'pending',
         is_english_user: true,
-      })
+      }, { onConflict: 'id' })
+
+      if (profileErr) {
+        // Non-blocking: registration still succeeds, but log the issue
+        console.error('profiles upsert error:', profileErr.message)
+      }
 
       // Notify all admins
       const { data: admins } = await supabase
