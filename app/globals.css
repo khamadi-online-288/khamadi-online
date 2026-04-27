@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Nunito:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
+@theme {
+  --color-navy:  #1B3A6B;
+  --color-gold:  #C9933B;
+  --color-mid:   #2E5FA3;
+  --color-light: #EBF0F8;
+}
+
 /* ─────────────────────────────────────────────
    RESET & BASE
 ───────────────────────────────────────────── */
@@ -354,25 +361,27 @@ img { display: block; }
   border-radius: 999px;
   pointer-events: none;
   z-index: 0;
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .bg-orb-1 {
   top: -80px;
   right: -80px;
-  width: 680px;
-  height: 680px;
-  background: radial-gradient(circle, rgba(56,189,248,0.09) 0%, transparent 70%);
-  filter: blur(60px);
+  width: 580px;
+  height: 580px;
+  background: radial-gradient(circle, rgba(56,189,248,0.07) 0%, transparent 70%);
+  filter: blur(80px);
   animation: bgOrbDrift1 22s ease-in-out infinite;
 }
 
 .bg-orb-2 {
   bottom: -100px;
   left: -100px;
-  width: 580px;
-  height: 580px;
-  background: radial-gradient(circle, rgba(14,165,233,0.07) 0%, transparent 70%);
-  filter: blur(60px);
+  width: 480px;
+  height: 480px;
+  background: radial-gradient(circle, rgba(14,165,233,0.05) 0%, transparent 70%);
+  filter: blur(80px);
   animation: bgOrbDrift2 26s ease-in-out infinite;
 }
 
@@ -980,4 +989,27 @@ img { display: block; }
   .dash-metrics-grid {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+}
+
+/* ── Content Protection ── */
+.protected-content {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.protected-content img {
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+@media print {
+  .protected-content { display: none !important; }
+}
+
+/* ── Course card hover ── */
+.course-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.course-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(27, 58, 107, 0.15) !important;
 }

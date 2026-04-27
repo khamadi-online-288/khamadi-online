@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import SwRegister from './sw-register'
+import { LangProvider } from './lang-context'
 
 export const metadata: Metadata = {
   title: {
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
 
 export default function EnglishLayout({ children }: { children: React.ReactNode }) {
   return (
-    <>
+    <LangProvider>
       {children}
       <SwRegister />
-    </>
+    </LangProvider>
   )
 }
