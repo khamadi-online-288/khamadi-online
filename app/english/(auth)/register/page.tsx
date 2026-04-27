@@ -44,21 +44,17 @@ export default function EnglishRegisterPage() {
 
       let userId: string | null = null
 
-      const alreadyExists =
-        signUpErr?.message?.toLowerCase().includes('already registered') ||
-        signUpErr?.message?.toLowerCase().includes('already exists') ||
-        !signUpData.session
-
-      if (signUpErr && !alreadyExists) {
-        setError(signUpErr.message)
-        return
+      if (signUpErr) {
+        const msg = signUpErr.message?.toLowerCase() ?? ''
+        const alreadyExists = msg.includes('already registered') || msg.includes('already exists')
+        if (!alreadyExists) { setError(signUpErr.message); return }
       }
 
-      if (signUpData.session) {
-        // New account, session is active
-        userId = signUpData.user?.id ?? null
+      // Use user.id from signUp (works even when session=null due to email confirm)
+      if (signUpData.user?.id) {
+        userId = signUpData.user.id
       } else {
-        // Account already exists — sign in to verify password and get user id
+        // Fallback: sign in to get user id
         const { data: signInData, error: signInErr } = await supabase.auth.signInWithPassword({ email, password })
         if (signInErr || !signInData.user) {
           setError('Аккаунт с таким email уже существует. Введите правильный пароль.')
@@ -67,20 +63,21 @@ export default function EnglishRegisterPage() {
         userId = signInData.user.id
       }
 
-      if (!userId) {
-        setError('Не удалось определить пользователя.')
-        return
-      }
+      if (!userId) { setError('Не удалось определить пользователя.'); return }
 
       // Check if English profile already exists
       const { data: existing } = await supabase
         .from('english_user_roles')
-        .select('role')
+        .select('role, status')
         .eq('user_id', userId)
         .maybeSingle()
 
       if (existing) {
+        const ex = existing as { role: string; status?: string | null }
         await supabase.auth.signOut()
+        // If already pending — show the waiting screen again
+        if (ex.status === 'pending') { setDone(true); return }
+        // Otherwise already approved — go to login
         router.push('/english/login')
         return
       }
