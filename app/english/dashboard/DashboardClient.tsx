@@ -295,10 +295,13 @@ export default function DashboardClient() {
 
         supabase.from('english_progress')
           .select('lesson_id, completed, updated_at')
-          .eq('user_id', user.id),
+          .eq('user_id', user.id)
+          .limit(500),
 
         supabase.from('english_lessons')
-          .select('id, course_id, title'),
+          .select('id, course_id, title')
+          .eq('is_published', true)
+          .limit(300),
 
         supabase.from('english_certificates')
           .select('id, course_id, certificate_number, issued_at')

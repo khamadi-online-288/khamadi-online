@@ -1,13 +1,12 @@
 'use client'
 
 import Link from 'next/link'
-import { useEffect, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import type { UserRole } from '@/types/english/database'
 
-type NavItem = { href: string; label: string; icon: string; exact?: boolean; supportBadge?: boolean }
+type NavItem = { href: string; label: string; icon: string; exact?: boolean }
 
 const STUDENT_NAV: NavItem[] = [
   { href: '/english/dashboard',                        exact: true, label: 'Главная',       icon: '⌂' },
@@ -20,7 +19,7 @@ const STUDENT_NAV: NavItem[] = [
   { href: '/english/dashboard/certificates',                        label: 'Сертификаты',    icon: '★' },
   { href: '/english/dashboard/notifications',                       label: 'Уведомления',    icon: '◎' },
   { href: '/english/dashboard/profile',                             label: 'Профиль',        icon: '○' },
-  { href: '/english/dashboard/support',                             label: 'Поддержка',      icon: '◻', supportBadge: true },
+  { href: '/english/dashboard/support',                             label: 'Поддержка',      icon: '◻' },
 ]
 
 const TEACHER_EXTRA: NavItem[] = [
@@ -40,17 +39,6 @@ const NAV_BY_ROLE: Record<UserRole, NavItem[]> = {
 
 type Props = { role: UserRole; userName: string }
 
-function useSupportBadge(userId?: string) {
-  const [count, setCount] = useState(0)
-  useEffect(() => {
-    if (!userId) return
-    const supabase = createEnglishClient()
-    supabase.from('english_notifications').select('id', { count: 'exact', head: true }).eq('user_id', userId).eq('type', 'system').eq('is_read', false)
-      .then(({ count: c }: { count: number | null }) => setCount(c ?? 0))
-  }, [userId])
-  return count
-}
-
 function getInitial(name: string): string {
   const trimmed = name?.trim()
   if (!trimmed) return 'U'
@@ -64,14 +52,9 @@ function getDisplayName(name: string): string {
 }
 
 export default function Sidebar({ role, userName }: Props) {
-  const pathname     = usePathname()
-  const router       = useRouter()
-  const items        = NAV_BY_ROLE[role] ?? STUDENT_NAV
-  const [uid, setUid] = useState<string | undefined>(undefined)
-  useEffect(() => {
-    createEnglishClient().auth.getSession().then(({ data }: { data: { session: { user: { id: string } } | null } }) => setUid(data.session?.user.id))
-  }, [])
-  const supportBadge = useSupportBadge(uid)
+  const pathname = usePathname()
+  const router   = useRouter()
+  const items    = NAV_BY_ROLE[role] ?? STUDENT_NAV
 
   async function handleLogout() {
     const supabase = createEnglishClient()
@@ -206,12 +189,7 @@ export default function Sidebar({ role, userName }: Props) {
                   <span style={{ fontSize: 16, lineHeight: 1, opacity: active ? 1 : 0.75, flexShrink: 0, paddingLeft: active ? 8 : 0 }}>
                     {item.icon}
                   </span>
-                  <span style={{ lineHeight: 1.3, flex: 1 }}>{item.label}</span>
-                  {item.supportBadge && supportBadge > 0 && (
-                    <span style={{ minWidth: 18, height: 18, borderRadius: 99, background: '#ef4444', color: '#fff', fontSize: 10, fontWeight: 900, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0 4px', marginLeft: 4 }}>
-                      {supportBadge > 99 ? '99+' : supportBadge}
-                    </span>
-                  )}
+                  <span style={{ lineHeight: 1.3 }}>{item.label}</span>
                 </motion.div>
               </Link>
             </motion.div>
