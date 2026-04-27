@@ -353,7 +353,6 @@ export default function DashboardClient() {
   const firstName    = profile?.full_name?.trim().split(' ')[0] ?? 'Студент'
   const currentLevel = profile?.current_level ?? null
   const nextLevel    = currentLevel ? CEFR[Math.min(CEFR.indexOf(currentLevel) + 1, 4)] : null
-  const trackTitle   = profile?.purpose ? (PURPOSE_TITLE[profile.purpose] ?? null) : null
 
   const completedIds     = useMemo(() => new Set(progress.filter(p => p.completed).map(p => p.lesson_id)), [progress])
   const completedLessons = completedIds.size
@@ -362,14 +361,14 @@ export default function DashboardClient() {
   const weekData = useMemo(() => calcWeekActivity(progress), [progress])
 
   const generalCourses = useMemo(() => courses.filter(c => c.category === 'General English'), [courses])
-  const espCourses     = useMemo(() => courses.filter(c => c.category === 'English for Special Purposes'), [courses])
-  const trackCourse    = useMemo(() => {
-    if (!trackTitle) return espCourses[0] ?? null
-    return courses.find(c => c.title === trackTitle)
-      ?? courses.find(c => c.title.toLowerCase().includes(trackTitle.toLowerCase()))
-      ?? espCourses[0]
+  const trackCourse = useMemo(() => {
+    const p = profile?.purpose
+    if (!p) return null
+    // Match directly: english_courses.title ilike purpose
+    return courses.find(c => c.title.toLowerCase() === p.toLowerCase())
+      ?? courses.find(c => c.category === 'English for Special Purposes' && c.title.toLowerCase().includes(p.toLowerCase()))
       ?? null
-  }, [trackTitle, courses, espCourses])
+  }, [profile?.purpose, courses])
 
   const overallProgress = useMemo(() => {
     const total = lessons.length

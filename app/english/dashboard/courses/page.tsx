@@ -21,15 +21,6 @@ const LEVEL_LABEL: Record<string, string> = {
   C2: 'PROFICIENT',
 }
 
-const PURPOSE_TO_TITLE: Record<string, string> = {
-  accounting:       'Accounting',
-  computer_science: 'Computer Science',
-  hospitality:      'Hospitality',
-  management:       'Management',
-  finance_industry: 'Finance Industry',
-  social_sciences:  'Social Sciences',
-  law:              'Law',
-}
 
 type CourseRow = {
   id: string; title: string; level: string | null
@@ -47,19 +38,31 @@ export default async function CoursesPage() {
       const user = session?.user
   if (!user) redirect('/english/login')
 
-  const [profileRes, coursesRes, lessonsRes, progressRes] = await Promise.all([
-    supabase
-      .from('english_user_roles')
-      .select('purpose')
-      .eq('user_id', user.id)
-      .maybeSingle(),
+  // Get student's purpose first, then fetch their ESP course directly by title
+  const profileRes = await supabase
+    .from('english_user_roles')
+    .select('purpose')
+    .eq('user_id', user.id)
+    .maybeSingle()
 
+  const purpose = (profileRes.data as { purpose?: string | null } | null)?.purpose ?? null
+
+  const [coursesRes, espRes, lessonsRes, progressRes] = await Promise.all([
     supabase
       .from('english_courses')
       .select('id, title, level, category, description')
       .eq('is_active', true)
-      .order('category')
+      .eq('category', 'General English')
       .order('level'),
+
+    purpose
+      ? supabase
+          .from('english_courses')
+          .select('id, title, level, category, description')
+          .eq('is_active', true)
+          .ilike('title', purpose)   // case-insensitive match against purpose value
+          .maybeSingle()
+      : Promise.resolve({ data: null }),
 
     supabase
       .from('english_lessons')
@@ -71,11 +74,10 @@ export default async function CoursesPage() {
       .eq('user_id', user.id),
   ])
 
-  const purpose       = (profileRes.data?.purpose as string | null) ?? null
-  const trackTitle    = purpose ? (PURPOSE_TO_TITLE[purpose] ?? null) : null
-  const allCourses    = (coursesRes.data ?? []) as CourseRow[]
-  const allLessons    = (lessonsRes.data ?? []) as { id: string; course_id: string }[]
-  const completedIds  = new Set(
+  const allCourses   = (coursesRes.data ?? []) as CourseRow[]
+  const trackCourse  = (espRes.data ?? null) as CourseRow | null
+  const allLessons   = (lessonsRes.data ?? []) as { id: string; course_id: string }[]
+  const completedIds = new Set(
     ((progressRes.data ?? []) as { lesson_id: string; completed: boolean }[])
       .filter(p => p.completed)
       .map(p => p.lesson_id)
@@ -88,20 +90,8 @@ export default async function CoursesPage() {
     return { ...course, done, total: cl.length, pct }
   }
 
-  const generalCourses = allCourses
-    .filter(c => c.category === 'General English')
-    .map(enrich)
-
-  const espCourses = allCourses.filter(c => c.category === 'English for Special Purposes')
-
-  // Find the student's chosen ESP course — exact match first, then partial
-  const trackCourse = trackTitle
-    ? (espCourses.find(c => c.title === trackTitle)
-      ?? espCourses.find(c => c.title.toLowerCase().includes(trackTitle.toLowerCase()))
-      ?? espCourses.find(c => trackTitle.toLowerCase().includes(c.title.toLowerCase())))
-      ?? null
-    : null
-  const trackEnriched = trackCourse ? enrich(trackCourse) : null
+  const generalCourses = allCourses.map(enrich)
+  const trackEnriched  = trackCourse ? enrich(trackCourse) : null
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
