@@ -37,54 +37,34 @@ export default function AdminUsersPage() {
   async function load() {
     setLoading(true)
 
-    // Load pending users directly — independent of english_user_roles join
-    const pendingRes = await supabase
-      .from('profiles')
-      .select('id,full_name,email,is_active,last_seen_at,created_at,language_level,avatar_url,status')
-      .eq('status', 'pending')
-      .eq('is_english_user', true)
+    // Single source of truth: english_user_roles has status + email
+    const { data: rolesData } = await supabase
+      .from('english_user_roles')
+      .select('user_id, full_name, email, role, status, created_at, language_level:current_level')
       .order('created_at', { ascending: false })
-      .limit(200)
+      .limit(300)
 
-    // Load approved/all English platform users via english_user_roles
-    const rolesRes = await supabase.from('english_user_roles').select('user_id,role')
-    const roleMap: Record<string, string> = {}
-    const englishUserIds: string[] = []
-    ;(rolesRes.data ?? []).forEach((r: { user_id: string; role: string }) => {
-      roleMap[r.user_id] = r.role
-      englishUserIds.push(r.user_id)
-    })
+    const rows = (rolesData ?? []) as {
+      user_id: string; full_name: string | null; email: string | null
+      role: string; status: string | null; created_at: string | null; language_level: string | null
+    }[]
 
-    let approvedUsers: UserRow[] = []
-    if (englishUserIds.length > 0) {
-      const profilesRes = await supabase
-        .from('profiles')
-        .select('id,full_name,email,is_active,last_seen_at,created_at,language_level,department,avatar_url,status')
-        .in('id', englishUserIds)
-        .neq('status', 'pending')
-        .order('created_at', { ascending: false })
-        .limit(300)
-      approvedUsers = ((profilesRes.data ?? []) as Record<string, unknown>[]).map(p => ({
-        ...p,
-        role_from_table: roleMap[(p.id as string)] ?? '',
-      })) as UserRow[]
-    }
+    const merged: UserRow[] = rows.map(r => ({
+      id:              r.user_id,
+      full_name:       r.full_name ?? '',
+      email:           r.email ?? '',
+      role_from_table: r.role,
+      status:          r.status ?? 'approved',
+      created_at:      r.created_at ?? '',
+      language_level:  r.language_level ?? '',
+      is_active:       r.status !== 'rejected',
+    }))
 
-    const pendingUsers = ((pendingRes.data ?? []) as Record<string, unknown>[]).map(p => ({
-      ...p,
-      role_from_table: roleMap[(p.id as string)] ?? 'student',
-    })) as UserRow[]
-
-    // Merge: pending first, then approved (dedup by id)
-    const seen = new Set<string>()
-    const merged: UserRow[] = []
-    for (const u of [...pendingUsers, ...approvedUsers]) {
-      if (!seen.has(u.id)) { seen.add(u.id); merged.push(u) }
-    }
     setUsers(merged)
     setLoading(false)
-    // Auto-switch to pending tab if there are new applications
-    if (pendingUsers.length > 0) setPageTab('pending')
+
+    const pending = merged.filter(u => u.status === 'pending')
+    if (pending.length > 0) setPageTab('pending')
   }
 
   async function loadGroups() {
@@ -116,19 +96,12 @@ export default function AdminUsersPage() {
   async function approveUser() {
     if (!approveTarget) return
     setSaving(true)
-    const { data: { session } } = await supabase.auth.getSession()
-    await Promise.all([
-      supabase.from('profiles').update({
-        status:          'approved',
-        language_level:  approveForm.level || null,
-        approved_by:     session?.user.id ?? null,
-        approved_at:     new Date().toISOString(),
-      }).eq('id', approveTarget.id),
-      supabase.from('english_user_roles').update({
-        role:          approveForm.role,
-        current_level: approveForm.level || null,
-      }).eq('user_id', approveTarget.id),
-    ])
+    await supabase.from('english_user_roles').update({
+      status:        'approved',
+      role:          approveForm.role,
+      current_level: approveForm.level || null,
+      approved_at:   new Date().toISOString(),
+    }).eq('user_id', approveTarget.id)
     if (approveForm.groupId) {
       await supabase.from('lms_group_students').insert({ group_id: approveForm.groupId, student_id: approveTarget.id })
     }
@@ -153,10 +126,10 @@ export default function AdminUsersPage() {
   async function rejectUser() {
     if (!rejectTarget) return
     setSaving(true)
-    await supabase.from('profiles').update({
+    await supabase.from('english_user_roles').update({
       status:           'rejected',
       rejection_reason: rejectReason || null,
-    }).eq('id', rejectTarget.id)
+    }).eq('user_id', rejectTarget.id)
     await supabase.from('english_notifications').insert({
       user_id: rejectTarget.id,
       title:   'Заявка отклонена',

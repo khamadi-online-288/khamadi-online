@@ -10,15 +10,15 @@ export default async function DashboardLayout({ children }: { children: React.Re
       const user = session?.user
   if (!user) redirect('/english/login')
 
-  const [roleRes, statusRes] = await Promise.all([
-    supabase.from('english_user_roles').select('full_name, role, current_level').eq('user_id', user.id).maybeSingle(),
-    supabase.from('profiles').select('status').eq('id', user.id).maybeSingle(),
-  ])
+  const { data: profile } = await supabase
+    .from('english_user_roles')
+    .select('full_name, role, current_level, status')
+    .eq('user_id', user.id)
+    .maybeSingle()
 
-  const profile = roleRes.data
   if (!profile) redirect('/english/register')
 
-  const status = (statusRes.data as { status?: string } | null)?.status
+  const status = (profile as { status?: string } | null)?.status
   if (status === 'pending')  redirect('/english/pending')
   if (status === 'rejected') redirect('/english/rejected')
 

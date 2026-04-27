@@ -94,7 +94,10 @@
       "Bash(cp -r support \"\\(shell\\)/support\")",
       "Bash(mkdir -p \"c:/Users/ASUS/Desktop/khamadi.online/app/english/teacher/messages/[conversationId]\")",
       "Bash(mkdir -p \"c:/Users/ASUS/Desktop/khamadi.online/app/english/curator/students/[studentId]\")",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git remote *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }

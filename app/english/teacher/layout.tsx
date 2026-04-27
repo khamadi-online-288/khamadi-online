@@ -7,15 +7,16 @@ export default async function EnglishTeacherLayout({ children }: { children: Rea
   const { data: { session } } = await supabase.auth.getSession()
   if (!session) redirect('/english/login')
 
-  const [roleRes, statusRes] = await Promise.all([
-    supabase.from('english_user_roles').select('role').eq('user_id', session.user.id).maybeSingle(),
-    supabase.from('profiles').select('status').eq('id', session.user.id).maybeSingle(),
-  ])
+  const { data: roleRow } = await supabase
+    .from('english_user_roles')
+    .select('role, status')
+    .eq('user_id', session.user.id)
+    .maybeSingle()
 
-  const r = (roleRes.data as { role: string } | null)?.role
+  const r      = (roleRow as { role: string; status?: string } | null)?.role
+  const status = (roleRow as { role: string; status?: string } | null)?.status
+
   if (r !== 'teacher' && r !== 'admin') redirect('/english/dashboard')
-
-  const status = (statusRes.data as { status?: string } | null)?.status
   if (status === 'pending')  redirect('/english/pending')
   if (status === 'rejected') redirect('/english/rejected')
 

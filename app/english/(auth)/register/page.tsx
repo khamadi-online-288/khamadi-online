@@ -85,12 +85,14 @@ export default function EnglishRegisterPage() {
         return
       }
 
-      // Create English platform profile
+      // Create English platform profile with status: pending
       const { error: insertErr } = await supabase.from('english_user_roles').insert({
         user_id:   userId,
         full_name: fullName,
+        email:     email.trim().toLowerCase(),
         role,
         purpose:   role === 'student' ? studentPurpose : null,
+        status:    'pending',
       })
 
       if (insertErr) {
@@ -98,27 +100,12 @@ export default function EnglishRegisterPage() {
         return
       }
 
-      // Mark profile as pending in profiles table
-      // onConflict:'id' handles both INSERT (new user) and UPDATE (trigger already created row)
-      const { error: profileErr } = await supabase.from('profiles').upsert({
-        id:              userId,
-        email:           email.trim().toLowerCase(),
-        full_name:       fullName,
-        role:            'student',
-        status:          'pending',
-        is_english_user: true,
-      }, { onConflict: 'id' })
-
-      if (profileErr) {
-        // Non-blocking: registration still succeeds, but log the issue
-        console.error('profiles upsert error:', profileErr.message)
-      }
-
       // Notify all admins
       const { data: admins } = await supabase
         .from('english_user_roles')
         .select('user_id')
         .eq('role', 'admin')
+        .eq('status', 'approved')
       if (admins && admins.length > 0) {
         await supabase.from('english_notifications').insert(
           (admins as { user_id: string }[]).map(a => ({
