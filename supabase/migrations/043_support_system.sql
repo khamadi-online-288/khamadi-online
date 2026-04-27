@@ -1,12 +1,19 @@
 -- 043_support_system.sql
 
--- Support role in profiles
-ALTER TABLE profiles DROP CONSTRAINT IF EXISTS profiles_role_check;
-ALTER TABLE profiles ADD CONSTRAINT profiles_role_check
-  CHECK (role IN ('student', 'teacher', 'admin', 'curator', 'support'));
+-- Support role: just ensure the column exists, no constraint change needed.
+-- The english_user_roles table is the source of truth for English platform roles.
+-- We only need profiles.role to store English-specific roles when set via approval flow.
+-- Skip constraint modification to avoid conflicts with main KHAMADI platform roles.
+
+-- Drop tables created by previous failed runs (safe — no production data yet)
+DROP TABLE IF EXISTS english_support_messages  CASCADE;
+DROP TABLE IF EXISTS english_support_tickets   CASCADE;
+DROP TABLE IF EXISTS english_support_templates CASCADE;
+DROP TABLE IF EXISTS english_support_faq       CASCADE;
+DROP TABLE IF EXISTS english_platform_status   CASCADE;
 
 -- TICKETS
-CREATE TABLE IF NOT EXISTS english_support_tickets (
+CREATE TABLE english_support_tickets (
   id             uuid DEFAULT gen_random_uuid() PRIMARY KEY,
   ticket_number  serial UNIQUE,
   user_id        uuid REFERENCES profiles(id) ON DELETE CASCADE,
@@ -23,7 +30,7 @@ CREATE TABLE IF NOT EXISTS english_support_tickets (
 );
 
 -- MESSAGES
-CREATE TABLE IF NOT EXISTS english_support_messages (
+CREATE TABLE english_support_messages (
   id             uuid DEFAULT gen_random_uuid() PRIMARY KEY,
   ticket_id      uuid REFERENCES english_support_tickets(id) ON DELETE CASCADE,
   sender_id      uuid REFERENCES profiles(id),
@@ -34,7 +41,7 @@ CREATE TABLE IF NOT EXISTS english_support_messages (
 );
 
 -- FAQ
-CREATE TABLE IF NOT EXISTS english_support_faq (
+CREATE TABLE english_support_faq (
   id           uuid DEFAULT gen_random_uuid() PRIMARY KEY,
   category     text NOT NULL,
   question     text NOT NULL,
@@ -45,7 +52,7 @@ CREATE TABLE IF NOT EXISTS english_support_faq (
 );
 
 -- RESPONSE TEMPLATES
-CREATE TABLE IF NOT EXISTS english_support_templates (
+CREATE TABLE english_support_templates (
   id         uuid DEFAULT gen_random_uuid() PRIMARY KEY,
   title      text NOT NULL,
   body       text NOT NULL,
@@ -55,7 +62,7 @@ CREATE TABLE IF NOT EXISTS english_support_templates (
 );
 
 -- PLATFORM STATUS
-CREATE TABLE IF NOT EXISTS english_platform_status (
+CREATE TABLE english_platform_status (
   id          uuid DEFAULT gen_random_uuid() PRIMARY KEY,
   title       text NOT NULL,
   description text,

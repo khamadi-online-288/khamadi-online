@@ -93,7 +93,8 @@
       "Bash(cp -r profile \"\\(shell\\)/profile\")",
       "Bash(cp -r support \"\\(shell\\)/support\")",
       "Bash(mkdir -p \"c:/Users/ASUS/Desktop/khamadi.online/app/english/teacher/messages/[conversationId]\")",
-      "Bash(mkdir -p \"c:/Users/ASUS/Desktop/khamadi.online/app/english/curator/students/[studentId]\")"
+      "Bash(mkdir -p \"c:/Users/ASUS/Desktop/khamadi.online/app/english/curator/students/[studentId]\")",
+      "Bash(git add *)"
     ]
   }
 }
