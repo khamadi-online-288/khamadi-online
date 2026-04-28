@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import ContentProtection from '@/components/english/ContentProtection'
 import { SecureAudio } from '@/components/english/lms/shared/SecureMedia'
+import GameQuiz, { type GameQuizQuestion } from '@/components/english/quiz/GameQuiz'
 
 type Lesson = {
   id: string
@@ -170,15 +171,7 @@ type ListeningOption   = { letter: string; text: string }
 type ListeningQuestion = { id: number; question: string; options?: ListeningOption[]; answer: string | number; prefix?: string; suffix?: string }
 type ListeningContent  = { audio_url: string; title: string; type: ListeningType; instructions: string; questions: ListeningQuestion[]; options?: string[] }
 
-type QuizQuestion = {
-  id: string
-  question: string
-  option_a: string
-  option_b: string
-  option_c: string
-  option_d: string
-  correct_answer: string
-}
+type QuizQuestion = GameQuizQuestion
 
 type Tab = 'grammar' | 'reading' | 'listening' | 'vocabulary' | 'writing' | 'quiz'
 
@@ -191,7 +184,6 @@ const TABS: { key: Tab; label: string; icon: string }[] = [
   { key: 'quiz',       label: 'Quiz',       icon: '✅' },
 ]
 
-const QUIZ_TIME = 15 * 60
 
 function GrammarExerciseItem({ ex, num }: { ex: GrammarExercise; num: number }) {
   const [selected, setSelected] = useState<string | null>(null)
@@ -320,16 +312,9 @@ export default function LessonPage() {
   const [listenChecked, setListenChecked] = useState(false)
   const [listenPlayed,  setListenPlayed]  = useState(false)
 
-  // Quiz state
-  const [quizPhase,         setQuizPhase]         = useState<'idle' | 'active' | 'done'>('idle')
-  const [quizIndex,         setQuizIndex]         = useState(0)
-  const [answers,           setAnswers]           = useState<Record<string, string>>({})
-  const [selected,          setSelected]          = useState<string | null>(null)
-  const [showAnswer,        setShowAnswer]        = useState(false)
-  const [quizScore,         setQuizScore]         = useState(0)
-  const [timeLeft,          setTimeLeft]          = useState(QUIZ_TIME)
-  const [attempts,          setAttempts]          = useState(0)
-  const [certificateIssued, setCertificateIssued] = useState(false)
+  // Quiz data
+  const [quizId,        setQuizId]       = useState<string | null>(null)
+  const [passThreshold, setPassThreshold] = useState(90)
 
   useEffect(() => {
     async function load() {
@@ -355,7 +340,7 @@ export default function LessonPage() {
       const [lessonRes, sectionsRes, questionsRes, progRes] = await Promise.all([
         supabase.from('english_lessons').select('*').eq('id', lessonId).single(),
         supabase.from('english_lesson_sections').select('type, content').eq('lesson_id', lessonId).order('order_index'),
-        supabase.from('english_quiz_questions').select('*').eq('lesson_id', lessonId),
+        supabase.from('english_quizzes').select('id,pass_threshold,questions').eq('lesson_id', lessonId).maybeSingle(),
         supabase.from('english_progress').select('attempts').eq('user_id', user.id).eq('lesson_id', lessonId).maybeSingle(),
       ])
       setSections((sectionsRes.data ?? []) as SectionRow[])
@@ -370,8 +355,12 @@ export default function LessonPage() {
         setLesson({ ...raw, vocabulary: vocab })
       }
 
-      setQuestions((questionsRes.data || []) as QuizQuestion[])
-      setAttempts((progRes.data as { attempts: number } | null)?.attempts ?? 0)
+      const quizRow = questionsRes.data as { id: string; pass_threshold: number; questions: QuizQuestion[] } | null
+      if (quizRow) {
+        setQuizId(quizRow.id)
+        setPassThreshold(quizRow.pass_threshold ?? 90)
+        setQuestions(quizRow.questions ?? [])
+      }
       setLoading(false)
     }
     load()
@@ -390,104 +379,6 @@ export default function LessonPage() {
       }
     }
   }, [sessionId])
-
-  // Quiz timer
-  useEffect(() => {
-    if (quizPhase !== 'active') return
-    if (timeLeft <= 0) { finishQuiz(); return }
-    const t = setTimeout(() => setTimeLeft(s => s - 1), 1000)
-    return () => clearTimeout(t)
-  }, [quizPhase, timeLeft])
-
-  const startQuiz = () => {
-    setQuizIndex(0)
-    setAnswers({})
-    setSelected(null)
-    setShowAnswer(false)
-    setTimeLeft(QUIZ_TIME)
-    setQuizPhase('active')
-  }
-
-  const handleSelectOption = (opt: string) => {
-    if (showAnswer) return
-    setSelected(opt)
-    setShowAnswer(true)
-    const q = questions[quizIndex]
-    setAnswers(prev => ({ ...prev, [q.id]: opt }))
-  }
-
-  const handleNext = () => {
-    setSelected(null)
-    setShowAnswer(false)
-    if (quizIndex + 1 >= questions.length) { finishQuiz(); return }
-    setQuizIndex(i => i + 1)
-  }
-
-  const finishQuiz = useCallback(async () => {
-    const correct = questions.filter(q => answers[q.id] === q.correct_answer).length
-    const score = questions.length > 0 ? Math.round((correct / questions.length) * 100) : 0
-    setQuizScore(score)
-    setQuizPhase('done')
-    setAttempts(prev => prev + 1)
-
-    if (!userId) return
-    const supabase = createEnglishClient()
-
-    const passed = score >= 70
-    await supabase.from('english_progress').upsert({
-      user_id: userId,
-      lesson_id: lessonId,
-      completed: passed,
-      score,
-      attempts: attempts + 1,
-      completed_at: passed ? new Date().toISOString() : null,
-    }, { onConflict: 'user_id,lesson_id' })
-
-    if (!passed) return
-
-    // Check if all lessons in the course are now completed
-    const { data: allLessons } = await supabase
-      .from('english_lessons')
-      .select('id')
-      .eq('course_id', courseId)
-
-    if (!allLessons || allLessons.length === 0) return
-
-    const { data: completedProgress } = await supabase
-      .from('english_progress')
-      .select('lesson_id')
-      .eq('user_id', userId)
-      .eq('completed', true)
-      .in('lesson_id', allLessons.map((l: { id: string }) => l.id))
-
-    const completedIds = new Set(completedProgress?.map((p: { lesson_id: string }) => p.lesson_id) || [])
-    completedIds.add(lessonId)
-
-    const allComplete = allLessons.every((l: { id: string }) => completedIds.has(l.id))
-    if (!allComplete) return
-
-    // Verify no certificate already exists
-    const { data: existingCert } = await supabase
-      .from('english_certificates')
-      .select('id')
-      .eq('user_id', userId)
-      .eq('course_id', courseId)
-      .maybeSingle()
-
-    if (existingCert) return
-
-    const year = new Date().getFullYear()
-    const rand = Math.floor(100000 + Math.random() * 900000)
-    await supabase.from('english_certificates').insert({
-      user_id: userId,
-      course_id: courseId,
-      certificate_number: `KE-${year}-${rand}`,
-      issued_at: new Date().toISOString(),
-    })
-    setCertificateIssued(true)
-  }, [questions, answers, userId, lessonId, courseId, attempts])
-
-  const formatTime = (s: number) => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`
 
   if (loading) {
     return (
@@ -511,12 +402,6 @@ export default function LessonPage() {
       </div>
     )
   }
-
-  const currentQ = questions[quizIndex]
-  const OPTIONS: { key: 'option_a'|'option_b'|'option_c'|'option_d'; label: string }[] = [
-    { key: 'option_a', label: 'A' }, { key: 'option_b', label: 'B' },
-    { key: 'option_c', label: 'C' }, { key: 'option_d', label: 'D' },
-  ]
 
   return (
     <ContentProtection userId={userId ?? undefined} userName={userName}>
@@ -2523,130 +2408,22 @@ export default function LessonPage() {
 
             {/* QUIZ */}
             {tab === 'quiz' && (
-              <div className="glass-card" style={{ padding: 32 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
-                  <span style={{ fontSize: 20 }}>🎯</span>
-                  <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>Quiz</h2>
+              questions.length === 0 || !quizId ? (
+                <div style={{ textAlign: 'center', padding: '48px 0', color: '#94a3b8' }}>
+                  <div style={{ fontSize: 40, marginBottom: 12 }}>📭</div>
+                  <div style={{ fontWeight: 700 }}>Квиз для этого урока ещё не добавлен</div>
                 </div>
-
-                {questions.length === 0 ? (
-                  <div style={{ textAlign: 'center', padding: '40px 0', color: '#94a3b8' }}>
-                    <div style={{ fontSize: 40, marginBottom: 12 }}>📭</div>
-                    <div style={{ fontWeight: 700 }}>Вопросы не добавлены</div>
-                  </div>
-                ) : quizPhase === 'idle' ? (
-                  <div style={{ textAlign: 'center', padding: '32px 0' }}>
-                    <div style={{ fontSize: 56, marginBottom: 16 }}>🎯</div>
-                    <div style={{ fontSize: 22, fontWeight: 900, color: '#0c4a6e', marginBottom: 8 }}>Готов к тесту?</div>
-                    <div style={{ fontSize: 14, color: '#64748b', lineHeight: 1.7, marginBottom: 8, fontWeight: 600 }}>
-                      {questions.length} вопросов · Таймер 15 минут · Проходной балл 70%
-                    </div>
-                    <div style={{ fontSize: 13, color: '#94a3b8', marginBottom: 28, fontWeight: 600 }}>
-                      Попыток: {attempts} / 3 максимум
-                    </div>
-                    {attempts >= 3 ? (
-                      <div style={{ fontSize: 14, color: '#ef4444', fontWeight: 800 }}>Исчерпан лимит попыток (3/3)</div>
-                    ) : (
-                      <button className="hero-primary shine-wrap" onClick={startQuiz}>
-                        <span className="shine-line" />
-                        ▶ Начать тест
-                      </button>
-                    )}
-                  </div>
-                ) : quizPhase === 'active' && currentQ ? (
-                  <div>
-                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-                      <div style={{ fontSize: 13, fontWeight: 800, color: '#64748b' }}>
-                        Вопрос {quizIndex + 1} из {questions.length}
-                      </div>
-                      <div className="badge-pill" style={{ fontSize: 13, fontWeight: 900, color: timeLeft < 60 ? '#ef4444' : '#0ea5e9', borderColor: timeLeft < 60 ? 'rgba(239,68,68,0.3)' : undefined, background: timeLeft < 60 ? 'rgba(239,68,68,0.08)' : undefined }}>
-                        ⏱ {formatTime(timeLeft)}
-                      </div>
-                    </div>
-                    <div className="progress-line" style={{ marginBottom: 24 }}>
-                      <div className="progress-fill" style={{ width: `${((quizIndex + 1) / questions.length) * 100}%` }} />
-                    </div>
-
-                    <div style={{ fontSize: 17, fontWeight: 800, lineHeight: 1.7, color: '#0f172a', marginBottom: 24 }}>{currentQ.question}</div>
-
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                      {OPTIONS.map(opt => {
-                        const text = currentQ[opt.key]
-                        const isSelected = selected === opt.label
-                        const isCorrect  = currentQ.correct_answer === opt.label
-                        const bg = showAnswer
-                          ? isCorrect ? 'rgba(34,197,94,0.08)' : isSelected ? 'rgba(239,68,68,0.06)' : '#f8fafc'
-                          : isSelected ? 'rgba(14,165,233,0.08)' : '#f8fafc'
-                        const border = showAnswer
-                          ? isCorrect ? '1.5px solid rgba(34,197,94,0.5)' : isSelected ? '1.5px solid rgba(239,68,68,0.4)' : '1px solid rgba(14,165,233,0.1)'
-                          : isSelected ? '1.5px solid rgba(14,165,233,0.5)' : '1px solid rgba(14,165,233,0.1)'
-                        const color = showAnswer
-                          ? isCorrect ? '#16a34a' : isSelected ? '#ef4444' : '#334155'
-                          : isSelected ? '#0284c7' : '#334155'
-
-                        return (
-                          <button
-                            key={opt.label}
-                            onClick={() => handleSelectOption(opt.label)}
-                            disabled={showAnswer}
-                            style={{
-                              display: 'flex', alignItems: 'center', gap: 14,
-                              padding: '14px 18px', borderRadius: 14, border, background: bg,
-                              color, fontWeight: 700, fontSize: 14,
-                              cursor: showAnswer ? 'default' : 'pointer',
-                              textAlign: 'left', transition: 'all 0.2s',
-                            }}
-                          >
-                            <span style={{ width: 28, height: 28, borderRadius: 8, background: 'rgba(14,165,233,0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900, flexShrink: 0, color: '#0ea5e9' }}>{opt.label}</span>
-                            <span style={{ flex: 1 }}>{text}</span>
-                            {showAnswer && isCorrect && <span style={{ color: '#16a34a' }}>✓</span>}
-                            {showAnswer && isSelected && !isCorrect && <span style={{ color: '#ef4444' }}>✗</span>}
-                          </button>
-                        )
-                      })}
-                    </div>
-
-                    {showAnswer && (
-                      <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        style={{ marginTop: 20, display: 'flex', justifyContent: 'flex-end' }}
-                      >
-                        <button className="btn-primary" onClick={handleNext}>
-                          {quizIndex + 1 >= questions.length ? 'Завершить' : 'Следующий →'}
-                        </button>
-                      </motion.div>
-                    )}
-                  </div>
-                ) : quizPhase === 'done' ? (
-                  <div style={{ textAlign: 'center', padding: '24px 0' }}>
-                    <div style={{ fontSize: 64, marginBottom: 16 }}>{quizScore >= 70 ? '🏆' : '😔'}</div>
-                    <div style={{ fontSize: 26, fontWeight: 900, color: '#0c4a6e', marginBottom: 8 }}>
-                      {quizScore >= 70 ? 'Тест пройден!' : 'Тест не пройден'}
-                    </div>
-                    <div style={{ fontSize: 48, fontWeight: 900, color: quizScore >= 70 ? '#22c55e' : '#ef4444', letterSpacing: '-0.05em', marginBottom: 8 }}>{quizScore}%</div>
-                    <div style={{ fontSize: 14, color: '#64748b', fontWeight: 700, marginBottom: certificateIssued ? 16 : 28 }}>
-                      {quizScore >= 70 ? 'Урок засчитан. Можно перейти к следующему!' : `Проходной балл: 70%. Попыток: ${attempts}/3`}
-                    </div>
-                    {certificateIssued && (
-                      <div style={{
-                        marginBottom: 24, padding: '16px 20px', borderRadius: 16,
-                        background: 'linear-gradient(135deg, rgba(34,197,94,0.1), rgba(255,255,255,0.9))',
-                        border: '1.5px solid rgba(34,197,94,0.35)',
-                        fontSize: 14, fontWeight: 800, color: '#16a34a',
-                      }}>
-                        🏆 Поздравляем! Вы прошли весь курс — сертификат выдан в ваш профиль!
-                      </div>
-                    )}
-                    <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-                      {quizScore < 70 && attempts < 3 && (
-                        <button className="btn-primary" onClick={startQuiz}>Попробовать снова</button>
-                      )}
-                      <button className="btn-secondary" onClick={() => router.push(`/english/dashboard/courses/${courseId}`)}>← Назад к курсу</button>
-                    </div>
-                  </div>
-                ) : null}
-              </div>
+              ) : (
+                <GameQuiz
+                  quizId={quizId}
+                  questions={questions}
+                  lessonId={lessonId}
+                  courseId={courseId}
+                  userId={userId ?? ''}
+                  passThreshold={passThreshold}
+                  onNextLesson={() => router.push(`/english/dashboard/courses/${courseId}`)}
+                />
+              )
             )}
           </motion.div>
         </AnimatePresence>
