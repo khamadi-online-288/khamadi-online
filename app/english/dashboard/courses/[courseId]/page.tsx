@@ -5,6 +5,7 @@ import { useParams, useRouter } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ChevronDown, BookOpen, Headphones, AlignLeft, CheckCircle, Lock, PlayCircle } from 'lucide-react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import ContentProtection from '@/components/english/ContentProtection'
 
 type Course  = { id: string; title: string; level: string; category: string; description: string | null }
 type Module  = { id: string; title: string; order_index: number }
@@ -98,6 +99,7 @@ export default function CoursePage() {
   const pct            = totalCount ? Math.round((completedCount / totalCount) * 100) : 0
 
   return (
+    <ContentProtection>
     <div style={{ display: 'flex', flexDirection: 'column', gap: 24, maxWidth: 800 }}>
 
       {/* Hero */}
@@ -275,5 +277,6 @@ export default function CoursePage() {
       </div>
 
     </div>
+    </ContentProtection>
   )
 }

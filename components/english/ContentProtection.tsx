@@ -72,8 +72,7 @@ export default function ContentProtection({ userName, userId, children, classNam
   return (
     <div className={`protected-content${className ? ` ${className}` : ''}`} style={{ position: 'relative' }}>
       {children}
-      {userName && (
-        <div aria-hidden="true" style={{
+      <div aria-hidden="true" style={{
           position: 'fixed', inset: 0, pointerEvents: 'none', zIndex: 9999,
           overflow: 'hidden',
         }}>
@@ -91,11 +90,10 @@ export default function ContentProtection({ userName, userId, children, classNam
               letterSpacing: '0.5px',
               userSelect: 'none',
             }}>
-              {userName} · {new Date().toLocaleDateString('ru-RU')}
+              KHAMADI ONLINE
             </div>
           ))}
         </div>
-      )}
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { redirect } from 'next/navigation'
 import Link from 'next/link'
 import { createEnglishServerClient } from '@/lib/english/supabase-server'
 import { getESPIcon } from '@/components/english/dashboard/ESPIcons'
+import ContentProtection from '@/components/english/ContentProtection'
 
 const LEVEL_STYLES: Record<string, { bg: string; accent: string }> = {
   A1: { bg: '#1B3A6B',                                          accent: '#1B8FC4' },
@@ -94,6 +95,7 @@ export default async function CoursesPage() {
   const trackEnriched  = trackCourse ? enrich(trackCourse) : null
 
   return (
+    <ContentProtection>
     <div style={{ display: 'flex', flexDirection: 'column', gap: 32 }}>
 
       {/* Header */}
@@ -140,6 +142,7 @@ export default async function CoursesPage() {
       )}
 
     </div>
+    </ContentProtection>
   )
 }
 
