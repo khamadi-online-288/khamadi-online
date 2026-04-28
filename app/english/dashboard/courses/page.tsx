@@ -24,13 +24,14 @@ const LEVEL_STYLES: Record<string, { bg: string; accent: string }> = {
   C2: { bg: 'linear-gradient(135deg, #0D2447 0%, #1B3A6B 100%)', accent: '#C9933B' },
 }
 
-const LEVEL_LABEL: Record<string, string> = {
-  A1: 'BEGINNER',
-  A2: 'ELEMENTARY',
-  B1: 'INTERMEDIATE',
-  B2: 'UPPER-INTERMEDIATE',
-  C1: 'ADVANCED',
-  C2: 'PROFICIENT',
+const LEVEL_SUBLABEL: Record<string, string> = {
+  'A1 Beginner':           'BEGINNER',
+  'A1 Elementary':         'ELEMENTARY',
+  'A2 Pre-Intermediate':   'PRE-INTERMEDIATE',
+  'B1 Intermediate':       'INTERMEDIATE',
+  'B2 Upper-Intermediate': 'UPPER-INTERMEDIATE',
+  'C1 Advanced':           'ADVANCED',
+  'C2 Proficient':         'PROFICIENT',
 }
 
 
@@ -164,7 +165,7 @@ function CourseCard({ course, isMyTrack = false }: { course: CourseWithProgress;
   const cardStyle = isESP
     ? { bg: 'linear-gradient(135deg, #0D2447 0%, #1B3A6B 100%)', accent: '#C9933B' }
     : (LEVEL_STYLES[levelKey] ?? LEVEL_STYLES['B1'])
-  const label    = LEVEL_LABEL[levelKey] ?? ''
+  const label    = LEVEL_SUBLABEL[course.title] ?? levelKey
   const barColor = course.pct >= 70 ? '#10b981' : course.pct >= 30 ? '#C9933B' : '#1B8FC4'
 
   return (
