@@ -165,6 +165,10 @@ type B1ReadingContent = {
 
 type SectionRow = { type: string; content: GrammarContent | ReadingContent | null }
 
+type ListeningOption  = { letter: string; text: string }
+type ListeningQuestion = { id: number; question: string; options: ListeningOption[]; answer: string }
+type ListeningContent  = { audio_url: string; title: string; instructions: string; questions: ListeningQuestion[] }
+
 type QuizQuestion = {
   id: string
   question: string
@@ -310,6 +314,10 @@ export default function LessonPage() {
   // Writing
   const [writingText,  setWritingText]  = useState('')
   const [writingSaved, setWritingSaved] = useState(false)
+
+  const [listenAnswers, setListenAnswers] = useState<Record<number, string>>({})
+  const [listenChecked, setListenChecked] = useState(false)
+  const [listenPlayed,  setListenPlayed]  = useState(false)
 
   // Quiz state
   const [quizPhase,         setQuizPhase]         = useState<'idle' | 'active' | 'done'>('idle')
@@ -1950,32 +1958,145 @@ export default function LessonPage() {
             )}
 
             {/* LISTENING */}
-            {tab === 'listening' && (
-              <div className="glass-card" style={{ padding: 32 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
-                  <span style={{ fontSize: 20 }}>🎧</span>
-                  <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>Listening</h2>
-                </div>
-                {lesson.listening_url ? (
-                  <div style={{ marginBottom: 28 }}>
-                    <div style={{ fontSize: 13, fontWeight: 700, color: '#64748b', marginBottom: 10 }}>Аудио файл:</div>
-                    <SecureAudio storagePath={lesson.listening_url} />
+            {tab === 'listening' && (() => {
+              const listening = sections.find(s => s.type === 'listening')?.content as ListeningContent | undefined
+
+              if (!listening?.audio_url) {
+                return (
+                  <div style={{ padding: 40, textAlign: 'center' as const, color: '#94a3b8', fontSize: 14, fontWeight: 600 }}>
+                    🎧 Listening материал для этого урока скоро появится
                   </div>
-                ) : (
-                  <div style={{ background: '#f8fafc', border: '1.5px dashed rgba(14,165,233,0.2)', borderRadius: 16, padding: '24px', marginBottom: 24, textAlign: 'center', color: '#94a3b8', fontSize: 14, fontWeight: 700 }}>
-                    🎙️ Аудиофайл не загружен
-                  </div>
-                )}
-                {lesson.listening_transcript && (
+                )
+              }
+
+              const totalQ        = listening.questions.length
+              const correctCount  = listenChecked
+                ? listening.questions.filter(q => listenAnswers[q.id] === q.answer).length
+                : 0
+
+              return (
+                <div style={{ maxWidth: 720, margin: '0 auto', padding: '32px 24px', display: 'flex', flexDirection: 'column', gap: 32 }}>
+
+                  {/* Title */}
                   <div>
-                    <div style={{ fontSize: 14, fontWeight: 800, color: '#0ea5e9', marginBottom: 12 }}>📄 Транскрипция диалога:</div>
-                    <div style={{ background: 'rgba(14,165,233,0.04)', border: '1px solid rgba(14,165,233,0.12)', borderRadius: 16, padding: '20px', fontSize: 14, lineHeight: 1.9, color: '#334155', whiteSpace: 'pre-wrap', fontWeight: 600 }}>
-                      {lesson.listening_transcript}
-                    </div>
+                    <h2 style={{ fontSize: 22, fontWeight: 900, color: '#1B3A6B', marginBottom: 8, margin: '0 0 8px' }}>{listening.title}</h2>
+                    <p style={{ fontSize: 14, color: '#64748b', lineHeight: 1.6, margin: 0 }}>{listening.instructions}</p>
                   </div>
-                )}
-              </div>
-            )}
+
+                  {/* Audio player */}
+                  <div style={{ background: '#1B3A6B', borderRadius: 20, padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 16 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                      <div style={{ width: 44, height: 44, borderRadius: 12, background: '#C9933B', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, fontSize: 20 }}>
+                        🎧
+                      </div>
+                      <div>
+                        <div style={{ fontSize: 14, fontWeight: 700, color: '#fff' }}>{listening.title}</div>
+                        <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)' }}>Listening exercise</div>
+                      </div>
+                    </div>
+                    <audio
+                      controls
+                      src={listening.audio_url}
+                      onPlay={() => setListenPlayed(true)}
+                      style={{ width: '100%', borderRadius: 8 }}
+                      controlsList="nodownload"
+                    />
+                    {!listenPlayed && (
+                      <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)', textAlign: 'center' as const }}>
+                        ▶ Прослушайте аудио перед ответом на вопросы
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Answer options legend */}
+                  {totalQ > 0 && (
+                    <div style={{ background: '#f8fafc', borderRadius: 16, padding: '20px 24px', border: '1px solid rgba(27,58,107,0.08)' }}>
+                      <div style={{ fontSize: 13, fontWeight: 700, color: '#1B3A6B', marginBottom: 12, textTransform: 'uppercase' as const, letterSpacing: '0.05em' }}>
+                        Варианты ответов:
+                      </div>
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                        {listening.questions[0]?.options.map(opt => (
+                          <div key={opt.letter} style={{ fontSize: 14, color: '#475569' }}>
+                            <span style={{ fontWeight: 700, color: '#1B3A6B', marginRight: 8 }}>{opt.letter})</span>
+                            {opt.text}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Questions */}
+                  {totalQ > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                      <div style={{ fontSize: 15, fontWeight: 800, color: '#1B3A6B' }}>Сопоставьте вопросы с ответами:</div>
+                      {listening.questions.map((q, idx) => {
+                        const sel      = listenAnswers[q.id]
+                        const isCorrect = listenChecked && sel === q.answer
+                        const isWrong   = listenChecked && !!sel && sel !== q.answer
+                        const isEmpty   = listenChecked && !sel
+                        return (
+                          <div key={q.id} style={{ background: '#fff', borderRadius: 14, padding: '16px 20px', border: `1.5px solid ${isCorrect ? '#10b981' : isWrong ? '#ef4444' : isEmpty ? '#f59e0b' : 'rgba(27,58,107,0.1)'}`, display: 'flex', alignItems: 'center', gap: 16 }}>
+                            <div style={{ width: 32, height: 32, borderRadius: 8, background: '#1B3A6B', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, fontWeight: 900, color: '#fff', flexShrink: 0 }}>
+                              {idx + 1}
+                            </div>
+                            <div style={{ flex: 1, fontSize: 14, fontWeight: 600, color: '#1e293b' }}>{q.question}</div>
+                            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' as const, justifyContent: 'flex-end' }}>
+                              {q.options.map(opt => (
+                                <button
+                                  key={opt.letter}
+                                  disabled={listenChecked}
+                                  onClick={() => setListenAnswers(prev => ({ ...prev, [q.id]: opt.letter }))}
+                                  style={{
+                                    width: 36, height: 36, borderRadius: 8, fontWeight: 800, fontSize: 13,
+                                    cursor: listenChecked ? 'default' : 'pointer',
+                                    transition: 'all 0.15s', fontFamily: 'Montserrat',
+                                    border: `1.5px solid ${
+                                      sel === opt.letter
+                                        ? (listenChecked ? (opt.letter === q.answer ? '#10b981' : '#ef4444') : '#1B8FC4')
+                                        : (listenChecked && opt.letter === q.answer ? '#10b981' : 'rgba(27,58,107,0.15)')
+                                    }`,
+                                    background: sel === opt.letter
+                                      ? (listenChecked ? (opt.letter === q.answer ? '#10b981' : '#ef4444') : '#1B8FC4')
+                                      : (listenChecked && opt.letter === q.answer ? '#dcfce7' : '#fff'),
+                                    color: sel === opt.letter ? '#fff' : (listenChecked && opt.letter === q.answer ? '#166534' : '#1B3A6B'),
+                                  }}
+                                >
+                                  {opt.letter.toUpperCase()}
+                                </button>
+                              ))}
+                            </div>
+                            {listenChecked && <div style={{ fontSize: 18, flexShrink: 0 }}>{isCorrect ? '✅' : '❌'}</div>}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
+
+                  {/* Check / Result */}
+                  {totalQ > 0 && (!listenChecked ? (
+                    <button
+                      onClick={() => setListenChecked(true)}
+                      disabled={Object.keys(listenAnswers).length < totalQ}
+                      style={{ padding: '14px 32px', borderRadius: 12, border: 'none', alignSelf: 'center', fontWeight: 700, fontSize: 15, fontFamily: 'Montserrat', transition: 'all 0.2s', cursor: Object.keys(listenAnswers).length < totalQ ? 'default' : 'pointer', background: Object.keys(listenAnswers).length < totalQ ? '#e2e8f0' : '#1B3A6B', color: Object.keys(listenAnswers).length < totalQ ? '#94a3b8' : '#fff' }}
+                    >
+                      Проверить ответы ({Object.keys(listenAnswers).length}/{totalQ})
+                    </button>
+                  ) : (
+                    <div style={{ background: correctCount === totalQ ? '#dcfce7' : correctCount >= totalQ * 0.6 ? '#fef3c7' : '#fee2e2', borderRadius: 16, padding: '20px 24px', textAlign: 'center' as const }}>
+                      <div style={{ fontSize: 28, marginBottom: 8 }}>{correctCount === totalQ ? '🎉' : correctCount >= totalQ * 0.6 ? '👍' : '📚'}</div>
+                      <div style={{ fontSize: 18, fontWeight: 900, color: '#1B3A6B', marginBottom: 4 }}>{correctCount} из {totalQ} правильно</div>
+                      <div style={{ fontSize: 13, color: '#64748b', marginBottom: 16 }}>
+                        {correctCount === totalQ ? 'Отлично! Все ответы верны!' : correctCount >= totalQ * 0.6 ? 'Хороший результат! Прослушайте ещё раз для закрепления.' : 'Прослушайте аудио ещё раз и попробуйте снова.'}
+                      </div>
+                      <button onClick={() => { setListenAnswers({}); setListenChecked(false) }} style={{ padding: '10px 24px', background: '#1B3A6B', color: '#fff', border: 'none', borderRadius: 10, fontWeight: 700, cursor: 'pointer', fontFamily: 'Montserrat' }}>
+                        Попробовать снова
+                      </button>
+                    </div>
+                  ))}
+
+                </div>
+              )
+            })()}
 
             {/* VOCABULARY */}
             {tab === 'vocabulary' && (() => {
