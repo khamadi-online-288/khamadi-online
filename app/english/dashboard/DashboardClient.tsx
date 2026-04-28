@@ -363,11 +363,13 @@ export default function DashboardClient() {
   const generalCourses = useMemo(() => courses.filter(c => c.category === 'General English'), [courses])
   const trackCourse = useMemo(() => {
     const p = profile?.purpose
-    if (!p) return null
-    // Match directly: english_courses.title ilike purpose
-    return courses.find(c => c.title.toLowerCase() === p.toLowerCase())
-      ?? courses.find(c => c.category === 'English for Special Purposes' && c.title.toLowerCase().includes(p.toLowerCase()))
-      ?? null
+    if (!p || p === 'general') return null
+    const espTitle = PURPOSE_TITLE[p]
+    if (!espTitle) return null
+    return courses.find(c =>
+      c.category === 'English for Special Purposes' &&
+      c.title.toLowerCase().includes(espTitle.toLowerCase())
+    ) ?? null
   }, [profile?.purpose, courses])
 
   const overallProgress = useMemo(() => {

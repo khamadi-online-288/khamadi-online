@@ -4,6 +4,17 @@ import { createEnglishServerClient } from '@/lib/english/supabase-server'
 import { getESPIcon } from '@/components/english/dashboard/ESPIcons'
 import ContentProtection from '@/components/english/ContentProtection'
 
+const ESP_TITLE_MAP: Record<string, string> = {
+  computer_science: 'Computer Science',
+  accounting:       'Accounting',
+  hospitality:      'Hospitality',
+  management:       'Management',
+  finance:          'Finance Industry',
+  finance_industry: 'Finance Industry',
+  social_sciences:  'Social Sciences',
+  law:              'Law',
+}
+
 const LEVEL_STYLES: Record<string, { bg: string; accent: string }> = {
   A1: { bg: '#1B3A6B',                                          accent: '#1B8FC4' },
   A2: { bg: 'linear-gradient(135deg, #1B3A6B 0%, #1e4a8a 100%)', accent: '#1B8FC4' },
@@ -56,12 +67,13 @@ export default async function CoursesPage() {
       .eq('category', 'General English')
       .order('level'),
 
-    purpose
+    purpose && purpose !== 'general' && ESP_TITLE_MAP[purpose]
       ? supabase
           .from('english_courses')
           .select('id, title, level, category, description')
           .eq('is_active', true)
-          .ilike('title', purpose)   // case-insensitive match against purpose value
+          .eq('category', 'English for Special Purposes')
+          .ilike('title', `%${ESP_TITLE_MAP[purpose]}%`)
           .maybeSingle()
       : Promise.resolve({ data: null }),
 
