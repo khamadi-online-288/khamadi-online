@@ -165,7 +165,7 @@ type B1ReadingContent = {
 
 type SectionRow = { type: string; content: GrammarContent | ReadingContent | null }
 
-type ListeningType     = 'match' | 'true_false' | 'speaker_match' | 'fill_blank' | 'ordering'
+type ListeningType     = 'match' | 'true_false' | 'speaker_match' | 'fill_blank' | 'ordering' | 'multiple_choice'
 type ListeningOption   = { letter: string; text: string }
 type ListeningQuestion = { id: number; question: string; options?: ListeningOption[]; answer: string | number; prefix?: string; suffix?: string }
 type ListeningContent  = { audio_url: string; title: string; type: ListeningType; instructions: string; questions: ListeningQuestion[]; options?: string[] }
@@ -2239,6 +2239,59 @@ export default function LessonPage() {
                               }}
                             />
                             {listenChecked && <div style={{ fontSize: 18 }}>{isCorrect ? '✅' : `❌ (${q.answer})`}</div>}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
+
+                  {/* ── MULTIPLE CHOICE ── */}
+                  {listenType === 'multiple_choice' && totalQ > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+                      {listening.questions.map((q, idx) => {
+                        const sel = listenAnswers[q.id]
+                        const isCorrect = listenChecked && sel?.toLowerCase() === String(q.answer).toLowerCase()
+                        const isWrong   = listenChecked && !!sel && !isCorrect
+                        return (
+                          <div key={q.id} style={{ background: '#fff', borderRadius: 16, padding: '20px 24px', border: `1.5px solid ${isCorrect ? '#10b981' : isWrong ? '#ef4444' : 'rgba(27,58,107,0.1)'}` }}>
+                            <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
+                              <div style={{ width: 28, height: 28, borderRadius: 8, background: '#1B3A6B', flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900, color: '#fff' }}>
+                                {idx + 1}
+                              </div>
+                              <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b', lineHeight: 1.5 }}>{q.question}</div>
+                            </div>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                              {(q.options ?? []).map(opt => {
+                                const isSelected     = sel === opt.letter
+                                const isRight        = listenChecked && opt.letter.toLowerCase() === String(q.answer).toLowerCase()
+                                const isSelectedWrong = listenChecked && isSelected && !isRight
+                                return (
+                                  <button
+                                    key={opt.letter}
+                                    disabled={listenChecked}
+                                    onClick={() => setListenAnswers(prev => ({ ...prev, [q.id]: opt.letter }))}
+                                    style={{
+                                      display: 'flex', alignItems: 'center', gap: 12,
+                                      padding: '10px 14px', borderRadius: 10, border: '1.5px solid',
+                                      cursor: listenChecked ? 'default' : 'pointer',
+                                      fontFamily: 'Montserrat', textAlign: 'left' as const,
+                                      transition: 'all 0.15s',
+                                      borderColor: isRight ? '#10b981' : isSelectedWrong ? '#ef4444' : isSelected ? '#1B8FC4' : 'rgba(27,58,107,0.12)',
+                                      background:  isRight ? '#dcfce7' : isSelectedWrong ? '#fee2e2' : isSelected ? 'rgba(27,143,196,0.08)' : '#f8fafc',
+                                    }}
+                                  >
+                                    <div style={{ width: 28, height: 28, borderRadius: 6, flexShrink: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 900, fontSize: 13, background: isRight ? '#10b981' : isSelectedWrong ? '#ef4444' : isSelected ? '#1B8FC4' : 'rgba(27,58,107,0.08)', color: (isRight || isSelectedWrong || isSelected) ? '#fff' : '#1B3A6B' }}>
+                                      {opt.letter.toUpperCase()}
+                                    </div>
+                                    <div style={{ fontSize: 13, fontWeight: 500, flex: 1, color: isRight ? '#166534' : isSelectedWrong ? '#991b1b' : '#1e293b' }}>
+                                      {opt.text}
+                                    </div>
+                                    {listenChecked && isRight        && <div style={{ fontSize: 16 }}>✅</div>}
+                                    {listenChecked && isSelectedWrong && <div style={{ fontSize: 16 }}>❌</div>}
+                                  </button>
+                                )
+                              })}
+                            </div>
                           </div>
                         )
                       })}
