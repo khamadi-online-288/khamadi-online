@@ -75,7 +75,7 @@ export default async function CoursesPage() {
           .eq('is_active', true)
           .eq('category', 'English for Special Purposes')
           .ilike('title', `%${ESP_TITLE_MAP[purpose]}%`)
-          .maybeSingle()
+          .limit(1)
       : Promise.resolve({ data: null }),
 
     supabase
@@ -89,7 +89,7 @@ export default async function CoursesPage() {
   ])
 
   const allCourses   = (coursesRes.data ?? []) as CourseRow[]
-  const trackCourse  = (espRes.data ?? null) as CourseRow | null
+  const trackCourse  = ((espRes.data as CourseRow[] | null)?.[0] ?? null) as CourseRow | null
   const allLessons   = (lessonsRes.data ?? []) as { id: string; course_id: string }[]
   const completedIds = new Set(
     ((progressRes.data ?? []) as { lesson_id: string; completed: boolean }[])
