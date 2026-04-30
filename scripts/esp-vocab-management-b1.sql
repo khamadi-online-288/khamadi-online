@@ -3,7 +3,7 @@
 -- 4 modules × 6 lessons × 20 words
 -- ================================================================
 DO $mgmt_b1$ DECLARE
-  c UUID := '41f65a3f-2d1e-4281-a249-7d7b5f255352';
+  c UUID := '41f65a3f-2d1e-4201-a249-7d7b5f255352';
   m1 UUID; m2 UUID; m3 UUID; m4 UUID;
 BEGIN
   INSERT INTO english_modules(course_id,title,order_index,is_active) VALUES (c,'Management Fundamentals',1,true) RETURNING id INTO m1;
