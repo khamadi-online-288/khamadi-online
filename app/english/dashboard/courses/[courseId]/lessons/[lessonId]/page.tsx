@@ -274,6 +274,7 @@ export default function LessonPage() {
   const [userId,    setUserId]    = useState<string | null>(null)
   const [userName,  setUserName]  = useState<string | undefined>(undefined)
   const [tab,       setTab]       = useState<Tab>('grammar')
+  const [isESP,     setIsESP]     = useState(false)
   const [sessionId, setSessionId] = useState<string | null>(null)
   const sessionStartRef = useRef<number>(Date.now())
 
@@ -337,12 +338,17 @@ export default function LessonPage() {
         if (r.data) setSessionId(r.data.id)
       })
 
-      const [lessonRes, sectionsRes, questionsRes, progRes] = await Promise.all([
+      const [lessonRes, sectionsRes, questionsRes, progRes, courseRes] = await Promise.all([
         supabase.from('english_lessons').select('*').eq('id', lessonId).single(),
         supabase.from('english_lesson_sections').select('type, content').eq('lesson_id', lessonId).order('order_index'),
         supabase.from('english_quizzes').select('id,pass_threshold,questions').eq('lesson_id', lessonId).maybeSingle(),
         supabase.from('english_progress').select('attempts').eq('user_id', user.id).eq('lesson_id', lessonId).maybeSingle(),
+        supabase.from('english_courses').select('category').eq('id', courseId).single(),
       ])
+      if ((courseRes.data as { category: string } | null)?.category === 'English for Special Purposes') {
+        setIsESP(true)
+        setTab('vocabulary')
+      }
       setSections((sectionsRes.data ?? []) as SectionRow[])
 
       if (lessonRes.data) {
@@ -417,7 +423,7 @@ export default function LessonPage() {
 
         {/* TABS */}
         <div style={{ display: 'flex', gap: 6, marginBottom: 24, overflowX: 'auto', paddingBottom: 4 }}>
-          {TABS.map(t => (
+          {(isESP ? TABS.filter(t => t.key === 'vocabulary') : TABS).map(t => (
             <button
               key={t.key}
               onClick={() => setTab(t.key)}
