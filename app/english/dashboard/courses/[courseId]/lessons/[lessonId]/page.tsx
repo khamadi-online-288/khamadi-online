@@ -7,6 +7,7 @@ import { createEnglishClient } from '@/lib/english/supabase-client'
 import ContentProtection from '@/components/english/ContentProtection'
 import { SecureAudio } from '@/components/english/lms/shared/SecureMedia'
 import GameQuiz, { type GameQuizQuestion } from '@/components/english/quiz/GameQuiz'
+import VocabFlashcards from './VocabFlashcards'
 
 type Lesson = {
   id: string
@@ -2231,18 +2232,18 @@ export default function LessonPage() {
               if (!vc?.words?.length && lesson.vocabulary?.length) {
                 return (
                   <div className="glass-card" style={{ padding: 32 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
-                      <span style={{ fontSize: 20 }}>📝</span>
-                      <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>Vocabulary</h2>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 28, flexWrap: 'wrap', gap: 10 }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                        <span style={{ fontSize: 20 }}>📝</span>
+                        <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>Vocabulary</h2>
+                      </div>
+                      <div style={{ display: 'flex', gap: 8 }}>
+                        <span style={{ fontSize: 12, fontWeight: 800, color: '#1B8FC4', background: 'rgba(27,143,196,0.10)', padding: '4px 14px', borderRadius: 99 }}>
+                          {lesson.vocabulary!.length} слов
+                        </span>
+                      </div>
                     </div>
-                    <div style={{ display: 'grid', gap: 10 }}>
-                      {lesson.vocabulary!.map((item, i) => (
-                        <div key={i} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, padding: '14px 18px', borderRadius: 14, background: i % 2 === 0 ? 'rgba(14,165,233,0.04)' : '#f8fafc', border: '1px solid rgba(14,165,233,0.1)' }}>
-                          <div style={{ fontSize: 15, fontWeight: 800, color: '#0284c7' }}>{item.en}</div>
-                          <div style={{ fontSize: 14, fontWeight: 700, color: '#64748b' }}>{item.ru}</div>
-                        </div>
-                      ))}
-                    </div>
+                    <VocabFlashcards items={lesson.vocabulary!} />
                   </div>
                 )
               }

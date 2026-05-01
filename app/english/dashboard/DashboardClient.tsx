@@ -366,10 +366,12 @@ export default function DashboardClient() {
     if (!p || p === 'general') return null
     const espTitle = PURPOSE_TITLE[p]
     if (!espTitle) return null
-    return courses.find(c =>
-      c.category === 'English for Special Purposes' &&
-      c.title.toLowerCase().includes(espTitle.toLowerCase())
-    ) ?? null
+    return courses
+      .filter(c =>
+        c.category === 'English for Special Purposes' &&
+        c.title.toLowerCase().includes(espTitle.toLowerCase())
+      )
+      .sort((a, b) => b.level.localeCompare(a.level))[0] ?? null
   }, [profile?.purpose, courses])
 
   const overallProgress = useMemo(() => {

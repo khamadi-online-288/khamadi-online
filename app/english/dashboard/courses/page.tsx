@@ -75,6 +75,7 @@ export default async function CoursesPage() {
           .eq('is_active', true)
           .eq('category', 'English for Special Purposes')
           .ilike('title', `%${ESP_TITLE_MAP[purpose]}%`)
+          .order('level', { ascending: false })
           .limit(1)
       : Promise.resolve({ data: null }),
 
