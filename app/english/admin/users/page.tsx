@@ -96,20 +96,24 @@ export default function AdminUsersPage() {
   async function approveUser() {
     if (!approveTarget) return
     setSaving(true)
-    await supabase.from('english_user_roles').update({
+    const { error: updateErr } = await supabase.from('english_user_roles').update({
       status:        'approved',
       role:          approveForm.role,
       current_level: approveForm.level || null,
       approved_at:   new Date().toISOString(),
     }).eq('user_id', approveTarget.id)
+    if (updateErr) {
+      alert(`Ошибка одобрения: ${updateErr.message}\n\nВозможно, не запущена миграция БД. Выполните migrate-users.sql в Supabase SQL Editor.`)
+      setSaving(false)
+      return
+    }
     if (approveForm.groupId) {
       await supabase.from('lms_group_students').insert({ group_id: approveForm.groupId, student_id: approveTarget.id })
     }
     await supabase.from('english_notifications').insert({
       user_id: approveTarget.id,
       title:   'Добро пожаловать на KHAMADI ENGLISH!',
-      body:    'Ваша заявка одобрена. Можете войти и начать обучение.',
-      type:    'system',
+      message: 'Ваша заявка одобрена. Можете войти и начать обучение.',
     })
     // Move user from pending to approved in local state
     setUsers(u => u.map(x => x.id === approveTarget.id
@@ -126,15 +130,19 @@ export default function AdminUsersPage() {
   async function rejectUser() {
     if (!rejectTarget) return
     setSaving(true)
-    await supabase.from('english_user_roles').update({
+    const { error: updateErr } = await supabase.from('english_user_roles').update({
       status:           'rejected',
       rejection_reason: rejectReason || null,
     }).eq('user_id', rejectTarget.id)
+    if (updateErr) {
+      alert(`Ошибка отклонения: ${updateErr.message}\n\nВозможно, не запущена миграция БД. Выполните migrate-users.sql в Supabase SQL Editor.`)
+      setSaving(false)
+      return
+    }
     await supabase.from('english_notifications').insert({
       user_id: rejectTarget.id,
       title:   'Заявка отклонена',
-      body:    rejectReason || 'Ваша заявка была отклонена администратором.',
-      type:    'system',
+      message: rejectReason || 'Ваша заявка была отклонена администратором.',
     })
     // Remove rejected user from the list entirely
     setUsers(u => u.filter(x => x.id !== rejectTarget.id))

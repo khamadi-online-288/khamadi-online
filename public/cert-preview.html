@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { width: 794px; height: 562px; overflow: hidden; background: #fff; }
+  .cert {
+    width: 794px; height: 562px;
+    background: #FFFEF9;
+    border: 2px solid #1B3A6B;
+    position: relative;
+    font-family: 'Montserrat', DejaVu Sans, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Inner border */
+  .cert::after {
+    content: '';
+    position: absolute; inset: 9px;
+    border: 1px solid rgba(201,147,59,0.4);
+    pointer-events: none;
+  }
+  .corner {
+    position: absolute; width: 30px; height: 30px;
+    pointer-events: none;
+  }
+  .corner-tl { top:16px; left:16px; border-top:1.5px solid #1B3A6B; border-left:1.5px solid #1B3A6B; }
+  .corner-tr { top:16px; right:16px; border-top:1.5px solid #1B3A6B; border-right:1.5px solid #1B3A6B; }
+  .corner-bl { bottom:16px; left:16px; border-bottom:1.5px solid #1B3A6B; border-left:1.5px solid #1B3A6B; }
+  .corner-br { bottom:16px; right:16px; border-bottom:1.5px solid #1B3A6B; border-right:1.5px solid #1B3A6B; }
+  .dot {
+    position: absolute; width: 6px; height: 6px;
+    background: #C9933B; border-radius: 50%;
+  }
+  .dot-tl { top:13px; left:13px; }
+  .dot-tr { top:13px; right:13px; }
+  .dot-bl { bottom:13px; left:13px; }
+  .dot-br { bottom:13px; right:13px; }
+</style>
+</head>
+<body>
+<div class="cert">
+  <!-- Corner ornaments -->
+  <div class="corner corner-tl"></div>
+  <div class="corner corner-tr"></div>
+  <div class="corner corner-bl"></div>
+  <div class="corner corner-br"></div>
+  <div class="dot dot-tl"></div>
+  <div class="dot dot-tr"></div>
+  <div class="dot dot-bl"></div>
+  <div class="dot dot-br"></div>
+
+  <!-- QR placeholder (bottom-right) -->
+  <div style="position:absolute;right:20px;bottom:20px;width:70px;height:70px;z-index:2;">
+    <img src="data:image/png;base64,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" width="70" height="70" style="display:block;">
+    <div style="font-size:6.5px;color:#94a3b8;text-align:center;margin-top:3px;font-family:Montserrat,sans-serif;">Сканируй для верификации</div>
+  </div>
+
+  <!-- Header -->
+  <div style="text-align:center;padding-top:22px;position:relative;z-index:2;">
+    <div style="font-size:19px;font-weight:900;color:#1B3A6B;letter-spacing:0.22em;text-transform:uppercase;">KHAMADI ENGLISH</div>
+    <div style="font-size:10px;font-style:italic;color:#C9933B;letter-spacing:0.08em;margin-top:3px;">by KHAMADI ONLINE</div>
+  </div>
+
+  <!-- Ornamental divider -->
+  <div style="display:flex;align-items:center;margin:8px 76px 0;gap:8px;position:relative;z-index:2;">
+    <div style="flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(201,147,59,0.55));"></div>
+    <div style="font-size:9px;color:#C9933B;line-height:1;">◆</div>
+    <div style="flex:1;height:1px;background:linear-gradient(90deg,rgba(201,147,59,0.55),transparent);"></div>
+  </div>
+
+  <!-- Main content -->
+  <div style="flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;z-index:2;padding-bottom:8px;">
+    <!-- Title -->
+    <div style="text-align:center;margin-bottom:14px;">
+      <div style="font-size:40px;font-weight:900;color:#1B3A6B;letter-spacing:0.14em;line-height:1;">СЕРТИФИКАТ</div>
+      <div style="width:56px;height:2.5px;background:#C9933B;margin:7px auto 5px;"></div>
+      <div style="font-size:11px;color:#64748b;letter-spacing:0.1em;">о прохождении курса</div>
+    </div>
+    <!-- Recipient -->
+    <div style="text-align:center;">
+      <div style="font-size:12px;font-style:italic;color:#94a3b8;font-family:Georgia,serif;margin-bottom:6px;">настоящим подтверждается, что</div>
+      <div style="font-size:33px;font-weight:900;color:#C9933B;line-height:1.15;letter-spacing:0.03em;">Адилет Хаметов</div>
+      <div style="width:240px;height:1px;background:rgba(201,147,59,0.35);margin:5px auto 7px;"></div>
+      <div style="font-size:12px;font-style:italic;color:#64748b;margin-bottom:6px;">успешно завершил(а) курс</div>
+      <div style="font-size:20px;font-weight:800;color:#1B3A6B;margin-bottom:4px;">Computer Science B1-C1</div>
+      <div style="font-size:12px;color:#1B8FC4;font-weight:700;">Уровень: B1-C1 · Итоговый балл: 95/100</div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;padding:0 36px 18px;padding-right:116px;position:relative;z-index:2;">
+    <!-- Sig 1 -->
+    <div style="text-align:center;">
+      <div style="width:96px;height:1px;background:#1B3A6B;margin:0 auto 4px;"></div>
+      <div style="font-size:9.5px;font-weight:700;color:#475569;letter-spacing:0.04em;">Директор программы</div>
+    </div>
+    <!-- Stamp -->
+    <div style="text-align:center;">
+      <div style="width:58px;height:58px;border-radius:50%;border:1.5px dashed #1B3A6B;display:flex;flex-direction:column;align-items:center;justify-content:center;margin:0 auto 4px;position:relative;">
+        <div style="position:absolute;width:46px;height:46px;border-radius:50%;border:0.8px solid rgba(201,147,59,0.55);"></div>
+        <div style="font-size:13px;color:#C9933B;line-height:1;position:relative;z-index:1;">★</div>
+        <div style="font-size:5.5px;font-weight:800;color:#1B3A6B;letter-spacing:0.1em;line-height:1.3;position:relative;z-index:1;margin-top:1px;">KHAMADI</div>
+        <div style="font-size:4.5px;font-weight:700;color:#C9933B;letter-spacing:0.08em;line-height:1.3;position:relative;z-index:1;">ENGLISH</div>
+      </div>
+      <div style="font-size:8.5px;color:#94a3b8;">№ KHEN-2026-TEST-001</div>
+      <div style="font-size:9.5px;font-weight:700;color:#475569;margin-top:1px;">1 мая 2026 г.</div>
+    </div>
+    <!-- Sig 2 -->
+    <div style="text-align:center;">
+      <div style="width:96px;height:1px;background:#1B3A6B;margin:0 auto 4px;"></div>
+      <div style="font-size:9.5px;font-weight:700;color:#475569;letter-spacing:0.04em;">Академический директор</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

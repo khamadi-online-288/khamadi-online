@@ -6,8 +6,7 @@ import type { UserRole, CefrLevel } from '@/types/english/database'
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
   const supabase = await createEnglishServerClient()
 
-  const { data: { session } } = await supabase.auth.getSession()
-      const user = session?.user
+  const { data: { user } } = await supabase.auth.getUser()
   if (!user) redirect('/english/login')
 
   const { data: profile } = await supabase

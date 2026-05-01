@@ -40,7 +40,7 @@ export default function EnglishLoginPage() {
 
       const { data: roleData } = await supabase
         .from('english_user_roles')
-        .select('role')
+        .select('role, status')
         .eq('user_id', userId)
         .maybeSingle()
 
@@ -50,9 +50,22 @@ export default function EnglishLoginPage() {
         return
       }
 
-      const role = (roleData as { role: string }).role
+      const role   = (roleData as { role: string; status: string | null }).role
+      const status = (roleData as { role: string; status: string | null }).status
 
-      // Redirect by role — layout will handle pending/rejected check
+      // Block pending/rejected before reaching any dashboard
+      if (status === 'pending') {
+        await supabase.auth.signOut()
+        window.location.href = '/english/pending'
+        return
+      }
+      if (status === 'rejected') {
+        await supabase.auth.signOut()
+        window.location.href = '/english/rejected'
+        return
+      }
+
+      // Redirect by role
       const dest = role === 'admin'   ? '/english/admin'
         : role === 'teacher'  ? '/english/teacher'
         : role === 'support'  ? '/english/support-agent'

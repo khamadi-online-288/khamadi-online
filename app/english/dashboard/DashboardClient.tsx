@@ -640,6 +640,7 @@ export default function DashboardClient() {
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
               {[
                 { href: '/english/dashboard/courses',      label: 'Курсы',     icon: '📚' },
+                { href: '/english/dashboard/textbooks',    label: 'Учебники',  icon: '📖' },
                 { href: '/english/dashboard/certificates', label: 'Дипломы',   icon: '🏆' },
                 { href: '/english/dashboard/profile',      label: 'Профиль',   icon: '⚙️' },
                 { href: '/english/dashboard/support',      label: 'Поддержка', icon: '🛟' },
