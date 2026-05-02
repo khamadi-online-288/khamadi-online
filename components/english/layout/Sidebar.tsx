@@ -16,6 +16,7 @@ const STUDENT_NAV: NavItem[] = [
   { href: '/english/dashboard/mock-exam',                           label: 'Mock Exam',      icon: '◧' },
   { href: '/english/dashboard/vocabulary',                          label: 'Мой словарь',    icon: '≡' },
   { href: '/english/dashboard/writing',                             label: 'Writing Coach',  icon: '✎' },
+  { href: '/english/dashboard/textbooks',                            label: 'Учебники',       icon: '📖' },
   { href: '/english/dashboard/certificates',                        label: 'Сертификаты',    icon: '★' },
   { href: '/english/dashboard/notifications',                       label: 'Уведомления',    icon: '◎' },
   { href: '/english/dashboard/profile',                             label: 'Профиль',        icon: '○' },
