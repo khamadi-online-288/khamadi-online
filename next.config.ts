@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
 const config: NextConfig = {
   ...nextConfig,
   typescript: { ignoreBuildErrors: true },
+  serverExternalPackages: ['pdfkit', 'fontkit', '@pdf-lib/fontkit'],
 }
 
 export default config;
