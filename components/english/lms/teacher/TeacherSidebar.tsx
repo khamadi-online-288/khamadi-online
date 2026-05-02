@@ -1,7 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import { LayoutDashboard, Users, BookOpen, ClipboardList, Calendar, MessageSquare, Megaphone, GraduationCap, LogOut } from 'lucide-react'
+import { LayoutDashboard, Users, ClipboardList, Calendar, MessageSquare, Megaphone, GraduationCap, LogOut, FileText } from 'lucide-react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 
 const NAV = [
@@ -12,6 +12,7 @@ const NAV = [
   { href: '/english/teacher/schedule',     icon: Calendar,        label: 'Расписание' },
   { href: '/english/teacher/messages',     icon: MessageSquare,   label: 'Сообщения' },
   { href: '/english/teacher/announcements',icon: Megaphone,       label: 'Объявления' },
+  { href: '/english/teacher/syllabus',     icon: FileText,        label: 'Силлабус' },
 ]
 
 export default function TeacherSidebar() {
