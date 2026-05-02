@@ -344,10 +344,14 @@ export default function LessonPage() {
         supabase.from('english_lesson_sections').select('type, content').eq('lesson_id', lessonId).order('order_index'),
         supabase.from('english_quizzes').select('id,pass_threshold,questions').eq('lesson_id', lessonId).maybeSingle(),
         supabase.from('english_progress').select('attempts').eq('user_id', user.id).eq('lesson_id', lessonId).maybeSingle(),
-        supabase.from('english_courses').select('category').eq('id', courseId).single(),
+        supabase.from('english_courses').select('category, level').eq('id', courseId).single(),
       ])
-      if ((courseRes.data as { category: string } | null)?.category === 'English for Special Purposes') {
+      const courseData = courseRes.data as { category: string; level: string | null } | null
+      const isESPCourse   = courseData?.category === 'English for Special Purposes'
+      const isB1orC1Level = /B1|C1/.test(courseData?.level ?? '')
+      if (isESPCourse || isB1orC1Level) {
         setIsESP(true)
+        setTab('vocabulary')
       }
       setSections((sectionsRes.data ?? []) as SectionRow[])
 
@@ -423,7 +427,7 @@ export default function LessonPage() {
 
         {/* TABS */}
         <div style={{ display: 'flex', gap: 6, marginBottom: 24, overflowX: 'auto', paddingBottom: 4 }}>
-          {TABS.map(t => (
+          {(isESP ? TABS.filter(t => t.key === 'vocabulary') : TABS).map(t => (
             <button
               key={t.key}
               onClick={() => setTab(t.key)}
