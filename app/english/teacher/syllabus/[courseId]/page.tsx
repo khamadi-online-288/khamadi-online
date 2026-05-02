@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { redirect, notFound } from 'next/navigation'
 import Link from 'next/link'
 import { createEnglishServerClient } from '@/lib/english/supabase-server'
@@ -259,7 +260,7 @@ export default async function SyllabusPage({ params }: { params: { courseId: str
   )
 }
 
-function Card({ title, icon, children }: { title: string; icon?: React.ReactNode; children: React.ReactNode }) {
+function Card({ title, icon, children }: { title: string; icon?: ReactNode; children: ReactNode }) {
   return (
     <div style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.11)', borderRadius: 20, padding: '24px 28px', marginBottom: 20, boxShadow: '0 2px 12px rgba(27,58,107,0.05)' }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 18 }}>
