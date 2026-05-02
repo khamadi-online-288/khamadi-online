@@ -348,7 +348,6 @@ export default function LessonPage() {
       ])
       if ((courseRes.data as { category: string } | null)?.category === 'English for Special Purposes') {
         setIsESP(true)
-        setTab('vocabulary')
       }
       setSections((sectionsRes.data ?? []) as SectionRow[])
 
@@ -424,7 +423,7 @@ export default function LessonPage() {
 
         {/* TABS */}
         <div style={{ display: 'flex', gap: 6, marginBottom: 24, overflowX: 'auto', paddingBottom: 4 }}>
-          {(isESP ? TABS.filter(t => t.key === 'vocabulary') : TABS).map(t => (
+          {TABS.map(t => (
             <button
               key={t.key}
               onClick={() => setTab(t.key)}
