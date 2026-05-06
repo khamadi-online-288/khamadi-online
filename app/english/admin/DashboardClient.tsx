@@ -1,9 +1,8 @@
 'use client'
 import { useMemo } from 'react'
-import { LineChart, Line, BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 import { format, subDays } from 'date-fns'
-import { ru } from 'date-fns/locale'
-import { AlertTriangle } from 'lucide-react'
+import { AlertTriangle, TrendingUp } from 'lucide-react'
 
 const LEVEL_COLORS = ['#1B3A6B','#1B8FC4','#10b981','#C9933B','#8b5cf6','#ef4444']
 
@@ -60,6 +59,22 @@ export default function AdminDashboardClient({ atRiskCount, avgScore, activityLo
           ) : <div style={{ height: 160, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#94a3b8', fontSize: 13 }}>Нет данных</div>}
         </div>
       </div>
+
+      {/* Avg score banner */}
+      {avgScore > 0 && (
+        <div style={{ background: 'linear-gradient(135deg, #1B3A6B 0%, #1B8FC4 100%)', borderRadius: 16, padding: '18px 24px', display: 'flex', alignItems: 'center', gap: 16 }}>
+          <div style={{ width: 44, height: 44, borderRadius: 13, background: 'rgba(255,255,255,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <TrendingUp size={22} color="#fff" />
+          </div>
+          <div>
+            <div style={{ fontSize: 12, fontWeight: 700, color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase' as const, letterSpacing: '0.06em' }}>Средний балл по платформе</div>
+            <div style={{ fontSize: 28, fontWeight: 900, color: '#fff' }}>{avgScore}%</div>
+          </div>
+          <div style={{ marginLeft: 'auto', fontSize: 13, color: 'rgba(255,255,255,0.55)', maxWidth: 220, textAlign: 'right' as const }}>
+            На основе всех оценок в системе
+          </div>
+        </div>
+      )}
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
         {/* Recent users */}

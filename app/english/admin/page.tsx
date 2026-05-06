@@ -47,7 +47,7 @@ export default async function AdminDashboardPage() {
     <div style={{ flex: 1 }}>
       <AdminHeader title="Главная" />
       <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 24 }}>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr) repeat(3,1fr)', gap: 16 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 16 }}>
           <StatCard title="Студентов" value={studCount.count ?? 0} icon={<Users size={18} />} color="#1B8FC4" />
           <StatCard title="Преподавателей" value={teachCount.count ?? 0} icon={<Users size={18} />} color="#C9933B" />
           <StatCard title="Активны сегодня" value={activeToday ?? 0} icon={<Activity size={18} />} color="#10b981" />

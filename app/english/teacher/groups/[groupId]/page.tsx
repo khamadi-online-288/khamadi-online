@@ -166,20 +166,83 @@ export default function GroupDetailPage() {
 
         {/* Overview */}
         {tab === 'overview' && (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 18 }}>
-            <div style={{ background: '#fff', borderRadius: 18, padding: 22, border: '1px solid rgba(27,143,196,0.1)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: '#64748b', marginBottom: 8 }}>СТУДЕНТОВ</div>
-              <div style={{ fontSize: 32, fontWeight: 900, color: '#1B3A6B' }}>{students.length}</div>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 18 }}>
+            {/* KPI row */}
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 16 }}>
+              {[
+                { label: 'СТУДЕНТОВ', value: students.length, color: '#1B3A6B' },
+                { label: 'СРЕДНИЙ ПРОГРЕСС', value: `${avgProgress}%`, color: '#1B8FC4', bar: true },
+                { label: 'ЗАДАНИЙ', value: assignments.length, color: '#C9933B' },
+              ].map(c => (
+                <div key={c.label} style={{ background: '#fff', borderRadius: 18, padding: 22, border: '1px solid rgba(27,143,196,0.1)' }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: '#64748b', letterSpacing: '0.06em', marginBottom: 8 }}>{c.label}</div>
+                  <div style={{ fontSize: 32, fontWeight: 900, color: c.color, marginBottom: c.bar ? 8 : 0 }}>{c.value}</div>
+                  {c.bar && <ProgressBar value={avgProgress} showLabel={false} />}
+                </div>
+              ))}
             </div>
-            <div style={{ background: '#fff', borderRadius: 18, padding: 22, border: '1px solid rgba(27,143,196,0.1)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: '#64748b', marginBottom: 8 }}>СРЕДНИЙ ПРОГРЕСС</div>
-              <div style={{ fontSize: 32, fontWeight: 900, color: '#1B3A6B', marginBottom: 8 }}>{avgProgress}%</div>
-              <ProgressBar value={avgProgress} showLabel={false} />
-            </div>
-            <div style={{ background: '#fff', borderRadius: 18, padding: 22, border: '1px solid rgba(27,143,196,0.1)' }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: '#64748b', marginBottom: 8 }}>ЗАДАНИЙ</div>
-              <div style={{ fontSize: 32, fontWeight: 900, color: '#1B3A6B' }}>{assignments.length}</div>
-            </div>
+
+            {/* Per-student progress comparison */}
+            {students.length > 0 && (
+              <div style={{ background: '#fff', borderRadius: 18, border: '1px solid rgba(27,143,196,0.1)', overflow: 'hidden' }}>
+                <div style={{ padding: '18px 22px 12px', fontSize: 14, fontWeight: 800, color: '#1B3A6B' }}>
+                  Прогресс студентов
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  {students
+                    .map(s => ({
+                      ...s,
+                      pct: calculateCourseProgress(progress.filter(p => p.student_id === s.id)),
+                      avg: calculateAverageScore(grades.filter(g => g.student_id === s.id)),
+                    }))
+                    .sort((a, b) => b.pct - a.pct)
+                    .map((s, i) => {
+                      const atRisk = !s.last_seen_at || new Date(s.last_seen_at).getTime() < Date.now() - 7 * 86400000
+                      return (
+                        <div key={s.id} style={{ padding: '12px 22px', borderTop: i > 0 ? '1px solid #f1f5f9' : 'none', display: 'flex', alignItems: 'center', gap: 14 }}>
+                          {/* Rank */}
+                          <div style={{ fontSize: 13, fontWeight: 900, color: i < 3 ? '#C9933B' : '#cbd5e1', minWidth: 20, textAlign: 'center' as const }}>{i + 1}</div>
+                          {/* Avatar */}
+                          <div style={{ width: 34, height: 34, borderRadius: 10, background: '#1B3A6B', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                            {s.avatar_url
+                              ? <img src={s.avatar_url} alt="" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: 10 }} />
+                              : <span style={{ color: '#fff', fontSize: 13, fontWeight: 800 }}>{(s.full_name ?? '?')[0]?.toUpperCase()}</span>}
+                          </div>
+                          {/* Name */}
+                          <div style={{ minWidth: 160 }}>
+                            <div style={{ fontSize: 13, fontWeight: 700, color: '#1e293b' }}>{s.full_name ?? '—'}</div>
+                            <div style={{ fontSize: 11, color: '#94a3b8' }}>{s.language_level ?? ''}</div>
+                          </div>
+                          {/* Progress bar */}
+                          <div style={{ flex: 1, display: 'flex', alignItems: 'center', gap: 10 }}>
+                            <div style={{ flex: 1, height: 7, borderRadius: 99, background: '#f1f5f9', overflow: 'hidden' }}>
+                              <div style={{ height: '100%', borderRadius: 99, width: `${s.pct}%`, background: s.pct >= 70 ? '#10b981' : s.pct >= 40 ? '#f59e0b' : '#ef4444', transition: 'width 0.4s' }} />
+                            </div>
+                            <span style={{ fontSize: 12, fontWeight: 800, color: '#1B3A6B', minWidth: 38, textAlign: 'right' as const }}>{s.pct}%</span>
+                          </div>
+                          {/* Avg grade */}
+                          <div style={{ minWidth: 56, textAlign: 'center' as const }}>
+                            {s.avg > 0
+                              ? <span style={{ fontSize: 13, fontWeight: 900, color: s.avg >= 70 ? '#10b981' : s.avg >= 50 ? '#f59e0b' : '#ef4444' }}>{s.avg}%</span>
+                              : <span style={{ fontSize: 12, color: '#cbd5e1' }}>—</span>}
+                          </div>
+                          {/* At-risk dot */}
+                          {atRisk && (
+                            <div style={{ width: 8, height: 8, borderRadius: '50%', background: '#ef4444', flexShrink: 0 }} title="Нет активности 7+ дней" />
+                          )}
+                        </div>
+                      )
+                    })}
+                </div>
+                <div style={{ padding: '10px 22px', borderTop: '1px solid #f1f5f9', display: 'flex', gap: 20, fontSize: 11, color: '#94a3b8' }}>
+                  <span>● прогресс уроков</span>
+                  <span>Ср. балл</span>
+                  <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 6 }}>
+                    <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#ef4444', display: 'inline-block' }} /> нет активности 7+ дней
+                  </span>
+                </div>
+              </div>
+            )}
           </div>
         )}
 

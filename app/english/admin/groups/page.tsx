@@ -19,7 +19,7 @@ export default function AdminGroupsPage() {
     setLoading(true)
     const { data } = await supabase
       .from('lms_groups')
-      .select('id,name,description,created_at,teacher:profiles!lms_groups_teacher_id_fkey(full_name),course:english_courses(title)')
+      .select('id,name,description,created_at,teacher:profiles(full_name),course:english_courses(title)')
       .order('created_at', { ascending: false })
       .limit(200)
 

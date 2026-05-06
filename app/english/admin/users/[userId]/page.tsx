@@ -30,7 +30,7 @@ export default function UserDetailPage() {
       supabase.from('profiles').select('*').eq('id', userId).maybeSingle(),
       supabase.from('english_user_roles').select('role').eq('user_id', userId).maybeSingle(),
       supabase.from('lms_activity_log').select('id,action,created_at,metadata').eq('user_id', userId).order('created_at', { ascending: false }).limit(50),
-      supabase.from('lms_progress').select('id,status,completed_at,score,lesson:english_lesson_sections(title),course:english_courses(title)').eq('student_id', userId).order('completed_at', { ascending: false }).limit(50),
+      supabase.from('lms_progress').select('id,status,completed_at,score,lesson_id,course_id,course:english_courses(title)').eq('student_id', userId).order('completed_at', { ascending: false }).limit(50),
       supabase.from('lms_group_students').select('group:lms_groups(id,name)').eq('student_id', userId),
     ])
     const p = profileRes.data as Profile | null
@@ -40,10 +40,19 @@ export default function UserDetailPage() {
     }
     setRole((roleRes.data as { role: string } | null)?.role ?? '')
     setActivity((actRes.data ?? []) as ActivityRow[])
-    setProgress(((progRes.data ?? []) as unknown[]).map((r: unknown) => {
-      const row = r as { id: string; status: string; completed_at?: string; score?: number; lesson?: { title?: string }; course?: { title?: string } }
-      return { id: row.id, status: row.status, completed_at: row.completed_at, score: row.score, lesson_title: row.lesson?.title, course_title: row.course?.title }
-    }))
+    const progRows = ((progRes.data ?? []) as unknown[]).map((r: unknown) => {
+      const row = r as { id: string; status: string; completed_at?: string; score?: number; lesson_id?: string; course?: { title?: string } }
+      return { id: row.id, status: row.status, completed_at: row.completed_at, score: row.score, lesson_id: row.lesson_id, lesson_title: undefined as string | undefined, course_title: row.course?.title }
+    })
+    // Fetch lesson titles separately (lms_progress → english_lessons via lesson_id)
+    const lessonIds = [...new Set(progRows.map(p => p.lesson_id).filter(Boolean))] as string[]
+    if (lessonIds.length) {
+      const { data: lessonsData } = await supabase.from('english_lessons').select('id,title').in('id', lessonIds)
+      const lessonMap: Record<string, string> = {}
+      ;(lessonsData ?? []).forEach((l: { id: string; title: string }) => { lessonMap[l.id] = l.title })
+      progRows.forEach(p => { if (p.lesson_id) p.lesson_title = lessonMap[p.lesson_id] })
+    }
+    setProgress(progRows)
     setGroups(((grpRes.data ?? []) as unknown[]).map((r: unknown) => {
       const row = r as { group?: { id: string; name: string } }
       return row.group ?? { id: '', name: '' }
@@ -52,8 +61,20 @@ export default function UserDetailPage() {
 
   async function save() {
     setSaving(true)
-    await supabase.from('profiles').update({ full_name: form.full_name, department: form.department, student_id_number: form.student_id_number, language_level: form.language_level || null, is_active: form.is_active }).eq('id', userId)
-    if (role) await supabase.from('english_user_roles').upsert({ user_id: userId, role }, { onConflict: 'user_id' })
+    await Promise.all([
+      supabase.from('profiles').update({
+        full_name: form.full_name,
+        department: form.department,
+        student_id_number: form.student_id_number,
+        language_level: form.language_level || null,
+        is_active: form.is_active,
+      }).eq('id', userId),
+      supabase.from('english_user_roles').update({
+        role,
+        current_level: form.language_level || null,
+        is_active: form.is_active,
+      }).eq('user_id', userId),
+    ])
     setSaving(false)
     router.push('/english/admin/users')
   }

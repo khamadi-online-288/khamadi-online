@@ -65,19 +65,34 @@ export default function AdminCoursesPage() {
 
       const loadedCourses = (coursesData || []) as Course[]
 
-      // Fetch enrollment counts
-      const { data: enrollData } = await supabase
-        .from('english_enrollments')
-        .select('course_id')
+      // Count students per course via group enrollment
+      const { data: groupsData } = await supabase
+        .from('lms_groups')
+        .select('id, course_id')
+        .not('course_id', 'is', null)
 
-      if (enrollData) {
-        const countMap = new Map<string, number>()
-        for (const row of enrollData as { course_id: string }[]) {
-          countMap.set(row.course_id, (countMap.get(row.course_id) || 0) + 1)
-        }
+      if (groupsData?.length) {
+        const groupCourseMap: Record<string, string> = {}
+        ;(groupsData as { id: string; course_id: string }[]).forEach(g => { groupCourseMap[g.id] = g.course_id })
+
+        const { data: studData } = await supabase
+          .from('lms_group_students')
+          .select('group_id, student_id')
+          .in('group_id', Object.keys(groupCourseMap))
+
+        const courseStudents: Record<string, Set<string>> = {}
+        ;(studData ?? [] as { group_id: string; student_id: string }[]).forEach((r: { group_id: string; student_id: string }) => {
+          const courseId = groupCourseMap[r.group_id]
+          if (courseId) {
+            if (!courseStudents[courseId]) courseStudents[courseId] = new Set()
+            courseStudents[courseId].add(r.student_id)
+          }
+        })
         for (const c of loadedCourses) {
-          c.student_count = countMap.get(c.id) || 0
+          c.student_count = courseStudents[c.id]?.size ?? 0
         }
+      } else {
+        for (const c of loadedCourses) c.student_count = 0
       }
 
       setCourses(loadedCourses)

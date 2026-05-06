@@ -2,7 +2,7 @@
 import { useEffect, useState, useMemo } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import AdminHeader from '@/components/english/lms/admin/AdminHeader'
-import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend } from 'recharts'
+import { BarChart, Bar, LineChart, Line, PieChart, Pie, Cell, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts'
 import { format, subDays } from 'date-fns'
 import { TrendingUp, Users, Award, BookOpen, RefreshCw } from 'lucide-react'
 

@@ -39,13 +39,13 @@ export default function AdminUsersPage() {
 
     const { data: rolesData } = await supabase
       .from('english_user_roles')
-      .select('user_id, full_name, email, role, status, created_at, language_level:current_level')
+      .select('user_id, full_name, email, role, status, created_at, language_level:current_level, is_active')
       .order('created_at', { ascending: false })
       .limit(300)
 
     const rows = (rolesData ?? []) as {
       user_id: string; full_name: string | null; email: string | null
-      role: string; status: string | null; created_at: string | null; language_level: string | null
+      role: string; status: string | null; created_at: string | null; language_level: string | null; is_active: boolean | null
     }[]
 
     const merged: UserRow[] = rows.map(r => ({
@@ -57,7 +57,7 @@ export default function AdminUsersPage() {
       status:          r.status ?? 'pending',
       created_at:      r.created_at ?? '',
       language_level:  r.language_level ?? '',
-      is_active:       true,
+      is_active:       r.is_active !== false,
     }))
 
     setUsers(merged)
@@ -78,7 +78,7 @@ export default function AdminUsersPage() {
   }
 
   async function toggleActive(userId: string, current: boolean) {
-    await supabase.from('profiles').update({ is_active: !current }).eq('id', userId)
+    await supabase.from('english_user_roles').update({ is_active: !current }).eq('user_id', userId)
     setUsers(u => u.map(x => x.id === userId ? { ...x, is_active: !current } : x))
   }
 
