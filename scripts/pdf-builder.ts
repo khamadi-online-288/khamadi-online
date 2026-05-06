@@ -4,12 +4,10 @@
  * subset GIDs → Cyrillic always renders as garbage. pdf-lib does not have this bug.
  */
 
-import { PDFDocument, PDFPage, PDFFont, PDFName, PDFDict, rgb, RGB } from 'pdf-lib'
+import { PDFDocument, PDFPage, PDFFont, rgb, RGB } from 'pdf-lib'
 import fontkit from '@pdf-lib/fontkit'
-import * as fontkit2 from 'fontkit'
 import * as fs from 'fs'
 import * as path from 'path'
-import * as zlib from 'zlib'
 
 // ── Colors ────────────────────────────────────────────────────────────────────
 
@@ -81,11 +79,9 @@ export class PdfWriter {
     const w = new PdfWriter()
     w.doc = await PDFDocument.create()
     w.doc.registerFontkit(fontkit as any)
-    // subset: false — embeds full font, required for correct Cyrillic in Chrome/Edge PDFium
-    const opts = { subset: false }
-    w.R = await w.doc.embedFont(fs.readFileSync(FONT_R) as unknown as ArrayBuffer, opts)
-    w.B = await w.doc.embedFont(fs.readFileSync(FONT_B) as unknown as ArrayBuffer, opts)
-    w.I = await w.doc.embedFont(fs.readFileSync(FONT_I) as unknown as ArrayBuffer, opts)
+    w.R = await w.doc.embedFont(fs.readFileSync(FONT_R) as unknown as ArrayBuffer)
+    w.B = await w.doc.embedFont(fs.readFileSync(FONT_B) as unknown as ArrayBuffer)
+    w.I = await w.doc.embedFont(fs.readFileSync(FONT_I) as unknown as ArrayBuffer)
     w.headerTitle = headerTitle
     w.headerLevel = headerLevel
     return w
@@ -412,58 +408,9 @@ export class PdfWriter {
     const dir = path.dirname(outPath)
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true })
 
-    // First pass: save to get serialized PDF with CIDFont structures
-    const rawBytes = await this.doc.save()
-
-    // Second pass: fix CIDToGIDMap for Chrome PDFium compatibility
-    const fixedBytes = await fixCidToGidMap(rawBytes, FONT_R)
-
-    fs.writeFileSync(outPath, Buffer.from(fixedBytes))
-    console.log(`✅ ${path.basename(outPath)} — ${Math.round(fixedBytes.length / 1024)} KB, ${this.pageNum} pages`)
+    const bytes = await this.doc.save()
+    fs.writeFileSync(outPath, Buffer.from(bytes))
+    console.log(`✅ ${path.basename(outPath)} — ${Math.round(bytes.length / 1024)} KB, ${this.pageNum} pages`)
   }
 }
 
-// ── CIDToGIDMap fixer ─────────────────────────────────────────────────────────
-// pdf-lib writes /CIDToGIDMap /Identity (CID = Unicode codepoint ≠ font GID).
-// Chrome PDFium follows spec strictly: renders GID = CID → wrong glyph.
-// Fix: replace /Identity with a real stream mapping Unicode codepoint → GID.
-
-function buildGidMap(fontPath: string): Buffer {
-  const font = (fontkit2 as any).openSync(fontPath)
-  const buf = Buffer.alloc(65536 * 2, 0)
-  for (let cp = 0x0020; cp <= 0x052F; cp++) {
-    try {
-      const g = font.glyphForCodePoint(cp)
-      if (g && g.id > 0) {
-        buf[cp * 2]     = (g.id >> 8) & 0xFF
-        buf[cp * 2 + 1] = g.id & 0xFF
-      }
-    } catch (_) {}
-  }
-  return buf
-}
-
-async function fixCidToGidMap(pdfBytes: Uint8Array, fontPath: string): Promise<Uint8Array> {
-  const doc = await PDFDocument.load(pdfBytes)
-  const ctx = doc.context
-
-  const mapBuf    = buildGidMap(fontPath)
-  const compressed = zlib.deflateSync(mapBuf)
-
-  const mapStream = ctx.stream(compressed, {
-    Filter: ctx.obj('FlateDecode') as any,
-    Length: ctx.obj(compressed.length) as any,
-  })
-  const mapRef = ctx.register(mapStream)
-
-  ctx.enumerateIndirectObjects().forEach(([_, obj]) => {
-    if (obj instanceof PDFDict) {
-      const sub = obj.get(PDFName.of('Subtype'))
-      if (sub?.toString() === '/CIDFontType2') {
-        obj.set(PDFName.of('CIDToGIDMap'), mapRef)
-      }
-    }
-  })
-
-  return doc.save()
-}

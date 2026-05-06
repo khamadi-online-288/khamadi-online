@@ -4,30 +4,21 @@ import { createEnglishServerClient } from '@/lib/english/supabase-server'
 
 type Props = {
   children: React.ReactNode
-  params:   Promise<{ courseId: string; lessonId: string }>
+  params:   Promise<{ courseId: string }>
 }
 
 export default async function LessonLayout({ children, params }: Props) {
-  const { courseId, lessonId } = await params
+  const { courseId } = await params
 
   const supabase = await createEnglishServerClient()
 
-  const [{ data: lesson }, { data: course }] = await Promise.all([
-    supabase
-      .from('english_lessons')
-      .select('title, lesson_order')
-      .eq('id', lessonId)
-      .maybeSingle(),
-    supabase
-      .from('english_courses')
-      .select('title, total_lessons')
-      .eq('id', courseId)
-      .maybeSingle(),
-  ])
+  const { data: course } = await supabase
+    .from('english_courses')
+    .select('title')
+    .eq('id', courseId)
+    .maybeSingle()
 
-  const lessonTitle  = lesson?.title       ?? 'Урок'
-  const courseTitle  = course?.title       ?? 'Курс'
-  const lessonNum    = lesson?.lesson_order ?? null
+  const courseTitle = course?.title ?? 'Курс'
 
   return (
     <div style={{ minHeight: '100vh', background: '#F5F9FD', display: 'flex', flexDirection: 'column' }}>
@@ -62,15 +53,6 @@ export default async function LessonLayout({ children, params }: Props) {
           <ArrowLeft size={14} strokeWidth={2.5} />
           <span style={{ whiteSpace: 'nowrap' }}>← {courseTitle}</span>
         </Link>
-
-        {/* Right: lesson title */}
-        <span style={{
-          fontSize: 13, fontWeight: 700, color: '#64748b',
-          overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-          maxWidth: '55%', textAlign: 'right',
-        }}>
-          {lessonNum != null ? `Урок ${lessonNum}: ` : ''}{lessonTitle}
-        </span>
       </header>
 
       <main style={{ flex: 1 }}>{children}</main>

@@ -60,7 +60,8 @@ export default async function CoursesPage() {
 
   const purpose = (profileRes.data as { purpose?: string | null } | null)?.purpose ?? null
 
-  const [coursesRes, espRes, lessonsRes, progressRes] = await Promise.all([
+  // Step 1: fetch courses (General English + ESP track)
+  const [coursesRes, espRes] = await Promise.all([
     supabase
       .from('english_courses')
       .select('id, title, level, category, description')
@@ -78,10 +79,24 @@ export default async function CoursesPage() {
           .order('level', { ascending: false })
           .limit(1)
       : Promise.resolve({ data: null }),
+  ])
 
-    supabase
-      .from('english_lessons')
-      .select('id, course_id'),
+  const allCourses  = (coursesRes.data ?? []) as CourseRow[]
+  const trackCourse = ((espRes.data as CourseRow[] | null)?.[0] ?? null) as CourseRow | null
+
+  // Step 2: fetch lessons and progress only for displayed courses
+  const visibleIds = [
+    ...allCourses.map(c => c.id),
+    ...(trackCourse ? [trackCourse.id] : []),
+  ]
+
+  const [lessonsRes, progressRes] = await Promise.all([
+    visibleIds.length > 0
+      ? supabase
+          .from('english_lessons')
+          .select('id, course_id')
+          .in('course_id', visibleIds)
+      : Promise.resolve({ data: [] }),
 
     supabase
       .from('english_progress')
@@ -89,8 +104,6 @@ export default async function CoursesPage() {
       .eq('user_id', user.id),
   ])
 
-  const allCourses   = (coursesRes.data ?? []) as CourseRow[]
-  const trackCourse  = ((espRes.data as CourseRow[] | null)?.[0] ?? null) as CourseRow | null
   const allLessons   = (lessonsRes.data ?? []) as { id: string; course_id: string }[]
   const completedIds = new Set(
     ((progressRes.data ?? []) as { lesson_id: string; completed: boolean }[])

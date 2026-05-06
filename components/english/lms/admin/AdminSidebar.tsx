@@ -2,14 +2,17 @@
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
-import { LayoutDashboard, Users, BookOpen, BarChart3, Award, Megaphone, Settings, Users2, LogOut, Headphones } from 'lucide-react'
+import { LayoutDashboard, Users, BookOpen, BarChart3, Award, Megaphone, Settings, Users2, LogOut, Headphones, GraduationCap, LineChart, FileText } from 'lucide-react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 
 const NAV = [
   { href: '/english/admin',              icon: LayoutDashboard, label: 'Главная',        badge: false },
   { href: '/english/admin/users',        icon: Users,           label: 'Пользователи',   badge: true  },
+  { href: '/english/admin/students',     icon: GraduationCap,   label: 'Студенты',       badge: false },
   { href: '/english/admin/groups',       icon: Users2,          label: 'Группы',         badge: false },
   { href: '/english/admin/courses',      icon: BookOpen,        label: 'Курсы',          badge: false },
+  { href: '/english/admin/content',      icon: FileText,        label: 'Контент',        badge: false },
+  { href: '/english/admin/analytics',    icon: LineChart,       label: 'Аналитика',      badge: false },
   { href: '/english/admin/reports',      icon: BarChart3,       label: 'Отчёты',         badge: false },
   { href: '/english/admin/certificates', icon: Award,           label: 'Сертификаты',    badge: false },
   { href: '/english/admin/announcements',icon: Megaphone,       label: 'Объявления',     badge: false },
@@ -25,10 +28,9 @@ export default function AdminSidebar() {
 
   useEffect(() => {
     supabase
-      .from('profiles')
-      .select('id', { count: 'exact', head: true })
+      .from('english_user_roles')
+      .select('user_id', { count: 'exact', head: true })
       .eq('status', 'pending')
-      .eq('is_english_user', true)
       .then(({ count }) => setPendingCount(count ?? 0))
   }, [])
 

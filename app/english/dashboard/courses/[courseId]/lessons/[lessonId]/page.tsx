@@ -167,6 +167,17 @@ type B1ReadingContent = {
 
 type SectionRow = { type: string; content: GrammarContent | ReadingContent | null }
 
+type WritingContent = {
+  task:                string
+  instructions_ru:     string
+  min_words:           number
+  tips_ru:             string[]
+  examples?:           string[]
+  structure?:          string
+  useful_phrases?:     string[]
+  assessment_criteria?: string[]
+}
+
 type ListeningType     = 'match' | 'true_false' | 'speaker_match' | 'fill_blank' | 'ordering' | 'multiple_choice'
 type ListeningOption   = { letter: string; text: string }
 type ListeningQuestion = { id: number; question: string; options?: ListeningOption[]; answer: string | number; prefix?: string; suffix?: string }
@@ -456,6 +467,59 @@ export default function LessonPage() {
             {/* GRAMMAR */}
             {tab === 'grammar' && (() => {
               const g = (sections.find(s => s.type === 'grammar')?.content ?? null) as GrammarContent | null
+              const anyG = g as unknown as Record<string, unknown>
+
+              // ── Simple fill format (topic/explanation_ru/structure/examples/rules/common_mistakes) ──
+              if (anyG?.topic) {
+                type SG = { topic: string; explanation_ru?: string; structure?: string; examples?: {en: string; ru: string}[]; common_mistakes?: string[]; rules?: {rule: string; example: string}[] }
+                const sg = anyG as SG
+                return (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+                    <div className="glass-card" style={{ padding: '24px 28px' }}>
+                      <h2 style={{ fontSize: 22, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.03em', margin: '0 0 14px' }}>{sg.topic}</h2>
+                      {sg.explanation_ru && <p style={{ fontSize: 15, color: '#475569', lineHeight: 1.8, margin: '0 0 14px', fontWeight: 600 }}>{sg.explanation_ru}</p>}
+                      {sg.structure && <div style={{ background: 'rgba(14,165,233,0.08)', border: '1.5px solid rgba(14,165,233,0.25)', borderRadius: 12, padding: '12px 18px', fontFamily: 'monospace', fontSize: 15, fontWeight: 800, color: '#0369a1' }}>📐 {sg.structure}</div>}
+                    </div>
+                    {(sg.examples?.length ?? 0) > 0 && (
+                      <div className="glass-card" style={{ padding: 28 }}>
+                        <div style={{ fontSize: 13, fontWeight: 900, color: '#0c4a6e', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 16 }}>💬 Examples</div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+                          {sg.examples!.map((ex, i) => (
+                            <div key={i} style={{ background: '#f8fafc', borderRadius: 12, padding: '12px 16px', borderLeft: '3px solid #0ea5e9' }}>
+                              <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b' }}>{ex.en}</div>
+                              <div style={{ fontSize: 13, color: '#64748b', fontWeight: 600, marginTop: 4 }}>{ex.ru}</div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {(sg.rules?.length ?? 0) > 0 && (
+                      <div className="glass-card" style={{ padding: 28 }}>
+                        <div style={{ fontSize: 13, fontWeight: 900, color: '#0c4a6e', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 16 }}>📋 Rules</div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+                          {sg.rules!.map((r, i) => (
+                            <div key={i} style={{ background: '#f0f9ff', borderRadius: 12, padding: '12px 16px' }}>
+                              <div style={{ fontSize: 14, fontWeight: 700, color: '#0369a1', marginBottom: 6 }}>{r.rule}</div>
+                              {r.example && <div style={{ fontSize: 13, color: '#475569', fontWeight: 600, fontStyle: 'italic' }}>{r.example}</div>}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {(sg.common_mistakes?.length ?? 0) > 0 && (
+                      <div className="glass-card" style={{ padding: 28 }}>
+                        <div style={{ fontSize: 13, fontWeight: 900, color: '#dc2626', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 16 }}>⚠️ Common Mistakes</div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                          {sg.common_mistakes!.map((m, i) => (
+                            <div key={i} style={{ background: 'rgba(239,68,68,0.06)', borderRadius: 10, padding: '10px 14px', borderLeft: '3px solid #dc2626', fontSize: 13, fontWeight: 700, color: '#991b1b' }}>{m}</div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                )
+              }
+
               if (!g || !g.title) return (
                 <div style={{ background: '#fff', borderRadius: 20, border: '1px solid rgba(27,143,196,0.10)', padding: 40, textAlign: 'center' }}>
                   <div style={{ fontSize: 36, marginBottom: 12 }}>🚧</div>
@@ -573,7 +637,7 @@ export default function LessonPage() {
                               <div key={q.id}>
                                 <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b', marginBottom: 10 }}><span style={{ color: '#94a3b8', fontWeight: 900, marginRight: 6 }}>{q.id}.</span>{q.sentence}</div>
                                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                                  {q.options.map(opt => { const isSel = sel === opt; const isGood = b1Checked && opt === q.answer; const isBad = b1Checked && isSel && opt !== q.answer
+                                  {(q.options ?? []).map(opt => { const isSel = sel === opt; const isGood = b1Checked && opt === q.answer; const isBad = b1Checked && isSel && opt !== q.answer
                                     return <button key={opt} onClick={() => { if (!b1Checked) setB1MC(p => ({ ...p, [q.id]: opt })) }}
                                       style={{ padding: '8px 18px', borderRadius: 999, fontSize: 13, fontWeight: 800, cursor: b1Checked ? 'default' : 'pointer', border: '2px solid', borderColor: isGood ? '#16a34a' : isBad ? '#dc2626' : isSel ? '#0ea5e9' : 'rgba(14,165,233,0.2)', background: isGood ? 'rgba(34,197,94,0.1)' : isBad ? 'rgba(239,68,68,0.1)' : isSel ? 'rgba(14,165,233,0.1)' : '#fff', color: isGood ? '#16a34a' : isBad ? '#dc2626' : isSel ? '#0369a1' : '#475569' }}>{opt}</button>
                                   })}
@@ -647,7 +711,7 @@ export default function LessonPage() {
                               <div key={q.id}>
                                 <div style={{ fontSize: 13, color: '#7c3aed', fontWeight: 700, marginBottom: 8, padding: '6px 12px', background: 'rgba(124,58,237,0.06)', borderRadius: 8 }}>{q.id}. {q.context}</div>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
-                                  {q.options.map(opt => { const isSel = sel === opt; const isGood = b1Checked && opt === q.answer; const isBad = b1Checked && isSel && opt !== q.answer
+                                  {(q.options ?? []).map(opt => { const isSel = sel === opt; const isGood = b1Checked && opt === q.answer; const isBad = b1Checked && isSel && opt !== q.answer
                                     return <button key={opt} onClick={() => { if (!b1Checked) setB1MD(p => ({ ...p, [q.id]: opt })) }}
                                       style={{ textAlign: 'left', padding: '10px 16px', borderRadius: 12, fontSize: 13, fontWeight: 700, cursor: b1Checked ? 'default' : 'pointer', border: '1.5px solid', borderColor: isGood ? '#16a34a' : isBad ? '#dc2626' : isSel ? '#0ea5e9' : 'rgba(14,165,233,0.15)', background: isGood ? 'rgba(34,197,94,0.08)' : isBad ? 'rgba(239,68,68,0.08)' : isSel ? 'rgba(14,165,233,0.08)' : '#f8fafc', color: isGood ? '#16a34a' : isBad ? '#dc2626' : isSel ? '#0369a1' : '#475569' }}>
                                       {opt} {b1Checked && isGood ? ' ✓' : b1Checked && isBad ? ' ✗' : ''}
@@ -1559,14 +1623,14 @@ export default function LessonPage() {
                       <div className="glass-card" style={{ padding: 28 }}>
                         <div style={{ fontSize: 13, fontWeight: 900, color: '#0c4a6e', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 18 }}>🔤 Comprehension Questions</div>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-                          {b1r.comprehension_questions.map(q => {
-                            const sel = b1RdMC[q.id]
+                          {b1r.comprehension_questions.map((q, qi) => {
+                            const sel = b1RdMC[q.id ?? qi]
                             const correct = b1RdChecked ? sel?.[0] === q.answer : null
                             return (
-                              <div key={q.id}>
-                                <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b', marginBottom: 10 }}>{q.id}. {q.question}</div>
+                              <div key={q.id ?? qi}>
+                                <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b', marginBottom: 10 }}>{q.id ?? qi + 1}. {q.question}</div>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
-                                  {q.options.map(opt => {
+                                  {(q.options ?? []).map(opt => {
                                     const isSelected = sel === opt
                                     const isCorrect  = b1RdChecked && opt[0] === q.answer
                                     const isWrong    = b1RdChecked && isSelected && opt[0] !== q.answer
@@ -1619,17 +1683,24 @@ export default function LessonPage() {
                       <div className="glass-card" style={{ padding: 28 }}>
                         <div style={{ fontSize: 13, fontWeight: 900, color: '#0c4a6e', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 18 }}>🔍 Vocabulary in Context</div>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
-                          {b1r.vocabulary_in_context.map(q => {
+                          {(b1r.vocabulary_in_context[0] as unknown as Record<string,unknown>)?.word
+                            ? (b1r.vocabulary_in_context as unknown as {word: string; ru: string}[]).map((w, i) => (
+                                <div key={i} style={{ background: '#f8fafc', borderRadius: 12, padding: '12px 16px', borderLeft: '3px solid #0ea5e9' }}>
+                                  <span style={{ fontSize: 14, fontWeight: 900, color: '#0284c7' }}>{w.word}</span>
+                                  <span style={{ fontSize: 14, fontWeight: 600, color: '#64748b' }}> — {w.ru}</span>
+                                </div>
+                              ))
+                            : b1r.vocabulary_in_context.map(q => {
                             const sel = b1RdVIC[q.id]
                             const correct = b1RdChecked ? sel?.[0] === q.answer : null
-                            const parts = q.sentence.split('[BLANK]')
+                            const parts = (q.sentence ?? '').split('[BLANK]')
                             return (
                               <div key={q.id}>
                                 <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b', marginBottom: 10 }}>
                                   {q.id}. {parts[0]}<span style={{ background: '#fef9c3', border: '1px solid #fcd34d', borderRadius: 6, padding: '2px 8px', color: '#92400e', fontWeight: 900 }}>___</span>{parts[1]}
                                 </div>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
-                                  {q.options.map(opt => {
+                                  {(q.options ?? []).map(opt => {
                                     const isSelected = sel === opt
                                     const isCorrect  = b1RdChecked && opt[0] === q.answer
                                     const isWrong    = b1RdChecked && isSelected && opt[0] !== q.answer
@@ -1755,7 +1826,7 @@ export default function LessonPage() {
                             <div key={q.id}>
                               <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b', marginBottom: 10 }}>{q.id}. {q.question}</div>
                               <div style={{ display: 'flex', flexDirection: 'column', gap: 7 }}>
-                                {q.options.map(opt => {
+                                {(q.options ?? []).map(opt => {
                                   const isSelected = sel === opt
                                   const isCorrect = rdChecked && opt === q.answer
                                   const isWrong   = rdChecked && isSelected && opt !== q.answer
@@ -1818,37 +1889,126 @@ export default function LessonPage() {
             })()}
 
             {/* WRITING */}
-            {tab === 'writing' && (
-              <div className="glass-card" style={{ padding: 32 }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
-                  <span style={{ fontSize: 20 }}>✍️</span>
-                  <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>Writing</h2>
-                </div>
-                {lesson.writing_task && (
-                  <div style={{ background: 'rgba(14,165,233,0.06)', border: '1px solid rgba(14,165,233,0.2)', borderRadius: 16, padding: '16px 20px', marginBottom: 20, fontSize: 15, lineHeight: 1.7, color: '#0369a1', fontWeight: 700 }}>
-                    📋 {lesson.writing_task}
+            {tab === 'writing' && (() => {
+              const wc = sections.find(s => s.type === 'writing')?.content as WritingContent | null
+              const wordCount = writingText.trim().split(/\s+/).filter(Boolean).length
+              const meetsMin  = wc?.min_words ? wordCount >= wc.min_words : true
+
+              return (
+                <div className="glass-card" style={{ padding: 32, display: 'flex', flexDirection: 'column', gap: 20 }}>
+                  {/* Header */}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                    <span style={{ fontSize: 22 }}>✍️</span>
+                    <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>Writing</h2>
                   </div>
-                )}
-                <textarea
-                  value={writingText}
-                  onChange={e => { setWritingText(e.target.value); setWritingSaved(false) }}
-                  placeholder="Write your answer here..."
-                  rows={8}
-                  style={{ width: '100%', padding: '16px', borderRadius: 16, border: '1.5px solid rgba(14,165,233,0.2)', background: '#fff', color: '#0f172a', fontSize: 14, fontWeight: 600, lineHeight: 1.8, resize: 'vertical', outline: 'none', boxSizing: 'border-box', transition: 'border-color 0.2s' }}
-                  onFocus={e => { e.target.style.borderColor = 'rgba(14,165,233,0.5)' }}
-                  onBlur={e => { e.target.style.borderColor = 'rgba(14,165,233,0.2)' }}
-                />
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 14 }}>
-                  <span style={{ fontSize: 13, color: '#94a3b8', fontWeight: 700 }}>{writingText.trim().split(/\s+/).filter(Boolean).length} слов</span>
-                  <button
-                    className="btn-primary"
-                    onClick={() => { localStorage.setItem(`eng_writing_${lessonId}`, writingText); setWritingSaved(true) }}
-                  >
-                    {writingSaved ? '✓ Сохранено' : 'Сохранить'}
-                  </button>
+
+                  {wc ? (
+                    <>
+                      {/* Task */}
+                      <div style={{ background: 'rgba(14,165,233,0.07)', border: '1.5px solid rgba(14,165,233,0.25)', borderRadius: 16, padding: '16px 20px' }}>
+                        <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: 1 }}>Task</p>
+                        <p style={{ margin: 0, fontSize: 15, fontWeight: 700, color: '#0c4a6e', lineHeight: 1.6 }}>{wc.task}</p>
+                      </div>
+
+                      {/* Instructions RU */}
+                      <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 14, padding: '14px 18px' }}>
+                        <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Инструкция</p>
+                        <p style={{ margin: 0, fontSize: 14, color: '#334155', lineHeight: 1.65 }}>{wc.instructions_ru}</p>
+                      </div>
+
+                      {/* Structure (B1+) */}
+                      {wc.structure && (
+                        <div style={{ background: 'rgba(14,165,233,0.04)', border: '1px dashed rgba(14,165,233,0.3)', borderRadius: 14, padding: '12px 18px' }}>
+                          <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: 1 }}>Структура</p>
+                          <p style={{ margin: 0, fontSize: 13, fontWeight: 700, color: '#0369a1' }}>{wc.structure}</p>
+                        </div>
+                      )}
+
+                      {/* Examples (A1, A2) */}
+                      {wc.examples && wc.examples.length > 0 && (
+                        <div>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Примеры</p>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                            {wc.examples.map((ex, i) => (
+                              <div key={i} style={{ background: '#f1f5f9', borderRadius: 10, padding: '10px 14px', fontSize: 13, color: '#334155', fontStyle: 'italic', borderLeft: '3px solid #0ea5e9' }}>
+                                {ex}
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Useful phrases (B2, C1) */}
+                      {wc.useful_phrases && wc.useful_phrases.length > 0 && (
+                        <div>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Полезные фразы</p>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                            {wc.useful_phrases.map((ph, i) => (
+                              <span key={i} style={{ background: '#e0f2fe', color: '#0369a1', borderRadius: 999, padding: '5px 14px', fontSize: 13, fontWeight: 700 }}>{ph}</span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {/* Tips */}
+                      {wc.tips_ru && wc.tips_ru.length > 0 && (
+                        <div style={{ background: '#fffbeb', border: '1px solid #fde68a', borderRadius: 14, padding: '14px 18px' }}>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#92400e', textTransform: 'uppercase', letterSpacing: 1 }}>💡 Советы</p>
+                          <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 4 }}>
+                            {wc.tips_ru.map((tip, i) => (
+                              <li key={i} style={{ fontSize: 13, color: '#78350f', lineHeight: 1.55 }}>{tip}</li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+
+                      {/* Assessment criteria (C1) */}
+                      {wc.assessment_criteria && wc.assessment_criteria.length > 0 && (
+                        <div>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Критерии оценки</p>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
+                            {wc.assessment_criteria.map((c, i) => (
+                              <span key={i} style={{ background: '#f0fdf4', color: '#166534', border: '1px solid #bbf7d0', borderRadius: 999, padding: '5px 14px', fontSize: 13, fontWeight: 700 }}>{c}</span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </>
+                  ) : (
+                    /* Fallback if no section content yet */
+                    lesson.writing_task && (
+                      <div style={{ background: 'rgba(14,165,233,0.06)', border: '1px solid rgba(14,165,233,0.2)', borderRadius: 16, padding: '16px 20px', fontSize: 15, lineHeight: 1.7, color: '#0369a1', fontWeight: 700 }}>
+                        📋 {lesson.writing_task}
+                      </div>
+                    )
+                  )}
+
+                  {/* Textarea */}
+                  <textarea
+                    value={writingText}
+                    onChange={e => { setWritingText(e.target.value); setWritingSaved(false) }}
+                    placeholder="Write your answer here..."
+                    rows={8}
+                    style={{ width: '100%', padding: '16px', borderRadius: 16, border: '1.5px solid rgba(14,165,233,0.2)', background: '#fff', color: '#0f172a', fontSize: 14, fontWeight: 600, lineHeight: 1.8, resize: 'vertical', outline: 'none', boxSizing: 'border-box', transition: 'border-color 0.2s' }}
+                    onFocus={e => { e.target.style.borderColor = 'rgba(14,165,233,0.5)' }}
+                    onBlur={e => { e.target.style.borderColor = 'rgba(14,165,233,0.2)' }}
+                  />
+
+                  {/* Footer */}
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <span style={{ fontSize: 13, fontWeight: 700, color: meetsMin ? '#22c55e' : '#94a3b8' }}>
+                      {wordCount} слов{wc?.min_words ? ` / мин. ${wc.min_words}` : ''}
+                    </span>
+                    <button
+                      className="btn-primary"
+                      onClick={() => { localStorage.setItem(`eng_writing_${lessonId}`, writingText); setWritingSaved(true) }}
+                    >
+                      {writingSaved ? '✓ Сохранено' : 'Сохранить'}
+                    </button>
+                  </div>
                 </div>
-              </div>
-            )}
+              )
+            })()}
 
             {/* LISTENING */}
             {tab === 'listening' && (() => {
@@ -2270,19 +2430,24 @@ export default function LessonPage() {
                       <h2 style={{ fontSize: 20, fontWeight: 900, color: '#0c4a6e', margin: 0 }}>{vc.title}</h2>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                      {vc.words.map((w, i) => (
-                        <div key={i} style={{ display: 'grid', gridTemplateColumns: '180px 90px 1fr', gap: 12, padding: '12px 16px', borderRadius: 14, background: i % 2 === 0 ? 'rgba(14,165,233,0.04)' : '#f8fafc', border: '1px solid rgba(14,165,233,0.08)', alignItems: 'start' }}>
+                      {vc.words.map((w, i) => {
+                        const ww = w as unknown as Record<string, string>
+                        const wordText  = ww.word  ?? ww.en  ?? ''
+                        const transText = ww.translation ?? ww.ru ?? ''
+                        return (
+                        <div key={i} style={{ display: 'grid', gridTemplateColumns: ww.part_of_speech ? '180px 90px 1fr' : '180px 1fr', gap: 12, padding: '12px 16px', borderRadius: 14, background: i % 2 === 0 ? 'rgba(14,165,233,0.04)' : '#f8fafc', border: '1px solid rgba(14,165,233,0.08)', alignItems: 'start' }}>
                           <div>
-                            <span style={{ fontSize: 15, fontWeight: 900, color: '#0284c7' }}>{w.word}</span>
-                            <div style={{ fontSize: 13, fontWeight: 700, color: '#475569', marginTop: 2 }}>{w.translation}</div>
+                            <span style={{ fontSize: 15, fontWeight: 900, color: '#0284c7' }}>{wordText}</span>
+                            <div style={{ fontSize: 13, fontWeight: 700, color: '#475569', marginTop: 2 }}>{transText}</div>
                           </div>
-                          <span style={{ fontSize: 11, fontWeight: 800, color: '#94a3b8', background: '#f1f5f9', borderRadius: 6, padding: '3px 8px', marginTop: 2, display: 'inline-block', whiteSpace: 'nowrap' }}>{w.part_of_speech}</span>
+                          {ww.part_of_speech && <span style={{ fontSize: 11, fontWeight: 800, color: '#94a3b8', background: '#f1f5f9', borderRadius: 6, padding: '3px 8px', marginTop: 2, display: 'inline-block', whiteSpace: 'nowrap' }}>{ww.part_of_speech}</span>}
                           <div>
-                            <div style={{ fontSize: 13, color: '#334155', fontStyle: 'italic', fontWeight: 600 }}>{w.example}</div>
-                            <div style={{ fontSize: 12, color: '#94a3b8', fontWeight: 600, marginTop: 2 }}>{w.example_translation}</div>
+                            <div style={{ fontSize: 13, color: '#334155', fontStyle: 'italic', fontWeight: 600 }}>{ww.example}</div>
+                            {ww.example_translation && <div style={{ fontSize: 12, color: '#94a3b8', fontWeight: 600, marginTop: 2 }}>{ww.example_translation}</div>}
                           </div>
                         </div>
-                      ))}
+                        )
+                      })}
                     </div>
                   </div>
 
@@ -2376,7 +2541,7 @@ export default function LessonPage() {
                             <div key={q.id}>
                               <div style={{ fontSize: 15, fontWeight: 900, color: '#0284c7', marginBottom: 8 }}>{q.id}. {q.word}</div>
                               <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-                                {q.options.map(opt => {
+                                {(q.options ?? []).map(opt => {
                                   const isSel  = sel === opt
                                   const isGood = vocChecked && opt === q.answer
                                   const isBad  = vocChecked && isSel && opt !== q.answer
