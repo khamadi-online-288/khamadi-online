@@ -27,17 +27,19 @@ export default function StudentProfilePage() {
   const [submissions, setSubmissions] = useState<LMSSubmission[]>([])
   const [courses, setCourses] = useState<Record<string, { id: string; title: string; level: string }>>({})
   const [progressModules, setProgressModules] = useState<{ id: string; title: string; lessons: { id: string; title: string; sections: { id: string; section_type: string; status: string; score?: number }[] }[] }[]>([])
+  const [quizHistory, setQuizHistory] = useState<{ id: string; score: number; passed: boolean; correct_answers: number; total_questions: number; time_spent_seconds: number; lesson?: { title: string } | null; created_at: string }[]>([])
   const supabase = createEnglishClient()
 
   useEffect(() => { load() }, [studentId])
 
   async function load() {
-    const [profileRes, progressRes, gradesRes, attendRes, subsRes] = await Promise.all([
+    const [profileRes, progressRes, gradesRes, attendRes, subsRes, quizRes] = await Promise.all([
       supabase.from('profiles').select('id,full_name,email,avatar_url,language_level,last_seen_at,department,student_id_number,phone').eq('id', studentId).single(),
       supabase.from('lms_progress').select('*').eq('student_id', studentId).order('created_at'),
       supabase.from('lms_grades').select('*').eq('student_id', studentId).order('graded_at', { ascending: false }),
       supabase.from('lms_attendance').select('*').eq('student_id', studentId).order('date', { ascending: false }),
       supabase.from('lms_assignment_submissions').select('*,assignment:lms_assignments(id,title,max_score,due_date)').eq('student_id', studentId).order('submitted_at', { ascending: false }),
+      supabase.from('english_quiz_results').select('id,score,passed,correct_answers,total_questions,time_spent_seconds,created_at,quiz:english_quizzes(lesson:english_lessons(title))').eq('user_id', studentId).order('created_at', { ascending: false }).limit(50),
     ])
     setStudent(profileRes.data as EnglishProfile)
     const prog = (progressRes.data ?? []) as LMSProgress[]
@@ -45,6 +47,10 @@ export default function StudentProfilePage() {
     setGrades((gradesRes.data ?? []) as LMSGrade[])
     setAttendance((attendRes.data ?? []) as LMSAttendance[])
     setSubmissions((subsRes.data ?? []) as LMSSubmission[])
+    setQuizHistory(((quizRes.data ?? []) as unknown[]).map((r: unknown) => {
+      const row = r as { id: string; score: number; passed: boolean; correct_answers: number; total_questions: number; time_spent_seconds: number; created_at: string; quiz?: { lesson?: { title?: string } | null } | null }
+      return { id: row.id, score: row.score, passed: row.passed, correct_answers: row.correct_answers, total_questions: row.total_questions, time_spent_seconds: row.time_spent_seconds, created_at: row.created_at, lesson: row.quiz?.lesson ?? null }
+    }))
 
     // Load courses
     const courseIds = [...new Set(prog.map(p => p.course_id).filter(Boolean))]
@@ -178,20 +184,72 @@ export default function StudentProfilePage() {
 
           {/* Grades tab */}
           {tab === 'grades' && (
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-              {grades.map(g => (
-                <div key={g.id} style={{ background: '#fff', borderRadius: 14, padding: '14px 18px', border: '1px solid rgba(27,143,196,0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <div>
-                    <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b' }}>{g.grade_type}</div>
-                    {g.comment && <div style={{ fontSize: 12, color: '#64748b' }}>{g.comment}</div>}
-                  </div>
-                  <div style={{ textAlign: 'right' }}>
-                    <div style={{ fontSize: 20, fontWeight: 900, color: (g.score ?? 0) >= 70 ? '#16a34a' : '#dc2626' }}>{g.score ?? '—'}/{g.max_score}</div>
-                    <div style={{ fontSize: 11, color: '#94a3b8' }}>{new Date(g.graded_at).toLocaleDateString('ru-RU')}</div>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+
+              {/* Manual grades from teacher */}
+              {grades.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 12, fontWeight: 800, color: '#64748b', textTransform: 'uppercase' as const, letterSpacing: '0.06em', marginBottom: 10 }}>Оценки преподавателя</div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                    {grades.map(g => {
+                      const GT_LABEL: Record<string, string> = { quiz: 'Квиз', assignment: 'Задание', midterm: 'Рубежный', final: 'Итоговый', attendance: 'Посещаемость' }
+                      return (
+                        <div key={g.id} style={{ background: '#fff', borderRadius: 14, padding: '14px 18px', border: '1px solid rgba(27,143,196,0.1)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                          <div>
+                            <div style={{ fontSize: 14, fontWeight: 700, color: '#1e293b' }}>{GT_LABEL[g.grade_type ?? ''] ?? g.grade_type ?? '—'}</div>
+                            {g.comment && <div style={{ fontSize: 12, color: '#64748b' }}>{g.comment}</div>}
+                          </div>
+                          <div style={{ textAlign: 'right' as const }}>
+                            <div style={{ fontSize: 20, fontWeight: 900, color: (g.score ?? 0) >= 70 ? '#16a34a' : '#dc2626' }}>{g.score ?? '—'}/{g.max_score}</div>
+                            <div style={{ fontSize: 11, color: '#94a3b8' }}>{new Date(g.graded_at).toLocaleDateString('ru-RU')}</div>
+                          </div>
+                        </div>
+                      )
+                    })}
                   </div>
                 </div>
-              ))}
-              {grades.length === 0 && <div style={{ color: '#94a3b8', fontSize: 14 }}>Оценок нет</div>}
+              )}
+
+              {/* Quiz attempt history */}
+              {quizHistory.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 12, fontWeight: 800, color: '#64748b', textTransform: 'uppercase' as const, letterSpacing: '0.06em', marginBottom: 10 }}>История квизов ({quizHistory.length})</div>
+                  <div style={{ background: '#fff', borderRadius: 16, border: '1px solid rgba(27,143,196,0.1)', overflow: 'hidden' }}>
+                    <table style={{ width: '100%', borderCollapse: 'collapse' as const, fontSize: 13, fontFamily: 'Montserrat' }}>
+                      <thead>
+                        <tr style={{ background: '#f8fafc', borderBottom: '1px solid #f1f5f9' }}>
+                          {['Урок', 'Балл', 'Правильных', 'Время', 'Статус', 'Дата'].map(h => (
+                            <th key={h} style={{ padding: '10px 14px', textAlign: 'left' as const, fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase' as const, letterSpacing: '0.05em' }}>{h}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {quizHistory.map((q, i) => (
+                          <tr key={q.id} style={{ borderBottom: '1px solid #f1f5f9', background: i % 2 === 0 ? '#fff' : '#fafbfc' }}>
+                            <td style={{ padding: '11px 14px', fontWeight: 600, color: '#1e293b', maxWidth: 200, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' as const }}>{q.lesson?.title ?? '—'}</td>
+                            <td style={{ padding: '11px 14px', fontWeight: 900, fontSize: 15, color: q.score >= 70 ? '#16a34a' : q.score >= 50 ? '#d97706' : '#dc2626' }}>{q.score}%</td>
+                            <td style={{ padding: '11px 14px', color: '#475569' }}>{q.correct_answers}/{q.total_questions}</td>
+                            <td style={{ padding: '11px 14px', color: '#64748b' }}>{q.time_spent_seconds ? `${Math.round(q.time_spent_seconds / 60)} мин` : '—'}</td>
+                            <td style={{ padding: '11px 14px' }}>
+                              <span style={{ background: q.passed ? '#dcfce7' : '#fee2e2', color: q.passed ? '#16a34a' : '#dc2626', borderRadius: 6, padding: '2px 9px', fontSize: 11, fontWeight: 700 }}>
+                                {q.passed ? 'Сдал' : 'Не сдал'}
+                              </span>
+                            </td>
+                            <td style={{ padding: '11px 14px', color: '#94a3b8', fontSize: 12 }}>{new Date(q.created_at).toLocaleDateString('ru-RU')}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
+              {grades.length === 0 && quizHistory.length === 0 && (
+                <div style={{ color: '#94a3b8', fontSize: 14, textAlign: 'center' as const, padding: 40 }}>
+                  <div style={{ fontSize: 36, marginBottom: 10 }}>📊</div>
+                  Оценок и квизов нет
+                </div>
+              )}
             </div>
           )}
 

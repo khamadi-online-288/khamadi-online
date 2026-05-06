@@ -18,7 +18,7 @@ export default function CreateGroupPage() {
     async function loadOptions() {
       const [teacherRoles, coursesRes] = await Promise.all([
         supabase.from('english_user_roles').select('user_id').eq('role', 'teacher'),
-        supabase.from('english_courses').select('id,title').eq('is_published', true).order('title'),
+        supabase.from('english_courses').select('id,title').eq('is_active', true).order('title'),
       ])
       const tIds = ((teacherRoles.data ?? []) as { user_id: string }[]).map(r => r.user_id)
       if (tIds.length) {

@@ -101,6 +101,8 @@ export default function GameQuiz({
 
     const supabase = createEnglishClient()
 
+    const now = new Date().toISOString()
+
     // Save quiz result (fire-and-forget — table may not exist yet)
     supabase.from('english_quiz_results').insert({
       quiz_id:           quizId,
@@ -120,8 +122,30 @@ export default function GameQuiz({
       lesson_id:    lessonId,
       completed:    passed,
       score,
-      completed_at: passed ? new Date().toISOString() : null,
+      completed_at: passed ? now : null,
     }, { onConflict: 'user_id,lesson_id' })
+
+    // Sync to lms_progress so teachers can see student progress
+    supabase.from('lms_progress').upsert({
+      student_id:        userId,
+      lesson_id:         lessonId,
+      course_id:         courseId,
+      status:            passed ? 'completed' : 'in_progress',
+      score,
+      attempts:          1,
+      time_spent_seconds: spent,
+      completed_at:      passed ? now : null,
+    }, { onConflict: 'student_id,lesson_id', ignoreDuplicates: false }).then(() => {})
+
+    // Record quiz grade in lms_grades so teachers see it in reports & grade book
+    supabase.from('lms_grades').insert({
+      student_id: userId,
+      course_id:  courseId,
+      grade_type: 'quiz',
+      score,
+      max_score:  100,
+      graded_at:  now,
+    }).then(() => {})
 
     if (!passed) return
 

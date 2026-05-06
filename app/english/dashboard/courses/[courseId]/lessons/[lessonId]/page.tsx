@@ -2016,8 +2016,21 @@ export default function LessonPage() {
 
               if (!listening?.audio_url) {
                 return (
-                  <div style={{ padding: 40, textAlign: 'center' as const, color: '#94a3b8', fontSize: 14, fontWeight: 600 }}>
-                    🎧 Listening материал для этого урока скоро появится
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 16, padding: '60px 24px', textAlign: 'center' }}>
+                    <div style={{ width: 72, height: 72, borderRadius: '50%', background: 'linear-gradient(135deg, #e0f2fe, #bae6fd)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 32 }}>
+                      🔒
+                    </div>
+                    <div>
+                      <p style={{ margin: '0 0 6px', fontSize: 17, fontWeight: 900, color: '#0c4a6e' }}>Listening откроется позже</p>
+                      <p style={{ margin: 0, fontSize: 13, color: '#64748b', fontWeight: 600, lineHeight: 1.6, maxWidth: 320 }}>
+                        Сначала пройди <strong>Grammar</strong> и <strong>Vocabulary</strong> — после этого откроется аудио задание
+                      </p>
+                    </div>
+                    <div style={{ display: 'flex', gap: 10, marginTop: 4 }}>
+                      {['Grammar', 'Vocabulary'].map(s => (
+                        <span key={s} style={{ background: 'rgba(14,165,233,0.1)', color: '#0369a1', borderRadius: 999, padding: '5px 16px', fontSize: 12, fontWeight: 800 }}>{s}</span>
+                      ))}
+                    </div>
                   </div>
                 )
               }
