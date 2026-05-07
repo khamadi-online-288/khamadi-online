@@ -4,26 +4,14 @@ import { useEffect, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import { LayoutDashboard, Users, BookOpen, BarChart3, Award, Megaphone, Settings, Users2, LogOut, Headphones, GraduationCap, LineChart, FileText } from 'lucide-react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-
-const NAV = [
-  { href: '/english/admin',              icon: LayoutDashboard, label: 'Главная',        badge: false },
-  { href: '/english/admin/users',        icon: Users,           label: 'Пользователи',   badge: true  },
-  { href: '/english/admin/students',     icon: GraduationCap,   label: 'Студенты',       badge: false },
-  { href: '/english/admin/groups',       icon: Users2,          label: 'Группы',         badge: false },
-  { href: '/english/admin/courses',      icon: BookOpen,        label: 'Курсы',          badge: false },
-  { href: '/english/admin/content',      icon: FileText,        label: 'Контент',        badge: false },
-  { href: '/english/admin/analytics',    icon: LineChart,       label: 'Аналитика',      badge: false },
-  { href: '/english/admin/reports',      icon: BarChart3,       label: 'Отчёты',         badge: false },
-  { href: '/english/admin/certificates', icon: Award,           label: 'Сертификаты',    badge: false },
-  { href: '/english/admin/announcements',icon: Megaphone,       label: 'Объявления',     badge: false },
-  { href: '/english/admin/settings',     icon: Settings,        label: 'Настройки',      badge: false },
-  { href: '/english/support-agent',      icon: Headphones,      label: 'Support Center', badge: false },
-]
+import { useLanguage } from '@/app/english/context/LanguageContext'
+import { LanguageSwitcher } from '@/app/english/components/LanguageSwitcher'
 
 export default function AdminSidebar() {
-  const path = usePathname()
-  const router = useRouter()
-  const supabase = createEnglishClient()
+  const path      = usePathname()
+  const router    = useRouter()
+  const supabase  = createEnglishClient()
+  const { t }     = useLanguage()
   const [pendingCount, setPendingCount] = useState(0)
 
   useEffect(() => {
@@ -31,8 +19,23 @@ export default function AdminSidebar() {
       .from('english_user_roles')
       .select('user_id', { count: 'exact', head: true })
       .eq('status', 'pending')
-      .then(({ count }) => setPendingCount(count ?? 0))
+      .then(({ count }: { count: number | null }) => setPendingCount(count ?? 0))
   }, [])
+
+  const NAV = [
+    { href: '/english/admin',               icon: LayoutDashboard, label: t.admin.dashboard,     badge: false },
+    { href: '/english/admin/users',         icon: Users,           label: t.admin.users,          badge: true  },
+    { href: '/english/admin/students',      icon: GraduationCap,   label: t.admin.students,       badge: false },
+    { href: '/english/admin/groups',        icon: Users2,          label: t.admin.groups,         badge: false },
+    { href: '/english/admin/courses',       icon: BookOpen,        label: t.nav.courses,          badge: false },
+    { href: '/english/admin/content',       icon: FileText,        label: t.admin.content,        badge: false },
+    { href: '/english/admin/analytics',     icon: LineChart,       label: t.admin.analytics,      badge: false },
+    { href: '/english/admin/reports',       icon: BarChart3,       label: t.admin.reports,        badge: false },
+    { href: '/english/admin/certificates',  icon: Award,           label: t.admin.certificates,   badge: false },
+    { href: '/english/admin/announcements', icon: Megaphone,       label: t.admin.announcements,  badge: false },
+    { href: '/english/admin/settings',      icon: Settings,        label: t.admin.settings,       badge: false },
+    { href: '/english/support-agent',       icon: Headphones,      label: 'Support',              badge: false },
+  ]
 
   async function handleLogout() {
     await supabase.auth.signOut()
@@ -44,18 +47,23 @@ export default function AdminSidebar() {
       <div style={{ padding: '0 24px 24px', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
         <Link href="/english/admin" style={{ textDecoration: 'none' }}>
           <div style={{ fontSize: 17, fontWeight: 900, color: '#fff' }}>KHAMADI</div>
-          <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(255,255,255,0.35)', marginTop: 2 }}>Панель администратора</div>
+          <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(255,255,255,0.35)', marginTop: 2 }}>
+            {t.admin.dashboard}
+          </div>
         </Link>
       </div>
+
       <nav style={{ flex: 1, padding: '20px 12px', display: 'flex', flexDirection: 'column', gap: 3 }}>
         {NAV.map(item => {
           const active = path === item.href || (item.href !== '/english/admin' && path.startsWith(item.href))
           const badge  = item.badge && pendingCount > 0 ? pendingCount : 0
           return (
             <Link key={item.href} href={item.href} style={{ textDecoration: 'none' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: 11, padding: '10px 14px', borderRadius: 11, background: active ? 'rgba(201,147,59,0.2)' : 'transparent', color: active ? '#C9933B' : 'rgba(255,255,255,0.55)', fontWeight: active ? 800 : 500, fontSize: 13, transition: 'all 0.15s', justifyContent: 'space-between' }}
+              <div
+                style={{ display: 'flex', alignItems: 'center', gap: 11, padding: '10px 14px', borderRadius: 11, background: active ? 'rgba(201,147,59,0.2)' : 'transparent', color: active ? '#C9933B' : 'rgba(255,255,255,0.55)', fontWeight: active ? 800 : 500, fontSize: 13, transition: 'all 0.15s', justifyContent: 'space-between' }}
                 onMouseEnter={e => { if (!active) e.currentTarget.style.background = 'rgba(255,255,255,0.06)' }}
-                onMouseLeave={e => { if (!active) e.currentTarget.style.background = 'transparent' }}>
+                onMouseLeave={e => { if (!active) e.currentTarget.style.background = 'transparent' }}
+              >
                 <div style={{ display: 'flex', alignItems: 'center', gap: 11 }}>
                   <item.icon size={17} />
                   {item.label}
@@ -70,11 +78,20 @@ export default function AdminSidebar() {
           )
         })}
       </nav>
-      <div style={{ padding: '14px 12px', borderTop: '1px solid rgba(255,255,255,0.08)' }}>
-        <button onClick={handleLogout} style={{ width: '100%', display: 'flex', alignItems: 'center', gap: 11, padding: '10px 14px', borderRadius: 11, border: 'none', background: 'transparent', color: 'rgba(255,255,255,0.4)', fontWeight: 500, fontSize: 13, cursor: 'pointer', fontFamily: 'Montserrat' }}
+
+      <div style={{ padding: '14px 12px', borderTop: '1px solid rgba(255,255,255,0.08)', display: 'flex', flexDirection: 'column', gap: 8 }}>
+        {/* Language switcher */}
+        <div style={{ paddingLeft: 2 }}>
+          <LanguageSwitcher />
+        </div>
+
+        <button
+          onClick={handleLogout}
+          style={{ width: '100%', display: 'flex', alignItems: 'center', gap: 11, padding: '10px 14px', borderRadius: 11, border: 'none', background: 'transparent', color: 'rgba(255,255,255,0.4)', fontWeight: 500, fontSize: 13, cursor: 'pointer', fontFamily: 'Montserrat' }}
           onMouseEnter={e => (e.currentTarget.style.color = '#fff')}
-          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.4)')}>
-          <LogOut size={17} /> Выйти
+          onMouseLeave={e => (e.currentTarget.style.color = 'rgba(255,255,255,0.4)')}
+        >
+          <LogOut size={17} /> {t.nav.logout}
         </button>
       </div>
     </aside>

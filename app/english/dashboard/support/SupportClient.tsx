@@ -1,8 +1,9 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { ChevronDown, ChevronRight, Search } from 'lucide-react'
+import { ChevronDown, ChevronRight, Search, ArrowLeft } from 'lucide-react'
 
 type Ticket = { id: string; ticket_number: number; subject: string; status: string; priority: string; category: string | null; created_at: string; updated_at: string }
 type FAQ    = { id: string; category: string; question: string; answer: string }
@@ -71,6 +72,16 @@ export default function SupportClient({ userId, userEmail, userName }: Props) {
 
   return (
     <div style={{ maxWidth: 780 }}>
+      {/* Back button */}
+      <Link
+        href="/english/dashboard"
+        style={{ display: 'inline-flex', alignItems: 'center', gap: 6, color: '#64748b', textDecoration: 'none', fontSize: 13, fontWeight: 700, marginBottom: 20, padding: '8px 14px', borderRadius: 10, background: '#f1f5f9', transition: 'background 0.15s' }}
+        onMouseEnter={e => { (e.currentTarget as HTMLAnchorElement).style.background = '#e2e8f0' }}
+        onMouseLeave={e => { (e.currentTarget as HTMLAnchorElement).style.background = '#f1f5f9' }}
+      >
+        <ArrowLeft size={14} /> Назад в кабинет
+      </Link>
+
       <div style={{ marginBottom: 24 }}>
         <div style={{ fontSize: 24, fontWeight: 900, color: '#1B3A6B', marginBottom: 4 }}>Поддержка</div>
         <div style={{ fontSize: 14, color: '#64748b' }}>Задайте вопрос, найдите ответ в FAQ или проверьте статус платформы</div>

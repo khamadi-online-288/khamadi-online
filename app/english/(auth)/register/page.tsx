@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useLanguage } from '@/app/english/context/LanguageContext'
+import { LanguageSwitcher } from '@/app/english/components/LanguageSwitcher'
 
 type Role = 'student' | 'teacher'
 type StudentPurpose = 'accounting' | 'computer_science' | 'hospitality' | 'management' | 'finance_industry' | 'social_sciences' | 'law'
@@ -19,6 +21,7 @@ const STUDENT_PURPOSES: { value: StudentPurpose; icon: string; title: string; de
 
 export default function EnglishRegisterPage() {
   const router = useRouter()
+  const { t } = useLanguage()
   const [fullName,        setFullName]        = useState('')
   const [email,           setEmail]           = useState('')
   const [password,        setPassword]        = useState('')
@@ -30,8 +33,8 @@ export default function EnglishRegisterPage() {
 
   async function handleRegister(e: React.FormEvent) {
     e.preventDefault()
-    if (!fullName || !email || !password) { setError('Заполните все поля'); return }
-    if (password.length < 6) { setError('Пароль минимум 6 символов'); return }
+    if (!fullName || !email || !password) { setError(t.auth.fill_all); return }
+    if (password.length < 6) { setError(t.auth.password_short); return }
 
     setLoading(true)
     setError('')
@@ -39,7 +42,6 @@ export default function EnglishRegisterPage() {
     const supabase = createEnglishClient()
 
     try {
-      // Try to create a new auth account
       const { data: signUpData, error: signUpErr } = await supabase.auth.signUp({ email, password })
 
       let userId: string | null = null
@@ -50,22 +52,19 @@ export default function EnglishRegisterPage() {
         if (!alreadyExists) { setError(signUpErr.message); return }
       }
 
-      // Use user.id from signUp (works even when session=null due to email confirm)
       if (signUpData.user?.id) {
         userId = signUpData.user.id
       } else {
-        // Fallback: sign in to get user id
         const { data: signInData, error: signInErr } = await supabase.auth.signInWithPassword({ email, password })
         if (signInErr || !signInData.user) {
-          setError('Аккаунт с таким email уже существует. Введите правильный пароль.')
+          setError(t.auth.wrong_credentials)
           return
         }
         userId = signInData.user.id
       }
 
-      if (!userId) { setError('Не удалось определить пользователя.'); return }
+      if (!userId) { setError(t.common.error); return }
 
-      // Check if English profile already exists (select only 'role' — always exists)
       const { data: existing } = await supabase
         .from('english_user_roles')
         .select('role')
@@ -73,13 +72,11 @@ export default function EnglishRegisterPage() {
         .maybeSingle()
 
       if (existing) {
-        // User already registered — show pending screen (they're waiting for approval)
         await supabase.auth.signOut()
         setDone(true)
         return
       }
 
-      // Try INSERT with status + email (migration 044 columns)
       const { error: insertErr } = await supabase.from('english_user_roles').insert({
         user_id:   userId,
         full_name: fullName,
@@ -90,7 +87,6 @@ export default function EnglishRegisterPage() {
       })
 
       if (insertErr) {
-        // Fallback: insert without migration-044 columns (status/email not yet added)
         const { error: insertErr2 } = await supabase.from('english_user_roles').insert({
           user_id:   userId,
           full_name: fullName,
@@ -98,12 +94,11 @@ export default function EnglishRegisterPage() {
           purpose:   role === 'student' ? studentPurpose : null,
         })
         if (insertErr2) {
-          setError(`Ошибка создания профиля: ${insertErr2.message}`)
+          setError(`${t.common.error}: ${insertErr2.message}`)
           return
         }
       }
 
-      // Notify all admins (try — non-blocking)
       const { data: admins } = await supabase
         .from('english_user_roles')
         .select('user_id')
@@ -122,7 +117,7 @@ export default function EnglishRegisterPage() {
       await supabase.auth.signOut()
       setDone(true)
     } catch {
-      setError('Ошибка регистрации. Попробуйте снова.')
+      setError(t.common.error)
     } finally {
       setLoading(false)
     }
@@ -132,15 +127,13 @@ export default function EnglishRegisterPage() {
     <div style={{ minHeight: '100vh', background: 'linear-gradient(180deg,#f8fcff 0%,#eef8ff 60%,#fff 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Montserrat, sans-serif', padding: 20 }}>
       <div style={{ background: '#fff', borderRadius: 28, padding: '52px 44px', maxWidth: 480, width: '100%', textAlign: 'center', boxShadow: '0 8px 40px rgba(14,165,233,0.10)', border: '1px solid rgba(14,165,233,0.10)' }}>
         <div style={{ fontSize: 64, marginBottom: 20 }}>⏳</div>
-        <div style={{ fontSize: 24, fontWeight: 900, color: '#0f172a', marginBottom: 12, letterSpacing: '-0.03em' }}>Заявка отправлена</div>
+        <div style={{ fontSize: 24, fontWeight: 900, color: '#0f172a', marginBottom: 12, letterSpacing: '-0.03em' }}>{t.auth.register_done_title}</div>
         <div style={{ fontSize: 15, color: '#64748b', lineHeight: 1.75, marginBottom: 36, fontWeight: 600 }}>
-          Ваша заявка на доступ к платформе отправлена администратору.<br />
-          После одобрения вы получите уведомление и сможете войти.<br />
-          Обычно это занимает не более 24 часов.
+          {t.auth.register_done_body}
         </div>
         <button onClick={() => router.push('/english')}
           style={{ padding: '14px 32px', borderRadius: 14, background: 'linear-gradient(135deg,#0ea5e9,#38bdf8)', color: '#fff', fontWeight: 800, fontSize: 15, border: 'none', cursor: 'pointer', fontFamily: 'Montserrat' }}>
-          ← Вернуться на главную
+          {t.auth.back_to_main}
         </button>
       </div>
     </div>
@@ -159,51 +152,54 @@ export default function EnglishRegisterPage() {
             <div className="brand-pill">🇬🇧 KHAMADI ENGLISH</div>
             <div className="left-kicker">Registration</div>
             <h1 className="hero-title">
-              Создайте аккаунт<br /><span>и начните правильно</span>
+              {t.auth.create_account}<br /><span>{t.auth.create_account_line2}</span>
             </h1>
             <p className="hero-text">
-              Студент выбирает направление перед входом в платформу. Преподаватель просто создаёт аккаунт без лишних шагов.
+              {t.auth.for_students_desc} {t.auth.for_teachers_desc}
             </p>
             <div className="feature-list">
               <div className="feature-item">
                 <div className="feature-icon">🎓</div>
-                <div><div className="feature-title">Для студентов</div><div className="feature-text">Выбор направления ещё до входа в платформу.</div></div>
+                <div><div className="feature-title">{t.auth.for_students}</div><div className="feature-text">{t.auth.for_students_desc}</div></div>
               </div>
               <div className="feature-item">
                 <div className="feature-icon">👩‍🏫</div>
-                <div><div className="feature-title">Для преподавателей</div><div className="feature-text">Без purpose и без лишней логики.</div></div>
+                <div><div className="feature-title">{t.auth.for_teachers}</div><div className="feature-text">{t.auth.for_teachers_desc}</div></div>
               </div>
               <div className="feature-item">
                 <div className="feature-icon">🔐</div>
-                <div><div className="feature-title">После регистрации</div><div className="feature-text">Сразу переход на страницу логина.</div></div>
+                <div><div className="feature-title">{t.auth.after_register}</div><div className="feature-text">{t.auth.login_subtitle}</div></div>
               </div>
             </div>
             <div className="status-card">
-              <div className="status-kicker">Сейчас выбрано</div>
-              <div className="status-title">{role === 'student' ? 'Аккаунт студента' : 'Аккаунт преподавателя'}</div>
+              <div className="status-kicker">{t.auth.select_role}</div>
+              <div className="status-title">{role === 'student' ? t.auth.student : t.auth.teacher}</div>
               <div className="status-text">
-                {role === 'student'
-                  ? 'Студент выбирает одно направление и после регистрации переходит на логин.'
-                  : 'Преподаватель регистрируется без выбора направления и после этого переходит на логин.'}
+                {role === 'student' ? t.auth.student_desc : t.auth.teacher_desc}
               </div>
             </div>
           </aside>
 
           <section className="right-panel">
             <div className="form-header">
-              <h2>Регистрация</h2>
-              <p>Выберите роль и заполните данные</p>
+              <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 20 }}>
+                <div>
+                  <h2>{t.auth.register_title}</h2>
+                  <p>{t.auth.register_subtitle}</p>
+                </div>
+                <LanguageSwitcher variant="light" />
+              </div>
             </div>
 
             <form onSubmit={handleRegister} className="form-stack">
               <div>
-                <div className="section-label">Роль аккаунта</div>
+                <div className="section-label">{t.auth.select_role}</div>
                 <div className="role-grid">
                   {(['student', 'teacher'] as Role[]).map(r => (
                     <button key={r} type="button" className={`role-card ${role === r ? 'active' : ''}`} onClick={() => setRole(r)}>
                       <div className="role-icon">{r === 'student' ? '🎓' : '👩‍🏫'}</div>
-                      <div className="role-title">{r === 'student' ? 'Студент' : 'Преподаватель'}</div>
-                      <div className="role-text">{r === 'student' ? 'Для обучения и прохождения направлений' : 'Для работы с учениками и обучением'}</div>
+                      <div className="role-title">{r === 'student' ? t.auth.student : t.auth.teacher}</div>
+                      <div className="role-text">{r === 'student' ? t.auth.student_desc : t.auth.teacher_desc}</div>
                     </button>
                   ))}
                 </div>
@@ -211,7 +207,7 @@ export default function EnglishRegisterPage() {
 
               {role === 'student' && (
                 <div>
-                  <div className="section-label">Выберите направление</div>
+                  <div className="section-label">{t.auth.select_direction}</div>
                   <div className="purpose-grid">
                     {STUDENT_PURPOSES.map(item => (
                       <button
@@ -231,19 +227,18 @@ export default function EnglishRegisterPage() {
 
               <div className="input-grid">
                 <div>
-                  <label className="field-label">Полное имя</label>
-                  <input className="input-field" type="text" value={fullName} onChange={e => setFullName(e.target.value)} placeholder="Введите имя" />
+                  <label className="field-label">{t.auth.full_name}</label>
+                  <input className="input-field" type="text" value={fullName} onChange={e => setFullName(e.target.value)} placeholder={t.auth.enter_name} />
                 </div>
                 <div>
-                  <label className="field-label">Email</label>
-                  <input className="input-field" type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="Введите email" />
+                  <label className="field-label">{t.auth.email}</label>
+                  <input className="input-field" type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder={t.auth.enter_email} />
                 </div>
               </div>
 
               <div>
-                <label className="field-label">Пароль</label>
-                <input className="input-field" type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Минимум 6 символов" />
-                <div className="field-hint">После регистрации вы перейдёте на страницу логина.</div>
+                <label className="field-label">{t.auth.password}</label>
+                <input className="input-field" type="password" value={password} onChange={e => setPassword(e.target.value)} placeholder={t.auth.password_short} />
               </div>
 
               {error && <div className="error-box">{error}</div>}
@@ -251,24 +246,24 @@ export default function EnglishRegisterPage() {
               <div className="cta-block">
                 <div className="cta-copy">
                   <div className="cta-kicker">{role === 'student' ? 'Student registration' : 'Teacher registration'}</div>
-                  <div className="cta-title">{role === 'student' ? 'Создать аккаунт студента' : 'Создать аккаунт преподавателя'}</div>
-                  <div className="cta-text">{role === 'student' ? 'После регистрации студент попадёт на логин, а затем уже в платформу.' : 'После регистрации преподаватель попадёт на логин, а затем в свой кабинет.'}</div>
+                  <div className="cta-title">{role === 'student' ? t.auth.student : t.auth.teacher}</div>
+                  <div className="cta-text">{role === 'student' ? t.auth.student_desc : t.auth.teacher_desc}</div>
                 </div>
                 <button type="submit" disabled={loading} className="submit-button">
-                  {loading ? 'Создание...' : 'Зарегистрироваться →'}
+                  {loading ? t.auth.signing_up : t.auth.sign_up}
                 </button>
               </div>
 
               <div className="login-row">
-                <span>Уже есть аккаунт?</span>
-                <button type="button" onClick={() => router.push('/english/login')}>Войти</button>
+                <span>{t.auth.have_account}</span>
+                <button type="button" onClick={() => router.push('/english/login')}>{t.auth.login_link}</button>
               </div>
             </form>
           </section>
         </div>
 
         <div className="back-row">
-          <button onClick={() => router.push('/english')}>← На главную KHAMADI English</button>
+          <button onClick={() => router.push('/english')}>{t.auth.back_home}</button>
         </div>
       </div>
 
@@ -298,7 +293,7 @@ export default function EnglishRegisterPage() {
         .status-kicker { font-size: 11px; font-weight: 900; color: #0ea5e9; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }
         .status-title { font-size: 18px; font-weight: 900; color: #0f172a; margin-bottom: 6px; }
         .status-text { font-size: 14px; line-height: 1.75; color: #64748b; font-weight: 600; }
-        .form-header { margin-bottom: 20px; }
+        .form-header { margin-bottom: 0; }
         .form-header h2 { font-size: 32px; line-height: 1.05; letter-spacing: -0.05em; font-weight: 900; color: #0f172a; margin: 0 0 10px; }
         .form-header p { margin: 0; color: #64748b; font-size: 15px; font-weight: 600; line-height: 1.7; }
         .form-stack { display: flex; flex-direction: column; gap: 22px; }
@@ -322,7 +317,6 @@ export default function EnglishRegisterPage() {
         .input-field { width: 100%; min-height: 52px; border-radius: 16px; border: 1.5px solid rgba(14,165,233,0.12); background: rgba(255,255,255,0.88); padding: 0 16px; font-size: 15px; font-weight: 600; color: #0f172a; outline: none; transition: all .22s ease; box-sizing: border-box; }
         .input-field::placeholder { color: #94a3b8; }
         .input-field:focus { border-color: #0ea5e9; box-shadow: 0 0 0 4px rgba(14,165,233,0.10); background: #ffffff; }
-        .field-hint { margin-top: 8px; font-size: 12px; color: #64748b; font-weight: 600; }
         .error-box { background: rgba(239,68,68,0.07); border: 1px solid rgba(239,68,68,0.20); border-radius: 16px; padding: 14px 16px; font-size: 13px; color: #dc2626; font-weight: 700; }
         .cta-block { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-radius: 24px; padding: 18px 18px 18px 20px; background: linear-gradient(135deg,rgba(56,189,248,0.12),rgba(255,255,255,0.94)); border: 1px solid rgba(14,165,233,0.14); box-shadow: 0 16px 34px rgba(14,165,233,0.08); }
         .cta-copy { flex: 1; min-width: 0; }

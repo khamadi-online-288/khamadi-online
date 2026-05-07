@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import TeacherHeader from '@/components/english/lms/teacher/TeacherHeader'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 import GradeBook from '@/components/english/lms/teacher/GradeBook'
 import type { EnglishProfile, LMSGrade } from '@/lib/english/lms/types'
 import { calculateAverageScore } from '@/lib/english/lms/progress'
@@ -13,6 +14,7 @@ const card: React.CSSProperties = { background: '#fff', borderRadius: 18, border
 
 export default function TeacherGradebookPage() {
   const supabase = createEnglishClient()
+  const { t } = useLanguage()
   const [uid, setUid]             = useState('')
   const [groups, setGroups]       = useState<Group[]>([])
   const [selected, setSelected]   = useState('')
@@ -94,14 +96,14 @@ export default function TeacherGradebookPage() {
 
   if (loading) return (
     <div style={{ flex: 1 }}>
-      <TeacherHeader title="Журнал оценок" />
+      <TeacherHeader title={t.teacher.gradebook} />
       <div style={{ padding: 40, textAlign: 'center', color: '#94a3b8' }}>Загрузка...</div>
     </div>
   )
 
   return (
     <div style={{ flex: 1 }}>
-      <TeacherHeader title="Журнал оценок" />
+      <TeacherHeader title={t.teacher.gradebook} />
       <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 20 }}>
 
         {/* Group selector */}

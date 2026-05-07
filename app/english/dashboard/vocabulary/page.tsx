@@ -4,14 +4,22 @@ import { useEffect, useState } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 interface VocabWord { id: string; word: string; translation?: string; definition?: string; difficulty: number; next_review_at: string; correct_count: number; incorrect_count: number; added_at: string }
 
-const STATUS_LABEL: Record<number, string> = { 0: 'Новое', 1: 'Изучается', 2: 'Повторение', 3: 'Выучено' }
 const STATUS_COLOR: Record<number, string> = { 0: '#94a3b8', 1: '#f59e0b', 2: '#1B8FC4', 3: '#10b981' }
 
 export default function VocabularyPage() {
   const supabase = createEnglishClient()
+  const { t, lang } = useLanguage()
+  const dtLocale = lang === 'kk' ? 'kk-KZ' : 'ru-RU'
+  const STATUS_LABEL: Record<number, string> = {
+    0: t.vocabulary_page.status_new,
+    1: t.vocabulary_page.status_learning,
+    2: t.vocabulary_page.status_review,
+    3: t.vocabulary_page.status_mastered,
+  }
   const [words, setWords] = useState<VocabWord[]>([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
@@ -54,7 +62,7 @@ export default function VocabularyPage() {
       await supabase.from('english_vocabulary').upsert({ user_id: uid, word: newWord.trim().toLowerCase(), translation: info.translation as string, definition: info.definition as string, etymology: info.etymology as string, root_words: info.root_words as string[], example_sentence: info.example_sentence as string }, { onConflict: 'user_id,word' })
       setNewWord(''); setShowAdd(false)
       load(uid)
-    } catch { setAddError('Ошибка. Попробуйте ещё раз.') }
+    } catch { setAddError(t.vocabulary_page.error) }
     setAdding(false)
   }
 
@@ -64,26 +72,26 @@ export default function VocabularyPage() {
     <div style={{ maxWidth: 780 }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 24, flexWrap: 'wrap' as const, gap: 12 }}>
         <div>
-          <h1 style={{ fontSize: 24, fontWeight: 900, color: '#1B3A6B', margin: '0 0 4px' }}>Мой словарь</h1>
-          <p style={{ fontSize: 13, color: '#64748b', margin: 0 }}>Персональная коллекция слов с SRS-повторением</p>
+          <h1 style={{ fontSize: 24, fontWeight: 900, color: '#1B3A6B', margin: '0 0 4px' }}>{t.vocabulary_page.title}</h1>
+          <p style={{ fontSize: 13, color: '#64748b', margin: 0 }}>{t.vocabulary_page.subtitle}</p>
         </div>
         <div style={{ display: 'flex', gap: 10 }}>
           {dueWords.length > 0 && (
             <Link href="/english/dashboard/vocabulary/practice" style={{ textDecoration: 'none' }}>
               <button style={{ padding: '10px 18px', borderRadius: 11, background: '#1B8FC4', color: '#fff', fontWeight: 800, fontSize: 13, border: 'none', cursor: 'pointer', fontFamily: 'Montserrat', display: 'flex', alignItems: 'center', gap: 6 }}>
-                Повторить ({dueWords.length})
+                {t.vocabulary_page.review_btn} ({dueWords.length})
               </button>
             </Link>
           )}
           <button onClick={() => setShowAdd(s => !s)} style={{ padding: '10px 18px', borderRadius: 11, background: '#1B3A6B', color: '#fff', fontWeight: 800, fontSize: 13, border: 'none', cursor: 'pointer', fontFamily: 'Montserrat' }}>
-            + Добавить слово
+            {t.vocabulary_page.add_word}
           </button>
         </div>
       </div>
 
       {/* Metrics */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 12, marginBottom: 24 }}>
-        {[{ label: 'Всего слов', value: words.length, color: '#1B3A6B' }, { label: 'На повторении', value: dueWords.length, color: '#f59e0b' }, { label: 'Выучено', value: masteredWords.length, color: '#10b981' }].map(m => (
+        {[{ label: t.vocabulary_page.total_words, value: words.length, color: '#1B3A6B' }, { label: t.vocabulary_page.due_review, value: dueWords.length, color: '#f59e0b' }, { label: t.vocabulary_page.mastered, value: masteredWords.length, color: '#10b981' }].map(m => (
           <div key={m.label} style={{ background: '#fff', borderRadius: 14, padding: '16px 20px', border: '1px solid rgba(27,143,196,0.1)' }}>
             <div style={{ fontSize: 11, color: '#64748b', fontWeight: 700, marginBottom: 4, textTransform: 'uppercase' as const, letterSpacing: '0.5px' }}>{m.label}</div>
             <div style={{ fontSize: 28, fontWeight: 900, color: m.color }}>{m.value}</div>
@@ -94,24 +102,24 @@ export default function VocabularyPage() {
       {/* Add word modal */}
       {showAdd && (
         <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} style={{ background: '#fff', borderRadius: 16, padding: 20, border: '1px solid rgba(27,143,196,0.15)', marginBottom: 20, boxShadow: '0 4px 20px rgba(27,58,107,0.1)' }}>
-          <div style={{ fontSize: 14, fontWeight: 800, color: '#1B3A6B', marginBottom: 12 }}>Добавить слово</div>
+          <div style={{ fontSize: 14, fontWeight: 800, color: '#1B3A6B', marginBottom: 12 }}>{t.vocabulary_page.add_word_title}</div>
           <div style={{ display: 'flex', gap: 10 }}>
-            <input value={newWord} onChange={e => setNewWord(e.target.value)} onKeyDown={e => e.key === 'Enter' && addWord()} placeholder="Введите английское слово..." autoFocus
+            <input value={newWord} onChange={e => setNewWord(e.target.value)} onKeyDown={e => e.key === 'Enter' && addWord()} placeholder={t.vocabulary_page.word_placeholder} autoFocus
               style={{ flex: 1, padding: '10px 14px', border: '1.5px solid rgba(27,143,196,0.2)', borderRadius: 10, fontSize: 14, fontFamily: 'Montserrat', outline: 'none' }} />
             <button onClick={addWord} disabled={adding || !newWord.trim()} style={{ padding: '10px 18px', borderRadius: 10, background: adding ? '#e2e8f0' : '#1B3A6B', color: adding ? '#94a3b8' : '#fff', fontWeight: 700, border: 'none', cursor: adding ? 'default' : 'pointer', fontFamily: 'Montserrat', fontSize: 13 }}>
-              {adding ? 'AI генерирует...' : 'Добавить'}
+              {adding ? t.vocabulary_page.ai_generating : t.vocabulary_page.add_btn}
             </button>
           </div>
           {addError && <div style={{ fontSize: 12, color: '#ef4444', marginTop: 8 }}>{addError}</div>}
-          <div style={{ fontSize: 11, color: '#94a3b8', marginTop: 6 }}>AI автоматически добавит перевод, этимологию и однокоренные слова</div>
+          <div style={{ fontSize: 11, color: '#94a3b8', marginTop: 6 }}>{t.vocabulary_page.ai_hint}</div>
         </motion.div>
       )}
 
       {/* Search */}
-      <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Поиск по слову или переводу..." style={{ width: '100%', padding: '10px 14px', border: '1.5px solid rgba(27,143,196,0.2)', borderRadius: 11, fontSize: 13, fontFamily: 'Montserrat', outline: 'none', marginBottom: 16, boxSizing: 'border-box' as const }} />
+      <input value={search} onChange={e => setSearch(e.target.value)} placeholder={t.vocabulary_page.search_placeholder} style={{ width: '100%', padding: '10px 14px', border: '1.5px solid rgba(27,143,196,0.2)', borderRadius: 11, fontSize: 13, fontFamily: 'Montserrat', outline: 'none', marginBottom: 16, boxSizing: 'border-box' as const }} />
 
       {/* Words list */}
-      {loading ? <div style={{ textAlign: 'center' as const, padding: 40, color: '#94a3b8' }}>Загрузка...</div> : (
+      {loading ? <div style={{ textAlign: 'center' as const, padding: 40, color: '#94a3b8' }}>{t.common.loading}</div> : (
         <div style={{ display: 'flex', flexDirection: 'column' as const, gap: 8 }}>
           {filtered.map((w, i) => (
             <motion.div key={w.id} initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.02 }}
@@ -121,16 +129,16 @@ export default function VocabularyPage() {
                 <div style={{ fontSize: 12, color: '#64748b', marginTop: 2 }}>{w.translation ?? '—'}</div>
               </div>
               <div style={{ textAlign: 'right' as const, flexShrink: 0 }}>
-                <span style={{ background: `${STATUS_COLOR[w.difficulty]}20`, color: STATUS_COLOR[w.difficulty], borderRadius: 6, padding: '2px 8px', fontSize: 11, fontWeight: 700 }}>{STATUS_LABEL[w.difficulty] ?? 'Новое'}</span>
+                <span style={{ background: `${STATUS_COLOR[w.difficulty]}20`, color: STATUS_COLOR[w.difficulty], borderRadius: 6, padding: '2px 8px', fontSize: 11, fontWeight: 700 }}>{STATUS_LABEL[w.difficulty] ?? t.vocabulary_page.status_new}</span>
                 <div style={{ fontSize: 10, color: '#94a3b8', marginTop: 3 }}>
-                  {new Date(w.next_review_at) <= now ? 'Повторить сейчас' : `Повторить ${new Date(w.next_review_at).toLocaleDateString('ru-RU')}`}
+                  {new Date(w.next_review_at) <= now ? t.vocabulary_page.review_now : `${t.vocabulary_page.review_on} ${new Date(w.next_review_at).toLocaleDateString(dtLocale)}`}
                 </div>
               </div>
             </motion.div>
           ))}
           {filtered.length === 0 && (
             <div style={{ textAlign: 'center' as const, padding: 40, color: '#94a3b8', fontSize: 14 }}>
-              {words.length === 0 ? 'Ваш словарь пуст. Добавьте первое слово!' : 'Ничего не найдено'}
+              {words.length === 0 ? t.vocabulary_page.empty : t.vocabulary_page.not_found}
             </div>
           )}
         </div>

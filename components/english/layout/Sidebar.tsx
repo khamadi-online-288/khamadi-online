@@ -4,39 +4,11 @@ import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { motion } from 'framer-motion'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useLanguage } from '@/app/english/context/LanguageContext'
+import { LanguageSwitcher } from '@/app/english/components/LanguageSwitcher'
 import type { UserRole } from '@/types/english/database'
 
 type NavItem = { href: string; label: string; icon: string; exact?: boolean }
-
-const STUDENT_NAV: NavItem[] = [
-  { href: '/english/dashboard',                        exact: true, label: 'Главная',       icon: '⌂' },
-  { href: '/english/dashboard/courses',                             label: 'Курсы',          icon: '▤' },
-  { href: '/english/dashboard/leaderboard',                         label: 'Лидерборд',      icon: '◈' },
-  { href: '/english/dashboard/placement',                           label: 'Placement Test', icon: '◑' },
-  { href: '/english/dashboard/mock-exam',                           label: 'Mock Exam',      icon: '◧' },
-  { href: '/english/dashboard/vocabulary',                          label: 'Мой словарь',    icon: '≡' },
-  { href: '/english/dashboard/writing',                             label: 'Writing Coach',  icon: '✎' },
-  { href: '/english/dashboard/textbooks',                            label: 'Учебники',       icon: '📖' },
-  { href: '/english/dashboard/certificates',                        label: 'Сертификаты',    icon: '★' },
-  { href: '/english/dashboard/notifications',                       label: 'Уведомления',    icon: '◎' },
-  { href: '/english/dashboard/profile',                             label: 'Профиль',        icon: '○' },
-  { href: '/english/dashboard/support',                             label: 'Поддержка',      icon: '◻' },
-]
-
-const TEACHER_EXTRA: NavItem[] = [
-  { href: '/english/teacher', label: 'Мои студенты', icon: '◈' },
-]
-
-const ADMIN_EXTRA: NavItem[] = [
-  { href: '/english/admin/courses', label: 'Курсы (адм)',  icon: '▲' },
-  { href: '/english/admin/users',   label: 'Пользователи', icon: '◆' },
-]
-
-const NAV_BY_ROLE: Record<UserRole, NavItem[]> = {
-  student: STUDENT_NAV,
-  teacher: [...STUDENT_NAV, ...TEACHER_EXTRA],
-  admin:   [...STUDENT_NAV, ...TEACHER_EXTRA, ...ADMIN_EXTRA],
-}
 
 type Props = { role: UserRole; userName: string }
 
@@ -48,14 +20,46 @@ function getInitial(name: string): string {
 
 function getDisplayName(name: string): string {
   const trimmed = name?.trim()
-  if (!trimmed) return 'Студент'
+  if (!trimmed) return ''
   return trimmed
 }
 
 export default function Sidebar({ role, userName }: Props) {
-  const pathname = usePathname()
-  const router   = useRouter()
-  const items    = NAV_BY_ROLE[role] ?? STUDENT_NAV
+  const pathname  = usePathname()
+  const router    = useRouter()
+  const { t }     = useLanguage()
+
+  const STUDENT_NAV: NavItem[] = [
+    { href: '/english/dashboard',              exact: true, label: t.nav.home,           icon: '⌂' },
+    { href: '/english/dashboard/courses',                   label: t.nav.courses,        icon: '▤' },
+    { href: '/english/dashboard/leaderboard',               label: t.nav.leaderboard,    icon: '◈' },
+    { href: '/english/dashboard/placement',                 label: t.nav.placement_test, icon: '◑' },
+    { href: '/english/dashboard/mock-exam',                 label: t.nav.mock_exam,      icon: '◧' },
+    { href: '/english/dashboard/vocabulary',                label: t.nav.vocabulary,     icon: '≡' },
+    { href: '/english/dashboard/writing',                   label: t.nav.writing_coach,  icon: '✎' },
+    { href: '/english/dashboard/textbooks',                 label: t.nav.textbooks,      icon: '📖' },
+    { href: '/english/dashboard/certificates',              label: t.nav.certificates,   icon: '★' },
+    { href: '/english/dashboard/notifications',             label: t.nav.notifications,  icon: '◎' },
+    { href: '/english/dashboard/profile',                   label: t.nav.profile,        icon: '○' },
+    { href: '/english/dashboard/support',                   label: t.nav.support,        icon: '◻' },
+  ]
+
+  const TEACHER_EXTRA: NavItem[] = [
+    { href: '/english/teacher', label: t.teacher.my_students, icon: '◈' },
+  ]
+
+  const ADMIN_EXTRA: NavItem[] = [
+    { href: '/english/admin/courses', label: `${t.nav.courses} (adm)`, icon: '▲' },
+    { href: '/english/admin/users',   label: t.admin.users,            icon: '◆' },
+  ]
+
+  const NAV_BY_ROLE: Record<UserRole, NavItem[]> = {
+    student: STUDENT_NAV,
+    teacher: [...STUDENT_NAV, ...TEACHER_EXTRA],
+    admin:   [...STUDENT_NAV, ...TEACHER_EXTRA, ...ADMIN_EXTRA],
+  }
+
+  const items = NAV_BY_ROLE[role] ?? STUDENT_NAV
 
   async function handleLogout() {
     const supabase = createEnglishClient()
@@ -141,7 +145,7 @@ export default function Sidebar({ role, userName }: Props) {
         letterSpacing: '0.10em', textTransform: 'uppercase',
         paddingLeft: 14, marginBottom: 10,
       }}>
-        Навигация
+        {t.nav.navigation}
       </div>
 
       {/* Nav items */}
@@ -200,6 +204,11 @@ export default function Sidebar({ role, userName }: Props) {
 
       {/* Bottom */}
       <div style={{ marginTop: 'auto', paddingTop: 20 }}>
+        {/* Language switcher */}
+        <div style={{ marginBottom: 12, paddingLeft: 2 }}>
+          <LanguageSwitcher />
+        </div>
+
         <motion.button
           whileHover={{ x: 2 }}
           whileTap={{ scale: 0.97 }}
@@ -213,7 +222,7 @@ export default function Sidebar({ role, userName }: Props) {
           }}
         >
           <span style={{ fontSize: 14 }}>↩</span>
-          Выйти
+          {t.nav.logout}
         </motion.button>
 
         <motion.div
@@ -234,7 +243,7 @@ export default function Sidebar({ role, userName }: Props) {
             Speak. Write. Grow.
           </div>
           <div style={{ fontSize: 13, lineHeight: 1.75, color: 'rgba(255,255,255,0.55)', marginBottom: 16 }}>
-            Каждый урок приближает к следующему уровню.
+            {t.dashboard.continue_learning}
           </div>
           <motion.a
             href="/english/dashboard/courses"
@@ -249,7 +258,7 @@ export default function Sidebar({ role, userName }: Props) {
               letterSpacing: '-0.01em',
             }}
           >
-            Продолжить обучение
+            {t.dashboard.continue_learning}
           </motion.a>
         </motion.div>
       </div>

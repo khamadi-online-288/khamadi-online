@@ -79,16 +79,21 @@ export default async function SyllabusPage({ params }: { params: { courseId: str
   const { data: { session } } = await supabase.auth.getSession()
   if (!session) redirect('/english/login')
 
-  const [courseRes, modulesRes, lessonsRes] = await Promise.all([
+  const [courseRes, modulesRes] = await Promise.all([
     supabase.from('english_courses').select('id,title,level,category,description').eq('id', params.courseId).single(),
     supabase.from('english_modules').select('id,title,order_index,section').eq('course_id', params.courseId).order('order_index'),
-    supabase.from('english_lessons').select('id,title,order_index,lesson_type,module_id').eq('course_id', params.courseId).order('order_index'),
   ])
 
   if (!courseRes.data) notFound()
 
   const course  = courseRes.data as Course
   const modules = (modulesRes.data ?? []) as Module[]
+
+  const moduleIds = modules.map(m => m.id)
+  const lessonsRes = moduleIds.length > 0
+    ? await supabase.from('english_lessons').select('id,title,order_index,lesson_type,module_id').in('module_id', moduleIds).order('order_index')
+    : { data: [] }
+
   const lessons = (lessonsRes.data ?? []) as Lesson[]
 
   const isESP      = course.category === 'English for Special Purposes'

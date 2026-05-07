@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 interface XPRow { user_id: string; total_xp?: number; weekly_xp?: number; monthly_xp?: number; streak_days?: number; profiles?: { full_name?: string; avatar_url?: string; language_level?: string } }
 
@@ -12,7 +13,6 @@ interface Props {
 }
 
 const MEDALS = ['🥇', '🥈', '🥉']
-const PERIOD_LABELS = ['За неделю', 'За месяц', 'Всё время']
 const XP_KEY: Record<number, keyof XPRow> = { 0: 'weekly_xp', 1: 'monthly_xp', 2: 'total_xp' }
 
 function Avatar({ name, url, size }: { name?: string; url?: string; size: number }) {
@@ -27,7 +27,9 @@ function Avatar({ name, url, size }: { name?: string; url?: string; size: number
 }
 
 export default function LeaderboardClient({ allTime, weekly, monthly, currentUserId }: Props) {
+  const { t } = useLanguage()
   const [period, setPeriod] = useState(0)
+  const periodLabels = [t.leaderboard.weekly, t.leaderboard.monthly, t.leaderboard.alltime]
   const datasets = [weekly, monthly, allTime]
   const data = (datasets[period] as unknown as XPRow[])
   const xpKey = XP_KEY[period]
@@ -37,19 +39,19 @@ export default function LeaderboardClient({ allTime, weekly, monthly, currentUse
 
   return (
     <div style={{ maxWidth: 720, margin: '0 auto', padding: '0 4px' }}>
-      <h1 style={{ fontSize: 26, fontWeight: 900, color: '#1B3A6B', marginBottom: 6 }}>Лидерборд</h1>
-      <p style={{ fontSize: 13, color: '#64748b', marginBottom: 24 }}>Рейтинг студентов по набранным очкам опыта (XP)</p>
+      <h1 style={{ fontSize: 26, fontWeight: 900, color: '#1B3A6B', marginBottom: 6 }}>{t.leaderboard.title}</h1>
+      <p style={{ fontSize: 13, color: '#64748b', marginBottom: 24 }}>{t.leaderboard.subtitle}</p>
 
       {/* Period tabs */}
       <div style={{ display: 'flex', gap: 4, marginBottom: 28, background: '#f1f5f9', borderRadius: 12, padding: 4, width: 'fit-content' }}>
-        {PERIOD_LABELS.map((l, i) => (
+        {periodLabels.map((l, i) => (
           <button key={l} onClick={() => setPeriod(i)} style={{ padding: '8px 18px', borderRadius: 9, fontWeight: period === i ? 800 : 600, fontSize: 13, border: 'none', background: period === i ? '#fff' : 'transparent', color: period === i ? '#1B3A6B' : '#64748b', cursor: 'pointer', fontFamily: 'Montserrat', boxShadow: period === i ? '0 1px 4px rgba(0,0,0,0.08)' : 'none' }}>{l}</button>
         ))}
       </div>
 
       {data.length === 0 && (
         <div style={{ textAlign: 'center', padding: 60, color: '#94a3b8', fontSize: 15, fontWeight: 700 }}>
-          Нет данных. Начните учиться, чтобы попасть в рейтинг!
+          {t.leaderboard.no_data}
         </div>
       )}
 
@@ -66,7 +68,7 @@ export default function LeaderboardClient({ allTime, weekly, monthly, currentUse
                 style={{ width: 140, textAlign: 'center', background: isCurrent ? 'rgba(201,147,59,0.06)' : '#fff', borderRadius: 20, border: isCurrent ? '2px solid #C9933B' : '1px solid rgba(27,143,196,0.1)', padding: '20px 12px 16px', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, minHeight: heights[rank], justifyContent: 'flex-end' }}>
                 <div style={{ fontSize: 28 }}>{MEDALS[rank]}</div>
                 <Avatar name={row.profiles?.full_name} url={row.profiles?.avatar_url} size={56} />
-                <div style={{ fontSize: 12, fontWeight: 800, color: '#1B3A6B', lineHeight: 1.2 }}>{row.profiles?.full_name ?? 'Студент'}</div>
+                <div style={{ fontSize: 12, fontWeight: 800, color: '#1B3A6B', lineHeight: 1.2 }}>{row.profiles?.full_name ?? t.auth.student}</div>
                 {row.profiles?.language_level && <span style={{ background: '#e0f2fe', color: '#0369a1', borderRadius: 6, padding: '1px 7px', fontSize: 10, fontWeight: 700 }}>{row.profiles.language_level}</span>}
                 <div style={{ fontSize: 16, fontWeight: 900, color: rank === 0 ? '#C9933B' : '#1B3A6B' }}>{(row[xpKey] as number ?? 0).toLocaleString()} XP</div>
               </motion.div>
@@ -87,7 +89,7 @@ export default function LeaderboardClient({ allTime, weekly, monthly, currentUse
                 <div style={{ width: 28, fontSize: 13, fontWeight: 800, color: '#94a3b8', textAlign: 'center' as const, flexShrink: 0 }}>#{rank}</div>
                 <Avatar name={row.profiles?.full_name} url={row.profiles?.avatar_url} size={36} />
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontSize: 13, fontWeight: 700, color: '#1e293b', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' as const }}>{row.profiles?.full_name ?? 'Студент'}</div>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: '#1e293b', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' as const }}>{row.profiles?.full_name ?? t.auth.student}</div>
                   {row.profiles?.language_level && <span style={{ background: '#e0f2fe', color: '#0369a1', borderRadius: 5, padding: '1px 6px', fontSize: 10, fontWeight: 700 }}>{row.profiles.language_level}</span>}
                 </div>
                 <div style={{ fontSize: 14, fontWeight: 900, color: '#1B3A6B', flexShrink: 0 }}>{(row[xpKey] as number ?? 0).toLocaleString()} XP</div>
@@ -97,10 +99,9 @@ export default function LeaderboardClient({ allTime, weekly, monthly, currentUse
         </div>
       )}
 
-      {/* Current user outside top 50 */}
       {myRank === -1 && data.length >= 50 && (
         <div style={{ marginTop: 16, padding: '14px 20px', borderRadius: 14, background: 'rgba(201,147,59,0.06)', border: '2px solid #C9933B', display: 'flex', alignItems: 'center', gap: 10 }}>
-          <div style={{ fontSize: 13, color: '#92400e', fontWeight: 700 }}>Вы не в топ-50. Продолжайте учиться, чтобы попасть в рейтинг!</div>
+          <div style={{ fontSize: 13, color: '#92400e', fontWeight: 700 }}>{t.leaderboard.not_in_top}</div>
         </div>
       )}
     </div>

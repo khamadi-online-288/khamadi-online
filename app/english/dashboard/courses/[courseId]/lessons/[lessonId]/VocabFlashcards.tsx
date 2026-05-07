@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 type VocabItem = { en: string; ru: string }
 
@@ -10,6 +11,7 @@ interface Props { items: VocabItem[] }
 type ViewMode = 'cards' | 'list'
 
 export default function VocabFlashcards({ items }: Props) {
+  const { t } = useLanguage()
   const [current, setCurrent] = useState(0)
   const [flipped,  setFlipped]  = useState(false)
   const [known,    setKnown]    = useState<Set<number>>(new Set())
@@ -107,7 +109,7 @@ export default function VocabFlashcards({ items }: Props) {
                 transition: 'all 0.2s',
               }}
             >
-              {m === 'cards' ? '🃏 Карточки' : '📋 Список'}
+              {m === 'cards' ? t.flashcards.cards_mode : t.flashcards.list_mode}
             </button>
           ))}
         </div>
@@ -136,7 +138,7 @@ export default function VocabFlashcards({ items }: Props) {
               fontWeight: 800, fontSize: 12, cursor: 'pointer',
             }}
           >
-            ↺ Сброс
+            {t.flashcards.reset}
           </button>
         </div>
       </div>
@@ -145,10 +147,10 @@ export default function VocabFlashcards({ items }: Props) {
       <div>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
           <div style={{ display: 'flex', gap: 14, alignItems: 'center' }}>
-            <span style={{ fontSize: 13, fontWeight: 700, color: '#1B3A6B' }}>Прогресс</span>
+            <span style={{ fontSize: 13, fontWeight: 700, color: '#1B3A6B' }}>{t.flashcards.progress}</span>
             {repeat.size > 0 && (
               <span style={{ fontSize: 11, fontWeight: 800, color: '#f97316', background: 'rgba(249,115,22,0.10)', padding: '2px 10px', borderRadius: 99 }}>
-                {repeat.size} на повтор
+                {repeat.size} {t.flashcards.to_repeat}
               </span>
             )}
           </div>
@@ -183,12 +185,12 @@ export default function VocabFlashcards({ items }: Props) {
           >
             <div>
               <div style={{ fontSize: 16, fontWeight: 900, color: '#1B3A6B', marginBottom: 6 }}>
-                {known.size === total ? '🎉 Отлично! Все слова изучены' : '📋 Первый раунд завершён'}
+                {known.size === total ? t.flashcards.all_learned : t.flashcards.round_done}
               </div>
               <div style={{ fontSize: 13, color: '#64748b', fontWeight: 600 }}>
-                Знаю: <b style={{ color: '#10b981' }}>{known.size}</b>
+                {t.flashcards.known}: <b style={{ color: '#10b981' }}>{known.size}</b>
                 {'  ·  '}
-                Повторить: <b style={{ color: '#f97316' }}>{repeat.size}</b>
+                {t.flashcards.repeat_lbl}: <b style={{ color: '#f97316' }}>{repeat.size}</b>
               </div>
             </div>
             <div style={{ display: 'flex', gap: 8 }}>
@@ -209,7 +211,7 @@ export default function VocabFlashcards({ items }: Props) {
                     color: '#f97316', fontWeight: 800, fontSize: 13, cursor: 'pointer',
                   }}
                 >
-                  ↺ Слова на повтор
+                  {t.flashcards.repeat_words}
                 </button>
               )}
               <button
@@ -220,7 +222,7 @@ export default function VocabFlashcards({ items }: Props) {
                   fontWeight: 800, fontSize: 13, border: 'none', cursor: 'pointer',
                 }}
               >
-                Начать заново
+                {t.flashcards.restart}
               </button>
             </div>
           </motion.div>
@@ -236,7 +238,7 @@ export default function VocabFlashcards({ items }: Props) {
               {current + 1} / {total}
             </span>
             <span style={{ fontSize: 11, fontWeight: 600, color: '#cbd5e1' }}>
-              ← → для навигации · Пробел — перевернуть
+              {t.flashcards.keyboard_hint}
             </span>
           </div>
 
@@ -280,7 +282,7 @@ export default function VocabFlashcards({ items }: Props) {
                       background: cardStatus === 'known' ? 'rgba(16,185,129,0.12)' : 'rgba(249,115,22,0.12)',
                       color: cardStatus === 'known' ? '#10b981' : '#f97316',
                     }}>
-                      {cardStatus === 'known' ? '✓ Знаю' : '↺ Повторить'}
+                      {cardStatus === 'known' ? t.flashcards.known_btn : t.flashcards.repeat_btn}
                     </div>
                   )}
 
@@ -302,7 +304,7 @@ export default function VocabFlashcards({ items }: Props) {
                     background: 'rgba(27,143,196,0.06)',
                     border: '1px solid rgba(27,143,196,0.12)',
                   }}>
-                    <span>👆</span> нажмите чтобы увидеть перевод
+                    <span>👆</span> {t.flashcards.tap_to_translate}
                   </div>
                 </div>
 
@@ -330,7 +332,7 @@ export default function VocabFlashcards({ items }: Props) {
                     {item.ru}
                   </div>
                   <div style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.40)' }}>
-                    нажмите снова чтобы перевернуть
+                    {t.flashcards.tap_to_flip}
                   </div>
                 </div>
               </motion.div>
@@ -361,7 +363,7 @@ export default function VocabFlashcards({ items }: Props) {
                   onMouseEnter={e => { (e.target as HTMLElement).style.boxShadow = '0 4px 16px rgba(249,115,22,0.20)' }}
                   onMouseLeave={e => { (e.target as HTMLElement).style.boxShadow = 'none' }}
                 >
-                  ✗ Повторить
+                  {t.flashcards.mark_repeat}
                 </button>
                 <button
                   onClick={e => { e.stopPropagation(); markKnown() }}
@@ -376,7 +378,7 @@ export default function VocabFlashcards({ items }: Props) {
                   onMouseEnter={e => { (e.target as HTMLElement).style.boxShadow = '0 6px 24px rgba(16,185,129,0.40)' }}
                   onMouseLeave={e => { (e.target as HTMLElement).style.boxShadow = '0 4px 20px rgba(16,185,129,0.30)' }}
                 >
-                  ✓ Знаю
+                  {t.flashcards.mark_known}
                 </button>
               </motion.div>
             )}
@@ -400,7 +402,7 @@ export default function VocabFlashcards({ items }: Props) {
                 transition: 'opacity 0.15s',
               }}
             >
-              ← Назад
+              ← {t.flashcards.nav_back}
             </button>
 
             {/* Dot indicators (max 10 visible) */}
@@ -445,7 +447,7 @@ export default function VocabFlashcards({ items }: Props) {
                 transition: 'opacity 0.15s',
               }}
             >
-              Вперёд →
+              {t.flashcards.nav_next} →
             </button>
           </div>
         </>
@@ -458,7 +460,7 @@ export default function VocabFlashcards({ items }: Props) {
             fontSize: 11, fontWeight: 800, color: '#94a3b8',
             letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 12,
           }}>
-            Все слова — {total} шт.
+            {t.flashcards.all_words} — {total}
           </div>
 
           {/* Header row */}
@@ -469,7 +471,7 @@ export default function VocabFlashcards({ items }: Props) {
           }}>
             <span />
             <span style={{ fontSize: 11, fontWeight: 800, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.06em' }}>English</span>
-            <span style={{ fontSize: 11, fontWeight: 800, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.06em' }}>Перевод</span>
+            <span style={{ fontSize: 11, fontWeight: 800, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.06em' }}>{t.flashcards.translation}</span>
           </div>
 
           <div style={{ display: 'grid', gap: 5 }}>

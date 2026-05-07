@@ -3,9 +3,12 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useLanguage } from '@/app/english/context/LanguageContext'
+import { LanguageSwitcher } from '@/app/english/components/LanguageSwitcher'
 
 export default function EnglishLoginPage() {
   const router = useRouter()
+  const { t } = useLanguage()
 
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -17,7 +20,7 @@ export default function EnglishLoginPage() {
     e.preventDefault()
 
     if (!email || !password) {
-      setError('Заполните все поля')
+      setError(t.auth.fill_all)
       return
     }
 
@@ -31,12 +34,12 @@ export default function EnglishLoginPage() {
       const { data, error: authErr } = await supabase.auth.signInWithPassword({ email, password })
 
       if (authErr) {
-        setError('Неверный email или пароль')
+        setError(t.auth.wrong_credentials)
         return
       }
 
       const userId = data.user?.id
-      if (!userId) { setError('Пользователь не найден'); return }
+      if (!userId) { setError(t.auth.wrong_credentials); return }
 
       const { data: roleData } = await supabase
         .from('english_user_roles')
@@ -53,7 +56,6 @@ export default function EnglishLoginPage() {
       const role   = (roleData as { role: string; status: string | null }).role
       const status = (roleData as { role: string; status: string | null }).status
 
-      // Block pending/rejected before reaching any dashboard
       if (status === 'pending') {
         await supabase.auth.signOut()
         window.location.href = '/english/pending'
@@ -65,7 +67,6 @@ export default function EnglishLoginPage() {
         return
       }
 
-      // Redirect by role
       const dest = role === 'admin'   ? '/english/admin'
         : role === 'teacher'  ? '/english/teacher'
         : role === 'support'  ? '/english/support-agent'
@@ -73,7 +74,7 @@ export default function EnglishLoginPage() {
         : '/english/dashboard'
       window.location.href = dest
     } catch {
-      setError('Ошибка входа. Попробуйте снова.')
+      setError(t.common.error)
     } finally {
       setLoading(false)
     }
@@ -94,87 +95,91 @@ export default function EnglishLoginPage() {
             <div className="left-kicker">Login flow</div>
 
             <h1 className="hero-title">
-              Добро пожаловать
+              {t.auth.welcome_back}
               <br />
-              <span>обратно в платформу</span>
+              <span>{t.auth.welcome_back_line2}</span>
             </h1>
 
             <p className="hero-text">
-              Войдите в свой аккаунт, и система сама определит вашу роль:
-              студент попадёт в учебный кабинет, преподаватель — в teacher dashboard.
+              {t.auth.sign_in_cta_desc}
             </p>
 
             <div className="feature-list">
               <div className="feature-item">
                 <div className="feature-icon">🎓</div>
                 <div>
-                  <div className="feature-title">Студент</div>
-                  <div className="feature-text">После входа переход в учебный dashboard.</div>
+                  <div className="feature-title">{t.auth.student}</div>
+                  <div className="feature-text">{t.auth.student_desc}</div>
                 </div>
               </div>
               <div className="feature-item">
                 <div className="feature-icon">👩‍🏫</div>
                 <div>
-                  <div className="feature-title">Преподаватель</div>
-                  <div className="feature-text">После входа переход в dashboard преподавателя.</div>
+                  <div className="feature-title">{t.auth.teacher}</div>
+                  <div className="feature-text">{t.auth.teacher_desc}</div>
                 </div>
               </div>
               <div className="feature-item">
                 <div className="feature-icon">⚡</div>
                 <div>
-                  <div className="feature-title">Авто-редирект</div>
-                  <div className="feature-text">Никаких лишних шагов — роль определяется автоматически.</div>
+                  <div className="feature-title">{t.auth.auto_redirect}</div>
+                  <div className="feature-text">{t.auth.auto_redirect_desc}</div>
                 </div>
               </div>
             </div>
 
             <div className="status-card">
-              <div className="status-kicker">После входа</div>
-              <div className="status-title">Система сама перенаправит вас</div>
+              <div className="status-kicker">{t.auth.after_login}</div>
+              <div className="status-title">{t.auth.system_redirects}</div>
               <div className="status-text">
-                Если аккаунт студента — откроется учебный кабинет. Если аккаунт преподавателя — откроется teacher dashboard.
+                {t.auth.sign_in_cta_desc}
               </div>
             </div>
           </aside>
 
           <section className="right-panel">
             <div className="form-header">
-              <h2>Вход в аккаунт</h2>
-              <p>Введите email и пароль, чтобы продолжить</p>
+              <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 20 }}>
+                <div>
+                  <h2>{t.auth.login_title}</h2>
+                  <p>{t.auth.login_subtitle}</p>
+                </div>
+                <LanguageSwitcher variant="light" />
+              </div>
             </div>
 
             <form onSubmit={handleLogin} className="form-stack">
               <div>
-                <label className="field-label">Email</label>
+                <label className="field-label">{t.auth.email}</label>
                 <input
                   className="input-field"
                   type="email"
                   value={email}
                   onChange={e => setEmail(e.target.value)}
-                  placeholder="Введите email"
+                  placeholder={t.auth.enter_email}
                 />
               </div>
 
               <div>
-                <label className="field-label">Пароль</label>
+                <label className="field-label">{t.auth.password}</label>
                 <input
                   className="input-field"
                   type="password"
                   value={password}
                   onChange={e => setPassword(e.target.value)}
-                  placeholder="Введите пароль"
+                  placeholder={t.auth.enter_password}
                 />
               </div>
 
               {noProfile && (
                 <div className="error-box" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                  <span>Аккаунт не найден в English платформе. Нужно создать English-профиль.</span>
+                  <span>{t.auth.register_title} — {t.auth.register_subtitle}</span>
                   <button
                     type="button"
                     onClick={() => router.push('/english/register')}
                     style={{ alignSelf: 'flex-start', padding: '8px 16px', borderRadius: 10, background: '#0ea5e9', color: '#fff', border: 'none', fontSize: 13, fontWeight: 800, cursor: 'pointer' }}
                   >
-                    Зарегистрироваться →
+                    {t.auth.register_link} →
                   </button>
                 </div>
               )}
@@ -182,21 +187,19 @@ export default function EnglishLoginPage() {
 
               <div className="cta-block">
                 <div className="cta-copy">
-                  <div className="cta-kicker">Authentication</div>
-                  <div className="cta-title">Войти в систему</div>
-                  <div className="cta-text">
-                    После входа вы автоматически попадёте в нужный кабинет по своей роли.
-                  </div>
+                  <div className="cta-kicker">{t.auth.auth_kicker}</div>
+                  <div className="cta-title">{t.auth.sign_in_cta}</div>
+                  <div className="cta-text">{t.auth.sign_in_cta_desc}</div>
                 </div>
                 <button type="submit" disabled={loading} className="submit-button">
-                  {loading ? 'Вход...' : 'Войти в аккаунт →'}
+                  {loading ? t.auth.signing_in : t.auth.sign_in}
                 </button>
               </div>
 
               <div className="login-row">
-                <span>Нет аккаунта?</span>
+                <span>{t.auth.no_account}</span>
                 <button type="button" onClick={() => router.push('/english/register')}>
-                  Зарегистрироваться
+                  {t.auth.register_link}
                 </button>
               </div>
             </form>
@@ -204,7 +207,7 @@ export default function EnglishLoginPage() {
         </div>
 
         <div className="back-row">
-          <button onClick={() => router.push('/english')}>← На главную KHAMADI English</button>
+          <button onClick={() => router.push('/english')}>{t.auth.back_home}</button>
         </div>
       </div>
 
@@ -255,7 +258,7 @@ export default function EnglishLoginPage() {
         .status-kicker { font-size: 11px; font-weight: 900; color: #0ea5e9; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }
         .status-title { font-size: 18px; font-weight: 900; color: #0f172a; margin-bottom: 6px; }
         .status-text { font-size: 14px; line-height: 1.75; color: #64748b; font-weight: 600; }
-        .form-header { margin-bottom: 20px; }
+        .form-header { margin-bottom: 0; }
         .form-header h2 { font-size: 32px; line-height: 1.05; letter-spacing: -0.05em; font-weight: 900; color: #0f172a; margin: 0 0 10px; }
         .form-header p { margin: 0; color: #64748b; font-size: 15px; font-weight: 600; line-height: 1.7; }
         .form-stack { display: flex; flex-direction: column; gap: 22px; }

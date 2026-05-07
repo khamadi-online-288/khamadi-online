@@ -4,18 +4,20 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { LayoutDashboard, BookOpen, Award, User, Bell, Menu, X } from 'lucide-react'
-
-const NAV = [
-  { label: 'Дашборд',     href: '/english/dashboard',     icon: LayoutDashboard },
-  { label: 'Курсы',       href: '/english/courses',        icon: BookOpen },
-  { label: 'Уведомления', href: '/english/notifications',  icon: Bell },
-  { label: 'Сертификаты', href: '/english/certificates',   icon: Award },
-  { label: 'Профиль',     href: '/english/profile',        icon: User },
-]
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 export default function MobileNav() {
   const pathname  = usePathname()
   const [open, setOpen] = useState(false)
+  const { t } = useLanguage()
+
+  const NAV = [
+    { label: t.nav.home,          href: '/english/dashboard',     icon: LayoutDashboard },
+    { label: t.nav.courses,       href: '/english/courses',        icon: BookOpen },
+    { label: t.nav.notifications, href: '/english/notifications',  icon: Bell },
+    { label: t.nav.certificates,  href: '/english/certificates',   icon: Award },
+    { label: t.nav.profile,       href: '/english/profile',        icon: User },
+  ]
 
   return (
     <>
@@ -42,7 +44,7 @@ export default function MobileNav() {
           className="flex flex-col items-center gap-0.5 px-3 py-1.5 rounded-xl text-gray-400 hover:text-navy transition"
         >
           <Menu size={20} />
-          <span className="text-[10px] font-bold">Ещё</span>
+          <span className="text-[10px] font-bold">{t.common.more}</span>
         </button>
       </div>
 
@@ -52,7 +54,7 @@ export default function MobileNav() {
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpen(false)} />
           <div className="absolute bottom-0 left-0 right-0 bg-white rounded-t-2xl p-5">
             <div className="flex items-center justify-between mb-4">
-              <span className="font-black text-navy">Меню</span>
+              <span className="font-black text-navy">{t.common.menu}</span>
               <button onClick={() => setOpen(false)}><X size={20} className="text-gray-400" /></button>
             </div>
             <div className="space-y-1">

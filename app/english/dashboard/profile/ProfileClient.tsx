@@ -1,10 +1,13 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import {
   User, Mail, GraduationCap, Briefcase, Calendar, Hash,
-  BookOpen, Award, BarChart2, Flame, Star, Edit3,
+  BookOpen, Award, BarChart2, Flame, Star, Edit3, X, Save, Phone, CheckCircle,
 } from 'lucide-react'
+import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 import AchievementBadges from '@/components/english/dashboard/AchievementBadges'
 import type { Badge } from '@/components/english/dashboard/AchievementBadges'
 
@@ -41,6 +44,8 @@ export type ProfileProps = {
     student_id:    string | null
     purpose:       string | null
     created_at:    string
+    phone?:        string | null
+    avatar_url?:   string | null
   }
   stats: {
     enrolled_courses:  number
@@ -71,22 +76,93 @@ const fadeUp = (delay = 0) => ({
   transition: { duration: 0.55, delay, ease: [0.22, 1, 0.36, 1] as const },
 })
 
+const inputStyle: React.CSSProperties = {
+  width: '100%', padding: '10px 14px', border: '1.5px solid rgba(27,143,196,0.2)',
+  borderRadius: 12, fontSize: 14, fontFamily: 'Montserrat, sans-serif',
+  fontWeight: 600, color: NAVY, outline: 'none', boxSizing: 'border-box',
+  background: '#f8fafc', transition: 'border-color 0.2s',
+}
+
 export default function ProfileClient({ profile, stats, streak, totalCourses }: ProfileProps) {
+  const supabase = createEnglishClient()
+  const { t }    = useLanguage()
+
+  const [editing, setEditing]   = useState(false)
+  const [saving,  setSaving]    = useState(false)
+  const [toast,   setToast]     = useState<{ msg: string; ok: boolean } | null>(null)
+  const [form,    setForm]      = useState({
+    full_name:  profile.full_name  ?? '',
+    phone:      profile.phone      ?? '',
+    avatar_url: profile.avatar_url ?? '',
+  })
+
   const initials  = profile.full_name?.trim().split(/\s+/).map(w => w[0]).join('').slice(0, 2).toUpperCase() ?? '?'
   const ls        = profile.current_level ? LEVEL_STYLE[profile.current_level] : null
   const coursePct = totalCourses > 0 ? Math.round((stats.certificates / totalCourses) * 100) : 0
 
+  function showToast(msg: string, ok: boolean) {
+    setToast({ msg, ok })
+    setTimeout(() => setToast(null), 3500)
+  }
+
+  async function saveProfile(e: React.FormEvent) {
+    e.preventDefault()
+    if (!form.full_name.trim()) return
+    setSaving(true)
+    try {
+      const { data: { user } } = await supabase.auth.getUser()
+      if (!user) throw new Error('Not authenticated')
+      const update: Record<string, string> = { full_name: form.full_name.trim() }
+      if (form.phone.trim())      update.phone      = form.phone.trim()
+      if (form.avatar_url.trim()) update.avatar_url = form.avatar_url.trim()
+      const { error } = await supabase.from('english_user_roles').update(update).eq('user_id', user.id)
+      if (error) throw error
+      showToast(t.common.profile_updated, true)
+      setEditing(false)
+    } catch {
+      showToast(t.common.save_error, false)
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const displayName = editing ? form.full_name : (profile.full_name ?? t.auth.student)
+
   const infoRows = [
-    { icon: <User size={15} />,           label: 'Полное имя',       value: profile.full_name ?? '—' },
-    { icon: <Mail size={15} />,           label: 'Email',            value: profile.email },
-    { icon: <GraduationCap size={15} />,  label: 'Уровень',          value: profile.current_level ? `${profile.current_level} — ${LEVEL_LABEL[profile.current_level] ?? ''}` : '—' },
-    { icon: <Briefcase size={15} />,      label: 'Специальность',    value: profile.purpose ? (PURPOSE_LABEL[profile.purpose] ?? profile.purpose) : '—' },
-    { icon: <Calendar size={15} />,       label: 'Дата регистрации', value: new Date(profile.created_at).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' }) },
-    { icon: <Hash size={15} />,           label: 'ID студента',      value: profile.student_id ?? '—' },
+    { icon: <User size={15} />,           label: t.profile.full_name,  value: profile.full_name ?? '—' },
+    { icon: <Mail size={15} />,           label: t.profile.email,      value: profile.email },
+    { icon: <Phone size={15} />,          label: t.profile.phone,      value: profile.phone ?? '—' },
+    { icon: <GraduationCap size={15} />,  label: t.profile.level,      value: profile.current_level ? `${profile.current_level} — ${LEVEL_LABEL[profile.current_level] ?? ''}` : '—' },
+    { icon: <Briefcase size={15} />,      label: t.profile.esp_course, value: profile.purpose ? (PURPOSE_LABEL[profile.purpose] ?? profile.purpose) : '—' },
+    { icon: <Calendar size={15} />,       label: t.profile.registered, value: new Date(profile.created_at).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' }) },
+    { icon: <Hash size={15} />,           label: t.profile.student_id, value: profile.student_id ?? '—' },
   ]
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
+
+      {/* ── Toast ── */}
+      <AnimatePresence>
+        {toast && (
+          <motion.div
+            initial={{ opacity: 0, y: -20, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -20, scale: 0.95 }}
+            style={{
+              position: 'fixed', top: 20, right: 20, zIndex: 9999,
+              background: toast.ok ? '#dcfce7' : '#fee2e2',
+              border: `1px solid ${toast.ok ? '#86efac' : '#fca5a5'}`,
+              color: toast.ok ? '#166534' : '#991b1b',
+              padding: '14px 20px', borderRadius: 14, fontSize: 14, fontWeight: 700,
+              boxShadow: '0 8px 28px rgba(0,0,0,0.12)',
+              display: 'flex', alignItems: 'center', gap: 8,
+            }}
+          >
+            <CheckCircle size={16} />
+            {toast.msg}
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* ── 1. HERO ── */}
       <motion.div
@@ -97,13 +173,11 @@ export default function ProfileClient({ profile, stats, streak, totalCourses }: 
           boxShadow: '0 20px 52px rgba(27,59,107,0.22)',
         }}
       >
-        {/* Grid texture */}
         <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none', opacity: 0.04, backgroundImage: 'linear-gradient(rgba(255,255,255,0.5) 1px, transparent 1px),linear-gradient(90deg, rgba(255,255,255,0.5) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
-        {/* Orbs */}
         <div style={{ position: 'absolute', top: -60, right: -60, width: 260, height: 260, borderRadius: '50%', background: 'rgba(56,189,248,0.16)', filter: 'blur(56px)', pointerEvents: 'none' }} />
         <div style={{ position: 'absolute', bottom: -40, left: '25%', width: 200, height: 200, borderRadius: '50%', background: 'rgba(201,147,59,0.11)', filter: 'blur(50px)', pointerEvents: 'none' }} />
 
-        <div style={{ position: 'relative', zIndex: 1, padding: '40px 44px', display: 'flex', gap: 32, alignItems: 'center', flexWrap: 'wrap' }}>
+        <div style={{ position: 'relative', zIndex: 1, padding: 'clamp(24px, 4vw, 40px) clamp(20px, 4vw, 44px)', display: 'flex', gap: 32, alignItems: 'center', flexWrap: 'wrap' }}>
           {/* Avatar */}
           <motion.div
             initial={{ scale: 0.6, opacity: 0 }}
@@ -111,25 +185,28 @@ export default function ProfileClient({ profile, stats, streak, totalCourses }: 
             transition={{ type: 'spring', stiffness: 180, damping: 18, delay: 0.05 }}
             style={{
               width: 110, height: 110, borderRadius: '50%',
-              background: 'rgba(255,255,255,0.1)',
+              background: profile.avatar_url ? 'transparent' : 'rgba(255,255,255,0.1)',
               border: '3px solid rgba(255,255,255,0.22)',
               display: 'flex', alignItems: 'center', justifyContent: 'center',
               fontSize: 42, fontWeight: 900, color: '#fff', letterSpacing: '-0.04em',
               flexShrink: 0, backdropFilter: 'blur(8px)',
               boxShadow: '0 10px 40px rgba(0,0,0,0.25)',
+              overflow: 'hidden',
             }}
           >
-            {initials}
+            {profile.avatar_url
+              ? <img src={profile.avatar_url} alt="avatar" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              : initials
+            }
           </motion.div>
 
-          {/* Name / email / badges / progress */}
-          <div style={{ flex: 1, minWidth: 220 }}>
+          <div style={{ flex: 1, minWidth: 200 }}>
             <motion.h1
               initial={{ opacity: 0, x: -12 }} animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.1, duration: 0.45 }}
-              style={{ fontSize: 'clamp(24px, 2.8vw, 38px)', fontWeight: 900, color: '#fff', letterSpacing: '-0.04em', marginBottom: 8, lineHeight: 1.1 }}
+              style={{ fontSize: 'clamp(20px, 2.8vw, 38px)', fontWeight: 900, color: '#fff', letterSpacing: '-0.04em', marginBottom: 8, lineHeight: 1.1 }}
             >
-              {profile.full_name ?? 'Студент'}
+              {displayName || t.auth.student}
             </motion.h1>
 
             <motion.div
@@ -162,15 +239,10 @@ export default function ProfileClient({ profile, stats, streak, totalCourses }: 
               )}
             </div>
 
-            {/* Course progress bar */}
             <motion.div initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.34 }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
-                <span style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
-                  Курсов завершено
-                </span>
-                <span style={{ fontSize: 14, fontWeight: 900, color: '#fff' }}>
-                  {stats.certificates} / {totalCourses}
-                </span>
+                <span style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>Курсов завершено</span>
+                <span style={{ fontSize: 14, fontWeight: 900, color: '#fff' }}>{stats.certificates} / {totalCourses}</span>
               </div>
               <div style={{ height: 8, borderRadius: 99, background: 'rgba(255,255,255,0.15)', overflow: 'hidden' }}>
                 <motion.div
@@ -185,7 +257,7 @@ export default function ProfileClient({ profile, stats, streak, totalCourses }: 
       </motion.div>
 
       {/* ── 2. STATS ── */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         {([
           { label: 'Уроков пройдено', value: stats.completed_lessons,            color: '#10b981', icon: <BookOpen  size={18} />, bg: 'rgba(16,185,129,0.10)' },
           { label: 'Средний балл',    value: `${Math.round(stats.avg_score)}%`,   color: SKY,       icon: <BarChart2 size={18} />, bg: 'rgba(27,143,196,0.10)' },
@@ -197,12 +269,12 @@ export default function ProfileClient({ profile, stats, streak, totalCourses }: 
             initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.14 + i * 0.07, ease: [0.22, 1, 0.36, 1] }}
             whileHover={{ y: -4, boxShadow: '0 20px 44px rgba(27,143,196,0.12)' }}
-            style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.10)', borderRadius: 22, padding: '20px 22px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)', cursor: 'default', transition: 'box-shadow 0.2s' }}
+            style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.10)', borderRadius: 22, padding: '18px 20px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)', cursor: 'default' }}
           >
             <div style={{ width: 36, height: 36, borderRadius: 10, background: s.bg, display: 'flex', alignItems: 'center', justifyContent: 'center', color: s.color, marginBottom: 14 }}>
               {s.icon}
             </div>
-            <div style={{ fontSize: 34, fontWeight: 900, color: s.color, letterSpacing: '-0.04em', lineHeight: 1, marginBottom: 6 }}>
+            <div style={{ fontSize: 'clamp(24px, 3vw, 34px)', fontWeight: 900, color: s.color, letterSpacing: '-0.04em', lineHeight: 1, marginBottom: 6 }}>
               {s.value}
             </div>
             <div style={{ fontSize: 11, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
@@ -213,52 +285,144 @@ export default function ProfileClient({ profile, stats, streak, totalCourses }: 
       </div>
 
       {/* ── 3. INFO + ACHIEVEMENTS ── */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', gap: 16, alignItems: 'start' }}>
+      <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-4" style={{ alignItems: 'start' }}>
 
         {/* Info card */}
         <motion.div
           {...fadeUp(0.28)}
           style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.10)', borderRadius: 26, padding: '26px 28px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)' }}
         >
-          <div style={{ marginBottom: 22 }}>
-            <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>Аккаунт</div>
-            <div style={{ fontSize: 22, fontWeight: 900, color: NAVY, letterSpacing: '-0.03em' }}>Личная информация</div>
+          <div style={{ marginBottom: 22, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <div>
+              <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>Аккаунт</div>
+              <div style={{ fontSize: 22, fontWeight: 900, color: NAVY, letterSpacing: '-0.03em' }}>{t.profile.personal_info}</div>
+            </div>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
-            {infoRows.map((row, i) => (
-              <div
-                key={row.label}
-                style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 0', borderBottom: i < infoRows.length - 1 ? '1px solid rgba(226,232,240,0.8)' : 'none' }}
+          <AnimatePresence mode="wait">
+            {editing ? (
+              /* ── EDIT FORM ── */
+              <motion.form
+                key="edit"
+                initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 8 }}
+                onSubmit={saveProfile}
+                style={{ display: 'flex', flexDirection: 'column', gap: 16 }}
               >
-                <div style={{ width: 32, height: 32, borderRadius: 9, background: 'rgba(27,143,196,0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: SKY, flexShrink: 0 }}>
-                  {row.icon}
+                <div>
+                  <label style={{ fontSize: 11, fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'block', marginBottom: 6 }}>
+                    Полное имя *
+                  </label>
+                  <input
+                    type="text"
+                    value={form.full_name}
+                    onChange={e => setForm(f => ({ ...f, full_name: e.target.value }))}
+                    placeholder="Введите полное имя"
+                    required
+                    style={inputStyle}
+                  />
                 </div>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontSize: 10, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 2 }}>
-                    {row.label}
-                  </div>
-                  <div style={{ fontSize: 14, fontWeight: 800, color: NAVY, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-                    {row.value}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
 
-          <motion.button
-            whileHover={{ scale: 1.025 }} whileTap={{ scale: 0.975 }}
-            style={{ marginTop: 22, width: '100%', padding: '13px 0', borderRadius: 14, background: `linear-gradient(135deg, ${NAVY}, #2E5FA3)`, color: '#fff', fontWeight: 800, fontSize: 14, border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, boxShadow: '0 6px 20px rgba(27,59,107,0.20)' }}
-          >
-            <Edit3 size={15} /> Редактировать профиль
-          </motion.button>
+                <div>
+                  <label style={{ fontSize: 11, fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'block', marginBottom: 6 }}>
+                    Email
+                  </label>
+                  <input
+                    type="email"
+                    value={profile.email}
+                    readOnly
+                    style={{ ...inputStyle, color: '#94a3b8', cursor: 'not-allowed', background: '#f1f5f9' }}
+                  />
+                  <div style={{ fontSize: 11, color: '#94a3b8', marginTop: 4 }}>Email нельзя изменить</div>
+                </div>
+
+                <div>
+                  <label style={{ fontSize: 11, fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'block', marginBottom: 6 }}>
+                    Номер телефона
+                  </label>
+                  <input
+                    type="tel"
+                    value={form.phone}
+                    onChange={e => setForm(f => ({ ...f, phone: e.target.value }))}
+                    placeholder="+7 (777) 000-00-00"
+                    style={inputStyle}
+                  />
+                </div>
+
+                <div>
+                  <label style={{ fontSize: 11, fontWeight: 700, color: '#64748b', textTransform: 'uppercase', letterSpacing: '0.05em', display: 'block', marginBottom: 6 }}>
+                    Аватар (URL)
+                  </label>
+                  <input
+                    type="url"
+                    value={form.avatar_url}
+                    onChange={e => setForm(f => ({ ...f, avatar_url: e.target.value }))}
+                    placeholder="https://example.com/photo.jpg"
+                    style={inputStyle}
+                  />
+                </div>
+
+                <div style={{ display: 'flex', gap: 10, marginTop: 6 }}>
+                  <motion.button
+                    type="submit"
+                    disabled={saving}
+                    whileHover={{ scale: 1.025 }} whileTap={{ scale: 0.975 }}
+                    style={{ flex: 1, padding: '13px 0', borderRadius: 14, background: `linear-gradient(135deg, ${NAVY}, #2E5FA3)`, color: '#fff', fontWeight: 800, fontSize: 14, border: 'none', cursor: saving ? 'wait' : 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, boxShadow: '0 6px 20px rgba(27,59,107,0.20)', opacity: saving ? 0.7 : 1, fontFamily: 'Montserrat' }}
+                  >
+                    <Save size={15} /> {saving ? t.common.loading : t.profile.save_changes}
+                  </motion.button>
+                  <motion.button
+                    type="button"
+                    onClick={() => {
+                      setEditing(false)
+                      setForm({ full_name: profile.full_name ?? '', phone: profile.phone ?? '', avatar_url: profile.avatar_url ?? '' })
+                    }}
+                    whileHover={{ scale: 1.025 }} whileTap={{ scale: 0.975 }}
+                    style={{ padding: '13px 20px', borderRadius: 14, background: '#f1f5f9', color: '#64748b', fontWeight: 800, fontSize: 14, border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8, fontFamily: 'Montserrat' }}
+                  >
+                    <X size={15} /> {t.profile.cancel}
+                  </motion.button>
+                </div>
+              </motion.form>
+            ) : (
+              /* ── DISPLAY ── */
+              <motion.div key="display" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                  {infoRows.map((row, i) => (
+                    <div
+                      key={row.label}
+                      style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 0', borderBottom: i < infoRows.length - 1 ? '1px solid rgba(226,232,240,0.8)' : 'none' }}
+                    >
+                      <div style={{ width: 32, height: 32, borderRadius: 9, background: 'rgba(27,143,196,0.08)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: SKY, flexShrink: 0 }}>
+                        {row.icon}
+                      </div>
+                      <div style={{ flex: 1, minWidth: 0 }}>
+                        <div style={{ fontSize: 10, fontWeight: 700, color: '#94a3b8', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: 2 }}>
+                          {row.label}
+                        </div>
+                        <div style={{ fontSize: 14, fontWeight: 800, color: NAVY, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                          {row.value}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                <motion.button
+                  whileHover={{ scale: 1.025 }} whileTap={{ scale: 0.975 }}
+                  onClick={() => setEditing(true)}
+                  style={{ marginTop: 22, width: '100%', padding: '13px 0', borderRadius: 14, background: `linear-gradient(135deg, ${NAVY}, #2E5FA3)`, color: '#fff', fontWeight: 800, fontSize: 14, border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, boxShadow: '0 6px 20px rgba(27,59,107,0.20)', fontFamily: 'Montserrat' }}
+                >
+                  <Edit3 size={15} /> {t.profile.edit_profile}
+                </motion.button>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </motion.div>
 
         {/* Achievements */}
         <motion.div {...fadeUp(0.34)}>
           <AchievementBadges badges={buildBadges(stats, streak)} />
         </motion.div>
-
       </div>
     </div>
   )

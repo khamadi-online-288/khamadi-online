@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import { BookOpen, Download, ExternalLink, Search, Filter, BookMarked, Briefcase, GraduationCap } from 'lucide-react'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 interface Textbook {
   id: string
@@ -50,6 +51,7 @@ const FIELD_COLORS: Record<string, { bg: string; border: string; badge: string }
 }
 
 export default function TextbooksClient({ textbooks, isTeacher }: Props) {
+  const { t } = useLanguage()
   const [search, setSearch] = useState('')
   const [activeField, setActiveField] = useState<string>('all')
   const [activeType, setActiveType] = useState<'general' | 'esp'>('general')
@@ -93,10 +95,10 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
           </div>
           <div>
             <h1 style={{ margin: 0, fontSize: 26, fontWeight: 800, color: '#1B3A6B', fontFamily: 'Montserrat, sans-serif' }}>
-              Учебники
+              {t.textbooks_page.title}
             </h1>
             <p style={{ margin: 0, fontSize: 14, color: '#64748B' }}>
-              Двуязычные учебники и методические материалы KHAMADI ENGLISH
+              {t.textbooks_page.subtitle}
             </p>
           </div>
         </div>
@@ -104,9 +106,9 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
         {/* Stats */}
         <div style={{ display: 'flex', gap: 12, marginTop: 16, flexWrap: 'wrap' }}>
           {[
-            { label: 'Учебников', value: textbooks.length, icon: '📚', color: '#1B3A6B' },
+            { label: t.textbooks_page.count_label, value: textbooks.length, icon: '📚', color: '#1B3A6B' },
             { label: 'General English', value: generalEnglish.length, icon: '🇬🇧', color: '#1B8FC4' },
-            { label: 'ESP курсов', value: espBooks.length, icon: '💼', color: '#C9933B' },
+            { label: t.textbooks_page.esp_label, value: espBooks.length, icon: '💼', color: '#C9933B' },
           ].map(stat => (
             <div key={stat.label} style={{
               background: '#fff',
@@ -159,7 +161,7 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
         }}>
           <Search size={16} color="#94A3B8" />
           <input
-            placeholder="Поиск учебников..."
+            placeholder={t.textbooks_page.search_placeholder}
             value={search}
             onChange={e => setSearch(e.target.value)}
             style={{ border: 'none', outline: 'none', fontSize: 14, color: '#1B3A6B', width: '100%', background: 'transparent' }}
@@ -181,7 +183,7 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
                 }}
               >
                 {field !== 'all' && <span>{FIELD_ICONS[field] ?? '📖'}</span>}
-                {field === 'all' ? 'Все' : field}
+                {field === 'all' ? t.textbooks_page.all_filter : field}
               </button>
             ))}
           </div>
@@ -192,8 +194,8 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
       {filtered.length === 0 ? (
         <div style={{ textAlign: 'center', padding: '64px 24px', color: '#94A3B8' }}>
           <BookOpen size={40} style={{ marginBottom: 12, opacity: 0.4 }} />
-          <p style={{ margin: 0, fontSize: 16 }}>Учебники не найдены</p>
-          <p style={{ margin: '4px 0 0', fontSize: 13 }}>Попробуйте изменить фильтры или запустите генератор PDF</p>
+          <p style={{ margin: 0, fontSize: 16 }}>{t.textbooks_page.not_found}</p>
+          <p style={{ margin: '4px 0 0', fontSize: 13 }}>{t.textbooks_page.not_found_hint}</p>
         </div>
       ) : (
         <div style={{
@@ -219,8 +221,8 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
             <BookMarked size={24} />
             <div>
-              <div style={{ fontWeight: 700, fontSize: 16 }}>Методические пособия</div>
-              <div style={{ fontSize: 13, opacity: 0.85 }}>Доступны в кабинете преподавателя</div>
+              <div style={{ fontWeight: 700, fontSize: 16 }}>{t.textbooks_page.teacher_guides}</div>
+              <div style={{ fontSize: 13, opacity: 0.85 }}>{t.textbooks_page.teacher_guides_desc}</div>
             </div>
           </div>
           <a
@@ -230,7 +232,7 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
               borderRadius: 8, textDecoration: 'none', fontWeight: 700, fontSize: 14,
             }}
           >
-            Открыть методички →
+            {t.textbooks_page.open_guides}
           </a>
         </div>
       )}
@@ -239,6 +241,7 @@ export default function TextbooksClient({ textbooks, isTeacher }: Props) {
 }
 
 function TextbookCard({ book }: { book: Textbook }) {
+  const { t } = useLanguage()
   const colors = FIELD_COLORS[book.field ?? ''] ?? { bg: '#F8FAFC', border: '#E2E8F0', badge: '#475569' }
   const icon = FIELD_ICONS[book.field ?? ''] ?? '📖'
   const hasFile = !!book.file_url
@@ -315,11 +318,11 @@ function TextbookCard({ book }: { book: Textbook }) {
         <div style={{ display: 'flex', gap: 12, marginBottom: 16 }}>
           {book.pages && book.pages > 0 && (
             <span style={{ fontSize: 12, color: '#64748B', display: 'flex', alignItems: 'center', gap: 4 }}>
-              📄 {book.pages} стр.
+              📄 {book.pages} {t.textbooks_page.pages}
             </span>
           )}
           <span style={{ fontSize: 12, color: '#64748B' }}>
-            🌐 Двуязычный
+            🌐 {t.textbooks_page.bilingual}
           </span>
         </div>
 
@@ -340,7 +343,7 @@ function TextbookCard({ book }: { book: Textbook }) {
                 }}
               >
                 <ExternalLink size={14} />
-                Читать
+                {t.textbooks_page.open}
               </a>
               <a
                 href={book.file_url!}
@@ -355,7 +358,7 @@ function TextbookCard({ book }: { book: Textbook }) {
                 }}
               >
                 <Download size={14} />
-                Скачать
+                {t.textbooks_page.download}
               </a>
             </>
           ) : (
@@ -364,7 +367,7 @@ function TextbookCard({ book }: { book: Textbook }) {
               background: '#F1F5F9', borderRadius: 9,
               fontSize: 13, color: '#94A3B8', fontWeight: 600,
             }}>
-              📋 Скоро появится
+              📋 {t.lesson.coming_soon}
             </div>
           )}
         </div>

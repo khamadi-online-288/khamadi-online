@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { Zap, Clock, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 type Props = {
   courseTitle:   string
@@ -14,6 +15,8 @@ type Props = {
 }
 
 export default function ContinueCard({ courseTitle, lessonTitle, unitLabel, progressPct, minutesLeft, href }: Props) {
+  const { t } = useLanguage()
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 24 }}
@@ -22,26 +25,23 @@ export default function ContinueCard({ courseTitle, lessonTitle, unitLabel, prog
       whileHover={{ y: -2, transition: { type: 'spring', stiffness: 400, damping: 20 } }}
       className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-sky via-[#1877A8] to-mid shadow-xl shadow-sky/20 p-7"
     >
-      {/* Decorative blobs */}
       <div className="pointer-events-none absolute -top-10 -right-10 w-48 h-48 rounded-full bg-white/10 blur-2xl" />
       <div className="pointer-events-none absolute -bottom-8 -left-8 w-36 h-36 rounded-full bg-white/10 blur-xl" />
 
       <div className="relative flex flex-col md:flex-row md:items-center gap-6">
-        {/* Text */}
         <div className="flex-1 min-w-0">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white/15 border border-white/20 mb-4">
             <Zap size={12} className="text-yellow-300" strokeWidth={2.5} />
-            <span className="text-white/90 text-xs font-black tracking-widest uppercase">Продолжить</span>
+            <span className="text-white/90 text-xs font-black tracking-widest uppercase">{t.common.continue_label}</span>
           </div>
 
           <h3 className="font-serif font-bold text-white text-2xl leading-tight mb-1 truncate">{courseTitle}</h3>
           <p className="text-white/70 text-sm font-medium mb-1">{unitLabel}</p>
           <p className="text-white/90 text-base font-semibold truncate">{lessonTitle}</p>
 
-          {/* Progress */}
           <div className="mt-4 space-y-1.5">
             <div className="flex items-center justify-between text-xs text-white/70 font-medium">
-              <span>Прогресс курса</span>
+              <span>{t.common.course_progress_label}</span>
               <span className="font-bold text-white tabular-nums">{progressPct}%</span>
             </div>
             <div className="h-1.5 rounded-full bg-white/20 overflow-hidden">
@@ -56,11 +56,10 @@ export default function ContinueCard({ courseTitle, lessonTitle, unitLabel, prog
 
           <div className="flex items-center gap-1.5 mt-3 text-white/60 text-xs font-medium">
             <Clock size={12} strokeWidth={1.8} />
-            <span>~{minutesLeft} минут до завершения урока</span>
+            <span>~{minutesLeft} {t.common.lesson_time_left}</span>
           </div>
         </div>
 
-        {/* CTA */}
         <div className="shrink-0">
           <Link href={href}>
             <motion.button
@@ -68,7 +67,7 @@ export default function ContinueCard({ courseTitle, lessonTitle, unitLabel, prog
               transition={{ type: 'spring', stiffness: 400, damping: 20 }}
               className="flex items-center gap-2 bg-white text-sky font-black text-sm px-6 py-3.5 rounded-xl shadow-lg hover:shadow-xl transition-shadow"
             >
-              Продолжить урок
+              {t.common.continue_lesson}
               <ArrowRight size={16} strokeWidth={2.5} />
             </motion.button>
           </Link>

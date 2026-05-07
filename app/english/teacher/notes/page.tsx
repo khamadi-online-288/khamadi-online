@@ -2,6 +2,7 @@
 import { useEffect, useState, useMemo } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import TeacherHeader from '@/components/english/lms/teacher/TeacherHeader'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 import { Search, Save, Plus, StickyNote, Clock } from 'lucide-react'
 
 interface StudentOption { id: string; full_name: string; group_name: string }
@@ -11,6 +12,7 @@ const card: React.CSSProperties = { background: '#fff', borderRadius: 18, border
 
 export default function TeacherNotesPage() {
   const supabase = createEnglishClient()
+  const { t } = useLanguage()
   const [uid, setUid]           = useState('')
   const [students, setStudents] = useState<StudentOption[]>([])
   const [notes, setNotes]       = useState<Note[]>([])
@@ -95,14 +97,14 @@ export default function TeacherNotesPage() {
 
   if (loading) return (
     <div style={{ flex: 1 }}>
-      <TeacherHeader title="Заметки" />
+      <TeacherHeader title={t.teacher.notes} />
       <div style={{ padding: 40, textAlign: 'center', color: '#94a3b8' }}>Загрузка...</div>
     </div>
   )
 
   return (
     <div style={{ flex: 1 }}>
-      <TeacherHeader title="Заметки по студентам" />
+      <TeacherHeader title={t.teacher.notes} />
       <div style={{ padding: '24px 28px', display: 'grid', gridTemplateColumns: '320px 1fr', gap: 20, alignItems: 'start' }}>
 
         {/* Left: student list */}

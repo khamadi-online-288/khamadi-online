@@ -8,6 +8,7 @@ import ContentProtection from '@/components/english/ContentProtection'
 import { SecureAudio } from '@/components/english/lms/shared/SecureMedia'
 import GameQuiz, { type GameQuizQuestion } from '@/components/english/quiz/GameQuiz'
 import VocabFlashcards from './VocabFlashcards'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 type Lesson = {
   id: string
@@ -200,6 +201,7 @@ const TABS: { key: Tab; label: string; icon: string }[] = [
 function GrammarExerciseItem({ ex, num }: { ex: GrammarExercise; num: number }) {
   const [selected, setSelected] = useState<string | null>(null)
   const [revealed, setRevealed] = useState(false)
+  const { t } = useLanguage()
 
   return (
     <div style={{ borderRadius: 14, border: '1px solid rgba(27,143,196,0.09)', overflow: 'hidden' }}>
@@ -232,7 +234,7 @@ function GrammarExerciseItem({ ex, num }: { ex: GrammarExercise; num: number }) 
         {ex.type === 'true_false' && (
           <div style={{ display: 'flex', gap: 8 }}>
             {['correct', 'wrong'].map(opt => {
-              const label = opt === 'correct' ? '✓ Верно' : '✗ Неверно'
+              const label = opt === 'correct' ? `✓ ${t.quiz.correct}` : `✗ ${t.quiz.incorrect}`
               const isSelected = selected === opt
               const isCorrect  = opt === ex.answer
               const bg = revealed ? isCorrect ? 'rgba(16,185,129,0.12)' : isSelected ? 'rgba(239,68,68,0.08)' : '#f8fafc' : isSelected ? 'rgba(27,143,196,0.10)' : '#f8fafc'
@@ -251,7 +253,7 @@ function GrammarExerciseItem({ ex, num }: { ex: GrammarExercise; num: number }) 
 
         {ex.type === 'academic_writing' && (
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            <textarea placeholder="Напишите ваш ответ здесь..." rows={4}
+            <textarea placeholder={t.lesson.writing + '...'} rows={4}
               style={{ width: '100%', padding: '12px', borderRadius: 12, border: '1.5px solid rgba(27,143,196,0.18)', fontSize: 14, fontWeight: 600, color: '#1B3A6B', resize: 'vertical', outline: 'none', boxSizing: 'border-box', background: '#f8fafc' }} />
             {ex.tip && <div style={{ fontSize: 12, color: '#64748b', fontWeight: 600, padding: '8px 12px', background: 'rgba(27,143,196,0.05)', borderRadius: 10 }}>💡 {ex.tip}</div>}
           </div>
@@ -261,7 +263,7 @@ function GrammarExerciseItem({ ex, num }: { ex: GrammarExercise; num: number }) 
           <div>
             {!revealed ? (
               <button onClick={() => setRevealed(true)} style={{ padding: '8px 18px', borderRadius: 10, border: '1px solid rgba(27,143,196,0.20)', background: 'rgba(27,143,196,0.06)', fontSize: 13, fontWeight: 800, color: '#1B8FC4', cursor: 'pointer' }}>
-                Показать ответ
+                {t.quiz.check_answer}
               </button>
             ) : (
               <div style={{ fontSize: 14, fontWeight: 800, color: '#10b981', padding: '10px 14px', background: 'rgba(16,185,129,0.08)', borderRadius: 10, border: '1px solid rgba(16,185,129,0.20)' }}>
@@ -278,6 +280,7 @@ function GrammarExerciseItem({ ex, num }: { ex: GrammarExercise; num: number }) 
 export default function LessonPage() {
   const { courseId, lessonId } = useParams<{ courseId: string; lessonId: string }>()
   const router = useRouter()
+  const { t } = useLanguage()
 
   const [lesson,    setLesson]    = useState<Lesson | null>(null)
   const [sections,  setSections]  = useState<SectionRow[]>([])
@@ -403,7 +406,7 @@ export default function LessonPage() {
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
         <div style={{ textAlign: 'center' }}>
           <div className="spinner" style={{ margin: '0 auto 16px' }} />
-          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>Загрузка урока...</p>
+          <p style={{ color: '#64748b', fontSize: 14, fontWeight: 700 }}>{t.common.loading}</p>
         </div>
       </div>
     )
@@ -414,8 +417,8 @@ export default function LessonPage() {
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#fff' }}>
         <div style={{ textAlign: 'center' }}>
           <div style={{ fontSize: 48, marginBottom: 12 }}>😕</div>
-          <div style={{ fontSize: 18, fontWeight: 800, color: '#0c4a6e', marginBottom: 16 }}>Урок не найден</div>
-          <button className="btn-primary" onClick={() => router.push(`/english/dashboard/courses/${courseId}`)}>← Назад</button>
+          <div style={{ fontSize: 18, fontWeight: 800, color: '#0c4a6e', marginBottom: 16 }}>{t.errors.not_found}</div>
+          <button className="btn-primary" onClick={() => router.push(`/english/dashboard/courses/${courseId}`)}>← {t.common.back}</button>
         </div>
       </div>
     )
@@ -691,7 +694,7 @@ export default function LessonPage() {
                               ) : (
                                 <button onClick={() => setB1ECShow(p => ({ ...p, [s.id]: true }))}
                                   style={{ width: '100%', padding: '10px 16px', background: 'none', border: 'none', fontSize: 13, fontWeight: 700, color: '#0284c7', cursor: 'pointer', textAlign: 'left', borderTop: '1px solid rgba(14,165,233,0.1)' }}>
-                                  Показать правильный ответ →
+                                  {t.quiz.check_answer} →
                                 </button>
                               )}
                             </div>
@@ -1890,7 +1893,9 @@ export default function LessonPage() {
 
             {/* WRITING */}
             {tab === 'writing' && (() => {
-              const wc = sections.find(s => s.type === 'writing')?.content as WritingContent | null
+              const wcRaw = sections.find(s => s.type === 'writing')?.content as WritingContent | null
+              // treat wc as null if it has no actual content
+              const wc = (wcRaw && (wcRaw.task || wcRaw.instructions_ru || wcRaw.structure || wcRaw.tips_ru?.length)) ? wcRaw : null
               const wordCount = writingText.trim().split(/\s+/).filter(Boolean).length
               const meetsMin  = wc?.min_words ? wordCount >= wc.min_words : true
 
@@ -1904,22 +1909,26 @@ export default function LessonPage() {
 
                   {wc ? (
                     <>
-                      {/* Task */}
-                      <div style={{ background: 'rgba(14,165,233,0.07)', border: '1.5px solid rgba(14,165,233,0.25)', borderRadius: 16, padding: '16px 20px' }}>
-                        <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: 1 }}>Task</p>
-                        <p style={{ margin: 0, fontSize: 15, fontWeight: 700, color: '#0c4a6e', lineHeight: 1.6 }}>{wc.task}</p>
-                      </div>
+                      {/* Task — wc.task or fallback to lesson.writing_task */}
+                      {(wc.task || lesson.writing_task) && (
+                        <div style={{ background: 'rgba(14,165,233,0.07)', border: '1.5px solid rgba(14,165,233,0.25)', borderRadius: 16, padding: '16px 20px' }}>
+                          <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: 1 }}>Task</p>
+                          <p style={{ margin: 0, fontSize: 15, fontWeight: 700, color: '#0c4a6e', lineHeight: 1.6 }}>{wc.task || lesson.writing_task}</p>
+                        </div>
+                      )}
 
-                      {/* Instructions RU */}
-                      <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 14, padding: '14px 18px' }}>
-                        <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Инструкция</p>
-                        <p style={{ margin: 0, fontSize: 14, color: '#334155', lineHeight: 1.65 }}>{wc.instructions_ru}</p>
-                      </div>
+                      {/* Instructions — only if non-empty */}
+                      {wc.instructions_ru && (
+                        <div style={{ background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: 14, padding: '14px 18px' }}>
+                          <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>{t.writing_section.instruction}</p>
+                          <p style={{ margin: 0, fontSize: 14, color: '#334155', lineHeight: 1.65 }}>{wc.instructions_ru}</p>
+                        </div>
+                      )}
 
                       {/* Structure (B1+) */}
                       {wc.structure && (
                         <div style={{ background: 'rgba(14,165,233,0.04)', border: '1px dashed rgba(14,165,233,0.3)', borderRadius: 14, padding: '12px 18px' }}>
-                          <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: 1 }}>Структура</p>
+                          <p style={{ margin: '0 0 4px', fontSize: 11, fontWeight: 800, color: '#0ea5e9', textTransform: 'uppercase', letterSpacing: 1 }}>{t.writing_section.structure}</p>
                           <p style={{ margin: 0, fontSize: 13, fontWeight: 700, color: '#0369a1' }}>{wc.structure}</p>
                         </div>
                       )}
@@ -1927,7 +1936,7 @@ export default function LessonPage() {
                       {/* Examples (A1, A2) */}
                       {wc.examples && wc.examples.length > 0 && (
                         <div>
-                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Примеры</p>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>{t.writing_section.examples}</p>
                           <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
                             {wc.examples.map((ex, i) => (
                               <div key={i} style={{ background: '#f1f5f9', borderRadius: 10, padding: '10px 14px', fontSize: 13, color: '#334155', fontStyle: 'italic', borderLeft: '3px solid #0ea5e9' }}>
@@ -1941,7 +1950,7 @@ export default function LessonPage() {
                       {/* Useful phrases (B2, C1) */}
                       {wc.useful_phrases && wc.useful_phrases.length > 0 && (
                         <div>
-                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Полезные фразы</p>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>{t.writing_section.useful_phrases}</p>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                             {wc.useful_phrases.map((ph, i) => (
                               <span key={i} style={{ background: '#e0f2fe', color: '#0369a1', borderRadius: 999, padding: '5px 14px', fontSize: 13, fontWeight: 700 }}>{ph}</span>
@@ -1953,7 +1962,7 @@ export default function LessonPage() {
                       {/* Tips */}
                       {wc.tips_ru && wc.tips_ru.length > 0 && (
                         <div style={{ background: '#fffbeb', border: '1px solid #fde68a', borderRadius: 14, padding: '14px 18px' }}>
-                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#92400e', textTransform: 'uppercase', letterSpacing: 1 }}>💡 Советы</p>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#92400e', textTransform: 'uppercase', letterSpacing: 1 }}>{t.writing_section.tips}</p>
                           <ul style={{ margin: 0, paddingLeft: 18, display: 'flex', flexDirection: 'column', gap: 4 }}>
                             {wc.tips_ru.map((tip, i) => (
                               <li key={i} style={{ fontSize: 13, color: '#78350f', lineHeight: 1.55 }}>{tip}</li>
@@ -1965,7 +1974,7 @@ export default function LessonPage() {
                       {/* Assessment criteria (C1) */}
                       {wc.assessment_criteria && wc.assessment_criteria.length > 0 && (
                         <div>
-                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>Критерии оценки</p>
+                          <p style={{ margin: '0 0 8px', fontSize: 11, fontWeight: 800, color: '#64748b', textTransform: 'uppercase', letterSpacing: 1 }}>{t.writing_section.criteria}</p>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                             {wc.assessment_criteria.map((c, i) => (
                               <span key={i} style={{ background: '#f0fdf4', color: '#166534', border: '1px solid #bbf7d0', borderRadius: 999, padding: '5px 14px', fontSize: 13, fontWeight: 700 }}>{c}</span>
@@ -1997,13 +2006,13 @@ export default function LessonPage() {
                   {/* Footer */}
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <span style={{ fontSize: 13, fontWeight: 700, color: meetsMin ? '#22c55e' : '#94a3b8' }}>
-                      {wordCount} слов{wc?.min_words ? ` / мин. ${wc.min_words}` : ''}
+                      {wordCount} {t.writing_section.words}{wc?.min_words ? ` / ${t.writing_section.min_words} ${wc.min_words}` : ''}
                     </span>
                     <button
                       className="btn-primary"
                       onClick={() => { localStorage.setItem(`eng_writing_${lessonId}`, writingText); setWritingSaved(true) }}
                     >
-                      {writingSaved ? '✓ Сохранено' : 'Сохранить'}
+                      {writingSaved ? t.writing_section.saved : t.writing_section.save}
                     </button>
                   </div>
                 </div>

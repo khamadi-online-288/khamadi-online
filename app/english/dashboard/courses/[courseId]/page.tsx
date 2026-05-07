@@ -8,7 +8,7 @@ export default async function CoursePage({ params }: { params: Promise<{ courseI
   const { data: { session } } = await supabase.auth.getSession()
   const userId = session?.user?.id ?? ''
 
-  const [courseRes, modulesRes, lessonsRes] = await Promise.all([
+  const [courseRes, modulesRes, lessonsRes, progressRes] = await Promise.all([
     supabase
       .from('english_courses')
       .select('id,title,level,category,description')
@@ -24,6 +24,12 @@ export default async function CoursePage({ params }: { params: Promise<{ courseI
       .select('id,title,order_index,lesson_type,module_id')
       .eq('course_id', courseId)
       .order('order_index'),
+    userId
+      ? supabase
+          .from('english_progress')
+          .select('lesson_id,completed')
+          .eq('user_id', userId)
+      : Promise.resolve({ data: [] }),
   ])
 
   return (
@@ -33,6 +39,7 @@ export default async function CoursePage({ params }: { params: Promise<{ courseI
       initialCourse={courseRes.data}
       initialModules={modulesRes.data ?? []}
       initialLessons={lessonsRes.data ?? []}
+      initialProgress={(progressRes.data ?? []) as { lesson_id: string; completed: boolean }[]}
     />
   )
 }

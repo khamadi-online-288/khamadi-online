@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useRouter } from 'next/navigation'
+import { useLanguage } from '@/app/english/context/LanguageContext'
+import { LanguageSwitcher } from '@/app/english/components/LanguageSwitcher'
 
 function useReveal(threshold = 0.14) {
   const ref = useRef<HTMLDivElement>(null)
@@ -289,6 +291,7 @@ function TrustStat({
 
 export default function EnglishLandingPage() {
   const router = useRouter()
+  const { t } = useLanguage()
   const [faqOpen, setFaqOpen] = useState<number | null>(null)
   const [navScrolled, setNavScrolled] = useState(false)
   const [cursor, setCursor] = useState({ x: -200, y: -200 })
@@ -397,8 +400,8 @@ export default function EnglishLandingPage() {
 
           <div className="nav-links-desktop" style={{ display: 'flex', gap: 6 }}>
             {[
-              ['#courses', 'Курсы'],
-              ['#how-it-works', 'Как это работает'],
+              ['#courses', t.nav.courses],
+              ['#how-it-works', t.nav.how_it_works],
               ['#ai', 'AI'],
               ['#faq', 'FAQ'],
             ].map(([href, label]) => (
@@ -409,11 +412,12 @@ export default function EnglishLandingPage() {
           </div>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <LanguageSwitcher variant="light" />
             <button className="btn-ghost" onClick={() => router.push('/english/login')}>
-              Войти
+              {t.nav.login}
             </button>
             <button className="btn-primary" onClick={() => router.push('/english/register')}>
-              Регистрация
+              {t.nav.register}
             </button>
           </div>
         </div>
@@ -445,7 +449,7 @@ export default function EnglishLandingPage() {
         >
           <div style={{ paddingTop: 16 }}>
             <Reveal>
-              <div className="hero-badge">✦ Digital-платформа</div>
+              <div className="hero-badge">✦ {t.landing.hero_badge}</div>
             </Reveal>
 
             <Reveal delay={80}>
@@ -460,11 +464,11 @@ export default function EnglishLandingPage() {
                   maxWidth: 820,
                 }}
               >
-                Английский язык
+                {t.landing.hero_title_1}
                 <br />
                 <span className="hero-gradient">
-                  который выглядит ярко
-                  <br />и учит эффективно
+                  {t.landing.hero_title_2}
+                  <br />{t.landing.hero_title_3}
                 </span>
               </h1>
             </Reveal>
@@ -480,19 +484,17 @@ export default function EnglishLandingPage() {
                   fontWeight: 500,
                 }}
               >
-                Современные курсы от A1 до C1 по стандарту CEFR. Чистый интерфейс,
-                сильная структура, AI-помощник, интерактивные уроки и сертификат
-                по завершении — всё в одной digital-платформе.
+                {t.landing.hero_sub}
               </p>
             </Reveal>
 
             <Reveal delay={220}>
               <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', marginBottom: 40 }}>
                 <button className="btn-hero-primary" onClick={() => router.push('/english/register')}>
-                  Начать обучение →
+                  {t.landing.cta_start}
                 </button>
                 <button className="btn-hero-glass" onClick={() => router.push('/english/login')}>
-                  Войти в аккаунт
+                  {t.landing.cta_login}
                 </button>
               </div>
             </Reveal>
@@ -500,11 +502,11 @@ export default function EnglishLandingPage() {
             <Reveal delay={280}>
               <div ref={trustReveal.ref} className="trust-grid">
                 {([
-                  [12, '+', 'курсов'],
-                  [140, '+', 'уроков'],
-                  [5, '', 'уровней CEFR'],
-                  [100, '%', 'онлайн'],
-                ] as [number, string, string][]).map(([num, suffix, label]) => (
+                  [12, '+', t.landing.stat_courses],
+                  [140, '+', t.landing.stat_lessons],
+                  [5, '', t.landing.stat_levels],
+                  [100, '%', t.landing.stat_online],
+                ] as [number, string, string][]).map(([num, suffix, label], _si) => (
                   <div key={label} className="trust-card">
                     <TrustStat
                       num={num}
@@ -524,15 +526,13 @@ export default function EnglishLandingPage() {
 
               <div className="floating-card card-a">
                 <div className="mini-top">AI INSIGHT</div>
-                <div className="floating-title">Разбор ошибок в 1 клик</div>
-                <div className="floating-text">
-                  Платформа показывает слабые места и подсказывает, что повторить дальше.
-                </div>
+                <div className="floating-title">{t.landing.ai_card_title}</div>
+                <div className="floating-text">{t.landing.ai_card_text}</div>
               </div>
 
               <div className="floating-card card-b">
                 <div className="mini-top">LIVE PROGRESS</div>
-                <div className="floating-title">86% за последний тест</div>
+                <div className="floating-title">{t.landing.progress_card_title}</div>
                 <div className="floating-bar">
                   <div className="floating-bar-fill" style={{ width: '86%' }} />
                 </div>
@@ -553,22 +553,20 @@ export default function EnglishLandingPage() {
                   <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
                     <div className="dashboard-icon">✦</div>
                     <div>
-                      <div className="dashboard-title">Кабинет студента</div>
-                      <div className="dashboard-subtitle">
-                        B1 Intermediate · чистый интерфейс · понятная структура
-                      </div>
+                      <div className="dashboard-title">{t.landing.dash_title}</div>
+                      <div className="dashboard-subtitle">{t.landing.dash_subtitle}</div>
                     </div>
                   </div>
                 </div>
 
                 <div className="dashboard-panel blue">
-                  <div className="mini-label">Текущий модуль</div>
+                  <div className="mini-label">{t.landing.module_label}</div>
                   <div className="dashboard-title" style={{ marginBottom: 12 }}>
                     B1 · Present Perfect vs Past Simple
                   </div>
                   <div className="row-between" style={{ marginBottom: 8 }}>
-                    <span className="muted-small">Прогресс программы</span>
-                    <span className="accent-small">7 / 16 уроков · 44%</span>
+                    <span className="muted-small">{t.landing.progress_label}</span>
+                    <span className="accent-small">{t.landing.lessons_info}</span>
                   </div>
                   <div className="progress-track">
                     <div className="progress-fill" style={{ width: '44%' }} />
@@ -577,22 +575,22 @@ export default function EnglishLandingPage() {
 
                 <div className="dashboard-stats">
                   <div className="dashboard-panel compact">
-                    <div className="mini-label">Серия</div>
+                    <div className="mini-label">{t.landing.streak_label}</div>
                     <div className="stat-big yellow">14</div>
-                    <div className="muted-small" style={{ marginTop: 6 }}>дней подряд</div>
+                    <div className="muted-small" style={{ marginTop: 6 }}>{t.landing.streak_days}</div>
                   </div>
 
                   <div className="dashboard-panel compact">
-                    <div className="mini-label">Последний тест</div>
+                    <div className="mini-label">{t.landing.test_label}</div>
                     <div className="stat-big green">86%</div>
-                    <div className="muted-small" style={{ marginTop: 6 }}>отличный результат</div>
+                    <div className="muted-small" style={{ marginTop: 6 }}>{t.landing.test_result}</div>
                   </div>
                 </div>
 
                 <div className="dashboard-panel">
                   <div className="row-between" style={{ marginBottom: 8 }}>
-                    <span className="accent-small">⚡ 1 240 XP заработано</span>
-                    <span className="muted-small">до 1 500 XP</span>
+                    <span className="accent-small">⚡ {t.landing.xp_earned}</span>
+                    <span className="muted-small">{t.landing.xp_until}</span>
                   </div>
                   <div className="progress-track thin">
                     <div className="progress-fill second" style={{ width: '83%' }} />
@@ -607,11 +605,9 @@ export default function EnglishLandingPage() {
       <section id="courses" className="section-wrap">
         <div className="container">
           <Reveal style={{ textAlign: 'center', marginBottom: 56 }}>
-            <div className="section-kicker">Направления</div>
-            <h2 className="section-title">12 курсов для разных целей</h2>
-            <p className="section-text">
-              От первых шагов до профессионального владения языком — выбери программу под свой уровень и задачу.
-            </p>
+            <div className="section-kicker">{t.landing.courses_kicker}</div>
+            <h2 className="section-title">{t.landing.courses_title}</h2>
+            <p className="section-text">{t.landing.courses_sub}</p>
           </Reveal>
 
           <Reveal style={{ marginBottom: 54 }}>
@@ -631,10 +627,10 @@ export default function EnglishLandingPage() {
                       <div style={{ marginBottom: 14 }}>
                         <span className="level-pill">{c.level}</span>
                       </div>
-                      <div className="card-text">{c.desc}</div>
+                      <div className="card-text">{(t.landing.general as Array<{desc:string}>)[i]?.desc}</div>
                       <div className="card-bottom">
-                        <span className="muted-small">📚 {c.lessons} уроков</span>
-                        <span className="accent-small">Открыть →</span>
+                        <span className="muted-small">📚 {c.lessons} {t.landing.lessons_label}</span>
+                        <span className="accent-small">{t.landing.open_btn}</span>
                       </div>
                     </div>
                   </div>
@@ -657,9 +653,9 @@ export default function EnglishLandingPage() {
                     <div style={{ position: 'relative', zIndex: 1 }}>
                       <div style={{ fontSize: 30, marginBottom: 12 }}>{c.icon}</div>
                       <div className="card-title small">{c.title}</div>
-                      <div className="card-text small">{c.desc}</div>
+                      <div className="card-text small">{(t.landing.special as Array<{desc:string}>)[i]?.desc}</div>
                       <div style={{ fontSize: 12, color: '#0ea5e9', fontWeight: 800 }}>
-                        📚 {c.lessons} уроков
+                        📚 {c.lessons} {t.landing.lessons_label}
                       </div>
                     </div>
                   </div>
@@ -673,8 +669,8 @@ export default function EnglishLandingPage() {
       <section id="how-it-works" className="section-soft">
         <div className="container">
           <Reveal style={{ textAlign: 'center', marginBottom: 56 }}>
-            <div className="section-kicker">Как это работает</div>
-            <h2 className="section-title">Четыре шага к сильному английскому</h2>
+            <div className="section-kicker">{t.landing.how_kicker}</div>
+            <h2 className="section-title">{t.landing.how_title}</h2>
           </Reveal>
 
           <div className="cards-grid steps-grid">
@@ -684,11 +680,11 @@ export default function EnglishLandingPage() {
                   <div className="card-shine" />
                   <div style={{ position: 'relative', zIndex: 1 }}>
                     <div className="mini-label" style={{ marginBottom: 14 }}>
-                      Шаг {s.n}
+                      {t.landing.step_label} {s.n}
                     </div>
                     <div style={{ fontSize: 38, marginBottom: 16 }}>{s.icon}</div>
-                    <div className="step-title">{s.title}</div>
-                    <div className="card-text">{s.text}</div>
+                    <div className="step-title">{(t.landing.steps as Array<{title:string;text:string}>)[i]?.title}</div>
+                    <div className="card-text">{(t.landing.steps as Array<{title:string;text:string}>)[i]?.text}</div>
                   </div>
                 </div>
               </Reveal>
@@ -700,11 +696,9 @@ export default function EnglishLandingPage() {
       <section className="section-wrap">
         <div className="container">
           <Reveal style={{ textAlign: 'center', marginBottom: 56 }}>
-            <div className="section-kicker">Структура урока</div>
-            <h2 className="section-title">Каждый урок включает 4 ключевых блока</h2>
-            <p className="section-text">
-              Комплексный формат помогает развивать язык системно: понимать, писать, слышать и применять знания на практике.
-            </p>
+            <div className="section-kicker">{t.landing.lesson_kicker}</div>
+            <h2 className="section-title">{t.landing.lesson_title}</h2>
+            <p className="section-text">{t.landing.lesson_sub}</p>
           </Reveal>
 
           <div className="cards-grid lesson-grid">
@@ -730,7 +724,7 @@ export default function EnglishLandingPage() {
                       {lt.icon}
                     </div>
                     <div className="card-title">{lt.title}</div>
-                    <div className="card-text">{lt.desc}</div>
+                    <div className="card-text">{(t.landing.lesson_types as Array<{desc:string}>)[i]?.desc}</div>
                   </div>
                 </div>
               </Reveal>
@@ -746,10 +740,10 @@ export default function EnglishLandingPage() {
               <div className="ai-glow" />
 
               <div style={{ position: 'relative', zIndex: 1 }}>
-                <div className="section-kicker light">AI-технологии</div>
+                <div className="section-kicker light">{t.landing.ai_kicker}</div>
                 <h2 className="section-title" style={{ color: '#ffffff', marginBottom: 18 }}>
-                  Умный AI-помощник
-                  <br />в каждом уроке
+                  {t.landing.ai_title_1}
+                  <br />{t.landing.ai_title_2}
                 </h2>
                 <p
                   className="section-text"
@@ -759,23 +753,23 @@ export default function EnglishLandingPage() {
                     color: 'rgba(255,255,255,0.86)',
                   }}
                 >
-                  Платформа анализирует прогресс, помогает разобраться в ошибках, подсказывает слабые места и делает обучение заметно удобнее и эффективнее.
+                  {t.landing.ai_sub}
                 </p>
 
                 <div style={{ marginTop: 30 }}>
                   <button className="btn-ai" onClick={() => router.push('/english/register')}>
-                    Попробовать бесплатно →
+                    {t.landing.ai_cta}
                   </button>
                 </div>
               </div>
 
               <div className="ai-chat-shell">
                 <div className="mini-label" style={{ marginBottom: 16, color: 'rgba(255,255,255,0.62)' }}>
-                  Пример диалога
+                  {t.landing.ai_example}
                 </div>
 
                 <div className="chat-user">
-                  📖 Объясни разницу между Present Perfect и Past Simple
+                  {t.landing.ai_question}
                 </div>
 
                 <div className="chat-ai">
@@ -808,11 +802,9 @@ export default function EnglishLandingPage() {
       <section className="section-soft">
         <div className="container">
           <Reveal style={{ textAlign: 'center', marginBottom: 56 }}>
-            <div className="section-kicker">Сертификат</div>
-            <h2 className="section-title">Сертификат по окончании курса</h2>
-            <p className="section-text">
-              Красиво оформленный цифровой сертификат, который подчёркивает завершение программы и твой результат.
-            </p>
+            <div className="section-kicker">{t.landing.cert_kicker}</div>
+            <h2 className="section-title">{t.landing.cert_title}</h2>
+            <p className="section-text">{t.landing.cert_sub}</p>
           </Reveal>
 
           <Reveal delay={100}>
@@ -831,9 +823,9 @@ export default function EnglishLandingPage() {
                   <div className="certificate-line" />
                 </div>
 
-                <div className="certificate-caption">Настоящий сертификат подтверждает, что</div>
-                <div className="certificate-name">Имя студента</div>
-                <div className="certificate-text-line">успешно завершил(а) курс</div>
+                <div className="certificate-caption">{t.landing.cert_confirms}</div>
+                <div className="certificate-name">{t.landing.cert_student}</div>
+                <div className="certificate-text-line">{t.landing.cert_completed}</div>
                 <div className="certificate-course">B1 Intermediate English</div>
                 <span className="certificate-pill">B1 · General English · 2026</span>
 
@@ -844,7 +836,7 @@ export default function EnglishLandingPage() {
                 </div>
 
                 <div className="certificate-meta">
-                  {[['Дата выдачи', '2026'], ['Номер', 'KE-2026-0042'], ['Платформа', 'khamadi.online']].map(([l, v]) => (
+                  {[[t.landing.cert_date, '2026'], [t.landing.cert_number, 'KE-2026-0042'], [t.landing.cert_platform_label, 'khamadi.online']].map(([l, v]) => (
                     <div key={l}>
                       <div className="certificate-meta-label">{l}</div>
                       <div className="certificate-meta-value">{v}</div>
@@ -860,12 +852,12 @@ export default function EnglishLandingPage() {
       <section id="faq" className="section-wrap">
         <div style={{ maxWidth: 860, margin: '0 auto' }}>
           <Reveal style={{ textAlign: 'center', marginBottom: 54 }}>
-            <div className="section-kicker">FAQ</div>
-            <h2 className="section-title">Часто задаваемые вопросы</h2>
+            <div className="section-kicker">{t.landing.faq_kicker}</div>
+            <h2 className="section-title">{t.landing.faq_title}</h2>
           </Reveal>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
-            {FAQ_DATA.map((item, i) => (
+            {(t.landing.faq as Array<{q:string;a:string}>).map((item, i) => (
               <Reveal key={i} delay={i * 40}>
                 <div className="faq-card" onClick={() => toggleFaq(i)}>
                   <div
@@ -927,20 +919,18 @@ export default function EnglishLandingPage() {
               <div className="cta-glow" />
               <div style={{ position: 'relative', zIndex: 1 }}>
                 <div className="cta-title">
-                  Начни учить английский
-                  <br />уже сегодня
+                  {t.landing.final_title_1}
+                  <br />{t.landing.final_title_2}
                 </div>
-                <p className="cta-text">
-                  Зарегистрируйся и получи доступ к платформе, где обучение выглядит чисто, ярко, современно и работает на результат.
-                </p>
+                <p className="cta-text">{t.landing.final_sub}</p>
               </div>
 
               <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap', position: 'relative', zIndex: 1 }}>
                 <button className="cta-primary" onClick={() => router.push('/english/register')}>
-                  Зарегистрироваться
+                  {t.landing.btn_register}
                 </button>
                 <button className="cta-ghost" onClick={() => router.push('/')}>
-                  ← На главную
+                  {t.landing.btn_home}
                 </button>
               </div>
             </div>
@@ -953,22 +943,22 @@ export default function EnglishLandingPage() {
         <div className="container" style={{ textAlign: 'center' }}>
           <Reveal>
             <div style={{ display: 'inline-block', background: 'rgba(14,165,233,0.08)', borderRadius: 999, padding: '6px 20px', fontSize: 12, fontWeight: 800, color: '#0ea5e9', letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: 20 }}>
-              Соответствие стандартам
+              {t.landing.comp_kicker}
             </div>
             <h2 style={{ fontSize: 'clamp(22px,3vw,38px)', fontWeight: 900, color: '#0f172a', letterSpacing: '-0.04em', marginBottom: 14, lineHeight: 1.1 }}>
-              Платформа соответствует требованиям<br />государственных образовательных стандартов РК
+              {t.landing.comp_title}
             </h2>
             <p style={{ color: '#64748b', fontSize: 15, maxWidth: 560, margin: '0 auto 36px', lineHeight: 1.7 }}>
-              Готова к интеграции в учебные планы университетов и колледжей Казахстана.
+              {t.landing.comp_sub}
             </p>
             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: 16 }}>
               {[
-                { icon: '👥', value: '900+', label: 'Студентов' },
-                { icon: '👩‍🏫', value: '100', label: 'Преподавателей' },
-                { icon: '📚', value: '12', label: 'Курсов' },
-                { icon: '📲', value: 'PWA', label: 'Приложение' },
-                { icon: '📜', value: '✓', label: 'Сертификация' },
-                { icon: '🏛️', value: 'ГОСО', label: 'Соответствие' },
+                { icon: '👥', value: '900+', label: t.landing.comp_students },
+                { icon: '👩‍🏫', value: '100', label: t.landing.comp_teachers },
+                { icon: '📚', value: '12', label: t.landing.comp_courses },
+                { icon: '📲', value: 'PWA', label: t.landing.comp_app },
+                { icon: '📜', value: '✓', label: t.landing.comp_cert },
+                { icon: '🏛️', value: 'ГОСО', label: t.landing.comp_compliance },
               ].map((b) => (
                 <div key={b.label} style={{
                   background: '#fff',
@@ -1021,12 +1011,12 @@ export default function EnglishLandingPage() {
                   marginBottom: 16,
                 }}
               >
-                Digital-платформа для изучения английского языка в современном и понятном формате.
+                {t.landing.footer_desc}
               </p>
             </div>
 
             <div>
-              <div className="footer-title">Курсы</div>
+              <div className="footer-title">{t.landing.footer_courses}</div>
               {['General English', 'A1 Beginner', 'B1 Intermediate', 'C1 Advanced', 'Business English'].map(l => (
                 <div key={l} className="footer-link" onClick={() => router.push('/english/register')}>
                   {l}
@@ -1035,8 +1025,8 @@ export default function EnglishLandingPage() {
             </div>
 
             <div>
-              <div className="footer-title">Платформа</div>
-              {['О платформе', 'AI-помощник', 'Сертификат', 'Личный кабинет', 'Войти'].map(l => (
+              <div className="footer-title">{t.landing.footer_platform}</div>
+              {[t.landing.footer_about, t.landing.footer_ai, t.landing.footer_cert, t.landing.footer_cabinet, t.nav.login].map(l => (
                 <div key={l} className="footer-link">
                   {l}
                 </div>
@@ -1044,13 +1034,13 @@ export default function EnglishLandingPage() {
             </div>
 
             <div>
-              <div className="footer-title">Контакты</div>
+              <div className="footer-title">{t.landing.footer_contacts}</div>
               <div style={{ fontSize: 13, color: '#64748b', fontWeight: 600, lineHeight: 1.9 }}>
                 <div>📧 info@khamadi.online</div>
-                <div>🇰🇿 Казахстан</div>
+                <div>🇰🇿 {t.landing.footer_country}</div>
                 <div style={{ marginTop: 12 }}>
                   <button className="footer-btn" onClick={() => router.push('/english/register')}>
-                    Начать →
+                    {t.landing.footer_start}
                   </button>
                 </div>
               </div>
@@ -1059,11 +1049,11 @@ export default function EnglishLandingPage() {
 
           <div className="footer-bottom">
             <div style={{ fontSize: 13, color: '#64748b', fontWeight: 600 }}>
-              © 2026 KHAMADI ONLINE · Все права защищены
+              {t.landing.footer_rights}
             </div>
             <div style={{ display: 'flex', gap: 20, color: '#64748b', fontSize: 12, fontWeight: 600 }}>
-              <span style={{ cursor: 'pointer' }}>Политика конфиденциальности</span>
-              <span style={{ cursor: 'pointer' }}>Условия использования</span>
+              <span style={{ cursor: 'pointer' }}>{t.landing.footer_privacy}</span>
+              <span style={{ cursor: 'pointer' }}>{t.landing.footer_terms}</span>
             </div>
           </div>
         </div>

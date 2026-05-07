@@ -4,6 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 import {
   Flame, BookOpen, Award, TrendingUp,
   ChevronRight, Star, BarChart2, Bell, ArrowRight,
@@ -91,10 +92,7 @@ const COURSE_ICONS: Record<string, string> = {
   Management: '📊', 'Finance Industry': '💰', 'Social Sciences': '🧠', Law: '⚖️',
 }
 
-const DAYS_RU = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
-
 const SCHED_TYPE_COLORS: Record<string, string> = { lesson: '#1B8FC4', exam: '#ef4444', consultation: '#10b981', event: '#C9933B' }
-const SCHED_TYPE_LABELS: Record<string, string> = { lesson: 'Урок', exam: 'Экзамен', consultation: 'Консультация', event: 'Событие' }
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 
@@ -164,8 +162,10 @@ function ProgressBar({ value, color = '#1B8FC4' }: { value: number; color?: stri
 }
 
 function WeekChart({ data }: { data: number[] }) {
+  const { t }    = useLanguage()
   const max      = Math.max(...data, 1)
   const todayIdx = (new Date().getDay() + 6) % 7
+  const daysShort = t.dashboard.days_short as string[]
 
   return (
     <div style={{ display: 'flex', alignItems: 'flex-end', gap: 6, height: 72 }}>
@@ -189,7 +189,7 @@ function WeekChart({ data }: { data: number[] }) {
               />
             </div>
             <span style={{ fontSize: 10, fontWeight: isToday ? 900 : 600, color: isToday ? '#1B8FC4' : '#94a3b8' }}>
-              {DAYS_RU[i]}
+              {daysShort[i]}
             </span>
           </div>
         )
@@ -199,14 +199,22 @@ function WeekChart({ data }: { data: number[] }) {
 }
 
 function ScheduleList({ events }: { events: ScheduleEvent[] }) {
+  const { t, lang } = useLanguage()
   const today    = new Date(); today.setHours(0,0,0,0)
   const tomorrow = new Date(today); tomorrow.setDate(today.getDate() + 1)
+  const dtLocale = lang === 'kk' ? 'kk-KZ' : 'ru-RU'
+  const schedLabels: Record<string, string> = {
+    lesson:       t.dashboard.sched_lesson,
+    exam:         t.dashboard.sched_exam,
+    consultation: t.dashboard.sched_consultation,
+    event:        t.dashboard.sched_event,
+  }
 
   function dayLabel(dt: Date): string {
     const d = new Date(dt); d.setHours(0,0,0,0)
-    if (d.getTime() === today.getTime())    return 'Сегодня'
-    if (d.getTime() === tomorrow.getTime()) return 'Завтра'
-    return dt.toLocaleDateString('ru-RU', { weekday: 'long', day: 'numeric', month: 'long' })
+    if (d.getTime() === today.getTime())    return t.dashboard.today
+    if (d.getTime() === tomorrow.getTime()) return t.dashboard.tomorrow
+    return dt.toLocaleDateString(dtLocale, { weekday: 'long', day: 'numeric', month: 'long' })
   }
 
   // Group by day string
@@ -230,8 +238,8 @@ function ScheduleList({ events }: { events: ScheduleEvent[] }) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
               {dayEvents.map(ev => {
                 const color = SCHED_TYPE_COLORS[ev.type ?? 'lesson'] ?? '#1B8FC4'
-                const start = new Date(ev.start_time).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' })
-                const end   = ev.end_time ? new Date(ev.end_time).toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' }) : null
+                const start = new Date(ev.start_time).toLocaleTimeString(dtLocale, { hour: '2-digit', minute: '2-digit' })
+                const end   = ev.end_time ? new Date(ev.end_time).toLocaleTimeString(dtLocale, { hour: '2-digit', minute: '2-digit' }) : null
                 const grp   = ev.group as { name?: string } | null
                 return (
                   <div key={ev.id} style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '12px 16px', borderRadius: 14, border: `1px solid ${color}28`, borderLeft: `4px solid ${color}`, background: isToday ? `${color}06` : '#f8fafc' }}>
@@ -242,14 +250,14 @@ function ScheduleList({ events }: { events: ScheduleEvent[] }) {
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{ fontSize: 13, fontWeight: 800, color: '#1B3A6B', marginBottom: 2 }}>{ev.title}</div>
                       <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' as const }}>
-                        <span style={{ fontSize: 11, background: `${color}18`, color, borderRadius: 5, padding: '1px 7px', fontWeight: 700 }}>{SCHED_TYPE_LABELS[ev.type ?? 'lesson'] ?? ev.type}</span>
+                        <span style={{ fontSize: 11, background: `${color}18`, color, borderRadius: 5, padding: '1px 7px', fontWeight: 700 }}>{schedLabels[ev.type ?? 'lesson'] ?? ev.type}</span>
                         {grp?.name && <span style={{ fontSize: 11, color: '#64748b', fontWeight: 600 }}>{grp.name}</span>}
                         {ev.location && <span style={{ fontSize: 11, color: '#94a3b8' }}>📍 {ev.location}</span>}
                       </div>
                     </div>
                     {ev.meeting_url && (
                       <a href={ev.meeting_url} target="_blank" rel="noreferrer" style={{ flexShrink: 0, padding: '7px 14px', borderRadius: 9, background: '#1B8FC4', color: '#fff', fontSize: 12, fontWeight: 800, textDecoration: 'none' }}>
-                        Войти
+                        {t.nav.login}
                       </a>
                     )}
                   </div>
@@ -350,7 +358,8 @@ export default function DashboardClient() {
 
   // ── Derived values ────────────────────────────────────────────────────────────
 
-  const firstName    = profile?.full_name?.trim().split(' ')[0] ?? 'Студент'
+  const { t }        = useLanguage()
+  const firstName    = profile?.full_name?.trim().split(' ')[0] ?? t.auth.student
   const currentLevel = profile?.current_level ?? null
   const nextLevel    = currentLevel ? CEFR[Math.min(CEFR.indexOf(currentLevel) + 1, 4)] : null
 
@@ -422,10 +431,10 @@ export default function DashboardClient() {
   }, [progress, lessons, courses])
 
   const metrics = [
-    { label: 'Активных курсов',  value: courses.length,         color: '#1B8FC4', icon: <BookOpen   size={18} /> },
-    { label: 'Уроков пройдено',  value: completedLessons,       color: '#10b981', icon: <TrendingUp  size={18} /> },
-    { label: 'Средний балл',     value: `${overallProgress}%`,  color: '#C9933B', icon: <BarChart2   size={18} /> },
-    { label: 'Сертификатов',     value: certs.length,           color: '#8b5cf6', icon: <Award       size={18} /> },
+    { label: t.dashboard.active_courses,    value: courses.length,        color: '#1B8FC4', icon: <BookOpen   size={18} /> },
+    { label: t.dashboard.lessons_completed, value: completedLessons,      color: '#10b981', icon: <TrendingUp  size={18} /> },
+    { label: t.dashboard.average_score,     value: `${overallProgress}%`, color: '#C9933B', icon: <BarChart2   size={18} /> },
+    { label: t.nav.certificates,            value: certs.length,          color: '#8b5cf6', icon: <Award       size={18} /> },
   ]
 
   // ── Loading ───────────────────────────────────────────────────────────────────
@@ -479,30 +488,30 @@ export default function DashboardClient() {
             </div>
 
             <h1 style={{ fontSize: 'clamp(26px, 3.5vw, 46px)', fontWeight: 900, color: '#fff', letterSpacing: '-0.04em', lineHeight: 1.08, margin: '0 0 10px' }}>
-              Привет, {firstName}! 👋
+              {t.dashboard.welcome}, {firstName}! 👋
             </h1>
             <p style={{ fontSize: 15, color: 'rgba(255,255,255,0.65)', marginBottom: 24, lineHeight: 1.7, maxWidth: 500 }}>
               {currentLevel && nextLevel
-                ? `Текущий уровень ${currentLevel}. Цель — ${nextLevel} ${LEVEL_LABEL[nextLevel] ?? ''}.`
-                : 'Начните с General English и стройте язык шаг за шагом.'}
+                ? `${t.dashboard.current_level} ${currentLevel}. ${t.dashboard.goal} — ${nextLevel} ${LEVEL_LABEL[nextLevel] ?? ''}.`
+                : t.dashboard.start_message}
             </p>
 
             <div style={{ display: 'flex', gap: 10, flexWrap: 'wrap', marginBottom: 28 }}>
               <Link href={continueHref}
                 style={{ padding: '12px 22px', borderRadius: 14, background: '#C9933B', color: '#fff', fontWeight: 800, fontSize: 14, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6, boxShadow: '0 6px 20px rgba(201,147,59,0.38)' }}>
-                Продолжить урок <ChevronRight size={15} />
+                {t.dashboard.continue_learning} <ChevronRight size={15} />
               </Link>
               <Link href="/english/dashboard/courses"
                 style={{ padding: '12px 22px', borderRadius: 14, background: 'rgba(255,255,255,0.10)', border: '1px solid rgba(255,255,255,0.16)', color: '#fff', fontWeight: 800, fontSize: 14, textDecoration: 'none', display: 'inline-flex', alignItems: 'center', gap: 6, backdropFilter: 'blur(8px)' }}>
-                <BookOpen size={14} /> Все курсы
+                <BookOpen size={14} /> {t.courses.all_courses}
               </Link>
             </div>
 
             <div style={{ display: 'flex', gap: 0 }}>
               {[
-                { label: 'Последний балл',  value: overallProgress > 0 ? `${overallProgress}%` : '—' },
-                { label: 'Уроков пройдено', value: completedLessons },
-                { label: 'Сертификатов',    value: certs.length },
+                { label: t.dashboard.average_score,       value: overallProgress > 0 ? `${overallProgress}%` : '—' },
+                { label: t.dashboard.lessons_completed,   value: completedLessons },
+                { label: t.nav.certificates,              value: certs.length },
               ].map((s, i) => (
                 <div key={s.label} style={{ display: 'flex', alignItems: 'center' }}>
                   {i > 0 && <div style={{ width: 1, height: 36, background: 'rgba(255,255,255,0.15)', margin: '0 20px' }} />}
@@ -563,11 +572,11 @@ export default function DashboardClient() {
         <motion.div {...fadeUp(0.3)} style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.11)', borderRadius: 26, padding: '24px 26px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
             <div>
-              <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 5 }}>Прогресс по курсам</div>
-              <div style={{ fontSize: 22, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.03em' }}>General English</div>
+              <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 5 }}>{t.dashboard.course_progress}</div>
+              <div style={{ fontSize: 22, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.03em' }}>{t.courses.general_english}</div>
             </div>
             <Link href="/english/dashboard/courses" style={{ display: 'inline-flex', alignItems: 'center', gap: 4, padding: '9px 14px', borderRadius: 12, border: '1px solid rgba(27,143,196,0.14)', background: '#f8fafc', color: '#1B3A6B', fontSize: 13, fontWeight: 800, textDecoration: 'none' }}>
-              Все курсы <ArrowRight size={13} />
+              {t.courses.all_courses} <ArrowRight size={13} />
             </Link>
           </div>
 
@@ -594,7 +603,7 @@ export default function DashboardClient() {
           {trackCourse && trackProgress && (
             <>
               <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 10 }}>
-                Профессиональный трек
+                {t.dashboard.professional_track}
               </div>
               <Link href={`/english/dashboard/courses/${trackCourse.id}`}
                 style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '16px 18px', borderRadius: 18, background: 'linear-gradient(135deg, rgba(201,147,59,0.08), rgba(255,255,255,0.9))', border: '1px solid rgba(201,147,59,0.20)', textDecoration: 'none' }}>
@@ -619,8 +628,8 @@ export default function DashboardClient() {
           <motion.div {...fadeUp(0.35)} style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.11)', borderRadius: 26, padding: '22px 24px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
               <div>
-                <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>Активность</div>
-                <div style={{ fontSize: 18, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.02em' }}>За эту неделю</div>
+                <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>{t.dashboard.activity}</div>
+                <div style={{ fontSize: 18, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.02em' }}>{t.dashboard.this_week}</div>
               </div>
               {streak > 0 && (
                 <div style={{ display: 'flex', alignItems: 'center', gap: 5, padding: '6px 12px', borderRadius: 99, background: 'rgba(255,100,50,0.08)', border: '1px solid rgba(255,100,50,0.18)' }}>
@@ -631,19 +640,19 @@ export default function DashboardClient() {
             </div>
             <WeekChart data={weekData} />
             <div style={{ marginTop: 10, fontSize: 12, color: '#94a3b8', fontWeight: 600 }}>
-              Уроков за неделю: <strong style={{ color: '#1B3A6B' }}>{weekData.reduce((a, b) => a + b, 0)}</strong>
+              {t.dashboard.lessons_this_week}: <strong style={{ color: '#1B3A6B' }}>{weekData.reduce((a, b) => a + b, 0)}</strong>
             </div>
           </motion.div>
 
           <motion.div {...fadeUp(0.4)} style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.11)', borderRadius: 26, padding: '20px 22px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)' }}>
-            <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 12 }}>Быстрый переход</div>
+            <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 12 }}>{t.dashboard.quick_nav}</div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
               {[
-                { href: '/english/dashboard/courses',      label: 'Курсы',     icon: '📚' },
-                { href: '/english/dashboard/textbooks',    label: 'Учебники',  icon: '📖' },
-                { href: '/english/dashboard/certificates', label: 'Дипломы',   icon: '🏆' },
-                { href: '/english/dashboard/profile',      label: 'Профиль',   icon: '⚙️' },
-                { href: '/english/dashboard/support',      label: 'Поддержка', icon: '🛟' },
+                { href: '/english/dashboard/courses',      label: t.nav.courses,      icon: '📚' },
+                { href: '/english/dashboard/textbooks',    label: t.nav.textbooks,    icon: '📖' },
+                { href: '/english/dashboard/certificates', label: t.dashboard.diplomas, icon: '🏆' },
+                { href: '/english/dashboard/profile',      label: t.nav.profile,      icon: '⚙️' },
+                { href: '/english/dashboard/support',      label: t.nav.support,      icon: '🛟' },
               ].map(l => (
                 <Link key={l.href} href={l.href}
                   style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '10px 12px', borderRadius: 14, border: '1px solid rgba(27,143,196,0.09)', background: '#f8fafc', color: '#1B3A6B', fontSize: 13, fontWeight: 800, textDecoration: 'none' }}>
@@ -655,9 +664,9 @@ export default function DashboardClient() {
 
           {nextLevel && (
             <motion.div {...fadeUp(0.45)} style={{ borderRadius: 24, padding: '20px 22px', background: 'linear-gradient(135deg, #1B3A6B, #2E5FA3)', color: '#fff', boxShadow: '0 12px 32px rgba(27,59,107,0.18)' }}>
-              <div style={{ fontSize: 10, fontWeight: 800, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 8 }}>Следующая цель</div>
+              <div style={{ fontSize: 10, fontWeight: 800, color: 'rgba(255,255,255,0.45)', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 8 }}>{t.dashboard.next_goal}</div>
               <div style={{ fontSize: 36, fontWeight: 900, letterSpacing: '-0.05em', lineHeight: 1, color: '#7dd3fc', marginBottom: 4 }}>{nextLevel}</div>
-              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)' }}>{LEVEL_LABEL[nextLevel]} — продолжайте учиться</div>
+              <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)' }}>{LEVEL_LABEL[nextLevel]} — {t.dashboard.keep_learning}</div>
             </motion.div>
           )}
         </div>
@@ -668,8 +677,8 @@ export default function DashboardClient() {
         <motion.div {...fadeUp(0.48)} style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.11)', borderRadius: 26, padding: '24px 26px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 18 }}>
             <div>
-              <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>Ближайшие события</div>
-              <div style={{ fontSize: 18, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.02em' }}>Расписание на неделю</div>
+              <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 4 }}>{t.dashboard.upcoming_events}</div>
+              <div style={{ fontSize: 18, fontWeight: 900, color: '#1B3A6B', letterSpacing: '-0.02em' }}>{t.dashboard.schedule_week}</div>
             </div>
           </div>
           <ScheduleList events={schedule} />
@@ -679,12 +688,12 @@ export default function DashboardClient() {
       {/* ── 5. Activity Feed ── */}
       {recentActivity.length > 0 && (
         <motion.div {...fadeUp(0.5)} style={{ background: '#fff', border: '1px solid rgba(27,143,196,0.11)', borderRadius: 26, padding: '24px 26px', boxShadow: '0 4px 20px rgba(27,143,196,0.06)' }}>
-          <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 16 }}>Последняя активность</div>
+          <div style={{ fontSize: 10, fontWeight: 800, color: '#94a3b8', letterSpacing: '0.07em', textTransform: 'uppercase', marginBottom: 16 }}>{t.dashboard.recent_activity}</div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 0 }}>
             {recentActivity.map((a, i) => {
               const isToday     = new Date().toDateString() === a.date.toDateString()
               const isYesterday = new Date(Date.now() - 86400000).toDateString() === a.date.toDateString()
-              const dateLabel   = isToday ? 'Сегодня' : isYesterday ? 'Вчера' : a.date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'short' })
+              const dateLabel   = isToday ? t.dashboard.today : isYesterday ? t.dashboard.yesterday : a.date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'short' })
               return (
                 <motion.div key={i}
                   initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}

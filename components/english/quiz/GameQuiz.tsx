@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useLanguage } from '@/app/english/context/LanguageContext'
 
 // ─── Types ──────────────────────────────────────────────────────────────────
 
@@ -54,6 +55,7 @@ export default function GameQuiz({
   quizId, questions, lessonId, courseId, userId,
   passThreshold = 90, onNextLesson,
 }: GameQuizProps) {
+  const { t } = useLanguage()
   const [phase,        setPhase]       = useState<QuizPhase>('intro')
   const [idx,          setIdx]         = useState(0)
   const [answers,      setAnswers]     = useState<Record<number, string>>({})
@@ -77,8 +79,8 @@ export default function GameQuiz({
   useEffect(() => {
     if (phase !== 'playing') return
     if (timeLeft <= 0) { doFinish(answers, maxStreak, xpEarned); return }
-    const t = setTimeout(() => setTimeLeft(s => s - 1), 1000)
-    return () => clearTimeout(t)
+    const timer = setTimeout(() => setTimeLeft(s => s - 1), 1000)
+    return () => clearTimeout(timer)
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, timeLeft])
 
@@ -237,7 +239,7 @@ export default function GameQuiz({
         </div>
         <div style={{ fontSize: 26, fontWeight: 900, color: '#fff', marginBottom: 8 }}>Quiz</div>
         <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.5)', marginBottom: 32 }}>
-          {totalQ} вопросов • 20 минут • Проходной балл {passThreshold}%
+          {totalQ} {t.quiz_ui.questions} • 20 {t.quiz_ui.minutes} • {t.quiz_ui.pass_score} {passThreshold}%
         </div>
 
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', marginBottom: 32 }}>
@@ -258,7 +260,7 @@ export default function GameQuiz({
           onClick={() => setPhase('playing')}
           style={{ width: '100%', padding: 16, borderRadius: 14, background: '#1B8FC4', color: '#fff', border: 'none', fontSize: 16, fontWeight: 800, cursor: 'pointer', fontFamily: 'Montserrat' }}
         >
-          Начать квиз →
+          {t.quiz_ui.start_quiz}
         </button>
       </div>
     )
@@ -394,7 +396,7 @@ export default function GameQuiz({
                     onChange={e => { if (!showFeedback) setAnswers(prev => ({ ...prev, [currentQ.id]: e.target.value })) }}
                     onKeyDown={e => { if (e.key === 'Enter' && !showFeedback) handleFillSubmit() }}
                     disabled={showFeedback}
-                    placeholder="Введите ответ..."
+                    placeholder={t.quiz_ui.enter_answer}
                     style={{
                       width: '100%', padding: '16px 20px', borderRadius: 14, outline: 'none', boxSizing: 'border-box' as const,
                       border: `1.5px solid ${showFeedback ? (checkCorrect(currentQ, fillVal) ? '#10b981' : '#ef4444') : 'rgba(255,255,255,0.15)'}`,
@@ -404,7 +406,7 @@ export default function GameQuiz({
                   />
                   {showFeedback && !checkCorrect(currentQ, fillVal) && (
                     <div style={{ marginTop: 10, fontSize: 14, color: '#10b981', fontWeight: 600 }}>
-                      Правильный ответ: {currentQ.correct_answer}
+                      {t.quiz_ui.correct_answer}: {currentQ.correct_answer}
                     </div>
                   )}
                   {!showFeedback && (
@@ -419,7 +421,7 @@ export default function GameQuiz({
                         cursor: fillVal.trim() ? 'pointer' : 'default', fontFamily: 'Montserrat',
                       }}
                     >
-                      Проверить →
+                      {t.quiz_ui.check}
                     </button>
                   )}
                 </div>
@@ -442,7 +444,7 @@ export default function GameQuiz({
               )}
             </AnimatePresence>
             <span style={{ fontSize: 13, fontWeight: 700, color: '#C9933B' }}>
-              {streak > 0 ? `🔥 Streak: ${streak}` : '💪 Отвечайте правильно'}
+              {streak > 0 ? `🔥 ${t.quiz_ui.streak_fire}: ${streak}` : `💪 ${t.quiz_ui.answer_correctly}`}
             </span>
             <div style={{ display: 'flex', gap: 4, marginLeft: 'auto' }}>
               {[1, 2, 3, 4, 5].map(i => (
@@ -474,15 +476,15 @@ export default function GameQuiz({
           {finalScore}%
         </div>
         <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.4)', fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase' as const, margin: '8px 0 24px' }}>
-          {correctCount} из {totalQ} правильно
+          {correctCount} {t.quiz_ui.correct_of} {totalQ} {t.quiz_ui.correctly}
         </div>
 
         {/* Stat badges */}
         <div style={{ display: 'flex', gap: 10, justifyContent: 'center', marginBottom: 28 }}>
           {[
             { icon: '⭐', val: `+${xpEarned}`, lbl: 'XP' },
-            { icon: '🔥', val: String(maxStreak), lbl: 'Streak' },
-            { icon: '⏱', val: fmt(timeUsed),  lbl: 'Время' },
+            { icon: '🔥', val: String(maxStreak), lbl: t.quiz_ui.streak_fire },
+            { icon: '⏱', val: fmt(timeUsed),  lbl: t.quiz_ui.time_label },
           ].map(b => (
             <div key={b.lbl} style={{ flex: 1, padding: '12px 8px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 12 }}>
               <div style={{ fontSize: 20 }}>{b.icon}</div>
@@ -517,19 +519,19 @@ export default function GameQuiz({
         {/* Pass/fail banner */}
         <div style={{ padding: '14px 16px', borderRadius: 12, marginBottom: certIssued ? 12 : 24, background: passed ? 'rgba(201,147,59,0.1)' : 'rgba(239,68,68,0.08)', border: `1px solid ${passed ? 'rgba(201,147,59,0.25)' : 'rgba(239,68,68,0.2)'}` }}>
           <div style={{ fontSize: 14, fontWeight: 700, color: passed ? '#C9933B' : '#ef4444', marginBottom: 4 }}>
-            {passed ? '🎉 Проходной балл достигнут!' : '📚 Нужно больше практики'}
+            {passed ? t.quiz_ui.passed_msg : t.quiz_ui.failed_msg}
           </div>
           <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.5)' }}>
             {passed
-              ? `Минимум ${passThreshold}% — вы набрали ${finalScore}%`
-              : `Минимум ${passThreshold}% — вы набрали ${finalScore}%. Попробуйте ещё раз!`}
+              ? `${t.quiz_ui.minimum} ${passThreshold}% — ${t.quiz_ui.you_scored} ${finalScore}%`
+              : `${t.quiz_ui.minimum} ${passThreshold}% — ${t.quiz_ui.you_scored} ${finalScore}%. ${t.quiz_ui.failed_detail}`}
           </div>
         </div>
 
         {certIssued && (
           <div style={{ padding: '14px 16px', borderRadius: 12, marginBottom: 24, background: 'rgba(16,185,129,0.08)', border: '1px solid rgba(16,185,129,0.2)' }}>
             <div style={{ fontSize: 14, fontWeight: 700, color: '#10b981' }}>
-              🏆 Курс завершён! Сертификат выдан в ваш профиль.
+              {t.quiz_ui.cert_issued}
             </div>
           </div>
         )}
@@ -540,14 +542,14 @@ export default function GameQuiz({
             onClick={reset}
             style={{ flex: 1, padding: 14, borderRadius: 12, border: '1.5px solid rgba(255,255,255,0.15)', background: 'transparent', color: 'rgba(255,255,255,0.7)', fontWeight: 700, cursor: 'pointer', fontFamily: 'Montserrat', fontSize: 14 }}
           >
-            Попробовать снова
+            {t.quiz_ui.try_again}
           </button>
           {passed && onNextLesson && (
             <button
               onClick={onNextLesson}
               style={{ flex: 1, padding: 14, borderRadius: 12, border: 'none', background: '#1B8FC4', color: '#fff', fontWeight: 800, cursor: 'pointer', fontFamily: 'Montserrat', fontSize: 14 }}
             >
-              Следующий урок →
+              {t.quiz_ui.next_lesson}
             </button>
           )}
         </div>
