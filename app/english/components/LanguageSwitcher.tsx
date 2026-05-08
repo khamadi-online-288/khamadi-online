@@ -6,12 +6,16 @@ export function LanguageSwitcher({ variant = 'dark' }: { variant?: 'dark' | 'lig
   const isLight = variant === 'light'
 
   return (
-    <div style={{
-      display: 'flex', alignItems: 'center', gap: 2,
-      background: isLight ? '#f1f5f9' : 'rgba(255,255,255,0.1)',
-      borderRadius: 10, padding: 3,
-    }}>
+    <div
+      suppressHydrationWarning
+      style={{
+        display: 'flex', alignItems: 'center', gap: 2,
+        background: isLight ? '#f1f5f9' : 'rgba(255,255,255,0.1)',
+        borderRadius: 10, padding: 3,
+      }}
+    >
       <button
+        suppressHydrationWarning
         onClick={() => switchLang("ru")}
         style={{
           padding: '5px 12px', borderRadius: 8, border: 'none', cursor: 'pointer',
@@ -26,6 +30,7 @@ export function LanguageSwitcher({ variant = 'dark' }: { variant?: 'dark' | 'lig
         РУС
       </button>
       <button
+        suppressHydrationWarning
         onClick={() => switchLang("kk")}
         style={{
           padding: '5px 12px', borderRadius: 8, border: 'none', cursor: 'pointer',
