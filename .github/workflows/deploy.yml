@@ -20,8 +20,9 @@ jobs:
           command_timeout: 15m
           script: |
             cd ~/khamadi-online
-            git pull origin main
-            npm install
+            git fetch origin main
+            git reset --hard origin/main
+            npm ci --prefer-offline || npm install
             npm run build
-            pm2 restart khamadi
+            pm2 restart khamadi || pm2 start npm --name khamadi -- start
             echo "✅ Deploy completed at $(date)"
