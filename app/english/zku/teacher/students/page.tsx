@@ -36,8 +36,17 @@ export default function TeacherStudentsPage() {
     const { data: { session } } = await supabase.auth.getSession()
     if (!session) return
 
+    // Junction table — teacher sees all groups they are assigned to
+    const { data: junc } = await supabase
+      .from('english_group_teachers')
+      .select('group_id')
+      .eq('teacher_id', session.user.id)
+    const groupIds = (junc ?? []).map((r: { group_id: string }) => r.group_id)
+
+    if (groupIds.length === 0) { setLoading(false); return }
+
     const { data: grps } = await supabase
-      .from('english_groups').select('id, name').eq('teacher_id', session.user.id)
+      .from('english_groups').select('id, name').in('id', groupIds)
     const groupList = (grps ?? []) as Group[]
     setGroups(groupList)
 

@@ -45,9 +45,17 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
     const { data: { session } } = await supabase.auth.getSession()
     if (!session) return
 
-    // Verify this group belongs to this teacher
+    // Verify teacher is assigned to this group (via junction table)
+    const { data: junc } = await supabase
+      .from('english_group_teachers')
+      .select('group_id')
+      .eq('teacher_id', session.user.id)
+      .eq('group_id', id)
+      .maybeSingle()
+    if (!junc) { router.replace('/english/zku/teacher/groups'); return }
+
     const { data: grp } = await supabase
-      .from('english_groups').select('*').eq('id', id).eq('teacher_id', session.user.id).maybeSingle()
+      .from('english_groups').select('*').eq('id', id).maybeSingle()
     if (!grp) { router.replace('/english/zku/teacher/groups'); return }
     setGroup(grp as Group)
 

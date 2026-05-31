@@ -50,10 +50,19 @@ export default function TeacherGroupsPage() {
     const { data: { session } } = await supabase.auth.getSession()
     if (!session) return
     setUserId(session.user.id)
+    // Use junction table so multiple teachers can share a group
+    const { data: junc } = await supabase
+      .from('english_group_teachers')
+      .select('group_id')
+      .eq('teacher_id', session.user.id)
+    const groupIds = (junc ?? []).map((r: { group_id: string }) => r.group_id)
+
+    if (groupIds.length === 0) { setGroups([]); setLoading(false); return }
+
     const { data } = await supabase
       .from('english_groups')
       .select('id, name, join_code, students_count, avg_progress, level_code, teacher_id, created_at')
-      .eq('teacher_id', session.user.id)
+      .in('id', groupIds)
       .order('created_at', { ascending: false })
     setGroups((data ?? []) as Group[])
     setLoading(false)
@@ -66,12 +75,17 @@ export default function TeacherGroupsPage() {
     setCreating(true)
     const supabase = createEnglishClient()
     const code = genCode()
-    const { error } = await supabase.from('english_groups').insert({
+    const { data: newGroup, error } = await supabase.from('english_groups').insert({
       teacher_id: userId, name: formName.trim(),
       join_code: code, level_code: formLevel, students_count: 0, avg_progress: 0,
-    })
+    }).select('id').single()
     if (error) showToast('Ошибка при создании группы', 'error')
-    else { showToast(`Группа «${formName.trim()}» создана! Код: ${code}`); setFormName(''); setShowForm(false); await load() }
+    else {
+      // Register creator in junction table
+      if (newGroup?.id) await supabase.from('english_group_teachers').insert({ group_id: newGroup.id, teacher_id: userId })
+      showToast(`Группа «${formName.trim()}» создана! Код: ${code}`)
+      setFormName(''); setShowForm(false); await load()
+    }
     setCreating(false)
   }
 
