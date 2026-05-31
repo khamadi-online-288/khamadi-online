@@ -52,7 +52,6 @@ export default function TeacherStudentsPage() {
 
     if (groupList.length === 0) { setLoading(false); return }
 
-    const groupIds = groupList.map(g => g.id)
     const groupMap: Record<string,string> = {}
     groupList.forEach(g => { groupMap[g.id] = g.name })
 
