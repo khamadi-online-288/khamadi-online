@@ -4,6 +4,7 @@ import { useState, useEffect, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../../student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -25,6 +26,7 @@ const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4
 const TYPE_ICON: Record<string,string> = { reading:'📖', listening:'🎧', grammar:'📐', writing:'✍️', vocabulary:'📚', test:'🎯' }
 
 export default function StudentProfilePage({ params }: { params: Promise<{ id: string }> }) {
+  const { t } = useZkuLang()
   const { id } = use(params)
   const router  = useRouter()
   const [profile,  setProfile]  = useState<Profile | null>(null)

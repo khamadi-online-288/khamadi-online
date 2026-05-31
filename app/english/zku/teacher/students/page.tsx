@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -29,6 +30,7 @@ export default function TeacherStudentsPage() {
   const [filterLevel, setFilterLevel] = useState('all')
   const [filterGroup, setFilterGroup] = useState('all')
   const [sortKey,  setSortKey]  = useState<SortKey>('active')
+  const { t } = useZkuLang()
   const [sortDir,  setSortDir]  = useState<SortDir>('desc')
 
   const load = useCallback(async () => {
@@ -89,7 +91,7 @@ export default function TeacherStudentsPage() {
   function daysSince(date: string | null) {
     if (!date) return { label: 'Никогда', color: '#CBD5E1' }
     const diff = Math.floor((now.getTime() - new Date(date).getTime()) / 86400000)
-    if (diff === 0) return { label: 'Сегодня', color: T }
+    if (diff === 0) return { label: t.panel.today, color: T }
     if (diff === 1) return { label: 'Вчера', color: '#22c55e' }
     if (diff <= 7) return { label: `${diff} дн. назад`, color: G }
     return { label: `${diff} дн. назад`, color: '#94A3B8' }
@@ -132,12 +134,12 @@ export default function TeacherStudentsPage() {
         </select>
         <select value={filterLevel} onChange={e => setFilterLevel(e.target.value)}
           style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
-          {levels.map(l => <option key={l} value={l}>{l === 'all' ? 'Все уровни' : l}</option>)}
+          {levels.map(l => <option key={l} value={l}>{l === 'all' ? t.panel.all_levels : l}</option>)}
         </select>
         {(search || filterLevel !== 'all' || filterGroup !== 'all') && (
           <button onClick={() => { setSearch(''); setFilterLevel('all'); setFilterGroup('all') }}
             style={{ padding: '10px 14px', borderRadius: 10, border: `1px solid ${BDR}`, background: '#FEE2E2', color: '#DC2626', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}>
-            ✕ Сбросить
+            {t.panel.reset_filter}
           </button>
         )}
       </div>
@@ -187,7 +189,7 @@ export default function TeacherStudentsPage() {
                     <a href={`/english/zku/teacher/students/${s.user_id}`} style={{ fontSize: 13, fontWeight: 700, color: N, textDecoration: 'none' }}
                       onMouseEnter={e => (e.currentTarget as HTMLElement).style.textDecoration = 'underline'}
                       onMouseLeave={e => (e.currentTarget as HTMLElement).style.textDecoration = 'none'}>
-                      {s.full_name ?? 'Студент'}
+                      {s.full_name ?? t.panel.student_col}
                       {isRisk && <span style={{ marginLeft: 6, fontSize: 10, fontWeight: 700, color: '#D97706', background: '#FEF3C7', padding: '1px 6px', borderRadius: 99 }}>⚠ Риск</span>}
                     </a>
                   </div>

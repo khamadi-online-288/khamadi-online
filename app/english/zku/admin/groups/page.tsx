@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
 const ADMIN = '#7C3AED'
@@ -25,6 +26,8 @@ export default function AdminGroupsPage() {
   const [copied,  setCopied]  = useState<string | null>(null)
   const [toast,   setToast]   = useState<Toast | null>(null)
   const [filterLevel, setFilterLevel] = useState('all')
+  const [tok, setTok] = useState('')
+  const { t } = useZkuLang()
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)
@@ -32,22 +35,16 @@ export default function AdminGroupsPage() {
 
   const load = useCallback(async () => {
     const supabase = createEnglishClient()
-    const { data } = await supabase
-      .from('english_groups')
-      .select('id, name, join_code, students_count, avg_progress, level_code, teacher_id, created_at')
-      .order('created_at', { ascending: false })
+    const { data: { session } } = await supabase.auth.getSession()
+    if (!session) return
+    setTok(session.access_token)
 
-    const teacherIds = [...new Set((data ?? []).map((g: Group & { teacher_id: string | null }) => g.teacher_id).filter(Boolean))]
-    let tm: Record<string,string> = {}
-    if (teacherIds.length > 0) {
-      const { data: profiles } = await supabase
-        .from('english_user_profiles').select('user_id, full_name').in('user_id', teacherIds as string[])
-      ;(profiles ?? []).forEach((p: { user_id: string; full_name: string | null }) => { tm[p.user_id] = p.full_name ?? '—' })
-    }
-
-    setGroups(((data ?? []) as (Group & { teacher_id: string | null })[]).map(g => ({
-      ...g, teacher_name: g.teacher_id ? tm[g.teacher_id] ?? '—' : '—',
-    })) as Group[])
+    // Use service role API to bypass RLS
+    const res = await fetch('/api/english/admin/groups', {
+      headers: { Authorization: `Bearer ${session.access_token}` }
+    })
+    const { groups: data } = await res.json()
+    setGroups((data ?? []) as Group[])
     setLoading(false)
   }, [])
 
@@ -56,8 +53,12 @@ export default function AdminGroupsPage() {
   async function deleteGroup(id: string, name: string) {
     if (!confirm(`Удалить группу «${name}»? Студенты потеряют привязку.`)) return
     const supabase = createEnglishClient()
-    const { error } = await supabase.from('english_groups').delete().eq('id', id)
-    if (error) showToast('Ошибка при удалении', 'error')
+    const res = await fetch('/api/english/admin/groups', {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${tok}` },
+      body: JSON.stringify({ id }),
+    })
+    if (!res.ok) showToast('Ошибка при удалении', 'error')
     else { showToast(`Группа «${name}» удалена`); await load() }
   }
 
@@ -103,7 +104,7 @@ export default function AdminGroupsPage() {
           onBlur={e => e.currentTarget.style.borderColor = BDR} />
         <select value={filterLevel} onChange={e => setFilterLevel(e.target.value)}
           style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
-          {levels.map(l => <option key={l} value={l}>{l === 'all' ? 'Все уровни' : l}</option>)}
+          {levels.map(l => <option key={l} value={l}>{l === 'all' ? t.panel.all_levels : l}</option>)}
         </select>
       </div>
 

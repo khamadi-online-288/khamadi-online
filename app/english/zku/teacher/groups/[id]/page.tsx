@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../../student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -35,6 +36,7 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
   const [addEmail, setAddEmail] = useState('')
   const [adding,   setAdding]   = useState(false)
   const [showAdd,  setShowAdd]  = useState(false)
+  const { t } = useZkuLang()
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)

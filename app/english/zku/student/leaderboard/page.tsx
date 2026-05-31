@@ -37,14 +37,14 @@ export default function LeaderboardPage() {
       const user = session?.user
       if (!user) { setLoading(false); return }
 
-      const { data } = await supabase
-        .from('english_user_profiles')
-        .select('user_id, full_name, total_xp, current_streak, current_level, last_active_at')
-        .order('total_xp', { ascending: false })
-        .limit(50)
+      // Use service-role API to bypass RLS
+      const res = await fetch('/api/english/leaderboard', {
+        headers: { Authorization: `Bearer ${session.access_token}` }
+      })
+      const { rows } = await res.json()
 
-      if (data) {
-        const mapped: LeaderRow[] = (data as ProfileRow[]).map(r => ({
+      if (rows) {
+        const mapped: LeaderRow[] = (rows as ProfileRow[]).map(r => ({
           user_id:        r.user_id,
           full_name:      r.full_name ?? r.user_id.slice(0, 8),
           total_xp:       r.total_xp ?? 0,

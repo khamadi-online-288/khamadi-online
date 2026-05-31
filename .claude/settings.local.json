@@ -1,6 +1,9 @@
 {
   "permissions": {
     "allow": [
+      "Edit",
+      "Write",
+      "MultiEdit",
       "Bash(npx tsc:*)",
       "Read(//tmp/**)",
       "Bash(tsc --version)",
@@ -257,10 +260,52 @@
       "Bash(node -e \"const fs=require\\('fs'\\);let c=fs.readFileSync\\('app/english/dashboard/vocabulary/page.tsx','utf8'\\);c=c.replace\\(\\\\\"{ 0: 'Новое', 1: 'Изучается', 2: 'Повторение', 3: 'Выучено' }\\\\\",\\\\\"{ 0: t.vocabulary_page.status_new, 1: t.vocabulary_page.status_learning, 2: t.vocabulary_page.status_review, 3: t.vocabulary_page.status_mastered }\\\\\"\\);fs.writeFileSync\\('app/english/dashboard/vocabulary/page.tsx',c\\);console.log\\('done'\\)\")",
       "PowerShell(cd 'c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online'; Get-ChildItem -Path app, components, lib -Recurse -File | Where-Object {$_.Extension -in '.ts','.tsx','.js','.jsx','.css','.json'} | Select-Object FullName, @{n='Lines';e={\\(Get-Content $_.FullName | Measure-Object -Line\\).Lines}} | Sort-Object FullName | Format-Table -AutoSize)",
       "PowerShell(if \\(-not $?\\) { \"no stores dir\" })",
-      "PowerShell(Head 40)"
+      "PowerShell(Head 40)",
+      "PowerShell(cd \"C:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi-mobile\"; npx tsc --noEmit 2>&1; Write-Host \"TSC exit code: $LASTEXITCODE\")",
+      "Bash(gh run *)",
+      "PowerShell(gh run list --repo khamadi-online-288/khamadi-online --limit 3 2>&1)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npm run build 2>&1 | Where-Object { $_ -match \"error|Error|warn|failed|Failed\" } | Select-Object -First 30)",
+      "Bash(git checkout *)",
+      "Bash(git clean *)",
+      "Bash(npx create-next-app@latest khamadi-english --typescript --tailwind --app --no-src-dir --import-alias=\"@/*\" --eslint --no-git)",
+      "Bash(not exist *)",
+      "Bash(grep -n '\\\\bT\\\\b\\\\|\\\\bS\\\\b\\\\|\\\\bO\\\\b\\\\|\\\\bP\\\\b\\\\|\\\\bC\\\\b' c:/Users/ASUS/Desktop/khamadi.online/app/english/zku/student/__TRACKED_VAR__)",
+      "Bash(grep -E \"color: [TSOPC][,\\\\}]|background: [TSOPC][,\\\\}]|\\\\$\\\\{[TSOPC]\\\\}|color: [TSOPC] \")",
+      "Bash(node_modules/.bin/tsc --noEmit --skipLibCheck)",
+      "Bash(mkdir \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\module\\\\[id]\")",
+      "Bash(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\module\\\\[id]\")",
+      "Bash(grep \"module\\\\\\\\\\\\[id\\\\\\\\\\\\]\\\\|student/module\")",
+      "Bash(mkdir \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\vocab\\\\lesson\\\\[id]\")",
+      "Bash(mkdir \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\vocab\\\\lesson\" && mkdir \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\vocab\\\\lesson\\\\[id]\")",
+      "Bash(grep -v \"//\")",
+      "Bash(node -e \"require\\('./app/english/zku/student/zku-lang.tsx'\\)\")",
+      "PowerShell(\\(Get-Content \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\lib\\\\english\\\\mockData.ts\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\certificates\\\\a11\")",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"english\" } | Select-Object -First 20)",
+      "PowerShell(\\(Get-Content \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\lesson\\\\[id]\\\\page.tsx\" | Measure-Object -Line\\).Lines)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"l17|L17|l17-g2|L17_G2\" } | Select-Object -First 10)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"l17|L17\" } | Select-Object -First 5)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"l18|L18\" } | Select-Object -First 5)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"l19|L19\" } | Select-Object -First 5)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"l20|L20\" } | Select-Object -First 5)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit --skipLibCheck 2>&1 | Where-Object { $_ -match \"l21|L21\" } | Select-Object -First 5)",
+      "Bash(Select-String \"l23|L23|l22|L22|vocab\")",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit 2>&1 | Where-Object { $_ -match \"l23|L23|l22|L22|vocab\" } | Select-Object -First 20)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit 2>&1 | Where-Object { $_ -match \"vocab\" } | Select-Object -First 10)",
+      "PowerShell(cd \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\"; npx tsc --noEmit 2>&1 | Where-Object { $_ -match \"l24|L24\" } | Select-Object -First 10)",
+      "Bash(Select-String -Path \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\vocab\\\\lesson\\\\[id]\\\\page.tsx\" -Pattern \"VOCAB_L2[0-9]\")",
+      "Bash(Select-Object LineNumber, Line)",
+      "Bash(awk -F'\\(' '{print $2}')",
+      "Bash(awk -F',' '{print $1}')",
+      "Bash(awk '/id: .l2[7-9]-|id: .l3[0-4]-/{found=1} found && /{ id: .q/{print NR\": \"$0}' \"c:/Users/ASUS/Desktop/khamadi.online/app/english/zku/student/lesson/[id]/page.tsx\")",
+      "Bash(Get-ChildItem -Path \"c:\\\\Users\\\\ASUS\\\\Desktop\\\\khamadi.online\\\\app\\\\english\\\\zku\\\\student\\\\\" -Recurse -Directory | Select-Object -First 20)",
+      "PowerShell(head -20)"
     ],
+    "defaultMode": "acceptEdits",
     "additionalDirectories": [
-      "C:\\Users\\ASUS\\Desktop\\khamadi-mobile\\assets"
+      "C:\\Users\\ASUS\\Desktop\\khamadi-mobile\\assets",
+      "c:\\Users\\ASUS\\Desktop\\khamadi.online\\app\\english\\zku\\student\\module",
+      "c:\\Users\\ASUS\\Desktop\\khamadi.online\\app\\english\\zku\\student\\vocab\\lesson"
     ]
   }
 }

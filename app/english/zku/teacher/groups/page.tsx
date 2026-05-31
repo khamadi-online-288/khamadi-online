@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -26,6 +27,7 @@ function genCode() {
 type Toast = { msg: string; type: 'success' | 'error' }
 
 export default function TeacherGroupsPage() {
+  const { t } = useZkuLang()
   const [groups,   setGroups]   = useState<Group[]>([])
   const [loading,  setLoading]  = useState(true)
   const [userId,   setUserId]   = useState('')
@@ -139,7 +141,7 @@ export default function TeacherGroupsPage() {
           fontWeight: 700, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit',
           boxShadow: showForm ? 'none' : `0 4px 14px ${N}44`, display: 'flex', alignItems: 'center', gap: 6,
         }}>
-          {showForm ? '✕ Отмена' : '+ Создать группу'}
+          {showForm ? t.panel.cancel_btn : t.panel.create_btn}
         </button>
       </div>
 

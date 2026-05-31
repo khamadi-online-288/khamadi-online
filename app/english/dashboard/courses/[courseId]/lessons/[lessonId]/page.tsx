@@ -333,9 +333,11 @@ export default function LessonPage() {
   const [passThreshold, setPassThreshold] = useState(90)
 
   useEffect(() => {
+    let cancelled = false
     async function load() {
       const supabase = createEnglishClient()
       const { data: { session } } = await supabase.auth.getSession()
+      if (cancelled) return
       const user = session?.user
       if (!user) { router.push('/english/login'); return }
       setUserId(user.id)
@@ -382,10 +384,12 @@ export default function LessonPage() {
         setPassThreshold(quizRow.pass_threshold ?? 90)
         setQuestions(quizRow.questions ?? [])
       }
-      setLoading(false)
+      if (!cancelled) setLoading(false)
     }
     load()
-  }, [lessonId, router])
+    return () => { cancelled = true }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lessonId])
 
   // Close study session on unmount
   useEffect(() => {

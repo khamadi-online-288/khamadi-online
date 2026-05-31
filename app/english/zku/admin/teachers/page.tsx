@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
 const ADMIN = '#7C3AED'
@@ -31,6 +32,7 @@ export default function AdminTeachersPage() {
   const [formEmail, setFormEmail] = useState('')
   const [formPass,  setFormPass]  = useState('')
   const [creating,  setCreating]  = useState(false)
+  const { t } = useZkuLang()
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 4000)
@@ -195,7 +197,7 @@ export default function AdminTeachersPage() {
           fontWeight: 700, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit',
           boxShadow: showForm ? 'none' : `0 4px 14px ${ADMIN}44`,
         }}>
-          {showForm ? '✕ Отмена' : '+ Создать преподавателя'}
+          {showForm ? '✕ Отмена' : t.panel.create_teacher}
         </button>
       </div>
 
@@ -240,7 +242,7 @@ export default function AdminTeachersPage() {
                 cursor: (!formName.trim() || !formEmail.trim() || formPass.length < 8) ? 'not-allowed' : 'pointer',
                 fontFamily: 'inherit', boxShadow: `0 4px 14px ${ADMIN}44`,
               }}>
-              {creating ? 'Создаём...' : 'Создать аккаунт'}
+              {creating ? t.panel.saving : t.panel.create_teacher}
             </button>
             <div style={{ fontSize: 12, color: '#94A3B8' }}>
               После создания отправьте преподавателю email и пароль вручную
