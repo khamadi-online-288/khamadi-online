@@ -12,7 +12,6 @@ const NAV = [
   { href: '/english/zku/teacher',          label: 'Дашборд',   icon: '📊', exact: true },
   { href: '/english/zku/teacher/groups',   label: 'Группы',    icon: '👥' },
   { href: '/english/zku/teacher/students', label: 'Студенты',  icon: '🎓' },
-  { href: '/english/zku/teacher/homework', label: 'Задания',   icon: '📋' },
 ]
 
 export default function TeacherLayout({ children }: { children: React.ReactNode }) {
