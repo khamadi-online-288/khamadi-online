@@ -305,16 +305,10 @@ export default function ModulePage() {
   const testLesson   = lessons.find(l => l.type === 'test')
   const testDone     = testLesson ? completed.has(testLesson.id) : false
 
-  // Test unlocks when ALL reading + ALL listening are done (core requirement)
-  const readingLessons   = lessons.filter(l => l.type === 'reading')
-  const listeningLessons = lessons.filter(l => l.type === 'listening')
-  const readingDone   = readingLessons.length > 0 && readingLessons.every(l => completed.has(l.id))
-  const listeningDone = listeningLessons.length > 0 && listeningLessons.every(l => completed.has(l.id))
-  // Also allow if 85% of non-test lessons done (fallback for modules without reading/listening)
-  const nonTestTotal  = lessons.filter(l => l.type !== 'test').length
-  const nonTestDone   = doneLessons.length
-  const pct85Done     = nonTestTotal > 0 && nonTestDone / nonTestTotal >= 0.85
-  const testUnlocked  = (readingDone && listeningDone) || pct85Done
+  // Test unlocks when ≥85% of ALL non-test lessons done (reading, listening, grammar, writing, vocab)
+  const nonTestTotal = lessons.filter(l => l.type !== 'test').length
+  const nonTestDone  = doneLessons.length
+  const testUnlocked = nonTestTotal > 0 && nonTestDone / nonTestTotal >= 0.85
 
   // first uncompleted lesson (the one to start/continue)
   const currentLesson = todoLessons[0] ?? (testUnlocked && !testDone ? testLesson : null)
@@ -607,7 +601,7 @@ export default function ModulePage() {
                 <div>
                   <div style={{ fontSize: 12, fontWeight: 700, color: testDone ? G : testUnlocked ? G : MU }}>{t.module.unlock_test}</div>
                   <div style={{ fontSize: 11, color: testDone ? G : testUnlocked ? '#D97706' : '#94A3B8' }}>
-                    {testDone ? '✓ Тест пройден' : testUnlocked ? '✓ Разблокирован — можно проходить!' : 'Завершите Reading + Listening чтобы разблокировать'}
+                    {testDone ? '✓ Тест пройден' : testUnlocked ? '✓ Разблокирован — можно проходить!' : `Пройдите ${Math.ceil(nonTestTotal * 0.85) - nonTestDone} ещё урок(а) чтобы разблокировать`}
                   </div>
                 </div>
               </div>
@@ -801,10 +795,9 @@ export default function ModulePage() {
                 {/* Unlock requirement hint */}
                 {!testUnlocked && (
                   <div style={{ marginBottom: 10, padding: '8px 12px', borderRadius: 8, background: '#FFFBEB', border: '1px solid #FDE68A', fontSize: 11, color: '#92400E', fontWeight: 600 }}>
-                    📖 Завершите все Reading + 🎧 Listening уроки чтобы разблокировать тест
+                    Пройдите 85% уроков модуля чтобы разблокировать финальный тест
                     <div style={{ marginTop: 4, color: '#D97706' }}>
-                      Reading: {readingLessons.filter(l => completed.has(l.id)).length}/{readingLessons.length} &nbsp;·&nbsp;
-                      Listening: {listeningLessons.filter(l => completed.has(l.id)).length}/{listeningLessons.length}
+                      {nonTestDone} из {nonTestTotal} уроков · нужно ещё {Math.ceil(nonTestTotal * 0.85) - nonTestDone}
                     </div>
                   </div>
                 )}
