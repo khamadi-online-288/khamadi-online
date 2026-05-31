@@ -50,20 +50,10 @@ export default function TeacherGroupsPage() {
     const { data: { session } } = await supabase.auth.getSession()
     if (!session) return
     setUserId(session.user.id)
-    // Use junction table so multiple teachers can share a group
-    const { data: junc } = await supabase
-      .from('english_group_teachers')
-      .select('group_id')
-      .eq('teacher_id', session.user.id)
-    const groupIds = (junc ?? []).map((r: { group_id: string }) => r.group_id)
-
-    if (groupIds.length === 0) { setGroups([]); setLoading(false); return }
-
-    const { data } = await supabase
-      .from('english_groups')
-      .select('id, name, join_code, students_count, avg_progress, level_code, teacher_id, created_at')
-      .in('id', groupIds)
-      .order('created_at', { ascending: false })
+    const res = await fetch('/api/english/teacher/groups', {
+      headers: { Authorization: `Bearer ${session.access_token}` }
+    })
+    const { groups: data } = await res.json()
     setGroups((data ?? []) as Group[])
     setLoading(false)
   }, [])
