@@ -263,26 +263,35 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
   const { t }    = useZkuLang()
   const router   = useRouter()
   // Auth: check sessionStorage first to avoid Supabase round-trip on every navigation
-  const [authChecked, setAuthChecked] = useState(() => {
-    if (typeof window === 'undefined') return false
-    return sessionStorage.getItem('zku-auth-ok') === '1'
-  })
+  const [authChecked, setAuthChecked] = useState(false)
 
   useEffect(() => {
-    if (authChecked) return // already verified this session
     async function checkAuth() {
-      const supabase = createEnglishClient()
-      const { data: { session } } = await supabase.auth.getSession()
-      if (!session) {
+      try {
+        const supabase = createEnglishClient()
+        const { data: { session }, error } = await supabase.auth.getSession()
+        if (error || !session) {
+          sessionStorage.removeItem('zku-auth-ok')
+          router.replace('/english/zku/login')
+          return
+        }
+        // Verify token is still valid by refreshing
+        const { error: refreshError } = await supabase.auth.refreshSession()
+        if (refreshError) {
+          sessionStorage.removeItem('zku-auth-ok')
+          await supabase.auth.signOut()
+          router.replace('/english/zku/login')
+          return
+        }
+        sessionStorage.setItem('zku-auth-ok', '1')
+        setAuthChecked(true)
+      } catch {
         sessionStorage.removeItem('zku-auth-ok')
         router.replace('/english/zku/login')
-        return
       }
-      sessionStorage.setItem('zku-auth-ok', '1')
-      setAuthChecked(true)
     }
     checkAuth()
-  }, [router, authChecked])
+  }, [router])
 
   // Also listen for sign-out to clear cache
   useEffect(() => {

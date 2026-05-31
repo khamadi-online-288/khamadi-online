@@ -26,19 +26,23 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     const cached = sessionStorage.getItem('zku-admin-name')
     if (cached) setName(cached)
     async function check() {
-      const supabase = createEnglishClient()
-      const { data: { session } } = await supabase.auth.getSession()
-      if (!session) { router.replace('/english/zku/login'); return }
-      const { data: profile } = await supabase
+      try {
+        const supabase = createEnglishClient()
+        const { data: { session }, error } = await supabase.auth.getSession()
+        if (error || !session) { router.replace('/english/zku/login'); return }
+        const { error: re } = await supabase.auth.refreshSession()
+        if (re) { sessionStorage.removeItem('zku-admin-name'); await supabase.auth.signOut(); router.replace('/english/zku/login'); return }
+        const { data: profile } = await supabase
         .from('english_user_profiles').select('role, full_name')
         .eq('user_id', session.user.id).maybeSingle()
       if (!profile || profile.role !== 'admin') {
         router.replace('/english/zku/login'); return
       }
       const n = profile.full_name ?? session.user.email ?? ''
-      setName(n); setEmail(session.user.email ?? '')
-      sessionStorage.setItem('zku-admin-name', n)
-      setReady(true)
+        setName(n); setEmail(session.user.email ?? '')
+        sessionStorage.setItem('zku-admin-name', n)
+        setReady(true)
+      } catch { sessionStorage.removeItem('zku-admin-name'); router.replace('/english/zku/login') }
     }
     check()
   }, [router])
