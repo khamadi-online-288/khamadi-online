@@ -61,7 +61,7 @@ export default function ZKULandingPage() {
         <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
           {/* Lang toggle */}
           <div style={{ display: 'flex', background: 'rgba(0,56,118,0.06)', borderRadius: 8, padding: 3, gap: 2 }}>
-            {(['ru', 'kz'] as Lang[]).map(l => (
+            {(['ru', 'kz', 'en'] as Lang[]).map(l => (
               <button key={l} onClick={() => setLang(l)} style={{
                 padding: '5px 12px', borderRadius: 6, fontSize: 12, fontWeight: 700,
                 cursor: 'pointer', border: 'none', transition: 'all 0.15s',
