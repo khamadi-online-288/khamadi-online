@@ -55,7 +55,13 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
   const initial = name.charAt(0).toUpperCase() || '?'
   const parts = name.trim().split(' ')
   const firstName = parts.length >= 2 ? parts[1] : parts[0]
-  const currentPage = NAV.find(n => n.exact ? pathname === n.href : pathname.startsWith(n.href))
+  const NAV_ITEMS = [
+    { href: '/english/zku/admin',           label: t.panel.nav_dashboard, icon: '📊', exact: true },
+    { href: '/english/zku/admin/teachers',  label: t.panel.nav_teachers,  icon: '👨‍🏫' },
+    { href: '/english/zku/admin/students',  label: t.panel.nav_students,  icon: '🎓' },
+    { href: '/english/zku/admin/groups',    label: t.panel.nav_groups,    icon: '👥' },
+  ]
+  const currentPage = NAV_ITEMS.find(n => n.exact ? pathname === n.href : pathname.startsWith(n.href))
 
   return (
     <div style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat',sans-serif", background:'#F0F4FA' }}>
@@ -82,12 +88,7 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
         {/* Nav */}
         <nav style={{ flex:1, padding:'10px 8px', overflowY:'auto' }}>
           <div style={{ fontSize:9, fontWeight:700, color:'rgba(255,255,255,0.28)', textTransform:'uppercase', letterSpacing:'0.14em', padding:'10px 12px 5px' }}>{t.panel.nav_manage}</div>
-          {[
-            { href: '/english/zku/admin',           label: t.panel.nav_dashboard, icon: '📊', exact: true },
-            { href: '/english/zku/admin/teachers',  label: t.panel.nav_teachers,  icon: '👨‍🏫' },
-            { href: '/english/zku/admin/students',  label: t.panel.nav_students,  icon: '🎓' },
-            { href: '/english/zku/admin/groups',    label: t.panel.nav_groups,    icon: '👥' },
-          ].map(item => {
+          {NAV_ITEMS.map(item => {
             const active = item.exact ? pathname === item.href : pathname.startsWith(item.href)
             return (
               <Link key={item.href} href={item.href} style={{
@@ -162,5 +163,4 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return <ZkuLangProvider><AdminLayoutInner>{children}</AdminLayoutInner></ZkuLangProvider>
-}
 }
