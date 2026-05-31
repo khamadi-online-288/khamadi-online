@@ -132,8 +132,13 @@ export default function LevelPage() {
     } satisfies ComputedModule
   })
 
-  // Pass 2: all modules unlocked
-  const modules: ComputedModule[] = withProgress.map(m => ({ ...m, isLocked: false }))
+  // Pass 2: sequential locking — next module locked until previous reaches 85%
+  const UNLOCK_THRESHOLD = 85
+  const modules: ComputedModule[] = withProgress.map((m, i) => {
+    if (i === 0) return { ...m, isLocked: false }
+    const prev = withProgress[i - 1]
+    return { ...m, isLocked: prev.progress < UNLOCK_THRESHOLD }
+  })
 
   const totalLessons = modules.reduce((s: number, m: ComputedModule) => {
     const sec = m.sections
@@ -230,10 +235,11 @@ export default function LevelPage() {
         </div>
       ) : modules.length > 0 ? (
         (() => {
-          const completedMods = modules.filter((m: ComputedModule) => m.progress === 100)
-          const activeMod     = modules.find((m: ComputedModule) => m.progress > 0 && m.progress < 100)
+          const completedMods = modules.filter((m: ComputedModule) => m.progress >= UNLOCK_THRESHOLD)
+          const activeMod     = modules.find((m: ComputedModule) => m.progress > 0 && m.progress < UNLOCK_THRESHOLD)
           const currentMod    = activeMod ?? modules.find((m: ComputedModule) => m.progress === 0 && !m.isLocked)
           const upcomingMods  = modules.filter((m: ComputedModule) => m.id !== currentMod?.id && m.progress === 0 && !m.isLocked)
+          const lockedMods    = modules.filter((m: ComputedModule) => m.isLocked)
           const doneCount     = completedMods.length
 
           return (
@@ -388,9 +394,9 @@ export default function LevelPage() {
               )
             })()}
 
-            {/* ── UPCOMING section ── */}
+            {/* ── UPCOMING section (unlocked, not started) ── */}
             {upcomingMods.length > 0 && (
-              <div>
+              <div style={{ marginBottom: 20 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
                   <div style={{ width: 20, height: 20, borderRadius: '50%', background: '#F1F5F9', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#CBD5E1' }} />
@@ -399,57 +405,75 @@ export default function LevelPage() {
                     {t.path.upcoming_section} — {upcomingMods.length} {t.path.modules_of}
                   </span>
                 </div>
-                {/* Vertical path */}
-                <div style={{ position: 'relative', paddingLeft: 32 }}>
-                  {/* Vertical line */}
-                  <div style={{ position: 'absolute', left: 10, top: 12, bottom: 12, width: 2, background: '#E2E8F0', borderRadius: 2 }} />
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                    {upcomingMods.map((mod: ComputedModule, i: number) => {
-                      const sec = mod.sections
-                      const lessonCount = sec.reading + sec.listening + sec.grammar + sec.writing + sec.test
-                      const isNextUp = i === 0
-                      return (
-                        <div key={mod.id} style={{ position: 'relative' }}>
-                          {/* Path dot */}
-                          <div style={{
-                            position: 'absolute', left: -26, top: '50%', transform: 'translateY(-50%)',
-                            width: 16, height: 16, borderRadius: '50%',
-                            background: isNextUp ? '#fff' : '#F8FAFC',
-                            border: `2px solid ${isNextUp ? '#CBD5E1' : '#E2E8F0'}`,
-                            display: 'flex', alignItems: 'center', justifyContent: 'center',
-                          }}>
-                            {isNextUp && <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#CBD5E1' }} />}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+                  {upcomingMods.map((mod: ComputedModule) => {
+                    const sec = mod.sections
+                    const lessonCount = sec.reading + sec.listening + sec.grammar + sec.writing + sec.test
+                    return (
+                      <Link key={mod.id} href={`/english/zku/student/module/${mod.id}`} style={{ textDecoration: 'none' }}>
+                        <div style={{
+                          background: '#FAFBFD', borderRadius: 14, padding: '12px 18px',
+                          border: '1px solid #F1F5F9',
+                          display: 'flex', alignItems: 'center', gap: 14,
+                          transition: 'transform 0.12s', cursor: 'pointer',
+                        }}
+                        onMouseEnter={e => { (e.currentTarget as HTMLElement).style.transform = 'translateX(4px)' }}
+                        onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = 'none' }}>
+                          <div style={{ width: 32, height: 32, borderRadius: 10, background: '#EEF2F7', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                            <span style={{ fontSize: 12, fontWeight: 900, color: '#94A3B8' }}>{mod.order_num}</span>
                           </div>
-                          <Link href={`/english/zku/student/module/${mod.id}`} style={{ textDecoration: 'none' }}>
-                            <div style={{
-                              background: isNextUp ? '#fff' : '#FAFBFD',
-                              borderRadius: 14, padding: '12px 18px',
-                              border: `1px solid ${isNextUp ? '#E2E8F0' : '#F1F5F9'}`,
-                              display: 'flex', alignItems: 'center', gap: 14,
-                              opacity: isNextUp ? 1 : 0.65,
-                              transition: 'opacity 0.15s, transform 0.12s',
-                              cursor: 'pointer',
-                            }}
-                            onMouseEnter={e => { (e.currentTarget as HTMLElement).style.opacity = '1'; (e.currentTarget as HTMLElement).style.transform = 'translateX(4px)' }}
-                            onMouseLeave={e => { (e.currentTarget as HTMLElement).style.opacity = isNextUp ? '1' : '0.65'; (e.currentTarget as HTMLElement).style.transform = 'none' }}>
-                              <div style={{ width: 32, height: 32, borderRadius: 10, background: '#EEF2F7', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                                <span style={{ fontSize: 12, fontWeight: 900, color: '#94A3B8' }}>{mod.order_num}</span>
-                              </div>
-                              <div style={{ flex: 1 }}>
-                                <div style={{ fontSize: 13, fontWeight: 700, color: '#475569' }}>
-                                  М{mod.order_num} · {mod.title}
-                                </div>
-                                <div style={{ fontSize: 11, color: '#94A3B8' }}>{mod.grammar_focus}</div>
-                              </div>
-                              <div style={{ fontSize: 11, color: '#94A3B8', flexShrink: 0 }}>
-                                {lessonCount} ур. · {mod.xp_total} XP
-                              </div>
-                            </div>
-                          </Link>
+                          <div style={{ flex: 1 }}>
+                            <div style={{ fontSize: 13, fontWeight: 700, color: '#475569' }}>М{mod.order_num} · {mod.title}</div>
+                            <div style={{ fontSize: 11, color: '#94A3B8' }}>{mod.grammar_focus}</div>
+                          </div>
+                          <div style={{ fontSize: 11, color: '#94A3B8', flexShrink: 0 }}>{lessonCount} ур. · {mod.xp_total} XP</div>
                         </div>
-                      )
-                    })}
+                      </Link>
+                    )
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* ── LOCKED modules section ── */}
+            {lockedMods.length > 0 && (
+              <div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 10 }}>
+                  <div style={{ width: 20, height: 20, borderRadius: '50%', background: '#FEF2F2', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <IcLock size={10} color="#EF4444" />
                   </div>
+                  <span style={{ fontSize: 11, fontWeight: 800, color: '#94A3B8', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
+                    Заблокировано — {lockedMods.length} {t.path.modules_of}
+                  </span>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+                  {lockedMods.map((mod: ComputedModule, i: number) => {
+                    const prevMod = modules[modules.indexOf(mod) - 1]
+                    return (
+                      <div key={mod.id} style={{
+                        background: i === 0 ? '#FFFBEB' : '#FAFAFA',
+                        borderRadius: 12, padding: '10px 16px',
+                        border: i === 0 ? '1px solid #FDE68A' : '1px dashed #E2E8F0',
+                        display: 'flex', alignItems: 'center', gap: 12,
+                        opacity: i === 0 ? 1 : 0.55,
+                      }}>
+                        <div style={{ width: 30, height: 30, borderRadius: 9, background: i === 0 ? '#FEF3C7' : '#F1F5F9', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                          <IcLock size={14} color={i === 0 ? '#D97706' : '#CBD5E1'} />
+                        </div>
+                        <div style={{ flex: 1 }}>
+                          <div style={{ fontSize: 12, fontWeight: 700, color: i === 0 ? '#92400E' : '#94A3B8' }}>М{mod.order_num} · {mod.title}</div>
+                          {i === 0 && prevMod && (
+                            <div style={{ fontSize: 10, color: '#D97706', marginTop: 2 }}>
+                              Пройдите М{prevMod.order_num} на {UNLOCK_THRESHOLD}% → откроется этот модуль
+                            </div>
+                          )}
+                        </div>
+                        <div style={{ fontSize: 10, fontWeight: 700, color: i === 0 ? '#D97706' : '#CBD5E1', background: i === 0 ? '#FEF3C7' : '#F1F5F9', padding: '2px 8px', borderRadius: 6, flexShrink: 0 }}>
+                          🔒 {UNLOCK_THRESHOLD}%
+                        </div>
+                      </div>
+                    )
+                  })}
                 </div>
               </div>
             )}

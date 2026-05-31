@@ -305,8 +305,19 @@ export default function ModulePage() {
   const testLesson   = lessons.find(l => l.type === 'test')
   const testDone     = testLesson ? completed.has(testLesson.id) : false
 
+  // Test unlocks when ALL reading + ALL listening are done (core requirement)
+  const readingLessons   = lessons.filter(l => l.type === 'reading')
+  const listeningLessons = lessons.filter(l => l.type === 'listening')
+  const readingDone   = readingLessons.length > 0 && readingLessons.every(l => completed.has(l.id))
+  const listeningDone = listeningLessons.length > 0 && listeningLessons.every(l => completed.has(l.id))
+  // Also allow if 85% of non-test lessons done (fallback for modules without reading/listening)
+  const nonTestTotal  = lessons.filter(l => l.type !== 'test').length
+  const nonTestDone   = doneLessons.length
+  const pct85Done     = nonTestTotal > 0 && nonTestDone / nonTestTotal >= 0.85
+  const testUnlocked  = (readingDone && listeningDone) || pct85Done
+
   // first uncompleted lesson (the one to start/continue)
-  const currentLesson = todoLessons[0] ?? testLesson
+  const currentLesson = todoLessons[0] ?? (testUnlocked && !testDone ? testLesson : null)
 
   function LessonCard({ lesson, status }: { lesson: typeof lessons[0]; status: 'done' | 'current' | 'todo' | 'locked' }) {
     const c = cfg[lesson.type] ?? cfg.reading
@@ -594,9 +605,9 @@ export default function ModulePage() {
                   {testDone ? <IcCheck size={15} color={G} /> : <IcStar size={15} color={G} />}
                 </div>
                 <div>
-                  <div style={{ fontSize: 12, fontWeight: 700, color: testDone ? G : MU }}>{t.module.unlock_test}</div>
-                  <div style={{ fontSize: 11, color: testDone ? G : '#94A3B8' }}>
-                    {testDone ? '✓ Тест пройден' : `Завершите все уроки чтобы разблокировать`}
+                  <div style={{ fontSize: 12, fontWeight: 700, color: testDone ? G : testUnlocked ? G : MU }}>{t.module.unlock_test}</div>
+                  <div style={{ fontSize: 11, color: testDone ? G : testUnlocked ? '#D97706' : '#94A3B8' }}>
+                    {testDone ? '✓ Тест пройден' : testUnlocked ? '✓ Разблокирован — можно проходить!' : 'Завершите Reading + Listening чтобы разблокировать'}
                   </div>
                 </div>
               </div>
@@ -787,18 +798,28 @@ export default function ModulePage() {
                   </div>
                 </div>
 
+                {/* Unlock requirement hint */}
+                {!testUnlocked && (
+                  <div style={{ marginBottom: 10, padding: '8px 12px', borderRadius: 8, background: '#FFFBEB', border: '1px solid #FDE68A', fontSize: 11, color: '#92400E', fontWeight: 600 }}>
+                    📖 Завершите все Reading + 🎧 Listening уроки чтобы разблокировать тест
+                    <div style={{ marginTop: 4, color: '#D97706' }}>
+                      Reading: {readingLessons.filter(l => completed.has(l.id)).length}/{readingLessons.length} &nbsp;·&nbsp;
+                      Listening: {listeningLessons.filter(l => completed.has(l.id)).length}/{listeningLessons.length}
+                    </div>
+                  </div>
+                )}
                 <Link
-                  href={todoLessons.length === 0 ? `/english/zku/student/lesson/${testLesson.id}` : '#'}
-                  onClick={e => todoLessons.length > 0 && e.preventDefault()}
+                  href={testUnlocked ? `/english/zku/student/lesson/${testLesson.id}` : '#'}
+                  onClick={e => !testUnlocked && e.preventDefault()}
                   style={{ textDecoration: 'none', display: 'block' }}
                 >
                   <div style={{
-                    background: testDone ? T : todoLessons.length === 0 ? G : '#F1F5F9',
-                    color: todoLessons.length === 0 || testDone ? '#fff' : '#94A3B8',
+                    background: testDone ? T : testUnlocked ? G : '#F1F5F9',
+                    color: testUnlocked || testDone ? '#fff' : '#94A3B8',
                     borderRadius: 10, padding: '12px 16px',
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    cursor: todoLessons.length === 0 ? 'pointer' : 'not-allowed',
-                    boxShadow: (todoLessons.length === 0 && !testDone) ? `0 4px 14px ${G}44` : 'none',
+                    cursor: testUnlocked ? 'pointer' : 'not-allowed',
+                    boxShadow: (testUnlocked && !testDone) ? `0 4px 14px ${G}44` : 'none',
                   }}>
                     <div>
                       <div style={{ fontSize: 13, fontWeight: 800 }}>{testLesson.title}</div>
@@ -806,7 +827,7 @@ export default function ModulePage() {
                         {testLesson.duration_min} {t.module.min_word} · +{testLesson.xp_reward} XP
                       </div>
                     </div>
-                    {todoLessons.length > 0
+                    {!testUnlocked
                       ? <IcLock size={16} color="#94A3B8" />
                       : testDone
                         ? <IcCheckCircle size={20} color="rgba(255,255,255,0.9)" />
