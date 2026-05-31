@@ -220,9 +220,14 @@ export default function TeacherGroupsPage() {
                       </div>
                     ) : (
                       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4 }}>
-                        <span style={{ fontSize: 15, fontWeight: 800, color: N }}>{g.name}</span>
+                        <a href={`/english/zku/teacher/groups/${g.id}`} style={{ fontSize: 15, fontWeight: 800, color: N, textDecoration: 'none' }}
+                          onMouseEnter={e => (e.currentTarget as HTMLElement).style.textDecoration = 'underline'}
+                          onMouseLeave={e => (e.currentTarget as HTMLElement).style.textDecoration = 'none'}>
+                          {g.name}
+                        </a>
                         <span style={{ fontSize: 11, fontWeight: 700, background: `${lc}15`, color: lc, padding: '2px 8px', borderRadius: 99 }}>{g.level_code}</span>
                         <button onClick={() => { setEditId(g.id); setEditName(g.name) }} style={{ padding: '3px 8px', borderRadius: 6, border: 'none', background: '#F1F5F9', color: MUT, fontSize: 11, cursor: 'pointer' }}>✏️</button>
+                        <a href={`/english/zku/teacher/groups/${g.id}`} style={{ padding: '3px 10px', borderRadius: 6, background: '#EEF2F7', color: N, fontSize: 11, fontWeight: 700, textDecoration: 'none' }}>Открыть →</a>
                       </div>
                     )}
                     <div style={{ fontSize: 12, color: MUT }}>

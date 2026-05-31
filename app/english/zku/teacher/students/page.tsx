@@ -182,10 +182,12 @@ export default function TeacherStudentsPage() {
                     {active.color === T && <div style={{ position: 'absolute', bottom: 0, right: 0, width: 9, height: 9, borderRadius: '50%', background: T, border: '2px solid #fff' }} />}
                   </div>
                   <div>
-                    <div style={{ fontSize: 13, fontWeight: 700, color: N }}>
+                    <a href={`/english/zku/teacher/students/${s.user_id}`} style={{ fontSize: 13, fontWeight: 700, color: N, textDecoration: 'none' }}
+                      onMouseEnter={e => (e.currentTarget as HTMLElement).style.textDecoration = 'underline'}
+                      onMouseLeave={e => (e.currentTarget as HTMLElement).style.textDecoration = 'none'}>
                       {s.full_name ?? 'Студент'}
                       {isRisk && <span style={{ marginLeft: 6, fontSize: 10, fontWeight: 700, color: '#D97706', background: '#FEF3C7', padding: '1px 6px', borderRadius: 99 }}>⚠ Риск</span>}
-                    </div>
+                    </a>
                   </div>
                 </div>
                 <div><span style={{ fontSize: 11, fontWeight: 800, background: `${lc}18`, color: lc, padding: '3px 9px', borderRadius: 99 }}>{s.current_level ?? 'A1'}</span></div>
