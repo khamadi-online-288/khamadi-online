@@ -413,6 +413,9 @@ export default function EnglishLandingPage() {
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <LanguageSwitcher variant="light" />
+            <button className="btn-zku" onClick={() => router.push('/english/zku')}>
+              🎓 ЗКУ им. М. Утемісова
+            </button>
             <button className="btn-ghost" onClick={() => router.push('/english/login')}>
               {t.nav.login}
             </button>
@@ -661,6 +664,84 @@ export default function EnglishLandingPage() {
                   </div>
                 </Reveal>
               ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ── ZKU Banner ── */}
+      <section style={{ padding: '0 5% 72px' }}>
+        <div className="container">
+          <Reveal>
+            <div onClick={() => router.push('/english/zku')} style={{
+              cursor: 'pointer',
+              borderRadius: 28,
+              padding: '32px 40px',
+              background: 'linear-gradient(135deg, #001d45 0%, #003876 55%, #004fa0 100%)',
+              border: '1px solid rgba(255,255,255,0.08)',
+              boxShadow: '0 20px 60px rgba(0,56,118,0.22)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              gap: 24,
+              flexWrap: 'wrap',
+              position: 'relative',
+              overflow: 'hidden',
+              transition: 'transform .25s ease, box-shadow .25s ease',
+            }}
+            onMouseEnter={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(-3px)'; (e.currentTarget as HTMLElement).style.boxShadow = '0 28px 70px rgba(0,56,118,0.30)' }}
+            onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(0)'; (e.currentTarget as HTMLElement).style.boxShadow = '0 20px 60px rgba(0,56,118,0.22)' }}>
+              {/* bg decor */}
+              <div style={{ position:'absolute', top:-60, right:-60, width:220, height:220, borderRadius:'50%', background:'rgba(201,147,59,0.12)', pointerEvents:'none' }} />
+              <div style={{ position:'absolute', bottom:-40, left:'40%', width:160, height:160, borderRadius:'50%', background:'rgba(255,255,255,0.04)', pointerEvents:'none' }} />
+
+              <div style={{ display:'flex', alignItems:'center', gap:20, position:'relative' }}>
+                <div style={{
+                  width:56, height:56, borderRadius:16,
+                  background:'rgba(255,255,255,0.12)',
+                  border:'1.5px solid rgba(255,255,255,0.2)',
+                  display:'flex', alignItems:'center', justifyContent:'center',
+                  fontSize:26, flexShrink:0,
+                }}>🎓</div>
+                <div>
+                  <div style={{ fontSize:11, fontWeight:800, color:'#C9933B', letterSpacing:'0.14em', textTransform:'uppercase', marginBottom:4 }}>
+                    Специальная платформа
+                  </div>
+                  <div style={{ fontSize:20, fontWeight:900, color:'#fff', lineHeight:1.2, marginBottom:4 }}>
+                    ЗКУ им. М. Утемісова · English
+                  </div>
+                  <div style={{ fontSize:13, color:'rgba(255,255,255,0.55)', fontWeight:600 }}>
+                    Отдельная среда для студентов и преподавателей ЗКУ · A1–C1 · 600+ уроков
+                  </div>
+                </div>
+              </div>
+
+              <div style={{ display:'flex', alignItems:'center', gap:12, position:'relative', flexShrink:0 }}>
+                {[
+                  { icon:'📚', label:'600+ уроков' },
+                  { icon:'🏆', label:'Сертификаты' },
+                  { icon:'👩‍🏫', label:'Преподаватели' },
+                ].map(b => (
+                  <div key={b.label} style={{
+                    padding:'8px 14px', borderRadius:12,
+                    background:'rgba(255,255,255,0.08)',
+                    border:'1px solid rgba(255,255,255,0.1)',
+                    fontSize:12, fontWeight:700, color:'rgba(255,255,255,0.8)',
+                    display:'flex', alignItems:'center', gap:6,
+                  }}>
+                    {b.icon} {b.label}
+                  </div>
+                ))}
+                <div style={{
+                  padding:'12px 22px', borderRadius:14,
+                  background:'linear-gradient(135deg, #C9933B, #e0a840)',
+                  color:'#fff', fontSize:13, fontWeight:900,
+                  boxShadow:'0 8px 24px rgba(201,147,59,0.4)',
+                  whiteSpace:'nowrap',
+                }}>
+                  Войти в ЗКУ →
+                </div>
+              </div>
             </div>
           </Reveal>
         </div>
@@ -1210,6 +1291,24 @@ export default function EnglishLandingPage() {
         .nav-link:hover {
           color: #0f172a;
           background: rgba(56,189,248,0.08);
+        }
+
+        .btn-zku {
+          padding: 11px 16px;
+          font-size: 13px;
+          font-weight: 800;
+          border-radius: 14px;
+          border: 1px solid rgba(0,56,118,0.18);
+          background: linear-gradient(135deg, #003876, #004fa0);
+          color: #fff;
+          cursor: pointer;
+          transition: all .25s ease;
+          white-space: nowrap;
+        }
+
+        .btn-zku:hover {
+          transform: translateY(-1px);
+          box-shadow: 0 8px 24px rgba(0,56,118,0.28);
         }
 
         .btn-ghost {
