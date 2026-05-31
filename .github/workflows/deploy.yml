@@ -19,19 +19,31 @@ jobs:
           timeout: 60s
           command_timeout: 45m
           script: |
+            set -e
             cd ~/khamadi-online
+
+            echo "📦 Pulling latest code..."
             git fetch origin main
             git reset --hard origin/main
 
-            # Install dependencies
+            echo "📥 Installing dependencies..."
             npm ci --prefer-offline || npm install
 
-            # Build with enough memory for large lesson files (52K+ lines)
+            echo "🔨 Building..."
             export NODE_OPTIONS="--max-old-space-size=4096"
             npm run build
 
-            # Restart app
-            pm2 restart khamadi || pm2 start npm --name khamadi -- start
-            pm2 save
+            echo "🚀 Restarting pm2..."
+            pm2 stop khamadi 2>/dev/null || true
+            pm2 delete khamadi 2>/dev/null || true
 
-            echo "✅ Deploy completed at $(date)"
+            NODE_OPTIONS="--max-old-space-size=2048" pm2 start npm \
+              --name khamadi \
+              --max-memory-restart 1800M \
+              -- start
+
+            pm2 save
+            sleep 5
+            pm2 list
+            curl -sf http://localhost:3000 > /dev/null && echo "✅ App responding" || echo "⚠️ Not responding on :3000"
+            echo "✅ Deploy done at $(date)"
