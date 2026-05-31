@@ -10,7 +10,7 @@ const MUT = '#64748B'
 const BDR = 'rgba(0,56,118,0.08)'
 
 interface Teacher {
-  user_id: string; full_name: string | null; last_active_at: string | null
+  user_id: string; full_name: string | null; email?: string; last_active_at: string | null
   groups_count?: number; students_count?: number; is_active?: boolean
 }
 type Toast = { msg: string; type: 'success'|'error' }
@@ -18,6 +18,10 @@ type Toast = { msg: string; type: 'success'|'error' }
 export default function AdminTeachersPage() {
   const [teachers,  setTeachers]  = useState<Teacher[]>([])
   const [loading,   setLoading]   = useState(true)
+  const [passId,    setPassId]    = useState<string | null>(null)
+  const [newPass,   setNewPass]   = useState('')
+  const [passLoad,  setPassLoad]  = useState(false)
+  const [tok,       setTok]       = useState('')
   const [search,    setSearch]    = useState('')
   const [toast,     setToast]     = useState<Toast | null>(null)
   const [showForm,  setShowForm]  = useState(false)
@@ -34,6 +38,9 @@ export default function AdminTeachersPage() {
 
   const load = useCallback(async () => {
     const supabase = createEnglishClient()
+    const { data: { session } } = await supabase.auth.getSession()
+    if (session) setTok(session.access_token)
+
     const { data } = await supabase
       .from('english_user_profiles')
       .select('user_id, full_name, last_active_at')
@@ -41,14 +48,16 @@ export default function AdminTeachersPage() {
       .order('last_active_at', { ascending: false })
 
     const list = await Promise.all((data ?? []).map(async (t: Teacher) => {
-      const { count: gc } = await supabase
-        .from('english_groups').select('*', { count: 'exact', head: true }).eq('teacher_id', t.user_id)
-      const { data: grps } = await supabase
-        .from('english_groups').select('students_count').eq('teacher_id', t.user_id)
+      const { data: junc } = await supabase
+        .from('english_group_teachers').select('group_id').eq('teacher_id', t.user_id)
+      const gids = (junc ?? []).map((r: { group_id: string }) => r.group_id)
+      const gc = gids.length
+      const { data: grps } = gc > 0 ? await supabase
+        .from('english_groups').select('students_count').in('id', gids) : { data: [] }
       const sc = (grps ?? []).reduce((s: number, g: { students_count: number | null }) => s + (g.students_count ?? 0), 0)
       const now = new Date()
       const lastD = t.last_active_at ? (now.getTime() - new Date(t.last_active_at).getTime()) / 86400000 : 999
-      return { ...t, groups_count: gc ?? 0, students_count: sc, is_active: lastD <= 7 }
+      return { ...t, groups_count: gc, students_count: sc, is_active: lastD <= 7 }
     }))
 
     setTeachers(list as Teacher[])
@@ -89,6 +98,20 @@ export default function AdminTeachersPage() {
     setCreating(false)
   }
 
+  async function changePassword(userId: string) {
+    if (newPass.length < 6) { showToast('Минимум 6 символов', 'error'); return }
+    setPassLoad(true)
+    const res = await fetch('/api/english/admin/change-password', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${tok}` },
+      body: JSON.stringify({ targetUserId: userId, newPassword: newPass }),
+    })
+    const d = await res.json()
+    setPassLoad(false)
+    if (d.ok) { showToast('✓ Пароль изменён'); setPassId(null); setNewPass('') }
+    else showToast(d.error ?? 'Ошибка', 'error')
+  }
+
   async function promoteToAdmin(userId: string, name: string) {
     if (!confirm(`Сделать ${name} администратором?`)) return
     const supabase = createEnglishClient()
@@ -124,6 +147,31 @@ export default function AdminTeachersPage() {
 
   return (
     <div style={{ padding: '24px 28px', maxWidth: 960, margin: '0 auto' }}>
+
+      {/* Password modal */}
+      {passId && (
+        <div style={{ position: 'fixed', inset: 0, zIndex: 500, background: 'rgba(0,0,0,0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+          onClick={e => { if (e.target === e.currentTarget) { setPassId(null); setNewPass('') } }}>
+          <div style={{ background: '#fff', borderRadius: 20, padding: '28px 32px', width: 400, boxShadow: '0 20px 60px rgba(0,0,0,0.25)' }}>
+            <div style={{ fontSize: 16, fontWeight: 900, color: N, marginBottom: 6 }}>🔑 Сменить пароль преподавателя</div>
+            <div style={{ fontSize: 12, color: MUT, marginBottom: 20 }}>
+              <strong>{teachers.find(t => t.user_id === passId)?.full_name}</strong>
+            </div>
+            <input autoFocus type="text" value={newPass} onChange={e => setNewPass(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && changePassword(passId)}
+              placeholder="Новый пароль (мин. 6 символов)"
+              style={{ width: '100%', padding: '12px 14px', borderRadius: 10, border: `2px solid ${N}`, fontSize: 14, outline: 'none', boxSizing: 'border-box', fontFamily: 'inherit', marginBottom: 14 }}/>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <button onClick={() => { setPassId(null); setNewPass('') }}
+                style={{ flex: 1, padding: '11px', borderRadius: 10, border: `1px solid ${BDR}`, background: '#F1F5F9', color: MUT, fontWeight: 700, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>Отмена</button>
+              <button onClick={() => changePassword(passId)} disabled={passLoad || newPass.length < 6}
+                style={{ flex: 2, padding: '11px', borderRadius: 10, border: 'none', background: newPass.length >= 6 ? N : '#CBD5E1', color: '#fff', fontWeight: 700, fontSize: 13, cursor: newPass.length >= 6 ? 'pointer' : 'not-allowed', fontFamily: 'inherit' }}>
+                {passLoad ? 'Сохраняем...' : '✓ Сохранить пароль'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {toast && (
         <div style={{ position: 'fixed', top: 20, right: 20, zIndex: 999, padding: '14px 22px', borderRadius: 12, background: toast.type === 'success' ? T : '#DC2626', color: '#fff', fontWeight: 700, fontSize: 13, boxShadow: '0 8px 24px rgba(0,0,0,0.18)', maxWidth: 360 }}>
@@ -248,9 +296,14 @@ export default function AdminTeachersPage() {
                 <div style={{ fontSize: 14, fontWeight: 700, color: ADMIN }}>{t.groups_count ?? 0}</div>
                 <div style={{ fontSize: 14, fontWeight: 700, color: '#16A34A' }}>{t.students_count ?? 0}</div>
                 <div style={{ fontSize: 12, fontWeight: 600, color: ag.color }}>{ag.label}</div>
-                <div style={{ display: 'flex', gap: 6 }}>
+                <div style={{ display: 'flex', gap: 5 }}>
+                  <button onClick={() => { setPassId(t.user_id); setNewPass('') }}
+                    title="Сменить пароль"
+                    style={{ padding: '7px 10px', borderRadius: 8, border: '1px solid #FEF3C7', background: '#FFFBEB', color: '#D97706', fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>
+                    🔑
+                  </button>
                   <button onClick={() => promoteToAdmin(t.user_id, t.full_name ?? 'Преподаватель')} style={{
-                    padding: '7px 12px', borderRadius: 8, border: `1px solid ${ADMIN}33`,
+                    padding: '7px 10px', borderRadius: 8, border: `1px solid ${ADMIN}33`,
                     background: '#EDE9FE', color: ADMIN, fontSize: 11, fontWeight: 700,
                     cursor: 'pointer', fontFamily: 'inherit', whiteSpace: 'nowrap',
                   }}>→ Admin</button>

@@ -11,9 +11,9 @@ const MUT = '#64748B'
 const BDR = 'rgba(0,56,118,0.08)'
 
 interface Student {
-  user_id: string; full_name: string | null; current_level: string | null
+  user_id: string; full_name: string | null; email: string; current_level: string | null
   total_xp: number | null; current_streak: number | null; last_active_at: string | null
-  group_id: string | null; group_name?: string
+  group_id: string | null; group_name?: string; lessons_done: number
 }
 interface Group { id: string; name: string; teacher_name?: string }
 type Toast = { msg: string; type: 'success'|'error' }
@@ -33,6 +33,10 @@ export default function AdminStudentsPage() {
   const [toast,      setToast]      = useState<Toast | null>(null)
   const [assigningId, setAssigningId] = useState<string | null>(null)
   const [assignGroup, setAssignGroup] = useState('')
+  const [passId,    setPassId]    = useState<string | null>(null)
+  const [newPass,   setNewPass]   = useState('')
+  const [passLoading, setPassLoading] = useState(false)
+  const [token,     setToken]     = useState('')
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)
@@ -40,35 +44,41 @@ export default function AdminStudentsPage() {
 
   const load = useCallback(async () => {
     const supabase = createEnglishClient()
-    const [{ data }, { data: grps }] = await Promise.all([
-      supabase.from('english_user_profiles')
-        .select('user_id, full_name, current_level, total_xp, current_streak, last_active_at, group_id')
-        .eq('role', 'student').order('total_xp', { ascending: false }),
-      supabase.from('english_groups').select('id, name, teacher_id'),
+    const { data: { session } } = await supabase.auth.getSession()
+    if (!session) return
+    setToken(session.access_token)
+
+    // Use API route with service role — includes email + lessons_done
+    const [res, { data: grps }] = await Promise.all([
+      fetch('/api/english/admin/students', { headers: { Authorization: `Bearer ${session.access_token}` } }),
+      supabase.from('english_groups').select('id, name'),
     ])
+    const { students: raw } = await res.json()
 
-    // Get teacher names for groups
-    const teacherIds = [...new Set((grps ?? []).map((g: Group & { teacher_id?: string }) => g.teacher_id).filter(Boolean))]
-    let tm: Record<string,string> = {}
-    if (teacherIds.length > 0) {
-      const { data: profiles } = await supabase.from('english_user_profiles')
-        .select('user_id, full_name').in('user_id', teacherIds as string[])
-      ;(profiles ?? []).forEach((p: { user_id: string; full_name: string | null }) => { tm[p.user_id] = p.full_name ?? '—' })
-    }
-
-    const groupList = ((grps ?? []) as (Group & { teacher_id?: string })[]).map(g => ({
-      ...g, teacher_name: g.teacher_id ? tm[g.teacher_id] : '—'
-    })) as Group[]
+    const groupList = (grps ?? []) as Group[]
     setGroups(groupList)
-
     const gm: Record<string,string> = {}
     groupList.forEach(g => { gm[g.id] = g.name })
 
-    setStudents(((data ?? []) as Student[]).map(s => ({ ...s, group_name: s.group_id ? gm[s.group_id] : undefined })))
+    setStudents(((raw ?? []) as Student[]).map(s => ({ ...s, group_name: s.group_id ? gm[s.group_id] : undefined })))
     setLoading(false)
   }, [])
 
   useEffect(() => { load() }, [load])
+
+  async function changePassword(userId: string) {
+    if (newPass.length < 6) { showToast('Минимум 6 символов', 'error'); return }
+    setPassLoading(true)
+    const res = await fetch('/api/english/admin/change-password', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+      body: JSON.stringify({ targetUserId: userId, newPassword: newPass }),
+    })
+    const d = await res.json()
+    setPassLoading(false)
+    if (d.ok) { showToast('✓ Пароль изменён'); setPassId(null); setNewPass('') }
+    else showToast(d.error ?? 'Ошибка', 'error')
+  }
 
   async function assignToGroup(userId: string, groupId: string, studentName: string) {
     const supabase = createEnglishClient()
@@ -136,7 +146,35 @@ export default function AdminStudentsPage() {
   }
 
   return (
-    <div style={{ padding: '24px 28px', maxWidth: 1100, margin: '0 auto' }}>
+    <div style={{ padding: '24px 28px', maxWidth: 1280, margin: '0 auto' }}>
+
+      {/* Password change modal */}
+      {passId && (
+        <div style={{ position: 'fixed', inset: 0, zIndex: 500, background: 'rgba(0,0,0,0.4)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+          onClick={e => { if (e.target === e.currentTarget) { setPassId(null); setNewPass('') } }}>
+          <div style={{ background: '#fff', borderRadius: 20, padding: '28px 32px', width: 400, boxShadow: '0 20px 60px rgba(0,0,0,0.25)' }}>
+            <div style={{ fontSize: 16, fontWeight: 900, color: N, marginBottom: 6 }}>🔑 Сменить пароль</div>
+            <div style={{ fontSize: 12, color: MUT, marginBottom: 20 }}>
+              <strong>{students.find(s => s.user_id === passId)?.full_name}</strong><br/>
+              <span style={{ color: '#94A3B8' }}>{students.find(s => s.user_id === passId)?.email}</span>
+            </div>
+            <input autoFocus type="text" value={newPass} onChange={e => setNewPass(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && changePassword(passId)}
+              placeholder="Новый пароль (мин. 6 символов)"
+              style={{ width: '100%', padding: '12px 14px', borderRadius: 10, border: `2px solid ${N}`, fontSize: 14, outline: 'none', boxSizing: 'border-box', fontFamily: 'inherit', marginBottom: 14 }}/>
+            <div style={{ display: 'flex', gap: 10 }}>
+              <button onClick={() => { setPassId(null); setNewPass('') }}
+                style={{ flex: 1, padding: '11px', borderRadius: 10, border: `1px solid ${BDR}`, background: '#F1F5F9', color: MUT, fontWeight: 700, fontSize: 13, cursor: 'pointer', fontFamily: 'inherit' }}>
+                Отмена
+              </button>
+              <button onClick={() => changePassword(passId)} disabled={passLoading || newPass.length < 6}
+                style={{ flex: 2, padding: '11px', borderRadius: 10, border: 'none', background: newPass.length >= 6 ? N : '#CBD5E1', color: '#fff', fontWeight: 700, fontSize: 13, cursor: newPass.length >= 6 ? 'pointer' : 'not-allowed', fontFamily: 'inherit' }}>
+                {passLoading ? 'Сохраняем...' : '✓ Сохранить пароль'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       {toast && (
         <div style={{ position: 'fixed', top: 20, right: 20, zIndex: 999, padding: '12px 20px', borderRadius: 12, background: toast.type === 'success' ? T : '#DC2626', color: '#fff', fontWeight: 700, fontSize: 13, boxShadow: '0 8px 24px rgba(0,0,0,0.18)' }}>
@@ -182,14 +220,15 @@ export default function AdminStudentsPage() {
         <div style={{ textAlign: 'center', padding: 56, color: MUT }}>Загрузка...</div>
       ) : (
         <div style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, overflow: 'hidden', boxShadow: '0 1px 6px rgba(0,56,118,0.04)' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1.8fr 80px 120px 80px 100px 160px 60px', padding: '12px 20px', background: '#F8FBFF', borderBottom: `1px solid ${BDR}`, gap: 8 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1.7fr 72px 95px 60px 70px 65px 130px 60px', padding: '12px 20px', background: '#F8FBFF', borderBottom: `1px solid ${BDR}`, gap: 8 }}>
             <SortBtn k="name"    label="Студент" />
             <div style={{ fontSize: 10, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Уровень</div>
             <SortBtn k="xp"     label="XP" />
+            <div style={{ fontSize: 10, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Уроки</div>
             <SortBtn k="streak" label="Стрик" />
             <SortBtn k="active" label="Активность" />
             <div style={{ fontSize: 10, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Группа</div>
-            <div />
+            <div style={{ fontSize: 10, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Действия</div>
           </div>
 
           {filtered.length === 0 ? (
@@ -206,25 +245,28 @@ export default function AdminStudentsPage() {
             const isAssigning = assigningId === s.user_id
             return (
               <div key={s.user_id} style={{
-                display: 'grid', gridTemplateColumns: '1.8fr 80px 120px 80px 100px 160px 60px',
-                padding: '12px 20px', gap: 8, alignItems: 'center',
+                display: 'grid', gridTemplateColumns: '1.7fr 72px 95px 60px 70px 65px 130px 60px',
+                padding: '11px 20px', gap: 8, alignItems: 'center',
                 borderTop: i > 0 ? `1px solid ${BDR}` : 'none',
                 background: isInactive ? '#FFFBEB' : i % 2 === 0 ? '#fff' : '#FAFCFF',
               }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
                   <div style={{ width: 32, height: 32, borderRadius: '50%', background: `linear-gradient(135deg, ${lc}, ${lc}88)`, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: 12, flexShrink: 0 }}>{initial}</div>
-                  <div style={{ fontSize: 13, fontWeight: 700, color: N }}>
-                    {s.full_name ?? 'Студент'}
-                    {!s.group_id && <span style={{ marginLeft: 6, fontSize: 10, fontWeight: 700, color: '#EF4444', background: '#FEE2E2', padding: '1px 6px', borderRadius: 99 }}>Без группы</span>}
-                    {isInactive && <span style={{ marginLeft: 6, fontSize: 10, fontWeight: 700, color: '#D97706', background: '#FEF3C7', padding: '1px 6px', borderRadius: 99 }}>😴</span>}
+                  <div style={{ minWidth: 0 }}>
+                    <div style={{ fontSize: 12, fontWeight: 700, color: N, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                      {s.full_name ?? 'Студент'}
+                      {!s.group_id && <span style={{ marginLeft: 5, fontSize: 9, fontWeight: 700, color: '#EF4444', background: '#FEE2E2', padding: '1px 5px', borderRadius: 99 }}>Без группы</span>}
+                    </div>
+                    <div style={{ fontSize: 10, color: '#94A3B8', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.email}</div>
                   </div>
                 </div>
-                <div><span style={{ fontSize: 11, fontWeight: 800, background: `${lc}18`, color: lc, padding: '3px 9px', borderRadius: 99 }}>{s.current_level ?? 'A1'}</span></div>
-                <div style={{ fontSize: 13, fontWeight: 700, color: G }}>{(s.total_xp ?? 0).toLocaleString()} XP</div>
-                <div style={{ fontSize: 13, fontWeight: 700, color: (s.current_streak ?? 0) > 0 ? '#EF4444' : '#CBD5E1' }}>
+                <div><span style={{ fontSize: 10, fontWeight: 800, background: `${lc}18`, color: lc, padding: '2px 7px', borderRadius: 99 }}>{s.current_level ?? 'A1'}</span></div>
+                <div style={{ fontSize: 12, fontWeight: 700, color: G }}>{(s.total_xp ?? 0).toLocaleString()} XP</div>
+                <div style={{ fontSize: 12, fontWeight: 700, color: s.lessons_done > 0 ? T : '#CBD5E1' }}>{s.lessons_done > 0 ? `📚 ${s.lessons_done}` : '—'}</div>
+                <div style={{ fontSize: 12, fontWeight: 700, color: (s.current_streak ?? 0) > 0 ? '#EF4444' : '#CBD5E1' }}>
                   {(s.current_streak ?? 0) > 0 ? `🔥 ${s.current_streak}` : '—'}
                 </div>
-                <div style={{ fontSize: 12, fontWeight: 600, color: ag.color }}>{ag.label}</div>
+                <div style={{ fontSize: 11, fontWeight: 600, color: ag.color }}>{ag.label}</div>
 
                 {/* Group assignment */}
                 <div>
@@ -247,10 +289,16 @@ export default function AdminStudentsPage() {
                   )}
                 </div>
 
-                <button onClick={() => { setAssigningId(isAssigning ? null : s.user_id); setAssignGroup(s.group_id ?? '') }}
-                  title="Назначить группу" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: isAssigning ? '#EDE9FE' : '#EEF2F7', color: isAssigning ? ADMIN : MUT, cursor: 'pointer', fontSize: 13 }}>
-                  {isAssigning ? '✕' : '✏️'}
-                </button>
+                <div style={{ display: 'flex', gap: 4 }}>
+                  <button onClick={() => { setAssigningId(isAssigning ? null : s.user_id); setAssignGroup(s.group_id ?? '') }}
+                    title="Группа" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: isAssigning ? '#EDE9FE' : '#EEF2F7', color: isAssigning ? ADMIN : MUT, cursor: 'pointer', fontSize: 12 }}>
+                    👥
+                  </button>
+                  <button onClick={() => { setPassId(s.user_id); setNewPass('') }}
+                    title="Пароль" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: passId === s.user_id ? '#FEF3C7' : '#EEF2F7', cursor: 'pointer', fontSize: 12 }}>
+                    🔑
+                  </button>
+                </div>
               </div>
             )
           })}
