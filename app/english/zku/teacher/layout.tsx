@@ -100,7 +100,7 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
               {name.charAt(0).toUpperCase()}
             </div>
             <div>
-              <div style={{ color: '#fff', fontWeight: 700, fontSize: 12, lineHeight: 1.2 }}>{name.split(' ')[0]}</div>
+              <div style={{ color: '#fff', fontWeight: 700, fontSize: 12, lineHeight: 1.2 }}>{name.trim().split(' ')[1] ?? name.trim().split(' ')[0]}</div>
               <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: 10 }}>Преподаватель</div>
             </div>
           </div>

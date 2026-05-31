@@ -58,7 +58,8 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   )
 
   const initial = name.charAt(0).toUpperCase() || '?'
-  const firstName = name.split(' ')[0]
+  const parts = name.trim().split(' ')
+  const firstName = parts.length >= 2 ? parts[1] : parts[0]
   const currentPage = NAV.find(n => n.exact ? pathname === n.href : pathname.startsWith(n.href))
 
   return (
