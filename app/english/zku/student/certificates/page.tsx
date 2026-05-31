@@ -155,12 +155,24 @@ function CertificateCard({
   )
 }
 
+// Extract module number from lesson id like "l17-3" → 17
+function moduleNumFromLessonId(lessonId: string): number {
+  const m = lessonId.match(/^l(\d+)/)
+  return m ? parseInt(m[1]) : 0
+}
+function levelOfModule(n: number): string {
+  if (n <= 16) return 'A1'
+  if (n <= 34) return 'A1.1'
+  if (n <= 58) return 'A2'
+  return 'B1'
+}
+
 export default function CertificatesPage() {
   const { t } = useZkuLang()
-  const [currentLevel,  setCurrentLevel]  = useState('A1')
-  const [studentName,   setStudentName]   = useState('')
-  const [levelChangedAt, setLevelChangedAt] = useState<string | null>(null)
-  const [loading,       setLoading]       = useState(true)
+  const [currentLevel, setCurrentLevel] = useState('A1')
+  const [studentName,  setStudentName]  = useState('')
+  const [loading,      setLoading]      = useState(true)
+  const [levelProgress, setLevelProgress] = useState<Record<string, { count: number; firstAt: string | null }>>({})
 
   useEffect(() => {
     async function load() {
@@ -175,7 +187,7 @@ export default function CertificatesPage() {
 
       const { data: profile } = await supabase
         .from('english_user_profiles')
-        .select('full_name, current_level, last_active_at, created_at')
+        .select('full_name, current_level, created_at')
         .eq('user_id', user.id)
         .maybeSingle()
 
@@ -185,19 +197,42 @@ export default function CertificatesPage() {
                    : metaName || dbName || emailSlug
       setStudentName(name)
       setCurrentLevel(profile?.current_level ?? 'A1')
-      // Use last_active_at as a proxy for when level was last updated
-      setLevelChangedAt(profile?.last_active_at ?? profile?.created_at ?? null)
+
+      // Count completed lessons per level — a certificate is earned only if student
+      // actually completed lessons of that level on this platform (≥80% done)
+      const { data: progress } = await supabase
+        .from('english_lesson_progress')
+        .select('lesson_id, completed_at')
+        .eq('user_id', user.id)
+        .eq('completed', true)
+
+      const lp: Record<string, { count: number; firstAt: string | null }> = {}
+      for (const row of (progress ?? []) as { lesson_id: string; completed_at: string | null }[]) {
+        const lv = levelOfModule(moduleNumFromLessonId(row.lesson_id))
+        if (!lp[lv]) lp[lv] = { count: 0, firstAt: null }
+        lp[lv].count++
+        if (!lp[lv].firstAt || (row.completed_at && row.completed_at < lp[lv].firstAt!))
+          lp[lv].firstAt = row.completed_at
+      }
+      setLevelProgress(lp)
       setLoading(false)
     }
     load()
   }, [])
 
+  // Approximate total lessons per level
+  const LEVEL_TOTAL: Record<string, number> = { 'A1': 80, 'A1.1': 128, 'A2': 168, 'B1': 208, 'B2': 60, 'C1': 60 }
+
   function getStatus(levelCode: string): 'earned' | 'in_progress' | 'locked' {
-    const myIdx  = LEVEL_ORDER.indexOf(currentLevel)
-    const lvIdx  = LEVEL_ORDER.indexOf(levelCode)
-    if (lvIdx < myIdx)  return 'earned'
-    if (lvIdx === myIdx) return 'in_progress'
+    const done  = levelProgress[levelCode]?.count ?? 0
+    const total = LEVEL_TOTAL[levelCode] ?? 60
+    if (done / total >= 0.8)                    return 'earned'
+    if (levelCode === currentLevel || done > 0) return 'in_progress'
     return 'locked'
+  }
+
+  function getIssuedAt(levelCode: string): string | undefined {
+    return levelProgress[levelCode]?.firstAt ?? undefined
   }
 
   const earnedCount     = LEVEL_ORDER.filter(lv => getStatus(lv) === 'earned').length
@@ -252,7 +287,7 @@ export default function CertificatesPage() {
             levelCode={lv}
             status={getStatus(lv)}
             studentName={studentName}
-            issuedAt={getStatus(lv) === 'earned' ? levelChangedAt ?? undefined : undefined}
+            issuedAt={getStatus(lv) === 'earned' ? getIssuedAt(lv) : undefined}
           />
         ))}
       </div>
