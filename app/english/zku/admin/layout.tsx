@@ -58,7 +58,6 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
   const currentPage = NAV.find(n => n.exact ? pathname === n.href : pathname.startsWith(n.href))
 
   return (
-    <ZkuLangProvider>
     <div style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat',sans-serif", background:'#F0F4FA' }}>
 
       {/* Sidebar */}

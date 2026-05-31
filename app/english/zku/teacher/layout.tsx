@@ -48,7 +48,6 @@ function TeacherLayoutInner({ children }: { children: React.ReactNode }) {
   )
 
   return (
-    <ZkuLangProvider>
     <div style={{ minHeight: '100vh', display: 'flex', fontFamily: "'Montserrat', sans-serif", background: '#F0F4FA' }}>
 
       {/* Sidebar */}
