@@ -28,30 +28,21 @@ export default function AdminDashboard() {
   useEffect(() => {
     async function load() {
       const supabase = createEnglishClient()
+      const { data: { session } } = await supabase.auth.getSession()
+      if (!session) return
 
-      const [
-        { count: students },
-        { count: teachers },
-        { count: groups },
-        { count: active },
-        { data: recentUsers },
-        { data: xpData },
-      ] = await Promise.all([
-        supabase.from('english_user_profiles').select('*', { count: 'exact', head: true }).eq('role', 'student'),
-        supabase.from('english_user_profiles').select('*', { count: 'exact', head: true }).eq('role', 'teacher'),
-        supabase.from('english_groups').select('*', { count: 'exact', head: true }),
-        supabase.from('english_user_profiles').select('*', { count: 'exact', head: true })
-          .eq('role', 'student').gte('last_active_at', new Date().toISOString().split('T')[0]),
-        supabase.from('english_user_profiles')
-          .select('user_id, full_name, role, current_level, total_xp, last_active_at')
-          .order('last_active_at', { ascending: false }).limit(10),
-        supabase.from('english_user_profiles')
-          .select('total_xp').eq('role', 'student'),
-      ])
-
-      const totalXp = (xpData ?? []).reduce((s: number, u: { total_xp: number | null }) => s + (u.total_xp ?? 0), 0)
-      setStats({ students: students ?? 0, teachers: teachers ?? 0, groups: groups ?? 0, active_today: active ?? 0, total_xp: totalXp })
-      setRecent((recentUsers ?? []) as RecentUser[])
+      const res = await fetch('/api/english/admin/stats', {
+        headers: { Authorization: `Bearer ${session.access_token}` }
+      })
+      const data = await res.json()
+      setStats({
+        students:    data.students    ?? 0,
+        teachers:    data.teachers    ?? 0,
+        groups:      data.groups      ?? 0,
+        active_today: data.active_today ?? 0,
+        total_xp:    data.total_xp    ?? 0,
+      })
+      setRecent((data.recent ?? []) as RecentUser[])
       setLoading(false)
     }
     load()
@@ -180,7 +171,7 @@ export default function AdminDashboard() {
           <div style={{ background: '#fff', borderRadius: 18, padding: '16px 20px', border: `1px solid ${BDR}` }}>
             <div style={{ fontSize: 13, fontWeight: 800, color: N, marginBottom: 12 }}>📈 Состояние платформы</div>
             {[
-              { label: 'Активны сегодня', value: stats.students > 0 ? Math.round((stats.active_today / stats.students) * 100) : 0, color: T, icon: '⚡' },
+              { label: 'Активны сегодня', value: stats.students > 0 ? Math.round((stats.active_today / stats.students) * 100) : 0, color: T, icon: '⚡', suffix: '%' },
               { label: 'Студентов на группу', value: stats.groups > 0 ? Math.round(stats.students / stats.groups) : 0, color: N, icon: '👥', suffix: ' ср.' },
               { label: 'Ср. XP на студента', value: stats.students > 0 ? Math.round(stats.total_xp / stats.students) : 0, color: G, icon: '✨' },
             ].map(m => (
