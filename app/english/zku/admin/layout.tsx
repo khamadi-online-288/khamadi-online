@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { ZkuLangProvider, ZkuLangSwitcher } from '../student/zku-lang'
 
 const ADMIN = '#7C3AED'
 const G = '#C9933B'
@@ -63,6 +64,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const currentPage = NAV.find(n => n.exact ? pathname === n.href : pathname.startsWith(n.href))
 
   return (
+    <ZkuLangProvider>
     <div style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat',sans-serif", background:'#F0F4FA' }}>
 
       {/* Sidebar */}
@@ -118,6 +120,9 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           </Link>
         </nav>
 
+        {/* Language switcher */}
+        <div style={{ padding:'6px 8px' }}><ZkuLangSwitcher /></div>
+
         {/* User */}
         <div style={{ padding:'10px 8px', borderTop:'1px solid rgba(255,255,255,0.08)' }}>
           <div style={{ padding:'12px', borderRadius:14, background:'rgba(255,255,255,0.07)', marginBottom:8 }}>
@@ -154,5 +159,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         <main style={{ flex:1, overflow:'auto' }}>{children}</main>
       </div>
     </div>
+    </ZkuLangProvider>
   )
 }

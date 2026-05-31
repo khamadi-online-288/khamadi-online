@@ -42,11 +42,17 @@ export async function GET(req: NextRequest) {
     lessonCounts[r.user_id] = (lessonCounts[r.user_id] ?? 0) + 1
   })
 
+  // Get all groups (service role bypasses RLS)
+  const { data: groups } = await admin
+    .from('english_groups')
+    .select('id, name')
+    .order('name')
+
   const enriched = (students ?? []).map(s => ({
     ...s,
     email: emailMap[s.user_id] ?? '',
     lessons_done: lessonCounts[s.user_id] ?? 0,
   }))
 
-  return NextResponse.json({ students: enriched })
+  return NextResponse.json({ students: enriched, groups: groups ?? [] })
 }

@@ -48,12 +48,9 @@ export default function AdminStudentsPage() {
     if (!session) return
     setToken(session.access_token)
 
-    // Use API route with service role — includes email + lessons_done
-    const [res, { data: grps }] = await Promise.all([
-      fetch('/api/english/admin/students', { headers: { Authorization: `Bearer ${session.access_token}` } }),
-      supabase.from('english_groups').select('id, name'),
-    ])
-    const { students: raw } = await res.json()
+    // Use API route with service role — includes email + lessons_done + groups
+    const res = await fetch('/api/english/admin/students', { headers: { Authorization: `Bearer ${session.access_token}` } })
+    const { students: raw, groups: grps } = await res.json()
 
     const groupList = (grps ?? []) as Group[]
     setGroups(groupList)

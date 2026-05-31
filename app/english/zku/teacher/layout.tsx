@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { ZkuLangProvider, ZkuLangSwitcher } from '../student/zku-lang'
 
 const N = '#003876'
 const G = '#C9933B'
@@ -52,6 +53,7 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
   )
 
   return (
+    <ZkuLangProvider>
     <div style={{ minHeight: '100vh', display: 'flex', fontFamily: "'Montserrat', sans-serif", background: '#F0F4FA' }}>
 
       {/* Sidebar */}
@@ -94,6 +96,11 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
         </nav>
 
         {/* User */}
+        {/* Language switcher */}
+        <div style={{ padding: '8px 16px' }}>
+          <ZkuLangSwitcher />
+        </div>
+
         <div style={{ padding: '16px 20px', borderTop: '1px solid rgba(255,255,255,0.1)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 10 }}>
             <div style={{ width: 32, height: 32, borderRadius: '50%', background: G, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: 13 }}>
@@ -121,5 +128,6 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
         {children}
       </main>
     </div>
+    </ZkuLangProvider>
   )
 }
