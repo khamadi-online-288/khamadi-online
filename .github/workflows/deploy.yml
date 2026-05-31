@@ -17,12 +17,21 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           timeout: 60s
-          command_timeout: 15m
+          command_timeout: 45m
           script: |
             cd ~/khamadi-online
             git fetch origin main
             git reset --hard origin/main
+
+            # Install dependencies
             npm ci --prefer-offline || npm install
+
+            # Build with enough memory for large lesson files (52K+ lines)
+            export NODE_OPTIONS="--max-old-space-size=4096"
             npm run build
+
+            # Restart app
             pm2 restart khamadi || pm2 start npm --name khamadi -- start
+            pm2 save
+
             echo "✅ Deploy completed at $(date)"
