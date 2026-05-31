@@ -33,3 +33,17 @@ INSERT INTO english_group_teachers (group_id, teacher_id) VALUES
   ('98a1a227-f7f3-4f66-8ae5-cf1f75e8bc28', '96d85108-2ee6-494d-b0e1-6b94229f6433'),
   ('98a1a227-f7f3-4f66-8ae5-cf1f75e8bc28', 'e16bf8d8-dab5-4048-9232-2a502ecf95b8')
 ON CONFLICT DO NOTHING;
+
+-- Fix RLS on english_groups: allow teachers from junction table to read their groups
+DROP POLICY IF EXISTS "teacher_own_groups" ON english_groups;
+CREATE POLICY "teacher_own_groups" ON english_groups FOR ALL USING (
+  auth.uid() = teacher_id
+  OR EXISTS (
+    SELECT 1 FROM english_group_teachers
+    WHERE group_id = english_groups.id AND teacher_id = auth.uid()
+  )
+  OR EXISTS (
+    SELECT 1 FROM english_user_profiles
+    WHERE user_id = auth.uid() AND role = 'admin'
+  )
+);
