@@ -133,6 +133,7 @@ export const ZKU_T = {
       urgent: 'Срочно', days_left: 'дн.', min_score: 'Мин. балл',
       do_btn: 'Выполнить →', group: 'Группа',
       done_empty: 'Ещё нет выполненных заданий',
+      group_info: 'Домашние задания назначает преподаватель через группу. Обратитесь к администратору.',
     },
     writing: {
       title: 'Writing Coach', subtitle: 'Тренажёр письменного английского · улучшай навыки письма',
@@ -307,9 +308,29 @@ export const ZKU_T = {
       skill_writing: 'Письмо', skill_speaking: 'Говорение',
       skill_grammar: 'Грамматика',
       label_correct: 'Правильных', label_read: 'Прочитано',
+      done_badge_f: 'Пройдено', locked_badge_f: 'Заблокировано',
     },
     layout: {
       logo: 'ЗКУ', title: 'ЗКУ им. М. Утемісова · English', subtitle: 'Powered by KHAMADI English',
+    },
+    path: {
+      course_progress: 'Прогресс курса',
+      modules_of: 'модулей',
+      completed_section: 'Пройдено',
+      current_section: 'В процессе',
+      upcoming_section: 'Предстоит',
+      next_module: 'Следующий',
+      lessons_left: 'уроков осталось',
+      lessons_of: 'уроков',
+    },
+    vocab_page: {
+      title_lessons: 'Vocab уроков',
+      avg_score: 'Средний балл',
+      empty_title: 'Словарь пока пуст',
+      empty_sub: 'Слова добавляются после прохождения словарных уроков',
+      go_courses: 'К курсам →',
+      completed_lessons: 'Пройденные словарные уроки',
+      repeat_btn: 'Повторить →',
     },
   },
 
@@ -441,6 +462,7 @@ export const ZKU_T = {
       urgent: 'Шұғыл', days_left: 'күн', min_score: 'Мин. балл',
       do_btn: 'Орындау →', group: 'Топ',
       done_empty: 'Әлі орындалған тапсырмалар жоқ',
+      group_info: 'Үй тапсырмасын оқытушы топ арқылы тағайындайды. Әкімшіге хабарласыңыз.',
     },
     writing: {
       title: 'Writing Coach', subtitle: 'Ағылшын жазу тренажері · жазу дағдыларыңды жетілдір',
@@ -619,6 +641,25 @@ export const ZKU_T = {
     layout: {
       logo: 'БҚУ', title: 'МӨ атындағы БҚУ · English', subtitle: 'KHAMADI English платформасы',
     },
+    path: {
+      course_progress: 'Курс прогресі',
+      modules_of: 'модуль',
+      completed_section: 'Аяқталды',
+      current_section: 'Үдерісте',
+      upcoming_section: 'Алдағы',
+      next_module: 'Келесі',
+      lessons_left: 'сабақ қалды',
+      lessons_of: 'сабақ',
+    },
+    vocab_page: {
+      title_lessons: 'Сөздік сабақтары',
+      avg_score: 'Орта балл',
+      empty_title: 'Сөздік әлі бос',
+      empty_sub: 'Сөздер сөздік сабақтарын өткеннен кейін қосылады',
+      go_courses: 'Курстарға →',
+      completed_lessons: 'Өтілген сөздік сабақтары',
+      repeat_btn: 'Қайталау →',
+    },
   },
 
   en: {
@@ -749,6 +790,7 @@ export const ZKU_T = {
       urgent: 'Urgent', days_left: 'days', min_score: 'Min score',
       do_btn: 'Complete →', group: 'Group',
       done_empty: 'No completed assignments yet',
+      group_info: 'Homework is assigned by the teacher through a group. Contact your administrator.',
     },
     writing: {
       title: 'Writing Coach', subtitle: 'English writing trainer · improve your writing skills',
@@ -927,6 +969,25 @@ export const ZKU_T = {
     layout: {
       logo: 'WKU', title: 'WKU · English', subtitle: 'Powered by KHAMADI English',
     },
+    path: {
+      course_progress: 'Course progress',
+      modules_of: 'modules',
+      completed_section: 'Completed',
+      current_section: 'In progress',
+      upcoming_section: 'Upcoming',
+      next_module: 'Next',
+      lessons_left: 'lessons left',
+      lessons_of: 'lessons',
+    },
+    vocab_page: {
+      title_lessons: 'Vocab lessons',
+      avg_score: 'Avg score',
+      empty_title: 'Vocabulary is empty',
+      empty_sub: 'Words are added after completing vocabulary lessons',
+      go_courses: 'Go to courses →',
+      completed_lessons: 'Completed vocabulary lessons',
+      repeat_btn: 'Repeat →',
+    },
   },
 }
 
@@ -950,7 +1011,7 @@ export function ZkuLangProvider({ children }: { children: ReactNode }) {
   }
 
   return (
-    <ZkuLangCtx.Provider value={{ lang, setLang, t: ZKU_T[lang] }}>
+    <ZkuLangCtx.Provider value={{ lang, setLang, t: ZKU_T[lang] as typeof ZKU_T.ru }}>
       {children}
     </ZkuLangCtx.Provider>
   )

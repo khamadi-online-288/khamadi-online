@@ -70,7 +70,7 @@ export default function ZKUHomeworkPage() {
           <p style={{ fontWeight: 800, fontSize: 16, color: N, marginBottom: 6 }}>{t.hw.no_hw}</p>
           <p style={{ fontSize: 14, color: M, marginBottom: 8 }}>{t.hw.no_hw_sub}</p>
           <p style={{ fontSize: 12, color: '#94A3B8' }}>
-            Домашние задания назначает преподаватель через группу. Если группа не назначена — обратитесь к администратору.
+            {t.hw.group_info}
           </p>
         </div>
       ) : (

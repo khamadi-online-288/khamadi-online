@@ -287,7 +287,7 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
   // Also listen for sign-out to clear cache
   useEffect(() => {
     const supabase = createEnglishClient()
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event: string) => {
       if (event === 'SIGNED_OUT') {
         sessionStorage.removeItem('zku-auth-ok')
         router.replace('/english/zku/login')

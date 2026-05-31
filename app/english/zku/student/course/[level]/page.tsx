@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import { MOCK_A1_MODULES, MOCK_A11_MODULES, MOCK_A2_MODULES, MOCK_B1_MODULES, MOCK_B2_MODULES, MOCK_C1_MODULES } from '@/lib/english/mockData'
 import { useZkuLang } from '../../zku-lang'
-import { IcLock, IcSearch, IcAlertTri, IcCheckCircle } from '../../_icons'
+import { IcLock, IcSearch, IcAlertTri, IcCheckCircle, IcCheck } from '../../_icons'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 
 const N   = '#003876'
@@ -242,8 +242,8 @@ export default function LevelPage() {
             <div style={{ background: '#fff', borderRadius: 16, padding: '16px 22px', marginBottom: 20, border: `1px solid ${BDR}`, display: 'flex', alignItems: 'center', gap: 20 }}>
               <div style={{ flex: 1 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
-                  <span style={{ fontSize: 12, fontWeight: 700, color: N }}>Прогресс курса</span>
-                  <span style={{ fontSize: 12, fontWeight: 700, color: color }}>{doneCount} / {modules.length} модулей</span>
+                  <span style={{ fontSize: 12, fontWeight: 700, color: N }}>{t.path.course_progress}</span>
+                  <span style={{ fontSize: 12, fontWeight: 700, color: color }}>{doneCount} / {modules.length} {t.path.modules_of}</span>
                 </div>
                 <div style={{ height: 8, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden' }}>
                   <div style={{ height: '100%', width: `${Math.round((doneCount / modules.length) * 100)}%`, background: `linear-gradient(90deg, ${color}, ${color}cc)`, borderRadius: 99, transition: 'width 0.6s ease' }} />
@@ -273,7 +273,7 @@ export default function LevelPage() {
                     <IcCheck size={12} color="#10B981" />
                   </div>
                   <span style={{ fontSize: 11, fontWeight: 800, color: '#10B981', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-                    Пройдено — {completedMods.length} {completedMods.length === 1 ? 'модуль' : 'модулей'}
+                    {t.path.completed_section} — {completedMods.length} {t.path.modules_of}
                   </span>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
@@ -318,7 +318,7 @@ export default function LevelPage() {
                       <div style={{ width: 8, height: 8, borderRadius: '50%', background: color }} />
                     </div>
                     <span style={{ fontSize: 11, fontWeight: 800, color: color, textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-                      {isInProgress ? 'В процессе' : 'Следующий'}
+                      {isInProgress ? t.path.current_section : t.path.next_module}
                     </span>
                     {isInProgress && <span style={{ fontSize: 11, color: MUT }}>· {mod.progress}% выполнено</span>}
                   </div>
@@ -368,13 +368,13 @@ export default function LevelPage() {
                           )
                         })}
                         <div style={{ display: 'flex', alignItems: 'center', background: '#F8FAFC', borderRadius: 8, padding: '5px 11px', border: '1px solid #F1F5F9' }}>
-                          <span style={{ fontSize: 11, color: MUT, fontWeight: 600 }}>{lessonCount} уроков · {mod.xp_total} XP</span>
+                          <span style={{ fontSize: 11, color: MUT, fontWeight: 600 }}>{lessonCount} {t.path.lessons_of} · {mod.xp_total} XP</span>
                         </div>
                       </div>
                       {isInProgress && (
                         <div>
                           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: MUT, marginBottom: 5 }}>
-                            <span>{mod.lessonsCompleted} из {lessonCount} уроков</span>
+                            <span>{mod.lessonsCompleted} {t.path.lessons_of} {t.path.lessons_left.split(' ')[0]} {lessonCount}</span>
                             <span style={{ fontWeight: 700, color }}>{mod.progress}%</span>
                           </div>
                           <div style={{ height: 6, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden' }}>
@@ -396,7 +396,7 @@ export default function LevelPage() {
                     <div style={{ width: 6, height: 6, borderRadius: '50%', background: '#CBD5E1' }} />
                   </div>
                   <span style={{ fontSize: 11, fontWeight: 800, color: '#94A3B8', textTransform: 'uppercase', letterSpacing: '0.1em' }}>
-                    Предстоит — {upcomingMods.length} модулей
+                    {t.path.upcoming_section} — {upcomingMods.length} {t.path.modules_of}
                   </span>
                 </div>
                 {/* Vertical path */}

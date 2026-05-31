@@ -194,7 +194,7 @@ export default function ProfilePage() {
     if (!user?.email) return
     // Re-auth to verify old password
     const { error: reAuthError } = await supabase.auth.signInWithPassword({ email: user.email, password: oldPass })
-    if (reAuthError) { setPassError(t.profile.pass_fill_all + ' (неверный текущий пароль)'); return }
+    if (reAuthError) { setPassError(t.profile.pass_fill_all); return }
     const { error: updateError } = await supabase.auth.updateUser({ password: newPass })
     if (updateError) { setPassError(updateError.message); return }
     setOldPass(''); setNewPass(''); setConfPass('')

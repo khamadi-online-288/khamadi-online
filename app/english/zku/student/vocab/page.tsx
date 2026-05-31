@@ -77,10 +77,10 @@ export default function VocabPage() {
       {/* Stats */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14, marginBottom: 28 }}>
         {[
-          { v: totalLessons,        l: 'Vocab уроков',    color: N,    bg: '#EEF2F7' },
+          { v: totalLessons,        l: t.vocab_page.title_lessons,    color: N,    bg: '#EEF2F7' },
           { v: totalLessons * 30,   l: t.vocab.total,     color: '#1B8FC4', bg: '#DBEAFE' },
           { v: totalXp,             l: t.common.xp,       color: G,    bg: '#FEF3C7' },
-          { v: avgScore ? `${avgScore}%` : '—', l: 'Средний балл', color: T, bg: '#DCFCE7' },
+          { v: avgScore ? `${avgScore}%` : '—', l: t.vocab_page.avg_score, color: T, bg: '#DCFCE7' },
         ].map(s => (
           <div key={s.l} style={{ background: '#fff', borderRadius: 16, padding: '18px 20px', border: '1px solid rgba(0,0,0,0.06)', boxShadow: '0 1px 6px rgba(0,56,118,0.05)' }}>
             <div style={{ fontSize: 28, fontWeight: 900, color: s.color, lineHeight: 1 }}>{s.v}</div>
@@ -95,20 +95,20 @@ export default function VocabPage() {
       ) : lessons.length === 0 ? (
         <div style={{ background: '#fff', borderRadius: 18, padding: 56, textAlign: 'center', border: '1px solid rgba(0,56,118,0.08)' }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 16 }}><IcBook size={44} color={N} /></div>
-          <div style={{ fontSize: 18, fontWeight: 800, color: N, marginBottom: 8 }}>Словарь пока пуст</div>
-          <div style={{ fontSize: 14, color: MUT, marginBottom: 28 }}>Слова добавляются после прохождения словарных уроков</div>
+          <div style={{ fontSize: 18, fontWeight: 800, color: N, marginBottom: 8 }}>{t.vocab_page.empty_title}</div>
+          <div style={{ fontSize: 14, color: MUT, marginBottom: 28 }}>{t.vocab_page.empty_sub}</div>
           <Link href="/english/zku/student/course" style={{
             display: 'inline-block', padding: '12px 28px', borderRadius: 12,
             background: N, color: '#fff', fontWeight: 700, fontSize: 14,
             textDecoration: 'none', boxShadow: '0 4px 14px rgba(0,56,118,0.28)',
           }}>
-            К курсам →
+            {t.vocab_page.go_courses}
           </Link>
         </div>
       ) : (
         <div>
           <h2 style={{ fontSize: 14, fontWeight: 800, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 16 }}>
-            Пройденные словарные уроки
+            {t.vocab_page.completed_lessons}
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 14 }}>
             {lessons.map(lesson => {
@@ -147,7 +147,7 @@ export default function VocabPage() {
                         +{lesson.xp_earned ?? 30} XP
                       </span>
                       <span style={{ fontSize: 12, color: '#1B8FC4', fontWeight: 700, marginLeft: 'auto' }}>
-                        Повторить →
+                        {t.vocab_page.repeat_btn}
                       </span>
                     </div>
                   </div>
