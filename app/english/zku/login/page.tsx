@@ -100,7 +100,7 @@ export default function ZKULoginPage() {
     setLoading(true)
     setError('')
     const supabase = createEnglishClient()
-    const { error: authError } = await supabase.auth.signInWithPassword({ email, password })
+    const { data: authData, error: authError } = await supabase.auth.signInWithPassword({ email, password })
     if (authError) {
       setLoading(false)
       if (authError.message.includes('Invalid login')) setError(t.err_invalid)
@@ -108,7 +108,16 @@ export default function ZKULoginPage() {
       else setError(authError.message)
       return
     }
-    router.push('/english/zku/student')
+    // Redirect by role
+    const { data: profile } = await supabase
+      .from('english_user_profiles')
+      .select('role')
+      .eq('user_id', authData.user?.id)
+      .maybeSingle()
+    const role = profile?.role ?? 'student'
+    if (role === 'admin') router.push('/english/zku/admin')
+    else if (role === 'teacher') router.push('/english/zku/teacher')
+    else router.push('/english/zku/student')
   }
 
   return (

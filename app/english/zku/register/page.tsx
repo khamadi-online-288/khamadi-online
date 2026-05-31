@@ -136,7 +136,7 @@ export default function ZKURegisterPage() {
 
     if (data.user) {
       await supabase.from('english_user_profiles').upsert(
-        { user_id: data.user.id, full_name: name, role },
+        { user_id: data.user.id, full_name: name, role, tenant_id: 'zku' },
         { onConflict: 'user_id' }
       )
     }
