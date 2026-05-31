@@ -32,10 +32,10 @@ export default function ZKULandingPage() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             color: '#fff', fontWeight: 900, fontSize: 11, letterSpacing: '-0.5px',
             boxShadow: '0 4px 12px rgba(0,56,118,0.3)',
-          }}>ЗКУ</div>
+          }}>{lang === 'ru' ? 'ЗКУ' : lang === 'kz' ? 'БҚУ' : 'WKU'}</div>
           <div>
             <div style={{ fontWeight: 800, fontSize: 14, color: '#003876', lineHeight: 1.15 }}>
-              Западно-Казахстанский университет
+              {lang === 'ru' ? 'ЗКУ им. М. Утемісова' : lang === 'kz' ? 'МӨ атындағы БҚУ' : 'WKU · English'}
             </div>
             <div style={{ fontSize: 10, color: '#94A3B8', lineHeight: 1 }}>English · Powered by KHAMADI</div>
           </div>
@@ -69,7 +69,7 @@ export default function ZKULandingPage() {
                 color: lang === l ? '#fff' : '#64748B',
                 boxShadow: lang === l ? '0 2px 6px rgba(0,56,118,0.25)' : 'none',
               }}>
-                {l === 'ru' ? 'РУС' : 'ҚАЗ'}
+                {l === 'ru' ? 'РУС' : l === 'kz' ? 'ҚАЗ' : 'ENG'}
               </button>
             ))}
           </div>
@@ -186,9 +186,7 @@ export default function ZKULandingPage() {
         <div style={{ textAlign: 'center', marginBottom: 52 }}>
           <h2 style={{ fontSize: 32, fontWeight: 900, color: '#003876', marginBottom: 12 }}>{t.features_h}</h2>
           <p style={{ fontSize: 16, color: '#64748B', maxWidth: 500, margin: '0 auto' }}>
-            {lang === 'ru'
-              ? 'Всё что нужно для изучения английского в Западно-Казахстанском университете'
-              : 'Батыс Қазақстан университетінде ағылшын тілін үйрену үшін қажеттінің бәрі'}
+            {lang === 'ru' ? 'Всё что нужно для изучения английского в ЗКУ им. М. Утемісова' : lang === 'kz' ? 'МӨ атындағы БҚУ-да ағылшын тілін үйрену үшін қажеттінің бәрі' : 'Everything you need to learn English at West Kazakhstan University'}
           </p>
         </div>
 
@@ -280,7 +278,7 @@ export default function ZKULandingPage() {
               border: '1px solid rgba(255,194,44,0.3)', color: '#FFC72C',
               padding: '6px 16px', borderRadius: 999, fontSize: 13, fontWeight: 700, marginBottom: 24,
             }}>
-              {lang === 'ru' ? '✨ Для студентов и преподавателей университета' : '✨ Университет студенттері мен оқытушылары үшін'}
+              {lang === 'ru' ? '✨ Для студентов и преподавателей ЗКУ' : lang === 'kz' ? '✨ БҚУ студенттері мен оқытушылары үшін' : '✨ For WKU students and teachers'}
             </div>
 
             <h2 style={{ fontSize: 30, fontWeight: 900, color: '#fff', marginBottom: 16 }}>
@@ -321,10 +319,10 @@ export default function ZKULandingPage() {
             background: 'linear-gradient(135deg, #003876, #0055a4)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             color: '#fff', fontWeight: 900, fontSize: 10,
-          }}>ЗКУ</div>
+          }}>{lang === 'ru' ? 'ЗКУ' : lang === 'kz' ? 'БҚУ' : 'WKU'}</div>
           <div>
-            <div style={{ fontSize: 13, fontWeight: 700, color: '#003876' }}>Западно-Казахстанский университет · English</div>
-            <div style={{ fontSize: 12, color: '#94A3B8' }}>{t.footer_uni}</div>
+            <div style={{ fontSize: 13, fontWeight: 700, color: '#003876' }}>{t.footer_uni}</div>
+            <div style={{ fontSize: 12, color: '#94A3B8' }}>KHAMADI English</div>
           </div>
         </div>
 

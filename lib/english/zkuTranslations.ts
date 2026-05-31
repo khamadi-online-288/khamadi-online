@@ -1,4 +1,4 @@
-export type Lang = 'ru' | 'kz'
+export type Lang = 'ru' | 'kz' | 'en'
 
 export const translations = {
   ru: {
@@ -44,12 +44,12 @@ export const translations = {
     stats_certs:    'сертификатов выдано',
 
     cta_h:    'Начните учить английский сегодня',
-    cta_sub:  'Бесплатная регистрация для студентов и преподавателей Западно-Казахстанского университета',
+    cta_sub:  'Бесплатная регистрация для студентов и преподавателей ЗКУ им. М. Утемісова',
     cta_btn:  'Зарегистрироваться',
     cta_link: 'Уже есть аккаунт? Войти',
 
     footer_powered: 'Powered by',
-    footer_uni:     'Западно-Казахстанский университет им. М. Утемисова',
+    footer_uni:     'ЗКУ им. М. Утемісова',
   },
   kz: {
     nav_about:    'Платформа туралы',
@@ -60,7 +60,7 @@ export const translations = {
     btn_register: 'Тіркелу',
 
     hero_badge: '🎓 Университеттің ресми ағылшын тілі платформасы',
-    hero_title: 'Батыс Қазақстан университеті\nстуденттеріне арналған ағылшын тілі',
+    hero_title: 'МӨ атындағы БҚУ\nстуденттеріне арналған ағылшын тілі',
     hero_sub:   'A1–C1 деңгейіндегі құрылымдалған курс, мамандық бойынша топтар, университет оқытушылары және ресми сертификаттар',
     btn_start:  'Тіркелу →',
     btn_enter:  'Кіру',
@@ -94,11 +94,61 @@ export const translations = {
     stats_certs:    'сертификат берілді',
 
     cta_h:    'Бүгін ағылшын тілін үйрене бастаңыз',
-    cta_sub:  'Батыс Қазақстан университетінің студенттері мен оқытушыларына тегін тіркелу',
+    cta_sub:  'МӨ атындағы БҚУ студенттері мен оқытушыларына тегін тіркелу',
     cta_btn:  'Тіркелу',
     cta_link: 'Аккаунтыңыз бар ма? Кіру',
 
     footer_powered: 'Powered by',
-    footer_uni:     'М. Өтемісов атындағы Батыс Қазақстан университеті',
+    footer_uni:     'МӨ атындағы БҚУ',
+  },
+  en: {
+    nav_about:    'About',
+    nav_program:  'Programme',
+    nav_teachers: 'Teachers',
+    nav_contacts: 'Contacts',
+    btn_login:    'Sign in',
+    btn_register: 'Register',
+
+    hero_badge: '🎓 Official English learning platform of the university',
+    hero_title: 'English for students\nof West Kazakhstan University',
+    hero_sub:   'Structured A1–C1 course, specialised groups, university teachers and official certificates',
+    btn_start:  'Register →',
+    btn_enter:  'Sign in',
+    hero_note:  'For @zku.kz accounts only',
+
+    features_h: 'What is on the platform',
+    f1_title: 'Specialised groups',
+    f1_desc:  'Teachers create groups, assign tasks and track student progress in real time.',
+    f2_title: 'Progress analytics',
+    f2_desc:  'Detailed reports for each student and group — performance, activity, weak points.',
+    f3_title: 'University certificates',
+    f3_desc:  'Official English level certificates with QR code for verification.',
+    f4_title: 'A1–C1 lessons',
+    f4_desc:  '600 lessons across all skills: Reading, Listening, Grammar, Writing, Speaking.',
+    f5_title: 'Homework',
+    f5_desc:  'Teachers assign tasks with deadlines, students complete them online.',
+    f6_title: 'Projector mode',
+    f6_desc:  'Teacher displays the lesson on the classroom screen — interactive mode.',
+
+    how_h:      'How it works',
+    step1:      'Register',
+    step1_desc: 'Sign up with your corporate @zku.kz email',
+    step2:      'Join a group',
+    step2_desc: 'Enter the group code from your teacher or wait for an invitation',
+    step3:      'Learn',
+    step3_desc: 'Complete lessons, do assignments, earn certificates',
+
+    stats_students: 'students',
+    stats_teachers: 'teachers',
+    stats_lessons:  'lessons',
+    stats_certs:    'certificates issued',
+
+    cta_h:    'Start learning English today',
+    cta_sub:  'Free registration for students and teachers of West Kazakhstan University',
+    cta_btn:  'Register',
+    cta_link: 'Already have an account? Sign in',
+
+    footer_powered: 'Powered by',
+    footer_uni:     'WKU — West Kazakhstan University',
   },
 }
