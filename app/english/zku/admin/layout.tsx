@@ -4,19 +4,13 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { ZkuLangProvider, ZkuLangSwitcher } from '../student/zku-lang'
+import { ZkuLangProvider, ZkuLangSwitcher, useZkuLang } from '../student/zku-lang'
 
 const ADMIN = '#7C3AED'
 const G = '#C9933B'
 
-const NAV = [
-  { href: '/english/zku/admin',           label: 'Дашборд',      icon: '📊', exact: true },
-  { href: '/english/zku/admin/teachers',  label: 'Преподаватели', icon: '👨‍🏫' },
-  { href: '/english/zku/admin/students',  label: 'Студенты',     icon: '🎓' },
-  { href: '/english/zku/admin/groups',    label: 'Группы',       icon: '👥' },
-]
-
-export default function AdminLayout({ children }: { children: React.ReactNode }) {
+function AdminLayoutInner({ children }: { children: React.ReactNode }) {
+  const { t } = useZkuLang()
   const pathname = usePathname()
   const router   = useRouter()
   const [name,  setName]  = useState('')
@@ -88,8 +82,13 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
         {/* Nav */}
         <nav style={{ flex:1, padding:'10px 8px', overflowY:'auto' }}>
-          <div style={{ fontSize:9, fontWeight:700, color:'rgba(255,255,255,0.28)', textTransform:'uppercase', letterSpacing:'0.14em', padding:'10px 12px 5px' }}>Управление</div>
-          {NAV.map(item => {
+          <div style={{ fontSize:9, fontWeight:700, color:'rgba(255,255,255,0.28)', textTransform:'uppercase', letterSpacing:'0.14em', padding:'10px 12px 5px' }}>{t.panel.nav_manage}</div>
+          {[
+            { href: '/english/zku/admin',           label: t.panel.nav_dashboard, icon: '📊', exact: true },
+            { href: '/english/zku/admin/teachers',  label: t.panel.nav_teachers,  icon: '👨‍🏫' },
+            { href: '/english/zku/admin/students',  label: t.panel.nav_students,  icon: '🎓' },
+            { href: '/english/zku/admin/groups',    label: t.panel.nav_groups,    icon: '👥' },
+          ].map(item => {
             const active = item.exact ? pathname === item.href : pathname.startsWith(item.href)
             return (
               <Link key={item.href} href={item.href} style={{
@@ -112,11 +111,11 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
 
           {/* Divider + Teacher view */}
           <div style={{ margin:'12px 0', borderTop:'1px solid rgba(255,255,255,0.08)' }} />
-          <div style={{ fontSize:9, fontWeight:700, color:'rgba(255,255,255,0.28)', textTransform:'uppercase', letterSpacing:'0.14em', padding:'4px 12px 5px' }}>Другие кабинеты</div>
+          <div style={{ fontSize:9, fontWeight:700, color:'rgba(255,255,255,0.28)', textTransform:'uppercase', letterSpacing:'0.14em', padding:'4px 12px 5px' }}>{t.panel.nav_other}</div>
           <Link href="/english/zku/teacher" style={{ display:'flex', alignItems:'center', gap:10, padding:'10px 12px', borderRadius:12, textDecoration:'none', color:'rgba(255,255,255,0.45)', fontSize:12, fontWeight:600 }}
             onMouseEnter={e => { (e.currentTarget as HTMLElement).style.color = '#fff'; (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.07)' }}
             onMouseLeave={e => { (e.currentTarget as HTMLElement).style.color = 'rgba(255,255,255,0.45)'; (e.currentTarget as HTMLElement).style.background = 'transparent' }}>
-            <span style={{ fontSize:16 }}>👨‍🏫</span> Кабинет преподавателя
+            <span style={{ fontSize:16 }}>👨‍🏫</span> {t.panel.teacher_cabinet}
           </Link>
         </nav>
 
@@ -139,7 +138,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             style={{ width:'100%', padding:'9px', borderRadius:10, border:'1px solid rgba(255,255,255,0.12)', background:'transparent', color:'rgba(255,255,255,0.45)', fontSize:12, cursor:'pointer', fontFamily:'inherit', fontWeight:600 }}
             onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.08)'; (e.currentTarget as HTMLElement).style.color = '#fff' }}
             onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = 'transparent'; (e.currentTarget as HTMLElement).style.color = 'rgba(255,255,255,0.45)' }}>
-            Выйти из аккаунта
+            {t.panel.logout_full}
           </button>
         </div>
       </aside>
@@ -152,13 +151,17 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <span style={{ fontSize:15, fontWeight:800, color:'#1a0050' }}>{currentPage?.label ?? 'Панель'}</span>
           </div>
           <div style={{ display:'flex', alignItems:'center', gap:10 }}>
-            <div style={{ fontSize:11, fontWeight:800, color:ADMIN, background:'#EDE9FE', padding:'4px 10px', borderRadius:99 }}>Администратор</div>
+            <div style={{ fontSize:11, fontWeight:800, color:ADMIN, background:'#EDE9FE', padding:'4px 10px', borderRadius:99 }}>{t.panel.admin_label}</div>
             <div style={{ fontSize:13, color:'#64748B', fontWeight:600 }}>{firstName}</div>
           </div>
         </header>
         <main style={{ flex:1, overflow:'auto' }}>{children}</main>
       </div>
     </div>
-    </ZkuLangProvider>
   )
+}
+
+export default function AdminLayout({ children }: { children: React.ReactNode }) {
+  return <ZkuLangProvider><AdminLayoutInner>{children}</AdminLayoutInner></ZkuLangProvider>
+}
 }

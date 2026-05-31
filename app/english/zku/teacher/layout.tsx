@@ -4,18 +4,13 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { ZkuLangProvider, ZkuLangSwitcher } from '../student/zku-lang'
+import { ZkuLangProvider, ZkuLangSwitcher, useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
 const G = '#C9933B'
 
-const NAV = [
-  { href: '/english/zku/teacher',          label: 'Дашборд',   icon: '📊', exact: true },
-  { href: '/english/zku/teacher/groups',   label: 'Группы',    icon: '👥' },
-  { href: '/english/zku/teacher/students', label: 'Студенты',  icon: '🎓' },
-]
-
-export default function TeacherLayout({ children }: { children: React.ReactNode }) {
+function TeacherLayoutInner({ children }: { children: React.ReactNode }) {
+  const { t } = useZkuLang()
   const pathname  = usePathname()
   const router    = useRouter()
   const [name,  setName]  = useState('')
@@ -68,14 +63,18 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
             <div style={{ width: 36, height: 36, borderRadius: 10, background: 'rgba(255,255,255,0.15)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 900, fontSize: 12 }}>ЗКУ</div>
             <div>
               <div style={{ color: '#fff', fontWeight: 800, fontSize: 13, lineHeight: 1.2 }}>ЗКУ English</div>
-              <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: 10 }}>Кабинет преподавателя</div>
+              <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: 10 }}>{t.panel.teacher_cabinet}</div>
             </div>
           </div>
         </div>
 
         {/* Nav */}
         <nav style={{ flex: 1, padding: '16px 12px' }}>
-          {NAV.map(item => {
+          {[
+            { href: '/english/zku/teacher',          label: t.panel.nav_dashboard, icon: '📊', exact: true },
+            { href: '/english/zku/teacher/groups',   label: t.panel.nav_groups,    icon: '👥' },
+            { href: '/english/zku/teacher/students', label: t.panel.nav_students,  icon: '🎓' },
+          ].map(item => {
             const active = item.exact ? pathname === item.href : pathname.startsWith(item.href)
             return (
               <Link key={item.href} href={item.href} style={{
@@ -108,7 +107,7 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
             </div>
             <div>
               <div style={{ color: '#fff', fontWeight: 700, fontSize: 12, lineHeight: 1.2 }}>{name.trim().split(' ')[1] ?? name.trim().split(' ')[0]}</div>
-              <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: 10 }}>Преподаватель</div>
+              <div style={{ color: 'rgba(255,255,255,0.5)', fontSize: 10 }}>{t.panel.teacher_label}</div>
             </div>
           </div>
           <button
@@ -118,7 +117,7 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
               router.push('/english/zku/login')
             }}
             style={{ width: '100%', padding: '8px', borderRadius: 8, border: '1px solid rgba(255,255,255,0.2)', background: 'transparent', color: 'rgba(255,255,255,0.6)', fontSize: 12, cursor: 'pointer', fontFamily: 'inherit' }}>
-            Выйти
+            {t.panel.logout}
           </button>
         </div>
       </aside>
@@ -128,6 +127,9 @@ export default function TeacherLayout({ children }: { children: React.ReactNode 
         {children}
       </main>
     </div>
-    </ZkuLangProvider>
   )
+}
+
+export default function TeacherLayout({ children }: { children: React.ReactNode }) {
+  return <ZkuLangProvider><TeacherLayoutInner>{children}</TeacherLayoutInner></ZkuLangProvider>
 }

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
 const G = '#C9933B'
@@ -22,7 +23,8 @@ interface Student {
 const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4', B1:'#7C3AED', B2:'#DB2777', C1:'#D97706' }
 
 export default function TeacherDashboard() {
-  const [teacherName,   setTeacherName]   = useState(sessionStorage.getItem('zku-teacher-name') ?? '')
+  const { t } = useZkuLang()
+  const [teacherName,   setTeacherName]   = useState('')
   const [groups,        setGroups]        = useState<Group[]>([])
   const [students,      setStudents]      = useState<Student[]>([])
   const [totalStudents, setTotalStudents] = useState(0)
@@ -70,10 +72,10 @@ export default function TeacherDashboard() {
     : 0
 
   const STATS = [
-    { label: 'Моих групп',      value: groups.length,     color: N,         bg: '#EEF2F7', icon: '👥', href: '/english/zku/teacher/groups' },
-    { label: 'Студентов',       value: totalStudents,     color: T,         bg: '#DCFCE7', icon: '🎓', href: '/english/zku/teacher/students' },
-    { label: 'Активны сегодня', value: activeToday,       color: '#EF4444', bg: '#FEE2E2', icon: '⚡', href: '/english/zku/teacher/students' },
-    { label: 'Ср. прогресс',    value: avgProgress + '%', color: '#7C3AED', bg: '#EDE9FE', icon: '📈', href: '/english/zku/teacher/students' },
+    { label: t.panel.stat_groups,   value: groups.length,     color: N,         bg: '#EEF2F7', icon: '👥', href: '/english/zku/teacher/groups' },
+    { label: t.panel.stat_students, value: totalStudents,     color: T,         bg: '#DCFCE7', icon: '🎓', href: '/english/zku/teacher/students' },
+    { label: t.panel.stat_today,    value: activeToday,       color: '#EF4444', bg: '#FEE2E2', icon: '⚡', href: '/english/zku/teacher/students' },
+    { label: t.panel.stat_progress, value: avgProgress + '%', color: '#7C3AED', bg: '#EDE9FE', icon: '📈', href: '/english/zku/teacher/students' },
   ]
 
   if (loading) return (
@@ -89,9 +91,9 @@ export default function TeacherDashboard() {
 
       <div style={{ marginBottom: 24 }}>
         <h1 style={{ fontSize: 24, fontWeight: 900, color: N, marginBottom: 3 }}>
-          Добро пожаловать, {teacherName.split(' ')[0] || 'Преподаватель'}! 👋
+          {t.panel.welcome}, {(teacherName.trim().split(' ')[1] ?? teacherName.trim().split(' ')[0]) || t.panel.teacher_label}! 👋
         </h1>
-        <p style={{ fontSize: 13, color: MUT }}>Вот что происходит в ваших группах сегодня</p>
+        <p style={{ fontSize: 13, color: MUT }}>{t.panel.dash_subtitle}</p>
       </div>
 
       {/* Stats */}
