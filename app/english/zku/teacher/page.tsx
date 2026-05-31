@@ -40,12 +40,22 @@ export default function TeacherDashboard() {
         .eq('user_id', session.user.id).maybeSingle()
       if (profile?.full_name) setTeacherName(profile.full_name)
 
-      const { data: grps } = await supabase
-        .from('english_groups')
-        .select('id, name, join_code, students_count, avg_progress, level_code')
+      const { data: junc } = await supabase
+        .from('english_group_teachers')
+        .select('group_id')
         .eq('teacher_id', session.user.id)
-        .order('created_at', { ascending: false })
-      const groupList = (grps ?? []) as Group[]
+      const gids = (junc ?? []).map((r: { group_id: string }) => r.group_id)
+
+      const groupList: Group[] = []
+      if (gids.length > 0) {
+        const { data: grps } = await supabase
+          .from('english_groups')
+          .select('id, name, join_code, students_count, avg_progress, level_code')
+          .in('id', gids)
+          .order('created_at', { ascending: false })
+        groupList.push(...((grps ?? []) as Group[]))
+      }
+      setGroups(groupList)
       setGroups(groupList)
 
       if (groupList.length > 0) {
