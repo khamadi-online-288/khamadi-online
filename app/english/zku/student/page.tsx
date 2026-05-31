@@ -54,11 +54,17 @@ export default function ZKUStudentDashboard() {
 
   useEffect(() => {
     const cached = sessionStorage.getItem('zku-display-name')
-    if (cached) setFirstName(cached.split(' ')[0])
+    if (cached) {
+      const parts = cached.trim().split(' ')
+      setFirstName(parts.length >= 2 ? parts[1] : parts[0])
+    }
 
     function onUpdate(e: Event) {
       const { fullName } = (e as CustomEvent<{ fullName: string }>).detail
-      if (fullName) setFirstName(fullName.split(' ')[0])
+      if (fullName) {
+        const parts = fullName.trim().split(' ')
+        setFirstName(parts.length >= 2 ? parts[1] : parts[0])
+      }
     }
     window.addEventListener('zku-profile-updated', onUpdate)
     return () => window.removeEventListener('zku-profile-updated', onUpdate)
@@ -79,7 +85,9 @@ export default function ZKUStudentDashboard() {
         .eq('user_id', user.id).maybeSingle()
       const dbName = profile?.full_name ?? ''
       const name = (metaName && metaName !== emailSlug) ? metaName : (dbName && dbName !== emailSlug) ? dbName : metaName || dbName || emailSlug
-      setFirstName(name.split(' ')[0])
+      const parts = name.trim().split(' ')
+      // Kazakh/Russian convention: "Surname Name" — use second word as first name
+      setFirstName(parts.length >= 2 ? parts[1] : parts[0])
       sessionStorage.setItem('zku-display-name', name)
       setXp(profile?.total_xp ?? 0)
       setStreak(profile?.current_streak ?? 0)

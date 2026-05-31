@@ -73,6 +73,7 @@ export default function ProfilePage() {
   const [fullName, setFullName] = useState('')
   const [email,    setEmail]    = useState('')
   const [phone,    setPhone]    = useState('')
+  const [faculty,  setFaculty]  = useState('')
   const [city,     setCity]     = useState('')
   const [bio,      setBio]      = useState('')
   const [group,    setGroup]    = useState('')
@@ -120,6 +121,10 @@ export default function ProfilePage() {
         if (dbName && dbName !== emailSlug) return dbName
         return metaName || dbName || emailSlug
       }
+
+      // Load phone and faculty from user_metadata (set during seeding)
+      if (meta?.phone)   setPhone(meta.phone)
+      if (meta?.faculty) setFaculty(meta.faculty)
 
       if (profile) {
         setFullName(resolveName(profile.full_name))
@@ -325,7 +330,11 @@ export default function ProfilePage() {
                 </div>
                 <div>
                   <Label>{t.profile.phone}</Label>
-                  <FieldInput value={phone} onChange={setPhone} type="tel" />
+                  <FieldInput value={phone} onChange={setPhone} type="tel" placeholder="+7 701 000 0000" />
+                </div>
+                <div>
+                  <Label>Факультет</Label>
+                  <FieldInput value={faculty} disabled />
                 </div>
                 <div>
                   <Label>{t.profile.city}</Label>

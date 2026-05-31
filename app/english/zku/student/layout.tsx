@@ -87,7 +87,8 @@ function UserMenu() {
   const { t }                   = useZkuLang()
 
   const initial   = fullName ? fullName.charAt(0).toUpperCase() : '?'
-  const firstName = fullName ? fullName.split(' ')[0] : '...'
+  // Kazakh/Russian format: "Фамилия Имя" — second word is the given name
+  const firstName = fullName ? (fullName.trim().split(' ')[1] ?? fullName.trim().split(' ')[0]) : '...'
 
   useEffect(() => {
     // Show cached name immediately to avoid blank flash
