@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { useZkuLang } from './zku-lang'
+//import { useZkuLang } from './zku-lang'
+import { useZkuLang } from '../../student/zku-lang'
 
 // ── Design tokens ──────────────────────────────────────────────
 const N   = '#003876'
