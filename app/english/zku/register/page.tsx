@@ -2,8 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
-import { createEnglishClient } from '@/lib/english/supabase-client'
 
 type Lang = 'ru' | 'kz' | 'en'
 type Role = 'student' | 'teacher'
@@ -117,7 +115,6 @@ export default function ZKURegisterPage() {
   const [done, setDone]         = useState(false)
   const t = T[lang]
   const brand = BRAND[lang]
-  const router = useRouter()
 
   async function handleSubmit(e: { preventDefault(): void }) {
     e.preventDefault()
@@ -126,23 +123,29 @@ export default function ZKURegisterPage() {
     setError('')
     setLoading(true)
 
-    const supabase = createEnglishClient()
-    const { data, error: signUpError } = await supabase.auth.signUp({
-      email, password,
-      options: { data: { full_name: name, role } },
-    })
-
-    if (signUpError) { setError(signUpError.message); setLoading(false); return }
-
-    if (data.user) {
-      await supabase.from('english_user_profiles').upsert(
-        { user_id: data.user.id, full_name: name, role, tenant_id: 'zku' },
-        { onConflict: 'user_id' }
-      )
+    try {
+      const res = await fetch('/api/english/zku/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email: email.trim(),
+          password,
+          fullName: name.trim(),
+          role,
+        }),
+      })
+      const data = await res.json() as { ok?: boolean; error?: string }
+      if (!res.ok || !data.ok) {
+        setError(data.error ?? 'Ошибка регистрации')
+        setLoading(false)
+        return
+      }
+      setLoading(false)
+      setDone(true)
+    } catch {
+      setError('Ошибка сети. Попробуйте позже.')
+      setLoading(false)
     }
-
-    setLoading(false)
-    setDone(true)
   }
 
   return (

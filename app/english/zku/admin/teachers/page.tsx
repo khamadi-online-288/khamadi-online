@@ -71,27 +71,35 @@ export default function AdminTeachersPage() {
   async function createTeacher() {
     if (!formName.trim() || !formEmail.trim() || formPass.length < 8) return
     setCreating(true)
+
     const supabase = createEnglishClient()
-
-    // Sign up via Supabase Auth
-    const { data, error: signUpError } = await supabase.auth.signUp({
-      email: formEmail.trim(),
-      password: formPass,
-      options: { data: { full_name: formName.trim(), role: 'teacher' } },
-    })
-
-    if (signUpError) {
-      showToast(signUpError.message, 'error')
-      setCreating(false); return
+    const { data: { session } } = await supabase.auth.getSession()
+    const token = session?.access_token ?? tok
+    if (!token) {
+      showToast('Нет сессии. Войдите снова.', 'error')
+      setCreating(false)
+      return
     }
 
-    if (data.user) {
-      await supabase.from('english_user_profiles').upsert({
-        user_id: data.user.id,
-        full_name: formName.trim(),
+    const res = await fetch('/api/english/zku/create-user', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify({
+        email: formEmail.trim(),
+        password: formPass,
+        fullName: formName.trim(),
         role: 'teacher',
-        tenant_id: 'zku',
-      }, { onConflict: 'user_id' })
+      }),
+    })
+    const d = await res.json() as { ok?: boolean; error?: string }
+
+    if (!res.ok || !d.ok) {
+      showToast(d.error ?? 'Ошибка создания', 'error')
+      setCreating(false)
+      return
     }
 
     showToast(`✓ Преподаватель ${formName.trim()} создан! Отправьте ему данные для входа.`)
