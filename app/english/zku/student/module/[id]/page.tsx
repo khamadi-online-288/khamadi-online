@@ -109,38 +109,6 @@ const MODULE_OBJECTIVES: Record<string, string[]> = {
 }
 const DEFAULT_OBJECTIVES = ['Complete the reading text', 'Learn key vocabulary', 'Practice grammar patterns', 'Pass the final test']
 
-// ── Vocab lesson IDs per module ───────────────────────────────────
-const VOCAB_LESSON_ID: Record<string, string> = {
-  'm-1': 'l1-1',
-  'm-2': 'l2-v',
-  'm-3': 'l3-v',
-  'm-4': 'l4-v',
-  'm-5': 'l5-v',
-  'm-6': 'l6-v',
-  'm-7': 'l7-v',
-  'm-8': 'l8-v',
-  'm-9':  'l9-v',
-  'm-10': 'l10-v',
-  'm-11': 'l11-v',
-  'm-12': 'l12-v',
-  'm-13': 'l13-v',
-  'm-14': 'l14-v',
-  'm-15': 'l15-v',
-  // A1.1
-  'm-a11-1':  'l17-v', 'm-a11-2':  'l18-v', 'm-a11-3':  'l19-v', 'm-a11-4':  'l20-v',
-  'm-a11-5':  'l21-v', 'm-a11-6':  'l22-v', 'm-a11-7':  'l23-v', 'm-a11-8':  'l24-v',
-  'm-a11-9':  'l25-v', 'm-a11-10': 'l26-v', 'm-a11-11': 'l27-v', 'm-a11-12': 'l28-v',
-  'm-a11-13': 'l29-v', 'm-a11-14': 'l30-v', 'm-a11-15': 'l31-v', 'm-a11-16': 'l32-v',
-  'm-a11-17': 'l33-v',
-  // A2
-  'm-a2-1':  'l35-v', 'm-a2-2':  'l36-v', 'm-a2-3':  'l37-v', 'm-a2-4':  'l38-v',
-  'm-a2-5':  'l39-v', 'm-a2-6':  'l40-v', 'm-a2-7':  'l41-v', 'm-a2-8':  'l42-v',
-  'm-a2-9':  'l43-v', 'm-a2-10': 'l44-v', 'm-a2-11': 'l45-v', 'm-a2-12': 'l46-v',
-  'm-a2-13': 'l47-v', 'm-a2-14': 'l48-v', 'm-a2-15': 'l49-v', 'm-a2-16': 'l50-v',
-  'm-a2-17': 'l51-v', 'm-a2-18': 'l52-v', 'm-a2-19': 'l53-v',
-  'm-a2-20': 'l54-v', 'm-a2-21': 'l55-v', 'm-a2-22': 'l56-v', 'm-a2-23': 'l57-v',
-}
-
 // ── All lesson data per module ────────────────────────────────────
 const ALL_LESSONS: Record<string, typeof MOCK_LESSONS_M1> = {
   'm-1': MOCK_LESSONS_M1,
@@ -320,7 +288,7 @@ export default function ModulePage() {
     const href = isLocked
       ? '#'
       : lesson.type === 'vocabulary'
-        ? `/english/zku/student/vocab/lesson/${VOCAB_LESSON_ID[id] ?? 'l1-1'}`
+        ? `/english/zku/student/vocab/lesson/${lesson.id}`
         : `/english/zku/student/lesson/${lesson.id}`
 
     return (
@@ -532,7 +500,7 @@ export default function ModulePage() {
                 const isDone = completed.has(l.id)
                 const isNext = l.id === nextLesson?.id
                 const href = l.type === 'vocabulary'
-                  ? `/english/zku/student/vocab/lesson/${lessons.find(x => x.type === 'reading')?.id ?? l.id}`
+                  ? `/english/zku/student/vocab/lesson/${l.id}`
                   : `/english/zku/student/lesson/${l.id}`
 
                 return (
