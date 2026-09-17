@@ -49708,6 +49708,14 @@ export default function LessonPage() {
     setPhase('done')
   }, [lesson.type, lesson.listenStatements.length, lisStep, lisT2Idx, phase])
 
+  // Writing finishes via writSubmitted, not phase — promote to 'done' so saveProgress runs
+  useEffect(() => {
+    if (lesson.type !== 'writing') return
+    if (!writSubmitted) return
+    if (phase === 'done') return
+    setPhase('done')
+  }, [lesson.type, writSubmitted, phase])
+
   // ── Save lesson completion when phase reaches 'done' ──────────
   const savedRef = useRef(false)
   useEffect(() => {
