@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import { IcArrowRight, IcCheck, IcVolume } from '../../../_icons'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N  = '#003876'
 const G  = '#C9933B'
@@ -4699,9 +4700,20 @@ LESSON_VOCAB['l84-1'] = VOCAB_L84_ALL
 LESSON_VOCAB['l84-v'] = VOCAB_L84_ALL
 
 export default function VocabLessonPage() {
+  const { t }    = useZkuLang()
   const params   = useParams()
   const id       = params.id as string
   const words    = LESSON_VOCAB[id] ?? VOCAB_L1_1
+
+  function getModuleUrl(): string {
+    const n = parseInt(id.replace(/^l/, '').split('-')[0], 10)
+    if (Number.isNaN(n)) return '/english/zku/student/course'
+    if (n <= 16) return `/english/zku/student/module/m-${n}`
+    if (n <= 34) return `/english/zku/student/module/m-a11-${n - 16}`
+    if (n <= 58) return `/english/zku/student/module/m-a2-${n - 34}`
+    return `/english/zku/student/module/m-b1-${n - 58}`
+  }
+  const moduleUrl = getModuleUrl()
 
   const [idx,         setIdx]         = useState(0)
   const [flipped,     setFlipped]     = useState(false)
@@ -4845,7 +4857,7 @@ export default function VocabLessonPage() {
           }}>
             {t.lesson.retry}
           </button>
-          <Link href={`/english/zku/student/lesson/${id}`} style={{
+          <Link href={moduleUrl} style={{
             flex: 2, padding: 14, borderRadius: 12, border: 'none',
             background: N, color: '#fff', fontSize: 13, fontWeight: 700,
             textDecoration: 'none', display: 'flex', alignItems: 'center',
@@ -4868,7 +4880,7 @@ export default function VocabLessonPage() {
       {/* Header */}
       <div style={{ background: '#fff', borderBottom: '1px solid rgba(0,56,118,0.08)', padding: '0 24px', position: 'sticky', top: 0, zIndex: 10 }}>
         <div style={{ maxWidth: 600, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16, height: 60 }}>
-          <Link href={`/english/zku/student/lesson/${id}`} style={{ color: MU, textDecoration: 'none', fontSize: 12, fontWeight: 600, flexShrink: 0 }}>
+          <Link href={moduleUrl} style={{ color: MU, textDecoration: 'none', fontSize: 12, fontWeight: 600, flexShrink: 0 }}>
             ← {t.vocab.back_lesson}
           </Link>
           <div style={{ flex: 1 }}>
