@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { useZkuLang } from '../student/zku-lang'
+import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
