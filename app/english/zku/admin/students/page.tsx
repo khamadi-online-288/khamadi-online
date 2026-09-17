@@ -37,10 +37,26 @@ export default function AdminStudentsPage() {
   const [newPass,   setNewPass]   = useState('')
   const [passLoading, setPassLoading] = useState(false)
   const [token,     setToken]     = useState('')
+  const [orphans,   setOrphans]   = useState<Array<{ user_id: string; email: string; full_name: string; role: string; created_at: string | null }>>([])
+  const [orphanLoading, setOrphanLoading] = useState(false)
+  const [syncing,   setSyncing]   = useState(false)
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)
   }
+
+  const loadOrphans = useCallback(async (tok: string) => {
+    setOrphanLoading(true)
+    try {
+      const res = await fetch('/api/english/zku/sync-orphans', {
+        headers: { Authorization: `Bearer ${tok}` },
+      })
+      const d = await res.json() as { orphans?: typeof orphans; error?: string }
+      if (res.ok) setOrphans(d.orphans ?? [])
+    } finally {
+      setOrphanLoading(false)
+    }
+  }, [])
 
   const load = useCallback(async () => {
     const supabase = createEnglishClient()
@@ -59,9 +75,32 @@ export default function AdminStudentsPage() {
 
     setStudents(((raw ?? []) as Student[]).map(s => ({ ...s, group_name: s.group_id ? gm[s.group_id] : undefined })))
     setLoading(false)
-  }, [])
+    void loadOrphans(session.access_token)
+  }, [loadOrphans])
 
   useEffect(() => { load() }, [load])
+
+  async function syncOrphans() {
+    if (!token || orphans.length === 0) return
+    if (!confirm(`Создать профили для ${orphans.length} пользователей без записи в админке?`)) return
+    setSyncing(true)
+    try {
+      const res = await fetch('/api/english/zku/sync-orphans', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({}),
+      })
+      const d = await res.json() as { ok?: boolean; synced?: number; failed?: unknown[]; error?: string }
+      if (!res.ok || !d.ok) {
+        showToast(d.error ?? 'Ошибка синхронизации', 'error')
+        return
+      }
+      showToast(`✓ Синхронизировано: ${d.synced ?? 0}`)
+      await load()
+    } finally {
+      setSyncing(false)
+    }
+  }
 
   async function changePassword(userId: string) {
     if (newPass.length < 6) { showToast('Минимум 6 символов', 'error'); return }
@@ -189,6 +228,44 @@ export default function AdminStudentsPage() {
           <span>✨ Ср. XP: <strong style={{ color: G }}>{stats.avgXp.toLocaleString()}</strong></span>
         </div>
       </div>
+
+      {(orphanLoading || orphans.length > 0) && (
+        <div style={{
+          marginBottom: 18, padding: '14px 18px', borderRadius: 14,
+          background: orphans.length > 0 ? '#FFF7ED' : '#F8FAFC',
+          border: `1px solid ${orphans.length > 0 ? '#FDBA74' : BDR}`,
+        }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, flexWrap: 'wrap' }}>
+            <div>
+              <div style={{ fontSize: 13, fontWeight: 800, color: orphans.length > 0 ? '#C2410C' : MUT }}>
+                {orphanLoading
+                  ? 'Проверяем пользователей без профиля…'
+                  : `⚠ Без профиля (не видны в списке): ${orphans.length}`}
+              </div>
+              {!orphanLoading && orphans.length > 0 && (
+                <div style={{ fontSize: 12, color: MUT, marginTop: 4, maxHeight: 72, overflow: 'auto' }}>
+                  {orphans.slice(0, 12).map(o => o.email || o.full_name).join(' · ')}
+                  {orphans.length > 12 ? ` · +${orphans.length - 12}` : ''}
+                </div>
+              )}
+            </div>
+            {!orphanLoading && orphans.length > 0 && (
+              <button
+                onClick={syncOrphans}
+                disabled={syncing}
+                style={{
+                  padding: '10px 16px', borderRadius: 10, border: 'none',
+                  background: syncing ? '#CBD5E1' : '#EA580C', color: '#fff',
+                  fontWeight: 800, fontSize: 13, cursor: syncing ? 'not-allowed' : 'pointer',
+                  fontFamily: 'inherit', whiteSpace: 'nowrap',
+                }}
+              >
+                {syncing ? 'Синхронизация…' : 'Синхронизировать'}
+              </button>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Filters */}
       <div style={{ display: 'flex', gap: 10, marginBottom: 18, flexWrap: 'wrap' }}>
