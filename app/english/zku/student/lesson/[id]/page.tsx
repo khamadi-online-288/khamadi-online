@@ -49699,6 +49699,15 @@ export default function LessonPage() {
   const [showXpAnim, setShowXpAnim] = useState(false)
   const [xpAnimVal,  setXpAnimVal]  = useState(0)
 
+  // Listening finishes via lisStep, not phase — promote to 'done' so saveProgress runs
+  useEffect(() => {
+    if (lesson.type !== 'listening') return
+    if (lisStep !== 3) return
+    if (lisT2Idx < lesson.listenStatements.length) return
+    if (phase === 'done') return
+    setPhase('done')
+  }, [lesson.type, lesson.listenStatements.length, lisStep, lisT2Idx, phase])
+
   // ── Save lesson completion when phase reaches 'done' ──────────
   const savedRef = useRef(false)
   useEffect(() => {
