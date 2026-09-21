@@ -41,6 +41,7 @@ export default function AdminStudentsPage() {
   const [orphanLoading, setOrphanLoading] = useState(false)
   const [syncing,   setSyncing]   = useState(false)
   const [pdfLoading, setPdfLoading] = useState(false)
+  const [xlsxLoading, setXlsxLoading] = useState(false)
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)
@@ -132,6 +133,38 @@ export default function AdminStudentsPage() {
       showToast('Ошибка сети при скачивании PDF', 'error')
     } finally {
       setPdfLoading(false)
+    }
+  }
+
+  async function downloadXlsx() {
+    if (!token) {
+      showToast('Нет сессии. Войдите снова.', 'error')
+      return
+    }
+    setXlsxLoading(true)
+    try {
+      const res = await fetch('/api/english/zku/students-xlsx', {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      if (!res.ok) {
+        const d = await res.json().catch(() => ({})) as { error?: string }
+        showToast(d.error ?? 'Ошибка Excel', 'error')
+        return
+      }
+      const blob = await res.blob()
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `zku-students-${new Date().toISOString().slice(0, 10)}.xlsx`
+      document.body.appendChild(a)
+      a.click()
+      a.remove()
+      URL.revokeObjectURL(url)
+      showToast('✓ Excel скачан')
+    } catch {
+      showToast('Ошибка сети при скачивании Excel', 'error')
+    } finally {
+      setXlsxLoading(false)
     }
   }
 
@@ -262,19 +295,34 @@ export default function AdminStudentsPage() {
             <span>✨ Ср. XP: <strong style={{ color: G }}>{stats.avgXp.toLocaleString()}</strong></span>
           </div>
         </div>
-        <button
-          onClick={downloadPdf}
-          disabled={pdfLoading || !token}
-          title="Только студенты ZKU: ФИО, регистрация, уровень"
-          style={{
-            padding: '10px 16px', borderRadius: 10, border: 'none',
-            background: pdfLoading || !token ? '#CBD5E1' : N, color: '#fff',
-            fontWeight: 800, fontSize: 13, cursor: pdfLoading || !token ? 'not-allowed' : 'pointer',
-            fontFamily: 'inherit', whiteSpace: 'nowrap',
-          }}
-        >
-          {pdfLoading ? 'Готовим PDF…' : '↓ PDF (ZKU)'}
-        </button>
+        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+          <button
+            onClick={downloadXlsx}
+            disabled={xlsxLoading || !token}
+            title="ФИО, регистрация, уровень — все студенты"
+            style={{
+              padding: '10px 16px', borderRadius: 10, border: 'none',
+              background: xlsxLoading || !token ? '#CBD5E1' : T, color: '#fff',
+              fontWeight: 800, fontSize: 13, cursor: xlsxLoading || !token ? 'not-allowed' : 'pointer',
+              fontFamily: 'inherit', whiteSpace: 'nowrap',
+            }}
+          >
+            {xlsxLoading ? 'Готовим Excel…' : '↓ Excel'}
+          </button>
+          <button
+            onClick={downloadPdf}
+            disabled={pdfLoading || !token}
+            title="То же в PDF"
+            style={{
+              padding: '10px 16px', borderRadius: 10, border: 'none',
+              background: pdfLoading || !token ? '#CBD5E1' : N, color: '#fff',
+              fontWeight: 800, fontSize: 13, cursor: pdfLoading || !token ? 'not-allowed' : 'pointer',
+              fontFamily: 'inherit', whiteSpace: 'nowrap',
+            }}
+          >
+            {pdfLoading ? 'Готовим PDF…' : '↓ PDF'}
+          </button>
+        </div>
       </div>
 
       {(orphanLoading || orphans.length > 0) && (
