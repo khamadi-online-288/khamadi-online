@@ -6,7 +6,6 @@ import { createEnglishClient } from '@/lib/english/supabase-client'
 const N = '#003876'
 const T = '#1D9E75'
 const G = '#C9933B'
-const ADMIN = '#7C3AED'
 const MUT = '#64748B'
 const BDR = 'rgba(0,56,118,0.08)'
 
@@ -20,6 +19,7 @@ type Toast = { msg: string; type: 'success'|'error' }
 type SortKey = 'name' | 'xp' | 'streak' | 'active'
 
 const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4', B1:'#7C3AED', B2:'#DB2777', C1:'#D97706' }
+const ROW_COLS = '1.7fr 72px 95px 60px 70px 65px 130px 72px'
 
 export default function AdminStudentsPage() {
   const [students,   setStudents]   = useState<Student[]>([])
@@ -34,6 +34,7 @@ export default function AdminStudentsPage() {
   const [toast,      setToast]      = useState<Toast | null>(null)
   const [assigningId, setAssigningId] = useState<string | null>(null)
   const [assignGroup, setAssignGroup] = useState('')
+  const [assignLoading, setAssignLoading] = useState(false)
   const [passId,    setPassId]    = useState<string | null>(null)
   const [newPass,   setNewPass]   = useState('')
   const [passLoading, setPassLoading] = useState(false)
@@ -118,15 +119,32 @@ export default function AdminStudentsPage() {
   }
 
   async function assignToGroup(userId: string, groupId: string, studentName: string) {
-    const supabase = createEnglishClient()
-    const { error } = await supabase.from('english_user_profiles').update({ group_id: groupId || null }).eq('user_id', userId)
-    if (error) showToast('Ошибка при назначении', 'error')
-    else {
-      const gName = groups.find(g => g.id === groupId)?.name ?? ''
-      showToast(groupId ? `${studentName} → ${gName}` : `${studentName} убран из группы`)
+    if (!token) { showToast('Нет сессии', 'error'); return }
+    if (assignLoading) return
+    setAssignLoading(true)
+    try {
+      const res = await fetch('/api/english/admin/assign-group', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ targetUserId: userId, groupId: groupId || null }),
+      })
+      const d = await res.json() as { ok?: boolean; error?: string }
+      if (!res.ok || !d.ok) {
+        showToast(d.error ?? 'Ошибка при назначении', 'error')
+        return
+      }
+      const nextGroupId = groupId || null
+      const gName = nextGroupId ? (groups.find(g => g.id === nextGroupId)?.name ?? '') : undefined
+      setStudents(prev => prev.map(s =>
+        s.user_id === userId
+          ? { ...s, group_id: nextGroupId, group_name: gName }
+          : s
+      ))
+      showToast(nextGroupId ? `${studentName} → ${gName}` : `${studentName} убран из группы`)
+      setAssigningId(null)
+    } finally {
+      setAssignLoading(false)
     }
-    setAssigningId(null)
-    await load()
   }
 
   function toggleSort(k: SortKey) {
@@ -306,7 +324,7 @@ export default function AdminStudentsPage() {
         <div style={{ textAlign: 'center', padding: 56, color: MUT }}>Загрузка...</div>
       ) : (
         <div style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, overflow: 'hidden', boxShadow: '0 1px 6px rgba(0,56,118,0.04)' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1.7fr 72px 95px 60px 70px 65px 130px 60px', padding: '12px 20px', background: '#F8FBFF', borderBottom: `1px solid ${BDR}`, gap: 8 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: ROW_COLS, padding: '12px 20px', background: '#F8FBFF', borderBottom: `1px solid ${BDR}`, gap: 8 }}>
             <SortBtn k="name"    label="Студент" />
             <div style={{ fontSize: 10, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em' }}>Уровень</div>
             <SortBtn k="xp"     label="XP" />
@@ -331,7 +349,7 @@ export default function AdminStudentsPage() {
             const isAssigning = assigningId === s.user_id
             return (
               <div key={s.user_id} style={{
-                display: 'grid', gridTemplateColumns: '1.7fr 72px 95px 60px 70px 65px 130px 60px',
+                display: 'grid', gridTemplateColumns: ROW_COLS,
                 padding: '11px 20px', gap: 8, alignItems: 'center',
                 borderTop: i > 0 ? `1px solid ${BDR}` : 'none',
                 background: isInactive ? '#FFFBEB' : i % 2 === 0 ? '#fff' : '#FAFCFF',
@@ -354,43 +372,55 @@ export default function AdminStudentsPage() {
                 </div>
                 <div style={{ fontSize: 11, fontWeight: 600, color: ag.color }}>{ag.label}</div>
 
-                {/* Group assignment */}
-                <div>
-                  {isAssigning ? (
-                    <div style={{ display: 'flex', gap: 4, alignItems: 'center' }}>
-                      <select value={assignGroup} onChange={e => setAssignGroup(e.target.value)}
-                        style={{ flex: 1, padding: '5px 8px', borderRadius: 8, border: `1.5px solid ${N}`, fontSize: 11, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
-                        <option value="">— Убрать из группы</option>
-                        {groups.map(g => <option key={g.id} value={g.id}>{g.name}</option>)}
-                      </select>
-                      <button onClick={() => assignToGroup(s.user_id, assignGroup, s.full_name ?? 'Студент')}
-                        style={{ padding: '5px 8px', borderRadius: 7, border: 'none', background: T, color: '#fff', fontWeight: 700, fontSize: 11, cursor: 'pointer' }}>✓</button>
-                      <button onClick={() => setAssigningId(null)}
-                        style={{ padding: '5px 7px', borderRadius: 7, border: 'none', background: '#F1F5F9', color: MUT, fontSize: 11, cursor: 'pointer' }}>✕</button>
-                    </div>
-                  ) : (
+                {isAssigning ? (
+                  <div style={{ gridColumn: 'span 2', display: 'flex', gap: 6, alignItems: 'center', minWidth: 0 }}>
+                    <select value={assignGroup} onChange={e => setAssignGroup(e.target.value)} disabled={assignLoading}
+                      style={{ flex: 1, minWidth: 0, padding: '6px 8px', borderRadius: 8, border: `1.5px solid ${N}`, fontSize: 11, outline: 'none', fontFamily: 'inherit', background: assignLoading ? '#F8FAFC' : '#fff', opacity: assignLoading ? 0.7 : 1, cursor: assignLoading ? 'wait' : 'pointer' }}>
+                      <option value="">— Убрать из группы</option>
+                      {groups.map(g => <option key={g.id} value={g.id}>{g.name}</option>)}
+                    </select>
+                    <button
+                      onClick={() => assignToGroup(s.user_id, assignGroup, s.full_name ?? 'Студент')}
+                      disabled={assignLoading}
+                      title="Сохранить"
+                      style={{ flexShrink: 0, width: 28, height: 28, borderRadius: 7, border: 'none', background: assignLoading ? '#94A3B8' : T, color: '#fff', fontWeight: 700, fontSize: 13, cursor: assignLoading ? 'wait' : 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
+                    >
+                      {assignLoading ? (
+                        <span style={{
+                          width: 12, height: 12, borderRadius: '50%',
+                          border: '2px solid rgba(255,255,255,0.35)', borderTopColor: '#fff',
+                          animation: 'spin 0.7s linear infinite', display: 'block',
+                        }} />
+                      ) : '✓'}
+                    </button>
+                    <button onClick={() => { if (!assignLoading) setAssigningId(null) }}
+                      disabled={assignLoading}
+                      title="Отмена"
+                      style={{ flexShrink: 0, width: 28, height: 28, borderRadius: 7, border: 'none', background: '#F1F5F9', color: MUT, fontSize: 13, cursor: assignLoading ? 'not-allowed' : 'pointer', opacity: assignLoading ? 0.5 : 1 }}>✕</button>
+                  </div>
+                ) : (
+                  <>
                     <div style={{ fontSize: 11, color: MUT, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                       {s.group_name ?? '—'}
                     </div>
-                  )}
-                </div>
-
-                <div style={{ display: 'flex', gap: 4 }}>
-                  <button onClick={() => { setAssigningId(isAssigning ? null : s.user_id); setAssignGroup(s.group_id ?? '') }}
-                    title="Группа" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: isAssigning ? '#EDE9FE' : '#EEF2F7', color: isAssigning ? ADMIN : MUT, cursor: 'pointer', fontSize: 12 }}>
-                    👥
-                  </button>
-                  <button onClick={() => { setPassId(s.user_id); setNewPass('') }}
-                    title="Пароль" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: passId === s.user_id ? '#FEF3C7' : '#EEF2F7', cursor: 'pointer', fontSize: 12 }}>
-                    🔑
-                  </button>
-                </div>
+                    <div style={{ display: 'flex', gap: 4 }}>
+                      <button onClick={() => { setAssigningId(s.user_id); setAssignGroup(s.group_id ?? '') }}
+                        title="Группа" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: '#EEF2F7', color: MUT, cursor: 'pointer', fontSize: 12 }}>
+                        👥
+                      </button>
+                      <button onClick={() => { setPassId(s.user_id); setNewPass('') }}
+                        title="Пароль" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: passId === s.user_id ? '#FEF3C7' : '#EEF2F7', cursor: 'pointer', fontSize: 12 }}>
+                        🔑
+                      </button>
+                    </div>
+                  </>
+                )}
               </div>
             )
           })}
 
           <div style={{ padding: '10px 20px', borderTop: `1px solid ${BDR}`, background: '#F8FBFF', fontSize: 12, color: MUT }}>
-            Показано {filtered.length} из {students.length} · Кликните ✏️ чтобы назначить/изменить группу студента
+            Показано {filtered.length} из {students.length} · Кликните 👥 чтобы назначить/изменить группу студента
             {stats.noGroup > 0 && <span style={{ marginLeft: 12, color: '#EF4444', fontWeight: 700 }}>⚠ {stats.noGroup} студентов без группы</span>}
           </div>
         </div>
