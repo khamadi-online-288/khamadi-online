@@ -6,7 +6,29 @@ import {
   type ZkuCreateRole,
 } from '@/lib/english/zku-create-user'
 
+const CLOSED_MSG = 'Регистрация закрыта. Обратитесь к администратору для создания аккаунта.'
+
 export async function POST(req: NextRequest) {
+  const token = req.headers.get('authorization')?.replace('Bearer ', '')
+  if (!token) {
+    return NextResponse.json({ error: CLOSED_MSG }, { status: 403 })
+  }
+
+  const admin = createEnglishServiceClient()
+  const { data: { user }, error: authErr } = await admin.auth.getUser(token)
+  if (authErr || !user) {
+    return NextResponse.json({ error: CLOSED_MSG }, { status: 403 })
+  }
+
+  const { data: caller } = await admin
+    .from('english_user_profiles')
+    .select('role')
+    .eq('user_id', user.id)
+    .maybeSingle()
+  if (!caller || caller.role !== 'admin') {
+    return NextResponse.json({ error: CLOSED_MSG }, { status: 403 })
+  }
+
   let body: {
     email?: string
     password?: string
@@ -46,7 +68,6 @@ export async function POST(req: NextRequest) {
     // Auth user already exists from a previous broken signup — attach profile if password matches
     if (/already|registered|exists/i.test(message)) {
       try {
-        const admin = createEnglishServiceClient()
         const { data: signIn, error: signInErr } = await admin.auth.signInWithPassword({
           email,
           password,
