@@ -40,6 +40,7 @@ export default function AdminStudentsPage() {
   const [orphans,   setOrphans]   = useState<Array<{ user_id: string; email: string; full_name: string; role: string; created_at: string | null }>>([])
   const [orphanLoading, setOrphanLoading] = useState(false)
   const [syncing,   setSyncing]   = useState(false)
+  const [pdfLoading, setPdfLoading] = useState(false)
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)
@@ -99,6 +100,38 @@ export default function AdminStudentsPage() {
       await load()
     } finally {
       setSyncing(false)
+    }
+  }
+
+  async function downloadPdf() {
+    if (!token) {
+      showToast('Нет сессии. Войдите снова.', 'error')
+      return
+    }
+    setPdfLoading(true)
+    try {
+      const res = await fetch('/api/english/zku/students-pdf', {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+      if (!res.ok) {
+        const d = await res.json().catch(() => ({})) as { error?: string }
+        showToast(d.error ?? 'Ошибка PDF', 'error')
+        return
+      }
+      const blob = await res.blob()
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = `zku-students-${new Date().toISOString().slice(0, 10)}.pdf`
+      document.body.appendChild(a)
+      a.click()
+      a.remove()
+      URL.revokeObjectURL(url)
+      showToast('✓ PDF скачан')
+    } catch {
+      showToast('Ошибка сети при скачивании PDF', 'error')
+    } finally {
+      setPdfLoading(false)
     }
   }
 
@@ -218,15 +251,30 @@ export default function AdminStudentsPage() {
         </div>
       )}
 
-      <div style={{ marginBottom: 22 }}>
-        <h1 style={{ fontSize: 24, fontWeight: 900, color: '#1a0050', marginBottom: 4 }}>Все студенты</h1>
-        <div style={{ display: 'flex', gap: 16, fontSize: 13, color: MUT, flexWrap: 'wrap' }}>
-          <span>🎓 Всего: <strong style={{ color: N }}>{students.length}</strong></span>
-          <span>⚡ Сегодня: <strong style={{ color: T }}>{stats.today}</strong></span>
-          <span>😴 Неактивны 30+ дн.: <strong style={{ color: '#f59e0b' }}>{stats.inactive}</strong></span>
-          {stats.noGroup > 0 && <span>⚠ Без группы: <strong style={{ color: '#EF4444' }}>{stats.noGroup}</strong></span>}
-          <span>✨ Ср. XP: <strong style={{ color: G }}>{stats.avgXp.toLocaleString()}</strong></span>
+      <div style={{ marginBottom: 22, display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 16, flexWrap: 'wrap' }}>
+        <div>
+          <h1 style={{ fontSize: 24, fontWeight: 900, color: '#1a0050', marginBottom: 4 }}>Все студенты</h1>
+          <div style={{ display: 'flex', gap: 16, fontSize: 13, color: MUT, flexWrap: 'wrap' }}>
+            <span>🎓 Всего: <strong style={{ color: N }}>{students.length}</strong></span>
+            <span>⚡ Сегодня: <strong style={{ color: T }}>{stats.today}</strong></span>
+            <span>😴 Неактивны 30+ дн.: <strong style={{ color: '#f59e0b' }}>{stats.inactive}</strong></span>
+            {stats.noGroup > 0 && <span>⚠ Без группы: <strong style={{ color: '#EF4444' }}>{stats.noGroup}</strong></span>}
+            <span>✨ Ср. XP: <strong style={{ color: G }}>{stats.avgXp.toLocaleString()}</strong></span>
+          </div>
         </div>
+        <button
+          onClick={downloadPdf}
+          disabled={pdfLoading || !token}
+          title="Только студенты ZKU: ФИО, регистрация, уровень"
+          style={{
+            padding: '10px 16px', borderRadius: 10, border: 'none',
+            background: pdfLoading || !token ? '#CBD5E1' : N, color: '#fff',
+            fontWeight: 800, fontSize: 13, cursor: pdfLoading || !token ? 'not-allowed' : 'pointer',
+            fontFamily: 'inherit', whiteSpace: 'nowrap',
+          }}
+        >
+          {pdfLoading ? 'Готовим PDF…' : '↓ PDF (ZKU)'}
+        </button>
       </div>
 
       {(orphanLoading || orphans.length > 0) && (
