@@ -28,6 +28,7 @@ export default function AdminStudentsPage() {
   const [search,     setSearch]     = useState('')
   const [filterLevel, setFilterLevel] = useState('all')
   const [filterActivity, setFilterActivity] = useState('all')
+  const [filterGroup, setFilterGroup] = useState('all')
   const [sortKey,    setSortKey]    = useState<SortKey>('active')
   const [sortDir,    setSortDir]    = useState<'asc'|'desc'>('desc')
   const [toast,      setToast]      = useState<Toast | null>(null)
@@ -153,7 +154,10 @@ export default function AdminStudentsPage() {
         : filterActivity === 'today' ? d === 0
         : filterActivity === 'week' ? d <= 7
         : filterActivity === 'inactive' ? d > 30 : true
-      return ms && ml && ma
+      const mg = filterGroup === 'all' ? true
+        : filterGroup === 'none' ? !s.group_id
+        : s.group_id === filterGroup
+      return ms && ml && ma && mg
     })
     list = [...list].sort((a, b) => {
       let va: number|string, vb: number|string
@@ -165,7 +169,7 @@ export default function AdminStudentsPage() {
       return sortDir === 'asc' ? (va as number) - (vb as number) : (vb as number) - (va as number)
     })
     return list
-  }, [students, search, filterLevel, filterActivity, sortKey, sortDir])
+  }, [students, search, filterLevel, filterActivity, filterGroup, sortKey, sortDir])
 
   const levels = ['all', ...Array.from(new Set(students.map(s => s.current_level ?? 'A1')))]
   const SortBtn = ({ k, label }: { k: SortKey; label: string }) => (
@@ -284,8 +288,16 @@ export default function AdminStudentsPage() {
           <option value="week">Последние 7 дней</option>
           <option value="inactive">Неактивны 30+ дней</option>
         </select>
-        {(search || filterLevel !== 'all' || filterActivity !== 'all') && (
-          <button onClick={() => { setSearch(''); setFilterLevel('all'); setFilterActivity('all') }}
+        <select value={filterGroup} onChange={e => setFilterGroup(e.target.value)}
+          style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: '#fff', maxWidth: 220 }}>
+          <option value="all">Все группы</option>
+          <option value="none">Без группы</option>
+          {groups.map(g => (
+            <option key={g.id} value={g.id}>{g.name}</option>
+          ))}
+        </select>
+        {(search || filterLevel !== 'all' || filterActivity !== 'all' || filterGroup !== 'all') && (
+          <button onClick={() => { setSearch(''); setFilterLevel('all'); setFilterActivity('all'); setFilterGroup('all') }}
             style={{ padding: '10px 14px', borderRadius: 10, border: `1px solid ${BDR}`, background: '#FEE2E2', color: '#DC2626', fontSize: 12, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}>✕ Сбросить</button>
         )}
       </div>
