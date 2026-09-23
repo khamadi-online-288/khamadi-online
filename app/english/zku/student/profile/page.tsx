@@ -153,7 +153,8 @@ export default function ProfilePage() {
 
   async function handleProfileSave() {
     const uid = userIdRef.current
-    if (!uid) return
+    const name = fullName.trim()
+    if (!uid || !name) return
     const supabase = createEnglishClient()
 
     // Check if profile row exists
@@ -166,7 +167,7 @@ export default function ProfilePage() {
     if (existing) {
       const { error: updateError } = await supabase
         .from('english_user_profiles')
-        .update({ full_name: fullName })
+        .update({ full_name: name })
         .eq('user_id', uid)
 
       if (updateError) {
@@ -176,7 +177,7 @@ export default function ProfilePage() {
     } else {
       const { error: insertError } = await supabase
         .from('english_user_profiles')
-        .insert({ user_id: uid, full_name: fullName, role: 'student' })
+        .insert({ user_id: uid, full_name: name, role: 'student' })
 
       if (insertError) {
         console.error('Insert failed:', insertError.message, insertError.code)
@@ -184,8 +185,15 @@ export default function ProfilePage() {
       }
     }
 
-    sessionStorage.setItem('zku-display-name', fullName)
-    window.dispatchEvent(new CustomEvent('zku-profile-updated', { detail: { fullName } }))
+    const { error: metaError } = await supabase.auth.updateUser({ data: { full_name: name } })
+    if (metaError) {
+      console.error('Auth name update failed:', metaError.message)
+      return
+    }
+
+    setFullName(name)
+    sessionStorage.setItem('zku-display-name', name)
+    window.dispatchEvent(new CustomEvent('zku-profile-updated', { detail: { fullName: name } }))
     save('profile')
   }
 

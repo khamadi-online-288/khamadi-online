@@ -7,6 +7,21 @@ const admin = createClient(
   { auth: { autoRefreshToken: false, persistSession: false } }
 )
 
+function readMetaName(meta: Record<string, unknown> | undefined): string {
+  const full = meta?.full_name
+  if (typeof full === 'string' && full.trim()) return full.trim()
+  const name = meta?.name
+  return typeof name === 'string' ? name.trim() : ''
+}
+
+/** Same rule as the student cabinet: Auth metadata wins over the profile row. */
+function resolveDisplayedName(dbName: string | null, metaName: string, email: string): string | null {
+  const emailSlug = email.split('@')[0] ?? ''
+  if (metaName && metaName !== emailSlug) return metaName
+  if (dbName && dbName !== emailSlug) return dbName
+  return dbName || metaName || null
+}
+
 export async function GET(req: NextRequest) {
   const token = req.headers.get('authorization')?.replace('Bearer ', '')
   if (!token) return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -29,7 +44,11 @@ export async function GET(req: NextRequest) {
   // Get auth users to fetch emails
   const { data: { users: authUsers } } = await admin.auth.admin.listUsers({ perPage: 1000 })
   const emailMap: Record<string, string> = {}
-  authUsers.forEach(u => { emailMap[u.id] = u.email ?? '' })
+  const metaNameMap: Record<string, string> = {}
+  authUsers.forEach(u => {
+    emailMap[u.id] = u.email ?? ''
+    metaNameMap[u.id] = readMetaName(u.user_metadata as Record<string, unknown> | undefined)
+  })
 
   // Get lesson progress counts
   const { data: progress } = await admin
@@ -48,11 +67,15 @@ export async function GET(req: NextRequest) {
     .select('id, name')
     .order('name')
 
-  const enriched = (students ?? []).map(s => ({
-    ...s,
-    email: emailMap[s.user_id] ?? '',
-    lessons_done: lessonCounts[s.user_id] ?? 0,
-  }))
+  const enriched = (students ?? []).map(s => {
+    const email = emailMap[s.user_id] ?? ''
+    return {
+      ...s,
+      full_name: resolveDisplayedName(s.full_name, metaNameMap[s.user_id] ?? '', email),
+      email,
+      lessons_done: lessonCounts[s.user_id] ?? 0,
+    }
+  })
 
   return NextResponse.json({ students: enriched, groups: groups ?? [] })
 }
