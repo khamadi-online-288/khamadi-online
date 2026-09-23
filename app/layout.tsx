@@ -60,6 +60,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://khamadi.online',
   },
+
+  other: {
+    //google: 'notranslate',
+  },
 }
 
 export const viewport: Viewport = {
@@ -74,8 +78,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="kk">
-      <body className={`${montserrat.variable} ${montserrat.className}`}>{children}</body>
+    <html lang="kk" translate="no" className="notranslate">
+      <body translate="no" className={`${montserrat.variable} ${montserrat.className} notranslate`}>{children}</body>
     </html>
   )
 }

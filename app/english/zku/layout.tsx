@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function ZKULayout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
+    <div translate="no" className="notranslate">
       {children}
     </div>
   )

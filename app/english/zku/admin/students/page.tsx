@@ -19,7 +19,7 @@ type Toast = { msg: string; type: 'success'|'error' }
 type SortKey = 'name' | 'xp' | 'streak' | 'active'
 
 const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4', B1:'#7C3AED', B2:'#DB2777', C1:'#D97706' }
-const ROW_COLS = '1.7fr 72px 95px 60px 70px 65px 130px 72px'
+const ROW_COLS = '1.7fr 72px 95px 60px 70px 65px 130px 104px'
 
 export default function AdminStudentsPage() {
   const [students,   setStudents]   = useState<Student[]>([])
@@ -35,6 +35,7 @@ export default function AdminStudentsPage() {
   const [assigningId, setAssigningId] = useState<string | null>(null)
   const [assignGroup, setAssignGroup] = useState('')
   const [assignLoading, setAssignLoading] = useState(false)
+  const [deletingId, setDeletingId] = useState<string | null>(null)
   const [passId,    setPassId]    = useState<string | null>(null)
   const [newPass,   setNewPass]   = useState('')
   const [passLoading, setPassLoading] = useState(false)
@@ -144,6 +145,33 @@ export default function AdminStudentsPage() {
       setAssigningId(null)
     } finally {
       setAssignLoading(false)
+    }
+  }
+
+  async function deleteStudent(userId: string, studentName: string, email: string) {
+    if (!token) { showToast('Нет сессии', 'error'); return }
+    if (deletingId) return
+    const label = studentName || email || 'этого студента'
+    if (!confirm(`Удалить аккаунт «${label}»?\n\nДействие необратимо: профиль, прогресс и вход будут удалены.`)) return
+
+    setDeletingId(userId)
+    try {
+      const res = await fetch('/api/english/admin/delete-user', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({ targetUserId: userId }),
+      })
+      const d = await res.json() as { ok?: boolean; error?: string }
+      if (!res.ok || !d.ok) {
+        showToast(d.error ?? 'Ошибка удаления', 'error')
+        return
+      }
+      setStudents(prev => prev.filter(s => s.user_id !== userId))
+      if (assigningId === userId) setAssigningId(null)
+      if (passId === userId) { setPassId(null); setNewPass('') }
+      showToast(`✓ ${label} удалён`)
+    } finally {
+      setDeletingId(null)
     }
   }
 
@@ -411,6 +439,25 @@ export default function AdminStudentsPage() {
                       <button onClick={() => { setPassId(s.user_id); setNewPass('') }}
                         title="Пароль" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: passId === s.user_id ? '#FEF3C7' : '#EEF2F7', cursor: 'pointer', fontSize: 12 }}>
                         🔑
+                      </button>
+                      <button
+                        onClick={() => deleteStudent(s.user_id, s.full_name ?? 'Студент', s.email)}
+                        disabled={deletingId === s.user_id}
+                        title="Удалить"
+                        style={{
+                          width: 28, height: 28, borderRadius: 7, border: 'none',
+                          background: deletingId === s.user_id ? '#FECACA' : '#FEE2E2',
+                          color: '#DC2626', cursor: deletingId === s.user_id ? 'wait' : 'pointer', fontSize: 12,
+                          display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        }}
+                      >
+                        {deletingId === s.user_id ? (
+                          <span style={{
+                            width: 12, height: 12, borderRadius: '50%',
+                            border: '2px solid rgba(220,38,38,0.25)', borderTopColor: '#DC2626',
+                            animation: 'spin 0.7s linear infinite', display: 'block',
+                          }} />
+                        ) : '🗑'}
                       </button>
                     </div>
                   </>
