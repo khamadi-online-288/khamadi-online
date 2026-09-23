@@ -105,15 +105,15 @@ export default function AchievementsPage() {
   function desc(a: Achievement)  { return lang === 'kz' ? a.descKz  : lang === 'en' ? a.descEn  : a.descRu }
 
   return (
-    <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
-    <div style={{ padding: '28px 32px 56px', maxWidth: 1000, margin: '0 auto' }}>
+    <div className="zku-full-h" style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px 56px', maxWidth: 1000, margin: '0 auto' }}>
 
       <div style={{ marginBottom: 24 }}>
         <h1 style={{ fontSize: 26, fontWeight: 900, color: N, marginBottom: 5 }}>{t.achievements.title}</h1>
         <p style={{ fontSize: 13, color: MUT }}>{t.achievements.subtitle}</p>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
+      <div className="zku-achievements-toolbar" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
         <div style={{ display: 'flex', gap: 10 }}>
           <div style={{ background: '#fff', borderRadius: 12, padding: '10px 18px', border: `1px solid ${BDR}`, textAlign: 'center' }}>
             <div style={{ fontSize: 20, fontWeight: 900, color: G }}>{earned}</div>
@@ -125,13 +125,13 @@ export default function AchievementsPage() {
           </div>
         </div>
 
-        <div style={{ display: 'flex', gap: 3, background: '#fff', borderRadius: 10, padding: 3, border: `1px solid ${BDR}` }}>
+        <div className="zku-period-tabs" style={{ display: 'flex', gap: 3, background: '#fff', borderRadius: 10, padding: 3, border: `1px solid ${BDR}` }}>
           {(['all', 'unlocked'] as const).map(f => (
-            <button key={f} onClick={() => setFilter(f)} style={{
-              padding: '7px 14px', borderRadius: 8, border: 'none', cursor: 'pointer',
+            <button key={f} type="button" onClick={() => setFilter(f)} style={{
+              padding: '10px 14px', borderRadius: 8, border: 'none', cursor: 'pointer',
               background: filter === f ? N : 'transparent',
               color: filter === f ? '#fff' : MUT,
-              fontSize: 11, fontWeight: 700, fontFamily: 'inherit',
+              fontSize: 11, fontWeight: 700, fontFamily: 'inherit', minHeight: 40, flexShrink: 0,
             }}>
               {f === 'all' ? t.achievements.all : t.achievements.unlocked_only}
             </button>
@@ -146,7 +146,7 @@ export default function AchievementsPage() {
           <div style={{ fontSize: 12, color: MUT }}>{t.achievements.empty_sub}</div>
         </div>
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(190px, 1fr))', gap: 10 }}>
+        <div className="zku-cards-min" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 160px), 1fr))', gap: 10 }}>
           {displayed.map(a => {
             const { earned: isEarned, current } = getProgress(a)
             const pct = a.target > 1 ? Math.round((current / a.target) * 100) : (isEarned ? 100 : 0)

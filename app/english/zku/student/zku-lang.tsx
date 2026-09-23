@@ -12,6 +12,7 @@ export const ZKU_T = {
       writing: 'Writing Coach', certs: 'Сертификаты',
       leaderboard: 'Рейтинг', achievements: 'Достижения',
       literature: 'Литература',
+      more: 'Ещё',
     },
     literature: {
       title: 'Список литературы',
@@ -28,6 +29,7 @@ export const ZKU_T = {
     user: {
       profile: 'Мой профиль', certs: 'Сертификаты',
       achievements: 'Достижения', settings: 'Настройки', logout: 'Выйти из аккаунта',
+      language: 'Язык интерфейса',
     },
     dash: {
       cabinet: 'КАБИНЕТ СТУДЕНТА', subtitle: 'Сегодня отличный день, чтобы выучить что-то новое',
@@ -404,6 +406,7 @@ export const ZKU_T = {
       writing: 'Writing Coach', certs: 'Сертификаттар',
       leaderboard: 'Рейтинг', achievements: 'Жетістіктер',
       literature: 'Әдебиет',
+      more: 'Тағы',
     },
     literature: {
       title: 'Әдебиет тізімі',
@@ -420,6 +423,7 @@ export const ZKU_T = {
     user: {
       profile: 'Менің профилім', certs: 'Сертификаттар',
       achievements: 'Жетістіктер', settings: 'Параметрлер', logout: 'Шығу',
+      language: 'Интерфейс тілі',
     },
     dash: {
       cabinet: 'СТУДЕНТ КАБИНЕТІ', subtitle: 'Бүгін жаңа нәрсе үйренуге тамаша күн',
@@ -787,6 +791,7 @@ export const ZKU_T = {
       writing: 'Writing Coach', certs: 'Certificates',
       leaderboard: 'Leaderboard', achievements: 'Achievements',
       literature: 'Reading list',
+      more: 'More',
     },
     literature: {
       title: 'Reading list',
@@ -803,6 +808,7 @@ export const ZKU_T = {
     user: {
       profile: 'My Profile', certs: 'Certificates',
       achievements: 'Achievements', settings: 'Settings', logout: 'Sign out',
+      language: 'Interface language',
     },
     dash: {
       cabinet: 'STUDENT DASHBOARD', subtitle: 'Today is a great day to learn something new',
@@ -1192,24 +1198,49 @@ export function ZkuLangProvider({ children }: { children: ReactNode }) {
 
 export function useZkuLang() { return useContext(ZkuLangCtx) }
 
-export function ZkuLangSwitcher() {
+export function ZkuLangSwitcher({ variant = 'dark' }: { variant?: 'dark' | 'light' }) {
   const { lang, setLang } = useZkuLang()
+  const isLight = variant === 'light'
+
   return (
-    <div style={{
-      display: 'flex', gap: 2,
-      background: 'rgba(255,255,255,0.08)',
-      border: '1px solid rgba(255,255,255,0.12)',
-      borderRadius: 10, padding: 3,
-    }}>
+    <div
+      className={`zku-lang-switcher${isLight ? ' zku-lang-switcher--light' : ''}`}
+      style={{
+        display: 'flex', gap: 2,
+        background: isLight ? '#F1F5F9' : 'rgba(255,255,255,0.08)',
+        border: isLight ? '1px solid #E2E8F0' : '1px solid rgba(255,255,255,0.12)',
+        borderRadius: isLight ? 12 : 10,
+        padding: isLight ? 4 : 3,
+        width: isLight ? '100%' : undefined,
+      }}
+    >
       {(['ru', 'kz', 'en'] as ZkuLang[]).map(l => (
-        <button key={l} onClick={() => setLang(l)} style={{
-          padding: '5px 11px', borderRadius: 7, border: 'none',
-          cursor: 'pointer', fontFamily: 'inherit',
-          fontSize: 11, fontWeight: 800, letterSpacing: '0.04em',
-          background: lang === l ? '#fff' : 'transparent',
-          color: lang === l ? '#003876' : 'rgba(255,255,255,0.5)',
-          transition: 'all 0.15s',
-        }}>
+        <button
+          key={l}
+          type="button"
+          className="zku-lang-btn"
+          onClick={() => setLang(l)}
+          style={{
+            flex: isLight ? 1 : undefined,
+            padding: isLight ? '10px 8px' : '5px 11px',
+            borderRadius: isLight ? 9 : 7,
+            border: 'none',
+            cursor: 'pointer',
+            fontFamily: 'inherit',
+            fontSize: isLight ? 12 : 11,
+            fontWeight: 800,
+            letterSpacing: '0.04em',
+            background: lang === l
+              ? (isLight ? '#003876' : '#fff')
+              : 'transparent',
+            color: lang === l
+              ? (isLight ? '#fff' : '#003876')
+              : (isLight ? '#64748B' : 'rgba(255,255,255,0.5)'),
+            transition: 'all 0.15s',
+            minHeight: isLight ? 40 : 28,
+            boxShadow: lang === l && isLight ? '0 2px 8px rgba(0,56,118,0.2)' : undefined,
+          }}
+        >
           {l === 'ru' ? 'РУС' : l === 'kz' ? 'ҚАЗ' : 'ENG'}
         </button>
       ))}

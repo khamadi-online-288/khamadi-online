@@ -1,18 +1,27 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { translations, type Lang } from '@/lib/english/zkuTranslations'
+import { isZkuAppShell } from '@/lib/english/useZkuAppShell'
 
 export default function ZKULandingPage() {
+  const router = useRouter()
   const [lang, setLang] = useState<Lang>('ru')
   const t = translations[lang]
 
+  useEffect(() => {
+    if (isZkuAppShell()) {
+      router.replace('/english/zku/login')
+    }
+  }, [router])
+
   return (
-    <div style={{ fontFamily: "'Montserrat', sans-serif", minHeight: '100vh', background: '#F4F7FB', color: '#1F2937', margin: 0, padding: 0 }}>
+    <div className="zku-full-h" style={{ fontFamily: "'Montserrat', sans-serif", minHeight: '100vh', background: '#F4F7FB', color: '#1F2937', margin: 0, padding: 0 }}>
 
       {/* ══════════════════════════════ HEADER ══════════════════════════════ */}
-      <header style={{
+      <header className="zku-landing-header" style={{
         position: 'sticky', top: 0, zIndex: 100,
         background: 'rgba(255,255,255,0.97)',
         backdropFilter: 'blur(12px)',
@@ -25,7 +34,7 @@ export default function ZKULandingPage() {
         gap: 32,
       }}>
         {/* Logo */}
-        <Link href="/english/zku" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none' }}>
+        <Link href="/english/zku" style={{ display: 'flex', alignItems: 'center', gap: 12, textDecoration: 'none', minHeight: 44 }}>
           <div style={{
             width: 42, height: 42, borderRadius: 11,
             background: 'linear-gradient(135deg, #003876 0%, #0055a4 100%)',
@@ -33,7 +42,7 @@ export default function ZKULandingPage() {
             color: '#fff', fontWeight: 900, fontSize: 11, letterSpacing: '-0.5px',
             boxShadow: '0 4px 12px rgba(0,56,118,0.3)',
           }}>{lang === 'ru' ? 'ЗКУ' : lang === 'kz' ? 'БҚУ' : 'WKU'}</div>
-          <div>
+          <div className="zku-landing-brand-text">
             <div style={{ fontWeight: 800, fontSize: 14, color: '#003876', lineHeight: 1.15 }}>
               {lang === 'ru' ? 'ЗКУ им. М. Утемісова' : lang === 'kz' ? 'МӨ атындағы БҚУ' : 'WKU · English'}
             </div>
@@ -42,7 +51,7 @@ export default function ZKULandingPage() {
         </Link>
 
         {/* Nav links */}
-        <nav style={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+        <nav className="zku-landing-mid-nav" style={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           {[t.nav_about, t.nav_program, t.nav_teachers, t.nav_contacts].map((item) => (
             <a key={item} href="#" style={{
               padding: '7px 15px', borderRadius: 8,
@@ -62,9 +71,9 @@ export default function ZKULandingPage() {
           {/* Lang toggle */}
           <div style={{ display: 'flex', background: 'rgba(0,56,118,0.06)', borderRadius: 8, padding: 3, gap: 2 }}>
             {(['ru', 'kz', 'en'] as Lang[]).map(l => (
-              <button key={l} onClick={() => setLang(l)} style={{
-                padding: '5px 12px', borderRadius: 6, fontSize: 12, fontWeight: 700,
-                cursor: 'pointer', border: 'none', transition: 'all 0.15s',
+              <button key={l} type="button" onClick={() => setLang(l)} style={{
+                padding: '8px 12px', borderRadius: 6, fontSize: 12, fontWeight: 700,
+                cursor: 'pointer', border: 'none', transition: 'all 0.15s', minHeight: 36,
                 background: lang === l ? '#003876' : 'transparent',
                 color: lang === l ? '#fff' : '#64748B',
                 boxShadow: lang === l ? '0 2px 6px rgba(0,56,118,0.25)' : 'none',
@@ -75,22 +84,24 @@ export default function ZKULandingPage() {
           </div>
 
           <Link href="/english/zku/login" style={{
-            padding: '8px 20px', borderRadius: 8, fontSize: 13, fontWeight: 700,
+            padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 700,
             color: '#003876', textDecoration: 'none',
             border: '1.5px solid rgba(0,56,118,0.2)',
+            minHeight: 44, display: 'inline-flex', alignItems: 'center',
           }}>{t.btn_login}</Link>
 
-          <Link href="/english/zku/register" style={{
-            padding: '8px 20px', borderRadius: 8, fontSize: 13, fontWeight: 700,
+          <Link href="/english/zku/register" className="zku-landing-register" style={{
+            padding: '10px 18px', borderRadius: 8, fontSize: 13, fontWeight: 700,
             color: '#fff', textDecoration: 'none',
             background: 'linear-gradient(135deg, #003876 0%, #0055a4 100%)',
             boxShadow: '0 4px 12px rgba(0,56,118,0.3)',
+            minHeight: 44, display: 'inline-flex', alignItems: 'center',
           }}>{t.btn_register}</Link>
         </div>
       </header>
 
       {/* ══════════════════════════════ HERO ══════════════════════════════ */}
-      <section style={{
+      <section className="zku-landing-hero" style={{
         background: 'linear-gradient(155deg, #001d45 0%, #003876 45%, #004fa0 100%)',
         padding: '96px 48px 80px',
         position: 'relative',
@@ -182,7 +193,7 @@ export default function ZKULandingPage() {
       </section>
 
       {/* ══════════════════════════════ FEATURES ══════════════════════════════ */}
-      <section style={{ padding: '80px 48px', maxWidth: 1140, margin: '0 auto' }}>
+      <section className="zku-landing-section" style={{ padding: '80px 48px', maxWidth: 1140, margin: '0 auto' }}>
         <div style={{ textAlign: 'center', marginBottom: 52 }}>
           <h2 style={{ fontSize: 32, fontWeight: 900, color: '#003876', marginBottom: 12 }}>{t.features_h}</h2>
           <p style={{ fontSize: 16, color: '#64748B', maxWidth: 500, margin: '0 auto' }}>
@@ -226,7 +237,7 @@ export default function ZKULandingPage() {
       </section>
 
       {/* ══════════════════════════════ HOW IT WORKS ══════════════════════════════ */}
-      <section style={{ background: '#fff', padding: '80px 48px' }}>
+      <section className="zku-landing-section" style={{ background: '#fff', padding: '80px 48px' }}>
         <div style={{ maxWidth: 860, margin: '0 auto' }}>
           <div style={{ textAlign: 'center', marginBottom: 60 }}>
             <h2 style={{ fontSize: 32, fontWeight: 900, color: '#003876', marginBottom: 12 }}>{t.how_h}</h2>
@@ -260,8 +271,8 @@ export default function ZKULandingPage() {
       </section>
 
       {/* ══════════════════════════════ CTA ══════════════════════════════ */}
-      <section style={{ padding: '80px 48px' }}>
-        <div style={{
+      <section className="zku-landing-section" style={{ padding: '80px 48px' }}>
+        <div className="zku-landing-cta-inner" style={{
           maxWidth: 820, margin: '0 auto',
           background: 'linear-gradient(135deg, #001d45 0%, #003876 60%, #0050a0 100%)',
           borderRadius: 28, padding: '64px 56px',
@@ -307,7 +318,7 @@ export default function ZKULandingPage() {
       </section>
 
       {/* ══════════════════════════════ FOOTER ══════════════════════════════ */}
-      <footer style={{
+      <footer className="zku-landing-footer" style={{
         borderTop: '1px solid rgba(0,56,118,0.1)',
         padding: '32px 48px',
         display: 'flex', alignItems: 'center', justifyContent: 'space-between',

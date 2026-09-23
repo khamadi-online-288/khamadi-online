@@ -79,8 +79,8 @@ export default function ProgressPage() {
   ] as [string, number][]
 
   return (
-    <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
-    <div style={{ padding: '28px 32px 56px', maxWidth: 1000, margin: '0 auto' }}>
+    <div className="zku-full-h" style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px 56px', maxWidth: 1000, margin: '0 auto' }}>
 
       <div style={{ marginBottom: 28 }}>
         <h1 style={{ fontSize: 26, fontWeight: 900, color: N, marginBottom: 5 }}>{t.progress.title}</h1>
@@ -88,7 +88,7 @@ export default function ProgressPage() {
       </div>
 
       {/* Stats */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 16 }}>
+      <div className="zku-stats-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 16 }}>
         {STATS.map(s => (
           <div key={s.label} style={{
             background: '#fff', borderRadius: 14, padding: '18px 16px', textAlign: 'center',

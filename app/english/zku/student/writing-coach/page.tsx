@@ -84,7 +84,7 @@ export default function WritingCoachPage() {
   const allZeroSkills = totalWorks === 0
 
   return (
-    <div style={{ padding: '28px 32px', maxWidth: 1000, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px', maxWidth: 1000, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
 
       {/* Header */}
       <div style={{ marginBottom: 28 }}>
@@ -95,7 +95,7 @@ export default function WritingCoachPage() {
       {/* ── Section 1: Types ── */}
       <section style={{ marginBottom: 36 }}>
         <h2 style={{ fontSize: 16, fontWeight: 800, color: NAVY, marginBottom: 16 }}>{t.writing.types_title}</h2>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 16 }}>
+        <div className="zku-cards-min" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: 16 }}>
           {WRITING_TYPES.map(type => (
             <div key={type.id} style={{
               background: '#fff', borderRadius: 18, padding: '22px 20px',
@@ -139,7 +139,7 @@ export default function WritingCoachPage() {
             <p style={{ fontSize: 13, color: MUTED }}>{t.writing.no_works_sub}</p>
           </div>
         ) : (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 14 }}>
+          <div className="zku-cards-min" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: 14 }}>
             {works.map(w => {
               const typeKey = w.lesson_id.split('-')[1] ?? 'essay'
               const typeColor: Record<string, string> = { email:'#1B8FC4', essay:'#534AB7', letter:'#1D9E75', story:'#EF9F27', review:'#D85A30', description:'#0F766E' }
