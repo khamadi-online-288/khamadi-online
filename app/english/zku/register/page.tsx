@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuAppShell } from '@/lib/english/useZkuAppShell'
 
 type Lang = 'ru' | 'kz' | 'en'
 type Role = 'student' | 'teacher'
@@ -122,6 +123,7 @@ const T = {
 const LANG_BTN: Record<Lang, string> = { ru: 'РУС', kz: 'ҚАЗ', en: 'ENG' }
 
 export default function ZKURegisterPage() {
+  const isApp = useZkuAppShell()
   const [lang, setLang]         = useState<Lang>('ru')
   const [role, setRole]         = useState<Role>('student')
   const [name, setName]         = useState('')
@@ -206,9 +208,17 @@ export default function ZKURegisterPage() {
   }
 
   return (
-    <div style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat', sans-serif" }}>
+    <div className="zku-auth zku-full-h" style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat', sans-serif" }}>
 
-      <div style={{ width:'42%', minWidth:340, background:'linear-gradient(155deg, #001d45 0%, #003876 50%, #004fa0 100%)', display:'flex', flexDirection:'column', justifyContent:'space-between', padding:'48px 52px', position:'relative', overflow:'hidden' }}>
+      <div className="zku-auth-mobile-brand">
+        <div style={{ width:40, height:40, borderRadius:10, background:'rgba(255,255,255,0.15)', border:'1.5px solid rgba(255,255,255,0.25)', display:'flex', alignItems:'center', justifyContent:'center', color:'#fff', fontWeight:900, fontSize:12 }}>{brand.logo}</div>
+        <div>
+          <div style={{ color:'#fff', fontWeight:800, fontSize:13, lineHeight:1.15 }}>{brand.name}</div>
+          <div style={{ color:'rgba(255,255,255,0.5)', fontSize:11 }}>{brand.sub}</div>
+        </div>
+      </div>
+
+      <div className="zku-auth-brand" style={{ width:'42%', minWidth:340, background:'linear-gradient(155deg, #001d45 0%, #003876 50%, #004fa0 100%)', display:'flex', flexDirection:'column', justifyContent:'space-between', padding:'48px 52px', position:'relative', overflow:'hidden' }}>
         <div style={{ position:'absolute', top:-80, right:-80, width:300, height:300, borderRadius:'50%', background:'rgba(255,194,44,0.07)', pointerEvents:'none' }} />
         <div style={{ position:'absolute', bottom:-60, left:-40, width:220, height:220, borderRadius:'50%', background:'rgba(255,255,255,0.04)', pointerEvents:'none' }} />
 
@@ -236,39 +246,41 @@ export default function ZKURegisterPage() {
         <div style={{ color:'rgba(255,255,255,0.35)', fontSize:12, position:'relative' }}>Powered by KHAMADI English</div>
       </div>
 
-      <div style={{ flex:1, background:'#F4F7FB', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 32px', overflowY:'auto' }}>
-        <div style={{ width:'100%', maxWidth:440, display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:28 }}>
-          <Link href="/english/zku" style={{ fontSize:13, color:'#64748B', textDecoration:'none', fontWeight:600 }}>← {t.back}</Link>
+      <div className="zku-auth-form" style={{ flex:1, background:'#F4F7FB', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 32px', overflowY:'auto' }}>
+        <div className="zku-auth-topbar" style={{ width:'100%', maxWidth:440, display:'flex', alignItems:'center', justifyContent: isApp ? 'flex-end' : 'space-between', marginBottom:28 }}>
+          {!isApp && (
+            <Link href="/english/zku" style={{ fontSize:13, color:'#64748B', textDecoration:'none', fontWeight:600, minHeight:44, display:'inline-flex', alignItems:'center' }}>← {t.back}</Link>
+          )}
           <div style={{ display:'flex', background:'rgba(0,56,118,0.07)', borderRadius:8, padding:3, gap:2 }}>
             {(['ru','kz','en'] as Lang[]).map(l => (
-              <button key={l} onClick={() => setLang(l)} style={{ padding:'5px 10px', borderRadius:6, fontSize:11, fontWeight:700, cursor:'pointer', border:'none', transition:'all 0.15s', background: lang===l ? '#003876' : 'transparent', color: lang===l ? '#fff' : '#64748B', boxShadow: lang===l ? '0 2px 8px rgba(0,56,118,0.25)' : 'none' }}>{LANG_BTN[l]}</button>
+              <button key={l} type="button" onClick={() => setLang(l)} style={{ padding:'8px 10px', borderRadius:6, fontSize:11, fontWeight:700, cursor:'pointer', border:'none', transition:'all 0.15s', minHeight:36, background: lang===l ? '#003876' : 'transparent', color: lang===l ? '#fff' : '#64748B', boxShadow: lang===l ? '0 2px 8px rgba(0,56,118,0.25)' : 'none' }}>{LANG_BTN[l]}</button>
             ))}
           </div>
         </div>
 
         {gate === 'loading' ? (
-          <div style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'52px 40px', textAlign:'center', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)', color:'#64748B', fontWeight:600 }}>
+          <div className="zku-auth-card" style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'52px 40px', textAlign:'center', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)', color:'#64748B', fontWeight:600 }}>
             …
           </div>
         ) : gate === 'closed' ? (
-          <div style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'52px 40px', textAlign:'center', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
+          <div className="zku-auth-card" style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'52px 40px', textAlign:'center', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
             <div style={{ fontSize:48, marginBottom:16 }}>🔒</div>
             <h2 style={{ fontSize:22, fontWeight:900, color:'#003876', marginBottom:12 }}>{t.closed_h}</h2>
             <p style={{ fontSize:14, color:'#64748B', lineHeight:1.65, marginBottom:28 }}>{t.closed_sub}</p>
-            <Link href="/english/zku/login" style={{ display:'inline-block', padding:'13px 32px', borderRadius:10, background:'linear-gradient(135deg, #003876, #0055a4)', color:'#fff', fontWeight:800, fontSize:14, textDecoration:'none', boxShadow:'0 6px 20px rgba(0,56,118,0.3)' }}>{t.closed_login}</Link>
+            <Link href="/english/zku/login" className="zku-auth-submit" style={{ display:'inline-flex', alignItems:'center', justifyContent:'center', minHeight:48, padding:'13px 32px', borderRadius:10, background:'linear-gradient(135deg, #003876, #0055a4)', color:'#fff', fontWeight:800, fontSize:14, textDecoration:'none', boxShadow:'0 6px 20px rgba(0,56,118,0.3)' }}>{t.closed_login}</Link>
           </div>
         ) : done ? (
-          <div style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'52px 40px', textAlign:'center', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
+          <div className="zku-auth-card" style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'52px 40px', textAlign:'center', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
             <div style={{ fontSize:56, marginBottom:20 }}>🎉</div>
             <h2 style={{ fontSize:22, fontWeight:900, color:'#003876', marginBottom:12 }}>{t.success_h}</h2>
             <p style={{ fontSize:14, color:'#64748B', lineHeight:1.65, marginBottom:28 }}>{t.success_sub}</p>
             <div style={{ display:'flex', flexDirection:'column', gap:10 }}>
-              <button type="button" onClick={resetForm} style={{ padding:'13px 32px', borderRadius:10, border:'none', background:'linear-gradient(135deg, #003876, #0055a4)', color:'#fff', fontWeight:800, fontSize:14, cursor:'pointer', fontFamily:'inherit', boxShadow:'0 6px 20px rgba(0,56,118,0.3)' }}>{t.success_btn}</button>
+              <button type="button" onClick={resetForm} className="zku-auth-submit" style={{ padding:'13px 32px', borderRadius:10, border:'none', background:'linear-gradient(135deg, #003876, #0055a4)', color:'#fff', fontWeight:800, fontSize:14, cursor:'pointer', fontFamily:'inherit', boxShadow:'0 6px 20px rgba(0,56,118,0.3)', minHeight:48 }}>{t.success_btn}</button>
               <Link href="/english/zku/login" style={{ fontSize:13, color:'#64748B', fontWeight:600, textDecoration:'none' }}>{t.success_login}</Link>
             </div>
           </div>
         ) : (
-          <div style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'36px 32px', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
+          <div className="zku-auth-card" style={{ width:'100%', maxWidth:440, background:'#fff', borderRadius:20, padding:'36px 32px', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
             <div style={{ textAlign:'center', marginBottom:24 }}>
               <div style={{ width:52, height:52, borderRadius:14, margin:'0 auto 12px', background:'linear-gradient(135deg, #003876, #0055a4)', display:'flex', alignItems:'center', justifyContent:'center', color:'#fff', fontWeight:900, fontSize:13, boxShadow:'0 6px 20px rgba(0,56,118,0.3)' }}>{brand.logo}</div>
               <div style={{ display:'inline-block', marginBottom:10, padding:'4px 10px', borderRadius:99, background:'#EDE9FE', color:'#7C3AED', fontSize:11, fontWeight:800 }}>{t.admin_badge}</div>
@@ -281,7 +293,7 @@ export default function ZKURegisterPage() {
                 <label style={{ display:'block', fontSize:11, fontWeight:700, color:'#64748B', textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:7 }}>{t.role_label}</label>
                 <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8 }}>
                   {(['student','teacher'] as Role[]).map(r => (
-                    <button key={r} type="button" onClick={() => setRole(r)} style={{ padding:'10px', borderRadius:10, fontSize:13, fontWeight:700, cursor:'pointer', border:'none', transition:'all 0.15s', fontFamily:'inherit', background: role===r ? 'linear-gradient(135deg, #003876, #0055a4)' : 'rgba(0,56,118,0.05)', color: role===r ? '#fff' : '#64748B', boxShadow: role===r ? '0 4px 12px rgba(0,56,118,0.25)' : 'none' }}>
+                    <button key={r} type="button" onClick={() => setRole(r)} style={{ padding:'12px 10px', borderRadius:10, fontSize:13, fontWeight:700, cursor:'pointer', border:'none', transition:'all 0.15s', fontFamily:'inherit', minHeight:44, background: role===r ? 'linear-gradient(135deg, #003876, #0055a4)' : 'rgba(0,56,118,0.05)', color: role===r ? '#fff' : '#64748B', boxShadow: role===r ? '0 4px 12px rgba(0,56,118,0.25)' : 'none' }}>
                       {r==='student' ? t.role_student : t.role_teacher}
                     </button>
                   ))}
@@ -289,15 +301,17 @@ export default function ZKURegisterPage() {
               </div>
 
               {[
-                { label: t.name_label, type:'text', value:name, set:setName, ph:t.name_ph },
-                { label: t.email_label, type:'email', value:email, set:setEmail, ph:t.email_ph },
-                { label: t.pass_label, type:'password', value:password, set:setPassword, ph:t.pass_ph },
+                { label: t.name_label, type:'text', value:name, set:setName, ph:t.name_ph, autoComplete: 'name' },
+                { label: t.email_label, type:'email', value:email, set:setEmail, ph:t.email_ph, autoComplete: 'email' },
+                { label: t.pass_label, type:'password', value:password, set:setPassword, ph:t.pass_ph, autoComplete: 'new-password' },
               ].map(f => (
                 <div key={f.label}>
                   <label style={{ display:'block', fontSize:11, fontWeight:700, color:'#64748B', textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:7 }}>{f.label}</label>
                   <input type={f.type} value={f.value} placeholder={f.ph}
+                    className="zku-input-16"
+                    autoComplete={f.autoComplete}
                     onChange={e => { f.set(e.target.value); setError('') }}
-                    style={{ width:'100%', padding:'11px 14px', borderRadius:10, border:'1.5px solid rgba(0,56,118,0.15)', fontSize:14, outline:'none', boxSizing:'border-box', background:'#F8FAFC', fontFamily:'inherit', transition:'border-color 0.15s' }}
+                    style={{ width:'100%', padding:'12px 14px', borderRadius:10, border:'1.5px solid rgba(0,56,118,0.15)', fontSize:14, outline:'none', boxSizing:'border-box', background:'#F8FAFC', fontFamily:'inherit', transition:'border-color 0.15s', minHeight:48 }}
                     onFocus={e => { e.currentTarget.style.borderColor='#003876'; e.currentTarget.style.background='#fff' }}
                     onBlur={e => { e.currentTarget.style.borderColor='rgba(0,56,118,0.15)'; e.currentTarget.style.background='#F8FAFC' }} />
                 </div>
@@ -305,7 +319,7 @@ export default function ZKURegisterPage() {
 
               {error && <div style={{ padding:'10px 14px', borderRadius:8, background:'rgba(220,38,38,0.06)', border:'1px solid rgba(220,38,38,0.2)', color:'#DC2626', fontSize:13, fontWeight:500 }}>⚠ {error}</div>}
 
-              <button type="submit" disabled={loading} style={{ width:'100%', padding:'13px', borderRadius:10, border:'none', cursor:loading?'not-allowed':'pointer', background:loading?'#94A3B8':'linear-gradient(135deg, #003876 0%, #0055a4 100%)', color:'#fff', fontSize:14, fontWeight:800, boxShadow:loading?'none':'0 6px 20px rgba(0,56,118,0.3)', transition:'all 0.15s', fontFamily:'inherit' }}>
+              <button type="submit" disabled={loading} className="zku-auth-submit" style={{ width:'100%', padding:'13px', borderRadius:10, border:'none', cursor:loading?'not-allowed':'pointer', background:loading?'#94A3B8':'linear-gradient(135deg, #003876 0%, #0055a4 100%)', color:'#fff', fontSize:14, fontWeight:800, boxShadow:loading?'none':'0 6px 20px rgba(0,56,118,0.3)', transition:'all 0.15s', fontFamily:'inherit', minHeight:48 }}>
                 {loading ? t.loading : t.btn}
               </button>
             </form>

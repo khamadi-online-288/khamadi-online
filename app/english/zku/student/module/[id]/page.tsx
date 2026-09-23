@@ -368,12 +368,16 @@ export default function ModulePage() {
   return (
     <div style={{ minHeight: '100vh', background: BG, fontFamily: "'Montserrat', sans-serif" }}>
 
-      {/* ── Sticky top bar ── */}
-      <div style={{
+      {/* ── Top bar ── */}
+      <div className="zku-module-bar" style={{
         background: '#fff', borderBottom: `1px solid ${BDR}`,
-        padding: '0 32px', position: 'sticky', top: 0, zIndex: 20,
+        padding: '0 32px',
       }}>
-        <div style={{ maxWidth: 1200, margin: '0 auto', display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 56 }}>
+        <div className="zku-module-bar-inner" style={{
+          maxWidth: 1200, margin: '0 auto',
+          display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+          gap: 20, height: 56,
+        }}>
           {(() => {
             const isA11 = id.startsWith('m-a11-')
             const isA2  = id.startsWith('m-a2-')
@@ -383,34 +387,45 @@ export default function ModulePage() {
             const levelSlug = isA11 ? 'a11' : isA2 ? 'a2' : isB1 ? 'b1' : isB2 ? 'b2' : isC1 ? 'c1' : 'a1'
             const levelLabel = isA11 ? 'A1.1' : isA2 ? 'A2' : isB1 ? 'B1' : isB2 ? 'B2' : isC1 ? 'C1' : 'A1'
             return (
-              <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-                <Link href={`/english/zku/student/course/${levelSlug}`} style={{ fontSize: 12, fontWeight: 600, color: MU, textDecoration: 'none' }}>
+              <div className="zku-module-bar-nav" style={{
+                display: 'flex', alignItems: 'center', gap: 10, minWidth: 0, flex: 1,
+              }}>
+                <Link href={`/english/zku/student/course/${levelSlug}`} style={{
+                  fontSize: 12, fontWeight: 600, color: MU, textDecoration: 'none', flexShrink: 0,
+                }}>
                   {t.module.back_course} {levelLabel}
                 </Link>
-                <span style={{ color: '#E2E8F0' }}>|</span>
-                <span style={{ fontSize: 12, fontWeight: 700, color: N }}>{t.module.module_label} {mod.order_num} · {mod.title}</span>
+                <span className="zku-module-bar-sep" style={{ color: '#E2E8F0', flexShrink: 0 }}>|</span>
+                <span style={{
+                  fontSize: 12, fontWeight: 700, color: N,
+                  overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                }}>
+                  {t.module.module_label} {mod.order_num} · {mod.title}
+                </span>
               </div>
             )
           })()}
-          <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
-            <div style={{ fontSize: 11, color: MU }}>
+          <div className="zku-module-bar-progress" style={{
+            display: 'flex', alignItems: 'center', gap: 12, flexShrink: 0,
+          }}>
+            <span style={{ fontSize: 11, color: MU, whiteSpace: 'nowrap' }}>
               {doneCount}/{lessons.length} {t.module.lessons_word}
-            </div>
-            <div style={{ width: 100, height: 6, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden' }}>
+            </span>
+            <div className="zku-module-bar-track" style={{ width: 100, height: 6, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden' }}>
               <div style={{ height: '100%', width: `${pct}%`, background: N, borderRadius: 99 }} />
             </div>
-            <span style={{ fontSize: 11, fontWeight: 700, color: N }}>{pct}%</span>
+            <span style={{ fontSize: 11, fontWeight: 700, color: N, minWidth: 28, textAlign: 'right' }}>{pct}%</span>
           </div>
         </div>
       </div>
 
       {/* ── Body ── */}
-      <div style={{ maxWidth: 1200, margin: '0 auto', padding: '28px 32px 56px', display: 'grid', gridTemplateColumns: '1fr 360px', gap: 24 }}>
+      <div className="zku-page zku-module-layout" style={{ maxWidth: 1200, margin: '0 auto', padding: '28px 32px 56px', display: 'grid', gridTemplateColumns: '1fr 360px', gap: 24 }}>
 
         {/* ══ LEFT: Module info ══ */}
         <div>
           {/* Hero card */}
-          <div style={{
+          <div className="zku-module-hero" style={{
             background: `linear-gradient(135deg, ${N} 0%, #0a4fa8 100%)`,
             borderRadius: 22, padding: '32px 36px', marginBottom: 20, color: '#fff',
             position: 'relative', overflow: 'hidden',
@@ -640,7 +655,7 @@ export default function ModulePage() {
 
         {/* ══ RIGHT: Lesson navigator ══ */}
         <div>
-          <div style={{ position: 'sticky', top: 76 }}>
+          <div style={{ position: 'sticky', top: 'calc(var(--zku-header-h, 98px) + 12px)' }}>
 
             {/* ── Section 1: COMPLETED ── */}
             <div style={{ background: '#fff', borderRadius: 18, padding: '18px 16px', marginBottom: 12, border: `1px solid ${BDR}`, boxShadow: '0 2px 8px rgba(0,56,118,0.05)' }}>

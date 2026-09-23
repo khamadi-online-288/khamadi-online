@@ -1,0 +1,910 @@
+/**
+ * ZKU mobile responsive utilities (RN WebView + phones).
+ * Breakpoint: max-width 768px.
+ * Prefer these classes on shells/grids; avoid rewriting giant page files.
+ */
+
+:root {
+  --zku-mobile-bp: 768px;
+  --zku-safe-top: env(safe-area-inset-top, 0px);
+  --zku-safe-right: env(safe-area-inset-right, 0px);
+  --zku-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --zku-safe-left: env(safe-area-inset-left, 0px);
+}
+
+/* ── Shell: no page-level horizontal scroll ─────────────────────── */
+.zku-shell {
+  /* Do not set overflow-x here — it breaks position:sticky/fixed descendants. */
+  min-height: 100dvh;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+/* Prefer clip over scrollbars on the document while ZKU is mounted */
+html:has(.zku-shell),
+body:has(.zku-shell) {
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+/* ── Visibility toggles ─────────────────────────────────────────── */
+.zku-show-mobile,
+.zku-show-mobile-flex {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .zku-hide-mobile {
+    display: none !important;
+  }
+
+  .zku-show-mobile {
+    display: block !important;
+  }
+
+  .zku-show-mobile-flex {
+    display: flex !important;
+  }
+}
+
+/* ── Stack grids to one column on mobile ────────────────────────── */
+@media (max-width: 768px) {
+  .zku-stack {
+    grid-template-columns: 1fr !important;
+  }
+
+  .zku-stack-2 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .zku-flex-col {
+    flex-direction: column !important;
+  }
+}
+
+/* ── Padding scale-down ─────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .zku-pad {
+    padding: 16px !important;
+  }
+
+  .zku-pad-x {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .zku-pad-y {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+}
+
+/* ── Tables / wide content: scroll inside, not the page ─────────── */
+.zku-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  max-width: 100%;
+}
+
+/* ── Safe-area helpers (header / bottom tabs) ───────────────────── */
+.zku-safe-top {
+  padding-top: var(--zku-safe-top);
+}
+
+.zku-safe-bottom {
+  padding-bottom: var(--zku-safe-bottom);
+}
+
+.zku-safe-x {
+  padding-left: var(--zku-safe-left);
+  padding-right: var(--zku-safe-right);
+}
+
+.zku-safe-all {
+  padding-top: var(--zku-safe-top);
+  padding-right: var(--zku-safe-right);
+  padding-bottom: var(--zku-safe-bottom);
+  padding-left: var(--zku-safe-left);
+}
+
+/* Sticky header: inset without collapsing content */
+.zku-header-safe {
+  padding-top: max(12px, var(--zku-safe-top));
+  padding-left: max(12px, var(--zku-safe-left));
+  padding-right: max(12px, var(--zku-safe-right));
+}
+
+/* Bottom tab bar: home indicator clearance */
+.zku-bottom-nav-safe {
+  padding-bottom: max(8px, var(--zku-safe-bottom));
+  padding-left: var(--zku-safe-left);
+  padding-right: var(--zku-safe-right);
+}
+
+/* Main content offset when bottom tabs are present (set --zku-bottom-nav-h in Phase 1) */
+.zku-main-with-tabs {
+  padding-bottom: calc(var(--zku-bottom-nav-h, 64px) + var(--zku-safe-bottom));
+}
+
+/* ── Touch-friendly minimum targets (opt-in) ────────────────────── */
+@media (max-width: 768px) {
+  .zku-touch {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .zku-touch-tap {
+    min-height: 44px;
+  }
+
+  /* iOS anti-zoom — opt-in on auth forms (Phase 1) */
+  .zku-input-16 {
+    font-size: max(16px, 1em) !important;
+  }
+}
+
+/* ── Full-height shells: prefer dynamic viewport ────────────────── */
+.zku-full-h {
+  min-height: 100dvh;
+  min-height: 100vh; /* fallback */
+}
+
+@supports (height: 100dvh) {
+  .zku-full-h {
+    min-height: 100dvh;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   Phase 1 — Auth (login / register)
+   ══════════════════════════════════════════════════════════════════ */
+.zku-auth {
+  min-height: 100dvh;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.zku-auth-brand {
+  width: 42%;
+  min-width: 340px;
+}
+
+.zku-auth-form {
+  flex: 1;
+  min-width: 0;
+}
+
+.zku-auth-mobile-brand {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .zku-auth {
+    flex-direction: column;
+  }
+
+  .zku-auth-brand {
+    display: none !important;
+    min-width: 0 !important;
+    width: auto !important;
+  }
+
+  .zku-auth-mobile-brand {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+    padding: max(16px, var(--zku-safe-top)) 16px 12px;
+    background: linear-gradient(155deg, #001d45 0%, #003876 50%, #004fa0 100%);
+  }
+
+  .zku-auth-form {
+    padding: 16px !important;
+    justify-content: flex-start !important;
+  }
+
+  .zku-auth-card {
+    padding: 24px 18px !important;
+    border-radius: 16px !important;
+    box-shadow: 0 2px 16px rgba(0, 56, 118, 0.08) !important;
+  }
+
+  .zku-auth-topbar {
+    margin-bottom: 20px !important;
+  }
+
+  .zku-auth-submit {
+    min-height: 48px !important;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   Phase 1 — Student shell + bottom tabs
+   ══════════════════════════════════════════════════════════════════ */
+:root {
+  --zku-bottom-nav-h: 56px;
+}
+
+.zku-student-shell {
+  min-height: 100dvh;
+  background: #f0f4fa;
+  font-family: 'Montserrat', sans-serif;
+  --zku-header-h: 104px; /* top row (~65) + desktop nav (~39) */
+}
+
+.zku-student-header {
+  background: #003876;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.18);
+}
+
+.zku-student-shell > main {
+  padding-top: var(--zku-header-h);
+}
+
+.zku-student-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.zku-student-header-actions {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.zku-student-desktop-nav {
+  display: flex;
+  padding: 0 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.zku-student-desktop-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.zku-bottom-tabs {
+  display: none;
+}
+
+.zku-more-sheet-backdrop,
+.zku-more-sheet {
+  display: none;
+}
+
+.zku-user-meta {
+  display: block;
+  text-align: left;
+}
+
+/* Burger hidden on desktop (avatar chip used) */
+.zku-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+  width: 22px;
+  height: 22px;
+}
+
+.zku-burger span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-radius: 2px;
+  background: #fff;
+}
+
+/* Right account drawer */
+.zku-drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(15, 23, 42, 0.45);
+  animation: zkuDrawerFade 0.18s ease;
+}
+
+.zku-drawer-right {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 210;
+  width: min(320px, 88vw);
+  background: #fff;
+  box-shadow: -12px 0 40px rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--zku-safe-top);
+  padding-right: var(--zku-safe-right);
+  animation: zkuDrawerIn 0.22s cubic-bezier(0.32, 0.72, 0, 1);
+  overflow: hidden;
+}
+
+.zku-drawer-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px 12px 14px 20px;
+}
+
+.zku-drawer-close {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  background: #F1F5F9;
+  color: #64748B;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.zku-drawer-close:active {
+  background: #E2E8F0;
+}
+
+.zku-drawer-lang {
+  padding: 0 20px 16px;
+}
+
+.zku-drawer-lang-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+@keyframes zkuDrawerFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zkuDrawerIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@media (max-width: 768px) {
+  /* Native app bar: safe-area (status) + 48px toolbar */
+  .zku-student-shell {
+    --zku-header-h: calc(48px + var(--zku-safe-top));
+  }
+
+  .zku-student-header {
+    box-shadow: none;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.12);
+    /* Fill status-bar zone with brand color (RN / notch) */
+    padding-top: var(--zku-safe-top);
+    background: #003876;
+  }
+
+  .zku-student-header-row {
+    height: 48px;
+    min-height: 48px;
+    max-height: 48px;
+    padding: 0 max(12px, var(--zku-safe-right)) 0 max(14px, var(--zku-safe-left)) !important;
+    border-bottom: none !important;
+    gap: 8px;
+  }
+
+  .zku-student-brand {
+    gap: 8px !important;
+    min-height: 48px !important;
+    min-width: 0;
+    flex: 1;
+  }
+
+  .zku-student-brand-mark {
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 7px !important;
+    font-size: 9px !important;
+  }
+
+  .zku-student-brand-title {
+    font-size: 15px !important;
+    font-weight: 800 !important;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .zku-student-subtitle,
+  .zku-student-desktop-nav {
+    display: none !important;
+  }
+
+  .zku-student-header-actions {
+    gap: 6px !important;
+  }
+
+  /* Compact segmented control — like iOS toolbar chip */
+  .zku-lang-switcher {
+    border-radius: 8px !important;
+    padding: 2px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: transparent !important;
+  }
+
+  .zku-lang-btn {
+    padding: 4px 7px !important;
+    border-radius: 6px !important;
+    font-size: 10px !important;
+    min-height: 26px !important;
+    letter-spacing: 0.02em !important;
+  }
+
+  .zku-user-meta,
+  .zku-user-chevron,
+  .zku-user-avatar {
+    display: none !important;
+  }
+
+  /* Burger trigger on mobile */
+  .zku-burger {
+    display: flex !important;
+  }
+
+  .zku-user-btn {
+    padding: 10px !important;
+    gap: 0 !important;
+    min-height: 40px !important;
+    min-width: 40px !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: none !important;
+    border-radius: 10px !important;
+    justify-content: center;
+  }
+
+  .zku-user-btn[aria-expanded='true'] .zku-burger span:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+  }
+
+  .zku-user-btn[aria-expanded='true'] .zku-burger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .zku-user-btn[aria-expanded='true'] .zku-burger span:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+  }
+
+  .zku-burger span {
+    transition: transform 0.2s ease, opacity 0.15s ease;
+  }
+
+  .zku-main-with-tabs {
+    padding-bottom: calc(var(--zku-bottom-nav-h) + var(--zku-safe-bottom) + 8px);
+  }
+
+  /* Hide tabs on lesson screens (more vertical space) */
+  .zku-student-shell--lesson .zku-bottom-tabs {
+    display: none !important;
+  }
+
+  .zku-student-shell--lesson .zku-main-with-tabs {
+    padding-bottom: max(16px, var(--zku-safe-bottom));
+  }
+
+  .zku-bottom-tabs {
+    display: flex !important;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 120;
+    height: calc(var(--zku-bottom-nav-h) + var(--zku-safe-bottom));
+    padding: 4px var(--zku-safe-right) max(4px, var(--zku-safe-bottom)) var(--zku-safe-left);
+    background: #fff;
+    border-top: 1px solid rgba(0, 56, 118, 0.1);
+    box-shadow: 0 -4px 20px rgba(0, 56, 118, 0.08);
+    align-items: stretch;
+    justify-content: space-around;
+  }
+
+  .zku-bottom-tab {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    min-height: 48px;
+    padding: 4px 2px;
+    text-decoration: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: inherit;
+    color: #94a3b8;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 1.1;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .zku-bottom-tab--active {
+    color: #003876;
+  }
+
+  .zku-more-sheet-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 130;
+    background: rgba(15, 23, 42, 0.45);
+  }
+
+  .zku-more-sheet {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 140;
+    background: #fff;
+    border-radius: 20px 20px 0 0;
+    padding: 12px 16px calc(16px + var(--zku-safe-bottom));
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.16);
+    max-height: min(72dvh, 520px);
+    overflow-y: auto;
+    animation: zkuMoreSlideUp 0.2s ease;
+  }
+
+  .zku-more-sheet-handle {
+    width: 36px;
+    height: 4px;
+    border-radius: 99px;
+    background: #e2e8f0;
+    margin: 0 auto 14px;
+  }
+}
+
+@keyframes zkuMoreSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   Phase 1 — Landing
+   ══════════════════════════════════════════════════════════════════ */
+.zku-landing-header {
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.zku-landing-mid-nav {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .zku-landing-header {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    height: auto !important;
+    min-height: 56px;
+    padding-top: max(8px, var(--zku-safe-top));
+    padding-bottom: 8px;
+    gap: 10px !important;
+  }
+
+  .zku-landing-mid-nav {
+    display: none !important;
+  }
+
+  .zku-landing-brand-text {
+    display: none !important;
+  }
+
+  .zku-landing-register {
+    display: none !important;
+  }
+
+  .zku-landing-hero {
+    padding: 48px 16px 40px !important;
+  }
+
+  .zku-landing-section {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .zku-landing-cta-inner {
+    padding: 40px 20px !important;
+    border-radius: 20px !important;
+  }
+
+  .zku-landing-footer {
+    padding: 24px 16px !important;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   Phase 2 — Learning path (dashboard / course / module / lesson)
+   ══════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .zku-page {
+    padding: 16px 16px 32px !important;
+  }
+
+  .zku-hero-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    padding: 24px 20px !important;
+  }
+
+  .zku-hero-stats {
+    width: 100%;
+    justify-content: space-between !important;
+  }
+
+  .zku-hero-stats > div {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+    flex: 1;
+  }
+
+  .zku-dash-continue {
+    grid-template-columns: 1fr !important;
+  }
+
+  .zku-dash-skills4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .zku-dash-bottom {
+    grid-template-columns: 1fr !important;
+  }
+
+  .zku-module-layout {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .zku-module-hero {
+    padding: 24px 20px !important;
+  }
+
+  .zku-writing-split {
+    grid-template-columns: 1fr !important;
+  }
+
+  .zku-stats-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .zku-cards {
+    grid-template-columns: 1fr !important;
+  }
+
+  .zku-cards-min {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)) !important;
+  }
+
+  .zku-lesson-pad {
+    padding: 16px 12px 40px !important;
+  }
+
+  .zku-lesson-grid-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  .zku-grammar-wide {
+    min-width: 560px;
+  }
+
+  .zku-touch-opt {
+    min-height: 48px !important;
+  }
+
+  .zku-module-bar {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .zku-module-bar-inner {
+    height: auto !important;
+    min-height: 52px;
+    padding: 10px 0 !important;
+    gap: 8px !important;
+    flex-wrap: wrap;
+  }
+
+  .zku-module-bar-nav {
+    width: 100%;
+    flex-wrap: wrap;
+    row-gap: 4px;
+  }
+
+  .zku-module-bar-sep {
+    display: none !important;
+  }
+
+  .zku-module-bar-progress {
+    width: 100%;
+    gap: 8px !important;
+  }
+
+  .zku-module-bar-track {
+    flex: 1;
+    width: auto !important;
+    min-width: 0;
+  }
+
+  .zku-certs-how {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 14px !important;
+    padding: 16px !important;
+  }
+
+  .zku-certs-how > a {
+    align-self: stretch !important;
+    text-align: center;
+  }
+
+  .zku-achievements-toolbar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+  }
+
+  .zku-period-tabs {
+    width: 100% !important;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .zku-lb-table {
+    min-width: 520px;
+  }
+
+  .zku-stats-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Profile page */
+  .zku-profile-hero {
+    flex-wrap: wrap;
+    gap: 14px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .zku-profile-hero h1 {
+    font-size: 18px !important;
+    word-break: break-word;
+  }
+
+  .zku-profile-badges {
+    flex-wrap: wrap;
+  }
+
+  .zku-profile-tabs {
+    width: 100% !important;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    flex-wrap: nowrap !important;
+  }
+
+  .zku-profile-tabs button {
+    flex-shrink: 0;
+    min-height: 44px;
+    padding: 10px 14px !important;
+    font-size: 12px !important;
+  }
+
+  .zku-profile-card {
+    padding: 18px 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .zku-profile-save {
+    width: 100% !important;
+    min-height: 48px !important;
+  }
+
+  .zku-profile-session {
+    flex-wrap: wrap;
+    align-items: flex-start !important;
+  }
+
+  .zku-profile-skill-name {
+    width: auto !important;
+    min-width: 72px;
+  }
+
+  /* Placement */
+  .zku-placement-card {
+    padding: 20px 16px !important;
+    border-radius: 18px !important;
+  }
+
+  .zku-placement-hero {
+    padding: 28px 18px !important;
+    border-radius: 18px !important;
+  }
+
+  .zku-placement-hero-level {
+    font-size: 28px !important;
+    padding: 10px 24px !important;
+  }
+
+  .zku-placement-title {
+    font-size: 22px !important;
+  }
+
+  .zku-placement-question {
+    font-size: 17px !important;
+  }
+
+  .zku-placement-actions {
+    flex-direction: column !important;
+  }
+
+  .zku-placement-actions > * {
+    flex: none !important;
+    width: 100% !important;
+  }
+
+  .zku-placement-mistake-ans {
+    flex-direction: column !important;
+    gap: 6px !important;
+  }
+
+  .zku-placement-chip {
+    min-height: 44px !important;
+    padding: 10px 14px !important;
+  }
+
+  /* Course level hero */
+  .zku-level-hero {
+    padding: 20px 16px !important;
+  }
+
+  .zku-level-hero-inner {
+    flex-direction: column !important;
+    gap: 16px !important;
+  }
+
+  .zku-level-hero-structure {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box;
+  }
+
+  .zku-level-progress {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 14px !important;
+    padding: 14px 16px !important;
+  }
+
+  .zku-level-progress-stats {
+    width: 100%;
+    justify-content: space-around !important;
+  }
+}

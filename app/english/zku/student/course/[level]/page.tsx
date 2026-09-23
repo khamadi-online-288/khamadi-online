@@ -147,7 +147,7 @@ export default function LevelPage() {
 
   return (
     <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
-    <div style={{ padding: '28px 32px 56px', maxWidth: 1100, margin: '0 auto' }}>
+    <div className="zku-page" style={{ padding: '28px 32px 56px', maxWidth: 1100, margin: '0 auto' }}>
 
       {/* Breadcrumb */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 24, fontSize: 13, color: '#94A3B8' }}>
@@ -159,7 +159,7 @@ export default function LevelPage() {
       </div>
 
       {/* Level hero */}
-      <div style={{
+      <div className="zku-level-hero" style={{
         background: `linear-gradient(135deg, ${color} 0%, ${color}cc 100%)`,
         borderRadius: 22, padding: '28px 32px', marginBottom: 28, color: '#fff',
         position: 'relative', overflow: 'hidden',
@@ -168,8 +168,8 @@ export default function LevelPage() {
         <div style={{ position: 'absolute', right: -40, top: -40, width: 200, height: 200, borderRadius: '50%', background: 'rgba(255,255,255,0.07)' }} />
         <div style={{ position: 'absolute', right: 60, bottom: -60, width: 160, height: 160, borderRadius: '50%', background: 'rgba(255,255,255,0.05)' }} />
 
-        <div style={{ position: 'relative', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 24 }}>
-          <div style={{ flex: 1 }}>
+        <div className="zku-level-hero-inner" style={{ position: 'relative', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 24 }}>
+          <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 8 }}>
               {t.course.platform} · {levelData.code}
             </div>
@@ -177,14 +177,14 @@ export default function LevelPage() {
             <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.75)', marginBottom: 20, maxWidth: 520 }}>{levelData.desc}</div>
 
             {/* Stats */}
-            <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
               {[
                 { v: levelData.total_lessons, l: t.course.lessons },
                 { v: levelData.total_words,   l: t.course.words },
                 { v: levelData.total_hours,   l: t.course.hours },
                 { v: levelData.totalModules,  l: t.course.modules },
               ].map(s => (
-                <div key={s.l} style={{ textAlign: 'center' }}>
+                <div key={s.l} style={{ textAlign: 'center', minWidth: 64 }}>
                   <div style={{ fontSize: 22, fontWeight: 900, lineHeight: 1 }}>{s.v}</div>
                   <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.65)', marginTop: 2 }}>{s.l}</div>
                 </div>
@@ -193,7 +193,7 @@ export default function LevelPage() {
           </div>
 
           {/* Section breakdown summary */}
-          <div style={{
+          <div className="zku-level-hero-structure" style={{
             flexShrink: 0, background: 'rgba(255,255,255,0.12)',
             borderRadius: 16, padding: '16px 20px', backdropFilter: 'blur(8px)',
             border: '1px solid rgba(255,255,255,0.15)',
@@ -206,14 +206,14 @@ export default function LevelPage() {
               const total = modules.reduce((s: number, m: ComputedModule) => s + (m.sections[sec.key as SectionKey] ?? 0), 0)
               return (
                 <div key={sec.key} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 8, gap: 12 }}>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                    <span style={{ fontSize: 13 }}>{sec.icon}</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6, minWidth: 0 }}>
+                    <span style={{ fontSize: 13, flexShrink: 0 }}>{sec.icon}</span>
                     <span style={{ fontSize: 12, fontWeight: 600, color: 'rgba(255,255,255,0.85)' }}>{sec.label}</span>
                   </div>
                   <span style={{
                     fontSize: 11, fontWeight: 800, color: '#fff',
                     background: 'rgba(255,255,255,0.2)', borderRadius: 6,
-                    padding: '2px 8px',
+                    padding: '2px 8px', flexShrink: 0,
                   }}>{total || levelData.totalModules}</span>
                 </div>
               )
@@ -245,9 +245,9 @@ export default function LevelPage() {
           return (
           <>
             {/* ── Overall stats bar ── */}
-            <div style={{ background: '#fff', borderRadius: 16, padding: '16px 22px', marginBottom: 20, border: `1px solid ${BDR}`, display: 'flex', alignItems: 'center', gap: 20 }}>
-              <div style={{ flex: 1 }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6 }}>
+            <div className="zku-level-progress" style={{ background: '#fff', borderRadius: 16, padding: '16px 22px', marginBottom: 20, border: `1px solid ${BDR}`, display: 'flex', alignItems: 'center', gap: 20 }}>
+              <div style={{ flex: 1, minWidth: 0 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 6, gap: 8, flexWrap: 'wrap' }}>
                   <span style={{ fontSize: 12, fontWeight: 700, color: N }}>{t.path.course_progress}</span>
                   <span style={{ fontSize: 12, fontWeight: 700, color: color }}>{doneCount} / {modules.length} {t.path.modules_of}</span>
                 </div>
@@ -255,7 +255,7 @@ export default function LevelPage() {
                   <div style={{ height: '100%', width: `${Math.round((doneCount / modules.length) * 100)}%`, background: `linear-gradient(90deg, ${color}, ${color}cc)`, borderRadius: 99, transition: 'width 0.6s ease' }} />
                 </div>
               </div>
-              <div style={{ display: 'flex', gap: 20, flexShrink: 0 }}>
+              <div className="zku-level-progress-stats" style={{ display: 'flex', gap: 20, flexShrink: 0 }}>
                 <div style={{ textAlign: 'center' }}>
                   <div style={{ fontSize: 20, fontWeight: 900, color: '#10B981', lineHeight: 1 }}>{doneCount}</div>
                   <div style={{ fontSize: 10, color: MUT, marginTop: 2 }}>Пройдено</div>

@@ -52,7 +52,7 @@ export default function ZKUHomeworkPage() {
   }, [])
 
   return (
-    <div style={{ padding: '28px 32px', maxWidth: 900, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px', maxWidth: 900, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
       <div style={{ marginBottom: 24 }}>
         <h1 style={{ fontSize: 26, fontWeight: 900, color: N, marginBottom: 4 }}>{t.hw.title}</h1>
         <p style={{ fontSize: 14, color: M }}>{t.hw.subtitle}</p>

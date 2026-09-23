@@ -49973,7 +49973,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
 
             {/* Step breadcrumb */}
             <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 24 }}>
@@ -50167,7 +50167,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 24 }}>
               {STEPS_READ.map((s, i) => (
@@ -50267,7 +50267,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
 
             <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 24 }}>
               {STEPS_READ.map((s, i) => (
@@ -50391,7 +50391,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
             <Breadcrumb active={0} />
             <div style={{ background: '#fff', borderRadius: 20, overflow: 'hidden', boxShadow: '0 2px 20px rgba(124,58,237,0.1)', border: `1px solid ${PB}`, marginBottom: 12 }}>
               <div style={{ background: `linear-gradient(135deg, ${P}, #6D28D9)`, padding: '20px 28px', color: '#fff' }}>
@@ -50581,7 +50581,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
             <Breadcrumb active={2} />
             <div style={{ background: '#fff', borderRadius: 20, overflow: 'hidden', boxShadow: `0 2px 20px ${P}18`, border: `1px solid ${PB}`, marginBottom: 12 }}>
               <div style={{ background: `linear-gradient(135deg, ${P}, #6D28D9)`, padding: '18px 28px', color: '#fff' }}>
@@ -50663,7 +50663,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
             <Breadcrumb active={3} />
 
             {/* Progress */}
@@ -50750,7 +50750,7 @@ export default function LessonPage() {
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
-          <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+          <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
             <WBreadcrumb active={0} />
             <div style={{ background: '#fff', borderRadius: 20, overflow: 'hidden', boxShadow: `0 2px 20px ${W}18`, border: `1px solid ${WB}`, marginBottom: 12 }}>
               <div style={{ background: `linear-gradient(135deg, ${W}, #15803D)`, padding: '20px 28px', color: '#fff' }}>
@@ -50885,10 +50885,10 @@ export default function LessonPage() {
     if (!writSubmitted) return (
       <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
         {renderHeader()}
-        <div style={{ maxWidth: 1020, margin: '0 auto', padding: '32px 32px 56px' }}>
+        <div className="zku-lesson-pad" style={{ maxWidth: 1020, margin: '0 auto', padding: '32px 32px 56px' }}>
           <WBreadcrumb active={2} />
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 300px', gap: 20 }}>
+          <div className="zku-writing-split" style={{ display: 'grid', gridTemplateColumns: '1fr 300px', gap: 20 }}>
 
             {/* Left: Writing template */}
             <div>
@@ -50986,7 +50986,7 @@ export default function LessonPage() {
     return (
       <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
         {renderHeader()}
-        <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+        <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
 
           {/* Success banner */}
           <div style={{ background: `linear-gradient(135deg, ${W}, #15803D)`, borderRadius: 18, padding: '28px 32px', marginBottom: 20, color: '#fff', textAlign: 'center' }}>
@@ -51230,7 +51230,7 @@ export default function LessonPage() {
           </div>
         </div>
 
-        <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+        <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
 
           {/* Category badge + combo */}
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 20 }}>
@@ -51346,7 +51346,7 @@ export default function LessonPage() {
     return (
       <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
         {renderHeader()}
-        <div style={{ maxWidth: 600, margin: '0 auto', padding: '32px 24px 48px' }}>
+        <div className="zku-lesson-pad" style={{ maxWidth: 600, margin: '0 auto', padding: '32px 24px 48px' }}>
 
           {/* Counter */}
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
@@ -51582,7 +51582,8 @@ export default function LessonPage() {
                 <div style={{ width: 36, height: 36, borderRadius: 12, background: '#EDE9FE', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 18 }}>📊</div>
                 <span style={{ fontSize: 12, fontWeight: 800, color: '#7C3AED', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Формула и примеры</span>
               </div>
-              <div style={{ borderRadius: 14, overflow: 'hidden', border: '1px solid rgba(124,58,237,0.15)' }}>
+              <div className="zku-table-scroll">
+              <div className="zku-grammar-wide" style={{ borderRadius: 14, overflow: 'hidden', border: '1px solid rgba(124,58,237,0.15)' }}>
                 <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 0.8fr 0.9fr 2fr', background: '#7C3AED', padding: '10px 14px', gap: 6 }}>
                   {headers.map(h => <div key={h} style={{ fontSize: 9, fontWeight: 700, color: 'rgba(255,255,255,0.65)', textTransform: 'uppercase', letterSpacing: '0.1em' }}>{h}</div>)}
                 </div>
@@ -51594,6 +51595,7 @@ export default function LessonPage() {
                     <span style={{ fontSize: 12, color: '#475569', fontStyle: 'italic', lineHeight: 1.55 }}>{row.example}</span>
                   </div>
                 ))}
+              </div>
               </div>
             </>
           )}
@@ -51720,7 +51722,7 @@ export default function LessonPage() {
     return (
       <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
         {renderHeader()}
-        <div style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
+        <div className="zku-lesson-pad" style={{ maxWidth: 680, margin: '0 auto', padding: '32px 24px 56px' }}>
 
           {/* Progress */}
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 24 }}>
@@ -51850,7 +51852,7 @@ export default function LessonPage() {
   if (phase === 'quiz') return (
     <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
       {renderHeader()}
-      <div style={{ maxWidth: 720, margin: '0 auto', padding: '32px 24px 48px' }}>
+      <div className="zku-lesson-pad" style={{ maxWidth: 720, margin: '0 auto', padding: '32px 24px 48px' }}>
 
         {/* Question counter + progress */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>

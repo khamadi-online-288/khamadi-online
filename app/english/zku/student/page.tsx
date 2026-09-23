@@ -142,11 +142,11 @@ export default function ZKUStudentDashboard() {
   ]
 
   return (
-    <div style={{ minHeight: '100vh', background: BG, fontFamily: "'Montserrat', sans-serif" }}>
-      <div style={{ padding: '28px 32px 56px', maxWidth: 1100, margin: '0 auto' }}>
+    <div className="zku-full-h" style={{ minHeight: '100vh', background: BG, fontFamily: "'Montserrat', sans-serif" }}>
+      <div className="zku-page" style={{ padding: '28px 32px 56px', maxWidth: 1100, margin: '0 auto' }}>
 
         {/* ── HERO ── */}
-        <div style={{
+        <div className="zku-hero-row" style={{
           background: N, borderRadius: 20, padding: '32px 36px', marginBottom: 20,
           display: 'flex', alignItems: 'center', justifyContent: 'space-between',
           boxShadow: '0 4px 24px rgba(0,56,118,0.18)',
@@ -167,7 +167,7 @@ export default function ZKUStudentDashboard() {
           </div>
 
           {/* Stats row */}
-          <div style={{ display: 'flex', gap: 0, flexShrink: 0 }}>
+          <div className="zku-hero-stats" style={{ display: 'flex', gap: 0, flexShrink: 0 }}>
             {[
               { v: xp.toLocaleString(), l: t.dash.xp,        icon: ICONS.lightning },
               { v: streak,              l: t.dash.streak,     icon: ICONS.flame     },
@@ -188,7 +188,7 @@ export default function ZKUStudentDashboard() {
         </div>
 
         {/* ── ROW 2: Continue + XP Progress ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 240px', gap: 16, marginBottom: 16 }}>
+        <div className="zku-dash-continue" style={{ display: 'grid', gridTemplateColumns: '1fr 240px', gap: 16, marginBottom: 16 }}>
 
           {/* Continue learning */}
           <div style={{ background: '#fff', borderRadius: 16, padding: '24px 28px', border: `1px solid ${BDR}`, boxShadow: '0 1px 8px rgba(0,56,118,0.05)' }}>
@@ -254,7 +254,7 @@ export default function ZKUStudentDashboard() {
         </div>
 
         {/* ── ROW 3: Quick Actions ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 16 }}>
+        <div className="zku-dash-skills4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 16 }}>
           {QUICK.map(q => (
             <Link key={q.href} href={q.href} style={{
               background: '#fff', borderRadius: 16, padding: '20px 18px',
@@ -291,7 +291,7 @@ export default function ZKUStudentDashboard() {
         </div>
 
         {/* ── ROW 4: Skills + Activity ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+        <div className="zku-dash-bottom" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
 
           {/* Skills */}
           <div style={{ background: '#fff', borderRadius: 16, padding: '22px 24px', border: `1px solid ${BDR}`, boxShadow: '0 1px 8px rgba(0,56,118,0.05)' }}>
