@@ -140,7 +140,7 @@ export default function WritingTrainerPage({ params }: { params: Promise<{ type:
   }
 
   return (
-    <div style={{ padding: '24px 28px', maxWidth: 1100, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '24px 28px', maxWidth: 1100, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
 
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 24 }}>
@@ -158,7 +158,7 @@ export default function WritingTrainerPage({ params }: { params: Promise<{ type:
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '340px 1fr', gap: 20 }}>
+      <div className="zku-writing-split" style={{ display: 'grid', gridTemplateColumns: '340px 1fr', gap: 20 }}>
 
         {/* ── LEFT: Task panel ── */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -265,7 +265,7 @@ export default function WritingTrainerPage({ params }: { params: Promise<{ type:
                 </span>
               </div>
 
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginBottom: 14 }}>
+              <div className="zku-stats-4" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10, marginBottom: 14 }}>
                 {[
                   { label: t.writing.check_volume,   ok: result.word_count_ok },
                   { label: t.writing.check_greeting,  ok: result.has_greeting },

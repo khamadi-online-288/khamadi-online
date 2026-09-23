@@ -55,20 +55,20 @@ function WordOrder({ words, onAnswer }: { words: string[]; onAnswer: (a: string)
       }}>
         {built.length === 0 && <span style={{ color: '#CBD5E1', fontSize: 13 }}>{t.placement.word_hint}</span>}
         {built.map((w, i) => (
-          <button key={`b-${i}`} onClick={() => remove(w, i)} style={{
-            padding: '6px 14px', borderRadius: 8, border: `1.5px solid ${N}`,
+          <button key={`b-${i}`} type="button" onClick={() => remove(w, i)} className="zku-placement-chip" style={{
+            padding: '8px 14px', borderRadius: 8, border: `1.5px solid ${N}`,
             background: N, color: '#fff', fontSize: 13, fontWeight: 600,
-            cursor: 'pointer', fontFamily: 'inherit',
+            cursor: 'pointer', fontFamily: 'inherit', minHeight: 40,
           }}>{w}</button>
         ))}
       </div>
 
       <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 20 }}>
         {remaining.map((w, i) => (
-          <button key={`r-${i}`} onClick={() => pick(w, i)} style={{
-            padding: '8px 16px', borderRadius: 10, border: '1.5px solid #E2E8F0',
+          <button key={`r-${i}`} type="button" onClick={() => pick(w, i)} className="zku-placement-chip" style={{
+            padding: '10px 16px', borderRadius: 10, border: '1.5px solid #E2E8F0',
             background: '#fff', color: '#334155', fontSize: 13, fontWeight: 600,
-            cursor: 'pointer', fontFamily: 'inherit',
+            cursor: 'pointer', fontFamily: 'inherit', minHeight: 44,
           }}
           onMouseEnter={e => { (e.currentTarget as HTMLElement).style.borderColor = S; (e.currentTarget as HTMLElement).style.color = S }}
           onMouseLeave={e => { (e.currentTarget as HTMLElement).style.borderColor = '#E2E8F0'; (e.currentTarget as HTMLElement).style.color = '#334155' }}>
@@ -77,17 +77,18 @@ function WordOrder({ words, onAnswer }: { words: string[]; onAnswer: (a: string)
         ))}
       </div>
 
-      <div style={{ display: 'flex', gap: 10 }}>
-        <button onClick={clear} style={{
-          padding: '10px 18px', borderRadius: 10, border: '1.5px solid #E2E8F0',
+      <div className="zku-placement-actions" style={{ display: 'flex', gap: 10 }}>
+        <button type="button" onClick={clear} style={{
+          padding: '12px 18px', borderRadius: 10, border: '1.5px solid #E2E8F0',
           background: '#fff', color: '#64748B', fontSize: 13, fontWeight: 600,
-          cursor: 'pointer', fontFamily: 'inherit',
+          cursor: 'pointer', fontFamily: 'inherit', minHeight: 48,
         }}>{t.placement.reset}</button>
-        <button onClick={() => onAnswer(answer)} disabled={!built.length} style={{
+        <button type="button" onClick={() => onAnswer(answer)} disabled={!built.length} style={{
           flex: 1, padding: '12px', borderRadius: 10, border: 'none',
           background: built.length ? N : '#CBD5E1', color: '#fff',
           fontSize: 14, fontWeight: 700, cursor: built.length ? 'pointer' : 'not-allowed',
           fontFamily: 'inherit', boxShadow: built.length ? '0 4px 14px rgba(0,56,118,0.25)' : 'none',
+          minHeight: 48,
         }}>{t.placement.answer}</button>
       </div>
     </div>
@@ -172,8 +173,8 @@ export default function PlacementTestPage() {
   /* ══ WELCOME ══ */
   if (screen === 'welcome') {
     return (
-      <div style={{ padding: '40px 32px', maxWidth: 640, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
-        <div style={{
+      <div className="zku-page" style={{ padding: '40px 32px', maxWidth: 640, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+        <div className="zku-placement-card" style={{
           background: '#fff', borderRadius: 24, padding: '48px 44px',
           boxShadow: '0 4px 32px rgba(0,56,118,0.08)', border: '1px solid rgba(0,56,118,0.07)', textAlign: 'center',
         }}>
@@ -181,14 +182,14 @@ export default function PlacementTestPage() {
           <div style={{ fontSize: 11, fontWeight: 700, color: S, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 12 }}>
             {t.course.platform}
           </div>
-          <h1 style={{ fontSize: 28, fontWeight: 900, color: N, marginBottom: 12, letterSpacing: '-0.02em' }}>
+          <h1 className="zku-placement-title" style={{ fontSize: 28, fontWeight: 900, color: N, marginBottom: 12, letterSpacing: '-0.02em' }}>
             {t.placement.title}
           </h1>
           <p style={{ fontSize: 15, color: '#64748B', lineHeight: 1.6, marginBottom: 36 }}>
             {t.placement.subtitle}
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 36, textAlign: 'left' }}>
+          <div className="zku-stats-4" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12, marginBottom: 36, textAlign: 'left' }}>
             {[
               { icon: <IcClock      size={20} color={S} />, label: t.placement.duration },
               { icon: <IcEdit       size={20} color={S} />, label: t.placement.questions },
@@ -206,11 +207,11 @@ export default function PlacementTestPage() {
             <div style={{ fontSize: 12, color: '#92400E', fontWeight: 600 }}>{t.placement.tip}</div>
           </div>
 
-          <button onClick={startTest} style={{
+          <button type="button" onClick={startTest} style={{
             width: '100%', padding: '16px', borderRadius: 14, border: 'none',
             background: `linear-gradient(135deg, ${N}, #0a4fa8)`,
             color: '#fff', fontSize: 16, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit',
-            boxShadow: '0 6px 24px rgba(0,56,118,0.3)',
+            boxShadow: '0 6px 24px rgba(0,56,118,0.3)', minHeight: 52,
           }}>{t.placement.start}</button>
         </div>
       </div>
@@ -226,16 +227,16 @@ export default function PlacementTestPage() {
       .filter(x => x.question)
 
     return (
-      <div style={{ padding: '32px', maxWidth: 760, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+      <div className="zku-page" style={{ padding: '32px', maxWidth: 760, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
         {/* Hero */}
-        <div style={{
+        <div className="zku-placement-hero" style={{
           background: `linear-gradient(135deg, ${N}, #0a4fa8)`,
           borderRadius: 24, padding: '40px 44px', marginBottom: 20,
           color: '#fff', textAlign: 'center', boxShadow: '0 8px 32px rgba(0,56,118,0.3)',
         }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 16 }}><IcAward size={52} color="rgba(255,255,255,0.9)" /></div>
           <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.55)', marginBottom: 12 }}>{t.placement.your_level}</div>
-          <div style={{
+          <div className="zku-placement-hero-level" style={{
             display: 'inline-block', padding: '12px 36px', borderRadius: 16,
             background: levelColor, fontSize: 36, fontWeight: 900, marginBottom: 14,
             boxShadow: `0 6px 20px ${levelColor}66`,
@@ -248,7 +249,7 @@ export default function PlacementTestPage() {
         </div>
 
         {/* Scores by level */}
-        <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', marginBottom: 16, boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+        <div className="zku-placement-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', marginBottom: 16, boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
           <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 16 }}>{t.placement.by_level}</div>
           {LEVEL_ORDER.map(lv => {
             const sc = result.scores[lv]
@@ -262,8 +263,8 @@ export default function PlacementTestPage() {
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   fontSize: 13, fontWeight: 900, color: sc.passed ? color : C,
                 }}>{lv}</div>
-                <div style={{ flex: 1 }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, marginBottom: 5 }}>
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, marginBottom: 5, gap: 8 }}>
                     <span style={{ fontWeight: 600, color: N }}>{sc.correct} / {sc.total}</span>
                     <span style={{ fontWeight: 700, color: sc.passed ? T : C }}>
                       {sc.passed ? t.placement.passed_lv : t.placement.failed_lv}
@@ -280,7 +281,7 @@ export default function PlacementTestPage() {
 
         {/* Wrong answers breakdown */}
         {wrongAnswers.length > 0 && (
-          <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', marginBottom: 16, boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+          <div className="zku-placement-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', marginBottom: 16, boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
             <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 16 }}>
               {t.placement.mistakes} ({wrongAnswers.length})
             </div>
@@ -288,19 +289,19 @@ export default function PlacementTestPage() {
               <div key={q.id} style={{ padding: '14px 16px', borderRadius: 14, background: '#FFF8F8', border: '1px solid #FECACA', marginBottom: 10 }}>
                 <div style={{ display: 'flex', gap: 10, alignItems: 'flex-start', marginBottom: 8 }}>
                   <span style={{ fontSize: 11, fontWeight: 700, color: '#fff', background: C, padding: '2px 8px', borderRadius: 99, flexShrink: 0 }}>{q.level}</span>
-                  <div style={{ fontSize: 13, fontWeight: 600, color: '#1E293B', lineHeight: 1.4 }}>
+                  <div style={{ fontSize: 13, fontWeight: 600, color: '#1E293B', lineHeight: 1.4, minWidth: 0 }}>
                     {q.question}
                     {q.text && <div style={{ fontSize: 12, color: '#64748B', fontStyle: 'italic', marginTop: 4, fontWeight: 400 }}>"{q.text.slice(0, 80)}..."</div>}
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: 16, fontSize: 12 }}>
-                  <div>
+                <div className="zku-placement-mistake-ans" style={{ display: 'flex', gap: 16, fontSize: 12 }}>
+                  <div style={{ wordBreak: 'break-word' }}>
                     <span style={{ color: '#94A3B8' }}>{t.placement.your_ans}: </span>
                     <span style={{ fontWeight: 700, color: C }}>
                       {q.type === 'word_order' ? String(answer.userAnswer) : q.options?.[answer.userAnswer as number] ?? String(answer.userAnswer)}
                     </span>
                   </div>
-                  <div>
+                  <div style={{ wordBreak: 'break-word' }}>
                     <span style={{ color: '#94A3B8' }}>{t.placement.correct_ans}: </span>
                     <span style={{ fontWeight: 700, color: T }}>
                       {q.type === 'word_order' ? String(q.correct) : q.options?.[q.correct as number]}
@@ -316,20 +317,20 @@ export default function PlacementTestPage() {
         )}
 
         {/* Actions */}
-        <div style={{ display: 'flex', gap: 12 }}>
+        <div className="zku-placement-actions" style={{ display: 'flex', gap: 12 }}>
           <Link href={result.recommendedCourseUrl} style={{
-            flex: 2, display: 'block', textAlign: 'center',
+            flex: 2, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',
             background: N, color: '#fff', padding: '15px',
             borderRadius: 14, fontSize: 15, fontWeight: 700, textDecoration: 'none',
-            boxShadow: '0 4px 18px rgba(0,56,118,0.28)',
+            boxShadow: '0 4px 18px rgba(0,56,118,0.28)', minHeight: 52,
           }}>
             {t.placement.go_course} {result.level} →
           </Link>
-          <button onClick={startTest} style={{
+          <button type="button" onClick={startTest} style={{
             flex: 1, padding: '15px', borderRadius: 14,
             border: '1.5px solid #E2E8F0', background: '#fff',
             color: '#64748B', fontSize: 14, fontWeight: 700,
-            cursor: 'pointer', fontFamily: 'inherit',
+            cursor: 'pointer', fontFamily: 'inherit', minHeight: 52,
           }}>{t.placement.retry}</button>
         </div>
       </div>
@@ -349,7 +350,7 @@ export default function PlacementTestPage() {
   const pct = Math.round(((totalSoFar - 1) / maxExpected) * 100)
 
   return (
-    <div style={{ padding: '28px 32px', maxWidth: 720, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px', maxWidth: 720, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
 
       {/* Progress bar */}
       <div style={{ marginBottom: 24 }}>
@@ -363,10 +364,10 @@ export default function PlacementTestPage() {
       </div>
 
       {/* Question card */}
-      <div style={{ background: '#fff', borderRadius: 22, padding: '32px 36px', boxShadow: '0 2px 16px rgba(0,0,0,0.06)', border: '1px solid rgba(0,56,118,0.06)' }}>
+      <div className="zku-placement-card" style={{ background: '#fff', borderRadius: 22, padding: '32px 36px', boxShadow: '0 2px 16px rgba(0,0,0,0.06)', border: '1px solid rgba(0,56,118,0.06)' }}>
 
         {/* Level badge */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 24, flexWrap: 'wrap' }}>
           <span style={{ padding: '4px 14px', borderRadius: 99, background: `${lvColor}18`, color: lvColor, fontSize: 12, fontWeight: 800, letterSpacing: '0.06em' }}>
             {t.placement.level_badge} {lv}
           </span>
@@ -375,14 +376,14 @@ export default function PlacementTestPage() {
 
         {/* Reading text */}
         {question.type === 'reading' && question.text && (
-          <div style={{ background: '#F8FBFF', borderRadius: 14, padding: '18px 20px', marginBottom: 24, border: '1px solid rgba(27,143,196,0.1)' }}>
+          <div style={{ background: '#F8FBFF', borderRadius: 14, padding: '16px', marginBottom: 24, border: '1px solid rgba(27,143,196,0.1)' }}>
             <div style={{ fontSize: 10, fontWeight: 700, color: S, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 10 }}>{t.lesson.step_text}</div>
             <p style={{ fontSize: 14, color: '#334155', lineHeight: 1.75, margin: 0 }}>{question.text}</p>
           </div>
         )}
 
         {/* Question */}
-        <div style={{ fontSize: 20, fontWeight: 700, color: N, lineHeight: 1.4, marginBottom: 24 }}>
+        <div className="zku-placement-question" style={{ fontSize: 20, fontWeight: 700, color: N, lineHeight: 1.4, marginBottom: 24 }}>
           {question.type === 'fill_blank' ? question.question.replace('___', '______') : question.question}
         </div>
 
@@ -393,12 +394,13 @@ export default function PlacementTestPage() {
               {question.options.map((opt, i) => {
                 const isSelected = selected === i
                 return (
-                  <button key={opt} onClick={() => setSelected(i)} style={{
+                  <button key={opt} type="button" onClick={() => setSelected(i)} style={{
                     display: 'flex', alignItems: 'center', gap: 14,
                     padding: '14px 18px', borderRadius: 12, cursor: 'pointer',
                     border: `2px solid ${isSelected ? N : '#E2E8F0'}`,
                     background: isSelected ? '#EBF4FB' : '#fff',
                     fontFamily: 'inherit', transition: 'all 0.15s', textAlign: 'left',
+                    minHeight: 52,
                   }}>
                     <div style={{
                       width: 28, height: 28, borderRadius: '50%', flexShrink: 0,
@@ -412,12 +414,13 @@ export default function PlacementTestPage() {
                 )
               })}
             </div>
-            <button onClick={() => { if (selected !== null) submitAnswer(selected) }} disabled={selected === null} style={{
+            <button type="button" onClick={() => { if (selected !== null) submitAnswer(selected) }} disabled={selected === null} style={{
               width: '100%', padding: '14px', borderRadius: 12, border: 'none',
               background: selected !== null ? N : '#CBD5E1',
               color: '#fff', fontSize: 15, fontWeight: 700,
               cursor: selected !== null ? 'pointer' : 'not-allowed',
               fontFamily: 'inherit', boxShadow: selected !== null ? '0 4px 16px rgba(0,56,118,0.25)' : 'none',
+              minHeight: 52,
             }}>{t.placement.answer}</button>
           </>
         )}

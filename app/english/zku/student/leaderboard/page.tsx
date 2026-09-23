@@ -78,8 +78,8 @@ export default function LeaderboardPage() {
   const myRank = rows.findIndex(r => r.isMe) + 1
 
   return (
-    <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
-    <div style={{ padding: '28px 32px 56px', maxWidth: 900, margin: '0 auto' }}>
+    <div className="zku-full-h" style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px 56px', maxWidth: 900, margin: '0 auto' }}>
 
       <div style={{ marginBottom: 24 }}>
         <h1 style={{ fontSize: 26, fontWeight: 900, color: N, marginBottom: 5 }}>{t.leaderboard.title}</h1>
@@ -87,13 +87,14 @@ export default function LeaderboardPage() {
       </div>
 
       {/* Period tabs */}
-      <div style={{ display: 'flex', gap: 3, background: '#fff', borderRadius: 10, padding: 3, marginBottom: 16, width: 'fit-content', border: `1px solid ${BDR}` }}>
+      <div className="zku-period-tabs" style={{ display: 'flex', gap: 3, background: '#fff', borderRadius: 10, padding: 3, marginBottom: 16, width: 'fit-content', border: `1px solid ${BDR}` }}>
         {(['all', 'month', 'week'] as const).map(p => (
-          <button key={p} onClick={() => applyPeriod(p)} style={{
-            padding: '7px 16px', borderRadius: 8, border: 'none', cursor: 'pointer',
+          <button key={p} type="button" onClick={() => applyPeriod(p)} style={{
+            padding: '10px 16px', borderRadius: 8, border: 'none', cursor: 'pointer',
             background: period === p ? N : 'transparent',
             color: period === p ? '#fff' : MUT,
             fontSize: 12, fontWeight: 700, fontFamily: 'inherit', transition: 'all 0.15s',
+            minHeight: 40, flexShrink: 0,
           }}>
             {p === 'all' ? t.leaderboard.all_time : p === 'month' ? t.leaderboard.month : t.leaderboard.week}
           </button>
@@ -127,7 +128,8 @@ export default function LeaderboardPage() {
           <div style={{ fontSize: 13, color: MUT }}>{t.leaderboard.empty_sub}</div>
         </div>
       ) : (
-        <div style={{ background: '#fff', borderRadius: 14, overflow: 'hidden', border: `1px solid ${BDR}` }}>
+        <div className="zku-table-scroll" style={{ background: '#fff', borderRadius: 14, border: `1px solid ${BDR}` }}>
+          <div className="zku-lb-table" style={{ overflow: 'hidden', borderRadius: 14 }}>
           <div style={{
             display: 'grid', gridTemplateColumns: '52px 1fr 90px 80px 70px',
             padding: '11px 20px', background: '#F8FAFC',
@@ -189,6 +191,7 @@ export default function LeaderboardPage() {
               </div>
             </div>
           ))}
+          </div>
         </div>
       )}
     </div>

@@ -242,7 +242,7 @@ export default function CertificatesPage() {
   if (loading) return <div style={{ padding: 60, textAlign: 'center', fontFamily: "'Montserrat', sans-serif", color: N, fontWeight: 700 }}>{t.common.loading}</div>
 
   return (
-    <div style={{ padding: '28px 32px 48px', maxWidth: 1100, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px 48px', maxWidth: 1100, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
 
       <div style={{ marginBottom: 28 }}>
         <div style={{ fontSize: 11, fontWeight: 700, color: '#94A3B8', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 8 }}>{t.course.platform}</div>
@@ -251,7 +251,7 @@ export default function CertificatesPage() {
       </div>
 
       {/* Stats */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 14, marginBottom: 28 }}>
+      <div className="zku-stats-3" style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: 14, marginBottom: 28 }}>
         {[
           { icon: <IcTrophy size={22} color={G} />,         v: earnedCount,     l: t.certs.earned,      color: G,         bg: '#FEF3C7' },
           { icon: <IcBook size={22} color={S} />,           v: inProgressCount, l: t.certs.in_progress, color: S,         bg: '#DBEAFE' },
@@ -268,19 +268,19 @@ export default function CertificatesPage() {
       </div>
 
       {/* How it works */}
-      <div style={{ background: `linear-gradient(135deg, ${N} 0%, #0a4fa8 100%)`, borderRadius: 18, padding: '18px 24px', marginBottom: 28, display: 'flex', alignItems: 'center', gap: 20, color: '#fff' }}>
+      <div className="zku-certs-how" style={{ background: `linear-gradient(135deg, ${N} 0%, #0a4fa8 100%)`, borderRadius: 18, padding: '18px 24px', marginBottom: 28, display: 'flex', alignItems: 'center', gap: 20, color: '#fff' }}>
         <div style={{ flexShrink: 0 }}><IcClipboard size={32} color="rgba(255,255,255,0.85)" /></div>
         <div>
           <div style={{ fontSize: 13, fontWeight: 800, marginBottom: 4 }}>{t.certs.how_title}</div>
           <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.65)', lineHeight: 1.6 }}>{t.certs.how_body}</div>
         </div>
-        <Link href="/english/zku/student/course" style={{ flexShrink: 0, padding: '10px 20px', borderRadius: 12, background: G, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: '0 4px 14px rgba(201,147,59,0.35)' }}>
+        <Link href="/english/zku/student/course" style={{ flexShrink: 0, padding: '12px 20px', borderRadius: 12, background: G, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: '0 4px 14px rgba(201,147,59,0.35)', minHeight: 44, display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
           {t.certs.to_courses}
         </Link>
       </div>
 
       {/* Cards */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: 20 }}>
+      <div className="zku-cards-min" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: 20 }}>
         {LEVEL_ORDER.map(lv => (
           <CertificateCard
             key={lv}

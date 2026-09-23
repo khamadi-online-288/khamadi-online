@@ -34,13 +34,15 @@ function FieldInput({ value, onChange, type = 'text', placeholder, disabled }: {
     <input
       type={type} value={value} placeholder={placeholder} disabled={disabled}
       onChange={e => onChange?.(e.target.value)}
+      className="zku-input-16"
       style={{
-        width: '100%', padding: '11px 14px', borderRadius: 10, boxSizing: 'border-box',
+        width: '100%', padding: '12px 14px', borderRadius: 10, boxSizing: 'border-box',
         border: `1.5px solid ${disabled ? '#F1F5F9' : 'rgba(0,56,118,0.15)'}`,
         fontSize: 14, fontFamily: 'inherit', outline: 'none',
         background: disabled ? '#F8FAFC' : '#fff',
         color: disabled ? '#94A3B8' : '#1E293B',
         transition: 'border-color 0.15s',
+        minHeight: 48,
       }}
       onFocus={e => { if (!disabled) e.currentTarget.style.borderColor = N }}
       onBlur={e => { e.currentTarget.style.borderColor = 'rgba(0,56,118,0.15)' }}
@@ -50,12 +52,13 @@ function FieldInput({ value, onChange, type = 'text', placeholder, disabled }: {
 
 function SaveBtn({ onClick, saved, t }: { onClick: () => void; saved: boolean; t: { save: string; saved: string } }) {
   return (
-    <button onClick={onClick} style={{
-      padding: '11px 28px', borderRadius: 10, border: 'none', cursor: 'pointer',
+    <button type="button" onClick={onClick} className="zku-profile-save" style={{
+      padding: '12px 28px', borderRadius: 10, border: 'none', cursor: 'pointer',
       background: saved ? T : N, color: '#fff',
       fontSize: 13, fontWeight: 700, fontFamily: 'inherit',
       transition: 'all 0.2s',
       boxShadow: saved ? '0 4px 14px rgba(29,158,117,0.3)' : '0 4px 14px rgba(0,56,118,0.25)',
+      minHeight: 44,
     }}>
       {saved ? t.saved : t.save}
     </button>
@@ -273,11 +276,11 @@ export default function ProfilePage() {
   }
 
   return (
-    <div style={{ padding: '28px 32px 48px', maxWidth: 900, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px 48px', maxWidth: 900, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
 
       {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 28 }}>
-        <div style={{ position: 'relative' }}>
+      <div className="zku-profile-hero" style={{ display: 'flex', alignItems: 'center', gap: 16, marginBottom: 28 }}>
+        <div style={{ position: 'relative', flexShrink: 0 }}>
           <div style={{
             width: 72, height: 72, borderRadius: '50%',
             background: `linear-gradient(135deg, ${S}, ${N})`,
@@ -285,18 +288,18 @@ export default function ProfilePage() {
             color: '#fff', fontWeight: 900, fontSize: 28,
             boxShadow: '0 6px 20px rgba(0,56,118,0.25)',
           }}>{initial}</div>
-          <button style={{
+          <button type="button" aria-label="Edit avatar" style={{
             position: 'absolute', bottom: 0, right: 0,
-            width: 24, height: 24, borderRadius: '50%',
+            width: 28, height: 28, borderRadius: '50%',
             background: N, border: '2px solid #fff',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             cursor: 'pointer',
-          }}><IcEdit size={11} color="#fff" /></button>
+          }}><IcEdit size={12} color="#fff" /></button>
         </div>
-        <div>
+        <div style={{ minWidth: 0, flex: 1 }}>
           <h1 style={{ fontSize: 22, fontWeight: 900, color: N, margin: 0, letterSpacing: '-0.02em' }}>{fullName || email}</h1>
-          <div style={{ fontSize: 13, color: '#64748B', marginTop: 2 }}>{email}</div>
-          <div style={{ display: 'flex', gap: 6, marginTop: 6 }}>
+          <div style={{ fontSize: 13, color: '#64748B', marginTop: 2, wordBreak: 'break-all' }}>{email}</div>
+          <div className="zku-profile-badges" style={{ display: 'flex', gap: 6, marginTop: 6 }}>
             <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#DCFCE7', color: T }}>{level}</span>
             <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#FEE2E2', color: '#EF4444', display: 'inline-flex', alignItems: 'center', gap: 4 }}><IcFlame size={11} color="#EF4444" /> {streak} {t.common.days}</span>
             <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#FEF3C7', color: '#C9933B' }}>{xp.toLocaleString()} {t.common.xp}</span>
@@ -305,15 +308,16 @@ export default function ProfilePage() {
       </div>
 
       {/* Tabs */}
-      <div style={{ display: 'flex', gap: 4, background: '#fff', borderRadius: 14, padding: 5, marginBottom: 20, boxShadow: '0 1px 4px rgba(0,0,0,0.05)', width: 'fit-content' }}>
+      <div className="zku-profile-tabs" style={{ display: 'flex', gap: 4, background: '#fff', borderRadius: 14, padding: 5, marginBottom: 20, boxShadow: '0 1px 4px rgba(0,0,0,0.05)', width: 'fit-content' }}>
         {TABS.map(tb => (
-          <button key={tb.id} onClick={() => setTab(tb.id)} style={{
+          <button key={tb.id} type="button" onClick={() => setTab(tb.id)} style={{
             display: 'flex', alignItems: 'center', gap: 6,
             padding: '9px 18px', borderRadius: 10, border: 'none', cursor: 'pointer',
             background: tab === tb.id ? N : 'transparent',
             color: tab === tb.id ? '#fff' : '#64748B',
             fontSize: 13, fontWeight: tab === tb.id ? 700 : 500,
             fontFamily: 'inherit', transition: 'all 0.15s',
+            whiteSpace: 'nowrap',
           }}>
             <span>{tb.icon}</span> {tb.label}
           </button>
@@ -325,9 +329,9 @@ export default function ProfilePage() {
         {/* ══ PROFILE TAB ══ */}
         {tab === 'profile' && (
           <>
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 20 }}>{t.profile.title_info}</div>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
+              <div className="zku-stack" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
                 <div>
                   <Label>{t.profile.full_name}</Label>
                   <FieldInput value={fullName} onChange={setFullName} />
@@ -353,8 +357,9 @@ export default function ProfilePage() {
                 <Label>{t.profile.bio}</Label>
                 <textarea
                   value={bio} onChange={e => setBio(e.target.value)}
+                  className="zku-input-16"
                   style={{
-                    width: '100%', padding: '11px 14px', borderRadius: 10,
+                    width: '100%', padding: '12px 14px', borderRadius: 10,
                     border: '1.5px solid rgba(0,56,118,0.15)',
                     fontSize: 14, fontFamily: 'inherit', outline: 'none',
                     resize: 'vertical', minHeight: 80, boxSizing: 'border-box', color: '#1E293B',
@@ -366,9 +371,9 @@ export default function ProfilePage() {
               <SaveBtn onClick={handleProfileSave} saved={!!saved['profile']} t={t.profile} />
             </div>
 
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 20 }}>{t.profile.title_study}</div>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
+              <div className="zku-stack" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
                 <div>
                   <Label>{t.profile.group}</Label>
                   <FieldInput value={group} onChange={setGroup} />
@@ -396,9 +401,9 @@ export default function ProfilePage() {
         {/* ══ SECURITY TAB ══ */}
         {tab === 'security' && (
           <>
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 20 }}>{t.profile.title_pass}</div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 14, maxWidth: 440 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 14, maxWidth: 440, width: '100%' }}>
                 <div>
                   <Label>{t.profile.old_pass}</Label>
                   <FieldInput value={oldPass} onChange={setOldPass} type="password" placeholder="••••••••" />
@@ -425,25 +430,25 @@ export default function ProfilePage() {
               </div>
             </div>
 
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 16 }}>{t.profile.sessions}</div>
               {[
                 { device: 'Chrome · Windows 10', location: 'Oral, Kazakhstan',  time: t.profile.today, current: true },
                 { device: 'Safari · iPhone',     location: 'Almaty, Kazakhstan', time: '3 days ago',    current: false },
               ].map((s, i) => (
-                <div key={i} style={{
+                <div key={i} className="zku-profile-session" style={{
                   display: 'flex', alignItems: 'center', gap: 14,
                   padding: '12px 14px', borderRadius: 12, marginBottom: 8,
                   background: s.current ? '#F0FDF4' : '#FAFAFA',
                   border: `1px solid ${s.current ? '#86EFAC' : '#F1F5F9'}`,
                 }}>
-                  <div style={{ flex: 1 }}>
+                  <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontSize: 13, fontWeight: 600, color: N }}>{s.device}</div>
                     <div style={{ fontSize: 11, color: '#94A3B8' }}>{s.location} · {s.time}</div>
                   </div>
                   {s.current
                     ? <span style={{ fontSize: 11, fontWeight: 700, color: T, background: '#DCFCE7', padding: '3px 10px', borderRadius: 99 }}>{t.profile.current}</span>
-                    : <button style={{ fontSize: 12, fontWeight: 600, color: C, background: '#FEE2E2', border: 'none', padding: '4px 12px', borderRadius: 99, cursor: 'pointer', fontFamily: 'inherit' }}>{t.profile.end_session}</button>
+                    : <button type="button" style={{ fontSize: 12, fontWeight: 600, color: C, background: '#FEE2E2', border: 'none', padding: '8px 12px', borderRadius: 99, cursor: 'pointer', fontFamily: 'inherit', minHeight: 36 }}>{t.profile.end_session}</button>
                   }
                 </div>
               ))}
@@ -453,7 +458,7 @@ export default function ProfilePage() {
 
         {/* ══ NOTIFICATIONS TAB ══ */}
         {tab === 'notifications' && (
-          <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+          <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
             <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 20 }}>{t.profile.title_notifs}</div>
             {[
               { key: 'homework',     icon: <IcClipboard size={18} color={N} />, label: t.profile.notif_hw_label,     desc: t.profile.notif_hw_desc },
@@ -462,19 +467,23 @@ export default function ProfilePage() {
               { key: 'achievements', icon: <IcStar      size={18} color="#C9933B" />, label: t.profile.notif_ach_label,    desc: t.profile.notif_ach_desc },
               { key: 'email',        icon: <IcMail      size={18} color={N} />, label: t.profile.notif_email_label,  desc: t.profile.notif_email_desc },
             ].map(n => (
-              <div key={n.key} style={{ display: 'flex', alignItems: 'center', gap: 14, padding: '14px 0', borderBottom: '1px solid #F8FAFC' }}>
+              <div key={n.key} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '14px 0', borderBottom: '1px solid #F8FAFC' }}>
                 <div style={{ width: 40, height: 40, borderRadius: 11, flexShrink: 0, background: '#F8FBFF', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                   {n.icon}
                 </div>
-                <div style={{ flex: 1 }}>
+                <div style={{ flex: 1, minWidth: 0 }}>
                   <div style={{ fontSize: 13, fontWeight: 700, color: N }}>{n.label}</div>
                   <div style={{ fontSize: 11, color: '#94A3B8', marginTop: 2 }}>{n.desc}</div>
                 </div>
                 <div
+                  role="switch"
+                  aria-checked={!!notifs[n.key as keyof typeof notifs]}
+                  tabIndex={0}
                   onClick={() => setNotifs((p: typeof notifs) => ({ ...p, [n.key]: !p[n.key as keyof typeof notifs] }))}
-                  style={{ width: 44, height: 24, borderRadius: 99, flexShrink: 0, cursor: 'pointer', background: notifs[n.key as keyof typeof notifs] ? N : '#E2E8F0', position: 'relative', transition: 'background 0.2s' }}
+                  onKeyDown={e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setNotifs((p: typeof notifs) => ({ ...p, [n.key]: !p[n.key as keyof typeof notifs] })) } }}
+                  style={{ width: 48, height: 28, borderRadius: 99, flexShrink: 0, cursor: 'pointer', background: notifs[n.key as keyof typeof notifs] ? N : '#E2E8F0', position: 'relative', transition: 'background 0.2s' }}
                 >
-                  <div style={{ position: 'absolute', top: 3, left: notifs[n.key as keyof typeof notifs] ? 22 : 3, width: 18, height: 18, borderRadius: '50%', background: '#fff', transition: 'left 0.2s', boxShadow: '0 1px 4px rgba(0,0,0,0.15)' }} />
+                  <div style={{ position: 'absolute', top: 4, left: notifs[n.key as keyof typeof notifs] ? 24 : 4, width: 20, height: 20, borderRadius: '50%', background: '#fff', transition: 'left 0.2s', boxShadow: '0 1px 4px rgba(0,0,0,0.15)' }} />
                 </div>
               </div>
             ))}
@@ -488,7 +497,7 @@ export default function ProfilePage() {
         {tab === 'stats' && (
           <>
             {/* Stats grid */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12 }}>
+            <div className="zku-stats-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 12 }}>
               {STATS.map(s => (
                 <div key={s.l} style={{ background: '#fff', borderRadius: 16, padding: '18px 16px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)', textAlign: 'center' }}>
                   <div style={{ width: 40, height: 40, borderRadius: 11, background: s.bg, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 8px' }}>{s.icon}</div>
@@ -499,7 +508,7 @@ export default function ProfilePage() {
             </div>
 
             {/* Skills */}
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 18 }}>{t.profile.title_stats}</div>
               {SKILLS.every(s => s.pct === 0) ? (
                 <div style={{ textAlign: 'center', padding: '24px 0' }}>
@@ -509,20 +518,20 @@ export default function ProfilePage() {
                 </div>
               ) : (
                 SKILLS.map(({ icon, name, pct, color }) => (
-                  <div key={name} style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
-                    <span style={{ display: 'flex', width: 22, justifyContent: 'center' }}>{icon}</span>
-                    <span style={{ fontSize: 13, fontWeight: 600, color: '#334155', width: 80 }}>{name}</span>
-                    <div style={{ flex: 1, height: 8, background: '#F1F5F9', borderRadius: 99, overflow: 'hidden' }}>
+                  <div key={name} style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 12 }}>
+                    <span style={{ display: 'flex', width: 22, justifyContent: 'center', flexShrink: 0 }}>{icon}</span>
+                    <span className="zku-profile-skill-name" style={{ fontSize: 13, fontWeight: 600, color: '#334155', width: 80, flexShrink: 0 }}>{name}</span>
+                    <div style={{ flex: 1, height: 8, background: '#F1F5F9', borderRadius: 99, overflow: 'hidden', minWidth: 0 }}>
                       <div style={{ height: '100%', width: `${pct}%`, background: color, borderRadius: 99 }} />
                     </div>
-                    <span style={{ fontSize: 13, fontWeight: 800, color: N, width: 40, textAlign: 'right' }}>{pct}%</span>
+                    <span style={{ fontSize: 13, fontWeight: 800, color: N, width: 40, textAlign: 'right', flexShrink: 0 }}>{pct}%</span>
                   </div>
                 ))
               )}
             </div>
 
             {/* Activity */}
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 16 }}>{t.profile.title_act}</div>
               <div style={{ textAlign: 'center', padding: '24px 0' }}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 8 }}><IcRocket size={32} color={N} /></div>
@@ -532,7 +541,7 @@ export default function ProfilePage() {
             </div>
 
             {/* Achievements */}
-            <div style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
+            <div className="zku-profile-card" style={{ background: '#fff', borderRadius: 20, padding: '24px 28px', boxShadow: '0 1px 4px rgba(0,0,0,0.05)' }}>
               <div style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 16 }}>{t.profile.achievements_title}</div>
               <div style={{ textAlign: 'center', padding: '24px 0' }}>
                 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 8 }}><IcStar size={32} color="#C9933B" /></div>

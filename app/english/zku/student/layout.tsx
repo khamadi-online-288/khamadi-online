@@ -1,6 +1,6 @@
 ﻿'use client'
 
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
@@ -75,6 +75,27 @@ const NAV_KEYS = [
   { href: '/english/zku/student/achievements',   key: 'achievements', icon: 'achievements'  },
 ] as const
 
+const BOTTOM_TABS = [
+  { href: '/english/zku/student',         key: 'home',     icon: 'home',     exact: true },
+  { href: '/english/zku/student/course',   key: 'course',   icon: 'course' },
+  { href: '/english/zku/student/vocab',    key: 'vocab',    icon: 'vocab' },
+  { href: '/english/zku/student/progress', key: 'progress', icon: 'progress' },
+] as const
+
+const MORE_LINKS = [
+  { href: '/english/zku/student/placement',     key: 'placement',    icon: 'placement' },
+  { href: '/english/zku/student/writing-coach', key: 'writing',      icon: 'writing' },
+  { href: '/english/zku/student/certificates',  key: 'certs',        icon: 'certs' },
+  { href: '/english/zku/student/leaderboard',   key: 'leaderboard',  icon: 'leaderboard' },
+  { href: '/english/zku/student/achievements',  key: 'achievements', icon: 'achievements' },
+  { href: '/english/zku/student/profile',       key: 'profile',      icon: 'user' },
+] as const
+
+function isNavActive(pathname: string, href: string, exact?: boolean): boolean {
+  if (exact) return pathname === href
+  return pathname.startsWith(href)
+}
+
 function UserMenu() {
   const [open, setOpen]         = useState(false)
   const [fullName, setFullName] = useState('')
@@ -82,9 +103,9 @@ function UserMenu() {
   const [xp, setXp]             = useState(0)
   const [streak, setStreak]     = useState(0)
   const [level, setLevel]       = useState('A1')
-  const ref                     = useRef<HTMLDivElement>(null)
   const router                  = useRouter()
   const { t }                   = useZkuLang()
+  const pathname                = usePathname()
 
   const initial   = fullName ? fullName.charAt(0).toUpperCase() : '?'
   // Kazakh/Russian format: "Фамилия Имя" — second word is the given name
@@ -133,14 +154,6 @@ function UserMenu() {
   }, [])
 
   useEffect(() => {
-    function handler(e: MouseEvent) {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false)
-    }
-    document.addEventListener('mousedown', handler)
-    return () => document.removeEventListener('mousedown', handler)
-  }, [])
-
-  useEffect(() => {
     function onProfileUpdated(e: Event) {
       const { fullName: name } = (e as CustomEvent<{ fullName: string }>).detail
       setFullName(name)
@@ -150,6 +163,24 @@ function UserMenu() {
     return () => window.removeEventListener('zku-profile-updated', onProfileUpdated)
   }, [])
 
+  useEffect(() => {
+    setOpen(false)
+  }, [pathname])
+
+  useEffect(() => {
+    if (!open) return
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false)
+    }
+    window.addEventListener('keydown', onKey)
+    return () => {
+      document.body.style.overflow = prev
+      window.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
   async function handleLogout() {
     setOpen(false)
     const supabase = createEnglishClient()
@@ -157,105 +188,129 @@ function UserMenu() {
     router.push('/english/zku/login')
   }
 
+  const menuItems = [
+    { href: '/english/zku/student/profile',      icon: 'user',         label: t.user.profile },
+    { href: '/english/zku/student/certificates',  icon: 'certs',        label: t.user.certs },
+    { href: '/english/zku/student/achievements',  icon: 'achievements', label: t.user.achievements },
+  ] as const
+
   return (
-    <div ref={ref} style={{ position: 'relative' }}>
-      <button onClick={() => setOpen(o => !o)} style={{
-        display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer',
-        background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
-        borderRadius: 12, padding: '6px 12px 6px 6px', fontFamily: 'inherit', transition: 'all 0.15s',
-      }}
-      onMouseEnter={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.14)')}
-      onMouseLeave={e => (e.currentTarget.style.background = 'rgba(255,255,255,0.08)')}>
-        <div style={{
+    <>
+      {/* Desktop: avatar chip. Mobile: burger (CSS). */}
+      <button
+        type="button"
+        className="zku-user-btn"
+        onClick={() => setOpen(o => !o)}
+        aria-label={t.user.profile}
+        aria-expanded={open}
+        style={{
+          display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer',
+          background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
+          borderRadius: 12, padding: '6px 12px 6px 6px', fontFamily: 'inherit', transition: 'all 0.15s',
+          minHeight: 44,
+        }}
+      >
+        <span className="zku-burger" aria-hidden>
+          <span /><span /><span />
+        </span>
+        <div className="zku-user-avatar" style={{
           width: 32, height: 32, borderRadius: '50%',
           background: 'linear-gradient(135deg, #1B8FC4, #003876)',
           border: '2px solid rgba(255,255,255,0.25)',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
           color: '#fff', fontWeight: 800, fontSize: 13, flexShrink: 0,
         }}>{initial}</div>
-        <div style={{ textAlign: 'left' }}>
+        <div className="zku-user-meta">
           <div style={{ fontSize: 13, fontWeight: 700, color: '#fff', lineHeight: 1.2 }}>{firstName}</div>
           <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.45)' }}>{level} · {streak} · {xp.toLocaleString()} XP</div>
         </div>
-        <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.4)', marginLeft: 2, transform: open ? 'rotate(180deg)' : 'none', transition: 'transform 0.2s' }}>▼</span>
       </button>
 
       {open && (
-        <div style={{
-          position: 'absolute', right: 0, top: 'calc(100% + 8px)',
-          background: '#fff', borderRadius: 16,
-          boxShadow: '0 8px 32px rgba(0,0,0,0.14)', border: '1px solid rgba(0,56,118,0.08)',
-          minWidth: 230, zIndex: 200, overflow: 'hidden',
-          animation: 'fadeSlideDown 0.15s ease',
-        }}>
-          {/* Header */}
-          <div style={{ padding: '16px 16px 12px', borderBottom: '1px solid #F1F5F9' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-              <div style={{
-                width: 40, height: 40, borderRadius: '50%',
-                background: 'linear-gradient(135deg, #1B8FC4, #003876)',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                color: '#fff', fontWeight: 800, fontSize: 16,
-              }}>{initial}</div>
-              <div>
-                <div style={{ fontSize: 14, fontWeight: 800, color: '#1E293B' }}>{fullName || '—'}</div>
-                <div style={{ fontSize: 11, color: '#94A3B8' }}>{email}</div>
+        <>
+          <div className="zku-drawer-backdrop" onClick={() => setOpen(false)} aria-hidden />
+          <aside className="zku-drawer-right" role="dialog" aria-label={t.user.profile}>
+            <div className="zku-drawer-head">
+              <div style={{ display: 'flex', alignItems: 'center', gap: 12, minWidth: 0, flex: 1 }}>
+                <div style={{
+                  width: 48, height: 48, borderRadius: '50%', flexShrink: 0,
+                  background: 'linear-gradient(135deg, #1B8FC4, #003876)',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  color: '#fff', fontWeight: 800, fontSize: 18,
+                }}>{initial}</div>
+                <div style={{ minWidth: 0 }}>
+                  <div style={{ fontSize: 15, fontWeight: 800, color: '#0f172a', lineHeight: 1.25, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                    {fullName || '—'}
+                  </div>
+                  <div style={{ fontSize: 12, color: '#94A3B8', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{email}</div>
+                </div>
               </div>
+              <button
+                type="button"
+                className="zku-drawer-close"
+                onClick={() => setOpen(false)}
+                aria-label={t.common.back}
+              >
+                <svg width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.2} strokeLinecap="round" aria-hidden>
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+              </button>
             </div>
-            <div style={{ display: 'flex', gap: 6, marginTop: 10, flexWrap: 'wrap' }}>
+
+            <div style={{ display: 'flex', gap: 6, padding: '0 20px 16px', flexWrap: 'wrap' }}>
               {[
                 { label: level, color: '#1D9E75', bg: '#DCFCE7' },
                 { label: `${streak} streak`, color: '#EF4444', bg: '#FEE2E2' },
                 { label: `${xp.toLocaleString()} XP`, color: '#C9933B', bg: '#FEF3C7' },
               ].map(b => (
-                <span key={b.label} style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: b.bg, color: b.color }}>{b.label}</span>
+                <span key={b.label} style={{ fontSize: 11, fontWeight: 700, padding: '4px 10px', borderRadius: 99, background: b.bg, color: b.color }}>{b.label}</span>
               ))}
             </div>
-          </div>
 
-          {/* Menu links */}
-          <div style={{ padding: '6px' }}>
-            {[
-              { href: '/english/zku/student/profile',     icon: 'user',   label: t.user.profile },
-              { href: '/english/zku/student/certificates', icon: 'certs',  label: t.user.certs },
-              { href: '/english/zku/student/achievements', icon: 'achievements', label: t.user.achievements },
-            ].map(item => (
-              <Link key={item.href} href={item.href} onClick={() => setOpen(false)} style={{
-                display: 'flex', alignItems: 'center', gap: 10,
-                padding: '10px 12px', borderRadius: 10, textDecoration: 'none',
-                color: '#334155', fontSize: 13, fontWeight: 600, transition: 'background 0.12s',
-              }}
-              onMouseEnter={e => (e.currentTarget.style.background = '#F8FBFF')}
-              onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}>
-                <span style={{ color: '#64748B' }}><Icon name={item.icon} size={16} /></span>
-                {item.label}
-              </Link>
-            ))}
-          </div>
+            <div className="zku-drawer-lang">
+              <div className="zku-drawer-lang-label">{t.user.language}</div>
+              <ZkuLangSwitcher variant="light" />
+            </div>
 
-          {/* Logout */}
-          <div style={{ padding: '6px', borderTop: '1px solid #F1F5F9' }}>
-            <button onClick={handleLogout} style={{
-              width: '100%', display: 'flex', alignItems: 'center', gap: 10,
-              padding: '10px 12px', borderRadius: 10, border: 'none', cursor: 'pointer',
-              background: 'transparent', color: '#EF4444',
-              fontSize: 13, fontWeight: 600, fontFamily: 'inherit', transition: 'background 0.12s',
-            }}
-            onMouseEnter={e => (e.currentTarget.style.background = '#FEE2E2')}
-            onMouseLeave={e => (e.currentTarget.style.background = 'transparent')}>
-              <span style={{ color: '#EF4444' }}>
-                <svg width={16} height={16} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+            <div style={{ padding: '8px 12px', borderTop: '1px solid #F1F5F9', flex: 1 }}>
+              {menuItems.map(item => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setOpen(false)}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 12,
+                    padding: '14px 12px', borderRadius: 12, textDecoration: 'none',
+                    color: '#334155', fontSize: 14, fontWeight: 600, minHeight: 48,
+                  }}
+                >
+                  <span style={{ color: '#64748B' }}><Icon name={item.icon} size={18} /></span>
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+
+            <div style={{ padding: '8px 12px max(12px, var(--zku-safe-bottom, 12px))', borderTop: '1px solid #F1F5F9' }}>
+              <button
+                type="button"
+                onClick={handleLogout}
+                style={{
+                  width: '100%', display: 'flex', alignItems: 'center', gap: 12,
+                  padding: '14px 12px', borderRadius: 12, border: 'none', cursor: 'pointer',
+                  background: 'transparent', color: '#EF4444',
+                  fontSize: 14, fontWeight: 600, fontFamily: 'inherit', minHeight: 48,
+                }}
+              >
+                <svg width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
                   <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/>
                 </svg>
-              </span>
-              {t.user.logout}
-            </button>
-          </div>
-        </div>
+                {t.user.logout}
+              </button>
+            </div>
+          </aside>
+        </>
       )}
-
-      <style>{`@keyframes fadeSlideDown { from{opacity:0;transform:translateY(-6px)} to{opacity:1;transform:translateY(0)} }`}</style>
-    </div>
+    </>
   )
 }
 
@@ -263,8 +318,15 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
   const pathname = usePathname()
   const { t }    = useZkuLang()
   const router   = useRouter()
-  // Auth: check sessionStorage first to avoid Supabase round-trip on every navigation
   const [authChecked, setAuthChecked] = useState(false)
+  const [moreOpen, setMoreOpen] = useState(false)
+  const isLesson = pathname.includes('/lesson/')
+
+  const moreActive = MORE_LINKS.some(link =>
+    link.key === 'profile'
+      ? pathname.startsWith(link.href)
+      : isNavActive(pathname, link.href)
+  )
 
   useEffect(() => {
     async function checkAuth() {
@@ -276,7 +338,6 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
           router.replace('/english/zku/login')
           return
         }
-        // Verify token is still valid by refreshing
         const { error: refreshError } = await supabase.auth.refreshSession()
         if (refreshError) {
           sessionStorage.removeItem('zku-auth-ok')
@@ -294,7 +355,6 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
     checkAuth()
   }, [router])
 
-  // Also listen for sign-out to clear cache
   useEffect(() => {
     const supabase = createEnglishClient()
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event: string) => {
@@ -306,30 +366,51 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
     return () => subscription.unsubscribe()
   }, [router])
 
-  if (!authChecked) return null // loading.tsx shows skeleton
+  useEffect(() => {
+    setMoreOpen(false)
+  }, [pathname])
+
+  useEffect(() => {
+    if (!moreOpen) return
+    const prev = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    return () => { document.body.style.overflow = prev }
+  }, [moreOpen])
+
+  if (!authChecked) return null
+
+  async function handleLogoutFromMore() {
+    setMoreOpen(false)
+    const supabase = createEnglishClient()
+    await supabase.auth.signOut()
+    router.push('/english/zku/login')
+  }
+
+  const shellClass = [
+    'zku-student-shell',
+    'zku-full-h',
+    isLesson ? 'zku-student-shell--lesson' : '',
+  ].filter(Boolean).join(' ')
 
   return (
-    <div style={{ minHeight: '100vh', background: '#F0F4FA', fontFamily: "'Montserrat', sans-serif" }}>
-      <header style={{ background: '#003876', position: 'sticky', top: 0, zIndex: 100, boxShadow: '0 2px 16px rgba(0,0,0,0.18)' }}>
-        {/* Top row */}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 28px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
-          <Link href="/english/zku" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
-            <div style={{ width: 32, height: 32, borderRadius: 8, background: 'rgba(255,255,255,0.15)', border: '1.5px solid rgba(255,255,255,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 900, fontSize: 10 }}>{t.layout.logo}</div>
-            <div>
-              <div style={{ color: '#fff', fontWeight: 800, fontSize: 14, lineHeight: 1.15 }}>{t.layout.title}</div>
-              <div style={{ color: 'rgba(255,255,255,0.35)', fontSize: 10 }}>{t.layout.subtitle}</div>
+    <div className={shellClass} style={{ minHeight: '100dvh', background: '#F0F4FA', fontFamily: "'Montserrat', sans-serif" }}>
+      <header className="zku-student-header">
+        <div className="zku-student-header-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 28px', borderBottom: '1px solid rgba(255,255,255,0.07)' }}>
+          <Link href="/english/zku/student" className="zku-student-brand" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none', minHeight: 44 }}>
+            <div className="zku-student-brand-mark" style={{ width: 32, height: 32, borderRadius: 8, background: 'rgba(255,255,255,0.15)', border: '1.5px solid rgba(255,255,255,0.2)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 900, fontSize: 10, flexShrink: 0 }}>{t.layout.logo}</div>
+            <div className="zku-student-brand-text" style={{ minWidth: 0 }}>
+              <div className="zku-student-brand-title" style={{ color: '#fff', fontWeight: 800, fontSize: 14, lineHeight: 1.15 }}>{t.layout.title}</div>
+              <div className="zku-student-subtitle" style={{ color: 'rgba(255,255,255,0.35)', fontSize: 10 }}>{t.layout.subtitle}</div>
             </div>
           </Link>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-            <ZkuLangSwitcher />
+          <div className="zku-student-header-actions" style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <UserMenu />
           </div>
         </div>
 
-        {/* Nav */}
-        <nav style={{ display: 'flex', padding: '0 20px', overflowX: 'auto', scrollbarWidth: 'none' }}>
+        <nav className="zku-student-desktop-nav" style={{ display: 'flex', padding: '0 20px', overflowX: 'auto', scrollbarWidth: 'none' }}>
           {NAV_KEYS.map(link => {
-            const active = ('exact' in link && link.exact) ? pathname === link.href : pathname.startsWith(link.href)
+            const active = isNavActive(pathname, link.href, 'exact' in link && link.exact)
             const label  = t.nav[link.key as keyof typeof t.nav]
             return (
               <Link key={link.href} href={link.href} style={{
@@ -349,7 +430,92 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
           })}
         </nav>
       </header>
-      <main>{children}</main>
+
+      <main className={isLesson ? undefined : 'zku-main-with-tabs'}>{children}</main>
+
+      <nav className="zku-bottom-tabs" aria-label="Student navigation">
+        {BOTTOM_TABS.map(tab => {
+          const active = isNavActive(pathname, tab.href, 'exact' in tab && tab.exact)
+          return (
+            <Link
+              key={tab.href}
+              href={tab.href}
+              className={`zku-bottom-tab${active ? ' zku-bottom-tab--active' : ''}`}
+            >
+              <Icon name={tab.icon} size={20} />
+              <span>{t.nav[tab.key]}</span>
+            </Link>
+          )
+        })}
+        <button
+          type="button"
+          className={`zku-bottom-tab${moreActive || moreOpen ? ' zku-bottom-tab--active' : ''}`}
+          onClick={() => setMoreOpen(true)}
+          aria-expanded={moreOpen}
+        >
+          <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+            <circle cx="5" cy="12" r="1.5" fill="currentColor" stroke="none" />
+            <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none" />
+            <circle cx="19" cy="12" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+          <span>{t.nav.more}</span>
+        </button>
+      </nav>
+
+      {moreOpen && (
+        <>
+          <div className="zku-more-sheet-backdrop" onClick={() => setMoreOpen(false)} aria-hidden />
+          <div className="zku-more-sheet" role="dialog" aria-label={t.nav.more}>
+            <div className="zku-more-sheet-handle" />
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+              {MORE_LINKS.map(link => {
+                const label = link.key === 'profile'
+                  ? t.user.profile
+                  : t.nav[link.key as keyof typeof t.nav]
+                const active = link.key === 'profile'
+                  ? pathname.startsWith(link.href)
+                  : isNavActive(pathname, link.href)
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    onClick={() => setMoreOpen(false)}
+                    style={{
+                      display: 'flex', alignItems: 'center', gap: 12,
+                      padding: '14px 12px', borderRadius: 12, textDecoration: 'none',
+                      minHeight: 48,
+                      background: active ? 'rgba(0,56,118,0.06)' : 'transparent',
+                      color: active ? '#003876' : '#334155',
+                      fontSize: 14, fontWeight: active ? 700 : 600,
+                    }}
+                  >
+                    <span style={{ color: active ? '#003876' : '#64748B' }}>
+                      <Icon name={link.icon} size={18} />
+                    </span>
+                    {label}
+                  </Link>
+                )
+              })}
+              <button
+                type="button"
+                onClick={handleLogoutFromMore}
+                style={{
+                  display: 'flex', alignItems: 'center', gap: 12,
+                  padding: '14px 12px', borderRadius: 12, border: 'none',
+                  background: 'transparent', cursor: 'pointer',
+                  color: '#EF4444', fontSize: 14, fontWeight: 600,
+                  fontFamily: 'inherit', minHeight: 48, textAlign: 'left',
+                }}
+              >
+                <svg width={18} height={18} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+                  <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/>
+                </svg>
+                {t.user.logout}
+              </button>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   )
 }

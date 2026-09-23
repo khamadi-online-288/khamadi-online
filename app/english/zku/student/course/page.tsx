@@ -139,7 +139,7 @@ export default function CoursePage() {
 
   return (
     <div style={{ minHeight: '100vh', background: BG, fontFamily: "'Montserrat', sans-serif" }}>
-    <div style={{ padding: '28px 32px 56px', maxWidth: 1160, margin: '0 auto' }}>
+    <div className="zku-page" style={{ padding: '28px 32px 56px', maxWidth: 1160, margin: '0 auto' }}>
 
       {/* Header */}
       <div style={{ marginBottom: 28 }}>
@@ -193,9 +193,9 @@ export default function CoursePage() {
       </div>
 
       {/* Level cards grid */}
-      <div style={{
+      <div className="zku-cards-min" style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))',
         gap: 16,
       }}>
         {LEVELS.map(lv => {
