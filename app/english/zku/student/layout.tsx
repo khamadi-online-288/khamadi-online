@@ -24,6 +24,11 @@ function Icon({ name, size = 15 }: { name: string; size?: number }) {
         <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 7h10M7 11h6"/>
       </svg>
     ),
+    literature: (
+      <svg style={s} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+      </svg>
+    ),
     progress: (
       <svg style={s} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
         <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
@@ -67,6 +72,7 @@ const NAV_KEYS = [
   { href: '/english/zku/student',               key: 'home',         icon: 'home',         exact: true },
   { href: '/english/zku/student/course',         key: 'course',       icon: 'course'        },
   { href: '/english/zku/student/vocab',          key: 'vocab',        icon: 'vocab'         },
+  { href: '/english/zku/student/literature',     key: 'literature',   icon: 'literature'    },
   { href: '/english/zku/student/progress',       key: 'progress',     icon: 'progress'      },
   { href: '/english/zku/student/placement',      key: 'placement',    icon: 'placement'     },
   { href: '/english/zku/student/writing-coach',  key: 'writing',      icon: 'writing'       },

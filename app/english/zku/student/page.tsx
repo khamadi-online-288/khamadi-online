@@ -35,6 +35,7 @@ const ICONS = {
   vocab:     'M2 3h20v14H2zM8 21h8M12 17v4M7 7h10M7 11h6',
   target:    'M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10zM12 18a6 6 0 100-12 6 6 0 000 12zM12 14a2 2 0 100-4 2 2 0 000 4z',
   writing:   'M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4z',
+  literature:'M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2zM22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z',
   arrow_r:   'M5 12h14M12 5l7 7-7 7',
   check:     'M20 6L9 17l-5-5',
   flame:     'M12 2c0 6-8 8-8 14a8 8 0 0016 0c0-3-1-6-3-8-1 3-3 4-5 2z',
@@ -131,6 +132,7 @@ export default function ZKUStudentDashboard() {
     { href: '/english/zku/student/vocab',          icon: ICONS.vocab,     label: t.dash.vocab_btn, sub: t.dash.words_wait  },
     { href: '/english/zku/student/placement',      icon: ICONS.target,    label: t.dash.grammar,   sub: t.dash.test_level  },
     { href: '/english/zku/student/writing-coach',  icon: ICONS.writing,   label: t.dash.writing,   sub: t.dash.writing_sub },
+    { href: '/english/zku/student/literature',     icon: ICONS.literature, label: t.dash.literature, sub: t.dash.literature_sub },
   ]
 
   const SKILL_LIST: [string, number][] = [
@@ -254,7 +256,7 @@ export default function ZKUStudentDashboard() {
         </div>
 
         {/* ── ROW 3: Quick Actions ── */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 12, marginBottom: 16 }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: 12, marginBottom: 16 }}>
           {QUICK.map(q => (
             <Link key={q.href} href={q.href} style={{
               background: '#fff', borderRadius: 16, padding: '20px 18px',
