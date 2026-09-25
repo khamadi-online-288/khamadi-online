@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo, useCallback } from 'react'
+import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 
 const N = '#003876'
@@ -19,7 +20,7 @@ type Toast = { msg: string; type: 'success'|'error' }
 type SortKey = 'name' | 'xp' | 'streak' | 'active'
 
 const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4', B1:'#7C3AED', B2:'#DB2777', C1:'#D97706' }
-const ROW_COLS = '1.7fr 72px 95px 60px 70px 65px 130px 104px'
+const ROW_COLS = '1.7fr 72px 95px 60px 70px 65px 130px 136px'
 
 export default function AdminStudentsPage() {
   const [students,   setStudents]   = useState<Student[]>([])
@@ -385,10 +386,11 @@ export default function AdminStudentsPage() {
                 <div style={{ display: 'flex', alignItems: 'center', gap: 9 }}>
                   <div style={{ width: 32, height: 32, borderRadius: '50%', background: `linear-gradient(135deg, ${lc}, ${lc}88)`, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontWeight: 800, fontSize: 12, flexShrink: 0 }}>{initial}</div>
                   <div style={{ minWidth: 0 }}>
-                    <div style={{ fontSize: 12, fontWeight: 700, color: N, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    <Link href={`/english/zku/admin/students/${s.user_id}`} style={{ fontSize: 12, fontWeight: 700, color: N, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', textDecoration: 'none', display: 'block' }}
+                      title="Открыть карточку">
                       {s.full_name ?? 'Студент'}
                       {!s.group_id && <span style={{ marginLeft: 5, fontSize: 9, fontWeight: 700, color: '#EF4444', background: '#FEE2E2', padding: '1px 5px', borderRadius: 99 }}>Без группы</span>}
-                    </div>
+                    </Link>
                     <div style={{ fontSize: 10, color: '#94A3B8', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.email}</div>
                   </div>
                 </div>
@@ -432,6 +434,10 @@ export default function AdminStudentsPage() {
                       {s.group_name ?? '—'}
                     </div>
                     <div style={{ display: 'flex', gap: 4 }}>
+                      <Link href={`/english/zku/admin/students/${s.user_id}`}
+                        title="Карточка" style={{ width: 28, height: 28, borderRadius: 7, background: '#EDE9FE', color: '#7C3AED', fontSize: 12, display: 'flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none' }}>
+                        👤
+                      </Link>
                       <button onClick={() => { setAssigningId(s.user_id); setAssignGroup(s.group_id ?? '') }}
                         title="Группа" style={{ width: 28, height: 28, borderRadius: 7, border: 'none', background: '#EEF2F7', color: MUT, cursor: 'pointer', fontSize: 12 }}>
                         👥
@@ -467,7 +473,7 @@ export default function AdminStudentsPage() {
           })}
 
           <div style={{ padding: '10px 20px', borderTop: `1px solid ${BDR}`, background: '#F8FBFF', fontSize: 12, color: MUT }}>
-            Показано {filtered.length} из {students.length} · Кликните 👥 чтобы назначить/изменить группу студента
+            Показано {filtered.length} из {students.length} · Имя или 👤 открывает карточку студента · 👥 меняет группу
             {stats.noGroup > 0 && <span style={{ marginLeft: 12, color: '#EF4444', fontWeight: 700 }}>⚠ {stats.noGroup} студентов без группы</span>}
           </div>
         </div>

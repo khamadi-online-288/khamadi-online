@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { useParams } from 'next/navigation'
 import { IcArrowRight, IcCheck, IcVolume } from '../../../_icons'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { minutesSince, writeLessonProgress } from '@/lib/english/lesson-time'
 import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N  = '#003876'
@@ -4723,6 +4724,7 @@ export default function VocabLessonPage() {
   const [reviewList,  setReviewList]  = useState<number[]>([])
   const [reviewIdx,   setReviewIdx]   = useState(0)
   const vocabXp = 30
+  const startedAtRef = useRef(Date.now())
   const savedRef = useRef(false)
 
   useEffect(() => {
@@ -4741,16 +4743,17 @@ export default function VocabLessonPage() {
           .eq('lesson_id', id)
           .maybeSingle()
         const alreadyDone = existing?.completed === true
-        await supabase.from('english_lesson_progress').upsert({
-          user_id:      user.id,
-          lesson_id:    id,
-          lesson_type:  'vocabulary',
-          lesson_title: `Vocab ${id}`,
-          completed:    true,
-          score:        Math.round(known.size / words.length * 100),
-          xp_earned:    vocabXp,
-          completed_at: new Date().toISOString(),
-        }, { onConflict: 'user_id,lesson_id' })
+        await writeLessonProgress(supabase, {
+          user_id:        user.id,
+          lesson_id:      id,
+          lesson_type:    'vocabulary',
+          lesson_title:   `Vocab ${id}`,
+          completed:      true,
+          score:          Math.round(known.size / words.length * 100),
+          xp_earned:      vocabXp,
+          completed_at:   new Date().toISOString(),
+          time_spent_min: minutesSince(startedAtRef.current),
+        }, 'upsert')
         if (!alreadyDone) {
           const { data: profile } = await supabase
             .from('english_user_profiles')

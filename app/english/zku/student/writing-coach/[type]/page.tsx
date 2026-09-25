@@ -1,9 +1,10 @@
 'use client'
 
-import React, { useState, use } from 'react'
+import React, { useState, use, useRef } from 'react'
 import Link from 'next/link'
 import { checkWriting } from '@/lib/english/checkWriting'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { minutesSince, writeLessonProgress } from '@/lib/english/lesson-time'
 import { useZkuLang } from '../../zku-lang'
 import { IcMail, IcEdit, IcBookOpen, IcStar, IcPalette, IcCheck, IcAlertTri } from '../../_icons'
 
@@ -81,6 +82,7 @@ export default function WritingTrainerPage({ params }: { params: Promise<{ type:
   const [saved, setSaved]         = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [saving, setSaving]       = useState(false)
+  const startedAtRef = useRef(Date.now())
 
   const wordCount = text.trim().split(/\s+/).filter(Boolean).length
 
@@ -106,16 +108,17 @@ export default function WritingTrainerPage({ params }: { params: Promise<{ type:
       const xpEarned = Math.round((checked.score / 100) * 50) // up to 50 XP for writing
       const lessonId = `writing-${type}-${Date.now()}`
 
-      await supabase.from('english_lesson_progress').insert({
-        user_id:      user.id,
-        lesson_id:    lessonId,
-        lesson_type:  'writing',
-        lesson_title: `${typeInfo.name}: ${task.title}`,
-        completed:    true,
-        score:        checked.score,
-        xp_earned:    xpEarned,
-        completed_at: new Date().toISOString(),
-      })
+      await writeLessonProgress(supabase, {
+        user_id:        user.id,
+        lesson_id:      lessonId,
+        lesson_type:    'writing',
+        lesson_title:   `${typeInfo.name}: ${task.title}`,
+        completed:      true,
+        score:          checked.score,
+        xp_earned:      xpEarned,
+        completed_at:   new Date().toISOString(),
+        time_spent_min: minutesSince(startedAtRef.current),
+      }, 'insert')
 
       // Update XP in profile
       const { data: profile } = await supabase

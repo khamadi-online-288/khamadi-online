@@ -6,6 +6,7 @@ import { useParams } from 'next/navigation'
 import { useZkuLang } from '../../zku-lang'
 import { IcCheck, IcX, IcBookOpen, IcBook, IcEdit, IcHeadphones, IcTarget, IcAward, IcStar, IcArrowRight, IcVolume } from '../../_icons'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { minutesSince, writeLessonProgress } from '@/lib/english/lesson-time'
 import { useTTSSingle, useTTSDialogue } from '@/lib/english/useTTS'
 
 // ── Colors ─────────────────────────────────────────────────────
@@ -49717,6 +49718,7 @@ export default function LessonPage() {
   }, [lesson.type, writSubmitted, phase])
 
   // ── Save lesson completion when phase reaches 'done' ──────────
+  const startedAtRef = useRef(Date.now())
   const savedRef = useRef(false)
   useEffect(() => {
     if (phase !== 'done' || savedRef.current) return
@@ -49747,16 +49749,17 @@ export default function LessonPage() {
           : 80 // default for non-test lessons
 
         // Save progress record
-        await supabase.from('english_lesson_progress').upsert({
-          user_id:       user.id,
-          lesson_id:     id,
-          lesson_type:   lesson.type,
-          lesson_title:  lesson.title,
-          completed:     true,
-          score:         computedScore,
-          xp_earned:     lesson.xp,
-          completed_at:  new Date().toISOString(),
-        }, { onConflict: 'user_id,lesson_id' })
+        await writeLessonProgress(supabase, {
+          user_id:         user.id,
+          lesson_id:       id,
+          lesson_type:     lesson.type,
+          lesson_title:    lesson.title,
+          completed:       true,
+          score:           computedScore,
+          xp_earned:       lesson.xp,
+          completed_at:    new Date().toISOString(),
+          time_spent_min:  minutesSince(startedAtRef.current),
+        }, 'upsert')
 
         // Only update XP and streak if this is first completion
         if (!alreadyDone) {
@@ -49816,16 +49819,17 @@ export default function LessonPage() {
         const computedScore = total > 0 ? Math.round(correct / total * 100) : 0
         const xpEarned = Math.max(qzXP, 0)
 
-        await supabase.from('english_lesson_progress').upsert({
-          user_id:      user.id,
-          lesson_id:    id,
-          lesson_type:  'test',
-          lesson_title: lesson.title,
-          completed:    true,
-          score:        computedScore,
-          xp_earned:    xpEarned,
-          completed_at: new Date().toISOString(),
-        }, { onConflict: 'user_id,lesson_id' })
+        await writeLessonProgress(supabase, {
+          user_id:        user.id,
+          lesson_id:      id,
+          lesson_type:    'test',
+          lesson_title:   lesson.title,
+          completed:      true,
+          score:          computedScore,
+          xp_earned:      xpEarned,
+          completed_at:   new Date().toISOString(),
+          time_spent_min: minutesSince(startedAtRef.current),
+        }, 'upsert')
 
         if (!alreadyDone) {
           const { data: profile } = await supabase
