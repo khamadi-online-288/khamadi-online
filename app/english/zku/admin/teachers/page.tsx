@@ -26,6 +26,7 @@ export default function AdminTeachersPage() {
   const [search,    setSearch]    = useState('')
   const [toast,     setToast]     = useState<Toast | null>(null)
   const [showForm,  setShowForm]  = useState(false)
+  const [deletingId, setDeletingId] = useState<string | null>(null)
 
   // Create teacher form
   const [formName,  setFormName]  = useState('')
@@ -130,12 +131,29 @@ export default function AdminTeachersPage() {
     setTeachers(prev => prev.filter(t => t.user_id !== userId))
   }
 
-  async function removeTeacher(userId: string, name: string) {
-    if (!confirm(`Удалить аккаунт преподавателя ${name}? Все его группы останутся.`)) return
-    const supabase = createEnglishClient()
-    await supabase.from('english_user_profiles').update({ role: 'student' }).eq('user_id', userId)
-    showToast(`${name} переведён в роль студента`)
-    await load()
+  async function deleteTeacher(userId: string, name: string) {
+    if (!tok) { showToast('Нет сессии', 'error'); return }
+    if (deletingId) return
+    if (!confirm(`Удалить аккаунт преподавателя «${name}»?\n\nДействие необратимо: вход будет удалён. Группы останутся, но без этого преподавателя.`)) return
+
+    setDeletingId(userId)
+    try {
+      const res = await fetch('/api/english/admin/delete-user', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${tok}` },
+        body: JSON.stringify({ targetUserId: userId }),
+      })
+      const d = await res.json() as { ok?: boolean; error?: string }
+      if (!res.ok || !d.ok) {
+        showToast(d.error ?? 'Ошибка удаления', 'error')
+        return
+      }
+      setTeachers(prev => prev.filter(row => row.user_id !== userId))
+      if (passId === userId) { setPassId(null); setNewPass('') }
+      showToast(`✓ ${name} удалён`)
+    } finally {
+      setDeletingId(null)
+    }
   }
 
   const now = new Date()
@@ -317,11 +335,17 @@ export default function AdminTeachersPage() {
                     background: '#EDE9FE', color: ADMIN, fontSize: 11, fontWeight: 700,
                     cursor: 'pointer', fontFamily: 'inherit', whiteSpace: 'nowrap',
                   }}>→ Admin</button>
-                  <button onClick={() => removeTeacher(t.user_id, t.full_name ?? 'Преподаватель')} style={{
-                    padding: '7px 10px', borderRadius: 8, border: '1px solid #FEE2E2',
-                    background: '#FEE2E2', color: '#DC2626', fontSize: 11, fontWeight: 700,
-                    cursor: 'pointer', fontFamily: 'inherit',
-                  }}>✕</button>
+                  <button
+                    onClick={() => deleteTeacher(t.user_id, t.full_name ?? 'Преподаватель')}
+                    disabled={deletingId === t.user_id}
+                    title="Удалить"
+                    style={{
+                      padding: '7px 10px', borderRadius: 8, border: '1px solid #FEE2E2',
+                      background: deletingId === t.user_id ? '#FECACA' : '#FEE2E2',
+                      color: '#DC2626', fontSize: 11, fontWeight: 700,
+                      cursor: deletingId === t.user_id ? 'wait' : 'pointer', fontFamily: 'inherit',
+                    }}
+                  >{deletingId === t.user_id ? '…' : '✕'}</button>
                 </div>
               </div>
             )

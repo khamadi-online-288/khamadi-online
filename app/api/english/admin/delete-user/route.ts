@@ -57,10 +57,24 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Пользователь не найден' }, { status: 404 })
   if (target.role === 'admin')
     return NextResponse.json({ error: 'Нельзя удалить администратора' }, { status: 400 })
-  if (target.role !== 'student')
-    return NextResponse.json({ error: 'Удаление доступно только для студентов' }, { status: 400 })
+  if (target.role !== 'student' && target.role !== 'teacher')
+    return NextResponse.json({ error: 'Удаление доступно только для студентов и преподавателей' }, { status: 400 })
 
   try {
+    if (target.role === 'teacher') {
+      const { error: groupsErr } = await admin
+        .from('english_groups')
+        .update({ teacher_id: null })
+        .eq('teacher_id', targetUserId)
+      if (groupsErr && !/does not exist|schema cache/i.test(groupsErr.message)) {
+        throw new Error(`english_groups: ${groupsErr.message}`)
+      }
+      await deleteByUserId(admin, 'english_group_teachers', 'teacher_id', targetUserId)
+      await deleteByUserId(admin, 'english_assignments', 'teacher_id', targetUserId)
+      await deleteByUserId(admin, 'english_materials', 'uploaded_by', targetUserId)
+      await deleteByUserId(admin, 'lms_teacher_notes', 'teacher_id', targetUserId)
+    }
+
     for (const table of USER_ID_TABLES) {
       await deleteByUserId(admin, table, 'user_id', targetUserId)
     }
