@@ -100,7 +100,7 @@ export default function CoursePage() {
       title: t.course.title_a2,
       topics: ['Past Continuous', 'Future: will / going to', 'Conditionals', 'Comparatives'],
       color: '#1B8FC4', colorLight: '#DBEAFE', colorBorder: '#93C5FD',
-      totalModules: 24, total_lessons: 168, total_hours: 220, total_words: 1500,
+      totalModules: 24, total_lessons: 168, total_hours: 150, total_words: 1500,
       isLocked: currentLevel !== 'A2',
       progress: levelProgress['A2'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['A2'] ?? 0) / 100) * 24),
