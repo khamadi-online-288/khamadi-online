@@ -4,7 +4,6 @@ import { useState, useEffect, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -26,7 +25,6 @@ const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4
 const TYPE_ICON: Record<string,string> = { reading:'📖', listening:'🎧', grammar:'📐', writing:'✍️', vocabulary:'📚', test:'🎯' }
 
 export default function StudentProfilePage({ params }: { params: Promise<{ id: string }> }) {
-  const { t } = useZkuLang()
   const { id } = use(params)
   const router  = useRouter()
   const [profile,  setProfile]  = useState<Profile | null>(null)
@@ -39,44 +37,30 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
     async function load() {
       const supabase = createEnglishClient()
       const { data: { session } } = await supabase.auth.getSession()
-      if (!session) return
-
-      // Verify teacher has access to this student (student is in one of teacher's groups)
-      const { data: grps } = await supabase
-        .from('english_groups').select('id, name').eq('teacher_id', session.user.id)
-      const groupIds = (grps ?? []).map((g: { id: string }) => g.id)
-
-      const { data: prof } = await supabase
-        .from('english_user_profiles')
-        .select('user_id, full_name, current_level, total_xp, current_streak, longest_streak, last_active_at, group_id')
-        .eq('user_id', id)
-        .maybeSingle()
-
-      if (!prof) { router.replace('/english/zku/teacher/students'); return }
-
-      // Check access - either student is in teacher's group, or admin
-      const { data: myProfile } = await supabase
-        .from('english_user_profiles').select('role').eq('user_id', session.user.id).maybeSingle()
-      if (myProfile?.role !== 'admin' && !groupIds.includes((prof as Profile).group_id ?? '')) {
-        router.replace('/english/zku/teacher/students'); return
+      if (!session) {
+        setLoading(false)
+        router.replace('/english/zku/login')
+        return
       }
 
-      setProfile(prof as Profile)
+      const res = await fetch(`/api/english/teacher/students/${id}`, {
+        headers: { Authorization: `Bearer ${session.access_token}` },
+      })
+      const data = await res.json() as {
+        student?: Profile & { group_name?: string | null }
+        lessons?: LessonProgress[]
+        error?: string
+      }
 
-      // Group name
-      const gName = (grps ?? []).find((g: { id: string; name: string }) => g.id === (prof as Profile).group_id)?.name ?? '—'
-      setGroupName(gName)
+      if (!res.ok || !data.student) {
+        setLoading(false)
+        router.replace('/english/zku/teacher/students')
+        return
+      }
 
-      // Lesson history
-      const { data: lh } = await supabase
-        .from('english_lesson_progress')
-        .select('lesson_id, lesson_type, lesson_title, score, xp_earned, completed_at')
-        .eq('user_id', id)
-        .eq('completed', true)
-        .order('completed_at', { ascending: false })
-        .limit(50)
-      setLessons((lh ?? []) as LessonProgress[])
-
+      setProfile(data.student)
+      setGroupName(data.student.group_name || '—')
+      setLessons(data.lessons ?? [])
       setLoading(false)
     }
     load()
