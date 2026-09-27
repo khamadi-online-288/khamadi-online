@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
@@ -14,7 +14,7 @@ import { useZkuLang } from '../../zku-lang'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import {
   IcBookOpen, IcHeadphones, IcEdit, IcBook, IcTarget,
-  IcCheck, IcLock, IcClock, IcStar, IcArrowRight, IcCheckCircle, IcX,
+  IcCheck, IcClock, IcStar, IcArrowRight, IcCheckCircle,
 } from '../../_icons'
 
 // ── Colors ──────────────────────────────────────────────────────
@@ -273,28 +273,24 @@ export default function ModulePage() {
   const testLesson   = lessons.find(l => l.type === 'test')
   const testDone     = testLesson ? completed.has(testLesson.id) : false
 
-  // Test unlocks when ≥85% of ALL non-test lessons done (reading, listening, grammar, writing, vocab)
-  const nonTestTotal = lessons.filter(l => l.type !== 'test').length
-  const nonTestDone  = doneLessons.length
-  const testUnlocked = nonTestTotal > 0 && nonTestDone / nonTestTotal >= 0.85
+  // All lessons and tests are always unlocked
+  const testUnlocked = true
 
   // first uncompleted lesson (the one to start/continue)
   const currentLesson = todoLessons[0] ?? (testUnlocked && !testDone ? testLesson : null)
 
   function LessonCard({ lesson, status }: { lesson: typeof lessons[0]; status: 'done' | 'current' | 'todo' | 'locked' }) {
     const c = cfg[lesson.type] ?? cfg.reading
-    const isLocked = status === 'locked'
+    // Force isLocked to false so all lesson links remain accessible
+    const isLocked = false
 
-    const href = isLocked
-      ? '#'
-      : lesson.type === 'vocabulary'
-        ? `/english/zku/student/vocab/lesson/${lesson.id}`
-        : `/english/zku/student/lesson/${lesson.id}`
+    const href = lesson.type === 'vocabulary'
+      ? `/english/zku/student/vocab/lesson/${lesson.id}`
+      : `/english/zku/student/lesson/${lesson.id}`
 
     return (
       <Link
         href={href}
-        onClick={e => isLocked && e.preventDefault()}
         style={{ textDecoration: 'none', display: 'block' }}
       >
         <div style={{
@@ -302,34 +298,31 @@ export default function ModulePage() {
           padding: '12px 14px', borderRadius: 12, marginBottom: 6,
           background: status === 'done' ? '#F0FDF4'
             : status === 'current' ? '#fff'
-            : status === 'locked' ? '#FAFAFA'
             : '#fff',
           border: status === 'done' ? '1px solid #86EFAC'
             : status === 'current' ? `1.5px solid ${c.color}`
             : '1px solid rgba(0,56,118,0.08)',
-          opacity: isLocked ? 0.5 : 1,
-          cursor: isLocked ? 'not-allowed' : 'pointer',
+          opacity: 1,
+          cursor: 'pointer',
           transition: 'all 0.15s',
           boxShadow: status === 'current' ? `0 2px 12px ${c.color}22` : 'none',
         }}>
           {/* Type icon */}
           <div style={{
             width: 36, height: 36, borderRadius: 10, flexShrink: 0,
-            background: status === 'done' ? '#DCFCE7' : isLocked ? '#F1F5F9' : c.bg,
+            background: status === 'done' ? '#DCFCE7' : c.bg,
             display: 'flex', alignItems: 'center', justifyContent: 'center',
           }}>
             {status === 'done'
               ? <IcCheck size={16} color={T} />
-              : isLocked
-                ? <IcLock size={15} color="#94A3B8" />
-                : c.icon}
+              : c.icon}
           </div>
 
           {/* Info */}
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{
               fontSize: 12, fontWeight: 700,
-              color: status === 'done' ? T : isLocked ? '#94A3B8' : N,
+              color: status === 'done' ? T : N,
               marginBottom: 2, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
             }}>
               {lesson.title}
@@ -567,9 +560,9 @@ export default function ModulePage() {
                   {testDone ? <IcCheck size={15} color={G} /> : <IcStar size={15} color={G} />}
                 </div>
                 <div>
-                  <div style={{ fontSize: 12, fontWeight: 700, color: testDone ? G : testUnlocked ? G : MU }}>{t.module.unlock_test}</div>
-                  <div style={{ fontSize: 11, color: testDone ? G : testUnlocked ? '#D97706' : '#94A3B8' }}>
-                    {testDone ? '✓ Тест пройден' : testUnlocked ? '✓ Разблокирован — можно проходить!' : `Пройдите ${Math.ceil(nonTestTotal * 0.85) - nonTestDone} ещё урок(а) чтобы разблокировать`}
+                  <div style={{ fontSize: 12, fontWeight: 700, color: testDone ? G : G }}>{t.module.unlock_test}</div>
+                  <div style={{ fontSize: 11, color: testDone ? G : '#D97706' }}>
+                    {testDone ? '✓ Тест пройден' : '✓ Разблокирован — можно проходить!'}
                   </div>
                 </div>
               </div>
@@ -755,32 +748,22 @@ export default function ModulePage() {
                       {testDone ? t.module.test_passed : t.module.final_test}
                     </div>
                     <div style={{ fontSize: 10, color: MU }}>
-                      {testDone ? t.module.module_done : `${t.module.unlocks_after} · +${testLesson.xp_reward} XP`}
+                      {testDone ? t.module.module_done : `Доступно сразу · +${testLesson.xp_reward} XP`}
                     </div>
                   </div>
                 </div>
 
-                {/* Unlock requirement hint */}
-                {!testUnlocked && (
-                  <div style={{ marginBottom: 10, padding: '8px 12px', borderRadius: 8, background: '#FFFBEB', border: '1px solid #FDE68A', fontSize: 11, color: '#92400E', fontWeight: 600 }}>
-                    Пройдите 85% уроков модуля чтобы разблокировать финальный тест
-                    <div style={{ marginTop: 4, color: '#D97706' }}>
-                      {nonTestDone} из {nonTestTotal} уроков · нужно ещё {Math.ceil(nonTestTotal * 0.85) - nonTestDone}
-                    </div>
-                  </div>
-                )}
                 <Link
-                  href={testUnlocked ? `/english/zku/student/lesson/${testLesson.id}` : '#'}
-                  onClick={e => !testUnlocked && e.preventDefault()}
+                  href={`/english/zku/student/lesson/${testLesson.id}`}
                   style={{ textDecoration: 'none', display: 'block' }}
                 >
                   <div style={{
-                    background: testDone ? T : testUnlocked ? G : '#F1F5F9',
-                    color: testUnlocked || testDone ? '#fff' : '#94A3B8',
+                    background: testDone ? T : G,
+                    color: '#fff',
                     borderRadius: 10, padding: '12px 16px',
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    cursor: testUnlocked ? 'pointer' : 'not-allowed',
-                    boxShadow: (testUnlocked && !testDone) ? `0 4px 14px ${G}44` : 'none',
+                    cursor: 'pointer',
+                    boxShadow: !testDone ? `0 4px 14px ${G}44` : 'none',
                   }}>
                     <div>
                       <div style={{ fontSize: 13, fontWeight: 800 }}>{testLesson.title}</div>
@@ -788,11 +771,9 @@ export default function ModulePage() {
                         {testLesson.duration_min} {t.module.min_word} · +{testLesson.xp_reward} XP
                       </div>
                     </div>
-                    {!testUnlocked
-                      ? <IcLock size={16} color="#94A3B8" />
-                      : testDone
-                        ? <IcCheckCircle size={20} color="rgba(255,255,255,0.9)" />
-                        : <IcArrowRight size={16} color="#fff" />}
+                    {testDone
+                      ? <IcCheckCircle size={20} color="rgba(255,255,255,0.9)" />
+                      : <IcArrowRight size={16} color="#fff" />}
                   </div>
                 </Link>
               </div>

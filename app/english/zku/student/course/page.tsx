@@ -71,7 +71,7 @@ export default function CoursePage() {
     load()
   }, [])
 
-  const LEVEL_ORDER = ['A1', 'A1.1', 'A2', 'B1', 'B2', 'C1']
+  const LEVEL_ORDER = ['A1', 'A2', 'B1', 'B2', 'C1']
   const currentIdx  = LEVEL_ORDER.indexOf(currentLevel)
 
   const LEVELS: Level[] = [
@@ -80,47 +80,47 @@ export default function CoursePage() {
       title: t.course.title_a1,
       topics: ['am / is / are', 'Present Simple', 'Basic questions', 'Numbers & greetings'],
       color: N, colorLight: '#EEF2F7', colorBorder: 'rgba(0,56,118,0.2)',
-      totalModules: 16, total_lessons: 80,  total_hours: 120, total_words: 800,
+      totalModules: 16, total_lessons: 80,  total_hours: 150, total_words: 800,
       isLocked: currentLevel !== 'A1',
       progress: levelProgress['A1'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['A1'] ?? 0) / 100) * 16),
     },
     {
-      code: 'A1.1', slug: 'a11', badge: 'A1.1 ELEMENTARY',
+      code: 'A1.1', slug: 'a11', badge: 'A2 ELEMENTARY',
       title: t.course.title_a11,
       topics: ['can/could', 'used to', 'Present Perfect', 'Conditionals'],
       color: '#16A34A', colorLight: '#DCFCE7', colorBorder: '#86EFAC',
-      totalModules: 18, total_lessons: 128, total_hours: 130, total_words: 900,
+      totalModules: 18, total_lessons: 128, total_hours: 150, total_words: 900,
       isLocked: currentLevel !== 'A1.1',
       progress: levelProgress['A1.1'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['A1.1'] ?? 0) / 100) * 18),
     },
     {
-      code: 'A2',  slug: 'a2',  badge: 'A2 PRE-INTER',
+      code: 'A2',  slug: 'a2',  badge: 'B1 PRE-INTER',
       title: t.course.title_a2,
       topics: ['Past Continuous', 'Future: will / going to', 'Conditionals', 'Comparatives'],
       color: '#1B8FC4', colorLight: '#DBEAFE', colorBorder: '#93C5FD',
-      totalModules: 24, total_lessons: 168, total_hours: 220, total_words: 1500,
+      totalModules: 24, total_lessons: 168, total_hours: 150, total_words: 1500,
       isLocked: currentLevel !== 'A2',
       progress: levelProgress['A2'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['A2'] ?? 0) / 100) * 24),
     },
     {
-      code: 'B1',  slug: 'b1',  badge: 'B1 INTERMEDIATE',
+      code: 'B1',  slug: 'b1',  badge: 'B2 INTERMEDIATE',
       title: t.course.title_b1,
       topics: ['Conditionals all types', 'Reported Speech', 'Passive Voice advanced', 'Modal verbs advanced'],
       color: '#7C3AED', colorLight: '#EDE9FE', colorBorder: '#C4B5FD',
-      totalModules: 26, total_lessons: 208, total_hours: 260, total_words: 1820,
+      totalModules: 26, total_lessons: 208, total_hours: 150, total_words: 1820,
       isLocked: currentLevel !== 'B1',
       progress: levelProgress['B1'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['B1'] ?? 0) / 100) * 26),
     },
     {
-      code: 'B2',  slug: 'b2',  badge: 'B2 UPPER-INTER',
+      code: 'B2',  slug: 'b2',  badge: 'C1 UPPER-INTER',
       title: t.course.title_b2,
       topics: ['Mixed Conditionals', 'Advanced Modals', 'Inversion & Cleft', 'IELTS 6.0–7.0'],
       color: '#DB2777', colorLight: '#FCE7F3', colorBorder: '#F9A8D4',
-      totalModules: 26, total_lessons: 228, total_hours: 260, total_words: 2000,
+      totalModules: 26, total_lessons: 228, total_hours: 150, total_words: 2000,
       isLocked: currentLevel !== 'B2',
       progress: levelProgress['B2'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['B2'] ?? 0) / 100) * 26),
@@ -130,7 +130,7 @@ export default function CoursePage() {
       title: t.course.title_c1,
       topics: ['Subjunctive & Inversion', 'Academic Discourse', 'Ellipsis & Cohesion', 'IELTS 7.0+'],
       color: '#D97706', colorLight: '#FEF3C7', colorBorder: '#FCD34D',
-      totalModules: 32, total_lessons: 282, total_hours: 370, total_words: 2800,
+      totalModules: 32, total_lessons: 282, total_hours: 150, total_words: 2800,
       isLocked: currentLevel !== 'C1',
       progress: levelProgress['C1'] ?? 0,
       modulesCompleted: Math.floor(((levelProgress['C1'] ?? 0) / 100) * 32),
