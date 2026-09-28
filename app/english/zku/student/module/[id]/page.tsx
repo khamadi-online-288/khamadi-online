@@ -12,6 +12,7 @@ import {
 } from '@/lib/english/mockData'
 import { useZkuLang } from '../../zku-lang'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { certByModule, certPath, examComplete } from '@/lib/english/zku-level-certs'
 import {
   IcBookOpen, IcHeadphones, IcEdit, IcBook, IcTarget,
   IcCheck, IcClock, IcStar, IcArrowRight, IcCheckCircle,
@@ -592,43 +593,29 @@ export default function ModulePage() {
             </Link>
           )}
 
-          {/* A1 Certificate button — only for m-16 when all exam parts done */}
-          {id === 'm-16' && !currentLesson && doneCount >= 3 && (
-            <Link href="/english/zku/student/certificates/a1" style={{ textDecoration: 'none' }}>
-              <div style={{
-                marginTop: 20, borderRadius: 14, overflow: 'hidden',
-                boxShadow: '0 8px 32px rgba(201,147,59,0.35)', cursor: 'pointer',
-              }}>
-                <div style={{ background: 'linear-gradient(135deg, #C9933B, #8B6427)', padding: '20px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                  <div>
-                    <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.7)', marginBottom: 4, letterSpacing: '0.08em', textTransform: 'uppercase' }}>{t.module.exam_complete}</div>
-                    <div style={{ fontSize: 18, fontWeight: 900, color: '#fff' }}>{t.module.get_cert_a1}</div>
-                    <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 4 }}>{t.module.save_pdf}</div>
+          {(() => {
+            const exam = certByModule(id)
+            if (!exam || !examComplete(exam, completed)) return null
+            const label = exam.code === 'A1' ? t.module.get_cert_a1
+              : exam.code === 'A1.1' ? t.module.get_cert_a11
+              : exam.code === 'A2' ? t.module.get_cert_a2
+              : exam.code === 'B1' ? t.module.get_cert_b1
+              : `${t.certs.completion_cert} ${exam.code}`
+            return (
+              <Link href={certPath(exam)} style={{ textDecoration: 'none' }}>
+                <div style={{ marginTop: 20, borderRadius: 14, overflow: 'hidden', boxShadow: `0 8px 32px ${exam.shadow}`, cursor: 'pointer' }}>
+                  <div style={{ background: exam.button, padding: '20px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <div>
+                      <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.7)', marginBottom: 4, letterSpacing: '0.08em', textTransform: 'uppercase' }}>{t.module.exam_complete}</div>
+                      <div style={{ fontSize: 18, fontWeight: 900, color: '#fff' }}>{label}</div>
+                      <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 4 }}>{t.module.save_pdf}</div>
+                    </div>
+                    <div style={{ fontSize: 40 }}>🎓</div>
                   </div>
-                  <div style={{ fontSize: 40 }}>🎓</div>
                 </div>
-              </div>
-            </Link>
-          )}
-
-          {/* A1.1 Certificate button — only for m-a11-18 when all exam parts done */}
-          {id === 'm-a11-18' && !currentLesson && doneCount >= 3 && (
-            <Link href="/english/zku/student/certificates/a11" style={{ textDecoration: 'none' }}>
-              <div style={{
-                marginTop: 20, borderRadius: 14, overflow: 'hidden',
-                boxShadow: '0 8px 32px rgba(22,163,74,0.30)', cursor: 'pointer',
-              }}>
-                <div style={{ background: 'linear-gradient(135deg, #16A34A, #15803D)', padding: '20px 24px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                  <div>
-                    <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.7)', marginBottom: 4, letterSpacing: '0.08em', textTransform: 'uppercase' }}>{t.module.exam_complete}</div>
-                    <div style={{ fontSize: 18, fontWeight: 900, color: '#fff' }}>{t.module.get_cert_a11}</div>
-                    <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)', marginTop: 4 }}>{t.module.save_pdf}</div>
-                  </div>
-                  <div style={{ fontSize: 40 }}>🎓</div>
-                </div>
-              </div>
-            </Link>
-          )}
+              </Link>
+            )
+          })()}
         </div>
 
         {/* ══ RIGHT: Lesson navigator ══ */}

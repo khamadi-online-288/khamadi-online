@@ -8,6 +8,7 @@ import { IcCheck, IcX, IcBookOpen, IcBook, IcEdit, IcHeadphones, IcTarget, IcAwa
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { minutesSince, writeLessonProgress } from '@/lib/english/lesson-time'
 import { useTTSSingle, useTTSDialogue } from '@/lib/english/useTTS'
+import { certByLesson, certPath, examComplete } from '@/lib/english/zku-level-certs'
 
 // ── Colors ─────────────────────────────────────────────────────
 const N  = '#003876'
@@ -49742,6 +49743,7 @@ export default function LessonPage() {
   const [qzDone,     setQzDone]    = useState(false)
   const [showXpAnim, setShowXpAnim] = useState(false)
   const [xpAnimVal,  setXpAnimVal]  = useState(0)
+  const [certHref,   setCertHref]   = useState<string | null>(null)
 
   // Listening finishes via lisStep, not phase — promote to 'done' so saveProgress runs
   useEffect(() => {
@@ -49900,6 +49902,49 @@ export default function LessonPage() {
     }
     saveQuizProgress()
   }, [qzDone, id, lesson, qzResults, qzXP])
+
+  // Show the level certificate once every part of the final exam is done
+  useEffect(() => {
+    const exam = certByLesson(id)
+    if (!exam) return
+    if (phase !== 'done' && !qzDone) return
+    const href = certPath(exam)
+    let cancelled = false
+    async function checkCert() {
+      try {
+        const supabase = createEnglishClient()
+        const { data: { session } } = await supabase.auth.getSession()
+        const user = session?.user
+        if (!user || cancelled) return
+        const { data } = await supabase
+          .from('english_lesson_progress')
+          .select('lesson_id')
+          .eq('user_id', user.id)
+          .eq('completed', true)
+          .in('lesson_id', exam.lessons)
+        if (cancelled) return
+        const done = new Set((data ?? []).map(row => (row as { lesson_id: string }).lesson_id))
+        done.add(id)
+        if (examComplete(exam, done)) setCertHref(href)
+      } catch { /* silent */ }
+    }
+    checkCert()
+    return () => { cancelled = true }
+  }, [phase, qzDone, id])
+
+  function renderLevelCert() {
+    if (!certHref) return null
+    return (
+      <Link href={certHref} style={{
+        display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+        padding: '14px', borderRadius: 12, textDecoration: 'none', marginBottom: 10,
+        background: 'linear-gradient(135deg, #C9933B, #8B6427)', color: '#fff',
+        fontSize: 14, fontWeight: 800, boxShadow: '0 6px 20px rgba(201,147,59,0.35)',
+      }}>
+        🎓 {t.certs.completion_cert}
+      </Link>
+    )
+  }
 
   const GRAMMAR_ORDER: Phase[] = ['grammar', 'practice', 'done']
   const READING_ORDER: Phase[] = ['reading', 'done']
@@ -50700,6 +50745,7 @@ export default function LessonPage() {
             <div style={{ height: 8, background: '#F1F5F9', borderRadius: 99, overflow: 'hidden', marginBottom: 28 }}>
               <div style={{ height: '100%', width: '100%', background: `linear-gradient(90deg, ${P}, #6D28D9)`, borderRadius: 99 }} />
             </div>
+            {renderLevelCert()}
             <Link href={moduleUrl} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, padding: '14px', borderRadius: 12, border: 'none', background: N, color: '#fff', fontSize: 13, fontWeight: 700, textDecoration: 'none', boxShadow: '0 4px 16px rgba(0,56,118,0.28)' }}>
               {t.lesson.back_to_module} <IcArrowRight size={14} color="#fff" />
             </Link>
@@ -51093,6 +51139,7 @@ export default function LessonPage() {
             ))}
           </div>
 
+          {renderLevelCert()}
           <div style={{ display: 'flex', gap: 10 }}>
             <button onClick={() => setWritSubmitted(false)} style={{ flex: 1, padding: '13px', borderRadius: 12, border: `1.5px solid ${WB}`, background: WL, color: W, fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}>
               Edit
@@ -51210,6 +51257,7 @@ export default function LessonPage() {
               }
             </div>
 
+            {renderLevelCert()}
             {/* Action buttons */}
             <div style={{ display: 'flex', gap: 10 }}>
               <button onClick={() => {
@@ -52082,6 +52130,7 @@ export default function LessonPage() {
 
           {/* Actions */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+            {renderLevelCert()}
             {lesson.vocab.length > 0 && (
               <Link href={`/english/zku/student/vocab/lesson/${id}`} style={{
                 padding: '14px', borderRadius: 12, border: 'none',

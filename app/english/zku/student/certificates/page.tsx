@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { useZkuLang } from '../zku-lang'
 import { IcLock, IcTrophy, IcGraduation, IcCheck, IcClipboard, IcBook } from '../_icons'
+import { LEVEL_CERTS, certPath, examComplete, levelOfLessonId } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const S = '#1B8FC4'
@@ -28,10 +29,10 @@ const LEVEL_META: Record<string, LevelMeta> = {
 }
 
 function CertificateCard({
-  levelCode, status, studentName, issuedAt,
+  levelCode, status, studentName, issuedAt, progress,
 }: {
   levelCode: string; status: 'earned' | 'in_progress' | 'locked'
-  studentName: string; issuedAt?: string
+  studentName: string; issuedAt?: string; progress: number
 }) {
   const { t } = useZkuLang()
   const [flipped, setFlipped] = useState(false)
@@ -63,13 +64,13 @@ function CertificateCard({
               <div style={{ fontSize: 15, fontWeight: 800, color: N }}>{meta.name}</div>
               <div style={{ fontSize: 11, color: '#94A3B8' }}>{t.certs.in_progress}</div>
             </div>
-            <div style={{ marginLeft: 'auto', fontSize: 22, fontWeight: 900, color }}>0%</div>
+            <div style={{ marginLeft: 'auto', fontSize: 22, fontWeight: 900, color }}>{progress}%</div>
           </div>
           <div style={{ marginBottom: 14 }}>
             <div style={{ height: 8, background: '#F1F5F9', borderRadius: 99, overflow: 'hidden' }}>
-              <div style={{ height: '100%', width: '0%', background: color, borderRadius: 99 }} />
+              <div style={{ height: '100%', width: `${progress}%`, background: color, borderRadius: 99 }} />
             </div>
-            <div style={{ fontSize: 11, color: '#94A3B8', marginTop: 5 }}>100{t.certs.left_to}</div>
+            <div style={{ fontSize: 11, color: '#94A3B8', marginTop: 5 }}>{Math.max(0, 100 - progress)}{t.certs.left_to}</div>
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6, marginBottom: 16 }}>
             {meta.skills.map(s => <span key={s} style={{ fontSize: 10, fontWeight: 600, padding: '3px 10px', borderRadius: 99, background: meta.light, color }}>{s}</span>)}
@@ -143,8 +144,8 @@ function CertificateCard({
           <div style={{ width: 56, height: 56, borderRadius: '50%', background: G, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16, boxShadow: '0 4px 20px rgba(201,147,59,0.4)' }}><IcCheck size={24} color="#fff" /></div>
           <button onClick={e => {
             e.stopPropagation()
-            const map: Record<string,string> = { 'A1': '/english/zku/student/certificates/a1', 'A1.1': '/english/zku/student/certificates/a11' }
-            if (map[levelCode]) window.open(map[levelCode], '_blank')
+            const cert = LEVEL_CERTS.find(c => c.code === levelCode)
+            if (cert) window.open(certPath(cert), '_blank')
           }} style={{
             padding: '11px 26px', borderRadius: 12, border: 'none', background: G, color: '#fff',
             fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit',
@@ -155,24 +156,15 @@ function CertificateCard({
   )
 }
 
-// Extract module number from lesson id like "l17-3" → 17
-function moduleNumFromLessonId(lessonId: string): number {
-  const m = lessonId.match(/^l(\d+)/)
-  return m ? parseInt(m[1]) : 0
-}
-function levelOfModule(n: number): string {
-  if (n <= 16) return 'A1'
-  if (n <= 34) return 'A1.1'
-  if (n <= 58) return 'A2'
-  return 'B1'
-}
+const LEVEL_TOTAL: Record<string, number> = { 'A1': 102, 'A1.1': 113, 'A2': 155, 'B1': 203, 'B2': 234, 'C1': 288 }
 
 export default function CertificatesPage() {
   const { t } = useZkuLang()
   const [currentLevel, setCurrentLevel] = useState('A1')
   const [studentName,  setStudentName]  = useState('')
   const [loading,      setLoading]      = useState(true)
-  const [levelProgress, setLevelProgress] = useState<Record<string, { count: number; firstAt: string | null }>>({})
+  const [completedIds, setCompletedIds] = useState<Set<string>>(new Set())
+  const [levelProgress, setLevelProgress] = useState<Record<string, { count: number; issuedAt: string | null }>>({})
 
   useEffect(() => {
     async function load() {
@@ -198,41 +190,54 @@ export default function CertificatesPage() {
       setStudentName(name)
       setCurrentLevel(profile?.current_level ?? 'A1')
 
-      // Count completed lessons per level — a certificate is earned only if student
-      // actually completed lessons of that level on this platform (≥80% done)
       const { data: progress } = await supabase
         .from('english_lesson_progress')
         .select('lesson_id, completed_at')
         .eq('user_id', user.id)
         .eq('completed', true)
 
-      const lp: Record<string, { count: number; firstAt: string | null }> = {}
-      for (const row of (progress ?? []) as { lesson_id: string; completed_at: string | null }[]) {
-        const lv = levelOfModule(moduleNumFromLessonId(row.lesson_id))
-        if (!lp[lv]) lp[lv] = { count: 0, firstAt: null }
+      const rows = (progress ?? []) as { lesson_id: string; completed_at: string | null }[]
+      const done = new Set(rows.map(r => r.lesson_id))
+      const lp: Record<string, { count: number; issuedAt: string | null }> = {}
+      for (const row of rows) {
+        const lv = levelOfLessonId(row.lesson_id)
+        if (!lv) continue
+        if (!lp[lv]) lp[lv] = { count: 0, issuedAt: null }
         lp[lv].count++
-        if (!lp[lv].firstAt || (row.completed_at && row.completed_at < lp[lv].firstAt!))
-          lp[lv].firstAt = row.completed_at
       }
+      for (const cert of LEVEL_CERTS) {
+        if (!examComplete(cert, done)) continue
+        const dates = rows
+          .filter(r => cert.lessons.includes(r.lesson_id) && r.completed_at)
+          .map(r => r.completed_at as string)
+          .sort()
+        if (!lp[cert.code]) lp[cert.code] = { count: 0, issuedAt: null }
+        lp[cert.code].issuedAt = dates[dates.length - 1] ?? null
+      }
+      setCompletedIds(done)
       setLevelProgress(lp)
       setLoading(false)
     }
     load()
   }, [])
 
-  // Approximate total lessons per level
-  const LEVEL_TOTAL: Record<string, number> = { 'A1': 80, 'A1.1': 128, 'A2': 168, 'B1': 208, 'B2': 60, 'C1': 60 }
-
   function getStatus(levelCode: string): 'earned' | 'in_progress' | 'locked' {
-    const done  = levelProgress[levelCode]?.count ?? 0
-    const total = LEVEL_TOTAL[levelCode] ?? 60
-    if (done / total >= 0.8)                    return 'earned'
+    const cert = LEVEL_CERTS.find(c => c.code === levelCode)
+    if (cert && examComplete(cert, completedIds)) return 'earned'
+    const done = levelProgress[levelCode]?.count ?? 0
     if (levelCode === currentLevel || done > 0) return 'in_progress'
     return 'locked'
   }
 
+  function getProgress(levelCode: string): number {
+    if (getStatus(levelCode) === 'earned') return 100
+    const done = levelProgress[levelCode]?.count ?? 0
+    const total = LEVEL_TOTAL[levelCode] ?? 60
+    return Math.min(99, Math.round((done / total) * 100))
+  }
+
   function getIssuedAt(levelCode: string): string | undefined {
-    return levelProgress[levelCode]?.firstAt ?? undefined
+    return levelProgress[levelCode]?.issuedAt ?? undefined
   }
 
   const earnedCount     = LEVEL_ORDER.filter(lv => getStatus(lv) === 'earned').length
@@ -287,6 +292,7 @@ export default function CertificatesPage() {
             levelCode={lv}
             status={getStatus(lv)}
             studentName={studentName}
+            progress={getProgress(lv)}
             issuedAt={getStatus(lv) === 'earned' ? getIssuedAt(lv) : undefined}
           />
         ))}
