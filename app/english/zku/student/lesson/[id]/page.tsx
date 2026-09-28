@@ -56,11 +56,20 @@ function buildWritingTokens(line: WritingLine): WToken[] {
   // prefix (a line with `___` in the prefix and no suffix).
   const includePrimary = hasSuffix || !prefix.includes('___')
 
+  const prefixBlanks = (prefix.match(/___/g) ?? []).length
+  const suffixBlanks = (suffix.match(/___/g) ?? []).length
+  const blankCount = prefixBlanks + (includePrimary ? 1 : 0) + suffixBlanks
+  // "start time ... finish time" is two placeholders when the line has two blanks.
+  const phParts = (line.placeholder || '').split(/\s*\.\.\.\s*/).map(part => part.trim()).filter(Boolean)
+  const splitPlaceholders = blankCount > 1 && phParts.length > 1
+
   const tokens: WToken[] = []
-  let phAssigned = false
+  let phIndex = 0
   const mkBlank = (key: string): WToken => {
-    const ph = phAssigned ? '…' : (line.placeholder || '…')
-    phAssigned = true
+    const ph = splitPlaceholders
+      ? (phParts[phIndex] ?? '…')
+      : (phIndex === 0 ? (line.placeholder || '…') : '…')
+    phIndex++
     return { t: 'blank', key, ph }
   }
 
@@ -926,7 +935,7 @@ const L3_4: FullLesson = {
     { key: 'obj2desc',  prefix: 'They are ',                     suffix: '.',                                    placeholder: 'describe them',                hint: 'e.g. heavy but very useful' },
     { key: 'obj3',      prefix: 'My most important object is ',  suffix: '.',                                    placeholder: 'your most important thing',    hint: 'e.g. my laptop / my phone / my dictionary' },
     { key: 'why',       prefix: 'I cannot study without ',       suffix: ' — it is essential for me.',           placeholder: 'this object',                  hint: 'e.g. my laptop / my notebook' },
-    { key: 'special',   prefix: 'This ',                         suffix: ' is a special gift from my ',          placeholder: 'object',                       hint: 'e.g. pen / book / bag' },
+    { key: 'special',   prefix: 'This ',                         suffix: ' is a special gift from my ___.',          placeholder: 'object',                       hint: 'e.g. pen / book / bag' },
   ],
 
   writingPhrases: [
@@ -1520,12 +1529,12 @@ const L4_4: FullLesson = {
     { key: 'intro',     prefix: 'I want to describe my typical day as ',    suffix: '.',                                placeholder: 'a WKU student / a first-year student',   hint: 'e.g. a first-year student at WKU' },
     { key: 'wakeup',   prefix: 'Every morning, I get up at ',               suffix: '.',                                placeholder: 'time',                                   hint: 'e.g. 6:30 / 7:00 / 7:15' },
     { key: 'morning',  prefix: 'For breakfast, I usually ',                 suffix: '.',                                placeholder: 'eat / drink something',                  hint: 'e.g. eat porridge and drink tea' },
-    { key: 'class',    prefix: 'My classes start at ',                      suffix: ' and finish at ',                  placeholder: 'start time ... finish time',              hint: 'e.g. 8:30 ... 3:30 pm' },
-    { key: 'fav',      prefix: 'My favourite subject is ',                  suffix: ' because it is ',                  placeholder: 'subject ... adjective',                  hint: 'e.g. English ... very interesting' },
+    { key: 'class',    prefix: 'My classes start at ',                      suffix: ' and finish at ___.',              placeholder: 'start time ... finish time',              hint: 'e.g. 8:30 ... 3:30 pm' },
+    { key: 'fav',      prefix: 'My favourite subject is ',                  suffix: ' because it is ___.',              placeholder: 'subject ... adjective',                  hint: 'e.g. English ... very interesting' },
     { key: 'after',    prefix: 'After classes, I usually ',                 suffix: '.',                                placeholder: 'what you do first',                      hint: 'e.g. rest for 30 minutes / go to the library' },
     { key: 'study',    prefix: 'I study for about ',                        suffix: ' every evening.',                  placeholder: 'how long',                               hint: 'e.g. one hour / two hours' },
     { key: 'evening',  prefix: 'In the evening, I always ',                 suffix: '.',                                placeholder: 'evening activity',                       hint: 'e.g. call my parents / watch a lecture' },
-    { key: 'sleep',    prefix: 'I go to sleep at ',                         suffix: '. My favourite part of the day is ', placeholder: 'time ... your favourite moment',        hint: 'e.g. 10:30 pm ... the morning walk' },
+    { key: 'sleep',    prefix: 'I go to sleep at ',                         suffix: '. My favourite part of the day is ___.', placeholder: 'time ... your favourite moment',        hint: 'e.g. 10:30 pm ... the morning walk' },
   ],
 
   writingPhrases: [
@@ -2017,15 +2026,15 @@ const L5_5: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'intro',    prefix: 'My name is ',                    suffix: ' and I study ',                      placeholder: 'your name',               hint: 'e.g. Arlan / Malika / Bekzat' },
+    { key: 'intro',    prefix: 'My name is ',                    suffix: ' and I study ___.',                      placeholder: 'your name',               hint: 'e.g. Arlan / Malika / Bekzat' },
     { key: 'skill1',   prefix: 'I can ',                         suffix: ' very well.',                        placeholder: 'your best skill',         hint: 'e.g. swim / sing / code / draw / cook' },
     { key: 'skill1d',  prefix: 'I practise ',                    suffix: ' every day / every week.',           placeholder: 'this skill',              hint: 'e.g. swimming / coding / painting' },
     { key: 'skill2',   prefix: 'I can also ',                    suffix: '.',                                  placeholder: 'second skill',            hint: 'e.g. play chess / speak Kazakh / dance' },
-    { key: 'lang',     prefix: 'I can speak ',                   suffix: ' language(s): ',                     placeholder: 'number',                  hint: 'e.g. two / three / four' },
+    { key: 'lang',     prefix: 'I can speak ',                   suffix: ' language(s): ___.',                     placeholder: 'number',                  hint: 'e.g. two / three / four' },
     { key: 'cant1',    prefix: "However, I can't ",              suffix: ' at all.',                           placeholder: "something you can't do",  hint: "e.g. cook / drive / sing / draw" },
     { key: 'cant2',    prefix: "I also can't ",                  suffix: ' yet — but I want to learn!',        placeholder: "another thing you can't", hint: 'e.g. drive / play guitar / speak French' },
     { key: 'goal',     prefix: 'This year, I want to learn ',    suffix: ' because it is very useful.',        placeholder: 'a skill to learn',        hint: 'e.g. cooking / driving / a new language' },
-    { key: 'best',     prefix: 'My best skill is ',              suffix: ' — it helps me ',                   placeholder: 'your best skill ... why', hint: 'e.g. English ... communicate with the world' },
+    { key: 'best',     prefix: 'My best skill is ',              suffix: ' — it helps me ___.',                   placeholder: 'your best skill ... why', hint: 'e.g. English ... communicate with the world' },
   ],
 
   writingPhrases: [
@@ -2541,12 +2550,12 @@ const L6_5: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'intro',    prefix: 'My name is ',                        suffix: ' and my favourite hobby is ',          placeholder: 'your name',              hint: 'e.g. Aibek / Samal / Zarina' },
+    { key: 'intro',    prefix: 'My name is ',                        suffix: ' and my favourite hobby is ___.',          placeholder: 'your name',              hint: 'e.g. Aibek / Samal / Zarina' },
     { key: 'freq',     prefix: 'I do it ',                           suffix: '.',                                    placeholder: 'how often',              hint: 'e.g. every day / three times a week / at weekends' },
     { key: 'start',    prefix: 'I started this hobby when I was ',   suffix: ' years old.',                          placeholder: 'age',                    hint: 'e.g. 12 / 14 / 16' },
-    { key: 'feel',     prefix: 'It makes me feel ',                  suffix: ' because it helps me ',                placeholder: 'feeling ... reason',     hint: 'e.g. relaxed ... forget about stress' },
-    { key: 'friend',   prefix: 'My best friend ',                    suffix: ' has a different hobby — he/she loves ', placeholder: 'friend\'s name',       hint: 'e.g. Samal / Bekzat / Ainur' },
-    { key: 'frdoes',   prefix: 'He/She ',                            suffix: ' every ',                              placeholder: 'what they do ... when',  hint: 'e.g. trains hard ... day / takes photos ... weekend' },
+    { key: 'feel',     prefix: 'It makes me feel ',                  suffix: ' because it helps me ___.',                placeholder: 'feeling ... reason',     hint: 'e.g. relaxed ... forget about stress' },
+    { key: 'friend',   prefix: 'My best friend ',                    suffix: ' has a different hobby — he/she loves ___.', placeholder: 'friend\'s name',       hint: 'e.g. Samal / Bekzat / Ainur' },
+    { key: 'frdoes',   prefix: 'He/She ',                            suffix: ' every ___.',                              placeholder: 'what they do ... when',  hint: 'e.g. trains hard ... day / takes photos ... weekend' },
     { key: 'fradj',    prefix: 'He/She is very ',                    suffix: ' at it and improves every week.',      placeholder: 'adjective',              hint: 'e.g. talented / dedicated / creative / passionate' },
     { key: 'both',     prefix: 'We are different, but we both ',     suffix: ' together sometimes.',                 placeholder: 'shared activity',        hint: 'e.g. go hiking / watch films / visit the library' },
     { key: 'end',      prefix: 'I believe hobbies are important because they ', suffix: '.',                         placeholder: 'your reason',            hint: 'e.g. help us relax and discover who we are' },
@@ -3101,9 +3110,9 @@ const L7_5: FullLesson = {
     { key: 'nobfast',  prefix: "I don't eat any ",                   suffix: ' in the morning — I prefer something light.',        placeholder: 'food you avoid at breakfast',hint: 'e.g. fried food / meat / sweets' },
     { key: 'lunch',    prefix: 'For lunch, there is some ',          suffix: ' in the cafeteria today.',                           placeholder: 'lunch food',                hint: 'e.g. soup / rice / salad / beshbarmak' },
     { key: 'drink',    prefix: 'I always drink some ',               suffix: ' with my lunch.',                                    placeholder: 'drink',                     hint: 'e.g. compote / water / juice / tea' },
-    { key: 'fav',      prefix: 'My favourite dish is ',              suffix: ' because it is ',                                    placeholder: 'dish ... adjective',        hint: 'e.g. shurpa ... warm and nutritious' },
+    { key: 'fav',      prefix: 'My favourite dish is ',              suffix: ' because it is ___.',                                    placeholder: 'dish ... adjective',        hint: 'e.g. shurpa ... warm and nutritious' },
     { key: 'snack',    prefix: 'In the afternoon, I eat some ',      suffix: ' as a snack between lectures.',                      placeholder: 'snack',                     hint: 'e.g. fruit / nuts / an apple / grapes' },
-    { key: 'dinner',   prefix: 'For dinner, I have some ',           suffix: ". I don't eat any ",                                 placeholder: 'dinner ... food you avoid', hint: 'e.g. pasta ... heavy food / meat' },
+    { key: 'dinner',   prefix: 'For dinner, I have some ',           suffix: ". I don't eat any ___.",                                 placeholder: 'dinner ... food you avoid', hint: 'e.g. pasta ... heavy food / meat' },
     { key: 'water',    prefix: 'How much water do I drink? About ',  suffix: ' glasses every day — it helps me concentrate better!', placeholder: 'number',                  hint: 'e.g. five / six / eight' },
   ],
 
@@ -3551,11 +3560,11 @@ const L8_4: FullLesson = {
   writingTemplate: [
     { key: 'intro',    prefix: 'I want to describe ',              suffix: ' where I live.',                         placeholder: 'my home / my apartment / my room', hint: 'e.g. the apartment / my room in the dormitory' },
     { key: 'location', prefix: 'It is on the ',                   suffix: ' floor of the building.',                placeholder: 'number',                           hint: 'e.g. first / second / third / fourth' },
-    { key: 'rooms',    prefix: 'There is a ',                     suffix: ' and there is also ',                    placeholder: 'room 1 ... room 2',                hint: 'e.g. living room ... a kitchen' },
-    { key: 'liv',      prefix: 'In the living room, there is ',   suffix: ' and there are ',                        placeholder: 'furniture 1 ... furniture 2',       hint: 'e.g. a sofa ... two armchairs' },
-    { key: 'kit',      prefix: 'In the kitchen, there is a ',     suffix: '. There is also ',                       placeholder: 'appliance ... another item',        hint: 'e.g. fridge ... a microwave' },
-    { key: 'bed',      prefix: 'In the bedroom, there is a ',     suffix: ' and there are ',                        placeholder: 'bed description ... other items',  hint: 'e.g. big comfortable bed ... some shelves' },
-    { key: 'fav',      prefix: 'My favourite room is the ',       suffix: ' because it is ',                        placeholder: 'room name ... adjective',           hint: 'e.g. living room ... bright and relaxing' },
+    { key: 'rooms',    prefix: 'There is a ',                     suffix: ' and there is also ___.',                    placeholder: 'room 1 ... room 2',                hint: 'e.g. living room ... a kitchen' },
+    { key: 'liv',      prefix: 'In the living room, there is ',   suffix: ' and there are ___.',                        placeholder: 'furniture 1 ... furniture 2',       hint: 'e.g. a sofa ... two armchairs' },
+    { key: 'kit',      prefix: 'In the kitchen, there is a ',     suffix: '. There is also ___.',                       placeholder: 'appliance ... another item',        hint: 'e.g. fridge ... a microwave' },
+    { key: 'bed',      prefix: 'In the bedroom, there is a ',     suffix: ' and there are ___.',                        placeholder: 'bed description ... other items',  hint: 'e.g. big comfortable bed ... some shelves' },
+    { key: 'fav',      prefix: 'My favourite room is the ',       suffix: ' because it is ___.',                        placeholder: 'room name ... adjective',           hint: 'e.g. living room ... bright and relaxing' },
     { key: 'no',       prefix: "There isn't ",                    suffix: ', but that is fine.',                    placeholder: "something missing",                hint: "e.g. a dishwasher / a garden / a balcony" },
     { key: 'end',      prefix: 'I love my home because ',         suffix: '.',                                      placeholder: 'your reason',                      hint: 'e.g. it is comfortable and close to university' },
   ],
@@ -3611,7 +3620,7 @@ const L8_5: FullLesson = {
     { key: 'open',     prefix: 'Dear ',                            suffix: ',',                                      placeholder: 'friend\'s name',                   hint: 'e.g. Aisha / Dias / Arlan' },
     { key: 'greet',    prefix: 'How are you? I am writing to tell you about ', suffix: '.',                          placeholder: 'the topic of your letter',         hint: 'e.g. my new apartment / my room in the dormitory' },
     { key: 'describe', prefix: 'There are ',                       suffix: ' rooms in total.',                       placeholder: 'number',                           hint: 'e.g. three / four / five' },
-    { key: 'bestroom', prefix: 'My favourite room is the ',        suffix: '. There is ',                            placeholder: 'room ... something special there', hint: 'e.g. living room. There is a big window' },
+    { key: 'bestroom', prefix: 'My favourite room is the ',        suffix: '. There is ___.',                            placeholder: 'room ... something special there', hint: 'e.g. living room. There is a big window' },
     { key: 'feature',  prefix: 'There is also ',                   suffix: ' which I love!',                         placeholder: 'a special feature',                hint: 'e.g. a balcony / a great view / a park nearby' },
     { key: 'missing',  prefix: "There isn't ",                    suffix: ', but I don\'t mind.',                   placeholder: "something not there",              hint: "e.g. a dishwasher / a lift / a garden" },
     { key: 'feeling',  prefix: 'I love my home because ',          suffix: '.',                                      placeholder: 'reason',                           hint: 'e.g. it is cosy and close to university' },
@@ -4634,12 +4643,12 @@ const L9_5: FullLesson = {
   writingTemplate: [
     { key: 'open',    prefix: 'It is ',                          suffix: '.',                                         placeholder: 'the time and day',                 hint: 'e.g. Tuesday morning / 9 am on Wednesday' },
     { key: 'now1',   prefix: 'Right now, I am ',                suffix: '.',                                         placeholder: 'your main activity right now',      hint: 'e.g. sitting in the library / eating breakfast / working on a project' },
-    { key: 'around', prefix: 'Around me, ',                     suffix: ' are ',                                      placeholder: 'people ... doing something',        hint: 'e.g. my classmates ... studying / talking / laughing' },
+    { key: 'around', prefix: 'Around me, ',                     suffix: ' are ___.',                                      placeholder: 'people ... doing something',        hint: 'e.g. my classmates ... studying / talking / laughing' },
     { key: 'other',  prefix: 'My ',                             suffix: '.',                                         placeholder: 'friend/classmate + is + verb-ing',  hint: 'e.g. friend Sholpan is eating lunch with me' },
-    { key: 'not',    prefix: 'I am not ',                       suffix: '. Instead, I am ',                          placeholder: 'something you are NOT doing ... what you ARE doing', hint: 'e.g. sleeping ... working on my project' },
-    { key: 'feel',   prefix: 'I am feeling ',                   suffix: ' because ',                                 placeholder: 'adjective ... reason',              hint: 'e.g. tired ... I studied for three hours / happy ... the lecture was interesting' },
-    { key: 'home',   prefix: 'At home right now, my ',          suffix: ' is ',                                      placeholder: 'family member ... doing something', hint: 'e.g. mother is cooking / father is watching TV / sister is doing homework' },
-    { key: 'end',    prefix: 'Today is ',                       suffix: ' because ',                                 placeholder: 'adjective day ... your reason',     hint: 'e.g. a busy day ... I have a lecture, a project, and a phone call!' },
+    { key: 'not',    prefix: 'I am not ',                       suffix: '. Instead, I am ___.',                          placeholder: 'something you are NOT doing ... what you ARE doing', hint: 'e.g. sleeping ... working on my project' },
+    { key: 'feel',   prefix: 'I am feeling ',                   suffix: ' because ___.',                                 placeholder: 'adjective ... reason',              hint: 'e.g. tired ... I studied for three hours / happy ... the lecture was interesting' },
+    { key: 'home',   prefix: 'At home right now, my ',          suffix: ' is ___.',                                      placeholder: 'family member ... doing something', hint: 'e.g. mother is cooking / father is watching TV / sister is doing homework' },
+    { key: 'end',    prefix: 'Today is ',                       suffix: ' because ___.',                                 placeholder: 'adjective day ... your reason',     hint: 'e.g. a busy day ... I have a lecture, a project, and a phone call!' },
   ],
 
   writingPhrases: [
@@ -5315,12 +5324,12 @@ const L10_5: FullLesson = {
     { key: 'date',    prefix: 'Yesterday was ',                  suffix: '.',                                      placeholder: 'day + date',                        hint: 'e.g. Monday, the 12th of October / Thursday, the 15th of October' },
     { key: 'weather', prefix: 'The weather was ',                suffix: '.',                                      placeholder: 'adjective(s)',                      hint: 'e.g. sunny and warm / cold and rainy / cool but dry' },
     { key: 'morning', prefix: 'In the morning, I was ',         suffix: '.',                                      placeholder: 'place or activity',                 hint: 'e.g. at my lecture / in the library / at home / late to class' },
-    { key: 'class',   prefix: 'The ',                           suffix: ' was ',                                   placeholder: 'lecture/lesson/exam ... adjective', hint: 'e.g. lecture was interesting / exam was difficult / class was long' },
+    { key: 'class',   prefix: 'The ',                           suffix: ' was ___.',                                   placeholder: 'lecture/lesson/exam ... adjective', hint: 'e.g. lecture was interesting / exam was difficult / class was long' },
     { key: 'lunch',   prefix: 'At lunchtime, ',                 suffix: '.',                                      placeholder: 'describe the cafeteria/food/people', hint: 'e.g. the cafeteria was crowded / I was with my friends / the food was delicious' },
     { key: 'afternoon', prefix: 'In the afternoon, there was ', suffix: '.',                                      placeholder: 'something that happened',            hint: 'e.g. a study session / a group meeting / a free hour / an unexpected quiz' },
-    { key: 'other',   prefix: 'In the evening, my ',            suffix: ' was ',                                  placeholder: 'family member or friend ... doing something', hint: 'e.g. mother was happy / friend was tired / roommate was kind' },
+    { key: 'other',   prefix: 'In the evening, my ',            suffix: ' was ___.',                                  placeholder: 'family member or friend ... doing something', hint: 'e.g. mother was happy / friend was tired / roommate was kind' },
     { key: 'feeling', prefix: 'I was ',                         suffix: ' at the end of the day.',                placeholder: 'adjective + (but adjective)',        hint: 'e.g. tired but satisfied / exhausted but proud / happy and relaxed' },
-    { key: 'end',     prefix: 'Overall, yesterday was ',        suffix: ' because ',                              placeholder: 'adjective ... reason',              hint: 'e.g. a great day ... my team was the winner / a hard day ... the exam was difficult' },
+    { key: 'end',     prefix: 'Overall, yesterday was ',        suffix: ' because ___.',                              placeholder: 'adjective ... reason',              hint: 'e.g. a great day ... my team was the winner / a hard day ... the exam was difficult' },
   ],
 
   writingPhrases: [
@@ -6064,9 +6073,9 @@ const L11_4: FullLesson = {
     { key: 'after',   prefix: 'After that, I ',                 suffix: '.',                                    placeholder: 'verb-ed + what you did next',         hint: 'e.g. walked to the park / visited a friend / studied for two hours' },
     { key: 'sat_pm',  prefix: 'In the afternoon, we ',          suffix: '.',                                    placeholder: 'verb-ed + activity with friends',     hint: 'e.g. walked to the city park / cooked together / watched a film' },
     { key: 'evening', prefix: 'In the evening, I ',             suffix: '.',                                    placeholder: 'verb-ed + evening activity',          hint: 'e.g. cooked dinner / watched a film / listened to music / read a book' },
-    { key: 'sunday',  prefix: 'On Sunday, I ',                  suffix: ' for ',                                placeholder: 'studied / worked on my project ... hours', hint: 'e.g. studied for five hours / worked on my essay for the whole day' },
+    { key: 'sunday',  prefix: 'On Sunday, I ',                  suffix: ' for ___.',                                placeholder: 'studied / worked on my project ... hours', hint: 'e.g. studied for five hours / worked on my essay for the whole day' },
     { key: 'didnt',   prefix: 'I didn\'t ',                    suffix: ', but I enjoyed the weekend anyway.',  placeholder: 'something you did NOT do',            hint: 'e.g. go to the cinema / visit the market / sleep late / leave my room' },
-    { key: 'end',     prefix: 'Overall, last weekend was ',     suffix: ' because ',                            placeholder: 'adjective ... reason',                hint: 'e.g. perfect because I relaxed and also worked / great because I spent time with friends' },
+    { key: 'end',     prefix: 'Overall, last weekend was ',     suffix: ' because ___.',                            placeholder: 'adjective ... reason',                hint: 'e.g. perfect because I relaxed and also worked / great because I spent time with friends' },
   ],
 
   writingPhrases: [
@@ -6146,13 +6155,13 @@ const L11_5: FullLesson = {
 
   writingTemplate: [
     { key: 'intro',   prefix: 'I want to tell you about ',        suffix: '.',                                   placeholder: 'a specific moment or event from last weekend', hint: 'e.g. one particular evening / a funny moment / a dinner with friends' },
-    { key: 'when',    prefix: 'It was ',                          suffix: ', and ',                              placeholder: 'time + setting',                             hint: 'e.g. Saturday evening, and my friends had gathered / Sunday afternoon, and I was alone in the library' },
-    { key: 'scene',   prefix: 'When I ',                          suffix: ', I noticed ',                        placeholder: 'arrived / walked in / looked around ... something', hint: 'e.g. arrived, I noticed the smell of food / opened the door, I noticed everyone was already there' },
+    { key: 'when',    prefix: 'It was ',                          suffix: ', and ___.',                              placeholder: 'time + setting',                             hint: 'e.g. Saturday evening, and my friends had gathered / Sunday afternoon, and I was alone in the library' },
+    { key: 'scene',   prefix: 'When I ',                          suffix: ', I noticed ___.',                        placeholder: 'arrived / walked in / looked around ... something', hint: 'e.g. arrived, I noticed the smell of food / opened the door, I noticed everyone was already there' },
     { key: 'action',  prefix: 'We all ',                          suffix: ' together.',                          placeholder: 'verb-ed + activity',                         hint: 'e.g. cooked / laughed / talked about our hometowns / watched the film' },
     { key: 'sudden',  prefix: 'Suddenly, ',                       suffix: '.',                                   placeholder: 'something unexpected happened',              hint: 'e.g. someone laughed so hard that... / the film started and everyone went quiet / my phone buzzed' },
     { key: 'react',   prefix: 'Everyone ',                        suffix: '.',                                   placeholder: 'reacted — laughed / screamed / cheered / smiled', hint: 'e.g. laughed even harder / looked surprised / started clapping' },
     { key: 'end',     prefix: 'At the end of the evening, we ',   suffix: ' and said our goodnights.',           placeholder: 'verb-ed + final action',                     hint: 'e.g. washed the dishes / cleaned up / walked home / hugged' },
-    { key: 'feel',    prefix: 'I will never forget that ',        suffix: ', because ',                          placeholder: 'moment / evening / feeling ... reason',      hint: 'e.g. evening, because it was the moment I felt at home / moment, because we all laughed so much' },
+    { key: 'feel',    prefix: 'I will never forget that ',        suffix: ', because ___.',                          placeholder: 'moment / evening / feeling ... reason',      hint: 'e.g. evening, because it was the moment I felt at home / moment, because we all laughed so much' },
   ],
 
   writingPhrases: [
@@ -6869,11 +6878,11 @@ const L12_6: FullLesson = {
     { key: 'dest',   prefix: 'My dream destination is ',          suffix: '.',                         placeholder: 'name of city or country',                 hint: 'e.g. Istanbul · London · Tokyo · Paris · Turkestan · Astana' },
     { key: 'loc',    prefix: 'It is located ',                    suffix: '.',                         placeholder: 'preposition + where it is',               hint: 'e.g. in the south of Turkey · on the coast of Spain · in the north of Kazakhstan' },
     { key: 'why',    prefix: 'I want to visit it because ',       suffix: '.',                         placeholder: 'your reason',                             hint: 'e.g. it is full of history / I love the architecture / I have seen photos of it' },
-    { key: 'famous', prefix: 'The most famous place there is ',   suffix: ', which stands ',           placeholder: 'name of landmark ... preposition + location', hint: 'e.g. the Blue Mosque, which stands next to the Hagia Sophia · the old bazaar, which is in the heart of the city' },
-    { key: 'walk',   prefix: 'I would walk ',                     suffix: ' and visit ',               placeholder: 'through / along / across + place ... what', hint: 'e.g. through the old streets · along the waterfront · across the bridge · past the ancient walls' },
-    { key: 'next',   prefix: 'Next to the ',                      suffix: ', there is ',               placeholder: 'landmark ... another place or feature',   hint: 'e.g. cathedral, there is a beautiful garden · market, there is a café opposite the entrance' },
-    { key: 'stay',   prefix: 'I would stay there for ',           suffix: ' because ',                 placeholder: 'duration ... reason',                     hint: 'e.g. five days because I want to see every corner · a week because there is so much to explore' },
-    { key: 'end',    prefix: 'For me, this trip would be ',       suffix: ' because ',                 placeholder: 'adjective(s) ... reason',                 hint: 'e.g. unforgettable because / a dream come true because / the perfect adventure because' },
+    { key: 'famous', prefix: 'The most famous place there is ',   suffix: ', which stands ___.',           placeholder: 'name of landmark ... preposition + location', hint: 'e.g. the Blue Mosque, which stands next to the Hagia Sophia · the old bazaar, which is in the heart of the city' },
+    { key: 'walk',   prefix: 'I would walk ',                     suffix: ' and visit ___.',               placeholder: 'through / along / across + place ... what', hint: 'e.g. through the old streets · along the waterfront · across the bridge · past the ancient walls' },
+    { key: 'next',   prefix: 'Next to the ',                      suffix: ', there is ___.',               placeholder: 'landmark ... another place or feature',   hint: 'e.g. cathedral, there is a beautiful garden · market, there is a café opposite the entrance' },
+    { key: 'stay',   prefix: 'I would stay there for ',           suffix: ' because ___.',                 placeholder: 'duration ... reason',                     hint: 'e.g. five days because I want to see every corner · a week because there is so much to explore' },
+    { key: 'end',    prefix: 'For me, this trip would be ',       suffix: ' because ___.',                 placeholder: 'adjective(s) ... reason',                 hint: 'e.g. unforgettable because / a dream come true because / the perfect adventure because' },
   ],
 
   writingPhrases: [
@@ -7532,9 +7541,9 @@ const L13_5: FullLesson = {
     { key: 'biggest',  prefix: 'My biggest fixed expense is ',             suffix: ', which costs ___ tenge per month.', placeholder: 'name of expense ... amount',              hint: 'e.g. the dormitory (8,000) / transport (2,000) / my phone plan (1,500)' },
     { key: 'food',     prefix: 'I spend about ',                           suffix: ' tenge on food every month.',       placeholder: 'amount in words',                        hint: 'e.g. six thousand / seven thousand five hundred / five thousand' },
     { key: 'limit',    prefix: 'I try not to spend too much on ',          suffix: ', so I limit myself to ___ tenge.', placeholder: 'something + your limit amount',           hint: 'e.g. entertainment / café visits / clothes / personal shopping' },
-    { key: 'save',     prefix: 'At the end of the month, I try to save ',  suffix: ' tenge because ',                   placeholder: 'amount ... reason for saving',            hint: 'e.g. two thousand because I want to buy a laptop / three thousand for emergencies' },
-    { key: 'goal',     prefix: 'My financial goal for this year is to ',   suffix: ' because ',                         placeholder: 'your goal ... reason',                   hint: 'e.g. save thirty thousand tenge for a new laptop / learn to spend more carefully' },
-    { key: 'end',      prefix: 'Managing money as a student is ',          suffix: ' because ',                         placeholder: 'adjective(s) ... reason',                hint: 'e.g. challenging but important because / one of the most useful skills because' },
+    { key: 'save',     prefix: 'At the end of the month, I try to save ',  suffix: ' tenge because ___.',                   placeholder: 'amount ... reason for saving',            hint: 'e.g. two thousand because I want to buy a laptop / three thousand for emergencies' },
+    { key: 'goal',     prefix: 'My financial goal for this year is to ',   suffix: ' because ___.',                         placeholder: 'your goal ... reason',                   hint: 'e.g. save thirty thousand tenge for a new laptop / learn to spend more carefully' },
+    { key: 'end',      prefix: 'Managing money as a student is ',          suffix: ' because ___.',                         placeholder: 'adjective(s) ... reason',                hint: 'e.g. challenging but important because / one of the most useful skills because' },
   ],
 
   writingPhrases: [
@@ -8273,14 +8282,14 @@ const L14_6: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'intro',    prefix: 'My perfect outfit is for ',           suffix: ' weather — the kind of day when ',     placeholder: 'season / temperature',                   hint: 'e.g. cold winter / a hot summer / a rainy autumn / a mild spring' },
+    { key: 'intro',    prefix: 'My perfect outfit is for ',           suffix: ' weather — the kind of day when ___.',     placeholder: 'season / temperature',                   hint: 'e.g. cold winter / a hot summer / a rainy autumn / a mild spring' },
     { key: 'base',     prefix: 'I start with ',                       suffix: ', which is ___ and ___.',              placeholder: 'base layer / first item + two adjectives', hint: 'e.g. a thin thermal layer, which is warm and light / a soft cotton t-shirt, which is light and breathable' },
     { key: 'main',     prefix: 'On top, I wear a ',                   suffix: ', which is ___ than ___.',             placeholder: 'main item + comparative + what you compare to', hint: 'e.g. thick woollen jumper, which is warmer than a thin one / long waterproof coat, which is more practical than a short jacket' },
     { key: 'bottom',   prefix: 'For the bottom, I choose ',           suffix: ' because they are ___ than ___.',      placeholder: 'trousers / jeans + comparative',          hint: 'e.g. dark jeans, because they are more practical than wool trousers / warm leggings, because they are warmer than ordinary ones' },
     { key: 'shoes',    prefix: 'On my feet, I always wear ',          suffix: ' because ___.',                        placeholder: 'shoes / boots + reason',                 hint: 'e.g. tall waterproof boots because the sole does not slip on ice / warm ankle boots because they keep my feet comfortable' },
     { key: 'access',   prefix: 'My most important accessory is ',     suffix: ', which keeps me ___.',                placeholder: 'hat / scarf / gloves + what it does',    hint: 'e.g. a woollen scarf, which keeps me warm around my neck / a knitted hat, which keeps my ears from freezing' },
     { key: 'without',  prefix: 'Without ',                            suffix: ', even the warmest coat is not enough.', placeholder: 'the accessory or layer you cannot skip', hint: 'e.g. my scarf and gloves / a good base layer / a waterproof outer layer' },
-    { key: 'end',      prefix: 'What makes this outfit perfect is ',  suffix: ' because ',                            placeholder: 'the key quality + reason',               hint: 'e.g. the balance of warmth and practicality / the combination of neutral colours / the layers that work together' },
+    { key: 'end',      prefix: 'What makes this outfit perfect is ',  suffix: ' because ___.',                            placeholder: 'the key quality + reason',               hint: 'e.g. the balance of warmth and practicality / the combination of neutral colours / the layers that work together' },
   ],
 
   writingPhrases: [
@@ -9019,13 +9028,13 @@ const L15_6: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'intro',    prefix: 'This is going to be ',                    suffix: ' year because ',                        placeholder: 'adjective(s) + type of year',              hint: 'e.g. one of the most important / a very challenging but exciting / a decisive' },
+    { key: 'intro',    prefix: 'This is going to be ',                    suffix: ' year because ___.',                        placeholder: 'adjective(s) + type of year',              hint: 'e.g. one of the most important / a very challenging but exciting / a decisive' },
     { key: 'study',    prefix: 'Academically, I am going to ',            suffix: ' this year.',                           placeholder: 'specific academic plan',                  hint: 'e.g. attend every lecture / review my notes every evening / join the research group' },
     { key: 'apply',    prefix: 'I am going to apply for ',                suffix: ' before the deadline in ___.',          placeholder: 'what you\'re applying for',                hint: 'e.g. the WKU scholarship / an internship / a research programme' },
-    { key: 'career',   prefix: 'Professionally, I am going to ',          suffix: ' because ',                             placeholder: 'career plan + reason',                    hint: 'e.g. apply for two internships / improve my CV / gain real work experience' },
-    { key: 'english',  prefix: 'I am also going to improve my ',          suffix: ' every day by ',                        placeholder: 'skill + method',                          hint: 'e.g. English / programming skills / professional vocabulary — by reading / practising / watching' },
-    { key: 'personal', prefix: 'On a personal level, I am going to ',     suffix: ' every ',                               placeholder: 'personal habit + how often',               hint: 'e.g. exercise / study Python / read for thirty minutes — every morning / evening / week' },
-    { key: 'save',     prefix: 'I am going to put ',                      suffix: ' tenge aside every month to ',          placeholder: 'amount + what you\'re saving for',         hint: 'e.g. five thousand tenge aside every month to save for a laptop / trip / emergency fund' },
+    { key: 'career',   prefix: 'Professionally, I am going to ',          suffix: ' because ___.',                             placeholder: 'career plan + reason',                    hint: 'e.g. apply for two internships / improve my CV / gain real work experience' },
+    { key: 'english',  prefix: 'I am also going to improve my ',          suffix: ' every day by ___.',                        placeholder: 'skill + method',                          hint: 'e.g. English / programming skills / professional vocabulary — by reading / practising / watching' },
+    { key: 'personal', prefix: 'On a personal level, I am going to ',     suffix: ' every ___.',                               placeholder: 'personal habit + how often',               hint: 'e.g. exercise / study Python / read for thirty minutes — every morning / evening / week' },
+    { key: 'save',     prefix: 'I am going to put ',                      suffix: ' tenge aside every month to ___.',          placeholder: 'amount + what you\'re saving for',         hint: 'e.g. five thousand tenge aside every month to save for a laptop / trip / emergency fund' },
     { key: 'goal',     prefix: 'My biggest goal for this year is to ',    suffix: '. I am going to keep this promise.',    placeholder: 'your most important goal',                hint: 'e.g. become someone proud of their own efforts / work consistently and not make excuses' },
   ],
 
@@ -9434,12 +9443,12 @@ const L16_3: FullLesson = {
 
   writingTemplate: [
     { key: 'task1_open',  prefix: 'Hi / Dear ___,\n\nI am writing to tell you about ',  suffix: '.',                    placeholder: 'the main topic of your email',         hint: 'e.g. my summer plans / my new internship / my plans for next year' },
-    { key: 'task1_plan1', prefix: 'First, I am going to ',                               suffix: ' because ',             placeholder: 'your first plan + reason',              hint: 'e.g. do an internship / travel to Almaty / take an English course' },
-    { key: 'task1_plan2', prefix: 'After that, I am going to ',                          suffix: ' with ',                placeholder: 'second plan + who with',                hint: 'e.g. spend two weeks at home / visit Turkestan / go to the beach' },
+    { key: 'task1_plan1', prefix: 'First, I am going to ',                               suffix: ' because ___.',             placeholder: 'your first plan + reason',              hint: 'e.g. do an internship / travel to Almaty / take an English course' },
+    { key: 'task1_plan2', prefix: 'After that, I am going to ',                          suffix: ' with ___.',                placeholder: 'second plan + who with',                hint: 'e.g. spend two weeks at home / visit Turkestan / go to the beach' },
     { key: 'task1_close', prefix: 'I hope we are going to meet ',                        suffix: '!\n\nBest wishes,\n___', placeholder: 'when/where + your name',                hint: 'e.g. before September in Almaty / this summer / at WKU next year' },
-    { key: 'task2_where', prefix: 'My favourite place to study is ',                     suffix: '. It is ',              placeholder: 'the place + where it is located',       hint: 'e.g. the WKU library, in the main building / my dormitory room / a café near the university' },
-    { key: 'task2_desc',  prefix: 'The [place] is ',                                     suffix: ' than ',                placeholder: 'comparative adjective + comparison',   hint: 'e.g. much more comfortable than my room / quieter than the cafeteria / larger than I expected' },
-    { key: 'task2_hours', prefix: 'It is open from ',                                    suffix: ' and I usually go there ', placeholder: 'opening hours + when you go',       hint: 'e.g. eight in the morning until ten at night, and I usually go on Tuesday afternoons' },
+    { key: 'task2_where', prefix: 'My favourite place to study is ',                     suffix: '. It is ___.',              placeholder: 'the place + where it is located',       hint: 'e.g. the WKU library, in the main building / my dormitory room / a café near the university' },
+    { key: 'task2_desc',  prefix: 'The [place] is ',                                     suffix: ' than ___.',                placeholder: 'comparative adjective + comparison',   hint: 'e.g. much more comfortable than my room / quieter than the cafeteria / larger than I expected' },
+    { key: 'task2_hours', prefix: 'It is open from ',                                    suffix: ' and I usually go there ___.', placeholder: 'opening hours + when you go',       hint: 'e.g. eight in the morning until ten at night, and I usually go on Tuesday afternoons' },
     { key: 'task2_end',   prefix: 'Overall, I think it is the perfect place to study because ', suffix: '.',              placeholder: 'why it is perfect',                    hint: 'e.g. it is quiet, comfortable, and well-equipped / there are no distractions' },
   ],
 
@@ -10043,7 +10052,7 @@ const L17_4: FullLesson = {
     { key: 'can1',     prefix: 'I can ',                         suffix: '.',                                         placeholder: 'ability 1',           hint: 'e.g. speak three languages / play the piano' },
     { key: 'can2',     prefix: 'I can also ',                    suffix: '.',                                         placeholder: 'ability 2',           hint: 'e.g. swim / code in Python / play football' },
     { key: 'cant',     prefix: "However, I can't ",              suffix: ' yet — I am still learning.',               placeholder: 'something you cannot do', hint: 'e.g. drive a car / cook well / speak French' },
-    { key: 'friend',   prefix: 'My friend ',                     suffix: ' can ',                                     placeholder: 'name + ability',      hint: 'e.g. Amir can build websites' },
+    { key: 'friend',   prefix: 'My friend ',                     suffix: ' can ___.',                                     placeholder: 'name + ability',      hint: 'e.g. Amir can build websites' },
     { key: 'fcant',    prefix: 'But he/she cannot ',             suffix: ' — that is his/her weakness.',              placeholder: "friend's weakness",   hint: 'e.g. cook / sing / draw' },
     { key: 'goal1',    prefix: 'My first goal this year is to learn to ', suffix: '.',                                placeholder: 'new skill 1',         hint: 'e.g. drive / cook / speak French' },
     { key: 'goal2',    prefix: 'My second goal is to improve my ', suffix: ' every day.',                             placeholder: 'skill to improve',    hint: 'e.g. English / coding / drawing' },
@@ -10696,7 +10705,7 @@ const L18_4: FullLesson = {
   writingTemplate: [
     { key: 'greeting', prefix: 'Dear ',                            suffix: ',',                                      placeholder: "friend's name",         hint: 'e.g. Amir / Zhibek / Rustam' },
     { key: 'opening',  prefix: "I'm writing because I heard you've got ", suffix: '. I\'m so sorry to hear that!', placeholder: 'illness/problem',       hint: 'e.g. a bad cold / food poisoning / a fever' },
-    { key: 'advice1',  prefix: 'The most important thing is to ',  suffix: ' and ',                                  placeholder: 'advice 1 ... advice 2', hint: 'e.g. rest ... drink plenty of water' },
+    { key: 'advice1',  prefix: 'The most important thing is to ',  suffix: ' and ___.',                                  placeholder: 'advice 1 ... advice 2', hint: 'e.g. rest ... drink plenty of water' },
     { key: 'advice2',  prefix: 'Make sure you ',                   suffix: ' every day.',                            placeholder: 'medical instruction',   hint: 'e.g. take your medicine / sleep enough / eat warm food' },
     { key: 'dont',     prefix: "Don't worry about ",               suffix: ' — I\'ve got it covered.',               placeholder: 'something to reassure', hint: 'e.g. the classes / the homework / your notes' },
     { key: 'update',   prefix: 'I\'ve collected ',                 suffix: ' for you.',                              placeholder: 'what you did to help',  hint: 'e.g. all the lecture notes / the homework tasks' },
@@ -11404,11 +11413,11 @@ const L19_5: FullLesson = {
 
   writingTemplate: [
     { key: 'intro',    prefix: 'Are you coming to ',               suffix: ' for the first time? Here\'s how to get there!', placeholder: 'your university/place', hint: 'e.g. WKU / the city library / our department' },
-    { key: 'opt1',     prefix: 'Option 1: By bus. Take bus number ', suffix: ' from ',                                         placeholder: 'bus number ... stop name', hint: 'e.g. 14 ... Central Market' },
-    { key: 'time1',    prefix: 'The journey takes approximately ',  suffix: ' minutes and costs ',                             placeholder: 'time ... price',        hint: 'e.g. 20 ... 90 tenge' },
-    { key: 'opt2',     prefix: 'Option 2: By taxi. Use ',           suffix: ' app — it takes about ',                          placeholder: 'app name ... time',     hint: 'e.g. Yandex Go ... 10 minutes' },
-    { key: 'walk',     prefix: 'Option 3: On foot. First, walk straight along ', suffix: ' for about ',                        placeholder: 'street name ... distance', hint: 'e.g. the main boulevard ... 600 metres' },
-    { key: 'turn',     prefix: 'Then, turn ',                       suffix: ' at the ',                                        placeholder: 'direction ... landmark', hint: 'e.g. left ... roundabout / right ... traffic lights' },
+    { key: 'opt1',     prefix: 'Option 1: By bus. Take bus number ', suffix: ' from ___.',                                         placeholder: 'bus number ... stop name', hint: 'e.g. 14 ... Central Market' },
+    { key: 'time1',    prefix: 'The journey takes approximately ',  suffix: ' minutes and costs ___.',                             placeholder: 'time ... price',        hint: 'e.g. 20 ... 90 tenge' },
+    { key: 'opt2',     prefix: 'Option 2: By taxi. Use ',           suffix: ' app — it takes about ___.',                          placeholder: 'app name ... time',     hint: 'e.g. Yandex Go ... 10 minutes' },
+    { key: 'walk',     prefix: 'Option 3: On foot. First, walk straight along ', suffix: ' for about ___.',                        placeholder: 'street name ... distance', hint: 'e.g. the main boulevard ... 600 metres' },
+    { key: 'turn',     prefix: 'Then, turn ',                       suffix: ' at the ___.',                                        placeholder: 'direction ... landmark', hint: 'e.g. left ... roundabout / right ... traffic lights' },
     { key: 'arrive',   prefix: 'The entrance is ',                  suffix: '. You can\'t miss it!',                           placeholder: 'description of building', hint: 'e.g. a large blue building with a gold sign' },
     { key: 'tip',      prefix: 'Top tip: ',                         suffix: '.',                                               placeholder: 'useful advice',         hint: 'e.g. Book a taxi 20 min early / Catch the bus before 9 am' },
     { key: 'close',    prefix: 'If you get lost, just ',            suffix: '. We\'re always happy to help!',                  placeholder: 'ask for help / call us', hint: 'e.g. ask any student / call the information desk' },
@@ -12114,14 +12123,14 @@ const L20_5: FullLesson = {
 
   writingTemplate: [
     { key: 'title',    prefix: '',                                    suffix: '',                                     placeholder: '★★★ Name of restaurant — subtitle', hint: 'e.g. ★★★★★ Stepnoy Corner — A taste of home!' },
-    { key: 'visit',    prefix: 'I visited ',                         suffix: ' on ',                                  placeholder: 'restaurant name ... day/time',      hint: 'e.g. Stepnoy Corner ... Friday evening' },
-    { key: 'location', prefix: 'It is located ',                     suffix: '. The atmosphere is ',                  placeholder: 'location ... atmosphere adjective', hint: 'e.g. near WKU ... warm and cosy' },
-    { key: 'order',    prefix: 'I ordered the ',                     suffix: '. It was ',                             placeholder: 'dish name ... your opinion',         hint: 'e.g. beshbarmak ... incredibly tender and flavourful' },
-    { key: 'portion',  prefix: 'The portion was ',                   suffix: ' and the price was ',                  placeholder: 'size ... price opinion',            hint: 'e.g. very generous ... excellent value' },
-    { key: 'drink',    prefix: 'To drink, I had ',                   suffix: ', which was ',                         placeholder: 'drink ... adjective',               hint: 'e.g. fresh watermelon juice ... refreshing and sweet' },
+    { key: 'visit',    prefix: 'I visited ',                         suffix: ' on ___.',                                  placeholder: 'restaurant name ... day/time',      hint: 'e.g. Stepnoy Corner ... Friday evening' },
+    { key: 'location', prefix: 'It is located ',                     suffix: '. The atmosphere is ___.',                  placeholder: 'location ... atmosphere adjective', hint: 'e.g. near WKU ... warm and cosy' },
+    { key: 'order',    prefix: 'I ordered the ',                     suffix: '. It was ___.',                             placeholder: 'dish name ... your opinion',         hint: 'e.g. beshbarmak ... incredibly tender and flavourful' },
+    { key: 'portion',  prefix: 'The portion was ',                   suffix: ' and the price was ___.',                  placeholder: 'size ... price opinion',            hint: 'e.g. very generous ... excellent value' },
+    { key: 'drink',    prefix: 'To drink, I had ',                   suffix: ', which was ___.',                         placeholder: 'drink ... adjective',               hint: 'e.g. fresh watermelon juice ... refreshing and sweet' },
     { key: 'service',  prefix: 'The service was ',                   suffix: '.',                                     placeholder: 'service adjective',                 hint: 'e.g. friendly and attentive' },
     { key: 'negative', prefix: 'The only small criticism is that ',  suffix: '.',                                     placeholder: 'one minor problem',                 hint: 'e.g. it gets busy at lunchtime / the menu is small' },
-    { key: 'recommend',prefix: 'I would ',                           suffix: ' recommend this restaurant because ',   placeholder: 'strongly / not ... reason',         hint: 'e.g. strongly ... the food is authentic and delicious' },
+    { key: 'recommend',prefix: 'I would ',                           suffix: ' recommend this restaurant because ___.',   placeholder: 'strongly / not ... reason',         hint: 'e.g. strongly ... the food is authentic and delicious' },
   ],
 
   writingPhrases: [
@@ -12862,14 +12871,14 @@ const L21_5: FullLesson = {
   writingTemplate: [
     { key: 'title',   prefix: '',                                    suffix: '',                                   placeholder: 'Title of your essay',            hint: 'e.g. My Technology Habits — An Honest Look' },
     { key: 'intro',   prefix: 'Technology is ',                     suffix: ' in my daily life.',                  placeholder: 'how important / role of tech',   hint: 'e.g. essential / the central tool / everywhere' },
-    { key: 'routine', prefix: 'Every morning I always ',            suffix: ', and I usually ',                    placeholder: 'habit 1 ... habit 2',             hint: 'e.g. check my messages ... take notes on Google Docs' },
-    { key: 'pos1',    prefix: 'I enjoy ',                           suffix: ' because it helps me ',               placeholder: 'app/tool + reason',              hint: 'e.g. using Anki ... memorise vocabulary faster' },
-    { key: 'pos2',    prefix: 'I often use ',                       suffix: ' to ',                                placeholder: 'app/tool + purpose',             hint: 'e.g. YouTube ... improve my English listening' },
-    { key: 'neg1',    prefix: 'However, my biggest bad habit is ',  suffix: '. I know I need to ',                 placeholder: 'bad habit ... change needed',     hint: 'e.g. checking Instagram too often ... reduce it' },
-    { key: 'neg2',    prefix: 'I sometimes spend ',                 suffix: ' on social media, which affects my ', placeholder: 'time wasted ... consequence',    hint: 'e.g. two hours ... concentration and sleep' },
+    { key: 'routine', prefix: 'Every morning I always ',            suffix: ', and I usually ___.',                    placeholder: 'habit 1 ... habit 2',             hint: 'e.g. check my messages ... take notes on Google Docs' },
+    { key: 'pos1',    prefix: 'I enjoy ',                           suffix: ' because it helps me ___.',               placeholder: 'app/tool + reason',              hint: 'e.g. using Anki ... memorise vocabulary faster' },
+    { key: 'pos2',    prefix: 'I often use ',                       suffix: ' to ___.',                                placeholder: 'app/tool + purpose',             hint: 'e.g. YouTube ... improve my English listening' },
+    { key: 'neg1',    prefix: 'However, my biggest bad habit is ',  suffix: '. I know I need to ___.',                 placeholder: 'bad habit ... change needed',     hint: 'e.g. checking Instagram too often ... reduce it' },
+    { key: 'neg2',    prefix: 'I sometimes spend ',                 suffix: ' on social media, which affects my ___.', placeholder: 'time wasted ... consequence',    hint: 'e.g. two hours ... concentration and sleep' },
     { key: 'plan1',   prefix: 'First, I plan to ',                  suffix: '.',                                   placeholder: 'change 1',                       hint: 'e.g. turn off all notifications during lectures' },
     { key: 'plan2',   prefix: 'Second, I want to ',                 suffix: ' instead of scrolling.',              placeholder: 'positive change',                hint: 'e.g. read a physical book before bed' },
-    { key: 'conc',    prefix: 'I want technology to be my ',        suffix: ', not my ',                           placeholder: 'positive word ... negative word', hint: 'e.g. tool ... master / helper ... habit / servant ... boss' },
+    { key: 'conc',    prefix: 'I want technology to be my ',        suffix: ', not my ___.',                           placeholder: 'positive word ... negative word', hint: 'e.g. tool ... master / helper ... habit / servant ... boss' },
   ],
 
   writingPhrases: [
@@ -13488,13 +13497,13 @@ const L22_4: FullLesson = {
 
   writingTemplate: [
     { key: 'title',   prefix: '',                                     suffix: '',                                      placeholder: 'Your title',                    hint: 'e.g. The Most Amazing Place I\'ve Ever Visited' },
-    { key: 'intro',   prefix: 'The most amazing natural place I have ever visited is ', suffix: '. I went there ',     placeholder: 'place name ... when/with whom',  hint: 'e.g. Charyn Canyon ... last summer with my family' },
-    { key: 'loc',     prefix: 'It is located ',                       suffix: '. It took about ',                      placeholder: 'location ... journey time',      hint: 'e.g. 200 km east of Almaty ... 3 hours to get there' },
-    { key: 'first',   prefix: 'When I first saw it, I was completely ', suffix: '. The ',                              placeholder: 'extreme adj ... feature',        hint: 'e.g. amazed ... colour of the rock was extraordinary' },
-    { key: 'desc1',   prefix: 'The landscape was absolutely ',         suffix: '. The most impressive thing was ',      placeholder: 'extreme adj ... key feature',   hint: 'e.g. breathtaking ... the silence and the enormous cliffs' },
-    { key: 'wildlife',prefix: 'I also saw some incredible wildlife: ', suffix: '. It was ',                            placeholder: 'animals/plants ... reaction',    hint: 'e.g. a golden eagle soaring above ... absolutely magnificent' },
+    { key: 'intro',   prefix: 'The most amazing natural place I have ever visited is ', suffix: '. I went there ___.',     placeholder: 'place name ... when/with whom',  hint: 'e.g. Charyn Canyon ... last summer with my family' },
+    { key: 'loc',     prefix: 'It is located ',                       suffix: '. It took about ___.',                      placeholder: 'location ... journey time',      hint: 'e.g. 200 km east of Almaty ... 3 hours to get there' },
+    { key: 'first',   prefix: 'When I first saw it, I was completely ', suffix: '. The ___.',                              placeholder: 'extreme adj ... feature',        hint: 'e.g. amazed ... colour of the rock was extraordinary' },
+    { key: 'desc1',   prefix: 'The landscape was absolutely ',         suffix: '. The most impressive thing was ___.',      placeholder: 'extreme adj ... key feature',   hint: 'e.g. breathtaking ... the silence and the enormous cliffs' },
+    { key: 'wildlife',prefix: 'I also saw some incredible wildlife: ', suffix: '. It was ___.',                            placeholder: 'animals/plants ... reaction',    hint: 'e.g. a golden eagle soaring above ... absolutely magnificent' },
     { key: 'tip1',    prefix: 'If you visit, go ',                     suffix: ' when the light is best.',              placeholder: 'time of day',                   hint: 'e.g. early in the morning / at sunset / in spring' },
-    { key: 'tip2',    prefix: 'Remember to bring ',                    suffix: ', and wear ',                          placeholder: 'what to bring ... what to wear', hint: 'e.g. plenty of water ... comfortable walking shoes' },
+    { key: 'tip2',    prefix: 'Remember to bring ',                    suffix: ', and wear ___.',                          placeholder: 'what to bring ... what to wear', hint: 'e.g. plenty of water ... comfortable walking shoes' },
     { key: 'conc',    prefix: 'I would absolutely recommend this place because it is one of the most ', suffix: ' in Kazakhstan. You will never forget it!', placeholder: 'superlative + type of place', hint: 'e.g. spectacular natural wonders / breathtaking landscapes / memorable places' },
   ],
 
@@ -15393,7 +15402,7 @@ const L26_4: FullLesson = {
     { key: 'intro',  prefix: 'Dear new student,\n\n', suffix: '', placeholder: 'Introduce yourself and your experience at university...', hint: '"I have been a student here for... I want to share some advice..."' },
     { key: 'para1', prefix: '', suffix: '', placeholder: 'First piece of advice — about academic life (must/should/have to)...', hint: 'Use "you should...", "you must...", "you have to..."' },
     { key: 'para2', prefix: '', suffix: '', placeholder: 'Second piece of advice — about campus/social life (don\'t have to/shouldn\'t)...', hint: '"You don\'t have to...", "You shouldn\'t...", "I strongly recommend..."' },
-    { key: 'close', prefix: '', suffix: '\n\nGood luck,\n[Your name]', placeholder: 'Closing advice — about wellbeing or a positive thought...', hint: '"Finally, you mustn\'t forget to... You should... Enjoy every moment!"' },
+    { key: 'close', prefix: '', suffix: '\n\nGood luck,\n___', placeholder: 'Closing advice — about wellbeing or a positive thought...', hint: '"Finally, you mustn\'t forget to... You should... Enjoy every moment!"' },
   ],
   writingPhrases: [
     { category: 'Obligations (must/have to)', color: N, items: ['You must manage your time well.', 'You have to attend 80% of classes.', 'You must contact your lecturer immediately.', 'You mustn\'t leave work to the last minute.'] },
@@ -18270,7 +18279,7 @@ const L34_3: FullLesson = {
     { key: 'task1_grammar',  prefix: 'I have learned grammar like ', suffix: '.', placeholder: 'name 2–3 grammar structures with a short example', hint: '"conditionals (If I study, I will improve) and relative clauses (a teacher who inspires me)"' },
     { key: 'task1_closing',  prefix: '', suffix: '', placeholder: 'Closing sentence + sign-off', hint: '"Write back when you can! Best wishes, [name]"' },
     { key: 'task2_intro',    prefix: '', suffix: '', placeholder: 'Task 2: Title + what type of film/book + what it is about', hint: '"X is an inspiring film that tells the story of…"' },
-    { key: 'task2_detail',   prefix: 'The film/book, which was ', suffix: ', is set in ', placeholder: 'directed / written by [name]', hint: 'Use a non-defining relative clause with commas.' },
+    { key: 'task2_detail',   prefix: 'The film/book, which was ', suffix: ', is set in ___.', placeholder: 'directed / written by [name]', hint: 'Use a non-defining relative clause with commas.' },
     { key: 'task2_opinion',  prefix: 'What I love most is ', suffix: '.', placeholder: 'your favourite thing about it', hint: 'E.g. "the theme of never giving up" / "the way the characters develop"' },
     { key: 'task2_recommend', prefix: 'I highly recommend this to anyone who ', suffix: '.', placeholder: 'describe your ideal reader/viewer', hint: 'E.g. "has ever had a dream" / "loves true stories"' },
   ],
@@ -21276,9 +21285,9 @@ const L39_4: FullLesson = {
     { key: 'atmos',   prefix: 'When it comes to atmosphere, ', suffix: ' is ___ than ___ .',                        placeholder: 'busier / quieter / more relaxed',         hint: 'Compare the mood or vibe of both places.' },
     { key: 'atmos2',  prefix: 'I\'ve found that ', suffix: '.',                                                      placeholder: 'what you prefer about the atmosphere',   hint: 'Which atmosphere works better for you, and why?' },
     { key: 'key',     prefix: 'The most significant difference, for me, is ', suffix: '.',                           placeholder: 'your main personal observation',          hint: 'Use a superlative! "The most important / significant / surprising..."' },
-    { key: 'miss',    prefix: 'On the other hand, I miss ', suffix: ' about ',                                       placeholder: 'what you miss from the other place',     hint: 'What does one place have that the other doesn\'t?' },
+    { key: 'miss',    prefix: 'On the other hand, I miss ', suffix: ' about ___.',                                       placeholder: 'what you miss from the other place',     hint: 'What does one place have that the other doesn\'t?' },
     { key: 'miss2',   prefix: 'Whereas ', suffix: '.',                                                               placeholder: 'contrast using whereas (A has X; B has Y)', hint: '"Whereas A has X, B only has Y." — a contrast linking word.' },
-    { key: 'overall', prefix: 'Overall, I think ', suffix: ' has been the better choice for me because ',            placeholder: 'which place and why',                    hint: 'Give your final verdict using "the better" + reason.' },
+    { key: 'overall', prefix: 'Overall, I think ', suffix: ' has been the better choice for me because ___.',            placeholder: 'which place and why',                    hint: 'Give your final verdict using "the better" + reason.' },
     { key: 'end',     prefix: 'That is more valuable than ', suffix: '.',                                            placeholder: 'what matters less (size / fame / money)', hint: 'End with a personal reflection. What matters most?' },
   ],
 
@@ -21908,7 +21917,7 @@ const L40_4: FullLesson = {
     { key: 'title',   prefix: 'My Life Experiences — by ', suffix: '',                                                   placeholder: 'your name',                                 hint: 'Write your name as the author.' },
     { key: 'intro',   prefix: 'When I think about the experiences I\'ve had, I realise ', suffix: '.',                   placeholder: 'what has shaped your experiences',          hint: 'Start with a reflection on what kinds of experiences you\'ve had.' },
     { key: 'have1',   prefix: 'I\'ve ', suffix: '.',                                                                     placeholder: 'something you\'ve done (PP + details)',     hint: 'Use Present Perfect for an experience (no specific time).' },
-    { key: 'have1b',  prefix: 'I went there in ', suffix: ', and it taught me ',                                          placeholder: 'year / what you learned',                   hint: 'Now give specifics — switch to Past Simple!' },
+    { key: 'have1b',  prefix: 'I went there in ', suffix: ', and it taught me ___.',                                          placeholder: 'year / what you learned',                   hint: 'Now give specifics — switch to Past Simple!' },
     { key: 'have2',   prefix: 'I\'ve also ', suffix: '.',                                                                placeholder: 'another achievement or experience (PP)',    hint: 'Another significant thing you\'ve done.' },
     { key: 'disc',    prefix: 'I\'ve discovered that ', suffix: '.',                                                      placeholder: 'something you\'ve learned about yourself',  hint: 'Use PP: "I\'ve discovered / I\'ve realised / I\'ve found that..."' },
     { key: 'never1',  prefix: 'I\'ve never ', suffix: '.',                                                               placeholder: 'something you\'ve never done',              hint: '"I\'ve never + past participle." State it simply.' },
@@ -24306,7 +24315,7 @@ const L44_4: FullLesson = {
     { key: 'dir2',    prefix: 'You\'ll ', suffix: '.',                                                               placeholder: 'see / pass / come to something',  hint: '"You\'ll see..." / "You\'ll pass..." / "You\'ll come to..."' },
     { key: 'cross',   prefix: 'Cross the road ', suffix: '.',                                                         placeholder: 'at the lights / at the crossing',hint: '"Cross the road AT the pedestrian crossing."' },
     { key: 'dir3',    prefix: 'Walk ', suffix: '.',                                                                   placeholder: 'along + street name OR past + landmark', hint: '"Walk ALONG the avenue" / "Walk PAST the bank".' },
-    { key: 'dir4',    prefix: 'Once you ', suffix: ', you\'ll see ',                                                 placeholder: 'pass/cross something',           hint: '"Once you CROSS the bridge / go PAST the park..."' },
+    { key: 'dir4',    prefix: 'Once you ', suffix: ', you\'ll see ___.',                                                 placeholder: 'pass/cross something',           hint: '"Once you CROSS the bridge / go PAST the park..."' },
     { key: 'dest',    prefix: 'The destination is ', suffix: '. You can\'t miss it.',                                placeholder: 'where exactly (on the left / at the end)', hint: '"in / on / at" + description. Then reassure.' },
     { key: 'alt',     prefix: 'Alternatively, take ', suffix: ' — it\'s faster.',                                   placeholder: 'a bus/tram/taxi option',         hint: 'Offer an alternative transport option if possible.' },
   ],
@@ -24860,10 +24869,10 @@ const L45_4: FullLesson = {
     { key: 'change',   prefix: '', suffix: '.',                                                                           placeholder: 'the specific change you\'d make', hint: 'Name your change: "introduce / create / improve / remove..."' },
     { key: 'problem',  prefix: 'At the moment, ', suffix: '.',                                                           placeholder: 'describe the current problem', hint: 'Explain what the current situation is (why change is needed).' },
     { key: 'how',      prefix: 'If this change were introduced, the university would ', suffix: '.',                     placeholder: 'describe how it would work',    hint: 'Use 2nd Conditional: "If this existed, it would..."' },
-    { key: 'benefit1', prefix: 'First, if this happened, ', suffix: ' would ',                                           placeholder: 'who benefits + how',           hint: '"If this happened, students would feel..." — imaginary benefit.' },
+    { key: 'benefit1', prefix: 'First, if this happened, ', suffix: ' would ___.',                                           placeholder: 'who benefits + how',           hint: '"If this happened, students would feel..." — imaginary benefit.' },
     { key: 'benefit2', prefix: 'Second, ', suffix: '.',                                                                  placeholder: 'another benefit',              hint: 'Add a second benefit using "would".' },
     { key: 'challenge',prefix: 'I acknowledge that implementing this would require ', suffix: '.',                       placeholder: 'what it would cost/need',      hint: 'Be honest about challenges: "it would require time / money / effort."' },
-    { key: 'solution', prefix: 'But if ', suffix: ', it would be possible to ',                                          placeholder: 'a first step — pilot / small start', hint: '"If the university started small, it would be possible to..."' },
+    { key: 'solution', prefix: 'But if ', suffix: ', it would be possible to ___.',                                          placeholder: 'a first step — pilot / small start', hint: '"If the university started small, it would be possible to..."' },
     { key: 'conclude', prefix: 'If I could change one thing, it would be ', suffix: '. If this happened, everything else would be easier.', placeholder: 'restate your main idea', hint: 'End by restating your change and its overall impact.' },
   ],
 
@@ -25412,7 +25421,7 @@ const L46_4: FullLesson = {
     { key: 'point2',  prefix: 'He/She argued that ', suffix: '.',                                                    placeholder: 'second main point',                  hint: '"argued that" = presented an argument. Backshift the tense.' },
     { key: 'question',prefix: 'He/She asked us ', suffix: '.',                                                       placeholder: 'whether + question / to + infinitive', hint: '"He asked us WHETHER we agreed." / "He asked us TO CONSIDER..."' },
     { key: 'discuss', prefix: 'The class discussed ', suffix: '.',                                                   placeholder: 'the topic of the discussion',         hint: 'Summarise what students debated.' },
-    { key: 'student', prefix: 'One student said that ', suffix: '. Another said that ',                              placeholder: 'contrasting student view 1 / view 2', hint: 'Report two different student opinions using "said that."' },
+    { key: 'student', prefix: 'One student said that ', suffix: '. Another said that ___.',                              placeholder: 'contrasting student view 1 / view 2', hint: 'Report two different student opinions using "said that."' },
     { key: 'teacher', prefix: 'Professor ___ told us to ', suffix: '.',                                              placeholder: 'a task/reading the professor assigned', hint: '"told us to" + infinitive = command/assignment.' },
     { key: 'conclude',prefix: 'He/She concluded by saying that ', suffix: '.',                                       placeholder: 'the main conclusion',               hint: '"concluded by saying that" + reported speech.' },
   ],
@@ -29047,10 +29056,10 @@ const L52_4: FullLesson = {
     { key: 'title',  prefix: '', suffix: ' — by ',                                                                       placeholder: 'Title: How to... / Advice for...',  hint: 'Give your piece a clear, helpful title.' },
     { key: 'author', prefix: '', suffix: '',                                                                               placeholder: 'your name',                         hint: 'Your name.' },
     { key: 'intro',  prefix: 'University life is ', suffix: '. Here is my advice.',                                      placeholder: 'two adjectives describing student life', hint: 'Open with how you see student life generally.' },
-    { key: 'sleep',  prefix: 'You should ', suffix: '. You shouldn\'t ',                                                  placeholder: 'sleep advice (positive + negative)', hint: '"You should [positive habit]. You shouldn\'t [bad habit]."' },
-    { key: 'must',   prefix: 'You have to ', suffix: ' because ',                                                         placeholder: 'one obligation + reason',           hint: '"You HAVE TO + base form, because..." — something truly necessary.' },
+    { key: 'sleep',  prefix: 'You should ', suffix: '. You shouldn\'t ___.',                                                  placeholder: 'sleep advice (positive + negative)', hint: '"You should [positive habit]. You shouldn\'t [bad habit]."' },
+    { key: 'must',   prefix: 'You have to ', suffix: ' because ___.',                                                         placeholder: 'one obligation + reason',           hint: '"You HAVE TO + base form, because..." — something truly necessary.' },
     { key: 'notnec', prefix: 'You don\'t have to ', suffix: ', but you should try.',                                     placeholder: 'something that is optional but helpful', hint: '"You DON\'T HAVE TO + base form, but..."' },
-    { key: 'food',   prefix: 'You shouldn\'t ', suffix: '. Instead, you should ',                                        placeholder: 'bad habit → better alternative',    hint: '"You shouldn\'t skip meals. Instead, you should eat something regular."' },
+    { key: 'food',   prefix: 'You shouldn\'t ', suffix: '. Instead, you should ___.',                                        placeholder: 'bad habit → better alternative',    hint: '"You shouldn\'t skip meals. Instead, you should eat something regular."' },
     { key: 'mental', prefix: 'If you feel stressed, you should ', suffix: '.',                                            placeholder: 'action: talk to someone / rest / take a break', hint: '"If you feel stressed, you should..."' },
     { key: 'close',  prefix: 'Remember: you don\'t have to be perfect. You just have to ', suffix: '.',                  placeholder: 'your key message for students',     hint: 'Close with a memorable, kind message using "have to" or "should".' },
   ],
@@ -29766,12 +29775,12 @@ const L53_4B: FullLesson = {
     { key: 'title',    prefix: 'My Ideal Travel Plan: ', suffix: ' — by ',                                        placeholder: 'number of days + destination',         hint: '"Five Days in Georgia" / "A Week in Istanbul" / "Four Days in Shymkent"' },
     { key: 'author',   prefix: '', suffix: '',                                                                      placeholder: 'your name',                            hint: 'Your name.' },
     { key: 'intro',    prefix: 'I\'ve been planning this trip for ', suffix: ', and I\'m finally going to go.',   placeholder: 'time period (months / a year)',        hint: 'Open with how long you\'ve been thinking about this trip.' },
-    { key: 'flight',   prefix: 'I\'m flying from ', suffix: ' on ',                                               placeholder: 'departure city → destination + date',  hint: '"flying FROM Uralsk TO Almaty on the 20th of June" — Present Continuous for confirmed arrangement.' },
+    { key: 'flight',   prefix: 'I\'m flying from ', suffix: ' on ___.',                                               placeholder: 'departure city → destination + date',  hint: '"flying FROM Uralsk TO Almaty on the 20th of June" — Present Continuous for confirmed arrangement.' },
     { key: 'booked',   prefix: 'I\'ve already booked ', suffix: '.',                                              placeholder: 'what you\'ve booked (ticket/hostel)',  hint: '"I\'ve already BOOKED my ticket / a hostel room / the tour." Present Perfect = already done.' },
     { key: 'plan',     prefix: 'My plan for the days: ', suffix: '.',                                             placeholder: 'day-by-day itinerary',                 hint: '"Day 1 — explore the old town. Day 2 — visit the famous..."' },
-    { key: 'budget',   prefix: 'I\'m going to travel light — ', suffix: '. My daily budget is about ',            placeholder: 'what you\'ll bring + amount',          hint: '"just a backpack... My daily budget is about 20 dollars."' },
+    { key: 'budget',   prefix: 'I\'m going to travel light — ', suffix: '. My daily budget is about ___.',            placeholder: 'what you\'ll bring + amount',          hint: '"just a backpack... My daily budget is about 20 dollars."' },
     { key: 'forward',  prefix: 'I\'m most looking forward to ', suffix: '.',                                      placeholder: 'the thing you\'re most excited about', hint: '"looking forward to" + gerund: "visiting...", "trying the food...", "seeing..."' },
-    { key: 'close',    prefix: 'I\'ll set off on ', suffix: ' and come back with ',                               placeholder: 'date + what you\'ll bring back (memories/photos)', hint: '"I\'ll set off on the 15th and come back with full notebooks and happy memories."' },
+    { key: 'close',    prefix: 'I\'ll set off on ', suffix: ' and come back with ___.',                               placeholder: 'date + what you\'ll bring back (memories/photos)', hint: '"I\'ll set off on the 15th and come back with full notebooks and happy memories."' },
   ],
 
   writingPhrases: [
@@ -30415,10 +30424,10 @@ const L54_4: FullLesson = {
 
   writingTemplate: [
     { key: 'greeting', prefix: 'Dear ', suffix: ',',                                                                    placeholder: 'Ms / Mr + Surname (or "Hiring Manager")', hint: 'Always use "Dear Ms/Mr [Surname]" if you know the name. Otherwise: "Dear Hiring Manager."' },
-    { key: 'opening',  prefix: 'I am writing to apply for the ', suffix: ', which I found advertised on ',             placeholder: 'internship / position name ... where you found it', hint: '"I am writing to apply for the [role], which I found advertised on [source]."' },
+    { key: 'opening',  prefix: 'I am writing to apply for the ', suffix: ', which I found advertised on ___.',             placeholder: 'internship / position name ... where you found it', hint: '"I am writing to apply for the [role], which I found advertised on [source]."' },
     { key: 'who',      prefix: 'I am currently a ', suffix: ' student at WKU in Uralsk.',                              placeholder: 'year + subject',                             hint: '"I am currently a second-year Computer Science student at WKU."' },
-    { key: 'skills1',  prefix: 'I have been ', suffix: ' for the past ',                                               placeholder: 'studying/developing/building + time period', hint: 'Use Present Perfect Continuous: "I have been STUDYING... for 2 years." / "I have been BUILDING..."' },
-    { key: 'project',  prefix: 'I have ', suffix: ', which ',                                                          placeholder: 'developed / built / created + your project + impact', hint: '"I have built a student app, which has 30 users."' },
+    { key: 'skills1',  prefix: 'I have been ', suffix: ' for the past ___.',                                               placeholder: 'studying/developing/building + time period', hint: 'Use Present Perfect Continuous: "I have been STUDYING... for 2 years." / "I have been BUILDING..."' },
+    { key: 'project',  prefix: 'I have ', suffix: ', which ___.',                                                          placeholder: 'developed / built / created + your project + impact', hint: '"I have built a student app, which has 30 users."' },
     { key: 'interest', prefix: 'I am particularly interested in ', suffix: ', as this aligns with my career goals.',   placeholder: 'the company\'s work + why it interests you', hint: '"I am particularly interested in [company work], as this aligns with my goals."' },
     { key: 'why',      prefix: 'I would be a strong candidate because ', suffix: '.',                                   placeholder: '2-3 brief reasons (experience / initiative / skills)', hint: 'Give 2-3 reasons: "I have real project experience, I take initiative, I can communicate professionally."' },
     { key: 'avail',    prefix: 'I am available to begin on ', suffix: ' and can commit to the full programme.',        placeholder: 'starting date',                             hint: '"I am available to begin on the [date] and can commit to the full programme."' },
@@ -31055,12 +31064,12 @@ const L55_4: FullLesson = {
   writingTemplate: [
     { key: 'title',   prefix: '', suffix: ' — by ',                                                                      placeholder: 'Story title (can include a twist)',     hint: 'Choose a title that suggests something unexpected or personal.' },
     { key: 'author',  prefix: '', suffix: '',                                                                              placeholder: 'your name',                             hint: 'Your name.' },
-    { key: 'context', prefix: 'It was ', suffix: ', and I had been ',                                                    placeholder: 'when + what you had been doing/expecting', hint: 'Set the scene: when it was, and what had been happening before the main event.' },
+    { key: 'context', prefix: 'It was ', suffix: ', and I had been ___.',                                                    placeholder: 'when + what you had been doing/expecting', hint: 'Set the scene: when it was, and what had been happening before the main event.' },
     { key: 'event',   prefix: 'When I ', suffix: '.',                                                                    placeholder: 'arrived / got there / started — main past event', hint: '"When I arrived..." — the main past event. What happened?' },
-    { key: 'problem', prefix: 'I had already ', suffix: ', so ',                                                         placeholder: 'what had happened earlier that made this worse', hint: '"I had already missed X, so..." — use Past Perfect for earlier context.' },
+    { key: 'problem', prefix: 'I had already ', suffix: ', so ___.',                                                         placeholder: 'what had happened earlier that made this worse', hint: '"I had already missed X, so..." — use Past Perfect for earlier context.' },
     { key: 'decide',  prefix: 'I decided to ', suffix: '.',                                                              placeholder: 'your decision in response to the problem',    hint: 'What did you decide to do? Simple past.' },
     { key: 'twist',   prefix: 'What I hadn\'t known was ', suffix: '.',                                                  placeholder: 'the thing you hadn\'t expected',           hint: '"What I hadn\'t known was..." = the unexpected element. Past Perfect negative.' },
-    { key: 'end',     prefix: 'By the time I ', suffix: ', it had already ',                                             placeholder: 'arrived / finished / happened — by the time structure', hint: '"By the time I arrived, it had already..." — use the deadline structure.' },
+    { key: 'end',     prefix: 'By the time I ', suffix: ', it had already ___.',                                             placeholder: 'arrived / finished / happened — by the time structure', hint: '"By the time I arrived, it had already..." — use the deadline structure.' },
     { key: 'reflect', prefix: 'That evening, I thought about ', suffix: '.',                                             placeholder: 'what the day had taught you',              hint: 'Reflect on the experience. What did it mean? What had you learned?' },
   ],
 
@@ -32334,7 +32343,7 @@ const L57_4: FullLesson = {
     { key: 'arg1',   prefix: 'Firstly, ', suffix: '. Furthermore, ',                                                    placeholder: 'first argument + additional supporting point', hint: '"Firstly, [argument]. Furthermore, [supporting point]."' },
     { key: 'result1',prefix: 'As a result, ', suffix: '.',                                                               placeholder: 'the consequence of what you described',       hint: '"As a result, [consequence]." — what follows from your argument?' },
     { key: 'arg2',   prefix: 'Secondly, ', suffix: '. Therefore, ',                                                     placeholder: 'second argument + logical consequence',       hint: '"Secondly, [argument]. Therefore, [conclusion]."' },
-    { key: 'concess',prefix: 'Although ', suffix: ', nevertheless ',                                                     placeholder: 'acknowledge opposing view + your counter',    hint: '"Although [their valid point], nevertheless [your response]."' },
+    { key: 'concess',prefix: 'Although ', suffix: ', nevertheless ___.',                                                     placeholder: 'acknowledge opposing view + your counter',    hint: '"Although [their valid point], nevertheless [your response]."' },
     { key: 'despite',prefix: 'Despite this, ', suffix: '.',                                                             placeholder: 'acknowledge a weakness in your argument',     hint: '"Despite this, I recognise that..." — show intellectual honesty.' },
     { key: 'conclude',prefix: 'To sum up, ', suffix: '.',                                                               placeholder: 'brief restatement of your position',          hint: '"To sum up, [topic] is important because..." / "my position is..."' },
   ],
@@ -33790,9 +33799,9 @@ const L60_4: FullLesson = {
     { key: 'headline', prefix: '', suffix: '',                                                                                placeholder: 'News headline — clear and factual',            hint: 'Short, informative: "WKU to Introduce X" / "University Announces Y" / "Students React to Z"' },
     { key: 'byline',   prefix: 'By ', suffix: ', WKU Student Journal',                                                       placeholder: 'your name',                                   hint: 'Your name — journalistic byline.' },
     { key: 'lead',     prefix: '', suffix: '',                                                                                placeholder: 'Opening paragraph: who, what, where, when',  hint: 'The most important information first. Use a strong reporting verb: "confirmed / announced / stated / revealed."' },
-    { key: 'detail1',  prefix: 'The ', suffix: ' acknowledged / stated / confirmed that ',                                   placeholder: 'official source + what they said',            hint: 'Report the official position using precise reporting verbs. Include tense backshift.' },
-    { key: 'contrast', prefix: 'However, ', suffix: ' claimed / argued / insisted that ',                                    placeholder: 'opposing voice + what they claimed',          hint: '"However, critics claimed..." / "However, students argued..." — introduce the counter-view.' },
-    { key: 'quote1',   prefix: 'One ', suffix: ' warned that ',                                                              placeholder: 'unnamed source + warning',                    hint: '"One lecturer warned that..." — using "warned" signals a concern/threat. Include tense shifts.' },
+    { key: 'detail1',  prefix: 'The ', suffix: ' acknowledged / stated / confirmed that ___.',                                   placeholder: 'official source + what they said',            hint: 'Report the official position using precise reporting verbs. Include tense backshift.' },
+    { key: 'contrast', prefix: 'However, ', suffix: ' claimed / argued / insisted that ___.',                                    placeholder: 'opposing voice + what they claimed',          hint: '"However, critics claimed..." / "However, students argued..." — introduce the counter-view.' },
+    { key: 'quote1',   prefix: 'One ', suffix: ' warned that ___.',                                                              placeholder: 'unnamed source + warning',                    hint: '"One lecturer warned that..." — using "warned" signals a concern/threat. Include tense shifts.' },
     { key: 'balance',  prefix: 'Another ', suffix: ' argued / noted that ',                                                  placeholder: 'balancing voice + what they noted',           hint: 'Balance with a view from the other side: "Another faculty member argued..."' },
     { key: 'close',    prefix: '', suffix: ' — will be closely watched.',                                                    placeholder: 'Concluding observation about the future',      hint: 'End with a forward-looking statement using future or conditional tenses.' },
   ],
@@ -35373,11 +35382,11 @@ const L62_4: FullLesson = {
 
   writingTemplate: [
     { key: 'title',    prefix: 'Report on ', suffix: '',                                                                        placeholder: 'Your report topic',                  hint: '"Report on X" — formal title. Could be: student satisfaction, a service, a problem, a policy.' },
-    { key: 'prepared', prefix: 'Prepared by: ', suffix: ' | Date: ',                                                           placeholder: 'your name + role ... date',          hint: 'Standard formal report byline.' },
+    { key: 'prepared', prefix: 'Prepared by: ', suffix: ' | Date: ___.',                                                           placeholder: 'your name + role ... date',          hint: 'Standard formal report byline.' },
     { key: 'context',  prefix: 'This report was ', suffix: ' following concerns that had been raised.',                        placeholder: 'commissioned by / prepared following', hint: '"This report WAS COMMISSIONED by X." — Past Simple Passive. Establish context.' },
-    { key: 'method',   prefix: 'Data was collected from ', suffix: '. Participants were asked to ',                            placeholder: 'N respondents ... [what they did]',   hint: 'Methods section: "Data WAS COLLECTED from..." / "Participants WERE ASKED TO..." — Past Simple Passive.' },
+    { key: 'method',   prefix: 'Data was collected from ', suffix: '. Participants were asked to ___.',                            placeholder: 'N respondents ... [what they did]',   hint: 'Methods section: "Data WAS COLLECTED from..." / "Participants WERE ASKED TO..." — Past Simple Passive.' },
     { key: 'finding1', prefix: 'It has been found that ', suffix: '.',                                                         placeholder: 'key finding (PPS impersonal)',         hint: '"IT HAS BEEN FOUND THAT..." — impersonal Present Perfect Passive for findings.' },
-    { key: 'finding2', prefix: 'It has been reported that ', suffix: '. It is widely acknowledged that ',                     placeholder: 'further finding + consensus',          hint: '"IT HAS BEEN REPORTED THAT... IT IS WIDELY ACKNOWLEDGED THAT..." ✅' },
+    { key: 'finding2', prefix: 'It has been reported that ', suffix: '. It is widely acknowledged that ___.',                     placeholder: 'further finding + consensus',          hint: '"IT HAS BEEN REPORTED THAT... IT IS WIDELY ACKNOWLEDGED THAT..." ✅' },
     { key: 'rec1',     prefix: 'It is recommended that ', suffix: '.',                                                         placeholder: 'main recommendation (modal passive)',  hint: '"IT IS RECOMMENDED THAT X be done." — present passive for recommendation.' },
     { key: 'rec2',     prefix: 'It is proposed that ', suffix: '.',                                                            placeholder: 'second recommendation',              hint: '"IT IS PROPOSED THAT Y be implemented." ✅' },
     { key: 'concl',    prefix: 'The findings have been shared with ', suffix: '. A follow-up report will be prepared.',        placeholder: 'relevant department + future action', hint: '"The findings HAVE BEEN SHARED with X." PPS. "A report WILL BE PREPARED." Future Passive. ✅' },
@@ -36155,12 +36164,12 @@ const L63_4: FullLesson = {
   writingTemplate: [
     { key: 'title',   prefix: 'What Went Wrong with ', suffix: '? An Analytical Assessment',                             placeholder: 'your topic/event/project',         hint: '"What Went Wrong with X?" — analytical essay title.' },
     { key: 'intro',   prefix: 'In [time period], ', suffix: '. The original plan must have seemed achievable, yet...',    placeholder: 'introduce the event and its failure', hint: 'Introduce the topic using modal deduction: "must have seemed achievable." ✅' },
-    { key: 'evid1',   prefix: 'Several factors must have ', suffix: '. This can\'t have been planned — it suggests ',     placeholder: 'contributed to the failure + cause', hint: '"must have contributed" (deduction) + "can\'t have been planned" (impossibility). ✅' },
-    { key: 'evid2',   prefix: 'The problems were being identified but ', suffix: '. Someone should have ',                 placeholder: 'weren\'t escalated + retrospective advice', hint: '"should have [action]" = criticism of what wasn\'t done. ✅' },
-    { key: 'could',   prefix: 'The [organisation] could have ', suffix: '. Given the scale, this oversight might have ',   placeholder: 'alternative action + possible explanation', hint: '"could have [done]" = opportunity not taken. "might have [been]" = possible reason. ✅' },
+    { key: 'evid1',   prefix: 'Several factors must have ', suffix: '. This can\'t have been planned — it suggests ___.',     placeholder: 'contributed to the failure + cause', hint: '"must have contributed" (deduction) + "can\'t have been planned" (impossibility). ✅' },
+    { key: 'evid2',   prefix: 'The problems were being identified but ', suffix: '. Someone should have ___.',                 placeholder: 'weren\'t escalated + retrospective advice', hint: '"should have [action]" = criticism of what wasn\'t done. ✅' },
+    { key: 'could',   prefix: 'The [organisation] could have ', suffix: '. Given the scale, this oversight might have ___.',   placeholder: 'alternative action + possible explanation', hint: '"could have [done]" = opportunity not taken. "might have [been]" = possible reason. ✅' },
     { key: 'ought',   prefix: 'The [process] ought to have ', suffix: '.',                                                placeholder: 'stronger moral/ethical obligation',    hint: '"ought to have [done]" = stronger moral obligation not met. ✅' },
     { key: 'neednt',  prefix: 'The [outcome] needn\'t have ', suffix: ' had [condition].',                                placeholder: 'unnecessary failure + condition',      hint: '"needn\'t have failed" = the failure happened but was unnecessary. ✅' },
-    { key: 'concl',   prefix: 'The evidence suggests the [outcome] was largely avoidable. The [event] must have ', suffix: '. More attention should have been paid to ',     placeholder: 'combination of deduction + retrospective advice', hint: 'Combine deduction (must have) with retrospective advice (should have). ✅' },
+    { key: 'concl',   prefix: 'The evidence suggests the [outcome] was largely avoidable. The [event] must have ', suffix: '. More attention should have been paid to ___.',     placeholder: 'combination of deduction + retrospective advice', hint: 'Combine deduction (must have) with retrospective advice (should have). ✅' },
   ],
 
   writingPhrases: [
@@ -36934,11 +36943,11 @@ const L64_4: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'opening', prefix: 'I have been interested in ', suffix: ' since ',                                                   placeholder: 'your field + starting point',       hint: 'PPC for ongoing interest: "I have BEEN INTERESTED in X since Y." ✅' },
+    { key: 'opening', prefix: 'I have been interested in ', suffix: ' since ___.',                                                   placeholder: 'your field + starting point',       hint: 'PPC for ongoing interest: "I have BEEN INTERESTED in X since Y." ✅' },
     { key: 'study',   prefix: 'Over the past [N] years, I have ', suffix: '.',                                                   placeholder: 'studied / completed / attended',    hint: 'PPS for completed achievements: "I have STUDIED / COMPLETED / ATTENDED X." ✅' },
-    { key: 'focus',   prefix: 'My research focus has been ', suffix: '. I have been particularly interested in ',               placeholder: 'developing (PPS result) + topic (PPC)', hint: '"has been developing" (PPS — result) / "have been particularly interested in" (PPS stative) ✅' },
+    { key: 'focus',   prefix: 'My research focus has been ', suffix: '. I have been particularly interested in ___.',               placeholder: 'developing (PPS result) + topic (PPC)', hint: '"has been developing" (PPS — result) / "have been particularly interested in" (PPS stative) ✅' },
     { key: 'discover',prefix: 'Through this work, I have ', suffix: '.',                                                         placeholder: 'discovered / learned / developed (PPS results)', hint: 'PPS for completed findings: "I have DISCOVERED / LEARNED / DEVELOPED X." ✅' },
-    { key: 'develop', prefix: 'I have also been developing ', suffix: '. I have ',                                               placeholder: 'professional skills (PPC) + worked/supported (PPS)', hint: 'PPC for ongoing development + PPS for completed professional actions. ✅' },
+    { key: 'develop', prefix: 'I have also been developing ', suffix: '. I have ___.',                                               placeholder: 'professional skills (PPC) + worked/supported (PPS)', hint: 'PPC for ongoing development + PPS for completed professional actions. ✅' },
     { key: 'bring',   prefix: 'In applying for this programme, I bring ', suffix: '.',                                           placeholder: 'foundation / completed phase / skills',hint: 'Present tense for current readiness. "I BRING a strong foundation..." ✅' },
     { key: 'close',   prefix: 'What I have been ', suffix: ' has prepared me for it.',                                          placeholder: 'building / developing / working on',hint: 'PPC for ongoing process that leads to present readiness. ✅' },
   ],
@@ -37686,14 +37695,14 @@ const L65_4: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'title',   prefix: 'The ', suffix: ' That/Who Changed',                                                            placeholder: 'Book/Person/Place/Idea',           hint: 'Use a defining relative clause in your title. "The Book THAT Changed..." ✅' },
-    { key: 'opening', prefix: 'There are [things] that ', suffix: ', and there are [things] that ',                          placeholder: 'general category vs specific type',  hint: 'Open with a defining clause contrast. "There are books THAT X, and books THAT Y."' },
+    { key: 'title',   prefix: 'The ', suffix: ' That/Who Changed ___.',                                                            placeholder: 'Book/Person/Place/Idea',           hint: 'Use a defining relative clause in your title. "The Book THAT Changed..." ✅' },
+    { key: 'opening', prefix: 'There are [things] that ', suffix: ', and there are [things] that ___.',                          placeholder: 'general category vs specific type',  hint: 'Open with a defining clause contrast. "There are books THAT X, and books THAT Y."' },
     { key: 'subject', prefix: 'The [thing/person] that did this for me was ', suffix: ', [describing relative clause].',     placeholder: 'your specific subject + defining clause', hint: 'Introduce your subject with a defining relative clause.' },
-    { key: 'nondefa', prefix: '', suffix: ', whose/which ',                                                                   placeholder: 'Name/Proper noun, + non-defining clause', hint: 'Non-defining: "X, WHO/WHICH..., did/is..." — use commas. ✅' },
-    { key: 'key',     prefix: 'The idea/thing that ', suffix: '. Once you have absorbed this, which ',                       placeholder: 'defining clause + sentential which follow-up', hint: '"The idea THAT..." (defining) + "...which took me time" (sentential which). ✅' },
+    { key: 'nondefa', prefix: '', suffix: ', whose/which ___.',                                                                   placeholder: 'Name/Proper noun, + non-defining clause', hint: 'Non-defining: "X, WHO/WHICH..., did/is..." — use commas. ✅' },
+    { key: 'key',     prefix: 'The idea/thing that ', suffix: '. Once you have absorbed this, which ___.',                       placeholder: 'defining clause + sentential which follow-up', hint: '"The idea THAT..." (defining) + "...which took me time" (sentential which). ✅' },
     { key: 'example', prefix: 'The [example] I found most [adjective] was "X," in which ', suffix: '.',                     placeholder: 'specific example + "in which" (formal)',  hint: '"in which" = formal way to say "where/when." ✅' },
     { key: 'impact',  prefix: 'What [person/book] gave me was a way of [V-ing] that has ', suffix: '.',                     placeholder: 'defining + result',                   hint: '"What X gave me was something THAT has..." — "what" = embedded relative. ✅' },
-    { key: 'close',   prefix: 'The most valuable [things] are not the ones that ', suffix: ', but the ones whose ',          placeholder: 'negative defining + positive whose',  hint: '"Not the ones THAT X, but the ones WHOSE Y." Both defining. ✅' },
+    { key: 'close',   prefix: 'The most valuable [things] are not the ones that ', suffix: ', but the ones whose ___.',          placeholder: 'negative defining + positive whose',  hint: '"Not the ones THAT X, but the ones WHOSE Y." Both defining. ✅' },
   ],
 
   writingPhrases: [
@@ -38450,13 +38459,13 @@ const L66_4: FullLesson = {
   ],
 
   writingTemplate: [
-    { key: 'title',   prefix: '', suffix: ': A Reflection on — by ',                                                         placeholder: 'Topic + "A Reflection on" + your name', hint: '"Learning X: A Reflection on Y." — reflective academic essay title. ✅' },
-    { key: 'perfect_g', prefix: 'Having ', suffix: ', I had reason to believe ',                                              placeholder: 'Having + pp + context',              hint: '"HAVING STUDIED for years, I had reason to believe..." — perfect gerund opening. ✅' },
-    { key: 'regret',  prefix: 'I regret not having ', suffix: ' earlier — it would have made ',                              placeholder: 'V-pp earlier (perfect regret gerund)', hint: '"I regret not HAVING DEVELOPED this earlier." — perfect gerund with regret. ✅' },
-    { key: 'try',     prefix: 'I tried ', suffix: '. I remember ',                           placeholder: 'trying/to + action + remembering result', hint: '"I tried CHANGING my approach." (experiment) / "I remember TRYING this." ✅' },
-    { key: 'itadj',   prefix: 'It is essential to ', suffix: '. In addition to ',                                            placeholder: 'essential/important to + distinguish/recognise', hint: '"It is ESSENTIAL TO DISTINGUISH between X and Y." + "IN ADDITION TO..." ✅' },
-    { key: 'premature',prefix: 'It would be premature to claim that I have ', suffix: '. But I have stopped ',               placeholder: 'premature conclusion + what has changed',  hint: '"It would be PREMATURE TO CLAIM..." ✅' },
-    { key: 'close',   prefix: 'Having ', suffix: ' is infinitely preferable to not having ',                                 placeholder: 'perfect gerund contrast (tried vs not tried)', hint: '"HAVING TRIED and failed is preferable to not HAVING TRIED at all." ✅' },
+    { key: 'title',   prefix: '', suffix: ': A Reflection on — by ___.',                                                         placeholder: 'Topic + "A Reflection on" + your name', hint: '"Learning X: A Reflection on Y." — reflective academic essay title. ✅' },
+    { key: 'perfect_g', prefix: 'Having ', suffix: ', I had reason to believe ___.',                                              placeholder: 'Having + pp + context',              hint: '"HAVING STUDIED for years, I had reason to believe..." — perfect gerund opening. ✅' },
+    { key: 'regret',  prefix: 'I regret not having ', suffix: ' earlier — it would have made ___.',                              placeholder: 'V-pp earlier (perfect regret gerund)', hint: '"I regret not HAVING DEVELOPED this earlier." — perfect gerund with regret. ✅' },
+    { key: 'try',     prefix: 'I tried ', suffix: '. I remember ___.',                           placeholder: 'trying/to + action + remembering result', hint: '"I tried CHANGING my approach." (experiment) / "I remember TRYING this." ✅' },
+    { key: 'itadj',   prefix: 'It is essential to ', suffix: '. In addition to ___.',                                            placeholder: 'essential/important to + distinguish/recognise', hint: '"It is ESSENTIAL TO DISTINGUISH between X and Y." + "IN ADDITION TO..." ✅' },
+    { key: 'premature',prefix: 'It would be premature to claim that I have ', suffix: '. But I have stopped ___.',               placeholder: 'premature conclusion + what has changed',  hint: '"It would be PREMATURE TO CLAIM..." ✅' },
+    { key: 'close',   prefix: 'Having ', suffix: ' is infinitely preferable to not having ___.',                                 placeholder: 'perfect gerund contrast (tried vs not tried)', hint: '"HAVING TRIED and failed is preferable to not HAVING TRIED at all." ✅' },
   ],
 
   writingPhrases: [
@@ -39406,7 +39415,7 @@ const L67_4: FullLesson = {
   writingTemplate: [
     { key: 'l1', prefix: 'Looking back, I wish ', suffix: '.', placeholder: 'e.g., I had taken more risks in my early twenties', hint: 'Start with a clear wish or regret' },
     { key: 'l2', prefix: 'At the time, ', suffix: '.', placeholder: 'e.g., I didn\'t realise how important that decision would be', hint: 'Set the context — what was happening then' },
-    { key: 'l3', prefix: 'If only I had ', suffix: ', I believe ', hint: 'Link the regret to a hypothetical outcome', placeholder: 'e.g., said yes... things would have developed very differently' },
+    { key: 'l3', prefix: 'If only I had ', suffix: ', I believe ___.', hint: 'Link the regret to a hypothetical outcome', placeholder: 'e.g., said yes... things would have developed very differently' },
     { key: 'l4', prefix: 'Supposing I had chosen differently — ', suffix: '.', placeholder: 'e.g., I might have discovered a passion I didn\'t know I had', hint: 'Speculate on the alternative path' },
     { key: 'l5', prefix: 'In hindsight, ', suffix: '.', placeholder: 'e.g., I understand now that fear was holding me back', hint: 'Use "in hindsight" to introduce reflection' },
     { key: 'l6', prefix: 'The experience taught me that ', suffix: '.', placeholder: 'e.g., regret can be a powerful teacher if we let it', hint: 'Draw a lesson from the reflection' },
@@ -40559,11 +40568,11 @@ const L69_4: FullLesson = {
   ],
   writingTemplate: [
     { key: 'l1', prefix: 'The question of whether ', suffix: ' is one that divides opinion.', placeholder: 'e.g., university should be free', hint: 'Introduce the topic without taking a side' },
-    { key: 'l2', prefix: 'Those who support ', suffix: ' argue that ', hint: 'Introduce the first position', placeholder: 'e.g., free university / it increases equality of opportunity' },
+    { key: 'l2', prefix: 'Those who support ', suffix: ' argue that ___.', hint: 'Introduce the first position', placeholder: 'e.g., free university / it increases equality of opportunity' },
     { key: 'l3', prefix: 'Furthermore, ', suffix: '.', placeholder: 'a second supporting argument or example', hint: 'Add evidence or a second point for this position' },
     { key: 'l4', prefix: 'On the other hand, critics point out that ', suffix: '.', placeholder: 'the main counter-argument', hint: 'Present the opposing view fairly' },
     { key: 'l5', prefix: 'They argue that ', suffix: '.', placeholder: 'a supporting point for the counter-argument', hint: 'Give a reason or example for the other side' },
-    { key: 'l6', prefix: 'In conclusion, on balance I believe that ', suffix: ', because ', hint: 'State your reasoned position clearly', placeholder: 'e.g., the benefits outweigh the costs / the evidence supports...' },
+    { key: 'l6', prefix: 'In conclusion, on balance I believe that ', suffix: ', because ___.', hint: 'State your reasoned position clearly', placeholder: 'e.g., the benefits outweigh the costs / the evidence supports...' },
   ],
   writingPhrases: [
     { category: 'Introducing the issue', color: N, items: ['The question of… is one that divides opinion.', 'There is ongoing debate about whether…', 'This is a complex issue with arguments on both sides.', 'The issue of… has become increasingly important.', 'Views on this question are strongly divided.'] },
@@ -41132,11 +41141,11 @@ const L70_4: FullLesson = {
   ],
   writingTemplate: [
     { key: 'l1', prefix: 'The rapid development of artificial intelligence is ', suffix: '.', placeholder: 'raising fundamental questions about the future of work and society', hint: 'Introduce the issue without taking sides immediately' },
-    { key: 'l2', prefix: 'Optimists argue that AI will ', suffix: ', thereby ', hint: 'First position: positive prediction', placeholder: 'augment human capabilities / creating new opportunities for everyone' },
+    { key: 'l2', prefix: 'Optimists argue that AI will ', suffix: ', thereby ___.', hint: 'First position: positive prediction', placeholder: 'augment human capabilities / creating new opportunities for everyone' },
     { key: 'l3', prefix: 'By 2040, AI will have ', suffix: ', which could benefit millions of people worldwide.', placeholder: 'transformed healthcare, education, and environmental management', hint: 'Future perfect for milestone by a future date' },
     { key: 'l4', prefix: 'However, critics point out that ', suffix: '.', placeholder: 'the disruption will not fall equally, and many workers will be left behind', hint: 'Contrast marker + concern' },
     { key: 'l5', prefix: 'In particular, workers in ', suffix: ' are likely to be most affected.', placeholder: 'routine cognitive and manual roles', hint: '"are likely to be" — probability expression' },
-    { key: 'l6', prefix: 'On balance, I believe that technology will ', suffix: ', provided that ', hint: 'Conclusion: conditional future', placeholder: 'transform society for the better / governments invest in education and safety nets' },
+    { key: 'l6', prefix: 'On balance, I believe that technology will ', suffix: ', provided that ___.', hint: 'Conclusion: conditional future', placeholder: 'transform society for the better / governments invest in education and safety nets' },
   ],
   writingPhrases: [
     { category: 'Optimistic predictions', color: N, items: ['AI is expected to create new industries and opportunities.', 'By 2040, renewable technology will have transformed the energy sector.', 'Technology is likely to augment rather than replace human capabilities.', 'Proponents argue that innovation will generate prosperity for all.', 'Advances in AI are predicted to revolutionise healthcare within a decade.'] },
@@ -42889,10 +42898,10 @@ const L73_4: FullLesson = {
     { key: 'closing', prefix: '', suffix: '', placeholder: 'Express enthusiasm and request an interview', hint: 'Be confident but not arrogant: "I would welcome the opportunity to discuss…"' },
   ],
   writingTemplate: [
-    { key: 'l1', prefix: 'I am applying for the position of ', suffix: ', as advertised on ', hint: 'State the role clearly at the start', placeholder: 'Senior Analyst / your website / LinkedIn' },
-    { key: 'l2', prefix: 'In my current role as ', suffix: ', I have ', hint: 'State your current position and a key achievement', placeholder: 'Data Analyst at Horizon NGO / led a team of six on a cross-border research project' },
+    { key: 'l1', prefix: 'I am applying for the position of ', suffix: ', as advertised on ___.', hint: 'State the role clearly at the start', placeholder: 'Senior Analyst / your website / LinkedIn' },
+    { key: 'l2', prefix: 'In my current role as ', suffix: ', I have ___.', hint: 'State your current position and a key achievement', placeholder: 'Data Analyst at Horizon NGO / led a team of six on a cross-border research project' },
     { key: 'l3', prefix: 'I am particularly drawn to your organisation because ', suffix: '.', placeholder: 'you have committed to data-driven policy advocacy in under-resourced communities', hint: 'Show specific knowledge of the organisation' },
-    { key: 'l4', prefix: 'My colleagues have described me as ', suffix: ', and I would argue that ', hint: 'Use reporting language to show self-awareness', placeholder: 'someone who brings both technical rigour and creative thinking / this combination is what this role demands' },
+    { key: 'l4', prefix: 'My colleagues have described me as ', suffix: ', and I would argue that ___.', hint: 'Use reporting language to show self-awareness', placeholder: 'someone who brings both technical rigour and creative thinking / this combination is what this role demands' },
     { key: 'l5', prefix: 'I would welcome the opportunity to discuss ', suffix: ' in more detail.', placeholder: 'how my experience and values align with your organisation\'s mission', hint: 'Close confidently and professionally' },
   ],
   writingPhrases: [
@@ -43470,10 +43479,10 @@ const L74_4: FullLesson = {
     { key: 'conclusion', prefix: '', suffix: '', placeholder: 'Final balanced judgement: who should watch/read it and why?', hint: 'Use "on balance," "overall," "ultimately" for a strong conclusion' },
   ],
   writingTemplate: [
-    { key: 'l1', prefix: '', suffix: ' is a [genre] that ', hint: 'Name the work and categorise it', placeholder: 'The film / novel / explores / examines / challenges' },
-    { key: 'l2', prefix: 'What sets it apart from conventional ', suffix: ' is its ', hint: 'Identify the work\'s distinctive approach', placeholder: 'films/novels of its genre / ambiguous structure / refusal to resolve its central conflict' },
-    { key: 'l3', prefix: 'The director/author uses ', suffix: ' in order to ', hint: 'Analyse one specific technique and its purpose', placeholder: 'fragmented time / symbolism / contrast between light and dark / disorient the viewer and mirror the protagonist\'s mental state' },
-    { key: 'l4', prefix: 'Although ', suffix: ', the overall effect is ', hint: 'Concession then evaluation', placeholder: 'the pacing is slow in places / powerfully unsettling and ultimately rewarding' },
+    { key: 'l1', prefix: '', suffix: ' is a [genre] that ___.', hint: 'Name the work and categorise it', placeholder: 'The film / novel / explores / examines / challenges' },
+    { key: 'l2', prefix: 'What sets it apart from conventional ', suffix: ' is its ___.', hint: 'Identify the work\'s distinctive approach', placeholder: 'films/novels of its genre / ambiguous structure / refusal to resolve its central conflict' },
+    { key: 'l3', prefix: 'The director/author uses ', suffix: ' in order to ___.', hint: 'Analyse one specific technique and its purpose', placeholder: 'fragmented time / symbolism / contrast between light and dark / disorient the viewer and mirror the protagonist\'s mental state' },
+    { key: 'l4', prefix: 'Although ', suffix: ', the overall effect is ___.', hint: 'Concession then evaluation', placeholder: 'the pacing is slow in places / powerfully unsettling and ultimately rewarding' },
     { key: 'l5', prefix: 'On balance, ', suffix: '.', hint: 'Final balanced judgement', placeholder: 'despite its demands on the audience, this is a work of genuine artistic importance that rewards careful attention' },
   ],
   writingPhrases: [
@@ -44051,7 +44060,7 @@ const L75_4: FullLesson = {
   writingTemplate: [
     { key: 'l1', prefix: 'It is ', suffix: ' that represents the most urgent environmental challenge of our time.', placeholder: 'the failure to price carbon emissions / the lack of political will on climate action', hint: 'It-cleft to open — immediately signals what the argument will be about' },
     { key: 'l2', prefix: 'Having ', suffix: ', industrialised nations bear a particular responsibility to lead.', placeholder: 'produced the majority of historical emissions / benefited from fossil-fuel-powered growth', hint: 'Perfect participle: prior action creates current responsibility' },
-    { key: 'l3', prefix: 'Although ', suffix: ', the evidence shows that ', hint: 'Concession + counter-evidence', placeholder: 'some argue the transition is too expensive / clean energy investment creates more jobs than it destroys' },
+    { key: 'l3', prefix: 'Although ', suffix: ', the evidence shows that ___.', hint: 'Concession + counter-evidence', placeholder: 'some argue the transition is too expensive / clean energy investment creates more jobs than it destroys' },
     { key: 'l4', prefix: 'What the data makes clear is ', suffix: '.', placeholder: 'that the cost of inaction far exceeds the cost of action', hint: 'Wh-cleft for emphasis on the key finding' },
     { key: 'l5', prefix: 'Only by ', suffix: ' can we hope to limit warming to 1.5 degrees.', placeholder: 'acting with the urgency the science demands / achieving net zero by 2050', hint: '"Only by… can we…" = inversion + strong call to action' },
   ],
@@ -45216,10 +45225,10 @@ const L77_4: FullLesson = {
   ],
   writingTemplate: [
     { key: 'l1', prefix: 'This study investigated ', suffix: ', a question of considerable scientific significance.', placeholder: 'the relationship between open data practices and replication rates', hint: 'Introduce the research question — use noun phrase' },
-    { key: 'l2', prefix: 'Approximately ', suffix: ' participants were recruited and randomly assigned to ', hint: 'Describe the sample and design with hedging', placeholder: '150 / the experimental or control condition' },
-    { key: 'l3', prefix: 'The results suggest that ', suffix: ', though the effect size was ', hint: 'Report findings with hedging verb + comparative for effect size', placeholder: 'open data practices are associated with higher replication rates / considerably smaller than anticipated' },
-    { key: 'l4', prefix: 'While the methodology was ', suffix: ', the study was limited by ', hint: 'Use "while" for contrast; comparative for evaluation', placeholder: 'considerably more rigorous than previous studies / its relatively small and non-representative sample' },
-    { key: 'l5', prefix: 'Further research is needed to establish whether ', suffix: ', and to determine ', hint: 'Hedge the conclusion — "needed to establish whether + clause"', placeholder: 'these findings generalise to other scientific disciplines / the precise mechanisms underlying the observed effects' },
+    { key: 'l2', prefix: 'Approximately ', suffix: ' participants were recruited and randomly assigned to ___.', hint: 'Describe the sample and design with hedging', placeholder: '150 / the experimental or control condition' },
+    { key: 'l3', prefix: 'The results suggest that ', suffix: ', though the effect size was ___.', hint: 'Report findings with hedging verb + comparative for effect size', placeholder: 'open data practices are associated with higher replication rates / considerably smaller than anticipated' },
+    { key: 'l4', prefix: 'While the methodology was ', suffix: ', the study was limited by ___.', hint: 'Use "while" for contrast; comparative for evaluation', placeholder: 'considerably more rigorous than previous studies / its relatively small and non-representative sample' },
+    { key: 'l5', prefix: 'Further research is needed to establish whether ', suffix: ', and to determine ___.', hint: 'Hedge the conclusion — "needed to establish whether + clause"', placeholder: 'these findings generalise to other scientific disciplines / the precise mechanisms underlying the observed effects' },
   ],
   writingPhrases: [
     { category: 'Introducing and contextualising', color: N, items: ['This study aimed to investigate the relationship between X and Y.', 'There is currently considerable debate about whether X causes Y.', 'Previous research has suggested that X may be associated with Y.', 'It remains unclear whether X is a causal factor or merely a correlate.', 'This study addressed a significant gap in the existing literature.'] },
@@ -51023,7 +51032,8 @@ export default function LessonPage() {
                                 border: 'none', borderBottom: `2px solid ${writFields[tk.key] ? W : '#E2E8F0'}`,
                                 background: 'transparent', outline: 'none', padding: '2px 4px',
                                 fontSize: 14, fontWeight: 700, color: N, fontFamily: 'inherit',
-                                minWidth: 120, transition: 'border-color 0.2s',
+                                width: `${Math.max((writFields[tk.key] || tk.ph).length, 8) + 1}ch`,
+                                minWidth: 80, transition: 'border-color 0.2s',
                               }}
                             />
                           )
