@@ -41,6 +41,49 @@ interface ListenStatement { id: string; text: string; correctCharId: string }
 interface WritingLine { key: string; prefix: string; suffix: string; placeholder: string; hint: string }
 interface WritingPhrase { category: string; color: string; items: string[] }
 
+// ── Writing template tokenizer ──────────────────────────────────
+// A writing-template line is `prefix` + <primary blank> + `suffix`, but the
+// prefix/suffix themselves may contain extra `___` markers that must each
+// become their own input field (previously they were shown as plain text).
+type WToken = { t: 'text'; v: string } | { t: 'blank'; key: string; ph: string }
+
+function buildWritingTokens(line: WritingLine): WToken[] {
+  const prefix = line.prefix ?? ''
+  const suffix = line.suffix ?? ''
+  const hasSuffix = suffix.length > 0
+  // Keep the implied junction blank unless every blank already lives inside the
+  // prefix (a line with `___` in the prefix and no suffix).
+  const includePrimary = hasSuffix || !prefix.includes('___')
+
+  const tokens: WToken[] = []
+  let phAssigned = false
+  const mkBlank = (key: string): WToken => {
+    const ph = phAssigned ? '…' : (line.placeholder || '…')
+    phAssigned = true
+    return { t: 'blank', key, ph }
+  }
+
+  const pParts = prefix.split('___')
+  pParts.forEach((part, i) => {
+    if (part) tokens.push({ t: 'text', v: part })
+    if (i < pParts.length - 1) tokens.push(mkBlank(`${line.key}#p${i}`))
+  })
+
+  if (includePrimary) tokens.push(mkBlank(line.key))
+
+  const sParts = suffix.split('___')
+  sParts.forEach((part, i) => {
+    if (part) tokens.push({ t: 'text', v: part })
+    if (i < sParts.length - 1) tokens.push(mkBlank(`${line.key}#s${i}`))
+  })
+
+  return tokens
+}
+
+function writingBlankKeys(lines: WritingLine[]): string[] {
+  return lines.flatMap(l => buildWritingTokens(l).filter((tk): tk is Extract<WToken, { t: 'blank' }> => tk.t === 'blank').map(tk => tk.key))
+}
+
 interface FullLesson {
   id: string; moduleNum: number; lessonNum: number
   moduleTitle: string; title: string
@@ -50881,10 +50924,11 @@ export default function LessonPage() {
     )
 
     // ── Step 2: Write ────────────────────────────────────────────
-    const filled   = Object.keys(writFields).length
-    const total    = lesson.writingTemplate.length
-    const pct      = Math.round(filled / total * 100)
-    const wordCount = Object.values(writFields).join(' ').split(/\s+/).filter(Boolean).length
+    const writKeys  = writingBlankKeys(lesson.writingTemplate)
+    const total     = writKeys.length
+    const filled    = writKeys.filter(k => (writFields[k] ?? '').trim()).length
+    const pct       = total > 0 ? Math.round(filled / total * 100) : 0
+    const wordCount = writKeys.map(k => writFields[k] ?? '').join(' ').split(/\s+/).filter(Boolean).length
 
     if (!writSubmitted) return (
       <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
@@ -50915,25 +50959,33 @@ export default function LessonPage() {
 
                 {/* Template sentences */}
                 <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 14 }}>
-                  {lesson.writingTemplate.map((line, i) => (
-                    <div key={line.key} style={{ display: 'flex', alignItems: 'baseline', flexWrap: 'wrap', gap: 6 }}>
-                      <span style={{ fontSize: 12, fontWeight: 600, color: MU, minWidth: 20 }}>{i + 1}.</span>
-                      <span style={{ fontSize: 14, color: '#334155', fontWeight: 500 }}>{line.prefix}</span>
-                      <input
-                        value={writFields[line.key] ?? ''}
-                        onChange={e => setWritFields(f => ({ ...f, [line.key]: e.target.value }))}
-                        placeholder={line.placeholder}
-                        style={{
-                          border: 'none', borderBottom: `2px solid ${writFields[line.key] ? W : '#E2E8F0'}`,
-                          background: 'transparent', outline: 'none', padding: '2px 4px',
-                          fontSize: 14, fontWeight: 700, color: N, fontFamily: 'inherit',
-                          minWidth: 120, transition: 'border-color 0.2s',
-                        }}
-                      />
-                      {line.suffix && <span style={{ fontSize: 14, color: '#334155', fontWeight: 500 }}>{line.suffix}</span>}
-                      {!writFields[line.key] && <span style={{ fontSize: 10, color: '#94A3B8', fontStyle: 'italic' }}>({line.hint})</span>}
-                    </div>
-                  ))}
+                  {lesson.writingTemplate.map((line, i) => {
+                    const tokens = buildWritingTokens(line)
+                    const lineFilled = tokens.some(tk => tk.t === 'blank' && (writFields[tk.key] ?? '').trim())
+                    return (
+                      <div key={line.key} style={{ display: 'flex', alignItems: 'baseline', flexWrap: 'wrap', gap: 6 }}>
+                        <span style={{ fontSize: 12, fontWeight: 600, color: MU, minWidth: 20 }}>{i + 1}.</span>
+                        {tokens.map((tk, ti) => tk.t === 'text'
+                          ? <span key={ti} style={{ fontSize: 14, color: '#334155', fontWeight: 500, whiteSpace: 'pre-wrap' }}>{tk.v}</span>
+                          : (
+                            <input
+                              key={ti}
+                              value={writFields[tk.key] ?? ''}
+                              onChange={e => setWritFields(f => ({ ...f, [tk.key]: e.target.value }))}
+                              placeholder={tk.ph}
+                              style={{
+                                border: 'none', borderBottom: `2px solid ${writFields[tk.key] ? W : '#E2E8F0'}`,
+                                background: 'transparent', outline: 'none', padding: '2px 4px',
+                                fontSize: 14, fontWeight: 700, color: N, fontFamily: 'inherit',
+                                minWidth: 120, transition: 'border-color 0.2s',
+                              }}
+                            />
+                          )
+                        )}
+                        {!lineFilled && <span style={{ fontSize: 10, color: '#94A3B8', fontStyle: 'italic' }}>({line.hint})</span>}
+                      </div>
+                    )
+                  })}
                 </div>
 
                 {/* Word count */}
@@ -51012,11 +51064,15 @@ export default function LessonPage() {
             </div>
             <div style={{ padding: '22px 28px' }}>
               {lesson.writingTemplate.map((line, i) => {
-                const val = writFields[line.key]
-                if (!val) return null
+                const tokens = buildWritingTokens(line)
+                const anyVal = tokens.some(tk => tk.t === 'blank' && (writFields[tk.key] ?? '').trim())
+                if (!anyVal) return null
                 return (
-                  <p key={line.key} style={{ fontSize: 14, color: '#334155', lineHeight: 1.9, marginBottom: i < lesson.writingTemplate.length - 1 ? 10 : 0 }}>
-                    {line.prefix}<strong style={{ color: N }}>{val}</strong>{line.suffix}
+                  <p key={line.key} style={{ fontSize: 14, color: '#334155', lineHeight: 1.9, marginBottom: i < lesson.writingTemplate.length - 1 ? 10 : 0, whiteSpace: 'pre-wrap' }}>
+                    {tokens.map((tk, ti) => tk.t === 'text'
+                      ? <React.Fragment key={ti}>{tk.v}</React.Fragment>
+                      : <strong key={ti} style={{ color: N }}>{(writFields[tk.key] ?? '').trim() || '____'}</strong>
+                    )}
                   </p>
                 )
               })}
