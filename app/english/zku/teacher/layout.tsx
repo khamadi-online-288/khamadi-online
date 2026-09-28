@@ -70,9 +70,10 @@ function TeacherLayoutInner({ children }: { children: React.ReactNode }) {
         {/* Nav */}
         <nav style={{ flex: 1, padding: '16px 12px' }}>
           {[
-            { href: '/english/zku/teacher',          label: t.panel.nav_dashboard, icon: '📊', exact: true },
-            { href: '/english/zku/teacher/groups',   label: t.panel.nav_groups,    icon: '👥' },
-            { href: '/english/zku/teacher/students', label: t.panel.nav_students,  icon: '🎓' },
+            { href: '/english/zku/teacher',             label: t.panel.nav_dashboard,  icon: '📊', exact: true },
+            { href: '/english/zku/teacher/groups',      label: t.panel.nav_groups,     icon: '👥' },
+            { href: '/english/zku/teacher/students',    label: t.panel.nav_students,   icon: '🎓' },
+            { href: '/english/zku/teacher/literature',  label: t.panel.nav_literature, icon: '📚' },
           ].map(item => {
             const active = item.exact ? pathname === item.href : pathname.startsWith(item.href)
             return (

@@ -353,6 +353,7 @@ export const ZKU_T = {
       teacher_cabinet: 'Кабинет преподавателя', admin_cabinet: 'Панель администратора',
       // Nav
       nav_dashboard: 'Дашборд', nav_groups: 'Группы', nav_students: 'Студенты',
+      nav_literature: 'Литература',
       nav_teachers: 'Преподаватели', nav_other: 'Другие кабинеты', nav_manage: 'Управление',
       // Dashboard
       welcome: 'Добро пожаловать',
@@ -741,6 +742,7 @@ export const ZKU_T = {
       teacher_label: 'Оқытушы', admin_label: 'Әкімші',
       teacher_cabinet: 'Оқытушы кабинеті', admin_cabinet: 'Әкімші панелі',
       nav_dashboard: 'Басқару тақтасы', nav_groups: 'Топтар', nav_students: 'Студенттер',
+      nav_literature: 'Әдебиет',
       nav_teachers: 'Оқытушылар', nav_other: 'Басқа кабинеттер', nav_manage: 'Басқару',
       welcome: 'Қош келдіңіз',
       dash_subtitle: 'Топтарыңызда бүгін не болып жатыр',
@@ -1123,6 +1125,7 @@ export const ZKU_T = {
       teacher_label: 'Teacher', admin_label: 'Administrator',
       teacher_cabinet: 'Teacher panel', admin_cabinet: 'Admin panel',
       nav_dashboard: 'Dashboard', nav_groups: 'Groups', nav_students: 'Students',
+      nav_literature: 'Reading list',
       nav_teachers: 'Teachers', nav_other: 'Other panels', nav_manage: 'Management',
       welcome: 'Welcome',
       dash_subtitle: "Here's what's happening in your groups today",
