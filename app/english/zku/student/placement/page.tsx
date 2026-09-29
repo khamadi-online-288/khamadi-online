@@ -113,9 +113,10 @@ export default function PlacementTestPage() {
       const { data: { session } } = await supabase.auth.getSession()
       const user = session?.user
       if (!user) return
+      const storedLevel = level === 'Beginner' ? 'A1' : level
       await supabase
         .from('english_user_profiles')
-        .upsert({ user_id: user.id, current_level: level, role: 'student' }, { onConflict: 'user_id' })
+        .upsert({ user_id: user.id, current_level: storedLevel, role: 'student' }, { onConflict: 'user_id' })
       setLevelSaved(true)
     } catch { /* silent */ }
   }, [levelSaved])

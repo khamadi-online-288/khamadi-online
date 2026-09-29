@@ -26,6 +26,12 @@ const LEVEL_TOTALS: Record<string, number> = {
   'A1': 80, 'A1.1': 128, 'A2': 168, 'B1': 208, 'B2': 228, 'C1': 282,
 }
 
+// Placement stores "Beginner" for a failed A1 block. Course cards match CEFR codes only.
+function toCourseLevel(raw: string): string {
+  if (raw === 'Beginner') return 'A1'
+  return raw
+}
+
 interface Level {
   code: string; slug: string; badge: string
   title: string; topics: string[]
@@ -52,7 +58,7 @@ export default function CoursePage() {
         supabase.from('english_lesson_progress').select('lesson_id').eq('user_id', user.id).eq('completed', true),
       ])
 
-      if (profile?.current_level) setCurrentLevel(profile.current_level)
+      if (profile?.current_level) setCurrentLevel(toCourseLevel(profile.current_level))
 
       if (progress?.length) {
         setTotalDone(progress.length)
@@ -161,7 +167,7 @@ export default function CoursePage() {
         <div style={{ flex: 1 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, marginBottom: 8 }}>
             <span style={{ fontWeight: 700, color: N }}>{t.course.overall}</span>
-            <span style={{ fontWeight: 600, color: MUT }}>A1 · 0%</span>
+            <span style={{ fontWeight: 600, color: MUT }}>{currentLevel} · {levelProgress[currentLevel] ?? 0}%</span>
           </div>
           <div style={{ height: 6, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden', position: 'relative' }}>
             {LEVELS.map((lv, i) => (
