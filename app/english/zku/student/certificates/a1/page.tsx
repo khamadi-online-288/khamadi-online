@@ -1,8 +1,9 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { downloadCertificatePdf } from '@/lib/english/download-certificate-pdf'
 
 const N = '#003876'
 const G = '#C9933B'
@@ -12,6 +13,8 @@ export default function A1CertificatePage() {
   const [studentName, setStudentName] = useState<string>('English Student')
   const [completionDate, setCompletionDate] = useState<string>('')
   const [loading, setLoading] = useState(true)
+  const [downloading, setDownloading] = useState(false)
+  const certRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const now = new Date()
@@ -39,8 +42,14 @@ export default function A1CertificatePage() {
     fetchStudent()
   }, [])
 
-  function handlePrint() {
-    window.print()
+  async function handleDownload() {
+    if (!certRef.current || downloading) return
+    setDownloading(true)
+    try {
+      await downloadCertificatePdf(certRef.current, 'certificate-A1.pdf')
+    } finally {
+      setDownloading(false)
+    }
   }
 
   if (loading) {
@@ -76,12 +85,13 @@ export default function A1CertificatePage() {
             ← Certificates
           </Link>
           <div style={{ flex: 1 }} />
-          <button onClick={handlePrint} style={{
+          <button onClick={handleDownload} disabled={downloading} style={{
             background: `linear-gradient(135deg, ${G}, #b8842e)`,
             color: '#fff', border: 'none', borderRadius: 10, padding: '10px 24px',
-            fontSize: 14, fontWeight: 700, cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 8,
+            fontSize: 14, fontWeight: 700, cursor: downloading ? 'wait' : 'pointer', display: 'flex', alignItems: 'center', gap: 8,
+            opacity: downloading ? 0.7 : 1,
           }}>
-            🖨️ Print / Save as PDF
+            {downloading ? 'Preparing PDF…' : 'Download PDF'}
           </button>
         </div>
       </div>
@@ -89,12 +99,11 @@ export default function A1CertificatePage() {
       {/* Page background */}
       <div style={{ minHeight: '100vh', background: '#F0F4F8', padding: '40px 24px 60px', display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
         {/* Certificate */}
-        <div className="cert-page" style={{
+        <div ref={certRef} className="cert-page" style={{
           width: '100%', maxWidth: 820,
           background: '#fff',
           borderRadius: 4,
           boxShadow: '0 20px 80px rgba(0,56,118,0.18)',
-          animation: 'fadeIn 0.5s ease',
           position: 'relative',
           overflow: 'hidden',
         }}>
@@ -274,19 +283,13 @@ export default function A1CertificatePage() {
           }}>
             ← All Certificates
           </Link>
-          <button onClick={handlePrint} style={{
-            padding: '12px 32px', borderRadius: 10,
-            background: `linear-gradient(135deg, ${N}, #012f5c)`,
-            color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: 'pointer',
-          }}>
-            🖨️ Print Certificate
-          </button>
-          <button onClick={handlePrint} style={{
+          <button onClick={handleDownload} disabled={downloading} style={{
             padding: '12px 32px', borderRadius: 10,
             background: `linear-gradient(135deg, ${G}, #b8842e)`,
-            color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: 'pointer',
+            color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: downloading ? 'wait' : 'pointer',
+            opacity: downloading ? 0.7 : 1,
           }}>
-            💾 Save as PDF
+            {downloading ? 'Preparing PDF…' : 'Download PDF'}
           </button>
         </div>
       </div>

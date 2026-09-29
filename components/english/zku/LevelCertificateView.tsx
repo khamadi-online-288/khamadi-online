@@ -1,8 +1,9 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { downloadCertificatePdf } from '@/lib/english/download-certificate-pdf'
 import type { LevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
@@ -22,6 +23,18 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
   const [completionDate, setCompletionDate] = useState('')
   const [loading, setLoading] = useState(true)
   const [certId, setCertId] = useState('')
+  const [downloading, setDownloading] = useState(false)
+  const certRef = useRef<HTMLDivElement>(null)
+
+  async function handleDownload() {
+    if (!certRef.current || downloading) return
+    setDownloading(true)
+    try {
+      await downloadCertificatePdf(certRef.current, `certificate-${cert.code}.pdf`)
+    } finally {
+      setDownloading(false)
+    }
+  }
 
   useEffect(() => {
     setCompletionDate(new Date().toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' }))
@@ -73,18 +86,19 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
             ← Certificates
           </Link>
           <div style={{ flex: 1 }} />
-          <button onClick={() => window.print()} style={{
+          <button onClick={handleDownload} disabled={downloading} style={{
             background: `linear-gradient(135deg, ${G}, #b8842e)`,
             color: '#fff', border: 'none', borderRadius: 10, padding: '10px 24px',
-            fontSize: 14, fontWeight: 700, cursor: 'pointer',
+            fontSize: 14, fontWeight: 700, cursor: downloading ? 'wait' : 'pointer',
+            opacity: downloading ? 0.7 : 1,
           }}>
-            Print / Save as PDF
+            {downloading ? 'Preparing PDF…' : 'Download PDF'}
           </button>
         </div>
       </div>
 
       <div style={{ minHeight: '100vh', background: '#F0F4F8', padding: '40px 24px 120px', display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
-        <div className="cert-page" style={{ width: '100%', maxWidth: 820, background: '#fff', borderRadius: 4, boxShadow: '0 20px 80px rgba(0,56,118,0.18)', position: 'relative', overflow: 'hidden' }}>
+        <div ref={certRef} className="cert-page" style={{ width: '100%', maxWidth: 820, background: '#fff', borderRadius: 4, boxShadow: '0 20px 80px rgba(0,56,118,0.18)', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 14, border: `2px solid ${G}`, borderRadius: 2, pointerEvents: 'none', zIndex: 1 }} />
           <div style={{ position: 'absolute', inset: 18, border: '1px solid rgba(201,147,59,0.3)', borderRadius: 2, pointerEvents: 'none', zIndex: 1 }} />
 
@@ -159,8 +173,8 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
           <Link href="/english/zku/student/certificates" style={{ padding: '12px 28px', borderRadius: 10, border: '1px solid #E2E8F0', fontSize: 14, fontWeight: 700, color: '#64748B', textDecoration: 'none', background: '#fff' }}>
             ← All Certificates
           </Link>
-          <button onClick={() => window.print()} style={{ padding: '12px 32px', borderRadius: 10, background: cert.button, color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: 'pointer' }}>
-            Print / Save as PDF
+          <button onClick={handleDownload} disabled={downloading} style={{ padding: '12px 32px', borderRadius: 10, background: cert.button, color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: downloading ? 'wait' : 'pointer', opacity: downloading ? 0.7 : 1 }}>
+            {downloading ? 'Preparing PDF…' : 'Download PDF'}
           </button>
         </div>
       </div>
