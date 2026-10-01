@@ -114,3 +114,40 @@ export function levelOfLessonId(lessonId: string): string | null {
 export function examComplete(cert: LevelCert, completed: ReadonlySet<string>): boolean {
   return cert.lessons.every(id => completed.has(id))
 }
+
+export interface EarnedLevelCert {
+  code: string
+  slug: string
+  name: string
+  program: string
+  issuedAt: string | null
+}
+
+/** Levels whose final exam lessons are all completed. */
+export function earnedCertsFromProgress(
+  rows: { lesson_id: string; completed_at: string | null }[],
+): EarnedLevelCert[] {
+  const done = new Set(rows.map(r => r.lesson_id))
+  const earned: EarnedLevelCert[] = []
+  for (const cert of LEVEL_CERTS) {
+    if (!examComplete(cert, done)) continue
+    const dates = rows
+      .filter(r => cert.lessons.includes(r.lesson_id) && r.completed_at)
+      .map(r => r.completed_at as string)
+      .sort()
+    earned.push({
+      code: cert.code,
+      slug: cert.slug,
+      name: cert.name,
+      program: cert.program,
+      issuedAt: dates[dates.length - 1] ?? null,
+    })
+  }
+  return earned
+}
+
+/** Stable number so a teacher and a refresh show the same id. */
+export function levelCertNumber(userId: string, code: string): string {
+  const compact = userId.replace(/-/g, '').slice(0, 8).toUpperCase()
+  return `WKU-${code.replace('.', '')}-${compact}`
+}

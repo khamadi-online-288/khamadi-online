@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { LEVEL_CERTS, earnedCertsFromProgress } from '@/lib/english/zku-level-certs'
 
 const admin = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -59,6 +60,18 @@ export async function GET(
     .order('completed_at', { ascending: false })
     .limit(80)
 
+  const examIds = LEVEL_CERTS.flatMap(c => c.lessons)
+  const { data: examRows } = await admin
+    .from('english_lesson_progress')
+    .select('lesson_id, completed_at')
+    .eq('user_id', userId)
+    .eq('completed', true)
+    .in('lesson_id', examIds)
+
+  const certificates = earnedCertsFromProgress(
+    (examRows ?? []) as { lesson_id: string; completed_at: string | null }[],
+  )
+
   return NextResponse.json({
     student: {
       user_id: profile.user_id,
@@ -72,5 +85,6 @@ export async function GET(
       group_name: groupName,
     },
     lessons: lessons ?? [],
+    certificates,
   })
 }

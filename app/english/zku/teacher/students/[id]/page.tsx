@@ -4,6 +4,7 @@ import { useState, useEffect, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import type { EarnedLevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -29,9 +30,10 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
   const router  = useRouter()
   const [profile,  setProfile]  = useState<Profile | null>(null)
   const [lessons,  setLessons]  = useState<LessonProgress[]>([])
+  const [certificates, setCertificates] = useState<EarnedLevelCert[]>([])
   const [groupName, setGroupName] = useState('')
   const [loading,  setLoading]  = useState(true)
-  const [activeTab, setActiveTab] = useState<'overview'|'lessons'>('overview')
+  const [activeTab, setActiveTab] = useState<'overview'|'lessons'|'certificates'>('overview')
 
   useEffect(() => {
     async function load() {
@@ -49,6 +51,7 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
       const data = await res.json() as {
         student?: Profile & { group_name?: string | null }
         lessons?: LessonProgress[]
+        certificates?: EarnedLevelCert[]
         error?: string
       }
 
@@ -61,6 +64,7 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
       setProfile(data.student)
       setGroupName(data.student.group_name || '—')
       setLessons(data.lessons ?? [])
+      setCertificates(data.certificates ?? [])
       setLoading(false)
     }
     load()
@@ -152,14 +156,18 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
 
       {/* Tabs */}
       <div style={{ display: 'flex', gap: 6, marginBottom: 18 }}>
-        {(['overview', 'lessons'] as const).map(tab => (
+        {([
+          ['overview', '📊 Обзор'],
+          ['lessons', '📚 История уроков'],
+          ['certificates', `🏆 Сертификаты${certificates.length ? ` · ${certificates.length}` : ''}`],
+        ] as const).map(([tab, label]) => (
           <button key={tab} onClick={() => setActiveTab(tab)} style={{
             padding: '8px 18px', borderRadius: 99, border: 'none', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit',
             background: activeTab === tab ? N : '#fff',
             color: activeTab === tab ? '#fff' : MUT,
             boxShadow: activeTab === tab ? `0 3px 10px ${N}44` : '0 1px 3px rgba(0,0,0,0.06)',
           }}>
-            {tab === 'overview' ? '📊 Обзор' : '📚 История уроков'}
+            {label}
           </button>
         ))}
       </div>
@@ -255,6 +263,46 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
                 {lessons.length} уроков · всего +{lessons.reduce((a, l) => a + (l.xp_earned ?? 0), 0).toLocaleString()} XP
               </div>
             </>
+          )}
+        </div>
+      )}
+
+      {activeTab === 'certificates' && (
+        <div>
+          {certificates.length === 0 ? (
+            <div style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, padding: '48px 24px', textAlign: 'center', color: MUT }}>
+              <div style={{ fontSize: 40, marginBottom: 8 }}>🏆</div>
+              <div style={{ fontWeight: 800, color: N, marginBottom: 6 }}>Сертификатов пока нет</div>
+              <div style={{ fontSize: 13 }}>Сертификат появляется после сдачи финального экзамена уровня.</div>
+            </div>
+          ) : (
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 14 }}>
+              {certificates.map(cert => {
+                const color = LEVEL_COLOR[cert.code] ?? N
+                const issued = cert.issuedAt
+                  ? new Date(cert.issuedAt).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' })
+                  : '—'
+                return (
+                  <div key={cert.code} style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, overflow: 'hidden' }}>
+                    <div style={{ height: 6, background: color }} />
+                    <div style={{ padding: '18px 18px 16px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
+                        <div style={{ width: 46, height: 46, borderRadius: 13, background: `${color}18`, color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900 }}>{cert.code}</div>
+                        <div>
+                          <div style={{ fontSize: 15, fontWeight: 800, color: N }}>{cert.name}</div>
+                          <div style={{ fontSize: 11, color: MUT }}>{issued}</div>
+                        </div>
+                      </div>
+                      <div style={{ fontSize: 12, color: MUT, marginBottom: 14, lineHeight: 1.5 }}>{cert.program}</div>
+                      <Link href={`/english/zku/teacher/students/${id}/certificates/${cert.slug}`} style={{
+                        display: 'block', textAlign: 'center', background: N, color: '#fff',
+                        padding: '10px', borderRadius: 10, fontSize: 13, fontWeight: 700, textDecoration: 'none',
+                      }}>Открыть сертификат</Link>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
           )}
         </div>
       )}

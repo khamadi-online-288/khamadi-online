@@ -18,11 +18,27 @@ const COMPETENCIES = [
   { icon: '🧩', label: 'Use of English', desc: 'Grammar in context' },
 ]
 
-export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
-  const [studentName, setStudentName] = useState('English Student')
+export default function LevelCertificateView({
+  cert,
+  studentName: studentNameProp,
+  issuedAt,
+  certId: certIdProp,
+  backHref = '/english/zku/student/certificates',
+  backLabel = '← Certificates',
+  embedded = false,
+}: {
+  cert: LevelCert
+  studentName?: string
+  issuedAt?: string | null
+  certId?: string
+  backHref?: string
+  backLabel?: string
+  embedded?: boolean
+}) {
+  const [studentName, setStudentName] = useState(studentNameProp ?? 'English Student')
   const [completionDate, setCompletionDate] = useState('')
-  const [loading, setLoading] = useState(true)
-  const [certId, setCertId] = useState('')
+  const [loading, setLoading] = useState(!studentNameProp)
+  const [certId, setCertId] = useState(certIdProp ?? '')
   const [downloading, setDownloading] = useState(false)
   const certRef = useRef<HTMLDivElement>(null)
 
@@ -37,8 +53,16 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
   }
 
   useEffect(() => {
-    setCompletionDate(new Date().toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' }))
-    setCertId(`WKU-${cert.code.replace('.', '')}-${Date.now().toString(36).toUpperCase().slice(-8)}`)
+    const issued = issuedAt ? new Date(issuedAt) : new Date()
+    const date = Number.isNaN(issued.getTime()) ? new Date() : issued
+    setCompletionDate(date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' }))
+    setCertId(certIdProp ?? `WKU-${cert.code.replace('.', '')}-${Date.now().toString(36).toUpperCase().slice(-8)}`)
+
+    if (studentNameProp) {
+      setStudentName(studentNameProp)
+      setLoading(false)
+      return
+    }
 
     async function fetchStudent() {
       try {
@@ -60,7 +84,7 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
       }
     }
     fetchStudent()
-  }, [cert.code])
+  }, [cert.code, studentNameProp, issuedAt, certIdProp])
 
   if (loading) {
     return (
@@ -82,8 +106,8 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
 
       <div className="no-print" style={{ background: '#fff', borderBottom: '1px solid rgba(0,56,118,0.08)', padding: '0 24px', position: 'sticky', top: 0, zIndex: 10 }}>
         <div style={{ maxWidth: 860, margin: '0 auto', display: 'flex', alignItems: 'center', gap: 16, height: 60 }}>
-          <Link href="/english/zku/student/certificates" style={{ color: '#64748B', textDecoration: 'none', fontSize: 12, fontWeight: 600 }}>
-            ← Certificates
+          <Link href={backHref} style={{ color: '#64748B', textDecoration: 'none', fontSize: 12, fontWeight: 600 }}>
+            {backLabel}
           </Link>
           <div style={{ flex: 1 }} />
           <button onClick={handleDownload} disabled={downloading} style={{
@@ -97,7 +121,7 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
         </div>
       </div>
 
-      <div style={{ minHeight: '100vh', background: '#F0F4F8', padding: '40px 24px 120px', display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
+      <div style={{ minHeight: embedded ? undefined : '100vh', background: embedded ? 'transparent' : '#F0F4F8', padding: embedded ? '24px 24px 48px' : '40px 24px 120px', display: 'flex', alignItems: 'flex-start', justifyContent: 'center' }}>
         <div ref={certRef} className="cert-page" style={{ width: '100%', maxWidth: 820, background: '#fff', borderRadius: 4, boxShadow: '0 20px 80px rgba(0,56,118,0.18)', position: 'relative', overflow: 'hidden' }}>
           <div style={{ position: 'absolute', inset: 14, border: `2px solid ${G}`, borderRadius: 2, pointerEvents: 'none', zIndex: 1 }} />
           <div style={{ position: 'absolute', inset: 18, border: '1px solid rgba(201,147,59,0.3)', borderRadius: 2, pointerEvents: 'none', zIndex: 1 }} />
@@ -168,10 +192,10 @@ export default function LevelCertificateView({ cert }: { cert: LevelCert }) {
         </div>
       </div>
 
-      <div className="no-print" style={{ position: 'fixed', bottom: 0, left: 0, right: 0, background: '#fff', borderTop: '1px solid #E2E8F0', padding: '16px 24px' }}>
+      <div className="no-print" style={{ position: embedded ? 'static' : 'fixed', bottom: 0, left: 0, right: 0, background: '#fff', borderTop: '1px solid #E2E8F0', padding: '16px 24px' }}>
         <div style={{ maxWidth: 820, margin: '0 auto', display: 'flex', gap: 12, justifyContent: 'center' }}>
-          <Link href="/english/zku/student/certificates" style={{ padding: '12px 28px', borderRadius: 10, border: '1px solid #E2E8F0', fontSize: 14, fontWeight: 700, color: '#64748B', textDecoration: 'none', background: '#fff' }}>
-            ← All Certificates
+          <Link href={backHref} style={{ padding: '12px 28px', borderRadius: 10, border: '1px solid #E2E8F0', fontSize: 14, fontWeight: 700, color: '#64748B', textDecoration: 'none', background: '#fff' }}>
+            {backLabel}
           </Link>
           <button onClick={handleDownload} disabled={downloading} style={{ padding: '12px 32px', borderRadius: 10, background: cert.button, color: '#fff', border: 'none', fontSize: 14, fontWeight: 700, cursor: downloading ? 'wait' : 'pointer', opacity: downloading ? 0.7 : 1 }}>
             {downloading ? 'Preparing PDF…' : 'Download PDF'}
