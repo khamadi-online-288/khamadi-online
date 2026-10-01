@@ -4,7 +4,7 @@ import { useState, useEffect, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import type { EarnedLevelCert } from '@/lib/english/zku-level-certs'
+import { levelOfLessonId, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -99,6 +99,26 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
     skills[k].avgScore = Math.round(skills[k].avgScore / skills[k].count)
   })
 
+  // Average score per CEFR level (A1, A1.1, A2, ...)
+  const LEVEL_ORDER = ['A1', 'A1.1', 'A2', 'B1', 'B2', 'C1']
+  const levelStats: Record<string, { count: number; sumScore: number; totalXp: number }> = {}
+  lessons.forEach(l => {
+    const lvl = levelOfLessonId(l.lesson_id)
+    if (!lvl) return
+    if (!levelStats[lvl]) levelStats[lvl] = { count: 0, sumScore: 0, totalXp: 0 }
+    levelStats[lvl].count++
+    levelStats[lvl].sumScore += l.score ?? 0
+    levelStats[lvl].totalXp += l.xp_earned ?? 0
+  })
+  const levelRows = LEVEL_ORDER
+    .filter(lvl => levelStats[lvl])
+    .map(lvl => ({
+      level: lvl,
+      count: levelStats[lvl].count,
+      avgScore: Math.round(levelStats[lvl].sumScore / levelStats[lvl].count),
+      totalXp: levelStats[lvl].totalXp,
+    }))
+
   const XP_PER_LEVEL = 3000
   const xpInLevel = (profile.total_xp ?? 0) % XP_PER_LEVEL
   const xpPct = Math.min(100, Math.round((xpInLevel / XP_PER_LEVEL) * 100))
@@ -192,6 +212,30 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
               </div>
             ))}
           </div>
+
+          {/* Average score per level */}
+          {levelRows.length > 0 && (
+            <div style={{ background: '#fff', borderRadius: 18, padding: '20px 22px', border: `1px solid ${BDR}`, marginBottom: 20 }}>
+              <h3 style={{ fontSize: 14, fontWeight: 800, color: N, marginBottom: 16 }}>Средний балл по уровням</h3>
+              <div style={{ display: 'grid', gridTemplateColumns: `repeat(${Math.min(levelRows.length, 6)}, 1fr)`, gap: 12 }}>
+                {levelRows.map(row => {
+                  const color = LEVEL_COLOR[row.level] ?? N
+                  const scoreColor = row.avgScore >= 80 ? T : row.avgScore >= 60 ? G : '#EF4444'
+                  return (
+                    <div key={row.level} style={{ background: '#F8FBFF', borderRadius: 14, padding: '14px 14px 16px', border: `1px solid ${BDR}`, textAlign: 'center' }}>
+                      <div style={{ display: 'inline-block', fontSize: 11, fontWeight: 800, color: '#fff', background: color, padding: '3px 10px', borderRadius: 99, marginBottom: 10 }}>{row.level}</div>
+                      <div style={{ fontSize: 24, fontWeight: 900, color: scoreColor, lineHeight: 1 }}>{row.avgScore}%</div>
+                      <div style={{ fontSize: 10, color: MUT, fontWeight: 600, marginTop: 4 }}>ср. балл</div>
+                      <div style={{ height: 5, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden', margin: '10px 0 8px' }}>
+                        <div style={{ height: '100%', width: `${row.avgScore}%`, background: scoreColor, borderRadius: 99 }} />
+                      </div>
+                      <div style={{ fontSize: 10, color: MUT }}>{row.count} ур. · +{row.totalXp.toLocaleString()} XP</div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
 
           {/* Skills breakdown */}
           {Object.keys(skills).length > 0 && (
