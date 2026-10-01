@@ -94,6 +94,53 @@ function writingBlankKeys(lines: WritingLine[]): string[] {
   return lines.flatMap(l => buildWritingTokens(l).filter((tk): tk is Extract<WToken, { t: 'blank' }> => tk.t === 'blank').map(tk => tk.key))
 }
 
+function normalizeAnswer(raw: string): string {
+  return raw
+    .trim()
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[.,!?;:]+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+/** Gap drills ask for the missing words, but a correct full sentence is the same answer. */
+function fillAnswerMatches(userRaw: string, correctRaw: string, prompt: string): boolean {
+  const user = normalizeAnswer(userRaw)
+  const correct = normalizeAnswer(correctRaw)
+  if (!user || !correct) return false
+  if (user === correct) return true
+  if ((prompt.match(/___/g) ?? []).length !== 1) return false
+
+  const parts = prompt.split('→')
+  const withBlank = parts.filter(part => part.includes('___'))
+  const clause = (withBlank.length > 0 ? withBlank[withBlank.length - 1] : prompt)
+    .replace(/\s*\([^)]*\)/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+  const expected = normalizeAnswer(clause.replace('___', ` ${correctRaw} `))
+  if (expected.length >= 8 && (user === expected || user.includes(expected))) return true
+
+  const [beforeRaw, afterRaw = ''] = clause.split('___')
+  const before = normalizeAnswer(beforeRaw)
+  const after = normalizeAnswer(afterRaw)
+
+  // Contraction gaps: the answer key often folds the preceding word into the
+  // answer (gap after "She" → "she's"). Typing just the gap "'s" must also pass.
+  const lastBefore = before.split(' ').filter(Boolean).pop() ?? ''
+  if (lastBefore && (normalizeAnswer(lastBefore + user) === correct || normalizeAnswer(`${lastBefore} ${user}`) === correct)) return true
+
+  let rest = user
+  if (before && (rest === before || rest.startsWith(`${before} `))) rest = rest.slice(before.length).trim()
+  if (after && (rest === after || rest.endsWith(` ${after}`))) rest = rest.slice(0, rest.length - after.length).trim()
+  return rest === correct
+}
+
+function answersMatch(item: { type?: string; correct: string; text?: string }, raw: string): boolean {
+  if (item.type === 'fill') return fillAnswerMatches(raw, item.correct, item.text ?? '')
+  return raw.trim().toLowerCase() === item.correct.trim().toLowerCase()
+}
+
 interface FullLesson {
   id: string; moduleNum: number; lessonNum: number
   moduleTitle: string; title: string
@@ -1019,9 +1066,9 @@ const L1_3: FullLesson = {
     { id: 'e5', type: 'tf',   instruction: '{t.lesson.task2_title}',
       text: '"They am students" is correct English.',
       opts: ['True', 'False'],  correct: 'False', hint: 'They → are. "They are students."' },
-    { id: 'e6', type: 'fill', instruction: 'Make it negative. Type the full negative form.',
-      text: 'I am from Almaty. → I ___ from Almaty. (I am not)',
-      correct: "am not",  hint: "I am not = I'm not. Never: I amn't!" },
+    { id: 'e6', type: 'fill', instruction: 'Make it negative. Type only the missing words — the long form, not I\'m not.',
+      text: 'I am from Almaty. → I ___ from Almaty.',
+      correct: "am not",  hint: "Only the gap: am not. I am not = I'm not. Never: I amn't!" },
     { id: 'e7', type: 'mc',   instruction: 'Choose the correct question.',
       text: '___ she from Kazakhstan?',
       opts: ['Am', 'Is', 'Are', 'Be'],   correct: 'Is',   hint: 'She → Is. "Is she from Kazakhstan?"' },
@@ -49797,8 +49844,8 @@ export default function LessonPage() {
         // Compute score from answers
         const total = lesson.questions?.length ?? 0
         const computedScore = total > 0
-          ? Math.round(lesson.questions.filter((q: { id: string; correct: string }) =>
-              (answers[q.id] ?? '').toLowerCase() === q.correct.toLowerCase()
+          ? Math.round(lesson.questions.filter(q =>
+              answersMatch(q, answers[q.id] ?? '')
             ).length / total * 100)
           : 80 // default for non-test lessons
 
@@ -49971,10 +50018,10 @@ export default function LessonPage() {
   const q       = lesson.questions[qIdx]
   const total   = lesson.questions.length
   const answer  = answers[q?.id ?? ''] ?? ''
-  const correct = checked && answer.toLowerCase() === q?.correct.toLowerCase()
+  const correct = checked && !!q && answersMatch(q, answer)
 
   const score = total > 0
-    ? Math.round(lesson.questions.filter(q => (answers[q.id] ?? '').toLowerCase() === q.correct.toLowerCase()).length / total * 100)
+    ? Math.round(lesson.questions.filter(q => answersMatch(q, answers[q.id] ?? '')).length / total * 100)
     : 0
 
   // ── Navigation helpers ───────────────────────────────────────────
@@ -51290,12 +51337,12 @@ export default function LessonPage() {
     const q      = qs[qzIdx]
     const catCfg = CAT_CFG[q.cat]
     const val    = q.type === 'fill' ? qzFill : qzAnswer
-    const isCorr = qzChecked && val.trim().toLowerCase() === q.correct.toLowerCase()
+    const isCorr = qzChecked && answersMatch(q, val)
     const combo  = qzStreak >= 5 ? 3 : qzStreak >= 3 ? 2 : 1
 
     function checkAnswer() {
       if (!val || qzChecked) return
-      const correct = val.trim().toLowerCase() === q.correct.toLowerCase()
+      const correct = answersMatch(q, val)
       const newStreak = correct ? qzStreak + 1 : 0
       const earned = correct ? q.points * Math.min(combo, 3) : 0
       setQzChecked(true)
@@ -51371,7 +51418,12 @@ export default function LessonPage() {
               </span>
             </div>
 
-            <div style={{ fontSize: 20, fontWeight: 800, color: N, lineHeight: 1.5, marginBottom: 28 }}>{q.text}</div>
+            <div style={{ fontSize: 20, fontWeight: 800, color: N, lineHeight: 1.5, marginBottom: q.type === 'fill' && q.text.includes('___') ? 10 : 28 }}>{q.text}</div>
+            {q.type === 'fill' && q.text.includes('___') && (
+              <div style={{ fontSize: 13, fontWeight: 600, color: '#475569', lineHeight: 1.45, marginBottom: 20 }}>
+                {t.lesson.fill_gap_hint}
+              </div>
+            )}
 
             {/* Fill in the blank */}
             {q.type === 'fill' ? (
@@ -51817,13 +51869,14 @@ export default function LessonPage() {
     const ex    = exs[exIdx]
     const total = exs.length
     const val   = ex.type === 'fill' ? exFill : exAnswer
-    const isCorrect = exChecked && val.trim().toLowerCase() === ex.correct.toLowerCase()
+    const isCorrect = exChecked && answersMatch(ex, val)
+    const gapCount = (ex.text.match(/___/g) ?? []).length
 
     function checkEx() {
       if (!val) return
       if (isCorrect || exChecked) return
       setExChecked(true)
-      if (val.trim().toLowerCase() === ex.correct.toLowerCase()) setExScore(s => s + 1)
+      if (answersMatch(ex, val)) setExScore(s => s + 1)
     }
 
     function nextEx() {
@@ -51853,17 +51906,59 @@ export default function LessonPage() {
           <div style={{ background: '#fff', borderRadius: 20, padding: '28px 32px', boxShadow: '0 2px 20px rgba(0,56,118,0.08)', border: '1px solid rgba(0,56,118,0.07)', marginBottom: 12 }}>
 
             {/* Instruction */}
-            <div style={{ fontSize: 11, fontWeight: 700, color: S, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 16 }}>
+            <div style={{ fontSize: 11, fontWeight: 700, color: S, textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: gapCount > 0 ? 8 : 16 }}>
               {ex.instruction}
             </div>
+            {ex.type === 'fill' && gapCount > 0 && (
+              <div style={{ fontSize: 13, fontWeight: 600, color: '#475569', lineHeight: 1.45, marginBottom: 16 }}>
+                {t.lesson.fill_gap_hint}
+              </div>
+            )}
 
-            {/* Sentence */}
-            <div style={{ fontSize: 20, fontWeight: 800, color: N, lineHeight: 1.6, marginBottom: 24 }}>
-              {ex.text}
-            </div>
+            {/* Sentence — one gap is an inline field, so it is obvious the rest stays */}
+            {ex.type === 'fill' && gapCount === 1 ? (
+              <div style={{ fontSize: 20, fontWeight: 800, color: N, lineHeight: 1.8, marginBottom: 8 }}>
+                {ex.text.split('___').map((part, i, parts) => (
+                  <span key={i}>
+                    {part}
+                    {i < parts.length - 1 && (
+                      <input
+                        autoFocus
+                        aria-label={t.lesson.fill_gap_hint}
+                        value={exFill}
+                        onChange={e => !exChecked && setExFill(e.target.value)}
+                        onKeyDown={e => e.key === 'Enter' && !exChecked && checkEx()}
+                        disabled={exChecked}
+                        placeholder="…"
+                        style={{
+                          display: 'inline-block',
+                          width: `${Math.min(24, Math.max(7, exFill.length + 1))}ch`,
+                          maxWidth: '100%',
+                          margin: '0 6px',
+                          padding: '2px 8px',
+                          borderRadius: 8,
+                          fontSize: 18,
+                          fontFamily: 'inherit',
+                          fontWeight: 700,
+                          outline: 'none',
+                          verticalAlign: 'baseline',
+                          border: `2px solid ${exChecked ? (isCorrect ? T : '#EF4444') : 'rgba(0,56,118,0.25)'}`,
+                          background: exChecked ? (isCorrect ? '#F0FDF4' : '#FEF2F2') : '#FAFBFD',
+                          color: N,
+                        }}
+                      />
+                    )}
+                  </span>
+                ))}
+              </div>
+            ) : (
+              <div style={{ fontSize: 20, fontWeight: 800, color: N, lineHeight: 1.6, marginBottom: 24 }}>
+                {ex.text}
+              </div>
+            )}
 
-            {/* Input */}
-            {ex.type === 'fill' ? (
+            {/* Input — separate box only when the gap is not already inline */}
+            {ex.type === 'fill' && gapCount !== 1 ? (
               <input
                 autoFocus
                 value={exFill}
@@ -51879,7 +51974,7 @@ export default function LessonPage() {
                   color: N, transition: 'all 0.2s',
                 }}
               />
-            ) : (
+            ) : ex.type !== 'fill' ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {ex.opts?.map((opt, oi) => {
                   const isSel  = exAnswer === opt
@@ -51913,7 +52008,7 @@ export default function LessonPage() {
                   )
                 })}
               </div>
-            )}
+            ) : null}
           </div>
 
           {/* Feedback */}
@@ -51999,9 +52094,14 @@ export default function LessonPage() {
             </span>
           </div>
 
-          <div style={{ fontSize: 19, fontWeight: 800, color: N, lineHeight: 1.5, marginBottom: 24 }}>
+          <div style={{ fontSize: 19, fontWeight: 800, color: N, lineHeight: 1.5, marginBottom: q.type === 'fill' && q.text.includes('___') ? 8 : 24 }}>
             {q.text}
           </div>
+          {q.type === 'fill' && q.text.includes('___') && (
+            <div style={{ fontSize: 13, fontWeight: 600, color: '#475569', lineHeight: 1.45, marginBottom: 16 }}>
+              {t.lesson.fill_gap_hint}
+            </div>
+          )}
 
           {/* Fill blank */}
           {q.type === 'fill' ? (
