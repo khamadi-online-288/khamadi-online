@@ -11,7 +11,7 @@ const MUT = '#64748B'
 const BDR = 'rgba(0,56,118,0.09)'
 
 const LEVELS = ['A1', 'A1.1', 'A2', 'B1', 'B2', 'C1']
-const XP_PER_LEVEL = 3000
+const XP_PER_LEVEL = 10000
 
 export default function ProgressPage() {
   const { t } = useZkuLang()

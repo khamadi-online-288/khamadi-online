@@ -1,6 +1,6 @@
 ﻿'use client'
 
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { useZkuLang } from '../zku-lang'
 import {
@@ -67,7 +67,6 @@ export default function ProfilePage() {
   const [tab, setTab]     = useState<Tab>('profile')
   const [saved, setSaved] = useState<Record<string, boolean>>({})
   const [loading, setLoading] = useState(true)
-  const userIdRef = useRef<string | null>(null)
 
   // Profile fields
   const [fullName, setFullName] = useState('')
@@ -103,7 +102,6 @@ export default function ProfilePage() {
       const user = session?.user
       if (!user) { setLoading(false); return }
 
-      userIdRef.current = user.id
       setEmail(user.email ?? '')
       setRegDate(new Date(user.created_at).toLocaleDateString('ru-RU'))
 
@@ -151,49 +149,9 @@ export default function ProfilePage() {
     setTimeout(() => setSaved(s => ({ ...s, [key]: false })), 2500)
   }
 
-  async function handleProfileSave() {
-    const uid = userIdRef.current
-    const name = fullName.trim()
-    if (!uid || !name) return
-    const supabase = createEnglishClient()
-
-    // Check if profile row exists
-    const { data: existing } = await supabase
-      .from('english_user_profiles')
-      .select('user_id')
-      .eq('user_id', uid)
-      .maybeSingle()
-
-    if (existing) {
-      const { error: updateError } = await supabase
-        .from('english_user_profiles')
-        .update({ full_name: name })
-        .eq('user_id', uid)
-
-      if (updateError) {
-        console.error('Update failed:', updateError.message, updateError.code)
-        return
-      }
-    } else {
-      const { error: insertError } = await supabase
-        .from('english_user_profiles')
-        .insert({ user_id: uid, full_name: name, role: 'student' })
-
-      if (insertError) {
-        console.error('Insert failed:', insertError.message, insertError.code)
-        return
-      }
-    }
-
-    const { error: metaError } = await supabase.auth.updateUser({ data: { full_name: name } })
-    if (metaError) {
-      console.error('Auth name update failed:', metaError.message)
-      return
-    }
-
-    setFullName(name)
-    sessionStorage.setItem('zku-display-name', name)
-    window.dispatchEvent(new CustomEvent('zku-profile-updated', { detail: { fullName: name } }))
+  // Full name is assigned by the ZKU training center and cannot be changed by students.
+  // Other profile fields (phone, city, bio) are local-only for now.
+  function handleProfileSave() {
     save('profile')
   }
 
@@ -330,7 +288,7 @@ export default function ProfilePage() {
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 16 }}>
                 <div>
                   <Label>{t.profile.full_name}</Label>
-                  <FieldInput value={fullName} onChange={setFullName} />
+                  <FieldInput value={fullName} disabled />
                 </div>
                 <div>
                   <Label>Email</Label>

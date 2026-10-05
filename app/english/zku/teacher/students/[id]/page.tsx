@@ -119,7 +119,7 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
       totalXp: levelStats[lvl].totalXp,
     }))
 
-  const XP_PER_LEVEL = 3000
+  const XP_PER_LEVEL = 10000
   const xpInLevel = (profile.total_xp ?? 0) % XP_PER_LEVEL
   const xpPct = Math.min(100, Math.round((xpInLevel / XP_PER_LEVEL) * 100))
 

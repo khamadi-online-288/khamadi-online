@@ -122,7 +122,7 @@ export default function ZKUStudentDashboard() {
     load()
   }, [])
 
-  const xpPct      = Math.min(100, (xp % 3000) / 30)
+  const xpPct      = Math.min(100, (xp % 10000) / 100)
   const lessonPct  = lessonsTotal > 0 ? Math.round((lessonsDone / lessonsTotal) * 100) : 0
   const allZero    = !skills.reading && !skills.listening && !skills.writing && !skills.speaking && !skills.grammar
   const noActivity = activity.length === 0
@@ -239,11 +239,11 @@ export default function ZKUStudentDashboard() {
               {t.dash.to_level}
             </div>
             <div style={{ fontSize: 32, fontWeight: 900, color: G, lineHeight: 1 }}>{xp.toLocaleString()}</div>
-            <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', marginBottom: 14 }}>/ 3 000 XP</div>
+            <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)', marginBottom: 14 }}>/ 10 000 XP</div>
             <div style={{ height: 6, background: 'rgba(255,255,255,0.1)', borderRadius: 99, overflow: 'hidden', marginBottom: 6 }}>
               <div style={{ height: '100%', width: `${xpPct}%`, background: G, borderRadius: 99 }} />
             </div>
-            <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)' }}>{Math.max(0, 3000 - xp)} {t.dash.xp_left}</div>
+            <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.3)' }}>{Math.max(0, 10000 - (xp % 10000))} {t.dash.xp_left}</div>
 
             <div style={{ marginTop: 20, paddingTop: 18, borderTop: '1px solid rgba(255,255,255,0.08)' }}>
               <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.3)', marginBottom: 6, textTransform: 'uppercase', letterSpacing: '0.07em' }}>
