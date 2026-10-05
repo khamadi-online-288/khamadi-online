@@ -67,7 +67,7 @@ export default function VocabPage() {
     : 0
 
   return (
-    <div style={{ padding: '28px 32px', maxWidth: 960, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
+    <div className="zku-page" style={{ padding: '28px 32px', maxWidth: 960, margin: '0 auto', fontFamily: "'Montserrat', sans-serif" }}>
 
       <div style={{ marginBottom: 24 }}>
         <h1 style={{ fontSize: 26, fontWeight: 900, color: N, marginBottom: 4 }}>{t.vocab.title}</h1>
@@ -75,7 +75,7 @@ export default function VocabPage() {
       </div>
 
       {/* Stats */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14, marginBottom: 28 }}>
+      <div className="zku-stats-4" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14, marginBottom: 28 }}>
         {[
           { v: totalLessons,        l: t.vocab_page.title_lessons,    color: N,    bg: '#EEF2F7' },
           { v: totalLessons * 30,   l: t.vocab.total,     color: '#1B8FC4', bg: '#DBEAFE' },
@@ -110,7 +110,7 @@ export default function VocabPage() {
           <h2 style={{ fontSize: 14, fontWeight: 800, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: 16 }}>
             {t.vocab_page.completed_lessons}
           </h2>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 14 }}>
+          <div className="zku-cards-min" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: 14 }}>
             {lessons.map(lesson => {
               const level = lessonIdToLevel(lesson.lesson_id)
               const color = LEVEL_COLOR[level] ?? N

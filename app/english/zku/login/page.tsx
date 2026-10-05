@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { useZkuAppShell } from '@/lib/english/useZkuAppShell'
 
 type Lang = 'ru' | 'kz' | 'en'
 
@@ -86,6 +87,7 @@ const LANG_BTN: Record<Lang, string> = { ru: 'РУС', kz: 'ҚАЗ', en: 'ENG' }
 
 export default function ZKULoginPage() {
   const router = useRouter()
+  const isApp = useZkuAppShell()
   const [lang, setLang]         = useState<Lang>('ru')
   const [email, setEmail]       = useState('')
   const [password, setPassword] = useState('')
@@ -121,10 +123,23 @@ export default function ZKULoginPage() {
   }
 
   return (
-    <div style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat', sans-serif" }}>
+    <div className="zku-auth zku-full-h" style={{ minHeight:'100vh', display:'flex', fontFamily:"'Montserrat', sans-serif" }}>
+
+      {/* Mobile brand strip */}
+      <div className="zku-auth-mobile-brand">
+        <div style={{
+          width:40, height:40, borderRadius:10, background:'rgba(255,255,255,0.15)',
+          border:'1.5px solid rgba(255,255,255,0.25)', display:'flex', alignItems:'center',
+          justifyContent:'center', color:'#fff', fontWeight:900, fontSize:12,
+        }}>{brand.logo}</div>
+        <div>
+          <div style={{ color:'#fff', fontWeight:800, fontSize:13, lineHeight:1.15 }}>{brand.name}</div>
+          <div style={{ color:'rgba(255,255,255,0.5)', fontSize:11 }}>{brand.sub}</div>
+        </div>
+      </div>
 
       {/* ── Left panel ── */}
-      <div style={{
+      <div className="zku-auth-brand" style={{
         width:'42%', minWidth:340,
         background:'linear-gradient(155deg, #001d45 0%, #003876 50%, #004fa0 100%)',
         display:'flex', flexDirection:'column', justifyContent:'space-between',
@@ -170,17 +185,19 @@ export default function ZKULoginPage() {
       </div>
 
       {/* ── Right panel ── */}
-      <div style={{ flex:1, background:'#F4F7FB', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 32px' }}>
+      <div className="zku-auth-form" style={{ flex:1, background:'#F4F7FB', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 32px' }}>
         {/* Top bar */}
-        <div style={{ width:'100%', maxWidth:420, display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:36 }}>
-          <Link href="/english/zku" style={{ fontSize:13, color:'#64748B', textDecoration:'none', fontWeight:600 }}>
-            ← {t.back}
-          </Link>
+        <div className="zku-auth-topbar" style={{ width:'100%', maxWidth:420, display:'flex', alignItems:'center', justifyContent: isApp ? 'flex-end' : 'space-between', marginBottom:36 }}>
+          {!isApp && (
+            <Link href="/english/zku" style={{ fontSize:13, color:'#64748B', textDecoration:'none', fontWeight:600, minHeight:44, display:'inline-flex', alignItems:'center' }}>
+              ← {t.back}
+            </Link>
+          )}
           <div style={{ display:'flex', background:'rgba(0,56,118,0.07)', borderRadius:8, padding:3, gap:2 }}>
             {(['ru','kz','en'] as Lang[]).map(l => (
-              <button key={l} onClick={() => setLang(l)} style={{
-                padding:'5px 12px', borderRadius:6, fontSize:11, fontWeight:700,
-                cursor:'pointer', border:'none', transition:'all 0.15s',
+              <button key={l} type="button" onClick={() => setLang(l)} style={{
+                padding:'8px 12px', borderRadius:6, fontSize:11, fontWeight:700,
+                cursor:'pointer', border:'none', transition:'all 0.15s', minHeight:36,
                 background: lang===l ? '#003876' : 'transparent',
                 color: lang===l ? '#fff' : '#64748B',
                 boxShadow: lang===l ? '0 2px 8px rgba(0,56,118,0.25)' : 'none',
@@ -190,7 +207,7 @@ export default function ZKULoginPage() {
         </div>
 
         {/* Card */}
-        <div style={{ width:'100%', maxWidth:420, background:'#fff', borderRadius:20, padding:'36px 32px', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
+        <div className="zku-auth-card" style={{ width:'100%', maxWidth:420, background:'#fff', borderRadius:20, padding:'36px 32px', boxShadow:'0 4px 32px rgba(0,56,118,0.08)', border:'1px solid rgba(0,56,118,0.08)' }}>
           <div style={{ textAlign:'center', marginBottom:28 }}>
             <div style={{ width:52, height:52, borderRadius:14, margin:'0 auto 14px', background:'linear-gradient(135deg, #003876, #0055a4)', display:'flex', alignItems:'center', justifyContent:'center', color:'#fff', fontWeight:900, fontSize:13, boxShadow:'0 6px 20px rgba(0,56,118,0.3)' }}>{brand.logo}</div>
             <h1 style={{ fontSize:20, fontWeight:900, color:'#003876', marginBottom:5 }}>{t.title}</h1>
@@ -201,7 +218,9 @@ export default function ZKULoginPage() {
             <div>
               <label style={{ display:'block', fontSize:11, fontWeight:700, color:'#64748B', textTransform:'uppercase', letterSpacing:'0.06em', marginBottom:7 }}>{t.email_label}</label>
               <input type="email" value={email} onChange={e => { setEmail(e.target.value); setError('') }} placeholder={t.email_ph}
-                style={{ width:'100%', padding:'11px 14px', borderRadius:10, border:'1.5px solid rgba(0,56,118,0.15)', fontSize:14, outline:'none', boxSizing:'border-box', background:'#F8FAFC', fontFamily:'inherit', transition:'border-color 0.15s' }}
+                className="zku-input-16"
+                autoComplete="email"
+                style={{ width:'100%', padding:'12px 14px', borderRadius:10, border:'1.5px solid rgba(0,56,118,0.15)', fontSize:14, outline:'none', boxSizing:'border-box', background:'#F8FAFC', fontFamily:'inherit', transition:'border-color 0.15s', minHeight:48 }}
                 onFocus={e => { e.currentTarget.style.borderColor = '#003876'; e.currentTarget.style.background = '#fff' }}
                 onBlur={e => { e.currentTarget.style.borderColor = 'rgba(0,56,118,0.15)'; e.currentTarget.style.background = '#F8FAFC' }} />
             </div>
@@ -212,7 +231,9 @@ export default function ZKULoginPage() {
                 <a href="#" style={{ fontSize:12, color:'#003876', textDecoration:'none', fontWeight:600 }}>{t.forgot}</a>
               </div>
               <input type="password" value={password} onChange={e => { setPassword(e.target.value); setError('') }} placeholder={t.pass_ph}
-                style={{ width:'100%', padding:'11px 14px', borderRadius:10, border:'1.5px solid rgba(0,56,118,0.15)', fontSize:14, outline:'none', boxSizing:'border-box', background:'#F8FAFC', fontFamily:'inherit', transition:'border-color 0.15s' }}
+                className="zku-input-16"
+                autoComplete="current-password"
+                style={{ width:'100%', padding:'12px 14px', borderRadius:10, border:'1.5px solid rgba(0,56,118,0.15)', fontSize:14, outline:'none', boxSizing:'border-box', background:'#F8FAFC', fontFamily:'inherit', transition:'border-color 0.15s', minHeight:48 }}
                 onFocus={e => { e.currentTarget.style.borderColor = '#003876'; e.currentTarget.style.background = '#fff' }}
                 onBlur={e => { e.currentTarget.style.borderColor = 'rgba(0,56,118,0.15)'; e.currentTarget.style.background = '#F8FAFC' }} />
             </div>
@@ -223,13 +244,13 @@ export default function ZKULoginPage() {
               </div>
             )}
 
-            <button type="submit" disabled={loading} style={{
+            <button type="submit" disabled={loading} className="zku-auth-submit" style={{
               width:'100%', padding:'13px', borderRadius:10, border:'none',
               cursor: loading ? 'not-allowed' : 'pointer',
               background: loading ? '#94A3B8' : 'linear-gradient(135deg, #003876 0%, #0055a4 100%)',
               color:'#fff', fontSize:14, fontWeight:800,
               boxShadow: loading ? 'none' : '0 6px 20px rgba(0,56,118,0.3)',
-              transition:'all 0.15s', fontFamily:'inherit',
+              transition:'all 0.15s', fontFamily:'inherit', minHeight:48,
             }}>
               {loading ? t.loading : t.btn}
             </button>
