@@ -9,6 +9,7 @@ import { createEnglishClient } from '@/lib/english/supabase-client'
 import { minutesSince, writeLessonProgress } from '@/lib/english/lesson-time'
 import { useTTSSingle, useTTSDialogue } from '@/lib/english/useTTS'
 import { certByLesson, certPath, examComplete } from '@/lib/english/zku-level-certs'
+import { syncLevelFromProgress } from '@/lib/english/level-progress'
 
 // ── Colors ─────────────────────────────────────────────────────
 const N  = '#003876'
@@ -49890,6 +49891,11 @@ export default function LessonPage() {
           setShowXpAnim(true)
           setTimeout(() => setShowXpAnim(false), 3000)
         }
+
+        // Advance current_level when a final-exam part is completed.
+        if (certByLesson(id)) {
+          await syncLevelFromProgress(supabase, user.id, id)
+        }
       } catch { /* silent — don't block UI */ }
     }
     saveProgress()
@@ -49953,6 +49959,11 @@ export default function LessonPage() {
             longest_streak: newLongest,
             last_active_at: now.toISOString(),
           }, { onConflict: 'user_id' })
+        }
+
+        // Advance current_level when the final-exam test is completed.
+        if (certByLesson(id)) {
+          await syncLevelFromProgress(supabase, user.id, id)
         }
       } catch { /* silent */ }
     }

@@ -211,39 +211,8 @@ export default function ModulePage() {
     load()
   }, [])
 
-  // ── Auto-upgrade current_level when final exam is complete ──
-  useEffect(() => {
-    const FINAL_EXAMS: Record<string, string> = {
-      'm-16':     'A1.1',
-      'm-a11-18': 'A2',
-      'm-a2-24':  'B1',
-    }
-    const nextLevel = FINAL_EXAMS[id]
-    if (!nextLevel) return
-
-    const allDone = lessons.length > 0 && lessons.every(l => completed.has(l.id))
-    if (!allDone) return
-
-    async function upgradeLevel() {
-      const supabase = createEnglishClient()
-      const { data: { session } } = await supabase.auth.getSession()
-      const user = session?.user
-      if (!user) return
-      const { data: profile } = await supabase
-        .from('english_user_profiles')
-        .select('current_level')
-        .eq('user_id', user.id)
-        .single()
-      const LEVEL_ORDER = ['A1', 'A1.1', 'A2', 'B1', 'B2', 'C1']
-      const currentIdx = LEVEL_ORDER.indexOf(profile?.current_level ?? 'A1')
-      const nextIdx    = LEVEL_ORDER.indexOf(nextLevel)
-      if (nextIdx <= currentIdx) return
-      await supabase
-        .from('english_user_profiles')
-        .upsert({ user_id: user.id, current_level: nextLevel }, { onConflict: 'user_id' })
-    }
-    upgradeLevel()
-  }, [completed, id, lessons])
+  // Level upgrades now happen at lesson-completion time via syncLevelFromProgress
+  // (lib/english/level-progress.ts), not as a side-effect of visiting this page.
 
   if (!mod) return (
     <div style={{ padding: 60, textAlign: 'center', fontFamily: "'Montserrat', sans-serif" }}>

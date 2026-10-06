@@ -115,6 +115,38 @@ export function examComplete(cert: LevelCert, completed: ReadonlySet<string>): b
   return cert.lessons.every(id => completed.has(id))
 }
 
+/** Ordered CEFR progression of the ZKU course (A1 → A1.1 → A2 → B1 → B2 → C1). */
+export const LEVEL_PROGRESSION: string[] = LEVEL_CERTS.map(c => c.code)
+
+/** Progression position of a level; unknown/absent levels sort lowest (-1). */
+export function levelIndex(code: string | null | undefined): number {
+  return code ? LEVEL_PROGRESSION.indexOf(code) : -1
+}
+
+/** The level a student advances to after finishing `code`'s final exam, or null. */
+export function nextLevelAfter(code: string): string | null {
+  const idx = LEVEL_PROGRESSION.indexOf(code)
+  if (idx === -1 || idx >= LEVEL_PROGRESSION.length - 1) return null
+  return LEVEL_PROGRESSION[idx + 1]
+}
+
+/**
+ * Highest level unlocked purely from completed final exams. Completing level X's
+ * final exam unlocks the next level. Returns null when no final exam is done yet.
+ */
+export function levelFromCompletedExams(completed: ReadonlySet<string>): string | null {
+  let unlocked: string | null = null
+  let unlockedIdx = -1
+  for (const cert of LEVEL_CERTS) {
+    if (!examComplete(cert, completed)) continue
+    const next = nextLevelAfter(cert.code)
+    if (!next) continue
+    const idx = LEVEL_PROGRESSION.indexOf(next)
+    if (idx > unlockedIdx) { unlockedIdx = idx; unlocked = next }
+  }
+  return unlocked
+}
+
 export interface EarnedLevelCert {
   code: string
   slug: string
