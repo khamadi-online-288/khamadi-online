@@ -50735,8 +50735,13 @@ export default function LessonPage() {
 
     // ── Step 2: Task 1 — True / False ────────────────────────────
     if (lisStep === 2) {
-      const allDone = lesson.task1Items.every(i => lisT1Ans[i.id])
-      const correct = lesson.task1Items.filter(i => lisT1Ans[i.id] === i.correct).length
+      // Newer listening lessons store real T/F in task2Items.
+      // Older ones keep T/F inside task1Items (correct: 'true' | 'false').
+      const tfItems = lesson.task2Items.length > 0
+        ? lesson.task2Items.map(i => ({ id: i.id, text: i.statement, correct: i.correct }))
+        : lesson.task1Items.map(i => ({ id: i.id, text: i.question, correct: i.correct }))
+      const allDone = tfItems.every(i => lisT1Ans[i.id])
+      const correct = tfItems.filter(i => lisT1Ans[i.id] === i.correct).length
       return (
         <div style={{ minHeight: '100vh', background: '#F4F6FA', fontFamily: "'Montserrat', sans-serif" }}>
           {renderHeader()}
@@ -50745,10 +50750,10 @@ export default function LessonPage() {
             <div style={{ background: '#fff', borderRadius: 20, overflow: 'hidden', boxShadow: `0 2px 20px ${P}18`, border: `1px solid ${PB}`, marginBottom: 12 }}>
               <div style={{ background: `linear-gradient(135deg, ${P}, #6D28D9)`, padding: '18px 28px', color: '#fff' }}>
                 <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.12em', color: 'rgba(255,255,255,0.6)', marginBottom: 4 }}>{t.lesson.listen_t1_label}</div>
-                <div style={{ fontSize: 16, fontWeight: 800 }}>{t.lesson.task2_label}</div>
+                <div style={{ fontSize: 16, fontWeight: 800 }}>{t.lesson.task2_title}</div>
               </div>
               <div style={{ padding: '16px 24px', display: 'flex', flexDirection: 'column', gap: 10 }}>
-                {lesson.task1Items.map((item, qi) => {
+                {tfItems.map((item, qi) => {
                   const ans = lisT1Ans[item.id]
                   const isCorr = lisT1Done && ans === item.correct
                   const isWrong = lisT1Done && ans && !isCorr
@@ -50756,7 +50761,7 @@ export default function LessonPage() {
                     <div key={item.id} style={{ borderRadius: 12, border: `1.5px solid ${isCorr ? '#86EFAC' : isWrong ? '#FECACA' : 'rgba(124,58,237,0.15)'}`, background: isCorr ? '#F0FDF4' : isWrong ? '#FEF2F2' : '#F8F9FF', overflow: 'hidden' }}>
                       <div style={{ padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 10 }}>
                         <span style={{ fontSize: 12, fontWeight: 700, color: P, flexShrink: 0 }}>{qi + 1}.</span>
-                        <span style={{ fontSize: 13, color: '#334155', flex: 1 }}>{item.question}</span>
+                        <span style={{ fontSize: 13, color: '#334155', flex: 1 }}>{item.text}</span>
                         {lisT1Done && (isCorr ? <IcCheck size={16} color={T} /> : <IcX size={16} color="#EF4444" />)}
                       </div>
                       {!lisT1Done && (
@@ -50779,7 +50784,7 @@ export default function LessonPage() {
             ) : (
               <div>
                 <div style={{ background: '#F0FDF4', border: '1px solid #86EFAC', borderRadius: 12, padding: '12px 18px', marginBottom: 10, display: 'flex', alignItems: 'center', gap: 10 }}>
-                  <IcCheck size={16} color={T} /><span style={{ fontSize: 13, fontWeight: 700, color: T }}>{correct}/{lesson.task1Items.length} correct!</span>
+                  <IcCheck size={16} color={T} /><span style={{ fontSize: 13, fontWeight: 700, color: T }}>{correct}/{tfItems.length} correct!</span>
                 </div>
                 <button onClick={() => setLisStep(3)} style={{ width: '100%', padding: '15px', borderRadius: 14, border: 'none', background: N, color: '#fff', fontSize: 14, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
                   Continue to Task 2 <IcArrowRight size={16} color="#fff" />
