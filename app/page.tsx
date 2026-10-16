@@ -1494,6 +1494,12 @@ export default function HomePage() {
             <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.34)', fontWeight: 600 }}>
               © 2026 KHAMADI ONLINE. Барлық құқықтар қорғалған.
             </span>
+            <a
+              href="/privacy"
+              style={{ fontSize: 13, color: '#7dd3fc', fontWeight: 700 }}
+            >
+              Құпиялылық саясаты
+            </a>
             <span style={{ fontSize: 13, color: 'rgba(255,255,255,0.26)', fontWeight: 600 }}>
               🇰🇿 Қазақстан
             </span>

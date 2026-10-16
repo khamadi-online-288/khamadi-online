@@ -291,7 +291,7 @@ function TrustStat({
 
 export default function EnglishLandingPage() {
   const router = useRouter()
-  const { t } = useLanguage()
+  const { t, lang } = useLanguage()
   const [faqOpen, setFaqOpen] = useState<number | null>(null)
   const [navScrolled, setNavScrolled] = useState(false)
   const [cursor, setCursor] = useState({ x: -200, y: -200 })
@@ -1133,7 +1133,7 @@ export default function EnglishLandingPage() {
               {t.landing.footer_rights}
             </div>
             <div style={{ display: 'flex', gap: 20, color: '#64748b', fontSize: 12, fontWeight: 600 }}>
-              <span style={{ cursor: 'pointer' }}>{t.landing.footer_privacy}</span>
+              <a className="footer-legal" href={`/privacy?lang=${lang}`}>{t.landing.footer_privacy}</a>
               <span style={{ cursor: 'pointer' }}>{t.landing.footer_terms}</span>
             </div>
           </div>
@@ -2220,6 +2220,10 @@ export default function EnglishLandingPage() {
           align-items: center;
           flex-wrap: wrap;
           gap: 12px;
+        }
+
+        .footer-legal:hover {
+          color: #0f172a;
         }
 
         @keyframes floatOrb {

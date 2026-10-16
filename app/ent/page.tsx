@@ -1091,6 +1091,7 @@ function Footer() {
 
         <div style={{ borderTop: '1px solid rgba(255,255,255,0.10)', paddingTop: 24, display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ fontSize: 13 }}>© 2026 KHAMADI ONLINE. Барлық құқықтар қорғалған.</div>
+          <a href="/privacy" style={{ fontSize: 13, fontWeight: 700, color: '#7dd3fc' }}>Құпиялылық саясаты</a>
           <div style={{ fontSize: 13 }}>Almaty, Kazakhstan 🇰🇿</div>
         </div>
       </div>

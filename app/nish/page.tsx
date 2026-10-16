@@ -624,6 +624,7 @@ export default function NishPage() {
 
           <div className="footer-bottom">
             <span>© 2026 KHAMADI ONLINE. Барлық құқықтар қорғалған.</span>
+            <a href="/privacy" style={{ color: 'rgba(255,255,255,0.72)', fontWeight: 700 }}>Құпиялылық саясаты</a>
             <span>🇰🇿 Қазақстан</span>
           </div>
         </div>
