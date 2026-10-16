@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
+import { LEVEL_CERTS, earnedCertsFromProgress } from '@/lib/english/zku-level-certs'
 
 const admin = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -93,7 +94,8 @@ export async function GET(
     .order('completed_at', { ascending: false })
     .limit(80)
 
-  const [{ data: authData, error: userErr }, lessonsFirst, countRes, groupsRes] = await Promise.all([
+  const examIds = LEVEL_CERTS.flatMap(cert => cert.lessons)
+  const [{ data: authData, error: userErr }, lessonsFirst, countRes, groupsRes, examRes] = await Promise.all([
     admin.auth.admin.getUserById(userId),
     lessonQuery(),
     admin
@@ -102,9 +104,16 @@ export async function GET(
       .eq('user_id', userId)
       .eq('completed', true),
     admin.from('english_groups').select('id, name, teacher_id').order('name'),
+    admin
+      .from('english_lesson_progress')
+      .select('lesson_id, completed_at')
+      .eq('user_id', userId)
+      .eq('completed', true)
+      .in('lesson_id', examIds),
   ])
 
   if (userErr) return NextResponse.json({ error: userErr.message }, { status: 500 })
+  if (examRes.error) return NextResponse.json({ error: examRes.error.message }, { status: 500 })
 
   const authUser = authData.user
   const meta = authUser?.user_metadata as Record<string, unknown> | undefined
@@ -160,5 +169,8 @@ export async function GET(
     },
     lessons,
     groups: groups.map(g => ({ id: g.id, name: g.name })),
+    certificates: earnedCertsFromProgress(
+      (examRes.data ?? []) as { lesson_id: string; completed_at: string | null }[],
+    ),
   })
 }

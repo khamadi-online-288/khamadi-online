@@ -59,6 +59,7 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
     { href: '/english/zku/admin',           label: t.panel.nav_dashboard, icon: '📊', exact: true },
     { href: '/english/zku/admin/teachers',  label: t.panel.nav_teachers,  icon: '👨‍🏫' },
     { href: '/english/zku/admin/students',  label: t.panel.nav_students,  icon: '🎓' },
+    { href: '/english/zku/admin/certificates', label: t.panel.nav_certificates, icon: '🏆' },
     { href: '/english/zku/admin/groups',    label: t.panel.nav_groups,    icon: '👥' },
   ]
   const currentPage = NAV_ITEMS.find(n => n.exact ? pathname === n.href : pathname.startsWith(n.href))

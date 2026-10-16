@@ -2,8 +2,9 @@
 
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
-import { useParams, useRouter } from 'next/navigation'
+import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { levelCertNumber, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -54,7 +55,7 @@ interface LessonProgress {
 }
 
 interface GroupOption { id: string; name: string }
-type Tab = 'info' | 'lessons'
+type Tab = 'info' | 'lessons' | 'certificates'
 type Toast = { msg: string; type: 'success' | 'error' }
 
 function formatDate(value: string | null, withTime = false): string {
@@ -80,8 +81,10 @@ function activityText(date: string | null): string {
 export default function AdminStudentDetailPage() {
   const { id } = useParams<{ id: string }>()
   const router = useRouter()
+  const searchParams = useSearchParams()
   const [student, setStudent] = useState<StudentDetail | null>(null)
   const [lessons, setLessons] = useState<LessonProgress[]>([])
+  const [certificates, setCertificates] = useState<EarnedLevelCert[]>([])
   const [groups, setGroups] = useState<GroupOption[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -113,6 +116,7 @@ export default function AdminStudentDetailPage() {
       student?: StudentDetail
       lessons?: LessonProgress[]
       groups?: GroupOption[]
+      certificates?: EarnedLevelCert[]
       error?: string
     }
     if (!res.ok || !data.student) {
@@ -124,10 +128,16 @@ export default function AdminStudentDetailPage() {
     setGroupId(data.student.group_id ?? '')
     setLessons(data.lessons ?? [])
     setGroups(data.groups ?? [])
+    setCertificates(data.certificates ?? [])
     setLoading(false)
   }, [id, router])
 
   useEffect(() => { void load() }, [load])
+
+  useEffect(() => {
+    const value = searchParams.get('tab')
+    if (value === 'lessons' || value === 'certificates') setTab(value)
+  }, [searchParams])
 
   const skills = useMemo(() => {
     const map: Record<string, { count: number; avgScore: number; totalXp: number }> = {}
@@ -336,6 +346,7 @@ export default function AdminStudentDetailPage() {
         {([
           ['info', 'Информация'],
           ['lessons', 'Уроки'],
+          ['certificates', `Сертификаты${certificates.length ? ` · ${certificates.length}` : ''}`],
         ] as const).map(([key, label]) => (
           <button key={key} onClick={() => setTab(key)} style={{
             padding: '8px 18px', borderRadius: 99, border: 'none', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit',
@@ -453,6 +464,47 @@ export default function AdminStudentDetailPage() {
               </>
             )}
           </div>
+        </div>
+      )}
+
+      {tab === 'certificates' && (
+        <div>
+          {certificates.length === 0 ? (
+            <div style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, padding: '48px 24px', textAlign: 'center', color: MUT }}>
+              <div style={{ fontSize: 40, marginBottom: 8 }}>🏆</div>
+              <div style={{ fontWeight: 800, color: N, marginBottom: 6 }}>Сертификатов пока нет</div>
+              <div style={{ fontSize: 13 }}>Сертификат появляется после сдачи финального экзамена уровня.</div>
+            </div>
+          ) : (
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: 14 }}>
+              {certificates.map(cert => {
+                const color = LEVEL_COLOR[cert.code] ?? N
+                const issued = cert.issuedAt
+                  ? new Date(cert.issuedAt).toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' })
+                  : '—'
+                return (
+                  <div key={cert.code} style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, overflow: 'hidden' }}>
+                    <div style={{ height: 6, background: color }} />
+                    <div style={{ padding: '18px 18px 16px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
+                        <div style={{ width: 46, height: 46, borderRadius: 13, background: `${color}18`, color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900 }}>{cert.code}</div>
+                        <div>
+                          <div style={{ fontSize: 15, fontWeight: 800, color: N }}>{cert.name}</div>
+                          <div style={{ fontSize: 11, color: MUT }}>{issued}</div>
+                        </div>
+                      </div>
+                      <div style={{ fontSize: 12, color: MUT, marginBottom: 6, lineHeight: 1.5 }}>{cert.program}</div>
+                      <div style={{ fontSize: 11, fontWeight: 700, color: '#94A3B8', fontFamily: 'ui-monospace, monospace', marginBottom: 14 }}>{levelCertNumber(id, cert.code)}</div>
+                      <Link href={`/english/zku/admin/students/${id}/certificates/${cert.slug}`} style={{
+                        display: 'block', textAlign: 'center', background: ADMIN, color: '#fff',
+                        padding: '10px', borderRadius: 10, fontSize: 13, fontWeight: 700, textDecoration: 'none',
+                      }}>Открыть и скачать</Link>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+          )}
         </div>
       )}
     </div>
