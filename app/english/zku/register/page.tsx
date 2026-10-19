@@ -123,7 +123,8 @@ const T = {
 const LANG_BTN: Record<Lang, string> = { ru: 'РУС', kz: 'ҚАЗ', en: 'ENG' }
 
 export default function ZKURegisterPage() {
-  const isApp = useZkuAppShell()
+  const { isApp, ready } = useZkuAppShell()
+  const showWebChrome = ready && !isApp
   const [lang, setLang]         = useState<Lang>('ru')
   const [role, setRole]         = useState<Role>('student')
   const [name, setName]         = useState('')
@@ -247,8 +248,8 @@ export default function ZKURegisterPage() {
       </div>
 
       <div className="zku-auth-form" style={{ flex:1, background:'#F4F7FB', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 32px', overflowY:'auto' }}>
-        <div className="zku-auth-topbar" style={{ width:'100%', maxWidth:440, display:'flex', alignItems:'center', justifyContent: isApp ? 'flex-end' : 'space-between', marginBottom:28 }}>
-          {!isApp && (
+        <div className="zku-auth-topbar" style={{ width:'100%', maxWidth:440, display:'flex', alignItems:'center', justifyContent: showWebChrome ? 'space-between' : 'flex-end', marginBottom:28 }}>
+          {showWebChrome && (
             <Link href="/english/zku" style={{ fontSize:13, color:'#64748B', textDecoration:'none', fontWeight:600, minHeight:44, display:'inline-flex', alignItems:'center' }}>← {t.back}</Link>
           )}
           <div style={{ display:'flex', background:'rgba(0,56,118,0.07)', borderRadius:8, padding:3, gap:2 }}>

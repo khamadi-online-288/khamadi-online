@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { translations, type Lang } from '@/lib/english/zkuTranslations'
-import { isZkuAppShell } from '@/lib/english/useZkuAppShell'
+import { isZkuAppShell, zkuLoginHref } from '@/lib/english/useZkuAppShell'
 
 export default function ZKULandingPage() {
   const router = useRouter()
@@ -13,7 +13,7 @@ export default function ZKULandingPage() {
 
   useEffect(() => {
     if (isZkuAppShell()) {
-      router.replace('/english/zku/login')
+      router.replace(zkuLoginHref())
     }
   }, [router])
 

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { zkuLoginHref } from '@/lib/english/useZkuAppShell'
 import { ZkuLangProvider, ZkuLangSwitcher, useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
@@ -22,20 +23,20 @@ function TeacherLayoutInner({ children }: { children: React.ReactNode }) {
       try {
         const supabase = createEnglishClient()
         const { data: { session }, error } = await supabase.auth.getSession()
-        if (error || !session) { router.replace('/english/zku/login'); return }
+        if (error || !session) { router.replace(zkuLoginHref()); return }
         const { error: re } = await supabase.auth.refreshSession()
-        if (re) { sessionStorage.removeItem('zku-teacher-name'); await supabase.auth.signOut(); router.replace('/english/zku/login'); return }
+        if (re) { sessionStorage.removeItem('zku-teacher-name'); await supabase.auth.signOut(); router.replace(zkuLoginHref()); return }
         const { data: profile } = await supabase
           .from('english_user_profiles').select('role, full_name')
           .eq('user_id', session.user.id).maybeSingle()
         if (!profile || (profile.role !== 'teacher' && profile.role !== 'admin')) {
-          router.replace('/english/zku/login'); return
+          router.replace(zkuLoginHref()); return
         }
         const n = profile.full_name ?? session.user.email ?? ''
         setName(n); setEmail(session.user.email ?? '')
         sessionStorage.setItem('zku-teacher-name', n)
         setReady(true)
-      } catch { sessionStorage.removeItem('zku-teacher-name'); router.replace('/english/zku/login') }
+      } catch { sessionStorage.removeItem('zku-teacher-name'); router.replace(zkuLoginHref()) }
     }
     check()
   }, [router])
@@ -114,7 +115,7 @@ function TeacherLayoutInner({ children }: { children: React.ReactNode }) {
             onClick={async () => {
               const supabase = createEnglishClient()
               await supabase.auth.signOut()
-              router.push('/english/zku/login')
+              router.push(zkuLoginHref())
             }}
             style={{ width: '100%', padding: '8px', borderRadius: 8, border: '1px solid rgba(255,255,255,0.2)', background: 'transparent', color: 'rgba(255,255,255,0.6)', fontSize: 12, cursor: 'pointer', fontFamily: 'inherit' }}>
             {t.panel.logout}

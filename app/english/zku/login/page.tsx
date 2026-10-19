@@ -87,7 +87,8 @@ const LANG_BTN: Record<Lang, string> = { ru: 'РУС', kz: 'ҚАЗ', en: 'ENG' }
 
 export default function ZKULoginPage() {
   const router = useRouter()
-  const isApp = useZkuAppShell()
+  const { isApp, ready } = useZkuAppShell()
+  const showWebChrome = ready && !isApp
   const [lang, setLang]         = useState<Lang>('ru')
   const [email, setEmail]       = useState('')
   const [password, setPassword] = useState('')
@@ -187,8 +188,8 @@ export default function ZKULoginPage() {
       {/* ── Right panel ── */}
       <div className="zku-auth-form" style={{ flex:1, background:'#F4F7FB', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center', padding:'48px 32px' }}>
         {/* Top bar */}
-        <div className="zku-auth-topbar" style={{ width:'100%', maxWidth:420, display:'flex', alignItems:'center', justifyContent: isApp ? 'flex-end' : 'space-between', marginBottom:36 }}>
-          {!isApp && (
+        <div className="zku-auth-topbar" style={{ width:'100%', maxWidth:420, display:'flex', alignItems:'center', justifyContent: showWebChrome ? 'space-between' : 'flex-end', marginBottom:36 }}>
+          {showWebChrome && (
             <Link href="/english/zku" style={{ fontSize:13, color:'#64748B', textDecoration:'none', fontWeight:600, minHeight:44, display:'inline-flex', alignItems:'center' }}>
               ← {t.back}
             </Link>

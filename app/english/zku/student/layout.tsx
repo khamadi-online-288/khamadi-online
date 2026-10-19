@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { zkuLoginHref } from '@/lib/english/useZkuAppShell'
 import { ZkuLangProvider, ZkuLangSwitcher, useZkuLang } from './zku-lang'
 
 function Icon({ name, size = 15 }: { name: string; size?: number }) {
@@ -191,7 +192,7 @@ function UserMenu() {
     setOpen(false)
     const supabase = createEnglishClient()
     await supabase.auth.signOut()
-    router.push('/english/zku/login')
+    router.push(zkuLoginHref())
   }
 
   const menuItems = [
@@ -341,21 +342,21 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
         const { data: { session }, error } = await supabase.auth.getSession()
         if (error || !session) {
           sessionStorage.removeItem('zku-auth-ok')
-          router.replace('/english/zku/login')
+          router.replace(zkuLoginHref())
           return
         }
         const { error: refreshError } = await supabase.auth.refreshSession()
         if (refreshError) {
           sessionStorage.removeItem('zku-auth-ok')
           await supabase.auth.signOut()
-          router.replace('/english/zku/login')
+          router.replace(zkuLoginHref())
           return
         }
         sessionStorage.setItem('zku-auth-ok', '1')
         setAuthChecked(true)
       } catch {
         sessionStorage.removeItem('zku-auth-ok')
-        router.replace('/english/zku/login')
+        router.replace(zkuLoginHref())
       }
     }
     checkAuth()
@@ -366,7 +367,7 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event: string) => {
       if (event === 'SIGNED_OUT') {
         sessionStorage.removeItem('zku-auth-ok')
-        router.replace('/english/zku/login')
+        router.replace(zkuLoginHref())
       }
     })
     return () => subscription.unsubscribe()
@@ -389,7 +390,7 @@ function HeaderInner({ children }: { children: React.ReactNode }) {
     setMoreOpen(false)
     const supabase = createEnglishClient()
     await supabase.auth.signOut()
-    router.push('/english/zku/login')
+    router.push(zkuLoginHref())
   }
 
   const shellClass = [

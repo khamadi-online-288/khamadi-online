@@ -10,10 +10,20 @@ declare global {
   }
 }
 
+function markAppShell() {
+  try {
+    sessionStorage.setItem(STORAGE_KEY, '1')
+  } catch {
+    // ignore
+  }
+}
+
 /**
  * Detect RN WebView / in-app shell.
- * - Query `?app=1` (or `?webview=1`) — persist for the session
+ * - Query `?app=1` (or `?webview=1`) — persist for the tab
  * - `window.ReactNativeWebView` (injected by react-native-webview)
+ * Either signal is written to sessionStorage so later routes (login after
+ * an auth redirect) keep the shell even if the query string was dropped.
  */
 export function isZkuAppShell(): boolean {
   if (typeof window === 'undefined') return false
@@ -21,7 +31,7 @@ export function isZkuAppShell(): boolean {
   try {
     const params = new URLSearchParams(window.location.search)
     if (params.get('app') === '1' || params.get('webview') === '1') {
-      sessionStorage.setItem(STORAGE_KEY, '1')
+      markAppShell()
       return true
     }
   } catch {
@@ -34,16 +44,31 @@ export function isZkuAppShell(): boolean {
     // ignore
   }
 
-  return typeof window.ReactNativeWebView !== 'undefined'
+  if (typeof window.ReactNativeWebView !== 'undefined') {
+    markAppShell()
+    return true
+  }
+
+  return false
 }
 
-/** SSR-safe hook: false until mount, then syncs. */
-export function useZkuAppShell(): boolean {
-  const [isApp, setIsApp] = useState(false)
+/** Login URL that keeps the in-app shell across an auth redirect. */
+export function zkuLoginHref(): string {
+  return isZkuAppShell() ? '/english/zku/login?app=1' : '/english/zku/login'
+}
+
+type ZkuAppShellState = {
+  isApp: boolean
+  ready: boolean
+}
+
+/** SSR-safe hook: not ready until mount, so the back-link does not flash. */
+export function useZkuAppShell(): ZkuAppShellState {
+  const [state, setState] = useState<ZkuAppShellState>({ isApp: false, ready: false })
 
   useEffect(() => {
-    setIsApp(isZkuAppShell())
+    setState({ isApp: isZkuAppShell(), ready: true })
   }, [])
 
-  return isApp
+  return state
 }
