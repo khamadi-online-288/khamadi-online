@@ -1,0 +1,346 @@
+{
+  "id": "l77-5",
+  "moduleNum": 19,
+  "lessonNum": 9,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Module 19 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The new compound is ___ more effective than the existing treatment.\" (considerably — strong difference)",
+      "opts": [
+        "very",
+        "considerably",
+        "much more very",
+        "the most"
+      ],
+      "correct": "considerably",
+      "hint": "\"Considerably more + adjective\" = amplified comparative",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ stringent the peer review process, the ___ reliable the published findings.\" (proportional)",
+      "correct": "more / more",
+      "hint": "\"The more X, the more Y\" = proportional structure",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The open data approach was ___ effective as the closed data approach.\" (equal or near-equal)",
+      "opts": [
+        "not quite as",
+        "considerably more",
+        "the most",
+        "far less"
+      ],
+      "correct": "not quite as",
+      "hint": "\"Not quite as + adjective + as\" = slightly below equal",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The data ___ a link between sleep deprivation and cognitive performance.\" (medium hedging verb)",
+      "opts": [
+        "proves",
+        "suggests",
+        "establishes definitely",
+        "will show"
+      ],
+      "correct": "suggests",
+      "hint": "\"Suggests\" = hedging reporting verb — cautious claim",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ 80% of participants responded positively in the first trial.\" (surprisingly high maximum)",
+      "correct": "As many as",
+      "hint": "\"As many as + number\" = surprising maximum figure",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It remains ___ whether the intervention works equally well across all age groups.\"",
+      "opts": [
+        "unclear",
+        "maybe",
+        "possibly",
+        "that uncertain"
+      ],
+      "correct": "unclear",
+      "hint": "\"It remains unclear whether + clause\" = impersonal hedge",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The treatment ___ reduce symptoms in the majority of patients.\" (theoretical possibility)",
+      "correct": "may / might / could",
+      "hint": "Modal for possibility: \"may/might/could + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Open data practices ___ to be associated with significantly higher replication rates.\" (cautious verb)",
+      "opts": [
+        "prove",
+        "show",
+        "appear",
+        "will demonstrate"
+      ],
+      "correct": "appear",
+      "hint": "\"Appear to be\" = hedging phrase — cautious assertion",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ 200 participants were enrolled in the study.\" (standard approximator)",
+      "correct": "Approximately",
+      "hint": "\"Approximately + number\" = standard scientific approximation",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Of the two methodologies, the second is ___ rigorous.\" (comparing exactly two)",
+      "opts": [
+        "the most",
+        "the more",
+        "most",
+        "more"
+      ],
+      "correct": "the more",
+      "hint": "\"The + comparative\" for exactly two options",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"replication crisis\"?",
+      "opts": [
+        "Scientists duplicating each other's work unnecessarily",
+        "The failure to replicate many widely-cited scientific findings",
+        "A shortage of research funding for replication studies",
+        "The difficulty of repeating experiments with limited resources"
+      ],
+      "correct": "The failure to replicate many widely-cited scientific findings",
+      "hint": "Reading 1: \"replication crisis\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"There is ___ evidence that exercise reduces the symptoms of depression in adults.\" (some but not definitive)",
+      "correct": "some",
+      "hint": "\"There is some evidence that\" = cautious positive claim",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the data we collect, ___ our understanding of the phenomenon becomes.\"",
+      "opts": [
+        "The more / the richer",
+        "More / richer",
+        "The most / richest",
+        "More / more rich"
+      ],
+      "correct": "The more / the richer",
+      "hint": "\"The more X, the richer Y\" = proportional structure",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The results were more better than expected\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "No \"more\" with -er comparatives: \"better than\" only",
+      "points": 1
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is the \"winner's curse\" in science?",
+      "opts": [
+        "A prize given to the first person to publish a finding",
+        "The tendency for early, small studies to overestimate effect sizes",
+        "The competitive pressure on scientists to make breakthrough discoveries",
+        "The reward for challenging an established paradigm"
+      ],
+      "correct": "The tendency for early, small studies to overestimate effect sizes",
+      "hint": "Listening 3: Takeshi explains the \"winner's curse\"",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It is ___ that the sample size will need to be increased for the effect to reach significance.\"",
+      "correct": "likely",
+      "hint": "\"It is likely that + clause\" = formal impersonal hedging",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Pre-registration is becoming ___ and ___ common in clinical research.\" (progressive increase)",
+      "opts": [
+        "more / more",
+        "most / most",
+        "very / very",
+        "far / far"
+      ],
+      "correct": "more / more",
+      "hint": "\"More and more + adjective\" = progressive increase",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ 50 replications have been attempted — the minimum for a robust estimate.\" (confirmed minimum)",
+      "correct": "At least",
+      "hint": "\"At least + number\" = confirmed minimum figure",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "According to Reading 2, what is \"publication bias\"?",
+      "opts": [
+        "A preference for studies from prestigious universities",
+        "The tendency to publish positive findings while ignoring null results",
+        "Bias in the choice of journal topics",
+        "The influence of corporate sponsors on research outcomes"
+      ],
+      "correct": "The tendency to publish positive findings while ignoring null results",
+      "hint": "Reading 2: \"publication bias\"",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The new drug performed ___ as expected based on the Phase 1 trials.\" (slightly below equal)",
+      "opts": [
+        "not nearly as well",
+        "not quite as well",
+        "far worse",
+        "nowhere near as well"
+      ],
+      "correct": "not quite as well",
+      "hint": "\"Not quite as + adverb + as\" = slightly below equal",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The new analysis was ___ more thorough than the original one.\" (far — strong difference)",
+      "correct": "far",
+      "hint": "\"Far more + adjective\" = strong amplified comparative",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A fortuitous discovery made by chance during unrelated investigation is called ___.",
+      "correct": "serendipity",
+      "hint": "Reading 2: Fleming, Röntgen, Becquerel",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses hedging correctly for scientific writing?",
+      "opts": [
+        "\"This study proves that mindfulness reduces anxiety.\"",
+        "\"This study may possibly perhaps suggest that mindfulness might help.\"",
+        "\"These findings suggest that mindfulness may reduce anxiety in some populations.\"",
+        "\"Everyone knows that mindfulness definitely reduces anxiety.\""
+      ],
+      "correct": "\"These findings suggest that mindfulness may reduce anxiety in some populations.\"",
+      "hint": "\"Suggest\" + \"may\" + limiting expression = well-hedged scientific claim",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"As many as 80% responded positively\" implies a surprisingly high maximum figure.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"As many as + number\" = used for surprisingly high maximum",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"pre-registration\" in research?",
+      "opts": [
+        "Signing up early for a research conference",
+        "Registering a hypothesis and methodology before collecting data",
+        "Submitting a paper before peer review is complete",
+        "Applying for a research grant before the study begins"
+      ],
+      "correct": "Registering a hypothesis and methodology before collecting data",
+      "hint": "Listening 3B: Dr. Korolev explains pre-registration",
+      "points": 1
+    }
+  ]
+}

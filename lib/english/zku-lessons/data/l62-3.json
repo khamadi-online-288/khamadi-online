@@ -1,0 +1,438 @@
+{
+  "id": "l62-3",
+  "moduleNum": 4,
+  "lessonNum": 3,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "listening",
+  "title": "Getting Things Done: Get Passive in Natural Speech",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "You look exhausted. What happened?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I got caught in a meeting that lasted three hours. Three hours! For a topic that could have been handled in fifteen minutes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Did the meeting get recorded?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "No. The equipment got broken last week and still hasn't been fixed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "So nothing got decided?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Something got decided. We're getting the timetable system replaced. Which we've been asking for since last year.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That's actually good news. When's it getting done?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "They said it would get started next month. But these things always get delayed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "By the way — you know Amir's been working on a timetable system? He might be interested.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I know. He got invited to present it last semester but the presentation got cancelled because of the fire alarm.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Is he going to get another chance?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "He should be. His work got noticed by one of the senior lecturers. Apparently she was impressed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He deserves it. He's been working on it for months and hasn't got paid a single tenge.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's the thing about student projects. The work gets done, the credit gets given to someone else. Usually.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not this time. His name is getting put on the documentation.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good. He worked for it. He should get recognised.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "exhausted",
+      "emoji": "😩",
+      "opts": [
+        "отдохнувший",
+        "измотанный",
+        "рассеянный",
+        "занятый"
+      ],
+      "correct": "измотанный"
+    },
+    {
+      "id": "p2",
+      "word": "equipment",
+      "emoji": "🖥️",
+      "opts": [
+        "документы",
+        "оборудование",
+        "расписание",
+        "задача"
+      ],
+      "correct": "оборудование"
+    },
+    {
+      "id": "p3",
+      "word": "replace",
+      "emoji": "🔄",
+      "opts": [
+        "починить",
+        "заменить",
+        "обновить",
+        "удалить"
+      ],
+      "correct": "заменить"
+    },
+    {
+      "id": "p4",
+      "word": "delayed",
+      "emoji": "⏸️",
+      "opts": [
+        "отменённый",
+        "задержанный / отложенный",
+        "перенесённый",
+        "ускоренный"
+      ],
+      "correct": "задержанный / отложенный"
+    },
+    {
+      "id": "p5",
+      "word": "recognised",
+      "emoji": "🏆",
+      "opts": [
+        "незамеченный",
+        "признанный / замеченный",
+        "награждённый",
+        "приглашённый"
+      ],
+      "correct": "признанный / замеченный"
+    },
+    {
+      "id": "p6",
+      "word": "documentation",
+      "emoji": "📄",
+      "opts": [
+        "презентация",
+        "документация",
+        "расписание",
+        "отчёт"
+      ],
+      "correct": "документация"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The meeting recording equipment was broken and hadn't been fixed.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Nothing was decided in the meeting.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The new timetable system is expected to start next month.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Amir's presentation was cancelled because of his absence.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Amir's work got noticed by a senior lecturer.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Amir has been paid for his work on the timetable system.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "😩",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Just out of a long meeting — uses get passive naturally throughout"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "📝",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Listening and asking follow-up questions — also uses get passive"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says the meeting recording equipment got broken last week and still hasn't been fixed.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Mentions the timetable system is getting replaced — something they'd been asking for since last year.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Notes these things always get delayed.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Says Amir got invited to present but the presentation got cancelled due to a fire alarm.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Says Amir's work got noticed by a senior lecturer who was impressed.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Says Amir's name is getting put on the documentation.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happened to the meeting recording equipment?",
+      "opts": [
+        "It was stolen",
+        "It got broken last week and hasn't been fixed",
+        "It was turned off",
+        "It was never available"
+      ],
+      "correct": "It got broken last week and hasn't been fixed",
+      "hint": "\"The equipment got broken last week and still hasn't been fixed.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was decided in the meeting?",
+      "opts": [
+        "Nothing",
+        "To cancel the timetable system",
+        "To replace the timetable system",
+        "To hire a new staff member"
+      ],
+      "correct": "To replace the timetable system",
+      "hint": "\"We're getting the timetable system replaced. Which we've been asking for since last year.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why was Amir's presentation cancelled?",
+      "opts": [
+        "He was ill",
+        "He wasn't ready",
+        "A fire alarm went off",
+        "The room was double-booked"
+      ],
+      "correct": "A fire alarm went off",
+      "hint": "\"The presentation got cancelled because of the fire alarm.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who noticed Amir's work?",
+      "opts": [
+        "The rector",
+        "A senior lecturer",
+        "Kamila herself",
+        "A student committee"
+      ],
+      "correct": "A senior lecturer",
+      "hint": "\"His work got noticed by one of the senior lecturers. Apparently she was impressed.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What hasn't Amir received for his work?",
+      "opts": [
+        "Recognition",
+        "Any payment (tenge)",
+        "Feedback",
+        "A presentation slot"
+      ],
+      "correct": "Any payment (tenge)",
+      "hint": "\"He's been working on it for months and hasn't got paid a single tenge.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is happening with Amir's name and the documentation?",
+      "opts": [
+        "It's being removed",
+        "It's getting put on the documentation",
+        "Nothing is happening",
+        "It was already there"
+      ],
+      "correct": "It's getting put on the documentation",
+      "hint": "\"His name is getting put on the documentation.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says student project work always gets proper credit.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The work gets done, the credit gets given to someone else. Usually.\" — a critical observation. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I got caught in a meeting.\" — \"got caught\" emphasises:",
+      "opts": [
+        "She planned the meeting",
+        "The meeting was her idea",
+        "Her experience — she was involuntarily stuck there",
+        "It was a short meeting"
+      ],
+      "correct": "Her experience — she was involuntarily stuck there",
+      "hint": "\"Get passive emphasises the subject's experience of the event.\" \"Got caught\" = she was affected, stuck. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The timetable system is getting replaced.\" — \"getting replaced\" is:",
+      "opts": [
+        "Past Continuous Passive",
+        "Present Continuous Passive (get)",
+        "Present Simple Passive",
+        "Future Passive"
+      ],
+      "correct": "Present Continuous Passive (get)",
+      "hint": "\"is getting replaced\" = Present Continuous get passive. Happening now/in progress. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"His name is getting put on the documentation.\" — \"getting\" here:",
+      "opts": [
+        "Is informal for \"being\"",
+        "Shows the subject's active role",
+        "Is wrong — should be \"is being\"",
+        "Both \"getting\" and \"being\" are correct"
+      ],
+      "correct": "Both \"getting\" and \"being\" are correct",
+      "hint": "\"is getting put\" (informal get passive) and \"is being put\" (formal be passive) — both correct. \"Get\" is more informal/conversational. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The equipment ___ (break) last week and still ___ (not / fix).\"",
+      "correct": "got broken / hasn't been fixed",
+      "hint": "\"Get passive\" past: \"got broken.\" Present Perfect passive (be): \"hasn't been fixed.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"These things always get delayed.\" — \"get delayed\" vs \"are delayed\":",
+      "opts": [
+        "Same meaning, no difference",
+        "\"Get delayed\" = subject experiences the delay (often with frustration implied); \"are delayed\" is more neutral",
+        "\"Are delayed\" is wrong",
+        "\"Get delayed\" only works in past tense"
+      ],
+      "correct": "\"Get delayed\" = subject experiences the delay (often with frustration implied); \"are delayed\" is more neutral",
+      "hint": "\"Get\" passive = experiential, often with emotional overtone. \"Are delayed\" = neutral. ✅"
+    }
+  ]
+}

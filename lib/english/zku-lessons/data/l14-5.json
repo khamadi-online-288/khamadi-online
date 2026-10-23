@@ -1,0 +1,305 @@
+{
+  "id": "l14-5",
+  "moduleNum": 14,
+  "lessonNum": 5,
+  "moduleTitle": "Weather and clothes",
+  "title": "Adjectives: describing things",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Прилагательные — как описывать вещи, погоду и людей",
+  "grammarNote": "Прилагательные (Adjectives) — это слова, которые описывают существительные: они говорят нам КАК что-то выглядит, какое оно на ощупь, какого размера, какого цвета. В казахском языке прилагательные стоят ПЕРЕД существительным и изменяются (суық ауа, суық ауаны). В русском — тоже меняются по роду, числу и падежу (холодный воздух, холодная погода, холодные дни). В английском всё проще!\n\n📌 ГЛАВНОЕ ПРАВИЛО: прилагательные в английском НЕ ИЗМЕНЯЮТСЯ:\n• \"a cold day\" (один день) → \"three cold days\" (три дня) — cold не меняется!\n• \"a warm coat\" (пальто) → \"a warm scarf\" (шарф) — warm не меняется!\n• \"He is tired.\" / \"She is tired.\" / \"They are tired.\" — tired для всех одинаковый!\n\n📍 ДВЕ ПОЗИЦИИ ПРИЛАГАТЕЛЬНОГО:\n\n① ПЕРЕД существительным (attributive position):\n\"a WARM coat\" · \"the GREY sky\" · \"a THICK woollen scarf\" · \"a SHARP, DRY wind\"\n\n② ПОСЛЕ глагола be (predicative position):\n\"The weather IS cold.\" · \"The coat IS warm.\" · \"The sky WAS grey.\"\n\"My hands ARE freezing!\" · \"This scarf IS very soft.\"\n\n✅ Оба варианта правильны — просто разное место в предложении!\n❌ НЕ говори: \"a coat warm\" или \"weather cold the is\" — порядок слов важен!\n\n🌤️ ПРИЛАГАТЕЛЬНЫЕ ДЛЯ ПОГОДЫ:\n• sunny (солнечный) · cloudy (облачный) · partly cloudy (переменная облачность)\n• rainy (дождливый) · windy (ветреный) · foggy (туманный) · icy (обледенелый)\n• snowy (снежный) · stormy (штормовой) · freezing (ледяной / очень холодный)\n• hot (жаркий) · warm (тёплый) · mild (мягкий/умеренный) · cool (прохладный)\n• cold (холодный) · harsh (суровый) · crisp (свежий) · humid (влажный/сырой)\n• clear (ясный) · heavy (пасмурный/сильный) · light (лёгкий) · pleasant (приятный)\n\n🧥 ПРИЛАГАТЕЛЬНЫЕ ДЛЯ ОДЕЖДЫ И ВЕЩЕЙ:\n• warm (тёплый) · thick (толстый) · thin (тонкий) · light (лёгкий)\n• heavy (тяжёлый/плотный) · waterproof (водонепроницаемый)\n• comfortable (удобный) · uncomfortable (неудобный)\n• practical (практичный) · stylish (стильный) · cosy (уютный)\n• loose (свободный) · tight (тесный) · soft (мягкий) · rough (грубый)\n• woollen (шерстяной) · cotton (хлопковый) · leather (кожаный) · rubber (резиновый)\n\n📋 ПОРЯДОК ПРИЛАГАТЕЛЬНЫХ (когда их несколько):\nОпиниn → Размер → Возраст → Форма → Цвет → Происхождение → Материал\n\n\"a beautiful long cream-coloured woollen scarf\"\n(красивый · длинный · кремового цвета · шерстяной шарф)\n\n\"a practical dark navy waterproof jacket\"\n(практичная · тёмно-синяя · водонепроницаемая куртка)\n\n💡 На практике больше двух-трёх прилагательных подряд — редкость. Но порядок нужно знать!",
+  "grammarTable": [
+    {
+      "subject": "Adjective BEFORE noun",
+      "verb": "a + adj + noun",
+      "short": "attributive",
+      "example": "\"a WARM coat\" · \"the GREY sky\" · \"a SHARP, DRY wind\" · \"a THICK woollen scarf\""
+    },
+    {
+      "subject": "Adjective AFTER be",
+      "verb": "be + adj",
+      "short": "predicative",
+      "example": "\"The weather IS cold.\" · \"My hands ARE freezing!\" · \"The scarf WAS soft.\""
+    },
+    {
+      "subject": "NO plural/gender change",
+      "verb": "adj stays the same",
+      "short": "key difference!",
+      "example": "\"a cold day\" = \"three cold days\" · \"He is tired.\" = \"She is tired.\" ✅"
+    },
+    {
+      "subject": "Weather adjectives",
+      "verb": "describe conditions",
+      "short": "sunny/cold/windy",
+      "example": "sunny · cloudy · rainy · windy · foggy · snowy · freezing · mild · crisp · humid"
+    },
+    {
+      "subject": "Clothes adjectives",
+      "verb": "describe items",
+      "short": "warm/thick/soft",
+      "example": "warm · thick · thin · light · waterproof · comfortable · practical · woollen · leather"
+    },
+    {
+      "subject": "Opinion adjectives",
+      "verb": "your view of something",
+      "short": "come first",
+      "example": "\"a beautiful warm sunny day\" — beautiful (opinion) comes before warm and sunny."
+    },
+    {
+      "subject": "Colour adjectives",
+      "verb": "describe colour",
+      "short": "after size/age",
+      "example": "\"a dark grey coat\" · \"a bright blue sky\" · \"a deep red scarf\" · \"a navy jacket\""
+    },
+    {
+      "subject": "Material adjectives",
+      "verb": "what it is made of",
+      "short": "come last",
+      "example": "\"a woollen hat\" · \"leather gloves\" · \"a cotton t-shirt\" · \"rubber boots\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Позиция прилагательного: перед существительным vs после be",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "ПЕРЕД существительным (attributive):",
+          "example": "\"a WARM coat\" · \"the GREY sky\" · \"a THICK woollen scarf\" · \"a WATERPROOF jacket\" · \"a SHARP wind\""
+        },
+        {
+          "form": "ПОСЛЕ be (predicative):",
+          "example": "\"The coat IS warm.\" · \"The sky IS grey.\" · \"My hands ARE cold.\" · \"The scarf IS soft and comfortable.\""
+        },
+        {
+          "form": "Оба варианта = одно значение:",
+          "example": "\"a warm coat\" = \"the coat is warm\" — это одно и то же прилагательное, просто разное место."
+        },
+        {
+          "form": "⚠️ Порядок слов — строго:",
+          "example": "✅ \"a cold, windy day\" · ❌ \"a day cold windy\" — прилагательные всегда ПЕРЕД существительным, не после!"
+        },
+        {
+          "form": "Несколько прилагательных через запятую:",
+          "example": "\"a cold, cloudy, windy morning\" — несколько прилагательных отделяются запятыми в ряду."
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"a THICK orange sweater\" · \"dark LEATHER boots\" · \"a LONG WATERPROOF jacket\" · \"The sky IS bright and CLEAR.\""
+        }
+      ]
+    },
+    {
+      "title": "② Прилагательные НЕ изменяются — главное отличие от русского/казахского",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Одно существительное или много — одинаково:",
+          "example": "\"a cold day\" (один) → \"three cold days\" (три) · \"a warm coat\" → \"two warm coats\" — cold и warm не меняются!"
+        },
+        {
+          "form": "Мужской, женский, средний род — одинаково:",
+          "example": "\"He is cold.\" · \"She is cold.\" · \"It is cold.\" — cold для всех! (в отличие от рус.: холодный/холодная/холодное)"
+        },
+        {
+          "form": "⚠️ Типичная ошибка казахстанских студентов:",
+          "example": "❌ \"three warms coats\" (добавляют -s к прилагательному) → ✅ \"three warm coats\" — только существительное получает -s!"
+        },
+        {
+          "form": "Подлежащее не влияет на прилагательное:",
+          "example": "\"Aizat is tired.\" · \"Timur is tired.\" · \"We are tired.\" · \"The students are tired.\" — tired всегда одинаковый."
+        },
+        {
+          "form": "Казахский vs Английский:",
+          "example": "KZ: \"суық күн\" (один) → \"суық күндер\" (много, күн→күндер меняется, суық остаётся). EN: \"cold day\" → \"cold days\" ✅"
+        },
+        {
+          "form": "Русский vs Английский:",
+          "example": "RU: \"тёплый шарф\" / \"тёплая куртка\" / \"тёплое пальто\" — меняется. EN: \"warm scarf\" / \"warm jacket\" / \"warm coat\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "③ Погодные прилагательные — полный набор",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Тепло/Холодно:",
+          "example": "hot (жарко) · warm (тепло) · mild (мягко) · cool (прохладно) · cold (холодно) · freezing (очень холодно!) · icy (ледяной)"
+        },
+        {
+          "form": "Осадки:",
+          "example": "rainy / wet (дождливый) · snowy (снежный) · drizzly (моросящий) · stormy (штормовой) · dry (сухой)"
+        },
+        {
+          "form": "Небо:",
+          "example": "sunny (солнечный) · cloudy (облачный) · partly cloudy (переменная облачность) · clear (ясный) · grey/overcast (серый/пасмурный) · foggy (туманный)"
+        },
+        {
+          "form": "Ветер:",
+          "example": "windy (ветреный) · breezy (с лёгким ветерком) · calm (тихий/безветренный) · gusty (порывистый) · relentless (беспощадный)"
+        },
+        {
+          "form": "Общее ощущение:",
+          "example": "pleasant (приятный) · horrible (ужасный) · harsh (суровый) · crisp (свежий/бодрящий) · humid (влажный) · dramatic (впечатляющий)"
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"The September air was MILD and warm.\" · \"October sky was GREY and HEAVY.\" · \"A BRIGHT, SHARP BLUE sky in Astana winter.\""
+        }
+      ]
+    },
+    {
+      "title": "④ Прилагательные для одежды + порядок прилагательных",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Температура/Вес:",
+          "example": "warm (тёплый) · thick (толстый) · thin (тонкий) · light (лёгкий) · heavy (тяжёлый) · thermal (термо)"
+        },
+        {
+          "form": "Функция/Качество:",
+          "example": "waterproof (водонепроницаемый) · comfortable (удобный) · practical (практичный) · stylish (стильный) · cosy (уютный) · breathable (дышащий)"
+        },
+        {
+          "form": "Посадка:",
+          "example": "loose (свободный) · tight (тесный) · fitted (приталенный) · long (длинный) · short (короткий)"
+        },
+        {
+          "form": "Материал (стоит ПОСЛЕДНИМ):",
+          "example": "woollen (шерстяной) · cotton (хлопковый) · leather (кожаный) · rubber (резиновый) · silk (шёлковый) · synthetic (синтетический)"
+        },
+        {
+          "form": "Порядок: мнение → размер → цвет → материал:",
+          "example": "\"a beautiful LONG DARK BLUE WOOLLEN scarf\" (красивый · длинный · тёмно-синий · шерстяной)"
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"a THICK ORANGE sweater\" · \"BROWN LEATHER boots\" · \"a LONG CHARCOAL-GREY WOOL coat\" · \"a COMPACT FOLDING umbrella\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три правила — и прилагательные всегда правильные:\n\n① Прилагательное ПЕРЕД существительным или ПОСЛЕ be:\n   \"a COLD day\" ✅ · \"The day IS cold.\" ✅\n   ❌ \"a day cold\" — порядок нарушен!\n\n② Прилагательное НЕ изменяется никогда:\n   \"three WARM coats\" ✅ (не \"warms coats\"!)\n   \"She IS cold.\" ✅ (не \"colded\" — нет такого слова!)\n\n③ Если несколько прилагательных — порядок важен:\n   мнение → размер → цвет → материал\n   \"a beautiful long dark woollen scarf\" ✅\n   \"a long beautiful woollen dark scarf\" ❌ (порядок нарушен)\n\n💡 Запомни из наших уроков:\n   Timur: \"a THICK orange sweater\" · \"DARK NAVY waterproof jacket\"\n   Aizat: \"the BRIGHT SHARP BLUE sky\" · \"a LONG woollen scarf\"\n   Arsen: \"BROWN LEATHER boots\" · \"a GREY knitted hat\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses the adjective correctly?",
+      "opts": [
+        "The weather cold is today.",
+        "The weather is cold today.",
+        "The cold is weather today.",
+        "Today the weather colds."
+      ],
+      "correct": "The weather is cold today.",
+      "hint": "Adjective AFTER \"be\": \"The weather IS cold.\" ✅ Subject + be + adjective is the standard predicative position. Never say \"weather colds\" — adjectives don't take verb endings!"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Fill in the correct adjective form.",
+      "text": "Timur bought three ___ (waterproof) jackets for his friends — one each.",
+      "correct": "waterproof",
+      "hint": "Adjectives DO NOT change for plural! \"three WATERPROOF jackets\" ✅ — NOT \"three waterproofs jackets\". Only the noun gets -s, never the adjective."
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She is tired\" and \"He is tired\" are both correct — the adjective stays the same for different subjects.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "TRUE! In English, adjectives NEVER change for gender or subject. \"tired\" is always \"tired\" — for she, he, it, they, we. Unlike Russian (усталый/усталая) or Kazakh."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Put the adjectives in the correct order.",
+      "text": "Which phrase has adjectives in the correct order?",
+      "opts": [
+        "a woollen long beautiful dark scarf",
+        "a beautiful long dark woollen scarf",
+        "a long beautiful woollen dark scarf",
+        "a dark beautiful woollen long scarf"
+      ],
+      "correct": "a beautiful long dark woollen scarf",
+      "hint": "Order: opinion → size → colour → material. BEAUTIFUL (opinion) → LONG (size) → DARK (colour) → WOOLLEN (material) ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the missing weather adjective.",
+      "text": "The sky was completely clear and blue — not a single cloud. The weather was ___ and pleasant.",
+      "correct": "sunny",
+      "hint": "No clouds + blue sky + pleasant = SUNNY. \"The sky was clear and the weather was SUNNY.\" ✅ A key weather adjective in this module!"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct phrase.",
+      "text": "Timur wears a ___ coat in winter — it keeps him warm even at minus fifteen.",
+      "opts": [
+        "a coat warm long",
+        "a long warm wool",
+        "a long warm wool coat",
+        "a coat long warm wool"
+      ],
+      "correct": "a long warm wool coat",
+      "hint": "Adjectives come BEFORE the noun: \"a LONG WARM WOOL coat.\" ✅ Size (long) → temperature (warm) → material (wool) → noun (coat). Never after!"
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"A cold, windy, rainy day\" is correct English — you can use multiple adjectives before a noun.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "TRUE! You can use multiple adjectives before a noun, separated by commas: \"a cold, windy, rainy day\" ✅. The noun comes at the end. All adjectives stay unchanged."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence about Aizat's scarf.",
+      "text": "Aizat describes her cream-coloured scarf. Which sentence is correct?",
+      "opts": [
+        "The scarf are warm and soft.",
+        "The scarf is warm and soft.",
+        "The warm and soft is the scarf.",
+        "The scarf warm and soft."
+      ],
+      "correct": "The scarf is warm and soft.",
+      "hint": "\"The scarf IS warm and soft.\" ✅ Adjective after be (is). Two adjectives connected by AND: \"warm AND soft.\" The verb \"is\" agrees with \"the scarf\" (singular)."
+    }
+  ],
+  "questions": []
+}

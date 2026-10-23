@@ -1,0 +1,157 @@
+{
+  "id": "l34-3",
+  "moduleNum": 18,
+  "lessonNum": 3,
+  "moduleTitle": "A1.1 Final Exam",
+  "type": "writing",
+  "title": "Writing Exam (2 tasks)",
+  "xp": 80,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    "TASK 1 — Personal Email (150 words)",
+    "Dear Aizhan,\n\nI hope you are well! I wanted to write to you about my English course at WKU, which I have been studying for nine months now.",
+    "When I started the course, I could only say \"Hello\" and \"Thank you.\" Now I can write emails like this one, hold conversations, and even understand English films without too much difficulty. I have learned grammar structures that I use every day — like conditionals (\"If I study hard, I will improve\"), passive voice (\"The exam was written last week\"), and relative clauses (\"She is a teacher who truly inspires me\").",
+    "The course has been challenging, but I never gave up. If you are thinking about studying English, I strongly recommend it. It is a language that opens doors to the whole world.\n\nWrite back when you can!\n\nBest wishes,\nKamila",
+    "— — —",
+    "TASK 2 — Film or Book Review (120 words)",
+    "'October Sky' is an inspiring film that is based on a true story. It tells the story of Homer Hickam, a teenager who grows up in a coal-mining town and dreams of becoming a rocket scientist.",
+    "The film, which was directed by Joe Johnston, is set in 1957. What I love most about it is the theme of believing in yourself even when others doubt you. Homer is a character who never gives up, no matter how many obstacles he faces.",
+    "The performances are outstanding, the soundtrack is emotional, and the ending left me feeling hopeful. I highly recommend this film to anyone who has ever had a dream that seemed impossible."
+  ],
+  "writingTemplate": [
+    {
+      "key": "task1_greeting",
+      "prefix": "Dear ",
+      "suffix": ",",
+      "placeholder": "friend's name",
+      "hint": "Start with Dear [name],"
+    },
+    {
+      "key": "task1_intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Opening line — I hope you are well! / I am writing to tell you about…",
+      "hint": "Begin warmly."
+    },
+    {
+      "key": "task1_before",
+      "prefix": "When I started, I could only ",
+      "suffix": ".",
+      "placeholder": "describe your starting level",
+      "hint": "E.g. \"say a few words\" / \"write simple sentences\""
+    },
+    {
+      "key": "task1_now",
+      "prefix": "Now I can ",
+      "suffix": ".",
+      "placeholder": "describe your current ability",
+      "hint": "E.g. \"write emails\", \"hold conversations\", \"understand films\""
+    },
+    {
+      "key": "task1_grammar",
+      "prefix": "I have learned grammar like ",
+      "suffix": ".",
+      "placeholder": "name 2–3 grammar structures with a short example",
+      "hint": "\"conditionals (If I study, I will improve) and relative clauses (a teacher who inspires me)\""
+    },
+    {
+      "key": "task1_closing",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Closing sentence + sign-off",
+      "hint": "\"Write back when you can! Best wishes, [name]\""
+    },
+    {
+      "key": "task2_intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Task 2: Title + what type of film/book + what it is about",
+      "hint": "\"X is an inspiring film that tells the story of…\""
+    },
+    {
+      "key": "task2_detail",
+      "prefix": "The film/book, which was ",
+      "suffix": ", is set in ___.",
+      "placeholder": "directed / written by [name]",
+      "hint": "Use a non-defining relative clause with commas."
+    },
+    {
+      "key": "task2_opinion",
+      "prefix": "What I love most is ",
+      "suffix": ".",
+      "placeholder": "your favourite thing about it",
+      "hint": "E.g. \"the theme of never giving up\" / \"the way the characters develop\""
+    },
+    {
+      "key": "task2_recommend",
+      "prefix": "I highly recommend this to anyone who ",
+      "suffix": ".",
+      "placeholder": "describe your ideal reader/viewer",
+      "hint": "E.g. \"has ever had a dream\" / \"loves true stories\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Email opening & closing",
+      "color": "#003876",
+      "items": [
+        "I hope you are well!",
+        "I wanted to write to you about…",
+        "I strongly recommend it.",
+        "Write back when you can!",
+        "Best wishes, / Kind regards,"
+      ]
+    },
+    {
+      "category": "Describing progress",
+      "color": "#1D9E75",
+      "items": [
+        "I have been studying for…",
+        "When I started, I could only…",
+        "Now I can… / I am now able to…",
+        "I have learned… / I have improved my…",
+        "It has been challenging, but…"
+      ]
+    },
+    {
+      "category": "Film/book review language",
+      "color": "#1B8FC4",
+      "items": [
+        "It is an inspiring / thrilling / emotional film.",
+        "It tells the story of…",
+        "It is based on a true story.",
+        "The film/book, which was directed/written by…",
+        "What I love most is…",
+        "I highly recommend this to anyone who…"
+      ]
+    },
+    {
+      "category": "Grammar in your writing",
+      "color": "#C9933B",
+      "items": [
+        "If I study hard, I will…  (1st conditional)",
+        "It is a film that… / She is a person who… (relative clause)",
+        "The exam was written by… (passive voice)",
+        "I have been learning since… (present perfect continuous)",
+        "She is someone who never gives up. (relative clause)"
+      ]
+    }
+  ],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

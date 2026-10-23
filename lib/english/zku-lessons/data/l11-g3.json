@@ -1,0 +1,409 @@
+{
+  "id": "l11-g3",
+  "moduleNum": 11,
+  "lessonNum": 5,
+  "moduleTitle": "Last weekend",
+  "title": "Past Simple: irregular verbs",
+  "type": "grammar",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Неправильные глаголы — 40 самых важных глаголов Past Simple",
+  "grammarNote": "В английском языке большинство глаголов образуют прошедшее время добавлением -ed (работа, которую мы изучили в M11-3 и M11-g2). Но около 200 самых ЧАСТЫХ глаголов в английском — неправильные: у них особая форма прошедшего времени, которую нужно запомнить.\n\nПОЧЕМУ ЭТО ВАЖНО?\nВот случайное предложение на English из любого журнала или фильма:\n\"Yesterday she WENT to the market, BOUGHT some fruit, CAME home, MADE dinner, and SAW a film.\"\nЕсли ты не знаешь went/bought/came/made/saw — ты не поймёшь НИЧЕГО из этого предложения!\n\nХОРОШАЯ НОВОСТЬ:\nЭти глаголы имеют ПАТТЕРНЫ — группы с похожим изменением. Если выучить паттерн, легче запомнить сразу несколько глаголов!\n\n📌 ГЛАВНОЕ ПРАВИЛО:\nФорма прошедшего времени одинакова для ВСЕХ лиц — как и у правильных глаголов:\n\"I WENT · She WENT · We WENT · They WENT\" — всегда went!\n\nВ отрицаниях и вопросах — БАЗОВАЯ ФОРМА (не паст!):\n\"She DIDN'T go.\" (не \"didn't went\"!)\n\"Did you GO to the market?\" (не \"did you went\"!)\n\n🔵 ГРУППА 1 — Глагол не меняется (base = past):\ncut → cut · put → put · hit → hit · let → let · set → set · shut → shut\n\"I cut my finger yesterday.\" · \"She put the book on the table.\"\n\n🟢 ГРУППА 2 — Меняется только гласная (vowel change):\ncome → came · become → became · give → gave · take → took · make → made\neat → ate · drink → drank · run → ran · sit → sat · swim → swam\nbegin → began · win → won · sing → sang · stand → stood\n\n🟡 ГРУППА 3 — Окончание меняется на -ght:\nbring → brought · buy → bought · catch → caught\nteach → taught · think → thought · fight → fought\n\n🔴 ГРУППА 4 — Смешанные часто используемые:\ngo → WENT · have → HAD · do → DID · say → SAID\nsee → SAW · get → GOT · know → KNEW · find → FOUND\ntell → TOLD · hear → HEARD · meet → MET · lose → LOST\npay → PAID · sell → SOLD · hold → HELD · feel → FELT\nkeep → KEPT · leave → LEFT · sleep → SLEPT · spend → SPENT\nbuild → BUILT · send → SENT · mean → MEANT\nwrite → WROTE · drive → DROVE · speak → SPOKE\nbreak → BROKE · wake → WOKE · forget → FORGOT\nfall → FELL · grow → GREW · fly → FLEW · throw → THREW\nread → READ (пишется так же, но произносится /red/!)",
+  "grammarTable": [
+    {
+      "subject": "Группа 1: без изменений",
+      "verb": "cut/put/hit/let/set/shut",
+      "short": "base = past",
+      "example": "\"I cut my finger.\" · \"She put her bag down.\" · \"He hit the ball.\" · \"Let me help.\" · \"She shut the window.\""
+    },
+    {
+      "subject": "Группа 2: гласная меняется",
+      "verb": "come/give/take/make/eat/drink",
+      "short": "vowel change",
+      "example": "come→came · give→gave · take→took · make→made · eat→ate · drink→drank · run→ran · sit→sat · stand→stood"
+    },
+    {
+      "subject": "Группа 3: -ght окончание",
+      "verb": "bring/buy/catch/teach/think",
+      "short": "-ght pattern",
+      "example": "bring→brought · buy→bought · catch→caught · teach→taught · think→thought · fight→fought"
+    },
+    {
+      "subject": "Топ-10 самых частых",
+      "verb": "go/have/do/say/see/get/make/take/come/know",
+      "short": "must know!",
+      "example": "went · had · did · said · saw · got · made · took · came · knew — 10 глаголов для 80% текстов!"
+    },
+    {
+      "subject": "Группа: tell/find/hear/meet",
+      "verb": "told/found/heard/met",
+      "short": "common verbs",
+      "example": "\"She told me the news.\" · \"I found my keys.\" · \"We heard music.\" · \"They met at the café.\""
+    },
+    {
+      "subject": "Группа: lose/pay/sell/hold",
+      "verb": "lost/paid/sold/held",
+      "short": "money & hands",
+      "example": "\"I lost my wallet.\" · \"She paid by card.\" · \"He sold his bike.\" · \"She held the door open.\""
+    },
+    {
+      "subject": "Группа: feel/keep/leave/sleep",
+      "verb": "felt/kept/left/slept",
+      "short": "-ept/-elt",
+      "example": "\"I felt tired.\" · \"She kept the money.\" · \"He left at noon.\" · \"I slept for 8 hours.\""
+    },
+    {
+      "subject": "⚠️ Отрицание и вопрос",
+      "verb": "didn't + BASE / Did + BASE?",
+      "short": "base form only!",
+      "example": "❌ \"She didn't went.\" → ✅ \"She DIDN'T GO.\" · ❌ \"Did you went?\" → ✅ \"Did you GO?\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Топ-15 самых важных — знать наизусть!",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "go → WENT",
+          "example": "\"Yesterday I WENT to the market.\" · \"We WENT to the park on Saturday.\" · \"She WENT home early.\""
+        },
+        {
+          "form": "have → HAD",
+          "example": "\"I HAD a great time.\" · \"She HAD breakfast at 7:30.\" · \"They HAD an exam on Friday.\""
+        },
+        {
+          "form": "do → DID",
+          "example": "\"I DID my homework.\" · \"What DID you do?\" · \"She DID a great job.\" · \"He DID the dishes.\""
+        },
+        {
+          "form": "say → SAID",
+          "example": "\"She SAID hello.\" · \"He SAID he was tired.\" · \"What DID she say?\" · \"I SAID goodbye.\""
+        },
+        {
+          "form": "see → SAW",
+          "example": "\"I SAW a film last night.\" · \"We SAW Madina at the market.\" · \"Did you SEE that?\" ← base!"
+        },
+        {
+          "form": "get → GOT",
+          "example": "\"She GOT a new phone.\" · \"I GOT up at 7.\" · \"We GOT lost in the old city.\""
+        },
+        {
+          "form": "come → CAME",
+          "example": "\"She CAME home late.\" · \"He CAME to the party.\" · \"When DID you come?\" ← base!"
+        },
+        {
+          "form": "make → MADE",
+          "example": "\"Yerlan MADE rice with chicken.\" · \"I MADE a mistake.\" · \"She MADE tea for everyone.\""
+        },
+        {
+          "form": "take → TOOK",
+          "example": "\"We TOOK a cable car up.\" · \"I TOOK a photo.\" · \"She TOOK her coat.\" · \"He TOOK the test.\""
+        },
+        {
+          "form": "know → KNEW",
+          "example": "\"I KNEW the answer.\" · \"She KNEW Damir from school.\" · \"We KNEW it was going to rain.\""
+        },
+        {
+          "form": "give → GAVE",
+          "example": "\"He GAVE me directions.\" · \"She GAVE a great lecture.\" · \"They GAVE us free walnuts!\""
+        },
+        {
+          "form": "find → FOUND",
+          "example": "\"I FOUND my keys.\" · \"Damir FOUND the mausoleum at last.\" · \"We FOUND a great café.\""
+        },
+        {
+          "form": "think → THOUGHT",
+          "example": "\"I THOUGHT it was Tuesday.\" · \"She THOUGHT the exam was easy.\" · \"We THOUGHT about it.\""
+        },
+        {
+          "form": "tell → TOLD",
+          "example": "\"She TOLD me the price.\" · \"He TOLD us to cross the bridge.\" · \"I TOLD you!\""
+        },
+        {
+          "form": "buy → BOUGHT",
+          "example": "\"Nursultan BOUGHT a book for 1,800 tenge.\" · \"I BOUGHT apples at the market.\" · \"She BOUGHT a coat.\""
+        }
+      ]
+    },
+    {
+      "title": "② Группы по паттерну: гласная меняется",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "eat → ATE",
+          "example": "\"We ATE beshbarmak at lunch.\" · \"She ATE breakfast at 8.\" · \"Did you EAT? ← base!\""
+        },
+        {
+          "form": "drink → DRANK",
+          "example": "\"He DRANK three cups of tea.\" · \"We DRANK compote.\" · \"I DRANK water all day.\""
+        },
+        {
+          "form": "run → RAN",
+          "example": "\"I RAN to the bus stop.\" · \"She RAN past the library.\" · \"He RAN every morning.\""
+        },
+        {
+          "form": "sit → SAT",
+          "example": "\"We SAT on a bench in the park.\" · \"She SAT next to me.\" · \"He SAT for two hours.\""
+        },
+        {
+          "form": "swim → SWAM",
+          "example": "\"She SWAM across the river.\" · \"We SWAM in the Caspian Sea.\" · \"I SWAM every morning.\""
+        },
+        {
+          "form": "win → WON",
+          "example": "\"My team WON the debate!\" · \"She WON first place.\" · \"Did they WIN? ← base!\""
+        },
+        {
+          "form": "sing → SANG",
+          "example": "\"Aibek SANG at the Music Club.\" · \"We SANG together.\" · \"She SANG beautifully.\""
+        },
+        {
+          "form": "begin → BEGAN",
+          "example": "\"The lecture BEGAN at 9.\" · \"It all BEGAN when I arrived in Uralsk.\" · \"Rain BEGAN to fall.\""
+        },
+        {
+          "form": "stand → STOOD",
+          "example": "\"We STOOD in front of the cathedral.\" · \"She STOOD at the gate.\" · \"I STOOD for an hour.\""
+        },
+        {
+          "form": "write → WROTE",
+          "example": "\"Kairat WROTE a letter to his friend.\" · \"She WROTE her essay.\" · \"I WROTE my plans.\""
+        },
+        {
+          "form": "speak → SPOKE",
+          "example": "\"She SPOKE fluently.\" · \"He SPOKE to the advisor.\" · \"I SPOKE English for the first time.\""
+        },
+        {
+          "form": "break → BROKE",
+          "example": "\"My alarm BROKE.\" (Ainur's story!) · \"She BROKE a cup.\" · \"The ice BROKE.\""
+        },
+        {
+          "form": "wake → WOKE",
+          "example": "\"I WOKE up at 7:30.\" · \"She WOKE early.\" · \"He WOKE to the sound of rain.\""
+        },
+        {
+          "form": "grow → GREW",
+          "example": "\"She GREW up in Taraz.\" · \"The company GREW fast.\" · \"He GREW vegetables.\""
+        },
+        {
+          "form": "fly → FLEW",
+          "example": "\"She FLEW to Almaty.\" · \"The plane FLEW over the mountains.\" · \"Time FLEW by.\""
+        }
+      ]
+    },
+    {
+      "title": "③ Группа -ght и смешанные",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "bring → BROUGHT",
+          "example": "\"She BROUGHT tea for everyone.\" · \"He BROUGHT his guitar.\" · \"What did she BRING? ← base!\""
+        },
+        {
+          "form": "catch → CAUGHT",
+          "example": "\"He CAUGHT the bus.\" · \"I CAUGHT a cold.\" · \"She CAUGHT him cheating.\""
+        },
+        {
+          "form": "teach → TAUGHT",
+          "example": "\"My grandmother TAUGHT me the recipe.\" · \"She TAUGHT Economics.\" · \"He TAUGHT himself Python.\""
+        },
+        {
+          "form": "fight → FOUGHT",
+          "example": "\"They FOUGHT for their ideas.\" · \"She FOUGHT hard to stay.\" · \"We FOUGHT to finish.\""
+        },
+        {
+          "form": "hear → HEARD",
+          "example": "\"I HEARD music from the next room.\" · \"She HEARD the news.\" · \"Did you HEAR that? ← base!\""
+        },
+        {
+          "form": "meet → MET",
+          "example": "\"We MET at the airport.\" · \"I MET Damir in Taraz.\" · \"When DID you meet? ← base!\""
+        },
+        {
+          "form": "feel → FELT",
+          "example": "\"I FELT tired but happy.\" · \"She FELT relieved.\" · \"He FELT the cold wind.\""
+        },
+        {
+          "form": "keep → KEPT",
+          "example": "\"I KEPT my promise.\" · \"She KEPT the change.\" · \"He KEPT studying.\""
+        },
+        {
+          "form": "leave → LEFT",
+          "example": "\"I LEFT my room at 8.\" · \"She LEFT Uralsk after graduation.\" · \"He LEFT his jacket.\""
+        },
+        {
+          "form": "sleep → SLEPT",
+          "example": "\"I SLEPT for twelve hours after exams.\" · \"She SLEPT badly.\" · \"They SLEPT early.\""
+        },
+        {
+          "form": "spend → SPENT",
+          "example": "\"Nursultan SPENT 11,450 tenge.\" · \"We SPENT two hours in the park.\" · \"I SPENT time with family.\""
+        },
+        {
+          "form": "lose → LOST",
+          "example": "\"Damir GOT lost in Taraz.\" · \"I LOST my phone.\" · \"She LOST the competition.\""
+        },
+        {
+          "form": "pay → PAID",
+          "example": "\"I PAID by card.\" · \"Tolegen PAID 230 tenge commission.\" · \"She PAID for everyone.\""
+        },
+        {
+          "form": "hold → HELD",
+          "example": "\"She HELD the door.\" · \"He HELD the camera.\" · \"We HELD a meeting.\""
+        },
+        {
+          "form": "read → READ",
+          "example": "Пишется READ, но произносится /red/! \"I READ the article this morning.\" · \"She READ it aloud.\""
+        }
+      ]
+    },
+    {
+      "title": "④ Отрицание и вопросы — БАЗА после didn't и did",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Отрицание: didn't + БАЗОВАЯ форма!",
+          "example": "❌ \"She didn't went.\" → ✅ \"She DIDN'T GO.\" · ❌ \"I didn't made.\" → ✅ \"I DIDN'T MAKE.\" · ❌ \"He didn't bought.\" → ✅ \"He DIDN'T BUY.\""
+        },
+        {
+          "form": "Вопрос: Did + БАЗОВАЯ форма!",
+          "example": "❌ \"Did you went?\" → ✅ \"Did you GO?\" · ❌ \"Did she saw?\" → ✅ \"Did she SEE?\" · ❌ \"Did he made?\" → ✅ \"Did he MAKE?\""
+        },
+        {
+          "form": "Правило ОДНО для всех неправильных:",
+          "example": "В УТВЕРЖДЕНИИ: неправильная форма (went/saw/made). В ОТРИЦАНИИ и ВОПРОСЕ: БАЗОВАЯ форма (go/see/make) — неправильный паст здесь не нужен!"
+        },
+        {
+          "form": "Почему? Потому что did уже показывает прошедшее:",
+          "example": "\"She WENT home.\" → паст форма нужна. \"She DIDN'T GO home.\" → DID уже показывает прошедшее, поэтому GO (база)."
+        },
+        {
+          "form": "Примеры из наших уроков:",
+          "example": "\"She DIDN'T GO to Almaty.\" · \"He DIDN'T BUY the expensive book.\" · \"Did she FIND the mausoleum?\""
+        },
+        {
+          "form": "⚠️ Самые частые ошибки студентов:",
+          "example": "❌ \"Did you WENT to the park?\" → ✅ \"Did you GO?\" · ❌ \"He didn't SAW the film.\" → ✅ \"He didn't SEE the film.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Как выучить 40 неправильных глаголов — 5 шагов:\n\n① Выучи топ-10 СНАЧАЛА (они в 80% текстов):\n   go→WENT · have→HAD · do→DID · say→SAID · see→SAW\n   get→GOT · come→CAME · make→MADE · take→TOOK · know→KNEW\n\n② Запомни паттерны группами:\n   buy→BOUGHT · bring→BROUGHT · catch→CAUGHT → все на -ght\n   feel→FELT · keep→KEPT · leave→LEFT · sleep→SLEPT → -ept/-elt\n   eat→ATE · drink→DRANK · run→RAN · sit→SAT → гласная меняется\n\n③ Главное правило НЕ путать:\n   УТВЕРЖДЕНИЕ: \"She WENT.\" ← паст форма\n   ОТРИЦАНИЕ: \"She DIDN'T GO.\" ← база!\n   ВОПРОС: \"Did she GO?\" ← база!\n\n④ Практика через наши уроки — ты уже видел эти глаголы:\n   \"Samal BOUGHT apples.\" · \"Marat TOLD Zara to cross the bridge.\"\n   \"Nursultan SPENT 11,450 tenge.\" · \"Damir FOUND the mausoleum.\"\n   \"Aliya GAVE directions.\" · \"Kairat WROTE a letter.\"\n\n⑤ Запомни через истории, не через список:\n   \"Yerlan MADE rice → gave it to friends → they ATE it → DRANK tea → SANG songs → WENT to sleep.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple form.",
+      "text": "Yesterday Samal ___ to the market and ___ some apples and dried apricots.",
+      "opts": [
+        "goed / buyed",
+        "went / bought",
+        "gone / boughted",
+        "goes / buys"
+      ],
+      "correct": "went / bought",
+      "hint": "go → WENT (irregular!) · buy → BOUGHT (-ght pattern). ✅ \"She WENT to the market and BOUGHT apples.\" These are two of the top-15 most important irregular verbs."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "Last Saturday, Timur's grandmother ___ (teach) him her special beshbarmak recipe.",
+      "correct": "taught",
+      "hint": "teach → TAUGHT (-ght pattern: teach/caught/brought/thought). ✅ \"She TAUGHT him the recipe.\" NOT \"teached\"! Part of the -ght group."
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She didn't went to the library\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "FALSE! After DIDN'T, always use the BASE form — not the past! ✅ \"She DIDN'T GO to the library.\" — not \"didn't went\"! DID already shows past tense, so the verb goes back to base."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Nursultan ___ a book at the bookshop and ___ by card.",
+      "opts": [
+        "finded / payed",
+        "found / paid",
+        "find / pay",
+        "founded / paided"
+      ],
+      "correct": "found / paid",
+      "hint": "find → FOUND (vowel change: i→ou) · pay → PAID (ay→aid). ✅ \"He FOUND a book and PAID by card.\" Both irregular — found and paid are from the essential group."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "Aizat ___ (feel) surprised when she arrived in Uralsk — the weather was much warmer than Astana!",
+      "correct": "felt",
+      "hint": "feel → FELT (-elt pattern: feel/felt · keep/kept · leave/left · sleep/slept). ✅ \"She FELT surprised.\" NOT \"feeled\"! Part of the -elt group."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "You want to ask Kairat what he did at the weekend. Which is correct?",
+      "opts": [
+        "What did you went?",
+        "What you did do?",
+        "What did you do?",
+        "What done you do?"
+      ],
+      "correct": "What did you do?",
+      "hint": "\"What DID you DO?\" ✅ — DID (auxiliary, shows past) + subject (you) + BASE form (do). ❌ \"did you WENT\" — after did, always BASE form, never past! do → base form is \"do\"."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "Madina ___ (take) a cable car up to Shymbulak and ___ (see) the whole city from above.",
+      "correct": "took",
+      "hint": "take → TOOK (vowel change: a→oo). ✅ \"She TOOK a cable car.\" · see → SAW (one of top-10: see→saw). \"She SAW the city.\" Both essential irregular verbs from Module 12."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Damir visited Taraz last spring. Choose the correct version:",
+      "opts": [
+        "He leaved Semey in the morning and goed to Taraz.",
+        "He left Semey in the morning and went to Taraz.",
+        "He left Semey in the morning and goed to Taraz.",
+        "He leaved Semey in the morning and went to Taraz."
+      ],
+      "correct": "He left Semey in the morning and went to Taraz.",
+      "hint": "leave → LEFT (not \"leaved\"! -ept/-elt group) · go → WENT (not \"goed\"! top-10 essential). ✅ \"He LEFT Semey and WENT to Taraz.\" Both are classic irregular mistakes."
+    }
+  ],
+  "questions": []
+}

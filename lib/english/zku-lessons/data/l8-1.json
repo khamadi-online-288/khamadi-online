@@ -1,0 +1,293 @@
+{
+  "id": "l8-1",
+  "moduleNum": 8,
+  "lessonNum": 1,
+  "moduleTitle": "My home",
+  "title": "My apartment in Uralsk",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Kamila Dzhaksybekova. I am 18 years old and I am from Kokshetau. I study Economics at WKU. Unlike most of my classmates, I do not live in the student dormitory. I rent a small apartment near the university with my friend Zara from our group. Our apartment is on the third floor of a quiet residential building, just a ten-minute walk from the WKU campus. It is not big, but it is our home — and we love it!",
+    "There is a small hallway when you first enter the apartment. In the hallway, there is a large mirror on the wall and there are two coat hooks for our jackets and bags. There is also a shoe rack near the door. The hallway leads to three rooms: the living room, the bedroom, and the kitchen. There is one bathroom at the end of the short corridor.",
+    "The living room is the biggest room in our apartment. There is a comfortable blue sofa against the wall — big enough for two people to sit and watch films together. There is a small wooden coffee table in front of the sofa. On the wall, there is a flat-screen television. There are two bookshelves near the window — one is Kamila's with Economics textbooks, and the other is Zara's with novels and poetry books. There is a large window with white curtains that lets in beautiful morning light.",
+    "The kitchen is small but very practical. There is a round table in the centre with four chairs around it. This is where Zara and I have breakfast and dinner together every day. There is a fridge in the corner — it is always full of vegetables, fruit, and yoghurt. There is a microwave above the counter and a small electric kettle for making tea. There is also a washing machine under the counter, which is very convenient for students.",
+    "Zara and I share one bedroom. There are two single beds on opposite sides of the room. There is a large wardrobe between the beds where we keep our clothes. There is a study desk near the window for Zara, and there is a small desk in the corner for me. There is a reading lamp on each desk. There are two small bedside tables next to the beds — mine has a book and a phone charger on it, and Zara's has a small cactus plant!",
+    "The bathroom is very small — there is only room for a sink, a shower, and a small shelf. There is a mirror above the sink and there are some toiletries on the shelf: shampoo, soap, and toothbrushes. There is no bathtub — only a shower. But the water is always hot, which is the most important thing! There are some hooks on the door for our towels.",
+    "My favourite feature of the apartment is the balcony. There is a small balcony off the living room with a view of the quiet street below and the trees in the courtyard. There are four potted plants on the balcony — Zara brought them from home and she waters them every morning. In the summer, we sometimes drink tea on the balcony in the evenings and talk about our day.",
+    "Our apartment costs 80,000 tenge per month — we each pay 40,000. This is more expensive than the dormitory, but we have more freedom and more space. There are no noisy neighbours in our building and there is a small park just around the corner. I feel very lucky to have such a nice apartment with such a good friend. As my mother says: \"A good home makes a good student!\" I completely agree."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zara",
+      "text": "Kamila! Your cousin is here — she wants to see our apartment!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Great! Come in! There is a coat hook here for your jacket.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Wow — it's bigger than I imagined! Is there a living room?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes! There is a sofa, a TV, and look — there are two bookshelves!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "And there is a big window! Is there a nice view?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Just the courtyard — but there are some beautiful trees. Very peaceful.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "What about the kitchen? Is there a dishwasher?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Ha! No, there isn't a dishwasher. But there is a washing machine!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "That's great! Are there two beds in the bedroom?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, there are two beds and a big wardrobe. And there is a desk for each of us.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Is there a balcony? I saw a window outside that looked like one.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes! There are plants on it and a lovely view. Let's have tea there!",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "There is a...",
+      "ru": "Есть (один/одна)...",
+      "context": "There is a sofa in the living room."
+    },
+    {
+      "phrase": "There are...",
+      "ru": "Есть (несколько)...",
+      "context": "There are two bookshelves near the window."
+    },
+    {
+      "phrase": "There isn't a...",
+      "ru": "Нет никакого...",
+      "context": "There isn't a dishwasher in the kitchen."
+    },
+    {
+      "phrase": "There aren't any...",
+      "ru": "Нет никаких...",
+      "context": "There aren't any noisy neighbours."
+    },
+    {
+      "phrase": "Is there a...?",
+      "ru": "Есть ли...?",
+      "context": "Is there a balcony? — Yes, there is!"
+    },
+    {
+      "phrase": "Are there any...?",
+      "ru": "Есть ли какие-нибудь...?",
+      "context": "Are there two beds in the bedroom?"
+    },
+    {
+      "phrase": "on the third floor",
+      "ru": "на третьем этаже",
+      "context": "Our apartment is on the third floor."
+    },
+    {
+      "phrase": "near the university",
+      "ru": "рядом с университетом",
+      "context": "We rent an apartment near WKU."
+    },
+    {
+      "phrase": "It leads to...",
+      "ru": "Это ведёт в...",
+      "context": "The hallway leads to three rooms."
+    },
+    {
+      "phrase": "A good home makes...",
+      "ru": "Хороший дом делает...",
+      "context": "\"A good home makes a good student!\""
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "rent",
+      "emoji": "🏠",
+      "opts": [
+        "покупать",
+        "снимать жильё",
+        "строить",
+        "продавать"
+      ],
+      "correct": "снимать жильё"
+    },
+    {
+      "id": "p2",
+      "word": "hallway",
+      "emoji": "🚪",
+      "opts": [
+        "кухня",
+        "балкон",
+        "прихожая / коридор",
+        "гостиная"
+      ],
+      "correct": "прихожая / коридор"
+    },
+    {
+      "id": "p3",
+      "word": "curtains",
+      "emoji": "🪟",
+      "opts": [
+        "жалюзи",
+        "шторы",
+        "окно",
+        "стекло"
+      ],
+      "correct": "шторы"
+    },
+    {
+      "id": "p4",
+      "word": "appliance",
+      "emoji": "🔌",
+      "opts": [
+        "мебель",
+        "украшение",
+        "бытовой прибор",
+        "инструмент"
+      ],
+      "correct": "бытовой прибор"
+    },
+    {
+      "id": "p5",
+      "word": "courtyard",
+      "emoji": "🌳",
+      "opts": [
+        "улица",
+        "парк",
+        "двор",
+        "сад"
+      ],
+      "correct": "двор"
+    },
+    {
+      "id": "p6",
+      "word": "convenient",
+      "emoji": "👍",
+      "opts": [
+        "дорогой",
+        "неудобный",
+        "красивый",
+        "удобный / практичный"
+      ],
+      "correct": "удобный / практичный"
+    }
+  ],
+  "task1Bank": [
+    "Kokshetau",
+    "third",
+    "four",
+    "balcony",
+    "40,000",
+    "cactus"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila is from ___, Kazakhstan.",
+      "correct": "Kokshetau"
+    },
+    {
+      "id": "t2",
+      "question": "Their apartment is on the ___ floor of the building.",
+      "correct": "third"
+    },
+    {
+      "id": "t3",
+      "question": "There are ___ chairs around the kitchen table.",
+      "correct": "four"
+    },
+    {
+      "id": "t4",
+      "question": "Kamila's favourite feature of the apartment is the ___.",
+      "correct": "balcony"
+    },
+    {
+      "id": "t5",
+      "question": "Each girl pays ___ tenge per month for the apartment.",
+      "correct": "40,000"
+    },
+    {
+      "id": "t6",
+      "question": "Zara has a small ___ plant on her bedside table.",
+      "correct": "cactus"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Kamila lives in the WKU student dormitory.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "There are two bookshelves in the living room.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "There is a bathtub in the bathroom.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "There is a washing machine in the kitchen.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "There are four potted plants on the balcony.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "The apartment is fifteen minutes' walk from WKU campus.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

@@ -1,0 +1,293 @@
+{
+  "id": "l11-3",
+  "moduleNum": 11,
+  "lessonNum": 3,
+  "moduleTitle": "Last weekend",
+  "title": "Past Simple: regular verbs (-ed)",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Simple — прошедшее время (правильные глаголы)",
+  "grammarNote": "Past Simple (Прошедшее простое время) — мы используем его для описания ЗАКОНЧЕННЫХ действий в прошлом. Это действие началось и закончилось в прошлом.\n\nВ казахском языке ему соответствует глагол с окончанием -ды/-ді/-ты/-ті (жасады, барды). В русском — прошедшее время (сделала, пошла, позвонила).\n\n📐 Формула для утверждений:\n[Подлежащее] + [глагол + -ed]\n\nПримеры из рассказа Aruzhan:\n\"I CLEANED my room on Saturday.\" → Я убрала комнату в субботу.\n\"Yerlan COOKED rice with chicken.\" → Ерлан приготовил рис с курицей.\n\"We WALKED to the city park.\" → Мы прошли до городского парка.\n\"I LISTENED to music while I cooked.\" → Я слушала музыку пока готовила.\n\"Bekzhan STAYED in his room all weekend.\" → Бекжан остался в комнате на всё выходные.\n\n⭐ ГЛАВНОЕ ПРАВИЛО Past Simple:\nГлагол одинаков для ВСЕХ лиц! Нет -s для he/she/it!\n\nСравни с Present Simple:\n✅ Present: \"She clean-S her room.\" (есть -s!)\n✅ Past:    \"She cleaned her room.\" (нет -s — только -ed!)\n\n❌ НЕ говори: \"She cleane-d-s her room.\" или \"She clean her room last week.\"\n✅ Говори: \"She cleaned her room last week.\"\n\n💡 Слова-сигналы Past Simple (подсказывают что нужно прошедшее время):\nyesterday · last weekend / Saturday / week / year · two days ago · on Saturday · in October · that morning · after breakfast · a moment ago",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "clean → cleaned",
+      "short": "verb + -ed",
+      "example": "I cleaned my room from top to bottom on Saturday morning."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "cook → cooked",
+      "short": "verb + -ed",
+      "example": "Yerlan cooked rice with chicken — a recipe from his grandmother."
+    },
+    {
+      "subject": "You",
+      "verb": "walk → walked",
+      "short": "verb + -ed",
+      "example": "You walked to the city park and stayed there for two hours."
+    },
+    {
+      "subject": "We",
+      "verb": "watch → watched",
+      "short": "verb + -ed",
+      "example": "We watched a funny Kazakh comedy film on Yerlan's laptop."
+    },
+    {
+      "subject": "They",
+      "verb": "study → studied",
+      "short": "verb + -ied",
+      "example": "They studied all weekend — Bekzhan never left his room."
+    },
+    {
+      "subject": "⚠️ НЕТ -s в прошедшем!",
+      "verb": "—",
+      "short": "одна форма для всех",
+      "example": "I cleaned · She cleaned · He cleaned · We cleaned · They cleaned ✅"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Утверждение: подлежащее + глагол + -ed",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "I + verb-ed",
+          "example": "\"I called my mother on Saturday morning.\" · \"I listened to music.\" · \"I finished the essay section.\""
+        },
+        {
+          "form": "He / She + verb-ed",
+          "example": "\"Yerlan cooked dinner.\" · \"Saule bought ice cream.\" · \"Aruzhan painted a watercolour picture.\""
+        },
+        {
+          "form": "We / They + verb-ed",
+          "example": "\"We walked to the park.\" · \"We stayed for two hours.\" · \"We watched a film together.\""
+        },
+        {
+          "form": "Одна форма для ВСЕХ лиц:",
+          "example": "\"I cleaned.\" = \"She cleaned.\" = \"They cleaned.\" → нет разницы в окончании! ✅"
+        },
+        {
+          "form": "⚠️ НЕ добавляй -s в прошедшем!",
+          "example": "❌ \"She cooks yesterday.\" → ✅ \"She cooked yesterday.\" · ❌ \"He walks to the park last week.\" → ✅ \"He walked.\""
+        },
+        {
+          "form": "Порядок слов: Sub + V-ed + [место] + [время]",
+          "example": "\"Aruzhan [cleaned her room] [on Saturday morning].\" · \"[On Saturday,] Yerlan [cooked rice].\""
+        }
+      ]
+    },
+    {
+      "title": "② Слова-сигналы прошедшего времени",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "yesterday (вчера)",
+          "example": "\"Yesterday I cleaned my room and cooked breakfast.\" — сигнал Past Simple!"
+        },
+        {
+          "form": "last + [weekend / week / Saturday]",
+          "example": "\"Last weekend we walked to the park.\" · \"Last Saturday Yerlan cooked rice.\""
+        },
+        {
+          "form": "ago (назад)",
+          "example": "\"Two days ago I finished the essay.\" · \"A month ago I arrived in Uralsk.\""
+        },
+        {
+          "form": "on + [day of the week]",
+          "example": "\"On Saturday we visited the park.\" · \"On Sunday I helped Meruert with Chemistry.\""
+        },
+        {
+          "form": "in + [year / month]",
+          "example": "\"In October I started at WKU.\" · \"In 2023 I graduated from school.\""
+        },
+        {
+          "form": "that + [morning / day / evening]",
+          "example": "\"That morning I woke up early.\" · \"That evening we watched a film together.\""
+        }
+      ]
+    },
+    {
+      "title": "③ Past Simple vs Present Simple — полное сравнение",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Present Simple → привычка (всегда):",
+          "example": "\"Aruzhan cleans her room every weekend.\" (каждые выходные — привычка)"
+        },
+        {
+          "form": "Past Simple → конкретный момент в прошлом:",
+          "example": "\"Aruzhan cleaned her room last Saturday.\" (в прошлую субботу — конкретно)"
+        },
+        {
+          "form": "Present: \"He cooks dinner every Friday.\"",
+          "example": "Past: \"He cooked dinner last Friday.\" → конкретный прошедший момент."
+        },
+        {
+          "form": "Present: \"She studies in the library.\"",
+          "example": "Past: \"She studied in the library all afternoon.\" → закончилось в прошлом."
+        },
+        {
+          "form": "Слова-подсказки:",
+          "example": "every day / always → Present Simple ✅ · yesterday / last week / ago → Past Simple ✅"
+        },
+        {
+          "form": "⚠️ Типичная ошибка:",
+          "example": "❌ \"Yesterday I clean my room.\" → ✅ \"Yesterday I cleaned my room.\" (-ed обязательно!)"
+        }
+      ]
+    },
+    {
+      "title": "④ Как произносится -ed? (3 варианта произношения)",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "/ɪd/ — после t и d:",
+          "example": "wanted /ˈwɒntɪd/ · visited /ˈvɪzɪtɪd/ · started /ˈstɑːtɪd/ · needed /ˈniːdɪd/ · decided /dɪˈsaɪdɪd/"
+        },
+        {
+          "form": "/t/ — после глухих согласных:",
+          "example": "walked /wɔːkt/ · cooked /kʊkt/ · watched /wɒtʃt/ · finished /ˈfɪnɪʃt/ · talked /tɔːkt/"
+        },
+        {
+          "form": "/d/ — после всех остальных:",
+          "example": "cleaned /kliːnd/ · called /kɔːld/ · listened /ˈlɪsənd/ · stayed /steɪd/ · enjoyed /ɪnˈdʒɔɪd/"
+        },
+        {
+          "form": "💡 Простое правило:",
+          "example": "Если слово заканчивается на /t/ или /d/ → слышно /ɪd/. В остальных случаях — /t/ или /d/."
+        },
+        {
+          "form": "Примеры из модуля:",
+          "example": "\"We walk-ED (/wɔːkt/) to the park.\" · \"I clean-ED (/kliːnd/) my room.\" · \"They visit-ED (/ˈvɪzɪtɪd/) the park.\""
+        },
+        {
+          "form": "⚠️ -ed не читается как отдельный слог (кроме /ɪd/):",
+          "example": "\"walked\" = 1 слог (не \"walk-ed\"!) · \"cleaned\" = 1 слог · \"visited\" = 3 слога (/ˈvɪz-ɪ-tɪd/)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три шага — и Past Simple всегда правильный:\n\n① Найди слово-сигнал прошедшего времени:\n   yesterday · last weekend · ago · on Saturday · in 2023\n   Если оно есть → ТОЧНО нужно Past Simple!\n\n② Добавь -ed к глаголу (пока без исключений):\n   clean → cleaned · cook → cooked · walk → walked\n   listen → listened · call → called · stay → stayed\n\n③ Не добавляй -s — для всех лиц одна форма!\n   I cleaned ✅ · She cleaned ✅ · They cleaned ✅\n   ❌ She cleane-d-s → ✅ She cleaned\n\n💡 Запомни через Aruzhan:\nLast weekend Aruzhan CLEANED her room, COOKED breakfast, CALLED her mother, WALKED to the park, WATCHED a film, HELPED her roommate, LISTENED to a podcast, and PAINTED a picture!\nВсе 8 глаголов — Past Simple, все с -ed, все одинаковые для любого подлежащего.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple form.",
+      "text": "Last Saturday, Aruzhan ___ her room from top to bottom.",
+      "opts": [
+        "clean",
+        "cleans",
+        "cleaned",
+        "is cleaning"
+      ],
+      "correct": "cleaned",
+      "hint": "\"Last Saturday\" = past time signal → Past Simple. clean → cleaned ✅ (just add -ed)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the Past Simple form of the verb.",
+      "text": "Yerlan ___ (cook) rice with chicken for his friends on Saturday evening.",
+      "correct": "cooked",
+      "hint": "cook → cooked (regular verb, add -ed). No -s for He/She in Past Simple!"
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She walked to the park yesterday\" and \"He walked to the park yesterday\" — both are correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "In Past Simple, the verb is the same for ALL subjects! I walked · She walked · He walked · They walked ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses Past Simple correctly?",
+      "opts": [
+        "Bekzhan stays in his room all last weekend.",
+        "Bekzhan stayed in his room all last weekend.",
+        "Bekzhan is staying in his room last weekend.",
+        "Bekzhan stay in his room last weekend."
+      ],
+      "correct": "Bekzhan stayed in his room all last weekend.",
+      "hint": "\"last weekend\" → Past Simple needed. stay → stayed ✅. Others use wrong tense forms."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "We ___ (walk) to the city park — it ___ (take) about twenty-five minutes on foot.",
+      "correct": "walked",
+      "hint": "walk → walked (regular -ed). \"last weekend/afternoon\" context → Past Simple."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which word is a signal for Past Simple?",
+      "text": "Which word tells you to use Past Simple?",
+      "opts": [
+        "every day",
+        "right now",
+        "last Saturday",
+        "usually"
+      ],
+      "correct": "last Saturday",
+      "hint": "\"last Saturday/week/weekend\" → Past Simple ✅. \"every day/usually\" → Present Simple. \"right now\" → Present Continuous."
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Yesterday she cooks dinner for everyone\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Yesterday\" = Past Simple signal! → \"Yesterday she COOKED dinner.\" (not \"cooks\" — that's Present Simple)."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple verb.",
+      "text": "Aruzhan ___ a small watercolour picture of the river on Sunday evening.",
+      "opts": [
+        "paint",
+        "paints",
+        "painting",
+        "painted"
+      ],
+      "correct": "painted",
+      "hint": "paint → painted (regular, add -ed). \"on Sunday evening\" = Past Simple signal. All subjects: I painted · She painted ✅"
+    }
+  ],
+  "questions": []
+}

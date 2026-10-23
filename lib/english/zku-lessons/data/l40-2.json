@@ -1,0 +1,482 @@
+{
+  "id": "l40-2",
+  "moduleNum": 6,
+  "lessonNum": 2,
+  "moduleTitle": "Life Experiences",
+  "type": "listening",
+  "title": "Have You Ever Been to Almaty?",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "Kamila, have you ever been to Almaty?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes — I've been there three times. I grew up in a suburb nearby actually.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Oh, I didn't know that! Have you been back recently?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I went last summer — June. I stayed with my grandmother for two weeks.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've never been there. I've always wanted to go but never had the chance.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "You should go. Have you ever eaten at a proper Almaty café? The food scene has changed a lot.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "No, I haven't. The furthest south I've been is Shymkent.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Have you enjoyed Shymkent? I've heard it's warmer and friendlier than Almaty.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I went there in 2021, for a volleyball tournament with Zhibek. We stayed for four days.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Did Zhibek's team win?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "They came second. She was disappointed but she's already qualified for another one.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I've never watched a live volleyball match. Have you seen many?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Dozens. I've been to every home match this semester. It's incredible to watch Zhibek play.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Has she always been so focused? Even when she was younger?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've known her since secondary school. She's been the same since day one. Total commitment.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's rare. I've changed what I want to do about five times since I arrived at WKU.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "suburb",
+      "emoji": "🏘️",
+      "opts": [
+        "центр города",
+        "пригород",
+        "деревня",
+        "промышленный район"
+      ],
+      "correct": "пригород"
+    },
+    {
+      "id": "p2",
+      "word": "recently",
+      "emoji": "🕐",
+      "opts": [
+        "давно",
+        "никогда",
+        "недавно",
+        "иногда"
+      ],
+      "correct": "недавно"
+    },
+    {
+      "id": "p3",
+      "word": "qualify",
+      "emoji": "🎫",
+      "opts": [
+        "проигрывать",
+        "отбираться / квалифицироваться",
+        "тренироваться",
+        "участвовать"
+      ],
+      "correct": "отбираться / квалифицироваться"
+    },
+    {
+      "id": "p4",
+      "word": "commitment",
+      "emoji": "🔒",
+      "opts": [
+        "сомнение",
+        "преданность / обязательство",
+        "усилие",
+        "интерес"
+      ],
+      "correct": "преданность / обязательство"
+    },
+    {
+      "id": "p5",
+      "word": "disappointed",
+      "emoji": "😔",
+      "opts": [
+        "довольный",
+        "разочарованный",
+        "гордый",
+        "удивлённый"
+      ],
+      "correct": "разочарованный"
+    },
+    {
+      "id": "p6",
+      "word": "scene",
+      "emoji": "🌆",
+      "opts": [
+        "вид / картина",
+        "сцена / среда",
+        "событие",
+        "место назначения"
+      ],
+      "correct": "сцена / среда"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila has been to Almaty three times.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila visited Almaty last winter.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Rustam has been to Almaty before.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam went to Shymkent for a volleyball tournament in 2021.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Zhibek's team won the Shymkent tournament.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Rustam has known Zhibek since secondary school.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "🗺️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Has never been to Almaty — furthest south is Shymkent"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "✈️",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Grew up near Almaty — has been there three times"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been to Almaty three times and grew up in a suburb nearby.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Has never been to Almaty — has always wanted to go but never had the chance.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Has never watched a live volleyball match.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Has been to every home volleyball match this semester.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Has changed what she wants to do about five times since arriving at WKU.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Has known Zhibek since secondary school.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many times has Kamila been to Almaty?",
+      "opts": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Never"
+      ],
+      "correct": "Three times",
+      "hint": "\"Yes — I've been there three times.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila visited Almaty last ___ .",
+      "correct": "summer",
+      "hint": "\"I went last summer — June. I stayed with my grandmother.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the furthest south Rustam has ever been?",
+      "opts": [
+        "Almaty",
+        "Astana",
+        "Shymkent",
+        "Atyrau"
+      ],
+      "correct": "Shymkent",
+      "hint": "\"The furthest south I've been is Shymkent.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek's team won the tournament in Shymkent.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"They came second. She was disappointed.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many home matches has Rustam been to this semester?",
+      "opts": [
+        "Two",
+        "A few",
+        "Dozens / all of them",
+        "None"
+      ],
+      "correct": "Dozens / all of them",
+      "hint": "\"I've been to every home match this semester.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila has watched many live volleyball matches.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've never watched a live volleyball match.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Rustam known Zhibek?",
+      "opts": [
+        "Since this year",
+        "Since last year",
+        "Since secondary school",
+        "Since primary school"
+      ],
+      "correct": "Since secondary school",
+      "hint": "\"I've known her since secondary school.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many times has Kamila changed her career plans at WKU?",
+      "opts": [
+        "Once",
+        "Never",
+        "Twice",
+        "About five times"
+      ],
+      "correct": "About five times",
+      "hint": "\"I've changed what I want to do about five times since I arrived at WKU.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Have you ever been to Almaty?\" — What tense is this?",
+      "opts": [
+        "Past Simple",
+        "Present Continuous",
+        "Present Perfect",
+        "Past Continuous"
+      ],
+      "correct": "Present Perfect",
+      "hint": "\"Have you ever been...?\" = Present Perfect question about life experience (ever/never)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I went there in 2021.\" — Why does Rustam use Past Simple, not PP?",
+      "opts": [
+        "It's more polite",
+        "Because there's a specific past time (2021)",
+        "Because he went once",
+        "No reason"
+      ],
+      "correct": "Because there's a specific past time (2021)",
+      "hint": "Specific past time (2021, last June, yesterday) → Past Simple. No time or \"ever/never\" → Present Perfect."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (know) her since secondary school.\" Use Present Perfect.",
+      "correct": "'ve known",
+      "hint": "\"I've known her since secondary school.\" — \"since\" + PP: \"know → have known\"."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been there three times.\" — What does \"been\" mean here?",
+      "opts": [
+        "went and came back",
+        "am there now",
+        "was born there",
+        "live there"
+      ],
+      "correct": "went and came back",
+      "hint": "\"have been to\" = visited (and returned). \"have gone to\" = went and is still there now."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I went last summer.\" Past Simple because:",
+      "opts": [
+        "She visited once",
+        "She uses PP for past",
+        "\"Last summer\" is a specific time",
+        "She doesn't like PP"
+      ],
+      "correct": "\"Last summer\" is a specific time",
+      "hint": "\"Last summer / in 2021 / yesterday\" = specific past time → Past Simple."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Have you ever been to Almaty? — Yes, I went there in June.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "First sentence: PP (ever/life experience). Second: PS (specific time: \"in June\"). Both correct! ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (be) to every home match this semester.\" Use Present Perfect.",
+      "correct": "'s been",
+      "hint": "\"She's been to every home match.\" (been to = visited/attended) — Present Perfect."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've never been to Almaty.\" — What does \"never\" show here?",
+      "opts": [
+        "A past completed action",
+        "A zero life experience",
+        "A future plan",
+        "A past habit"
+      ],
+      "correct": "A zero life experience",
+      "hint": "\"I've never been to...\" = 0% experience in my entire life. \"never\" + PP = no experience ever."
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "id": "l63-1",
+  "moduleNum": 5,
+  "lessonNum": 1,
+  "moduleTitle": "Modal Verbs: Deduction & Advice",
+  "type": "reading",
+  "title": "The Art of Deduction: How We Reason from Evidence",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "The detective is one of the most enduring figures in popular fiction — and the reason, perhaps, is that detective reasoning is something we all do every day. When you arrive at a lecture and find your friend's bag on her usual seat but no friend, you think: she must have arrived already and stepped out. When you notice that her coffee is still hot, you think: she can't have been gone long. When you see that her notebook is still closed, you think: she might not have been here for the whole lecture. Each of these conclusions is reached not from direct observation but from inference — from reading evidence and reasoning about what it means.",
+    "This kind of reasoning — technically called modal inference — is expressed in English primarily through modal verbs. The three principal modal verbs for expressing deduction are must, can't, and might/may/could. Each expresses a different level of certainty. Must expresses near-certainty: the available evidence almost forces the conclusion. Can't expresses near-impossibility: the evidence makes the conclusion almost certainly false. Might, may, and could express possibility: the evidence is consistent with this conclusion, but it is not the only one.",
+    "\"He must be at least forty\" does not mean \"I know he is at least forty.\" It means \"based on my observation of him, his being forty or older is the most logical conclusion I can reach.\" The speaker is committing not to a fact but to a deduction. This distinction — between knowing and inferring — is one of the most important in academic and professional communication.",
+    "The same system works in the past tense, using the perfect infinitive: must have done, can't have done, might have done. \"She must have left before the meeting started\" — the evidence (her absence, the already-begun meeting) forces the conclusion. \"He can't have read the report\" — the evidence (his apparent ignorance of it) makes this extremely unlikely. \"They might have misunderstood the question\" — one possible explanation among others.",
+    "What makes deductive modal reasoning powerful is its epistemic honesty. By using must rather than is, the speaker signals the inferential basis of their claim — they are not presenting a fact but a well-reasoned conclusion. Academic writing values this precision enormously: \"the data suggests that X must be the case\" is epistemically more careful than \"the data shows that X is the case,\" because it acknowledges the gap between evidence and conclusion.",
+    "Reading inference is also a critical skill — for understanding what others are claiming. When a politician says \"this policy must be right because it has been endorsed by experts,\" the must is doing double work: it signals the speaker's certainty while also pressuring the listener to accept the conclusion. Recognising this structure — and questioning whether the evidence actually warrants must rather than might — is a form of critical literacy.",
+    "The capacity for modal inference is not only an intellectual skill. It is a social one. Every day, we read other people's intentions, states of mind, and motivations from incomplete evidence. \"She must be upset about something\" is not a factual claim about another person's emotional state — it is an inference based on observed behaviour. Getting these inferences right, and being willing to revise them when new evidence arrives, is part of what it means to be a perceptive and empathetic person."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Rustam hasn't answered my messages. That's not like him.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "His phone might have died. Or he could be in a lecture without checking messages.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "His battery is usually fine. He must have forgotten to charge it — he mentioned that last week.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Or he might just be busy. He can't have disappeared — he was in the library an hour ago.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "True. I saw him there too. He must still be around somewhere.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "The deduction: he must be fine, can't have gone far, and might not have seen your messages yet.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "You sound like a detective.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's just logic. Modal logic.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "modal inference",
+      "ru": "модальный вывод",
+      "context": "\"Modal inference — reasoning from evidence to conclusion using modal verbs.\""
+    },
+    {
+      "phrase": "near-certainty",
+      "ru": "почти уверенность",
+      "context": "\"Must expresses near-certainty.\" = you're very confident but not 100% certain."
+    },
+    {
+      "phrase": "epistemic",
+      "ru": "эпистемический",
+      "context": "\"Epistemic honesty.\" = relating to knowledge and how certain we are of it."
+    },
+    {
+      "phrase": "inferential basis",
+      "ru": "основание для вывода",
+      "context": "\"The inferential basis of a claim.\" = the reasoning or evidence behind a conclusion."
+    },
+    {
+      "phrase": "commit to",
+      "ru": "принимать на себя / брать на",
+      "context": "\"The speaker is committing to a deduction.\" = taking responsibility for the claim."
+    },
+    {
+      "phrase": "perceptive",
+      "ru": "проницательный",
+      "context": "\"A perceptive person.\" = one who notices and understands things quickly."
+    },
+    {
+      "phrase": "warrants",
+      "ru": "оправдывает / требует",
+      "context": "\"Whether the evidence warrants must.\" = whether the evidence justifies that degree of certainty."
+    },
+    {
+      "phrase": "enduring",
+      "ru": "выдержавший испытание временем",
+      "context": "\"An enduring figure.\" = one that has continued to be popular or relevant over a long time."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "deduction",
+      "ipa": "/dɪˈdʌkʃən/",
+      "pos": "noun",
+      "ru": "дедукция / вывод",
+      "kz": "қорытынды",
+      "emoji": "🔍",
+      "definition": "the process of reaching a conclusion from evidence through reasoning",
+      "example": "\"Detective reasoning is deduction — reaching conclusions from incomplete evidence.\"",
+      "collocations": [
+        "logical deduction",
+        "process of deduction",
+        "make a deduction"
+      ]
+    },
+    {
+      "en": "inference",
+      "ipa": "/ˈɪnfərəns/",
+      "pos": "noun",
+      "ru": "вывод / умозаключение",
+      "kz": "қорытынды",
+      "emoji": "💭",
+      "definition": "a conclusion reached by reasoning from evidence",
+      "example": "\"Each conclusion is reached from inference — reading evidence and reasoning about it.\"",
+      "collocations": [
+        "draw an inference",
+        "logical inference",
+        "make an inference"
+      ]
+    },
+    {
+      "en": "epistemic",
+      "ipa": "/epɪˈstemɪk/",
+      "pos": "adjective",
+      "ru": "эпистемический",
+      "kz": "эпистемдік",
+      "emoji": "🧠",
+      "definition": "relating to knowledge and the degree of certainty we have",
+      "example": "\"Epistemic honesty: using 'must' signals inferential basis, not fact.\"",
+      "collocations": [
+        "epistemic claim",
+        "epistemic honesty",
+        "epistemic certainty"
+      ]
+    },
+    {
+      "en": "perceptive",
+      "ipa": "/pəˈseptɪv/",
+      "pos": "adjective",
+      "ru": "проницательный",
+      "kz": "зерделі",
+      "emoji": "👁️",
+      "definition": "having the ability to notice and understand things quickly",
+      "example": "\"A perceptive person reads motivations from incomplete evidence.\"",
+      "collocations": [
+        "perceptive observer",
+        "highly perceptive",
+        "perceptive insight"
+      ]
+    },
+    {
+      "en": "warrant",
+      "ipa": "/ˈwɒrənt/",
+      "pos": "verb",
+      "ru": "оправдывать / требовать",
+      "kz": "жеткілікті болу",
+      "emoji": "⚖️",
+      "definition": "to justify or be sufficient reason for something",
+      "example": "\"Whether the evidence warrants 'must' rather than 'might'.\"",
+      "collocations": [
+        "warrant a conclusion",
+        "not warranted",
+        "warrants investigation"
+      ]
+    },
+    {
+      "en": "revise",
+      "ipa": "/rɪˈvaɪz/",
+      "pos": "verb",
+      "ru": "пересматривать / редактировать",
+      "kz": "қайта қарау",
+      "emoji": "✏️",
+      "definition": "to look at again and change or correct if necessary",
+      "example": "\"Be willing to revise inferences when new evidence arrives.\"",
+      "collocations": [
+        "revise an opinion",
+        "revise the plan",
+        "revise your thinking"
+      ]
+    },
+    {
+      "en": "enduring",
+      "ipa": "/ɪnˈdjʊərɪŋ/",
+      "pos": "adjective",
+      "ru": "выдержавший испытание временем",
+      "kz": "мәңгілік",
+      "emoji": "🏛️",
+      "definition": "lasting; continuing over a long time",
+      "example": "\"The detective is one of the most enduring figures in popular fiction.\"",
+      "collocations": [
+        "enduring popularity",
+        "enduring impact",
+        "enduring legacy"
+      ]
+    },
+    {
+      "en": "consistent",
+      "ipa": "/kənˈsɪstənt/",
+      "pos": "adjective",
+      "ru": "совместимый / согласующийся",
+      "kz": "сәйкес",
+      "emoji": "✅",
+      "definition": "in agreement with; not contradicting other evidence",
+      "example": "\"The evidence is consistent with this conclusion.\" — doesn't rule it out.",
+      "collocations": [
+        "consistent with",
+        "remain consistent",
+        "consistent evidence"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "deduction",
+      "emoji": "🔍",
+      "opts": [
+        "предположение",
+        "дедукция / вывод",
+        "факт",
+        "сомнение"
+      ],
+      "correct": "дедукция / вывод"
+    },
+    {
+      "id": "p2",
+      "word": "inference",
+      "emoji": "💭",
+      "opts": [
+        "доказательство",
+        "вывод / умозаключение",
+        "утверждение",
+        "предположение"
+      ],
+      "correct": "вывод / умозаключение"
+    },
+    {
+      "id": "p3",
+      "word": "epistemic",
+      "emoji": "🧠",
+      "opts": [
+        "физический",
+        "эпистемический",
+        "логический",
+        "формальный"
+      ],
+      "correct": "эпистемический"
+    },
+    {
+      "id": "p4",
+      "word": "perceptive",
+      "emoji": "👁️",
+      "opts": [
+        "невнимательный",
+        "проницательный",
+        "умный",
+        "быстрый"
+      ],
+      "correct": "проницательный"
+    },
+    {
+      "id": "p5",
+      "word": "warrant",
+      "emoji": "⚖️",
+      "opts": [
+        "запрещать",
+        "оправдывать / требовать",
+        "доказывать",
+        "объяснять"
+      ],
+      "correct": "оправдывать / требовать"
+    },
+    {
+      "id": "p6",
+      "word": "enduring",
+      "emoji": "🏛️",
+      "opts": [
+        "временный",
+        "выдержавший испытание временем",
+        "популярный",
+        "новый"
+      ],
+      "correct": "выдержавший испытание временем"
+    }
+  ],
+  "task1Bank": [
+    "must",
+    "can't",
+    "might",
+    "perfect",
+    "epistemic",
+    "must",
+    "committing",
+    "revise"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "\"___ \" expresses near-certainty in modal inference.",
+      "correct": "must"
+    },
+    {
+      "id": "t2",
+      "question": "\"___ \" expresses near-impossibility — the conclusion is almost certainly false.",
+      "correct": "can't"
+    },
+    {
+      "id": "t3",
+      "question": "\"___ \" expresses possibility — consistent with the evidence but not forced.",
+      "correct": "might"
+    },
+    {
+      "id": "t4",
+      "question": "Past deduction uses modal + ___ infinitive: must have done, can't have done.",
+      "correct": "perfect"
+    },
+    {
+      "id": "t5",
+      "question": "\"Must\" rather than \"is\" signals the ___ basis of a claim.",
+      "correct": "epistemic"
+    },
+    {
+      "id": "t6",
+      "question": "The text says \"this policy ___ be right\" does double work — signals certainty and pressures agreement.",
+      "correct": "must"
+    },
+    {
+      "id": "t7",
+      "question": "The speaker is \"___ to a deduction\" — not to a fact.",
+      "correct": "committing"
+    },
+    {
+      "id": "t8",
+      "question": "A perceptive person is willing to ___ inferences when new evidence arrives.",
+      "correct": "revise"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "\"Must\" expresses absolute certainty that something is true.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "The three principal modal verbs for deduction are must, can't, and might/may/could.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "\"She must have left\" is a factual statement, not a deduction.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Using \"must\" rather than \"is\" in academic writing is epistemically more careful.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "The text says modal inference is only useful in detective fiction.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Modal deduction works in the past using the perfect infinitive.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Amir says Rustam can't have gone far because he was in the library an hour ago.",
+      "correct": "true"
+    },
+    {
+      "id": "c8",
+      "statement": "The text says questioning whether evidence warrants \"must\" is a form of critical literacy.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"she must have arrived already\" express?",
+      "opts": [
+        "Certainty as fact",
+        "A deduction based on evidence",
+        "A wish",
+        "A plan"
+      ],
+      "correct": "A deduction based on evidence",
+      "hint": "\"Each conclusion is reached from inference — reading evidence and reasoning about what it means.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"must\" express in modal deduction?",
+      "opts": [
+        "100% certainty",
+        "Near-certainty — evidence almost forces the conclusion",
+        "Possibility",
+        "Impossibility"
+      ],
+      "correct": "Near-certainty — evidence almost forces the conclusion",
+      "hint": "\"Must expresses near-certainty: the available evidence almost forces the conclusion.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"knowing\" and \"inferring\"?",
+      "opts": [
+        "No difference",
+        "Knowing = direct observation; inferring = reasoning from evidence",
+        "Inferring is stronger",
+        "Knowing uses must; inferring uses is"
+      ],
+      "correct": "Knowing = direct observation; inferring = reasoning from evidence",
+      "hint": "\"This distinction — between knowing and inferring — is one of the most important in academic communication.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is \"the data suggests X must be the case\" more careful than \"shows X is the case\"?",
+      "opts": [
+        "It's more formal",
+        "It acknowledges the gap between evidence and conclusion — epistemic honesty",
+        "It's shorter",
+        "It uses passive voice"
+      ],
+      "correct": "It acknowledges the gap between evidence and conclusion — epistemic honesty",
+      "hint": "\"Epistemically more careful, because it acknowledges the gap between evidence and conclusion.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Past deduction uses modal + ___ infinitive.",
+      "correct": "perfect",
+      "hint": "\"Past tense: must have done, can't have done, might have done.\" — modal + perfect infinitive. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is it important to question whether evidence \"warrants must\"?",
+      "opts": [
+        "Grammar accuracy",
+        "Critical literacy — must pressures agreement; might is often more accurate",
+        "Formality concerns",
+        "Speed of communication"
+      ],
+      "correct": "Critical literacy — must pressures agreement; might is often more accurate",
+      "hint": "\"Questioning whether the evidence actually warrants must rather than might — is a form of critical literacy.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Deduction.\" In this context, \"deduction\" means:",
+      "opts": [
+        "Subtraction",
+        "The process of reaching conclusions from evidence by reasoning",
+        "A tax reduction",
+        "Direct observation"
+      ],
+      "correct": "The process of reaching conclusions from evidence by reasoning",
+      "hint": "\"Deduction — reaching conclusions from incomplete evidence through reasoning.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The evidence warrants must.\" \"Warrants\" means:",
+      "opts": [
+        "Contradicts",
+        "Justifies or is sufficient reason for",
+        "Eliminates",
+        "Suggests"
+      ],
+      "correct": "Justifies or is sufficient reason for",
+      "hint": "\"warrant\" = to justify; to be sufficient reason for a particular conclusion or action."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She must have left before the meeting.\" — \"must have left\" is:",
+      "opts": [
+        "Obligation in the past",
+        "Past deduction (high certainty)",
+        "Permission in the past",
+        "Advice about the past"
+      ],
+      "correct": "Past deduction (high certainty)",
+      "hint": "\"Must have + pp\" = past deduction (near-certainty). The evidence strongly suggests this. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He can't have read the report.\" — \"can't have read\" means:",
+      "opts": [
+        "He was unable to read",
+        "It's almost certain he didn't read it",
+        "He had no permission to read it",
+        "He refused to read it"
+      ],
+      "correct": "It's almost certain he didn't read it",
+      "hint": "\"can't have + pp\" = past deduction of impossibility. Evidence suggests he didn't read it. ✅"
+    }
+  ]
+}

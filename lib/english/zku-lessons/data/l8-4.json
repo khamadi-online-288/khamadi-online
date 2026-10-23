@@ -1,0 +1,222 @@
+{
+  "id": "l8-4",
+  "moduleNum": 8,
+  "lessonNum": 4,
+  "moduleTitle": "My home",
+  "title": "Describe your home",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "There is a... in the...",
+      "emoji": "🏠",
+      "opts": [
+        "В ... есть ...",
+        "Это мой ...",
+        "Там нет ...",
+        "Я вижу ..."
+      ],
+      "correct": "В ... есть ..."
+    },
+    {
+      "id": "p2",
+      "word": "There are... in the...",
+      "emoji": "🛋️",
+      "opts": [
+        "Это мои ...",
+        "В ... есть (несколько) ...",
+        "Там нет ...",
+        "Я хочу ..."
+      ],
+      "correct": "В ... есть (несколько) ..."
+    },
+    {
+      "id": "p3",
+      "word": "There isn't a...",
+      "emoji": "🚫",
+      "opts": [
+        "Есть немного ...",
+        "Нет никакого ...",
+        "Там есть ...",
+        "У меня нет ..."
+      ],
+      "correct": "Нет никакого ..."
+    },
+    {
+      "id": "p4",
+      "word": "My favourite room is...",
+      "emoji": "⭐",
+      "opts": [
+        "Моя любимая кухня — это ...",
+        "Моя любимая комната — это ...",
+        "Мой любимый дом — это ...",
+        "Моё любимое здание — это ..."
+      ],
+      "correct": "Моя любимая комната — это ..."
+    },
+    {
+      "id": "p5",
+      "word": "It is... because...",
+      "emoji": "💡",
+      "opts": [
+        "Это ... рядом с ...",
+        "Это ... потому что ...",
+        "Это ... без ...",
+        "Это ... вместо ..."
+      ],
+      "correct": "Это ... потому что ..."
+    },
+    {
+      "id": "p6",
+      "word": "The apartment is on the... floor.",
+      "emoji": "🏢",
+      "opts": [
+        "Квартира на ... улице.",
+        "Квартира на ... этаже.",
+        "Квартира в ... доме.",
+        "Квартира рядом с ..."
+      ],
+      "correct": "Квартира на ... этаже."
+    }
+  ],
+  "writingModel": [
+    "I want to describe the apartment where I live in Uralsk. I rent this apartment with my friend Zara — it is close to WKU university and it is perfect for two students. The apartment is on the third floor of a quiet residential building. It is small but very comfortable, and I feel completely at home here.",
+    "There is a small hallway when you enter the apartment. In the hallway, there is a large mirror and there are two coat hooks on the wall. The hallway leads to three main areas: the living room, the kitchen, and the bedroom. There is also one bathroom at the end of the corridor. There isn't a separate study room, but there are desks in the bedroom for both of us.",
+    "The living room is my favourite room in the apartment. There is a comfortable blue sofa in the centre, and there is a flat-screen television on the wall. There are two large bookshelves near the window — one for my Economics textbooks and one for Zara's novels. There is a big window with white curtains that lets in a lot of natural light in the mornings. There isn't a dining table in the living room, but there is a small coffee table in front of the sofa.",
+    "The kitchen is small but very practical. There is a round table in the centre with four chairs around it. There is a fridge in the corner, a microwave above the counter, and a small electric kettle for tea. There is also a washing machine under the counter — very useful for students! There isn't a dishwasher, but that is the only thing missing. The kitchen is where Zara and I have breakfast and dinner together every day.",
+    "My favourite feature of the whole apartment is the balcony. There is a small balcony off the living room with a beautiful view of the courtyard and the trees below. There are four potted plants on the balcony — Zara takes care of all of them. In the evenings, we sometimes sit on the balcony and drink tea. There is a small park just around the corner from our building too. I love our apartment — it is simple, affordable, and it truly feels like home!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "I want to describe ",
+      "suffix": " where I live.",
+      "placeholder": "my home / my apartment / my room",
+      "hint": "e.g. the apartment / my room in the dormitory"
+    },
+    {
+      "key": "location",
+      "prefix": "It is on the ",
+      "suffix": " floor of the building.",
+      "placeholder": "number",
+      "hint": "e.g. first / second / third / fourth"
+    },
+    {
+      "key": "rooms",
+      "prefix": "There is a ",
+      "suffix": " and there is also ___.",
+      "placeholder": "room 1 ... room 2",
+      "hint": "e.g. living room ... a kitchen"
+    },
+    {
+      "key": "liv",
+      "prefix": "In the living room, there is ",
+      "suffix": " and there are ___.",
+      "placeholder": "furniture 1 ... furniture 2",
+      "hint": "e.g. a sofa ... two armchairs"
+    },
+    {
+      "key": "kit",
+      "prefix": "In the kitchen, there is a ",
+      "suffix": ". There is also ___.",
+      "placeholder": "appliance ... another item",
+      "hint": "e.g. fridge ... a microwave"
+    },
+    {
+      "key": "bed",
+      "prefix": "In the bedroom, there is a ",
+      "suffix": " and there are ___.",
+      "placeholder": "bed description ... other items",
+      "hint": "e.g. big comfortable bed ... some shelves"
+    },
+    {
+      "key": "fav",
+      "prefix": "My favourite room is the ",
+      "suffix": " because it is ___.",
+      "placeholder": "room name ... adjective",
+      "hint": "e.g. living room ... bright and relaxing"
+    },
+    {
+      "key": "no",
+      "prefix": "There isn't ",
+      "suffix": ", but that is fine.",
+      "placeholder": "something missing",
+      "hint": "e.g. a dishwasher / a garden / a balcony"
+    },
+    {
+      "key": "end",
+      "prefix": "I love my home because ",
+      "suffix": ".",
+      "placeholder": "your reason",
+      "hint": "e.g. it is comfortable and close to university"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Rooms & location",
+      "color": "#003876",
+      "items": [
+        "There is a living room / bedroom / kitchen.",
+        "There is a balcony / hallway / bathroom.",
+        "The apartment is on the ___ floor.",
+        "It is close to the university.",
+        "There are ___ rooms in total.",
+        "The building is quiet / modern / old."
+      ]
+    },
+    {
+      "category": "Furniture — There is / There are",
+      "color": "#1B8FC4",
+      "items": [
+        "There is a sofa / bed / wardrobe / desk.",
+        "There are two chairs / some bookshelves.",
+        "There is a fridge / microwave / washing machine.",
+        "There is a large window with curtains.",
+        "There are some plants on the balcony.",
+        "There is a reading lamp on the desk."
+      ]
+    },
+    {
+      "category": "What's missing — There isn't / There aren't",
+      "color": "#EF4444",
+      "items": [
+        "There isn't a dishwasher.",
+        "There isn't a lift in the building.",
+        "There isn't a separate study room.",
+        "There aren't any curtains in the bedroom.",
+        "There isn't a garden, but there is a balcony.",
+        "There isn't much space, but it is cosy."
+      ]
+    },
+    {
+      "category": "Opinions & feelings",
+      "color": "#1D9E75",
+      "items": [
+        "My favourite room is... because...",
+        "The best feature is the balcony / window / kitchen.",
+        "It is small but very comfortable.",
+        "I love my home because...",
+        "It truly feels like home!",
+        "It is affordable and close to university."
+      ]
+    }
+  ]
+}

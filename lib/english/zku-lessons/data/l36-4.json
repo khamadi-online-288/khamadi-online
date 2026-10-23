@@ -1,0 +1,243 @@
+{
+  "id": "l36-4",
+  "moduleNum": 2,
+  "lessonNum": 5,
+  "moduleTitle": "What's Happening Now?",
+  "type": "writing",
+  "title": "Describing What's Happening Around Me",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "right now",
+      "emoji": "⚡",
+      "opts": [
+        "обычно",
+        "вчера",
+        "прямо сейчас",
+        "завтра"
+      ],
+      "correct": "прямо сейчас"
+    },
+    {
+      "id": "p2",
+      "word": "at the moment",
+      "emoji": "🕐",
+      "opts": [
+        "каждый день",
+        "в данный момент",
+        "иногда",
+        "на следующей неделе"
+      ],
+      "correct": "в данный момент"
+    },
+    {
+      "id": "p3",
+      "word": "currently",
+      "emoji": "📍",
+      "opts": [
+        "редко",
+        "в настоящее время",
+        "в прошлом",
+        "скоро"
+      ],
+      "correct": "в настоящее время"
+    },
+    {
+      "id": "p4",
+      "word": "nearby",
+      "emoji": "📍",
+      "opts": [
+        "далеко",
+        "поблизости / рядом",
+        "повсюду",
+        "за рубежом"
+      ],
+      "correct": "поблизости / рядом"
+    },
+    {
+      "id": "p5",
+      "word": "in the distance",
+      "emoji": "🌄",
+      "opts": [
+        "вблизи",
+        "вдали",
+        "в прошлом",
+        "рядом со мной"
+      ],
+      "correct": "вдали"
+    },
+    {
+      "id": "p6",
+      "word": "surroundings",
+      "emoji": "🌍",
+      "opts": [
+        "расписание",
+        "домашнее задание",
+        "окружение",
+        "настроение"
+      ],
+      "correct": "окружение"
+    }
+  ],
+  "writingModel": [
+    "Snapshot: WKU Library, Thursday at 6 p.m.",
+    "I am sitting at my usual desk by the window in the WKU library. It is Thursday evening and the library is fairly busy. I am working on a grammar assignment, but right now I am taking a short break to look around me and describe what is happening.",
+    "Directly to my left, a young woman is studying very intensely — she has three textbooks open at the same time and she is writing quickly in a notebook. She is not paying attention to anything around her. Across the table, two students are having a quiet conversation. They are comparing notes from today's lecture and occasionally pointing at something on one of their laptops.",
+    "Near the entrance, a librarian is helping a group of first-year students find their seats. She is speaking patiently and pointing to different sections of the library. One of the first-year students is looking quite nervous — he is gripping his bag tightly and looking around with wide eyes. It is probably his first time in the university library.",
+    "Outside the window, I can see the university garden. A few students are sitting on benches, even though it is quite cold. One of them is reading a book and the others are talking. In the distance, I can see the lights of the main building beginning to switch on as the sky is getting darker.",
+    "Right now, the whole library feels calm and productive. Everyone around me is focused on something. The only sounds are the quiet turning of pages, the soft clicking of keyboards, and the occasional whisper. I find it a good environment to work in. In fact, I am going to close this description now and get back to my grammar assignment — which is waiting patiently for me."
+  ],
+  "writingTemplate": [
+    {
+      "key": "heading",
+      "prefix": "Snapshot: ",
+      "suffix": "",
+      "placeholder": "the place and time (e.g. WKU Canteen, Friday at 1 p.m.)",
+      "hint": "Give your snapshot a title with the place and time."
+    },
+    {
+      "key": "intro1",
+      "prefix": "I am ",
+      "suffix": " in ",
+      "placeholder": "what you are doing right now (sitting / standing)",
+      "hint": "Start with your own action in Present Continuous."
+    },
+    {
+      "key": "intro2",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "describe the place (the library / the canteen / a café)",
+      "hint": "Name the place and give one impression of it (busy / quiet / crowded)."
+    },
+    {
+      "key": "person1",
+      "prefix": "To my ",
+      "suffix": ", ",
+      "placeholder": "left / right / front",
+      "hint": "Describe where the first person is in relation to you."
+    },
+    {
+      "key": "person1a",
+      "prefix": "",
+      "suffix": " is ",
+      "placeholder": "describe who they are (a student / a professor)",
+      "hint": "Who are they? A classmate, a stranger, a professor?"
+    },
+    {
+      "key": "person1b",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what they are doing right now (verb-ing)",
+      "hint": "Use Present Continuous: \"studying / reading / talking / eating\""
+    },
+    {
+      "key": "person2",
+      "prefix": "Nearby, ",
+      "suffix": " are ",
+      "placeholder": "two people / a group of students / some classmates",
+      "hint": "Introduce another person or group."
+    },
+    {
+      "key": "person2b",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what they are doing (verb-ing)",
+      "hint": "Describe their action in Present Continuous."
+    },
+    {
+      "key": "outside",
+      "prefix": "Outside, ",
+      "suffix": ".",
+      "placeholder": "describe what you can see through the window / outside",
+      "hint": "What is happening outside? Use Present Continuous for actions."
+    },
+    {
+      "key": "sound",
+      "prefix": "The only sounds are ",
+      "suffix": ".",
+      "placeholder": "describe the sounds around you",
+      "hint": "e.g. the quiet turning of pages / people chatting / music playing"
+    },
+    {
+      "key": "feeling",
+      "prefix": "Right now, the whole place feels ",
+      "suffix": ".",
+      "placeholder": "calm / busy / lively / productive / noisy",
+      "hint": "Describe the overall atmosphere with an adjective."
+    },
+    {
+      "key": "ending",
+      "prefix": "I am going to ",
+      "suffix": " and get back to my work.",
+      "placeholder": "close this / stop writing / put my phone away",
+      "hint": "End by returning to your own task — use Present Continuous for your next action."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing position",
+      "color": "#003876",
+      "items": [
+        "To my left / right, ...",
+        "Directly in front of me, ...",
+        "Nearby / Next to me, ...",
+        "Across the table, ...",
+        "Near the entrance / window, ...",
+        "In the corner, ..."
+      ]
+    },
+    {
+      "category": "Present Continuous — describing NOW",
+      "color": "#1D9E75",
+      "items": [
+        "Someone is + verb-ing...",
+        "A student is studying / reading / eating...",
+        "Two people are talking / comparing notes...",
+        "Everyone around me is focused on...",
+        "The sky is getting darker.",
+        "Prices / things are changing quickly."
+      ]
+    },
+    {
+      "category": "Useful descriptive phrases",
+      "color": "#1B8FC4",
+      "items": [
+        "At the moment, ...",
+        "Right now, the whole place feels...",
+        "I can hear / see / notice...",
+        "In the distance, ...",
+        "The only sounds are...",
+        "It is probably the first time..."
+      ]
+    },
+    {
+      "category": "Atmosphere & conclusion",
+      "color": "#C9933B",
+      "items": [
+        "The place feels calm / busy / chaotic.",
+        "I find it a good environment to work in.",
+        "Everyone seems focused / relaxed / stressed.",
+        "I am going to close this and get back to my work.",
+        "Life here is always in motion."
+      ]
+    }
+  ]
+}

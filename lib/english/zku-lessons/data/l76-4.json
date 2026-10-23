@@ -1,0 +1,246 @@
+{
+  "id": "l76-4",
+  "moduleNum": 18,
+  "lessonNum": 7,
+  "moduleTitle": "Media, News & Propaganda",
+  "title": "Writing: An Opinion Essay on Media Responsibility",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "State the issue and your position — use a that-clause or wh-clause for precision",
+      "hint": "e.g. \"It is clear that…\" / \"What matters is…\" / \"The question of whether… is central.\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "First argument with evidence — use noun clauses to report research or state facts",
+      "hint": "\"Research has shown that…\" / \"It has been established that…\" / \"The fact that… is significant.\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Second argument or counter-argument — use embedded questions to frame the debate",
+      "hint": "\"The question of whether… remains contested.\" / \"Critics wonder whether…\""
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Third argument — use emphasis structures combined with noun clauses",
+      "hint": "\"What the evidence makes clear is that…\" / \"It is not… but… that is the problem.\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Conclusion — use a noun clause to frame the key takeaway",
+      "hint": "\"What is needed is…\" / \"It is essential that…\" / \"The question is not whether… but how…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "It is clear that ",
+      "suffix": " poses a significant threat to democratic society.",
+      "placeholder": "the rise of disinformation / the decline of independent local journalism",
+      "hint": "\"It is clear that + clause\" — noun clause as the real subject"
+    },
+    {
+      "key": "l2",
+      "prefix": "Research has shown that ",
+      "suffix": ".",
+      "placeholder": "emotional content spreads far faster than corrections / news deserts correlate with higher local corruption",
+      "hint": "\"Research has shown that + clause\" — reporting verb + that-clause"
+    },
+    {
+      "key": "l3",
+      "prefix": "The question of whether ",
+      "suffix": " is one of the most contested issues in media policy today.",
+      "placeholder": "social media platforms should be regulated as publishers / AI-generated content should be labelled",
+      "hint": "\"The question of whether + S + V\" — noun phrase + embedded question"
+    },
+    {
+      "key": "l4",
+      "prefix": "What the evidence makes clear is that ",
+      "suffix": ".",
+      "placeholder": "media literacy education must be treated as a priority equal to science or mathematics",
+      "hint": "\"What + S + V + is that + clause\" — wh-cleft for emphasis"
+    },
+    {
+      "key": "l5",
+      "prefix": "The question is not whether we should act, but ",
+      "suffix": ".",
+      "placeholder": "how quickly and decisively we choose to do so",
+      "hint": "\"The question is not whether… but how/what/when…\" — embedded questions for conclusion"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening with noun clauses",
+      "color": "#003876",
+      "items": [
+        "It is clear that the media landscape has changed fundamentally.",
+        "What concerns many researchers is the speed at which false information spreads.",
+        "The fact that 100 companies control most of the world's media is deeply significant.",
+        "Whether social media companies bear responsibility for the content they host is a growing legal question.",
+        "That misinformation can influence elections is now well documented."
+      ]
+    },
+    {
+      "category": "Reporting research and evidence",
+      "color": "#1D9E75",
+      "items": [
+        "Research has demonstrated that emotional content is shared more widely than factual reporting.",
+        "It has been established that news deserts correlate with higher local corruption.",
+        "Studies have found that corrections reach far fewer people than the original false claims.",
+        "It is widely accepted that filter bubbles can reinforce existing beliefs.",
+        "The evidence suggests that media literacy programmes can significantly reduce susceptibility to disinformation."
+      ]
+    },
+    {
+      "category": "Framing debates with embedded questions",
+      "color": "#C9933B",
+      "items": [
+        "The question of whether platforms should be treated as publishers remains unresolved.",
+        "Researchers are examining whether media literacy education is sufficient on its own.",
+        "The matter of who funds journalism significantly affects what gets reported.",
+        "It is unclear how quickly AI-generated deepfakes will undermine trust in visual media.",
+        "Critics wonder whether self-regulation by large platforms can ever be adequate."
+      ]
+    },
+    {
+      "category": "Concluding with noun clauses",
+      "color": "#1B8FC4",
+      "items": [
+        "What is needed is a combination of regulation, education, and civic engagement.",
+        "It is essential that citizens develop critical skills for evaluating information.",
+        "The question is not whether action is needed, but how urgently it must be taken.",
+        "What the evidence ultimately suggests is that a healthy media environment requires active support.",
+        "Whether we choose to act on this knowledge is, ultimately, a question of democratic will."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It is clear ___ media ownership affects the content and framing of news.\" (noun clause)",
+      "opts": [
+        "whether",
+        "what",
+        "that",
+        "how"
+      ],
+      "correct": "that",
+      "hint": "\"It is clear that + clause\" — standard noun clause after evaluative expression",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Research has demonstrated ___ emotional content spreads significantly faster than corrections.\"",
+      "correct": "that",
+      "hint": "\"Demonstrated that + clause\" — reporting verb + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The question of ___ social media platforms should be regulated as publishers is highly contested.\"",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how"
+      ],
+      "correct": "whether",
+      "hint": "\"The question of whether + S + V\" — embedded yes/no question after preposition",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ the evidence makes clear is that media literacy must become a core educational priority.\" (wh-cleft + that-clause)",
+      "correct": "What",
+      "hint": "\"What + S + V + is that + clause\" — combined wh-cleft + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The question is not ___ we should act, but ___ urgently we choose to do so.\"",
+      "opts": [
+        "whether / how",
+        "that / what",
+        "if / whether",
+        "what / that"
+      ],
+      "correct": "whether / how",
+      "hint": "\"Not whether… but how…\" — two embedded questions for contrast",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The debate about if self-regulation is adequate\" is correct formal English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After prepositions: only \"whether\" — \"the debate about whether\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ matters is not just what we read but ___ we evaluate what we read.\" (two wh-clauses)",
+      "correct": "What / how",
+      "hint": "\"What + S + V + is + noun clause\" — what matters is how we evaluate",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It is essential ___ journalism is funded independently of commercial and political interests.\"",
+      "opts": [
+        "whether",
+        "what",
+        "that",
+        "how"
+      ],
+      "correct": "that",
+      "hint": "\"It is essential that + clause\" — formal recommendation + noun clause",
+      "points": 2
+    }
+  ]
+}

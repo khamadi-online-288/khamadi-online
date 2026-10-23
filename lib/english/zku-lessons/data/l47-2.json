@@ -1,0 +1,490 @@
+{
+  "id": "l47-2",
+  "moduleNum": 13,
+  "lessonNum": 2,
+  "moduleTitle": "Phrasal Verbs in Action",
+  "type": "listening",
+  "title": "Give Up or Keep Going?",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Amir, can I ask you something? I've been thinking about giving up the research assistant position.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Really? Why? You just took it on two weeks ago.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I know. But it's taking up too much time. I can't keep up with my coursework and the volleyball training at the same time.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Have you tried cutting back on something else to free up time?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've cut down on social media. And I've put off two friends for the third time this week. I feel bad about that.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Did you talk it over with Professor Sultanova? Maybe she could work something out — a reduced schedule or something.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I haven't brought it up with her yet. I keep putting it off.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "You should bring it up soon. If you carry on like this without saying anything, you'll burn out.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I know. I need to sort it out. I just don't want to let her down.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "She'd rather you speak up now than drop out later. Trust me.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "You're right. I'll set up a meeting with her tomorrow.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Good. And don't put it off again.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I know, I know. Can you help me work out what to say?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Sure. Write down the main points first. Then we'll go over it together.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Thank you. I really didn't want to give this up. I was looking forward to the research.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "And you still can do it — just on terms that work for you. Don't give up on it. Find a way through.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "give up",
+      "emoji": "🏳️",
+      "opts": [
+        "начинать",
+        "сдаваться / бросать",
+        "продолжать",
+        "улучшать"
+      ],
+      "correct": "сдаваться / бросать"
+    },
+    {
+      "id": "p2",
+      "word": "keep up",
+      "emoji": "🏃",
+      "opts": [
+        "отставать",
+        "успевать / не отставать",
+        "замедляться",
+        "отдыхать"
+      ],
+      "correct": "успевать / не отставать"
+    },
+    {
+      "id": "p3",
+      "word": "put off",
+      "emoji": "⏸️",
+      "opts": [
+        "торопить",
+        "откладывать",
+        "отменять",
+        "планировать"
+      ],
+      "correct": "откладывать"
+    },
+    {
+      "id": "p4",
+      "word": "bring up",
+      "emoji": "💬",
+      "opts": [
+        "уходить",
+        "поднимать тему",
+        "рассказывать",
+        "спрашивать"
+      ],
+      "correct": "поднимать тему"
+    },
+    {
+      "id": "p5",
+      "word": "sort out",
+      "emoji": "✅",
+      "opts": [
+        "запутать",
+        "решить / разобраться",
+        "отложить",
+        "пропустить"
+      ],
+      "correct": "решить / разобраться"
+    },
+    {
+      "id": "p6",
+      "word": "let down",
+      "emoji": "😔",
+      "opts": [
+        "поддержать",
+        "разочаровать",
+        "одобрить",
+        "попросить"
+      ],
+      "correct": "разочаровать"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Zhibek is thinking about giving up the research assistant position.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "She has already spoken to Professor Sultanova about the problem.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Amir suggests Zhibek could cut back on other activities.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek has increased her social media use.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Amir says Sultanova would prefer Zhibek to speak up now rather than drop out.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Zhibek decides to give up the position completely.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "😰",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Struggling to manage research + volleyball — considers giving up"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💡",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Advises Zhibek using lots of phrasal verbs naturally"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says the research position is taking up too much time — can't keep up with coursework.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s2",
+      "text": "Suggests she try cutting back on something else to free up time.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Says she hasn't brought the issue up with Professor Sultanova yet.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "Says she should speak up now or she'll burn out.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Says she needs to sort it out and doesn't want to let Sultanova down.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "Tells her to write down the main points and they'll go over it together.",
+      "correctCharId": "amir"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is Zhibek thinking about giving up the research position?",
+      "opts": [
+        "She doesn't like the topic",
+        "It's taking up too much time alongside volleyball and coursework",
+        "The professor is difficult",
+        "She has found a better opportunity"
+      ],
+      "correct": "It's taking up too much time alongside volleyball and coursework",
+      "hint": "\"It's taking up too much time. I can't keep up with my coursework and volleyball training.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek has already discussed the problem with Professor Sultanova.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I haven't brought it up with her yet.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir suggest Zhibek do to free up time?",
+      "opts": [
+        "Drop the volleyball",
+        "Give up the research",
+        "Cut back on other activities",
+        "Ask a friend to help"
+      ],
+      "correct": "Cut back on other activities",
+      "hint": "\"Have you tried cutting back on something else to free up time?\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What phrasal verb does Zhibek use to describe repeatedly delaying the meeting?",
+      "opts": [
+        "putting it off",
+        "carrying it on",
+        "working it out",
+        "setting it up"
+      ],
+      "correct": "putting it off",
+      "hint": "\"I keep putting it off.\" — delaying/postponing."
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir suggest Zhibek might get from Sultanova?",
+      "opts": [
+        "Extra pay",
+        "A reduced schedule",
+        "A different topic",
+        "More time off"
+      ],
+      "correct": "A reduced schedule",
+      "hint": "\"Maybe she could work something out — a reduced schedule or something.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Zhibek's decision at the end of the conversation?",
+      "opts": [
+        "Give up the research completely",
+        "Set up a meeting with Sultanova tomorrow",
+        "Quit volleyball",
+        "Do nothing"
+      ],
+      "correct": "Set up a meeting with Sultanova tomorrow",
+      "hint": "\"I'll set up a meeting with her tomorrow.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir tells Zhibek to give up on the research.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Don't give up on it. Find a way through.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Amir offer to help Zhibek?",
+      "opts": [
+        "By emailing Sultanova for her",
+        "By going over what she should say together",
+        "By taking some of her research tasks",
+        "By speaking to the professor himself"
+      ],
+      "correct": "By going over what she should say together",
+      "hint": "\"Write down the main points first. Then we'll go over it together.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It's taking up too much time.\" — \"taking up\" here means:",
+      "opts": [
+        "using/consuming",
+        "lifting up",
+        "going up",
+        "looking upward"
+      ],
+      "correct": "using/consuming",
+      "hint": "\"take up\" = to use or consume (time, space, energy). \"It's TAKING UP too much time.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I keep putting it off.\" — \"putting off\" means:",
+      "opts": [
+        "cancelling permanently",
+        "completing quickly",
+        "postponing/delaying",
+        "turning off"
+      ],
+      "correct": "postponing/delaying",
+      "hint": "\"put off\" = to postpone or delay. \"I keep PUTTING IT OFF.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've cut down on social media.\" — Can you say \"cut social media down\"?",
+      "opts": [
+        "Yes — separable",
+        "No — inseparable",
+        "Only with nouns",
+        "Only with pronouns"
+      ],
+      "correct": "No — inseparable",
+      "hint": "\"cut down on\" is INSEPARABLE — you cannot split it. \"Cut down on social media\" ✅ NOT \"cut social media down on\"."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I haven't brought ___ up with her yet.\" (the issue)",
+      "correct": "it",
+      "hint": "Separable phrasal verb: \"bring up\" can split: \"bring IT up.\" Pronoun goes between verb and particle. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We'll go over it together.\" — \"go over\" means:",
+      "opts": [
+        "go above it",
+        "review or examine it",
+        "cross it",
+        "ignore it"
+      ],
+      "correct": "review or examine it",
+      "hint": "\"go over\" = to review, examine, or discuss something carefully. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Let her down\" means:",
+      "opts": [
+        "To allow her to sit down",
+        "To disappoint her",
+        "To lower something",
+        "To delay her"
+      ],
+      "correct": "To disappoint her",
+      "hint": "\"let someone down\" = to disappoint someone; to fail to meet their expectations. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Set ___ a meeting.\" (phrasal verb with object)",
+      "correct": "up",
+      "hint": "\"set up\" = to arrange or organise. \"Set UP a meeting.\" ✅ (separable: also \"set it up\")"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Burn out\" means:",
+      "opts": [
+        "Catch fire",
+        "Become exhausted from too much work",
+        "Leave a job",
+        "Solve a problem"
+      ],
+      "correct": "Become exhausted from too much work",
+      "hint": "\"burn out\" = to become completely exhausted from overwork. \"You'll BURN OUT.\" ✅"
+    }
+  ]
+}

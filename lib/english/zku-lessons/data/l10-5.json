@@ -1,0 +1,222 @@
+{
+  "id": "l10-5",
+  "moduleNum": 10,
+  "lessonNum": 6,
+  "moduleTitle": "Yesterday",
+  "title": "Write about your yesterday",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Yesterday was...",
+      "emoji": "📅",
+      "opts": [
+        "Завтра будет...",
+        "Сейчас...",
+        "Вчера было...",
+        "Обычно..."
+      ],
+      "correct": "Вчера было..."
+    },
+    {
+      "id": "p2",
+      "word": "In the morning, I was...",
+      "emoji": "🌅",
+      "opts": [
+        "Утром я делаю...",
+        "Утром я был(а)...",
+        "Утром я буду...",
+        "Каждое утро я..."
+      ],
+      "correct": "Утром я был(а)..."
+    },
+    {
+      "id": "p3",
+      "word": "The weather was...",
+      "emoji": "🌤️",
+      "opts": [
+        "Погода бывает...",
+        "Погода будет...",
+        "Погода была...",
+        "Погода есть..."
+      ],
+      "correct": "Погода была..."
+    },
+    {
+      "id": "p4",
+      "word": "There was / There were...",
+      "emoji": "🏫",
+      "opts": [
+        "Есть / Были...",
+        "Было / Были...",
+        "Будет / Будут...",
+        "Сейчас есть..."
+      ],
+      "correct": "Было / Были..."
+    },
+    {
+      "id": "p5",
+      "word": "I was tired but...",
+      "emoji": "😴",
+      "opts": [
+        "Я устал(а) и...",
+        "Я был(а) уставший, но...",
+        "Я не был(а) уставший...",
+        "Я буду уставший..."
+      ],
+      "correct": "Я был(а) уставший, но..."
+    },
+    {
+      "id": "p6",
+      "word": "Overall, yesterday was...",
+      "emoji": "✍️",
+      "opts": [
+        "Обычно вчера...",
+        "В целом, вчера было...",
+        "Сегодня в целом...",
+        "Завтра в целом..."
+      ],
+      "correct": "В целом, вчера было..."
+    }
+  ],
+  "writingModel": [
+    "Yesterday was Thursday, the fifteenth of October. The weather was cool but dry — there was a pale blue sky above the WKU campus. It was a busy day from start to finish. I want to describe it as clearly as I can, because it was one of those ordinary days that turn out to be important.",
+    "In the morning, I was at my first lecture at eight o'clock sharp. The topic was the history of international law. Our professor, Dr. Nurgali, was excellent — his explanations were clear and his examples were memorable. I was completely focused and my notes were detailed. After the lecture, there was a fifteen-minute break. I was in the corridor with Asel. She was tired because the lecture was early and her dormitory was far from the main building.",
+    "At lunchtime, the WKU cafeteria was busy as usual. The menu was simple but very satisfying: there was rice with chicken and fresh salad. The portions were generous and the prices were very affordable for students. I was at a table with three classmates from my Law group. The mood was relaxed and there were a lot of laughs. For thirty minutes, we were not students — we were just friends.",
+    "In the afternoon, there was a group study session in the university library. The topic was contract law — a complex but fascinating area of study. There were four of us: me, Asel, Marat, and Timur. The session was productive and useful. The library was quiet and the atmosphere was calm. At the end, I was satisfied. The material was difficult, but we were all a little bit wiser.",
+    "In the evening, I was in my dormitory room by seven o'clock. I was on the phone with my parents in Taraz for about half an hour. My mother was happy to hear my voice. My younger brother was at a football match — he was so excited and loud in the background! After the call, I was tired but content. I was in bed by ten. Overall, yesterday was a good, productive, ordinary day. And sometimes, those are the very best days of all."
+  ],
+  "writingTemplate": [
+    {
+      "key": "date",
+      "prefix": "Yesterday was ",
+      "suffix": ".",
+      "placeholder": "day + date",
+      "hint": "e.g. Monday, the 12th of October / Thursday, the 15th of October"
+    },
+    {
+      "key": "weather",
+      "prefix": "The weather was ",
+      "suffix": ".",
+      "placeholder": "adjective(s)",
+      "hint": "e.g. sunny and warm / cold and rainy / cool but dry"
+    },
+    {
+      "key": "morning",
+      "prefix": "In the morning, I was ",
+      "suffix": ".",
+      "placeholder": "place or activity",
+      "hint": "e.g. at my lecture / in the library / at home / late to class"
+    },
+    {
+      "key": "class",
+      "prefix": "The ",
+      "suffix": " was ___.",
+      "placeholder": "lecture/lesson/exam ... adjective",
+      "hint": "e.g. lecture was interesting / exam was difficult / class was long"
+    },
+    {
+      "key": "lunch",
+      "prefix": "At lunchtime, ",
+      "suffix": ".",
+      "placeholder": "describe the cafeteria/food/people",
+      "hint": "e.g. the cafeteria was crowded / I was with my friends / the food was delicious"
+    },
+    {
+      "key": "afternoon",
+      "prefix": "In the afternoon, there was ",
+      "suffix": ".",
+      "placeholder": "something that happened",
+      "hint": "e.g. a study session / a group meeting / a free hour / an unexpected quiz"
+    },
+    {
+      "key": "other",
+      "prefix": "In the evening, my ",
+      "suffix": " was ___.",
+      "placeholder": "family member or friend ... doing something",
+      "hint": "e.g. mother was happy / friend was tired / roommate was kind"
+    },
+    {
+      "key": "feeling",
+      "prefix": "I was ",
+      "suffix": " at the end of the day.",
+      "placeholder": "adjective + (but adjective)",
+      "hint": "e.g. tired but satisfied / exhausted but proud / happy and relaxed"
+    },
+    {
+      "key": "end",
+      "prefix": "Overall, yesterday was ",
+      "suffix": " because ___.",
+      "placeholder": "adjective ... reason",
+      "hint": "e.g. a great day ... my team was the winner / a hard day ... the exam was difficult"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Starting your entry — time & date",
+      "color": "#003876",
+      "items": [
+        "Yesterday was [day], the [number] of [month].",
+        "It was [adjective] from start to finish.",
+        "The weather was [sunny / cold / rainy / windy].",
+        "There was [a strong wind / beautiful sunshine / heavy rain].",
+        "It was one of those days that...",
+        "I want to describe my day because it was..."
+      ]
+    },
+    {
+      "category": "Describing WHERE you were",
+      "color": "#1B8FC4",
+      "items": [
+        "In the morning, I was at my lecture / in the library.",
+        "At lunchtime, I was in the cafeteria with [name].",
+        "In the afternoon, there was a [study session / lecture / quiz].",
+        "In the evening, I was in my dormitory room.",
+        "I was [alone / with friends / with my group].",
+        "There were [number] of us at the table / in the room."
+      ]
+    },
+    {
+      "category": "Describing what things WERE like",
+      "color": "#7C3AED",
+      "items": [
+        "The lecture / exam was [interesting / difficult / long / fascinating].",
+        "The cafeteria was [busy / quiet / crowded / full of students].",
+        "The portions were [generous / small]. The food was [delicious / cold / simple].",
+        "The atmosphere was [relaxed / tense / calm / productive].",
+        "My notes were [clear / incomplete / detailed].",
+        "The questions were [easy / very difficult / unexpected]."
+      ]
+    },
+    {
+      "category": "Feelings & conclusions",
+      "color": "#1D9E75",
+      "items": [
+        "I was tired but [satisfied / happy / proud / determined].",
+        "I was [embarrassed / nervous / excited / proud] because...",
+        "It was a [great / difficult / ordinary / unforgettable] day.",
+        "Overall, yesterday was... because...",
+        "I was in bed by [time] — I needed the rest!",
+        "Those are sometimes the best days of all."
+      ]
+    }
+  ]
+}

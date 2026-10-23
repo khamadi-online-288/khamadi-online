@@ -1,0 +1,546 @@
+{
+  "id": "l40-g2",
+  "moduleNum": 6,
+  "lessonNum": 5,
+  "moduleTitle": "Life Experiences",
+  "type": "grammar",
+  "title": "Present Perfect vs Past Simple: Time Expressions",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect vs Past Simple — Choosing the Right Tense",
+  "grammarNote": "Это одна из самых важных — и самых путающих — тем в английском. Present Perfect используется, когда нет конкретного времени в прошлом (или важен результат, а не момент). Past Simple используется, когда ЕСТЬ конкретное время или момент в прошлом. Ключевые слова-подсказки помогают правильно выбирать время.",
+  "grammarTable": [
+    {
+      "subject": "Present Perfect",
+      "verb": "Have you ever been?",
+      "short": "ever / never",
+      "example": "\"Have you ever been to Almaty?\" (life experience — no specific time)"
+    },
+    {
+      "subject": "Present Perfect",
+      "verb": "I've already done it.",
+      "short": "already / yet / just",
+      "example": "\"She's already applied.\" / \"Have you finished yet?\" / \"I've just arrived.\""
+    },
+    {
+      "subject": "Present Perfect",
+      "verb": "I've known her since.",
+      "short": "since / for",
+      "example": "\"I've known her since school.\" / \"She's played for fifteen years.\""
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "I went last summer.",
+      "short": "last / ago / in + year",
+      "example": "\"I went there last summer.\" / \"She won in 2022.\" / \"He left two hours ago.\""
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "I saw it yesterday.",
+      "short": "yesterday / when",
+      "example": "\"I saw the film yesterday.\" / \"When did you go?\""
+    },
+    {
+      "subject": "PP → PS pattern",
+      "verb": "Have you...? — When?",
+      "short": "PP → specific time → PS",
+      "example": "\"Have you been to Almaty?\" → \"Yes, I went last June.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Present Perfect signals — no specific past time",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "ever / never",
+          "example": "\"Have you EVER been abroad?\" / \"I've NEVER met the president.\""
+        },
+        {
+          "form": "already / yet",
+          "example": "\"She's ALREADY applied.\" / \"Have you finished YET?\" / \"Not yet.\""
+        },
+        {
+          "form": "just",
+          "example": "\"I've JUST arrived.\" = a moment ago, very recently."
+        },
+        {
+          "form": "recently / lately",
+          "example": "\"Have you seen him RECENTLY?\" / \"She's been busy LATELY.\""
+        },
+        {
+          "form": "since / for",
+          "example": "\"SINCE 2020\" (start point) / \"FOR three years\" (duration)."
+        },
+        {
+          "form": "so far / up to now",
+          "example": "\"She's done well SO FAR.\" / \"What have you achieved UP TO NOW?\""
+        }
+      ]
+    },
+    {
+      "title": "Past Simple signals — specific past time",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "yesterday",
+          "example": "\"I saw him YESTERDAY.\" (completed in the past, specific time)"
+        },
+        {
+          "form": "last + time",
+          "example": "\"LAST week / LAST summer / LAST year.\" → always Past Simple."
+        },
+        {
+          "form": "in + year",
+          "example": "\"She won IN 2022.\" / \"He arrived IN July.\" → specific time."
+        },
+        {
+          "form": "ago",
+          "example": "\"Three weeks AGO.\" / \"Two hours AGO.\" → Past Simple."
+        },
+        {
+          "form": "when (specific)",
+          "example": "\"WHEN I was a child...\" / \"WHEN did you go?\" → Past Simple."
+        },
+        {
+          "form": "at + time",
+          "example": "\"AT 7 p.m. / AT midnight / AT that moment.\" → Past Simple."
+        }
+      ]
+    },
+    {
+      "title": "The PP → PS pattern (very common in conversation)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Introduce with PP",
+          "example": "\"Have you BEEN to Shymkent?\" (life experience, no time)"
+        },
+        {
+          "form": "Follow with PS",
+          "example": "\"Yes, I WENT there in 2021.\" (now I give a specific time)"
+        },
+        {
+          "form": "Never reverse",
+          "example": "✗ \"Did you go there?\" → ✅ \"Have you been there?\" (then follow with PS if yes)"
+        },
+        {
+          "form": "Natural pattern",
+          "example": "\"I've seen that film.\" → \"Really? When did you see it?\" → \"I saw it last Friday.\""
+        }
+      ]
+    },
+    {
+      "title": "❌ Common errors at A2 level",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I have seen him yesterday.\"",
+          "example": "✅ \"I saw him yesterday.\" — \"yesterday\" → Past Simple!"
+        },
+        {
+          "form": "✗ \"Did you ever go to Almaty?\"",
+          "example": "✅ \"Have you ever been to Almaty?\" — \"ever\" → PP!"
+        },
+        {
+          "form": "✗ \"She has won in 2022.\"",
+          "example": "✅ \"She won in 2022.\" — \"in 2022\" → Past Simple!"
+        },
+        {
+          "form": "✗ \"I've already seen it yesterday.\"",
+          "example": "✅ Use one or the other: \"I've already seen it.\" OR \"I saw it yesterday.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главный секрет выбора времени:\n① Есть ли конкретное время в предложении? (yesterday, last week, in 2022, ago) → Past Simple\n② Нет времени, но есть ever/never/already/yet/just/since/for? → Present Perfect\n③ Паттерн разговора: PP для общего вопроса → PS для деталей с временем.\n\n💡 Тест: мысленно спроси \"КОГДА?\"\n→ \"I've been to Almaty.\" Когда? Непонятно = Present Perfect ✅\n→ \"I went to Almaty last summer.\" Когда? \"Last summer\" = Past Simple ✅\n\n⚠️ НИКОГДА не используй PP с: yesterday, last night/week/year, in 2022, ago, at that moment.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose Past Simple or Present Perfect.",
+      "text": "Kamila ___ (go) to Almaty last summer.",
+      "opts": [
+        "has gone",
+        "went",
+        "have gone",
+        "goes"
+      ],
+      "correct": "went",
+      "hint": "\"last summer\" = specific past time → Past Simple. \"Kamila went last summer.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose Past Simple or Present Perfect.",
+      "text": "Zhibek ___ (win) two regional championships.",
+      "opts": [
+        "won",
+        "has won",
+        "had won",
+        "wins"
+      ],
+      "correct": "has won",
+      "hint": "No specific time given → Present Perfect. \"She has won two championships.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I have seen him yesterday\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"I saw him yesterday.\" — \"yesterday\" = specific past time → ALWAYS Past Simple!"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "\"___ you ever ___ (be) abroad?\" — General life experience question.",
+      "opts": [
+        "Did / go",
+        "Have / been",
+        "Do / been",
+        "Were / go"
+      ],
+      "correct": "Have / been",
+      "hint": "\"ever\" + life experience (no specific time) → Present Perfect. \"Have you ever been abroad?\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct tense.",
+      "text": "\"I ___ (read) the Aitmatov novel in 2022.\"",
+      "correct": "read",
+      "hint": "\"in 2022\" = specific past year → Past Simple. \"I read the novel in 2022.\" ✅ (read: /red/)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Complete the natural conversation pattern.",
+      "text": "\"Have you been to Shymkent?\" — \"Yes, I ___ there in 2021.\"",
+      "opts": [
+        "have gone",
+        "have been",
+        "went",
+        "go"
+      ],
+      "correct": "went",
+      "hint": "PP (general question) → PS when specific time is given. \"Yes, I went there in 2021.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "\"She ___ (already / apply) for the master's programme.\"",
+      "opts": [
+        "already applied",
+        "has already applied",
+        "had already applied",
+        "applies already"
+      ],
+      "correct": "has already applied",
+      "hint": "\"already\" → Present Perfect. \"She's already applied.\" ✅ (already goes BEFORE the past participle)"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with Past Simple.",
+      "text": "\"He ___ (win) the regional championship three years ago.\"",
+      "correct": "won",
+      "hint": "\"ago\" = specific past time → Past Simple. \"He won the championship three years ago.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "\"___ you finish the exercise yet?\" — \"No, I haven't.\"",
+      "opts": [
+        "Did",
+        "Have",
+        "Do",
+        "Are"
+      ],
+      "correct": "Have",
+      "hint": "\"yet\" → Present Perfect question. \"Have you finished yet?\" ✅ (not \"Did you finish yet?\")"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Choose Present Perfect or Past Simple.",
+      "text": "\"I ___ (know) her since secondary school.\"",
+      "correct": "'ve known",
+      "hint": "\"since\" = start point to now → Present Perfect. \"I've known her since secondary school.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She has won the championship in 2022.",
+        "She won the championship in 2022.",
+        "She has won the championship in 2022 last year.",
+        "She did win the championship."
+      ],
+      "correct": "She won the championship in 2022.",
+      "hint": "\"in 2022\" = specific year → Past Simple. \"She won in 2022.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "\"I ___ (just / arrive) at the library. I'm looking for Amir.\"",
+      "opts": [
+        "just arrived",
+        "have just arrived",
+        "just have arrived",
+        "had just arrived"
+      ],
+      "correct": "have just arrived",
+      "hint": "\"just\" → Present Perfect. \"I've just arrived.\" = a moment ago, very recently. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I went to Almaty last year.\" — Why Past Simple?",
+      "opts": [
+        "No specific time",
+        "\"Last year\" is a specific past time",
+        "\"Went\" is always PS",
+        "No reason"
+      ],
+      "correct": "\"Last year\" is a specific past time",
+      "hint": "\"last year / last week / yesterday / in 2022\" → ALWAYS Past Simple."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Have you ever been to Bishkek?\" — Why Present Perfect?",
+      "opts": [
+        "Because she went recently",
+        "\"Ever\" = no specific time — life experience",
+        "\"Been\" is always PP",
+        "No reason"
+      ],
+      "correct": "\"Ever\" = no specific time — life experience",
+      "hint": "\"ever\" signals a PP question about life experience. No specific past time mentioned."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (win) the championship ___ ago.\" Use correct tense.",
+      "correct": "won / three years",
+      "hint": "\"ago\" = specific past time → Past Simple. \"She won the championship three years ago.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "I have seen him yesterday.",
+        "I saw him yesterday.",
+        "I have seen him last night.",
+        "I did see him yesterday."
+      ],
+      "correct": "I saw him yesterday.",
+      "hint": "\"yesterday\" → ALWAYS Past Simple. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ (apply) for the master's programme.\" (she just did it, no time given)",
+      "opts": [
+        "applied",
+        "has applied",
+        "is applied",
+        "had applied"
+      ],
+      "correct": "has applied",
+      "hint": "No specific time → PP. \"She has applied.\" ✅ Add \"already\": \"She's already applied.\""
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Have you finished the book?\" — \"Yes, I finished ___ .\"",
+      "opts": [
+        "just",
+        "yesterday",
+        "it last night",
+        "yet"
+      ],
+      "correct": "it last night",
+      "hint": "\"Last night\" = specific time → PS: \"Yes, I finished it last night.\" ✅ (Question: PP. Answer: PS because specific time.)"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (play) volleyball since he was a child.\"",
+      "correct": "'s played",
+      "hint": "\"since\" = PP. \"He's played volleyball since he was a child.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ you ever ___ (meet) a famous person?\" — General experience.",
+      "opts": [
+        "Did / met",
+        "Have / met",
+        "Do / meet",
+        "Were / met"
+      ],
+      "correct": "Have / met",
+      "hint": "\"ever\" → PP. \"Have you ever MET a famous person?\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've ___ arrived at the station.\" — Which word fits here?",
+      "opts": [
+        "yet",
+        "just",
+        "ago",
+        "last"
+      ],
+      "correct": "just",
+      "hint": "\"just\" = very recently, a moment ago. \"I've just arrived.\" = PP + just ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has won in 2022.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"in 2022\" needs Past Simple: \"she won in 2022\"",
+        "\"Has\" should be \"is\"",
+        "\"Won\" should be \"winned\""
+      ],
+      "correct": "\"in 2022\" needs Past Simple: \"she won in 2022\"",
+      "hint": "\"in 2022\" = specific year → Past Simple. ✅ \"She WON in 2022.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Have you seen the new film?\" — \"No, not ___ . I'll watch it tomorrow.\"",
+      "correct": "yet",
+      "hint": "\"yet\" goes at the end of PP negative questions and answers. \"Not yet.\" = \"No, I haven't yet.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been playing volleyball since she was nine.\" — \"since\" means:",
+      "opts": [
+        "for a total duration",
+        "from a starting point in the past until now",
+        "a specific past time",
+        "an amount of time"
+      ],
+      "correct": "from a starting point in the past until now",
+      "hint": "\"since\" = from a starting point (she was nine) until NOW. Still playing now! ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Natural conversation: \"Have you seen Inception?\" → \"Yes, ___\"",
+      "opts": [
+        "I've seen it last year.",
+        "I saw it last year.",
+        "I have seen it last year.",
+        "I seen it last year."
+      ],
+      "correct": "I saw it last year.",
+      "hint": "PP question → PS answer (when specific time is given). \"I saw it last year.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's ___ applied for the scholarship — before the deadline.\"",
+      "opts": [
+        "yet",
+        "already",
+        "just now",
+        "yesterday"
+      ],
+      "correct": "already",
+      "hint": "\"already\" = before expected time, action is done. \"She's already applied.\" ✅ (position: before participle)"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (win) three awards in his career so far.\"",
+      "correct": "'s won",
+      "hint": "\"so far\" = from beginning until now (no specific time) → PP. \"He's won three awards so far.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence correctly uses PP signal words?",
+      "opts": [
+        "\"I have seen him yesterday.\"",
+        "\"She has won in 2020.\"",
+        "\"Have you ever tried Kazakh cuisine?\"",
+        "\"Did you just arrived?\""
+      ],
+      "correct": "\"Have you ever tried Kazakh cuisine?\"",
+      "hint": "\"ever\" = PP signal. \"Have you ever TRIED...?\" ✅ Others have specific past time signals → should be PS."
+    }
+  ]
+}

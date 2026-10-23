@@ -1,0 +1,496 @@
+{
+  "id": "l44-3",
+  "moduleNum": 10,
+  "lessonNum": 3,
+  "moduleTitle": "Around the City",
+  "type": "listening",
+  "title": "Following Directions on the Phone",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Daniyar",
+      "text": "Rustam, I'm completely lost. I'm trying to get to the regional library but I can't find it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Okay, where are you right now?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "I'm at the bus stop opposite the Central Mosque. I can see a pharmacy across the street.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Perfect — I know exactly where you are. The library is about ten minutes on foot. Are you facing the mosque?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Yes, I'm facing it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Good. Turn left and walk along the main road. Don't cross the road yet — stay on the same side as the mosque.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Okay, walking along now.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "After about three minutes you'll pass a large bank on your left. Just past the bank, there's a pedestrian crossing. Cross the road there.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Got it. I can see the bank. Crossing now.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Once you're across, turn right. You'll be walking along a narrower street now. Go past a small park on your right — don't go into the park, just keep going straight.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Okay, past the park. There's a café on the corner.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Yes — at that café, turn left. Walk through a short tunnel under the railway line. It takes about thirty seconds.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Through the tunnel — okay. I'm in it now. Bit dark.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Once you come out of the tunnel, you'll see a large building with blue glass directly ahead. That's not the library — that's the city administration. Turn right at that building.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Okay, turning right. I can see a sign.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "The library is at the end of that street, at the top of some steps. Go up the steps and through the main entrance.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "I can see it! Steps and everything. Thank you!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Good. Next time, save it on your maps app.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "pedestrian crossing",
+      "emoji": "🚶",
+      "opts": [
+        "светофор",
+        "пешеходный переход",
+        "тротуар",
+        "дорожный знак"
+      ],
+      "correct": "пешеходный переход"
+    },
+    {
+      "id": "p2",
+      "word": "tunnel",
+      "emoji": "🚇",
+      "opts": [
+        "мост",
+        "туннель",
+        "арка",
+        "переход"
+      ],
+      "correct": "туннель"
+    },
+    {
+      "id": "p3",
+      "word": "railway line",
+      "emoji": "🚂",
+      "opts": [
+        "автодорога",
+        "железнодорожная линия",
+        "метро",
+        "трамвайный путь"
+      ],
+      "correct": "железнодорожная линия"
+    },
+    {
+      "id": "p4",
+      "word": "directly ahead",
+      "emoji": "⬆️",
+      "opts": [
+        "справа",
+        "прямо впереди",
+        "слева",
+        "позади"
+      ],
+      "correct": "прямо впереди"
+    },
+    {
+      "id": "p5",
+      "word": "steps",
+      "emoji": "🪜",
+      "opts": [
+        "лифт",
+        "ступени",
+        "пандус",
+        "платформа"
+      ],
+      "correct": "ступени"
+    },
+    {
+      "id": "p6",
+      "word": "narrow",
+      "emoji": "↔️",
+      "opts": [
+        "широкий",
+        "узкий",
+        "длинный",
+        "короткий"
+      ],
+      "correct": "узкий"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Daniyar is standing at the bus stop opposite the Central Mosque.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Rustam tells Daniyar to cross the road immediately.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Daniyar should cross at the pedestrian crossing just past the bank.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The café is in the park.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Daniyar walks through a tunnel under a railway line.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The large blue glass building is the library.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "📍",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Lost in Uralsk — needs directions to the library"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "🗺️",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Gives step-by-step directions over the phone"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Is at the bus stop opposite the mosque, with a pharmacy across the street.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s2",
+      "text": "Tells Daniyar to walk along the main road without crossing yet.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Crosses the road at the pedestrian crossing just past the bank.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s4",
+      "text": "Tells Daniyar to walk through a short tunnel under the railway line.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Says the blue glass building is the city administration, not the library.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Arrives at the library — goes up the steps and sees the entrance.",
+      "correctCharId": "daniyar"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Daniyar when he calls Rustam?",
+      "opts": [
+        "At the library",
+        "At the university",
+        "At the bus stop opposite the Central Mosque",
+        "In the park"
+      ],
+      "correct": "At the bus stop opposite the Central Mosque",
+      "hint": "\"I'm at the bus stop opposite the Central Mosque.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Daniyar told to do first?",
+      "opts": [
+        "Cross the road",
+        "Enter the mosque",
+        "Turn left and walk along the main road",
+        "Take a bus"
+      ],
+      "correct": "Turn left and walk along the main road",
+      "hint": "\"Turn left and walk along the main road. Don't cross the road yet.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is the pedestrian crossing?",
+      "opts": [
+        "Before the bank",
+        "Opposite the mosque",
+        "Just past the bank on the left",
+        "At the roundabout"
+      ],
+      "correct": "Just past the bank on the left",
+      "hint": "\"Just past the bank, there's a pedestrian crossing.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar should go into the park.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Go past a small park on your right — don't go into the park, just keep going straight.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Daniyar walks ___ a tunnel under the railway line.",
+      "correct": "through",
+      "hint": "\"Walk through a short tunnel under the railway line.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the blue glass building?",
+      "opts": [
+        "The library",
+        "The university",
+        "The city administration",
+        "A museum"
+      ],
+      "correct": "The city administration",
+      "hint": "\"That's not the library — that's the city administration.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Daniyar reach the library entrance?",
+      "opts": [
+        "Through a gate",
+        "Down some steps",
+        "Up some steps and through the main entrance",
+        "Through a tunnel"
+      ],
+      "correct": "Up some steps and through the main entrance",
+      "hint": "\"The library is at the end of that street, at the top of some steps. Go up the steps and through the main entrance.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Rustam advise at the end of the call?",
+      "opts": [
+        "To always call for help",
+        "To buy a map",
+        "To save the library location in a maps app",
+        "To come back by bus"
+      ],
+      "correct": "To save the library location in a maps app",
+      "hint": "\"Next time, save it on your maps app.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk along the main road.\" \"Along\" means:",
+      "opts": [
+        "Across",
+        "Following the length of",
+        "Through",
+        "Above"
+      ],
+      "correct": "Following the length of",
+      "hint": "\"along\" = following the length of something (a road, river, corridor)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Cross the road.\" \"Cross\" is used when you move:",
+      "opts": [
+        "Along a road",
+        "From one side to the other",
+        "Through a tunnel",
+        "Past a landmark"
+      ],
+      "correct": "From one side to the other",
+      "hint": "\"cross\" = move from one side to the other (crossing a road, bridge, room). ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Walk ___ a short tunnel under the railway line.\"",
+      "correct": "through",
+      "hint": "\"through\" = entering and exiting the other side of an enclosed space. \"Walk THROUGH a tunnel.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Go past the bank.\" \"Past\" means:",
+      "opts": [
+        "Stop at",
+        "Cross through",
+        "Continue beyond (don't stop)",
+        "Turn at"
+      ],
+      "correct": "Continue beyond (don't stop)",
+      "hint": "\"past\" = move beyond something without stopping. \"Go PAST the bank\" = walk by the bank and keep going."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The library is at the top of some steps.\" \"At the top of\" means:",
+      "opts": [
+        "Below",
+        "Beside",
+        "At the highest point of",
+        "Half-way up"
+      ],
+      "correct": "At the highest point of",
+      "hint": "\"at the top of the steps\" = at the highest point; when you've climbed all the steps."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Stay on the same side as the mosque.\" \"On the same side as\" means:",
+      "opts": [
+        "Opposite to",
+        "Adjacent to on the same side",
+        "Away from",
+        "Behind"
+      ],
+      "correct": "Adjacent to on the same side",
+      "hint": "\"on the same side as\" = on the identical side; don't cross — remain on this side of the road."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Once you come ___ of the tunnel, you'll see the building.\"",
+      "correct": "out",
+      "hint": "\"come OUT OF\" = exit an enclosed space. \"Come out of the tunnel.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Go up the steps.\" \"Up\" is used because:",
+      "opts": [
+        "The steps go underground",
+        "The steps lead to a higher level",
+        "The steps are long",
+        "You go across the steps"
+      ],
+      "correct": "The steps lead to a higher level",
+      "hint": "\"up\" = moving to a higher position. \"Go UP the steps\" = climb to where the steps lead."
+    }
+  ]
+}

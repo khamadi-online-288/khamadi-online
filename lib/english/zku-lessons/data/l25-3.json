@@ -1,0 +1,467 @@
+{
+  "id": "l25-3",
+  "moduleNum": 9,
+  "lessonNum": 3,
+  "moduleTitle": "Have you ever…?",
+  "title": "An Interview: Life Experiences",
+  "type": "listening",
+  "xp": 35,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Hello, and welcome to WKU Radio! Today we're talking to Zhibek Akhmetova, a second-year English student. Zhibek, have you always wanted to study English?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Not always! I used to think English was just for businesspeople. But my attitude has completely changed. I've realised it opens every door — science, culture, travel, everything.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Interesting! Have you ever lived or studied abroad?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Not yet, but I've applied for an exchange programme in Edinburgh. I've always dreamed of studying in Scotland. I haven't heard back yet, but I'm hopeful.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Exciting! And what experiences in Kazakhstan have shaped you most? Have you ever done something that really changed your perspective?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Yes! I've volunteered at a children's hospital in Uralsk for two years. I've met so many incredible young people there. It's completely changed how I see life. I've learned that attitude matters more than circumstances.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "That's powerful. Have you ever performed on stage? I know you studied dance.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Yes! I've danced in twelve public performances. The first time was terrifying — I'd never performed in front of more than fifty people before. But now I love it. I've also choreographed three short pieces.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Twelve performances! That's impressive. Has anything ever gone wrong on stage?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Ha! Once the music stopped mid-performance. I'd never experienced anything like that before. But we kept dancing in silence for thirty seconds until it came back on. The audience loved it — they gave us a standing ovation!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Amazing! What's the most unusual thing you've ever tried?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've tried making traditional Kazakh clothing from scratch. It took six months. I've worn it at Nauryz twice now. People always ask me where I bought it — I love telling them I made it myself!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Wonderful. One last question — what's something you've never done but really want to try?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've never seen the Northern Lights. That's my number one dream experience. I haven't saved enough money yet, but it's top of my list!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I've realised that...",
+      "ru": "Я осознала, что...",
+      "context": "I've realised it opens every door."
+    },
+    {
+      "phrase": "I haven't heard back yet",
+      "ru": "Я ещё не получила ответа",
+      "context": "I haven't heard back yet, but I'm hopeful."
+    },
+    {
+      "phrase": "change one's perspective",
+      "ru": "изменить точку зрения",
+      "context": "Something that really changed your perspective."
+    },
+    {
+      "phrase": "standing ovation",
+      "ru": "овация стоя",
+      "context": "They gave us a standing ovation!"
+    },
+    {
+      "phrase": "from scratch",
+      "ru": "с нуля / самостоятельно",
+      "context": "I've tried making traditional Kazakh clothing from scratch."
+    },
+    {
+      "phrase": "attitude matters more than circumstances",
+      "ru": "отношение важнее обстоятельств",
+      "context": "Attitude matters more than circumstances."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "volunteer",
+      "ipa": "/ˌvɒlənˈtɪər/",
+      "pos": "verb",
+      "ru": "волонтёрить",
+      "kz": "еріктілер",
+      "emoji": "🙋",
+      "definition": "to freely offer to do something without being paid",
+      "example": "Zhibek has volunteered at a children's hospital for two years.",
+      "collocations": [
+        "volunteer at",
+        "volunteer work",
+        "community volunteer"
+      ]
+    },
+    {
+      "en": "perspective",
+      "ipa": "/pəˈspektɪv/",
+      "pos": "noun",
+      "ru": "перспектива / точка зрения",
+      "kz": "көзқарас",
+      "emoji": "👁️",
+      "definition": "a particular way of thinking about or understanding something",
+      "example": "Volunteering completely changed her perspective on life.",
+      "collocations": [
+        "new perspective",
+        "change perspective",
+        "different perspective"
+      ]
+    },
+    {
+      "en": "choreograph",
+      "ipa": "/ˈkɒriəɡrɑːf/",
+      "pos": "verb",
+      "ru": "ставить хореографию",
+      "kz": "хореография жасау",
+      "emoji": "💃",
+      "definition": "to design and arrange the movements of a dance",
+      "example": "Zhibek has choreographed three short dance pieces.",
+      "collocations": [
+        "choreograph a dance",
+        "professionally choreographed",
+        "choreograph a performance"
+      ]
+    },
+    {
+      "en": "ovation",
+      "ipa": "/əʊˈveɪʃn/",
+      "pos": "noun",
+      "ru": "овация",
+      "kz": "овация",
+      "emoji": "👏",
+      "definition": "sustained applause from an audience",
+      "example": "The audience gave them a standing ovation.",
+      "collocations": [
+        "standing ovation",
+        "receive an ovation",
+        "thunderous ovation"
+      ]
+    },
+    {
+      "en": "exchange programme",
+      "ipa": "/ɪkˈstʃeɪndʒ ˈprəʊɡræm/",
+      "pos": "noun",
+      "ru": "программа обмена",
+      "kz": "алмасу бағдарламасы",
+      "emoji": "✈️",
+      "definition": "a programme where students study at a foreign university for a period",
+      "example": "Zhibek has applied for an exchange programme in Edinburgh.",
+      "collocations": [
+        "student exchange",
+        "join an exchange programme",
+        "apply for an exchange"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "pt1",
+      "word": "volunteer",
+      "emoji": "🙋",
+      "opts": [
+        "to work for payment",
+        "to freely help without pay",
+        "to study abroad",
+        "to perform on stage"
+      ],
+      "correct": "to freely help without pay"
+    },
+    {
+      "id": "pt2",
+      "word": "perspective",
+      "emoji": "👁️",
+      "opts": [
+        "a type of dance move",
+        "a way of thinking about something",
+        "a musical performance",
+        "a university subject"
+      ],
+      "correct": "a way of thinking about something"
+    },
+    {
+      "id": "pt3",
+      "word": "ovation",
+      "emoji": "👏",
+      "opts": [
+        "a type of mistake",
+        "loud and sustained applause",
+        "a dance move",
+        "a standing position"
+      ],
+      "correct": "loud and sustained applause"
+    }
+  ],
+  "task1Bank": [
+    "has volunteered",
+    "has applied",
+    "has danced",
+    "has choreographed",
+    "has tried",
+    "hasn't heard",
+    "hasn't saved",
+    "has never seen"
+  ],
+  "task1Items": [
+    {
+      "id": "t1a",
+      "question": "Zhibek ___ at a children's hospital for two years.",
+      "correct": "has volunteered"
+    },
+    {
+      "id": "t1b",
+      "question": "She ___ for an exchange programme in Edinburgh.",
+      "correct": "has applied"
+    },
+    {
+      "id": "t1c",
+      "question": "She ___ in twelve public performances.",
+      "correct": "has danced"
+    },
+    {
+      "id": "t1d",
+      "question": "She ___ three short dance pieces.",
+      "correct": "has choreographed"
+    },
+    {
+      "id": "t1e",
+      "question": "She ___ the Northern Lights.",
+      "correct": "has never seen"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "t2a",
+      "statement": "Zhibek has already received a reply from the exchange programme.",
+      "correct": "false"
+    },
+    {
+      "id": "t2b",
+      "statement": "Zhibek has performed on stage twelve times.",
+      "correct": "true"
+    },
+    {
+      "id": "t2c",
+      "statement": "When the music stopped, Zhibek and her group stopped dancing too.",
+      "correct": "false"
+    },
+    {
+      "id": "t2d",
+      "statement": "Zhibek has made traditional Kazakh clothing herself.",
+      "correct": "true"
+    },
+    {
+      "id": "t2e",
+      "statement": "Seeing the Northern Lights is Zhibek's top dream experience.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "host",
+      "name": "Interviewer",
+      "city": "WKU Radio",
+      "emoji": "🎙️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "WKU Radio Host"
+    },
+    {
+      "id": "zhib",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU Student"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has volunteered at a children's hospital for two years.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s2",
+      "text": "Applied for an exchange programme in Edinburgh.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s3",
+      "text": "Has danced in twelve public performances.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s4",
+      "text": "Asked about Zhibek's most unusual experience.",
+      "correctCharId": "host"
+    },
+    {
+      "id": "s5",
+      "text": "Has made traditional Kazakh clothing from scratch.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s6",
+      "text": "Has never seen the Northern Lights — her top dream.",
+      "correctCharId": "zhib"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Where has Zhibek applied for an exchange programme?",
+      "opts": [
+        "London",
+        "Edinburgh",
+        "Dublin",
+        "Toronto"
+      ],
+      "correct": "Edinburgh",
+      "hint": "Zhibek said she has applied for an exchange programme in Edinburgh."
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek has already heard back from the exchange programme.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zhibek said \"I haven't heard back yet.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "For how long has Zhibek volunteered at the children's hospital?",
+      "opts": [
+        "One year",
+        "Two years",
+        "Three years",
+        "Five years"
+      ],
+      "correct": "Two years",
+      "hint": "\"I've volunteered at a children's hospital in Uralsk for two years.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek has danced in ___ public performances.",
+      "correct": "twelve",
+      "hint": "\"I've danced in twelve public performances.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What happened when the music stopped during a performance?",
+      "opts": [
+        "They stopped dancing",
+        "They left the stage",
+        "They kept dancing in silence",
+        "They started singing instead"
+      ],
+      "correct": "They kept dancing in silence",
+      "hint": "\"We kept dancing in silence for thirty seconds until it came back on.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek bought her traditional Kazakh clothing from a shop.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She said she made it herself from scratch — it took six months."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Zhibek's top dream experience?",
+      "opts": [
+        "Sky diving",
+        "Living in Scotland",
+        "Seeing the Northern Lights",
+        "Climbing a mountain"
+      ],
+      "correct": "Seeing the Northern Lights",
+      "hint": "\"I've never seen the Northern Lights. That's my number one dream experience.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "A \"standing ovation\" means:",
+      "opts": [
+        "A quiet clap",
+        "People stand up and applaud enthusiastically",
+        "Everyone leaves the theatre",
+        "A very short performance"
+      ],
+      "correct": "People stand up and applaud enthusiastically",
+      "hint": "A standing ovation = the audience stands up while applauding to show great appreciation."
+    }
+  ]
+}

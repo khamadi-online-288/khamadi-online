@@ -1,0 +1,891 @@
+{
+  "id": "l1-1",
+  "moduleNum": 1,
+  "lessonNum": 1,
+  "moduleTitle": "Hello, world!",
+  "title": "Meet new friends!",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Aizhan Bekova. I am 18 years old and I am from Aktobe, Kazakhstan. This year I am a first-year student at West Kazakhstan University named after Makhambет Utemisov (WKU) in Uralsk. It is a big and modern university with more than 8,000 students. University life is new and very exciting for me!",
+    "My student ID number is 22-101-06. My group is called Group 101. There are 20 students in our group — 12 girls and 8 boys. We are all first-year students and we are from different cities of Kazakhstan. My group is friendly, hardworking, and very motivated. Our classroom is Room 312 on the third floor of the main building.",
+    "My English teacher's name is Ms. Aigerim Nurova. She is 34 years old and she is from Almaty. She is an experienced, strict, and very patient teacher. Ms. Aigerim has a Master's degree in Linguistics. Her lessons are always interesting, interactive, and fun. We speak, read, write, and listen every class. She always says: \"English is your passport to the world. Open it!\"",
+    "My best friend at university is Dias Serik. He is 19 years old. Dias is tall, funny, intelligent, and very smart. He is also a student in Group 101 — we are classmates! Dias is from Shymkent, in southern Kazakhstan. His dream is to become a software engineer at a big technology company. He is very passionate about computers, programming, and mathematics.",
+    "My other classmates are also very interesting people. Zarina is from Almaty and she is a dancer. Bekzat is from Kyzylorda and he is a football player. Ainur is from Nur-Sultan and she is an artist. We are all different, but we are all friends. Our group is like a big family!",
+    "Our weekly timetable is very busy. Classes start at 8:30 am every day and finish at 3:30 pm. We have six subjects this semester: English, Mathematics, Physics, Computer Science, History of Kazakhstan, and Physical Education. My favourite subjects are English and Computer Science — they are very important for my future career in IT. Mathematics is difficult for me, but I study hard every evening.",
+    "The WKU campus is big and beautiful. There are five academic buildings, a modern sports centre, a student dormitory for 2,000 students, and a large park. The central library has more than 500,000 books and is open from 8 am to 8 pm every day, Monday to Saturday. There is also a cafeteria, a medical centre, and many student clubs — music, drama, science, and sports.",
+    "I am very happy and proud to be a WKU student! University is an amazing opportunity to learn, to grow, and to make new friends from all over Kazakhstan. My main goal this year is to improve my English, to pass all my exams successfully, and to graduate with honours in four years. I am ready for this exciting challenge. Let's go!"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Aizhan",
+      "text": "Hi! My name is Aizhan. What is your name?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Hello! I am Dias. Nice to meet you, Aizhan!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Nice to meet you too! Where are you from?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "I am from Shymkent. And you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I am from Aktobe. How old are you, Dias?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "I am 19 years old. Are you also a first-year student?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes, I am! I am in Group 101. What about you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Really? I am in Group 101 too! We are classmates!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "That is great! What is your favourite subject?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Computer Science. It is very interesting! And yours?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "English, of course! Ms. Aigerim is an amazing teacher.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "I agree. She is very patient and her lessons are fun!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "My name is...",
+      "ru": "Меня зовут...",
+      "context": "My name is Aizhan."
+    },
+    {
+      "phrase": "I am from...",
+      "ru": "Я из...",
+      "context": "I am from Aktobe, Kazakhstan."
+    },
+    {
+      "phrase": "I am ... years old",
+      "ru": "Мне ... лет",
+      "context": "I am 18 years old."
+    },
+    {
+      "phrase": "Nice to meet you!",
+      "ru": "Приятно познакомиться!",
+      "context": "Nice to meet you, Aizhan!"
+    },
+    {
+      "phrase": "I am a student at...",
+      "ru": "Я студент в...",
+      "context": "I am a student at WKU."
+    },
+    {
+      "phrase": "What is your name?",
+      "ru": "Как тебя зовут?",
+      "context": "Hi! What is your name?"
+    },
+    {
+      "phrase": "Where are you from?",
+      "ru": "Откуда ты?",
+      "context": "Where are you from, Dias?"
+    },
+    {
+      "phrase": "My favourite subject is...",
+      "ru": "Мой любимый предмет...",
+      "context": "My favourite subject is English."
+    },
+    {
+      "phrase": "I am in Group...",
+      "ru": "Я в группе...",
+      "context": "I am in Group 101."
+    },
+    {
+      "phrase": "What about you?",
+      "ru": "А ты? А у тебя?",
+      "context": "I am 18. What about you?"
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "university",
+      "emoji": "🏫",
+      "opts": [
+        "место учёбы",
+        "расписание",
+        "общежитие",
+        "кампус"
+      ],
+      "correct": "место учёбы"
+    },
+    {
+      "id": "p2",
+      "word": "classmate",
+      "emoji": "🤝",
+      "opts": [
+        "преподаватель",
+        "однокурсник",
+        "студент",
+        "друг"
+      ],
+      "correct": "однокурсник"
+    },
+    {
+      "id": "p3",
+      "word": "subject",
+      "emoji": "📚",
+      "opts": [
+        "цель",
+        "предмет",
+        "карьера",
+        "экзамен"
+      ],
+      "correct": "предмет"
+    },
+    {
+      "id": "p4",
+      "word": "campus",
+      "emoji": "🌳",
+      "opts": [
+        "библиотека",
+        "класс",
+        "территория университета",
+        "город"
+      ],
+      "correct": "территория университета"
+    },
+    {
+      "id": "p5",
+      "word": "semester",
+      "emoji": "📆",
+      "opts": [
+        "полугодие",
+        "расписание",
+        "каникулы",
+        "урок"
+      ],
+      "correct": "полугодие"
+    },
+    {
+      "id": "p6",
+      "word": "dormitory",
+      "emoji": "🏠",
+      "opts": [
+        "спортзал",
+        "столовая",
+        "общежитие",
+        "аудитория"
+      ],
+      "correct": "общежитие"
+    }
+  ],
+  "task1Bank": [
+    "18",
+    "Group 101",
+    "Aktobe",
+    "Almaty",
+    "software engineer",
+    "English",
+    "WKU",
+    "Shymkent"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan is ___ years old.",
+      "correct": "18"
+    },
+    {
+      "id": "t2",
+      "question": "Aizhan's group is called ___.",
+      "correct": "Group 101"
+    },
+    {
+      "id": "t3",
+      "question": "Aizhan is from ___.",
+      "correct": "Aktobe"
+    },
+    {
+      "id": "t4",
+      "question": "Ms. Aigerim is from ___.",
+      "correct": "Almaty"
+    },
+    {
+      "id": "t5",
+      "question": "Dias wants to become a ___.",
+      "correct": "software engineer"
+    },
+    {
+      "id": "t6",
+      "question": "Aizhan's favourite subject is ___.",
+      "correct": "English"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Aizhan is a second-year student.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "There are 20 students in Group 101.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Ms. Aigerim is from Uralsk.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Dias is from Shymkent in southern Kazakhstan.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "The WKU library is open 7 days a week.",
+      "correct": "false"
+    },
+    {
+      "id": "f6",
+      "statement": "Aizhan's favourite subjects are English and Computer Science.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "vocab": [
+    {
+      "en": "student",
+      "ipa": "/ˈstjuːdənt/",
+      "pos": "noun",
+      "ru": "студент",
+      "kz": "студент",
+      "emoji": "👨‍🎓",
+      "definition": "a person who studies at a university or college",
+      "example": "I am a first-year student at WKU.",
+      "collocations": [
+        "first-year student",
+        "exchange student",
+        "full-time student"
+      ]
+    },
+    {
+      "en": "university",
+      "ipa": "/ˌjuːnɪˈvɜːrsɪti/",
+      "pos": "noun",
+      "ru": "университет",
+      "kz": "университет",
+      "emoji": "🏫",
+      "definition": "a place of higher education with many subjects",
+      "example": "WKU is a modern university in Uralsk.",
+      "collocations": [
+        "go to university",
+        "university student",
+        "university campus"
+      ]
+    },
+    {
+      "en": "teacher",
+      "ipa": "/ˈtiːtʃər/",
+      "pos": "noun",
+      "ru": "преподаватель",
+      "kz": "мұғалім",
+      "emoji": "👩‍🏫",
+      "definition": "a person whose job is to teach students",
+      "example": "My teacher is experienced and very kind.",
+      "collocations": [
+        "English teacher",
+        "good teacher",
+        "teacher's lesson"
+      ]
+    },
+    {
+      "en": "classmate",
+      "ipa": "/ˈklɑːsmeɪt/",
+      "pos": "noun",
+      "ru": "однокурсник",
+      "kz": "сыныптас",
+      "emoji": "🤝",
+      "definition": "a student in the same class or group as you",
+      "example": "Dias is my classmate and best friend.",
+      "collocations": [
+        "my classmate",
+        "classmate and friend",
+        "group classmates"
+      ]
+    },
+    {
+      "en": "friendly",
+      "ipa": "/ˈfrendlɪ/",
+      "pos": "adjective",
+      "ru": "дружелюбный",
+      "kz": "достық",
+      "emoji": "😊",
+      "definition": "kind and pleasant to other people",
+      "example": "My group is friendly and motivated.",
+      "collocations": [
+        "friendly people",
+        "very friendly",
+        "friendly smile"
+      ]
+    },
+    {
+      "en": "patient",
+      "ipa": "/ˈpeɪʃnt/",
+      "pos": "adjective",
+      "ru": "терпеливый",
+      "kz": "шыдамды",
+      "emoji": "🧘",
+      "definition": "able to wait calmly without complaining",
+      "example": "Ms. Aigerim is very patient with students.",
+      "collocations": [
+        "patient teacher",
+        "be patient",
+        "patient person"
+      ]
+    },
+    {
+      "en": "subject",
+      "ipa": "/ˈsʌbdʒɪkt/",
+      "pos": "noun",
+      "ru": "предмет",
+      "kz": "пән",
+      "emoji": "📚",
+      "definition": "an area of knowledge studied at school or university",
+      "example": "My favourite subject is English.",
+      "collocations": [
+        "favourite subject",
+        "difficult subject",
+        "study a subject"
+      ]
+    },
+    {
+      "en": "career",
+      "ipa": "/kəˈrɪər/",
+      "pos": "noun",
+      "ru": "карьера",
+      "kz": "мансап",
+      "emoji": "💼",
+      "definition": "a job or profession you do for a long time",
+      "example": "English is important for my career in IT.",
+      "collocations": [
+        "future career",
+        "career in IT",
+        "successful career"
+      ]
+    },
+    {
+      "en": "hardworking",
+      "ipa": "/ˈhɑːrdˌwɜːrkɪŋ/",
+      "pos": "adjective",
+      "ru": "трудолюбивый",
+      "kz": "еңбекқор",
+      "emoji": "💪",
+      "definition": "always putting a lot of effort into work",
+      "example": "She is a hardworking and dedicated student.",
+      "collocations": [
+        "hardworking student",
+        "hardworking person",
+        "hardworking team"
+      ]
+    },
+    {
+      "en": "exciting",
+      "ipa": "/ɪkˈsaɪtɪŋ/",
+      "pos": "adjective",
+      "ru": "захватывающий",
+      "kz": "қызықты",
+      "emoji": "🎉",
+      "definition": "making you feel enthusiastic and interested",
+      "example": "University life is new and very exciting!",
+      "collocations": [
+        "very exciting",
+        "exciting opportunity",
+        "exciting life"
+      ]
+    },
+    {
+      "en": "timetable",
+      "ipa": "/ˈtaɪmˌteɪbl/",
+      "pos": "noun",
+      "ru": "расписание",
+      "kz": "сабақ кестесі",
+      "emoji": "📅",
+      "definition": "a plan showing the times of lessons or events",
+      "example": "My timetable has six subjects this semester.",
+      "collocations": [
+        "weekly timetable",
+        "class timetable",
+        "busy timetable"
+      ]
+    },
+    {
+      "en": "campus",
+      "ipa": "/ˈkæmpəs/",
+      "pos": "noun",
+      "ru": "кампус",
+      "kz": "кампус",
+      "emoji": "🌳",
+      "definition": "the area of land with all university buildings",
+      "example": "The WKU campus is big and beautiful.",
+      "collocations": [
+        "university campus",
+        "on campus",
+        "campus life"
+      ]
+    },
+    {
+      "en": "dormitory",
+      "ipa": "/ˈdɔːrmɪtɔːri/",
+      "pos": "noun",
+      "ru": "общежитие",
+      "kz": "жатақхана",
+      "emoji": "🏠",
+      "definition": "a building where students live",
+      "example": "The dormitory has rooms for 2,000 students.",
+      "collocations": [
+        "student dormitory",
+        "live in a dormitory",
+        "dormitory room"
+      ]
+    },
+    {
+      "en": "motivated",
+      "ipa": "/ˈməʊtɪveɪtɪd/",
+      "pos": "adjective",
+      "ru": "мотивированный",
+      "kz": "ынталы",
+      "emoji": "🚀",
+      "definition": "enthusiastic and determined to achieve something",
+      "example": "We are all motivated to study hard this year.",
+      "collocations": [
+        "highly motivated",
+        "motivated student",
+        "stay motivated"
+      ]
+    },
+    {
+      "en": "opportunity",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "pos": "noun",
+      "ru": "возможность",
+      "kz": "мүмкіндік",
+      "emoji": "🌟",
+      "definition": "a chance to do something positive",
+      "example": "University is an amazing opportunity to learn.",
+      "collocations": [
+        "great opportunity",
+        "unique opportunity",
+        "miss an opportunity"
+      ]
+    },
+    {
+      "en": "fluently",
+      "ipa": "/ˈfluːəntlɪ/",
+      "pos": "adverb",
+      "ru": "бегло",
+      "kz": "еркін",
+      "emoji": "🗣️",
+      "definition": "speaking a language smoothly and naturally",
+      "example": "My goal is to speak English fluently.",
+      "collocations": [
+        "speak fluently",
+        "write fluently",
+        "fluently in English"
+      ]
+    },
+    {
+      "en": "passionate",
+      "ipa": "/ˈpæʃənɪt/",
+      "pos": "adjective",
+      "ru": "страстный",
+      "kz": "құмарлы",
+      "emoji": "❤️",
+      "definition": "having a very strong interest or enthusiasm",
+      "example": "Dias is passionate about computers and programming.",
+      "collocations": [
+        "passionate about",
+        "very passionate",
+        "passionate learner"
+      ]
+    },
+    {
+      "en": "intelligent",
+      "ipa": "/ɪnˈtelɪdʒənt/",
+      "pos": "adjective",
+      "ru": "умный",
+      "kz": "ақылды",
+      "emoji": "🧠",
+      "definition": "quick at understanding and learning things",
+      "example": "Dias is tall, funny, and very intelligent.",
+      "collocations": [
+        "intelligent student",
+        "very intelligent",
+        "intelligent person"
+      ]
+    },
+    {
+      "en": "semester",
+      "ipa": "/sɪˈmestər/",
+      "pos": "noun",
+      "ru": "семестр",
+      "kz": "семестр",
+      "emoji": "📆",
+      "definition": "one of the two main periods of the academic year",
+      "example": "We have six subjects this semester.",
+      "collocations": [
+        "this semester",
+        "first semester",
+        "end of semester"
+      ]
+    },
+    {
+      "en": "honours",
+      "ipa": "/ˈɒnərz/",
+      "pos": "noun",
+      "ru": "с отличием",
+      "kz": "үздік",
+      "emoji": "🏆",
+      "definition": "a special distinction given for excellent academic work",
+      "example": "I want to graduate with honours in four years.",
+      "collocations": [
+        "graduate with honours",
+        "degree with honours",
+        "first class honours"
+      ]
+    }
+  ],
+  "grammarTitle": "To be: am / is / are",
+  "grammarNote": "Глагол \"to be\" — это первый и самый важный глагол английского языка. Он используется для описания КТО ты есть, КАКОЙ ты есть, ОТКУДА ты, ГДЕ ты находишься. Без него невозможно построить ни одно базовое предложение на английском.",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "am",
+      "short": "I'm",
+      "example": "I am a student. · I am 18 years old. · I am from Aktobe."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "is",
+      "short": "He's",
+      "example": "She is a teacher. · He is 19. · It is a university."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "are",
+      "short": "We're",
+      "example": "We are classmates. · You are friendly. · They are students."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Negative form (отрицание)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I am not → I'm not",
+          "example": "I'm not from Almaty. I'm from Aktobe."
+        },
+        {
+          "form": "He/She is not → isn't",
+          "example": "She isn't a math teacher. She's an English teacher."
+        },
+        {
+          "form": "We/You/They are not → aren't",
+          "example": "They aren't in Group 102. They're in Group 101."
+        }
+      ]
+    },
+    {
+      "title": "Question form (вопрос)",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Am I right?",
+          "example": "Yes, you are. / No, you aren't."
+        },
+        {
+          "form": "Is she a student?",
+          "example": "Yes, she is. / No, she isn't."
+        },
+        {
+          "form": "Are they in Group 101?",
+          "example": "Yes, they are. / No, they aren't."
+        }
+      ]
+    },
+    {
+      "title": "Where / What / Who + is/are",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Where is the library?",
+          "example": "It is on the second floor."
+        },
+        {
+          "form": "What is your name?",
+          "example": "My name is Aizhan."
+        },
+        {
+          "form": "Who is your teacher?",
+          "example": "My teacher is Ms. Aigerim."
+        },
+        {
+          "form": "What are your subjects?",
+          "example": "My subjects are English and Math."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Краткие формы звучат естественно: I'm · He's · She's · It's · We're · You're · They're\n\nНельзя: I am not → I amn't (ОШИБКА!) · Правильно: I'm not\nМожно: He is not → He isn't · She is not → She's not (оба варианта верны!)\n\nGolden rule: Always use contractions when speaking English!",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How old is Aizhan Bekova?",
+      "opts": [
+        "17 years old",
+        "18 years old",
+        "19 years old",
+        "20 years old"
+      ],
+      "correct": "18 years old",
+      "hint": "First paragraph: \"I am 18 years old.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In which city is WKU located?",
+      "opts": [
+        "Almaty",
+        "Astana",
+        "Aktobe",
+        "Uralsk"
+      ],
+      "correct": "Uralsk",
+      "hint": "\"West Kazakhstan University named after Makhambет Utemisov (WKU) in Uralsk.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many students are in Group 101?",
+      "opts": [
+        "15",
+        "18",
+        "20",
+        "25"
+      ],
+      "correct": "20",
+      "hint": "\"There are 20 students in our group.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Ms. Aigerim Nurova is a mathematics teacher.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She teaches English, not mathematics."
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Ms. Aigerim from?",
+      "opts": [
+        "Uralsk",
+        "Aktobe",
+        "Almaty",
+        "Shymkent"
+      ],
+      "correct": "Almaty",
+      "hint": "\"She is 34 years old and she is from Almaty.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Ms. Aigerim ___ 34 years old.",
+      "correct": "is",
+      "hint": "She → is."
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Dias's dream career?",
+      "opts": [
+        "Doctor",
+        "English teacher",
+        "Software engineer",
+        "Mathematics professor"
+      ],
+      "correct": "Software engineer",
+      "hint": "\"His dream is to become a software engineer.\""
+    },
+    {
+      "id": "q8",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Dias Serik is from Almaty.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Dias is from Shymkent."
+    },
+    {
+      "id": "q9",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What time do classes start every day?",
+      "opts": [
+        "8:00 am",
+        "8:30 am",
+        "9:00 am",
+        "9:30 am"
+      ],
+      "correct": "8:30 am",
+      "hint": "\"Classes start at 8:30 am every day.\""
+    },
+    {
+      "id": "q10",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The WKU library is open on Sundays.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Open Monday to Saturday only."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "We ___ all first-year students.",
+      "correct": "are",
+      "hint": "We / You / They → are."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is CORRECT?",
+      "opts": [
+        "I is 18 years old.",
+        "She am a student.",
+        "They is classmates.",
+        "He is from Shymkent."
+      ],
+      "correct": "He is from Shymkent.",
+      "hint": "He / She / It → is."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "English ___ my favourite subject.",
+      "correct": "is",
+      "hint": "\"English\" = It → is."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the correct negative form of \"She is a teacher\"?",
+      "opts": [
+        "She amn't a teacher.",
+        "She isn't a teacher.",
+        "She aren't a teacher.",
+        "She not is a teacher."
+      ],
+      "correct": "She isn't a teacher.",
+      "hint": "She is not → She isn't."
+    },
+    {
+      "id": "q15",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In the dialogue, what is Aizhan's favourite subject?",
+      "opts": [
+        "Mathematics",
+        "Computer Science",
+        "English",
+        "Physics"
+      ],
+      "correct": "English",
+      "hint": "\"English, of course!\" — Aizhan in dialogue."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ ready for this exciting challenge!",
+      "correct": "am",
+      "hint": "I → am."
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "l70-2",
+  "moduleNum": 12,
+  "lessonNum": 2,
+  "moduleTitle": "Technology & The Future",
+  "title": "Artificial Intelligence and the Future of Work",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "Artificial intelligence — the ability of computers to perform tasks that normally require human intelligence — is no longer a science fiction concept. AI systems can now write text, analyse medical images, drive vehicles, compose music, and hold conversations that are indistinguishable from those with a human being. The question is no longer whether AI will transform the world of work, but how rapidly, how deeply, and with what consequences.",
+    "Some economists argue that AI represents a fundamental break from previous waves of automation. In the past, machines replaced physical human labour — in factories, fields, and mines. White-collar work, requiring judgement, creativity, and language, was considered safe. AI challenges this assumption directly. It is the cognitive work — data analysis, legal research, medical diagnosis, financial advice, customer service — that AI is most rapidly learning to perform. This raises a profound question: if machines can think, what is the unique value of human thought?",
+    "One influential perspective, advanced by economists at organisations like the World Economic Forum, is that AI will not eliminate jobs so much as transform them. Rather than replacing human workers entirely, AI will augment human capabilities — handling the routine and repetitive elements of work while freeing humans to focus on what machines cannot easily replicate: empathy, ethical judgement, creative problem-solving, and interpersonal connection. On this view, the future of work is not humans versus machines, but humans and machines in collaboration.",
+    "Others are less optimistic. Research by economists at the University of Oxford suggested that up to 47% of jobs in the United States were at high risk of automation within twenty years. The jobs most at risk were those involving predictable, repetitive tasks — data entry, transportation, basic accounting, customer service. While new jobs will certainly emerge, there is no guarantee that they will be accessible to the same workers who are displaced, particularly if those workers are older, less educated, or located in regions where new industries do not take root.",
+    "One response to this challenge is to invest heavily in education and retraining. If the nature of work is changing, so must the skills that workers bring to it. Governments and companies increasingly speak of the need for \"lifelong learning\" — the idea that workers will need to continuously update their skills throughout their careers, rather than relying on a fixed education received early in life. Critics point out, however, that retraining programmes have a mixed record and that structural change may outpace even the best-designed retraining efforts.",
+    "A more radical response is to reconsider the relationship between work and income altogether. If AI can produce significant economic value while employing fewer people, some argue that this productivity should be distributed more broadly through mechanisms like a universal basic income — a regular payment to all citizens regardless of employment status. Proponents argue this would provide security in an uncertain economy; opponents argue it would reduce the incentive to work and would be prohibitively expensive.",
+    "What is clear is that the future of work will look very different from its present. The decisions made in the next decade — about education, regulation, redistribution, and the development of AI itself — will determine whether that future is one of widespread opportunity or deepening inequality. These are not merely technical questions; they are fundamentally political and moral ones."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "augment human capabilities",
+      "ru": "расширять возможности человека",
+      "context": "AI enhancing rather than replacing human skills"
+    },
+    {
+      "phrase": "lifelong learning",
+      "ru": "обучение на протяжении всей жизни",
+      "context": "Continuously updating skills throughout one's career"
+    },
+    {
+      "phrase": "universal basic income",
+      "ru": "универсальный базовый доход",
+      "context": "Regular payment to all citizens regardless of employment"
+    },
+    {
+      "phrase": "displaced workers",
+      "ru": "вытесненные работники",
+      "context": "People whose jobs are eliminated by automation"
+    },
+    {
+      "phrase": "cognitive work",
+      "ru": "когнитивный труд",
+      "context": "Work requiring thought, judgement, and language"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "augment",
+      "ipa": "/ɔːɡˈment/",
+      "pos": "verb",
+      "ru": "дополнять / расширять",
+      "kz": "толықтыру",
+      "emoji": "➕",
+      "definition": "to make something greater by adding to it",
+      "example": "\"AI will augment human capabilities rather than replace them.\"",
+      "collocations": [
+        "augment skills",
+        "augment reality",
+        "significantly augment"
+      ]
+    },
+    {
+      "en": "displace",
+      "ipa": "/dɪsˈpleɪs/",
+      "pos": "verb",
+      "ru": "вытеснять / перемещать",
+      "kz": "ығыстыру",
+      "emoji": "↔️",
+      "definition": "to take the place of something; to force out of a position or place",
+      "example": "\"Automation may displace millions of workers in routine jobs.\"",
+      "collocations": [
+        "displace workers",
+        "displaced by technology",
+        "job displacement"
+      ]
+    },
+    {
+      "en": "prohibitive",
+      "ipa": "/prəˈhɪbɪtɪv/",
+      "pos": "adjective",
+      "ru": "запретительный / слишком дорогостоящий",
+      "kz": "тыйым салатын",
+      "emoji": "🚫",
+      "definition": "so expensive or difficult as to prevent something from happening",
+      "example": "\"Critics argue that a universal basic income would be prohibitively expensive.\"",
+      "collocations": [
+        "prohibitively expensive",
+        "prohibitive cost",
+        "prohibitive barrier"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What type of work is AI learning to perform, according to paragraph 2?",
+      "correct": "Cognitive work: data analysis, legal research, medical diagnosis, financial advice, customer service"
+    },
+    {
+      "id": "t2",
+      "question": "What is the \"augmentation\" view of AI and work?",
+      "correct": "AI handles routine tasks, freeing humans to focus on empathy, creativity, and interpersonal connection"
+    },
+    {
+      "id": "t3",
+      "question": "What percentage of US jobs did Oxford research suggest were at high risk of automation?",
+      "correct": "47%"
+    },
+    {
+      "id": "t4",
+      "question": "What is \"lifelong learning\"?",
+      "correct": "The idea that workers must continuously update their skills throughout their careers"
+    },
+    {
+      "id": "t5",
+      "question": "What is a universal basic income?",
+      "correct": "A regular payment to all citizens regardless of employment status"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Previous waves of automation replaced primarily white-collar cognitive work.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Some economists argue AI will augment rather than fully replace human workers.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "The text says retraining programmes have an excellent, proven record.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Universal basic income is presented as a controversial idea with both supporters and critics.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "The text concludes that the future of work is purely a technical question.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What makes AI different from previous waves of automation, according to paragraph 2?",
+      "opts": [
+        "It works faster",
+        "It replaces physical labour in factories",
+        "It can perform cognitive work previously considered safe from automation",
+        "It is cheaper than previous machines"
+      ],
+      "correct": "It can perform cognitive work previously considered safe from automation",
+      "hint": "Para 2: \"cognitive work... AI is most rapidly learning to perform\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the \"augmentation\" view say about AI and human work?",
+      "opts": [
+        "AI will replace all workers",
+        "AI and humans will collaborate",
+        "AI is not a threat to any jobs",
+        "AI will only affect manufacturing"
+      ],
+      "correct": "AI and humans will collaborate",
+      "hint": "Para 3: \"humans and machines in collaboration\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "Which workers are most at risk from automation, according to paragraph 4?",
+      "opts": [
+        "Creative artists",
+        "Those in predictable, repetitive tasks",
+        "Medical specialists",
+        "University professors"
+      ],
+      "correct": "Those in predictable, repetitive tasks",
+      "hint": "Para 4: \"predictable, repetitive tasks\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What do critics say about retraining programmes?",
+      "opts": [
+        "They are too expensive to run",
+        "They have a mixed record and may not keep up with structural change",
+        "They are refused by most workers",
+        "They have proven highly effective everywhere"
+      ],
+      "correct": "They have a mixed record and may not keep up with structural change",
+      "hint": "Para 5: \"mixed record… may outpace even the best-designed retraining\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text describes the future of work as purely a technical question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 7: \"not merely technical — fundamentally political and moral\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "AI systems are described as already indistinguishable from humans in conversation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 1: \"conversations indistinguishable from those with a human being\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By 2035, AI ___ most routine data analysis tasks.\" (completed by that future point)",
+      "opts": [
+        "will do",
+        "will be doing",
+        "will have done",
+        "does"
+      ],
+      "correct": "will have done",
+      "hint": "Future perfect: will have + pp — completed by a specific future time",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"When automation ___ more jobs, governments ___ to act.\" (time clause)",
+      "opts": [
+        "will eliminate / will have",
+        "eliminates / will have",
+        "will eliminate / have",
+        "eliminates / have"
+      ],
+      "correct": "eliminates / will have",
+      "hint": "Time clause: present simple; result: will + infinitive",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In ten years, researchers ___ (work) on AI safety for over two decades.\"",
+      "correct": "will have been working",
+      "hint": "Future perfect continuous: will have been + -ing",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "To \"augment\" something means to…",
+      "opts": [
+        "Replace it completely",
+        "Reduce it gradually",
+        "Add to it, making it greater",
+        "Test it carefully"
+      ],
+      "correct": "Add to it, making it greater",
+      "hint": "Para 3: \"augment human capabilities\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Displaced workers\" are…",
+      "opts": [
+        "Workers who are retrained",
+        "Workers whose jobs are eliminated by automation",
+        "Workers who move to different cities",
+        "Workers who refuse to use technology"
+      ],
+      "correct": "Workers whose jobs are eliminated by automation",
+      "hint": "Para 4: \"displaced by automation\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A system where all citizens receive a regular payment regardless of employment is called a universal ___ income.",
+      "correct": "basic",
+      "hint": "Para 6: \"universal basic income\"",
+      "points": 1
+    }
+  ]
+}

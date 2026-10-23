@@ -1,0 +1,213 @@
+{
+  "id": "l1-3",
+  "moduleNum": 1,
+  "lessonNum": 3,
+  "moduleTitle": "Hello, world!",
+  "title": "am / is / are",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "To be: am / is / are",
+  "grammarNote": "Глагол \"to be\" — это основа английского. Ты уже встречал его в чтении. Теперь разберём его ПОЛНОСТЬЮ.\n\nGlossary: \"to be\" = \"быть / являться / находиться\"\n\n📌 КОГДА использовать:\n① Описывать КОГО-ТО: \"I am a student.\" · \"She is a teacher.\"\n② Описывать ВОЗРАСТ: \"He is 20 years old.\" · \"We are the same age.\"\n③ Описывать ПРОИСХОЖДЕНИЕ: \"I am from Aktobe.\" · \"They are from Almaty.\"\n④ Описывать МЕСТОНАХОЖДЕНИЕ: \"The library is on the 2nd floor.\" · \"We are in class.\"\n⑤ Описывать КАЧЕСТВО: \"The exam is difficult.\" · \"This lesson is interesting!\"\n\n🔑 ГЛАВНОЕ ПРАВИЛО — три формы:\nI → AM (всегда, только I)\nHe / She / It / имя → IS (один человек или предмет)\nYou / We / They → ARE (ты, мы, они)\n\n💡 Сравни с казахским:\n\"Мен студентпін\" → I AM a student\n\"Ол студент\" → He/She IS a student\n\"Біз студентпіз\" → We ARE students\n\n⚠️ Типичные ошибки казахстанских студентов:\n❌ \"I is a student.\" → ✅ \"I AM a student.\"\n❌ \"She am from Almaty.\" → ✅ \"She IS from Almaty.\"\n❌ \"They is my friends.\" → ✅ \"They ARE my friends.\"",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "am",
+      "short": "I'm",
+      "example": "I am a student. · I am 18 years old."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "is",
+      "short": "He's",
+      "example": "She is a teacher. · He is from Almaty."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "are",
+      "short": "We're",
+      "example": "We are classmates. · They are students."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Negative form — отрицание",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I am not → I'm not",
+          "example": "I'm not from Almaty. I'm from Aktobe."
+        },
+        {
+          "form": "He/She is not → isn't",
+          "example": "She isn't a math teacher. She's English."
+        },
+        {
+          "form": "We/You/They are not → aren't",
+          "example": "They aren't in Group 102. They're in 101."
+        }
+      ]
+    },
+    {
+      "title": "Question form — вопрос",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Am I right?",
+          "example": "Yes, you are. / No, you aren't."
+        },
+        {
+          "form": "Is she a student?",
+          "example": "Yes, she is. / No, she isn't."
+        },
+        {
+          "form": "Are they in Group 101?",
+          "example": "Yes, they are. / No, they aren't."
+        }
+      ]
+    },
+    {
+      "title": "WH-questions — вопросительные слова",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "What is your name?",
+          "example": "My name is Aizhan."
+        },
+        {
+          "form": "Where are you from?",
+          "example": "I am from Aktobe."
+        },
+        {
+          "form": "How old are you?",
+          "example": "I am 18 years old."
+        },
+        {
+          "form": "Who is your teacher?",
+          "example": "My teacher is Ms. Aigerim."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Краткие формы звучат естественно в разговоре:\nI'm · He's · She's · It's · We're · You're · They're\n\nНельзя: I amn't — Правильно: I'm not\nМожно: He isn't = He's not (оба верны!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form of \"to be\".",
+      "text": "I ___ a first-year student at WKU.",
+      "opts": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": "am",
+      "hint": "I → am. Only \"am\" is used with I."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form of \"to be\".",
+      "text": "She ___ my English teacher.",
+      "opts": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": "is",
+      "hint": "He / She / It → is."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct form of \"to be\".",
+      "text": "We ___ classmates in Group 101.",
+      "opts": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": "are",
+      "hint": "We / You / They → are."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Type the short (contracted) form.",
+      "text": "She is a student. → She ___ a student.",
+      "correct": "she's",
+      "hint": "She is → She's"
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"They am students\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "They → are. \"They are students.\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Make it negative. Type only the missing words — the long form, not I'm not.",
+      "text": "I am from Almaty. → I ___ from Almaty.",
+      "correct": "am not",
+      "hint": "Only the gap: am not. I am not = I'm not. Never: I amn't!"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "___ she from Kazakhstan?",
+      "opts": [
+        "Am",
+        "Is",
+        "Are",
+        "Be"
+      ],
+      "correct": "Is",
+      "hint": "She → Is. \"Is she from Kazakhstan?\""
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct WH-question.",
+      "text": "___ your name?",
+      "opts": [
+        "What am",
+        "What is",
+        "What are",
+        "Who is"
+      ],
+      "correct": "What is",
+      "hint": "\"What is your name?\" — name is singular → is."
+    }
+  ],
+  "questions": []
+}

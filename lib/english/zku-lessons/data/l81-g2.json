@@ -1,0 +1,525 @@
+{
+  "id": "l81-g2",
+  "moduleNum": 23,
+  "lessonNum": 6,
+  "moduleTitle": "Global English & Intercultural Communication",
+  "title": "Grammar: Advanced Formal Discourse Markers and Analytical Connectors",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Продвинутые дискурсивные маркеры для академического письма:\n\nДОБАВЛЕНИЕ (более сильное чем \"also\"):\nFurthermore · Moreover · In addition · What is more · Besides\n\nКОНТРАСТ (более сильное чем \"but\"):\nNevertheless · Nonetheless · However · On the contrary · Conversely\n\nПОДТВЕРЖДЕНИЕ:\nIndeed · In fact · As a matter of fact · Evidently · Clearly\n\nЦЕЛЬ / РЕЗУЛЬТАТ:\nConsequently · Therefore · Thus · Hence · As a consequence\n\nУСЛОВИЕ:\nProvided that · On condition that · Assuming that · In the event that\n\n💡 Используй маркеры точно по значению:\n\"Moreover\" = добавляет более важное, чем предыдущее\n\"Conversely\" = полная противоположность\n\"Hence\" = поэтому (формальнее чем \"so\")",
+  "grammarTable": [
+    {
+      "subject": "to the extent that",
+      "verb": "+ clause",
+      "short": "in so far as / as much as",
+      "example": "\"This is problematic to the extent that it ignores the role of context in communication.\""
+    },
+    {
+      "subject": "insofar as / in so far as",
+      "verb": "+ clause",
+      "short": "to the degree that",
+      "example": "\"The model is useful insofar as it captures the key dimensions of cultural variation.\""
+    },
+    {
+      "subject": "in view of",
+      "verb": "+ noun / gerund",
+      "short": "considering / given",
+      "example": "\"In view of the evidence, the native speaker model requires substantial revision.\""
+    },
+    {
+      "subject": "by virtue of",
+      "verb": "+ noun / gerund",
+      "short": "because of / on account of",
+      "example": "\"By virtue of their multilingual background, these speakers have a communicative advantage.\""
+    },
+    {
+      "subject": "with a view to",
+      "verb": "+ gerund",
+      "short": "with the aim of / in order to",
+      "example": "\"With a view to improving intercultural communication, the curriculum was redesigned.\""
+    },
+    {
+      "subject": "in the interests of",
+      "verb": "+ noun / gerund",
+      "short": "for the benefit of / to serve",
+      "example": "\"In the interests of equity, all language varieties should be treated with equal respect.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "To the Extent That / Insofar As: Degree and Qualification",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "\"to the extent that\" = in so far as / to the degree that (qualifies a claim)",
+          "example": "\"The policy is successful to the extent that it improves intelligibility without suppressing linguistic diversity.\""
+        },
+        {
+          "form": "\"insofar as / in so far as\" = to the degree that (more formal, philosophical)",
+          "example": "\"The distinction is useful insofar as it captures real differences in communicative style.\""
+        },
+        {
+          "form": "Both introduce a qualifying clause that limits the scope of a claim",
+          "example": "\"The model works… to the extent that conditions are met / insofar as the assumptions hold\""
+        },
+        {
+          "form": "Equivalent to \"but only to the degree that\" — adding precision",
+          "example": "\"Correction is appropriate, to the extent that the error impedes understanding.\""
+        }
+      ]
+    },
+    {
+      "title": "In View Of / In Light Of: Reasoning from Evidence",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"In view of\" = considering, given (formal)",
+          "example": "\"In view of the evidence for cognitive benefits, multilingualism should be promoted in schools.\""
+        },
+        {
+          "form": "\"In light of\" = taking into account, in the knowledge of",
+          "example": "\"In light of recent research, the native speaker model requires revision.\""
+        },
+        {
+          "form": "Both introduce a reason for a conclusion or proposal",
+          "example": "\"In view of / In light of the challenges involved, a phased approach is recommended.\""
+        },
+        {
+          "form": "\"In view of the above / In light of what has been said\" = formal conclusion signal",
+          "example": "\"In view of the above, it can be concluded that language policy has direct social consequences.\""
+        }
+      ]
+    },
+    {
+      "title": "By Virtue Of: Cause and Qualification",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"By virtue of\" = because of / on account of / as a result of (formal)",
+          "example": "\"By virtue of their multilingual experience, these speakers navigate cultural differences more effectively.\""
+        },
+        {
+          "form": "Used for circumstances that confer an advantage, status, or capability",
+          "example": "\"By virtue of its global reach, English has become the default language of international science.\""
+        },
+        {
+          "form": "\"By virtue of the fact that\" = because of the fact that",
+          "example": "\"By virtue of the fact that English is widely taught, it has advantages as a lingua franca.\""
+        },
+        {
+          "form": "More formal than \"because of\" — preferred in legal and academic texts",
+          "example": "\"The right exists by virtue of the treaty.\" (legal language)",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "title": "With a View To / For the Purposes Of: Expressing Purpose",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"With a view to + gerund\" = with the aim of / in order to",
+          "example": "\"With a view to promoting intercultural understanding, exchange programmes were established.\""
+        },
+        {
+          "form": "\"For the purposes of + noun/gerund\" = for the reason of / in order to (formal)",
+          "example": "\"For the purposes of this analysis, ELF is defined as English used between non-native speakers.\""
+        },
+        {
+          "form": "Both are more formal than \"in order to\" or \"to\"",
+          "example": "\"The curriculum was redesigned with a view to developing intercultural competence.\""
+        },
+        {
+          "form": "\"In the interests of + noun/gerund\" = for the benefit of",
+          "example": "\"In the interests of accuracy, it should be noted that the data refers only to written English.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Advanced Formal Phrases",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ To the extent of that the model is useful…",
+          "example": "✅ To the extent that the model is useful… (\"to the extent THAT\" — never \"to the extent of that\")"
+        },
+        {
+          "form": "❌ By virtue to their experience…",
+          "example": "✅ By virtue of their experience… (\"by virtue OF\" — always \"of\")"
+        },
+        {
+          "form": "❌ With a view to improve intercultural skills…",
+          "example": "✅ With a view to improving intercultural skills… (\"with a view to + gerund\")"
+        },
+        {
+          "form": "❌ In the interests to equity…",
+          "example": "✅ In the interests of equity… (\"in the interests OF\" — always \"of\")"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct formal phrase.",
+      "text": "\"The distinction is useful ___ ___ it captures real differences in communicative style.\"",
+      "opts": [
+        "insofar as",
+        "in so far to",
+        "to the extent of",
+        "in the extent that"
+      ],
+      "correct": "insofar as",
+      "hint": "\"Insofar as + clause\" = to the degree that"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct formal phrase.",
+      "text": "\"___ ___ ___ recent research on ELF, the native speaker model needs rethinking.\" (considering / given)",
+      "correct": "In view of / In light of",
+      "hint": "\"In view of / In light of + noun\" = considering, given"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct phrase.",
+      "text": "\"___ ___ their multilingual background, these speakers have a communicative advantage.\"",
+      "opts": [
+        "By virtue of",
+        "With virtue to",
+        "By virtue to",
+        "By means to"
+      ],
+      "correct": "By virtue of",
+      "hint": "\"By virtue of + noun\" = because of / on account of"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with \"with a view to.\"",
+      "text": "\"The curriculum was redesigned ___ ___ ___ ___ developing intercultural competence.\"",
+      "correct": "with a view to",
+      "hint": "\"With a view to + gerund\" = with the aim of"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct formal purpose phrase.",
+      "text": "\"___ the purposes of this study, ELF is defined as English used between non-native speakers.\"",
+      "opts": [
+        "By",
+        "In",
+        "With",
+        "For"
+      ],
+      "correct": "For",
+      "hint": "\"For the purposes of + noun/gerund\" = for the reason of, in order to"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct phrase.",
+      "text": "\"Correction is appropriate ___ ___ ___ ___ the error impedes communication.\" (degree qualification)",
+      "correct": "to the extent that",
+      "hint": "\"To the extent that + clause\" = to the degree that, insofar as"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct formal reason phrase.",
+      "text": "\"___ ___ the evidence, multilingualism should be promoted in schools.\"",
+      "opts": [
+        "In view of",
+        "In view to",
+        "By view of",
+        "From view of"
+      ],
+      "correct": "In view of",
+      "hint": "\"In view of + noun\" = given, considering"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with \"in the interests of.\"",
+      "text": "\"___ ___ ___ ___ equity, all language varieties should receive equal respect.\"",
+      "correct": "In the interests of",
+      "hint": "\"In the interests of + noun\" = for the benefit of"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"With a view to improve intercultural skills, the programme was launched.\"",
+      "opts": [
+        "No error",
+        "\"With a view to\" should be followed by a gerund: \"improving\"",
+        "\"Intercultural\" should be hyphenated",
+        "\"Was launched\" should be \"was launching\""
+      ],
+      "correct": "\"With a view to\" should be followed by a gerund: \"improving\"",
+      "hint": "\"With a view to + gerund\" — not infinitive"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Choose the correct phrase.",
+      "text": "\"___ ___ its global spread, English carries certain cultural assumptions that learners should recognise.\" (because of)",
+      "correct": "By virtue of",
+      "hint": "\"By virtue of + noun\" = because of, on account of"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct qualifying phrase.",
+      "text": "\"The framework is helpful ___ ___ ___ it accounts for the diversity of communicative contexts.\"",
+      "opts": [
+        "insofar as",
+        "in so far of",
+        "to the extent of that",
+        "by virtue of that"
+      ],
+      "correct": "insofar as",
+      "hint": "\"Insofar as + clause\" = to the degree that",
+      "points": 1
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with the correct formal phrase.",
+      "text": "\"___ ___ ___ what has been argued above, language policy is fundamentally political.\" (given / considering)\", use \"in light of\"",
+      "correct": "In light of",
+      "hint": "\"In light of\" = taking into account, given",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct purpose phrase.",
+      "text": "\"The pilot programme was run ___ ___ ___ testing new approaches to intercultural teaching.\"",
+      "opts": [
+        "with a view to",
+        "with view to",
+        "with a view of",
+        "with a view for"
+      ],
+      "correct": "with a view to",
+      "hint": "\"With a view to + gerund\" = with the aim of",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the formal cause phrase.",
+      "text": "\"___ ___ ___ the fact that English is widely taught globally, it has practical advantages as a lingua franca.\"",
+      "correct": "By virtue of",
+      "hint": "\"By virtue of the fact that\" = because of the fact that",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence uses a formal discourse marker correctly?",
+      "text": "",
+      "opts": [
+        "\"In the interests to clarity, let me restate the argument.\"",
+        "\"In the interests of clarity, let me restate the argument.\"",
+        "\"By the interests of clarity, let me restate.\"",
+        "\"For interests of clarity, let me restate.\""
+      ],
+      "correct": "\"In the interests of clarity, let me restate the argument.\"",
+      "hint": "\"In the interests OF + noun\" — correct",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the most formal and precise replacement for \"because of.\"",
+      "text": "\"Because of their training, the teachers could navigate cultural differences effectively.\"",
+      "opts": [
+        "In view of",
+        "By virtue of",
+        "In the context of",
+        "In so far as"
+      ],
+      "correct": "By virtue of",
+      "hint": "\"By virtue of\" = because of / on account of (formal)",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The model is useful ___ ___ it accounts for communicative context.\" (qualifying claim)",
+      "opts": [
+        "insofar as",
+        "in so far to",
+        "by virtue of",
+        "in view of"
+      ],
+      "correct": "insofar as",
+      "hint": "\"Insofar as + clause\" = to the degree that",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ the evidence, the native speaker model requires revision.\" (considering the evidence)",
+      "correct": "In view of / In light of",
+      "hint": "\"In view of / In light of + noun\" = given, considering",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ their multilingual skills, these workers communicate across cultures more effectively.\"",
+      "opts": [
+        "By virtue of",
+        "In virtue of",
+        "With virtue to",
+        "By means to"
+      ],
+      "correct": "By virtue of",
+      "hint": "\"By virtue of + noun\" = because of, on account of",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The curriculum was revised ___ ___ ___ ___ preparing students for global communication.\" (with the aim of)",
+      "correct": "with a view to",
+      "hint": "\"With a view to + gerund\" = with the aim of",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ equity, all language varieties should be treated with equal respect.\"",
+      "opts": [
+        "In the interests of",
+        "In the interest to",
+        "By the interests of",
+        "For interest of"
+      ],
+      "correct": "In the interests of",
+      "hint": "\"In the interests of + noun\" = for the benefit of",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"With a view to improve\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"With a view to + GERUND\": \"with a view to improving\" (not infinitive)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ this analysis, ELF is defined as English used between non-native speakers.\" (for the reason of)",
+      "correct": "For the purposes of",
+      "hint": "\"For the purposes of + noun/gerund\" = for the reason of",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The distinction is helpful ___ ___ ___ it captures real differences in communicative norms.\"",
+      "opts": [
+        "to the extent that",
+        "to the extent of that",
+        "insofar of",
+        "in so far to"
+      ],
+      "correct": "to the extent that",
+      "hint": "\"To the extent that + clause\" = to the degree that",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ the above discussion, language policy is fundamentally a political question.\" (given)",
+      "correct": "In view of / In light of",
+      "hint": "\"In view of / In light of\" = given, taking into account",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ its colonial history, English carries specific cultural assumptions.\" (because of its history)",
+      "opts": [
+        "By virtue of",
+        "In virtue to",
+        "With virtue of",
+        "By means of that"
+      ],
+      "correct": "By virtue of",
+      "hint": "\"By virtue of + noun\" = because of / on account of",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Correction is appropriate only ___ ___ ___ the error causes genuine confusion.\" (to the degree that)",
+      "correct": "to the extent that",
+      "hint": "\"To the extent that + clause\" = qualifying phrase",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "\"In the interests to clarity, the argument is restated.\"",
+        "\"By virtue to their experience, they communicated well.\"",
+        "\"With a view to fostering respect, the programme was designed.\"",
+        "\"In view to the evidence, a revision is needed.\""
+      ],
+      "correct": "\"With a view to fostering respect, the programme was designed.\"",
+      "hint": "\"With a view to + gerund\" = correct",
+      "points": 2
+    }
+  ]
+}

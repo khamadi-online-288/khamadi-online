@@ -1,0 +1,246 @@
+{
+  "id": "l80-4",
+  "moduleNum": 22,
+  "lessonNum": 7,
+  "moduleTitle": "Philosophy, Ethics & Values",
+  "title": "Writing: A Philosophical Essay on an Ethical Issue",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "State the ethical issue and your position clearly",
+      "hint": "Use \"It is argued here that…\" or \"This essay defends the view that…\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Present your first argument with philosophical reasoning",
+      "hint": "Use framework language: \"From a deontological perspective…\" / \"A consequentialist would argue…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the strongest objection charitably, then counter it",
+      "hint": "\"One might object that… This objection has force. Nevertheless/However, it does not establish…\""
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Add a further supporting argument or qualify your claim",
+      "hint": "Use \"I am not claiming X, but only Y\" or \"In ordinary cases X; in extreme cases Y\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Draw a measured conclusion",
+      "hint": "\"It follows that…\" / \"In light of the above…\" / \"The upshot is…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "This essay argues that ",
+      "suffix": ".",
+      "placeholder": "the absolute prohibition on torture cannot be overridden by consequentialist considerations",
+      "hint": "State your position directly in the opening sentence"
+    },
+    {
+      "key": "l2",
+      "prefix": "From a deontological perspective, ",
+      "suffix": ".",
+      "placeholder": "using a person as a mere means — even to save many lives — constitutes a fundamental violation of their dignity",
+      "hint": "Present your argument using a philosophical framework"
+    },
+    {
+      "key": "l3",
+      "prefix": "One might object that ",
+      "suffix": ". This objection has force. Nevertheless, ",
+      "hint": "Introduce and then counter the strongest objection",
+      "placeholder": "consequences must have some moral weight / it does not follow that they override all deontological constraints"
+    },
+    {
+      "key": "l4",
+      "prefix": "I am not claiming that outcomes are irrelevant, but only that ",
+      "suffix": ".",
+      "placeholder": "they cannot override the absolute prohibition on treating persons as mere instruments",
+      "hint": "\"I am not claiming X, but only Y\" = precise qualification"
+    },
+    {
+      "key": "l5",
+      "prefix": "In light of the above, it follows that ",
+      "suffix": ".",
+      "placeholder": "even granting that torture might produce good consequences, it remains morally impermissible",
+      "hint": "\"In light of the above, it follows that…\" = formal philosophical conclusion"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening philosophical positions",
+      "color": "#003876",
+      "items": [
+        "This essay argues that…",
+        "I shall defend the view that…",
+        "The central claim of this essay is that…",
+        "It is argued here that neither X nor Y is fully satisfactory.",
+        "This essay takes issue with the view that…"
+      ]
+    },
+    {
+      "category": "Introducing and countering objections",
+      "color": "#1D9E75",
+      "items": [
+        "One might object that this argument proves too much.",
+        "The strongest objection to this view is that…",
+        "This objection has genuine force. Nevertheless, it does not establish…",
+        "It is true that X. That said, Y.",
+        "Even granting this point, the main argument still holds."
+      ]
+    },
+    {
+      "category": "Qualifying and distinguishing",
+      "color": "#C9933B",
+      "items": [
+        "I am not claiming X, but only that Y.",
+        "This is not to say that X, but rather to insist that Y.",
+        "In ordinary cases, the principle holds. In extreme dilemmas, it may require qualification.",
+        "My claim is the modest one that X, not the stronger claim that Y.",
+        "Be that as it may, the core position remains defensible."
+      ]
+    },
+    {
+      "category": "Drawing philosophical conclusions",
+      "color": "#1B8FC4",
+      "items": [
+        "It follows that no single ethical framework is fully adequate.",
+        "In light of the above, we may conclude that…",
+        "The upshot of this argument is that…",
+        "What this shows is that moral reasoning requires multiple frameworks.",
+        "Notwithstanding the objections, the conclusion stands: X is morally impermissible."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ that this argument ignores the interests of the majority.\" (introducing objection)",
+      "opts": [
+        "It follows",
+        "One might object",
+        "Be that as it may",
+        "In light of"
+      ],
+      "correct": "One might object",
+      "hint": "\"One might object that…\" = charitable introduction of opposing view",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"This objection has genuine force. ___, it does not establish that torture is ever permissible.\" (counter after concession)",
+      "correct": "Nevertheless / However / Yet",
+      "hint": "Concessive adverb introducing the counter",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ granting that consequences matter, it does not follow that they override all other considerations.\"",
+      "opts": [
+        "Even",
+        "Although",
+        "Despite",
+        "Notwithstanding"
+      ],
+      "correct": "Even",
+      "hint": "\"Even granting X, Y still holds\" = concede for argument's sake, then counter",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ the above, we may conclude that no single framework is adequate.\" (drawing conclusion)",
+      "correct": "In light of",
+      "hint": "\"In light of the above\" = formal conclusion phrase",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ these objections, the core argument remains defensible.\" (formal: despite/notwithstanding)",
+      "opts": [
+        "Notwithstanding",
+        "Although",
+        "Even if",
+        "Despite that"
+      ],
+      "correct": "Notwithstanding",
+      "hint": "\"Notwithstanding X, Y\" = formal version of \"despite X, Y\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"I am not claiming that outcomes are irrelevant, but only that they cannot override all constraints\" uses a correct limiting structure.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I am not claiming X, but only Y\" = precise claim qualification",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ is that care ethics complements the other frameworks rather than replacing them.\" (conclusion)",
+      "correct": "The upshot",
+      "hint": "\"The upshot is that…\" = the practical conclusion of the argument",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ is not to say that character is unimportant, but to insist that consequences also matter.\"",
+      "opts": [
+        "This",
+        "It",
+        "Both are correct",
+        "That"
+      ],
+      "correct": "Both are correct",
+      "hint": "\"This is not to say X\" and \"It is not to say X\" are both correct",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "l9-5",
+  "moduleNum": 9,
+  "lessonNum": 6,
+  "moduleTitle": "Right now",
+  "title": "What am I doing today?",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Right now, I am...",
+      "emoji": "⏱️",
+      "opts": [
+        "Обычно я...",
+        "Прямо сейчас я...",
+        "Вчера я...",
+        "Завтра я..."
+      ],
+      "correct": "Прямо сейчас я..."
+    },
+    {
+      "id": "p2",
+      "word": "I am not studying — I am...",
+      "emoji": "🔄",
+      "opts": [
+        "Я не учусь — я...",
+        "Я учусь и...",
+        "Я не учился — я...",
+        "Мне не нравится учиться."
+      ],
+      "correct": "Я не учусь — я..."
+    },
+    {
+      "id": "p3",
+      "word": "Around me, everyone is...",
+      "emoji": "👥",
+      "opts": [
+        "Вокруг меня все...",
+        "Рядом со мной нет никого.",
+        "Вокруг меня все были...",
+        "Около меня все хотят..."
+      ],
+      "correct": "Вокруг меня все..."
+    },
+    {
+      "id": "p4",
+      "word": "She is feeling...",
+      "emoji": "😊",
+      "opts": [
+        "Она чувствует себя...",
+        "Она хочет...",
+        "Она знает...",
+        "Она идёт..."
+      ],
+      "correct": "Она чувствует себя..."
+    },
+    {
+      "id": "p5",
+      "word": "Instead of studying, he is...",
+      "emoji": "🏃",
+      "opts": [
+        "Вместо учёбы он...",
+        "После учёбы он...",
+        "Перед учёбой он...",
+        "Во время учёбы он..."
+      ],
+      "correct": "Вместо учёбы он..."
+    },
+    {
+      "id": "p6",
+      "word": "Today is a busy day because...",
+      "emoji": "📅",
+      "opts": [
+        "Вчера был занятой день, потому что...",
+        "Сегодня занятой день, потому что...",
+        "Завтра будет занятой день, потому что...",
+        "Сегодня был выходной, потому что..."
+      ],
+      "correct": "Сегодня занятой день, потому что..."
+    }
+  ],
+  "writingModel": [
+    "It is Tuesday morning. I am getting ready for university in the dormitory kitchen. I am eating a quick breakfast — bread, some cheese, and a cup of tea. My roommate Timur is still sleeping in the room next door. He is not coming to his morning lecture today because he is not feeling well. I feel a little sorry for him, but I need to go — my day is starting!",
+    "Now it is 9:15 and I am sitting in the WKU library on the second floor. I am working on my Computer Science project. The program is quite difficult, but I am enjoying the challenge — every time I fix a problem, I feel great. Next to me, Malika is reading a thick Psychology book. She is carefully highlighting sentences with a yellow marker. Around us, other students are studying quietly, whispering to each other, or typing on their laptops. One student near the window is sleeping — but the rest of us are working hard!",
+    "It is lunchtime now. I am eating in the cafeteria with Sholpan. We are having chicken soup and fresh bread. The soup is warm and delicious — exactly what I need after three hours of coding. We are talking about our project deadline and laughing about Dastan. Sholpan is checking her phone — she is texting him right now. He is still outside, playing football with his friends instead of working on the project. Typical Dastan!",
+    "This afternoon, I am sitting in a lecture on algorithms. The professor is explaining a new and important topic. I am listening carefully and taking notes in my notebook. A few students near the back are not paying attention — they are looking at their phones under the desk. I am trying hard to concentrate. The professor is drawing a diagram on the board right now. I am copying it as fast as I can.",
+    "It is 8 pm now. I am back in my dormitory room. I am not studying at this moment — I am video-calling my mother in Aktau. She is asking me all about my week. My father is watching the news on television in the background. My little sister Dinara is doing her homework at the kitchen table. I can see everyone on the screen. They are all busy, just like me. I am feeling a little homesick, but I am also feeling proud. Today was a hard day — but I am growing. And that is the best feeling in the world."
+  ],
+  "writingTemplate": [
+    {
+      "key": "open",
+      "prefix": "It is ",
+      "suffix": ".",
+      "placeholder": "the time and day",
+      "hint": "e.g. Tuesday morning / 9 am on Wednesday"
+    },
+    {
+      "key": "now1",
+      "prefix": "Right now, I am ",
+      "suffix": ".",
+      "placeholder": "your main activity right now",
+      "hint": "e.g. sitting in the library / eating breakfast / working on a project"
+    },
+    {
+      "key": "around",
+      "prefix": "Around me, ",
+      "suffix": " are ___.",
+      "placeholder": "people ... doing something",
+      "hint": "e.g. my classmates ... studying / talking / laughing"
+    },
+    {
+      "key": "other",
+      "prefix": "My ",
+      "suffix": ".",
+      "placeholder": "friend/classmate + is + verb-ing",
+      "hint": "e.g. friend Sholpan is eating lunch with me"
+    },
+    {
+      "key": "not",
+      "prefix": "I am not ",
+      "suffix": ". Instead, I am ___.",
+      "placeholder": "something you are NOT doing ... what you ARE doing",
+      "hint": "e.g. sleeping ... working on my project"
+    },
+    {
+      "key": "feel",
+      "prefix": "I am feeling ",
+      "suffix": " because ___.",
+      "placeholder": "adjective ... reason",
+      "hint": "e.g. tired ... I studied for three hours / happy ... the lecture was interesting"
+    },
+    {
+      "key": "home",
+      "prefix": "At home right now, my ",
+      "suffix": " is ___.",
+      "placeholder": "family member ... doing something",
+      "hint": "e.g. mother is cooking / father is watching TV / sister is doing homework"
+    },
+    {
+      "key": "end",
+      "prefix": "Today is ",
+      "suffix": " because ___.",
+      "placeholder": "adjective day ... your reason",
+      "hint": "e.g. a busy day ... I have a lecture, a project, and a phone call!"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Starting your text — time & place",
+      "color": "#003876",
+      "items": [
+        "It is [day], [time] in the morning / afternoon / evening.",
+        "Right now, I am sitting in / at / near...",
+        "At this moment, I am in the library / cafeteria / lecture hall.",
+        "Today is a busy / quiet / exciting day.",
+        "It is [time] and I am [verb-ing]...",
+        "This morning / afternoon / evening, I am..."
+      ]
+    },
+    {
+      "category": "Describing what YOU are doing",
+      "color": "#1B8FC4",
+      "items": [
+        "I am working on my project / essay / homework.",
+        "I am eating / studying / reading / writing right now.",
+        "I am not sleeping — I am thinking / concentrating!",
+        "I am trying hard to [verb].",
+        "I am enjoying [noun] / I am feeling [adjective].",
+        "I am getting better at English every day!"
+      ]
+    },
+    {
+      "category": "Describing what OTHERS are doing",
+      "color": "#7C3AED",
+      "items": [
+        "My friend [name] is [verb-ing] next to me.",
+        "Around me, everyone is studying / talking / laughing.",
+        "Some students are [verb-ing], but others are [verb-ing].",
+        "The professor is explaining / writing on the board.",
+        "My [family member] is [verb-ing] at home right now.",
+        "Instead of [verb-ing], he/she is [verb-ing]!"
+      ]
+    },
+    {
+      "category": "Contrast & feelings",
+      "color": "#1D9E75",
+      "items": [
+        "I am not [verb-ing] — instead, I am [verb-ing].",
+        "He/She is not working — he/she is [verb-ing] again!",
+        "I am feeling tired / happy / homesick / excited.",
+        "Today is hard, but I am learning a lot.",
+        "I am growing every single day.",
+        "Even though it is difficult, I am enjoying it!"
+      ]
+    }
+  ]
+}

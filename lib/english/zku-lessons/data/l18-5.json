@@ -1,0 +1,433 @@
+{
+  "id": "l18-5",
+  "moduleNum": 2,
+  "lessonNum": 7,
+  "moduleTitle": "Health & the Body",
+  "title": "Module 2 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What were Kamila's symptoms when she woke up on Monday?",
+      "opts": [
+        "Stomachache and nausea",
+        "Headache, sore throat, fever, blocked nose, and cough",
+        "Back pain and dizziness",
+        "Eye pain and ear infection"
+      ],
+      "correct": "Headache, sore throat, fever, blocked nose, and cough",
+      "hint": "Paragraph 1: all 5 symptoms are listed."
+    },
+    {
+      "id": "q02",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "The WKU medical centre is on the ground floor of Building 3.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Located on the ground floor of Building 3.\""
+    },
+    {
+      "id": "q03",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What was Dr. Akhmetov's diagnosis?",
+      "opts": [
+        "Bacterial pneumonia",
+        "Flu",
+        "Viral respiratory infection",
+        "Food poisoning"
+      ],
+      "correct": "Viral respiratory infection",
+      "hint": "\"You have got a viral respiratory infection.\""
+    },
+    {
+      "id": "q04",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Kamila had to stay home for at least ___ days.",
+      "correct": "three",
+      "hint": "\"You absolutely have to stay home for at least three days.\""
+    },
+    {
+      "id": "q05",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What two medicines did the doctor prescribe?",
+      "opts": [
+        "Antibiotics and vitamins",
+        "Antiviral tablet and throat spray",
+        "Painkillers and cough syrup",
+        "Antibiotic and eye drops"
+      ],
+      "correct": "Antiviral tablet and throat spray",
+      "hint": "\"An antiviral tablet and a throat spray.\""
+    },
+    {
+      "id": "q06",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kamila had to go to hospital.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"You don't have to go to hospital — this is not that serious.\""
+    },
+    {
+      "id": "q07",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How much water did the doctor tell Kamila to drink daily?",
+      "opts": [
+        "One litre",
+        "One and a half litres",
+        "Two litres",
+        "Three litres"
+      ],
+      "correct": "Two litres",
+      "hint": "\"Drink at least two litres of water per day.\""
+    },
+    {
+      "id": "q08",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Who helped Kamila recover?",
+      "opts": [
+        "Amir",
+        "Nurse Gulnara",
+        "Her roommate Zhibek",
+        "Dr. Akhmetov personally"
+      ],
+      "correct": "Her roommate Zhibek",
+      "hint": "\"Her roommate Zhibek took very good care of her.\""
+    },
+    {
+      "id": "q09",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is wrong with Amir when he calls the clinic?",
+      "opts": [
+        "He has a fever",
+        "He has a stomachache and has been sick",
+        "He has a sore throat",
+        "He has a blocked nose"
+      ],
+      "correct": "He has a stomachache and has been sick",
+      "hint": "\"I've got a bad stomachache and I've been sick twice this morning.\""
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did Amir eat the previous night?",
+      "opts": [
+        "Cafeteria food",
+        "Home-cooked food",
+        "Chicken shawarma from a street stall",
+        "Pizza"
+      ],
+      "correct": "Chicken shawarma from a street stall",
+      "hint": "\"I had a chicken shawarma from the street stall near the gates.\""
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Dr. Nurova prescribes antibiotics for Amir.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, you don't have to — it's not bacterial.\""
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Amir must avoid solid food for ___ hours.",
+      "correct": "24",
+      "hint": "\"You must avoid solid food for 24 hours.\""
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What can Amir drink? (3 options)",
+      "opts": [
+        "Juice, coffee, cola",
+        "Water, herbal tea, clear soup",
+        "Milk, tea, smoothie",
+        "Only water"
+      ],
+      "correct": "Water, herbal tea, clear soup",
+      "hint": "\"Only water, herbal tea, and clear soup.\""
+    },
+    {
+      "id": "q14",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Dr. Nurova tells Amir to go to hospital.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, you don't have to go to hospital.\""
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ a fever of 39 and a sore throat.",
+      "opts": [
+        "has got",
+        "have got",
+        "is got",
+        "are got"
+      ],
+      "correct": "has got",
+      "hint": "She → has got (3rd person)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I ___ any allergies — the doctor asked and I confirmed.",
+      "correct": "haven't got",
+      "hint": "I → haven't got (negative)."
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"He have got food poisoning\" — what is wrong?",
+      "opts": [
+        "\"He\" needs \"has got\"",
+        "Missing \"a\"",
+        "\"poisoning\" is wrong",
+        "Nothing"
+      ],
+      "correct": "\"He\" needs \"has got\"",
+      "hint": "He/She/It → has got (not \"have got\")."
+    },
+    {
+      "id": "q18",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I've got 20 years old\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Age uses \"be\": I am 20 years old. Never \"have got\"."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ stay home for three days. (Doctor's order)",
+      "opts": [
+        "has to",
+        "doesn't have to",
+        "mustn't",
+        "don't have to"
+      ],
+      "correct": "has to",
+      "hint": "Doctor's order = obligation. She (3rd person) = has to."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "What is the difference between \"don't have to\" and \"must not\"?",
+      "opts": [
+        "Same meaning",
+        "\"don't have to\" = not necessary; \"must not\" = forbidden",
+        "\"must not\" is politer",
+        "\"don't have to\" means forbidden"
+      ],
+      "correct": "\"don't have to\" = not necessary; \"must not\" = forbidden",
+      "hint": "Critical distinction: optional vs forbidden."
+    },
+    {
+      "id": "q21",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "You ___ go to hospital — the doctor said it's not serious enough.",
+      "correct": "don't have to",
+      "hint": "Not necessary = don't have to."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "What is the past form of \"have to\"?",
+      "opts": [
+        "haved to",
+        "had to",
+        "have had to",
+        "must"
+      ],
+      "correct": "had to",
+      "hint": "Past of have to → had to (all persons)."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"diagnosis\" mean?",
+      "opts": [
+        "A type of medicine",
+        "The identification of an illness",
+        "A type of test",
+        "A medical prescription"
+      ],
+      "correct": "The identification of an illness",
+      "hint": "Diagnosis = the identification of an illness by a doctor."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "Her throat was red and ___ — it needed treatment immediately.",
+      "correct": "inflamed",
+      "hint": "Inflamed = red, swollen, and painful."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What is a \"prescription\"?",
+      "opts": [
+        "A diagnosis form",
+        "A written order from a doctor for medicine",
+        "A type of treatment",
+        "A medical test result"
+      ],
+      "correct": "A written order from a doctor for medicine",
+      "hint": "Prescription = written order from doctor for medicine."
+    },
+    {
+      "id": "q26",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Exhausted\" means slightly tired.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Exhausted = EXTREMELY tired, having no energy at all."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "Where do you go to collect your prescribed medicine?",
+      "opts": [
+        "Hospital",
+        "Clinic",
+        "Pharmacy",
+        "Reception"
+      ],
+      "correct": "Pharmacy",
+      "hint": "Pharmacy = a shop where medicines are prepared and sold."
+    },
+    {
+      "id": "q28",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The process of becoming well again after illness is called ___.",
+      "correct": "recovery",
+      "hint": "Recovery = the process of becoming well again."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"infection\" mean?",
+      "opts": [
+        "A type of pain",
+        "An illness caused by bacteria or virus",
+        "A medical test",
+        "A type of medicine"
+      ],
+      "correct": "An illness caused by bacteria or virus",
+      "hint": "Infection = illness caused by bacteria or a virus."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Sore\" describes...",
+      "opts": [
+        "something very cold",
+        "something that is painful and uncomfortable",
+        "something completely blocked",
+        "something red and swollen"
+      ],
+      "correct": "something that is painful and uncomfortable",
+      "hint": "Sore = painful and uncomfortable. e.g. a sore throat, sore muscles."
+    }
+  ]
+}

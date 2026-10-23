@@ -1,0 +1,229 @@
+{
+  "id": "l62-4",
+  "moduleNum": 4,
+  "lessonNum": 7,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "writing",
+  "title": "A Formal Report Using Passive Voice",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "The survey was conducted",
+      "emoji": "📊",
+      "opts": [
+        "Опрос собирается провести",
+        "Опрос был проведён",
+        "Опрос проводится",
+        "Опрос будет проведён"
+      ],
+      "correct": "Опрос был проведён"
+    },
+    {
+      "id": "p2",
+      "word": "It has been found that",
+      "emoji": "🔍",
+      "opts": [
+        "Предполагается что",
+        "Было обнаружено что",
+        "Будет найдено что",
+        "Находят что"
+      ],
+      "correct": "Было обнаружено что"
+    },
+    {
+      "id": "p3",
+      "word": "Participants were asked to",
+      "emoji": "💬",
+      "opts": [
+        "Участники попросили",
+        "Участников попросили",
+        "Участники просят",
+        "Участников попросят"
+      ],
+      "correct": "Участников попросили"
+    },
+    {
+      "id": "p4",
+      "word": "It is recommended that",
+      "emoji": "✅",
+      "opts": [
+        "Предполагается что",
+        "Рекомендуется что",
+        "Было рекомендовано что",
+        "Будет рекомендовано что"
+      ],
+      "correct": "Рекомендуется что"
+    },
+    {
+      "id": "p5",
+      "word": "Data was collected from",
+      "emoji": "📋",
+      "opts": [
+        "Данные будут собраны от",
+        "Данные были собраны от",
+        "Данные собираются от",
+        "Данные собирали от"
+      ],
+      "correct": "Данные были собраны от"
+    },
+    {
+      "id": "p6",
+      "word": "The findings suggest that",
+      "emoji": "📈",
+      "opts": [
+        "Результаты покажут что",
+        "Результаты предполагают что",
+        "Результаты предложили что",
+        "Результаты предполагали что"
+      ],
+      "correct": "Результаты предполагают что"
+    }
+  ],
+  "writingModel": [
+    "Report on Student Satisfaction with WKU Digital Services",
+    "Prepared by: Amir Bekzhanov, Information Systems Committee | Date: March 2026",
+    "EXECUTIVE SUMMARY",
+    "This report was commissioned by the WKU Academic Council in January 2026. It was prepared following concerns that had been raised by student representatives about the quality and accessibility of the university's digital services. Data was collected from 412 respondents across all faculties. Findings have been analysed and recommendations have been developed in consultation with the IT department.",
+    "METHODOLOGY",
+    "An online survey was distributed to all enrolled students in February 2026. Participants were asked to rate six digital services on a scale of one to five and to identify the service they considered most in need of improvement. Responses were collected over a two-week period. All data was anonymised before analysis was conducted. A follow-up focus group was held with twelve students who had been identified as heavy users of digital services.",
+    "KEY FINDINGS",
+    "It has been found that satisfaction levels vary significantly across services. The library catalogue has been rated most positively, with an average score of 4.1 out of 5. The student portal, by contrast, has been rated as the least satisfactory service, with an average score of 2.3. Common complaints that were raised included slow loading speeds, poor mobile compatibility, and the lack of a password reset function that can be accessed without visiting the IT office in person.",
+    "It has been reported by several focus group participants that the portal was being used for administrative tasks but was being avoided for anything that required extended engagement. It is widely acknowledged among students that the current system was designed for desktop use only and has not been updated since its introduction in 2018.",
+    "RECOMMENDATIONS",
+    "On the basis of these findings, the following actions are recommended:",
+    "First, it is recommended that the student portal be redesigned for mobile compatibility. This work should be commissioned from a qualified vendor and should be completed before the start of the 2027 academic year.",
+    "Second, it is proposed that an interim solution be implemented immediately: students should be allowed to reset their passwords online without visiting the IT office. This can be achieved without a full system redesign.",
+    "Third, it is suggested that a student advisory group be established to provide ongoing feedback throughout the redesign process. Students' input should be incorporated at each stage.",
+    "CONCLUSION",
+    "The evidence gathered in this report indicates that significant improvements are needed. The findings have been shared with the IT department, who have confirmed that the recommendations will be considered. A follow-up report will be prepared in September 2026."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "Report on ",
+      "suffix": "",
+      "placeholder": "Your report topic",
+      "hint": "\"Report on X\" — formal title. Could be: student satisfaction, a service, a problem, a policy."
+    },
+    {
+      "key": "prepared",
+      "prefix": "Prepared by: ",
+      "suffix": " | Date: ___.",
+      "placeholder": "your name + role ... date",
+      "hint": "Standard formal report byline."
+    },
+    {
+      "key": "context",
+      "prefix": "This report was ",
+      "suffix": " following concerns that had been raised.",
+      "placeholder": "commissioned by / prepared following",
+      "hint": "\"This report WAS COMMISSIONED by X.\" — Past Simple Passive. Establish context."
+    },
+    {
+      "key": "method",
+      "prefix": "Data was collected from ",
+      "suffix": ". Participants were asked to ___.",
+      "placeholder": "N respondents ... [what they did]",
+      "hint": "Methods section: \"Data WAS COLLECTED from...\" / \"Participants WERE ASKED TO...\" — Past Simple Passive."
+    },
+    {
+      "key": "finding1",
+      "prefix": "It has been found that ",
+      "suffix": ".",
+      "placeholder": "key finding (PPS impersonal)",
+      "hint": "\"IT HAS BEEN FOUND THAT...\" — impersonal Present Perfect Passive for findings."
+    },
+    {
+      "key": "finding2",
+      "prefix": "It has been reported that ",
+      "suffix": ". It is widely acknowledged that ___.",
+      "placeholder": "further finding + consensus",
+      "hint": "\"IT HAS BEEN REPORTED THAT... IT IS WIDELY ACKNOWLEDGED THAT...\" ✅"
+    },
+    {
+      "key": "rec1",
+      "prefix": "It is recommended that ",
+      "suffix": ".",
+      "placeholder": "main recommendation (modal passive)",
+      "hint": "\"IT IS RECOMMENDED THAT X be done.\" — present passive for recommendation."
+    },
+    {
+      "key": "rec2",
+      "prefix": "It is proposed that ",
+      "suffix": ".",
+      "placeholder": "second recommendation",
+      "hint": "\"IT IS PROPOSED THAT Y be implemented.\" ✅"
+    },
+    {
+      "key": "concl",
+      "prefix": "The findings have been shared with ",
+      "suffix": ". A follow-up report will be prepared.",
+      "placeholder": "relevant department + future action",
+      "hint": "\"The findings HAVE BEEN SHARED with X.\" PPS. \"A report WILL BE PREPARED.\" Future Passive. ✅"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Report introduction (passive)",
+      "color": "#003876",
+      "items": [
+        "This report was commissioned by... / prepared for...",
+        "The report was written in response to concerns that had been raised.",
+        "Data was collected from X respondents across X faculties.",
+        "Findings have been analysed and recommendations have been developed.",
+        "The following report was prepared in consultation with..."
+      ]
+    },
+    {
+      "category": "Methods section (passive)",
+      "color": "#1D9E75",
+      "items": [
+        "A survey was distributed to all enrolled students.",
+        "Participants were asked to rate / identify / describe...",
+        "Responses were collected over a [period].",
+        "All data was anonymised before analysis was conducted.",
+        "A focus group was held with [N] participants."
+      ]
+    },
+    {
+      "category": "Findings (impersonal passive)",
+      "color": "#1B8FC4",
+      "items": [
+        "It has been found that...",
+        "It has been reported that...",
+        "It is widely acknowledged that...",
+        "It has been established that...",
+        "[Service] has been rated most positively / least satisfactorily."
+      ]
+    },
+    {
+      "category": "Recommendations (modal passive)",
+      "color": "#C9933B",
+      "items": [
+        "It is recommended that X be [done/reviewed/implemented].",
+        "It is proposed that Y be [established/developed/commissioned].",
+        "It is suggested that Z be [considered/incorporated/adopted].",
+        "This should be completed before [date].",
+        "A follow-up report will be prepared in [month]."
+      ]
+    }
+  ]
+}

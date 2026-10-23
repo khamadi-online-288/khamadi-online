@@ -1,0 +1,522 @@
+{
+  "id": "l82-g1",
+  "moduleNum": 24,
+  "lessonNum": 5,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "Grammar: Stance Adverbs and Comment Clauses in Academic Writing",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Наречия позиции и вводные комментарии (Stance adverbs & comment clauses):\n\nСТЕПЕНЬ УВЕРЕННОСТИ:\ncertainly · undoubtedly · clearly · obviously → очевидно, несомненно\nprobably · presumably · apparently → вероятно, по-видимому\npossibly · perhaps · conceivably → возможно\n\nВВОДНЫЕ ФРАЗЫ:\nInterestingly, ... · Surprisingly, ... · Importantly, ...\nSignificantly, ... · Notably, ... · Crucially, ...\n\nМНЕНИЕ ГОВОРЯЩЕГО:\nFrankly, ... · Honestly, ... · Admittedly, ... · Arguably, ...\n\nИСПОЛЬЗОВАНИЕ:\n\"Crucially, the experiment was not replicated.\" (ключевой факт)\n\"Interestingly, participants preferred option B.\" (неожиданно)\n\"Admittedly, the sample size was small.\" (признание ограничения)",
+  "grammarTable": [
+    {
+      "subject": "Importance/salience",
+      "verb": "notably / crucially / significantly / importantly / above all",
+      "short": "highlighting what matters most",
+      "example": "\"Crucially, the warrant connecting evidence to claim is often left implicit.\""
+    },
+    {
+      "subject": "Degree of certainty",
+      "verb": "evidently / arguably / apparently / presumably / supposedly",
+      "short": "signalling how certain the claim is",
+      "example": "\"Arguably, this is the most significant limitation of the study.\""
+    },
+    {
+      "subject": "Surprise/unexpectedness",
+      "verb": "surprisingly / strikingly / remarkably / unexpectedly",
+      "short": "flagging a counterintuitive result",
+      "example": "\"Surprisingly, the control group showed larger effects than the treatment group.\""
+    },
+    {
+      "subject": "Concession",
+      "verb": "admittedly / granted / it must be acknowledged that / to be fair",
+      "short": "conceding before countering",
+      "example": "\"Admittedly, not all of the evidence supports this interpretation.\""
+    },
+    {
+      "subject": "Logical connection",
+      "verb": "consequently / accordingly / hence / thus / therefore",
+      "short": "showing logical consequence",
+      "example": "\"The evidence is limited; accordingly, the conclusions must be stated with caution.\""
+    },
+    {
+      "subject": "Comment clauses",
+      "verb": "it should be noted that / it is worth emphasising that / what is striking is",
+      "short": "editorial comment on the main clause",
+      "example": "\"It is worth emphasising that this finding does not generalise to all contexts.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Stance Adverbs: Position in the Sentence",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Sentence-initial (most common): followed by comma",
+          "example": "\"Crucially, the study lacks a control group.\" / \"Notably, no previous research has addressed this.\""
+        },
+        {
+          "form": "Mid-sentence (between subject and verb)",
+          "example": "\"The results, arguably, support a more nuanced interpretation.\" / \"This finding, crucially, undermines the main hypothesis.\""
+        },
+        {
+          "form": "End of sentence (for emphasis)",
+          "example": "\"The effect size is small, admittedly.\" / \"The evidence is mixed, surprisingly.\""
+        },
+        {
+          "form": "With \"it is + pp that\" construction",
+          "example": "\"It is arguably the case that… / It is crucially important that… / It is widely acknowledged that…\""
+        }
+      ]
+    },
+    {
+      "title": "Degree of Certainty: Importantly vs Arguably vs Evidently",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"Evidently\" = it is clear from the evidence (high certainty)",
+          "example": "\"Evidently, the policy had a significant effect on outcomes.\" (= the evidence clearly shows this)"
+        },
+        {
+          "form": "\"Arguably\" = this can be argued but is contestable (medium certainty)",
+          "example": "\"Arguably, this represents the most important finding in recent research.\" (= I contend, others might disagree)"
+        },
+        {
+          "form": "\"Presumably\" = we may reasonably assume (inferred, not directly evidenced)",
+          "example": "\"Presumably, the researchers intended to control for this variable.\" (= I assume, without direct evidence)"
+        },
+        {
+          "form": "\"Supposedly\" = often signals scepticism (claimed but doubted)",
+          "example": "\"The supposedly neutral design was actually skewed.\" (= the claim of neutrality is questionable)"
+        }
+      ]
+    },
+    {
+      "title": "Comment Clauses: Editorial Notes on the Main Claim",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"It should be noted/mentioned that + clause\"",
+          "example": "\"It should be noted that the sample consisted entirely of university students.\""
+        },
+        {
+          "form": "\"It is worth emphasising/noting that + clause\"",
+          "example": "\"It is worth emphasising that this is a correlation, not a causal relationship.\""
+        },
+        {
+          "form": "\"What is striking/notable/remarkable is that + clause\"",
+          "example": "\"What is striking is that both groups showed identical improvement rates.\""
+        },
+        {
+          "form": "\"It is significant/important that + clause\"",
+          "example": "\"It is significant that no study has yet examined this population directly.\""
+        }
+      ]
+    },
+    {
+      "title": "Concessive Stance Adverbs: Admittedly, Granted, To Be Fair",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"Admittedly\" = I acknowledge this point (before countering)",
+          "example": "\"Admittedly, the sample size is small. That said, the effect size is large enough to be clinically meaningful.\""
+        },
+        {
+          "form": "\"Granted\" = granting this point (same structure as \"admittedly\")",
+          "example": "\"Granted, not all studies reach the same conclusion. Nevertheless, the majority support this interpretation.\""
+        },
+        {
+          "form": "\"To be fair\" = in fairness, acknowledging the other side",
+          "example": "\"To be fair, the critics make a valid point about the methodology.\""
+        },
+        {
+          "form": "These always signal \"I am about to counter this point\"",
+          "example": "\"Admittedly X. However/Nevertheless/That said, Y.\" — never use admittedly to end a paragraph."
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Stance Adverbs",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Overusing \"importantly\" for every point",
+          "example": "✅ Use \"crucially\" for the single most important point; \"notably\" for things worth attention; \"importantly\" sparingly."
+        },
+        {
+          "form": "❌ \"Arguably\" before an obvious or well-established claim",
+          "example": "✅ \"Arguably\" should signal contested or debatable claims — not uncontested facts."
+        },
+        {
+          "form": "❌ \"Admittedly\" at the end of a paragraph (it signals a counter is coming)",
+          "example": "✅ Always follow \"admittedly\" with the counter-argument in the same or next sentence."
+        },
+        {
+          "form": "❌ Starting every sentence with a stance adverb (creates monotony)",
+          "example": "✅ Use stance adverbs selectively — they lose force if overused."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the most appropriate stance adverb.",
+      "text": "\"___, the most significant finding is the absence of any control group.\" (most decisive point)",
+      "opts": [
+        "Arguably",
+        "Crucially",
+        "Notably",
+        "Admittedly"
+      ],
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = introducing the most important or decisive consideration"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct stance adverb.",
+      "text": "\"___, not all researchers would accept this interpretation.\" (conceding the point)",
+      "correct": "Admittedly / Granted / To be fair",
+      "hint": "\"Admittedly / Granted\" = concessive stance adverb — I acknowledge this"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the stance adverb signalling contestability.",
+      "text": "\"___, this represents one of the most important contributions to the field.\"",
+      "opts": [
+        "Evidently",
+        "Surprisingly",
+        "Arguably",
+        "Notably"
+      ],
+      "correct": "Arguably",
+      "hint": "\"Arguably\" = this can be argued but is contestable — not everyone would agree"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the comment clause.",
+      "text": "\"It ___ ___ ___ that the study design has significant limitations.\" (it is important to note)",
+      "correct": "should be noted",
+      "hint": "\"It should be noted that + clause\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct stance adverb for a counterintuitive result.",
+      "text": "\"___, the group with more experience performed significantly worse on the task.\"",
+      "opts": [
+        "Admittedly",
+        "Crucially",
+        "Surprisingly",
+        "Notably"
+      ],
+      "correct": "Surprisingly",
+      "hint": "\"Surprisingly\" = signals a counterintuitive or unexpected finding"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the comment clause.",
+      "text": "\"___ ___ ___ ___ ___ that both groups showed identical effect sizes.\" (what is striking)",
+      "correct": "What is striking is",
+      "hint": "\"What is striking is that + clause\" — comment clause introducing a notable observation"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the most appropriate stance adverb for a clearly evidenced claim.",
+      "text": "\"___, the intervention produced measurable improvement across all groups.\"",
+      "opts": [
+        "Arguably",
+        "Supposedly",
+        "Presumably",
+        "Evidently"
+      ],
+      "correct": "Evidently",
+      "hint": "\"Evidently\" = it is clear from the evidence (high certainty)"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with the correct comment clause.",
+      "text": "\"___ ___ ___ that this correlation does not establish causation.\" (emphasise this point)",
+      "correct": "It is worth noting / It is worth emphasising",
+      "hint": "\"It is worth noting/emphasising that + clause\""
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the stance adverb for a statement that is assumed but not directly evidenced.",
+      "text": "\"___, the researchers intended to include a larger sample.\"",
+      "opts": [
+        "Evidently",
+        "Reportedly",
+        "Presumably",
+        "Notably"
+      ],
+      "correct": "Presumably",
+      "hint": "\"Presumably\" = we may reasonably assume (without direct evidence)"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete correctly.",
+      "text": "\"___, the majority of studies support this view. However, two recent meta-analyses reach contrary conclusions.\"",
+      "correct": "Admittedly / Granted",
+      "hint": "\"Admittedly/Granted\" = concede before countering"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct comment clause structure.",
+      "text": "\"___ ___ ___ that this is the first study of its kind in this population.\"",
+      "opts": [
+        "It is significant that",
+        "What significant that",
+        "It significant is that",
+        "That is significant"
+      ],
+      "correct": "It is significant that",
+      "hint": "\"It is significant that + clause\" = comment clause"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Choose the correct stance adverb position.",
+      "text": "\"The result, ___, calls the entire methodology into question.\" (mid-sentence, decisive point)",
+      "correct": "crucially",
+      "hint": "Mid-sentence stance adverb between commas",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Which sentence misuses \"admittedly\"?",
+      "text": "",
+      "opts": [
+        "\"Admittedly, the sample is small. Nevertheless, the effect size is large.\"",
+        "\"Admittedly, this is the most important finding in the field.\"",
+        "\"Admittedly, the evidence is mixed — but it leans towards our conclusion.\"",
+        "\"To be fair, the critics raise a valid methodological concern.\""
+      ],
+      "correct": "\"Admittedly, this is the most important finding in the field.\"",
+      "hint": "\"Admittedly\" signals concession before a counter — not the introduction of your strongest claim"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete with the correct stance adverb.",
+      "text": "\"___, the most important variable — institutional culture — was not measured.\" (crucially, something was missed)",
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = most important point being made",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the appropriate stance adverb.",
+      "text": "\"___, the researchers claimed to have controlled for all confounders.\" (signalling scepticism)",
+      "opts": [
+        "Evidently",
+        "Notably",
+        "Supposedly",
+        "Crucially"
+      ],
+      "correct": "Supposedly",
+      "hint": "\"Supposedly\" = often signals scepticism about the claim being described",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is the most appropriate use of a stance adverb in formal academic writing?",
+      "text": "",
+      "opts": [
+        "\"The evidence is amazingly strong for this claim.\"",
+        "\"Crucially, the study fails to address the long-term effects of the intervention.\"",
+        "\"Importantly, there is lots of research on this.\"",
+        "\"Notably there is some research that kind of agrees.\""
+      ],
+      "correct": "\"Crucially, the study fails to address the long-term effects of the intervention.\"",
+      "hint": "\"Crucially\" + precise academic claim = appropriate stance adverb use",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, this finding undermines the entire theoretical framework of the study.\" (most decisive)",
+      "opts": [
+        "Notably",
+        "Admittedly",
+        "Crucially",
+        "Surprisingly"
+      ],
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = introducing the most important or decisive point",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, not all of these studies used peer-reviewed data — yet the overall trend is clear.\" (concede then counter)",
+      "correct": "Admittedly / Granted",
+      "hint": "\"Admittedly/Granted\" = concessive stance adverb",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, this represents the most significant gap in the current literature.\" (contestable claim)",
+      "opts": [
+        "Evidently",
+        "Notably",
+        "Arguably",
+        "Supposedly"
+      ],
+      "correct": "Arguably",
+      "hint": "\"Arguably\" = this can be argued but is debatable",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It ___ ___ ___ that this correlation does not establish causation.\" (emphasising a limitation)",
+      "correct": "is worth noting",
+      "hint": "\"It is worth noting that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the control group showed larger improvements than the treatment group.\" (counterintuitive)",
+      "opts": [
+        "Evidently",
+        "Crucially",
+        "Surprisingly",
+        "Notably"
+      ],
+      "correct": "Surprisingly",
+      "hint": "\"Surprisingly\" = flags a counterintuitive or unexpected result",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Admittedly\" always signals that the writer is about to agree with the previous point.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Admittedly\" signals concession before a counter — not full agreement",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that this is the first study to examine this population longitudinally.\" (it is significant)",
+      "correct": "It is significant that",
+      "hint": "\"It is significant that + clause\" = comment clause",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the researchers intended to include a larger sample.\" (assumed but not directly evidenced)",
+      "opts": [
+        "Evidently",
+        "Notably",
+        "Arguably",
+        "Presumably"
+      ],
+      "correct": "Presumably",
+      "hint": "\"Presumably\" = reasonable assumption without direct evidence",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ that both treatment groups showed identical outcomes.\" (what is striking)",
+      "correct": "What is striking is",
+      "hint": "\"What is striking is that + clause\" = comment clause introducing notable observation",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the evidence clearly demonstrates the effectiveness of the programme.\" (high certainty — from evidence)",
+      "opts": [
+        "Arguably",
+        "Supposedly",
+        "Evidently",
+        "Presumably"
+      ],
+      "correct": "Evidently",
+      "hint": "\"Evidently\" = clear from the evidence (high certainty)",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, the most significant limitation — small sample size — was not acknowledged in the original paper.\" (worth noting)",
+      "correct": "Notably",
+      "hint": "\"Notably\" = worth noting, particularly significant",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses a stance adverb correctly in academic writing?",
+      "opts": [
+        "\"The study is amazingly well-designed.\"",
+        "\"Crucially, the warrant between evidence and claim is never stated.\"",
+        "\"Importantly there is lots of research.\"",
+        "\"Notably the sample is small, which is bad.\""
+      ],
+      "correct": "\"Crucially, the warrant between evidence and claim is never stated.\"",
+      "hint": "\"Crucially\" + precise academic statement = appropriate use",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "id": "l64-g2",
+  "moduleNum": 6,
+  "lessonNum": 6,
+  "moduleTitle": "Present Perfect: Simple vs Continuous",
+  "type": "grammar",
+  "title": "Present Perfect Continuous: Process, Duration & Visible Effects",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect Continuous — Process, Duration & Choosing Between PPS and PPC",
+  "grammarNote": "Present Perfect Continuous (have/has been + -ing) акцентирует ПРОЦЕСС и ПРОДОЛЖИТЕЛЬНОСТЬ, а не результат. Выбор между PPS и PPC — один из самых тонких аспектов английской грамматики на уровне B1-B2. Правило не всегда однозначное, но понимание разницы в акцентах делает вашу речь значительно точнее.",
+  "grammarTable": [
+    {
+      "subject": "Duration up to now",
+      "verb": "have/has been + -ing",
+      "short": "\"She's been studying 3 hrs\"",
+      "example": "\"I've been waiting for 2 hours.\" / \"We've been living here since 2020.\" ✅"
+    },
+    {
+      "subject": "Ongoing process",
+      "verb": "have/has been + -ing",
+      "short": "\"It's been raining.\"",
+      "example": "\"She's been working on the thesis all day.\" / \"He's been trying to call.\" ✅"
+    },
+    {
+      "subject": "Explains present state",
+      "verb": "have/has been + -ing",
+      "short": "Why look tired? → been running",
+      "example": "\"You're out of breath — have you been running?\" ✅"
+    },
+    {
+      "subject": "Temporary ongoing activity",
+      "verb": "have/has been + -ing",
+      "short": "\"I've been reading.\"",
+      "example": "\"I've been reading this book for a week.\" (still reading) ✅"
+    },
+    {
+      "subject": "PPS vs PPC: result vs process",
+      "verb": "key contrast",
+      "short": "result ≠ process",
+      "example": "\"She's written three chapters.\" (PPS: 3 done) vs \"She's been writing all day.\" (PPC: process ongoing) ✅"
+    },
+    {
+      "subject": "Counting → PPS only",
+      "verb": "cannot use PPC to count",
+      "short": "✗ \"been writing 3 papers\"",
+      "example": "✗ \"She's been writing 3 papers.\" → ✅ \"She's WRITTEN 3 papers.\" — count = PPS ✅"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "When PPC is more natural than PPS",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Duration with FOR/SINCE (dynamic verb)",
+          "example": "\"I've been studying FOR three hours.\" (process matters, not the result) ✅"
+        },
+        {
+          "form": "Explaining a visible state",
+          "example": "\"She's sweating. She must have been running.\" (running explains the sweat) ✅"
+        },
+        {
+          "form": "Ongoing activity \"still in progress\"",
+          "example": "\"I've been working on this code all day. I'm not finished yet.\" ✅"
+        },
+        {
+          "form": "Recent activity (just stopped)",
+          "example": "\"You've been crying.\" (eyes are still red — the crying just stopped) ✅"
+        },
+        {
+          "form": "Emphasising effort or process",
+          "example": "\"I've been trying to contact you for hours!\" (emphasis on the effort) ✅"
+        }
+      ]
+    },
+    {
+      "title": "When PPS is more natural than PPC",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Counting completions",
+          "example": "\"She has WRITTEN three papers this year.\" ✅ NOT \"has been writing three papers\" ✗"
+        },
+        {
+          "form": "Completed, result matters now",
+          "example": "\"I've FINISHED the report.\" (done — result exists) ✅"
+        },
+        {
+          "form": "Stative verbs always",
+          "example": "\"I've KNOWN him for years.\" ✅ NEVER \"been knowing\" ✗"
+        },
+        {
+          "form": "Life experience (ever/never)",
+          "example": "\"Have you BEEN to Almaty?\" (experience) ✅"
+        },
+        {
+          "form": "Single completed events",
+          "example": "\"She's CALLED three times.\" (each call = a completion) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Cases where BOTH are natural — different emphasis",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"I've worked here for 3 years.\" (PPS)",
+          "example": "\"I've worked here\" = credential/achievement. Three years is a completed stretch. ✅"
+        },
+        {
+          "form": "\"I've been working here for 3 years.\" (PPC)",
+          "example": "\"I've been working\" = the work is ongoing. Still here, still in it. ✅"
+        },
+        {
+          "form": "\"She's read the book.\" (PPS)",
+          "example": "\"She's read the book\" = completed; result (she knows what's in it). ✅"
+        },
+        {
+          "form": "\"She's been reading the book.\" (PPC)",
+          "example": "\"She's been reading\" = still in progress; or explains a visible state. ✅"
+        },
+        {
+          "form": "How do you choose?",
+          "example": "Ask: Is the RESULT or the PROCESS the focus? Result = PPS. Process = PPC. ✅"
+        }
+      ]
+    },
+    {
+      "title": "PPC with stative verbs — grey areas",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "\"live\" — both work for duration",
+          "example": "\"I've lived here for 3 years.\" ✅ AND \"I've been living here for 3 years.\" ✅"
+        },
+        {
+          "form": "\"work\" — both work for duration",
+          "example": "\"She's worked here for 5 years.\" ✅ AND \"She's been working here for 5 years.\" ✅"
+        },
+        {
+          "form": "\"stay\" — both work",
+          "example": "\"I've stayed here before.\" ✅ (experience) / \"I've been staying here for a week.\" ✅ (process)"
+        },
+        {
+          "form": "The difference is subtle",
+          "example": "\"Lived\" (PPS) = settled, completed stretch. \"Been living\" (PPC) = ongoing, still in it. ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common PPC errors",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I've been writing 3 papers.\"",
+          "example": "✅ \"I've WRITTEN 3 papers.\" — counting = PPS. ✅"
+        },
+        {
+          "form": "✗ \"I've been knowing her for years.\"",
+          "example": "✅ \"I've KNOWN her for years.\" — stative = PPS. ✅"
+        },
+        {
+          "form": "✗ \"I've been finishing the report.\"",
+          "example": "✅ \"I've FINISHED the report.\" — completed result = PPS. ✅"
+        },
+        {
+          "form": "✗ \"She's been read the book.\" (wrong form)",
+          "example": "✅ \"She's been READING the book.\" OR \"She's READ the book.\" — check: are you using -ing? ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Present Perfect Continuous:\nhave/has + been + V-ing\n\nUSE PPC for:\n→ DURATION (how long something has been happening)\n  \"I've been waiting FOR two hours.\"\n  \"She's been studying SINCE this morning.\"\n\n→ ONGOING PROCESS (still in progress)\n  \"He's been writing all day — not finished yet.\"\n\n→ EXPLAINING VISIBLE STATE\n  \"You look tired — have you been running?\"\n\nCHOOSE PPS INSTEAD when:\n→ Counting: \"She's WRITTEN 3 papers.\" ✅\n→ Result matters: \"I've FINISHED.\" ✅\n→ Stative verb: \"I've KNOWN her.\" ✅\n\nBOTH possible (different emphasis):\n\"I've worked here for 3 years.\" (achievement)\n\"I've been working here for 3 years.\" (ongoing)\n\nKey question: RESULT or PROCESS?\n→ Result focus = PPS\n→ Process focus = PPC",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "PPC for duration.",
+      "text": "\"She ___ (study) for the exam all day. She looks exhausted.\"",
+      "opts": [
+        "has studied",
+        "has been studying",
+        "had studied",
+        "studied"
+      ],
+      "correct": "has been studying",
+      "hint": "Duration + explains present state (exhausted) = PPC. \"She HAS BEEN STUDYING all day.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "PPC to explain present state.",
+      "text": "\"Why are his clothes covered in oil? He ___ (fix) his bike.\"",
+      "opts": [
+        "has fixed",
+        "has been fixing",
+        "fixed",
+        "had been fixing"
+      ],
+      "correct": "has been fixing",
+      "hint": "Explains visible state (oil-covered clothes) = PPC. \"He HAS BEEN FIXING his bike.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "PPS or PPC? Count vs duration.",
+      "text": "\"She ___ (write) 5 emails this morning.\" (counting)",
+      "opts": [
+        "has been writing",
+        "has written",
+        "wrote",
+        "was writing"
+      ],
+      "correct": "has written",
+      "hint": "Counting = PPS. \"She HAS WRITTEN 5 emails.\" ✅ NOT \"has been writing 5 emails\" ✗"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "PPS or PPC? Choose.",
+      "text": "\"I ___ (work) on this project for three weeks. I'm still not done.\"",
+      "opts": [
+        "have worked",
+        "have been working",
+        "Both are correct — process ongoing, PPC preferred",
+        "worked"
+      ],
+      "correct": "Both are correct — process ongoing, PPC preferred",
+      "hint": "\"I've been working on this project for three weeks\" (PPC — process/duration) ✅ / \"I've worked\" also possible. PPC is preferred when emphasising \"still not done.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with PPC.",
+      "text": "\"I can't talk now. I ___ (try) to finish this report.\"",
+      "correct": "'ve been trying",
+      "hint": "\"I'VE BEEN TRYING to finish this report.\" — ongoing effort, explaining current state. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "PPS for completed result.",
+      "text": "\"I ___ (finish) the report. Here it is.\"",
+      "opts": [
+        "have been finishing",
+        "have finished",
+        "finished",
+        "had finished"
+      ],
+      "correct": "have finished",
+      "hint": "Completed result (here it is) = PPS. \"I HAVE FINISHED the report.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Explain present state with PPC.",
+      "text": "\"Your eyes are red. ___ you ___ (cry)?\"",
+      "opts": [
+        "Have / cried",
+        "Have / been crying",
+        "Did / cry",
+        "Are / crying"
+      ],
+      "correct": "Have / been crying",
+      "hint": "\"Have you BEEN CRYING?\" — PPC explains visible state (red eyes). ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "PPC with \"all morning/day.\"",
+      "text": "\"The phone has ___ (ring) all morning. Nobody answers.\"",
+      "opts": [
+        "rung",
+        "been ringing",
+        "rang",
+        "Both been ringing and rung work"
+      ],
+      "correct": "Both been ringing and rung work",
+      "hint": "\"has BEEN RINGING\" (PPC — ongoing process) ✅ / \"has RUNG\" (PPS — also natural). Both possible. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Find the error.",
+      "text": "\"She's been knowing him since university.\"",
+      "opts": [
+        "Correct",
+        "\"been knowing\" is wrong — \"know\" is stative; should be \"known\"",
+        "\"Since university\" is wrong",
+        "\"She's\" is wrong"
+      ],
+      "correct": "\"been knowing\" is wrong — \"know\" is stative; should be \"known\"",
+      "hint": "✅ \"She's KNOWN him since university.\" — stative verb \"know\" → PPS only. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Same event, different focus. Choose PPS.",
+      "text": "Focus on the result: she has completed this. \"She ___ (write) the introduction.\"",
+      "opts": [
+        "has written",
+        "has been writing",
+        "Both mean the same",
+        "wrote"
+      ],
+      "correct": "has written",
+      "hint": "\"She HAS WRITTEN the introduction.\" (PPS = completed, result). \"Has been writing\" = still in process. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "\"Live\" — PPS or PPC?",
+      "text": "\"I ___ in Almaty for three years now.\" — Which is correct?",
+      "opts": [
+        "'ve lived (PPS only)",
+        "'ve been living (PPC only)",
+        "Both are natural — \"live\" works with both forms",
+        "lived (Past Simple)"
+      ],
+      "correct": "Both are natural — \"live\" works with both forms",
+      "hint": "\"I've LIVED in Almaty for 3 years.\" ✅ AND \"I've BEEN LIVING in Almaty for 3 years.\" ✅ — both natural with \"live.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "PPC for recent activity.",
+      "text": "\"You smell like coffee! ___ (you / drink) coffee all morning?\"",
+      "correct": "Have you been drinking",
+      "hint": "\"HAVE YOU BEEN DRINKING coffee all morning?\" — PPC explains the smell (visible state). ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose: \"written\" or \"been writing\"?",
+      "text": "\"The team ___ the report since Monday.\" (still writing, focus on duration)",
+      "opts": [
+        "has written (PPS preferred)",
+        "has been writing (PPC preferred)",
+        "Both equally natural",
+        "wrote"
+      ],
+      "correct": "has been writing (PPC preferred)",
+      "hint": "\"Has BEEN WRITING since Monday\" (PPC) = still in process, duration is the focus. ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Counting vs duration — choose.",
+      "text": "\"He ___ four books this year.\" vs \"He ___ a lot this year.\"",
+      "opts": [
+        "has written / has been reading",
+        "has been writing / has read",
+        "wrote / read",
+        "Both PPS"
+      ],
+      "correct": "has written / has been reading",
+      "hint": "\"HAS WRITTEN four books\" (PPS — counting) ✅ + \"HAS BEEN READING a lot\" (PPC — process/duration). ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "PPC for ongoing effort.",
+      "text": "\"I ___ (try) to fix this bug for three days now. It's driving me mad.\"",
+      "opts": [
+        "tried",
+        "have tried",
+        "have been trying",
+        "Both have tried and have been trying work"
+      ],
+      "correct": "Both have tried and have been trying work",
+      "hint": "\"I'VE TRIED to fix this bug for three days.\" (PPS — number of attempts) ✅ / \"I'VE BEEN TRYING\" (PPC — ongoing frustrating effort) ✅ — both work, different nuance. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Identifying the type.",
+      "text": "\"She's been analysing the data since Wednesday.\" — What does this emphasise?",
+      "opts": [
+        "The result of the analysis",
+        "The number of data points analysed",
+        "The duration and ongoing process of the analysis",
+        "When the analysis will finish"
+      ],
+      "correct": "The duration and ongoing process of the analysis",
+      "hint": "PPC = emphasises duration (\"since Wednesday\") and that the analysis is still ongoing. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "PPC is primarily used for:",
+      "opts": [
+        "Completed results",
+        "Counting achievements",
+        "Duration and ongoing processes up to now",
+        "Life experience"
+      ],
+      "correct": "Duration and ongoing processes up to now",
+      "hint": "PPC = how long something has been happening; process still in progress. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been waiting for two hours.\" — \"have been waiting\" because:",
+      "opts": [
+        "Waiting is stative",
+        "It counts completions",
+        "The waiting is the ongoing process; duration is the focus",
+        "\"Two hours\" requires PPC"
+      ],
+      "correct": "The waiting is the ongoing process; duration is the focus",
+      "hint": "PPC for duration of ongoing activity. \"FOR two hours.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been writing 3 essays.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"3 essays\" = counting → should be PPS: \"She's written 3 essays\"",
+        "\"Writing\" is wrong",
+        "\"She's\" is wrong"
+      ],
+      "correct": "\"3 essays\" = counting → should be PPS: \"She's written 3 essays\"",
+      "hint": "✅ Counting = PPS. \"She's WRITTEN 3 essays.\" PPC cannot count. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You look tired — have you been running?\" — PPC because:",
+      "opts": [
+        "Running is stative",
+        "PPC explains the visible present state through recent ongoing activity",
+        "Running is complete",
+        "Past Simple would be better"
+      ],
+      "correct": "PPC explains the visible present state through recent ongoing activity",
+      "hint": "PPC = explains why someone looks a certain way. The running → explains the tiredness. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (work) on her thesis ALL semester. It's almost done.\"",
+      "correct": "has been working",
+      "hint": "\"She HAS BEEN WORKING on her thesis all semester.\" — ongoing duration, process. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been knowing him for years.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"knowing\" should be \"known\" — stative verb",
+        "\"years\" needs \"for\"",
+        "\"I've\" should be \"I'd\""
+      ],
+      "correct": "\"knowing\" should be \"known\" — stative verb",
+      "hint": "\"know\" = stative → PPS only. \"I'VE KNOWN him for years.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is CORRECT?",
+      "opts": [
+        "\"She's been finishing the report.\"",
+        "\"She's been written the report.\"",
+        "\"She's been writing the report all day.\"",
+        "\"She's been write.\""
+      ],
+      "correct": "\"She's been writing the report all day.\"",
+      "hint": "\"She's been WRITING the report all day.\" = PPC correct form. ✅ All others have errors."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "PPS vs PPC: \"She's written 3 chapters.\" vs \"She's been writing all day.\" — difference:",
+      "opts": [
+        "No difference",
+        "\"Written 3 chapters\" = result/count; \"been writing all day\" = process/duration",
+        "\"Written\" is wrong",
+        "\"Been writing\" is wrong"
+      ],
+      "correct": "\"Written 3 chapters\" = result/count; \"been writing all day\" = process/duration",
+      "hint": "PPS = result (3 chapters done). PPC = process (all day long). ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been working here for 3 years.\" vs \"I've worked here for 3 years.\" — which is true?",
+      "opts": [
+        "Only \"been working\" is correct",
+        "Only \"worked\" is correct",
+        "Both are correct — \"been working\" = still ongoing; \"worked\" = also natural",
+        "\"Worked\" requires a specific time"
+      ],
+      "correct": "Both are correct — \"been working\" = still ongoing; \"worked\" = also natural",
+      "hint": "\"live/work/stay\" = grey area verbs that work with both PPS and PPC for duration. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When should you definitely choose PPC over PPS?",
+      "opts": [
+        "When counting",
+        "When the result matters",
+        "When emphasising the duration or ongoing process of a dynamic verb",
+        "When using \"ever\""
+      ],
+      "correct": "When emphasising the duration or ongoing process of a dynamic verb",
+      "hint": "PPC = when the process/duration matters. \"I've BEEN STUDYING for 3 hours.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"How long ___ (she / study) for the exam?\"",
+      "correct": "has she been studying",
+      "hint": "\"How long HAS SHE BEEN STUDYING?\" — duration → PPC. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It has been raining since this morning.\" — PPC correct because:",
+      "opts": [
+        "Rain is stative",
+        "Counting rain events",
+        "Rain is ongoing from this morning to now; duration + process",
+        "\"Since\" requires PPC"
+      ],
+      "correct": "Rain is ongoing from this morning to now; duration + process",
+      "hint": "PPC + since = activity ongoing from starting point to now. \"BEEN RAINING since this morning.\" ✅"
+    }
+  ]
+}

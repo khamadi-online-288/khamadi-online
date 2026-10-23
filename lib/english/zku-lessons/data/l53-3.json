@@ -1,0 +1,441 @@
+{
+  "id": "l53-3",
+  "moduleNum": 19,
+  "lessonNum": 3,
+  "moduleTitle": "Travel",
+  "type": "listening",
+  "title": "Booking a Hotel Room",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Receptionist",
+      "text": "Good afternoon. Grand Hotel Almaty. How can I help you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Hello. I'd like to make a booking, please. For two nights — the 14th and 15th of June.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Of course. How many guests will be staying?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Just one — it's for me. I'd prefer a single room.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Let me check availability... We have a standard single room available at 18,000 tenge per night.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Does that include breakfast?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "It includes continental breakfast, yes. Check-in is from 2 p.m. and check-out is by 12 noon.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That works perfectly. Is there Wi-Fi in the rooms?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes, complimentary Wi-Fi throughout the hotel. May I take your name and contact number?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Kamila Seitkali. My phone number is 8-705-321-4567.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "And how would you like to pay — by card on arrival, or would you like to secure the booking with a deposit?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'll pay by card when I check in. Is a confirmation email possible?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Absolutely. Could I have your email address?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "It's kamila.seitkali at gmail.com. And one more thing — is there a cancellation policy?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "Yes — free cancellation up to 24 hours before check-in. After that, one night's charge applies.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Perfect. Thank you very much.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Receptionist",
+      "text": "You're welcome, Ms Seitkali. We look forward to welcoming you on the 14th. Have a lovely day!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "availability",
+      "emoji": "📅",
+      "opts": [
+        "стоимость",
+        "наличие свободных мест",
+        "расписание",
+        "правила"
+      ],
+      "correct": "наличие свободных мест"
+    },
+    {
+      "id": "p2",
+      "word": "continental breakfast",
+      "emoji": "🥐",
+      "opts": [
+        "полный завтрак",
+        "лёгкий завтрак (хлеб, кофе)",
+        "обед",
+        "ужин"
+      ],
+      "correct": "лёгкий завтрак (хлеб, кофе)"
+    },
+    {
+      "id": "p3",
+      "word": "check-in / check-out",
+      "emoji": "🔑",
+      "opts": [
+        "вход/выход из лифта",
+        "заезд/выезд из отеля",
+        "регистрация рейса",
+        "оплата"
+      ],
+      "correct": "заезд/выезд из отеля"
+    },
+    {
+      "id": "p4",
+      "word": "complimentary",
+      "emoji": "🎁",
+      "opts": [
+        "платный",
+        "бесплатный / предоставляемый в подарок",
+        "опциональный",
+        "ограниченный"
+      ],
+      "correct": "бесплатный / предоставляемый в подарок"
+    },
+    {
+      "id": "p5",
+      "word": "deposit",
+      "emoji": "💳",
+      "opts": [
+        "полная оплата",
+        "предоплата / задаток",
+        "возврат",
+        "скидка"
+      ],
+      "correct": "предоплата / задаток"
+    },
+    {
+      "id": "p6",
+      "word": "cancellation policy",
+      "emoji": "❌",
+      "opts": [
+        "правила заезда",
+        "политика отмены бронирования",
+        "цены",
+        "карта отеля"
+      ],
+      "correct": "политика отмены бронирования"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila is booking a room for two nights.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "She wants a double room.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The room costs 18,000 tenge per night and includes breakfast.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Check-in time is from 12 noon.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila will pay by card when she arrives.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The hotel allows free cancellation up to 48 hours before check-in.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📱",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Student booking a hotel room for her Almaty trip"
+    },
+    {
+      "id": "recept",
+      "name": "Receptionist",
+      "city": "Almaty",
+      "emoji": "🏨",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Grand Hotel Almaty — handles booking efficiently"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Books a single room for the 14th and 15th of June.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Confirms room availability at 18,000 tenge per night including breakfast.",
+      "correctCharId": "recept"
+    },
+    {
+      "id": "s3",
+      "text": "Asks whether Wi-Fi is available in the rooms.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Says free cancellation is available up to 24 hours before check-in.",
+      "correctCharId": "recept"
+    },
+    {
+      "id": "s5",
+      "text": "Decides to pay by card on arrival rather than leave a deposit.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Says they look forward to welcoming Kamila on the 14th.",
+      "correctCharId": "recept"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which dates is Kamila booking the room for?",
+      "opts": [
+        "13th and 14th June",
+        "14th and 15th June",
+        "15th and 16th June",
+        "14th June only"
+      ],
+      "correct": "14th and 15th June",
+      "hint": "\"I'd like to make a booking... for two nights — the 14th and 15th of June.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much does the room cost per night?",
+      "opts": [
+        "15,000 tenge",
+        "16,000 tenge",
+        "18,000 tenge",
+        "20,000 tenge"
+      ],
+      "correct": "18,000 tenge",
+      "hint": "\"We have a standard single room available at 18,000 tenge per night.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The room price does not include breakfast.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It includes continental breakfast, yes.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the check-in time?",
+      "opts": [
+        "12 noon",
+        "1 p.m.",
+        "From 2 p.m.",
+        "3 p.m."
+      ],
+      "correct": "From 2 p.m.",
+      "hint": "\"Check-in is from 2 p.m. and check-out is by 12 noon.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How will Kamila pay?",
+      "opts": [
+        "Deposit now",
+        "Bank transfer",
+        "By card on arrival",
+        "Cash in advance"
+      ],
+      "correct": "By card on arrival",
+      "hint": "\"I'll pay by card when I check in.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the cancellation policy?",
+      "opts": [
+        "No cancellation allowed",
+        "Free cancellation any time",
+        "Free up to 48 hours",
+        "Free cancellation up to 24 hours before check-in"
+      ],
+      "correct": "Free cancellation up to 24 hours before check-in",
+      "hint": "\"Free cancellation up to 24 hours before check-in. After that, one night's charge applies.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Wi-Fi at the hotel is free for guests.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Complimentary Wi-Fi throughout the hotel.\" — complimentary = free."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the receptionist offer at the end?",
+      "opts": [
+        "A discount",
+        "A confirmation email",
+        "A room upgrade",
+        "A taxi service"
+      ],
+      "correct": "A confirmation email",
+      "hint": "\"Could I have your email address?\" — to send the confirmation email."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'd like to make a booking.\" — \"I'd like\" is used to:",
+      "opts": [
+        "State a fact",
+        "Make a polite request",
+        "Give advice",
+        "Describe the future"
+      ],
+      "correct": "Make a polite request",
+      "hint": "\"I'd like\" = \"I would like\" — a polite way to make a request or express a wish. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We look forward to welcoming you.\" \"Look forward to\" takes:",
+      "opts": [
+        "Infinitive (to welcome)",
+        "Gerund (welcoming)",
+        "Base form (welcome)",
+        "Past form (welcomed)"
+      ],
+      "correct": "Gerund (welcoming)",
+      "hint": "\"look forward TO\" + GERUND. \"Look forward to WELCOMING.\" ✅ (TO here = preposition, not infinitive marker!)"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ cancellation up to 24 hours before check-in.\" (at no charge)",
+      "correct": "Free",
+      "hint": "\"FREE cancellation\" = at no cost. Standard hotel terminology."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll pay by card when I check in.\" — \"by card\" means:",
+      "opts": [
+        "With cash",
+        "Using a credit or debit card",
+        "In instalments",
+        "With a cheque"
+      ],
+      "correct": "Using a credit or debit card",
+      "hint": "\"pay BY card\" = use a credit or debit card as payment method. ✅"
+    }
+  ]
+}

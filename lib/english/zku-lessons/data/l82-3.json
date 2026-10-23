@@ -1,0 +1,444 @@
+{
+  "id": "l82-3",
+  "moduleNum": 24,
+  "lessonNum": 3,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "The Tutorial: Feedback on an Essay Draft",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Santos",
+      "text": "So, I've had a chance to read your draft. Overall, there's a lot here to be positive about. You clearly understand the topic and you've engaged with a decent range of sources. The central argument is interesting and, I think, defensible. But there are some structural and stylistic issues we need to work through.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "OK. What were the main problems?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "Let's start with the introduction. It's currently doing too much scene-setting and not enough arguing. You spend nearly two pages giving background before you state your actual claim. By page two, a reader should know exactly what you're arguing and why it matters. The claim needs to come earlier and be stated more precisely.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "I thought the background was important for the reader who might not know the field.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "It is — but a sentence or two, or a paragraph at most. You're writing for an academic audience that already has the basic background. What they want to know is: what is your specific contribution to this debate? What are you arguing that hasn't been argued before, or better?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "That makes sense. And the body paragraphs — were those better?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "Some were good, some needed work. The paragraph on page 6 — the one about the correlation between intervention type and outcome — was notably strong. Clear topic sentence, good evidence, well-explained. That's the model you should be aiming for throughout.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "And the others?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "Several paragraphs present evidence but don't explain why it matters. You're giving me the data, but you're not telling me what it means for your argument. A reader shouldn't have to work out the connection for themselves. You need to make it explicit: \"this finding suggests that…\" or \"this evidence supports the claim that…\"",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "So more analysis, less description.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "Exactly. And related to that — your conclusion. It's currently just a summary of what you've said, which is fine but insufficient. Crucially, the conclusion should also address the implications of your argument. What does this mean? What should happen differently as a result of your findings? What questions does your argument open up for future research?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "What about the referencing? Was that OK?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "Mostly, yes. A few formatting inconsistencies, and there's one place where you make a quite strong empirical claim without citing anything. Arguably, that's the most important claim in the whole paper, so it definitely needs a source.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "type": "listening",
+      "text": "I know which one you mean. I had a citation for it originally but I must have deleted it by accident when I was revising.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "That's an easy fix. The other thing I'd flag: your academic register is generally strong, but there are a few places where informal language has crept in. \"Loads of research\" rather than \"a substantial body of research.\" \"The problem with this is\" rather than \"this is problematic insofar as.\" Small things, but they undermine the overall professional quality.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "OK, that's really helpful. So: shorter introduction, earlier claim, more analysis in the body, implications in the conclusion, and check the register. Anything else?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "One more thing. Your use of counter-arguments is generally good — you engage with the opposing view. But on page 9, you raise an objection and then don't really answer it. You say \"some critics argue X\" and then move on without demonstrating why X doesn't undermine your position. You need to complete the argument.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nadia",
+      "text": "I see it now. I was running out of time in that section. I'll come back to it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Santos",
+      "text": "It's a really strong draft. These are refinements, not fundamental problems. With this level of revision, I think you have a genuinely excellent paper.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "scene-setting vs arguing",
+      "ru": "создание контекста vs аргументация",
+      "context": "The introduction should state the claim early rather than spending too long on background"
+    },
+    {
+      "phrase": "make it explicit",
+      "ru": "сделать это явным",
+      "context": "Explaining the significance of evidence, not leaving the reader to work out the connection"
+    },
+    {
+      "phrase": "implications of the argument",
+      "ru": "импликации аргумента",
+      "context": "What the findings mean, what should change, what questions remain for further research"
+    },
+    {
+      "phrase": "academic register",
+      "ru": "академический регистр",
+      "context": "The formal, precise language appropriate for academic writing"
+    },
+    {
+      "phrase": "complete the argument",
+      "ru": "завершить аргумент",
+      "context": "Raising a counter-argument and then fully responding to it"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "draft",
+      "ipa": "/drɑːft/",
+      "pos": "noun/verb",
+      "ru": "черновик / создавать черновик",
+      "kz": "жоба",
+      "emoji": "📝",
+      "definition": "a preliminary version of a piece of writing that will be revised",
+      "example": "\"Overall, it's a really strong draft — these are refinements, not fundamental problems.\"",
+      "collocations": [
+        "first draft",
+        "revise a draft",
+        "submit a draft"
+      ]
+    },
+    {
+      "en": "register",
+      "ipa": "/ˈredʒɪstə/",
+      "pos": "noun",
+      "ru": "регистр (языковой)",
+      "kz": "стиль/тіл деңгейі",
+      "emoji": "📊",
+      "definition": "the level of formality appropriate to a particular communicative context",
+      "example": "\"Your academic register is generally strong, but some informal language has crept in.\"",
+      "collocations": [
+        "academic register",
+        "maintain register",
+        "switch register"
+      ]
+    },
+    {
+      "en": "empirical claim",
+      "ipa": "/ɪmˈpɪrɪkəl kleɪm/",
+      "pos": "noun phrase",
+      "ru": "эмпирическое утверждение",
+      "kz": "эмпирикалық мəлімдеме",
+      "emoji": "🔬",
+      "definition": "a claim about facts that can in principle be verified or falsified by evidence",
+      "example": "\"A strong empirical claim without a citation undermines the paper's credibility.\"",
+      "collocations": [
+        "make an empirical claim",
+        "support an empirical claim",
+        "empirical claim and evidence"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "draft",
+      "emoji": "📝",
+      "opts": [
+        "a preliminary version of a piece of writing",
+        "the final submitted version",
+        "a summary of sources",
+        "a research plan"
+      ],
+      "correct": "a preliminary version of a piece of writing"
+    },
+    {
+      "id": "p2",
+      "word": "register",
+      "emoji": "📊",
+      "opts": [
+        "the level of formality appropriate to a context",
+        "a type of academic journal",
+        "a list of sources",
+        "a grammatical tense system"
+      ],
+      "correct": "the level of formality appropriate to a context"
+    }
+  ],
+  "task1Bank": [
+    "Dr. Santos",
+    "Nadia",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Who identifies the main problem with the introduction?",
+      "correct": "Dr. Santos"
+    },
+    {
+      "id": "t2",
+      "question": "Who says the paragraph on page 6 is \"notably strong\"?",
+      "correct": "Dr. Santos"
+    },
+    {
+      "id": "t3",
+      "question": "Who summarises the feedback at the end of the tutorial?",
+      "correct": "Nadia"
+    },
+    {
+      "id": "t4",
+      "question": "Who identifies the problem with informal language in the draft?",
+      "correct": "Dr. Santos"
+    },
+    {
+      "id": "t5",
+      "question": "Who admits she ran out of time on page 9?",
+      "correct": "Nadia"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Dr. Santos says the draft is fundamentally flawed and needs to be rewritten.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "The main problem with the introduction is that the claim comes too late.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Several body paragraphs present evidence but don't explain its significance.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "The conclusion is described as excellent and requiring no changes.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Nadia's counter-argument on page 9 is raised but not fully answered.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is Dr. Santos's main criticism of the introduction?",
+      "opts": [
+        "It is too short",
+        "It contains too many citations",
+        "It spends too long on background before stating the claim",
+        "It argues a position that hasn't been researched"
+      ],
+      "correct": "It spends too long on background before stating the claim",
+      "hint": "Dr. Santos: \"nearly two pages giving background before you state your actual claim\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Dr. Santos say about the body paragraphs?",
+      "opts": [
+        "They are all excellent",
+        "Several give evidence without explaining its significance",
+        "They all need complete rewriting",
+        "They have too many citations"
+      ],
+      "correct": "Several give evidence without explaining its significance",
+      "hint": "Dr. Santos: \"present evidence but don't explain why it matters\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What should the conclusion do beyond summarising?",
+      "opts": [
+        "Be longer than any body paragraph",
+        "Introduce new evidence not used in the body",
+        "Address the implications and open up questions for further research",
+        "Restate the introduction word for word"
+      ],
+      "correct": "Address the implications and open up questions for further research",
+      "hint": "Dr. Santos: \"implications of your argument… questions does your argument open up\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What specific informal language example does Dr. Santos give?",
+      "opts": [
+        "\"Very important\" instead of \"crucial\"",
+        "\"Loads of research\" instead of \"a substantial body of research\"",
+        "\"Big\" instead of \"significant\"",
+        "\"Okay\" instead of \"acceptable\""
+      ],
+      "correct": "\"Loads of research\" instead of \"a substantial body of research\"",
+      "hint": "Dr. Santos: \"Loads of research rather than a substantial body of research\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Dr. Santos says the draft has fundamental problems that require complete rewriting.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Dr. Santos: \"These are refinements, not fundamental problems.\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Nadia's use of counter-arguments is described as generally good.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Dr. Santos: \"Your use of counter-arguments is generally good\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, that's the most important claim in the paper — it needs a citation.\" (stance adverb — probably most important)",
+      "opts": [
+        "Notably",
+        "Admittedly",
+        "Arguably",
+        "Evidently"
+      ],
+      "correct": "Arguably",
+      "hint": "\"Arguably\" = this can be argued to be the case (used to emphasise importance)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, the conclusion should address the implications of the argument.\" (crucially — most important point)",
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = introducing the most important or decisive point",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the paragraph on page 6 was the strongest in the draft.\" (notably — worth noting)",
+      "opts": [
+        "Arguably",
+        "Admittedly",
+        "Notably",
+        "Evidently"
+      ],
+      "correct": "Notably",
+      "hint": "\"Notably\" = worth noting, particularly significant",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is a \"draft\" in academic writing?",
+      "opts": [
+        "The final submitted version of an essay",
+        "A preliminary version that will be revised",
+        "A list of sources and citations",
+        "A summary of key arguments"
+      ],
+      "correct": "A preliminary version that will be revised",
+      "hint": "Dr. Santos calls it \"a really strong draft\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Academic register\" refers to…",
+      "opts": [
+        "The number of academic sources cited",
+        "The formal, precise language appropriate for academic writing",
+        "The length of the essay",
+        "The citation style used"
+      ],
+      "correct": "The formal, precise language appropriate for academic writing",
+      "hint": "Dr. Santos: \"academic register… informal language has crept in\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A ___ claim is one that can in principle be verified or falsified by evidence.",
+      "correct": "empirical",
+      "hint": "Dr. Santos: \"quite strong empirical claim without citing anything\"",
+      "points": 1
+    }
+  ]
+}

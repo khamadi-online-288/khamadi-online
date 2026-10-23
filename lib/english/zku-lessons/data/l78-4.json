@@ -1,0 +1,246 @@
+{
+  "id": "l78-4",
+  "moduleNum": 20,
+  "lessonNum": 7,
+  "moduleTitle": "Law, Rights & Justice",
+  "title": "Writing: A Discursive Essay on Justice and Reform",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the justice issue and present both perspectives",
+      "hint": "Use modal passives: \"Citizens must be protected by law / are entitled to equal justice\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Case for reform — evidence of injustice in the current system",
+      "hint": "Use formal modals: \"Defendants are required to… / are prohibited from… / must be…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Counter-argument — why the current system has value",
+      "hint": "Use \"although / despite / nevertheless\" + modal expressions"
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Specific reform proposals — what must / should / shall change",
+      "hint": "\"Legal aid must be substantially increased.\" / \"Courts shall be required to…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Balanced conclusion — what a just system is obliged to provide",
+      "hint": "\"A just society is obliged to guarantee… / Citizens are entitled to…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "Access to justice is a fundamental right to which ",
+      "suffix": ".",
+      "placeholder": "all citizens are entitled, regardless of their financial means",
+      "hint": "\"Are entitled to\" = have the right to (start with a rights claim)"
+    },
+    {
+      "key": "l2",
+      "prefix": "However, in practice, those without financial resources are often ",
+      "suffix": ".",
+      "placeholder": "prohibited from accessing high-quality legal representation",
+      "hint": "\"Prohibited from\" or \"denied access to\" — show the gap between right and reality"
+    },
+    {
+      "key": "l3",
+      "prefix": "Defenders of the current system argue that defendants ",
+      "suffix": ".",
+      "placeholder": "are required to accept some inequality as a consequence of individual freedom",
+      "hint": "Fairly present the counter-argument using formal modals"
+    },
+    {
+      "key": "l4",
+      "prefix": "Nevertheless, it is clear that fundamental reforms ",
+      "suffix": ".",
+      "placeholder": "must be introduced to ensure that justice is equally accessible",
+      "hint": "\"Must be introduced\" = modal passive obligation for reform"
+    },
+    {
+      "key": "l5",
+      "prefix": "In a truly just society, no citizen ",
+      "suffix": ", and all are entitled to the full protection of the law.",
+      "placeholder": "must be denied access to justice on the grounds of poverty",
+      "hint": "\"Must be denied\" = modal passive prohibition — this must not happen"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Rights and entitlements",
+      "color": "#003876",
+      "items": [
+        "All citizens are entitled to equal protection under the law.",
+        "Defendants are entitled to a fair trial, regardless of their background.",
+        "Citizens are entitled to know the charges brought against them.",
+        "Those who cannot afford legal representation are entitled to legal aid.",
+        "Every individual is entitled to be presumed innocent until proven guilty."
+      ]
+    },
+    {
+      "category": "Obligations and requirements",
+      "color": "#1D9E75",
+      "items": [
+        "States are required to provide legal aid to those who cannot afford representation.",
+        "Courts are obliged to treat all parties equally before the law.",
+        "Governments are required to reform institutions that perpetuate inequality.",
+        "Lawyers are obliged to maintain the confidentiality of client communications.",
+        "Judges are required to declare conflicts of interest before hearing a case."
+      ]
+    },
+    {
+      "category": "Prohibitions and restrictions",
+      "color": "#C9933B",
+      "items": [
+        "Police are prohibited from conducting searches without a valid warrant.",
+        "Suspects must not be questioned without access to legal advice.",
+        "Confessions may not be obtained through coercion or duress.",
+        "Evidence may not be withheld from the defence team.",
+        "Juvenile offenders shall not be tried in adult courts."
+      ]
+    },
+    {
+      "category": "Reform proposals",
+      "color": "#1B8FC4",
+      "items": [
+        "Legal aid must be substantially increased to address structural inequality.",
+        "All parties shall be entitled to timely hearings without undue delay.",
+        "Courts shall be required to monitor and report on demographic inequalities in outcomes.",
+        "Restorative justice programmes should be made available in all criminal cases.",
+        "Independent oversight of the police must be established and fully resourced."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"All citizens ___ ___ equal access to the justice system.\" (= have the right to)",
+      "opts": [
+        "are required to have",
+        "are entitled to",
+        "must have given",
+        "shall provide"
+      ],
+      "correct": "are entitled to",
+      "hint": "\"Are entitled to + noun\" = have the legal right to",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Suspects ___ ___ of their right to remain silent before questioning.\" (must — passive obligation)",
+      "correct": "must be informed",
+      "hint": "\"Must be + pp\" = mandatory passive obligation",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Governments ___ ___ to reform legal aid systems — it is a legal obligation.\" (formal)",
+      "opts": [
+        "must",
+        "are required",
+        "shall",
+        "are entitled"
+      ],
+      "correct": "are required",
+      "hint": "\"Are required to + infinitive\" = formal external obligation",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Evidence ___ not ___ from the defence team under any circumstances.\" (may — passive prohibition)",
+      "correct": "may / be withheld",
+      "hint": "\"May not be + pp\" = formal passive prohibition",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Police ___ ___ conducting searches without a valid judicial warrant.\" (formal prohibition)",
+      "opts": [
+        "must not conducting",
+        "are prohibited from",
+        "shall not be",
+        "are not entitled to"
+      ],
+      "correct": "are prohibited from",
+      "hint": "\"Are prohibited from + gerund\" = formal written prohibition",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Are entitled to\" expresses a right, while \"are required to\" expresses an obligation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Entitled to\" = right; \"required to\" = obligation — different directions",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In a just society, all parties ___ ___ access to timely and fair judicial proceedings.\" (shall — written law)",
+      "correct": "shall be guaranteed / shall have",
+      "hint": "\"Shall be + pp\" or \"shall have\" = formal mandatory provision",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Restorative justice processes ___ ___ voluntary — participation cannot be mandated.\" (must — passive)",
+      "opts": [
+        "must be",
+        "shall be",
+        "are required to be",
+        "are entitled to be"
+      ],
+      "correct": "must be",
+      "hint": "\"Must be\" = strong obligation/requirement (passive)",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": "l20-4",
+  "moduleNum": 4,
+  "lessonNum": 4,
+  "moduleTitle": "Food & Eating Out",
+  "title": "Countable & uncountable nouns",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Countable & uncountable nouns",
+  "grammarNote": "ИСЧИСЛЯЕМЫЕ существительные (countable) — предметы, которые можно посчитать: one apple, two apples. У них есть единственное и множественное число. НЕИСЧИСЛЯЕМЫЕ (uncountable) — вещества, понятия, массы: water, milk, rice, advice. У них нет множественного числа и нельзя поставить a/an. Это влияет на выбор артикля, квантора и формы глагола.",
+  "grammarTable": [
+    {
+      "subject": "Countable singular",
+      "verb": "a/an + noun",
+      "short": "a/an",
+      "example": "an apple · a tomato · a café · an egg · a recipe"
+    },
+    {
+      "subject": "Countable plural",
+      "verb": "noun + -s/-es",
+      "short": "-s/-es",
+      "example": "apples · tomatoes · cafés · eggs · recipes"
+    },
+    {
+      "subject": "Uncountable",
+      "verb": "no a/an, no plural",
+      "short": "Ø",
+      "example": "water · milk · rice · bread · sugar · cheese · advice · information"
+    },
+    {
+      "subject": "With quantities (C)",
+      "verb": "a few / many / number",
+      "short": "few/many",
+      "example": "a few apples · many tomatoes · three eggs · several dishes"
+    },
+    {
+      "subject": "With quantities (U)",
+      "verb": "a little / much / amount",
+      "short": "little/much",
+      "example": "a little water · much sugar · a lot of milk · some rice"
+    },
+    {
+      "subject": "Question (C)",
+      "verb": "How many...?",
+      "short": "How many?",
+      "example": "How many apples? · How many students? · How many dishes?"
+    },
+    {
+      "subject": "Question (U)",
+      "verb": "How much...?",
+      "short": "How much?",
+      "example": "How much water? · How much rice? · How much sugar?"
+    },
+    {
+      "subject": "Partitive (U → C)",
+      "verb": "a piece/glass/kilo of",
+      "short": "a ... of",
+      "example": "a glass of water · a piece of bread · a kilo of cheese · a cup of tea"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Common uncountable nouns (food & drink)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "Liquids: water, milk, juice, tea, coffee, oil, broth",
+          "example": "\"some water\" ✅ · \"a water\" ❌ · \"two milks\" ❌ · \"some milk\" ✅"
+        },
+        {
+          "form": "Grains: rice, bread, flour, pasta, cereal",
+          "example": "\"some rice\" ✅ · \"two rices\" ❌ · \"a bread\" ❌ · \"a loaf of bread\" ✅"
+        },
+        {
+          "form": "Other: cheese, butter, sugar, salt, honey, meat",
+          "example": "\"some cheese\" ✅ · \"a cheese\" ❌ · \"much sugar\" ✅ · \"a piece of cheese\" ✅"
+        },
+        {
+          "form": "Abstract: advice, information, knowledge, news",
+          "example": "\"some advice\" ✅ · \"an advice\" ❌ · \"many informations\" ❌"
+        }
+      ]
+    },
+    {
+      "title": "Partitive expressions — making uncountable countable",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "a glass/bottle/cup of + liquid",
+          "example": "a glass of water · a bottle of juice · a cup of coffee"
+        },
+        {
+          "form": "a piece/slice/chunk of + food",
+          "example": "a piece of bread · a slice of cheese · a chunk of meat"
+        },
+        {
+          "form": "a kilo/gram/litre of + substance",
+          "example": "a kilo of tomatoes · 500 grams of butter · a litre of milk"
+        },
+        {
+          "form": "a bowl/plate/portion of + dish",
+          "example": "a bowl of soup · a plate of beshbarmak · a portion of rice"
+        },
+        {
+          "form": "a bit/little of + uncountable",
+          "example": "just a bit of honey · a little sugar · a little milk"
+        },
+        {
+          "form": "a piece of advice / information",
+          "example": "\"Can I give you a piece of advice?\" (not \"an advice\")"
+        }
+      ]
+    },
+    {
+      "title": "Nouns that can be BOTH countable and uncountable",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "coffee (U) = the substance",
+          "example": "I love coffee. · She drinks too much coffee."
+        },
+        {
+          "form": "a coffee (C) = one cup",
+          "example": "Can I have a coffee? · Two coffees, please!"
+        },
+        {
+          "form": "chicken (U) = meat",
+          "example": "This beshbarmak has chicken in it."
+        },
+        {
+          "form": "a chicken (C) = one bird",
+          "example": "She bought a chicken at the market."
+        },
+        {
+          "form": "cheese (U) = substance",
+          "example": "I need some cheese for the salad."
+        },
+        {
+          "form": "a cheese (C) = a type/variety",
+          "example": "This is a delicious French cheese."
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common mistakes",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "❌ I need an advice.",
+          "example": "✅ I need some advice. (advice is always uncountable!)"
+        },
+        {
+          "form": "❌ She gave me two informations.",
+          "example": "✅ She gave me two pieces of information."
+        },
+        {
+          "form": "❌ Can I have a rice?",
+          "example": "✅ Can I have some rice? / a portion of rice?"
+        },
+        {
+          "form": "❌ I drank three waters.",
+          "example": "✅ I drank three glasses of water."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Как определить, исчисляемое ли существительное?\n① Можно ли сказать: ONE ___, TWO ___s? → Исчисляемое ✅\n   one apple, two apples ✅ · one egg, two eggs ✅\n② Звучит ли странно множественное число?\n   two waters ❌ · two rices ❌ · two advices ❌ → Неисчисляемое!\n\n💡 Золотое правило с едой:\n• Еда как ВЕЩЕСТВО = неисчисляемое: cheese, bread, rice, chicken (meat)\n• Еда как ЕДИНИЦА/ПРЕДМЕТ = исчисляемое: a biscuit, two sandwiches, a chicken (bird)\n\n💡 Неисчисляемое → используй партитивные выражения:\na glass OF water · a piece OF bread · a kilo OF cheese · a bowl OF soup",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Is \"rice\" countable or uncountable?",
+      "text": "Can you say \"two rices\"?",
+      "opts": [
+        "Yes, rice is countable",
+        "No, rice is uncountable",
+        "Both are possible",
+        "Depends on context"
+      ],
+      "correct": "No, rice is uncountable",
+      "hint": "Rice cannot be counted individually. We say \"some rice\" or \"a bowl of rice\"."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Could I have ___ water, please?",
+      "opts": [
+        "a",
+        "an",
+        "some",
+        "many"
+      ],
+      "correct": "some",
+      "hint": "Water is uncountable → use \"some\" (not \"a water\"!)."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct quantity word.",
+      "text": "How ___ tomatoes do you need?",
+      "correct": "many",
+      "hint": "Tomatoes = countable → How many tomatoes?"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write the correct quantity word.",
+      "text": "How ___ sugar should I add?",
+      "correct": "much",
+      "hint": "Sugar = uncountable → How much sugar?"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct partitive expression.",
+      "text": "I'd like ___ bread.",
+      "opts": [
+        "a bread",
+        "a piece of bread",
+        "two breads",
+        "some bread of"
+      ],
+      "correct": "a piece of bread",
+      "hint": "Bread is uncountable → a piece of bread OR some bread."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Can I have an advice?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Advice is uncountable → \"Can I have some advice?\" or \"a piece of advice\"."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which is correct?",
+      "opts": [
+        "She drank three waters.",
+        "She drank three glasses of water.",
+        "She drank a water.",
+        "She drank water glasses three."
+      ],
+      "correct": "She drank three glasses of water.",
+      "hint": "Water is uncountable → three glasses of water."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Countable or uncountable?",
+      "text": "\"Cheese\" in \"I bought some cheese\" is...",
+      "opts": [
+        "countable",
+        "uncountable",
+        "plural",
+        "a verb"
+      ],
+      "correct": "uncountable",
+      "hint": "Cheese as a substance is uncountable. \"A cheese\" = a type of cheese."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct partitive.",
+      "text": "Can I have a ___ of soup? It smells amazing.",
+      "correct": "bowl",
+      "hint": "a bowl of soup = the standard partitive expression for soup."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "There is ___ milk left in the fridge.",
+      "opts": [
+        "a little",
+        "a few",
+        "many",
+        "a couple of"
+      ],
+      "correct": "a little",
+      "hint": "Milk is uncountable → a little milk (not \"a few milk\")."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which noun is countable?",
+      "text": "Which of these nouns can you say \"two ___s\"?",
+      "opts": [
+        "butter",
+        "information",
+        "recipe",
+        "flour"
+      ],
+      "correct": "recipe",
+      "hint": "Recipe is countable: one recipe, two recipes ✅. Others are uncountable."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Two coffees, please!\" is correct in English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Two coffees\" = two cups of coffee. When used as a serving, coffee is countable! ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Water\" is an ___ noun.",
+      "opts": [
+        "countable",
+        "uncountable",
+        "plural",
+        "abstract"
+      ],
+      "correct": "uncountable",
+      "hint": "Water cannot be counted: \"a water\" ❌, \"two waters\" ❌ → uncountable."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "How ___ tomatoes should I buy?",
+      "correct": "many",
+      "hint": "Tomatoes = countable → How many tomatoes?"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "How ___ sugar is in this recipe?",
+      "correct": "much",
+      "hint": "Sugar = uncountable → How much sugar?"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "I need an advice.",
+        "I need a rice.",
+        "I need some bread.",
+        "I need two informations."
+      ],
+      "correct": "I need some bread.",
+      "hint": "\"some bread\" ✅ — bread is uncountable → no article, no plural."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She bought ___ at the market.\" (one unit)",
+      "opts": [
+        "a chicken",
+        "a chicken of",
+        "some chicken",
+        "chicken"
+      ],
+      "correct": "a chicken",
+      "hint": "\"a chicken\" = one whole bird (countable). \"some chicken\" = some meat."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Can I have two rices?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Rice is uncountable → \"Can I have some rice?\" or \"two portions of rice?\""
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which partitive is correct for water?",
+      "opts": [
+        "a piece of water",
+        "a glass of water",
+        "a bunch of water",
+        "a bit of waters"
+      ],
+      "correct": "a glass of water",
+      "hint": "a glass of water ✅ — standard partitive for liquids."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct quantity for an uncountable noun.",
+      "opts": [
+        "a few milk",
+        "many milk",
+        "a little milk",
+        "several milk"
+      ],
+      "correct": "a little milk",
+      "hint": "\"a little\" is used with uncountable nouns. \"a few\" is for countable."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I need ___ kilo of cheese for the recipe.",
+      "correct": "a",
+      "hint": "\"a kilo\" = one unit of measurement → \"a kilo of cheese\"."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is an uncountable noun?",
+      "opts": [
+        "apple",
+        "sandwich",
+        "biscuit",
+        "flour"
+      ],
+      "correct": "flour",
+      "hint": "Flour (мука) is uncountable: \"some flour\" ✅, \"a flour\" ❌."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Two coffees, please\" means...",
+      "opts": [
+        "two bags of coffee beans",
+        "two cups of coffee",
+        "two types of coffee",
+        "two spoonfuls of coffee"
+      ],
+      "correct": "two cups of coffee",
+      "hint": "In a café, \"a coffee\" = one cup. Two coffees = two cups. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"An advice\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Advice is always uncountable: \"some advice\" or \"a piece of advice\". Never \"an advice\"."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ apples are there?\" — correct question for countable.",
+      "opts": [
+        "How much",
+        "How many",
+        "What amount of",
+        "How big"
+      ],
+      "correct": "How many",
+      "hint": "Countable (apples) → How many apples?"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "She gave me a useful ___ of advice.",
+      "correct": "piece",
+      "hint": "\"a piece of advice\" — the standard partitive for uncountable \"advice\"."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "I'd like some informations.",
+        "I'd like some information.",
+        "I'd like an information.",
+        "I'd like informations."
+      ],
+      "correct": "I'd like some information.",
+      "hint": "Information is always uncountable: \"some information\" ✅, never plural."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which of these food items is uncountable?",
+      "opts": [
+        "tomato",
+        "carrot",
+        "egg",
+        "butter"
+      ],
+      "correct": "butter",
+      "hint": "Butter is uncountable (a substance): \"some butter\" ✅, \"a butter\" ❌."
+    }
+  ]
+}

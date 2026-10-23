@@ -1,0 +1,238 @@
+{
+  "id": "l47-4",
+  "moduleNum": 13,
+  "lessonNum": 5,
+  "moduleTitle": "Phrasal Verbs in Action",
+  "type": "writing",
+  "title": "A Personal Story Using Phrasal Verbs",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "give up",
+      "emoji": "🏳️",
+      "opts": [
+        "продолжать",
+        "сдаваться / бросать",
+        "начинать снова",
+        "переключаться"
+      ],
+      "correct": "сдаваться / бросать"
+    },
+    {
+      "id": "p2",
+      "word": "find out",
+      "emoji": "🔍",
+      "opts": [
+        "забывать",
+        "узнавать / выяснять",
+        "терять",
+        "догадываться"
+      ],
+      "correct": "узнавать / выяснять"
+    },
+    {
+      "id": "p3",
+      "word": "sort out",
+      "emoji": "✅",
+      "opts": [
+        "запутывать",
+        "решить / разобраться",
+        "откладывать",
+        "планировать"
+      ],
+      "correct": "решить / разобраться"
+    },
+    {
+      "id": "p4",
+      "word": "carry on",
+      "emoji": "▶️",
+      "opts": [
+        "останавливаться",
+        "продолжать",
+        "замедляться",
+        "отступать"
+      ],
+      "correct": "продолжать"
+    },
+    {
+      "id": "p5",
+      "word": "come across",
+      "emoji": "🎲",
+      "opts": [
+        "искать специально",
+        "случайно найти",
+        "производить впечатление",
+        "избегать"
+      ],
+      "correct": "случайно найти"
+    },
+    {
+      "id": "p6",
+      "word": "set up",
+      "emoji": "⚙️",
+      "opts": [
+        "уничтожать",
+        "организовывать / создавать",
+        "откладывать",
+        "переносить"
+      ],
+      "correct": "организовывать / создавать"
+    }
+  ],
+  "writingModel": [
+    "How I Almost Gave Up English — by Rustam Seilov",
+    "In my second year of secondary school, I very nearly gave up learning English. I had been putting off the work for weeks, telling myself I would catch up later. But when the exam finally arrived, I found out that \"later\" had become \"too late.\" I failed the test and had to sort out a meeting with my teacher to discuss what had gone wrong.",
+    "My teacher didn't give me a long lecture. She just asked me one question: \"Do you want to carry on?\" I said yes, but without much conviction. She told me to come back the next day with a list of everything I didn't understand, and she would go through it with me. I expected her to give up on me. She didn't.",
+    "Over the next month, we worked through the grammar together. She set up a simple system: I would write down ten new words each evening, look them up in context, and come up with one sentence for each. It seemed like a lot at first. But I kept at it, and gradually it started to work. I was making progress.",
+    "One day I came across an English book in my school library — an old novel with damaged pages. I picked it up, read the first paragraph, and understood almost everything. I went back and read it again just to be sure. I put the book back carefully, went home, and didn't mention it to anyone. But something had changed.",
+    "I never looked back. I carried on improving — through films, music, conversations, and eventually university. When I look back now, I realise the turning point wasn't finding out that I had failed the exam. It was finding a teacher who didn't give up on me when I had almost given up on myself.",
+    "I sometimes pass on this story to younger students who are struggling with English. \"Don't give up,\" I tell them. \"And don't put off the work — it only piles up. Find someone who believes in you and go through the hard parts together. It gets easier. I promise.\""
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Title of your story",
+      "hint": "Think of a title that includes a phrasal verb idea."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "At one point, I nearly ",
+      "suffix": ".",
+      "placeholder": "gave up + something (phrasal verb)",
+      "hint": "Start with a nearly-failing moment. Use \"gave up / put off / gave in\"."
+    },
+    {
+      "key": "problem",
+      "prefix": "I had been ",
+      "suffix": ", which made things worse.",
+      "placeholder": "putting off / falling behind (phrasal verb)",
+      "hint": "Describe what you had been doing wrong (phrasal verb)."
+    },
+    {
+      "key": "find out",
+      "prefix": "When I finally ",
+      "suffix": ".",
+      "placeholder": "found out / worked out (phrasal verb) + result",
+      "hint": "\"found out that...\" / \"worked out that...\" — the moment of discovery."
+    },
+    {
+      "key": "help",
+      "prefix": "Someone told me to ",
+      "suffix": ".",
+      "placeholder": "carry on / keep going / sort it out (phrasal verb)",
+      "hint": "Who helped you? What did they say using a phrasal verb?"
+    },
+    {
+      "key": "action",
+      "prefix": "I ",
+      "suffix": ".",
+      "placeholder": "set up / came up with / carried on (phrasal verb)",
+      "hint": "Describe the action you took — use a phrasal verb."
+    },
+    {
+      "key": "turning",
+      "prefix": "One day I ",
+      "suffix": ".",
+      "placeholder": "came across / picked up / stumbled upon (phrasal verb)",
+      "hint": "The turning point moment — something you discovered or found."
+    },
+    {
+      "key": "result",
+      "prefix": "After that, I ",
+      "suffix": ".",
+      "placeholder": "carried on / looked back / moved on (phrasal verb)",
+      "hint": "The positive result — \"carried on\", \"moved on\", \"looked back with pride\"."
+    },
+    {
+      "key": "lesson",
+      "prefix": "Looking back now, I realise ",
+      "suffix": ".",
+      "placeholder": "your key lesson (can include phrasal verb)",
+      "hint": "Reflect on the experience. What did you learn?"
+    },
+    {
+      "key": "advice",
+      "prefix": "My advice to anyone in the same situation: don't ",
+      "suffix": ".",
+      "placeholder": "give up / put it off / fall behind (phrasal verb)",
+      "hint": "Give advice using a negative phrasal verb command."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Narrative phrasal verbs (sequence)",
+      "color": "#003876",
+      "items": [
+        "I gave up / nearly gave up...",
+        "I found out that...",
+        "I carried on despite...",
+        "I came across something unexpected...",
+        "I sorted out the problem by...",
+        "I set up a new system / routine..."
+      ]
+    },
+    {
+      "category": "Turning points and progress",
+      "color": "#1D9E75",
+      "items": [
+        "I picked it up and...",
+        "Something clicked — I started to catch up.",
+        "I went through the material again.",
+        "I worked out a strategy that helped.",
+        "I kept at it, and gradually...",
+        "I never looked back after that."
+      ]
+    },
+    {
+      "category": "People who helped",
+      "color": "#1B8FC4",
+      "items": [
+        "She didn't give up on me.",
+        "He set up a simple system for me.",
+        "She told me to carry on.",
+        "He helped me go through the hard parts.",
+        "They passed on some useful advice.",
+        "She believed in me when I had given up on myself."
+      ]
+    },
+    {
+      "category": "Advice and conclusion",
+      "color": "#C9933B",
+      "items": [
+        "Don't give up — it gets easier.",
+        "Don't put off the hard work.",
+        "Find someone to go through it with you.",
+        "Look back and notice how far you've come.",
+        "Carry on even when it feels impossible.",
+        "The turning point often comes when you least expect it."
+      ]
+    }
+  ]
+}

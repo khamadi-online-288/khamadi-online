@@ -1,0 +1,222 @@
+{
+  "id": "l17-4",
+  "moduleNum": 1,
+  "lessonNum": 5,
+  "moduleTitle": "Abilities & Skills",
+  "title": "My skills and goals",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I can...",
+      "emoji": "✅",
+      "opts": [
+        "Я не умею...",
+        "Я умею...",
+        "Я хочу...",
+        "Я учусь..."
+      ],
+      "correct": "Я умею..."
+    },
+    {
+      "id": "p2",
+      "word": "I can't... yet.",
+      "emoji": "⏳",
+      "opts": [
+        "Я уже умею...",
+        "Я ещё не умею...",
+        "Я никогда не умею...",
+        "Я не хочу..."
+      ],
+      "correct": "Я ещё не умею..."
+    },
+    {
+      "id": "p3",
+      "word": "I am learning to...",
+      "emoji": "📖",
+      "opts": [
+        "Я хочу стать...",
+        "Я учусь...",
+        "Я умею уже...",
+        "Я не умею..."
+      ],
+      "correct": "Я учусь..."
+    },
+    {
+      "id": "p4",
+      "word": "My goal is to...",
+      "emoji": "🎯",
+      "opts": [
+        "Моя оценка — это...",
+        "Мой предмет — это...",
+        "Моя цель — это...",
+        "Мой друг..."
+      ],
+      "correct": "Моя цель — это..."
+    },
+    {
+      "id": "p5",
+      "word": "My friend can...",
+      "emoji": "🤝",
+      "opts": [
+        "Мой друг не умеет...",
+        "Мой друг умеет...",
+        "Мой друг учится...",
+        "Мой друг хочет..."
+      ],
+      "correct": "Мой друг умеет..."
+    },
+    {
+      "id": "p6",
+      "word": "One day I will be able to...",
+      "emoji": "🌟",
+      "opts": [
+        "Когда-нибудь я захочу...",
+        "Когда-нибудь я смогу...",
+        "Когда-нибудь я стану...",
+        "Когда-нибудь я узнаю..."
+      ],
+      "correct": "Когда-нибудь я смогу..."
+    }
+  ],
+  "writingModel": [
+    "My name is Kamila Seitkali and I am a second-year student at WKU. In this text, I want to write about what I can do, what I cannot do yet, and my goals for the future. I think it is important to know your strengths and to always work on your weaknesses.",
+    "I can do several things well. First, I can speak three languages: Kazakh, Russian, and English. Speaking three languages is very useful for my studies and my future career. Second, I can play the dombra — a traditional Kazakh instrument. I learned it at the age of eight. I can play about twenty traditional songs now. Third, I can write code in Python at a basic level. I started learning it online six months ago.",
+    "However, there are things I cannot do yet. I cannot drive a car — I am saving money for driving lessons. I cannot cook well — my soup always tastes terrible! I also cannot draw well. My drawings look like something a child made. These are my weaknesses, but I am working on them every day.",
+    "My best friend at WKU is Amir. He can do things that I cannot do. He can build websites, fix computers, and solve a Rubik's cube in two minutes. He cannot play any musical instruments and he cannot cook either — we have that weakness in common! But he is the most talented programmer I know.",
+    "My goals for this year are clear: I want to learn to drive, I want to improve my cooking, and I want to speak English more fluently. I am learning to drive every Saturday morning. I watch cooking videos online every evening. And I speak English every day at university. I believe that if you practise every day, you can achieve anything. One day, I will be able to say: \"I can do everything I wanted to do!\""
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "My name is ",
+      "suffix": " and I am a student at WKU.",
+      "placeholder": "your name",
+      "hint": "e.g. Aibek / Zarina / Rustam"
+    },
+    {
+      "key": "can1",
+      "prefix": "I can ",
+      "suffix": ".",
+      "placeholder": "ability 1",
+      "hint": "e.g. speak three languages / play the piano"
+    },
+    {
+      "key": "can2",
+      "prefix": "I can also ",
+      "suffix": ".",
+      "placeholder": "ability 2",
+      "hint": "e.g. swim / code in Python / play football"
+    },
+    {
+      "key": "cant",
+      "prefix": "However, I can't ",
+      "suffix": " yet — I am still learning.",
+      "placeholder": "something you cannot do",
+      "hint": "e.g. drive a car / cook well / speak French"
+    },
+    {
+      "key": "friend",
+      "prefix": "My friend ",
+      "suffix": " can ___.",
+      "placeholder": "name + ability",
+      "hint": "e.g. Amir can build websites"
+    },
+    {
+      "key": "fcant",
+      "prefix": "But he/she cannot ",
+      "suffix": " — that is his/her weakness.",
+      "placeholder": "friend's weakness",
+      "hint": "e.g. cook / sing / draw"
+    },
+    {
+      "key": "goal1",
+      "prefix": "My first goal this year is to learn to ",
+      "suffix": ".",
+      "placeholder": "new skill 1",
+      "hint": "e.g. drive / cook / speak French"
+    },
+    {
+      "key": "goal2",
+      "prefix": "My second goal is to improve my ",
+      "suffix": " every day.",
+      "placeholder": "skill to improve",
+      "hint": "e.g. English / coding / drawing"
+    },
+    {
+      "key": "end",
+      "prefix": "I believe that if you practise every day, ",
+      "suffix": ".",
+      "placeholder": "your motivation",
+      "hint": "e.g. you can achieve anything you want"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "What I can do",
+      "color": "#16A34A",
+      "items": [
+        "I can speak... languages.",
+        "I can play the dombra / guitar / piano.",
+        "I can swim / run / dance.",
+        "I can code in Python / Java.",
+        "I can also... (второй навык)",
+        "I learned it when I was... years old."
+      ]
+    },
+    {
+      "category": "What I can't do yet",
+      "color": "#EF4444",
+      "items": [
+        "I can't drive yet — I'm learning.",
+        "I can't cook well — my food is terrible!",
+        "I can't draw — my pictures look like a child made them.",
+        "I can't sing in tune!",
+        "I'm still learning to...",
+        "This is my weakness, but I'm working on it."
+      ]
+    },
+    {
+      "category": "My friend's skills",
+      "color": "#7C3AED",
+      "items": [
+        "My friend [name] can...",
+        "He/She is very talented at...",
+        "He/She can also...",
+        "He/She can't... — that's his/her weakness.",
+        "We both can...",
+        "We both can't... — ha!"
+      ]
+    },
+    {
+      "category": "Goals & motivation",
+      "color": "#003876",
+      "items": [
+        "My goal is to learn to...",
+        "I want to improve my...",
+        "I am learning to... every day.",
+        "I practise... every morning/evening.",
+        "One day I will be able to...",
+        "If you practise every day, you can achieve anything!"
+      ]
+    }
+  ]
+}

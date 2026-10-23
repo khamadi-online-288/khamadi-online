@@ -1,0 +1,596 @@
+{
+  "id": "l26-3",
+  "moduleNum": 10,
+  "lessonNum": 3,
+  "moduleTitle": "Advice & Rules",
+  "title": "should / shouldn't — Giving Advice",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "should / shouldn't — Giving Advice",
+  "grammarNote": "\"Should\" — модальный глагол для советов и рекомендаций. Это вежливый мягкий способ выразить мнение.\n\n① Совет (advice):\n   \"You should see a doctor.\" (Тебе следует сходить к врачу.)\n   \"She should get more sleep.\" (Ей стоит больше спать.)\n   \"You shouldn't eat so much sugar.\" (Не следует.)\n\n② Рекомендация:\n   \"You should try the beshbarmak here — it's amazing!\"\n\n③ Ожидание:\n   \"The package should arrive tomorrow.\" (ожидаю)\n\n④ Should have (прошлое — критика):\n   \"I should have studied more.\" (нужно было — но не учил)\n   \"You shouldn't have said that.\" (не стоило)\n\n🔧 Образование: Subject + should + base verb (без to!)\n\"She should go.\" ✅ · \"She should to go.\" ❌\nShould НИКОГДА не меняется: she should, he should (без -s!)",
+  "grammarTable": [
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "should study",
+      "short": "no change for 3rd person",
+      "example": "You should study every day. She should ask the lecturer."
+    },
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "shouldn't wait",
+      "short": "should not",
+      "example": "You shouldn't wait until the last minute."
+    },
+    {
+      "subject": "QUESTION: Should + subject + BASE?",
+      "verb": "Should I email?",
+      "short": "Should she go?",
+      "example": "Should I email the lecturer? Should she visit the office?"
+    },
+    {
+      "subject": "SHORT ANSWER positive",
+      "verb": "Yes, you should.",
+      "short": "Yes, she should.",
+      "example": "Should I go? — Yes, you should."
+    },
+    {
+      "subject": "SHORT ANSWER negative",
+      "verb": "No, you shouldn't.",
+      "short": "No, she shouldn't.",
+      "example": "Should I worry? — No, you shouldn't."
+    },
+    {
+      "subject": "MEANING: recommendation",
+      "verb": "It is a good idea",
+      "short": "but not obligatory",
+      "example": "You should drink more water. (advice, not a rule)"
+    },
+    {
+      "subject": "MEANING: expectation / mild duty",
+      "verb": "expected",
+      "short": "not compulsory",
+      "example": "Students should arrive on time. (expected behaviour)"
+    },
+    {
+      "subject": "STRUCTURE: always BASE form after",
+      "verb": "should + BASE",
+      "short": "NO -s, -ing, or to",
+      "example": "She should go ✓ / She should goes ✗ / She should to go ✗"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Advice situations — when to use \"should\"",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Giving personal advice",
+          "example": "You should talk to your lecturer about the problem."
+        },
+        {
+          "form": "Recommending something",
+          "example": "You should try the new café near campus — the coffee is amazing!"
+        },
+        {
+          "form": "Expressing what is expected",
+          "example": "Students should show respect to all staff members."
+        },
+        {
+          "form": "Giving instructions / directions",
+          "example": "You should turn left at the library, then go straight."
+        },
+        {
+          "form": "Expressing obligation that is moral, not legal",
+          "example": "You should apologise — you were rude to her."
+        },
+        {
+          "form": "Common expression: \"I think you should...\"",
+          "example": "\"I think you should talk to Amir about this. He always gives good advice.\""
+        }
+      ]
+    },
+    {
+      "title": "Common mistakes with \"should\"",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "Never add -s for he/she/it",
+          "example": "She shoulds go. ✗ → She should go. ✓"
+        },
+        {
+          "form": "Never add \"to\" after should",
+          "example": "You should to study. ✗ → You should study. ✓"
+        },
+        {
+          "form": "Never use -ing after should",
+          "example": "He should studying. ✗ → He should study. ✓"
+        },
+        {
+          "form": "Negative: shouldn't (not \"should not to\")",
+          "example": "You should not to go. ✗ → You shouldn't go. ✓"
+        },
+        {
+          "form": "\"Should\" is for advice, not strong obligation",
+          "example": "If it's a rule, use \"must\": You must attend 80% of classes. (not \"should\")"
+        },
+        {
+          "form": "Question: no \"do\" helper needed",
+          "example": "Do you should go? ✗ → Should you go? ✓"
+        }
+      ]
+    },
+    {
+      "title": "\"should\" vs \"must\" — strength of obligation",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "\"should\" = advice / recommendation (weak obligation)",
+          "example": "You should eat breakfast. (it's a good idea — your choice)"
+        },
+        {
+          "form": "\"must\" = strong obligation / rule / law",
+          "example": "You must attend 80% of classes. (it's a rule — you have no choice)"
+        },
+        {
+          "form": "\"should\" — breaking the advice has consequences but no punishment",
+          "example": "You should sleep 8 hours. (advice — you can ignore it, but you'll be tired)"
+        },
+        {
+          "form": "\"must\" — breaking the rule has clear consequences",
+          "example": "You must not cheat. (rule — if you break it, you may be expelled)"
+        },
+        {
+          "form": "\"I should\" for self-advice / plans",
+          "example": "I should start my essay today. / I really should call my parents more often."
+        },
+        {
+          "form": "\"you should\" for direct personal advice",
+          "example": "You should eat before the exam. / You should apologise to Zhibek."
+        }
+      ]
+    },
+    {
+      "title": "Useful phrases with \"should\"",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "\"I think you should...\"",
+          "example": "I think you should talk to your academic advisor."
+        },
+        {
+          "form": "\"Maybe you should...\"",
+          "example": "Maybe you should try again tomorrow."
+        },
+        {
+          "form": "\"You really should...\"",
+          "example": "You really should start preparing now."
+        },
+        {
+          "form": "\"Perhaps you shouldn't...\"",
+          "example": "Perhaps you shouldn't leave it to the last minute."
+        },
+        {
+          "form": "\"What should I do?\" (asking for advice)",
+          "example": "I've made a mistake — what should I do?"
+        },
+        {
+          "form": "\"Should I + BASE?\" (asking for specific advice)",
+          "example": "Should I email the lecturer or go in person?"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Шкала обязательности:\nmust → обязан (100%) — строгое требование\nhave to → должен (90%) — внешние правила\nshould → следует (60%) — совет, рекомендация\ncould → мог бы (40%) — слабый совет\n\n💡 Should для совета — вежливо и мягко:\n✅ \"You should try meditation.\" (совет другу)\n✅ \"You should visit Charyn Canyon.\" (рекомендация)\n⚠️ Не используй must для советов — звучит как приказ!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "You ___ email the lecturer immediately.",
+      "opts": [
+        "should",
+        "shoulds",
+        "should to",
+        "should be"
+      ],
+      "correct": "should",
+      "hint": "\"should\" + BASE form (no \"to\", no \"-s\")."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "You ___ panic — mistakes happen to everyone.",
+      "opts": [
+        "shouldn't",
+        "should not to",
+        "don't should",
+        "shouldn't to"
+      ],
+      "correct": "shouldn't",
+      "hint": "Negative: shouldn't + BASE form."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Make a question.",
+      "text": "___ I go to the lecturer's office in person?",
+      "opts": [
+        "Should",
+        "Must",
+        "Do should",
+        "Would"
+      ],
+      "correct": "Should",
+      "hint": "Question: Should + subject + BASE form? No \"do\" is needed."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Find the correct sentence.",
+      "text": "Which sentence is grammatically correct?",
+      "opts": [
+        "She should goes to the office.",
+        "She should to go to the office.",
+        "She should going to the office.",
+        "She should go to the office."
+      ],
+      "correct": "She should go to the office.",
+      "hint": "\"should\" + BASE form. No -s, no \"to\", no -ing."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose \"should\" or \"must\".",
+      "text": "Students ___ attend 80% of classes — it is a university rule.",
+      "opts": [
+        "should",
+        "must",
+        "have should",
+        "could"
+      ],
+      "correct": "must",
+      "hint": "It's an official rule with consequences → \"must\". \"Should\" is only advice."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "You ___ (not/leave) your essay to the last minute.",
+      "opts": [
+        "shouldn't leave",
+        "should not to leave",
+        "don't should leave",
+        "mustn't to leave"
+      ],
+      "correct": "shouldn't leave",
+      "hint": "Negative advice: shouldn't + BASE form."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct response.",
+      "text": "\"Should I tell the academic advisor?\" — \"___, you don't need to at this stage.\"",
+      "opts": [
+        "Yes",
+        "No",
+        "Maybe",
+        "Not"
+      ],
+      "correct": "No",
+      "hint": "Short answer to \"Should I...?\" → \"No, you shouldn't.\" or \"No, you don't need to.\""
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct advice phrase.",
+      "text": "I ___ you should try breaking the task into smaller parts.",
+      "opts": [
+        "think",
+        "thinking",
+        "am think",
+        "thought"
+      ],
+      "correct": "think",
+      "hint": "\"I think you should...\" = a polite and natural way to give advice."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct form for self-advice.",
+      "text": "I really ___ start preparing for the presentation.",
+      "opts": [
+        "should",
+        "must to",
+        "am should",
+        "shoulding"
+      ],
+      "correct": "should",
+      "hint": "\"should\" is also used for self-advice or plans. \"I should + BASE.\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Translate the advice into English.",
+      "text": "___ she rest before the big exam?",
+      "opts": [
+        "Should",
+        "Do she should",
+        "She should be",
+        "Does she should"
+      ],
+      "correct": "Should",
+      "hint": "Question form: Should + subject + BASE form?"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose \"should\" or \"shouldn't\".",
+      "text": "You ___ celebrate small victories — it keeps you motivated!",
+      "opts": [
+        "should",
+        "shouldn't",
+        "must not",
+        "have to not"
+      ],
+      "correct": "should",
+      "hint": "Positive advice: \"should\" = it's a good idea to do this."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the incorrect sentence.",
+      "text": "Which sentence uses \"should\" INCORRECTLY?",
+      "opts": [
+        "You should study harder.",
+        "She should apologise.",
+        "We should to rest more.",
+        "They shouldn't cheat."
+      ],
+      "correct": "We should to rest more.",
+      "hint": "Never use \"to\" after \"should\": \"should to rest\" ✗ → \"should rest\" ✓."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "You ___ email the lecturer straight away.",
+      "opts": [
+        "should",
+        "shoulds",
+        "should to",
+        "shoulding"
+      ],
+      "correct": "should",
+      "hint": "\"should\" + BASE form. No changes for any subject."
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "You ___ wait until the deadline — start today!",
+      "opts": [
+        "shouldn't",
+        "should not to",
+        "mustn't to",
+        "don't should"
+      ],
+      "correct": "shouldn't",
+      "hint": "Negative advice: shouldn't + BASE form."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ I tell the academic advisor?",
+      "correct": "Should",
+      "hint": "Question: Should + subject + BASE form?"
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She shoulds study.",
+        "She should to study.",
+        "She should study.",
+        "She should studying."
+      ],
+      "correct": "She should study.",
+      "hint": "\"should\" + BASE form only. No -s, no to, no -ing."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"should\" expresses:",
+      "opts": [
+        "A strict rule with punishment",
+        "Advice or recommendation",
+        "Ability",
+        "Certainty about the future"
+      ],
+      "correct": "Advice or recommendation",
+      "hint": "\"should\" = a good idea / recommended, but not a strict rule."
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Should\" and \"must\" have the same level of obligation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"must\" is stronger (strict rule); \"should\" is softer (advice / recommendation)."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I ___ you should talk to the lecturer.\"",
+      "opts": [
+        "think",
+        "thinking",
+        "thought",
+        "am thinking"
+      ],
+      "correct": "think",
+      "hint": "\"I think you should...\" = a common and polite advice phrase."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "You really ___ (not/leave) your essay to the last minute.",
+      "correct": "shouldn't leave",
+      "hint": "Negative advice: shouldn't + BASE form."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Should I go in person or email?\" — \"___, an email is fine.\"",
+      "opts": [
+        "Yes, you should",
+        "No, you shouldn't",
+        "Email is fine",
+        "Email"
+      ],
+      "correct": "No, you shouldn't",
+      "hint": "Short answer to \"Should I go in person?\": No, you shouldn't (go in person)."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Students ___ arrive on time — it is expected behaviour.",
+      "opts": [
+        "should",
+        "must",
+        "have to",
+        "can"
+      ],
+      "correct": "should",
+      "hint": "\"Expected behaviour\" (not a strict punishable rule) → use \"should\"."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"You should to study\" is correct grammar.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never use \"to\" after modal verbs: \"You should study\" ✓."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ sleep more — she looks exhausted.",
+      "opts": [
+        "should",
+        "shoulds",
+        "should to",
+        "shoulding"
+      ],
+      "correct": "should",
+      "hint": "\"should\" + BASE form. No changes for any subject, including she/he/it."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Maybe you ___ (not / stress) — two weeks is enough time.",
+      "correct": "shouldn't stress",
+      "hint": "Negative advice: shouldn't + BASE form."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is the correct question form?",
+      "opts": [
+        "Do you should go?",
+        "Should you to go?",
+        "Should you go?",
+        "You should go?"
+      ],
+      "correct": "Should you go?",
+      "hint": "Question: Should + subject + BASE form. No \"do\" needed."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "I ___ call my parents more often — I haven't spoken to them this week.",
+      "opts": [
+        "should",
+        "must",
+        "shouldn't",
+        "need"
+      ],
+      "correct": "should",
+      "hint": "\"I should + BASE\" for self-advice / personal obligation you feel."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Short answer: \"Should she apologise?\" — \"___!\"",
+      "opts": [
+        "Yes, she should",
+        "Yes, she shoulds",
+        "Yes, she would",
+        "Yes, she can"
+      ],
+      "correct": "Yes, she should",
+      "hint": "Short positive answer: \"Yes, [subject] should.\""
+    }
+  ]
+}

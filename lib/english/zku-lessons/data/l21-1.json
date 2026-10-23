@@ -1,0 +1,691 @@
+{
+  "id": "l21-1",
+  "moduleNum": 5,
+  "lessonNum": 1,
+  "moduleTitle": "Technology & Communication",
+  "title": "My digital life",
+  "type": "reading",
+  "xp": 65,
+  "duration": 22,
+  "paragraphs": [
+    "My name is Amir Bekzhanov and I am a Computer Science student at WKU. People always say that students of my generation spend too much time on technology — and honestly, I think they are right! But in my case, technology is not just entertainment: it is the central tool of my education, my social life, and my daily routine. In this essay, I want to describe my digital life honestly — the good parts and the not-so-good parts.",
+    "I always start my day by checking my phone. The alarm rings at 7:00 am, and before I even get out of bed, I check my messages, scroll through my news feed for about five minutes, and look at the weather app to decide what to wear. I know this is a bad habit — experts say you should never look at screens in the first thirty minutes of the day — but I find it very difficult to resist. I usually have about forty-seven unread messages by morning, mostly in group chats.",
+    "During the day, I use my laptop constantly for my studies. I take notes in Google Docs during every lecture so that I can access them from any device. I often use YouTube to watch tutorial videos when I do not understand something from the lecture. My favourite channels are about programming, mathematics, and artificial intelligence. I sometimes spend two or three hours watching educational videos in the evening — which my roommate says is \"watching TV with extra steps\".",
+    "For communication, I use WhatsApp for family and close friends, Telegram for university group chats, and Instagram for staying connected with a wider social circle. I rarely use phone calls anymore — I prefer texting because it is faster and less interrupting. The only person I always call is my grandmother, who still does not trust messaging apps and insists on a proper phone conversation every Sunday evening.",
+    "In terms of studying, technology has completely transformed how I learn. I use Anki — a spaced repetition app — to memorise English vocabulary. I use Notion to organise my notes, deadlines, and project plans. I often use ChatGPT to check my English writing or to explain a complex programming concept in simple terms. My professor has mixed feelings about this, but I always tell him: \"A good programmer uses every tool available.\"",
+    "However, I also recognise the negative sides of my digital habits. I sometimes waste a lot of time on social media without realising it. I will open Instagram to check one notification and, forty minutes later, I am still scrolling through videos of cats and cooking recipes. I never set a screen time limit, which is a mistake I plan to fix soon. Sleep is another problem: I often use my phone in bed, which makes it harder to fall asleep quickly.",
+    "I need to learn to use technology more intentionally. I want to set a specific \"no screen\" time in the evening — perhaps from 10 pm to bedtime. I plan to turn off all notifications except from family during lecture hours. I also hope to spend more time reading physical books, because I notice that long reading sessions on screens give me headaches in a way that paper books never do.",
+    "Technology is neither good nor bad in itself — it depends entirely on how you use it. As a Computer Science student, I believe it is my responsibility to be a smart and intentional digital citizen. I want to be the person who controls technology, not the person who technology controls. Starting tomorrow — or, realistically, starting next Monday! 😄"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Amir, you're always on your phone. Do you ever put it down?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Ha! I check it about sixty times a day. It's terrible. What about you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I try to keep it off during dance practice — three hours without a phone feels amazing!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Three hours? I can barely manage three minutes. Which apps do you use most?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Instagram for dancing content, and Telegram for the university groups. What about you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Same, plus YouTube for programming tutorials. I sometimes watch for three hours straight.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That's a lot! Do you use any apps for studying — not just entertainment?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes! Anki for vocabulary, Notion for organisation, Google Docs for notes. I rarely use paper anymore.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I need to try Anki — my English vocabulary is terrible. How often do you use it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I try to do fifteen minutes every morning. I usually manage it except on Monday after football.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What's your biggest bad habit with tech?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Using my phone in bed. I never fall asleep before midnight because of it. You?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Checking Instagram first thing in the morning. I always regret it immediately!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I always / usually / often check my phone.",
+      "ru": "Я всегда / обычно / часто проверяю телефон.",
+      "context": "I always check my messages before getting up."
+    },
+    {
+      "phrase": "I sometimes waste time on social media.",
+      "ru": "Я иногда трачу время в соцсетях впустую.",
+      "context": "I sometimes spend 40 minutes scrolling without realising."
+    },
+    {
+      "phrase": "I rarely use phone calls anymore.",
+      "ru": "Я редко теперь звоню по телефону.",
+      "context": "I prefer texting — it's faster and less interrupting."
+    },
+    {
+      "phrase": "I never look at screens before 8 am.",
+      "ru": "Я никогда не смотрю в экран до 8 утра.",
+      "context": "Experts say never look at screens in the first 30 minutes."
+    },
+    {
+      "phrase": "I want to / plan to / hope to...",
+      "ru": "Я хочу / планирую / надеюсь...",
+      "context": "I want to set a \"no screen\" time in the evening."
+    },
+    {
+      "phrase": "I need to learn to use technology better.",
+      "ru": "Мне нужно научиться лучше пользоваться технологиями.",
+      "context": "I need to be more intentional about my screen time."
+    },
+    {
+      "phrase": "How often do you use...?",
+      "ru": "Как часто ты используешь...?",
+      "context": "How often do you use the Anki app?"
+    },
+    {
+      "phrase": "I use it twice a day / every morning.",
+      "ru": "Я использую это дважды в день / каждое утро.",
+      "context": "I try to do fifteen minutes of Anki every morning."
+    },
+    {
+      "phrase": "Technology has transformed how I learn.",
+      "ru": "Технологии изменили то, как я учусь.",
+      "context": "Technology has completely transformed how I learn."
+    },
+    {
+      "phrase": "I find it difficult to resist.",
+      "ru": "Мне трудно устоять.",
+      "context": "I find it very difficult to resist checking my phone."
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "scroll",
+      "emoji": "📱",
+      "opts": [
+        "прокручивать",
+        "искать",
+        "загружать",
+        "удалять"
+      ],
+      "correct": "прокручивать"
+    },
+    {
+      "id": "p2",
+      "word": "intentional",
+      "emoji": "🎯",
+      "opts": [
+        "случайный",
+        "целенаправленный",
+        "автоматический",
+        "частый"
+      ],
+      "correct": "целенаправленный"
+    },
+    {
+      "id": "p3",
+      "word": "notification",
+      "emoji": "🔔",
+      "opts": [
+        "обновление",
+        "уведомление",
+        "сообщение",
+        "звонок"
+      ],
+      "correct": "уведомление"
+    },
+    {
+      "id": "p4",
+      "word": "spaced repetition",
+      "emoji": "🔁",
+      "opts": [
+        "метод интервального повторения",
+        "запоминание с пробелами",
+        "быстрое чтение",
+        "групповое обучение"
+      ],
+      "correct": "метод интервального повторения"
+    },
+    {
+      "id": "p5",
+      "word": "artificial intelligence",
+      "emoji": "🤖",
+      "opts": [
+        "искусственный разум",
+        "машинный перевод",
+        "виртуальная реальность",
+        "искусственный интеллект"
+      ],
+      "correct": "искусственный интеллект"
+    },
+    {
+      "id": "p6",
+      "word": "resist",
+      "emoji": "💪",
+      "opts": [
+        "поддаваться",
+        "противостоять",
+        "избегать",
+        "забывать"
+      ],
+      "correct": "противостоять"
+    }
+  ],
+  "task1Bank": [
+    "forty-seven",
+    "Google Docs",
+    "grandmother",
+    "Anki",
+    "next Monday",
+    "midnight"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir usually has ___ unread messages by morning.",
+      "correct": "forty-seven"
+    },
+    {
+      "id": "t2",
+      "question": "Amir uses ___ to take notes during every lecture.",
+      "correct": "Google Docs"
+    },
+    {
+      "id": "t3",
+      "question": "The only person Amir always calls is his ___ .",
+      "correct": "grandmother"
+    },
+    {
+      "id": "t4",
+      "question": "Amir uses ___ to memorise English vocabulary.",
+      "correct": "Anki"
+    },
+    {
+      "id": "t5",
+      "question": "Amir says he will start his better habits \"starting ___ \".",
+      "correct": "next Monday"
+    },
+    {
+      "id": "t6",
+      "question": "Amir often does not fall asleep before ___ because of his phone.",
+      "correct": "midnight"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Amir is a Computer Science student.",
+      "correct": "true"
+    },
+    {
+      "id": "f2",
+      "statement": "Amir always puts his phone away before lectures.",
+      "correct": "false"
+    },
+    {
+      "id": "f3",
+      "statement": "Amir rarely uses phone calls — he prefers texting.",
+      "correct": "true"
+    },
+    {
+      "id": "f4",
+      "statement": "Amir's professor strongly approves of his use of ChatGPT.",
+      "correct": "false"
+    },
+    {
+      "id": "f5",
+      "statement": "Amir uses Notion to organise his notes and deadlines.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "In the dialogue, Zhibek always has her phone on during dance practice.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "vocab": [
+    {
+      "en": "digital",
+      "ipa": "/ˈdɪdʒɪtl/",
+      "pos": "adjective",
+      "ru": "цифровой",
+      "kz": "цифрлық",
+      "emoji": "💻",
+      "definition": "using computer technology, especially the internet",
+      "example": "We live in a digital world.",
+      "collocations": [
+        "digital life",
+        "digital skills",
+        "digital citizen"
+      ]
+    },
+    {
+      "en": "scroll",
+      "ipa": "/skrəʊl/",
+      "pos": "verb",
+      "ru": "прокручивать",
+      "kz": "айналдыру",
+      "emoji": "📱",
+      "definition": "to move text or images on a screen by sliding your finger",
+      "example": "I scroll through Instagram for about 40 minutes.",
+      "collocations": [
+        "scroll through",
+        "scroll down",
+        "mindless scrolling"
+      ]
+    },
+    {
+      "en": "notification",
+      "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "pos": "noun",
+      "ru": "уведомление",
+      "kz": "хабарлама",
+      "emoji": "🔔",
+      "definition": "a message or alert from an app on your phone or computer",
+      "example": "I turn off notifications during lectures.",
+      "collocations": [
+        "push notification",
+        "turn off notifications",
+        "check notifications"
+      ]
+    },
+    {
+      "en": "tutorial",
+      "ipa": "/tjuːˈtɔːriəl/",
+      "pos": "noun",
+      "ru": "обучающее видео/урок",
+      "kz": "оқу сабағы",
+      "emoji": "📺",
+      "definition": "a lesson or video that teaches you how to do something",
+      "example": "I watch YouTube tutorials to learn programming.",
+      "collocations": [
+        "video tutorial",
+        "online tutorial",
+        "follow a tutorial"
+      ]
+    },
+    {
+      "en": "intentional",
+      "ipa": "/ɪnˈtenʃənl/",
+      "pos": "adjective",
+      "ru": "целенаправленный",
+      "kz": "мақсатты",
+      "emoji": "🎯",
+      "definition": "done on purpose, with a clear goal in mind",
+      "example": "I want to be more intentional about my screen time.",
+      "collocations": [
+        "intentional use",
+        "be intentional",
+        "intentional learning"
+      ]
+    },
+    {
+      "en": "screen time",
+      "ipa": "/ˈskriːn taɪm/",
+      "pos": "noun",
+      "ru": "время у экрана",
+      "kz": "экран уақыты",
+      "emoji": "⏰",
+      "definition": "the amount of time you spend looking at a screen",
+      "example": "I need to reduce my screen time before bed.",
+      "collocations": [
+        "reduce screen time",
+        "screen time limit",
+        "daily screen time"
+      ]
+    },
+    {
+      "en": "memorise",
+      "ipa": "/ˈmeməraɪz/",
+      "pos": "verb",
+      "ru": "запоминать",
+      "kz": "жаттау",
+      "emoji": "🧠",
+      "definition": "to learn something so well that you can remember it exactly",
+      "example": "I use Anki to memorise English vocabulary.",
+      "collocations": [
+        "memorise vocabulary",
+        "memorise facts",
+        "help to memorise"
+      ]
+    },
+    {
+      "en": "device",
+      "ipa": "/dɪˈvaɪs/",
+      "pos": "noun",
+      "ru": "устройство",
+      "kz": "құрылғы",
+      "emoji": "📲",
+      "definition": "a piece of electronic equipment such as a phone, tablet, laptop",
+      "example": "I can access my notes from any device.",
+      "collocations": [
+        "mobile device",
+        "smart device",
+        "connect to a device"
+      ]
+    },
+    {
+      "en": "habit",
+      "ipa": "/ˈhæbɪt/",
+      "pos": "noun",
+      "ru": "привычка",
+      "kz": "әдет",
+      "emoji": "🔄",
+      "definition": "something you do regularly, often without thinking about it",
+      "example": "Checking my phone in the morning is a bad habit.",
+      "collocations": [
+        "bad habit",
+        "good habit",
+        "daily habit"
+      ]
+    },
+    {
+      "en": "transform",
+      "ipa": "/trænsˈfɔːm/",
+      "pos": "verb",
+      "ru": "трансформировать",
+      "kz": "өзгерту",
+      "emoji": "🔄",
+      "definition": "to change something completely and usually for the better",
+      "example": "Technology has transformed how I learn.",
+      "collocations": [
+        "completely transform",
+        "transform your life",
+        "transform learning"
+      ]
+    }
+  ],
+  "grammarTitle": "Frequency adverbs + Present Simple",
+  "grammarNote": "Наречия частотности (frequency adverbs) отвечают на вопрос \"КАК ЧАСТО?\" и всегда используются вместе с Present Simple. Они показывают, насколько регулярно что-то происходит.\n\nШкала частотности от 100% до 0%:\nalways (100%) → usually (80%) → often (60%) → sometimes (40%) → rarely/seldom (20%) → never (0%)\n\n📍 МЕСТО В ПРЕДЛОЖЕНИИ — главное правило:\n\n① С обычными глаголами → ПЕРЕД глаголом:\n   \"I always check my phone.\" · \"She usually studies in the library.\"\n   \"He often watches tutorials.\" · \"They sometimes forget their password.\"\n\n② С глаголом \"to be\" → ПОСЛЕ глагола \"be\":\n   \"I am always on time.\" (НЕ \"I always am on time.\")\n   \"She is never late.\" · \"They are usually tired after class.\"\n   \"He is sometimes stressed about exams.\"\n\n③ В вопросах и коротких ответах:\n   \"How often do you check social media?\" — \"I check it constantly!\"\n   \"Do you always eat breakfast?\" — \"I usually do, but sometimes I skip it.\"\n\n⚠️ ТИПИЧНЫЕ ОШИБКИ:\n❌ \"I check always my phone.\" → ✅ \"I always check my phone.\"\n❌ \"She usually is late.\" → ✅ \"She is usually late.\" (после be!)\n❌ \"Sometimes I am go.\" → ✅ \"Sometimes I go.\" (never is + go!)",
+  "grammarTable": [
+    {
+      "subject": "always",
+      "verb": "100%",
+      "short": "всегда",
+      "example": "I always check my phone in the morning."
+    },
+    {
+      "subject": "usually",
+      "verb": "80%",
+      "short": "обычно",
+      "example": "She usually studies in the library."
+    },
+    {
+      "subject": "often",
+      "verb": "60%",
+      "short": "часто",
+      "example": "He often watches tutorials on YouTube."
+    },
+    {
+      "subject": "sometimes",
+      "verb": "40%",
+      "short": "иногда",
+      "example": "They sometimes forget to charge their laptop."
+    }
+  ],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir do before getting out of bed?",
+      "opts": [
+        "Exercise",
+        "Make coffee",
+        "Check messages and scroll the news",
+        "Call his grandmother"
+      ],
+      "correct": "Check messages and scroll the news",
+      "hint": "\"I check my messages, scroll through my news feed... before I even get out of bed.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which app does Amir use for English vocabulary?",
+      "opts": [
+        "Duolingo",
+        "Anki",
+        "Quizlet",
+        "Notion"
+      ],
+      "correct": "Anki",
+      "hint": "\"I use Anki — a spaced repetition app — to memorise English vocabulary.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir's professor fully supports his use of ChatGPT.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"My professor has mixed feelings about this.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir always call his grandmother?",
+      "opts": [
+        "She doesn't have a smartphone",
+        "She doesn't trust messaging apps",
+        "She prefers video calls",
+        "She can't read texts"
+      ],
+      "correct": "She doesn't trust messaging apps",
+      "hint": "\"who still does not trust messaging apps and insists on a proper phone conversation\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's biggest bad habit with technology?",
+      "opts": [
+        "Using too many apps",
+        "Watching too many tutorials",
+        "Using his phone in bed",
+        "Ignoring notifications"
+      ],
+      "correct": "Using his phone in bed",
+      "hint": "\"I often use my phone in bed, which makes it harder to fall asleep quickly.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir wants to start his better habits \"starting tomorrow\".",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Starting next Monday!\" — he jokes about procrastinating."
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many unread messages does Amir usually have by morning?",
+      "opts": [
+        "About 15",
+        "About 30",
+        "About 47",
+        "About 100"
+      ],
+      "correct": "About 47",
+      "hint": "\"I usually have about forty-seven unread messages by morning.\""
+    },
+    {
+      "id": "q8",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In the dialogue, how long does Zhibek go without her phone?",
+      "opts": [
+        "One hour",
+        "Two hours",
+        "Three hours",
+        "All day"
+      ],
+      "correct": "Three hours",
+      "hint": "\"three hours without a phone feels amazing!\""
+    },
+    {
+      "id": "q9",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir uses Notion to organise his notes and deadlines.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I use Notion to organise my notes, deadlines, and project plans.\""
+    },
+    {
+      "id": "q10",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir say about reading on screens vs paper books?",
+      "opts": [
+        "Screens are better",
+        "Paper gives him headaches",
+        "Screens give him headaches",
+        "No difference"
+      ],
+      "correct": "Screens give him headaches",
+      "hint": "\"long reading sessions on screens give me headaches in a way that paper books never do\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ check my phone first thing in the morning. (100% of the time)",
+      "correct": "always",
+      "hint": "always = 100% of the time. Position: before the main verb."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Where does the frequency adverb go? \"She ___ is ___ late.\"",
+      "opts": [
+        "usually / Ø",
+        "Ø / usually",
+        "is usually / Ø",
+        "usually / is"
+      ],
+      "correct": "Ø / usually",
+      "hint": "With \"be\": She is usually late. (after \"be\")"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ uses social media.\" — he uses it 20% of the time.",
+      "opts": [
+        "always",
+        "usually",
+        "often",
+        "rarely"
+      ],
+      "correct": "rarely",
+      "hint": "rarely = seldom, not very often (about 20% of the time)."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ fall asleep before midnight because I use my phone in bed.",
+      "correct": "never",
+      "hint": "never = 0% of the time. I never fall asleep = it never happens."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"screen time\" mean?",
+      "opts": [
+        "Time to watch a film",
+        "Amount of time spent looking at a screen",
+        "A type of phone setting",
+        "A break from technology"
+      ],
+      "correct": "Amount of time spent looking at a screen",
+      "hint": "Screen time = total time spent on phones, computers, tablets."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "A message or alert from an app on your phone is a ___ .",
+      "correct": "notification",
+      "hint": "Notification = an alert from an app."
+    }
+  ]
+}

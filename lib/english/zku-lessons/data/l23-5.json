@@ -1,0 +1,439 @@
+{
+  "id": "l23-5",
+  "moduleNum": 7,
+  "lessonNum": 7,
+  "moduleTitle": "Stories from the Past",
+  "title": "Module 7 — Final Test",
+  "type": "test",
+  "xp": 60,
+  "duration": 35,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Where did Apai Raushan grow up?",
+      "opts": [
+        "In Uralsk city",
+        "In Almaty",
+        "In a village near Oral",
+        "In Aktobe"
+      ],
+      "correct": "In a village near Oral",
+      "hint": "The reading says she lived in \"a small village near Oral\" as a child."
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Apai Raushan's family always had a television when she was young.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "The text says \"There was no television, no internet, and no mobile phones.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How long did Apai Raushan work as a teacher?",
+      "opts": [
+        "Twenty years",
+        "Thirty years",
+        "Forty years",
+        "Fifty years"
+      ],
+      "correct": "Forty years",
+      "hint": "\"I taught primary school children for forty years.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "During the 1969 flood, Apai Raushan helped neighbours carry ___ to higher ground.",
+      "correct": "furniture",
+      "hint": "She \"helped her neighbours carry their furniture to higher ground.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What did Apai Raushan give Kamila at the end of the visit?",
+      "opts": [
+        "A recipe book",
+        "A certificate",
+        "An old black-and-white photograph",
+        "A piece of traditional bread"
+      ],
+      "correct": "An old black-and-white photograph",
+      "hint": "\"Apai Raushan gave her an old black-and-white photograph.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Apai Raushan is in the photograph — third from the right.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"That is me — third from the left,\" said Apai Raushan."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "The phrase \"from scratch\" means:",
+      "opts": [
+        "Using a recipe book",
+        "Using only basic raw ingredients",
+        "Buying from a shop",
+        "Using a microwave"
+      ],
+      "correct": "Using only basic raw ingredients",
+      "hint": "\"From scratch\" = starting with nothing prepared, using basic ingredients."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Why did Pushkin visit Uralsk in 1833?",
+      "opts": [
+        "To paint the city",
+        "To meet the Kazakh Khan",
+        "To research a historical uprising",
+        "To give lectures at the university"
+      ],
+      "correct": "To research a historical uprising",
+      "hint": "Dr. Akhmetov explained that Pushkin came to research a historical uprising."
+    },
+    {
+      "id": "q9",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek had studied the Pugachev Rebellion at school before the museum visit.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zhibek said: \"I didn't study that in school yet.\""
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What happened to the Pugachev Rebellion leader in 1774?",
+      "opts": [
+        "He escaped to Turkey",
+        "He was captured and executed",
+        "He became governor",
+        "He surrendered peacefully"
+      ],
+      "correct": "He was captured and executed",
+      "hint": "\"The government captured him in 1774. He was executed in Moscow.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What was carved onto the sword handle?",
+      "opts": [
+        "A royal seal",
+        "A date",
+        "A commander's name",
+        "A prayer"
+      ],
+      "correct": "A commander's name",
+      "hint": "\"His name was carved onto the handle — can you see it?\""
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "The inscription on the sword was written in an old form of ___.",
+      "correct": "Cyrillic",
+      "hint": "Dr. Akhmetov said it was \"an old form of Cyrillic.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir planned to tell his parents about the museum.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I'm going to tell my parents about this place tonight.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ in a village when she was a child.",
+      "opts": [
+        "live",
+        "lived",
+        "living",
+        "lives"
+      ],
+      "correct": "lived",
+      "hint": "Past Simple positive: live + d = lived (ends in -e, add -d only)."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Kamila ___ (not study) on Saturday — she visited her grandmother.",
+      "opts": [
+        "didn't studied",
+        "didn't study",
+        "not studied",
+        "doesn't study"
+      ],
+      "correct": "didn't study",
+      "hint": "Past Simple negative: didn't + BASE form (study)."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which Past Simple spelling is correct?",
+      "opts": [
+        "She studyed.",
+        "She studied.",
+        "She studed.",
+        "She studeid."
+      ],
+      "correct": "She studied.",
+      "hint": "study: consonant + y → change y to -ied."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ Apai Raushan enjoy teaching? — Yes, she ___.",
+      "correct": "Did / did",
+      "hint": "Question: Did + subject + base form. Short answer: Yes, she did."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He ___ (stop) the car and looked at the old building.",
+      "opts": [
+        "stoped",
+        "stopped",
+        "stopted",
+        "stopt"
+      ],
+      "correct": "stopped",
+      "hint": "stop: short CVC verb → double the final consonant → stopped."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Amir ___ to the museum with Zhibek.",
+      "opts": [
+        "goed",
+        "gone",
+        "went",
+        "goes"
+      ],
+      "correct": "went",
+      "hint": "go → went (completely irregular)."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Dr. Akhmetov ___ them the history of the sword.",
+      "opts": [
+        "telled",
+        "told",
+        "tells",
+        "say"
+      ],
+      "correct": "told",
+      "hint": "tell → told (irregular)."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Zhibek ___ (not know) about the rebellion before the visit.",
+      "opts": [
+        "didn't knew",
+        "didn't know",
+        "not know",
+        "wasn't know"
+      ],
+      "correct": "didn't know",
+      "hint": "Negative: didn't + BASE form. Base of 'knew' is 'know'."
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Kamila ___ (feel) proud when she saw the old photograph.",
+      "correct": "felt",
+      "hint": "feel → felt (irregular)."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Pushkin ___ (write) a famous book about the Pugachev Rebellion.",
+      "opts": [
+        "writed",
+        "wrote",
+        "written",
+        "writes"
+      ],
+      "correct": "wrote",
+      "hint": "write → wrote (irregular)."
+    },
+    {
+      "id": "q24",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A person who buys and sells goods for profit is called a:",
+      "opts": [
+        "merchant",
+        "artefact",
+        "rebellion",
+        "guide"
+      ],
+      "correct": "merchant",
+      "hint": "A merchant = a person who trades goods commercially."
+    },
+    {
+      "id": "q25",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Courage\" means the ability to face difficult situations without fear.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Courage = the ability to do something difficult despite fear."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"cook from scratch\" mean?",
+      "opts": [
+        "Cook from a recipe",
+        "Cook from basic raw ingredients",
+        "Cook in a microwave",
+        "Cook for a long time"
+      ],
+      "correct": "Cook from basic raw ingredients",
+      "hint": "\"From scratch\" = starting from nothing prepared."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "An \"artefact\" is:",
+      "opts": [
+        "A modern tool",
+        "A historical object made by humans",
+        "A type of traditional food",
+        "A museum building"
+      ],
+      "correct": "A historical object made by humans",
+      "hint": "Artefact = an object made by a person, especially an ancient one."
+    },
+    {
+      "id": "q28",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"rebellion\" is a peaceful celebration.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "A rebellion = an attempt to overthrow or resist authority (by force)."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "The word \"strict\" describes a teacher who:",
+      "opts": [
+        "Is always kind and flexible",
+        "Demands discipline and obedience",
+        "Gives no homework",
+        "Speaks very quietly"
+      ],
+      "correct": "Demands discipline and obedience",
+      "hint": "Strict = demanding obedience and discipline; not lenient."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The commander's name was ___ onto the handle of the sword.",
+      "correct": "carved",
+      "hint": "Carved = cut into a surface. \"His name was carved onto the handle.\""
+    }
+  ]
+}

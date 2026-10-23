@@ -1,0 +1,89 @@
+{
+  "id": "l27-2",
+  "moduleNum": 11,
+  "lessonNum": 2,
+  "moduleTitle": "Conditionals",
+  "type": "listening",
+  "title": "What Will Happen If…?",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "zhib",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🗺️",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU student, planning a trip"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "⚽",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student, football player"
+    },
+    {
+      "id": "gulnaz",
+      "name": "Gulnaz",
+      "city": "Uralsk",
+      "emoji": "🌸",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "WKU student, Zhibek's friend"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "If it is hot this summer, she will travel to the mountains.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s2",
+      "text": "If his team wins the tournament, he will celebrate with friends.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "If you press the button, the machine starts.",
+      "correctCharId": "gulnaz"
+    },
+    {
+      "id": "s4",
+      "text": "If I get a scholarship, I will study abroad.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s5",
+      "text": "If you don't sleep enough, you feel tired — it's just a fact.",
+      "correctCharId": "gulnaz"
+    },
+    {
+      "id": "s6",
+      "text": "If we practise every day, we will win next month.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

@@ -1,0 +1,556 @@
+{
+  "id": "l33-3",
+  "moduleNum": 17,
+  "lessonNum": 3,
+  "moduleTitle": "Film & Literature",
+  "type": "grammar",
+  "title": "Relative Clauses: who, which, that",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Relative Clauses: who, which, that",
+  "grammarNote": "Относительные придаточные (relative clauses) добавляют информацию о существительном. Отвечают на вопрос \"Какой? / Который? / Кто именно?\"\n\nWHO — для людей:\n\"The student who answered first got bonus points.\"\n\"I met a professor who speaks seven languages.\"\n\nWHICH — для вещей и животных:\n\"The book which I recommended is now a bestseller.\"\n\"The laptop which broke down was under warranty.\"\n\nTHAT — для людей И вещей (в определительных клаузах):\n\"The car that I want is too expensive.\" (= which)\n\"The student that won is from our group.\" (= who)\n\nWHOSE — принадлежность:\n\"The student whose essay was best got an A.\"\n\nWHERE — место:\n\"The university where I study is in Uralsk.\"\n\nWHEN — время:\n\"I remember the day when we first arrived at WKU.\"\n\n📍 Структура: NOUN + relative pronoun + информация\n\"The professor WHO TEACHES linguistics is brilliant.\"",
+  "grammarTable": [
+    {
+      "subject": "Pronoun",
+      "verb": "Used for",
+      "short": "Note",
+      "example": "Example"
+    },
+    {
+      "subject": "who",
+      "verb": "people",
+      "short": "people only",
+      "example": "She is a student who loves reading."
+    },
+    {
+      "subject": "which",
+      "verb": "things / animals",
+      "short": "not people",
+      "example": "It's a film which won many awards."
+    },
+    {
+      "subject": "that",
+      "verb": "people or things",
+      "short": "defining only",
+      "example": "It's a book that changed my life."
+    },
+    {
+      "subject": "where",
+      "verb": "places",
+      "short": "locations",
+      "example": "The library where I study is very quiet."
+    },
+    {
+      "subject": "whose",
+      "verb": "possession",
+      "short": "people/things",
+      "example": "He's a writer whose books sell millions."
+    },
+    {
+      "subject": "Defining",
+      "verb": "gives essential info",
+      "short": "no commas",
+      "example": "\"The film that I watched was amazing.\""
+    },
+    {
+      "subject": "Non-defining",
+      "verb": "adds extra info",
+      "short": "commas required",
+      "example": "\"October Sky, which is a true story, is inspiring.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "who (for people)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "She is a teacher who inspires students.",
+          "example": "who = person"
+        },
+        {
+          "form": "He is the student who won the scholarship.",
+          "example": "who = person"
+        },
+        {
+          "form": "They are the directors who made the film.",
+          "example": "who = people"
+        },
+        {
+          "form": "I know a girl who speaks five languages.",
+          "example": "who = person"
+        },
+        {
+          "form": "He is someone who always keeps his promises.",
+          "example": "who = person"
+        },
+        {
+          "form": "She is an author who writes about human emotions.",
+          "example": "who = person"
+        }
+      ]
+    },
+    {
+      "title": "which (for things)",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "It's a book which changed my perspective.",
+          "example": "which = thing"
+        },
+        {
+          "form": "The cinema which we went to last week is closed.",
+          "example": "which = thing"
+        },
+        {
+          "form": "She uses an app which helps her study vocabulary.",
+          "example": "which = thing"
+        },
+        {
+          "form": "That's the building which was designed by a famous architect.",
+          "example": "which = thing"
+        },
+        {
+          "form": "He published an article which received many responses.",
+          "example": "which = thing"
+        },
+        {
+          "form": "It's a documentary which every student should watch.",
+          "example": "which = thing"
+        }
+      ]
+    },
+    {
+      "title": "that (for people or things)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "It's a story that everyone can relate to.",
+          "example": "that = thing"
+        },
+        {
+          "form": "He's someone that I respect deeply.",
+          "example": "that = person (informal)"
+        },
+        {
+          "form": "It was a film that made me cry.",
+          "example": "that = thing"
+        },
+        {
+          "form": "It's an experience that I will never forget.",
+          "example": "that = thing"
+        },
+        {
+          "form": "She's a person that you can always trust.",
+          "example": "that = person (informal)"
+        },
+        {
+          "form": "It's a topic that interests all of us.",
+          "example": "that = thing"
+        }
+      ]
+    },
+    {
+      "title": "where / whose",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "The library where I study is open until 10 p.m.",
+          "example": "where = place"
+        },
+        {
+          "form": "That's the café where they filmed the interview.",
+          "example": "where = place"
+        },
+        {
+          "form": "She is an author whose books are read worldwide.",
+          "example": "whose = possession"
+        },
+        {
+          "form": "He's the professor whose class I enjoy the most.",
+          "example": "whose = possession"
+        },
+        {
+          "form": "This is the room where Dr. Akhmetov holds his workshops.",
+          "example": "where = place"
+        },
+        {
+          "form": "The actor whose performance I loved was in three films.",
+          "example": "whose = possession"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "RULES: who = people | which = things/animals | that = both (informal) | where = places | whose = possession. In DEFINING relative clauses (essential info), you can omit \"that/which/who\" when it's the object: \"The film (that) I watched was amazing.\" BUT you can't omit the subject: \"She is a student who loves reading.\" ✅",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "She is a writer ___ has won many awards.",
+      "opts": [
+        "which",
+        "who",
+        "where",
+        "whose"
+      ],
+      "correct": "who",
+      "hint": "\"who\" = relative pronoun for people."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with who, which, or that.",
+      "text": "It's a film ___ changed the way I see the world.",
+      "correct": "that",
+      "hint": "\"that\" or \"which\" can be used for things. Both are correct here."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "This is the library ___ I study every evening.",
+      "opts": [
+        "who",
+        "which",
+        "where",
+        "whose"
+      ],
+      "correct": "where",
+      "hint": "\"where\" = relative pronoun for places."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct relative pronoun.",
+      "text": "He is a director ___ films are loved around the world.",
+      "correct": "whose",
+      "hint": "\"whose\" shows possession: the director's films."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "It's a novel ___ explores the theme of friendship.",
+      "opts": [
+        "who",
+        "which",
+        "where",
+        "whom"
+      ],
+      "correct": "which",
+      "hint": "\"which\" = relative pronoun for things (a novel is a thing)."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She is a student which loves reading\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Use \"who\" for people: \"She is a student who loves reading.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct relative pronoun.",
+      "text": "The professor ___ teaches English at WKU is very inspiring.",
+      "correct": "who",
+      "hint": "\"who\" = relative pronoun for people (the professor)."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify what the relative pronoun refers to.",
+      "text": "In \"That's the building that was built in 1990,\" \"that\" refers to:",
+      "opts": [
+        "A person",
+        "A place",
+        "A thing (building)",
+        "An action"
+      ],
+      "correct": "A thing (building)",
+      "hint": "\"that\" refers to \"the building\" — a thing, not a person or place."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct rule.",
+      "text": "Can \"that\" replace \"who\"?",
+      "opts": [
+        "Never",
+        "Yes, in defining relative clauses",
+        "Only in formal writing",
+        "Only with animate nouns"
+      ],
+      "correct": "Yes, in defining relative clauses",
+      "hint": "\"that\" can replace \"who\" or \"which\" in informal defining relative clauses."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct relative pronoun.",
+      "text": "This is the café ___ they filmed the famous documentary.",
+      "correct": "where",
+      "hint": "\"where\" = relative pronoun for places."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses a relative clause correctly?",
+      "opts": [
+        "She is a student who loves reading.",
+        "She is a student which loves reading.",
+        "She is a student whom loves reading.",
+        "She is a student where loves reading."
+      ],
+      "correct": "She is a student who loves reading.",
+      "hint": "\"who\" for people as subject of the relative clause."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"It's a book that I recommend\" has a defining relative clause.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"that I recommend\" = defining relative clause (no commas, identifies which book)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"who\" in relative clauses is used for:",
+      "opts": [
+        "Things and animals",
+        "Places",
+        "People",
+        "Possession"
+      ],
+      "correct": "People",
+      "hint": "\"who\" = relative pronoun for people only."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She is a student ___ works hard every day.",
+      "correct": "who",
+      "hint": "\"who\" = relative pronoun for people."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"which\" is used for:",
+      "opts": [
+        "People",
+        "Places",
+        "Things and animals",
+        "Possession"
+      ],
+      "correct": "Things and animals",
+      "hint": "\"which\" = relative pronoun for things and animals."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "It's a book ___ I recommend to all my friends.",
+      "correct": "that",
+      "hint": "\"that\" can be used for both people and things in defining relative clauses."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"where\" is used for:",
+      "opts": [
+        "Things",
+        "People",
+        "Possession",
+        "Places"
+      ],
+      "correct": "Places",
+      "hint": "\"where\" = relative pronoun for places."
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She is a teacher which inspires students\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Use \"who\" for people: \"She is a teacher who inspires students.\""
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "That's the cinema ___ we always watch films.",
+      "correct": "where",
+      "hint": "\"where\" = relative pronoun for places."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"whose\" is used for:",
+      "opts": [
+        "People only",
+        "Things only",
+        "Possession (people and things)",
+        "Places"
+      ],
+      "correct": "Possession (people and things)",
+      "hint": "\"whose\" shows possession: the writer whose books are famous."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Can \"that\" replace \"which\"?",
+      "opts": [
+        "Never",
+        "Only in formal writing",
+        "Yes, in defining relative clauses",
+        "Only in questions"
+      ],
+      "correct": "Yes, in defining relative clauses",
+      "hint": "\"that\" can replace \"which\" in defining relative clauses (informal/neutral)."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He is an author ___ books are read in 30 countries.",
+      "correct": "whose",
+      "hint": "\"whose\" shows possession — the author's books."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is \"The Kite Runner\" about, according to Kamila?",
+      "opts": [
+        "A boy who dreams of becoming an astronaut",
+        "A friendship tested by betrayal and redemption",
+        "An empire that falls through war",
+        "Social media and mental health"
+      ],
+      "correct": "A friendship tested by betrayal and redemption",
+      "hint": "Paragraph 2: \"a novel that tells the story of a friendship that is tested by betrayal and redemption.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is \"The Social Dilemma\"?",
+      "opts": [
+        "A science fiction novel",
+        "A documentary about social media",
+        "A romantic drama",
+        "A Kazakh historical film"
+      ],
+      "correct": "A documentary about social media",
+      "hint": "Paragraph 5: \"a documentary that examines the impact of social media on mental health and democracy.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Dr. Akhmetov says students should only read books that are easy and enjoyable.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Paragraph 6: \"Read books that challenge you… A book that makes you uncomfortable often changes you the most.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Novel\" in the context of literature means:",
+      "opts": [
+        "Something new and original",
+        "A long fictional book",
+        "A short story collection",
+        "A non-fiction book"
+      ],
+      "correct": "A long fictional book",
+      "hint": "\"Novel\" (noun) = a long fictional narrative book."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The book is about ___ — the main character betrays his best friend.",
+      "correct": "betrayal",
+      "hint": "\"Betrayal\" = the act of being disloyal or breaking someone's trust."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Analytical\" skills help you:",
+      "opts": [
+        "Make things by hand",
+        "Examine information carefully and draw conclusions",
+        "Communicate with others",
+        "Learn languages quickly"
+      ],
+      "correct": "Examine information carefully and draw conclusions",
+      "hint": "\"Analytical\" = related to the ability to analyse, examine, and draw conclusions from information."
+    }
+  ]
+}

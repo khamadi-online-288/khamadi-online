@@ -1,0 +1,920 @@
+{
+  "id": "l18-1",
+  "moduleNum": 2,
+  "lessonNum": 1,
+  "moduleTitle": "Health & the Body",
+  "title": "A visit to the doctor",
+  "type": "reading",
+  "xp": 65,
+  "duration": 22,
+  "paragraphs": [
+    "Last Monday, Kamila Seitkali woke up feeling terrible. Her head was pounding, her throat was sore, and she had a high temperature of 38.5 degrees. She also had a blocked nose, a dry cough, and she felt completely exhausted. She had not slept well for two nights. Kamila knew immediately that she was not well enough to attend her morning lecture on Economics.",
+    "She sent a message to her group chat: \"I'm not coming to university today. I've got a fever and I feel awful. Please send me the lecture notes.\" Her friend Amir replied immediately: \"Go to the medical centre — don't wait! You've got to see a doctor.\" Kamila agreed. She put on her warm coat, wrapped a scarf around her neck, and walked slowly to the WKU Student Medical Centre, which is located on the ground floor of Building 3.",
+    "At the reception desk, a friendly nurse named Gulnara asked Kamila to complete a short form. Kamila wrote down her student ID, her group number, her date of birth, and described her symptoms. The nurse took her temperature, her blood pressure, and her pulse. \"Your temperature is 38.7 — that is quite high,\" said Nurse Gulnara. \"The doctor will see you in about fifteen minutes.\"",
+    "The doctor's name was Dr. Serik Akhmetov. He was a calm, experienced man in his forties with kind eyes and a reassuring voice. He asked Kamila a series of questions: \"How long have you felt this way? Have you got a headache? Does your chest hurt when you breathe? Have you got any allergies? Have you taken any medicine already?\" Kamila answered each question carefully and honestly.",
+    "After examining her, Dr. Akhmetov explained the diagnosis clearly: \"You have got a viral respiratory infection — what we often call a common cold, but quite a serious one. Your body needs rest, warmth, and fluids above all. You don't have to go to hospital — this is not that serious — but you absolutely have to stay home for at least three days.\" He also told her to drink at least two litres of water per day, to eat hot soup if possible, and to avoid cold air and draughts.",
+    "Dr. Akhmetov wrote a prescription for two medicines: an antiviral tablet and a throat spray. He also wrote an official medical note — called a \"sick note\" or \"excuse letter\" — for the university. \"Give this to your group coordinator,\" he said. \"All your absences will be officially excused.\" He also strongly advised her to get a flu vaccination before next winter, as this type of infection was very common among students living in dormitories.",
+    "On her way back to the dormitory, Kamila stopped at the university pharmacy to collect her medicines. The pharmacist, a young woman named Ainur, explained exactly how to take the tablets: \"Take one tablet twice a day — in the morning after breakfast and in the evening after dinner. Do not take them on an empty stomach. And the throat spray — use it three times a day: morning, afternoon, and evening. Shake the bottle well before each use.\"",
+    "Kamila spent the next three days in her dormitory room. Her roommate Zhibek took very good care of her — she brought hot tea with honey and lemon, cooked warm porridge, and made sure Kamila took her medicines on time. By Thursday, Kamila's temperature had returned to normal, her headache was gone, and she felt much stronger. She sent a message to the group chat: \"Back on Friday! Thanks for the notes, everyone. Health is truly the most important thing. Take care of yourselves!\" 💪"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Good morning. Please, take a seat. What brings you to the clinic today?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good morning, doctor. I've got a headache, a sore throat, and a fever. I feel awful.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "I see. How long have you had these symptoms?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Since Sunday night — so about two days now. I also have a cough and a blocked nose.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Have you got any pain in your chest or difficulty breathing?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "No, just a little tightness sometimes. But my throat is very painful when I swallow.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "I'm going to check your throat. Open wide, please. Hmm. Yes, it's quite red and inflamed.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Is it serious? I have an important test on Friday.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "It's a viral infection — quite common this season. But you have to rest properly. No university for three days.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Three days?! I've got so many classes...",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "I understand. But if you don't rest now, you could be ill for two weeks. The choice is yours.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "You're right, doctor. I'll stay home. Can you give me a medical note for the university?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Of course. And drink plenty of water — at least two litres a day. Hot soup is excellent too.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Thank you, doctor. I'll follow all your advice.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I've got a headache / fever / sore throat.",
+      "ru": "У меня болит голова / жар / горло.",
+      "context": "I've got a fever and I feel awful."
+    },
+    {
+      "phrase": "How long have you had these symptoms?",
+      "ru": "Как давно у вас эти симптомы?",
+      "context": "How long have you had these symptoms?"
+    },
+    {
+      "phrase": "You have to rest / stay home.",
+      "ru": "Тебе нужно отдохнуть / остаться дома.",
+      "context": "You absolutely have to stay home for three days."
+    },
+    {
+      "phrase": "You don't have to go to hospital.",
+      "ru": "Тебе не нужно идти в больницу.",
+      "context": "You don't have to go to hospital — it's not that serious."
+    },
+    {
+      "phrase": "I feel awful / terrible / exhausted.",
+      "ru": "Я чувствую себя ужасно / устало.",
+      "context": "I feel awful. I haven't slept in two nights."
+    },
+    {
+      "phrase": "Take one tablet twice a day.",
+      "ru": "Принимайте одну таблетку дважды в день.",
+      "context": "Take one tablet twice a day — morning and evening."
+    },
+    {
+      "phrase": "My temperature is 38.7.",
+      "ru": "Моя температура 38.7.",
+      "context": "\"Your temperature is 38.7 — that is quite high.\""
+    },
+    {
+      "phrase": "It's a viral / bacterial infection.",
+      "ru": "Это вирусная / бактериальная инфекция.",
+      "context": "You have got a viral respiratory infection."
+    },
+    {
+      "phrase": "Does your chest hurt when you breathe?",
+      "ru": "Болит ли у вас грудь при дыхании?",
+      "context": "Have you got any pain in your chest or difficulty breathing?"
+    },
+    {
+      "phrase": "I'll follow all your advice.",
+      "ru": "Я выполню все ваши рекомендации.",
+      "context": "Thank you, doctor. I'll follow all your advice."
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "symptom",
+      "emoji": "🤒",
+      "opts": [
+        "симптом",
+        "лекарство",
+        "анализ",
+        "врач"
+      ],
+      "correct": "симптом"
+    },
+    {
+      "id": "p2",
+      "word": "prescription",
+      "emoji": "📋",
+      "opts": [
+        "диагноз",
+        "рецепт",
+        "температура",
+        "процедура"
+      ],
+      "correct": "рецепт"
+    },
+    {
+      "id": "p3",
+      "word": "exhausted",
+      "emoji": "😴",
+      "opts": [
+        "счастливый",
+        "больной",
+        "полностью измотанный",
+        "злой"
+      ],
+      "correct": "полностью измотанный"
+    },
+    {
+      "id": "p4",
+      "word": "diagnosis",
+      "emoji": "🔬",
+      "opts": [
+        "диагноз",
+        "лечение",
+        "операция",
+        "палата"
+      ],
+      "correct": "диагноз"
+    },
+    {
+      "id": "p5",
+      "word": "pharmacy",
+      "emoji": "💊",
+      "opts": [
+        "больница",
+        "клиника",
+        "аптека",
+        "поликлиника"
+      ],
+      "correct": "аптека"
+    },
+    {
+      "id": "p6",
+      "word": "inflamed",
+      "emoji": "🔴",
+      "opts": [
+        "здоровый",
+        "воспалённый",
+        "холодный",
+        "мягкий"
+      ],
+      "correct": "воспалённый"
+    }
+  ],
+  "task1Bank": [
+    "38.7",
+    "viral respiratory infection",
+    "three days",
+    "antiviral tablet and a throat spray",
+    "Gulnara",
+    "two litres"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila's temperature at the clinic was ___ degrees.",
+      "correct": "38.7"
+    },
+    {
+      "id": "t2",
+      "question": "Dr. Akhmetov's diagnosis was a ___ .",
+      "correct": "viral respiratory infection"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila had to stay home for at least ___ .",
+      "correct": "three days"
+    },
+    {
+      "id": "t4",
+      "question": "The doctor prescribed a ___ .",
+      "correct": "antiviral tablet and a throat spray"
+    },
+    {
+      "id": "t5",
+      "question": "The name of the nurse at the reception desk was ___ .",
+      "correct": "Gulnara"
+    },
+    {
+      "id": "t6",
+      "question": "The doctor told Kamila to drink at least ___ of water per day.",
+      "correct": "two litres"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Kamila went to the medical centre on a Monday.",
+      "correct": "true"
+    },
+    {
+      "id": "f2",
+      "statement": "The WKU medical centre is on the first floor of Building 3.",
+      "correct": "false"
+    },
+    {
+      "id": "f3",
+      "statement": "Dr. Akhmetov told Kamila she had to go to hospital.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Kamila's roommate Zhibek helped her during her illness.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "Kamila felt better by Thursday.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "The doctor advised Kamila to get a flu vaccination.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "vocab": [
+    {
+      "en": "symptom",
+      "ipa": "/ˈsɪmptəm/",
+      "pos": "noun",
+      "ru": "симптом",
+      "kz": "белгі",
+      "emoji": "🤒",
+      "definition": "a sign that you are ill or have a health problem",
+      "example": "A sore throat is a common symptom of a cold.",
+      "collocations": [
+        "common symptom",
+        "symptom of flu",
+        "describe symptoms"
+      ]
+    },
+    {
+      "en": "fever",
+      "ipa": "/ˈfiːvər/",
+      "pos": "noun",
+      "ru": "жар, высокая температура",
+      "kz": "қызба",
+      "emoji": "🌡️",
+      "definition": "a body temperature that is higher than normal (above 37.5°C)",
+      "example": "She has a fever of 38.7 degrees.",
+      "collocations": [
+        "high fever",
+        "have a fever",
+        "fever and chills"
+      ]
+    },
+    {
+      "en": "prescription",
+      "ipa": "/prɪˈskrɪpʃn/",
+      "pos": "noun",
+      "ru": "рецепт",
+      "kz": "рецепт",
+      "emoji": "📋",
+      "definition": "a written order from a doctor for medicine",
+      "example": "The doctor wrote a prescription for two medicines.",
+      "collocations": [
+        "write a prescription",
+        "on prescription",
+        "prescription medicine"
+      ]
+    },
+    {
+      "en": "diagnosis",
+      "ipa": "/ˌdaɪəɡˈnəʊsɪs/",
+      "pos": "noun",
+      "ru": "диагноз",
+      "kz": "диагноз",
+      "emoji": "🔬",
+      "definition": "the identification of an illness after examining a patient",
+      "example": "The diagnosis was a viral respiratory infection.",
+      "collocations": [
+        "make a diagnosis",
+        "correct diagnosis",
+        "final diagnosis"
+      ]
+    },
+    {
+      "en": "exhausted",
+      "ipa": "/ɪɡˈzɔːstɪd/",
+      "pos": "adjective",
+      "ru": "полностью измотанный",
+      "kz": "жүдеген",
+      "emoji": "😴",
+      "definition": "extremely tired; having no energy at all",
+      "example": "She felt completely exhausted after two sleepless nights.",
+      "collocations": [
+        "feel exhausted",
+        "completely exhausted",
+        "totally exhausted"
+      ]
+    },
+    {
+      "en": "inflamed",
+      "ipa": "/ɪnˈfleɪmd/",
+      "pos": "adjective",
+      "ru": "воспалённый",
+      "kz": "қабынған",
+      "emoji": "🔴",
+      "definition": "red, swollen, and painful, usually because of infection",
+      "example": "Her throat was very red and inflamed.",
+      "collocations": [
+        "inflamed throat",
+        "red and inflamed",
+        "inflamed tissue"
+      ]
+    },
+    {
+      "en": "pharmacy",
+      "ipa": "/ˈfɑːrməsi/",
+      "pos": "noun",
+      "ru": "аптека",
+      "kz": "дәріхана",
+      "emoji": "💊",
+      "definition": "a shop where medicines are prepared and sold",
+      "example": "She collected her medicines from the university pharmacy.",
+      "collocations": [
+        "go to the pharmacy",
+        "university pharmacy",
+        "pharmacy counter"
+      ]
+    },
+    {
+      "en": "vaccination",
+      "ipa": "/ˌvæksɪˈneɪʃn/",
+      "pos": "noun",
+      "ru": "вакцинация, прививка",
+      "kz": "вакцинация",
+      "emoji": "💉",
+      "definition": "an injection that protects you from a disease",
+      "example": "The doctor advised her to get a flu vaccination.",
+      "collocations": [
+        "flu vaccination",
+        "get a vaccination",
+        "annual vaccination"
+      ]
+    },
+    {
+      "en": "infection",
+      "ipa": "/ɪnˈfekʃn/",
+      "pos": "noun",
+      "ru": "инфекция, заражение",
+      "kz": "инфекция",
+      "emoji": "🦠",
+      "definition": "an illness caused by bacteria or a virus entering your body",
+      "example": "She had a viral respiratory infection.",
+      "collocations": [
+        "viral infection",
+        "bacterial infection",
+        "respiratory infection"
+      ]
+    },
+    {
+      "en": "examination",
+      "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
+      "pos": "noun",
+      "ru": "осмотр (врачебный)",
+      "kz": "тексеру",
+      "emoji": "👨‍⚕️",
+      "definition": "a careful check of a patient's body by a doctor",
+      "example": "After examining her, the doctor explained the diagnosis.",
+      "collocations": [
+        "medical examination",
+        "physical examination",
+        "examination results"
+      ]
+    },
+    {
+      "en": "antibiotic",
+      "ipa": "/ˌæntibaɪˈɒtɪk/",
+      "pos": "noun",
+      "ru": "антибиотик",
+      "kz": "антибиотик",
+      "emoji": "💊",
+      "definition": "a medicine that kills bacteria and treats infections",
+      "example": "Antibiotics do not work against viral infections.",
+      "collocations": [
+        "take antibiotics",
+        "course of antibiotics",
+        "antibiotic resistance"
+      ]
+    },
+    {
+      "en": "recovery",
+      "ipa": "/rɪˈkʌvəri/",
+      "pos": "noun",
+      "ru": "выздоровление",
+      "kz": "қалпына келу",
+      "emoji": "🌱",
+      "definition": "the process of becoming well again after illness",
+      "example": "By Thursday, Kamila's recovery was almost complete.",
+      "collocations": [
+        "full recovery",
+        "speedy recovery",
+        "recovery time"
+      ]
+    },
+    {
+      "en": "sore",
+      "ipa": "/sɔːr/",
+      "pos": "adjective",
+      "ru": "болезненный (горло и т.д.)",
+      "kz": "ауыратын",
+      "emoji": "😣",
+      "definition": "painful and uncomfortable, especially a throat or muscle",
+      "example": "She woke up with a sore throat and a headache.",
+      "collocations": [
+        "sore throat",
+        "sore muscles",
+        "sore eyes"
+      ]
+    },
+    {
+      "en": "blocked",
+      "ipa": "/blɒkt/",
+      "pos": "adjective",
+      "ru": "заложенный (нос)",
+      "kz": "бітелген",
+      "emoji": "🤧",
+      "definition": "unable to pass air or liquid through normally",
+      "example": "She had a blocked nose and couldn't breathe well.",
+      "collocations": [
+        "blocked nose",
+        "completely blocked",
+        "blocked sinuses"
+      ]
+    },
+    {
+      "en": "pulse",
+      "ipa": "/pʌls/",
+      "pos": "noun",
+      "ru": "пульс",
+      "kz": "жүрек соғысы",
+      "emoji": "💓",
+      "definition": "the regular beating of blood through your heart and body",
+      "example": "The nurse took her temperature, blood pressure, and pulse.",
+      "collocations": [
+        "take your pulse",
+        "rapid pulse",
+        "normal pulse rate"
+      ]
+    }
+  ],
+  "grammarTitle": "have got — body & symptoms",
+  "grammarNote": "\"Have got\" — это разговорный вариант глагола \"have\", очень распространённый в британском английском. Используется для описания того, ЧТО У ТЕБЯ ЕСТЬ, включая части тела, симптомы болезни и физические характеристики. Важно: have got = have (то же значение, но другая форма).",
+  "grammarTable": [
+    {
+      "subject": "I / You",
+      "verb": "have got",
+      "short": "I've got",
+      "example": "I've got a headache. · You've got a fever."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "has got",
+      "short": "She's got",
+      "example": "She's got a sore throat. · He's got a temperature."
+    },
+    {
+      "subject": "We / They",
+      "verb": "have got",
+      "short": "They've got",
+      "example": "We've got the flu. · They've got colds."
+    },
+    {
+      "subject": "I / You",
+      "verb": "haven't got",
+      "short": "haven't",
+      "example": "I haven't got any allergies. · You haven't got a fever."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "hasn't got",
+      "short": "hasn't",
+      "example": "She hasn't got a cough. · He hasn't got any pain."
+    },
+    {
+      "subject": "Have you got...?",
+      "verb": "?",
+      "short": "Have/Has?",
+      "example": "Have you got a headache? · Has she got a fever?"
+    },
+    {
+      "subject": "Short answers",
+      "verb": "Yes / No",
+      "short": "✓ / ✗",
+      "example": "Yes, I have. / No, I haven't. · Yes, she has. / No, he hasn't."
+    },
+    {
+      "subject": "have got = have",
+      "verb": "(same meaning)",
+      "short": "≡",
+      "example": "I've got a cold. = I have a cold. (Both correct!)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Body parts vocabulary",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "head, neck, shoulder, arm",
+          "example": "I've got a stiff neck after sleeping badly."
+        },
+        {
+          "form": "chest, back, stomach, hip",
+          "example": "She's got a pain in her chest when she breathes."
+        },
+        {
+          "form": "leg, knee, ankle, foot",
+          "example": "He's got a swollen ankle — he twisted it playing football."
+        },
+        {
+          "form": "eye, ear, nose, mouth, throat",
+          "example": "I've got a blocked nose and a very sore throat."
+        },
+        {
+          "form": "finger, thumb, wrist, elbow",
+          "example": "She's got a bruised wrist from her gymnastics training."
+        },
+        {
+          "form": "skin, hair, teeth, tongue",
+          "example": "He's got very sensitive skin — he can't use strong soap."
+        }
+      ]
+    },
+    {
+      "title": "Symptoms — have got + illness",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I've got a headache / backache.",
+          "example": "I've got a terrible headache — I can't concentrate."
+        },
+        {
+          "form": "She's got a sore throat / cough.",
+          "example": "She's got a sore throat and a dry cough."
+        },
+        {
+          "form": "He's got a fever / temperature.",
+          "example": "He's got a fever of 39 degrees — he should see a doctor."
+        },
+        {
+          "form": "I've got a blocked / runny nose.",
+          "example": "I've got a runny nose — I need tissues everywhere!"
+        },
+        {
+          "form": "They've got food poisoning.",
+          "example": "They've all got food poisoning from the cafeteria."
+        },
+        {
+          "form": "She's got an allergy to penicillin.",
+          "example": "She's got an allergy — she can't take that medicine."
+        }
+      ]
+    },
+    {
+      "title": "Questions about health",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Have you got a headache?",
+          "example": "Have you got a headache? — Yes, a terrible one!"
+        },
+        {
+          "form": "Has she got a temperature?",
+          "example": "Has she got a temperature? — Yes, 38.5 degrees."
+        },
+        {
+          "form": "What have you got?",
+          "example": "What have you got? — I've got a viral infection."
+        },
+        {
+          "form": "How long have you had it?",
+          "example": "How long have you had it? — Since Sunday."
+        },
+        {
+          "form": "Have you got any allergies?",
+          "example": "Have you got any allergies? — No, I haven't."
+        },
+        {
+          "form": "Has he got any pain?",
+          "example": "Has he got any pain? — Yes, in his chest."
+        }
+      ]
+    },
+    {
+      "title": "have got vs have (differences)",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "I've got = I have (possession/state)",
+          "example": "I've got brown eyes. = I have brown eyes. ✅"
+        },
+        {
+          "form": "Use have (NOT have got) for actions",
+          "example": "I have breakfast at 7 am. (NOT \"I've got breakfast\") ❌"
+        },
+        {
+          "form": "have got — more common in British English",
+          "example": "British: I've got a problem. American: I have a problem."
+        },
+        {
+          "form": "Questions: Have you got? or Do you have?",
+          "example": "Both correct: Have you got a pen? = Do you have a pen?"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "have got = have (то же значение!):\n→ I've got a headache. = I have a headache. ✅\n→ She's got brown eyes. = She has brown eyes. ✅\n\nНО! Для ДЕЙСТВИЙ используй только have (не have got):\n→ I have breakfast at 7. ✅ (не 'I've got breakfast') ❌\n→ I have a shower every morning. ✅\n\nВ разговорной речи have got звучит естественнее. В British English особенно популярно!",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Kamila's temperature when the nurse checked her?",
+      "opts": [
+        "37.5",
+        "38.5",
+        "38.7",
+        "39.0"
+      ],
+      "correct": "38.7",
+      "hint": "\"Your temperature is 38.7 — that is quite high.\" — Nurse Gulnara."
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Dr. Akhmetov diagnose?",
+      "opts": [
+        "Bacterial pneumonia",
+        "Flu",
+        "Viral respiratory infection",
+        "Food poisoning"
+      ],
+      "correct": "Viral respiratory infection",
+      "hint": "\"You have got a viral respiratory infection.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila had to go to hospital.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"You don't have to go to hospital — this is not that serious.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many days did Kamila have to stay home?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "correct": "Three",
+      "hint": "\"You absolutely have to stay home for at least three days.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What two medicines did the doctor prescribe?",
+      "opts": [
+        "Antibiotics and vitamins",
+        "Antiviral tablet and throat spray",
+        "Pain killers and cough syrup",
+        "Antibiotic and eye drops"
+      ],
+      "correct": "Antiviral tablet and throat spray",
+      "hint": "\"He wrote a prescription for two medicines: an antiviral tablet and a throat spray.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The pharmacist's name was Ainur.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"The pharmacist, a young woman named Ainur...\""
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How much water did the doctor tell Kamila to drink daily?",
+      "opts": [
+        "One litre",
+        "One and a half litres",
+        "Two litres",
+        "Three litres"
+      ],
+      "correct": "Two litres",
+      "hint": "\"Drink at least two litres of water per day.\""
+    },
+    {
+      "id": "q8",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila felt better by Friday.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"By Thursday, Kamila's temperature had returned to normal.\""
+    },
+    {
+      "id": "q9",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Who helped Kamila while she was sick?",
+      "opts": [
+        "Amir",
+        "Nurse Gulnara",
+        "Her roommate Zhibek",
+        "Dr. Akhmetov"
+      ],
+      "correct": "Her roommate Zhibek",
+      "hint": "\"Her roommate Zhibek took very good care of her.\""
+    },
+    {
+      "id": "q10",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is the WKU medical centre located?",
+      "opts": [
+        "Building 1, 2nd floor",
+        "Building 3, ground floor",
+        "Building 5, 1st floor",
+        "The main building"
+      ],
+      "correct": "Building 3, ground floor",
+      "hint": "\"Located on the ground floor of Building 3.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "She ___ a high fever and a sore throat.",
+      "correct": "has got",
+      "hint": "She = has got. (3rd person singular)"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct?",
+      "opts": [
+        "I've got a headache.",
+        "I've gotten a headache.",
+        "I am got a headache.",
+        "I have got headache."
+      ],
+      "correct": "I've got a headache.",
+      "hint": "I've got a headache. ✅ — I have got + article + noun."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Have you got any allergies?\" and \"Do you have any allergies?\" have the same meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "have got = have. Both questions are correct and mean the same thing."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ she got a temperature?\" — \"Yes, she ___.\"",
+      "opts": [
+        "Has / has",
+        "Have / have",
+        "Is / is",
+        "Does / does"
+      ],
+      "correct": "Has / has",
+      "hint": "She → Has she got? Short answer: Yes, she has."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"inflamed\" mean?",
+      "opts": [
+        "very cold",
+        "red, swollen and painful",
+        "blocked and stuffy",
+        "weak and tired"
+      ],
+      "correct": "red, swollen and painful",
+      "hint": "Inflamed = red, swollen, and painful, usually from infection."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "A written order from a doctor for medicine is called a ___ .",
+      "correct": "prescription",
+      "hint": "Prescription = a written order from a doctor for medicine."
+    }
+  ]
+}

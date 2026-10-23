@@ -1,0 +1,384 @@
+{
+  "id": "l60-5",
+  "moduleNum": 2,
+  "lessonNum": 9,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "test",
+  "title": "Module 2 Final Test",
+  "xp": 120,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"claimed\" imply when used as a reporting verb?",
+      "opts": [
+        "Certainty",
+        "Neutrality",
+        "Doubt or possible dispute",
+        "Formal announcement"
+      ],
+      "correct": "Doubt or possible dispute",
+      "hint": "\"'Claimed' implies that this is something that might not actually happen, or might be disputed.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to Reading 2, what does memory do with past experience?",
+      "opts": [
+        "Record it exactly",
+        "Forget it",
+        "Reconstruct it — adding the rememberer's perspective",
+        "Copy it perfectly"
+      ],
+      "correct": "Reconstruct it — adding the rememberer's perspective",
+      "hint": "\"Memory is not a passive recorder but an active interpreter.\" It reconstructs, not replays."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to Reading 1, what is the difference between \"admitted\" and \"said\"?",
+      "opts": [
+        "No difference",
+        "\"Admitted\" implies reluctance and discomfort",
+        "\"Said\" implies doubt",
+        "\"Admitted\" is more formal"
+      ],
+      "correct": "\"Admitted\" implies reluctance and discomfort",
+      "hint": "\"Admitted implies that the speaker was reluctant or that the information is somewhat uncomfortable.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The texts argue that reported speech is only a grammatical exercise.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Both texts argue reported speech is \"a critical literacy skill\" and \"carries responsibility\" beyond grammar. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Omitting crucial context when reporting is a form of ___ .",
+      "correct": "misrepresentation",
+      "hint": "\"Omitting crucial context are all forms of MISREPRESENTATION — even if entirely unintentional.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Daniyar reported that Kamila argued journalism \"shapes opinion more than politicians.\" What did Kamila actually say?",
+      "opts": [
+        "The same thing",
+        "Journalism can sometimes be as powerful as policy — a weaker claim",
+        "Journalism is less powerful",
+        "Politicians are more important"
+      ],
+      "correct": "Journalism can sometimes be as powerful as policy — a weaker claim",
+      "hint": "Kamila: \"can sometimes be as powerful as policy.\" Daniyar: \"shapes opinion MORE than politicians.\" Daniyar's version is a stronger claim."
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What convention does Prof Akhmetov describe for citing sources in academic writing?",
+      "opts": [
+        "Always use Past Simple",
+        "Use present tense (\"Smith argues\") unless work is outdated",
+        "Always apply backshift",
+        "Use quotation marks only"
+      ],
+      "correct": "Use present tense (\"Smith argues\") unless work is outdated",
+      "hint": "\"When you cited someone's work, you usually used the present tense — 'Smith argues' not 'Smith argued' — unless the work was clearly outdated.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was the rector's announcement about the B2 requirement?",
+      "opts": [
+        "All students must pass now",
+        "It applies from 2027 intake — not current students",
+        "It has been cancelled",
+        "Only science students are affected"
+      ],
+      "correct": "It applies from 2027 intake — not current students",
+      "hint": "\"From the 2027 intake, students will need to demonstrate B2 English proficiency... Current students are not affected.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Prof Akhmetov insist about academic writing?",
+      "opts": [
+        "Use more grammar exercises",
+        "Summarise sources carefully",
+        "The point is not to report what sources say but to engage with what they mean",
+        "Always quote verbatim"
+      ],
+      "correct": "The point is not to report what sources say but to engage with what they mean",
+      "hint": "\"The point of academic writing wasn't to report what others had said but to think about what it meant.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"acknowledge\" and \"admit\" according to the professor?",
+      "opts": [
+        "They are identical",
+        "\"Admit\" carries a stronger sense that something went wrong",
+        "\"Acknowledge\" implies error",
+        "\"Admit\" is more formal"
+      ],
+      "correct": "\"Admit\" carries a stronger sense that something went wrong",
+      "hint": "\"'Admit' carries a stronger sense that something went wrong.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "The student council president claimed they were not given enough time to respond. How did the rector react?",
+      "opts": [
+        "Disputed it completely",
+        "Accepted it was challenging and promised improvement",
+        "Ignored it",
+        "Said the president was lying"
+      ],
+      "correct": "Accepted it was challenging and promised improvement",
+      "hint": "\"I accept that the consultation process could have been longer. We intend to improve this for future policy decisions.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Students who fail the B2 assessment will automatically not graduate.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"We have no intention of withholding graduation from students who make genuine effort.\""
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The rector described English proficiency as a ___ professional skill.",
+      "correct": "core",
+      "hint": "\"English proficiency is not an add-on — it is a CORE professional skill.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I am studying English.\" → She said she ___ English.",
+      "opts": [
+        "is studying",
+        "was studying",
+        "had been studying",
+        "studied"
+      ],
+      "correct": "was studying",
+      "hint": "PC → PPC in reported speech. \"am studying\" → was studying. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I will help you.\" → He said he ___ help me.",
+      "opts": [
+        "will",
+        "would",
+        "could",
+        "should"
+      ],
+      "correct": "would",
+      "hint": "will → would in reported speech. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She told that she was ready.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"told\" needs a person object — \"told me/us/him\"",
+        "\"was ready\" should be \"is ready\"",
+        "\"she\" is wrong"
+      ],
+      "correct": "\"told\" needs a person object — \"told me/us/him\"",
+      "hint": "TELL always needs a person object. \"She TOLD ME that she was ready.\" ✅ \"Told that...\" ✗"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Where do you work?\" → She asked where I ___.",
+      "opts": [
+        "did work",
+        "do work",
+        "worked",
+        "was working"
+      ],
+      "correct": "worked",
+      "hint": "Reported question: PS (do work → worked). Normal word order — no \"did.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Are you coming?\" → She asked ___ I was coming.",
+      "correct": "if / whether",
+      "hint": "Yes/No question → \"if\" or \"whether.\" \"She asked IF/WHETHER I was coming.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Don't leave!\" → He told her ___ leave.",
+      "opts": [
+        "don't",
+        "to not",
+        "not to",
+        "not"
+      ],
+      "correct": "not to",
+      "hint": "tell + obj + NOT + TO + infinitive. \"He told her NOT TO LEAVE.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He suggested to go to the cinema.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"suggested\" cannot be followed by \"to + infinitive\" — should be \"going\" or \"that we go\"",
+        "\"go\" should be \"went\"",
+        "\"to\" is optional"
+      ],
+      "correct": "\"suggested\" cannot be followed by \"to + infinitive\" — should be \"going\" or \"that we go\"",
+      "hint": "suggest + GERUND or suggest THAT. NEVER \"suggest to do.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I didn't steal it.\" → She ___ stealing it.",
+      "opts": [
+        "said",
+        "refused",
+        "denied",
+        "claimed"
+      ],
+      "correct": "denied",
+      "hint": "\"deny\" + gerund = denied STEALING. Perfect choice for denying an accusation. ✅"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I must finish this today.\" → She said she ___ finish it that day.",
+      "opts": [
+        "must",
+        "should",
+        "had to",
+        "was obligated to"
+      ],
+      "correct": "had to",
+      "hint": "\"must\" (obligation) → \"had to\" in reported speech. \"today\" → \"that day.\" ✅"
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The choice of reporting verb frames the meaning.\" \"Frames\" means:",
+      "opts": [
+        "Surrounds physically",
+        "Presents in a particular way to suggest an interpretation",
+        "Quotes directly",
+        "Translates"
+      ],
+      "correct": "Presents in a particular way to suggest an interpretation",
+      "hint": "\"frame\" = to present something to encourage a particular reading or interpretation."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Memory reconstructs rather than replays.\" \"Reconstructs\" means:",
+      "opts": [
+        "Records exactly",
+        "Builds up from parts — creates, not copies",
+        "Deletes unwanted information",
+        "Stores perfectly"
+      ],
+      "correct": "Builds up from parts — creates, not copies",
+      "hint": "\"reconstruct\" = to build back up; an active process of creating meaning, not a playback."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was reluctant to share the news.\" \"Reluctant\" means:",
+      "opts": [
+        "Eager",
+        "Uncertain",
+        "Unwilling; hesitant to do something",
+        "Afraid"
+      ],
+      "correct": "Unwilling; hesitant to do something",
+      "hint": "\"reluctant\" = not wanting to do something; doing it against your preference."
+    }
+  ]
+}

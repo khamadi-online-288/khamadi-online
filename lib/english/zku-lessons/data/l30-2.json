@@ -1,0 +1,292 @@
+{
+  "id": "l30-2",
+  "moduleNum": 14,
+  "lessonNum": 2,
+  "moduleTitle": "Work & Career",
+  "type": "reading",
+  "title": "A Day in the Life of a Software Engineer",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Nurlan Seitkali works as a software engineer at a tech startup in Almaty. He is Kamila's older brother. This is a typical working day for him.",
+    "He starts work at 9 a.m. from home. He makes coffee, opens his laptop, and checks his messages. He has a team meeting at 9:30 — they discuss what everyone is working on and what problems they need to solve.",
+    "From 10 a.m. to 1 p.m., he does his main work: writing and testing code. He needs full concentration during this time, so he turns off notifications and puts on headphones. He takes a break at 1 p.m. for lunch.",
+    "In the afternoon, he has a call with a client to discuss a new feature request. Then he does a code review — checking the work done by other developers on his team. He makes notes and gives feedback.",
+    "At 5 p.m., he writes a short summary of what he achieved today and what he will do tomorrow. He turns off his laptop and does something physical — he goes for a run or does a workout.",
+    "Nurlan loves his job, but he also knows that the work-life balance is important. 'I make time for my family, sport, and reading,' he says. 'A good engineer has to look after their mind, not just their code.'"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Nurlan, what does a software engineer actually do all day?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nurlan",
+      "text": "I write code, do code reviews, attend meetings, and talk to clients.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Do you make a lot of decisions in your job?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nurlan",
+      "text": "Yes — I make decisions about how to solve technical problems every hour.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And do you have to work overtime much?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nurlan",
+      "text": "Sometimes, but I try to have a good work-life balance. It's essential.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "work as a / work for",
+      "ru": "работать в качестве / работать на",
+      "context": "He works as a software engineer for a startup."
+    },
+    {
+      "phrase": "make decisions",
+      "ru": "принимать решения",
+      "context": "He makes decisions about technical problems every hour."
+    },
+    {
+      "phrase": "take a break",
+      "ru": "делать перерыв",
+      "context": "He takes a break at 1 p.m. for lunch."
+    },
+    {
+      "phrase": "work-life balance",
+      "ru": "баланс работы и личной жизни",
+      "context": "Nurlan makes time for family, sport, and reading."
+    },
+    {
+      "phrase": "do overtime",
+      "ru": "работать сверхурочно",
+      "context": "Sometimes he works overtime, but tries to keep a good balance."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "startup",
+      "ipa": "/ˈstɑːt.ʌp/",
+      "pos": "n",
+      "ru": "стартап",
+      "kz": "стартап",
+      "emoji": "🚀",
+      "definition": "A newly founded company in its early stages, often in tech.",
+      "example": "Nurlan works at a tech startup in Almaty.",
+      "collocations": [
+        "tech startup",
+        "launch a startup",
+        "startup founder"
+      ]
+    },
+    {
+      "en": "code review",
+      "ipa": "/kəʊd rɪˈvjuː/",
+      "pos": "n",
+      "ru": "код-ревью, проверка кода",
+      "kz": "кодты тексеру",
+      "emoji": "🔍",
+      "definition": "The process of checking code written by other developers.",
+      "example": "In the afternoon, he does a code review to check the team's work.",
+      "collocations": [
+        "do a code review",
+        "code review process",
+        "peer code review"
+      ]
+    },
+    {
+      "en": "feature request",
+      "ipa": "/ˈfiː.tʃər rɪˈkwest/",
+      "pos": "n",
+      "ru": "запрос функции",
+      "kz": "мүмкіндік сұрау",
+      "emoji": "📝",
+      "definition": "A request from a client to add a new function to a product.",
+      "example": "He has a call with a client to discuss a new feature request.",
+      "collocations": [
+        "handle feature requests",
+        "new feature request",
+        "implement a feature"
+      ]
+    },
+    {
+      "en": "work-life balance",
+      "ipa": "/ˌwɜːk.laɪf ˈbæl.əns/",
+      "pos": "n",
+      "ru": "баланс работы и жизни",
+      "kz": "жұмыс-өмір балансы",
+      "emoji": "⚖️",
+      "definition": "Having enough time for both professional work and personal life.",
+      "example": "Nurlan knows that work-life balance is important.",
+      "collocations": [
+        "maintain balance",
+        "work-life balance tips",
+        "achieve balance"
+      ]
+    },
+    {
+      "en": "notification",
+      "ipa": "/ˌnəʊ.tɪ.fɪˈkeɪ.ʃən/",
+      "pos": "n",
+      "ru": "уведомление",
+      "kz": "хабарлама",
+      "emoji": "🔔",
+      "definition": "A message or alert that informs you about something.",
+      "example": "He turns off notifications to focus on his main work.",
+      "collocations": [
+        "turn off notifications",
+        "push notification",
+        "receive notifications"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "startup",
+      "emoji": "🚀",
+      "opts": [
+        "A large established corporation",
+        "A government agency",
+        "A new company in its early stages",
+        "A non-profit organisation"
+      ],
+      "correct": "A new company in its early stages"
+    },
+    {
+      "id": "p2",
+      "word": "code review",
+      "emoji": "🔍",
+      "opts": [
+        "Writing new computer programs",
+        "Checking code written by other developers",
+        "Testing a website for users",
+        "Designing a user interface"
+      ],
+      "correct": "Checking code written by other developers"
+    },
+    {
+      "id": "p3",
+      "word": "work-life balance",
+      "emoji": "⚖️",
+      "opts": [
+        "Working as many hours as possible",
+        "Having time for both work and personal life",
+        "Choosing between career and family",
+        "Working only part-time"
+      ],
+      "correct": "Having time for both work and personal life"
+    },
+    {
+      "id": "p4",
+      "word": "notification",
+      "emoji": "🔔",
+      "opts": [
+        "A work meeting",
+        "A message or alert informing you of something",
+        "A software program",
+        "A type of keyboard shortcut"
+      ],
+      "correct": "A message or alert informing you of something"
+    },
+    {
+      "id": "p5",
+      "word": "feature request",
+      "emoji": "📝",
+      "opts": [
+        "A type of software bug",
+        "A request to add a new function to a product",
+        "A job application",
+        "A work schedule"
+      ],
+      "correct": "A request to add a new function to a product"
+    }
+  ],
+  "task1Bank": [
+    "code",
+    "meeting",
+    "break",
+    "balance",
+    "feedback",
+    "review",
+    "feature",
+    "summary"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "Nurlan has a team ___ at 9:30 to discuss progress.",
+      "correct": "meeting"
+    },
+    {
+      "id": "i2",
+      "question": "He spends the morning writing and testing ___.",
+      "correct": "code"
+    },
+    {
+      "id": "i3",
+      "question": "He takes a ___ at 1 p.m. for lunch.",
+      "correct": "break"
+    },
+    {
+      "id": "i4",
+      "question": "He does a code ___ to check other developers' work.",
+      "correct": "review"
+    },
+    {
+      "id": "i5",
+      "question": "He gives ___ on the team's code.",
+      "correct": "feedback"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Nurlan works in Uralsk at a large international company.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "He turns off notifications during his main work period.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "He finishes his day without any physical exercise.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Nurlan is Kamila's older brother.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Nurlan thinks work-life balance is not important.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

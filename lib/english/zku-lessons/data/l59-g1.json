@@ -1,0 +1,472 @@
+{
+  "id": "l59-g1",
+  "moduleNum": 1,
+  "lessonNum": 5,
+  "moduleTitle": "Complex Conversations",
+  "type": "grammar",
+  "title": "Past Tenses: Choosing the Right One",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "The Four Past Tenses — When to Use Each",
+  "grammarNote": "В английском языке четыре основных прошедших времени. На уровне A2 вы изучили их базовое использование. На B1 важно понимать тонкие различия — когда одно предпочтительнее другого, и как они взаимодействуют в одном тексте или разговоре.",
+  "grammarTable": [
+    {
+      "subject": "Past Simple",
+      "verb": "did / went / said",
+      "short": "completed action",
+      "example": "\"She arrived at 9.\" / \"He studied all night.\" — single completed event."
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "was/were + -ing",
+      "short": "background/ongoing",
+      "example": "\"She was studying when he called.\" — ongoing at that moment."
+    },
+    {
+      "subject": "Past Perfect",
+      "verb": "had + past participle",
+      "short": "earlier past",
+      "example": "\"She had studied all night before the exam.\" — earlier than another past event."
+    },
+    {
+      "subject": "Past Perfect Continuous",
+      "verb": "had been + -ing",
+      "short": "duration before past",
+      "example": "\"She had been studying for hours when he arrived.\" — ongoing duration before past event."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Past Simple vs Past Continuous: completed vs ongoing",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Past Simple = completed event at a point",
+          "example": "\"She called at 8.\" (one moment) / \"He studied economics.\" (completed course of action)"
+        },
+        {
+          "form": "Past Continuous = ongoing background",
+          "example": "\"She was working when he called.\" (working = ongoing background; called = interruption)"
+        },
+        {
+          "form": "Two ongoing actions = both Continuous",
+          "example": "\"While she was reading, he was cooking.\" (simultaneous background activities)"
+        },
+        {
+          "form": "Sequence = Past Simple both",
+          "example": "\"She read for an hour, then cooked dinner.\" (sequence, not background)"
+        }
+      ]
+    },
+    {
+      "title": "Past Perfect: establishing sequence in narrative",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Use PP to clarify which event came FIRST",
+          "example": "\"When I arrived, she had already left.\" (left = earlier; arrived = later) ✅"
+        },
+        {
+          "form": "No PP needed for simple sequence",
+          "example": "\"She finished eating, then left.\" (clear order with \"then\" — no PP needed) ✅"
+        },
+        {
+          "form": "PP with verbs of thought/discovery",
+          "example": "\"She realised she had made a mistake.\" / \"He noticed he had forgotten his keys.\" ✅"
+        },
+        {
+          "form": "Reported speech often triggers PP",
+          "example": "\"She said she had already submitted the form.\" (said = PS; submitted = PP) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Past Perfect Continuous: duration before a past moment",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Emphasises DURATION before past moment",
+          "example": "\"He had been waiting for two hours when she arrived.\" (two hours of waiting before arrival)"
+        },
+        {
+          "form": "Explains visible result at past moment",
+          "example": "\"Her eyes were red because she had been crying.\" (crying explains the red eyes)"
+        },
+        {
+          "form": "VS Past Perfect Simple (completion)",
+          "example": "\"She had written the essay.\" (completed) vs \"She had been writing the essay.\" (process)"
+        },
+        {
+          "form": "With time expressions: for / since",
+          "example": "\"He had been studying for three hours.\" / \"She had been waiting since 9 a.m.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common B1 mistakes with past tenses",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"When I arrived, she left.\"",
+          "example": "✅ \"When I arrived, she had already left.\" — use PP for the earlier action."
+        },
+        {
+          "form": "✗ \"I was studying when I passed the exam.\"",
+          "example": "✅ \"I was studying when I took the exam.\" (Continuous = ongoing, not completed result)"
+        },
+        {
+          "form": "✗ \"She had been writing the essay.\" (= completed)",
+          "example": "✅ \"She had written the essay.\" — PP Simple for completion. Continuous = process."
+        },
+        {
+          "form": "✗ \"He had been gone to the shop.\"",
+          "example": "✅ \"He had gone to the shop.\" — \"gone\" cannot be continuous! Only dynamic verbs. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре прошедших времени — выбор:\n\nPast Simple → ЗАВЕРШЁННОЕ действие в прошлом:\n\"She arrived at 9.\" / \"He studied for years.\"\n\nPast Continuous → ФОНОВОЕ/ПРОДОЛЖАВШЕЕСЯ действие:\n\"She was studying when he called.\"\n\nPast Perfect → БОЛЕЕ РАННЕЕ прошлое:\n\"By the time I arrived, she had already left.\"\n\nPast Perfect Continuous → ПРОДОЛЖИТЕЛЬНОСТЬ до прошлого момента:\n\"She had been working for hours when he arrived.\"\n\n💡 Ключевые вопросы:\n→ Было ли действие завершено? → Past Simple\n→ Было ли оно фоном/прерванным? → Past Continuous\n→ Произошло ли оно раньше другого прошлого? → Past Perfect\n→ Продолжалось ли оно до прошлого момента? → PP Continuous",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the most natural past tense.",
+      "text": "When Amir ___ to WKU, he ___ never live away from home.",
+      "opts": [
+        "came / had",
+        "was coming / has",
+        "had come / was having",
+        "came / had"
+      ],
+      "correct": "came / had",
+      "hint": "\"When Amir CAME to WKU, he HAD never lived away from home.\" PS for main event + PP for state up to that point. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Which tense shows a background activity?",
+      "text": "\"She ___ her notes when the phone rang.\"",
+      "opts": [
+        "reviewed",
+        "had reviewed",
+        "was reviewing",
+        "had been reviewing"
+      ],
+      "correct": "was reviewing",
+      "hint": "Past Continuous = background, ongoing action that was interrupted. \"She WAS REVIEWING when the phone rang.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete using Past Perfect.",
+      "text": "\"By the time the lecture started, she ___ (read) the whole chapter.\"",
+      "correct": "had read",
+      "hint": "\"By the time + PS → PP.\" \"By the time it started, she HAD READ the chapter.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Which sentence shows duration before a past moment?",
+      "text": "Choose the sentence using Past Perfect Continuous correctly.",
+      "opts": [
+        "\"She had waited for an hour.\"",
+        "\"She was waiting for an hour.\"",
+        "\"She had been waiting for an hour when he arrived.\"",
+        "\"She waited for an hour.\""
+      ],
+      "correct": "\"She had been waiting for an hour when he arrived.\"",
+      "hint": "\"had been waiting\" = PP Continuous → duration (one hour) before a past moment (his arrival). ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Two simultaneous background actions. Choose.",
+      "text": "\"___ he was writing, she ___ to music.\"",
+      "opts": [
+        "While / listened",
+        "When / was listening",
+        "While / was listening",
+        "As / has listened"
+      ],
+      "correct": "While / was listening",
+      "hint": "Two simultaneous background actions = both Past Continuous. \"While he WAS WRITING, she WAS LISTENING.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Explain a past visible state.",
+      "text": "\"His eyes were red because he ___ (cry).\"",
+      "correct": "had been crying",
+      "hint": "PP Continuous explains a visible state at a past moment. \"He HAD BEEN CRYING.\" (duration of crying → explains red eyes) ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Simple sequence — which tense?",
+      "text": "\"She ___ her notes, ___ a coffee, and ___ her laptop.\"",
+      "opts": [
+        "reviewed / made / opened (Past Simple)",
+        "was reviewing / was making / was opening",
+        "had reviewed / had made / had opened",
+        "reviewed / had made / was opening"
+      ],
+      "correct": "reviewed / made / opened (Past Simple)",
+      "hint": "Simple sequence of completed events = all Past Simple. No need for Continuous or Perfect here. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "PP Simple vs PP Continuous. Choose the PROCESS.",
+      "text": "\"By 3 a.m., he ___ for five hours.\" (emphasise the ongoing process)",
+      "opts": [
+        "had studied",
+        "had been studying",
+        "was studying",
+        "studied"
+      ],
+      "correct": "had been studying",
+      "hint": "PP Continuous = emphasises the process/duration. \"He HAD BEEN STUDYING for five hours.\" ✅ PP Simple would emphasise completion."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Reported speech — choose the tense shift.",
+      "text": "\"She said she ___ (submit) the assignment already.\"",
+      "opts": [
+        "submitted",
+        "has submitted",
+        "had submitted",
+        "was submitting"
+      ],
+      "correct": "had submitted",
+      "hint": "Reporting past speech shifts tenses back. \"has submitted\" → \"HAD submitted.\" ✅ Present Perfect → Past Perfect in reported speech."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Discovery of earlier action.",
+      "text": "\"She reached for her card and realised she ___ (leave) it at home.\"",
+      "correct": "had left",
+      "hint": "\"realised\" = PS; the leaving happened BEFORE the realisation → Past Perfect. \"She HAD LEFT it at home.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose: PS or PP?",
+      "text": "\"When I got to the bus stop, the bus ___.\"",
+      "opts": [
+        "just left",
+        "has just left",
+        "had just left",
+        "was just leaving"
+      ],
+      "correct": "had just left",
+      "hint": "\"had just left\" = PP, the bus left BEFORE I arrived. Just = very recently. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Find the mistake.",
+      "text": "\"She had been gone to the library.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"had been gone\" is wrong — \"go\" cannot be used in continuous → \"had gone\"",
+        "\"library\" should be \"a library\"",
+        "\"She\" should be \"He\""
+      ],
+      "correct": "\"had been gone\" is wrong — \"go\" cannot be used in continuous → \"had gone\"",
+      "hint": "Stative or resultative verbs (\"be gone\") don't use continuous. ✅ \"She HAD GONE to the library.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Past Continuous is used for:",
+      "opts": [
+        "A completed event",
+        "A background or ongoing action at a past moment",
+        "An earlier past action",
+        "A duration before a past event"
+      ],
+      "correct": "A background or ongoing action at a past moment",
+      "hint": "Past Continuous = what was going on in the background, or ongoing at a specific past time. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She had already left when I arrived.\" — \"had left\" is used because:",
+      "opts": [
+        "It's more polite",
+        "\"Leave\" is irregular",
+        "Her leaving happened BEFORE my arrival",
+        "It's a habitual past action"
+      ],
+      "correct": "Her leaving happened BEFORE my arrival",
+      "hint": "Past Perfect = earlier past. Her leaving came BEFORE my arrival. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He had been waiting for two hours.\" — What does this emphasise?",
+      "opts": [
+        "The completion of waiting",
+        "The duration of waiting before a past moment",
+        "That he's still waiting",
+        "A habit of waiting"
+      ],
+      "correct": "The duration of waiting before a past moment",
+      "hint": "PP Continuous = emphasises how long something was going on before a past reference point. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"When she woke up, she realised she ___ (miss) her alarm.\"",
+      "correct": "had missed",
+      "hint": "\"realised\" = PS; missing happened BEFORE the realisation → Past Perfect. \"She HAD MISSED her alarm.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"While he was cooking, she was reading.\" — Both Continuous because:",
+      "opts": [
+        "They are habitual",
+        "They are two background simultaneous activities",
+        "Both were completed at the same time",
+        "The cooking caused the reading"
+      ],
+      "correct": "They are two background simultaneous activities",
+      "hint": "Two simultaneous ongoing background actions → both Past Continuous. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She read the chapter, then closed her notebook.\" — Why Past Simple both?",
+      "opts": [
+        "Chapter reading is ongoing",
+        "It's a simple completed sequence — no complex overlap",
+        "Both are irregular verbs",
+        "\"Then\" requires Past Continuous"
+      ],
+      "correct": "It's a simple completed sequence — no complex overlap",
+      "hint": "Simple sequential events with \"then\" = Past Simple both times. No need for Continuous or Perfect. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She had written the essay.\" vs \"She had been writing the essay.\" — difference:",
+      "opts": [
+        "No difference",
+        "\"had written\" = completed; \"had been writing\" = process/ongoing",
+        "\"had been writing\" is more formal",
+        "\"had written\" is for irregular verbs only"
+      ],
+      "correct": "\"had written\" = completed; \"had been writing\" = process/ongoing",
+      "hint": "PP Simple = completion/result. PP Continuous = ongoing process/duration. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Her eyes were red because she ___ (cry) for an hour.\"",
+      "correct": "had been crying",
+      "hint": "PP Continuous = duration that explains a past visible state. \"She HAD BEEN CRYING for an hour.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She said she HAD SUBMITTED the form.\" — \"had submitted\" instead of \"has submitted\" because:",
+      "opts": [
+        "It's Past Perfect",
+        "In reported speech, PS→PP and PP stays PP; Present Perfect→Past Perfect",
+        "\"Submit\" is irregular",
+        "\"She\" needs \"had\" not \"has\""
+      ],
+      "correct": "In reported speech, PS→PP and PP stays PP; Present Perfect→Past Perfect",
+      "hint": "In reported past speech, all tenses shift back. Present Perfect → Past Perfect. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is grammatically CORRECT?",
+      "opts": [
+        "\"When I arrived, she left.\"",
+        "\"She had been gone to the library.\"",
+        "\"While she was reading, he called.\"",
+        "\"She had been knowing the answer.\""
+      ],
+      "correct": "\"While she was reading, he called.\"",
+      "hint": "\"While she WAS READING (Continuous), he CALLED (PS — interruption).\" ✅ All others have errors."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He had been studying for 5 hours.\" — With which time expression is this most natural?",
+      "opts": [
+        "\"He had been studying at 5.\"",
+        "\"He had been studying since 5 hours.\"",
+        "\"He had been studying for 5 hours when she arrived.\"",
+        "\"He had been studying in 5 hours.\""
+      ],
+      "correct": "\"He had been studying for 5 hours when she arrived.\"",
+      "hint": "\"had been studying FOR 5 hours WHEN she arrived.\" — PP Continuous + duration + past reference point. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the sentence with the correct use of all four past tenses.",
+      "opts": [
+        "\"She had been working when she was realising she had forgot her keys.\"",
+        "\"She was working in the office. By 3pm, she had already finished what she had been doing since morning.\"",
+        "\"She has been working and left after realised she was forgetting her keys.\"",
+        "\"She worked while she had been leaving.\""
+      ],
+      "correct": "\"She was working in the office. By 3pm, she had already finished what she had been doing since morning.\"",
+      "hint": "Was working (background PC) → had finished (PP completion) → had been doing (PP Continuous duration). ✅"
+    }
+  ]
+}

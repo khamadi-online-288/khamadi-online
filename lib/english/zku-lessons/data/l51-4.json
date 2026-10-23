@@ -1,0 +1,220 @@
+{
+  "id": "l51-4",
+  "moduleNum": 17,
+  "lessonNum": 6,
+  "moduleTitle": "Technology & Opinion",
+  "type": "writing",
+  "title": "My Opinion on Technology in Education",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "In my opinion,",
+      "emoji": "💭",
+      "opts": [
+        "В конце концов",
+        "По моему мнению",
+        "Во-первых",
+        "Несмотря на это"
+      ],
+      "correct": "По моему мнению"
+    },
+    {
+      "id": "p2",
+      "word": "On the other hand,",
+      "emoji": "⚖️",
+      "opts": [
+        "По этой причине",
+        "С другой стороны",
+        "В итоге",
+        "Таким образом"
+      ],
+      "correct": "С другой стороны"
+    },
+    {
+      "id": "p3",
+      "word": "I strongly believe",
+      "emoji": "💪",
+      "opts": [
+        "Я сомневаюсь",
+        "Я твёрдо убеждён",
+        "Мне кажется",
+        "Я не уверен"
+      ],
+      "correct": "Я твёрдо убеждён"
+    },
+    {
+      "id": "p4",
+      "word": "However,",
+      "emoji": "🔄",
+      "opts": [
+        "Следовательно",
+        "Однако",
+        "Таким образом",
+        "Более того"
+      ],
+      "correct": "Однако"
+    },
+    {
+      "id": "p5",
+      "word": "To sum up,",
+      "emoji": "📝",
+      "opts": [
+        "С другой стороны",
+        "Подводя итог",
+        "Во-первых",
+        "В то же время"
+      ],
+      "correct": "Подводя итог"
+    },
+    {
+      "id": "p6",
+      "word": "For example,",
+      "emoji": "📌",
+      "opts": [
+        "Несмотря на",
+        "Например",
+        "По этой причине",
+        "С тех пор как"
+      ],
+      "correct": "Например"
+    }
+  ],
+  "writingModel": [
+    "Technology in Education: A Tool, Not a Teacher — by Kamila Seitkali",
+    "In my opinion, technology is one of the most powerful tools available to students today — but only when it is used wisely. The debate about technology in education is often framed as a simple choice between \"more technology\" and \"less technology.\" I think this framing misses the point entirely.",
+    "The benefits of technology in education are real and significant. Students now have access to resources that previous generations could not have imagined. A student in Uralsk can watch a lecture by a professor in London. Khan Academy, Coursera, and dozens of other platforms offer world-class content for free. For students in countries like Kazakhstan, where access to specialised expertise may be limited, the internet has been genuinely transformative.",
+    "However, technology in education is not without its problems. Research shows that students who handwrite their notes retain more than those who type. Multitasking — switching between lecture content and a social media feed — reduces comprehension, even when students believe they are managing both well. The presence of a smartphone on a desk reduces cognitive performance, even if the phone is not being used. These are not small effects.",
+    "I strongly believe that the key is conscious, intentional use. A student who uses a laptop to take structured notes, access primary sources, and collaborate on shared documents is using technology well. A student who uses the same laptop to browse social media during a lecture is wasting an expensive tool and, more importantly, their own time.",
+    "On the other hand, I recognise that banning technology from lectures is not necessarily the answer either. The digital world is the world that students will work in. Learning to manage digital distractions, to choose focus over convenience, to use AI as a tool rather than a replacement for thinking — these are skills that students need to develop, not avoid.",
+    "To sum up, I believe that technology in education is neither a blessing nor a curse. It is what we make of it. The most important skill is not knowing how to use the tools — it is knowing when to use them, when to put them down, and why."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Your opinion title on technology",
+      "hint": "Give your piece a clear, specific title."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "In my opinion, technology in education is ",
+      "suffix": " — but only when used correctly.",
+      "placeholder": "your overall view (adjective/phrase)",
+      "hint": "State your opinion clearly. \"In my opinion, technology is...\""
+    },
+    {
+      "key": "point1",
+      "prefix": "The main advantage of technology in education is that ",
+      "suffix": ".",
+      "placeholder": "a clear benefit (access to resources / global knowledge...)",
+      "hint": "Give one strong advantage with a specific example."
+    },
+    {
+      "key": "example",
+      "prefix": "For example, ",
+      "suffix": ".",
+      "placeholder": "a specific example (platform / situation)",
+      "hint": "Use \"for example\" to add a concrete case."
+    },
+    {
+      "key": "however",
+      "prefix": "However, ",
+      "suffix": ".",
+      "placeholder": "a problem or limitation of technology",
+      "hint": "\"However\" to introduce the other side. Research shows..."
+    },
+    {
+      "key": "belief",
+      "prefix": "I strongly believe that ",
+      "suffix": ".",
+      "placeholder": "your key conviction about good use of technology",
+      "hint": "\"I strongly believe that the key is...\" — state your main conviction."
+    },
+    {
+      "key": "other",
+      "prefix": "On the other hand, ",
+      "suffix": ".",
+      "placeholder": "a counter-argument you can acknowledge",
+      "hint": "\"On the other hand...\" — acknowledge the opposite view fairly."
+    },
+    {
+      "key": "sum",
+      "prefix": "To sum up, I believe that technology in education ",
+      "suffix": ".",
+      "placeholder": "your conclusion (a tool / neither good nor bad...)",
+      "hint": "Close with a clear, memorable conclusion."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opinion openers",
+      "color": "#003876",
+      "items": [
+        "In my opinion, technology in education...",
+        "I strongly believe that...",
+        "From my perspective,...",
+        "I think it is important to recognise that...",
+        "My view is that technology is a tool, not a teacher."
+      ]
+    },
+    {
+      "category": "Adding arguments",
+      "color": "#1D9E75",
+      "items": [
+        "The main advantage is that...",
+        "Research shows that...",
+        "For example, students can...",
+        "Moreover, technology also...",
+        "In addition, access to the internet has..."
+      ]
+    },
+    {
+      "category": "Contrasting and conceding",
+      "color": "#1B8FC4",
+      "items": [
+        "However, technology is not without its problems.",
+        "On the other hand, I recognise that...",
+        "While it is true that..., I still believe...",
+        "Despite the benefits, there are real risks.",
+        "Nevertheless, the benefits outweigh the disadvantages."
+      ]
+    },
+    {
+      "category": "Conclusion phrases",
+      "color": "#C9933B",
+      "items": [
+        "To sum up, I believe that...",
+        "In conclusion, technology in education is what we make of it.",
+        "The most important skill is knowing when to use technology and when to put it down.",
+        "Ultimately, the responsibility lies with the student.",
+        "Technology is neither a blessing nor a curse — it depends on how we use it."
+      ]
+    }
+  ]
+}

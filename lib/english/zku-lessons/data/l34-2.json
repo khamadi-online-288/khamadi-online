@@ -1,0 +1,279 @@
+{
+  "id": "l34-2",
+  "moduleNum": 18,
+  "lessonNum": 2,
+  "moduleTitle": "A1.1 Final Exam",
+  "type": "listening",
+  "title": "Listening Exam (4 parts)",
+  "xp": 80,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "👩‍🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU Student"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "👨‍💻",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU Student"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU Student"
+    },
+    {
+      "id": "akhmetov",
+      "name": "Dr. Akhmetov",
+      "city": "WKU",
+      "emoji": "👨‍🏫",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "English Lecturer"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Feels both proud and nervous before the A1.1 Final Exam.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Says he is confident about grammar but worries about the writing task.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Suggests studying together in the library the evening before the exam.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Thinks listening to podcasts has helped his English improve the most.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Mentions that she reviews her vocabulary notebook every night before bed.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Has been offered a part-time internship at a language translation firm.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s7",
+      "text": "Encourages a friend to take a career opportunity and not let fear stop her.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s8",
+      "text": "Believes strong English skills will open doors in any career field.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s9",
+      "text": "Explains that she has not told her parents about the internship yet.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s10",
+      "text": "Says that every decision you make now shapes who you become in five years.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s11",
+      "text": "Advises students to read at least fifteen minutes every single day.",
+      "correctCharId": "akhmetov"
+    },
+    {
+      "id": "s12",
+      "text": "Recommends writing new words in a notebook with an example sentence.",
+      "correctCharId": "akhmetov"
+    },
+    {
+      "id": "s13",
+      "text": "Tells students that making mistakes while speaking is not a problem.",
+      "correctCharId": "akhmetov"
+    },
+    {
+      "id": "s14",
+      "text": "Emphasises that reviewing old material regularly is the key to retention.",
+      "correctCharId": "akhmetov"
+    },
+    {
+      "id": "s15",
+      "text": "Says that the best language learners are curious and never stop asking why.",
+      "correctCharId": "akhmetov"
+    },
+    {
+      "id": "s16",
+      "text": "Found conditional sentences the most useful grammar topic in A1.1.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s17",
+      "text": "Says the passive voice changed how he reads academic texts in English.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s18",
+      "text": "Prefers relative clauses because they make her writing sound more advanced.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s19",
+      "text": "Points out that vocabulary collocations are more important than people think.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s20",
+      "text": "Summarises by saying the whole group has grown enormously as English speakers.",
+      "correctCharId": "akhmetov"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Kamila's main feeling before the exam?",
+      "opts": [
+        "Completely confident",
+        "Both proud and nervous",
+        "Angry and tired",
+        "Bored and uninterested"
+      ],
+      "correct": "Both proud and nervous",
+      "hint": "Statement 1: \"Feels both proud and nervous before the A1.1 Final Exam.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir feels worried about grammar in the exam.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 2: Amir is confident about grammar — he worries about the writing task."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What has helped Amir's English the most?",
+      "opts": [
+        "Reading newspapers",
+        "Listening to podcasts",
+        "Watching films with subtitles",
+        "Writing essays every day"
+      ],
+      "correct": "Listening to podcasts",
+      "hint": "Statement 4: \"Thinks listening to podcasts has helped his English improve the most.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek has been offered a part-time internship at a language ___ firm.",
+      "correct": "translation",
+      "hint": "Statement 6: \"Has been offered a part-time internship at a language translation firm.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Dr. Akhmetov recommend for building vocabulary?",
+      "opts": [
+        "Memorise lists without context",
+        "Write words in a notebook with an example sentence",
+        "Read the dictionary every day",
+        "Watch films only"
+      ],
+      "correct": "Write words in a notebook with an example sentence",
+      "hint": "Statement 12: \"Recommends writing new words in a notebook with an example sentence.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Dr. Akhmetov says students should never make mistakes when speaking.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 13: \"Tells students that making mistakes while speaking is not a problem.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Which grammar topic did Zhibek find most useful in A1.1?",
+      "opts": [
+        "Conditional sentences",
+        "Passive voice",
+        "Relative clauses",
+        "Present Perfect"
+      ],
+      "correct": "Relative clauses",
+      "hint": "Statement 18: \"Prefers relative clauses because they make her writing sound more advanced.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Dr. Akhmetov say about the best language learners?",
+      "opts": [
+        "They always get perfect scores",
+        "They never make grammar mistakes",
+        "They are curious and never stop asking why",
+        "They only study in the morning"
+      ],
+      "correct": "They are curious and never stop asking why",
+      "hint": "Statement 15: \"The best language learners are curious and never stop asking why.\""
+    }
+  ]
+}

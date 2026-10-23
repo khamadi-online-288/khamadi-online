@@ -1,0 +1,215 @@
+{
+  "id": "l11-5",
+  "moduleNum": 11,
+  "lessonNum": 6,
+  "moduleTitle": "Last weekend",
+  "title": "A weekend story",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "It all started when...",
+      "emoji": "🎬",
+      "opts": [
+        "Всё закончилось когда...",
+        "Всё началось когда...",
+        "Это продолжалось когда...",
+        "Это случилось если..."
+      ],
+      "correct": "Всё началось когда..."
+    },
+    {
+      "id": "p2",
+      "word": "Suddenly,...",
+      "emoji": "😲",
+      "opts": [
+        "Наконец,...",
+        "Поэтому,...",
+        "Внезапно,...",
+        "Однако,..."
+      ],
+      "correct": "Внезапно,..."
+    },
+    {
+      "id": "p3",
+      "word": "Everyone laughed...",
+      "emoji": "😂",
+      "opts": [
+        "Все скучали...",
+        "Все смеялись...",
+        "Все плакали...",
+        "Все устали..."
+      ],
+      "correct": "Все смеялись..."
+    },
+    {
+      "id": "p4",
+      "word": "At the end of the evening,",
+      "emoji": "🌙",
+      "opts": [
+        "В начале вечера,...",
+        "В конце вечера,...",
+        "Во время вечера,...",
+        "До вечера,..."
+      ],
+      "correct": "В конце вечера,..."
+    },
+    {
+      "id": "p5",
+      "word": "I will never forget...",
+      "emoji": "💭",
+      "opts": [
+        "Я всегда забываю...",
+        "Я никогда не забуду...",
+        "Мне нравится...",
+        "Я хочу..."
+      ],
+      "correct": "Я никогда не забуду..."
+    },
+    {
+      "id": "p6",
+      "word": "It was the moment when...",
+      "emoji": "✨",
+      "opts": [
+        "Это был момент когда...",
+        "Это было место где...",
+        "Это был человек который...",
+        "Это было время если..."
+      ],
+      "correct": "Это был момент когда..."
+    }
+  ],
+  "writingModel": [
+    "I want to tell you about one particular moment from last weekend — a moment I will never forget. It was Saturday evening, and four of us had gathered in Yerlan's dormitory room for dinner. Nobody planned it as a big event. Yerlan just invited us, said he wanted to cook, and we all arrived at seven o'clock with nothing but good moods and empty stomachs.",
+    "When I opened the door, the smell hit me immediately — rice, chicken, and spices, all cooked together in Yerlan's small electric pot. He stood at his desk, which he had transformed into a kitchen counter, stirring something with a wooden spoon. He looked completely focused, like a professional chef. Aisha was arranging a salad in a bowl. I sliced the bread and placed it on the table. We worked together quietly, and the room felt warm and full of life.",
+    "We sat down to eat at half past seven. Yerlan served the rice and we all tasted it at the same time. The silence lasted about three seconds. Then Saule said: \"Yerlan. This is incredible.\" And she was right — it was the best home-cooked meal any of us had eaten since leaving our families. We talked about our hometowns, our grandmothers' cooking, our favourite foods from childhood. I told them about my mother's besbarmak. Aisha described her grandmother's samsa. Bekzhan mentioned his father's shashlik. Yerlan smiled and said: \"Next time, we each cook something from home.\"",
+    "After dinner, Yerlan connected his laptop to a small speaker and searched for a film. We all suggested different ones — an action film, a romance, a documentary — but in the end we voted for a Kazakh comedy from 2019. Nobody remembered the title, but we all recognised the main actor. The film started, and for ninety minutes the room filled with laughter. The funniest moment was near the end — Saule laughed so hard at one scene that she knocked over her cup of tea. It landed on Aisha's notebook. Aisha screamed. Saule apologised. Then we all laughed even harder.",
+    "At the end of the evening, we washed the dishes together, folded the table back against the wall, and said our goodnights. I walked back to my dormitory alone through the quiet, dark corridor. The building was almost silent. But inside, I carried something warm — the kind of feeling you get when you realise that a place has started to feel like home. It was just dinner. Just four students in a small room. But it was the moment I understood: Uralsk, this city I moved to knowing nobody, had become my home. And these people — Yerlan, Saule, Aisha — had become my family."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "I want to tell you about ",
+      "suffix": ".",
+      "placeholder": "a specific moment or event from last weekend",
+      "hint": "e.g. one particular evening / a funny moment / a dinner with friends"
+    },
+    {
+      "key": "when",
+      "prefix": "It was ",
+      "suffix": ", and ___.",
+      "placeholder": "time + setting",
+      "hint": "e.g. Saturday evening, and my friends had gathered / Sunday afternoon, and I was alone in the library"
+    },
+    {
+      "key": "scene",
+      "prefix": "When I ",
+      "suffix": ", I noticed ___.",
+      "placeholder": "arrived / walked in / looked around ... something",
+      "hint": "e.g. arrived, I noticed the smell of food / opened the door, I noticed everyone was already there"
+    },
+    {
+      "key": "action",
+      "prefix": "We all ",
+      "suffix": " together.",
+      "placeholder": "verb-ed + activity",
+      "hint": "e.g. cooked / laughed / talked about our hometowns / watched the film"
+    },
+    {
+      "key": "sudden",
+      "prefix": "Suddenly, ",
+      "suffix": ".",
+      "placeholder": "something unexpected happened",
+      "hint": "e.g. someone laughed so hard that... / the film started and everyone went quiet / my phone buzzed"
+    },
+    {
+      "key": "react",
+      "prefix": "Everyone ",
+      "suffix": ".",
+      "placeholder": "reacted — laughed / screamed / cheered / smiled",
+      "hint": "e.g. laughed even harder / looked surprised / started clapping"
+    },
+    {
+      "key": "end",
+      "prefix": "At the end of the evening, we ",
+      "suffix": " and said our goodnights.",
+      "placeholder": "verb-ed + final action",
+      "hint": "e.g. washed the dishes / cleaned up / walked home / hugged"
+    },
+    {
+      "key": "feel",
+      "prefix": "I will never forget that ",
+      "suffix": ", because ___.",
+      "placeholder": "moment / evening / feeling ... reason",
+      "hint": "e.g. evening, because it was the moment I felt at home / moment, because we all laughed so much"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Setting the scene — beginning",
+      "color": "#003876",
+      "items": [
+        "I want to tell you about one particular moment from last weekend.",
+        "It was [day/time], and [describe the setting].",
+        "It all started when [something happened].",
+        "Nobody planned it — it just happened naturally.",
+        "[Person] just invited us and we all arrived at [time].",
+        "The room / place was [adjective] and full of [noun]."
+      ]
+    },
+    {
+      "category": "Describing the action — what happened",
+      "color": "#1B8FC4",
+      "items": [
+        "When I opened the door, I noticed...",
+        "We all [verb-ed] together quietly / loudly.",
+        "We sat down to [eat/talk/watch] at [time].",
+        "We talked about [topic] and laughed about [topic].",
+        "The silence lasted [time]. Then [someone] said...",
+        "[Person] looked completely [adjective], like a [comparison]."
+      ]
+    },
+    {
+      "category": "The funny / special moment",
+      "color": "#7C3AED",
+      "items": [
+        "Suddenly, [something unexpected happened].",
+        "[Person] laughed so hard that [consequence].",
+        "The funniest moment was when...",
+        "Nobody expected it — but everyone [verb-ed].",
+        "It was the moment I understood / realised...",
+        "We all [laughed / screamed / cheered] even harder."
+      ]
+    },
+    {
+      "category": "Ending the story — reflection",
+      "color": "#1D9E75",
+      "items": [
+        "At the end of the evening, we [verb-ed] and said goodnight.",
+        "I walked home / back to my room alone.",
+        "Inside, I carried something warm — [describe the feeling].",
+        "It was just [event]. But it was [meaning].",
+        "I will never forget that [moment / evening] because...",
+        "That was the moment [place/people] started to feel like home."
+      ]
+    }
+  ]
+}

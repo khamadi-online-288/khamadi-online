@@ -1,0 +1,495 @@
+{
+  "id": "l49-2",
+  "moduleNum": 15,
+  "lessonNum": 2,
+  "moduleTitle": "Things Being Done",
+  "type": "listening",
+  "title": "A Factory Tour at WKU",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Guide",
+      "text": "Welcome to the WKU Technology Workshop. This is where students learn how products are designed and manufactured. Shall we begin?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes, please. I've been looking forward to this.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "So — we start here, at the design station. All products are first designed on a computer. The specifications are drawn up by engineering students.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Are the designs shared with the rest of the team?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "Yes — they're uploaded to a shared system. Then they're reviewed by supervisors. If they're approved, the model is sent to the printer.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "The 3D printer?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "Exactly. The prototype is printed here. Then it's tested — stress tests, weight tests, heat tests. If it fails, the design is modified and printed again.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "How long is the prototype stage?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "It varies. Sometimes a design is approved on the first attempt. Often it's revised three or four times before it's accepted.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "And what happens after it's accepted?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "The final design is transferred to this workstation. The materials are sourced — we use local suppliers when possible. Then the product is assembled here, by students.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "So it's assembled by hand, not by machine?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "In this workshop, yes. In real industry, most steps are automated — things are done by robots or machines. But here we want students to understand every stage by doing it themselves.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "And then the finished product is inspected?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "Correct. It's inspected by a supervisor, then photographed and stored in our showcase. The best ones are displayed at the end-of-year exhibition.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Has any student project ever been used commercially?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Guide",
+      "text": "One was adapted and used by a local company last year. It's quite rare — but it happens.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "specifications",
+      "emoji": "📐",
+      "opts": [
+        "технические характеристики",
+        "образцы",
+        "материалы",
+        "правила"
+      ],
+      "correct": "технические характеристики"
+    },
+    {
+      "id": "p2",
+      "word": "prototype",
+      "emoji": "🔩",
+      "opts": [
+        "готовый продукт",
+        "прототип / образец",
+        "ошибка",
+        "компонент"
+      ],
+      "correct": "прототип / образец"
+    },
+    {
+      "id": "p3",
+      "word": "approved",
+      "emoji": "✅",
+      "opts": [
+        "отклонён",
+        "одобрен",
+        "сдан на хранение",
+        "проверен"
+      ],
+      "correct": "одобрен"
+    },
+    {
+      "id": "p4",
+      "word": "modified",
+      "emoji": "🔧",
+      "opts": [
+        "уничтожен",
+        "изменён / доработан",
+        "распечатан",
+        "отправлен"
+      ],
+      "correct": "изменён / доработан"
+    },
+    {
+      "id": "p5",
+      "word": "automated",
+      "emoji": "🤖",
+      "opts": [
+        "ручной",
+        "автоматизированный",
+        "экономичный",
+        "задокументированный"
+      ],
+      "correct": "автоматизированный"
+    },
+    {
+      "id": "p6",
+      "word": "commercially",
+      "emoji": "💼",
+      "opts": [
+        "бесплатно",
+        "в коммерческих целях",
+        "в образовании",
+        "экспериментально"
+      ],
+      "correct": "в коммерческих целях"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The design stage is done on a computer.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Designs are reviewed by students before printing.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The prototype is tested for stress, weight, and heat.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Every design is approved on the first attempt.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "In the WKU workshop, products are assembled by students by hand.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "A student project has never been used commercially.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Computer science student — very interested in the technology"
+    },
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "🏭",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Engineering student — asks about manufacturing and commercial use"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Asks whether designs are shared with the rest of the team.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s2",
+      "text": "Asks a clarifying question: \"The 3D printer?\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Asks how long the prototype stage takes.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s4",
+      "text": "Asks what happens after the design is accepted.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Asks if the product is assembled by hand or by machine.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s6",
+      "text": "Asks if any student project has ever been used commercially.",
+      "correctCharId": "daniyar"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where does the product design process begin?",
+      "opts": [
+        "At the assembly station",
+        "At a computer design station",
+        "At the 3D printer",
+        "At the inspection stage"
+      ],
+      "correct": "At a computer design station",
+      "hint": "\"All products are first designed on a computer.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who reviews the designs before they are sent to the printer?",
+      "opts": [
+        "Students",
+        "External companies",
+        "Supervisors",
+        "The guide"
+      ],
+      "correct": "Supervisors",
+      "hint": "\"They're reviewed by supervisors.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What tests are run on the prototype?",
+      "opts": [
+        "Speed and cost tests",
+        "Stress, weight, and heat tests",
+        "Colour and size tests",
+        "Chemistry tests"
+      ],
+      "correct": "Stress, weight, and heat tests",
+      "hint": "\"Stress tests, weight tests, heat tests.\" — all three types are mentioned."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Every design is approved on the first attempt.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Often it's revised three or four times before it's accepted.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How is the product assembled in the WKU workshop?",
+      "opts": [
+        "By robots",
+        "By machines",
+        "By students, by hand",
+        "By outside workers"
+      ],
+      "correct": "By students, by hand",
+      "hint": "\"The product is assembled here, by students.\" / \"assembled by hand, not by machine.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happens to the best finished products?",
+      "opts": [
+        "They are sold",
+        "They are destroyed",
+        "They are displayed at an end-of-year exhibition",
+        "They are given to companies"
+      ],
+      "correct": "They are displayed at an end-of-year exhibition",
+      "hint": "\"The best ones are displayed at the end-of-year exhibition.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "A student project was once adapted and used by a local company.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"One was adapted and used by a local company last year.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the guide say students assemble products by hand in the workshop?",
+      "opts": [
+        "It is cheaper",
+        "So they understand every stage themselves",
+        "The machines are broken",
+        "It produces better results"
+      ],
+      "correct": "So they understand every stage themselves",
+      "hint": "\"We want students to understand every stage by doing it themselves.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The specifications are drawn up by engineering students.\" This is:",
+      "opts": [
+        "Active voice",
+        "Passive voice present simple",
+        "Passive voice past simple",
+        "Future tense"
+      ],
+      "correct": "Passive voice present simple",
+      "hint": "\"are drawn up\" = passive present simple (am/is/are + past participle). The engineering students = the agent (by...)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The prototype is printed here.\" What is the agent?",
+      "opts": [
+        "The prototype",
+        "\"printed\"",
+        "The 3D printer (not stated explicitly)",
+        "The guide"
+      ],
+      "correct": "The 3D printer (not stated explicitly)",
+      "hint": "The agent (who/what does it) is the 3D printer, but it's not stated. Common in process descriptions!"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The design is modified.\" — Active voice equivalent:",
+      "opts": [
+        "The design modifies.",
+        "They modify the design.",
+        "Design modifies itself.",
+        "Modified design."
+      ],
+      "correct": "They modify the design.",
+      "hint": "\"The design IS MODIFIED.\" (passive) → \"They MODIFY the design.\" (active). ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"One design was adapted ___ a local company.\"",
+      "correct": "by",
+      "hint": "Agent in passive sentences = \"BY\". \"Was adapted BY a local company.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It's approved.\" What form is \"approved\" here?",
+      "opts": [
+        "Adjective",
+        "Verb (past tense)",
+        "Past participle in passive construction",
+        "Gerund"
+      ],
+      "correct": "Past participle in passive construction",
+      "hint": "\"is approved\" = passive (is + past participle). \"Approved\" = past participle of \"approve\"."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The products are displayed.\" — Past passive becomes:",
+      "opts": [
+        "\"The products were displayed.\"",
+        "\"The products displayed.\"",
+        "\"Products are being displayed.\"",
+        "\"Products will display.\""
+      ],
+      "correct": "\"The products were displayed.\"",
+      "hint": "Present passive: \"are displayed\" → Past passive: \"WERE displayed.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Materials ___ (source) from local suppliers.\" (passive present simple)",
+      "correct": "are sourced",
+      "hint": "\"Materials ARE SOURCED from local suppliers.\" = passive present simple. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"In real industry, most steps are automated.\" \"Automated\" means:",
+      "opts": [
+        "Done by humans",
+        "Done by machines without human involvement",
+        "Done very slowly",
+        "Done badly"
+      ],
+      "correct": "Done by machines without human involvement",
+      "hint": "\"automated\" = done automatically by machines, not by people."
+    }
+  ]
+}

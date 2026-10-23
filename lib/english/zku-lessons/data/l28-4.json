@@ -1,0 +1,562 @@
+{
+  "id": "l28-4",
+  "moduleNum": 12,
+  "lessonNum": 4,
+  "moduleTitle": "Emotions & Feelings",
+  "type": "grammar",
+  "title": "Verbs + -ing: enjoy, love, hate, finish, mind, avoid",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Verbs Followed by -ing",
+  "grammarNote": "Герундий (gerund) — глагол с окончанием -ing, работающий как существительное. Некоторые глаголы требуют ТОЛЬКО герундий.\n\n📌 Глаголы + gerund (-ing):\nenjoy → \"I enjoy reading.\" · love → \"She loves cooking.\"\navoid → \"She avoids eating sugar.\" · keep → \"He keeps forgetting.\"\nfinish → \"I finished writing.\" · miss → \"She misses living in Almaty.\"\nconsider → \"I'm considering studying abroad.\"\nstop → \"She stopped smoking.\" · start → \"He started exercising.\"\n\n📍 Предлоги тоже требуют gerund:\n\"good at swimming\" · \"interested in learning\" · \"instead of working\"\n\"before leaving\" · \"after finishing\" · \"without thinking\"\n\n⚠️ Типичные ошибки:\n❌ \"I enjoy to read.\" → ✅ \"I enjoy reading.\"\n❌ \"She finished to write.\" → ✅ \"She finished writing.\"\n❌ \"He avoids to eat sugar.\" → ✅ \"He avoids eating sugar.\"",
+  "grammarTable": [
+    {
+      "subject": "Verb",
+      "verb": "Example sentence",
+      "short": "Meaning",
+      "example": "All need verb + -ing after them."
+    },
+    {
+      "subject": "enjoy",
+      "verb": "I enjoy reading English novels.",
+      "short": "find pleasure in",
+      "example": "enjoy + -ing"
+    },
+    {
+      "subject": "love",
+      "verb": "She loves learning new words.",
+      "short": "like very much",
+      "example": "love + -ing"
+    },
+    {
+      "subject": "hate",
+      "verb": "He hates making mistakes.",
+      "short": "dislike strongly",
+      "example": "hate + -ing"
+    },
+    {
+      "subject": "avoid",
+      "verb": "We avoid using our phones in class.",
+      "short": "stay away from",
+      "example": "avoid + -ing"
+    },
+    {
+      "subject": "finish",
+      "verb": "Did you finish writing your essay?",
+      "short": "complete an action",
+      "example": "finish + -ing"
+    },
+    {
+      "subject": "mind",
+      "verb": "I don't mind waiting for you.",
+      "short": "be bothered by",
+      "example": "mind + -ing (usually in negative/questions)"
+    },
+    {
+      "subject": "miss",
+      "verb": "Kamila misses living in Almaty.",
+      "short": "feel the absence of",
+      "example": "miss + -ing"
+    },
+    {
+      "subject": "keep",
+      "verb": "Keep practising every day!",
+      "short": "continue doing",
+      "example": "keep + -ing"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "enjoy / love / like",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "I enjoy studying with friends.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She loves watching films.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "We like having long breaks.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "He enjoys cooking traditional food.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "They love exploring new places.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Kamila enjoys writing her blog.",
+          "example": "✅ correct"
+        }
+      ]
+    },
+    {
+      "title": "hate / avoid / mind",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "I hate waking up early.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She avoids eating fast food.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "I don't mind helping you.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "He hates being late.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "We avoid arguing about small things.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Do you mind opening the window?",
+          "example": "✅ correct"
+        }
+      ]
+    },
+    {
+      "title": "finish / keep / miss",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "He finished reading the chapter.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Keep trying — don't give up!",
+          "example": "✅ correct"
+        },
+        {
+          "form": "I miss living close to the sea.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She finished preparing her presentation.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Keep pushing your limits.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Do you miss seeing your family every day?",
+          "example": "✅ correct"
+        }
+      ]
+    },
+    {
+      "title": "Common errors to avoid",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "❌ I enjoy to read.",
+          "example": "✅ I enjoy reading."
+        },
+        {
+          "form": "❌ She avoids to eat sugar.",
+          "example": "✅ She avoids eating sugar."
+        },
+        {
+          "form": "❌ He finished to write.",
+          "example": "✅ He finished writing."
+        },
+        {
+          "form": "❌ I miss to see you.",
+          "example": "✅ I miss seeing you."
+        },
+        {
+          "form": "❌ Keep to practise.",
+          "example": "✅ Keep practising."
+        },
+        {
+          "form": "❌ I don't mind to wait.",
+          "example": "✅ I don't mind waiting."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Все глаголы + gerund одним списком:\nenjoy · avoid · miss · keep · consider · suggest\nfinish · stop · mind · deny · admit · imagine\npractise · postpone · risk · fancy · involve\n\n🎯 Мнемоника SMACK: Stop · Mind · Avoid · Consider · Keep\n\n💡 Тест: если \"to + verb\" звучит странно → нужен -ing\n\"I enjoy to swim\" → странно! → \"I enjoy swimming\" ✅\n\"She finished to write\" → странно! → \"She finished writing\" ✅",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "I enjoy ___ (read) books in English.",
+      "opts": [
+        "reading",
+        "to read",
+        "read",
+        "reads"
+      ],
+      "correct": "reading",
+      "hint": "enjoy + -ing: enjoy reading."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the -ing form.",
+      "text": "She hates ___ (wait) for the bus.",
+      "correct": "waiting",
+      "hint": "hate + -ing: hates waiting."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which is correct?",
+      "opts": [
+        "I avoid to eat junk food.",
+        "I avoid eating junk food.",
+        "I avoid eat junk food.",
+        "I avoiding eating junk food."
+      ],
+      "correct": "I avoid eating junk food.",
+      "hint": "avoid + -ing: avoid eating."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the -ing form.",
+      "text": "Did you finish ___ (write) your essay?",
+      "correct": "writing",
+      "hint": "finish + -ing: finished writing."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Keep ___ — you're doing great!",
+      "opts": [
+        "try",
+        "to try",
+        "trying",
+        "tried"
+      ],
+      "correct": "trying",
+      "hint": "keep + -ing: keep trying."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She loves to dance\" is incorrect.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"love + to infinitive\" is also accepted in informal English — both forms are used."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the -ing form.",
+      "text": "I don't mind ___ (help) you with the project.",
+      "correct": "helping",
+      "hint": "mind + -ing: don't mind helping."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Amir misses ___ with his school friends.",
+      "opts": [
+        "play",
+        "to play",
+        "playing",
+        "played"
+      ],
+      "correct": "playing",
+      "hint": "miss + -ing: misses playing."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the odd one out.",
+      "text": "Which verb does NOT take -ing?",
+      "opts": [
+        "enjoy",
+        "avoid",
+        "want",
+        "miss"
+      ],
+      "correct": "want",
+      "hint": "\"want\" takes to + infinitive: \"I want to go\", not \"I want going\"."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the -ing form.",
+      "text": "She suggested ___ (go) to the library together.",
+      "correct": "going",
+      "hint": "suggest + -ing: suggested going."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"I consider taking a gap year\" — \"consider\" needs:",
+      "opts": [
+        "to + infinitive",
+        "past simple",
+        "gerund (-ing)",
+        "bare infinitive"
+      ],
+      "correct": "gerund (-ing)",
+      "hint": "consider + -ing: consider taking."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"He avoided making mistakes\" uses the gerund correctly.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "avoid + -ing: avoided making. Correct."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "After \"enjoy\", we use:",
+      "opts": [
+        "to + infinitive",
+        "verb + -ing",
+        "bare infinitive",
+        "past simple"
+      ],
+      "correct": "verb + -ing",
+      "hint": "enjoy is a gerund verb — always followed by verb + -ing."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She loves ___ (learn) new languages.",
+      "correct": "learning",
+      "hint": "love + -ing: loves learning."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is correct?",
+      "opts": [
+        "I hate to be late.",
+        "I hate being late.",
+        "I hate be late.",
+        "I hating being late."
+      ],
+      "correct": "I hate being late.",
+      "hint": "hate + -ing: hate being. (Note: \"hate to be\" is also sometimes acceptable in American English, but the standard gerund form is \"hate being\")"
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He finished ___ (prepare) his presentation an hour ago.",
+      "correct": "preparing",
+      "hint": "finish + -ing: finished preparing."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"They avoid ___ about small things.\" Fill in:",
+      "opts": [
+        "argue",
+        "to argue",
+        "arguing",
+        "argued"
+      ],
+      "correct": "arguing",
+      "hint": "avoid + -ing: avoid arguing."
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I don't mind to wait\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "mind + -ing: \"I don't mind waiting.\" Not \"to wait\"."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Keep ___\" — fill in with \"practise\":",
+      "opts": [
+        "practise",
+        "to practise",
+        "practising",
+        "practised"
+      ],
+      "correct": "practising",
+      "hint": "keep + -ing: keep practising."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Kamila misses ___ (live) near the sea.",
+      "correct": "living",
+      "hint": "miss + -ing: misses living."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which verb does NOT use gerund (-ing)?",
+      "opts": [
+        "enjoy",
+        "avoid",
+        "want",
+        "keep"
+      ],
+      "correct": "want",
+      "hint": "\"want\" takes to + infinitive: \"I want to go\", not \"I want going\"."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He suggested ___ (walk) to the university today.",
+      "correct": "walking",
+      "hint": "suggest + -ing: suggested walking."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In reading 1, Kamila says that naming emotions makes them:",
+      "opts": [
+        "Bigger and more intense",
+        "Disappear completely",
+        "Smaller and easier to manage",
+        "Turn into positive feelings"
+      ],
+      "correct": "Smaller and easier to manage",
+      "hint": "Paragraph 5: \"the emotion becomes smaller.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In reading 2, what is \"self-regulation\"?",
+      "opts": [
+        "Understanding other people's feelings",
+        "Controlling your own reactions",
+        "Setting personal goals",
+        "Building social skills"
+      ],
+      "correct": "Controlling your own reactions",
+      "hint": "Paragraph 3: \"self-regulation (controlling reactions)\"."
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "EQ (emotional intelligence) is fixed and cannot change.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Reading 2, paragraph 6: \"Emotional intelligence is not a fixed trait — it grows with practice.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Overwhelmed\" means:",
+      "opts": [
+        "Very excited and happy",
+        "Feeling too much at once — unable to cope",
+        "Angry and frustrated",
+        "Calm and relaxed"
+      ],
+      "correct": "Feeling too much at once — unable to cope",
+      "hint": "\"Overwhelmed\" = having more to deal with than you can manage."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She felt ___ before the presentation — her heart was beating fast.",
+      "correct": "anxious",
+      "hint": "\"Anxious\" = nervous, worried about something coming up."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Empathy\" means:",
+      "opts": [
+        "Feeling angry at others",
+        "Understanding and sharing another person's feelings",
+        "Being confident in social situations",
+        "Avoiding difficult conversations"
+      ],
+      "correct": "Understanding and sharing another person's feelings",
+      "hint": "\"Empathy\" = the ability to feel what another person is feeling."
+    }
+  ]
+}

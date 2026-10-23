@@ -1,0 +1,558 @@
+{
+  "id": "l50-g1",
+  "moduleNum": 16,
+  "lessonNum": 3,
+  "moduleTitle": "Gerunds & Infinitives",
+  "type": "grammar",
+  "title": "Gerund: enjoy / mind / avoid + -ing",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Gerunds — Verbs That Take -ing",
+  "grammarNote": "Герундий (gerund) — это глагол с окончанием -ing, который используется как существительное. После определённых глаголов в английском языке ОБЯЗАТЕЛЬНО используется герундий. Нельзя использовать инфинитив. Это нужно запомнить как лексическую единицу: \"enjoy + V-ing\", \"avoid + V-ing\" и т.д.",
+  "grammarTable": [
+    {
+      "subject": "enjoy",
+      "verb": "+ V-ing",
+      "short": "получать удовольствие",
+      "example": "\"I enjoy reading before bed.\" / \"She enjoys cooking.\""
+    },
+    {
+      "subject": "mind",
+      "verb": "+ V-ing",
+      "short": "возражать (обычно отриц.)",
+      "example": "\"I don't mind waiting.\" / \"Do you mind helping?\""
+    },
+    {
+      "subject": "avoid",
+      "verb": "+ V-ing",
+      "short": "избегать",
+      "example": "\"She avoids eating late at night.\" / \"Avoid making noise.\""
+    },
+    {
+      "subject": "keep",
+      "verb": "+ V-ing",
+      "short": "продолжать / не переставать",
+      "example": "\"He keeps forgetting.\" / \"Stop keeping me waiting.\""
+    },
+    {
+      "subject": "finish",
+      "verb": "+ V-ing",
+      "short": "заканчивать",
+      "example": "\"Have you finished studying?\" / \"I finished writing.\""
+    },
+    {
+      "subject": "consider",
+      "verb": "+ V-ing",
+      "short": "рассматривать возможность",
+      "example": "\"She's considering leaving.\" / \"Consider applying.\""
+    },
+    {
+      "subject": "suggest",
+      "verb": "+ V-ing",
+      "short": "предлагать",
+      "example": "\"He suggested going for a walk.\" / \"She suggested stopping.\""
+    },
+    {
+      "subject": "practise",
+      "verb": "+ V-ing",
+      "short": "практиковаться",
+      "example": "\"Practise speaking every day.\" / \"She practises writing.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Full list: verbs always followed by gerund",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "enjoy / love / hate / like / prefer",
+          "example": "\"She loves dancing.\" / \"He hates waiting.\" / \"They prefer staying in.\" ✅"
+        },
+        {
+          "form": "avoid / mind / miss / risk",
+          "example": "\"Avoid eating late.\" / \"I miss seeing you.\" / \"Risk losing everything.\""
+        },
+        {
+          "form": "keep / carry on / give up / stop*",
+          "example": "\"Keep trying!\" / \"Carry on working.\" / \"Give up smoking.\" / \"Stop complaining.\""
+        },
+        {
+          "form": "finish / imagine / practise / suggest",
+          "example": "\"Finish writing.\" / \"Imagine living there.\" / \"Suggest taking a break.\""
+        },
+        {
+          "form": "consider / delay / deny / admit",
+          "example": "\"Consider leaving.\" / \"Deny doing it.\" / \"Admit making a mistake.\""
+        },
+        {
+          "form": "fancy / involve / recommend / regret*",
+          "example": "\"Fancy trying?\" / \"Involves working hard.\" / \"Regret saying that.\""
+        }
+      ]
+    },
+    {
+      "title": "Gerund as subject of the sentence",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Running is good for you.",
+          "example": "\"RUNNING is excellent cardio.\" — gerund as subject ✅"
+        },
+        {
+          "form": "Studying takes time.",
+          "example": "\"STUDYING for exams takes a lot of time and energy.\" ✅"
+        },
+        {
+          "form": "Making mistakes is normal.",
+          "example": "\"MAKING mistakes is how you learn.\" ✅"
+        },
+        {
+          "form": "Waiting too long is a mistake.",
+          "example": "\"WAITING too long is a common mistake.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Gerund after prepositions (ALWAYS)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "After \"in\"",
+          "example": "\"Interested IN learning.\" / \"Succeed IN passing.\" ✅"
+        },
+        {
+          "form": "After \"at\"",
+          "example": "\"Good AT speaking.\" / \"Bad AT writing.\" ✅"
+        },
+        {
+          "form": "After \"to\" (not inf.)",
+          "example": "\"Look forward TO seeing.\" / \"Used TO working.\" ✅ (NOT \"to see\" / \"to work\")"
+        },
+        {
+          "form": "After \"about\"",
+          "example": "\"Think ABOUT going.\" / \"Worry ABOUT failing.\" ✅"
+        },
+        {
+          "form": "After \"of\"",
+          "example": "\"Tired OF waiting.\" / \"Afraid OF making mistakes.\" ✅"
+        },
+        {
+          "form": "After \"for\"",
+          "example": "\"Thank you FOR coming.\" / \"Responsible FOR organising.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common gerund mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I enjoy to read.\"",
+          "example": "✅ \"I enjoy READING.\" — enjoy always + gerund."
+        },
+        {
+          "form": "✗ \"She avoids to eat late.\"",
+          "example": "✅ \"She avoids EATING late.\" — avoid always + gerund."
+        },
+        {
+          "form": "✗ \"He keeps to forget.\"",
+          "example": "✅ \"He keeps FORGETTING.\" — keep always + gerund."
+        },
+        {
+          "form": "✗ \"I look forward to see you.\"",
+          "example": "✅ \"I look forward to SEEING you.\" — \"to\" here = preposition, not infinitive marker!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Герундий (V-ing как существительное) — запомни глаголы:\n\nenjoy, mind, avoid, miss, keep, give up,\nfinish, consider, suggest, practise,\nimagine, deny, admit, delay, involve,\nrecommend, fancy, risk, regret\n\n→ Все они + V-ing (НИКОГДА + to-infinitive!)\n\n💡 После ПРЕДЛОГОВ всегда герундий:\n\"good AT speaking\" ✅\n\"look forward TO seeing\" ✅\n\"tired OF waiting\" ✅\n\"thank you FOR coming\" ✅\n\n⚠️ \"look forward to SEEING\" — здесь TO = предлог!\nНЕ инфинитив! Поэтому SEEING, а не SEE!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "I enjoy ___ to music in the evenings.",
+      "opts": [
+        "to listen",
+        "listening",
+        "listened",
+        "listen"
+      ],
+      "correct": "listening",
+      "hint": "\"enjoy\" + GERUND (V-ing). \"I enjoy LISTENING to music.\" ✅ Never \"enjoy to listen\"!"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She avoids ___ sugar when possible.",
+      "opts": [
+        "to eat",
+        "eating",
+        "ate",
+        "eats"
+      ],
+      "correct": "eating",
+      "hint": "\"avoid\" + GERUND. \"She avoids EATING sugar.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"Would you mind ___ the window?\" (close)",
+      "correct": "closing",
+      "hint": "\"mind\" + GERUND. \"Would you mind CLOSING the window?\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "He keeps ___ the same mistake.",
+      "opts": [
+        "to make",
+        "making",
+        "made",
+        "make"
+      ],
+      "correct": "making",
+      "hint": "\"keep\" + GERUND. \"He keeps MAKING the same mistake.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Have you finished to write your essay?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Have you finished WRITING your essay?\" — \"finish\" + gerund. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct form after \"consider\".",
+      "text": "She's considering ___ to a different university.",
+      "opts": [
+        "to transfer",
+        "transferring",
+        "transfer",
+        "transferred"
+      ],
+      "correct": "transferring",
+      "hint": "\"consider\" + GERUND. \"Considering TRANSFERRING.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the gerund.",
+      "text": "\"He suggested ___ for a walk.\" (go)",
+      "correct": "going",
+      "hint": "\"suggest\" + GERUND. \"He suggested GOING for a walk.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Gerund as subject. Choose the correct sentence.",
+      "text": "\"___ is important for your health.\"",
+      "opts": [
+        "To exercise regularly",
+        "Exercising regularly",
+        "Exercise regularly",
+        "Exercises regularly"
+      ],
+      "correct": "Exercising regularly",
+      "hint": "Gerund as subject: \"EXERCISING regularly is important.\" ✅ (Both gerund and infinitive-as-subject can work, but gerund is more natural for general statements)"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct form after the preposition.",
+      "text": "She's good ___ speaking in public.",
+      "opts": [
+        "at to speak",
+        "at speaking",
+        "to speak",
+        "to speaking"
+      ],
+      "correct": "at speaking",
+      "hint": "\"good AT\" + GERUND. \"Good AT SPEAKING.\" ✅ After prepositions, always use gerund!"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"I look forward to ___ you soon.\" (see)",
+      "correct": "seeing",
+      "hint": "\"look forward TO\" + GERUND. \"Look forward to SEEING.\" ✅ \"To\" here = preposition (not infinitive marker)!"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She admitted ___ the mistake.",
+      "opts": [
+        "to make",
+        "making",
+        "make",
+        "makes"
+      ],
+      "correct": "making",
+      "hint": "\"admit\" + GERUND. \"She admitted MAKING the mistake.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct form after \"give up\".",
+      "text": "He finally gave up ___ .",
+      "opts": [
+        "to smoke",
+        "smoking",
+        "smoked",
+        "smokes"
+      ],
+      "correct": "smoking",
+      "hint": "\"give up\" + GERUND. \"He gave up SMOKING.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I enjoy ___.\" Which is correct?",
+      "opts": [
+        "\"enjoy to read\"",
+        "\"enjoy reading\"",
+        "\"enjoy reads\"",
+        "\"enjoy read\""
+      ],
+      "correct": "\"enjoy reading\"",
+      "hint": "\"enjoy\" + GERUND. \"I enjoy READING.\" ✅ Never \"enjoy to read\"!"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She avoids ___.\" Choose.",
+      "opts": [
+        "to eat late",
+        "eating late",
+        "ate late",
+        "eat late"
+      ],
+      "correct": "eating late",
+      "hint": "\"avoid\" + GERUND. \"She avoids EATING late.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I don't mind ___ here.\" (wait)",
+      "correct": "waiting",
+      "hint": "\"mind\" + GERUND. \"I don't mind WAITING.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Keep ___!\" Choose the correct form.",
+      "opts": [
+        "to try",
+        "trying",
+        "tried",
+        "try"
+      ],
+      "correct": "trying",
+      "hint": "\"keep\" + GERUND. \"Keep TRYING!\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Have you finished ___?\" Choose.",
+      "opts": [
+        "to study",
+        "studying",
+        "study",
+        "studied"
+      ],
+      "correct": "studying",
+      "hint": "\"finish\" + GERUND. \"Have you finished STUDYING?\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Consider ___ to university abroad.\" Choose.",
+      "opts": [
+        "to apply",
+        "applying",
+        "applied",
+        "apply"
+      ],
+      "correct": "applying",
+      "hint": "\"consider\" + GERUND. \"Consider APPLYING to university abroad.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He suggested ___ the plan.\" (change)",
+      "correct": "changing",
+      "hint": "\"suggest\" + GERUND. \"He suggested CHANGING the plan.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She denied ___ the window.\" Choose.",
+      "opts": [
+        "to break",
+        "breaking",
+        "break",
+        "broke"
+      ],
+      "correct": "breaking",
+      "hint": "\"deny\" + GERUND. \"She denied BREAKING the window.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's interested in ___ English.\" Choose.",
+      "opts": [
+        "to learn",
+        "learning",
+        "learn",
+        "learned"
+      ],
+      "correct": "learning",
+      "hint": "After prepositions (in, at, of, for, about, to): always GERUND. \"interested IN LEARNING.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I look forward to ___ you.\" Choose.",
+      "opts": [
+        "see",
+        "seeing",
+        "to see",
+        "seen"
+      ],
+      "correct": "seeing",
+      "hint": "\"look forward TO\" + GERUND. \"TO\" = preposition here, not infinitive marker. \"SEEING.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Give up ___!\" Which is correct?",
+      "opts": [
+        "to complain",
+        "complaining",
+        "complain",
+        "complained"
+      ],
+      "correct": "complaining",
+      "hint": "\"give up\" + GERUND. \"Give up COMPLAINING!\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Thank you for ___ .\" (come)",
+      "correct": "coming",
+      "hint": "\"thank you FOR\" + GERUND. \"Thank you for COMING.\" ✅ (after preposition \"for\")"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She admitted ___ the mistake.\" Choose.",
+      "opts": [
+        "to make",
+        "making",
+        "make",
+        "made"
+      ],
+      "correct": "making",
+      "hint": "\"admit\" + GERUND. \"She admitted MAKING the mistake.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ is the best way to improve.\" (practise speaking)",
+      "opts": [
+        "Practise to speak",
+        "Practise speaking",
+        "Practising to speak",
+        "To practise speaking"
+      ],
+      "correct": "Practise speaking",
+      "hint": "\"practise\" + GERUND. \"Practise SPEAKING is the best way.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Imagine ___ on the beach right now.\" (sit)",
+      "correct": "sitting",
+      "hint": "\"imagine\" + GERUND. \"Imagine SITTING on the beach.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's tired of ___ for the results.\" Choose.",
+      "opts": [
+        "to wait",
+        "waiting",
+        "wait",
+        "waited"
+      ],
+      "correct": "waiting",
+      "hint": "\"tired OF\" + GERUND. \"tired OF WAITING.\" ✅ (after preposition \"of\")"
+    }
+  ]
+}

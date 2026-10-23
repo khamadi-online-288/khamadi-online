@@ -1,0 +1,548 @@
+{
+  "id": "l54-2",
+  "moduleNum": 20,
+  "lessonNum": 2,
+  "moduleTitle": "Work & Career",
+  "type": "reading",
+  "title": "My First Internship: What I Expected vs What I Found",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Before I started my internship at DataBridge Solutions in Astana, I had a clear picture in my head of what it would be like. I would sit at a sleek desk in a modern office, write elegant code, attend important meetings, and gradually build something real. The reality was somewhat different — but, in the end, far more valuable than the fantasy.",
+    "The first shock was the pace. I had expected a gentle introduction — perhaps a week of orientation, some training sessions, then gradually increasing responsibility. Instead, on day two, I was assigned to a team that was already deep into a project, handed a codebase I had never seen, and told that my task was to fix a bug affecting the payment system. I had been studying computer science for two years. I had never worked on a real payment system before. The bug took me three days to find and fix — but I found it.",
+    "The second discovery was about communication. In my courses, the emphasis had always been on the product: write good code, solve the problem, produce the solution. In the workplace, I quickly discovered that how you communicate about what you are doing is almost as important as doing it. I had to write progress updates for my supervisor, explain technical issues to non-technical colleagues, and present my work in a team meeting. My English improved more in six weeks than in a previous year of study.",
+    "The third discovery was about mistakes. I made several — some embarrassing, one quite serious. I deleted a file I should not have deleted and spent an entire afternoon recovering it. My supervisor was not angry. She told me: \"The only way to never make mistakes is to never try anything difficult. Keep going.\" This was more useful than any lecture.",
+    "I had been working at DataBridge for about four weeks when I realised something had shifted. I was no longer arriving at the office thinking about what I would learn that day. I was arriving thinking about what I needed to do — and how to do it well. That shift — from student to worker — was the most important thing the internship taught me.",
+    "Six weeks passed quickly. On my last day, the team gave me feedback in a formal session. They said I had improved significantly in my communication, shown real initiative in the later weeks, and delivered work that was \"good enough for production\" — the highest praise a junior developer can receive. I had been preparing for this feedback for days. When I heard it, I felt something I had not expected: I wanted to come back.",
+    "If I were to give one piece of advice to a student about to start their first internship, it would be this: go in with no expectations, and be ready to be surprised — in every direction. The internship will not be what you imagine. It will be better. And harder. And more real."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, you've been really quiet since you came back from the internship. Was it good?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "It was incredible. And very hard. I've been thinking about it every day since.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What surprised you most?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "How much communication matters. I spent as much time writing updates as writing code.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Has it changed how you study here at WKU?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Completely. I've started thinking about every assignment as a workplace problem, not a test.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That sounds like a big shift. Are you going to apply for the same company next year?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've been looking at their website every day since I came home. So yes — probably.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "orientation",
+      "ru": "ориентация / вводный период",
+      "context": "\"A week of orientation.\" = introductory period when you learn how things work."
+    },
+    {
+      "phrase": "codebase",
+      "ru": "кодовая база",
+      "context": "\"A codebase I had never seen.\" = the full body of code for a project."
+    },
+    {
+      "phrase": "progress update",
+      "ru": "отчёт о прогрессе",
+      "context": "\"Write progress updates for my supervisor.\" — regular reports on what you've done."
+    },
+    {
+      "phrase": "initiative",
+      "ru": "инициатива",
+      "context": "\"Shown real initiative.\" = acting independently and making your own decisions."
+    },
+    {
+      "phrase": "production",
+      "ru": "продакшн / боевая система",
+      "context": "\"Good enough for production.\" = code that can go into the live, real system."
+    },
+    {
+      "phrase": "feedback session",
+      "ru": "сессия обратной связи",
+      "context": "\"A formal feedback session.\" = a structured meeting to discuss your performance."
+    },
+    {
+      "phrase": "shift",
+      "ru": "сдвиг / переход",
+      "context": "\"That shift — from student to worker.\" = a change in mindset or identity."
+    },
+    {
+      "phrase": "junior developer",
+      "ru": "младший разработчик",
+      "context": "\"Junior developer.\" = entry-level programmer in a tech company."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "orientation",
+      "ipa": "/ˌɔːriənˈteɪʃən/",
+      "pos": "noun",
+      "ru": "ориентация / вводный период",
+      "kz": "бағдарлау",
+      "emoji": "🧭",
+      "definition": "an introductory period helping someone learn about a new situation",
+      "example": "\"A week of orientation, then gradually increasing responsibility.\"",
+      "collocations": [
+        "company orientation",
+        "orientation week",
+        "job orientation"
+      ]
+    },
+    {
+      "en": "initiative",
+      "ipa": "/ɪˈnɪʃiətɪv/",
+      "pos": "noun",
+      "ru": "инициатива",
+      "kz": "бастамашылық",
+      "emoji": "💡",
+      "definition": "the ability to assess situations and act without being told",
+      "example": "\"Shown real initiative in the later weeks.\" — acting on your own without being asked.",
+      "collocations": [
+        "show initiative",
+        "take the initiative",
+        "demonstrate initiative"
+      ]
+    },
+    {
+      "en": "production",
+      "ipa": "/prəˈdʌkʃən/",
+      "pos": "noun",
+      "ru": "продакшн (живая система)",
+      "kz": "іске асыру",
+      "emoji": "🚀",
+      "definition": "in tech: the live system used by real customers",
+      "example": "\"Good enough for production\" — the code can go into the real, working system.",
+      "collocations": [
+        "production system",
+        "go to production",
+        "ready for production"
+      ]
+    },
+    {
+      "en": "supervisor",
+      "ipa": "/ˈsuːpəvaɪzər/",
+      "pos": "noun",
+      "ru": "руководитель / начальник",
+      "kz": "жетекші",
+      "emoji": "👩‍💼",
+      "definition": "a person who oversees and manages others' work",
+      "example": "\"Write progress updates for my supervisor.\" — the person above you who checks your work.",
+      "collocations": [
+        "direct supervisor",
+        "report to a supervisor",
+        "supervisor feedback"
+      ]
+    },
+    {
+      "en": "elegant",
+      "ipa": "/ˈelɪɡənt/",
+      "pos": "adjective",
+      "ru": "элегантный / изящный",
+      "kz": "келісті",
+      "emoji": "✨",
+      "definition": "pleasingly simple and efficient; well-designed",
+      "example": "\"Write elegant code.\" — code that is clean, efficient, and easy to read.",
+      "collocations": [
+        "elegant solution",
+        "elegant code",
+        "elegant design"
+      ]
+    },
+    {
+      "en": "emphasise",
+      "ipa": "/ˈemfəsaɪz/",
+      "pos": "verb",
+      "ru": "подчёркивать / акцентировать",
+      "kz": "баса айту",
+      "emoji": "📢",
+      "definition": "to give special importance to something",
+      "example": "\"Courses had always emphasised the product.\" — focused on delivering the solution.",
+      "collocations": [
+        "emphasise the importance",
+        "strongly emphasise",
+        "place emphasis on"
+      ]
+    },
+    {
+      "en": "recover",
+      "ipa": "/rɪˈkʌvər/",
+      "pos": "verb",
+      "ru": "восстанавливать",
+      "kz": "қалпына келтіру",
+      "emoji": "🔄",
+      "definition": "to get something back; to restore something to its original state",
+      "example": "\"Spent an afternoon recovering it.\" = restoring the deleted file.",
+      "collocations": [
+        "recover a file",
+        "recover from a mistake",
+        "data recovery"
+      ]
+    },
+    {
+      "en": "gradually",
+      "ipa": "/ˈɡrædʒuəli/",
+      "pos": "adverb",
+      "ru": "постепенно",
+      "kz": "баяу",
+      "emoji": "📈",
+      "definition": "slowly and steadily over time",
+      "example": "\"Gradually increasing responsibility.\" = more and more, bit by bit.",
+      "collocations": [
+        "gradually improve",
+        "gradually increase",
+        "gradually realise"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "initiative",
+      "emoji": "💡",
+      "opts": [
+        "пассивность",
+        "инициатива",
+        "опыт",
+        "дисциплина"
+      ],
+      "correct": "инициатива"
+    },
+    {
+      "id": "p2",
+      "word": "supervisor",
+      "emoji": "👩‍💼",
+      "opts": [
+        "стажёр",
+        "руководитель / начальник",
+        "коллега",
+        "клиент"
+      ],
+      "correct": "руководитель / начальник"
+    },
+    {
+      "id": "p3",
+      "word": "orientation",
+      "emoji": "🧭",
+      "opts": [
+        "увольнение",
+        "вводный период",
+        "испытание",
+        "стажировка"
+      ],
+      "correct": "вводный период"
+    },
+    {
+      "id": "p4",
+      "word": "recover",
+      "emoji": "🔄",
+      "opts": [
+        "потерять",
+        "восстанавливать",
+        "скачивать",
+        "редактировать"
+      ],
+      "correct": "восстанавливать"
+    },
+    {
+      "id": "p5",
+      "word": "gradually",
+      "emoji": "📈",
+      "opts": [
+        "мгновенно",
+        "постепенно",
+        "полностью",
+        "неожиданно"
+      ],
+      "correct": "постепенно"
+    },
+    {
+      "id": "p6",
+      "word": "production",
+      "emoji": "🚀",
+      "opts": [
+        "тестовая среда",
+        "продакшн / боевая система",
+        "документация",
+        "прототип"
+      ],
+      "correct": "продакшн / боевая система"
+    }
+  ],
+  "task1Bank": [
+    "day two",
+    "three",
+    "communication",
+    "deleted",
+    "four",
+    "production",
+    "one",
+    "expectations"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir was assigned to a real project on ___ of his internship.",
+      "correct": "day two"
+    },
+    {
+      "id": "t2",
+      "question": "The bug took ___ days to find and fix.",
+      "correct": "three"
+    },
+    {
+      "id": "t3",
+      "question": "The second discovery was about ___ — as important as the work itself.",
+      "correct": "communication"
+    },
+    {
+      "id": "t4",
+      "question": "He accidentally ___ a file and spent the afternoon recovering it.",
+      "correct": "deleted"
+    },
+    {
+      "id": "t5",
+      "question": "The shift from student to worker happened about ___ weeks into the internship.",
+      "correct": "four"
+    },
+    {
+      "id": "t6",
+      "question": "His final feedback said his work was \"good enough for ___ .\"",
+      "correct": "production"
+    },
+    {
+      "id": "t7",
+      "question": "He would give ___ piece of advice: go in with no expectations.",
+      "correct": "one"
+    },
+    {
+      "id": "t8",
+      "question": "His advice: \"go in with no ___ and be ready to be surprised.\"",
+      "correct": "expectations"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Amir was given a gentle, gradual introduction at the internship.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Communication was almost as important as the technical work.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Amir's supervisor was angry when he deleted the file.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Amir's English improved significantly during the internship.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Amir received formal written feedback at the end.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Amir's feedback was that he had shown real initiative in the later weeks.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Amir did not want to return to DataBridge after the internship ended.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Amir says the internship was better than expected.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What surprised Amir most about the internship pace?",
+      "opts": [
+        "It was slow",
+        "He was given real work on day two, not a gentle introduction",
+        "No one helped him",
+        "It was too easy"
+      ],
+      "correct": "He was given real work on day two, not a gentle introduction",
+      "hint": "\"Instead, on day two, I was assigned to a team... handed a codebase I had never seen.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Amir's second major discovery?",
+      "opts": [
+        "Code quality matters",
+        "Communication is almost as important as the work itself",
+        "Meetings are boring",
+        "AI was used everywhere"
+      ],
+      "correct": "Communication is almost as important as the work itself",
+      "hint": "\"How you communicate about what you are doing is almost as important as doing it.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir's supervisor was angry when he deleted the important file.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"My supervisor was not angry. She told me: 'The only way to never make mistakes is to never try anything difficult.'\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "At the feedback session, Amir was told his work was \"good enough for ___ .\"",
+      "correct": "production",
+      "hint": "\"'Good enough for production' — the highest praise a junior developer can receive.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What \"shift\" happened around week four of the internship?",
+      "opts": [
+        "He started studying more",
+        "He stopped caring about quality",
+        "He shifted from thinking like a student to thinking like a worker",
+        "His English stopped improving"
+      ],
+      "correct": "He shifted from thinking like a student to thinking like a worker",
+      "hint": "\"That shift — from student to worker — was the most important thing the internship taught me.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's one piece of advice for new interns?",
+      "opts": [
+        "Work hard and don't make mistakes",
+        "Go in with no expectations; be ready to be surprised",
+        "Focus only on technical skills",
+        "Ask many questions every day"
+      ],
+      "correct": "Go in with no expectations; be ready to be surprised",
+      "hint": "\"Go in with no expectations, and be ready to be surprised — in every direction.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Shown real initiative.\" \"Initiative\" means:",
+      "opts": [
+        "Waiting for instructions",
+        "Acting independently and making your own decisions",
+        "Being creative in art",
+        "Following orders well"
+      ],
+      "correct": "Acting independently and making your own decisions",
+      "hint": "\"initiative\" = the ability to act without being told to; doing things proactively."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Write elegant code.\" \"Elegant\" means:",
+      "opts": [
+        "Long and complex",
+        "Pleasingly simple, clean, and efficient",
+        "Fast but incorrect",
+        "Old-fashioned"
+      ],
+      "correct": "Pleasingly simple, clean, and efficient",
+      "hint": "\"elegant\" = clean, well-designed, and efficient — beautiful in its simplicity."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Gradually increasing responsibility.\" \"Gradually\" means:",
+      "opts": [
+        "All at once",
+        "Slowly and steadily over time",
+        "Very quickly",
+        "Randomly"
+      ],
+      "correct": "Slowly and steadily over time",
+      "hint": "\"gradually\" = bit by bit; in small steps over time."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Spent the afternoon recovering the file.\" \"Recovering\" means:",
+      "opts": [
+        "Deleting again",
+        "Restoring something to its original state",
+        "Understanding",
+        "Learning from a mistake"
+      ],
+      "correct": "Restoring something to its original state",
+      "hint": "\"recover\" = to get something back; to restore a deleted or lost item."
+    }
+  ]
+}

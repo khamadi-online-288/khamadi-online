@@ -1,0 +1,260 @@
+{
+  "id": "l67-4",
+  "moduleNum": 9,
+  "lessonNum": 7,
+  "moduleTitle": "Wishes, Regrets & Hypotheticals",
+  "title": "Writing: A Personal Reflection on Wishes and Regrets",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Opening: describe one moment you wish had been different",
+      "hint": "Use \"wish\" or \"if only\" to anchor the regret"
+    },
+    {
+      "key": "p1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe the situation and what actually happened",
+      "hint": "Be specific — when, where, who, what"
+    },
+    {
+      "key": "p2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Explore the counterfactual: what might have happened",
+      "hint": "Use \"if I had…, I would have…\" or \"supposing I had…\""
+    },
+    {
+      "key": "p3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Reflect on what you learned or how the experience changed you",
+      "hint": "Use \"as a result,\" \"in hindsight,\" \"looking back\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "End with a forward-looking statement: what you wish for yourself now",
+      "hint": "Use \"I wish I could / would\" or \"from now on, I intend to\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "Looking back, I wish ",
+      "suffix": ".",
+      "placeholder": "e.g., I had taken more risks in my early twenties",
+      "hint": "Start with a clear wish or regret"
+    },
+    {
+      "key": "l2",
+      "prefix": "At the time, ",
+      "suffix": ".",
+      "placeholder": "e.g., I didn't realise how important that decision would be",
+      "hint": "Set the context — what was happening then"
+    },
+    {
+      "key": "l3",
+      "prefix": "If only I had ",
+      "suffix": ", I believe ___.",
+      "hint": "Link the regret to a hypothetical outcome",
+      "placeholder": "e.g., said yes... things would have developed very differently"
+    },
+    {
+      "key": "l4",
+      "prefix": "Supposing I had chosen differently — ",
+      "suffix": ".",
+      "placeholder": "e.g., I might have discovered a passion I didn't know I had",
+      "hint": "Speculate on the alternative path"
+    },
+    {
+      "key": "l5",
+      "prefix": "In hindsight, ",
+      "suffix": ".",
+      "placeholder": "e.g., I understand now that fear was holding me back",
+      "hint": "Use \"in hindsight\" to introduce reflection"
+    },
+    {
+      "key": "l6",
+      "prefix": "The experience taught me that ",
+      "suffix": ".",
+      "placeholder": "e.g., regret can be a powerful teacher if we let it",
+      "hint": "Draw a lesson from the reflection"
+    },
+    {
+      "key": "l7",
+      "prefix": "Looking forward, I wish ",
+      "suffix": ".",
+      "placeholder": "e.g., I could face such moments with more courage",
+      "hint": "End with a forward-looking wish"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Expressing a wish/regret",
+      "color": "#003876",
+      "items": [
+        "I wish I had…",
+        "If only I had…",
+        "I regret that I…",
+        "Looking back, I wish…",
+        "I can't help but wonder what would have happened if…"
+      ]
+    },
+    {
+      "category": "Hypothetical speculation",
+      "color": "#1D9E75",
+      "items": [
+        "Supposing I had…, I believe…",
+        "If I had done X, I might have…",
+        "Had I known then what I know now…",
+        "What if I had chosen differently?",
+        "Imagine how things might have unfolded"
+      ]
+    },
+    {
+      "category": "Reflection and insight",
+      "color": "#C9933B",
+      "items": [
+        "In hindsight, I understand that…",
+        "The experience taught me that…",
+        "Looking back, I can see that…",
+        "I now realise that…",
+        "This shaped me in ways I didn't expect"
+      ]
+    },
+    {
+      "category": "Forward-looking",
+      "color": "#1B8FC4",
+      "items": [
+        "From now on, I intend to…",
+        "I wish I could…",
+        "Going forward, I hope to…",
+        "I am determined to…",
+        "I would rather face the fear than wonder what might have been"
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the correct way to start a personal reflection about a past regret?",
+      "opts": [
+        "I wish I will study more.",
+        "I wish I had studied more.",
+        "I wish I studied more yesterday.",
+        "I wish I would study more."
+      ],
+      "correct": "I wish I had studied more.",
+      "hint": "Wish + past perfect = past regret",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ I known what the consequences would be, I would have decided differently.\" (Formal inverted)",
+      "correct": "Had",
+      "hint": "Had + subject + pp = inverted past conditional",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Supposing I had taken the other path — where ___ I be now?\"",
+      "opts": [
+        "will",
+        "would",
+        "am",
+        "should"
+      ],
+      "correct": "would",
+      "hint": "Past hypothetical: \"would\" in the result clause",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "Complete the reflection phrase: \"In ___, I understand that I was not ready for that opportunity.\"",
+      "correct": "hindsight",
+      "hint": "\"In hindsight\" = looking back and understanding now",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which phrase best introduces a forward-looking wish?",
+      "opts": [
+        "If only I had…",
+        "Looking forward, I wish I could…",
+        "Supposing I had…",
+        "Had I known then…"
+      ],
+      "correct": "Looking forward, I wish I could…",
+      "hint": "\"Looking forward\" + wish = present/future desire",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "A personal reflection can combine past regrets with forward-looking wishes in the same piece.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "A well-structured reflection moves from past → reflection → forward",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The experience ___ me that regret can be a powerful teacher.\" (= taught)",
+      "correct": "taught",
+      "hint": "\"The experience taught me that…\" — key reflection phrase",
+      "points": 1
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I would rather ___ such moments with more courage.\" (= prefer to face)",
+      "opts": [
+        "face",
+        "to face",
+        "facing",
+        "faced"
+      ],
+      "correct": "face",
+      "hint": "Would rather + bare infinitive (same subject)",
+      "points": 2
+    }
+  ]
+}

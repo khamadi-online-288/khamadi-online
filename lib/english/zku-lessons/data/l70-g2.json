@@ -1,0 +1,506 @@
+{
+  "id": "l70-g2",
+  "moduleNum": 12,
+  "lessonNum": 6,
+  "moduleTitle": "Technology & The Future",
+  "title": "Grammar: Future Perfect, Future Continuous & Advanced Future Expressions",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Future Perfect и Future Perfect Continuous — для академического и профессионального уровня:\n\nFUTURE PERFECT (will have + PP) → к определённому моменту в будущем:\n\"By June, I will have completed all the exams.\"\n\"By 2030, scientists will have found a solution.\"\n\nFUTURE PERFECT CONTINUOUS (will have been + -ing) → сколько времени к моменту:\n\"By next year, I will have been studying English for five years.\"\n\"She will have been working here for ten years by March.\"\n\n💡 Сигналы: by (next week / 2030 / the time...) · before · when\n\"When you arrive, I will have been waiting for an hour.\"",
+  "grammarTable": [
+    {
+      "subject": "Future perfect",
+      "verb": "will have + past participle",
+      "short": "completed BEFORE a future point",
+      "example": "\"By 2030, the company will have invested $10bn in AI.\""
+    },
+    {
+      "subject": "Future perfect continuous",
+      "verb": "will have been + verb-ing",
+      "short": "ongoing FROM past UNTIL future point",
+      "example": "\"By next year, she will have been working on this project for three years.\""
+    },
+    {
+      "subject": "Future continuous",
+      "verb": "will be + verb-ing",
+      "short": "action in progress AT a future time",
+      "example": "\"In 2040, millions will be using AI assistants daily.\""
+    },
+    {
+      "subject": "be about to",
+      "verb": "be + about to + infinitive",
+      "short": "immediate future",
+      "example": "\"Technology is about to reshape everything we know about work.\""
+    },
+    {
+      "subject": "be likely to / due to / expected to",
+      "verb": "modal-like expressions",
+      "short": "prediction with probability",
+      "example": "\"AI is likely to transform healthcare. The report is due to be published next year.\""
+    },
+    {
+      "subject": "shall (formal)",
+      "verb": "shall + infinitive (first person)",
+      "short": "formal promise or intention",
+      "example": "\"We shall publish the findings by the end of the year.\" (formal written English)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Future Perfect: By + Time Expression",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "By + time: will have + pp",
+          "example": "\"By 2035, AI will have replaced most routine data entry jobs.\""
+        },
+        {
+          "form": "By the time + clause: will have + pp",
+          "example": "\"By the time the legislation passes, the technology will have moved on.\""
+        },
+        {
+          "form": "Already / yet in future perfect",
+          "example": "\"The project will already have finished before the audit begins.\""
+        }
+      ]
+    },
+    {
+      "title": "Probability Expressions: Likely, Due, Expected, Predicted",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "is/are likely to + infinitive",
+          "example": "\"AI is likely to augment rather than replace most jobs.\" (moderate probability)"
+        },
+        {
+          "form": "is/are expected to + infinitive",
+          "example": "\"Global AI investment is expected to double by 2028.\" (based on evidence)"
+        },
+        {
+          "form": "is/are predicted to + infinitive",
+          "example": "\"The market is predicted to reach $500bn by 2030.\""
+        },
+        {
+          "form": "is/are due to + infinitive",
+          "example": "\"The new regulations are due to come into effect in January.\""
+        }
+      ]
+    },
+    {
+      "title": "Be About To: Immediate Future",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "is/are about to + infinitive = very soon",
+          "example": "\"The CEO is about to announce a major AI investment.\""
+        },
+        {
+          "form": "Often used with \"just\" for emphasis",
+          "example": "\"She was just about to submit her report when the system crashed.\""
+        },
+        {
+          "form": "Can also express something that nearly happened",
+          "example": "\"We were about to launch when we discovered a critical bug.\""
+        }
+      ]
+    },
+    {
+      "title": "Future in Formal and Academic Writing",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Future perfect for milestones and deadlines",
+          "example": "\"By Q3, the team will have completed the feasibility study.\""
+        },
+        {
+          "form": "Passive future for formal predictions",
+          "example": "\"AI is expected to be regulated more strictly within the next five years.\""
+        },
+        {
+          "form": "Hedging language with future expressions",
+          "example": "\"AI may well transform the economy, though the timeline remains uncertain.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Advanced Future Forms",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ By 2030, AI will replace all jobs.",
+          "example": "✅ By 2030, AI will have replaced many routine jobs. (future perfect for by + time)"
+        },
+        {
+          "form": "❌ She will have been working here since five years.",
+          "example": "✅ She will have been working here for five years. (duration: \"for\" not \"since\")"
+        },
+        {
+          "form": "❌ Technology is likely transforming the economy.",
+          "example": "✅ Technology is likely to transform the economy. (\"likely to + infinitive\")"
+        },
+        {
+          "form": "❌ The report is about publishing next month.",
+          "example": "✅ The report is about to be published next month. (\"about to + infinitive\")"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct future perfect form.",
+      "text": "\"By 2035, researchers ___ a cure for most forms of cancer.\"",
+      "opts": [
+        "will find",
+        "will be finding",
+        "will have found",
+        "are going to find"
+      ],
+      "correct": "will have found",
+      "hint": "\"By + time\" = future perfect: will have + pp"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the future perfect.",
+      "text": "\"By the time the regulation passes, the technology ___ (move) on significantly.\"",
+      "correct": "will have moved",
+      "hint": "\"By the time\" + future perfect: will have + pp"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct probability expression.",
+      "text": "\"Global AI investment ___ triple by 2030.\" (based on current forecasts)",
+      "opts": [
+        "is going to",
+        "is expected to",
+        "will be",
+        "is about to"
+      ],
+      "correct": "is expected to",
+      "hint": "\"is expected to\" = evidence-based prediction / forecast"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with \"will have been + verb-ing.\"",
+      "text": "\"Next month, she ___ (work) on her AI dissertation for two years.\"",
+      "correct": "will have been working",
+      "hint": "Future perfect continuous: will have been + -ing (duration)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct \"be about to\" form.",
+      "text": "\"The company ___ launch its AI assistant — the press conference is in five minutes.\"",
+      "opts": [
+        "is going to",
+        "will be",
+        "is about to",
+        "is likely to"
+      ],
+      "correct": "is about to",
+      "hint": "\"is about to\" = something happening very soon / immediately"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Rewrite as a future perfect sentence.",
+      "text": "\"AI will transform most white-collar jobs. (By 2040)\"",
+      "correct": "By 2040, AI will have transformed most white-collar jobs.",
+      "hint": "\"By + time\" triggers future perfect: will have + pp"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which correctly uses \"is likely to\"?",
+      "text": "",
+      "opts": [
+        "AI is likely transform healthcare.",
+        "AI is likely to transform healthcare.",
+        "AI likely to transform healthcare.",
+        "AI is likely transforming healthcare."
+      ],
+      "correct": "AI is likely to transform healthcare.",
+      "hint": "\"is likely to + infinitive\" — must include \"to\""
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with \"is due to.\"",
+      "text": "\"The AI safety report ___ (publish) in March.\"",
+      "correct": "is due to be published",
+      "hint": "\"is due to + infinitive\" = scheduled to happen at a specific time"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "What does this sentence mean?",
+      "text": "\"By next year, she will have been leading the AI team for a decade.\"",
+      "opts": [
+        "She will start leading the team next year",
+        "She led the team ten years ago",
+        "By next year, her ten years of leadership will be complete",
+        "She is going to lead the team for one more year"
+      ],
+      "correct": "By next year, her ten years of leadership will be complete",
+      "hint": "Future perfect continuous: the duration will be complete at the future point"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which sentence uses hedging language correctly?",
+      "text": "",
+      "opts": [
+        "AI will certainly replace all doctors.",
+        "AI may well transform diagnostics, though the timeline is uncertain.",
+        "AI is about to completely changing medicine.",
+        "AI is going to will replace doctors."
+      ],
+      "correct": "AI may well transform diagnostics, though the timeline is uncertain.",
+      "hint": "\"may well\" = hedging probability; adds nuance to prediction"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the best form.",
+      "text": "\"By the time the course ends, students ___ (learn) three programming languages.\"",
+      "correct": "will have learned",
+      "hint": "\"By the time\" + future perfect: will have + pp"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Which correctly uses \"predicted to\"?",
+      "text": "",
+      "opts": [
+        "The population is predicted grow to 10 billion by 2050.",
+        "The population is predicted to grow to 10 billion by 2050.",
+        "The population predicted to grow to 10 billion by 2050.",
+        "The population is predicted growing to 10 billion by 2050."
+      ],
+      "correct": "The population is predicted to grow to 10 billion by 2050.",
+      "hint": "\"is predicted to + infinitive\""
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete the formal passive future.",
+      "text": "\"The new AI regulations ___ (implement) across the EU next year.\"",
+      "correct": "will be implemented / are expected to be implemented",
+      "hint": "Formal passive future: will be + pp OR is expected to be + pp"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "What is the error?",
+      "text": "\"She will have been working here since three years by March.\"",
+      "opts": [
+        "The tense is wrong",
+        "\"Since\" should be \"for\" — duration",
+        "\"By March\" is incorrect",
+        "\"Working\" should be \"worked\""
+      ],
+      "correct": "\"Since\" should be \"for\" — duration",
+      "hint": "Duration (period of time): \"for three years\", not \"since three years\""
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with \"will be + -ing.\"",
+      "text": "\"In 2035, most people ___ (use) AI assistants as part of their daily routines.\"",
+      "correct": "will be using",
+      "hint": "Future continuous: action in progress / typical activity at a future time"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the most sophisticated way to express this prediction formally.",
+      "text": "\"AI will probably be very important in healthcare by 2030.\"",
+      "opts": [
+        "AI is going to be very important in healthcare by 2030.",
+        "AI will be very important in healthcare by 2030.",
+        "AI is predicted to play a significant role in healthcare by 2030.",
+        "AI is about to become important in healthcare by 2030."
+      ],
+      "correct": "AI is predicted to play a significant role in healthcare by 2030.",
+      "hint": "\"is predicted to + infinitive\" is the most formal and precise expression"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By 2040, most routine jobs ___ by AI.\" Choose the correct form.",
+      "opts": [
+        "will be replaced",
+        "will replace",
+        "will have been replaced",
+        "are going to be replaced"
+      ],
+      "correct": "will have been replaced",
+      "hint": "\"By + time\" = future perfect; passive = will have been + pp",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The conference ___ (begin) — everyone is taking their seats.\" (happening right now / immediately)",
+      "correct": "is about to begin",
+      "hint": "\"is about to + infinitive\" = happening very soon",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Global temperatures ___ rise by 1.5°C by 2035.\" (evidence-based)",
+      "opts": [
+        "will",
+        "are going to",
+        "are expected to",
+        "are about to"
+      ],
+      "correct": "are expected to",
+      "hint": "\"are expected to\" = formal evidence-based prediction",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"By next year, I ___ (study) programming for three years.\"",
+      "correct": "will have been studying",
+      "hint": "Future perfect continuous: will have been + -ing (duration until future point)",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"In 2050, people ___ AI tools as naturally as they use electricity today.\" (typical ongoing activity)",
+      "opts": [
+        "will use",
+        "will be using",
+        "will have used",
+        "are going to use"
+      ],
+      "correct": "will be using",
+      "hint": "Future continuous: typical ongoing activity at a future time",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Technology is likely to transform education\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"is likely to + infinitive\" — correct form",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The new AI policy ___ (come) into effect in January.\" (scheduled event)",
+      "correct": "is due to come",
+      "hint": "\"is due to + infinitive\" = scheduled/expected at a specific time",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By the time the regulation passes, technology ___ already ___.\" Choose the correct option.",
+      "opts": [
+        "will / move on",
+        "will / have moved on",
+        "will have / moved on",
+        "will have / been moving on"
+      ],
+      "correct": "will / have moved on",
+      "hint": "\"By the time\" + future perfect: will have + pp",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"AI ___ (likely / disrupt) the legal profession significantly over the next decade.\"",
+      "correct": "is likely to disrupt",
+      "hint": "\"is likely to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which correctly uses hedging language for a prediction?",
+      "opts": [
+        "AI will certainly replace all teachers.",
+        "AI may well transform aspects of education, though challenges remain.",
+        "AI is about to replace teachers soon.",
+        "AI is expected certainly to replace teachers."
+      ],
+      "correct": "AI may well transform aspects of education, though challenges remain.",
+      "hint": "\"May well\" = hedging — possible but not certain",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She ___ (work) on AI research for over a decade by the time she receives her professorship.\"",
+      "correct": "will have been working",
+      "hint": "Future perfect continuous: ongoing duration until a future point",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most formal way to express a prediction in academic writing?",
+      "opts": [
+        "AI is going to change medicine.",
+        "I think AI will change medicine.",
+        "AI is predicted to transform medical diagnostics within the next decade.",
+        "AI is about to change medicine."
+      ],
+      "correct": "AI is predicted to transform medical diagnostics within the next decade.",
+      "hint": "\"is predicted to + infinitive\" = most formal, evidence-based, academic",
+      "points": 2
+    }
+  ]
+}

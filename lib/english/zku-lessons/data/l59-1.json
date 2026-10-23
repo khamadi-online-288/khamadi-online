@@ -1,0 +1,549 @@
+{
+  "id": "l59-1",
+  "moduleNum": 1,
+  "lessonNum": 1,
+  "moduleTitle": "Complex Conversations",
+  "type": "reading",
+  "title": "Two Years In: A WKU Student Looks Back",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "When Amir Bekzhanov arrived in Uralsk two years ago, he had never lived away from home, had never managed his own finances, and had never had to make a doctor's appointment in Russian. He had been studying English since the age of twelve, but had rarely spoken it outside a classroom. Now, as he sits in the third-floor café of the WKU main building with a coffee he has learned to make last for two hours, he is thinking about everything that has changed — and, more surprisingly, about everything that has not.",
+    "\"When I first arrived,\" he says, \"I was completely overwhelmed. I had been expecting university to be difficult, but I had been imagining academic difficulty — complex lectures, heavy reading lists. What actually happened was more complicated than that. I couldn't read the washing machine instructions. I didn't know how to argue politely with a landlord. I was missing home and didn't know how to talk about it without feeling stupid.\" He pauses. \"Nobody teaches you that.\"",
+    "Amir is now in his second year of Computer Science. He has completed six semesters of courses, has built a student timetable application that is being used by over thirty of his classmates, and has been working part-time as a tutor for first-year students since October. His English, which was already strong when he arrived, has become something different — not just more accurate, but more confident. He uses it to think, not just to communicate.",
+    "\"I was studying English for years before university,\" he says, \"but I was always translating in my head. Now I'm not doing that most of the time. I'm just thinking directly. I'm not sure exactly when that changed — it happened gradually. One day I noticed I had been writing an email in English for twenty minutes without once thinking about what the Kazakh would have been.\"",
+    "The change he describes is one that language researchers have been studying for decades: the point at which a second language stops being a foreign system and starts being a working one. For Amir, it seems to have happened through necessity rather than method. He was put in situations where English was the fastest route to a solution — technical documentation, international coding communities, his professor's preferred language for feedback — and he adapted. \"I didn't do it consciously,\" he says. \"I was trying to fix a bug or understand an error message. The language was just the tool.\"",
+    "He is sitting with his laptop open, as he almost always is. On the screen, there is a Python script that he has been debugging since the morning. He is also, simultaneously, replying to a message in Kazakh, thinking in Russian, and talking to me in English. This is, he says, completely normal. \"My grandmother always asks me: which language do you dream in? And I tell her: I don't know. I dream in situations, not words.\" He smiles. \"She doesn't find that as interesting as I do.\"",
+    "Two years in, Amir does not feel that he has arrived anywhere final. He knows more than he did, and he is more capable than he was, and both of these things are true in ways that are difficult to separate from each other. The language has shaped the knowledge and the knowledge has shaped the language. When he tries to explain something about computer science in Kazakh, he sometimes finds that the Kazakh words are not quite precise enough, and that he needs to borrow the English ones. When he tries to explain something about his childhood in English, he sometimes finds the opposite: that English does not have the right words for what he means, and that he has to invent something approximate.",
+    "\"Both languages are incomplete,\" he says finally. \"But together they're enough.\""
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "I've been thinking about how much has changed in two years. Two years ago I had never cooked for myself.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And now you're actually good at it. You made that beshbarmak for us last month — it was incredible.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "My grandmother had been teaching me for years. I just hadn't been paying attention until I had to.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I think that's how most things work. You were learning the whole time. You just didn't know you were going to need it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "What's changed most for you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "My relationship with English. I used to think in Kazakh and translate. Now sometimes I think directly in English — and then I have to translate the other way to explain it to my parents.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's exactly it. The language has become part of how you think, not just what you say.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Slightly terrifying. But mostly good.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "overwhelmed",
+      "ru": "подавленный / переполненный",
+      "context": "\"I was completely overwhelmed.\" = too much to deal with at once."
+    },
+    {
+      "phrase": "gradually",
+      "ru": "постепенно",
+      "context": "\"It happened gradually.\" = slowly, bit by bit, over time."
+    },
+    {
+      "phrase": "consciously",
+      "ru": "осознанно / намеренно",
+      "context": "\"I didn't do it consciously.\" = without deliberate intention."
+    },
+    {
+      "phrase": "simultaneously",
+      "ru": "одновременно",
+      "context": "\"Simultaneously, replying... thinking... talking.\" = all at the same time."
+    },
+    {
+      "phrase": "precise",
+      "ru": "точный / конкретный",
+      "context": "\"The Kazakh words are not quite precise enough.\" = exact and specific."
+    },
+    {
+      "phrase": "approximate",
+      "ru": "приблизительный",
+      "context": "\"He has to invent something approximate.\" = close but not exact."
+    },
+    {
+      "phrase": "adapt",
+      "ru": "адаптироваться",
+      "context": "\"He adapted.\" = adjusted to the new situation."
+    },
+    {
+      "phrase": "incomplete",
+      "ru": "неполный / незавершённый",
+      "context": "\"Both languages are incomplete.\" = each lacks something on its own."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "overwhelmed",
+      "ipa": "/ˌəʊvəˈwelmd/",
+      "pos": "adjective",
+      "ru": "подавленный / перегруженный",
+      "kz": "езіліп кеткен",
+      "emoji": "😰",
+      "definition": "feeling that something is too much to cope with",
+      "example": "When I first arrived at university, I was completely overwhelmed.",
+      "collocations": [
+        "feel overwhelmed",
+        "completely overwhelmed",
+        "overwhelmed by the workload"
+      ]
+    },
+    {
+      "en": "consciously",
+      "ipa": "/ˈkɒnʃəsli/",
+      "pos": "adverb",
+      "ru": "осознанно",
+      "kz": "саналы түрде",
+      "emoji": "🧠",
+      "definition": "in a deliberate or intentional way; being aware",
+      "example": "\"I didn't do it consciously.\" — it happened without deliberate effort.",
+      "collocations": [
+        "consciously decide",
+        "consciously aware",
+        "not consciously"
+      ]
+    },
+    {
+      "en": "simultaneously",
+      "ipa": "/ˌsɪməlˈteɪniəsli/",
+      "pos": "adverb",
+      "ru": "одновременно",
+      "kz": "бір мезгілде",
+      "emoji": "⚡",
+      "definition": "at the same time as something else",
+      "example": "He was simultaneously debugging, messaging, and talking.",
+      "collocations": [
+        "simultaneously with",
+        "occur simultaneously",
+        "do two things simultaneously"
+      ]
+    },
+    {
+      "en": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "pos": "adjective",
+      "ru": "точный / конкретный",
+      "kz": "дәл",
+      "emoji": "🎯",
+      "definition": "exact and accurate; stated clearly and without ambiguity",
+      "example": "\"The Kazakh words are not quite precise enough.\"",
+      "collocations": [
+        "be more precise",
+        "precise language",
+        "precise meaning"
+      ]
+    },
+    {
+      "en": "approximate",
+      "ipa": "/əˈprɒksɪmɪt/",
+      "pos": "adjective",
+      "ru": "приблизительный",
+      "kz": "шамамен",
+      "emoji": "≈",
+      "definition": "close to the actual, but not completely accurate",
+      "example": "When a word doesn't exist, you invent something approximate.",
+      "collocations": [
+        "approximate translation",
+        "approximate meaning",
+        "rough and approximate"
+      ]
+    },
+    {
+      "en": "adapt",
+      "ipa": "/əˈdæpt/",
+      "pos": "verb",
+      "ru": "адаптироваться",
+      "kz": "бейімделу",
+      "emoji": "🔀",
+      "definition": "to change or adjust to suit a new situation",
+      "example": "He adapted to English by using it in real situations every day.",
+      "collocations": [
+        "adapt to",
+        "quickly adapt",
+        "adapt your approach"
+      ]
+    },
+    {
+      "en": "route",
+      "ipa": "/ruːt/",
+      "pos": "noun",
+      "ru": "путь / маршрут",
+      "kz": "жол",
+      "emoji": "🗺️",
+      "definition": "a way or path taken to reach a destination",
+      "example": "\"English was the fastest route to a solution.\"",
+      "collocations": [
+        "fastest route",
+        "take a route",
+        "trade route"
+      ]
+    },
+    {
+      "en": "gradual",
+      "ipa": "/ˈɡrædʒuəl/",
+      "pos": "adjective",
+      "ru": "постепенный",
+      "kz": "біртіндеп",
+      "emoji": "📈",
+      "definition": "happening slowly and steadily over time",
+      "example": "The change was gradual — he didn't notice it happening.",
+      "collocations": [
+        "gradual change",
+        "gradual improvement",
+        "gradual process"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "overwhelmed",
+      "emoji": "😰",
+      "opts": [
+        "расслабленный",
+        "подавленный / перегруженный",
+        "сосредоточенный",
+        "готовый"
+      ],
+      "correct": "подавленный / перегруженный"
+    },
+    {
+      "id": "p2",
+      "word": "consciously",
+      "emoji": "🧠",
+      "opts": [
+        "случайно",
+        "осознанно / намеренно",
+        "постепенно",
+        "быстро"
+      ],
+      "correct": "осознанно / намеренно"
+    },
+    {
+      "id": "p3",
+      "word": "simultaneously",
+      "emoji": "⚡",
+      "opts": [
+        "поочерёдно",
+        "одновременно",
+        "позже",
+        "раньше"
+      ],
+      "correct": "одновременно"
+    },
+    {
+      "id": "p4",
+      "word": "precise",
+      "emoji": "🎯",
+      "opts": [
+        "расплывчатый",
+        "точный / конкретный",
+        "длинный",
+        "сложный"
+      ],
+      "correct": "точный / конкретный"
+    },
+    {
+      "id": "p5",
+      "word": "adapt",
+      "emoji": "🔀",
+      "opts": [
+        "сопротивляться",
+        "адаптироваться",
+        "изучать",
+        "игнорировать"
+      ],
+      "correct": "адаптироваться"
+    },
+    {
+      "id": "p6",
+      "word": "gradual",
+      "emoji": "📈",
+      "opts": [
+        "мгновенный",
+        "постепенный",
+        "неожиданный",
+        "стремительный"
+      ],
+      "correct": "постепенный"
+    }
+  ],
+  "task1Bank": [
+    "twelve",
+    "thirty",
+    "October",
+    "translating",
+    "bug",
+    "Kazakh",
+    "incomplete",
+    "situations"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir had been studying English since the age of ___ .",
+      "correct": "twelve"
+    },
+    {
+      "id": "t2",
+      "question": "His student timetable app is being used by over ___ classmates.",
+      "correct": "thirty"
+    },
+    {
+      "id": "t3",
+      "question": "He has been working as a tutor for first-year students since ___ .",
+      "correct": "October"
+    },
+    {
+      "id": "t4",
+      "question": "He used to be always ___ in his head from Kazakh to English.",
+      "correct": "translating"
+    },
+    {
+      "id": "t5",
+      "question": "He noticed the change while trying to fix a ___ in his code.",
+      "correct": "bug"
+    },
+    {
+      "id": "t6",
+      "question": "When he tries to explain his childhood in English, sometimes ___ words are more precise.",
+      "correct": "Kazakh"
+    },
+    {
+      "id": "t7",
+      "question": "Amir says both languages are ___ on their own.",
+      "correct": "incomplete"
+    },
+    {
+      "id": "t8",
+      "question": "His grandmother asks which language he dreams in. He says he dreams in ___ , not words.",
+      "correct": "situations"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Amir had lived away from home before coming to WKU.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Amir found the non-academic challenges of university the hardest at first.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Amir deliberately practised English to improve his fluency.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Amir switched to thinking directly in English without realising it was happening.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Amir's English is now less useful to him than Kazakh.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Amir sometimes finds English lacks the right words for describing his childhood.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Kamila has always thought directly in English.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Amir says both languages together are enough.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What surprised Amir most about the difficulty of university?",
+      "opts": [
+        "The academic content",
+        "The non-academic challenges of living independently",
+        "The cost of living",
+        "The Kazakh language requirement"
+      ],
+      "correct": "The non-academic challenges of living independently",
+      "hint": "\"What actually happened was more complicated... I couldn't read the washing machine instructions.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Amir's English improve — through deliberate practice?",
+      "opts": [
+        "Yes — he followed an intensive programme",
+        "No — he improved through necessity in real situations",
+        "He attended extra English classes",
+        "His professor gave him special support"
+      ],
+      "correct": "No — he improved through necessity in real situations",
+      "hint": "\"I didn't do it consciously... I was trying to fix a bug. The language was just the tool.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir mean when he says \"the language has become part of how you think\"?",
+      "opts": [
+        "He memorised grammar rules",
+        "He stopped needing a dictionary",
+        "He now thinks directly in English without translating",
+        "His accent improved"
+      ],
+      "correct": "He now thinks directly in English without translating",
+      "hint": "\"I noticed I had been writing an email in English... without once thinking about what the Kazakh would have been.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir feels he has reached a final destination in his development.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Amir does not feel that he has arrived anywhere final.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Both languages are ___,\" he says. \"But together they're enough.\"",
+      "correct": "incomplete",
+      "hint": "\"Both languages are INCOMPLETE. But together they're enough.\" — last sentence of the interview."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the relationship between his language and knowledge, according to Amir?",
+      "opts": [
+        "They are completely separate",
+        "The language shaped the knowledge and the knowledge shaped the language",
+        "Knowledge comes first, language follows",
+        "Language is more important than knowledge"
+      ],
+      "correct": "The language shaped the knowledge and the knowledge shaped the language",
+      "hint": "\"The language has shaped the knowledge and the knowledge has shaped the language.\""
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He had never lived away from home.\" — This Past Perfect means:",
+      "opts": [
+        "He lived away from home once",
+        "Before arriving at WKU, he had zero experience of living independently",
+        "He will never live away from home",
+        "He lived away a long time ago"
+      ],
+      "correct": "Before arriving at WKU, he had zero experience of living independently",
+      "hint": "Past Perfect = before a past reference point. \"Had never lived\" = up to the moment of arriving at WKU. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He has been working as a tutor since October.\" — Tense:",
+      "opts": [
+        "Past Simple",
+        "Present Perfect Simple",
+        "Present Perfect Continuous",
+        "Past Continuous"
+      ],
+      "correct": "Present Perfect Continuous",
+      "hint": "\"has been working\" = Present Perfect Continuous. Started in October, still happening now. Duration up to now. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"His application is being used by thirty students.\" — Tense:",
+      "opts": [
+        "Present Simple Passive",
+        "Present Continuous Passive",
+        "Past Simple Passive",
+        "Present Perfect Passive"
+      ],
+      "correct": "Present Continuous Passive",
+      "hint": "\"is being used\" = Present Continuous Passive. It is being used right now, ongoing. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I noticed I had been writing for twenty minutes without thinking about Kazakh.\" — \"had been writing\" is:",
+      "opts": [
+        "Past Simple",
+        "Past Continuous",
+        "Past Perfect Continuous",
+        "Present Perfect Continuous"
+      ],
+      "correct": "Past Perfect Continuous",
+      "hint": "\"had been writing\" = Past Perfect Continuous. The writing was ongoing before the moment of noticing. Duration in the earlier past. ✅"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "l69-4",
+  "moduleNum": 11,
+  "lessonNum": 7,
+  "moduleTitle": "Society & Social Issues",
+  "title": "Writing: A Discussion Essay on a Social Issue",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduction: introduce the issue and state both sides exist",
+      "hint": "Do not give your opinion yet — just present the issue"
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Arguments FOR one position (with evidence or example)",
+      "hint": "Use \"First,\" \"Furthermore,\" \"For example\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Arguments FOR the other position (with evidence or example)",
+      "hint": "Use \"On the other hand,\" \"However,\" \"Critics argue that\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Your conclusion: which side is stronger and why",
+      "hint": "Use \"In conclusion,\" \"On balance,\" \"I believe that\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "The question of whether ",
+      "suffix": " is one that divides opinion.",
+      "placeholder": "e.g., university should be free",
+      "hint": "Introduce the topic without taking a side"
+    },
+    {
+      "key": "l2",
+      "prefix": "Those who support ",
+      "suffix": " argue that ___.",
+      "hint": "Introduce the first position",
+      "placeholder": "e.g., free university / it increases equality of opportunity"
+    },
+    {
+      "key": "l3",
+      "prefix": "Furthermore, ",
+      "suffix": ".",
+      "placeholder": "a second supporting argument or example",
+      "hint": "Add evidence or a second point for this position"
+    },
+    {
+      "key": "l4",
+      "prefix": "On the other hand, critics point out that ",
+      "suffix": ".",
+      "placeholder": "the main counter-argument",
+      "hint": "Present the opposing view fairly"
+    },
+    {
+      "key": "l5",
+      "prefix": "They argue that ",
+      "suffix": ".",
+      "placeholder": "a supporting point for the counter-argument",
+      "hint": "Give a reason or example for the other side"
+    },
+    {
+      "key": "l6",
+      "prefix": "In conclusion, on balance I believe that ",
+      "suffix": ", because ___.",
+      "hint": "State your reasoned position clearly",
+      "placeholder": "e.g., the benefits outweigh the costs / the evidence supports..."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing the issue",
+      "color": "#003876",
+      "items": [
+        "The question of… is one that divides opinion.",
+        "There is ongoing debate about whether…",
+        "This is a complex issue with arguments on both sides.",
+        "The issue of… has become increasingly important.",
+        "Views on this question are strongly divided."
+      ]
+    },
+    {
+      "category": "Presenting one side",
+      "color": "#1D9E75",
+      "items": [
+        "Supporters of this view argue that…",
+        "One of the strongest arguments in favour is…",
+        "There is compelling evidence that…",
+        "For example, in countries such as…",
+        "Furthermore, research suggests that…"
+      ]
+    },
+    {
+      "category": "Presenting the other side",
+      "color": "#C9933B",
+      "items": [
+        "On the other hand, critics argue that…",
+        "However, this view is challenged by…",
+        "A significant drawback is that…",
+        "Opponents of this position point out…",
+        "It is worth noting that…"
+      ]
+    },
+    {
+      "category": "Reaching a conclusion",
+      "color": "#1B8FC4",
+      "items": [
+        "In conclusion, on balance I believe that…",
+        "Taking everything into account…",
+        "While both sides have merit, the evidence suggests…",
+        "Overall, the case for… is stronger because…",
+        "I would argue that… is the more effective approach."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ housing crisis is one of the most serious issues facing cities today.\" Choose the article.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"The housing crisis\" — specific, known issue being discussed",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ education is the key to social mobility.\" (General statement)",
+      "correct": "No article (X)",
+      "hint": "Education as a general concept: zero article",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There is ___ strong argument for government intervention in the housing market.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "a",
+      "hint": "\"A strong argument\" — first mention, one argument",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ poor and ___ homeless are the groups most affected by housing shortages.\"",
+      "correct": "The / the",
+      "hint": "\"The poor / the homeless\" = group of people (the + adjective)",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which discussion essay phrase introduces the other side correctly?",
+      "opts": [
+        "Furthermore, supporters argue…",
+        "On the other hand, critics argue that…",
+        "In conclusion, both sides are wrong.",
+        "For example, many people say…"
+      ],
+      "correct": "On the other hand, critics argue that…",
+      "hint": "\"On the other hand\" = transition to opposing view",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The society needs more investment in public services\" is correct for a general statement.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Society\" as a general concept = zero article, not \"the society\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ government has ___ responsibility to protect ___ most vulnerable.\"",
+      "correct": "The / a / the",
+      "hint": "\"The government\" (specific); \"a responsibility\" (first mention); \"the most vulnerable\" (superlative)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the correct conclusion phrase?",
+      "opts": [
+        "In conclusion, on balance I believe that free university is stronger solution.",
+        "In conclusion, on balance I believe that free university is the stronger solution.",
+        "In conclusion, on balance I believe that free university is a stronger solution.",
+        "In conclusion, on balance I believe that free university is most stronger solution."
+      ],
+      "correct": "In conclusion, on balance I believe that free university is the stronger solution.",
+      "hint": "Comparative \"stronger\" in context of two options = \"the stronger\"",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "l3-4",
+  "moduleNum": 3,
+  "lessonNum": 4,
+  "moduleTitle": "My things",
+  "title": "Describe your things",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "This is my...",
+      "emoji": "👆",
+      "opts": [
+        "Это мои...",
+        "Это мой/моя...",
+        "Вон то...",
+        "У меня есть..."
+      ],
+      "correct": "Это мой/моя..."
+    },
+    {
+      "id": "p2",
+      "word": "These are my...",
+      "emoji": "✌️",
+      "opts": [
+        "Это мой...",
+        "Вон те мои...",
+        "Вот это мои...",
+        "У меня нет..."
+      ],
+      "correct": "Вот это мои..."
+    },
+    {
+      "id": "p3",
+      "word": "I use it for...",
+      "emoji": "🔧",
+      "opts": [
+        "Я нашёл это...",
+        "Я использую это для...",
+        "Мне это не нужно...",
+        "Я купил это..."
+      ],
+      "correct": "Я использую это для..."
+    },
+    {
+      "id": "p4",
+      "word": "It is very useful.",
+      "emoji": "⭐",
+      "opts": [
+        "Это очень красиво.",
+        "Это очень полезно.",
+        "Это очень дорого.",
+        "Это очень тяжело."
+      ],
+      "correct": "Это очень полезно."
+    },
+    {
+      "id": "p5",
+      "word": "I keep it in...",
+      "emoji": "📦",
+      "opts": [
+        "Я несу это в...",
+        "Я храню это в...",
+        "Я нашёл это в...",
+        "Я купил это в..."
+      ],
+      "correct": "Я храню это в..."
+    },
+    {
+      "id": "p6",
+      "word": "without it / them",
+      "emoji": "🚫",
+      "opts": [
+        "рядом с ним/ними",
+        "без него/них",
+        "вместе с ним/ними",
+        "около него/них"
+      ],
+      "correct": "без него/них"
+    }
+  ],
+  "writingModel": [
+    "In this text, I want to describe the most important things in my room and in my bag at WKU university. I use these things every day for studying, sleeping, and relaxing. Some of these objects are new and some are special gifts from my family.",
+    "This is my laptop. It is a silver ASUS laptop and it is two years old. I use it for watching online lectures, writing essays, video calls with my family, and studying English. This laptop is the most important thing in my room. Without it, studying at university would be impossible for me.",
+    "These are my textbooks on the shelf above my desk. I have six textbooks this semester. That big red book is my English textbook — it is my favourite! Those small blue books are my notebooks. I have one notebook for each subject. I write all my notes in these notebooks.",
+    "This is my phone. It is a Samsung smartphone with a blue case. I use it to call my parents, set my alarm, take photos, and listen to music. That phone charger on my desk is very important — I never leave my room without it! My phone and laptop are my two most essential electronic devices.",
+    "These are the objects I always have in my bag: my laptop, one notebook, three pens, my calculator, my earphones, and a water bottle. That yellow calculator is for Mathematics. Those earphones are from my brother Arman — they are very good quality. I also keep some healthy snacks in my bag because I get hungry between classes!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "I want to describe ",
+      "suffix": " from my room / bag.",
+      "placeholder": "the most important things",
+      "hint": "e.g. three important things"
+    },
+    {
+      "key": "obj1",
+      "prefix": "This is my ",
+      "suffix": ".",
+      "placeholder": "first object",
+      "hint": "e.g. laptop / phone / notebook"
+    },
+    {
+      "key": "obj1desc",
+      "prefix": "It is ",
+      "suffix": ".",
+      "placeholder": "colour + adjective",
+      "hint": "e.g. black and very light"
+    },
+    {
+      "key": "obj1use",
+      "prefix": "I use it for ",
+      "suffix": ".",
+      "placeholder": "what you use it for",
+      "hint": "e.g. studying and watching lectures"
+    },
+    {
+      "key": "obj2",
+      "prefix": "These are my ",
+      "suffix": ".",
+      "placeholder": "second object (plural)",
+      "hint": "e.g. textbooks / pens / notes"
+    },
+    {
+      "key": "obj2desc",
+      "prefix": "They are ",
+      "suffix": ".",
+      "placeholder": "describe them",
+      "hint": "e.g. heavy but very useful"
+    },
+    {
+      "key": "obj3",
+      "prefix": "My most important object is ",
+      "suffix": ".",
+      "placeholder": "your most important thing",
+      "hint": "e.g. my laptop / my phone / my dictionary"
+    },
+    {
+      "key": "why",
+      "prefix": "I cannot study without ",
+      "suffix": " — it is essential for me.",
+      "placeholder": "this object",
+      "hint": "e.g. my laptop / my notebook"
+    },
+    {
+      "key": "special",
+      "prefix": "This ",
+      "suffix": " is a special gift from my ___.",
+      "placeholder": "object",
+      "hint": "e.g. pen / book / bag"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing objects",
+      "color": "#003876",
+      "items": [
+        "This is my...",
+        "That is my...",
+        "These are my...",
+        "Those are...",
+        "It is (colour + adjective).",
+        "They are very useful / important."
+      ]
+    },
+    {
+      "category": "Location & storage",
+      "color": "#1B8FC4",
+      "items": [
+        "It is on my desk / shelf.",
+        "I keep it in my bag.",
+        "It is next to my bed.",
+        "I always have it with me.",
+        "It is in my wardrobe."
+      ]
+    },
+    {
+      "category": "Function & purpose",
+      "color": "#7C3AED",
+      "items": [
+        "I use it for studying / writing.",
+        "I use them for online lectures.",
+        "It helps me to concentrate.",
+        "Without it, I cannot study.",
+        "I use this every day."
+      ]
+    },
+    {
+      "category": "Special & important",
+      "color": "#1D9E75",
+      "items": [
+        "This is a gift from my...",
+        "This is my favourite object.",
+        "It is very important to me.",
+        "I cannot live without this!",
+        "This is the most essential thing."
+      ]
+    }
+  ]
+}

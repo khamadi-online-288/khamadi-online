@@ -1,0 +1,255 @@
+{
+  "id": "l14-3",
+  "moduleNum": 14,
+  "lessonNum": 3,
+  "moduleTitle": "Weather and clothes",
+  "title": "What are you wearing today?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Gulnara",
+      "text": "Arsen! You look really warm today. What are you wearing?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "A thick orange sweater, dark jeans, and my brown leather boots. It's minus six outside — very cold!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Oh! I only have a thin blue jacket and white trainers. I didn't check the forecast this morning!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "Really? That's not enough for today. Your jacket looks quite light and not very warm at all.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "I know — I can feel it now! My hands are absolutely freezing. I should have worn my thick coat.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "Here — take my scarf. I have two layers underneath so I'm warm enough without it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Are you sure? Thank you so much, Arsen! This scarf is so soft and wonderfully warm!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "It's pure wool — my mum bought it at the market in Almaty. Very good quality.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "And your knitted grey hat — it looks really cosy! Does it keep your ears warm?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "Completely — it covers my ears entirely. In minus six degrees, that is very important!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "You always dress so practically. Do you check the weather forecast every morning?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "Every single morning! I check my forecast app before I even get out of bed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "I need to do that too. Today was a real lesson — always check the weather before you get dressed!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arsen",
+      "text": "Exactly! And always keep a warm scarf in your bag. Just in case — you never know!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "sweater",
+      "emoji": "🧥",
+      "opts": [
+        "пальто",
+        "куртка",
+        "шарф",
+        "свитер / джемпер"
+      ],
+      "correct": "свитер / джемпер"
+    },
+    {
+      "id": "p2",
+      "word": "trainers",
+      "emoji": "👟",
+      "opts": [
+        "сапоги",
+        "ботинки",
+        "туфли",
+        "кроссовки"
+      ],
+      "correct": "кроссовки"
+    },
+    {
+      "id": "p3",
+      "word": "scarf",
+      "emoji": "🧣",
+      "opts": [
+        "перчатки",
+        "шапка",
+        "носки",
+        "шарф"
+      ],
+      "correct": "шарф"
+    },
+    {
+      "id": "p4",
+      "word": "cosy",
+      "emoji": "🛋️",
+      "opts": [
+        "холодный / неудобный",
+        "жёсткий",
+        "модный",
+        "уютный / тёплый и комфортный"
+      ],
+      "correct": "уютный / тёплый и комфортный"
+    },
+    {
+      "id": "p5",
+      "word": "pure wool",
+      "emoji": "🐑",
+      "opts": [
+        "смешанная ткань",
+        "хлопок",
+        "синтетика",
+        "чистая шерсть"
+      ],
+      "correct": "чистая шерсть"
+    },
+    {
+      "id": "p6",
+      "word": "forecast",
+      "emoji": "📱",
+      "opts": [
+        "температура",
+        "влажность",
+        "прогноз погоды",
+        "осадки"
+      ],
+      "correct": "прогноз погоды"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Arsen is wearing a thick orange sweater and brown leather boots today.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Gulnara checked the weather forecast before leaving the dormitory this morning.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Arsen lends his scarf to Gulnara to help her stay warm.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Arsen's wool scarf was bought at a market in Astana.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Arsen's knitted hat is grey and covers his ears completely.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Gulnara decides she will always check the weather forecast before getting dressed.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "gulnara",
+      "name": "Gulnara",
+      "city": "Shymkent",
+      "emoji": "🩺",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Medicine student, Year 2"
+    },
+    {
+      "id": "arsen",
+      "name": "Arsen",
+      "city": "Almaty",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "IT student, Year 1"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Wearing a thick orange sweater, dark jeans, and brown leather boots.",
+      "correctCharId": "arsen"
+    },
+    {
+      "id": "s2",
+      "text": "Forgot to check the forecast and wore clothes that are too light for the weather.",
+      "correctCharId": "gulnara"
+    },
+    {
+      "id": "s3",
+      "text": "Lent their scarf to help the other person stay warm outside.",
+      "correctCharId": "arsen"
+    },
+    {
+      "id": "s4",
+      "text": "Said the wool scarf was bought at the market in Almaty by their mother.",
+      "correctCharId": "arsen"
+    },
+    {
+      "id": "s5",
+      "text": "Checks the weather forecast app every morning before getting out of bed.",
+      "correctCharId": "arsen"
+    },
+    {
+      "id": "s6",
+      "text": "Decided to always check the forecast before getting dressed in future.",
+      "correctCharId": "gulnara"
+    }
+  ]
+}

@@ -1,0 +1,514 @@
+{
+  "id": "l79-g2",
+  "moduleNum": 21,
+  "lessonNum": 6,
+  "moduleTitle": "Economics & Money in Society",
+  "title": "Grammar: Word Formation — Adjectives, Adverbs, and Prefixes",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Прилагательные и наречия для описания экономических концептов:\n\nИзменение/рост:\nsignificantly / considerably / substantially → значительно\nslightly / marginally / moderately → незначительно\nsteadily / consistently → стабильно\ndramatically / sharply / rapidly → резко\n\nТенденции:\nto increase/rise/grow → расти (increase in GDP)\nto decrease/fall/decline → падать (decline in exports)\nto fluctuate → колебаться\nto stabilise → стабилизироваться\nto peak at → достичь пика\nto bottom out → достичь минимума\n\n💡 Для графиков и статистики:\n\"GDP increased significantly by 5%.\"\n\"Unemployment fell sharply from 8% to 3%.\"\n\"Exports remained relatively stable.\"",
+  "grammarTable": [
+    {
+      "subject": "-al / -ial / -ical",
+      "verb": "noun → adjective (relating to)",
+      "short": "finance → financial",
+      "example": "economy → economic; globe → global; finance → financial; nation → national; politics → political"
+    },
+    {
+      "subject": "-ive / -ative",
+      "verb": "noun/verb → adjective (tending to)",
+      "short": "produce → productive",
+      "example": "produce → productive; distribute → distributive; compete → competitive; speculate → speculative; inflate → inflationary"
+    },
+    {
+      "subject": "-able / -ible",
+      "verb": "verb → adjective (capable of)",
+      "short": "sustain → sustainable",
+      "example": "sustain → sustainable; access → accessible; afford → affordable; predict → predictable; rely → reliable"
+    },
+    {
+      "subject": "-ly",
+      "verb": "adjective → adverb (manner)",
+      "short": "economic → economically",
+      "example": "significant → significantly; rapid → rapidly; stable → stably; global → globally; general → generally"
+    },
+    {
+      "subject": "Negative prefixes",
+      "verb": "un-, dis-, in-, im-, ir-",
+      "short": "equal → unequal",
+      "example": "equal → unequal; stable → unstable; employed → unemployed; efficient → inefficient; reversible → irreversible"
+    },
+    {
+      "subject": "Scale prefixes",
+      "verb": "over-, under-, macro-, micro-",
+      "short": "valued → undervalued",
+      "example": "valued → overvalued/undervalued; priced → overpriced; developed → underdeveloped; economics → macroeconomics/microeconomics"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "-al / -ical / -ial: Adjectives from Nouns",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "economy → economic / economics → economic",
+          "example": "\"An economic policy is about the economy.\" / \"An economical car uses little fuel.\" (Note the difference!)"
+        },
+        {
+          "form": "finance → financial",
+          "example": "\"Financial markets determine interest rates.\" / \"She is financially independent.\""
+        },
+        {
+          "form": "politics → political",
+          "example": "\"Political decisions shape economic outcomes.\" / \"Politically motivated policies may distort markets.\""
+        },
+        {
+          "form": "structure → structural; industry → industrial",
+          "example": "\"Structural unemployment results from changes in the economy's structure.\" / \"Industrial output fell.\""
+        }
+      ]
+    },
+    {
+      "title": "-able / -ible: Capable of Being",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "sustain → sustainable",
+          "example": "\"A sustainable economy meets present needs without compromising future ones.\""
+        },
+        {
+          "form": "afford → affordable",
+          "example": "\"Affordable housing requires government intervention in most major cities.\""
+        },
+        {
+          "form": "predict → predictable",
+          "example": "\"Stable economies are more predictable for businesses planning investments.\""
+        },
+        {
+          "form": "access → accessible",
+          "example": "\"Financial services must be accessible to all citizens, not just the wealthy.\""
+        }
+      ]
+    },
+    {
+      "title": "Negative Prefixes: un-, dis-, in-/im-, ir-",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "un- = most common negative prefix",
+          "example": "un-equal, un-employed, un-affordable, un-stable, un-reliable, un-regulated"
+        },
+        {
+          "form": "dis- = negation or reversal",
+          "example": "dis-agree, dis-advantage, dis-invest, dis-trust, dis-proportionate"
+        },
+        {
+          "form": "in-/im- = before adjectives (not capable of)",
+          "example": "in-efficient, in-flexible, im-possible, im-perfect, in-adequate, in-accessible"
+        },
+        {
+          "form": "ir- = before words beginning with r",
+          "example": "ir-rational, ir-reversible, ir-regular, ir-responsible"
+        }
+      ]
+    },
+    {
+      "title": "Scale Prefixes: over-, under-, macro-, micro-",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "over- = too much/more than expected",
+          "example": "overvalued (currency worth more than its true value); overproduction; overregulation; overspend"
+        },
+        {
+          "form": "under- = too little/less than expected",
+          "example": "undervalued; underdeveloped; underemployed; underinvestment; underfunded"
+        },
+        {
+          "form": "macro- = large scale / whole economy",
+          "example": "macroeconomics (study of the whole economy); macroeconomic policy; macro-level analysis"
+        },
+        {
+          "form": "micro- = small scale / individual level",
+          "example": "microeconomics (study of individual firms/consumers); microfinance; micro-level decision"
+        }
+      ]
+    },
+    {
+      "title": "Common Economic Word Families with Prefixes",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "employ: employed, unemployed, employer, employee, employment, unemployment, underemployed",
+          "example": "\"High unemployment is a macroeconomic challenge; underemployment is an equally serious microeconomic one.\""
+        },
+        {
+          "form": "value: valuable, valued, undervalued, overvalued, devalue, evaluate",
+          "example": "\"When a currency is overvalued, exports become uncompetitive and the trade deficit widens.\""
+        },
+        {
+          "form": "regulate: regulated, unregulated, deregulate, regulator, regulation, over-regulated",
+          "example": "\"An unregulated market may produce externalities that require government intervention.\""
+        },
+        {
+          "form": "develop: developed, developing, underdeveloped, development, developer, redevelop",
+          "example": "\"In underdeveloped economies, infrastructure investment is a key prerequisite for growth.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Form the correct adjective.",
+      "text": "\"___ markets tend to attract more foreign investment.\" (stable → adjective with -ble meaning capable of being stable)",
+      "opts": [
+        "stability",
+        "stably",
+        "stable",
+        "stabilising"
+      ],
+      "correct": "stable",
+      "hint": "stable → stable (the adjective IS \"stable\" — no change needed; or: stabilised)"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Form the adjective.",
+      "text": "\"___ housing is a critical issue in most major cities.\" (afford → adjective)",
+      "correct": "Affordable",
+      "hint": "afford → affordable (-able: capable of being afforded)"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct prefix.",
+      "text": "\"The currency was ___ — its value was higher than the true market rate.\" (over- or under-?)",
+      "opts": [
+        "underpaid",
+        "overpaid",
+        "overvalued",
+        "undervalued"
+      ],
+      "correct": "overvalued",
+      "hint": "over- = too high/more than true value"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Form the adverb.",
+      "text": "\"Prices rose ___ during the period of hyperinflation.\" (rapid → adverb)",
+      "correct": "rapidly",
+      "hint": "rapid → rapidly (-ly suffix for adverb)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct negative prefix.",
+      "text": "\"High ___ means many people who want to work cannot find a job.\" (employ → opposite noun)",
+      "opts": [
+        "underemployment",
+        "disemployment",
+        "unemployment",
+        "unwork"
+      ],
+      "correct": "unemployment",
+      "hint": "un- + employment = unemployment"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Form the adjective from the verb.",
+      "text": "\"An ___ market allocates resources better than a planned economy.\" (compete → adjective: competitive)\", (first letter already given)",
+      "correct": "competitive",
+      "hint": "compete → competitive (-ive suffix: having the quality of competition)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "\"___ economics studies individual firms and consumers.\" (micro- or macro-?)",
+      "opts": [
+        "Macroeconomics",
+        "Microeconomics",
+        "Minieconomics",
+        "Undereconomics"
+      ],
+      "correct": "Microeconomics",
+      "hint": "micro- = small scale (individuals/firms); macro- = large scale (whole economy)"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Add the correct prefix.",
+      "text": "\"Countries with poor infrastructure are often ___ (= less developed than they could be) economically.\", (under-)",
+      "correct": "underdeveloped",
+      "hint": "under- + developed = underdeveloped (less developed than expected/possible)"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct adjective form.",
+      "text": "\"A ___ economy grows in a way that can be maintained long-term.\" (sustain → adjective)",
+      "opts": [
+        "sustainability",
+        "sustained",
+        "sustainable",
+        "sustaining"
+      ],
+      "correct": "sustainable",
+      "hint": "sustain → sustainable (-able: capable of being sustained)"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Form the correct adverb.",
+      "text": "\"Income is ___ distributed — the top 10% receive most of the gains.\" (unequal → adverb)\", (unequally)",
+      "correct": "unequally",
+      "hint": "unequal → unequally (-ly suffix: in an unequal manner)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "\"Many people are ___ — they have jobs but are working below their skill level.\" (un + employ)",
+      "opts": [
+        "unemployed",
+        "underemployed",
+        "disemployed",
+        "unworkable"
+      ],
+      "correct": "underemployed",
+      "hint": "under- + employed = underemployed (working below capacity/skill level)"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Form the adjective.",
+      "text": "\"Some economic models are based on ___ assumptions about human behaviour.\" (ir + rational)\", (irrational)",
+      "correct": "irrational",
+      "hint": "ir- + rational = irrational (not rational)"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct adverb.",
+      "text": "\"The economy grew ___ during the post-war period.\" (significant → adverb)",
+      "opts": [
+        "significant",
+        "significance",
+        "significantly",
+        "signifying"
+      ],
+      "correct": "significantly",
+      "hint": "significant → significantly (-ly suffix for adverb)"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Form the correct word with a prefix.",
+      "text": "\"When governments ___ markets, removing rules and restrictions, prices often fall.\" (re- + regulate → opposite of regulate: deregulate?)\", use \"deregulate\"",
+      "correct": "deregulate",
+      "hint": "de- + regulate = deregulate (remove regulations)"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"The market was ___ — the regulation was excessive and stifled innovation.\" (over + regulate + adjective)",
+      "opts": [
+        "underregulated",
+        "overregulation",
+        "over-regulated",
+        "deregulated"
+      ],
+      "correct": "over-regulated",
+      "hint": "over- + regulated = over-regulated (too much regulation)",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "fill",
+      "instruction": "Form the correct adjective.",
+      "text": "\"___ economies need infrastructure investment before growth can accelerate.\", (under + develop → adjective)",
+      "correct": "Underdeveloped",
+      "hint": "under- + developed = underdeveloped (less developed than potential)",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ housing requires government intervention in most cities.\" (afford → adjective)",
+      "opts": [
+        "Affordance",
+        "Affordable",
+        "Affordability",
+        "Afforded"
+      ],
+      "correct": "Affordable",
+      "hint": "afford → affordable (-able suffix)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"High ___ is a major macroeconomic challenge.\" (employ → negative noun)",
+      "correct": "unemployment",
+      "hint": "un- + employ + -ment = unemployment",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The study of individual firms and consumers is called ___ economics.\"",
+      "opts": [
+        "macro",
+        "micro",
+        "mini",
+        "sub"
+      ],
+      "correct": "micro",
+      "hint": "micro- = small scale/individual level",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The currency was ___ — its value was lower than its true worth.\" (under- prefix)",
+      "correct": "undervalued",
+      "hint": "under- + valued = undervalued",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Income rose ___ during the economic boom.\" (significant → adverb)",
+      "opts": [
+        "significant",
+        "significance",
+        "signified",
+        "significantly"
+      ],
+      "correct": "significantly",
+      "hint": "significant → significantly (-ly suffix)",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Economic\" (relating to the economy) and \"economical\" (thrifty/cost-saving) have the same meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Economic\" relates to the economy; \"economical\" means efficient/cost-saving",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"A ___ economy grows without depleting future resources.\" (sustain → adjective)",
+      "correct": "sustainable",
+      "hint": "sustain → sustainable (-able suffix)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Many assumptions in standard economics are ___ — people don't behave rationally.\" (ir- prefix)",
+      "opts": [
+        "unrational",
+        "irrational",
+        "misrational",
+        "disrational"
+      ],
+      "correct": "irrational",
+      "hint": "ir- + rational = irrational (before words beginning with r)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Markets need regulation; but ___ (too much regulation) stifles innovation.\" (over- prefix)",
+      "correct": "overregulation",
+      "hint": "over- + regulation = overregulation",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She is ___ employed — she has a job but it requires far less skill than she has.\" (under- prefix)",
+      "opts": [
+        "unemployed",
+        "underemployed",
+        "misemployed",
+        "overemployed"
+      ],
+      "correct": "underemployed",
+      "hint": "under- + employed = underemployed",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The government decided to ___ the industry — removing many of the existing regulations.\" (de- + regulate)",
+      "correct": "deregulate",
+      "hint": "de- + regulate = deregulate (remove regulations)",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ economies with low income levels often face infrastructure shortages.\" (under- + develop)",
+      "opts": [
+        "Underdeveloped",
+        "Overdeveloped",
+        "Misdeveloped",
+        "Undevelopable"
+      ],
+      "correct": "Underdeveloped",
+      "hint": "under- + developed = underdeveloped",
+      "points": 2
+    }
+  ]
+}

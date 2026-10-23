@@ -1,0 +1,386 @@
+{
+  "id": "l51-5",
+  "moduleNum": 17,
+  "lessonNum": 8,
+  "moduleTitle": "Technology & Opinion",
+  "type": "test",
+  "title": "Module 17 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the social media text say algorithms are optimised for?",
+      "opts": [
+        "User wellbeing",
+        "Educational content",
+        "Emotional engagement (outrage, anxiety, envy)",
+        "Political news"
+      ],
+      "correct": "Emotional engagement (outrage, anxiety, envy)",
+      "hint": "\"Optimised for the content that triggers the strongest emotional response — outrage, anxiety, envy.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does research show about handwriting vs typing notes?",
+      "opts": [
+        "Typing is better",
+        "Both are equal",
+        "Handwriting leads to better understanding and retention",
+        "It depends on the subject"
+      ],
+      "correct": "Handwriting leads to better understanding and retention",
+      "hint": "\"Students who handwrite their notes understand and retain more than students who type them.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The social media text says social media is always harmful.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The case for social media is not difficult to make.\" — it presents both sides."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The technology text says a smartphone on a desk reduces ___ even if unused.",
+      "correct": "cognitive performance",
+      "hint": "\"Reduce cognitive performance simply because of its proximity.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main conclusion of both technology reading texts?",
+      "opts": [
+        "Technology is always bad",
+        "Technology is always good",
+        "Technology is a tool — it depends on how it is used",
+        "Technology should be banned"
+      ],
+      "correct": "Technology is a tool — it depends on how it is used",
+      "hint": "Both texts conclude: technology is a tool; use matters more than the tool itself."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the social media text say about social media literacy?",
+      "opts": [
+        "Only teachers need it",
+        "It's as important as reading and writing — maybe more so",
+        "It's just a hobby",
+        "It's only for journalists"
+      ],
+      "correct": "It's as important as reading and writing — maybe more so",
+      "hint": "\"Social media literacy... is as important as reading and writing. Perhaps more so.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What types of tasks does Amir say are already being replaced by automation?",
+      "opts": [
+        "Creative tasks",
+        "Routine tasks — data entry, basic customer service",
+        "Sports coaching",
+        "University lecturing"
+      ],
+      "correct": "Routine tasks — data entry, basic customer service",
+      "hint": "\"Data entry, basic customer service, simple manufacturing.\" — already being replaced."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about coaches who use AI?",
+      "opts": [
+        "They will be replaced",
+        "They will be enhanced — not replaced",
+        "They will earn less",
+        "They don't need AI"
+      ],
+      "correct": "They will be enhanced — not replaced",
+      "hint": "\"The coach who uses AI tools well will be better — not replaced. The tool enhances the human.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which skills does Amir say will be most valuable?",
+      "opts": [
+        "Memory and speed",
+        "Physical strength",
+        "Critical thinking, creativity, AI literacy, languages",
+        "Traditional crafts"
+      ],
+      "correct": "Critical thinking, creativity, AI literacy, languages",
+      "hint": "\"Critical thinking. Creativity. The ability to work with AI. And languages — especially English.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about the education system?",
+      "opts": [
+        "It's perfect",
+        "It needs to adapt faster — still training for disappearing jobs",
+        "It should use less technology",
+        "It's the best in Central Asia"
+      ],
+      "correct": "It needs to adapt faster — still training for disappearing jobs",
+      "hint": "\"The education system needs to adapt much faster... still training people for jobs that are disappearing.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir describes himself as \"___ optimistic\" about the future of work.",
+      "correct": "cautiously",
+      "hint": "\"Cautiously optimistic. Technology has always created new jobs alongside the ones it eliminated.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Zhibek's optimism is conditional on:",
+      "opts": [
+        "New technology being invented",
+        "Education changing",
+        "More automation",
+        "Lower unemployment"
+      ],
+      "correct": "Education changing",
+      "hint": "\"I'm optimistic if education changes. If it doesn't, I'm worried.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is ___ engineer.\" Choose.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "an",
+      "hint": "\"engineer\" starts with vowel \"e\" → AN engineer. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I bought ___ laptop. ___ laptop was expensive.\" Choose.",
+      "opts": [
+        "a / The",
+        "the / A",
+        "a / A",
+        "the / The"
+      ],
+      "correct": "a / The",
+      "hint": "1st mention → \"A\". 2nd mention (known) → \"THE\". ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ education is important.\" — Choose.",
+      "opts": [
+        "The",
+        "An",
+        "A",
+        "Ø (no article)"
+      ],
+      "correct": "Ø (no article)",
+      "hint": "\"Education\" as a general concept = zero article. \"EDUCATION is important.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is ___ best student in the class.\" — Choose.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "the",
+      "hint": "Superlative = always THE. \"THE best student.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She speaks ___ Kazakh.\" — Choose.",
+      "opts": [
+        "the",
+        "a",
+        "an",
+        "Ø (no article)"
+      ],
+      "correct": "Ø (no article)",
+      "hint": "Languages = zero article. \"She speaks KAZAKH.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ internet has changed the world.\" — Choose.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "Ø (no article)"
+      ],
+      "correct": "The",
+      "hint": "\"THE internet\" = unique. There is only one internet. ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She goes to ___ gym every day.\" (fixed expression)",
+      "correct": "the",
+      "hint": "Fixed: \"go to THE gym.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ music at the concert was amazing.\" — Choose.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "Ø (no article)"
+      ],
+      "correct": "The",
+      "hint": "\"THE music at the concert\" = specific music, at this event. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The platform maximises engagement.\" \"Engagement\" means:",
+      "opts": [
+        "Income",
+        "Privacy",
+        "Active user involvement and interaction",
+        "Data storage"
+      ],
+      "correct": "Active user involvement and interaction",
+      "hint": "\"engagement\" = active involvement; how much users interact with content."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The research is contested.\" \"Contested\" means:",
+      "opts": [
+        "Proven",
+        "Disputed — not agreed upon",
+        "Unpublished",
+        "Very old"
+      ],
+      "correct": "Disputed — not agreed upon",
+      "hint": "\"contested\" = disputed; different experts have different conclusions."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Students retain more when handwriting.\" \"Retain\" means:",
+      "opts": [
+        "Forget quickly",
+        "Keep and remember information",
+        "Write faster",
+        "Understand less"
+      ],
+      "correct": "Keep and remember information",
+      "hint": "\"retain\" = to keep; to continue to have information in memory over time."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The benefits outweigh the risks.\" \"Outweigh\" means:",
+      "opts": [
+        "Are equal to",
+        "Are less than",
+        "Are greater in importance",
+        "Are similar to"
+      ],
+      "correct": "Are greater in importance",
+      "hint": "\"outweigh\" = to be greater or more important."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Curated images of other people's lives.\" \"Curated\" means:",
+      "opts": [
+        "Random",
+        "Carefully selected to create an impression",
+        "Authentic and unedited",
+        "Black and white"
+      ],
+      "correct": "Carefully selected to create an impression",
+      "hint": "\"curated\" = carefully selected and arranged, usually to create a specific impression."
+    }
+  ]
+}

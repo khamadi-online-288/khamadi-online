@@ -1,0 +1,509 @@
+{
+  "id": "l18-2",
+  "moduleNum": 2,
+  "lessonNum": 2,
+  "moduleTitle": "Health & the Body",
+  "title": "At the clinic",
+  "type": "listening",
+  "xp": 60,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Nurse",
+      "text": "WKU Medical Centre, good morning. How can I help you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Good morning. I'd like to make an appointment. I've got a bad stomachache and I've been sick twice this morning.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nurse",
+      "text": "I'm sorry to hear that. Have you got a fever as well?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'm not sure — I feel hot and cold at the same time. And I've got a really bad headache.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nurse",
+      "text": "It sounds like it could be food poisoning or a stomach virus. Can you come in right now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes, I can. I'm in the dormitory — I can be there in five minutes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Nurse",
+      "text": "Perfect. Ask for Dr. Nurova at reception. She's the duty doctor today.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Come in, Amir. I've read your form. How are you feeling right now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Really bad, doctor. My stomach hurts a lot, I've got nausea, and I feel dizzy.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Have you eaten anything unusual in the last 24 hours?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I had a chicken shawarma from the street stall near the gates last night. It tasted a bit strange.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "That's likely the cause. You've got food poisoning. You have to drink a lot of fluids and rest.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Do I have to take antibiotics?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "No, you don't have to — it's not bacterial. But you must avoid solid food for 24 hours. Only water, herbal tea, and clear soup.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Should I go to hospital?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "No, you don't have to go to hospital. Stay in the dormitory, rest, and come back tomorrow if you're not improving.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Thank you, doctor. I feel better already just knowing what it is.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "stomachache",
+      "emoji": "🤢",
+      "opts": [
+        "боль в голове",
+        "боль в животе",
+        "боль в спине",
+        "боль в ногах"
+      ],
+      "correct": "боль в животе"
+    },
+    {
+      "id": "p2",
+      "word": "nausea",
+      "emoji": "🤮",
+      "opts": [
+        "головокружение",
+        "тошнота",
+        "жар",
+        "озноб"
+      ],
+      "correct": "тошнота"
+    },
+    {
+      "id": "p3",
+      "word": "dizzy",
+      "emoji": "😵",
+      "opts": [
+        "больной",
+        "голодный",
+        "головокружение",
+        "уставший"
+      ],
+      "correct": "головокружение"
+    },
+    {
+      "id": "p4",
+      "word": "food poisoning",
+      "emoji": "🍗",
+      "opts": [
+        "пищевая аллергия",
+        "пищевое отравление",
+        "желудочный вирус",
+        "воспаление"
+      ],
+      "correct": "пищевое отравление"
+    },
+    {
+      "id": "p5",
+      "word": "fluids",
+      "emoji": "💧",
+      "opts": [
+        "таблетки",
+        "жидкости",
+        "витамины",
+        "уколы"
+      ],
+      "correct": "жидкости"
+    },
+    {
+      "id": "p6",
+      "word": "herbal tea",
+      "emoji": "🍵",
+      "opts": [
+        "кофе",
+        "травяной чай",
+        "молоко",
+        "сок"
+      ],
+      "correct": "травяной чай"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir has a stomachache and has been sick twice.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The nurse asks Amir to come in the next day.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Dr. Nurova thinks Amir has food poisoning.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Dr. Nurova prescribes antibiotics for Amir.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Amir has to avoid solid food for 24 hours.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Dr. Nurova tells Amir to go to hospital.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "🤢",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Student — patient"
+    },
+    {
+      "id": "nurse",
+      "name": "Nurse",
+      "city": "WKU",
+      "emoji": "👩‍⚕️",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Reception nurse"
+    },
+    {
+      "id": "dr",
+      "name": "Dr. Nurova",
+      "city": "WKU",
+      "emoji": "👩‍⚕️",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Duty doctor"
+    },
+    {
+      "id": "cause",
+      "name": "Shawarma",
+      "city": "—",
+      "emoji": "🥙",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "The cause of the problem!"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"I've got a bad stomachache and I've been sick twice.\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "\"Ask for Dr. Nurova — she's the duty doctor today.\"",
+      "correctCharId": "nurse"
+    },
+    {
+      "id": "s3",
+      "text": "\"You've got food poisoning. You have to drink a lot of fluids.\"",
+      "correctCharId": "dr"
+    },
+    {
+      "id": "s4",
+      "text": "\"Do I have to take antibiotics?\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "\"No, you don't have to go to hospital.\"",
+      "correctCharId": "dr"
+    },
+    {
+      "id": "s6",
+      "text": "Ate last night and caused all the problems.",
+      "correctCharId": "cause"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir call the medical centre?",
+      "opts": [
+        "He has a headache",
+        "He has a stomachache and has been sick",
+        "He has a broken arm",
+        "He has a sore throat"
+      ],
+      "correct": "He has a stomachache and has been sick",
+      "hint": "\"I've got a bad stomachache and I've been sick twice this morning.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir also complain about besides his stomach?",
+      "opts": [
+        "Chest pain",
+        "A headache and feeling hot/cold",
+        "A sore throat",
+        "Back pain"
+      ],
+      "correct": "A headache and feeling hot/cold",
+      "hint": "\"I feel hot and cold at the same time. And I've got a really bad headache.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The duty doctor's name is Dr. Akhmetov.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Ask for Dr. Nurova — she's the duty doctor today.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Amir eat the night before?",
+      "opts": [
+        "Pizza from a café",
+        "Chicken shawarma from a street stall",
+        "Food from the university cafeteria",
+        "Noodles"
+      ],
+      "correct": "Chicken shawarma from a street stall",
+      "hint": "\"I had a chicken shawarma from the street stall near the gates.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Dr. Nurova's diagnosis?",
+      "opts": [
+        "Stomach flu",
+        "Viral infection",
+        "Food poisoning",
+        "Bacterial infection"
+      ],
+      "correct": "Food poisoning",
+      "hint": "\"You've got food poisoning.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Dr. Nurova prescribes antibiotics.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, you don't have to — it's not bacterial.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "For how long must Amir avoid solid food?",
+      "opts": [
+        "12 hours",
+        "24 hours",
+        "48 hours",
+        "72 hours"
+      ],
+      "correct": "24 hours",
+      "hint": "\"You must avoid solid food for 24 hours.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Dr. Nurova tells Amir to go to hospital.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, you don't have to go to hospital.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What can Amir drink? (3 things mentioned)",
+      "opts": [
+        "Coffee, juice, smoothie",
+        "Water, herbal tea, clear soup",
+        "Milk, tea, cola",
+        "Only water"
+      ],
+      "correct": "Water, herbal tea, clear soup",
+      "hint": "\"Only water, herbal tea, and clear soup.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When should Amir come back to the clinic?",
+      "opts": [
+        "The same day",
+        "Tomorrow if not improving",
+        "In three days",
+        "Next week"
+      ],
+      "correct": "Tomorrow if not improving",
+      "hint": "\"Come back tomorrow if you're not improving.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir ___ a stomachache and a terrible headache.",
+      "correct": "has got",
+      "hint": "Amir = He → has got."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "You ___ take antibiotics — it's not bacterial.",
+      "opts": [
+        "don't have to",
+        "must not",
+        "can't",
+        "haven't to"
+      ],
+      "correct": "don't have to",
+      "hint": "don't have to = not necessary (but you could if you wanted)."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Have you got any allergies?\" = \"Do you have any allergies?\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "have got = have. Both mean the same thing."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct form: She ___ a fever of 38.5.",
+      "opts": [
+        "has got",
+        "have got",
+        "is got",
+        "got"
+      ],
+      "correct": "has got",
+      "hint": "She → has got (3rd person singular)."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"nausea\" mean?",
+      "opts": [
+        "headache",
+        "dizziness",
+        "feeling like you want to vomit",
+        "high temperature"
+      ],
+      "correct": "feeling like you want to vomit",
+      "hint": "Nausea = the unpleasant feeling of wanting to be sick."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Food ___\" means you became ill from eating bad food.",
+      "correct": "poisoning",
+      "hint": "Food poisoning = illness caused by eating contaminated food."
+    }
+  ]
+}

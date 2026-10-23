@@ -1,0 +1,246 @@
+{
+  "id": "l71-4",
+  "moduleNum": 13,
+  "lessonNum": 7,
+  "moduleTitle": "Health, Medicine & Wellbeing",
+  "title": "Writing: A Discussion Essay on Public Health Responsibility",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the debate: should responsibility for health lie with governments or individuals?",
+      "hint": "Present both sides — do not state your opinion yet"
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Case for government responsibility: public health, prevention, reducing inequality",
+      "hint": "Use quantifiers: \"all citizens\", \"few individuals\", \"a great deal of evidence\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Case for individual responsibility: personal freedom, lifestyle choices, accountability",
+      "hint": "Use \"on the other hand,\" \"however,\" \"neither extreme is correct\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Balanced conclusion: both play a role — what is the right balance?",
+      "hint": "Use \"on balance,\" \"both governments and individuals,\" \"neither alone is sufficient\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "The question of whether ",
+      "suffix": " is a matter of continuing debate.",
+      "placeholder": "responsibility for public health lies with governments or individuals",
+      "hint": "Introduce the topic without taking sides"
+    },
+    {
+      "key": "l2",
+      "prefix": "Those who argue for greater government responsibility point out that ",
+      "suffix": ".",
+      "placeholder": "many health outcomes are determined by social and environmental factors beyond individual control",
+      "hint": "Present the strongest argument for this position"
+    },
+    {
+      "key": "l3",
+      "prefix": "Furthermore, a great deal of evidence suggests that ",
+      "suffix": ".",
+      "placeholder": "preventive public health measures reduce costs and save lives",
+      "hint": "\"A great deal of evidence\" = formal quantifier; use a specific example"
+    },
+    {
+      "key": "l4",
+      "prefix": "On the other hand, ",
+      "suffix": ".",
+      "placeholder": "individual choices — diet, exercise, sleep — play a crucial role that no government can control",
+      "hint": "Introduce the counter-argument fairly"
+    },
+    {
+      "key": "l5",
+      "prefix": "Critics of heavy intervention argue that ",
+      "suffix": ".",
+      "placeholder": "excessive government control of lifestyle choices undermines personal freedom",
+      "hint": "Present this concern without dismissing it"
+    },
+    {
+      "key": "l6",
+      "prefix": "On balance, I believe that neither governments nor individuals can ",
+      "suffix": " alone — both have essential roles to play.",
+      "placeholder": "ensure population health",
+      "hint": "\"Neither... nor\" for a balanced conclusion"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Government responsibility arguments",
+      "color": "#003876",
+      "items": [
+        "All citizens deserve access to basic healthcare.",
+        "Many health inequalities are structural, not personal.",
+        "A great deal of evidence supports investment in preventive medicine.",
+        "Few individuals can control environmental factors alone.",
+        "The majority of preventable deaths could be avoided with public health investment."
+      ]
+    },
+    {
+      "category": "Individual responsibility arguments",
+      "color": "#1D9E75",
+      "items": [
+        "Each person has the right to make their own lifestyle choices.",
+        "Neither taxes nor regulation can substitute for personal motivation.",
+        "A large number of health conditions are directly linked to personal habits.",
+        "Both diet and exercise are within most individuals' control.",
+        "Every adult bears some responsibility for their own wellbeing."
+      ]
+    },
+    {
+      "category": "Balanced/nuanced phrases",
+      "color": "#C9933B",
+      "items": [
+        "Neither extreme tells the whole story.",
+        "Both governments and individuals have essential roles.",
+        "A little government intervention goes a long way.",
+        "While few would argue against personal responsibility, structural factors cannot be ignored.",
+        "All sides of this debate have merit."
+      ]
+    },
+    {
+      "category": "Formal quantifiers for essays",
+      "color": "#1B8FC4",
+      "items": [
+        "A great deal of research suggests…",
+        "A large number of studies confirm…",
+        "The majority of evidence points to…",
+        "Plenty of data supports the view that…",
+        "Little credible evidence exists for…"
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ citizens deserve access to quality healthcare.\" (100%, as a group)",
+      "opts": [
+        "Every",
+        "All",
+        "Each",
+        "Most"
+      ],
+      "correct": "All",
+      "hint": "\"All\" + plural noun = 100% as a group",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ evidence suggests that preventive medicine is cost-effective.\" (large formal amount)",
+      "correct": "A great deal of",
+      "hint": "\"A great deal of\" = formal, large amount + uncountable",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ governments ___ individuals can solve public health alone.\" (not one, not the other)",
+      "opts": [
+        "Either / or",
+        "Both / and",
+        "Neither / nor",
+        "Few / and"
+      ],
+      "correct": "Neither / nor",
+      "hint": "\"Neither... nor\" = not one and not the other",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ studies have found a clear link between loneliness and poor health.\" (large number, formal)",
+      "correct": "A large number of",
+      "hint": "\"A large number of\" = formal equivalent of \"many\" (countable)",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There is ___ credible evidence for the claim that supplements prevent disease.\" (almost none, negative)",
+      "opts": [
+        "a little",
+        "little",
+        "a few",
+        "few"
+      ],
+      "correct": "little",
+      "hint": "\"Little\" + uncountable = almost none, negative meaning",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"A few studies support this view\" is more positive than \"few studies support this view.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"A few\" = some (positive); \"few\" = almost none (negative)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ side of this debate is completely wrong — both contain important truths.\"",
+      "correct": "Neither",
+      "hint": "\"Neither\" = not one and not the other (of two sides)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ of the arguments presented were convincing.\" (positive — some were convincing)",
+      "opts": [
+        "Few",
+        "A few",
+        "Little",
+        "A little"
+      ],
+      "correct": "A few",
+      "hint": "\"A few of\" = some (positive count)",
+      "points": 2
+    }
+  ]
+}

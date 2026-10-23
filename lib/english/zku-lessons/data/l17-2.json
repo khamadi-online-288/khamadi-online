@@ -1,0 +1,503 @@
+{
+  "id": "l17-2",
+  "moduleNum": 1,
+  "lessonNum": 2,
+  "moduleTitle": "Abilities & Skills",
+  "title": "A talent show",
+  "type": "listening",
+  "xp": 55,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to the WKU Talent Show! I'm going to ask each of you: what can you do? Kamila, let's start with you.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Hi everyone! My name is Kamila. I can play the dombra — I can play about twenty traditional Kazakh songs.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Fantastic! Can you also sing while you play?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, I can sing a little! But I can't sing very well. I'm much better at playing than singing.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "That's wonderful! Now, Amir — what can you do?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I can do a live coding performance! I can build a working website on stage in fifteen minutes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "That's very unusual for a talent show! Can everyone in the audience understand coding?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Ha! Probably not. But I can also do magic tricks with a Rubik's cube — I can solve it in under two minutes!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Impressive! Zhibek, what about you? What can you do?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I can dance! I can perform three different traditional Kazakh dances. I can also do gymnastics — I can do a backflip on stage.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "A backflip! Can you do it right now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Of course I can! Watch this — ",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Oh wow! That was incredible! And finally — Rustam, what can you do for our talent show?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I can juggle three footballs at the same time! And I can also do freestyle football tricks — I can balance the ball on my head for thirty seconds.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Can you juggle and do tricks at the same time?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Yes, I can! I practise every morning. I can't sing or dance, but I can make a football do anything!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Amazing! So we have a dombra player, a tech wizard, a dancer, and a football freestyler. This is going to be the best WKU Talent Show ever!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "talent",
+      "emoji": "🌟",
+      "opts": [
+        "талант",
+        "тренировка",
+        "задание",
+        "выступление"
+      ],
+      "correct": "талант"
+    },
+    {
+      "id": "p2",
+      "word": "perform",
+      "emoji": "🎭",
+      "opts": [
+        "практиковать",
+        "выступать",
+        "смотреть",
+        "записывать"
+      ],
+      "correct": "выступать"
+    },
+    {
+      "id": "p3",
+      "word": "audience",
+      "emoji": "👥",
+      "opts": [
+        "жюри",
+        "учителя",
+        "зрители",
+        "судьи"
+      ],
+      "correct": "зрители"
+    },
+    {
+      "id": "p4",
+      "word": "juggle",
+      "emoji": "🤹",
+      "opts": [
+        "жонглировать",
+        "прыгать",
+        "бросать",
+        "ловить"
+      ],
+      "correct": "жонглировать"
+    },
+    {
+      "id": "p5",
+      "word": "backflip",
+      "emoji": "🤸",
+      "opts": [
+        "прыжок вперёд",
+        "кувырок назад",
+        "стойка на руках",
+        "шпагат"
+      ],
+      "correct": "кувырок назад"
+    },
+    {
+      "id": "p6",
+      "word": "balance",
+      "emoji": "⚖️",
+      "opts": [
+        "бросать",
+        "удерживать равновесие",
+        "крутить",
+        "ловить"
+      ],
+      "correct": "удерживать равновесие"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila can play the dombra and sing very well.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Amir can solve a Rubik's cube in under two minutes.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Zhibek can perform three different traditional Kazakh dances.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam can juggle three footballs at the same time.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam says he can sing and dance very well.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Amir can build a working website on stage in fifteen minutes.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🎵",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Dombra player"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Tech wizard & coder"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Dancer & gymnast"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "⚽",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "Football freestyler"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"I can play about twenty traditional Kazakh songs.\"",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "\"I can build a working website on stage in fifteen minutes.\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "\"I can do a backflip on stage!\"",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "\"I can balance the ball on my head for thirty seconds.\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "\"I can't sing or dance, but I can make a football do anything!\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "\"I can solve a Rubik's cube in under two minutes!\"",
+      "correctCharId": "amir"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What can Kamila do in the talent show?",
+      "opts": [
+        "Sing opera",
+        "Play the dombra",
+        "Do gymnastics",
+        "Code a website"
+      ],
+      "correct": "Play the dombra",
+      "hint": "\"I can play the dombra — I can play about twenty traditional Kazakh songs.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says she can sing very well.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I can't sing very well. I'm much better at playing than singing.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What unusual talent can Amir demonstrate on stage?",
+      "opts": [
+        "Solve a Rubik's cube",
+        "Do a backflip",
+        "Juggle footballs",
+        "Sing in Kazakh"
+      ],
+      "correct": "Solve a Rubik's cube",
+      "hint": "\"I can solve a Rubik's cube in under two minutes!\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does it take Amir to build a website on stage?",
+      "opts": [
+        "Five minutes",
+        "Ten minutes",
+        "Fifteen minutes",
+        "Twenty minutes"
+      ],
+      "correct": "Fifteen minutes",
+      "hint": "\"I can build a working website on stage in fifteen minutes.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many traditional Kazakh dances can Zhibek perform?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "Three",
+      "hint": "\"I can perform three different traditional Kazakh dances.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek can do a backflip on stage.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I can also do gymnastics — I can do a backflip on stage.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long can Rustam balance the football on his head?",
+      "opts": [
+        "Ten seconds",
+        "Twenty seconds",
+        "Thirty seconds",
+        "One minute"
+      ],
+      "correct": "Thirty seconds",
+      "hint": "\"I can balance the ball on my head for thirty seconds.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam says he can sing and dance.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I can't sing or dance, but I can make a football do anything!\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many footballs can Rustam juggle at the same time?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "Three",
+      "hint": "\"I can juggle three footballs at the same time!\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When does Rustam practise his football freestyle tricks?",
+      "opts": [
+        "Every evening",
+        "Every morning",
+        "At weekends",
+        "After class"
+      ],
+      "correct": "Every morning",
+      "hint": "\"I practise every morning.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Zhibek ___ perform three different Kazakh dances.",
+      "correct": "can",
+      "hint": "Positive ability → can."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct?",
+      "opts": [
+        "I can't sing very well.",
+        "I can not singing.",
+        "I cannot to sing.",
+        "I cann't sing."
+      ],
+      "correct": "I can't sing very well.",
+      "hint": "can + not = can't / cannot. No 'to', no double 'n'."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ Amir solve a Rubik's cube? — Yes, he can.",
+      "correct": "Can",
+      "hint": "Question form: Can + subject + verb."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She can dances beautifully.\" — What is wrong?",
+      "opts": [
+        "She → He",
+        "\"dances\" should be \"dance\"",
+        "\"can\" should be \"cans\"",
+        "Nothing is wrong"
+      ],
+      "correct": "\"dances\" should be \"dance\"",
+      "hint": "After can → bare infinitive. Not \"dances\" — just \"dance\"."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"He can't to juggle.\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never use 'to' after can/can't. → He can't juggle."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I practise every morning but I ___ do a backflip yet.",
+      "correct": "can't",
+      "hint": "Negative ability → can't."
+    }
+  ]
+}

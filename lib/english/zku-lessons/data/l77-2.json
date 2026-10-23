@@ -1,0 +1,325 @@
+{
+  "id": "l77-2",
+  "moduleNum": 19,
+  "lessonNum": 2,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Breakthroughs and Blind Alleys: The Human Reality of Scientific Discovery",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "Popular accounts of scientific discovery tend to present it as a heroic narrative: a lone genius has a flash of insight, conducts a decisive experiment, and changes the world. This narrative is not entirely false — individual insight does matter — but it is significantly incomplete. The reality of scientific discovery is more collaborative, more incremental, and more contingent on circumstance than the heroic narrative suggests. Understanding this reality does not diminish the achievement of science; it makes it more impressive, not less.",
+    "Most scientific advances build on prior work in ways that are not always visible in the final published result. Isaac Newton famously wrote that he had stood \"on the shoulders of giants\" — acknowledging that his law of universal gravitation depended on the astronomical observations of Tycho Brahe, the planetary laws of Johannes Kepler, and the mathematical tools being developed by contemporaries like Leibniz. The breakthrough was Newton's, but the scaffold on which it was built was the work of many others. This is typical of science: the decisive moment of synthesis is usually preceded by decades of preparatory work by many researchers.",
+    "Chance and serendipity play a larger role in scientific discovery than the heroic narrative admits. Alexander Fleming discovered penicillin when he noticed that a mould had contaminated a Petri dish and was killing the surrounding bacteria — a discovery that would not have happened if he had not left the dish unattended, or if the mould had not blown in from a mycology laboratory two floors below. Wilhelm Röntgen discovered X-rays while experimenting with cathode ray tubes. Henri Becquerel discovered radioactivity by accidentally leaving uranium salts on top of a photographic plate. In each case, the scientist was prepared to recognise the significance of an unexpected result — but the discovery depended heavily on circumstance.",
+    "The process of science also involves a great deal of failure. For every successful experiment there are typically many more that produce null results — no effect, no difference, no confirmation of the hypothesis. These null results are scientifically important, but they are rarely published, because journals have historically preferred to publish positive findings. This \"publication bias\" means that the published scientific literature overrepresents positive results and underrepresents null results, which can make the evidence base for a particular finding look much stronger than it actually is.",
+    "Science is also not the purely rational enterprise it sometimes appears to be. Kuhn's influential concept of \"paradigm shifts\" — described in his 1962 book The Structure of Scientific Revolutions — suggests that science advances not only through the gradual accumulation of evidence but also through occasional revolutionary moments in which an entire framework of understanding is overthrown and replaced. The transition from a geocentric to a heliocentric model of the solar system, or from Newtonian to relativistic physics, required not just new evidence but a wholesale change in how scientists thought about the fundamental nature of the phenomenon being studied.",
+    "The sociology of science — how scientific communities function, how ideas gain acceptance, and how resources are distributed — has an enormous influence on which questions get studied and which findings get believed. Scientists who challenge established paradigms often face significant resistance, regardless of the quality of their evidence. Ignaz Semmelweis, who correctly identified hand-washing as a means of preventing childbed fever in the 1840s, was dismissed and institutionalised by a medical establishment unwilling to accept findings that implied their own practices were responsible for patient deaths.",
+    "None of this should lead to the conclusion that science is simply a social construction or that its findings are no more reliable than any other form of knowledge. The self-correcting mechanisms of science — peer review, replication, open data — do eventually produce reliable knowledge, even if the process is slower, messier, and more human than the heroic narrative suggests. The history of science is not a story of smooth progress, but it is a story of progressive convergence on truth — a convergence that has produced vaccines, antibiotics, semiconductors, and a working model of the universe that is astonishing in its explanatory power."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "serendipity",
+      "ru": "серендипность / счастливая случайность",
+      "context": "A fortunate chance discovery made while looking for something else"
+    },
+    {
+      "phrase": "paradigm shift",
+      "ru": "смена парадигмы",
+      "context": "A fundamental change in the basic framework through which science understands a phenomenon"
+    },
+    {
+      "phrase": "publication bias",
+      "ru": "предвзятость публикаций",
+      "context": "The tendency to publish positive findings while ignoring null results"
+    },
+    {
+      "phrase": "null result",
+      "ru": "нулевой результат",
+      "context": "An experimental finding that shows no effect or no difference"
+    },
+    {
+      "phrase": "convergence on truth",
+      "ru": "сближение с истиной",
+      "context": "The gradual process by which science moves closer to accurate understanding"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "serendipity",
+      "ipa": "/ˌserənˈdɪpɪti/",
+      "pos": "noun",
+      "ru": "серендипность",
+      "kz": "кездейсоқ ашылу",
+      "emoji": "🍀",
+      "definition": "the occurrence of fortunate discoveries by chance during unrelated investigation",
+      "example": "\"Fleming's discovery of penicillin is one of science's most famous examples of serendipity.\"",
+      "collocations": [
+        "scientific serendipity",
+        "a happy serendipity",
+        "role of serendipity"
+      ]
+    },
+    {
+      "en": "paradigm",
+      "ipa": "/ˈpærədaɪm/",
+      "pos": "noun",
+      "ru": "парадигма",
+      "kz": "парадигма",
+      "emoji": "🔭",
+      "definition": "a framework of understanding; the dominant model that structures how scientists think about a field",
+      "example": "\"A paradigm shift replaces the entire framework through which science understands a phenomenon.\"",
+      "collocations": [
+        "paradigm shift",
+        "dominant paradigm",
+        "challenge the paradigm"
+      ]
+    },
+    {
+      "en": "publication bias",
+      "ipa": "/ˌpʌblɪˈkeɪʃən ˈbaɪəs/",
+      "pos": "noun phrase",
+      "ru": "предвзятость публикаций",
+      "kz": "жарияланым тарапы",
+      "emoji": "📰",
+      "definition": "the tendency to publish positive results while ignoring null or negative findings",
+      "example": "\"Publication bias means the scientific literature overrepresents positive findings.\"",
+      "collocations": [
+        "overcome publication bias",
+        "evidence of publication bias",
+        "correct for publication bias"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What does the text say is incomplete about the \"heroic narrative\" of scientific discovery?",
+      "correct": "It ignores collaboration, incremental progress, and the role of circumstance and serendipity"
+    },
+    {
+      "id": "t2",
+      "question": "How did Fleming discover penicillin?",
+      "correct": "He noticed that mould contaminating a Petri dish was killing surrounding bacteria — a result of leaving the dish unattended"
+    },
+    {
+      "id": "t3",
+      "question": "What is \"publication bias\" and why is it a problem?",
+      "correct": "The tendency to publish positive findings while ignoring null results — makes evidence look stronger than it is"
+    },
+    {
+      "id": "t4",
+      "question": "What does Kuhn's concept of \"paradigm shifts\" describe?",
+      "correct": "Revolutionary moments when an entire scientific framework is overthrown and replaced — not just gradual accumulation"
+    },
+    {
+      "id": "t5",
+      "question": "What happened to Semmelweis and why?",
+      "correct": "He was dismissed and institutionalised despite correctly identifying hand-washing as a means to prevent childbed fever"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Most scientific advances are made entirely by individual scientists working alone.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Serendipity played a role in the discoveries of penicillin, X-rays, and radioactivity.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Null results are as frequently published as positive results in scientific journals.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "The text concludes that science is simply a social construction with no more reliability than other knowledge.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "The history of science is described as a story of progressive convergence on truth.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does Newton's statement \"standing on the shoulders of giants\" illustrate?",
+      "opts": [
+        "His physical height",
+        "The collaborative, cumulative nature of scientific discovery",
+        "His superiority over other scientists",
+        "The importance of astronomy in physics"
+      ],
+      "correct": "The collaborative, cumulative nature of scientific discovery",
+      "hint": "Para 2: \"the scaffold on which it was built was the work of many others\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"publication bias\" mean?",
+      "opts": [
+        "Journals that only publish work from famous universities",
+        "Publishing positive results while ignoring null or negative findings",
+        "The preference for sensational discoveries over gradual findings",
+        "Scientists publishing in journals that agree with their views"
+      ],
+      "correct": "Publishing positive results while ignoring null or negative findings",
+      "hint": "Para 4: \"journals have historically preferred to publish positive findings\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does Kuhn's \"paradigm shift\" describe?",
+      "opts": [
+        "A gradual accumulation of small discoveries",
+        "A government decision to change research priorities",
+        "A revolutionary replacement of an entire scientific framework",
+        "A scientist changing their hypothesis after an experiment fails"
+      ],
+      "correct": "A revolutionary replacement of an entire scientific framework",
+      "hint": "Para 5: \"entire framework of understanding is overthrown and replaced\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What happened to Semmelweis?",
+      "opts": [
+        "He was awarded a major scientific prize",
+        "He was dismissed and institutionalised despite being correct",
+        "He became famous after publishing his findings",
+        "He changed his position after peer review"
+      ],
+      "correct": "He was dismissed and institutionalised despite being correct",
+      "hint": "Para 6: \"dismissed and institutionalised\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text concludes that science is simply a social construction with no special reliability.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 7: \"does eventually produce reliable knowledge\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "Serendipity played a role in the discoveries of penicillin, X-rays, and radioactivity.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 3: Fleming, Röntgen, Becquerel",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ carefully variables are controlled, the ___ the results will be.\" (proportional relationship)",
+      "opts": [
+        "more / more reliable",
+        "most / most reliable",
+        "more / reliably",
+        "most carefully / more reliable"
+      ],
+      "correct": "more / more reliable",
+      "hint": "\"The more... the more...\" = proportional increase",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The new evidence suggests ___ approximately 30% of published findings may be difficult to replicate.\" (hedging)",
+      "correct": "that",
+      "hint": "\"Suggests that + clause\" — hedging verb + noun clause",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"This treatment appears to be ___ as effective as the standard therapy.\" (not quite equal)",
+      "opts": [
+        "much more",
+        "nearly as",
+        "far more",
+        "the same as"
+      ],
+      "correct": "nearly as",
+      "hint": "\"Nearly as + adjective + as\" = almost but not quite the same",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"serendipity\" in science?",
+      "opts": [
+        "Careful experimental planning",
+        "The funding that enables discovery",
+        "A fortunate discovery made by chance during unrelated investigation",
+        "A researcher working alone without collaboration"
+      ],
+      "correct": "A fortunate discovery made by chance during unrelated investigation",
+      "hint": "Para 3: Fleming, Röntgen, Becquerel — all chance discoveries",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A \"paradigm\" in science is…",
+      "opts": [
+        "A type of experiment",
+        "The dominant framework through which scientists understand a field",
+        "A single breakthrough discovery",
+        "A research methodology"
+      ],
+      "correct": "The dominant framework through which scientists understand a field",
+      "hint": "Para 5: \"entire framework of understanding\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "An experimental result showing no effect or no difference is called a ___ result.",
+      "correct": "null",
+      "hint": "Para 4: \"null results — no effect, no difference\"",
+      "points": 1
+    }
+  ]
+}

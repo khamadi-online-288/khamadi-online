@@ -1,0 +1,445 @@
+{
+  "id": "l61-3",
+  "moduleNum": 3,
+  "lessonNum": 3,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "listening",
+  "title": "A Seminar Discussion: Conditionals in Argument",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Today I want us to work through a real policy question using conditionals. The question is: should WKU make social media literacy a compulsory module? Let's build the argument using all four conditional types.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I'll start with a zero conditional — a general truth. If students don't understand how social media algorithms work, they will be manipulated by them. That's a factual relationship.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Good. But be careful — is that really a zero conditional, or a first? Zero conditional would be: if a student doesn't understand algorithms, they are manipulated. Present tense both clauses. You said \"will be\" — that's first conditional: a prediction.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "You're right. Let me rephrase: if students lack digital literacy, they are more vulnerable to manipulation. Zero conditional.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "For the first conditional, I'd say: if WKU introduces this module next year, student awareness will improve measurably within one semester. That's a realistic prediction.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Good use of first conditional — a genuine prediction with supporting assumption. Amir, can you add a second conditional?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "If every university in Kazakhstan were to introduce social media literacy courses simultaneously, the national level of digital awareness would rise significantly. But it's not realistic to expect coordination like that.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Exactly — the second conditional flags the unrealistic scale. What about the past? Zhibek?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "If WKU had introduced this module five years ago, graduates who entered the job market in 2022 would have been better prepared for the disinformation environment they faced.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Third conditional — past condition, past result. And can anyone connect the past to the present?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "If the module had been introduced earlier, students today would already have a foundation to build on. Now they're starting from zero.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Nurova",
+      "text": "Mixed conditional — past if-clause, present result. That's exactly right. Notice how each conditional type moved the argument forward in a different direction: factual basis, prediction, ideal scenario, historical counterfactual, and present consequence of past failure. Four tools, one argument.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "compulsory",
+      "emoji": "📋",
+      "opts": [
+        "необязательный",
+        "обязательный",
+        "дополнительный",
+        "рекомендуемый"
+      ],
+      "correct": "обязательный"
+    },
+    {
+      "id": "p2",
+      "word": "manipulated",
+      "emoji": "🎭",
+      "opts": [
+        "защищённый",
+        "управляемый / которым манипулируют",
+        "ведущий",
+        "игнорируемый"
+      ],
+      "correct": "управляемый / которым манипулируют"
+    },
+    {
+      "id": "p3",
+      "word": "measurably",
+      "emoji": "📏",
+      "opts": [
+        "незначительно",
+        "измеримо / ощутимо",
+        "постепенно",
+        "мгновенно"
+      ],
+      "correct": "измеримо / ощутимо"
+    },
+    {
+      "id": "p4",
+      "word": "simultaneously",
+      "emoji": "⚡",
+      "opts": [
+        "поочерёдно",
+        "одновременно",
+        "независимо",
+        "случайно"
+      ],
+      "correct": "одновременно"
+    },
+    {
+      "id": "p5",
+      "word": "disinformation",
+      "emoji": "❌",
+      "opts": [
+        "информация",
+        "дезинформация",
+        "цифровые данные",
+        "исследование"
+      ],
+      "correct": "дезинформация"
+    },
+    {
+      "id": "p6",
+      "word": "foundation",
+      "emoji": "🏗️",
+      "opts": [
+        "надстройка",
+        "основа / фундамент",
+        "продвинутый уровень",
+        "итог"
+      ],
+      "correct": "основа / фундамент"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam's first attempt was actually a first conditional, not zero.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila uses zero conditional when predicting student awareness will improve.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Amir's second conditional flags the unrealistic scale of national coordination.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek uses third conditional to describe a past condition and a present result.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila's mixed conditional connects a past if-clause with a present result.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Dr. Nurova says the four conditional types moved the argument in the same direction.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "nurova",
+      "name": "Dr. Nurova",
+      "city": "Uralsk",
+      "emoji": "👩‍🏫",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Seminar facilitator — guides students through using all four conditionals in one argument"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "📝",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Uses zero conditional — factual relationship"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Uses first and mixed conditionals — prediction and past→present connection"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Uses second conditional — hypothetical ideal scenario"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Uses third conditional — historical counterfactual"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Rephrased to correct zero conditional: \"if students lack digital literacy, they are more vulnerable to manipulation.\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "Used first conditional: \"if WKU introduces this module, student awareness will improve measurably.\"",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Used second conditional to describe hypothetical national coordination — flagged as unrealistic.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "Used third conditional: \"if WKU had introduced this five years ago, 2022 graduates would have been better prepared.\"",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s5",
+      "text": "Used mixed conditional: past condition + present result — \"students today would already have a foundation.\"",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Explained how four conditional types moved the argument in four different directions.",
+      "correctCharId": "nurova"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was wrong with Rustam's first attempt at zero conditional?",
+      "opts": [
+        "Grammatically wrong",
+        "He used \"will be\" — making it first conditional, not zero",
+        "His point was irrelevant",
+        "He used second conditional"
+      ],
+      "correct": "He used \"will be\" — making it first conditional, not zero",
+      "hint": "\"You said 'will be' — that's first conditional: a prediction.\" Zero = present simple both clauses. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Rustam's corrected zero conditional?",
+      "opts": [
+        "\"If students lack literacy, they will be manipulated.\"",
+        "\"If students lack digital literacy, they are more vulnerable.\"",
+        "\"If students had learned X, they would know.\"",
+        "\"If students studied this, they'd be better.\""
+      ],
+      "correct": "\"If students lack digital literacy, they are more vulnerable.\"",
+      "hint": "Present simple + present simple = zero conditional. \"If they lack... they are...\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir use second conditional for national coordination?",
+      "opts": [
+        "It happened in the past",
+        "He considers it realistic",
+        "Coordinating all universities simultaneously is unrealistic — hypothetical",
+        "It's a scientific law"
+      ],
+      "correct": "Coordinating all universities simultaneously is unrealistic — hypothetical",
+      "hint": "\"It's not realistic to expect coordination like that.\" Second conditional signals the hypothetical/unrealistic. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What tense does Zhibek use in her third conditional?",
+      "opts": [
+        "Past Simple + would",
+        "Past Perfect + would have",
+        "Present Perfect + would",
+        "Past Continuous + would have"
+      ],
+      "correct": "Past Perfect + would have",
+      "hint": "\"If WKU had introduced...\" (PP) + \"would have been better prepared\" (would have + pp). Third conditional. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes Kamila's final sentence a mixed conditional?",
+      "opts": [
+        "It uses two different subjects",
+        "Past if-clause + present result (would already have now)",
+        "It has three clauses",
+        "It uses past perfect in the result"
+      ],
+      "correct": "Past if-clause + present result (would already have now)",
+      "hint": "\"If the module HAD BEEN introduced earlier\" (past/3rd) + \"students today WOULD already HAVE a foundation\" (present/2nd). Mixed. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "According to Dr. Nurova, the four conditionals moved the argument in:",
+      "opts": [
+        "The same direction",
+        "Four different directions",
+        "Two opposite directions",
+        "Random order"
+      ],
+      "correct": "Four different directions",
+      "hint": "\"Four tools, one argument.\" Each conditional addressed a different aspect: fact, prediction, ideal, past failure, present consequence. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The seminar was about grammar rules, not a real policy question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I want us to work through a REAL POLICY QUESTION using conditionals.\" — applied grammar in a real argument. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the factual basis conditional used by Rustam after correction?",
+      "opts": [
+        "First",
+        "Second",
+        "Zero",
+        "Mixed"
+      ],
+      "correct": "Zero",
+      "hint": "\"If students lack digital literacy, they are more vulnerable.\" Present simple both clauses = zero conditional. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If every university WERE TO introduce courses, awareness WOULD rise.\" — \"were to\" signals:",
+      "opts": [
+        "Past tense",
+        "Certainty",
+        "Hypothetical/unlikely scenario — emphasising impracticality",
+        "Future plan"
+      ],
+      "correct": "Hypothetical/unlikely scenario — emphasising impracticality",
+      "hint": "\"were to\" = emphatic form used in second conditional to stress that the scenario is hypothetical or unlikely. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If the module HAD BEEN introduced earlier, students TODAY WOULD ALREADY HAVE a foundation.\" — this is:",
+      "opts": [
+        "Pure third conditional",
+        "Pure second conditional",
+        "Mixed: past if-clause + present result",
+        "Zero conditional"
+      ],
+      "correct": "Mixed: past if-clause + present result",
+      "hint": "Past Perfect (had been introduced) = 3rd type if-clause + present result (would have now) = 2nd type result = MIXED. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If WKU introduces this module, student awareness will improve.\" — First conditional because:",
+      "opts": [
+        "It's a law",
+        "WKU genuinely could introduce it — real future possibility",
+        "It's hypothetical",
+        "It's about the past"
+      ],
+      "correct": "WKU genuinely could introduce it — real future possibility",
+      "hint": "First conditional = if + Present Simple + will. Real possibility believed by the speaker. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If WKU ___ this module five years ago, graduates ___ better prepared.\" (3rd conditional)",
+      "correct": "had introduced / would have been",
+      "hint": "Third conditional: \"had introduced\" (PP) + \"would have been\" (would have + pp). ✅"
+    }
+  ]
+}

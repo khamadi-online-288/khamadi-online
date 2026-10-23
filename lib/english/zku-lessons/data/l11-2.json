@@ -1,0 +1,265 @@
+{
+  "id": "l11-2",
+  "moduleNum": 11,
+  "lessonNum": 2,
+  "moduleTitle": "Last weekend",
+  "title": "What did you do last weekend?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Bekzhan",
+      "text": "Yerlan! You look very relaxed for a Monday. What did you do last weekend?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "It was great! I cooked dinner for my friends on Saturday evening. Rice with chicken!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "You cooked? I didn't know you could cook!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "I learned from my grandmother. I practised it a lot last summer in Semey.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "Nice! Did you go anywhere on Saturday?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "Yes! We walked to the city park in the afternoon. We stayed there for two hours.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "Sounds fun. And in the evening — you cooked, and then what?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "We watched a Kazakh comedy film. Saule laughed so hard she spilled her tea!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "Ha! What about Sunday? Did you relax again?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "No — I studied all day Sunday. I worked on my Economics essay for six hours.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "Six hours! Did you finish it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "I finished two sections. I wanted to finish everything, but I stopped at midnight.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "I studied all weekend too — I never left my room. I only visited the cafeteria for meals.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "Bekzhan! You need a break sometimes. Did you enjoy anything at all?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzhan",
+      "text": "I called my parents on Sunday evening. We talked for a long time. That was nice.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Yerlan",
+      "text": "See? Next weekend — come with us to the park. I'll cook again!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "relaxed",
+      "emoji": "😌",
+      "opts": [
+        "взволнованный",
+        "уставший",
+        "расслабленный / отдохнувший",
+        "сонный"
+      ],
+      "correct": "расслабленный / отдохнувший"
+    },
+    {
+      "id": "p2",
+      "word": "practise",
+      "emoji": "🔁",
+      "opts": [
+        "забывать",
+        "практиковаться / тренироваться",
+        "изучать",
+        "спрашивать"
+      ],
+      "correct": "практиковаться / тренироваться"
+    },
+    {
+      "id": "p3",
+      "word": "spill",
+      "emoji": "💧",
+      "opts": [
+        "пить",
+        "наливать",
+        "проливать",
+        "нагревать"
+      ],
+      "correct": "проливать"
+    },
+    {
+      "id": "p4",
+      "word": "section",
+      "emoji": "📄",
+      "opts": [
+        "страница",
+        "глава / раздел",
+        "предложение",
+        "абзац"
+      ],
+      "correct": "глава / раздел"
+    },
+    {
+      "id": "p5",
+      "word": "break",
+      "emoji": "⏸️",
+      "opts": [
+        "конец",
+        "начало",
+        "перерыв / отдых",
+        "задание"
+      ],
+      "correct": "перерыв / отдых"
+    },
+    {
+      "id": "p6",
+      "word": "midnight",
+      "emoji": "🕛",
+      "opts": [
+        "рассвет",
+        "полночь",
+        "полдень",
+        "вечер"
+      ],
+      "correct": "полночь"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Yerlan cooked dinner for his friends on Saturday evening.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Yerlan learned to cook from his mother in Semey.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Yerlan and his friends walked to the city park and stayed for two hours.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Yerlan finished his Economics essay completely on Sunday.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Bekzhan spent all weekend in his room studying and never visited the park.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Bekzhan called his parents on Saturday morning.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "yerlan",
+      "name": "Yerlan",
+      "city": "Semey",
+      "emoji": "🍚",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Economics student, Group 102"
+    },
+    {
+      "id": "bekzhan",
+      "name": "Bekzhan",
+      "city": "Aktobe",
+      "emoji": "📚",
+      "color": "#7C3AED",
+      "bg": "#EDE9FE",
+      "role": "Economics student, Group 102"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Cooked rice with chicken for friends on Saturday evening.",
+      "correctCharId": "yerlan"
+    },
+    {
+      "id": "s2",
+      "text": "Walked to the city park and watched a comedy film with friends.",
+      "correctCharId": "yerlan"
+    },
+    {
+      "id": "s3",
+      "text": "Worked on an Economics essay for six hours on Sunday.",
+      "correctCharId": "yerlan"
+    },
+    {
+      "id": "s4",
+      "text": "Stayed in the room all weekend and only left to visit the cafeteria.",
+      "correctCharId": "bekzhan"
+    },
+    {
+      "id": "s5",
+      "text": "Called parents on Sunday evening and talked for a long time.",
+      "correctCharId": "bekzhan"
+    },
+    {
+      "id": "s6",
+      "text": "Invited the classmate to join the group next weekend.",
+      "correctCharId": "yerlan"
+    }
+  ]
+}

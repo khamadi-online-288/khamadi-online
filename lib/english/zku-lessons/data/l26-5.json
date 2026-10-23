@@ -1,0 +1,447 @@
+{
+  "id": "l26-5",
+  "moduleNum": 10,
+  "lessonNum": 7,
+  "moduleTitle": "Advice & Rules",
+  "title": "Module 10 — Final Test",
+  "type": "test",
+  "xp": 60,
+  "duration": 35,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What percentage of classes must WKU students attend?",
+      "opts": [
+        "60%",
+        "70%",
+        "80%",
+        "100%"
+      ],
+      "correct": "80%",
+      "hint": "\"Students must attend at least 80% of all classes.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Students at WKU are required to wear a uniform.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Students don't have to wear a uniform.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What happens to students who commit plagiarism or cheat?",
+      "opts": [
+        "They get a warning",
+        "They must pay a fine",
+        "They may be expelled",
+        "They retake the exam"
+      ],
+      "correct": "They may be expelled",
+      "hint": "\"Students who cheat may be expelled from the university.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Dormitory residents must sign in if they return after ___ pm.",
+      "correct": "11",
+      "hint": "\"You have to sign in and out of the dormitory if you return after 11pm.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Is joining a club at WKU mandatory?",
+      "opts": [
+        "Yes, all students must join",
+        "Yes, first-year students must join",
+        "No, it is optional but recommended",
+        "No, it is not recommended"
+      ],
+      "correct": "No, it is optional but recommended",
+      "hint": "\"You don't have to join a club or society, but it is strongly recommended.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "\"Plagiarism\" means:",
+      "opts": [
+        "Attending too few classes",
+        "Copying work and presenting it as your own",
+        "Breaking campus rules",
+        "Missing a submission deadline"
+      ],
+      "correct": "Copying work and presenting it as your own",
+      "hint": "Plagiarism = presenting someone else's work as your own without acknowledgement."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What mistake did Zhibek make?",
+      "opts": [
+        "She plagiarised an essay",
+        "She missed a deadline",
+        "She submitted an old draft instead of the final version",
+        "She lost her student card"
+      ],
+      "correct": "She submitted an old draft instead of the final version",
+      "hint": "Zhibek accidentally submitted an old draft instead of the final essay version."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Amir say Zhibek should do first?",
+      "opts": [
+        "Go to the lecturer's office",
+        "Call the academic advisor",
+        "Email the lecturer immediately",
+        "Post about it on social media"
+      ],
+      "correct": "Email the lecturer immediately",
+      "hint": "\"You should email your lecturer immediately.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What order does Amir recommend for preparing a presentation?",
+      "opts": [
+        "Research, practise, structure",
+        "Structure, research, practise",
+        "Practise, structure, research",
+        "Research, structure, practise"
+      ],
+      "correct": "Structure, research, practise",
+      "hint": "\"You should plan your structure first, then research, then practise.\""
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir says tired people make fewer mistakes.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir said \"Tired people make MORE mistakes.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What type of planner does Amir recommend?",
+      "opts": [
+        "Only digital",
+        "Only paper",
+        "Either digital or paper",
+        "Neither"
+      ],
+      "correct": "Either digital or paper",
+      "hint": "\"a planner — digital or paper, whatever works for you.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "You ___ email the lecturer immediately.",
+      "opts": [
+        "should",
+        "shoulds",
+        "should to",
+        "are should"
+      ],
+      "correct": "should",
+      "hint": "\"should\" + BASE form. No changes for any subject."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "You ___ panic — it's a small mistake.",
+      "opts": [
+        "shouldn't",
+        "should not to",
+        "don't should",
+        "mustn't to"
+      ],
+      "correct": "shouldn't",
+      "hint": "Negative advice: shouldn't + BASE form."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Students ___ use phones during lectures.",
+      "opts": [
+        "mustn't",
+        "don't have to",
+        "should",
+        "haven't to"
+      ],
+      "correct": "mustn't",
+      "hint": "\"mustn't\" = prohibited / not allowed."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Students ___ wear a uniform — there isn't one.",
+      "opts": [
+        "don't have to",
+        "mustn't",
+        "must",
+        "have to"
+      ],
+      "correct": "don't have to",
+      "hint": "\"don't have to\" = no obligation / optional."
+    },
+    {
+      "id": "q16",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"mustn't\" and \"don't have to\" mean the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"mustn't\" = forbidden. \"don't have to\" = optional. They are OPPOSITES."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ retake the exam last year. (past obligation)",
+      "correct": "had to",
+      "hint": "\"must\" has no past form → use \"had to\" for past obligation."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"must\" vs \"have to\" — which expresses the speaker's own authority?",
+      "opts": [
+        "have to",
+        "must",
+        "don't have to",
+        "should"
+      ],
+      "correct": "must",
+      "hint": "\"must\" = speaker's own feeling/authority. \"have to\" = external rule."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"prohibited\" means:",
+      "opts": [
+        "Required",
+        "Officially forbidden",
+        "Recommended",
+        "Optional"
+      ],
+      "correct": "Officially forbidden",
+      "hint": "\"Prohibited\" = officially not allowed."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"plagiarism\" means studying very hard.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Plagiarism\" = copying someone else's work and claiming it as your own."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"draft\" refers to:",
+      "opts": [
+        "The final version of a document",
+        "A first or early version of a document",
+        "An academic rule",
+        "A submission deadline"
+      ],
+      "correct": "A first or early version of a document",
+      "hint": "\"Draft\" = an early, unfinished version of a piece of writing."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"extracurricular\" activities are:",
+      "opts": [
+        "Activities inside class time",
+        "Exam preparation activities",
+        "Activities outside the normal academic curriculum",
+        "Mandatory university courses"
+      ],
+      "correct": "Activities outside the normal academic curriculum",
+      "hint": "\"Extracurricular\" = activities beyond the formal academic programme (clubs, sports, etc.)."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"designated area\" means:",
+      "opts": [
+        "Any available space",
+        "An officially set aside area for a specific purpose",
+        "A forbidden zone",
+        "A library section"
+      ],
+      "correct": "An officially set aside area for a specific purpose",
+      "hint": "\"Designated\" = officially chosen or set aside for a particular purpose."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She accidentally submitted an old ___ instead of the final version.",
+      "correct": "draft",
+      "hint": "\"Draft\" = a first or early version of a document, not the final one."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"violation\" means:",
+      "opts": [
+        "A success",
+        "The act of breaking a rule or law",
+        "A type of exam",
+        "A letter of recommendation"
+      ],
+      "correct": "The act of breaking a rule or law",
+      "hint": "\"Violation\" = the act of breaking a rule, law, or agreement."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"structure\" in the context of an essay means:",
+      "opts": [
+        "The paper quality",
+        "The colour of the text",
+        "The way it is organised",
+        "The font size"
+      ],
+      "correct": "The way it is organised",
+      "hint": "\"Structure\" = the way something is organised or arranged."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"expelled\" means you won a scholarship.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Expelled\" = required to leave a school or university due to breaking the rules."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"planner\" is used to:",
+      "opts": [
+        "Store food",
+        "Organise your schedule and tasks",
+        "Submit assignments",
+        "Track attendance"
+      ],
+      "correct": "Organise your schedule and tasks",
+      "hint": "\"Planner\" = a book or app used to organise your daily tasks and schedule."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"submission\" means:",
+      "opts": [
+        "Requesting a re-exam",
+        "Presenting a piece of work to someone",
+        "Breaking an academic rule",
+        "Writing a draft"
+      ],
+      "correct": "Presenting a piece of work to someone",
+      "hint": "\"Submission\" = the act of presenting or handing in a piece of work."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "It's a small mistake, not an academic ___.",
+      "correct": "violation",
+      "hint": "\"Violation\" = breaking a rule. A small mistake ≠ an academic violation."
+    }
+  ]
+}

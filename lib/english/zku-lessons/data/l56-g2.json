@@ -1,0 +1,562 @@
+{
+  "id": "l56-g2",
+  "moduleNum": 22,
+  "lessonNum": 5,
+  "moduleTitle": "Natural World",
+  "type": "grammar",
+  "title": "Environmental Vocabulary in Context",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Environmental Collocations and Fixed Expressions",
+  "grammarNote": "Как и в любой области, экологический английский имеет свои устойчивые сочетания. \"Reduce emissions\" — нельзя \"decrease emissions\" как замену во всех контекстах. \"Protect biodiversity\" — нельзя \"save biodiversity.\" Изучай экологическую лексику вместе с её типичными глаголами и предлогами.",
+  "grammarTable": [
+    {
+      "subject": "REDUCE",
+      "verb": "emissions / consumption / waste / pollution",
+      "short": "уменьшать",
+      "example": "\"Reduce carbon emissions.\" / \"Reduce energy consumption.\" / \"Reduce plastic waste.\""
+    },
+    {
+      "subject": "PROTECT",
+      "verb": "biodiversity / species / habitats / nature",
+      "short": "защищать",
+      "example": "\"Protect endangered species.\" / \"Protect natural habitats.\" / \"Protect the environment.\""
+    },
+    {
+      "subject": "CONSERVE",
+      "verb": "water / energy / resources / wildlife",
+      "short": "беречь",
+      "example": "\"Conserve water.\" / \"Conserve natural resources.\" / \"Conserve endangered species.\""
+    },
+    {
+      "subject": "TACKLE",
+      "verb": "climate change / pollution / issues",
+      "short": "решать",
+      "example": "\"Tackle climate change.\" / \"Tackle environmental issues.\" / \"Tackle pollution.\""
+    },
+    {
+      "subject": "EMIT",
+      "verb": "carbon dioxide / greenhouse gases / waste",
+      "short": "выбрасывать",
+      "example": "\"Emit greenhouse gases.\" / \"Emit CO₂ into the atmosphere.\""
+    },
+    {
+      "subject": "THREATEN",
+      "verb": "species / habitats / ecosystems / survival",
+      "short": "угрожать",
+      "example": "\"Deforestation threatens ecosystems.\" / \"Climate change threatens habitats.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Key environmental verb collocations",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "REDUCE: emissions, pollution, waste, consumption",
+          "example": "\"Countries must REDUCE their carbon emissions by 2030.\" ✅"
+        },
+        {
+          "form": "INCREASE: temperatures, sea levels, species diversity",
+          "example": "\"Sea levels are INCREASING at an accelerating rate.\" ✅"
+        },
+        {
+          "form": "TACKLE: climate change, environmental issues",
+          "example": "\"We must TACKLE climate change now or pay the price later.\" ✅"
+        },
+        {
+          "form": "CONSERVE: water, energy, natural resources",
+          "example": "\"Students are encouraged to CONSERVE energy in dormitories.\" ✅"
+        },
+        {
+          "form": "PROTECT: species, habitats, ecosystems",
+          "example": "\"National parks were established to PROTECT natural habitats.\" ✅"
+        },
+        {
+          "form": "RESTORE: ecosystems, habitats, species populations",
+          "example": "\"The government has pledged to RESTORE degraded ecosystems.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Environment nouns + prepositions",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "at risk OF extinction",
+          "example": "\"The snow leopard is at risk OF extinction.\" ✅ (not \"at risk for\" or \"at risk to\")"
+        },
+        {
+          "form": "threat TO species",
+          "example": "\"Deforestation is a threat TO biodiversity.\" ✅ (not \"threat of\" in this structure)"
+        },
+        {
+          "form": "impact ON the environment",
+          "example": "\"Human activity has an impact ON the environment.\" ✅ (not \"impact to\" or \"impact in\")"
+        },
+        {
+          "form": "damage TO ecosystems",
+          "example": "\"The pollution caused significant damage TO the river ecosystem.\" ✅"
+        },
+        {
+          "form": "responsible FOR",
+          "example": "\"Industries are responsible FOR 70% of global emissions.\" ✅"
+        },
+        {
+          "form": "contribute TO",
+          "example": "\"Deforestation contributes TO climate change.\" ✅ (not \"contribute in\")"
+        }
+      ]
+    },
+    {
+      "title": "Environmental fixed phrases",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "carbon footprint",
+          "example": "\"Reduce your carbon footprint.\" = the total carbon emissions caused by your actions."
+        },
+        {
+          "form": "renewable energy",
+          "example": "\"Switch to renewable energy sources.\" = solar, wind, hydroelectric."
+        },
+        {
+          "form": "endangered species",
+          "example": "\"Protect endangered species.\" = animals or plants at risk of extinction."
+        },
+        {
+          "form": "greenhouse gas emissions",
+          "example": "\"Reduce greenhouse gas emissions.\" = gases that trap heat in the atmosphere."
+        },
+        {
+          "form": "sustainable development",
+          "example": "\"Sustainable development meets present needs without harming the future.\" ✅"
+        },
+        {
+          "form": "biodiversity hotspot",
+          "example": "\"Central Asia is a biodiversity hotspot.\" = an area with exceptional species variety."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common environmental English mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"reduce the climate change\"",
+          "example": "✅ \"TACKLE climate change\" or \"SLOW DOWN climate change.\" Climate change is not reduced."
+        },
+        {
+          "form": "✗ \"the environment is in danger\"",
+          "example": "✅ \"The environment IS UNDER THREAT\" or \"AT RISK.\" \"In danger\" is less standard here."
+        },
+        {
+          "form": "✗ \"impact to the environment\"",
+          "example": "✅ \"impact ON the environment.\" Always \"ON\" for impact collocations."
+        },
+        {
+          "form": "✗ \"contribute in climate change\"",
+          "example": "✅ \"contribute TO climate change.\" Always \"TO\" after \"contribute.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Экологические коллокации — важнейшие:\n\nREDUCE: emissions, pollution, waste ✅\nPROTECT: species, habitats, biodiversity ✅\nTACKLE: climate change, environmental issues ✅\nCONSERVE: water, energy, resources ✅\nEMIT: greenhouse gases, CO₂ ✅\nTHREATEN: species, ecosystems, habitats ✅\n\nПредлоги:\nat risk OF extinction ✅\nthreat TO biodiversity ✅\nimpact ON the environment ✅\ncontribute TO climate change ✅\nresponsible FOR emissions ✅\n\n💡 Ключевые фразы:\n\"carbon footprint\" / \"renewable energy\"\n\"endangered species\" / \"greenhouse gases\"\n\"sustainable development\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "Countries must ___ carbon emissions significantly to meet climate targets.",
+      "opts": [
+        "decrease",
+        "reduce",
+        "lower",
+        "both reduce and lower are correct"
+      ],
+      "correct": "both reduce and lower are correct",
+      "hint": "\"REDUCE emissions\" ✅ / \"LOWER emissions\" ✅ — both collocate naturally. \"Decrease\" is less standard in this context."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Deforestation has a negative impact ___ biodiversity.",
+      "opts": [
+        "to",
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": "on",
+      "hint": "\"impact ON the environment/biodiversity.\" ✅ Always \"ON\" with \"impact.\" NOT \"to\" or \"in.\""
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct collocation.",
+      "text": "\"We need to ___ climate change before it becomes irreversible.\"",
+      "correct": "tackle",
+      "hint": "\"TACKLE climate change.\" ✅ = address and deal with it seriously. NOT \"reduce climate change\" (wrong collocation)."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "\"Species that are ___ may soon become extinct without intervention.\"",
+      "opts": [
+        "in danger",
+        "endangered",
+        "at risk from",
+        "threatened by"
+      ],
+      "correct": "endangered",
+      "hint": "\"ENDANGERED species\" = the standard fixed phrase for species at risk of extinction. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "\"Burning fossil fuels contributes ___ global warming.\"",
+      "opts": [
+        "to",
+        "in",
+        "at",
+        "of"
+      ],
+      "correct": "to",
+      "hint": "\"contribute TO climate change/global warming.\" ✅ Always \"TO\" after \"contribute.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct collocation.",
+      "text": "\"The factory is ___ for releasing pollutants into the river.\"",
+      "correct": "responsible",
+      "hint": "\"responsible FOR releasing...\" ✅ \"RESPONSIBLE FOR\" = the correct phrase for blame/accountability."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct phrase.",
+      "text": "\"To reduce your ___, choose public transport over private cars.\"",
+      "opts": [
+        "carbon print",
+        "carbon mark",
+        "carbon footprint",
+        "carbon trace"
+      ],
+      "correct": "carbon footprint",
+      "hint": "\"CARBON FOOTPRINT\" = the fixed phrase for the carbon emissions produced by your activities. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "\"The government has pledged to ___ damaged wetland ecosystems.\"",
+      "opts": [
+        "conserve",
+        "restore",
+        "protect",
+        "all three work"
+      ],
+      "correct": "restore",
+      "hint": "\"RESTORE damaged ecosystems\" = bring them back to their original state. ✅ \"Conserve\" = protect what exists. \"Protect\" = prevent further damage. \"Restore\" = repair. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "\"Many species are at risk ___ extinction due to habitat loss.\"",
+      "opts": [
+        "for",
+        "from",
+        "of",
+        "to"
+      ],
+      "correct": "of",
+      "hint": "\"at risk OF extinction.\" ✅ Always \"OF\" after \"at risk.\" NOT \"at risk for\" or \"at risk to.\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct verb.",
+      "text": "\"Cars and industry ___ large amounts of greenhouse gases every year.\"",
+      "correct": "emit",
+      "hint": "\"EMIT greenhouse gases.\" ✅ = release or discharge gases into the atmosphere."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose: \"protect\" or \"conserve\"?",
+      "text": "\"We should ___ water by taking shorter showers.\" (use carefully)",
+      "opts": [
+        "protect",
+        "conserve",
+        "both work equally",
+        "reduce"
+      ],
+      "correct": "conserve",
+      "hint": "\"CONSERVE water\" = use it carefully, save it. ✅ \"Protect\" = defend from harm/threat. Different nuances: conserve = save, protect = defend."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct phrase.",
+      "text": "\"Climate change ___ many bird species along their migration routes.\"",
+      "opts": [
+        "damages",
+        "threatens",
+        "harms",
+        "all three work"
+      ],
+      "correct": "all three work",
+      "hint": "\"threatens\" / \"damages\" / \"harms\" migration routes — all three collocate naturally with climate change. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has an impact ___ the environment.\" Correct preposition:",
+      "opts": [
+        "to",
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": "on",
+      "hint": "\"impact ON the environment.\" ✅ Always \"on\" with \"impact.\""
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Deforestation contributes ___ climate change.\"",
+      "opts": [
+        "to",
+        "in",
+        "about",
+        "of"
+      ],
+      "correct": "to",
+      "hint": "\"contribute TO climate change.\" ✅ Always \"to\" after \"contribute.\""
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Industries are responsible ___ 70% of global emissions.\"",
+      "opts": [
+        "for",
+        "of",
+        "to",
+        "about"
+      ],
+      "correct": "for",
+      "hint": "\"responsible FOR emissions.\" ✅ Always \"for\" after \"responsible\" for accountability."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The species is at risk ___ extinction.\"",
+      "opts": [
+        "to",
+        "for",
+        "of",
+        "from"
+      ],
+      "correct": "of",
+      "hint": "\"at risk OF extinction.\" ✅ The preposition is always \"of\" after \"at risk.\""
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We need to ___ carbon emissions to slow warming.\" (key verb)",
+      "correct": "reduce",
+      "hint": "\"REDUCE carbon emissions.\" ✅ The standard collocation."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We must ___ climate change urgently.\" Correct verb:",
+      "opts": [
+        "reduce",
+        "tackle",
+        "decrease",
+        "lower"
+      ],
+      "correct": "tackle",
+      "hint": "\"TACKLE climate change.\" ✅ Climate change is tackled, addressed, or slowed — not \"reduced.\""
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ species are those at risk of extinction.\"",
+      "opts": [
+        "Threatened",
+        "Endangered",
+        "Vulnerable",
+        "All three can work"
+      ],
+      "correct": "All three can work",
+      "hint": "\"Threatened\" / \"Endangered\" / \"Vulnerable\" all describe species at risk — at different conservation risk levels. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Cars ___ large amounts of CO₂.\" Correct verb:",
+      "opts": [
+        "produce",
+        "emit",
+        "create",
+        "All three work"
+      ],
+      "correct": "All three work",
+      "hint": "\"emit CO₂\" ✅ / \"produce CO₂\" ✅ / \"create CO₂\" ✅ — all collocate. \"Emit\" is the most technical and precise."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"To save water in daily life, you should ___ it carefully.\" (verb)",
+      "correct": "conserve",
+      "hint": "\"CONSERVE water.\" ✅ = use carefully to save it. \"Protect\" means defend from harm, not save by careful use."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What is your carbon ___?\" (the measure of your emissions)",
+      "opts": [
+        "print",
+        "mark",
+        "trace",
+        "footprint"
+      ],
+      "correct": "footprint",
+      "hint": "\"carbon FOOTPRINT\" = the fixed phrase for measuring your personal or organisational carbon impact. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Habitat loss ___ many species worldwide.\"",
+      "opts": [
+        "destroys",
+        "threatens",
+        "harms",
+        "All three work"
+      ],
+      "correct": "All three work",
+      "hint": "\"threatens\" ✅ / \"destroys\" ✅ / \"harms\" ✅ — all collocate with species. \"Threatens\" is most idiomatic in conservation contexts."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The project will ___ degraded ecosystems.\" (return to original state)",
+      "opts": [
+        "conserve",
+        "protect",
+        "restore",
+        "reduce"
+      ],
+      "correct": "restore",
+      "hint": "\"RESTORE degraded ecosystems.\" = bring back to original/healthy state. \"Conserve\" = protect what already exists; \"restore\" = repair damage. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ energy means using wind, solar, and water power.\"",
+      "opts": [
+        "Clean energy",
+        "Green energy",
+        "Renewable energy",
+        "All three are common"
+      ],
+      "correct": "All three are common",
+      "hint": "\"Renewable energy\" ✅ / \"clean energy\" ✅ / \"green energy\" ✅ — all are used commonly. \"Renewable\" is the most technical. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A ___ is a region with exceptional species variety under threat.\"",
+      "opts": [
+        "biodiversity hotspot",
+        "carbon footprint",
+        "greenhouse zone",
+        "conservation area"
+      ],
+      "correct": "biodiversity hotspot",
+      "hint": "\"BIODIVERSITY HOTSPOT\" = a region with exceptional variety of life AND significant threat. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The factory is ___ releasing pollutants.\" (legally accountable)",
+      "correct": "responsible for",
+      "hint": "\"responsible FOR releasing pollutants.\" ✅ = held accountable; bears legal responsibility."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Impact ___ the environment\" vs \"threat ___ biodiversity.\"",
+      "opts": [
+        "on / to",
+        "to / on",
+        "on / on",
+        "to / to"
+      ],
+      "correct": "on / to",
+      "hint": "\"impact ON the environment\" ✅ / \"threat TO biodiversity\" ✅. Different prepositions for different nouns. ✅"
+    }
+  ]
+}

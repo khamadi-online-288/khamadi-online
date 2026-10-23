@@ -1,0 +1,348 @@
+{
+  "id": "l75-5",
+  "moduleNum": 17,
+  "lessonNum": 9,
+  "moduleTitle": "Environment & Climate Action",
+  "title": "Module 17 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ by warming seas, coral reefs have lost significant coverage worldwide.\" (passive participle)",
+      "opts": [
+        "Bleaching",
+        "Bleached",
+        "Having bleached",
+        "To bleach"
+      ],
+      "correct": "Bleached",
+      "hint": "Past participle = passive: \"reefs which are being bleached by\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ massive quantities of carbon, deforestation is one of the largest drivers of climate change.\" (active)",
+      "opts": [
+        "Released",
+        "Having released",
+        "Releasing",
+        "To release"
+      ],
+      "correct": "Releasing",
+      "hint": "Present participle = active, ongoing: \"which releases\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (ratify) the Kyoto Protocol, many developed nations later failed to meet their targets.\"",
+      "correct": "Having ratified",
+      "hint": "\"Having + pp\" = prior completed action",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ to reduce carbon leakage, the Carbon Border Adjustment Mechanism was introduced.\"",
+      "opts": [
+        "Designing",
+        "Having designed",
+        "Designed",
+        "Design"
+      ],
+      "correct": "Designed",
+      "hint": "\"Designed to + infinitive\" = past participle of purpose",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It is ___ political will ___ we lack, not technological capability.\" (it-cleft)",
+      "correct": "X / that",
+      "hint": "\"It is + emphasis + that…\" = it-cleft",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ scientists fear most is the cascade effect of multiple tipping points.\"",
+      "opts": [
+        "It is that",
+        "What",
+        "All",
+        "Never"
+      ],
+      "correct": "What",
+      "hint": "\"What + subject + verb + is + X\" = wh-cleft",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ before has the need for climate action been as urgent as it is today.\" (negative inversion)",
+      "correct": "Never",
+      "hint": "\"Never before + has + subject + pp\" = negative inversion",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Only by achieving net zero by 2050 ___ we limit warming to 1.5 degrees.\"",
+      "opts": [
+        "that",
+        "can",
+        "will be",
+        "do"
+      ],
+      "correct": "can",
+      "hint": "\"Only by… + can + subject + verb\" = inversion",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Not only ___ climate change threaten ecosystems, but it also drives migration and conflict.\"",
+      "opts": [
+        "is",
+        "does",
+        "do",
+        "has"
+      ],
+      "correct": "does",
+      "hint": "\"Not only + does + subject + verb… but also\" = negative inversion",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ required is not more data but decisive political action.\" (restrictive wh-cleft)",
+      "correct": "All that",
+      "hint": "\"All that + verb + is + X\" = \"the only thing required is\"",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"net zero\" mean?",
+      "opts": [
+        "No energy use at all",
+        "When greenhouse gas emissions equal removals",
+        "A 50% reduction in current emissions",
+        "Zero fossil fuel burning"
+      ],
+      "correct": "When greenhouse gas emissions equal removals",
+      "hint": "Reading 1: definition of net zero",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ from melting permafrost, methane accelerates the rate of global warming.\" (passive)",
+      "opts": [
+        "Releasing",
+        "Released",
+        "Having released",
+        "To release"
+      ],
+      "correct": "Released",
+      "hint": "Past participle = passive: \"methane which is released from\"",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (not / act) for decades, governments now face much steeper transition costs.\" (negative perfect participle)",
+      "correct": "Not having acted",
+      "hint": "\"Not having + pp\" = negative perfect participle",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence contains a dangling participle?",
+      "opts": [
+        "\"Rising rapidly, sea levels threaten coastal cities.\"",
+        "\"Studying the data, scientists discovered new tipping points.\"",
+        "\"Walking through the rainforest, the biodiversity was stunning.\"",
+        "\"Powered by renewables, the grid is almost carbon-free.\""
+      ],
+      "correct": "\"Walking through the rainforest, the biodiversity was stunning.\"",
+      "hint": "\"Biodiversity\" cannot walk — subject mismatch = dangling participle",
+      "points": 2
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Dr. Nurlanova say is her emotional state — hopeful, despairing, or determined?",
+      "opts": [
+        "Hopeful",
+        "Despairing",
+        "Determined",
+        "Uncertain"
+      ],
+      "correct": "Determined",
+      "hint": "Listening 3B: \"I am neither hopeful nor despairing. I am determined.\"",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It is not individuals ___ corporations that have produced the vast majority of historical emissions.\" (negative it-cleft)",
+      "correct": "but",
+      "hint": "\"It is not X but Y that\" = negative it-cleft correction",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Central to any serious climate strategy is the question of carbon pricing.\" — What structure is this?",
+      "opts": [
+        "It-cleft",
+        "Wh-cleft",
+        "Fronting of the complement",
+        "Negative inversion"
+      ],
+      "correct": "Fronting of the complement",
+      "hint": "Complement (\"Central to the strategy\") fronted for emphasis",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (invest) in offshore wind for a decade, Denmark now generates most of its electricity from renewables.\"",
+      "correct": "Having invested",
+      "hint": "\"Having + pp\" = prior investment → current result",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "According to Reading 2, who popularised the term \"carbon footprint\"?",
+      "opts": [
+        "The IPCC",
+        "Environmental NGOs",
+        "A BP advertising campaign",
+        "The Paris Agreement"
+      ],
+      "correct": "A BP advertising campaign",
+      "hint": "Reading 2: \"popularised by a BP advertising campaign\"",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ have governments faced a challenge of this magnitude.\" (dramatic emphasis — seldom)",
+      "opts": [
+        "Rarely before",
+        "Seldom have",
+        "Seldom before",
+        "Seldom"
+      ],
+      "correct": "Seldom have",
+      "hint": "\"Seldom have + subject + past participle\" = inversion",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (build) to withstand sea-level rise, the coastal defences protect over 100,000 residents.\"",
+      "correct": "Built",
+      "hint": "\"Built to + infinitive\" = past participle of purpose",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The threshold at which a small climate change triggers much larger, self-reinforcing changes is called a ___ point.",
+      "correct": "tipping",
+      "hint": "Reading 1: \"tipping points\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"What the Paris Agreement established was not a guarantee but a framework for action.\" — This is…",
+      "opts": [
+        "An it-cleft",
+        "A wh-cleft",
+        "Negative inversion",
+        "Fronting"
+      ],
+      "correct": "A wh-cleft",
+      "hint": "\"What + subject + verb + was + X\" = wh-cleft",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Never before has the planet warmed so rapidly\" uses correct inversion.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Never before + has + subject + past participle\" = correct negative inversion",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"agency\" mean in the context of Dr. Nurlanova's lecture?",
+      "opts": [
+        "A government department",
+        "Fear and anxiety about the future",
+        "The capacity and power to act and make choices",
+        "Scientific expertise"
+      ],
+      "correct": "The capacity and power to act and make choices",
+      "hint": "Listening 3B: \"agency — the power… to shape the future\"",
+      "points": 1
+    }
+  ]
+}

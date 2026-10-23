@@ -1,0 +1,484 @@
+{
+  "id": "l42-2",
+  "moduleNum": 8,
+  "lessonNum": 2,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "listening",
+  "title": "At the Supermarket",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "Okay, we need a few things. I've got the list. How much money have we got?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "About 4,000 tenge. Not a lot, but enough for the basics.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Perfect. We need some rice — how much should we get?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Get a kilo. That's enough for both of us for a week.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Good. We don't have much oil left — I'll grab a small bottle.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Don't get too much — we don't use a lot of oil. A 500ml bottle is plenty.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Fine. How many eggs should I get?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "A dozen should do it. We go through quite a few each week.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Vegetables — I'm thinking carrots, onions, potatoes. How many bags?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Don't buy too many. One bag of each is enough. We don't have much space in the fridge.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "What about bread?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Get one loaf. We don't need much — I don't eat a lot of bread.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Tea? Coffee?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "We've got plenty of tea. But we're running low on coffee — get a small pack.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Okay. I think we've got enough for everything. Shall we go through the totals?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Let's see — rice, oil, eggs, three bags of veg, bread, coffee. That should come to about 3,500. We'll have a little left.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "grab",
+      "emoji": "🛒",
+      "opts": [
+        "забыть",
+        "быстро взять",
+        "вернуть",
+        "купить дорого"
+      ],
+      "correct": "быстро взять"
+    },
+    {
+      "id": "p2",
+      "word": "a dozen",
+      "emoji": "12",
+      "opts": [
+        "шесть штук",
+        "двенадцать",
+        "двадцать",
+        "десять"
+      ],
+      "correct": "двенадцать"
+    },
+    {
+      "id": "p3",
+      "word": "run low on",
+      "emoji": "📉",
+      "opts": [
+        "иметь много",
+        "заканчиваться",
+        "покупать снова",
+        "дорожать"
+      ],
+      "correct": "заканчиваться"
+    },
+    {
+      "id": "p4",
+      "word": "plenty",
+      "emoji": "✅",
+      "opts": [
+        "мало",
+        "в самый раз / достаточно много",
+        "немного",
+        "слишком"
+      ],
+      "correct": "в самый раз / достаточно много"
+    },
+    {
+      "id": "p5",
+      "word": "loaf",
+      "emoji": "🍞",
+      "opts": [
+        "нарезанный хлеб",
+        "буханка хлеба",
+        "пачка",
+        "кусок"
+      ],
+      "correct": "буханка хлеба"
+    },
+    {
+      "id": "p6",
+      "word": "go through",
+      "emoji": "🔄",
+      "opts": [
+        "покупать",
+        "использовать / тратить",
+        "хранить",
+        "проверять"
+      ],
+      "correct": "использовать / тратить"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "They have about 4,000 tenge to spend.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "They decide to buy two kilos of rice.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila wants a large bottle of oil.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "They plan to buy twelve eggs.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "They buy two bags of each vegetable.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "They have enough tea but need more coffee.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "🛒",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Shopping with Kamila — has the list, asks quantities"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "💰",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Manages the budget — decides what to buy and how much"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Mentions they have about 4,000 tenge and says it's enough for basics.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Suggests getting a kilo of rice — enough for both of them for a week.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Asks how many eggs they should buy.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Says they go through quite a few eggs each week — recommends a dozen.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Warns not to buy too many vegetables — not enough space in the fridge.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Says they're running low on coffee and suggests getting a small pack.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much money do they have to spend?",
+      "opts": [
+        "3,000 tenge",
+        "4,000 tenge",
+        "5,000 tenge",
+        "3,500 tenge"
+      ],
+      "correct": "4,000 tenge",
+      "hint": "\"About 4,000 tenge. Not a lot, but enough for the basics.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much rice does Kamila recommend buying?",
+      "opts": [
+        "Half a kilo",
+        "One kilo",
+        "Two kilos",
+        "As much as possible"
+      ],
+      "correct": "One kilo",
+      "hint": "\"Get a kilo. That's enough for both of us for a week.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What size oil bottle does Kamila recommend?",
+      "opts": [
+        "A large bottle",
+        "The biggest they have",
+        "500ml",
+        "No oil needed"
+      ],
+      "correct": "500ml",
+      "hint": "\"A 500ml bottle is plenty. Don't get too much — we don't use a lot of oil.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "They decide to buy a ___ of eggs.",
+      "correct": "dozen",
+      "hint": "\"A dozen should do it. We go through quite a few each week.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "They buy two bags of carrots.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Don't buy too many. One bag of each is enough.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why do they need to buy coffee but not tea?",
+      "opts": [
+        "They don't drink tea",
+        "They have plenty of tea but are running low on coffee",
+        "Coffee is cheaper",
+        "Tea is sold out"
+      ],
+      "correct": "They have plenty of tea but are running low on coffee",
+      "hint": "\"We've got plenty of tea. But we're running low on coffee.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Approximately how much do they expect to spend?",
+      "opts": [
+        "3,000 tenge",
+        "3,500 tenge",
+        "4,000 tenge",
+        "4,500 tenge"
+      ],
+      "correct": "3,500 tenge",
+      "hint": "\"That should come to about 3,500. We'll have a little left.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila eats a lot of bread.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"We don't need much — I don't eat a lot of bread.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How much oil should we get?\" — Why \"much\" not \"many\"?",
+      "opts": [
+        "Oil is plural",
+        "Oil is a verb",
+        "Oil is uncountable",
+        "Oil is countable"
+      ],
+      "correct": "Oil is uncountable",
+      "hint": "\"much\" is used with UNCOUNTABLE nouns (oil, rice, money, water). \"many\" is for COUNTABLE nouns (eggs, bags)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How many eggs should I get?\" — Why \"many\" not \"much\"?",
+      "opts": [
+        "Eggs are plural verbs",
+        "Eggs are countable nouns",
+        "Eggs are uncountable",
+        "Eggs are always many"
+      ],
+      "correct": "Eggs are countable nouns",
+      "hint": "\"many\" is used with COUNTABLE nouns (one egg, two eggs...). \"how many eggs?\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We don't have ___ oil left.\" (not much — small amount)",
+      "correct": "much",
+      "hint": "\"not much oil\" — oil is uncountable → use \"much\". \"We don't have much oil.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Don't buy too ___ vegetables.\" (they're countable)",
+      "opts": [
+        "much",
+        "many",
+        "lot of",
+        "a lot"
+      ],
+      "correct": "many",
+      "hint": "\"vegetables\" = countable → \"too MANY vegetables.\" \"Too much\" = uncountable food."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We've got plenty of tea.\" \"Plenty of\" means:",
+      "opts": [
+        "not enough",
+        "too much",
+        "more than enough",
+        "a little"
+      ],
+      "correct": "more than enough",
+      "hint": "\"plenty of\" = more than enough; sufficient quantity. \"Plenty of tea\" = lots of tea, no need to buy more."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We'll have a ___ (small amount) left over.\"",
+      "correct": "little",
+      "hint": "\"a little\" = a small amount (uncountable). \"We'll have a little money left.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We go through quite a few eggs.\" \"Quite a few\" means:",
+      "opts": [
+        "very few",
+        "none",
+        "a notable number (not a lot but significant)",
+        "too many"
+      ],
+      "correct": "a notable number (not a lot but significant)",
+      "hint": "\"quite a few\" = a noticeable number; more than just a little. \"Quite a few eggs\" = several eggs."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"That's enough for both of us.\" — \"Enough\" expresses:",
+      "opts": [
+        "too much",
+        "not enough",
+        "sufficient quantity",
+        "a small amount"
+      ],
+      "correct": "sufficient quantity",
+      "hint": "\"enough\" = sufficient; just the right amount. \"Enough for both of us\" = sufficient for two people."
+    }
+  ]
+}

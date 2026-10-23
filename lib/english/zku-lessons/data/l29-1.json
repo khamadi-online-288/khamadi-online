@@ -1,0 +1,287 @@
+{
+  "id": "l29-1",
+  "moduleNum": 13,
+  "lessonNum": 1,
+  "moduleTitle": "Sports & Exercise",
+  "type": "reading",
+  "title": "Sports Stars of Kazakhstan",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Kazakhstan has produced many world-class athletes. From boxing to cycling, from weightlifting to wrestling, Kazakh sportspeople have won medals at the Olympics, World Championships, and Asian Games.",
+    "One of the most celebrated is Gennady Golovkin, known as 'GGG', a middleweight boxing champion who has held world titles for many years. He was born in Karaganda and has inspired thousands of young Kazakhstani people to take up boxing.",
+    "In cycling, Alexander Vinokourov won the Olympic road race in London in 2012. He has competed professionally since 1998, and his achievement remains one of the proudest moments in Kazakh sports history.",
+    "Kazakh weightlifters have also dominated international competitions. Ilya Ilyin won gold medals at two Olympic Games — Beijing in 2008 and London in 2012. He has trained since he was a young child and dedicated his life to his sport.",
+    "Today at WKU, Amir Bekzhanov dreams of continuing this tradition. He has been playing football since he was six years old. He has already represented his university in three inter-university tournaments. 'I have trained hard for four years,' he says, 'and I haven't given up yet.'",
+    "Sport teaches discipline, teamwork, and resilience. As Dr. Akhmetov always tells students: 'It doesn't matter which sport you play. What matters is that you play — because sport builds character as much as studying builds knowledge.'"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "Have you seen the WKU football results? We won again!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's amazing! How long have you been playing for the university team?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "For about two years now. We have played eight matches this season.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Have you ever scored in a final?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Not yet, but I haven't given up. This year feels different.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Present Perfect with for/since",
+      "ru": "настоящее совершенное с for/since",
+      "context": "He has played football since he was six."
+    },
+    {
+      "phrase": "have/has + past participle",
+      "ru": "иметь + причастие прошедшего",
+      "context": "She has won three medals."
+    },
+    {
+      "phrase": "How long have you…?",
+      "ru": "Как давно вы…?",
+      "context": "How long have you been playing for WKU?"
+    },
+    {
+      "phrase": "for two years",
+      "ru": "в течение двух лет",
+      "context": "He has been a coach for two years."
+    },
+    {
+      "phrase": "since I was six",
+      "ru": "с тех пор, как мне было шесть",
+      "context": "Amir has played football since he was six."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "athlete",
+      "ipa": "/ˈæθ.liːt/",
+      "pos": "n",
+      "ru": "спортсмен, атлет",
+      "kz": "спортшы",
+      "emoji": "🏃",
+      "definition": "A person who trains and competes in sports.",
+      "example": "Kazakhstan has produced many world-class athletes.",
+      "collocations": [
+        "professional athlete",
+        "world-class athlete",
+        "compete as an athlete"
+      ]
+    },
+    {
+      "en": "champion",
+      "ipa": "/ˈtʃæm.pi.ən/",
+      "pos": "n",
+      "ru": "чемпион, победитель",
+      "kz": "чемпион",
+      "emoji": "🏆",
+      "definition": "A person or team that has won a competition.",
+      "example": "Golovkin has been a boxing champion for many years.",
+      "collocations": [
+        "world champion",
+        "become a champion",
+        "defending champion"
+      ]
+    },
+    {
+      "en": "tournament",
+      "ipa": "/ˈtɔː.nə.mənt/",
+      "pos": "n",
+      "ru": "турнир, соревнование",
+      "kz": "турнир",
+      "emoji": "🥊",
+      "definition": "A competition with a series of games to find the overall winner.",
+      "example": "Amir has represented his university in three inter-university tournaments.",
+      "collocations": [
+        "win a tournament",
+        "enter a tournament",
+        "sports tournament"
+      ]
+    },
+    {
+      "en": "discipline",
+      "ipa": "/ˈdɪs.ɪ.plɪn/",
+      "pos": "n",
+      "ru": "дисциплина, самоконтроль",
+      "kz": "тәртіп",
+      "emoji": "🎯",
+      "definition": "Consistent effort and self-control, especially in training.",
+      "example": "Sport teaches discipline and teamwork.",
+      "collocations": [
+        "maintain discipline",
+        "discipline and dedication",
+        "self-discipline"
+      ]
+    },
+    {
+      "en": "resilience",
+      "ipa": "/rɪˈzɪl.i.əns/",
+      "pos": "n",
+      "ru": "устойчивость, стойкость",
+      "kz": "төзімділік",
+      "emoji": "💪",
+      "definition": "The ability to recover from difficulties and keep going.",
+      "example": "Athletes develop resilience through years of training.",
+      "collocations": [
+        "show resilience",
+        "build resilience",
+        "mental resilience"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "athlete",
+      "emoji": "🏃",
+      "opts": [
+        "Someone who watches sports on TV",
+        "A person who trains and competes in sports",
+        "A sports coach or manager",
+        "A sports journalist"
+      ],
+      "correct": "A person who trains and competes in sports"
+    },
+    {
+      "id": "p2",
+      "word": "champion",
+      "emoji": "🏆",
+      "opts": [
+        "A person who never wins competitions",
+        "A type of sporting event",
+        "A person who has won a competition",
+        "A sports referee"
+      ],
+      "correct": "A person who has won a competition"
+    },
+    {
+      "id": "p3",
+      "word": "tournament",
+      "emoji": "🥊",
+      "opts": [
+        "A single game between two teams",
+        "A series of games to find an overall winner",
+        "A type of sporting injury",
+        "A sports training session"
+      ],
+      "correct": "A series of games to find an overall winner"
+    },
+    {
+      "id": "p4",
+      "word": "resilience",
+      "emoji": "💪",
+      "opts": [
+        "Giving up when things get difficult",
+        "Physical strength only",
+        "The ability to recover from difficulties",
+        "Being very fast and agile"
+      ],
+      "correct": "The ability to recover from difficulties"
+    },
+    {
+      "id": "p5",
+      "word": "discipline",
+      "emoji": "🎯",
+      "opts": [
+        "Punishment from a referee",
+        "Consistent effort and self-control in training",
+        "Choosing which sport to play",
+        "A type of sports equipment"
+      ],
+      "correct": "Consistent effort and self-control in training"
+    }
+  ],
+  "task1Bank": [
+    "since",
+    "for",
+    "won",
+    "trained",
+    "represented",
+    "competed",
+    "played",
+    "dedicated"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "Ilya Ilyin has ___ gold medals at two Olympics.",
+      "correct": "won"
+    },
+    {
+      "id": "i2",
+      "question": "Amir has been playing football ___ he was six.",
+      "correct": "since"
+    },
+    {
+      "id": "i3",
+      "question": "Vinokourov has ___ professionally since 1998.",
+      "correct": "competed"
+    },
+    {
+      "id": "i4",
+      "question": "Amir has ___ his university in three tournaments.",
+      "correct": "represented"
+    },
+    {
+      "id": "i5",
+      "question": "He has ___ hard ___ four years.",
+      "correct": "trained"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Gennady Golovkin was born in Almaty.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Alexander Vinokourov won the Olympic road race in 2012.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Amir has played for the WKU team for four years.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Dr. Akhmetov believes sport builds character.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Ilya Ilyin won one Olympic gold medal.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

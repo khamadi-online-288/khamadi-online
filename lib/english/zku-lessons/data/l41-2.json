@@ -1,0 +1,494 @@
+{
+  "id": "l41-2",
+  "moduleNum": 7,
+  "lessonNum": 2,
+  "moduleTitle": "Obligations & Advice",
+  "type": "listening",
+  "title": "Getting Advice from a Mentor",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Professor, do you have a few minutes? I'd like some advice about choosing modules for next year.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "Of course. Sit down. What are you considering?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'm torn between Sociolinguistics and Applied Phonetics. Both are in the same slot, so I have to choose.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "You should think about your final dissertation topic first. What direction are you interested in?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I think language acquisition and how bilingual children develop. So probably Sociolinguistics.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "Then you ought to choose Sociolinguistics. It's directly relevant. You mustn't select modules randomly.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Should I also take the optional research methods workshop? It's not compulsory.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "You don't have to take it, but I strongly recommend it. It will help enormously with your dissertation.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What about the internship option? The application is next month.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "You must apply if you're interested — the deadline is strict and they don't extend it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Must I have a supervisor before I apply?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "No, you needn't have one at this stage. But you ought to contact potential supervisors soon — they get busy.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Should I contact you, or someone else?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "You should email Professor Sultanova — she specialises in bilingualism. I'll introduce you if you'd like.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That would be wonderful. And — should I worry about the grade requirement for the internship?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "You don't have to have a perfect GPA, but you ought to have at least 3.5. Check the requirements carefully.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "dissertation",
+      "emoji": "📝",
+      "opts": [
+        "контрольная",
+        "дипломная работа",
+        "тест",
+        "реферат"
+      ],
+      "correct": "дипломная работа"
+    },
+    {
+      "id": "p2",
+      "word": "compulsory",
+      "emoji": "❗",
+      "opts": [
+        "добровольный",
+        "обязательный",
+        "сложный",
+        "дополнительный"
+      ],
+      "correct": "обязательный"
+    },
+    {
+      "id": "p3",
+      "word": "internship",
+      "emoji": "💼",
+      "opts": [
+        "стипендия",
+        "стажировка",
+        "конкурс",
+        "курсовая"
+      ],
+      "correct": "стажировка"
+    },
+    {
+      "id": "p4",
+      "word": "supervisor",
+      "emoji": "👩‍🏫",
+      "opts": [
+        "студент",
+        "научный руководитель",
+        "работодатель",
+        "куратор"
+      ],
+      "correct": "научный руководитель"
+    },
+    {
+      "id": "p5",
+      "word": "slot",
+      "emoji": "📅",
+      "opts": [
+        "место",
+        "временной слот",
+        "задание",
+        "тема"
+      ],
+      "correct": "временной слот"
+    },
+    {
+      "id": "p6",
+      "word": "relevant",
+      "emoji": "🎯",
+      "opts": [
+        "сложный",
+        "неважный",
+        "релевантный",
+        "интересный"
+      ],
+      "correct": "релевантный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila is choosing between two modules in the same time slot.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Professor Aidarov recommends Applied Phonetics for Kamila.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The research methods workshop is compulsory.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The internship deadline can be extended.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila must have a supervisor before applying for the internship.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Professor Sultanova specialises in bilingualism.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Student — seeking advice about modules and internship"
+    },
+    {
+      "id": "aidarov",
+      "name": "Prof. Aidarov",
+      "city": "WKU",
+      "emoji": "👨‍🏫",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Professor — giving advice and recommendations"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says she must choose between Sociolinguistics and Applied Phonetics.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Advises that she ought to choose Sociolinguistics — most relevant to her interests.",
+      "correctCharId": "aidarov"
+    },
+    {
+      "id": "s3",
+      "text": "Asks if she should take the optional research methods workshop.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Says she doesn't have to take the workshop but strongly recommends it.",
+      "correctCharId": "aidarov"
+    },
+    {
+      "id": "s5",
+      "text": "Asks if she must have a supervisor before applying for the internship.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Says she needn't have a supervisor yet but ought to contact them soon.",
+      "correctCharId": "aidarov"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Kamila have to choose between the two modules?",
+      "opts": [
+        "One is too difficult",
+        "Both are in the same time slot",
+        "One has been cancelled",
+        "Her GPA is too low for one"
+      ],
+      "correct": "Both are in the same time slot",
+      "hint": "\"Both are in the same slot, so I have to choose.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Professor Aidarov recommend Sociolinguistics?",
+      "opts": [
+        "It's easier",
+        "It's directly relevant to her dissertation topic",
+        "It's more popular",
+        "He teaches it"
+      ],
+      "correct": "It's directly relevant to her dissertation topic",
+      "hint": "\"You ought to choose Sociolinguistics. It's directly relevant.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The research methods workshop is compulsory.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Should I also take the optional research methods workshop? It's not compulsory.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Professor Aidarov say about the internship deadline?",
+      "opts": [
+        "It can be extended",
+        "It's flexible",
+        "It's strict and not extended",
+        "It was last month"
+      ],
+      "correct": "It's strict and not extended",
+      "hint": "\"the deadline is strict and they don't extend it.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila must have a supervisor before applying for the internship.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, you needn't have one at this stage.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who does Professor Aidarov recommend Kamila contact?",
+      "opts": [
+        "Professor Sultanova",
+        "The dean's office",
+        "The internship coordinator",
+        "Another student"
+      ],
+      "correct": "Professor Sultanova",
+      "hint": "\"You should email Professor Sultanova — she specialises in bilingualism.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the minimum GPA for the internship?",
+      "opts": [
+        "3.0",
+        "3.5",
+        "4.0",
+        "Perfect GPA required"
+      ],
+      "correct": "3.5",
+      "hint": "\"you ought to have at least 3.5. Check the requirements carefully.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Professor Aidarov's advice about the workshop: he says it's ___.",
+      "opts": [
+        "compulsory",
+        "not useful",
+        "optional but strongly recommended",
+        "too advanced for Kamila"
+      ],
+      "correct": "optional but strongly recommended",
+      "hint": "\"You don't have to take it, but I strongly recommend it.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You mustn't select modules randomly.\" \"Mustn't\" expresses:",
+      "opts": [
+        "No obligation",
+        "Absence of obligation",
+        "Strong prohibition",
+        "Advice"
+      ],
+      "correct": "Strong prohibition",
+      "hint": "\"mustn't\" = prohibition (do NOT do this). Strong, from the speaker's authority."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You don't have to take it.\" This means:",
+      "opts": [
+        "It's forbidden",
+        "It's compulsory",
+        "It's not necessary (optional)",
+        "It's strongly recommended"
+      ],
+      "correct": "It's not necessary (optional)",
+      "hint": "\"don't have to\" = no obligation; optional. Compare: \"mustn't\" = prohibited!"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ought to contact supervisors soon.\" \"Ought to\" is similar to:",
+      "opts": [
+        "must",
+        "should",
+        "have to",
+        "needn't"
+      ],
+      "correct": "should",
+      "hint": "\"ought to\" ≈ \"should\" = advice/recommendation. Both suggest it's a good idea."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You needn't have a supervisor yet.\" What does \"needn't\" mean?",
+      "opts": [
+        "You shouldn't",
+        "You mustn't",
+        "You don't need to",
+        "You must"
+      ],
+      "correct": "You don't need to",
+      "hint": "\"needn't\" = don't need to; no obligation. Similar to \"don't have to\" in meaning."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You ___ apply if you're interested.\" (strong obligation — deadline!)",
+      "correct": "must",
+      "hint": "\"must\" = strong obligation (the speaker emphasises the importance). \"You MUST apply.\""
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should think about your dissertation first.\" \"Should\" expresses:",
+      "opts": [
+        "Compulsory obligation",
+        "External rule",
+        "Advice/recommendation",
+        "Prohibition"
+      ],
+      "correct": "Advice/recommendation",
+      "hint": "\"should\" = advice, recommendation. Not compulsory, but a good idea."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Don't have to\" and \"mustn't\" mean the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"don't have to\" = no obligation (optional). \"mustn't\" = prohibition (not allowed). Very different!"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence expresses ADVICE (not obligation)?",
+      "opts": [
+        "\"You must attend 80% of classes.\"",
+        "\"You mustn't plagiarise.\"",
+        "\"You should email Professor Sultanova.\"",
+        "\"You have to submit by Friday.\""
+      ],
+      "correct": "\"You should email Professor Sultanova.\"",
+      "hint": "\"should\" = advice. \"must/have to/mustn't\" = obligation or prohibition."
+    }
+  ]
+}

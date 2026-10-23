@@ -1,0 +1,233 @@
+{
+  "id": "l38-4",
+  "moduleNum": 4,
+  "lessonNum": 5,
+  "moduleTitle": "Plans & Intentions",
+  "type": "writing",
+  "title": "My Plans After Graduation",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I'm going to...",
+      "emoji": "🎯",
+      "opts": [
+        "Я планирую заранее...",
+        "Я только что решил...",
+        "Я думаю...",
+        "Я мечтаю..."
+      ],
+      "correct": "Я планирую заранее..."
+    },
+    {
+      "id": "p2",
+      "word": "I think I'll...",
+      "emoji": "💭",
+      "opts": [
+        "Я решил...",
+        "Мне кажется, я...",
+        "Я собираюсь точно...",
+        "Я уже..."
+      ],
+      "correct": "Мне кажется, я..."
+    },
+    {
+      "id": "p3",
+      "word": "My main goal is to...",
+      "emoji": "🏆",
+      "opts": [
+        "Моя проблема в том, что...",
+        "Моя главная цель — ...",
+        "Меня беспокоит...",
+        "Я хочу чтобы..."
+      ],
+      "correct": "Моя главная цель — ..."
+    },
+    {
+      "id": "p4",
+      "word": "In the long term,",
+      "emoji": "📅",
+      "opts": [
+        "Прямо сейчас,",
+        "В долгосрочной перспективе,",
+        "В прошлом,",
+        "Вчера,"
+      ],
+      "correct": "В долгосрочной перспективе,"
+    },
+    {
+      "id": "p5",
+      "word": "I'm not sure yet, but...",
+      "emoji": "🤔",
+      "opts": [
+        "Я уверен, что...",
+        "Я ещё не знаю, но...",
+        "Я решил давно...",
+        "Это невозможно..."
+      ],
+      "correct": "Я ещё не знаю, но..."
+    },
+    {
+      "id": "p6",
+      "word": "What excites me most is",
+      "emoji": "🌟",
+      "opts": [
+        "Что меня беспокоит",
+        "Что меня больше всего интересует",
+        "Что меня устраивает",
+        "Что мне скучно"
+      ],
+      "correct": "Что меня больше всего интересует"
+    }
+  ],
+  "writingModel": [
+    "My Plans After Graduation — by Amir Bekzhanov",
+    "I'm going to graduate from WKU in June, and I already know what comes next. I've been offered a position at a tech startup in Almaty — a small team of fifteen people working on artificial intelligence integration. I'm going to start work in July, just a few weeks after graduation. It's all moving quite quickly, and honestly, I'm excited.",
+    "The startup is small by design. I could have applied to large corporations — several of my friends are going to join companies with hundreds of employees. But I think I'll learn more in a smaller environment. I'll have more responsibility, more variety, and more direct contact with the product itself. In a large company, I'd probably spend my first year doing one specific task. At the startup, I'll be involved in multiple areas from day one.",
+    "In the short term, my main goal is to prove myself during the first six months. I'm going to work as hard as I can and show the team that they made the right decision. I'll also try to improve my spoken English — I'm good at reading and writing, but I need to be more confident in meetings. I'm going to attend an online conversation course while I'm working.",
+    "In the long term, I'm not entirely sure what direction I want to go. I think I'll stay in technology — it's what I know and love. But I might move into product management rather than pure coding. I'll see how the first year goes before making any big decisions.",
+    "There is one thing I'm certain about: I'm not going to stop learning. I'm going to read books about leadership, technology, and business. I'll probably sign up for some online courses in the evenings. My parents are happy with my plans — they always said that the most important thing is to keep moving forward. I think they're right."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "My Plans After Graduation — by ",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name as the author."
+    },
+    {
+      "key": "intro1",
+      "prefix": "I'm going to graduate in ",
+      "suffix": ", and ",
+      "placeholder": "June / the spring / next year",
+      "hint": "When are you graduating?"
+    },
+    {
+      "key": "intro2",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "describe your immediate plan (I'm going to... / I've been offered...)",
+      "hint": "What happens right after graduation?"
+    },
+    {
+      "key": "plan1",
+      "prefix": "My main plan is to ",
+      "suffix": ".",
+      "placeholder": "describe your primary goal or first step",
+      "hint": "e.g. join a company / continue studying / travel / start a business"
+    },
+    {
+      "key": "reason",
+      "prefix": "I chose this because ",
+      "suffix": ".",
+      "placeholder": "explain why (I think I'll learn more / it suits my strengths)",
+      "hint": "Give your personal reason for this choice."
+    },
+    {
+      "key": "short",
+      "prefix": "In the short term, I'm going to ",
+      "suffix": ".",
+      "placeholder": "your first 6-month goal",
+      "hint": "e.g. prove myself / improve my English / develop new skills"
+    },
+    {
+      "key": "also",
+      "prefix": "I'll also ",
+      "suffix": ".",
+      "placeholder": "another short-term plan or goal",
+      "hint": "e.g. take an online course / join a professional club / improve at..."
+    },
+    {
+      "key": "longterm",
+      "prefix": "In the long term, I think I'll ",
+      "suffix": ".",
+      "placeholder": "where you see yourself in 5 years",
+      "hint": "e.g. move into management / start my own company / study abroad"
+    },
+    {
+      "key": "unsure",
+      "prefix": "I'm not entirely sure yet about ",
+      "suffix": ", but I'll decide after the first year.",
+      "placeholder": "something you're still deciding",
+      "hint": "It's OK to be uncertain about some things. Be honest."
+    },
+    {
+      "key": "certain",
+      "prefix": "One thing I'm certain about: I'm not going to ",
+      "suffix": ".",
+      "placeholder": "something you definitely WON'T do",
+      "hint": "e.g. stop learning / give up / stay in my comfort zone"
+    },
+    {
+      "key": "close",
+      "prefix": "I think the most important thing is to ",
+      "suffix": ".",
+      "placeholder": "your key principle or motivation",
+      "hint": "e.g. keep moving forward / stay curious / never stop improving"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Pre-planned intentions (going to)",
+      "color": "#1D9E75",
+      "items": [
+        "I'm going to + base verb (plan already made)",
+        "I've decided to / I've already...",
+        "I'm going to start / join / apply / travel...",
+        "After graduation, I'm going to...",
+        "My plan is to... (going to)"
+      ]
+    },
+    {
+      "category": "Spontaneous / uncertain (will)",
+      "color": "#1B8FC4",
+      "items": [
+        "I'll + base verb (spontaneous or uncertain)",
+        "I think I'll... / I'll probably...",
+        "I'll see how it goes before deciding.",
+        "I'll also try to improve / develop...",
+        "I won't stop learning / give up."
+      ]
+    },
+    {
+      "category": "Short term vs long term",
+      "color": "#003876",
+      "items": [
+        "In the short term, I'm going to...",
+        "In the long term, I think I'll...",
+        "My main goal for the first year is...",
+        "I'm not entirely sure about...yet.",
+        "I'll decide after the first year."
+      ]
+    },
+    {
+      "category": "Certainty and uncertainty",
+      "color": "#C9933B",
+      "items": [
+        "I'm certain about... / One thing I know for sure:",
+        "I'm not sure yet, but...",
+        "It's too early to decide about...",
+        "I'm keeping my options open about...",
+        "What excites me most is..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "id": "l48-5",
+  "moduleNum": 14,
+  "lessonNum": 8,
+  "moduleTitle": "Describing & Defining",
+  "type": "test",
+  "title": "Module 14 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Kamila \"meet\" Apai Zarina?",
+      "opts": [
+        "At a lecture",
+        "Through margin notes in library books",
+        "Through a mutual friend",
+        "In a library catalogue photo"
+      ],
+      "correct": "Through margin notes in library books",
+      "hint": "\"She met her in the catalogue — in the handwritten notes that Zarina had left in the margins.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the text about inspiring places, what do all four students' places have in common?",
+      "opts": [
+        "They're all outdoors",
+        "They give something back without demanding from you",
+        "They're all on campus",
+        "They're all in the city centre"
+      ],
+      "correct": "They give something back without demanding from you",
+      "hint": "\"They are places that give something back — energy, quiet, perspective.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir's inspiring place is the WKU library.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir's place is the WKU server room, not the library."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Zarina left notes in the ___ of library books.",
+      "correct": "margins",
+      "hint": "\"handwritten notes that Zarina had left in the margins of dozens of library books\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What habit did Kamila start after discovering Zarina's notes?",
+      "opts": [
+        "Reading faster",
+        "Writing response sentences in book margins",
+        "Borrowing more books",
+        "Taking notes in class"
+      ],
+      "correct": "Writing response sentences in book margins",
+      "hint": "\"Whenever she finishes a book, she writes one sentence in the margin. Not a summary. A reply.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the final paragraph of the \"inspiring places\" text about?",
+      "opts": [
+        "How to find peace",
+        "How a favourite place reveals something personal about a person",
+        "How to study better",
+        "University architecture"
+      ],
+      "correct": "How a favourite place reveals something personal about a person",
+      "hint": "\"If you want to understand a person, ask them about the place that makes them feel most themselves.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What type of café does Daniyar describe?",
+      "opts": [
+        "A modern café in Uralsk",
+        "A small old-fashioned café in Aktobe that his grandmother used to take him to",
+        "A university canteen",
+        "A newly opened restaurant"
+      ],
+      "correct": "A small old-fashioned café in Aktobe that his grandmother used to take him to",
+      "hint": "\"a small, slightly old-fashioned place... my grandmother used to take me to every Saturday.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is on the walls of Daniyar's café?",
+      "opts": [
+        "Modern art",
+        "Old photographs which show Aktobe in the 1970s and 80s",
+        "Menus",
+        "Maps of Kazakhstan"
+      ],
+      "correct": "Old photographs which show Aktobe in the 1970s and 80s",
+      "hint": "\"The walls are covered in old photographs which show Aktobe in the 1970s and 80s.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Daniyar says the café menu hasn't changed since the ___ .",
+      "correct": "1990s",
+      "hint": "\"The menu, which hasn't changed since the 1990s, still has the same soup.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What style is Kamila's Almaty library?",
+      "opts": [
+        "Modern",
+        "Soviet era",
+        "Medieval",
+        "Art Deco"
+      ],
+      "correct": "Soviet era",
+      "hint": "\"a large, beautiful building that was built in the Soviet era.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the library connect Kamila to?",
+      "opts": [
+        "Her grandmother",
+        "Her academic career",
+        "Who she was at sixteen",
+        "Her home city"
+      ],
+      "correct": "Who she was at sixteen",
+      "hint": "\"It's become a place that connects me to who I was at sixteen.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila visits the library occasionally when in Almaty.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Every time I'm in Almaty. I sit in the same reading room...\" — she does visit regularly."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's a person ___ always pays attention.\" Choose the pronoun.",
+      "opts": [
+        "which",
+        "where",
+        "who",
+        "whose"
+      ],
+      "correct": "who",
+      "hint": "\"who\" = people. \"A person WHO always pays attention.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A book ___ changed my life.\" Choose the pronoun.",
+      "opts": [
+        "who",
+        "where",
+        "which",
+        "when"
+      ],
+      "correct": "which",
+      "hint": "\"which\" = things. \"A book WHICH changed my life.\" ✅ (or \"that\")"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A place ___ you always feel recognised.\" Choose.",
+      "opts": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "correct": "where",
+      "hint": "\"where\" = places. \"A place WHERE you always feel recognised.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The library, ___ was built in 1960, is beautiful.\" (extra info)",
+      "opts": [
+        "that",
+        "which",
+        "who",
+        "where"
+      ],
+      "correct": "which",
+      "hint": "Non-defining (commas) → must use \"WHICH\", never \"that\". ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"A librarian ___ notes I found.\" (possession)",
+      "correct": "whose",
+      "hint": "\"WHOSE notes\" = possession. \"A librarian WHOSE notes I found.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"a beautiful small old café\" — this order is:",
+      "opts": [
+        "Wrong",
+        "Opinion → Size → Age ✅",
+        "Size → Opinion → Age",
+        "Age → Opinion → Size"
+      ],
+      "correct": "Opinion → Size → Age ✅",
+      "hint": "Opinion (beautiful) → Size (small) → Age (old). Correct! ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"a wooden old beautiful box\" — correct order would be:",
+      "opts": [
+        "\"a wooden beautiful old box\"",
+        "\"a beautiful old wooden box\"",
+        "\"an old wooden beautiful box\"",
+        "\"a beautiful wooden old box\""
+      ],
+      "correct": "\"a beautiful old wooden box\"",
+      "hint": "✅ Opinion (beautiful) → Age (old) → Material (wooden) → noun (box)."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"a ___ ring\" — correct order: (Kazakh / golden / small)",
+      "correct": "small golden Kazakh",
+      "hint": "Size (small) → Colour (golden) → Origin (Kazakh). \"a SMALL GOLDEN KAZAKH ring.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She annotated the books.\" \"Annotate\" means:",
+      "opts": [
+        "Borrow",
+        "Add notes or comments to a text",
+        "Catalogue",
+        "Return"
+      ],
+      "correct": "Add notes or comments to a text",
+      "hint": "\"annotate\" = to write notes or comments in or next to a text."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She read with no deference to authority.\" This means:",
+      "opts": [
+        "She respected all experts",
+        "She did not submit to experts' opinions — she questioned them",
+        "She only read academic books",
+        "She was rude to professors"
+      ],
+      "correct": "She did not submit to experts' opinions — she questioned them",
+      "hint": "\"deference to authority\" = respectful submission. \"No deference\" = she questioned them."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The bank of the river is ___ with uncontrolled plants.",
+      "correct": "overgrown",
+      "hint": "\"overgrown\" = covered with plants that have grown without control or maintenance."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A place that gives you perspective.\" \"Perspective\" means:",
+      "opts": [
+        "A narrow view",
+        "A wider view of things; a way of seeing the bigger picture",
+        "Physical vision",
+        "A document"
+      ],
+      "correct": "A wider view of things; a way of seeing the bigger picture",
+      "hint": "\"perspective\" = a particular way of thinking that allows you to see things in proportion."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The discussion that followed was animated.\" \"Animated\" means:",
+      "opts": [
+        "Boring",
+        "Full of energy and enthusiasm",
+        "Very academic",
+        "Short"
+      ],
+      "correct": "Full of energy and enthusiasm",
+      "hint": "\"animated\" = lively, active, energetic. An animated discussion = a very engaged debate."
+    }
+  ]
+}

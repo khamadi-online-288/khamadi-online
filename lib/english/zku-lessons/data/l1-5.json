@@ -1,0 +1,437 @@
+{
+  "id": "l1-5",
+  "moduleNum": 1,
+  "lessonNum": 7,
+  "moduleTitle": "Hello, world!",
+  "title": "Module 1 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How old is Aizhan Bekova?",
+      "opts": [
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "correct": "18",
+      "hint": "\"I am 18 years old\" — first paragraph."
+    },
+    {
+      "id": "q02",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is the name of Aizhan's group?",
+      "opts": [
+        "Group 100",
+        "Group 101",
+        "Group 201",
+        "Group 102"
+      ],
+      "correct": "Group 101",
+      "hint": "\"My group is called Group 101.\""
+    },
+    {
+      "id": "q03",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Aizhan is from Almaty.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Aizhan is from Aktobe, not Almaty."
+    },
+    {
+      "id": "q04",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many students are in Group 101?",
+      "opts": [
+        "15",
+        "18",
+        "20",
+        "25"
+      ],
+      "correct": "20",
+      "hint": "\"There are 20 students in our group.\""
+    },
+    {
+      "id": "q05",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Ms. Aigerim is from ___.",
+      "correct": "almaty",
+      "hint": "\"She is from Almaty.\" — paragraph 3."
+    },
+    {
+      "id": "q06",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Where is Dias Serik from?",
+      "opts": [
+        "Aktobe",
+        "Almaty",
+        "Shymkent",
+        "Uralsk"
+      ],
+      "correct": "Shymkent",
+      "hint": "\"Dias is from Shymkent, in southern Kazakhstan.\""
+    },
+    {
+      "id": "q07",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Dias wants to become a software engineer.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"His dream is to become a software engineer.\""
+    },
+    {
+      "id": "q08",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What time do classes start at WKU?",
+      "opts": [
+        "8:00 am",
+        "8:30 am",
+        "9:00 am",
+        "9:30 am"
+      ],
+      "correct": "8:30 am",
+      "hint": "\"Classes start at 8:30 am every day.\""
+    },
+    {
+      "id": "q09",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Dias say about the WKU library?",
+      "opts": [
+        "It is small",
+        "It is far away",
+        "It is absolutely huge",
+        "It is boring"
+      ],
+      "correct": "It is absolutely huge",
+      "hint": "\"The library is absolutely huge!\" — Dias."
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Dias's roommate is from Almaty.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Bekzat is from Kyzylorda, not Almaty."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Aizhan's roommate Zarina?",
+      "opts": [
+        "A singer",
+        "A dancer",
+        "An athlete",
+        "A painter"
+      ],
+      "correct": "A dancer",
+      "hint": "\"Her name is Zarina. She's a dancer!\""
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Dias says he is a ___ person (he doesn't mind early classes).",
+      "correct": "morning",
+      "hint": "\"I'm a morning person!\" — Dias."
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Aizhan ends the call because she is tired.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It's dinner time in the dormitory.\" — Aizhan."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Dias say he really likes at WKU?",
+      "opts": [
+        "Mathematics",
+        "History",
+        "Computer Science",
+        "Physics"
+      ],
+      "correct": "Computer Science",
+      "hint": "\"I also really like Computer Science.\""
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct form: I ___ a first-year student.",
+      "opts": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": "am",
+      "hint": "I → am. Only \"am\" is used with I."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct form: She ___ from Almaty.",
+      "opts": [
+        "am",
+        "is",
+        "are",
+        "be"
+      ],
+      "correct": "is",
+      "hint": "He / She / It → is."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "We ___ classmates in Group 101.",
+      "correct": "are",
+      "hint": "We / You / They → are."
+    },
+    {
+      "id": "q18",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"They is students\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "They → are. Correct: \"They are students.\""
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is the correct negative form: I am not →",
+      "opts": [
+        "I amn't",
+        "I isn't",
+        "I'm not",
+        "I aren't"
+      ],
+      "correct": "I'm not",
+      "hint": "Never I amn't! Correct: I'm not."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct article: She is ___ English teacher.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct": "an",
+      "hint": "\"English\" starts with vowel sound → an."
+    },
+    {
+      "id": "q21",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She is a university student\" uses the correct article.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"University\" sounds like [j]uːnɪvɜːsɪti — consonant sound → a, not an."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct article: ___ sun rises in the east.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "Ø"
+      ],
+      "correct": "The",
+      "hint": "Only one sun → the. Unique things take \"the\"."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"motivated\" mean?",
+      "opts": [
+        "very tired",
+        "enthusiastic and determined",
+        "friendly and kind",
+        "intelligent and smart"
+      ],
+      "correct": "enthusiastic and determined",
+      "hint": "\"Motivated\" = enthusiastic and determined to achieve something."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The area of land with all university buildings is called a ___.",
+      "correct": "campus",
+      "hint": "Campus = the area of land with all university buildings."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What is a \"dormitory\"?",
+      "opts": [
+        "A lecture hall",
+        "A student café",
+        "A building where students live",
+        "A university library"
+      ],
+      "correct": "A building where students live",
+      "hint": "Dormitory = a building where students live on campus."
+    },
+    {
+      "id": "q26",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Hardworking\" means a person who never studies.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Hardworking = always putting a lot of effort into work."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"opportunity\" mean?",
+      "opts": [
+        "A problem to solve",
+        "A difficult exam",
+        "A chance to do something positive",
+        "A type of subject"
+      ],
+      "correct": "A chance to do something positive",
+      "hint": "Opportunity = a chance to do something positive and valuable."
+    },
+    {
+      "id": "q28",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "One of the two main periods of the academic year is called a ___.",
+      "correct": "semester",
+      "hint": "Semester = one of the two main periods of the academic year."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"fluently\" mean when talking about language?",
+      "opts": [
+        "speaking very slowly",
+        "speaking smoothly and naturally",
+        "making many mistakes",
+        "using a dictionary"
+      ],
+      "correct": "speaking smoothly and naturally",
+      "hint": "Fluently = speaking a language smoothly and naturally."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "To \"graduate\" from university means to...",
+      "opts": [
+        "start studying",
+        "fail your exams",
+        "finish and receive a degree",
+        "change your subject"
+      ],
+      "correct": "finish and receive a degree",
+      "hint": "Graduate = finish a university course and receive your degree."
+    }
+  ]
+}

@@ -1,0 +1,512 @@
+{
+  "id": "l69-g1",
+  "moduleNum": 11,
+  "lessonNum": 5,
+  "moduleTitle": "Society & Social Issues",
+  "title": "Grammar: Articles — A/An, The, and Zero Article",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Артикли — самая сложная тема в английском для русских и казахских студентов.\n\nОсновное правило:\na/an → первое упоминание / неопределённый предмет\nthe → конкретный известный предмет / второе упоминание\n∅ (нет артикля) → имена собственные, языки, страны, учебные предметы\n\nTHE — когда оба говорящих знают о чём речь:\n\"Can you close the window?\" (есть одно конкретное окно)\n\"I talked to the professor.\" (тот самый профессор)\n\"the sun, the moon, the Earth\" (единственные в своём роде)\n\nA/AN — неизвестный предмет или один из многих:\n\"She is a teacher.\" · \"I need a pen.\" · \"He has an idea.\"\n\nНЕТ АРТИКЛЯ → абстрактные понятия и имена собственные:\n\"I study English.\" · \"She loves music.\" · \"He lives in Kazakhstan.\"",
+  "grammarTable": [
+    {
+      "subject": "A / An",
+      "verb": "indefinite article",
+      "short": "one of many; first mention; job/role",
+      "example": "She is a teacher. I saw a film. He found an opportunity."
+    },
+    {
+      "subject": "The",
+      "verb": "definite article",
+      "short": "specific; second mention; unique; shared knowledge",
+      "example": "The teacher is kind. The sun rises. Turn off the light."
+    },
+    {
+      "subject": "Zero article",
+      "verb": "no article",
+      "short": "general plural; uncountable; abstract; proper nouns",
+      "example": "Dogs are friendly. Poverty is a problem. She studies medicine."
+    },
+    {
+      "subject": "The + adj.",
+      "verb": "definite + adjective",
+      "short": "group of people",
+      "example": "The poor, the elderly, the homeless, the unemployed."
+    },
+    {
+      "subject": "A/An + role",
+      "verb": "indefinite + job",
+      "short": "stating someone's role/job",
+      "example": "He is a doctor. She became an activist. They elected a president."
+    },
+    {
+      "subject": "The + superlative",
+      "verb": "definite + superlative",
+      "short": "always uses \"the\"",
+      "example": "The most serious problem. The best solution. The highest rate."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "First vs Second Mention",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "First mention: a/an (listener doesn't know which one)",
+          "example": "\"There is a protest outside.\" (Which protest? A new one, unknown.)"
+        },
+        {
+          "form": "Second mention: the (listener now knows which one)",
+          "example": "\"The protest was peaceful.\" (We know which one now.)"
+        },
+        {
+          "form": "Already known: the (shared knowledge)",
+          "example": "\"The government announced new policy.\" (Both speakers know which government.)"
+        }
+      ]
+    },
+    {
+      "title": "Generic Statements: Specific vs General",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Zero article + plural noun = general statement about all",
+          "example": "\"Dogs are loyal.\" \"Politicians often make promises.\" \"Students need support.\""
+        },
+        {
+          "form": "The + singular noun = the species/category as a concept",
+          "example": "\"The dog was first domesticated 15,000 years ago.\" (= dogs as a species)"
+        },
+        {
+          "form": "A/An + singular noun = any one example of the category",
+          "example": "\"A student who works hard is more likely to succeed.\" (= any such student)"
+        }
+      ]
+    },
+    {
+      "title": "The + Adjective = A Group of People",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "The + adjective (plural meaning)",
+          "example": "\"The poor need support.\" \"The elderly deserve respect.\" \"The homeless face serious health risks.\""
+        },
+        {
+          "form": "These phrases are always plural in meaning",
+          "example": "\"The unemployed are struggling.\" ✅ \"The unemployed is struggling.\" ❌"
+        },
+        {
+          "form": "Common in social/political writing",
+          "example": "\"The rich should pay more. The disadvantaged need greater support.\""
+        }
+      ]
+    },
+    {
+      "title": "Zero Article: Key Patterns",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Abstract nouns used generally",
+          "example": "\"Education is important. Justice must be served. Freedom matters.\""
+        },
+        {
+          "form": "Uncountable nouns used generally",
+          "example": "\"Poverty is increasing. Housing is expensive. Inequality is harmful.\""
+        },
+        {
+          "form": "Fixed phrases with no article",
+          "example": "\"at school, in hospital, at work, by car, at home, go to university\""
+        },
+        {
+          "form": "Most proper nouns",
+          "example": "\"She lives in London. He visited France. They study at Oxford.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Article Errors",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ The education is important.",
+          "example": "✅ Education is important. (general concept, zero article)"
+        },
+        {
+          "form": "❌ She is the doctor.",
+          "example": "✅ She is a doctor. (job/role: a/an)"
+        },
+        {
+          "form": "❌ I saw most interesting film.",
+          "example": "✅ I saw the most interesting film. (superlative always uses \"the\")"
+        },
+        {
+          "form": "❌ The poverty is a growing problem.",
+          "example": "✅ Poverty is a growing problem. (abstract noun: zero article)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"___ inequality is one of the defining challenges of our time.\"",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "No article",
+      "hint": "Abstract noun used generally: zero article"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"She is ___ activist who campaigns for equality.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "an",
+      "hint": "\"An\" before vowel sound; first mention; job/role"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Insert the correct article or write X for zero article.",
+      "text": "\"___ poor deserve more support from ___ government.\"",
+      "correct": "The / the",
+      "hint": "\"The poor\" = group; \"the government\" = specific, known institution"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"There is ___ problem with the current system.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "a",
+      "hint": "First mention; one of many possible problems"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Insert \"a\", \"an\", \"the\", or X (zero article).",
+      "text": "\"___ homelessness is ___ public health crisis that affects every city.\"",
+      "correct": "X / a",
+      "hint": "Homelessness (general): zero; \"a crisis\" = first mention"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which uses \"the\" correctly?",
+      "text": "",
+      "opts": [
+        "The education is free in this country.",
+        "She studies the medicine.",
+        "The unemployment rate has risen sharply.",
+        "He is the teacher."
+      ],
+      "correct": "The unemployment rate has risen sharply.",
+      "hint": "\"The unemployment rate\" = specific rate we are discussing"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct article.",
+      "text": "\"It is ___ most serious issue facing ___ society today.\"",
+      "correct": "the / no article (X)",
+      "hint": "\"The\" before superlative; \"society\" generally = zero article"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which is correct?",
+      "text": "\"___ dogs make good companions\" (general statement about all dogs)",
+      "opts": [
+        "A",
+        "The",
+        "No article",
+        "An"
+      ],
+      "correct": "No article",
+      "hint": "General plural statement: zero article"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Insert the correct article.",
+      "text": "\"She found ___ job in ___ public sector.\"",
+      "correct": "a / the",
+      "hint": "\"A job\" = one job; \"the public sector\" = known sector"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "The elderly is often ignored.",
+        "An elderly is often ignored.",
+        "The elderly are often ignored.",
+        "Elderly are often ignored."
+      ],
+      "correct": "The elderly are often ignored.",
+      "hint": "\"The + adjective\" = group of people; always plural verb"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Insert \"a/an\", \"the\", or X.",
+      "text": "\"She goes to ___ university and works part-time at ___ local café.\"",
+      "correct": "X / a",
+      "hint": "\"Go to university\" = fixed phrase, no article; \"a local café\" = first mention"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "",
+      "opts": [
+        "Poverty is the growing problem.",
+        "Poverty is a growing problem.",
+        "The poverty is a growing problem.",
+        "A poverty is growing problem."
+      ],
+      "correct": "Poverty is a growing problem.",
+      "hint": "\"Poverty\" (abstract, general) = zero; \"a growing problem\" = first mention"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete with \"a/an\", \"the\", or X.",
+      "text": "\"___ government needs to invest in ___ affordable housing.\"",
+      "correct": "The / X",
+      "hint": "\"The government\" = specific known institution; \"affordable housing\" = general concept"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"___ sun provides energy for all life on Earth.\"",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"The sun\" = unique, only one in our solar system"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete.",
+      "text": "\"She works as ___ social worker in ___ city centre.\"",
+      "correct": "a / the",
+      "hint": "\"A social worker\" = job/role; \"the city centre\" = specific place"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is the correct general statement?",
+      "text": "\"___ education creates opportunity.\" (general concept)",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "No article",
+      "hint": "Abstract noun used generally: zero article"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ homeless often lack access to healthcare.\" Choose the correct article.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"The + adjective\" = group of people (the homeless)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She became ___ politician at the age of thirty.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "a",
+      "hint": "\"A\" before consonant sound; role/profession",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ poverty is increasing rapidly in many regions.\" (Abstract noun, general)",
+      "correct": "No article (X)",
+      "hint": "Abstract noun used generally = zero article",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It is ___ most unequal society in the developed world.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "the",
+      "hint": "Superlative always uses \"the\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which correctly uses \"the\" for shared knowledge?",
+      "opts": [
+        "She met a president.",
+        "The president announced new measures.",
+        "President announced new measures.",
+        "An president announced new measures."
+      ],
+      "correct": "The president announced new measures.",
+      "hint": "\"The president\" = we both know which president is meant",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The elderly are often overlooked\" — this is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"The elderly\" = group; plural verb \"are\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She studies ___ law at ___ university.\"",
+      "correct": "X / X",
+      "hint": "\"Study law / go to university\" = fixed expressions, zero article",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There was ___ protest in the city yesterday.\" (First mention)",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "a",
+      "hint": "First mention, one of many = a/an",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ inequality is difficult to measure, but ___ gap between rich and poor is widening.\"",
+      "correct": "X / the",
+      "hint": "Inequality (general): zero; \"the gap\" = specific gap we're talking about",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ internet has changed how people communicate.\" Choose the article.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"The internet\" = unique, shared knowledge",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She found ___ accommodation in ___ city centre near her office.\"",
+      "correct": "X / the",
+      "hint": "\"Accommodation\" (uncountable): zero article; \"the city centre\" = specific",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence contains an article error?",
+      "opts": [
+        "Education is the key to opportunity.",
+        "She is an economist.",
+        "The government must act.",
+        "The poverty is rising."
+      ],
+      "correct": "The poverty is rising.",
+      "hint": "\"Poverty\" (abstract, general) does not take \"the\"",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "id": "l45-5",
+  "moduleNum": 11,
+  "lessonNum": 7,
+  "moduleTitle": "What Would You Do?",
+  "type": "test",
+  "title": "Module 11 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What hypothetical question was asked in the reading?",
+      "opts": [
+        "What is your dream job?",
+        "If you had a million tenge, what would you do?",
+        "Where would you study abroad?",
+        "If you could live anywhere, where would you live?"
+      ],
+      "correct": "If you had a million tenge, what would you do?",
+      "hint": "\"If you had a million tenge right now — what would you do with it?\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir would spend all the money immediately.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I wouldn't touch the rest for a year.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Kamila value saving money?",
+      "opts": [
+        "She wants to buy a flat",
+        "Security reduces anxiety about the future",
+        "Her parents told her to save",
+        "She has no spending plans"
+      ],
+      "correct": "Security reduces anxiety about the future",
+      "hint": "\"if I had a financial cushion, I'd feel much less anxious about my future.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The follow-up question revealed all students would choose the ___ university courses.",
+      "correct": "same",
+      "hint": "\"They would all choose exactly the same courses.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did the follow-up question reveal about why students study their subjects?",
+      "opts": [
+        "For money",
+        "Because they love their subjects",
+        "Because of family pressure",
+        "To get a visa abroad"
+      ],
+      "correct": "Because they love their subjects",
+      "hint": "\"They don't study what they study for money. They study it because they love it.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a million tenge worth in euros approximately?",
+      "opts": [
+        "10,000 euros",
+        "20,000 euros",
+        "2,000 euros",
+        "200 euros"
+      ],
+      "correct": "2,000 euros",
+      "hint": "\"A million tenge is about 2,000 euros at the current exchange rate.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila's dilemma?",
+      "opts": [
+        "Research vs phonetics module",
+        "Scholarship vs internship",
+        "Two courses she likes",
+        "Money vs travel"
+      ],
+      "correct": "Research vs phonetics module",
+      "hint": "She can't take both the research position and the phonetics module simultaneously."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir recommend?",
+      "opts": [
+        "The phonetics course",
+        "Taking a break",
+        "The research position",
+        "Talking to both professors"
+      ],
+      "correct": "The research position",
+      "hint": "\"If I were you, I'd take the research position.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila is comfortable asking Professor Sultanova to change her schedule.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I wouldn't feel comfortable asking her to change the arrangement for me.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say she would regret more?",
+      "opts": [
+        "Missing phonetics",
+        "Missing the research",
+        "Both equally",
+        "Neither"
+      ],
+      "correct": "Missing the research",
+      "hint": "\"Missing the research. If I had to choose, that's what I'd pick.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Amir suggest Kamila handle the missed phonetics content?",
+      "opts": [
+        "Repeat the module next year",
+        "Ask a friend for notes",
+        "Study it independently online",
+        "Skip it entirely"
+      ],
+      "correct": "Study it independently online",
+      "hint": "\"I'd try to cover the key content independently... There are good resources online.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Amir's final observation is:",
+      "opts": [
+        "The phonetics course is more important",
+        "The research is a bad idea",
+        "People usually know the answer but need someone to voice it",
+        "Kamila should ask another professor"
+      ],
+      "correct": "People usually know the answer but need someone to voice it",
+      "hint": "\"People usually do. They just need someone to say it back to them.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I ___ you, I'd take the offer.\" (advice)",
+      "opts": [
+        "am",
+        "will be",
+        "were",
+        "be"
+      ],
+      "correct": "were",
+      "hint": "\"If I WERE you\" — special form for advice using 2nd Conditional. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If she had the money, she ___ study abroad.\"",
+      "opts": [
+        "will",
+        "would",
+        "could to",
+        "is"
+      ],
+      "correct": "would",
+      "hint": "2nd Conditional: if + Past Simple → WOULD + base verb. \"She WOULD study.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"If I would have the money, I'd go.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"If I HAD the money, I'd go.\" — NEVER \"would\" in the if-clause!"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I have time, I'll help.\" — This is ___ Conditional.",
+      "opts": [
+        "Zero",
+        "First",
+        "Second",
+        "Third"
+      ],
+      "correct": "First",
+      "hint": "\"have\" (present) + \"will\" → FIRST Conditional. Real possibility. ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had time, I'd help.\" — This is ___ Conditional.",
+      "opts": [
+        "Zero",
+        "First",
+        "Second",
+        "Third"
+      ],
+      "correct": "Second",
+      "hint": "\"had\" (past) + \"would\" → SECOND Conditional. Imaginary. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If she ___ (not / study), she ___ (fail) the exam.\" (imaginary)",
+      "correct": "didn't study / would fail",
+      "hint": "\"If she DIDN'T STUDY, she WOULD FAIL.\" — 2nd Conditional, negative if-clause. ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If water freezes, it expands.\" — This is ___ Conditional.",
+      "opts": [
+        "First",
+        "Second",
+        "Zero",
+        "Third"
+      ],
+      "correct": "Zero",
+      "hint": "Scientific/general truth → Zero Conditional: if + present, present. ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What ___ you ___ (do) if you ___ (live) abroad?\" (2nd Conditional)",
+      "correct": "would / do / lived",
+      "hint": "\"What WOULD you DO if you LIVED abroad?\" — 2nd Conditional question form. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A hypothetical question\" is:",
+      "opts": [
+        "A real question with a real answer",
+        "An imaginary question about something that may not be real",
+        "A very difficult question",
+        "A polite indirect question"
+      ],
+      "correct": "An imaginary question about something that may not be real",
+      "hint": "\"hypothetical\" = based on a possible situation that isn't necessarily real."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "She wouldn't ___ — she'd decide immediately.",
+      "correct": "hesitate",
+      "hint": "\"hesitate\" = to pause because you're uncertain. \"She wouldn't hesitate.\" = No pause, immediate decision."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The answers were unanimous.\" \"Unanimous\" means:",
+      "opts": [
+        "All different",
+        "All agreed",
+        "Very surprising",
+        "Mostly positive"
+      ],
+      "correct": "All agreed",
+      "hint": "\"unanimous\" = agreed by everyone. \"Unanimous decision\" = everyone voted the same way."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The answers were revealing.\" \"Revealing\" means:",
+      "opts": [
+        "Boring",
+        "Surprising and informative about a person",
+        "Confusing",
+        "Dishonest"
+      ],
+      "correct": "Surprising and informative about a person",
+      "hint": "\"revealing\" = showing something important or surprising that wasn't obvious."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She would be certified.\" \"Certified\" means:",
+      "opts": [
+        "Self-taught",
+        "Officially recognised as having the required skills",
+        "Very experienced",
+        "Professional only"
+      ],
+      "correct": "Officially recognised as having the required skills",
+      "hint": "\"certified\" = officially confirmed as meeting certain standards through a formal qualification."
+    }
+  ]
+}

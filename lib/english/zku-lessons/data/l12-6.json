@@ -1,0 +1,220 @@
+{
+  "id": "l12-6",
+  "moduleNum": 12,
+  "lessonNum": 7,
+  "moduleTitle": "Travel and places",
+  "title": "My dream trip",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "My dream destination is...",
+      "emoji": "✈️",
+      "opts": [
+        "Моё место кошмара — ...",
+        "Моё обычное место — ...",
+        "Моё место мечты — ...",
+        "Моё последнее место — ..."
+      ],
+      "correct": "Моё место мечты — ..."
+    },
+    {
+      "id": "p2",
+      "word": "It is located...",
+      "emoji": "📍",
+      "opts": [
+        "Это произошло...",
+        "Это расположено...",
+        "Это называется...",
+        "Это выглядит..."
+      ],
+      "correct": "Это расположено..."
+    },
+    {
+      "id": "p3",
+      "word": "I want to visit because...",
+      "emoji": "💭",
+      "opts": [
+        "Я уже посетил потому что...",
+        "Я хочу посетить потому что...",
+        "Я не хочу ехать потому что...",
+        "Я посещу если..."
+      ],
+      "correct": "Я хочу посетить потому что..."
+    },
+    {
+      "id": "p4",
+      "word": "I would walk through...",
+      "emoji": "🚶",
+      "opts": [
+        "Я хожу через...",
+        "Я прошёл через...",
+        "Я бы прошёл через...",
+        "Я иду мимо..."
+      ],
+      "correct": "Я бы прошёл через..."
+    },
+    {
+      "id": "p5",
+      "word": "Next to the ... there is...",
+      "emoji": "📌",
+      "opts": [
+        "Вместо ... есть...",
+        "Рядом с ... есть...",
+        "Напротив ... нет...",
+        "Над ... находится..."
+      ],
+      "correct": "Рядом с ... есть..."
+    },
+    {
+      "id": "p6",
+      "word": "I would stay for...",
+      "emoji": "🗓️",
+      "opts": [
+        "Я остался на...",
+        "Я уеду через...",
+        "Я бы остался на...",
+        "Я приеду через..."
+      ],
+      "correct": "Я бы остался на..."
+    }
+  ],
+  "writingModel": [
+    "My dream destination is Istanbul — the largest city in Turkey and one of the most extraordinary cities in the world. It is located at the meeting point of two continents, Europe and Asia, on both sides of the Bosphorus Strait. I have wanted to visit Istanbul since I was twelve years old, when I first saw a photograph of the Blue Mosque reflected in the water at sunset. Since that moment, I have read books about it, watched documentaries about it, and saved hundreds of photographs of its skyline. Istanbul is not just my dream trip — it is the journey I am working towards, step by step, every single day.",
+    "The place I most want to see is the Hagia Sophia — an ancient building that stands in the heart of the old city, next to the famous Blue Mosque. Between these two enormous structures, there is an open courtyard facing the sky. In front of the Hagia Sophia, there is a wide square called Sultanahmet Square, and around it are gardens, fountains, and ancient stone walls. I would spend my first morning there, sitting on the steps of a fountain opposite the great dome, looking up at the building above me and trying to understand how people built something so magnificent over fifteen hundred years ago.",
+    "On my second day, I would walk through the Grand Bazaar — one of the oldest covered markets in the world. It is in the heart of the European side of the city, not far from the waterfront. Inside, thousands of small shops stand one next to the other in long covered streets that run across the market from entrance to entrance. I would walk along the narrow alleys, past shops selling spices, lamps, carpets, and jewellery. After the bazaar, I would take a ferry across the Bosphorus — from the European side of Istanbul to the Asian side — and stand in two continents within the space of twenty minutes.",
+    "In the evenings, I would sit in a small café opposite the water, drink strong Turkish tea from a small glass, and write in my notebook. Istanbul is a city for dreamers — it is ancient and modern at the same time, noisy and peaceful at the same time. I would stay there for five days. On my last evening, I would walk along the waterfront at sunset and look back at the city skyline — the minarets rising above the rooftops, the lights reflecting in the water far below.",
+    "For me, this trip would be unforgettable because Istanbul connects history, architecture, and culture in one extraordinary place. It would teach me things no textbook ever could — about ancient civilisations, about people, about beauty. And when I came back to WKU and sat down at my desk in Uralsk, I would have stories to tell for the rest of my life. Visiting Istanbul is not just a dream. It is a plan. And one day — I will go."
+  ],
+  "writingTemplate": [
+    {
+      "key": "dest",
+      "prefix": "My dream destination is ",
+      "suffix": ".",
+      "placeholder": "name of city or country",
+      "hint": "e.g. Istanbul · London · Tokyo · Paris · Turkestan · Astana"
+    },
+    {
+      "key": "loc",
+      "prefix": "It is located ",
+      "suffix": ".",
+      "placeholder": "preposition + where it is",
+      "hint": "e.g. in the south of Turkey · on the coast of Spain · in the north of Kazakhstan"
+    },
+    {
+      "key": "why",
+      "prefix": "I want to visit it because ",
+      "suffix": ".",
+      "placeholder": "your reason",
+      "hint": "e.g. it is full of history / I love the architecture / I have seen photos of it"
+    },
+    {
+      "key": "famous",
+      "prefix": "The most famous place there is ",
+      "suffix": ", which stands ___.",
+      "placeholder": "name of landmark ... preposition + location",
+      "hint": "e.g. the Blue Mosque, which stands next to the Hagia Sophia · the old bazaar, which is in the heart of the city"
+    },
+    {
+      "key": "walk",
+      "prefix": "I would walk ",
+      "suffix": " and visit ___.",
+      "placeholder": "through / along / across + place ... what",
+      "hint": "e.g. through the old streets · along the waterfront · across the bridge · past the ancient walls"
+    },
+    {
+      "key": "next",
+      "prefix": "Next to the ",
+      "suffix": ", there is ___.",
+      "placeholder": "landmark ... another place or feature",
+      "hint": "e.g. cathedral, there is a beautiful garden · market, there is a café opposite the entrance"
+    },
+    {
+      "key": "stay",
+      "prefix": "I would stay there for ",
+      "suffix": " because ___.",
+      "placeholder": "duration ... reason",
+      "hint": "e.g. five days because I want to see every corner · a week because there is so much to explore"
+    },
+    {
+      "key": "end",
+      "prefix": "For me, this trip would be ",
+      "suffix": " because ___.",
+      "placeholder": "adjective(s) ... reason",
+      "hint": "e.g. unforgettable because / a dream come true because / the perfect adventure because"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing location — prepositions of place",
+      "color": "#003876",
+      "items": [
+        "It is located in [country / region] / on the coast of...",
+        "The city stands at the meeting point of [two things].",
+        "[Landmark] is in the heart of the city / in the old part of town.",
+        "Next to the [place], there is / there are...",
+        "Between [A] and [B], there is a [place].",
+        "Opposite the [place], you can see / find...",
+        "Above the [place], the [feature] rises into the sky.",
+        "Behind the [market / mosque], there is a quiet garden."
+      ]
+    },
+    {
+      "category": "What I would do — travel plans (would + verb)",
+      "color": "#1B8FC4",
+      "items": [
+        "I would walk through / along / across / past [place].",
+        "I would visit [landmark] on my first / second day.",
+        "I would take a [bus / ferry / train] to [place].",
+        "I would spend [time] at [place], looking at...",
+        "I would sit opposite the [place] and...",
+        "I would stay there for [number] days / a week.",
+        "In the evening, I would [activity] near the [place]."
+      ]
+    },
+    {
+      "category": "Describing places and landmarks",
+      "color": "#7C3AED",
+      "items": [
+        "[Landmark] is one of the most famous places in [place].",
+        "It stands between [A] and [B] — [describe it].",
+        "Inside, there are [things] — one next to the other.",
+        "The view from the top is breathtaking — you can see...",
+        "The colours / smells / sounds there are [adjective].",
+        "It was built [time] ago — it is over [number] years old.",
+        "Around it, there are [gardens / fountains / walls]."
+      ]
+    },
+    {
+      "category": "Concluding your travel writing",
+      "color": "#1D9E75",
+      "items": [
+        "For me, this trip would be [adjective] because...",
+        "It would teach me [things] that no textbook ever could.",
+        "When I came back to [city], I would have stories to tell.",
+        "Visiting [place] is not just a dream — it is a plan.",
+        "One day, I will go. That is certain.",
+        "This journey would change the way I see the world.",
+        "I am already saving / planning / preparing for this trip."
+      ]
+    }
+  ]
+}

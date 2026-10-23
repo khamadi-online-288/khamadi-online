@@ -1,0 +1,429 @@
+{
+  "id": "l30-6",
+  "moduleNum": 14,
+  "lessonNum": 6,
+  "moduleTitle": "Work & Career",
+  "type": "test",
+  "title": "Module 14 Final Test",
+  "xp": 100,
+  "duration": 55,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "By 2030, what will happen to many jobs according to reading 1?",
+      "opts": [
+        "They will stay the same",
+        "They will disappear and be replaced by AI",
+        "They will only change slightly",
+        "They will move to other countries"
+      ],
+      "correct": "They will disappear and be replaced by AI",
+      "hint": "Paragraph 1: \"many jobs will disappear — replaced by artificial intelligence and automation.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Amir dreams of working in international education.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Paragraph 5: Amir wants to become a software engineer; Kamila wants to work in international education."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What does Nurlan (Kamila's brother) do at 9:30 a.m.?",
+      "opts": [
+        "Writes code",
+        "Has a client call",
+        "Attends a team meeting",
+        "Does a code review"
+      ],
+      "correct": "Attends a team meeting",
+      "hint": "Reading 2, paragraph 2: \"He has a team meeting at 9:30.\""
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What does Nurlan do after work every day?",
+      "opts": [
+        "Studies English",
+        "Does something physical",
+        "Works overtime",
+        "Reads technical books"
+      ],
+      "correct": "Does something physical",
+      "hint": "Reading 2, paragraph 5: \"he goes for a run or does a workout.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Zhibek hopes to start her own ___.",
+      "correct": "business",
+      "hint": "Reading 1, paragraph 5: \"Zhibek hopes to start her own business.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What kind of work does the internship involve?",
+      "opts": [
+        "Filing and administration",
+        "Working on real client projects",
+        "Academic research only",
+        "Customer service"
+      ],
+      "correct": "Working on real client projects",
+      "hint": "Statement 2: \"the internship involves working on real client projects.\""
+    },
+    {
+      "id": "q7",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir is offered the internship position in the interview.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Statement 6: \"She offers him the internship and says he will start in July.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did Amir say about working in a team?",
+      "opts": [
+        "He prefers working alone",
+        "He loves solving problems and works well in a team",
+        "He finds it difficult",
+        "He has never worked in a team"
+      ],
+      "correct": "He loves solving problems and works well in a team",
+      "hint": "Statement 3: \"He says he works well in a team and loves solving problems.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "When does Amir's internship start?",
+      "opts": [
+        "June",
+        "July",
+        "August",
+        "September"
+      ],
+      "correct": "July",
+      "hint": "Statement 6: \"he will start in July.\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Amir led his group project when the ___ leader was ill.",
+      "correct": "team",
+      "hint": "Statement 5 describes how Amir stepped up as the team leader."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Apply ___ a job\" — which preposition?",
+      "opts": [
+        "to",
+        "at",
+        "for",
+        "in"
+      ],
+      "correct": "for",
+      "hint": "\"apply for\" = to formally request consideration for a job."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ a mistake\" — which verb?",
+      "opts": [
+        "do",
+        "have",
+        "take",
+        "make"
+      ],
+      "correct": "make",
+      "hint": "\"make a mistake\" = the standard collocation."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ her best during the interview.",
+      "correct": "did",
+      "hint": "\"do your best\" = the correct collocation."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ notes\" — which verb?",
+      "opts": [
+        "make",
+        "do",
+        "take",
+        "have"
+      ],
+      "correct": "take",
+      "hint": "\"take notes\" = the standard collocation."
+    },
+    {
+      "id": "q15",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Do a meeting\" is standard English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"have a meeting\" or \"attend a meeting.\" \"Do a meeting\" is not standard."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (earn) a promotion after just one year.",
+      "correct": "earned",
+      "hint": "\"earn a promotion\" = the correct collocation. Past simple here."
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ progress\" — which verb?",
+      "opts": [
+        "do",
+        "take",
+        "have",
+        "make"
+      ],
+      "correct": "make",
+      "hint": "\"make progress\" = the standard collocation."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Work ___ a software engineer\" — which preposition?",
+      "opts": [
+        "in",
+        "for",
+        "at",
+        "as"
+      ],
+      "correct": "as",
+      "hint": "\"work as + profession\" = describe your role."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "They ___ a great meeting and agreed on the project plan.",
+      "correct": "had",
+      "hint": "\"have a meeting\" = the correct collocation."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She works ___ a tech startup in Almaty\" — which preposition?",
+      "opts": [
+        "as",
+        "in",
+        "for",
+        "at"
+      ],
+      "correct": "for",
+      "hint": "\"work for + company\" = describe your employer."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Career prospects\" means:",
+      "opts": [
+        "Work colleagues",
+        "Future opportunities for advancement in your career",
+        "Professional skills you already have",
+        "A list of job requirements"
+      ],
+      "correct": "Future opportunities for advancement in your career",
+      "hint": "\"Prospects\" = possibilities or chances for the future."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Automation\" means:",
+      "opts": [
+        "Flexible working hours",
+        "Using machines/AI to do tasks previously done by humans",
+        "Working from home",
+        "A type of online course"
+      ],
+      "correct": "Using machines/AI to do tasks previously done by humans",
+      "hint": "\"Automation\" = replacing human tasks with technology."
+    },
+    {
+      "id": "q23",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "An \"internship\" is a permanent full-time job.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Internship\" = temporary work experience, usually for students."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She has years of ___ in marketing and is very skilled.",
+      "correct": "expertise",
+      "hint": "\"Expertise\" = a high level of skill or knowledge from experience."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Sector\" in an economic context means:",
+      "opts": [
+        "A part of a building",
+        "A group or area of the economy or society",
+        "A type of professional skill",
+        "A government department"
+      ],
+      "correct": "A group or area of the economy or society",
+      "hint": "\"Sector\" = a division or part, e.g. the healthcare sector, the IT sector."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Adapt\" means:",
+      "opts": [
+        "To refuse to change",
+        "To change to fit new conditions",
+        "To create something new",
+        "To stop doing something"
+      ],
+      "correct": "To change to fit new conditions",
+      "hint": "\"Adapt\" = to adjust to new situations or requirements."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Work-life balance\" means working as many hours as possible.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Work-life balance\" = managing time so that both work and personal life have appropriate time."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Startup\" refers to:",
+      "opts": [
+        "A large established corporation",
+        "A new company in its early stages",
+        "A government agency",
+        "A non-profit organisation"
+      ],
+      "correct": "A new company in its early stages",
+      "hint": "\"Startup\" = a newly founded company, often in tech, with innovative ideas."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Feedback\" in a work context means:",
+      "opts": [
+        "Negative criticism only",
+        "Comments given to someone about their performance or work",
+        "A formal written report",
+        "Information about salary"
+      ],
+      "correct": "Comments given to someone about their performance or work",
+      "hint": "\"Feedback\" = information given to help someone improve or understand how they are doing."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "He plans to ___ for a summer internship at a tech company.",
+      "correct": "apply",
+      "hint": "\"apply for an internship\" = the correct collocation."
+    }
+  ]
+}

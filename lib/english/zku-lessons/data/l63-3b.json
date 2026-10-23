@@ -1,0 +1,446 @@
+{
+  "id": "l63-3b",
+  "moduleNum": 5,
+  "lessonNum": 4,
+  "moduleTitle": "Modal Verbs: Deduction & Advice",
+  "type": "listening",
+  "title": "A History Seminar: What Should Have Been Done Differently?",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Yerlan",
+      "text": "Today we're looking at the Aral Sea disaster from a policy perspective. The Soviet-era irrigation programme was completed by the 1960s. The sea began shrinking visibly by the 1970s. The question I want you to think about is: what should the authorities have done, and when?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "They must have known by the 1970s that the sea was in trouble. There are reports from that period — official ones — that described the shrinkage. They can't have been unaware of the scale.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "So they should have responded much earlier. By the time any remediation was attempted, the damage was largely irreversible.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Yerlan",
+      "text": "Exactly. But what form should that response have taken? What could have been done?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "The irrigation could have been scaled back. It was serving cotton production — a cash crop. The economic calculation might have been different if the environmental costs had been valued.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "They needn't have built all the channels they built. Some of the later extensions were arguably unnecessary even for the cotton yields they were designed for.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Yerlan",
+      "text": "Good. What about international pressure? Could outside actors have done more?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "It was the Soviet period — outside actors couldn't have applied much pressure. The information might have been suppressed internationally.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Scientific bodies might have raised alarms earlier. UNEP was founded in 1972. They could have flagged it as an international issue sooner.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Yerlan",
+      "text": "And the communities that depended on the sea? What should have been done for them?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "They should have been warned and given the option to relocate. They weren't. They must have stayed because they had no viable alternative — no one gave them one.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "The fishermen couldn't have imagined that the sea would disappear entirely. It must have seemed impossible to them.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Yerlan",
+      "text": "This is the key historical-modal question: when you're using \"should have,\" are you applying modern standards to past decision-makers, or genuine standards that existed and were ignored at the time?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's the crucial distinction. \"They should have known\" only works if the knowledge was available and was being ignored. If it genuinely didn't exist yet, then perhaps they couldn't have known.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "irrigation",
+      "emoji": "💧",
+      "opts": [
+        "промышленность",
+        "ирригация / орошение",
+        "рыболовство",
+        "сельское хозяйство"
+      ],
+      "correct": "ирригация / орошение"
+    },
+    {
+      "id": "p2",
+      "word": "remediation",
+      "emoji": "🌱",
+      "opts": [
+        "загрязнение",
+        "ремедиация / восстановление",
+        "строительство",
+        "исследование"
+      ],
+      "correct": "ремедиация / восстановление"
+    },
+    {
+      "id": "p3",
+      "word": "cash crop",
+      "emoji": "💰",
+      "opts": [
+        "продовольственная культура",
+        "культура на продажу / экспорт",
+        "кормовая культура",
+        "дикое растение"
+      ],
+      "correct": "культура на продажу / экспорт"
+    },
+    {
+      "id": "p4",
+      "word": "yield",
+      "emoji": "🌾",
+      "opts": [
+        "посев",
+        "урожай / выход продукции",
+        "поле",
+        "полив"
+      ],
+      "correct": "урожай / выход продукции"
+    },
+    {
+      "id": "p5",
+      "word": "suppress",
+      "emoji": "🤫",
+      "opts": [
+        "публиковать",
+        "подавлять / замалчивать",
+        "раскрывать",
+        "изучать"
+      ],
+      "correct": "подавлять / замалчивать"
+    },
+    {
+      "id": "p6",
+      "word": "relocate",
+      "emoji": "🏠",
+      "opts": [
+        "оставаться",
+        "переселяться",
+        "адаптироваться",
+        "восстанавливаться"
+      ],
+      "correct": "переселяться"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Daniyar argues authorities must have known about the problem by the 1970s.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The irrigation channels were used mainly for food crops.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Daniyar says all the channels were necessary for the cotton programme.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek argues outside pressure could not have worked because of the Soviet period.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The local communities were warned and given options to relocate.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Dr. Yerlan raises the question of whether past decision-makers should be judged by modern standards.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "yerlan",
+      "name": "Dr. Yerlan",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "History seminar leader — guides discussion of Aral Sea disaster using modal judgements"
+    },
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "⚖️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Law student — argues authorities must have known; uses deduction and retrospective advice"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🌿",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Ecology student — focuses on environmental and community impacts"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "CS student — raises economic and international perspectives"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says authorities can't have been unaware of the scale by the 1970s — official reports existed.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s2",
+      "text": "Says some of the later irrigation extensions needn't have been built.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s3",
+      "text": "Says outside actors couldn't have applied much pressure during the Soviet period.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "Says communities should have been warned and given the option to relocate.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s5",
+      "text": "Says fishermen must have stayed because they had no viable alternative.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s6",
+      "text": "Raises the crucial distinction: were modern standards applied to past decision-makers, or genuine standards being ignored at the time?",
+      "correctCharId": "yerlan"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Daniyar argue about the authorities' knowledge in the 1970s?",
+      "opts": [
+        "They knew nothing",
+        "They must have known — official reports described the shrinkage; they can't have been unaware",
+        "They responded quickly",
+        "They didn't care about the environment"
+      ],
+      "correct": "They must have known — official reports described the shrinkage; they can't have been unaware",
+      "hint": "\"They must have known... They can't have been unaware of the scale.\" — past deduction. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Daniyar say about some of the later irrigation channels?",
+      "opts": [
+        "They were essential",
+        "They needn't have been built — unnecessarily extensive",
+        "They should have been built larger",
+        "They could have been built differently"
+      ],
+      "correct": "They needn't have been built — unnecessarily extensive",
+      "hint": "\"They needn't have built all the channels... some later extensions were arguably unnecessary.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Zhibek say outside pressure couldn't have worked?",
+      "opts": [
+        "There were no international organisations",
+        "The Soviet government ignored outside input; information might have been suppressed internationally",
+        "Scientists agreed with the programme",
+        "No one cared about the Aral Sea"
+      ],
+      "correct": "The Soviet government ignored outside input; information might have been suppressed internationally",
+      "hint": "\"It was the Soviet period — outside actors couldn't have applied much pressure.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What should have been done for local communities, according to Daniyar?",
+      "opts": [
+        "Nothing — they made their own choice",
+        "They should have been warned and given the option to relocate",
+        "They should have been paid compensation",
+        "The sea should have been shown to them"
+      ],
+      "correct": "They should have been warned and given the option to relocate",
+      "hint": "\"They should have been warned and given the option to relocate. They weren't.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Dr. Yerlan's key historical-modal question?",
+      "opts": [
+        "Were the decision-makers corrupt?",
+        "Was the programme planned well?",
+        "Are we applying modern standards to past decision-makers, or genuine standards that existed and were ignored?",
+        "Should the sea have been protected?"
+      ],
+      "correct": "Are we applying modern standards to past decision-makers, or genuine standards that existed and were ignored?",
+      "hint": "\"Are you applying modern standards to past decision-makers, or genuine standards that existed and were ignored at the time?\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir say about \"should have known\"?",
+      "opts": [
+        "Always valid",
+        "It only works if the knowledge was available and being ignored at the time",
+        "It is always unfair to past decision-makers",
+        "It requires modern scientific knowledge"
+      ],
+      "correct": "It only works if the knowledge was available and being ignored at the time",
+      "hint": "\"'Should have known' only works if the knowledge was available and was being ignored.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar argues the cotton production could not have been reduced.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The irrigation COULD HAVE BEEN SCALED BACK.\" — Amir argues this. It was possible. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Daniyar say fishermen must have stayed?",
+      "opts": [
+        "They didn't want to leave",
+        "They loved the sea too much",
+        "They must have had no viable alternative — no one gave them one",
+        "The government forced them to stay"
+      ],
+      "correct": "They must have had no viable alternative — no one gave them one",
+      "hint": "\"They must have stayed because they had no viable alternative — no one gave them one.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They can't have been unaware.\" — \"can't have been\" is:",
+      "opts": [
+        "Permission denied",
+        "Past deduction of impossibility",
+        "Past obligation",
+        "Ability in the past"
+      ],
+      "correct": "Past deduction of impossibility",
+      "hint": "\"can't have + pp\" = past deduction. Evidence makes the alternative (being unaware) almost impossible. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The irrigation could have been scaled back.\" — \"could have been\" is:",
+      "opts": [
+        "Past ability (it was scaled back)",
+        "Unrealised possibility — the option existed but wasn't taken",
+        "Criticism that it should have been",
+        "Certainty that it was possible"
+      ],
+      "correct": "Unrealised possibility — the option existed but wasn't taken",
+      "hint": "\"could have + pp\" = the option was available but wasn't used. Observation, not criticism. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They should have responded much earlier.\" — \"should have\" expresses:",
+      "opts": [
+        "It was done correctly",
+        "An ability they had",
+        "Retrospective criticism — they didn't respond early; this was a mistake",
+        "Certainty they did respond"
+      ],
+      "correct": "Retrospective criticism — they didn't respond early; this was a mistake",
+      "hint": "\"should have + pp\" = retrospective criticism/advice. They didn't respond — and they should have. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Communities ___ have been warned and given options to relocate.\"",
+      "correct": "should",
+      "hint": "\"Communities SHOULD HAVE BEEN warned and given options.\" — retrospective advice/criticism. ✅"
+    }
+  ]
+}

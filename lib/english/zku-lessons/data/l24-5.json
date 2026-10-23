@@ -1,0 +1,441 @@
+{
+  "id": "l24-5",
+  "moduleNum": 8,
+  "lessonNum": 7,
+  "moduleTitle": "Traditions & Culture",
+  "title": "Module 8 — Final Test",
+  "type": "test",
+  "xp": 60,
+  "duration": 35,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What does the word \"Nauryz\" mean?",
+      "opts": [
+        "New spring",
+        "New day",
+        "New year",
+        "New life"
+      ],
+      "correct": "New day",
+      "hint": "\"Nauryz\" comes from Persian and means \"new day\"."
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Nauryz kozhe contains exactly five ingredients.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Nauryz kozhe is made from SEVEN ingredients."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What does cleaning the house before Nauryz symbolise?",
+      "opts": [
+        "Wealth",
+        "Removing the old and negative",
+        "Preparing food",
+        "Welcoming spring rain"
+      ],
+      "correct": "Removing the old and negative",
+      "hint": "\"This symbolises the removal of everything old and negative from the previous year.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "UNESCO added Nauryz to the Intangible Cultural Heritage list in ___.",
+      "correct": "2009",
+      "hint": "\"UNESCO added it to the Intangible Cultural Heritage list in 2009.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many days does the Nauryz holiday last in Kazakhstan?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Seven"
+      ],
+      "correct": "Three",
+      "hint": "\"In Kazakhstan, the holiday lasts for three days.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "The game \"kokpar\" involves:",
+      "opts": [
+        "Singing on a swing",
+        "Wrestling competitions",
+        "Horseback riders fighting for a goat carcass",
+        "Traditional cooking competitions"
+      ],
+      "correct": "Horseback riders fighting for a goat carcass",
+      "hint": "\"Kokpar — where riders on horseback fight for control of a goat carcass.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Why does Amir's family now celebrate Nauryz more quietly?",
+      "opts": [
+        "They moved to a small flat",
+        "They forgot the traditions",
+        "His grandfather passed away",
+        "They are too busy"
+      ],
+      "correct": "His grandfather passed away",
+      "hint": "\"My grandfather passed away three years ago, and now we celebrate more quietly.\""
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Kamila's family plays a traditional game called ___ — a large swing where people sing.",
+      "correct": "Altybakan",
+      "hint": "Kamila described a game called Altybakan — a traditional swing families build together."
+    },
+    {
+      "id": "q9",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila's grandmother writes down the Nauryz kozhe recipe.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Kamila said \"She never uses a written recipe — it's all in her memory.\""
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did Amir's cousins win in the Nauryz races?",
+      "opts": [
+        "Money",
+        "Traditional food",
+        "A scarf or a book",
+        "A horse"
+      ],
+      "correct": "A scarf or a book",
+      "hint": "\"The winner got a special prize from Grandfather — usually a beautiful scarf or a book.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Amir think has become more common at modern Nauryz?",
+      "opts": [
+        "More horse racing",
+        "More family traditions",
+        "More concerts and shopping",
+        "More traditional food"
+      ],
+      "correct": "More concerts and shopping",
+      "hint": "\"There are more concerts and shopping now — less of the simple, community spirit.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ make Nauryz kozhe every year as a child.",
+      "opts": [
+        "use to",
+        "used to",
+        "is used to",
+        "was use to"
+      ],
+      "correct": "used to",
+      "hint": "Affirmative \"used to\" + BASE form for a repeated past habit."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "My family ___ have a yurt — we always used tables.",
+      "opts": [
+        "didn't use to",
+        "didn't used to",
+        "wasn't used to",
+        "not use to"
+      ],
+      "correct": "didn't use to",
+      "hint": "Negative: didn't use to (no 'd' on 'use')."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ your family ___ celebrate Nauryz with a big gathering?",
+      "correct": "Did / use to",
+      "hint": "Question: Did + subject + use to (BASE) + verb?"
+    },
+    {
+      "id": "q15",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Did she used to sing?\" is the correct question form.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"Did she use to sing?\" — no \"d\" in \"use to\" after \"did\"."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence uses Past Simple correctly (NOT \"used to\")?",
+      "opts": [
+        "She used to visit Almaty in 2022.",
+        "She visited Almaty in 2022.",
+        "She use to visit in 2022.",
+        "She would visit in 2022."
+      ],
+      "correct": "She visited Almaty in 2022.",
+      "hint": "\"In 2022\" is a specific year — use Past Simple, not \"used to\"."
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"used to\" expresses:",
+      "opts": [
+        "A future plan",
+        "A single past event",
+        "A repeated past habit or long-lasting past state",
+        "A present habit"
+      ],
+      "correct": "A repeated past habit or long-lasting past state",
+      "hint": "\"used to\" = something that was regular in the past but is no longer true now."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ the Nauryz kozhe at the city festival last Saturday.",
+      "opts": [
+        "used to taste",
+        "was tasting",
+        "tasted",
+        "use to taste"
+      ],
+      "correct": "tasted",
+      "hint": "\"Last Saturday\" = specific completed event → Past Simple."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"symbolise\" mean?",
+      "opts": [
+        "To cook",
+        "To represent something",
+        "To celebrate",
+        "To clean"
+      ],
+      "correct": "To represent something",
+      "hint": "\"Symbolise\" = to be a symbol of; to represent."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Reconciliation\" means a type of traditional soup.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Reconciliation = making friendly again after a disagreement."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"yurt\" is:",
+      "opts": [
+        "A traditional circular tent",
+        "A type of bread",
+        "A traditional game",
+        "A Nauryz greeting"
+      ],
+      "correct": "A traditional circular tent",
+      "hint": "A yurt = a circular portable tent used by Central Asian nomads."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Joyful\" describes something that is:",
+      "opts": [
+        "Very sad",
+        "Very dangerous",
+        "Full of great happiness",
+        "Very quiet"
+      ],
+      "correct": "Full of great happiness",
+      "hint": "\"Joyful\" = feeling or causing great happiness and delight."
+    },
+    {
+      "id": "q23",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "Cultural traditions and values passed down through generations are called cultural ___.",
+      "correct": "heritage",
+      "hint": "\"Heritage\" = traditions, achievements, and values passed from generation to generation."
+    },
+    {
+      "id": "q24",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Generously\" describes sharing things:",
+      "opts": [
+        "Reluctantly",
+        "Secretly",
+        "Freely and plentifully",
+        "Angrily"
+      ],
+      "correct": "Freely and plentifully",
+      "hint": "\"Generously\" = giving or sharing freely without holding back."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Prosperity\" means:",
+      "opts": [
+        "Sadness",
+        "Success and wealth",
+        "A traditional game",
+        "A prayer"
+      ],
+      "correct": "Success and wealth",
+      "hint": "\"Prosperity\" = the state of being successful, healthy, and wealthy."
+    },
+    {
+      "id": "q26",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Cauldron\" means a small modern kitchen pot.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "A cauldron is a LARGE round pot for cooking over an open fire."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Know by heart\" means:",
+      "opts": [
+        "Know by reading",
+        "Know from memory",
+        "Know from a teacher",
+        "Know for a long time"
+      ],
+      "correct": "Know from memory",
+      "hint": "\"Know by heart\" = to know perfectly from memory, without needing to look it up."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "To \"resolve\" an argument means to:",
+      "opts": [
+        "Start an argument",
+        "Ignore an argument",
+        "Solve and end an argument",
+        "Repeat an argument"
+      ],
+      "correct": "Solve and end an argument",
+      "hint": "\"Resolve\" = to find a solution to a problem or end a disagreement."
+    },
+    {
+      "id": "q29",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The Altybakan is a traditional ___ that families build together for Nauryz.",
+      "correct": "swing",
+      "hint": "A swing = a seat hanging from ropes that moves back and forth; Altybakan is a traditional swing."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"pass away\" is a polite way of saying:",
+      "opts": [
+        "To travel",
+        "To retire",
+        "To die",
+        "To graduate"
+      ],
+      "correct": "To die",
+      "hint": "\"Pass away\" is a gentle / euphemistic expression for dying."
+    }
+  ]
+}

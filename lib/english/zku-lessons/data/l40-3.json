@@ -1,0 +1,486 @@
+{
+  "id": "l40-3",
+  "moduleNum": 6,
+  "lessonNum": 3,
+  "moduleTitle": "Life Experiences",
+  "type": "listening",
+  "title": "An Interview: Life Achievements",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to WKU Radio. Today I'm speaking with Zhibek Akhmetova, captain of the WKU women's volleyball team. Zhibek, how long have you been playing volleyball?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've been playing since I was nine years old. So — almost fifteen years.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "That's incredible. What has been the highlight of your career so far?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Winning the regional championship in 2022 was the most important moment. We've worked so hard for that and it finally happened.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Have you ever played internationally?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Yes — I've represented Kazakhstan in two under-23 tournaments. One in Bishkek, one in Tashkent. It was a completely different level.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "What has been the hardest moment in your career?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Injuring my shoulder twice. The second time was worse. I was out for six months. I thought about stopping completely.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "But you didn't stop.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "No. I've never been someone who gives up easily. I came back and I was stronger.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Beyond volleyball, what have you achieved academically at WKU?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've maintained a GPA above 3.8 throughout my degree. I've also written two research papers — one of them has been accepted for publication.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Impressive. What has been the most surprising thing you've discovered about yourself at university?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That I'm genuinely interested in sports science. I've started reading research papers on training methodology. I've realised that what I want isn't just to play — I want to understand sport at a deeper level.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "What are your plans after graduation?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've already applied for a master's in sports science in Almaty. And I'm going to try one more time for the national championship this spring.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "highlight",
+      "emoji": "⭐",
+      "opts": [
+        "провал",
+        "лучший момент",
+        "важная тема",
+        "проблема"
+      ],
+      "correct": "лучший момент"
+    },
+    {
+      "id": "p2",
+      "word": "represent",
+      "emoji": "🎽",
+      "opts": [
+        "соревноваться",
+        "представлять",
+        "поддерживать",
+        "выступать"
+      ],
+      "correct": "представлять"
+    },
+    {
+      "id": "p3",
+      "word": "maintain",
+      "emoji": "📊",
+      "opts": [
+        "терять",
+        "поддерживать",
+        "улучшать",
+        "снижать"
+      ],
+      "correct": "поддерживать"
+    },
+    {
+      "id": "p4",
+      "word": "publication",
+      "emoji": "📄",
+      "opts": [
+        "презентация",
+        "публикация",
+        "конкурс",
+        "экзамен"
+      ],
+      "correct": "публикация"
+    },
+    {
+      "id": "p5",
+      "word": "methodology",
+      "emoji": "🔬",
+      "opts": [
+        "результат",
+        "методология",
+        "стратегия",
+        "система"
+      ],
+      "correct": "методология"
+    },
+    {
+      "id": "p6",
+      "word": "GPA",
+      "emoji": "📈",
+      "opts": [
+        "уровень языка",
+        "средний балл",
+        "степень",
+        "стипендия"
+      ],
+      "correct": "средний балл"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Zhibek has been playing volleyball for almost fifteen years.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "She won the regional championship in 2021.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "She has played in international tournaments.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Her first shoulder injury was more serious than the second.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "She has maintained a GPA above 3.8.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "She has already applied for a master's programme.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU volleyball captain — interviewee"
+    },
+    {
+      "id": "host",
+      "name": "Host",
+      "city": "WKU",
+      "emoji": "🎙️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU Radio interviewer — asks about achievements"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been playing volleyball since age nine — almost fifteen years.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s2",
+      "text": "Asks about the highlight of Zhibek's career so far.",
+      "correctCharId": "host"
+    },
+    {
+      "id": "s3",
+      "text": "Has represented Kazakhstan in two international under-23 tournaments.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "Has maintained a GPA above 3.8 and written two research papers.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s5",
+      "text": "Asks what Zhibek has achieved academically beyond volleyball.",
+      "correctCharId": "host"
+    },
+    {
+      "id": "s6",
+      "text": "Has already applied for a master's in sports science in Almaty.",
+      "correctCharId": "zhibek"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Zhibek been playing volleyball?",
+      "opts": [
+        "Five years",
+        "Ten years",
+        "Almost fifteen years",
+        "Twenty years"
+      ],
+      "correct": "Almost fifteen years",
+      "hint": "\"I've been playing since I was nine years old. So — almost fifteen years.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was the highlight of Zhibek's career?",
+      "opts": [
+        "Playing internationally",
+        "Winning the regional championship in 2022",
+        "Writing a research paper",
+        "Graduating"
+      ],
+      "correct": "Winning the regional championship in 2022",
+      "hint": "\"Winning the regional championship in 2022 was the most important moment.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "She has represented Kazakhstan in ___ international under-23 tournaments.",
+      "correct": "two",
+      "hint": "\"I've represented Kazakhstan in two under-23 tournaments.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long was she out after the second shoulder injury?",
+      "opts": [
+        "Three months",
+        "Four months",
+        "Six months",
+        "A year"
+      ],
+      "correct": "Six months",
+      "hint": "\"I was out for six months. I thought about stopping completely.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which of Zhibek's research papers has been accepted for publication?",
+      "opts": [
+        "The first one",
+        "The second one",
+        "Both",
+        "Neither"
+      ],
+      "correct": "The second one",
+      "hint": "\"I've also written two research papers — one of them has been accepted for publication.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek says she wants to focus only on playing volleyball in her career.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've realised that what I want isn't just to play — I want to understand sport at a deeper level.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Zhibek already done for her future plans?",
+      "opts": [
+        "Moved to Almaty",
+        "Applied for a master's programme",
+        "Won the national championship",
+        "Retired from volleyball"
+      ],
+      "correct": "Applied for a master's programme",
+      "hint": "\"I've already applied for a master's in sports science in Almaty.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What surprising discovery has Zhibek made about herself at university?",
+      "opts": [
+        "She enjoys cooking",
+        "She is genuinely interested in sports science",
+        "She wants to become a coach",
+        "She prefers studying to sport"
+      ],
+      "correct": "She is genuinely interested in sports science",
+      "hint": "\"I've started reading research papers on training methodology.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been playing since I was nine.\" — Why use PP here?",
+      "opts": [
+        "It finished in the past",
+        "It started in the past and continues now",
+        "It happens every day",
+        "It just happened"
+      ],
+      "correct": "It started in the past and continues now",
+      "hint": "\"have been playing\" = Present Perfect Continuous — started past, still continuing NOW. \"since\" confirms it."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"One of them ___ (accept/passive) for publication.\" Use Present Perfect.",
+      "correct": "has been accepted",
+      "hint": "Present Perfect passive: \"has been + past participle\". \"One has been ACCEPTED.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was out for six months.\" — Why Past Simple here?",
+      "opts": [
+        "It still continues",
+        "It happened in the past and is completed",
+        "She uses PS for experiences",
+        "No reason"
+      ],
+      "correct": "It happened in the past and is completed",
+      "hint": "The injury period is OVER and completed → Past Simple. If it still continued, she'd use PP."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We've worked so hard for that and it finally happened.\" — why PP then PS?",
+      "opts": [
+        "No difference",
+        "PP = process (ongoing to past); PS = specific completed event",
+        "PP is wrong here",
+        "Both should be PS"
+      ],
+      "correct": "PP = process (ongoing to past); PS = specific completed event",
+      "hint": "\"We've worked\" = PP (the effort over time). \"It finally happened\" = PS (the specific moment it occurred)."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What has been the highlight so far?\" — \"so far\" means:",
+      "opts": [
+        "In the future",
+        "Up to this point in time",
+        "In general",
+        "Just now"
+      ],
+      "correct": "Up to this point in time",
+      "hint": "\"so far\" = from the beginning until now. Often used with PP: \"What have you achieved so far?\""
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (never / give up) easily.\" Use Present Perfect.",
+      "correct": "'s never given",
+      "hint": "\"give up → given up\" (irregular). \"She's never given up easily.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've already applied.\" — \"already\" goes where in a PP sentence?",
+      "opts": [
+        "At the start",
+        "After the subject, before the past participle",
+        "At the end",
+        "Before have/has"
+      ],
+      "correct": "After the subject, before the past participle",
+      "hint": "\"I've ALREADY applied.\" = Subject + have/has + ALREADY + past participle. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've maintained a GPA of 3.8 throughout my degree.\" This means:",
+      "opts": [
+        "She got 3.8 once",
+        "She got 3.8 every semester consistently",
+        "She got 3.8 this semester only",
+        "She hopes to get 3.8"
+      ],
+      "correct": "She got 3.8 every semester consistently",
+      "hint": "\"throughout my degree\" = for the entire duration, consistently. PP shows ongoing result."
+    }
+  ]
+}

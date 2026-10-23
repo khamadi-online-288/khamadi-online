@@ -1,0 +1,295 @@
+{
+  "id": "l5-1",
+  "moduleNum": 5,
+  "lessonNum": 1,
+  "moduleTitle": "I can / I can't",
+  "title": "What can you do?",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "Every year in the first week of October, WKU organises a Skills Fair in the main hall. All first-year students come to this event and share what they can do. It is a fantastic opportunity to meet new people and discover amazing talents. This year, more than 200 students participated. The hall was full of music, art, games, and technology. It was one of the best days of the year!",
+    "My name is Arlan Bekov. I am 19 years old and I am from Astana, the capital of Kazakhstan. I study Computer Science at WKU. I can code in Python and JavaScript — I practise programming every day for at least one hour. I can also play chess — I was the Under-18 city champion in Astana when I was 16 years old. And I can speak three languages fluently: Kazakh, Russian, and English. Languages come very naturally to me.",
+    "But there are many things I cannot do! I can't cook at all — I always burn the food or forget to add salt. My roommate says my cooking is dangerous! I can't drive yet because I don't have a licence — I need to take driving lessons next summer. And I absolutely cannot sing. My friends cover their ears when I try! I want to learn cooking this year — it is a very useful life skill.",
+    "My name is Malika Seitkali. I am 18 years old and I am from Shymkent. I study Economics at WKU. I can sing — I performed at school concerts for three years and won second place at a regional competition. I can also dance — I know traditional Kazakh dances and modern hip-hop. In addition, I can draw and paint. My oil paintings are quite good — three of them are displayed in the WKU Art Gallery!",
+    "However, I cannot code at all. Programming is very difficult and confusing for me. I look at the screen and I see only symbols! I cannot play chess either — the rules are too complicated for me. But Arlan promised to teach me chess this semester, and I am excited to learn! And my English is not very strong yet — I can understand a lot, but I cannot speak very fluently. I study hard every day and I am improving.",
+    "Other WKU students at the Skills Fair have amazing abilities too. Bekzat from Kyzylorda can play football brilliantly — he scored 30 goals last season and hopes to play professionally one day. Ainur from Astana can speak five languages: Kazakh, Russian, English, Chinese, and Korean — she is absolutely extraordinary! And Zarina, who is a student in Group 101, can cook traditional Kazakh food beautifully. Her beshbarmak is legendary in the dormitory!",
+    "At the Skills Fair, we quickly realise that every person has different and unique abilities. Nobody can do everything, but everybody can do something very well. Arlan can teach coding and chess. Malika can teach dancing and singing. Bekzat can teach football skills and team spirit. We all decide to help each other learn new things. Arlan will teach Malika chess, and Malika will teach Arlan how to cook a proper meal without burning it!",
+    "WKU is a place where every student has something special to contribute. You can be talented in technology, sport, music, art, languages, or science. The most important lesson of the Skills Fair is this: never say \"I can't do anything useful.\" Because you CAN — you just need to find your talent and practise every day. As our English teacher Ms. Aigerim always says: \"Every skill begins with a single step. Take that step today!\""
+  ],
+  "dialogue": [
+    {
+      "speaker": "Malika",
+      "text": "Hi! I am Malika. Can you really code? Show me something!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Of course! I can write a simple program in five minutes. Can you code?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "No, I can't code at all. It's like a mystery to me! But I can sing. Can you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Ha! No, I absolutely cannot sing. My friends say I sound like a broken alarm!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Ha! What else can't you do? Can you cook?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "No, I can't cook. I always burn everything. My roommate banned me from the kitchen!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "I can cook! I can make beshbarmak and manty. Can you drive?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Not yet — I can't drive. I don't have a licence. Can you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "No, me neither! Can you speak any other languages?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Yes — I can speak Kazakh, Russian, and English fluently. You?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Same three. But I can't speak English very fluently yet. I'm learning!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Me too! We all can learn. What's YOUR best skill, Malika?",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I can...",
+      "ru": "Я умею... / Я могу...",
+      "context": "I can code in Python and JavaScript."
+    },
+    {
+      "phrase": "I can't...",
+      "ru": "Я не умею... / Я не могу...",
+      "context": "I can't cook — I always burn the food."
+    },
+    {
+      "phrase": "Can you...?",
+      "ru": "Ты умеешь...? / Можешь...?",
+      "context": "Can you really code? Show me!"
+    },
+    {
+      "phrase": "Yes, I can.",
+      "ru": "Да, умею.",
+      "context": "Can you sing? — Yes, I can!"
+    },
+    {
+      "phrase": "No, I can't.",
+      "ru": "Нет, не умею.",
+      "context": "Can you drive? — No, I can't."
+    },
+    {
+      "phrase": "He / She can...",
+      "ru": "Он / Она умеет...",
+      "context": "Ainur can speak five languages."
+    },
+    {
+      "phrase": "I want to learn...",
+      "ru": "Я хочу научиться...",
+      "context": "I want to learn cooking this year."
+    },
+    {
+      "phrase": "I practise every day",
+      "ru": "Я практикуюсь каждый день",
+      "context": "I practise programming every day."
+    },
+    {
+      "phrase": "I can't... yet",
+      "ru": "Я пока не умею...",
+      "context": "I can't speak English very fluently yet."
+    },
+    {
+      "phrase": "a special skill",
+      "ru": "особый навык / умение",
+      "context": "Every student has a special skill."
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "skill",
+      "emoji": "🎯",
+      "opts": [
+        "расписание",
+        "навык",
+        "задание",
+        "предмет"
+      ],
+      "correct": "навык"
+    },
+    {
+      "id": "p2",
+      "word": "ability",
+      "emoji": "💡",
+      "opts": [
+        "желание",
+        "способность / умение",
+        "слабость",
+        "привычка"
+      ],
+      "correct": "способность / умение"
+    },
+    {
+      "id": "p3",
+      "word": "fluently",
+      "emoji": "🗣️",
+      "opts": [
+        "медленно",
+        "громко",
+        "бегло / свободно",
+        "тихо"
+      ],
+      "correct": "бегло / свободно"
+    },
+    {
+      "id": "p4",
+      "word": "chess",
+      "emoji": "♟️",
+      "opts": [
+        "шашки",
+        "шахматы",
+        "карты",
+        "домино"
+      ],
+      "correct": "шахматы"
+    },
+    {
+      "id": "p5",
+      "word": "talented",
+      "emoji": "⭐",
+      "opts": [
+        "скромный",
+        "ленивый",
+        "талантливый",
+        "тихий"
+      ],
+      "correct": "талантливый"
+    },
+    {
+      "id": "p6",
+      "word": "practise",
+      "emoji": "🔁",
+      "opts": [
+        "забывать",
+        "пропускать",
+        "практиковаться",
+        "бояться"
+      ],
+      "correct": "практиковаться"
+    }
+  ],
+  "task1Bank": [
+    "Astana",
+    "chess",
+    "Python",
+    "three",
+    "Shymkent",
+    "five",
+    "cooking",
+    "dancing"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Arlan Bekov is from ___, the capital of Kazakhstan.",
+      "correct": "Astana"
+    },
+    {
+      "id": "t2",
+      "question": "Arlan was the city champion in ___ when he was 16.",
+      "correct": "chess"
+    },
+    {
+      "id": "t3",
+      "question": "Arlan can code in ___ and JavaScript.",
+      "correct": "Python"
+    },
+    {
+      "id": "t4",
+      "question": "Arlan can speak ___ languages fluently.",
+      "correct": "three"
+    },
+    {
+      "id": "t5",
+      "question": "Malika Seitkali is from ___.",
+      "correct": "Shymkent"
+    },
+    {
+      "id": "t6",
+      "question": "Ainur can speak ___ languages in total.",
+      "correct": "five"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Arlan can cook very well.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "Malika can sing and dance.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Arlan can already drive a car.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Malika can speak English very fluently.",
+      "correct": "false"
+    },
+    {
+      "id": "f5",
+      "statement": "Bekzat from Kyzylorda can play football brilliantly.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "Arlan promises to teach Malika chess.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

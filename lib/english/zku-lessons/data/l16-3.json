@@ -1,0 +1,214 @@
+{
+  "id": "l16-3",
+  "moduleNum": 16,
+  "lessonNum": 3,
+  "moduleTitle": "A1 Final Exam",
+  "title": "Part 3 — Writing",
+  "type": "writing",
+  "xp": 200,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Dear... / Hi...",
+      "emoji": "✉️",
+      "opts": [
+        "Стандартное начало письма / email",
+        "Конец письма",
+        "Тема письма",
+        "Адрес получателя"
+      ],
+      "correct": "Стандартное начало письма / email"
+    },
+    {
+      "id": "p2",
+      "word": "I am writing to...",
+      "emoji": "📝",
+      "opts": [
+        "Я заканчиваю...",
+        "Я хочу сказать...",
+        "Я пишу чтобы...",
+        "Я отвечаю на..."
+      ],
+      "correct": "Я пишу чтобы..."
+    },
+    {
+      "id": "p3",
+      "word": "I look forward to...",
+      "emoji": "😊",
+      "opts": [
+        "Я с нетерпением жду...",
+        "Я боюсь...",
+        "Я помню...",
+        "Я думаю о..."
+      ],
+      "correct": "Я с нетерпением жду..."
+    },
+    {
+      "id": "p4",
+      "word": "Best wishes / Regards",
+      "emoji": "👋",
+      "opts": [
+        "Начало письма",
+        "Тема сообщения",
+        "Подпись в конце письма",
+        "Заголовок"
+      ],
+      "correct": "Подпись в конце письма"
+    },
+    {
+      "id": "p5",
+      "word": "I would describe... as...",
+      "emoji": "🔍",
+      "opts": [
+        "Я покупаю... за...",
+        "Я описываю... как...",
+        "Я хочу... вместо...",
+        "Я сравниваю... с..."
+      ],
+      "correct": "Я описываю... как..."
+    },
+    {
+      "id": "p6",
+      "word": "Overall, I think...",
+      "emoji": "🔭",
+      "opts": [
+        "В начале я думаю...",
+        "В целом, я думаю...",
+        "Однако, я думаю...",
+        "Потому что я думаю..."
+      ],
+      "correct": "В целом, я думаю..."
+    }
+  ],
+  "writingModel": [
+    "— TASK 1: EMAIL TO A FRIEND —\n\nHi Aigerim!\n\nHow are you? I hope you are well. I am writing to tell you about my plans for the summer — there is a lot of exciting news!\n\nFirst, I am going to do a six-week internship at a tech company in Astana. I applied for it in March and they offered me a place last week. I cannot believe it! After the internship, I am going to spend two weeks in Aktau with my family. My mum is going to cook every day and we are going to visit the beach together.\n\nIn August, I am going to start an intensive English course to improve my speaking skills. I think it will really help me in my future career.\n\nI hope we are going to meet before September! Are you going to be in Almaty in August?\n\nBest wishes,\nSamal",
+    "— TASK 2: DESCRIBE YOUR PERFECT PLACE TO STUDY —\n\nMy favourite place to study is the WKU library. It is in the main building, on the second floor. The library is large, quiet, and very comfortable — much more comfortable than my dormitory room.\n\nThe library has big windows, so there is plenty of natural light. The chairs are soft and the desks are wide. It is the most peaceful place on the whole campus. There is a small café next to the main reading room, which is very convenient when I need a coffee during a long study session.\n\nThe library is open from eight in the morning until ten at night. I usually go there on Tuesday and Thursday afternoons. I find it much easier to concentrate there than anywhere else.\n\nOverall, I think the library is the perfect place to study because it is quiet, comfortable, and well-equipped. I am going to spend even more time there next semester."
+  ],
+  "writingTemplate": [
+    {
+      "key": "task1_open",
+      "prefix": "Hi / Dear ___,\n\nI am writing to tell you about ",
+      "suffix": ".",
+      "placeholder": "the main topic of your email",
+      "hint": "e.g. my summer plans / my new internship / my plans for next year"
+    },
+    {
+      "key": "task1_plan1",
+      "prefix": "First, I am going to ",
+      "suffix": " because ___.",
+      "placeholder": "your first plan + reason",
+      "hint": "e.g. do an internship / travel to Almaty / take an English course"
+    },
+    {
+      "key": "task1_plan2",
+      "prefix": "After that, I am going to ",
+      "suffix": " with ___.",
+      "placeholder": "second plan + who with",
+      "hint": "e.g. spend two weeks at home / visit Turkestan / go to the beach"
+    },
+    {
+      "key": "task1_close",
+      "prefix": "I hope we are going to meet ",
+      "suffix": "!\n\nBest wishes,\n___",
+      "placeholder": "when/where + your name",
+      "hint": "e.g. before September in Almaty / this summer / at WKU next year"
+    },
+    {
+      "key": "task2_where",
+      "prefix": "My favourite place to study is ",
+      "suffix": ". It is ___.",
+      "placeholder": "the place + where it is located",
+      "hint": "e.g. the WKU library, in the main building / my dormitory room / a café near the university"
+    },
+    {
+      "key": "task2_desc",
+      "prefix": "The [place] is ",
+      "suffix": " than ___.",
+      "placeholder": "comparative adjective + comparison",
+      "hint": "e.g. much more comfortable than my room / quieter than the cafeteria / larger than I expected"
+    },
+    {
+      "key": "task2_hours",
+      "prefix": "It is open from ",
+      "suffix": " and I usually go there ___.",
+      "placeholder": "opening hours + when you go",
+      "hint": "e.g. eight in the morning until ten at night, and I usually go on Tuesday afternoons"
+    },
+    {
+      "key": "task2_end",
+      "prefix": "Overall, I think it is the perfect place to study because ",
+      "suffix": ".",
+      "placeholder": "why it is perfect",
+      "hint": "e.g. it is quiet, comfortable, and well-equipped / there are no distractions"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Task 1: Writing an email",
+      "color": "#003876",
+      "items": [
+        "Hi [Name]! / Dear [Name],",
+        "I hope you are well / having a great week.",
+        "I am writing to tell you about [topic] / to invite you to [event].",
+        "There is a lot of exciting news!",
+        "I am going to [plan 1] and then [plan 2].",
+        "I hope we are going to meet before [time]. / Write back soon!",
+        "Best wishes, / Kind regards, / See you soon,"
+      ]
+    },
+    {
+      "category": "Task 2: Describing a place",
+      "color": "#1B8FC4",
+      "items": [
+        "My favourite place is [name]. It is [where it is].",
+        "It is [adjective] — much more [adjective] than [comparison].",
+        "There is [feature] which is very [adjective].",
+        "It is open from [time] until [time].",
+        "I usually go there on [day/time] because [reason].",
+        "The most [adjective] thing about it is [feature].",
+        "Overall, I think it is perfect because [reason]."
+      ]
+    },
+    {
+      "category": "Useful grammar for both tasks",
+      "color": "#7C3AED",
+      "items": [
+        "I am going to [verb] this [time period].",
+        "I think it will [verb] — general prediction.",
+        "It is [comparative] than [other place/thing].",
+        "It is the [superlative] [noun] in [place].",
+        "There is / there are [feature] next to / in front of [place].",
+        "I can / I can't [verb] here because [reason]."
+      ]
+    },
+    {
+      "category": "Useful connectors and phrases",
+      "color": "#1D9E75",
+      "items": [
+        "First, ... / Then, ... / After that, ... / Finally, ...",
+        "Also, ... / In addition, ... / Furthermore, ...",
+        "However, ... / But, ... / Although, ...",
+        "Overall, I think... / In general, ...",
+        "which is very [adjective] — useful for adding detail",
+        "I find it [comparative] to [verb] here than [elsewhere]."
+      ]
+    }
+  ]
+}

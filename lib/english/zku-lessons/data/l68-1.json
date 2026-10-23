@@ -1,0 +1,325 @@
+{
+  "id": "l68-1",
+  "moduleNum": 10,
+  "lessonNum": 1,
+  "moduleTitle": "Narrative Writing",
+  "title": "The Architecture of a Story: How Narratives Are Built",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "Every culture on earth tells stories. From ancient cave paintings to modern novels, the human impulse to narrate is one of the most consistent features of our species. But what makes a story a story? Scholars of literature have identified a set of elements that nearly all narratives share, regardless of culture or medium. Understanding these elements does not diminish the magic of storytelling — rather, it gives us the tools to appreciate and create stories more deliberately and effectively.",
+    "At the most basic level, a narrative requires a character in a situation that changes. Without change, there is no story — only description. A character who gets up, goes to work, and comes home without any disruption to their routine is not the subject of a story; they are the subject of a diary entry. The moment something unexpected happens — a letter arrives, a conversation takes an unexpected turn, a memory surfaces — the narrative begins. This moment is sometimes called the \"inciting incident,\" and it sets the whole story in motion.",
+    "Around this change, narratives build structure. The most widely taught model is the \"narrative arc\": exposition (where we meet the characters and setting), rising action (where tension builds), climax (the moment of highest tension or change), falling action (where consequences unfold), and resolution (where a new equilibrium is established). Not all stories follow this model rigidly — some begin in the middle of events, some end ambiguously — but this arc provides a useful map of the territory.",
+    "Setting is often underestimated as a narrative element. The physical environment in which a story takes place shapes mood, limits options, and reveals character. A story set in a cramped apartment tells us something different from the same story set in an open field. Weather, time of day, season, and historical period are all part of the setting, and skilled writers use them not as decoration but as an integral part of the story's meaning. When Dickens opens a novel in fog and rain, he is not describing meteorology — he is establishing emotional and social atmosphere.",
+    "Character is the element readers connect with most directly. A well-drawn character has desires, fears, flaws, and contradictions — they feel human precisely because they are not perfect. The most memorable characters in literature are memorable because they surprise us: they do something unexpected that is, on reflection, entirely consistent with who they are. This quality — being surprising yet inevitable — is what writers mean when they say a character \"comes to life.\"",
+    "The narrator — the voice telling the story — is a crucial and often overlooked element. A first-person narrator (\"I went...\") creates intimacy and subjectivity; the reader experiences events through one consciousness. A third-person narrator (\"She went...\") can offer multiple perspectives. Some narrators are reliable; others are not — an \"unreliable narrator\" deliberately or unconsciously distorts what they tell us, and detecting this unreliability is one of the pleasures of sophisticated reading.",
+    "Finally, all narratives involve time. Stories compress and expand time in ways real life does not. A novel might spend two hundred pages on a single afternoon and cover a decade in a single sentence. Writers control this through pacing — the speed at which the narrative moves. Scenes (where time is shown in detail) alternate with summaries (where time is compressed). Learning to control pacing is one of the hardest skills for developing writers, and one of the most important."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "inciting incident",
+      "ru": "завязка / отправная точка",
+      "context": "The event that starts the story moving"
+    },
+    {
+      "phrase": "narrative arc",
+      "ru": "нарративная дуга",
+      "context": "The overall shape of a story from beginning to resolution"
+    },
+    {
+      "phrase": "unreliable narrator",
+      "ru": "ненадёжный рассказчик",
+      "context": "A narrator whose account cannot be fully trusted"
+    },
+    {
+      "phrase": "comes to life",
+      "ru": "оживает",
+      "context": "When a character feels real and fully human"
+    },
+    {
+      "phrase": "pacing",
+      "ru": "темп повествования",
+      "context": "The speed at which a narrative moves"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "inciting incident",
+      "ipa": "/ɪnˈsaɪtɪŋ ˈɪnsɪdənt/",
+      "pos": "noun phrase",
+      "ru": "завязка",
+      "kz": "оқиғаны бастаушы оқиға",
+      "emoji": "⚡",
+      "definition": "the event that disrupts the normal situation and starts the story",
+      "example": "The arrival of a mysterious letter is the inciting incident in many stories.",
+      "collocations": [
+        "the inciting incident is",
+        "identify the inciting incident",
+        "moment of inciting incident"
+      ]
+    },
+    {
+      "en": "resolution",
+      "ipa": "/ˌrezəˈluːʃən/",
+      "pos": "noun",
+      "ru": "развязка / финал",
+      "kz": "шешімі",
+      "emoji": "🏁",
+      "definition": "the final part of a story where conflicts are resolved",
+      "example": "The resolution brings a new equilibrium for the characters.",
+      "collocations": [
+        "satisfying resolution",
+        "reach a resolution",
+        "ambiguous resolution"
+      ]
+    },
+    {
+      "en": "narrator",
+      "ipa": "/nəˈreɪtə/",
+      "pos": "noun",
+      "ru": "рассказчик",
+      "kz": "баяншы",
+      "emoji": "📖",
+      "definition": "the voice or person telling the story",
+      "example": "An unreliable narrator distorts the events they describe.",
+      "collocations": [
+        "first-person narrator",
+        "unreliable narrator",
+        "the narrator reveals"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is the \"inciting incident\" in a narrative?",
+      "correct": "The event that disrupts the routine and sets the story in motion"
+    },
+    {
+      "id": "t2",
+      "question": "What are the five stages of the narrative arc described in the text?",
+      "correct": "Exposition, rising action, climax, falling action, resolution"
+    },
+    {
+      "id": "t3",
+      "question": "Why is setting more than just background decoration?",
+      "correct": "Setting shapes mood, limits options, and reveals character"
+    },
+    {
+      "id": "t4",
+      "question": "What makes a character \"come to life\" according to the text?",
+      "correct": "Being surprising yet inevitable — doing the unexpected that fits who they are"
+    },
+    {
+      "id": "t5",
+      "question": "What is the difference between a scene and a summary in narrative?",
+      "correct": "A scene shows time in detail; a summary compresses time"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "A story requires a character whose situation changes.",
+      "correct": "true"
+    },
+    {
+      "id": "s2",
+      "statement": "All good stories follow the narrative arc rigidly.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Setting only functions as decoration in a narrative.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "A first-person narrator creates intimacy but limits perspective.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Pacing refers to how quickly or slowly a narrative moves.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"inciting incident\" in a narrative?",
+      "opts": [
+        "The climax of the story",
+        "The event that starts the story moving",
+        "The resolution of the conflict",
+        "The description of setting"
+      ],
+      "correct": "The event that starts the story moving",
+      "hint": "Para 2: \"sets the whole story in motion\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "According to the text, what must happen for a story to exist?",
+      "opts": [
+        "A character must travel somewhere",
+        "A situation must change",
+        "Two characters must meet",
+        "There must be a villain"
+      ],
+      "correct": "A situation must change",
+      "hint": "Para 2: \"Without change, there is no story\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "How does Dickens use fog and rain according to paragraph 4?",
+      "opts": [
+        "As realistic weather description",
+        "To establish emotional and social atmosphere",
+        "To show the historical period",
+        "To create a contrast with the characters"
+      ],
+      "correct": "To establish emotional and social atmosphere",
+      "hint": "Para 4: \"not describing meteorology\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What makes a character \"come to life\"?",
+      "opts": [
+        "Having many positive qualities",
+        "Being perfect in every way",
+        "Being surprising yet inevitable",
+        "Appearing in every scene"
+      ],
+      "correct": "Being surprising yet inevitable",
+      "hint": "Para 5: \"surprising yet inevitable\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "A first-person narrator provides multiple perspectives.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 6: \"experiences events through one consciousness\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "An unreliable narrator is a narrator who lies deliberately about all events.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 6: \"deliberately or unconsciously distorts\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence sets the scene (background) rather than telling the main action?",
+      "opts": [
+        "She opened the door and ran out.",
+        "The wind was howling and the lights flickered.",
+        "He heard a knock and froze.",
+        "She grabbed her coat and left quickly."
+      ],
+      "correct": "The wind was howling and the lights flickered.",
+      "hint": "Past continuous = background/scene-setting",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She had already left when he arrived.\" The past perfect (had left) tells us…",
+      "opts": [
+        "Two actions at the same time",
+        "The leaving happened before the arriving",
+        "The leaving happened after the arriving",
+        "The person left very quickly"
+      ],
+      "correct": "The leaving happened before the arriving",
+      "hint": "Past perfect = earlier event",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He ___ (walk) home when he suddenly ___ (notice) a light in the old building.\" (Scene + action)",
+      "correct": "was walking / noticed",
+      "hint": "Past continuous (background) + past simple (sudden action)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A narrator who distorts what they tell us is called…",
+      "opts": [
+        "A biased character",
+        "An unreliable narrator",
+        "A limited narrator",
+        "An anonymous narrator"
+      ],
+      "correct": "An unreliable narrator",
+      "hint": "Para 6: \"unreliable narrator\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"pacing\" mean in narrative writing?",
+      "opts": [
+        "The location of the story",
+        "The number of characters",
+        "The speed at which the narrative moves",
+        "The type of narrator used"
+      ],
+      "correct": "The speed at which the narrative moves",
+      "hint": "Para 7: \"the speed at which the narrative moves\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The event that disrupts the normal situation and starts the story is called the ___ incident.",
+      "correct": "inciting",
+      "hint": "Para 2: \"inciting incident\"",
+      "points": 2
+    }
+  ]
+}

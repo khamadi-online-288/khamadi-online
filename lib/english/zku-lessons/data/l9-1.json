@@ -1,0 +1,293 @@
+{
+  "id": "l9-1",
+  "moduleNum": 9,
+  "lessonNum": 1,
+  "moduleTitle": "Right now",
+  "title": "A busy morning at WKU",
+  "type": "reading",
+  "xp": 60,
+  "duration": 12,
+  "paragraphs": [
+    "It is Tuesday, the fourteenth of October. The time is 9:15 in the morning. My name is Amir Bekzhanov. I am nineteen years old and I am from Aktau. I study Computer Science at WKU. Right now, I am sitting in the WKU library on the second floor. I am not attending a lecture at this moment because my first class starts at eleven. I am using this free time to review my notes from yesterday. The library is not quiet this morning — it is full of students!",
+    "All around me, students are working hard. At the table next to mine, two girls are discussing something in low voices — I think they are preparing for a presentation. Near the window, a tall boy is sleeping with his head on his notebook. He is definitely not studying! One student near the entrance is talking on the phone — which is not allowed in the library. The librarian is already walking towards him with a stern look. In the corner, the printer is making a loud noise. Someone is printing a very long document.",
+    "I look out of the window. Down in the WKU courtyard, I can see many students. A group of friends is sitting on the steps near the main building, laughing and eating something — probably baursaks from the cafeteria. Two students are cycling across the courtyard towards the sports centre. A professor is walking quickly towards the main entrance. She is carrying a big pile of papers under her arm. She is probably going to give a lecture right now.",
+    "I decide to take a short break and go downstairs to the cafeteria. It is very busy. The cook is preparing fresh soup — the whole room is smelling of something warm and delicious. Students are standing in a long queue. The girl at the front of the queue is paying for her breakfast. The cashier is not smiling today — she looks very tired. My friend Bekzat is sitting at a corner table. He is eating a bowl of porridge and reading a textbook at the same time. That is very typical of Bekzat.",
+    "I take a coffee and go back upstairs. I pass the main lecture hall on the first floor. Through the glass in the door, I can see that a lecture is already starting. The professor is writing something on the whiteboard. About forty students are sitting in rows and taking notes. A few students near the back are looking at their phones, but the professor is not noticing them right now. I am happy I am not in that class today!",
+    "Back in the library, I open my laptop and start working. I am writing a program for my Computer Science project. It is quite difficult, but I am enjoying the challenge. Next to me, Malika Seitkali — a student from my dormitory floor — is reading a very thick book about Psychology. She is carefully highlighting sentences with a yellow marker. She does not usually study here — she normally works in her room — but today she is in the library because her internet is not working.",
+    "Suddenly, my phone buzzes. It is my mother calling from Aktau! I quickly go out into the corridor and answer. \"Amir! What are you doing?\" she asks. \"I am studying, Mama,\" I reply. \"Are you eating properly?\" \"Yes, Mama — I am eating very well!\" She tells me that my father is fixing the car in the garage and my little sister Dinara is playing in the garden with the neighbour's dog. I miss them all. We talk for a few minutes, and then I go back to work.",
+    "I love mornings like this at WKU. Everyone is busy. Everyone is moving, thinking, reading, and learning. Right now, at this very moment, hundreds of students on this campus are working towards their future. I am one of them. At 10:45 I close my laptop and pick up my bag. My lecture is starting in fifteen minutes. I am ready."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "(whispering) Malika — what are you reading?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "A book about memory and learning. It's fascinating!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Are you preparing for a test?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "No, I'm writing an essay. What are you doing?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'm working on my programming project. It's really hard.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Is your laptop charging? You're not using a cable!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Oh no! The battery is dying. Thanks!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Look — that student near the window. He's sleeping!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "He's not sleeping. He's... thinking deeply.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "He's snoring, Amir.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "OK, he's definitely sleeping. Should we wake him up?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "No — his lecture isn't starting for another hour. Let him sleep!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I am sitting",
+      "ru": "Я сижу (прямо сейчас)",
+      "context": "Right now, I am sitting in the WKU library."
+    },
+    {
+      "phrase": "She is reading",
+      "ru": "Она читает (в данный момент)",
+      "context": "Malika is reading a very thick book about Psychology."
+    },
+    {
+      "phrase": "They are working",
+      "ru": "Они работают (сейчас)",
+      "context": "All around me, students are working hard."
+    },
+    {
+      "phrase": "He is not studying",
+      "ru": "Он не учится (сейчас)",
+      "context": "He is definitely not studying!"
+    },
+    {
+      "phrase": "What are you doing?",
+      "ru": "Что ты делаешь (прямо сейчас)?",
+      "context": "\"Amir! What are you doing?\" — my mother asks."
+    },
+    {
+      "phrase": "I am not attending",
+      "ru": "Я не посещаю (сейчас)",
+      "context": "I am not attending a lecture at this moment."
+    },
+    {
+      "phrase": "Is the lecture starting?",
+      "ru": "Лекция начинается (сейчас)?",
+      "context": "A lecture is already starting in the hall."
+    },
+    {
+      "phrase": "right now / at this moment",
+      "ru": "прямо сейчас / в данный момент",
+      "context": "Right now, at this very moment, hundreds of students are working."
+    },
+    {
+      "phrase": "Everyone is moving",
+      "ru": "Все движутся (сейчас)",
+      "context": "Everyone is moving, thinking, reading, and learning."
+    },
+    {
+      "phrase": "My lecture is starting",
+      "ru": "Моя лекция начинается",
+      "context": "My lecture is starting in fifteen minutes."
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "review",
+      "emoji": "📖",
+      "opts": [
+        "пропустить",
+        "повторять / просматривать",
+        "сдавать",
+        "скачать"
+      ],
+      "correct": "повторять / просматривать"
+    },
+    {
+      "id": "p2",
+      "word": "queue",
+      "emoji": "🧍",
+      "opts": [
+        "окно",
+        "стол",
+        "очередь",
+        "коридор"
+      ],
+      "correct": "очередь"
+    },
+    {
+      "id": "p3",
+      "word": "highlight",
+      "emoji": "🖊️",
+      "opts": [
+        "стирать",
+        "читать вслух",
+        "выделять маркером",
+        "подчёркивать ручкой"
+      ],
+      "correct": "выделять маркером"
+    },
+    {
+      "id": "p4",
+      "word": "challenge",
+      "emoji": "💪",
+      "opts": [
+        "скука",
+        "испытание / трудная задача",
+        "отдых",
+        "ошибка"
+      ],
+      "correct": "испытание / трудная задача"
+    },
+    {
+      "id": "p5",
+      "word": "pile",
+      "emoji": "📚",
+      "opts": [
+        "папка",
+        "ящик",
+        "стопка",
+        "коробка"
+      ],
+      "correct": "стопка"
+    },
+    {
+      "id": "p6",
+      "word": "buzz",
+      "emoji": "📳",
+      "opts": [
+        "звонить (голосом)",
+        "вибрировать",
+        "выключаться",
+        "заряжаться"
+      ],
+      "correct": "вибрировать"
+    }
+  ],
+  "task1Bank": [
+    "Aktau",
+    "Computer Science",
+    "Malika",
+    "Psychology",
+    "Bekzat",
+    "porridge"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir is from ___, Kazakhstan.",
+      "correct": "Aktau"
+    },
+    {
+      "id": "t2",
+      "question": "Amir studies ___ at WKU.",
+      "correct": "Computer Science"
+    },
+    {
+      "id": "t3",
+      "question": "The student sitting next to Amir in the library is ___.",
+      "correct": "Malika"
+    },
+    {
+      "id": "t4",
+      "question": "Malika is reading a book about ___.",
+      "correct": "Psychology"
+    },
+    {
+      "id": "t5",
+      "question": "Amir's friend ___ is eating in the cafeteria.",
+      "correct": "Bekzat"
+    },
+    {
+      "id": "t6",
+      "question": "Bekzat is eating a bowl of ___ and reading a textbook.",
+      "correct": "porridge"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Amir's first lecture starts at 9:15 in the morning.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "The student near the window in the library is sleeping.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Malika normally studies in her room, not in the library.",
+      "correct": "true"
+    },
+    {
+      "id": "f4",
+      "statement": "Bekzat is eating in the cafeteria and talking on the phone.",
+      "correct": "false"
+    },
+    {
+      "id": "f5",
+      "statement": "Amir's father is fixing the car when Amir calls home.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "Amir closes his laptop at 10:00 and goes to his lecture.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

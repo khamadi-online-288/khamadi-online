@@ -1,0 +1,543 @@
+{
+  "id": "l42-1",
+  "moduleNum": 8,
+  "lessonNum": 1,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "reading",
+  "title": "Eating Well at University: A Student's Guide",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "For many students, arriving at university is the first time they have full control over what they eat. The result can be liberating or disastrous — sometimes both at once. Without parents or a family kitchen, students are suddenly responsible for buying, preparing, and consuming their own food. Research consistently shows that diet affects concentration, energy levels, and even exam performance. So what does eating well at university actually look like?",
+    "The first challenge is quantity. University life comes with a lot of stress, and stress often leads to eating too much of the wrong things or not enough of the right ones. Amir admits he went through a phase where he ate too many energy drinks and too few proper meals. \"I thought caffeine was a food group,\" he jokes. \"It took me two months to realise that my brain was barely functioning because I wasn't giving it enough fuel.\"",
+    "The second challenge is variety. A balanced diet should include plenty of vegetables, a good amount of protein, a moderate amount of carbohydrates, and a small amount of healthy fats. Most student canteens offer some variety, but it takes effort to avoid eating the same three dishes every day. Kamila has developed a system: she allows herself one \"comfort meal\" per day — usually soup and bread — and makes sure everything else contains at least two different vegetables.",
+    "The third challenge is cost. Students don't have much money, and food is one of the areas where cutting corners is tempting. But cheap food isn't always bad food. Rice, lentils, eggs, and seasonal vegetables offer excellent nutritional value for very little money. \"I spend about 8,000 tenge a month on groceries,\" says Daniyar. \"That's not a lot, but I eat well. You just have to plan and not be too proud to cook.\"",
+    "The fourth challenge is time. Students have a lot of assignments, many lectures, and not much free time for elaborate cooking. The solution, most experienced students agree, is batch cooking. Spend two hours on Sunday preparing food for the week — a large pot of soup, some boiled grain, roasted vegetables — and you have healthy meals ready with almost no daily effort. \"I cook once and eat three times,\" says Zhibek. \"It's the most efficient thing I do.\"",
+    "There is also the social dimension of eating. Sharing food builds relationships in ways that classroom conversation sometimes can't. Rustam has a tradition of cooking Kazakh dishes for his floor in the dormitory once a month. \"I make beshbarmak for about fifteen people,\" he says. \"It takes a lot of time and quite a few ingredients, but watching people enjoy it is one of the best feelings at university.\"",
+    "Eating well is not about perfection. It doesn't mean eating zero processed food or spending a fortune on organic vegetables. It means making enough good choices, often enough, to feel well most of the time. A little planning, a few basic cooking skills, and a willingness to try are all it takes.",
+    "The students who struggle most with food at university are often those who expect their diet to be perfect from day one. The students who manage best are those who accept that they'll sometimes eat too much pizza, occasionally miss breakfast, and frequently survive on canteen soup — and that this is entirely fine, as long as it's not every single day."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "Kamila, did you eat breakfast this morning?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "A little. I had some tea and half a piece of toast. Not enough, I know.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That's not much. You can't concentrate without enough food.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I know. There wasn't much time this morning. I had a lot of reading to finish.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I made too much rice last night — you're welcome to some.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Really? You always make way too much food for one person.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That's the plan. I don't have many cooking evenings per week, so I cook in bulk.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Smart. I never have enough time to cook after 6 p.m.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "cut corners",
+      "ru": "срезать углы / халтурить",
+      "context": "\"Cheap food is tempting when you want to cut corners.\""
+    },
+    {
+      "phrase": "in bulk",
+      "ru": "оптом / большими порциями",
+      "context": "\"I don't cook many evenings, so I cook in bulk.\""
+    },
+    {
+      "phrase": "batch cooking",
+      "ru": "готовить сразу на несколько дней",
+      "context": "\"Batch cooking: spend two hours on Sunday, eat all week.\""
+    },
+    {
+      "phrase": "nutritional value",
+      "ru": "питательная ценность",
+      "context": "\"Rice and lentils offer excellent nutritional value for little money.\""
+    },
+    {
+      "phrase": "barely functioning",
+      "ru": "едва функционирующий",
+      "context": "\"My brain was barely functioning because I wasn't giving it enough fuel.\""
+    },
+    {
+      "phrase": "moderate amount",
+      "ru": "умеренное количество",
+      "context": "\"A moderate amount of carbohydrates — not too much, not too little.\""
+    },
+    {
+      "phrase": "elaborate cooking",
+      "ru": "сложная готовка",
+      "context": "\"Students don't have much time for elaborate cooking.\""
+    },
+    {
+      "phrase": "seasonal vegetables",
+      "ru": "сезонные овощи",
+      "context": "\"Seasonal vegetables offer excellent nutritional value for very little money.\""
+    }
+  ],
+  "vocab": [
+    {
+      "en": "nutritional",
+      "ipa": "/njuːˈtrɪʃənəl/",
+      "pos": "adjective",
+      "ru": "питательный / пищевой",
+      "kz": "тамақтану",
+      "emoji": "🥗",
+      "definition": "relating to the nutrients that food provides",
+      "example": "Rice and lentils offer excellent nutritional value for very little money.",
+      "collocations": [
+        "nutritional value",
+        "nutritional content",
+        "nutritional advice"
+      ]
+    },
+    {
+      "en": "batch",
+      "ipa": "/bætʃ/",
+      "pos": "noun",
+      "ru": "партия / порция",
+      "kz": "топтама",
+      "emoji": "🍲",
+      "definition": "a quantity produced at one time; a group of things made together",
+      "example": "Batch cooking on Sunday means healthy food for the whole week.",
+      "collocations": [
+        "batch cooking",
+        "a batch of",
+        "produce in batches"
+      ]
+    },
+    {
+      "en": "moderate",
+      "ipa": "/ˈmɒdərɪt/",
+      "pos": "adjective",
+      "ru": "умеренный",
+      "kz": "орташа",
+      "emoji": "⚖️",
+      "definition": "not extreme; kept within reasonable limits",
+      "example": "A balanced diet includes a moderate amount of carbohydrates.",
+      "collocations": [
+        "moderate amount",
+        "in moderation",
+        "moderate exercise"
+      ]
+    },
+    {
+      "en": "processed",
+      "ipa": "/ˈprəʊsest/",
+      "pos": "adjective",
+      "ru": "обработанный / переработанный",
+      "kz": "өңделген",
+      "emoji": "🏭",
+      "definition": "food that has been treated or preserved with additives",
+      "example": "Eating well doesn't mean avoiding all processed food completely.",
+      "collocations": [
+        "processed food",
+        "heavily processed",
+        "avoid processed"
+      ]
+    },
+    {
+      "en": "lentil",
+      "ipa": "/ˈlentɪl/",
+      "pos": "noun",
+      "ru": "чечевица",
+      "kz": "жасымық",
+      "emoji": "🫘",
+      "definition": "a small, lens-shaped seed used in cooking, high in protein",
+      "example": "Rice, lentils, and eggs are cheap but excellent sources of nutrition.",
+      "collocations": [
+        "lentil soup",
+        "red lentils",
+        "cook lentils"
+      ]
+    },
+    {
+      "en": "elaborate",
+      "ipa": "/ɪˈlæbərɪt/",
+      "pos": "adjective",
+      "ru": "сложный / замысловатый",
+      "kz": "күрделі",
+      "emoji": "🎨",
+      "definition": "very detailed, complicated, or carefully planned",
+      "example": "Students don't have much time for elaborate cooking.",
+      "collocations": [
+        "elaborate meal",
+        "elaborate system",
+        "elaborate plan"
+      ]
+    },
+    {
+      "en": "canteen",
+      "ipa": "/kænˈtiːn/",
+      "pos": "noun",
+      "ru": "столовая",
+      "kz": "асхана",
+      "emoji": "🍽️",
+      "definition": "a restaurant in a school, workplace, or institution",
+      "example": "Most student canteens offer some variety, but it takes effort to avoid eating the same dishes.",
+      "collocations": [
+        "university canteen",
+        "eat at the canteen",
+        "canteen food"
+      ]
+    },
+    {
+      "en": "efficient",
+      "ipa": "/ɪˈfɪʃənt/",
+      "pos": "adjective",
+      "ru": "эффективный",
+      "kz": "тиімді",
+      "emoji": "⚡",
+      "definition": "achieving results without wasting time or energy",
+      "example": "\"I cook once and eat three times — it's the most efficient thing I do.\"",
+      "collocations": [
+        "highly efficient",
+        "efficient system",
+        "fuel-efficient"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "nutritional",
+      "emoji": "🥗",
+      "opts": [
+        "вкусный",
+        "питательный",
+        "дорогой",
+        "сложный"
+      ],
+      "correct": "питательный"
+    },
+    {
+      "id": "p2",
+      "word": "batch",
+      "emoji": "🍲",
+      "opts": [
+        "одна порция",
+        "группа / партия",
+        "рецепт",
+        "ингредиент"
+      ],
+      "correct": "группа / партия"
+    },
+    {
+      "id": "p3",
+      "word": "moderate",
+      "emoji": "⚖️",
+      "opts": [
+        "чрезмерный",
+        "умеренный",
+        "минимальный",
+        "максимальный"
+      ],
+      "correct": "умеренный"
+    },
+    {
+      "id": "p4",
+      "word": "processed",
+      "emoji": "🏭",
+      "opts": [
+        "натуральный",
+        "обработанный",
+        "свежий",
+        "органический"
+      ],
+      "correct": "обработанный"
+    },
+    {
+      "id": "p5",
+      "word": "lentil",
+      "emoji": "🫘",
+      "opts": [
+        "рис",
+        "чечевица",
+        "фасоль",
+        "нут"
+      ],
+      "correct": "чечевица"
+    },
+    {
+      "id": "p6",
+      "word": "efficient",
+      "emoji": "⚡",
+      "opts": [
+        "медленный",
+        "эффективный",
+        "дорогостоящий",
+        "сложный"
+      ],
+      "correct": "эффективный"
+    }
+  ],
+  "task1Bank": [
+    "concentration",
+    "two months",
+    "8,000 tenge",
+    "Sunday",
+    "fifteen",
+    "soup and bread",
+    "two vegetables",
+    "one"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Research shows that diet affects ___, energy levels, and exam performance.",
+      "correct": "concentration"
+    },
+    {
+      "id": "t2",
+      "question": "It took Amir ___ to realise his diet was affecting his brain.",
+      "correct": "two months"
+    },
+    {
+      "id": "t3",
+      "question": "Daniyar spends about ___ per month on groceries.",
+      "correct": "8,000 tenge"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek spends ___ cooking for the whole week.",
+      "correct": "Sunday"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam cooks beshbarmak for about ___ people on his floor.",
+      "correct": "fifteen"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila allows herself one comfort meal — usually ___ .",
+      "correct": "soup and bread"
+    },
+    {
+      "id": "t7",
+      "question": "Kamila ensures every other meal contains at least ___ different ___.",
+      "correct": "two vegetables"
+    },
+    {
+      "id": "t8",
+      "question": "Kamila allows herself ___ comfort meal per day.",
+      "correct": "one"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Amir used to drink too many energy drinks instead of eating proper meals.",
+      "correct": "true"
+    },
+    {
+      "id": "c2",
+      "statement": "The text says cheap food is always bad food.",
+      "correct": "false"
+    },
+    {
+      "id": "c3",
+      "statement": "Zhibek cooks once a week and eats her prepared food throughout the week.",
+      "correct": "true"
+    },
+    {
+      "id": "c4",
+      "statement": "Rustam cooks for his dormitory floor every week.",
+      "correct": "false"
+    },
+    {
+      "id": "c5",
+      "statement": "The text says students should eat zero processed food.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "According to the text, batch cooking is done on Sunday.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says that missing breakfast occasionally is a serious problem.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "The students who manage best accept that their diet won't always be perfect.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the text, what can result from eating too much of the wrong food?",
+      "opts": [
+        "Better concentration",
+        "Poor energy and concentration",
+        "Better exam results",
+        "More creativity"
+      ],
+      "correct": "Poor energy and concentration",
+      "hint": "\"Research consistently shows that diet affects concentration, energy levels, and even exam performance.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says cheap food is always nutritionally poor.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Rice, lentils, eggs, and seasonal vegetables offer excellent nutritional value for very little money.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"batch cooking\" according to the text?",
+      "opts": [
+        "Cooking for many people",
+        "Preparing food in advance to last the whole week",
+        "Buying food in large quantities",
+        "Ordering takeaway"
+      ],
+      "correct": "Preparing food in advance to last the whole week",
+      "hint": "\"Spend two hours on Sunday preparing food for the week... and you have healthy meals ready with almost no daily effort.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam makes beshbarmak for about ___ people per month.",
+      "correct": "fifteen",
+      "hint": "\"I make beshbarmak for about fifteen people.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say eating well is NOT about?",
+      "opts": [
+        "Making enough good choices",
+        "Perfection and zero processed food",
+        "Feeling well most of the time",
+        "Planning and basic skills"
+      ],
+      "correct": "Perfection and zero processed food",
+      "hint": "\"Eating well is not about perfection. It doesn't mean eating zero processed food...\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which students manage best with food at university, according to the text?",
+      "opts": [
+        "Those who never eat processed food",
+        "Those who cook elaborate meals",
+        "Those who accept imperfection and don't worry about occasional slip-ups",
+        "Those with the biggest food budget"
+      ],
+      "correct": "Those who accept imperfection and don't worry about occasional slip-ups",
+      "hint": "\"The students who manage best are those who accept that they'll sometimes eat too much pizza...\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A moderate amount of carbohydrates.\" \"Moderate\" means:",
+      "opts": [
+        "too much",
+        "too little",
+        "just the right amount — not extreme",
+        "varying"
+      ],
+      "correct": "just the right amount — not extreme",
+      "hint": "\"moderate\" = not too much, not too little. Within reasonable limits."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "Zhibek uses ___ cooking — she prepares food on Sunday for the whole week.",
+      "correct": "batch",
+      "hint": "\"batch cooking\" = preparing a large quantity at once to use over several days."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Nutritional value\" refers to:",
+      "opts": [
+        "The taste of food",
+        "The cost of food",
+        "The nutrients and health benefits food provides",
+        "The variety of food"
+      ],
+      "correct": "The nutrients and health benefits food provides",
+      "hint": "\"nutritional\" = relating to nutrients. \"Nutritional value\" = how much goodness a food provides for your body."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He barely ate before noon.\" \"Barely\" means:",
+      "opts": [
+        "almost never",
+        "very often",
+        "almost not at all",
+        "occasionally"
+      ],
+      "correct": "almost not at all",
+      "hint": "\"barely\" = almost not; very little. \"Barely ate\" = ate almost nothing."
+    }
+  ]
+}

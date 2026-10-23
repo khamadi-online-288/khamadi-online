@@ -1,0 +1,80 @@
+{
+  "id": "l30-3",
+  "moduleNum": 14,
+  "lessonNum": 3,
+  "moduleTitle": "Work & Career",
+  "type": "listening",
+  "title": "A Job Interview",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "👔",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student, applying for a summer internship"
+    },
+    {
+      "id": "dinara",
+      "name": "Ms. Dinara",
+      "city": "Almaty",
+      "emoji": "💼",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "HR manager at a tech company in Almaty"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "He has prepared a portfolio of his coding projects.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "She says the internship involves working on real client projects.",
+      "correctCharId": "dinara"
+    },
+    {
+      "id": "s3",
+      "text": "He says he works well in a team and loves solving problems.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "She asks him to describe a time he overcame a challenge.",
+      "correctCharId": "dinara"
+    },
+    {
+      "id": "s5",
+      "text": "He explains that he once led his group project when the team leader was ill.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "She offers him the internship and says he will start in July.",
+      "correctCharId": "dinara"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

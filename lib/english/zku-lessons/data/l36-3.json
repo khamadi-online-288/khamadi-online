@@ -1,0 +1,548 @@
+{
+  "id": "l36-3",
+  "moduleNum": 2,
+  "lessonNum": 3,
+  "moduleTitle": "What's Happening Now?",
+  "type": "grammar",
+  "title": "Present Continuous: Form and Use",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Continuous — am / is / are + verb-ing",
+  "grammarNote": "Present Continuous используется для описания действий, которые происходят ПРЯМО СЕЙЧАС или в этот период жизни (но не обязательно в эту секунду). Образуется из am/is/are + глагол с окончанием -ing. Важно помнить: некоторые глаголы НЕ используются в Continuous — это stative verbs (know, like, want, believe, understand, have = possess, see, hear, etc.).",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "am working",
+      "short": "I'm working",
+      "example": "I'm reading a great book at the moment."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "is working",
+      "short": "He's / She's",
+      "example": "She's helping a student right now."
+    },
+    {
+      "subject": "We / You / They",
+      "verb": "are working",
+      "short": "We're / They're",
+      "example": "They're sitting outside the canteen."
+    },
+    {
+      "subject": "Negative (I)",
+      "verb": "am not working",
+      "short": "I'm not",
+      "example": "I'm not eating — I'm fixing a bug!"
+    },
+    {
+      "subject": "Negative (He)",
+      "verb": "is not working",
+      "short": "He isn't / He's not",
+      "example": "He isn't coming to dinner tonight."
+    },
+    {
+      "subject": "Negative (They)",
+      "verb": "are not working",
+      "short": "They aren't",
+      "example": "They aren't studying — they're chatting."
+    },
+    {
+      "subject": "Question (I)",
+      "verb": "Am I working?",
+      "short": "Am I...?",
+      "example": "Am I speaking too fast?"
+    },
+    {
+      "subject": "Question (He)",
+      "verb": "Is he working?",
+      "short": "Is she/he...?",
+      "example": "Is Kamila still in the library?"
+    },
+    {
+      "subject": "Question (They)",
+      "verb": "Are they working?",
+      "short": "Are you/they...?",
+      "example": "Are you coming to the canteen?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "When to use Present Continuous",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "① Action happening RIGHT NOW",
+          "example": "\"She is reading the catalogue.\" = at this second."
+        },
+        {
+          "form": "② Temporary situation (this period)",
+          "example": "\"I'm living with my cousin this semester.\" = not permanent."
+        },
+        {
+          "form": "③ Changing / developing situation",
+          "example": "\"Prices are rising.\" / \"My English is improving.\""
+        },
+        {
+          "form": "④ Future arrangement (planned)",
+          "example": "\"We're meeting at 7 p.m. tonight.\" (already organised)"
+        },
+        {
+          "form": "⑤ Irritating habits: always + -ing",
+          "example": "\"He's always losing his keys!\" = annoying repeated action."
+        }
+      ]
+    },
+    {
+      "title": "-ing spelling rules",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Most verbs: + ing",
+          "example": "read→reading, eat→eating, help→helping, print→printing"
+        },
+        {
+          "form": "Ends in -e: drop e + ing",
+          "example": "write→writing, make→making, take→taking, use→using"
+        },
+        {
+          "form": "CVC pattern: double consonant + ing",
+          "example": "run→running, sit→sitting, get→getting, swim→swimming"
+        },
+        {
+          "form": "Ends in -ie: change to y + ing",
+          "example": "lie→lying, die→dying, tie→tying"
+        },
+        {
+          "form": "Ends in -y: keep y + ing",
+          "example": "play→playing, study→studying, enjoy→enjoying"
+        }
+      ]
+    },
+    {
+      "title": "🚫 Stative verbs — NOT used in Continuous",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "Emotions: love, like, hate, prefer, want, need",
+          "example": "✗ \"I'm loving this book.\" → ✅ \"I love this book.\""
+        },
+        {
+          "form": "Mental: know, believe, understand, think (opinion)",
+          "example": "✗ \"She's knowing the answer.\" → ✅ \"She knows the answer.\""
+        },
+        {
+          "form": "Senses: see, hear, smell, taste (involuntary)",
+          "example": "✗ \"I'm seeing the screen.\" → ✅ \"I can see the screen.\""
+        },
+        {
+          "form": "Possession: have, own, belong to, contain",
+          "example": "✗ \"He's having a laptop.\" → ✅ \"He has a laptop.\""
+        },
+        {
+          "form": "⚠️ Some verbs can be both!",
+          "example": "\"I'm thinking about lunch.\" (=considering) ✅ vs \"I think it's good.\" (=opinion) ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common A2 Mistakes",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "✗ \"She is study in the library.\"",
+          "example": "✅ \"She is studying in the library.\" — always need -ing!"
+        },
+        {
+          "form": "✗ \"He sitting at his desk.\"",
+          "example": "✅ \"He is sitting at his desk.\" — never forget am/is/are!"
+        },
+        {
+          "form": "✗ \"What she is doing?\"",
+          "example": "✅ \"What is she doing?\" — invert: auxiliary + subject."
+        },
+        {
+          "form": "✗ \"I'm not understanding this.\"",
+          "example": "✅ \"I don't understand this.\" — stative verb: no -ing!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре ключевых момента Present Continuous:\n① am/is/are — НИКОГДА не забывай вспомогательный глагол! Это самая частая ошибка.\n② В вопросе — инверсия: Is she studying? (НЕ 'She is studying?')\n③ Stative verbs — НЕ используй с Continuous: know, like, love, want, have, see, hear.\n④ Написание -ing: run→running (CVC!), write→writing (drop e!), play→playing (y остаётся!)\n\n💡 Сигнальные слова: right now / at the moment / currently / today / this week / look! / listen!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Present Continuous form.",
+      "text": "Look! Kamila ___ a first-year student with her library search.",
+      "opts": [
+        "helps",
+        "is helping",
+        "helping",
+        "are helping"
+      ],
+      "correct": "is helping",
+      "hint": "Kamila = she → is + verb-ing. \"is helping\" ✅. Never forget the auxiliary!"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the -ing form correctly.",
+      "text": "Amir ___ (sit) in the front row during the exam.",
+      "correct": "is sitting",
+      "hint": "sit: CVC pattern (consonant-vowel-consonant) → double t: sitting. Then: is sitting."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct negative.",
+      "text": "Zhibek ___ studying — she's checking the tournament draw.",
+      "opts": [
+        "isn't",
+        "don't",
+        "doesn't",
+        "not"
+      ],
+      "correct": "isn't",
+      "hint": "Negative Present Continuous: isn't + verb-ing. 'She isn't studying.' ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I'm wanting a coffee right now\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"want\" is a stative verb — it cannot be used in Continuous. ✅ \"I want a coffee right now.\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Form the correct question.",
+      "text": "Make a question: \"Rustam / wait / outside?\"",
+      "opts": [
+        "Rustam is waiting outside?",
+        "Is Rustam waiting outside?",
+        "Does Rustam waiting outside?",
+        "Is waiting Rustam outside?"
+      ],
+      "correct": "Is Rustam waiting outside?",
+      "hint": "Invert: Is/Are + subject + verb-ing? → \"Is Rustam waiting outside?\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the -ing form of \"write\".",
+      "text": "She ___ (write) an email to her professor right now.",
+      "correct": "is writing",
+      "hint": "write: ends in -e → drop e + ing = writing. Then: is writing."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which sentence uses Present Continuous correctly?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "I'm knowing the answer.",
+        "She's running to class.",
+        "He liking his new course.",
+        "They studying hard."
+      ],
+      "correct": "She's running to class.",
+      "hint": "\"know\" and \"like\" are stative — no Continuous. \"studying\" missing \"are\". ✅ \"She's running to class.\""
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Why is \"I'm living with my cousin this semester\" correct?",
+      "text": "Choose the best explanation.",
+      "opts": [
+        "It describes a permanent home.",
+        "It describes a temporary situation for this period.",
+        "It describes what happened last semester.",
+        "It is a future plan."
+      ],
+      "correct": "It describes a temporary situation for this period.",
+      "hint": "Present Continuous USE ②: temporary situations. \"This semester\" shows it's not permanent."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Write the -ing form of \"run\".",
+      "text": "The coach is watching the players — they ___ (run) fast.",
+      "correct": "are running",
+      "hint": "run: CVC → double n: running. Plural subject (they) → are running."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct use of Present Continuous.",
+      "text": "\"She's always losing her keys!\" — what does this mean?",
+      "opts": [
+        "She lost her keys one time.",
+        "She often loses her keys — it's an annoying habit.",
+        "She is looking for her keys right now.",
+        "She has never lost her keys."
+      ],
+      "correct": "She often loses her keys — it's an annoying habit.",
+      "hint": "always + -ing = annoying repeated action. \"She's always losing her keys\" = it keeps happening and it's frustrating."
+    },
+    {
+      "id": "e11",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Are you understanding me?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"understand\" is a stative verb (mental). ✅ \"Do you understand me?\" — never use in Continuous."
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with Present Continuous (negative).",
+      "text": "I ___ (not / listen) to music — I'm concentrating on the exam.",
+      "correct": "am not listening",
+      "hint": "Negative: am not / isn't / aren't + verb-ing. 'I am not listening.' Or: 'I'm not listening.'"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Form the Present Continuous: \"She / study / right now.\"",
+      "opts": [
+        "She studys right now.",
+        "She is studying right now.",
+        "She studying right now.",
+        "She are studying right now."
+      ],
+      "correct": "She is studying right now.",
+      "hint": "She → is + verb-ing. study → studying (ends in y → keep y + ing). \"She is studying.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir ___ (not eat) — he's fixing his code.",
+      "correct": "isn't eating",
+      "hint": "isn't + verb-ing = negative Present Continuous. 'He isn't eating.' ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The -ing form of \"swim\" is:",
+      "opts": [
+        "swiming",
+        "swimm-ing",
+        "swimming",
+        "swimmeng"
+      ],
+      "correct": "swimming",
+      "hint": "swim: CVC pattern (consonant-vowel-consonant) → double m: swimming."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is a stative verb that CANNOT be used in Continuous?",
+      "opts": [
+        "run",
+        "study",
+        "believe",
+        "sit"
+      ],
+      "correct": "believe",
+      "hint": "\"believe\" = mental stative verb. ✅ \"I believe you.\" ✗ \"I'm believing you.\""
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ they sitting outside?\" Choose the correct question form.",
+      "opts": [
+        "Do",
+        "Are",
+        "Is",
+        "Does"
+      ],
+      "correct": "Are",
+      "hint": "They → Are they sitting...? (Present Continuous question)"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "The -ing form of \"make\" is: ___",
+      "correct": "making",
+      "hint": "make: ends in -e → drop e + ing = making."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm not understanding this lesson.\" — What is wrong?",
+      "opts": [
+        "The tense is wrong — use Past Simple",
+        "The negative form is wrong",
+        "\"understand\" is stative — use Present Simple",
+        "Nothing is wrong"
+      ],
+      "correct": "\"understand\" is stative — use Present Simple",
+      "hint": "\"understand\" cannot be in Continuous. ✅ \"I don't understand this lesson.\""
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Prices ___ rising.\" Which Present Continuous use is this?",
+      "opts": [
+        "Action right now",
+        "Temporary situation",
+        "Changing situation",
+        "Future arrangement"
+      ],
+      "correct": "Changing situation",
+      "hint": "\"Prices are rising\" = ongoing change/trend. Present Continuous USE ③: changing/developing situations."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"We are meeting at 7 p.m. tonight\" is correct for a planned event.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Present Continuous USE ④: future arrangements (already organised). \"We're meeting at 7.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What ___ Zhibek ___ right now?\" Choose the correct question.",
+      "opts": [
+        "does / do",
+        "is / doing",
+        "are / do",
+        "do / doing"
+      ],
+      "correct": "is / doing",
+      "hint": "\"What is Zhibek doing right now?\" — invert: What + is + subject + verb-ing?"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Right now, Kamila ___ (print) a book list for the student.",
+      "correct": "is printing",
+      "hint": "print → printing (add -ing, no doubling — ends in two consonants: nt). She → is printing."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He's always losing his phone!\" — This describes:",
+      "opts": [
+        "One past event",
+        "A permanent fact",
+        "An annoying repeated habit",
+        "Something happening right now"
+      ],
+      "correct": "An annoying repeated habit",
+      "hint": "always + -ing = annoying habit that happens repeatedly. Expresses frustration."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ to music, not studying.\" Which is correct?",
+      "opts": [
+        "listen",
+        "is listen",
+        "is listening",
+        "are listening"
+      ],
+      "correct": "is listening",
+      "hint": "She → is + verb-ing. listen → listening (no doubling: ends in consonant-consonant). \"She is listening.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"The verb 'have' can NEVER be used in Present Continuous.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"have\" as possession = stative (✗ continuous). BUT \"have\" as an activity = ✅ continuous. \"She's having lunch.\" / \"She has a laptop.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "I'm knowing this!",
+        "She's seeing a film?",
+        "They're eating now.",
+        "He studying hard."
+      ],
+      "correct": "They're eating now.",
+      "hint": "\"know\" and \"see\" (involuntary) are stative. \"He studying\" is missing \"is\". ✅ \"They're eating now.\""
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ you working on your assignment?\" — \"No, I ___ .\"",
+      "correct": "Are / am not",
+      "hint": "\"Are you working...?\" → Short negative answer: \"No, I'm not.\" or \"No, I am not.\""
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "id": "l38-2",
+  "moduleNum": 4,
+  "lessonNum": 2,
+  "moduleTitle": "Plans & Intentions",
+  "type": "listening",
+  "title": "Making Plans: A Group Meeting",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Right, we need to organise the end-of-year celebration. I've already booked the garden area for May 30th.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Good. I'm going to bring speakers — I'll sort out the music playlist this week.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'll handle the food. I'm going to order from that Georgian place near the station.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "What time does it start?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I was thinking 4 p.m. The garden is free from 3, so we'll have time to set up.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I can be there by 2:30 to help. I'm not doing anything that afternoon.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'll need someone to help collect the food order. Rustam?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Sure — where is it? I'll pick it up. Just tell me the address.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'm going to send everyone the details tonight. I'm working on a shared document right now.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Are we going to invite Professor Aidarov?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I was going to ask him this week. He helped so many of us this year.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Good idea. I'll also check if Daniyar is still in Uralsk — he might have left already.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He told me he's leaving June 2nd. So he'll be here on the 30th.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Great. This is going to be a good evening. I'm actually looking forward to it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Me too. I can't believe we're nearly done with the year.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Okay — I'm going to send the document by 8 p.m. Check your messages everyone!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "book (v)",
+      "emoji": "📅",
+      "opts": [
+        "читать книгу",
+        "бронировать / резервировать",
+        "платить",
+        "планировать"
+      ],
+      "correct": "бронировать / резервировать"
+    },
+    {
+      "id": "p2",
+      "word": "handle",
+      "emoji": "🤝",
+      "opts": [
+        "игнорировать",
+        "заниматься / отвечать за",
+        "откладывать",
+        "спрашивать"
+      ],
+      "correct": "заниматься / отвечать за"
+    },
+    {
+      "id": "p3",
+      "word": "set up",
+      "emoji": "⚙️",
+      "opts": [
+        "убирать",
+        "устанавливать / подготавливать",
+        "покупать",
+        "готовить еду"
+      ],
+      "correct": "устанавливать / подготавливать"
+    },
+    {
+      "id": "p4",
+      "word": "pick up",
+      "emoji": "🚗",
+      "opts": [
+        "оставить",
+        "забрать / подобрать",
+        "купить",
+        "продать"
+      ],
+      "correct": "забрать / подобрать"
+    },
+    {
+      "id": "p5",
+      "word": "sort out",
+      "emoji": "✅",
+      "opts": [
+        "создать проблему",
+        "организовать / решить",
+        "найти",
+        "потерять"
+      ],
+      "correct": "организовать / решить"
+    },
+    {
+      "id": "p6",
+      "word": "look forward to",
+      "emoji": "😊",
+      "opts": [
+        "бояться",
+        "ждать с нетерпением",
+        "переживать",
+        "привыкать"
+      ],
+      "correct": "ждать с нетерпением"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Zhibek has already booked the venue for the celebration.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Amir is going to organise the food.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The celebration will start at 3 p.m.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam is going to pick up the food order.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila plans to invite Professor Aidarov.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Daniyar has already left Uralsk.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "📋",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Organising the event — booked venue, sending details"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "🎵",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Bringing speakers and sorting the music playlist"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🍽️",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Handling food — ordering from the Georgian restaurant"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "🚗",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Picking up the food order on the day"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has already booked the garden area and is sending a document tonight.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s2",
+      "text": "Is going to bring speakers and sort out the music playlist.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Is going to order food and plans to invite the professor.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Will pick up the food order if given the address.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Can arrive at 2:30 to help set up — has nothing planned that afternoon.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Is going to check whether Daniyar is still in Uralsk.",
+      "correctCharId": "zhibek"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Zhibek already done for the event?",
+      "opts": [
+        "Ordered food",
+        "Booked the garden area",
+        "Made a music playlist",
+        "Invited the professor"
+      ],
+      "correct": "Booked the garden area",
+      "hint": "\"I've already booked the garden area for May 30th.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who is responsible for the food?",
+      "opts": [
+        "Zhibek",
+        "Amir",
+        "Kamila",
+        "Rustam"
+      ],
+      "correct": "Kamila",
+      "hint": "\"I'll handle the food. I'm going to order from that Georgian place.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The celebration starts at ___ p.m.",
+      "correct": "4",
+      "hint": "\"I was thinking 4 p.m.\" — Zhibek's suggestion for the start time."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam agreed to pick up the food order.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Sure — I'll pick it up. Just tell me the address.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When is Daniyar leaving Uralsk?",
+      "opts": [
+        "May 30th",
+        "Before the celebration",
+        "June 2nd",
+        "He already left"
+      ],
+      "correct": "June 2nd",
+      "hint": "\"He told me he's leaving June 2nd. So he'll be here on the 30th.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir is going to send the shared document tonight.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zhibek says: \"I'm going to send everyone the details tonight.\" Not Amir."
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir say he's not doing anything that afternoon?",
+      "opts": [
+        "He wants to help set up",
+        "He forgot his schedule",
+        "He has no job yet",
+        "He is resting"
+      ],
+      "correct": "He wants to help set up",
+      "hint": "\"I can be there by 2:30 to help. I'm not doing anything that afternoon.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who was planning to invite Professor Aidarov?",
+      "opts": [
+        "Zhibek",
+        "Rustam",
+        "Kamila",
+        "Amir"
+      ],
+      "correct": "Kamila",
+      "hint": "\"I was going to ask him this week. He helped so many of us this year.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm going to order food.\" This expresses:",
+      "opts": [
+        "A spontaneous decision",
+        "A prediction",
+        "A pre-planned intention",
+        "A suggestion"
+      ],
+      "correct": "A pre-planned intention",
+      "hint": "\"going to\" = a plan already made before the moment of speaking. Kamila already decided this."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll pick it up. Just tell me the address.\" This shows:",
+      "opts": [
+        "A pre-planned intention",
+        "A spontaneous decision made now",
+        "A prediction",
+        "An arrangement made yesterday"
+      ],
+      "correct": "A spontaneous decision made now",
+      "hint": "\"will\" for spontaneous decisions = deciding at the moment of speaking. Rustam decided to help RIGHT NOW."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (go) to the garden by 2:30.\" Use the correct future.",
+      "correct": "'m going to be",
+      "hint": "Amir already plans this → \"going to\". \"I'm going to be there by 2:30.\""
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"This ___ a good evening.\" Choose the correct form.",
+      "opts": [
+        "is going to",
+        "is going to be",
+        "is be",
+        "will be"
+      ],
+      "correct": "is going to be",
+      "hint": "\"going to be\" = a confident prediction based on what they know. Everything is planned."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I'll handle the food\" and \"I'm going to order from the Georgian place\" mean the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I'll handle\" = might be spontaneous/offered. \"I'm going to order\" = specific plan already decided."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was going to ask him this week.\" — What does \"was going to\" express?",
+      "opts": [
+        "A past completed action",
+        "A plan that existed before (may not happen)",
+        "A prediction",
+        "A regret about the past"
+      ],
+      "correct": "A plan that existed before (may not happen)",
+      "hint": "\"was going to\" = a plan from before — she had already intended to do this."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (send) the document by 8 p.m.\" — Use future with intention.",
+      "correct": "'s going to send",
+      "hint": "\"She's going to send\" = specific plan, already decided. \"going to\" for intentions."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence shows a SPONTANEOUS offer?",
+      "opts": [
+        "\"I'm going to pick it up later.\"",
+        "\"I'll pick it up! Just tell me the address.\"",
+        "\"I was planning to get it.\"",
+        "\"I might pick it up.\""
+      ],
+      "correct": "\"I'll pick it up! Just tell me the address.\"",
+      "hint": "\"will\" for spontaneous offers/decisions = decided at the moment of speaking, not before."
+    }
+  ]
+}

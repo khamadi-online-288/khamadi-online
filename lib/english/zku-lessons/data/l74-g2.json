@@ -1,0 +1,518 @@
+{
+  "id": "l74-g2",
+  "moduleNum": 16,
+  "lessonNum": 6,
+  "moduleTitle": "Arts, Film & Literature",
+  "title": "Grammar: Linking Words — Cause, Effect, Sequence, and Summary",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Маркеры причины и следствия в академическом письме:\n\nПРИЧИНА → СЛЕДСТВИЕ:\nbecause / since / as → простая причина\ndue to / owing to / as a result of + noun → формально\n\"Due to the increase in temperature, the glacier is melting.\"\n\nСЛЕДСТВИЕ → ПРИЧИНА:\ntherefore / consequently / as a result / hence / thus\n\"Temperatures have risen. Consequently, glaciers are retreating.\"\n\"The deadline was missed; therefore, the project was delayed.\"\n\n💡 Позиция маркера:\nНачало предложения: \"Therefore, the results were inconclusive.\"\nСередина: \"The results, therefore, were inconclusive.\"\nПосле точки с запятой: \"...; therefore, ...\"\n\nТочка зрения vs факт: \"hence\" и \"thus\" → более формальны чем \"so\"",
+  "grammarTable": [
+    {
+      "subject": "CAUSE",
+      "verb": "because, since, as, owing to, due to, as a result of, on account of",
+      "short": "explaining the reason",
+      "example": "\"The film succeeded owing to its unconventional structure and strong performances.\""
+    },
+    {
+      "subject": "EFFECT",
+      "verb": "therefore, consequently, as a result, thus, hence, for this reason",
+      "short": "showing what follows",
+      "example": "\"The director trusted the audience; consequently, the film avoids over-explanation.\""
+    },
+    {
+      "subject": "PURPOSE",
+      "verb": "in order to, so as to, so that, with the aim of",
+      "short": "explaining intention",
+      "example": "\"The director uses silence in order to create discomfort in the viewer.\""
+    },
+    {
+      "subject": "SEQUENCE",
+      "verb": "firstly, secondly, then, subsequently, finally, in conclusion",
+      "short": "ordering the argument",
+      "example": "\"Firstly, consider the structure. Then, examine the language choices.\""
+    },
+    {
+      "subject": "SUMMARY",
+      "verb": "in conclusion, to sum up, overall, in short, on balance",
+      "short": "concluding and summarising",
+      "example": "\"On balance, despite its flaws, the film is a significant achievement.\""
+    },
+    {
+      "subject": "CONDITION",
+      "verb": "if, provided that, as long as, on condition that, unless",
+      "short": "stating conditions",
+      "example": "\"A film succeeds provided that it achieves what it set out to do.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Cause Linkers: Subtle Differences",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "because / since / as + clause",
+          "example": "\"The film resonates because it depicts universal human experience.\""
+        },
+        {
+          "form": "owing to / due to / as a result of + noun or gerund",
+          "example": "\"Owing to its ambiguous ending, the film has divided critics.\""
+        },
+        {
+          "form": "\"Due to\" vs \"owing to\": both correct, \"due to\" slightly more formal in written form",
+          "example": "\"Due to budget constraints, the film relied on natural lighting.\" ✅"
+        },
+        {
+          "form": "\"On account of\" = formal, same as \"owing to\"",
+          "example": "\"On account of its literary quality, the novel won the Booker Prize.\""
+        }
+      ]
+    },
+    {
+      "title": "Effect Linkers: Showing Consequence in Analysis",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Therefore / Thus: formal, logical consequence",
+          "example": "\"The director rejects conventional plotting; therefore, the audience must construct meaning actively.\""
+        },
+        {
+          "form": "Consequently: strong formal effect marker",
+          "example": "\"The film's ambiguity is carefully constructed; consequently, no reading fully satisfies.\""
+        },
+        {
+          "form": "As a result: neutral and clear",
+          "example": "\"The novel was banned in several countries. As a result, its readership grew.\""
+        },
+        {
+          "form": "Hence: very formal, often academic",
+          "example": "\"The imagery is deliberately ambiguous; hence the multiple critical interpretations.\""
+        }
+      ]
+    },
+    {
+      "title": "Purpose Linkers: Analysing Artistic Intention",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "in order to + infinitive",
+          "example": "\"She uses fragmented time in order to disorient the viewer and reflect the character's mental state.\""
+        },
+        {
+          "form": "so as to + infinitive (often negative)",
+          "example": "\"The director keeps the camera distant so as not to impose an emotional interpretation.\""
+        },
+        {
+          "form": "so that + clause",
+          "example": "\"The author withholds information so that the reader experiences the character's confusion directly.\""
+        },
+        {
+          "form": "with the aim of + gerund (formal)",
+          "example": "\"The artist uses colour symbolically with the aim of reinforcing the film's themes.\""
+        }
+      ]
+    },
+    {
+      "title": "Sequence Linkers in Critical Writing",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Firstly / First of all… Secondly… Finally",
+          "example": "\"Firstly, I will examine the structure. Secondly, I will analyse the language. Finally, I will evaluate the overall impact.\""
+        },
+        {
+          "form": "Then / Subsequently / Following this",
+          "example": "\"The director establishes the setting. Then, she introduces the central conflict.\""
+        },
+        {
+          "form": "In the first place / In the second place (formal)",
+          "example": "\"In the first place, the narrative structure is unusual.\""
+        },
+        {
+          "form": "Last but not least / Most importantly",
+          "example": "\"Last but not least, the film's use of silence deserves attention.\""
+        }
+      ]
+    },
+    {
+      "title": "Summary Linkers for Conclusions",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "In conclusion / To conclude: formal final paragraph opener",
+          "example": "\"In conclusion, despite its flaws, the film represents a genuine artistic achievement.\""
+        },
+        {
+          "form": "On balance: acknowledging both sides before final judgement",
+          "example": "\"On balance, the novel's strengths significantly outweigh its weaknesses.\""
+        },
+        {
+          "form": "Overall / In short / To sum up: neutral summary",
+          "example": "\"Overall, this is a film that demands — and rewards — careful attention.\""
+        },
+        {
+          "form": "Ultimately: the final, deepest conclusion",
+          "example": "\"Ultimately, the film succeeds because it trusts its audience.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct cause linker.",
+      "text": "\"The film was banned in several countries ___ its explicit political content.\"",
+      "opts": [
+        "because",
+        "owing to",
+        "since",
+        "as"
+      ],
+      "correct": "owing to",
+      "hint": "\"Owing to + noun\" = cause; \"because + clause\""
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct effect linker.",
+      "text": "\"The novel's ending is deeply ambiguous. ___, readers have interpreted it in contradictory ways.\" (result)",
+      "correct": "As a result / Consequently / Therefore",
+      "hint": "\"As a result / Consequently\" = showing the effect of what came before"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct purpose linker.",
+      "text": "\"The director uses extreme close-ups ___ create a sense of claustrophobia.\"",
+      "opts": [
+        "in order to",
+        "so that",
+        "owing to",
+        "as a result of"
+      ],
+      "correct": "in order to",
+      "hint": "\"In order to + infinitive\" = explaining artistic intention"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the sequence.",
+      "text": "\"___, I will examine the film's structure. ___, I will analyse the cinematography. ___, I will evaluate its overall impact.\"",
+      "correct": "Firstly / Secondly / Finally",
+      "hint": "Sequence: Firstly → Secondly → Finally"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct cause linker + structure.",
+      "text": "\"___ the film's commercial failure, it went on to win critical acclaim.\"",
+      "opts": [
+        "Although",
+        "Despite",
+        "Because of",
+        "Due to"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + noun\" = concession — but this is concession, not cause. Use \"Despite\" for contrast with expectation."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct conclusion linker.",
+      "text": "\"___, this novel represents a major achievement in contemporary fiction — ambitious, moving, and formally daring.\" (summarising)",
+      "correct": "In conclusion / Overall / Ultimately",
+      "hint": "Summary linker at the start of a concluding statement"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct purpose linker.",
+      "text": "\"The author withholds the protagonist's name ___ emphasise their lack of identity.\"",
+      "opts": [
+        "in order that",
+        "so as to",
+        "so that",
+        "with the result of"
+      ],
+      "correct": "so as to",
+      "hint": "\"So as to + infinitive\" = purpose (often emphasising the reason)"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the most formal effect linker.",
+      "text": "\"The film's score was unanimously praised; ___, the director chose the same composer for her next project.\"",
+      "opts": [
+        "so",
+        "as a result",
+        "hence",
+        "therefore"
+      ],
+      "correct": "hence",
+      "hint": "\"Hence\" = very formal effect marker, used in written academic analysis"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with a cause linker.",
+      "text": "\"___ its unusual narrative structure, the novel was initially rejected by several publishers.\"",
+      "correct": "Due to / Owing to / Because of",
+      "hint": "\"Due to / Owing to + noun\" = cause"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which is the best concluding sentence for a film review?",
+      "text": "",
+      "opts": [
+        "The film is therefore very good.",
+        "On balance, despite its structural weaknesses, the film succeeds as an emotionally resonant and visually extraordinary experience.",
+        "To sum up: I liked it.",
+        "In conclusion, the film was fine."
+      ],
+      "correct": "On balance, despite its structural weaknesses, the film succeeds as an emotionally resonant and visually extraordinary experience.",
+      "hint": "\"On balance\" + concession + strong evaluative statement = strong conclusion"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the purpose linker.",
+      "text": "\"The writer uses fragmented dialogue ___ the reader feels the disconnection between the characters.\"",
+      "correct": "so that",
+      "hint": "\"So that + subject + verb\" = purpose (the goal or intended effect)"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Which shows the effect of an artistic choice most precisely?",
+      "text": "\"The director uses a handheld camera. ___ the viewer feels physically present in the scene.\"",
+      "opts": [
+        "However,",
+        "Nevertheless,",
+        "As a result,",
+        "Despite this,"
+      ],
+      "correct": "As a result,",
+      "hint": "\"As a result\" = the direct consequence of the artistic choice"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Add the correct sequence linker.",
+      "text": "\"The director ___ establishes the setting. ___ this, she introduces the main conflict.\" (what comes after)",
+      "correct": "first / Following",
+      "hint": "\"First / Following this\" = sequence"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Which summary linker best introduces a balanced final judgment?",
+      "text": "",
+      "opts": [
+        "In contrast,",
+        "However,",
+        "On balance,",
+        "Furthermore,"
+      ],
+      "correct": "On balance,",
+      "hint": "\"On balance\" = weighing both sides and reaching a final judgment"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with the correct formal cause linker.",
+      "text": "\"___ its commercial failure, the film was never widely distributed.\" (= because of)\", formal)",
+      "correct": "Owing to / Due to / On account of",
+      "hint": "\"Owing to / Due to / On account of + noun\" = formal cause"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is the most sophisticated way to express artistic purpose?",
+      "text": "\"The director uses slow motion to make the audience think about time.\"",
+      "opts": [
+        "The director uses slow motion so we think about time.",
+        "The director uses slow motion in order to prompt the audience to reflect on the nature of time.",
+        "The director uses slow motion because time.",
+        "The director uses slow motion and so people think."
+      ],
+      "correct": "The director uses slow motion in order to prompt the audience to reflect on the nature of time.",
+      "hint": "\"In order to + infinitive\" = formal artistic intention; precise vocabulary"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ its unconventional structure, the film was commercially successful.\" (cause: explains the success)",
+      "opts": [
+        "Despite",
+        "Owing to",
+        "However",
+        "Nevertheless"
+      ],
+      "correct": "Owing to",
+      "hint": "\"Owing to + noun\" = cause/reason",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The novel's language is dense and complex. ___, first-time readers often find it challenging.\" (effect)",
+      "correct": "As a result / Consequently / Therefore",
+      "hint": "Effect linker = showing the consequence",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The director keeps the camera at a distance ___ avoid imposing an emotional response on the viewer.\"",
+      "opts": [
+        "in order to",
+        "so that",
+        "due to",
+        "as a result"
+      ],
+      "correct": "in order to",
+      "hint": "\"In order to + infinitive\" = artistic intention",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the film examines identity. Secondly, it explores memory. Finally, it questions narrative itself.\"",
+      "opts": [
+        "However",
+        "Moreover",
+        "Firstly",
+        "In contrast"
+      ],
+      "correct": "Firstly",
+      "hint": "Sequence: Firstly → Secondly → Finally",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, despite occasional weaknesses, this film represents a significant artistic achievement.\" (conclusion)",
+      "correct": "In conclusion / Overall / Ultimately",
+      "hint": "Summary linker for a concluding paragraph",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The film used natural light. Hence, the result felt realistic.\" — This is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Hence\" = formal effect marker (very formal, used in academic writing)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The author withholds information ___ the reader experiences the narrator's confusion directly.\" (purpose — reader is the subject of the clause)",
+      "correct": "so that",
+      "hint": "\"So that + subject + verb\" = purpose with a new subject",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the film's slow pacing, it failed to attract mainstream audiences.\"",
+      "opts": [
+        "Although",
+        "Owing to",
+        "Furthermore",
+        "Nevertheless"
+      ],
+      "correct": "Owing to",
+      "hint": "\"Owing to + noun\" = the cause of what followed",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___, both the structure and the language contribute to the novel's power. ___.\" (sequence + summary)",
+      "correct": "Firstly / Ultimately / On balance",
+      "hint": "Sequence then summary linkers",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The score was criticised, ___ the cast's performances were universally praised.\" (contrast within one sentence)",
+      "opts": [
+        "furthermore",
+        "whereas",
+        "as a result",
+        "owing to"
+      ],
+      "correct": "whereas",
+      "hint": "\"Whereas\" = direct comparison within one sentence",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ its difficult subject matter, the film found a surprisingly large audience.\" (unexpected positive despite negative condition)",
+      "correct": "Despite / In spite of",
+      "hint": "\"Despite/In spite of + noun\" = concession",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the film succeeds on its own terms, though it will not appeal to all audiences.\" (balanced final conclusion)",
+      "opts": [
+        "In contrast",
+        "Furthermore",
+        "On balance",
+        "Owing to"
+      ],
+      "correct": "On balance",
+      "hint": "\"On balance\" = weighing all considerations before a final judgement",
+      "points": 2
+    }
+  ]
+}

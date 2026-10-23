@@ -1,0 +1,505 @@
+{
+  "id": "l20-3",
+  "moduleNum": 4,
+  "lessonNum": 3,
+  "moduleTitle": "Food & Eating Out",
+  "title": "At the market",
+  "type": "listening",
+  "xp": 60,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "Rustam! What are you doing at the market? I didn't know you could cook!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Ha! My cooking is terrible, honestly. But I promised Zhibek I'd make a salad for her birthday dinner tonight.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Brave man! What do you need to buy?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I need some tomatoes, a few cucumbers, some lettuce, and half a kilogram of cheese. Oh, and some olive oil.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "There's a great vegetable stall just over there. And the cheese seller next to it is excellent. Very cheap too.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Seller",
+      "text": "Good morning! What can I get for you today?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Good morning. I'd like a kilogram of tomatoes, please. Are these local ones?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Seller",
+      "text": "Yes, straight from the farm this morning! Very ripe and sweet. How many cucumbers do you want?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Four, please. And how much is the lettuce?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Seller",
+      "text": "Three heads of lettuce for 500 tenge — or 200 each. How many do you need?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Just one, thanks. Oh — do you have any fresh herbs? Basil or parsley?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Seller",
+      "text": "I have parsley — a big bunch for 150 tenge. No basil today, I'm afraid.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I'll take the parsley. How much is everything together?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Seller",
+      "text": "Tomatoes 800, cucumbers 320, one lettuce 200, parsley 150 — that's 1,470 tenge in total.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Here's 1,500. Keep the change!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Seller",
+      "text": "Thank you, young man! Good luck with the salad — I'm sure it'll be delicious!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Rustam — you forgot the cheese and olive oil! The other stall is this way…",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "stall",
+      "emoji": "🏪",
+      "opts": [
+        "магазин",
+        "торговый ларёк",
+        "рынок",
+        "прилавок"
+      ],
+      "correct": "торговый ларёк"
+    },
+    {
+      "id": "p2",
+      "word": "ripe",
+      "emoji": "🍅",
+      "opts": [
+        "незрелый",
+        "зрелый/спелый",
+        "свежий",
+        "органический"
+      ],
+      "correct": "зрелый/спелый"
+    },
+    {
+      "id": "p3",
+      "word": "bunch",
+      "emoji": "🌿",
+      "opts": [
+        "коробка",
+        "пучок",
+        "мешок",
+        "упаковка"
+      ],
+      "correct": "пучок"
+    },
+    {
+      "id": "p4",
+      "word": "parsley",
+      "emoji": "🌱",
+      "opts": [
+        "базилик",
+        "петрушка",
+        "укроп",
+        "мята"
+      ],
+      "correct": "петрушка"
+    },
+    {
+      "id": "p5",
+      "word": "keep the change",
+      "emoji": "💰",
+      "opts": [
+        "дай сдачу",
+        "оставь себе сдачу",
+        "у меня нет сдачи",
+        "нет, я плачу карточкой"
+      ],
+      "correct": "оставь себе сдачу"
+    },
+    {
+      "id": "p6",
+      "word": "in total",
+      "emoji": "➕",
+      "opts": [
+        "в среднем",
+        "итого",
+        "примерно",
+        "частично"
+      ],
+      "correct": "итого"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam is buying food for Zhibek's birthday dinner.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Rustam buys half a kilogram of tomatoes.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The seller has fresh basil today.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam buys a bunch of parsley for 150 tenge.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The total cost of Rustam's shopping is 1,470 tenge.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Amir reminds Rustam he forgot the cheese and olive oil.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "⚽",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Student — shopping"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Student — helpful guide"
+    },
+    {
+      "id": "seller",
+      "name": "Seller",
+      "city": "Uralsk",
+      "emoji": "🛒",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "role": "Market vegetable seller"
+    },
+    {
+      "id": "forgot",
+      "name": "Cheese & Oil",
+      "city": "—",
+      "emoji": "🧀",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "What Rustam forgot!"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"I promised to make a salad for Zhibek's birthday dinner.\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "\"There's a great vegetable stall just over there.\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "\"Yes, straight from the farm this morning — very ripe and sweet!\"",
+      "correctCharId": "seller"
+    },
+    {
+      "id": "s4",
+      "text": "\"I'll take the parsley. How much is everything together?\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "\"That's 1,470 tenge in total. Thank you!\"",
+      "correctCharId": "seller"
+    },
+    {
+      "id": "s6",
+      "text": "Was left at another stall — completely forgotten.",
+      "correctCharId": "forgot"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is Rustam at the market?",
+      "opts": [
+        "To buy food for himself",
+        "To make a salad for Zhibek's birthday",
+        "To help Amir cook",
+        "To buy ingredients for a café"
+      ],
+      "correct": "To make a salad for Zhibek's birthday",
+      "hint": "\"I promised Zhibek I'd make a salad for her birthday dinner tonight.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many cucumbers does Rustam buy?",
+      "opts": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": "Four",
+      "hint": "\"Four, please.\" — Rustam."
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The tomatoes at the market are locally grown.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Yes, straight from the farm this morning!\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The seller has fresh basil.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No basil today, I'm afraid.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much does a bunch of parsley cost?",
+      "opts": [
+        "100 tenge",
+        "150 tenge",
+        "200 tenge",
+        "250 tenge"
+      ],
+      "correct": "150 tenge",
+      "hint": "\"a big bunch for 150 tenge\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the total cost of Rustam's shopping?",
+      "opts": [
+        "1,200 tenge",
+        "1,350 tenge",
+        "1,470 tenge",
+        "1,500 tenge"
+      ],
+      "correct": "1,470 tenge",
+      "hint": "\"that's 1,470 tenge in total\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam pays exactly 1,470 tenge.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Here's 1,500. Keep the change!\" — he paid 1,500."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What two things does Rustam forget to buy?",
+      "opts": [
+        "Herbs and tomatoes",
+        "Cheese and olive oil",
+        "Bread and butter",
+        "Lettuce and cucumbers"
+      ],
+      "correct": "Cheese and olive oil",
+      "hint": "\"Rustam — you forgot the cheese and olive oil!\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much does one head of lettuce cost?",
+      "opts": [
+        "100 tenge",
+        "150 tenge",
+        "200 tenge",
+        "300 tenge"
+      ],
+      "correct": "200 tenge",
+      "hint": "\"Three heads for 500 tenge — or 200 each.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"Keep the change\" mean?",
+      "opts": [
+        "Give me change",
+        "I don't have change",
+        "You can have the extra money",
+        "I'll pay later"
+      ],
+      "correct": "You can have the extra money",
+      "hint": "\"Keep the change\" = you paid more than needed and tell the seller to keep the difference."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Do you have ___ fresh herbs today?",
+      "correct": "any",
+      "hint": "\"any\" in questions with uncountable nouns: Do you have any herbs?"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "I need ___ tomatoes and ___ lettuce.",
+      "opts": [
+        "some / some",
+        "any / any",
+        "a few / a few",
+        "some / a few"
+      ],
+      "correct": "some / some",
+      "hint": "Tomatoes (countable plural) and lettuce (uncountable) → both use \"some\" in positive sentences."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How ___ cucumbers do you want?\"",
+      "opts": [
+        "much",
+        "many",
+        "often",
+        "long"
+      ],
+      "correct": "many",
+      "hint": "Cucumbers = countable → How many cucumbers?"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I'd like ___ kilogram of tomatoes, please.",
+      "correct": "a",
+      "hint": "\"a kilogram\" = one unit (countable measure) → a kilogram."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"ripe\" mean for fruit or vegetables?",
+      "opts": [
+        "Very green",
+        "Fully grown and ready to eat",
+        "Frozen",
+        "Artificially grown"
+      ],
+      "correct": "Fully grown and ready to eat",
+      "hint": "Ripe = at the perfect stage of growth for eating."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "A ___ of parsley costs 150 tenge.",
+      "correct": "bunch",
+      "hint": "A bunch = a tied group of herbs, flowers, or stalks."
+    }
+  ]
+}

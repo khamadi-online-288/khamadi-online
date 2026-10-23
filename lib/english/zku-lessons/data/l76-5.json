@@ -1,0 +1,348 @@
+{
+  "id": "l76-5",
+  "moduleNum": 18,
+  "lessonNum": 9,
+  "moduleTitle": "Media, News & Propaganda",
+  "title": "Module 18 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It is clear ___ disinformation is a growing threat to democratic discourse.\" (noun clause)",
+      "opts": [
+        "whether",
+        "what",
+        "that",
+        "how"
+      ],
+      "correct": "that",
+      "hint": "\"It is clear that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Researchers have found ___ corrections reach far fewer people than the original false claims.\"",
+      "correct": "that",
+      "hint": "\"Found that + clause\" — reporting verb + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ concerns me most is the concentration of media ownership in a few wealthy hands.\"",
+      "opts": [
+        "That",
+        "It",
+        "What",
+        "Whether"
+      ],
+      "correct": "What",
+      "hint": "\"What + S + V + is + X\" = wh-clause as grammatical subject",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The fact ___ the story was fabricated was established within 24 hours by multiple fact-checkers.\"",
+      "correct": "that",
+      "hint": "\"The fact that + clause\" — noun phrase + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She realised ___ the account she had been following was automated — a bot.\"",
+      "opts": [
+        "whether",
+        "that",
+        "what",
+        "which"
+      ],
+      "correct": "that",
+      "hint": "\"Realised that + clause\" — cognitive verb + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The debate about ___ platforms should bear legal responsibility for content is intensifying.\"",
+      "opts": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "correct": "whether",
+      "hint": "After prepositions: \"whether\" not \"if\"",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I wonder ___ social media companies have done enough to combat disinformation.\"",
+      "correct": "whether / if",
+      "hint": "\"Wonder whether/if\" = embedded yes/no question",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Can you tell me ___ the website publishes credible reporting?\" (embedded yes/no question)",
+      "opts": [
+        "that",
+        "if",
+        "whether",
+        "both B and C"
+      ],
+      "correct": "both B and C",
+      "hint": "Both \"if\" and \"whether\" are acceptable in mid-sentence embedded yes/no questions",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She couldn't decide ___ share the unverified story or wait for confirmation.\" (choice with infinitive)",
+      "correct": "whether to",
+      "hint": "\"Couldn't decide whether to + infinitive\" — no subject after \"whether to\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Researchers are investigating ___ filter bubbles reduce exposure to opposing viewpoints.\"",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how much"
+      ],
+      "correct": "whether",
+      "hint": "\"Investigating whether\" = embedded yes/no question",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the difference between misinformation and disinformation?",
+      "opts": [
+        "Misinformation uses bots; disinformation uses humans",
+        "Disinformation is deliberately spread to deceive; misinformation is not necessarily intentional",
+        "They are synonymous",
+        "Misinformation is more dangerous than disinformation"
+      ],
+      "correct": "Disinformation is deliberately spread to deceive; misinformation is not necessarily intentional",
+      "hint": "Reading 1: key distinction",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I don't understand ___ this false story gained so much traction so quickly.\" (mechanism)",
+      "correct": "how",
+      "hint": "\"How + S + V\" = the mechanism/way — embedded wh-question",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ this widespread problem is has not yet been fully explained.\" (= the origin of the problem — wh-subject)",
+      "opts": [
+        "That",
+        "How",
+        "Where",
+        "Whether"
+      ],
+      "correct": "Where",
+      "hint": "\"Where + S + V\" as a subject noun clause = the origin",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She asked ___ did the fact-checker find.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"whether\" should replace \"what\"",
+        "\"did the fact-checker find\" should be \"the fact-checker found\"",
+        "\"asked\" should be \"wondered\""
+      ],
+      "correct": "\"did the fact-checker find\" should be \"the fact-checker found\"",
+      "hint": "No auxiliary inversion in embedded questions",
+      "points": 2
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is \"lateral reading\" according to the dialogue?",
+      "opts": [
+        "Reading one article very carefully from start to finish",
+        "Searching for what other sources say about a source or claim",
+        "Comparing two news articles side by side",
+        "Reading a translated version of an article"
+      ],
+      "correct": "Searching for what other sources say about a source or claim",
+      "hint": "Listening 3: Davyd explains lateral reading",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It has been established ___ newsrooms without adequate funding produce less investigative journalism.\"",
+      "correct": "that",
+      "hint": "\"It has been established that + clause\" — passive reporting + noun clause",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ whether the accounts are bots or real users is a significant technical challenge.\" (subject clause)",
+      "opts": [
+        "Determining",
+        "Determine",
+        "Determination",
+        "Determined"
+      ],
+      "correct": "Determining",
+      "hint": "Gerund + noun clause as subject: \"Determining whether + S + V\"",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Despite the fact ___ the video was later debunked, it had already reached millions of people.\"",
+      "correct": "that",
+      "hint": "\"Despite the fact that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is a \"citation spiral\" according to the dialogue?",
+      "opts": [
+        "A legitimate network of independent sources",
+        "Multiple sites citing each other but all from one weak original source",
+        "A technique used by fact-checkers to verify claims",
+        "An algorithm that amplifies controversial content"
+      ],
+      "correct": "Multiple sites citing each other but all from one weak original source",
+      "hint": "Listening 3: Davyd explains \"citation spiral\"",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The question is not ___ action is needed, but ___ urgently we must act.\"",
+      "opts": [
+        "whether / how",
+        "that / what",
+        "if / that",
+        "what / whether"
+      ],
+      "correct": "whether / how",
+      "hint": "\"Not whether… but how…\" — two embedded questions for contrast and emphasis",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Many doubt ___ self-regulation by technology platforms can adequately address disinformation.\"",
+      "correct": "whether",
+      "hint": "\"Doubt whether\" = expressing doubt about a yes/no outcome",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A \"news ___\" is an area with no professional local news coverage.",
+      "correct": "desert",
+      "hint": "Listening 3B: \"news deserts\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence is grammatically correct?",
+      "opts": [
+        "\"I wonder where does misinformation originate.\"",
+        "\"I wonder where misinformation originates.\"",
+        "\"I wonder from where does it originate.\"",
+        "\"I wonder misinformation where originates.\""
+      ],
+      "correct": "\"I wonder where misinformation originates.\"",
+      "hint": "No inversion in embedded questions: \"where + S + V\"",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Whether the site is reliable remains unclear\" is grammatically correct (using \"whether\" as a subject clause).",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Whether + S + V\" can be the subject of a sentence — \"if\" cannot",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"framing\" mean in the context of media and propaganda?",
+      "opts": [
+        "The physical layout of a news article",
+        "The way information is presented, which shapes its interpretation",
+        "A legal framework for regulating media",
+        "Adding visual images to news stories"
+      ],
+      "correct": "The way information is presented, which shapes its interpretation",
+      "hint": "Reading 2: \"framing — the way in which information is presented\"",
+      "points": 1
+    }
+  ]
+}

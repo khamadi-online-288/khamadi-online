@@ -1,0 +1,152 @@
+{
+  "id": "l29-5",
+  "moduleNum": 13,
+  "lessonNum": 5,
+  "moduleTitle": "Sports & Exercise",
+  "type": "writing",
+  "title": "Writing: My Favourite Sport",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    "My name is Amir and my favourite sport is football. I have played football since I was six years old.",
+    "I love football because it is a team sport. You cannot win alone — you need to work together, communicate, and support each other. I have learned many important life lessons from playing football.",
+    "I have been part of the WKU football team for two years. We have played eight matches this season, and we have won five of them. I haven't scored in a final yet, but I am still trying.",
+    "I train three times a week — on Monday, Wednesday, and Friday. I have also watched many professional matches. My favourite player is Gennady Golovkin — not a footballer, I know, but he inspires me with his dedication.",
+    "If you haven't tried a team sport yet, I highly recommend it. Sport teaches you discipline, resilience, and how to handle both victory and defeat."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro1",
+      "prefix": "My name is ",
+      "suffix": " and my favourite sport is ",
+      "placeholder": "your name",
+      "hint": "e.g. Aibek / Zarina / Rustam"
+    },
+    {
+      "key": "intro2",
+      "prefix": "",
+      "suffix": ". I have played ",
+      "placeholder": "name of sport",
+      "hint": "e.g. volleyball / basketball / swimming"
+    },
+    {
+      "key": "since",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "sport + since / for (I have played … since I was 8)",
+      "hint": "Use Present Perfect: \"I have played… since I was… / for … years\""
+    },
+    {
+      "key": "why",
+      "prefix": "I love ",
+      "suffix": " because ",
+      "placeholder": "sport name",
+      "hint": "Repeat the sport name."
+    },
+    {
+      "key": "whyr",
+      "prefix": "",
+      "suffix": ". I have learned ",
+      "placeholder": "reason (it is a team sport / it keeps me healthy)",
+      "hint": "e.g. it teaches teamwork and communication"
+    },
+    {
+      "key": "lesson",
+      "prefix": "",
+      "suffix": " from playing ",
+      "placeholder": "what you have learned (discipline / resilience / teamwork)",
+      "hint": "Use Present Perfect: I have learned…"
+    },
+    {
+      "key": "sport",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "sport name again",
+      "hint": "Repeat the sport."
+    },
+    {
+      "key": "pp",
+      "prefix": "I have ",
+      "suffix": ". I have also ",
+      "placeholder": "achievement with Present Perfect (been part of a team / won a competition)",
+      "hint": "e.g. I have been part of the school team for two years"
+    },
+    {
+      "key": "pp2",
+      "prefix": "",
+      "suffix": ". I haven't ",
+      "placeholder": "another achievement (trained regularly / watched matches)",
+      "hint": "e.g. watched many professional matches"
+    },
+    {
+      "key": "yet",
+      "prefix": "",
+      "suffix": " yet, but I am still trying.",
+      "placeholder": "something you haven't done yet",
+      "hint": "e.g. scored in a final / won a tournament / run a marathon"
+    },
+    {
+      "key": "rec",
+      "prefix": "If you haven't tried ",
+      "suffix": " yet, I highly recommend it because ",
+      "placeholder": "sport/activity name",
+      "hint": "e.g. a team sport / swimming / running"
+    },
+    {
+      "key": "recr",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "reason to try it",
+      "hint": "e.g. sport teaches you discipline and resilience"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Present Perfect (sport experience)",
+      "color": "#003876",
+      "items": [
+        "I have played… since I was… / for … years.",
+        "I have been part of the team for…",
+        "I have won / competed in…",
+        "I haven't… yet, but I'm still trying."
+      ]
+    },
+    {
+      "category": "Why I love this sport",
+      "color": "#1D9E75",
+      "items": [
+        "I love… because it is…",
+        "You need to…",
+        "I have learned… from playing…",
+        "Sport teaches you discipline / resilience."
+      ]
+    },
+    {
+      "category": "Recommendation",
+      "color": "#C9933B",
+      "items": [
+        "If you haven't tried… yet, I recommend it.",
+        "It teaches you how to handle victory and defeat.",
+        "Sport is not just physical — it is mental too.",
+        "Every practice session makes you better."
+      ]
+    }
+  ],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

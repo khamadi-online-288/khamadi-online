@@ -1,0 +1,104 @@
+{
+  "id": "l23-4",
+  "moduleNum": 7,
+  "lessonNum": 5,
+  "moduleTitle": "Stories from the Past",
+  "title": "Writing: A Story from My Family History",
+  "type": "writing",
+  "xp": 40,
+  "duration": 22,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "writingModel": [
+    "Last summer, I visited my grandfather in his village. He is 80 years old and he told me an amazing story from his youth. When he was young, he worked on a collective farm in the 1960s. Life was very hard. He woke up at five o'clock every morning and worked until sunset. He didn't have a tractor — he used horses.",
+    "One winter, there was a terrible snowstorm. The animals got cold and hungry. My grandfather and his neighbours worked all night to protect them. They didn't sleep at all. By morning, all the animals were safe. The village leader was so impressed that he gave my grandfather a special certificate.",
+    "I found this certificate in an old box in the attic. It was yellow and old, but I could still read the words. I felt so proud of my grandfather. His story taught me that hard work and community spirit can overcome any difficulty. Now I keep this certificate on my wall as a reminder of our family history."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Write your opening sentence (when, who, where)...",
+      "hint": "Use: Last [time], I visited my [family member] in [place]."
+    },
+    {
+      "key": "para1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe their past life (2-3 sentences, use Past Simple)...",
+      "hint": "What did they do? Where did they live? What was hard or different?"
+    },
+    {
+      "key": "event",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe the key event (what happened, what did they do)...",
+      "hint": "Start with \"One day/winter...\" Use irregular and regular Past Simple."
+    },
+    {
+      "key": "close",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Your reaction and what you learned from this story...",
+      "hint": "How did you feel? What did the story teach you?"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening",
+      "color": "#003876",
+      "items": [
+        "Last summer / winter / year, I visited...",
+        "When I was young, my grandmother told me...",
+        "My family has an amazing story from the past.",
+        "I recently discovered a fascinating story about..."
+      ]
+    },
+    {
+      "category": "Describing past events",
+      "color": "#16A34A",
+      "items": [
+        "He/She worked as a... for ... years.",
+        "They lived in a small village / big city.",
+        "Life was very different in those days.",
+        "He/She didn't have..., so he/she used..."
+      ]
+    },
+    {
+      "category": "The key event",
+      "color": "#DB2777",
+      "items": [
+        "One winter / day / morning...",
+        "Suddenly, something unexpected happened.",
+        "He/She and his/her neighbours worked together.",
+        "It was a very difficult situation, but..."
+      ]
+    },
+    {
+      "category": "Emotional response",
+      "color": "#C9933B",
+      "items": [
+        "I felt so proud / moved / amazed.",
+        "When I heard this story, I...",
+        "His/Her story taught me that...",
+        "Now I keep [object] as a reminder of..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": "l56-5",
+  "moduleNum": 22,
+  "lessonNum": 8,
+  "moduleTitle": "Natural World",
+  "type": "test",
+  "title": "Module 22 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is unique about the current rate of climate change?",
+      "opts": [
+        "It's natural",
+        "It's the fastest in 65 million years",
+        "It only affects oceans",
+        "It started recently"
+      ],
+      "correct": "It's the fastest in 65 million years",
+      "hint": "\"Changes occurring at a rate not seen in the geological record for at least 65 million years.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What happened to the Aral Sea?",
+      "opts": [
+        "It expanded",
+        "It froze permanently",
+        "It was drained by Soviet irrigation projects",
+        "It was polluted by industry"
+      ],
+      "correct": "It was drained by Soviet irrigation projects",
+      "hint": "\"The Aral Sea was drained by Soviet-era irrigation projects over the second half of the twentieth century.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is the saiga antelope described as a conservation success?",
+      "opts": [
+        "It was saved by a single law",
+        "Its population went from near-extinction to over a million",
+        "It was bred in captivity",
+        "Scientists discovered a new subspecies"
+      ],
+      "correct": "Its population went from near-extinction to over a million",
+      "hint": "\"By 2023, the population had grown back to over a million. One of the great conservation success stories.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Conservation programmes that exclude local communities work best.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Conservation programmes that do not include local communities have consistently failed.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The Tian Shan glaciers are a critical source of ___ for the region.",
+      "correct": "fresh water",
+      "hint": "\"These glaciers are a critical source of FRESH WATER for the region.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the text, what is understanding climate science?",
+      "opts": [
+        "Optional for ecology majors only",
+        "The literacy of the 21st century for all fields",
+        "A government requirement",
+        "Only relevant for researchers"
+      ],
+      "correct": "The literacy of the 21st century for all fields",
+      "hint": "\"Understanding the science is not optional. It is the literacy of the twenty-first century.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What first made Aizhan aware of environmental issues?",
+      "opts": [
+        "A documentary",
+        "The Ural River getting lower and fish disappearing near her village",
+        "School lessons",
+        "A government report"
+      ],
+      "correct": "The Ural River getting lower and fish disappearing near her village",
+      "hint": "\"Every summer I could see the river was lower... The fish were disappearing.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was found to have been released into the river?",
+      "opts": [
+        "Hot water",
+        "Untreated chemicals from a factory",
+        "Agricultural runoff",
+        "Oil spills"
+      ],
+      "correct": "Untreated chemicals from a factory",
+      "hint": "\"A factory was found to have been releasing untreated chemicals into the river.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Aizhan's current main focus?",
+      "opts": [
+        "Air quality",
+        "Renewable energy",
+        "Water rights for rural communities",
+        "Wildlife protection"
+      ],
+      "correct": "Water rights for rural communities",
+      "hint": "\"Water rights. Communities in rural Kazakhstan are being denied clean water.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What gives Aizhan hope?",
+      "opts": [
+        "New laws",
+        "International treaties",
+        "Young people caring more about the environment",
+        "New technology"
+      ],
+      "correct": "Young people caring more about the environment",
+      "hint": "\"More young Kazakhstanis care about the environment than ever before... That gives me hope.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Aizhan says the attitude of young people has been ___ by climate news.",
+      "correct": "changed",
+      "hint": "\"The attitude has been CHANGED by climate news, by what they can see with their own eyes.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan says the river cleanup was completed quickly after the factory closed.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The cleanup hasn't been completed — the riverbed is still being studied. It will take years.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Water IS TESTED daily.\" — This is:",
+      "opts": [
+        "Past Passive",
+        "Present Continuous Passive",
+        "Present Simple Passive",
+        "Present Perfect Passive"
+      ],
+      "correct": "Present Simple Passive",
+      "hint": "\"is tested\" = is + pp = Present Simple Passive. ✅ Routine/regular action."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The river IS BEING CLEANED.\" — This is:",
+      "opts": [
+        "Present Simple Passive",
+        "Past Passive",
+        "Present Continuous Passive",
+        "Modal Passive"
+      ],
+      "correct": "Present Continuous Passive",
+      "hint": "\"is being cleaned\" = is + being + pp = Present Continuous Passive. ✅ Action ongoing now."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Several parks ___ (establish) in Kazakhstan recently.\" (Present Perfect Passive)",
+      "correct": "have been established",
+      "hint": "Recent completion → Present Perfect Passive: \"HAVE BEEN ESTABLISHED.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Emissions MUST BE reduced.\" — \"must be reduced\" is:",
+      "opts": [
+        "Conditional",
+        "Modal Passive",
+        "Future Perfect",
+        "Past Perfect"
+      ],
+      "correct": "Modal Passive",
+      "hint": "modal (must) + be + past participle = Modal Passive. ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has an impact ___ the environment.\"",
+      "opts": [
+        "to",
+        "in",
+        "on",
+        "at"
+      ],
+      "correct": "on",
+      "hint": "\"impact ON the environment.\" ✅ Always \"on\" with impact."
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Deforestation contributes ___ climate change.\"",
+      "opts": [
+        "to",
+        "in",
+        "of",
+        "about"
+      ],
+      "correct": "to",
+      "hint": "\"contribute TO climate change.\" ✅ Always \"to.\""
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We must ___ climate change urgently.\" (key verb)",
+      "correct": "tackle",
+      "hint": "\"TACKLE climate change.\" ✅ Not \"reduce climate change\" — climate change is tackled/addressed."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"At risk ___ extinction.\" Correct preposition:",
+      "opts": [
+        "for",
+        "from",
+        "of",
+        "to"
+      ],
+      "correct": "of",
+      "hint": "\"at risk OF extinction.\" ✅ Always \"of\" after \"at risk.\""
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The glaciers have retreated.\" \"Retreated\" means:",
+      "opts": [
+        "Grown larger",
+        "Moved forward",
+        "Moved back/shrunk",
+        "Stopped moving"
+      ],
+      "correct": "Moved back/shrunk",
+      "hint": "\"retreat\" = to move back; glaciers retreat as they lose ice and shrink."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Deployed at unprecedented scale.\" \"Unprecedented\" means:",
+      "opts": [
+        "Very large",
+        "Never done before at this level",
+        "Common and expected",
+        "Experimental"
+      ],
+      "correct": "Never done before at this level",
+      "hint": "\"unprecedented\" = never seen or done before to this extent."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Commercial poaching was widespread.\" \"Poaching\" means:",
+      "opts": [
+        "Legal hunting",
+        "Farming animals",
+        "Illegal hunting for profit",
+        "Wildlife photography"
+      ],
+      "correct": "Illegal hunting for profit",
+      "hint": "\"poaching\" = illegally killing or capturing animals, often commercially."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Conservation efforts produced a remarkable recovery.\" \"Conservation\" means:",
+      "opts": [
+        "Destruction",
+        "Study of nature",
+        "Protection and preservation of nature",
+        "Climate modelling"
+      ],
+      "correct": "Protection and preservation of nature",
+      "hint": "\"conservation\" = protection, preservation, and sustainable management of the natural world."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The scientific consensus is clear.\" \"Consensus\" means:",
+      "opts": [
+        "One expert's view",
+        "Government policy",
+        "General agreement among the scientific community",
+        "A new theory"
+      ],
+      "correct": "General agreement among the scientific community",
+      "hint": "\"consensus\" = broad agreement; what most experts agree on."
+    }
+  ]
+}

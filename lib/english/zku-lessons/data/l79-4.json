@@ -1,0 +1,241 @@
+{
+  "id": "l79-4",
+  "moduleNum": 21,
+  "lessonNum": 7,
+  "moduleTitle": "Economics & Money in Society",
+  "title": "Writing: An Essay on an Economic Issue",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "State the economic issue and why it matters",
+      "hint": "Use economic vocabulary: \"the distribution of…\", \"inequality in…\", \"the regulation of…\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "First argument — economic evidence or principle",
+      "hint": "Use word families: \"productively / productivity / production / producer\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Counter-argument — opposite view with evidence",
+      "hint": "Use \"although / however / on the other hand\" + economic vocabulary"
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Analysis — what the evidence shows about trade-offs",
+      "hint": "Hedging: \"suggests that / may indicate / it is possible that\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Balanced conclusion with policy recommendation",
+      "hint": "\"What the evidence suggests is…\" / \"It is clear that sustainable / affordable / equitable solutions require…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "The ___ of income and wealth is one of the most debated ___ issues of our time.",
+      "placeholder": "distribution / economic",
+      "hint": "Use correct word forms: \"distribution\" (noun) + \"economic\" (adjective)"
+    },
+    {
+      "key": "l2",
+      "prefix": "Evidence suggests that high ___ reduces ___ and undermines social ___.",
+      "placeholder": "inequality / productivity / cohesion",
+      "hint": "Three nouns from different word families"
+    },
+    {
+      "key": "l3",
+      "prefix": "However, ___ of market-generated inequality argue that ___ rewards create ___.",
+      "placeholder": "defenders / unequal / competition",
+      "hint": "Word forms: \"defenders\" (-er noun) + economic vocabulary"
+    },
+    {
+      "key": "l4",
+      "prefix": "The evidence ___ suggests that ___ redistribution can coexist with strong ___.",
+      "placeholder": "internationally / modest / economic growth",
+      "hint": "Adverb (-ly) + adjective + noun phrase"
+    },
+    {
+      "key": "l5",
+      "prefix": "What is clear is that ___ and ___ solutions are both ___ and ___ necessary.",
+      "placeholder": "affordable / sustainable / economically / politically",
+      "hint": "Word formation: adjectives + adverbs"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Economic nouns from word families",
+      "color": "#003876",
+      "items": [
+        "The distribution of income and wealth…",
+        "Investment in infrastructure and education…",
+        "The regulation of financial markets…",
+        "The productivity of workers depends on…",
+        "Unemployment and underemployment affect…"
+      ]
+    },
+    {
+      "category": "Economic adjectives and adverbs",
+      "color": "#1D9E75",
+      "items": [
+        "Economically sustainable policies…",
+        "Financially accessible services…",
+        "Globally competitive industries…",
+        "Politically feasible reforms…",
+        "Socially productive investment…"
+      ]
+    },
+    {
+      "category": "Prefixes in economic arguments",
+      "color": "#C9933B",
+      "items": [
+        "Unregulated markets tend to produce externalities.",
+        "Underdeveloped economies need investment.",
+        "Overproduction leads to falling prices.",
+        "Underinvestment in public services has long-term costs.",
+        "Macroeconomic stability is a prerequisite for microeconomic growth."
+      ]
+    },
+    {
+      "category": "Hedged conclusions with word formation",
+      "color": "#1B8FC4",
+      "items": [
+        "The evidence strongly suggests that redistribution is not incompatible with growth.",
+        "Sustainable and affordable solutions are achievable with political will.",
+        "Inequality is neither irreversible nor inevitable — policy choices matter.",
+        "What is needed is economically informed and socially equitable reform.",
+        "An unequal society is ultimately an inefficient and unstable one."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of income affects consumption patterns across the economy.\" (distribute → noun)",
+      "opts": [
+        "distributing",
+        "distribution",
+        "distributive",
+        "distributor"
+      ],
+      "correct": "distribution",
+      "hint": "distribute → distribution (-tion suffix)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ solutions are ones that can be maintained without depleting future resources.\" (sustain → adjective)",
+      "correct": "Sustainable",
+      "hint": "sustain → sustainable (-able suffix)",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"High ___ is associated with lower economic growth.\" (equal → opposite noun)",
+      "opts": [
+        "equality",
+        "unequal",
+        "inequality",
+        "equitable"
+      ],
+      "correct": "inequality",
+      "hint": "in- + equal → inequality (the state of being unequal)",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Markets need careful ___ to prevent externalities from harming society.\" (regulate → noun)",
+      "correct": "regulation",
+      "hint": "regulate → regulation (-tion suffix)",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ policies ignore the need for long-term investment in public services.\" (short + sight → adjective)",
+      "opts": [
+        "Undervalued",
+        "Oversighted",
+        "Short-sighted",
+        "Underdeveloped"
+      ],
+      "correct": "Short-sighted",
+      "hint": "short-sighted = failing to consider future consequences (compound adjective)",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Economically\" is the adverb form of \"economic.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "economic → economically (-ally suffix for adverb)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"High ___ means people cannot afford basic necessities.\" (equal → negative adjective)",
+      "correct": "inequality",
+      "hint": "in- + equality = inequality",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of currencies can destabilise financial markets.\" (de- + value → noun)",
+      "opts": [
+        "devaluing",
+        "devaluation",
+        "devalued",
+        "devalue"
+      ],
+      "correct": "devaluation",
+      "hint": "devalue → devaluation (-tion suffix: the act of devaluing)",
+      "points": 2
+    }
+  ]
+}

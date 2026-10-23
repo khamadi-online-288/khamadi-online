@@ -1,0 +1,222 @@
+{
+  "id": "l8-5",
+  "moduleNum": 8,
+  "lessonNum": 5,
+  "moduleTitle": "My home",
+  "title": "A letter to a friend",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Dear...,",
+      "emoji": "✉️",
+      "opts": [
+        "Уважаемый/ая...",
+        "Дорогой/ая...",
+        "Привет, ...!",
+        "Здравствуй, ...!"
+      ],
+      "correct": "Дорогой/ая..."
+    },
+    {
+      "id": "p2",
+      "word": "How are you?",
+      "emoji": "😊",
+      "opts": [
+        "Как ты?",
+        "Где ты?",
+        "Что ты делаешь?",
+        "Когда ты?"
+      ],
+      "correct": "Как ты?"
+    },
+    {
+      "id": "p3",
+      "word": "I am writing to tell you...",
+      "emoji": "📝",
+      "opts": [
+        "Я пишу чтобы рассказать тебе...",
+        "Я хочу спросить тебя...",
+        "Я звоню тебе...",
+        "Я забыл сказать тебе..."
+      ],
+      "correct": "Я пишу чтобы рассказать тебе..."
+    },
+    {
+      "id": "p4",
+      "word": "I miss you!",
+      "emoji": "💙",
+      "opts": [
+        "Я помню тебя!",
+        "Я скучаю по тебе!",
+        "Я вижу тебя!",
+        "Я звоню тебе!"
+      ],
+      "correct": "Я скучаю по тебе!"
+    },
+    {
+      "id": "p5",
+      "word": "Write back soon!",
+      "emoji": "📬",
+      "opts": [
+        "Звони скорее!",
+        "Напиши скорее!",
+        "Приходи скорее!",
+        "Читай скорее!"
+      ],
+      "correct": "Напиши скорее!"
+    },
+    {
+      "id": "p6",
+      "word": "Best wishes, / Love,",
+      "emoji": "💛",
+      "opts": [
+        "Пока! /",
+        "С уважением, /",
+        "С наилучшими пожеланиями, / С любовью,",
+        "До свидания, /"
+      ],
+      "correct": "С наилучшими пожеланиями, / С любовью,"
+    }
+  ],
+  "writingModel": [
+    "Dear Aisha,\n\nHow are you? I hope you and your family are well. I am writing to tell you all about my new apartment here in Uralsk! I moved in three weeks ago with my friend Zara from my Economics group. I have been so busy with university that this is my first chance to write a proper letter. I miss you so much and I think about our school days in Kokshetau all the time!",
+    "First, let me describe our apartment. There are three rooms: a living room, a bedroom, and a kitchen. There is also one bathroom and a small hallway. The apartment is on the third floor of a quiet building, just a ten-minute walk from WKU. There isn't a lift, so we walk up three flights of stairs every day — great exercise! The rent is 80,000 tenge per month, so we each pay 40,000. It is much more expensive than the dormitory, but we have so much more freedom and space!",
+    "My favourite room is the living room. There is a comfortable blue sofa where Zara and I watch films on Friday evenings. There are two bookshelves full of our textbooks and novels. There is a big window that lets in beautiful morning light — I love studying there with a cup of tea! There is also a small balcony with four potted plants. Zara brought them from her home in Almaty and she waters them every single morning. Do you have any plants at home?",
+    "The kitchen is small but we cook together every evening. There is a round table with four chairs, so we sometimes invite classmates for dinner. There is a washing machine too, which is very convenient — no more trips to the laundry! There isn't a dishwasher, but I do not really mind. Last week, Zara made beshbarmak and we invited three friends from our group. There were five people around our small kitchen table and it was so much fun! You would love Zara — she is kind, funny, and an amazing cook.",
+    "I really love living here, Aisha. It feels like our own little home. There is a small park just around the corner where I sometimes walk in the evenings to clear my head after studying. There are some beautiful old trees there and it reminds me of the park near our school in Kokshetau. I miss our walks there so much!\n\nPlease write back and tell me everything about your life. How is university? Are there any interesting people in your group? I cannot wait to hear from you.\n\nWith love and many hugs,\nKamila"
+  ],
+  "writingTemplate": [
+    {
+      "key": "open",
+      "prefix": "Dear ",
+      "suffix": ",",
+      "placeholder": "friend's name",
+      "hint": "e.g. Aisha / Dias / Arlan"
+    },
+    {
+      "key": "greet",
+      "prefix": "How are you? I am writing to tell you about ",
+      "suffix": ".",
+      "placeholder": "the topic of your letter",
+      "hint": "e.g. my new apartment / my room in the dormitory"
+    },
+    {
+      "key": "describe",
+      "prefix": "There are ",
+      "suffix": " rooms in total.",
+      "placeholder": "number",
+      "hint": "e.g. three / four / five"
+    },
+    {
+      "key": "bestroom",
+      "prefix": "My favourite room is the ",
+      "suffix": ". There is ___.",
+      "placeholder": "room ... something special there",
+      "hint": "e.g. living room. There is a big window"
+    },
+    {
+      "key": "feature",
+      "prefix": "There is also ",
+      "suffix": " which I love!",
+      "placeholder": "a special feature",
+      "hint": "e.g. a balcony / a great view / a park nearby"
+    },
+    {
+      "key": "missing",
+      "prefix": "There isn't ",
+      "suffix": ", but I don't mind.",
+      "placeholder": "something not there",
+      "hint": "e.g. a dishwasher / a lift / a garden"
+    },
+    {
+      "key": "feeling",
+      "prefix": "I love my home because ",
+      "suffix": ".",
+      "placeholder": "reason",
+      "hint": "e.g. it is cosy and close to university"
+    },
+    {
+      "key": "miss",
+      "prefix": "I miss you and ",
+      "suffix": ". Please write back soon!",
+      "placeholder": "something from home",
+      "hint": "e.g. our walks / our school / our city"
+    },
+    {
+      "key": "close",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "With love, / Best wishes, / Your friend, + your name",
+      "hint": "e.g. With love, Kamila"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Letter opening",
+      "color": "#003876",
+      "items": [
+        "Dear [name],",
+        "How are you? I hope you are well.",
+        "I am writing to tell you about...",
+        "I have been so busy, but...",
+        "I miss you so much!",
+        "I think about you all the time."
+      ]
+    },
+    {
+      "category": "Describing home — there is / there are",
+      "color": "#1B8FC4",
+      "items": [
+        "There are ___ rooms in total.",
+        "There is a living room / balcony / kitchen.",
+        "My favourite room is the ___ because...",
+        "There is a big window with a great view.",
+        "There isn't a lift, but that's fine!",
+        "There is a park just around the corner."
+      ]
+    },
+    {
+      "category": "Sharing news & feelings",
+      "color": "#7C3AED",
+      "items": [
+        "Last week, we...",
+        "It was so much fun!",
+        "You would love... — she/he is...",
+        "It feels like our own little home.",
+        "I love living here because...",
+        "It reminds me of..."
+      ]
+    },
+    {
+      "category": "Letter closing",
+      "color": "#1D9E75",
+      "items": [
+        "Please write back soon!",
+        "I cannot wait to hear from you.",
+        "Are there any interesting people in your group?",
+        "With love, / Best wishes, / Your friend,",
+        "Many hugs, / Take care,",
+        "Write back and tell me everything!"
+      ]
+    }
+  ]
+}

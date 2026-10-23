@@ -1,0 +1,438 @@
+{
+  "id": "l68-3",
+  "moduleNum": 10,
+  "lessonNum": 3,
+  "moduleTitle": "Narrative Writing",
+  "title": "The Story That Wasn't Finished: Two Writers Talk",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Leila",
+      "text": "Have you finished your narrative writing assignment? I've been struggling with it all week.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Not yet. I wrote three different openings and deleted them all. The problem is I keep starting with too much background information.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "Same! I spent two pages describing the setting before anything even happened. My teacher said the reader was \"waiting for the story to start.\"",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "That's exactly the feedback I got too. She said: \"Jump in. The reader doesn't need to know everything before the first action.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "So what did you do? Did you rewrite it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I started in the middle of the action — in medias res, you know? The opening line is now: \"The door was already open when she arrived.\" That sets up the past continuous and the main action at the same time.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "Oh, I like that. It immediately creates a question: why was the door open? The reader wants to know.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "Exactly. And then I used the past perfect to fill in the backstory — what had happened before she got there. But only in small pieces, not all at once.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "That's what I've been trying to do. But my problem is tense consistency. I keep slipping into the present tense by accident.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I had that problem too. My teacher told me to read each paragraph aloud. If something sounds wrong, it usually is. Our ear knows the language better than our eye sometimes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "That's a good tip. What about dialogue? I find it hard to integrate conversations without losing the narrative flow.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I keep dialogue short and purposeful. Each line should reveal character or move the plot. If it doesn't do one of those, it shouldn't be there.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "That's strict! But probably right. What's your story actually about?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "It's about a woman who returns to her childhood home after twenty years. She's looking for something — but what she finds is not what she expected.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "That sounds really interesting. The classic return narrative — but with a twist. I'd read that.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "I hope it works. The hardest part is the ending. I don't know whether to leave it open or resolve it clearly.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Leila",
+      "text": "I think that depends on what the story is about at its core. If it's about ambiguity and uncertainty, leave it open. If it's about finding something, close it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marcus",
+      "text": "You know, that's actually really helpful. I think it's about uncertainty. So maybe the door at the end should be open again.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "in medias res",
+      "ru": "с середины действия",
+      "context": "Starting a narrative in the middle of events"
+    },
+    {
+      "phrase": "tense consistency",
+      "ru": "согласованность времён",
+      "context": "Keeping the same tense throughout a narrative"
+    },
+    {
+      "phrase": "move the plot",
+      "ru": "продвигать сюжет",
+      "context": "Advance what happens in the story"
+    },
+    {
+      "phrase": "narrative flow",
+      "ru": "нарративный поток",
+      "context": "The smooth movement of the story without interruption"
+    },
+    {
+      "phrase": "a return narrative",
+      "ru": "нарратив возвращения",
+      "context": "A story about going back to somewhere or someone from the past"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "in medias res",
+      "ipa": "/ɪn ˈmiːdiəs ˈreɪz/",
+      "pos": "phrase",
+      "ru": "с середины действия (лат.)",
+      "kz": "оқиғаның ортасынан",
+      "emoji": "🎬",
+      "definition": "beginning a story in the middle of the action, rather than at the beginning",
+      "example": "\"The door was already open when she arrived.\" — starting in medias res.",
+      "collocations": [
+        "start in medias res",
+        "technique of in medias res",
+        "opening in medias res"
+      ]
+    },
+    {
+      "en": "tense consistency",
+      "ipa": "/tens kənˈsɪstənsi/",
+      "pos": "noun phrase",
+      "ru": "согласованность времён",
+      "kz": "шақтардың тұрақтылығы",
+      "emoji": "📏",
+      "definition": "using the same narrative tense throughout without unintentional shifts",
+      "example": "Tense consistency is broken when a past tense narrative slips into present tense.",
+      "collocations": [
+        "maintain tense consistency",
+        "tense consistency errors",
+        "check for tense consistency"
+      ]
+    },
+    {
+      "en": "plot",
+      "ipa": "/plɒt/",
+      "pos": "noun",
+      "ru": "сюжет",
+      "kz": "сюжет",
+      "emoji": "📊",
+      "definition": "the sequence of events in a story",
+      "example": "\"Each line should reveal character or move the plot.\"",
+      "collocations": [
+        "move the plot",
+        "plot twist",
+        "develop the plot"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "in medias res",
+      "emoji": "🎬",
+      "opts": [
+        "starting in the middle of events",
+        "ending unexpectedly",
+        "going back to the beginning",
+        "skipping the climax"
+      ],
+      "correct": "starting in the middle of events"
+    },
+    {
+      "id": "p2",
+      "word": "narrative flow",
+      "emoji": "🌊",
+      "opts": [
+        "the smooth movement of a story",
+        "the speed of dialogue",
+        "the number of characters",
+        "the setting of a story"
+      ],
+      "correct": "the smooth movement of a story"
+    }
+  ],
+  "task1Bank": [
+    "Leila",
+    "Marcus",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Who rewrote their opening to start in the middle of the action?",
+      "correct": "Marcus"
+    },
+    {
+      "id": "t2",
+      "question": "Who accidentally slips into the present tense?",
+      "correct": "Leila"
+    },
+    {
+      "id": "t3",
+      "question": "Who received feedback that \"the reader was waiting for the story to start\"?",
+      "correct": "Leila"
+    },
+    {
+      "id": "t4",
+      "question": "Whose story is about a woman returning to her childhood home?",
+      "correct": "Marcus"
+    },
+    {
+      "id": "t5",
+      "question": "Who suggests that the ending depends on what the story is about at its core?",
+      "correct": "Leila"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Marcus's teacher advised him to read each paragraph aloud to catch errors.",
+      "correct": "true"
+    },
+    {
+      "id": "s2",
+      "statement": "Leila thinks every line of dialogue must include humour.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Marcus used the past perfect to introduce backstory in small pieces.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "Marcus has already decided on a clear, resolved ending.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Both students had written too much background before the story started.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What was the main problem both students had with their opening?",
+      "opts": [
+        "The dialogue was too long",
+        "Too much background before the story started",
+        "The tenses were all wrong",
+        "The characters were underdeveloped"
+      ],
+      "correct": "Too much background before the story started",
+      "hint": "\"Waiting for the story to start\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What technique did Marcus use to fix his opening?",
+      "opts": [
+        "He added more description",
+        "He started in medias res",
+        "He removed all dialogue",
+        "He switched to first person"
+      ],
+      "correct": "He started in medias res",
+      "hint": "Marcus: \"in medias res\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What tip did Marcus's teacher give for catching tense errors?",
+      "opts": [
+        "Use only past simple",
+        "Read each paragraph aloud",
+        "Count every verb",
+        "Avoid past perfect entirely"
+      ],
+      "correct": "Read each paragraph aloud",
+      "hint": "Marcus: \"read each paragraph aloud\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is Marcus's rule about dialogue?",
+      "opts": [
+        "Dialogue should be long and detailed",
+        "Each line should reveal character or move the plot",
+        "Dialogue should use formal language",
+        "Dialogue should always use reporting verbs"
+      ],
+      "correct": "Each line should reveal character or move the plot",
+      "hint": "Marcus: \"reveal character or move the plot\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Marcus's story has a clear, resolved ending.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I don't know whether to leave it open or resolve it clearly.\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Leila suggests that the ending should match the story's core theme.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Leila: \"depends on what the story is about at its core\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The door ___ already open when she arrived.\" Choose the correct form.",
+      "opts": [
+        "is",
+        "was",
+        "had been",
+        "were"
+      ],
+      "correct": "was",
+      "hint": "Past simple for state at the time of the main action",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "Marcus used the past perfect to fill in the backstory — what ___ before she got there.",
+      "correct": "had happened",
+      "hint": "Past perfect = event before narrative present",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "A writer \"slips into the present tense by accident\" means they…",
+      "opts": [
+        "Write too slowly",
+        "Use present tense when past tense is needed",
+        "Forget to add descriptions",
+        "Use dialogue incorrectly"
+      ],
+      "correct": "Use present tense when past tense is needed",
+      "hint": "Leila: tense consistency problem",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"in medias res\" mean?",
+      "opts": [
+        "At the very beginning of the story",
+        "At the end of the story",
+        "In the middle of the action",
+        "In a medieval setting"
+      ],
+      "correct": "In the middle of the action",
+      "hint": "Marcus: \"started in the middle of the action\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "To \"move the plot\" means to…",
+      "opts": [
+        "Change the setting",
+        "Advance what happens in the story",
+        "Add a new character",
+        "Describe the weather"
+      ],
+      "correct": "Advance what happens in the story",
+      "hint": "Marcus: \"reveal character or move the plot\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The smooth, uninterrupted movement of a story is called narrative ___.",
+      "correct": "flow",
+      "hint": "Leila: \"without losing the narrative flow\"",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "id": "l55-g1",
+  "moduleNum": 21,
+  "lessonNum": 4,
+  "moduleTitle": "Telling Stories",
+  "type": "grammar",
+  "title": "Past Perfect: had + Past Participle",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Perfect — The Past Before the Past",
+  "grammarNote": "Past Perfect (had + past participle) используется для описания действия, которое произошло РАНЬШЕ другого действия в прошлом. Это «более прошлое» прошедшее. Когда вы рассказываете историю в Past Simple и нужно вернуться назад к чему-то, что случилось ещё раньше — используется Past Perfect.",
+  "grammarTable": [
+    {
+      "subject": "I / You / He / She / We / They",
+      "verb": "had + past participle",
+      "short": "раньше в прошлом",
+      "example": "\"I had finished the report before she arrived.\" (finish = earlier; arrive = later)"
+    },
+    {
+      "subject": "Negative",
+      "verb": "hadn't / had not + pp",
+      "short": "не случилось раньше",
+      "example": "\"He hadn't eaten breakfast when the exam started.\" (no breakfast before exam)"
+    },
+    {
+      "subject": "Question",
+      "verb": "Had + S + pp?",
+      "short": "вопрос",
+      "example": "\"Had she left before you arrived?\" / \"What had happened?\""
+    },
+    {
+      "subject": "Key words",
+      "verb": "before / after / when / already / by the time / just",
+      "short": "сигналы",
+      "example": "\"He had already left.\" / \"By the time I arrived, she had gone.\" / \"He had just finished.\""
+    },
+    {
+      "subject": "Purpose",
+      "verb": "sequence in narrative",
+      "short": "порядок событий",
+      "example": "Use PP to make clear which past event came FIRST when telling a story."
+    },
+    {
+      "subject": "Already",
+      "verb": "had already + pp",
+      "short": "уже сделал",
+      "example": "\"By 2 p.m., she had already submitted the report.\" (before 2 p.m., she finished it)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Past Perfect vs Past Simple — ordering events",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Past Simple = the main story",
+          "example": "\"When Amir arrived at the exam room, he sat down and started writing.\" (main events)"
+        },
+        {
+          "form": "Past Perfect = something earlier",
+          "example": "\"He had prepared all evening.\" (this happened BEFORE he arrived — earlier past)"
+        },
+        {
+          "form": "Same time = use Past Simple",
+          "example": "\"When she entered, she smiled.\" (enter and smile = same moment → both Past Simple)"
+        },
+        {
+          "form": "Earlier action = use Past Perfect",
+          "example": "\"When she entered, she had already heard the news.\" (heard = before entering)"
+        }
+      ]
+    },
+    {
+      "title": "Key Past Perfect signal words",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "ALREADY: action completed before",
+          "example": "\"By the time she called, he had already left.\" — he left first, then she called."
+        },
+        {
+          "form": "JUST: very recently in the past",
+          "example": "\"When she arrived, he had just finished.\" — he finished moments before."
+        },
+        {
+          "form": "NEVER / EVER: up to that past moment",
+          "example": "\"He had never seen anything like it before that day.\" — up to that past moment."
+        },
+        {
+          "form": "BY THE TIME: deadline in the past",
+          "example": "\"By the time class started, she had reviewed all her notes.\" — before class."
+        },
+        {
+          "form": "WHEN: sequence in narrative",
+          "example": "\"When I arrived, she had already gone.\" (gone = before my arrival)"
+        },
+        {
+          "form": "AFTER: the earlier action",
+          "example": "\"After he had finished the report, he went home.\" (finish = before going home)"
+        }
+      ]
+    },
+    {
+      "title": "Reporting past events (narrative use)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Main past = Past Simple",
+          "example": "\"Rustam arrived at the professor's office.\" (main narrative time)"
+        },
+        {
+          "form": "Earlier background = Past Perfect",
+          "example": "\"He had been working on the project for weeks.\" (context: before he arrived)"
+        },
+        {
+          "form": "Quote about earlier event",
+          "example": "\"The assistant said she had tried to email him.\" (email = before the conversation)"
+        },
+        {
+          "form": "Discovering something already done",
+          "example": "\"He arrived at the bus stop only to find the bus had already left.\" (left = before arrival)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common Past Perfect mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"Before she arrived, I finished.\"",
+          "example": "✅ \"Before she arrived, I had finished.\" — use PP for the earlier of two past events."
+        },
+        {
+          "form": "✗ Overusing PP for everything",
+          "example": "✅ Only use PP when sequence matters. \"She woke up, got dressed, and left.\" → all Past Simple is fine."
+        },
+        {
+          "form": "✗ \"He had went to the shop.\"",
+          "example": "✅ \"He had GONE to the shop.\" — Past Perfect uses past PARTICIPLE, not past simple! ✅"
+        },
+        {
+          "form": "✗ \"She had already leave.\"",
+          "example": "✅ \"She had already LEFT.\" — had + PAST PARTICIPLE. \"left\" not \"leave\"!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Past Perfect = had + PAST PARTICIPLE\n\nИспользуй когда нужно показать, что одно прошлое действие\nпроизошло РАНЬШЕ другого прошлого действия:\n\n\"When I arrived, she had already left.\"\n(she left → THEN I arrived — past perfect = earlier)\n\n\"He had prepared all week. The exam was easy.\"\n(prepare happened BEFORE the exam)\n\nКлючевые слова:\nBY THE TIME + past simple → Past Perfect для ранней части\n\"By the time class started, I had reviewed everything.\"\n\nALREADY / JUST / NEVER + Past Perfect:\n\"I had already finished.\" / \"She had just arrived.\"\n\"He had never seen it before.\"\n\n⚠️ Ошибки:\n✗ \"He had went\" → ✅ \"He had gone\" (3-я форма!)\n✗ \"She had already leave\" → ✅ \"She had already left\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Which action came first? Choose Past Perfect.",
+      "text": "When Kamila arrived, Amir ___ already ___ the food.",
+      "opts": [
+        "had / eaten",
+        "was / eating",
+        "has / eaten",
+        "ate / already"
+      ],
+      "correct": "had / eaten",
+      "hint": "First: Amir ate. Then: Kamila arrived. Earlier event → Past Perfect. \"HAD ALREADY EATEN.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Put the verb in the correct tense.",
+      "text": "\"By the time the exam started, she ___ (review) all her notes.\"",
+      "correct": "had reviewed",
+      "hint": "\"By the time + past simple\" → Past Perfect for the earlier action. \"She HAD REVIEWED all her notes.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "True or False?",
+      "text": "\"I had went to the library\" is a correct Past Perfect sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"I had GONE to the library.\" — Past Perfect = had + past PARTICIPLE. \"gone\" ≠ \"went.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sequence.",
+      "text": "\"When he arrived, the professor ___ (leave) already.\"",
+      "opts": [
+        "left",
+        "has left",
+        "had left",
+        "was leaving"
+      ],
+      "correct": "had left",
+      "hint": "\"The professor had left\" — he left BEFORE the arrival. Earlier event → Past Perfect. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with Past Perfect.",
+      "text": "\"She didn't know the answer because she ___ (not study) the chapter.\"",
+      "correct": "hadn't studied",
+      "hint": "Reason = earlier action → Past Perfect negative. \"She HADN'T STUDIED the chapter.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Identify which action was first.",
+      "text": "\"He had never visited Almaty before that trip.\"",
+      "opts": [
+        "He visited Almaty before this, then again",
+        "\"Never visited\" = not once up to THAT past moment",
+        "\"had never visited\" is wrong here",
+        "\"Never\" makes this Future Perfect"
+      ],
+      "correct": "\"Never visited\" = not once up to THAT past moment",
+      "hint": "\"had never + pp\" = no experience up to that point in the past. ✅ \"He HAD NEVER VISITED Almaty before that trip.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Choose: Past Simple or Past Perfect?",
+      "text": "\"When I got to the bus stop, the bus ___ (already / leave).\"",
+      "correct": "had already left",
+      "hint": "Bus left BEFORE I arrived → Past Perfect. \"The bus HAD ALREADY LEFT.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct past perfect form.",
+      "text": "\"She ___ (not eat) anything, so she felt dizzy.\"",
+      "opts": [
+        "didn't eat",
+        "hadn't eaten",
+        "hasn't eaten",
+        "wasn't eating"
+      ],
+      "correct": "hadn't eaten",
+      "hint": "Earlier reason (not eating) → Past Perfect negative. \"She HADN'T EATEN anything.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "When should you NOT use Past Perfect?",
+      "text": "\"She woke up, got dressed, and left.\" Should these be Past Perfect?",
+      "opts": [
+        "Yes — always use PP for multiple past actions",
+        "No — they happen in sequence without a specific second reference point",
+        "Yes — \"got\" and \"left\" should be Past Perfect",
+        "Only \"left\" should be PP"
+      ],
+      "correct": "No — they happen in sequence without a specific second reference point",
+      "hint": "Simple sequence in a story = Past Simple is fine! PP is only needed when you specifically want to show one action is BEFORE another reference point. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"After she ___ (finish) the report, she sent it to her professor.\"",
+      "opts": [
+        "finished",
+        "had finished",
+        "has finished",
+        "finishes"
+      ],
+      "correct": "had finished",
+      "hint": "\"After\" introduces the earlier action → Past Perfect. \"After she HAD FINISHED, she sent it.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"He realised he ___ (forget) his passport.\" (discovered earlier action)",
+      "correct": "had forgotten",
+      "hint": "Discovery of earlier mistake → Past Perfect. \"He realised he HAD FORGOTTEN his passport.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the sentence with correct Past Perfect.",
+      "text": "Which uses Past Perfect correctly?",
+      "opts": [
+        "\"She had already ate.\"",
+        "\"By the time he arrived, she had left.\"",
+        "\"I had went home.\"",
+        "\"When he arrived, he had just see her.\""
+      ],
+      "correct": "\"By the time he arrived, she had left.\"",
+      "hint": "\"She HAD LEFT\" = correct Past Perfect. ✅ Others: \"ate\" → \"eaten\"; \"went\" → \"gone\"; \"see\" → \"seen.\""
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Past Perfect is used to show:",
+      "opts": [
+        "Two actions happening at the same time",
+        "An action BEFORE another past action",
+        "Future plans",
+        "Habits in the past"
+      ],
+      "correct": "An action BEFORE another past action",
+      "hint": "Past Perfect = the \"earlier past.\" It happened before another past event. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She had left.\" — Past Perfect is formed with:",
+      "opts": [
+        "was + past participle",
+        "had + past participle",
+        "have + past participle",
+        "did + infinitive"
+      ],
+      "correct": "had + past participle",
+      "hint": "had (for ALL subjects) + past participle. \"She HAD LEFT.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"By the time class started, I ___ (review) all my notes.\"",
+      "correct": "had reviewed",
+      "hint": "\"By the time + PS\" → Past Perfect for earlier event. \"I HAD REVIEWED all my notes.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She had already ___ when I arrived.\" Choose.",
+      "opts": [
+        "went",
+        "going",
+        "gone",
+        "goes"
+      ],
+      "correct": "gone",
+      "hint": "Past Perfect = had + PAST PARTICIPLE. \"gone\" = past participle of \"go.\" ✅ NOT \"went\" (past simple)."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"When I arrived, she had just ___ the meal.\" Choose.",
+      "opts": [
+        "cooked",
+        "cooking",
+        "cooked (✓)",
+        "cooks"
+      ],
+      "correct": "cooked (✓)",
+      "hint": "\"had just COOKED\" — past participle of \"cook.\" \"When I arrived, she had just COOKED the meal.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I had went there\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Went\" should be \"gone\" — past participle needed",
+        "\"I\" should be \"we\"",
+        "\"Had\" is wrong"
+      ],
+      "correct": "\"Went\" should be \"gone\" — past participle needed",
+      "hint": "✅ \"I had GONE there.\" — Past Perfect needs past PARTICIPLE (gone), not past simple (went)!"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She hadn't eaten when I called.\" — \"hadn't eaten\" means:",
+      "opts": [
+        "She was eating when I called",
+        "She ate before I called",
+        "She had not eaten before I called",
+        "She will eat later"
+      ],
+      "correct": "She had not eaten before I called",
+      "hint": "\"hadn't eaten\" = Past Perfect negative. She had not done this action before the call. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Had you ever seen this before?\" — This is:",
+      "opts": [
+        "Present Perfect question",
+        "Past Perfect question",
+        "Future Perfect question",
+        "Past Simple question"
+      ],
+      "correct": "Past Perfect question",
+      "hint": "\"Had + subject + past participle?\" = Past Perfect question. \"HAD you ever SEEN this before?\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He didn't study, so he ___ (fail) the exam before he knew it.\"",
+      "correct": "had failed",
+      "hint": "Earlier consequence → Past Perfect. \"He HAD FAILED the exam before he knew it.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She woke up, had coffee, and left.\" — Should Past Perfect be used?",
+      "opts": [
+        "Yes — three events always use PP",
+        "No — simple narrative sequence uses Past Simple",
+        "Only for \"woke up\"",
+        "Only for \"left\""
+      ],
+      "correct": "No — simple narrative sequence uses Past Simple",
+      "hint": "Simple narrative sequence = Past Simple is fine. PP is for when you need to signal a SPECIFIC earlier action. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He had never seen this before.\" — \"before\" means:",
+      "opts": [
+        "In the future",
+        "Up to that specific moment in the past",
+        "Before he was born",
+        "Before the present moment"
+      ],
+      "correct": "Up to that specific moment in the past",
+      "hint": "\"had never + pp + before\" = not once, up to that specific past moment. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"After she ___ (leave), I cleaned the flat.\" (earlier action)",
+      "correct": "had left",
+      "hint": "\"After\" + earlier action → Past Perfect. \"After she HAD LEFT, I cleaned the flat.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"When I called, he ___ already ___.\" Choose.",
+      "opts": [
+        "was / sleeping",
+        "has / slept",
+        "had / fallen asleep",
+        "has / been sleeping"
+      ],
+      "correct": "had / fallen asleep",
+      "hint": "\"He HAD ALREADY FALLEN asleep.\" = Past Perfect. \"fallen\" = past participle of \"fall.\" The sleeping happened before the call. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"By the time\" introduces:",
+      "opts": [
+        "The later event",
+        "The earlier event",
+        "A future event",
+        "A habitual event"
+      ],
+      "correct": "The later event",
+      "hint": "\"By the time + [later event], [earlier event = Past Perfect].\" \"By the time she ARRIVED, he had left.\" ✅ \"by the time\" = the later reference."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The professor ___ (be call) to a meeting.\" (Past Perfect Passive)",
+      "correct": "had been called",
+      "hint": "Past Perfect Passive: \"had been + past participle.\" \"The professor HAD BEEN CALLED.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She realised she had forgotten her keys.\" — \"had forgotten\" means:",
+      "opts": [
+        "She forgot at that moment",
+        "She forgot before she realised it",
+        "She will forget",
+        "She often forgets"
+      ],
+      "correct": "She forgot before she realised it",
+      "hint": "\"had forgotten\" = Past Perfect — the forgetting happened BEFORE the realising. Earlier past. ✅"
+    }
+  ]
+}

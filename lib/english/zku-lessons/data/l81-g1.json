@@ -1,0 +1,519 @@
+{
+  "id": "l81-g1",
+  "moduleNum": 23,
+  "lessonNum": 5,
+  "moduleTitle": "Global English & Intercultural Communication",
+  "title": "Grammar: Formal Prepositional Phrases for Academic Analysis",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Формальные предложные фразы в академическом и деловом письме:\n\nВМЕСТО → ФОРМАЛЬНО:\nbecause of → owing to / due to / as a result of\nabout → with regard to / concerning / in relation to\nbefore → prior to / in advance of\nafter → following / subsequent to\ndespite → in spite of / notwithstanding\nfor → in favour of / in support of\n\nВВОД ТЕМЫ:\nWith reference to... · Regarding... · In terms of...\nAs far as X is concerned... · With respect to...\n\nЗАКЛЮЧЕНИЕ:\nIn conclusion / To sum up / Overall / To summarise\nIn light of the evidence / Taking everything into account",
+  "grammarTable": [
+    {
+      "subject": "in terms of",
+      "verb": "+ noun / gerund",
+      "short": "regarding / with respect to",
+      "example": "\"In terms of communication style, high-context cultures differ significantly from low-context ones.\""
+    },
+    {
+      "subject": "with regard to",
+      "verb": "+ noun / gerund",
+      "short": "concerning / in respect of",
+      "example": "\"With regard to linguistic diversity, the World Englishes framework is the most useful model.\""
+    },
+    {
+      "subject": "in relation to",
+      "verb": "+ noun / gerund",
+      "short": "in connection with / in respect of",
+      "example": "\"In relation to global communication, intelligibility matters more than accent.\""
+    },
+    {
+      "subject": "from the perspective of",
+      "verb": "+ noun/pronoun",
+      "short": "seen through the lens of",
+      "example": "\"From the perspective of a language learner, this shift has significant implications.\""
+    },
+    {
+      "subject": "in the context of",
+      "verb": "+ noun / gerund",
+      "short": "within the situation/domain of",
+      "example": "\"In the context of ELF, native-speaker norms are not the primary reference point.\""
+    },
+    {
+      "subject": "as far as X is concerned",
+      "verb": "+ subject + verb",
+      "short": "when it comes to X / in X's case",
+      "example": "\"As far as language learners are concerned, intelligibility is the key measure of success.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "In Terms Of: Framing the Discussion",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "\"In terms of X\" = from the standpoint of X / with respect to X",
+          "example": "\"In terms of vocabulary, British and American English differ in many respects.\""
+        },
+        {
+          "form": "Used to introduce the dimension of comparison or analysis",
+          "example": "\"In terms of intelligibility, accent matters less than grammar and vocabulary.\""
+        },
+        {
+          "form": "Common in academic, business, and analytical writing",
+          "example": "\"In terms of global reach, English is unrivalled as a lingua franca.\""
+        },
+        {
+          "form": "Can be followed by a noun, pronoun, or gerund",
+          "example": "\"In terms of communicating effectively / communication effectiveness / this policy\""
+        }
+      ]
+    },
+    {
+      "title": "With Regard To / With Reference To: Formal Reference",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"With regard to\" = in respect of, concerning (formal)",
+          "example": "\"With regard to language policy, there are no easy answers.\""
+        },
+        {
+          "form": "\"With reference to\" = referring specifically to, in connection with",
+          "example": "\"With reference to the research cited above, we can observe three key patterns.\""
+        },
+        {
+          "form": "Both are more formal than \"about\" or \"regarding\"",
+          "example": "\"With regard to this issue\" = more formal than \"about this issue\""
+        },
+        {
+          "form": "Often used in business correspondence and academic writing",
+          "example": "\"With reference to your request of 12th March, we are pleased to confirm…\""
+        }
+      ]
+    },
+    {
+      "title": "From the Perspective Of / From a X Perspective: Analytical Framing",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"From the perspective of X\" = as seen by X / through X's lens",
+          "example": "\"From the perspective of a multilingual learner, the native speaker model is limiting.\""
+        },
+        {
+          "form": "\"From a X perspective\" = taking X as the analytical framework",
+          "example": "\"From a sociolinguistic perspective, code-switching is a sophisticated communicative practice.\""
+        },
+        {
+          "form": "\"From X's perspective\" = as X would see it",
+          "example": "\"From Kachru's perspective, all World Englishes are equally legitimate.\""
+        },
+        {
+          "form": "Useful for presenting one analytical view among several",
+          "example": "\"From a consequentialist perspective… From a deontological perspective…\""
+        }
+      ]
+    },
+    {
+      "title": "As Far As X Is Concerned: Limiting the Domain",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"As far as X is concerned\" = when it comes to X / in X's case",
+          "example": "\"As far as language learners are concerned, communicative effectiveness is the key goal.\""
+        },
+        {
+          "form": "X can be a noun, pronoun, or noun phrase",
+          "example": "\"As far as ELF is concerned / as far as this study is concerned\""
+        },
+        {
+          "form": "Equivalent to \"in terms of X\" but more personal in tone",
+          "example": "\"As far as I am concerned, the policy is the wrong approach.\" (= in my view)",
+          "points": 1
+        },
+        {
+          "form": "Also used to limit scope: \"as far as we know / as far as possible\"",
+          "example": "\"As far as we know, this is the first study of its kind in this region.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Formal Prepositional Phrases",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ In terms of I prefer British English.",
+          "example": "✅ In terms of accent, I prefer British English. (\"in terms of\" + noun, not subject)"
+        },
+        {
+          "form": "❌ With regard of language policy…",
+          "example": "✅ With regard to language policy… (\"with regard TO\" not \"with regard OF\")"
+        },
+        {
+          "form": "❌ From the perspective of that…",
+          "example": "✅ From the perspective of the learner, that… (\"from the perspective of + noun\")"
+        },
+        {
+          "form": "❌ As far as concerned, the research shows…",
+          "example": "✅ As far as language learners are concerned, the research shows… (need the subject)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct formal phrase.",
+      "text": "\"___ terms of ___ global reach, English is the dominant international language.\"",
+      "opts": [
+        "In / its",
+        "With / its",
+        "From / the",
+        "In / the"
+      ],
+      "correct": "In / its",
+      "hint": "\"In terms of\" + noun — \"in terms of its global reach\""
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct formal phrase.",
+      "text": "\"___ ___ to language policy, there are no easy answers in multilingual societies.\"",
+      "correct": "With regard",
+      "hint": "\"With regard to\" = concerning, in respect of"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct formal phrase.",
+      "text": "\"___ the perspective of a multilingual speaker, the native speaker model is limiting.\"",
+      "opts": [
+        "From",
+        "In",
+        "With",
+        "By"
+      ],
+      "correct": "From",
+      "hint": "\"From the perspective of\" = as seen by"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"___ far ___ ELF communication ___ concerned, intelligibility is more important than accent.\" (as...as...is)",
+      "correct": "As / as / is",
+      "hint": "\"As far as X is concerned\" = when it comes to X"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct formal phrase.",
+      "text": "\"___ the context of global business, English serves as the primary working language.\"",
+      "opts": [
+        "From",
+        "With",
+        "In",
+        "By"
+      ],
+      "correct": "In",
+      "hint": "\"In the context of\" = within the situation of"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with \"in relation to.\"",
+      "text": "\"___ ___ ___ intercultural communication, perspective-taking is a fundamental skill.\"",
+      "correct": "In relation to",
+      "hint": "\"In relation to\" = in connection with, regarding"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the most formal alternative to \"about.\"",
+      "text": "\"The report makes important points ___ language policy.\"",
+      "opts": [
+        "about",
+        "in terms of",
+        "with regard to",
+        "both B and C are more formal"
+      ],
+      "correct": "both B and C are more formal",
+      "hint": "Both \"in terms of\" and \"with regard to\" are more formal than \"about\""
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the analytical framing sentence.",
+      "text": "\"___ a sociolinguistic ___, code-switching is a sophisticated communicative strategy.\"",
+      "correct": "From / perspective",
+      "hint": "\"From a X perspective\" = taking X as the analytical framework"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"With regard of language teaching, the native speaker model is outdated.\"",
+      "opts": [
+        "No error",
+        "\"With regard of\" should be \"with regard to\"",
+        "\"Native speaker\" should be hyphenated",
+        "\"Outdated\" should be \"out of date\""
+      ],
+      "correct": "\"With regard of\" should be \"with regard to\"",
+      "hint": "\"With regard TO\" — always \"to\" not \"of\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"___ reference ___ the research cited above, three key patterns emerge.\" (with...to)",
+      "correct": "With / to",
+      "hint": "\"With reference to\" = referring specifically to"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct completion.",
+      "text": "\"As far as language learners ___ concerned, communicative effectiveness is the primary goal.\"",
+      "opts": [
+        "are",
+        "is",
+        "were",
+        "be"
+      ],
+      "correct": "are",
+      "hint": "\"As far as [plural noun] are concerned\" — plural verb",
+      "points": 1
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with the correct formal phrase.",
+      "text": "\"___ terms ___ communicative effectiveness, accent matters less than clarity of expression.\"",
+      "correct": "In / of",
+      "hint": "\"In terms of\" — always \"of\" after \"terms\"",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the most appropriate phrase for academic writing.",
+      "text": "\"The study examines language use ___ ___ multilingual workplaces.\"",
+      "opts": [
+        "with a view of",
+        "in the context of",
+        "with regard for",
+        "in terms to"
+      ],
+      "correct": "in the context of",
+      "hint": "\"In the context of\" = within the domain of",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete with \"from the perspective of.\"",
+      "text": "\"___ ___ ___ ___ a learner, the shift from accuracy to effectiveness is liberating.\"",
+      "correct": "From the perspective of",
+      "hint": "\"From the perspective of + noun\" = as seen by / through the lens of",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence is grammatically correct?",
+      "text": "",
+      "opts": [
+        "\"In terms of I believe English is dominant.\"",
+        "\"In terms of its global reach, English is dominant.\"",
+        "\"In terms of that English is dominant.\"",
+        "\"In terms of is that English dominant.\""
+      ],
+      "correct": "\"In terms of its global reach, English is dominant.\"",
+      "hint": "\"In terms of + noun/pronoun/gerund\" — followed by a noun, not a clause",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "fill",
+      "instruction": "Complete the formal sentence.",
+      "text": "\"___ the perspective of Kachru's World Englishes framework, all varieties are equally legitimate.\"",
+      "correct": "From",
+      "hint": "\"From the perspective of\" = as seen through the lens of",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ terms of linguistic influence, British colonialism was the primary driver.\" (formal phrase)",
+      "opts": [
+        "From",
+        "In",
+        "With",
+        "By"
+      ],
+      "correct": "In",
+      "hint": "\"In terms of\" = regarding, with respect to",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ to intercultural competence, perspective-taking is the most fundamental skill.\" (formal — regarding)",
+      "correct": "With regard",
+      "hint": "\"With regard to\" = concerning",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the perspective of a multilingual speaker, the native speaker norm is limiting.\"",
+      "opts": [
+        "In",
+        "With",
+        "From",
+        "By"
+      ],
+      "correct": "From",
+      "hint": "\"From the perspective of\" = as seen by",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ far ___ ELF research ___ concerned, intelligibility outweighs accent.\" (as...as...is)",
+      "correct": "As / as / is",
+      "hint": "\"As far as X is concerned\" = when it comes to X",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the context of global business, English serves as the primary working language.\"",
+      "opts": [
+        "From",
+        "With",
+        "In",
+        "By"
+      ],
+      "correct": "In",
+      "hint": "\"In the context of\" = within the domain/situation of",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"With regard of language policy\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"With regard TO language policy\" — always \"to\" not \"of\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ intercultural communication, context always shapes meaning.\" (formal phrase: regarding)",
+      "correct": "In relation to",
+      "hint": "\"In relation to\" = in connection with, concerning",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ a sociolinguistic perspective, code-switching is a sophisticated practice.\"",
+      "opts": [
+        "In",
+        "With",
+        "From",
+        "By"
+      ],
+      "correct": "From",
+      "hint": "\"From a X perspective\" = taking X as the analytical framework",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ reference ___ the data presented above, three key trends emerge.\" (formal citation phrase)",
+      "correct": "With / to",
+      "hint": "\"With reference to\" = referring specifically to",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"As far as language learners ___ concerned, effectiveness matters more than perfection.\"",
+      "opts": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "correct": "are",
+      "hint": "\"As far as [plural noun] are concerned\" — plural verb",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ terms ___ reach, no language rivals English globally.\" (formal: regarding reach)",
+      "correct": "In / of",
+      "hint": "\"In terms of\" — always \"of\" after \"terms\"",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses a formal prepositional phrase correctly?",
+      "opts": [
+        "\"In terms of I think English is important.\"",
+        "\"From the perspective of multilingualism, diversity is a strength.\"",
+        "\"With regard of accent, I prefer British English.\"",
+        "\"As far concerned, the study is complete.\""
+      ],
+      "correct": "\"From the perspective of multilingualism, diversity is a strength.\"",
+      "hint": "\"From the perspective of + noun\" — correct structure",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "id": "l13-4",
+  "moduleNum": 13,
+  "lessonNum": 4,
+  "moduleTitle": "Numbers and money",
+  "title": "Numbers: 1 to 1000",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Числа от 1 до 1000 — как читать и писать по-английски",
+  "grammarNote": "Числа в английском языке строятся по чёткой системе. Если понять логику, любое число от 1 до 1,000 читается легко.\n\n🔢 ЧИСЛА 1–12 (нужно запомнить наизусть):\none · two · three · four · five · six · seven · eight · nine · ten · eleven · twelve\n\nЭти числа нельзя вывести из правил — только запомнить!\n\n🔢 ЧИСЛА 13–19 (основа + -teen):\nthree → thir-TEEN · four → four-TEEN · five → fif-TEEN · six → six-TEEN\nseven → seven-TEEN · eight → eigh-TEEN · nine → nine-TEEN\n\n⚠️ ВНИМАНИЕ — исключения в написании:\n• thirteen (не \"threteen\") — thir-teen\n• fifteen (не \"fiveteen\") — fif-teen (five → fif!)\n• eighteen (не \"eightten\") — eigh-teen (одна t, не две!)\n\n🔢 ДЕСЯТКИ 20–90 (основа + -ty):\n20 = twenty · 30 = thirty · 40 = FORTY · 50 = fifty\n60 = sixty · 70 = seventy · 80 = eighty · 90 = ninety\n\n⚠️ САМЫЕ ЧАСТЫЕ ОШИБКИ студентов:\n❌ \"fourty\" → ✅ FORTY (нет буквы u! four → forty, u выпадает)\n❌ \"ninty\" → ✅ NINETY (девяносто: nine → ninety, e не выпадает)\n❌ \"fivety\" → ✅ FIFTY (пятьдесят: five → fifty, v → f!)\n\n🔢 СОСТАВНЫЕ ЧИСЛА 21–99 (десятки + дефис + единицы):\n21 = twenty-ONE · 35 = thirty-FIVE · 47 = forty-SEVEN\n63 = sixty-THREE · 99 = ninety-NINE\n\n📌 ПРАВИЛО: между десятками и единицами всегда ставится ДЕФИС (-):\n✅ \"twenty-five\" (не \"twenty five\" и не \"twentyfive\")\n\n🔢 СОТНИ 100–900:\n100 = a hundred / one hundred\n200 = two hundred · 300 = three hundred · 500 = five hundred\n\n📌 После \"hundred\" НЕТ буквы s даже во множественном числе!\n❌ \"three hundreds\" → ✅ \"three hundred\"\n\n🔢 ЧИСЛА 101–999 (сотни + and + остаток):\n101 = one hundred AND one\n215 = two hundred AND fifteen\n350 = three hundred AND fifty\n768 = seven hundred AND sixty-eight\n\n📌 \"AND\" — обязательно! Оно соединяет сотни с остатком:\n\"two hundred\" + AND + \"fifty-three\" = \"two hundred and fifty-three\"\n\n🔢 ТЫСЯЧА:\n1,000 = one thousand / a thousand\n1,500 = one thousand five hundred (или: fifteen hundred)\n2,750 = two thousand seven hundred and fifty\n15,000 = fifteen thousand (как в бюджете Nursultan!)\n\n💡 КАК ЧИТАТЬ ЦЕНЫ В ТЕНГЕ:\n800T = \"eight hundred tenge\"\n1,800T = \"one thousand eight hundred tenge\"\n2,500T = \"two thousand five hundred tenge\"\n15,000T = \"fifteen thousand tenge\"\n22,770T = \"twenty-two thousand seven hundred and seventy tenge\"",
+  "grammarTable": [
+    {
+      "subject": "1–12",
+      "verb": "нужно запомнить",
+      "short": "no pattern",
+      "example": "one · two · three · four · five · six · seven · eight · nine · ten · eleven · twelve"
+    },
+    {
+      "subject": "13–19",
+      "verb": "основа + -teen",
+      "short": "base + teen",
+      "example": "thirteen · fourteen · fifteen · sixteen · seventeen · eighteen · nineteen"
+    },
+    {
+      "subject": "20–90",
+      "verb": "основа + -ty",
+      "short": "base + ty",
+      "example": "twenty · thirty · forty · fifty · sixty · seventy · eighty · ninety"
+    },
+    {
+      "subject": "21–99",
+      "verb": "десятки + - + единицы",
+      "short": "tens-ones",
+      "example": "twenty-one · thirty-five · forty-seven · sixty-three · ninety-nine"
+    },
+    {
+      "subject": "100–900",
+      "verb": "X hundred",
+      "short": "no plural -s!",
+      "example": "one hundred · two hundred · five hundred · nine hundred (NOT \"hundreds\"!)"
+    },
+    {
+      "subject": "101–999",
+      "verb": "X hundred AND Y",
+      "short": "and = обязательно",
+      "example": "one hundred and one · two hundred and fifteen · seven hundred and sixty-eight"
+    },
+    {
+      "subject": "1,000",
+      "verb": "one/a thousand",
+      "short": "used in prices",
+      "example": "1,000 = one thousand · 1,800 = one thousand eight hundred · 15,000 = fifteen thousand"
+    },
+    {
+      "subject": "⚠️ Ловушки",
+      "verb": "запомни раз и навсегда",
+      "short": "common errors",
+      "example": "❌ fourty → ✅ forty · ❌ ninty → ✅ ninety · ❌ fiveteen → ✅ fifteen · ❌ \"three hundreds\" → ✅ \"three hundred\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Числа 1–20: правила и исключения",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "1–10: базовые (запомни):",
+          "example": "one, two, three, four, five, six, seven, eight, nine, ten — фундамент всей системы чисел"
+        },
+        {
+          "form": "11–12: отдельные слова:",
+          "example": "eleven (11), twelve (12) — не \"oneteen\", не \"twoteen\"! Только так."
+        },
+        {
+          "form": "13–15: исключения в написании:",
+          "example": "thir-TEEN (не \"threeteen\") · four-TEEN ✅ · fif-TEEN (не \"fiveteen\" — v→f!) · six-TEEN ✅"
+        },
+        {
+          "form": "16–19: по правилу -teen:",
+          "example": "six-TEEN · seven-TEEN · eigh-TEEN (одна t!) · nine-TEEN"
+        },
+        {
+          "form": "⚠️ THIRTEEN vs THIRTY:",
+          "example": "\"thirTEEN\" (13) = ударение на конец: /θɜːˈtiːn/ vs \"THIRty\" (30) = ударение в начале: /ˈθɜːti/. На слух различай по ударению!"
+        },
+        {
+          "form": "⚠️ FIFTEEN vs FIFTY:",
+          "example": "\"fifTEEN\" (15) /fɪfˈtiːn/ vs \"FIFty\" (50) /ˈfɪfti/. Оба от five → fif. Следи за ударением при чтении вслух."
+        }
+      ]
+    },
+    {
+      "title": "② Десятки 20–90 и составные числа 21–99",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "twenty (20), thirty (30):",
+          "example": "twenty = 20 · thirty = 30 · forty = 40 · fifty = 50 · sixty = 60 · seventy = 70 · eighty = 80 · ninety = 90"
+        },
+        {
+          "form": "⚠️ FORTY — самая частая ошибка!:",
+          "example": "❌ \"fourty\" — НЕПРАВИЛЬНО. ✅ \"FORTY\" — правильно. Буква u выпадает: four → forty. Запомни раз и навсегда!"
+        },
+        {
+          "form": "⚠️ NINETY — вторая частая ошибка:",
+          "example": "❌ \"ninty\" — НЕПРАВИЛЬНО. ✅ \"NINETY\" — правильно. nine → ninety, буква e сохраняется."
+        },
+        {
+          "form": "Составные числа 21–99 — ДЕФИС обязателен:",
+          "example": "21 = twenty-ONE · 35 = thirty-FIVE · 47 = forty-SEVEN · 58 = fifty-EIGHT · 99 = ninety-NINE"
+        },
+        {
+          "form": "❌ Без дефиса — ошибка:",
+          "example": "❌ \"twenty five\" (без дефиса) → ✅ \"twenty-five\" · ❌ \"fortyseven\" (слитно) → ✅ \"forty-seven\""
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"The book costs ONE thousand EIGHT hundred tenge.\" · \"I have THREE thousand FIVE hundred tenge left.\" · \"FIFTEEN thousand tenge budget.\""
+        }
+      ]
+    },
+    {
+      "title": "③ Сотни: 100–999",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "100 = a hundred / one hundred:",
+          "example": "Оба варианта правильны. \"a hundred\" — разговорный; \"one hundred\" — формальный/точный. Нет разницы по смыслу."
+        },
+        {
+          "form": "⚠️ НИКОГДА не добавляй -s к hundred!",
+          "example": "❌ \"three hundreds people\" → ✅ \"three hundred people\" · ❌ \"five hundreds tenge\" → ✅ \"five hundred tenge\""
+        },
+        {
+          "form": "AND соединяет сотни с остатком:",
+          "example": "115 = one hundred AND fifteen · 250 = two hundred AND fifty · 307 = three hundred AND seven"
+        },
+        {
+          "form": "⚠️ Когда AND не нужен:",
+          "example": "Если после hundred идут ровные сотни — AND не нужен: \"five hundred\" ✅. AND нужен только если есть остаток меньше 100."
+        },
+        {
+          "form": "Примеры из урока (цены):",
+          "example": "\"eight hundred (800T) tenge\" · \"eight hundred and fifty (850T) tenge\" · \"two thousand five hundred (2,500T) tenge\""
+        },
+        {
+          "form": "Практика — прочитай вслух:",
+          "example": "450 = four hundred and fifty · 762 = seven hundred and sixty-two · 999 = nine hundred and ninety-nine"
+        }
+      ]
+    },
+    {
+      "title": "④ Числа в реальной жизни: цены, года, телефоны",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Цены в тенге (из урока):",
+          "example": "\"The apples cost EIGHT HUNDRED tenge.\" · \"The paperback costs ONE THOUSAND EIGHT HUNDRED tenge.\" · \"The scarf costs FOUR THOUSAND TWO HUNDRED tenge.\""
+        },
+        {
+          "form": "Годы: две пары цифр:",
+          "example": "2006 = \"twenty oh-six\" or \"two thousand and six\" · 2024 = \"twenty twenty-four\" · 1999 = \"nineteen ninety-nine\""
+        },
+        {
+          "form": "Телефоны: по цифрам:",
+          "example": "8-701-555-12-34 → \"eight, seven zero one, five five five, one two, three four\" (читаем каждую цифру отдельно)"
+        },
+        {
+          "form": "Этажи и номера:",
+          "example": "\"on the THIRD floor\" · \"Room THREE HUNDRED AND TWELVE\" (как у Aizhan из модуля 1!) · \"bus number FOUR\""
+        },
+        {
+          "form": "Баллы и результаты:",
+          "example": "\"I got EIGHTY-EIGHT percent.\" · \"The score is TWENTY-FIVE out of THIRTY.\" · \"FIFTEEN thousand tenge — my budget!\""
+        },
+        {
+          "form": "💡 Совет: пиши числа словами при написании текстов:",
+          "example": "В эссе: \"I spent TWO THOUSAND FIVE HUNDRED tenge on a phone case.\" ✅ В математике: используй цифры (2,500). В рассказе — слова!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре уровня — и любое число от 1 до 1,000 правильно:\n\n① Знай базу наизусть (1–20):\n   one, two, three... twelve, thirteen, fourteen, fifteen...\n   Особо запомни: FIFTEEN (не fiveteen), EIGHTEEN (не eightten)\n\n② Десятки — запомни ловушки:\n   twenty · thirty · FORTY (не fourty!) · fifty\n   sixty · seventy · eighty · NINETY (не ninty!)\n\n③ Составные — дефис обязателен:\n   twenty-ONE · forty-SEVEN · ninety-NINE\n   Никогда: \"twenty one\" или \"fortyseven\"\n\n④ Сотни — AND обязателен:\n   two hundred AND fifteen (115)\n   seven hundred AND sixty-eight (768)\n   Исключение: ровные сотни без AND: \"three hundred\" ✅\n\n💡 Запомни через бюджет Nursultan:\n   15,000 = fifteen thousand tenge\n   2,500 = two thousand five hundred tenge\n   1,800 = one thousand eight hundred tenge\n   3,550 = three thousand five hundred and fifty tenge (осталось!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Which number is spelled correctly?",
+      "text": "Choose the correct spelling of the number 40.",
+      "opts": [
+        "fourty",
+        "forty",
+        "fourtie",
+        "fortie"
+      ],
+      "correct": "forty",
+      "hint": "40 = FORTY — буква u выпадает! four → forty. ✅ Это самая частая ошибка в английском. Запомни раз и навсегда: F-O-R-T-Y."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the number in words.",
+      "text": "Nursultan's budget was 15,000 tenge — write this in English words.",
+      "correct": "fifteen thousand",
+      "hint": "15,000 = FIFTEEN THOUSAND. 15 = fifteen (пятнадцать). 1,000 = thousand. Together: fifteen thousand. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Thirteen\" (13) and \"thirty\" (30) are spelled differently but sound almost the same in English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Yes — they sound similar! thirTEEN /θɜːˈtiːn/ (ударение на конец) vs THIRty /ˈθɜːti/ (ударение в начале). Listen carefully to the stress when speaking!"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "How do you say this number in English?",
+      "text": "How do you say the price 2,550 tenge in English?",
+      "opts": [
+        "two thousand five hundred fifty tenge",
+        "two thousands five hundreds fifty tenge",
+        "two thousand five hundred and fifty tenge",
+        "twenty-five fifty tenge"
+      ],
+      "correct": "two thousand five hundred and fifty tenge",
+      "hint": "2,550 = two thousand + five hundred + AND + fifty. AND connects hundreds to the remainder. No -s on \"thousand\" or \"hundred\"! ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the number in words.",
+      "text": "The scarf cost 4,200 tenge — write this in English words.",
+      "correct": "four thousand two hundred",
+      "hint": "4,200 = FOUR THOUSAND TWO HUNDRED. No \"and\" needed here — 200 is an exact hundred with no remainder after it. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence uses numbers correctly?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "I have three hundreds tenge left.",
+        "The shop has two hundreds of different cases.",
+        "I found a book for three hundred tenge.",
+        "She spent five hundreds tenge at the market."
+      ],
+      "correct": "I found a book for three hundred tenge.",
+      "hint": "HUNDRED is always singular after a number! ❌ \"three hundreds\" → ✅ \"three hundred\". It never takes -s when used with a number before it."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Write the number in words.",
+      "text": "Write the number 99 in English words.",
+      "correct": "ninety-nine",
+      "hint": "99 = NINETY (не \"ninty\"!) + дефис + NINE = ninety-nine. ✅ Запомни: ninety сохраняет букву e из nine."
+    },
+    {
+      "id": "e8",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "The number 215 is correctly written in words as \"two hundred fifteen\" (without \"and\").",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "In British English (used at WKU), AND is required: \"two hundred AND fifteen.\" ✅ \"Two hundred fifteen\" is American English. In your lessons, always use AND."
+    }
+  ],
+  "questions": []
+}

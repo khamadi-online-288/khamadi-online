@@ -1,0 +1,542 @@
+{
+  "id": "l41-g1",
+  "moduleNum": 7,
+  "lessonNum": 3,
+  "moduleTitle": "Obligations & Advice",
+  "type": "grammar",
+  "title": "must / mustn't / have to / don't have to",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "must / mustn't / have to / don't have to",
+  "grammarNote": "Эти модальные глаголы используются для выражения ОБЯЗАТЕЛЬСТВА и ЗАПРЕТА. Ключевое различие: \"must\" — говорящий сам считает это необходимым (личное убеждение или авторитет). \"Have to\" — обязательство исходит из ВНЕШНИХ правил (закон, расписание, начальник). \"Mustn't\" — ЗАПРЕЩЕНО. \"Don't have to\" — НЕ ОБЯЗАТЕЛЬНО (но можно).",
+  "grammarTable": [
+    {
+      "subject": "must",
+      "verb": "+ base verb",
+      "short": "obligation (internal)",
+      "example": "\"I must study harder.\" (I feel this is necessary) / \"You must attend 80%.\" (rule I enforce)"
+    },
+    {
+      "subject": "have to",
+      "verb": "+ base verb",
+      "short": "obligation (external)",
+      "example": "\"She has to submit by Friday.\" (deadline rule) / \"Do you have to wear uniform?\""
+    },
+    {
+      "subject": "mustn't",
+      "verb": "+ base verb",
+      "short": "prohibition (strong)",
+      "example": "\"You mustn't plagiarise.\" / \"He mustn't be late — it's the final exam.\""
+    },
+    {
+      "subject": "don't have to",
+      "verb": "+ base verb",
+      "short": "no obligation",
+      "example": "\"You don't have to buy all the books.\" / \"She doesn't have to attend that session.\""
+    },
+    {
+      "subject": "must (past)",
+      "verb": "had to",
+      "short": "past of must",
+      "example": "\"She had to submit it yesterday.\" — No past form of must for obligation."
+    },
+    {
+      "subject": "have to (Q)",
+      "verb": "Do/Does + have to?",
+      "short": "question form",
+      "example": "\"Do I have to come?\" / \"Does she have to sign it?\" (NOT \"Must I have to?\")"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "must vs have to — same meaning, different source",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "must = speaker's authority/conviction",
+          "example": "\"You must call me when you arrive.\" (I want this / I insist)"
+        },
+        {
+          "form": "have to = external rule or fact",
+          "example": "\"You have to show ID at the border.\" (the rule says so, not me)"
+        },
+        {
+          "form": "Often interchangeable in practice",
+          "example": "\"You must/have to attend 80%\" — both work, slight difference in tone."
+        },
+        {
+          "form": "Past: must → had to",
+          "example": "\"She had to redo the exam.\" (must has no past form for obligation)"
+        }
+      ]
+    },
+    {
+      "title": "mustn't vs don't have to — CRITICAL difference!",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "mustn't = PROHIBITED (not allowed)",
+          "example": "\"You mustn't use your phone in exams.\" = It is forbidden. You cannot do this."
+        },
+        {
+          "form": "don't have to = NOT NECESSARY (optional)",
+          "example": "\"You don't have to buy the book.\" = No obligation. You can if you want."
+        },
+        {
+          "form": "NEVER confuse these two!",
+          "example": "✗ \"You mustn't buy the book.\" (= you are forbidden to!) vs ✅ \"You don't have to buy it.\""
+        },
+        {
+          "form": "Test: Is it forbidden or just optional?",
+          "example": "FORBIDDEN → mustn't. OPTIONAL (but can do) → don't have to."
+        }
+      ]
+    },
+    {
+      "title": "have to: forms and questions",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Positive: I/you/we/they have to",
+          "example": "\"We have to submit by Friday.\" / \"They have to wear ID at all times.\""
+        },
+        {
+          "form": "Positive: he/she/it has to",
+          "example": "\"She has to attend 80% of classes.\" (third person: has to, not have to!)"
+        },
+        {
+          "form": "Negative: don't/doesn't have to",
+          "example": "\"He doesn't have to attend the optional lecture.\" (no obligation)"
+        },
+        {
+          "form": "Question: Do/Does + have to?",
+          "example": "\"Do we have to sign the form?\" / \"Does she have to come in person?\""
+        }
+      ]
+    },
+    {
+      "title": "Past and future forms",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Past: had to (positive)",
+          "example": "\"She had to miss class — she was ill.\""
+        },
+        {
+          "form": "Past: didn't have to (negative)",
+          "example": "\"He didn't have to resubmit — the grade was fine.\""
+        },
+        {
+          "form": "Future: will have to",
+          "example": "\"You will have to submit the dissertation by June.\""
+        },
+        {
+          "form": "No past of mustn't for obligation",
+          "example": "Use \"couldn't\" or \"wasn't allowed to\" for past prohibition."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре модальных глагола — четыре чётких значения:\n① must = сильное обязательство (говорящий сам решил) → \"I must study.\"\n② have to = обязательство из внешних правил → \"She has to attend 80%.\"\n③ mustn't = ЗАПРЕТ (нельзя!) → \"You mustn't plagiarise.\"\n④ don't have to = НЕ ОБЯЗАТЕЛЬНО (можно, но не нужно) → \"You don't have to come.\"\n\n🚨 Главная ловушка: mustn't ≠ don't have to!\n\"You mustn't come\" = Тебе НЕЛЬЗЯ приходить.\n\"You don't have to come\" = Тебе не НУЖНО приходить (но можешь).\n\n💡 Past of must = had to. Нет прошедшей формы must для обязательства!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct modal.",
+      "text": "Students ___ attend 80% of classes. It's the rule.",
+      "opts": [
+        "should",
+        "must",
+        "needn't",
+        "might"
+      ],
+      "correct": "must",
+      "hint": "External university rule = \"must\" or \"have to\". Both work. \"Students must attend 80%.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose: mustn't or don't have to?",
+      "text": "You ___ plagiarise — it can result in suspension.",
+      "opts": [
+        "don't have to",
+        "mustn't",
+        "needn't",
+        "shouldn't"
+      ],
+      "correct": "mustn't",
+      "hint": "FORBIDDEN action → \"mustn't\". Plagiarism is not allowed. \"You mustn't plagiarise.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose: mustn't or don't have to?",
+      "text": "You ___ buy every book on the list — the library has most of them.",
+      "opts": [
+        "mustn't",
+        "don't have to",
+        "must not",
+        "cannot"
+      ],
+      "correct": "don't have to",
+      "hint": "NOT NECESSARY (optional) → \"don't have to\". You can buy them if you want, but it's not required. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write the correct past form.",
+      "text": "She ___ (must / submit) her essay yesterday — the deadline was firm.",
+      "correct": "had to submit",
+      "hint": "Past form of \"must\" for obligation = \"had to\". \"She had to submit her essay.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Form the correct question with \"have to\".",
+      "text": "\"___ students ___ show ID at the entrance?\"",
+      "opts": [
+        "Must / have to",
+        "Do / have to",
+        "Have / to",
+        "Should / have to"
+      ],
+      "correct": "Do / have to",
+      "hint": "\"have to\" question: Do/Does + subject + have to + base verb. \"Do students HAVE TO show ID?\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"You mustn't come\" means you are not obliged to come.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"mustn't\" = PROHIBITED. \"You mustn't come\" = You are NOT ALLOWED to come. To say \"not obliged\": \"You don't have to come.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct form of \"have to\" (3rd person).",
+      "text": "She ___ provide documentation if she misses class.",
+      "opts": [
+        "have to",
+        "has to",
+        "must to",
+        "haves to"
+      ],
+      "correct": "has to",
+      "hint": "\"she/he/it\" → \"has to\" (not \"have to\"). \"She HAS TO provide documentation.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence means \"it is not necessary\"?",
+      "text": "Choose the sentence that means \"it is optional\".",
+      "opts": [
+        "\"You mustn't memorise every rule.\"",
+        "\"You must memorise the rules.\"",
+        "\"You don't have to memorise every rule.\"",
+        "\"You have to memorise every rule.\""
+      ],
+      "correct": "\"You don't have to memorise every rule.\"",
+      "hint": "\"don't have to\" = no obligation, optional. The handbook is available online — no need to memorise everything. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with \"must\", \"mustn't\", \"have to\", or \"don't have to\".",
+      "text": "I ___ use my phone during the exam — it's strictly forbidden.",
+      "correct": "mustn't",
+      "hint": "\"mustn't\" = prohibited/forbidden. Using a phone in an exam is NOT allowed. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "\"She ___ submit it today — the deadline is next week.\"",
+      "opts": [
+        "mustn't submit",
+        "doesn't have to submit",
+        "must not submit",
+        "hasn't to submit"
+      ],
+      "correct": "doesn't have to submit",
+      "hint": "No obligation (it's not needed today) → \"doesn't have to\". \"She DOESN'T HAVE TO submit it today.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the future form.",
+      "text": "\"Students ___ submit their dissertation by June next year.\"",
+      "opts": [
+        "will must",
+        "will have to",
+        "must have to",
+        "are having to"
+      ],
+      "correct": "will have to",
+      "hint": "Future obligation: \"will have to\" (not \"will must\" — \"must\" has no infinitive!). ✅"
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Must\" and \"have to\" always have exactly the same meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"must\" = speaker's own conviction. \"have to\" = external rule. Similar, but different source of authority. Both express obligation, but the tone is different."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ attend 80% of classes.\" (external university rule)",
+      "opts": [
+        "should",
+        "must",
+        "have to",
+        "needn't"
+      ],
+      "correct": "have to",
+      "hint": "External rule (not from the speaker personally) → \"have to\". \"You HAVE TO attend 80%.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ use AI to write your essay.\" (it is forbidden)",
+      "opts": [
+        "don't have to",
+        "needn't",
+        "mustn't",
+        "should"
+      ],
+      "correct": "mustn't",
+      "hint": "FORBIDDEN → \"mustn't\". \"You MUSTN'T use AI.\" = Not allowed. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ buy all the books.\" (it is not necessary but you can)",
+      "opts": [
+        "mustn't",
+        "don't have to",
+        "must not",
+        "needn't to"
+      ],
+      "correct": "don't have to",
+      "hint": "No obligation → \"don't have to\". Not forbidden — just not required. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (must / notify) the department yesterday.\"",
+      "correct": "had to notify",
+      "hint": "Past of \"must\" = \"had to\". \"He HAD TO notify the department.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ submit a medical certificate.\" (3rd person, external rule)",
+      "opts": [
+        "have to",
+        "has to",
+        "must to",
+        "haves to"
+      ],
+      "correct": "has to",
+      "hint": "\"she\" → \"has to\" (not \"have to\"!). \"She HAS TO submit a certificate.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"You mustn't come\" = \"You don't have to come\" — they mean the same.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"mustn't\" = forbidden (not allowed). \"don't have to\" = not necessary (optional). Completely different!"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ I have to sign this form?\" (question)",
+      "opts": [
+        "Must",
+        "Do",
+        "Does",
+        "Am"
+      ],
+      "correct": "Do",
+      "hint": "\"have to\" question: Do/Does + subject + have to? \"Do I HAVE TO sign?\" ✅ (not \"Must I have to?\")"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ call her immediately — something might be wrong.\" (my conviction)",
+      "opts": [
+        "have to",
+        "must",
+        "should",
+        "might"
+      ],
+      "correct": "must",
+      "hint": "\"must\" = the speaker's own strong conviction. \"I MUST call her.\" = I feel this is necessary. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Students ___ attend next year's orientation.\" (future obligation)",
+      "opts": [
+        "must",
+        "will have to",
+        "will must",
+        "are going to must"
+      ],
+      "correct": "will have to",
+      "hint": "Future obligation: \"will have to\". \"Students WILL HAVE TO attend.\" ✅ (\"will must\" doesn't exist)"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ come to the optional workshop.\" (it's not required)",
+      "opts": [
+        "mustn't",
+        "doesn't have to",
+        "must not",
+        "can't"
+      ],
+      "correct": "doesn't have to",
+      "hint": "No obligation (optional) → \"doesn't have to\". \"She DOESN'T HAVE TO come.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Last year, students ___ (not submit) essays online.\"",
+      "correct": "didn't have to submit",
+      "hint": "Past \"don't have to\" = \"didn't have to\". \"They didn't have to submit online.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ lie in your application.\" (prohibited — strong warning)",
+      "opts": [
+        "don't have to",
+        "shouldn't",
+        "mustn't",
+        "needn't"
+      ],
+      "correct": "mustn't",
+      "hint": "\"mustn't\" = strong prohibition. \"You MUSTN'T lie.\" = Not allowed — serious consequences. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the correct question for external obligation?",
+      "opts": [
+        "\"Must you have an ID?\"",
+        "\"Do you must have an ID?\"",
+        "\"Do you have to have an ID?\"",
+        "\"You have to have an ID?\""
+      ],
+      "correct": "\"Do you have to have an ID?\"",
+      "hint": "\"have to\" question: \"Do you have to...?\" ✅ Never \"Do you must...\" or \"Must you have to?\""
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I didn't have to\" is the correct past negative form of \"have to\".",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"didn't have to\" = past tense of \"don't have to\". \"I didn't have to go\" = it wasn't necessary. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ bring a laptop — they're provided.\" (it's not necessary)",
+      "opts": [
+        "mustn't",
+        "can't",
+        "don't have to",
+        "must not"
+      ],
+      "correct": "don't have to",
+      "hint": "\"don't have to\" = no obligation. Not forbidden — they just provide laptops. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main difference between \"must\" and \"have to\"?",
+      "opts": [
+        "Must is stronger",
+        "\"Must\" = speaker's conviction; \"have to\" = external rule",
+        "\"Have to\" is more polite",
+        "No difference"
+      ],
+      "correct": "\"Must\" = speaker's conviction; \"have to\" = external rule",
+      "hint": "\"must\" = the speaker feels this is necessary. \"have to\" = an external rule/fact makes it necessary."
+    }
+  ]
+}

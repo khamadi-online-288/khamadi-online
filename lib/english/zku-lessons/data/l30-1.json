@@ -1,0 +1,287 @@
+{
+  "id": "l30-1",
+  "moduleNum": 14,
+  "lessonNum": 1,
+  "moduleTitle": "Work & Career",
+  "type": "reading",
+  "title": "Jobs of the Future",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "The world of work is changing fast. According to the World Economic Forum, by 2030 many jobs that exist today will disappear — replaced by artificial intelligence and automation. At the same time, millions of completely new jobs will be created.",
+    "Some experts believe that over 60% of children starting primary school today will work in jobs that do not yet exist. This sounds alarming, but it is also exciting. It means the most important skill for the future is not a specific technical skill — it is the ability to adapt and keep learning.",
+    "In Kazakhstan, the government has identified several key sectors for future employment: technology (IT, data science, cybersecurity), healthcare, green energy, finance, and education. Young people who gain skills in these areas will have strong career prospects.",
+    "At WKU, students are encouraged to think about their future careers early. Dr. Akhmetov runs workshops called 'Future Ready'. He asks students to think not just about what job they want, but about what skills they will need and how they will develop them.",
+    "Amir Bekzhanov dreams of becoming a software engineer. Kamila Seitkali wants to work in international education. Zhibek hopes to start her own business. 'The future belongs to those who prepare for it,' says Dr. Akhmetov. 'Don't just study for your exams — study for your life.'",
+    "One thing is certain: in the future, communication skills, emotional intelligence, and the ability to work in teams will be just as important as technical expertise. The WKU English programme is designed to help students develop all of these skills."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "What job do you want when you graduate, Amir?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I want to become a software engineer. I've been coding since I was fifteen.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That sounds perfect for the future! Have you done any internships yet?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Not yet, but I plan to apply for a summer internship at a tech company in Almaty.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I hope to work in international education. I want to make learning more accessible.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "work in / as / for",
+      "ru": "работать в / в качестве / для",
+      "context": "She works as a software engineer for a startup."
+    },
+    {
+      "phrase": "career prospects",
+      "ru": "карьерные перспективы",
+      "context": "Young people in IT have strong career prospects."
+    },
+    {
+      "phrase": "gain skills",
+      "ru": "приобретать навыки",
+      "context": "You can gain skills through internships."
+    },
+    {
+      "phrase": "apply for a job",
+      "ru": "подать заявку на работу",
+      "context": "I plan to apply for a summer internship."
+    },
+    {
+      "phrase": "develop skills",
+      "ru": "развивать навыки",
+      "context": "WKU helps students develop communication skills."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "career",
+      "ipa": "/kəˈrɪər/",
+      "pos": "n",
+      "ru": "карьера, профессия",
+      "kz": "мансап",
+      "emoji": "💼",
+      "definition": "The jobs and professional experiences in your working life.",
+      "example": "Kamila wants to have a career in international education.",
+      "collocations": [
+        "career prospects",
+        "career path",
+        "build a career"
+      ]
+    },
+    {
+      "en": "sector",
+      "ipa": "/ˈsek.tər/",
+      "pos": "n",
+      "ru": "сектор, отрасль",
+      "kz": "сектор",
+      "emoji": "🏭",
+      "definition": "A distinct part or area of the economy or society.",
+      "example": "Kazakhstan has identified key sectors for future employment.",
+      "collocations": [
+        "private sector",
+        "public sector",
+        "technology sector"
+      ]
+    },
+    {
+      "en": "expertise",
+      "ipa": "/ˌek.spɜːˈtiːz/",
+      "pos": "n",
+      "ru": "экспертиза, специализация",
+      "kz": "тәжірибе",
+      "emoji": "🎓",
+      "definition": "A high level of skill or knowledge in a particular area.",
+      "example": "Communication expertise will be as important as technical expertise.",
+      "collocations": [
+        "technical expertise",
+        "area of expertise",
+        "develop expertise"
+      ]
+    },
+    {
+      "en": "internship",
+      "ipa": "/ˈɪn.tɜːn.ʃɪp/",
+      "pos": "n",
+      "ru": "стажировка",
+      "kz": "тағылымдама",
+      "emoji": "🖥️",
+      "definition": "A temporary work placement, especially for students.",
+      "example": "Amir plans to apply for a summer internship at a tech company.",
+      "collocations": [
+        "summer internship",
+        "apply for an internship",
+        "complete an internship"
+      ]
+    },
+    {
+      "en": "automation",
+      "ipa": "/ˌɔː.təˈmeɪ.ʃən/",
+      "pos": "n",
+      "ru": "автоматизация",
+      "kz": "автоматтандыру",
+      "emoji": "🤖",
+      "definition": "Using machines or computers to do tasks previously done by people.",
+      "example": "Many jobs will be replaced by artificial intelligence and automation.",
+      "collocations": [
+        "factory automation",
+        "automation of tasks",
+        "industrial automation"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "automation",
+      "emoji": "🤖",
+      "opts": [
+        "Working from home",
+        "Using machines or computers to replace human work",
+        "A government employment programme",
+        "A type of internship"
+      ],
+      "correct": "Using machines or computers to replace human work"
+    },
+    {
+      "id": "p2",
+      "word": "internship",
+      "emoji": "🖥️",
+      "opts": [
+        "A permanent full-time job",
+        "A temporary work placement for students",
+        "A type of academic qualification",
+        "A job interview"
+      ],
+      "correct": "A temporary work placement for students"
+    },
+    {
+      "id": "p3",
+      "word": "expertise",
+      "emoji": "🎓",
+      "opts": [
+        "Entry-level knowledge only",
+        "Academic qualifications",
+        "A high level of skill or knowledge from experience",
+        "A job title"
+      ],
+      "correct": "A high level of skill or knowledge from experience"
+    },
+    {
+      "id": "p4",
+      "word": "career prospects",
+      "emoji": "💼",
+      "opts": [
+        "Your current salary",
+        "Your academic grades",
+        "Future opportunities for advancement in your career",
+        "Your job application documents"
+      ],
+      "correct": "Future opportunities for advancement in your career"
+    },
+    {
+      "id": "p5",
+      "word": "sector",
+      "emoji": "🏭",
+      "opts": [
+        "A part of a building",
+        "A single company or business",
+        "A distinct area of the economy",
+        "A university department"
+      ],
+      "correct": "A distinct area of the economy"
+    }
+  ],
+  "task1Bank": [
+    "adapt",
+    "skills",
+    "sectors",
+    "automation",
+    "future",
+    "technical",
+    "career",
+    "prepare"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "Many jobs will be replaced by ___.",
+      "correct": "automation"
+    },
+    {
+      "id": "i2",
+      "question": "The ability to ___ is the most important future skill.",
+      "correct": "adapt"
+    },
+    {
+      "id": "i3",
+      "question": "Kazakhstan has identified key ___ for future employment.",
+      "correct": "sectors"
+    },
+    {
+      "id": "i4",
+      "question": "Dr. Akhmetov asks students to think about their ___ careers.",
+      "correct": "future"
+    },
+    {
+      "id": "i5",
+      "question": "The WKU English programme helps students develop communication ___.",
+      "correct": "skills"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Over 60% of today's children will work in jobs that already exist.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Kazakhstan has identified green energy as a key future sector.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Amir wants to work in international education.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Dr. Akhmetov believes technical skills are the only thing that matters.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Kamila wants to make learning more accessible.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

@@ -1,0 +1,213 @@
+{
+  "id": "l65-4",
+  "moduleNum": 7,
+  "lessonNum": 7,
+  "moduleTitle": "Relative Clauses: Defining & Non-defining",
+  "type": "writing",
+  "title": "A Descriptive-Analytical Essay Using Complex Relative Clauses",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "The person who changed my thinking",
+      "emoji": "👤",
+      "opts": [
+        "человек, которого я знаю",
+        "человек, который изменил моё мышление",
+        "человек, который известен",
+        "человек, которого уважают"
+      ],
+      "correct": "человек, который изменил моё мышление"
+    },
+    {
+      "id": "p2",
+      "word": "The place where I first understood",
+      "emoji": "📍",
+      "opts": [
+        "место, где я живу",
+        "место, где я впервые понял(а)",
+        "место, которое я посетил(а)",
+        "место, которое важно"
+      ],
+      "correct": "место, где я впервые понял(а)"
+    },
+    {
+      "id": "p3",
+      "word": "A concept whose importance has grown",
+      "emoji": "💡",
+      "opts": [
+        "концепция, которую я изучал(а)",
+        "концепция, важность которой возросла",
+        "концепция, которая проста",
+        "концепция, которую все знают"
+      ],
+      "correct": "концепция, важность которой возросла"
+    },
+    {
+      "id": "p4",
+      "word": "A text, which remains foundational",
+      "emoji": "📚",
+      "opts": [
+        "текст, который трудно читать",
+        "текст, который до сих пор остаётся основополагающим",
+        "текст, который устарел",
+        "текст, который я не читал(а)"
+      ],
+      "correct": "текст, который до сих пор остаётся основополагающим"
+    },
+    {
+      "id": "p5",
+      "word": "The moment when I realised",
+      "emoji": "💡",
+      "opts": [
+        "момент, когда я был(а) занят(а)",
+        "момент, когда я понял(а)",
+        "момент, когда произошла ошибка",
+        "момент, который был трудным"
+      ],
+      "correct": "момент, когда я понял(а)"
+    },
+    {
+      "id": "p6",
+      "word": "The idea that has stayed with me",
+      "emoji": "🔑",
+      "opts": [
+        "идея, которую я забыл(а)",
+        "идея, которая осталась со мной",
+        "идея, которую я отверг(ла)",
+        "идея, которую я выдумал(а)"
+      ],
+      "correct": "идея, которая осталась со мной"
+    }
+  ],
+  "writingModel": [
+    "The Book That Changed the Way I Read",
+    "There are books that you finish and put aside, and there are books that change the way you read everything that comes after. The book that did this for me was Roland Barthes' \"Mythologies,\" a collection of essays that was first published in French in 1957 and that, despite its age, has lost none of its capacity to disturb comfortable assumptions.",
+    "Barthes, whose method involves reading cultural objects — advertisements, sports, food — as if they were texts full of hidden meaning, taught me that nothing is innocent. The world that surrounds us is not simply there; it has been constructed and arranged to communicate particular values. Once you have absorbed this idea, which took me several rereads to fully internalise, you cannot look at an advertisement, a news headline, or a public ceremony in the same way.",
+    "The essay I found most affecting was \"The World of Wrestling,\" in which Barthes analyses professional wrestling as a kind of theatre whose purpose is not deception but clarity — the opposite of what most people assume. Wrestling, he argues, is a spectacle that makes visible the moral character of its participants in exaggerated form. The wrestlers who villainise themselves do so with full awareness; the audience who responds is not duped but participating.",
+    "What Barthes gave me was a way of reading that has remained useful in every field I have since studied. Linguistics, political science, environmental sociology — in each of these, the ideas that surface are embedded in forms that carry assumptions, and those assumptions are worth examining. The moment when I first understood this was also the moment when I stopped reading passively.",
+    "The book itself, which is now heavily annotated and whose spine has been cracked in three places, sits on the shelf above my desk. It is the physical object that most visibly represents the change in how I think. Every student who is serious about reading critically should encounter it — or something like it — before the end of their undergraduate degree.",
+    "Reading Barthes did not give me answers, which would have been less useful anyway. It gave me a method — one that has proved applicable to everything from news journalism to the language that universities use to describe their own educational mission. The most valuable books are not the ones that tell you what to think, but the ones whose approach to thinking changes your own."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "The ",
+      "suffix": " That/Who Changed ___.",
+      "placeholder": "Book/Person/Place/Idea",
+      "hint": "Use a defining relative clause in your title. \"The Book THAT Changed...\" ✅"
+    },
+    {
+      "key": "opening",
+      "prefix": "There are [things] that ",
+      "suffix": ", and there are [things] that ___.",
+      "placeholder": "general category vs specific type",
+      "hint": "Open with a defining clause contrast. \"There are books THAT X, and books THAT Y.\""
+    },
+    {
+      "key": "subject",
+      "prefix": "The [thing/person] that did this for me was ",
+      "suffix": ", [describing relative clause].",
+      "placeholder": "your specific subject + defining clause",
+      "hint": "Introduce your subject with a defining relative clause."
+    },
+    {
+      "key": "nondefa",
+      "prefix": "",
+      "suffix": ", whose/which ___.",
+      "placeholder": "Name/Proper noun, + non-defining clause",
+      "hint": "Non-defining: \"X, WHO/WHICH..., did/is...\" — use commas. ✅"
+    },
+    {
+      "key": "key",
+      "prefix": "The idea/thing that ",
+      "suffix": ". Once you have absorbed this, which ___.",
+      "placeholder": "defining clause + sentential which follow-up",
+      "hint": "\"The idea THAT...\" (defining) + \"...which took me time\" (sentential which). ✅"
+    },
+    {
+      "key": "example",
+      "prefix": "The [example] I found most [adjective] was \"X,\" in which ",
+      "suffix": ".",
+      "placeholder": "specific example + \"in which\" (formal)",
+      "hint": "\"in which\" = formal way to say \"where/when.\" ✅"
+    },
+    {
+      "key": "impact",
+      "prefix": "What [person/book] gave me was a way of [V-ing] that has ",
+      "suffix": ".",
+      "placeholder": "defining + result",
+      "hint": "\"What X gave me was something THAT has...\" — \"what\" = embedded relative. ✅"
+    },
+    {
+      "key": "close",
+      "prefix": "The most valuable [things] are not the ones that ",
+      "suffix": ", but the ones whose ___.",
+      "placeholder": "negative defining + positive whose",
+      "hint": "\"Not the ones THAT X, but the ones WHOSE Y.\" Both defining. ✅"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Defining relative clauses in analysis",
+      "color": "#003876",
+      "items": [
+        "The book/person/idea that changed my thinking...",
+        "The concept that has proved most useful is...",
+        "The moment when I first understood...",
+        "The approach that I find most valuable is...",
+        "Any student who is serious about X should..."
+      ]
+    },
+    {
+      "category": "Non-defining clauses for context",
+      "color": "#1D9E75",
+      "items": [
+        "[Name], who [background], [contributed X].",
+        "The book, which was first published in [year], remains relevant.",
+        "[Name], whose method involves [X], taught me that...",
+        "The idea, which took me several readings to internalise, is...",
+        "The object, which now sits on my shelf, represents..."
+      ]
+    },
+    {
+      "category": "Sentential \"which\" and advanced structures",
+      "color": "#1B8FC4",
+      "items": [
+        "...which changed the way I read everything after.",
+        "...which would have been less useful anyway.",
+        "...which has proved applicable in every field.",
+        "The answer that surfaces is always embedded in form, which is worth examining.",
+        "...in which [author/subject] argues/shows/demonstrates..."
+      ]
+    },
+    {
+      "category": "Reduced clauses for fluent prose",
+      "color": "#C9933B",
+      "items": [
+        "\"Students studying/reading this should...\"",
+        "\"A text published in [year]...\" (= which was published)",
+        "\"The argument presented by [X] is...\"",
+        "\"The ideas embedded in this text...\"",
+        "\"Any researcher working in this field should...\""
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "l6-3",
+  "moduleNum": 6,
+  "lessonNum": 3,
+  "moduleTitle": "My hobbies",
+  "title": "What do you do in free time?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Timur",
+      "text": "Samal, classes are over! What do you usually do in your free time?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Photography, of course! I always take my camera when I leave class.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "Every day? Don't you ever just relax and do nothing?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Photography IS my way of relaxing! What about you — what do you do?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "I play basketball three times a week — Monday, Wednesday, Friday after class.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Basketball! Where do you play — on the WKU court?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "Yes, always. I also play video games in the evenings when I finish homework.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Video games every evening? Which games do you play?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "Strategy games mostly — I love planning and thinking ahead. It's like chess!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Interesting! Do you do anything outdoors on weekends? Besides basketball?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "Yes! I go hiking on Sundays. There are beautiful trails near Uralsk.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Wait — I go hiking too! I take my camera on the trails. Incredible photos!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "Really? We should go together next Sunday! The light on the hills is amazing.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Yes! I can photograph while you hike. We make a perfect team!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Timur",
+      "text": "Deal! And in the evenings I'll teach you my favourite strategy game.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Samal",
+      "text": "Ha! And I'll teach you how to take a great photo. Fair trade!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "spare time",
+      "emoji": "⏳",
+      "opts": [
+        "рабочее время",
+        "свободное время",
+        "учебное время",
+        "ночное время"
+      ],
+      "correct": "свободное время"
+    },
+    {
+      "id": "p2",
+      "word": "court",
+      "emoji": "🏀",
+      "opts": [
+        "стадион",
+        "парк",
+        "спортивная площадка",
+        "спортзал"
+      ],
+      "correct": "спортивная площадка"
+    },
+    {
+      "id": "p3",
+      "word": "trail",
+      "emoji": "🥾",
+      "opts": [
+        "дорога",
+        "пешеходная тропа",
+        "улица",
+        "маршрут на карте"
+      ],
+      "correct": "пешеходная тропа"
+    },
+    {
+      "id": "p4",
+      "word": "outdoor",
+      "emoji": "🌿",
+      "opts": [
+        "дома / в помещении",
+        "на улице / на свежем воздухе",
+        "в кафе",
+        "в спортзале"
+      ],
+      "correct": "на улице / на свежем воздухе"
+    },
+    {
+      "id": "p5",
+      "word": "unwind",
+      "emoji": "😌",
+      "opts": [
+        "напрягаться",
+        "расслабляться",
+        "торопиться",
+        "соревноваться"
+      ],
+      "correct": "расслабляться"
+    },
+    {
+      "id": "p6",
+      "word": "fair trade",
+      "emoji": "🤝",
+      "opts": [
+        "несправедливо",
+        "бесплатно",
+        "честный обмен",
+        "хорошая покупка"
+      ],
+      "correct": "честный обмен"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Timur plays basketball three times a week.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Timur plays basketball at a sports centre outside WKU.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Timur plays video games before doing his homework in the evenings.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Timur's favourite video games are strategy games.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Both Samal and Timur go hiking on Sundays.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Timur offers to teach Samal how to play basketball.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "samal",
+      "name": "Samal",
+      "city": "Karaganda",
+      "emoji": "📸",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Psychology student, Group 301"
+    },
+    {
+      "id": "timur",
+      "name": "Timur",
+      "city": "Uralsk",
+      "emoji": "🏀",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Psychology student, Group 301"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Takes their camera everywhere, even after class every day.",
+      "correctCharId": "samal"
+    },
+    {
+      "id": "s2",
+      "text": "Plays basketball on Monday, Wednesday, and Friday after class.",
+      "correctCharId": "timur"
+    },
+    {
+      "id": "s3",
+      "text": "Plays strategy video games in the evenings after finishing homework.",
+      "correctCharId": "timur"
+    },
+    {
+      "id": "s4",
+      "text": "Goes hiking on Sundays and takes photos on the trails.",
+      "correctCharId": "samal"
+    },
+    {
+      "id": "s5",
+      "text": "Suggests they go hiking together next Sunday.",
+      "correctCharId": "timur"
+    },
+    {
+      "id": "s6",
+      "text": "Offers to teach the other person how to take a great photo.",
+      "correctCharId": "samal"
+    }
+  ]
+}

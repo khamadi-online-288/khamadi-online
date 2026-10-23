@@ -1,0 +1,366 @@
+{
+  "id": "l46-5",
+  "moduleNum": 12,
+  "lessonNum": 7,
+  "moduleTitle": "Saying What They Said",
+  "type": "test",
+  "title": "Module 12 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Kamila paraphrase lectures in her journal?",
+      "opts": [
+        "For exam preparation",
+        "Paraphrasing forces true understanding",
+        "Her professor requires it",
+        "She can't remember exact words"
+      ],
+      "correct": "Paraphrasing forces true understanding",
+      "hint": "\"If I can say what someone said in my own words, I actually know it.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Professor Aidarov said language change was a form of decay.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"He told the students that this is not decay but adaptation.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Aidarov say about Kazakh absorbing Russian words?",
+      "opts": [
+        "It was a sign of weakness",
+        "It was a sign of contact between peoples",
+        "It was caused by Russian imperialism",
+        "It should be reversed"
+      ],
+      "correct": "It was a sign of contact between peoples",
+      "hint": "\"He said this was not a sign of weakness but of contact — and that contact between languages is usually a sign of contact between peoples.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Aidarov told students to read ___ .",
+      "correct": "Aitmatov",
+      "hint": "\"He told us to read Aitmatov.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Amir add about endangered languages?",
+      "opts": [
+        "Small languages are always the most endangered",
+        "Large languages can disappear if bilingual speakers stop transmitting them",
+        "Only government policy can save them",
+        "Aitmatov wrote about endangered languages"
+      ],
+      "correct": "Large languages can disappear if bilingual speakers stop transmitting them",
+      "hint": "\"The most endangered languages in the world were not necessarily the smallest...\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Kamila concludes reported speech is really about:",
+      "opts": [
+        "Grammar rules",
+        "Paying attention to what people actually say",
+        "Academic writing",
+        "Memorising facts"
+      ],
+      "correct": "Paying attention to what people actually say",
+      "hint": "\"reported speech... was a way of paying attention to what people actually said.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Rustam ask Professor Aidarov?",
+      "opts": [
+        "About Aitmatov",
+        "About language purism in a globalised world",
+        "About endangered languages",
+        "About research methods"
+      ],
+      "correct": "About language purism in a globalised world",
+      "hint": "\"I asked him whether he thought language purism was possible in a globalised world.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Aidarov say about purism?",
+      "opts": [
+        "Definitely possible",
+        "Probably impossible, but the impulse is understandable",
+        "Unimportant",
+        "Dangerous"
+      ],
+      "correct": "Probably impossible, but the impulse is understandable",
+      "hint": "\"He said it probably wasn't, but that the impulse behind it was understandable.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Aidarov said the research project was about language contact in ___ Kazakhstan.",
+      "correct": "western",
+      "hint": "\"a project on language contact in western Kazakhstan\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Aidarov say the selection criteria were?",
+      "opts": [
+        "Only high grades",
+        "Years of experience",
+        "Curiosity and commitment",
+        "Previous research experience"
+      ],
+      "correct": "Curiosity and commitment",
+      "hint": "\"they were looking for students with curiosity and commitment — not necessarily those with the highest grades.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Aidarov told Rustam to email ___ in the research office.",
+      "correct": "Dr Serikova",
+      "hint": "\"He told me to email Dr Serikova in the research office.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek decided not to apply for the research position.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I'm going to apply. I love the idea of research on Kazakh language contact.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I study linguistics.\" → She said ___.",
+      "opts": [
+        "she studies linguistics",
+        "she studied linguistics",
+        "she is studying linguistics",
+        "she had studied"
+      ],
+      "correct": "she studied linguistics",
+      "hint": "Backshift: Present Simple → Past Simple. \"She said she STUDIED linguistics.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll call you.\" → She said she ___ call.",
+      "opts": [
+        "will",
+        "would",
+        "can",
+        "shall"
+      ],
+      "correct": "would",
+      "hint": "Backshift: will → would. \"She said she WOULD call.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ me that the project was competitive.\"",
+      "opts": [
+        "said",
+        "told",
+        "said to",
+        "said me"
+      ],
+      "correct": "told",
+      "hint": "\"told + person = He TOLD ME.\" \"said\" cannot have a person object! ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Where is the office?\" → She asked where ___.",
+      "opts": [
+        "is the office",
+        "the office is",
+        "was the office",
+        "the office was"
+      ],
+      "correct": "the office was",
+      "hint": "No inversion + backshift. \"She asked where THE OFFICE WAS.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Are you coming?\" → He asked ___ I was coming.",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how"
+      ],
+      "correct": "whether",
+      "hint": "yes/no → \"whether\" or \"if\". \"He asked WHETHER I WAS COMING.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Study harder!\" → She told us ___.",
+      "opts": [
+        "study harder",
+        "to study harder",
+        "studying harder",
+        "that study harder"
+      ],
+      "correct": "to study harder",
+      "hint": "\"told + person + to + infinitive.\" \"She told us TO STUDY harder.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Don't be late!\" → He told me ___ late.",
+      "correct": "not to be",
+      "hint": "\"told + person + NOT TO + infinitive.\" \"He told me NOT TO BE late.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I've finished.\" → She said she ___ .",
+      "correct": "had finished",
+      "hint": "Backshift: Present Perfect → Past Perfect. \"She said she HAD FINISHED.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The discussion was animated.\" \"Animated\" means:",
+      "opts": [
+        "Boring",
+        "Full of energy and enthusiasm",
+        "Short",
+        "Formal"
+      ],
+      "correct": "Full of energy and enthusiasm",
+      "hint": "\"animated\" = lively, active, energetic."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "She ___ the lecture to check she had understood it correctly.",
+      "correct": "paraphrased",
+      "hint": "\"paraphrase\" = to express something in different words to show understanding."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Language was never static.\" \"Static\" means:",
+      "opts": [
+        "Growing fast",
+        "Never changing; fixed",
+        "Very academic",
+        "Complex"
+      ],
+      "correct": "Never changing; fixed",
+      "hint": "\"static\" = not changing; remaining the same."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The most endangered languages.\" \"Endangered\" means:",
+      "opts": [
+        "The most popular",
+        "At risk of disappearing",
+        "The newest",
+        "The most important"
+      ],
+      "correct": "At risk of disappearing",
+      "hint": "\"endangered\" = at risk of becoming extinct."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Speakers stopped transmitting the language.\" \"Transmit\" means:",
+      "opts": [
+        "Study",
+        "Translate",
+        "Pass on to others",
+        "Record"
+      ],
+      "correct": "Pass on to others",
+      "hint": "\"transmit\" = to pass something (language, knowledge, culture) on to the next person or generation."
+    }
+  ]
+}

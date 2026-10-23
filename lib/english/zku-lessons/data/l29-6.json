@@ -1,0 +1,427 @@
+{
+  "id": "l29-6",
+  "moduleNum": 13,
+  "lessonNum": 6,
+  "moduleTitle": "Sports & Exercise",
+  "type": "test",
+  "title": "Module 13 Final Test",
+  "xp": 100,
+  "duration": 55,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Gennady Golovkin is famous for:",
+      "opts": [
+        "Cycling",
+        "Boxing",
+        "Wrestling",
+        "Football"
+      ],
+      "correct": "Boxing",
+      "hint": "Paragraph 2: \"Gennady Golovkin… a middleweight boxing champion.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Ilya Ilyin won Olympic gold medals in Beijing and London.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Paragraph 4: \"Ilya Ilyin won gold medals at two Olympic Games — Beijing in 2008 and London in 2012.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many inter-university tournaments has Amir represented WKU in?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "Three",
+      "hint": "Paragraph 5: \"He has already represented his university in three inter-university tournaments.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Amir says he has ___ hard for four years and hasn't given up.",
+      "correct": "trained",
+      "hint": "Direct quote from paragraph 5."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Dr. Akhmetov believes sport builds:",
+      "opts": [
+        "Only fitness",
+        "Only teamwork",
+        "Character",
+        "Academic results"
+      ],
+      "correct": "Character",
+      "hint": "Paragraph 6: \"sport builds character.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How long has Rustam swum?",
+      "opts": [
+        "Since September",
+        "Since he was ten",
+        "For two years",
+        "For six months"
+      ],
+      "correct": "Since he was ten",
+      "hint": "Listening 1, statement 4: \"He has swum every week since he was ten years old.\""
+    },
+    {
+      "id": "q7",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila has been doing regular exercise for a long time.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Listening 1, statement 3: she has NOT done regular exercise yet."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "In listening 2, how long has Gulnaz worked at the sports centre?",
+      "opts": [
+        "One year",
+        "Two years",
+        "Three years",
+        "Five years"
+      ],
+      "correct": "Three years",
+      "hint": "Listening 2, statement 2: \"She has worked at the sports centre for three years.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir decided to try:",
+      "opts": [
+        "The swimming programme",
+        "The morning fitness class",
+        "The volleyball team",
+        "A yoga workshop"
+      ],
+      "correct": "The morning fitness class",
+      "hint": "Listening 2, statement 5: \"He has decided to try the morning fitness class starting next Monday.\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek has run in two local competitions ___ September.",
+      "correct": "since",
+      "hint": "\"Since September\" = since + point in time."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"for\" is used with:",
+      "opts": [
+        "A specific date in the past",
+        "A period of time (duration)",
+        "A starting point in time",
+        "A completed action"
+      ],
+      "correct": "A period of time (duration)",
+      "hint": "\"for\" answers \"how long?\" — for three years, for a week."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She has trained at WKU ___ 2022.",
+      "correct": "since",
+      "hint": "2022 = point in time → since."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which tense is used with \"last year\"?",
+      "opts": [
+        "Present Perfect",
+        "Present Simple",
+        "Past Simple",
+        "Future Simple"
+      ],
+      "correct": "Past Simple",
+      "hint": "\"last year\" = specific past time → Past Simple."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Have you ever…?\" is used to ask about:",
+      "opts": [
+        "A specific past event",
+        "Life experience at any point in time",
+        "Current daily habits",
+        "Future plans"
+      ],
+      "correct": "Life experience at any point in time",
+      "hint": "\"Have you ever?\" = Present Perfect — life experience."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (just finish) her training session.",
+      "correct": "has just finished",
+      "hint": "\"Just\" + Present Perfect: has just finished."
+    },
+    {
+      "id": "q16",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I have seen him yesterday\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"yesterday\" = specific time → Past Simple: \"I saw him yesterday.\""
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct sentence:",
+      "opts": [
+        "She has won the medal in 2020.",
+        "She won the medal in 2020.",
+        "She has won in 2020 the medal.",
+        "She won the medal since 2020."
+      ],
+      "correct": "She won the medal in 2020.",
+      "hint": "\"in 2020\" = specific time → Past Simple."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "How long have you ___ (know) Zhibek?",
+      "correct": "known",
+      "hint": "How long + have/has + past participle. know → known."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Already\" and \"yet\" are used with:",
+      "opts": [
+        "Past Simple",
+        "Future Simple",
+        "Present Perfect",
+        "Past Perfect"
+      ],
+      "correct": "Present Perfect",
+      "hint": "\"already\" and \"yet\" connect past actions to now → Present Perfect."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"for\" and \"since\" are only used in questions, not statements.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"for\" and \"since\" are used in both statements and questions with Present Perfect."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Tournament\" means:",
+      "opts": [
+        "A single game between two teams",
+        "A series of games or matches to find a winner",
+        "A type of sporting award",
+        "An individual sports event"
+      ],
+      "correct": "A series of games or matches to find a winner",
+      "hint": "\"Tournament\" = a competition with multiple games to find the champion."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Discipline\" in sport means:",
+      "opts": [
+        "A punishment from a referee",
+        "Consistent effort and self-control",
+        "A specific sport or activity",
+        "A medal category"
+      ],
+      "correct": "Consistent effort and self-control",
+      "hint": "\"Discipline\" = the practice of training yourself consistently and with control."
+    },
+    {
+      "id": "q23",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Resilience\" means giving up when things get difficult.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Resilience\" = the opposite — the ability to recover and keep going after difficulty."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She is a world ___ in boxing — she has never lost a professional fight.",
+      "correct": "champion",
+      "hint": "\"Champion\" = the person who has won a competition; the best in their field."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Compete\" means:",
+      "opts": [
+        "To practise alone",
+        "To take part in a contest against others",
+        "To train a team",
+        "To watch a sporting event"
+      ],
+      "correct": "To take part in a contest against others",
+      "hint": "\"Compete\" = to take part in a competition against other people."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Dedication\" is:",
+      "opts": [
+        "The feeling of losing a match",
+        "Great commitment and loyalty to something",
+        "A type of sports training",
+        "A university scholarship"
+      ],
+      "correct": "Great commitment and loyalty to something",
+      "hint": "\"Dedication\" = being devoted and committed to achieving something."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "An \"athlete\" is someone who watches sports on TV.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Athlete\" = someone who trains and competes in sports."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Represent\" your university in a tournament means:",
+      "opts": [
+        "To watch your university team play",
+        "To play or compete on behalf of your university",
+        "To manage the university sports budget",
+        "To write about the university sports team"
+      ],
+      "correct": "To play or compete on behalf of your university",
+      "hint": "\"Represent\" = to act or compete on behalf of a group or institution."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Victory\" means:",
+      "opts": [
+        "A loss in a competition",
+        "Success or winning in a contest",
+        "A draw or tie",
+        "A type of sporting injury"
+      ],
+      "correct": "Success or winning in a contest",
+      "hint": "\"Victory\" = winning a competition or battle."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "He trains with great ___ — he never misses a session.",
+      "correct": "discipline",
+      "hint": "\"Discipline\" = consistent effort and self-control in training."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "l10-3",
+  "moduleNum": 10,
+  "lessonNum": 3,
+  "moduleTitle": "Yesterday",
+  "title": "Where were you yesterday?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Daniyal",
+      "text": "Hey Ainur! How was your Monday yesterday?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Don't ask, Daniyal. It was a complete disaster. How was yours?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "Mine was actually great! The weather was sunny and warm all day.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "The weather here was awful — cold, rainy, and so windy. I was soaking wet!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "Oh no! Where were you in the morning? Were you on time for your lecture?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "No — I was almost ten minutes late! My alarm clock was broken.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "That's awful. Was the professor angry with you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "She was not happy at all. Her face was very stern. I was so embarrassed.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "Were your friends with you at lunch at least?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "No — they were all busy. I was alone. The cafeteria was crowded and the soup was cold.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "That sounds really hard. Were you in the library in the afternoon?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Yes, for three whole hours. I was exhausted but I was determined to finish my notes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "You're amazing. My evening was the best part — I was at the Debate Club and our team was the winner!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Wow, congratulations! Were you nervous before the debate?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyal",
+      "text": "I was very nervous at first, but once I started speaking, I was fine.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Yesterday was so different for us! But today is a new day — I'm ready!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "disaster",
+      "emoji": "💥",
+      "opts": [
+        "победа",
+        "сюрприз",
+        "провал / катастрофа",
+        "совпадение"
+      ],
+      "correct": "провал / катастрофа"
+    },
+    {
+      "id": "p2",
+      "word": "soaking wet",
+      "emoji": "🌧️",
+      "opts": [
+        "немного грязный",
+        "полностью промокший",
+        "очень холодный",
+        "уставший"
+      ],
+      "correct": "полностью промокший"
+    },
+    {
+      "id": "p3",
+      "word": "stern",
+      "emoji": "😠",
+      "opts": [
+        "добрый",
+        "весёлый",
+        "строгий / суровый",
+        "спокойный"
+      ],
+      "correct": "строгий / суровый"
+    },
+    {
+      "id": "p4",
+      "word": "embarrassed",
+      "emoji": "😳",
+      "opts": [
+        "злой",
+        "счастливый",
+        "гордый",
+        "смущённый / в неловком положении"
+      ],
+      "correct": "смущённый / в неловком положении"
+    },
+    {
+      "id": "p5",
+      "word": "determined",
+      "emoji": "💪",
+      "opts": [
+        "уставшая",
+        "растерянная",
+        "счастливая",
+        "решительная / целеустремлённая"
+      ],
+      "correct": "решительная / целеустремлённая"
+    },
+    {
+      "id": "p6",
+      "word": "congratulations",
+      "emoji": "🎉",
+      "opts": [
+        "Удачи!",
+        "Спасибо!",
+        "Поздравляю!",
+        "Пожалуйста!"
+      ],
+      "correct": "Поздравляю!"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Ainur says her Monday yesterday was a great day.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Daniyal says the weather was sunny and warm on his Monday.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Ainur was late to her lecture because the cafeteria was closed.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Ainur was alone at lunch — her friends were all busy.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Daniyal's team was the winner at the WKU Debate Club.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Daniyal says he was calm and confident from the very start of the debate.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "daniyal",
+      "name": "Daniyal",
+      "city": "Taraz",
+      "emoji": "⚖️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Law student, Group 101"
+    },
+    {
+      "id": "ainur",
+      "name": "Ainur",
+      "city": "Kostanay",
+      "emoji": "🩺",
+      "color": "#1D9E75",
+      "bg": "#DCFCE7",
+      "role": "Medicine student, Group 201"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says yesterday was a complete disaster from start to finish.",
+      "correctCharId": "ainur"
+    },
+    {
+      "id": "s2",
+      "text": "Says the weather was sunny and warm all day yesterday.",
+      "correctCharId": "daniyal"
+    },
+    {
+      "id": "s3",
+      "text": "Was almost ten minutes late because the alarm clock was broken.",
+      "correctCharId": "ainur"
+    },
+    {
+      "id": "s4",
+      "text": "Was alone at lunch — friends were busy.",
+      "correctCharId": "ainur"
+    },
+    {
+      "id": "s5",
+      "text": "Was at the Debate Club in the evening and the team was the winner.",
+      "correctCharId": "daniyal"
+    },
+    {
+      "id": "s6",
+      "text": "Was very nervous at first but felt fine once the debate started.",
+      "correctCharId": "daniyal"
+    }
+  ]
+}

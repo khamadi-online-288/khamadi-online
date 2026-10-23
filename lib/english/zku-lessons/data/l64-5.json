@@ -1,0 +1,400 @@
+{
+  "id": "l64-5",
+  "moduleNum": 6,
+  "lessonNum": 9,
+  "moduleTitle": "Present Perfect: Simple vs Continuous",
+  "type": "test",
+  "title": "Module 6 Final Test",
+  "xp": 120,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the fundamental focus of PPS?",
+      "opts": [
+        "Duration",
+        "Process",
+        "Result and completed achievement",
+        "Habits"
+      ],
+      "correct": "Result and completed achievement",
+      "hint": "\"The present perfect simple is fundamentally about results.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"I have been studying\" emphasise compared to \"I have studied\"?",
+      "opts": [
+        "The result",
+        "The number of topics",
+        "The process and duration — still in progress",
+        "The difficulty"
+      ],
+      "correct": "The process and duration — still in progress",
+      "hint": "PPC = emphasises the ongoing process and its duration. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have lived in Uralsk for two years\" — why PPS for \"live\"?",
+      "opts": [
+        "It's more polite",
+        "\"Live\" is stative — can't take continuous",
+        "\"Lived\" is irregular",
+        "Duration requires PPS"
+      ],
+      "correct": "\"Live\" is stative — can't take continuous",
+      "hint": "\"'Live' is a stative verb that cannot take the continuous.\" ✅ (though \"been living\" is also natural)"
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Kamila says \"I've written 200 words\" vs \"I've been writing for 2 hours\" — the difference?",
+      "opts": [
+        "Same",
+        "\"Written 200 words\" = result/count; \"been writing for 2 hours\" = process/effort",
+        "\"Written\" is PPS; \"been writing\" is wrong",
+        "\"Written\" is informal"
+      ],
+      "correct": "\"Written 200 words\" = result/count; \"been writing for 2 hours\" = process/effort",
+      "hint": "PPS = result/count (200 words). PPC = process/effort (2 hours of work). ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"I have been studying English since September\" tell us about the studying?",
+      "opts": [
+        "It finished in September",
+        "It started in September and is still ongoing",
+        "It happened in September only",
+        "It will start in September"
+      ],
+      "correct": "It started in September and is still ongoing",
+      "hint": "PPC + SINCE = started at starting point, still ongoing now. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Aliya says \"We've been conducting a three-year study.\" — PPC because:",
+      "opts": [
+        "The study is finished",
+        "It counts completed samples",
+        "The study is ongoing — still in progress after three years",
+        "\"Study\" is stative"
+      ],
+      "correct": "The study is ongoing — still in progress after three years",
+      "hint": "\"We've been conducting a three-year study.\" — PPC, still ongoing. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many students has Kamila interviewed for her thesis?",
+      "opts": [
+        "Six",
+        "Ten",
+        "Twelve",
+        "Twenty"
+      ],
+      "correct": "Twelve",
+      "hint": "\"I've interviewed twelve students so far.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Aliya's team established that didn't exist before?",
+      "opts": [
+        "A new university",
+        "A monitoring network across five regions",
+        "A government committee",
+        "A new database only"
+      ],
+      "correct": "A monitoring network across five regions",
+      "hint": "\"We've established a monitoring network across five regions of Kazakhstan that hasn't existed before.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has the government passed in the last three years?",
+      "opts": [
+        "Three environmental reports",
+        "Two new pieces of environmental legislation",
+        "New university programmes",
+        "New taxes"
+      ],
+      "correct": "Two new pieces of environmental legislation",
+      "hint": "\"The government has passed two new pieces of environmental legislation in the last three years.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why has the full pollution study not been completed?",
+      "opts": [
+        "Funding problems",
+        "The team has been refining the methodology as they go",
+        "Data loss",
+        "Political issues"
+      ],
+      "correct": "The team has been refining the methodology as they go",
+      "hint": "\"The full study hasn't been completed — we've been refining the methodology as we go.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Kamila says she has finally started to enjoy what?",
+      "opts": [
+        "Thesis writing only",
+        "The whole process of academic research",
+        "Interviews",
+        "Data analysis"
+      ],
+      "correct": "The whole process of academic research",
+      "hint": "\"I've finally started to enjoy the process — which I haven't always done.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Daniyar says he has been doing what since starting at WKU?",
+      "opts": [
+        "Studying linguistics",
+        "Code-switching (alternating languages)",
+        "Working on a thesis",
+        "Teaching students"
+      ],
+      "correct": "Code-switching (alternating languages)",
+      "hint": "\"I've been doing it since I started at WKU.\" — referring to code-switching that Kamila mentioned. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has finished the report.\" — PPS because:",
+      "opts": [
+        "It's ongoing",
+        "The result matters now — report is done",
+        "Finishing is stative",
+        "\"The report\" requires PPS"
+      ],
+      "correct": "The result matters now — report is done",
+      "hint": "PPS = completed action with present relevance. The report exists and is done. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have seen him yesterday.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"Yesterday\" = specific past time → need Past Simple: \"I saw him\"",
+        "\"Seen\" is wrong",
+        "\"Have\" is wrong"
+      ],
+      "correct": "\"Yesterday\" = specific past time → need Past Simple: \"I saw him\"",
+      "hint": "Specific past time → Past Simple. ✅ \"I SAW him yesterday.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (know) him FOR ten years.\" — correct form:",
+      "correct": "has known",
+      "hint": "\"know\" = stative → PPS. \"She HAS KNOWN him for ten years.\" ✅ (NOT \"has been knowing\")"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been writing 3 papers.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"3 papers\" = counting → must use PPS: \"She's written 3 papers\"",
+        "\"Been\" is wrong",
+        "\"Papers\" is wrong"
+      ],
+      "correct": "\"3 papers\" = counting → must use PPS: \"She's written 3 papers\"",
+      "hint": "✅ Counting = PPS. \"She's WRITTEN 3 papers.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "FOR vs SINCE: \"She's been here ___ three weeks.\" Choose.",
+      "opts": [
+        "since",
+        "for",
+        "Both work",
+        "neither"
+      ],
+      "correct": "for",
+      "hint": "\"three weeks\" = duration → FOR. \"She's been here FOR three weeks.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You look pale. Have you been feeling OK?\" — PPC because:",
+      "opts": [
+        "Feeling is stative",
+        "PPC explains visible state (pale appearance) through ongoing condition",
+        "It's more polite",
+        "Past Simple would be better"
+      ],
+      "correct": "PPC explains visible state (pale appearance) through ongoing condition",
+      "hint": "PPC = explains present visible state. \"Have you been feeling OK?\" (explains pallor) ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've lived here for 3 years\" vs \"I've been living here for 3 years\" — which is correct?",
+      "opts": [
+        "Only \"lived\"",
+        "Only \"been living\"",
+        "Both are correct — different emphasis",
+        "\"Lived\" is Past Simple here"
+      ],
+      "correct": "Both are correct — different emphasis",
+      "hint": "\"Lived\" (PPS) = settled state/credential. \"Been living\" (PPC) = ongoing process. Both natural. ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How long have you been waiting?\" — Why PPC?",
+      "opts": [
+        "Waiting is stative",
+        "Waiting is a result",
+        "The question asks about the duration of an ongoing activity",
+        "\"Long\" requires PPC"
+      ],
+      "correct": "The question asks about the duration of an ongoing activity",
+      "hint": "\"How long\" asks about duration of ongoing activity → PPC. \"How long have you BEEN WAITING?\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Immersed in the activity.\" \"Immersed\" means:",
+      "opts": [
+        "Briefly involved",
+        "Deeply absorbed in",
+        "Finished with",
+        "Beginning to do"
+      ],
+      "correct": "Deeply absorbed in",
+      "hint": "\"immersed\" = deeply involved; surrounded by and fully engaged with something."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been developing her skills.\" \"Developing\" (PPC) emphasises:",
+      "opts": [
+        "The skills are developed (result)",
+        "The process of development is ongoing",
+        "The skills are new",
+        "She has finished developing"
+      ],
+      "correct": "The process of development is ongoing",
+      "hint": "PPC = process focus. \"Has been developing\" = still in the process of developing. ✅"
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The choice comes down to intent.\" \"Intent\" means:",
+      "opts": [
+        "Grammar rule",
+        "What you aim to communicate; your purpose",
+        "The word choice",
+        "The audience"
+      ],
+      "correct": "What you aim to communicate; your purpose",
+      "hint": "\"intent\" = what you intend; your purpose or aim in making a choice."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Presenting a credential.\" \"Credential\" means:",
+      "opts": [
+        "A problem",
+        "A qualification proving competence or experience",
+        "A theory",
+        "A method"
+      ],
+      "correct": "A qualification proving competence or experience",
+      "hint": "\"credential\" = evidence of qualification, expertise, or achievement."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The convention in British English.\" \"Convention\" means:",
+      "opts": [
+        "A rule invented recently",
+        "An accepted standard way of doing something in a context",
+        "A grammar error",
+        "An exception"
+      ],
+      "correct": "An accepted standard way of doing something in a context",
+      "hint": "\"convention\" = an accepted or standard practice within a particular context or field."
+    }
+  ]
+}

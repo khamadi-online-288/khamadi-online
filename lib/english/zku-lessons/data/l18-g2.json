@@ -1,0 +1,502 @@
+{
+  "id": "l18-g2",
+  "moduleNum": 2,
+  "lessonNum": 4,
+  "moduleTitle": "Health & the Body",
+  "title": "have to / don't have to",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "have to / don't have to — obligation & choice",
+  "grammarNote": "HAVE TO выражает ОБЯЗАТЕЛЬНОСТЬ — то, что необходимо делать (внешняя необходимость, правила, требования). DON'T HAVE TO означает ОТСУТСТВИЕ ОБЯЗАТЕЛЬСТВА — ты можешь сделать, но не обязан. Важно: don't have to ≠ must not! 'Don't have to' = необязательно. 'Must not' = нельзя!",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "have to",
+      "short": "have to",
+      "example": "I have to see a doctor. · You have to take this medicine."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "has to",
+      "short": "has to",
+      "example": "She has to stay home. · He has to rest for three days."
+    },
+    {
+      "subject": "I / You / We / They",
+      "verb": "don't have to",
+      "short": "don't",
+      "example": "I don't have to go to hospital. · You don't have to take antibiotics."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "doesn't have to",
+      "short": "doesn't",
+      "example": "She doesn't have to come in today. · He doesn't have to worry."
+    },
+    {
+      "subject": "Do you have to...?",
+      "verb": "?",
+      "short": "Do/Does?",
+      "example": "Do you have to take medicine? · Does she have to rest?"
+    },
+    {
+      "subject": "Short answers",
+      "verb": "Yes / No",
+      "short": "✓ / ✗",
+      "example": "Yes, I do. / No, I don't. · Yes, she does. / No, she doesn't."
+    },
+    {
+      "subject": "Past: had to",
+      "verb": "past form",
+      "short": "had to",
+      "example": "I had to stay in bed for 3 days. · She had to see a specialist."
+    },
+    {
+      "subject": "Past negative",
+      "verb": "didn't have to",
+      "short": "didn't",
+      "example": "I didn't have to go to hospital. · He didn't have to take antibiotics."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "have to — obligation (нужно, необходимо)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "You have to drink 2 litres of water.",
+          "example": "Doctor's order — this is obligatory."
+        },
+        {
+          "form": "She has to stay home for 3 days.",
+          "example": "Medical advice → obligation."
+        },
+        {
+          "form": "Students have to attend lectures.",
+          "example": "University rule → obligation."
+        },
+        {
+          "form": "He has to take tablets twice a day.",
+          "example": "Medical instruction → obligation."
+        },
+        {
+          "form": "I had to go to the clinic yesterday.",
+          "example": "Past obligation → had to."
+        },
+        {
+          "form": "They had to wait 30 minutes.",
+          "example": "Past situation → had to."
+        }
+      ]
+    },
+    {
+      "title": "don't have to — no obligation (необязательно)",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "You don't have to go to hospital.",
+          "example": "Not necessary — you can stay home."
+        },
+        {
+          "form": "She doesn't have to take antibiotics.",
+          "example": "Not required — other treatment works."
+        },
+        {
+          "form": "I don't have to wake up early on Sunday.",
+          "example": "No classes → no obligation."
+        },
+        {
+          "form": "He doesn't have to wear a suit.",
+          "example": "No dress code — choice is yours."
+        },
+        {
+          "form": "They didn't have to pay.",
+          "example": "Past: it wasn't necessary."
+        },
+        {
+          "form": "You don't have to come — it's optional.",
+          "example": "Optional activity → don't have to."
+        }
+      ]
+    },
+    {
+      "title": "⚠️ don't have to vs must not (crucial difference!)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "You don't have to take aspirin.",
+          "example": "NOT obligatory — but you can if you want. ✅"
+        },
+        {
+          "form": "You must not take aspirin! (allergy!)",
+          "example": "FORBIDDEN — you absolutely cannot! ❌ Dangerous!"
+        },
+        {
+          "form": "You don't have to come to the party.",
+          "example": "Optional — no pressure. You can come or not."
+        },
+        {
+          "form": "You must not arrive late to the exam.",
+          "example": "Forbidden — it is against the rules."
+        }
+      ]
+    },
+    {
+      "title": "Questions and answers",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Do I have to take these tablets?",
+          "example": "Do I have to? — Yes, you do. Twice a day."
+        },
+        {
+          "form": "Does she have to stay home?",
+          "example": "Does she have to? — Yes, she does. For 3 days."
+        },
+        {
+          "form": "Do we have to bring anything?",
+          "example": "Do we have to? — No, you don't. Just yourself."
+        },
+        {
+          "form": "Did you have to wait long?",
+          "example": "Did you have to wait? — Yes, I did. 30 minutes."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главное правило: have to = внешняя необходимость (правила, советы врача, законы)\nmust = внутренняя убеждённость (сам считаешь нужным)\n\nТРИ ключевых различия:\n① have to (обязательно) → I have to take this medicine. Doctor said so.\n② don't have to (необязательно) → I don't have to stay in bed. But I can if I want.\n③ must not (запрещено!) → You must not drive after taking this medicine. Dangerous!\n\n💡 don't have to ≠ must not — это РАЗНЫЕ значения!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose: obligation or no obligation?",
+      "text": "Kamila ___ stay home for three days. (The doctor ordered it.)",
+      "opts": [
+        "has to",
+        "doesn't have to",
+        "had to",
+        "mustn't"
+      ],
+      "correct": "has to",
+      "hint": "Doctor's order = obligation = has to (3rd person singular)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct form.",
+      "text": "You ___ take antibiotics. (They are not necessary for this infection.)",
+      "correct": "don't have to",
+      "hint": "Not necessary = don't have to."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Complete the sentence.",
+      "text": "Students ___ attend all lectures. (It is a university rule.)",
+      "opts": [
+        "have to",
+        "don't have to",
+        "hasn't to",
+        "not have to"
+      ],
+      "correct": "have to",
+      "hint": "Plural subject (students) = have to."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Don't have to\" and \"must not\" have the same meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Don't have to\" = not necessary. \"Must not\" = forbidden. Very different!"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Complete the question.",
+      "text": "___ she have to see a specialist?",
+      "opts": [
+        "Does",
+        "Do",
+        "Has",
+        "Is"
+      ],
+      "correct": "Does",
+      "hint": "She → Does she have to...? (3rd person singular)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct past form.",
+      "text": "Last week I was ill and I ___ stay in bed for two days.",
+      "opts": [
+        "had to",
+        "have to",
+        "has to",
+        "must to"
+      ],
+      "correct": "had to",
+      "hint": "Past of have to → had to. (same for all persons)"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with do/does.",
+      "text": "___ you have to take the tablets on an empty stomach?",
+      "correct": "Do",
+      "hint": "I/You/We/They → Do you have to...?"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence means \"It is forbidden\"?",
+      "text": "Choose the sentence that means something is NOT ALLOWED.",
+      "opts": [
+        "You don't have to eat before the test.",
+        "You must not eat before the test.",
+        "You don't have to wear a tie.",
+        "You don't have to come early."
+      ],
+      "correct": "You must not eat before the test.",
+      "hint": "\"must not\" = forbidden/prohibited. \"don't have to\" = optional."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "She ___ rest for three days. (Doctor's instruction)",
+      "opts": [
+        "has to",
+        "doesn't have to",
+        "have to",
+        "mustn't"
+      ],
+      "correct": "has to",
+      "hint": "She (3rd person) + obligation = has to."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "You ___ go to hospital — it's not that serious.",
+      "correct": "don't have to",
+      "hint": "Not necessary (but possible) = don't have to."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"don't have to\" and \"must not\"?",
+      "opts": [
+        "They mean the same thing",
+        "\"don't have to\" = not necessary; \"must not\" = forbidden",
+        "\"must not\" = optional",
+        "\"don't have to\" = forbidden"
+      ],
+      "correct": "\"don't have to\" = not necessary; \"must not\" = forbidden",
+      "hint": "Critical difference: don't have to = optional. must not = prohibited."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I have to\" and \"I has to\" are both correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "I / You / We / They → have to. He/She/It → has to. Never \"I has to\"."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The past form of \"have to\" is ___",
+      "opts": [
+        "had to",
+        "have had to",
+        "haved to",
+        "must"
+      ],
+      "correct": "had to",
+      "hint": "Past of have to = had to (all persons)."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ you have to take any medicine? — No, I ___ .",
+      "correct": "Do don't",
+      "hint": "I/You → Do you have to? No, I don't."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence expresses obligation?",
+      "opts": [
+        "She doesn't have to come.",
+        "She had fun at the party.",
+        "She has to see a doctor today.",
+        "She can stay home."
+      ],
+      "correct": "She has to see a doctor today.",
+      "hint": "has to = obligatory → She has to see a doctor."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Translate: \"Ему не нужно принимать антибиотики.\"",
+      "opts": [
+        "He doesn't have to take antibiotics.",
+        "He must not take antibiotics.",
+        "He has to take antibiotics.",
+        "He hadn't to take antibiotics."
+      ],
+      "correct": "He doesn't have to take antibiotics.",
+      "hint": "Необязательно = doesn't have to."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"You must not drive\" means it is not necessary to drive.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"must not\" = FORBIDDEN. \"don't have to\" = not necessary. Very different!"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Last year, Kamila ___ take an exam twice because she was ill.",
+      "opts": [
+        "had to",
+        "have to",
+        "has to",
+        "didn't have to"
+      ],
+      "correct": "had to",
+      "hint": "Past obligation: last year → had to."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Does Amir have to stay in bed? — Yes, he ___ .",
+      "correct": "does",
+      "hint": "Short answer to Does...? → Yes, he does."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "At WKU, students ___ attend a minimum number of classes.",
+      "opts": [
+        "have to",
+        "don't have to",
+        "mustn't",
+        "had"
+      ],
+      "correct": "have to",
+      "hint": "University rule = obligation = have to."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She doesn't has to go\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She → doesn't have to (not 'doesn't has'). Always 'doesn't have to'."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ smoke in the clinic.\" (It is forbidden!)",
+      "opts": [
+        "don't have to",
+        "mustn't",
+        "had to",
+        "doesn't have to"
+      ],
+      "correct": "mustn't",
+      "hint": "Forbidden = must not / mustn't."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ go to hospital last week — the doctor said it was serious.",
+      "correct": "had to",
+      "hint": "Past obligation = had to."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence shows something is OPTIONAL (not required)?",
+      "opts": [
+        "You have to take this medicine.",
+        "You must not eat before the test.",
+        "You don't have to bring a pen — we have extras.",
+        "You had to wait 30 minutes."
+      ],
+      "correct": "You don't have to bring a pen — we have extras.",
+      "hint": "don't have to = not necessary, optional."
+    }
+  ]
+}

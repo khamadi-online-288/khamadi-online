@@ -1,0 +1,220 @@
+{
+  "id": "l61-4",
+  "moduleNum": 3,
+  "lessonNum": 7,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "writing",
+  "title": "An Analytical Essay Using All Four Conditionals",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "If this continues,",
+      "emoji": "1️⃣",
+      "opts": [
+        "Если это продолжится (1-й тип)",
+        "Если бы это продолжалось (2-й тип)",
+        "Если бы это продолжалось (3-й тип)",
+        "Когда это продолжится"
+      ],
+      "correct": "Если это продолжится (1-й тип)"
+    },
+    {
+      "id": "p2",
+      "word": "If governments were to",
+      "emoji": "2️⃣",
+      "opts": [
+        "Если правительства (реально)",
+        "Если бы правительства (гипотетически, 2-й тип)",
+        "Если бы правительства (в прошлом)",
+        "Когда правительства"
+      ],
+      "correct": "Если бы правительства (гипотетически, 2-й тип)"
+    },
+    {
+      "id": "p3",
+      "word": "If action had been taken earlier,",
+      "emoji": "3️⃣",
+      "opts": [
+        "Если действия принять сейчас",
+        "Если бы действия были приняты ранее (3-й тип)",
+        "Если действия будут приняты",
+        "Если действия не приняты"
+      ],
+      "correct": "Если бы действия были приняты ранее (3-й тип)"
+    },
+    {
+      "id": "p4",
+      "word": "If action had been taken earlier, we would now have",
+      "emoji": "🔀",
+      "opts": [
+        "Чистый 3-й тип",
+        "Смешанный: прошлое условие → настоящий результат",
+        "Чистый 2-й тип",
+        "1-й тип"
+      ],
+      "correct": "Смешанный: прошлое условие → настоящий результат"
+    },
+    {
+      "id": "p5",
+      "word": "Unless governments act,",
+      "emoji": "⚠️",
+      "opts": [
+        "Если правительства действуют",
+        "Если правительства не действуют (= unless)",
+        "Хотя правительства действуют",
+        "Как только правительства действуют"
+      ],
+      "correct": "Если правительства не действуют (= unless)"
+    },
+    {
+      "id": "p6",
+      "word": "Provided that funding is secured,",
+      "emoji": "✅",
+      "opts": [
+        "Независимо от финансирования",
+        "При условии финансирования",
+        "До получения финансирования",
+        "Без финансирования"
+      ],
+      "correct": "При условии финансирования"
+    }
+  ],
+  "writingModel": [
+    "The Digital Divide: A Conditional Analysis — by Amir Bekzhanov",
+    "Digital inequality — the gap between those with reliable access to technology and those without — is one of the most significant structural challenges of the twenty-first century. It affects not only individuals, but entire communities, regions, and economies. Understanding its dynamics requires thinking in conditionals: what is, what could be, what should have been done differently, and what could still be done.",
+    "At the level of established fact, the relationship is clear: if young people do not have access to reliable internet, they cannot develop the digital skills required by the modern economy. This is a zero conditional — not a prediction but a consequence that follows automatically from the condition. The students who lack connectivity fall behind in education, in training, and in the kinds of independent learning that modern employment increasingly requires.",
+    "At the level of realistic policy, the argument becomes a first conditional: if governments invest in rural broadband infrastructure now, the current generation of young people in underserved regions will have meaningful access to digital education within five years. This is a realistic prediction — not certain, but achievable. The technology exists. The question is political will and resource allocation.",
+    "At the level of ideal scenario, the argument shifts to a second conditional: if every government were to prioritise digital equity as a fundamental right rather than an economic aspiration, the effects would be transformative. We would see not only reduced educational inequality, but increased innovation, greater civic participation, and stronger democratic processes in regions that have historically been excluded. This is hypothetical — few governments have yet made this shift — but imagining it clarifies what is at stake.",
+    "Looking backwards, the third conditional reveals what has been lost. If investment in rural digital infrastructure had begun ten years earlier, the students who are currently entering university — many of whom arrived without functional digital skills — would have had a different educational experience. The opportunity cost of delay is not abstract. It is measurable in the career limitations and reduced earning potential of a specific generation of young people.",
+    "Connecting past failure to the present moment, a mixed conditional makes the cost concrete: if adequate infrastructure had been built a decade ago, universities like WKU would already have a more digitally prepared intake. The remediation work that institutions now do — teaching basic digital skills at university level — would not be necessary. The resources spent on remediation could instead be invested in advanced research.",
+    "The conclusion is both conditional and urgent: unless governments act decisively in the next five years, the current generation of young people in rural and underserved areas will face a compounded disadvantage from which recovery will be slow and difficult. Provided that investment decisions are made now, the situation is still recoverable. The window is narrow. The conditionals that describe future success are still in the first — still realistic, still possible. But they will not remain so indefinitely."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": ": A Conditional Analysis — by ",
+      "placeholder": "Your essay topic + \"Analysis\"",
+      "hint": "\"The Housing Crisis: A Conditional Analysis\" / \"Urban Transport: A Conditional Analysis\""
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": " Understanding its dynamics requires thinking in conditionals.",
+      "placeholder": "Introduce the issue and its significance",
+      "hint": "Establish the issue (1-2 sentences), then state you will analyse it using conditional thinking."
+    },
+    {
+      "key": "zero",
+      "prefix": "At the level of established fact: if ",
+      "suffix": ", this is a zero conditional — automatic consequence.",
+      "placeholder": "condition → automatic result",
+      "hint": "Zero conditional: present + present. A factual, certain relationship."
+    },
+    {
+      "key": "first",
+      "prefix": "At the level of realistic policy: if ",
+      "suffix": ", this is a realistic prediction.",
+      "placeholder": "policy action → realistic future result (1st)",
+      "hint": "First conditional: if + PS + will. A genuine, achievable future."
+    },
+    {
+      "key": "second",
+      "prefix": "At the level of ideal scenario: if ",
+      "suffix": ", the effects would be transformative.",
+      "placeholder": "hypothetical ideal → would result (2nd)",
+      "hint": "Second conditional: if + PS (past simple) + would + base. Hypothetical but worth imagining."
+    },
+    {
+      "key": "third",
+      "prefix": "Looking backwards: if ",
+      "suffix": ", the situation would have been different.",
+      "placeholder": "past action not taken → would have resulted (3rd)",
+      "hint": "Third conditional: if + PP + would have + pp. Counterfactual past."
+    },
+    {
+      "key": "mixed",
+      "prefix": "Connecting past to present: if ",
+      "suffix": ", we would already have... now.",
+      "placeholder": "past condition → present result (mixed)",
+      "hint": "Mixed Type A: if + PP + would + base (present state). ✅"
+    },
+    {
+      "key": "concl",
+      "prefix": "Unless ",
+      "suffix": ". Provided that... the situation is still recoverable.",
+      "placeholder": "urgent unless/provided conclusion",
+      "hint": "\"Unless X acts, Y will suffer.\" + \"Provided that Z happens, A is possible.\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Zero conditional (established facts)",
+      "color": "#003876",
+      "items": [
+        "If X happens, Y follows automatically.",
+        "At the level of established fact, the relationship is clear: if...",
+        "This is a zero conditional — a consequence that follows automatically.",
+        "The evidence consistently shows that if X, then Y.",
+        "Without X, Y cannot occur — this is not a prediction but a fact."
+      ]
+    },
+    {
+      "category": "First conditional (realistic predictions)",
+      "color": "#1D9E75",
+      "items": [
+        "If governments invest in X now, the results will be visible within Y years.",
+        "If this policy is implemented, communities will benefit.",
+        "Unless action is taken, the situation will deteriorate.",
+        "Provided that funding is secured, progress will be achievable.",
+        "This is a realistic prediction — achievable with political will."
+      ]
+    },
+    {
+      "category": "Second conditional (hypothetical ideal)",
+      "color": "#1B8FC4",
+      "items": [
+        "If governments were to treat X as a fundamental right, the effects would be transformative.",
+        "In an ideal scenario, if X were prioritised, we would see...",
+        "Were institutions to adopt this approach, the benefits would be significant.",
+        "This is hypothetical — but imagining it clarifies what is at stake."
+      ]
+    },
+    {
+      "category": "Third & Mixed (past failure & present cost)",
+      "color": "#C9933B",
+      "items": [
+        "If investment had begun ten years earlier, the situation would be different today.",
+        "If early action had been taken, we would already have a solution in place now.",
+        "The opportunity cost of delay is measurable in...",
+        "Looking backwards, if X had happened, Y would have followed.",
+        "The resources spent on remediation could instead have been invested in..."
+      ]
+    }
+  ]
+}

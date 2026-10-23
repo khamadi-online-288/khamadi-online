@@ -1,0 +1,564 @@
+{
+  "id": "l63-g2",
+  "moduleNum": 5,
+  "lessonNum": 6,
+  "moduleTitle": "Modal Verbs: Deduction & Advice",
+  "type": "grammar",
+  "title": "Retrospective Modals: Should Have, Could Have, Needn't Have",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Retrospective Modals — Past Advice, Regret & Criticism",
+  "grammarNote": "Ретроспективные модальные глаголы (should have, could have, might have, needn't have) описывают прошлые ситуации с позиции настоящего: что нужно было, можно было, не нужно было сделать. Это грамматика сожаления, критики, нереализованных возможностей и ненужных действий.",
+  "grammarTable": [
+    {
+      "subject": "should have + pp",
+      "verb": "criticism/regret (didn't do)",
+      "short": "should have done but didn't",
+      "example": "\"You should have called.\" (you didn't — this was wrong/a mistake)"
+    },
+    {
+      "subject": "shouldn't have + pp",
+      "verb": "criticism (did do)",
+      "short": "shouldn't have done (did)",
+      "example": "\"You shouldn't have eaten so much.\" (you did — this was a mistake)"
+    },
+    {
+      "subject": "could have + pp",
+      "verb": "unrealised opportunity",
+      "short": "was possible but not done",
+      "example": "\"She could have applied earlier.\" (option existed, not taken)"
+    },
+    {
+      "subject": "might have + pp",
+      "verb": "possible but not done/uncertain",
+      "short": "possible past alternative",
+      "example": "\"He might have called, but I was busy.\" (uncertain/possible)"
+    },
+    {
+      "subject": "needn't have + pp",
+      "verb": "done but unnecessary",
+      "short": "done but turned out useless",
+      "example": "\"You needn't have bought so much food.\" (you did — but it wasn't needed)"
+    },
+    {
+      "subject": "ought to have + pp",
+      "verb": "stronger regret/criticism",
+      "short": "should have (stronger)",
+      "example": "\"She ought to have checked the report.\" (stronger criticism)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Should have vs could have: judgement vs observation",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "should have = JUDGEMENT — it was wrong not to",
+          "example": "\"She should have applied.\" = It was wrong that she didn't. Judgement."
+        },
+        {
+          "form": "could have = OBSERVATION — opportunity existed",
+          "example": "\"She could have applied.\" = The option was there. Observation, not criticism."
+        },
+        {
+          "form": "Same event, different attitude",
+          "example": "\"You could have told me earlier.\" (observation: you had the option) ✅"
+        },
+        {
+          "form": "",
+          "example": "\"You should have told me earlier.\" (judgement: it was wrong that you didn't) ✅"
+        },
+        {
+          "form": "could have also = past ability",
+          "example": "\"She could have won — she was the strongest competitor.\" (had the ability) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Needn't have vs didn't need to",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "needn't have + pp = DID it, was unnecessary",
+          "example": "\"I needn't have WORRIED — it went fine.\" (I worried, but I didn't need to.) ✅"
+        },
+        {
+          "form": "didn't need to + base = DIDN'T do it (normal)",
+          "example": "\"I didn't need to worry — I knew it would be fine.\" (So I didn't worry.) ✅"
+        },
+        {
+          "form": "The KEY difference: did the action happen?",
+          "example": "\"Needn't have done\" = DID do it (but wasted effort). \"Didn't need to\" = DIDN'T do it. ✅"
+        },
+        {
+          "form": "Example contrast",
+          "example": "\"She needn't have prepared extra slides.\" (she prepared them — unnecessarily) vs \"She didn't need to prepare extra slides.\" (so she didn't) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Ought to have — stronger than should have",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "ought to have + pp = stronger moral obligation",
+          "example": "\"She ought to have disclosed the conflict of interest.\" (clear moral failure) ✅"
+        },
+        {
+          "form": "Similar to should have but more formal",
+          "example": "\"You ought to have checked.\" ≈ \"You should have checked.\" — more formal/literary ✅"
+        },
+        {
+          "form": "Often used in legal/ethical contexts",
+          "example": "\"They ought to have been informed earlier.\" (legal/ethical weight) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Was able to vs could have — past ability and opportunity",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "was/were able to = did manage (specific achievement)",
+          "example": "\"She was able to finish on time.\" (she managed it — achievement) ✅"
+        },
+        {
+          "form": "could + base form = general ability in past",
+          "example": "\"She could speak Kazakh fluently at 12.\" (general ability, not specific event) ✅"
+        },
+        {
+          "form": "could have + pp = had ability but didn't use it",
+          "example": "\"She could have finished earlier, but chose not to.\" (had the ability — didn't use it) ✅"
+        },
+        {
+          "form": "couldn't + base = was unable to (general)",
+          "example": "\"He couldn't solve the problem.\" (general inability at that time) ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common retrospective modal errors",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I should have went.\" (irregular pp)",
+          "example": "✅ \"I should have GONE.\" — past participle of \"go\" = \"gone.\" ✅"
+        },
+        {
+          "form": "✗ \"She needn't have to worry.\" (extra \"to\")",
+          "example": "✅ \"She needn't have WORRIED.\" — needn't have + pp, no \"to.\" ✅"
+        },
+        {
+          "form": "✗ \"He could have avoid it.\"",
+          "example": "✅ \"He could have AVOIDED it.\" — past participle required. ✅"
+        },
+        {
+          "form": "✗ Confusing could have (observation) with should have (judgement)",
+          "example": "\"You could have called.\" (option existed) ≠ \"You should have called.\" (it was wrong that you didn't) ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Retrospective Modals:\n\nshould have + pp → criticism/regret (didn't do)\n\"You SHOULD HAVE told me.\" (you didn't — mistake)\n\nshouldn't have + pp → criticism (did do)\n\"You SHOULDN'T HAVE said that.\" (you said — mistake)\n\ncould have + pp → opportunity existed but unused\n\"She COULD HAVE applied.\" (option was there)\n\nneedn't have + pp → done but unnecessary\n\"You NEEDN'T HAVE bought so much.\" (you did, wasted effort)\n\nought to have + pp → stronger should have\n\"They OUGHT TO HAVE been informed.\"\n\nwas able to = managed to do (specific achievement)\ncould have + pp = had ability but didn't use it\n\n⚠️ Errors:\n✗ should have went → ✅ should have GONE\n✗ needn't have to → ✅ needn't have (no 'to')\n✗ could have avoid → ✅ could have AVOIDED",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Should have — criticism of action not done.",
+      "text": "\"She arrived late. She ___ (leave) earlier.\"",
+      "opts": [
+        "could have left",
+        "should have left",
+        "needn't have left",
+        "might have left"
+      ],
+      "correct": "should have left",
+      "hint": "\"should have LEFT\" = retrospective criticism. She didn't leave earlier — and she should have. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Shouldn't have — criticism of action done.",
+      "text": "\"He told everyone the secret. He ___ (tell) anyone.\"",
+      "opts": [
+        "shouldn't have told",
+        "should have told",
+        "needn't have told",
+        "couldn't have told"
+      ],
+      "correct": "shouldn't have told",
+      "hint": "\"SHOULDN'T HAVE TOLD\" — he told everyone; this was wrong. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Could have vs should have — which is an OBSERVATION (not judgement)?",
+      "text": "\"She ___ applied for the scholarship. All the criteria were met.\"",
+      "opts": [
+        "could have (observation: option existed)",
+        "should have (judgement: she was wrong not to)",
+        "needn't have",
+        "ought to have"
+      ],
+      "correct": "could have (observation: option existed)",
+      "hint": "\"could have applied\" = the option was available. Observation, not judgement. \"Should have\" = it was wrong not to. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Needn't have — unnecessary completed action.",
+      "text": "\"We ___ (bring) so much food — there was already plenty.\"",
+      "correct": "needn't have brought",
+      "hint": "\"We NEEDN'T HAVE BROUGHT so much food.\" = We did bring it, but it was unnecessary. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Needn't have vs didn't need to. Choose.",
+      "text": "\"She prepared for ten hours, but the presentation was cancelled.\" →  She ___.",
+      "opts": [
+        "didn't need to prepare",
+        "needn't have prepared",
+        "shouldn't have prepared",
+        "could have prepared"
+      ],
+      "correct": "needn't have prepared",
+      "hint": "\"She NEEDN'T HAVE PREPARED.\" = She DID prepare (ten hours!) but it turned out to be unnecessary. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Didn't need to vs needn't have.",
+      "text": "\"She knew it would be cancelled, so she ___.\"",
+      "opts": [
+        "needn't have prepared",
+        "didn't need to prepare (so she didn't)",
+        "shouldn't have prepared",
+        "ought to have prepared"
+      ],
+      "correct": "didn't need to prepare (so she didn't)",
+      "hint": "\"didn't need to prepare\" = so she didn't. (The action wasn't done.) ✅ vs \"needn't have prepared\" = she did but it was unnecessary. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Ought to have — stronger moral obligation.",
+      "text": "\"The company ___ (disclose) the risks to investors. They didn't.\"",
+      "opts": [
+        "could have disclosed",
+        "should have disclosed",
+        "ought to have disclosed",
+        "Both should and ought to are correct"
+      ],
+      "correct": "Both should and ought to are correct",
+      "hint": "\"SHOULD HAVE DISCLOSED\" ✅ / \"OUGHT TO HAVE DISCLOSED\" ✅ — both correct. \"Ought to\" = stronger moral/legal weight. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Find the error and correct it.",
+      "text": "\"He should have went to see a doctor immediately.\"",
+      "correct": "gone",
+      "hint": "\"He should have GONE to see a doctor.\" — \"gone\" = past participle of \"go.\" Not \"went\" (past simple)! ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Was able to vs could have — specific achievement.",
+      "text": "\"Despite the deadline, she ___ finish the report on time.\" (she actually finished it)",
+      "opts": [
+        "could have finished",
+        "should have finished",
+        "was able to finish",
+        "needn't have finished"
+      ],
+      "correct": "was able to finish",
+      "hint": "\"was able to finish\" = managed to do it (specific achievement). \"Could have finished\" would mean she had the ability but didn't use it. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Could have — unrealised opportunity.",
+      "text": "\"He had all the resources but never wrote the novel. He ___ (write) it.\"",
+      "opts": [
+        "was able to write",
+        "should have written",
+        "could have written",
+        "needn't have written"
+      ],
+      "correct": "could have written",
+      "hint": "\"He COULD HAVE WRITTEN it.\" = had the opportunity/ability but didn't use it. Observation of unrealised potential. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct retrospective modal.",
+      "text": "\"You ___ (worry) so much — it all worked out fine!\"",
+      "opts": [
+        "shouldn't have worried",
+        "needn't have worried",
+        "Both are correct but different",
+        "should have worried"
+      ],
+      "correct": "Both are correct but different",
+      "hint": "\"SHOULDN'T HAVE WORRIED\" = criticises the worrying as a mistake. \"NEEDN'T HAVE WORRIED\" = the worry was done but was unnecessary. Both ✅ — different nuances. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Moral obligation retrospective.",
+      "text": "\"They ___ have been warned before the meeting. Nobody told them.\"",
+      "correct": "should / ought to",
+      "hint": "\"They SHOULD HAVE BEEN WARNED.\" / \"They OUGHT TO HAVE BEEN WARNED.\" ✅ (Both correct; ought to = slightly stronger moral weight.)"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "\"Could have\" — past ability.",
+      "text": "\"She ___ (run) faster — she was in excellent shape. But she chose to pace herself.\"",
+      "opts": [
+        "was able to run",
+        "could have run",
+        "should have run",
+        "couldn't run"
+      ],
+      "correct": "could have run",
+      "hint": "\"COULD HAVE RUN faster.\" = had the ability but didn't use it (chose not to). ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Complex situation — which is most appropriate?",
+      "text": "The meeting was rescheduled and nobody told Rustam. He drove across the city for nothing.",
+      "opts": [
+        "\"Rustam needn't have driven to the meeting.\"",
+        "\"Rustam shouldn't have driven to the meeting.\"",
+        "\"Rustam could have driven to the meeting.\"",
+        "\"Rustam ought to have driven to the meeting.\""
+      ],
+      "correct": "\"Rustam needn't have driven to the meeting.\"",
+      "hint": "\"Rustam NEEDN'T HAVE DRIVEN.\" = he drove (did the action) but it turned out to be unnecessary (meeting cancelled). ✅"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"She ___ (not / take) the job without reading the contract. It had terrible conditions.\"",
+      "correct": "shouldn't have taken",
+      "hint": "\"She SHOULDN'T HAVE TAKEN the job.\" = she took it — this was a mistake. Criticism of past action that was done. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Identify: what type of retrospective modal?",
+      "text": "\"We could have asked for more time. There was no reason to rush.\"",
+      "opts": [
+        "Criticism: it was wrong not to ask",
+        "Observation: the option existed but wasn't taken",
+        "The asking was unnecessary",
+        "Strong moral obligation"
+      ],
+      "correct": "Observation: the option existed but wasn't taken",
+      "hint": "\"could have asked\" = observation that the option was available. Not criticism (should have), not unnecessary action (needn't have). ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Should have + pp\" expresses:",
+      "opts": [
+        "Ability in the past",
+        "An action was done correctly",
+        "Criticism/regret — action NOT done; it was wrong not to",
+        "A deduction"
+      ],
+      "correct": "Criticism/regret — action NOT done; it was wrong not to",
+      "hint": "\"should have + pp\" = the action wasn't done and this was a mistake/regret. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Needn't have + pp\" means:",
+      "opts": [
+        "The action wasn't done",
+        "The action was done but was unnecessary",
+        "It was wrong to do it",
+        "The action was impossible"
+      ],
+      "correct": "The action was done but was unnecessary",
+      "hint": "\"needn't have + pp\" = done, but it turned out to be unnecessary. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Key difference: \"should have\" vs \"could have\":",
+      "opts": [
+        "No difference",
+        "\"should have\" = judgement (wrong not to); \"could have\" = observation (option existed)",
+        "\"could have\" is stronger",
+        "\"should have\" is more formal"
+      ],
+      "correct": "\"should have\" = judgement (wrong not to); \"could have\" = observation (option existed)",
+      "hint": "\"Should have\" = criticism/judgement. \"Could have\" = opportunity observation. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (not / say) that. It was very rude.\"",
+      "correct": "shouldn't have said",
+      "hint": "\"He SHOULDN'T HAVE SAID that.\" = he said it — this was a mistake/rude. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She didn't need to prepare vs she needn't have prepared.\" — difference:",
+      "opts": [
+        "No difference",
+        "\"Didn't need to\" = didn't prepare (not necessary, so she didn't); \"needn't have\" = prepared but it was unnecessary",
+        "\"Needn't have\" is stronger",
+        "\"Didn't need to\" is informal"
+      ],
+      "correct": "\"Didn't need to\" = didn't prepare (not necessary, so she didn't); \"needn't have\" = prepared but it was unnecessary",
+      "hint": "\"didn't need to\" = so didn't do. \"needn't have\" = did it but was wasted. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Ought to have + pp\" is:",
+      "opts": [
+        "Same as could have",
+        "A stronger, more formal version of should have",
+        "A deduction",
+        "A possibility"
+      ],
+      "correct": "A stronger, more formal version of should have",
+      "hint": "\"ought to have + pp\" = stronger/more formal retrospective criticism. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She should have went.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"went\" should be \"gone\" — past participle required",
+        "\"she\" is wrong",
+        "\"should\" needs \"to\""
+      ],
+      "correct": "\"went\" should be \"gone\" — past participle required",
+      "hint": "✅ \"She should have GONE.\" — past participle of \"go\" = \"gone.\" Not \"went.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Was able to finish\" vs \"could have finished\":",
+      "opts": [
+        "Same",
+        "\"Was able to\" = actually managed to do; \"could have\" = had ability but didn't use it",
+        "\"Could have\" is impossible",
+        "\"Was able to\" implies difficulty"
+      ],
+      "correct": "\"Was able to\" = actually managed to do; \"could have\" = had ability but didn't use it",
+      "hint": "\"was able to finish\" = she finished. \"could have finished\" = she had the ability but didn't. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You needn't have to worry.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"to\" should be removed — needn't have + pp (no \"to\")",
+        "\"needn't\" should be \"didn't need to\"",
+        "\"worry\" should be \"worried\""
+      ],
+      "correct": "\"to\" should be removed — needn't have + pp (no \"to\")",
+      "hint": "✅ \"You needn't have WORRIED.\" — no \"to\" after \"needn't have.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should have told me earlier.\" — vs \"You could have told me earlier.\" — choose the JUDGEMENT:",
+      "opts": [
+        "could have told",
+        "should have told",
+        "both are judgements",
+        "neither is a judgement"
+      ],
+      "correct": "should have told",
+      "hint": "\"should have\" = judgement (wrong not to tell). \"could have\" = observation (option existed). ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She needn't have prepared extra slides.\" — This implies:",
+      "opts": [
+        "She didn't prepare",
+        "She prepared them, but the preparation was wasted",
+        "It was wrong to prepare",
+        "She had no ability to prepare"
+      ],
+      "correct": "She prepared them, but the preparation was wasted",
+      "hint": "\"needn't have prepared\" = she did prepare (action done) but it turned out to be unnecessary. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which shows MORAL/ETHICAL obligation?",
+      "opts": [
+        "\"She could have disclosed it.\"",
+        "\"She might have disclosed it.\"",
+        "\"She ought to have disclosed it.\"",
+        "\"She needn't have disclosed it.\""
+      ],
+      "correct": "\"She ought to have disclosed it.\"",
+      "hint": "\"ought to have\" = strongest moral obligation retrospective. ✅"
+    }
+  ]
+}

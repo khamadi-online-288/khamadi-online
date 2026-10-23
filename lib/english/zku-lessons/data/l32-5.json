@@ -1,0 +1,152 @@
+{
+  "id": "l32-5",
+  "moduleNum": 16,
+  "lessonNum": 5,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "writing",
+  "title": "Writing: My Shopping Style",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    "I am not someone who spends a lot of money on clothes, but I care about what I wear. My style is simple, practical, and a little bit traditional.",
+    "For everyday university life, I wear plain casual clothes — dark blue jeans, a plain cotton T-shirt, and trainers. In winter, I wear a long dark grey wool coat that I bought second-hand. It is warm enough for the cold Uralsk winters.",
+    "For special occasions, I sometimes borrow traditional Kazakh accessories from my mother — a beautiful beaded necklace or a small embroidered bag. They are too precious to wear every day, but perfect for ceremonies.",
+    "I think fast fashion is too wasteful. Cheap clothes that fall apart after a few washes are not good enough for me. I prefer to save money and buy one quality item rather than five cheap ones.",
+    "My biggest wish? A hand-stitched Kazakh-inspired jacket that is modern enough for university but traditional enough to make me proud of who I am."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "I am not someone who ",
+      "suffix": ". My style is ",
+      "placeholder": "what you DON'T do (spend a lot / follow trends / care about brands)",
+      "hint": "e.g. spends a fortune on clothes / follows every trend"
+    },
+    {
+      "key": "style",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "describe your style in 2-3 adjectives",
+      "hint": "e.g. simple, practical, and colourful / casual but smart"
+    },
+    {
+      "key": "every",
+      "prefix": "For everyday life, I wear ",
+      "suffix": ". In winter, I wear ",
+      "placeholder": "your usual clothes (jeans and a hoodie / comfortable trousers)",
+      "hint": "e.g. dark jeans, a plain T-shirt, and trainers"
+    },
+    {
+      "key": "winter",
+      "prefix": "",
+      "suffix": ". It is ",
+      "placeholder": "winter clothing (a thick coat / a warm jacket)",
+      "hint": "e.g. a long grey wool coat / a puffer jacket"
+    },
+    {
+      "key": "adj",
+      "prefix": "",
+      "suffix": " enough for ",
+      "placeholder": "adjective (warm / light / comfortable)",
+      "hint": "Use adjective + enough: \"warm enough for winter\""
+    },
+    {
+      "key": "adjr",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "situation (the cold / daily use / university)",
+      "hint": "e.g. the cold Uralsk winters / everyday university life"
+    },
+    {
+      "key": "spec",
+      "prefix": "For special occasions, I ",
+      "suffix": ". They are too ",
+      "placeholder": "what you wear or do (wear traditional accessories / dress smartly)",
+      "hint": "e.g. wear a traditional Kazakh necklace / put on my best outfit"
+    },
+    {
+      "key": "too",
+      "prefix": "",
+      "suffix": " to wear every day, but perfect for ",
+      "placeholder": "adjective (precious / formal / expensive)",
+      "hint": "Use too + adjective: \"too precious to wear every day\""
+    },
+    {
+      "key": "toor",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "occasion (ceremonies / celebrations / important events)",
+      "hint": "e.g. ceremonies / formal dinners / cultural events"
+    },
+    {
+      "key": "fashion",
+      "prefix": "I think fast fashion is too ",
+      "suffix": ". I prefer ",
+      "placeholder": "negative adjective (wasteful / cheap / damaging)",
+      "hint": "e.g. wasteful / unsustainable / low quality"
+    },
+    {
+      "key": "pref",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "your preference (buying second-hand / investing in quality)",
+      "hint": "e.g. to buy one quality item rather than five cheap ones"
+    },
+    {
+      "key": "wish",
+      "prefix": "My biggest wish is ",
+      "suffix": ".",
+      "placeholder": "your dream clothing item or style goal",
+      "hint": "e.g. a Kazakh-inspired jacket / a designer bag / a traditional outfit"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing style",
+      "color": "#003876",
+      "items": [
+        "My style is simple / practical / colourful.",
+        "I am not someone who…",
+        "For everyday life, I wear…",
+        "In winter, I always wear…"
+      ]
+    },
+    {
+      "category": "too / enough",
+      "color": "#1B8FC4",
+      "items": [
+        "It is warm enough for the winter.",
+        "They are too precious to wear every day.",
+        "It is not cheap enough to buy often.",
+        "This coat is comfortable enough for university."
+      ]
+    },
+    {
+      "category": "Opinion & preference",
+      "color": "#1D9E75",
+      "items": [
+        "I think fast fashion is too wasteful.",
+        "I prefer buying second-hand.",
+        "Quality is more important than quantity.",
+        "My biggest wish is to own…"
+      ]
+    }
+  ],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

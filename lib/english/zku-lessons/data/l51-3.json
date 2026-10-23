@@ -1,0 +1,433 @@
+{
+  "id": "l51-3",
+  "moduleNum": 17,
+  "lessonNum": 3,
+  "moduleTitle": "Technology & Opinion",
+  "type": "listening",
+  "title": "A Podcast: The Future of Work",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to the WKU Student Podcast. Today we're discussing the future of work — specifically, how technology is changing the types of jobs that will exist in the next ten to twenty years. I'm joined by two guests. Amir, you study computer science. What's your view?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I think we're at a turning point. Automation and AI are already replacing a lot of routine tasks — data entry, basic customer service, simple manufacturing. The question isn't whether this will happen. It's already happening.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "And you, Zhibek — you study sports science. Do you feel affected by this?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Honestly, less worried than some. Physical training, coaching, healthcare — these involve human judgment and emotional connection. I don't think a robot can replace a good coach.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I agree that human connection is important. But I'd point out that AI is already being used in sports analytics — tracking performance, predicting injuries, designing training programmes. The role of the coach is changing.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Maybe. But the coach who uses AI tools well will be better — not replaced. The tool enhances the human, not the other way round.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "That's an interesting argument. Amir, what skills do you think will be most valuable in this changing economy?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Critical thinking. Creativity. The ability to work with AI rather than compete with it. And languages — especially English — because so much of the important content and collaboration happens in English.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'd add emotional intelligence and adaptability. The jobs that will survive are the ones that require you to genuinely understand and respond to people.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Do either of you worry about the social effects — job losses, inequality?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes. If automation creates wealth but doesn't distribute it fairly, we get more inequality. That's a political and economic problem, not a technology problem. But it's very real.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I think the education system needs to adapt much faster than it currently does. We're still training people for jobs that are disappearing.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Final question: are you optimistic about the future of work?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Cautiously optimistic. Technology has always created new jobs alongside the ones it eliminated. The challenge is the transition — making sure no one gets left behind.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'm optimistic if education changes. If it doesn't, I'm worried. The choice is ours.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "automation",
+      "emoji": "🤖",
+      "opts": [
+        "ручная работа",
+        "автоматизация",
+        "образование",
+        "инновация"
+      ],
+      "correct": "автоматизация"
+    },
+    {
+      "id": "p2",
+      "word": "analytics",
+      "emoji": "📊",
+      "opts": [
+        "художественное",
+        "аналитика / анализ данных",
+        "тренировка",
+        "программирование"
+      ],
+      "correct": "аналитика / анализ данных"
+    },
+    {
+      "id": "p3",
+      "word": "adaptability",
+      "emoji": "🔀",
+      "opts": [
+        "жёсткость",
+        "адаптивность / гибкость",
+        "упорство",
+        "традиционность"
+      ],
+      "correct": "адаптивность / гибкость"
+    },
+    {
+      "id": "p4",
+      "word": "inequality",
+      "emoji": "⚖️",
+      "opts": [
+        "равенство",
+        "неравенство",
+        "богатство",
+        "возможность"
+      ],
+      "correct": "неравенство"
+    },
+    {
+      "id": "p5",
+      "word": "optimistic",
+      "emoji": "🌟",
+      "opts": [
+        "пессимистичный",
+        "оптимистичный",
+        "нейтральный",
+        "озабоченный"
+      ],
+      "correct": "оптимистичный"
+    },
+    {
+      "id": "p6",
+      "word": "transition",
+      "emoji": "🌉",
+      "opts": [
+        "стабильность",
+        "переход / переходный период",
+        "прогресс",
+        "результат"
+      ],
+      "correct": "переход / переходный период"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir says automation is already replacing routine tasks.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Zhibek is very worried about AI replacing sports coaches.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Amir says AI is already used in sports analytics.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek thinks a coach who uses AI will be replaced by it.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Both Amir and Zhibek mention adaptability as an important future skill.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Both guests end the podcast with some level of optimism.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Computer science student — analytical, sees both benefits and risks of automation"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Sports science student — human-centred view, emphasises emotional intelligence"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says automation is already replacing routine tasks like data entry and customer service.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "Says physical coaching involves human judgment that robots can't replace.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "Points out that AI is already being used in sports analytics.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "Says the coach who uses AI tools will be enhanced, not replaced.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s5",
+      "text": "Says if automation creates wealth without distributing it fairly, inequality grows.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Says education needs to adapt faster — we're still training people for disappearing jobs.",
+      "correctCharId": "zhibek"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What types of tasks does Amir say automation is already replacing?",
+      "opts": [
+        "Creative and strategic tasks",
+        "Routine tasks like data entry and basic customer service",
+        "Physical sports coaching",
+        "Academic research"
+      ],
+      "correct": "Routine tasks like data entry and basic customer service",
+      "hint": "\"Data entry, basic customer service, simple manufacturing.\" — already being replaced."
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is Zhibek less worried about automation in her field?",
+      "opts": [
+        "Robots can already coach",
+        "Sports don't use technology",
+        "Coaching involves human judgment and emotional connection",
+        "Her job pays well"
+      ],
+      "correct": "Coaching involves human judgment and emotional connection",
+      "hint": "\"Physical training, coaching, healthcare — these involve human judgment and emotional connection.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about coaches who use AI?",
+      "opts": [
+        "They will be replaced",
+        "They will become worse",
+        "They will be better — AI enhances the human",
+        "They will earn less"
+      ],
+      "correct": "They will be better — AI enhances the human",
+      "hint": "\"The coach who uses AI tools well will be better — not replaced. The tool enhances the human.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which skills does Amir say will be most valuable?",
+      "opts": [
+        "Memory and speed",
+        "Critical thinking, creativity, working with AI, languages",
+        "Physical strength and stamina",
+        "Traditional technical skills"
+      ],
+      "correct": "Critical thinking, creativity, working with AI, languages",
+      "hint": "\"Critical thinking. Creativity. The ability to work with AI. And languages — especially English.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir say about automation and inequality?",
+      "opts": [
+        "Automation always creates equality",
+        "If wealth isn't distributed fairly, inequality grows — a political problem",
+        "Technology solves inequality automatically",
+        "It's not a real problem"
+      ],
+      "correct": "If wealth isn't distributed fairly, inequality grows — a political problem",
+      "hint": "\"If automation creates wealth but doesn't distribute it fairly, we get more inequality.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about the education system?",
+      "opts": [
+        "It's perfect as it is",
+        "It should focus less on technology",
+        "It needs to adapt much faster — still training for disappearing jobs",
+        "Students should study less"
+      ],
+      "correct": "It needs to adapt much faster — still training for disappearing jobs",
+      "hint": "\"The education system needs to adapt much faster... We're still training people for jobs that are disappearing.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Amir describe his view of the future?",
+      "opts": [
+        "Very pessimistic",
+        "Completely optimistic",
+        "Cautiously optimistic",
+        "Uncertain and worried"
+      ],
+      "correct": "Cautiously optimistic",
+      "hint": "\"Cautiously optimistic. Technology has always created new jobs alongside the ones it eliminated.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek says she is optimistic only if the education system changes.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I'm optimistic if education changes. If it doesn't, I'm worried.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The question isn't whether this will happen.\" — \"the question\" has \"the\" because:",
+      "opts": [
+        "\"question\" is plural",
+        "\"the\" is used before all nouns",
+        "The question is now specific — both speakers know which question",
+        "\"isn't\" requires \"the\""
+      ],
+      "correct": "The question is now specific — both speakers know which question",
+      "hint": "\"THE question\" = specific, already mentioned or understood. Both speakers know which question is being discussed. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A turning point\" — \"a\" is used because:",
+      "opts": [
+        "It's the only turning point",
+        "It's the first mention — unspecific",
+        "Turning points are always uncountable",
+        "\"A\" is used before consonant sounds only"
+      ],
+      "correct": "It's the first mention — unspecific",
+      "hint": "\"a turning point\" = first mention, one of many possible turning points. \"A\" = indefinite, first introduction. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The education system needs to adapt.\" — \"the\" is used because:",
+      "opts": [
+        "Education is uncountable",
+        "The education system = specific system they are both discussing",
+        "\"System\" always takes \"the\"",
+        "It's the first mention"
+      ],
+      "correct": "The education system = specific system they are both discussing",
+      "hint": "\"THE education system\" = specific — the Kazakhstani education system they are clearly discussing. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She is ___ sports science student.\" (first mention)",
+      "correct": "a",
+      "hint": "First mention, unspecific: \"She is A sports science student.\" ✅ (sports starts with consonant sound \"sp\")"
+    }
+  ]
+}

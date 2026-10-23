@@ -1,0 +1,423 @@
+{
+  "id": "l11-6",
+  "moduleNum": 11,
+  "lessonNum": 8,
+  "moduleTitle": "Last weekend",
+  "title": "Module 11 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aruzhan study at WKU?",
+      "opts": [
+        "Law",
+        "Medicine",
+        "Computer Science",
+        "Engineering"
+      ],
+      "correct": "Engineering",
+      "hint": "\"My name is Aruzhan Bekova. I study Engineering at WKU — it is my first year.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Aruzhan slept in late on Saturday morning because it was the weekend.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I woke up at half past seven — earlier than usual for a weekend!\" — Aruzhan woke up early, not late."
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Who bought ice cream for everyone in the city park?",
+      "opts": [
+        "Aisha",
+        "Aruzhan",
+        "Yerlan",
+        "Saule"
+      ],
+      "correct": "Saule",
+      "hint": "\"Saule bought ice cream for everyone from a small kiosk near the fountain.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "On Saturday evening, Yerlan cooked ___ with chicken using his grandmother's recipe.",
+      "correct": "rice",
+      "hint": "\"Yerlan cooked rice with chicken — he learned the recipe from his grandmother in Semey.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Aruzhan do on Sunday morning to help her roommate?",
+      "opts": [
+        "She cooked breakfast for her",
+        "She cleaned her room for her",
+        "She called a doctor for her",
+        "She helped her with a Chemistry assignment"
+      ],
+      "correct": "She helped her with a Chemistry assignment",
+      "hint": "\"I helped my roommate Meruert with her Chemistry assignment. She explained her problem and I worked through the calculations with her.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Aruzhan went to sleep at midnight on Sunday evening.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I fixed a cup of chamomile tea... and went to sleep at eleven.\" — Not midnight, but eleven o'clock."
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Aruzhan finished the ___ section of her Engineering Design project on Sunday afternoon.",
+      "correct": "introduction",
+      "hint": "\"I finished the introduction section completely — something I had planned to do for two weeks!\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Aruzhan do on Sunday evening?",
+      "opts": [
+        "She visited the city park again",
+        "She called her family in Kyzylorda",
+        "She studied in the library for three more hours",
+        "She listened to a podcast and painted a watercolour picture"
+      ],
+      "correct": "She listened to a podcast and painted a watercolour picture",
+      "hint": "\"I listened to an English podcast about sustainable architecture and painted a small watercolour picture of the river.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where did Yerlan and his friends go on Saturday afternoon?",
+      "opts": [
+        "To the WKU library",
+        "To the market",
+        "To the city park",
+        "To the river bank"
+      ],
+      "correct": "To the city park",
+      "hint": "\"We walked to the city park in the afternoon. We stayed there for two hours.\" — Yerlan tells Bekzhan."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Yerlan learned his rice recipe from his mother.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I learned from my grandmother. I practised it a lot last summer in Semey.\" — grandmother, NOT mother."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Yerlan worked on his Economics essay for ___ hours on Sunday.",
+      "correct": "six",
+      "hint": "\"I studied all day Sunday. I worked on my Economics essay for six hours.\" — Yerlan tells Bekzhan."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happened during the comedy film on Saturday evening?",
+      "opts": [
+        "Yerlan's laptop stopped working",
+        "Aisha fell asleep during the film",
+        "Yerlan spilled his drink on the table",
+        "Saule laughed so hard she spilled her tea"
+      ],
+      "correct": "Saule laughed so hard she spilled her tea",
+      "hint": "\"Saule laughed so hard she spilled her tea!\" — Yerlan describes the funniest moment of the evening."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Bekzhan visited the city park with Yerlan's group on Saturday.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I studied all weekend too — I never left my room. I only visited the cafeteria for meals.\" — Bekzhan stayed in his room the whole weekend."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When did Bekzhan call his parents?",
+      "opts": [
+        "Saturday morning",
+        "Saturday evening",
+        "Sunday morning",
+        "Sunday evening"
+      ],
+      "correct": "Sunday evening",
+      "hint": "\"I called my parents on Sunday evening. We talked for a long time. That was nice.\" — Bekzhan."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Last Saturday, Aruzhan ___ her room from top to bottom.",
+      "opts": [
+        "clean",
+        "cleans",
+        "is cleaning",
+        "cleaned"
+      ],
+      "correct": "cleaned",
+      "hint": "\"Last Saturday\" = past time signal → Past Simple. clean → cleaned ✅ (regular verb, just add -ed)."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Yesterday, Saule and Aruzhan walked to the city park together\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Yesterday\" = Past Simple signal. walk → walked ✅ (regular -ed). Same form for all subjects — Saule and Aruzhan walked ✅."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Yerlan ___ (practise) cooking at his grandmother's house every summer.",
+      "correct": "practised",
+      "hint": "practise ends in -e → just add -d: practised ✅ (NOT \"practiseed\" — verb ends in -e, only +d!)"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Bekzhan ___ leave his room all weekend — he studied the whole time.",
+      "opts": [
+        "doesn't",
+        "isn't",
+        "wasn't",
+        "didn't"
+      ],
+      "correct": "didn't",
+      "hint": "\"last weekend\" = past → DIDN'T (not doesn't). \"Bekzhan didn't leave his room.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the correct Past Simple form of \"study\"?",
+      "opts": [
+        "studyed",
+        "studiyed",
+        "studi'd",
+        "studied"
+      ],
+      "correct": "studied",
+      "hint": "study → consonant (d) + y → change y to i, add -ed: studied ✅. NOT \"studyed\" — must apply the y→i rule!"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She didn't cooked dinner on Saturday evening\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "NEVER use -ed after didn't! → \"She didn't COOK dinner.\" ✅ (base form after didn't — \"cooked\" ❌)"
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "On her way back, Aruzhan ___ (stop) at the market and bought apples and bread.",
+      "correct": "stopped",
+      "hint": "stop → CVC rule (s-t-o-p: 1 syllable, consonant-vowel-consonant) → double the p → stopped ✅. NOT \"stoped\"!"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence has the correct Past Simple spelling?",
+      "opts": [
+        "\"They staied in the park for two hours.\"",
+        "\"They stayied in the park for two hours.\"",
+        "\"They staid in the park for two hours.\"",
+        "\"They stayed in the park for two hours.\""
+      ],
+      "correct": "\"They stayed in the park for two hours.\"",
+      "hint": "stay → vowel (a) + y → just add -ed: stayed ✅. NOT \"staied\" or \"stayied\" — the y→i rule only applies when there's a consonant before y!"
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"relieved\" mean?",
+      "opts": [
+        "very tired after a long day",
+        "very surprised by something unexpected",
+        "very hungry and needing food",
+        "feeling happy because a worry or difficulty has ended"
+      ],
+      "correct": "feeling happy because a worry or difficulty has ended",
+      "hint": "\"Meruert looked relieved and happy when she finally understood Chemistry.\" — the worry ended → she felt relieved."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "A \"breeze\" is a very strong, dangerous wind.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Breeze = a LIGHT, GENTLE wind. \"The weather was perfect — cool, sunny, and with a GENTLE breeze.\" The opposite of a strong or dangerous wind."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The opposite of \"stressed\" or \"tense\" is ___.",
+      "correct": "relaxed",
+      "hint": "Relaxed (расслабленный) = calm and free from stress. \"You look very RELAXED for a Monday!\" — Bekzhan says to Yerlan."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"gather\" mean?",
+      "opts": [
+        "to clean a room thoroughly",
+        "to buy food at the market",
+        "to study very hard for an exam",
+        "to come together in a group"
+      ],
+      "correct": "to come together in a group",
+      "hint": "\"Four friends gathered in Yerlan's dormitory room for dinner on Saturday.\" Gather = to come together / meet up in one place."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"documentary\"?",
+      "opts": [
+        "A type of pasta dish from Kazakhstan",
+        "A funny comedy film",
+        "A film or TV programme that shows real events and facts",
+        "A type of music popular among students"
+      ],
+      "correct": "A film or TV programme that shows real events and facts",
+      "hint": "\"One friend suggested a documentary, but they all voted for a Kazakh comedy film.\" Documentary = деректі фильм — a real-life factual film."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "To \"practise\" something means to do it once and then stop.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Practise\" = to do something REGULARLY over time to improve your skill. \"Yerlan practised cooking at his grandmother's every summer.\" — many times, not just once."
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "\"___, last weekend was a perfect balance of fun and hard work.\" — Yerlan.",
+      "correct": "Overall",
+      "hint": "\"Overall\" (в целом) = considering everything together; in general. A great word to start a conclusion sentence."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"particular\" mean?",
+      "opts": [
+        "general and the same as everything else",
+        "very boring and completely ordinary",
+        "impossible to describe in words",
+        "special or specific, different from others"
+      ],
+      "correct": "special or specific, different from others",
+      "hint": "\"I want to tell you about one PARTICULAR moment from last weekend.\" — one specific, special moment, not just any moment."
+    }
+  ]
+}

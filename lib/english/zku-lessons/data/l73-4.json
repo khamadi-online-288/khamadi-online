@@ -1,0 +1,239 @@
+{
+  "id": "l73-4",
+  "moduleNum": 15,
+  "lessonNum": 7,
+  "moduleTitle": "Work, Careers & Ambition",
+  "title": "Writing: A Professional Cover Letter and Career Reflection",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "opening",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "State the position you are applying for and where you saw the advertisement",
+      "hint": "Be specific and direct — do not begin with \"I am writing to apply\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe your most relevant experience and achievements",
+      "hint": "Use reporting verbs: \"I have led…\", \"The team I managed…\", \"I was recognised for…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Explain why this role and organisation appeal to you specifically",
+      "hint": "Show you have researched the organisation — mention specific projects, values, or goals"
+    },
+    {
+      "key": "closing",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Express enthusiasm and request an interview",
+      "hint": "Be confident but not arrogant: \"I would welcome the opportunity to discuss…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "I am applying for the position of ",
+      "suffix": ", as advertised on ___.",
+      "hint": "State the role clearly at the start",
+      "placeholder": "Senior Analyst / your website / LinkedIn"
+    },
+    {
+      "key": "l2",
+      "prefix": "In my current role as ",
+      "suffix": ", I have ___.",
+      "hint": "State your current position and a key achievement",
+      "placeholder": "Data Analyst at Horizon NGO / led a team of six on a cross-border research project"
+    },
+    {
+      "key": "l3",
+      "prefix": "I am particularly drawn to your organisation because ",
+      "suffix": ".",
+      "placeholder": "you have committed to data-driven policy advocacy in under-resourced communities",
+      "hint": "Show specific knowledge of the organisation"
+    },
+    {
+      "key": "l4",
+      "prefix": "My colleagues have described me as ",
+      "suffix": ", and I would argue that ___.",
+      "hint": "Use reporting language to show self-awareness",
+      "placeholder": "someone who brings both technical rigour and creative thinking / this combination is what this role demands"
+    },
+    {
+      "key": "l5",
+      "prefix": "I would welcome the opportunity to discuss ",
+      "suffix": " in more detail.",
+      "placeholder": "how my experience and values align with your organisation's mission",
+      "hint": "Close confidently and professionally"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Professional opening phrases",
+      "color": "#003876",
+      "items": [
+        "I am writing to express my interest in…",
+        "I am applying for the position of…, as advertised…",
+        "Having followed your organisation's work for some time…",
+        "I am excited to apply for…, a role that aligns closely with my expertise in…",
+        "I am a [role] with [X] years of experience in…"
+      ]
+    },
+    {
+      "category": "Describing experience with reporting verbs",
+      "color": "#1D9E75",
+      "items": [
+        "In my current role, I have led / managed / coordinated…",
+        "My colleagues have recognised me for…",
+        "I have been described as someone who…",
+        "The team I managed successfully delivered…",
+        "I proposed and implemented a new system that…"
+      ]
+    },
+    {
+      "category": "Showing motivation and fit",
+      "color": "#C9933B",
+      "items": [
+        "I am particularly drawn to your organisation because…",
+        "What excites me most about this role is…",
+        "Your commitment to [value] resonates strongly with…",
+        "I would argue that my background in [area] positions me well to…",
+        "This role represents exactly the kind of challenge I am seeking."
+      ]
+    },
+    {
+      "category": "Professional closing phrases",
+      "color": "#1B8FC4",
+      "items": [
+        "I would welcome the opportunity to discuss my application further.",
+        "I am available for interview at your convenience.",
+        "Please find my CV attached for your consideration.",
+        "I look forward to hearing from you.",
+        "I am confident that I can contribute meaningfully to your team."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She ___ applying for a more senior position once she had two years of experience.\" (she planned this)",
+      "opts": [
+        "suggested",
+        "considered",
+        "refused",
+        "denied"
+      ],
+      "correct": "considered",
+      "hint": "\"Consider + gerund\" (consider doing)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"My colleagues have ___ (describe) me as someone who brings both creativity and analytical rigour.\"",
+      "correct": "described",
+      "hint": "Present perfect passive: \"have been described as\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I ___ to bring these skills to your organisation.\" (expressing eagerness to contribute)",
+      "opts": [
+        "claim",
+        "deny",
+        "propose",
+        "am eager"
+      ],
+      "correct": "am eager",
+      "hint": "\"Eager to + infinitive\" = strong positive desire",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The hiring manager ___ (acknowledge) that the selection process had taken longer than expected.\"",
+      "correct": "acknowledged",
+      "hint": "\"Acknowledged\" = admitted, often of a problem or delay",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most professional opening for a cover letter?",
+      "opts": [
+        "I want this job very much and think I am perfect.",
+        "Hi, I am applying for the analyst role.",
+        "I am writing to express my interest in the Senior Analyst position, as advertised on your website.",
+        "Someone told me about this job and I think it suits me."
+      ],
+      "correct": "I am writing to express my interest in the Senior Analyst position, as advertised on your website.",
+      "hint": "Professional, specific, and formal tone",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"I proposed and implemented a system that increased efficiency by 30%\" uses a reporting verb correctly.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Proposed\" = put forward a formal plan (reporting verb + direct object)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ been ___ that cover letters should be no longer than one page.\" (it is recommended)",
+      "correct": "It has / suggested",
+      "hint": "\"It has been suggested that\" = formal passive reporting",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I would welcome the opportunity ___ my experience in more detail.\"",
+      "opts": [
+        "discussing",
+        "to discuss",
+        "discuss",
+        "that discuss"
+      ],
+      "correct": "to discuss",
+      "hint": "\"Welcome the opportunity to + infinitive\"",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "id": "l50-2",
+  "moduleNum": 16,
+  "lessonNum": 2,
+  "moduleTitle": "Gerunds & Infinitives",
+  "type": "listening",
+  "title": "I've Decided to Change My Life",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "I've decided to make some serious changes this semester. I keep putting things off and I'm tired of it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What kind of changes? Are you planning to be more organised?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Exactly. I've started using a weekly planner. I enjoy ticking things off a list — it feels productive.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's great. I love making lists too, but I tend to forget checking them.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Ha! I've been practising checking mine every morning. Also — I've decided to stop checking my phone in the evenings.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Seriously? That's hard. Do you miss scrolling through things?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "A bit. But I've started reading instead. I'd forgotten how much I enjoy reading before bed.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What are you reading?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "A biography of Abai. It's incredible. I can't imagine having been that creative in such difficult circumstances.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'd love to read that. Can you lend it to me when you finish?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Of course. I expect to finish it by the weekend. Also — I've promised myself to exercise three times a week.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "So you've decided to exercise, to stop using your phone in the evenings, and to use a planner. That's a lot.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I know. But I've been avoiding making changes for too long. I refuse to keep drifting.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I admire that. I've been meaning to change a few things too. Maybe we can help each other stay on track.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Definitely. Let's agree to check in every Monday morning.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Agreed. I look forward to seeing the new organised Rustam.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "productive",
+      "emoji": "⚡",
+      "opts": [
+        "бесполезный",
+        "продуктивный",
+        "расслабленный",
+        "занятый"
+      ],
+      "correct": "продуктивный"
+    },
+    {
+      "id": "p2",
+      "word": "biography",
+      "emoji": "📖",
+      "opts": [
+        "роман",
+        "биография",
+        "учебник",
+        "словарь"
+      ],
+      "correct": "биография"
+    },
+    {
+      "id": "p3",
+      "word": "circumstances",
+      "emoji": "🌍",
+      "opts": [
+        "результаты",
+        "обстоятельства",
+        "возможности",
+        "правила"
+      ],
+      "correct": "обстоятельства"
+    },
+    {
+      "id": "p4",
+      "word": "drifting",
+      "emoji": "🌊",
+      "opts": [
+        "работать упорно",
+        "дрейфовать / плыть по течению",
+        "планировать",
+        "решать"
+      ],
+      "correct": "дрейфовать / плыть по течению"
+    },
+    {
+      "id": "p5",
+      "word": "stay on track",
+      "emoji": "🛤️",
+      "opts": [
+        "изменить план",
+        "оставаться на правильном пути",
+        "расслабиться",
+        "остановиться"
+      ],
+      "correct": "оставаться на правильном пути"
+    },
+    {
+      "id": "p6",
+      "word": "check in",
+      "emoji": "📲",
+      "opts": [
+        "регистрироваться / проверять",
+        "игнорировать",
+        "отказываться",
+        "забывать"
+      ],
+      "correct": "регистрироваться / проверять"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam has started using a weekly planner.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Rustam enjoys checking social media in the evenings.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Rustam has started reading before bed instead of using his phone.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam is reading a biography of Abai.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila also wants to make some changes.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "They agree to check in with each other every Friday.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "📋",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Making big life changes — planner, no phone evenings, exercise, reading"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Supportive friend who also wants to change — accountability partner"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says they've started using a weekly planner and enjoy ticking things off.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "Says they tend to forget checking their list.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Says they've decided to stop checking their phone in the evenings.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Asks to borrow the biography of Abai when Rustam finishes it.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Says they've promised themselves to exercise three times a week.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Suggests they agree to check in with each other every Monday morning.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What changes has Rustam made this semester?",
+      "opts": [
+        "Only started exercising",
+        "Started a planner, stopped phone evenings, started reading, promised to exercise",
+        "Only read a biography",
+        "Only stopped using his phone"
+      ],
+      "correct": "Started a planner, stopped phone evenings, started reading, promised to exercise",
+      "hint": "Rustam mentions all four changes: planner, no phone evenings, reading, and exercise."
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Rustam enjoy about using a planner?",
+      "opts": [
+        "It saves time",
+        "He enjoys ticking things off a list",
+        "It impresses Kamila",
+        "It's required by his professor"
+      ],
+      "correct": "He enjoys ticking things off a list",
+      "hint": "\"I enjoy ticking things off a list — it feels productive.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam misses scrolling through his phone in the evenings.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"A bit.\" — he admits he misses it a little."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What book is Rustam reading?",
+      "opts": [
+        "A grammar textbook",
+        "A novel by Auezov",
+        "A biography of Abai",
+        "An English coursebook"
+      ],
+      "correct": "A biography of Abai",
+      "hint": "\"A biography of Abai. It's incredible.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When does Rustam expect to finish the book?",
+      "opts": [
+        "Next month",
+        "By Friday",
+        "By the weekend",
+        "After the semester"
+      ],
+      "correct": "By the weekend",
+      "hint": "\"I expect to finish it by the weekend.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How often has Rustam promised himself to exercise?",
+      "opts": [
+        "Every day",
+        "Once a week",
+        "Three times a week",
+        "Twice a week"
+      ],
+      "correct": "Three times a week",
+      "hint": "\"I've promised myself to exercise three times a week.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says she has no changes she wants to make.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've been meaning to change a few things too.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What do Rustam and Kamila agree to do?",
+      "opts": [
+        "Study together daily",
+        "Check in with each other every Monday morning",
+        "Go to the gym together",
+        "Share reading lists"
+      ],
+      "correct": "Check in with each other every Monday morning",
+      "hint": "\"Let's agree to check in every Monday morning.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I enjoy ticking things off a list.\" — \"ticking\" is:",
+      "opts": [
+        "Main verb",
+        "Adjective",
+        "Gerund (after \"enjoy\")",
+        "Present participle in a continuous tense"
+      ],
+      "correct": "Gerund (after \"enjoy\")",
+      "hint": "\"enjoy\" + GERUND (V-ing). \"I enjoy TICKING.\" ✅ \"enjoy to tick\" = ✗ wrong!"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've decided to stop checking my phone.\" — \"to stop\" is:",
+      "opts": [
+        "Gerund",
+        "Infinitive (after \"decided\")",
+        "Modal verb",
+        "Passive form"
+      ],
+      "correct": "Infinitive (after \"decided\")",
+      "hint": "\"decide\" + INFINITIVE. \"I've decided TO STOP.\" ✅ \"decided stopping\" = ✗ wrong!"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I refuse to keep drifting.\" — Which word takes a gerund after it?",
+      "opts": [
+        "refuse",
+        "to",
+        "keep",
+        "drifting"
+      ],
+      "correct": "keep",
+      "hint": "\"keep\" + GERUND: \"keep DRIFTING.\" ✅ / \"refuse\" + infinitive: \"refuse TO keep.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I look forward to ___ you next week.\" (see)",
+      "correct": "seeing",
+      "hint": "\"look forward to\" + GERUND. \"I look forward to SEEING you.\" ✅ (NOT \"to see\")"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been avoiding making changes.\" — \"avoiding\" takes:",
+      "opts": [
+        "Infinitive",
+        "Gerund (avoid + V-ing)",
+        "Past participle",
+        "Modal"
+      ],
+      "correct": "Gerund (avoid + V-ing)",
+      "hint": "\"avoid\" + GERUND: \"avoid MAKING.\" ✅ \"avoid to make\" = ✗ wrong!"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've promised myself to exercise.\" — \"promised\" takes:",
+      "opts": [
+        "Gerund",
+        "Infinitive",
+        "Past tense",
+        "Present participle"
+      ],
+      "correct": "Infinitive",
+      "hint": "\"promise\" + INFINITIVE: \"promised TO exercise.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I tend to forget checking my list.\" — \"tend\" takes:",
+      "opts": [
+        "Gerund",
+        "Infinitive",
+        "Both equally",
+        "Neither"
+      ],
+      "correct": "Infinitive",
+      "hint": "\"tend\" + INFINITIVE: \"tend TO forget.\" ✅ \"tend forgetting\" = ✗"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Let's agree ___ check in every Monday.\" (agree + ?)",
+      "correct": "to",
+      "hint": "\"agree\" + INFINITIVE: \"agree TO check in.\" ✅ \"agree checking\" = ✗"
+    }
+  ]
+}

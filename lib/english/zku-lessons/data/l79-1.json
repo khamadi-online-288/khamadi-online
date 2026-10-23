@@ -1,0 +1,325 @@
+{
+  "id": "l79-1",
+  "moduleNum": 21,
+  "lessonNum": 1,
+  "moduleTitle": "Economics & Money in Society",
+  "title": "How Markets Work: Supply, Demand, and the Price Mechanism",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "Economics is sometimes described as the study of scarcity — the fact that human desires are unlimited while the resources available to satisfy them are finite. This fundamental tension produces the central problem that economic systems must solve: how to allocate scarce resources among competing uses. Different economic systems solve this problem in different ways. In a market economy, the primary mechanism is the price system — the interaction of supply and demand that determines what is produced, how it is produced, and for whom.",
+    "The law of demand states that, all else being equal, as the price of a good or service rises, the quantity demanded by consumers falls, and as the price falls, the quantity demanded rises. This inverse relationship reflects a simple reality: when something becomes more expensive, people buy less of it, either switching to cheaper alternatives or simply going without. The law of supply states the reverse: as the price of a good rises, producers are willing to supply more of it, because higher prices make production more profitable.",
+    "When supply and demand are in equilibrium — when the quantity producers want to sell exactly matches the quantity consumers want to buy at a given price — the market \"clears.\" No unsold goods accumulate in warehouses, and no consumers go away frustrated because the product is unavailable. This equilibrium price is sometimes called the \"market clearing price,\" and in an idealised free market, prices naturally adjust towards this point. If too much of a product is produced and prices fall, producers cut back; if too little is produced and prices rise, new producers are attracted and existing ones increase output.",
+    "Markets are powerful mechanisms for coordinating economic activity because they aggregate enormous amounts of dispersed information — information about consumers' preferences, producers' costs, resource availability, and technological possibilities — without anyone needing to collect or process this information centrally. Friedrich Hayek, one of the twentieth century's most influential economists, argued that this \"knowledge problem\" — the impossibility of any central authority possessing the information needed to allocate resources efficiently — is the fundamental argument for market economies over centrally planned ones.",
+    "Markets, however, are not perfect. Several well-documented market failures create situations in which unregulated markets produce socially suboptimal outcomes. Externalities occur when the production or consumption of a good imposes costs or benefits on parties not involved in the transaction — the classic example is pollution, which imposes costs on society but is not reflected in the price of the polluting product. Public goods are goods that are non-excludable (you cannot prevent people from using them) and non-rival (one person's use does not diminish their availability to others) — national defence and clean air are often cited as examples. Markets generally underprovide public goods because producers cannot charge for their use.",
+    "Information asymmetries — situations in which one party to a transaction has more or better information than the other — can also cause markets to fail. The classic example comes from the market for used cars: a seller knows much more about the quality of the car they are selling than the buyer. This \"lemon problem\" (named by economist George Akerlof) means buyers rationally discount their offers, which drives out sellers of high-quality cars and can cause the market to produce mostly low-quality goods. Information asymmetries are also important in insurance, financial markets, and healthcare.",
+    "Understanding markets and their limitations is essential for citizens, not just economists. Economic policy — decisions about taxation, public spending, regulation, and the role of the state — is shaped by assumptions about how markets work and when they fail. Citizens who understand these mechanisms are better equipped to evaluate policy arguments, to recognise when economic claims are well-founded and when they are serving particular interests, and to participate in the democratic conversations through which economic policy is ultimately determined."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "law of supply and demand",
+      "ru": "закон спроса и предложения",
+      "context": "The fundamental relationship between price, supply, and demand in markets"
+    },
+    {
+      "phrase": "market equilibrium",
+      "ru": "рыночное равновесие",
+      "context": "When the quantity supplied exactly matches the quantity demanded"
+    },
+    {
+      "phrase": "market failure",
+      "ru": "провал рынка",
+      "context": "When markets produce socially suboptimal outcomes without intervention"
+    },
+    {
+      "phrase": "externality",
+      "ru": "внешний эффект / экстерналия",
+      "context": "Cost or benefit imposed on parties not involved in a transaction"
+    },
+    {
+      "phrase": "information asymmetry",
+      "ru": "информационная асимметрия",
+      "context": "When one party has more/better information than another in a transaction"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "scarcity",
+      "ipa": "/ˈskeəsɪti/",
+      "pos": "noun",
+      "ru": "дефицит / ограниченность ресурсов",
+      "kz": "жетіспеушілік",
+      "emoji": "⚠️",
+      "definition": "the limited availability of resources relative to unlimited human wants",
+      "example": "\"Economics is the study of scarcity — how to allocate limited resources among unlimited desires.\"",
+      "collocations": [
+        "problem of scarcity",
+        "resource scarcity",
+        "overcome scarcity"
+      ]
+    },
+    {
+      "en": "equilibrium",
+      "ipa": "/ˌiːkwɪˈlɪbriəm/",
+      "pos": "noun",
+      "ru": "равновесие",
+      "kz": "тепе-теңдік",
+      "emoji": "⚖️",
+      "definition": "a state of balance where supply and demand are equal at a given price",
+      "example": "\"At equilibrium, the quantity supplied equals the quantity demanded.\"",
+      "collocations": [
+        "market equilibrium",
+        "reach equilibrium",
+        "equilibrium price"
+      ]
+    },
+    {
+      "en": "externality",
+      "ipa": "/ˌekstɜːˈnælɪti/",
+      "pos": "noun",
+      "ru": "внешний эффект / экстерналия",
+      "kz": "сыртқы əсер",
+      "emoji": "💨",
+      "definition": "a cost or benefit of an economic activity experienced by unrelated third parties",
+      "example": "\"Pollution is a negative externality — a cost borne by society, not reflected in the product's price.\"",
+      "collocations": [
+        "negative externality",
+        "positive externality",
+        "address externalities"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What does economics study, according to paragraph 1?",
+      "correct": "Scarcity — how to allocate finite resources among unlimited human desires"
+    },
+    {
+      "id": "t2",
+      "question": "What is the \"market clearing price\"?",
+      "correct": "The equilibrium price at which the quantity supplied exactly equals the quantity demanded"
+    },
+    {
+      "id": "t3",
+      "question": "What was Hayek's \"knowledge problem\"?",
+      "correct": "No central authority can possess all the dispersed information needed to allocate resources efficiently — markets do this without central planning"
+    },
+    {
+      "id": "t4",
+      "question": "What is an externality?",
+      "correct": "A cost or benefit imposed on parties not involved in a transaction — e.g. pollution imposes costs on society not reflected in the product's price"
+    },
+    {
+      "id": "t5",
+      "question": "What is the \"lemon problem\"?",
+      "correct": "In markets with information asymmetry, buyers discount prices, which drives out sellers of quality goods, leaving mostly low-quality goods"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "When the price of a good rises, the quantity demanded falls.",
+      "correct": "true"
+    },
+    {
+      "id": "s2",
+      "statement": "Markets are perfect mechanisms that always produce optimal outcomes.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Public goods are goods that can easily be charged for on a per-user basis.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Information asymmetries can cause markets to produce suboptimal outcomes.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "The text argues that understanding markets is important only for professional economists.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the \"law of demand\" state?",
+      "opts": [
+        "As prices rise, supply increases",
+        "As prices rise, demand falls; as prices fall, demand rises",
+        "As income rises, prices fall",
+        "Prices always move towards equilibrium"
+      ],
+      "correct": "As prices rise, demand falls; as prices fall, demand rises",
+      "hint": "Para 2: \"as the price… rises, the quantity demanded… falls\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"knowledge problem\" identified by Hayek?",
+      "opts": [
+        "Economists don't understand enough about markets",
+        "No central authority can collect all the information needed for efficient allocation",
+        "Markets produce too much information for consumers to process",
+        "Governments know more than markets about economic conditions"
+      ],
+      "correct": "No central authority can collect all the information needed for efficient allocation",
+      "hint": "Para 4: \"impossibility of any central authority possessing the information\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What makes public goods difficult to provide through markets?",
+      "opts": [
+        "They are too expensive to produce",
+        "Markets overproduce them",
+        "Producers cannot charge for them because they are non-excludable",
+        "The government monopolises their production"
+      ],
+      "correct": "Producers cannot charge for them because they are non-excludable",
+      "hint": "Para 5: \"markets generally underprovide public goods because producers cannot charge for their use\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"lemon problem\" in economics?",
+      "opts": [
+        "A defect in lemon-flavoured products",
+        "Information asymmetry in used car markets driving out quality sellers",
+        "The failure of government to regulate car markets",
+        "A surplus of low-quality goods in any market"
+      ],
+      "correct": "Information asymmetry in used car markets driving out quality sellers",
+      "hint": "Para 6: \"lemon problem… buyers rationally discount… drives out sellers of high-quality cars\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text says markets always produce optimal social outcomes.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 5: \"Markets… are not perfect… market failures\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "Externalities are costs or benefits experienced by parties not involved in a transaction.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 5: \"costs or benefits on parties not involved in the transaction\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Form the noun from the verb \"to invest\": \"___ in renewable energy has grown significantly.\"",
+      "opts": [
+        "Investation",
+        "Investment",
+        "Investing",
+        "Investedness"
+      ],
+      "correct": "Investment",
+      "hint": "invest → investment (-ment suffix for noun)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Form the adjective from the noun \"economy\": \"These are ___ policies that save money.\"",
+      "opts": [
+        "economical",
+        "economic",
+        "economised",
+        "economistic"
+      ],
+      "correct": "economical",
+      "hint": "economical = cost-saving/thrifty (NOT economic = relating to the economy)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"High prices make production more ___.\" (verb: profit → adjective)",
+      "correct": "profitable",
+      "hint": "profit → profitable (-able suffix: capable of producing profit)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"scarcity\" in economics?",
+      "opts": [
+        "The high cost of living",
+        "Limited resources relative to unlimited wants",
+        "A shortage of a specific product",
+        "Poverty in developing countries"
+      ],
+      "correct": "Limited resources relative to unlimited wants",
+      "hint": "Para 1: \"human desires are unlimited while the resources… are finite\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "Market \"equilibrium\" means…",
+      "opts": [
+        "Prices are very stable over time",
+        "Supply and demand are equal at the current price",
+        "The government controls prices",
+        "Competition between producers is fair"
+      ],
+      "correct": "Supply and demand are equal at the current price",
+      "hint": "Para 3: \"quantity producers want to sell exactly matches the quantity consumers want to buy\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A cost or benefit imposed on parties not involved in a transaction is called an ___.",
+      "correct": "externality",
+      "hint": "Para 5: \"externalities\"",
+      "points": 1
+    }
+  ]
+}

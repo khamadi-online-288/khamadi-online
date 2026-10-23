@@ -1,0 +1,536 @@
+{
+  "id": "l41-g2",
+  "moduleNum": 7,
+  "lessonNum": 4,
+  "moduleTitle": "Obligations & Advice",
+  "type": "grammar",
+  "title": "should / ought to / needn't — Advice and Absence of Obligation",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "should / ought to / needn't — Advice and Absence of Obligation",
+  "grammarNote": "\"Should\" и \"ought to\" используются для выражения СОВЕТА или РЕКОМЕНДАЦИИ — когда что-то является хорошей идеей, но не строгим обязательством. \"Needn't\" (= \"don't need to\") выражает ОТСУТСТВИЕ необходимости — как и \"don't have to\". Все эти глаголы выражают более мягкие степени обязательства по сравнению с \"must\".",
+  "grammarTable": [
+    {
+      "subject": "should",
+      "verb": "+ base verb",
+      "short": "advice/recommendation",
+      "example": "\"You should read your email daily.\" / \"She should see a doctor.\""
+    },
+    {
+      "subject": "shouldn't",
+      "verb": "+ base verb",
+      "short": "negative advice",
+      "example": "\"You shouldn't skip lectures.\" / \"He shouldn't wait too long.\""
+    },
+    {
+      "subject": "ought to",
+      "verb": "+ base verb",
+      "short": "≈ should (more formal)",
+      "example": "\"You ought to contact your supervisor.\" / \"We ought to leave now.\""
+    },
+    {
+      "subject": "needn't",
+      "verb": "+ base verb",
+      "short": "no need to",
+      "example": "\"You needn't arrive early — the doors open at 8.\" / \"She needn't worry.\""
+    },
+    {
+      "subject": "need to",
+      "verb": "+ base verb",
+      "short": "necessity",
+      "example": "\"You need to check the handbook.\" (= you must / it's important)"
+    },
+    {
+      "subject": "Should I?",
+      "verb": "question form",
+      "short": "asking for advice",
+      "example": "\"Should I apply for the internship?\" / \"Should we bring a dictionary?\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "should vs ought to — the difference",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Both mean: it's a good idea / recommended",
+          "example": "\"You should contact her.\" ≈ \"You ought to contact her.\""
+        },
+        {
+          "form": "\"should\" is more common in spoken English",
+          "example": "\"Should I email her?\" / \"You should check the rules.\""
+        },
+        {
+          "form": "\"ought to\" sounds more formal or emphatic",
+          "example": "\"You really ought to speak to your adviser this week.\""
+        },
+        {
+          "form": "Negative: shouldn't (NOT \"oughtn't to\")",
+          "example": "\"You shouldn't skip the briefing.\" (oughtn't to = very rare, avoid it)"
+        }
+      ]
+    },
+    {
+      "title": "needn't vs don't have to — similar meaning",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Both mean: no obligation, not necessary",
+          "example": "\"You needn't come early.\" = \"You don't have to come early.\" ✅"
+        },
+        {
+          "form": "\"needn't\" is more formal / British English",
+          "example": "\"Needn't\" is common in British English. \"Don't have to\" is more universal."
+        },
+        {
+          "form": "\"needn't\" + base verb (no \"to\")",
+          "example": "\"You needn't BRING your laptop.\" (NOT \"needn't to bring\")"
+        },
+        {
+          "form": "\"need to\" (positive) = necessity",
+          "example": "\"You need to check your email.\" = \"You have to check your email.\""
+        }
+      ]
+    },
+    {
+      "title": "The obligation scale — from strong to weak",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "① must / have to",
+          "example": "\"You must attend 80%.\" — OBLIGATORY. Not doing it has serious consequences."
+        },
+        {
+          "form": "② should / ought to",
+          "example": "\"You should check your email.\" — RECOMMENDED. Not doing it may cause problems."
+        },
+        {
+          "form": "③ needn't / don't have to",
+          "example": "\"You don't have to buy the book.\" — OPTIONAL. No consequences either way."
+        },
+        {
+          "form": "④ mustn't / can't",
+          "example": "\"You mustn't plagiarise.\" — PROHIBITED. Doing it has serious consequences."
+        }
+      ]
+    },
+    {
+      "title": "Common advice structures with should",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "You should + base verb",
+          "example": "\"You should speak to your adviser.\" (direct advice)"
+        },
+        {
+          "form": "You shouldn't + base verb",
+          "example": "\"You shouldn't wait until the last minute.\" (negative advice)"
+        },
+        {
+          "form": "I think you should...",
+          "example": "\"I think you should apply for the internship.\" (softened advice)"
+        },
+        {
+          "form": "Maybe you should / Perhaps you should",
+          "example": "\"Maybe you should take a day off.\" (gentle suggestion)"
+        },
+        {
+          "form": "Should I...? (asking for advice)",
+          "example": "\"Should I email Professor Sultanova first?\" (seeking recommendation)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "\"Should\" и \"ought to\" — совет. \"Needn't\" — отсутствие необходимости:\n① should / ought to = хорошая идея, рекомендация → \"You should read your email daily.\"\n② shouldn't = плохая идея → \"You shouldn't wait too long.\"\n③ needn't = не нужно, не обязательно → \"You needn't worry.\" = \"You don't have to worry.\"\n\n💡 Шкала обязательности:\nmust/have to > should/ought to > needn't/don't have to\nmustn't = совсем другое — это ЗАПРЕТ!\n\n⚠️ \"Should\" НЕ ИЗМЕНЯЕТСЯ по лицам:\n✅ \"She should check her email.\" (NOT \"she shoulds\"!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Give advice using \"should\".",
+      "text": "Kamila is tired and her grades are falling. \"___ take a break this weekend.\"",
+      "opts": [
+        "She must",
+        "She should",
+        "She has to",
+        "She needn't"
+      ],
+      "correct": "She should",
+      "hint": "\"should\" = advice/recommendation. \"She SHOULD take a break.\" Not compulsory but a good idea. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the negative advice.",
+      "text": "\"You ___ (not / wait) until the last minute to apply.\"",
+      "correct": "shouldn't wait",
+      "hint": "Negative advice → \"shouldn't\". \"You SHOULDN'T wait until the last minute.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose \"needn't\" or \"must\".",
+      "text": "\"You ___ memorise every rule — the handbook is online and can be checked anytime.\"",
+      "opts": [
+        "must",
+        "should",
+        "needn't",
+        "have to"
+      ],
+      "correct": "needn't",
+      "hint": "\"needn't\" = no necessity; it's not required. The handbook is available. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Ought to\" is always more polite than \"should\" and should be used instead.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"should\" is more common in spoken English. \"ought to\" is slightly more formal but NOT always more polite. Use \"should\" for most situations."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form to ask for advice.",
+      "text": "\"___ I contact Professor Sultanova before applying?\"",
+      "opts": [
+        "Must",
+        "Should",
+        "Needn't",
+        "Have to"
+      ],
+      "correct": "Should",
+      "hint": "\"Should I...?\" = asking for advice or recommendation. \"SHOULD I contact her?\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence uses \"needn't\" correctly?",
+      "text": "Choose the correct use.",
+      "opts": [
+        "\"You needn't to arrive early.\"",
+        "\"You needn't arrive early.\"",
+        "\"You needn't arriving early.\"",
+        "\"You needn't be to arrive early.\""
+      ],
+      "correct": "\"You needn't arrive early.\"",
+      "hint": "\"needn't\" + BASE VERB (no \"to\"!). \"You NEEDN'T ARRIVE early.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Give advice using \"ought to\".",
+      "text": "\"You ___ (ought to / speak) to your academic adviser at least once per semester.\"",
+      "correct": "ought to speak",
+      "hint": "\"ought to\" + base verb. \"You OUGHT TO SPEAK to your adviser.\" ✅ (similar to \"should\")"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct structure.",
+      "text": "\"I think you ___ apply for the internship — it's a great opportunity.\"",
+      "opts": [
+        "must",
+        "should",
+        "needn't",
+        "mustn't"
+      ],
+      "correct": "should",
+      "hint": "\"I think you should...\" = softened personal recommendation. Not a command, just a suggestion. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct modal for the scale.",
+      "text": "\"Which is stronger obligation: should or must?\"",
+      "opts": [
+        "Should",
+        "Must",
+        "They're the same",
+        "Needn't"
+      ],
+      "correct": "Must",
+      "hint": "Scale: must > should > needn't. \"Must\" = strong obligation. \"Should\" = recommendation."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Rephrase using \"needn't\".",
+      "text": "\"You don't have to worry — everything is arranged.\" → \"You ___ worry.\"",
+      "correct": "needn't",
+      "hint": "\"needn't\" = \"don't have to\". \"You NEEDN'T worry.\" ✅ (both mean no necessity)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"She ___ (should / check) her email more carefully — she missed an important deadline.\"",
+      "opts": [
+        "should checks",
+        "should check",
+        "should to check",
+        "should checking"
+      ],
+      "correct": "should check",
+      "hint": "\"should\" + BASE VERB (no -s, no \"to\", no -ing!). \"She SHOULD CHECK her email.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the type of modal.",
+      "text": "\"Maybe you should take the optional workshop.\" — What does this express?",
+      "opts": [
+        "Strong obligation",
+        "Prohibition",
+        "Gentle suggestion/advice",
+        "No need"
+      ],
+      "correct": "Gentle suggestion/advice",
+      "hint": "\"Maybe you should\" = very gentle, non-threatening advice. The softest way to suggest something."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ read your email regularly.\" (advice)",
+      "opts": [
+        "must",
+        "should",
+        "needn't",
+        "mustn't"
+      ],
+      "correct": "should",
+      "hint": "\"should\" = advice/recommendation. \"You SHOULD read your email.\" — good idea, not compulsory. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ worry — the deadline is next week.\" (no need)",
+      "opts": [
+        "should",
+        "must",
+        "needn't",
+        "mustn't"
+      ],
+      "correct": "needn't",
+      "hint": "\"needn't\" = no necessity. \"You NEEDN'T worry.\" = It's not necessary to worry. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ skip lectures — it will affect her grade.\" (negative advice)",
+      "opts": [
+        "should",
+        "needn't",
+        "shouldn't",
+        "mustn't"
+      ],
+      "correct": "shouldn't",
+      "hint": "\"shouldn't\" = negative advice. \"She SHOULDN'T skip lectures.\" — bad idea. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ contact supervisors soon.\" (recommended, formal)",
+      "opts": [
+        "should",
+        "ought to",
+        "needn't",
+        "must"
+      ],
+      "correct": "ought to",
+      "hint": "\"ought to\" = formal recommendation. \"You OUGHT TO contact supervisors soon.\" ≈ \"You should.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She shoulds check her email\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She SHOULD check her email.\" — \"should\" NEVER adds -s! Same form for all subjects."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ I bring a dictionary to the exam?\" (asking for advice)",
+      "opts": [
+        "Must",
+        "Should",
+        "Needn't",
+        "Have to"
+      ],
+      "correct": "Should",
+      "hint": "\"Should I...?\" = asking for advice/recommendation. \"SHOULD I bring a dictionary?\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You ___ (needn't / arrive) before 9 — the building opens then.\"",
+      "correct": "needn't arrive",
+      "hint": "\"needn't\" + BASE VERB (no \"to\"!). \"You NEEDN'T ARRIVE before 9.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the strongest obligation?",
+      "opts": [
+        "You should study.",
+        "You needn't study.",
+        "You must study.",
+        "You ought to study."
+      ],
+      "correct": "You must study.",
+      "hint": "Scale: must > should/ought to > needn't. \"Must\" = strongest. \"Should/ought to\" = moderate. \"Needn't\" = no obligation."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Needn't\" is closest in meaning to:",
+      "opts": [
+        "mustn't",
+        "should",
+        "don't have to",
+        "must"
+      ],
+      "correct": "don't have to",
+      "hint": "\"needn't\" ≈ \"don't have to\" — both express no obligation, no necessity."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I think you ___ (should / apply) — it's a great opportunity.\"",
+      "correct": "should apply",
+      "hint": "\"I think you should...\" = softened recommendation. \"I think you SHOULD APPLY.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Should\" changes to \"shoulds\" for she/he/it.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Should\" NEVER changes. \"She should. He should. They should.\" Always the same form."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Maybe you should take a break.\" — This is:",
+      "opts": [
+        "A strong command",
+        "A prohibition",
+        "A gentle suggestion",
+        "A strong obligation"
+      ],
+      "correct": "A gentle suggestion",
+      "hint": "\"Maybe you should\" = a very soft, non-threatening recommendation. The gentlest advice form."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence gives NEGATIVE advice?",
+      "opts": [
+        "\"You should apply early.\"",
+        "\"You ought to contact them.\"",
+        "\"You shouldn't wait too long.\"",
+        "\"You needn't hurry.\""
+      ],
+      "correct": "\"You shouldn't wait too long.\"",
+      "hint": "\"shouldn't\" = negative advice = \"it's not a good idea to...\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You ___ (ought to / think) carefully before deciding.\"",
+      "correct": "ought to think",
+      "hint": "\"ought to\" + base verb. \"You OUGHT TO THINK carefully.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You needn't attend the optional session.\" — What does this mean?",
+      "opts": [
+        "You are forbidden to attend",
+        "You are strongly advised to attend",
+        "It's not necessary to attend",
+        "You must attend"
+      ],
+      "correct": "It's not necessary to attend",
+      "hint": "\"needn't\" = no necessity. \"You needn't attend\" = it's optional. NOT forbidden."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Should\" vs \"must\": which is more appropriate for personal advice?",
+      "opts": [
+        "Must",
+        "Should",
+        "They're the same",
+        "Have to"
+      ],
+      "correct": "Should",
+      "hint": "\"should\" = personal advice/recommendation. \"must\" = strong obligation. For advice to a friend: \"You should see a doctor.\" Not \"You must see a doctor.\" (too strong)."
+    }
+  ]
+}

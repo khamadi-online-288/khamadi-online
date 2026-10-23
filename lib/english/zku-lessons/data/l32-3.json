@@ -1,0 +1,80 @@
+{
+  "id": "l32-3",
+  "moduleNum": 16,
+  "lessonNum": 3,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "listening",
+  "title": "At the Shop",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🛍️",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student, shopping for clothes"
+    },
+    {
+      "id": "assistant",
+      "name": "Shop assistant",
+      "city": "Almaty",
+      "emoji": "👗",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Staff at a clothing store"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "She says the jacket is too expensive — it costs more than her budget.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "She suggests a similar jacket that is good enough quality but cheaper.",
+      "correctCharId": "assistant"
+    },
+    {
+      "id": "s3",
+      "text": "She tries on the jacket and says it is not warm enough for winter.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "She brings a padded jacket which is warm enough and stylish.",
+      "correctCharId": "assistant"
+    },
+    {
+      "id": "s5",
+      "text": "She says the medium size is not big enough — she needs a large.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "She asks if the price is final or if there are any discounts available.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

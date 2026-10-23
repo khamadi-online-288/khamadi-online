@@ -1,0 +1,562 @@
+{
+  "id": "l51-g2",
+  "moduleNum": 17,
+  "lessonNum": 5,
+  "moduleTitle": "Technology & Opinion",
+  "type": "grammar",
+  "title": "Zero Article vs the: General and Specific",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Zero Article vs THE — General Concepts vs Specific Ones",
+  "grammarNote": "Нулевой артикль (zero article, Ø) используется с абстрактными существительными в общем смысле: \"Education is important.\" \"Technology changes lives.\" Определённый артикль THE используется когда то же существительное становится конкретным — уточнённым контекстом или фразой: \"The education system in Kazakhstan.\" \"The technology we discussed.\" Понять разницу — одна из важнейших задач на продвинутом уровне.",
+  "grammarTable": [
+    {
+      "subject": "Ø Education",
+      "verb": "abstract, general",
+      "short": "в целом",
+      "example": "\"Education is important.\" (education as a concept, in general)"
+    },
+    {
+      "subject": "THE education",
+      "verb": "specific, defined",
+      "short": "конкретно",
+      "example": "\"The education system in Kazakhstan.\" (THIS specific system)"
+    },
+    {
+      "subject": "Ø Technology",
+      "verb": "abstract, general",
+      "short": "в целом",
+      "example": "\"Technology changes the world.\" (technology as a general idea)"
+    },
+    {
+      "subject": "THE technology",
+      "verb": "specific",
+      "short": "конкретно",
+      "example": "\"The technology we discussed today.\" (THAT technology = specific)"
+    },
+    {
+      "subject": "Ø Love",
+      "verb": "emotion, general",
+      "short": "в целом",
+      "example": "\"Love is complicated.\" / \"She values love above money.\""
+    },
+    {
+      "subject": "THE love",
+      "verb": "specified love",
+      "short": "конкретная",
+      "example": "\"The love she felt for her family was unconditional.\" (THAT love)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Categories: always zero article",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Abstract concepts (general)",
+          "example": "\"Education, technology, love, happiness, freedom, justice, success\""
+        },
+        {
+          "form": "Languages",
+          "example": "\"She speaks Kazakh and English.\" ✅ NOT \"the Kazakh\" or \"the English\""
+        },
+        {
+          "form": "Countries (most)",
+          "example": "\"Kazakhstan, France, Japan.\" ✅ BUT \"THE United States\", \"THE UK\", \"THE Netherlands\""
+        },
+        {
+          "form": "Cities, mountains, lakes",
+          "example": "\"Almaty, Uralsk, Everest, Lake Balkhash.\" ✅ (BUT rivers/seas = \"the\")"
+        },
+        {
+          "form": "Meals in general",
+          "example": "\"Breakfast is at 8.\" / \"She had lunch.\" (general meals = zero article)"
+        },
+        {
+          "form": "Transport (by car/bus/train)",
+          "example": "\"She travels by car.\" / \"Go by train.\" (NOT \"by the car\")"
+        }
+      ]
+    },
+    {
+      "title": "Categories: always THE",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Unique objects",
+          "example": "\"The sun, the moon, the earth, the universe, the internet.\""
+        },
+        {
+          "form": "Rivers, seas, mountain ranges",
+          "example": "\"The Ural River, the Caspian Sea, the Alps, the Pacific Ocean.\""
+        },
+        {
+          "form": "Superlatives",
+          "example": "\"The best, the most, the fastest, the tallest.\" (always the + superlative)"
+        },
+        {
+          "form": "Ordinals (first, second...)",
+          "example": "\"The first question.\" / \"The second attempt.\" / \"The third time.\" ✅"
+        },
+        {
+          "form": "Country names with \"of\" or plural",
+          "example": "\"The Republic of Kazakhstan.\" / \"The Netherlands.\" / \"The USA.\""
+        },
+        {
+          "form": "Media/systems (specific)",
+          "example": "\"The government, the press, the media, the police.\" (specific institutions)"
+        }
+      ]
+    },
+    {
+      "title": "The same noun: general vs specific",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Ø + noun (general)",
+          "example": "\"Technology is changing education.\" (= in general, as concepts)"
+        },
+        {
+          "form": "The + noun (specific)",
+          "example": "\"The technology we use in class is changing how we study education.\" (specific)"
+        },
+        {
+          "form": "\"Ø Music is universal.\"",
+          "example": "\"Music\" = abstract concept → no article. ✅"
+        },
+        {
+          "form": "\"The music at the café was loud.\"",
+          "example": "\"THE music\" = the specific music playing there, at that moment. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Fixed expressions to memorise",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Ø: at school / at university",
+          "example": "\"She is at school.\" / \"He is at university.\" (not \"at the school\")"
+        },
+        {
+          "form": "THE: go to the cinema / the gym",
+          "example": "\"She goes to the gym.\" / \"Let's go to the cinema.\" ✅"
+        },
+        {
+          "form": "Ø: at home / at work / in bed",
+          "example": "\"He is at home.\" / \"She is at work.\" / \"I was in bed.\""
+        },
+        {
+          "form": "THE: in the morning / in the evening",
+          "example": "\"In the morning.\" / \"In the evening.\" (NOT \"in morning\")"
+        },
+        {
+          "form": "Ø: by car / by bus / by train",
+          "example": "\"Travel by car.\" / \"Go by bus.\" (NOT \"by the car\")"
+        },
+        {
+          "form": "THE: on the left / on the right",
+          "example": "\"Turn on the left.\" / \"On the right.\" ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Zero article vs THE — ключевой принцип:\n\nØ (нет артикля) = понятие в целом / абстрактно:\n\"Education is important.\"\n\"Technology changes the world.\"\n\"Music is universal.\"\n\nTHE = конкретно / уже определено:\n\"The education system in Kazakhstan.\"\n\"The technology we discussed.\"\n\"The music at the café was loud.\"\n\n✅ Всегда ноль: языки, большинство стран, города,\nабстрактные понятия, еда в общем, by car/bus/train,\nat home, at work, at university\n\n✅ Всегда THE: реки, моря, горные хребты, уникальные\nобъекты (the sun), превосходная степень, порядковые\nчислительные, by the way, in the morning/evening",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Zero article or THE?",
+      "text": "\"___ technology is changing ___ world.\"",
+      "opts": [
+        "Technology / the world",
+        "The technology / the world",
+        "Technology / world",
+        "The technology / world"
+      ],
+      "correct": "Technology / the world",
+      "hint": "\"Technology\" = general concept → Ø. \"The world\" = unique, specific = THE. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Zero article or THE?",
+      "text": "\"She studies ___ Kazakh and ___ English.\"",
+      "opts": [
+        "the Kazakh / the English",
+        "Kazakh / English",
+        "the Kazakh / English",
+        "Kazakh / the English"
+      ],
+      "correct": "Kazakh / English",
+      "hint": "Languages = zero article. \"She studies KAZAKH and ENGLISH.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Add the correct article or write Ø.",
+      "text": "\"___ music in this café is too loud.\" (specific)",
+      "correct": "The",
+      "hint": "\"THE music in this café\" = specific music, at this place. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Zero article or THE?",
+      "text": "\"___ education is ___ best investment.\" (general concept / superlative)",
+      "opts": [
+        "Education / a best",
+        "Education / the best",
+        "The education / the best",
+        "Education / best"
+      ],
+      "correct": "Education / the best",
+      "hint": "\"Education\" = general concept → Ø. \"THE best\" = superlative → always THE. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Zero or THE?",
+      "text": "\"She goes to ___ gym every morning.\"",
+      "opts": [
+        "gym",
+        "a gym",
+        "the gym",
+        "Ø gym"
+      ],
+      "correct": "the gym",
+      "hint": "Fixed expression: \"go to THE gym.\" ✅ The specific gym she always goes to."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Zero or THE?",
+      "text": "\"He is at ___ work right now.\"",
+      "opts": [
+        "the work",
+        "a work",
+        "Ø (no article)",
+        "work"
+      ],
+      "correct": "Ø (no article)",
+      "hint": "Fixed expression: \"at work\" = zero article. \"He is at WORK.\" ✅ NOT \"at the work.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Add the correct article.",
+      "text": "\"She lives by ___ Ural River.\"",
+      "correct": "the",
+      "hint": "Rivers → THE. \"THE Ural River.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Zero or THE?",
+      "text": "\"She usually has ___ breakfast at 7.\"",
+      "opts": [
+        "the breakfast",
+        "a breakfast",
+        "Ø (no article)",
+        "breakfasts"
+      ],
+      "correct": "Ø (no article)",
+      "hint": "Meals in general = zero article. \"She has BREAKFAST at 7.\" ✅ NOT \"the breakfast.\""
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Zero or THE?",
+      "text": "\"___ internet has changed ___ communication.\" (general concepts)",
+      "opts": [
+        "The internet / the communication",
+        "The internet / Ø communication",
+        "Ø internet / Ø communication",
+        "Ø internet / the communication"
+      ],
+      "correct": "The internet / Ø communication",
+      "hint": "\"THE internet\" = unique, specific. \"communication\" = general abstract concept → Ø. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Zero or THE?",
+      "text": "\"She goes to university by ___ bus.\"",
+      "opts": [
+        "the bus",
+        "a bus",
+        "Ø (no article)",
+        "busing"
+      ],
+      "correct": "Ø (no article)",
+      "hint": "Mode of transport: \"by bus / by car / by train\" = zero article. \"Goes by BUS.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Add the correct article.",
+      "text": "\"In ___ morning, she checks her messages.\"",
+      "correct": "the",
+      "hint": "Fixed: \"in THE morning.\" ✅ (NOT \"in morning\")"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Zero or THE?",
+      "text": "\"___ happiness cannot be bought.\" (abstract concept)",
+      "opts": [
+        "The happiness",
+        "A happiness",
+        "Ø (no article)",
+        "An happiness"
+      ],
+      "correct": "Ø (no article)",
+      "hint": "\"Happiness\" as a general concept = zero article. \"HAPPINESS cannot be bought.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Education is important.\" — Zero article because:",
+      "opts": [
+        "Education is uncountable",
+        "Education = abstract concept used generally",
+        "\"Important\" removes the article",
+        "\"Is\" doesn't take articles before subjects"
+      ],
+      "correct": "Education = abstract concept used generally",
+      "hint": "Abstract concepts used generally = zero article. \"EDUCATION is important.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The education system in Kazakhstan.\" — THE because:",
+      "opts": [
+        "Random rule",
+        "\"Education system\" is now specific — this particular system",
+        "\"Kazakhstan\" requires THE",
+        "\"System\" always takes THE"
+      ],
+      "correct": "\"Education system\" is now specific — this particular system",
+      "hint": "\"THE education system in Kazakhstan\" = specified, concrete system. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She speaks ___ Kazakh and ___ English.\" (languages)",
+      "correct": "Ø / Ø",
+      "hint": "Languages = zero article. \"She speaks KAZAKH and ENGLISH.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ music is universal.\" — Choose.",
+      "opts": [
+        "The music",
+        "A music",
+        "Music (zero article)",
+        "An music"
+      ],
+      "correct": "Music (zero article)",
+      "hint": "\"Music\" as a general concept = zero article. \"MUSIC is universal.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The music at the concert was amazing.\" — THE because:",
+      "opts": [
+        "Music is always countable",
+        "\"The\" before \"music\" is always correct",
+        "This specific music, at that concert — now specified",
+        "\"Concert\" requires THE"
+      ],
+      "correct": "This specific music, at that concert — now specified",
+      "hint": "\"THE music at the concert\" = specified by location. Not music in general. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She goes to ___ university.\" Fixed expression:",
+      "opts": [
+        "the university",
+        "a university",
+        "university (zero)",
+        "an university"
+      ],
+      "correct": "university (zero)",
+      "hint": "Fixed: \"at/to university\" = zero article (like \"at school\", \"at work\"). ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She goes to ___ gym.\" Fixed expression:",
+      "opts": [
+        "the gym",
+        "a gym",
+        "gym (zero)",
+        "an gym"
+      ],
+      "correct": "the gym",
+      "hint": "Fixed: \"go to THE gym\" = the specific gym. ✅ (Unlike \"at university\" which = zero)"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She gets up early in ___ morning.\"",
+      "correct": "the",
+      "hint": "Fixed expression: \"in THE morning.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ technology is changing education.\" Choose the correct article.",
+      "opts": [
+        "The technology",
+        "A technology",
+        "Technology (zero)",
+        "An technology"
+      ],
+      "correct": "Technology (zero)",
+      "hint": "\"Technology\" as a general concept = zero article. \"TECHNOLOGY is changing education.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ Caspian Sea.\" Choose.",
+      "opts": [
+        "Caspian Sea",
+        "A Caspian Sea",
+        "The Caspian Sea",
+        "An Caspian Sea"
+      ],
+      "correct": "The Caspian Sea",
+      "hint": "Seas → THE. \"THE Caspian Sea.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She travels to Almaty by ___.\" Choose.",
+      "opts": [
+        "the train",
+        "a train",
+        "train (zero)",
+        "an train"
+      ],
+      "correct": "train (zero)",
+      "hint": "Mode of transport: \"by TRAIN\" = zero article. ✅ \"by car / by bus / by train\"."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ happiness is something everyone wants.\" Choose.",
+      "opts": [
+        "The happiness",
+        "A happiness",
+        "Happiness (zero)",
+        "An happiness"
+      ],
+      "correct": "Happiness (zero)",
+      "hint": "\"Happiness\" = abstract concept generally → zero article. \"HAPPINESS is what everyone wants.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She had ___ breakfast and left.\" (meal, general)",
+      "correct": "Ø / no article",
+      "hint": "Meals generally = zero article. \"She had BREAKFAST and left.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ United States is a large country.\" Choose.",
+      "opts": [
+        "United States",
+        "A United States",
+        "The United States",
+        "An United States"
+      ],
+      "correct": "The United States",
+      "hint": "\"THE United States\" = country name with \"States\" (plural) → always THE. ✅ Like \"the UK\", \"the Netherlands\"."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ sun is a star at the centre of our solar system.\" Choose.",
+      "opts": [
+        "A sun",
+        "An sun",
+        "The sun",
+        "Sun (zero)"
+      ],
+      "correct": "The sun",
+      "hint": "\"THE sun\" = unique object. There is only one sun. ✅ Unique objects = THE."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is at ___ home right now.\" Choose.",
+      "opts": [
+        "the home",
+        "a home",
+        "home (zero)",
+        "an home"
+      ],
+      "correct": "home (zero)",
+      "hint": "Fixed: \"at home\" = zero article. ✅ (NOT \"at the home\")"
+    }
+  ]
+}

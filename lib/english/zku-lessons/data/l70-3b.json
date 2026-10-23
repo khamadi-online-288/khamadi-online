@@ -1,0 +1,378 @@
+{
+  "id": "l70-3b",
+  "moduleNum": 12,
+  "lessonNum": 4,
+  "moduleTitle": "Technology & The Future",
+  "title": "AI in the Next Decade: What Can We Reasonably Predict?",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "Good morning. Today I want to talk about prediction — specifically, the challenge of making reasonable predictions about AI's trajectory. Before I begin, I want to make an important methodological point: most predictions about technology, especially transformative technology, have historically been both underestimates and overestimates simultaneously. We tend to overestimate short-term change and underestimate long-term change.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "This is sometimes called \"Amara's Law,\" after the American futurist Roy Amara: \"We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run.\" Think about how many predictions of AI \"revolutions\" came and went in the 1980s and 1990s — followed by what became known as \"AI winters.\" And then think about how dramatically AI has accelerated since 2017.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "So what can we say with reasonable confidence about the next ten years? First, AI will continue to improve in capability. The progress in large language models, image generation, and scientific applications over the past five years gives us strong grounds for expecting continued advancement. By 2034, AI will almost certainly be performing tasks that current systems cannot.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "Second, AI will increasingly be embedded in everyday tools and processes. We won't necessarily interact with AI as a distinct entity — we already don't, in most cases. We'll be using search, writing assistance, medical diagnostics, and financial tools that have AI deeply integrated into their function. The question will not be \"does this use AI?\" but \"how well is the AI being used here?\"",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "Third — and this is where it gets complicated — the social, economic, and political impacts will be deeply uneven. By 2034, some sectors will have been profoundly disrupted; others will look much as they do today. Workers in routine cognitive roles will have been significantly affected; workers in highly skilled, interpersonal, or creative roles will likely have found AI to be a useful tool rather than a threat.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "Fourth, the regulatory landscape will look very different. By 2034, we will almost certainly have seen major legislation on AI across multiple jurisdictions — the EU AI Act is already in force; others will follow. Whether that regulation will be adequate, well-designed, and enforceable is a different question. Regulatory capacity has historically lagged behind technological change, and there is little reason to expect this to change rapidly.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Seitkali",
+      "text": "Let me close with what I think is the most important point. The future is not a destination we are travelling to — it is something we are building, collaboratively and continuously. The AI systems that will shape life in 2034 are being trained on the data we are producing today. The regulations that will govern them are being drafted today. The educational systems that will prepare workers for that world are being designed today. Every choice matters. That is both humbling and empowering.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Amara's Law",
+      "ru": "Закон Амары",
+      "context": "We overestimate short-term tech change and underestimate long-term change"
+    },
+    {
+      "phrase": "AI winter",
+      "ru": "AI-зима",
+      "context": "A period of reduced funding and interest in AI research after failed predictions"
+    },
+    {
+      "phrase": "deeply embedded",
+      "ru": "глубоко встроенный",
+      "context": "AI integrated into everyday tools rather than existing as a separate entity"
+    },
+    {
+      "phrase": "regulatory capacity",
+      "ru": "регуляторные возможности",
+      "context": "The ability of governments to create and enforce effective regulation"
+    },
+    {
+      "phrase": "the regulatory landscape",
+      "ru": "регуляторный ландшафт",
+      "context": "The full picture of laws and regulations governing an area"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "trajectory",
+      "ipa": "/trəˈdʒektəri/",
+      "pos": "noun",
+      "ru": "траектория / путь развития",
+      "kz": "траектория",
+      "emoji": "📈",
+      "definition": "the path or course something takes over time; the direction of development",
+      "example": "\"AI's trajectory over the next decade is difficult but not impossible to predict.\"",
+      "collocations": [
+        "growth trajectory",
+        "career trajectory",
+        "change trajectory"
+      ]
+    },
+    {
+      "en": "jurisdiction",
+      "ipa": "/ˌdʒʊərɪsˈdɪkʃən/",
+      "pos": "noun",
+      "ru": "юрисдикция / сфера полномочий",
+      "kz": "юрисдикция",
+      "emoji": "⚖️",
+      "definition": "the official power to make legal decisions; a territory under a particular legal authority",
+      "example": "\"Major AI legislation will emerge across multiple jurisdictions.\"",
+      "collocations": [
+        "legal jurisdiction",
+        "across jurisdictions",
+        "fall under jurisdiction"
+      ]
+    },
+    {
+      "en": "enforceable",
+      "ipa": "/ɪnˈfɔːsəbl/",
+      "pos": "adjective",
+      "ru": "применимый / исполнимый",
+      "kz": "орындалатын",
+      "emoji": "⚖️",
+      "definition": "capable of being enforced; possible to make people comply with",
+      "example": "\"Whether regulation will be adequate and enforceable is a different question.\"",
+      "collocations": [
+        "legally enforceable",
+        "enforceable regulation",
+        "not easily enforceable"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "trajectory",
+      "emoji": "📈",
+      "opts": [
+        "the path or direction of development",
+        "a type of computer program",
+        "a government policy",
+        "an economic model"
+      ],
+      "correct": "the path or direction of development"
+    },
+    {
+      "id": "p2",
+      "word": "jurisdiction",
+      "emoji": "⚖️",
+      "opts": [
+        "a territory under particular legal authority",
+        "a type of AI system",
+        "a prediction method",
+        "a training programme"
+      ],
+      "correct": "a territory under particular legal authority"
+    }
+  ],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is \"Amara's Law\"?",
+      "correct": "We tend to overestimate the short-term effect of technology and underestimate the long-term effect"
+    },
+    {
+      "id": "t2",
+      "question": "What is the first prediction Prof. Seitkali makes about AI in the next decade?",
+      "correct": "AI will continue to improve in capability"
+    },
+    {
+      "id": "t3",
+      "question": "What does Prof. Seitkali say about the social and economic impact of AI?",
+      "correct": "It will be deeply uneven — some sectors profoundly disrupted, others much less so"
+    },
+    {
+      "id": "t4",
+      "question": "What does he say about regulatory capacity historically?",
+      "correct": "It has historically lagged behind technological change"
+    },
+    {
+      "id": "t5",
+      "question": "What is his most important closing point?",
+      "correct": "The future is not a destination but something we are building collaboratively — every choice matters"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Amara's Law says we are always good at predicting the short-term impact of technology.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Prof. Seitkali says by 2034, AI will perform tasks that current systems cannot.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "The EU AI Act is described as not yet in force.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Workers in highly creative, interpersonal roles will likely find AI a useful tool rather than a threat.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Prof. Seitkali ends by saying individual choices about AI do not matter.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Amara's Law say about technology predictions?",
+      "opts": [
+        "Predictions are always accurate",
+        "We underestimate short-term change and overestimate long-term change",
+        "We overestimate short-term change and underestimate long-term change",
+        "Technology always develops faster than predicted"
+      ],
+      "correct": "We overestimate short-term change and underestimate long-term change",
+      "hint": "Prof. Seitkali quotes Amara's Law directly",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is an \"AI winter\"?",
+      "opts": [
+        "A cold climate for AI data centres",
+        "A period of reduced interest and funding in AI after failed predictions",
+        "A government ban on AI",
+        "The slowest time of year for AI development"
+      ],
+      "correct": "A period of reduced interest and funding in AI after failed predictions",
+      "hint": "Prof. Seitkali: \"AI winters\" after 1980s/90s predictions failed",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "Which workers does Prof. Seitkali say will be most affected by AI by 2034?",
+      "opts": [
+        "Highly creative workers",
+        "Workers in routine cognitive roles",
+        "Medical specialists",
+        "Teachers and educators"
+      ],
+      "correct": "Workers in routine cognitive roles",
+      "hint": "Lecture: \"routine cognitive roles will have been significantly affected\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Prof. Seitkali say about regulatory capacity?",
+      "opts": [
+        "It always keeps up with technology",
+        "It has historically lagged behind technological change",
+        "AI will be impossible to regulate",
+        "The EU has already solved the regulatory challenge"
+      ],
+      "correct": "It has historically lagged behind technological change",
+      "hint": "Lecture: \"regulatory capacity has historically lagged behind technological change\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Prof. Seitkali says the EU AI Act is already in force.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Lecture: \"the EU AI Act is already in force\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Prof. Seitkali concludes that the future is fixed and people cannot influence it.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"the future is something we are building… every choice matters\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By 2034, AI ___ many tasks that current systems cannot.\" Choose the correct form.",
+      "opts": [
+        "will perform",
+        "will be performing",
+        "will have performed",
+        "performs"
+      ],
+      "correct": "will have performed",
+      "hint": "Future perfect: completed by a specific future time",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Workers in routine roles ___ (affect) significantly by 2034.\" (passive — future perfect)",
+      "correct": "will have been affected",
+      "hint": "Future perfect passive: will have been + past participle",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"In ten years, most tools ___ AI integrated into their function.\" Choose the correct form.",
+      "opts": [
+        "have",
+        "will have",
+        "are going to have",
+        "will be having"
+      ],
+      "correct": "will have",
+      "hint": "\"Will have\" = prediction about a state at a future time",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is a \"jurisdiction\"?",
+      "opts": [
+        "A type of AI system",
+        "A territory under a particular legal authority",
+        "A research institution",
+        "A technology company"
+      ],
+      "correct": "A territory under a particular legal authority",
+      "hint": "Lecture: \"across multiple jurisdictions\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "If a regulation is \"enforceable,\" it means…",
+      "opts": [
+        "It is very complicated",
+        "It is impossible to follow",
+        "It can be made to be complied with in practice",
+        "It applies only to governments"
+      ],
+      "correct": "It can be made to be complied with in practice",
+      "hint": "Lecture: \"whether regulation will be adequate and enforceable\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"We tend to overestimate the short-term effect and underestimate the long-term effect\" is known as ___ Law.",
+      "correct": "Amara's",
+      "hint": "Lecture: \"Amara's Law\"",
+      "points": 1
+    }
+  ]
+}

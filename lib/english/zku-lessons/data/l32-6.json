@@ -1,0 +1,427 @@
+{
+  "id": "l32-6",
+  "moduleNum": 16,
+  "lessonNum": 6,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "test",
+  "title": "Module 16 Final Test",
+  "xp": 100,
+  "duration": 55,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "The shapan is:",
+      "opts": [
+        "A traditional Kazakh hat",
+        "A long robe worn at ceremonies",
+        "A type of felt boot",
+        "A beaded necklace"
+      ],
+      "correct": "A long robe worn at ceremonies",
+      "hint": "Reading 1, paragraph 2: \"the shapan — a long robe worn at ceremonies.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kamila visited a fashion exhibition last spring.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Reading 1, paragraph 3: \"Kamila Seitkali visited one such exhibition last spring.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Why is online shopping often cheaper?",
+      "opts": [
+        "Because they use faster delivery methods",
+        "Because online shops have fewer overheads",
+        "Because online goods are lower quality",
+        "Because there are no taxes on online purchases"
+      ],
+      "correct": "Because online shops have fewer overheads",
+      "hint": "Reading 2, paragraph 2: \"Prices are often lower because online shops have fewer overheads.\""
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How does Zhibek shop?",
+      "opts": [
+        "Only online",
+        "Only in-store",
+        "She reads reviews online then buys in-store if possible",
+        "She always uses second-hand shops"
+      ],
+      "correct": "She reads reviews online then buys in-store if possible",
+      "hint": "Reading 2, paragraph 5: \"Zhibek uses both — she reads reviews online, then buys in-store if possible.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Fast fashion creates enormous amounts of ___ waste.",
+      "correct": "textile",
+      "hint": "Reading 1, paragraph 5: \"enormous amounts of textile waste.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Kamila say about the first jacket?",
+      "opts": [
+        "It's the wrong colour",
+        "It's too expensive for her budget",
+        "It's not fashionable enough",
+        "It's not her size"
+      ],
+      "correct": "It's too expensive for her budget",
+      "hint": "Statement 1: \"She says the jacket is too expensive — it costs more than her budget.\""
+    },
+    {
+      "id": "q7",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "The padded jacket the assistant shows is warm enough for Kamila.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Statement 4: \"She brings a padded jacket which is warm enough and stylish.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What size does Kamila need?",
+      "opts": [
+        "Small",
+        "Medium",
+        "Large",
+        "XL"
+      ],
+      "correct": "Large",
+      "hint": "Statement 5: \"She says the medium size is not big enough — she needs a large.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Kamila ask about the price?",
+      "opts": [
+        "If she can pay by card",
+        "If there are any discounts",
+        "If she can return it later",
+        "If it's on sale online"
+      ],
+      "correct": "If there are any discounts",
+      "hint": "Statement 6: \"She asks if the price is final or if there are any discounts available.\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "The assistant suggests a jacket that is good ___ quality but cheaper.",
+      "correct": "enough",
+      "hint": "\"Good enough quality\" = meets the required standard."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Position of \"too\" in a sentence:",
+      "opts": [
+        "After the adjective",
+        "Before the adjective",
+        "After the noun",
+        "At the end of the sentence"
+      ],
+      "correct": "Before the adjective",
+      "hint": "\"too\" + adjective: too expensive, too small."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The coat is not ___ for Kazakh winters — I need a warmer one.",
+      "correct": "warm enough",
+      "hint": "\"warm enough\" = has the right level of warmth. Here: it doesn't."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"It's too expensive to buy\" means:",
+      "opts": [
+        "I can easily afford it",
+        "The price prevents me from buying it",
+        "It's expensive but worth it",
+        "I will buy it later"
+      ],
+      "correct": "The price prevents me from buying it",
+      "hint": "\"too + adjective + to + verb\" = the quality prevents the action."
+    },
+    {
+      "id": "q14",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Is the bag enough big for your books?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"Is the bag big enough for your books?\" — \"enough\" comes AFTER the adjective."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Correct description of a coat:",
+      "opts": [
+        "a wool long beautiful dark coat",
+        "a beautiful dark long wool coat",
+        "a dark wool long beautiful coat",
+        "a long beautiful dark wool coat"
+      ],
+      "correct": "a beautiful dark long wool coat",
+      "hint": "Opinion (beautiful) → colour (dark) → size (long) → material (wool)."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She wore a light blue ___ shirt to the career fair.",
+      "correct": "cotton",
+      "hint": "Colour (light blue) + material (cotton) = correct order."
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"There are ___ many options\" — fill in:",
+      "opts": [
+        "enough",
+        "very",
+        "quite",
+        "too"
+      ],
+      "correct": "too",
+      "hint": "\"too many\" = more than needed. Always \"too many\" (not \"enough many\")."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is a pattern, not a colour or material?",
+      "opts": [
+        "dark red",
+        "silk",
+        "floral",
+        "navy blue"
+      ],
+      "correct": "floral",
+      "hint": "\"Floral\" is a pattern (flower design). Others are: colour, material, colour."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The shoes are ___ tight — they hurt my feet.",
+      "correct": "too",
+      "hint": "\"too tight\" = more tight than needed → uncomfortable."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Cotton\" is breathable and common in everyday clothing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Cotton is a natural, breathable material widely used in everyday clothing."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Textile\" refers to:",
+      "opts": [
+        "A fashion trend",
+        "Any type of woven or manufactured fabric or cloth",
+        "A clothing style",
+        "A type of online shop"
+      ],
+      "correct": "Any type of woven or manufactured fabric or cloth",
+      "hint": "\"Textile\" = a type of cloth or woven fabric."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Retail\" means:",
+      "opts": [
+        "Making clothes in a factory",
+        "Selling goods to the public",
+        "Designing fashion collections",
+        "Ordering from a catalogue"
+      ],
+      "correct": "Selling goods to the public",
+      "hint": "\"Retail\" = the sale of goods to consumers (as opposed to wholesale)."
+    },
+    {
+      "id": "q23",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Second-hand\" clothes have never been worn before.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Second-hand\" = previously owned and worn by someone else."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She matched her traditional ___ with a modern outfit.",
+      "correct": "accessories",
+      "hint": "\"Accessories\" = extra items like bags, jewellery, scarves that complement an outfit."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Craftsmanship\" refers to:",
+      "opts": [
+        "Mass production in factories",
+        "Skilled manual work or artistry",
+        "Online fashion design",
+        "Cheap clothing production"
+      ],
+      "correct": "Skilled manual work or artistry",
+      "hint": "\"Craftsmanship\" = the quality of making something with skill and care by hand."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Overhead\" (business) means:",
+      "opts": [
+        "The roof of a shop",
+        "Regular business costs like rent and utilities",
+        "The cost of a product",
+        "Profit from sales"
+      ],
+      "correct": "Regular business costs like rent and utilities",
+      "hint": "\"Overhead\" = ongoing fixed costs of running a business (rent, utilities, staff)."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Denim\" is commonly used to make jeans and jackets.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Denim\" = a strong cotton fabric widely used for jeans, jackets, and skirts."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Personalised\" shopping means:",
+      "opts": [
+        "Shopping at a personal assistant's recommendation",
+        "Shopping experiences or recommendations tailored to you individually",
+        "Buying personalised gifts for others",
+        "Shopping only in physical stores"
+      ],
+      "correct": "Shopping experiences or recommendations tailored to you individually",
+      "hint": "\"Personalised\" = customised or tailored to your specific preferences and needs."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Discount\" in a shop means:",
+      "opts": [
+        "An increase in price",
+        "A reduction in the original price",
+        "A loyalty card",
+        "Free delivery"
+      ],
+      "correct": "A reduction in the original price",
+      "hint": "\"Discount\" = a reduction from the original price, e.g. 20% off."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "This jacket is very ___ — it was made by hand using traditional methods.",
+      "correct": "traditional",
+      "hint": "\"Traditional\" = following older customs and methods."
+    }
+  ]
+}

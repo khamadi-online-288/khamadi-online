@@ -1,0 +1,600 @@
+{
+  "id": "l66-g2",
+  "moduleNum": 8,
+  "lessonNum": 6,
+  "moduleTitle": "Gerunds & Infinitives: Advanced",
+  "type": "grammar",
+  "title": "Advanced Gerund & Infinitive Patterns: Prepositions, Adjectives & Complex Forms",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Advanced Patterns: Prepositions + Gerund, It + Adj + to-inf, Complex Forms",
+  "grammarNote": "Помимо глаголов с изменением значения, на B1+ уровне важны три другие системы: 1) Герундий после предлогов (всегда!), 2) Конструкция it + adjective + to-infinitive, 3) Сложные формы: пассивный герундий, перфектный герундий, и need + герундий. Эти конструкции появляются в каждом академическом тексте.",
+  "grammarTable": [
+    {
+      "subject": "Prep + gerund",
+      "verb": "ALL prepositions + V-ing",
+      "short": "prep → always gerund",
+      "example": "\"In ADDITION TO STUDYING...\" / \"without CONSIDERING X...\" ✅"
+    },
+    {
+      "subject": "It + adj + to-inf",
+      "verb": "evaluative structure",
+      "short": "\"It is important to...\"",
+      "example": "\"It is DIFFICULT TO OVERSTATE.\" / \"It is ESSENTIAL TO ACKNOWLEDGE.\" ✅"
+    },
+    {
+      "subject": "Passive gerund",
+      "verb": "being + past participle",
+      "short": "\"Being told is annoying.\"",
+      "example": "\"Being denied access was frustrating.\" / \"I hate being ignored.\" ✅"
+    },
+    {
+      "subject": "Perfect gerund",
+      "verb": "having + past participle",
+      "short": "\"Having done → result\"",
+      "example": "\"Having finished the report, she relaxed.\" / \"I regret not having applied.\" ✅"
+    },
+    {
+      "subject": "Passive perfect inf.",
+      "verb": "to have been + pp",
+      "short": "\"to have been done\"",
+      "example": "\"She appeared to have been promoted.\" / \"The results seem to have been misread.\" ✅"
+    },
+    {
+      "subject": "Need + gerund",
+      "verb": "= need + to be + pp",
+      "short": "\"needs updating\"",
+      "example": "\"The report needs updating.\" = \"The report needs to be updated.\" ✅"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Prepositions ALWAYS followed by gerund — the critical rule",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "IN ADDITION TO + gerund",
+          "example": "\"In addition TO CONSIDERING X, the study also examines Y.\" ✅ (NOT \"to consider\")"
+        },
+        {
+          "form": "WITHOUT + gerund",
+          "example": "\"Without ACKNOWLEDGING the limitations, this analysis is incomplete.\" ✅"
+        },
+        {
+          "form": "INSTEAD OF + gerund",
+          "example": "\"Instead of MEMORISING rules, try understanding the system.\" ✅"
+        },
+        {
+          "form": "AS A RESULT OF + gerund",
+          "example": "\"As a result of HAVING REVIEWED the literature, the gap became clear.\" ✅"
+        },
+        {
+          "form": "BEFORE/AFTER/SINCE + gerund",
+          "example": "\"Before SUBMITTING the essay...\" / \"After REVIEWING the data...\" ✅"
+        },
+        {
+          "form": "⚠️ \"look forward TO going\" — \"to\" = preposition here!",
+          "example": "\"I look forward TO SEEING you.\" ✅ NOT \"to see\" — TO here is a PREPOSITION! ✅"
+        }
+      ]
+    },
+    {
+      "title": "It + be + adjective + to-infinitive — evaluative claims",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "It is important/essential TO DO",
+          "example": "\"It is ESSENTIAL TO ACKNOWLEDGE the limitations.\" ✅"
+        },
+        {
+          "form": "It is difficult/impossible TO DO",
+          "example": "\"It is DIFFICULT TO OVERSTATE the significance of this.\" ✅"
+        },
+        {
+          "form": "It would be premature/wrong TO DO",
+          "example": "\"It would be PREMATURE TO CONCLUDE that X is true.\" ✅"
+        },
+        {
+          "form": "It is possible/likely TO DO",
+          "example": "\"It is POSSIBLE TO INTERPRET this finding differently.\" ✅"
+        },
+        {
+          "form": "It is hard/easy TO DO",
+          "example": "\"It is HARD TO IMAGINE a world without digital communication.\" ✅"
+        },
+        {
+          "form": "Never use gerund: ✗ \"It is important considering\"",
+          "example": "✅ \"It is important TO CONSIDER.\" — always infinitive in this structure. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Perfect gerund and passive gerund",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Perfect gerund: having + pp",
+          "example": "\"HAVING SUBMITTED the assignment, she felt relieved.\" (completed before the result) ✅"
+        },
+        {
+          "form": "Perfect gerund after \"regret\"",
+          "example": "\"I regret NOT HAVING applied earlier.\" (earlier non-action, now regret) ✅"
+        },
+        {
+          "form": "Passive gerund: being + pp",
+          "example": "\"BEING IGNORED is frustrating.\" (being the object of ignoring) ✅"
+        },
+        {
+          "form": "Passive gerund after prepositions",
+          "example": "\"She was upset at BEING TOLD to rewrite the essay.\" ✅"
+        },
+        {
+          "form": "After \"mind/avoid/hate/like\"",
+          "example": "\"She hates BEING INTERRUPTED.\" / \"He doesn't mind BEING ASKED questions.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Need + gerund and complex infinitive structures",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Need + gerund = need to be done",
+          "example": "\"The essay needs EDITING.\" = \"The essay needs TO BE EDITED.\" — same meaning, less formal. ✅"
+        },
+        {
+          "form": "Passive perfect infinitive",
+          "example": "\"She seems TO HAVE BEEN SELECTED for the prize.\" (passive + perfect + infinitive) ✅"
+        },
+        {
+          "form": "Adjective + perfect infinitive",
+          "example": "\"She was happy TO HAVE BEEN CHOSEN.\" / \"He was sorry TO HAVE MISSED the event.\" ✅"
+        },
+        {
+          "form": "Too + adjective + to-infinitive",
+          "example": "\"The essay is TOO LONG TO READ in one sitting.\" / \"She's TOO TIRED TO THINK clearly.\" ✅"
+        },
+        {
+          "form": "Adjective + enough + to-infinitive",
+          "example": "\"She's SMART ENOUGH TO UNDERSTAND the concept.\" / \"Is it GOOD ENOUGH TO PASS?\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Advanced errors at B1+",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"In addition to study X, we also...\"",
+          "example": "✅ \"In addition to STUDYING X, we also...\" — preposition \"to\" → gerund. ✅"
+        },
+        {
+          "form": "✗ \"It is important considering...\"",
+          "example": "✅ \"It is important TO CONSIDER...\" — \"It + adj + to-inf\" structure always. ✅"
+        },
+        {
+          "form": "✗ \"She hates to be interrupted.\" (not wrong, but less natural)",
+          "example": "✅ \"She hates BEING INTERRUPTED.\" — gerund is more natural after hate/mind/like for states. ✅"
+        },
+        {
+          "form": "✗ \"Look forward to see you.\"",
+          "example": "✅ \"Look forward to SEEING you.\" — \"to\" = preposition → gerund! ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Advanced Gerund/Infinitive patterns:\n\nPREPOSITIONS + GERUND (always!):\n\"In addition to STUDYING...\"\n\"Without CONSIDERING...\"\n\"Before SUBMITTING...\"\n⚠️ \"Look forward TO SEEING\" — TO = preposition here!\n\nIT + ADJECTIVE + TO-INFINITIVE:\n\"It is important TO CONSIDER.\"\n\"It is difficult TO OVERSTATE.\"\n\"It would be premature TO CONCLUDE.\"\n→ NEVER gerund: ✗ \"It is important considering\"\n\nPERFECT GERUND (having + pp):\n\"Having FINISHED the report, she relaxed.\"\n\"I regret not HAVING APPLIED earlier.\"\n\nPASSIVE GERUND (being + pp):\n\"Being IGNORED is frustrating.\"\n\"She hates being INTERRUPTED.\"\n\nNEED + GERUND = need to be done:\n\"The report needs UPDATING\" = needs to be updated.\n\nTOO + adj + to-inf:\n\"Too tired TO THINK.\"\nAdj + enough + to-inf:\n\"Smart enough TO UNDERSTAND.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Preposition + gerund.",
+      "text": "\"In addition to ___ (research) the topic, she also interviewed experts.\"",
+      "opts": [
+        "research",
+        "researching",
+        "to research",
+        "researched"
+      ],
+      "correct": "researching",
+      "hint": "\"In addition TO RESEARCHING the topic.\" — preposition \"to\" → gerund. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "\"Look forward to\" — gerund or infinitive?",
+      "text": "\"I look forward to ___ (hear) from you soon.\"",
+      "opts": [
+        "hear",
+        "hearing",
+        "have heard",
+        "heard"
+      ],
+      "correct": "hearing",
+      "hint": "\"Look forward TO HEARING from you.\" — \"to\" = preposition → GERUND. NOT infinitive \"to hear.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "\"It + adj + to-infinitive\" structure.",
+      "text": "\"It is ___ (essential) ___ (acknowledge) the limitations of the study.\"",
+      "correct": "essential to acknowledge",
+      "hint": "\"It is ESSENTIAL TO ACKNOWLEDGE the limitations.\" — it + adj + to-infinitive. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Passive gerund after \"mind.\"",
+      "text": "\"She doesn't mind ___ (ask) difficult questions.\"",
+      "opts": [
+        "to ask",
+        "being asked",
+        "asked",
+        "asking"
+      ],
+      "correct": "being asked",
+      "hint": "\"She doesn't mind BEING ASKED difficult questions.\" — passive gerund (she = the one being asked). ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Perfect gerund.",
+      "text": "\"___ (finish) the assignment, he felt a great sense of relief.\"",
+      "opts": [
+        "Finishing",
+        "Having finished",
+        "Having been finishing",
+        "Finished"
+      ],
+      "correct": "Having finished",
+      "hint": "\"HAVING FINISHED the assignment, he felt relieved.\" — perfect gerund for completed action before the result. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "\"Need + gerund\" vs \"need + to-be-pp\".",
+      "text": "\"The essay ___ (need) before we can submit it.\" (less formal)",
+      "opts": [
+        "needs to revise",
+        "needs revising",
+        "needs to be revised",
+        "Both \"needs revising\" and \"needs to be revised\" work"
+      ],
+      "correct": "Both \"needs revising\" and \"needs to be revised\" work",
+      "hint": "\"needs REVISING\" (informal) = \"needs TO BE REVISED\" (formal) — same meaning. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Too + adj + to-inf.",
+      "text": "\"The text was ___ (complex) ___ (understand) without a dictionary.\"",
+      "opts": [
+        "too complex to understand",
+        "too complex for understanding",
+        "complex enough to understand",
+        "so complex that understanding"
+      ],
+      "correct": "too complex to understand",
+      "hint": "\"TOO COMPLEX TO UNDERSTAND without a dictionary.\" — too + adjective + to-infinitive. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Adj + enough + to-inf.",
+      "text": "\"She is ___ (experienced) ___ (manage) the project independently.\"",
+      "opts": [
+        "enough experienced to manage",
+        "experienced enough to manage",
+        "too experienced to manage",
+        "so experienced that manage"
+      ],
+      "correct": "experienced enough to manage",
+      "hint": "\"EXPERIENCED ENOUGH TO MANAGE the project independently.\" — adjective + enough + to-infinitive. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Passive perfect infinitive.",
+      "text": "\"The report appears ___ (misinterpret) by several reviewers.\"",
+      "correct": "to have been misinterpreted",
+      "hint": "\"The report appears TO HAVE BEEN MISINTERPRETED.\" — passive perfect infinitive. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Without + gerund.",
+      "text": "\"___ (without / consider) the ethical implications, this research cannot be approved.\"",
+      "opts": [
+        "Without considering",
+        "Without to consider",
+        "Without considered",
+        "Without we consider"
+      ],
+      "correct": "Without considering",
+      "hint": "\"Without CONSIDERING the ethical implications.\" — preposition + gerund. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Find the error.",
+      "text": "\"It is important considering all the evidence before drawing conclusions.\"",
+      "opts": [
+        "Correct",
+        "\"considering\" should be \"to consider\" — it + adj + to-infinitive",
+        "\"important\" should be \"important that\"",
+        "\"drawing\" is wrong"
+      ],
+      "correct": "\"considering\" should be \"to consider\" — it + adj + to-infinitive",
+      "hint": "✅ \"It is important TO CONSIDER all the evidence.\" NEVER gerund in this structure. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Perfect gerund for past regret.",
+      "text": "\"I regret ___ (not / apply) for the scholarship three years ago.\"",
+      "opts": [
+        "not applying",
+        "not having applied",
+        "not to have applied",
+        "Both \"not applying\" and \"not having applied\" work"
+      ],
+      "correct": "Both \"not applying\" and \"not having applied\" work",
+      "hint": "\"Not APPLYING\" ✅ / \"Not HAVING APPLIED\" ✅ — both express regret about a past non-action. ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "\"Before\" + gerund.",
+      "text": "\"___ (before / submit) the final report, all data must be verified.\"",
+      "opts": [
+        "Before submitting",
+        "Before to submit",
+        "Before submit",
+        "Before we submit (both also correct)"
+      ],
+      "correct": "Before submitting",
+      "hint": "\"BEFORE SUBMITTING the report.\" — preposition \"before\" + gerund. ✅ (\"before we submit\" with subject is also correct but different structure)."
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Adjective + passive infinitive.",
+      "text": "\"She was delighted ___ (be / offer) the position.\"",
+      "opts": [
+        "to be offering",
+        "to have been offered",
+        "being offered",
+        "to offer"
+      ],
+      "correct": "to have been offered",
+      "hint": "\"She was delighted TO HAVE BEEN OFFERED the position.\" — passive perfect infinitive after adjective. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete the academic phrase.",
+      "text": "\"It would be ___ (premature) ___ (draw) conclusions from this data alone.\"",
+      "correct": "premature to draw",
+      "hint": "\"It would be PREMATURE TO DRAW conclusions from this data alone.\" — it + adj + to-inf. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "\"Instead of\" + gerund.",
+      "text": "\"Instead of ___ (memorise) vocabulary lists, focus on understanding words in context.\"",
+      "opts": [
+        "memorising",
+        "to memorise",
+        "memorised",
+        "memorise"
+      ],
+      "correct": "memorising",
+      "hint": "\"Instead of MEMORISING vocabulary lists.\" — preposition + gerund. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "After ALL prepositions, which form must follow?",
+      "opts": [
+        "Infinitive",
+        "Gerund",
+        "Past participle",
+        "Base form"
+      ],
+      "correct": "Gerund",
+      "hint": "ALL prepositions (in, on, for, to, without, before, after, etc.) are followed by GERUND. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Look forward to seeing you.\" — \"to\" is:",
+      "opts": [
+        "Infinitive marker",
+        "A preposition (→ must use gerund)",
+        "Unnecessary",
+        "Wrong — should be \"for\""
+      ],
+      "correct": "A preposition (→ must use gerund)",
+      "hint": "\"look forward TO\" — \"to\" = PREPOSITION here → must use GERUND \"seeing.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It is difficult to overstate the importance of X.\" — \"to overstate\" because:",
+      "opts": [
+        "Difficult = gerund verb",
+        "\"It + adj + to-inf\" structure always uses infinitive",
+        "\"Overstate\" is irregular",
+        "It depends on the adjective"
+      ],
+      "correct": "\"It + adj + to-inf\" structure always uses infinitive",
+      "hint": "\"It is difficult TO OVERSTATE.\" — It + adjective + TO-INFINITIVE structure. Always infinitive. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Having finished the report, she relaxed.\" — \"Having finished\" is:",
+      "opts": [
+        "Past Simple",
+        "Passive gerund",
+        "Perfect gerund",
+        "Present Participle Passive"
+      ],
+      "correct": "Perfect gerund",
+      "hint": "\"Having finished\" = PERFECT GERUND (having + past participle). Completed action before the result. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Being ignored is frustrating.\" — \"Being ignored\" is:",
+      "opts": [
+        "Active gerund",
+        "Passive gerund (subject = the one being ignored)",
+        "Perfect gerund",
+        "Infinitive"
+      ],
+      "correct": "Passive gerund (subject = the one being ignored)",
+      "hint": "\"Being IGNORED\" = passive gerund. The speaker is the recipient of the ignoring. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The chapter needs rewriting.\" — What does this mean?",
+      "opts": [
+        "Someone needs to rewrite the chapter for us",
+        "The chapter needs to be rewritten",
+        "We should rewrite it ourselves",
+        "It's optional to rewrite it"
+      ],
+      "correct": "The chapter needs to be rewritten",
+      "hint": "\"needs + gerund\" = \"needs + to be + pp.\" Same meaning, less formal. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It is important considering all the evidence.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"considering\" should be \"to consider\" — it + adj + to-infinitive structure",
+        "\"important\" is wrong",
+        "Needs a comma"
+      ],
+      "correct": "\"considering\" should be \"to consider\" — it + adj + to-infinitive structure",
+      "hint": "✅ \"It is important TO CONSIDER all the evidence.\" — NEVER gerund after \"it + adj.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The results appear to have been misinterpreted.\" — \"to have been\" is:",
+      "opts": [
+        "Past simple",
+        "Modal + perfect",
+        "Passive perfect infinitive",
+        "Past perfect passive"
+      ],
+      "correct": "Passive perfect infinitive",
+      "hint": "\"to have been misinterpreted\" = passive perfect infinitive. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was happy to have been selected.\" — The structure:",
+      "opts": [
+        "Gerund",
+        "Adjective + passive perfect infinitive",
+        "Need + gerund",
+        "It + adj + infinitive"
+      ],
+      "correct": "Adjective + passive perfect infinitive",
+      "hint": "\"Happy\" (adjective) + \"to have been selected\" (passive perfect infinitive). ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Too complex to understand\" vs \"complex enough to understand\":",
+      "opts": [
+        "Same meaning",
+        "\"Too complex\" = impossible/difficult; \"complex enough\" = at the right level of difficulty to be worth understanding",
+        "\"Enough\" is wrong here",
+        "\"Too\" is stronger than \"enough\""
+      ],
+      "correct": "\"Too complex\" = impossible/difficult; \"complex enough\" = at the right level of difficulty to be worth understanding",
+      "hint": "\"TOO complex TO understand\" = so complex you can't understand. \"COMPLEX ENOUGH TO be worth analysing\" = appropriate complexity. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Without considering the implications, the approach is flawed.\" — \"considering\" because:",
+      "opts": [
+        "Consider = gerund verb",
+        "\"Without\" = preposition → gerund",
+        "\"Considering\" is a conjunction here",
+        "\"To consider\" would also work"
+      ],
+      "correct": "\"Without\" = preposition → gerund",
+      "hint": "\"without\" = PREPOSITION → must use GERUND. \"Without CONSIDERING.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct?",
+      "opts": [
+        "\"In addition to consider X...\"",
+        "\"She was pleased having been chosen.\"",
+        "\"Without considering the costs, this plan is incomplete.\"",
+        "\"It is essential considering the evidence.\""
+      ],
+      "correct": "\"Without considering the costs, this plan is incomplete.\"",
+      "hint": "\"Without CONSIDERING the costs\" — preposition + gerund. ✅ All others have errors."
+    }
+  ]
+}

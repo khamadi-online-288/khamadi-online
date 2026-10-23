@@ -1,0 +1,485 @@
+{
+  "id": "l48-3",
+  "moduleNum": 14,
+  "lessonNum": 3,
+  "moduleTitle": "Describing & Defining",
+  "type": "listening",
+  "title": "Describing a Favourite Place",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to WKU Radio. Today we're asking students to describe a place that matters to them. First, we have Daniyar. Daniyar, tell us about your place.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "My place is a small café in Aktobe — the city where I grew up. It's a place that I've been going to since I was about twelve years old.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Can you describe it for us?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "It's a café which my grandmother used to take me to every Saturday. It's a small, slightly old-fashioned place that serves traditional Kazakh food. The walls are covered in old photographs which show Aktobe in the 1970s and 80s.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "What makes it special for you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "It's the people who run it. An elderly couple who have worked there for decades. They know everyone by name. It's a place where you always feel recognised — like you matter to someone.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Has it changed much since you were young?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Very little. The chairs are the same ones that were there when I was a child. The menu, which hasn't changed since the 1990s, still has the same soup that my grandmother always ordered.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Thank you. Next is Kamila. Kamila, what's your place?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Mine is actually a library — not WKU, but the public library in Almaty where I used to go as a teenager. It's a large, beautiful building that was built in the Soviet era.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Host",
+      "text": "What do you remember most about it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "The silence. And the smell. And the feeling that you were surrounded by ideas that someone had cared about enough to write down. It's a place that made me want to become the kind of person who also cared about ideas.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Host",
+      "text": "Beautiful. Do you still go there?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Every time I'm in Almaty. I sit in the same reading room where I used to study for exams. It's become a place that connects me to who I was at sixteen.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Host",
+      "text": "Thank you both. You've described places that clearly define who you are.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "old-fashioned",
+      "emoji": "🕰️",
+      "opts": [
+        "современный",
+        "старомодный",
+        "роскошный",
+        "простой"
+      ],
+      "correct": "старомодный"
+    },
+    {
+      "id": "p2",
+      "word": "recognised",
+      "emoji": "👋",
+      "opts": [
+        "незамеченный",
+        "узнанный / замеченный",
+        "оценённый",
+        "принятый"
+      ],
+      "correct": "узнанный / замеченный"
+    },
+    {
+      "id": "p3",
+      "word": "Soviet era",
+      "emoji": "🏛️",
+      "opts": [
+        "царское время",
+        "советская эпоха",
+        "современность",
+        "XIX век"
+      ],
+      "correct": "советская эпоха"
+    },
+    {
+      "id": "p4",
+      "word": "surrounded by",
+      "emoji": "🔵",
+      "opts": [
+        "одинокий",
+        "окружённый",
+        "скрытый",
+        "далёкий от"
+      ],
+      "correct": "окружённый"
+    },
+    {
+      "id": "p5",
+      "word": "elderly",
+      "emoji": "👴",
+      "opts": [
+        "молодой",
+        "пожилой",
+        "опытный",
+        "высокий"
+      ],
+      "correct": "пожилой"
+    },
+    {
+      "id": "p6",
+      "word": "decade",
+      "emoji": "📅",
+      "opts": [
+        "год",
+        "десятилетие",
+        "столетие",
+        "месяц"
+      ],
+      "correct": "десятилетие"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Daniyar has been visiting the Aktobe café since he was about twelve.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The café was opened recently by a young couple.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The café walls have photographs of Aktobe from the 1970s and 80s.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The café menu has changed significantly over the years.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila's special place is a library in Almaty.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The library was built after Kazakhstan's independence.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "☕",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Describes a traditional café in Aktobe that has special meaning"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Describes the public library in Almaty where she grew up reading"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Describes a café in Aktobe which his grandmother used to take him to every Saturday.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s2",
+      "text": "Says the walls are covered in old photographs which show Aktobe in the 1970s and 80s.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s3",
+      "text": "Says it's a place where you always feel recognised — like you matter to someone.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s4",
+      "text": "Describes a large, beautiful library building that was built in the Soviet era.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Says the library made her want to become someone who cares about ideas.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Still visits the same reading room where she used to study for exams as a teenager.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Daniyar been visiting the Aktobe café?",
+      "opts": [
+        "Since he was a child of about twelve",
+        "Since he started at WKU",
+        "Since his grandmother introduced him last year",
+        "He discovered it recently"
+      ],
+      "correct": "Since he was a child of about twelve",
+      "hint": "\"It's a place that I've been going to since I was about twelve years old.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is on the café walls?",
+      "opts": [
+        "Modern artwork",
+        "Menus from different years",
+        "Old photographs which show Aktobe in the 1970s and 80s",
+        "Tourist maps"
+      ],
+      "correct": "Old photographs which show Aktobe in the 1970s and 80s",
+      "hint": "\"The walls are covered in old photographs which show Aktobe in the 1970s and 80s.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes the café special for Daniyar?",
+      "opts": [
+        "The food quality",
+        "The people who run it make everyone feel recognised",
+        "The low prices",
+        "The location in the city centre"
+      ],
+      "correct": "The people who run it make everyone feel recognised",
+      "hint": "\"It's a place where you always feel recognised — like you matter to someone.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The café menu has changed a lot since Daniyar was young.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The menu, which hasn't changed since the 1990s, still has the same soup.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What style is the Almaty library building?",
+      "opts": [
+        "Modern glass architecture",
+        "Built in the Soviet era",
+        "Traditional Kazakh architecture",
+        "Built in the 1990s"
+      ],
+      "correct": "Built in the Soviet era",
+      "hint": "\"a large, beautiful building that was built in the Soviet era.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila most remember about the library?",
+      "opts": [
+        "The computers",
+        "The books",
+        "The silence, smell, and the feeling of being surrounded by ideas",
+        "The staff who work there"
+      ],
+      "correct": "The silence, smell, and the feeling of being surrounded by ideas",
+      "hint": "\"The silence. And the smell. And the feeling that you were surrounded by ideas.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila no longer visits the Almaty library.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Every time I'm in Almaty. I sit in the same reading room where I used to study for exams.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the library connect Kamila to?",
+      "opts": [
+        "Her academic career",
+        "Her grandmother",
+        "Who she was at sixteen years old",
+        "A specific author she loves"
+      ],
+      "correct": "Who she was at sixteen years old",
+      "hint": "\"It's become a place that connects me to who I was at sixteen.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It's a café which my grandmother used to take me to.\" \"Which\" refers to:",
+      "opts": [
+        "My grandmother",
+        "The café (a thing)",
+        "Me",
+        "Every Saturday"
+      ],
+      "correct": "The café (a thing)",
+      "hint": "\"which\" = relative pronoun for things. The café is a thing → use \"which\" (or \"that\"). ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The people who run it.\" — \"who\" is used because:",
+      "opts": [
+        "People is a place",
+        "People is a thing",
+        "People is plural",
+        "People = humans → use \"who\""
+      ],
+      "correct": "People = humans → use \"who\"",
+      "hint": "\"who\" = relative pronoun for people. \"The people WHO run it.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The menu, which hasn't changed since the 1990s, still has the same soup.\" — \"which\" refers to:",
+      "opts": [
+        "The soup",
+        "The 1990s",
+        "The menu (a thing)",
+        "The restaurant"
+      ],
+      "correct": "The menu (a thing)",
+      "hint": "\"which\" refers back to the nearest noun: \"the menu.\" A thing → \"which.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It's a place ___ you always feel recognised.\"",
+      "correct": "where",
+      "hint": "\"where\" = relative pronoun for places. \"A place WHERE you feel recognised.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A large, beautiful building that was built...\" — \"that\" refers to:",
+      "opts": [
+        "Building (a thing) — \"that\" can replace \"which\"",
+        "The Soviet era",
+        "Beautiful (adjective)",
+        "The city"
+      ],
+      "correct": "Building (a thing) — \"that\" can replace \"which\"",
+      "hint": "\"that\" can replace \"which\" for things. \"A building THAT was built in the Soviet era.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Photographs which show Aktobe.\" Which pronoun can also replace \"which\" here?",
+      "opts": [
+        "who",
+        "where",
+        "that",
+        "whose"
+      ],
+      "correct": "that",
+      "hint": "For things: \"which\" and \"that\" are both correct. \"Photographs THAT show Aktobe.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"An elderly couple ___ have worked there for decades.\"",
+      "correct": "who",
+      "hint": "\"who\" = people. \"An elderly couple WHO have worked there for decades.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which relative pronoun completes: \"A place ___ I feel at home.\"?",
+      "opts": [
+        "who",
+        "which",
+        "where",
+        "that"
+      ],
+      "correct": "where",
+      "hint": "\"where\" for places. \"A place WHERE I feel at home.\" ✅ (You could also say \"a place that makes me feel at home\" — different structure)"
+    }
+  ]
+}

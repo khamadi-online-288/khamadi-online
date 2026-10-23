@@ -1,0 +1,255 @@
+{
+  "id": "l14-4",
+  "moduleNum": 14,
+  "lessonNum": 4,
+  "moduleTitle": "Weather and clothes",
+  "title": "The weather forecast",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Zulfiya",
+      "text": "Daniyar, I'm checking the weather forecast for this weekend. It looks quite interesting!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "What does it say? We wanted to go to the city park on Saturday, remember?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zulfiya",
+      "text": "Saturday is going to be partly cloudy with a temperature of minus two degrees. And quite windy.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Minus two and windy? That's colder than today. Today it's zero degrees and calm.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zulfiya",
+      "text": "Yes — Saturday is colder and windier than today. The wind speed is thirty kilometres per hour.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That sounds unpleasant. And Sunday — is it any better?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zulfiya",
+      "text": "Sunday is much better! Sunny and calm — almost no wind at all. The temperature rises to plus four.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Plus four and sunny sounds perfect! Can we go on Sunday instead of Saturday?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zulfiya",
+      "text": "We could. But the forecast also says there may be light snow on Saturday afternoon. That could actually be beautiful!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Light snow in the afternoon — you're right, that sounds lovely for a walk. Is Saturday morning cold?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zulfiya",
+      "text": "Saturday morning is the coldest part — minus five before noon. But it gets warmer through the afternoon.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "What should I wear if we go Saturday? I have my thick coat and waterproof boots.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zulfiya",
+      "text": "Wear your warmest coat, a hat, gloves, and definitely the waterproof boots — the paths might be slippery.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Perfect. Let's go Saturday morning when it's still clear — before the snow starts!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "partly cloudy",
+      "emoji": "⛅",
+      "opts": [
+        "полностью ясно",
+        "переменная облачность",
+        "пасмурно",
+        "туманно"
+      ],
+      "correct": "переменная облачность"
+    },
+    {
+      "id": "p2",
+      "word": "wind speed",
+      "emoji": "💨",
+      "opts": [
+        "направление ветра",
+        "температура воздуха",
+        "скорость ветра",
+        "влажность"
+      ],
+      "correct": "скорость ветра"
+    },
+    {
+      "id": "p3",
+      "word": "calm",
+      "emoji": "🌿",
+      "opts": [
+        "бурный / штормовой",
+        "тихий / безветренный",
+        "прохладный",
+        "переменный"
+      ],
+      "correct": "тихий / безветренный"
+    },
+    {
+      "id": "p4",
+      "word": "slippery",
+      "emoji": "🧊",
+      "opts": [
+        "сухой",
+        "тёплый",
+        "мокрый",
+        "скользкий"
+      ],
+      "correct": "скользкий"
+    },
+    {
+      "id": "p5",
+      "word": "rises",
+      "emoji": "📈",
+      "opts": [
+        "падает",
+        "остаётся",
+        "замерзает",
+        "повышается / растёт"
+      ],
+      "correct": "повышается / растёт"
+    },
+    {
+      "id": "p6",
+      "word": "unpleasant",
+      "emoji": "😣",
+      "opts": [
+        "приятный",
+        "тихий",
+        "свежий",
+        "неприятный / некомфортный"
+      ],
+      "correct": "неприятный / некомфортный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Saturday's temperature is forecast to be minus two degrees.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The wind speed on Saturday is forty kilometres per hour.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Sunday is forecast to be colder and windier than Saturday.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "There may be light snow on Saturday afternoon.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Saturday morning is the warmest part of the day.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Daniyar and Zulfiya decide to go to the park on Saturday morning.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zulfiya",
+      "name": "Zulfiya",
+      "city": "Karagandy",
+      "emoji": "📊",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "Business student, Year 1"
+    },
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "⚖️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Law student, Year 2"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Was checking the weekend weather forecast on their phone.",
+      "correctCharId": "zulfiya"
+    },
+    {
+      "id": "s2",
+      "text": "Said Saturday is colder and windier than the current day.",
+      "correctCharId": "zulfiya"
+    },
+    {
+      "id": "s3",
+      "text": "Asked if the weather on Sunday would be better than Saturday.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s4",
+      "text": "Reported that Sunday would be sunny and calm with a temperature of plus four degrees.",
+      "correctCharId": "zulfiya"
+    },
+    {
+      "id": "s5",
+      "text": "Mentioned having a thick coat and waterproof boots for the trip.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s6",
+      "text": "Suggested going to the park on Saturday morning before the snow starts.",
+      "correctCharId": "daniyar"
+    }
+  ]
+}

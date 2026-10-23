@@ -1,0 +1,265 @@
+{
+  "id": "l4-2",
+  "moduleNum": 4,
+  "lessonNum": 2,
+  "moduleTitle": "My day",
+  "title": "Morning routines",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Zarina",
+      "text": "Aizhan, your alarm rings so early! What time is it? 6:30?!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes! I get up at 6:30 every day. Early mornings are the best!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "For you, maybe! I get up at 7:15. I press snooze at least twice.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Ha! I never press snooze. I get up immediately — it is my habit.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Amazing. What do you do first? Go to the cafeteria?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "No, first I stretch for five minutes and wash my face. Then breakfast.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "I do yoga every morning — ten minutes. It gives me energy!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "That's great! Do you eat breakfast after yoga?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Sometimes I skip breakfast. I just grab a banana and run to class.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Skip breakfast? That's terrible! I always eat porridge or an omelette.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "I know, I know. But I'm always in a rush. I'm not a morning person!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I listen to English podcasts on my walk to class. It helps me wake up!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Podcasts? In the morning? I am half asleep at that time!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Try it! What time do you feel most energetic? Morning or afternoon?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Definitely afternoon. After lunch I feel amazing. Mornings are exhausting!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "We are so different! But that's why we are good roommates, I think!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "alarm",
+      "emoji": "⏰",
+      "opts": [
+        "будильник",
+        "звонок",
+        "расписание",
+        "телефон"
+      ],
+      "correct": "будильник"
+    },
+    {
+      "id": "p2",
+      "word": "rush",
+      "emoji": "🏃",
+      "opts": [
+        "отдыхать",
+        "спешить",
+        "ждать",
+        "спать"
+      ],
+      "correct": "спешить"
+    },
+    {
+      "id": "p3",
+      "word": "skip",
+      "emoji": "🚫",
+      "opts": [
+        "съедать",
+        "пропускать",
+        "готовить",
+        "покупать"
+      ],
+      "correct": "пропускать"
+    },
+    {
+      "id": "p4",
+      "word": "stretch",
+      "emoji": "🧘",
+      "opts": [
+        "бежать",
+        "прыгать",
+        "делать растяжку",
+        "плавать"
+      ],
+      "correct": "делать растяжку"
+    },
+    {
+      "id": "p5",
+      "word": "exhausting",
+      "emoji": "😴",
+      "opts": [
+        "увлекательный",
+        "лёгкий",
+        "весёлый",
+        "изматывающий"
+      ],
+      "correct": "изматывающий"
+    },
+    {
+      "id": "p6",
+      "word": "habit",
+      "emoji": "🔁",
+      "opts": [
+        "случай",
+        "привычка",
+        "задание",
+        "правило"
+      ],
+      "correct": "привычка"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Zarina gets up at 7:15 every morning.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Aizhan presses snooze at least twice.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Zarina does ten minutes of yoga every morning.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Zarina always eats a big breakfast before class.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Aizhan listens to English podcasts on her walk to class.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Zarina feels most energetic in the morning.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "aizhan",
+      "name": "Aizhan",
+      "city": "Aktobe",
+      "emoji": "👩‍🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Room 412, Group 101"
+    },
+    {
+      "id": "zarina",
+      "name": "Zarina",
+      "city": "Almaty",
+      "emoji": "👩‍🎓",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Room 412, Group 101"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Gets up at 6:30 and never presses snooze.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s2",
+      "text": "Does ten minutes of yoga every morning.",
+      "correctCharId": "zarina"
+    },
+    {
+      "id": "s3",
+      "text": "Eats porridge or an omelette for breakfast.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s4",
+      "text": "Sometimes just grabs a banana and runs to class.",
+      "correctCharId": "zarina"
+    },
+    {
+      "id": "s5",
+      "text": "Listens to English podcasts on the way to class.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s6",
+      "text": "Feels most energetic in the afternoon, not the morning.",
+      "correctCharId": "zarina"
+    }
+  ]
+}

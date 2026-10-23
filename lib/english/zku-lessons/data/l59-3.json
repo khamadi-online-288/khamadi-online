@@ -1,0 +1,454 @@
+{
+  "id": "l59-3",
+  "moduleNum": 1,
+  "lessonNum": 3,
+  "moduleTitle": "Complex Conversations",
+  "type": "listening",
+  "title": "What Are You Doing After Graduation?",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "I've been thinking a lot about what I'm going to do after graduation. I've been training for three years. I want to use it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Are you going to apply for the sports science programme in Almaty? You've been talking about it since last year.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I was. But I've changed my mind. I had been assuming I wanted to coach. But I've realised I want to work in sports analytics.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's a big change. What changed?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've been doing data analysis for the volleyball team since February — tracking performance, injury patterns. I love it. More than I love coaching.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I had no idea you'd been doing that. How long have you been doing it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Since the start of the spring semester. The coach asked me to try it. I haven't stopped since.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "So you've completely changed your direction while we've all been assuming you knew exactly where you were going.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Yes. While I've been practising every morning, I've also been discovering what I actually want to do. They happened at the same time.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What about you, Rustam? You've been very quiet.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've been avoiding this conversation. I don't know what I want. I've been studying economics for three years and I'm still not sure why.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That's honest.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "My father has been running his own business since before I was born. He's always assumed I'll take it over. I've never told him I don't want to.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Have you been thinking about what you do want?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've been writing. Essays, mainly. Not for university — just for myself. I don't know if that counts as a plan.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "It counts as something. Something you've been doing without being told to. That's usually the thing that matters.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "analytics",
+      "emoji": "📊",
+      "opts": [
+        "тренировка",
+        "аналитика / анализ данных",
+        "управление",
+        "стратегия"
+      ],
+      "correct": "аналитика / анализ данных"
+    },
+    {
+      "id": "p2",
+      "word": "injury",
+      "emoji": "🤕",
+      "opts": [
+        "усталость",
+        "травма",
+        "болезнь",
+        "перегрузка"
+      ],
+      "correct": "травма"
+    },
+    {
+      "id": "p3",
+      "word": "take over",
+      "emoji": "🔄",
+      "opts": [
+        "уйти из",
+        "перенять / принять дела",
+        "отказаться от",
+        "продать"
+      ],
+      "correct": "перенять / принять дела"
+    },
+    {
+      "id": "p4",
+      "word": "assume",
+      "emoji": "💭",
+      "opts": [
+        "доказывать",
+        "предполагать / считать",
+        "знать точно",
+        "игнорировать"
+      ],
+      "correct": "предполагать / считать"
+    },
+    {
+      "id": "p5",
+      "word": "track",
+      "emoji": "📈",
+      "opts": [
+        "игнорировать",
+        "отслеживать / мониторить",
+        "записывать",
+        "анализировать"
+      ],
+      "correct": "отслеживать / мониторить"
+    },
+    {
+      "id": "p6",
+      "word": "direction",
+      "emoji": "🧭",
+      "opts": [
+        "скорость",
+        "направление / путь",
+        "дисциплина",
+        "цель"
+      ],
+      "correct": "направление / путь"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Zhibek has been working in sports analytics since February.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Zhibek plans to apply for the sports science programme in Almaty.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Rustam has known what he wants to do for a long time.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam's father has been running his own business for many years.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam has been telling his father he doesn't want to take over the business.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Rustam has been writing essays for himself, not for university.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Sports science student — discovered passion for analytics while training"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "CS student — observant, asks good questions"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Linguistics student — perceptive, draws out Rustam"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "📝",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Economics student — uncertain about his future, secretly loves writing"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been doing data analytics for the volleyball team since February.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s2",
+      "text": "Points out that Zhibek changed direction while others assumed she knew her path.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Has been avoiding conversations about the future because they don't know what they want.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Says their father has always assumed they'll take over the business.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Has been writing essays for themselves, not for university.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Says doing something without being told to is usually what matters.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Zhibek originally plan to do after graduation?",
+      "opts": [
+        "Work in sports analytics",
+        "Become a coach",
+        "Study medicine",
+        "Apply for a research position"
+      ],
+      "correct": "Become a coach",
+      "hint": "\"I had been assuming I wanted to coach.\" — she had planned this before changing her mind."
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What changed Zhibek's plans?",
+      "opts": [
+        "A conversation with the coach",
+        "She failed an exam",
+        "She had been doing data analytics and loved it more",
+        "She got a job offer"
+      ],
+      "correct": "She had been doing data analytics and loved it more",
+      "hint": "\"I've been doing data analysis for the volleyball team since February... I love it more than coaching.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why has Rustam been avoiding conversations about the future?",
+      "opts": [
+        "He already has a plan",
+        "He has been offered a job",
+        "He doesn't know what he wants",
+        "He has been too busy studying"
+      ],
+      "correct": "He doesn't know what he wants",
+      "hint": "\"I've been avoiding this conversation. I don't know what I want.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam's father expects him to take over the family business.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"He's always assumed I'll take it over.\" — the expectation has been there for a long time."
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Rustam been doing in his spare time?",
+      "opts": [
+        "Practising volleyball",
+        "Studying extra economics",
+        "Writing essays for himself",
+        "Planning a business"
+      ],
+      "correct": "Writing essays for himself",
+      "hint": "\"I've been writing. Essays, mainly. Not for university — just for myself.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say is significant about Rustam's writing?",
+      "opts": [
+        "It's high quality",
+        "He does it without being told — that usually matters",
+        "It will get him a job",
+        "He should study literature instead"
+      ],
+      "correct": "He does it without being told — that usually matters",
+      "hint": "\"Something you've been doing without being told to. That's usually the thing that matters.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek's change of direction happened suddenly in one moment.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"They happened at the same time.\" — the change happened gradually while she was also training."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Zhibek been doing data analytics for the team?",
+      "opts": [
+        "Since last year",
+        "Since October",
+        "Since February",
+        "Since the start of her second year"
+      ],
+      "correct": "Since February",
+      "hint": "\"I've been doing data analysis for the volleyball team since February.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I had been assuming I wanted to coach.\" — \"had been assuming\" means:",
+      "opts": [
+        "She just changed her mind now",
+        "Before changing her mind, this had been her ongoing assumption for some time",
+        "She assumed it once",
+        "She will assume it in the future"
+      ],
+      "correct": "Before changing her mind, this had been her ongoing assumption for some time",
+      "hint": "\"had been assuming\" = Past Perfect Continuous. Ongoing assumption BEFORE the change of mind. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I haven't stopped since.\" — This uses Present Perfect because:",
+      "opts": [
+        "The action is in the past",
+        "The action started in the past and continues to now",
+        "She stopped doing something",
+        "She will stop in the future"
+      ],
+      "correct": "The action started in the past and continues to now",
+      "hint": "\"haven't stopped\" = Present Perfect negative. Started the analytics work and has NOT stopped — the continuation is the point. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He's always assumed I'll take it over.\" — \"has always assumed\" expresses:",
+      "opts": [
+        "A one-time past action",
+        "An ongoing state or attitude throughout a period up to now",
+        "A future plan",
+        "A past habit that has stopped"
+      ],
+      "correct": "An ongoing state or attitude throughout a period up to now",
+      "hint": "\"has always assumed\" = Present Perfect with \"always\" showing a persistent attitude throughout the past up to now. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (write) for myself since my first year.\" Use the correct tense.",
+      "correct": "have been writing",
+      "hint": "Duration started in the past, still ongoing → Present Perfect Continuous. \"I HAVE BEEN WRITING for myself since my first year.\" ✅"
+    }
+  ]
+}

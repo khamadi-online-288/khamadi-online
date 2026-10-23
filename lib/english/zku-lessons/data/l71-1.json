@@ -1,0 +1,325 @@
+{
+  "id": "l71-1",
+  "moduleNum": 13,
+  "lessonNum": 1,
+  "moduleTitle": "Health, Medicine & Wellbeing",
+  "title": "The Global Health Revolution: Progress, Inequality, and the Challenges Ahead",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "Over the past two centuries, humanity has achieved extraordinary progress in health and medicine. Average global life expectancy has more than doubled — from around 35 years in 1800 to over 72 years today. Infant mortality has fallen dramatically. Diseases that once killed millions, including smallpox and polio, have been eliminated or nearly eradicated through vaccination campaigns. Surgical techniques, antibiotics, and diagnostic technology have transformed what it means to be ill. By almost any measure, the average person alive today is healthier, and lives longer, than at almost any previous point in history.",
+    "This progress is unevenly distributed, however. A child born in a high-income country can expect to live, on average, eighteen years longer than a child born in a low-income country. In wealthy nations, healthcare systems provide access to advanced treatments, early screening, and preventive care. In many low- and middle-income countries, basic healthcare is limited by a shortage of trained medical professionals, insufficient funding, and inadequate infrastructure. Preventable diseases — those that could be treated or avoided with basic medicine — remain leading causes of death in some of the world's poorest regions.",
+    "Communicable diseases — those that spread from person to person, such as malaria, tuberculosis, and HIV/AIDS — continue to impose an enormous burden on global health, particularly in sub-Saharan Africa and parts of Asia. Alongside these, non-communicable diseases — conditions such as heart disease, diabetes, cancer, and chronic respiratory illness — are now the leading causes of death globally, including in many middle-income countries. This \"double burden\" of communicable and non-communicable disease places enormous pressure on health systems that were often designed to address only one or the other.",
+    "One of the most significant developments in modern medicine is the shift from treating illness to preventing it. Preventive medicine — the practice of identifying and addressing risk factors before disease develops — has been shown to be both more effective and more cost-efficient than treatment after the fact. Vaccination, regular health screening, public health campaigns about diet, exercise, and smoking cessation, and the management of chronic conditions such as hypertension before they cause catastrophic events like strokes or heart attacks, all fall within the domain of preventive medicine.",
+    "The COVID-19 pandemic, which emerged in 2019 and spread globally within months, provided a dramatic demonstration of both the strengths and the vulnerabilities of modern global health systems. The development of effective vaccines within a year was a remarkable scientific achievement, drawing on decades of prior research into mRNA technology. At the same time, the pandemic exposed deep inequalities in vaccine distribution, healthcare capacity, and public health communication. Countries with weaker health systems and less economic resilience suffered disproportionately — a pattern that reflected broader global inequalities.",
+    "Digital health technologies represent one of the most promising frontiers in twenty-first-century medicine. Wearable devices that monitor heart rate, blood oxygen, and sleep patterns are already providing individuals with data that was previously available only in clinical settings. Artificial intelligence is being applied to diagnostic imaging, drug discovery, and personalised treatment plans. Telemedicine — the delivery of healthcare remotely via digital platforms — has expanded access to medical consultation for people in rural or underserved areas. The potential for technology to democratise access to high-quality healthcare is real, though it depends on addressing the digital divide.",
+    "The future of global health will be shaped by how well humanity addresses the interaction between environmental, social, and biological factors. Climate change is already affecting patterns of disease — expanding the geographic range of mosquito-borne illnesses, increasing the frequency of heat-related deaths, and threatening food and water security. Social determinants — income, education, housing, and working conditions — account for a large proportion of health outcomes. A truly healthy society is not just one with good hospitals; it is one that addresses the conditions that keep people well in the first place."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "preventive medicine",
+      "ru": "профилактическая медицина",
+      "context": "Identifying and addressing risk factors before disease develops"
+    },
+    {
+      "phrase": "double burden of disease",
+      "ru": "двойное бремя болезней",
+      "context": "The coexistence of communicable and non-communicable diseases in the same population"
+    },
+    {
+      "phrase": "social determinants of health",
+      "ru": "социальные детерминанты здоровья",
+      "context": "Non-medical factors (income, housing, education) that influence health outcomes"
+    },
+    {
+      "phrase": "telemedicine",
+      "ru": "телемедицина",
+      "context": "Remote healthcare delivery via digital platforms"
+    },
+    {
+      "phrase": "mRNA technology",
+      "ru": "мРНК технология",
+      "context": "The basis for the COVID-19 vaccines developed in 2020-21"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "eradicate",
+      "ipa": "/ɪˈrædɪkeɪt/",
+      "pos": "verb",
+      "ru": "искоренять / уничтожать",
+      "kz": "жою",
+      "emoji": "❌",
+      "definition": "to completely destroy or eliminate something, especially a disease",
+      "example": "\"Smallpox was eradicated through a global vaccination campaign.\"",
+      "collocations": [
+        "eradicate disease",
+        "eradicate poverty",
+        "completely eradicated"
+      ]
+    },
+    {
+      "en": "communicable",
+      "ipa": "/kəˈmjuːnɪkəbl/",
+      "pos": "adjective",
+      "ru": "инфекционный / заразный",
+      "kz": "жұқпалы",
+      "emoji": "🦠",
+      "definition": "(of a disease) able to be transmitted from one person or organism to another",
+      "example": "\"Communicable diseases like tuberculosis spread from person to person.\"",
+      "collocations": [
+        "communicable disease",
+        "non-communicable",
+        "communicable illness"
+      ]
+    },
+    {
+      "en": "hypertension",
+      "ipa": "/ˌhaɪpəˈtenʃən/",
+      "pos": "noun",
+      "ru": "гипертония / высокое кровяное давление",
+      "kz": "гипертензия",
+      "emoji": "❤️",
+      "definition": "abnormally high blood pressure, a major risk factor for heart attack and stroke",
+      "example": "\"Managing hypertension before it causes a stroke is a key goal of preventive medicine.\"",
+      "collocations": [
+        "treat hypertension",
+        "control hypertension",
+        "hypertension risk"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What has happened to global average life expectancy over the past two centuries?",
+      "correct": "It has more than doubled — from around 35 years in 1800 to over 72 years today"
+    },
+    {
+      "id": "t2",
+      "question": "What is the \"double burden of disease\"?",
+      "correct": "The coexistence of communicable and non-communicable diseases in the same population"
+    },
+    {
+      "id": "t3",
+      "question": "What is preventive medicine and why is it important?",
+      "correct": "Identifying and addressing risk factors before disease develops — more effective and cost-efficient than treatment"
+    },
+    {
+      "id": "t4",
+      "question": "What did the COVID-19 pandemic demonstrate about global health?",
+      "correct": "Both the strengths (rapid vaccine development) and vulnerabilities (inequalities in distribution and capacity)"
+    },
+    {
+      "id": "t5",
+      "question": "What are \"social determinants of health\"?",
+      "correct": "Non-medical factors like income, education, housing, and working conditions that influence health outcomes"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Health progress has been equally distributed across all countries.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Non-communicable diseases are now the leading cause of death globally.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "COVID-19 vaccines used mRNA technology developed specifically for the pandemic.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Digital health technologies could help democratise access to healthcare.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Climate change has no connection to patterns of disease.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "How much longer do people in high-income countries live than those in low-income countries?",
+      "opts": [
+        "About five years",
+        "About ten years",
+        "About eighteen years",
+        "About thirty years"
+      ],
+      "correct": "About eighteen years",
+      "hint": "Para 2: \"eighteen years longer\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"double burden of disease\" describe?",
+      "opts": [
+        "Two patients sharing a hospital bed",
+        "Both communicable and non-communicable diseases affecting the same population",
+        "The cost of treating two types of illness",
+        "Disease affecting both rich and poor equally"
+      ],
+      "correct": "Both communicable and non-communicable diseases affecting the same population",
+      "hint": "Para 3: \"double burden\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "Why is preventive medicine described as more effective than treatment?",
+      "opts": [
+        "It is free for all patients",
+        "It identifies and addresses risk factors before disease develops",
+        "It only works for cancer",
+        "It requires less technology"
+      ],
+      "correct": "It identifies and addresses risk factors before disease develops",
+      "hint": "Para 4: \"more effective and more cost-efficient\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What was the \"remarkable achievement\" related to COVID-19?",
+      "opts": [
+        "Eliminating the virus entirely",
+        "Developing effective vaccines within one year",
+        "Curing all patients who fell ill",
+        "Distributing vaccines equally worldwide"
+      ],
+      "correct": "Developing effective vaccines within one year",
+      "hint": "Para 5: \"remarkable scientific achievement\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "Telemedicine can expand access to healthcare in rural or underserved areas.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 6: \"expanded access… in rural or underserved areas\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text argues that a healthy society only needs good hospitals.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 7: \"not just one with good hospitals\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ country in the study showed some improvement in health outcomes.\" (100% of countries)",
+      "opts": [
+        "All",
+        "Every",
+        "Each of",
+        "Most"
+      ],
+      "correct": "Every",
+      "hint": "\"Every\" + singular noun = 100% of a group, one by one",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the participants completed the full vaccination course.\" (100% together)",
+      "opts": [
+        "Every",
+        "Each",
+        "All",
+        "Both"
+      ],
+      "correct": "All",
+      "hint": "\"All\" + plural noun = 100% as a group",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ countries face a double burden of disease, and ___ of them have the resources to address it adequately.\" (neither / few)",
+      "correct": "Many / few",
+      "hint": "\"Many\" for a large number; \"few\" for very little",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"eradicate\" mean?",
+      "opts": [
+        "To slow down the spread of",
+        "To completely eliminate",
+        "To study carefully",
+        "To vaccinate against"
+      ],
+      "correct": "To completely eliminate",
+      "hint": "Para 1: \"eradicated through vaccination campaigns\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A \"communicable\" disease is one that…",
+      "opts": [
+        "Is very painful",
+        "Can be transmitted from person to person",
+        "Has no known cure",
+        "Only affects children"
+      ],
+      "correct": "Can be transmitted from person to person",
+      "hint": "Para 3: \"spread from person to person\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"___ medicine is the practice of identifying risk factors before disease develops.\"",
+      "correct": "Preventive",
+      "hint": "Para 4: \"preventive medicine\"",
+      "points": 1
+    }
+  ]
+}

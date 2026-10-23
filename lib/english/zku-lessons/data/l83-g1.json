@@ -1,0 +1,519 @@
+{
+  "id": "l83-g1",
+  "moduleNum": 25,
+  "lessonNum": 5,
+  "moduleTitle": "Listening & Speaking Strategies",
+  "title": "Grammar: Tag Questions — Formation, Meaning, and Use",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Разделительные вопросы (Tag questions) — образование:\n\nОСНОВНОЕ ПРАВИЛО: обратная полярность!\nУтверждение (+) → отрицательный тег: \"She is a doctor, ISN'T she?\"\nОтрицание (–) → положительный тег: \"You haven't met him, HAVE you?\"\n\nСхема по временам:\nShe works here, doesn't she?\nThey worked yesterday, didn't they?\nHe has finished, hasn't he?\nYou will come, won't you?\nThey are coming, aren't they?\nShe was there, wasn't she?\n\nОСОБЫЕ СЛУЧАИ:\n\"I am right, AREN'T I?\" (не \"amn't I\")\n\"Let's go, SHALL WE?\"\n\"Don't forget, WILL YOU?\"\n\"Nobody came, DID THEY?\" (nobody/nobody/everyone → they)\n\nИНТОНАЦИЯ:\n↘ падающая = утверждение, ищу подтверждение\n↗ растущая = настоящий вопрос, не уверен",
+  "grammarTable": [
+    {
+      "subject": "Positive → negative tag",
+      "verb": "positive main clause + neg. auxiliary + pronoun",
+      "short": "You know, don't you?",
+      "example": "\"She's a good listener, isn't she?\" / \"They've been practising, haven't they?\""
+    },
+    {
+      "subject": "Negative → positive tag",
+      "verb": "negative main clause + pos. auxiliary + pronoun",
+      "short": "You don't know, do you?",
+      "example": "\"He didn't prepare, did he?\" / \"They haven't tried this, have they?\""
+    },
+    {
+      "subject": "With \"be\" as main verb",
+      "verb": "be → isn't/aren't/wasn't/weren't + pronoun",
+      "short": "It's difficult, isn't it?",
+      "example": "\"The presentation was clear, wasn't it?\" / \"This is useful, isn't it?\""
+    },
+    {
+      "subject": "With modal verbs",
+      "verb": "modal → negative modal + pronoun",
+      "short": "She can do it, can't she?",
+      "example": "\"You should slow down, shouldn't you?\" / \"They would help, wouldn't they?\""
+    },
+    {
+      "subject": "With \"have\" (possession)",
+      "verb": "have/has → haven't/hasn't + pronoun",
+      "short": "She has good posture, hasn't she?",
+      "example": "\"He has a lot of experience, hasn't he?\" (BrE) / \"He doesn't have...\" (AmE)"
+    },
+    {
+      "subject": "Imperative tags",
+      "verb": "let's/don't/do → will/can/would + you",
+      "short": "Come in, will/won't you?",
+      "example": "\"Let's try that again, shall we?\" / \"Don't be nervous, will you?\" / \"Listen carefully, will you?\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "The Two Main Functions of Tag Questions",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "1. Confirmation-seeking (falling intonation on tag): \"I already know this — just confirm it\"",
+          "example": "\"You're an experienced speaker, aren't you?\" ↘ (I think I know you are)"
+        },
+        {
+          "form": "2. Genuine question (rising intonation on tag): \"I'm not sure — please tell me\"",
+          "example": "\"You haven't done this before, have you?\" ↗ (I genuinely don't know)"
+        },
+        {
+          "form": "3. Softening a statement (falling intonation): making a comment sound less blunt",
+          "example": "\"That was a bit fast, wasn't it?\" ↘ (softer than \"That was too fast\")"
+        },
+        {
+          "form": "4. Checking understanding (rising intonation): inviting confirmation in conversation",
+          "example": "\"So the key point is clarity, is it?\" ↗ (checking I understood correctly)"
+        }
+      ]
+    },
+    {
+      "title": "Forming Tags: Step-by-Step",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Step 1: Identify the auxiliary in the main clause",
+          "example": "\"She has been practising\" → auxiliary: \"has\""
+        },
+        {
+          "form": "Step 2: Reverse the polarity",
+          "example": "Positive \"has\" → negative tag \"hasn't\"; negative \"hasn't\" → positive \"has\""
+        },
+        {
+          "form": "Step 3: Use the subject as a pronoun",
+          "example": "\"She has been practising\" → pronoun: \"she\" → tag: \"hasn't she?\""
+        },
+        {
+          "form": "If there is no auxiliary: use do/does/did",
+          "example": "\"You enjoy public speaking\" → no auxiliary → \"don't you?\" / \"You enjoyed it\" → \"didn't you?\""
+        }
+      ]
+    },
+    {
+      "title": "Special Tag Question Cases",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"I am\" → \"aren't I?\" (not \"amn't I?\" — rare in standard English)",
+          "example": "\"I am right, aren't I?\""
+        },
+        {
+          "form": "\"Nothing / nobody / nothing\" → positive tag",
+          "example": "\"Nothing works here, does it?\" / \"Nobody came, did they?\""
+        },
+        {
+          "form": "\"Everyone/someone\" → \"they\" as pronoun in tag",
+          "example": "\"Everyone enjoyed the presentation, didn't they?\""
+        },
+        {
+          "form": "Negative words (hardly, never, rarely, barely) → positive tag",
+          "example": "\"She barely speaks, does she?\" / \"He never prepares, does he?\""
+        }
+      ]
+    },
+    {
+      "title": "Tag Questions in Social Interaction",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Inviting agreement in conversation",
+          "example": "\"It was a great presentation, wasn't it?\" (expecting yes — falling intonation)"
+        },
+        {
+          "form": "Checking understanding after explaining",
+          "example": "\"So the key is slowing down, right?\" / \"Does that make sense?\" (rising intonation)"
+        },
+        {
+          "form": "Softening criticism or request",
+          "example": "\"That was a bit long, wasn't it?\" / \"You could have slowed down, couldn't you?\""
+        },
+        {
+          "form": "Maintaining conversational flow",
+          "example": "\"You've been to Japan, haven't you? So you know about high-context communication...\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Tag Questions",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ She is a good speaker, isn't he?",
+          "example": "✅ She is a good speaker, isn't she? (tag pronoun must match subject)"
+        },
+        {
+          "form": "❌ They arrived early, didn't it?",
+          "example": "✅ They arrived early, didn't they? (use \"they\" not \"it\")"
+        },
+        {
+          "form": "❌ You can speak French, can't he?",
+          "example": "✅ You can speak French, can't you? (pronoun must match \"you\")"
+        },
+        {
+          "form": "❌ She doesn't listen well, doesn't she?",
+          "example": "✅ She doesn't listen well, does she? (negative → positive tag)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct tag question.",
+      "text": "\"She's been working on her presentation, ___?\"",
+      "opts": [
+        "has she",
+        "hasn't she",
+        "isn't she",
+        "doesn't she"
+      ],
+      "correct": "hasn't she",
+      "hint": "Positive statement + \"has been\" → negative tag \"hasn't she\""
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the tag question.",
+      "text": "\"They don't practise active listening much, ___ ___?\"",
+      "correct": "do they",
+      "hint": "Negative statement → positive tag \"do they\""
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct tag.",
+      "text": "\"We should slow down when speaking to L2 listeners, ___?\"",
+      "opts": [
+        "will we",
+        "should we",
+        "shouldn't we",
+        "won't we"
+      ],
+      "correct": "shouldn't we",
+      "hint": "Positive modal \"should\" → negative tag \"shouldn't we\""
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Form the correct tag.",
+      "text": "\"You enjoyed the lecture on non-verbal communication, ___ ___?\"",
+      "correct": "didn't you",
+      "hint": "Positive past simple → \"did you\" (negative): \"didn't you\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct tag for a negative statement.",
+      "text": "\"He hasn't prepared any signposting phrases, ___?\"",
+      "opts": [
+        "hasn't he",
+        "has he",
+        "doesn't he",
+        "does he"
+      ],
+      "correct": "has he",
+      "hint": "Negative statement → positive tag \"has he\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct tag.",
+      "text": "\"I'm right about this, ___ ___?\"",
+      "correct": "aren't I",
+      "hint": "\"I am\" → special case: \"aren't I\""
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct tag.",
+      "text": "\"Let's practise our repair strategies before the presentation, ___?\"",
+      "opts": [
+        "do we",
+        "will we",
+        "shall we",
+        "won't we"
+      ],
+      "correct": "shall we",
+      "hint": "\"Let's\" → \"shall we?\" (invitation to do together)"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the tag.",
+      "text": "\"Nobody remembered to use signposting phrases, ___ ___?\"",
+      "correct": "did they",
+      "hint": "\"Nobody\" = negative → positive tag \"did they\""
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"They can present very confidently, can't it?\"",
+      "opts": [
+        "No error",
+        "\"can't it\" should be \"can't they\"",
+        "\"can't it\" should be \"can they\"",
+        "\"can't it\" should be \"can't we\""
+      ],
+      "correct": "\"can't it\" should be \"can't they\"",
+      "hint": "Subject \"they\" → pronoun in tag must be \"they\" not \"it\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the tag.",
+      "text": "\"Everyone found the listening lecture very useful, ___ ___?\"",
+      "correct": "didn't they",
+      "hint": "\"Everyone\" = positive → negative tag \"didn't they\""
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct function of this tag question.",
+      "text": "\"The presentation was a bit fast, wasn't it?\" ↘ (falling intonation)",
+      "opts": [
+        "Genuine question — I don't know the answer",
+        "Softening a comment — I know it was fast",
+        "Checking I've understood correctly",
+        "Inviting someone to speak"
+      ],
+      "correct": "Softening a comment — I know it was fast",
+      "hint": "Falling intonation on the tag = I know the answer, making the comment softer"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with the correct tag.",
+      "text": "\"She barely prepared for the talk, ___ ___?\" (negative word \"barely\")",
+      "correct": "did she",
+      "hint": "\"Barely\" = negative meaning → positive tag \"did she\""
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "What function does this tag serve?",
+      "text": "\"You can hear me clearly in the back, can't you?\" ↗ (rising intonation)",
+      "opts": [
+        "Confirming something I already know",
+        "Softening a criticism",
+        "Genuinely checking — I'm not sure if they can hear",
+        "Inviting a longer response"
+      ],
+      "correct": "Genuinely checking — I'm not sure if they can hear",
+      "hint": "Rising intonation = genuine question — I don't know the answer"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Form the correct tag.",
+      "text": "\"You wouldn't rush through such an important presentation, ___ ___?\"",
+      "correct": "would you",
+      "hint": "\"Wouldn't\" = negative modal → positive tag \"would you\""
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the correct tag.",
+      "text": "\"She'd benefit from practising in low-stakes situations first, ___?\"",
+      "opts": [
+        "wouldn't she",
+        "hadn't she",
+        "didn't she",
+        "hasn't she"
+      ],
+      "correct": "wouldn't she",
+      "hint": "\"She'd\" = \"she would\" → \"wouldn't she\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which tag question is INCORRECT?",
+      "text": "",
+      "opts": [
+        "\"You've been studying English for years, haven't you?\"",
+        "\"They won't be able to follow, will they?\"",
+        "\"She can speak very clearly, can't she?\"",
+        "\"He is a good presenter, doesn't he?\""
+      ],
+      "correct": "\"He is a good presenter, doesn't he?\"",
+      "hint": "\"Is\" → \"isn't he\" (not \"doesn't he\" — \"be\" verb takes \"be\" in the tag)",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She's been working on her communication skills, ___?\" (tag)",
+      "opts": [
+        "has she",
+        "hasn't she",
+        "isn't she",
+        "doesn't she"
+      ],
+      "correct": "hasn't she",
+      "hint": "Positive + present perfect \"has been\" → negative tag \"hasn't she\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He didn't use any signposting phrases, ___ ___?\" (tag)",
+      "correct": "did he",
+      "hint": "Negative past statement → positive tag \"did he\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"We should practise repair strategies more often, ___?\" (modal tag)",
+      "opts": [
+        "will we",
+        "should we",
+        "shouldn't we",
+        "won't we"
+      ],
+      "correct": "shouldn't we",
+      "hint": "Positive modal \"should\" → negative tag \"shouldn't we\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I'm getting better at presentations, ___ ___?\" (special case: I am)",
+      "correct": "aren't I",
+      "hint": "\"I am\" → special tag: \"aren't I\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Nobody in the room understood the accent, ___?\"",
+      "opts": [
+        "did they",
+        "didn't they",
+        "did nobody",
+        "does anyone"
+      ],
+      "correct": "did they",
+      "hint": "\"Nobody\" = negative → positive tag \"did they\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Let's try this activity, shall we?\" uses the correct imperative tag.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Let's\" → \"shall we?\" is the correct imperative tag",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She barely makes eye contact during presentations, ___ ___?\" (negative word \"barely\")",
+      "correct": "does she",
+      "hint": "\"Barely\" = negative meaning → positive tag \"does she\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"You'd benefit from recording yourself, ___?\" (you would)",
+      "opts": [
+        "wouldn't you",
+        "hadn't you",
+        "didn't you",
+        "shouldn't you"
+      ],
+      "correct": "wouldn't you",
+      "hint": "\"You'd\" = \"you would\" → negative tag \"wouldn't you\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Everyone needs to practise active listening, ___ ___?\" (tag)",
+      "correct": "don't they",
+      "hint": "\"Everyone\" = positive → negative tag \"don't they\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "A falling intonation on a tag question signals…",
+      "opts": [
+        "A genuine question — I don't know the answer",
+        "Confirmation-seeking — I expect the answer I think is right",
+        "A request for repetition",
+        "An invitation for the other person to speak at length"
+      ],
+      "correct": "Confirmation-seeking — I expect the answer I think is right",
+      "hint": "Falling intonation = I already know the answer, just confirming",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"They can't improve without deliberate practice, ___ ___?\" (negative modal)",
+      "correct": "can they",
+      "hint": "Negative modal \"can't\" → positive tag \"can they\"",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is INCORRECT?",
+      "opts": [
+        "\"She is a confident speaker, isn't she?\"",
+        "\"They don't practise enough, do they?\"",
+        "\"He can explain clearly, can't he?\"",
+        "\"She is a good listener, doesn't she?\""
+      ],
+      "correct": "\"She is a good listener, doesn't she?\"",
+      "hint": "\"is\" → \"isn't she\" — not \"doesn't she\" (only use \"do\" when there is no auxiliary)",
+      "points": 2
+    }
+  ]
+}

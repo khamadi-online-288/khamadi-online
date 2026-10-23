@@ -1,0 +1,525 @@
+{
+  "id": "l80-g2",
+  "moduleNum": 22,
+  "lessonNum": 6,
+  "moduleTitle": "Philosophy, Ethics & Values",
+  "title": "Grammar: Advanced Counter-Argument Patterns in Philosophical Writing",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Сильное эссе включает КОНТРАРГУМЕНТ — это показывает интеллектуальную честность:\n\n① ПРЕДСТАВЬ контраргумент:\n\"Admittedly, some argue that X...\"\n\"It is true that X has certain advantages...\"\n\"One could argue that X is the case...\"\n\n② ПРИЗНАЙ его частичную правоту:\n\"This is a valid point to some extent.\"\n\"There is some truth in this argument.\"\n\n③ НО отвергни или ограничь его:\n\"However, this overlooks...\"\n\"Nevertheless, the evidence suggests...\"\n\"Yet this argument fails to consider...\"\n\n④ УСИЛЬ свою позицию:\n\"In fact, the evidence clearly shows...\"\n\"Furthermore, research demonstrates...\"\n\n💡 Структура: Concession → Limitation → Your stronger argument",
+  "grammarTable": [
+    {
+      "subject": "Introducing an objection",
+      "verb": "It might be objected that / One might argue that / A critic would say",
+      "short": "presenting the counter-view",
+      "example": "\"It might be objected that consequentialism ignores individual rights.\""
+    },
+    {
+      "subject": "Acknowledging merit",
+      "verb": "This objection has force / There is some truth in / It is true that X",
+      "short": "conceding the valid point",
+      "example": "\"This objection has genuine force — consequences clearly do matter.\""
+    },
+    {
+      "subject": "Limiting the concession",
+      "verb": "however / yet / but / nevertheless + main counter",
+      "short": "but the objection does not succeed because...",
+      "example": "\"However, the objection fails to establish that consequences are all that matters.\""
+    },
+    {
+      "subject": "Qualifying the position",
+      "verb": "I do not claim X, but only Y / This is not to say X, but rather Y",
+      "short": "clarifying and limiting your claim",
+      "example": "\"This is not to say that outcomes are irrelevant, but only that they cannot override all other considerations.\""
+    },
+    {
+      "subject": "Distinguishing cases",
+      "verb": "in this case / in extreme cases / in ordinary situations",
+      "short": "your claim holds in X context",
+      "example": "\"In ordinary moral situations, the rule holds. In extreme dilemmas, it may need to be qualified.\""
+    },
+    {
+      "subject": "Drawing a conclusion",
+      "verb": "It follows that / We may conclude that / The upshot is",
+      "short": "the conclusion after the counter-argument",
+      "example": "\"It follows that deontological constraints cannot be entirely dismissed, even by consequentialists.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Introducing the Opposing View Charitably",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "\"One might object that…\" / \"A critic could argue that…\"",
+          "example": "\"One might object that my argument proves too much — that it would justify conclusions I am not willing to accept.\""
+        },
+        {
+          "form": "\"It might be thought that…\" / \"It could be suggested that…\"",
+          "example": "\"It might be thought that this conflates two different senses of the term.\""
+        },
+        {
+          "form": "\"The strongest objection to this view is…\"",
+          "example": "\"The strongest objection to this view is that it renders many ordinary moral practices indefensible.\""
+        },
+        {
+          "form": "\"From a consequentialist / deontological / virtue perspective, one might argue…\"",
+          "example": "\"From a consequentialist perspective, one might argue that the ends justify the means in this case.\""
+        }
+      ]
+    },
+    {
+      "title": "Acknowledging the Objection: Partial Concession",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"This objection has genuine force.\" / \"The point is well taken.\"",
+          "example": "\"This objection has genuine force — Kant's account does fail to capture certain aspects of moral experience.\""
+        },
+        {
+          "form": "\"It is true that X.\" / \"I concede that X.\"",
+          "example": "\"It is true that the argument, as stated, is vulnerable to this criticism.\""
+        },
+        {
+          "form": "\"To some extent, this is correct.\" / \"There is something to this objection.\"",
+          "example": "\"There is something to this criticism — the distinction I draw may be less clear than I initially suggested.\""
+        },
+        {
+          "form": "\"Admittedly, X. That said, Y.\"",
+          "example": "\"Admittedly, care ethics cannot resolve all dilemmas. That said, it illuminates what the other frameworks miss.\""
+        }
+      ]
+    },
+    {
+      "title": "Countering After Concession",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"However, this objection misses the point that…\"",
+          "example": "\"However, this objection misses the point that the case at issue is not a case of merely harming to benefit.\""
+        },
+        {
+          "form": "\"Nevertheless, the objection does not establish that X.\"",
+          "example": "\"Nevertheless, the objection does not establish that the distinction is without moral significance.\""
+        },
+        {
+          "form": "\"The objection succeeds against a weaker version of my claim, but not against the stronger.\"",
+          "example": "\"This objection succeeds against the crude version of the argument, but not against the more nuanced position I am defending.\""
+        },
+        {
+          "form": "\"Even granting this, the main argument still holds.\"",
+          "example": "\"Even granting the force of this criticism, the overall case for care ethics remains compelling.\""
+        }
+      ]
+    },
+    {
+      "title": "Qualifying and Distinguishing: Limiting the Claim",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"I am not claiming X, but only that Y.\"",
+          "example": "\"I am not claiming that consequences never matter, only that they cannot override all deontological constraints.\""
+        },
+        {
+          "form": "\"This is not to deny X, but to insist that Y.\"",
+          "example": "\"This is not to deny that institutions matter, but to insist that individual character matters too.\""
+        },
+        {
+          "form": "\"In typical cases X holds. In exceptional cases, X may need qualification.\"",
+          "example": "\"In ordinary moral situations, the principle of honesty is sound. In extreme dilemmas, it may conflict with other obligations.\""
+        },
+        {
+          "form": "\"My claim is the modest one that X, not the stronger claim that Y.\"",
+          "example": "\"My claim is the modest one that relationships generate genuine obligations, not the stronger claim that these override all others.\""
+        }
+      ]
+    },
+    {
+      "title": "Concluding After Counter-Argument",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "\"It follows that…\" / \"We may therefore conclude…\"",
+          "example": "\"It follows that neither pure consequentialism nor pure deontology can give a fully adequate account of morality.\""
+        },
+        {
+          "form": "\"The upshot of this argument is…\"",
+          "example": "\"The upshot is that moral philosophy needs multiple frameworks, not a single master theory.\""
+        },
+        {
+          "form": "\"In light of the above…\" / \"On the basis of these considerations…\"",
+          "example": "\"In light of the above, it seems that care ethics adds something genuinely important to moral theory.\""
+        },
+        {
+          "form": "\"What this shows is that…\" / \"The lesson to draw is…\"",
+          "example": "\"What this shows is that moral intuitions should not be too quickly dismissed in favour of theoretical elegance.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct phrase to introduce a counter-view.",
+      "text": "\"___ ___ that this argument proves too much, yielding conclusions no one accepts.\"",
+      "opts": [
+        "It follows",
+        "One might object",
+        "Granted that",
+        "Therefore"
+      ],
+      "correct": "One might object",
+      "hint": "\"One might object that…\" = introducing an opposing argument charitably"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the partial concession.",
+      "text": "\"___ ___ ___ the theory is vulnerable to this objection. ___ ___ ___, the central claim remains defensible.\" (acknowledge, then counter)",
+      "correct": "It is true that / That said",
+      "hint": "\"It is true that X. That said, Y.\" = concede then counter"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct counter-argument structure.",
+      "text": "\"This objection has force. ___, it does not establish that consequences are all that matters.\"",
+      "opts": [
+        "Therefore",
+        "Furthermore",
+        "However",
+        "Because"
+      ],
+      "correct": "However",
+      "hint": "\"This objection has force. However, it does not establish X.\" = acknowledge then counter"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the qualifying structure.",
+      "text": "\"___ am not ___ that consequences are irrelevant, ___ only that they cannot override all deontological constraints.\"",
+      "correct": "I / claiming / but",
+      "hint": "\"I am not claiming X, but only Y\" = limiting the claim precisely"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct phrase for drawing a conclusion after a counter-argument.",
+      "text": "\"___ ___ the above, neither pure consequentialism nor virtue ethics alone is fully adequate.\"",
+      "opts": [
+        "It is true that",
+        "In light of",
+        "One might object",
+        "Be that as it may"
+      ],
+      "correct": "In light of",
+      "hint": "\"In light of the above\" = drawing a conclusion based on what was discussed"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the phrase for introducing the strongest objection.",
+      "text": "\"___ ___ ___ objection to this view is that it renders ordinary moral practices indefensible.\"",
+      "correct": "The strongest",
+      "hint": "\"The strongest objection to this view is…\" = setting up the objection charitably"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the structure that best qualifies a claim.",
+      "text": "\"___ is not to say that character is irrelevant to action, but ___ to insist it is not the only factor.\"",
+      "opts": [
+        "It / only",
+        "This / rather",
+        "That / just",
+        "These / to"
+      ],
+      "correct": "This / rather",
+      "hint": "\"This is not to say X, but rather to insist Y\" = precise qualification"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the counter after conceding the point.",
+      "text": "\"Even ___ the force of this criticism, the overall case for care ethics remains persuasive.\"",
+      "correct": "granting",
+      "hint": "\"Even granting X, Y still holds\" = conceding then countering"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which sentence introduces an opposing view most charitably?",
+      "text": "",
+      "opts": [
+        "\"The critic is completely wrong.\"",
+        "\"From a consequentialist perspective, one might argue that this distinction is merely semantic.\"",
+        "\"This objection fails entirely.\"",
+        "\"The counter-argument has no merit.\""
+      ],
+      "correct": "\"From a consequentialist perspective, one might argue that this distinction is merely semantic.\"",
+      "hint": "\"From X perspective, one might argue that…\" = charitable introduction of opposing view"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the conclusion phrase.",
+      "text": "\"___ ___ is that multiple ethical frameworks each capture something important, and none is complete on its own.\"",
+      "correct": "The upshot",
+      "hint": "\"The upshot is that…\" = the practical conclusion to draw",
+      "points": 1
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which correctly distinguishes two cases?",
+      "text": "",
+      "opts": [
+        "\"The rule always applies without exception.\"",
+        "\"In ordinary cases, the principle holds; in extreme dilemmas, it may require qualification.\"",
+        "\"The rule never applies in any situation.\"",
+        "\"The rule applies only to philosophers.\""
+      ],
+      "correct": "\"In ordinary cases, the principle holds; in extreme dilemmas, it may require qualification.\"",
+      "hint": "\"In typical cases X; in exceptional cases, X may need qualification\" = distinguishing cases",
+      "points": 1
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the phrase \"the point is well taken.\"",
+      "text": "\"___ ___ ___ ___ — the argument does commit to a strong claim. However, this is precisely what the argument needs to establish.\"",
+      "correct": "The point is well taken",
+      "hint": "\"The point is well taken\" = acknowledging validity of objection before countering",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the most academic way to introduce an objection.",
+      "text": "",
+      "opts": [
+        "\"But wait — someone might say...\"",
+        "\"It might be objected that this argument is circular.\"",
+        "\"A random person might disagree.\"",
+        "\"Some people don't like this argument.\""
+      ],
+      "correct": "\"It might be objected that this argument is circular.\"",
+      "hint": "\"It might be objected that…\" = formal, academic introduction of counter-view",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the modest claim structure.",
+      "text": "\"My claim is the ___ ___ that relationships generate moral obligations, not the stronger claim that they override all other obligations.\"",
+      "correct": "modest one",
+      "hint": "\"My claim is the modest one that X, not the stronger claim that Y\"",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which correctly concludes an argument after engaging with counter-views?",
+      "text": "",
+      "opts": [
+        "\"So I am right after all.\"",
+        "\"It follows that no ethical framework is entirely satisfactory, but each contributes something valuable.\"",
+        "\"The counter-argument proves my point.\"",
+        "\"This shows that philosophy is pointless.\""
+      ],
+      "correct": "\"It follows that no ethical framework is entirely satisfactory, but each contributes something valuable.\"",
+      "hint": "\"It follows that…\" = logical conclusion after considering counter-arguments",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What does \"even granting this\" signal in academic writing?",
+      "text": "",
+      "opts": [
+        "The writer fully accepts the objection",
+        "The writer is about to introduce a new topic",
+        "The writer concedes a point temporarily to show the main argument still holds",
+        "The writer has no response to the objection"
+      ],
+      "correct": "The writer concedes a point temporarily to show the main argument still holds",
+      "hint": "\"Even granting this, X still holds\" = concede + counter structure",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ that my argument has counterintuitive implications.\" (introducing the objection)",
+      "opts": [
+        "It follows",
+        "One might object",
+        "Granted",
+        "Be that as it may"
+      ],
+      "correct": "One might object",
+      "hint": "\"One might object that…\" = introducing the opposing view charitably",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ the theory faces this objection. ___ ___, the central insight remains valid.\" (concede + counter)",
+      "correct": "It is true that / That said",
+      "hint": "\"It is true that X. That said, Y.\" = concede then counter",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"This objection has genuine force. ___, it does not establish that deontological constraints are worthless.\"",
+      "opts": [
+        "Furthermore",
+        "Consequently",
+        "Nevertheless",
+        "Additionally"
+      ],
+      "correct": "Nevertheless",
+      "hint": "\"Nevertheless\" = despite the force of the objection, the counter still holds",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ granting the objection's force, the main argument still stands.\" (concessive conditional — even if granting)",
+      "correct": "Even",
+      "hint": "\"Even granting X, Y still holds\" = concede for argument's sake, then counter",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I ___ claiming that character is everything — only that it matters alongside consequences.\"",
+      "opts": [
+        "am not",
+        "should not be",
+        "ought not to be",
+        "never am"
+      ],
+      "correct": "am not",
+      "hint": "\"I am not claiming X, but only Y\" = precise qualification of position",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The upshot of this argument is…\" introduces a conclusion.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"The upshot is…\" = the practical conclusion or result of the argument",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ the above, we can conclude that no single ethical framework is fully adequate.\"",
+      "correct": "In light of",
+      "hint": "\"In light of the above\" = drawing a conclusion based on the preceding argument",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ objection to care ethics is that partiality can shade into tribalism.\"",
+      "opts": [
+        "The weakest possible",
+        "The strongest",
+        "A possible",
+        "This objection"
+      ],
+      "correct": "The strongest",
+      "hint": "\"The strongest objection to X is…\" = introducing the counter-argument at its most powerful",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In ordinary situations, the principle applies. ___ extreme cases, it may need qualification.\" (distinguishing)",
+      "correct": "In",
+      "hint": "\"In ordinary cases X; in extreme cases Y\" = distinguishing different contexts",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ is not to say that outcomes are irrelevant, but rather to insist that they are not the only consideration.\"",
+      "opts": [
+        "It",
+        "This",
+        "That",
+        "Both A and B are correct"
+      ],
+      "correct": "Both A and B are correct",
+      "hint": "\"This is not to say X, but to insist Y\" and \"It is not to say X\" — both are correct",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ — the argument does commit to a strong claim. Nevertheless, it is precisely what the case requires.\" (= I acknowledge the point)",
+      "correct": "The point is well taken",
+      "hint": "\"The point is well taken\" = acknowledging validity of objection",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence best introduces an opposing view in a formal essay?",
+      "opts": [
+        "\"Some people disagree with this.\"",
+        "\"Critics say this is wrong.\"",
+        "\"From a deontological perspective, one might argue that this conclusion violates fundamental duties.\"",
+        "\"Not everyone agrees.\""
+      ],
+      "correct": "\"From a deontological perspective, one might argue that this conclusion violates fundamental duties.\"",
+      "hint": "\"From X perspective, one might argue that…\" = most formal, charitable introduction",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,374 @@
+{
+  "id": "l41-5",
+  "moduleNum": 7,
+  "lessonNum": 7,
+  "moduleTitle": "Obligations & Advice",
+  "type": "test",
+  "title": "Module 7 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What happens if a student misses more than 20% of a course?",
+      "opts": [
+        "They get a warning email",
+        "They can retake the exam",
+        "They automatically fail",
+        "Their grade is reduced"
+      ],
+      "correct": "They automatically fail",
+      "hint": "\"Missing more than 20% of any course automatically results in a failing grade.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Students at WKU may use AI tools to help write their essays.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Students must not use AI tools to generate essays for submission.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which of these does the text say students DON'T have to do?",
+      "opts": [
+        "Attend 80% of classes",
+        "Cite their sources",
+        "Buy every book immediately",
+        "Notify the department when absent"
+      ],
+      "correct": "Buy every book immediately",
+      "hint": "\"They don't have to buy every book on the reading list immediately: the library has most of them.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The text says students who don't follow recommendations find themselves in ___ trouble.",
+      "correct": "avoidable",
+      "hint": "\"students who don't often find themselves in avoidable trouble.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "The student support office exists for students who feel:",
+      "opts": [
+        "Bored",
+        "Perfect",
+        "Lost or confused",
+        "Too busy"
+      ],
+      "correct": "Lost or confused",
+      "hint": "\"The student support office exists precisely for moments of confusion or difficulty.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "According to the text, the best students follow every rule perfectly.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"students who do well... are the ones who understand which rules matter most, ask for help...\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Kamila have to choose between the two modules?",
+      "opts": [
+        "One is too hard",
+        "Both are in the same time slot",
+        "One has been cancelled",
+        "Her marks are too low"
+      ],
+      "correct": "Both are in the same time slot",
+      "hint": "\"Both are in the same slot, so I have to choose.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Professor Aidarov says she needn't do what before applying for the internship?",
+      "opts": [
+        "Email Sultanova",
+        "Have a supervisor",
+        "Check requirements",
+        "Have a 3.5 GPA"
+      ],
+      "correct": "Have a supervisor",
+      "hint": "\"No, you needn't have one at this stage.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Professor Aidarov says the internship deadline is ___ and not extended.",
+      "correct": "strict",
+      "hint": "\"the deadline is strict and they don't extend it.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The research methods workshop is compulsory for all students.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Should I also take the optional research methods workshop? It's not compulsory.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What GPA does Professor Aidarov say Kamila ought to have?",
+      "opts": [
+        "3.0",
+        "3.3",
+        "3.5",
+        "4.0"
+      ],
+      "correct": "3.5",
+      "hint": "\"you ought to have at least 3.5. Check the requirements carefully.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Professor Aidarov recommend the research methods workshop?",
+      "opts": [
+        "It's compulsory",
+        "It's interesting",
+        "It will help enormously with the dissertation",
+        "It's easy"
+      ],
+      "correct": "It will help enormously with the dissertation",
+      "hint": "\"I strongly recommend it. It will help enormously with your dissertation.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ plagiarise.\" (it is forbidden)",
+      "opts": [
+        "don't have to",
+        "shouldn't",
+        "mustn't",
+        "needn't"
+      ],
+      "correct": "mustn't",
+      "hint": "\"mustn't\" = PROHIBITED. \"You MUSTN'T plagiarise.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ buy all the books.\" (it is not necessary)",
+      "opts": [
+        "mustn't",
+        "must",
+        "don't have to",
+        "should"
+      ],
+      "correct": "don't have to",
+      "hint": "\"don't have to\" = not necessary (optional). Books are in the library. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (have to / notify) the department yesterday.\"",
+      "correct": "had to notify",
+      "hint": "Past of \"have to\" = \"had to\". \"She HAD TO notify the department.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ check your email daily.\" (advice)",
+      "opts": [
+        "must",
+        "mustn't",
+        "should",
+        "needn't"
+      ],
+      "correct": "should",
+      "hint": "\"should\" = advice/recommendation. \"You SHOULD check your email.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You ___ arrive early — the doors open at 9.\" (not necessary)",
+      "opts": [
+        "mustn't",
+        "must",
+        "needn't",
+        "have to"
+      ],
+      "correct": "needn't",
+      "hint": "\"needn't\" = no necessity. \"You NEEDN'T arrive early.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Mustn't\" and \"don't have to\" mean the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"mustn't\" = prohibited. \"don't have to\" = not necessary. Completely different meanings!"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ submit it.\" (external deadline — external obligation)",
+      "opts": [
+        "must",
+        "has to",
+        "should",
+        "needn't"
+      ],
+      "correct": "has to",
+      "hint": "External rule/deadline → \"has to\" (3rd person). \"She HAS TO submit it.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ I bring a laptop?\" (asking for advice)",
+      "opts": [
+        "Must",
+        "Do I have to",
+        "Should",
+        "Needn't"
+      ],
+      "correct": "Should",
+      "hint": "\"Should I...?\" = asking for advice/recommendation. \"SHOULD I bring a laptop?\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Academic integrity\" means:",
+      "opts": [
+        "High academic grades",
+        "Honesty and doing your own work",
+        "Attending all classes",
+        "Strict time management"
+      ],
+      "correct": "Honesty and doing your own work",
+      "hint": "\"integrity\" = honesty and moral principles. \"Academic integrity\" = doing honest, original work."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "You must include a ___ whenever you use someone else's idea.",
+      "correct": "citation",
+      "hint": "\"citation\" = a reference to the source you used — where you found the idea or quote."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Non-negotiable\" means:",
+      "opts": [
+        "Open to discussion",
+        "Fixed and cannot be changed",
+        "Recommended",
+        "Difficult"
+      ],
+      "correct": "Fixed and cannot be changed",
+      "hint": "\"non-negotiable\" = cannot be negotiated, changed, or argued about. Absolute."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A second offence can mean suspension.\" \"Suspension\" means:",
+      "opts": [
+        "A fine",
+        "A warning",
+        "Temporary removal from university",
+        "A failing grade"
+      ],
+      "correct": "Temporary removal from university",
+      "hint": "\"suspension\" = being temporarily stopped from attending university."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Students should provide documentation when absent.\" \"Documentation\" is:",
+      "opts": [
+        "A verbal explanation",
+        "Official papers proving something",
+        "An essay",
+        "An email"
+      ],
+      "correct": "Official papers proving something",
+      "hint": "\"documentation\" = official papers (like a doctor's certificate) that prove your reason for absence."
+    }
+  ]
+}

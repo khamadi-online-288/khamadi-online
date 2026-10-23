@@ -1,0 +1,556 @@
+{
+  "id": "l32-g2",
+  "moduleNum": 16,
+  "lessonNum": 4,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "grammar",
+  "title": "Describing Clothes: size, colour, material",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Describing Clothes — size, colour, material, style",
+  "grammarNote": "Порядок прилагательных в английском — нельзя ставить в любом порядке!\n\n📌 Официальный порядок (OSASCOMP):\nOpinion → Size → Age → Shape → Colour → Origin → Material → Purpose → NOUN\n\nПример: \"a beautiful large old black French leather handbag\"\n\nНа практике — 2-3 прилагательных подряд:\n\"a beautiful black dress\" · \"a lovely warm winter coat\"\n\"a nice small silver ring\" · \"an old leather jacket\"\n\n💡 Самые частые комбинации:\nOpinion + Colour: \"a gorgeous red jacket\"\nSize + Colour: \"a small blue backpack\"\nAge + Material: \"an old leather bag\"\nColour + Origin: \"a black Italian suit\"\n\n⚠️ Типичные ошибки:\n❌ \"a leather old beautiful bag\" → ✅ \"a beautiful old leather bag\"\n❌ \"a blue big warm coat\" → ✅ \"a big warm blue coat\"\n\nЗапомни: мнение всегда первым, материал — последним перед существительным!",
+  "grammarTable": [
+    {
+      "subject": "Category",
+      "verb": "Examples",
+      "short": "Position",
+      "example": "In a sentence"
+    },
+    {
+      "subject": "Opinion",
+      "verb": "beautiful, lovely, nice, elegant",
+      "short": "1st",
+      "example": "\"a beautiful coat\""
+    },
+    {
+      "subject": "Size",
+      "verb": "big, small, tight, loose, long, short",
+      "short": "2nd",
+      "example": "\"I need a bigger size.\""
+    },
+    {
+      "subject": "Colour",
+      "verb": "navy blue, cream, dark red, pale pink",
+      "short": "3rd",
+      "example": "\"She wore a dark red dress.\""
+    },
+    {
+      "subject": "Pattern",
+      "verb": "striped, checked, floral, plain",
+      "short": "after colour",
+      "example": "\"He wore a striped shirt.\""
+    },
+    {
+      "subject": "Material",
+      "verb": "cotton, wool, leather, silk, denim, felt",
+      "short": "before noun",
+      "example": "\"A wool coat is warm.\""
+    },
+    {
+      "subject": "Style",
+      "verb": "casual, formal, traditional, modern",
+      "short": "context",
+      "example": "\"This is too formal for class.\""
+    },
+    {
+      "subject": "FULL ORDER",
+      "verb": "opinion → size → colour → material",
+      "short": "remember",
+      "example": "\"A beautiful long dark blue silk dress.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Size vocabulary",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "S / M / L / XL / XXL",
+          "example": "standard clothing sizes"
+        },
+        {
+          "form": "tight ↔ loose",
+          "example": "how it fits the body"
+        },
+        {
+          "form": "long ↔ short",
+          "example": "length of item"
+        },
+        {
+          "form": "high-waisted / low-waisted",
+          "example": "where it sits on the body"
+        },
+        {
+          "form": "oversized / fitted",
+          "example": "style of fit"
+        },
+        {
+          "form": "runs small / runs large",
+          "example": "sizing note (product info)"
+        }
+      ]
+    },
+    {
+      "title": "Colour vocabulary",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "light blue / dark blue / navy blue",
+          "example": "shades of blue"
+        },
+        {
+          "form": "pale pink / hot pink / dusty rose",
+          "example": "shades of pink"
+        },
+        {
+          "form": "cream / off-white / ivory",
+          "example": "shades of white"
+        },
+        {
+          "form": "charcoal / ash grey / light grey",
+          "example": "shades of grey"
+        },
+        {
+          "form": "khaki / olive / forest green",
+          "example": "shades of green"
+        },
+        {
+          "form": "burgundy / wine red / scarlet",
+          "example": "shades of red"
+        }
+      ]
+    },
+    {
+      "title": "Material vocabulary",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "cotton",
+          "example": "soft, breathable, everyday wear"
+        },
+        {
+          "form": "wool",
+          "example": "warm, suitable for cold weather"
+        },
+        {
+          "form": "leather",
+          "example": "durable, formal or casual"
+        },
+        {
+          "form": "denim",
+          "example": "strong, casual (jeans, jackets)"
+        },
+        {
+          "form": "silk",
+          "example": "soft, shiny, formal occasions"
+        },
+        {
+          "form": "felt",
+          "example": "traditional, used in Kazakh crafts"
+        }
+      ]
+    },
+    {
+      "title": "Describing an outfit — full examples",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "I'm wearing a light blue cotton shirt.",
+          "example": "colour + material + noun"
+        },
+        {
+          "form": "She has a long dark red wool coat.",
+          "example": "size + colour + material + noun"
+        },
+        {
+          "form": "He's in a pair of slim-fit dark blue jeans.",
+          "example": "style + colour + noun"
+        },
+        {
+          "form": "She bought a beautiful cream silk dress.",
+          "example": "opinion + colour + material + noun"
+        },
+        {
+          "form": "He wore a traditional felt hat at the ceremony.",
+          "example": "style + material + noun"
+        },
+        {
+          "form": "She prefers plain casual clothes for university.",
+          "example": "pattern + style + noun"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Adjective order for clothes: Opinion → Size → Colour → Material → Noun. Example: \"a beautiful (opinion) long (size) dark red (colour) wool (material) coat.\" Don't memorise all 8 categories — just know: opinion first, material last, colour before material.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Put adjectives in the correct order.",
+      "text": "Correct order: a/cotton/blue/light/shirt",
+      "opts": [
+        "a blue light cotton shirt",
+        "a light blue cotton shirt",
+        "a cotton light blue shirt",
+        "a light cotton blue shirt"
+      ],
+      "correct": "a light blue cotton shirt",
+      "hint": "Colour (light blue) before material (cotton): a light blue cotton shirt."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct material.",
+      "text": "She wore a ___ (wool) coat to the ceremony.",
+      "correct": "wool",
+      "hint": "Material \"wool\" placed directly before the noun: a wool coat."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct adjective order.",
+      "text": "Which is correct?",
+      "opts": [
+        "a silk long beautiful dress",
+        "a beautiful long silk dress",
+        "a long beautiful silk dress",
+        "a silk beautiful long dress"
+      ],
+      "correct": "a beautiful long silk dress",
+      "hint": "Opinion (beautiful) → size (long) → material (silk) → noun."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Give the opposite.",
+      "text": "The opposite of \"tight\" in clothing is ___.",
+      "correct": "loose",
+      "hint": "\"Loose\" = not tight, with room to move. Tight ↔ loose."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the size word.",
+      "text": "\"He wore a ___ checked shirt.\" Fill in with a size/fit word:",
+      "opts": [
+        "striped",
+        "loose",
+        "silk",
+        "dark"
+      ],
+      "correct": "loose",
+      "hint": "\"loose\" describes fit (not tight). \"striped\" is a pattern, not a size word."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Denim\" is a type of material used for jeans.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Denim\" = a strong cotton fabric used for jeans and jackets."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct material.",
+      "text": "Kazakh traditional clothing uses ___ (a craft material made from pressed sheep wool).",
+      "correct": "felt",
+      "hint": "\"Felt\" = a material made by compressing wool fibres — used in Kazakh crafts."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct definition.",
+      "text": "What does \"oversized\" mean in clothing?",
+      "opts": [
+        "Very expensive",
+        "Deliberately larger than your normal size",
+        "Very small",
+        "Made of natural materials"
+      ],
+      "correct": "Deliberately larger than your normal size",
+      "hint": "\"Oversized\" = intentionally larger than standard — a style choice."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the pattern word.",
+      "text": "Which is a pattern, not a colour?",
+      "opts": [
+        "navy blue",
+        "charcoal",
+        "striped",
+        "pale pink"
+      ],
+      "correct": "striped",
+      "hint": "\"Striped\" = has stripes (a pattern). The others are colours."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the compound adjective.",
+      "text": "She bought a second-___ leather jacket at the market.",
+      "correct": "hand",
+      "hint": "\"Second-hand\" = previously owned by someone else."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct adjective order.",
+      "text": "Correct adjective order:",
+      "opts": [
+        "a beautiful long dark red wool coat",
+        "a wool long red dark beautiful coat",
+        "a dark red beautiful long wool coat",
+        "a long beautiful wool dark red coat"
+      ],
+      "correct": "a beautiful long dark red wool coat",
+      "hint": "Opinion (beautiful) → size (long) → colour (dark red) → material (wool) → noun."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Cotton\" is breathable and suitable for everyday wear.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Cotton\" = natural, breathable fabric — ideal for daily wear."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Correct adjective order is:",
+      "opts": [
+        "colour → size → material → opinion",
+        "opinion → size → colour → material",
+        "material → opinion → colour → size",
+        "size → material → colour → opinion"
+      ],
+      "correct": "opinion → size → colour → material",
+      "hint": "The general order is: opinion → size → colour → material → noun."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She bought a beautiful ___ (size: not tight) dark red dress.",
+      "correct": "long",
+      "hint": "Size adjective comes after opinion: beautiful → long (size) → dark red (colour)."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is correctly ordered?",
+      "opts": [
+        "a cotton blue light shirt",
+        "a light blue cotton shirt",
+        "a blue light cotton shirt",
+        "a cotton light blue shirt"
+      ],
+      "correct": "a light blue cotton shirt",
+      "hint": "Colour (light blue) comes before material (cotton)."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"A wool beautiful coat\" is in the correct order.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"a beautiful wool coat\" — opinion (beautiful) before material (wool)."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The opposite of \"loose\" is ___.",
+      "correct": "tight",
+      "hint": "Loose = fitting loosely. Tight = fitting very close to the body."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is a material?",
+      "opts": [
+        "striped",
+        "formal",
+        "silk",
+        "oversized"
+      ],
+      "correct": "silk",
+      "hint": "\"Silk\" is a natural material. The others are pattern, style, and size."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He wore a traditional Kazakh ___ hat at the ceremony.",
+      "correct": "felt",
+      "hint": "\"Felt\" = a traditional material made from compressed wool, used in Kazakh crafts."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Charcoal, ash grey, light grey\" are all:",
+      "opts": [
+        "Materials",
+        "Patterns",
+        "Shades of grey",
+        "Styles"
+      ],
+      "correct": "Shades of grey",
+      "hint": "These are all variations of the colour grey."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is a pattern?",
+      "opts": [
+        "leather",
+        "cotton",
+        "checked",
+        "navy blue"
+      ],
+      "correct": "checked",
+      "hint": "\"Checked\" is a pattern (a grid pattern). Others are material, material, and colour."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She prefers wearing ___ casual clothes for university — jeans and a hoodie.",
+      "correct": "plain",
+      "hint": "\"Plain\" = no pattern, one colour. Plain casual clothes = simple everyday wear."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Why does Kamila say the jacket is too expensive?",
+      "opts": [
+        "It is not stylish enough",
+        "It costs more than her budget",
+        "It is too big",
+        "The quality is poor"
+      ],
+      "correct": "It costs more than her budget",
+      "hint": "Statement 1: \"She says the jacket is too expensive — it costs more than her budget.\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila says the medium size is too big.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 5: \"She says the medium size is not big enough — she needs a large.\""
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Kamila ask at the end?",
+      "opts": [
+        "If the jacket comes in a different colour",
+        "If there are any discounts available",
+        "If she can exchange it later",
+        "If it is on the website"
+      ],
+      "correct": "If there are any discounts available",
+      "hint": "Statement 6: \"She asks if the price is final or if there are any discounts available.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Second-hand\" means:",
+      "opts": [
+        "Brand new, never worn",
+        "Previously owned and used",
+        "Made by hand",
+        "On sale for 50% off"
+      ],
+      "correct": "Previously owned and used",
+      "hint": "\"Second-hand\" = used by someone else before you."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "This cloth is too rough — I need a softer ___ for this dress.",
+      "correct": "material",
+      "hint": "\"Material\" or \"fabric\" = the type of cloth used to make clothing."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Fast fashion\" is associated with:",
+      "opts": [
+        "High quality and long-lasting clothes",
+        "Cheap clothes, high waste, low sustainability",
+        "Traditional handmade clothing",
+        "Luxury designer fashion"
+      ],
+      "correct": "Cheap clothes, high waste, low sustainability",
+      "hint": "\"Fast fashion\" = trend-driven cheap clothing that creates large amounts of waste."
+    }
+  ]
+}

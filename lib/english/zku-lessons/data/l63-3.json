@@ -1,0 +1,447 @@
+{
+  "id": "l63-3",
+  "moduleNum": 5,
+  "lessonNum": 3,
+  "moduleTitle": "Modal Verbs: Deduction & Advice",
+  "type": "listening",
+  "title": "What Could Have Happened? A Mystery Explained",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Right. We have a mystery. The volleyball team's kit bag has disappeared. It was definitely here at 6 p.m. Now it's gone.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Who was the last person to see it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Rustam says he saw it at 6. After that, no one is sure.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Rustam must have been the last one out of the changing room. He usually locks up.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "He says he locked it. So the bag must have been taken before he locked up, or someone might have a spare key.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Could someone from the other team have taken it by mistake? They were here until 6:30.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "It's possible. Their bags are similar. They might have picked it up thinking it was theirs.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "But that can't be right — our bag has the WKU logo on it. They couldn't have confused it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Unless they didn't look carefully. It could have been grabbed in a hurry.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Has anyone contacted their coach? He must know if extra equipment arrived with his team.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Not yet. But someone should have checked this hours ago. We should have reported it immediately when we noticed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "We needn't have wasted time speculating — we should have called the coach straight away.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Let's call now. He might still have the bag or might be able to ask his players.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "(Phone call) He says none of his players have it. They can't have taken it. They would have said something.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "So it must still be in the building somewhere. Someone must have moved it without realising.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "The caretaker! He's been cleaning all evening. He might have moved it to the storage room.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "kit bag",
+      "emoji": "🎒",
+      "opts": [
+        "сумка с личными вещами",
+        "спортивная сумка с инвентарём",
+        "рюкзак для учебников",
+        "сумка для документов"
+      ],
+      "correct": "спортивная сумка с инвентарём"
+    },
+    {
+      "id": "p2",
+      "word": "changing room",
+      "emoji": "🚿",
+      "opts": [
+        "класс",
+        "раздевалка",
+        "зал",
+        "кабинет"
+      ],
+      "correct": "раздевалка"
+    },
+    {
+      "id": "p3",
+      "word": "caretaker",
+      "emoji": "🔑",
+      "opts": [
+        "тренер",
+        "вахтёр / смотритель",
+        "уборщик",
+        "охранник"
+      ],
+      "correct": "вахтёр / смотритель"
+    },
+    {
+      "id": "p4",
+      "word": "spare key",
+      "emoji": "🗝️",
+      "opts": [
+        "главный ключ",
+        "запасной ключ",
+        "сломанный ключ",
+        "электронный ключ"
+      ],
+      "correct": "запасной ключ"
+    },
+    {
+      "id": "p5",
+      "word": "speculating",
+      "emoji": "💭",
+      "opts": [
+        "расследуя",
+        "строя предположения",
+        "доказывая",
+        "изучая"
+      ],
+      "correct": "строя предположения"
+    },
+    {
+      "id": "p6",
+      "word": "storage room",
+      "emoji": "📦",
+      "opts": [
+        "раздевалка",
+        "кладовая / склад",
+        "класс",
+        "тренажёрный зал"
+      ],
+      "correct": "кладовая / склад"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam was the last person to see the kit bag at 6 p.m.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila says the other team could easily have confused the bags.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The coach says none of his players have the bag.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Someone should have reported the missing bag immediately.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila says they needn't have called the coach.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Amir suggests the caretaker might have moved the bag.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Volleyball captain — investigating the missing bag. Uses deduction modals."
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Logical thinker — suggests alternative explanations."
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Critical and practical — challenges assumptions, adds retrospective criticism."
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Argues the other team couldn't have confused the bags — the WKU logo is clearly visible.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Says someone should have reported it immediately when they noticed.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "Says they needn't have wasted time speculating — should have called the coach straight away.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Suggests the caretaker might have moved the bag to the storage room.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "After the phone call, says the other team can't have taken it — they would have said something.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "Concludes the bag must still be in the building — someone must have moved it without realising.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila argue about the other team taking the bag?",
+      "opts": [
+        "It's likely",
+        "It's possible",
+        "It can't be right — the WKU logo is visible; they couldn't have confused it",
+        "It definitely happened"
+      ],
+      "correct": "It can't be right — the WKU logo is visible; they couldn't have confused it",
+      "hint": "\"That can't be right — our bag has the WKU logo on it. They couldn't have confused it.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What retrospective criticism does Zhibek make?",
+      "opts": [
+        "The bag shouldn't have been there",
+        "Someone should have reported it immediately when they noticed",
+        "The team should have stayed later",
+        "The bag should have been locked up"
+      ],
+      "correct": "Someone should have reported it immediately when they noticed",
+      "hint": "\"Someone should have checked this hours ago. We should have reported it immediately when we noticed.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say about wasting time speculating?",
+      "opts": [
+        "It was necessary",
+        "They needn't have done it — they should have called straight away",
+        "She enjoyed it",
+        "The speculation helped"
+      ],
+      "correct": "They needn't have done it — they should have called straight away",
+      "hint": "\"We needn't have wasted time speculating — we should have called the coach straight away.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What conclusion does Kamila reach after the phone call?",
+      "opts": [
+        "The bag is with the other team",
+        "It's been stolen",
+        "It must still be in the building — someone must have moved it without realising",
+        "Rustam took it"
+      ],
+      "correct": "It must still be in the building — someone must have moved it without realising",
+      "hint": "\"It must still be in the building somewhere. Someone must have moved it without realising.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who does Amir suggest might have moved the bag?",
+      "opts": [
+        "The coach",
+        "Rustam",
+        "The caretaker",
+        "Another student"
+      ],
+      "correct": "The caretaker",
+      "hint": "\"The caretaker! He's been cleaning all evening. He might have moved it to the storage room.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Zhibek's deduction about the bag and Rustam?",
+      "opts": [
+        "Rustam stole it",
+        "Rustam lost it",
+        "The bag must have been taken before Rustam locked up, or someone might have a spare key",
+        "Rustam must have the bag"
+      ],
+      "correct": "The bag must have been taken before Rustam locked up, or someone might have a spare key",
+      "hint": "\"The bag must have been taken before he locked up, or someone might have a spare key.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek says the bag could easily be confused with other bags.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "KAMILA says it \"can't be right\" because the WKU logo makes it distinctive. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "After the phone call, why can't the other team have taken the bag?",
+      "opts": [
+        "They don't have space",
+        "They left before 6",
+        "They would have said something if they had it",
+        "The coach said they didn't enter the changing room"
+      ],
+      "correct": "They would have said something if they had it",
+      "hint": "\"They can't have taken it. They would have said something.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Rustam must have been the last one out.\" — \"must have been\" is:",
+      "opts": [
+        "Past obligation",
+        "Past permission",
+        "Past deduction (high certainty) based on evidence",
+        "Advice about the past"
+      ],
+      "correct": "Past deduction (high certainty) based on evidence",
+      "hint": "\"must have + pp\" = past deduction. Evidence: he usually locks up. Conclusion: he was last. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They couldn't have confused it.\" — \"couldn't have confused\" means:",
+      "opts": [
+        "They lacked the ability",
+        "It's almost certain they didn't confuse it",
+        "They refused to look",
+        "It was forbidden to confuse them"
+      ],
+      "correct": "It's almost certain they didn't confuse it",
+      "hint": "\"couldn't have + pp\" = past deduction of impossibility. The evidence (logo) makes confusion almost certain NOT to have happened. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We needn't have wasted time speculating.\" — this means:",
+      "opts": [
+        "We didn't speculate",
+        "Speculating was forbidden",
+        "We did speculate, but it turned out to be unnecessary",
+        "We should speculate more"
+      ],
+      "correct": "We did speculate, but it turned out to be unnecessary",
+      "hint": "\"needn't have + pp\" = done but turned out unnecessary. We spent time on it but didn't need to. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Someone ___ have checked this hours ago.\" (should/could? — criticism)",
+      "correct": "should",
+      "hint": "\"Someone SHOULD have checked\" = criticism/retrospective advice. (Not \"could\" — that would be observation of opportunity, not criticism.) ✅"
+    }
+  ]
+}

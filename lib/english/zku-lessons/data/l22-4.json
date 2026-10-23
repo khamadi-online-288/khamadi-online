@@ -1,0 +1,223 @@
+{
+  "id": "l22-4",
+  "moduleNum": 6,
+  "lessonNum": 5,
+  "moduleTitle": "The Natural World",
+  "title": "The most amazing place I've seen",
+  "type": "writing",
+  "xp": 75,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "The most + adj. place I've visited",
+      "emoji": "🌍",
+      "opts": [
+        "Самое + прил. место, которое я посетил(а)",
+        "Самый далёкий город",
+        "Самая красивая страна",
+        "Самое дорогое путешествие"
+      ],
+      "correct": "Самое + прил. место, которое я посетил(а)"
+    },
+    {
+      "id": "p2",
+      "word": "It was absolutely + extreme adj.",
+      "emoji": "✨",
+      "opts": [
+        "Это было очень + обычное прил.",
+        "Это было абсолютно + крайнее прил.",
+        "Это было немного + прил.",
+        "Это было неплохо + прил."
+      ],
+      "correct": "Это было абсолютно + крайнее прил."
+    },
+    {
+      "id": "p3",
+      "word": "I was completely amazed by...",
+      "emoji": "😲",
+      "opts": [
+        "Мне было скучно от...",
+        "Меня полностью поразило...",
+        "Я немного удивился...",
+        "Я слышал о..."
+      ],
+      "correct": "Меня полностью поразило..."
+    },
+    {
+      "id": "p4",
+      "word": "The landscape was breathtaking.",
+      "emoji": "🏔️",
+      "opts": [
+        "Пейзаж был красивым.",
+        "Пейзаж захватывал дух.",
+        "Пейзаж был большим.",
+        "Пейзаж был интересным."
+      ],
+      "correct": "Пейзаж захватывал дух."
+    },
+    {
+      "id": "p5",
+      "word": "I would strongly recommend...",
+      "emoji": "⭐",
+      "opts": [
+        "Я был бы рад...",
+        "Я настоятельно рекомендую...",
+        "Я когда-нибудь побываю...",
+        "Мне понравилось..."
+      ],
+      "correct": "Я настоятельно рекомендую..."
+    },
+    {
+      "id": "p6",
+      "word": "It is one of the most... in...",
+      "emoji": "🏆",
+      "opts": [
+        "Это один из самых... в...",
+        "Это важнее, чем...",
+        "Это место похоже на...",
+        "Это место называется..."
+      ],
+      "correct": "Это один из самых... в..."
+    }
+  ],
+  "writingModel": [
+    "The Most Amazing Place I Have Ever Visited\nBy Kamila Seitkali\n",
+    "I have visited many beautiful places in Kazakhstan, but without a doubt, the most spectacular natural place I have ever seen is the Charyn Canyon in the Almaty region. I visited it last summer with my family, and the experience was absolutely unforgettable. I had seen photographs before, but nothing could have prepared me for the real thing.",
+    "Charyn Canyon is often called \"the little Grand Canyon\". It is approximately 200 kilometres east of Almaty, and the drive there takes about three hours. The canyon is 80 kilometres long and up to 300 metres deep in places. When you first see it, the reaction is immediate and physical — your breath catches, your heart beats faster, and you cannot speak. The colour of the rock is the most extraordinary thing: deep red and orange, turning to dark purple as the sun moves across the sky.",
+    "The landscape was absolutely breathtaking. The silence was completely deafening — no traffic, no city noise, just the sound of the wind and the occasional cry of a bird of prey circling overhead. The air was crisp and clean in a way that is totally different from city air. The valley below the main viewing platform is called the Valley of Castles, because the rock formations look like ancient towers and fortresses. I have never seen anything quite so impressive in my entire life.",
+    "The wildlife at Charyn is also remarkable. We spotted a golden eagle soaring above the canyon — enormous against the blue sky. In the canyon walls, we saw dozens of swallows darting in and out of their nests. The canyon is also home to the Sogdian ash tree — a relict species that has survived from the Ice Age and grows nowhere else in Kazakhstan. Seeing a living tree that has existed for millions of years was one of the most humbling experiences I have ever had.",
+    "I would absolutely recommend visiting Charyn Canyon to every WKU student. It is one of the most beautiful and most accessible natural wonders in our country. Go early in the morning when the light is best and the tourist crowds are smallest. Bring plenty of water — the canyon is absolutely scorching in summer — and wear comfortable shoes because the path down is steep and rocky. Most importantly, leave your phone in your bag for at least thirty minutes and simply stand there. Some experiences are too wonderful to filter through a screen."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Your title",
+      "hint": "e.g. The Most Amazing Place I've Ever Visited"
+    },
+    {
+      "key": "intro",
+      "prefix": "The most amazing natural place I have ever visited is ",
+      "suffix": ". I went there ___.",
+      "placeholder": "place name ... when/with whom",
+      "hint": "e.g. Charyn Canyon ... last summer with my family"
+    },
+    {
+      "key": "loc",
+      "prefix": "It is located ",
+      "suffix": ". It took about ___.",
+      "placeholder": "location ... journey time",
+      "hint": "e.g. 200 km east of Almaty ... 3 hours to get there"
+    },
+    {
+      "key": "first",
+      "prefix": "When I first saw it, I was completely ",
+      "suffix": ". The ___.",
+      "placeholder": "extreme adj ... feature",
+      "hint": "e.g. amazed ... colour of the rock was extraordinary"
+    },
+    {
+      "key": "desc1",
+      "prefix": "The landscape was absolutely ",
+      "suffix": ". The most impressive thing was ___.",
+      "placeholder": "extreme adj ... key feature",
+      "hint": "e.g. breathtaking ... the silence and the enormous cliffs"
+    },
+    {
+      "key": "wildlife",
+      "prefix": "I also saw some incredible wildlife: ",
+      "suffix": ". It was ___.",
+      "placeholder": "animals/plants ... reaction",
+      "hint": "e.g. a golden eagle soaring above ... absolutely magnificent"
+    },
+    {
+      "key": "tip1",
+      "prefix": "If you visit, go ",
+      "suffix": " when the light is best.",
+      "placeholder": "time of day",
+      "hint": "e.g. early in the morning / at sunset / in spring"
+    },
+    {
+      "key": "tip2",
+      "prefix": "Remember to bring ",
+      "suffix": ", and wear ___.",
+      "placeholder": "what to bring ... what to wear",
+      "hint": "e.g. plenty of water ... comfortable walking shoes"
+    },
+    {
+      "key": "conc",
+      "prefix": "I would absolutely recommend this place because it is one of the most ",
+      "suffix": " in Kazakhstan. You will never forget it!",
+      "placeholder": "superlative + type of place",
+      "hint": "e.g. spectacular natural wonders / breathtaking landscapes / memorable places"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing the place (superlatives)",
+      "color": "#003876",
+      "items": [
+        "It is one of the most spectacular places in Kazakhstan.",
+        "The most impressive thing is the colour of the rocks.",
+        "It is the largest / deepest / oldest... in the region.",
+        "The scenery is the most breathtaking I have ever seen.",
+        "It has the widest / highest / most diverse... in Central Asia.",
+        "Without a doubt, it is the most beautiful natural place I know."
+      ]
+    },
+    {
+      "category": "Describing your reaction (extreme adj.)",
+      "color": "#EF4444",
+      "items": [
+        "I was completely amazed when I first saw it.",
+        "The silence was absolutely deafening.",
+        "The landscape was totally breathtaking.",
+        "The heat was absolutely scorching in summer.",
+        "I was absolutely speechless — I couldn't find any words.",
+        "The experience was utterly unforgettable."
+      ]
+    },
+    {
+      "category": "Wildlife & nature descriptions",
+      "color": "#16A34A",
+      "items": [
+        "I spotted a golden eagle soaring overhead.",
+        "The rock formations were enormous and ancient.",
+        "The air was crisp, clean, and absolutely pristine.",
+        "Hundreds of birds were nesting in the canyon walls.",
+        "The colour of the rock changes from deep red to purple.",
+        "It was home to a species found nowhere else on Earth."
+      ]
+    },
+    {
+      "category": "Advice & recommendation",
+      "color": "#7C3AED",
+      "items": [
+        "I would absolutely recommend visiting...",
+        "Go early in the morning — the light is the most beautiful.",
+        "Bring plenty of water — it is absolutely boiling in summer.",
+        "Wear comfortable shoes — the path is quite steep.",
+        "Leave your phone in your bag for at least 30 minutes.",
+        "Some experiences are too wonderful to filter through a screen."
+      ]
+    }
+  ]
+}

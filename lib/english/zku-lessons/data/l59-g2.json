@@ -1,0 +1,488 @@
+{
+  "id": "l59-g2",
+  "moduleNum": 1,
+  "lessonNum": 6,
+  "moduleTitle": "Complex Conversations",
+  "type": "grammar",
+  "title": "Present & Future Tenses: The Complete Picture",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present & Future Tenses — Choosing with Precision",
+  "grammarNote": "На B1 уровне ключевой навык — не просто знать каждое время, а понимать тонкие различия между похожими временами. Настоящее Простое vs Непрерывное, Настоящее Совершенное Simple vs Continuous, три способа выразить будущее — всё это требует понимания смысла, а не просто правил.",
+  "grammarTable": [
+    {
+      "subject": "Present Simple",
+      "verb": "do/does + base",
+      "short": "facts/habits/truths",
+      "example": "\"She studies every day.\" / \"Water boils at 100°C.\" / \"The course starts in September.\""
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "am/is/are + -ing",
+      "short": "now/temporary/arranged",
+      "example": "\"She's studying now.\" / \"He's living in Uralsk this year.\" / \"I'm meeting her tomorrow.\""
+    },
+    {
+      "subject": "Present Perfect Simple",
+      "verb": "have/has + pp",
+      "short": "result/experience/news",
+      "example": "\"She has finished the essay.\" / \"He's never been to Almaty.\" / \"They've just arrived.\""
+    },
+    {
+      "subject": "Present Perfect Cont.",
+      "verb": "have/has been + -ing",
+      "short": "duration/process",
+      "example": "\"She's been studying for two hours.\" / \"It's been raining since morning.\""
+    },
+    {
+      "subject": "will",
+      "verb": "will + base",
+      "short": "decision/prediction",
+      "example": "\"I'll help you.\" (now) / \"It will rain tomorrow.\" (prediction)"
+    },
+    {
+      "subject": "going to",
+      "verb": "am/is/are going to",
+      "short": "plan/evidence",
+      "example": "\"I'm going to apply.\" (plan) / \"Look — it's going to rain!\" (evidence)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Present Simple vs Present Continuous: state vs moment",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "PS = general state, fact, habit",
+          "example": "\"She works at the library.\" (general truth) / \"He doesn't eat meat.\" (habit) ✅"
+        },
+        {
+          "form": "PC = temporary / right now",
+          "example": "\"She's working at the library this month.\" (temporary) / \"He's not eating much lately.\" (recent pattern) ✅"
+        },
+        {
+          "form": "Stative verbs → always Simple",
+          "example": "\"I know her.\" / \"She wants to leave.\" / \"He understands perfectly.\" ✅ NOT \"I'm knowing her.\" ✗"
+        },
+        {
+          "form": "PC for arranged future",
+          "example": "\"I'm meeting the professor tomorrow at 3.\" (confirmed arrangement with time) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Present Perfect Simple vs Continuous: result vs process",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "PPS = result / completion / experience",
+          "example": "\"She has finished the report.\" (done — result) / \"Have you ever been to Istanbul?\" (experience) ✅"
+        },
+        {
+          "form": "PPC = ongoing process / duration",
+          "example": "\"She has been writing the report.\" (still writing, or just stopped — process matters) ✅"
+        },
+        {
+          "form": "PPC with FOR/SINCE (duration up to now)",
+          "example": "\"He's been studying English for 10 years.\" / \"She's been working here since 2022.\" ✅"
+        },
+        {
+          "form": "Counting → always Simple",
+          "example": "\"She has written 3 essays this week.\" (count) NOT \"has been writing 3 essays\" ✗"
+        }
+      ]
+    },
+    {
+      "title": "Three future forms: will / going to / Present Continuous",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "will = spontaneous decision or prediction",
+          "example": "\"I'll get that for you.\" (just decided) / \"It will be difficult.\" (prediction) ✅"
+        },
+        {
+          "form": "going to = pre-made plan or evidence",
+          "example": "\"I'm going to apply for the scholarship.\" (already decided) / \"Look — it's going to rain!\" ✅"
+        },
+        {
+          "form": "Present Continuous = confirmed arrangement",
+          "example": "\"I'm flying to Almaty on Friday.\" (ticket booked, specific time) ✅"
+        },
+        {
+          "form": "Present Simple = fixed official schedule",
+          "example": "\"The train leaves at 7 p.m.\" / \"The exam starts at 9 a.m.\" (timetable) ✅"
+        }
+      ]
+    },
+    {
+      "title": "B1-level precision: common confusions",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "\"I've been knowing her for years.\" ✗",
+          "example": "✅ \"I've known her for years.\" — stative verbs → PPS not Continuous!"
+        },
+        {
+          "form": "\"I'm going to meet her tomorrow at 3.\" ✗ (if booked)",
+          "example": "✅ \"I'm meeting her tomorrow at 3.\" — confirmed arrangement = PC ✅"
+        },
+        {
+          "form": "\"She's been writing 3 essays.\" ✗",
+          "example": "✅ \"She's written 3 essays.\" — counting = PPS. Continuous cannot count. ✅"
+        },
+        {
+          "form": "\"I will go to Almaty next week.\" ✗ (if ticket bought)",
+          "example": "✅ \"I'm going to Almaty next week.\" — pre-arranged plan = going to or PC ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Present & Future — точность выбора на B1:\n\nPS vs PC:\n→ Факт/привычка → Simple: \"She works here.\"\n→ Сейчас/временно → Continuous: \"She's working here this month.\"\n→ Stative глаголы (know/want/like) → ТОЛЬКО Simple!\n\nPPS vs PPC:\n→ Результат завершён → Simple: \"She has finished.\"\n→ Процесс/продолжительность → Continuous: \"She's been working for hours.\"\n→ Считаем (3 times/5 books) → ТОЛЬКО Simple!\n\nWill vs Going to vs PC:\n→ Спонтанно → will: \"I'll help you.\"\n→ Запланировано заранее → going to: \"I'm going to apply.\"\n→ Договорено + конкретное время → PC: \"I'm meeting her at 3.\"\n→ Расписание → PS: \"The train leaves at 7.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "PS or PC? Choose the correct form.",
+      "text": "\"This year, Amir ___ a timetable app for WKU students.\" (temporary project)",
+      "opts": [
+        "builds",
+        "is building",
+        "has built",
+        "has been building"
+      ],
+      "correct": "is building",
+      "hint": "Temporary ongoing project = Present Continuous. \"This year, Amir IS BUILDING a timetable app.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "PPS or PPC? Choose.",
+      "text": "\"She ___ the whole chapter already. You can borrow the book.\" (completed, result)",
+      "opts": [
+        "has been reading",
+        "has read",
+        "read",
+        "was reading"
+      ],
+      "correct": "has read",
+      "hint": "Completed — result available now = Present Perfect SIMPLE. \"She HAS READ the chapter.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with PPC.",
+      "text": "\"I ___ (study) English for ten years, and I'm still learning.\"",
+      "correct": "have been studying",
+      "hint": "Duration up to now = PPC. \"I HAVE BEEN STUDYING English for ten years.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Future: spontaneous or plan?",
+      "text": "Rustam sees Kamila struggling with her bags. He says: \"___ help you with those.\"",
+      "opts": [
+        "I'm going to",
+        "I'll",
+        "I'm",
+        "I'm going to be"
+      ],
+      "correct": "I'll",
+      "hint": "Spontaneous decision at the moment of speaking = WILL. \"I'LL help you.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Confirmed arrangement or prediction?",
+      "text": "\"I ___ Daniyar for coffee on Saturday. We arranged it last week.\"",
+      "opts": [
+        "will meet",
+        "'m going to meet",
+        "'m meeting",
+        "meet"
+      ],
+      "correct": "'m meeting",
+      "hint": "Confirmed arrangement with specific time = Present Continuous. \"I'M MEETING Daniyar on Saturday.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Stative verb — choose correctly.",
+      "text": "\"I ___ what you mean now.\" (understand = stative)",
+      "opts": [
+        "am understanding",
+        "understand",
+        "have been understanding",
+        "was understanding"
+      ],
+      "correct": "understand",
+      "hint": "\"understand\" = stative verb → always Present Simple! \"I UNDERSTAND what you mean.\" ✅ Never \"I am understanding.\" ✗"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Counting — choose the correct tense.",
+      "text": "\"She ___ (write) five essays this semester.\" (counting completions)",
+      "correct": "has written",
+      "hint": "Counting completed achievements = PPS. \"She HAS WRITTEN five essays.\" ✅ NOT \"has been writing five essays.\" ✗"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Evidence-based prediction. Choose.",
+      "text": "\"Look at those clouds! It ___ rain.\"",
+      "opts": [
+        "will",
+        "'s going to",
+        "is",
+        "has been going to"
+      ],
+      "correct": "'s going to",
+      "hint": "Visible evidence → prediction = GOING TO. \"It'S GOING TO rain!\" ✅ (You can see the evidence.)"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Fixed schedule. Choose.",
+      "text": "\"The university café ___ at 8 a.m. every day.\" (fixed schedule)",
+      "opts": [
+        "is opening",
+        "will open",
+        "opens",
+        "is going to open"
+      ],
+      "correct": "opens",
+      "hint": "Fixed daily schedule = Present Simple. \"The café OPENS at 8 a.m.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Temporary vs permanent.",
+      "text": "\"She usually ___ in the library, but this month she ___ from home.\"",
+      "opts": [
+        "studies / works",
+        "is studying / is working",
+        "studies / is working",
+        "is studying / works"
+      ],
+      "correct": "studies / is working",
+      "hint": "General habit = PS. Temporary this month = PC. \"She usually STUDIES... but this month she IS WORKING from home.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "True or False?",
+      "text": "\"I'm going to meet her tomorrow at 3\" is always wrong — it should be \"I'm meeting.\"",
+      "opts": [
+        "True",
+        "False — both \"going to\" and PC can work; PC emphasises the confirmed time"
+      ],
+      "correct": "False — both \"going to\" and PC can work; PC emphasises the confirmed time",
+      "hint": "Both \"going to\" (pre-made plan) and PC (confirmed arrangement) work here. PC is more natural when there's a specific time. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the best sentence in context.",
+      "text": "\"She's in the exam right now. By the time she comes out, we ___ for two hours.\"",
+      "opts": [
+        "will have waited",
+        "will wait",
+        "are going to wait",
+        "wait"
+      ],
+      "correct": "will have waited",
+      "hint": "A duration completed by a future moment = Future Perfect. \"We WILL HAVE WAITED for two hours.\" ✅ (B1 preview — Future Perfect)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Present Simple expresses:",
+      "opts": [
+        "What is happening right now",
+        "Temporary activities",
+        "Facts, habits, and general truths",
+        "A planned future arrangement"
+      ],
+      "correct": "Facts, habits, and general truths",
+      "hint": "Present Simple = facts, habits, routines, general truths, official schedules. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Present Continuous expresses:",
+      "opts": [
+        "Permanent facts",
+        "Something happening now or temporarily + confirmed arrangements",
+        "Completed results",
+        "Past habits"
+      ],
+      "correct": "Something happening now or temporarily + confirmed arrangements",
+      "hint": "PC = happening now, temporary situations, and confirmed future arrangements. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Present Perfect Simple focuses on:",
+      "opts": [
+        "Duration up to now",
+        "Process/activity",
+        "Result or experience",
+        "Ongoing background"
+      ],
+      "correct": "Result or experience",
+      "hint": "PPS = completion/result (\"has finished\"), life experience (\"has visited\"), recent news (\"has just arrived\"). ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Present Perfect Continuous focuses on:",
+      "opts": [
+        "Completed events",
+        "Duration/process up to now",
+        "Habits",
+        "Fixed schedules"
+      ],
+      "correct": "Duration/process up to now",
+      "hint": "PPC = how long something has been going on (\"has been studying for 2 years\"). ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ (know) her for ten years.\" (stative verb + duration)",
+      "correct": "I have known",
+      "hint": "\"know\" = stative → PPS only. \"I HAVE KNOWN her for ten years.\" ✅ NEVER \"have been knowing.\" ✗"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been writing 5 essays this semester.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"has been writing\" cannot be used with counting — should be \"has written\"",
+        "\"This semester\" needs Past Simple",
+        "\"She\" should be \"He\""
+      ],
+      "correct": "\"has been writing\" cannot be used with counting — should be \"has written\"",
+      "hint": "✅ \"She HAS WRITTEN 5 essays.\" — counting = PPS. Continuous cannot count. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll call you later.\" — \"will\" here is:",
+      "opts": [
+        "A pre-made plan",
+        "A spontaneous decision or simple future",
+        "A confirmed arrangement",
+        "An official schedule"
+      ],
+      "correct": "A spontaneous decision or simple future",
+      "hint": "\"will\" = spontaneous offer/decision OR general prediction. \"I'll call you\" = not pre-planned. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm flying to Almaty on Friday.\" (PC for future) — appropriate because:",
+      "opts": [
+        "All future uses PC",
+        "The arrangement is confirmed with a specific time",
+        "Flying is always PC",
+        "\"Friday\" requires PC"
+      ],
+      "correct": "The arrangement is confirmed with a specific time",
+      "hint": "PC for future = confirmed arrangement with specific time. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Look at those clouds — it's going to rain.\" — \"going to\" because:",
+      "opts": [
+        "Spontaneous decision",
+        "Visible evidence supports the prediction",
+        "Pre-made plan",
+        "Official forecast"
+      ],
+      "correct": "Visible evidence supports the prediction",
+      "hint": "Going to + evidence: you can SEE the clouds = evidence-based prediction. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The train ___ at 7:15. Don't be late.\" (fixed timetable)",
+      "correct": "leaves",
+      "hint": "Fixed transport schedule = Present Simple. \"The train LEAVES at 7:15.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ here for 3 years and she loves it.\" (duration, still working)",
+      "opts": [
+        "worked",
+        "has worked",
+        "has been working",
+        "was working"
+      ],
+      "correct": "has been working",
+      "hint": "Duration up to now + still ongoing → PPC. \"She HAS BEEN WORKING here for 3 years.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence shows CORRECT use of all tenses?",
+      "opts": [
+        "\"She knows him since 2020.\"",
+        "\"She has been knowing him since 2020.\"",
+        "\"She has known him since 2020.\"",
+        "\"She knew him since 2020.\""
+      ],
+      "correct": "\"She has known him since 2020.\"",
+      "hint": "\"know\" = stative → PPS. \"has KNOWN him SINCE 2020.\" ✅ (NOT \"has been knowing\" — stative can't be continuous!)"
+    }
+  ]
+}

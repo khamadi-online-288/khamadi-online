@@ -1,0 +1,548 @@
+{
+  "id": "l56-1",
+  "moduleNum": 22,
+  "lessonNum": 1,
+  "moduleTitle": "Natural World",
+  "type": "reading",
+  "title": "Our Changing Planet: What the Science Says",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "The Earth's climate has always changed. In the four and a half billion years of the planet's history, temperatures have fluctuated, ice ages have come and gone, and seas have risen and fallen by hundreds of metres. What is happening now is different, and the difference is the speed. The changes that are currently being recorded across the planet are occurring at a rate that has not been seen in the geological record for at least 65 million years.",
+    "The primary driver is the increase in atmospheric carbon dioxide. When fossil fuels are burned — coal in power stations, oil in cars, gas in homes — carbon that was stored underground for millions of years is released into the atmosphere in a matter of decades. This carbon traps heat that would otherwise escape into space. The planet warms. The oceans absorb much of this heat, which causes water to expand and ice to melt. Sea levels rise.",
+    "In Kazakhstan, the effects are already being recorded. The Aral Sea — once the fourth-largest lake in the world — was drained by Soviet-era irrigation projects over the second half of the twentieth century. Today it has been reduced to a fraction of its original size, and the land around it has been turned into a salt desert. The nearby communities have been affected by dust storms, declining fish stocks, and rising rates of respiratory disease.",
+    "The Tian Shan mountains, which form part of Kazakhstan's southern and eastern border, have been losing glacier mass at an accelerating rate. The glaciers have retreated significantly over the past fifty years. These glaciers are a critical source of fresh water for the region — when they are gone, the rivers they feed will be dramatically reduced.",
+    "Not everything that is happening can be attributed to human activity. The climate has natural cycles of variation. But the scientific consensus — supported by data from thousands of researchers across dozens of countries — is clear: the current warming trend has been accelerated significantly by human activity, and it will continue unless emissions are dramatically reduced.",
+    "What can be done? The technologies that are needed to decarbonise the global economy largely exist. Solar and wind power are being deployed at unprecedented scale. Electric vehicles are being produced in growing numbers. Carbon capture is being researched and piloted. The question is not whether the solutions exist — it is whether they will be implemented quickly enough to make a difference.",
+    "For students studying in Kazakhstan in 2026, these are not abstract problems. They are the conditions of the world you will work in. Whether you study ecology, engineering, medicine, or economics, the changing environment will affect your field. Understanding the science is not optional. It is the literacy of the twenty-first century."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "Do you think Kazakhstan is doing enough on climate? I read that the Aral Sea is just a fraction of what it was.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "It's heartbreaking. That was done decades ago — bad decisions were made and now entire communities are affected.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "The glacier retreat is also alarming. Those are our water sources.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I know. In my ecology lectures we've been told that some rivers might lose 40% of their flow within a generation.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Is technology enough? Or do habits need to change?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Both. But I think the structures have to change — energy systems, transport, agriculture.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "It feels overwhelming sometimes. Like, what can one student do?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Understand the problem deeply. Then work on part of it. That's where it starts.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "geological record",
+      "ru": "геологическая летопись",
+      "context": "\"Not seen in the geological record for 65 million years.\" — physical evidence in rock layers."
+    },
+    {
+      "phrase": "atmospheric CO2",
+      "ru": "CO₂ в атмосфере",
+      "context": "\"The increase in atmospheric carbon dioxide.\" — carbon in the air."
+    },
+    {
+      "phrase": "fossil fuels",
+      "ru": "ископаемое топливо",
+      "context": "\"When fossil fuels are burned.\" — coal, oil, gas from prehistoric organisms."
+    },
+    {
+      "phrase": "scientific consensus",
+      "ru": "научный консенсус",
+      "context": "\"The scientific consensus is clear.\" = agreement among the scientific community."
+    },
+    {
+      "phrase": "decarbonise",
+      "ru": "декарбонизировать",
+      "context": "\"Decarbonise the global economy.\" = remove carbon from energy and industry."
+    },
+    {
+      "phrase": "unprecedented",
+      "ru": "беспрецедентный",
+      "context": "\"Deployed at unprecedented scale.\" = at a scale never seen before."
+    },
+    {
+      "phrase": "respiratory disease",
+      "ru": "болезнь дыхательных путей",
+      "context": "\"Rising rates of respiratory disease.\" — illnesses affecting breathing."
+    },
+    {
+      "phrase": "carbon capture",
+      "ru": "улавливание углерода",
+      "context": "\"Carbon capture is being researched.\" = technology to remove CO₂ from the air."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "fluctuate",
+      "ipa": "/ˈflʌktʃʊeɪt/",
+      "pos": "verb",
+      "ru": "колебаться / меняться",
+      "kz": "ауытқу",
+      "emoji": "📈",
+      "definition": "to change often and irregularly",
+      "example": "Temperatures have fluctuated greatly over Earth's history.",
+      "collocations": [
+        "fluctuate widely",
+        "prices fluctuate",
+        "fluctuating temperatures"
+      ]
+    },
+    {
+      "en": "emit",
+      "ipa": "/ɪˈmɪt/",
+      "pos": "verb",
+      "ru": "выбрасывать / выделять",
+      "kz": "шығару",
+      "emoji": "💨",
+      "definition": "to produce and discharge something (especially gas)",
+      "example": "Burning fossil fuels emits carbon dioxide into the atmosphere.",
+      "collocations": [
+        "emit carbon",
+        "emit greenhouse gases",
+        "emitted into the atmosphere"
+      ]
+    },
+    {
+      "en": "glacier",
+      "ipa": "/ˈɡlæsiər/",
+      "pos": "noun",
+      "ru": "ледник",
+      "kz": "мұздық",
+      "emoji": "🏔️",
+      "definition": "a large body of slowly moving ice formed from compacted snow",
+      "example": "The Tian Shan glaciers have been retreating significantly.",
+      "collocations": [
+        "glacier retreat",
+        "glacier melt",
+        "mountain glacier"
+      ]
+    },
+    {
+      "en": "irrigation",
+      "ipa": "/ˌɪrɪˈɡeɪʃən/",
+      "pos": "noun",
+      "ru": "ирригация / орошение",
+      "kz": "суару",
+      "emoji": "💧",
+      "definition": "supplying water to land for growing crops",
+      "example": "Soviet-era irrigation projects drained the Aral Sea.",
+      "collocations": [
+        "irrigation system",
+        "irrigation project",
+        "agricultural irrigation"
+      ]
+    },
+    {
+      "en": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "pos": "noun",
+      "ru": "консенсус / согласие",
+      "kz": "келісім",
+      "emoji": "🤝",
+      "definition": "general agreement among a group",
+      "example": "The scientific consensus supports the link between human activity and warming.",
+      "collocations": [
+        "scientific consensus",
+        "reach a consensus",
+        "broad consensus"
+      ]
+    },
+    {
+      "en": "unprecedented",
+      "ipa": "/ʌnˈpresɪdentɪd/",
+      "pos": "adjective",
+      "ru": "беспрецедентный",
+      "kz": "бұрын болмаған",
+      "emoji": "🔝",
+      "definition": "never done or experienced before",
+      "example": "Solar power is being deployed at unprecedented scale.",
+      "collocations": [
+        "unprecedented rate",
+        "unprecedented scale",
+        "truly unprecedented"
+      ]
+    },
+    {
+      "en": "retreat",
+      "ipa": "/rɪˈtriːt/",
+      "pos": "verb/noun",
+      "ru": "отступать / отступление",
+      "kz": "шегіну",
+      "emoji": "🔙",
+      "definition": "to move back from a position; to withdraw",
+      "example": "The glaciers have retreated significantly over fifty years.",
+      "collocations": [
+        "glacier retreat",
+        "retreat from",
+        "significant retreat"
+      ]
+    },
+    {
+      "en": "deploy",
+      "ipa": "/dɪˈplɔɪ/",
+      "pos": "verb",
+      "ru": "развёртывать / внедрять",
+      "kz": "орналастыру",
+      "emoji": "🚀",
+      "definition": "to use or put into action, especially on a large scale",
+      "example": "Solar and wind power are being deployed at unprecedented scale.",
+      "collocations": [
+        "deploy technology",
+        "rapidly deployed",
+        "deploy resources"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "fluctuate",
+      "emoji": "📈",
+      "opts": [
+        "оставаться стабильным",
+        "колебаться / меняться",
+        "снижаться",
+        "повышаться"
+      ],
+      "correct": "колебаться / меняться"
+    },
+    {
+      "id": "p2",
+      "word": "glacier",
+      "emoji": "🏔️",
+      "opts": [
+        "океан",
+        "ледник",
+        "река",
+        "пустыня"
+      ],
+      "correct": "ледник"
+    },
+    {
+      "id": "p3",
+      "word": "consensus",
+      "emoji": "🤝",
+      "opts": [
+        "несогласие",
+        "консенсус / согласие",
+        "аргумент",
+        "закон"
+      ],
+      "correct": "консенсус / согласие"
+    },
+    {
+      "id": "p4",
+      "word": "unprecedented",
+      "emoji": "🔝",
+      "opts": [
+        "обычный",
+        "беспрецедентный",
+        "исторический",
+        "временный"
+      ],
+      "correct": "беспрецедентный"
+    },
+    {
+      "id": "p5",
+      "word": "retreat",
+      "emoji": "🔙",
+      "opts": [
+        "наступать",
+        "отступать / отступление",
+        "стабилизироваться",
+        "расширяться"
+      ],
+      "correct": "отступать / отступление"
+    },
+    {
+      "id": "p6",
+      "word": "deploy",
+      "emoji": "🚀",
+      "opts": [
+        "отменять",
+        "развёртывать / внедрять",
+        "изучать",
+        "скрывать"
+      ],
+      "correct": "развёртывать / внедрять"
+    }
+  ],
+  "task1Bank": [
+    "65 million",
+    "carbon dioxide",
+    "Aral Sea",
+    "fourth",
+    "Tian Shan",
+    "fresh water",
+    "technology",
+    "literacy"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The current rate of change has not been seen for ___ years.",
+      "correct": "65 million"
+    },
+    {
+      "id": "t2",
+      "question": "The primary driver of change is atmospheric ___ .",
+      "correct": "carbon dioxide"
+    },
+    {
+      "id": "t3",
+      "question": "The ___ was once the fourth-largest lake in the world.",
+      "correct": "Aral Sea"
+    },
+    {
+      "id": "t4",
+      "question": "The Aral Sea used to be the ___ -largest lake in the world.",
+      "correct": "fourth"
+    },
+    {
+      "id": "t5",
+      "question": "The ___ glaciers are retreating and threatening fresh water supply.",
+      "correct": "Tian Shan"
+    },
+    {
+      "id": "t6",
+      "question": "The glaciers are a critical source of ___ for the region.",
+      "correct": "fresh water"
+    },
+    {
+      "id": "t7",
+      "question": "The text says the ___ to decarbonise the economy largely exists.",
+      "correct": "technology"
+    },
+    {
+      "id": "t8",
+      "question": "Understanding climate science is \"the ___ of the 21st century.\"",
+      "correct": "literacy"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "The current rate of climate change is unusual but not historically unprecedented.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Burning fossil fuels releases ancient carbon stored underground.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "The Aral Sea is now fully restored.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "The Tian Shan glaciers are a critical source of fresh water for the region.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "The scientific consensus says current warming is entirely natural.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Technologies to decarbonise the economy largely already exist.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says climate change only affects ecology students.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "The text describes understanding climate science as a literacy skill.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes the current climate change different from past natural changes?",
+      "opts": [
+        "The direction of change",
+        "The speed — faster than anything in 65 million years",
+        "The causes are natural",
+        "Only affecting sea levels"
+      ],
+      "correct": "The speed — faster than anything in 65 million years",
+      "hint": "\"The changes are occurring at a rate that has not been seen in the geological record for at least 65 million years.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How did the Aral Sea become a fraction of its original size?",
+      "opts": [
+        "Drought",
+        "Soviet-era irrigation projects drained it",
+        "Rising sea levels",
+        "Industrial pollution"
+      ],
+      "correct": "Soviet-era irrigation projects drained it",
+      "hint": "\"The Aral Sea was drained by Soviet-era irrigation projects over the second half of the twentieth century.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The scientific consensus says warming is purely natural.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The current warming trend has been accelerated significantly by human activity.\" — human activity = key cause."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The Tian Shan glaciers are a critical source of ___ for the region.",
+      "correct": "fresh water",
+      "hint": "\"These glaciers are a critical source of FRESH WATER for the region.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say about existing climate solutions?",
+      "opts": [
+        "They don't exist yet",
+        "They work but are too expensive",
+        "The technologies largely exist — the question is implementation speed",
+        "New inventions are needed"
+      ],
+      "correct": "The technologies largely exist — the question is implementation speed",
+      "hint": "\"The technologies needed to decarbonise largely exist... The question is whether they will be implemented quickly enough.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the text say understanding climate science is not optional?",
+      "opts": [
+        "It's required by law",
+        "It's the literacy of the 21st century affecting all fields",
+        "Only for ecology majors",
+        "It improves your grades"
+      ],
+      "correct": "It's the literacy of the 21st century affecting all fields",
+      "hint": "\"Understanding the science is not optional. It is the literacy of the twenty-first century.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The glaciers have retreated.\" \"Retreated\" means:",
+      "opts": [
+        "Advanced",
+        "Grown larger",
+        "Moved back/shrunk",
+        "Disappeared entirely"
+      ],
+      "correct": "Moved back/shrunk",
+      "hint": "\"retreat\" = to move back from a position; glaciers retreat as they lose ice and shrink."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Deployed at unprecedented scale.\" \"Unprecedented\" means:",
+      "opts": [
+        "Very small",
+        "Very common",
+        "Never done before at this level",
+        "Quite ordinary"
+      ],
+      "correct": "Never done before at this level",
+      "hint": "\"unprecedented\" = something never experienced or done before at this level."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The scientific consensus.\" \"Consensus\" means:",
+      "opts": [
+        "A single expert's opinion",
+        "General agreement among a group",
+        "A type of data",
+        "A government policy"
+      ],
+      "correct": "General agreement among a group",
+      "hint": "\"consensus\" = broad agreement; what most experts agree on."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Fossil fuels emit carbon dioxide.\" \"Emit\" means:",
+      "opts": [
+        "Absorb",
+        "Store",
+        "Produce and discharge",
+        "Reduce"
+      ],
+      "correct": "Produce and discharge",
+      "hint": "\"emit\" = to release or discharge something, especially gas or energy."
+    }
+  ]
+}

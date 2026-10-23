@@ -1,0 +1,231 @@
+{
+  "id": "l3-3",
+  "moduleNum": 3,
+  "lessonNum": 3,
+  "moduleTitle": "My things",
+  "title": "this / that / these / those",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [],
+  "grammarTitle": "this / that / these / those",
+  "grammarNote": "Эти слова называются \"demonstrative pronouns\" — указательные местоимения. Они помогают показать НА ЧТО ты говоришь: близко или далеко, один предмет или несколько. Используй их вместо слова \"it\" когда хочешь указать на конкретный предмет.",
+  "grammarTable": [
+    {
+      "subject": "this",
+      "verb": "близко · единственное",
+      "short": "ед.ч. / рядом",
+      "example": "This is my laptop. · What is this? · This book is heavy."
+    },
+    {
+      "subject": "that",
+      "verb": "далеко · единственное",
+      "short": "ед.ч. / далеко",
+      "example": "That is my dictionary. · What is that? · That poster is beautiful."
+    },
+    {
+      "subject": "these",
+      "verb": "близко · множественное",
+      "short": "мн.ч. / рядом",
+      "example": "These are my pens. · These textbooks are new. · Are these yours?"
+    },
+    {
+      "subject": "those",
+      "verb": "далеко · множественное",
+      "short": "мн.ч. / далеко",
+      "example": "Those are my shoes. · Those mountains are amazing. · Whose are those?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Questions — задаём вопросы",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "What is this?",
+          "example": "\"What is this?\" — \"This is my calculator.\""
+        },
+        {
+          "form": "What is that?",
+          "example": "\"What is that?\" — \"That is Aizhan's cactus.\""
+        },
+        {
+          "form": "What are these?",
+          "example": "\"What are these?\" — \"These are my earphones.\""
+        },
+        {
+          "form": "What are those?",
+          "example": "\"What are those?\" — \"Those are textbooks.\""
+        },
+        {
+          "form": "Is this/that...?",
+          "example": "\"Is this your bag?\" — \"Yes, it is. / No, it isn't.\""
+        }
+      ]
+    },
+    {
+      "title": "With nouns — используй перед существительным",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#C7D7EE",
+      "rows": [
+        {
+          "form": "this + noun (ед.ч.)",
+          "example": "this book · this room · this pen · this idea"
+        },
+        {
+          "form": "that + noun (ед.ч.)",
+          "example": "that poster · that desk · that student · that city"
+        },
+        {
+          "form": "these + noun (мн.ч.)",
+          "example": "these books · these pens · these students · these shoes"
+        },
+        {
+          "form": "those + noun (мн.ч.)",
+          "example": "those mountains · those chairs · those textbooks"
+        }
+      ]
+    },
+    {
+      "title": "this vs that — близко или далеко?",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Близко → this / these",
+          "example": "\"This is my pen.\" (держишь в руке)"
+        },
+        {
+          "form": "Далеко → that / those",
+          "example": "\"That is the library.\" (здание вдали)"
+        },
+        {
+          "form": "По телефону / видео",
+          "example": "\"This is Aizhan.\" (представляешься)"
+        },
+        {
+          "form": "Showing something",
+          "example": "\"Look at this! / Look at that!\" (показываешь)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Простая схема:\nОДИН предмет → this (рядом) / that (далеко)\nНЕСКОЛЬКО предметов → these (рядом) / those (далеко)\n\nEasy trick: THIS и THESE — оба с буквой «S» → оба рядом!\nTHAT и THOSE — оба без «S» в начале → оба далеко!\n\n\"Is this your pen?\" — \"Yes, it is.\" / \"No, it isn't mine.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "You are holding a pen. Choose the correct word.",
+      "text": "___ is my favourite pen. I use it every day.",
+      "opts": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
+      "correct": "This",
+      "hint": "You are holding it = it's near you → This (singular + near)."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "You see a building far away. Choose the correct word.",
+      "text": "___ is the WKU library. It has 500,000 books.",
+      "opts": [
+        "This",
+        "That",
+        "These",
+        "Those"
+      ],
+      "correct": "That",
+      "hint": "Far away = That (singular + far)."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Fill in: this, that, these or those.",
+      "text": "___ are my textbooks on the desk in front of me. (plural, near)",
+      "correct": "these",
+      "hint": "Plural + near you → these."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "Look at ___ mountains far away! They are so beautiful.",
+      "opts": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "correct": "those",
+      "hint": "Plural + far away → those."
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"These is my laptop\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"These\" is plural. \"Laptop\" is singular → use \"This is my laptop.\""
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "___ your earphones? (pointing at earphones near you on the table)",
+      "opts": [
+        "Is this",
+        "Is that",
+        "Are these",
+        "Are those"
+      ],
+      "correct": "Are these",
+      "hint": "Earphones = plural, near you → Are these your earphones?"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Fill in: this, that, these or those.",
+      "text": "\"___ is Aizhan.\" (introducing yourself on a phone call)",
+      "correct": "this",
+      "hint": "When introducing yourself on the phone/video → \"This is [name].\""
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Which is correct?",
+      "opts": [
+        "Those is a beautiful room.",
+        "These book is very heavy.",
+        "That are my shoes.",
+        "These are my notes for today."
+      ],
+      "correct": "These are my notes for today.",
+      "hint": "\"These\" = plural → \"are\". Others mix singular/plural incorrectly."
+    }
+  ]
+}

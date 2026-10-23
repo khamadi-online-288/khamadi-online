@@ -1,0 +1,368 @@
+{
+  "id": "l40-5",
+  "moduleNum": 6,
+  "lessonNum": 8,
+  "moduleTitle": "Life Experiences",
+  "type": "test",
+  "title": "Module 6 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Professor Aidarov ask students to write about?",
+      "opts": [
+        "Future plans only",
+        "Things they have and haven't done",
+        "City comparisons",
+        "Grammar exercises"
+      ],
+      "correct": "Things they have and haven't done",
+      "hint": "\"Write a personal reflection on their life experiences — the things they have done and haven't done yet.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir has finished the Aitmatov novel.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've started and abandoned the same Aitmatov novel three times.\" — he hasn't finished it yet."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many mountains has Rustam climbed?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Five"
+      ],
+      "correct": "Three",
+      "hint": "\"He has climbed three different mountains in Kazakhstan.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Zhibek has trained more than ___ hours for volleyball.",
+      "correct": "five thousand",
+      "hint": "\"I've trained more than five thousand hours to become a volleyball player.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What final task did Professor Aidarov give the class?",
+      "opts": [
+        "Another list of experiences",
+        "To compare their stories",
+        "One sentence about future plans",
+        "A grammar exercise"
+      ],
+      "correct": "One sentence about future plans",
+      "hint": "\"He then asked the class to write one more sentence — about what they are going to do next.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam has flown on aeroplanes many times.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've never been on an aeroplane.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many times has Kamila been to Almaty?",
+      "opts": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Never"
+      ],
+      "correct": "Three times",
+      "hint": "\"Yes — I've been there three times.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Zhibek been playing volleyball?",
+      "opts": [
+        "Ten years",
+        "Almost fifteen years",
+        "Twenty years",
+        "Since she was five"
+      ],
+      "correct": "Almost fifteen years",
+      "hint": "\"I've been playing since I was nine years old. So — almost fifteen years.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "In the radio interview, one of Zhibek's research papers has been accepted for ___.",
+      "correct": "publication",
+      "hint": "\"one of them has been accepted for publication.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam has been to Almaty before.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've never been there. I've always wanted to go but never had the chance.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In the interview, what has Zhibek discovered about herself?",
+      "opts": [
+        "She hates academic work",
+        "She loves sports science and research",
+        "She wants to quit volleyball",
+        "She prefers coaching"
+      ],
+      "correct": "She loves sports science and research",
+      "hint": "\"I've started reading research papers on training methodology. I've realised that what I want isn't just to play.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Rustam known Zhibek?",
+      "opts": [
+        "Three years",
+        "This semester",
+        "Since secondary school",
+        "Since childhood"
+      ],
+      "correct": "Since secondary school",
+      "hint": "\"I've known her since secondary school.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ two championships.\" (no specific time)",
+      "opts": [
+        "won",
+        "has won",
+        "had won",
+        "wins"
+      ],
+      "correct": "has won",
+      "hint": "No specific time → Present Perfect. \"She has won two championships.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ the competition last year.\" (specific time)",
+      "opts": [
+        "has won",
+        "had won",
+        "won",
+        "wins"
+      ],
+      "correct": "won",
+      "hint": "\"last year\" = specific past time → Past Simple. \"He won last year.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"write → wrote → ___\" (past participle)",
+      "correct": "written",
+      "hint": "\"write → wrote → written\" (irregular). \"She has WRITTEN two papers.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's ___ to Almaty.\" (she went and came back — NOT still there)",
+      "opts": [
+        "gone",
+        "went",
+        "been",
+        "go"
+      ],
+      "correct": "been",
+      "hint": "\"have BEEN to\" = visited and returned. \"She's been to Almaty.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ you ever ___ (be) abroad?\" (general experience)",
+      "opts": [
+        "Did / been",
+        "Have / been",
+        "Do / go",
+        "Were / been"
+      ],
+      "correct": "Have / been",
+      "hint": "\"ever\" → PP. \"Have you ever been abroad?\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I have seen him yesterday\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"I saw him yesterday.\" — \"yesterday\" = specific past time → ALWAYS Past Simple!"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (already / apply) for the master's.\" (PP + already)",
+      "correct": "'s already applied",
+      "hint": "\"already\" + PP: \"She's already applied.\" ✅ (position: before the past participle)"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"give → gave → ___\" (past participle)",
+      "opts": [
+        "gave",
+        "given",
+        "givenned",
+        "give"
+      ],
+      "correct": "given",
+      "hint": "\"give → gave → given\" (irregular). \"She has GIVEN a speech.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He has contributed to an open-source project.\" \"Contribute\" means:",
+      "opts": [
+        "start",
+        "give something to help achieve a result",
+        "take something away",
+        "lead a project"
+      ],
+      "correct": "give something to help achieve a result",
+      "hint": "\"contribute\" = to give time, effort, or input to something. \"contributed to\" = helped with."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "He has started and ___ the same novel three times.",
+      "correct": "abandoned",
+      "hint": "\"abandon\" = to stop doing something without finishing it."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"That was a remarkable achievement.\" \"Remarkable\" means:",
+      "opts": [
+        "ordinary",
+        "unusual and impressive",
+        "expected",
+        "easy"
+      ],
+      "correct": "unusual and impressive",
+      "hint": "\"remarkable\" = unusual or surprising in a way that causes admiration. Notable."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He accidentally attended the wedding.\" \"Accidentally\" means:",
+      "opts": [
+        "deliberately",
+        "by chance, without intention",
+        "repeatedly",
+        "reluctantly"
+      ],
+      "correct": "by chance, without intention",
+      "hint": "\"accidentally\" = by chance, without planning or intending to."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's maintained a GPA above 3.8.\" \"Maintain\" means:",
+      "opts": [
+        "improve steadily",
+        "keep at the same level consistently",
+        "reduce gradually",
+        "achieve once"
+      ],
+      "correct": "keep at the same level consistently",
+      "hint": "\"maintain\" = to keep something at the same standard over time, consistently."
+    }
+  ]
+}

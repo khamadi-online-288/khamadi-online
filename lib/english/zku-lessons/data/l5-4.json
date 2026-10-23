@@ -1,0 +1,251 @@
+{
+  "id": "l5-4",
+  "moduleNum": 5,
+  "lessonNum": 4,
+  "moduleTitle": "I can / I can't",
+  "title": "can / can't",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "can / can't — модальный глагол способности",
+  "grammarNote": "\"Can\" — это модальный глагол. Он стоит ПЕРЕД основным глаголом и показывает: умеешь ли ты что-то делать, разрешено ли это, возможно ли это. В Казахском языке ему соответствует \"-а алу / -е алу\" (биле алу, жүзе алу).\n\nCAN используется в четырёх главных случаях:\n\n① Умение / способность (ABILITY) — это главное!\n   \"I can swim.\" · \"She can speak five languages.\" · \"He can't cook.\"\n\n② Просьба (REQUEST) — вежливо попросить кого-то\n   \"Can you help me?\" · \"Can you explain this, please?\"\n\n③ Разрешение (PERMISSION) — попросить разрешения\n   \"Can I open the window?\" · \"Can I leave early today?\"\n\n④ Возможность (POSSIBILITY) — что-то может случиться\n   \"Learning languages can be fun!\" · \"It can be very difficult.\"\n\n⚠️ САМОЕ ВАЖНОЕ ПРАВИЛО:\nCAN никогда не меняется! Нет -s для He/She/It!\n\"She can\" ✅ — НЕ \"She cans\" ❌\nПосле CAN всегда стоит BASE FORM глагола:\n\"I can swim\" ✅ — НЕ \"I can swimming\" ❌ — НЕ \"I can to swim\" ❌",
+  "grammarTable": [
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "can",
+      "short": "без -s!",
+      "example": "I can code. · She can sing. · They can dance. · He can swim."
+    },
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "can't",
+      "short": "cannot",
+      "example": "I can't drive. · He can't cook. · We can't fly. · She can't play guitar."
+    },
+    {
+      "subject": "Can + subject + verb?",
+      "verb": "?",
+      "short": "вопрос",
+      "example": "Can you swim? · Can she code? · Can they help? · Can he speak English?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "⚠️ Три главные ошибки с CAN — запомни навсегда!",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ She cans play → ✅ She can play",
+          "example": "CAN никогда не получает -s! Для всех подлежащих одинаково."
+        },
+        {
+          "form": "❌ I can to swim → ✅ I can swim",
+          "example": "После CAN нет \"to\"! Только базовая форма глагола."
+        },
+        {
+          "form": "❌ He can swimming → ✅ He can swim",
+          "example": "После CAN нет -ing! Только базовая форма глагола."
+        },
+        {
+          "form": "❌ Can she sings? → ✅ Can she sing?",
+          "example": "В вопросе тоже базовая форма — никаких -s или -ing."
+        }
+      ]
+    },
+    {
+      "title": "Negative — can't / cannot",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "can't = cannot (полная форма)",
+          "example": "\"I cannot drive.\" = \"I can't drive.\" — оба верны."
+        },
+        {
+          "form": "can't — разговорная, cannot — формальная",
+          "example": "В письме и официальном тексте используй cannot. В разговоре — can't."
+        },
+        {
+          "form": "Все подлежащие → can't (без изменений)",
+          "example": "I can't / You can't / He can't / She can't / We can't / They can't"
+        },
+        {
+          "form": "Порядок: subject + can't + base verb",
+          "example": "Arlan can't cook. · Malika can't code. · Bekzat can't dance."
+        }
+      ]
+    },
+    {
+      "title": "Questions — вопросы с CAN",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Yes/No вопрос: Can + subject + verb?",
+          "example": "\"Can you swim?\" — \"Yes, I can.\" / \"No, I can't.\""
+        },
+        {
+          "form": "Краткий ответ: Yes, I can. / No, I can't.",
+          "example": "\"Can Ainur speak Korean?\" — \"Yes, she can!\""
+        },
+        {
+          "form": "WH-вопрос: What/Where/How well + can?",
+          "example": "\"What can you do?\" · \"How well can she sing?\" · \"Where can I practise?\""
+        },
+        {
+          "form": "\"Can I...?\" — просьба разрешения",
+          "example": "\"Can I ask you a question?\" · \"Can I use your pen, please?\""
+        },
+        {
+          "form": "\"Can you...?\" — просьба о помощи",
+          "example": "\"Can you help me?\" · \"Can you explain this again?\" · \"Can you speak slowly?\""
+        }
+      ]
+    },
+    {
+      "title": "Could — прошедшее время от CAN",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "could = прошедшее время can",
+          "example": "\"When I was 10, I could swim very fast.\" (раньше умел)"
+        },
+        {
+          "form": "couldn't = не умел раньше",
+          "example": "\"I couldn't speak English at school — now I can!\""
+        },
+        {
+          "form": "Правила те же: could + base form",
+          "example": "\"She could dance when she was 5.\" — НЕ \"She could danced.\""
+        },
+        {
+          "form": "could — также вежливая просьба",
+          "example": "\"Could you help me, please?\" — вежливее чем \"Can you help me?\""
+        },
+        {
+          "form": "Сравни: can (сейчас) vs could (раньше)",
+          "example": "\"Bekzat could run faster last year. Now he can run even faster!\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Формула CAN — проще некуда:\n\n✅ [подлежащее] + can/can't + [глагол без изменений]\n\nI can swim. · She can't cook. · Can you drive?\n\n📌 Шпаргалка по can:\n\"can\"   → умею, могу, разрешите?\n\"can't\" → не умею, не могу\n\"Can?\"  → умеешь? можно? можете?\n\"could\" → умел раньше / вежливая просьба\n\n💡 Лайфхак для ответов:\n\"Can you...?\" → ТОЛЬКО \"Yes, I can.\" или \"No, I can't.\"\nНикогда: \"Yes, I can swim.\" — слишком длинно в кратком ответе!\nНикогда: \"Yes, I can't.\" — логическая ошибка!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Malika ___ sing beautifully — she won a competition.",
+      "opts": [
+        "can to",
+        "cans",
+        "can",
+        "is can"
+      ],
+      "correct": "can",
+      "hint": "CAN never changes — no -s, no \"to\". \"Malika can sing.\""
+    },
+    {
+      "id": "e2",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"He cans play chess very well\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "CAN never gets -s! For all subjects: can. \"He can play chess.\""
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is 100% correct?",
+      "opts": [
+        "I can to swim fast.",
+        "She can speaks five languages.",
+        "They can't cook.",
+        "He can dancing very well."
+      ],
+      "correct": "They can't cook.",
+      "hint": "can't + base form ✅. Others: no 'to', no -s, no -ing after can."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Make the question. Write only the missing word.",
+      "text": "___ Arlan code in Python? — Yes, he can!",
+      "correct": "Can",
+      "hint": "Questions: Can + subject + base verb? → \"Can Arlan code?\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Bekzat is not good at languages. He ___ speak Chinese.",
+      "opts": [
+        "can't to speak",
+        "cants speak",
+        "can't speak",
+        "don't can speak"
+      ],
+      "correct": "can't speak",
+      "hint": "can't + base form. Never 'to', never 'cants', never 'don't can'."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct short answer.",
+      "text": "\"Can Ainur speak Korean?\" — \"Yes, ___.\"",
+      "correct": "she can",
+      "hint": "Short answer: Yes, + subject + can. \"Yes, she can.\""
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct past form.",
+      "text": "When Bekzat was 10, he ___ run very fast — but now he is even faster!",
+      "opts": [
+        "can",
+        "cans",
+        "could",
+        "couldn't"
+      ],
+      "correct": "could",
+      "hint": "Past ability → could. \"When I was young, I could run fast.\""
+    },
+    {
+      "id": "e8",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Can you to explain this again, please?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "No \"to\" after can! \"Can you explain this again?\" — base form directly after can."
+    }
+  ],
+  "questions": []
+}

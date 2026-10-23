@@ -1,0 +1,686 @@
+{
+  "id": "l19-1",
+  "moduleNum": 3,
+  "lessonNum": 1,
+  "moduleTitle": "Getting Around",
+  "title": "Public transport in Kazakhstan",
+  "type": "reading",
+  "xp": 65,
+  "duration": 22,
+  "paragraphs": [
+    "Kazakhstan is the ninth largest country in the world by area, covering more than 2.7 million square kilometres. Getting around this vast country is an important part of everyday life, and Kazakhstanis use a wide variety of transport options depending on where they live and where they need to go. From modern metro systems in the big cities to long-distance trains crossing the steppe, the transport network of Kazakhstan is fascinating and diverse.",
+    "In the biggest cities — Almaty, Astana, and Shymkent — urban transport is well developed. Almaty has the only metro system in Kazakhstan, with two lines and around 10 stations. The metro is fast, clean, and very affordable — a single journey costs only about 100 tenge. However, the metro does not cover the whole city, so many people also use buses, minibuses (called \"marshrutkas\"), and taxis. Marshrutkas are very popular because they are cheap and go almost everywhere, but they can be crowded and noisy during rush hour.",
+    "Buses are the backbone of city transport across Kazakhstan. Every major city has a network of numbered bus routes. In Uralsk — where WKU is located — students use buses daily to travel between the university, the dormitory, the city centre, and the market. A bus fare in Uralsk costs around 80–100 tenge, and you can pay with a transport card or cash. Most buses in large cities now have electronic displays and audio announcements of the next stop, which makes them easy to use even for visitors.",
+    "Taxis are extremely convenient in Kazakhstan, especially with the arrival of app-based services like Yandex Go and InDrive. You open the app, type in your destination, see the price before you book, and the driver arrives in just a few minutes. This is much safer and more transparent than hailing a random taxi on the street. Students at WKU use taxi apps regularly — especially late at night or when carrying heavy bags after a shopping trip.",
+    "For long-distance travel between cities, Kazakhstanis traditionally use trains. The national railway company is called Kazakhstan Temir Zholy (KTZh). There are direct train routes between all major cities, and ticket prices are reasonable. A journey from Uralsk to Almaty takes about 24 hours by train, or just 2 hours by plane. Trains have different classes: platzkart (open dormitory style, most affordable), kupé (4-person compartments), and first class (called SV — two-person compartments with air conditioning).",
+    "Air travel has become increasingly popular in Kazakhstan. The main airline is Air Astana, which flies to all major cities within Kazakhstan and to many international destinations. Low-cost airlines like Fly Arystan offer very affordable domestic flights. Students sometimes fly home for holidays, especially if their city is far from Uralsk. The nearest airport to WKU is Oral Airport, located about 6 kilometres from the city centre. You can get there by taxi in about 15 minutes.",
+    "Cycling is becoming more popular in Kazakhstani cities, particularly among young people and students. Many cities have started building dedicated cycling lanes, and bike-sharing schemes have appeared in Almaty and Astana. However, cycling in winter — when temperatures can drop to minus 30 degrees — is not practical! In summer, Kamila and her friends often rent bikes on weekends and cycle along the river embankment, which is one of the most pleasant ways to explore Uralsk.",
+    "The most important thing about transport in Kazakhstan is planning ahead. Always check the bus schedule, save the taxi app on your phone, and buy train tickets in advance — they sell out quickly during the holiday season. Whether you are travelling across the city or across the country, Kazakhstan's transport system will get you where you need to go. As Kamila always says: \"In Kazakhstan, the distances are big, but so is the adventure!\" 🚌✈️🚂"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, how do you usually get to university in the morning?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I take the number 14 bus. It stops right in front of the dormitory. What about you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I usually walk — it only takes about 20 minutes. But when I'm late, I use Yandex Go.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Taxi apps are so convenient! How much does it usually cost from the dorm to WKU?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "About 400–500 tenge. It's not expensive. Have you ever taken the intercity bus to Aktobe?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes, twice. It takes about six hours and costs around 3,000 tenge. Comfortable enough.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I prefer the train. It's slower but I love watching the steppe through the window.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Ha! I prefer to arrive. What's the fastest way to get to Almaty from here?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "By plane — about two hours. Air Astana has three flights a week from Oral Airport.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "How do you get to the airport? Is there a bus?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "There's no direct bus, unfortunately. You have to take a taxi — it's about 15 minutes and 1,500 tenge.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Good to know! I'm planning to fly home for the New Year break. I'll book early.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Take the bus / train / taxi.",
+      "ru": "Сесть на автобус / поезд / такси.",
+      "context": "I usually take the number 14 bus to university."
+    },
+    {
+      "phrase": "Get on / get off (the bus).",
+      "ru": "Сесть в / выйти из (автобуса).",
+      "context": "Get off at the third stop after the bridge."
+    },
+    {
+      "phrase": "How long does it take?",
+      "ru": "Сколько времени это занимает?",
+      "context": "How long does it take to get to the airport?"
+    },
+    {
+      "phrase": "It takes about 15 minutes.",
+      "ru": "Это занимает около 15 минут.",
+      "context": "It takes about 15 minutes by taxi."
+    },
+    {
+      "phrase": "How much does it cost?",
+      "ru": "Сколько это стоит?",
+      "context": "How much does the bus fare cost?"
+    },
+    {
+      "phrase": "It costs around 100 tenge.",
+      "ru": "Это стоит около 100 тенге.",
+      "context": "A metro journey costs around 100 tenge."
+    },
+    {
+      "phrase": "Is there a bus / direct route?",
+      "ru": "Есть ли автобус / прямой маршрут?",
+      "context": "Is there a direct bus to the airport?"
+    },
+    {
+      "phrase": "You have to change at...",
+      "ru": "Нужно сделать пересадку на...",
+      "context": "You have to change at the central station."
+    },
+    {
+      "phrase": "Book / buy a ticket in advance.",
+      "ru": "Забронировать / купить билет заранее.",
+      "context": "Buy train tickets in advance — they sell out fast."
+    },
+    {
+      "phrase": "The nearest stop is...",
+      "ru": "Ближайшая остановка — это...",
+      "context": "The nearest bus stop is in front of Building 1."
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "marshrutka",
+      "emoji": "🚐",
+      "opts": [
+        "маршрутное такси",
+        "трамвай",
+        "метро",
+        "скутер"
+      ],
+      "correct": "маршрутное такси"
+    },
+    {
+      "id": "p2",
+      "word": "fare",
+      "emoji": "💳",
+      "opts": [
+        "расписание",
+        "стоимость проезда",
+        "маршрут",
+        "остановка"
+      ],
+      "correct": "стоимость проезда"
+    },
+    {
+      "id": "p3",
+      "word": "compartment",
+      "emoji": "🚂",
+      "opts": [
+        "вагон",
+        "купе",
+        "перрон",
+        "рейс"
+      ],
+      "correct": "купе"
+    },
+    {
+      "id": "p4",
+      "word": "embankment",
+      "emoji": "🌊",
+      "opts": [
+        "мост",
+        "набережная",
+        "перекрёсток",
+        "тротуар"
+      ],
+      "correct": "набережная"
+    },
+    {
+      "id": "p5",
+      "word": "affordable",
+      "emoji": "💰",
+      "opts": [
+        "дорогой",
+        "доступный по цене",
+        "бесплатный",
+        "редкий"
+      ],
+      "correct": "доступный по цене"
+    },
+    {
+      "id": "p6",
+      "word": "hailing",
+      "emoji": "✋",
+      "opts": [
+        "вызов такси через приложение",
+        "остановка такси на улице",
+        "бронирование онлайн",
+        "аренда машины"
+      ],
+      "correct": "остановка такси на улице"
+    }
+  ],
+  "task1Bank": [
+    "two",
+    "100 tenge",
+    "Yandex Go and InDrive",
+    "24 hours",
+    "Air Astana",
+    "6 kilometres"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The Almaty metro has ___ lines.",
+      "correct": "two"
+    },
+    {
+      "id": "t2",
+      "question": "A single metro journey in Almaty costs about ___ .",
+      "correct": "100 tenge"
+    },
+    {
+      "id": "t3",
+      "question": "Popular taxi apps in Kazakhstan include ___ .",
+      "correct": "Yandex Go and InDrive"
+    },
+    {
+      "id": "t4",
+      "question": "A train journey from Uralsk to Almaty takes about ___ .",
+      "correct": "24 hours"
+    },
+    {
+      "id": "t5",
+      "question": "The main Kazakhstani airline is ___ .",
+      "correct": "Air Astana"
+    },
+    {
+      "id": "t6",
+      "question": "Oral Airport is located about ___ from the city centre.",
+      "correct": "6 kilometres"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Kazakhstan is the ninth largest country in the world.",
+      "correct": "true"
+    },
+    {
+      "id": "f2",
+      "statement": "Astana has the only metro system in Kazakhstan.",
+      "correct": "false"
+    },
+    {
+      "id": "f3",
+      "statement": "Marshrutkas are more expensive than taxis.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Fly Arystan is a low-cost airline in Kazakhstan.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "Cycling is popular in Kazakhstan in winter.",
+      "correct": "false"
+    },
+    {
+      "id": "f6",
+      "statement": "Train tickets should be booked in advance during the holiday season.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "vocab": [
+    {
+      "en": "transport",
+      "ipa": "/ˈtrænspɔːt/",
+      "pos": "noun",
+      "ru": "транспорт",
+      "kz": "көлік",
+      "emoji": "🚌",
+      "definition": "a system for moving people or goods from one place to another",
+      "example": "Kazakhstan's transport system is vast and diverse.",
+      "collocations": [
+        "public transport",
+        "transport system",
+        "modes of transport"
+      ]
+    },
+    {
+      "en": "fare",
+      "ipa": "/feər/",
+      "pos": "noun",
+      "ru": "стоимость проезда",
+      "kz": "жол ақысы",
+      "emoji": "💳",
+      "definition": "the price you pay to travel on public transport",
+      "example": "A bus fare in Uralsk costs around 80–100 tenge.",
+      "collocations": [
+        "bus fare",
+        "single fare",
+        "pay the fare"
+      ]
+    },
+    {
+      "en": "route",
+      "ipa": "/ruːt/",
+      "pos": "noun",
+      "ru": "маршрут",
+      "kz": "бағыт",
+      "emoji": "🗺️",
+      "definition": "the path you travel from one place to another",
+      "example": "The number 14 bus route goes past the university.",
+      "collocations": [
+        "bus route",
+        "direct route",
+        "along the route"
+      ]
+    },
+    {
+      "en": "departure",
+      "ipa": "/dɪˈpɑːtʃər/",
+      "pos": "noun",
+      "ru": "отправление",
+      "kz": "жөнелу",
+      "emoji": "🛫",
+      "definition": "the time or act of leaving a place",
+      "example": "Check the departure time before going to the station.",
+      "collocations": [
+        "departure time",
+        "departure gate",
+        "departure lounge"
+      ]
+    },
+    {
+      "en": "arrival",
+      "ipa": "/əˈraɪvl/",
+      "pos": "noun",
+      "ru": "прибытие",
+      "kz": "жету",
+      "emoji": "🛬",
+      "definition": "the time or act of reaching a place",
+      "example": "The train's arrival is scheduled for 6:15 pm.",
+      "collocations": [
+        "arrival time",
+        "on arrival",
+        "arrival hall"
+      ]
+    },
+    {
+      "en": "platform",
+      "ipa": "/ˈplætfɔːm/",
+      "pos": "noun",
+      "ru": "платформа, перрон",
+      "kz": "перрон",
+      "emoji": "🚉",
+      "definition": "a raised surface at a train or bus station where you board",
+      "example": "The Almaty train departs from platform 3.",
+      "collocations": [
+        "train platform",
+        "departure platform",
+        "wait on the platform"
+      ]
+    },
+    {
+      "en": "schedule",
+      "ipa": "/ˈʃedjuːl/",
+      "pos": "noun",
+      "ru": "расписание",
+      "kz": "кесте",
+      "emoji": "📅",
+      "definition": "a plan that lists times of buses, trains, or activities",
+      "example": "Always check the bus schedule before you travel.",
+      "collocations": [
+        "bus schedule",
+        "on schedule",
+        "check the schedule"
+      ]
+    },
+    {
+      "en": "compartment",
+      "ipa": "/kəmˈpɑːtmənt/",
+      "pos": "noun",
+      "ru": "купе (в поезде)",
+      "kz": "купе",
+      "emoji": "🚂",
+      "definition": "a small enclosed space in a train carriage, usually with 4 seats",
+      "example": "We booked a 4-person compartment on the overnight train.",
+      "collocations": [
+        "train compartment",
+        "first-class compartment",
+        "book a compartment"
+      ]
+    },
+    {
+      "en": "embankment",
+      "ipa": "/ɪmˈbæŋkmənt/",
+      "pos": "noun",
+      "ru": "набережная",
+      "kz": "жағалау",
+      "emoji": "🌊",
+      "definition": "a raised bank or road along a river",
+      "example": "Students cycle along the river embankment on weekends.",
+      "collocations": [
+        "river embankment",
+        "walk along the embankment",
+        "embankment road"
+      ]
+    },
+    {
+      "en": "affordable",
+      "ipa": "/əˈfɔːdəbl/",
+      "pos": "adjective",
+      "ru": "доступный по цене",
+      "kz": "қол жетімді",
+      "emoji": "💰",
+      "definition": "cheap enough for ordinary people to buy or use",
+      "example": "The metro is fast, clean, and very affordable.",
+      "collocations": [
+        "affordable prices",
+        "affordable transport",
+        "affordable option"
+      ]
+    }
+  ],
+  "grammarTitle": "Imperatives + transport prepositions",
+  "grammarNote": "ИМПЕРАТИВ — это команда или указание. Используется для указания направления (turn left!), просьб (take the bus!) и советов (book early!). Он образуется из базовой формы глагола БЕЗ подлежащего. Отрицательный императив: Don't + base verb.",
+  "grammarTable": [
+    {
+      "subject": "Affirmative",
+      "verb": "base verb",
+      "short": "verb!",
+      "example": "Turn left! · Go straight! · Take the bus! · Cross the road!"
+    },
+    {
+      "subject": "Negative",
+      "verb": "Don't + base",
+      "short": "Don't!",
+      "example": "Don't turn right! · Don't miss the stop! · Don't be late!"
+    },
+    {
+      "subject": "Polite",
+      "verb": "Please + verb",
+      "short": "Please…",
+      "example": "Please show me your ticket. · Please get off here."
+    },
+    {
+      "subject": "Let's",
+      "verb": "Let's + verb",
+      "short": "Let's!",
+      "example": "Let's take the metro! · Let's walk — it's not far."
+    }
+  ],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which city has the only metro in Kazakhstan?",
+      "opts": [
+        "Astana",
+        "Almaty",
+        "Shymkent",
+        "Uralsk"
+      ],
+      "correct": "Almaty",
+      "hint": "\"Almaty has the only metro system in Kazakhstan.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"marshrutka\" mean?",
+      "opts": [
+        "A long-distance train",
+        "A minibus",
+        "A taxi app",
+        "An airport shuttle"
+      ],
+      "correct": "A minibus",
+      "hint": "\"minibuses (called 'marshrutkas')\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "A bus fare in Uralsk costs around 80–100 tenge.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"A bus fare in Uralsk costs around 80–100 tenge.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which class of train is the most affordable?",
+      "opts": [
+        "SV (first class)",
+        "Kupé",
+        "Platzkart",
+        "Business"
+      ],
+      "correct": "Platzkart",
+      "hint": "\"platzkart (open dormitory style, most affordable)\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does it take to fly from Uralsk to Almaty?",
+      "opts": [
+        "30 minutes",
+        "1 hour",
+        "2 hours",
+        "4 hours"
+      ],
+      "correct": "2 hours",
+      "hint": "\"just 2 hours by plane\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Cycling in Kazakhstan is popular in both summer and winter.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"cycling in winter — when temperatures can drop to minus 30 — is not practical!\""
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What do Kamila and her friends do on weekends in summer?",
+      "opts": [
+        "Go to the airport",
+        "Take train journeys",
+        "Cycle along the river embankment",
+        "Use the metro"
+      ],
+      "correct": "Cycle along the river embankment",
+      "hint": "\"cycle along the river embankment\""
+    },
+    {
+      "id": "q8",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In the dialogue, how long does it take Amir to get to Aktobe by bus?",
+      "opts": [
+        "3 hours",
+        "4 hours",
+        "6 hours",
+        "8 hours"
+      ],
+      "correct": "6 hours",
+      "hint": "\"It takes about six hours and costs around 3,000 tenge.\""
+    },
+    {
+      "id": "q9",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila prefers trains to planes for long journeys.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I prefer the train. I love watching the steppe through the window.\""
+    },
+    {
+      "id": "q10",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How far is Oral Airport from the city centre?",
+      "opts": [
+        "3 km",
+        "6 km",
+        "10 km",
+        "15 km"
+      ],
+      "correct": "6 km",
+      "hint": "\"Oral Airport, located about 6 kilometres from the city centre.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___  right at the traffic lights, then go straight.",
+      "correct": "Turn",
+      "hint": "Imperative direction: Turn right."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is a correct imperative?",
+      "opts": [
+        "You take the bus!",
+        "Taking the bus!",
+        "Take the bus!",
+        "To take the bus!"
+      ],
+      "correct": "Take the bus!",
+      "hint": "Imperative = base verb only. No subject, no -ing, no \"to\"."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ miss your stop — set an alarm on your phone!",
+      "correct": "Don't",
+      "hint": "Negative imperative = Don't + base verb."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ take a taxi — it's raining!\" suggests a shared decision.",
+      "opts": [
+        "Don't",
+        "Let's",
+        "Please",
+        "You"
+      ],
+      "correct": "Let's",
+      "hint": "Let's + verb = suggestion for both people."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"fare\" mean in transport?",
+      "opts": [
+        "A transport schedule",
+        "The price you pay to travel",
+        "A route number",
+        "A bus stop"
+      ],
+      "correct": "The price you pay to travel",
+      "hint": "Fare = the price you pay to use public transport."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "Always check the bus ___ before you travel.",
+      "correct": "schedule",
+      "hint": "Schedule = a plan that lists times of transport."
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "l80-1",
+  "moduleNum": 22,
+  "lessonNum": 1,
+  "moduleTitle": "Philosophy, Ethics & Values",
+  "title": "What Is Ethics? The Main Schools of Moral Philosophy",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "Ethics — the branch of philosophy concerned with questions of right and wrong, good and bad, duty and virtue — is not merely an academic subject. Ethical reasoning is something we engage in every time we make a moral judgment: when we decide whether it is right to lie in a particular situation, when we weigh competing loyalties, when we ask what we owe to people we have never met and may never meet, or when we try to determine what kind of person we want to be. The question \"what should I do?\" is an ethical question, and philosophy has spent centuries developing sophisticated frameworks for answering it.",
+    "The most widely studied ethical frameworks in Western philosophy are consequentialism, deontology, and virtue ethics. These frameworks differ not just in their conclusions but in their fundamental approach to moral reasoning — in what they take to be the most basic moral fact about a situation. Understanding these differences is not merely an exercise in academic categorisation; it is essential for anyone who wants to think clearly about ethics rather than simply reacting to moral situations on the basis of intuition or convention.",
+    "Consequentialism, most famously developed by Jeremy Bentham and John Stuart Mill, holds that the moral value of an action is determined entirely by its consequences. What matters, morally, is whether an action produces good outcomes — typically understood as well-being, happiness, or the satisfaction of preferences — and whether it produces more good than the available alternatives. Consequentialist thinking is powerful because it forces us to take seriously the actual effects of our choices on actual people. Its critics, however, argue that it can justify intuitively monstrous actions — torturing an innocent person, for instance, if doing so would save many lives.",
+    "Deontological ethics, associated above all with Immanuel Kant, takes a fundamentally different approach. For deontologists, what makes an action right or wrong is not its consequences but whether it conforms to a moral rule or duty. Kant's most famous formulation of the moral law — the \"categorical imperative\" — states that we should act only on principles that we could will to become universal laws. On this view, lying is always wrong, regardless of consequences, because if lying were a universal practice, the very concept of truth-telling — and hence the usefulness of lying — would collapse. Deontological ethics takes seriously the idea of individual rights: there are things you must not do to a person regardless of the beneficial consequences.",
+    "Virtue ethics, whose origins lie in ancient Greek philosophy and especially in the work of Aristotle, asks a different question altogether. Rather than \"what should I do?\" it asks \"what kind of person should I be?\" The focus is on character — on the development of stable dispositions to think, feel, and act in morally excellent ways. A virtuous person is not someone who mechanically follows rules or who calculates consequences, but someone who has developed the habits of kindness, courage, honesty, justice, and practical wisdom through upbringing, practice, and reflection. Virtue ethics recognises that moral knowledge is not purely theoretical — it requires the kind of practical judgment that cannot be reduced to an algorithm.",
+    "Each of these frameworks captures genuine moral insights and faces genuine objections. Consequentialism rightly insists that outcomes matter — moral action cannot be indifferent to the suffering or flourishing it produces. Deontology rightly insists that there are constraints on how we may treat individuals — people are not merely instruments to be used for collective benefit. Virtue ethics rightly insists that character matters — that ethics is not just about what we do but about who we are. A sophisticated ethical thinker does not commit to one framework exclusively but uses them as complementary tools for illuminating different aspects of a moral situation.",
+    "Philosophy cannot tell us definitively what to do in every moral situation. What it can do is help us think more carefully, identify hidden assumptions, expose inconsistencies in our reasoning, and understand the genuine difficulty of moral questions that resist easy answers. In a world of genuine moral complexity — of competing values, irreducible dilemmas, and legitimate disagreement — the capacity for careful ethical reasoning is one of the most important intellectual skills a person can develop."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "consequentialism",
+      "ru": "консеквенциализм",
+      "context": "Moral framework judging actions by their outcomes/consequences"
+    },
+    {
+      "phrase": "deontology",
+      "ru": "деонтология",
+      "context": "Moral framework judging actions by whether they conform to duties and rules"
+    },
+    {
+      "phrase": "virtue ethics",
+      "ru": "этика добродетели",
+      "context": "Moral framework focused on character and what kind of person to be"
+    },
+    {
+      "phrase": "categorical imperative",
+      "ru": "категорический императив",
+      "context": "Kant's moral law: act only on principles you could will to be universal laws"
+    },
+    {
+      "phrase": "practical wisdom",
+      "ru": "практическая мудрость",
+      "context": "Aristotle's concept of moral judgment that cannot be reduced to rules"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "consequentialism",
+      "ipa": "/kənˈsiːkwənʃəlɪzəm/",
+      "pos": "noun",
+      "ru": "консеквенциализм",
+      "kz": "консеквенциализм",
+      "emoji": "⚖️",
+      "definition": "the ethical theory that the moral value of an action is determined solely by its consequences",
+      "example": "\"Consequentialism judges actions by whether they produce good outcomes.\"",
+      "collocations": [
+        "consequentialist argument",
+        "strict consequentialism",
+        "utilitarian consequentialism"
+      ]
+    },
+    {
+      "en": "deontology",
+      "ipa": "/ˌdiːɒnˈtɒlədʒi/",
+      "pos": "noun",
+      "ru": "деонтология",
+      "kz": "деонтология",
+      "emoji": "📜",
+      "definition": "the ethical theory that the morality of an action depends on whether it follows moral rules or duties",
+      "example": "\"Deontology holds that lying is always wrong, regardless of its consequences.\"",
+      "collocations": [
+        "Kantian deontology",
+        "deontological constraint",
+        "deontological ethics"
+      ]
+    },
+    {
+      "en": "virtue",
+      "ipa": "/ˈvɜːtʃuː/",
+      "pos": "noun",
+      "ru": "добродетель",
+      "kz": "ізгілік",
+      "emoji": "⭐",
+      "definition": "a moral excellence of character; a disposition to think, feel, and act in morally admirable ways",
+      "example": "\"Virtue ethics asks what kind of person we should be, not just what we should do.\"",
+      "collocations": [
+        "moral virtue",
+        "develop a virtue",
+        "virtue and character"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is consequentialism and who are its most famous proponents?",
+      "correct": "The view that moral value is determined by consequences; Jeremy Bentham and John Stuart Mill"
+    },
+    {
+      "id": "t2",
+      "question": "What is Kant's categorical imperative?",
+      "correct": "Act only on principles that you could will to become universal laws"
+    },
+    {
+      "id": "t3",
+      "question": "What is the main question that virtue ethics asks?",
+      "correct": "\"What kind of person should I be?\" — focused on character rather than rules or consequences"
+    },
+    {
+      "id": "t4",
+      "question": "What is the main criticism of consequentialism mentioned in the text?",
+      "correct": "It can justify intuitively monstrous actions — e.g. torturing an innocent person if it would save many lives"
+    },
+    {
+      "id": "t5",
+      "question": "What does the text say a sophisticated ethical thinker does?",
+      "correct": "Uses all three frameworks as complementary tools rather than committing exclusively to one"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "The text says ethical reasoning only happens in academic contexts.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Deontology holds that what makes an action right is its consequences.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Virtue ethics originated in ancient Greek philosophy, especially Aristotle.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "The text concludes that philosophy can tell us definitively what to do in every moral situation.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Each of the three ethical frameworks captures genuine moral insights.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "According to consequentialism, what determines the moral value of an action?",
+      "opts": [
+        "Whether it follows a moral duty",
+        "The character of the person who performs it",
+        "Its consequences — whether it produces good outcomes",
+        "Whether it could be a universal law"
+      ],
+      "correct": "Its consequences — whether it produces good outcomes",
+      "hint": "Para 3: \"moral value of an action is determined entirely by its consequences\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"categorical imperative\"?",
+      "opts": [
+        "A consequentialist calculation method",
+        "The principle that we should act only on principles we could will to be universal laws",
+        "Aristotle's theory of practical wisdom",
+        "The obligation to calculate outcomes before acting"
+      ],
+      "correct": "The principle that we should act only on principles we could will to be universal laws",
+      "hint": "Para 4: \"act only on principles that we could will to become universal laws\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What makes virtue ethics distinctive?",
+      "opts": [
+        "Its focus on consequences of actions",
+        "Its emphasis on universal moral duties",
+        "Its focus on character — who we are, not just what we do",
+        "Its rejection of all moral reasoning"
+      ],
+      "correct": "Its focus on character — who we are, not just what we do",
+      "hint": "Para 5: \"what kind of person should I be?\" / focus on character",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the text say philosophy can do for ethical thinking?",
+      "opts": [
+        "Provide definitive answers to all moral questions",
+        "Eliminate moral disagreement between cultures",
+        "Help us think carefully, identify assumptions, and expose inconsistencies",
+        "Prove that one ethical framework is correct"
+      ],
+      "correct": "Help us think carefully, identify assumptions, and expose inconsistencies",
+      "hint": "Para 7: \"think more carefully, identify hidden assumptions, expose inconsistencies\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text says a sophisticated moral thinker should commit exclusively to one ethical framework.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 6: \"uses them as complementary tools\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "Deontology holds that there are actions that must not be done regardless of their consequences.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 4: \"things you must not do to a person regardless of the beneficial consequences\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Consequentialism is compelling. ___, it can justify actions that seem morally monstrous.\" (concession)",
+      "opts": [
+        "Furthermore",
+        "However",
+        "Therefore",
+        "Since"
+      ],
+      "correct": "However",
+      "hint": "\"However\" = contrast/concession — acknowledging what was just said, then countering it",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ consequentialism has genuine strengths, its critics raise serious objections.\" (concessive clause)",
+      "opts": [
+        "Because",
+        "Therefore",
+        "While",
+        "Unless"
+      ],
+      "correct": "While",
+      "hint": "\"While\" = even though/although (concessive)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Kant's argument is powerful. ___, its application can produce counterintuitive results.\" (contrasting addition)",
+      "correct": "Nevertheless / Nonetheless / That said",
+      "hint": "Concessive adverb acknowledging the strength before the counter",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Consequentialism\" judges actions by…",
+      "opts": [
+        "Who performed them",
+        "Their consequences and outcomes",
+        "Established moral rules",
+        "The character of the actor"
+      ],
+      "correct": "Their consequences and outcomes",
+      "hint": "Para 3: \"determined entirely by its consequences\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A \"virtue\" in Aristotelian ethics is…",
+      "opts": [
+        "A rule that must always be followed",
+        "A calculation of consequences",
+        "A stable disposition to think and act in morally excellent ways",
+        "A universal law that applies everywhere"
+      ],
+      "correct": "A stable disposition to think and act in morally excellent ways",
+      "hint": "Para 5: \"stable dispositions to think, feel, and act in morally excellent ways\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The ethical framework that asks \"what kind of person should I be?\" is called ___ ethics.",
+      "correct": "virtue",
+      "hint": "Para 5: \"virtue ethics\"",
+      "points": 1
+    }
+  ]
+}

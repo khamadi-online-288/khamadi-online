@@ -1,0 +1,554 @@
+{
+  "id": "l31-g2",
+  "moduleNum": 15,
+  "lessonNum": 3,
+  "moduleTitle": "Environment",
+  "type": "grammar",
+  "title": "Active vs Passive Sentences",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Active vs Passive — Comparison and Practice",
+  "grammarNote": "Активный или пассивный — как выбрать?\n\nАКТИВНЫЙ — когда деятель ВАЖЕН и ИЗВЕСТЕН:\n\"Neil Armstrong walked on the Moon in 1969.\" (Армстронг важен!)\n\"Professor Abenov teaches linguistics.\" (кто преподаёт важно)\n✅ Прямая, живая речь: \"I made a mistake.\" · \"She fixed the problem.\"\n\nПАССИВНЫЙ — когда деятель НЕИЗВЕСТЕН или НЕВАЖЕН:\n✅ \"The vase was broken.\" (Кто сломал? Неизвестно.)\n✅ \"The exam results were published.\" (Кто — очевидно: администрация)\n✅ \"Petrol is made from oil.\" (как делают важнее кто)\n\nФОРМАЛЬНЫЙ стиль — предпочтительно пассив:\n\"The samples were analysed using spectrometry.\"\n\"It was concluded that the method was effective.\"\n\n⚠️ Не злоупотребляй пассивом в разговоре!\nРазговор: \"Someone broke the window.\" (лучше)\nОфициально: \"The window was broken during the night.\" (ок)",
+  "grammarTable": [
+    {
+      "subject": "Tense",
+      "verb": "Active",
+      "short": "→ form",
+      "example": "Passive"
+    },
+    {
+      "subject": "Present simple",
+      "verb": "The club organises events.",
+      "short": "is/are + pp",
+      "example": "Events are organised by the club."
+    },
+    {
+      "subject": "Past simple",
+      "verb": "They built the stadium in 2010.",
+      "short": "was/were + pp",
+      "example": "The stadium was built in 2010."
+    },
+    {
+      "subject": "Present perfect",
+      "verb": "They have discovered a cure.",
+      "short": "has/have been+pp",
+      "example": "A cure has been discovered."
+    },
+    {
+      "subject": "Future",
+      "verb": "They will plant 500 trees.",
+      "short": "will be + pp",
+      "example": "500 trees will be planted."
+    },
+    {
+      "subject": "Present cont.",
+      "verb": "They are cleaning the river.",
+      "short": "is/are being+pp",
+      "example": "The river is being cleaned."
+    },
+    {
+      "subject": "Modal",
+      "verb": "We must recycle plastic.",
+      "short": "modal + be + pp",
+      "example": "Plastic must be recycled."
+    },
+    {
+      "subject": "When to use",
+      "verb": "Doer is important/known",
+      "short": "vs passive",
+      "example": "Result important; doer unknown/obvious"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Active vs Passive — choosing the right voice",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "A: Kamila wrote this blog post.",
+          "example": "P: This blog post was written by Kamila."
+        },
+        {
+          "form": "A: Scientists have found new evidence.",
+          "example": "P: New evidence has been found."
+        },
+        {
+          "form": "A: The factory makes 10,000 cars a year.",
+          "example": "P: 10,000 cars are made a year."
+        },
+        {
+          "form": "A: Nobody repaired the road.",
+          "example": "P: The road was not repaired."
+        },
+        {
+          "form": "A: They are building a new sports hall.",
+          "example": "P: A new sports hall is being built."
+        },
+        {
+          "form": "A: You must submit the form by Friday.",
+          "example": "P: The form must be submitted by Friday."
+        }
+      ]
+    },
+    {
+      "title": "Past passive (was/were + past participle)",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "The Aral Sea was affected by irrigation.",
+          "example": "was + affected"
+        },
+        {
+          "form": "These books were published last year.",
+          "example": "were + published"
+        },
+        {
+          "form": "The decision was made by the board.",
+          "example": "was + made"
+        },
+        {
+          "form": "Many species were endangered by pollution.",
+          "example": "were + endangered"
+        },
+        {
+          "form": "The new law was introduced in 2022.",
+          "example": "was + introduced"
+        },
+        {
+          "form": "The stadium was opened in 2019.",
+          "example": "was + opened"
+        }
+      ]
+    },
+    {
+      "title": "Future passive (will be + past participle)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "500 trees will be planted this spring.",
+          "example": "will be + planted"
+        },
+        {
+          "form": "The results will be announced tomorrow.",
+          "example": "will be + announced"
+        },
+        {
+          "form": "New policies will be introduced next year.",
+          "example": "will be + introduced"
+        },
+        {
+          "form": "The roads will be repaired in the summer.",
+          "example": "will be + repaired"
+        },
+        {
+          "form": "The event will be organised by students.",
+          "example": "will be + organised"
+        },
+        {
+          "form": "The winner will be selected by a jury.",
+          "example": "will be + selected"
+        }
+      ]
+    },
+    {
+      "title": "Modal passives (modal + be + past participle)",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "Plastic must be recycled whenever possible.",
+          "example": "must be + recycled"
+        },
+        {
+          "form": "Phones should not be used in exams.",
+          "example": "should not be + used"
+        },
+        {
+          "form": "The environment can be protected.",
+          "example": "can be + protected"
+        },
+        {
+          "form": "Reports have to be submitted on time.",
+          "example": "have to be + submitted"
+        },
+        {
+          "form": "The rules must be followed by all students.",
+          "example": "must be + followed"
+        },
+        {
+          "form": "Errors should be corrected before submission.",
+          "example": "should be + corrected"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Remember the passive forms across tenses: Present: is/are + pp | Past: was/were + pp | Future: will be + pp | Present Perfect: has/have been + pp | Modal: modal + be + pp. \"By + agent\" is optional — only add it when it's important to say WHO did the action.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Change to past passive.",
+      "text": "Change to passive: \"They discovered a new planet.\"",
+      "opts": [
+        "A new planet discovered.",
+        "A new planet was discovered.",
+        "A new planet is discovered.",
+        "They discovered a planet was."
+      ],
+      "correct": "A new planet was discovered.",
+      "hint": "Past passive: \"A new planet\" = new subject; \"was discovered\" = past passive."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Use past passive.",
+      "text": "The new library ___ (open) in 2021.",
+      "correct": "was opened",
+      "hint": "Past passive: was + opened."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Change to future passive.",
+      "text": "Change to passive: \"They will announce the results tomorrow.\"",
+      "opts": [
+        "The results are announced tomorrow.",
+        "The results will be announced tomorrow.",
+        "The results are being announced.",
+        "The results announced tomorrow."
+      ],
+      "correct": "The results will be announced tomorrow.",
+      "hint": "Future passive: will be + announced."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Use modal passive.",
+      "text": "Phones ___ (must not use) during the exam.",
+      "correct": "must not be used",
+      "hint": "Modal negative passive: must not be + used."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Identify the passive tense.",
+      "text": "\"A cure has been discovered\" — what tense is this?",
+      "opts": [
+        "Past simple passive",
+        "Present simple passive",
+        "Present perfect passive",
+        "Future passive"
+      ],
+      "correct": "Present perfect passive",
+      "hint": "has/have been + past participle = present perfect passive."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The report was write by Kamila\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Must use past participle: \"The report was written by Kamila.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Use future passive.",
+      "text": "The roads ___ (repair) next summer.",
+      "correct": "will be repaired",
+      "hint": "Future passive: will be + repaired."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the passive sentence.",
+      "text": "Which sentence is in the passive?",
+      "opts": [
+        "She teaches English at WKU.",
+        "English is taught at WKU.",
+        "English teaching is important.",
+        "She is an English teacher."
+      ],
+      "correct": "English is taught at WKU.",
+      "hint": "\"is taught\" = passive form (is + past participle)."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Change to present continuous passive.",
+      "text": "Change to passive: \"They are building a new gym.\"",
+      "opts": [
+        "A new gym is building.",
+        "A new gym is been built.",
+        "A new gym is being built.",
+        "A new gym builds."
+      ],
+      "correct": "A new gym is being built.",
+      "hint": "Present continuous passive: is/are being + past participle."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Use modal passive.",
+      "text": "Reports ___ (must submit) before the deadline.",
+      "correct": "must be submitted",
+      "hint": "Modal passive: must be + submitted."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the most appropriate context.",
+      "text": "Passive is especially common in:",
+      "opts": [
+        "Casual spoken English",
+        "Scientific writing and formal reports",
+        "Personal letters and texts",
+        "Jokes and informal stories"
+      ],
+      "correct": "Scientific writing and formal reports",
+      "hint": "Passive is typical in formal, academic, and scientific contexts."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Plastic must be recycled\" is a modal passive.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"must be recycled\" = modal + be + past participle = modal passive ✅."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Past passive form is:",
+      "opts": [
+        "is/are + past participle",
+        "will be + past participle",
+        "was/were + past participle",
+        "has been + past participle"
+      ],
+      "correct": "was/were + past participle",
+      "hint": "Past passive: was/were + past participle."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The stadium ___ (build) in 2010.",
+      "correct": "was built",
+      "hint": "Past passive: was + built."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Future passive form is:",
+      "opts": [
+        "is/are + past participle",
+        "will be + past participle",
+        "was/were + past participle",
+        "would + past participle"
+      ],
+      "correct": "will be + past participle",
+      "hint": "Future passive: will be + past participle."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"500 trees will be plant next spring\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"500 trees will be planted next spring.\" (past participle = planted)"
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The results ___ (announce) by the university next week.",
+      "correct": "will be announced",
+      "hint": "Future passive: will be + announced."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"A cure has been discovered\" is:",
+      "opts": [
+        "Present simple passive",
+        "Past simple passive",
+        "Present perfect passive",
+        "Future passive"
+      ],
+      "correct": "Present perfect passive",
+      "hint": "has/have been + past participle = present perfect passive."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "English ___ (must learn) by all students at WKU.",
+      "correct": "must be learned",
+      "hint": "Modal passive: must be + learned."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Change to passive: \"They are repairing the road.\"",
+      "opts": [
+        "The road is repairing.",
+        "The road is being repaired.",
+        "The road has been repaired.",
+        "The road was repaired."
+      ],
+      "correct": "The road is being repaired.",
+      "hint": "Present continuous passive: is/are being + past participle."
+    },
+    {
+      "id": "q9",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"By + agent\" must always be included in a passive sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"By + agent\" is optional. Only include it when it adds important information."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "These books ___ (publish) by a Kazakh author in 2022.",
+      "correct": "were published",
+      "hint": "Past passive: were + published."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Why did Rustam join the Eco Club?",
+      "opts": [
+        "Because Zhibek invited him",
+        "After seeing a documentary about plastic pollution",
+        "Because it was compulsory",
+        "Because Kamila asked him"
+      ],
+      "correct": "After seeing a documentary about plastic pollution",
+      "hint": "Statement 2: \"He decided to join the Eco Club after seeing a documentary about plastic pollution.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Kamila interested in organising?",
+      "opts": [
+        "A tree-planting event",
+        "A recycling station near the dormitory",
+        "A clean-up day near the river",
+        "A documentary screening"
+      ],
+      "correct": "A recycling station near the dormitory",
+      "hint": "Statement 3: \"She is interested in organising a recycling station near the dormitory.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek says trees are planted every autumn by the Eco Club.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 4: \"trees are planted every spring\" — not autumn."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Glacier\" is:",
+      "opts": [
+        "A type of fossil fuel",
+        "A large body of ice that moves slowly",
+        "A renewable energy source",
+        "A pollutant in rivers"
+      ],
+      "correct": "A large body of ice that moves slowly",
+      "hint": "\"Glacier\" = a large mass of ice formed from compacted snow, moving slowly over land."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "Coal and oil are examples of fossil ___.",
+      "correct": "fuels",
+      "hint": "\"Fossil fuels\" = energy sources formed from ancient organisms: coal, oil, natural gas."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Recycle\" means:",
+      "opts": [
+        "To throw away waste material",
+        "To process used materials to make new products",
+        "To reduce your energy usage",
+        "To plant new trees"
+      ],
+      "correct": "To process used materials to make new products",
+      "hint": "\"Recycle\" = to convert waste into reusable material."
+    }
+  ]
+}

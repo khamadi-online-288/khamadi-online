@@ -1,0 +1,380 @@
+{
+  "id": "l57-5",
+  "moduleNum": 23,
+  "lessonNum": 8,
+  "moduleTitle": "Linking Ideas",
+  "type": "test",
+  "title": "Module 23 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main function of linking words in academic writing?",
+      "opts": [
+        "Decoration",
+        "Signal relationships between ideas",
+        "Make text longer",
+        "Show vocabulary"
+      ],
+      "correct": "Signal relationships between ideas",
+      "hint": "\"Linking words signal relationships between ideas.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is using \"therefore\" for a merely associative connection an error?",
+      "opts": [
+        "It's grammatically wrong",
+        "It claims cause-effect when there is none — weakens credibility",
+        "It is too informal",
+        "It is only for contrast"
+      ],
+      "correct": "It claims cause-effect when there is none — weakens credibility",
+      "hint": "\"Using 'therefore' when a connection is merely associative weakens an argument's credibility.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the \"concession\" technique in persuasive writing?",
+      "opts": [
+        "Giving evidence",
+        "Acknowledging objections before the reader raises them",
+        "Using emotional words",
+        "Repeating key points"
+      ],
+      "correct": "Acknowledging objections before the reader raises them",
+      "hint": "\"Good persuasive writers anticipate objections and address them before the reader can raise them.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Emotional appeals are always dishonest in persuasive writing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Emotion is a legitimate part of human reasoning.\" — emotional appeals become problematic only as a substitute for evidence."
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Good academic writing uses linking words ___ — only when they add meaning.",
+      "correct": "purposefully",
+      "hint": "\"Use linking words PURPOSEFULLY: when the relationship between ideas is not obvious.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say about \"connotation\"?",
+      "opts": [
+        "It means the dictionary definition",
+        "It's only for adjectives",
+        "Words carry associations and feelings beyond their literal meaning",
+        "It's a type of grammar rule"
+      ],
+      "correct": "Words carry associations and feelings beyond their literal meaning",
+      "hint": "\"Words chosen carefully for their connotations — the associations and feelings they carry beyond their literal meaning.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila's first argument for free university education?",
+      "opts": [
+        "Universities need funding",
+        "Education is a public good — society benefits",
+        "Other countries do it",
+        "Students can't afford it"
+      ],
+      "correct": "Education is a public good — society benefits",
+      "hint": "\"Education is a public good. When citizens are educated, the whole society benefits. Therefore, it should be funded publicly.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say about graduates and taxes?",
+      "opts": [
+        "Graduates avoid taxes",
+        "They pay less than non-graduates",
+        "Higher earnings → more tax → state gets return on investment",
+        "Tax is irrelevant"
+      ],
+      "correct": "Higher earnings → more tax → state gets return on investment",
+      "hint": "\"Higher earnings... higher tax contributions... Consequently, the state does receive a return on its investment.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's alternative to free education?",
+      "opts": [
+        "Reduce university fees by 50%",
+        "Make all education free",
+        "Targeted scholarships for low-income students",
+        "Ban university fees"
+      ],
+      "correct": "Targeted scholarships for low-income students",
+      "hint": "\"Targeted scholarships and grants for low-income students are a more cost-effective solution.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say is wrong with means-testing?",
+      "opts": [
+        "It doesn't exist",
+        "It's too cheap",
+        "It creates bureaucracy and stigma",
+        "It helps everyone equally"
+      ],
+      "correct": "It creates bureaucracy and stigma",
+      "hint": "\"Means-testing creates bureaucracy and stigma.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila uses \"___ \" to show that wealthier students can absorb costs but poorer students cannot.",
+      "correct": "Although",
+      "hint": "\"ALTHOUGH wealthier students can absorb this cost, poorer students often cannot.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which linker does Amir use to acknowledge Kamila's points while disagreeing?",
+      "opts": [
+        "Furthermore",
+        "Therefore",
+        "Nevertheless",
+        "Despite"
+      ],
+      "correct": "Nevertheless",
+      "hint": "\"Kamila makes some compelling points. NEVERTHELESS, I believe free education is not the most effective use of funds.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Although\" is followed by:",
+      "opts": [
+        "A noun phrase",
+        "A gerund",
+        "A full clause (subject + verb)",
+        "A new sentence"
+      ],
+      "correct": "A full clause (subject + verb)",
+      "hint": "\"although\" + FULL CLAUSE with subject and verb. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Despite\" is followed by:",
+      "opts": [
+        "A full clause",
+        "A gerund or noun phrase",
+        "A comma and new sentence",
+        "An adjective"
+      ],
+      "correct": "A gerund or noun phrase",
+      "hint": "\"despite\" + NOUN or GERUND (NOT a full clause). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ the cost, it is worth it.\" (no clause, preposition + noun)",
+      "correct": "Despite",
+      "hint": "\"DESPITE the cost\" — noun (no verb) → \"despite.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"However\" needs:",
+      "opts": [
+        "Nothing special",
+        "A comma before it only",
+        "A period or semicolon before; a comma after",
+        "A conjunction"
+      ],
+      "correct": "A period or semicolon before; a comma after",
+      "hint": "\"The cost is high. HOWEVER, it is worth it.\" / \"...; however, it is worth it.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Furthermore\" is a marker of:",
+      "opts": [
+        "Contrast",
+        "Addition",
+        "Result",
+        "Example"
+      ],
+      "correct": "Addition",
+      "hint": "\"Furthermore\" ADDS a further point. Addition marker. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Therefore\" signals:",
+      "opts": [
+        "Addition",
+        "Contrast",
+        "Logical consequence",
+        "Example"
+      ],
+      "correct": "Logical consequence",
+      "hint": "\"Therefore\" = A proves/leads to B. Logical consequence. ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The factory flooded. ___, the experiment was cancelled.\"",
+      "correct": "As a result / Consequently",
+      "hint": "\"AS A RESULT / CONSEQUENTLY\" — the flooding caused the cancellation. ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Despite of the cost\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Of\" should be removed",
+        "\"Despite\" should be \"although\"",
+        "\"Cost\" needs \"the\""
+      ],
+      "correct": "\"Of\" should be removed",
+      "hint": "✅ \"DESPITE the cost.\" NEVER \"despite of.\" \"In spite OF\" ✅ but not \"despite of.\""
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A causal relationship.\" \"Causal\" means:",
+      "opts": [
+        "Time-based",
+        "Random",
+        "Cause-and-effect",
+        "Logical"
+      ],
+      "correct": "Cause-and-effect",
+      "hint": "\"causal\" = relating to cause and effect; one thing causes the other."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The writing feels mechanical.\" \"Mechanical\" means:",
+      "opts": [
+        "Detailed",
+        "Following patterns without real thought",
+        "Very formal",
+        "Very long"
+      ],
+      "correct": "Following patterns without real thought",
+      "hint": "\"mechanical\" = routine, without genuine thought or analysis."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Emotion is a legitimate part of reasoning.\" \"Legitimate\" means:",
+      "opts": [
+        "Illegal",
+        "Formal",
+        "Valid and acceptable",
+        "Informal"
+      ],
+      "correct": "Valid and acceptable",
+      "hint": "\"legitimate\" = valid; acceptable; conforming to rules."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The text acknowledges complexity.\" \"Acknowledges\" means:",
+      "opts": [
+        "Ignores",
+        "Accepts and admits the truth of",
+        "Rejects",
+        "Simplifies"
+      ],
+      "correct": "Accepts and admits the truth of",
+      "hint": "\"acknowledge\" = to accept or admit something is true, even if you disagree with it."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Use connectors purposefully.\" \"Purposefully\" means:",
+      "opts": [
+        "Randomly",
+        "All the time",
+        "With clear intention and reason",
+        "Rarely"
+      ],
+      "correct": "With clear intention and reason",
+      "hint": "\"purposefully\" = deliberately; with a clear purpose and reason."
+    }
+  ]
+}

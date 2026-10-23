@@ -1,0 +1,486 @@
+{
+  "id": "l46-2",
+  "moduleNum": 12,
+  "lessonNum": 2,
+  "moduleTitle": "Saying What They Said",
+  "type": "listening",
+  "title": "Reporting a Conversation",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Rustam, did you see Professor Aidarov after the lecture? I heard he spoke to you.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Yes — he stopped me in the corridor. He said he'd enjoyed my question about purism.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What question did you ask?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I asked him whether he thought language purism was possible in a globalised world. He said it probably wasn't, but that the impulse behind it was understandable.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That's interesting. Did he say anything else?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He told me to come to his office hours if I wanted to discuss it more. He said he was researching the same topic for a new paper.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Are you going to go?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I think so. He also mentioned that the linguistics department was looking for student research assistants next semester.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Really? Did he say what they would be working on?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He said they would be helping with a project on language contact in western Kazakhstan. He asked whether any of us were interested.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Did he say who to contact if we were?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He told me to email Dr Serikova in the research office. He said the deadline for applications was the end of the month.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That's soon. I'm going to apply. I love the idea of research on Kazakh language contact.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Me too. He told me the positions were competitive but that student applications were very welcome.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What did he say about the selection criteria?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He said they were looking for students with curiosity and commitment — not necessarily those with the highest grades.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "purism",
+      "emoji": "🏛️",
+      "opts": [
+        "заимствование",
+        "пуризм",
+        "диалект",
+        "грамматика"
+      ],
+      "correct": "пуризм"
+    },
+    {
+      "id": "p2",
+      "word": "globalised",
+      "emoji": "🌐",
+      "opts": [
+        "местный",
+        "глобализированный",
+        "традиционный",
+        "исторический"
+      ],
+      "correct": "глобализированный"
+    },
+    {
+      "id": "p3",
+      "word": "impulse",
+      "emoji": "⚡",
+      "opts": [
+        "результат",
+        "порыв / импульс",
+        "решение",
+        "план"
+      ],
+      "correct": "порыв / импульс"
+    },
+    {
+      "id": "p4",
+      "word": "competitive",
+      "emoji": "🏆",
+      "opts": [
+        "простой",
+        "конкурентный",
+        "необязательный",
+        "открытый"
+      ],
+      "correct": "конкурентный"
+    },
+    {
+      "id": "p5",
+      "word": "commitment",
+      "emoji": "🔒",
+      "opts": [
+        "сомнение",
+        "преданность / обязательство",
+        "энтузиазм",
+        "интерес"
+      ],
+      "correct": "преданность / обязательство"
+    },
+    {
+      "id": "p6",
+      "word": "criteria",
+      "emoji": "📋",
+      "opts": [
+        "результаты",
+        "критерии",
+        "методы",
+        "правила"
+      ],
+      "correct": "критерии"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Professor Aidarov said he had enjoyed Rustam's question about purism.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Aidarov said language purism was definitely possible in a globalised world.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Aidarov invited Rustam to his office hours to discuss the topic further.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The research project is about language contact in eastern Kazakhstan.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam said students should email Dr Serikova to apply.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Aidarov said they were only looking for students with the highest grades.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🔍",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Asks Rustam what Professor Aidarov said to him"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "📋",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Reports what Professor Aidarov said — practising reported speech"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Said Professor Aidarov told him he'd enjoyed his question about purism.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "Asks whether Rustam is going to visit Aidarov's office hours.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "Reported that the department needed research assistants for a language contact project.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Says she will apply — loves the idea of research on Kazakh language contact.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s5",
+      "text": "Reported that Aidarov said the deadline was the end of the month.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Reported that Aidarov said they wanted curiosity and commitment, not just high grades.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Professor Aidarov tell Rustam about his question?",
+      "opts": [
+        "It was wrong",
+        "He'd enjoyed it",
+        "It was too simple",
+        "He'd heard it before"
+      ],
+      "correct": "He'd enjoyed it",
+      "hint": "\"He said he'd enjoyed my question about purism.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Rustam's question to Professor Aidarov?",
+      "opts": [
+        "About Aitmatov",
+        "About language purism in a globalised world",
+        "About endangered languages",
+        "About research methods"
+      ],
+      "correct": "About language purism in a globalised world",
+      "hint": "\"I asked him whether he thought language purism was possible in a globalised world.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Aidarov say about purism?",
+      "opts": [
+        "It was definitely possible",
+        "It was probably not possible, but the impulse was understandable",
+        "It was unnecessary",
+        "It was important in Kazakhstan"
+      ],
+      "correct": "It was probably not possible, but the impulse was understandable",
+      "hint": "\"He said it probably wasn't, but that the impulse behind it was understandable.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Aidarov told Rustam to email ___ to apply for the research position.",
+      "correct": "Dr Serikova",
+      "hint": "\"He told me to email Dr Serikova in the research office.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the research project about?",
+      "opts": [
+        "Grammar in schools",
+        "Language contact in western Kazakhstan",
+        "Aitmatov's writing",
+        "Bilingual education"
+      ],
+      "correct": "Language contact in western Kazakhstan",
+      "hint": "\"a project on language contact in western Kazakhstan\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What selection criteria did Aidarov mention?",
+      "opts": [
+        "The highest grades",
+        "Years of experience",
+        "Curiosity and commitment",
+        "Research publications"
+      ],
+      "correct": "Curiosity and commitment",
+      "hint": "\"they were looking for students with curiosity and commitment — not necessarily those with the highest grades.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek plans to apply for the research assistant position.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I'm going to apply. I love the idea of research on Kazakh language contact.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When is the deadline for applications?",
+      "opts": [
+        "Next week",
+        "Next semester",
+        "The end of the month",
+        "After the exam period"
+      ],
+      "correct": "The end of the month",
+      "hint": "\"the deadline for applications was the end of the month.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He said he'd enjoyed my question.\" \"Had enjoyed\" is used because:",
+      "opts": [
+        "It's Past Perfect",
+        "In reported speech, present → past; so \"has enjoyed\" → \"had enjoyed\"",
+        "He enjoyed it in the past",
+        "\"Had\" is always used after \"said\""
+      ],
+      "correct": "In reported speech, present → past; so \"has enjoyed\" → \"had enjoyed\"",
+      "hint": "Reported speech tense backshift: \"He HAS enjoyed\" → \"He SAID he HAD enjoyed.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He told me to email Dr Serikova.\" — This is:",
+      "opts": [
+        "A reported statement",
+        "A reported command/request",
+        "A reported question",
+        "A direct quote"
+      ],
+      "correct": "A reported command/request",
+      "hint": "\"told + person + to + infinitive\" = reported command/request. \"He TOLD ME TO EMAIL Dr Serikova.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He said they ___ (look for) students with curiosity.\" (reported speech)",
+      "correct": "were looking for",
+      "hint": "Reported speech backshift: \"are looking for\" → \"were looking for\". \"He said they WERE LOOKING FOR students.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He said the deadline ___ the end of the month.\" Choose the correct form.",
+      "opts": [
+        "is",
+        "will be",
+        "was",
+        "are"
+      ],
+      "correct": "was",
+      "hint": "Reported speech: \"is\" → \"was\". \"He said the deadline WAS the end of the month.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I asked him whether he thought purism was possible.\" — This is:",
+      "opts": [
+        "Reported statement",
+        "Reported command",
+        "Reported yes/no question",
+        "Reported wh-question"
+      ],
+      "correct": "Reported yes/no question",
+      "hint": "\"whether\" introduces a reported yes/no question. \"I asked him WHETHER he thought...\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He asked whether any of us were interested.\" — Direct form was:",
+      "opts": [
+        "\"Are any of you interested?\"",
+        "\"Were any of you interested?\"",
+        "\"Would any of you be interested?\"",
+        "\"Who is interested?\""
+      ],
+      "correct": "\"Are any of you interested?\"",
+      "hint": "Backshift: \"Are\" → \"were\". Direct: \"Are any of you interested?\" → Reported: \"He asked whether any of us WERE interested.\""
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She said she ___ (apply) for the position.\" (reported speech)",
+      "correct": "was going to apply",
+      "hint": "\"going to apply\" → reported: \"was going to apply\". \"She said she WAS GOING TO APPLY.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He told me the positions ___ competitive.\" What tense?",
+      "opts": [
+        "are",
+        "were",
+        "will be",
+        "have been"
+      ],
+      "correct": "were",
+      "hint": "Reported speech: \"are\" → \"were\". \"He told me the positions WERE competitive.\" ✅"
+    }
+  ]
+}

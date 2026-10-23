@@ -1,0 +1,502 @@
+{
+  "id": "l21-3",
+  "moduleNum": 5,
+  "lessonNum": 3,
+  "moduleTitle": "Technology & Communication",
+  "title": "Tech support call",
+  "type": "listening",
+  "xp": 60,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Support",
+      "text": "WKU IT Help Desk, good morning. You're speaking with Daniyar. How can I help you today?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Oh thank goodness! I've been trying to call for twenty minutes. My laptop stopped working completely and I need to submit my programming assignment in two hours!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "I understand — that sounds very stressful. Let's try to fix it together. First, can you tell me what exactly is happening?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "The screen just went black. No warning, nothing. I can hear it running but the display is completely dead.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "OK. First, try pressing and holding the power button for ten seconds to force a restart. Do that now, please.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Done... the screen is flickering a bit. Wait — something is happening! I can see the desktop background now.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "Great! Now, before you do anything else, immediately save all your work to a cloud service — Google Drive or OneDrive.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I'm doing it now... uploading to Google Drive. OK, it's saved. What was the problem?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "Probably a graphics driver crash. It often happens after a Windows update. Now, do you have a stable internet connection?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That's the other problem! My Wi-Fi keeps disconnecting every few minutes. I need it for the submission portal.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "Try this: forget the current Wi-Fi network, then reconnect. Sometimes the IP address conflicts. Can you do that?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Just a second... OK, I've forgotten the network and reconnected. The connection seems more stable now!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "Perfect. If it disconnects again, use your phone as a mobile hotspot as a backup — that's the safest option for submissions.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Brilliant idea! I didn't think of that. You've saved my academic career today, Daniyar!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Support",
+      "text": "Happy to help! One more thing — I'd recommend visiting the IT office this week to update your graphics driver properly.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I will, I promise. Thank you so much — you're literally a lifesaver!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "flickering",
+      "emoji": "📺",
+      "opts": [
+        "светящийся",
+        "мерцающий",
+        "тёмный",
+        "сломанный"
+      ],
+      "correct": "мерцающий"
+    },
+    {
+      "id": "p2",
+      "word": "submit",
+      "emoji": "📤",
+      "opts": [
+        "скачать",
+        "отправить/сдать",
+        "удалить",
+        "распечатать"
+      ],
+      "correct": "отправить/сдать"
+    },
+    {
+      "id": "p3",
+      "word": "stable",
+      "emoji": "📶",
+      "opts": [
+        "медленный",
+        "нестабильный",
+        "стабильный",
+        "отключённый"
+      ],
+      "correct": "стабильный"
+    },
+    {
+      "id": "p4",
+      "word": "hotspot",
+      "emoji": "📡",
+      "opts": [
+        "точка доступа",
+        "кабель",
+        "роутер",
+        "USB-порт"
+      ],
+      "correct": "точка доступа"
+    },
+    {
+      "id": "p5",
+      "word": "graphics driver",
+      "emoji": "💻",
+      "opts": [
+        "программа вирусной защиты",
+        "драйвер видеокарты",
+        "системное обновление",
+        "интернет-провайдер"
+      ],
+      "correct": "драйвер видеокарты"
+    },
+    {
+      "id": "p6",
+      "word": "conflict",
+      "emoji": "⚡",
+      "opts": [
+        "соединение",
+        "конфликт/несовместимость",
+        "ошибка",
+        "задержка"
+      ],
+      "correct": "конфликт/несовместимость"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam's laptop screen went completely black.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The IT support person's name is Amir.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The support agent tells Rustam to restart the laptop by pressing the power button for 10 seconds.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam saves his work to OneDrive.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam also has a problem with his Wi-Fi connection.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The support agent suggests using a mobile hotspot as a backup.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "😱",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "role": "Student — laptop broken!"
+    },
+    {
+      "id": "support",
+      "name": "Daniyar",
+      "city": "WKU",
+      "emoji": "🧑‍💻",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "role": "IT Help Desk support"
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "city": "—",
+      "emoji": "💻",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "The source of the problem"
+    },
+    {
+      "id": "wifi",
+      "name": "Wi-Fi",
+      "city": "—",
+      "emoji": "📶",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "Problem #2!"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"My screen just went black and I have an assignment due in 2 hours!\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "\"Press and hold the power button for 10 seconds to force a restart.\"",
+      "correctCharId": "support"
+    },
+    {
+      "id": "s3",
+      "text": "\"Save everything to Google Drive before you do anything else!\"",
+      "correctCharId": "support"
+    },
+    {
+      "id": "s4",
+      "text": "\"My Wi-Fi keeps disconnecting every few minutes.\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "\"Use your phone as a mobile hotspot — safest option for submissions.\"",
+      "correctCharId": "support"
+    },
+    {
+      "id": "s6",
+      "text": "Crashed due to a graphics driver issue after a Windows update.",
+      "correctCharId": "laptop"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is Rustam calling IT support?",
+      "opts": [
+        "He forgot his password",
+        "His laptop screen went black before an assignment deadline",
+        "His phone broke",
+        "He can't log into the portal"
+      ],
+      "correct": "His laptop screen went black before an assignment deadline",
+      "hint": "\"My laptop stopped working and I need to submit my programming assignment in two hours!\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the support agent's name?",
+      "opts": [
+        "Amir",
+        "Rustam",
+        "Daniyar",
+        "Bekzat"
+      ],
+      "correct": "Daniyar",
+      "hint": "\"You're speaking with Daniyar.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the support agent ask Rustam to do first?",
+      "opts": [
+        "Restart the router",
+        "Press and hold power for 10 seconds",
+        "Call a technician",
+        "Reinstall Windows"
+      ],
+      "correct": "Press and hold power for 10 seconds",
+      "hint": "\"try pressing and holding the power button for ten seconds\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam saves his work to OneDrive.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"uploading to Google Drive\" — he used Google Drive, not OneDrive."
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What probably caused the laptop problem?",
+      "opts": [
+        "A virus",
+        "A broken screen",
+        "A graphics driver crash after a Windows update",
+        "Overheating"
+      ],
+      "correct": "A graphics driver crash after a Windows update",
+      "hint": "\"Probably a graphics driver crash. It often happens after a Windows update.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Rustam's second problem?",
+      "opts": [
+        "His keyboard is broken",
+        "His Wi-Fi keeps disconnecting",
+        "He forgot his password",
+        "The submission portal is down"
+      ],
+      "correct": "His Wi-Fi keeps disconnecting",
+      "hint": "\"My Wi-Fi keeps disconnecting every few minutes.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the support agent suggest for the Wi-Fi problem?",
+      "opts": [
+        "Buy a new router",
+        "Call the internet provider",
+        "Forget the network and reconnect",
+        "Use an ethernet cable"
+      ],
+      "correct": "Forget the network and reconnect",
+      "hint": "\"forget the current Wi-Fi network, then reconnect\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The support agent suggests using a mobile hotspot as a backup.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"use your phone as a mobile hotspot as a backup\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the support agent recommend Rustam do later that week?",
+      "opts": [
+        "Buy a new laptop",
+        "Visit the IT office to update the graphics driver",
+        "Switch to Mac",
+        "Install an antivirus"
+      ],
+      "correct": "Visit the IT office to update the graphics driver",
+      "hint": "\"visiting the IT office this week to update your graphics driver properly\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long had Rustam been trying to call before he got through?",
+      "opts": [
+        "5 minutes",
+        "10 minutes",
+        "20 minutes",
+        "30 minutes"
+      ],
+      "correct": "20 minutes",
+      "hint": "\"I've been trying to call for twenty minutes.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ need to submit my assignment in two hours!",
+      "correct": "need to",
+      "hint": "need to + verb = urgent necessity."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I want ___ save my work before anything else.\"",
+      "opts": [
+        "save",
+        "to save",
+        "saving",
+        "saved"
+      ],
+      "correct": "to save",
+      "hint": "want + to + infinitive: I want to save."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ use his phone as a backup.\"",
+      "opts": [
+        "decide",
+        "decided to",
+        "deciding",
+        "is decide"
+      ],
+      "correct": "decided to",
+      "hint": "decide + to + infinitive (past): He decided to use his phone."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I plan ___ visit the IT office this week.",
+      "correct": "to",
+      "hint": "plan + to + infinitive: I plan to visit."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"submit\" mean in an academic context?",
+      "opts": [
+        "Download",
+        "Delete",
+        "Hand in / send your work",
+        "Edit"
+      ],
+      "correct": "Hand in / send your work",
+      "hint": "Submit = to hand in or send your assignment."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "Use your phone as a mobile ___ if your Wi-Fi fails.",
+      "correct": "hotspot",
+      "hint": "Mobile hotspot = sharing your phone's internet connection."
+    }
+  ]
+}

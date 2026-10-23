@@ -1,0 +1,638 @@
+{
+  "id": "l63-g1",
+  "moduleNum": 5,
+  "lessonNum": 5,
+  "moduleTitle": "Modal Verbs: Deduction & Advice",
+  "type": "grammar",
+  "title": "Modal Deduction: Present and Past",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Modal Verbs for Deduction — Present and Past",
+  "grammarNote": "Модальные глаголы дедукции позволяют выражать уверенность в выводе на основе улик или доказательств. На B1 уровне важно понимать три уровня уверенности (must / might-may-could / can't) и уметь применять их как для настоящего, так и для прошлого через perfect infinitive.",
+  "grammarTable": [
+    {
+      "subject": "PRESENT: must be",
+      "verb": "+ adjective/noun/verb-ing",
+      "short": "~95% certain (positive)",
+      "example": "\"She must be tired.\" / \"He must know about it.\" / \"You must be joking.\""
+    },
+    {
+      "subject": "PRESENT: might/may/could be",
+      "verb": "+ adj/noun/verb-ing",
+      "short": "~50% possible",
+      "example": "\"She might be at home.\" / \"He could be right.\" / \"They may be coming.\""
+    },
+    {
+      "subject": "PRESENT: can't be",
+      "verb": "+ adj/noun/verb-ing",
+      "short": "~95% certain (negative)",
+      "example": "\"He can't be serious!\" / \"She can't be home — her car is gone.\""
+    },
+    {
+      "subject": "PAST: must have + pp",
+      "verb": "high certainty about past",
+      "short": "~95% (positive past)",
+      "example": "\"She must have left already.\" / \"He must have been exhausted.\""
+    },
+    {
+      "subject": "PAST: might/could have + pp",
+      "verb": "possible past",
+      "short": "~50% possible past",
+      "example": "\"She might have missed the bus.\" / \"He could have overslept.\""
+    },
+    {
+      "subject": "PAST: can't/couldn't have + pp",
+      "verb": "near-impossible past",
+      "short": "~95% (negative past)",
+      "example": "\"He can't have written this.\" / \"She couldn't have finished already.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Present deduction — the certainty scale",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "must be = almost certain (positive)",
+          "example": "\"She must be tired — she's been working for 12 hours.\" (evidence forces conclusion) ✅"
+        },
+        {
+          "form": "might/may/could be = possible",
+          "example": "\"He might be at the library. Or he could be in a lecture.\" (possibility, not certain) ✅"
+        },
+        {
+          "form": "can't be = almost certain (negative)",
+          "example": "\"She can't be the manager — she started this week!\" (evidence makes it almost impossible) ✅"
+        },
+        {
+          "form": "must be ≠ have to be (different uses)",
+          "example": "\"You must be Amir!\" (deduction about identity) ✅ vs \"You have to be here by 9.\" (obligation) ✅"
+        },
+        {
+          "form": "may = more formal than might",
+          "example": "\"The results may indicate X.\" (formal writing) ≈ \"The results might indicate X.\" (informal) ✅"
+        },
+        {
+          "form": "could = uncertainty/tentative deduction",
+          "example": "\"He could be right, but I'm not sure.\" (tentative) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Past deduction — perfect infinitive",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "must have + pp = almost certain (positive)",
+          "example": "\"She must have left before us — the door was already locked.\" ✅"
+        },
+        {
+          "form": "might have + pp = possible past",
+          "example": "\"He might have missed the announcement — he was away.\" ✅"
+        },
+        {
+          "form": "could have + pp = possible past",
+          "example": "\"She could have forgotten — she has a lot on her mind.\" ✅"
+        },
+        {
+          "form": "can't have + pp = almost impossible past",
+          "example": "\"He can't have finished the whole report — he started it at 9.\" ✅"
+        },
+        {
+          "form": "couldn't have + pp = same as can't have",
+          "example": "\"She couldn't have known about it — the information wasn't available.\" ✅"
+        },
+        {
+          "form": "must have been + V-ing = continuous past",
+          "example": "\"She must have been waiting for a long time — she looked exhausted.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Continuous deduction — what was happening",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "must be + V-ing (present)",
+          "example": "\"She must be sleeping — all the lights are off.\" ✅"
+        },
+        {
+          "form": "might be + V-ing (present)",
+          "example": "\"He might be waiting outside — I didn't see him in the room.\" ✅"
+        },
+        {
+          "form": "must have been + V-ing (past)",
+          "example": "\"She must have been studying all night — she knows everything.\" ✅"
+        },
+        {
+          "form": "might have been + V-ing (past)",
+          "example": "\"He might have been trying to contact you — check your missed calls.\" ✅"
+        },
+        {
+          "form": "can't have been + V-ing (past negative)",
+          "example": "\"He can't have been sleeping — I heard him moving around.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common deduction modal errors",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"She must have forgot.\" (irregular pp)",
+          "example": "✅ \"She must have FORGOTTEN.\" — must have + past PARTICIPLE. \"Forgot\" = past simple. ✅"
+        },
+        {
+          "form": "✗ \"She must to be tired.\" (wrong form)",
+          "example": "✅ \"She MUST BE tired.\" — modal + base form. NEVER \"must to be.\" ✅"
+        },
+        {
+          "form": "✗ \"He couldn't have knew.\" (irregular)",
+          "example": "✅ \"He couldn't have KNOWN.\" — past participle of \"know\" = \"known.\" ✅"
+        },
+        {
+          "form": "✗ \"She must have been know.\"",
+          "example": "✅ \"She must have KNOWN.\" (simple perfect) OR \"must have been knowing.\" ✗ → \"must have been aware.\" ✅"
+        },
+        {
+          "form": "✗ Using \"must\" for obligation AND deduction interchangeably",
+          "example": "\"You must be right.\" (deduction ✅) ≠ \"You must be here at 9.\" (obligation ✅) — different meanings!"
+        }
+      ]
+    },
+    {
+      "title": "Responding to deductions",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Confirming: \"Yes, I think you're right.\"",
+          "example": "\"She must have left already.\" → \"You're probably right. Her coat is gone.\" ✅"
+        },
+        {
+          "form": "Challenging with alternative evidence",
+          "example": "\"She can't have left — her phone is still here.\" ✅"
+        },
+        {
+          "form": "Adding possibility: \"Or... might...\"",
+          "example": "\"She must be outside.\" → \"Or she might have gone to the library.\" ✅"
+        },
+        {
+          "form": "Shifting certainty with new evidence",
+          "example": "\"He might have been delayed.\" (50%) → \"He MUST have been delayed — it's 2 hours.\" (95%) ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Modal Deduction — levels of certainty:\n\nPRESENT:\nmust be = ~95% certain (positive)\nmight/may/could be = ~50% possible\ncan't be = ~95% certain (negative)\n\nPAST (+ perfect infinitive):\nmust have + pp = almost certainly happened\nmight/could have + pp = possibly happened\ncan't/couldn't have + pp = almost certainly didn't\n\nCONTINUOUS:\nmust be + V-ing / must have been + V-ing\nmight be + V-ing / might have been + V-ing\n\n⚠️ Common errors:\n✗ must to be → ✅ must BE\n✗ must have forgot → ✅ must have FORGOTTEN\n✗ couldn't have knew → ✅ couldn't have KNOWN\n\n💡 must ≠ have to:\nmust be (deduction) ≠ must be here at 9 (obligation)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Present deduction — must, might, or can't?",
+      "text": "\"She knows every detail about the project. She ___ be the project manager.\"",
+      "opts": [
+        "might be",
+        "must be",
+        "can't be",
+        "could be"
+      ],
+      "correct": "must be",
+      "hint": "Strong evidence (knows every detail) → near-certainty. \"She MUST BE the project manager.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Present deduction — choose.",
+      "text": "\"He failed the exam. He ___ be disappointed.\"",
+      "opts": [
+        "can't be",
+        "could be",
+        "must be",
+        "might not be"
+      ],
+      "correct": "must be",
+      "hint": "Failing an exam → near-certainty of disappointment. \"He MUST BE disappointed.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Present deduction — negative.",
+      "text": "\"She's speaking fluent Mandarin. She ___ be a complete beginner.\"",
+      "opts": [
+        "must be",
+        "could be",
+        "can't be",
+        "might be"
+      ],
+      "correct": "can't be",
+      "hint": "Evidence (fluent Mandarin) makes \"complete beginner\" almost impossible. \"She CAN'T BE a complete beginner.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Past deduction — complete.",
+      "text": "\"She ___ (take) the wrong bus — she arrived two hours late.\"",
+      "correct": "must have taken",
+      "hint": "Past evidence → high certainty. \"She MUST HAVE TAKEN the wrong bus.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Past deduction — possibility.",
+      "text": "\"He's not answering messages. He ___ (run out of) battery.\"",
+      "opts": [
+        "must have run out of",
+        "might have run out of",
+        "can't have run out of",
+        "should have run out of"
+      ],
+      "correct": "might have run out of",
+      "hint": "One possible explanation (not the only one) → MIGHT HAVE. \"He MIGHT HAVE RUN OUT OF battery.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Past deduction — impossibility.",
+      "text": "\"He ___ (write) this report — he was in hospital all week.\"",
+      "opts": [
+        "must have written",
+        "might have written",
+        "can't have written",
+        "could have written"
+      ],
+      "correct": "can't have written",
+      "hint": "Evidence (in hospital all week) makes it almost impossible. \"He CAN'T HAVE WRITTEN this.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Continuous deduction — past.",
+      "text": "\"She ___ (study) all night — she knows everything perfectly.\"",
+      "correct": "must have been studying",
+      "hint": "Evidence → high certainty about ongoing past action. \"She MUST HAVE BEEN STUDYING all night.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"She must have forgot her keys.\"",
+      "opts": [
+        "Correct",
+        "\"forgot\" should be \"forgotten\" — past participle required",
+        "\"must have\" is wrong",
+        "\"her\" should be \"the\""
+      ],
+      "correct": "\"forgot\" should be \"forgotten\" — past participle required",
+      "hint": "✅ \"She must have FORGOTTEN her keys.\" — \"forgot\" = past simple; need past participle \"forgotten.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Deduction vs obligation — must.",
+      "text": "\"You must be Kamila!\" — \"must\" here expresses:",
+      "opts": [
+        "Obligation — you have to be Kamila",
+        "Deduction — I'm almost certain you are Kamila",
+        "Possibility — maybe you are Kamila",
+        "Advice — you should be Kamila"
+      ],
+      "correct": "Deduction — I'm almost certain you are Kamila",
+      "hint": "\"must be X\" when meeting someone = deduction about identity. \"You MUST BE Kamila!\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct past deduction.",
+      "text": "\"He looks exhausted. He ___ (sleep) well last night.\"",
+      "opts": [
+        "must have slept",
+        "can't have slept",
+        "might have slept",
+        "could have slept"
+      ],
+      "correct": "can't have slept",
+      "hint": "Evidence (looks exhausted) → near-certainty he didn't sleep well. \"He CAN'T HAVE SLEPT well.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Past possibility — complete.",
+      "text": "\"I don't know why he didn't come. He ___ (forget) about it, or he ___ (be) ill.\"",
+      "correct": "might have forgotten / could have been",
+      "hint": "Two possible explanations → might/could have. \"MIGHT HAVE FORGOTTEN / COULD HAVE BEEN ill.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Must be vs must have been — choose.",
+      "text": "\"She looks confused now. She ___ the explanation.\"",
+      "opts": [
+        "can't have understood",
+        "might not understand",
+        "must not understand",
+        "can't understand"
+      ],
+      "correct": "can't have understood",
+      "hint": "She looks confused NOW = evidence of past failure to understand. \"She CAN'T HAVE UNDERSTOOD the explanation.\" ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Couldn't have — choose.",
+      "text": "\"She couldn't have ___ the answer — no one told her.\"",
+      "opts": [
+        "know",
+        "knew",
+        "known",
+        "knowing"
+      ],
+      "correct": "known",
+      "hint": "\"couldn't have KNOWN\" — past participle of \"know\" = \"known.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "May vs might — formality.",
+      "text": "In a formal academic paper: \"The data ___ indicate that treatment is effective.\"",
+      "opts": [
+        "might",
+        "may",
+        "Both equally formal",
+        "must"
+      ],
+      "correct": "may",
+      "hint": "\"May\" is slightly more formal than \"might.\" In academic writing: \"The data MAY indicate...\" ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Build a deduction from context.",
+      "text": "\"The door is locked, the lights are off, and nobody is answering. They ___ out.\"",
+      "opts": [
+        "must be",
+        "might be",
+        "can't be",
+        "could have been"
+      ],
+      "correct": "must be",
+      "hint": "Multiple pieces of evidence all pointing to same conclusion → strong deduction. \"They MUST BE out.\" ✅"
+    },
+    {
+      "id": "e16",
+      "type": "fill",
+      "instruction": "Shift certainty as evidence increases.",
+      "text": "\"He ___ (delay) — he's 10 minutes late.\" → Two hours later: \"He ___ (delay) seriously — something is wrong.\"",
+      "correct": "might have been delayed / must have been delayed",
+      "hint": "10 min: \"MIGHT HAVE BEEN DELAYED\" (50%). 2 hours: \"MUST HAVE BEEN DELAYED\" (95%). ✅"
+    },
+    {
+      "id": "e17",
+      "type": "mc",
+      "instruction": "Continuous past deduction.",
+      "text": "\"The library was warm and there were empty coffee cups. Students ___ (study) there for hours.\"",
+      "opts": [
+        "must have studied",
+        "must have been studying",
+        "could have studied",
+        "might study"
+      ],
+      "correct": "must have been studying",
+      "hint": "Evidence of ongoing activity (warm room, empty cups) → continuous. \"Students MUST HAVE BEEN STUDYING there for hours.\" ✅"
+    },
+    {
+      "id": "e18",
+      "type": "mc",
+      "instruction": "Choose the best deduction.",
+      "text": "\"She submitted the essay at 11:59 p.m. She ___ until the last minute.\"",
+      "opts": [
+        "must have waited",
+        "must have been waiting",
+        "can't have waited",
+        "might have been waiting"
+      ],
+      "correct": "must have been waiting",
+      "hint": "\"MUST HAVE BEEN WAITING until the last minute\" — the continuous form emphasises the duration of the waiting. ✅"
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "Which is wrong?",
+      "text": "Find the incorrect sentence.",
+      "opts": [
+        "\"She must be tired.\"",
+        "\"He might have left already.\"",
+        "\"They can't have knew about it.\"",
+        "\"She could be right.\""
+      ],
+      "correct": "\"They can't have knew about it.\"",
+      "hint": "✗ \"can't have KNEW\" — \"knew\" = past simple. ✅ \"can't have KNOWN.\" ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Complex deduction — choose all correct.",
+      "text": "\"She won the competition.\" — Which deductions about her skill are valid?",
+      "opts": [
+        "\"She must be talented.\"",
+        "\"She can't be a beginner.\"",
+        "\"She might have practised a lot.\"",
+        "All three are valid deductions"
+      ],
+      "correct": "All three are valid deductions",
+      "hint": "All three follow from the evidence (she won): must be talented ✅, can't be beginner ✅, might have practised ✅."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Must be\" expresses:",
+      "opts": [
+        "Obligation",
+        "Permission",
+        "Near-certainty based on evidence",
+        "Possibility"
+      ],
+      "correct": "Near-certainty based on evidence",
+      "hint": "\"Must be\" for deduction = ~95% certain from evidence. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She must have forgotten.\" — \"forgotten\" is:",
+      "opts": [
+        "Past simple",
+        "Present participle",
+        "Past participle (required after must have)",
+        "Gerund"
+      ],
+      "correct": "Past participle (required after must have)",
+      "hint": "must have + PAST PARTICIPLE. \"forgotten\" = pp of \"forget.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He looks completely lost. He ___ (understand) the instructions.\"",
+      "correct": "can't have understood",
+      "hint": "Evidence (looks lost) → near-certainty he didn't understand. \"He CAN'T HAVE UNDERSTOOD the instructions.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Couldn't have known\" vs \"can't have known\" — difference?",
+      "opts": [
+        "Couldn't = stronger",
+        "\"Couldn't have\" = past from the past; \"can't have\" = past from present",
+        "No difference",
+        "\"Can't\" is wrong for past"
+      ],
+      "correct": "\"Couldn't have\" = past from the past; \"can't have\" = past from present",
+      "hint": "Both work. \"Couldn't have known\" = slightly more narrative. \"Can't have known\" = speaking from present perspective. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She might have been waiting.\" — \"might have been waiting\" is:",
+      "opts": [
+        "Past Simple",
+        "Past Perfect Continuous",
+        "Modal + perfect continuous infinitive",
+        "Conditional"
+      ],
+      "correct": "Modal + perfect continuous infinitive",
+      "hint": "\"might have been waiting\" = might + have + been + V-ing = modal deduction about ongoing past activity. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You must be Amir!\" vs \"You must be here at 9.\" — difference:",
+      "opts": [
+        "No difference",
+        "\"Must be X\" = deduction about identity; \"must be here\" = obligation",
+        "\"Must be here\" = deduction too",
+        "\"Must be Amir\" = obligation"
+      ],
+      "correct": "\"Must be X\" = deduction about identity; \"must be here\" = obligation",
+      "hint": "\"must be X\" (deduction) ≠ \"must be at X at Y time\" (obligation). Context determines meaning. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is CORRECT?",
+      "opts": [
+        "\"She must to be tired.\"",
+        "\"He can't have knew.\"",
+        "\"She must be sleeping.\"",
+        "\"They might have been knew.\""
+      ],
+      "correct": "\"She must be sleeping.\"",
+      "hint": "\"She MUST BE SLEEPING.\" — modal + be + V-ing. ✅ Others: \"must to be\" ✗, \"have knew\" ✗, \"been knew\" ✗."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"May\" vs \"might\" for deduction:",
+      "opts": [
+        "They're different modals with different grammar",
+        "\"May\" is more formal; \"might\" is slightly less certain in some contexts; both express possibility",
+        "\"Must\" and \"may\" are the same",
+        "\"Might\" cannot be used for deduction"
+      ],
+      "correct": "\"May\" is more formal; \"might\" is slightly less certain in some contexts; both express possibility",
+      "hint": "\"May\" = formal (academic, official). \"Might\" = slightly more tentative. Both = possibility. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (be) in the meeting — his light is on and his coat is there.\"",
+      "correct": "must be",
+      "hint": "Multiple pieces of evidence → strong deduction. \"He MUST BE in the meeting.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He must have been exhausted\" vs \"He must have been exhausting.\" — difference:",
+      "opts": [
+        "No difference",
+        "\"Must have been exhausted\" = he felt exhausted; \"must have been exhausting\" = the experience was exhausting",
+        "\"Exhausting\" is wrong",
+        "\"Exhausted\" is wrong"
+      ],
+      "correct": "\"Must have been exhausted\" = he felt exhausted; \"must have been exhausting\" = the experience was exhausting",
+      "hint": "\"Must have been exhausted\" (his state). \"Must have been exhausting\" (the activity was tiring). Different subjects/meanings. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They can't have been doing it all year — the records only go back three months.\" — \"can't have been doing\" suggests:",
+      "opts": [
+        "Obligation was missing",
+        "Near-certainty that an ongoing past action did NOT happen for the claimed period",
+        "Possibility the action happened",
+        "Permission was denied"
+      ],
+      "correct": "Near-certainty that an ongoing past action did NOT happen for the claimed period",
+      "hint": "\"can't have been + V-ing\" = past continuous deduction (impossibility). Evidence (3-month records) contradicts the claim. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She might be right.\" (50%) → New strong evidence arrives. Choose the stronger deduction:",
+      "opts": [
+        "She still might be right.",
+        "She must be right.",
+        "She could be right.",
+        "She may be right."
+      ],
+      "correct": "She must be right.",
+      "hint": "As evidence strengthens, shift from \"might be\" (50%) to \"must be\" (95%). ✅"
+    }
+  ]
+}

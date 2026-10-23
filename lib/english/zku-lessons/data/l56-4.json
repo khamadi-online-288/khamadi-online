@@ -1,0 +1,220 @@
+{
+  "id": "l56-4",
+  "moduleNum": 22,
+  "lessonNum": 6,
+  "moduleTitle": "Natural World",
+  "type": "writing",
+  "title": "What We Can Do for the Environment",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "is being threatened by",
+      "emoji": "⚠️",
+      "opts": [
+        "защищён от",
+        "подвергается угрозе со стороны",
+        "восстановлен благодаря",
+        "создан из-за"
+      ],
+      "correct": "подвергается угрозе со стороны"
+    },
+    {
+      "id": "p2",
+      "word": "have been reduced",
+      "emoji": "📉",
+      "opts": [
+        "будут снижены",
+        "были снижены",
+        "снижаются сейчас",
+        "не снижены"
+      ],
+      "correct": "были снижены"
+    },
+    {
+      "id": "p3",
+      "word": "must be tackled",
+      "emoji": "✊",
+      "opts": [
+        "можно игнорировать",
+        "должны быть решены",
+        "уже решены",
+        "не важны"
+      ],
+      "correct": "должны быть решены"
+    },
+    {
+      "id": "p4",
+      "word": "can be reduced",
+      "emoji": "✅",
+      "opts": [
+        "не может быть снижено",
+        "может быть снижено",
+        "должно быть повышено",
+        "уже снижено"
+      ],
+      "correct": "может быть снижено"
+    },
+    {
+      "id": "p5",
+      "word": "has been established",
+      "emoji": "🏛️",
+      "opts": [
+        "будет создан",
+        "ещё не создан",
+        "уже был создан",
+        "создаётся сейчас"
+      ],
+      "correct": "уже был создан"
+    },
+    {
+      "id": "p6",
+      "word": "are being threatened",
+      "emoji": "🦅",
+      "opts": [
+        "уже защищены",
+        "подвергаются угрозе сейчас",
+        "будут защищены",
+        "восстанавливаются"
+      ],
+      "correct": "подвергаются угрозе сейчас"
+    }
+  ],
+  "writingModel": [
+    "The Environment: What Students Can Do — by Zhibek Bekova",
+    "The environment is under serious threat. Temperatures have been rising for decades, biodiversity is being lost at an alarming rate, and many of the systems that support life on Earth are being pushed beyond their natural limits. This is not a future problem. It is the defining condition of the present. And students — who will live the consequences of the decisions being made now — have both a right and a responsibility to respond.",
+    "The most important thing that can be done at the individual level is to understand the problem. Environmental issues are complex, interconnected, and politically charged. Before action, knowledge is needed. Read the science. Follow organisations that are doing serious environmental work in Kazakhstan — there are several. Learn to distinguish between evidence-based information and misinformation, which is sometimes spread deliberately by industries that stand to lose from environmental regulation.",
+    "At the practical level, several things can be done in daily student life. The amount of meat consumed can be reduced — livestock farming is responsible for a significant share of global emissions. Public transport can be used instead of taxis or private cars. Energy can be conserved in dormitories by turning off lights, unplugging devices, and using cold water for washing. These are small acts, but if they are adopted widely, their collective impact is not small.",
+    "At the community level, environmental issues can be raised in student organisations, faculty bodies, and local government. The right to a clean environment is guaranteed under Kazakhstani law. If that right is being violated — if a river is being polluted, if air quality is not being monitored — it can be reported. Petitions can be signed. Officials can be contacted. Journalism can be supported.",
+    "At the deepest level, what is needed is a shift in how we think about our relationship with the natural world. The environment is not something that exists separately from us — something to be protected at a distance. It is the system we are embedded in. When rivers are damaged, communities are damaged. When species are lost, ecosystems are weakened. When air is polluted, health is affected. Everything is connected.",
+    "I am an ecology student at WKU. The Ural River runs behind my dormitory. Every morning I walk past it. Some mornings I notice that it is clear. Other mornings, I notice something that concerns me — a colour, a smell, a patch of foam. I have started noting these things down. Data can be collected by anyone. Problems can be reported by anyone. Change can be made by many people doing small things consistently, over time."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Your opinion title on the environment",
+      "hint": "Give your essay a clear, specific title."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "state",
+      "prefix": "The environment ",
+      "suffix": ".",
+      "placeholder": "is being threatened by... / has been damaged by...",
+      "hint": "Open with a passive construction about the state of the environment."
+    },
+    {
+      "key": "why",
+      "prefix": "This matters because ",
+      "suffix": ".",
+      "placeholder": "your reason why students should care",
+      "hint": "Why is this relevant to you as a WKU student?"
+    },
+    {
+      "key": "indiv",
+      "prefix": "At the individual level, ",
+      "suffix": " can be done.",
+      "placeholder": "specific action (passive) students can take",
+      "hint": "Use passive: \"energy can be conserved / meat consumption can be reduced / public transport can be used.\""
+    },
+    {
+      "key": "comm",
+      "prefix": "At the community level, ",
+      "suffix": ".",
+      "placeholder": "action at student/local/national scale",
+      "hint": "What can be raised, reported, or signed at community level? Use passive."
+    },
+    {
+      "key": "connect",
+      "prefix": "When ",
+      "suffix": ", everything is affected.",
+      "placeholder": "something environmental + consequence",
+      "hint": "\"When rivers are damaged, communities are damaged.\" Passive + passive."
+    },
+    {
+      "key": "local",
+      "prefix": "Near my dormitory, ",
+      "suffix": ".",
+      "placeholder": "something environmental you've noticed locally",
+      "hint": "Make it personal and local: what have you noticed around WKU?"
+    },
+    {
+      "key": "close",
+      "prefix": "Change ",
+      "suffix": ".",
+      "placeholder": "can be made by... / must be started by...",
+      "hint": "\"Change CAN BE MADE by many people doing small things consistently.\" Passive close."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Passive descriptions of the problem",
+      "color": "#003876",
+      "items": [
+        "The environment is being threatened by...",
+        "Biodiversity is being lost at an alarming rate.",
+        "The climate has been changed by human activity.",
+        "Many species are being pushed to the edge of extinction.",
+        "Emissions have been rising for decades."
+      ]
+    },
+    {
+      "category": "Passive calls to action",
+      "color": "#1D9E75",
+      "items": [
+        "Carbon emissions can be reduced by changing habits.",
+        "Energy can be conserved by turning off unused devices.",
+        "Public transport can be used instead of private cars.",
+        "Environmental issues can be raised in student organisations.",
+        "Clean water rights must be protected by law."
+      ]
+    },
+    {
+      "category": "Environmental collocations",
+      "color": "#1B8FC4",
+      "items": [
+        "Tackle climate change / reduce emissions / protect biodiversity.",
+        "Contribute to global warming / threaten ecosystems.",
+        "At risk of extinction / impact on the environment.",
+        "Responsible for emissions / damage to habitats.",
+        "Carbon footprint / renewable energy / sustainable development."
+      ]
+    },
+    {
+      "category": "Connection and conclusion",
+      "color": "#C9933B",
+      "items": [
+        "When rivers are damaged, communities are damaged.",
+        "When species are lost, ecosystems are weakened.",
+        "Everything is connected — the environment is the system we live in.",
+        "Change can be made by many people doing small things consistently.",
+        "Data can be collected by anyone. Problems can be reported by anyone."
+      ]
+    }
+  ]
+}

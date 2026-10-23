@@ -1,0 +1,548 @@
+{
+  "id": "l47-g1",
+  "moduleNum": 13,
+  "lessonNum": 3,
+  "moduleTitle": "Phrasal Verbs in Action",
+  "type": "grammar",
+  "title": "Separable Phrasal Verbs: Turn It Off",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Separable Phrasal Verbs — When You Can Split Them",
+  "grammarNote": "Разделяемые фразовые глаголы (separable phrasal verbs) можно разделить, поместив объект МЕЖДУ глаголом и частицей. Но есть важное правило: если объект — это МЕСТОИМЕНИЕ (it, him, her, them и т.д.), его ОБЯЗАТЕЛЬНО нужно поставить между глаголом и частицей. Никогда нельзя говорить \"turn off it\" — только \"turn it off\".",
+  "grammarTable": [
+    {
+      "subject": "Separable (noun object)",
+      "verb": "verb + particle + noun OR verb + noun + particle",
+      "short": "both OK with noun",
+      "example": "\"Turn OFF the light.\" OR \"Turn the light OFF.\" — both correct with noun."
+    },
+    {
+      "subject": "Separable (pronoun!)",
+      "verb": "MUST split with pronoun",
+      "short": "pronoun INSIDE",
+      "example": "\"Turn IT off.\" ✅ NEVER \"Turn off it.\" ✗ — pronoun must go between!"
+    },
+    {
+      "subject": "turn off",
+      "verb": "to stop a device",
+      "short": "switch off",
+      "example": "\"Turn off your phone.\" / \"Turn it off.\" / \"Turn your phone off.\""
+    },
+    {
+      "subject": "switch on",
+      "verb": "to start/activate",
+      "short": "turn on",
+      "example": "\"Switch on the laptop.\" / \"Switch it on.\" / \"Switch the laptop on.\""
+    },
+    {
+      "subject": "fill in",
+      "verb": "to complete a form",
+      "short": "complete",
+      "example": "\"Fill in the form.\" / \"Fill it in.\" / \"Fill the form in.\""
+    },
+    {
+      "subject": "pick up",
+      "verb": "to collect / lift",
+      "short": "collect/lift",
+      "example": "\"Pick up the book.\" / \"Pick it up.\" / \"Pick the book up.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "The key rule: pronouns MUST go inside",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "With NOUN: both positions work",
+          "example": "\"Turn off the light.\" ✅ / \"Turn the light off.\" ✅ — BOTH correct!"
+        },
+        {
+          "form": "With PRONOUN: must split",
+          "example": "\"Turn it off.\" ✅ / ✗ \"Turn off it.\" — NEVER correct!"
+        },
+        {
+          "form": "With PRONOUN: split is required",
+          "example": "\"Give it up.\" / \"Set it up.\" / \"Sort it out.\" ✅ — always split with pronouns."
+        },
+        {
+          "form": "Test: can I say \"turn off it?\"",
+          "example": "❌ No → must be \"turn IT off.\" The pronoun goes BETWEEN verb and particle."
+        }
+      ]
+    },
+    {
+      "title": "Common separable phrasal verbs",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "turn on/off",
+          "example": "\"Turn on the heating.\" / \"Turn it on.\" (activate/deactivate)"
+        },
+        {
+          "form": "pick up",
+          "example": "\"Pick up the package.\" / \"Pick it up.\" (collect/lift)"
+        },
+        {
+          "form": "put down",
+          "example": "\"Put down the bag.\" / \"Put it down.\" (place somewhere lower)"
+        },
+        {
+          "form": "fill in",
+          "example": "\"Fill in the form.\" / \"Fill it in.\" (complete a document)"
+        },
+        {
+          "form": "set up",
+          "example": "\"Set up a meeting.\" / \"Set it up.\" (arrange/organise)"
+        },
+        {
+          "form": "sort out",
+          "example": "\"Sort out the problem.\" / \"Sort it out.\" (resolve)"
+        },
+        {
+          "form": "put off",
+          "example": "\"Put off the meeting.\" / \"Put it off.\" (postpone)"
+        },
+        {
+          "form": "bring up",
+          "example": "\"Bring up the topic.\" / \"Bring it up.\" (mention/raise)"
+        },
+        {
+          "form": "find out",
+          "example": "\"Find out the answer.\" / \"Find it out.\" (discover)"
+        },
+        {
+          "form": "write down",
+          "example": "\"Write down the address.\" / \"Write it down.\" (record on paper)"
+        },
+        {
+          "form": "look up",
+          "example": "\"Look up the word.\" / \"Look it up.\" (search in a reference)"
+        },
+        {
+          "form": "give up",
+          "example": "\"Give up the idea.\" / \"Give it up.\" (stop doing/abandon)"
+        }
+      ]
+    },
+    {
+      "title": "Long noun objects — put them after the particle",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Short noun: either position",
+          "example": "\"Turn the light off.\" ✅ or \"Turn off the light.\" ✅"
+        },
+        {
+          "form": "Long noun phrase: after particle",
+          "example": "\"Turn off all the lights in the building.\" ✅ (NOT \"turn all the lights in the building off\" — too awkward!)"
+        },
+        {
+          "form": "Rule of thumb",
+          "example": "Short or pronoun → prefer split. Long phrase → after particle."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes with separable phrasal verbs",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"Turn off it.\"",
+          "example": "✅ \"Turn IT off.\" — pronoun ALWAYS inside!"
+        },
+        {
+          "form": "✗ \"Set up it.\"",
+          "example": "✅ \"Set IT up.\" — pronoun must go between verb and particle!"
+        },
+        {
+          "form": "✗ \"I sorted out it.\"",
+          "example": "✅ \"I sorted IT out.\" — never particle + pronoun!"
+        },
+        {
+          "form": "✗ \"She picked up me.\"",
+          "example": "✅ \"She picked ME up.\" — pronoun between!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Разделяемые фразовые глаголы — главное правило:\n\nС СУЩЕСТВИТЕЛЬНЫМ — оба варианта верны:\n\"Turn OFF the light.\" ✅\n\"Turn the light OFF.\" ✅\n\nС МЕСТОИМЕНИЕМ — только ВНУТРИ:\n\"Turn IT off.\" ✅\n✗ \"Turn off IT.\" — НИКОГДА!\n\n💡 Простой тест: замени существительное на местоимение.\nЕсли местоимение оказалось перед частицей → ошибка!\n\"Turn it off\" ✅ / \"Turn off it\" ✗\n\nЧастые разделяемые глаголы:\nturn on/off, pick up, put down, set up, sort out,\nfill in, find out, bring up, look up, give up",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct position for the pronoun.",
+      "text": "The TV is too loud. Please ___ .",
+      "opts": [
+        "turn off it",
+        "turn it off",
+        "turn off",
+        "turning it off"
+      ],
+      "correct": "turn it off",
+      "hint": "Pronoun (it) must go BETWEEN verb and particle. \"Please TURN IT OFF.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "She forgot to fill in the form. She forgot to fill ___ .",
+      "opts": [
+        "in it",
+        "it in",
+        "in the form",
+        "the form in"
+      ],
+      "correct": "it in",
+      "hint": "Pronoun: \"She forgot to fill IT IN.\" ✅ (pronoun inside) vs noun: \"fill the form in\" OR \"fill in the form\" — both OK."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Replace the noun with a pronoun and rewrite.",
+      "text": "\"Set up the meeting.\" → \"Set ___ .\"",
+      "correct": "it up",
+      "hint": "Pronoun (it) goes inside: \"Set IT UP.\" ✅ Never \"Set up it.\""
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Which sentence has the pronoun in the CORRECT position?",
+      "text": "Choose the correct sentence with a pronoun.",
+      "opts": [
+        "\"She looked up it.\"",
+        "\"She looked it up.\"",
+        "\"She looked up the word.\"",
+        "\"She looked the word up.\""
+      ],
+      "correct": "\"She looked it up.\"",
+      "hint": "\"She looked IT up.\" ✅ — pronoun must go between \"looked\" and \"up\". (Others: \"looked up it\" = ✗, \"looked up/the word up\" = ✅ with noun)."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the phrasal verb + pronoun.",
+      "text": "\"I wrote down the address.\" → \"I wrote ___ .\"",
+      "correct": "it down",
+      "hint": "Pronoun inside: \"I wrote IT DOWN.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the best position for a long noun phrase.",
+      "text": "\"Please turn ___ all the lights in every room of the building.\"",
+      "opts": [
+        "the lights off",
+        "off",
+        "the building's lights off",
+        "them off"
+      ],
+      "correct": "off",
+      "hint": "Long noun phrase → put after the particle. \"Please turn OFF all the lights in every room...\" ✅ (Long phrases go after the particle to avoid awkwardness.)"
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Can you sort out it?\" is a correct sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Can you sort IT OUT?\" — pronoun goes INSIDE, between verb and particle. \"Sort out it\" = ✗ never!"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Rewrite using a pronoun.",
+      "text": "\"She picked up the keys.\" → She picked ___.",
+      "opts": [
+        "up the keys",
+        "up them",
+        "them up",
+        "the keys up"
+      ],
+      "correct": "them up",
+      "hint": "\"She picked THEM up.\" ✅ — pronoun (them) goes between \"picked\" and \"up\"."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the phrasal verb.",
+      "text": "\"The answer is wrong. Let me ___ (find the answer / look it up).\"",
+      "correct": "find it out / look it up",
+      "hint": "\"find out\" or \"look up\" = to discover/research. With pronoun: \"find IT out\" / \"look IT up.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which two sentences are BOTH correct?",
+      "text": "\"Give up the plan.\" — which two versions are correct?",
+      "opts": [
+        "Only \"give up the plan\"",
+        "\"Give it up\" and \"give up it\"",
+        "\"Give up the plan\" and \"give the plan up\"",
+        "\"Give it up\" only"
+      ],
+      "correct": "\"Give up the plan\" and \"give the plan up\"",
+      "hint": "With noun: both \"give UP the plan\" and \"give the plan UP\" are correct! With pronoun: \"give IT up\" ✅ only."
+    },
+    {
+      "id": "e11",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I'll set it up\" is the only correct form with the pronoun \"it\".",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Set it up\" ✅ is the ONLY correct form with pronoun. \"Set up it\" ✗ is always wrong."
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the sentence with the pronoun in the correct position.",
+      "text": "\"We need to bring up the topic.\" → \"We need to bring ___ .\"",
+      "correct": "it up",
+      "hint": "Pronoun inside: \"We need to bring IT UP.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Turn off the light.\" — Can you also say \"Turn the light off\"?",
+      "opts": [
+        "Yes — both are correct with a noun",
+        "No — only the first is correct",
+        "Only in American English",
+        "Only in questions"
+      ],
+      "correct": "Yes — both are correct with a noun",
+      "hint": "With nouns: BOTH positions work. \"Turn OFF the light.\" / \"Turn the light OFF.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Turn ___ off.\" — The pronoun goes:",
+      "opts": [
+        "after \"off\"",
+        "before \"turn\"",
+        "between \"turn\" and \"off\"",
+        "anywhere"
+      ],
+      "correct": "between \"turn\" and \"off\"",
+      "hint": "Pronoun MUST go between verb and particle. \"Turn IT off.\" ✅ NOT \"Turn off it.\""
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She looked up it.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"looked\" should be \"found\"",
+        "The pronoun must go between — \"looked it up\"",
+        "\"up\" should be \"out\""
+      ],
+      "correct": "The pronoun must go between — \"looked it up\"",
+      "hint": "✅ \"She looked IT up.\" — pronoun always inside with separable phrasal verbs!"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I need to sort out the problem.\" → \"I need to sort ___ .\"",
+      "correct": "it out",
+      "hint": "Pronoun (it) inside: \"Sort IT OUT.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Pick up the book.\" Which is correct with a pronoun?",
+      "opts": [
+        "\"Pick up it.\"",
+        "\"Pick it up.\"",
+        "\"Pick up him.\"",
+        "\"Pick it.\""
+      ],
+      "correct": "\"Pick it up.\"",
+      "hint": "\"Pick IT up.\" ✅ — pronoun between verb and particle."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Set up it\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Set IT up.\" — NEVER \"Set up it\" with a pronoun!"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Put off the meeting.\" With a pronoun becomes:",
+      "opts": [
+        "\"Put off it.\"",
+        "\"Put it off.\"",
+        "\"Put off it the meeting.\"",
+        "\"It put off.\""
+      ],
+      "correct": "\"Put it off.\"",
+      "hint": "\"Put IT off.\" ✅ — pronoun inside."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She wrote down the number.\" → \"She wrote ___ .\"",
+      "correct": "it down",
+      "hint": "Pronoun inside: \"She wrote IT DOWN.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When must a pronoun go between the verb and the particle?",
+      "opts": [
+        "Never",
+        "Always — with both nouns and pronouns",
+        "Only with pronouns (it, him, her, them)",
+        "Only in informal English"
+      ],
+      "correct": "Only with pronouns (it, him, her, them)",
+      "hint": "With PRONOUNS: must go inside. \"Turn it off.\" With NOUNS: both positions are fine."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Give up the idea.\" → With pronoun:",
+      "opts": [
+        "\"Give up it.\"",
+        "\"Give it up.\"",
+        "\"Give up them.\"",
+        "\"Give the idea up.\""
+      ],
+      "correct": "\"Give it up.\"",
+      "hint": "\"Give IT up.\" ✅ — pronoun goes between \"give\" and \"up\"."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Find out the answer.\" Which is correct?",
+      "opts": [
+        "Only \"find out the answer\"",
+        "\"Find out the answer\" and \"find the answer out\"",
+        "\"Find it out\" and \"find out it\"",
+        "Only \"find it out\""
+      ],
+      "correct": "\"Find out the answer\" and \"find the answer out\"",
+      "hint": "With noun: both positions work. \"Find OUT the answer\" ✅ / \"Find the answer OUT\" ✅."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Can you bring up the issue?\" → \"Can you bring ___ ?\"",
+      "correct": "it up",
+      "hint": "Pronoun inside: \"Can you bring IT UP?\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Where does a long noun phrase go with a separable phrasal verb?",
+      "opts": [
+        "Between verb and particle",
+        "Before the verb",
+        "After the particle",
+        "At the start of the sentence"
+      ],
+      "correct": "After the particle",
+      "hint": "Long phrases go AFTER the particle. \"Turn off all the lights in the building.\" ✅ (not split)"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She turned the television off.\" — Is this correct?",
+      "opts": [
+        "Yes — with a noun, the split is acceptable",
+        "No — should be \"turned off the television\"",
+        "No — should be \"turned it off\"",
+        "No — \"off\" must come first"
+      ],
+      "correct": "Yes — with a noun, the split is acceptable",
+      "hint": "\"She turned THE TELEVISION OFF.\" ✅ — with a noun, either position is fine."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I need to look up this word.\" → \"I need to look ___ .\"",
+      "correct": "it up",
+      "hint": "Pronoun (it) inside: \"I need to look IT UP.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses a separable phrasal verb CORRECTLY with a pronoun?",
+      "opts": [
+        "\"She sorted out it.\"",
+        "\"She sorted it out.\"",
+        "\"She out sorted it.\"",
+        "\"She sorted out the problem.\""
+      ],
+      "correct": "\"She sorted it out.\"",
+      "hint": "\"She sorted IT out.\" ✅ — pronoun between \"sorted\" and \"out\". (\"sorted out the problem\" also ✅ with noun)"
+    }
+  ]
+}

@@ -1,0 +1,490 @@
+{
+  "id": "l45-2",
+  "moduleNum": 11,
+  "lessonNum": 2,
+  "moduleTitle": "What Would You Do?",
+  "type": "listening",
+  "title": "If I Were You…",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, I have a bit of a dilemma. Can I ask your opinion?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Of course. What's going on?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Professor Sultanova has offered me a position as her research assistant for next semester. But it would mean I couldn't take the Advanced Phonetics module I really wanted.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's a genuine dilemma. What would happen if you said no to the research position?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "She might not offer it again. It's quite rare. But if I took it, I'd miss the phonetics course — and it only runs every two years.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "If I were you, I'd take the research position. Research experience is much harder to get than a single course.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "But what if I needed phonetics for my master's application?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "If that were the case, I'd talk to Sultanova about it honestly. She might be flexible. If she knew it was important for your goals, she might adjust the schedule.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I wouldn't feel comfortable asking her to change the arrangement for me.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "But if you didn't ask, you'd never know. What would you regret more — missing the phonetics or missing the research?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Honestly? Missing the research. If I had to choose, that's what I'd pick.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Then you already know the answer.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What would you do about the phonetics, though?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "If I were in your position, I'd try to cover the key content independently. It's not ideal, but it's possible. There are good resources online.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "You're right. If I were being honest with myself, I think I already knew what to do.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "People usually do. They just need someone to say it back to them.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "dilemma",
+      "emoji": "⚖️",
+      "opts": [
+        "решение",
+        "дилемма / трудный выбор",
+        "вопрос",
+        "проблема"
+      ],
+      "correct": "дилемма / трудный выбор"
+    },
+    {
+      "id": "p2",
+      "word": "flexible",
+      "emoji": "🤸",
+      "opts": [
+        "строгий",
+        "гибкий",
+        "неопытный",
+        "занятой"
+      ],
+      "correct": "гибкий"
+    },
+    {
+      "id": "p3",
+      "word": "regret",
+      "emoji": "😔",
+      "opts": [
+        "радоваться",
+        "сожалеть",
+        "решать",
+        "выбирать"
+      ],
+      "correct": "сожалеть"
+    },
+    {
+      "id": "p4",
+      "word": "arrangement",
+      "emoji": "📅",
+      "opts": [
+        "случай",
+        "договорённость",
+        "расписание",
+        "проблема"
+      ],
+      "correct": "договорённость"
+    },
+    {
+      "id": "p5",
+      "word": "ideal",
+      "emoji": "✨",
+      "opts": [
+        "достаточный",
+        "идеальный",
+        "средний",
+        "плохой"
+      ],
+      "correct": "идеальный"
+    },
+    {
+      "id": "p6",
+      "word": "position",
+      "emoji": "💼",
+      "opts": [
+        "должность / место",
+        "задача",
+        "курс",
+        "мнение"
+      ],
+      "correct": "должность / место"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila has been offered a research assistant position.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The Advanced Phonetics module runs every year.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Amir recommends taking the research position.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Kamila is comfortable asking Professor Sultanova to change the arrangement.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila says she would regret missing the research more than the phonetics.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Amir says independent study of phonetics is impossible.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🤔",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Faces a dilemma — research vs phonetics module"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💡",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Gives advice using second conditional — if I were you..."
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Faces a choice between a research position and a phonetics module she wanted.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Says \"If I were you, I'd take the research position.\" — advises using 2nd conditional.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Worries about asking Professor Sultanova to change the arrangement.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Asks what she would regret more — missing phonetics or missing the research.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Admits she would regret missing the research more than the phonetics course.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Suggests she could cover phonetics independently using online resources.",
+      "correctCharId": "amir"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Kamila been offered?",
+      "opts": [
+        "A scholarship",
+        "A research assistant position",
+        "A new course",
+        "A teaching role"
+      ],
+      "correct": "A research assistant position",
+      "hint": "\"Professor Sultanova has offered me a position as her research assistant.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is the decision difficult?",
+      "opts": [
+        "Both are expensive",
+        "Both happen at the same time; both are rare opportunities",
+        "She doesn't like either",
+        "The deadline is tomorrow"
+      ],
+      "correct": "Both happen at the same time; both are rare opportunities",
+      "hint": "Taking the research position means missing the phonetics module, and both are rare."
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir recommend?",
+      "opts": [
+        "Take the phonetics module",
+        "Turn down both options",
+        "Take the research position",
+        "Ask for more time"
+      ],
+      "correct": "Take the research position",
+      "hint": "\"If I were you, I'd take the research position.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila feels comfortable asking Professor Sultanova to be flexible.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I wouldn't feel comfortable asking her to change the arrangement for me.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What would Kamila regret more?",
+      "opts": [
+        "Missing the phonetics",
+        "Missing the research",
+        "Both equally",
+        "Neither — she can repeat both"
+      ],
+      "correct": "Missing the research",
+      "hint": "\"Missing the research. If I had to choose, that's what I'd pick.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Amir suggest Kamila could handle the missing phonetics content?",
+      "opts": [
+        "Ask a classmate to share notes",
+        "Skip it entirely",
+        "Take it the following year",
+        "Study it independently using online resources"
+      ],
+      "correct": "Study it independently using online resources",
+      "hint": "\"I'd try to cover the key content independently... There are good resources online.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's final observation?",
+      "opts": [
+        "The decision is hard",
+        "People usually already know the answer but need someone to say it back",
+        "The research is a bad idea",
+        "Kamila should ask a professor"
+      ],
+      "correct": "People usually already know the answer but need someone to say it back",
+      "hint": "\"People usually do. They just need someone to say it back to them.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The phonetics module runs every year.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"it only runs every two years.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I were you, I'd take it.\" — This is:",
+      "opts": [
+        "First Conditional",
+        "Second Conditional",
+        "Third Conditional",
+        "Zero Conditional"
+      ],
+      "correct": "Second Conditional",
+      "hint": "\"If I were you, I'd take it.\" = 2nd Conditional: if + past simple, would + base verb. Imaginary advice."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I were you\" uses \"were\" for all subjects. Why not \"was\"?",
+      "opts": [
+        "It's Past Continuous",
+        "\"Were\" is wrong — \"was\" is correct",
+        "In 2nd Conditional, \"were\" is used for all subjects (formal)",
+        "\"Were\" is used after \"if\" for hypothetical situations (subjunctive)"
+      ],
+      "correct": "\"Were\" is used after \"if\" for hypothetical situations (subjunctive)",
+      "hint": "\"If I were you\" = standard 2nd Conditional form. Both \"were\" and \"was\" are used, but \"were\" is more formal/correct. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If I ___ in your position, I ___ talk to her.\" Use 2nd Conditional.",
+      "correct": "were / would",
+      "hint": "If + PAST SIMPLE (were) + would + base verb. \"If I WERE in your position, I WOULD talk.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If you didn't ask, you'd never know.\" This expresses:",
+      "opts": [
+        "A real, likely future situation",
+        "An imaginary/hypothetical situation (she probably won't ask)",
+        "A past event",
+        "A general truth"
+      ],
+      "correct": "An imaginary/hypothetical situation (she probably won't ask)",
+      "hint": "2nd Conditional = imaginary. Kamila probably won't ask, so Amir uses 2nd Conditional."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had to choose, that's what I'd pick.\" \"I'd\" is short for:",
+      "opts": [
+        "I would not",
+        "I will",
+        "I should",
+        "I would"
+      ],
+      "correct": "I would",
+      "hint": "\"I'd\" = \"I would\" (contracted). \"That's what I would pick.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If that were the case, I'd talk to her.\" — \"Were\" here is:",
+      "opts": [
+        "Past Continuous",
+        "Present Perfect",
+        "Subjunctive (hypothetical past)",
+        "Past Simple of \"be\""
+      ],
+      "correct": "Subjunctive (hypothetical past)",
+      "hint": "\"if that were the case\" = hypothetical subjunctive — imagining a situation that doesn't exist now."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What ___ you ___ if you missed the research?\" Use 2nd Conditional.",
+      "correct": "would / do",
+      "hint": "2nd Conditional question: \"What WOULD you DO?\" ✅ (would + subject + base verb)"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I were you, I'd take it.\" — Why is \"were\" used, not \"was\"?",
+      "opts": [
+        "Grammar error",
+        "\"I\" is plural",
+        "\"Were\" is used with \"if\" for hypothetical situations (subjunctive)",
+        "\"Was\" would also be correct in formal English"
+      ],
+      "correct": "\"Were\" is used with \"if\" for hypothetical situations (subjunctive)",
+      "hint": "\"If I were you\" uses \"were\" because it's a hypothetical subjunctive — both \"were\" and \"was\" are used, but \"were\" is standard for formal writing."
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "l1-2",
+  "moduleNum": 1,
+  "lessonNum": 2,
+  "moduleTitle": "Hello, world!",
+  "title": "Online video call",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Aizhan",
+      "text": "Hi Dias! Can you hear me?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Yes, I can hear you! Great connection today.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Perfect! So, how was your first week at WKU?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "It was amazing! I love the campus. The library is absolutely huge!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I know! I went there on Monday. There are so many books. Did you meet any new people?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Yes! My roommate is from Kyzylorda. His name is Bekzat. He's very funny.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "That's great! My roommate is from Almaty. Her name is Zarina. She's a dancer!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Wow, a dancer! How are your classes? Do you like them?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes! English class is my favourite. Ms. Aigerim is an excellent teacher.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "She is! I also really like Computer Science. The teacher is young and very creative.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "What time do your classes start in the morning?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "At 8:30. It's early, but I don't mind. I'm a morning person!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Same for me! Okay, I need to go now. It's dinner time in the dormitory.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Okay! Talk soon. Good luck with your studies, Aizhan!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "You too! Bye!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Bye!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "connection",
+      "emoji": "📶",
+      "opts": [
+        "соединение",
+        "разговор",
+        "сеть",
+        "звонок"
+      ],
+      "correct": "соединение"
+    },
+    {
+      "id": "p2",
+      "word": "roommate",
+      "emoji": "🏠",
+      "opts": [
+        "однокурсник",
+        "друг",
+        "сосед по комнате",
+        "коллега"
+      ],
+      "correct": "сосед по комнате"
+    },
+    {
+      "id": "p3",
+      "word": "excellent",
+      "emoji": "⭐",
+      "opts": [
+        "хороший",
+        "отличный",
+        "интересный",
+        "умный"
+      ],
+      "correct": "отличный"
+    },
+    {
+      "id": "p4",
+      "word": "creative",
+      "emoji": "🎨",
+      "opts": [
+        "строгий",
+        "скучный",
+        "творческий",
+        "серьёзный"
+      ],
+      "correct": "творческий"
+    },
+    {
+      "id": "p5",
+      "word": "dormitory",
+      "emoji": "🏢",
+      "opts": [
+        "столовая",
+        "библиотека",
+        "общежитие",
+        "класс"
+      ],
+      "correct": "общежитие"
+    },
+    {
+      "id": "p6",
+      "word": "amazing",
+      "emoji": "✨",
+      "opts": [
+        "скучный",
+        "удивительный",
+        "обычный",
+        "трудный"
+      ],
+      "correct": "удивительный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan and Dias are talking on the phone.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Dias thinks the WKU library is very big.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Dias's roommate is from Almaty.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Aizhan's roommate Zarina is a dancer.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Classes start at 9:00 in the morning.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Aizhan leaves because it is dinner time.",
+      "correct": "true"
+    }
+  ],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "aizhan",
+      "name": "Aizhan",
+      "city": "Aktobe",
+      "emoji": "👩‍🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Student, Group 101"
+    },
+    {
+      "id": "dias",
+      "name": "Dias",
+      "city": "Shymkent",
+      "emoji": "👨‍🎓",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Student, Group 101"
+    },
+    {
+      "id": "zarina",
+      "name": "Zarina",
+      "city": "Almaty",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Aizhan's roommate"
+    },
+    {
+      "id": "bekzat",
+      "name": "Bekzat",
+      "city": "Kyzylorda",
+      "emoji": "⚽",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "Dias's roommate"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"I love the campus. The library is absolutely huge!\"",
+      "correctCharId": "dias"
+    },
+    {
+      "id": "s2",
+      "text": "\"My roommate is a dancer!\"",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s3",
+      "text": "\"I don't mind early classes. I'm a morning person!\"",
+      "correctCharId": "dias"
+    },
+    {
+      "id": "s4",
+      "text": "Is from Kyzylorda and likes to make people laugh.",
+      "correctCharId": "bekzat"
+    },
+    {
+      "id": "s5",
+      "text": "Is a dancer who lives in the WKU dormitory.",
+      "correctCharId": "zarina"
+    },
+    {
+      "id": "s6",
+      "text": "\"English class is my favourite. Ms. Aigerim is excellent!\"",
+      "correctCharId": "aizhan"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": []
+}

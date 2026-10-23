@@ -1,0 +1,726 @@
+{
+  "id": "l60-g1",
+  "moduleNum": 2,
+  "lessonNum": 5,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "grammar",
+  "title": "Reported Speech: Statements & Tense Backshift",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Reported Speech — Part 1: Statements, Tense Shifts & Say vs Tell",
+  "grammarNote": "Reported speech (косвенная речь) — это способ передать слова другого человека без их точного цитирования. В английском языке при переводе прямой речи в косвенную происходит так называемый backshift (сдвиг времени назад): глаголы становятся более «далёкими» от настоящего. Но у этого правила есть важные исключения.",
+  "grammarTable": [
+    {
+      "subject": "Present Simple",
+      "verb": "→ Past Simple",
+      "short": "\"I work.\" → said he worked",
+      "example": "\"I work here.\" → She said she worked there."
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "→ Past Continuous",
+      "short": "\"I'm working.\" → said he was working",
+      "example": "\"I'm studying.\" → He said he was studying."
+    },
+    {
+      "subject": "Present Perfect Simple",
+      "verb": "→ Past Perfect Simple",
+      "short": "\"I've done it.\" → said he had done it",
+      "example": "\"I've finished.\" → She said she had finished."
+    },
+    {
+      "subject": "Present Perfect Continuous",
+      "verb": "→ Past Perfect Continuous",
+      "short": "\"I've been working.\" → had been working",
+      "example": "\"I've been waiting.\" → He said he had been waiting."
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "→ Past Perfect Simple",
+      "short": "\"I went.\" → said she had gone",
+      "example": "\"I left early.\" → She said she had left early."
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "→ Past Perfect Continuous",
+      "short": "\"I was working.\" → had been working",
+      "example": "\"I was sleeping.\" → He said he had been sleeping."
+    },
+    {
+      "subject": "will",
+      "verb": "→ would",
+      "short": "\"I will help.\" → would help",
+      "example": "\"I will call you.\" → She said she would call me."
+    },
+    {
+      "subject": "can / could",
+      "verb": "→ could",
+      "short": "\"I can do it.\" → could do it",
+      "example": "\"I can help.\" → He said he could help."
+    },
+    {
+      "subject": "may / might",
+      "verb": "→ might",
+      "short": "\"I may come.\" → might come",
+      "example": "\"I may be late.\" → She said she might be late."
+    },
+    {
+      "subject": "must",
+      "verb": "→ had to",
+      "short": "\"I must go.\" → had to go",
+      "example": "\"I must leave.\" → He said he had to leave."
+    },
+    {
+      "subject": "should",
+      "verb": "→ should (no change)",
+      "short": "should stays",
+      "example": "\"You should rest.\" → She said I should rest."
+    },
+    {
+      "subject": "would / could / might / should",
+      "verb": "→ NO CHANGE",
+      "short": "already past modals = no shift",
+      "example": "\"I would help.\" / \"I could try.\" — these stay the same. ✅"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "SAY vs TELL — the essential difference",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "SAY = no object required",
+          "example": "\"She SAID that she was tired.\" ✅ / \"She SAID she was going.\" ✅ / \"He SAID nothing.\" ✅"
+        },
+        {
+          "form": "SAY + to + object (indirect)",
+          "example": "\"She SAID TO me that she was tired.\" ✅ (not \"She said me that...\" ✗)"
+        },
+        {
+          "form": "TELL = always needs an object",
+          "example": "\"She TOLD ME that she was tired.\" ✅ / \"He TOLD US the news.\" ✅ / \"She told him.\" ✅"
+        },
+        {
+          "form": "✗ Common error: \"She told that...\"",
+          "example": "✅ \"She TOLD ME / HIM / US that...\" — TELL always needs a person object! ✅"
+        },
+        {
+          "form": "Other reporting verbs like say/tell",
+          "example": "\"She EXPLAINED TO ME that...\" / \"He MENTIONED (to me) that...\" / \"She ADMITTED (to us) that...\""
+        }
+      ]
+    },
+    {
+      "title": "Time and place shifts in reported speech",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "now → then / at that time",
+          "example": "\"I am working now.\" → She said she was working THEN."
+        },
+        {
+          "form": "today → that day",
+          "example": "\"I saw him today.\" → He said he had seen him THAT DAY."
+        },
+        {
+          "form": "yesterday → the day before / the previous day",
+          "example": "\"She left yesterday.\" → He said she had left THE DAY BEFORE."
+        },
+        {
+          "form": "tomorrow → the next day / the following day",
+          "example": "\"I'll come tomorrow.\" → She said she would come THE NEXT DAY."
+        },
+        {
+          "form": "this week → that week",
+          "example": "\"I'm busy this week.\" → He said he was busy THAT WEEK."
+        },
+        {
+          "form": "here → there",
+          "example": "\"I live here.\" → She said she lived THERE."
+        },
+        {
+          "form": "this/these → that/those",
+          "example": "\"I love this city.\" → He said he loved THAT city."
+        },
+        {
+          "form": "ago → before / previously",
+          "example": "\"I arrived two days ago.\" → She said she had arrived two days BEFORE."
+        }
+      ]
+    },
+    {
+      "title": "When you do NOT need to backshift",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "1. Still true at time of reporting",
+          "example": "\"The sun rises in the east.\" → She said the sun RISES in the east. (universal truth — no shift needed) ✅"
+        },
+        {
+          "form": "2. Reporting immediately / very soon",
+          "example": "\"I'm tired.\" → She says she's tired. (reporting instantly — no shift) ✅"
+        },
+        {
+          "form": "3. Using present reporting verb",
+          "example": "\"I'll be there at 8.\" → He says he'll be there at 8. (present reporting = no shift) ✅"
+        },
+        {
+          "form": "4. Would / Could / Might / Should",
+          "example": "\"I would help.\" → She said she would help. (no further shift — already past modal) ✅"
+        },
+        {
+          "form": "5. Could in conditional sentences",
+          "example": "\"If I had time, I could come.\" → He said if he had time, he could come. ✅"
+        },
+        {
+          "form": "6. Informal spoken English",
+          "example": "In informal speech, backshift is often optional: \"She said she is tired.\" is acceptable. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Pronoun and tense changes — the full picture in one example",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "DIRECT: \"I've been working here for two years. I know the manager well and I'll stay.\"",
+          "example": "Kamila (to Rustam)"
+        },
+        {
+          "form": "REPORTED: She said (that) she had been working THERE for two years, (that) SHE knew the manager well and (that) SHE would stay.",
+          "example": "Pronoun: I→she. Place: here→there. PPC→PPP Cont. PS→PS (know=still true OR PS). will→would."
+        },
+        {
+          "form": "Key decision: which shifts to apply?",
+          "example": "Consider: Is it still true? How long ago? What style? All affect which tense you choose. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Reporting verbs that introduce statements (B1+)",
+      "color": "#7C3AED",
+      "bg": "#EDE9FE",
+      "border": "#C4B5FD",
+      "rows": [
+        {
+          "form": "verb + THAT clause",
+          "example": "say, tell, admit, claim, complain, explain, insist, promise, reply, report, state ✅"
+        },
+        {
+          "form": "\"She admitted THAT she had made a mistake.\"",
+          "example": "\"He claimed THAT he had never seen the document.\" ✅"
+        },
+        {
+          "form": "\"She insisted THAT she was right.\"",
+          "example": "\"He promised THAT he would return it.\" ✅"
+        },
+        {
+          "form": "Some verbs + TO-infinitive",
+          "example": "promise to, offer to, refuse to, agree to, claim to, pretend to ✅"
+        },
+        {
+          "form": "\"She promised TO help.\" / \"He refused TO come.\"",
+          "example": "\"She agreed TO meet at 3.\" / \"He pretended TO be asleep.\" ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Reported Speech — Statements:\n\n📌 Backshift: глагол «сдвигается назад»\nPS → PP → Past Perfect\nPC → Past Continuous\nPPS → Past Perfect Simple\nPPC → Past Perfect Continuous\nwill → would · can → could · may → might · must → had to\n\n📌 SAY vs TELL:\nSay: \"She SAID (that) she was tired.\" (no object needed)\nTell: \"She TOLD ME (that) she was tired.\" (ALWAYS + object!)\n✗ \"She told that...\" → ✅ \"She told him/me/us that...\"\n\n📌 Time/place shifts:\nnow → then · today → that day\ntomorrow → the next day · here → there\n\n📌 When NOT to shift:\n→ Universal truths (sun rises in east)\n→ Reporting immediately\n→ would/could/might/should — already past!\n→ Still true at the moment of reporting\n\n📌 B1 Reporting verbs + that:\nadmit / claim / insist / promise / explain / complain\n→ + to-inf: promise to / agree to / refuse to / offer to",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct reported speech form.",
+      "text": "Amir said: \"I am studying machine learning.\" → He said he ___ machine learning.",
+      "opts": [
+        "is studying",
+        "was studying",
+        "has been studying",
+        "studied"
+      ],
+      "correct": "was studying",
+      "hint": "Present Continuous → Past Continuous in reported speech. \"I am studying\" → he said he WAS STUDYING. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Report the sentence correctly.",
+      "text": "Kamila said: \"I have never been to Istanbul.\" → She said she ___ to Istanbul.",
+      "correct": "had never been",
+      "hint": "Present Perfect → Past Perfect. \"have never been\" → HAD NEVER BEEN. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "SAY or TELL? Choose.",
+      "text": "\"She ___ me that the lecture had been cancelled.\"",
+      "opts": [
+        "said",
+        "told",
+        "either works",
+        "neither works"
+      ],
+      "correct": "told",
+      "hint": "\"TOLD ME\" — TELL always needs a person object (me/him/her/us). \"Said me\" ✗ is wrong! ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct modal shift.",
+      "text": "Rustam said: \"I will help you tomorrow.\" → He said he ___ help me the next day.",
+      "opts": [
+        "will",
+        "would",
+        "can",
+        "could"
+      ],
+      "correct": "would",
+      "hint": "will → WOULD in reported speech. \"I will help\" → he said he WOULD HELP. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Report the sentence with time shift.",
+      "text": "She said: \"I saw him today.\" → She said she had seen him ___.",
+      "correct": "that day",
+      "hint": "\"today\" → \"THAT DAY\" in reported speech. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Does this need backshift?",
+      "text": "She said: \"The capital of Kazakhstan is Nur-Sultan.\" → She said the capital of Kazakhstan ___ Nur-Sultan.",
+      "opts": [
+        "was",
+        "is",
+        "either \"is\" or \"was\" is acceptable",
+        "had been"
+      ],
+      "correct": "either \"is\" or \"was\" is acceptable",
+      "hint": "Universal or permanent facts don't REQUIRE backshift. \"Is\" (still true) is also correct. Both acceptable. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct reported form for Past Simple.",
+      "text": "\"I went to Almaty last week.\" → He said he ___ to Almaty the week before.",
+      "opts": [
+        "went",
+        "had gone",
+        "was going",
+        "would go"
+      ],
+      "correct": "had gone",
+      "hint": "Past Simple → Past Perfect in formal reported speech. \"went\" → HAD GONE. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct modal — no shift needed.",
+      "text": "\"I could try to help you.\" → He said he ___ try to help me.",
+      "opts": [
+        "can",
+        "could",
+        "would could",
+        "had could"
+      ],
+      "correct": "could",
+      "hint": "\"could\" is ALREADY a past modal — NO further shift. \"He said he COULD try.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Report using the correct reporting verb structure.",
+      "text": "Zhibek said: \"I will definitely finish the project.\" → She ___ finish the project.",
+      "correct": "promised to",
+      "hint": "promise + TO + infinitive. \"She PROMISED TO finish the project.\" ✅ (Also possible: \"promised that she would finish\")"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct place shift.",
+      "text": "\"I live here in Uralsk.\" → She said she lived ___ in Uralsk.",
+      "opts": [
+        "here",
+        "there",
+        "this",
+        "it"
+      ],
+      "correct": "there",
+      "hint": "\"here\" → \"THERE\" in reported speech when the location has changed. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Report the sentence correctly.",
+      "text": "\"I've been waiting for an hour.\" → She said she ___ for an hour.",
+      "opts": [
+        "has been waiting",
+        "was waiting",
+        "had been waiting",
+        "waited"
+      ],
+      "correct": "had been waiting",
+      "hint": "Present Perfect Continuous → Past Perfect Continuous. \"have been waiting\" → HAD BEEN WAITING. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Which reporting verb fits best?",
+      "text": "\"I didn't take the money,\" he said. → He ___ taking the money.",
+      "opts": [
+        "said",
+        "told",
+        "denied",
+        "admitted"
+      ],
+      "correct": "denied",
+      "hint": "\"denied\" + gerund = denied TAKING. Better than \"said\" for this meaning. \"He DENIED TAKING the money.\" ✅"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Report fully with all shifts.",
+      "text": "\"I'm very tired and I can't come today.\" → She said she ___ very tired and she ___ come that day.",
+      "correct": "was / couldn't",
+      "hint": "PS→PS (am→was), can→could → can't→couldn't, today→that day. \"She said she WAS very tired and she COULDN'T come THAT DAY.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct form of \"tell\" or \"say\".",
+      "text": "\"___ that she would be late.\" (No object mentioned)",
+      "opts": [
+        "She said",
+        "She told",
+        "Both work equally",
+        "Neither works"
+      ],
+      "correct": "She said",
+      "hint": "No object → SAY. \"She SAID that she would be late.\" ✅ \"She told that...\" ✗ — TELL needs an object (told me/him/us). ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Identify the correct reported form.",
+      "text": "\"I must finish this by Friday.\" → He said he ___ finish it by Friday.",
+      "opts": [
+        "must",
+        "had to",
+        "should",
+        "would have to"
+      ],
+      "correct": "had to",
+      "hint": "\"must\" (obligation) → \"HAD TO\" in reported speech. \"He said he HAD TO finish it by Friday.\" ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Complex backshift — choose.",
+      "text": "\"When I was studying, I had already realised I wanted to change direction.\" → She said that when she ___ studying, she ___ already ___ she wanted to change direction.",
+      "opts": [
+        "was / had / realised",
+        "had been / had / realised",
+        "was / had already / realised",
+        "had been / had already / realised"
+      ],
+      "correct": "had been / had already / realised",
+      "hint": "PC→PPC (\"was studying\"→\"had been studying\"), PP stays PP (\"had already realised\"→\"had already realised\"). ✅"
+    },
+    {
+      "id": "e17",
+      "type": "mc",
+      "instruction": "Which is NOT shifted correctly?",
+      "text": "Find the WRONG reported form.",
+      "opts": [
+        "\"She said she was leaving.\" (was leaving = correct)",
+        "\"He said he had been working there.\" (correct)",
+        "\"She said she can help.\" (WRONG — should be \"could\")",
+        "\"He said he would come.\" (correct)"
+      ],
+      "correct": "\"She said she can help.\" (WRONG — should be \"could\")",
+      "hint": "\"can\" → \"COULD\" in reported speech. \"She said she CAN help.\" ✗ → ✅ \"She said she COULD help.\" ✅"
+    },
+    {
+      "id": "e18",
+      "type": "fill",
+      "instruction": "Choose the correct reporting verb + structure.",
+      "text": "Daniyar: \"I'm sorry, I was wrong.\" → He ___ making a mistake.",
+      "correct": "admitted",
+      "hint": "\"admit\" + gerund. \"He ADMITTED MAKING a mistake.\" ✅ (Also: admitted that he had been wrong)"
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "When is backshift optional?",
+      "text": "\"She said she's ready now.\" vs \"She said she was ready then.\" — which is acceptable?",
+      "opts": [
+        "Only the second (with \"was\")",
+        "Only the first (with \"is\")",
+        "Both — present tense acceptable if still true or recent",
+        "Neither — must use Past Perfect"
+      ],
+      "correct": "Both — present tense acceptable if still true or recent",
+      "hint": "Backshift is REQUIRED in formal written English but optional in informal speech when the situation is still current. ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Full sentence — find the error.",
+      "text": "\"I may be late tomorrow,\" she said. → She said she might be late tomorrow.",
+      "opts": [
+        "Correct",
+        "Wrong — \"tomorrow\" should shift to \"the next day\"",
+        "Wrong — \"might\" should stay \"may\"",
+        "Wrong — \"she said\" should be \"she told\""
+      ],
+      "correct": "Wrong — \"tomorrow\" should shift to \"the next day\"",
+      "hint": "\"tomorrow\" → \"THE NEXT DAY\" in reported speech. ✅ \"She said she might be late THE NEXT DAY.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"backshift\" in reported speech?",
+      "opts": [
+        "Moving verbs to future",
+        "Shifting verbs one tense \"further back\" into the past",
+        "Removing all tenses",
+        "Using only Past Simple"
+      ],
+      "correct": "Shifting verbs one tense \"further back\" into the past",
+      "hint": "Backshift = tenses move one step further back when reporting past speech. PS→PP, PC→PPC, will→would, etc. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She said she is tired.\" — Is this acceptable?",
+      "opts": [
+        "Never acceptable",
+        "Only in formal writing",
+        "Yes — in informal speech when the situation is still current",
+        "Only with \"say\", not \"tell\""
+      ],
+      "correct": "Yes — in informal speech when the situation is still current",
+      "hint": "In informal speech, backshift is optional if the situation is still true. Both \"is\" and \"was\" can be correct. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I have finished.\" → She said she ___ .",
+      "correct": "had finished",
+      "hint": "Present Perfect → Past Perfect. \"has/have finished\" → HAD FINISHED. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She told that she was leaving.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"told\" needs an object — \"told us/me/him\"",
+        "\"was leaving\" should be \"is leaving\"",
+        "\"she\" is wrong"
+      ],
+      "correct": "\"told\" needs an object — \"told us/me/him\"",
+      "hint": "✅ \"She TOLD US/ME that she was leaving.\" — TELL always needs a person object! ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I can help.\" → He said he ___ help.",
+      "opts": [
+        "can",
+        "will",
+        "could",
+        "had to"
+      ],
+      "correct": "could",
+      "hint": "\"can\" → \"could\" in reported speech. \"He said he COULD help.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I must leave now.\" → She said she ___ leave.",
+      "opts": [
+        "must",
+        "had to",
+        "should",
+        "would must"
+      ],
+      "correct": "had to",
+      "hint": "\"must\" (obligation) → \"had to\" in reported speech. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I would help if I could.\" → He said he ___ help if he ___.",
+      "opts": [
+        "would / could",
+        "will / can",
+        "had to / could",
+        "would / had to"
+      ],
+      "correct": "would / could",
+      "hint": "\"would\" and \"could\" are ALREADY past modals — NO further shift. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Today\" shifts to ___ in reported speech.",
+      "opts": [
+        "now",
+        "that day",
+        "the day before",
+        "tomorrow"
+      ],
+      "correct": "that day",
+      "hint": "\"today\" → \"THAT DAY\" in reported speech. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I'm studying here now.\" → She said she ___ studying ___ then.",
+      "correct": "was / there",
+      "hint": "PC→PC (was studying), here→there, now→then. \"She said she WAS STUDYING THERE THEN.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence does NOT require backshift?",
+      "opts": [
+        "\"I went to Almaty yesterday.\"",
+        "\"I'm tired now.\"",
+        "\"The earth orbits the sun.\"",
+        "\"I can help you tomorrow.\""
+      ],
+      "correct": "\"The earth orbits the sun.\"",
+      "hint": "Universal facts/truths don't require backshift. \"She said the earth orbits the sun.\" ✅ (or \"orbited\" — both acceptable)"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been working here for two years.\" → He said he ___ there for two years.",
+      "opts": [
+        "has been working",
+        "had been working",
+        "was working",
+        "had worked"
+      ],
+      "correct": "had been working",
+      "hint": "PPC → Past Perfect Continuous. \"has been working\" → HAD BEEN WORKING. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I refuse to pay.\" → She said she ___ pay.",
+      "opts": [
+        "refused to",
+        "refused",
+        "was refusing to",
+        "had refused"
+      ],
+      "correct": "refused to",
+      "hint": "\"refuse\" + to + infinitive. \"She said she REFUSED TO pay.\" ✅ (Also: \"she refused to pay\" = correct reported form)"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which reporting verb needs a GERUND?",
+      "opts": [
+        "promise",
+        "deny",
+        "claim",
+        "insist"
+      ],
+      "correct": "deny",
+      "hint": "\"deny\" + GERUND. \"He DENIED TAKING the money.\" ✅ (Not \"denied to take.\" \"Deny\" = gerund only, not infinitive) ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I said her that I was coming.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"said her\" is wrong — should be \"said to her\" or \"told her\"",
+        "\"was coming\" should be \"came\"",
+        "\"I\" should be \"she\""
+      ],
+      "correct": "\"said her\" is wrong — should be \"said to her\" or \"told her\"",
+      "hint": "✅ \"I said TO HER that...\" or \"I TOLD HER that...\" — never \"said her.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She may arrive late.\" → He said she ___ arrive late.",
+      "correct": "might",
+      "hint": "\"may\" → \"might\" in reported speech. \"He said she MIGHT arrive late.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which shows ALL shifts applied correctly?",
+      "opts": [
+        "\"He said he goes there now.\"",
+        "\"She said she had been working there when he had called.\"",
+        "\"He said he will help me tomorrow.\"",
+        "\"She said she is coming today.\""
+      ],
+      "correct": "\"She said she had been working there when he had called.\"",
+      "hint": "had been working (PPC✅) + there (here→there✅) + had called (PS→PP✅). All shifts correct. ✅"
+    }
+  ]
+}

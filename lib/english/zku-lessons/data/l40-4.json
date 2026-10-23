@@ -1,0 +1,227 @@
+{
+  "id": "l40-4",
+  "moduleNum": 6,
+  "lessonNum": 6,
+  "moduleTitle": "Life Experiences",
+  "type": "writing",
+  "title": "My Life Experiences: Things I've Done and Haven't Done Yet",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I have + pp...",
+      "emoji": "✅",
+      "opts": [
+        "я делаю сейчас",
+        "я делал в прошлом (результат)",
+        "я буду делать",
+        "я обычно делаю"
+      ],
+      "correct": "я делал в прошлом (результат)"
+    },
+    {
+      "id": "p2",
+      "word": "I've never + pp...",
+      "emoji": "❌",
+      "opts": [
+        "я всегда делал",
+        "я никогда не делал",
+        "я перестал делать",
+        "я редко делал"
+      ],
+      "correct": "я никогда не делал"
+    },
+    {
+      "id": "p3",
+      "word": "I've always wanted to",
+      "emoji": "💭",
+      "opts": [
+        "я всегда избегал",
+        "я всегда хотел",
+        "я уже сделал",
+        "я мечтал раньше"
+      ],
+      "correct": "я всегда хотел"
+    },
+    {
+      "id": "p4",
+      "word": "I haven't + pp yet...",
+      "emoji": "⏳",
+      "opts": [
+        "я уже сделал",
+        "я ещё не сделал",
+        "я не хочу делать",
+        "я никогда не делал"
+      ],
+      "correct": "я ещё не сделал"
+    },
+    {
+      "id": "p5",
+      "word": "What excites me most",
+      "emoji": "🌟",
+      "opts": [
+        "Что меня пугает",
+        "Что мне скучно",
+        "Что меня больше всего воодушевляет",
+        "Что мне нравится"
+      ],
+      "correct": "Что меня больше всего воодушевляет"
+    },
+    {
+      "id": "p6",
+      "word": "I'm proud of",
+      "emoji": "🦁",
+      "opts": [
+        "Мне стыдно за",
+        "Я горжусь",
+        "Меня беспокоит",
+        "Мне жаль"
+      ],
+      "correct": "Я горжусь"
+    }
+  ],
+  "writingModel": [
+    "My Life Experiences — by Zhibek Akhmetova",
+    "When I think about the experiences I've had, I realise they have mostly been shaped by two things: volleyball and curiosity. These two forces have taken me to places I never expected to go — both physically and intellectually.",
+    "I've represented Kazakhstan in international competitions twice. I went to Bishkek in 2022 and to Tashkent in 2023. In both cases, the level was higher than anything I had faced before. I didn't win, but I have never regretted going. Those tournaments taught me more about resilience than any training session ever could.",
+    "I've also written two research papers. The first was a study of how Kazakh athletes manage stress before competitions. The second — which has just been accepted for publication — examines training methods used in elite volleyball programmes. I never expected to enjoy academic writing, but I've discovered that I love it. The structure, the precision, the challenge of saying something new.",
+    "There are many things I haven't done yet. I've never won the national volleyball championship. That is still my biggest goal. I haven't visited more than five countries. I haven't learned a third language — my Kazakh and Russian are strong, but my English still has a long way to go. And I've never cooked a full meal by myself. I always end up calling my mother.",
+    "What excites me most about the future is the possibility of combining sport and science. I've already applied for a master's degree in sports science. If I get in, I will be able to study exactly what I love — how the body and mind work together under pressure.",
+    "I'm proud of what I've achieved. But I'm more proud of the fact that I haven't given up — not when I was injured, not when the research was difficult, not when the volleyball felt impossible. That is the experience that defines me most: I've learned to keep going."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "My Life Experiences — by ",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name as the author."
+    },
+    {
+      "key": "intro",
+      "prefix": "When I think about the experiences I've had, I realise ",
+      "suffix": ".",
+      "placeholder": "what has shaped your experiences",
+      "hint": "Start with a reflection on what kinds of experiences you've had."
+    },
+    {
+      "key": "have1",
+      "prefix": "I've ",
+      "suffix": ".",
+      "placeholder": "something you've done (PP + details)",
+      "hint": "Use Present Perfect for an experience (no specific time)."
+    },
+    {
+      "key": "have1b",
+      "prefix": "I went there in ",
+      "suffix": ", and it taught me ___.",
+      "placeholder": "year / what you learned",
+      "hint": "Now give specifics — switch to Past Simple!"
+    },
+    {
+      "key": "have2",
+      "prefix": "I've also ",
+      "suffix": ".",
+      "placeholder": "another achievement or experience (PP)",
+      "hint": "Another significant thing you've done."
+    },
+    {
+      "key": "disc",
+      "prefix": "I've discovered that ",
+      "suffix": ".",
+      "placeholder": "something you've learned about yourself",
+      "hint": "Use PP: \"I've discovered / I've realised / I've found that...\""
+    },
+    {
+      "key": "never1",
+      "prefix": "I've never ",
+      "suffix": ".",
+      "placeholder": "something you've never done",
+      "hint": "\"I've never + past participle.\" State it simply."
+    },
+    {
+      "key": "yet1",
+      "prefix": "I haven't ",
+      "suffix": " yet.",
+      "placeholder": "something you haven't done yet",
+      "hint": "\"yet\" goes at the end: \"I haven't + pp + yet.\""
+    },
+    {
+      "key": "goal",
+      "prefix": "What excites me most about the future is ",
+      "suffix": ".",
+      "placeholder": "your biggest future aspiration",
+      "hint": "Use \"going to\" or \"will\" for future plans."
+    },
+    {
+      "key": "proud",
+      "prefix": "I'm proud of ",
+      "suffix": ". But I'm more proud of the fact that I haven't given up.",
+      "placeholder": "what you've achieved",
+      "hint": "\"I'm proud of what I've achieved.\" Use PP to summarise."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Things you've done (PP)",
+      "color": "#1D9E75",
+      "items": [
+        "I've + past participle (no time)...",
+        "I've been to / visited / seen / done...",
+        "I've written / built / won / learned...",
+        "I've discovered / realised / found that...",
+        "I've represented / competed / studied..."
+      ]
+    },
+    {
+      "category": "Things you haven't done (PP negative)",
+      "color": "#EF4444",
+      "items": [
+        "I've never + past participle...",
+        "I haven't + pp + yet.",
+        "I've never been to / tried / seen / won...",
+        "I still haven't managed to...",
+        "I've never had the chance to..."
+      ]
+    },
+    {
+      "category": "Switching to Past Simple (specific time)",
+      "color": "#1B8FC4",
+      "items": [
+        "I went there in [year] / last [time].",
+        "I won it in [year] / three years ago.",
+        "When I was [age], I...",
+        "In [year], I discovered that...",
+        "It happened last [month/semester]."
+      ]
+    },
+    {
+      "category": "Reflection and emotion",
+      "color": "#C9933B",
+      "items": [
+        "I'm proud of what I've achieved.",
+        "I've learned / realised / discovered that...",
+        "That experience defined me because...",
+        "I've never regretted it.",
+        "I haven't given up — and I won't."
+      ]
+    }
+  ]
+}

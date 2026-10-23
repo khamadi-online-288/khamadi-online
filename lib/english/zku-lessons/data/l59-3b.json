@@ -1,0 +1,368 @@
+{
+  "id": "l59-3b",
+  "moduleNum": 1,
+  "lessonNum": 4,
+  "moduleTitle": "Complex Conversations",
+  "type": "listening",
+  "title": "A Debate: Is University Worth the Investment?",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Moderator",
+      "text": "Today's debate: \"University is no longer worth the investment for most students.\" For the motion: Baglan. Against: Aliya.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baglan",
+      "text": "I'll be direct. The world has been changing faster than universities have been adapting. While institutions have been maintaining the same four-year degree structure for decades, the job market has been demanding different skills — coding, data literacy, entrepreneurship. Students who have been spending four years and significant money for credentials are increasingly finding those credentials don't guarantee employment. Furthermore, online learning has been improving dramatically. You can now study from MIT or Cambridge for free. So why pay?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aliya",
+      "text": "Baglan makes a point I've been expecting. But it misses something important. Yes, online learning has been expanding. Yes, the job market has been changing. But university has never only been about credentials. It has been providing something that no online course has replicated: sustained intellectual community. You spend years in rooms with people who are challenging what you believe. That has been producing something that no syllabus measures.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baglan",
+      "text": "But that community has been becoming less affordable for more people. While we've been debating its value, the cost has been rising. Students have been taking on significant debt before they've earned a single tenge professionally. That debt has been shaping their choices in ways they wouldn't have chosen freely.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aliya",
+      "text": "I agree the cost issue is serious. But the solution isn't to abandon university — it's to fund it better. Countries that have been investing in higher education as a public good have been producing more innovation, more social mobility, and more civic engagement. The correlation has been documented across decades. The question isn't whether university creates value. It's who is paying for that value, and whether the distribution is fair.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baglan",
+      "text": "Even accepting that, has the university experience been keeping pace with reality? Most programmes have been teaching the same content they've been teaching for twenty years. The world has been moving on. I've been talking to employers who have been saying for years that graduates are arriving without the skills they need.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aliya",
+      "text": "Those employers have also been hiring graduates consistently. Actions speak more clearly than complaints. Moreover, the skills gap they've been describing — communication, critical thinking — are skills universities have always been developing. Not always through lectures, but through the whole experience of being there.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Moderator",
+      "text": "A sharp debate. You've been giving us a lot to think about. Let's open it to the floor.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "credentials",
+      "emoji": "📜",
+      "opts": [
+        "навыки",
+        "дипломы / сертификаты",
+        "деньги",
+        "опыт"
+      ],
+      "correct": "дипломы / сертификаты"
+    },
+    {
+      "id": "p2",
+      "word": "debt",
+      "emoji": "💳",
+      "opts": [
+        "доход",
+        "долг / задолженность",
+        "сбережения",
+        "кредит"
+      ],
+      "correct": "долг / задолженность"
+    },
+    {
+      "id": "p3",
+      "word": "civic",
+      "emoji": "🏛️",
+      "opts": [
+        "личный",
+        "гражданский / общественный",
+        "профессиональный",
+        "частный"
+      ],
+      "correct": "гражданский / общественный"
+    },
+    {
+      "id": "p4",
+      "word": "replicated",
+      "emoji": "📋",
+      "opts": [
+        "улучшен",
+        "воспроизведён / скопирован",
+        "заменён",
+        "описан"
+      ],
+      "correct": "воспроизведён / скопирован"
+    },
+    {
+      "id": "p5",
+      "word": "correlation",
+      "emoji": "📈",
+      "opts": [
+        "противоречие",
+        "корреляция / взаимосвязь",
+        "совпадение",
+        "причина"
+      ],
+      "correct": "корреляция / взаимосвязь"
+    },
+    {
+      "id": "p6",
+      "word": "innovation",
+      "emoji": "💡",
+      "opts": [
+        "традиция",
+        "инновация / нововведение",
+        "исследование",
+        "образование"
+      ],
+      "correct": "инновация / нововведение"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Baglan argues universities have been adapting well to changes in the job market.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Baglan says students can now study from top universities online for free.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Aliya says online courses have fully replicated the university intellectual community.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Aliya agrees that the cost of university is a serious issue.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Aliya argues that employers have been consistently hiring graduates despite their complaints.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Baglan says universities should be better publicly funded.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "baglan",
+      "name": "Baglan",
+      "city": "Uralsk",
+      "emoji": "⚖️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "For the motion — university is no longer worth the cost; pragmatic view"
+    },
+    {
+      "id": "aliya",
+      "name": "Aliya",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Against the motion — university builds something irreplaceable; values-based view"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Argues the job market has been demanding skills that universities have not been teaching.",
+      "correctCharId": "baglan"
+    },
+    {
+      "id": "s2",
+      "text": "Says university has been providing sustained intellectual community — something online can't replicate.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s3",
+      "text": "Says the rising cost has been shaping students' choices in ways they wouldn't have freely chosen.",
+      "correctCharId": "baglan"
+    },
+    {
+      "id": "s4",
+      "text": "Says the solution is better public funding, not abandoning university.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s5",
+      "text": "Says employers have been complaining for years that graduates lack skills.",
+      "correctCharId": "baglan"
+    },
+    {
+      "id": "s6",
+      "text": "Points out employers have been hiring graduates consistently — their actions matter more than complaints.",
+      "correctCharId": "aliya"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Baglan's main argument against university?",
+      "opts": [
+        "University is boring",
+        "The cost has risen while the value has not kept pace with job market changes",
+        "Online learning is harder",
+        "Employers prefer experience"
+      ],
+      "correct": "The cost has risen while the value has not kept pace with job market changes",
+      "hint": "\"Students... are increasingly finding credentials don't guarantee employment.\" + rising cost argument."
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aliya say online learning has NOT replicated?",
+      "opts": [
+        "Access to information",
+        "Free courses from top universities",
+        "Sustained intellectual community",
+        "Online certificates"
+      ],
+      "correct": "Sustained intellectual community",
+      "hint": "\"University has been providing something online learning has not replicated: sustained intellectual community.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Aliya respond to the cost argument?",
+      "opts": [
+        "She ignores it",
+        "She agrees costs are serious but argues for better funding, not abandonment",
+        "She says students should take more debt",
+        "She says university should be cheaper"
+      ],
+      "correct": "She agrees costs are serious but argues for better funding, not abandonment",
+      "hint": "\"The solution isn't to abandon university — it's to fund it better.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Aliya challenge Baglan's point about employer complaints?",
+      "opts": [
+        "She says employers are wrong",
+        "She points out employers have been consistently hiring graduates anyway — actions speak louder",
+        "She says graduates are well prepared",
+        "She says the skills gap is imaginary"
+      ],
+      "correct": "She points out employers have been consistently hiring graduates anyway — actions speak louder",
+      "hint": "\"Those employers have also been hiring graduates consistently. Actions speak more clearly than complaints.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Baglan says universities have been adapting well to the changing job market.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The world has been changing faster than universities have been adapting.\" — the opposite: universities have NOT been keeping pace."
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which countries does Aliya reference to support her argument?",
+      "opts": [
+        "USA and UK",
+        "Germany and Norway only",
+        "Countries that have been investing in higher education as a public good",
+        "Kazakhstan specifically"
+      ],
+      "correct": "Countries that have been investing in higher education as a public good",
+      "hint": "\"Countries that have been investing in higher education as a public good have been producing more innovation, mobility, and civic engagement.\""
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Universities HAVE BEEN MAINTAINING the same structure for decades.\" — This tense emphasises:",
+      "opts": [
+        "A one-time decision",
+        "The ongoing and continuous nature of this over a long period",
+        "A recent change",
+        "A future plan"
+      ],
+      "correct": "The ongoing and continuous nature of this over a long period",
+      "hint": "Present Perfect Continuous emphasises the duration and ongoing nature of the action. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Online learning HAS BEEN IMPROVING dramatically.\" — \"has been improving\" vs \"has improved\" — difference?",
+      "opts": [
+        "No difference",
+        "\"Has been improving\" = process/continuous change; \"has improved\" = completed result",
+        "\"Has improved\" = process",
+        "\"Has been improving\" = one time"
+      ],
+      "correct": "\"Has been improving\" = process/continuous change; \"has improved\" = completed result",
+      "hint": "Present Perfect Continuous → focuses on the ongoing process. Present Perfect Simple → focuses on the completed result. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The correlation HAS BEEN documented across decades.\" — Passive Present Perfect because:",
+      "opts": [
+        "We don't know who documented it",
+        "It's a general established fact — agent less important",
+        "It happened once",
+        "It will be documented"
+      ],
+      "correct": "It's a general established fact — agent less important",
+      "hint": "Passive Present Perfect = focus on the established fact/result, not who documented it. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Graduates ___ (arrive) without the skills they need.\" (employers' complaint, ongoing)",
+      "correct": "have been arriving",
+      "hint": "Ongoing complaint about a pattern = Present Perfect Continuous. \"Graduates HAVE BEEN ARRIVING without the skills they need.\" ✅"
+    }
+  ]
+}

@@ -1,0 +1,528 @@
+{
+  "id": "l49-g1",
+  "moduleNum": 15,
+  "lessonNum": 3,
+  "moduleTitle": "Things Being Done",
+  "type": "grammar",
+  "title": "Passive Voice: was/were + Past Participle",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Passive Voice — Forming and Using the Passive",
+  "grammarNote": "Страдательный залог (passive voice) используется, когда действие важнее того, кто его совершает. Структура: TO BE (в нужном времени) + PAST PARTICIPLE (3-я форма глагола). Если нужно указать исполнителя — добавляем BY + агент. В Present Simple: am/is/are + pp. В Past Simple: was/were + pp.",
+  "grammarTable": [
+    {
+      "subject": "Present Simple",
+      "verb": "am/is/are + pp",
+      "short": "now / general",
+      "example": "\"The milk is produced on local farms.\" / \"Products are inspected daily.\""
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "was/were + pp",
+      "short": "finished past",
+      "example": "\"The building was designed in 1955.\" / \"The students were told about it.\""
+    },
+    {
+      "subject": "Present Perfect",
+      "verb": "has/have been + pp",
+      "short": "past → now",
+      "example": "\"Your application has been received.\" / \"The error has been fixed.\""
+    },
+    {
+      "subject": "Future (will)",
+      "verb": "will be + pp",
+      "short": "future",
+      "example": "\"The results will be announced tomorrow.\" / \"You will be contacted soon.\""
+    },
+    {
+      "subject": "Modal",
+      "verb": "modal + be + pp",
+      "short": "can/must/should",
+      "example": "\"It can be done.\" / \"It must be checked.\" / \"It should be approved.\""
+    },
+    {
+      "subject": "With BY",
+      "verb": "+ by + agent",
+      "short": "who did it?",
+      "example": "\"The letter was written by Kamila.\" / \"It was built by a local company.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "How to form the passive: step by step",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Step 1: find the object of the active",
+          "example": "\"Workers built the bridge.\" → \"the bridge\" (object) becomes the new subject."
+        },
+        {
+          "form": "Step 2: choose the right form of \"be\"",
+          "example": "\"built\" = past → use \"was/were\". \"The bridge was...\""
+        },
+        {
+          "form": "Step 3: add the past participle",
+          "example": "\"The bridge was built.\" ✅"
+        },
+        {
+          "form": "Step 4: optionally add \"by + agent\"",
+          "example": "\"The bridge was built by local workers.\" (agent = who did it)"
+        }
+      ]
+    },
+    {
+      "title": "Passive across tenses",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Present: is/are + pp",
+          "example": "\"The exam is marked by the professor.\" / \"The products are checked every day.\""
+        },
+        {
+          "form": "Past: was/were + pp",
+          "example": "\"The exam was marked yesterday.\" / \"The city was founded in 1850.\""
+        },
+        {
+          "form": "Present Perfect: has/have been + pp",
+          "example": "\"Your essay has been received.\" / \"The results have been published.\""
+        },
+        {
+          "form": "Future: will be + pp",
+          "example": "\"The test will be given next week.\" / \"You will be informed.\""
+        },
+        {
+          "form": "Modal: can/must/should + be + pp",
+          "example": "\"The problem can be solved.\" / \"This must be reported.\" / \"It should be checked.\""
+        }
+      ]
+    },
+    {
+      "title": "When to use passive (and when not to)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "USE when: actor is unknown",
+          "example": "\"The window was broken.\" (we don't know who did it)"
+        },
+        {
+          "form": "USE when: actor is obvious/unimportant",
+          "example": "\"The president was elected.\" (everyone knows it's voters)"
+        },
+        {
+          "form": "USE when: result matters more",
+          "example": "\"The vaccine was developed in 2020.\" (the development matters, not exactly who)"
+        },
+        {
+          "form": "AVOID when: actor is clear and important",
+          "example": "✗ \"The essay was written by me.\" → ✅ \"I wrote the essay.\" (active is clearer)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common passive mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"The book was write by her.\"",
+          "example": "✅ \"The book was WRITTEN by her.\" — must use past participle, not base form!"
+        },
+        {
+          "form": "✗ \"The car is broke.\"",
+          "example": "✅ \"The car was BROKEN.\" (past) or \"The car IS BROKEN.\" (state adjective)"
+        },
+        {
+          "form": "✗ \"It was builded.\"",
+          "example": "✅ \"It was BUILT.\" — irregular past participles! (build → built, not builded)"
+        },
+        {
+          "form": "✗ \"She is known by everyone.\"",
+          "example": "✅ \"She is known by everyone.\" — actually correct! \"known\" = past participle of \"know\"."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Страдательный залог — формула:\nTO BE (нужное время) + PAST PARTICIPLE\n\nPresent: am/is/are + pp\n\"It is made.\" / \"They are produced.\"\n\nPast: was/were + pp\n\"It was made.\" / \"They were produced.\"\n\nPerfect: has/have been + pp\n\"It has been made.\"\n\nFuture: will be + pp\n\"It will be made.\"\n\n+ BY + агент (если нужно):\n\"It was built BY students.\"\n\n⚠️ Частые нарушения:\n✗ was write → ✅ was written\n✗ was builded → ✅ was built\n✗ is maked → ✅ is made\nВсегда используй 3-ю форму (past participle)!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct passive form.",
+      "text": "The bridge ___ in 1978.",
+      "opts": [
+        "is built",
+        "was built",
+        "were built",
+        "has built"
+      ],
+      "correct": "was built",
+      "hint": "Past passive = \"was/were + past participle\". \"The bridge WAS BUILT in 1978.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct passive form.",
+      "text": "\"The products ___ every morning.\" (check — present simple passive)",
+      "correct": "are checked",
+      "hint": "Present passive: am/is/ARE + past participle. \"The products ARE CHECKED every morning.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Convert to passive.",
+      "text": "\"Workers designed the bridge.\" → The bridge ___.",
+      "opts": [
+        "was designed by workers",
+        "designed by workers",
+        "is designed by workers",
+        "were designed by workers"
+      ],
+      "correct": "was designed by workers",
+      "hint": "\"Workers designed...\" = past active → \"The bridge WAS DESIGNED by workers.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The car was drove by him.\" is a correct passive sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"The car was DRIVEN by him.\" — \"drive\" → irregular past participle = \"driven\". Not \"drove\"!"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct passive form.",
+      "text": "\"Your application ___ already.\" (receive — present perfect passive)",
+      "opts": [
+        "has been received",
+        "was received",
+        "is received",
+        "have been received"
+      ],
+      "correct": "has been received",
+      "hint": "Present perfect passive: has/have + been + pp. \"Your application HAS BEEN RECEIVED.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the passive form.",
+      "text": "\"The results ___ tomorrow.\" (announce — future passive)",
+      "correct": "will be announced",
+      "hint": "Future passive: will + be + pp. \"The results WILL BE ANNOUNCED tomorrow.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which sentence uses the passive correctly?",
+      "text": "Choose the correct passive sentence.",
+      "opts": [
+        "\"The letter was write by Kamila.\"",
+        "\"The letter was written by Kamila.\"",
+        "\"The letter is wrote by Kamila.\"",
+        "\"The letter wrote by Kamila.\""
+      ],
+      "correct": "\"The letter was written by Kamila.\"",
+      "hint": "\"was WRITTEN\" = correct past passive. Past participle of \"write\" = \"written\". ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Convert to passive voice.",
+      "text": "\"They built this mosque in 1850.\"",
+      "opts": [
+        "This mosque was built in 1850.",
+        "This mosque built in 1850.",
+        "This mosque is built in 1850.",
+        "Built this mosque in 1850."
+      ],
+      "correct": "This mosque was built in 1850.",
+      "hint": "\"They built...\" = past active → \"This mosque WAS BUILT in 1850.\" ✅ (No need to add \"by them\" — agent is obvious/unimportant)"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"The problem ___ easily.\" (solve — modal passive: can)",
+      "correct": "can be solved",
+      "hint": "Modal passive: modal + be + pp. \"The problem CAN BE SOLVED easily.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which is the BEST version?",
+      "text": "\"The essay was written by me.\" OR \"I wrote the essay.\"",
+      "opts": [
+        "Both are equally good",
+        "\"The essay was written by me.\" — passive is better",
+        "\"I wrote the essay.\" — active is clearer when speaker is the agent",
+        "Neither is correct"
+      ],
+      "correct": "\"I wrote the essay.\" — active is clearer when speaker is the agent",
+      "hint": "When the agent is important and obvious (you!), active is better. \"I wrote the essay.\" ✅ is more natural."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete the passive sentence.",
+      "text": "\"Three people ___ in the accident.\" (injure — past simple passive)",
+      "correct": "were injured",
+      "hint": "\"Three people\" = plural → \"WERE INJURED.\" Past passive plural. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct passive with BY.",
+      "text": "\"The theory ___ Darwin.\" (propose — past passive)",
+      "opts": [
+        "was proposed by",
+        "is proposed by",
+        "were proposed by",
+        "has proposed by"
+      ],
+      "correct": "was proposed by",
+      "hint": "\"The theory WAS PROPOSED BY Darwin.\" ✅ — past passive + by + agent."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The passive voice is formed with:",
+      "opts": [
+        "to do + base form",
+        "to be + past participle",
+        "to have + infinitive",
+        "modal + past tense"
+      ],
+      "correct": "to be + past participle",
+      "hint": "Passive = TO BE (correct tense) + PAST PARTICIPLE. \"is built\", \"was made\", \"has been approved\"."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The building was designed in 1955.\" This is:",
+      "opts": [
+        "Present passive",
+        "Past passive",
+        "Future passive",
+        "Modal passive"
+      ],
+      "correct": "Past passive",
+      "hint": "\"WAS designed\" = was/were + past participle = past simple passive. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The data ___ every week.\" (process — present simple passive)",
+      "correct": "is processed",
+      "hint": "Present passive: \"The data IS PROCESSED every week.\" (data = singular → \"is\") ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They built the bridge.\" → Passive:",
+      "opts": [
+        "The bridge built.",
+        "The bridge was built.",
+        "The bridge is built.",
+        "Built the bridge."
+      ],
+      "correct": "The bridge was built.",
+      "hint": "\"They BUILT (past)\" → \"The bridge WAS BUILT.\" ✅ (past passive)"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The vaccine ___ in 2020.\" (develop — past passive)",
+      "opts": [
+        "was developed",
+        "is developed",
+        "were developed",
+        "has developed"
+      ],
+      "correct": "was developed",
+      "hint": "\"was developed\" = past simple passive. ✅ Correct tense for 2020."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Your essay has been received.\" — What tense?",
+      "opts": [
+        "Past simple",
+        "Present simple",
+        "Present perfect passive",
+        "Future"
+      ],
+      "correct": "Present perfect passive",
+      "hint": "\"HAS BEEN received\" = has/have + been + past participle = present perfect passive. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The results will be announced tomorrow.\" — What form?",
+      "opts": [
+        "Past passive",
+        "Modal passive",
+        "Future passive (will be + pp)",
+        "Present passive"
+      ],
+      "correct": "Future passive (will be + pp)",
+      "hint": "\"WILL BE announced\" = future passive = will + be + past participle. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The problem can be solved.\" — \"Can be solved\" uses:",
+      "opts": [
+        "Can + past tense",
+        "Modal + be + past participle",
+        "Can + have + past participle",
+        "Modal + was + infinitive"
+      ],
+      "correct": "Modal + be + past participle",
+      "hint": "Modal passive: modal + BE + past participle. \"Can BE SOLVED.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The letter ___ (write) by Kamila.\"",
+      "correct": "was written",
+      "hint": "\"was WRITTEN\" — past passive. Past participle of \"write\" = \"written\". ✅ Never \"was wrote\"!"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When is passive voice most appropriate?",
+      "opts": [
+        "When the agent is important and known",
+        "When the action or result is more important than who did it",
+        "Always — it's more formal",
+        "Never — active is always better"
+      ],
+      "correct": "When the action or result is more important than who did it",
+      "hint": "Passive is best when the action matters more than the actor — or when the actor is unknown."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The building was builded in 1978.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"was\" should be \"were\"",
+        "\"builded\" should be \"built\" — irregular past participle",
+        "\"The building\" should be \"Buildings\""
+      ],
+      "correct": "\"builded\" should be \"built\" — irregular past participle",
+      "hint": "✅ \"build\" → past participle = \"built\". \"The building WAS BUILT in 1978.\" — never \"builded\"!"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Three students ___ (tell) about the exam.\" (past passive, plural)",
+      "correct": "were told",
+      "hint": "Plural subject → \"WERE told.\" Past passive. \"tell\" → past participle = \"told\". ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Mistakes were made.\" — What is NOT stated?",
+      "opts": [
+        "The action",
+        "The tense",
+        "Who made the mistakes (the agent)",
+        "The subject"
+      ],
+      "correct": "Who made the mistakes (the agent)",
+      "hint": "The agent (who made the mistakes) is not stated. This is the \"invisible agent\" — often intentionally omitted!"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "How do you add the agent in a passive sentence?",
+      "opts": [
+        "\"with\" + agent",
+        "\"by\" + agent",
+        "\"from\" + agent",
+        "\"at\" + agent"
+      ],
+      "correct": "\"by\" + agent",
+      "hint": "\"The cake was baked BY Kamila.\" — Always \"BY\" + agent. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The application ___ (process) within two weeks.\" (future passive)",
+      "correct": "will be processed",
+      "hint": "Future passive: \"will be + past participle\". \"The application WILL BE PROCESSED within two weeks.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The bridge was built.\" — Active voice equivalent:",
+      "opts": [
+        "Built the bridge.",
+        "Someone built the bridge.",
+        "Building the bridge.",
+        "The bridge is building."
+      ],
+      "correct": "Someone built the bridge.",
+      "hint": "\"The bridge was built.\" → \"Someone/They BUILT the bridge.\" (active equivalent — agent unknown so we say \"someone\")"
+    }
+  ]
+}

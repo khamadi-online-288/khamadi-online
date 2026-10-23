@@ -1,0 +1,235 @@
+{
+  "id": "l41-4",
+  "moduleNum": 7,
+  "lessonNum": 5,
+  "moduleTitle": "Obligations & Advice",
+  "type": "writing",
+  "title": "Advice for a New Student at WKU",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "You must...",
+      "emoji": "❗",
+      "opts": [
+        "Ты можешь...",
+        "Тебе нужно обязательно...",
+        "Ты не должен...",
+        "Тебе не нужно..."
+      ],
+      "correct": "Тебе нужно обязательно..."
+    },
+    {
+      "id": "p2",
+      "word": "You should...",
+      "emoji": "💡",
+      "opts": [
+        "Тебе запрещено...",
+        "Я рекомендую...",
+        "Тебе обязательно...",
+        "Тебе не нужно..."
+      ],
+      "correct": "Я рекомендую..."
+    },
+    {
+      "id": "p3",
+      "word": "You mustn't...",
+      "emoji": "🚫",
+      "opts": [
+        "Тебе не нужно...",
+        "Тебе запрещено...",
+        "Тебе следует...",
+        "Ты можешь..."
+      ],
+      "correct": "Тебе запрещено..."
+    },
+    {
+      "id": "p4",
+      "word": "You don't have to...",
+      "emoji": "✅",
+      "opts": [
+        "Тебе запрещено...",
+        "Тебе не обязательно...",
+        "Ты должен...",
+        "Ты никогда..."
+      ],
+      "correct": "Тебе не обязательно..."
+    },
+    {
+      "id": "p5",
+      "word": "I strongly recommend",
+      "emoji": "⭐",
+      "opts": [
+        "Я категорически запрещаю",
+        "Я настоятельно рекомендую",
+        "Я слегка советую",
+        "Я не уверен"
+      ],
+      "correct": "Я настоятельно рекомендую"
+    },
+    {
+      "id": "p6",
+      "word": "In my experience",
+      "emoji": "💭",
+      "opts": [
+        "По моему мнению",
+        "По моему опыту",
+        "На мой взгляд",
+        "По моим данным"
+      ],
+      "correct": "По моему опыту"
+    }
+  ],
+  "writingModel": [
+    "Advice for a New Student at WKU — by Kamila Seitkali",
+    "Dear new student, welcome to WKU. I've been here for three years now, and I'd like to share some things I wish someone had told me on my first day. Some of these are rules you must follow. Others are advice — things I think you should do to have a genuinely good experience here.",
+    "First, the rules. You must attend at least 80% of every course. This is non-negotiable — missing more than 20% means automatic failure, regardless of your exam result. You also mustn't plagiarise. This includes copying from the internet, submitting another student's work, and using AI tools to write your assignments. The consequences are serious. I strongly recommend reading the academic integrity section of the student handbook in your first week.",
+    "Second, the practical advice. You should check your email every single day. The university sends important information there — deadlines, room changes, notifications about results. If you miss an email, you miss the information, and that's nobody's fault but your own. You also ought to speak to your academic adviser at least once per semester. They're there to help you.",
+    "Third, the things you don't need to worry about. You don't have to buy every book on the reading list — the library has most of them, and many are available online. You needn't memorise every rule from day one — the handbook is always available. And you don't have to know exactly what you want from your degree when you arrive. That comes with time.",
+    "In my experience, the most important thing is not to isolate yourself. You should talk to your classmates, join at least one student club, and ask for help when you need it. The student support office exists precisely for people who feel lost. You needn't go through any of this alone.",
+    "One last thing: be kind to yourself. You must take your obligations seriously, but you shouldn't expect to be perfect from day one. You're going to make mistakes — that's what learning looks like. What matters is that you keep going.",
+    "Good luck. WKU is a good place. Use it well."
+  ],
+  "writingTemplate": [
+    {
+      "key": "greeting",
+      "prefix": "Dear new student,\n\n",
+      "suffix": "",
+      "placeholder": "brief welcome",
+      "hint": "Start with a warm welcome line."
+    },
+    {
+      "key": "intro",
+      "prefix": "I've been at WKU for ",
+      "suffix": ", and I'd like to share some advice.",
+      "placeholder": "how long you've been here",
+      "hint": "Establish your experience/credibility."
+    },
+    {
+      "key": "rule1",
+      "prefix": "First, the rules. You must ",
+      "suffix": ".",
+      "placeholder": "the most important rule (attendance/integrity)",
+      "hint": "Use \"must\" for non-negotiable obligations."
+    },
+    {
+      "key": "rule2",
+      "prefix": "You also mustn't ",
+      "suffix": ".",
+      "placeholder": "a key prohibition (plagiarism/phone in exam)",
+      "hint": "Use \"mustn't\" for prohibited actions."
+    },
+    {
+      "key": "rule3",
+      "prefix": "I strongly recommend ",
+      "suffix": ".",
+      "placeholder": "reading the handbook / attending orientation",
+      "hint": "\"I strongly recommend + -ing...\" = strong personal advice."
+    },
+    {
+      "key": "advice1",
+      "prefix": "You should ",
+      "suffix": ".",
+      "placeholder": "daily advice (check email / talk to adviser)",
+      "hint": "\"should\" = recommendation. Good idea but not compulsory."
+    },
+    {
+      "key": "advice2",
+      "prefix": "You also ought to ",
+      "suffix": ".",
+      "placeholder": "another recommendation (join a club / ask for help)",
+      "hint": "\"ought to\" ≈ \"should\" (slightly more formal)."
+    },
+    {
+      "key": "optional1",
+      "prefix": "You don't have to ",
+      "suffix": ".",
+      "placeholder": "something optional (buy all books / know your future)",
+      "hint": "\"don't have to\" = not obligatory. Reassuring."
+    },
+    {
+      "key": "optional2",
+      "prefix": "You needn't ",
+      "suffix": ".",
+      "placeholder": "something not necessary (memorise rules / be perfect)",
+      "hint": "\"needn't\" = no need to. Gentle reassurance."
+    },
+    {
+      "key": "personal",
+      "prefix": "In my experience, the most important thing is to ",
+      "suffix": ".",
+      "placeholder": "your key personal lesson",
+      "hint": "Share your most important personal insight from experience."
+    },
+    {
+      "key": "closing",
+      "prefix": "Good luck. ",
+      "suffix": " Use it well.",
+      "placeholder": "your university / the experience / your time here",
+      "hint": "End warmly and positively."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Rules and obligations (must / have to)",
+      "color": "#EF4444",
+      "items": [
+        "You must + base verb (non-negotiable)",
+        "You have to + base verb (external rule)",
+        "You mustn't + base verb (prohibited)",
+        "It is compulsory to...",
+        "This is non-negotiable — you must..."
+      ]
+    },
+    {
+      "category": "Advice and recommendations (should / ought to)",
+      "color": "#1D9E75",
+      "items": [
+        "You should + base verb (advice)",
+        "You ought to + base verb (formal recommendation)",
+        "I strongly recommend + -ing...",
+        "I think you should...",
+        "It's a good idea to..."
+      ]
+    },
+    {
+      "category": "No obligation / reassurance (don't have to / needn't)",
+      "color": "#003876",
+      "items": [
+        "You don't have to + base verb (not necessary)",
+        "You needn't + base verb (no need)",
+        "It's not compulsory to...",
+        "You can if you want, but...",
+        "Don't worry about... — it's optional."
+      ]
+    },
+    {
+      "category": "Personal framing and tone",
+      "color": "#C9933B",
+      "items": [
+        "In my experience, ...",
+        "I wish someone had told me...",
+        "Looking back, I think...",
+        "The most important thing is...",
+        "Be kind to yourself — you don't have to be perfect."
+      ]
+    }
+  ]
+}

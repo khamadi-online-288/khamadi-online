@@ -1,0 +1,503 @@
+{
+  "id": "l67-g2",
+  "moduleNum": 9,
+  "lessonNum": 6,
+  "moduleTitle": "Wishes, Regrets & Hypotheticals",
+  "title": "Grammar: Hypothetical Structures — Supposing, Imagine, What if",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "\"Supposing\", \"Imagine\", \"What if\" — гипотетические ситуации:\n\nSUPPOSING / IMAGINE → предположим что... (+ Past Simple для нереального):\n\"Supposing you had a million dollars — what would you do?\"\n\"Imagine you could fly — where would you go?\"\n\nWHAT IF → что если бы... (риторический вопрос о гипотетическом):\n\"What if we missed the train? What would happen?\"\n\"What if she hadn't come? Everything would be different.\"\n\n💡 Все три конструкции работают как 2nd или 3rd Conditional — используй was/were, would, had.",
+  "grammarTable": [
+    {
+      "subject": "Supposing",
+      "verb": "+ past simple",
+      "short": "present/future hypothetical",
+      "example": "Supposing you lost your job — what would you do?"
+    },
+    {
+      "subject": "Supposing",
+      "verb": "+ past perfect",
+      "short": "past hypothetical",
+      "example": "Supposing she had refused — what then?"
+    },
+    {
+      "subject": "Imagine",
+      "verb": "+ past simple",
+      "short": "invitation to hypothesize",
+      "example": "Imagine you could live anywhere — where would it be?"
+    },
+    {
+      "subject": "What if",
+      "verb": "+ past simple",
+      "short": "speculative question",
+      "example": "What if we took a completely different approach?"
+    },
+    {
+      "subject": "What if",
+      "verb": "+ past perfect",
+      "short": "past speculation",
+      "example": "What if they had never met?"
+    },
+    {
+      "subject": "As if / As though",
+      "verb": "+ past simple or past perfect",
+      "short": "comparison to unreal situation",
+      "example": "He speaks as if he knew everything. / She talked as though nothing had happened."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Supposing: Present and Past",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Supposing + past simple → would + verb",
+          "example": "Supposing you had a million dollars — what would you do?"
+        },
+        {
+          "form": "Supposing + past perfect → would have + pp",
+          "example": "Supposing she had known — would she have acted differently?"
+        },
+        {
+          "form": "\"Supposing\" can replace \"If\" entirely in hypothetical sentences",
+          "example": "Supposing it rained tomorrow — would you still come?"
+        }
+      ]
+    },
+    {
+      "title": "What if: Questions and Reflections",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "What if + past simple (present/future hypothetical)",
+          "example": "What if we changed the plan entirely?"
+        },
+        {
+          "form": "What if + past perfect (past hypothetical)",
+          "example": "What if she hadn't sent that email?"
+        },
+        {
+          "form": "\"What if\" often appears as a standalone question",
+          "example": "What if everything we know is wrong?"
+        }
+      ]
+    },
+    {
+      "title": "As if / As though: Comparison to Unreal",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Verb + as if/as though + past simple",
+          "example": "He acts as if he owned the place. (He doesn't.)"
+        },
+        {
+          "form": "Verb + as if/as though + past perfect",
+          "example": "She looked as though she had seen a ghost."
+        },
+        {
+          "form": "Note: After \"as if/though,\" was OR were is acceptable",
+          "example": "He looks as if he was/were exhausted."
+        }
+      ]
+    },
+    {
+      "title": "Inverted Conditionals (Formal/Academic)",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Had + subject + past participle (= If + subject + had + pp)",
+          "example": "Had she arrived earlier, she would have caught the train."
+        },
+        {
+          "form": "Were + subject + to + infinitive (= If + subject + were to)",
+          "example": "Were we to accept, the consequences would be significant."
+        },
+        {
+          "form": "Should + subject + infinitive (= If + subject + should)",
+          "example": "Should you require further information, please contact us."
+        }
+      ]
+    },
+    {
+      "title": "Mixed Use: Combining Hypothetical Frames",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Imagine + what if inside one sentence",
+          "example": "\"Imagine what might have happened if they had stayed.\""
+        },
+        {
+          "form": "Suppose + as if together",
+          "example": "\"Suppose we agreed — it would feel as though we had given up.\""
+        },
+        {
+          "form": "These combinations appear in academic debate and creative writing",
+          "example": "\"What if, supposing the theory is correct, we reconsidered our approach?\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"Supposing you ___ (find) a wallet full of money — what would you do?\"",
+      "opts": [
+        "find",
+        "found",
+        "had found",
+        "will find"
+      ],
+      "correct": "found",
+      "hint": "Supposing + past simple = present/future hypothetical"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"What if they ___ (not/arrive) on time? The whole plan would have collapsed.\" (past hypothetical)",
+      "correct": "hadn't arrived",
+      "hint": "What if + past perfect for past hypotheticals"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct form for \"as if.\"",
+      "text": "\"She talks ___ she knew everything about the subject.\"",
+      "opts": [
+        "as if she knew",
+        "as if she know",
+        "as if she would know",
+        "as if she will know"
+      ],
+      "correct": "as if she knew",
+      "hint": "As if + past simple = unreal present comparison"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Rewrite as an inverted conditional.",
+      "text": "\"If you should need help, call us immediately.\" → ___ you need help, call us immediately.",
+      "correct": "Should",
+      "hint": "Should + subject = inverted \"if + should\" conditional"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct hypothetical starter.",
+      "text": "\"___ you won the lottery — would you quit your job?\" (speculative question)",
+      "opts": [
+        "Imagine",
+        "Supposing",
+        "What if",
+        "All of the above"
+      ],
+      "correct": "All of the above",
+      "hint": "All three can introduce this type of hypothetical"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct inverted form.",
+      "text": "\"___ she to refuse the offer, the company would seek other partners.\" (= If she were to refuse)",
+      "correct": "Were",
+      "hint": "Were + subject + to-infinitive = formal inverted present conditional"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "What does this mean?",
+      "text": "\"He acted as though he had never met her before.\"",
+      "opts": [
+        "He had genuinely never met her",
+        "He behaved as if he didn't know her, even though he did",
+        "He introduced himself for the first time",
+        "He forgot who she was"
+      ],
+      "correct": "He behaved as if he didn't know her, even though he did",
+      "hint": "\"As though + past perfect\" = comparison to an unreal/contrary past situation"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Write the full sentence.",
+      "text": "\"___ they had invested earlier, the returns would have been much higher.\" (= If they had invested)",
+      "correct": "Had",
+      "hint": "Inverted past conditional: Had + subject + pp"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which sentence uses \"what if\" correctly?",
+      "text": "",
+      "opts": [
+        "What if you will change your mind?",
+        "What if you changed your mind?",
+        "What if you are changing your mind?",
+        "What if you change to your mind?"
+      ],
+      "correct": "What if you changed your mind?",
+      "hint": "What if + past simple for hypothetical"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with \"as if\" or \"as though\" + past perfect.",
+      "text": "\"She looked ___ she had just run a marathon.\" (She looked exhausted)",
+      "correct": "as if she had",
+      "hint": "As if/though + past perfect for unreal past comparison"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "text": "",
+      "instruction": "Which is the formal inverted version of \"If you should have any questions…\"?",
+      "opts": [
+        "Had you any questions…",
+        "Were you to have questions…",
+        "Should you have any questions…",
+        "If only you had questions…"
+      ],
+      "correct": "Should you have any questions…",
+      "hint": "Should + subject = inverted conditional for polite offers/conditions"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the hypothetical question.",
+      "text": "\"___ you could redesign this city — what would you change first?\"",
+      "correct": "Imagine",
+      "hint": "\"Imagine\" introduces hypothetical invitation"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct version.",
+      "text": "\"Supposing she ___ the truth — what would have happened?\"",
+      "opts": [
+        "knew",
+        "had known",
+        "knows",
+        "would know"
+      ],
+      "correct": "had known",
+      "hint": "Supposing + past perfect = past hypothetical"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"He spent money ___ it ___ no limit.\" (= As if there were no limit)",
+      "correct": "as if / had / were",
+      "hint": "As if + past simple/were for unreal present comparison"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence is MOST formal?",
+      "opts": [
+        "If they had reviewed the contract, the problem would not have occurred.",
+        "If only they had reviewed the contract.",
+        "Had they reviewed the contract, the problem would not have occurred.",
+        "Supposing they had reviewed the contract — the problem would not have occurred."
+      ],
+      "correct": "Had they reviewed the contract, the problem would not have occurred.",
+      "hint": "Inverted conditionals are most formal"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What is the difference between these two?",
+      "text": "\"What if we tried a new approach?\" vs \"What if we had tried a new approach?\"",
+      "opts": [
+        "No difference",
+        "First = future/present; Second = past hypothetical",
+        "First = formal; Second = informal",
+        "First = question; Second = statement"
+      ],
+      "correct": "First = future/present; Second = past hypothetical",
+      "hint": "Past simple = present/future hypothetical; past perfect = past hypothetical"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Supposing you ___ the job — would you take it?\" (future hypothetical)",
+      "opts": [
+        "get",
+        "got",
+        "had got",
+        "will get"
+      ],
+      "correct": "got",
+      "hint": "Supposing + past simple = present/future hypothetical",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ they had acted sooner, the crisis would have been avoided.\" (Formal inverted — past)",
+      "correct": "Had",
+      "hint": "Had + subject + pp = inverted past conditional",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She acts as though she ___ the whole city.\" (She doesn't own it)",
+      "opts": [
+        "owns",
+        "owned",
+        "has owned",
+        "will own"
+      ],
+      "correct": "owned",
+      "hint": "As if/though + past simple = unreal present",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ you require assistance, please do not hesitate to contact us.\" (Formal inverted polite condition)",
+      "correct": "Should",
+      "hint": "Should + subject = formal inverted conditional",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which introduces a past hypothetical correctly?",
+      "opts": [
+        "Supposing she decides to leave",
+        "What if she had decided to leave",
+        "Imagine she decides to leave",
+        "Should she decide to leave"
+      ],
+      "correct": "What if she had decided to leave",
+      "hint": "Past perfect after \"what if\" = past hypothetical",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Were we to accept the terms, the consequences would be serious.\" This is a formal present hypothetical.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Were + subject + to-infinitive = formal present conditional",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"He looked as though he ___ up all night.\" (He had been up all night)",
+      "opts": [
+        "was",
+        "had been",
+        "were",
+        "would be"
+      ],
+      "correct": "had been",
+      "hint": "As though + past perfect = unreal past comparison",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ you could redesign the education system — where would you start?\"",
+      "correct": "Imagine",
+      "hint": "\"Imagine\" + past simple hypothetical",
+      "points": 1
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is NOT a correct hypothetical starter?",
+      "opts": [
+        "Supposing you knew…",
+        "What if you knew…",
+        "Imagine you knew…",
+        "Although you knew…"
+      ],
+      "correct": "Although you knew…",
+      "hint": "\"Although\" expresses concession, not hypothesis",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"What if we ___ the whole strategy?\" (Present/future hypothetical — rethink)",
+      "opts": [
+        "rethink",
+        "rethought",
+        "had rethought",
+        "will rethink"
+      ],
+      "correct": "rethought",
+      "hint": "What if + past simple = present/future hypothetical",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ she to submit the proposal today, the board would consider it this week.\" (= If she were to submit)",
+      "correct": "Were",
+      "hint": "Were + subject + to-infinitive = formal present conditional",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Supposing they hadn't merged the companies — would the outcome have been better?\" This asks about…",
+      "opts": [
+        "A future possibility",
+        "A present situation",
+        "A past hypothetical event",
+        "An ongoing process"
+      ],
+      "correct": "A past hypothetical event",
+      "hint": "Supposing + past perfect = past hypothetical",
+      "points": 2
+    }
+  ]
+}

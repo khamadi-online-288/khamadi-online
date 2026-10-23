@@ -1,0 +1,490 @@
+{
+  "id": "l36-g2",
+  "moduleNum": 2,
+  "lessonNum": 4,
+  "moduleTitle": "What's Happening Now?",
+  "type": "grammar",
+  "title": "Present Continuous vs Present Simple",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Continuous vs Present Simple — How to Choose",
+  "grammarNote": "Это одна из самых важных тем на уровне A2. Present Simple описывает ПРИВЫЧКИ, ФАКТЫ и ОБЩИЕ ИСТИНЫ. Present Continuous описывает действия, происходящие ПРЯМО СЕЙЧАС или во ВРЕМЕННОЙ ПЕРИОД. Ключ — это вопрос: \"Это постоянное или временное?\"",
+  "grammarTable": [
+    {
+      "subject": "Present Simple",
+      "verb": "I study every day.",
+      "short": "Habit/Routine",
+      "example": "She always reviews her notes after class. (habit)"
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "I am studying right now.",
+      "short": "Now/Temporary",
+      "example": "She is reviewing her notes at the moment. (now)"
+    },
+    {
+      "subject": "Present Simple",
+      "verb": "Water boils at 100°C.",
+      "short": "Fact/Truth",
+      "example": "The sun rises in the east. (permanent fact)"
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "Prices are rising.",
+      "short": "Changing trend",
+      "example": "Technology is developing very fast. (ongoing change)"
+    },
+    {
+      "subject": "Present Simple",
+      "verb": "I live in Uralsk.",
+      "short": "Permanent state",
+      "example": "She works at WKU. (permanent/long-term situation)"
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "I'm living with my cousin.",
+      "short": "Temporary state",
+      "example": "He's working from home this week. (temporary)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Signal words — which tense do they trigger?",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Present Simple signals",
+          "example": "always, usually, often, sometimes, rarely, never, every day/week, on Mondays, generally"
+        },
+        {
+          "form": "Present Continuous signals",
+          "example": "right now, at the moment, currently, today, this week/semester, look!, listen!, now"
+        },
+        {
+          "form": "Both can use \"today\"",
+          "example": "\"I study every day.\" (PS) vs \"I'm studying all day today.\" (PC — specific today)"
+        },
+        {
+          "form": "Both can use \"this year\"",
+          "example": "\"I study hard this year.\" (general) vs \"I'm studying harder this year.\" (changing)"
+        }
+      ]
+    },
+    {
+      "title": "Same verb, different meaning",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "\"She lives in Uralsk.\"",
+          "example": "Present Simple = permanent. She has lived there for years."
+        },
+        {
+          "form": "\"She's living with her aunt.\"",
+          "example": "Present Continuous = temporary. Just for this month."
+        },
+        {
+          "form": "\"He works at WKU.\"",
+          "example": "Present Simple = his permanent job."
+        },
+        {
+          "form": "\"He's working from home today.\"",
+          "example": "Present Continuous = temporary, just for today."
+        },
+        {
+          "form": "\"I think it's great.\"",
+          "example": "Present Simple: think = opinion (stative)."
+        },
+        {
+          "form": "\"I'm thinking about it.\"",
+          "example": "Present Continuous: think = process/considering (not stative here!)."
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common confusion errors",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I study in the library right now.\"",
+          "example": "✅ \"I'm studying in the library right now.\" — right now = PC!"
+        },
+        {
+          "form": "✗ \"She is studying every morning.\"",
+          "example": "✅ \"She studies every morning.\" — every morning = PS habit!"
+        },
+        {
+          "form": "✗ \"What does he doing?\" / \"He doesn't study now.\"",
+          "example": "✅ \"What is he doing?\" / \"He isn't studying now.\" — use be, not do/does, for PC."
+        },
+        {
+          "form": "✗ \"I am knowing the answer.\"",
+          "example": "✅ \"I know the answer.\" — stative: never in Continuous."
+        }
+      ]
+    },
+    {
+      "title": "Asking questions: right now vs in general",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "\"What do you do?\" (in general)",
+          "example": "\"I'm a student.\" / \"I study Computer Science.\" — about your life."
+        },
+        {
+          "form": "\"What are you doing?\" (right now)",
+          "example": "\"I'm fixing a bug.\" / \"I'm waiting for Kamila.\" — current action."
+        },
+        {
+          "form": "\"Where do you live?\" (permanent)",
+          "example": "\"I live in Uralsk.\" — long-term situation."
+        },
+        {
+          "form": "\"Where are you staying?\" (temporary)",
+          "example": "\"I'm staying with my aunt this month.\" — not permanent."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Простой тест для выбора времени:\n① Спроси: \"Это постоянное или временное?\" → Постоянное = Present Simple. Временное = Present Continuous.\n② Спроси: \"Это прямо сейчас или всегда?\" → Прямо сейчас = Present Continuous. Всегда = Present Simple.\n③ Найди сигнальные слова: always/never/every day → PS. Right now/at the moment/currently → PC.\n④ Если глагол stative (know/like/want/have/understand) — ВСЕГДА Present Simple!\n\n💡 Запомни: 'right now' → Present Continuous. 'every day' → Present Simple. Это 90% случаев.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "Amir ___ in the library every Tuesday, but today he ___ in the lab.",
+      "opts": [
+        "studies / is working",
+        "is studying / works",
+        "study / is working",
+        "studies / works"
+      ],
+      "correct": "studies / is working",
+      "hint": "every Tuesday = PS (habit). today he is doing something different = PC (temporary/now)."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "Shhh! The professor ___ . Listen!",
+      "opts": [
+        "speaks",
+        "is speaking",
+        "speak",
+        "was speaking"
+      ],
+      "correct": "is speaking",
+      "hint": "\"Listen!\" and \"Shhh!\" are signals for right now → Present Continuous."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct tense.",
+      "text": "Kamila ___ (usually / work) until 9 p.m., but tonight she ___ (finish) early.",
+      "correct": "usually works / is finishing",
+      "hint": "usually = PS habit. tonight = temporary/different from normal = PC."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct tense for this question.",
+      "text": "\"___ you do in your free time?\" (in general)",
+      "opts": [
+        "Are / doing",
+        "Do / do",
+        "Is / doing",
+        "Were / do"
+      ],
+      "correct": "Do / do",
+      "hint": "\"In general\" = about your life and habits → Present Simple. \"What do you do in your free time?\""
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She is studying every evening\" is correct because she studies a lot.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"every evening\" = frequency adverb = Present Simple. ✅ \"She studies every evening.\" NOT \"is studying every evening\"."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the right tense.",
+      "text": "Technology ___ very fast these days — it's amazing.",
+      "opts": [
+        "develops",
+        "is developing",
+        "was developing",
+        "developed"
+      ],
+      "correct": "is developing",
+      "hint": "\"these days\" + ongoing change = Present Continuous. Technology is changing right now (developing trend)."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete both gaps.",
+      "text": "He ___ (live) in Aktobe, but this semester he ___ (stay) in the WKU dormitory.",
+      "correct": "lives / is staying",
+      "hint": "\"lives in Aktobe\" = permanent fact = PS. \"staying in the dormitory\" = temporary this semester = PC."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which question asks about a CURRENT action (right now)?",
+      "text": "Choose the correct question for \"right now\".",
+      "opts": [
+        "What do you usually do at weekends?",
+        "What are you doing at the moment?",
+        "What do you do for a living?",
+        "How often do you go to the library?"
+      ],
+      "correct": "What are you doing at the moment?",
+      "hint": "\"At the moment\" → right now → Present Continuous question: \"What are you doing?\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct tense: \"She ___ in the library every Thursday.\" ",
+      "opts": [
+        "is working",
+        "works",
+        "are working",
+        "working"
+      ],
+      "correct": "works",
+      "hint": "\"every Thursday\" = frequency adverb → Present Simple habit."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct tense: \"Look! She ___ a first-year student.\"",
+      "opts": [
+        "helps",
+        "is helping",
+        "helped",
+        "help"
+      ],
+      "correct": "is helping",
+      "hint": "\"Look!\" = signal for right now → Present Continuous."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (live) in Uralsk, but this month I ___ (stay) in Astana.\"",
+      "correct": "live / am staying",
+      "hint": "live = permanent (PS). staying this month = temporary (PC)."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Right now\" is a signal word for Present Simple.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"right now\" → action happening at this moment → Present Continuous. \"every day\" → Present Simple."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ her notes every night after class.\" (habit)",
+      "opts": [
+        "is reviewing",
+        "reviews",
+        "review",
+        "reviewing"
+      ],
+      "correct": "reviews",
+      "hint": "\"every night\" = regular habit → Present Simple: she reviews."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ her notes right now.\" (current action)",
+      "opts": [
+        "reviews",
+        "review",
+        "is reviewing",
+        "are reviewing"
+      ],
+      "correct": "is reviewing",
+      "hint": "\"right now\" = Present Continuous: she is reviewing."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence has a stative verb used INCORRECTLY?",
+      "opts": [
+        "She's living with her aunt.",
+        "I'm wanting a coffee.",
+        "He's studying for the exam.",
+        "They're meeting at 6."
+      ],
+      "correct": "I'm wanting a coffee.",
+      "hint": "\"want\" is stative → always Present Simple: \"I want a coffee.\" ✅ Never \"I'm wanting.\""
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Technology ___ very fast these days.\" Choose the correct form.",
+      "opts": [
+        "change",
+        "changes",
+        "is changing",
+        "was changing"
+      ],
+      "correct": "is changing",
+      "hint": "\"these days\" + ongoing trend → PC. Technology is currently changing/developing."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir ___ (usually / fix) bugs alone, but today Rustam ___ (help).",
+      "correct": "usually fixes / is helping",
+      "hint": "usually = PS. today (different/current) = PC."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What ___ you ___ for a living?\" vs \"What ___ you ___ right now?\"",
+      "opts": [
+        "do/do — are/doing",
+        "are/doing — do/do",
+        "do/doing — are/do",
+        "is/do — are/doing"
+      ],
+      "correct": "do/do — are/doing",
+      "hint": "\"for a living\" = in general = PS: \"What do you do?\" / \"right now\" = current action = PC: \"What are you doing?\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I think English is important.\" — why is this Present Simple?",
+      "opts": [
+        "Because it's a habit",
+        "Because \"think\" expresses an opinion (stative)",
+        "Because it happened in the past",
+        "Because it's a fact about nature"
+      ],
+      "correct": "Because \"think\" expresses an opinion (stative)",
+      "hint": "\"think\" = opinion → stative → always PS. \"I think = I believe.\" But \"I'm thinking about it\" = I'm considering = PC ✅."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She is working from home today\" suggests this is a temporary arrangement.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "PC for temporary situations: \"is working today\" implies she doesn't normally work from home. It's just for today."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the sentence where BOTH tenses are used correctly.",
+      "opts": [
+        "She studies now and works every day.",
+        "She is studying now and works every day.",
+        "She is studying now and is working every day.",
+        "She studies now and is working every day."
+      ],
+      "correct": "She is studying now and works every day.",
+      "hint": "\"now\" → PC: is studying. \"every day\" → PS: works. Both must match their signal words."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Shhh! The baby ___!\" (sleep) — Complete with the correct tense.",
+      "correct": "is sleeping",
+      "hint": "\"Shhh!\" = be quiet because of something happening RIGHT NOW → PC: \"The baby is sleeping!\""
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Does he study every day?\" is a ___ question.",
+      "opts": [
+        "Present Continuous",
+        "Past Simple",
+        "Present Simple",
+        "Future Simple"
+      ],
+      "correct": "Present Simple",
+      "hint": "\"Does he...?\" = Present Simple question. (Present Continuous = \"Is he studying right now?\")"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"My English ___ this semester — I can feel it!\" Choose the right form.",
+      "opts": [
+        "improves",
+        "is improving",
+        "improved",
+        "improve"
+      ],
+      "correct": "is improving",
+      "hint": "Ongoing change/trend → PC: \"My English is improving.\" (getting better over a period = changing situation)."
+    }
+  ]
+}

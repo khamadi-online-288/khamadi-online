@@ -1,0 +1,222 @@
+{
+  "id": "l6-5",
+  "moduleNum": 6,
+  "lessonNum": 5,
+  "moduleTitle": "My hobbies",
+  "title": "My hobby profile",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "My favourite hobby is...",
+      "emoji": "❤️",
+      "opts": [
+        "Я хожу на...",
+        "Моё любимое хобби — это...",
+        "Мне нравится когда...",
+        "Моя любимая еда — это..."
+      ],
+      "correct": "Моё любимое хобби — это..."
+    },
+    {
+      "id": "p2",
+      "word": "I do it... times a week.",
+      "emoji": "📅",
+      "opts": [
+        "Я делаю это... дней подряд.",
+        "Я занимаюсь этим... раз в неделю.",
+        "Я трачу... часов в день.",
+        "Я начал это... лет назад."
+      ],
+      "correct": "Я занимаюсь этим... раз в неделю."
+    },
+    {
+      "id": "p3",
+      "word": "It makes me feel...",
+      "emoji": "😊",
+      "opts": [
+        "Это делает меня...",
+        "Это стоит мне...",
+        "Это похоже на...",
+        "Это помогает мне найти..."
+      ],
+      "correct": "Это делает меня..."
+    },
+    {
+      "id": "p4",
+      "word": "My friend... loves...",
+      "emoji": "👫",
+      "opts": [
+        "Мой друг... ненавидит...",
+        "Мой друг... не умеет...",
+        "Мой друг... обожает...",
+        "Мой друг... боится..."
+      ],
+      "correct": "Мой друг... обожает..."
+    },
+    {
+      "id": "p5",
+      "word": "He / She spends hours...",
+      "emoji": "⏱️",
+      "opts": [
+        "Он/Она тратит часы на...",
+        "Он/Она проводит дни без...",
+        "Он/Она никогда не...",
+        "Он/Она хочет..."
+      ],
+      "correct": "Он/Она тратит часы на..."
+    },
+    {
+      "id": "p6",
+      "word": "We both enjoy...",
+      "emoji": "🤝",
+      "opts": [
+        "Мы оба ненавидим...",
+        "Мы оба любим...",
+        "Мы никогда не...",
+        "Нас обоих раздражает..."
+      ],
+      "correct": "Мы оба любим..."
+    }
+  ],
+  "writingModel": [
+    "My name is Aibek Dosov and I am a History student at WKU. In this text, I want to write about two hobbies: my own hobby, and the hobby of my best friend Samal. We have very different passions, but we both love what we do. I believe that hobbies are one of the most important things in a student's life — they give us energy, identity, and joy outside the classroom.",
+    "My favourite hobby is playing guitar. I play for about one hour every evening after I finish my homework. I started this hobby when I was 14 years old — I taught myself using free YouTube tutorials. At first, I could only play three chords. Now I know more than 25 songs and I sometimes play for my friends in the dormitory common room. My favourite songs to play are Kazakh folk music and classic rock. Music helps me think clearly and relax completely after a long day of reading History textbooks.",
+    "I love guitar because it gives me something that books cannot — it gives me a voice. When I play, I forget about exams, deadlines, and stress. I feel free and creative. Playing music also builds patience: I practised the same chord for two weeks before it sounded right. This patience helps me in my studies too. I want to write my own songs one day — maybe about WKU student life!",
+    "My best friend Samal has a completely different hobby: photography. She carries her camera everywhere she goes — to lectures, to the cafeteria, to the park, and even on early morning walks before sunrise. She wakes up at 6 am on weekends just to catch the perfect morning light on the steppe. She posts her three best photos every week on Instagram, where she already has more than 1,400 followers. She says that photography teaches her to see beauty in ordinary things. She is passionate about her art and she improves every single week.",
+    "Aibek plays guitar and Samal takes photos — we are very different. But we both do something we love every single day, and we both support each other's passions. Last Sunday, we went hiking together: I played guitar at the top of the hill, and Samal photographed the landscape. It was one of the best afternoons of the semester! I believe that every student at WKU has a special hobby waiting to be discovered. Find yours, practise it with dedication, and share it with the world!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "My name is ",
+      "suffix": " and my favourite hobby is ___.",
+      "placeholder": "your name",
+      "hint": "e.g. Aibek / Samal / Zarina"
+    },
+    {
+      "key": "freq",
+      "prefix": "I do it ",
+      "suffix": ".",
+      "placeholder": "how often",
+      "hint": "e.g. every day / three times a week / at weekends"
+    },
+    {
+      "key": "start",
+      "prefix": "I started this hobby when I was ",
+      "suffix": " years old.",
+      "placeholder": "age",
+      "hint": "e.g. 12 / 14 / 16"
+    },
+    {
+      "key": "feel",
+      "prefix": "It makes me feel ",
+      "suffix": " because it helps me ___.",
+      "placeholder": "feeling ... reason",
+      "hint": "e.g. relaxed ... forget about stress"
+    },
+    {
+      "key": "friend",
+      "prefix": "My best friend ",
+      "suffix": " has a different hobby — he/she loves ___.",
+      "placeholder": "friend's name",
+      "hint": "e.g. Samal / Bekzat / Ainur"
+    },
+    {
+      "key": "frdoes",
+      "prefix": "He/She ",
+      "suffix": " every ___.",
+      "placeholder": "what they do ... when",
+      "hint": "e.g. trains hard ... day / takes photos ... weekend"
+    },
+    {
+      "key": "fradj",
+      "prefix": "He/She is very ",
+      "suffix": " at it and improves every week.",
+      "placeholder": "adjective",
+      "hint": "e.g. talented / dedicated / creative / passionate"
+    },
+    {
+      "key": "both",
+      "prefix": "We are different, but we both ",
+      "suffix": " together sometimes.",
+      "placeholder": "shared activity",
+      "hint": "e.g. go hiking / watch films / visit the library"
+    },
+    {
+      "key": "end",
+      "prefix": "I believe hobbies are important because they ",
+      "suffix": ".",
+      "placeholder": "your reason",
+      "hint": "e.g. help us relax and discover who we are"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "My hobby — I...",
+      "color": "#003876",
+      "items": [
+        "I play guitar / chess / football.",
+        "I draw / paint / photograph.",
+        "I read / cook / hike.",
+        "I do it every day / three times a week.",
+        "I started when I was ___ years old.",
+        "I taught myself using YouTube videos."
+      ]
+    },
+    {
+      "category": "Feelings & reasons",
+      "color": "#1B8FC4",
+      "items": [
+        "It makes me feel relaxed / free / creative.",
+        "It helps me forget about stress.",
+        "It teaches me patience / creativity.",
+        "I love it because it gives me energy.",
+        "Music / Art / Sport helps me think clearly.",
+        "Life is better with my hobby!"
+      ]
+    },
+    {
+      "category": "Friend's hobby — He/She...",
+      "color": "#7C3AED",
+      "items": [
+        "She loves cooking / photography / dancing.",
+        "He trains every day after class.",
+        "She carries her camera everywhere.",
+        "He spends hours coding / playing chess.",
+        "She is passionate about her art.",
+        "He goes hiking / swimming on weekends."
+      ]
+    },
+    {
+      "category": "Conclusions & opinions",
+      "color": "#1D9E75",
+      "items": [
+        "We support each other's passions.",
+        "Every student has a special hobby.",
+        "Hobbies give us energy and identity.",
+        "Find yours and practise every day!",
+        "We are different, but we both love what we do.",
+        "Share your hobby with the world!"
+      ]
+    }
+  ]
+}

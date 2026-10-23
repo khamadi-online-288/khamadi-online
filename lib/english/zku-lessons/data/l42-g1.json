@@ -1,0 +1,544 @@
+{
+  "id": "l42-g1",
+  "moduleNum": 8,
+  "lessonNum": 4,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "grammar",
+  "title": "Quantifiers: much, many, a lot of, a little, a few",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Quantifiers — expressing amounts in English",
+  "grammarNote": "Quantifiers выражают КОЛИЧЕСТВО. Главный выбор: слово СЧЁТНОЕ или НЕСЧЁТНОЕ? Яйца (eggs) можно посчитать: одно, два, три → COUNTABLE. Мука (flour) нельзя посчитать: нельзя сказать \"одна мука, две муки\" → UNCOUNTABLE. От этого зависит, какой quantifier используется.",
+  "grammarTable": [
+    {
+      "subject": "much",
+      "verb": "+ uncountable",
+      "short": "negative / question",
+      "example": "\"How much water?\" / \"There isn't much time.\" (NOT in positive: ✗ \"There is much water.\")"
+    },
+    {
+      "subject": "many",
+      "verb": "+ countable",
+      "short": "negative / question",
+      "example": "\"How many eggs?\" / \"There aren't many students.\" (NOT normally in positive)"
+    },
+    {
+      "subject": "a lot of",
+      "verb": "+ both",
+      "short": "positive / informal",
+      "example": "\"There's a lot of flour.\" / \"We need a lot of eggs.\" (both C and UC)"
+    },
+    {
+      "subject": "lots of",
+      "verb": "+ both",
+      "short": "= a lot of (informal)",
+      "example": "\"Lots of vegetables.\" / \"Lots of time.\" (spoken English, both types)"
+    },
+    {
+      "subject": "a little",
+      "verb": "+ uncountable",
+      "short": "small positive amount",
+      "example": "\"Add a little salt.\" / \"She has a little money left.\" (UC, positive)"
+    },
+    {
+      "subject": "a few",
+      "verb": "+ countable",
+      "short": "small positive amount",
+      "example": "\"Add a few tablespoons.\" / \"I have a few friends here.\" (C, positive)"
+    },
+    {
+      "subject": "some",
+      "verb": "+ both",
+      "short": "positive (offer/request)",
+      "example": "\"Have some soup.\" / \"Could I have some water?\" (positive, offers)"
+    },
+    {
+      "subject": "any",
+      "verb": "+ both",
+      "short": "negative / question",
+      "example": "\"There isn't any milk.\" / \"Do you have any eggs?\" (negative/question)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Countable vs Uncountable — key food examples",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "COUNTABLE (can count)",
+          "example": "eggs, carrots, apples, onions, potatoes, lentils, biscuits, sandwiches"
+        },
+        {
+          "form": "UNCOUNTABLE (cannot count)",
+          "example": "flour, water, oil, milk, rice, salt, sugar, bread, meat, cheese, pasta"
+        },
+        {
+          "form": "Some can be both!",
+          "example": "\"I'd like some chicken.\" (UC) / \"I ordered a chicken.\" (one whole bird — C)"
+        },
+        {
+          "form": "Test: can you say \"one ___\" or \"three ___\"?",
+          "example": "One egg ✓ (C) / One flour ✗ → flour is UC"
+        }
+      ]
+    },
+    {
+      "title": "much and many — mostly negative and question",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "much = UC, negative",
+          "example": "\"I don't have much time.\" / \"There isn't much oil.\" ✅"
+        },
+        {
+          "form": "much = UC, question",
+          "example": "\"How much flour?\" / \"Is there much left?\" ✅"
+        },
+        {
+          "form": "many = C, negative",
+          "example": "\"We don't have many eggs.\" / \"There aren't many shops open.\" ✅"
+        },
+        {
+          "form": "many = C, question",
+          "example": "\"How many onions?\" / \"How many students are there?\" ✅"
+        },
+        {
+          "form": "✗ In positive sentences",
+          "example": "✗ \"I have much money.\" → ✅ \"I have a lot of money.\" (positive = use a lot of)"
+        }
+      ]
+    },
+    {
+      "title": "a little vs a few — small positive amounts",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "a little (UC) = a small amount",
+          "example": "\"Add a little salt.\" / \"I have a little money left.\" (positive and useful amount)"
+        },
+        {
+          "form": "a few (C) = a small number",
+          "example": "\"Add a few drops of oil.\" / \"I have a few friends here.\" (positive and useful)"
+        },
+        {
+          "form": "little (UC) = almost nothing",
+          "example": "\"There's little hope.\" = very little, nearly none (negative meaning, no \"a\")"
+        },
+        {
+          "form": "few (C) = almost none",
+          "example": "\"Few students came.\" = very few, almost none (negative meaning, no \"a\")"
+        }
+      ]
+    },
+    {
+      "title": "some and any — offers, positive, negative, questions",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "some (positive sentences)",
+          "example": "\"I have some eggs.\" / \"She has some money.\" (positive)"
+        },
+        {
+          "form": "some (offers/requests)",
+          "example": "\"Would you like some tea?\" / \"Can I have some water?\" (polite offer/request)"
+        },
+        {
+          "form": "any (negative sentences)",
+          "example": "\"I don't have any eggs.\" / \"There isn't any milk.\" (negative)"
+        },
+        {
+          "form": "any (questions)",
+          "example": "\"Do you have any flour?\" / \"Is there any bread?\" (question)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главное правило quantifiers:\n① COUNTABLE (можно считать: egg → eggs) → many, a few, how many\n② UNCOUNTABLE (нельзя считать: flour, oil) → much, a little, how much\n③ BOTH → a lot of, lots of, some, any, enough\n\n💡 Much и many → в ОТРИЦАТЕЛЬНЫХ и ВОПРОСИТЕЛЬНЫХ предложениях\n✗ \"I have much money.\" → ✅ \"I have a LOT OF money.\"\n✅ \"I don't have much money.\" / \"How much money?\"\n\n⚠️ a little ≠ little:\n\"a little\" = немного (хорошо) — \"I have a little time.\"\n\"little\" = почти нет (плохо) — \"There is little hope.\" (без 'a')",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "We don't have ___ flour — we need to buy some.",
+      "opts": [
+        "many",
+        "much",
+        "a few",
+        "a lot"
+      ],
+      "correct": "much",
+      "hint": "\"flour\" = uncountable → \"much\". \"We don't have MUCH flour.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "I need to buy ___ eggs for the manti recipe.",
+      "opts": [
+        "much",
+        "a little",
+        "a few",
+        "a lot"
+      ],
+      "correct": "a few",
+      "hint": "\"eggs\" = countable → \"a few\". \"I need to buy A FEW eggs.\" ✅ (small positive number)"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with \"much\" or \"many\".",
+      "text": "How ___ water should I add to the dough?",
+      "correct": "much",
+      "hint": "\"water\" = uncountable → \"How MUCH water?\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose \"a little\" or \"a few\".",
+      "text": "Add ___ salt — not too much.",
+      "opts": [
+        "a few",
+        "a little",
+        "much",
+        "many"
+      ],
+      "correct": "a little",
+      "hint": "\"salt\" = uncountable → \"a little salt\" (small amount). ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Choose the correct sentence about rice.",
+      "opts": [
+        "I have many rice.",
+        "I have much rice.",
+        "I have a lot of rice.",
+        "I have a few rice."
+      ],
+      "correct": "I have a lot of rice.",
+      "hint": "\"rice\" = uncountable. In POSITIVE sentences → \"a lot of\". \"I have A LOT OF rice.\" ✅ (not \"much\" in positive)"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Choose \"some\" or \"any\".",
+      "text": "Do you have ___ potatoes in the fridge?",
+      "correct": "any",
+      "hint": "\"any\" = questions and negative sentences. \"Do you have ANY potatoes?\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"a lot of\", \"a little\", or \"a few\".",
+      "text": "Rustam made ___ manti — enough for fifteen people.",
+      "correct": "a lot of",
+      "hint": "Large positive quantity → \"a lot of\". \"Rustam made A LOT OF manti.\" ✅ (works for countable)"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose \"much\" or \"many\".",
+      "text": "How ___ onions do you need for the recipe?",
+      "opts": [
+        "much",
+        "a few",
+        "many",
+        "some"
+      ],
+      "correct": "many",
+      "hint": "\"onions\" = countable → \"How MANY onions?\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"There isn't any milk\" is correct in a negative sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"any\" is used in negative sentences. \"There isn't ANY milk.\" ✅ (also: \"I don't have any bread.\")"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier for the positive sentence.",
+      "text": "\"I have ___ money left — enough for coffee.\" (small amount)",
+      "opts": [
+        "few",
+        "many",
+        "a little",
+        "much"
+      ],
+      "correct": "a little",
+      "hint": "\"money\" = uncountable. Small positive amount → \"a little\". \"I have A LITTLE money left.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with \"a few\" or \"a little\".",
+      "text": "She added ___ tablespoons of oil to the filling.",
+      "correct": "a few",
+      "hint": "\"tablespoons\" = countable → \"a few tablespoons\". ✅ (small positive number)"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"How many water did you add?\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"many\" should be \"much\" — water is uncountable",
+        "\"water\" should be plural",
+        "\"did\" should be \"do\""
+      ],
+      "correct": "\"many\" should be \"much\" — water is uncountable",
+      "hint": "✅ \"How MUCH water did you add?\" — \"water\" is uncountable → \"much\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How much flour?\" — \"flour\" is:",
+      "opts": [
+        "countable",
+        "uncountable",
+        "plural",
+        "both"
+      ],
+      "correct": "uncountable",
+      "hint": "\"flour\" is uncountable — you can't say \"one flour, two flours\". → \"How MUCH flour?\""
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How many eggs?\" — \"eggs\" is:",
+      "opts": [
+        "uncountable",
+        "countable",
+        "singular",
+        "abstract"
+      ],
+      "correct": "countable",
+      "hint": "\"eggs\" is countable — one egg, two eggs. → \"How MANY eggs?\""
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have ___ rice.\" (large positive amount)",
+      "opts": [
+        "much",
+        "many",
+        "a lot of",
+        "few"
+      ],
+      "correct": "a lot of",
+      "hint": "Positive sentence + uncountable → \"a lot of\". \"I have A LOT OF rice.\" ✅ (not \"much\" in positive)"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We don't have ___ (countable) apples — only two left.\"",
+      "correct": "many",
+      "hint": "\"apples\" = countable → \"not many\". \"We don't have MANY apples.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Add ___ salt.\" (small amount, uncountable)",
+      "opts": [
+        "a few",
+        "many",
+        "a little",
+        "much"
+      ],
+      "correct": "a little",
+      "hint": "\"salt\" = uncountable. Small positive amount → \"a little\". \"Add A LITTLE salt.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have ___ friends here.\" (small positive number)",
+      "opts": [
+        "a little",
+        "much",
+        "a few",
+        "many"
+      ],
+      "correct": "a few",
+      "hint": "\"friends\" = countable. Small positive number → \"a few\". \"I have A FEW friends.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I have much money\" is correct in a positive statement.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "In positive statements: \"I have A LOT OF money.\" \"Much\" is mainly for negatives/questions. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ of\" can be used with both countable and uncountable nouns.",
+      "opts": [
+        "much",
+        "many",
+        "a lot",
+        "a few"
+      ],
+      "correct": "a lot",
+      "hint": "\"a lot of\" works with BOTH: \"a lot of eggs\" (C) / \"a lot of flour\" (UC) ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Do you have ___ milk?\" (question)",
+      "opts": [
+        "some",
+        "many",
+        "much",
+        "any"
+      ],
+      "correct": "any",
+      "hint": "\"any\" = questions (and negatives). \"Do you have ANY milk?\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Would you like ___ tea?\" (polite offer)",
+      "opts": [
+        "any",
+        "many",
+        "some",
+        "much"
+      ],
+      "correct": "some",
+      "hint": "\"some\" is used in offers and polite requests. \"Would you like SOME tea?\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ few students attended.\" (almost none — negative meaning)",
+      "correct": "Few",
+      "hint": "\"few\" WITHOUT \"a\" = almost none (negative meaning). \"Few students came.\" ≠ \"A few students came.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ little money remains.\" (negative meaning — almost none)",
+      "opts": [
+        "A",
+        "The",
+        "No article",
+        "Some"
+      ],
+      "correct": "No article",
+      "hint": "\"little\" without \"a\" = almost none (negative). \"Little money remains.\" = very little, nearly nothing."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct for a large quantity of bread?",
+      "opts": [
+        "much bread",
+        "many bread",
+        "a lot of bread",
+        "a few bread"
+      ],
+      "correct": "a lot of bread",
+      "hint": "\"bread\" = uncountable. Positive large amount → \"a lot of bread.\" ✅ (\"breads\" doesn't exist)"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Lots of\" is:",
+      "opts": [
+        "only for uncountable",
+        "only for countable",
+        "the same as \"a lot of\"",
+        "more formal than \"much\""
+      ],
+      "correct": "the same as \"a lot of\"",
+      "hint": "\"lots of\" = \"a lot of\" — same meaning, slightly more informal. \"lots of eggs / flour\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"How ___ people does the recipe serve?\" (countable)",
+      "correct": "many",
+      "hint": "\"people\" = countable → \"How MANY people?\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence correctly uses quantifiers?",
+      "opts": [
+        "\"I don't have many flour.\"",
+        "\"How much eggs?\"",
+        "\"I have a lot of vegetables.\"",
+        "\"There's much water.\""
+      ],
+      "correct": "\"I have a lot of vegetables.\"",
+      "hint": "\"a lot of vegetables\" = large positive amount, countable noun. ✅ Others: \"much flour\" (UC, not positive), \"how many eggs\" (C), \"a lot of water\" (positive, not \"much\")."
+    }
+  ]
+}

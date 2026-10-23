@@ -1,0 +1,259 @@
+{
+  "id": "l4-3",
+  "moduleNum": 4,
+  "lessonNum": 3,
+  "moduleTitle": "My day",
+  "title": "Present Simple",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Simple — настоящее простое время",
+  "grammarNote": "Present Simple — одно из самых важных времён английского языка. Мы используем его для четырёх главных случаев:\n\n① Привычки и рутина — то, что ты делаешь регулярно:\n   \"I get up at 6:30 every day.\" / \"She studies English every morning.\"\n\n② Факты и постоянные истины — то, что всегда верно:\n   \"Water boils at 100°C.\" / \"Kazakhstan is in Central Asia.\"\n\n③ Расписания и программы — официальные тайминги:\n   \"Classes start at 8:30.\" / \"The library closes at 8 pm.\"\n\n④ С наречиями частоты — always, usually, often, sometimes, never:\n   \"I always make my bed.\" / \"He never skips breakfast.\"\n\n⚠️ ГЛАВНОЕ ПРАВИЛО: если подлежащее He / She / It — добавляй -s к глаголу!\n\"I work → She works\" · \"You study → He studies\" · \"They go → It goes\"",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "base form",
+      "short": "без изменений",
+      "example": "I study. · You work. · We live. · They go to WKU."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "base form + s",
+      "short": "+s / +es / +ies",
+      "example": "She studies. · He works. · It takes 10 minutes."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Spelling rules — правила написания +s для He/She/It",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Большинство глаголов → +s",
+          "example": "work → works · read → reads · eat → eats · call → calls"
+        },
+        {
+          "form": "Глагол на -s/-sh/-ch/-x/-o → +es",
+          "example": "go → goes · watch → watches · finish → finishes · do → does"
+        },
+        {
+          "form": "Глагол на -y (после согл.) → -ies",
+          "example": "study → studies · carry → carries · try → tries"
+        },
+        {
+          "form": "Глагол на -y (после гласной) → +s",
+          "example": "play → plays · say → says · stay → stays · pay → pays"
+        },
+        {
+          "form": "Исключения — have → has",
+          "example": "I have a laptop. → She has a laptop. (НЕ \"haves\"!)"
+        }
+      ]
+    },
+    {
+      "title": "Negative — отрицание: don't / doesn't",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I / You / We / They + don't + verb",
+          "example": "I don't eat meat. · They don't study on Sundays."
+        },
+        {
+          "form": "He / She / It + doesn't + verb",
+          "example": "She doesn't wake up early. · He doesn't skip class."
+        },
+        {
+          "form": "⚠️ После doesn't → base form!",
+          "example": "✅ She doesn't work. ❌ She doesn't works."
+        },
+        {
+          "form": "don't = do not · doesn't = does not",
+          "example": "I do not have time. = I don't have time."
+        }
+      ]
+    },
+    {
+      "title": "Questions — вопрос: Do / Does",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Do + I/you/we/they + verb?",
+          "example": "Do you study every day? — Yes, I do. / No, I don't."
+        },
+        {
+          "form": "Does + he/she/it + verb?",
+          "example": "Does she get up early? — Yes, she does. / No, she doesn't."
+        },
+        {
+          "form": "⚠️ После Does → base form!",
+          "example": "✅ Does he work? ❌ Does he works?"
+        },
+        {
+          "form": "WH + do/does + subject + verb?",
+          "example": "What do you eat? · Where does she study? · When does it start?"
+        },
+        {
+          "form": "How often...?",
+          "example": "How often do you call your parents? — Every evening."
+        }
+      ]
+    },
+    {
+      "title": "Adverbs of frequency — наречия частоты",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "always (100%)",
+          "example": "I always make my bed. · She always arrives on time."
+        },
+        {
+          "form": "usually / normally (80%)",
+          "example": "I usually eat porridge. · He usually studies after class."
+        },
+        {
+          "form": "often (60%)",
+          "example": "We often go to the library after lunch."
+        },
+        {
+          "form": "sometimes (40%)",
+          "example": "She sometimes skips breakfast. · I sometimes feel tired."
+        },
+        {
+          "form": "rarely / seldom (20%)",
+          "example": "He rarely misses a class. · I rarely watch TV."
+        },
+        {
+          "form": "never (0%)",
+          "example": "I never press snooze! · She never forgets her homework."
+        },
+        {
+          "form": "📍 Позиция в предложении",
+          "example": "BEFORE main verb: \"I always study.\" · AFTER \"to be\": \"She is always tired.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три главных \"убийцы\" Present Simple — запомни раз и навсегда:\n\n① He/She/It → всегда +s/es/ies на глагол:\n   \"She study\" ❌ → \"She studies\" ✅\n\n② Отрицание и вопрос с He/She/It → используй DOESN'T / DOES, и глагол без -s:\n   \"She doesn't studies\" ❌ → \"She doesn't study\" ✅\n   \"Does she studies?\" ❌ → \"Does she study?\" ✅\n\n③ Сигнальные слова Present Simple:\n   every day / week / morning · always · usually · often · sometimes · never · on Mondays · at 8:30",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Aizhan ___ up at 6:30 every morning.",
+      "opts": [
+        "get",
+        "gets",
+        "is get",
+        "geting"
+      ],
+      "correct": "gets",
+      "hint": "Aizhan = She → She gets up. He/She/It + verb+s."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Dias ___ breakfast every morning — he only has tea.",
+      "opts": [
+        "don't eat",
+        "doesn't eat",
+        "doesn't eats",
+        "not eat"
+      ],
+      "correct": "doesn't eat",
+      "hint": "Dias = He → doesn't + base form. Never \"doesn't eats\"."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct form of the verb.",
+      "text": "Zarina ___ (do) yoga every morning for ten minutes.",
+      "correct": "does",
+      "hint": "Zarina = She → does. He/She/It + does for the verb \"do\"."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"She don't study on Sundays\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She → doesn't. \"She doesn't study on Sundays.\" — never \"don't\" with He/She/It."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "___ Aizhan listen to podcasts on her way to class?",
+      "opts": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+      ],
+      "correct": "Does",
+      "hint": "Aizhan = She → Does she listen...? (base form after Does)."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct form of the verb \"study\".",
+      "text": "I ___ English every day, but my brother ___ Computer Science.",
+      "correct": "study studies",
+      "hint": "I → study (no change). My brother = He → studies (y→ies)."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Where does the adverb go?",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "I eat always porridge for breakfast.",
+        "Always I eat porridge for breakfast.",
+        "I always eat porridge for breakfast.",
+        "I eat porridge always for breakfast."
+      ],
+      "correct": "I always eat porridge for breakfast.",
+      "hint": "Adverbs of frequency go BEFORE the main verb: \"I always eat...\""
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is 100% correct?",
+      "opts": [
+        "She don't goes to the cafeteria.",
+        "Does he studies hard every evening?",
+        "They doesn't have a class on Fridays.",
+        "He never skips his English lesson."
+      ],
+      "correct": "He never skips his English lesson.",
+      "hint": "\"He never skips\" = He + verb+s ✅. Others all have errors with don't/doesn't/does."
+    }
+  ],
+  "questions": []
+}

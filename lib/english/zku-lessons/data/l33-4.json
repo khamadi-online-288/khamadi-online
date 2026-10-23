@@ -1,0 +1,145 @@
+{
+  "id": "l33-4",
+  "moduleNum": 17,
+  "lessonNum": 4,
+  "moduleTitle": "Film & Literature",
+  "type": "writing",
+  "title": "Writing: Review a Film or Book",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    "Film review: October Sky (1999)",
+    "'October Sky' is an inspiring film that is based on a true story. It tells the story of Homer Hickam, a teenager who grows up in a coal-mining town and dreams of becoming a rocket scientist.",
+    "The film, which was directed by Joe Johnston, is set in 1957 — the year the Soviet Union launched Sputnik. Watching a satellite cross the night sky changes Homer's life forever. He starts building rockets with his friends, despite the disapproval of his father, who wants him to work in the mine.",
+    "What I love most is the theme of believing in yourself even when others doubt you. Homer is a character who never gives up, no matter how many failures he faces. The relationship between Homer and his father, which starts out as conflict, develops into something much more beautiful.",
+    "I highly recommend this film to anyone who has ever had a dream that seemed impossible. It is a film that reminds you: if you work hard enough and believe in yourself, anything is possible."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " is a ",
+      "placeholder": "Title of the film or book (use quotes for books)",
+      "hint": "e.g. \"The Kite Runner\" / October Sky / Foundation"
+    },
+    {
+      "key": "genre",
+      "prefix": "",
+      "suffix": " film/book that ",
+      "placeholder": "adjective genre (inspiring / thrilling / emotional)",
+      "hint": "e.g. inspiring / heartwarming / thought-provoking / funny"
+    },
+    {
+      "key": "about",
+      "prefix": "",
+      "suffix": ". It tells the story of ",
+      "placeholder": "what it is about (is based on a true story / explores friendship)",
+      "hint": "e.g. is based on a true story / deals with family and dreams"
+    },
+    {
+      "key": "story",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "describe the main character and story briefly",
+      "hint": "e.g. a young student who dreams of becoming a scientist"
+    },
+    {
+      "key": "detail",
+      "prefix": "The film/book, which was ",
+      "suffix": ", is set in ",
+      "placeholder": "directed by [name] / written by [name]",
+      "hint": "Use a non-defining relative clause with commas."
+    },
+    {
+      "key": "period",
+      "prefix": "",
+      "suffix": ". It is about ",
+      "placeholder": "place and/or time period",
+      "hint": "e.g. 1950s America / modern Kazakhstan / a small village in Almaty"
+    },
+    {
+      "key": "plot",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "a bit more plot detail",
+      "hint": "e.g. a boy who starts building rockets against all odds"
+    },
+    {
+      "key": "love",
+      "prefix": "What I love most is ",
+      "suffix": ". The main character is someone who ",
+      "placeholder": "the best thing about it (the theme / the ending / the humour)",
+      "hint": "e.g. the theme of believing in yourself / the unexpected ending"
+    },
+    {
+      "key": "char",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "describe the character with a relative clause",
+      "hint": "e.g. never gives up / always finds a way / changes throughout the story"
+    },
+    {
+      "key": "rec",
+      "prefix": "I highly recommend this film/book to anyone who ",
+      "suffix": ". It is a film/book that ",
+      "placeholder": "describe your ideal audience",
+      "hint": "e.g. loves true stories / has ever had a dream that seemed impossible"
+    },
+    {
+      "key": "recr",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what it does for the reader/viewer",
+      "hint": "e.g. reminds you that anything is possible / makes you think about life"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing the film/book",
+      "color": "#003876",
+      "items": [
+        "[Title] is a(n) [adjective] film/book that…",
+        "It tells the story of…",
+        "It is based on a true story.",
+        "It deals with the theme of…"
+      ]
+    },
+    {
+      "category": "Relative clauses in review",
+      "color": "#1B8FC4",
+      "items": [
+        "The film, which was directed by…, is set in…",
+        "The book, which was written by…",
+        "The main character is someone who…",
+        "It is a story that makes you…"
+      ]
+    },
+    {
+      "category": "Opinion & recommendation",
+      "color": "#1D9E75",
+      "items": [
+        "What I love most is…",
+        "I highly recommend this to anyone who…",
+        "The ending left me feeling…",
+        "It is a film/book that I will never forget."
+      ]
+    }
+  ],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

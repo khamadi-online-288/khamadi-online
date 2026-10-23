@@ -1,0 +1,235 @@
+{
+  "id": "l46-4",
+  "moduleNum": 12,
+  "lessonNum": 5,
+  "moduleTitle": "Saying What They Said",
+  "type": "writing",
+  "title": "A Summary of a Lecture",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "He said that...",
+      "emoji": "💬",
+      "opts": [
+        "Он сказал мне...",
+        "Он сказал, что...",
+        "Он спросил...",
+        "Он скажет..."
+      ],
+      "correct": "Он сказал, что..."
+    },
+    {
+      "id": "p2",
+      "word": "She told us to...",
+      "emoji": "📋",
+      "opts": [
+        "Она сказала нам...",
+        "Она сказала нам делать...",
+        "Она спросила нас...",
+        "Она говорит..."
+      ],
+      "correct": "Она сказала нам делать..."
+    },
+    {
+      "id": "p3",
+      "word": "He asked whether...",
+      "emoji": "❓",
+      "opts": [
+        "Он сказал...",
+        "Он спросил, ...ли...",
+        "Он попросил...",
+        "Он объяснил..."
+      ],
+      "correct": "Он спросил, ...ли..."
+    },
+    {
+      "id": "p4",
+      "word": "She explained that...",
+      "emoji": "📖",
+      "opts": [
+        "Она отрицала...",
+        "Она объяснила, что...",
+        "Она спросила...",
+        "Она приказала..."
+      ],
+      "correct": "Она объяснила, что..."
+    },
+    {
+      "id": "p5",
+      "word": "He concluded by saying",
+      "emoji": "🏁",
+      "opts": [
+        "Он начал с...",
+        "Он завершил, сказав",
+        "Он продолжал...",
+        "Он повторил..."
+      ],
+      "correct": "Он завершил, сказав"
+    },
+    {
+      "id": "p6",
+      "word": "She pointed out that...",
+      "emoji": "👆",
+      "opts": [
+        "Она пропустила...",
+        "Она обратила внимание на то, что...",
+        "Она уграла...",
+        "Она написала..."
+      ],
+      "correct": "Она обратила внимание на то, что..."
+    }
+  ],
+  "writingModel": [
+    "Summary of Professor Aidarov's Lecture on Language Change — by Kamila Seitkali",
+    "On Thursday, Professor Aidarov gave a lecture on language change. He said that language was never static and that every generation changed the language it inherited. He argued that this process was not decay but natural adaptation, and he pointed out that resistance to language change was itself a historical constant — every generation believed the next one spoke poorly.",
+    "He then moved on to the topic of language borrowing. He said that Kazakh had absorbed thousands of Russian words over the twentieth century and argued that this was not a sign of weakness but of contact between peoples. He asked us what we thought about this — he asked whether we found the idea reassuring or unsettling.",
+    "The class discussion that followed was lively. One student said she thought borrowed words were a form of cultural contamination. Another student said he believed purism was impossible because all languages had always borrowed from each other. Professor Aidarov told them both that they were partially correct. He explained that the tension between change and preservation was central to linguistics.",
+    "Professor Aidarov then told us to read Chinghiz Aitmatov. He said that Aitmatov had written in both Kazakh and Russian, and that this was not a betrayal of either language but a bridge between them. He asked us to consider what it meant to write in two languages at once.",
+    "At the end of the lecture, Professor Aidarov made an interesting observation about endangered languages. He said that large languages could disappear faster than small ones if their speakers became bilingual and stopped transmitting the language to the next generation. He concluded by saying that language survival depended not on government policy but on the daily choices of individual speakers.",
+    "Overall, the lecture was thought-provoking. Professor Aidarov encouraged us to think about language not as a fixed system but as a living practice — always in motion, always reflecting the society that uses it."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "Summary of ",
+      "suffix": " — by ",
+      "placeholder": "the lecture title or topic",
+      "hint": "Name the lecture and yourself."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your full name."
+    },
+    {
+      "key": "open",
+      "prefix": "On ",
+      "suffix": ", Professor/Dr ___ gave a lecture on ",
+      "placeholder": "day of the week",
+      "hint": "Introduce the lecture with when and who."
+    },
+    {
+      "key": "topic",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "the lecture topic",
+      "hint": "Name the subject."
+    },
+    {
+      "key": "point1",
+      "prefix": "He/She said that ",
+      "suffix": ".",
+      "placeholder": "first main point (use backshift)",
+      "hint": "\"said that\" + past tense. E.g. \"he said that language was never static.\""
+    },
+    {
+      "key": "point2",
+      "prefix": "He/She argued that ",
+      "suffix": ".",
+      "placeholder": "second main point",
+      "hint": "\"argued that\" = presented an argument. Backshift the tense."
+    },
+    {
+      "key": "question",
+      "prefix": "He/She asked us ",
+      "suffix": ".",
+      "placeholder": "whether + question / to + infinitive",
+      "hint": "\"He asked us WHETHER we agreed.\" / \"He asked us TO CONSIDER...\""
+    },
+    {
+      "key": "discuss",
+      "prefix": "The class discussed ",
+      "suffix": ".",
+      "placeholder": "the topic of the discussion",
+      "hint": "Summarise what students debated."
+    },
+    {
+      "key": "student",
+      "prefix": "One student said that ",
+      "suffix": ". Another said that ___.",
+      "placeholder": "contrasting student view 1 / view 2",
+      "hint": "Report two different student opinions using \"said that.\""
+    },
+    {
+      "key": "teacher",
+      "prefix": "Professor ___ told us to ",
+      "suffix": ".",
+      "placeholder": "a task/reading the professor assigned",
+      "hint": "\"told us to\" + infinitive = command/assignment."
+    },
+    {
+      "key": "conclude",
+      "prefix": "He/She concluded by saying that ",
+      "suffix": ".",
+      "placeholder": "the main conclusion",
+      "hint": "\"concluded by saying that\" + reported speech."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Reporting statements",
+      "color": "#003876",
+      "items": [
+        "He/She said (that) + past tense...",
+        "He/She explained that...",
+        "He/She argued that...",
+        "He/She pointed out that...",
+        "He/She added that...",
+        "He/She concluded by saying that..."
+      ]
+    },
+    {
+      "category": "Reporting questions",
+      "color": "#1D9E75",
+      "items": [
+        "He/She asked (us) whether/if...",
+        "He/She asked (us) what/why/how...",
+        "He/She asked us to consider...",
+        "He/She wanted to know whether...",
+        "He/She raised the question of..."
+      ]
+    },
+    {
+      "category": "Reporting commands and tasks",
+      "color": "#1B8FC4",
+      "items": [
+        "He/She told us to + infinitive...",
+        "He/She asked us to + infinitive...",
+        "He/She told us not to...",
+        "We were told to...",
+        "The task was to..."
+      ]
+    },
+    {
+      "category": "Linking ideas in a summary",
+      "color": "#C9933B",
+      "items": [
+        "He/She then moved on to...",
+        "At the end of the lecture...",
+        "Overall, the lecture was...",
+        "The main message was...",
+        "One of the most interesting points was..."
+      ]
+    }
+  ]
+}

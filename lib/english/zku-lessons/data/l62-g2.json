@@ -1,0 +1,578 @@
+{
+  "id": "l62-g2",
+  "moduleNum": 4,
+  "lessonNum": 6,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "grammar",
+  "title": "Advanced Passive: Reporting Verbs, Impersonal Structures & Complex Forms",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Advanced Passive Structures: Reporting, Impersonal & Complex",
+  "grammarNote": "На уровне B1-B2 пассивный залог становится инструментом точной, нюансированной коммуникации. Здесь мы изучаем три продвинутые структуры: пассив с глаголами сообщения (it is said that / he is believed to be), безличные конструкции (it is known / it has been established), и комплексные пассивные формы с инфинитивом.",
+  "grammarTable": [
+    {
+      "subject": "It is said that...",
+      "verb": "impersonal passive — reporting",
+      "short": "general belief",
+      "example": "\"It is said that the discovery changed medicine forever.\" (people say this)"
+    },
+    {
+      "subject": "He is said to be...",
+      "verb": "personal passive — subject",
+      "short": "subject + to-inf",
+      "example": "\"He is said to be the best candidate.\" / \"She is believed to have left.\""
+    },
+    {
+      "subject": "It has been established that",
+      "verb": "academic consensus",
+      "short": "proven fact",
+      "example": "\"It has been established that smoking causes cancer.\" (scientific proof)"
+    },
+    {
+      "subject": "It is thought / believed / reported",
+      "verb": "hedging claim",
+      "short": "uncertain report",
+      "example": "\"It is thought that thousands were affected.\" (uncertainty hedged by passive)"
+    },
+    {
+      "subject": "be + supposed to",
+      "verb": "expectation or obligation",
+      "short": "should / expected",
+      "example": "\"You are supposed to submit by Friday.\" (expectation) / \"It's supposed to work.\" (expectation it will)"
+    },
+    {
+      "subject": "have something done",
+      "verb": "causative — arranging for someone",
+      "short": "causative",
+      "example": "\"She had her essay proofread.\" / \"I need to have my laptop repaired.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Reporting verbs in passive — two structures",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Structure A: IT + passive + that clause",
+          "example": "\"It IS SAID THAT he is the best researcher.\" / \"It WAS REPORTED THAT errors had been made.\" ✅"
+        },
+        {
+          "form": "Structure B: Subject + passive + to-infinitive",
+          "example": "\"He IS SAID TO BE the best researcher.\" / \"She IS BELIEVED TO HAVE LEFT.\" ✅"
+        },
+        {
+          "form": "Common verbs: say / report / believe / think / know / expect / claim / understand",
+          "example": "\"It IS KNOWN THAT...\" / \"He IS EXPECTED TO...\" / \"She WAS UNDERSTOOD TO HAVE...\" ✅"
+        },
+        {
+          "form": "Perfect infinitive for past reference",
+          "example": "\"She is believed TO HAVE DISCOVERED the error.\" (she already discovered it — past relative to \"is believed\") ✅"
+        },
+        {
+          "form": "Passive infinitive",
+          "example": "\"The contract is expected TO BE SIGNED next week.\" (passive infinitive) ✅"
+        },
+        {
+          "form": "Why use it: avoiding naming sources",
+          "example": "\"It is reported that...\" = \"people say / sources say\" — without naming who. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Impersonal passive — expressing consensus and established facts",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "\"It is widely accepted that...\"",
+          "example": "\"It is widely accepted that climate change is human-caused.\" (broad agreement) ✅"
+        },
+        {
+          "form": "\"It has been demonstrated that...\"",
+          "example": "\"It has been demonstrated that sleep deprivation impairs performance.\" (proven) ✅"
+        },
+        {
+          "form": "\"It is generally understood that...\"",
+          "example": "\"It is generally understood that early intervention improves outcomes.\" ✅"
+        },
+        {
+          "form": "\"It has long been known that...\"",
+          "example": "\"It has long been known that exercise has mental health benefits.\" ✅"
+        },
+        {
+          "form": "These constructions invoke community evidence",
+          "example": "They suggest \"the scientific community agrees\" rather than \"I personally think.\" ✅"
+        },
+        {
+          "form": "Degree words change certainty",
+          "example": "\"It is firmly established\" > \"It is generally accepted\" > \"It has been suggested\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Be supposed to — expectation and obligation",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"be supposed to\" = expected to (unfulfilled)",
+          "example": "\"You are SUPPOSED TO submit by Friday.\" (expectation — maybe you haven't yet) ✅"
+        },
+        {
+          "form": "Negative: not fulfilling expectation",
+          "example": "\"He wasn't SUPPOSED TO know about the meeting.\" (but he did) ✅"
+        },
+        {
+          "form": "\"was supposed to\" = should have done (didn't)",
+          "example": "\"The meeting WAS SUPPOSED TO start at 3. It started at 4.\" (expectation not met) ✅"
+        },
+        {
+          "form": "Different from \"should\"",
+          "example": "\"Should\" = advice/obligation. \"Supposed to\" = expectation (often from an external source) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Have something done — causative construction",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "have + object + past participle",
+          "example": "\"She had her essay PROOFREAD.\" (someone else proofread it for her) ✅"
+        },
+        {
+          "form": "get + object + past participle (informal)",
+          "example": "\"I need to get my laptop REPAIRED.\" = causative get. Someone repairs it for me. ✅"
+        },
+        {
+          "form": "All tenses of HAVE/GET",
+          "example": "\"I'm having my phone FIXED.\" / \"She had her car SERVICED.\" / \"I need to have this CHECKED.\" ✅"
+        },
+        {
+          "form": "Also for negative experiences",
+          "example": "\"He had his wallet STOLEN.\" (he didn't arrange it — it happened to him) ✅"
+        },
+        {
+          "form": "Subject does NOT do the action",
+          "example": "\"She had her portrait PAINTED BY a local artist.\" — the artist painted, not she. ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common errors with advanced passive",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"It is said he is the best.\" (missing \"that\")",
+          "example": "✅ \"It is said THAT he is the best.\" — \"that\" is required. ✅"
+        },
+        {
+          "form": "✗ \"He is supposed to had left.\"",
+          "example": "✅ \"He is supposed to HAVE LEFT.\" — infinitive form, not past. ✅"
+        },
+        {
+          "form": "✗ \"She got her essay written by herself.\"",
+          "example": "✅ Causative implies someone else does it. \"By herself\" = she did it = not causative. ✅"
+        },
+        {
+          "form": "✗ \"It is established that X is Y.\" (too strong)",
+          "example": "✅ Use \"it has been established\" (PP) or \"it is widely established\" to signal appropriate certainty. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Advanced Passive Structures:\n\nREPORTING VERBS — 2 structures:\nA: It IS SAID THAT he is the best.\nB: He IS SAID TO BE the best.\n\nWith past reference:\n\"She IS BELIEVED TO HAVE DISCOVERED the error.\"\n(present belief about past action → perfect infinitive)\n\nIMPERSONAL PASSIVE for scientific consensus:\n\"It HAS BEEN ESTABLISHED that...\"\n\"It IS WIDELY ACCEPTED that...\"\n\"It HAS BEEN DEMONSTRATED that...\"\n\nBE SUPPOSED TO = expectation:\n\"You ARE SUPPOSED TO submit by Friday.\"\n\"The meeting WAS SUPPOSED TO start at 3.\"\n(expectation, often not met)\n\nCAUSATIVE (have/get something done):\nhave + obj + pp\n\"She HAD her essay PROOFREAD.\"\n\"I need to GET my laptop REPAIRED.\"\n→ Someone else does it for you",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Passive reporting — Structure A.",
+      "text": "\"People say he is the most qualified candidate.\" → It ___ he is the most qualified candidate.",
+      "opts": [
+        "is said that",
+        "says that",
+        "said that",
+        "has said that"
+      ],
+      "correct": "is said that",
+      "hint": "\"IT IS SAID THAT he is the most qualified candidate.\" Structure A: It + passive + that clause. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Passive reporting — Structure B.",
+      "text": "\"People believe she is the best researcher.\" → She ___ (believe) the best researcher.",
+      "correct": "is believed to be",
+      "hint": "\"She IS BELIEVED TO BE the best researcher.\" Structure B: subject + passive + to-infinitive. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Perfect infinitive for past reference.",
+      "text": "\"It is thought that she has already submitted.\" → She ___ already submitted.",
+      "opts": [
+        "is thought to have",
+        "is thought to be",
+        "is thought having",
+        "was thought to have"
+      ],
+      "correct": "is thought to have",
+      "hint": "Past action before present belief → PERFECT INFINITIVE: \"She IS THOUGHT TO HAVE ALREADY SUBMITTED.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Impersonal passive for scientific consensus.",
+      "text": "\"Scientists have demonstrated that sleep deprivation harms performance.\" → ___ sleep deprivation harms performance.",
+      "opts": [
+        "It is demonstrated that",
+        "It has been demonstrated that",
+        "It was demonstrated that",
+        "It demonstrates that"
+      ],
+      "correct": "It has been demonstrated that",
+      "hint": "\"IT HAS BEEN DEMONSTRATED THAT...\" — Present Perfect impersonal passive for established fact. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "\"Be supposed to\" — expectation.",
+      "text": "\"The meeting was supposed to ___ at 3, but it didn't start until 4.\"",
+      "opts": [
+        "start",
+        "have started",
+        "starting",
+        "have been starting"
+      ],
+      "correct": "start",
+      "hint": "\"was supposed TO START\" — was supposed to + base infinitive. (Expectation that wasn't met.) ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Causative \"have something done.\"",
+      "text": "\"She ___ her laptop repaired yesterday.\" (someone repaired it for her)",
+      "opts": [
+        "repaired",
+        "was having",
+        "had",
+        "got"
+      ],
+      "correct": "had",
+      "hint": "\"She HAD her laptop REPAIRED.\" — causative: have + obj + pp. Someone else repaired it for her. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Causative with \"get.\"",
+      "text": "\"I need to ___ my essay ___ (proofread) before submitting.\"",
+      "correct": "get / proofread",
+      "hint": "\"I need to GET my essay PROOFREAD.\" — causative get: get + obj + pp. Someone else proofreads it. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "\"Supposed to\" — negative expectation.",
+      "text": "\"He wasn't supposed to ___ the password.\" (but he did know it)",
+      "opts": [
+        "know",
+        "have known",
+        "be knowing",
+        "knows"
+      ],
+      "correct": "know",
+      "hint": "\"He wasn't SUPPOSED TO KNOW the password.\" = expected not to know. ✅ (Plain infinitive after \"supposed to\")"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Advanced passive — negative experience.",
+      "text": "\"While he was travelling, he ___ his phone stolen.\"",
+      "opts": [
+        "got",
+        "had",
+        "was having",
+        "Both \"got\" and \"had\" work"
+      ],
+      "correct": "Both \"got\" and \"had\" work",
+      "hint": "\"He HAD his phone STOLEN.\" or \"He GOT his phone STOLEN.\" — causative for negative experience (it happened TO him). Both ✅."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "It is reported — choose tense.",
+      "text": "\"It ___ that the company lost millions.\" (news now, referring to recent event)",
+      "opts": [
+        "reported",
+        "is reported",
+        "is being reported",
+        "Both \"is reported\" and \"is being reported\" work"
+      ],
+      "correct": "Both \"is reported\" and \"is being reported\" work",
+      "hint": "\"IT IS REPORTED THAT...\" (established, current report) / \"IT IS BEING REPORTED...\" (actively happening in news now). Both ✅."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete the impersonal passive.",
+      "text": "\"___ (it / widely / accept) that early education improves long-term outcomes.\"",
+      "correct": "It is widely accepted",
+      "hint": "\"IT IS WIDELY ACCEPTED THAT early education improves long-term outcomes.\" Impersonal passive. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "\"She is expected to...\" — future or present?",
+      "text": "\"She is expected to present her findings next month.\" — \"is expected to present\" means:",
+      "opts": [
+        "She has already presented",
+        "People expect her to present (future plan)",
+        "She was presenting",
+        "She might not present"
+      ],
+      "correct": "People expect her to present (future plan)",
+      "hint": "\"is expected to\" = people expect this will happen. Future expectation via passive. ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Find the error.",
+      "text": "\"It is said he discovered the element last year.\"",
+      "opts": [
+        "Correct",
+        "\"It is said\" needs \"that\" — \"It is said THAT he discovered...\"",
+        "\"discovered\" should be passive",
+        "\"last year\" should be removed"
+      ],
+      "correct": "\"It is said\" needs \"that\" — \"It is said THAT he discovered...\"",
+      "hint": "✅ \"It IS SAID THAT he discovered the element last year.\" — \"that\" is required. ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Degree of certainty in impersonal passive.",
+      "text": "Which is the STRONGEST claim?",
+      "opts": [
+        "\"It has been suggested that X.\"",
+        "\"It has been proposed that X.\"",
+        "\"It has been firmly established that X.\"",
+        "\"It is thought that X.\""
+      ],
+      "correct": "\"It has been firmly established that X.\"",
+      "hint": "\"firmly established\" = strongest/most certain. \"suggested\" and \"proposed\" = tentative. \"thought\" = uncertain opinion. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Have something done — all tenses.",
+      "text": "\"I'm ___ my apartment ___ (redecorate) next month.\" (future plan, someone else does it)",
+      "correct": "having / redecorated / going to have redecorated",
+      "hint": "\"I'm HAVING my apartment REDECORATED.\" OR \"I'm going to HAVE my apartment REDECORATED.\" ✅ (Both acceptable for future plan)"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is NOT a valid use of \"be supposed to\"?",
+      "text": "Choose the incorrect or unnatural sentence.",
+      "opts": [
+        "\"You're supposed to wear a badge.\" (rule/expectation)",
+        "\"The results are supposed to be announced today.\" (expectation)",
+        "\"She is supposed to very clever.\" (missing \"be\")",
+        "\"He was supposed to call but didn't.\" (unmet expectation)"
+      ],
+      "correct": "\"She is supposed to very clever.\" (missing \"be\")",
+      "hint": "✗ \"She is supposed to VERY CLEVER.\" — Missing \"be.\" ✅ \"She is supposed to BE very clever.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It is said that he is the best.\" — This structure is:",
+      "opts": [
+        "Personal passive",
+        "Impersonal passive reporting verb (Structure A)",
+        "Impersonal passive scientific",
+        "Modal passive"
+      ],
+      "correct": "Impersonal passive reporting verb (Structure A)",
+      "hint": "\"It + passive reporting verb + that clause\" = Structure A impersonal reporting. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"People believe she has already discovered the error.\" → She ___ already discovered the error.",
+      "correct": "is believed to have",
+      "hint": "Structure B: \"She IS BELIEVED TO HAVE already discovered.\" Perfect infinitive for past action. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It has been established that smoking causes cancer.\" — This passive expresses:",
+      "opts": [
+        "Personal opinion",
+        "Ongoing action",
+        "Scientific consensus established as fact",
+        "Future prediction"
+      ],
+      "correct": "Scientific consensus established as fact",
+      "hint": "\"It HAS BEEN ESTABLISHED\" = scientific community has proven this. Community consensus. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She had her essay proofread.\" — \"had her essay proofread\" means:",
+      "opts": [
+        "She proofread it herself",
+        "Someone proofread it for her (causative)",
+        "Her essay was already proofread",
+        "She tried to proofread it"
+      ],
+      "correct": "Someone proofread it for her (causative)",
+      "hint": "Causative: have + object + pp = someone else did the action. She arranged for it. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You are supposed to submit by Friday.\" — \"supposed to\" expresses:",
+      "opts": [
+        "A personal choice",
+        "A factual statement",
+        "An expectation or obligation (often from an external source)",
+        "A scientific fact"
+      ],
+      "correct": "An expectation or obligation (often from an external source)",
+      "hint": "\"be supposed to\" = expected to (by external rules/expectations). ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He is believed to have left the country.\" — \"to have left\" is:",
+      "opts": [
+        "Simple infinitive",
+        "Perfect infinitive — the leaving is past relative to the present belief",
+        "Continuous infinitive",
+        "Passive infinitive"
+      ],
+      "correct": "Perfect infinitive — the leaving is past relative to the present belief",
+      "hint": "\"to have left\" = perfect infinitive. The leaving (past) is earlier than the believing (present). ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It is said he discovered X.\" — What is missing?",
+      "opts": [
+        "Nothing",
+        "\"that\" — \"It is said THAT he discovered X.\"",
+        "\"by\" — agent needed",
+        "\"has been\" — should be present perfect"
+      ],
+      "correct": "\"that\" — \"It is said THAT he discovered X.\"",
+      "hint": "✅ \"It is said THAT he discovered X.\" — \"that\" is required in Structure A. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was supposed to call at 3.\" — This implies:",
+      "opts": [
+        "She called at 3",
+        "She was unable to call",
+        "There was an expectation she would call — possibly she didn't",
+        "She called before 3"
+      ],
+      "correct": "There was an expectation she would call — possibly she didn't",
+      "hint": "\"Was supposed to\" = expectation (in the past), often implying it wasn't met. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which shows STRONGEST certainty?",
+      "opts": [
+        "\"It is thought that X.\"",
+        "\"It has been suggested that X.\"",
+        "\"It has been firmly established that X.\"",
+        "\"X might be true.\""
+      ],
+      "correct": "\"It has been firmly established that X.\"",
+      "hint": "\"firmly established\" = strongest. \"thought\" and \"suggested\" = weaker, more tentative. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He had his car stolen while on holiday.\" — \"had his car stolen\" is:",
+      "opts": [
+        "Causative (he arranged it)",
+        "Negative experience passive (it happened TO him)",
+        "Past Simple passive",
+        "Modal passive"
+      ],
+      "correct": "Negative experience passive (it happened TO him)",
+      "hint": "Causative CAN describe negative experiences that weren't arranged. \"Had his car stolen\" = it happened to him. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The results ___ (expect) to be published by the end of the month.\"",
+      "correct": "are expected",
+      "hint": "\"The results ARE EXPECTED TO BE PUBLISHED.\" Structure B (subject + passive + to-infinitive). ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the CORRECT form?",
+      "opts": [
+        "\"It is widely accepted climate change is real.\"",
+        "\"It is widely accepted that climate change is real.\"",
+        "\"It widely accepts that climate change is real.\"",
+        "\"It was widely accepted that climate change has been real.\""
+      ],
+      "correct": "\"It is widely accepted that climate change is real.\"",
+      "hint": "\"IT IS WIDELY ACCEPTED THAT climate change is real.\" — impersonal passive + \"that\" + clause. ✅"
+    }
+  ]
+}

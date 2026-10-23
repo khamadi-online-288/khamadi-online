@@ -1,0 +1,265 @@
+{
+  "id": "l3-2",
+  "moduleNum": 3,
+  "lessonNum": 2,
+  "moduleTitle": "My things",
+  "title": "What's in your bag?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Dias",
+      "text": "Aizhan, your bag looks so heavy! What is in it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Ha! These are my textbooks — all six of them. And this is my laptop.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Six textbooks AND a laptop? That's a lot! Look — this is my bag.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Oh, yours is much smaller. What do you have in it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Well, this is my notebook — just one for all subjects. And these are my pens.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Just one notebook? How do you manage? I have a separate one for each subject!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "I write everything in one place. Look — that's my timetable. I keep it inside.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Smart! What is that yellow thing? Is that a calculator?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Yes! This calculator is for Mathematics. Ms. Galiya says we need it every lesson.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I have one too. And these are my earphones — for online lectures.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Oh, those earphones look expensive! Are they new?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "No, my brother Arman gave them to me. What else do you have?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "This is my water bottle — I drink two litres every day. And this is my wallet.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Good habit! I have a bottle too. Those snacks are mine — I get hungry between classes!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Ha! Those snacks are a great idea. Can I have one?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Of course! Here — these are apricots. Very healthy!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "timetable",
+      "emoji": "📅",
+      "opts": [
+        "учебник",
+        "расписание",
+        "дневник",
+        "ноутбук"
+      ],
+      "correct": "расписание"
+    },
+    {
+      "id": "p2",
+      "word": "calculator",
+      "emoji": "🔢",
+      "opts": [
+        "телефон",
+        "ручка",
+        "калькулятор",
+        "часы"
+      ],
+      "correct": "калькулятор"
+    },
+    {
+      "id": "p3",
+      "word": "earphones",
+      "emoji": "🎧",
+      "opts": [
+        "зарядка",
+        "наушники",
+        "микрофон",
+        "колонки"
+      ],
+      "correct": "наушники"
+    },
+    {
+      "id": "p4",
+      "word": "wallet",
+      "emoji": "👛",
+      "opts": [
+        "сумка",
+        "рюкзак",
+        "кошелёк",
+        "папка"
+      ],
+      "correct": "кошелёк"
+    },
+    {
+      "id": "p5",
+      "word": "heavy",
+      "emoji": "🏋️",
+      "opts": [
+        "лёгкий",
+        "быстрый",
+        "тяжёлый",
+        "маленький"
+      ],
+      "correct": "тяжёлый"
+    },
+    {
+      "id": "p6",
+      "word": "manage",
+      "emoji": "🤔",
+      "opts": [
+        "забывать",
+        "справляться",
+        "терять",
+        "находить"
+      ],
+      "correct": "справляться"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan has six textbooks AND a laptop in her bag.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Dias uses a separate notebook for each subject.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Dias needs a calculator for Mathematics lessons.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Aizhan's earphones are brand new.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Dias drinks two litres of water every day.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Aizhan brings apricots as a snack between classes.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "aizhan",
+      "name": "Aizhan",
+      "city": "Aktobe",
+      "emoji": "👩‍🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Student, Group 101"
+    },
+    {
+      "id": "dias",
+      "name": "Dias",
+      "city": "Shymkent",
+      "emoji": "👨‍🎓",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Student, Group 101"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has six textbooks and a laptop in their bag.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s2",
+      "text": "Uses just one notebook for ALL subjects.",
+      "correctCharId": "dias"
+    },
+    {
+      "id": "s3",
+      "text": "Has a yellow calculator for Mathematics.",
+      "correctCharId": "dias"
+    },
+    {
+      "id": "s4",
+      "text": "Got their earphones from their older brother.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s5",
+      "text": "Drinks two litres of water every day.",
+      "correctCharId": "dias"
+    },
+    {
+      "id": "s6",
+      "text": "Brings apricots as a snack between classes.",
+      "correctCharId": "aizhan"
+    }
+  ]
+}

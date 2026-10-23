@@ -1,0 +1,514 @@
+{
+  "id": "l39-g1",
+  "moduleNum": 5,
+  "lessonNum": 4,
+  "moduleTitle": "Better, Best, Most",
+  "type": "grammar",
+  "title": "Comparatives: -er and more + adjective",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Comparative Adjectives — comparing two things",
+  "grammarNote": "Сравнительная степень используется для сравнения ДВУХ вещей, людей или мест. Главное правило: КОРОТКИЕ прилагательные (1-2 слога) → + er. ДЛИННЫЕ прилагательные (3+ слога) → more + прилагательное. После сравнительной степени всегда стоит \"than\". Есть также неправильные формы, которые нужно запомнить.",
+  "grammarTable": [
+    {
+      "subject": "Short (1 syllable)",
+      "verb": "+ er",
+      "short": "big → bigger",
+      "example": "Almaty is larger than Uralsk. · It's colder here."
+    },
+    {
+      "subject": "Ends in -e",
+      "verb": "+ r (not -er)",
+      "short": "nice → nicer",
+      "example": "This flat is nicer than the last one."
+    },
+    {
+      "subject": "CVC: double + er",
+      "verb": "double last consonant",
+      "short": "big → bigger",
+      "example": "My bag is bigger. · The room is hotter in summer."
+    },
+    {
+      "subject": "Ends in -y: y → ier",
+      "verb": "drop y + ier",
+      "short": "noisy → noisier",
+      "example": "Flat B is noisier than Flat A. · This street is busier."
+    },
+    {
+      "subject": "Long (2+ syllables)",
+      "verb": "more + adj",
+      "short": "modern → more modern",
+      "example": "This building is more modern than that one."
+    },
+    {
+      "subject": "Irregular",
+      "verb": "memorise!",
+      "short": "good/bad/far",
+      "example": "good → better · bad → worse · far → further/farther"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Short adjectives (1 syllable): add -er",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Most: + er",
+          "example": "tall → taller · fast → faster · clean → cleaner · dark → darker"
+        },
+        {
+          "form": "Ends in -e: + r only",
+          "example": "nice → nicer · large → larger · close → closer · safe → safer"
+        },
+        {
+          "form": "CVC: double consonant + er",
+          "example": "big → bigger · hot → hotter · thin → thinner · fit → fitter"
+        },
+        {
+          "form": "Ends in -y: drop y + ier",
+          "example": "noisy → noisier · busy → busier · easy → easier · heavy → heavier"
+        }
+      ]
+    },
+    {
+      "title": "Long adjectives (2+ syllables): more + adjective",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Most 2-syllable words: more",
+          "example": "modern → more modern · useful → more useful · careful → more careful"
+        },
+        {
+          "form": "All 3+ syllable words: more",
+          "example": "expensive → more expensive · important → more important · reliable → more reliable"
+        },
+        {
+          "form": "⚠️ 2-syllable -y words: + ier",
+          "example": "happy → happier · friendly → friendlier · lovely → lovelier"
+        },
+        {
+          "form": "NEVER double form",
+          "example": "✗ \"more bigger\" / \"more faster\" → ✅ \"bigger\" / \"faster\""
+        }
+      ]
+    },
+    {
+      "title": "Irregular comparatives — memorise these!",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "good → better",
+          "example": "WKU's teaching is better than at larger universities."
+        },
+        {
+          "form": "bad → worse",
+          "example": "The weather in Astana is worse than in Almaty."
+        },
+        {
+          "form": "far → further / farther",
+          "example": "Flat B is further from the university than Flat A."
+        },
+        {
+          "form": "little → less",
+          "example": "Uralsk has less traffic than Almaty."
+        },
+        {
+          "form": "many/much → more",
+          "example": "Almaty has more cafés than any other city."
+        }
+      ]
+    },
+    {
+      "title": "Intensifiers with comparatives",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "much/far + comparative",
+          "example": "\"Flat A is much closer.\" / \"Almaty is far larger than Uralsk.\""
+        },
+        {
+          "form": "a bit/slightly + comparative",
+          "example": "\"Flat B is a bit cheaper.\" / \"This room is slightly darker.\""
+        },
+        {
+          "form": "even + comparative",
+          "example": "\"Astana is even colder in winter.\" (emphasises surprise)"
+        },
+        {
+          "form": "as + adj + as (equal)",
+          "example": "\"Is it as bright as Flat B?\" = equal comparison"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три правила, которые решают 90% случаев:\n① 1 слог → + er: tall → taller, big → bigger (CVC!)\n② 2+ слога → more + прил: beautiful → more beautiful\n③ Исключения: good → better, bad → worse, far → further\n\n❗ НИКОГДА не используй оба варианта вместе: ✗ 'more better', ✗ 'more bigger'!\n\n💡 После сравнительной степени всегда 'than': bigger THAN, more expensive THAN.\n\nИнтенсификаторы: much/far (большая разница) / a bit/slightly (маленькая разница).",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Form the comparative.",
+      "text": "Almaty is ___ (large) than Uralsk.",
+      "opts": [
+        "more large",
+        "larger",
+        "most large",
+        "largier"
+      ],
+      "correct": "larger",
+      "hint": "\"large\" ends in -e → add -r: larger. \"Almaty is larger than Uralsk.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the comparative form.",
+      "text": "Flat B is ___ (noisy) than Flat A.",
+      "correct": "noisier",
+      "hint": "\"noisy\" ends in -y → drop y + ier: noisier. \"Flat B is noisier.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct comparative.",
+      "text": "This professor is ___ (helpful) than the other one.",
+      "opts": [
+        "helpfuler",
+        "helpfuller",
+        "more helpful",
+        "most helpful"
+      ],
+      "correct": "more helpful",
+      "hint": "\"helpful\" = 2 syllables → more helpful. Long adjectives use \"more\"."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"This is more better than before\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"This is better than before.\" — \"good → better\" is already irregular. NEVER \"more better\"!"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Use the irregular comparative.",
+      "text": "The weather in Astana is ___ (bad) than in Almaty.",
+      "correct": "worse",
+      "hint": "\"bad → worse\" (irregular). \"The weather is worse in Astana.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which intensifier shows a BIG difference?",
+      "text": "Flat A is ___ closer to the university than Flat B.",
+      "opts": [
+        "slightly",
+        "a bit",
+        "much",
+        "very"
+      ],
+      "correct": "much",
+      "hint": "\"much + comparative\" = big difference. \"Much closer.\" (\"a bit\" = small difference, \"very\" doesn't go with comparatives)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Form the comparative (CVC rule).",
+      "text": "This room is ___ (hot) than the other one.",
+      "opts": [
+        "hoter",
+        "more hot",
+        "hotter",
+        "hotest"
+      ],
+      "correct": "hotter",
+      "hint": "\"hot\" = CVC (consonant-vowel-consonant) → double t + er: hotter. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the equal comparison.",
+      "text": "Is this university ___ good ___ the one in Almaty?",
+      "correct": "as / as",
+      "hint": "\"as + adjective + as\" = equal comparison. \"Is it AS GOOD AS...?\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct comparative.",
+      "text": "The journey to Flat B is ___ (far) than to Flat A.",
+      "opts": [
+        "farrer",
+        "more far",
+        "further",
+        "furthest"
+      ],
+      "correct": "further",
+      "hint": "\"far → further/farther\" (irregular). \"The journey is further.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Write the comparative.",
+      "text": "Uralsk has ___ (friendly) people than big cities.",
+      "correct": "friendlier",
+      "hint": "\"friendly\" ends in -y → drop y + ier: friendlier. (2-syllable -y words use -ier, not \"more\")"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correctly formed sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Almaty is more bigger than Uralsk.",
+        "Almaty is bigger than Uralsk.",
+        "Almaty is the bigger than Uralsk.",
+        "Almaty is biggest than Uralsk."
+      ],
+      "correct": "Almaty is bigger than Uralsk.",
+      "hint": "\"big → bigger\" (CVC, double g). No \"more\", no \"the\", always \"than\". ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with the correct comparative.",
+      "text": "The teaching here is ___ (good) than at the larger university.",
+      "correct": "better",
+      "hint": "\"good → better\" (irregular). \"The teaching is better than...\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Big\" comparative is:",
+      "opts": [
+        "bigger",
+        "biger",
+        "more big",
+        "bigest"
+      ],
+      "correct": "bigger",
+      "hint": "\"big\" = CVC → double g + er: bigger. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Expensive\" comparative is:",
+      "opts": [
+        "expensiver",
+        "more expensive",
+        "expensiver than",
+        "the most expensive"
+      ],
+      "correct": "more expensive",
+      "hint": "\"expensive\" = 3 syllables → more expensive. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"good → ___ (comparative)\"",
+      "correct": "better",
+      "hint": "\"good → better\" (irregular). NEVER \"gooder\" or \"more good\"."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"bad → ___ (comparative)\"",
+      "correct": "worse",
+      "hint": "\"bad → worse\" (irregular). \"The weather is worse today.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The journey is ___ (far) than I thought.\"",
+      "opts": [
+        "farrer",
+        "more far",
+        "further",
+        "farer"
+      ],
+      "correct": "further",
+      "hint": "\"far → further/farther\" (irregular). \"further\" is more common in British English."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Noisy\" comparative is:",
+      "opts": [
+        "more noisy",
+        "noisier",
+        "noisyer",
+        "noisiyer"
+      ],
+      "correct": "noisier",
+      "hint": "\"noisy\" ends in -y → drop y + ier: noisier. ✅ (-y words use -ier)"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She is more taller than me\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She is taller than me.\" — NEVER \"more\" + short adjective. ✗ \"more taller\"!"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Uralsk is ___ quiet than Almaty.\" (BIG difference)",
+      "opts": [
+        "a bit",
+        "slightly",
+        "much",
+        "a little"
+      ],
+      "correct": "much",
+      "hint": "\"much + comparative\" = big difference. \"Uralsk is much quieter than Almaty.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Is this flat ___ large ___ the other?\" (equal comparison)",
+      "correct": "as / as",
+      "hint": "\"as + adj + as\" = equal comparison. \"Is it AS LARGE AS the other?\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Thin\" comparative is:",
+      "opts": [
+        "thiner",
+        "thinner",
+        "more thin",
+        "more thinner"
+      ],
+      "correct": "thinner",
+      "hint": "\"thin\" = CVC → double n + er: thinner. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Modern\" comparative is:",
+      "opts": [
+        "moderner",
+        "modern-er",
+        "more modern",
+        "most modern"
+      ],
+      "correct": "more modern",
+      "hint": "\"modern\" = 2 syllables → more modern. ✅ (Most 2-syllable adjectives use \"more\")"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The canteen food here is ___ (good) than at my previous university.\"",
+      "correct": "better",
+      "hint": "\"good → better\" (irregular). The most common irregular comparative."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which comparative is formed INCORRECTLY?",
+      "opts": [
+        "bigger",
+        "friendlier",
+        "more beautiful",
+        "more bigger"
+      ],
+      "correct": "more bigger",
+      "hint": "\"more bigger\" = ✗ DOUBLE comparative. Never use \"more\" with short adjective comparatives."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Happy\" comparative is:",
+      "opts": [
+        "more happy",
+        "happier",
+        "happyer",
+        "hapier"
+      ],
+      "correct": "happier",
+      "hint": "\"happy\" ends in -y → drop y + ier: happier. ✅ (2-syllable -y words use -ier)"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The flat is ___ (large) but ___ (expensive) than I expected.\"",
+      "correct": "larger / more expensive",
+      "hint": "\"large\" → larger (-e + r). \"expensive\" → more expensive (long adj). Both use \"than\"."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Even + comparative\" is used to show:",
+      "opts": [
+        "a small difference",
+        "equal comparison",
+        "surprise at how big the difference is",
+        "no comparison"
+      ],
+      "correct": "surprise at how big the difference is",
+      "hint": "\"even colder\" = emphasises surprise. \"I knew it was cold, but it's EVEN colder than I thought!\""
+    }
+  ]
+}

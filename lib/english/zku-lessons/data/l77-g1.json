@@ -1,0 +1,519 @@
+{
+  "id": "l77-g1",
+  "moduleNum": 19,
+  "lessonNum": 5,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Grammar: Comparative Structures — Advanced Use",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Сравнительные структуры в научном письме:\n\nКОЛИЧЕСТВЕННОЕ сравнение:\n\"significantly / considerably / substantially more/less than\"\n\"twice as much/many as\" · \"three times higher than\"\n\"slightly / marginally / marginally higher than\"\n\nКАЧЕСТВЕННОЕ сравнение:\n\"similar to / comparable to / analogous to\"\n\"in contrast to / unlike / as opposed to\"\n\"whereas / while / on the other hand\"\n\nСАМОЕ ВАЖНОЕ (superlative in academic):\n\"the most significant finding was...\"\n\"the least effective method proved to be...\"\n\n💡 Избегай \"more better\" и \"most biggest\" — double comparative/superlative!\n✅ \"more effective\" · \"the most effective\" (не \"the most more effective\")",
+  "grammarTable": [
+    {
+      "subject": "Standard comparative",
+      "verb": "adj/adv-er + than / more + adj + than",
+      "short": "comparing two things",
+      "example": "\"Larger studies are more reliable than small ones.\" / \"This method is faster than the previous one.\""
+    },
+    {
+      "subject": "Amplified comparative",
+      "verb": "much/far/considerably/significantly + comparative",
+      "short": "strong comparative difference",
+      "example": "\"The new treatment was considerably more effective.\" / \"Far fewer side effects were observed.\""
+    },
+    {
+      "subject": "Near-equality",
+      "verb": "almost/nearly as + adj + as / not quite as + adj + as",
+      "short": "almost but not exactly equal",
+      "example": "\"The results were nearly as significant as expected.\" / \"It is not quite as straightforward as it appears.\""
+    },
+    {
+      "subject": "Proportional: the...the",
+      "verb": "The + comparative, the + comparative",
+      "short": "as one increases, so does the other",
+      "example": "\"The larger the sample, the more reliable the results.\" / \"The more data we have, the clearer the picture becomes.\""
+    },
+    {
+      "subject": "Double comparative",
+      "verb": "comparative + and + comparative",
+      "short": "progressive increase or decrease",
+      "example": "\"Science is becoming more and more open.\" / \"The data became less and less consistent as time went on.\""
+    },
+    {
+      "subject": "Comparative with the",
+      "verb": "the + comparative of two options",
+      "short": "comparing exactly two, choosing one",
+      "example": "\"Of the two methods, the first is the more reliable.\" / \"Which is the better approach?\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Amplifying Comparatives: Degree of Difference",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Far / much / considerably / significantly + comparative",
+          "example": "\"The new approach is far more efficient.\" / \"Results were significantly better than the control.\""
+        },
+        {
+          "form": "Slightly / a little / somewhat + comparative",
+          "example": "\"The effect was slightly larger in the second trial.\" / \"Somewhat more promising results were observed.\""
+        },
+        {
+          "form": "Roughly / approximately twice/three times as + adj + as",
+          "example": "\"The new drug is approximately twice as effective as the existing one.\""
+        },
+        {
+          "form": "No + comparative (= not any more than)",
+          "example": "\"The new method is no more accurate than the original.\" (= they are equal in accuracy)"
+        }
+      ]
+    },
+    {
+      "title": "The More... The More: Proportional Structures",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "The + comparative clause, the + comparative clause",
+          "example": "\"The more carefully the experiment is designed, the more reliable the results will be.\""
+        },
+        {
+          "form": "Can use adjectives, adverbs, or nouns",
+          "example": "\"The greater the sample size, the smaller the margin of error.\" / \"The earlier we act, the less damage will occur.\""
+        },
+        {
+          "form": "Can express inverse proportionality",
+          "example": "\"The more exposure the subject has, the less effective the treatment becomes.\""
+        },
+        {
+          "form": "Both clauses often use the same tense",
+          "example": "\"The more scientists share data, the faster progress is made.\""
+        }
+      ]
+    },
+    {
+      "title": "As...As and Not As...As: Equality and Near-Equality",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "As + adj/adv + as = equal degree",
+          "example": "\"The placebo performed as well as the active drug in this trial.\""
+        },
+        {
+          "form": "Not as + adj + as = lower degree",
+          "example": "\"The second treatment was not as effective as the first.\""
+        },
+        {
+          "form": "Nearly/almost/just as + adj + as = very close to equal",
+          "example": "\"The generic drug is nearly as effective as the brand version.\""
+        },
+        {
+          "form": "Twice / half / three times as + adj + as = proportional",
+          "example": "\"The new compound is three times as potent as the original molecule.\""
+        }
+      ]
+    },
+    {
+      "title": "Comparatives in Scientific Writing: Useful Patterns",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Comparing results: significantly/considerably + comparative",
+          "example": "\"Group A showed significantly higher cognitive performance than Group B.\""
+        },
+        {
+          "form": "Expressing trends: more and more / increasingly + comparative",
+          "example": "\"Pre-registration is becoming more and more common in clinical research.\""
+        },
+        {
+          "form": "Discussing proportions: the more X, the more Y",
+          "example": "\"The more stringent the methodology, the greater the confidence in the results.\""
+        },
+        {
+          "form": "Comparing methods: not as... as / far more... than",
+          "example": "\"Traditional peer review is not as effective as post-publication review at catching errors.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Comparatives",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ The results were more better than expected.",
+          "example": "✅ The results were better than expected. (no \"more\" with -er comparatives)"
+        },
+        {
+          "form": "❌ The larger is the sample, the reliable are the results.",
+          "example": "✅ The larger the sample, the more reliable the results. (\"the + comparative\", no verb needed)"
+        },
+        {
+          "form": "❌ She works more harder than her colleague.",
+          "example": "✅ She works harder than her colleague. (no \"more\" with -er adverbs)"
+        },
+        {
+          "form": "❌ This is the most effective of the two methods.",
+          "example": "✅ This is the more effective of the two methods. (\"most\" for 3+; \"more\" for exactly two)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct comparative.",
+      "text": "\"The results were ___ more significant than the preliminary data had suggested.\"",
+      "opts": [
+        "very",
+        "considerably",
+        "much more",
+        "the most"
+      ],
+      "correct": "considerably",
+      "hint": "\"considerably + more + adjective\" = amplified comparative"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the proportional structure.",
+      "text": "\"The ___ the sample size, the ___ accurate the estimates will be.\" (both increase)",
+      "correct": "larger / more",
+      "hint": "\"The + comparative, the + comparative\" = both comparatives needed"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct near-equality structure.",
+      "text": "\"The generic drug is ___ effective as the branded version.\"",
+      "opts": [
+        "as nearly",
+        "nearly as",
+        "nearly more",
+        "nearly so"
+      ],
+      "correct": "nearly as",
+      "hint": "\"Nearly as + adjective + as\" = almost equal but slightly less"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the amplified comparative.",
+      "text": "\"Group A performed ___ ___ than Group B across all measures.\" (significantly / well)",
+      "correct": "significantly better",
+      "hint": "\"Significantly better than\" — \"well\" irregular comparative: \"better\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct structure for two options.",
+      "text": "\"Of the two analytical methods, the second is ___ reliable.\"",
+      "opts": [
+        "the most",
+        "more",
+        "the more",
+        "most"
+      ],
+      "correct": "the more",
+      "hint": "\"The + comparative\" = choosing between exactly two options"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the \"as...as\" equality structure.",
+      "text": "\"The new compound is approximately three times ___ potent ___ the original molecule.\"",
+      "correct": "as / as",
+      "hint": "\"X times as + adjective + as\" = proportional equality"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct proportional structure.",
+      "text": "\"___ stringent the methodology, ___ the confidence in the results.\"",
+      "opts": [
+        "The more / the greater",
+        "The most / the most",
+        "More / greater",
+        "The more / greater"
+      ],
+      "correct": "The more / the greater",
+      "hint": "\"The + comparative, the + comparative\" = full proportional structure"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the double comparative.",
+      "text": "\"Research data is becoming ___ and ___ openly available as journals change their policies.\"",
+      "correct": "more / more",
+      "hint": "\"More and more + adjective\" = progressive increase"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "The results were more better than expected.",
+        "The results were considerably better than expected.",
+        "The results were most better than expected.",
+        "The results were much more better than expected."
+      ],
+      "correct": "The results were considerably better than expected.",
+      "hint": "\"Considerably better than\" — no \"more\" with -er comparatives"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the inverse proportional structure.",
+      "text": "\"The ___ the confounding variables are controlled, the ___ meaningful the results become.\"",
+      "correct": "more / more",
+      "hint": "\"The more X, the more Y\" — both comparatives, even if expressing quality increase"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct amplifier.",
+      "text": "\"The new vaccine is ___ as effective as existing vaccines.\"",
+      "opts": [
+        "not quite",
+        "no much",
+        "not considerably",
+        "not more"
+      ],
+      "correct": "not quite",
+      "hint": "\"Not quite as + adjective + as\" = slightly below equal"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete correctly.",
+      "text": "\"The treatment group performed ___ ___ than the control group did.\" (far / well)",
+      "correct": "far better",
+      "hint": "\"Far better than\" = strong amplified comparative"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"This is ___ of the two approaches: it requires less data collection but produces comparable results.\"",
+      "opts": [
+        "the most efficient",
+        "the more efficient",
+        "the efficiently",
+        "most efficient"
+      ],
+      "correct": "the more efficient",
+      "hint": "\"The + comparative\" = choosing between exactly two options",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the \"no + comparative\" structure.",
+      "text": "\"The peer-reviewed version is ___ accurate than the preprint.\" (= equally accurate)",
+      "correct": "no more",
+      "hint": "\"No more + comparative + than\" = no greater than, equal to"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "\"The more data we collect, ___.\"",
+      "opts": [
+        "the better the picture we get.",
+        "the best picture we get.",
+        "we get a better picture.",
+        "better we get the picture."
+      ],
+      "correct": "the better the picture we get.",
+      "hint": "\"The more X, the better Y\" — second clause: \"the + comparative + subject + verb\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the most appropriate for scientific writing.",
+      "text": "\"The experimental group showed ___ improvement than the control group.\"",
+      "opts": [
+        "a lot more",
+        "significantly greater",
+        "very much more",
+        "lots more"
+      ],
+      "correct": "significantly greater",
+      "hint": "\"Significantly greater\" = formal, precise scientific comparative"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The new methodology was ___ more efficient than the previous one.\" (very strong difference)",
+      "opts": [
+        "slightly",
+        "considerably",
+        "quite",
+        "so much"
+      ],
+      "correct": "considerably",
+      "hint": "\"Considerably more + adjective\" = strong amplified comparative",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ carefully variables are controlled, the ___ confident researchers can be.\" (proportional)",
+      "correct": "more / more",
+      "hint": "\"The more + comparative, the more + comparative\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The treatment group performed ___ the control group did.\" (not equal — slightly less)",
+      "opts": [
+        "not as well as",
+        "no better than",
+        "as well than",
+        "not more well than"
+      ],
+      "correct": "not as well as",
+      "hint": "\"Not as + adverb + as\" = below equal",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Of the two designs, the second is ___ robust.\" (choosing between exactly two)",
+      "opts": [
+        "the most",
+        "most",
+        "the more",
+        "more"
+      ],
+      "correct": "the more",
+      "hint": "\"The + comparative\" for exactly two options",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The new drug is approximately twice ___ effective ___ the existing treatment.\"",
+      "correct": "as / as",
+      "hint": "\"X times as + adjective + as\" = proportional equality",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The results were more better than expected\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "No \"more\" with -er comparatives: \"better than\" not \"more better\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Pre-registration is becoming ___ and ___ common across scientific disciplines.\" (progressive increase)",
+      "correct": "more / more",
+      "hint": "\"More and more + adjective\" = progressive increase",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ independent studies confirm a finding, the ___ established it becomes.\"",
+      "opts": [
+        "more / more",
+        "most / most",
+        "greater / most",
+        "more / well"
+      ],
+      "correct": "more / more",
+      "hint": "\"The more X, the more Y\" = proportional structure",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The experimental treatment was ___ ___ than the standard therapy in all measured outcomes.\" (significantly / good)",
+      "correct": "significantly better",
+      "hint": "\"Significantly better than\" = formal scientific comparative",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The open data version was ___ as comprehensive as the original dataset.\" (almost equal)",
+      "opts": [
+        "nearly",
+        "near",
+        "most nearly",
+        "closely as"
+      ],
+      "correct": "nearly",
+      "hint": "\"Nearly as + adjective + as\" = very close to equal",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ the exposure, the ___ the immune response.\" (both increase together)",
+      "correct": "greater / stronger",
+      "hint": "\"The greater X, the stronger Y\" = proportional comparative",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses a comparative correctly in formal scientific writing?",
+      "opts": [
+        "Results were much more better in Group A.",
+        "Group A did considerably better than Group B.",
+        "The results was significantly most better.",
+        "Group A performed the most better of the two."
+      ],
+      "correct": "Group A did considerably better than Group B.",
+      "hint": "\"Considerably better than\" = correct amplified comparative",
+      "points": 2
+    }
+  ]
+}

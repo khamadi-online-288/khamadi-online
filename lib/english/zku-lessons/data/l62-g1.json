@@ -1,0 +1,664 @@
+{
+  "id": "l62-g1",
+  "moduleNum": 4,
+  "lessonNum": 5,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "grammar",
+  "title": "Passive Voice: All Tenses + Get Passive",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Passive Voice — Complete Tense Review + Get Passive",
+  "grammarNote": "На уровне B1 вы должны уметь использовать пассивный залог во ВСЕХ временах свободно. Кроме того, важно понимать \"get passive\" — альтернативный способ образования пассива с get, который подчёркивает опыт субъекта, часто с оттенком неожиданности или незапланированности.",
+  "grammarTable": [
+    {
+      "subject": "Present Simple",
+      "verb": "is/are + pp",
+      "short": "\"It is checked daily.\"",
+      "example": "\"Results are published every Monday.\" / \"Samples are collected at dawn.\""
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "is/are being + pp",
+      "short": "\"It is being reviewed.\"",
+      "example": "\"The project is being assessed.\" / \"Three vendors are being evaluated.\""
+    },
+    {
+      "subject": "Present Perfect",
+      "verb": "has/have been + pp",
+      "short": "\"It has been decided.\"",
+      "example": "\"The proposal has been approved.\" / \"The budget has been allocated.\""
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "was/were + pp",
+      "short": "\"It was built in 1985.\"",
+      "example": "\"The system was introduced six years ago.\" / \"The data was collected carefully.\""
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "was/were being + pp",
+      "short": "\"It was being fixed.\"",
+      "example": "\"The samples were being processed when the error was found.\""
+    },
+    {
+      "subject": "Past Perfect",
+      "verb": "had been + pp",
+      "short": "\"It had already been done.\"",
+      "example": "\"The policy had been reviewed before the meeting.\" / \"Bacteria had been killed.\""
+    },
+    {
+      "subject": "Future (will)",
+      "verb": "will be + pp",
+      "short": "\"It will be announced.\"",
+      "example": "\"The results will be published next week.\" / \"Changes will be implemented.\""
+    },
+    {
+      "subject": "Modal passive",
+      "verb": "modal + be + pp",
+      "short": "\"It must be checked.\"",
+      "example": "\"Errors must be corrected.\" / \"Issues should be raised.\" / \"It can be fixed.\""
+    },
+    {
+      "subject": "GET passive",
+      "verb": "get/got/getting + pp",
+      "short": "\"She got fired.\"",
+      "example": "\"The system got broken.\" / \"The deal got done.\" / \"He's getting promoted.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "GET passive — form and meaning",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "GET (present) + pp",
+          "example": "\"She gets paid at the end of the month.\" / \"Problems get noticed eventually.\" ✅"
+        },
+        {
+          "form": "GOT (past) + pp",
+          "example": "\"He got arrested.\" / \"The meeting got cancelled.\" / \"She got promoted last year.\" ✅"
+        },
+        {
+          "form": "IS/ARE GETTING (present continuous)",
+          "example": "\"He's getting treated at the hospital.\" / \"The system is getting fixed.\" ✅"
+        },
+        {
+          "form": "WILL GET + pp (future)",
+          "example": "\"You'll get paid on Friday.\" / \"The issue will get resolved.\" ✅"
+        },
+        {
+          "form": "GET emphasises subject's experience",
+          "example": "\"She got fired\" = more emphasis on her experience than \"She was fired.\" ✅"
+        },
+        {
+          "form": "GET NOT used in formal/academic",
+          "example": "Avoid \"get passive\" in academic essays, formal reports. Use \"be passive\" instead. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Choosing between active and passive: decision guide",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "USE PASSIVE when agent is obvious/unimportant",
+          "example": "\"The road was repaired last week.\" (Of course workers repaired it.) ✅"
+        },
+        {
+          "form": "USE PASSIVE when agent is unknown",
+          "example": "\"My phone was stolen.\" (We don't know who stole it.) ✅"
+        },
+        {
+          "form": "USE PASSIVE to focus on result or process",
+          "example": "\"The data was collected and analysed over three months.\" (Focus on process.) ✅"
+        },
+        {
+          "form": "INCLUDE BY + agent when it adds value",
+          "example": "\"The theory was proposed by Darwin.\" (Darwin = important, worth naming.) ✅"
+        },
+        {
+          "form": "OMIT by + agent when obvious",
+          "example": "\"The parliament passed the law.\" ✅ (obvious agent — no need to say \"by members of parliament\")"
+        },
+        {
+          "form": "AVOID passive for personal, narrative writing",
+          "example": "In personal essays or narratives: active is usually more natural. ✅"
+        }
+      ]
+    },
+    {
+      "title": "By + agent — when to include it",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Include when agent is surprising/interesting",
+          "example": "\"The building was designed BY A STUDENT.\" (Surprising! Worth mentioning.) ✅"
+        },
+        {
+          "form": "Include when agent is the focus",
+          "example": "\"The theory of relativity was developed BY EINSTEIN.\" (Einstein = crucial.) ✅"
+        },
+        {
+          "form": "Omit when agent is obvious or irrelevant",
+          "example": "\"The road was repaired.\" (Obviously by workers — no need to say.) ✅"
+        },
+        {
+          "form": "Omit when agent is unknown",
+          "example": "\"My car was scratched.\" (Unknown agent — \"by someone\" = unnecessary.) ✅"
+        },
+        {
+          "form": "Omit in process descriptions",
+          "example": "\"The data was collected, processed, and analysed.\" (In science, no \"by researchers\" needed.) ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common passive errors at B1 level",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"The report was wrote by him.\"",
+          "example": "✅ \"The report was WRITTEN by him.\" — past PARTICIPLE, not past simple! ✅"
+        },
+        {
+          "form": "✗ \"She is being promoted by the company.\"",
+          "example": "✅ \"She is being promoted.\" — when agent obvious, omit \"by the company.\" ✅"
+        },
+        {
+          "form": "✗ \"It was being understood.\"",
+          "example": "✅ Stative verbs (understand, know, like) cannot be passive Continuous. \"It was understood.\" ✅"
+        },
+        {
+          "form": "✗ \"The samples has been collected.\"",
+          "example": "✅ \"The SAMPLES have been collected.\" — plural subject → HAVE, not has. ✅"
+        },
+        {
+          "form": "✗ Using get passive in formal writing",
+          "example": "✅ In academic essays: \"The candidate was selected\" NOT \"got selected.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Passive tenses in context: a connected sequence",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "The problem WAS IDENTIFIED last year.",
+          "example": "Past Simple Passive — when something happened."
+        },
+        {
+          "form": "Since then, solutions HAVE BEEN PROPOSED.",
+          "example": "Present Perfect Passive — up to now."
+        },
+        {
+          "form": "Currently, the best option IS BEING EVALUATED.",
+          "example": "Present Continuous Passive — right now."
+        },
+        {
+          "form": "A decision WILL BE MADE by December.",
+          "example": "Future Passive — planned future."
+        },
+        {
+          "form": "After the decision, implementation CAN BE STARTED.",
+          "example": "Modal Passive — after condition is met."
+        },
+        {
+          "form": "If all goes well, the issue WILL HAVE BEEN RESOLVED by spring.",
+          "example": "Future Perfect Passive — by a future point."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Passive — все формы:\n\nPS: is/are + pp (\"is collected\")\nPC: is/are being + pp (\"is being reviewed\")\nPPS: has/have been + pp (\"has been approved\")\nPast S: was/were + pp (\"was introduced\")\nPast C: was/were being + pp (\"was being processed\")\nPast Perf: had been + pp (\"had been tested\")\nFuture: will be + pp (\"will be announced\")\nModal: modal + be + pp (\"must be checked\")\n\nGET PASSIVE (informal):\nget/got/getting + pp\n\"She got fired.\" / \"It's getting fixed.\"\n→ Emphasises subject's EXPERIENCE\n→ NOT used in academic/formal writing\n\nBY + agent:\n✅ Include when agent is important/surprising\n✅ Omit when obvious or unknown",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Present Simple Passive.",
+      "text": "\"Results ___ every Monday by the committee.\"",
+      "opts": [
+        "publishes",
+        "is published",
+        "are published",
+        "are being published"
+      ],
+      "correct": "are published",
+      "hint": "\"Results\" = plural → ARE. Present Simple Passive: \"Results ARE PUBLISHED every Monday.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Present Continuous Passive.",
+      "text": "\"The new platform ___ by three vendors right now.\"",
+      "opts": [
+        "evaluates",
+        "is evaluated",
+        "is being evaluated",
+        "has been evaluated"
+      ],
+      "correct": "is being evaluated",
+      "hint": "\"Right now\" = ongoing → Present Continuous Passive. \"IS BEING EVALUATED.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Present Perfect Passive.",
+      "text": "\"The proposal ___ (review) and ___ (approve) by the committee.\"",
+      "correct": "has been reviewed / has been approved",
+      "hint": "Present Perfect Passive: \"HAS BEEN REVIEWED and HAS BEEN APPROVED.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Past Simple Passive.",
+      "text": "\"Penicillin ___ by Fleming in 1928.\"",
+      "opts": [
+        "was discovering",
+        "was discovered",
+        "has been discovered",
+        "had been discovered"
+      ],
+      "correct": "was discovered",
+      "hint": "\"In 1928\" = specific past → Past Simple Passive. \"WAS DISCOVERED.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Past Continuous Passive.",
+      "text": "\"The samples ___ when the power cut happened.\"",
+      "opts": [
+        "were processed",
+        "were being processed",
+        "had been processed",
+        "have been processed"
+      ],
+      "correct": "were being processed",
+      "hint": "Ongoing action interrupted by another → Past Continuous Passive. \"WERE BEING PROCESSED when...\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Past Perfect Passive.",
+      "text": "\"The policy ___ (implement) before anyone noticed the error.\"",
+      "correct": "had been implemented",
+      "hint": "Earlier past → Past Perfect Passive. \"HAD BEEN IMPLEMENTED before...\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Future Passive.",
+      "text": "\"The final decision ___ at the next meeting in February.\"",
+      "opts": [
+        "is announced",
+        "was announced",
+        "will be announced",
+        "has been announced"
+      ],
+      "correct": "will be announced",
+      "hint": "Future → WILL BE ANNOUNCED. \"The decision WILL BE ANNOUNCED at the next meeting.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Modal Passive.",
+      "text": "\"All submissions ___ before they are shared with staff.\"",
+      "opts": [
+        "anonymise",
+        "are anonymised",
+        "must be anonymised",
+        "will anonymise"
+      ],
+      "correct": "must be anonymised",
+      "hint": "Modal passive (obligation): \"MUST BE ANONYMISED.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "GET passive — past.",
+      "text": "\"The equipment ___ last week and still isn't working.\" (informal, experiential)",
+      "opts": [
+        "was broken",
+        "got broken",
+        "has been broken",
+        "had broken"
+      ],
+      "correct": "got broken",
+      "hint": "\"GET passive\" past: \"GOT BROKEN.\" Emphasises the equipment's experience of breaking. Informal. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "GET passive — present continuous.",
+      "text": "\"Don't worry — your application ___ processed as we speak.\" (informal)",
+      "opts": [
+        "is being processed",
+        "is getting processed",
+        "Both are correct",
+        "gets processed"
+      ],
+      "correct": "Both are correct",
+      "hint": "\"is being processed\" (formal) ✅ / \"is getting processed\" (informal get passive) ✅ — both correct. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Should BY + agent be included?",
+      "text": "\"The Eiffel Tower was built ___ Gustave Eiffel.\" — Include \"by\"?",
+      "opts": [
+        "No — it's obvious",
+        "Yes — Eiffel is important and adds information",
+        "Only in French writing",
+        "No — \"by\" is always omitted"
+      ],
+      "correct": "Yes — Eiffel is important and adds information",
+      "hint": "\"By Gustave Eiffel\" = important! Who designed it IS the interesting information. Include BY + agent. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Correct the error.",
+      "text": "\"The report was wrote by the committee.\"",
+      "opts": [
+        "Correct",
+        "\"wrote\" should be \"written\" — past participle required",
+        "\"by the committee\" should be removed",
+        "\"was\" should be \"were\""
+      ],
+      "correct": "\"wrote\" should be \"written\" — past participle required",
+      "hint": "✅ \"The report was WRITTEN by the committee.\" — PAST PARTICIPLE, not past simple! ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Stative verb — which is wrong?",
+      "text": "\"The equation was being understood by all students.\"",
+      "opts": [
+        "Correct",
+        "Wrong — stative verbs cannot be Continuous passive; should be \"was understood\"",
+        "Wrong — \"being\" should be \"been\"",
+        "Wrong — should be \"is understood\""
+      ],
+      "correct": "Wrong — stative verbs cannot be Continuous passive; should be \"was understood\"",
+      "hint": "\"understand\" = stative → cannot use Continuous. ✅ \"The equation WAS UNDERSTOOD by all students.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Identify the tense.",
+      "text": "\"By the end of the project, all data will have been collected.\" — Tense: ___ Passive.",
+      "correct": "Future Perfect",
+      "hint": "\"will have been collected\" = will have + been + pp = FUTURE PERFECT PASSIVE. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "GET passive vs BE passive: which is MORE appropriate in an academic report?",
+      "text": "\"Three candidates were selected / got selected for interview.\"",
+      "opts": [
+        "Both are equally appropriate",
+        "\"Got selected\" is more academic",
+        "\"Were selected\" is more formal and appropriate for academic",
+        "\"Got selected\" emphasises their experience better"
+      ],
+      "correct": "\"Were selected\" is more formal and appropriate for academic",
+      "hint": "\"GET passive\" is informal — not appropriate in academic reports. \"WERE SELECTED\" ✅ is the correct academic form. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which passive shows an action ongoing at a past moment?",
+      "text": "Which tense is needed: \"The samples ___ when the power failed.\"",
+      "opts": [
+        "were processed",
+        "were being processed",
+        "had been processed",
+        "have been processed"
+      ],
+      "correct": "were being processed",
+      "hint": "Ongoing at past moment = PAST CONTINUOUS PASSIVE. \"WERE BEING PROCESSED when the power failed.\" ✅"
+    },
+    {
+      "id": "e17",
+      "type": "fill",
+      "instruction": "Form a passive sequence.",
+      "text": "\"The problem ___ (identify) last year. Since then, solutions ___ (propose). Currently, the best option ___ (evaluate).\"",
+      "correct": "was identified / have been proposed / is being evaluated",
+      "hint": "PS Passive → PPS Passive → PC Passive. \"WAS IDENTIFIED / HAVE BEEN PROPOSED / IS BEING EVALUATED.\" ✅"
+    },
+    {
+      "id": "e18",
+      "type": "mc",
+      "instruction": "When to use BY + agent?",
+      "text": "\"The lab was cleaned ___ the technicians.\" — Should you include \"by the technicians\"?",
+      "opts": [
+        "Yes — always include by + agent",
+        "Probably no — the agent is obvious and adds no new information",
+        "Only in formal writing",
+        "Yes — always"
+      ],
+      "correct": "Probably no — the agent is obvious and adds no new information",
+      "hint": "Obvious agent (technicians clean labs — expected) → OMIT \"by the technicians.\" ✅"
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "Future Perfect Passive — choose.",
+      "text": "\"By next June, the new system ___ fully.\"",
+      "opts": [
+        "will implement",
+        "will have been implemented",
+        "has been implemented",
+        "will be implementing"
+      ],
+      "correct": "will have been implemented",
+      "hint": "\"By next June\" = completed by a future point → Future Perfect Passive. \"WILL HAVE BEEN IMPLEMENTED.\" ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Complete correctly.",
+      "text": "\"The files ___ (not / back up) when the computer crashed.\" (Past Perfect Passive, negative)",
+      "opts": [
+        "weren't backed up",
+        "hadn't been backed up",
+        "haven't been backed up",
+        "weren't being backed up"
+      ],
+      "correct": "hadn't been backed up",
+      "hint": "Earlier past + negative → \"HADN'T BEEN BACKED UP when the computer crashed.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The report is being revised.\" — Tense:",
+      "opts": [
+        "PS",
+        "PC Passive",
+        "PPS",
+        "Future"
+      ],
+      "correct": "PC Passive",
+      "hint": "\"is being revised\" = is/are + being + pp = Present Continuous Passive. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The error had been noticed before the report was finalised.\" — \"had been noticed\" is:",
+      "opts": [
+        "Past Simple",
+        "Past Continuous",
+        "Past Perfect Passive",
+        "Present Perfect"
+      ],
+      "correct": "Past Perfect Passive",
+      "hint": "\"had been noticed\" = had + been + pp = Past Perfect Passive. Earlier past action. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"All submissions ___ (must / anonymise) before being processed.\"",
+      "correct": "must be anonymised",
+      "hint": "Modal passive: \"MUST BE ANONYMISED.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She got promoted.\" — What is special about \"get passive\" here?",
+      "opts": [
+        "It's more formal than \"was promoted\"",
+        "It emphasises her experience of being promoted",
+        "It's in the wrong tense",
+        "\"Got\" is the agent"
+      ],
+      "correct": "It emphasises her experience of being promoted",
+      "hint": "\"Get passive emphasises the subject's experience.\" \"Got promoted\" feels more personal than \"was promoted.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The data was being collected when the error occurred.\" — Two tenses:",
+      "opts": [
+        "PS + PS",
+        "PC Passive + PS",
+        "PP + PS",
+        "PC + PC"
+      ],
+      "correct": "PC Passive + PS",
+      "hint": "\"was being collected\" = PC Passive (ongoing background) + \"occurred\" = PS (interruption). ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which does NOT need BY + agent?",
+      "opts": [
+        "\"The Mona Lisa was painted by Leonardo.\" (important)",
+        "\"The road was repaired.\" (obvious: workers)",
+        "\"The theory was proposed by Darwin.\" (crucial)",
+        "\"The building was designed by a student.\" (surprising)"
+      ],
+      "correct": "\"The road was repaired.\" (obvious: workers)",
+      "hint": "Obvious agent → OMIT by + agent. \"The road was repaired.\" (no need to say \"by workers\") ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The solution was being understood by everyone.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"understand\" is stative — cannot use Continuous passive; should be \"was understood\"",
+        "\"being\" should be \"been\"",
+        "\"everyone\" is wrong"
+      ],
+      "correct": "\"understand\" is stative — cannot use Continuous passive; should be \"was understood\"",
+      "hint": "Stative verbs cannot be Continuous. \"The solution WAS UNDERSTOOD by everyone.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Get passive\" is appropriate in:",
+      "opts": [
+        "Academic research reports",
+        "Formal policy documents",
+        "Casual conversation and informal writing",
+        "Legal documents"
+      ],
+      "correct": "Casual conversation and informal writing",
+      "hint": "\"Get passive\" = informal. Not used in academic essays, formal reports, or legal documents. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"By spring, the system ___ (fully / implement).\" (Future Perfect Passive)",
+      "correct": "will have been fully implemented",
+      "hint": "Future Perfect Passive: \"WILL HAVE BEEN FULLY IMPLEMENTED.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Three samples are collected daily.\" — Can you say \"are being collected daily\"?",
+      "opts": [
+        "No difference; both correct for routine",
+        "\"Are collected\" = routine/scheduled; \"are being collected\" = right now/specifically",
+        "\"Being\" version is wrong",
+        "Only \"being\" is correct"
+      ],
+      "correct": "\"Are collected\" = routine/scheduled; \"are being collected\" = right now/specifically",
+      "hint": "PS Passive = routine/habitual. PC Passive = specifically happening right now. Different meaning! ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The report was wrote by the team.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"wrote\" → \"written\" — past participle required in passive",
+        "\"by the team\" should be omitted",
+        "\"was\" should be \"were\""
+      ],
+      "correct": "\"wrote\" → \"written\" — past participle required in passive",
+      "hint": "✅ \"The report was WRITTEN.\" Past participle of \"write\" = \"written.\" Never \"wrote\" in passive! ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is passive AND contextually appropriate?",
+      "opts": [
+        "\"I was wrote a letter.\"",
+        "\"The presentation got done in time.\" (informal context)",
+        "\"She was being known as an expert.\" (stative)",
+        "\"We were given from the report.\""
+      ],
+      "correct": "\"The presentation got done in time.\" (informal context)",
+      "hint": "\"The presentation got done in time.\" = GET passive, informal, natural. ✅ All others have errors."
+    }
+  ]
+}

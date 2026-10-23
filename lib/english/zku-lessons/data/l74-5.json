@@ -1,0 +1,354 @@
+{
+  "id": "l74-5",
+  "moduleNum": 16,
+  "lessonNum": 9,
+  "moduleTitle": "Arts, Film & Literature",
+  "title": "Module 16 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ being controversial, the film attracted enormous audiences.\" (concession)",
+      "opts": [
+        "Although",
+        "Despite",
+        "However",
+        "Nevertheless"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + gerund\" = concession",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The novel is brilliantly written. ___, it is difficult to follow.\" (contrast — new sentence)",
+      "opts": [
+        "Despite",
+        "Furthermore",
+        "However",
+        "Owing to"
+      ],
+      "correct": "However",
+      "hint": "\"However\" at the start of a new sentence introduces a contrast",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ its unusual structure, the novel initially failed to find a publisher.\" (cause)",
+      "correct": "Owing to / Due to / Because of",
+      "hint": "\"Owing to/Due to + noun\" = cause",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The director uses extreme long shots ___ emphasise the characters' isolation.\" (purpose)",
+      "opts": [
+        "owing to",
+        "as a result",
+        "in order to",
+        "despite"
+      ],
+      "correct": "in order to",
+      "hint": "\"In order to + infinitive\" = artistic intention",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The film's ambiguous ending divided audiences. ___, it sparked significant critical debate.\" (effect)",
+      "correct": "As a result / Consequently / Therefore",
+      "hint": "Effect linker = showing the consequence",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the film has structural weaknesses, it succeeds emotionally.\" (concession clause)",
+      "opts": [
+        "Despite",
+        "Although",
+        "Due to",
+        "As a result"
+      ],
+      "correct": "Although",
+      "hint": "\"Although + subject + verb\" = concession with a full clause",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The acting is superb. ___, the cinematography is extraordinary.\" (addition)",
+      "opts": [
+        "However",
+        "In contrast",
+        "Moreover",
+        "Despite"
+      ],
+      "correct": "Moreover",
+      "hint": "\"Moreover\" = adds a stronger, supporting point",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The novel explores grief. ___, it offers a meditation on identity and belonging.\" (addition of equal weight)",
+      "correct": "Furthermore / In addition / Moreover",
+      "hint": "Addition linker",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The film was banned. ___, its readership grew internationally.\" (unexpected positive despite negative)",
+      "opts": [
+        "Therefore",
+        "As a result",
+        "Nevertheless",
+        "Furthermore"
+      ],
+      "correct": "Nevertheless",
+      "hint": "\"Nevertheless\" = despite a negative situation, a positive occurred",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, this film represents a significant achievement in world cinema, despite its imperfections.\" (conclusion)",
+      "correct": "Overall / In conclusion / Ultimately / On balance",
+      "hint": "Summary linker for a concluding judgement",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "According to Reading 1, what does neuroscience research show about reading fiction?",
+      "opts": [
+        "It only activates language centres",
+        "It activates regions associated with emotion, social cognition, and physical experience",
+        "It has no measurable effect on the brain",
+        "It reduces empathy in some readers"
+      ],
+      "correct": "It activates regions associated with emotion, social cognition, and physical experience",
+      "hint": "Reading 1: fMRI research",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The score was criticised, ___ the cast's performances were universally praised.\"",
+      "opts": [
+        "furthermore",
+        "whereas",
+        "owing to",
+        "as a result"
+      ],
+      "correct": "whereas",
+      "hint": "\"Whereas\" = direct contrast within one sentence",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, I examined structure. ___, I will analyse language choices.\" (sequence)",
+      "correct": "Firstly / Secondly",
+      "hint": "Sequence: Firstly → Secondly",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the novel's commercial failure, it won the Booker Prize.\"",
+      "opts": [
+        "Despite",
+        "Owing to",
+        "Because of",
+        "Since"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + noun\" = concession (acknowledging the failure while noting the prize)",
+      "points": 2
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Ruslan say about great art?",
+      "opts": [
+        "It should always have a clear moral message",
+        "It is defined by what it leaves out, not just what it includes",
+        "It must achieve commercial success",
+        "It should resolve all conflicts"
+      ],
+      "correct": "It is defined by what it leaves out, not just what it includes",
+      "hint": "Listening 3: Ruslan's observation",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most precise way to show artistic intention?",
+      "opts": [
+        "The director used silence so we feel uncomfortable.",
+        "The director used silence. Consequently, we feel uncomfortable.",
+        "The director uses silence in order to create discomfort and resist easy emotional interpretation.",
+        "The director used silence because it was better."
+      ],
+      "correct": "The director uses silence in order to create discomfort and resist easy emotional interpretation.",
+      "hint": "\"In order to + infinitive\" = most precise expression of purpose",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The film ___ explores trauma ___ examines how memory shapes identity.\" (equal emphasis on both aspects)",
+      "correct": "not only / but also",
+      "hint": "\"Not only… but also\" = equal emphasis on two elements",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does Prof. Dzhaksybekov say good criticism asks?",
+      "opts": [
+        "Whether you enjoyed the work",
+        "What is the work's plot?",
+        "What is it attempting to do, by what means, and why does it matter?",
+        "Who made the work and when?"
+      ],
+      "correct": "What is it attempting to do, by what means, and why does it matter?",
+      "hint": "Listening 3B: Prof. Dzhaksybekov's definition of criticism",
+      "points": 1
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Despite ___ the film was slow, I found it compelling.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"Despite\" should be \"although\" — despite cannot precede a full clause",
+        "\"Slow\" should be \"slowly\"",
+        "\"Found\" should be \"find\""
+      ],
+      "correct": "\"Despite\" should be \"although\" — despite cannot precede a full clause",
+      "hint": "\"Despite + noun/gerund\"; \"although + subject + verb (clause)\"",
+      "points": 2
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ balance, the film succeeds on its own terms despite occasional weaknesses.\" (final judgement)",
+      "correct": "On",
+      "hint": "\"On balance\" = weighing all sides before a final verdict",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The novel is long and dense. ___, it is also deeply rewarding.\" (contrast — unexpected positive)",
+      "opts": [
+        "Therefore",
+        "However",
+        "Owing to",
+        "Furthermore"
+      ],
+      "correct": "However",
+      "hint": "\"However\" = introducing a contrasting (positive) point",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"Productive uncertainty about what a text means\" is called literary ___.",
+      "correct": "ambiguity",
+      "hint": "Reading 2: \"productive ambiguity\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ its ambiguous ending, the film attracted a wide audience.\" (cause)",
+      "opts": [
+        "Despite",
+        "Owing to",
+        "Although",
+        "Nevertheless"
+      ],
+      "correct": "Owing to",
+      "hint": "\"Owing to\" = cause/reason (the ambiguity attracted audiences)",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"The novel is brilliant; however, it has flaws\" is correctly punctuated.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Semicolon + however + comma = correct punctuation for \"however\"",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Intertextuality\" in literary analysis means…",
+      "opts": [
+        "Writing on the internet",
+        "The relationships between texts — one responding to or building on another",
+        "Reading several books at once",
+        "Using footnotes and references"
+      ],
+      "correct": "The relationships between texts — one responding to or building on another",
+      "hint": "Reading 2: \"texts are in conversation with earlier texts\"",
+      "points": 1
+    }
+  ]
+}

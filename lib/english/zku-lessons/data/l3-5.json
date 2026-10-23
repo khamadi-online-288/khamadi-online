@@ -1,0 +1,433 @@
+{
+  "id": "l3-5",
+  "moduleNum": 3,
+  "lessonNum": 6,
+  "moduleTitle": "My things",
+  "title": "Module 3 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What floor is Aizhan's dormitory room on?",
+      "opts": [
+        "Second",
+        "Third",
+        "Fourth",
+        "Fifth"
+      ],
+      "correct": "Fourth",
+      "hint": "\"My room is on the fourth floor — Room 412.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Who does Aizhan share her room with?",
+      "opts": [
+        "Ainur",
+        "Zarina",
+        "Dias",
+        "Dana"
+      ],
+      "correct": "Zarina",
+      "hint": "\"I share it with my roommate Zarina.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan's desk is next to the window for natural light.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"It is next to the window, so I have good natural light when I study.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many textbooks does Aizhan have this semester?",
+      "opts": [
+        "Four",
+        "Five",
+        "Six",
+        "Seven"
+      ],
+      "correct": "Six",
+      "hint": "\"I have six textbooks this semester: English, Mathematics, Physics...\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Aizhan's grandmother made her a blue ___.",
+      "correct": "sweater",
+      "hint": "\"That blue sweater is my favourite — my grandmother made it for me.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Who gave Aizhan the cactus?",
+      "opts": [
+        "Her father",
+        "Her grandmother",
+        "Her roommate Zarina",
+        "Her mother"
+      ],
+      "correct": "Her mother",
+      "hint": "\"My mother gave it to me before I left home.\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Zarina has a poster of the Altai mountains on her side of the room.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Zarina has a poster of Paris on her side of the room.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aizhan do every morning before breakfast?",
+      "opts": [
+        "She reads a book.",
+        "She calls her mother.",
+        "She makes her bed and organises her desk.",
+        "She goes jogging."
+      ],
+      "correct": "She makes her bed and organises her desk.",
+      "hint": "\"Every morning, I make my bed and organise my desk before breakfast.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many notebooks does Dias use?",
+      "opts": [
+        "One for each subject",
+        "Just one for all subjects",
+        "Three",
+        "None"
+      ],
+      "correct": "Just one for all subjects",
+      "hint": "\"I write everything in one place.\" — Dias uses only one notebook."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan's earphones are brand new.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, my brother Arman gave them to me.\" — they are not new."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Dias have a calculator in his bag?",
+      "opts": [
+        "For Physics class",
+        "Ms. Galiya says they need it every Mathematics lesson",
+        "He likes to calculate",
+        "He borrowed it from Aizhan"
+      ],
+      "correct": "Ms. Galiya says they need it every Mathematics lesson",
+      "hint": "\"Ms. Galiya says we need it every lesson.\" — calculator for Maths."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Dias drinks two ___ of water every day.",
+      "correct": "litres",
+      "hint": "\"I drink two litres every day.\" — Dias."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan brings apricots as a snack between classes.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Here — these are apricots. Very healthy!\" — Aizhan."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who has a timetable kept inside their bag?",
+      "opts": [
+        "Aizhan",
+        "Dias",
+        "Both of them",
+        "Neither"
+      ],
+      "correct": "Dias",
+      "hint": "\"Look — that's my timetable. I keep it inside.\" — Dias."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "You are holding a book in your hand. Which is correct?",
+      "opts": [
+        "That is my book.",
+        "Those is my book.",
+        "This is my book.",
+        "These is my book."
+      ],
+      "correct": "This is my book.",
+      "hint": "Holding it = near you, singular → This is my book."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"These are my earphones\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Earphones = plural, near → \"These are my earphones.\" ✓"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Look at ___ mountains in the distance! They are beautiful. (plural, far)",
+      "correct": "those",
+      "hint": "Plural + far away → those."
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "You see one chair far across the room. Which is correct?",
+      "opts": [
+        "This chair is empty.",
+        "That chair is empty.",
+        "These chair is empty.",
+        "Those chair is empty."
+      ],
+      "correct": "That chair is empty.",
+      "hint": "One chair + far away → That chair is empty."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Those is a heavy bag.",
+        "These book is new.",
+        "This are my pens.",
+        "These are my notes."
+      ],
+      "correct": "These are my notes.",
+      "hint": "\"These\" = plural → \"are\". Others mix singular/plural."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "On the phone, how do you introduce yourself?",
+      "opts": [
+        "\"That is Aizhan.\"",
+        "\"Those are Aizhan.\"",
+        "\"This is Aizhan.\"",
+        "\"These is Aizhan.\""
+      ],
+      "correct": "\"This is Aizhan.\"",
+      "hint": "Introducing yourself on the phone → \"This is [name].\""
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"What ___ those?\" — \"Those are my textbooks.\" (question word)",
+      "correct": "are",
+      "hint": "\"Those\" = plural → What ARE those?"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "You are pointing to pens that are far from you. Choose the correct sentence.",
+      "opts": [
+        "This are my pens.",
+        "These pens are mine.",
+        "Those pens are mine.",
+        "That pens are mine."
+      ],
+      "correct": "Those pens are mine.",
+      "hint": "Plural + far away → those pens."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"essential\" mean?",
+      "opts": [
+        "not needed",
+        "very expensive",
+        "absolutely necessary",
+        "very heavy"
+      ],
+      "correct": "absolutely necessary",
+      "hint": "Essential = absolutely necessary. \"My laptop is essential for studying.\""
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "My room is always clean and ___. Everything has its place.",
+      "correct": "tidy",
+      "hint": "Tidy = clean and organised. \"A tidy room means a clear mind.\""
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"wardrobe\"?",
+      "opts": [
+        "a type of bed",
+        "a large cupboard for clothes",
+        "a desk lamp",
+        "a bookshelf"
+      ],
+      "correct": "a large cupboard for clothes",
+      "hint": "Wardrobe = шкаф — a large cupboard where you keep clothes."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Cosy\" means cold and uncomfortable.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Cosy = warm, comfortable, and pleasant. \"My room is small but cosy.\""
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"organised\" describe?",
+      "opts": [
+        "someone who is very loud",
+        "someone who keeps things neat and in order",
+        "someone who is lazy",
+        "something that is broken"
+      ],
+      "correct": "someone who keeps things neat and in order",
+      "hint": "Organised = keeping everything neat, tidy, and in the right place."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "My bag is very ___. I have six textbooks and a laptop inside!",
+      "correct": "heavy",
+      "hint": "Heavy = тяжёлый. Opposite of light. \"Your bag looks so heavy!\""
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"natural light\" mean?",
+      "opts": [
+        "a type of lamp",
+        "light that comes from the sun through a window",
+        "a light colour",
+        "a type of candle"
+      ],
+      "correct": "light that comes from the sun through a window",
+      "hint": "\"My desk is next to the window, so I have good natural light when I study.\""
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "Which word means \"a piece of paper or card that shows your weekly classes\"?",
+      "opts": [
+        "wallet",
+        "dictionary",
+        "timetable",
+        "notebook"
+      ],
+      "correct": "timetable",
+      "hint": "Timetable = расписание — your schedule showing when each class is."
+    }
+  ]
+}

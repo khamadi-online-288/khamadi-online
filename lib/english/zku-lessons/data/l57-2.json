@@ -1,0 +1,548 @@
+{
+  "id": "l57-2",
+  "moduleNum": 23,
+  "lessonNum": 2,
+  "moduleTitle": "Linking Ideas",
+  "type": "reading",
+  "title": "Persuasive Texts: How They Work",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Persuasive writing is everywhere: in opinion articles, political speeches, advertising, academic essays, grant applications, and job cover letters. It is writing whose purpose is not simply to inform, but to influence — to move the reader from one position toward another. Understanding how persuasive writing works is both a practical skill (it makes you a better writer) and a critical literacy skill (it makes you harder to manipulate).",
+    "The first technique is the use of evidence. A persuasive argument almost always includes data, examples, or expert opinion to support its claims. \"Studies show that students who sleep more perform better academically\" is more persuasive than \"students who sleep more do better\" because it implies the existence of systematic evidence. However, evidence can be selectively chosen, misleadingly presented, or taken out of context — which is why the critical reader always asks: where does this data come from? What is the sample size? What does the full study say?",
+    "The second technique is emotional appeal. A persuasive writer often uses language that triggers an emotional response — urgency (\"we must act now\"), fear (\"if we fail to act, the consequences will be irreversible\"), or hope (\"a better future is within our reach\"). None of these are inherently dishonest — emotion is a legitimate part of human reasoning — but they become problematic when they are used as a substitute for evidence rather than an accompaniment to it.",
+    "The third technique is rhetorical structure. Persuasive texts are typically organised to lead the reader through a journey: from a problem, to evidence of the problem, to a cause, to proposed solutions. This structure is designed to feel logical and inevitable — as if the conclusion follows naturally from the premises. In fact, other conclusions are often equally possible. A critical reader recognises the structure and asks: what alternatives has the writer not considered? What has been left out?",
+    "The fourth technique is the use of concession. Good persuasive writers anticipate objections and address them before the reader can raise them. \"While it is true that solar panels are expensive to install, the long-term savings outweigh the upfront cost.\" This structure — \"while it is true that X, nevertheless Y\" — is one of the most effective in persuasive writing. It shows intellectual honesty, builds credibility, and pre-emptively removes the reader's strongest objection.",
+    "The fifth technique is language choice. Persuasive writers choose words carefully for their connotations — the associations and feelings they carry beyond their literal meaning. \"Protesters\" and \"activists\" describe the same people but carry different connotations. \"Tax reform\" and \"tax increase\" describe the same policy but frame it differently. \"Affordable housing\" and \"social housing\" trigger different associations. Being aware of connotation is a form of critical literacy.",
+    "Reading persuasive writing carefully is not about cynicism — not about assuming everyone is trying to manipulate you. It is about bringing the same careful attention to a text that you would want your own readers to bring to yours. Good persuasive writing is honest, well-evidenced, and fair to complexity. Bad persuasive writing exploits emotion, cherry-picks evidence, and ignores alternatives. Knowing the difference is one of the most important skills of educated citizenship."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "I read an article that convinced me to switch to a plant-based diet. But now I'm questioning why it was so convincing.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What persuaded you — was it evidence or emotion?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Mostly evidence. But it also used a lot of urgent language — \"we must act now\" type phrases.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Did it acknowledge the other side? Like, the nutritional challenges of a plant-based diet?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not really. That's what I noticed later — it didn't address the objections.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good persuasive writing acknowledges objections and still wins. Bad persuasive writing avoids them.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "So the absence of counter-arguments is itself a warning sign?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Often, yes. Real complexity doesn't have only one side.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "rhetorical",
+      "ru": "риторический",
+      "context": "\"Rhetorical structure.\" = the organisation of persuasive text to convince."
+    },
+    {
+      "phrase": "concession",
+      "ru": "уступка / признание",
+      "context": "\"The technique of concession.\" = acknowledging the other side before countering it."
+    },
+    {
+      "phrase": "connotation",
+      "ru": "коннотация / подтекст",
+      "context": "\"Words carry connotations.\" = the emotional associations beyond literal meaning."
+    },
+    {
+      "phrase": "cherry-pick",
+      "ru": "выбирать удобное / подтасовывать",
+      "context": "\"Cherry-picks evidence.\" = selectively choose only convenient facts."
+    },
+    {
+      "phrase": "pre-emptively",
+      "ru": "превентивно / заблаговременно",
+      "context": "\"Pre-emptively removes the objection.\" = addresses it before the reader raises it."
+    },
+    {
+      "phrase": "critical literacy",
+      "ru": "критическая грамотность",
+      "context": "\"A form of critical literacy.\" = ability to read and evaluate texts critically."
+    },
+    {
+      "phrase": "premise",
+      "ru": "предпосылка / основание",
+      "context": "\"The conclusion follows from the premises.\" = the starting facts/claims."
+    },
+    {
+      "phrase": "inevitability",
+      "ru": "неизбежность",
+      "context": "\"Designed to feel inevitable.\" = as if there was no other possible conclusion."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "persuasive",
+      "ipa": "/pəˈsweɪsɪv/",
+      "pos": "adjective",
+      "ru": "убедительный",
+      "kz": "сендіруші",
+      "emoji": "💡",
+      "definition": "good at making people agree with you",
+      "example": "Persuasive writing aims to influence the reader's position.",
+      "collocations": [
+        "persuasive argument",
+        "persuasive essay",
+        "highly persuasive"
+      ]
+    },
+    {
+      "en": "concession",
+      "ipa": "/kənˈseʃən/",
+      "pos": "noun",
+      "ru": "уступка / признание",
+      "kz": "жеңілдік",
+      "emoji": "🤝",
+      "definition": "admitting that the opposing argument has some truth",
+      "example": "\"While it is true that X, nevertheless Y\" is a classic concession structure.",
+      "collocations": [
+        "make a concession",
+        "concession argument",
+        "concessionary phrase"
+      ]
+    },
+    {
+      "en": "connotation",
+      "ipa": "/ˌkɒnəˈteɪʃən/",
+      "pos": "noun",
+      "ru": "коннотация / подтекст",
+      "kz": "коннотация",
+      "emoji": "🎭",
+      "definition": "an idea or feeling that a word invokes beyond its literal meaning",
+      "example": "\"Protesters\" and \"activists\" have different connotations.",
+      "collocations": [
+        "positive connotation",
+        "negative connotation",
+        "carry connotations"
+      ]
+    },
+    {
+      "en": "rhetorical",
+      "ipa": "/rɪˈtɒrɪkəl/",
+      "pos": "adjective",
+      "ru": "риторический",
+      "kz": "риторикалық",
+      "emoji": "🗣️",
+      "definition": "relating to the art of persuasion in speaking or writing",
+      "example": "Persuasive texts use rhetorical structure to lead the reader to a conclusion.",
+      "collocations": [
+        "rhetorical question",
+        "rhetorical device",
+        "rhetorical structure"
+      ]
+    },
+    {
+      "en": "manipulation",
+      "ipa": "/məˌnɪpjʊˈleɪʃən/",
+      "pos": "noun",
+      "ru": "манипуляция",
+      "kz": "манипуляция",
+      "emoji": "🎯",
+      "definition": "controlling or influencing someone unfairly",
+      "example": "Reading critically makes you harder to manipulate by bad persuasive writing.",
+      "collocations": [
+        "emotional manipulation",
+        "data manipulation",
+        "avoid manipulation"
+      ]
+    },
+    {
+      "en": "cynicism",
+      "ipa": "/ˈsɪnɪsɪzəm/",
+      "pos": "noun",
+      "ru": "цинизм",
+      "kz": "цинизм",
+      "emoji": "😒",
+      "definition": "believing that people are motivated purely by selfishness",
+      "example": "\"Critical reading is not about cynicism — not assuming everyone manipulates you.\"",
+      "collocations": [
+        "healthy cynicism",
+        "cynicism about politics",
+        "avoid cynicism"
+      ]
+    },
+    {
+      "en": "legitimate",
+      "ipa": "/lɪˈdʒɪtɪmɪt/",
+      "pos": "adjective",
+      "ru": "законный / правомерный",
+      "kz": "заңды",
+      "emoji": "✅",
+      "definition": "conforming to the law or to rules; having a valid reason",
+      "example": "\"Emotion is a LEGITIMATE part of human reasoning.\"",
+      "collocations": [
+        "legitimate concern",
+        "legitimate argument",
+        "legitimate question"
+      ]
+    },
+    {
+      "en": "exploits",
+      "ipa": "/ɪkˈsplɔɪts/",
+      "pos": "verb",
+      "ru": "эксплуатировать / использовать в своих целях",
+      "kz": "пайдалану",
+      "emoji": "⚡",
+      "definition": "to use something or someone unfairly for your own benefit",
+      "example": "\"Bad persuasive writing exploits emotion.\" = uses it unfairly.",
+      "collocations": [
+        "exploit emotion",
+        "exploit a situation",
+        "exploit weakness"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "persuasive",
+      "emoji": "💡",
+      "opts": [
+        "информационный",
+        "убедительный",
+        "описательный",
+        "нейтральный"
+      ],
+      "correct": "убедительный"
+    },
+    {
+      "id": "p2",
+      "word": "concession",
+      "emoji": "🤝",
+      "opts": [
+        "аргумент",
+        "уступка / признание",
+        "вывод",
+        "доказательство"
+      ],
+      "correct": "уступка / признание"
+    },
+    {
+      "id": "p3",
+      "word": "connotation",
+      "emoji": "🎭",
+      "opts": [
+        "определение",
+        "коннотация / подтекст",
+        "синоним",
+        "этимология"
+      ],
+      "correct": "коннотация / подтекст"
+    },
+    {
+      "id": "p4",
+      "word": "rhetorical",
+      "emoji": "🗣️",
+      "opts": [
+        "фактический",
+        "риторический",
+        "грамматический",
+        "логический"
+      ],
+      "correct": "риторический"
+    },
+    {
+      "id": "p5",
+      "word": "legitimate",
+      "emoji": "✅",
+      "opts": [
+        "незаконный",
+        "законный / правомерный",
+        "необычный",
+        "формальный"
+      ],
+      "correct": "законный / правомерный"
+    },
+    {
+      "id": "p6",
+      "word": "cynicism",
+      "emoji": "😒",
+      "opts": [
+        "доверие",
+        "цинизм",
+        "оптимизм",
+        "критика"
+      ],
+      "correct": "цинизм"
+    }
+  ],
+  "task1Bank": [
+    "evidence",
+    "emotion",
+    "rhetorical",
+    "concession",
+    "connotation",
+    "cherry-picks",
+    "cynicism",
+    "complexity"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The first persuasion technique discussed is the use of ___ .",
+      "correct": "evidence"
+    },
+    {
+      "id": "t2",
+      "question": "The second technique is ___ appeal — using urgency, fear, or hope.",
+      "correct": "emotion"
+    },
+    {
+      "id": "t3",
+      "question": "The third technique is ___ structure — organised to feel logical and inevitable.",
+      "correct": "rhetorical"
+    },
+    {
+      "id": "t4",
+      "question": "The fourth technique is ___ — acknowledging objections before the reader raises them.",
+      "correct": "concession"
+    },
+    {
+      "id": "t5",
+      "question": "The fifth technique is language choice and ___ — the associations words carry.",
+      "correct": "connotation"
+    },
+    {
+      "id": "t6",
+      "question": "Bad persuasive writing \"___ evidence\" — selectively chooses convenient facts.",
+      "correct": "cherry-picks"
+    },
+    {
+      "id": "t7",
+      "question": "Critical reading is not about ___ — not assuming everyone manipulates you.",
+      "correct": "cynicism"
+    },
+    {
+      "id": "t8",
+      "question": "Good persuasive writing is honest and \"fair to ___ .\"",
+      "correct": "complexity"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Emotional appeals in persuasive writing are always dishonest.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Persuasive texts are typically structured to lead from problem to solution.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "A concession structure admits the other side has no valid points.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "\"Protesters\" and \"activists\" describe the same people but have different connotations.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Using evidence eliminates the possibility of misleading presentation.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Critical reading requires bringing careful attention to texts.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says the absence of counter-arguments is not significant.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Understanding persuasive writing is described as a critical literacy skill.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main purpose of persuasive writing?",
+      "opts": [
+        "To inform",
+        "To entertain",
+        "To influence the reader's position",
+        "To describe facts"
+      ],
+      "correct": "To influence the reader's position",
+      "hint": "\"Persuasive writing is... writing whose purpose is to influence — to move the reader from one position toward another.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the \"concession\" technique?",
+      "opts": [
+        "Using statistics",
+        "Acknowledging objections before the reader raises them",
+        "Repeating key points",
+        "Using emotional words"
+      ],
+      "correct": "Acknowledging objections before the reader raises them",
+      "hint": "\"Good persuasive writers anticipate objections and address them before the reader can raise them.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says emotional appeals are always dishonest in persuasive writing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Emotion is a legitimate part of human reasoning — [emotional appeals] become problematic when used AS A SUBSTITUTE for evidence.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Protesters\" and \"activists\" describe the same people but have different ___ .",
+      "correct": "connotations",
+      "hint": "\"'Protesters' and 'activists' describe the same people but carry different CONNOTATIONS.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What warning sign does Kamila mention in the dialogue?",
+      "opts": [
+        "Too much evidence",
+        "Too many statistics",
+        "Absence of counter-arguments",
+        "Writing that is too long"
+      ],
+      "correct": "Absence of counter-arguments",
+      "hint": "\"The absence of counter-arguments is itself a warning sign.\" / \"Real complexity doesn't have only one side.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say critical reading is NOT about?",
+      "opts": [
+        "Careful attention",
+        "Evaluating evidence",
+        "Cynicism — assuming everyone manipulates you",
+        "Recognising structure"
+      ],
+      "correct": "Cynicism — assuming everyone manipulates you",
+      "hint": "\"Critical reading is not about cynicism — not about assuming everyone is trying to manipulate you.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"While true that X, nevertheless Y\" is a classic ___ structure.",
+      "opts": [
+        "rhetorical question",
+        "concession",
+        "evidence",
+        "emotional appeal"
+      ],
+      "correct": "concession",
+      "hint": "\"concession\" = admitting the other side has a point, then contrasting with your main argument."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Connotation\" means:",
+      "opts": [
+        "Literal dictionary meaning",
+        "Emotional association beyond literal meaning",
+        "Grammar rule",
+        "Style choice"
+      ],
+      "correct": "Emotional association beyond literal meaning",
+      "hint": "\"connotation\" = the feelings and associations a word carries beyond its literal definition."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Bad persuasive writing exploits emotion.\" \"Exploits\" means:",
+      "opts": [
+        "Uses fairly and honestly",
+        "Uses unfairly for own benefit",
+        "Ignores completely",
+        "Studies carefully"
+      ],
+      "correct": "Uses unfairly for own benefit",
+      "hint": "\"exploit\" = use something unfairly or selfishly for one's own advantage."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Emotion is a legitimate part of reasoning.\" \"Legitimate\" means:",
+      "opts": [
+        "Dangerous",
+        "Formal",
+        "Valid and acceptable",
+        "Informal"
+      ],
+      "correct": "Valid and acceptable",
+      "hint": "\"legitimate\" = conforming to rules; having a valid reason; acceptable and proper."
+    }
+  ]
+}

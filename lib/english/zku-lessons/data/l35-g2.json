@@ -1,0 +1,534 @@
+{
+  "id": "l35-g2",
+  "moduleNum": 1,
+  "lessonNum": 4,
+  "moduleTitle": "Daily Routines & Habits",
+  "type": "grammar",
+  "title": "Adverbs of Manner: quickly, well, hard",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Adverbs of Manner — How do you do it?",
+  "grammarNote": "Наречия образа действия (adverbs of manner) описывают КАК выполняется действие. По-русски они отвечают на вопрос \"Как?\" — быстро, хорошо, медленно, тяжело. В английском большинство образуется добавлением -ly к прилагательному: quick → quickly. Но есть важные ИСКЛЮЧЕНИЯ, которые нужно запомнить: good → well, hard → hard, fast → fast.",
+  "grammarTable": [
+    {
+      "subject": "Adjective",
+      "verb": "+ ly → Adverb",
+      "short": "Правило",
+      "example": "quick → quickly · slow → slowly · careful → carefully"
+    },
+    {
+      "subject": "Ending -le",
+      "verb": "drop e + ly",
+      "short": "-le → -ly",
+      "example": "simple → simply · comfortable → comfortably · gentle → gently"
+    },
+    {
+      "subject": "Ending -y",
+      "verb": "y → ily",
+      "short": "-y → -ily",
+      "example": "easy → easily · heavy → heavily · happy → happily"
+    },
+    {
+      "subject": "Ending -ic",
+      "verb": "+ ally",
+      "short": "-ic → -ically",
+      "example": "automatic → automatically · basic → basically"
+    },
+    {
+      "subject": "good",
+      "verb": "→ well",
+      "short": "⚠️ irregular",
+      "example": "\"She speaks English well.\" NOT \"goodly\"!"
+    },
+    {
+      "subject": "hard",
+      "verb": "→ hard",
+      "short": "⚠️ same form",
+      "example": "\"He studies hard.\" — \"hardly\" = почти не (almost not)!"
+    },
+    {
+      "subject": "fast",
+      "verb": "→ fast",
+      "short": "⚠️ same form",
+      "example": "\"She runs fast.\" — \"fastly\" does NOT exist!"
+    },
+    {
+      "subject": "early",
+      "verb": "→ early",
+      "short": "⚠️ same form",
+      "example": "\"He arrives early every day.\" — \"earlily\" does NOT exist!"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Position — WHERE does the adverb of manner go?",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "After the main verb (no object)",
+          "example": "She speaks clearly. · He runs quickly. · Amir studies hard."
+        },
+        {
+          "form": "After the object (if there is one)",
+          "example": "She reads the text carefully. · He explained the problem clearly."
+        },
+        {
+          "form": "NOT between verb and object",
+          "example": "✗ \"She reads carefully the text.\" → ✅ \"She reads the text carefully.\""
+        },
+        {
+          "form": "Before adjective or other adverb",
+          "example": "\"She is remarkably organised.\" · \"He works incredibly hard.\""
+        }
+      ]
+    },
+    {
+      "title": "good vs well — the most common mistake",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "good = adjective (describes noun)",
+          "example": "She is a good student. · He has a good routine. · It was a good idea."
+        },
+        {
+          "form": "well = adverb (describes verb)",
+          "example": "She studies well. · He organises his time well. · It works well."
+        },
+        {
+          "form": "well = also adjective meaning healthy",
+          "example": "\"Are you well?\" = \"Are you healthy?\" — not the same as good!"
+        },
+        {
+          "form": "❌ \"She speaks English good.\"",
+          "example": "✅ \"She speaks English well.\" — describes the verb \"speaks\"."
+        }
+      ]
+    },
+    {
+      "title": "hard vs hardly — a false friend!",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "hard (adverb) = с усилием / усердно",
+          "example": "\"He works hard.\" = He puts in a lot of effort. Positive meaning."
+        },
+        {
+          "form": "hardly (adverb) = почти не / едва",
+          "example": "\"He hardly works.\" = He barely does any work. Very different meaning!"
+        },
+        {
+          "form": "hard (adjective) = твёрдый / трудный",
+          "example": "\"It's a hard exam.\" — adjective modifying noun."
+        },
+        {
+          "form": "hardly ever ≈ almost never",
+          "example": "\"She hardly ever skips class.\" ≈ \"She almost never skips class.\""
+        }
+      ]
+    },
+    {
+      "title": "Forming adverbs — spelling rules",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Most: + ly",
+          "example": "slow→slowly, quick→quickly, loud→loudly, quiet→quietly"
+        },
+        {
+          "form": "-le: drop e + y",
+          "example": "gentle→gently, simple→simply, terrible→terribly"
+        },
+        {
+          "form": "-y: y → ily",
+          "example": "easy→easily, lucky→luckily, heavy→heavily, angry→angrily"
+        },
+        {
+          "form": "-ll: + y (not + ly)",
+          "example": "full→fully, dull→dully"
+        },
+        {
+          "form": "No change: fast/hard/early/late/high/low",
+          "example": "He drives fast. She works hard. They arrive early."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три вещи, которые нельзя забыть:\n① good → well. Запомни навсегда: \"I speak English WELL\" (не \"good\"). Это самая частая ошибка в мире!\n② hard ≠ hardly. \"She works hard\" = молодец. \"She hardly works\" = лентяйка! Совсем разные значения.\n③ fast, hard, early, late — одинаковы как прилагательное и наречие. \"A fast car\" (adj) / \"She drives fast\" (adv). Никакого -ly!\n\n💡 Позиция: наречие образа действия стоит ПОСЛЕ глагола или ПОСЛЕ объекта — никогда между ними: ✅ \"She reads carefully\" / ✅ \"She reads the text carefully\" / ✗ \"She reads carefully the text\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct adverb.",
+      "text": "Amir plans his week very ___ — he writes every task in advance.",
+      "opts": [
+        "careful",
+        "carefully",
+        "careless",
+        "care"
+      ],
+      "correct": "carefully",
+      "hint": "careful (adj) → carefully (adverb). Describes HOW he plans: carefully."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the adverb form.",
+      "text": "Kamila speaks English ___. (good)",
+      "correct": "well",
+      "hint": "good → well (irregular). \"She speaks English well.\" NOT \"goodly\" or \"good\"."
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She studies hardly every day\" means she is a very hard-working student.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"hardly\" = almost not / barely. \"She hardly studies\" = she barely studies. The correct form: \"She studies hard.\""
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Which sentence has the correct word order?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "He explained clearly the problem.",
+        "He explained the problem clearly.",
+        "He clearly the problem explained.",
+        "Clearly he explained problem the."
+      ],
+      "correct": "He explained the problem clearly.",
+      "hint": "Adverb of manner goes AFTER the object: \"explained the problem clearly\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Form the adverb correctly.",
+      "text": "Zhibek ___  (easy) passes all her grammar tests.",
+      "correct": "easily",
+      "hint": "easy → easily. Adjective ending in -y: drop y, add -ily. (happy→happily, heavy→heavily)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct option.",
+      "text": "\"She is a ___ student\" vs \"She studies ___.\"",
+      "opts": [
+        "good / good",
+        "well / well",
+        "good / well",
+        "well / good"
+      ],
+      "correct": "good / well",
+      "hint": "\"She is a GOOD student.\" (adjective modifies noun) / \"She studies WELL.\" (adverb modifies verb)."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which adverb is formed correctly?",
+      "text": "Choose the correctly formed adverb.",
+      "opts": [
+        "fastly",
+        "goodly",
+        "hardly",
+        "quicklier"
+      ],
+      "correct": "hardly",
+      "hint": "\"fastly\" and \"goodly\" don't exist. \"quicklier\" is wrong. \"hardly\" exists but means \"almost not\" — different from \"hard\"!"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the sentence with the correct adverb.",
+      "text": "The robot moves ___ — it changes direction without any human input. (automatic)",
+      "correct": "automatically",
+      "hint": "automatic + ally = automatically. Adjectives ending in -ic form adverbs with -ally."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct adverb.",
+      "text": "Zhibek completed the assignment ___. (easy)",
+      "opts": [
+        "easy",
+        "easiness",
+        "easily",
+        "more easy"
+      ],
+      "correct": "easily",
+      "hint": "easy → easily. -y ending: drop y, add -ily. (heavy→heavily, happy→happily)"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Correct the sentence — write the correct word.",
+      "text": "She speaks English very ___. (good)",
+      "correct": "well",
+      "hint": "good (adjective) → well (adverb). Describes HOW she speaks. \"She speaks well.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which sentence is grammatically correct?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "She reads careful the notes.",
+        "She reads the notes careful.",
+        "She reads the notes carefully.",
+        "She carefully reads notes the."
+      ],
+      "correct": "She reads the notes carefully.",
+      "hint": "Adverb of manner goes AFTER the object: \"reads the notes carefully\" ✅. Never between verb and object."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She hardly studies\" means she is a very hard-working student.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"hardly\" = almost not / barely. \"She hardly studies\" = she barely does any work. Correct form for effort: \"She studies hard.\""
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Form the adverb: careful → ___",
+      "opts": [
+        "careful",
+        "careless",
+        "carefully",
+        "carelly"
+      ],
+      "correct": "carefully",
+      "hint": "Most adjectives → add -ly: careful + ly = carefully."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "good → ___ (adverb form)",
+      "correct": "well",
+      "hint": "good → well. The most important irregular adverb. \"She speaks English well.\" (NOT \"goodly\"!)"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She works ___.\" — She puts in a lot of effort.",
+      "opts": [
+        "hard",
+        "hardly",
+        "hardily",
+        "hardness"
+      ],
+      "correct": "hard",
+      "hint": "hard (adverb) = with effort. \"She works hard.\" hardly = almost not — very different!"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She runs fastly every morning.\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"fastly\" does not exist! fast stays as fast: \"She runs fast.\" (same form for adjective and adverb)"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence has the CORRECT word order?",
+      "opts": [
+        "She explained clearly the problem.",
+        "She explained the problem clearly.",
+        "Clearly she the problem explained.",
+        "She the problem clearly explained."
+      ],
+      "correct": "She explained the problem clearly.",
+      "hint": "Adverb of manner goes AFTER the object: \"explained the problem clearly\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "easy → ___ (correct adverb)",
+      "opts": [
+        "easy",
+        "easily",
+        "easyly",
+        "easiness"
+      ],
+      "correct": "easily",
+      "hint": "-y ending: drop y, add -ily → easy→easily. (heavy→heavily, lucky→luckily)"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is a ___ student\" / \"She studies ___.\"",
+      "opts": [
+        "good / good",
+        "well / well",
+        "good / well",
+        "well / good"
+      ],
+      "correct": "good / well",
+      "hint": "good = adjective (before noun). well = adverb (after verb). \"a good student\" / \"studies well\"."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "gentle → ___ (adverb)",
+      "correct": "gently",
+      "hint": "-le ending: drop -e, add -y → gentle→gently. (simple→simply, comfortable→comfortably)"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He hardly ever misses class.\" This means he:",
+      "opts": [
+        "always misses class",
+        "almost never misses class",
+        "often misses class",
+        "never comes to class"
+      ],
+      "correct": "almost never misses class",
+      "hint": "\"hardly ever\" = almost never. It's a NEGATIVE meaning: \"He almost never misses class.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She quickly reads the textbook\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Adverbs can also go BEFORE the verb (especially in formal writing): \"She quickly reads...\" ✅ Both positions can be correct."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "automatic → ___ (adverb)",
+      "opts": [
+        "automaticly",
+        "automaticaly",
+        "automatically",
+        "automaticalli"
+      ],
+      "correct": "automatically",
+      "hint": "-ic ending: add -ally. automatic → automatically. (basic→basically, dramatic→dramatically)"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "He drives very ___ — he never exceeds the speed limit. (slow)",
+      "correct": "slowly",
+      "hint": "slow → slowly. Regular formation: adjective + -ly."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which adverb is an IRREGULAR form (same as adjective)?",
+      "opts": [
+        "slowly",
+        "carefully",
+        "early",
+        "loudly"
+      ],
+      "correct": "early",
+      "hint": "early stays as early (adjective and adverb). Also: fast, hard, late, high, low. These don't add -ly."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She speaks English ___.\" Which is correct?",
+      "opts": [
+        "good",
+        "goodly",
+        "well",
+        "better good"
+      ],
+      "correct": "well",
+      "hint": "After an action verb (speaks), use adverb → well. \"She speaks English well.\" The adverb form of good."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "happy → ___ (adverb form)",
+      "correct": "happily",
+      "hint": "happy → happily. -y → -ily: (easy→easily, angry→angrily, lucky→luckily)"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He studies ___ for exams — he barely opens a book.\"",
+      "opts": [
+        "hard",
+        "hardly",
+        "well",
+        "easily"
+      ],
+      "correct": "hardly",
+      "hint": "\"barely opens a book\" = almost nothing → hardly. \"hardly\" = almost not. Negative meaning!"
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": "l36-2",
+  "moduleNum": 2,
+  "lessonNum": 2,
+  "moduleTitle": "What's Happening Now?",
+  "type": "listening",
+  "title": "A Phone Call from the Library",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "Hey Kamila, where are you? I'm standing outside the canteen. Are you coming?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Hi Rustam! Sorry, I can't come right now. I'm still in the library. I'm helping someone.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Who are you helping? Is everything okay?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, fine — there's a first-year student here. She's looking for books for her history assignment. I'm searching the catalogue for her.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Oh right, your library volunteer shift. How long are you going to be? Zhibek is sitting here with me. We're both getting hungry.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'm nearly done — five or ten minutes. Is Amir coming too?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "No, Amir is still in the lab. He's fixing some code. He says he's not eating until the bug is solved.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Typical! What is Zhibek doing right now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "She's scrolling through her phone. She's looking at the tournament draw for next weekend.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Are you two sitting inside or outside?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "We're sitting outside. The weather is nice. Someone next to us is playing music — it's quite loud actually.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Okay, I'm just printing out the book list for this student now. I'll meet you in seven minutes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Great. I'm ordering food now. What do you want?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Soup and bread, please. Oh, and tell Zhibek I'm not looking at the tournament draw until after I eat!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Ha! She's already sending you a voice message about it. Your phone is probably buzzing.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'm ignoring it. See you in seven minutes!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "volunteer shift",
+      "emoji": "⏰",
+      "opts": [
+        "оплачиваемая работа",
+        "волонтёрское дежурство",
+        "учебная пара",
+        "экзамен"
+      ],
+      "correct": "волонтёрское дежурство"
+    },
+    {
+      "id": "p2",
+      "word": "catalogue",
+      "emoji": "📋",
+      "opts": [
+        "каталог / список книг",
+        "расписание занятий",
+        "список студентов",
+        "меню кафетерия"
+      ],
+      "correct": "каталог / список книг"
+    },
+    {
+      "id": "p3",
+      "word": "tournament draw",
+      "emoji": "🏐",
+      "opts": [
+        "расписание турнира",
+        "результат игры",
+        "тренировочный план",
+        "список призов"
+      ],
+      "correct": "расписание турнира"
+    },
+    {
+      "id": "p4",
+      "word": "scroll through",
+      "emoji": "📱",
+      "opts": [
+        "отправлять сообщения",
+        "листать / прокручивать",
+        "звонить кому-то",
+        "удалять"
+      ],
+      "correct": "листать / прокручивать"
+    },
+    {
+      "id": "p5",
+      "word": "voice message",
+      "emoji": "🎤",
+      "opts": [
+        "текстовое сообщение",
+        "видеозвонок",
+        "голосовое сообщение",
+        "электронное письмо"
+      ],
+      "correct": "голосовое сообщение"
+    },
+    {
+      "id": "p6",
+      "word": "bug",
+      "emoji": "🐛",
+      "opts": [
+        "вирус",
+        "ошибка в коде",
+        "программный файл",
+        "компьютерная игра"
+      ],
+      "correct": "ошибка в коде"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila is standing outside the canteen when Rustam calls.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila is helping a first-year student with her history assignment.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Amir is eating in the canteen with Rustam and Zhibek.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam and Zhibek are sitting outside.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Zhibek is looking at the tournament draw on her phone.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila orders a sandwich and tea.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "In the library — volunteer shift, helping a student"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "🍽️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Outside the canteen — waiting for friends, ordering food"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Outside the canteen — checking the tournament draw"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Is searching a library catalogue for a first-year student right now.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Is standing outside the canteen, getting hungry.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Is scrolling through her phone, looking at the tournament draw.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "Is printing out a book list before leaving the library.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Is already sending a voice message about next weekend's tournament.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "Is ordering food and asking what Kamila wants to eat.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Kamila when Rustam calls?",
+      "opts": [
+        "In the canteen",
+        "In the library",
+        "In the lab",
+        "Outside the building"
+      ],
+      "correct": "In the library",
+      "hint": "\"I'm still in the library. I'm helping someone.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir is eating with Rustam and Zhibek.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Amir is still in the lab. He's fixing some code.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Zhibek doing while she waits?",
+      "opts": [
+        "Eating",
+        "Studying",
+        "Scrolling through her phone",
+        "Calling Kamila"
+      ],
+      "correct": "Scrolling through her phone",
+      "hint": "\"She's scrolling through her phone. She's looking at the tournament draw.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam says that someone next to them is playing ___ loudly.",
+      "correct": "music",
+      "hint": "\"Someone next to us is playing music — it's quite loud actually.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila order to eat?",
+      "opts": [
+        "Sandwich and tea",
+        "Pizza",
+        "Soup and bread",
+        "Salad"
+      ],
+      "correct": "Soup and bread",
+      "hint": "\"Soup and bread, please.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says she will arrive in about seven minutes.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I'll meet you in seven minutes.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is Amir not joining them for dinner?",
+      "opts": [
+        "He already ate",
+        "He doesn't like the canteen",
+        "He is fixing a bug in his code",
+        "He has another class"
+      ],
+      "correct": "He is fixing a bug in his code",
+      "hint": "\"Amir is still in the lab. He's fixing some code. He says he's not eating until the bug is solved.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila doing at the very end of the call?",
+      "opts": [
+        "Walking to the canteen",
+        "Printing a book list",
+        "Calling Amir",
+        "Paying for books"
+      ],
+      "correct": "Printing a book list",
+      "hint": "\"I'm just printing out the book list for this student now.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's scrolling through her phone.\" What tense is this?",
+      "opts": [
+        "Present Simple",
+        "Present Continuous",
+        "Past Simple",
+        "Past Continuous"
+      ],
+      "correct": "Present Continuous",
+      "hint": "is/are + verb-ing = Present Continuous. \"She is scrolling\" = happening right now at this moment."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Amir ___ his code right now.\" Complete with Present Continuous.",
+      "correct": "is fixing",
+      "hint": "Present Continuous: subject + is/am/are + verb-ing. \"He is fixing\" → short form: \"He's fixing\"."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Are you coming?\" — What is the correct short answer if the answer is no?",
+      "opts": [
+        "No, I'm not.",
+        "No, I don't.",
+        "No, I haven't.",
+        "No, I wasn't."
+      ],
+      "correct": "No, I'm not.",
+      "hint": "Present Continuous question \"Are you...?\" → short answer: \"No, I'm not.\" (never \"No, I don't.\")"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"What does Zhibek do right now?\" is the correct way to ask about a current action.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "For actions happening RIGHT NOW, use Present Continuous: \"What IS Zhibek DOING right now?\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence describes what is happening NOW?",
+      "opts": [
+        "Kamila always helps students.",
+        "Kamila is helping a student.",
+        "Kamila helped a student.",
+        "Kamila will help a student."
+      ],
+      "correct": "Kamila is helping a student.",
+      "hint": "\"is helping\" = Present Continuous = happening RIGHT NOW at this moment."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"They ___ outside the canteen.\" (sit — right now)",
+      "correct": "are sitting",
+      "hint": "They = plural → are sitting. Present Continuous: are + verb-ing."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ it.\" (ignore — right now, negative)",
+      "opts": [
+        "I don't ignore it.",
+        "I'm not ignoring it.",
+        "I wasn't ignoring it.",
+        "I haven't ignored it."
+      ],
+      "correct": "I'm not ignoring it.",
+      "hint": "Negative Present Continuous: I'm not + verb-ing. \"I'm not ignoring it.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The -ing form of \"sit\" is:",
+      "opts": [
+        "siting",
+        "sitting",
+        "sits",
+        "sitted"
+      ],
+      "correct": "sitting",
+      "hint": "sit ends in CVC (consonant-vowel-consonant) → double final consonant + ing: sit → sitting. (run→running, swim→swimming)"
+    }
+  ]
+}

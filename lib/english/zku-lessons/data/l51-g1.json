@@ -1,0 +1,545 @@
+{
+  "id": "l51-g1",
+  "moduleNum": 17,
+  "lessonNum": 4,
+  "moduleTitle": "Technology & Opinion",
+  "type": "grammar",
+  "title": "Articles: a / an / the — Advanced Use",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Articles — When to Use a, an, and the",
+  "grammarNote": "Артикли (articles) — одна из самых сложных тем английской грамматики. \"A/an\" — неопределённый артикль, используется когда существительное вводится впервые или когда говорящий имеет в виду одного из многих. \"The\" — определённый артикль, используется когда существительное уже известно обоим участникам разговора, когда оно единственное в своём роде, или когда его значение уже сужено.",
+  "grammarTable": [
+    {
+      "subject": "A / AN",
+      "verb": "indefinite article",
+      "short": "неопределённый",
+      "example": "\"I bought a laptop.\" (first mention, unspecific — one of many)"
+    },
+    {
+      "subject": "THE",
+      "verb": "definite article",
+      "short": "определённый",
+      "example": "\"The laptop was expensive.\" (now specific — both know which laptop)"
+    },
+    {
+      "subject": "A = consonant",
+      "verb": "before consonant sound",
+      "short": "не перед гласным",
+      "example": "\"a university\" (sounds like \"yoo\" = consonant!) / \"a book\" / \"a student\""
+    },
+    {
+      "subject": "AN = vowel",
+      "verb": "before vowel sound",
+      "short": "перед гласным",
+      "example": "\"an hour\" (h is silent!) / \"an AI system\" / \"an engineer\""
+    },
+    {
+      "subject": "THE = unique",
+      "verb": "one of a kind",
+      "short": "единственный",
+      "example": "\"The sun\" / \"the moon\" / \"the president\" / \"the internet\""
+    },
+    {
+      "subject": "THE = specified",
+      "verb": "narrowed by context",
+      "short": "уже известно",
+      "example": "\"The question we discussed.\" / \"The book you gave me.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "When to use THE",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "1. Second mention (already introduced)",
+          "example": "\"I saw a dog. The dog was barking.\" (2nd mention → the)"
+        },
+        {
+          "form": "2. Unique (only one exists)",
+          "example": "\"the sun\", \"the internet\", \"the president of Kazakhstan\", \"the moon\""
+        },
+        {
+          "form": "3. Specified by context/clause",
+          "example": "\"The book that you recommended.\" / \"The question we discussed.\" (which one = clear)"
+        },
+        {
+          "form": "4. Superlatives",
+          "example": "\"The best student.\" / \"The most important skill.\" (superlative → always \"the\")"
+        },
+        {
+          "form": "5. Specific groups or systems",
+          "example": "\"The education system.\" / \"The government.\" / \"The media.\""
+        },
+        {
+          "form": "6. Geographic: rivers, seas, mountain ranges",
+          "example": "\"The Ural River.\" / \"The Caspian Sea.\" / \"The Alps.\""
+        }
+      ]
+    },
+    {
+      "title": "When to use A / AN",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "1. First mention — one of many",
+          "example": "\"She bought a phone.\" (one phone, not THE specific phone)"
+        },
+        {
+          "form": "2. With professions",
+          "example": "\"She is a student.\" / \"He is an engineer.\" (profession = one of many)"
+        },
+        {
+          "form": "3. Rate / frequency",
+          "example": "\"Three times a week.\" / \"Once a day.\" / \"50 tenge a litre.\""
+        },
+        {
+          "form": "4. AN before vowel SOUNDS (not just letters)",
+          "example": "\"an hour\" (h silent) / \"an MBA\" / \"an AI tool\" — sound starts with vowel!"
+        },
+        {
+          "form": "A before consonant SOUNDS",
+          "example": "\"a university\" (sounds \"yoo\"), \"a European\", \"a unique experience\""
+        }
+      ]
+    },
+    {
+      "title": "A vs THE — key contrast",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"I need a phone.\" vs \"I need the phone.\"",
+          "example": "\"a phone\" = any phone. \"the phone\" = the specific one we both know about."
+        },
+        {
+          "form": "\"She is a teacher.\" vs \"She is the teacher.\"",
+          "example": "\"a teacher\" = profession. \"the teacher\" = THE teacher (of this class, the specific one)."
+        },
+        {
+          "form": "\"I saw a film.\" vs \"I saw the film.\"",
+          "example": "\"a film\" = some film, first mention. \"the film\" = the specific film we discussed."
+        },
+        {
+          "form": "\"Turn left at a bank.\" vs \"...the bank.\"",
+          "example": "\"a bank\" = there's a bank, but which one isn't known. \"the bank\" = the one we both know."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common article mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"She is the student at WKU.\"",
+          "example": "✅ \"She is a student at WKU.\" — profession/role = \"a\" (one of many students)"
+        },
+        {
+          "form": "✗ \"I love the music.\" (general)",
+          "example": "✅ \"I love music.\" — zero article for general/abstract concepts. \"I love the music at this café.\" = specific ✅"
+        },
+        {
+          "form": "✗ \"The life is difficult.\"",
+          "example": "✅ \"Life is difficult.\" — abstract nouns in general = zero article. NOT \"the life\"."
+        },
+        {
+          "form": "✗ \"an university\"",
+          "example": "✅ \"a university\" — sounds \"yoo-ni-ver-si-ty\" = consonant sound → \"a\"!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Артикли — ключевые правила:\n\nA / AN = «один из многих» (впервые или неконкретно)\n\"I bought A book.\" (какая-то книга, одна из многих)\n\nTHE = «тот самый» (уже известен, единственный, уточнённый)\n\"The book you recommended.\" (мы оба знаем, о какой книге)\n\nA = перед согласным ЗВУКОМ: a book, a university (\"юо\"!)\nAN = перед гласным ЗВУКОМ: an hour (\"ауэр\"!), an AI, an MBA\n\n✅ После THE — ВСЕГДА: the sun, the internet, the president\n✅ Профессии: \"She is a doctor.\" (a = одна из многих)\n✅ Второе упоминание: \"I saw a dog. The dog was friendly.\"\n\nZERO article (без артикля) для:\n- абстрактных понятий: life, love, happiness, education\n- языков: Kazakh, English\n- большинства стран: Kazakhstan, France\n- видов транспорта: by car, by train",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "She is ___ engineer at a tech company.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "an",
+      "hint": "\"engineer\" starts with vowel sound \"e\" → \"AN engineer.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "I bought ___ laptop yesterday. ___ laptop cost a lot.",
+      "opts": [
+        "a / The",
+        "the / A",
+        "a / A",
+        "the / The"
+      ],
+      "correct": "a / The",
+      "hint": "First mention: \"A laptop.\" Second mention (known): \"THE laptop.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Add the correct article or leave blank (zero).",
+      "text": "\"___ life is short, so enjoy every moment.\"",
+      "correct": "Ø (no article)",
+      "hint": "General/abstract concept = zero article. \"LIFE is short.\" NOT \"The life.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"She is ___ best student in the class.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "the",
+      "hint": "Superlative → always \"THE\". \"THE best student.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "A or AN?",
+      "text": "\"He is ___ university professor.\"",
+      "opts": [
+        "a",
+        "an"
+      ],
+      "correct": "a",
+      "hint": "\"university\" sounds like \"yoo-ni-ver-si-ty\" → starts with consonant sound \"y\" → \"A university.\" ✅ NOT \"an university\"!"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "A or AN?",
+      "text": "\"She finished the course in ___ hour.\"",
+      "opts": [
+        "a",
+        "an"
+      ],
+      "correct": "an",
+      "hint": "\"hour\" — the \"h\" is silent → sounds like \"aʊər\" → vowel sound → \"AN hour.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Add the correct article.",
+      "text": "\"___ Ural River flows through Uralsk.\"",
+      "correct": "The",
+      "hint": "Rivers → \"THE\". \"THE Ural River.\" ✅ (Geographic features use \"the\")"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose: a, the, or zero.",
+      "text": "\"___ music is my favourite subject.\"",
+      "opts": [
+        "A",
+        "The",
+        "No article (zero)"
+      ],
+      "correct": "No article (zero)",
+      "hint": "General subject/concept = zero article. \"Music is my favourite subject.\" ✅ NOT \"The music.\""
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"She is ___ president of the student council.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "the",
+      "hint": "\"THE president\" = unique position — only ONE president of the student council. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "\"I once met ___ AI researcher at a conference. ___ researcher was from MIT.\"",
+      "opts": [
+        "an / The",
+        "a / The",
+        "the / An",
+        "a / A"
+      ],
+      "correct": "an / The",
+      "hint": "First mention + vowel sound: \"AN AI researcher.\" Second mention (known): \"THE researcher.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Add the correct article.",
+      "text": "\"She works three times ___ week.\"",
+      "correct": "a",
+      "hint": "Rate/frequency: \"three times A week.\" = per week. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose: a, the, or zero.",
+      "text": "\"___ internet has changed ___ education.\" (general concepts)",
+      "opts": [
+        "The / the",
+        "The / Ø",
+        "A / the",
+        "Ø / the"
+      ],
+      "correct": "The / Ø",
+      "hint": "\"THE internet\" = unique, specific. \"EDUCATION\" = abstract general concept = zero article. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I saw a dog.\" — \"A\" is used because:",
+      "opts": [
+        "Dogs are uncountable",
+        "First mention — unspecific, one of many",
+        "\"Dog\" starts with \"d\"",
+        "\"Saw\" requires \"a\""
+      ],
+      "correct": "First mention — unspecific, one of many",
+      "hint": "\"a dog\" = first introduction; one of many possible dogs. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is an engineer.\" — \"AN\" because:",
+      "opts": [
+        "\"Engineer\" is plural",
+        "\"Engineer\" starts with vowel sound \"e\"",
+        "\"She\" requires \"an\"",
+        "Professions always use \"an\""
+      ],
+      "correct": "\"Engineer\" starts with vowel sound \"e\"",
+      "hint": "\"an\" before vowel sounds. \"Engineer\" starts with \"e\" → AN engineer. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The question we discussed.\" — \"THE\" because:",
+      "opts": [
+        "Random rule",
+        "The question is specific — both speakers know which one",
+        "\"Question\" is uncountable",
+        "\"Discussed\" requires \"the\""
+      ],
+      "correct": "The question is specific — both speakers know which one",
+      "hint": "\"THE question we discussed\" = specified by the relative clause — both know which question. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She is ___ best athlete in the team.\" (superlative)",
+      "correct": "the",
+      "hint": "Superlative = always \"THE\". \"THE best athlete.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A university.\" Why \"a\" not \"an\"?",
+      "opts": [
+        "\"University\" starts with \"u\" = vowel",
+        "\"University\" sounds like \"yoo\" = consonant sound",
+        "\"An\" is only for short words",
+        "\"A\" is for academic words"
+      ],
+      "correct": "\"University\" sounds like \"yoo\" = consonant sound",
+      "hint": "\"university\" = /ˌjuːnɪˈvɜːsɪti/ — starts with \"y\" sound (consonant). \"A university.\" ✅ NOT \"an university\"."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The sun is a star.\" — \"THE sun\" because:",
+      "opts": [
+        "It's the first mention",
+        "\"Sun\" is an abstract noun",
+        "There is only one sun — it's unique",
+        "\"Sun\" starts with a consonant"
+      ],
+      "correct": "There is only one sun — it's unique",
+      "hint": "\"THE sun\" = unique in existence. Only ONE sun. ✅ Unique objects = \"the\"."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I love music.\" — Zero article because:",
+      "opts": [
+        "\"Music\" is uncountable",
+        "Music = abstract general concept, not specific",
+        "\"Love\" doesn't take articles",
+        "\"I\" as subject removes articles"
+      ],
+      "correct": "Music = abstract general concept, not specific",
+      "hint": "\"music\" as a general concept = zero article. \"I love MUSIC.\" ✅ \"I love the music at this café\" = specific ✅."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It was ___ hour before she arrived.\" (vowel sound)",
+      "correct": "an",
+      "hint": "\"hour\" — \"h\" is silent → sounds like \"aʊər\" → vowel sound → \"AN hour.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She exercises twice ___ week.\"",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "a",
+      "hint": "Rate/frequency: \"twice A week.\" = per week. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ Caspian Sea is the world's largest lake.\"",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"THE Caspian Sea\" — seas, oceans, rivers use \"THE\". ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Life is short.\" — \"Life\" has no article because:",
+      "opts": [
+        "Life is uncountable",
+        "Life = abstract concept used generally",
+        "\"Life\" is a special word",
+        "\"Is\" removes the article"
+      ],
+      "correct": "Life = abstract concept used generally",
+      "hint": "Abstract concepts used generally (life, love, education, happiness) = zero article. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is a doctor.\" vs \"She is the doctor.\" — Difference?",
+      "opts": [
+        "No difference",
+        "\"a doctor\" = profession (one of many); \"the doctor\" = the specific doctor we know",
+        "\"the doctor\" sounds more formal",
+        "\"a doctor\" is incorrect"
+      ],
+      "correct": "\"a doctor\" = profession (one of many); \"the doctor\" = the specific doctor we know",
+      "hint": "\"a doctor\" = she works as a doctor (profession). \"the doctor\" = THE specific doctor of our group/clinic. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She is ___ most intelligent person I know.\" (superlative)",
+      "correct": "the",
+      "hint": "Superlative = always THE. \"THE most intelligent person.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ internet has changed the world.\" — Correct article?",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"THE internet\" = unique, specific thing. There is only one internet. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I met ___ AI specialist. ___ specialist was from WKU.\"",
+      "opts": [
+        "an / The",
+        "a / The",
+        "the / An",
+        "an / An"
+      ],
+      "correct": "an / The",
+      "hint": "First mention + vowel sound (AI = \"ay\"): \"AN AI specialist.\" Second mention: \"THE specialist.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ education is the key to success.\" (general concept)",
+      "opts": [
+        "The",
+        "An",
+        "A",
+        "No article (zero)"
+      ],
+      "correct": "No article (zero)",
+      "hint": "\"education\" as a general concept = zero article. \"EDUCATION is the key to success.\" ✅"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "id": "l54-5",
+  "moduleNum": 20,
+  "lessonNum": 8,
+  "moduleTitle": "Work & Career",
+  "type": "test",
+  "title": "Module 20 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say about automation?",
+      "opts": [
+        "Only replaces manual work",
+        "Replaces routine AND professional work like legal research and diagnosis",
+        "Will not affect university graduates",
+        "Is already complete"
+      ],
+      "correct": "Replaces routine AND professional work like legal research and diagnosis",
+      "hint": "\"Beginning to handle work that was previously considered the exclusive territory of highly educated professionals.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What are \"T-shaped skills\"?",
+      "opts": [
+        "Only technical skills",
+        "Skills that are broad but never deep",
+        "Deep expertise in one area + breadth across others",
+        "Skills that take 10 years to develop"
+      ],
+      "correct": "Deep expertise in one area + breadth across others",
+      "hint": "\"Go deep in one area... But also build breadth — learn to communicate, to understand other fields.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What surprised Amir most about his internship?",
+      "opts": [
+        "The free food",
+        "He was given real work on day two, not a gentle introduction",
+        "It was too easy",
+        "There was no coding involved"
+      ],
+      "correct": "He was given real work on day two, not a gentle introduction",
+      "hint": "\"Instead, on day two, I was assigned to a team... handed a codebase I had never seen.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The first reading says adaptability is the best career preparation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"The best preparation is not to predict which profession will survive — it is to become a person who can adapt.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir's feedback said his work was \"good enough for ___ .\"",
+      "correct": "production",
+      "hint": "\"Good enough for production\" — the highest praise a junior developer can receive."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir say is his one piece of advice for new interns?",
+      "opts": [
+        "Prepare everything perfectly",
+        "Go in with no expectations; be ready to be surprised",
+        "Focus only on technical work",
+        "Ask many questions daily"
+      ],
+      "correct": "Go in with no expectations; be ready to be surprised",
+      "hint": "\"Go in with no expectations, and be ready to be surprised — in every direction.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Amir been preparing for the interview?",
+      "opts": [
+        "One month",
+        "Six weeks",
+        "Three months",
+        "One year"
+      ],
+      "correct": "Three months",
+      "hint": "\"I've been preparing for this internship for three months.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Amir been studying for the last six weeks?",
+      "opts": [
+        "Python",
+        "Machine learning",
+        "Web design",
+        "Cybersecurity"
+      ],
+      "correct": "Machine learning",
+      "hint": "\"I've been studying machine learning for the past six weeks.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's self-described weakness?",
+      "opts": [
+        "Poor teamwork",
+        "Focusing too deeply on one problem",
+        "Missing meetings",
+        "Slow coding"
+      ],
+      "correct": "Focusing too deeply on one problem",
+      "hint": "\"I've been told I sometimes focus too deeply on one problem and miss the bigger picture.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir says he has been waiting for someone to give him experience.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I haven't been waiting for someone to give me experience — I've been creating it myself.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The current intern team has been working together for about ___ weeks.",
+      "correct": "8 / eight",
+      "hint": "\"The current team has been working together for about eight weeks.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What field does Amir want to work in?",
+      "opts": [
+        "Finance",
+        "Construction",
+        "Machine learning with social impact",
+        "Retail"
+      ],
+      "correct": "Machine learning with social impact",
+      "hint": "\"Working as a machine learning engineer on problems that have real social impact.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Present Perfect Continuous is formed with:",
+      "opts": [
+        "had + past participle",
+        "have been + -ing",
+        "was + -ing",
+        "will have + -ing"
+      ],
+      "correct": "have been + -ing",
+      "hint": "have/has + been + -ing = Present Perfect Continuous. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been studying FOR ___.\" What fits?",
+      "opts": [
+        "2021",
+        "Monday",
+        "three months",
+        "I started"
+      ],
+      "correct": "three months",
+      "hint": "FOR + duration (three months). SINCE + starting point (2021 / Monday). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ (know) him since school.\" Correct form:",
+      "opts": [
+        "has been knowing",
+        "has known",
+        "was knowing",
+        "have known"
+      ],
+      "correct": "has known",
+      "hint": "\"know\" = stative verb → Simple. \"She HAS KNOWN him since school.\" ✅ Never \"been knowing.\""
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She applied ___ the internship and got it.\"",
+      "correct": "for",
+      "hint": "\"apply FOR a job/internship/position.\" ✅ Always \"for.\""
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been ___ a lot of progress this month.\"",
+      "opts": [
+        "doing",
+        "making",
+        "taking",
+        "having"
+      ],
+      "correct": "making",
+      "hint": "\"MAKE progress.\" ✅ Never \"do progress.\""
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ an internship at DataBridge.\" Choose.",
+      "opts": [
+        "made",
+        "is doing",
+        "is making",
+        "took"
+      ],
+      "correct": "is doing",
+      "hint": "\"DO an internship.\" ✅ (he is doing it right now)."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (prepare) for the interview for months.\" (PPC)",
+      "correct": "has been preparing",
+      "hint": "Duration → Present Perfect Continuous. \"She HAS BEEN PREPARING for months.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ notes in every meeting.\" Choose.",
+      "opts": [
+        "makes",
+        "does",
+        "takes",
+        "has"
+      ],
+      "correct": "takes",
+      "hint": "\"TAKE notes.\" ✅ Always \"take\" with notes."
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Develop genuine expertise.\" \"Expertise\" means:",
+      "opts": [
+        "Basic knowledge",
+        "High level of skill in a specific field",
+        "Work experience",
+        "Interest"
+      ],
+      "correct": "High level of skill in a specific field",
+      "hint": "\"expertise\" = deep mastery in a domain."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She showed real initiative.\" \"Initiative\" means:",
+      "opts": [
+        "Waiting for instructions",
+        "Acting independently without being asked",
+        "Being creative",
+        "Following orders"
+      ],
+      "correct": "Acting independently without being asked",
+      "hint": "\"initiative\" = proactively doing things; not waiting to be told."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Code that is good enough for production.\" \"Production\" (in tech) means:",
+      "opts": [
+        "Testing environment",
+        "The live system used by real users",
+        "Development stage",
+        "Documentation"
+      ],
+      "correct": "The live system used by real users",
+      "hint": "\"production\" in tech = the live, real system that actual users interact with."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The message is nuanced.\" \"Nuanced\" means:",
+      "opts": [
+        "Simple",
+        "Complex with subtle differences",
+        "Obvious",
+        "Controversial"
+      ],
+      "correct": "Complex with subtle differences",
+      "hint": "\"nuanced\" = not black and white; showing fine, subtle distinctions."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is adaptable.\" \"Adaptable\" means:",
+      "opts": [
+        "Stubborn",
+        "Able to change and adjust to new situations",
+        "Very fast",
+        "Very experienced"
+      ],
+      "correct": "Able to change and adjust to new situations",
+      "hint": "\"adaptable\" = flexible; able to adjust to changing circumstances."
+    }
+  ]
+}

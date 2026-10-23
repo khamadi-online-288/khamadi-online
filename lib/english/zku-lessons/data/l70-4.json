@@ -1,0 +1,246 @@
+{
+  "id": "l70-4",
+  "moduleNum": 12,
+  "lessonNum": 7,
+  "moduleTitle": "Technology & The Future",
+  "title": "Writing: A Discursive Essay on Technology and the Future",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the topic and the debate — present both sides exist",
+      "hint": "Use will / going to / expected to for your predictions"
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "First position: the optimistic view of technology",
+      "hint": "Use \"Proponents argue…\", \"Furthermore,\", \"By 2040, X will have…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Second position: the concerns and challenges",
+      "hint": "Use \"Critics point out…\", \"However,\", \"is likely to…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Your balanced conclusion: what needs to happen",
+      "hint": "Use \"On balance…\", \"In order for… to succeed,\", future forms"
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "The rapid development of artificial intelligence is ",
+      "suffix": ".",
+      "placeholder": "raising fundamental questions about the future of work and society",
+      "hint": "Introduce the issue without taking sides immediately"
+    },
+    {
+      "key": "l2",
+      "prefix": "Optimists argue that AI will ",
+      "suffix": ", thereby ___.",
+      "hint": "First position: positive prediction",
+      "placeholder": "augment human capabilities / creating new opportunities for everyone"
+    },
+    {
+      "key": "l3",
+      "prefix": "By 2040, AI will have ",
+      "suffix": ", which could benefit millions of people worldwide.",
+      "placeholder": "transformed healthcare, education, and environmental management",
+      "hint": "Future perfect for milestone by a future date"
+    },
+    {
+      "key": "l4",
+      "prefix": "However, critics point out that ",
+      "suffix": ".",
+      "placeholder": "the disruption will not fall equally, and many workers will be left behind",
+      "hint": "Contrast marker + concern"
+    },
+    {
+      "key": "l5",
+      "prefix": "In particular, workers in ",
+      "suffix": " are likely to be most affected.",
+      "placeholder": "routine cognitive and manual roles",
+      "hint": "\"are likely to be\" — probability expression"
+    },
+    {
+      "key": "l6",
+      "prefix": "On balance, I believe that technology will ",
+      "suffix": ", provided that ___.",
+      "hint": "Conclusion: conditional future",
+      "placeholder": "transform society for the better / governments invest in education and safety nets"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Optimistic predictions",
+      "color": "#003876",
+      "items": [
+        "AI is expected to create new industries and opportunities.",
+        "By 2040, renewable technology will have transformed the energy sector.",
+        "Technology is likely to augment rather than replace human capabilities.",
+        "Proponents argue that innovation will generate prosperity for all.",
+        "Advances in AI are predicted to revolutionise healthcare within a decade."
+      ]
+    },
+    {
+      "category": "Expressing concerns",
+      "color": "#DC2626",
+      "items": [
+        "Critics point out that the benefits will not be equally distributed.",
+        "A significant risk is that displaced workers will be left behind.",
+        "There is a danger that surveillance technology will erode civil liberties.",
+        "The digital divide is likely to widen without deliberate intervention.",
+        "Regulatory capacity may not keep pace with technological development."
+      ]
+    },
+    {
+      "category": "Hedging and balance",
+      "color": "#1D9E75",
+      "items": [
+        "While AI may well transform the economy, challenges remain significant.",
+        "Technology will almost certainly change work — the question is how equitably.",
+        "It would be premature to conclude that AI will solve all our problems.",
+        "The impact is likely to be uneven across different sectors and regions.",
+        "This is not merely a technical question, but a political and moral one."
+      ]
+    },
+    {
+      "category": "Conclusions",
+      "color": "#C9933B",
+      "items": [
+        "On balance, the potential benefits outweigh the risks, provided that…",
+        "In conclusion, I believe technology will be transformative — for better or worse.",
+        "The future will depend on the choices we make today about regulation and investment.",
+        "By investing in education and governance now, we can shape a more equitable future.",
+        "Technology is a tool — its impact depends entirely on how we choose to use it."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By 2040, AI ___ healthcare in most developed countries.\" (milestone)",
+      "opts": [
+        "will transform",
+        "is transforming",
+        "will have transformed",
+        "transforms"
+      ],
+      "correct": "will have transformed",
+      "hint": "\"By + future time\" = future perfect: will have + pp",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"AI ___ (likely / create) new jobs even as it eliminates existing ones.\"",
+      "correct": "is likely to create",
+      "hint": "\"is likely to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ governments invest in retraining, many workers will be left behind.\" (condition)",
+      "opts": [
+        "When",
+        "Unless",
+        "As soon as",
+        "Until"
+      ],
+      "correct": "Unless",
+      "hint": "\"Unless\" = if not — condition for something bad to happen",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In 2035, billions of people ___ (use) AI assistants for daily tasks.\" (ongoing)",
+      "correct": "will be using",
+      "hint": "Future continuous: typical ongoing activity at a future time",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most nuanced, academically appropriate prediction?",
+      "opts": [
+        "AI will definitely solve climate change.",
+        "AI is going to fix everything.",
+        "AI may well play a significant role in addressing climate challenges, though much depends on governance.",
+        "AI is about to change climate."
+      ],
+      "correct": "AI may well play a significant role in addressing climate challenges, though much depends on governance.",
+      "hint": "Hedging with \"may well\" + acknowledgement of uncertainty = academic style",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Technology is expected to disrupt traditional industries\" uses correct grammar.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"is expected to + infinitive\" — correct probability expression",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"When AI ___ (become) more powerful, new ethical questions ___ (arise).\"",
+      "correct": "becomes / will arise",
+      "hint": "Time clause: present simple; result clause: will",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By the time adequate regulation is in place, the technology ___ on.\" Choose the best form.",
+      "opts": [
+        "will move",
+        "will be moving",
+        "will have moved",
+        "moves"
+      ],
+      "correct": "will have moved",
+      "hint": "\"By the time\" triggers future perfect: will have + pp",
+      "points": 2
+    }
+  ]
+}

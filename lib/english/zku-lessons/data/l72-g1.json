@@ -1,0 +1,522 @@
+{
+  "id": "l72-g1",
+  "moduleNum": 14,
+  "lessonNum": 5,
+  "moduleTitle": "Travel & Global Cultures",
+  "title": "Grammar: Prepositions — Time, Place, and Movement",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Предлоги в контексте путешествий и передвижения:\n\nПредлоги МЕСТА:\nat → конкретная точка: at the station · at the airport · at the hotel\nin → внутри пространства: in the city · in the country · in the building\non → на поверхности: on the plane · on the bus · on the street\n\nПредлоги ТРАНСПОРТА:\nby + транспорт (без артикля): by bus · by train · by plane · by taxi · on foot\nin + личный транспорт: in the car · in a taxi\non + общественный: on the bus · on the train · on the plane\n\nПредлоги ВРЕМЕНИ в путешествиях:\nat: at 9 o'clock · at noon · at night\non: on Monday · on 15th July · on arrival\nin: in January · in 2025 · in the morning\n\n💡 Главная ловушка: \"by taxi\" (без артикля!) но \"in a/the taxi\" (с артиклем!)",
+  "grammarTable": [
+    {
+      "subject": "at",
+      "verb": "time: specific point / place: exact location",
+      "short": "exact point",
+      "example": "at 3pm, at noon, at midnight / at the airport, at the station, at the hotel"
+    },
+    {
+      "subject": "in",
+      "verb": "time: longer period / place: enclosed space",
+      "short": "inside / period",
+      "example": "in July, in 2024, in the morning / in the city, in the mountains, in a taxi"
+    },
+    {
+      "subject": "on",
+      "verb": "time: day/date / place: surface / transport",
+      "short": "surface / day",
+      "example": "on Monday, on 5th May / on the road, on the beach, on a bus/train/plane"
+    },
+    {
+      "subject": "by",
+      "verb": "transport: means of / time: deadline",
+      "short": "means or deadline",
+      "example": "by plane, by train, by car / arrive by 6pm, finish by Friday"
+    },
+    {
+      "subject": "through",
+      "verb": "movement: inside and out the other side",
+      "short": "from one side to the other",
+      "example": "drive through the tunnel, travel through the desert, walk through the forest"
+    },
+    {
+      "subject": "across/over/along",
+      "verb": "movement: crossing surface / following length",
+      "short": "crossing or following",
+      "example": "sail across the ocean, fly over the mountains, walk along the river"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "AT, IN, ON for Time — Advanced Use",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "AT: exact times, specific points, holidays",
+          "example": "\"at 9am\", \"at the weekend\" (BrE), \"at Christmas\", \"at midnight\", \"at the same time\""
+        },
+        {
+          "form": "IN: months, years, seasons, parts of day",
+          "example": "\"in January\", \"in 2025\", \"in summer\", \"in the morning/afternoon/evening\""
+        },
+        {
+          "form": "ON: days, dates, specific occasions",
+          "example": "\"on Monday\", \"on 12th March\", \"on my birthday\", \"on a rainy day\", \"on arrival\""
+        },
+        {
+          "form": "No preposition: last/next/this/every + time",
+          "example": "\"last Monday\", \"next week\", \"this morning\", \"every summer\" — no preposition!"
+        }
+      ]
+    },
+    {
+      "title": "AT, IN, ON for Place — Advanced Use",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "AT: specific locations / events",
+          "example": "\"at the airport\", \"at the border\", \"at a conference\", \"at the coast\", \"at home\""
+        },
+        {
+          "form": "IN: enclosed spaces, cities, countries, regions",
+          "example": "\"in the hotel\", \"in Almaty\", \"in Kazakhstan\", \"in the south\", \"in the mountains\""
+        },
+        {
+          "form": "ON: surfaces, roads, transport, islands",
+          "example": "\"on the beach\", \"on the road\", \"on a ship\", \"on the island\", \"on the first floor\""
+        },
+        {
+          "form": "Special cases to memorise",
+          "example": "\"in the sky\" / \"on the plane\" / \"at the airport\" / \"in a taxi\" / \"on a bus/train\""
+        }
+      ]
+    },
+    {
+      "title": "Movement Prepositions: Through, Across, Along, Past, Into, Onto",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "through = from one side to the other (inside)",
+          "example": "\"We drove through the tunnel.\" \"She walked through the crowd.\""
+        },
+        {
+          "form": "across = from one side to the other (surface or open space)",
+          "example": "\"We sailed across the lake.\" \"She walked across the bridge.\""
+        },
+        {
+          "form": "along = following the length of something",
+          "example": "\"We walked along the river.\" \"They drove along the coast.\""
+        },
+        {
+          "form": "past = going beyond a point without stopping",
+          "example": "\"Turn left just past the museum.\" \"The bus goes past the station.\""
+        },
+        {
+          "form": "into = entering an enclosed space",
+          "example": "\"She walked into the hotel.\" \"He drove into the city.\""
+        },
+        {
+          "form": "onto = movement onto a surface / on top",
+          "example": "\"She stepped onto the boat.\" \"He climbed onto the roof.\""
+        }
+      ]
+    },
+    {
+      "title": "By for Transport and Time",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "by + transport (no article): how you travel",
+          "example": "\"by car\", \"by train\", \"by plane\", \"by bus\", \"by ferry\", \"by foot\" / \"on foot\" (both used)"
+        },
+        {
+          "form": "by + time: before or not later than",
+          "example": "\"We must arrive by 9am.\" \"The visa must be approved by Friday.\""
+        },
+        {
+          "form": "\"By the time\" + clause: when something is completed",
+          "example": "\"By the time we arrived, the museum had closed.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Preposition Errors in Travel Contexts",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ We arrived to the airport at noon.",
+          "example": "✅ We arrived at the airport at noon. (\"arrive at\" a place)"
+        },
+        {
+          "form": "❌ She travelled by the plane.",
+          "example": "✅ She travelled by plane. (no article after \"by + transport\")"
+        },
+        {
+          "form": "❌ I will go there on next Monday.",
+          "example": "✅ I will go there next Monday. (no preposition with next/last/this)"
+        },
+        {
+          "form": "❌ We walked along the tunnel.",
+          "example": "✅ We walked through the tunnel. (\"through\" = enclosed space, end to end)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "\"She arrived ___ the airport ___ 6am ___ a cold morning.\"",
+      "opts": [
+        "to / at / in",
+        "at / at / on",
+        "in / at / on",
+        "at / in / on"
+      ],
+      "correct": "at / at / on",
+      "hint": "\"Arrive at\" the airport; \"at 6am\" (exact time); \"on a cold morning\""
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "\"He travelled ___ train from Almaty to Astana and arrived ___ 3pm.\"",
+      "correct": "by / at",
+      "hint": "\"By train\" (no article); \"at 3pm\" (exact time)"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct movement preposition.",
+      "text": "\"The road goes ___ the mountains, not over them — it's a long tunnel.\"",
+      "opts": [
+        "across",
+        "through",
+        "along",
+        "past"
+      ],
+      "correct": "through",
+      "hint": "\"Through\" = passing inside an enclosed space (tunnel)"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "\"We walked ___ the canal for about two hours before stopping ___ a small café.\"",
+      "correct": "along / at",
+      "hint": "\"Along\" = following the length of something; \"at\" a specific place"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "\"She has been living ___ Seoul ___ three years — she arrived ___ the spring.\"",
+      "opts": [
+        "in / for / at",
+        "at / since / in",
+        "in / for / in",
+        "in / since / in"
+      ],
+      "correct": "in / for / in",
+      "hint": "\"In Seoul\" (city); \"for three years\" (duration); \"in the spring\" (season)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"We will travel by the car to the border and then cross on foot.\"",
+      "opts": [
+        "No error",
+        "\"by the car\" should be \"by car\"",
+        "\"on foot\" should be \"by foot\"",
+        "\"cross\" should be \"crossing\""
+      ],
+      "correct": "\"by the car\" should be \"by car\"",
+      "hint": "\"By car/train/plane\" — no article after \"by + transport\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "\"The ferry sails ___ the island every morning at 8am and docks ___ the main harbour.\"",
+      "correct": "to / at",
+      "hint": "\"Sail to\" a destination; \"dock at\" a specific place"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct preposition for movement.",
+      "text": "\"She stepped carefully ___ the small boat and found a seat ___ the bow.\"",
+      "opts": [
+        "into / at",
+        "onto / at",
+        "in / on",
+        "onto / in"
+      ],
+      "correct": "onto / at",
+      "hint": "\"Step onto\" a surface; \"at the bow\" (specific location)"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "No preposition or correct preposition?",
+      "text": "\"I saw her ___ last Tuesday — she was just back from her trip.\" (last Tuesday = ?)",
+      "correct": "on",
+      "hint": "Days: \"on Tuesday\" but \"last Tuesday\" usually has no preposition in spoken English — both exist"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct movement preposition.",
+      "text": "\"The hiking trail goes ___ the forest and then ___ a river.\"",
+      "opts": [
+        "through / across",
+        "through / along",
+        "across / over",
+        "along / through"
+      ],
+      "correct": "through / across",
+      "hint": "\"Through\" the forest (enclosed); \"across\" a river (surface/open space)"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "\"We must be ___ the hotel ___ noon — check-out is ___ 12pm sharp.\"",
+      "correct": "at / by / at",
+      "hint": "\"At the hotel\" (location); \"by noon\" (deadline); \"at 12pm\" (exact time)"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "She lives on France for six months every year.",
+        "She lives in France for six months every year.",
+        "She lives at France for six months every year.",
+        "She lives for France six months every year."
+      ],
+      "correct": "She lives in France for six months every year.",
+      "hint": "\"In\" + country; \"for\" + duration"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete with \"past\" or \"through.\"",
+      "text": "\"Drive ___ the market and continue until you pass ___ the old city gate.\"",
+      "correct": "past / through",
+      "hint": "\"Past\" = go beyond without entering; \"through\" = enter one side, exit the other"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct prepositions.",
+      "text": "\"She was born ___ the 15th of March ___ a small village ___ the north.\"",
+      "opts": [
+        "on / in / in",
+        "at / at / at",
+        "in / in / at",
+        "on / at / in"
+      ],
+      "correct": "on / in / in",
+      "hint": "\"On\" a date; \"in\" a village; \"in the north\" (region)"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "\"By the time we got ___ the summit, we had been walking ___ six hours.\"",
+      "correct": "to / for",
+      "hint": "\"Get to\" the summit (arrive at); \"for six hours\" (duration)"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is correct?",
+      "text": "\"We'll be visiting Istanbul ___ next summer.\" (with \"next\")",
+      "opts": [
+        "in next summer",
+        "on next summer",
+        "at next summer",
+        "next summer (no preposition)"
+      ],
+      "correct": "next summer (no preposition)",
+      "hint": "\"Next/last/this + time\" = no preposition needed"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She arrived ___ the station ___ a rainy evening ___ October.\"",
+      "opts": [
+        "at / on / in",
+        "to / in / on",
+        "in / on / in",
+        "at / in / at"
+      ],
+      "correct": "at / on / in",
+      "hint": "\"Arrive at\" the station; \"on a rainy evening\"; \"in October\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He drove ___ the city, turned right just ___ the museum, and parked ___ the square.\"",
+      "correct": "through / past / at",
+      "hint": "\"Through\" the city; \"past\" = beyond; \"at\" the square (location)",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"We travelled ___ bus and arrived ___ the border ___ midnight.\"",
+      "opts": [
+        "by / at / at",
+        "on / in / at",
+        "by / to / in",
+        "on / at / in"
+      ],
+      "correct": "by / at / at",
+      "hint": "\"By bus\"; \"arrive at\" the border; \"at midnight\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The path runs ___ the lake — you can walk ___ it for about three kilometres.\"",
+      "opts": [
+        "along / along",
+        "through / around",
+        "across / over",
+        "past / along"
+      ],
+      "correct": "along / along",
+      "hint": "\"Along\" = following the length of something",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ the time they reached the hotel, it was already dark and they hadn't eaten ___ hours.\"",
+      "correct": "By / for",
+      "hint": "\"By the time\" = when; \"for hours\" = duration",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"We will arrive to the airport by noon\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Arrive at\" the airport (not \"arrive to\")",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She stepped carefully ___ the boat and found a seat near the front.\"",
+      "correct": "onto",
+      "hint": "\"Step onto\" a surface (boat deck)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I am going there ___ next week — no need to book far in advance.\"",
+      "opts": [
+        "in next week",
+        "on next week",
+        "at next week",
+        "next week (no preposition)"
+      ],
+      "correct": "next week (no preposition)",
+      "hint": "\"Next/this/last + time\" = no preposition",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The train passes ___ three countries before reaching its final destination.\"",
+      "opts": [
+        "across",
+        "through",
+        "along",
+        "over"
+      ],
+      "correct": "through",
+      "hint": "\"Through\" countries = passing from one side to the other (enclosed political space)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He was born ___ April 3rd ___ a small town ___ the south of France.\"",
+      "correct": "on / in / in",
+      "hint": "\"On\" a date; \"in\" a town; \"in the south\"",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"They sailed ___ the strait in just two hours.\" (from one side to the other — open water)",
+      "opts": [
+        "through",
+        "across",
+        "along",
+        "past"
+      ],
+      "correct": "across",
+      "hint": "\"Across\" = from one side to the other (open water)",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She travelled ___ plane to Bangkok and then took a bus ___ the city centre.\"",
+      "correct": "by / to",
+      "hint": "\"By plane\" (no article); \"to the city centre\" (destination)",
+      "points": 2
+    }
+  ]
+}

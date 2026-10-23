@@ -1,0 +1,223 @@
+{
+  "id": "l20-5",
+  "moduleNum": 4,
+  "lessonNum": 6,
+  "moduleTitle": "Food & Eating Out",
+  "title": "Write a restaurant review",
+  "type": "writing",
+  "xp": 75,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I visited... on...",
+      "emoji": "📅",
+      "opts": [
+        "Я планирую посетить...",
+        "Я посетил(а)... в...",
+        "Рекомендую посетить...",
+        "Я работаю в..."
+      ],
+      "correct": "Я посетил(а)... в..."
+    },
+    {
+      "id": "p2",
+      "word": "The atmosphere is...",
+      "emoji": "✨",
+      "opts": [
+        "Атмосфера — это...",
+        "Меню включает...",
+        "Цены —...",
+        "Обслуживание —..."
+      ],
+      "correct": "Атмосфера — это..."
+    },
+    {
+      "id": "p3",
+      "word": "I ordered the...",
+      "emoji": "📋",
+      "opts": [
+        "Я приготовил...",
+        "Я заказал(а)...",
+        "Мне принесли...",
+        "Я выбрал(а) меню..."
+      ],
+      "correct": "Я заказал(а)..."
+    },
+    {
+      "id": "p4",
+      "word": "The portion was...",
+      "emoji": "🍽️",
+      "opts": [
+        "Порция была...",
+        "Вкус был...",
+        "Цена была...",
+        "Обслуживание было..."
+      ],
+      "correct": "Порция была..."
+    },
+    {
+      "id": "p5",
+      "word": "Value for money",
+      "emoji": "💰",
+      "opts": [
+        "Дорого",
+        "Соотношение цены и качества",
+        "Скидка",
+        "Чек"
+      ],
+      "correct": "Соотношение цены и качества"
+    },
+    {
+      "id": "p6",
+      "word": "I would / wouldn't recommend",
+      "emoji": "⭐",
+      "opts": [
+        "Я могу / не могу позволить себе",
+        "Я порекомендую / не порекомендую",
+        "Я нашёл / не нашёл",
+        "Я заказал / не заказал"
+      ],
+      "correct": "Я порекомендую / не порекомендую"
+    }
+  ],
+  "writingModel": [
+    "★★★★★ Stepnoy Corner — A Taste of Home Near WKU\nReviewed by: Kamila S., 2nd year student\nVisited: Friday evening, with two friends\n",
+    "I visited Stepnoy Corner for the first time three weeks ago, and I have been back four times since then. Located just five minutes on foot from the WKU main gate, this small café has quickly become my favourite place to eat in Uralsk. The atmosphere is warm and intimate — decorated with dried wildflowers, photographs of the Kazakh steppe, and soft traditional music. There are only eight tables inside, so it feels like a private dining room rather than a restaurant.",
+    "For my main course, I ordered the beshbarmak — Kazakhstan's national dish. It arrived in a large clay bowl with wide, flat noodles, tender lamb, fragrant onions, and a small pot of hot sorpa on the side. The meat was incredibly soft and flavourful — clearly slow-cooked for many hours. I had some concerns that a portion for 2,200 tenge might not be enough, but it was enormous — my friend and I shared it and were both completely full.",
+    "My friend Zhibek, who is vegetarian, ordered the pumpkin manty. She said it was the best she had ever eaten outside of her grandmother's kitchen. The dough was light and thin, the filling was sweet and creamy, and the sauce was perfectly balanced. There was a lot of flavour in every bite. To drink, I had a large pot of black tea with local wildflower honey. It was rich, aromatic, and incredibly comforting.",
+    "The service was attentive and friendly — the waiter checked on us twice during the meal, and the owner Gulnaz came out personally to ask if we enjoyed the food. The only small criticism I have is that the café gets quite busy between 12:30 and 14:00, so there is sometimes a short wait for a table. My advice: arrive before midday or after 14:30 to avoid the lunchtime rush.",
+    "In terms of value for money, Stepnoy Corner is excellent. Main dishes range from 1,500 to 2,500 tenge, and the daily set lunch — starter, main, and drink — is just 1,800 tenge. For the quality of the ingredients and the generosity of the portions, this is outstanding value. I would highly recommend Stepnoy Corner to any WKU student, especially those who miss home cooking. ★★★★★"
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "★★★ Name of restaurant — subtitle",
+      "hint": "e.g. ★★★★★ Stepnoy Corner — A taste of home!"
+    },
+    {
+      "key": "visit",
+      "prefix": "I visited ",
+      "suffix": " on ___.",
+      "placeholder": "restaurant name ... day/time",
+      "hint": "e.g. Stepnoy Corner ... Friday evening"
+    },
+    {
+      "key": "location",
+      "prefix": "It is located ",
+      "suffix": ". The atmosphere is ___.",
+      "placeholder": "location ... atmosphere adjective",
+      "hint": "e.g. near WKU ... warm and cosy"
+    },
+    {
+      "key": "order",
+      "prefix": "I ordered the ",
+      "suffix": ". It was ___.",
+      "placeholder": "dish name ... your opinion",
+      "hint": "e.g. beshbarmak ... incredibly tender and flavourful"
+    },
+    {
+      "key": "portion",
+      "prefix": "The portion was ",
+      "suffix": " and the price was ___.",
+      "placeholder": "size ... price opinion",
+      "hint": "e.g. very generous ... excellent value"
+    },
+    {
+      "key": "drink",
+      "prefix": "To drink, I had ",
+      "suffix": ", which was ___.",
+      "placeholder": "drink ... adjective",
+      "hint": "e.g. fresh watermelon juice ... refreshing and sweet"
+    },
+    {
+      "key": "service",
+      "prefix": "The service was ",
+      "suffix": ".",
+      "placeholder": "service adjective",
+      "hint": "e.g. friendly and attentive"
+    },
+    {
+      "key": "negative",
+      "prefix": "The only small criticism is that ",
+      "suffix": ".",
+      "placeholder": "one minor problem",
+      "hint": "e.g. it gets busy at lunchtime / the menu is small"
+    },
+    {
+      "key": "recommend",
+      "prefix": "I would ",
+      "suffix": " recommend this restaurant because ___.",
+      "placeholder": "strongly / not ... reason",
+      "hint": "e.g. strongly ... the food is authentic and delicious"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing the atmosphere",
+      "color": "#7C3AED",
+      "items": [
+        "The atmosphere is warm and cosy.",
+        "The décor is traditional / modern / minimalist.",
+        "The music was soft and relaxing.",
+        "The restaurant was busy but not too noisy.",
+        "It feels like eating at home.",
+        "The tables are small but comfortable."
+      ]
+    },
+    {
+      "category": "Describing the food",
+      "color": "#EF4444",
+      "items": [
+        "The food was incredibly tasty / tender / flavourful.",
+        "The portion was generous / enormous / just right.",
+        "The dish arrived hot and beautifully presented.",
+        "There was a lot of flavour in every bite.",
+        "The ingredients were fresh and locally sourced.",
+        "The sauce was perfectly balanced — not too sweet, not too salty."
+      ]
+    },
+    {
+      "category": "Service & value",
+      "color": "#16A34A",
+      "items": [
+        "The service was friendly and attentive.",
+        "The waiter checked on us twice.",
+        "We didn't have to wait long.",
+        "The prices are very reasonable for students.",
+        "Excellent value for money!",
+        "A little expensive, but worth it for special occasions."
+      ]
+    },
+    {
+      "category": "Recommending",
+      "color": "#003876",
+      "items": [
+        "I would highly recommend this restaurant.",
+        "I would definitely come back!",
+        "This is a must-visit if you're near WKU.",
+        "Perfect for a special dinner or a birthday.",
+        "I'd suggest arriving before midday to avoid the rush.",
+        "One small criticism: the menu could be bigger."
+      ]
+    }
+  ]
+}

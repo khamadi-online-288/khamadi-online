@@ -1,0 +1,107 @@
+{
+  "id": "l26-4",
+  "moduleNum": 10,
+  "lessonNum": 5,
+  "moduleTitle": "Advice & Rules",
+  "title": "Writing: Advice for a New Student",
+  "type": "writing",
+  "xp": 40,
+  "duration": 22,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "writingModel": [
+    "Dear new WKU student,",
+    "Welcome to university life! I have been a student at WKU for one year, and I want to share some advice that I wish someone had given me on my first day.",
+    "First, you should talk to your lecturers if you have a problem. They are people too — they understand that mistakes happen. You shouldn't suffer in silence. If you submit the wrong file or miss a deadline, you must contact your lecturer immediately and explain honestly. Don't wait — the sooner you communicate, the better.",
+    "You must manage your time well from day one. You have to attend at least 80% of your classes, so you shouldn't plan too many activities during the week. I recommend using a planner — you don't have to use a complicated system, just a simple list of daily tasks works well. You mustn't leave all your work to the last minute.",
+    "About campus life: you don't have to join every club or society, but I strongly recommend trying at least one. I joined the debate club and it changed my whole experience. You should also explore Uralsk — there are amazing places you can visit at weekends.",
+    "Finally, you mustn't forget to take care of yourself. You should sleep properly, eat regularly, and talk to your friends when you feel stressed. University is challenging but also the most exciting time of your life. Enjoy every moment!\n\nGood luck,\nKamila"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "Dear new student,\n\n",
+      "suffix": "",
+      "placeholder": "Introduce yourself and your experience at university...",
+      "hint": "\"I have been a student here for... I want to share some advice...\""
+    },
+    {
+      "key": "para1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "First piece of advice — about academic life (must/should/have to)...",
+      "hint": "Use \"you should...\", \"you must...\", \"you have to...\""
+    },
+    {
+      "key": "para2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Second piece of advice — about campus/social life (don't have to/shouldn't)...",
+      "hint": "\"You don't have to...\", \"You shouldn't...\", \"I strongly recommend...\""
+    },
+    {
+      "key": "close",
+      "prefix": "",
+      "suffix": "\n\nGood luck,\n___",
+      "placeholder": "Closing advice — about wellbeing or a positive thought...",
+      "hint": "\"Finally, you mustn't forget to... You should... Enjoy every moment!\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Obligations (must/have to)",
+      "color": "#003876",
+      "items": [
+        "You must manage your time well.",
+        "You have to attend 80% of classes.",
+        "You must contact your lecturer immediately.",
+        "You mustn't leave work to the last minute."
+      ]
+    },
+    {
+      "category": "Advice (should/shouldn't)",
+      "color": "#16A34A",
+      "items": [
+        "You should talk to your lecturers.",
+        "You shouldn't suffer in silence.",
+        "I strongly recommend...",
+        "I think you should try..."
+      ]
+    },
+    {
+      "category": "No obligation (don't have to)",
+      "color": "#C9933B",
+      "items": [
+        "You don't have to join every club.",
+        "You don't have to use a complicated system.",
+        "You don't have to be perfect from day one.",
+        "You don't have to do everything alone."
+      ]
+    },
+    {
+      "category": "Advice phrases",
+      "color": "#DB2777",
+      "items": [
+        "The sooner you..., the better.",
+        "From my experience,...",
+        "One thing I wish I had known is...",
+        "Don't forget that..."
+      ]
+    }
+  ]
+}

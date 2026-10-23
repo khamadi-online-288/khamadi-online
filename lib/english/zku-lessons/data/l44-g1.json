@@ -1,0 +1,540 @@
+{
+  "id": "l44-g1",
+  "moduleNum": 10,
+  "lessonNum": 4,
+  "moduleTitle": "Around the City",
+  "type": "grammar",
+  "title": "Prepositions of Place: at / in / on",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Prepositions of Place: at / in / on",
+  "grammarNote": "\"At\", \"in\" и \"on\" — самые частые предлоги места в английском. Хотя они все переводятся как \"в\", \"на\" или \"у\", их употребление следует чётким правилам. AT — точная позиция (адрес, место назначения). IN — внутри ограниченного пространства (комнаты, города, страны). ON — на поверхности или линии (этаж, улица, берег).",
+  "grammarTable": [
+    {
+      "subject": "AT",
+      "verb": "point/specific position",
+      "short": "at = точка",
+      "example": "\"at the bus stop / at the mosque / at number 12 / at the corner\""
+    },
+    {
+      "subject": "AT",
+      "verb": "events/places (general)",
+      "short": "at = у/на",
+      "example": "\"at the university / at home / at work / at a concert / at the library\""
+    },
+    {
+      "subject": "IN",
+      "verb": "enclosed space",
+      "short": "in = внутри",
+      "example": "\"in the room / in the building / in the city / in Kazakhstan / in the car\""
+    },
+    {
+      "subject": "IN",
+      "verb": "areas (city, country)",
+      "short": "in = в городе",
+      "example": "\"in Uralsk / in Russia / in the centre of the city / in the north\""
+    },
+    {
+      "subject": "ON",
+      "verb": "surface",
+      "short": "on = на поверхности",
+      "example": "\"on the table / on the wall / on the floor / on the desk\""
+    },
+    {
+      "subject": "ON",
+      "verb": "street / river / line",
+      "short": "on = на линии",
+      "example": "\"on Dostyq Avenue / on the river / on the left / on the second floor\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "AT — specific points and places",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "at + address/number",
+          "example": "\"She lives at 47 Dostyq Avenue.\" / \"Meet me at number 12.\""
+        },
+        {
+          "form": "at + specific location",
+          "example": "\"I'm at the bus stop.\" / \"She's at the library.\" / \"He's at the mosque.\""
+        },
+        {
+          "form": "at + event/institution",
+          "example": "\"She studies at WKU.\" / \"He works at the hospital.\" / \"I'm at a meeting.\""
+        },
+        {
+          "form": "at + home/work/school",
+          "example": "\"I'll be at home this evening.\" / \"He's at work until 6.\""
+        }
+      ]
+    },
+    {
+      "title": "IN — enclosed or defined spaces",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "in + room/building",
+          "example": "\"She's in the library.\" (inside the building) / \"The café is in the main building.\""
+        },
+        {
+          "form": "in + city/country",
+          "example": "\"He lives in Uralsk.\" / \"They study in Kazakhstan.\" / \"She grew up in Almaty.\""
+        },
+        {
+          "form": "in + enclosed transport",
+          "example": "\"She's in the car.\" / \"I was in the taxi for twenty minutes.\""
+        },
+        {
+          "form": "in + area/zone",
+          "example": "\"The campus is in the north of the city.\" / \"It's in the centre.\""
+        }
+      ]
+    },
+    {
+      "title": "ON — surfaces and lines",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "on + flat surface",
+          "example": "\"The book is on the desk.\" / \"The map is on the wall.\" / \"Sit on the chair.\""
+        },
+        {
+          "form": "on + floor/level",
+          "example": "\"The library is on the second floor.\" / \"The café is on the ground floor.\""
+        },
+        {
+          "form": "on + street/avenue",
+          "example": "\"The university is on Dostyq Avenue.\" / \"There's a shop on that street.\""
+        },
+        {
+          "form": "on + side/direction",
+          "example": "\"The bank is on the left.\" / \"There's a park on the right.\" / \"On the corner.\""
+        }
+      ]
+    },
+    {
+      "title": "Common confusions and fixed expressions",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "at the library (event/visit)",
+          "example": "\"I'll meet you at the library.\" (to visit/use it — at = destination)"
+        },
+        {
+          "form": "in the library (inside)",
+          "example": "\"She's in the library studying.\" (inside the building)"
+        },
+        {
+          "form": "in the bus (inside vehicle)",
+          "example": "\"I'm in the bus.\" (you are inside it)"
+        },
+        {
+          "form": "on the bus (using the service)",
+          "example": "\"I'm on the bus.\" (you are travelling by bus)"
+        },
+        {
+          "form": "on the corner (of a street)",
+          "example": "\"The café is on the corner.\" (at the junction/turn of two streets)"
+        },
+        {
+          "form": "at the corner (exact spot)",
+          "example": "\"I'm standing at the corner of Dostyq and Lenin Street.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "AT / IN / ON — три ключевых значения:\n① AT = точка назначения / конкретное место / событие:\n\"at the bus stop / at home / at WKU / at the corner\"\n② IN = внутри ограниченного пространства / города / страны:\n\"in the room / in Uralsk / in Kazakhstan / in the car\"\n③ ON = на поверхности / на улице / на этаже:\n\"on the desk / on Dostyq Avenue / on the second floor / on the left\"\n\n💡 Часто путают:\n\"I'm ON the bus\" (еду на автобусе) vs \"I'm IN the bus\" (нахожусь внутри)\n\"in the library\" (я внутри здания) vs \"at the library\" (я пришёл в библиотеку)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "The pharmacy is ___ the corner of the main square.",
+      "opts": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correct": "on",
+      "hint": "\"on the corner\" = at the junction of two streets. \"The pharmacy is ON the corner.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with \"at\", \"in\", or \"on\".",
+      "text": "She studies ___ WKU ___ Uralsk.",
+      "correct": "at / in",
+      "hint": "\"at WKU\" (specific institution) + \"in Uralsk\" (city). \"She studies AT WKU IN Uralsk.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "The library is ___ the second floor of the main building.",
+      "opts": [
+        "at",
+        "in",
+        "on",
+        "above"
+      ],
+      "correct": "on",
+      "hint": "\"on the second floor\" — floors use \"on\". \"The library is ON the second floor.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose: \"in the bus\" or \"on the bus\"?",
+      "text": "\"I'm ___ the bus — should be at the stop in five minutes.\"",
+      "opts": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "correct": "on",
+      "hint": "\"on the bus\" = travelling by bus. \"I'm ON the bus.\" (not \"in the bus\" — unless you're describing being physically inside it as an object)"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with \"at\", \"in\", or \"on\".",
+      "text": "The café is ___ Dostyq Avenue, ___ the left side of the street.",
+      "correct": "on / on",
+      "hint": "\"on Dostyq Avenue\" (street) + \"on the left side\". Both use \"on\". ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "She's ___ the library right now — she went there to study.",
+      "opts": [
+        "on",
+        "in",
+        "at",
+        "to"
+      ],
+      "correct": "in",
+      "hint": "\"in the library\" = inside the building. \"She's IN the library.\" (physically inside) ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct preposition for a country.",
+      "text": "I grew up ___ Kazakhstan and now I study ___ Uralsk.",
+      "opts": [
+        "in / at",
+        "on / in",
+        "in / in",
+        "at / in"
+      ],
+      "correct": "in / in",
+      "hint": "Countries and cities both use \"in\". \"I grew up IN Kazakhstan. I study IN Uralsk.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with \"at\", \"in\", or \"on\".",
+      "text": "She is ___ home, not ___ work. She has a meeting ___ the university tomorrow.",
+      "correct": "at / at / at",
+      "hint": "\"at home / at work / at the university\" — all fixed expressions using \"at\". ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "The ATM is ___ the main building — just inside the entrance.",
+      "opts": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correct": "in",
+      "hint": "\"in the main building\" = inside the building. \"The ATM is IN the main building.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct preposition for an event.",
+      "text": "I met her ___ a linguistics conference last year.",
+      "opts": [
+        "in",
+        "at",
+        "on",
+        "into"
+      ],
+      "correct": "at",
+      "hint": "\"at a conference\" = attending an event. \"I met her AT a conference.\" ✅ (events use \"at\")"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with \"at\", \"in\", or \"on\".",
+      "text": "The university is ___ the north of the city, ___ Dostyq Avenue.",
+      "correct": "in / on",
+      "hint": "\"in the north of the city\" (area) + \"on Dostyq Avenue\" (street). ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "She lives ___ 47 Dostyq Avenue.",
+      "opts": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "correct": "at",
+      "hint": "\"at + number + street\" = precise address. \"She lives AT 47 Dostyq Avenue.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's ___ home right now.\" Choose the correct preposition.",
+      "opts": [
+        "in",
+        "on",
+        "at",
+        "to"
+      ],
+      "correct": "at",
+      "hint": "\"at home\" is a fixed expression. \"She's AT home.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The café is ___ the corner of the street.\"",
+      "opts": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correct": "on",
+      "hint": "\"on the corner\" = located at the junction of two streets. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was born ___ Kazakhstan.\"",
+      "opts": [
+        "at",
+        "on",
+        "by",
+        "in"
+      ],
+      "correct": "in",
+      "hint": "\"in\" = country or large area. \"I was born IN Kazakhstan.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The library is ___ the second floor.\"",
+      "opts": [
+        "at",
+        "in",
+        "on",
+        "above"
+      ],
+      "correct": "on",
+      "hint": "\"on the second floor\" — floors use \"on\". ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She studies ___ WKU ___ Uralsk.\"",
+      "correct": "at / in",
+      "hint": "\"at\" + institution, \"in\" + city. \"She studies AT WKU IN Uralsk.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The university is ___ Dostyq Avenue.\"",
+      "opts": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correct": "on",
+      "hint": "\"on\" + street/avenue name. \"The university is ON Dostyq Avenue.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm ___ the bus right now.\" (travelling)",
+      "opts": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "correct": "on",
+      "hint": "\"on the bus\" = travelling by bus. \"on\" for using transport as a service. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The ATM is ___ the main building.\"",
+      "opts": [
+        "on",
+        "at",
+        "by",
+        "in"
+      ],
+      "correct": "in",
+      "hint": "\"in the building\" = physically inside. \"The ATM is IN the main building.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I met her ___ a conference last year.\" (event)",
+      "opts": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "correct": "at",
+      "hint": "\"at\" + event. \"I met her AT a conference.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The pharmacy is ___ the corner, ___ the left.\"",
+      "correct": "on / on",
+      "hint": "\"on the corner\" + \"on the left\". Both use \"on\". ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She grew up ___ a small town ___ western Kazakhstan.\"",
+      "opts": [
+        "in / at",
+        "at / in",
+        "in / in",
+        "at / at"
+      ],
+      "correct": "in / in",
+      "hint": "\"in a small town\" (area) + \"in western Kazakhstan\" (area). Both use \"in\". ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He works ___ the hospital.\"",
+      "opts": [
+        "in",
+        "on",
+        "at",
+        "by"
+      ],
+      "correct": "at",
+      "hint": "\"at the hospital\" = works there as a destination/institution. \"He works AT the hospital.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The map is ___ the wall.\"",
+      "opts": [
+        "in",
+        "at",
+        "on",
+        "above"
+      ],
+      "correct": "on",
+      "hint": "\"on the wall\" = attached to/on the surface of. \"The map is ON the wall.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I'll meet you ___ the bus stop ___ 8 a.m.\"",
+      "correct": "at / at",
+      "hint": "\"at the bus stop\" (specific point) + \"at 8 a.m.\" (specific time — at for time too). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's ___ her room, studying.\"",
+      "opts": [
+        "at",
+        "on",
+        "by",
+        "in"
+      ],
+      "correct": "in",
+      "hint": "\"in her room\" = enclosed space, inside. \"She's IN her room.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main difference between \"at\" and \"in\" with a building?",
+      "opts": [
+        "No difference",
+        "\"At\" = going there as a destination; \"in\" = inside it",
+        "\"In\" is more formal",
+        "\"At\" is always correct"
+      ],
+      "correct": "\"At\" = going there as a destination; \"in\" = inside it",
+      "hint": "\"at the library\" = going there as a place. \"in the library\" = physically inside. Both are common and correct."
+    }
+  ]
+}

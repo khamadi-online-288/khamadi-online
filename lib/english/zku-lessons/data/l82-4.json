@@ -1,0 +1,246 @@
+{
+  "id": "l82-4",
+  "moduleNum": 24,
+  "lessonNum": 7,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "Writing: A Complete Academic Argumentative Essay",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Context (1-2 sentences) + precise central claim + preview of argument",
+      "hint": "\"It is argued in this essay that… / This essay examines… and contends that…\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Topic sentence (genuine claim) + evidence + analysis linking to central argument",
+      "hint": "\"This finding suggests that… / This evidence supports the claim that… / Crucially, this demonstrates…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Counter-argument + concession + rebuttal",
+      "hint": "\"It might be objected that… Admittedly… Nevertheless, this objection does not establish…\""
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Strongest supporting point with fully explicit warrant",
+      "hint": "\"It has been demonstrated that… This finding is significant insofar as it shows that the warrant holds…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Reaffirm claim in light of evidence + implications + limitations + future research",
+      "hint": "\"In light of the above, it can be concluded that… Notably, this analysis is limited by… Future research should investigate…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "It is argued in this essay that ",
+      "suffix": ", a claim supported by a substantial body of empirical and theoretical evidence.",
+      "placeholder": "progressive pedagogical approaches produce better outcomes for critical thinking development",
+      "hint": "\"It is argued that + claim\" — precise academic introduction"
+    },
+    {
+      "key": "l2",
+      "prefix": "Notably, ",
+      "suffix": ", providing strong support for this position.",
+      "placeholder": "a large-scale meta-analysis of 42 studies found that students in progressive classrooms consistently outperformed peers on measures of analytical reasoning",
+      "hint": "\"Notably, [evidence]\" + explicitly linking evidence to claim"
+    },
+    {
+      "key": "l3",
+      "prefix": "It might be objected that ",
+      "suffix": ". Admittedly, this objection has force. Nevertheless, ",
+      "hint": "Full counter-argument + concession + rebuttal structure",
+      "placeholder": "progressive approaches sacrifice content knowledge for process skills / it does not establish that both cannot be achieved simultaneously"
+    },
+    {
+      "key": "l4",
+      "prefix": "It has been demonstrated, crucially, that ",
+      "suffix": ", which confirms the central argument of this essay.",
+      "placeholder": "the gains in critical thinking observed in progressive classrooms persist into higher education and professional contexts",
+      "hint": "\"It has been demonstrated that\" + explicit linking to the central argument"
+    },
+    {
+      "key": "l5",
+      "prefix": "In light of the above, it can be concluded that ",
+      "suffix": ". Notably, this analysis is limited by the range of contexts studied; future research should investigate whether the findings generalise to non-Western educational systems.",
+      "placeholder": "progressive pedagogies represent a more effective approach to critical thinking development than traditional instruction",
+      "hint": "\"In light of the above\" + limitations + future research = complete academic conclusion"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Academic argument openers",
+      "color": "#003876",
+      "items": [
+        "It is argued in this essay that…",
+        "This essay examines the evidence for X and contends that…",
+        "A substantial body of research suggests that…",
+        "It has been widely assumed that X; however, this essay challenges that assumption.",
+        "The central claim of this analysis is that…"
+      ]
+    },
+    {
+      "category": "Linking evidence to argument",
+      "color": "#1D9E75",
+      "items": [
+        "This finding is significant insofar as it demonstrates that…",
+        "Crucially, this evidence establishes that the warrant between X and Y holds.",
+        "It should be noted that this correlation has been replicated across multiple contexts.",
+        "Notably, the largest studies show the strongest effects.",
+        "This pattern suggests that the relationship is not an artefact of the specific study design."
+      ]
+    },
+    {
+      "category": "Counter-argument and rebuttal",
+      "color": "#C9933B",
+      "items": [
+        "It might be objected that this evidence does not establish causation.",
+        "Admittedly, the effect sizes in some studies are small. Nevertheless, they are consistent.",
+        "To be fair, critics raise a valid methodological concern about selection bias.",
+        "Granted, the evidence is not unanimous. That said, the weight of evidence supports this interpretation.",
+        "This objection has force up to a point; however, it does not undermine the central argument."
+      ]
+    },
+    {
+      "category": "Academic conclusions",
+      "color": "#1B8FC4",
+      "items": [
+        "In light of the above, it can be concluded that…",
+        "This analysis suggests, albeit tentatively, that…",
+        "Crucially, these findings have implications for how X is approached in practice.",
+        "Notably, this analysis is limited by its focus on Western educational contexts.",
+        "Future research should investigate whether these patterns hold in different cultural settings."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the meta-analysis found no significant difference between groups.\" (unexpected finding)",
+      "opts": [
+        "Crucially",
+        "Admittedly",
+        "Surprisingly",
+        "Evidently"
+      ],
+      "correct": "Surprisingly",
+      "hint": "\"Surprisingly\" = counterintuitive or unexpected result",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that not all of these studies used equivalent methodologies.\" (important to note)",
+      "correct": "It should be noted",
+      "hint": "\"It should be noted that + clause\" — comment clause",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"This ___ suggests that the intervention effect is not sustained long-term.\" (what the pattern is)",
+      "opts": [
+        "finding",
+        "pattern",
+        "result",
+        "any of these + \"suggests\""
+      ],
+      "correct": "any of these + \"suggests\"",
+      "hint": "\"This finding/pattern/result suggests that…\" — all are valid \"this + summary noun\" patterns",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___, it can be concluded that progressive pedagogies are more effective.\" (given what was discussed)",
+      "correct": "In light of the above",
+      "hint": "\"In light of the above\" = formal conclusion phrase",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that the effect sizes are too small to be clinically meaningful.\" (it might be argued)",
+      "opts": [
+        "It might be objected",
+        "It has been demonstrated",
+        "It is significant",
+        "It should be noted"
+      ],
+      "correct": "It might be objected",
+      "hint": "\"It might be objected that\" = introducing the counter-argument charitably",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"A substantial body of research demonstrates\" is more academically appropriate than \"loads of research shows.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Register: formal academic vocabulary vs informal expression",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ of the policy was assessed over a 12-month period.\" (implement → noun)",
+      "correct": "implementation",
+      "hint": "implement → implementation (nominalisation)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, this represents the most significant gap in the existing literature.\" (it can be argued)",
+      "opts": [
+        "Evidently",
+        "Admittedly",
+        "Arguably",
+        "Notably"
+      ],
+      "correct": "Arguably",
+      "hint": "\"Arguably\" = this can be argued/contended (debatable but defensible claim)",
+      "points": 2
+    }
+  ]
+}

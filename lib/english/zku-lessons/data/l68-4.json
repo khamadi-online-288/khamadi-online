@@ -1,0 +1,267 @@
+{
+  "id": "l68-4",
+  "moduleNum": 10,
+  "lessonNum": 7,
+  "moduleTitle": "Narrative Writing",
+  "title": "Writing: A Personal Narrative — A Moment That Changed Something",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "opening",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Start in medias res — drop the reader into a moment of action or change",
+      "hint": "Use past continuous (scene) + past simple (action) in the opening"
+    },
+    {
+      "key": "scene",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Set the scene — where, when, atmosphere",
+      "hint": "Use past continuous for ongoing background details"
+    },
+    {
+      "key": "backstory",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Brief backstory — what had led to this moment",
+      "hint": "Use past perfect for one or two earlier events"
+    },
+    {
+      "key": "event",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "The central event — what happened, in sequence",
+      "hint": "Past simple for the sequence of main actions"
+    },
+    {
+      "key": "reflection",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Brief reflection on what the moment meant",
+      "hint": "Return to simple past; avoid slipping into present tense"
+    },
+    {
+      "key": "closing",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "A closing image or sentence that resonates",
+      "hint": "Echo the opening if possible; leave the reader with something"
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "Opening sentence — in medias res (e.g. \"The train was already moving when she realised...\")",
+      "hint": "Past continuous + past simple OR strong past simple image"
+    },
+    {
+      "key": "l2",
+      "prefix": "The air was ",
+      "suffix": ".",
+      "placeholder": "a setting detail (e.g. cold and damp, thick with the smell of rain)",
+      "hint": "Use the senses — past simple or past continuous"
+    },
+    {
+      "key": "l3",
+      "prefix": "She had ",
+      "suffix": ", but she had never expected this.",
+      "placeholder": "backstory detail (e.g. prepared for weeks)",
+      "hint": "Past perfect for one earlier fact; then contrast"
+    },
+    {
+      "key": "l4",
+      "prefix": "Without warning, ",
+      "suffix": ".",
+      "placeholder": "the central action or change (e.g. the door swung open)",
+      "hint": "\"Without warning\" = sudden event; past simple"
+    },
+    {
+      "key": "l5",
+      "prefix": "For a moment, she ",
+      "suffix": ".",
+      "placeholder": "reaction (e.g. stood completely still)",
+      "hint": "Show the reaction through action, not emotion words"
+    },
+    {
+      "key": "l6",
+      "prefix": "Later, she would think about that moment — ",
+      "suffix": ".",
+      "placeholder": "reflection (e.g. how small it had seemed at the time)",
+      "hint": "\"Would + think\" = looking back from a later point"
+    },
+    {
+      "key": "l7",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "Final image — echo the opening or leave something unresolved",
+      "hint": "Strong closing: surprising yet inevitable"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening in medias res",
+      "color": "#003876",
+      "items": [
+        "The door was already open when she arrived.",
+        "She was halfway there when she remembered.",
+        "By the time he reached the platform, the train had gone.",
+        "It had been raining for hours when she finally made the call.",
+        "Nothing had prepared him for what he saw next."
+      ]
+    },
+    {
+      "category": "Setting the scene",
+      "color": "#1D9E75",
+      "items": [
+        "The streets were empty and slick with rain.",
+        "A low hum of conversation filled the room.",
+        "The air smelled of coffee and old paper.",
+        "Outside, the city was beginning to wake up.",
+        "The light was fading, and long shadows stretched across the floor."
+      ]
+    },
+    {
+      "category": "Introducing backstory",
+      "color": "#C9933B",
+      "items": [
+        "She had known this moment would come eventually.",
+        "He had spent years preparing for exactly this.",
+        "Nothing had changed since she had last been here.",
+        "They had met only once before, briefly, at a conference.",
+        "She had never quite forgiven herself for what she had said."
+      ]
+    },
+    {
+      "category": "Moving the action forward",
+      "color": "#1B8FC4",
+      "items": [
+        "Without warning, everything changed.",
+        "Suddenly, she understood.",
+        "He stopped. He looked up. He said nothing.",
+        "She took a breath, and then she did what she had to do.",
+        "For a second, neither of them moved."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the best opening in medias res?",
+      "opts": [
+        "I am going to tell you about something that happened.",
+        "Once upon a time, there was a woman.",
+        "The train was already pulling out when she ran onto the platform.",
+        "This story is about an important moment in my life."
+      ],
+      "correct": "The train was already pulling out when she ran onto the platform.",
+      "hint": "In medias res: drop into action without preamble",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She ___ (wait) for over an hour before anyone finally noticed her.\"",
+      "correct": "had been waiting",
+      "hint": "Past perfect continuous = ongoing action before narrative present",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Without warning, ___.\" Which correctly completes this for a sudden event?",
+      "opts": [
+        "she is running out",
+        "the door bursts open",
+        "the door burst open",
+        "the door had burst open"
+      ],
+      "correct": "the door burst open",
+      "hint": "Past simple for the sudden main action",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, across the hall, someone else was making the same decision.\" (= at the same time)",
+      "correct": "Meanwhile",
+      "hint": "\"Meanwhile\" for simultaneous actions in different locations",
+      "points": 1
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is \"showing\" not \"telling\" in narrative writing?",
+      "opts": [
+        "She was very upset.",
+        "He felt relieved.",
+        "Her voice shook as she tried to speak.",
+        "They were all shocked."
+      ],
+      "correct": "Her voice shook as she tried to speak.",
+      "hint": "Show emotion through physical detail, not emotion words",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "A strong narrative closing should \"resonate\" — give the reader something to take away.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Ms. Aldanova: \"a good closing resonates\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Never ___ he looked back.\" Choose the correct dramatic inversion form.",
+      "opts": [
+        "had",
+        "did",
+        "was",
+        "has"
+      ],
+      "correct": "did",
+      "hint": "Never + did + subject + bare infinitive",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, she placed the letter on the table and left.\" (Manner adverb fronted — quietly)",
+      "correct": "Quietly",
+      "hint": "Fronting manner adverb for narrative emphasis",
+      "points": 1
+    }
+  ]
+}

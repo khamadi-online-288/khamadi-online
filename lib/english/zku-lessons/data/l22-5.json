@@ -1,0 +1,439 @@
+{
+  "id": "l22-5",
+  "moduleNum": 6,
+  "lessonNum": 7,
+  "moduleTitle": "The Natural World",
+  "title": "Module 6 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is the Kazakh name for the snow leopard?",
+      "opts": [
+        "Saiga",
+        "Tarpan",
+        "Irbis",
+        "Syrdar"
+      ],
+      "correct": "Irbis",
+      "hint": "\"Known as 'irbis' in Kazakh\""
+    },
+    {
+      "id": "q02",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "The saiga antelope is how old?",
+      "opts": [
+        "500,000 years",
+        "1 million years",
+        "Over 2 million years",
+        "100,000 years"
+      ],
+      "correct": "Over 2 million years",
+      "hint": "\"having roamed the Eurasian steppe for more than 2 million years\""
+    },
+    {
+      "id": "q03",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "The steppe eagle's population has grown over the last 50 years.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"declined by more than 90% in the last fifty years\""
+    },
+    {
+      "id": "q04",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Where is the Caspian seal found?",
+      "opts": [
+        "Only in the Black Sea",
+        "Only in the Caspian Sea",
+        "In several Central Asian lakes",
+        "In the Arctic Ocean"
+      ],
+      "correct": "Only in the Caspian Sea",
+      "hint": "\"found exclusively in the Caspian Sea\""
+    },
+    {
+      "id": "q05",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "The Przewalski's horse was reintroduced to ___ National Park in Kazakhstan.",
+      "correct": "Altyn Emel",
+      "hint": "\"in the Altyn Emel National Park in Kazakhstan\""
+    },
+    {
+      "id": "q06",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How fast can a steppe eagle dive?",
+      "opts": [
+        "100 km/h",
+        "150 km/h",
+        "200 km/h",
+        "250 km/h"
+      ],
+      "correct": "250 km/h",
+      "hint": "\"dive at speeds of up to 250 kilometres per hour\""
+    },
+    {
+      "id": "q07",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "The saiga antelope nearly went extinct in the 1990s.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"the species nearly went extinct in the 1990s\""
+    },
+    {
+      "id": "q08",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many Caspian seals exist today (approximately)?",
+      "opts": [
+        "Over 1 million",
+        "About 500,000",
+        "Fewer than 100,000",
+        "About 200,000"
+      ],
+      "correct": "Fewer than 100,000",
+      "hint": "\"fewer than 100,000 today\""
+    },
+    {
+      "id": "q09",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How cold does it get in the Altai Mountains in winter?",
+      "opts": [
+        "Minus 20°",
+        "Minus 30°",
+        "Minus 40°",
+        "Minus 50°"
+      ],
+      "correct": "Minus 40°",
+      "hint": "\"Temperatures here drop to minus forty degrees in winter.\""
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How does Amir describe minus forty degrees?",
+      "opts": [
+        "Very cold",
+        "Totally chilly",
+        "Absolutely freezing",
+        "Quite cold"
+      ],
+      "correct": "Absolutely freezing",
+      "hint": "\"That's absolutely freezing!\" (extreme adj + intensifier)"
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How many saiga antelopes are in the herd in the documentary?",
+      "opts": [
+        "About 10,000",
+        "About 100,000",
+        "Nearly one million",
+        "Over 5 million"
+      ],
+      "correct": "Nearly one million",
+      "hint": "\"nearly one million animals moving together\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "After watching the documentary, Amir decides to apply for a conservation internship.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"After this degree, I'm applying for a conservation internship.\""
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek says the saiga herd is \"the most ___ thing I've ever watched\".",
+      "correct": "spectacular",
+      "hint": "\"This is the most spectacular thing I've ever watched.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Superlative of \"big\":",
+      "opts": [
+        "the most big",
+        "the bigger",
+        "the biggest",
+        "the most biggest"
+      ],
+      "correct": "the biggest",
+      "hint": "big = short CVC → double consonant + est: the biggest."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Superlative of \"good\":",
+      "opts": [
+        "the most good",
+        "the goodest",
+        "the best",
+        "the gooder"
+      ],
+      "correct": "the best",
+      "hint": "Irregular: good → the best."
+    },
+    {
+      "id": "q16",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"The most tallest mountain\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never combine -est AND \"most\"! → the tallest."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The snow leopard is ___ (elusive) predator in Asia.",
+      "correct": "the most elusive",
+      "hint": "\"elusive\" = 3 syllables → the most elusive."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Superlative of \"heavy\":",
+      "opts": [
+        "the heavyest",
+        "the most heavy",
+        "the heaviest",
+        "the most heaviest"
+      ],
+      "correct": "the heaviest",
+      "hint": "\"heavy\" ends in -y → change to -i: the heaviest."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Superlative of \"bad\":",
+      "opts": [
+        "the most bad",
+        "the baddest",
+        "the badder",
+        "the worst"
+      ],
+      "correct": "the worst",
+      "hint": "Irregular: bad → the worst."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"The steppe is ___ enormous.\" — which intensifier?",
+      "opts": [
+        "very",
+        "quite",
+        "absolutely",
+        "rather"
+      ],
+      "correct": "absolutely",
+      "hint": "\"enormous\" is extreme → absolutely enormous."
+    },
+    {
+      "id": "q21",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"It was very freezing\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"freezing\" is extreme → absolutely freezing ✅. Never \"very freezing\"."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "What is the extreme version of \"good\"?",
+      "opts": [
+        "very good",
+        "better",
+        "wonderful / fantastic",
+        "most good"
+      ],
+      "correct": "wonderful / fantastic",
+      "hint": "good → wonderful, fantastic, superb (extreme versions)."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I was ___ amazed by the snow leopard.\" — correct intensifier:",
+      "opts": [
+        "very",
+        "quite",
+        "completely",
+        "slightly"
+      ],
+      "correct": "completely",
+      "hint": "\"amazed\" is extreme → completely/totally/absolutely amazed ✅."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "After the climb, she was ___ (extreme: very tired).",
+      "correct": "absolutely exhausted",
+      "hint": "tired → exhausted (extreme). Intensifier: absolutely exhausted."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"endangered\" mean?",
+      "opts": [
+        "Already extinct",
+        "At serious risk of becoming extinct",
+        "Protected by law",
+        "Very common"
+      ],
+      "correct": "At serious risk of becoming extinct",
+      "hint": "Endangered = at serious risk of extinction (but not yet extinct)."
+    },
+    {
+      "id": "q26",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The natural environment where an animal lives is called its ___.",
+      "correct": "habitat",
+      "hint": "Habitat = the natural home environment of an animal."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What is \"biodiversity\"?",
+      "opts": [
+        "A type of nature park",
+        "The variety of plants and animals in an area",
+        "A conservation programme",
+        "Animal migration patterns"
+      ],
+      "correct": "The variety of plants and animals in an area",
+      "hint": "Biodiversity = the variety of life (plants, animals, microorganisms) in an area."
+    },
+    {
+      "id": "q28",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Extinct\" and \"endangered\" mean the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Endangered = at risk; Extinct = completely gone (no members of the species alive)."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A feature that helps an animal survive in its environment is called a/an:",
+      "opts": [
+        "migration",
+        "adaptation",
+        "conservation",
+        "extinction"
+      ],
+      "correct": "adaptation",
+      "hint": "Adaptation = a feature that helps an animal survive in its specific environment."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Steppe\" describes:",
+      "opts": [
+        "A mountain range",
+        "A forest",
+        "A large flat area of grassland with few trees",
+        "A desert"
+      ],
+      "correct": "A large flat area of grassland with few trees",
+      "hint": "Steppe = a large, flat, treeless or near-treeless grassland."
+    }
+  ]
+}

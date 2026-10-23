@@ -1,0 +1,566 @@
+{
+  "id": "l28-g2",
+  "moduleNum": 12,
+  "lessonNum": 4,
+  "moduleTitle": "Emotions & Feelings",
+  "type": "grammar",
+  "title": "Verbs + to-infinitive: want, decide, hope, plan, need",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Verbs Followed by to + Infinitive",
+  "grammarNote": "Инфинитив с \"to\" (to + infinitive) — после глаголов намерений, решений, надежд и планов.\n\n📌 Глаголы + to + infinitive:\n\nРешения: decide · choose · plan · intend\n\"I decided to study medicine.\" · \"They plan to visit London.\"\n\nЖелания: want · hope · wish · would like\n\"I want to pass the IELTS.\" · \"She hopes to get a scholarship.\"\n\nОжидания: expect · promise · refuse · agree\n\"She promised to help.\" · \"He refused to answer.\"\n\nДругие: learn · manage · fail · need\n\"I'm learning to drive.\" · \"She managed to finish on time.\"\n\n⚠️ Типичные ошибки:\n❌ \"I want studying.\" → ✅ \"I want to study.\"\n❌ \"She decided going.\" → ✅ \"She decided to go.\"\n❌ \"He promised helping.\" → ✅ \"He promised to help.\"",
+  "grammarTable": [
+    {
+      "subject": "Verb",
+      "verb": "Example sentence",
+      "short": "Meaning",
+      "example": "All need to + infinitive after them."
+    },
+    {
+      "subject": "want",
+      "verb": "I want to improve my English.",
+      "short": "desire",
+      "example": "want + to + infinitive"
+    },
+    {
+      "subject": "need",
+      "verb": "She needs to submit her essay.",
+      "short": "necessity",
+      "example": "need + to + infinitive"
+    },
+    {
+      "subject": "decide",
+      "verb": "We decided to stay home.",
+      "short": "choice made",
+      "example": "decide + to + infinitive"
+    },
+    {
+      "subject": "hope",
+      "verb": "He hopes to travel abroad.",
+      "short": "wish for the future",
+      "example": "hope + to + infinitive"
+    },
+    {
+      "subject": "plan",
+      "verb": "They plan to start a club.",
+      "short": "intention",
+      "example": "plan + to + infinitive"
+    },
+    {
+      "subject": "promise",
+      "verb": "I promise to be on time.",
+      "short": "commitment",
+      "example": "promise + to + infinitive"
+    },
+    {
+      "subject": "agree",
+      "verb": "She agreed to help me.",
+      "short": "accept a request",
+      "example": "agree + to + infinitive"
+    },
+    {
+      "subject": "manage",
+      "verb": "He managed to pass the test.",
+      "short": "succeed despite difficulty",
+      "example": "manage + to + infinitive"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "want / need / would like",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "I want to become a doctor.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She needs to revise her notes.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "They would like to visit London.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Amir wants to join the debate club.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "We need to finish the project today.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "I'd like to speak to Dr. Akhmetov.",
+          "example": "✅ correct"
+        }
+      ]
+    },
+    {
+      "title": "decide / plan / hope",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Kamila decided to start a blog.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "They planned to go on a field trip.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "He hopes to get a scholarship.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She decided to study harder.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "We plan to meet at the library.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "Zhibek hopes to travel after graduation.",
+          "example": "✅ correct"
+        }
+      ]
+    },
+    {
+      "title": "promise / agree / offer / refuse",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "I promised to call you.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She agreed to take part in the event.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "He offered to help carry the boxes.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "They refused to cheat on the exam.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "She promised to study harder.",
+          "example": "✅ correct"
+        },
+        {
+          "form": "I refused to give up on my dream.",
+          "example": "✅ correct"
+        }
+      ]
+    },
+    {
+      "title": "Gerund vs to-infinitive — contrast",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "enjoy + -ing → I enjoy swimming.",
+          "example": "want + to → I want to swim."
+        },
+        {
+          "form": "avoid + -ing → She avoids arguing.",
+          "example": "decide + to → She decided to argue."
+        },
+        {
+          "form": "hate + -ing → He hates waking early.",
+          "example": "need + to → He needs to wake early."
+        },
+        {
+          "form": "miss + -ing → She misses living there.",
+          "example": "hope + to → She hopes to live there."
+        },
+        {
+          "form": "keep + -ing → Keep studying!",
+          "example": "plan + to → I plan to study later."
+        },
+        {
+          "form": "finish + -ing → He finished writing.",
+          "example": "manage + to → He managed to write it."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Шпаргалка — gerund vs infinitive:\n\n✅ GERUND (-ing): enjoy · avoid · hate · finish · miss · keep\nconsider · suggest · mind · deny · admit · practise · risk\n\"I enjoy SWIMMING.\" · \"She avoids EATING sugar.\"\n\n✅ INFINITIVE (to + verb): want · need · decide · hope · plan\npromise · agree · refuse · expect · manage · fail · choose · learn\n\"I want TO SWIM.\" · \"She decided TO EAT less sugar.\"\n\n⚠️ Глаголы которые меняют смысл:\nstop + -ing = перестать: \"He stopped smoking.\" (бросил)\nstop + to = остановиться чтобы: \"He stopped to smoke.\" (остановился покурить)\nremember + -ing = прошлое: \"I remember meeting her.\"\nremember + to = не забыть: \"Remember to call her.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She wants ___ abroad after graduation.",
+      "opts": [
+        "studying",
+        "to study",
+        "study",
+        "studied"
+      ],
+      "correct": "to study",
+      "hint": "want + to + infinitive: wants to study."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with to + infinitive.",
+      "text": "He needs ___ (submit) his assignment today.",
+      "correct": "to submit",
+      "hint": "need + to + infinitive: needs to submit."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "They decided ___ the project together.",
+      "opts": [
+        "doing",
+        "to do",
+        "do",
+        "done"
+      ],
+      "correct": "to do",
+      "hint": "decide + to + infinitive: decided to do."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with to + infinitive.",
+      "text": "Kamila hopes ___ (write) a book one day.",
+      "correct": "to write",
+      "hint": "hope + to + infinitive: hopes to write."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "I managed ___ the difficult exam!",
+      "opts": [
+        "passing",
+        "to pass",
+        "pass",
+        "passed"
+      ],
+      "correct": "to pass",
+      "hint": "manage + to + infinitive: managed to pass."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I plan going to the library\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "plan + to + infinitive: \"I plan to go.\" Not \"going\"."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct infinitive form.",
+      "text": "She promised ___ (not be) late again.",
+      "correct": "not to be",
+      "hint": "Negative infinitive: not to be. Promise + not to + infinitive."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "He agreed ___ in the group project.",
+      "opts": [
+        "participating",
+        "to participate",
+        "participate",
+        "participated"
+      ],
+      "correct": "to participate",
+      "hint": "agree + to + infinitive: agreed to participate."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct pair.",
+      "text": "Fill in: \"I enjoy ___ but I need ___ harder.\"",
+      "opts": [
+        "reading / study",
+        "reading / to study",
+        "to read / studying",
+        "read / study"
+      ],
+      "correct": "reading / to study",
+      "hint": "enjoy + -ing; need + to + infinitive."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with to + infinitive.",
+      "text": "They offered ___ (help) the new students.",
+      "correct": "to help",
+      "hint": "offer + to + infinitive: offered to help."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Identify the correct pattern.",
+      "text": "\"Refuse\" is followed by:",
+      "opts": [
+        "-ing",
+        "to + infinitive",
+        "past participle",
+        "present simple"
+      ],
+      "correct": "to + infinitive",
+      "hint": "refuse + to + infinitive: refused to go."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She decided to study medicine\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "decide + to + infinitive: decided to study ✅."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"want\" is followed by:",
+      "opts": [
+        "verb + -ing",
+        "to + infinitive",
+        "past simple",
+        "bare infinitive"
+      ],
+      "correct": "to + infinitive",
+      "hint": "want + to + infinitive: \"I want to learn.\""
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She decided ___ (start) a study group.",
+      "correct": "to start",
+      "hint": "decide + to + infinitive."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is correct?",
+      "opts": [
+        "He hopes studying abroad.",
+        "He hopes to study abroad.",
+        "He hopes study abroad.",
+        "He hoping to study abroad."
+      ],
+      "correct": "He hopes to study abroad.",
+      "hint": "hope + to + infinitive: \"hopes to study\"."
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I need ___ (practise) more before the exam.",
+      "correct": "to practise",
+      "hint": "need + to + infinitive."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct sentence:",
+      "opts": [
+        "She enjoys to learn. She wants learning.",
+        "She enjoys learning. She wants to learn.",
+        "She enjoy learning. She want to learn.",
+        "She enjoys learning. She wants learning."
+      ],
+      "correct": "She enjoys learning. She wants to learn.",
+      "hint": "enjoy + -ing; want + to + infinitive."
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"They planned going on a trip\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "plan + to + infinitive: \"They planned to go on a trip.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She refused ___ the exam.\" Fill in:",
+      "opts": [
+        "cheating on",
+        "to cheat on",
+        "cheat on",
+        "cheated on"
+      ],
+      "correct": "to cheat on",
+      "hint": "refuse + to + infinitive."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Amir managed ___ (pass) the exam despite being ill.",
+      "correct": "to pass",
+      "hint": "manage + to + infinitive."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I offered ___ the boxes.\" Fill in:",
+      "opts": [
+        "carrying",
+        "to carry",
+        "carry",
+        "carried"
+      ],
+      "correct": "to carry",
+      "hint": "offer + to + infinitive."
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She agreed to take part in the event\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "agree + to + infinitive: \"agreed to take part\" ✅"
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "In the listening, Gulnaz says she enjoys:",
+      "opts": [
+        "Writing about emotions",
+        "Reading books about emotions and psychology",
+        "Watching documentaries about feelings",
+        "Teaching EQ to students"
+      ],
+      "correct": "Reading books about emotions and psychology",
+      "hint": "Listening statement 1: Gulnaz enjoys reading psychology books."
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir said he loves watching sad films.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 5: Amir avoids sad films — they make him feel low."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila decided to start a blog in order to:",
+      "opts": [
+        "Earn money",
+        "Help other students",
+        "Improve her writing grade",
+        "Practise her typing skills"
+      ],
+      "correct": "Help other students",
+      "hint": "Listening statement 3: \"She decided to start writing a blog to help other students.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Frustration\" is a feeling of:",
+      "opts": [
+        "Great joy",
+        "Anger because things are not going as expected",
+        "Fear about the future",
+        "Calmness and acceptance"
+      ],
+      "correct": "Anger because things are not going as expected",
+      "hint": "\"Frustration\" = annoyance or upset when things don't work out as hoped."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She showed great ___ by understanding exactly how her friend felt.",
+      "correct": "empathy",
+      "hint": "\"Empathy\" = understanding and sharing someone else's feelings."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Perspective\" means:",
+      "opts": [
+        "A type of grammar rule",
+        "A way of thinking about or understanding something",
+        "A feeling of anxiety",
+        "A plan for the future"
+      ],
+      "correct": "A way of thinking about or understanding something",
+      "hint": "\"Perspective\" = a particular point of view or way of understanding a situation."
+    }
+  ]
+}

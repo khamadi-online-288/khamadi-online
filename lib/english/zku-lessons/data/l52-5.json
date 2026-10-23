@@ -1,0 +1,386 @@
+{
+  "id": "l52-5",
+  "moduleNum": 18,
+  "lessonNum": 8,
+  "moduleTitle": "Health & Body",
+  "type": "test",
+  "title": "Module 18 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why do students make poor health choices according to the text?",
+      "opts": [
+        "Ignorance",
+        "Motivation, habit, and priority — not lack of knowledge",
+        "Bad advice",
+        "No food access"
+      ],
+      "correct": "Motivation, habit, and priority — not lack of knowledge",
+      "hint": "\"They know perfectly well... The issue is motivation, habit, and priority.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How much sleep do adults need per night?",
+      "opts": [
+        "Five to six hours",
+        "Six to seven hours",
+        "Seven to nine hours",
+        "Ten or more hours"
+      ],
+      "correct": "Seven to nine hours",
+      "hint": "\"Adults need seven to nine hours of sleep per night.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What percentage of students experience significant anxiety or depression?",
+      "opts": [
+        "5-10%",
+        "15-20%",
+        "30-40%",
+        "50-60%"
+      ],
+      "correct": "30-40%",
+      "hint": "\"Between 30 and 40 percent of university students experience clinically significant levels of anxiety or depression.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The texts say social connections protect against severe mental health problems.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Students who feel genuinely connected to at least one other person are significantly less likely to experience severe mental health difficulties.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "WKU's student counselling service is ___ — you don't have to be in crisis to use it.",
+      "correct": "free",
+      "hint": "\"It is there. It is free. You don't have to be in crisis to use it.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say anxiety commonly manifests as?",
+      "opts": [
+        "Physical pain only",
+        "Perfectionism, procrastination, and avoidance",
+        "Increased energy",
+        "Better grades"
+      ],
+      "correct": "Perfectionism, procrastination, and avoidance",
+      "hint": "\"Anxiety most commonly manifests as perfectionism, procrastination, and avoidance.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What symptoms does Rustam describe at the doctor's?",
+      "opts": [
+        "Stomach pain and nausea",
+        "Tiredness, headaches, difficulty concentrating",
+        "Fever and sore throat",
+        "Back pain and weight loss"
+      ],
+      "correct": "Tiredness, headaches, difficulty concentrating",
+      "hint": "\"Feeling really tired... some headaches... finding it hard to concentrate in lectures.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the doctor say coffee is bad for hydration?",
+      "opts": [
+        "It has sugar",
+        "Coffee is a diuretic — it dehydrates you",
+        "It causes headaches only",
+        "It prevents sleep only"
+      ],
+      "correct": "Coffee is a diuretic — it dehydrates you",
+      "hint": "\"Coffee is a diuretic — it actually dehydrates you.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The doctor says Rustam's symptoms are consistent with ___ and poor nutrition.",
+      "correct": "sleep deprivation",
+      "hint": "\"Your symptoms are consistent with sleep deprivation and poor nutrition.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the doctor say about vitamins?",
+      "opts": [
+        "Essential — take them daily",
+        "A multivitamin is fine but supplements don't replace a proper diet",
+        "Never take vitamins",
+        "Only take vitamins prescribed by a doctor"
+      ],
+      "correct": "A multivitamin is fine but supplements don't replace a proper diet",
+      "hint": "\"A general multivitamin wouldn't hurt. But you shouldn't rely on supplements — they don't replace a proper diet.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What exercise does the doctor recommend for Rustam?",
+      "opts": [
+        "Intense gym training",
+        "Nothing — rest only",
+        "Even a twenty-minute walk",
+        "Running 5km daily"
+      ],
+      "correct": "Even a twenty-minute walk",
+      "hint": "\"You don't have to do intense training. Even a twenty-minute walk helps.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What will happen if Rustam's symptoms don't improve in two weeks?",
+      "opts": [
+        "He needs surgery",
+        "The doctor will prescribe medicine",
+        "He will come back for a blood test",
+        "He will be referred to a specialist"
+      ],
+      "correct": "He will come back for a blood test",
+      "hint": "\"If things don't improve in two weeks, come back and we'll do a blood test.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should drink more water.\" — \"Should\" means:",
+      "opts": [
+        "It's forbidden not to",
+        "Advice / recommendation",
+        "It's not necessary",
+        "You are able to"
+      ],
+      "correct": "Advice / recommendation",
+      "hint": "\"should\" = advice; a recommendation. Not as strong as \"must\" or \"have to\". ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You shouldn't skip meals.\" — \"Shouldn't\" means:",
+      "opts": [
+        "It's impossible to skip meals",
+        "It's not necessary to skip",
+        "I advise against it — it's a bad idea",
+        "It's forbidden by law"
+      ],
+      "correct": "I advise against it — it's a bad idea",
+      "hint": "\"shouldn't\" = advice against doing something. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You don't have to take vitamins.\" — This means:",
+      "opts": [
+        "Taking vitamins is forbidden",
+        "Taking vitamins is not necessary — optional",
+        "You must take vitamins",
+        "I advise against vitamins"
+      ],
+      "correct": "Taking vitamins is not necessary — optional",
+      "hint": "\"don't have to\" = not obligatory. Optional. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ submit the form by Friday.\" (he/she/it form of have to)",
+      "opts": [
+        "have to",
+        "has to",
+        "had to",
+        "must to"
+      ],
+      "correct": "has to",
+      "hint": "\"she\" → HAS TO. \"She HAS TO submit.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ wait an hour at the clinic yesterday.\" (past obligation)",
+      "correct": "had to",
+      "hint": "Past of \"have to\" = \"HAD TO\". \"I HAD TO WAIT an hour.\" ✅ Never \"musted\"!"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"must not\" vs \"don't have to\" — which means FORBIDDEN?",
+      "opts": [
+        "don't have to",
+        "must not",
+        "both mean forbidden",
+        "neither means forbidden"
+      ],
+      "correct": "must not",
+      "hint": "\"must not\" = FORBIDDEN. \"don't have to\" = not necessary (optional). ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should have slept earlier.\" — This means:",
+      "opts": [
+        "You will sleep earlier",
+        "You slept early — well done",
+        "You didn't sleep early — that was a mistake",
+        "You are able to sleep earlier"
+      ],
+      "correct": "You didn't sleep early — that was a mistake",
+      "hint": "\"should have + pp\" = past criticism. You didn't do it, and you should have. ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She shoulds exercise.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Shoulds\" never exists — modals don't take -s",
+        "\"Exercise\" needs \"to\"",
+        "\"She\" should be \"He\""
+      ],
+      "correct": "\"Shoulds\" never exists — modals don't take -s",
+      "hint": "Modal verbs NEVER add -s! ✅ \"She SHOULD exercise.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Sleep deprivation is common.\" \"Deprivation\" means:",
+      "opts": [
+        "Excess",
+        "Lack of something needed",
+        "A medical test",
+        "A type of sleep"
+      ],
+      "correct": "Lack of something needed",
+      "hint": "\"deprivation\" = the state of not having enough of something essential (like sleep)."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Exercise has an antidepressant effect.\" This means:",
+      "opts": [
+        "Exercise causes depression",
+        "Exercise reduces depression",
+        "Exercise is a type of medicine",
+        "Exercise is tiring"
+      ],
+      "correct": "Exercise reduces depression",
+      "hint": "\"antidepressant\" = fighting or reducing depression. Exercise has this effect."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Sleep is therapeutic.\" \"Therapeutic\" means:",
+      "opts": [
+        "Uncomfortable",
+        "Having a healing or beneficial effect",
+        "Scientific",
+        "Very long"
+      ],
+      "correct": "Having a healing or beneficial effect",
+      "hint": "\"therapeutic\" = healing; having a positive effect on health."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Anxiety manifests as avoidance.\" \"Avoidance\" means:",
+      "opts": [
+        "Seeking help",
+        "Keeping away from difficult things",
+        "Facing fears",
+        "Planning ahead"
+      ],
+      "correct": "Keeping away from difficult things",
+      "hint": "\"avoidance\" = the act of keeping away from situations that cause anxiety."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"PE was compulsory at school.\" \"Compulsory\" means:",
+      "opts": [
+        "Optional",
+        "Recommended",
+        "Required — not optional",
+        "Expensive"
+      ],
+      "correct": "Required — not optional",
+      "hint": "\"compulsory\" = required; you have no choice."
+    }
+  ]
+}

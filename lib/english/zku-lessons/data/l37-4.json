@@ -1,0 +1,241 @@
+{
+  "id": "l37-4",
+  "moduleNum": 3,
+  "lessonNum": 6,
+  "moduleTitle": "Stories & Memories",
+  "type": "writing",
+  "title": "A Story from My Past",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "It was + time / weather",
+      "emoji": "🌧️",
+      "opts": [
+        "Это было + время / погода",
+        "Сейчас + действие",
+        "Обычно + привычка",
+        "Завтра + план"
+      ],
+      "correct": "Это было + время / погода"
+    },
+    {
+      "id": "p2",
+      "word": "I was + verb-ing",
+      "emoji": "🔄",
+      "opts": [
+        "Я закончил...",
+        "Я был в процессе...",
+        "Я обычно...",
+        "Я собираюсь..."
+      ],
+      "correct": "Я был в процессе..."
+    },
+    {
+      "id": "p3",
+      "word": "when + Past Simple",
+      "emoji": "⚡",
+      "opts": [
+        "пока + длинное действие",
+        "когда произошло событие",
+        "после + результат",
+        "перед + подготовка"
+      ],
+      "correct": "когда произошло событие"
+    },
+    {
+      "id": "p4",
+      "word": "while + Past Continuous",
+      "emoji": "⏳",
+      "opts": [
+        "пока = одновременно",
+        "после = результат",
+        "потому что = причина",
+        "хотя = контраст"
+      ],
+      "correct": "пока = одновременно"
+    },
+    {
+      "id": "p5",
+      "word": "Suddenly, / At that moment",
+      "emoji": "💥",
+      "opts": [
+        "Постепенно,",
+        "Внезапно, / В тот момент,",
+        "Обычно,",
+        "Иногда,"
+      ],
+      "correct": "Внезапно, / В тот момент,"
+    },
+    {
+      "id": "p6",
+      "word": "I will never forget",
+      "emoji": "💭",
+      "opts": [
+        "Я обычно помню",
+        "Я никогда не забуду",
+        "Я должен запомнить",
+        "Я хочу забыть"
+      ],
+      "correct": "Я никогда не забуду"
+    }
+  ],
+  "writingModel": [
+    "A Night I Will Never Forget — by Amir Bekzhanov",
+    "It was a cold November evening. The temperature was dropping and the wind was blowing hard outside my dormitory window. I was sitting at my desk, working on a programming essay. The deadline was in three hours and I was feeling increasingly stressed. Everything was quiet — I was the only one awake on my floor, or so I thought.",
+    "At exactly 11:47 p.m., the power went out. One second I was typing the conclusion of my essay, and the next second my screen went completely black. I sat in the dark for a moment, not understanding what had happened. Then I grabbed my phone. The group chat was already exploding with messages.",
+    "While I was reading the messages, I heard voices in the corridor. Students were coming out of their rooms — some were laughing, some were complaining, and some were carrying blankets. I put on my jacket and went out. In the hallway, Kamila was telling everyone to stay calm. Zhibek had arrived with a thermos of tea. Rustam was already telling his first ghost story.",
+    "We sat on the floor for nearly two hours. The emergency lights gave everything an orange glow. Someone found candles. We talked, ate biscuits, and forgot completely about essays and deadlines. At one point, Kamila was describing blackouts in her village, and I realised I had never thought about how different our experiences were — her talking about candles as a normal part of winter, me never having lived without electricity for more than a few minutes.",
+    "When the power came back at 1:58 a.m., there was a cheer. I went back to my room and looked at my essay. I still needed to write the conclusion. But something had shifted. I sat down, wrote it in twenty-five minutes — probably the best twenty-five minutes of writing I had ever done — and went to sleep.",
+    "I will never forget that night. Not because of the blackout, but because of what happened in that hallway. We were all stressed, all behind on our work, all worried. But for two hours we were just people sitting together in the dark, and that turned out to be exactly what we all needed."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Title of your story",
+      "hint": "Give your story a title. E.g. \"A Day I Will Never Forget\" / \"The Night Everything Changed\""
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name as the author."
+    },
+    {
+      "key": "scene1",
+      "prefix": "It was ",
+      "suffix": ".",
+      "placeholder": "set the scene: time, weather, place",
+      "hint": "e.g. \"a cold January morning\" / \"a hot summer evening\" / \"a rainy Tuesday\""
+    },
+    {
+      "key": "scene2",
+      "prefix": "I was ",
+      "suffix": ".",
+      "placeholder": "what you were doing (verb-ing)",
+      "hint": "Use Past Continuous to set your personal background action."
+    },
+    {
+      "key": "event",
+      "prefix": "Suddenly, / At that moment, ",
+      "suffix": ".",
+      "placeholder": "the main event that happened (Past Simple)",
+      "hint": "Use Past Simple for the sudden event: e.g. \"the phone rang\" / \"a message arrived\" / \"the door opened\""
+    },
+    {
+      "key": "react1",
+      "prefix": "I ",
+      "suffix": " and ",
+      "placeholder": "your immediate reaction (PS)",
+      "hint": "e.g. jumped up / stopped / looked around / couldn't believe it"
+    },
+    {
+      "key": "react2",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what you did next (PS)",
+      "hint": "Another Past Simple action completing your reaction."
+    },
+    {
+      "key": "while1",
+      "prefix": "While ",
+      "suffix": ", ",
+      "placeholder": "what one person was doing (PC)",
+      "hint": "\"While Kamila was talking, Amir was fixing his code.\" Use while + PC, PC."
+    },
+    {
+      "key": "while2",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what another person was doing at the same time (PC)",
+      "hint": "Two simultaneous ongoing actions."
+    },
+    {
+      "key": "result",
+      "prefix": "In the end, ",
+      "suffix": ".",
+      "placeholder": "how the story ended (Past Simple)",
+      "hint": "e.g. we laughed about it / I understood something new / everything changed"
+    },
+    {
+      "key": "reflect",
+      "prefix": "I will never forget ",
+      "suffix": " because ",
+      "placeholder": "what you will never forget",
+      "hint": "\"that day\" / \"that journey\" / \"that conversation\""
+    },
+    {
+      "key": "why",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "why it was important / what you learned",
+      "hint": "e.g. it showed me that / it taught me / it reminded me that"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Setting the scene (opening)",
+      "color": "#003876",
+      "items": [
+        "It was a cold / hot / rainy + time/day.",
+        "The wind was blowing / snow was falling.",
+        "I was sitting / studying / waiting when...",
+        "Everything was quiet / calm / normal when...",
+        "I remember it clearly — it was..."
+      ]
+    },
+    {
+      "category": "Past Continuous (background)",
+      "color": "#1D9E75",
+      "items": [
+        "I was working / sleeping / running when...",
+        "While I was..., suddenly...",
+        "At that moment, she was telling / he was fixing...",
+        "Everyone was celebrating / panicking / laughing.",
+        "The lights were going out / the rain was falling..."
+      ]
+    },
+    {
+      "category": "Past Simple (events)",
+      "color": "#1B8FC4",
+      "items": [
+        "Suddenly, the power went out.",
+        "At that moment, I received a message.",
+        "He arrived, sat down, and opened his book.",
+        "I jumped up, grabbed my phone, and ran.",
+        "Then everything changed."
+      ]
+    },
+    {
+      "category": "Reflection & ending",
+      "color": "#C9933B",
+      "items": [
+        "I will never forget that day because...",
+        "That moment taught me that...",
+        "Looking back, I realise that...",
+        "It was not what I planned, but it was what I needed.",
+        "Some memories are made not when things go right..."
+      ]
+    }
+  ]
+}

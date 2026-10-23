@@ -1,0 +1,295 @@
+{
+  "id": "l2-1",
+  "moduleNum": 2,
+  "lessonNum": 1,
+  "moduleTitle": "My family",
+  "title": "My family photo",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Aizhan Bekova and I am a student at WKU. Today I want to tell you about my family. I have a photo of my family on my phone. I look at it every day because I miss them very much. My family is not big, but it is very warm and loving.",
+    "My mother's name is Ainur. She is 44 years old and she is a doctor at the city hospital in Aktobe. She is a kind, hardworking, and very caring woman. My mother works long hours every day, but she always has time for our family. She loves cooking traditional Kazakh food, especially beshbarmak and samsa. Her beshbarmak is the best in the world!",
+    "My father's name is Marat. He is 47 years old and he is an engineer at an oil company. He is tall, strong, and very intelligent. My father is quiet at home, but he is very funny with his friends. He loves football and watches every game of FC Kairat on television. His favourite hobby is fishing — he goes to the river every weekend in summer.",
+    "I have one brother and one sister. My brother's name is Arman. He is 22 years old and he is a student at Nazarbayev University in Astana. He studies Computer Science — the same subject I love! Arman is very smart and hardworking. He is my role model and my best friend in the family.",
+    "My sister's name is Dana. She is only 14 years old and she is a schoolgirl in Grade 9. Dana is small, energetic, and very creative. She loves drawing and painting. Her room is full of her beautiful pictures. Dana wants to become an artist or a graphic designer in the future.",
+    "I also have grandparents on my mother's side. My grandmother's name is Fatima and my grandfather's name is Akhmet. They are retired and they live in a small village near Aktobe. My grandmother is 68 years old and my grandfather is 71. They have a big garden with apple and cherry trees. Every summer, I spend two weeks with them and it is the best time of the year.",
+    "My grandmother makes the most delicious apple jam and my grandfather tells amazing stories about his life in the Soviet times. He was a teacher for 40 years! In our family, we have a tradition — every Friday evening, we have dinner together and talk about our week. We call it our \"family hour\". I love this tradition very much.",
+    "I miss my family every day here in Uralsk. But I call them on video every evening. My mother always asks about my food and sleep, my father asks about my studies, and Dana shows me her new drawings. Arman gives me advice about university life. My family is my strength and my motivation. I study hard for them!"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dias",
+      "text": "Aizhan, is that a family photo on your phone?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes! This is my family. Do you want to see?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Of course! Who is this woman?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "This is my mother, Ainur. She is a doctor. And this tall man is my father, Marat.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "They look great! Do you have brothers or sisters?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes! I have one brother and one sister. This is Arman — he studies at Nazarbayev University.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Wow, Nazarbayev University! He is very smart!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "He is! And this little girl is my sister Dana. She is 14 and she loves art.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Your family is beautiful! Do you miss them?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes, very much. But I call them every evening on video.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "That's a good habit. I call my parents every day too!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Family is the most important thing. Even from far away!",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I have a brother / sister.",
+      "ru": "У меня есть брат / сестра.",
+      "context": "I have one brother and one sister."
+    },
+    {
+      "phrase": "My mother's name is...",
+      "ru": "Мою маму зовут...",
+      "context": "My mother's name is Ainur."
+    },
+    {
+      "phrase": "She / He is ... years old.",
+      "ru": "Ей / Ему ... лет.",
+      "context": "She is 44 years old."
+    },
+    {
+      "phrase": "She / He works as a...",
+      "ru": "Она / Он работает...",
+      "context": "She works as a doctor."
+    },
+    {
+      "phrase": "My favourite is...",
+      "ru": "Моё любимое...",
+      "context": "My favourite hobby is fishing."
+    },
+    {
+      "phrase": "I miss them.",
+      "ru": "Я скучаю по ним.",
+      "context": "I miss my family every day."
+    },
+    {
+      "phrase": "We have a tradition.",
+      "ru": "У нас есть традиция.",
+      "context": "We have a tradition — family dinner."
+    },
+    {
+      "phrase": "on my mother's / father's side",
+      "ru": "со стороны мамы / папы",
+      "context": "grandparents on my mother's side"
+    },
+    {
+      "phrase": "He / She loves + -ing",
+      "ru": "Он / Она любит + глагол",
+      "context": "She loves drawing and painting."
+    },
+    {
+      "phrase": "Every weekend / evening",
+      "ru": "Каждые выходные / каждый вечер",
+      "context": "He goes fishing every weekend."
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "caring",
+      "emoji": "💝",
+      "opts": [
+        "строгий",
+        "заботливый",
+        "умный",
+        "весёлый"
+      ],
+      "correct": "заботливый"
+    },
+    {
+      "id": "p2",
+      "word": "retired",
+      "emoji": "🏖️",
+      "opts": [
+        "работающий",
+        "молодой",
+        "пенсионер",
+        "студент"
+      ],
+      "correct": "пенсионер"
+    },
+    {
+      "id": "p3",
+      "word": "energetic",
+      "emoji": "⚡",
+      "opts": [
+        "тихий",
+        "грустный",
+        "энергичный",
+        "усталый"
+      ],
+      "correct": "энергичный"
+    },
+    {
+      "id": "p4",
+      "word": "tradition",
+      "emoji": "🎎",
+      "opts": [
+        "праздник",
+        "традиция",
+        "привычка",
+        "правило"
+      ],
+      "correct": "традиция"
+    },
+    {
+      "id": "p5",
+      "word": "motivation",
+      "emoji": "🚀",
+      "opts": [
+        "усталость",
+        "мотивация",
+        "скука",
+        "память"
+      ],
+      "correct": "мотивация"
+    },
+    {
+      "id": "p6",
+      "word": "strength",
+      "emoji": "💪",
+      "opts": [
+        "слабость",
+        "скорость",
+        "сила",
+        "помощь"
+      ],
+      "correct": "сила"
+    }
+  ],
+  "task1Bank": [
+    "doctor",
+    "engineer",
+    "44",
+    "14",
+    "Aktobe",
+    "Nazarbayev University",
+    "Friday",
+    "fishing"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan's mother is a ___ at the city hospital.",
+      "correct": "doctor"
+    },
+    {
+      "id": "t2",
+      "question": "Aizhan's father works as an ___ at an oil company.",
+      "correct": "engineer"
+    },
+    {
+      "id": "t3",
+      "question": "Aizhan's mother is ___ years old.",
+      "correct": "44"
+    },
+    {
+      "id": "t4",
+      "question": "Sister Dana is ___ years old.",
+      "correct": "14"
+    },
+    {
+      "id": "t5",
+      "question": "Aizhan's grandparents live near ___.",
+      "correct": "Aktobe"
+    },
+    {
+      "id": "t6",
+      "question": "Arman studies at ___ in Astana.",
+      "correct": "Nazarbayev University"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Aizhan's father is a doctor.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "Arman is Aizhan's older brother.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Dana is 16 years old.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Aizhan's grandfather was a teacher for 40 years.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "The family has dinner together every Friday.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "Aizhan's grandparents live in Astana.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

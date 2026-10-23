@@ -1,0 +1,770 @@
+{
+  "id": "l84-2",
+  "moduleNum": 26,
+  "lessonNum": 2,
+  "moduleTitle": "B1 Final Exam",
+  "type": "listening",
+  "title": "Listening Exam (4 parts)",
+  "xp": 400,
+  "duration": 90,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Tell me about a time when you had to adapt quickly in your job.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "When I started at the NGO, my manager left after two weeks. I had to take over her responsibilities immediately. Although I hadn't managed a team before, I organised a meeting, listed all the tasks, and divided them clearly. By the end of the month, we had met all our targets.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What did you learn from that experience?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That structure reduces anxiety. When everything is listed and assigned, the situation becomes manageable even when it is difficult.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "I've been reading about income inequality in Central Asia. The gap between urban and rural incomes has widened significantly over the past decade.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzod",
+      "text": "I know. And the consequences aren't just economic. Access to quality education and healthcare is highly unequal. As a result, social mobility has become much more difficult for rural populations.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zara",
+      "text": "Although government spending on education has increased, the distribution is still concentrated in cities. Furthermore, many rural teachers are underpaid and underqualified.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzod",
+      "text": "Nevertheless, there are examples of NGOs working effectively in rural areas — training teachers, providing digital resources, supporting local communities. These initiatives are small, but they demonstrate what is possible.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zara",
+      "text": "What strikes me is that the people most affected by inequality are also the least likely to have their voices heard in policy discussions. That's the deepest problem.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Bekzod",
+      "text": "Agreed. Crucially, addressing inequality requires not just resources but genuine inclusion — ensuring that affected communities are part of designing the solutions.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Speaker",
+      "text": "Good afternoon. I want to talk today about three ways in which technology is reshaping the world of work — and what this means for the skills we will need in the coming decade.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Speaker",
+      "text": "Firstly, automation. Many routine tasks — in manufacturing, data processing, and even some areas of professional services — are being performed by machines. As a result, workers who perform only routine tasks face an uncertain future. This is not new. But the speed of change is accelerating.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Speaker",
+      "text": "Secondly, remote and digital collaboration. The pandemic accelerated a shift that was already underway: the move from fixed-location work to flexible, distributed teams. Consequently, communication skills — particularly in writing and in cross-cultural contexts — have become more valuable, not less.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Speaker",
+      "text": "Thirdly, and perhaps most importantly, the rise of AI tools that augment human work. These tools are not replacing human judgement — they are changing what human judgement needs to focus on. Crucially, the workers who will thrive are those who can work effectively alongside these tools, directing them, evaluating their outputs, and applying the contextual understanding that machines cannot replicate.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Speaker",
+      "text": "The upshot is this: the future belongs to adaptable, communicatively skilled, critically thinking workers. Investing in language, reasoning, and intercultural competence is not optional — it is strategic.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Asel",
+      "text": "Today I want to examine the tension between individual action and collective responsibility in addressing environmental problems.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Professor, isn't individual action important? If everyone reduced their carbon footprint, the impact would be significant.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Asel",
+      "text": "That's a reasonable position, Amir. Nevertheless, research suggests that individual choices account for a relatively small share of total emissions compared to industrial and systemic sources. The most significant reductions require policy change, not individual lifestyle adjustment alone.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "But doesn't individual action have indirect effects — signalling to governments and companies what citizens want?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Asel",
+      "text": "Absolutely. And this is where the debate becomes nuanced. Individual action matters as a signal and as a norm-setter. But it cannot substitute for structural change. Insofar as we focus exclusively on individual behaviour, we risk letting industrial emitters avoid accountability.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "So the answer is both — but in the right proportion?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Asel",
+      "text": "Precisely. By virtue of their scale and systemic impact, governments and corporations bear a greater share of responsibility. Individual action, however, builds the social foundation that makes political change possible.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "manageable",
+      "emoji": "✅",
+      "opts": [
+        "completely impossible",
+        "able to be handled without too much difficulty",
+        "requiring expert help",
+        "very expensive"
+      ],
+      "correct": "able to be handled without too much difficulty"
+    },
+    {
+      "id": "p2",
+      "word": "social mobility",
+      "emoji": "📈",
+      "opts": [
+        "movement within a city",
+        "the ability to move between social classes through work or education",
+        "physical migration",
+        "social media activity"
+      ],
+      "correct": "the ability to move between social classes through work or education"
+    },
+    {
+      "id": "p3",
+      "word": "automation",
+      "emoji": "🤖",
+      "opts": [
+        "human supervision of factories",
+        "the use of machines to perform tasks previously done by humans",
+        "digital communication",
+        "government regulation"
+      ],
+      "correct": "the use of machines to perform tasks previously done by humans"
+    },
+    {
+      "id": "p4",
+      "word": "augment",
+      "emoji": "⬆️",
+      "opts": [
+        "to reduce or replace",
+        "to enhance or add to the capability of something",
+        "to measure carefully",
+        "to report on"
+      ],
+      "correct": "to enhance or add to the capability of something"
+    },
+    {
+      "id": "p5",
+      "word": "accountability",
+      "emoji": "⚖️",
+      "opts": [
+        "secrecy and concealment",
+        "being responsible and answerable for actions",
+        "financial profit",
+        "official recognition"
+      ],
+      "correct": "being responsible and answerable for actions"
+    },
+    {
+      "id": "p6",
+      "word": "structural change",
+      "emoji": "🏗️",
+      "opts": [
+        "changes to the appearance of a building",
+        "changes to the fundamental systems and institutions of society",
+        "changes to individual behaviour",
+        "temporary adjustments"
+      ],
+      "correct": "changes to the fundamental systems and institutions of society"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Daniyar says structure reduces anxiety when facing a difficult situation.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Daniyar had already managed a team before the situation described.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Zara and Bekzod agree that the deepest problem is that affected communities lack voice in policy.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The speaker says automation is a completely new phenomenon.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Prof. Asel says individual action can substitute for structural change.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Prof. Asel agrees that individual action builds the social foundation for political change.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Uralsk",
+      "emoji": "💼",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Part 1: Job interview — adapting to a crisis at work"
+    },
+    {
+      "id": "zara",
+      "name": "Zara",
+      "city": "Almaty",
+      "emoji": "📊",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Part 2: Discusses income inequality and social mobility"
+    },
+    {
+      "id": "speaker",
+      "name": "Speaker",
+      "city": "Online",
+      "emoji": "💻",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "role": "Part 3: Talk on technology and the future of work"
+    },
+    {
+      "id": "profasel",
+      "name": "Prof. Asel",
+      "city": "WKU",
+      "emoji": "🌿",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "role": "Part 4: Academic discussion on environment and responsibility"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says structure reduces anxiety in difficult professional situations.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s2",
+      "text": "Says the deepest problem is that those most affected by inequality lack political voice.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s3",
+      "text": "Says communication skills have become more valuable as work becomes distributed.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s4",
+      "text": "Says workers who can work alongside AI tools will thrive.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s5",
+      "text": "Says addressing inequality requires genuine inclusion of affected communities.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s6",
+      "text": "Says individual action matters as a signal and norm-setter, but cannot replace structural change.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s7",
+      "text": "Says that by virtue of their scale, governments and corporations bear greater responsibility.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s8",
+      "text": "Says NGO initiatives in rural areas are small but demonstrate what is possible.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s9",
+      "text": "Says investing in language, reasoning, and intercultural competence is strategic.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s10",
+      "text": "Says that when everything is listed and assigned, situations become manageable.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s11",
+      "text": "Says research shows individual choices account for a small share of total emissions.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s12",
+      "text": "Says social mobility has become more difficult for rural populations.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s13",
+      "text": "Says the speed of technological change is accelerating.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s14",
+      "text": "Says AI tools are changing what human judgement needs to focus on.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s15",
+      "text": "Says although education spending has increased, distribution is concentrated in cities.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s16",
+      "text": "Says that automation of routine tasks is not new, but the pace has accelerated.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s17",
+      "text": "Says structure helped the team meet all targets by end of the month.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s18",
+      "text": "Says inclusive design of solutions is as important as additional resources.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s19",
+      "text": "Says reducing carbon footprints individually would have significant collective impact.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s20",
+      "text": "Says we risk letting industrial emitters avoid accountability by focusing only on individuals.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s21",
+      "text": "Says \"although government spending on education has increased, the distribution is still concentrated in cities.\"",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s22",
+      "text": "Says remote work and digital collaboration have made written communication more valuable.",
+      "correctCharId": "speaker"
+    },
+    {
+      "id": "s23",
+      "text": "Says individuals' choices can send signals to governments and companies.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s24",
+      "text": "Agrees the answer to the environment question involves both individual and structural action, but in the right proportion.",
+      "correctCharId": "profasel"
+    },
+    {
+      "id": "s25",
+      "text": "Says income inequality gap between urban and rural areas has widened over the past decade.",
+      "correctCharId": "zara"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What challenge did Daniyar face at the beginning of his job?",
+      "opts": [
+        "The workload was too heavy",
+        "His manager left after two weeks and he had to take over",
+        "He was unfamiliar with the office technology",
+        "He had to relocate to another city"
+      ],
+      "correct": "His manager left after two weeks and he had to take over",
+      "hint": "\"When I started at the NGO, my manager left after two weeks. I had to take over her responsibilities immediately.\""
+    },
+    {
+      "id": "q02",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What lesson did Daniyar say he learned from the experience?",
+      "opts": [
+        "That management requires years of training",
+        "That structure reduces anxiety",
+        "That team meetings are counterproductive",
+        "That NGO work is always unpredictable"
+      ],
+      "correct": "That structure reduces anxiety",
+      "hint": "\"Structure reduces anxiety. When everything is listed and assigned, the situation becomes manageable.\""
+    },
+    {
+      "id": "q03",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar had previous experience managing a team before the crisis.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Although I hadn't managed a team before, I organised a meeting...\" — first time."
+    },
+    {
+      "id": "q04",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Bekzod say about NGO initiatives in rural areas?",
+      "opts": [
+        "They are large and well-funded",
+        "They are failing to make an impact",
+        "They are small but demonstrate what is possible",
+        "They focus only on healthcare"
+      ],
+      "correct": "They are small but demonstrate what is possible",
+      "hint": "\"These initiatives are small, but they demonstrate what is possible.\""
+    },
+    {
+      "id": "q05",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zara identify as the deepest problem with inequality?",
+      "opts": [
+        "Lack of government spending",
+        "Rural teachers being underpaid",
+        "Those most affected have the least voice in policy discussions",
+        "Lack of digital resources"
+      ],
+      "correct": "Those most affected have the least voice in policy discussions",
+      "hint": "\"The people most affected by inequality are also the least likely to have their voices heard in policy discussions.\""
+    },
+    {
+      "id": "q06",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Bekzod say is required to address inequality, beyond resources?",
+      "opts": [
+        "More government spending",
+        "International pressure",
+        "Genuine inclusion — ensuring affected communities design solutions",
+        "Stronger NGOs"
+      ],
+      "correct": "Genuine inclusion — ensuring affected communities design solutions",
+      "hint": "\"Addressing inequality requires not just resources but genuine inclusion — ensuring that affected communities are part of designing the solutions.\""
+    },
+    {
+      "id": "q07",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the speaker, what has happened to routine tasks in many industries?",
+      "opts": [
+        "They have become more complex",
+        "They are being performed by machines — automation",
+        "They have moved to rural areas",
+        "They require more education"
+      ],
+      "correct": "They are being performed by machines — automation",
+      "hint": "\"Many routine tasks are being performed by machines.\""
+    },
+    {
+      "id": "q08",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What change did the pandemic accelerate, according to the speaker?",
+      "opts": [
+        "The decline of digital tools",
+        "The return to office-based work",
+        "The shift from fixed-location to distributed flexible work",
+        "The rise of manufacturing jobs"
+      ],
+      "correct": "The shift from fixed-location to distributed flexible work",
+      "hint": "\"The pandemic accelerated a shift... the move from fixed-location work to flexible, distributed teams.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the speaker say about AI tools and human judgement?",
+      "opts": [
+        "AI is replacing human judgement entirely",
+        "AI tools require no human oversight",
+        "AI is changing what human judgement needs to focus on",
+        "Human judgement is now irrelevant"
+      ],
+      "correct": "AI is changing what human judgement needs to focus on",
+      "hint": "\"These tools are not replacing human judgement — they are changing what human judgement needs to focus on.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the speaker say is the \"upshot\" of the technological changes?",
+      "opts": [
+        "Technology will eliminate most jobs",
+        "Workers who are adaptable and communicatively skilled will thrive",
+        "Only technical skills matter in the future",
+        "Language learning is less important than before"
+      ],
+      "correct": "Workers who are adaptable and communicatively skilled will thrive",
+      "hint": "\"The future belongs to adaptable, communicatively skilled, critically thinking workers.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Prof. Asel say about individual action and total emissions?",
+      "opts": [
+        "Individual choices are the main cause of emissions",
+        "Individual choices account for the majority of emissions",
+        "Individual choices account for a relatively small share compared to industrial sources",
+        "Individual action has no effect on emissions"
+      ],
+      "correct": "Individual choices account for a relatively small share compared to industrial sources",
+      "hint": "\"Research suggests that individual choices account for a relatively small share of total emissions compared to industrial and systemic sources.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What role does Prof. Asel say individual action plays?",
+      "opts": [
+        "No role — only policy matters",
+        "A signal and norm-setter that builds the social foundation for political change",
+        "The most important factor",
+        "A substitute for government action"
+      ],
+      "correct": "A signal and norm-setter that builds the social foundation for political change",
+      "hint": "\"Individual action matters as a signal and as a norm-setter... builds the social foundation that makes political change possible.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ he hadn't managed a team before, he organised the work effectively.\" (concession — clause)",
+      "opts": [
+        "Despite",
+        "Although",
+        "However",
+        "In spite"
+      ],
+      "correct": "Although",
+      "hint": "\"Although + clause (subject + verb)\" = concessive conjunction. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ the government spending, the distribution is still unequal.\" (concession — noun)",
+      "opts": [
+        "Although",
+        "However",
+        "Despite",
+        "Nevertheless"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + noun/gerund\" — no separate clause. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Communication skills have become more important. ___, companies are investing more in training.\"",
+      "correct": "As a result / Therefore / Consequently",
+      "hint": "Cause → effect: THEREFORE / AS A RESULT / CONSEQUENTLY. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Routine tasks ___ (perform) by machines now.\" (passive — ongoing)",
+      "correct": "are being performed",
+      "hint": "\"Are being performed\" = Present Continuous Passive. ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"By virtue of ___ scale, corporations bear greater responsibility.\" Correct form:",
+      "opts": [
+        "their",
+        "its",
+        "they",
+        "there"
+      ],
+      "correct": "their",
+      "hint": "\"By virtue of THEIR scale\" — plural possessive. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ we focus exclusively on individual behaviour, we risk letting emitters avoid accountability.\"",
+      "opts": [
+        "Insofar as",
+        "In so far to",
+        "Although that",
+        "By insofar"
+      ],
+      "correct": "Insofar as",
+      "hint": "\"Insofar as + clause\" = to the degree that. ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She told me that the report ___ submitted the previous day.\" (reported — past passive)",
+      "opts": [
+        "was being submitted",
+        "had been submitted",
+        "was submitted",
+        "has been submitted"
+      ],
+      "correct": "had been submitted",
+      "hint": "\"Had been submitted\" = Past Perfect Passive in reported speech. ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Crucially, the workers who ___ ___ alongside AI tools will thrive.\" (work — relative)",
+      "opts": [
+        "can working",
+        "are able working",
+        "can work",
+        "will work effectively"
+      ],
+      "correct": "can work",
+      "hint": "\"Workers who can work alongside AI tools\" = relative clause with modal. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The situation became manageable.\" \"Manageable\" means:",
+      "opts": [
+        "Completely impossible",
+        "Able to be handled without too much difficulty",
+        "Very simple and straightforward",
+        "Impossible to avoid"
+      ],
+      "correct": "Able to be handled without too much difficulty",
+      "hint": "\"manageable\" = able to be dealt with; not overwhelming."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"AI tools augment human work.\" \"Augment\" means:",
+      "opts": [
+        "Replace entirely",
+        "Reduce the need for",
+        "Enhance or add to the capability of",
+        "Monitor and evaluate"
+      ],
+      "correct": "Enhance or add to the capability of",
+      "hint": "\"augment\" = to add to or improve; to make greater."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Letting emitters avoid accountability.\" \"Accountability\" means:",
+      "opts": [
+        "Secrecy and anonymity",
+        "Being responsible and answerable for actions",
+        "Legal immunity",
+        "Financial compensation"
+      ],
+      "correct": "Being responsible and answerable for actions",
+      "hint": "\"accountability\" = the obligation to answer for your actions and their consequences."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Social mobility has become more difficult.\" \"Social mobility\" means:",
+      "opts": [
+        "Physical movement between cities",
+        "The ability to move between social classes through education or work",
+        "International migration",
+        "Digital social networks"
+      ],
+      "correct": "The ability to move between social classes through education or work",
+      "hint": "\"social mobility\" = the ability to improve your social position — upward or downward."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The upshot is this: adaptable workers will thrive.\" \"Upshot\" means:",
+      "opts": [
+        "The introduction to a topic",
+        "A specific example",
+        "The final result or conclusion",
+        "A surprising problem"
+      ],
+      "correct": "The final result or conclusion",
+      "hint": "\"the upshot\" = the final result; what everything adds up to. Informal but common in spoken presentations."
+    }
+  ]
+}

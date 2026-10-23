@@ -1,0 +1,392 @@
+{
+  "id": "l61-5",
+  "moduleNum": 3,
+  "lessonNum": 9,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "test",
+  "title": "Module 3 Final Test",
+  "xp": 120,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the zero conditional used for, according to Reading 1?",
+      "opts": [
+        "Real future possibilities",
+        "Hypothetical situations",
+        "Universal facts and automatic consequences",
+        "Historical counterfactuals"
+      ],
+      "correct": "Universal facts and automatic consequences",
+      "hint": "\"The zero conditional is used for universal truths and automatic consequences.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes the first conditional different from the second?",
+      "opts": [
+        "Grammar only",
+        "First = realistic possibility; second = hypothetical/unlikely",
+        "First uses \"would,\" second uses \"will\"",
+        "First is about past, second about future"
+      ],
+      "correct": "First = realistic possibility; second = hypothetical/unlikely",
+      "hint": "\"The first conditional: the speaker genuinely believes this is achievable.\" Second = \"invites the listener to imagine an alternative reality.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the third conditional describe?",
+      "opts": [
+        "Future plans",
+        "Hypothetical present",
+        "Past as it did not happen — counterfactual",
+        "Scientific laws"
+      ],
+      "correct": "Past as it did not happen — counterfactual",
+      "hint": "\"The third conditional takes this further, moving into the purely counterfactual — the past as it did not happen.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had taken the scholarship, I would be in Berlin now.\" — This is:",
+      "opts": [
+        "Pure third",
+        "Pure second",
+        "Mixed: past condition + present result",
+        "Zero conditional"
+      ],
+      "correct": "Mixed: past condition + present result",
+      "hint": "\"had taken\" (past PP) + \"would be NOW\" (present) = mixed conditional connecting past condition to present result. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Daniyar says: \"If his father's condition hadn't stabilised, he would have deferred.\" This is:",
+      "opts": [
+        "First conditional",
+        "Zero conditional",
+        "Third conditional — counterfactual (his father did stabilise)",
+        "Mixed conditional"
+      ],
+      "correct": "Third conditional — counterfactual (his father did stabilise)",
+      "hint": "His father DID stabilise — this imagines the alternative past that didn't happen. Third conditional. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In the seminar, which student used second conditional?",
+      "opts": [
+        "Rustam",
+        "Kamila",
+        "Amir — for national coordination hypothetical",
+        "Zhibek"
+      ],
+      "correct": "Amir — for national coordination hypothetical",
+      "hint": "\"If every university were to introduce courses simultaneously...\" — Amir's hypothetical national coordination. Second conditional. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I speak Czech, I can access legal archives.\" — Daniyar's zero conditional means:",
+      "opts": [
+        "It might be possible",
+        "He is planning to speak Czech",
+        "Automatic factual relationship: speaking Czech = accessing archives",
+        "He hopes to access them"
+      ],
+      "correct": "Automatic factual relationship: speaking Czech = accessing archives",
+      "hint": "Present + Present = zero conditional. Factual, automatic relationship. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was wrong with Rustam's first attempt at zero conditional?",
+      "opts": [
+        "He used wrong vocabulary",
+        "He said \"will be\" — making it first conditional instead of zero",
+        "He described a hypothetical",
+        "His grammar was correct"
+      ],
+      "correct": "He said \"will be\" — making it first conditional instead of zero",
+      "hint": "\"You said 'will be' — that's first conditional: a prediction.\" Zero requires Present Simple in both clauses. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes Kamila's final seminar sentence a mixed conditional?",
+      "opts": [
+        "It uses two subjects",
+        "Past if-clause (had been introduced) + present result (would already have now)",
+        "It has too many clauses",
+        "It uses past perfect in the result"
+      ],
+      "correct": "Past if-clause (had been introduced) + present result (would already have now)",
+      "hint": "\"If the module had been introduced earlier\" (PP/3rd) + \"would already have a foundation NOW\" (present/2nd) = mixed Type A. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What advice would Daniyar give his 18-year-old self?",
+      "opts": [
+        "Stay in Kazakhstan",
+        "Trust the discomfort; don't call home every day",
+        "Call home every day",
+        "Avoid studying abroad"
+      ],
+      "correct": "Trust the discomfort; don't call home every day",
+      "hint": "\"Trust the discomfort. If things were easy from the start, they wouldn't be worth doing. Don't call home every day.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Zhibek said: \"If WKU had introduced this module five years ago, graduates would have been better prepared.\" — This is:",
+      "opts": [
+        "First conditional",
+        "Zero conditional",
+        "Third conditional",
+        "Mixed conditional"
+      ],
+      "correct": "Third conditional",
+      "hint": "\"had introduced\" (PP) + \"would have been prepared\" (would have + pp) = third conditional. Both past. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "\"If I speak Czech, I can access archives\" uses first conditional.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Present + Present = ZERO conditional (factual relationship). NOT first conditional. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If you WILL study, you will pass.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"will study\" in if-clause → should be \"study\" (Present Simple)",
+        "\"pass\" needs \"will\"",
+        "\"if\" should be \"when\""
+      ],
+      "correct": "\"will study\" in if-clause → should be \"study\" (Present Simple)",
+      "hint": "✅ \"If you STUDY, you will pass.\" NEVER \"will\" in the if-clause. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If I ___ (be) you, I ___ (apply) immediately.\" (second conditional)",
+      "correct": "were / would apply",
+      "hint": "Second conditional: IF + WERE + would + base. \"If I WERE you, I WOULD APPLY.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I would have studied, I would have passed.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"would have studied\" in if-clause → should be \"had studied\"",
+        "\"passed\" needs \"have\"",
+        "\"If\" should be \"Unless\""
+      ],
+      "correct": "\"would have studied\" in if-clause → should be \"had studied\"",
+      "hint": "✅ \"If I HAD STUDIED...\" — if-clause of 3rd conditional: PAST PERFECT only. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wish I knew the answer.\" — This means:",
+      "opts": [
+        "I know the answer",
+        "I will know the answer soon",
+        "I do NOT know the answer now — contrary to present reality",
+        "I knew it in the past"
+      ],
+      "correct": "I do NOT know the answer now — contrary to present reality",
+      "hint": "Wish + Past Simple = contrary to present reality. \"I wish I knew\" = I DON'T know now. ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If she ___ (not / leave) early, she ___ (miss) the train.\"(3rd cond.)",
+      "correct": "hadn't left / would have missed",
+      "hint": "3rd conditional: \"If she HADN'T LEFT early, she WOULD HAVE MISSED the train.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Unless you submit by Friday, you will fail.\" — \"Unless\" means:",
+      "opts": [
+        "\"If you submit\"",
+        "\"Although you submit\"",
+        "\"If you don't submit\"",
+        "\"Because you submit\""
+      ],
+      "correct": "\"If you don't submit\"",
+      "hint": "\"unless\" = \"if not.\" \"Unless you submit\" = \"IF YOU DON'T SUBMIT.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had taken the offer, I would be in Singapore now.\" — Type:",
+      "opts": [
+        "Pure 3rd",
+        "Pure 2nd",
+        "Mixed: past condition → present result (A)",
+        "Mixed: present condition → past result (B)"
+      ],
+      "correct": "Mixed: past condition → present result (A)",
+      "hint": "\"had taken\" (PP/3rd) + \"would be NOW\" (present/2nd) = Mixed Type A: past condition → present result. ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Had I known about this, I would have responded.\" — \"Had I known\" is:",
+      "opts": [
+        "A mistake",
+        "Formal inversion of 3rd conditional (= \"If I had known\")",
+        "Second conditional",
+        "Past Perfect question"
+      ],
+      "correct": "Formal inversion of 3rd conditional (= \"If I had known\")",
+      "hint": "\"Had I known...\" = formal inversion. No \"if\" needed. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Conditional thinking is a feature of human cognition.\" \"Cognition\" means:",
+      "opts": [
+        "Language",
+        "Mental processes of knowing and understanding",
+        "Social behaviour",
+        "Physical ability"
+      ],
+      "correct": "Mental processes of knowing and understanding",
+      "hint": "\"cognition\" = the mental processes of acquiring knowledge, understanding, and thinking."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The benefit of hindsight.\" \"Hindsight\" means:",
+      "opts": [
+        "Foresight — knowing before it happens",
+        "Understanding a situation only after it has occurred",
+        "Expert advice",
+        "A type of analysis"
+      ],
+      "correct": "Understanding a situation only after it has occurred",
+      "hint": "\"hindsight\" = understanding that comes AFTER the event, not before."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If the intervention were effective.\" \"Intervention\" means:",
+      "opts": [
+        "An observation",
+        "A natural process",
+        "A deliberate action to change an outcome",
+        "A scientific law"
+      ],
+      "correct": "A deliberate action to change an outcome",
+      "hint": "\"intervention\" = a deliberate action taken to improve or change a situation."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The causal relationship between X and Y.\" \"Causal\" means:",
+      "opts": [
+        "Time-related",
+        "Related to cause and effect",
+        "Historical",
+        "Random"
+      ],
+      "correct": "Related to cause and effect",
+      "hint": "\"causal\" = relating to cause and effect; what causes what to happen."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"This is not idle speculation.\" \"Idle speculation\" means:",
+      "opts": [
+        "Careful analysis",
+        "Useless guessing without real basis or purpose",
+        "A scientific hypothesis",
+        "Historical research"
+      ],
+      "correct": "Useless guessing without real basis or purpose",
+      "hint": "\"idle speculation\" = unproductive guessing; thinking without evidence or serious purpose."
+    }
+  ]
+}

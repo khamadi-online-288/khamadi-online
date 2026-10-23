@@ -1,0 +1,287 @@
+{
+  "id": "l32-2",
+  "moduleNum": 16,
+  "lessonNum": 2,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "reading",
+  "title": "Online vs In-Store Shopping",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "The way we shop has changed dramatically in recent years. Online shopping has grown rapidly and now accounts for a significant portion of retail sales in Kazakhstan. But many people still prefer visiting physical stores.",
+    "Online shopping has clear advantages. It is convenient — you can shop from home at any time. Prices are often lower because online shops have fewer overheads. You can compare hundreds of products in minutes and read reviews from other buyers.",
+    "However, there are disadvantages too. You cannot try on clothes before buying them. The size might be too small or too large. The colour might not look the same on screen as in real life. Delivery can take several days, and returning items is sometimes complicated.",
+    "Shopping in a physical store has its own benefits. You can try clothes on to see if they fit perfectly. The material might feel too rough or too soft — things you can only judge by touch. You can get advice from store assistants. And many people simply enjoy the experience of going to the shops.",
+    "At WKU, students use a mix of both. Amir always buys electronics online because the prices are much lower. Kamila prefers buying clothes in-store because she likes to feel the fabric first. Zhibek uses both — she reads reviews online, then buys in-store if possible.",
+    "The future of retail is likely a hybrid model. Shops are becoming more like experience centres, while online platforms are becoming faster and more personalised. One thing is clear: smart shoppers use both methods strategically."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "I ordered a new laptop online last week — it was 30% cheaper than in the store.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Really? Wasn't it risky? What if it was too cheap to be good quality?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I read hundreds of reviews first. The reviews were positive enough to make me confident.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I still prefer shopping in-store for clothes. The size charts are never accurate enough.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's fair. Returns are always a nightmare if something is too small.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "too + adjective + to",
+      "ru": "слишком + прил + чтобы",
+      "context": "It's too small to fit — I need a bigger size."
+    },
+    {
+      "phrase": "adjective + enough + to",
+      "ru": "прил + достаточно + чтобы",
+      "context": "The reviews were positive enough to make me confident."
+    },
+    {
+      "phrase": "compare prices",
+      "ru": "сравнивать цены",
+      "context": "You can compare hundreds of products online in minutes."
+    },
+    {
+      "phrase": "read reviews",
+      "ru": "читать отзывы",
+      "context": "Amir read hundreds of reviews before buying online."
+    },
+    {
+      "phrase": "try on clothes",
+      "ru": "примерять одежду",
+      "context": "You cannot try on clothes before buying them online."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "retail",
+      "ipa": "/ˈriː.teɪl/",
+      "pos": "n",
+      "ru": "розничная торговля",
+      "kz": "бөлшек сауда",
+      "emoji": "🛍️",
+      "definition": "The sale of goods to the public in shops.",
+      "example": "Online shopping now accounts for a large part of retail sales.",
+      "collocations": [
+        "retail sales",
+        "retail store",
+        "retail industry"
+      ]
+    },
+    {
+      "en": "delivery",
+      "ipa": "/dɪˈlɪv.ər.i/",
+      "pos": "n",
+      "ru": "доставка",
+      "kz": "жеткізу",
+      "emoji": "📦",
+      "definition": "The act of bringing goods to a customer.",
+      "example": "Delivery can take several days and returns are often complicated.",
+      "collocations": [
+        "delivery time",
+        "free delivery",
+        "express delivery"
+      ]
+    },
+    {
+      "en": "review",
+      "ipa": "/rɪˈvjuː/",
+      "pos": "n",
+      "ru": "отзыв, обзор",
+      "kz": "пікір",
+      "emoji": "⭐",
+      "definition": "A written opinion about a product or experience.",
+      "example": "Amir read hundreds of positive reviews before buying the laptop.",
+      "collocations": [
+        "read reviews",
+        "write a review",
+        "positive review"
+      ]
+    },
+    {
+      "en": "overhead",
+      "ipa": "/ˈəʊ.vər.hed/",
+      "pos": "n",
+      "ru": "накладные расходы",
+      "kz": "үстеме шығыс",
+      "emoji": "💸",
+      "definition": "Regular costs of running a business (rent, staff, utilities).",
+      "example": "Online shops have fewer overheads so prices are often lower.",
+      "collocations": [
+        "business overheads",
+        "low overheads",
+        "cut overheads"
+      ]
+    },
+    {
+      "en": "personalised",
+      "ipa": "/ˈpɜː.sən.ə.laɪzd/",
+      "pos": "adj",
+      "ru": "персонализированный",
+      "kz": "жекелендірілген",
+      "emoji": "🎯",
+      "definition": "Designed for or tailored to a specific person.",
+      "example": "Online platforms are becoming more personalised.",
+      "collocations": [
+        "personalised recommendations",
+        "personalised service",
+        "personalised experience"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "retail",
+      "emoji": "🛍️",
+      "opts": [
+        "Making clothes in a factory",
+        "The sale of goods to the public",
+        "Designing fashion collections",
+        "Ordering from a catalogue"
+      ],
+      "correct": "The sale of goods to the public"
+    },
+    {
+      "id": "p2",
+      "word": "delivery",
+      "emoji": "📦",
+      "opts": [
+        "Trying on clothes in-store",
+        "The act of bringing ordered goods to a customer",
+        "Paying for goods in a shop",
+        "Returning goods to the seller"
+      ],
+      "correct": "The act of bringing ordered goods to a customer"
+    },
+    {
+      "id": "p3",
+      "word": "overhead",
+      "emoji": "💸",
+      "opts": [
+        "Extra charges at checkout",
+        "Regular costs of running a business",
+        "The price of a product",
+        "Profit from sales"
+      ],
+      "correct": "Regular costs of running a business"
+    },
+    {
+      "id": "p4",
+      "word": "personalised",
+      "emoji": "🎯",
+      "opts": [
+        "The same for everyone",
+        "Given as a gift with your name on it",
+        "Tailored or customised to a specific person",
+        "Made from natural materials"
+      ],
+      "correct": "Tailored or customised to a specific person"
+    },
+    {
+      "id": "p5",
+      "word": "review",
+      "emoji": "⭐",
+      "opts": [
+        "A type of online discount",
+        "A written opinion about a product",
+        "A government certificate",
+        "A refund for a returned item"
+      ],
+      "correct": "A written opinion about a product"
+    }
+  ],
+  "task1Bank": [
+    "online",
+    "try",
+    "reviews",
+    "delivery",
+    "cheaper",
+    "returns",
+    "convenient",
+    "fit"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "___ shopping allows you to shop from home at any time.",
+      "correct": "Online"
+    },
+    {
+      "id": "i2",
+      "question": "You can read ___ from other buyers before purchasing.",
+      "correct": "reviews"
+    },
+    {
+      "id": "i3",
+      "question": "Online prices are often ___ because shops have fewer costs.",
+      "correct": "cheaper"
+    },
+    {
+      "id": "i4",
+      "question": "You cannot ___ on clothes before buying online.",
+      "correct": "try"
+    },
+    {
+      "id": "i5",
+      "question": "___ can take several days and returns are often complicated.",
+      "correct": "Delivery"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Online shopping prices are usually higher than in-store prices.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Amir bought his laptop online because it was cheaper.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Kamila prefers buying clothes online because of the reviews.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Zhibek reads reviews online and then buys in-store if possible.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "The article says physical stores will disappear completely.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

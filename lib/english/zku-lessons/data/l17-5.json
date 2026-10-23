@@ -1,0 +1,433 @@
+{
+  "id": "l17-5",
+  "moduleNum": 1,
+  "lessonNum": 7,
+  "moduleTitle": "Abilities & Skills",
+  "title": "Module 1 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What year of study is Kamila Seitkali?",
+      "opts": [
+        "First year",
+        "Second year",
+        "Third year",
+        "Fourth year"
+      ],
+      "correct": "Second year",
+      "hint": "\"I am a second-year student at WKU.\""
+    },
+    {
+      "id": "q02",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many languages can Kamila speak?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "Three",
+      "hint": "\"I can speak three languages: Kazakh, Russian, and English.\""
+    },
+    {
+      "id": "q03",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kamila can play the guitar.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Unfortunately, I cannot play the piano or the guitar.\""
+    },
+    {
+      "id": "q04",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many traditional Kazakh songs can Kamila play on the dombra?",
+      "opts": [
+        "Ten",
+        "Fifteen",
+        "Twenty",
+        "Thirty"
+      ],
+      "correct": "Twenty",
+      "hint": "\"I can play about twenty traditional Kazakh songs.\""
+    },
+    {
+      "id": "q05",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Everybody calls Amir \"The Tech ___\".",
+      "correct": "wizard",
+      "hint": "\"Everybody in our group calls him 'The Tech Wizard!'\""
+    },
+    {
+      "id": "q06",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What can Amir NOT do?",
+      "opts": [
+        "Build websites",
+        "Fix computers",
+        "Code in Python",
+        "Cook (except instant noodles)"
+      ],
+      "correct": "Cook (except instant noodles)",
+      "hint": "\"He cannot cook anything except instant noodles.\""
+    },
+    {
+      "id": "q07",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Rustam can kick the ball with both feet.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"He can kick the ball with both his right foot and his left foot.\""
+    },
+    {
+      "id": "q08",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What skill is Kamila currently learning?",
+      "opts": [
+        "To code in Python",
+        "To play guitar",
+        "To drive a car",
+        "To sing in tune"
+      ],
+      "correct": "To drive a car",
+      "hint": "\"I am learning to drive a car — but I cannot drive yet!\""
+    },
+    {
+      "id": "q09",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What talent does Kamila perform at the talent show?",
+      "opts": [
+        "She sings",
+        "She dances",
+        "She plays the dombra",
+        "She juggles"
+      ],
+      "correct": "She plays the dombra",
+      "hint": "\"I can play the dombra — I can play about twenty traditional Kazakh songs.\""
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila says she can sing very well.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I can't sing very well. I'm much better at playing than singing.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How long does it take Amir to solve a Rubik's cube?",
+      "opts": [
+        "Under one minute",
+        "Under two minutes",
+        "Under five minutes",
+        "Under ten minutes"
+      ],
+      "correct": "Under two minutes",
+      "hint": "\"I can solve it in under two minutes!\""
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek can do a ___ on stage.",
+      "correct": "backflip",
+      "hint": "\"I can do a backflip on stage.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Rustam can juggle and sing at the same time.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I can't sing or dance, but I can make a football do anything!\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How long can Rustam balance the ball on his head?",
+      "opts": [
+        "Ten seconds",
+        "Twenty seconds",
+        "Thirty seconds",
+        "One minute"
+      ],
+      "correct": "Thirty seconds",
+      "hint": "\"I can balance the ball on my head for thirty seconds.\""
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct form: She ___ perform three Kazakh dances.",
+      "opts": [
+        "can",
+        "cans",
+        "can to",
+        "is can"
+      ],
+      "correct": "can",
+      "hint": "Ability → can. CAN never takes -s."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I ___ drive yet — I'm learning every Saturday.",
+      "correct": "can't",
+      "hint": "Negative present ability → can't."
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is correct?",
+      "opts": [
+        "He cans code.",
+        "He can codes.",
+        "He can code.",
+        "He can to code."
+      ],
+      "correct": "He can code.",
+      "hint": "CAN + bare infinitive. No -s, no \"to\"."
+    },
+    {
+      "id": "q18",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Can she dances?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Can → base form: Can she dance?"
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "COULD is used to describe ability in...",
+      "opts": [
+        "the present",
+        "the future",
+        "the past",
+        "general facts"
+      ],
+      "correct": "the past",
+      "hint": "COULD = past of CAN → past ability."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ speak English two years ago — she started learning at university.",
+      "opts": [
+        "can't",
+        "couldn't",
+        "cannot",
+        "could"
+      ],
+      "correct": "couldn't",
+      "hint": "\"Two years ago\" = past + negative → couldn't."
+    },
+    {
+      "id": "q21",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Kamila ___ play 20 songs now, but she ___ only play 3 when she started.",
+      "correct": "can could",
+      "hint": "Now = can; When she started (past) = could."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"He couldn't swam as a child\" — what is wrong?",
+      "opts": [
+        "Missing \"to\"",
+        "\"swam\" should be \"swim\"",
+        "Wrong subject",
+        "Nothing"
+      ],
+      "correct": "\"swam\" should be \"swim\"",
+      "hint": "After couldn't → base verb only: couldn't swim (not \"swam\")."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"ability\" mean?",
+      "opts": [
+        "A type of lesson",
+        "The skill or power to do something",
+        "A school subject",
+        "A goal or dream"
+      ],
+      "correct": "The skill or power to do something",
+      "hint": "Ability = the skill or power to do something."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "My biggest ___ is cooking — I cannot even make soup!",
+      "correct": "weakness",
+      "hint": "Weakness = something you are not good at."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"dedicated\" / \"dedication\" mean?",
+      "opts": [
+        "Feeling lazy",
+        "Hard work and effort for something you care about",
+        "A type of performance",
+        "A dance move"
+      ],
+      "correct": "Hard work and effort for something you care about",
+      "hint": "Dedication = hard work and effort put into something you care about."
+    },
+    {
+      "id": "q26",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Practise\" means to do something once to check if it works.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Practise = to do something REGULARLY to improve your skill."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What is an \"audience\"?",
+      "opts": [
+        "The performer on stage",
+        "The group of people watching a performance",
+        "The judges of a competition",
+        "The teachers in a class"
+      ],
+      "correct": "The group of people watching a performance",
+      "hint": "Audience = the group of people watching a performance."
+    },
+    {
+      "id": "q28",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She is very ___ about traditional Kazakh music — she trains every day.",
+      "correct": "passionate",
+      "hint": "Passionate = having a very strong interest or enthusiasm."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"confident\" mean?",
+      "opts": [
+        "Feeling nervous",
+        "Feeling sure about your abilities",
+        "Feeling sad",
+        "Feeling confused"
+      ],
+      "correct": "Feeling sure about your abilities",
+      "hint": "Confident = feeling sure about your abilities."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "To \"achieve\" something means to...",
+      "opts": [
+        "give up on a goal",
+        "successfully reach a goal you worked for",
+        "try something for the first time",
+        "forget a skill"
+      ],
+      "correct": "successfully reach a goal you worked for",
+      "hint": "Achieve = to successfully do or get something you worked for."
+    }
+  ]
+}

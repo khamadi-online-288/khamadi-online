@@ -1,0 +1,231 @@
+{
+  "id": "l21-5",
+  "moduleNum": 5,
+  "lessonNum": 6,
+  "moduleTitle": "Technology & Communication",
+  "title": "My technology habits",
+  "type": "writing",
+  "xp": 75,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I always / usually / often...",
+      "emoji": "🔄",
+      "opts": [
+        "Я хожу...",
+        "Я всегда / обычно / часто...",
+        "Мне нравится...",
+        "Я решил..."
+      ],
+      "correct": "Я всегда / обычно / часто..."
+    },
+    {
+      "id": "p2",
+      "word": "I want to / plan to...",
+      "emoji": "🎯",
+      "opts": [
+        "Я хочу / планирую...",
+        "Я умею...",
+        "Я должен...",
+        "Я занимаюсь..."
+      ],
+      "correct": "Я хочу / планирую..."
+    },
+    {
+      "id": "p3",
+      "word": "My screen time is...",
+      "emoji": "⏰",
+      "opts": [
+        "Мой экран —...",
+        "Моё экранное время —...",
+        "Мои настройки —...",
+        "Мой телефон —..."
+      ],
+      "correct": "Моё экранное время —..."
+    },
+    {
+      "id": "p4",
+      "word": "The positive side is...",
+      "emoji": "✅",
+      "opts": [
+        "Плюс в том, что...",
+        "Минус в том, что...",
+        "Проблема в том, что...",
+        "Сложно когда..."
+      ],
+      "correct": "Плюс в том, что..."
+    },
+    {
+      "id": "p5",
+      "word": "I need to improve...",
+      "emoji": "📈",
+      "opts": [
+        "Мне нужно улучшить...",
+        "Я должен остановить...",
+        "Мне нравится...",
+        "Я решил изменить..."
+      ],
+      "correct": "Мне нужно улучшить..."
+    },
+    {
+      "id": "p6",
+      "word": "I enjoy using... because...",
+      "emoji": "😊",
+      "opts": [
+        "Мне нравится пользоваться... потому что...",
+        "Я использую... вместо...",
+        "Мне не нравится... хотя...",
+        "Я устал от..."
+      ],
+      "correct": "Мне нравится пользоваться... потому что..."
+    }
+  ],
+  "writingModel": [
+    "My Technology Habits — An Honest Assessment\nBy Kamila Seitkali, WKU, Group A1.1\n",
+    "Technology is the central tool of my daily life as a university student. I use my phone, laptop, and tablet constantly — for studying, communicating, and entertainment. In this essay, I want to describe my current technology habits honestly, identify the positive and negative aspects, and explain what I plan to change.",
+    "My daily routine starts digitally. I always check my messages as soon as I wake up — WhatsApp for family, Telegram for university group chats, and a quick glance at Instagram. I usually spend about twenty minutes on my phone before I even have breakfast. During lectures, I always use Google Docs to take notes, which I find much more efficient than paper. I often record short audio clips on my phone when the lecturer speaks too quickly to type.",
+    "For studying, technology has completely transformed how I learn. I need to study vocabulary every day because English requires constant revision, so I use the Anki app for fifteen minutes every morning. I also enjoy watching YouTube videos in English — it helps me improve my listening skills while learning interesting content. I sometimes use ChatGPT to check my English writing before I submit it. I plan to use it less as my skills improve, because I want to develop independence.",
+    "However, I also have some bad habits that I need to change. My biggest problem is social media. I check Instagram about thirty times a day, which I know is too much. I also avoid using my phone in \"no phone\" zones at the library, but I forget to do it consistently. My screen time app tells me I spend an average of three hours and forty minutes per day on my phone — much more than I realised. This affects my concentration during study sessions, which I find very frustrating.",
+    "I have made a list of changes I want to make. First, I plan to turn off all Instagram notifications so that I only check it intentionally, at a time I choose. Second, I need to stop using my phone in bed — I want to read a physical book for thirty minutes before sleeping instead. Third, I hope to reduce my daily screen time to under two hours by the end of this semester. I know these changes will not be easy, but I believe they are worth making.",
+    "To conclude: technology is neither good nor bad — it depends on how we use it. I enjoy using my laptop and apps for learning and staying connected. But I need to use social media more intentionally. I want to control technology; I never want to let it control me. Starting this week — not next Monday this time! 😊"
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Title of your essay",
+      "hint": "e.g. My Technology Habits — An Honest Look"
+    },
+    {
+      "key": "intro",
+      "prefix": "Technology is ",
+      "suffix": " in my daily life.",
+      "placeholder": "how important / role of tech",
+      "hint": "e.g. essential / the central tool / everywhere"
+    },
+    {
+      "key": "routine",
+      "prefix": "Every morning I always ",
+      "suffix": ", and I usually ___.",
+      "placeholder": "habit 1 ... habit 2",
+      "hint": "e.g. check my messages ... take notes on Google Docs"
+    },
+    {
+      "key": "pos1",
+      "prefix": "I enjoy ",
+      "suffix": " because it helps me ___.",
+      "placeholder": "app/tool + reason",
+      "hint": "e.g. using Anki ... memorise vocabulary faster"
+    },
+    {
+      "key": "pos2",
+      "prefix": "I often use ",
+      "suffix": " to ___.",
+      "placeholder": "app/tool + purpose",
+      "hint": "e.g. YouTube ... improve my English listening"
+    },
+    {
+      "key": "neg1",
+      "prefix": "However, my biggest bad habit is ",
+      "suffix": ". I know I need to ___.",
+      "placeholder": "bad habit ... change needed",
+      "hint": "e.g. checking Instagram too often ... reduce it"
+    },
+    {
+      "key": "neg2",
+      "prefix": "I sometimes spend ",
+      "suffix": " on social media, which affects my ___.",
+      "placeholder": "time wasted ... consequence",
+      "hint": "e.g. two hours ... concentration and sleep"
+    },
+    {
+      "key": "plan1",
+      "prefix": "First, I plan to ",
+      "suffix": ".",
+      "placeholder": "change 1",
+      "hint": "e.g. turn off all notifications during lectures"
+    },
+    {
+      "key": "plan2",
+      "prefix": "Second, I want to ",
+      "suffix": " instead of scrolling.",
+      "placeholder": "positive change",
+      "hint": "e.g. read a physical book before bed"
+    },
+    {
+      "key": "conc",
+      "prefix": "I want technology to be my ",
+      "suffix": ", not my ___.",
+      "placeholder": "positive word ... negative word",
+      "hint": "e.g. tool ... master / helper ... habit / servant ... boss"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Frequency habits (Present Simple)",
+      "color": "#003876",
+      "items": [
+        "I always check my messages when I wake up.",
+        "I usually take notes on Google Docs during lectures.",
+        "I often watch YouTube videos for studying.",
+        "I sometimes forget to put my phone away.",
+        "I rarely use Facebook or Twitter.",
+        "I never study without music or background sound."
+      ]
+    },
+    {
+      "category": "Positive habits & apps",
+      "color": "#16A34A",
+      "items": [
+        "I enjoy using Anki to memorise vocabulary.",
+        "I need to practise English every day.",
+        "Technology has transformed how I learn.",
+        "I love watching tutorials — they explain things clearly.",
+        "I find it much easier to organise notes digitally.",
+        "Using Google Docs means I can access my notes anywhere."
+      ]
+    },
+    {
+      "category": "Negative habits & problems",
+      "color": "#EF4444",
+      "items": [
+        "I spend too much time on social media.",
+        "I always check my phone even when I should be studying.",
+        "I avoid using my phone in lectures, but forget consistently.",
+        "My screen time is much higher than I realised.",
+        "I find it very hard to concentrate when my phone is nearby.",
+        "This affects my sleep and my ability to focus."
+      ]
+    },
+    {
+      "category": "Plans for improvement",
+      "color": "#7C3AED",
+      "items": [
+        "I plan to turn off all notifications during lectures.",
+        "I want to stop using my phone in bed.",
+        "I hope to reduce my screen time by the end of the semester.",
+        "I need to be more intentional about when I check social media.",
+        "I want to read a physical book for 30 minutes before sleep.",
+        "I want technology to be my tool, not my master."
+      ]
+    }
+  ]
+}

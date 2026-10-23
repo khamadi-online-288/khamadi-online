@@ -1,0 +1,518 @@
+{
+  "id": "l80-g1",
+  "moduleNum": 22,
+  "lessonNum": 5,
+  "moduleTitle": "Philosophy, Ethics & Values",
+  "title": "Grammar: Concessive Structures — Acknowledging and Countering Arguments",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Структуры уступки (Concessive structures) в аргументированном тексте:\n\nПЕРЕД уступкой:\nAlthough / Even though / Though + clause:\n\"Although the data is limited, the conclusions are valid.\"\n\nWhile / Whilst + clause:\n\"While some argue for X, the evidence supports Y.\"\n\nДесмотря на → Despite / In spite of + noun/-ing:\n\"Despite the difficulties, the project succeeded.\"\n\"In spite of being expensive, the solution is effective.\"\n\nПОСЛЕ уступки:\nHowever / Nevertheless / Nonetheless / Yet:\n\"The data is limited. Nevertheless, the trend is clear.\"\n\n💡 Формула сильного аргумента:\n\"Concede\" → \"But\" → \"Your stronger point\"\n\"While X is true, Y is even more important because...\"",
+  "grammarTable": [
+    {
+      "subject": "Concessive conjunctions (before clauses)",
+      "verb": "although / even though / though / while / whereas",
+      "short": "Sentence 1: even though X, Y",
+      "example": "\"Although consequentialism has great force, it can justify counterintuitive conclusions.\""
+    },
+    {
+      "subject": "Concessive adverbs (sentence start)",
+      "verb": "however / nevertheless / nonetheless / yet / still",
+      "short": "X. However/Nevertheless, Y.",
+      "example": "\"The argument is compelling. Nevertheless, serious objections remain.\""
+    },
+    {
+      "subject": "Concessive phrases (formal)",
+      "verb": "that said / be that as it may / granted that / admittedly",
+      "short": "Acknowledging the point before countering",
+      "example": "\"Admittedly, Kant's theory has intuitive appeal. That said, its application can be rigid.\""
+    },
+    {
+      "subject": "Concessive conditionals",
+      "verb": "even if / even when / no matter how/what",
+      "short": "Even if X were true, Y still holds",
+      "example": "\"Even if the numbers favour the action, the means matter morally.\""
+    },
+    {
+      "subject": "Partial agreement",
+      "verb": "to some extent / up to a point / in certain respects",
+      "short": "Qualifying agreement",
+      "example": "\"To some extent, consequences do matter. But they are not the only moral consideration.\""
+    },
+    {
+      "subject": "Formal concessive phrases",
+      "verb": "notwithstanding / despite / in spite of + noun/gerund",
+      "short": "Formal — despite X, Y",
+      "example": "\"Notwithstanding these objections, care ethics makes a valuable contribution.\" / \"Despite its limitations, the theory offers real insight.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Concessive Conjunctions: although, even though, while, whereas",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "although / even though + clause (= despite the fact that)",
+          "example": "\"Although consequentialism is powerful, it cannot fully account for individual rights.\""
+        },
+        {
+          "form": "\"even though\" = stronger emphasis on the contrast",
+          "example": "\"Even though the action saved lives, it violated a fundamental right.\""
+        },
+        {
+          "form": "\"while\" = softer, often used for contrasts of a similar kind",
+          "example": "\"While deontology respects persons, consequentialism respects outcomes.\""
+        },
+        {
+          "form": "\"whereas\" = sharper contrast, often between opposites",
+          "example": "\"Consequentialism focuses on outcomes, whereas deontology focuses on duties.\""
+        }
+      ]
+    },
+    {
+      "title": "Concessive Adverbs: however, nevertheless, nonetheless, yet, still",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"however\" = most common, introduces a contrast after a full stop or semicolon",
+          "example": "\"Kant's system is logically rigorous. However, its conclusions can seem inflexible.\""
+        },
+        {
+          "form": "\"nevertheless / nonetheless\" = more emphatic; \"the point is acknowledged, but...\"",
+          "example": "\"The objections are serious. Nevertheless, the core insight remains valuable.\""
+        },
+        {
+          "form": "\"yet\" = literary/formal; same meaning as \"however\" at the start of a sentence",
+          "example": "\"The argument has force. Yet it fails to account for individual dignity.\""
+        },
+        {
+          "form": "\"still\" = despite this, the situation remains the same",
+          "example": "\"The theory has been criticised. Still, it is widely taught and defended.\""
+        }
+      ]
+    },
+    {
+      "title": "Formal Concessive Phrases: \"that said,\" \"be that as it may,\" \"admittedly,\" \"granted\"",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"admittedly\" = I acknowledge/concede this point",
+          "example": "\"Admittedly, the theory cannot resolve every dilemma. That said, it offers a useful framework.\""
+        },
+        {
+          "form": "\"granted (that)\" = granting the point for the sake of argument",
+          "example": "\"Granted that consequences matter, it does not follow that they are all that matters.\""
+        },
+        {
+          "form": "\"be that as it may\" = even if that is true (very formal)",
+          "example": "\"Be that as it may, the counter-argument has not been adequately addressed.\""
+        },
+        {
+          "form": "\"that said\" = having acknowledged the above",
+          "example": "\"The objections have merit. That said, they do not undermine the main argument.\""
+        }
+      ]
+    },
+    {
+      "title": "Concessive Conditionals: \"even if,\" \"even when,\" \"no matter how\"",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"even if + clause\" = whether or not this is true, the result stays the same",
+          "example": "\"Even if torturing one person saved a thousand lives, it would remain morally impermissible.\""
+        },
+        {
+          "form": "\"even when\" = in all cases when (generalising)",
+          "example": "\"Even when consequences are good, the method may be wrong.\""
+        },
+        {
+          "form": "\"no matter how/what/where\" = regardless of degree",
+          "example": "\"No matter how beneficial the outcome, using a person as a mere means is wrong.\""
+        },
+        {
+          "form": "Note: \"even if\" uses the same tense as normal conditionals",
+          "example": "\"Even if this argument were correct (hypothetical), it would not justify the conclusion.\""
+        }
+      ]
+    },
+    {
+      "title": "Degree Concession: \"to some extent,\" \"up to a point,\" \"in certain respects\"",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "\"to some extent\" = partially true but not completely",
+          "example": "\"To some extent, consequences do matter morally. But they cannot be all that matters.\""
+        },
+        {
+          "form": "\"up to a point\" = true within limits but not beyond them",
+          "example": "\"The argument is persuasive up to a point — it breaks down in extreme cases.\""
+        },
+        {
+          "form": "\"in certain respects / in some ways\"",
+          "example": "\"In certain respects, care ethics complements rather than contradicts deontology.\""
+        },
+        {
+          "form": "\"it is true that X, but Y\" = direct acknowledgement + counter",
+          "example": "\"It is true that the argument has intuitive force. But intuition is not always a reliable guide.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct concessive connector.",
+      "text": "\"___ consequentialism has genuine strengths, it faces serious objections about rights.\"",
+      "opts": [
+        "Because",
+        "Although",
+        "Therefore",
+        "Unless"
+      ],
+      "correct": "Although",
+      "hint": "\"Although + clause\" = concession — even though X is true, Y is also the case"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct concessive adverb.",
+      "text": "\"The argument is compelling. ___, it has significant weaknesses.\" (= despite being compelling)",
+      "correct": "Nevertheless / Nonetheless / However / Yet",
+      "hint": "Concessive adverb after a full stop"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct formal concessive phrase.",
+      "text": "\"___ the objections are serious, they do not undermine the overall argument.\"",
+      "opts": [
+        "As a result",
+        "Admittedly",
+        "Furthermore",
+        "Moreover"
+      ],
+      "correct": "Admittedly",
+      "hint": "\"Admittedly, X. [But Y]\" = I acknowledge the objection"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct concessive conditional.",
+      "text": "\"___ the action produced good outcomes, using a person as a mere means would remain wrong.\"",
+      "correct": "Even if",
+      "hint": "\"Even if X were true, Y still holds\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct formal phrase.",
+      "text": "\"The objections have merit. ___ ___ ___ ___, the core insight of care ethics is sound.\"",
+      "opts": [
+        "Be that as it may",
+        "As a result",
+        "For this reason",
+        "In conclusion"
+      ],
+      "correct": "Be that as it may",
+      "hint": "\"Be that as it may\" = even if the objections are valid, the main point stands"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the degree concession.",
+      "text": "\"___ some extent, virtue ethics captures something the other frameworks miss. But it too has limitations.\"",
+      "correct": "To",
+      "hint": "\"To some extent\" = partially true but not completely"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the concessive connector that best shows sharp contrast.",
+      "text": "\"Consequentialism evaluates outcomes, ___ deontology evaluates the nature of the act itself.\"",
+      "opts": [
+        "although",
+        "even though",
+        "whereas",
+        "however"
+      ],
+      "correct": "whereas",
+      "hint": "\"Whereas\" = sharp contrast between two opposing things within one sentence"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with \"granted that.\"",
+      "text": "\"___ ___ consequences matter, it does not follow that consequences are all that matters.\"",
+      "correct": "Granted that",
+      "hint": "\"Granted that X\" = accepting X for the sake of argument before countering"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct structure.",
+      "text": "\"___ the argument has intuitive appeal, it is not supported by careful reasoning.\"",
+      "opts": [
+        "That said",
+        "While",
+        "Therefore",
+        "Moreover"
+      ],
+      "correct": "While",
+      "hint": "\"While X, Y\" = even though X is the case, Y is also the case"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the concessive conditional.",
+      "text": "\"___ how beneficial the consequences are, the means still matter morally.\"",
+      "correct": "No matter",
+      "hint": "\"No matter how + adjective\" = regardless of degree"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct structure for partial agreement.",
+      "text": "\"The argument is persuasive ___ ___ ___. It breaks down when taken to extremes.\"",
+      "opts": [
+        "in some ways",
+        "up to a point",
+        "to some extent",
+        "any of these are correct"
+      ],
+      "correct": "any of these are correct",
+      "hint": "All three express partial agreement: \"up to a point / to some extent / in some ways\""
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with \"it is true that... but...\"",
+      "text": "\"___ the theory has limitations. ___, these limitations do not invalidate its core claim.\"",
+      "correct": "It is true that / That said",
+      "hint": "\"It is true that X. That said/However, Y.\""
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Which sentence uses a concessive structure correctly?",
+      "text": "",
+      "opts": [
+        "\"Although it is a good argument, but it has weaknesses.\"",
+        "\"Even though the argument is strong, it faces objections.\"",
+        "\"However the argument is good.\"",
+        "\"Although, the argument is strong.\""
+      ],
+      "correct": "\"Even though the argument is strong, it faces objections.\"",
+      "hint": "\"Even though + clause, Y\" — correct; \"although... but\" = double conjunction error"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Rewrite using \"notwithstanding.\"",
+      "text": "\"Despite the objections, care ethics makes a valuable contribution.\" → ___ these objections, care ethics makes a valuable contribution.\"",
+      "correct": "Notwithstanding",
+      "hint": "\"Notwithstanding\" = formal equivalent of \"despite/in spite of\""
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which is the most formal concessive phrase?",
+      "text": "",
+      "opts": [
+        "but",
+        "however",
+        "that said",
+        "notwithstanding these considerations"
+      ],
+      "correct": "notwithstanding these considerations",
+      "hint": "\"Notwithstanding\" is the most formal; \"but\" is the most informal"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What error does this sentence contain?",
+      "text": "\"Although Kant's argument is powerful, but it can be inflexible.\"",
+      "opts": [
+        "No error",
+        "\"Although... but\" is incorrect — use one conjunction only",
+        "\"Powerful\" should be \"powerfully\"",
+        "\"Can be\" should be \"is\""
+      ],
+      "correct": "\"Although... but\" is incorrect — use one conjunction only",
+      "hint": "\"Although X, Y\" — do NOT add \"but\": \"Although X, Y\" OR \"X, but Y\" — not both"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ virtue ethics focuses on character, consequentialism focuses on outcomes.\" (sharp contrast)",
+      "opts": [
+        "Although",
+        "Even though",
+        "Whereas",
+        "However"
+      ],
+      "correct": "Whereas",
+      "hint": "\"Whereas\" = sharp contrast between two opposing things in one sentence",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The theory is intellectually elegant. ___, it faces serious practical objections.\" (concessive adverb)",
+      "correct": "Nevertheless / Nonetheless / However / Yet",
+      "hint": "Concessive adverb at the start of the second sentence",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the consequences would be beneficial, using a person as a mere means remains wrong.\"",
+      "opts": [
+        "Although",
+        "Even if",
+        "That said",
+        "Notwithstanding"
+      ],
+      "correct": "Even if",
+      "hint": "\"Even if + clause\" = concessive conditional — whether or not X is true, Y still holds",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___, the objections to care ethics do not undermine its central insight.\" (formal: even if that is true)",
+      "correct": "Be that as it may",
+      "hint": "\"Be that as it may\" = formal phrase: even if all that is true, the main point stands",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Consequentialism has genuine strengths. ___, its critics raise important objections.\"",
+      "opts": [
+        "Furthermore",
+        "Additionally",
+        "Nevertheless",
+        "Consequently"
+      ],
+      "correct": "Nevertheless",
+      "hint": "\"Nevertheless\" = despite the strengths, objections exist",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Although the argument is compelling, but it has weaknesses\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Although X, Y\" OR \"X, but Y\" — never \"although... but\" together",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ how compelling the evidence, philosophical questions about responsibility remain.\" (= regardless of degree)",
+      "correct": "No matter",
+      "hint": "\"No matter how + adjective\" = regardless of degree",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, consequences matter morally. But they are not the only consideration.\" (= I acknowledge this point)",
+      "opts": [
+        "Admittedly",
+        "However",
+        "Therefore",
+        "Although"
+      ],
+      "correct": "Admittedly",
+      "hint": "\"Admittedly\" = I acknowledge/concede this point",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The argument is persuasive ___ ___ ___ — it becomes problematic in extreme cases.\" (= true within limits)",
+      "correct": "up to a point",
+      "hint": "\"Up to a point\" = true within limits, not beyond them",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ these limitations, the ethics of care makes a genuinely important contribution.\" (formal — despite)",
+      "opts": [
+        "Although",
+        "Notwithstanding",
+        "However",
+        "Even if"
+      ],
+      "correct": "Notwithstanding",
+      "hint": "\"Notwithstanding + noun/noun phrase\" = formal equivalent of \"despite\"",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ consequences matter, it does not follow that they are all that matters.\" (= granting the point)",
+      "correct": "Granted that",
+      "hint": "\"Granted that X\" = accepting X for argument's sake, then countering",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which uses a concessive structure correctly in academic writing?",
+      "opts": [
+        "\"Although the argument is powerful, but it has limitations.\"",
+        "\"Even though X, Y holds.\"",
+        "\"Nevertheless, the argument, it has weaknesses.\"",
+        "\"That said, yet the argument.\""
+      ],
+      "correct": "\"Even though X, Y holds.\"",
+      "hint": "\"Even though + clause, result clause\" = correct concessive structure",
+      "points": 2
+    }
+  ]
+}

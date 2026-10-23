@@ -1,0 +1,218 @@
+{
+  "id": "l2-4",
+  "moduleNum": 2,
+  "lessonNum": 5,
+  "moduleTitle": "My family",
+  "title": "About my family",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I have a family of...",
+      "emoji": "👨‍👩‍👧‍👦",
+      "opts": [
+        "У нас есть...",
+        "Моя семья из...",
+        "Я люблю...",
+        "Мы живём..."
+      ],
+      "correct": "Моя семья из..."
+    },
+    {
+      "id": "p2",
+      "word": "She / He works as a...",
+      "emoji": "💼",
+      "opts": [
+        "Она / Он учится...",
+        "Она / Он работает...",
+        "Её / Его зовут...",
+        "Она / Он живёт..."
+      ],
+      "correct": "Она / Он работает..."
+    },
+    {
+      "id": "p3",
+      "word": "His / Her hobby is...",
+      "emoji": "🎨",
+      "opts": [
+        "Его / Её хобби...",
+        "Его / Её работа...",
+        "Его / Её семья...",
+        "Его / Её имя..."
+      ],
+      "correct": "Его / Её хобби..."
+    },
+    {
+      "id": "p4",
+      "word": "We have a tradition...",
+      "emoji": "🎎",
+      "opts": [
+        "У нас нет...",
+        "У нас есть традиция...",
+        "Мы любим...",
+        "Мы живём..."
+      ],
+      "correct": "У нас есть традиция..."
+    },
+    {
+      "id": "p5",
+      "word": "I am proud of...",
+      "emoji": "🦁",
+      "opts": [
+        "Я скучаю по...",
+        "Я рад(а)...",
+        "Я горжусь...",
+        "Я думаю о..."
+      ],
+      "correct": "Я горжусь..."
+    },
+    {
+      "id": "p6",
+      "word": "I miss my family.",
+      "emoji": "💭",
+      "opts": [
+        "Я нахожу семью.",
+        "Я скучаю по семье.",
+        "Я иду домой.",
+        "Я звоню домой."
+      ],
+      "correct": "Я скучаю по семье."
+    }
+  ],
+  "writingModel": [
+    "My family has five people: my mother, my father, my brother, my sister, and me. We are a warm and close family. I love my family very much, and I miss them every day here in Uralsk.",
+    "My mother's name is Ainur. She is 44 years old and she works as a doctor at the city hospital. She is kind, caring, and very hardworking. Her hobby is cooking traditional Kazakh food. Her beshbarmak is the best in the world!",
+    "My father's name is Marat. He is 47 years old and he works as an engineer at an oil company. He is tall, intelligent, and very funny. His hobby is fishing — he goes to the river every weekend in summer. My father is my hero.",
+    "I have one older brother. His name is Arman and he is 22 years old. He studies at Nazarbayev University in Astana. Arman is very smart and hardworking. He is my role model. I also have one younger sister. Her name is Dana and she is 14. Her hobby is drawing and painting. Her pictures are beautiful!",
+    "Our family tradition is Friday dinner. Every Friday evening, we eat together and talk about our week. I am very proud of my family. They are my motivation and my strength. I study hard for them!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "size",
+      "prefix": "My family has ",
+      "suffix": " people.",
+      "placeholder": "number of people",
+      "hint": "e.g. four / five / six"
+    },
+    {
+      "key": "momname",
+      "prefix": "My mother's name is ",
+      "suffix": ".",
+      "placeholder": "your mother's name",
+      "hint": "e.g. Fatima"
+    },
+    {
+      "key": "momage",
+      "prefix": "She is ",
+      "suffix": " years old.",
+      "placeholder": "her age",
+      "hint": "e.g. 42"
+    },
+    {
+      "key": "momjob",
+      "prefix": "She works as a ",
+      "suffix": ".",
+      "placeholder": "her job",
+      "hint": "e.g. teacher / doctor / engineer"
+    },
+    {
+      "key": "dadname",
+      "prefix": "My father's name is ",
+      "suffix": ".",
+      "placeholder": "your father's name",
+      "hint": "e.g. Almaz"
+    },
+    {
+      "key": "dadhobby",
+      "prefix": "His hobby is ",
+      "suffix": ".",
+      "placeholder": "his hobby",
+      "hint": "e.g. football / cooking / fishing"
+    },
+    {
+      "key": "siblings",
+      "prefix": "I have ",
+      "suffix": ".",
+      "placeholder": "brothers / sisters",
+      "hint": "e.g. one brother and two sisters"
+    },
+    {
+      "key": "tradition",
+      "prefix": "Our family tradition is ",
+      "suffix": ".",
+      "placeholder": "your tradition",
+      "hint": "e.g. Sunday lunch together"
+    },
+    {
+      "key": "proud",
+      "prefix": "I am proud of my ",
+      "suffix": " because they are my motivation.",
+      "placeholder": "family / mother / father",
+      "hint": "e.g. family / mother"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Family members",
+      "color": "#003876",
+      "items": [
+        "My mother's name is...",
+        "My father's name is...",
+        "I have a brother / sister.",
+        "His / Her name is...",
+        "My grandparents live in..."
+      ]
+    },
+    {
+      "category": "Describing people",
+      "color": "#1B8FC4",
+      "items": [
+        "She / He is kind and caring.",
+        "She / He is hardworking.",
+        "She / He is tall / funny / smart.",
+        "She / He is my role model.",
+        "She / He is very creative."
+      ]
+    },
+    {
+      "category": "Jobs & hobbies",
+      "color": "#7C3AED",
+      "items": [
+        "She works as a doctor / teacher.",
+        "He works as an engineer.",
+        "Her hobby is cooking / painting.",
+        "His hobby is football / fishing.",
+        "She loves drawing and art."
+      ]
+    },
+    {
+      "category": "Feelings & traditions",
+      "color": "#1D9E75",
+      "items": [
+        "I love my family very much.",
+        "I miss them every day.",
+        "I am proud of my family.",
+        "Our tradition is...",
+        "They are my motivation and strength."
+      ]
+    }
+  ]
+}

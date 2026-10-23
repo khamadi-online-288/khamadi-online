@@ -1,0 +1,518 @@
+{
+  "id": "l73-g2",
+  "moduleNum": 15,
+  "lessonNum": 6,
+  "moduleTitle": "Work, Careers & Ambition",
+  "title": "Grammar: Advanced Reporting Verbs in Professional and Academic Writing",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Глаголы сообщения в академическом и деловом письме:\n\nДля цитирования источников:\nargues/maintains/claims → спорное утверждение\nstates/asserts/emphasises → прямое утверждение\nsuggests/implies/indicates → косвенное значение\nconcludes/finds/demonstrates → вывод из исследования\n\nДля описания чужих действий:\nacknowledges · highlights · notes · points out · observes · proposes\n\n💡 Выбор глагола меняет тон:\n\"Smith CLAIMS...\" (я не обязательно согласен)\n\"Smith DEMONSTRATES...\" (доказал убедительно)\n\"Smith ARGUES...\" (его позиция, открытая для дискуссии)\n\nПроверь: какой глагол лучше всего описывает отношение автора к информации?",
+  "grammarTable": [
+    {
+      "subject": "Neutral reporting",
+      "verb": "said, told, stated, noted, observed",
+      "short": "reporting without evaluation",
+      "example": "\"The report stated that recruitment costs had increased by 15%.\""
+    },
+    {
+      "subject": "Strong assertion",
+      "verb": "argued, maintained, insisted, contended, asserted",
+      "short": "reporting a strong position",
+      "example": "\"She argued that the hiring process was fundamentally flawed.\""
+    },
+    {
+      "subject": "Acknowledging/conceding",
+      "verb": "acknowledged, admitted, conceded, recognised",
+      "short": "admitting something, often reluctantly",
+      "example": "\"The manager acknowledged that the team was understaffed.\""
+    },
+    {
+      "subject": "Questioning/challenging",
+      "verb": "questioned, challenged, disputed, rejected",
+      "short": "reporting disagreement",
+      "example": "\"The union disputed the company's claims about working conditions.\""
+    },
+    {
+      "subject": "Recommending/proposing",
+      "verb": "proposed, recommended, suggested, urged",
+      "short": "reporting advice or plans",
+      "example": "\"The consultant proposed restructuring the department.\""
+    },
+    {
+      "subject": "Showing hesitation",
+      "verb": "hesitated, seemed reluctant to, was unwilling to",
+      "short": "reporting indirect refusal or uncertainty",
+      "example": "\"She seemed reluctant to commit to a specific timeline.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Choosing the Right Reporting Verb: Precision Matters",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "\"said\" vs \"argued\": argue implies a reasoned case, not just speech",
+          "example": "\"He said the policy was unfair.\" vs \"He argued that the policy violated workers' rights.\""
+        },
+        {
+          "form": "\"admitted\" vs \"acknowledged\": admit = reluctantly; acknowledge = more neutral",
+          "example": "\"He admitted making errors.\" (reluctant) vs \"She acknowledged the complexity of the issue.\""
+        },
+        {
+          "form": "\"claimed\" vs \"stated\": claim implies the statement may be doubtful",
+          "example": "\"She claimed to have ten years' experience.\" (may not be true) vs \"She stated her experience clearly.\""
+        },
+        {
+          "form": "\"proposed\" vs \"suggested\": propose = formal plan; suggest = informal idea",
+          "example": "\"The board proposed a merger.\" vs \"A colleague suggested working more flexibly.\""
+        }
+      ]
+    },
+    {
+      "title": "Tense Changes in Reported Speech with Reporting Verbs",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Direct: \"I will resign.\" → Reported: She threatened to resign.",
+          "example": "\"The employee threatened to resign if conditions did not improve.\""
+        },
+        {
+          "form": "Direct: \"I took the file.\" → Reported: He admitted taking the file.",
+          "example": "\"He admitted taking the confidential file from the office.\""
+        },
+        {
+          "form": "Direct: \"Please update your profile.\" → Reported: She reminded him to update his profile.",
+          "example": "\"She reminded him to update his professional profile before the networking event.\""
+        },
+        {
+          "form": "That-clause: tense backshift applies",
+          "example": "\"He said the interview had gone well.\" (was → had been)"
+        }
+      ]
+    },
+    {
+      "title": "Academic and Professional Vocabulary for Reporting",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "emphasise, highlight, underline",
+          "example": "\"The report emphasised the need for better training.\" (draw attention to)"
+        },
+        {
+          "form": "contradict, dispute, question",
+          "example": "\"The data contradicted the manager's claims.\" (show to be wrong)"
+        },
+        {
+          "form": "conclude, determine, find",
+          "example": "\"The study concluded that flexible working improved productivity.\""
+        },
+        {
+          "form": "urge, call for, press for",
+          "example": "\"The union urged the company to improve safety standards.\""
+        }
+      ]
+    },
+    {
+      "title": "Passives with Reporting Verbs (Formal Writing)",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "It is argued that + clause",
+          "example": "\"It is argued that remote work increases productivity for knowledge workers.\""
+        },
+        {
+          "form": "It has been suggested that + clause",
+          "example": "\"It has been suggested that the recruitment process should be reformed.\""
+        },
+        {
+          "form": "It is widely believed / accepted that",
+          "example": "\"It is widely accepted that job satisfaction depends on more than salary.\""
+        },
+        {
+          "form": "The author / report / study + verb + that",
+          "example": "\"The study found that autonomy was the strongest predictor of engagement.\""
+        }
+      ]
+    },
+    {
+      "title": "Stance and Attitude in Professional Communication",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Verbs that signal agreement",
+          "example": "agree, concur, confirm, accept, acknowledge"
+        },
+        {
+          "form": "Verbs that signal disagreement",
+          "example": "dispute, deny, reject, challenge, contradict, question"
+        },
+        {
+          "form": "Verbs that signal uncertainty",
+          "example": "wonder, speculate, question, be uncertain whether"
+        },
+        {
+          "form": "Verbs that signal obligation",
+          "example": "urge, insist on, require, expect, demand"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the most precise reporting verb.",
+      "text": "\"The research ___ that flexible working leads to higher employee retention.\" (found through study)",
+      "opts": [
+        "said",
+        "found",
+        "claimed",
+        "mentioned"
+      ],
+      "correct": "found",
+      "hint": "\"Found\" is used when research/study produces a result"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Which reporting verb implies the statement may be untrue?",
+      "text": "\"She ___ to have five years of relevant experience.\"",
+      "opts": [
+        "stated",
+        "said",
+        "claimed",
+        "noted"
+      ],
+      "correct": "claimed",
+      "hint": "\"Claimed\" implies the speaker may be doubtful"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct formal passive reporting structure.",
+      "text": "\"___ widely ___ that job satisfaction depends on autonomy and purpose.\" (it is accepted)",
+      "correct": "It is / accepted",
+      "hint": "\"It is widely accepted that\" = formal passive reporting"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the verb that shows a strong, reasoned position.",
+      "text": "\"He ___ that the current recruitment process was discriminatory.\"",
+      "opts": [
+        "said",
+        "noted",
+        "argued",
+        "told"
+      ],
+      "correct": "argued",
+      "hint": "\"Argued\" = making a reasoned case, stronger than \"said\""
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"She ___ (acknowledge) that the team was understaffed and promised to address the issue.\"",
+      "correct": "acknowledged",
+      "hint": "\"Acknowledge\" = admit more neutrally, often of a problem"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the verb that signals disagreement.",
+      "text": "\"The union ___ the company's claims that wages had increased fairly.\"",
+      "opts": [
+        "agreed",
+        "confirmed",
+        "disputed",
+        "suggested"
+      ],
+      "correct": "disputed",
+      "hint": "\"Disputed\" = challenged, questioned the truth of"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with a formal passive reporting phrase.",
+      "text": "\"___ been ___ that remote work should be made a legal right for eligible workers.\" (suggestion)",
+      "correct": "It has / suggested",
+      "hint": "\"It has been suggested that\" = formal passive reporting"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the most appropriate verb.",
+      "text": "\"The CEO ___ the team to find a solution before the board meeting.\" (strong encouragement, almost demand)",
+      "opts": [
+        "suggested",
+        "recommended",
+        "urged",
+        "told"
+      ],
+      "correct": "urged",
+      "hint": "\"Urge\" = press strongly, more forceful than \"suggest\" or \"recommend\""
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct reporting verb + pattern.",
+      "text": "\"She ___ (maintain) that the decision had been made without proper consultation.\"",
+      "correct": "maintained",
+      "hint": "\"Maintain\" = firmly hold to a position (strong assertion verb)"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which phrase is most appropriate for formal academic reporting?",
+      "text": "\"The study found that flexible working increased productivity.\"",
+      "opts": [
+        "The study was like productivity increased.",
+        "The study told that productivity increased.",
+        "The study concluded that flexible working improved productivity.",
+        "The study said how productivity increased."
+      ],
+      "correct": "The study concluded that flexible working improved productivity.",
+      "hint": "\"Concluded\" = formal verb for reporting research outcomes"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Replace \"said\" with a more precise verb.",
+      "text": "\"The lawyer ___ (deny formally) that her client had any knowledge of the fraud.\"",
+      "correct": "denied",
+      "hint": "\"Deny + gerund or that-clause\" — formal rejection of an accusation"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct passive reporting structure.",
+      "text": "",
+      "opts": [
+        "It argued that the system was flawed.",
+        "It is argued that the system is flawed.",
+        "It argued the system was flawed.",
+        "It has been argued the system was flawed."
+      ],
+      "correct": "It is argued that the system is flawed.",
+      "hint": "\"It is argued that\" = formal passive reporting of a position"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete with the best reporting verb.",
+      "text": "\"The consultant ___ restructuring the team to improve efficiency.\" (put forward a formal plan)",
+      "correct": "proposed",
+      "hint": "\"Propose\" = put forward a formal plan (more specific than \"suggest\")"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Which pair correctly contrasts two reporting verbs?",
+      "text": "",
+      "opts": [
+        "\"admitted\" and \"acknowledged\" mean the same",
+        "\"claimed\" and \"stated\" both imply certainty",
+        "\"argued\" is stronger than \"mentioned\"",
+        "\"urged\" is weaker than \"suggested\""
+      ],
+      "correct": "\"argued\" is stronger than \"mentioned\"",
+      "hint": "\"Argued\" = making a case; \"mentioned\" = simply referred to"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with the correct form for formal reporting.",
+      "text": "\"___ ___ that the new performance management system has improved employee satisfaction.\" (researchers found)",
+      "correct": "Research / suggests / has found (any formal reporting phrase)",
+      "hint": "\"Research suggests / has found that\" — common academic pattern"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is the most formal and precise report of this statement?",
+      "text": "\"'You must improve or leave,' he said to the employee.\"",
+      "opts": [
+        "He told the employee to improve or leave.",
+        "He said the employee should improve.",
+        "He warned the employee to leave.",
+        "He mentioned improving to the employee."
+      ],
+      "correct": "He told the employee to improve or leave.",
+      "hint": "\"Tell + object + to-infinitive\" is the most accurate report"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The study ___ that autonomous workers report higher job satisfaction.\" (research result)",
+      "opts": [
+        "said",
+        "told",
+        "found",
+        "claimed"
+      ],
+      "correct": "found",
+      "hint": "\"Found\" = formal verb for research results",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ widely ___ that passion tends to follow mastery, not precede it.\" (formal passive)",
+      "correct": "It is / believed",
+      "hint": "\"It is widely believed that\" — formal passive reporting",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She ___ that the company's recruitment process was biased.\" (making a strong, reasoned case)",
+      "opts": [
+        "said",
+        "told",
+        "argued",
+        "noted"
+      ],
+      "correct": "argued",
+      "hint": "\"Argued\" = making a strong, reasoned assertion",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The HR director ___ that the pay gap was smaller than reported.\" (questioning the truth of a claim)",
+      "opts": [
+        "confirmed",
+        "disputed",
+        "argued",
+        "acknowledged"
+      ],
+      "correct": "disputed",
+      "hint": "\"Disputed\" = challenged, disagreed with the truth of",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The union leader ___ management to address the health and safety concerns immediately.\" (pressed strongly)",
+      "correct": "urged",
+      "hint": "\"Urged\" = pressed strongly, almost demanded",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Claimed\" implies the statement is definitely true, unlike \"stated.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Claimed\" implies the statement may be doubtful or unverified",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The manager ___ that staff turnover had increased sharply — reluctantly accepting the evidence.\" (admit neutrally)",
+      "correct": "acknowledged",
+      "hint": "\"Acknowledged\" = admit more neutrally, without strong reluctance",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ been proposed that all employees should receive career coaching as part of onboarding.\"",
+      "opts": [
+        "It was",
+        "It has",
+        "There has",
+        "It is"
+      ],
+      "correct": "It has",
+      "hint": "\"It has been proposed that\" — formal passive, present perfect",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She ___ (maintain) throughout the interview that her qualifications exceeded the requirements.\"",
+      "correct": "maintained",
+      "hint": "\"Maintain\" = firmly hold to a position throughout",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is most appropriate in a formal report?",
+      "opts": [
+        "The manager said workers needed more training.",
+        "The manager went on about workers needing training.",
+        "The manager highlighted that workers required additional training.",
+        "The manager was talking about training workers."
+      ],
+      "correct": "The manager highlighted that workers required additional training.",
+      "hint": "\"Highlighted\" = formal, precise reporting verb",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ concluded that purpose, relationships, and autonomy are the strongest drivers of job satisfaction.\" (formal academic — use passive)",
+      "correct": "It has been / Research has",
+      "hint": "\"It has been concluded that\" OR \"Research has concluded that\"",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence signals that the person making the claim did so reluctantly?",
+      "opts": [
+        "She argued that the system was unfair.",
+        "She denied that any errors had been made.",
+        "She acknowledged that the project was behind schedule.",
+        "She suggested rescheduling the meeting."
+      ],
+      "correct": "She acknowledged that the project was behind schedule.",
+      "hint": "\"Acknowledged\" often implies admitting something somewhat unwilling",
+      "points": 2
+    }
+  ]
+}

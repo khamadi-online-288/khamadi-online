@@ -1,0 +1,500 @@
+{
+  "id": "l37-3",
+  "moduleNum": 3,
+  "lessonNum": 3,
+  "moduleTitle": "Stories & Memories",
+  "type": "listening",
+  "title": "What Were You Doing When…?",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "I have a question for everyone. Where were you and what were you doing when WKU announced the exam postponement last November?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I was sitting at my desk trying to finish my essay. I was typing the conclusion when I got the notification. I literally jumped up.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I was sleeping. I found out in the morning when Rustam sent me a voice message at seven a.m. I couldn't believe it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I was practising football in the corridor — yes, in the corridor — when Amir's message arrived. I dropped the ball completely.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Ha! I was having a shower. My phone was buzzing on the shelf. When I finally checked it, I had fourteen messages.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Fourteen? That's nothing. I was getting sixty messages per minute in the group chat.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What was everyone saying in the chat?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Half the group was celebrating. The other half was panicking because they had already studied everything and didn't want to wait.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That's so true. I was feeling relieved and guilty at the same time. I hadn't prepared enough for that exam.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I was feeling pure joy. I wasn't ready at all. I was planning to stay up all night.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "The best reaction was Rustam sending three laughing emojis while someone was crying in the chat.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I maintain that it was the correct response. Sometimes laughing is the only thing you can do.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Anyway — do you remember that night in the hallway? That's a memory I will never forget. Everyone sitting on the floor with tea.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I was telling stories about blackouts back home. And Rustam was scaring everyone with ghost stories.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I was not scaring anyone. I was simply... sharing cultural narratives.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "You made Zhibek hide behind a pillow. That counts as scaring.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "postponement",
+      "emoji": "📅",
+      "opts": [
+        "отмена",
+        "перенос / отсрочка",
+        "досрочная сдача",
+        "объявление результатов"
+      ],
+      "correct": "перенос / отсрочка"
+    },
+    {
+      "id": "p2",
+      "word": "notification",
+      "emoji": "🔔",
+      "opts": [
+        "задание",
+        "звонок",
+        "уведомление",
+        "расписание"
+      ],
+      "correct": "уведомление"
+    },
+    {
+      "id": "p3",
+      "word": "relieved",
+      "emoji": "😌",
+      "opts": [
+        "расстроенный",
+        "облегчённый",
+        "взволнованный",
+        "уставший"
+      ],
+      "correct": "облегчённый"
+    },
+    {
+      "id": "p4",
+      "word": "literally",
+      "emoji": "💯",
+      "opts": [
+        "иногда",
+        "в переносном смысле",
+        "буквально / реально",
+        "почти"
+      ],
+      "correct": "буквально / реально"
+    },
+    {
+      "id": "p5",
+      "word": "narrative",
+      "emoji": "📖",
+      "opts": [
+        "задание",
+        "рассказ / повествование",
+        "учебник",
+        "оценка"
+      ],
+      "correct": "рассказ / повествование"
+    },
+    {
+      "id": "p6",
+      "word": "maintain",
+      "emoji": "🔒",
+      "opts": [
+        "изменять",
+        "признавать",
+        "придерживаться мнения",
+        "сомневаться"
+      ],
+      "correct": "придерживаться мнения"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir was finishing an essay when the postponement was announced.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila found out about the postponement immediately by notification.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Rustam was playing football outside when the message arrived.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek had fourteen messages when she checked her phone.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Zhibek felt only relief when she heard the news.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Amir was planning to stay up all night before the postponement.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Was writing his essay when he got the notification"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "😴",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Was sleeping — found out the next morning"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "⚽",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Was practising football in the corridor"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🚿",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Was having a shower when the messages arrived"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Was typing the conclusion of an essay when the notification arrived.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "Was sleeping and found out from a voice message in the morning.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Was practising football in the corridor and dropped the ball.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Was having a shower and had fourteen messages when she checked.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s5",
+      "text": "Was feeling pure joy — hadn't prepared and was going to stay up all night.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Was telling everyone ghost stories in the hallway that night.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Amir doing when the postponement notification arrived?",
+      "opts": [
+        "Sleeping",
+        "Studying in the library",
+        "Typing the conclusion of his essay",
+        "Playing football"
+      ],
+      "correct": "Typing the conclusion of his essay",
+      "hint": "\"I was typing the conclusion when I got the notification.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam was practising football in the ___ when the message arrived.",
+      "correct": "corridor",
+      "hint": "\"I was practising football in the corridor.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Zhibek feel when she heard about the postponement?",
+      "opts": [
+        "Only happy",
+        "Only stressed",
+        "Both relieved and guilty",
+        "Angry and confused"
+      ],
+      "correct": "Both relieved and guilty",
+      "hint": "\"I was feeling relieved and guilty at the same time. I hadn't prepared enough.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir was completely prepared for the exam.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I wasn't ready at all. I was planning to stay up all night.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Rustam's reaction in the group chat?",
+      "opts": [
+        "He was panicking",
+        "He sent three laughing emojis",
+        "He congratulated everyone",
+        "He called Kamila"
+      ],
+      "correct": "He sent three laughing emojis",
+      "hint": "\"The best reaction was Rustam sending three laughing emojis.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek was hiding behind a pillow during Rustam's ghost stories.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"You made Zhibek hide behind a pillow. That counts as scaring.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Kamila find out about the postponement?",
+      "opts": [
+        "A notification on her phone",
+        "Rustam's voice message in the morning",
+        "She was awake all night",
+        "Zhibek called her"
+      ],
+      "correct": "Rustam's voice message in the morning",
+      "hint": "\"I found out in the morning when Rustam sent me a voice message at seven a.m.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the group chat, how did students react to the postponement?",
+      "opts": [
+        "Everyone was happy",
+        "Everyone was upset",
+        "Half celebrated, half panicked",
+        "Nobody reacted"
+      ],
+      "correct": "Half celebrated, half panicked",
+      "hint": "\"Half the group was celebrating. The other half was panicking.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ the conclusion when I got the notification.\" Choose the correct form.",
+      "opts": [
+        "typed",
+        "was typing",
+        "am typing",
+        "type"
+      ],
+      "correct": "was typing",
+      "hint": "Longer background action = Past Continuous: \"was typing\". Shorter interrupting event = PS: \"got the notification\"."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What ___ you ___ when the power went out?\" Complete the question.",
+      "correct": "were / doing",
+      "hint": "\"What were you doing when...?\" — Past Continuous question: were + subject + verb-ing."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ a shower when the phone buzzed.\" Choose the correct form.",
+      "opts": [
+        "had",
+        "has had",
+        "was having",
+        "is having"
+      ],
+      "correct": "was having",
+      "hint": "Background action in progress = Past Continuous: \"was having a shower.\" Phone buzzing = shorter Past Simple event."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Half the group was celebrating when the other half was panicking.\" This describes two simultaneous past actions.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Two Past Continuous actions happening at the same time = both use \"was/were + -ing\". Often connected with \"while\"."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He dropped the ball when the message ___.\" Choose the correct form.",
+      "opts": [
+        "was arriving",
+        "arrived",
+        "is arriving",
+        "arrives"
+      ],
+      "correct": "arrived",
+      "hint": "The message arriving = short, sudden event = Past Simple. He was practising = background = Past Continuous."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"While Kamila ___ (sleep), Amir ___ (finish) his essay.\"",
+      "correct": "was sleeping / was finishing",
+      "hint": "\"While\" + Past Continuous + Past Continuous = two simultaneous background actions."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which question correctly asks about a past action in progress?",
+      "opts": [
+        "What did you do?",
+        "What were you doing?",
+        "What do you do?",
+        "What are you doing?"
+      ],
+      "correct": "What were you doing?",
+      "hint": "\"What were you doing?\" = Past Continuous question. Asks about an ongoing action at a past moment."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was planning to stay up all night.\" This Past Continuous describes:",
+      "opts": [
+        "A completed action",
+        "An interrupted action",
+        "An intended action that may not have happened",
+        "A regular habit"
+      ],
+      "correct": "An intended action that may not have happened",
+      "hint": "\"was planning to\" = future intention in the past — at that time, that was the plan. The postponement changed it!"
+    }
+  ]
+}

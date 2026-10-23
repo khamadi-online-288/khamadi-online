@@ -1,0 +1,265 @@
+{
+  "id": "l6-4",
+  "moduleNum": 6,
+  "lessonNum": 4,
+  "moduleTitle": "My hobbies",
+  "title": "Present Simple: he / she",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Simple: He / She / It — рассказываем о других",
+  "grammarNote": "В Модуле 4 мы научились говорить о СВОИХ привычках:\n\"I study every day.\" · \"I play guitar in the evenings.\" · \"We go to the library after lunch.\"\n\nТеперь мы учимся рассказывать о ДРУГИХ людях — о том, что делают наши друзья, одногруппники, кумиры. Посмотри, как это звучит в нашем модуле:\n\n\"Samal takes photos every day.\" → не «take» — «takes»!\n\"Bekzat trains after every class.\" → не «train» — «trains»!\n\"Ainur reads in five languages.\" → не «read» — «reads»!\n\"Zarina cooks beshbarmak on Sundays.\" → не «cook» — «cooks»!\n\"Aibek plays guitar every evening.\" → не «play» — «plays»!\n\n⚠️ ГЛАВНОЕ ПРАВИЛО:\nКогда подлежащее — He / She / It (или любое имя: Samal, Bekzat, Zarina) → глагол получает окончание -s / -es / -ies.\n\nЭто правило простое, но критически важное. Без -s твой английский звучит незаконченно. С -s — ты звучишь как уверенный носитель!\n\n💡 Как запомнить? Думай так:\n\"He/She/It\" → всегда добавляю что-то к глаголу.\n\"I/You/We/They\" → глагол остаётся чистым, без изменений.",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "base form",
+      "short": "без окончания",
+      "example": "I play chess. · You cook well. · We read books. · They train every day."
+    },
+    {
+      "subject": "He / She / It + имя",
+      "verb": "+s / +es / +ies",
+      "short": "⚠️ ОБЯЗАТЕЛЬНО",
+      "example": "He plays chess. · She cooks well. · Ainur reads. · Bekzat trains."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Правила написания окончания для He / She / It",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Большинство глаголов → +s",
+          "example": "play → plays · read → reads · take → takes · train → trains · run → runs"
+        },
+        {
+          "form": "Глагол на -s/-sh/-ch/-x/-o → +es",
+          "example": "watch → watches · go → goes · do → does · finish → finishes · teach → teaches"
+        },
+        {
+          "form": "Глагол на -y (после согл.) → -ies",
+          "example": "study → studies · carry → carries · try → tries · fly → flies · copy → copies"
+        },
+        {
+          "form": "Глагол на -y (после гласн.) → +s",
+          "example": "play → plays · enjoy → enjoys · say → says · stay → stays · buy → buys"
+        },
+        {
+          "form": "⚠️ Исключение: have → has",
+          "example": "I have a camera. → She has a camera. (НЕ «haves»!)"
+        },
+        {
+          "form": "⚠️ Исключение: be → is",
+          "example": "I am a student. → She is a student. / He is passionate about chess."
+        }
+      ]
+    },
+    {
+      "title": "Negative — She doesn't / He doesn't",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "He / She / It → doesn't + base form",
+          "example": "Zarina doesn't use a recipe. · Bekzat doesn't skip training."
+        },
+        {
+          "form": "⚠️ После doesn't → BASE FORM (без -s!)",
+          "example": "✅ She doesn't cook. ❌ She doesn't cooks. (нет двух окончаний!)"
+        },
+        {
+          "form": "doesn't = does not (полная форма)",
+          "example": "\"Timur does not play basketball every day.\" = \"Timur doesn't play...\""
+        },
+        {
+          "form": "Сравни с I/You/We/They → don't",
+          "example": "I don't play. · He doesn't play. · They don't play. · She doesn't play."
+        },
+        {
+          "form": "Типичная ошибка — не путай!",
+          "example": "❌ She don't cook → ✅ She doesn't cook. (He/She/It → DOESN'T!)"
+        }
+      ]
+    },
+    {
+      "title": "Questions — Does he...? / Does she...?",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Does + He/She/It + base verb?",
+          "example": "\"Does Samal take photos every day?\" — \"Yes, she does. / No, she doesn't.\""
+        },
+        {
+          "form": "⚠️ После Does → BASE FORM (без -s!)",
+          "example": "✅ Does she play? ❌ Does she plays? (нет двух окончаний в вопросе)"
+        },
+        {
+          "form": "Краткие ответы: Yes/No + does/doesn't",
+          "example": "\"Does Bekzat train daily?\" — \"Yes, he does.\" / \"No, he doesn't.\""
+        },
+        {
+          "form": "WH + does + he/she + verb?",
+          "example": "\"What does Aibek do in his free time?\" → \"He plays guitar.\""
+        },
+        {
+          "form": "\"How often does she...?\"",
+          "example": "\"How often does Ainur visit the library?\" → \"Three times a week.\""
+        },
+        {
+          "form": "\"Where does he...? / When does she...?\"",
+          "example": "\"Where does Timur play basketball?\" → \"On the WKU court.\""
+        }
+      ]
+    },
+    {
+      "title": "Useful verbs for describing hobbies — He / She + ...",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "loves / enjoys / likes + verb-ing",
+          "example": "She loves cooking. · He enjoys playing chess. · She likes hiking."
+        },
+        {
+          "form": "spends time + verb-ing",
+          "example": "He spends time coding every morning. · She spends hours photographing."
+        },
+        {
+          "form": "is passionate about / is obsessed with",
+          "example": "He is passionate about football. · She is obsessed with photography."
+        },
+        {
+          "form": "is interested in / is good at",
+          "example": "She is interested in languages. · He is good at strategy games."
+        },
+        {
+          "form": "prefers... to... / hates...",
+          "example": "She prefers cooking to eating out. · He hates missing training."
+        },
+        {
+          "form": "goes + verb-ing (outdoor activities)",
+          "example": "She goes hiking on Sundays. · He goes swimming twice a week."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Шпаргалка Present Simple He/She — три правила:\n\n① Утверждение: He/She/It + verb-s\n   \"Samal takes photos.\" · \"Bekzat trains every day.\" · \"Ainur reads five languages.\"\n\n② Отрицание: He/She/It + doesn't + verb (без -s!)\n   \"He doesn't cook.\" · \"She doesn't skip class.\" · \"It doesn't matter.\"\n\n③ Вопрос: Does + He/She/It + verb (без -s!)\n   \"Does she photograph landscapes?\" · \"Does he train on weekends?\"\n\n💡 Секретный лайфхак:\nВ предложении с He/She — окончание -s стоит только ОДИН раз:\n→ Либо на глаголе (утверждение): She cook-S\n→ Либо на does/doesn't: DOES-n't she cook / DOES she cook\nНикогда: \"Does she cooks?\" или \"She doesn't cooks!\" ❌",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Samal ___ photos of the WKU campus every day.",
+      "opts": [
+        "take",
+        "takes",
+        "is take",
+        "taking"
+      ],
+      "correct": "takes",
+      "hint": "Samal = She → She takes. He/She/It + verb+s."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct form of the verb.",
+      "text": "Ainur ___ (read) books in five different languages.",
+      "correct": "reads",
+      "hint": "Ainur = She → reads. (read → reads, just +s)"
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Zarina cook beshbarmak every Sunday\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zarina = She → \"Zarina cookS beshbarmak every Sunday.\" Don't forget the -s!"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Bekzat ___ training — he goes every single day.",
+      "opts": [
+        "don't skip",
+        "doesn't skips",
+        "doesn't skip",
+        "not skips"
+      ],
+      "correct": "doesn't skip",
+      "hint": "Bekzat = He → doesn't + base form. Never \"doesn't skips\"!"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the missing question word.",
+      "text": "___ Timur play basketball three times a week? — Yes, he does.",
+      "correct": "Does",
+      "hint": "He → Does. \"Does Timur play...?\" (base form after Does)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct WH-question.",
+      "text": "\"___ Aibek do in his free time?\" — \"He plays guitar every evening.\"",
+      "opts": [
+        "What do",
+        "What does",
+        "What is",
+        "How does"
+      ],
+      "correct": "What does",
+      "hint": "Aibek = He → \"What does he do?\" (does + base form)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which sentence is 100% correct?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "She enjoy cooking Kazakh food.",
+        "He goes hiking on Sundays.",
+        "Ainur study every evening.",
+        "Zarina don't use a recipe."
+      ],
+      "correct": "He goes hiking on Sundays.",
+      "hint": "\"goes hiking\" ✅ — go → goes (He/She/It). Others miss the -s or use don't instead of doesn't."
+    },
+    {
+      "id": "e8",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Does she goes hiking every Sunday?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Does → base form! \"Does she GO hiking?\" — never \"goes\" in a Does-question."
+    }
+  ],
+  "questions": []
+}

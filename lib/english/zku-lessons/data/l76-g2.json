@@ -1,0 +1,524 @@
+{
+  "id": "l76-g2",
+  "moduleNum": 18,
+  "lessonNum": 6,
+  "moduleTitle": "Media, News & Propaganda",
+  "title": "Grammar: If/Whether Clauses, Embedded Questions, and Noun Clause Patterns",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Косвенные вопросы (Indirect / Embedded questions) — вопрос внутри предложения:\n\nПрямой вопрос → Косвенный (порядок слов меняется!):\n\"Where is she?\" → \"Do you know WHERE SHE IS?\" (не \"where is she\")\n\"What time does it start?\" → \"Could you tell me WHAT TIME IT STARTS?\"\n\"Is he coming?\" → \"I wonder WHETHER/IF HE IS COMING.\"\n\n⚠️ Главное правило: в косвенном вопросе порядок слов как в утверждении!\n❌ \"Can you tell me where IS the library?\"\n✅ \"Can you tell me where THE LIBRARY IS?\"\n\nВежливые формулы:\n\"Could you tell me...?\" · \"Do you know...?\" · \"I wonder...\"\n\"I'd like to know...\" · \"Would you mind telling me...?\"",
+  "grammarTable": [
+    {
+      "subject": "whether / if clause",
+      "verb": "verb + whether/if + S + V",
+      "short": "embedded yes/no question",
+      "example": "\"I wonder whether the story is accurate.\" / \"She asked if the site was reliable.\""
+    },
+    {
+      "subject": "wh-word + embedded Q",
+      "verb": "verb + wh-word + S + V (no inversion)",
+      "short": "embedded wh-question",
+      "example": "\"Tell me what you found.\" / \"Do you know who wrote this article?\""
+    },
+    {
+      "subject": "Question of whether",
+      "verb": "the question of whether + S + V",
+      "short": "the issue of yes/no",
+      "example": "\"The question of whether AI should generate news is unresolved.\""
+    },
+    {
+      "subject": "Whether to + infinitive",
+      "verb": "whether to + infinitive (no subject)",
+      "short": "choice between actions",
+      "example": "\"She couldn't decide whether to share the article or wait for verification.\""
+    },
+    {
+      "subject": "noun + wh-clause",
+      "verb": "question/issue/matter/problem + of + wh-word",
+      "short": "noun + embedded question",
+      "example": "\"The issue of how news is monetised affects quality.\" / \"The matter of who owns media matters.\""
+    },
+    {
+      "subject": "Not know / wonder / doubt + whether",
+      "verb": "cognitive verb + whether + S + V",
+      "short": "uncertainty and doubt",
+      "example": "\"I doubt whether regulation can keep up with technology.\" / \"She wonders whether she can trust the source.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Whether vs If: Key Differences",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Both can introduce embedded yes/no questions after verbs",
+          "example": "\"I wonder whether/if the report is accurate.\" (both are correct)"
+        },
+        {
+          "form": "Only \"whether\" after prepositions",
+          "example": "\"The debate about whether social media is regulated fairly.\" ✅ NOT \"about if\""
+        },
+        {
+          "form": "Only \"whether\" before \"or not\"",
+          "example": "\"She can't decide whether or not to publish.\" ✅ NOT \"if or not\""
+        },
+        {
+          "form": "Only \"whether\" as a subject noun clause",
+          "example": "\"Whether the site is reliable remains unclear.\" ✅ NOT \"If the site is reliable…\""
+        },
+        {
+          "form": "Only \"whether\" before to-infinitive",
+          "example": "\"She didn't know whether to share the story.\" ✅ NOT \"if to share\""
+        }
+      ]
+    },
+    {
+      "title": "Embedded Questions: No Inversion",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Direct question → Embedded question (no auxiliary inversion)",
+          "example": "\"Where does misinformation come from?\" → \"I don't know where misinformation comes from.\""
+        },
+        {
+          "form": "What is... → what ... is",
+          "example": "\"What is the source?\" → \"Can you tell me what the source is?\""
+        },
+        {
+          "form": "Why did... → why ... did/does",
+          "example": "\"Why did the story spread?\" → \"She wondered why the story spread so quickly.\""
+        },
+        {
+          "form": "How do... → how ... do/does",
+          "example": "\"How do algorithms work?\" → \"I want to understand how algorithms work.\""
+        }
+      ]
+    },
+    {
+      "title": "Noun + of + whether/wh-clause",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "The question of whether + S + V",
+          "example": "\"The question of whether social media should be regulated more strictly is politically contentious.\""
+        },
+        {
+          "form": "The issue of how + S + V",
+          "example": "\"The issue of how we fund quality journalism is urgent.\""
+        },
+        {
+          "form": "The matter of who + S + V",
+          "example": "\"The matter of who owns major news outlets affects what gets reported.\""
+        },
+        {
+          "form": "The problem of what + S + V",
+          "example": "\"The problem of what counts as reliable news is difficult to resolve.\""
+        }
+      ]
+    },
+    {
+      "title": "Useful Verbs for Embedded Questions in Academic Writing",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Wonder, ask, consider, debate, examine, investigate + wh-/whether",
+          "example": "\"Researchers are examining whether filter bubbles reduce exposure to opposing views.\""
+        },
+        {
+          "form": "Know, understand, explain, discover, find out + wh-/whether",
+          "example": "\"She found out who was behind the disinformation campaign.\""
+        },
+        {
+          "form": "Doubt, question, dispute + whether",
+          "example": "\"Many doubt whether self-regulation by platforms is sufficient.\""
+        },
+        {
+          "form": "Determine, decide, choose + whether to + infinitive",
+          "example": "\"Editors must decide whether to publish unverified information during breaking news.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Embedded Questions",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ I wonder where is she working.",
+          "example": "✅ I wonder where she is working. (no inversion in embedded questions)"
+        },
+        {
+          "form": "❌ She asked what did he say.",
+          "example": "✅ She asked what he said. (no auxiliary inversion)"
+        },
+        {
+          "form": "❌ The debate about if regulation is needed.",
+          "example": "✅ The debate about whether regulation is needed. (use \"whether\" after prepositions)"
+        },
+        {
+          "form": "❌ She couldn't decide if to publish.",
+          "example": "✅ She couldn't decide whether to publish. (use \"whether\" before to-infinitive)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose whether or if.",
+      "text": "\"The debate about ___ social media companies should be regulated is ongoing.\"",
+      "opts": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "correct": "whether",
+      "hint": "After prepositions: only \"whether\" (not \"if\")"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the embedded question correctly.",
+      "text": "\"I don't know ___ the article ___ (be) accurate.\" (= I don't know whether it's accurate)",
+      "correct": "whether / is",
+      "hint": "\"Whether + S + V\" — no inversion, present tense"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct embedded question form.",
+      "text": "\"Can you tell me ___ the information comes from?\"",
+      "opts": [
+        "where does",
+        "where is",
+        "where",
+        "from where does"
+      ],
+      "correct": "where",
+      "hint": "Embedded question: no inversion — \"where it comes from\" (but \"where the information comes from\" = object noun clause)"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with \"whether\" or \"whether to.\"",
+      "text": "\"The editor couldn't decide ___ publish the unverified story before the deadline.\"",
+      "correct": "whether to",
+      "hint": "\"Couldn't decide whether to + infinitive\" — no subject after \"whether to\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Convert the direct question to an embedded form.",
+      "text": "\"Why does emotional content spread faster?\" → She explained ___ emotional content ___ faster.",
+      "opts": [
+        "why does / spread",
+        "why / spreads",
+        "that why / spread",
+        "whether / spreads"
+      ],
+      "correct": "why / spreads",
+      "hint": "Embedded: no auxiliary inversion — \"why + S + V\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the noun + wh-clause structure.",
+      "text": "\"The question of ___ media ownership affects reporting quality is well-established in research.\"",
+      "correct": "how / whether",
+      "hint": "\"The question of whether\" (yes/no) or \"the question of how\" (mechanism)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct embedded question.",
+      "text": "\"Researchers investigated ___ bots were used to amplify the disinformation campaign.\"",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how much"
+      ],
+      "correct": "whether",
+      "hint": "\"Investigated whether\" = embedded yes/no question"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete the sentence correctly.",
+      "text": "\"I wonder ___ social media companies are doing enough to prevent disinformation.\"",
+      "correct": "whether / if",
+      "hint": "\"Wonder whether/if\" — both acceptable in mid-sentence embedded yes/no questions"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"She asked what did the fact-checker find.\"",
+      "opts": [
+        "No error",
+        "\"What\" should be \"that\"",
+        "\"Did the fact-checker find\" should be \"the fact-checker found\"",
+        "\"She asked\" should be \"She wondered\""
+      ],
+      "correct": "\"Did the fact-checker find\" should be \"the fact-checker found\"",
+      "hint": "Embedded questions: no auxiliary inversion — \"what the fact-checker found\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct noun + wh-clause.",
+      "text": "\"The matter of ___ owns major news outlets affects ___ gets reported.\" (two wh-clauses)",
+      "correct": "who / what",
+      "hint": "\"Who + V\" = the person who; \"what + V\" = the thing that",
+      "points": 1
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"___ the story reached so many people before being corrected remains unclear.\"",
+      "opts": [
+        "If",
+        "Whether",
+        "That",
+        "What"
+      ],
+      "correct": "Whether",
+      "hint": "\"Whether + S + V\" as a subject noun clause — \"if\" cannot begin a subject clause"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Rewrite as an embedded question.",
+      "text": "\"Who spread the disinformation?\" → Researchers are trying to find out ___ the disinformation ___ (spread).",
+      "correct": "who / spread",
+      "hint": "\"Find out + who + S + V\" — no inversion",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct form for a formal academic context.",
+      "text": "\"There is ongoing debate about ___ self-regulation by platforms is sufficient.\"",
+      "opts": [
+        "if",
+        "whether",
+        "that",
+        "what"
+      ],
+      "correct": "whether",
+      "hint": "After \"about\" (preposition): only \"whether\""
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete correctly.",
+      "text": "\"Many doubt ___ governments have the political will to regulate AI-generated content.\" (= not sure if)",
+      "correct": "whether",
+      "hint": "\"Doubt whether\" — expressing uncertainty about a yes/no outcome"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "",
+      "opts": [
+        "I wonder where does misinformation originate.",
+        "I wonder where misinformation originates.",
+        "I wonder where misinformation does originate.",
+        "I wonder misinformation where originates."
+      ],
+      "correct": "I wonder where misinformation originates.",
+      "hint": "Embedded question: no auxiliary inversion — \"where + S + V\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the correct option for a formal written context.",
+      "text": "\"The issue of ___ to regulate AI-generated news has not yet been resolved.\" (choice of action, no new subject)",
+      "opts": [
+        "whether",
+        "if",
+        "how",
+        "what"
+      ],
+      "correct": "whether",
+      "hint": "\"The issue of whether to + infinitive\" = formal noun phrase + infinitive embedded clause"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I wonder ___ the source of the story can be verified.\" (embedded yes/no question)",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how"
+      ],
+      "correct": "whether",
+      "hint": "\"Wonder whether\" = embedded yes/no question",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The debate about ___ social media platforms should have editorial responsibility is ongoing.\"",
+      "correct": "whether",
+      "hint": "After preposition \"about\": only \"whether\" (not \"if\")",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Can you explain ___ algorithms decide what content to show users?\"",
+      "opts": [
+        "why do",
+        "how do",
+        "how",
+        "what"
+      ],
+      "correct": "how",
+      "hint": "Embedded question: no inversion — \"how + S + V\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She couldn't decide ___ trust the unverified account or wait for confirmation.\" (choice with infinitive)",
+      "correct": "whether to",
+      "hint": "\"Couldn't decide whether to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Researchers investigated ___ bots had been used to amplify the campaign.\"",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how much"
+      ],
+      "correct": "whether",
+      "hint": "\"Investigated whether\" = embedded yes/no question",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"She asked what did the fact-checker find\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "No inversion in embedded questions: \"what the fact-checker found\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The question of ___ AI-generated content should be labelled is increasingly urgent.\"",
+      "correct": "whether",
+      "hint": "\"The question of whether + S + V\" = noun + embedded yes/no question",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I don't know ___ the article is from.\" (source — wh-question)",
+      "opts": [
+        "where is",
+        "where does",
+        "where",
+        "from where is"
+      ],
+      "correct": "where",
+      "hint": "\"Know + where + S + V\" — no inversion: \"where the article is from\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Many doubt ___ platforms can effectively police their own content.\" (expressing uncertainty)",
+      "correct": "whether",
+      "hint": "\"Doubt whether\" = uncertainty about a yes/no outcome",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the disinformation campaign originated has never been officially established.\" (= where it came from — subject clause)",
+      "opts": [
+        "If",
+        "Where",
+        "That",
+        "What"
+      ],
+      "correct": "Where",
+      "hint": "\"Where + S + V\" as a subject noun clause",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Journalists need to find out ___ the account belongs to before publishing.\" (= who owns it)",
+      "correct": "who",
+      "hint": "\"Find out + who + S + V\" — no inversion",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses the noun clause correctly?",
+      "opts": [
+        "\"I wonder where does the story come from.\"",
+        "\"I wonder where the story comes from.\"",
+        "\"I wonder from where does the story come.\"",
+        "\"I wonder that the story comes from.\""
+      ],
+      "correct": "\"I wonder where the story comes from.\"",
+      "hint": "Embedded question: no inversion — \"where + S + V\"",
+      "points": 2
+    }
+  ]
+}

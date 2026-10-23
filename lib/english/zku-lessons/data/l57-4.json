@@ -1,0 +1,220 @@
+{
+  "id": "l57-4",
+  "moduleNum": 23,
+  "lessonNum": 6,
+  "moduleTitle": "Linking Ideas",
+  "type": "writing",
+  "title": "An Opinion Essay with Linking Words",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "In my opinion,",
+      "emoji": "💭",
+      "opts": [
+        "В конце концов",
+        "По моему мнению",
+        "Во-первых",
+        "Несмотря на это"
+      ],
+      "correct": "По моему мнению"
+    },
+    {
+      "id": "p2",
+      "word": "Furthermore,",
+      "emoji": "➕",
+      "opts": [
+        "Однако",
+        "Более того / Кроме того",
+        "В результате",
+        "Напротив"
+      ],
+      "correct": "Более того / Кроме того"
+    },
+    {
+      "id": "p3",
+      "word": "Although... nevertheless",
+      "emoji": "⚖️",
+      "opts": [
+        "Во-первых... во-вторых",
+        "Хотя... тем не менее",
+        "Потому что... следовательно",
+        "Кроме того... однако"
+      ],
+      "correct": "Хотя... тем не менее"
+    },
+    {
+      "id": "p4",
+      "word": "As a result,",
+      "emoji": "➡️",
+      "opts": [
+        "Во-первых",
+        "В результате",
+        "Например",
+        "Несмотря на то что"
+      ],
+      "correct": "В результате"
+    },
+    {
+      "id": "p5",
+      "word": "Despite this,",
+      "emoji": "🔄",
+      "opts": [
+        "В связи с этим",
+        "Несмотря на это",
+        "Кроме того",
+        "Следовательно"
+      ],
+      "correct": "Несмотря на это"
+    },
+    {
+      "id": "p6",
+      "word": "To sum up,",
+      "emoji": "📝",
+      "opts": [
+        "Во-первых",
+        "Подводя итог",
+        "Например",
+        "Следовательно"
+      ],
+      "correct": "Подводя итог"
+    }
+  ],
+  "writingModel": [
+    "Should Social Media Be Regulated? — by Kamila Seitkali",
+    "Social media platforms reach billions of people worldwide, shaping opinions, influencing behaviour, and — in some documented cases — contributing to serious harm. In my opinion, some form of government regulation is both necessary and possible. However, the nature and limits of that regulation require careful thought.",
+    "Firstly, there is a strong case for regulation based on the documented harms of unregulated platforms. Research consistently links heavy social media use to increased rates of anxiety and depression, particularly among young women. Furthermore, social media algorithms are known to amplify extreme content — including misinformation and hate speech — because it drives more engagement. As a result, platforms profit from content that harms individuals and erodes social trust.",
+    "Secondly, the argument that regulation would suppress free speech is valid but overstated. Although free speech is a fundamental right, it has always had limits: defamation law, incitement laws, and consumer protection regulations all constrain what can be said in public forums. Therefore, regulating what social media companies can algorithmically promote is not categorically different from these existing limits.",
+    "Despite this, I recognise that the risks of heavy-handed regulation are real. Governments that control information often misuse that power. Moreover, even well-intentioned regulation can have unintended consequences — suppressing minority voices or creating new bureaucratic barriers that only large, wealthy platforms can afford to comply with. Nevertheless, the alternative — entirely unregulated platforms — has already been tried, and its costs are visible.",
+    "In conclusion, the question is not whether to regulate, but how. Transparency requirements — forcing platforms to disclose how algorithms work — seem like a reasonable starting point. Content labelling, advertiser liability for harmful promotions, and age verification for minors are further measures that have been proposed. In my view, these are pragmatic steps that reduce harm without requiring governments to directly censor content.",
+    "To sum up, social media regulation is not only justified but necessary. Although it carries risks, those risks are outweighed by the costs of inaction. Consequently, I believe governments, platforms, and civil society must work together to create a framework that protects individuals without destroying the openness that makes social media valuable in the first place."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Opinion essay title (question or statement)",
+      "hint": "Choose a debatable topic: technology, education, environment, social media, etc."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "In my opinion, ",
+      "suffix": ".",
+      "placeholder": "your main position on the topic",
+      "hint": "State your opinion clearly. \"In my opinion, X is/should be...\""
+    },
+    {
+      "key": "arg1",
+      "prefix": "Firstly, ",
+      "suffix": ". Furthermore, ",
+      "placeholder": "first argument + additional supporting point",
+      "hint": "\"Firstly, [argument]. Furthermore, [supporting point].\""
+    },
+    {
+      "key": "result1",
+      "prefix": "As a result, ",
+      "suffix": ".",
+      "placeholder": "the consequence of what you described",
+      "hint": "\"As a result, [consequence].\" — what follows from your argument?"
+    },
+    {
+      "key": "arg2",
+      "prefix": "Secondly, ",
+      "suffix": ". Therefore, ",
+      "placeholder": "second argument + logical consequence",
+      "hint": "\"Secondly, [argument]. Therefore, [conclusion].\""
+    },
+    {
+      "key": "concess",
+      "prefix": "Although ",
+      "suffix": ", nevertheless ___.",
+      "placeholder": "acknowledge opposing view + your counter",
+      "hint": "\"Although [their valid point], nevertheless [your response].\""
+    },
+    {
+      "key": "despite",
+      "prefix": "Despite this, ",
+      "suffix": ".",
+      "placeholder": "acknowledge a weakness in your argument",
+      "hint": "\"Despite this, I recognise that...\" — show intellectual honesty."
+    },
+    {
+      "key": "conclude",
+      "prefix": "To sum up, ",
+      "suffix": ".",
+      "placeholder": "brief restatement of your position",
+      "hint": "\"To sum up, [topic] is important because...\" / \"my position is...\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening and stating position",
+      "color": "#003876",
+      "items": [
+        "In my opinion, / In my view, / I believe that...",
+        "It is my position that...",
+        "[Topic] is one of the most debated issues of our time.",
+        "There are strong arguments on both sides of this issue.",
+        "However, on balance, I believe that..."
+      ]
+    },
+    {
+      "category": "Addition markers",
+      "color": "#1D9E75",
+      "items": [
+        "Furthermore, / Moreover, / In addition,",
+        "Not only... but also...",
+        "Also worth noting is that...",
+        "A further argument is that...",
+        "It should also be pointed out that..."
+      ]
+    },
+    {
+      "category": "Contrast and concession",
+      "color": "#1B8FC4",
+      "items": [
+        "Although / Even though [opposing view], nevertheless...",
+        "Despite this / Despite the challenges, ...",
+        "While it is true that [objection], I still believe...",
+        "However, the counterargument is weakened by...",
+        "Opponents argue that... ; nevertheless,..."
+      ]
+    },
+    {
+      "category": "Result and conclusion",
+      "color": "#C9933B",
+      "items": [
+        "Therefore, / As a result, / Consequently,",
+        "This leads to the conclusion that...",
+        "To sum up, / In conclusion, / Overall,",
+        "The evidence suggests that...",
+        "For these reasons, I believe that..."
+      ]
+    }
+  ]
+}

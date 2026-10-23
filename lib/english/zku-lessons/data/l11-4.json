@@ -1,0 +1,215 @@
+{
+  "id": "l11-4",
+  "moduleNum": 11,
+  "lessonNum": 5,
+  "moduleTitle": "Last weekend",
+  "title": "Write about your last weekend",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Last weekend, I...",
+      "emoji": "📅",
+      "opts": [
+        "На прошлых выходных я...",
+        "На следующих выходных я...",
+        "Каждые выходные я...",
+        "Сегодня я..."
+      ],
+      "correct": "На прошлых выходных я..."
+    },
+    {
+      "id": "p2",
+      "word": "On Saturday morning, I...",
+      "emoji": "🌅",
+      "opts": [
+        "В воскресенье вечером я...",
+        "В субботу утром я...",
+        "Каждое утро я...",
+        "В пятницу я..."
+      ],
+      "correct": "В субботу утром я..."
+    },
+    {
+      "id": "p3",
+      "word": "After that, I...",
+      "emoji": "➡️",
+      "opts": [
+        "До этого я...",
+        "Пока я...",
+        "После этого я...",
+        "Вместо этого я..."
+      ],
+      "correct": "После этого я..."
+    },
+    {
+      "id": "p4",
+      "word": "We enjoyed...",
+      "emoji": "😊",
+      "opts": [
+        "Мы наслаждались...",
+        "Мы планировали...",
+        "Мы боялись...",
+        "Мы забыли..."
+      ],
+      "correct": "Мы наслаждались..."
+    },
+    {
+      "id": "p5",
+      "word": "I didn't...",
+      "emoji": "🚫",
+      "opts": [
+        "Я делал...",
+        "Я не делал...",
+        "Я хотел...",
+        "Я обычно делаю..."
+      ],
+      "correct": "Я не делал..."
+    },
+    {
+      "id": "p6",
+      "word": "Overall, it was...",
+      "emoji": "✍️",
+      "opts": [
+        "В итоге, это будет...",
+        "В целом, это было...",
+        "Обычно это бывает...",
+        "Сначала это было..."
+      ],
+      "correct": "В целом, это было..."
+    }
+  ],
+  "writingModel": [
+    "Last weekend was one of the most enjoyable weekends I have had since I arrived in Uralsk. I stayed in the city and spent time with my friends from the Economics faculty. The weather was perfect — cool and sunny — and I felt completely relaxed after a difficult week of lectures and assignments.",
+    "On Saturday morning, I cleaned my room and organised my notes. I listened to music while I worked and finished everything in about an hour. After that, I cooked a simple breakfast and called my parents in Semey. We talked for forty minutes and they asked about my studies, my food, and my friends. It was wonderful to hear their voices.",
+    "In the afternoon, I walked to the city park with three friends: Aruzhan, Saule, and Aisha. We walked along the river path, talked about our lecturers, and laughed a lot. Saule bought ice cream for everyone from a small kiosk. We stayed in the park for almost two hours. I enjoyed every minute of it — I didn't want to leave!",
+    "On Saturday evening, I cooked dinner at my room. I prepared rice with chicken — a recipe my grandmother in Semey taught me. Aruzhan sliced the bread and Aisha arranged the salad. We all ate together, listened to music, and talked loudly. After dinner, we watched a Kazakh comedy film on my laptop. Everyone laughed so much — it was a perfect evening.",
+    "On Sunday, I studied all day. I worked on my Economics essay for six hours and finished two complete sections. I also emailed my project supervisor to confirm our next meeting. It was a long day of work, but I felt satisfied when I finished. I didn't go out at all — I stayed at my desk and focused. By Sunday evening, I was tired but happy. Overall, last weekend was a great balance of fun and hard work — exactly what a university student needs."
+  ],
+  "writingTemplate": [
+    {
+      "key": "open",
+      "prefix": "Last weekend was ",
+      "suffix": ".",
+      "placeholder": "adjective(s)",
+      "hint": "e.g. relaxing and fun / busy but enjoyable / a perfect balance of rest and work"
+    },
+    {
+      "key": "sat_am",
+      "prefix": "On Saturday morning, I ",
+      "suffix": ".",
+      "placeholder": "verb-ed + details",
+      "hint": "e.g. cleaned my room / cooked breakfast / called my family / stayed in bed"
+    },
+    {
+      "key": "after",
+      "prefix": "After that, I ",
+      "suffix": ".",
+      "placeholder": "verb-ed + what you did next",
+      "hint": "e.g. walked to the park / visited a friend / studied for two hours"
+    },
+    {
+      "key": "sat_pm",
+      "prefix": "In the afternoon, we ",
+      "suffix": ".",
+      "placeholder": "verb-ed + activity with friends",
+      "hint": "e.g. walked to the city park / cooked together / watched a film"
+    },
+    {
+      "key": "evening",
+      "prefix": "In the evening, I ",
+      "suffix": ".",
+      "placeholder": "verb-ed + evening activity",
+      "hint": "e.g. cooked dinner / watched a film / listened to music / read a book"
+    },
+    {
+      "key": "sunday",
+      "prefix": "On Sunday, I ",
+      "suffix": " for ___.",
+      "placeholder": "studied / worked on my project ... hours",
+      "hint": "e.g. studied for five hours / worked on my essay for the whole day"
+    },
+    {
+      "key": "didnt",
+      "prefix": "I didn't ",
+      "suffix": ", but I enjoyed the weekend anyway.",
+      "placeholder": "something you did NOT do",
+      "hint": "e.g. go to the cinema / visit the market / sleep late / leave my room"
+    },
+    {
+      "key": "end",
+      "prefix": "Overall, last weekend was ",
+      "suffix": " because ___.",
+      "placeholder": "adjective ... reason",
+      "hint": "e.g. perfect because I relaxed and also worked / great because I spent time with friends"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Starting your text — time & mood",
+      "color": "#003876",
+      "items": [
+        "Last weekend was [adjective] and [adjective].",
+        "Last weekend I stayed in [place] and...",
+        "On Saturday / Sunday, I [verb-ed]...",
+        "The weather was [adjective] — [describe it].",
+        "I felt [adjective] after a week of lectures.",
+        "It was one of the best weekends since I arrived in [city]."
+      ]
+    },
+    {
+      "category": "Describing weekend activities",
+      "color": "#1B8FC4",
+      "items": [
+        "I cleaned / cooked / called / walked / visited...",
+        "We walked to the [place] — it took [time] on foot.",
+        "I stayed in [place] for [time].",
+        "I listened to music / a podcast / the radio.",
+        "I worked on my [subject] essay / project for [hours] hours.",
+        "I finished [something] completely — finally!"
+      ]
+    },
+    {
+      "category": "Connecting ideas — time expressions",
+      "color": "#7C3AED",
+      "items": [
+        "After that, I... · After breakfast, I...",
+        "In the morning / afternoon / evening...",
+        "At [time] o'clock, I...",
+        "Then... · Next... · Later...",
+        "On Saturday morning / Sunday afternoon...",
+        "By the end of the day, I was [adjective] but [adjective]."
+      ]
+    },
+    {
+      "category": "Negatives & feelings",
+      "color": "#1D9E75",
+      "items": [
+        "I didn't [verb] — instead I [verb-ed].",
+        "I didn't want to leave / stop / go home.",
+        "We didn't [verb] but we enjoyed it anyway.",
+        "I felt satisfied / relaxed / proud / tired.",
+        "It was a perfect balance of fun and work.",
+        "Overall, last weekend was... because..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "l60-3",
+  "moduleNum": 2,
+  "lessonNum": 3,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "listening",
+  "title": "Secondhand: A Conversation About What Was Said",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "I need to tell you what happened in Professor Akhmetov's seminar on Wednesday. It was interesting.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Go on. I missed it — I had a dentist appointment.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He said that too many students were writing essays that summarised sources without engaging with them. He insisted that the point of academic writing wasn't to report what others had said but to think about what it meant.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Did he give examples?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He showed us two paragraphs. In the first one, the student had written \"Smith argues that X. Jones argues that Y. Brown argues that Z.\" He said it read like a list, not an argument.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What about the second?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "The second one engaged with the sources. It said something like \"Smith argues that X, but this claim is undermined by Jones's evidence that Y.\" He told us to aim for that.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That makes sense. Did anyone ask questions?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Amir asked whether reported speech rules applied in academic writing too — whether you had to shift tenses when you cited sources.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What did the professor reply?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He explained that in academic writing, the convention was different from grammar exercises. He said that when you cited someone's work, you usually used the present tense — \"Smith argues\" not \"Smith argued\" — unless the work was clearly outdated.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's useful. Did he say anything about reporting verbs specifically?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He warned us that choosing the wrong reporting verb could change the meaning of what we were trying to convey. He gave the example of \"acknowledge\" vs \"admit.\" He said they were similar but that \"admit\" carries a stronger sense that something went wrong.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I wish I'd been there. Did he set any work?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He asked us to revise one paragraph from our last essay and replace all the \"says/said\" with more precise reporting verbs. He recommended choosing three or four from the list he'd given us.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I can do that for mine too. Thanks — you've reported it much better than most people would have.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I was paying attention specifically because I knew you'd ask.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "engage with",
+      "emoji": "🔗",
+      "opts": [
+        "игнорировать",
+        "взаимодействовать / работать с",
+        "цитировать",
+        "избегать"
+      ],
+      "correct": "взаимодействовать / работать с"
+    },
+    {
+      "id": "p2",
+      "word": "undermine",
+      "emoji": "⛏️",
+      "opts": [
+        "поддерживать",
+        "подрывать / ослаблять",
+        "усиливать",
+        "подтверждать"
+      ],
+      "correct": "подрывать / ослаблять"
+    },
+    {
+      "id": "p3",
+      "word": "convention",
+      "emoji": "📋",
+      "opts": [
+        "правило грамм.",
+        "принятое соглашение / норма",
+        "исключение",
+        "рекомендация"
+      ],
+      "correct": "принятое соглашение / норма"
+    },
+    {
+      "id": "p4",
+      "word": "outdated",
+      "emoji": "🕰️",
+      "opts": [
+        "актуальный",
+        "устаревший",
+        "спорный",
+        "точный"
+      ],
+      "correct": "устаревший"
+    },
+    {
+      "id": "p5",
+      "word": "convey",
+      "emoji": "📨",
+      "opts": [
+        "скрывать",
+        "передавать / выражать",
+        "переводить",
+        "повторять"
+      ],
+      "correct": "передавать / выражать"
+    },
+    {
+      "id": "p6",
+      "word": "revise",
+      "emoji": "✏️",
+      "opts": [
+        "писать заново",
+        "пересматривать / редактировать",
+        "удалять",
+        "читать"
+      ],
+      "correct": "пересматривать / редактировать"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Professor Akhmetov said students were writing essays that only summarised without engaging.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The first student paragraph the professor showed was an example of good academic writing.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Amir asked whether tense shifts applied when citing sources in academic writing.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The professor said academic citation always uses past tense.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "\"Admit\" carries a stronger sense that something went wrong compared to \"acknowledge.\"",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The professor asked students to replace all reporting verbs with \"said.\"",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "📝",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Reports what happened in Prof Akhmetov's seminar — uses reported speech throughout"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Asks follow-up questions — missed the seminar"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "The professor said students' essays read like lists, not arguments — just summarising sources.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "The professor told them to aim for essays that engage with sources, not just list them.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Amir asked whether reported speech tense rules applied in academic citation.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "The professor explained that academic convention uses present tense (Smith argues) not past.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "The professor warned that the wrong reporting verb could change meaning.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "The professor recommended choosing three or four precise reporting verbs from his list.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Professor Akhmetov's main criticism of student essays?",
+      "opts": [
+        "Too long",
+        "Too many grammar errors",
+        "Just summarising sources without engaging with them",
+        "Not enough citations"
+      ],
+      "correct": "Just summarising sources without engaging with them",
+      "hint": "\"Too many students were writing essays that summarised sources without engaging with them.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was wrong with the first student paragraph the professor showed?",
+      "opts": [
+        "Too short",
+        "Bad grammar",
+        "It read like a list of what each source said, not an argument",
+        "Wrong citation style"
+      ],
+      "correct": "It read like a list of what each source said, not an argument",
+      "hint": "\"Smith argues X. Jones argues Y. Brown argues Z.\" He said it read like a list, not an argument."
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What made the second paragraph better?",
+      "opts": [
+        "More sources",
+        "Better grammar",
+        "It engaged with sources — showing how they support or undermine each other",
+        "Longer sentences"
+      ],
+      "correct": "It engaged with sources — showing how they support or undermine each other",
+      "hint": "\"Smith argues X, but this claim is undermined by Jones's evidence that Y.\" — engaging with, not just listing."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What convention did the professor describe for academic writing citation?",
+      "opts": [
+        "Always use Past Simple",
+        "Always shift tenses",
+        "Use present tense (Smith argues) unless work is outdated",
+        "Use quotation marks only"
+      ],
+      "correct": "Use present tense (Smith argues) unless work is outdated",
+      "hint": "\"When you cited someone's work, you usually used the present tense — 'Smith argues' not 'Smith argued' — unless clearly outdated.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"acknowledge\" and \"admit\" according to the professor?",
+      "opts": [
+        "They are identical",
+        "\"Admit\" carries a stronger sense that something went wrong",
+        "\"Acknowledge\" is more formal",
+        "\"Admit\" is more polite"
+      ],
+      "correct": "\"Admit\" carries a stronger sense that something went wrong",
+      "hint": "\"'Admit' carries a stronger sense that something went wrong.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What homework did the professor set?",
+      "opts": [
+        "Write a new essay",
+        "Read about reporting verbs",
+        "Revise a paragraph by replacing \"says/said\" with precise reporting verbs",
+        "Find examples in news articles"
+      ],
+      "correct": "Revise a paragraph by replacing \"says/said\" with precise reporting verbs",
+      "hint": "\"Revise one paragraph from your last essay and replace all the 'says/said' with more precise reporting verbs.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says Rustam reported the seminar better than most people would have.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"You've reported it much better than most people would have.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why was Rustam paying such careful attention in the seminar?",
+      "opts": [
+        "It was his favourite topic",
+        "He knew Kamila would ask him about it",
+        "The professor asked him specifically",
+        "He was taking notes for an assignment"
+      ],
+      "correct": "He knew Kamila would ask him about it",
+      "hint": "\"I was paying attention specifically because I knew you'd ask.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He said that too many students WERE writing essays without engaging.\" — Past Continuous because:",
+      "opts": [
+        "It's a criticism",
+        "It describes an ongoing pattern at that time, not a single event",
+        "\"write\" is irregular",
+        "Past Simple would also work"
+      ],
+      "correct": "It describes an ongoing pattern at that time, not a single event",
+      "hint": "PC in reported speech = PC (backshift not needed here as it was Past Continuous → Past Continuous). The \"pattern\" interpretation suits PC. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Amir asked WHETHER reported speech rules applied in academic writing.\" — \"whether\" because:",
+      "opts": [
+        "It's a wh-question",
+        "It's a yes/no question converted to reported form",
+        "\"if\" doesn't work here",
+        "\"whether\" sounds more formal"
+      ],
+      "correct": "It's a yes/no question converted to reported form",
+      "hint": "\"whether\" (or \"if\") introduces yes/no questions in reported speech. \"Do they apply?\" → asked WHETHER they applied. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He explained THAT in academic writing, the convention WAS different.\" — why \"was\" not \"is\"?",
+      "opts": [
+        "The convention has changed",
+        "Tense backshift: present → past in reported speech",
+        "\"Is\" would also be correct",
+        "The professor was wrong"
+      ],
+      "correct": "Tense backshift: present → past in reported speech",
+      "hint": "Present Simple → Past Simple in reported speech. \"is different\" → \"was different.\" ✅ (Or \"is\" if treating as still-true fact.)"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He warned us that ___ wrong reporting verb could ___ the meaning.\" (complete the report)",
+      "correct": "choosing the / change",
+      "hint": "\"He warned us that CHOOSING THE wrong reporting verb could CHANGE the meaning.\" ✅ (warn + that + clause)"
+    }
+  ]
+}

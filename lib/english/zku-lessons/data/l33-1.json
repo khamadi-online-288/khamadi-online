@@ -1,0 +1,287 @@
+{
+  "id": "l33-1",
+  "moduleNum": 17,
+  "lessonNum": 1,
+  "moduleTitle": "Film & Literature",
+  "type": "reading",
+  "title": "Films and Books I Love",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Kamila Seitkali loves stories — in any form. She is the kind of person who always has a book in her bag and who cries during films. For her, books and films are not just entertainment; they are windows into other lives, cultures, and ways of thinking.",
+    "Her favourite book is 'The Kite Runner' by Khaled Hosseini, a novel that tells the story of a friendship that is tested by betrayal and redemption. 'It's a book that changed the way I think about loyalty and forgiveness,' she says. 'I recommend it to everyone.'",
+    "In terms of films, Kamila loves 'October Sky', a true story about a boy who dreams of becoming a rocket scientist despite growing up in a coal-mining town. 'It's a film that shows you can achieve anything if you believe in yourself,' she explains.",
+    "Amir Bekzhanov prefers science fiction. His favourite novel is Isaac Asimov's 'Foundation', a series that explores the fall of a galactic empire. 'It's a book that makes you think about civilisation, history, and the power of knowledge,' he says.",
+    "Zhibek is passionate about documentaries. She recently watched 'The Social Dilemma', a documentary that examines the impact of social media on mental health and democracy. 'It's a film that everyone should watch,' she says firmly.",
+    "At WKU, Dr. Akhmetov encourages students to read widely. 'Read books that challenge you,' he says. 'A book that makes you uncomfortable is often the book that changes you the most.' He believes that students who read regularly develop stronger analytical and communication skills."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Have you read any good books recently, Amir?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I just finished a novel that changed my perspective on technology and history.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Which one? I'm looking for something that will challenge me.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "'Foundation' by Asimov. It's a book that everyone interested in science should read.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I prefer books about people. \"The Kite Runner\" is one that I recommend to everyone.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "a book that…",
+      "ru": "книга, которая…",
+      "context": "It's a book that changed the way I think."
+    },
+    {
+      "phrase": "a film that…",
+      "ru": "фильм, который…",
+      "context": "It's a film that everyone should watch."
+    },
+    {
+      "phrase": "relative clauses: who, which, that",
+      "ru": "относительные придаточные",
+      "context": "She is a person who loves stories."
+    },
+    {
+      "phrase": "I recommend…",
+      "ru": "я рекомендую…",
+      "context": "I recommend \"The Kite Runner\" to everyone."
+    },
+    {
+      "phrase": "It's about…",
+      "ru": "Речь идёт о…",
+      "context": "It's about a friendship tested by betrayal."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "novel",
+      "ipa": "/ˈnɒv.əl/",
+      "pos": "n",
+      "ru": "роман",
+      "kz": "роман",
+      "emoji": "📖",
+      "definition": "A long written story about imaginary or real characters and events.",
+      "example": "Kamila's favourite novel is 'The Kite Runner'.",
+      "collocations": [
+        "read a novel",
+        "classic novel",
+        "historical novel"
+      ]
+    },
+    {
+      "en": "documentary",
+      "ipa": "/ˌdɒk.jʊˈmen.tər.i/",
+      "pos": "n",
+      "ru": "документальный фильм",
+      "kz": "деректі фильм",
+      "emoji": "🎬",
+      "definition": "A film that gives factual information about real events.",
+      "example": "Zhibek recently watched a documentary about social media.",
+      "collocations": [
+        "watch a documentary",
+        "documentary film",
+        "nature documentary"
+      ]
+    },
+    {
+      "en": "analytical",
+      "ipa": "/ˌæn.əˈlɪt.ɪ.kəl/",
+      "pos": "adj",
+      "ru": "аналитический",
+      "kz": "аналитикалық",
+      "emoji": "🔬",
+      "definition": "Using careful, logical thinking to understand something.",
+      "example": "Students who read regularly develop stronger analytical skills.",
+      "collocations": [
+        "analytical skills",
+        "analytical thinking",
+        "analytical approach"
+      ]
+    },
+    {
+      "en": "betrayal",
+      "ipa": "/bɪˈtreɪ.əl/",
+      "pos": "n",
+      "ru": "предательство",
+      "kz": "сатқындық",
+      "emoji": "💔",
+      "definition": "The act of being disloyal to someone who trusts you.",
+      "example": "The novel tells a story of friendship tested by betrayal.",
+      "collocations": [
+        "act of betrayal",
+        "sense of betrayal",
+        "betrayal of trust"
+      ]
+    },
+    {
+      "en": "redemption",
+      "ipa": "/rɪˈdemp.ʃən/",
+      "pos": "n",
+      "ru": "искупление, спасение",
+      "kz": "кешірім",
+      "emoji": "🌅",
+      "definition": "The act of being saved or making up for past mistakes.",
+      "example": "The Kite Runner is a story of friendship, betrayal, and redemption.",
+      "collocations": [
+        "seek redemption",
+        "path to redemption",
+        "story of redemption"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "novel",
+      "emoji": "📖",
+      "opts": [
+        "A short newspaper article",
+        "A factual film about real events",
+        "A long written story about characters and events",
+        "A collection of poems"
+      ],
+      "correct": "A long written story about characters and events"
+    },
+    {
+      "id": "p2",
+      "word": "documentary",
+      "emoji": "🎬",
+      "opts": [
+        "A fictional action film",
+        "A romantic comedy",
+        "A film that gives factual information about real events",
+        "An animated cartoon"
+      ],
+      "correct": "A film that gives factual information about real events"
+    },
+    {
+      "id": "p3",
+      "word": "analytical",
+      "emoji": "🔬",
+      "opts": [
+        "Emotional and creative",
+        "Physical and active",
+        "Using careful, logical thinking",
+        "Very entertaining and fun"
+      ],
+      "correct": "Using careful, logical thinking"
+    },
+    {
+      "id": "p4",
+      "word": "betrayal",
+      "emoji": "💔",
+      "opts": [
+        "A kind act of friendship",
+        "Being disloyal to someone who trusts you",
+        "A dramatic ending to a story",
+        "A form of creative expression"
+      ],
+      "correct": "Being disloyal to someone who trusts you"
+    },
+    {
+      "id": "p5",
+      "word": "redemption",
+      "emoji": "🌅",
+      "opts": [
+        "A type of betrayal",
+        "The beginning of a story",
+        "Being saved or making up for past mistakes",
+        "A dramatic plot twist"
+      ],
+      "correct": "Being saved or making up for past mistakes"
+    }
+  ],
+  "task1Bank": [
+    "who",
+    "which",
+    "that",
+    "recommend",
+    "documentary",
+    "analytical",
+    "fiction",
+    "loyalty"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "He is the kind of person ___ always has a book in his bag.",
+      "correct": "who"
+    },
+    {
+      "id": "i2",
+      "question": "It's a book ___ changed the way I think about loyalty.",
+      "correct": "that"
+    },
+    {
+      "id": "i3",
+      "question": "'The Social Dilemma' is a ___ about social media and mental health.",
+      "correct": "documentary"
+    },
+    {
+      "id": "i4",
+      "question": "Dr. Akhmetov says reading develops ___ skills.",
+      "correct": "analytical"
+    },
+    {
+      "id": "i5",
+      "question": "I ___ \"The Kite Runner\" to everyone.",
+      "correct": "recommend"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Kamila's favourite book is \"Foundation\" by Asimov.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "\"October Sky\" is a film based on a true story.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Zhibek prefers science fiction to documentaries.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Dr. Akhmetov believes reading improves communication skills.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Amir's favourite novel explores themes of civilisation and knowledge.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

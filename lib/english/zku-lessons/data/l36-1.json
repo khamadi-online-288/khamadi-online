@@ -1,0 +1,553 @@
+{
+  "id": "l36-1",
+  "moduleNum": 2,
+  "lessonNum": 1,
+  "moduleTitle": "What's Happening Now?",
+  "type": "reading",
+  "title": "A Snapshot of WKU",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "It is Thursday afternoon at West Kazakhstan University. The campus is alive with activity. If you walk through the main building right now, you will see hundreds of students moving in different directions — some rushing to their next lecture, some sitting in the corridor checking their phones, and others standing in small groups discussing something important. Everyone is doing something. Nobody is standing still.",
+    "On the third floor, in Room 312, a group of second-year Computer Science students is taking a programming exam. They are all sitting quietly, typing code on their laptops. Amir Bekzhanov is sitting in the front row, as always. He is concentrating hard on a particularly difficult algorithm question. His fingers are moving quickly across the keyboard, but his face is calm. Next to him, his classmate Rustam is struggling — he is re-reading the same question for the third time.",
+    "In the WKU library on the second floor, Kamila Seitkali is not studying right now — she is helping a first-year student who is looking for a book about Kazakh history. Kamila works as a volunteer library assistant on Thursday afternoons. At the moment, she is searching the catalogue on the computer while the first-year student is waiting patiently beside her. \"I am finding it,\" she says quietly. \"One moment.\"",
+    "Outside in the university garden, a group of biology students is drawing plants for their field assignment. Their professor is walking slowly between them, looking at their work and giving feedback. Two students near the fountain are arguing — not about biology, but about which café makes the best coffee in Uralsk. Nearby, a squirrel is sitting on a bench and watching the students with great curiosity.",
+    "In the sports hall, the university volleyball team is practising for a regional tournament that is happening next weekend. The coach is shouting instructions while the players are running, jumping and diving. Zhibek Akhmetova, the team captain, is serving the ball with impressive power. She is not missing a single shot today — she is clearly having one of her best training sessions.",
+    "Down in the WKU canteen, the kitchen staff are preparing dinner for the evening meal. The chef is stirring a large pot of soup while his assistant is slicing vegetables beside him. A few early students are already sitting at tables, drinking tea and talking. One student is reading a book while eating — she is balancing a spoon in one hand and a novel in the other. University life, in all its beautiful chaos, is happening right now.",
+    "This is WKU on a typical Thursday. Hundreds of different activities are happening at the same moment — studying, practising, helping, arguing, eating, and learning. Some students are working towards an exam that is tomorrow. Others are thinking about the weekend. All of them are part of the same place, at the same time, doing the work of becoming who they want to be.",
+    "The university never really stops. Even late at night, when the main building is closed, students are studying in their dormitory rooms, messaging their friends, reviewing tomorrow's lecture notes, or simply lying in bed staring at the ceiling — thinking about the future and wondering if they are making the right choices. Life at WKU is always in motion."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, what are you doing? You look very focused.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'm working on a bug in my code. I've been staring at this for twenty minutes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Are you making any progress?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I think so. I'm not giving up. What are you doing here so late?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'm waiting for Zhibek. She's finishing volleyball practice. Are you eating anything?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "No, I'm not eating. I'm working. I'll eat when I fix this bug.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's not healthy! Look, the canteen is still open. Come on.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Five more minutes. I'm writing the solution right now. I can feel it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Fine. I'm going to get tea. Do you want some?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes please. And maybe a sandwich. I'm starting to feel hungry after all.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "be alive with activity",
+      "ru": "кипеть деятельностью",
+      "context": "The campus is alive with activity on Thursday afternoon."
+    },
+    {
+      "phrase": "a snapshot of",
+      "ru": "моментальный снимок / срез",
+      "context": "The text gives us a snapshot of WKU on a typical Thursday."
+    },
+    {
+      "phrase": "at the moment",
+      "ru": "в данный момент / сейчас",
+      "context": "At the moment, she is searching the catalogue on the computer."
+    },
+    {
+      "phrase": "in all its beautiful chaos",
+      "ru": "во всём своём прекрасном хаосе",
+      "context": "University life, in all its beautiful chaos, is happening right now."
+    },
+    {
+      "phrase": "be in motion",
+      "ru": "быть в движении",
+      "context": "Life at WKU is always in motion — it never really stops."
+    },
+    {
+      "phrase": "stare at the ceiling",
+      "ru": "смотреть в потолок",
+      "context": "Students are lying in bed, staring at the ceiling and thinking."
+    },
+    {
+      "phrase": "give feedback",
+      "ru": "давать обратную связь",
+      "context": "The professor is walking between them, giving feedback."
+    },
+    {
+      "phrase": "work towards",
+      "ru": "работать ради / двигаться к",
+      "context": "Some students are working towards an exam that is tomorrow."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "snapshot",
+      "ipa": "/ˈsnæpʃɒt/",
+      "pos": "noun",
+      "ru": "моментальный снимок / срез",
+      "kz": "лезде сурет",
+      "emoji": "📸",
+      "definition": "a quick look at a situation at one particular moment in time",
+      "example": "The text gives us a snapshot of what life is like at WKU right now.",
+      "collocations": [
+        "a snapshot of",
+        "snapshot in time",
+        "quick snapshot"
+      ]
+    },
+    {
+      "en": "algorithm",
+      "ipa": "/ˈælɡərɪðəm/",
+      "pos": "noun",
+      "ru": "алгоритм",
+      "kz": "алгоритм",
+      "emoji": "💻",
+      "definition": "a set of rules a computer follows to solve a problem",
+      "example": "Amir is concentrating on a particularly difficult algorithm question.",
+      "collocations": [
+        "sorting algorithm",
+        "complex algorithm",
+        "write an algorithm"
+      ]
+    },
+    {
+      "en": "catalogue",
+      "ipa": "/ˈkætəlɒɡ/",
+      "pos": "noun",
+      "ru": "каталог",
+      "kz": "каталог",
+      "emoji": "📋",
+      "definition": "a complete list of items, especially books in a library",
+      "example": "Kamila is searching the library catalogue on the computer.",
+      "collocations": [
+        "library catalogue",
+        "search a catalogue",
+        "online catalogue"
+      ]
+    },
+    {
+      "en": "chaos",
+      "ipa": "/ˈkeɪɒs/",
+      "pos": "noun",
+      "ru": "хаос",
+      "kz": "хаос",
+      "emoji": "🌀",
+      "definition": "a state of complete disorder and confusion",
+      "example": "University life, in all its beautiful chaos, is always happening.",
+      "collocations": [
+        "complete chaos",
+        "beautiful chaos",
+        "chaos and confusion"
+      ]
+    },
+    {
+      "en": "tournament",
+      "ipa": "/ˈtɔːnəmənt/",
+      "pos": "noun",
+      "ru": "турнир",
+      "kz": "турнир",
+      "emoji": "🏆",
+      "definition": "a competition where many players take part in matches",
+      "example": "The volleyball team is practising for a regional tournament.",
+      "collocations": [
+        "regional tournament",
+        "enter a tournament",
+        "win a tournament"
+      ]
+    },
+    {
+      "en": "volunteer",
+      "ipa": "/ˌvɒlənˈtɪər/",
+      "pos": "noun/verb",
+      "ru": "волонтёр / добровольно работать",
+      "kz": "ерікті",
+      "emoji": "🤝",
+      "definition": "a person who works without being paid, by free choice",
+      "example": "Kamila works as a volunteer library assistant on Thursday afternoons.",
+      "collocations": [
+        "volunteer work",
+        "volunteer assistant",
+        "as a volunteer"
+      ]
+    },
+    {
+      "en": "curiosity",
+      "ipa": "/ˌkjʊəriˈɒsɪti/",
+      "pos": "noun",
+      "ru": "любопытство",
+      "kz": "қызығушылық",
+      "emoji": "🔍",
+      "definition": "a strong desire to know or learn about something",
+      "example": "A squirrel is watching the students with great curiosity.",
+      "collocations": [
+        "great curiosity",
+        "out of curiosity",
+        "natural curiosity"
+      ]
+    },
+    {
+      "en": "impressive",
+      "ipa": "/ɪmˈpresɪv/",
+      "pos": "adjective",
+      "ru": "впечатляющий",
+      "kz": "таңғаларлық",
+      "emoji": "🌟",
+      "definition": "causing admiration; very good or surprising",
+      "example": "Zhibek is serving the ball with impressive power.",
+      "collocations": [
+        "impressive performance",
+        "very impressive",
+        "impressive results"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "snapshot",
+      "emoji": "📸",
+      "opts": [
+        "долгий процесс",
+        "моментальный снимок / срез",
+        "подробный анализ",
+        "полная история"
+      ],
+      "correct": "моментальный снимок / срез"
+    },
+    {
+      "id": "p2",
+      "word": "catalogue",
+      "emoji": "📋",
+      "opts": [
+        "расписание",
+        "каталог / список",
+        "задание",
+        "объявление"
+      ],
+      "correct": "каталог / список"
+    },
+    {
+      "id": "p3",
+      "word": "chaos",
+      "emoji": "🌀",
+      "opts": [
+        "порядок",
+        "тишина",
+        "хаос / беспорядок",
+        "скука"
+      ],
+      "correct": "хаос / беспорядок"
+    },
+    {
+      "id": "p4",
+      "word": "tournament",
+      "emoji": "🏆",
+      "opts": [
+        "экзамен",
+        "тренировка",
+        "турнир",
+        "соревнование по учёбе"
+      ],
+      "correct": "турнир"
+    },
+    {
+      "id": "p5",
+      "word": "volunteer",
+      "emoji": "🤝",
+      "opts": [
+        "оплачиваемый работник",
+        "волонтёр / доброволец",
+        "стажёр",
+        "инструктор"
+      ],
+      "correct": "волонтёр / доброволец"
+    },
+    {
+      "id": "p6",
+      "word": "impressive",
+      "emoji": "🌟",
+      "opts": [
+        "обычный",
+        "скучный",
+        "впечатляющий",
+        "трудный"
+      ],
+      "correct": "впечатляющий"
+    }
+  ],
+  "task1Bank": [
+    "programming exam",
+    "algorithm",
+    "library",
+    "volleyball",
+    "canteen",
+    "garden",
+    "dormitory",
+    "third floor"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir is sitting in Room 312 taking a ___ .",
+      "correct": "programming exam"
+    },
+    {
+      "id": "t2",
+      "question": "He is concentrating on a difficult ___ question.",
+      "correct": "algorithm"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila is working as a volunteer assistant in the ___ .",
+      "correct": "library"
+    },
+    {
+      "id": "t4",
+      "question": "The ___ team is practising for a regional tournament.",
+      "correct": "volleyball"
+    },
+    {
+      "id": "t5",
+      "question": "The kitchen staff are preparing dinner in the ___ .",
+      "correct": "canteen"
+    },
+    {
+      "id": "t6",
+      "question": "Biology students are drawing plants in the university ___ .",
+      "correct": "garden"
+    },
+    {
+      "id": "t7",
+      "question": "Amir's exam is taking place on the ___ of the main building.",
+      "correct": "third floor"
+    },
+    {
+      "id": "t8",
+      "question": "Late at night, students are still studying in their ___ rooms.",
+      "correct": "dormitory"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Rustam is finding the exam easy and finishing quickly.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Kamila is helping a first-year student find a book.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "The biology students are arguing about which subject is more interesting.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Zhibek is the captain of the volleyball team.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "The chef is preparing breakfast in the canteen.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "According to the text, the university activity stops late at night.",
+      "correct": "false"
+    },
+    {
+      "id": "c7",
+      "statement": "Amir agrees to have tea and a sandwich when Kamila offers.",
+      "correct": "true"
+    },
+    {
+      "id": "c8",
+      "statement": "Some students are working towards an exam happening the next day.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Amir during the main action of the text?",
+      "opts": [
+        "In the library",
+        "In Room 312 taking an exam",
+        "At volleyball practice",
+        "In the canteen"
+      ],
+      "correct": "In Room 312 taking an exam",
+      "hint": "\"a group of second-year Computer Science students is taking a programming exam... Amir Bekzhanov is sitting in the front row\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam finds the exam question easy.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Rustam is struggling — he is re-reading the same question for the third time.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila doing in the library?",
+      "opts": [
+        "Studying for an exam",
+        "Writing an essay",
+        "Helping a first-year student find a book",
+        "Reading a novel"
+      ],
+      "correct": "Helping a first-year student find a book",
+      "hint": "\"she is helping a first-year student who is looking for a book about Kazakh history\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The biology students near the fountain are arguing about the best ___ in Uralsk.",
+      "correct": "coffee",
+      "hint": "\"Two students near the fountain are arguing — not about biology, but about which café makes the best coffee in Uralsk.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the phrase \"in all its beautiful chaos\" suggest about university life?",
+      "opts": [
+        "University is disorganised and should be better",
+        "University life is messy but also vibrant and meaningful",
+        "Students are unhappy with the chaos",
+        "The university needs more rules"
+      ],
+      "correct": "University life is messy but also vibrant and meaningful",
+      "hint": "The phrase is ironic in a positive way — \"beautiful chaos\" means it's busy and imperfect but alive and exciting."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "The main purpose of the text is to:",
+      "opts": [
+        "criticise students for not studying hard enough",
+        "describe a single event that happened at WKU",
+        "paint a picture of typical university life at one moment in time",
+        "compare different university subjects"
+      ],
+      "correct": "paint a picture of typical university life at one moment in time",
+      "hint": "The text is a \"snapshot\" — a description of many simultaneous activities happening right now at WKU."
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The campus is alive with activity.\" What does this expression mean?",
+      "opts": [
+        "The campus has many plants and animals",
+        "Many things are happening at once on campus",
+        "The campus has good Wi-Fi",
+        "Students are being very noisy"
+      ],
+      "correct": "Many things are happening at once on campus",
+      "hint": "\"alive with activity\" = full of busy, energetic activity. Similar to \"buzzing with activity\"."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "She works as a ___ library assistant — she doesn't get paid for it.",
+      "correct": "volunteer",
+      "hint": "\"volunteer\" = a person who works by free choice without payment."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Impressive\" is closest in meaning to:",
+      "opts": [
+        "ordinary",
+        "disappointing",
+        "admirable and remarkable",
+        "complicated"
+      ],
+      "correct": "admirable and remarkable",
+      "hint": "\"impressive\" = causing admiration. \"She is serving with impressive power\" = her serving is remarkably good."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "An \"algorithm\" in computing is:",
+      "opts": [
+        "a type of programming language",
+        "a set of rules a computer follows to solve a problem",
+        "a software application",
+        "a computer error"
+      ],
+      "correct": "a set of rules a computer follows to solve a problem",
+      "hint": "\"algorithm\" = a step-by-step procedure for calculations or problem-solving. Core concept in computer science."
+    }
+  ]
+}

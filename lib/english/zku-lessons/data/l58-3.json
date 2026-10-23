@@ -1,0 +1,193 @@
+{
+  "id": "l58-3",
+  "moduleNum": 24,
+  "lessonNum": 3,
+  "moduleTitle": "A2 Final Exam",
+  "type": "writing",
+  "title": "Writing Exam (2 tasks)",
+  "xp": 400,
+  "duration": 120,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "writingModel": [
+    "═══ WRITING TASK 1: FORMAL EMAIL ═══",
+    "You are Rustam Seilov, a second-year student at WKU. You attended a public lecture on climate change by Dr. Asel Nurmagambetova. Write a formal email to Dr. Nurmagambetova:\n• Thank her for the lecture\n• Mention one specific point that interested you most\n• Ask one follow-up question\n• Request information about future events",
+    "─── MODEL ANSWER ───",
+    "Dear Dr. Nurmagambetova,",
+    "I am writing to thank you for your lecture on climate change, which was held at WKU on the 12th of October. I am a second-year Economics student and I found the talk both informative and thought-provoking.",
+    "The point I found most striking was your analysis of how Arctic ice melt is accelerating at a rate that has not been recorded in modern history. Although I had read about climate change before, I had not understood the speed of change so clearly before your presentation. As a result, I have started reading more about the cryosphere.",
+    "I would like to ask a follow-up question, if I may: in your view, which regions of Central Asia are most at risk from reduced glacier meltwater in the coming decades? I ask because I am interested in the economic implications for agricultural communities.",
+    "Furthermore, I would be grateful if you could let me know whether you are planning to give any further public lectures or workshops at WKU this year.",
+    "Thank you again for a genuinely inspiring talk. I look forward to hearing from you.",
+    "Yours sincerely,",
+    "Rustam Seilov",
+    "Second-Year Economics, WKU",
+    "rustam.seilov@student.zku.kz",
+    "",
+    "═══ WRITING TASK 2: OPINION ESSAY ═══",
+    "Write an opinion essay (200–250 words) responding to this question:\n\"Should all university students be required to take at least one environmental science course?\"\nSupport your opinion with reasons and examples.",
+    "─── MODEL ANSWER ───",
+    "Should Environmental Science Be Compulsory for All University Students? — by Kamila Seitkali",
+    "In my opinion, all university students should be required to take at least one introductory environmental science course. Although this view may seem to favour one discipline over others, I believe the case for it is strong and applies across all fields of study.",
+    "Firstly, environmental change is no longer a specialised concern. It affects every sector of society — health, economics, engineering, law, and politics. Therefore, a student who does not understand the basic science of climate change is, in an important sense, underprepared for the world they are about to enter. Moreover, environmental literacy is rapidly becoming as important as numeracy or digital literacy.",
+    "Secondly, interdisciplinary thinking produces better outcomes. An economist who understands ecosystems makes better policy recommendations. An engineer who understands environmental impact designs more sustainable products. Furthermore, exposure to environmental science often changes how students think about their own fields — not by replacing their expertise, but by enriching it.",
+    "Despite this, I recognise that compulsory requirements can be poorly implemented. If the course is taught badly or feels irrelevant to students' main subjects, it wastes time and creates resistance. Nevertheless, the solution is better course design, not the removal of the requirement.",
+    "To sum up, environmental science should be required for all students, not as an add-on, but as a foundation. Consequently, universities that adopt this approach will produce graduates who are better equipped to address the defining challenges of the twenty-first century."
+  ],
+  "writingTemplate": [
+    {
+      "key": "task1_head",
+      "prefix": "═══ TASK 1: FORMAL EMAIL ═══\nDear ",
+      "suffix": ",",
+      "placeholder": "Dr./Mr./Ms. + Surname",
+      "hint": "Always start formal emails: \"Dear Dr./Mr./Ms. [Surname],\" ✅"
+    },
+    {
+      "key": "task1_opening",
+      "prefix": "I am writing to ",
+      "suffix": ".",
+      "placeholder": "thank you for / refer to / enquire about",
+      "hint": "\"I am writing to THANK YOU FOR your lecture...\""
+    },
+    {
+      "key": "task1_point",
+      "prefix": "The point I found most ",
+      "suffix": ".",
+      "placeholder": "striking/interesting/useful + was + detail",
+      "hint": "Mention ONE specific point. Use a contrast/addition linker."
+    },
+    {
+      "key": "task1_question",
+      "prefix": "I would like to ask: ",
+      "suffix": "?",
+      "placeholder": "your follow-up question",
+      "hint": "One clear question. Polite: \"I would like to ask, if I may:...\""
+    },
+    {
+      "key": "task1_request",
+      "prefix": "Furthermore, I would be grateful if you could ",
+      "suffix": ".",
+      "placeholder": "let me know / send information about...",
+      "hint": "\"Furthermore\" to add the request for future events."
+    },
+    {
+      "key": "task1_close",
+      "prefix": "I look forward to hearing from you.\nYours sincerely,\n",
+      "suffix": "",
+      "placeholder": "Your full name + details",
+      "hint": "\"Yours sincerely\" = formal close when you know the person's name."
+    },
+    {
+      "key": "task2_title",
+      "prefix": "═══ TASK 2: OPINION ESSAY ═══\n",
+      "suffix": " — by ",
+      "placeholder": "Essay title (the question or your position)",
+      "hint": "Give your essay a clear, specific title."
+    },
+    {
+      "key": "task2_author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "task2_intro",
+      "prefix": "In my opinion, ",
+      "suffix": ".",
+      "placeholder": "your clear position on the question",
+      "hint": "State your opinion directly. \"In my opinion, [position].\""
+    },
+    {
+      "key": "task2_arg1",
+      "prefix": "Firstly, ",
+      "suffix": ". Therefore, ",
+      "placeholder": "first argument + logical consequence",
+      "hint": "\"Firstly, [argument]. Therefore, [result].\""
+    },
+    {
+      "key": "task2_arg2",
+      "prefix": "Secondly, ",
+      "suffix": ". Furthermore, ",
+      "placeholder": "second argument + addition",
+      "hint": "\"Secondly, [argument]. Furthermore, [extra point].\""
+    },
+    {
+      "key": "task2_concess",
+      "prefix": "Despite this, ",
+      "suffix": ". Nevertheless, ",
+      "placeholder": "concession + counter",
+      "hint": "\"Despite this, [acknowledge weakness]. Nevertheless, [counter it].\""
+    },
+    {
+      "key": "task2_close",
+      "prefix": "To sum up, ",
+      "suffix": ". Consequently, ",
+      "placeholder": "summary + final consequence",
+      "hint": "\"To sum up, [position]. Consequently, [implication].\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Formal email phrases",
+      "color": "#003876",
+      "items": [
+        "I am writing to thank you for / enquire about / refer to...",
+        "The point I found most interesting / striking / useful was...",
+        "I would like to ask, if I may:...",
+        "I would be grateful if you could let me know / send...",
+        "Furthermore, / In addition, / I would also like to...",
+        "I look forward to hearing from you. / Yours sincerely,"
+      ]
+    },
+    {
+      "category": "Opinion essay openers",
+      "color": "#1D9E75",
+      "items": [
+        "In my opinion, / In my view, / I strongly believe that...",
+        "Although this view may seem controversial, I believe...",
+        "There are strong arguments on both sides; however, overall...",
+        "The question of whether... is one of the most important of our time.",
+        "It is my position that..."
+      ]
+    },
+    {
+      "category": "Body paragraph linkers",
+      "color": "#1B8FC4",
+      "items": [
+        "Firstly, / Secondly, / Finally,",
+        "Furthermore, / Moreover, / In addition,",
+        "Therefore, / As a result, / Consequently,",
+        "Although / Even though [concession], nevertheless...",
+        "Despite this, / Despite the challenges,",
+        "While it is true that X, I still believe Y..."
+      ]
+    },
+    {
+      "category": "Conclusion phrases",
+      "color": "#C9933B",
+      "items": [
+        "To sum up, / In conclusion, / Overall,",
+        "For these reasons, I believe that...",
+        "Consequently, / As a result, / Therefore,",
+        "The evidence suggests that...",
+        "Universities / Governments / Students who adopt this approach will..."
+      ]
+    }
+  ]
+}

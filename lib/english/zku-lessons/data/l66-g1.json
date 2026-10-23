@@ -1,0 +1,618 @@
+{
+  "id": "l66-g1",
+  "moduleNum": 8,
+  "lessonNum": 5,
+  "moduleTitle": "Gerunds & Infinitives: Advanced",
+  "type": "grammar",
+  "title": "Verbs That Change Meaning: stop, try, remember, forget, regret, go on",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Gerund vs Infinitive: Six Verbs That Change Meaning",
+  "grammarNote": "Шесть самых важных глаголов, после которых выбор герундия или инфинитива МЕНЯЕТ СМЫСЛ. Это один из самых сложных и самых важных аспектов грамматики на уровне B1-B2. Понимание этих различий — признак подлинного мастерства в английском.",
+  "grammarTable": [
+    {
+      "subject": "STOP + gerund",
+      "verb": "activity ENDS",
+      "short": "прекратить делать",
+      "example": "\"She stopped smoking.\" (the habit ended) / \"I stopped working at 6.\" ✅"
+    },
+    {
+      "subject": "STOP + infinitive",
+      "verb": "purpose of stopping",
+      "short": "остановиться, чтобы",
+      "example": "\"She stopped to smoke.\" (stopped something else in order to smoke) ✅"
+    },
+    {
+      "subject": "TRY + gerund",
+      "verb": "experiment/test",
+      "short": "попробовать как эксперимент",
+      "example": "\"Try adding salt.\" (experiment with this) / \"I tried swimming.\" ✅"
+    },
+    {
+      "subject": "TRY + infinitive",
+      "verb": "attempt — may fail",
+      "short": "пытаться (с трудом)",
+      "example": "\"I tried to swim.\" (made effort; possibly didn't manage) ✅"
+    },
+    {
+      "subject": "REMEMBER + gerund",
+      "verb": "past memory",
+      "short": "помнить прошлое",
+      "example": "\"I remember meeting her.\" (I have a memory of it — it happened) ✅"
+    },
+    {
+      "subject": "REMEMBER + inf.",
+      "verb": "future task (don't forget)",
+      "short": "не забудь сделать",
+      "example": "\"Remember to call him.\" (don't forget this future task) ✅"
+    },
+    {
+      "subject": "FORGET + gerund",
+      "verb": "past event (no memory)",
+      "short": "забыть прошлое",
+      "example": "\"I've forgotten meeting her.\" (I met her but have no memory) ✅"
+    },
+    {
+      "subject": "FORGET + infinitive",
+      "verb": "omission of task",
+      "short": "забыть сделать",
+      "example": "\"I forgot to call him.\" (I was supposed to but didn't) ✅"
+    },
+    {
+      "subject": "REGRET + gerund",
+      "verb": "sorry about past action",
+      "short": "сожалеть о прошлом",
+      "example": "\"I regret telling her.\" (I told her — now feel sorry) ✅"
+    },
+    {
+      "subject": "REGRET + infinitive",
+      "verb": "formal intro of bad news",
+      "short": "сожалею сообщить",
+      "example": "\"I regret to inform you...\" (formal — introducing what follows) ✅"
+    },
+    {
+      "subject": "GO ON + gerund",
+      "verb": "continue same activity",
+      "short": "продолжать (то же)",
+      "example": "\"He went on talking for an hour.\" (continued talking) ✅"
+    },
+    {
+      "subject": "GO ON + infinitive",
+      "verb": "move to next stage",
+      "short": "перейти к (новому)",
+      "example": "\"She went on to become famous.\" (progressed to a new stage) ✅"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "STOP: ending vs purpose",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Stop + gerund = the activity STOPS",
+          "example": "\"He stopped working.\" (he no longer works) ✅"
+        },
+        {
+          "form": "Stop + infinitive = purpose (why stopped)",
+          "example": "\"He stopped to work.\" (he stopped [other thing] in order to work) ✅"
+        },
+        {
+          "form": "Test: what stopped?",
+          "example": "\"She stopped running.\" (running stopped ✅) / \"She stopped to run.\" (something else stopped → she ran) ✅"
+        },
+        {
+          "form": "Common error: ✗ stop to smoke = quit",
+          "example": "✅ \"She stopped SMOKING\" = quit. \"She stopped TO SMOKE\" = paused to have a cigarette. ✅"
+        }
+      ]
+    },
+    {
+      "title": "TRY: experiment vs effort",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Try + gerund = experiment/test (\"try out\")",
+          "example": "\"Try adding more sugar.\" (experiment with this adjustment) ✅"
+        },
+        {
+          "form": "Try + infinitive = effort (may fail)",
+          "example": "\"I tried to add sugar but the jar was sealed.\" (effort; difficulty implied) ✅"
+        },
+        {
+          "form": "Context clue: \"see if it helps\"",
+          "example": "\"If you have a headache, try drinking water.\" (experiment with this remedy) ✅"
+        },
+        {
+          "form": "Context clue: \"despite difficulty\"",
+          "example": "\"Despite being tired, she tried to finish the report.\" (effort against difficulty) ✅"
+        }
+      ]
+    },
+    {
+      "title": "REMEMBER / FORGET: past vs future",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Remember/Forget + gerund = PAST event",
+          "example": "\"I remember swimming in the Caspian as a child.\" (memory of past event) ✅"
+        },
+        {
+          "form": "Remember/Forget + infinitive = FUTURE task",
+          "example": "\"Remember to lock the door!\" / \"I forgot to call him.\" (future/unfulfilled obligation) ✅"
+        },
+        {
+          "form": "Test: has the event happened yet?",
+          "example": "\"I remember meeting him\" → yes, happened. \"I remember to meet him\" → not yet, future task. ✅"
+        },
+        {
+          "form": "Forget + gerund (rarely used)",
+          "example": "\"I've forgotten meeting him.\" (unusual but grammatically correct: I met him, have no memory) ✅"
+        }
+      ]
+    },
+    {
+      "title": "REGRET and GO ON: past/future and continuation/progression",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Regret + gerund = sorry about past action",
+          "example": "\"I regret saying that.\" (I said it — now feel sorry) ✅"
+        },
+        {
+          "form": "Regret + infinitive = formal intro of bad news",
+          "example": "\"We regret to announce that...\" / \"I regret to say...\" ✅ (formal; introducing what follows)"
+        },
+        {
+          "form": "Go on + gerund = CONTINUE (same activity)",
+          "example": "\"She went on working despite being exhausted.\" (continued the same activity) ✅"
+        },
+        {
+          "form": "Go on + infinitive = PROGRESS to next stage",
+          "example": "\"After graduating, she went on to become a professor.\" (new stage of life) ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common errors with meaning-change pairs",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I stopped to work.\" (meaning: I quit work)",
+          "example": "✅ \"I stopped WORKING.\" — to quit work = gerund. \"Stopped TO work\" = paused in order to work. ✅"
+        },
+        {
+          "form": "✗ \"Remember to meeting her.\" (mixed forms)",
+          "example": "✅ \"Remember MEETING her.\" (gerund) OR \"Remember TO MEET her.\" (infinitive) — not mixed. ✅"
+        },
+        {
+          "form": "✗ \"We regret informing you that...\"",
+          "example": "✅ \"We regret TO INFORM you that...\" — formal announcement = regret + infinitive. ✅"
+        },
+        {
+          "form": "✗ \"She went on to working.\" (preposition+gerund)",
+          "example": "✅ \"She went on WORKING.\" (gerund, no \"to\") OR \"She went on TO BECOME.\" (to + base form, not gerund). ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Six verbs that CHANGE MEANING:\n\nSTOP:\nSTOP + gerund = activity ENDS: \"She stopped SMOKING.\"\nSTOP + infinitive = purpose: \"She stopped TO SMOKE.\"\n\nTRY:\nTRY + gerund = experiment: \"Try ADDING salt.\"\nTRY + infinitive = effort (may fail): \"I tried TO SWIM.\"\n\nREMEMBER / FORGET:\ngerund = PAST memory: \"I remember MEETING her.\"\ninfinitive = FUTURE task: \"Remember TO CALL him.\"\n\nREGRET:\ngerund = sorry about PAST: \"I regret TELLING her.\"\ninfinitive = formal intro: \"I regret TO INFORM you...\"\n\nGO ON:\ngerund = CONTINUE same: \"She went on TALKING.\"\ninfinitive = PROGRESS to new: \"She went on TO BECOME famous.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "STOP — meaning test.",
+      "text": "\"He was cycling along the river. He stopped ___ admire the view.\"",
+      "opts": [
+        "admiring",
+        "to admire",
+        "Both mean the same here",
+        "admire"
+      ],
+      "correct": "to admire",
+      "hint": "\"Stopped TO ADMIRE\" = he stopped cycling in order to admire the view (purpose). ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "STOP — meaning test.",
+      "text": "\"After fifteen years, she finally stopped ___ .\"",
+      "opts": [
+        "to smoke",
+        "smoking",
+        "smoked",
+        "smoke"
+      ],
+      "correct": "smoking",
+      "hint": "\"Stopped SMOKING\" = the habit ended. She no longer smokes. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "TRY — experiment or effort?",
+      "text": "\"If the WiFi is slow, ___ restarting the router.\" (as a remedy to test)",
+      "opts": [
+        "try to restart",
+        "try restarting",
+        "Both are the same",
+        "to try to restart"
+      ],
+      "correct": "try restarting",
+      "hint": "\"TRY RESTARTING the router.\" — experiment with this as a solution. \"Try out\" meaning. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "TRY — experiment or effort?",
+      "text": "\"She was so exhausted that she couldn't ___ even one more step.\"",
+      "opts": [
+        "try walking",
+        "try to walk",
+        "Both are the same",
+        "try for walking"
+      ],
+      "correct": "try to walk",
+      "hint": "\"TRY TO WALK\" — effort against difficulty (she's exhausted). ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "REMEMBER — past or future?",
+      "text": "\"Don't forget ___ submit your assignment before midnight.\"",
+      "opts": [
+        "to submit",
+        "submitting",
+        "Submit",
+        "submitted"
+      ],
+      "correct": "to submit",
+      "hint": "\"Remember/Don't forget TO SUBMIT\" — future task/obligation. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "REMEMBER — past event.",
+      "text": "\"I can't believe she was at that conference. I ___ (remember / see) her there.\"",
+      "correct": "remember seeing",
+      "hint": "\"I remember SEEING her there.\" — memory of a past event. GERUND after \"remember\" for past. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "FORGET — past or future task?",
+      "text": "\"I ___ (forget) that we had already met. She seemed familiar for some reason.\"",
+      "opts": [
+        "forgot to meet her",
+        "forgot meeting her",
+        "forgot having met her",
+        "Both \"forgot meeting\" and \"forgot having met\" work"
+      ],
+      "correct": "Both \"forgot meeting\" and \"forgot having met\" work",
+      "hint": "\"forgot MEETING her\" ✅ / \"forgot HAVING MET her\" ✅ (perfect gerund for past event before forgetting). ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "REGRET — past or formal intro?",
+      "text": "\"We ___ (regret) ___ (inform) you that your application has been unsuccessful.\"",
+      "opts": [
+        "regret informing",
+        "regret to inform",
+        "Both are correct in formal English",
+        "regret for informing"
+      ],
+      "correct": "regret to inform",
+      "hint": "\"We REGRET TO INFORM you...\" — formal letter formula. Regret + infinitive for bad news announcement. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "REGRET — past action.",
+      "text": "\"She ___ (regret) ___ (not / tell) him the truth when she had the chance.\"",
+      "opts": [
+        "regrets to not tell",
+        "regrets not telling",
+        "regrets not to have told",
+        "Both gerund options work"
+      ],
+      "correct": "regrets not telling",
+      "hint": "\"She REGRETS NOT TELLING him.\" — past action she wishes she'd done differently. Gerund. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "GO ON — continue or progress?",
+      "text": "\"Despite the rain, the musicians went on ___ the concert.\"",
+      "opts": [
+        "to play",
+        "playing",
+        "play",
+        "played"
+      ],
+      "correct": "playing",
+      "hint": "\"Went on PLAYING the concert.\" — continued the same activity despite the rain. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "GO ON — continue or progress?",
+      "text": "\"After completing her undergraduate degree, she went on ___ a PhD.\"",
+      "opts": [
+        "studying",
+        "to study",
+        "Both mean the same here",
+        "for studying"
+      ],
+      "correct": "to study",
+      "hint": "\"Went on TO STUDY a PhD.\" — progressed to a new stage of life/career. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Choose the correct form.",
+      "text": "\"I tried ___ (call) her several times but she didn't answer.\" (effort, possible failure)",
+      "correct": "to call",
+      "hint": "\"I TRIED TO CALL her.\" — effort toward a goal (calling) that didn't succeed (she didn't answer). ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Identify: which type?",
+      "text": "\"I remember locking the door.\" — this means:",
+      "opts": [
+        "I need to lock the door",
+        "I have a memory of locking the door (it's done)",
+        "I usually lock the door",
+        "I forgot to lock the door"
+      ],
+      "correct": "I have a memory of locking the door (it's done)",
+      "hint": "\"Remember + gerund (locking)\" = past memory. The locking happened; I have a memory of it. ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose correctly.",
+      "text": "\"She ___ working, even though everyone had gone home.\" (continued)",
+      "opts": [
+        "went on to work",
+        "went on working",
+        "stopped working",
+        "tried working"
+      ],
+      "correct": "went on working",
+      "hint": "\"She went on WORKING.\" — continued the same activity. Go on + gerund = continuation. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Complex: perfect gerund.",
+      "text": "\"I regret ___ (not / apply) for the scholarship earlier.\"",
+      "opts": [
+        "not applying",
+        "not to apply",
+        "not having applied",
+        "Both \"not applying\" and \"not having applied\" are correct"
+      ],
+      "correct": "Both \"not applying\" and \"not having applied\" are correct",
+      "hint": "\"Regret not APPLYING for the scholarship.\" ✅ / \"Regret not HAVING APPLIED for the scholarship.\" ✅ (perfect gerund for prior past action). Both correct. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Find all four correct uses.",
+      "text": "\"After years of trying ___ quit, she finally stopped ___ and never went back.\" (a) to b) + (c) to smoke or d) smoking?)",
+      "opts": [
+        "to quit / to smoke",
+        "quitting / smoking",
+        "to quit / smoking",
+        "quitting / to smoke"
+      ],
+      "correct": "to quit / smoking",
+      "hint": "\"Trying TO QUIT\" (effort toward goal) + \"stopped SMOKING\" (activity ended). ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He stopped to answer his phone.\" — What did he do?",
+      "opts": [
+        "He stopped using his phone",
+        "He stopped what he was doing in order to answer his phone",
+        "He refused to answer",
+        "He forgot to answer"
+      ],
+      "correct": "He stopped what he was doing in order to answer his phone",
+      "hint": "\"Stop + infinitive\" = purpose. He stopped [something else] in order to answer. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She stopped answering his messages.\" — What happened?",
+      "opts": [
+        "She paused to answer",
+        "She answered and then stopped",
+        "The habit of answering ended",
+        "She decided to answer"
+      ],
+      "correct": "The habit of answering ended",
+      "hint": "\"Stop + gerund\" = activity ENDS. She no longer answers his messages. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Try adding vinegar to the dressing.\" — What does this suggest?",
+      "opts": [
+        "You'll probably fail",
+        "Experiment with this — see if it helps",
+        "It's difficult to add vinegar",
+        "You must add vinegar"
+      ],
+      "correct": "Experiment with this — see if it helps",
+      "hint": "\"Try + gerund\" = experiment. \"Try ADDING vinegar\" = test this remedy/adjustment. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I tried to open the jar but it was too tight.\" — \"tried to open\" implies:",
+      "opts": [
+        "I experimented with opening",
+        "I opened it",
+        "I made an effort but probably failed",
+        "I chose not to open it"
+      ],
+      "correct": "I made an effort but probably failed",
+      "hint": "\"Try + infinitive\" = effort toward a goal (possibly not achieved). The jar was too tight → probably failed. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I remember locking the door.\" vs \"I remember to lock the door.\" — key difference?",
+      "opts": [
+        "Same meaning",
+        "\"Locking\" = past memory; \"to lock\" = future task I don't forget",
+        "\"Remember\" is wrong with infinitive",
+        "\"Locking\" is future; \"to lock\" is past"
+      ],
+      "correct": "\"Locking\" = past memory; \"to lock\" = future task I don't forget",
+      "hint": "Gerund = past memory. Infinitive = future obligation you keep in mind. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I forgot to meet him.\" — What happened?",
+      "opts": [
+        "I met him but have no memory",
+        "I was supposed to meet him but didn't",
+        "I don't want to meet him",
+        "I met him by accident"
+      ],
+      "correct": "I was supposed to meet him but didn't",
+      "hint": "\"Forget + infinitive\" = failure to do something you were supposed to. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We regret to announce that the event has been cancelled.\" — \"to announce\" because:",
+      "opts": [
+        "Announcing is in the past",
+        "\"Regret + infinitive\" introduces formal bad news that follows",
+        "\"Regret + gerund\" would be wrong grammatically",
+        "\"To\" = because it's difficult"
+      ],
+      "correct": "\"Regret + infinitive\" introduces formal bad news that follows",
+      "hint": "\"Regret + infinitive\" = formal introduction of bad news. The announcing is about what follows. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I regret saying that.\" — What does this mean?",
+      "opts": [
+        "I'm going to say something bad",
+        "I said it and now feel sorry",
+        "I refused to say it",
+        "I plan to say something soon"
+      ],
+      "correct": "I said it and now feel sorry",
+      "hint": "\"Regret + gerund\" = the action is in the past; you feel remorse about it. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She went on to write three more novels.\" — What does this mean?",
+      "opts": [
+        "She continued writing the same novel",
+        "She progressed to a new stage — wrote more novels after this point",
+        "She wrote three novels and then went on holiday",
+        "She tried to write three more novels"
+      ],
+      "correct": "She progressed to a new stage — wrote more novels after this point",
+      "hint": "\"Go on + infinitive\" = progression to a new activity or stage. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Despite the interruptions, she went on explaining.\" — What happened?",
+      "opts": [
+        "She moved to a new topic",
+        "She continued with the same explanation",
+        "She stopped explaining",
+        "She tried to explain"
+      ],
+      "correct": "She continued with the same explanation",
+      "hint": "\"Go on + gerund\" = CONTINUE the same activity. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is CORRECT?",
+      "opts": [
+        "\"We regret informing you that the event was cancelled.\" (formal letter)",
+        "\"She stopped to smoke\" (meaning: she quit smoking)",
+        "\"I forgot to meeting her.\" (past event)",
+        "\"Remember to calling him tomorrow.\" (future task)"
+      ],
+      "correct": "None of these — all have errors",
+      "hint": "All have errors: \"regret to inform\" not \"informing\"; \"stopped smoking\" = quit; \"forgot meeting\" not \"to meeting\"; \"remember to call\" not \"to calling.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which correctly expresses: \"She was supposed to lock the door but didn't\"?",
+      "opts": [
+        "\"She forgot locking the door.\"",
+        "\"She forgot to lock the door.\"",
+        "\"She remembered to lock the door.\"",
+        "\"She stopped locking the door.\""
+      ],
+      "correct": "\"She forgot to lock the door.\"",
+      "hint": "\"Forgot TO LOCK the door.\" = forget + infinitive for a task you were supposed to do. ✅"
+    }
+  ]
+}

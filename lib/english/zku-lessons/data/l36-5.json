@@ -1,0 +1,374 @@
+{
+  "id": "l36-5",
+  "moduleNum": 2,
+  "lessonNum": 7,
+  "moduleTitle": "What's Happening Now?",
+  "type": "test",
+  "title": "Module 2 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the text \"A Snapshot of WKU\", where is Amir during the exam?",
+      "opts": [
+        "In the library",
+        "In Room 312",
+        "In the canteen",
+        "In the sports hall"
+      ],
+      "correct": "In Room 312",
+      "hint": "\"a group of second-year Computer Science students is taking a programming exam\" in Room 312."
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "In the text, Kamila is a paid library employee.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Kamila works as a volunteer library assistant\" — volunteer means unpaid, by free choice."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What are the two biology students near the fountain arguing about?",
+      "opts": [
+        "Their field assignment",
+        "Which café has the best coffee",
+        "The library catalogue",
+        "The volleyball tournament"
+      ],
+      "correct": "Which café has the best coffee",
+      "hint": "\"Two students near the fountain are arguing — not about biology, but about which café makes the best coffee in Uralsk.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The text says that even late at night, students are lying in bed ___ at the ceiling.",
+      "correct": "staring",
+      "hint": "\"students are studying... lying in bed staring at the ceiling — thinking about the future.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the final paragraph of the reading mainly suggest?",
+      "opts": [
+        "Students should sleep more",
+        "University life goes on even after hours",
+        "The dormitories are too noisy",
+        "Students are unhappy at night"
+      ],
+      "correct": "University life goes on even after hours",
+      "hint": "\"The university never really stops. Even late at night... students are studying...\" — university is always active."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Life at WKU is always in motion\" means:",
+      "opts": [
+        "Students travel a lot",
+        "There is always something happening at WKU",
+        "WKU has a good transport system",
+        "Students are very sporty"
+      ],
+      "correct": "There is always something happening at WKU",
+      "hint": "\"in motion\" = always moving, always active. Never stopping — always something happening."
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In the phone call, where is Rustam when he calls Kamila?",
+      "opts": [
+        "In the library",
+        "In the lab",
+        "Outside the canteen",
+        "In the classroom"
+      ],
+      "correct": "Outside the canteen",
+      "hint": "\"I'm standing outside the canteen.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek is sending Kamila a text message about the tournament.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"She's already sending you a VOICE MESSAGE about it.\" Not a text."
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam says someone next to them is playing ___ loudly.",
+      "correct": "music",
+      "hint": "\"Someone next to us is playing music — it's quite loud actually.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir doing instead of joining his friends?",
+      "opts": [
+        "Sleeping",
+        "Studying in the library",
+        "Fixing code in the lab",
+        "Having dinner alone"
+      ],
+      "correct": "Fixing code in the lab",
+      "hint": "\"Amir is still in the lab. He's fixing some code.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila order for dinner?",
+      "opts": [
+        "Tea and a sandwich",
+        "Soup and bread",
+        "Pizza and salad",
+        "Coffee and cake"
+      ],
+      "correct": "Soup and bread",
+      "hint": "\"Soup and bread, please.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says she will ignore Zhibek's voice message until after eating.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I'm ignoring it.\" + she says not to look at the tournament draw until after eating."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ in the library right now.\" Choose the correct form.",
+      "opts": [
+        "study",
+        "is studying",
+        "studies",
+        "are studying"
+      ],
+      "correct": "is studying",
+      "hint": "\"right now\" = Present Continuous. She → is studying."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The -ing form of \"run\" is:",
+      "opts": [
+        "runing",
+        "running",
+        "runns",
+        "runied"
+      ],
+      "correct": "running",
+      "hint": "run: CVC → double n + ing: running."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ you coming to dinner?\" — \"No, I ___ .\"",
+      "correct": "Are / am not",
+      "hint": "\"Are you...?\" → Present Continuous question. Short answer: \"No, I'm not.\""
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm loving this song!\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"love\" is stative — use Present Simple",
+        "The subject is wrong",
+        "The tense should be past"
+      ],
+      "correct": "\"love\" is stative — use Present Simple",
+      "hint": "\"love\" is stative. ✅ \"I love this song!\" — never \"I'm loving...\""
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ every day, but today she ___ football.\" Choose the correct pair.",
+      "opts": [
+        "studies / is playing",
+        "is studying / plays",
+        "studies / plays",
+        "is studying / is playing"
+      ],
+      "correct": "studies / is playing",
+      "hint": "\"every day\" = PS habit. \"today\" = PC temporary/different. studies / is playing. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Listen! Someone ___ music in the corridor.\"",
+      "opts": [
+        "plays",
+        "played",
+        "is playing",
+        "was playing"
+      ],
+      "correct": "is playing",
+      "hint": "\"Listen!\" = signal for right now → PC: \"is playing.\""
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"What does she doing?\" is a correctly formed Present Continuous question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"What IS she DOING?\" — use \"is/am/are\", NOT \"does/do\" for PC questions."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"My English ___ this semester — I can feel it!\" Choose correctly.",
+      "opts": [
+        "improves",
+        "is improving",
+        "improved",
+        "improve"
+      ],
+      "correct": "is improving",
+      "hint": "Changing/developing trend = PC: \"My English is improving.\" Getting better over a period."
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The campus is alive with activity.\" What does this mean?",
+      "opts": [
+        "The campus has a gym",
+        "Many things are happening at once",
+        "The campus is very noisy",
+        "Students are working late"
+      ],
+      "correct": "Many things are happening at once",
+      "hint": "\"alive with activity\" = full of busy, energetic simultaneous activity."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "She is checking the ___ draw for next weekend's competition.",
+      "correct": "tournament",
+      "hint": "A \"tournament draw\" = the schedule/bracket for a competition (volleyball, football, etc.)."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is scrolling through her phone.\" What does \"scroll through\" mean?",
+      "opts": [
+        "Type a message",
+        "Make a call",
+        "Move through content on a screen",
+        "Delete messages"
+      ],
+      "correct": "Move through content on a screen",
+      "hint": "\"scroll through\" = move up or down through content on a phone/screen."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Kamila works as a volunteer library assistant.\" A volunteer:",
+      "opts": [
+        "is paid for their work",
+        "works by free choice without pay",
+        "is a library manager",
+        "studies library science"
+      ],
+      "correct": "works by free choice without pay",
+      "hint": "\"volunteer\" = a person who works freely and without payment."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The team is practising for a regional tournament.\" A tournament is:",
+      "opts": [
+        "a single match",
+        "a competition between many players/teams",
+        "a training session",
+        "a type of exam"
+      ],
+      "correct": "a competition between many players/teams",
+      "hint": "\"tournament\" = a competition where many players or teams play a series of matches."
+    }
+  ]
+}

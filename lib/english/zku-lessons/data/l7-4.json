@@ -1,0 +1,263 @@
+{
+  "id": "l7-4",
+  "moduleNum": 7,
+  "lessonNum": 4,
+  "moduleTitle": "Food and drinks",
+  "title": "How much / How many",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "How much / How many — считаем и спрашиваем о количестве",
+  "grammarNote": "\"How much\" и \"How many\" — оба переводятся как \"Сколько?\", но используются с РАЗНЫМИ типами существительных. Ключевой вопрос: это существительное ИСЧИСЛЯЕМОЕ или НЕИСЧИСЛЯЕМОЕ?\n\n🔢 ИСЧИСЛЯЕМЫЕ (Countable) — можно посчитать поштучно:\n   1 apple, 2 apples, 3 apples... → \"How MANY apples?\"\n   1 baursak, 5 baursaks... → \"How MANY baursaks?\"\n   1 student, 20 students... → \"How MANY students?\"\n\n💧 НЕИСЧИСЛЯЕМЫЕ (Uncountable) — нельзя посчитать поштучно:\n   water, rice, soup, bread, milk, tea, money, time, food...\n   → Нельзя сказать \"1 water, 2 waters\"!\n   → \"How MUCH water?\" · \"How MUCH rice?\" · \"How MUCH money?\"\n\n⚠️ Главное правило:\nHOW MANY + существительное во МНОЖЕСТВЕННОМ числе (apples, eggs, students)\nHOW MUCH + существительное БЕЗ множественного числа (water, rice, bread)\n\nОтвечаем на \"How much / many?\":\na lot of · much · many · a few · a little · not much · not many · none",
+  "grammarTable": [
+    {
+      "subject": "Countable nouns (можно посчитать)",
+      "verb": "How many?",
+      "short": "мн. число (-s/-es)",
+      "example": "How many apples? · How many eggs? · How many baursaks? · How many students?"
+    },
+    {
+      "subject": "Uncountable nouns (нельзя посчитать)",
+      "verb": "How much?",
+      "short": "без мн. числа!",
+      "example": "How much water? · How much rice? · How much soup? · How much money?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Исчисляемые существительные (Countable) — еда и напитки",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Есть единственное И множественное число",
+          "example": "an apple → apples · an egg → eggs · a baursak → baursaks · a grape → grapes"
+        },
+        {
+          "form": "Перед ними: a/an (ед.ч.) или число",
+          "example": "one apple, two apples · a baursak, three baursaks · an orange, five oranges"
+        },
+        {
+          "form": "How MANY + countable (мн.ч.)?",
+          "example": "\"How many apples do you want?\" · \"How many eggs are in the fridge?\" · \"How many portions?\""
+        },
+        {
+          "form": "Ответы с countable nouns:",
+          "example": "\"Many / A lot of / A few / Not many / None\" + noun → \"A few apples.\" · \"Not many eggs.\""
+        },
+        {
+          "form": "Примеры из столовой ЗКУ им. М. Утемісова:",
+          "example": "How many baursaks? · How many salads? · How many portions? · How many students are in the queue?"
+        }
+      ]
+    },
+    {
+      "title": "Неисчисляемые существительные (Uncountable) — еда и напитки",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "НЕТ множественного числа!",
+          "example": "❌ \"waters\" / \"rices\" / \"soups\" / \"breads\" — неправильно! (в большинстве случаев)"
+        },
+        {
+          "form": "Перед ними: some/any, a glass of, a cup of...",
+          "example": "\"some water\" · \"a glass of juice\" · \"a cup of tea\" · \"a bowl of soup\" · \"a loaf of bread\""
+        },
+        {
+          "form": "How MUCH + uncountable?",
+          "example": "\"How much water do you drink?\" · \"How much rice is in the dish?\" · \"How much tea do you want?\""
+        },
+        {
+          "form": "Ответы с uncountable nouns:",
+          "example": "\"Much / A lot of / A little / Not much / None\" → \"A little water.\" · \"Not much rice.\""
+        },
+        {
+          "form": "Самые частые uncountable в теме еды:",
+          "example": "water · milk · tea · coffee · juice · rice · bread · soup · meat · fish · sugar · salt · oil · butter · flour"
+        }
+      ]
+    },
+    {
+      "title": "Ответы на How much? и How many? — a lot of / much / many / a few / a little",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "a lot of + countable / uncountable (оба!)",
+          "example": "\"I drink a lot of water.\" · \"There are a lot of students.\" — универсально!"
+        },
+        {
+          "form": "many + countable (утв. и вопрос)",
+          "example": "\"I have many apples.\" · \"How many students are there?\" — для исчисляемых."
+        },
+        {
+          "form": "much + uncountable (в основном – и ?)",
+          "example": "\"I don't drink much coffee.\" · \"How much sugar?\" — для неисчисляемых."
+        },
+        {
+          "form": "a few + countable (немного, но есть)",
+          "example": "\"I have a few apples.\" (3-4) · \"There are a few options.\" — небольшое количество."
+        },
+        {
+          "form": "a little + uncountable (немного, но есть)",
+          "example": "\"I have a little water.\" · \"Add a little salt.\" — небольшое количество."
+        },
+        {
+          "form": "not many / not much (мало)",
+          "example": "\"There isn't much bread left.\" · \"There aren't many vegetarian options.\""
+        }
+      ]
+    },
+    {
+      "title": "В столовой ЗКУ им. М. Утемісова — практические примеры",
+      "color": "#C9933B",
+      "bg": "#FEF9EF",
+      "border": "#FDE68A",
+      "rows": [
+        {
+          "form": "\"How much soup do you want?\" → \"A bowl, please.\"",
+          "example": "soup = uncountable → How MUCH. Ответ с контейнером: a bowl of soup."
+        },
+        {
+          "form": "\"How many baursaks are there?\" → \"A lot! Take some.\"",
+          "example": "baursaks = countable → How MANY."
+        },
+        {
+          "form": "\"How much does the lunch cost?\" → \"600 tenge.\"",
+          "example": "money = uncountable → How MUCH. (Сколько стоит? = How much is it?)"
+        },
+        {
+          "form": "\"How many calories are in beshbarmak?\"",
+          "example": "calories = countable → How MANY."
+        },
+        {
+          "form": "\"How much rice comes with the main course?\"",
+          "example": "rice = uncountable → How MUCH."
+        },
+        {
+          "form": "\"How many glasses of water do you drink per day?\"",
+          "example": "glasses = countable → How MANY. Но water само по себе — uncountable!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Секрет How much / How many — один вопрос:\n\"Могу ли я сказать ONE ___, TWO ___s?\"\n\n✅ Можно посчитать → How MANY?\n   one apple, two apples → How MANY apples?\n   one baursak, five baursaks → How MANY baursaks?\n\n❌ Нельзя посчитать → How MUCH?\n   one water? ❌ → How MUCH water?\n   one rice? ❌ → How MUCH rice?\n   one money? ❌ → How MUCH money?\n\n💡 Универсальные ответы:\na lot of = много (работает с обоими!)\na few = немного штук (только countable)\na little = немного вещества (только uncountable)\n\n🍽️ Запомни самые частые uncountable в теме еды:\nwater · milk · tea · coffee · rice · bread · soup · meat · sugar · salt\n→ Всегда How MUCH, никогда How MANY!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose How much or How many.",
+      "text": "___ water do you drink every day, Ruslan?",
+      "opts": [
+        "How many",
+        "How much",
+        "How some",
+        "How any"
+      ],
+      "correct": "How much",
+      "hint": "Water = uncountable (cannot say \"1 water, 2 waters\") → How MUCH water."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose How much or How many.",
+      "text": "___ baursaks are there on the table today?",
+      "opts": [
+        "How many",
+        "How much",
+        "How some",
+        "How any"
+      ],
+      "correct": "How many",
+      "hint": "Baursaks = countable (1 baursak, 2 baursaks) → How MANY baursaks."
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"How many rice do you want?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Rice = uncountable → \"How MUCH rice do you want?\" You cannot say \"1 rice, 2 rices\"."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write How much or How many.",
+      "text": "___ does the lunch cost at the WKU cafeteria? — Only 600 tenge!",
+      "correct": "How much",
+      "hint": "Money/price = uncountable → How MUCH does it cost? (Сколько стоит?)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct answer.",
+      "text": "\"How much soup is there?\" — ___",
+      "opts": [
+        "A few.",
+        "Many.",
+        "A little.",
+        "Some eggs."
+      ],
+      "correct": "A little.",
+      "hint": "Soup is uncountable → answer with \"a little\" (not \"a few\" which is for countable)."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct answer.",
+      "text": "\"How many students are in the queue?\" — ___",
+      "opts": [
+        "A little.",
+        "Much.",
+        "A lot of students.",
+        "Some water."
+      ],
+      "correct": "A lot of students.",
+      "hint": "Students = countable → answer with \"a lot of students\" or \"many students\"."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Write How much or How many.",
+      "text": "___ eggs do you want in your omelette? — Two, please.",
+      "correct": "How many",
+      "hint": "Eggs = countable (1 egg, 2 eggs, 3 eggs) → How MANY eggs."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "How many money do you have?",
+        "How much apples are on the table?",
+        "How many portions of rice do you want?",
+        "How much students eat in the cafeteria?"
+      ],
+      "correct": "How many portions of rice do you want?",
+      "hint": "\"Portions\" = countable → How MANY portions. Others: money/rice/students — wrong choice of much/many."
+    }
+  ],
+  "questions": []
+}

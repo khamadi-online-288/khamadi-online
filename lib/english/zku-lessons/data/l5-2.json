@@ -1,0 +1,265 @@
+{
+  "id": "l5-2",
+  "moduleNum": 5,
+  "lessonNum": 2,
+  "moduleTitle": "I can / I can't",
+  "title": "Can you help me?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Arlan",
+      "text": "Malika! Can you help me? I have a big problem.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Of course! What's wrong? Can I see?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "I need to design the slides for my CS presentation. But I can't draw at all!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Ha! I can help with that — I can draw and design very well. Can you explain the topic to me?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Yes, I can explain it. The topic is Artificial Intelligence. It's about how computers can learn.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Interesting! I can make beautiful illustrations for it. I can also use Canva — can you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "No, I can't use Canva. I only know coding tools. Can you show me how?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Sure! And can you help me too? I can't understand my Economics maths homework.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Yes, I can! I'm good at maths. I can explain it step by step. Can you come to the library at 5?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Yes, I can! Perfect. Oh — can you also translate this English article for me?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "I can read it with you, but I can't translate it perfectly. My English is okay but not perfect.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "That's fine! We can read it together. You help me with maths, I help you with design!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Deal! Can we start right now? My presentation is tomorrow morning!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "Tomorrow morning?! Why didn't you say so? Come — I can work fast when I need to!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arlan",
+      "text": "Thank you, Malika. I really can't do this without you!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Malika",
+      "text": "That's what friends are for! Together we can do anything!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "design",
+      "emoji": "🎨",
+      "opts": [
+        "рисовать вручную",
+        "создавать дизайн",
+        "программировать",
+        "печатать"
+      ],
+      "correct": "создавать дизайн"
+    },
+    {
+      "id": "p2",
+      "word": "explain",
+      "emoji": "💬",
+      "opts": [
+        "спрашивать",
+        "объяснять",
+        "переводить",
+        "исправлять"
+      ],
+      "correct": "объяснять"
+    },
+    {
+      "id": "p3",
+      "word": "translate",
+      "emoji": "🌐",
+      "opts": [
+        "читать",
+        "переводить",
+        "писать",
+        "понимать"
+      ],
+      "correct": "переводить"
+    },
+    {
+      "id": "p4",
+      "word": "presentation",
+      "emoji": "📊",
+      "opts": [
+        "домашнее задание",
+        "тест",
+        "презентация",
+        "расписание"
+      ],
+      "correct": "презентация"
+    },
+    {
+      "id": "p5",
+      "word": "step by step",
+      "emoji": "👣",
+      "opts": [
+        "быстро",
+        "наизусть",
+        "шаг за шагом",
+        "наугад"
+      ],
+      "correct": "шаг за шагом"
+    },
+    {
+      "id": "p6",
+      "word": "deal!",
+      "emoji": "🤝",
+      "opts": [
+        "нет!",
+        "договорились!",
+        "подожди!",
+        "помогай!"
+      ],
+      "correct": "договорились!"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Arlan needs help with his presentation design.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Malika can use Canva for design.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Arlan can use Canva very well.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Malika asks Arlan to help her with maths homework.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Arlan can translate the English article perfectly.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Arlan's presentation is due the next morning.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "arlan",
+      "name": "Arlan",
+      "city": "Astana",
+      "emoji": "👨‍💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "CS student, Group 201"
+    },
+    {
+      "id": "malika",
+      "name": "Malika",
+      "city": "Shymkent",
+      "emoji": "👩‍🎨",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Economics student, Group 202"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Needs help with presentation slides and design.",
+      "correctCharId": "arlan"
+    },
+    {
+      "id": "s2",
+      "text": "Can draw and use Canva for beautiful illustrations.",
+      "correctCharId": "malika"
+    },
+    {
+      "id": "s3",
+      "text": "Can explain the Artificial Intelligence topic clearly.",
+      "correctCharId": "arlan"
+    },
+    {
+      "id": "s4",
+      "text": "Needs help understanding Economics maths homework.",
+      "correctCharId": "malika"
+    },
+    {
+      "id": "s5",
+      "text": "Is good at maths and can explain it step by step.",
+      "correctCharId": "arlan"
+    },
+    {
+      "id": "s6",
+      "text": "Says \"Together we can do anything!\" to encourage the friend.",
+      "correctCharId": "malika"
+    }
+  ]
+}

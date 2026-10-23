@@ -1,0 +1,558 @@
+{
+  "id": "l45-g2",
+  "moduleNum": 11,
+  "lessonNum": 4,
+  "moduleTitle": "What Would You Do?",
+  "type": "grammar",
+  "title": "First vs Second Conditional: Real vs Imaginary",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "First vs Second Conditional — Real vs Imaginary",
+  "grammarNote": "Первое условное предложение (First Conditional) описывает РЕАЛЬНЫЕ, ВЕРОЯТНЫЕ ситуации в будущем. Второе (Second Conditional) — ВООБРАЖАЕМЫЕ, МАЛОВЕРОЯТНЫЕ или НЕРЕАЛЬНЫЕ. Выбор между ними определяет то, насколько реальным говорящий считает условие.",
+  "grammarTable": [
+    {
+      "subject": "First Conditional",
+      "verb": "if + Present Simple → will",
+      "short": "real/likely",
+      "example": "\"If you study hard, you will pass.\" (real plan, likely to happen)"
+    },
+    {
+      "subject": "Second Conditional",
+      "verb": "if + Past Simple → would",
+      "short": "imaginary",
+      "example": "\"If you studied harder, you would pass.\" (imaginary — you're not studying hard)"
+    },
+    {
+      "subject": "1st: real future",
+      "verb": "Present Simple + will",
+      "short": "→ will",
+      "example": "\"If it rains tomorrow, I'll stay in.\" (possible future — might rain)"
+    },
+    {
+      "subject": "2nd: not real now",
+      "verb": "Past Simple + would",
+      "short": "→ would",
+      "example": "\"If it rained every day, I'd move away.\" (imaginary — it doesn't rain every day)"
+    },
+    {
+      "subject": "1st: open condition",
+      "verb": "If I have time,",
+      "short": "→ I'll go",
+      "example": "\"If I have time this weekend, I'll go to the museum.\" (maybe I'll have time)"
+    },
+    {
+      "subject": "2nd: closed (not real)",
+      "verb": "If I had time,",
+      "short": "→ I'd go",
+      "example": "\"If I had time, I'd go to the museum.\" (I don't have time — it's imaginary)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "The key difference: how LIKELY is the situation?",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "1st = possible/likely future",
+          "example": "\"If she applies, she might get in.\" (She might apply — it's possible)"
+        },
+        {
+          "form": "2nd = imaginary/unlikely",
+          "example": "\"If she applied, she might get in.\" (She probably won't apply — imaginary)"
+        },
+        {
+          "form": "Same result — different reality",
+          "example": "1st: Real possibility. 2nd: The speaker doesn't expect it to happen."
+        },
+        {
+          "form": "Test: Do you expect it to happen?",
+          "example": "Probably YES → First Conditional. Probably NO / imaginary → Second Conditional."
+        }
+      ]
+    },
+    {
+      "title": "Compare the two: same situation, different meaning",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "\"If I have money, I'll go to Scotland.\"",
+          "example": "1st Conditional → I might get money. This is a real plan."
+        },
+        {
+          "form": "\"If I had money, I'd go to Scotland.\"",
+          "example": "2nd Conditional → I don't have money. This is a dream/wish."
+        },
+        {
+          "form": "\"If she studies, she'll pass.\"",
+          "example": "1st → She might study. Encouraging (realistic hope)."
+        },
+        {
+          "form": "\"If she studied, she'd pass.\"",
+          "example": "2nd → She doesn't study. Resigned/critical (not expected)."
+        },
+        {
+          "form": "\"If I see him, I'll tell him.\"",
+          "example": "1st → I might see him (real possibility). I'll pass the message."
+        },
+        {
+          "form": "\"If I saw him, I'd tell him.\"",
+          "example": "2nd → I don't expect to see him (imaginary). Dream scenario."
+        }
+      ]
+    },
+    {
+      "title": "Mixed signals — watch the tense carefully",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Present Simple in if-clause = 1st",
+          "example": "\"If I GO to Almaty, I'll visit the museum.\" (1st — I might go)"
+        },
+        {
+          "form": "Past Simple in if-clause = 2nd",
+          "example": "\"If I WENT to Almaty, I'd visit the museum.\" (2nd — I'm not going)"
+        },
+        {
+          "form": "\"Will\" in result = 1st",
+          "example": "\"If I have time, I WILL help you.\" (real — I might have time)"
+        },
+        {
+          "form": "\"Would\" in result = 2nd",
+          "example": "\"If I had time, I WOULD help you.\" (imaginary — I don't have time)"
+        }
+      ]
+    },
+    {
+      "title": "Zero Conditional for review",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Zero: general truth / always true",
+          "example": "\"If you heat water to 100°C, it boils.\" (always true — scientific fact)"
+        },
+        {
+          "form": "Both verbs = Present Simple",
+          "example": "\"If I miss the bus, I walk.\" (my regular habit — always true for me)"
+        },
+        {
+          "form": "Compare all three:",
+          "example": "Zero → always. First → possible. Second → imaginary."
+        },
+        {
+          "form": "The three conditionals compared",
+          "example": "Zero: \"If water freezes, it expands.\" / 1st: \"If it freezes tonight, I'll be careful.\" / 2nd: \"If I lived in Alaska, I'd be used to cold.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три условных предложения — как выбрать:\n① ZERO: always true / general fact → if + Present, Present\n\"If you mix red and blue, you get purple.\"\n② FIRST: real possibility in the future → if + Present, WILL\n\"If it rains, I'll take an umbrella.\"\n③ SECOND: imaginary / unlikely → if + Past, WOULD\n\"If it rained every day, I'd move to the desert.\"\n\n💡 Главный вопрос: \"Насколько это реально?\"\n→ Возможно на самом деле = First Conditional\n→ Воображаемо / маловероятно = Second Conditional\n\n⚠️ Та же ситуация — разное значение:\n\"If I HAVE money, I'LL go.\" = У меня могут появиться деньги (реально).\n\"If I HAD money, I'D go.\" = У меня нет денег (воображаемо).",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose First or Second Conditional.",
+      "text": "\"If Kamila ___ hard, she ___ the exam.\" (she is currently studying — it's likely)",
+      "opts": [
+        "studies / will pass",
+        "studied / would pass",
+        "studies / would pass",
+        "studied / will pass"
+      ],
+      "correct": "studies / will pass",
+      "hint": "She IS studying → it's realistic → FIRST Conditional. \"If she STUDIES, she WILL PASS.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose First or Second Conditional.",
+      "text": "\"If Rustam ___ a car, he ___ drive everywhere.\" (he doesn't have one — imaginary)",
+      "opts": [
+        "has / will drive",
+        "had / would drive",
+        "has / would drive",
+        "had / will drive"
+      ],
+      "correct": "had / would drive",
+      "hint": "He doesn't have a car → imaginary → SECOND Conditional. \"If he HAD a car, he WOULD DRIVE.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Which conditional is this?",
+      "text": "\"If I see Amir tomorrow, I'll give him the book.\"",
+      "opts": [
+        "Zero",
+        "First",
+        "Second",
+        "Third"
+      ],
+      "correct": "First",
+      "hint": "\"If I SEE Amir\" = I might see him (real possibility) → FIRST Conditional. \"see\" (present) + \"will give\". ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Which conditional is this?",
+      "text": "\"If I saw Amir tomorrow, I'd give him the book.\"",
+      "opts": [
+        "Zero",
+        "First",
+        "Second",
+        "Third"
+      ],
+      "correct": "Second",
+      "hint": "\"If I SAW Amir\" = I don't expect to see him (imaginary) → SECOND Conditional. \"saw\" (past) + \"would give\". ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct conditional.",
+      "text": "She hasn't applied to Edinburgh. She says: \"If I ___ there, my English ___ improve a lot.\"",
+      "opts": [
+        "go / will",
+        "went / would",
+        "go / would",
+        "went / will"
+      ],
+      "correct": "went / would",
+      "hint": "She's not going → imaginary → SECOND Conditional. \"If I WENT there, my English WOULD improve.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "What is the difference in meaning?",
+      "text": "\"If she applies, she'll get in.\" vs \"If she applied, she'd get in.\"",
+      "opts": [
+        "No difference",
+        "1st = she might apply (real); 2nd = she won't apply (imaginary)",
+        "1st = past; 2nd = future",
+        "1st is more polite"
+      ],
+      "correct": "1st = she might apply (real); 2nd = she won't apply (imaginary)",
+      "hint": "1st = possible/likely. 2nd = imaginary/unlikely. Same situation — different reality."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct conditional.",
+      "text": "\"If the weather ___ (be) good this weekend, we ___ (go) hiking.\" (real plan)",
+      "correct": "is / will go",
+      "hint": "Real plan — might happen → FIRST Conditional. \"If the weather IS good, we WILL GO hiking.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with the correct conditional.",
+      "text": "\"If the weather ___ (be) always sunny in Uralsk, I ___ (not / leave).\" (imaginary)",
+      "correct": "were / wouldn't leave",
+      "hint": "Imaginary (weather is not always sunny) → SECOND. \"If the weather WERE sunny, I WOULDN'T LEAVE.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which is Zero Conditional?",
+      "text": "Choose the Zero Conditional sentence.",
+      "opts": [
+        "\"If it rains, I'll stay in.\"",
+        "\"If I lived closer, I'd walk.\"",
+        "\"If water reaches 100°C, it boils.\"",
+        "\"If I see her, I'll say hello.\""
+      ],
+      "correct": "\"If water reaches 100°C, it boils.\"",
+      "hint": "Zero Conditional = always true / scientific fact. \"If + present, present.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct sentence for a \"real plan\".",
+      "text": "Kamila is thinking about applying for the scholarship. She says:",
+      "opts": [
+        "\"If I applied, I'd get it.\"",
+        "\"If I apply, I'll get it.\"",
+        "\"If I applied, I'll get it.\"",
+        "\"If I apply, I'd get it.\""
+      ],
+      "correct": "\"If I apply, I'll get it.\"",
+      "hint": "Real plan (she might apply) → FIRST Conditional: if + present → will. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct sentence for a \"dream scenario\".",
+      "text": "Amir doesn't have the money to start a company. He says:",
+      "opts": [
+        "\"If I have funding, I'll start a company.\"",
+        "\"If I had funding, I'd start a company.\"",
+        "\"If I have funding, I'd start a company.\"",
+        "\"If I had funding, I'll start a company.\""
+      ],
+      "correct": "\"If I had funding, I'd start a company.\"",
+      "hint": "Dream (he doesn't have funding) → SECOND Conditional: if + past → would. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "What does \"If I see him\" vs \"If I saw him\" tell us?",
+      "text": "\"If I SEE him, I'll tell him.\" vs \"If I SAW him, I'd tell him.\"",
+      "opts": [
+        "No difference — both future",
+        "1st: I might see him; 2nd: I don't expect to see him",
+        "1st is more formal",
+        "2nd is in the past"
+      ],
+      "correct": "1st: I might see him; 2nd: I don't expect to see him",
+      "hint": "\"If I SEE\" = might happen (1st). \"If I SAW\" = unlikely/imaginary (2nd). Same words — different expectation!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I have time, I'll help you.\" — This is:",
+      "opts": [
+        "Zero",
+        "First",
+        "Second",
+        "Third"
+      ],
+      "correct": "First",
+      "hint": "\"have\" (present) + \"will help\" → FIRST Conditional. Real possibility."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had time, I'd help you.\" — This is:",
+      "opts": [
+        "Zero",
+        "First",
+        "Second",
+        "Third"
+      ],
+      "correct": "Second",
+      "hint": "\"had\" (past) + \"would help\" → SECOND Conditional. Imaginary — I don't have time."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "First Conditional is used when the situation is:",
+      "opts": [
+        "Imaginary and unlikely",
+        "Real and possible",
+        "Always true",
+        "In the past"
+      ],
+      "correct": "Real and possible",
+      "hint": "1st Conditional = real possibility. \"If it rains, I'll take an umbrella.\" (It might rain)"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Second Conditional is used when the situation is:",
+      "opts": [
+        "Real and likely",
+        "Always true",
+        "Imaginary or unlikely",
+        "In the past"
+      ],
+      "correct": "Imaginary or unlikely",
+      "hint": "2nd Conditional = imaginary / unlikely. \"If I were rich, I'd buy a house.\" (I'm not rich)"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If ___ (rain), I'll cancel the trip.\" vs \"If ___ (rain), I'd cancel.\"",
+      "opts": [
+        "it rains / it rained",
+        "it would rain / it rains",
+        "it rained / it rains",
+        "it rains / it would rain"
+      ],
+      "correct": "it rains / it rained",
+      "hint": "1st: if + PRESENT. 2nd: if + PAST. \"If it RAINS\" (1st) / \"If it RAINED\" (2nd)."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I ___ (study) abroad, I would improve faster.\" (imaginary)",
+      "opts": [
+        "study",
+        "will study",
+        "studied",
+        "would study"
+      ],
+      "correct": "studied",
+      "hint": "Imaginary → 2nd Conditional → Past Simple in if-clause: \"If I STUDIED abroad...\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If she ___ (get) the scholarship, she ___ (move) to Edinburgh.\"",
+      "correct": "gets / will move",
+      "hint": "Real possibility (she might get it) → FIRST. \"If she GETS the scholarship, she WILL MOVE.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If water freezes, it expands.\" — This is:",
+      "opts": [
+        "First",
+        "Second",
+        "Zero",
+        "Third"
+      ],
+      "correct": "Zero",
+      "hint": "Scientific/general truth → Zero Conditional. Both verbs = Present Simple. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the key question to decide between 1st and 2nd Conditional?",
+      "opts": [
+        "How polite is it?",
+        "How likely is the situation to happen?",
+        "How long is the sentence?",
+        "Which subject is used?"
+      ],
+      "correct": "How likely is the situation to happen?",
+      "hint": "Likely/possible → 1st. Unlikely/imaginary → 2nd. The key is reality vs imagination."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If she applied, she'd get in.\" — The speaker thinks:",
+      "opts": [
+        "She will probably apply",
+        "She is applying now",
+        "She probably won't apply (imaginary)",
+        "She applied last year"
+      ],
+      "correct": "She probably won't apply (imaginary)",
+      "hint": "2nd Conditional = imaginary/unlikely. \"If she APPLIED\" (past) → speaker doesn't expect it."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I have the money, I'll go.\" vs \"If I had the money, I'd go.\" — Choose the IMAGINARY one.",
+      "opts": [
+        "If I have...",
+        "If I had...",
+        "Both are imaginary",
+        "Neither is imaginary"
+      ],
+      "correct": "If I had...",
+      "hint": "\"If I HAD\" (past) = 2nd Conditional = imaginary. I don't have the money."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If she ___ (not / be) so busy, we ___ (see) her more.\" (imaginary)",
+      "correct": "weren't / would see",
+      "hint": "Imaginary → 2nd. \"If she WEREN'T so busy, we WOULD SEE her more.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "A friend is encouraging you to study. They say:",
+      "opts": [
+        "\"If you studied, you'd pass.\"",
+        "\"If you study, you'll pass.\"",
+        "\"If you study, you'd pass.\"",
+        "\"If you studied, you'll pass.\""
+      ],
+      "correct": "\"If you study, you'll pass.\"",
+      "hint": "Encouragement = real possibility = 1st Conditional. \"If you STUDY, you WILL PASS.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "You are discussing a dream. You say:",
+      "opts": [
+        "\"If I win the lottery, I'll travel.\"",
+        "\"If I won the lottery, I'd travel.\"",
+        "\"If I win, I'd travel.\"",
+        "\"If I won, I will travel.\""
+      ],
+      "correct": "\"If I won the lottery, I'd travel.\"",
+      "hint": "Dream/unlikely → 2nd Conditional. \"If I WON the lottery, I'D TRAVEL.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the if-clause tense signal?",
+      "opts": [
+        "How long the action takes",
+        "How likely the situation is",
+        "The exact time in the future",
+        "The speaker's mood"
+      ],
+      "correct": "How likely the situation is",
+      "hint": "Present in if-clause = likely (1st). Past in if-clause = imaginary (2nd). The tense signals reality."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Select the correct set of forms.",
+      "opts": [
+        "Zero: if + present, present | 1st: if + past, will | 2nd: if + present, would",
+        "Zero: if + present, present | 1st: if + present, will | 2nd: if + past, would",
+        "All use if + present, will",
+        "All use if + past, would"
+      ],
+      "correct": "Zero: if + present, present | 1st: if + present, will | 2nd: if + past, would",
+      "hint": "Zero: P+P | 1st: P+will | 2nd: Past+would. ✅"
+    }
+  ]
+}

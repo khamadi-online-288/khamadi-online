@@ -1,0 +1,443 @@
+{
+  "id": "l54-3",
+  "moduleNum": 20,
+  "lessonNum": 3,
+  "moduleTitle": "Work & Career",
+  "type": "listening",
+  "title": "A Job Interview at WKU",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Good morning, Amir. Please sit down. I'm Asel Nurmagambetova, Head of the Student Internship Programme.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Good morning, Ms Nurmagambetova. Thank you for the opportunity to interview today.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Tell me a little about yourself and why you're applying for this internship.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'm a second-year Computer Science student at WKU. I've been working on personal coding projects since I was fifteen, and I've been preparing for this internship for three months. I'm applying because I want real experience before I graduate.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Have you had any work experience before?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Not formally. But I've been building a student timetable app for WKU in my spare time. It's not finished, but it's working, and about thirty students have been using it for the past two months.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "That's impressive. What have you been learning most recently?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've been studying machine learning for the past six weeks. I've been watching online courses and practising with real datasets.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What's your biggest weakness?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've been told I sometimes focus too deeply on one problem and miss the bigger picture. I've been working on this by setting time limits on tasks and checking in with colleagues more regularly.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Good self-awareness. Why should we choose you over other candidates?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Because I've already been doing this work. I haven't been waiting for someone to give me experience — I've been creating it myself.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Where do you see yourself in five years?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've been thinking about this a lot. Ideally, I'd like to be working as a machine learning engineer on problems that have real social impact — perhaps in education or healthcare.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Thank you, Amir. Do you have any questions for us?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes — how long have the current interns been working on the main project? I'd love to understand the level of contribution expected.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "The current team has been working together for about eight weeks. We'll be in touch within three days. Thank you for coming in.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "internship programme",
+      "emoji": "🎓",
+      "opts": [
+        "постоянная работа",
+        "программа стажировки",
+        "курс обучения",
+        "оценка"
+      ],
+      "correct": "программа стажировки"
+    },
+    {
+      "id": "p2",
+      "word": "spare time",
+      "emoji": "⏰",
+      "opts": [
+        "рабочее время",
+        "свободное время",
+        "обеденный перерыв",
+        "семестр"
+      ],
+      "correct": "свободное время"
+    },
+    {
+      "id": "p3",
+      "word": "dataset",
+      "emoji": "📊",
+      "opts": [
+        "программа",
+        "набор данных",
+        "задание",
+        "проект"
+      ],
+      "correct": "набор данных"
+    },
+    {
+      "id": "p4",
+      "word": "self-awareness",
+      "emoji": "🪞",
+      "opts": [
+        "самоуверенность",
+        "самосознание",
+        "самокритика",
+        "самопрезентация"
+      ],
+      "correct": "самосознание"
+    },
+    {
+      "id": "p5",
+      "word": "candidate",
+      "emoji": "👤",
+      "opts": [
+        "сотрудник",
+        "кандидат",
+        "интервьюер",
+        "стажёр"
+      ],
+      "correct": "кандидат"
+    },
+    {
+      "id": "p6",
+      "word": "social impact",
+      "emoji": "🌍",
+      "opts": [
+        "коммерческая прибыль",
+        "социальное воздействие",
+        "техническая инновация",
+        "образование"
+      ],
+      "correct": "социальное воздействие"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir has been preparing for this internship for three months.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Amir has had formal work experience before.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The student timetable app has been used by about 30 students for two months.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Amir has been studying artificial intelligence for six weeks.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Amir says his weakness is losing focus on deadlines.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Amir says he wants to work in education or healthcare in five years.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "CS student applying for tech internship — uses Present Perfect Continuous throughout"
+    },
+    {
+      "id": "inter",
+      "name": "Interviewer",
+      "city": "Uralsk",
+      "emoji": "👩‍💼",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Head of Internship Programme — formal interview structure"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been working on personal coding projects since age fifteen.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "Has been building a student timetable app used by about 30 students for 2 months.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Has been studying machine learning for the past six weeks using online courses.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "Has been told his weakness is focusing too deeply on one problem.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Says he hasn't been waiting for experience — he has been creating it himself.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Says the current team has been working together for about eight weeks.",
+      "correctCharId": "inter"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Amir been preparing for this internship?",
+      "opts": [
+        "One month",
+        "Two months",
+        "Three months",
+        "Six months"
+      ],
+      "correct": "Three months",
+      "hint": "\"I've been preparing for this internship for three months.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir has had formal work experience before this interview.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Not formally.\" — he has no formal work experience yet."
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What project has Amir been building in his spare time?",
+      "opts": [
+        "A game app",
+        "An AI chatbot",
+        "A student timetable app for WKU",
+        "A social media platform"
+      ],
+      "correct": "A student timetable app for WKU",
+      "hint": "\"I've been building a student timetable app for WKU in my spare time.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Amir been studying for the past six weeks?",
+      "opts": [
+        "Web design",
+        "Machine learning",
+        "Cybersecurity",
+        "Artificial intelligence ethics"
+      ],
+      "correct": "Machine learning",
+      "hint": "\"I've been studying machine learning for the past six weeks.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's self-described weakness?",
+      "opts": [
+        "Poor communication",
+        "Focusing too deeply on one problem and missing the bigger picture",
+        "Slow typing",
+        "Forgetting deadlines"
+      ],
+      "correct": "Focusing too deeply on one problem and missing the bigger picture",
+      "hint": "\"I've been told I sometimes focus too deeply on one problem and miss the bigger picture.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir say the company should choose him?",
+      "opts": [
+        "He has a high GPA",
+        "He has been creating experience himself, not waiting for it",
+        "He knows the CEO",
+        "He is the best student"
+      ],
+      "correct": "He has been creating experience himself, not waiting for it",
+      "hint": "\"I haven't been waiting for someone to give me experience — I've been creating it myself.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What field does Amir hope to work in?",
+      "opts": [
+        "Finance",
+        "Construction",
+        "Machine learning with social impact (education/healthcare)",
+        "Law"
+      ],
+      "correct": "Machine learning with social impact (education/healthcare)",
+      "hint": "\"Working as a machine learning engineer on problems that have real social impact — perhaps in education or healthcare.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has the current intern team been working together?",
+      "opts": [
+        "Four weeks",
+        "Six weeks",
+        "Eight weeks",
+        "Ten weeks"
+      ],
+      "correct": "Eight weeks",
+      "hint": "\"The current team has been working together for about eight weeks.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been preparing for three months.\" — This tense is:",
+      "opts": [
+        "Past Simple",
+        "Present Perfect Simple",
+        "Present Perfect Continuous",
+        "Future Perfect"
+      ],
+      "correct": "Present Perfect Continuous",
+      "hint": "\"have/has + been + -ing\" = Present Perfect Continuous. Duration that started in the past and continues now. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been building an app.\" — \"building\" is:",
+      "opts": [
+        "Past participle",
+        "Gerund only",
+        "Present participle in Present Perfect Continuous",
+        "Infinitive"
+      ],
+      "correct": "Present participle in Present Perfect Continuous",
+      "hint": "In \"have been BUILDING\" — \"building\" is the present participle (-ing form) after \"have been\". ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The team ___ (work) together for eight weeks.\"",
+      "correct": "has been working",
+      "hint": "Duration up to now → Present Perfect Continuous. \"The team HAS BEEN WORKING together for eight weeks.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How long have you been studying machine learning?\" — Best answer:",
+      "opts": [
+        "\"Since six weeks.\"",
+        "\"For six weeks.\"",
+        "\"Six weeks ago.\"",
+        "\"Since I was a student.\""
+      ],
+      "correct": "\"For six weeks.\"",
+      "hint": "Duration of time with Present Perfect Continuous → \"FOR + period\". \"FOR six weeks.\" ✅ (SINCE = starting point in time, not duration)"
+    }
+  ]
+}

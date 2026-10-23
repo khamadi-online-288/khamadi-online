@@ -1,0 +1,538 @@
+{
+  "id": "l55-g2",
+  "moduleNum": 21,
+  "lessonNum": 5,
+  "moduleTitle": "Telling Stories",
+  "type": "grammar",
+  "title": "Narrative Sequencers: after, before, when, by the time",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Narrative Sequencers — Connecting Events in a Story",
+  "grammarNote": "Sequencers (соединители последовательности) помогают структурировать повествование и показывать порядок событий. В рассказе о прошлом они определяют, какое время глагола использовать: Past Simple или Past Perfect. Важно знать, какой sequencer сочетается с каким временем.",
+  "grammarTable": [
+    {
+      "subject": "WHEN",
+      "verb": "can use PS or PP",
+      "short": "одновременно или раньше",
+      "example": "\"When she arrived, he left.\" (sim) / \"When she arrived, he had left.\" (he left first)"
+    },
+    {
+      "subject": "BEFORE",
+      "verb": "earlier action = PP",
+      "short": "до того как",
+      "example": "\"Before she arrived, I had finished.\" (finish = earlier) / \"Before leaving, she called me.\""
+    },
+    {
+      "subject": "AFTER",
+      "verb": "earlier action = PP",
+      "short": "после того как",
+      "example": "\"After he had finished, he left.\" (finish = earlier) / \"After finishing, he left.\""
+    },
+    {
+      "subject": "BY THE TIME",
+      "verb": "later event = PS → PP",
+      "short": "к тому времени",
+      "example": "\"By the time he arrived, she had already left.\" (arrive = later → leave = PP)"
+    },
+    {
+      "subject": "ONCE",
+      "verb": "completion trigger",
+      "short": "как только / когда",
+      "example": "\"Once I had finished, I felt relieved.\" (once = when completed — triggers PP for the earlier action)"
+    },
+    {
+      "subject": "AS SOON AS",
+      "verb": "immediate sequence",
+      "short": "как только (мгновенно)",
+      "example": "\"As soon as she arrived, she called me.\" / \"As soon as he had spoken, he regretted it.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "WHEN — two meanings",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "WHEN + PS = simultaneous / immediate",
+          "example": "\"When she walked in, everyone stopped talking.\" (same moment → both PS)"
+        },
+        {
+          "form": "WHEN + PS / PP = earlier action",
+          "example": "\"When I arrived, she HAD ALREADY LEFT.\" (she left before I arrived → PP)"
+        },
+        {
+          "form": "WHEN + PP = narrative flashback",
+          "example": "\"When Amir looked back, he realised he had made the right decision.\" (realise = PS, made = earlier = PP)"
+        },
+        {
+          "form": "WHEN at the start vs end of sentence",
+          "example": "\"When the bus left, I was still there.\" / \"I was still there when the bus left.\" (same meaning, word order differs)"
+        }
+      ]
+    },
+    {
+      "title": "BEFORE and AFTER",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "BEFORE + PS = the later event",
+          "example": "\"Before she arrived (PS), I had finished (PP).\" — 'before' introduces the LATER event."
+        },
+        {
+          "form": "AFTER + PP = the earlier event",
+          "example": "\"After he had finished (PP), he left (PS).\" — 'after' introduces the EARLIER event."
+        },
+        {
+          "form": "AFTER/BEFORE + gerund (no subject)",
+          "example": "\"After finishing the report, she sent it.\" / \"Before leaving, he said goodbye.\" (no subject → gerund)"
+        },
+        {
+          "form": "Common narrative pair",
+          "example": "\"She had packed her bags before leaving.\" / \"After arriving, she unpacked.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "BY THE TIME — deadline structure",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Structure: by the time + PS → PP",
+          "example": "\"By the time she ARRIVED (PS), he had GONE (PP).\" — by = deadline; earlier action = PP."
+        },
+        {
+          "form": "Reversed order works too",
+          "example": "\"He had gone by the time she arrived.\" ✅ Same meaning, different word order."
+        },
+        {
+          "form": "\"By the time I...\" in stories",
+          "example": "\"By the time I reached the hospital, the operation had already started.\" ✅"
+        },
+        {
+          "form": "With future context",
+          "example": "\"By the time you read this, I will have left.\" (future perfect — note: different tense)"
+        }
+      ]
+    },
+    {
+      "title": "ONCE and AS SOON AS",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "ONCE + PP = completion then result",
+          "example": "\"Once she had finished crying, she felt better.\" (finish = earlier; feel better = result)"
+        },
+        {
+          "form": "ONCE + PS = sequential events",
+          "example": "\"Once he arrived, we started the meeting.\" (simple sequence — no PP needed)"
+        },
+        {
+          "form": "AS SOON AS = immediate next action",
+          "example": "\"As soon as the alarm rang, she got up.\" ✅ (immediate → both PS)"
+        },
+        {
+          "form": "AS SOON AS + PP for emphasis",
+          "example": "\"As soon as he had sat down, she started talking.\" (sat down = earlier by a moment → PP for emphasis)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Narrative sequencers + past tenses:\n\nWHEN:\n- одновременно → оба Past Simple\n- одно раньше другого → раннее = PP\n\nBEFORE = позже / AFTER = раньше:\n\"Before she arrived, I had finished.\" ✅ (finish = раньше)\n\"After he had finished, he left.\" ✅ (finish = раньше)\n\nBY THE TIME:\n\"By the time + PS → PP\"\n\"By the time I arrived, she had already left.\" ✅\n\nONCE + завершение → результат:\n\"Once I had finished, I felt better.\" ✅\n\n💡 Правило: КОГДА одно событие явно РАНЬШЕ другого\n→ раннее событие = PAST PERFECT\nПростая цепочка событий без акцента на порядок\n→ можно Past Simple",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct tense after \"when\".",
+      "text": "\"When she arrived, he ___ (already / leave).\"",
+      "opts": [
+        "has already left",
+        "had already left",
+        "left already",
+        "was already leaving"
+      ],
+      "correct": "had already left",
+      "hint": "\"When + PS\" followed by earlier action → PP. \"When she arrived, he HAD ALREADY LEFT.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form after \"before\".",
+      "text": "\"Before the exam started, she ___ (review) all her notes.\"",
+      "opts": [
+        "reviewed",
+        "has reviewed",
+        "had reviewed",
+        "was reviewing"
+      ],
+      "correct": "had reviewed",
+      "hint": "\"Before\" introduces the LATER event → earlier action = PP. \"Before the exam started (PS), she HAD REVIEWED (PP).\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"By the time Amir ___ (arrive) at the exam, everything ___ (go) wrong.\"",
+      "correct": "arrived / had gone",
+      "hint": "\"By the time + PS\" → earlier event = PP. \"By the time Amir ARRIVED, everything HAD GONE wrong.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct form after \"after\".",
+      "text": "\"After he ___ (finish) the presentation, he felt relieved.\"",
+      "opts": [
+        "finished",
+        "has finished",
+        "had finished",
+        "finishes"
+      ],
+      "correct": "had finished",
+      "hint": "\"After\" introduces the EARLIER event → PP. \"After he HAD FINISHED (PP), he felt relieved (PS).\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "When is \"before + gerund\" correct?",
+      "text": "\"___ leaving, he said goodbye.\" Is this correct?",
+      "opts": [
+        "No — must use PP",
+        "Yes — \"before + gerund\" when there's no subject",
+        "No — must say \"before he leaves\"",
+        "Yes but only in informal speech"
+      ],
+      "correct": "Yes — \"before + gerund\" when there's no subject",
+      "hint": "\"Before LEAVING, he said goodbye.\" ✅ When there's no separate subject, use gerund after before/after."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with \"when\", \"before\", \"after\", or \"by the time\".",
+      "text": "\"___ I arrived at the party, most of the food had been eaten.\"",
+      "correct": "By the time",
+      "hint": "\"BY THE TIME I arrived + PP\" — most food eaten BEFORE my arrival. \"By the time I ARRIVED, most food HAD BEEN EATEN.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose: should this use PP?",
+      "text": "\"She finished her essay, then submitted it, then went to sleep.\" — Should Past Perfect be used?",
+      "opts": [
+        "Yes — always use PP for sequences",
+        "No — simple sequence in story = Past Simple is fine",
+        "PP for all except \"went to sleep\"",
+        "PP for \"finished\" only"
+      ],
+      "correct": "No — simple sequence in story = Past Simple is fine",
+      "hint": "Simple sequential story with \"then\" = Past Simple. PP is for when you specifically signal that one action is BEFORE another reference point. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form with \"once\".",
+      "text": "\"Once she ___ (receive) the results, she called her parents.\"",
+      "opts": [
+        "received",
+        "had received",
+        "has received",
+        "Both \"received\" and \"had received\" are correct"
+      ],
+      "correct": "Both \"received\" and \"had received\" are correct",
+      "hint": "\"Once\" can use PS (simple sequence) or PP (completion emphasis). \"Once she RECEIVED/HAD RECEIVED...\" — both ✅."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct structure.",
+      "text": "\"As soon as he ___ home, he ___ a shower.\"",
+      "opts": [
+        "had got / took",
+        "got / took",
+        "got / had taken",
+        "was getting / had taken"
+      ],
+      "correct": "got / took",
+      "hint": "\"As soon as\" = immediate sequence → both Past Simple. \"As soon as he GOT home, he TOOK a shower.\" ✅ (both actions in quick sequence)"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct verb form.",
+      "text": "\"When Rustam walked into the office, the professor ___ (already / leave).\"",
+      "correct": "had already left",
+      "hint": "\"When + PS\" followed by earlier action → PP. \"HAD ALREADY LEFT.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the most natural version.",
+      "text": "\"She had already finished by the time I arrived.\" — Is this correct?",
+      "opts": [
+        "No — \"by the time\" must come first",
+        "Yes — \"by the time\" can come at the end",
+        "No — \"had already\" should be \"has already\"",
+        "Yes, but only in informal English"
+      ],
+      "correct": "Yes — \"by the time\" can come at the end",
+      "hint": "\"She HAD ALREADY FINISHED by the time I arrived.\" ✅ \"By the time\" can go at either end of the sentence."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the correct narrative pair.",
+      "text": "Choose the sentence that correctly shows sequence.",
+      "opts": [
+        "\"Before she arrived, I finished.\"",
+        "\"Before she arrived, I had finished.\"",
+        "\"Before she arrived, I have finished.\"",
+        "\"Before she arrived, I was finishing.\""
+      ],
+      "correct": "\"Before she arrived, I had finished.\"",
+      "hint": "\"Before + PS\" → earlier action = PP. \"Before she ARRIVED (PS), I HAD FINISHED (PP).\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"By the time she arrived, he ___ left.\" Choose.",
+      "opts": [
+        "had",
+        "has",
+        "was",
+        "would have"
+      ],
+      "correct": "had",
+      "hint": "\"By the time + PS → HAD + PP.\" \"By the time she arrived, he HAD left.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Before the exam started, she ___ all her notes.\" Choose.",
+      "opts": [
+        "reviewed",
+        "had reviewed",
+        "reviews",
+        "has reviewed"
+      ],
+      "correct": "had reviewed",
+      "hint": "\"Before + PS\" → earlier action = PP. \"She HAD REVIEWED all her notes before the exam started.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"After he ___ (finish), he went home.\"",
+      "opts": [
+        "finished",
+        "had finished",
+        "has finished",
+        "finishes"
+      ],
+      "correct": "had finished",
+      "hint": "\"After\" introduces EARLIER action → PP. \"After he HAD FINISHED, he went home.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"When she walked in, everyone ___ (stop) talking.\" — simultaneous",
+      "opts": [
+        "had stopped",
+        "stopped",
+        "was stopping",
+        "has stopped"
+      ],
+      "correct": "stopped",
+      "hint": "Simultaneous/immediate → Past Simple. \"When she walked in, everyone STOPPED.\" ✅ No PP needed for simultaneous."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ the lecture started, she had already taken her seat.\"",
+      "correct": "By the time",
+      "hint": "\"BY THE TIME + PS → PP.\" \"By the time the lecture started, she had already taken her seat.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Before leaving, she said goodbye.\" — \"leaving\" here is:",
+      "opts": [
+        "Past participle",
+        "Gerund (no subject needed with before/after)",
+        "Present Continuous",
+        "Infinitive"
+      ],
+      "correct": "Gerund (no subject needed with before/after)",
+      "hint": "\"Before LEAVING\" = before + gerund. When there's no separate subject, use the -ing form after before/after. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Once she ___ finished, she felt better.\" Choose.",
+      "opts": [
+        "has",
+        "had",
+        "was",
+        "would have"
+      ],
+      "correct": "had",
+      "hint": "\"Once she HAD FINISHED\" = once + PP, expressing completion. Then result follows. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"As soon as he arrived, she ___.\" Best choice:",
+      "opts": [
+        "had left",
+        "left",
+        "has left",
+        "was leaving"
+      ],
+      "correct": "left",
+      "hint": "\"As soon as\" = immediate sequence → both PS. \"As soon as he arrived, she LEFT.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Before\" introduces the ___ event in the sequence.",
+      "opts": [
+        "Earlier",
+        "Later",
+        "Simultaneous",
+        "Repeated"
+      ],
+      "correct": "Later",
+      "hint": "\"BEFORE\" + the LATER event → the earlier event uses PP. \"Before she arrived (later), I had finished (earlier PP).\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"After\" introduces the ___ event in the sequence.",
+      "opts": [
+        "Later",
+        "Earlier",
+        "Simultaneous",
+        "Future"
+      ],
+      "correct": "Earlier",
+      "hint": "\"AFTER\" + EARLIER event (PP) → result/later action (PS). \"After he had finished (earlier), he left (later).\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She finished her project, said goodbye, and left.\" — These use ___ tense.",
+      "correct": "Past Simple",
+      "hint": "Simple narrative sequence → Past Simple. No PP needed when \"then\" or simple sequence is clear. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"By the time the professor arrived, Rustam ___ waiting for an hour.\"",
+      "opts": [
+        "was",
+        "had been",
+        "has been",
+        "were"
+      ],
+      "correct": "had been",
+      "hint": "\"By the time + PS → Past Perfect.\" \"Rustam HAD BEEN waiting for an hour.\" (Perfect Continuous for duration before another past) ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct?",
+      "opts": [
+        "\"When she arrived, he left.\"",
+        "\"When she arrived, he had left.\"",
+        "\"When she had arrived, he had left.\"",
+        "All three are possible but with different meanings"
+      ],
+      "correct": "All three are possible but with different meanings",
+      "hint": "All three CAN work: (1) he left AS she arrived; (2) he left BEFORE she arrived; (3) both actions both earlier (rare). Context determines which. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Once I had arrived, I felt better.\" — \"had arrived\" here is:",
+      "opts": [
+        "Wrong — should be Past Simple",
+        "Past Perfect showing the arrival was complete before feeling better",
+        "Present Perfect",
+        "Past Continuous"
+      ],
+      "correct": "Past Perfect showing the arrival was complete before feeling better",
+      "hint": "\"Once I had ARRIVED (PP completion) → I felt better (result).\" ✅ PP after \"once\" is natural for showing completion."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ the bus left, she was still running towards the stop.\"",
+      "correct": "By the time / When",
+      "hint": "\"BY THE TIME / WHEN the bus left, she was still running.\" Both work — \"by the time\" implies a deadline missed. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"After finishing the report, she submitted it.\" Can we expand this to use a subject and Past Perfect?",
+      "opts": [
+        "No — cannot use PP with \"after\"",
+        "Yes: \"After she had finished the report, she submitted it.\"",
+        "No — must use Past Simple both times",
+        "Yes but only in formal writing"
+      ],
+      "correct": "Yes: \"After she had finished the report, she submitted it.\"",
+      "hint": "\"After she HAD FINISHED (PP) → she submitted (PS).\" ✅ Gerund form and full clause with PP both work with \"after.\""
+    }
+  ]
+}

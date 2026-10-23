@@ -1,0 +1,519 @@
+{
+  "id": "l83-g2",
+  "moduleNum": 25,
+  "lessonNum": 6,
+  "moduleTitle": "Listening & Speaking Strategies",
+  "title": "Grammar: Discourse Markers in Spoken English",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Дискурсивные маркеры в разговорной речи — устная речь богаче письменной:\n\nПОДТВЕРЖДЕНИЕ:\nRight · OK · Sure · Exactly · Absolutely · Indeed · Precisely\n\nНАЧАЛО ОТВЕТА / РАЗМЫШЛЕНИЯ:\nWell... · So... · Actually... · Basically... · You know...\n\"Well, that's an interesting question.\" · \"So, what I think is...\"\n\nСМЕНА ТЕМЫ:\nAnyway · By the way · Incidentally · Speaking of which · On another note\n\"Anyway, back to the main point...\" · \"By the way, did you know...?\"\n\nВЫРАЖЕНИЕ HESITATION (паузы):\nYou know... · I mean... · Let me see... · How can I put it...\n\n💡 В разговорной английской речи эти маркеры звучат естественно.\nВ академическом тексте — избегай \"you know\", \"basically\", \"anyway\"!",
+  "grammarTable": [
+    {
+      "subject": "Hedges",
+      "verb": "kind of / sort of / a bit / somewhat / rather",
+      "short": "softening or approximating",
+      "example": "\"It's kind of difficult to explain.\" / \"I sort of see what you mean.\" / \"That's a bit fast.\""
+    },
+    {
+      "subject": "Fillers",
+      "verb": "well / um / uh / you know / I mean / like",
+      "short": "buying time / maintaining floor",
+      "example": "\"Well, I think the issue is...\" / \"You know, it's complicated.\" / \"I mean, that's one way to look at it.\""
+    },
+    {
+      "subject": "Response tokens",
+      "verb": "right / yeah / OK / exactly / indeed / of course",
+      "short": "showing engagement / agreement",
+      "example": "\"Right.\" / \"Exactly.\" / \"Of course.\" / \"Indeed.\" / \"Fair enough.\""
+    },
+    {
+      "subject": "Reformulators",
+      "verb": "I mean / that is / in other words / or rather",
+      "short": "clarifying or correcting",
+      "example": "\"I mean, what I'm trying to say is...\" / \"Or rather, it's more like...\" / \"In other words...\""
+    },
+    {
+      "subject": "Stance markers",
+      "verb": "actually / basically / honestly / frankly / to be honest",
+      "short": "signalling speaker's stance",
+      "example": "\"Actually, I disagree.\" / \"Honestly, it was much harder.\" / \"To be honest, I'm not sure.\""
+    },
+    {
+      "subject": "Topic managers",
+      "verb": "anyway / so / right / now / by the way / speaking of which",
+      "short": "shifting topic or returning to main point",
+      "example": "\"Anyway, the point is...\" / \"So, where were we?\" / \"By the way, have you heard about...\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Hedges: Softening and Approximating",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "\"Kind of / sort of\" — informal softening",
+          "example": "\"It's kind of hard to explain without an example.\" / \"I sort of understand, but not fully.\""
+        },
+        {
+          "form": "\"A bit / a little\" — minimal softening",
+          "example": "\"That was a bit too fast for me.\" / \"Could you speak a little more slowly?\""
+        },
+        {
+          "form": "\"Somewhat / rather\" — more formal alternatives",
+          "example": "\"The explanation was somewhat unclear.\" / \"I find this rather difficult.\""
+        },
+        {
+          "form": "Use hedges to be polite, tentative, or approximate",
+          "example": "\"She's sort of in charge.\" / \"It was around five o'clock.\" / \"He's a bit of a nervous speaker.\""
+        }
+      ]
+    },
+    {
+      "title": "Fillers: Managing the Floor in Spoken English",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"Well\" — transitional; introducing a response or shift",
+          "example": "\"Well, that's one way to look at it.\" / \"Well, I'm not sure I agree.\""
+        },
+        {
+          "form": "\"You know\" — assuming shared knowledge; seeking solidarity",
+          "example": "\"You know what I mean, right?\" / \"It's just, you know, a bit complicated.\""
+        },
+        {
+          "form": "\"I mean\" — clarifying or correcting what was just said",
+          "example": "\"It was difficult — I mean, nearly impossible.\" / \"I mean, that's not quite what I said.\""
+        },
+        {
+          "form": "\"Like\" — informal: approximating, giving examples, quoting",
+          "example": "\"She was like, totally confused.\" / \"It's like a kind of signposting technique.\""
+        }
+      ]
+    },
+    {
+      "title": "Response Tokens: Showing You're Listening",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"Right\" / \"I see\" — acknowledgement",
+          "example": "Speaker A: \"So the problem is the pace.\" Speaker B: \"Right.\" (I understand)"
+        },
+        {
+          "form": "\"Exactly\" / \"Precisely\" — strong agreement",
+          "example": "\"That's exactly what I was thinking.\" / \"Precisely — the warrant is implicit.\""
+        },
+        {
+          "form": "\"Fair enough\" — accepting a point even if not fully agreeing",
+          "example": "\"Fair enough — I can see why you'd interpret it that way.\""
+        },
+        {
+          "form": "\"Mm\" / \"Uh-huh\" — minimal responses — signalling continued attention",
+          "example": "Used during others' long turns to show you're listening without interrupting"
+        }
+      ]
+    },
+    {
+      "title": "Stance Markers: Signalling Your Position",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"Actually\" — correcting, contradicting, or surprising",
+          "example": "\"Actually, it's the other way around.\" / \"I actually find it quite helpful.\""
+        },
+        {
+          "form": "\"Basically\" — summarising or getting to the point",
+          "example": "\"Basically, the problem is the lack of preparation.\" / \"So basically, you need to slow down.\""
+        },
+        {
+          "form": "\"Honestly / Frankly / To be honest\" — signalling candour",
+          "example": "\"Honestly, I'm not sure what I'm doing.\" / \"To be honest, that's a bit too fast.\""
+        },
+        {
+          "form": "\"Obviously / Clearly\" — marking what should be evident",
+          "example": "\"Obviously, more practice is needed.\" / \"Clearly, this approach isn't working.\""
+        }
+      ]
+    },
+    {
+      "title": "Topic Managers: Controlling the Conversation",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "\"Anyway\" — returning to main point or changing topic",
+          "example": "\"Anyway, as I was saying…\" / \"Anyway, let's move on to the next point.\""
+        },
+        {
+          "form": "\"So\" — transitioning or drawing a conclusion",
+          "example": "\"So, to summarise…\" / \"So, what you're saying is…\""
+        },
+        {
+          "form": "\"Right / OK\" — marking a transition or checking in",
+          "example": "\"Right, let's try that again.\" / \"OK, so where were we?\""
+        },
+        {
+          "form": "\"By the way\" — introducing something less central",
+          "example": "\"By the way, have you seen the reading list?\" / \"By the way, there's an extension available.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct discourse marker.",
+      "text": "\"___, I don't think we're doing this right.\" (introducing mild disagreement or surprise)",
+      "opts": [
+        "Anyway",
+        "Actually",
+        "Exactly",
+        "Basically"
+      ],
+      "correct": "Actually",
+      "hint": "\"Actually\" = correcting or gently contradicting"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with an appropriate hedge.",
+      "text": "\"The instruction was ___ unclear — I didn't fully understand the task.\" (softening)",
+      "correct": "kind of / sort of / a bit / somewhat",
+      "hint": "Hedging words soften a critical observation"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct response token.",
+      "text": "Speaker A: \"So the key is clarity.\" Speaker B: \"___, that's what I found too.\"",
+      "opts": [
+        "Anyway",
+        "Exactly",
+        "Actually",
+        "Well"
+      ],
+      "correct": "Exactly",
+      "hint": "\"Exactly\" = strong agreement — \"that's exactly right\""
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct topic manager.",
+      "text": "\"___, as I was saying — the main issue is pacing.\"",
+      "correct": "Anyway / So / Right",
+      "hint": "\"Anyway\" or \"So\" = returning to the main point"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the best filler for buying thinking time.",
+      "text": "\"___, that's a really interesting question — let me think about it.\"",
+      "opts": [
+        "Basically",
+        "Well",
+        "Right",
+        "Exactly"
+      ],
+      "correct": "Well",
+      "hint": "\"Well\" is a classic transitional filler buying time before responding"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with a reformulator.",
+      "text": "\"It was difficult — ___ ___, nearly impossible.\" (clarifying what you just said)",
+      "correct": "I mean / that is",
+      "hint": "\"I mean\" = clarifying or strengthening what was just said"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct stance marker.",
+      "text": "\"___, we need to practise more if we want to improve.\" (summarising)",
+      "opts": [
+        "Actually",
+        "Anyway",
+        "Basically",
+        "By the way"
+      ],
+      "correct": "Basically",
+      "hint": "\"Basically\" = getting to the point / summarising"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with an appropriate response token.",
+      "text": "A: \"The pause felt really long to me.\" B: \"___ ___ — but it probably seemed normal to the audience.\"",
+      "correct": "Fair enough / Right / I see",
+      "hint": "\"Fair enough\" = accepting a point without necessarily fully agreeing"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which sentence correctly uses \"honestly\"?",
+      "text": "",
+      "opts": [
+        "\"Honestly, that was the best lecture I've ever attended — it was perfect.\"",
+        "\"Honestly, I found parts of it quite difficult to follow.\"",
+        "\"Honestly, you should try harder.\"",
+        "\"Honestly speaking, none of the above are wrong.\""
+      ],
+      "correct": "\"Honestly, I found parts of it quite difficult to follow.\"",
+      "hint": "\"Honestly\" = signalling candour, often about something mildly negative or personal"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Add an appropriate topic manager.",
+      "text": "\"___ ___ ___, have you tried recording yourself to get feedback on your pacing?\"",
+      "correct": "By the way",
+      "hint": "\"By the way\" = introducing something not directly related to the main point"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "What function does \"you know\" perform?",
+      "text": "\"You know what I mean? It's like it's almost there but not quite.\"",
+      "opts": [
+        "Introducing new information",
+        "Seeking confirmation that the listener understands",
+        "Making a formal statement",
+        "Marking a topic change"
+      ],
+      "correct": "Seeking confirmation that the listener understands",
+      "hint": "\"You know?\" = \"Do you understand what I mean?\" — seeking solidarity"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with the correct discourse marker.",
+      "text": "\"___, to get back to the main point — the most important strategy is pacing.\"",
+      "correct": "Anyway / So / Right",
+      "hint": "\"Anyway\" or \"So\" returns to the main point after a digression"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct reformulator.",
+      "text": "\"The lecture was about prosodics — ___ ___, the rhythm and stress of spoken language.\"",
+      "opts": [
+        "by the way",
+        "in other words",
+        "anyway",
+        "basically"
+      ],
+      "correct": "in other words",
+      "hint": "\"In other words\" = reformulating — explaining the same idea differently"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the dialogue with an appropriate minimal response.",
+      "text": "A: \"So I've been practising signposting every day now.\" B: \"___, that's a great habit to develop.\"",
+      "correct": "Right / Good / OK / Exactly",
+      "hint": "Minimal response acknowledging what was said and showing engagement"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which is NOT typically a discourse marker in spoken English?",
+      "text": "",
+      "opts": [
+        "\"Well,\"",
+        "\"Anyway,\"",
+        "\"Basically,\"",
+        "\"Notwithstanding,\""
+      ],
+      "correct": "\"Notwithstanding,\"",
+      "hint": "\"Notwithstanding\" is a formal written connector — not a spoken discourse marker"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What function does \"Right, let's move on\" serve?",
+      "text": "",
+      "opts": [
+        "Expressing agreement",
+        "Managing the topic — signalling a transition to the next point",
+        "Expressing surprise",
+        "Softening a criticism"
+      ],
+      "correct": "Managing the topic — signalling a transition to the next point",
+      "hint": "\"Right\" as a topic manager = marking a transition or checking in",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, I think we're approaching this the wrong way.\" (gently correcting/surprising)",
+      "opts": [
+        "Anyway",
+        "Actually",
+        "Basically",
+        "Exactly"
+      ],
+      "correct": "Actually",
+      "hint": "\"Actually\" = correcting, contradicting, or introducing a surprise",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The explanation was ___ unclear — could you try a different approach?\" (softening the criticism)",
+      "correct": "kind of / sort of / a bit",
+      "hint": "Hedging: \"kind of / sort of / a bit\" soften the criticism",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the main problem is the pacing — you're rushing the key points.\" (getting to the point)",
+      "opts": [
+        "Actually",
+        "Anyway",
+        "Basically",
+        "By the way"
+      ],
+      "correct": "Basically",
+      "hint": "\"Basically\" = summarising or getting to the core of the issue",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"A: 'So the key insight is that communication repair matters most.' B: '___ — that's exactly what I've been finding.'\" (strong agreement)",
+      "correct": "Exactly / Precisely / Right",
+      "hint": "\"Exactly / Precisely\" = strong agreement with what was just said",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, as I was saying — repair strategies are the key.\" (returning to main point)",
+      "opts": [
+        "Actually",
+        "By the way",
+        "Anyway",
+        "Honestly"
+      ],
+      "correct": "Anyway",
+      "hint": "\"Anyway\" = returning to the main point after a digression",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Notwithstanding\" is a common spoken discourse marker.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Notwithstanding\" is a formal written connector, not a spoken discourse marker",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, I'm not completely sure about this — let me think.\" (signalling candour/honesty)",
+      "correct": "Honestly / To be honest / Frankly",
+      "hint": "\"Honestly / To be honest\" = signalling candid speech",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It was a bit fast — ___ ___, nearly impossible to follow.\" (clarifying)",
+      "opts": [
+        "I mean",
+        "By the way",
+        "Anyway",
+        "Actually"
+      ],
+      "correct": "I mean",
+      "hint": "\"I mean\" = clarifying or strengthening what was just said",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, that's one way to look at it — but let me explain why I see it differently.\" (transitional)",
+      "correct": "Well",
+      "hint": "\"Well\" = transitional filler — acknowledging before introducing a different view",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ ___, have you tried using signposting phrases in everyday conversation?\" (off-topic addition)",
+      "opts": [
+        "By the way",
+        "In other words",
+        "Basically",
+        "Anyway"
+      ],
+      "correct": "By the way",
+      "hint": "\"By the way\" = introducing something not directly in the main flow",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The issue is pacing — ___ ___ ___, the need to slow down deliberately.\" (reformulating)",
+      "correct": "in other words / that is",
+      "hint": "\"In other words\" = reformulating the same idea more clearly",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "What does \"Fair enough\" signal?",
+      "opts": [
+        "Strong disagreement with a point",
+        "Accepting a point — even if not fully agreeing",
+        "Introducing a new topic",
+        "Correcting a misunderstanding"
+      ],
+      "correct": "Accepting a point — even if not fully agreeing",
+      "hint": "\"Fair enough\" = conceding a point without full agreement",
+      "points": 2
+    }
+  ]
+}

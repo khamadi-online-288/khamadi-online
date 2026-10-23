@@ -1,0 +1,295 @@
+{
+  "id": "l4-1",
+  "moduleNum": 4,
+  "lessonNum": 1,
+  "moduleTitle": "My day",
+  "title": "A typical day",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Aizhan and I am a first-year student at WKU. Every day at university is busy, but I love my routine. My alarm rings at 6:30 every morning. I get up immediately — I never press snooze! I wash my face, brush my teeth, and make my bed. Then I check my phone for messages from my family. By 7:00, I am ready to start the day.",
+    "I go to the cafeteria for breakfast at 7:15. I usually eat porridge or an omelette with bread and a glass of orange juice. Sometimes I have a banana or an apple too. Dias always arrives at the cafeteria at 7:20 and we sit together. He always orders tea and toast. We talk about our plans for the day and check our timetables before classes begin.",
+    "Our classes start at 8:30 every morning. I walk from the dormitory to the main academic building — it takes about ten minutes. I like this short walk because I listen to English podcasts on my earphones. When I arrive at the classroom, I take out my notebook and pen and prepare for the lesson. I always sit in the second row — it helps me concentrate.",
+    "In the morning, we usually have two or three subjects. On Mondays and Wednesdays, my first lesson is English with Ms. Aigerim. I love English lessons — we speak, read, write, and listen. On Tuesdays and Thursdays, I have Mathematics first. Mathematics is my most difficult subject, but I study hard and ask Ms. Aigerim for help after class.",
+    "At 12:00, we have a one-hour lunch break. I go to the cafeteria with Dias and our classmates. We usually eat soup, a main course, and compote — a traditional Kazakh fruit drink. After lunch, Dias and I often sit in the library for twenty minutes. I review my morning notes and Dias checks his homework. Then we go back to class at 1:00.",
+    "In the afternoon, we have two more subjects. On most days, I have Computer Science and History of Kazakhstan. I love Computer Science — we learn to write programs and work with data. History of Kazakhstan is also interesting because I learn about my country's culture and traditions. Classes finish at 3:30 pm every day.",
+    "After classes, I go back to my room and rest for thirty minutes. Then I start my homework and revision. I study for about two hours — usually from 4:30 to 6:30. I do my English exercises first, then Mathematics, and then other subjects. At 7:00, I go to dinner. After dinner, I call my parents in Aktobe — we talk for about twenty minutes every evening.",
+    "I usually go to sleep at 10:30 pm. Before I sleep, I write in my diary for five minutes — I write about the best moment of my day. My favourite moment today? When Ms. Aigerim said my essay was excellent! I feel happy and motivated at WKU. Every day is different, but every day I learn something new. That is the best thing about university life!"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dias",
+      "text": "Aizhan, what time do you get up every morning?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "At 6:30! My alarm rings and I get up immediately. You?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "I get up at 7:00... sometimes 7:10. I press snooze once or twice!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Ha! No wonder you always look tired at breakfast. Do you eat in the morning?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Yes, I have tea and toast. Simple but fast! What about you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I eat porridge or an omelette. Breakfast is very important — I need energy!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "True. Hey, what do you do after classes in the afternoon?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I rest for thirty minutes, then I study from 4:30 to 6:30. Two hours.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Two hours every day? That's a lot! I usually study for one hour.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I know, but I want good grades. Do you call your parents every evening?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Yes, at about 8:00. My mum always asks about my food and my grades!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Same! Mine too. I go to sleep at 10:30. What time do you sleep?",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I get up at...",
+      "ru": "Я встаю в...",
+      "context": "I get up at 6:30 every morning."
+    },
+    {
+      "phrase": "I usually...",
+      "ru": "Я обычно...",
+      "context": "I usually eat porridge for breakfast."
+    },
+    {
+      "phrase": "Classes start at...",
+      "ru": "Занятия начинаются в...",
+      "context": "Classes start at 8:30 every morning."
+    },
+    {
+      "phrase": "I go to...",
+      "ru": "Я иду в...",
+      "context": "I go to the cafeteria at 7:15."
+    },
+    {
+      "phrase": "It takes... minutes",
+      "ru": "Это занимает... минут",
+      "context": "It takes about ten minutes to walk."
+    },
+    {
+      "phrase": "After classes...",
+      "ru": "После занятий...",
+      "context": "After classes, I go back to my room."
+    },
+    {
+      "phrase": "I study for...",
+      "ru": "Я учусь... часов",
+      "context": "I study for about two hours."
+    },
+    {
+      "phrase": "I call my parents",
+      "ru": "Я звоню своим родителям",
+      "context": "I call my parents every evening."
+    },
+    {
+      "phrase": "I go to sleep at...",
+      "ru": "Я ложусь спать в...",
+      "context": "I go to sleep at 10:30 pm."
+    },
+    {
+      "phrase": "Every day is different",
+      "ru": "Каждый день разный",
+      "context": "Every day is different, but I learn something new."
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "routine",
+      "emoji": "🔄",
+      "opts": [
+        "каникулы",
+        "расписание",
+        "распорядок дня",
+        "отдых"
+      ],
+      "correct": "распорядок дня"
+    },
+    {
+      "id": "p2",
+      "word": "snooze",
+      "emoji": "⏰",
+      "opts": [
+        "звонить",
+        "отложить будильник",
+        "проснуться",
+        "спать"
+      ],
+      "correct": "отложить будильник"
+    },
+    {
+      "id": "p3",
+      "word": "porridge",
+      "emoji": "🥣",
+      "opts": [
+        "яичница",
+        "каша",
+        "бутерброд",
+        "суп"
+      ],
+      "correct": "каша"
+    },
+    {
+      "id": "p4",
+      "word": "review",
+      "emoji": "📝",
+      "opts": [
+        "забыть",
+        "переписать",
+        "повторить",
+        "потерять"
+      ],
+      "correct": "повторить"
+    },
+    {
+      "id": "p5",
+      "word": "compote",
+      "emoji": "🥤",
+      "opts": [
+        "чай",
+        "сок",
+        "компот",
+        "вода"
+      ],
+      "correct": "компот"
+    },
+    {
+      "id": "p6",
+      "word": "motivated",
+      "emoji": "💪",
+      "opts": [
+        "уставший",
+        "мотивированный",
+        "злой",
+        "скучающий"
+      ],
+      "correct": "мотивированный"
+    }
+  ],
+  "task1Bank": [
+    "6:30",
+    "porridge",
+    "ten",
+    "library",
+    "3:30",
+    "diary",
+    "Aktobe",
+    "second"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan's alarm rings at ___ every morning.",
+      "correct": "6:30"
+    },
+    {
+      "id": "t2",
+      "question": "Aizhan usually eats ___ or an omelette for breakfast.",
+      "correct": "porridge"
+    },
+    {
+      "id": "t3",
+      "question": "It takes about ___ minutes to walk from the dormitory to class.",
+      "correct": "ten"
+    },
+    {
+      "id": "t4",
+      "question": "After lunch, Aizhan and Dias often sit in the ___ for twenty minutes.",
+      "correct": "library"
+    },
+    {
+      "id": "t5",
+      "question": "Classes finish at ___ pm every day.",
+      "correct": "3:30"
+    },
+    {
+      "id": "t6",
+      "question": "Before sleeping, Aizhan writes in her ___ for five minutes.",
+      "correct": "diary"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Aizhan presses the snooze button every morning.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "Aizhan and Dias always sit together at breakfast.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Aizhan sits in the front row to concentrate better.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Aizhan studies for about two hours after classes.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "Aizhan calls her parents in Aktobe every evening.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "Aizhan goes to sleep at 11:30 pm.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

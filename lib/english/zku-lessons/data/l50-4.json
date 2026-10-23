@@ -1,0 +1,231 @@
+{
+  "id": "l50-4",
+  "moduleNum": 16,
+  "lessonNum": 5,
+  "moduleTitle": "Gerunds & Infinitives",
+  "type": "writing",
+  "title": "My Decisions and Habits This Year",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I enjoy...",
+      "emoji": "😊",
+      "opts": [
+        "я ненавижу",
+        "я получаю удовольствие от",
+        "я планирую",
+        "я решил"
+      ],
+      "correct": "я получаю удовольствие от"
+    },
+    {
+      "id": "p2",
+      "word": "I decided to...",
+      "emoji": "✅",
+      "opts": [
+        "я забыл",
+        "я решил",
+        "я избегаю",
+        "я надеюсь"
+      ],
+      "correct": "я решил"
+    },
+    {
+      "id": "p3",
+      "word": "I've given up...",
+      "emoji": "🏳️",
+      "opts": [
+        "я начал",
+        "я бросил / отказался",
+        "я продолжаю",
+        "я помню"
+      ],
+      "correct": "я бросил / отказался"
+    },
+    {
+      "id": "p4",
+      "word": "I keep...",
+      "emoji": "🔄",
+      "opts": [
+        "я перестал",
+        "я продолжаю / всё время",
+        "я хочу",
+        "я обещал"
+      ],
+      "correct": "я продолжаю / всё время"
+    },
+    {
+      "id": "p5",
+      "word": "I'm hoping to...",
+      "emoji": "🌟",
+      "opts": [
+        "я боюсь",
+        "я надеюсь",
+        "я отказываюсь",
+        "я избегаю"
+      ],
+      "correct": "я надеюсь"
+    },
+    {
+      "id": "p6",
+      "word": "I've promised myself to...",
+      "emoji": "🤝",
+      "opts": [
+        "я забыл обещать",
+        "я пообещал себе",
+        "я попросил",
+        "я согласился"
+      ],
+      "correct": "я пообещал себе"
+    }
+  ],
+  "writingModel": [
+    "Decisions, Habits, and Hopes: My Year So Far — by Rustam Seilov",
+    "This year I have tried to be more intentional about how I spend my time. I used to drift from task to task, putting off important things and hoping they would somehow complete themselves. That approach stopped working some time around November. So I made some decisions.",
+    "The first was to give up checking social media in the evenings. I had been spending hours scrolling without really enjoying it — just doing it out of habit. I decided to stop, and for the first two weeks I genuinely missed it. By the third week I had forgotten why I bothered. I have started reading instead, and I enjoy it far more. Currently I am reading a biography of Abai, which I would recommend to anyone who is interested in Kazakh literature.",
+    "The second decision was to start exercising three times a week. I had been avoiding exercise for most of the year, telling myself I was too busy. That was partly true and partly an excuse. I promised myself to stop making excuses and just begin. I am now in my fifth week, and I have managed to keep the habit going. I don't always enjoy the exercise itself — I particularly dislike running — but I enjoy having done it. That is enough motivation.",
+    "The third change is about studying. I tend to work in long, unstructured sessions which are not particularly effective. I have decided to try studying in shorter, more focused blocks of time. I have been practising this technique for three weeks. I cannot yet say whether it is working, but I intend to continue and see.",
+    "There are some habits I am still struggling to change. I keep forgetting to drink enough water. I keep putting off calling my grandmother, even though I always enjoy talking to her once I do. These are small things, but I consider keeping up small habits to be as important as the big decisions.",
+    "My hope for the end of the year is to look back and feel that I used this semester well — that I made good decisions, kept my promises to myself, and didn't avoid the things that were difficult. That is my plan. I intend to keep working at it."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": ": My Year So Far — by ",
+      "placeholder": "Title (Decisions / Habits / Changes)",
+      "hint": "Give your piece a title."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "This year I have decided to ",
+      "suffix": ".",
+      "placeholder": "infinitive phrase: be more... / stop... / start...",
+      "hint": "Open with \"I decided TO + verb\" — what was your big decision?"
+    },
+    {
+      "key": "habit1",
+      "prefix": "I used to ",
+      "suffix": ", but I have stopped.",
+      "placeholder": "a habit you have given up (gerund)",
+      "hint": "\"I used to... (old habit). I stopped / gave up + gerund.\""
+    },
+    {
+      "key": "new",
+      "prefix": "Instead, I enjoy ",
+      "suffix": " much more.",
+      "placeholder": "new habit (gerund)",
+      "hint": "\"I enjoy + gerund\" — what have you replaced the old habit with?"
+    },
+    {
+      "key": "promise",
+      "prefix": "I have promised myself to ",
+      "suffix": ".",
+      "placeholder": "infinitive: exercise / study / call / practise",
+      "hint": "\"I promised myself TO + verb\" — commitment to self."
+    },
+    {
+      "key": "manage",
+      "prefix": "So far, I have managed to ",
+      "suffix": ", though it is not always easy.",
+      "placeholder": "infinitive phrase: keep the habit / stay focused",
+      "hint": "\"managed TO + verb\" — what have you succeeded in doing?"
+    },
+    {
+      "key": "still",
+      "prefix": "I still keep ",
+      "suffix": ", which I am trying to change.",
+      "placeholder": "gerund: forgetting / putting off / checking",
+      "hint": "\"keep + gerund\" — a habit you haven't managed to break yet."
+    },
+    {
+      "key": "hope",
+      "prefix": "My hope is to ",
+      "suffix": " by the end of the year.",
+      "placeholder": "infinitive: achieve / finish / improve / develop",
+      "hint": "\"hope TO + verb\" — what are you hoping to achieve?"
+    },
+    {
+      "key": "close",
+      "prefix": "I intend to ",
+      "suffix": ".",
+      "placeholder": "infinitive: continue / keep going / stay committed",
+      "hint": "\"intend TO + verb\" — close with a firm intention."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Gerund phrases (habits)",
+      "color": "#003876",
+      "items": [
+        "I enjoy reading / studying / talking to...",
+        "I have given up checking / scrolling / putting off...",
+        "I keep forgetting / delaying / putting off...",
+        "I avoid making excuses / checking my phone / skipping...",
+        "I practise speaking / writing / reviewing every day.",
+        "I miss having free time / sleeping in / seeing friends."
+      ]
+    },
+    {
+      "category": "Infinitive phrases (decisions)",
+      "color": "#1D9E75",
+      "items": [
+        "I decided to change / stop / start / improve...",
+        "I promised myself to exercise / study / call...",
+        "I hope to finish / pass / graduate / improve...",
+        "I plan to read / travel / work / apply...",
+        "I intend to continue / keep going / stay committed.",
+        "I managed to keep the habit / stay focused / finish."
+      ]
+    },
+    {
+      "category": "Contrasting old and new habits",
+      "color": "#1B8FC4",
+      "items": [
+        "I used to... but I have stopped.",
+        "I had been avoiding... for too long.",
+        "I no longer spend time...",
+        "Instead of... I now enjoy...",
+        "I stopped feeling like... and started feeling...",
+        "The habit I am still struggling to change is..."
+      ]
+    },
+    {
+      "category": "Reflection and conclusion",
+      "color": "#C9933B",
+      "items": [
+        "I enjoy having done it — that is motivation enough.",
+        "I cannot yet say whether it is working, but I intend to continue.",
+        "I consider keeping small habits as important as big decisions.",
+        "My hope for the end of the year is to look back and feel...",
+        "I intend to keep working at it.",
+        "I don't always enjoy the process, but I enjoy the result."
+      ]
+    }
+  ]
+}

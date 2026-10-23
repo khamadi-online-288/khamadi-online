@@ -1,0 +1,284 @@
+{
+  "id": "l27-1",
+  "moduleNum": 11,
+  "lessonNum": 1,
+  "moduleTitle": "Conditionals",
+  "type": "reading",
+  "title": "If the Weather Is Good…",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Kamila Seitkali loves making plans. Every Sunday evening she sits at her desk and writes in her notebook. She writes all her plans for the week. But she always adds one important word: 'if'.",
+    "'If the weather is good on Saturday, I will go to the park with Zhibek,' she writes. 'If I finish my essay by Thursday, I will watch a film on Friday. If I have enough money, I will buy new running shoes.'",
+    "Kamila's mother reads the notebook and smiles. 'You are very careful,' she says. 'You don't make promises — you make plans.' Kamila nods. 'If you make plans with conditions, you don't feel bad when things change,' she explains.",
+    "Amir Bekzhanov thinks differently. 'If the weather is good, I go outside immediately,' he tells Kamila. 'I don't wait. When the sun shines, I run. When it rains, I read. Simple rules for a simple life.' Kamila laughs. 'That's the zero conditional — no future, just facts!'",
+    "At WKU, students learn two types of conditionals in English class. The zero conditional talks about facts and general truths: 'If you heat water to 100°C, it boils.' The first conditional talks about real possibilities in the future: 'If I study hard, I will pass my exam.'",
+    "Dr. Akhmetov always says: 'Language and life are the same. In life, you use conditionals every day — when you plan, when you decide, when you dream. Learn them well, and English becomes your thinking tool.'"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, what will you do if it rains this weekend?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'll stay home and study. What about you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "If it rains, I'll finish my English essay. If it's sunny, I'll go jogging.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Perfect plan. If we both finish our work, we can meet at the library on Sunday.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Deal! If the library is open, we will study together.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "If + present simple, will + infinitive",
+      "ru": "первый условный",
+      "context": "If I study hard, I will pass."
+    },
+    {
+      "phrase": "If + present simple, present simple",
+      "ru": "нулевой условный",
+      "context": "If you heat water, it boils."
+    },
+    {
+      "phrase": "make a plan",
+      "ru": "составлять план",
+      "context": "Kamila makes a plan every Sunday."
+    },
+    {
+      "phrase": "general truth",
+      "ru": "общая истина",
+      "context": "Zero conditional describes general truths."
+    },
+    {
+      "phrase": "real possibility",
+      "ru": "реальная возможность",
+      "context": "If it rains, I will stay home."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "condition",
+      "ipa": "/kənˈdɪʃ.ən/",
+      "pos": "n",
+      "ru": "условие",
+      "kz": "шарт",
+      "emoji": "📋",
+      "definition": "A situation that must exist before something else happens.",
+      "example": "If this condition is met, we can proceed.",
+      "collocations": [
+        "on condition that",
+        "condition for"
+      ]
+    },
+    {
+      "en": "possibility",
+      "ipa": "/ˌpɒs.əˈbɪl.ɪ.ti/",
+      "pos": "n",
+      "ru": "возможность",
+      "kz": "мүмкіндік",
+      "emoji": "💡",
+      "definition": "Something that might happen or be true.",
+      "example": "There is a real possibility of rain tomorrow.",
+      "collocations": [
+        "real possibility",
+        "explore possibilities"
+      ]
+    },
+    {
+      "en": "truth",
+      "ipa": "/truːθ/",
+      "pos": "n",
+      "ru": "правда, истина",
+      "kz": "шындық",
+      "emoji": "✅",
+      "definition": "A statement or fact that is true.",
+      "example": "The zero conditional expresses general truths.",
+      "collocations": [
+        "general truth",
+        "tell the truth",
+        "universal truth"
+      ]
+    },
+    {
+      "en": "promise",
+      "ipa": "/ˈprɒm.ɪs/",
+      "pos": "n/v",
+      "ru": "обещание; обещать",
+      "kz": "уәде",
+      "emoji": "🤝",
+      "definition": "A statement that you will definitely do something.",
+      "example": "I promise to be on time.",
+      "collocations": [
+        "keep a promise",
+        "make a promise",
+        "promise to"
+      ]
+    },
+    {
+      "en": "immediately",
+      "ipa": "/ɪˈmiː.di.ət.li/",
+      "pos": "adv",
+      "ru": "немедленно, сразу",
+      "kz": "дереу",
+      "emoji": "⚡",
+      "definition": "At once; without any delay.",
+      "example": "If it's sunny, I go outside immediately.",
+      "collocations": [
+        "immediately after",
+        "act immediately"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "condition",
+      "emoji": "📋",
+      "opts": [
+        "A type of weather",
+        "A required situation before something happens",
+        "A general rule",
+        "A future prediction"
+      ],
+      "correct": "A required situation before something happens"
+    },
+    {
+      "id": "p2",
+      "word": "possibility",
+      "emoji": "💡",
+      "opts": [
+        "A fact that is always true",
+        "Something that cannot happen",
+        "Something that might happen",
+        "A promise made to someone"
+      ],
+      "correct": "Something that might happen"
+    },
+    {
+      "id": "p3",
+      "word": "zero conditional",
+      "emoji": "🔢",
+      "opts": [
+        "Used for imaginary futures",
+        "Used for past habits",
+        "Used for facts and general truths",
+        "Used for wishes"
+      ],
+      "correct": "Used for facts and general truths"
+    },
+    {
+      "id": "p4",
+      "word": "immediately",
+      "emoji": "⚡",
+      "opts": [
+        "After a long time",
+        "At once, without delay",
+        "If possible",
+        "In the future"
+      ],
+      "correct": "At once, without delay"
+    },
+    {
+      "id": "p5",
+      "word": "first conditional",
+      "emoji": "🔮",
+      "opts": [
+        "Used for impossible dreams",
+        "Used for general truths",
+        "Used for real future possibilities",
+        "Used for past regrets"
+      ],
+      "correct": "Used for real future possibilities"
+    }
+  ],
+  "task1Bank": [
+    "if",
+    "will",
+    "boils",
+    "zero",
+    "first",
+    "sunny",
+    "rains",
+    "facts"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "If you heat water, it ___.",
+      "correct": "boils"
+    },
+    {
+      "id": "i2",
+      "question": "If it rains, I ___ stay home.",
+      "correct": "will"
+    },
+    {
+      "id": "i3",
+      "question": "The ___ conditional describes general truths.",
+      "correct": "zero"
+    },
+    {
+      "id": "i4",
+      "question": "___ the weather is good, we go outside.",
+      "correct": "If"
+    },
+    {
+      "id": "i5",
+      "question": "The ___ conditional talks about real future possibilities.",
+      "correct": "first"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Kamila writes her plans every Sunday evening.",
+      "correct": "true"
+    },
+    {
+      "id": "s2",
+      "statement": "Amir waits to see if the weather is good before making plans.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "The zero conditional uses \"will\" in the result clause.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Dr. Akhmetov says conditionals are a thinking tool.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Kamila and Amir agree to meet at the library on Sunday.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

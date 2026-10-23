@@ -1,0 +1,299 @@
+{
+  "id": "l9-g2",
+  "moduleNum": 9,
+  "lessonNum": 5,
+  "moduleTitle": "Right now",
+  "title": "Present Continuous: Use",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Continuous — когда его использовать",
+  "grammarNote": "Мы уже знаем КАК образовывать Present Continuous. Теперь самое важное — КОГДА его использовать. И чем он отличается от Present Simple, который мы изучили в Модуле 4.\n\n📌 Четыре ситуации для Present Continuous:\n\n① Действие происходит ПРЯМО СЕЙЧАС, в момент речи:\n\"I am writing code.\" (сейчас, пока я это говорю)\n\"She is reading her notes.\" (прямо сейчас, в данный момент)\n\n② Временная ситуация (не постоянная, не каждый день):\n\"Malika is studying in the library today.\" (только сегодня, обычно она в комнате)\n\"I am living in Uralsk this year.\" (временно — на время учёбы)\n\n③ Ситуация меняется / в процессе изменения:\n\"My English is getting better every week!\"\n\"The city is growing fast.\"\n\n④ Запланированное будущее (уже договорились):\n\"I am meeting Sholpan at 3 pm.\" (договорились заранее)\n\"We are having dinner at 7 tonight.\" (план уже есть)\n\n🔑 Слова-сигналы для Present Continuous:\nnow · right now · at the moment · at this moment · currently · today (в значении \"сегодня происходит\") · Look! · Listen!",
+  "grammarTable": [
+    {
+      "subject": "Привычка / факт (навсегда)",
+      "verb": "Present Simple",
+      "short": "every day / always",
+      "example": "Amir studies Computer Science. She reads every evening."
+    },
+    {
+      "subject": "Прямо сейчас / временно",
+      "verb": "Present Continuous",
+      "short": "now / at the moment",
+      "example": "Amir is studying in the library. She is reading right now."
+    },
+    {
+      "subject": "Слова-сигналы Simple:",
+      "verb": "every day / usually",
+      "short": "always / never",
+      "example": "He always eats in the cafeteria. She usually studies at home."
+    },
+    {
+      "subject": "Слова-сигналы Continuous:",
+      "verb": "now / right now",
+      "short": "at the moment / today",
+      "example": "He is eating right now. She is studying in the library today."
+    },
+    {
+      "subject": "Вопрос Simple:",
+      "verb": "Does she study here?",
+      "short": "do/does + verb",
+      "example": "\"Where does Malika usually study?\" — \"In her room.\""
+    },
+    {
+      "subject": "Вопрос Continuous:",
+      "verb": "Is she studying here?",
+      "short": "is/are + -ing?",
+      "example": "\"Is Malika studying here today?\" — \"Yes, she is!\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Четыре случая использования Present Continuous",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "① Действие сейчас, в момент речи",
+          "example": "\"I am sitting in the library right now.\" · \"Look — he is sleeping on his notebook!\""
+        },
+        {
+          "form": "   Сигналы: now, right now, at the moment",
+          "example": "\"Listen! Someone is printing something.\" · \"At this moment, hundreds of students are working.\""
+        },
+        {
+          "form": "② Временная ситуация (не постоянная)",
+          "example": "\"Malika is studying in the library today.\" (обычно она дома) · \"I am living in Uralsk this year.\""
+        },
+        {
+          "form": "   Сравни с постоянным фактом (Simple):",
+          "example": "\"She studies in her room.\" (всегда) vs \"She is studying in the library.\" (сегодня — временно)"
+        },
+        {
+          "form": "③ Процесс изменения / развития",
+          "example": "\"My English is getting better!\" · \"The queue is getting longer.\" · \"It is getting late.\""
+        },
+        {
+          "form": "④ Запланированное ближайшее будущее",
+          "example": "\"I am meeting Sholpan at 3 pm.\" · \"We are having dinner at 7 tonight.\" (уже договорились)"
+        }
+      ]
+    },
+    {
+      "title": "⚠️ Stative Verbs — глаголы БЕЗ Present Continuous",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "Чувства и желания (не действия!)",
+          "example": "like · love · hate · prefer · want · need · wish\n❌ \"I am wanting coffee.\" → ✅ \"I want coffee.\""
+        },
+        {
+          "form": "Мысли и убеждения (состояние ума)",
+          "example": "know · understand · believe · remember · forget · think (= считать) · mean\n❌ \"She is knowing the answer.\" → ✅ \"She knows the answer.\""
+        },
+        {
+          "form": "Восприятие (пассивное — не контролируешь)",
+          "example": "see · hear · smell · taste · feel (пассивно)\n❌ \"I am seeing the board.\" → ✅ \"I can see the board.\""
+        },
+        {
+          "form": "Владение (possession)",
+          "example": "have (= иметь/владеть) · own · belong · contain\n❌ \"She is having a laptop.\" → ✅ \"She has a laptop.\""
+        },
+        {
+          "form": "⚠️ have can be action! (тогда —ing можно)",
+          "example": "\"I'm having lunch.\" ✅ (действие: есть) vs \"I have a laptop.\" ✅ (владеть)"
+        },
+        {
+          "form": "⚠️ think as action (тогда —ing можно)",
+          "example": "\"I'm thinking about the project.\" ✅ (думаю сейчас) vs \"I think it's correct.\" ✅ (считаю/мнение)"
+        }
+      ]
+    },
+    {
+      "title": "Present Simple vs Present Continuous — полное сравнение",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Simple: постоянный факт / всегда",
+          "example": "\"Amir studies Computer Science.\" · \"The library opens at 8 am.\""
+        },
+        {
+          "form": "Continuous: временно / прямо сейчас",
+          "example": "\"Amir is studying in the library.\" · \"The library is closing in five minutes!\""
+        },
+        {
+          "form": "Simple: регулярная привычка",
+          "example": "\"She reads books every evening.\" · \"He eats lunch in the cafeteria every day.\""
+        },
+        {
+          "form": "Continuous: прямо сейчас, не всегда",
+          "example": "\"She is reading a Psychology book right now.\" · \"He is eating porridge this morning.\""
+        },
+        {
+          "form": "Simple: глаголы состояния (не -ing!)",
+          "example": "\"I know the answer.\" · \"She likes coffee.\" · \"He understands English well.\""
+        },
+        {
+          "form": "Continuous: активное действие сейчас",
+          "example": "\"I am writing the answer.\" · \"She is making coffee.\" · \"He is learning English.\""
+        }
+      ]
+    },
+    {
+      "title": "Present Continuous — вопросы и слова-сигналы",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "What are you doing?",
+          "example": "\"What are you doing?\" — \"I'm writing code.\" · \"I'm reading my notes.\""
+        },
+        {
+          "form": "What is he/she doing?",
+          "example": "\"What is the barista doing?\" — \"He's making a cappuccino.\""
+        },
+        {
+          "form": "Why are you...?",
+          "example": "\"Why are you studying in the library today?\" — \"My internet isn't working at home.\""
+        },
+        {
+          "form": "Who is + verb-ing?",
+          "example": "\"Who is sleeping near the window?\" · \"Who is arguing next to you?\""
+        },
+        {
+          "form": "Look! / Listen! → Continuous обязательно",
+          "example": "\"Look — he is sleeping!\" · \"Listen — someone is printing something.\""
+        },
+        {
+          "form": "Сигналы: now · right now · at the moment",
+          "example": "\"She is reading RIGHT NOW.\" · \"AT THE MOMENT, everyone is working.\" · \"What is he doing NOW?\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Как не перепутать Present Simple и Present Continuous:\n\n① Спроси себя: это происходит ВСЕГДА или ПРЯМО СЕЙЧАС?\n   Всегда / обычно / каждый день → Present Simple\n   \"Amir studies every day.\" · \"She reads in the evenings.\"\n\n   Прямо сейчас / временно / в данный момент → Present Continuous\n   \"Amir is studying right now.\" · \"She is reading at the moment.\"\n\n② Найди слово-сигнал:\n   every day / usually / always / never → Simple ✅\n   now / right now / at the moment / look! / listen! → Continuous ✅\n\n③ Проверь: это stative verb?\n   know / like / love / want / understand / have (владеть) → ТОЛЬКО Simple!\n   ❌ \"I am knowing.\" ❌ \"She is wanting.\" ❌ \"He is having a car.\"\n   ✅ \"I know.\" ✅ \"She wants.\" ✅ \"He has a car.\"\n\n💡 Тест: можно ли сказать \"прямо сейчас я это [делаю/чувствую/думаю]\"?\n   Если это действие — Continuous. Если состояние — Simple.\n   \"I am writing.\" ✅ (действие) · \"I know.\" ✅ (состояние — нельзя \"knowing\"!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "Malika usually ___ in her room, but today she ___ in the library.",
+      "opts": [
+        "studies / is studying",
+        "is studying / studies",
+        "studies / studies",
+        "is studying / is studying"
+      ],
+      "correct": "studies / is studying",
+      "hint": "usually → Present Simple (studies). today (temporarily) → Present Continuous (is studying)."
+    },
+    {
+      "id": "e2",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"I am knowing the answer to this question.\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Know\" is a stative verb (состояние ума). It NEVER takes -ing! → \"I know the answer.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses Present Continuous correctly?",
+      "opts": [
+        "She is wanting another coffee right now.",
+        "He is understanding the grammar.",
+        "Look — the professor is writing on the whiteboard!",
+        "I am knowing all the spelling rules."
+      ],
+      "correct": "Look — the professor is writing on the whiteboard!",
+      "hint": "\"Look!\" is a signal word → Continuous. \"write\" is an action verb → writing ✅. The others use stative verbs (want, understand, know) which cannot take -ing."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Choose: Simple or Continuous?  Write the correct form.",
+      "text": "Listen! Someone ___ (print) a very long document in the library.",
+      "correct": "is printing",
+      "hint": "\"Listen!\" is a signal for Present Continuous → is printing ✅."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Amir ___ Computer Science at WKU. It is his course.",
+      "opts": [
+        "is studying",
+        "studies",
+        "is study",
+        "study"
+      ],
+      "correct": "studies",
+      "hint": "This is a permanent fact about Amir — his course. Use Present Simple: \"He studies Computer Science.\" (not a temporary action)."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"I'm having lunch with Sholpan right now\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"have lunch\" = to eat lunch. This is an ACTION (not possession) → Continuous IS allowed! \"I'm having lunch\" = \"I'm eating lunch.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct answer.",
+      "text": "\"Why are you in the library today, Malika?\" — ___",
+      "opts": [
+        "Because I am not usually study here.",
+        "Because my internet isn't working at home today.",
+        "Because I know the library.",
+        "Because I am wanting to read."
+      ],
+      "correct": "Because my internet isn't working at home today.",
+      "hint": "\"isn't working\" = Present Continuous → a temporary situation. The other options have grammar mistakes."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which pair of sentences is completely correct?",
+      "opts": [
+        "She is liking coffee. She drinks a cup every morning.",
+        "She likes coffee. She is drinking a cup right now.",
+        "She likes coffee. She is drink a cup right now.",
+        "She is liking coffee. She is drinking a cup right now."
+      ],
+      "correct": "She likes coffee. She is drinking a cup right now.",
+      "hint": "\"like\" = stative → Simple: \"She likes.\" ✅ · \"drink\" right now = action → Continuous: \"She is drinking.\" ✅"
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,342 @@
+{
+  "id": "l79-5",
+  "moduleNum": 21,
+  "lessonNum": 9,
+  "moduleTitle": "Economics & Money in Society",
+  "title": "Module 21 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of resources between rich and poor nations has become more unequal.\" (distribute → noun)",
+      "opts": [
+        "distributing",
+        "distribution",
+        "distributor",
+        "distributive"
+      ],
+      "correct": "distribution",
+      "hint": "distribute → distribution (-tion suffix)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ in renewable energy has increased rapidly.\" (invest → noun)",
+      "correct": "Investment",
+      "hint": "invest → investment (-ment suffix)",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"An ___ studies the economy and advises governments.\" (economy → person)",
+      "opts": [
+        "economic",
+        "economics",
+        "economist",
+        "economical"
+      ],
+      "correct": "economist",
+      "hint": "economy → economist (-ist: specialist)",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ housing policies make accommodation accessible to low-income families.\" (afford → adjective)",
+      "correct": "Affordable",
+      "hint": "afford → affordable (-able suffix)",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"High ___ rates mean many workers cannot find jobs.\" (employ → negative noun)",
+      "opts": [
+        "overemployment",
+        "disemployment",
+        "unemployment",
+        "underwork"
+      ],
+      "correct": "unemployment",
+      "hint": "un- + employ + -ment = unemployment",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ economics studies how individual firms and consumers make decisions.\" (micro-)",
+      "correct": "Micro",
+      "hint": "micro- = small scale; microeconomics",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The currency was ___ — it was worth less than its official rate implied.\" (under-)",
+      "opts": [
+        "overvalued",
+        "undervalued",
+        "misvalued",
+        "devalued"
+      ],
+      "correct": "undervalued",
+      "hint": "under- + valued = undervalued (lower than true value)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Income grew ___ during the decade.\" (significant → adverb)",
+      "correct": "significantly",
+      "hint": "significant → significantly (-ly suffix)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Strong ___ between firms keeps prices low.\" (compete → noun)",
+      "opts": [
+        "competing",
+        "competition",
+        "competitive",
+        "competitor"
+      ],
+      "correct": "competition",
+      "hint": "compete → competition (-tion: irregular form)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The government decided to ___ the nationalised industry.\" (private → verb: privatise)",
+      "correct": "privatise",
+      "hint": "private → privatise (-ise suffix: to make private)",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is a \"market failure\"?",
+      "opts": [
+        "When a business goes bankrupt",
+        "When unregulated markets produce socially suboptimal outcomes",
+        "When the stock market crashes",
+        "When government price controls fail"
+      ],
+      "correct": "When unregulated markets produce socially suboptimal outcomes",
+      "hint": "Reading 1: \"market failures… socially suboptimal outcomes\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"An ___ market makes no regulations, which can cause externalities.\" (regulate → negative adjective)",
+      "correct": "unregulated",
+      "hint": "un- + regulated = unregulated",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of wages is fiercely debated.\" (regulate → noun)",
+      "opts": [
+        "regulating",
+        "regulation",
+        "regulative",
+        "regulator"
+      ],
+      "correct": "regulation",
+      "hint": "regulate → regulation (-tion suffix)",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Countries with poor infrastructure are often ___ economically.\" (under- + develop → adjective)",
+      "correct": "underdeveloped",
+      "hint": "under- + developed = underdeveloped",
+      "points": 2
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is \"negative equity\" in property?",
+      "opts": [
+        "When a mortgage is worth more than the property",
+        "When property prices are falling rapidly",
+        "When interest rates exceed income growth",
+        "When rent is higher than mortgage payments"
+      ],
+      "correct": "When a mortgage is worth more than the property",
+      "hint": "Listening 3: Omar mentions negative equity",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ taxation taxes higher incomes at higher rates.\" (progress → adjective)",
+      "opts": [
+        "Progressing",
+        "Progressively",
+        "Progressive",
+        "Progression"
+      ],
+      "correct": "Progressive",
+      "hint": "progress → progressive (-ive suffix: relating to progress/increase)",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ behaviour — like present bias — can lead to poor financial decisions.\" (ir- + rational → adjective)",
+      "correct": "Irrational",
+      "hint": "ir- + rational = irrational",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of wealth across generations is one reason inequality persists.\" (inherit → noun)",
+      "opts": [
+        "inheriting",
+        "inheritance",
+        "inheritor",
+        "inheritable"
+      ],
+      "correct": "inheritance",
+      "hint": "inherit → inheritance (-ance suffix: the process/result of inheriting)",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"lemon problem\" in economics?",
+      "opts": [
+        "Too many low-quality lemons in food markets",
+        "Information asymmetry drives out high-quality sellers, leaving mainly low-quality goods",
+        "A surplus of any good that becomes worthless",
+        "The difficulty of pricing unique or rare goods"
+      ],
+      "correct": "Information asymmetry drives out high-quality sellers, leaving mainly low-quality goods",
+      "hint": "Reading 1: \"lemon problem… drives out sellers of high-quality cars\"",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The government plans to ___ the sector — removing many existing rules.\" (de- + regulate)\", (deregulate)",
+      "correct": "deregulate",
+      "hint": "de- + regulate = deregulate",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She is ___ — she has a job, but it is far below her skill level.\" (under-)",
+      "opts": [
+        "unemployed",
+        "misemployed",
+        "underemployed",
+        "overworked"
+      ],
+      "correct": "underemployed",
+      "hint": "under- + employed = underemployed",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The interest calculated on both the original sum and all accumulated interest is called ___ interest.",
+      "correct": "compound",
+      "hint": "Listening 3: \"compound interest\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"A ___ economy grows in a way that can be maintained for future generations.\" (sustain → adjective)",
+      "opts": [
+        "sustainability",
+        "sustained",
+        "sustainable",
+        "sustaining"
+      ],
+      "correct": "sustainable",
+      "hint": "sustain → sustainable (-able suffix)",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Economic\" (relating to the economy) and \"economical\" (cost-saving) are interchangeable.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Economic\" = relating to the economy; \"economical\" = thrifty/cost-saving — different meanings",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"fiat money\"?",
+      "opts": [
+        "Currency backed by gold reserves",
+        "Currency with no intrinsic value, accepted by government decree",
+        "Digital cryptocurrency",
+        "Any widely accepted commodity money"
+      ],
+      "correct": "Currency with no intrinsic value, accepted by government decree",
+      "hint": "Listening 3B: Prof. Sato explains fiat money",
+      "points": 1
+    }
+  ]
+}

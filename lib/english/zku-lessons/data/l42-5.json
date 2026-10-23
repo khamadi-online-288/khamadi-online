@@ -1,0 +1,376 @@
+{
+  "id": "l42-5",
+  "moduleNum": 8,
+  "lessonNum": 8,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "test",
+  "title": "Module 8 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What phase does Amir admit going through regarding food?",
+      "opts": [
+        "Eating very healthily",
+        "Eating too many energy drinks and too few proper meals",
+        "Cooking elaborately",
+        "Spending too much on food"
+      ],
+      "correct": "Eating too many energy drinks and too few proper meals",
+      "hint": "\"he ate too many energy drinks and too few proper meals.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says batch cooking should happen on Monday.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Spend two hours on SUNDAY preparing food for the week.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the text, what type of student manages food best?",
+      "opts": [
+        "Those who cook elaborate meals",
+        "Those with the most money",
+        "Those who accept imperfection",
+        "Those who eat only canteen food"
+      ],
+      "correct": "Those who accept imperfection",
+      "hint": "\"The students who manage best are those who accept that they'll sometimes eat too much pizza...\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Daniyar spends about ___ tenge per month on groceries.",
+      "correct": "8,000",
+      "hint": "\"I spend about 8,000 tenge a month on groceries.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"batch cooking\" according to the text?",
+      "opts": [
+        "Ordering takeaway",
+        "Preparing food in advance for the whole week",
+        "Buying in bulk",
+        "Cooking one dish all day"
+      ],
+      "correct": "Preparing food in advance for the whole week",
+      "hint": "\"Spend two hours on Sunday preparing food for the week.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says a healthy diet means eating zero processed food.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Eating well is not about perfection. It doesn't mean eating zero processed food.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In Listening 1, how much money do Rustam and Kamila have to spend?",
+      "opts": [
+        "3,000 tenge",
+        "4,000 tenge",
+        "5,000 tenge",
+        "3,500 tenge"
+      ],
+      "correct": "4,000 tenge",
+      "hint": "\"About 4,000 tenge. Not a lot, but enough for the basics.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In Listening 1, why does Kamila say not to buy a large bottle of oil?",
+      "opts": [
+        "Too expensive",
+        "They don't use much oil",
+        "It goes bad quickly",
+        "No space in the cupboard"
+      ],
+      "correct": "They don't use much oil",
+      "hint": "\"Don't get too much — we don't use a lot of oil.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "In Listening 2 (recipe), Rustam uses ___ grams of minced meat.",
+      "correct": "400",
+      "hint": "\"400 grams of minced lamb or beef.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In Listening 2, what happens if you add too much fat to manti?",
+      "opts": [
+        "They become dry",
+        "They become greasy",
+        "They don't cook",
+        "They fall apart"
+      ],
+      "correct": "They become greasy",
+      "hint": "\"don't add too much fat or the manti become greasy.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "In Listening 2, Rustam's recipe requires two eggs in the dough.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Just one. One egg and a pinch of salt.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In Listening 1, how many bags of each vegetable does Kamila suggest?",
+      "opts": [
+        "Two",
+        "Three",
+        "One",
+        "As many as possible"
+      ],
+      "correct": "One",
+      "hint": "\"Don't buy too many. One bag of each is enough.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How ___ flour do you need?\" (flour is uncountable)",
+      "opts": [
+        "many",
+        "much",
+        "a lot",
+        "few"
+      ],
+      "correct": "much",
+      "hint": "\"flour\" = uncountable → \"how MUCH flour?\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How ___ eggs does the recipe need?\" (countable)",
+      "opts": [
+        "much",
+        "a little",
+        "many",
+        "lot of"
+      ],
+      "correct": "many",
+      "hint": "\"eggs\" = countable → \"how MANY eggs?\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There's too ___ oil.\" (oil is uncountable)",
+      "opts": [
+        "many",
+        "much",
+        "few",
+        "enough"
+      ],
+      "correct": "much",
+      "hint": "\"too much\" + uncountable. \"There's TOO MUCH oil.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There are too ___ onions.\" (countable)",
+      "opts": [
+        "much",
+        "little",
+        "many",
+        "enough"
+      ],
+      "correct": "many",
+      "hint": "\"too many\" + countable. \"There are TOO MANY onions.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The soup isn't hot ___.\" (insufficient temperature)",
+      "correct": "enough",
+      "hint": "adjective + enough: \"isn't hot ENOUGH\" = needs to be hotter. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Add ___ salt.\" (small amount, recipe instruction)",
+      "opts": [
+        "a few",
+        "many",
+        "a little",
+        "much"
+      ],
+      "correct": "a little",
+      "hint": "\"salt\" = uncountable → \"a little salt\" (small positive amount). ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have ___ rice.\" (large positive amount)",
+      "opts": [
+        "much",
+        "many",
+        "a lot of",
+        "few"
+      ],
+      "correct": "a lot of",
+      "hint": "Positive + uncountable → \"a lot of\". \"I have A LOT OF rice.\" ✅ (not \"much\" in positive)"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There isn't ___ water left.\" (insufficient)",
+      "opts": [
+        "too many",
+        "enough",
+        "too much",
+        "plenty"
+      ],
+      "correct": "enough",
+      "hint": "\"not enough water\" = insufficient. \"There isn't ENOUGH water.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Batch cooking\" means:",
+      "opts": [
+        "Cooking only one dish",
+        "Cooking in advance to have food ready all week",
+        "Ordering food in bulk",
+        "Cooking quickly"
+      ],
+      "correct": "Cooking in advance to have food ready all week",
+      "hint": "\"batch cooking\" = preparing a large quantity at one time to use over several days."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A moderate amount of carbohydrates\" means:",
+      "opts": [
+        "A very large amount",
+        "None at all",
+        "A reasonable amount — not too much or too little",
+        "An unknown amount"
+      ],
+      "correct": "A reasonable amount — not too much or too little",
+      "hint": "\"moderate\" = not extreme; within reasonable limits. Neither too much nor too little."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "She makes one big pot of soup to ___ cooking time — a classic batch approach.",
+      "correct": "save",
+      "hint": "\"save cooking time\" = batch cooking saves time during the week."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Nutritional value\" refers to:",
+      "opts": [
+        "The taste of food",
+        "The price of food",
+        "The health benefits and nutrients food provides",
+        "The number of calories"
+      ],
+      "correct": "The health benefits and nutrients food provides",
+      "hint": "\"nutritional\" = relating to nutrients. \"Nutritional value\" = how much goodness a food provides."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We've got plenty of tea.\" \"Plenty\" means:",
+      "opts": [
+        "A tiny amount",
+        "Almost none",
+        "More than enough; sufficient",
+        "Exactly the right amount"
+      ],
+      "correct": "More than enough; sufficient",
+      "hint": "\"plenty of\" = more than enough. \"Plenty of tea\" = lots of tea, no need to buy more."
+    }
+  ]
+}
