@@ -1,0 +1,596 @@
+{
+  "id": "l24-3",
+  "moduleNum": 8,
+  "lessonNum": 3,
+  "moduleTitle": "Traditions & Culture",
+  "title": "used to — Past Habits and States",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "used to — Past Habits and States",
+  "grammarNote": "\"Used to + infinitive\" — говорим о том, что происходило РЕГУЛЯРНО в прошлом, но БОЛЬШЕ НЕ ПРОИСХОДИТ.\n\n① Прошлые привычки (больше не актуальны):\n   \"I used to walk to school.\" (Сейчас езжу на автобусе.)\n   \"She used to play piano every evening.\" (Сейчас перестала.)\n\n② Прошлые состояния (изменились):\n   \"He used to be very shy.\" (Сейчас уверенный.)\n   \"There used to be a cinema here.\" (Сейчас нет.)\n\nОбразование:\n✅ Утверждение: Subject + USED TO + base verb\n\"I used to smoke.\" · \"She used to live here.\"\n\n✅ Отрицание: Subject + DIDN'T USE TO + base verb (без d!)\n\"I didn't use to like vegetables.\" · \"He didn't use to exercise.\"\n\n✅ Вопрос: DID + Subject + USE TO + base verb?\n\"Did you use to live here?\" · \"Did she use to study music?\"\n\n⚠️ Не путай: \"used to DO\" ≠ \"be used to DOING\"\n\"I used to swim.\" = раньше плавал (больше нет)\n\"I am used to swimming.\" = привык плавать (сейчас привычно)",
+  "grammarTable": [
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "used to play",
+      "short": "no short form",
+      "example": "We used to play in the yard every day."
+    },
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "used to live",
+      "short": "no short form",
+      "example": "She used to live in a village."
+    },
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "used to have",
+      "short": "no short form",
+      "example": "They used to have a yurt in the garden."
+    },
+    {
+      "subject": "NEGATIVE: I / He / She...",
+      "verb": "didn't use to play",
+      "short": "did not use to",
+      "example": "She didn't use to cook from scratch."
+    },
+    {
+      "subject": "NEGATIVE: You / We / They...",
+      "verb": "didn't use to live",
+      "short": "did not use to",
+      "example": "They didn't use to celebrate Nauryz in the city."
+    },
+    {
+      "subject": "QUESTION: Did + subject + use to...?",
+      "verb": "use to play?",
+      "short": "(NOT \"used to\")",
+      "example": "Did you use to play traditional games?"
+    },
+    {
+      "subject": "SHORT ANSWER",
+      "verb": "Yes, I did. / No, I didn't.",
+      "short": "—",
+      "example": "Did she use to cook? — Yes, she did."
+    },
+    {
+      "subject": "KEY MEANING",
+      "verb": "past habit or state — NOT true now",
+      "short": "—",
+      "example": "He used to smoke. (= he smoked before but doesn't now)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "What \"used to\" expresses",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Past habit (repeated action that stopped)",
+          "example": "We used to walk to school every day. (now we take a bus)"
+        },
+        {
+          "form": "Past state (situation that no longer exists)",
+          "example": "She used to be shy. (now she is confident)"
+        },
+        {
+          "form": "Past possession (you no longer have it)",
+          "example": "They used to have a big garden. (they moved to a flat)"
+        },
+        {
+          "form": "Past belief (you no longer believe this)",
+          "example": "I used to think Nauryz was boring. (now I love it)"
+        },
+        {
+          "form": "Emphasises contrast with the present",
+          "example": "She used to dislike cooking — now she loves it."
+        },
+        {
+          "form": "Can be replaced with \"would\" for habits (NOT states)",
+          "example": "We used to sing / We would sing (but NOT: I used to be tall → ✗ I would be tall)"
+        }
+      ]
+    },
+    {
+      "title": "Negative: \"didn't use to\" (NOT \"didn't used to\")",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "Rule: did not use to + BASE form",
+          "example": "She didn't use to celebrate Nauryz. ✓ / She didn't used to celebrate. ✗"
+        },
+        {
+          "form": "Meaning: something was NOT a past habit",
+          "example": "My family didn't use to have a yurt. (they never had one)"
+        },
+        {
+          "form": "Common mistake: \"never used to\"",
+          "example": "She never used to cook. ✓ (informal but acceptable)"
+        },
+        {
+          "form": "Formal negative: \"used not to\"",
+          "example": "He used not to attend celebrations. (formal British English)"
+        },
+        {
+          "form": "Contrast: didn't use to vs Past Simple negative",
+          "example": "She didn't use to eat meat (habit). / She didn't eat meat yesterday (single event)."
+        },
+        {
+          "form": "No short form for \"used to\"",
+          "example": "She usedn't to... ✗ (not used in modern English)"
+        }
+      ]
+    },
+    {
+      "title": "Question: \"Did you use to?\" (NOT \"Did you used to?\")",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Rule: Did + subject + use to + BASE form?",
+          "example": "Did you use to play traditional games? ✓"
+        },
+        {
+          "form": "Common mistake",
+          "example": "Did you used to play? ✗ → Did you use to play? ✓"
+        },
+        {
+          "form": "Wh- questions",
+          "example": "What did you use to do at Nauryz? Where did they use to live?"
+        },
+        {
+          "form": "Short answers",
+          "example": "Yes, I did. / No, I didn't."
+        },
+        {
+          "form": "Alternative question form (less common)",
+          "example": "Used you to celebrate Nauryz? (very formal, old-fashioned)"
+        },
+        {
+          "form": "Checking meaning: \"Did you use to...?\" confirms a past habit",
+          "example": "Did she use to be a teacher? — Yes, she did. Now she's retired."
+        }
+      ]
+    },
+    {
+      "title": "used to vs Past Simple — Key Difference",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "\"used to\" = repeated past habit or long state",
+          "example": "He used to smoke for 10 years. (habit over time)"
+        },
+        {
+          "form": "Past Simple = single completed event",
+          "example": "He smoked a cigarette at the party. (one time)"
+        },
+        {
+          "form": "\"used to\" always implies \"not anymore\"",
+          "example": "She used to be nervous about English. (she isn't now)"
+        },
+        {
+          "form": "Past Simple has no implication about now",
+          "example": "She was nervous at the exam. (no info about now)"
+        },
+        {
+          "form": "Time expressions with \"used to\"",
+          "example": "when I was young / as a child / in those days / back then"
+        },
+        {
+          "form": "Time expressions with Past Simple",
+          "example": "yesterday / last year / in 1969 / three years ago"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главная ловушка — в вопросах и отрицаниях \"use to\" (без d!):\n\n❌ \"Did you USED TO live here?\" → ✅ \"Did you USE TO live here?\"\n❌ \"I didn't USED TO like it.\" → ✅ \"I didn't USE TO like it.\"\n\nВ утверждении: ✅ \"I USED TO swim every day.\"\nВ отрицании: ✅ \"I didn't USE TO swim.\"\nВ вопросе: ✅ \"Did you USE TO swim?\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "My grandmother ___ make Nauryz kozhe in an outdoor cauldron.",
+      "opts": [
+        "use to",
+        "used to",
+        "was used to",
+        "is used to"
+      ],
+      "correct": "used to",
+      "hint": "Affirmative: subject + \"used to\" + BASE form."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct negative.",
+      "text": "My family ___ have a yurt — we always set up tables outside.",
+      "opts": [
+        "didn't use to",
+        "didn't used to",
+        "wasn't used to",
+        "not used to"
+      ],
+      "correct": "didn't use to",
+      "hint": "Negative: didn't + use to (not 'used to')."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the question form.",
+      "text": "___ you ___ play traditional games at Nauryz as a child?",
+      "opts": [
+        "Did / use to",
+        "Did / used to",
+        "Were / used to",
+        "Do / use to"
+      ],
+      "correct": "Did / use to",
+      "hint": "Question: Did + subject + \"use to\" (not \"used to\") + base form."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the sentence that uses \"used to\" correctly.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She used to went to school by bus.",
+        "She used to go to school by bus.",
+        "She used to going to school by bus.",
+        "She use to go to school by bus."
+      ],
+      "correct": "She used to go to school by bus.",
+      "hint": "\"Used to\" is always followed by BASE form (infinitive)."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct meaning.",
+      "text": "\"He used to be shy\" means:",
+      "opts": [
+        "He is shy now",
+        "He was shy in the past but is not now",
+        "He will be shy in the future",
+        "He has always been shy"
+      ],
+      "correct": "He was shy in the past but is not now",
+      "hint": "\"Used to\" always implies the situation is different now."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with \"used to\" or \"didn't use to\".",
+      "text": "Kamila ___ love dancing as a child, but now it's her passion.",
+      "opts": [
+        "didn't use to",
+        "didn't used to",
+        "used to not",
+        "not used to"
+      ],
+      "correct": "didn't use to",
+      "hint": "Negative of 'used to': didn't use to (no 'd' on 'use')."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which sentence is about a past state (not a habit)?",
+      "text": "Choose the \"used to\" sentence describing a STATE.",
+      "opts": [
+        "She used to cook every morning.",
+        "He used to run to school.",
+        "They used to be poor.",
+        "We used to visit grandmother."
+      ],
+      "correct": "They used to be poor.",
+      "hint": "A STATE = a condition/situation (be, have, know, believe) — not an action verb."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct time expression with \"used to\".",
+      "text": "She ___ play in the yard ___ she was a child.",
+      "opts": [
+        "used to / when",
+        "used to / yesterday",
+        "uses to / when",
+        "use to / when"
+      ],
+      "correct": "used to / when",
+      "hint": "\"When I was young/a child\" is a typical time expression with \"used to\"."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which is correct?",
+      "text": "\"___ she use to celebrate Nauryz with her whole family?\"",
+      "opts": [
+        "Did",
+        "Was",
+        "Does",
+        "Used"
+      ],
+      "correct": "Did",
+      "hint": "Question with \"used to\": Did + subject + use to (BASE)?"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Amir ___ live in Uralsk — he is from Aktobe.",
+      "opts": [
+        "didn't use to",
+        "used to",
+        "uses to",
+        "doesn't used to"
+      ],
+      "correct": "didn't use to",
+      "hint": "Negative 'used to' for a past state that wasn't true."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the correct form of \"used to\".",
+      "text": "In those days, people ___ travel by horse — there were no cars.",
+      "opts": [
+        "used to",
+        "use to",
+        "were used to",
+        "used"
+      ],
+      "correct": "used to",
+      "hint": "Affirmative \"used to\" for a past habit that no longer exists."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct response.",
+      "text": "\"Did you use to sing at Nauryz celebrations?\" — \"___, I did. We always sang traditional songs.\"",
+      "opts": [
+        "No",
+        "Yes",
+        "Not",
+        "Never"
+      ],
+      "correct": "Yes",
+      "hint": "Short answer to \"Did you use to...?\" is \"Yes, I did.\" / \"No, I didn't.\""
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "My family ___ celebrate Nauryz with a big yurt.",
+      "opts": [
+        "use to",
+        "used to",
+        "was used to",
+        "using to"
+      ],
+      "correct": "used to",
+      "hint": "Affirmative: subject + used to + BASE form."
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ cook traditional food — she preferred modern restaurants.",
+      "opts": [
+        "didn't use to",
+        "didn't used to",
+        "wasn't use to",
+        "not used to"
+      ],
+      "correct": "didn't use to",
+      "hint": "Negative: didn't use to (not 'used to')."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ your family ___ have big Nauryz celebrations when you were young?",
+      "correct": "Did / use to",
+      "hint": "Question form: Did + subject + use to + base form."
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"They used to be very poor\" describes:",
+      "opts": [
+        "A single past event",
+        "A past state that is no longer true",
+        "A present situation",
+        "A future plan"
+      ],
+      "correct": "A past state that is no longer true",
+      "hint": "\"used to be\" = a state in the past that has changed."
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Did she used to sing?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "In questions: \"Did she use to sing?\" — no \"d\" on \"use\" because \"did\" carries past meaning."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence describes a HABIT (not a state)?",
+      "opts": [
+        "She used to be happy.",
+        "He used to know the answer.",
+        "They used to visit their grandmother every Sunday.",
+        "We used to have a dog."
+      ],
+      "correct": "They used to visit their grandmother every Sunday.",
+      "hint": "A habit = a repeated action. \"Visit every Sunday\" is a regular repeated action."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"used to\" is used for a ___ past habit or state.",
+      "opts": [
+        "single",
+        "repeated / long-term",
+        "future",
+        "simultaneous"
+      ],
+      "correct": "repeated / long-term",
+      "hint": "\"used to\" refers to something that happened repeatedly or was true for a long period."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He ___ smoke, but he stopped ten years ago.",
+      "correct": "used to",
+      "hint": "Positive \"used to\" for a past habit that has stopped."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which time expression is typical with \"used to\"?",
+      "opts": [
+        "yesterday",
+        "last night",
+        "when I was young",
+        "in 1969 on a Tuesday"
+      ],
+      "correct": "when I was young",
+      "hint": "\"When I was young/a child/in those days\" are typical with \"used to\"."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ study very hard — now she is more relaxed.",
+      "opts": [
+        "used to",
+        "use to",
+        "would used to",
+        "was used to"
+      ],
+      "correct": "used to",
+      "hint": "Positive \"used to\" + BASE form for a past habit."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"would\" can replace \"used to\" for past STATES as well as habits.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"would\" can only replace \"used to\" for HABITS, not states. Not: \"I would be shy\" ✗"
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "What does \"She used to be a teacher\" tell us about now?",
+      "opts": [
+        "She is a teacher now",
+        "She was never a teacher",
+        "She is no longer a teacher",
+        "She will become a teacher"
+      ],
+      "correct": "She is no longer a teacher",
+      "hint": "\"Used to\" always implies the situation has changed — she is NOT a teacher now."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "In those days, people ___ (not/have) smartphones.",
+      "correct": "didn't use to have",
+      "hint": "Negative: didn't use to + BASE form."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct sentence:",
+      "opts": [
+        "She used to liked dancing.",
+        "She used to liking dancing.",
+        "She used to like dancing.",
+        "She use to liked dancing."
+      ],
+      "correct": "She used to like dancing.",
+      "hint": "\"used to\" is always followed by BASE form (infinitive without \"to\")."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I used to think English was difficult\" means:",
+      "opts": [
+        "I still think English is difficult",
+        "I no longer think English is difficult",
+        "I will always think English is difficult",
+        "English was difficult for one day"
+      ],
+      "correct": "I no longer think English is difficult",
+      "hint": "\"used to think\" = past belief that has changed."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which question is grammatically correct?",
+      "opts": [
+        "Did you used to play kokpar?",
+        "Did you use to play kokpar?",
+        "Were you used to play kokpar?",
+        "Do you used to play kokpar?"
+      ],
+      "correct": "Did you use to play kokpar?",
+      "hint": "Question: Did + subject + use to (not \"used to\") + BASE form?"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "l74-4",
+  "moduleNum": 16,
+  "lessonNum": 7,
+  "moduleTitle": "Arts, Film & Literature",
+  "title": "Writing: A Film or Book Review",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the work: title, director/author, genre, brief context",
+      "hint": "One or two sentences — place the work in context without plot summary"
+    },
+    {
+      "key": "description",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "What does the work attempt to do? What is its central concern or approach?",
+      "hint": "Not a plot summary — describe its artistic ambition and methods"
+    },
+    {
+      "key": "analysis",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Analyse two or three specific elements: language, structure, cinematography, character, theme",
+      "hint": "Use cause/effect and purpose linkers: \"in order to…\", \"as a result…\""
+    },
+    {
+      "key": "evaluation",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "What are its strengths and weaknesses? Does it achieve what it set out to do?",
+      "hint": "Use contrast/concession linkers: \"although…\", \"despite…\", \"nevertheless…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Final balanced judgement: who should watch/read it and why?",
+      "hint": "Use \"on balance,\" \"overall,\" \"ultimately\" for a strong conclusion"
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "",
+      "suffix": " is a [genre] that ___.",
+      "hint": "Name the work and categorise it",
+      "placeholder": "The film / novel / explores / examines / challenges"
+    },
+    {
+      "key": "l2",
+      "prefix": "What sets it apart from conventional ",
+      "suffix": " is its ___.",
+      "hint": "Identify the work's distinctive approach",
+      "placeholder": "films/novels of its genre / ambiguous structure / refusal to resolve its central conflict"
+    },
+    {
+      "key": "l3",
+      "prefix": "The director/author uses ",
+      "suffix": " in order to ___.",
+      "hint": "Analyse one specific technique and its purpose",
+      "placeholder": "fragmented time / symbolism / contrast between light and dark / disorient the viewer and mirror the protagonist's mental state"
+    },
+    {
+      "key": "l4",
+      "prefix": "Although ",
+      "suffix": ", the overall effect is ___.",
+      "hint": "Concession then evaluation",
+      "placeholder": "the pacing is slow in places / powerfully unsettling and ultimately rewarding"
+    },
+    {
+      "key": "l5",
+      "prefix": "On balance, ",
+      "suffix": ".",
+      "hint": "Final balanced judgement",
+      "placeholder": "despite its demands on the audience, this is a work of genuine artistic importance that rewards careful attention"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Describing the work",
+      "color": "#003876",
+      "items": [
+        "The film/novel explores the theme of… through the lens of…",
+        "What distinguishes this work is its refusal to…",
+        "The director/author employs a fragmented structure in order to…",
+        "Central to the work is the tension between… and…",
+        "The narrative is driven not by plot but by…"
+      ]
+    },
+    {
+      "category": "Analysing techniques",
+      "color": "#1D9E75",
+      "items": [
+        "The use of [technique] creates/produces/achieves…",
+        "Due to the director's choice to…, the viewer/reader…",
+        "The recurring motif of… serves to…",
+        "In contrast to conventional [genre], this work…",
+        "The [lighting/score/sentence structure] is used so as to avoid…"
+      ]
+    },
+    {
+      "category": "Evaluating — strengths and weaknesses",
+      "color": "#C9933B",
+      "items": [
+        "Although [weakness], the overall achievement is…",
+        "Despite occasional [weakness], the work succeeds in…",
+        "Its greatest strength is… ; however, it falls short in…",
+        "The film/novel is not without its flaws — nevertheless, it…",
+        "On balance, the strengths outweigh the weaknesses because…"
+      ]
+    },
+    {
+      "category": "Concluding",
+      "color": "#1B8FC4",
+      "items": [
+        "On balance, this is a work that…",
+        "Overall, despite its demands, this is…",
+        "Ultimately, the film/novel succeeds because it…",
+        "In conclusion, I would recommend this to readers who…",
+        "This is not a work for everyone; however, those willing to engage with it will find…"
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ its slow pace, the film is deeply engaging throughout.\" (concession)",
+      "opts": [
+        "Although",
+        "Due to",
+        "Despite",
+        "Therefore"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + noun/gerund\" = concession",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The director uses extreme close-ups ___ create an uncomfortable sense of intimacy.\" (purpose)",
+      "correct": "in order to / so as to",
+      "hint": "\"In order to / so as to + infinitive\" = artistic intention",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The novel's ending is ambiguous. ___, critics have reached very different conclusions.\" (effect)",
+      "opts": [
+        "Despite",
+        "Although",
+        "Consequently",
+        "Whereas"
+      ],
+      "correct": "Consequently",
+      "hint": "\"Consequently\" = formal effect marker",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ the film's commercial failure, it has since become a critical landmark.\" (unexpected positive — concession)",
+      "correct": "Despite / In spite of",
+      "hint": "\"Despite/In spite of\" = concession",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, this novel is one of the most significant literary achievements of the decade.\" (formal conclusion)",
+      "opts": [
+        "However",
+        "In contrast",
+        "In conclusion",
+        "Despite"
+      ],
+      "correct": "In conclusion",
+      "hint": "\"In conclusion\" = formal summary linker",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"On balance\" is used to introduce a final, balanced judgement in a review.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"On balance\" = weighing all considerations before a final verdict",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The author withholds the protagonist's name ___ the reader shares their sense of anonymity.\" (purpose: reader is the subject)",
+      "correct": "so that",
+      "hint": "\"So that + subject + verb\" = purpose with a new subject",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ being critically acclaimed, it won no commercial awards.\" (concession + gerund)",
+      "opts": [
+        "Although",
+        "Despite",
+        "However",
+        "Nevertheless"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + gerund\" = concession",
+      "points": 2
+    }
+  ]
+}

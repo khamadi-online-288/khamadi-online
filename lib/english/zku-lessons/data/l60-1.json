@@ -1,0 +1,548 @@
+{
+  "id": "l60-1",
+  "moduleNum": 2,
+  "lessonNum": 1,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "reading",
+  "title": "The Words Between: How Journalists Report What People Say",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "Read any newspaper article and you will notice that very little of it consists of direct quotation. Journalists rarely reproduce entire speeches or interviews verbatim. Instead, they select, paraphrase, and frame what was said — and the tools they use for this are the reporting verbs of English. These verbs are not neutral. Every choice a journalist makes about how to introduce reported speech carries information about how they want the reader to interpret what was said.",
+    "Consider a simple statement from a university rector: \"The institution will expand its research funding next year.\" A journalist could report this in at least five distinct ways. They could write that the rector said the institution would expand its research funding. This is neutral — it presents the information without evaluation. But they could also write that the rector claimed the institution would expand, implying that this is something that might not actually happen, or might be disputed. They could write that the rector promised, which creates a commitment that can later be held against him if the funding does not materialise. They could write that the rector announced, suggesting a formal and deliberate statement. Or they could write that the rector suggested, making the statement sound tentative rather than definite.",
+    "Each of these choices — said, claimed, promised, announced, suggested — conveys a different relationship between the speaker and their words. Claimed implies doubt or opposition. Promised implies commitment. Admitted implies that the speaker was reluctant or that the information is somewhat uncomfortable. Insisted implies that the speaker had to push back against resistance. Warned implies a threat or serious concern. These implications exist even when the original words were identical.",
+    "This is why academic and professional readers have learned to read reporting verbs carefully. When a politician's spokesperson is described as having \"confirmed\" something, it carries more weight than if they merely \"noted\" it. When an expert \"warned\" that something might happen, the reader should understand that the journalist is presenting this as more alarming than if the expert had simply \"said\" it. The verb is doing editorial work.",
+    "The implications of reporting verbs also cross languages and cultures, which creates interesting challenges for translators and journalists working across linguistic contexts. The Kazakh language, like Russian, has its own range of verbs for introducing reported speech, and they do not map cleanly onto English equivalents. The verb that in Kazakh implies mild reservation might become \"claimed\" in English, which implies stronger doubt. The translator must make a choice, and that choice changes the text.",
+    "Understanding reported speech is not only a grammatical skill. It is a critical literacy skill — the ability to read a text carefully enough to notice not just what the words say but how they are framed. A politician who \"denied the allegations\" is in a different position from one who \"rejected the claims.\" A company that \"admitted fault\" is in a different position from one that \"acknowledged shortcomings.\" The differences are legal, ethical, and political. And they are expressed through the grammar of reported speech.",
+    "For students of English at B1 level and above, the goal is not simply to be able to convert direct speech to indirect speech and apply the correct tense shifts. The goal is to understand and use reported speech as a tool for precise, nuanced communication — to be able to write \"she insisted that the deadline would not be moved\" and understand that this tells the reader something very specific about the speaker's position, far beyond simply reporting what she said."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "I noticed the journalist used \"claimed\" when reporting what the minister said. That already tells you something.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Right — \"claimed\" implies doubt. If they'd written \"said,\" it would just be neutral information.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And \"admitted\" implies something uncomfortable. Like the person didn't want to say it but had to.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I never thought about it that way. I just read \"he said\" or \"she said\" and moved on.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's exactly what editors count on. If you don't notice the verbs, you don't notice the framing.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "So reading carefully means reading the reporting verbs as carefully as the content.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes. The verb is doing editorial work. It's not just grammar — it's a position.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That changes how I'll read the news from now on.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "verbatim",
+      "ru": "дословно / слово в слово",
+      "context": "\"Journalists rarely reproduce speeches verbatim.\" = word for word, exactly as spoken."
+    },
+    {
+      "phrase": "paraphrase",
+      "ru": "перефразировать",
+      "context": "\"They paraphrase what was said.\" = restate in different words."
+    },
+    {
+      "phrase": "frame",
+      "ru": "представлять / подавать",
+      "context": "\"They frame what was said.\" = present it in a particular way to suggest an interpretation."
+    },
+    {
+      "phrase": "imply",
+      "ru": "подразумевать / намекать",
+      "context": "\"'Claimed' implies doubt.\" = suggests something without directly stating it."
+    },
+    {
+      "phrase": "materialise",
+      "ru": "материализоваться / воплотиться",
+      "context": "\"If the funding doesn't materialise.\" = if it doesn't actually happen."
+    },
+    {
+      "phrase": "editorial",
+      "ru": "редакционный / авторский",
+      "context": "\"The verb is doing editorial work.\" = making a judgement, not just reporting."
+    },
+    {
+      "phrase": "nuanced",
+      "ru": "нюансированный",
+      "context": "\"Nuanced communication.\" = with subtle distinctions and careful shades of meaning."
+    },
+    {
+      "phrase": "tentative",
+      "ru": "предварительный / осторожный",
+      "context": "\"Making the statement sound tentative.\" = uncertain, not definite."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "verbatim",
+      "ipa": "/vɜːˈbeɪtɪm/",
+      "pos": "adverb/adj",
+      "ru": "дословно",
+      "kz": "сөзбе-сөз",
+      "emoji": "📝",
+      "definition": "in exactly the same words as were used originally",
+      "example": "Journalists rarely quote politicians verbatim — they select and paraphrase.",
+      "collocations": [
+        "quote verbatim",
+        "verbatim report",
+        "reproduce verbatim"
+      ]
+    },
+    {
+      "en": "imply",
+      "ipa": "/ɪmˈplaɪ/",
+      "pos": "verb",
+      "ru": "подразумевать",
+      "kz": "білдіру",
+      "emoji": "💭",
+      "definition": "to suggest something without directly stating it",
+      "example": "\"Claimed\" implies doubt about whether the statement is true.",
+      "collocations": [
+        "strongly imply",
+        "imply that",
+        "what this implies"
+      ]
+    },
+    {
+      "en": "tentative",
+      "ipa": "/ˈtentətɪv/",
+      "pos": "adjective",
+      "ru": "предварительный / осторожный",
+      "kz": "болжамды",
+      "emoji": "🤔",
+      "definition": "not certain or definite; done cautiously as a trial",
+      "example": "\"Suggested\" makes a statement sound tentative rather than definite.",
+      "collocations": [
+        "tentative agreement",
+        "tentative step",
+        "sound tentative"
+      ]
+    },
+    {
+      "en": "neutral",
+      "ipa": "/ˈnjuːtrəl/",
+      "pos": "adjective",
+      "ru": "нейтральный",
+      "kz": "бейтарап",
+      "emoji": "⚖️",
+      "definition": "not supporting any side; not expressing a view",
+      "example": "\"Said\" is the most neutral reporting verb — it doesn't imply evaluation.",
+      "collocations": [
+        "remain neutral",
+        "neutral language",
+        "neutral tone"
+      ]
+    },
+    {
+      "en": "reluctant",
+      "ipa": "/rɪˈlʌktənt/",
+      "pos": "adjective",
+      "ru": "нежелающий / неохотный",
+      "kz": "қаламаушы",
+      "emoji": "😕",
+      "definition": "unwilling to do something; hesitant",
+      "example": "\"Admitted\" implies the speaker was reluctant to share the information.",
+      "collocations": [
+        "reluctant to admit",
+        "deeply reluctant",
+        "show reluctance"
+      ]
+    },
+    {
+      "en": "allegation",
+      "ipa": "/ˌælɪˈɡeɪʃən/",
+      "pos": "noun",
+      "ru": "обвинение / утверждение",
+      "kz": "айып тағу",
+      "emoji": "⚖️",
+      "definition": "a claim that someone has done something wrong, without proof",
+      "example": "A politician who \"denied the allegations\" vs one who \"rejected the claims.\"",
+      "collocations": [
+        "make an allegation",
+        "deny allegations",
+        "face allegations"
+      ]
+    },
+    {
+      "en": "ethical",
+      "ipa": "/ˈeθɪkəl/",
+      "pos": "adjective",
+      "ru": "этический",
+      "kz": "этикалық",
+      "emoji": "🧭",
+      "definition": "relating to moral principles; morally correct",
+      "example": "The differences between reporting verbs have legal, ethical, and political weight.",
+      "collocations": [
+        "ethical question",
+        "ethical responsibility",
+        "ethically sound"
+      ]
+    },
+    {
+      "en": "shortcoming",
+      "ipa": "/ˈʃɔːtkʌmɪŋ/",
+      "pos": "noun",
+      "ru": "недостаток / слабость",
+      "kz": "кемшілік",
+      "emoji": "⚠️",
+      "definition": "a failure to meet a required standard; a weakness",
+      "example": "A company that \"acknowledged shortcomings\" vs one that \"admitted fault.\"",
+      "collocations": [
+        "acknowledge shortcomings",
+        "address shortcomings",
+        "overcome shortcomings"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "verbatim",
+      "emoji": "📝",
+      "opts": [
+        "приблизительно",
+        "дословно",
+        "кратко",
+        "неточно"
+      ],
+      "correct": "дословно"
+    },
+    {
+      "id": "p2",
+      "word": "imply",
+      "emoji": "💭",
+      "opts": [
+        "заявлять прямо",
+        "подразумевать",
+        "отрицать",
+        "объяснять"
+      ],
+      "correct": "подразумевать"
+    },
+    {
+      "id": "p3",
+      "word": "tentative",
+      "emoji": "🤔",
+      "opts": [
+        "уверенный",
+        "предварительный",
+        "постоянный",
+        "формальный"
+      ],
+      "correct": "предварительный"
+    },
+    {
+      "id": "p4",
+      "word": "neutral",
+      "emoji": "⚖️",
+      "opts": [
+        "предвзятый",
+        "нейтральный",
+        "критичный",
+        "позитивный"
+      ],
+      "correct": "нейтральный"
+    },
+    {
+      "id": "p5",
+      "word": "allegation",
+      "emoji": "⚖️",
+      "opts": [
+        "доказательство",
+        "обвинение / утверждение",
+        "приговор",
+        "факт"
+      ],
+      "correct": "обвинение / утверждение"
+    },
+    {
+      "id": "p6",
+      "word": "reluctant",
+      "emoji": "😕",
+      "opts": [
+        "охотный",
+        "нежелающий / неохотный",
+        "готовый",
+        "уверенный"
+      ],
+      "correct": "нежелающий / неохотный"
+    }
+  ],
+  "task1Bank": [
+    "verbatim",
+    "claimed",
+    "promised",
+    "admitted",
+    "warned",
+    "neutral",
+    "legal",
+    "critical"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Journalists rarely reproduce speeches ___ — they select and paraphrase.",
+      "correct": "verbatim"
+    },
+    {
+      "id": "t2",
+      "question": "\"___ \" implies doubt that the statement may not be true or is disputed.",
+      "correct": "claimed"
+    },
+    {
+      "id": "t3",
+      "question": "\"___ \" creates a commitment that can later be held against the speaker.",
+      "correct": "promised"
+    },
+    {
+      "id": "t4",
+      "question": "\"___ \" implies the speaker was reluctant and the information is uncomfortable.",
+      "correct": "admitted"
+    },
+    {
+      "id": "t5",
+      "question": "\"___ \" implies a threat or serious concern.",
+      "correct": "warned"
+    },
+    {
+      "id": "t6",
+      "question": "\"Said\" is the most ___ reporting verb — it doesn't imply evaluation.",
+      "correct": "neutral"
+    },
+    {
+      "id": "t7",
+      "question": "The differences between reporting verbs have ___ , ethical, and political weight.",
+      "correct": "legal"
+    },
+    {
+      "id": "t8",
+      "question": "Understanding reported speech is a ___ literacy skill, not just grammar.",
+      "correct": "critical"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "The text says reporting verbs are neutral and do not affect meaning.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "\"Claimed\" implies more doubt than \"said.\"",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Reporting verbs have no significance in legal or political contexts.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Translating reporting verbs across languages can change the meaning.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "The text says journalists always reproduce speeches word for word.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "\"Admitted fault\" and \"acknowledged shortcomings\" put a company in different positions.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text argues that B1 students should only focus on tense shifts.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Kamila concludes that reading the reporting verbs carefully is as important as reading the content.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main argument of the text?",
+      "opts": [
+        "Journalists always quote accurately",
+        "Reporting verbs are grammatical rules only",
+        "The choice of reporting verb shapes how the reader interprets the speaker's words",
+        "Reported speech is the same in all languages"
+      ],
+      "correct": "The choice of reporting verb shapes how the reader interprets the speaker's words",
+      "hint": "\"Every choice a journalist makes about how to introduce reported speech carries information about how they want the reader to interpret what was said.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"claimed\" imply when used as a reporting verb?",
+      "opts": [
+        "Strong certainty",
+        "Neutral information",
+        "Doubt or possible dispute",
+        "Formal announcement"
+      ],
+      "correct": "Doubt or possible dispute",
+      "hint": "\"'Claimed' implies that this is something that might not actually happen, or might be disputed.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How does \"admitted\" differ from \"said\" as a reporting verb?",
+      "opts": [
+        "They are the same",
+        "\"admitted\" implies the speaker was reluctant and the info is uncomfortable",
+        "\"admitted\" is more formal",
+        "\"admitted\" implies approval"
+      ],
+      "correct": "\"admitted\" implies the speaker was reluctant and the info is uncomfortable",
+      "hint": "\"Admitted implies that the speaker was reluctant or that the information is somewhat uncomfortable.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Reporting verbs only matter in grammar exercises, not in real communication.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The differences are legal, ethical, and political. And they are expressed through the grammar of reported speech.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The text says that reporting verbs do \"___ work\" — not just grammar.",
+      "correct": "editorial",
+      "hint": "\"The verb is doing EDITORIAL work.\" = making a judgement or taking a position."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the text mention translation challenges?",
+      "opts": [
+        "To show translation is easy",
+        "To show that reporting verbs don't translate perfectly and choices change meaning",
+        "To suggest English is superior",
+        "To recommend learning Kazakh"
+      ],
+      "correct": "To show that reporting verbs don't translate perfectly and choices change meaning",
+      "hint": "\"A verb that in Kazakh implies mild reservation might become 'claimed' in English, which implies stronger doubt.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They frame what was said.\" \"Frame\" here means:",
+      "opts": [
+        "Put in a physical frame",
+        "Present in a particular way to suggest an interpretation",
+        "Quote accurately",
+        "Translate"
+      ],
+      "correct": "Present in a particular way to suggest an interpretation",
+      "hint": "\"frame\" = to present something in a way that encourages a particular reading or interpretation."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"'Suggested' makes the statement sound tentative.\" \"Tentative\" means:",
+      "opts": [
+        "Definite",
+        "Formal",
+        "Uncertain or cautious; not definite",
+        "Aggressive"
+      ],
+      "correct": "Uncertain or cautious; not definite",
+      "hint": "\"tentative\" = not certain or committed; exploratory."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The rector said the institution WOULD expand.\" — \"would\" instead of \"will\" because:",
+      "opts": [
+        "It's conditional",
+        "\"will\" doesn't exist in reported speech",
+        "Tense backshift: will→would in reported speech",
+        "\"would\" is more formal"
+      ],
+      "correct": "Tense backshift: will→would in reported speech",
+      "hint": "In reported speech, \"will\" shifts to \"would.\" Direct: \"will expand\" → Reported: \"would expand.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He claimed the report was accurate.\" — what does \"claimed\" suggest here?",
+      "opts": [
+        "It's definitely true",
+        "It's disputed or might not be true",
+        "It was a formal statement",
+        "He was happy to say it"
+      ],
+      "correct": "It's disputed or might not be true",
+      "hint": "\"claimed\" = implies the speaker asserts something but the reporter/reader is sceptical. ✅"
+    }
+  ]
+}

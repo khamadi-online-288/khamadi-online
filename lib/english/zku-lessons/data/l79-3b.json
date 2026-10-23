@@ -1,0 +1,378 @@
+{
+  "id": "l79-3b",
+  "moduleNum": 21,
+  "lessonNum": 4,
+  "moduleTitle": "Economics & Money in Society",
+  "title": "What is Money? A Short History of Currency and the Modern Financial System",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Prof. Sato",
+      "text": "Good afternoon. Today I want to ask a deceptively simple question: what is money? And why is the answer to this question more surprising, and more important, than it might seem?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Sato",
+      "text": "Money, in any economy, performs three functions. It is a medium of exchange — it enables people to trade goods and services without the inefficiency of barter. It is a store of value — it allows people to save purchasing power over time. And it is a unit of account — it provides a common standard for measuring and comparing the value of different goods. These three functions are the definition of money, regardless of the physical form it takes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Sato",
+      "text": "The physical form of money has changed dramatically throughout history. Early money took the form of commodities — grain, cattle, salt, precious metals. The advantage of commodity money is that it has intrinsic value — gold is valuable even if no one accepts it as money. The disadvantage is that it is heavy, divisible with difficulty, and limited in supply in ways that can constrain economic activity.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Sato",
+      "text": "Paper money emerged as a form of representative money — notes that could be exchanged for a specified quantity of a commodity, typically gold or silver. The gold standard, under which currencies were pegged to gold at a fixed rate, governed international monetary arrangements for most of the nineteenth century and into the twentieth. It was abandoned during and after the Second World War, and replaced with the Bretton Woods system, in which currencies were pegged to the US dollar, which was itself convertible to gold. In 1971, the US severed this link, creating the system of \"fiat money\" that exists today.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Sato",
+      "text": "Fiat money is money by government decree — it has no intrinsic value and is not backed by a commodity. It is accepted as money because governments declare it legal tender and because everyone else accepts it. This might seem fragile — and in a sense it is: the value of fiat money depends entirely on confidence in the issuing authority. When that confidence collapses, as it has in several historical cases of hyperinflation, the currency can become worthless very rapidly.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Sato",
+      "text": "Most money in modern economies is not even physical. It exists as digital entries in bank records. When you deposit money in a bank, the bank does not store your notes in a vault — it lends most of them out again, keeping only a small reserve. This is the principle of \"fractional reserve banking.\" The money supply in a modern economy is therefore a multiple of the actual physical currency in circulation — most money is created by the lending activities of commercial banks, not by governments printing notes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Sato",
+      "text": "Central banks — like the Federal Reserve in the US, the European Central Bank, or the Bank of England — exist to manage this system. They set interest rates, which influence the cost and availability of borrowing throughout the economy. They act as \"lenders of last resort\" — providing liquidity to banks that cannot meet their obligations during financial crises. And they regulate the money supply in ways designed to maintain price stability — avoiding both inflation, which erodes the value of savings, and deflation, which can be equally damaging to economic activity.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "medium of exchange",
+      "ru": "средство обмена",
+      "context": "Money's function enabling trade without barter"
+    },
+    {
+      "phrase": "fiat money",
+      "ru": "фиатные деньги",
+      "context": "Money by government decree — no intrinsic value, backed by confidence"
+    },
+    {
+      "phrase": "fractional reserve banking",
+      "ru": "банковское дело с частичным резервированием",
+      "context": "Banks lend out most deposits, keeping only a fraction in reserve"
+    },
+    {
+      "phrase": "lender of last resort",
+      "ru": "кредитор последней инстанции",
+      "context": "Central bank's role providing liquidity to banks in crisis"
+    },
+    {
+      "phrase": "gold standard",
+      "ru": "золотой стандарт",
+      "context": "A monetary system where currency value is fixed to a specific amount of gold"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "inflation",
+      "ipa": "/ɪnˈfleɪʃən/",
+      "pos": "noun",
+      "ru": "инфляция",
+      "kz": "инфляция",
+      "emoji": "📈",
+      "definition": "a sustained increase in the general price level of goods and services, reducing purchasing power",
+      "example": "\"Central banks manage interest rates to avoid inflation eroding the value of savings.\"",
+      "collocations": [
+        "control inflation",
+        "rate of inflation",
+        "hyperinflation"
+      ]
+    },
+    {
+      "en": "deflation",
+      "ipa": "/dɪˈfleɪʃən/",
+      "pos": "noun",
+      "ru": "дефляция",
+      "kz": "дефляция",
+      "emoji": "📉",
+      "definition": "a sustained decrease in the general price level; the opposite of inflation",
+      "example": "\"Deflation — falling prices — can be as damaging as inflation, causing people to delay spending.\"",
+      "collocations": [
+        "risk of deflation",
+        "deflationary spiral",
+        "combat deflation"
+      ]
+    },
+    {
+      "en": "fiat money",
+      "ipa": "/ˈfiːæt ˈmʌni/",
+      "pos": "noun phrase",
+      "ru": "фиатные деньги",
+      "kz": "фиат ақша",
+      "emoji": "💵",
+      "definition": "currency with no intrinsic value, accepted because the government declares it legal tender",
+      "example": "\"Fiat money has no intrinsic value — its worth depends entirely on confidence in the government.\"",
+      "collocations": [
+        "fiat money system",
+        "adopt fiat money",
+        "value of fiat money"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "fiat money",
+      "emoji": "💵",
+      "opts": [
+        "currency with no intrinsic value, accepted by government decree",
+        "gold-backed currency",
+        "digital cryptocurrency",
+        "commodity money like salt or grain"
+      ],
+      "correct": "currency with no intrinsic value, accepted by government decree"
+    },
+    {
+      "id": "p2",
+      "word": "fractional reserve banking",
+      "emoji": "🏦",
+      "opts": [
+        "banks lending out most deposits while keeping a small fraction in reserve",
+        "banks keeping all deposits in a vault",
+        "investing only a fraction of profits",
+        "a banking system only for the wealthy"
+      ],
+      "correct": "banks lending out most deposits while keeping a small fraction in reserve"
+    }
+  ],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What are the three functions of money?",
+      "correct": "Medium of exchange, store of value, unit of account"
+    },
+    {
+      "id": "t2",
+      "question": "What is the advantage of commodity money? What is the disadvantage?",
+      "correct": "Advantage: intrinsic value; Disadvantage: heavy, difficult to divide, limited supply"
+    },
+    {
+      "id": "t3",
+      "question": "What is \"fiat money\" and why is it accepted?",
+      "correct": "Money by government decree with no intrinsic value — accepted because the government declares it legal tender and confidence is maintained"
+    },
+    {
+      "id": "t4",
+      "question": "What is fractional reserve banking?",
+      "correct": "Banks lend out most deposits, keeping only a small fraction in reserve — most money in modern economies is created this way"
+    },
+    {
+      "id": "t5",
+      "question": "What are three roles of central banks?",
+      "correct": "Setting interest rates, acting as lender of last resort, regulating money supply for price stability"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Commodity money has no intrinsic value.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "The gold standard was abandoned after the Second World War.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "In modern economies, most money exists as physical notes and coins.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Hyperinflation can make fiat currency worthless very rapidly.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Prof. Sato says deflation is beneficial because prices fall.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What are the three functions of money?",
+      "opts": [
+        "Storing, spending, and investing",
+        "Medium of exchange, store of value, unit of account",
+        "Taxation, saving, and lending",
+        "Printing, distributing, and circulating"
+      ],
+      "correct": "Medium of exchange, store of value, unit of account",
+      "hint": "Lecture: \"performs three functions\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What ended the Bretton Woods system?",
+      "opts": [
+        "The creation of the Euro",
+        "The collapse of the gold market",
+        "The US severing the dollar-gold link in 1971",
+        "The Second World War"
+      ],
+      "correct": "The US severing the dollar-gold link in 1971",
+      "hint": "Lecture: \"In 1971, the US severed this link\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What creates most money in modern economies?",
+      "opts": [
+        "Governments printing notes",
+        "The lending activities of commercial banks",
+        "Central bank decisions about interest rates",
+        "International trade and currency exchange"
+      ],
+      "correct": "The lending activities of commercial banks",
+      "hint": "Lecture: \"most money is created by the lending activities of commercial banks\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is the \"lender of last resort\" role of central banks?",
+      "opts": [
+        "Lending to governments that cannot pay their debts",
+        "Providing liquidity to banks that cannot meet obligations in a crisis",
+        "Being the only institution allowed to print money",
+        "Setting the final interest rate in an economy"
+      ],
+      "correct": "Providing liquidity to banks that cannot meet obligations in a crisis",
+      "hint": "Lecture: \"providing liquidity to banks that cannot meet their obligations during financial crises\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "The lecture says fiat money has strong intrinsic value.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"fiat money… has no intrinsic value\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Prof. Sato says deflation can be as damaging to economic activity as inflation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Lecture: \"deflation, which can be equally damaging to economic activity\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of inflation is measured by the consumer price index.\" (inflate → noun)",
+      "opts": [
+        "inflating",
+        "inflationary",
+        "inflation",
+        "inflated"
+      ],
+      "correct": "inflation",
+      "hint": "inflate → inflation (-tion suffix: the process/phenomenon of)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ reserve banking allows banks to lend out most deposits.\" (fraction → adjective)",
+      "correct": "Fractional",
+      "hint": "fraction → fractional (-al suffix: relating to a fraction)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of confidence in fiat money leads to hyperinflation.\" (collapse → noun)",
+      "opts": [
+        "collapsing",
+        "collapsed",
+        "collapse",
+        "collapsible"
+      ],
+      "correct": "collapse",
+      "hint": "collapse → collapse (same form as noun or verb — no change needed)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"inflation\"?",
+      "opts": [
+        "Rising interest rates set by central banks",
+        "A sustained increase in the general price level, reducing purchasing power",
+        "The total amount of money in circulation",
+        "A rise in the value of a country's currency"
+      ],
+      "correct": "A sustained increase in the general price level, reducing purchasing power",
+      "hint": "Lecture: \"inflation, which erodes the value of savings\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"fiat money\"?",
+      "opts": [
+        "Currency backed by gold reserves",
+        "Currency accepted because of government decree, not intrinsic value",
+        "Digital cryptocurrency",
+        "Any form of commodity money"
+      ],
+      "correct": "Currency accepted because of government decree, not intrinsic value",
+      "hint": "Lecture: \"money by government decree… no intrinsic value\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The ___ reserve banking system means banks keep only a small fraction of deposits in reserve and lend the rest.",
+      "correct": "fractional",
+      "hint": "Lecture: \"fractional reserve banking\"",
+      "points": 1
+    }
+  ]
+}

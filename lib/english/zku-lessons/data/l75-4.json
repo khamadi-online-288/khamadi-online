@@ -1,0 +1,246 @@
+{
+  "id": "l75-4",
+  "moduleNum": 17,
+  "lessonNum": 7,
+  "moduleTitle": "Environment & Climate Action",
+  "title": "Writing: A Persuasive Essay on an Environmental Issue",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "State the issue clearly and present your position — use an emphasis structure to signal importance",
+      "hint": "\"It is X that represents the greatest challenge.\" / \"What we face is…\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "First argument with evidence — use a participle clause to connect cause and effect",
+      "hint": "e.g. \"Powered by fossil fuels… / Having failed to act earlier…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Second argument — acknowledge the counter-argument and refute it",
+      "hint": "Use contrast linkers: \"Although some argue… / Despite concerns about cost…\""
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Third argument — use emphasis structures for impact",
+      "hint": "\"What is needed is… / Never before has… / It is not X but Y that…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Conclude with a call to action and forward-looking statement",
+      "hint": "\"Only by acting now can we… / What the future requires is…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "It is ",
+      "suffix": " that represents the most urgent environmental challenge of our time.",
+      "placeholder": "the failure to price carbon emissions / the lack of political will on climate action",
+      "hint": "It-cleft to open — immediately signals what the argument will be about"
+    },
+    {
+      "key": "l2",
+      "prefix": "Having ",
+      "suffix": ", industrialised nations bear a particular responsibility to lead.",
+      "placeholder": "produced the majority of historical emissions / benefited from fossil-fuel-powered growth",
+      "hint": "Perfect participle: prior action creates current responsibility"
+    },
+    {
+      "key": "l3",
+      "prefix": "Although ",
+      "suffix": ", the evidence shows that ___.",
+      "hint": "Concession + counter-evidence",
+      "placeholder": "some argue the transition is too expensive / clean energy investment creates more jobs than it destroys"
+    },
+    {
+      "key": "l4",
+      "prefix": "What the data makes clear is ",
+      "suffix": ".",
+      "placeholder": "that the cost of inaction far exceeds the cost of action",
+      "hint": "Wh-cleft for emphasis on the key finding"
+    },
+    {
+      "key": "l5",
+      "prefix": "Only by ",
+      "suffix": " can we hope to limit warming to 1.5 degrees.",
+      "placeholder": "acting with the urgency the science demands / achieving net zero by 2050",
+      "hint": "\"Only by… can we…\" = inversion + strong call to action"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Emphasis structures for essays",
+      "color": "#003876",
+      "items": [
+        "It is not X but Y that we must address.",
+        "What the evidence clearly shows is…",
+        "Never before has the need for action been more urgent.",
+        "Only by [action] can we [outcome].",
+        "It is [this] that determines whether we succeed or fail."
+      ]
+    },
+    {
+      "category": "Participle clauses for analysis",
+      "color": "#1D9E75",
+      "items": [
+        "Powered by fossil fuels for two centuries, the global economy now faces a critical transition.",
+        "Having failed to act earlier, we now face much steeper costs.",
+        "Designed to incentivise clean investment, carbon pricing shifts market behaviour.",
+        "Driven by consumer demand and government policy, the EV market is growing rapidly.",
+        "Threatened by rising seas, island nations have the strongest moral claim to climate finance."
+      ]
+    },
+    {
+      "category": "Acknowledging and refuting counter-arguments",
+      "color": "#C9933B",
+      "items": [
+        "Although some argue that the transition is too costly…",
+        "Despite concerns about economic disruption…",
+        "Critics point out that… However, the evidence suggests…",
+        "It is sometimes claimed that… Nevertheless, the data shows…",
+        "While it is true that… this does not negate the fact that…"
+      ]
+    },
+    {
+      "category": "Strong concluding statements",
+      "color": "#1B8FC4",
+      "items": [
+        "What we owe future generations is not perfection but decisive action.",
+        "Only by treating this as the emergency it is can we prevent the worst.",
+        "It is not technology but political will that we lack.",
+        "Never in human history has a generation had both the knowledge and the means to prevent catastrophe — and faced the choice of whether to use them.",
+        "The question is not whether we can act, but whether we will."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ governments ___ urgent action that will determine the future of the climate.\" (it-cleft)",
+      "opts": [
+        "What / take",
+        "It is / taking",
+        "It is / that take",
+        "What / takes"
+      ],
+      "correct": "It is / that take",
+      "hint": "\"It is + X + that + verb…\" = it-cleft emphasising governments",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (benefit) from fossil fuels for decades, wealthy nations have an obligation to lead the transition.\"",
+      "correct": "Having benefited",
+      "hint": "\"Having + pp\" = prior completed action creates current obligation",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the cost of inaction is ___ the evidence consistently shows.\" (wh-cleft emphasising \"the cost\")",
+      "opts": [
+        "What / that",
+        "It is / that",
+        "That / that",
+        "All / that"
+      ],
+      "correct": "What / that",
+      "hint": "\"What [the evidence shows] is [the cost of inaction]\" = wh-cleft",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ by acting decisively now ___ we limit the damage to future generations.\" (inversion after \"only\")",
+      "correct": "Only / can",
+      "hint": "\"Only by… can we…\" = inversion after \"only\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ by rising seas, the Maldives has called on wealthy nations to honour their climate finance commitments.\"",
+      "opts": [
+        "Threatening",
+        "Threatened",
+        "Having threatened",
+        "To threaten"
+      ],
+      "correct": "Threatened",
+      "hint": "Past participle = passive: \"being threatened by\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Never the planet has warmed so rapidly\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Never before has the planet warmed…\" — inversion: auxiliary before subject",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It is not the lack of technology ___ limits progress, but the absence of political will.\"",
+      "correct": "that",
+      "hint": "\"It is not X that… but Y\" = negative it-cleft",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ investing in clean energy significantly outweigh the costs of inaction.\" (emphasis — the benefits)",
+      "opts": [
+        "What is clear is that the benefits of",
+        "The benefits of",
+        "It is clear that benefits of",
+        "All of the benefits of"
+      ],
+      "correct": "What is clear is that the benefits of",
+      "hint": "\"What is clear is that…\" = wh-cleft for emphasis",
+      "points": 2
+    }
+  ]
+}

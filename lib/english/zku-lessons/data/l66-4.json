@@ -1,0 +1,206 @@
+{
+  "id": "l66-4",
+  "moduleNum": 8,
+  "lessonNum": 7,
+  "moduleTitle": "Gerunds & Infinitives: Advanced",
+  "type": "writing",
+  "title": "A Reflective Academic Essay Using Complex Gerund/Infinitive Patterns",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "It is worth remembering that",
+      "emoji": "💡",
+      "opts": [
+        "Это легко забыть",
+        "Стоит помнить что",
+        "Было бы трудно помнить что",
+        "Важно было помнить что"
+      ],
+      "correct": "Стоит помнить что"
+    },
+    {
+      "id": "p2",
+      "word": "Having struggled with",
+      "emoji": "🔄",
+      "opts": [
+        "Преодолев борьбу с",
+        "Испытав трудности с",
+        "Успешно справившись с",
+        "Отказавшись бороться с"
+      ],
+      "correct": "Испытав трудности с"
+    },
+    {
+      "id": "p3",
+      "word": "Without acknowledging",
+      "emoji": "🚫",
+      "opts": [
+        "Признавая",
+        "Не признавая",
+        "После признания",
+        "В дополнение к признанию"
+      ],
+      "correct": "Не признавая"
+    },
+    {
+      "id": "p4",
+      "word": "I regret not having",
+      "emoji": "😔",
+      "opts": [
+        "Я рад что не",
+        "Я сожалею что не (уже прошло)",
+        "Я обещаю не",
+        "Я забыл не"
+      ],
+      "correct": "Я сожалею что не (уже прошло)"
+    },
+    {
+      "id": "p5",
+      "word": "It would be premature to",
+      "emoji": "⏰",
+      "opts": [
+        "Самое время",
+        "Преждевременно было бы",
+        "Обязательно нужно",
+        "Слишком поздно"
+      ],
+      "correct": "Преждевременно было бы"
+    },
+    {
+      "id": "p6",
+      "word": "In addition to developing",
+      "emoji": "➕",
+      "opts": [
+        "Вместо того чтобы развивать",
+        "В дополнение к развитию",
+        "До развития",
+        "После развития"
+      ],
+      "correct": "В дополнение к развитию"
+    }
+  ],
+  "writingModel": [
+    "Learning to Learn: A Reflection on Language Study — by Amir Bekzhanov",
+    "Having studied English formally for eleven years before arriving at WKU, I had every reason to consider myself an advanced speaker. I remember being assessed at the start of my first year and feeling surprised at the result — not because I had expected to perform better, but because the test revealed something I had never noticed: I was highly accurate in controlled conditions but significantly less confident when thinking on my feet. Having spent years learning to avoid making mistakes, I had stopped trying to communicate naturally.",
+    "It is worth acknowledging this, even though it is not flattering. Without recognising the source of the problem, there is little chance of addressing it. In addition to being accurate, effective communication requires the willingness to try speaking without knowing whether your grammar is perfect. I regret not having developed this willingness earlier — it would have made the first year here significantly less anxious.",
+    "I tried changing my approach at the start of the second semester. Instead of preparing every sentence in my head before speaking, I began to speak first and correct later. I remember trying this in Dr. Seitkali's seminar for the first time — and finding it terrifying. But I also remember being surprised by how much I understood despite the imperfection of my expression. Being understood matters more than being correct, in the short term.",
+    "What I have learned from this experience is not easy to overstate. It is essential to distinguish between the accuracy that writing requires and the fluency that conversation demands. Having come to understand this distinction, I now think of them as separate skills, each needing its own kind of practice. In addition to writing carefully crafted sentences, I now try to speak spontaneously — without stopping to plan every clause.",
+    "It would be premature to claim that I have solved this problem. I still find it difficult to speak fluently under pressure. But I have stopped being frustrated by this, having understood that fluency is a process, not a destination. I regret spending so much of my school years trying to avoid errors rather than going on to build genuine communicative capacity. The two things are not opposed — but it is important to remember that accuracy without fluency is, in the end, insufficient.",
+    "The lesson I continue to learn — and which I would pass on to any new student — is this: being afraid of making mistakes is natural, but continuing to let that fear govern your behaviour is a choice. It is always possible to try being more communicative, even before you feel ready. Having tried and failed is infinitely preferable to not having tried at all."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": ": A Reflection on — by ___.",
+      "placeholder": "Topic + \"A Reflection on\" + your name",
+      "hint": "\"Learning X: A Reflection on Y.\" — reflective academic essay title. ✅"
+    },
+    {
+      "key": "perfect_g",
+      "prefix": "Having ",
+      "suffix": ", I had reason to believe ___.",
+      "placeholder": "Having + pp + context",
+      "hint": "\"HAVING STUDIED for years, I had reason to believe...\" — perfect gerund opening. ✅"
+    },
+    {
+      "key": "regret",
+      "prefix": "I regret not having ",
+      "suffix": " earlier — it would have made ___.",
+      "placeholder": "V-pp earlier (perfect regret gerund)",
+      "hint": "\"I regret not HAVING DEVELOPED this earlier.\" — perfect gerund with regret. ✅"
+    },
+    {
+      "key": "try",
+      "prefix": "I tried ",
+      "suffix": ". I remember ___.",
+      "placeholder": "trying/to + action + remembering result",
+      "hint": "\"I tried CHANGING my approach.\" (experiment) / \"I remember TRYING this.\" ✅"
+    },
+    {
+      "key": "itadj",
+      "prefix": "It is essential to ",
+      "suffix": ". In addition to ___.",
+      "placeholder": "essential/important to + distinguish/recognise",
+      "hint": "\"It is ESSENTIAL TO DISTINGUISH between X and Y.\" + \"IN ADDITION TO...\" ✅"
+    },
+    {
+      "key": "premature",
+      "prefix": "It would be premature to claim that I have ",
+      "suffix": ". But I have stopped ___.",
+      "placeholder": "premature conclusion + what has changed",
+      "hint": "\"It would be PREMATURE TO CLAIM...\" ✅"
+    },
+    {
+      "key": "close",
+      "prefix": "Having ",
+      "suffix": " is infinitely preferable to not having ___.",
+      "placeholder": "perfect gerund contrast (tried vs not tried)",
+      "hint": "\"HAVING TRIED and failed is preferable to not HAVING TRIED at all.\" ✅"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Perfect gerund (having done)",
+      "color": "#003876",
+      "items": [
+        "Having studied X for many years, I...",
+        "Having come to understand this distinction,...",
+        "Having tried and failed, I now...",
+        "Having spent years avoiding mistakes, I had...",
+        "I regret not having developed this willingness earlier."
+      ]
+    },
+    {
+      "category": "Preposition + gerund",
+      "color": "#1D9E75",
+      "items": [
+        "In addition to being accurate, effective communication requires...",
+        "Without recognising the source of the problem,...",
+        "Instead of preparing every sentence, I began to...",
+        "In addition to writing carefully crafted sentences,...",
+        "Being afraid of making mistakes is natural, but..."
+      ]
+    },
+    {
+      "category": "It + adjective + to-infinitive",
+      "color": "#1B8FC4",
+      "items": [
+        "It is worth acknowledging / noting / recognising that...",
+        "It is essential to distinguish between X and Y.",
+        "It would be premature to claim that...",
+        "It is important to remember that accuracy without fluency is insufficient.",
+        "It is not easy to overstate what I have learned."
+      ]
+    },
+    {
+      "category": "Meaning-change verbs in context",
+      "color": "#C9933B",
+      "items": [
+        "I remember trying this for the first time — finding it terrifying.",
+        "I have stopped being frustrated by this.",
+        "I tried changing my approach. / I tried to speak without planning.",
+        "I remember being surprised by how much I understood.",
+        "Having understood that fluency is a process, not a destination."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "id": "l30-g2",
+  "moduleNum": 14,
+  "lessonNum": 4,
+  "moduleTitle": "Work & Career",
+  "type": "grammar",
+  "title": "do / make / have / take Collocations",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "do / make / have / take Collocations",
+  "grammarNote": "DO, MAKE, HAVE, TAKE — четыре самых сложных глагола. Один русский \"делать\" = несколько английских.\n\n🔵 DO — деятельность, задачи, обязанности:\ndo homework · do the washing · do exercise · do research · do your best\n\n🟡 MAKE — создание, производство, результат:\nmake a cake · make a mistake · make progress · make a decision\nmake money · make a noise · make a phone call · make an effort\n\n🟢 HAVE — обладание, принятие пищи, опыт:\nhave breakfast/lunch/dinner · have a shower · have a rest · have fun\nhave a conversation · have time · have a meeting · have an idea\n\n🔴 TAKE — взятие, использование, выбор:\ntake a photo · take a seat · take a bus/taxi · take a break\ntake notes · take an exam · take medicine · take a risk\n\n⚠️ Частые ошибки:\n❌ \"Do a photo\" → ✅ \"Take a photo\"\n❌ \"Make homework\" → ✅ \"Do homework\"\n❌ \"Do a mistake\" → ✅ \"Make a mistake\"\n❌ \"Make a shower\" → ✅ \"Have a shower\"",
+  "grammarTable": [
+    {
+      "subject": "DO",
+      "verb": "MAKE",
+      "short": "HAVE",
+      "example": "TAKE"
+    },
+    {
+      "subject": "do homework",
+      "verb": "make a decision",
+      "short": "have a meeting",
+      "example": "take a break"
+    },
+    {
+      "subject": "do research",
+      "verb": "make progress",
+      "short": "have a conversation",
+      "example": "take responsibility"
+    },
+    {
+      "subject": "do exercise",
+      "verb": "make a mistake",
+      "short": "have lunch",
+      "example": "take notes"
+    },
+    {
+      "subject": "do your best",
+      "verb": "make an effort",
+      "short": "have fun",
+      "example": "take an exam"
+    },
+    {
+      "subject": "do business",
+      "verb": "make a plan",
+      "short": "have a problem",
+      "example": "take part in"
+    },
+    {
+      "subject": "do well",
+      "verb": "make a suggestion",
+      "short": "have experience",
+      "example": "take a course"
+    },
+    {
+      "subject": "do a favour",
+      "verb": "make friends",
+      "short": "have a look",
+      "example": "take care of"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "DO collocations",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "I need to do my homework before tomorrow.",
+          "example": "✅ do homework"
+        },
+        {
+          "form": "She does exercise every morning at 7 a.m.",
+          "example": "✅ do exercise"
+        },
+        {
+          "form": "They did their best to finish the project.",
+          "example": "✅ do your best"
+        },
+        {
+          "form": "He does business with companies in Europe.",
+          "example": "✅ do business"
+        },
+        {
+          "form": "Can you do me a favour?",
+          "example": "✅ do a favour"
+        },
+        {
+          "form": "She is doing well in all her subjects.",
+          "example": "✅ do well"
+        }
+      ]
+    },
+    {
+      "title": "MAKE collocations",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "He made a decision to change his major.",
+          "example": "✅ make a decision"
+        },
+        {
+          "form": "She made a mistake in the final report.",
+          "example": "✅ make a mistake"
+        },
+        {
+          "form": "They made progress on the new system.",
+          "example": "✅ make progress"
+        },
+        {
+          "form": "I need to make a plan for next semester.",
+          "example": "✅ make a plan"
+        },
+        {
+          "form": "He made a suggestion at the team meeting.",
+          "example": "✅ make a suggestion"
+        },
+        {
+          "form": "She made friends quickly in her new job.",
+          "example": "✅ make friends"
+        }
+      ]
+    },
+    {
+      "title": "HAVE collocations",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Let's have a meeting at 10 a.m.",
+          "example": "✅ have a meeting"
+        },
+        {
+          "form": "I had a conversation with Dr. Akhmetov about my thesis.",
+          "example": "✅ have a conversation"
+        },
+        {
+          "form": "We have lunch at 1 p.m. every day.",
+          "example": "✅ have lunch"
+        },
+        {
+          "form": "She has a lot of experience in marketing.",
+          "example": "✅ have experience"
+        },
+        {
+          "form": "Did you have fun at the WKU career fair?",
+          "example": "✅ have fun"
+        },
+        {
+          "form": "We have a problem with the database.",
+          "example": "✅ have a problem"
+        }
+      ]
+    },
+    {
+      "title": "TAKE collocations",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "Take a break every 45 minutes when studying.",
+          "example": "✅ take a break"
+        },
+        {
+          "form": "He took responsibility for the team's result.",
+          "example": "✅ take responsibility"
+        },
+        {
+          "form": "She takes notes in every lecture.",
+          "example": "✅ take notes"
+        },
+        {
+          "form": "I need to take an English exam next month.",
+          "example": "✅ take an exam"
+        },
+        {
+          "form": "He took part in three competitions.",
+          "example": "✅ take part in"
+        },
+        {
+          "form": "She took a course in project management online.",
+          "example": "✅ take a course"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Запомни через ассоциации:\n\nDO = \"выполнять задачи\": do homework · do research · do exercise · do cleaning\nMAKE = \"создавать / производить\": make a cake · make a mistake · make a decision\nHAVE = \"испытывать / употреблять\": have fun · have a shower · have lunch\nTAKE = \"брать / использовать\": take a photo · take a break · take an exam\n\n🎯 Быстрый тест:\n___ a suggestion? → make\n___ the ironing? → do\n___ a nap? → have\n___ the stairs? → take",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "She ___ a mistake in the report.",
+      "opts": [
+        "did",
+        "made",
+        "had",
+        "took"
+      ],
+      "correct": "made",
+      "hint": "\"make a mistake\" = the correct collocation."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with do, make, have, or take.",
+      "text": "I need to ___ my homework before the lecture.",
+      "correct": "do",
+      "hint": "\"do homework\" = the correct collocation."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "Let's ___ a meeting at 3 p.m. tomorrow.",
+      "opts": [
+        "do",
+        "make",
+        "have",
+        "take"
+      ],
+      "correct": "have",
+      "hint": "\"have a meeting\" = the correct collocation."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with do, make, have, or take.",
+      "text": "He ___ notes during every lecture.",
+      "correct": "takes",
+      "hint": "\"take notes\" = the correct collocation."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "She ___ a decision to change her career.",
+      "opts": [
+        "did",
+        "made",
+        "had",
+        "took"
+      ],
+      "correct": "made",
+      "hint": "\"make a decision\" = the correct collocation."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Have a homework\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"do homework\" — not \"have homework\"."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with do, make, have, or take.",
+      "text": "They ___ part in the university debate competition.",
+      "correct": "took",
+      "hint": "\"take part in\" = the correct collocation."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "\"___ a break\" — which verb?",
+      "opts": [
+        "do",
+        "make",
+        "have",
+        "take"
+      ],
+      "correct": "take",
+      "hint": "\"take a break\" = the correct collocation."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "He ___ his best in the exam but the result was disappointing.",
+      "opts": [
+        "did",
+        "made",
+        "had",
+        "took"
+      ],
+      "correct": "did",
+      "hint": "\"do your best\" = the correct collocation."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with do, make, have, or take.",
+      "text": "We ___ a great conversation about our career plans.",
+      "correct": "had",
+      "hint": "\"have a conversation\" = the correct collocation."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "\"___ progress\" — which verb?",
+      "opts": [
+        "do",
+        "make",
+        "have",
+        "take"
+      ],
+      "correct": "make",
+      "hint": "\"make progress\" = the correct collocation."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Take an exam\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"take an exam\" ✅ = standard British English. Also: \"sit an exam\"."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ a decision\" — which verb?",
+      "opts": [
+        "do",
+        "make",
+        "have",
+        "take"
+      ],
+      "correct": "make",
+      "hint": "\"make a decision\" = the standard collocation."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ a break after three hours of study.",
+      "correct": "took",
+      "hint": "\"take a break\" = the standard collocation."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ homework\" — which verb?",
+      "opts": [
+        "make",
+        "take",
+        "do",
+        "have"
+      ],
+      "correct": "do",
+      "hint": "\"do homework\" = the standard collocation."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Make an exam\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"take an exam\" or \"sit an exam.\" NOT \"make an exam.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Let's ___ a meeting to discuss the project.",
+      "correct": "have",
+      "hint": "\"have a meeting\" = the standard collocation."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She ___ a mistake in the email.\" Fill in:",
+      "opts": [
+        "did",
+        "had",
+        "made",
+        "took"
+      ],
+      "correct": "made",
+      "hint": "\"make a mistake\" = the standard collocation."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He ___ notes on everything Dr. Akhmetov says.",
+      "correct": "takes",
+      "hint": "\"take notes\" = the standard collocation."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ progress\" — which verb?",
+      "opts": [
+        "do",
+        "take",
+        "have",
+        "make"
+      ],
+      "correct": "make",
+      "hint": "\"make progress\" = the standard collocation."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ her best, but the task was too difficult.",
+      "opts": [
+        "made",
+        "had",
+        "did",
+        "took"
+      ],
+      "correct": "did",
+      "hint": "\"do your best\" = the standard collocation."
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Have fun\" is a correct collocation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"have fun\" = enjoy yourself. ✅"
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What has Amir prepared for the job interview?",
+      "opts": [
+        "A CV and cover letter",
+        "A portfolio of his coding projects",
+        "A list of references",
+        "A language certificate"
+      ],
+      "correct": "A portfolio of his coding projects",
+      "hint": "Listening statement 1: \"He has prepared a portfolio of his coding projects.\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Ms. Dinara says the internship involves only administrative tasks.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 2: \"the internship involves working on real client projects.\""
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did Amir do when the team leader was ill?",
+      "opts": [
+        "He cancelled the project",
+        "He called for help",
+        "He led the group project himself",
+        "He asked a professor to help"
+      ],
+      "correct": "He led the group project himself",
+      "hint": "Statement 5: \"he once led his group project when the team leader was ill.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Expertise\" means:",
+      "opts": [
+        "Entry-level knowledge",
+        "Expert skill or knowledge gained through experience",
+        "A type of certification",
+        "Academic qualifications only"
+      ],
+      "correct": "Expert skill or knowledge gained through experience",
+      "hint": "\"Expertise\" = a high level of skill or knowledge in a particular area."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She has strong ___ prospects — she graduates with top grades and speaks three languages.",
+      "correct": "career",
+      "hint": "\"Career prospects\" = opportunities and chances for professional advancement."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Work-life balance\" refers to:",
+      "opts": [
+        "Working as many hours as possible",
+        "Having time for both professional work and personal life",
+        "Choosing between career and family",
+        "Working only part-time"
+      ],
+      "correct": "Having time for both professional work and personal life",
+      "hint": "\"Work-life balance\" = managing time so that work does not dominate personal life."
+    }
+  ]
+}

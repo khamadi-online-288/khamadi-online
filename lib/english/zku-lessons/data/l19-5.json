@@ -1,0 +1,222 @@
+{
+  "id": "l19-5",
+  "moduleNum": 3,
+  "lessonNum": 6,
+  "moduleTitle": "Getting Around",
+  "title": "Directions to my university",
+  "type": "writing",
+  "xp": 75,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Getting to WKU from...",
+      "emoji": "🗺️",
+      "opts": [
+        "Как добраться до ЗКУ им. М. Утемісова из...",
+        "Дорога от ЗКУ им. М. Утемісова до...",
+        "Маршрут внутри ЗКУ им. М. Утемісова...",
+        "История дороги до ЗКУ им. М. Утемісова..."
+      ],
+      "correct": "Как добраться до ЗКУ им. М. Утемісова из..."
+    },
+    {
+      "id": "p2",
+      "word": "First, go straight.",
+      "emoji": "⬆️",
+      "opts": [
+        "Сначала поверни.",
+        "Сначала иди прямо.",
+        "Во-первых, садись на автобус.",
+        "Сначала пересеки."
+      ],
+      "correct": "Сначала иди прямо."
+    },
+    {
+      "id": "p3",
+      "word": "Then, turn left.",
+      "emoji": "⬅️",
+      "opts": [
+        "Затем иди прямо.",
+        "Затем поверни налево.",
+        "Затем пересеки дорогу.",
+        "Затем иди направо."
+      ],
+      "correct": "Затем поверни налево."
+    },
+    {
+      "id": "p4",
+      "word": "You can't miss it!",
+      "emoji": "🎯",
+      "opts": [
+        "Это очень далеко!",
+        "Это легко найти!",
+        "Ты пропустишь его!",
+        "Это сложно найти."
+      ],
+      "correct": "Это легко найти!"
+    },
+    {
+      "id": "p5",
+      "word": "It takes about... min.",
+      "emoji": "⏱️",
+      "opts": [
+        "Это стоит... мин.",
+        "Это занимает около... мин.",
+        "Это находится в... мин.",
+        "Автобус идёт... мин."
+      ],
+      "correct": "Это занимает около... мин."
+    },
+    {
+      "id": "p6",
+      "word": "The nearest stop is...",
+      "emoji": "🚏",
+      "opts": [
+        "Дальняя остановка — это...",
+        "Ближайшая остановка — это...",
+        "Лучшая остановка — это...",
+        "Нет остановки рядом."
+      ],
+      "correct": "Ближайшая остановка — это..."
+    }
+  ],
+  "writingModel": [
+    "Are you visiting WKU for the first time? Don't worry — it's easier to find than you think! In this guide, I'll explain three different ways to get to the West Kazakhstan University named after Makhambет Utemisov (WKU) campus from the city centre of Uralsk. Whether you prefer walking, taking the bus, or using a taxi app, I've got you covered.",
+    "Option 1: By bus. The most affordable option is bus number 14, which runs every 15 minutes between 7:00 am and 9:00 pm. Catch it at the Central Market bus stop on Dostyq Street. The journey takes approximately 20 minutes. Get off at the WKU Main Campus stop — it's announced electronically on the bus, so you can't miss it. The bus fare is 90 tenge, payable by card or cash.",
+    "Option 2: By taxi app. For a faster and more comfortable journey, use Yandex Go or InDrive. Simply open the app, type \"WKU, Uralsk\" as your destination, and a driver will arrive in 3–5 minutes. The journey takes 10–12 minutes and costs approximately 500–700 tenge depending on the time of day. This is the best option if you are carrying heavy bags or travelling in the evening.",
+    "Option 3: On foot from Uralsk City Centre. If you enjoy walking and the weather is good, it takes about 25 minutes on foot. From the central fountain on Abai Avenue, walk straight ahead along the main boulevard for approximately 600 metres. Walk past the City Hall building on your right. Then, turn left at the roundabout by the tall monument. Follow the road for another 300 metres. Cross the road at the zebra crossing. WKU's main gate, with its large blue and gold sign, is directly opposite. You can't miss it!",
+    "Important tips for visitors: The main entrance to WKU is on University Street. You will need your ID or passport to enter the campus. Free Wi-Fi is available in all buildings. The student information desk is located in the main hall of Building 1 — staff there speak Kazakh, Russian, and English. If you get lost, don't hesitate to ask any WKU student for help — we are always happy to assist! Welcome to our university. 🎓"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "Are you coming to ",
+      "suffix": " for the first time? Here's how to get there!",
+      "placeholder": "your university/place",
+      "hint": "e.g. WKU / the city library / our department"
+    },
+    {
+      "key": "opt1",
+      "prefix": "Option 1: By bus. Take bus number ",
+      "suffix": " from ___.",
+      "placeholder": "bus number ... stop name",
+      "hint": "e.g. 14 ... Central Market"
+    },
+    {
+      "key": "time1",
+      "prefix": "The journey takes approximately ",
+      "suffix": " minutes and costs ___.",
+      "placeholder": "time ... price",
+      "hint": "e.g. 20 ... 90 tenge"
+    },
+    {
+      "key": "opt2",
+      "prefix": "Option 2: By taxi. Use ",
+      "suffix": " app — it takes about ___.",
+      "placeholder": "app name ... time",
+      "hint": "e.g. Yandex Go ... 10 minutes"
+    },
+    {
+      "key": "walk",
+      "prefix": "Option 3: On foot. First, walk straight along ",
+      "suffix": " for about ___.",
+      "placeholder": "street name ... distance",
+      "hint": "e.g. the main boulevard ... 600 metres"
+    },
+    {
+      "key": "turn",
+      "prefix": "Then, turn ",
+      "suffix": " at the ___.",
+      "placeholder": "direction ... landmark",
+      "hint": "e.g. left ... roundabout / right ... traffic lights"
+    },
+    {
+      "key": "arrive",
+      "prefix": "The entrance is ",
+      "suffix": ". You can't miss it!",
+      "placeholder": "description of building",
+      "hint": "e.g. a large blue building with a gold sign"
+    },
+    {
+      "key": "tip",
+      "prefix": "Top tip: ",
+      "suffix": ".",
+      "placeholder": "useful advice",
+      "hint": "e.g. Book a taxi 20 min early / Catch the bus before 9 am"
+    },
+    {
+      "key": "close",
+      "prefix": "If you get lost, just ",
+      "suffix": ". We're always happy to help!",
+      "placeholder": "ask for help / call us",
+      "hint": "e.g. ask any student / call the information desk"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Directions — step by step",
+      "color": "#003876",
+      "items": [
+        "First, go straight ahead along...",
+        "Then, turn left / right at the...",
+        "After that, cross the road at...",
+        "Walk past the... on your left/right.",
+        "Follow the road for about... metres.",
+        "Finally, you will see the entrance on your left."
+      ]
+    },
+    {
+      "category": "Transport options",
+      "color": "#16A34A",
+      "items": [
+        "Take bus number ... from ...",
+        "The bus fare is ... tenge.",
+        "Get off at the ... stop.",
+        "Use Yandex Go / InDrive — it takes about ... minutes.",
+        "The taxi costs approximately ... tenge.",
+        "It is ... minutes on foot."
+      ]
+    },
+    {
+      "category": "Useful location phrases",
+      "color": "#1B8FC4",
+      "items": [
+        "It's on your left / right.",
+        "It's opposite the ...",
+        "It's next to the ...",
+        "It's on the corner of ... Street.",
+        "You can't miss it!",
+        "The main entrance is on ... Street."
+      ]
+    },
+    {
+      "category": "Helpful visitor tips",
+      "color": "#7C3AED",
+      "items": [
+        "You will need your ID to enter.",
+        "Free Wi-Fi is available in all buildings.",
+        "Don't hesitate to ask for help!",
+        "The information desk is in Building 1.",
+        "Book your taxi at least 20 minutes early.",
+        "If you're lost — ask any student. We're friendly!"
+      ]
+    }
+  ]
+}

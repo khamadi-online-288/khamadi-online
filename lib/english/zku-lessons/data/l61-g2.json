@@ -1,0 +1,638 @@
+{
+  "id": "l61-g2",
+  "moduleNum": 3,
+  "lessonNum": 6,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "grammar",
+  "title": "Third Conditional, Mixed Conditionals & Advanced Patterns",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Third Conditional, Mixed Conditionals & Wish / If Only",
+  "grammarNote": "Третий тип условных предложений — это грамматика прошлого, которое не случилось. Mixed conditionals позволяют соединить прошлое с настоящим или будущим. А конструкции I wish и If only используют тот же механизм для выражения сожаления и желания изменить реальность.",
+  "grammarTable": [
+    {
+      "subject": "THIRD conditional",
+      "verb": "if + Past Perfect, would have + pp",
+      "short": "past counterfactual",
+      "example": "\"If I had studied, I would have passed.\" / \"If she hadn't left, we would have met.\""
+    },
+    {
+      "subject": "Mixed (3rd→2nd)",
+      "verb": "if + Past Perfect, would + base",
+      "short": "past condition → present result",
+      "example": "\"If I had taken the scholarship, I would be in Berlin now.\""
+    },
+    {
+      "subject": "Mixed (2nd→3rd)",
+      "verb": "if + Past Simple, would have + pp",
+      "short": "present condition → past result",
+      "example": "\"If I were braver, I would have spoken up at the meeting.\""
+    },
+    {
+      "subject": "I wish + Past Simple",
+      "verb": "→ contrary to present reality",
+      "short": "wish about present",
+      "example": "\"I wish I spoke German.\" (I don't speak German now)"
+    },
+    {
+      "subject": "I wish + Past Perfect",
+      "verb": "→ regret about past",
+      "short": "regret about past",
+      "example": "\"I wish I had studied harder.\" (I didn't study enough — past regret)"
+    },
+    {
+      "subject": "I wish + would",
+      "verb": "→ wanting change in behaviour",
+      "short": "wish for change",
+      "example": "\"I wish you would stop interrupting.\" (annoyed at ongoing behaviour)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Third conditional: the mechanics and meaning",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Structure: if + Past Perfect + would have + pp",
+          "example": "\"If I had known, I would have come.\" (I didn't know → I didn't come)"
+        },
+        {
+          "form": "Both clauses are in the past",
+          "example": "\"If she hadn't missed the flight, she would have arrived on time.\" ✅"
+        },
+        {
+          "form": "Negative if-clause = positive result possible",
+          "example": "\"If he hadn't helped me, I would have failed.\" ✅ (he did help → I passed)"
+        },
+        {
+          "form": "Could have / might have instead of would have",
+          "example": "\"If I had applied earlier, I might have got a better scholarship.\" (less certain) ✅"
+        },
+        {
+          "form": "Inverted third conditional (formal)",
+          "example": "\"Had I known about this, I would have acted differently.\" = \"If I had known...\" ✅"
+        },
+        {
+          "form": "Common error: ✗ \"If I would have\"",
+          "example": "✅ \"If I HAD known...\" — NEVER \"if I would have known.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Mixed conditionals: the two main types",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Type A: Past condition → Present result (3rd→2nd)",
+          "example": "\"If I had taken the job offer, I would be in Tokyo now.\" (didn't take → not in Tokyo now) ✅"
+        },
+        {
+          "form": "Type B: Present condition → Past result (2nd→3rd)",
+          "example": "\"If she were more organised, she would have finished the project on time.\" (she's not → she didn't finish) ✅"
+        },
+        {
+          "form": "Identifying Type A",
+          "example": "Look for: if + HAD + pp... + would + BE/HAVE/KNOW etc. (present state) ✅"
+        },
+        {
+          "form": "Identifying Type B",
+          "example": "Look for: if + WERE/WEREN'T/HAD/DIDN'T... + would HAVE + pp (past result) ✅"
+        },
+        {
+          "form": "\"Now\" / \"still\" / \"today\" = often signal Type A",
+          "example": "\"If you had left earlier, you would be home NOW.\" — past action, present consequence ✅"
+        },
+        {
+          "form": "\"At the time\" / \"yesterday\" = often signal Type B",
+          "example": "\"If he were more careful, he would NOT have made that mistake yesterday.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Wish and If only — expressing regret and desire",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "wish + Past Simple = contrary to present reality",
+          "example": "\"I wish I knew the answer.\" (I don't know) / \"I wish it weren't so cold.\" ✅"
+        },
+        {
+          "form": "wish + Past Perfect = regret about past",
+          "example": "\"I wish I had taken better notes.\" (I didn't → I now regret it) ✅"
+        },
+        {
+          "form": "wish + would = wanting someone/thing to change",
+          "example": "\"I wish you would stop talking.\" (frustrated; ongoing behaviour I want to change) ✅"
+        },
+        {
+          "form": "If only = stronger, more emotional version of wish",
+          "example": "\"If only I had more time!\" / \"If only she had told me earlier!\" ✅"
+        },
+        {
+          "form": "✗ wish + will (error)",
+          "example": "✅ \"I wish it WOULD stop raining.\" (not \"will\") — \"would\" for wishes about present/future. ✅"
+        },
+        {
+          "form": "✗ wish + present simple for past (error)",
+          "example": "✅ \"I wish I HAD studied harder.\" (not \"I wish I study harder\" for past regret). ✅"
+        }
+      ]
+    },
+    {
+      "title": "Formal inversion in conditionals (B2 preview)",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Had + subject (inverted 3rd conditional)",
+          "example": "\"HAD I known, I would have acted differently.\" = \"If I had known...\" ✅ (formal/literary)"
+        },
+        {
+          "form": "Were + subject (inverted 2nd conditional)",
+          "example": "\"WERE I in your position, I would apply.\" = \"If I were in your position...\" ✅"
+        },
+        {
+          "form": "Should + subject (inverted 1st conditional)",
+          "example": "\"SHOULD you need help, please call me.\" = \"If you need help...\" (very formal) ✅"
+        },
+        {
+          "form": "When to use",
+          "example": "Legal documents, academic writing, formal speeches. In conversational English, \"if\" is preferred. ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common errors with third and mixed conditionals",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"If I would have known, I would have come.\"",
+          "example": "✅ \"If I HAD known...\" — NEVER \"would have\" in the if-clause of 3rd conditional. ✅"
+        },
+        {
+          "form": "✗ \"I wish I would know the answer.\"",
+          "example": "✅ \"I wish I KNEW the answer.\" — wish + Past Simple for present reality. ✅"
+        },
+        {
+          "form": "✗ \"If I were richer, I would have bought it.\" (confusion)",
+          "example": "This IS valid — Type B mixed conditional (present state → past result). Check if intentional. ✅"
+        },
+        {
+          "form": "✗ \"I wish you will stop.\"",
+          "example": "✅ \"I wish you WOULD stop.\" — wish + would for wanting behaviour change. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Third Conditional:\nif + Past Perfect + would have + pp\n\"If I HAD studied, I WOULD HAVE passed.\"\n⚠️ NEVER \"if I would have\" in the if-clause!\n\nMixed Conditionals:\nType A (past→present): if + PP + would + base\n\"If I HAD taken the job, I WOULD BE there now.\"\n\nType B (present→past): if + PS + would have + pp\n\"If she WERE organised, she WOULD HAVE finished.\"\n\nWish / If only:\nwish + PS → contrary to NOW\n\"I wish I KNEW the answer.\" (don't know)\n\nwish + PP → regret about PAST\n\"I wish I HAD studied harder.\"\n\nwish + would → frustrated about behaviour\n\"I wish you WOULD listen to me!\"\n\nInversion (formal):\nHad I known... / Were I in your position...",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Third conditional — choose correctly.",
+      "text": "\"If she ___ the warning, she ___ the accident.\"",
+      "opts": [
+        "heard / would avoid",
+        "had heard / would have avoided",
+        "heard / would have avoided",
+        "had heard / would avoid"
+      ],
+      "correct": "had heard / would have avoided",
+      "hint": "3rd conditional: if + PP + would have + pp. \"If she HAD HEARD the warning, she WOULD HAVE AVOIDED the accident.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the third conditional.",
+      "text": "\"If Daniyar ___ (not / go) to Prague, he ___ (not / study) international law.\"",
+      "correct": "hadn't gone / wouldn't have studied",
+      "hint": "3rd conditional negative: \"If he HADN'T GONE to Prague, he WOULDN'T HAVE STUDIED international law.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Identify: mixed or pure third conditional?",
+      "text": "\"If I had taken that job offer, I would be in Singapore right now.\"",
+      "opts": [
+        "Pure third conditional",
+        "Mixed: past if-clause + present result (Type A)",
+        "Mixed: present if-clause + past result (Type B)",
+        "Second conditional"
+      ],
+      "correct": "Mixed: past if-clause + present result (Type A)",
+      "hint": "\"had taken\" (past PP) + \"would be now\" (present state) = MIXED Type A: past condition → present result. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Find the error.",
+      "text": "\"If I would have studied harder, I would have passed the exam.\"",
+      "opts": [
+        "Correct",
+        "\"would have studied\" in if-clause is wrong — should be \"had studied\"",
+        "\"would have passed\" is wrong",
+        "\"harder\" should be \"more hard\""
+      ],
+      "correct": "\"would have studied\" in if-clause is wrong — should be \"had studied\"",
+      "hint": "✅ \"If I HAD STUDIED harder...\" — if-clause of 3rd conditional uses PAST PERFECT, never \"would have.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "\"I wish\" — choose the correct form.",
+      "text": "\"I wish I ___ the answer right now.\" (I don't know it)",
+      "opts": [
+        "know",
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "correct": "knew",
+      "hint": "Wish + PAST SIMPLE = contrary to present reality. \"I wish I KNEW the answer.\" (I don't know now) ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "\"I wish\" — regret about past.",
+      "text": "\"I wish I ___ earlier. It's too late now.\" (about a past action)",
+      "opts": [
+        "start",
+        "started",
+        "had started",
+        "would start"
+      ],
+      "correct": "had started",
+      "hint": "Wish + PAST PERFECT = past regret. \"I wish I HAD STARTED earlier.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "\"I wish + would\" — wanting change in behaviour.",
+      "text": "\"I wish you ___ (stop) interrupting me when I'm speaking!\"",
+      "correct": "would stop",
+      "hint": "Wish + WOULD = wanting someone to change their behaviour. \"I wish you WOULD STOP interrupting.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "\"If only\" — choose correctly.",
+      "text": "\"___ I had taken that internship! I really regret it now.\"",
+      "opts": [
+        "I wish",
+        "If only",
+        "Both work",
+        "Neither works"
+      ],
+      "correct": "Both work",
+      "hint": "\"I wish I had taken...\" ✅ and \"If only I had taken...\" ✅ — both express past regret. \"If only\" is more emphatic/emotional. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Mixed conditional — Type B (present→past). Choose.",
+      "text": "\"If she ___ (be) more organised, she ___ (not / miss) the deadline yesterday.\"",
+      "opts": [
+        "were / wouldn't have missed",
+        "was / wouldn't miss",
+        "had been / wouldn't have missed",
+        "were / didn't miss"
+      ],
+      "correct": "were / wouldn't have missed",
+      "hint": "Type B: present condition (WERE = 2nd) + past result (WOULDN'T HAVE MISSED = 3rd). \"If she WERE more organised, she WOULDN'T HAVE MISSED the deadline.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Formal inversion — rewrite without \"if.\"",
+      "text": "\"If I had known about the meeting, I would have attended.\" → \"___ I known about the meeting, I would have attended.\"",
+      "correct": "Had",
+      "hint": "Inverted 3rd conditional: \"HAD I known about the meeting, I would have attended.\" (had + subject = formal/literary inversion) ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Could have vs would have.",
+      "text": "\"If she had studied harder, she ___ passed with a distinction.\" (less certain)",
+      "opts": [
+        "would have",
+        "could have",
+        "might have",
+        "All three are possible, with different certainty levels"
+      ],
+      "correct": "All three are possible, with different certainty levels",
+      "hint": "\"would have\" = certain consequence. \"could have\" = had the ability. \"might have\" = possible but uncertain. All work in 3rd conditional with different meanings. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify: what does this wish express?",
+      "text": "\"I wish the internet connection would stop cutting out!\"",
+      "opts": [
+        "Past regret",
+        "Contrary to present reality",
+        "Frustration about ongoing behaviour/situation + wanting change",
+        "A realistic future hope"
+      ],
+      "correct": "Frustration about ongoing behaviour/situation + wanting change",
+      "hint": "Wish + WOULD = frustrated about ongoing situation, wanting it to change. \"Would stop cutting out\" = I want this annoying thing to change. ✅"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete the mixed conditional (Type A).",
+      "text": "\"If Kamila ___ (not / miss) the seminar last week, she ___ (know) what to do now.\"",
+      "correct": "hadn't missed / would know",
+      "hint": "Mixed Type A: past PP (hadn't missed) + present result (would know NOW). \"If she HADN'T MISSED... she WOULD KNOW now.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Which sentence is CORRECT?",
+      "text": "Choose the correct third conditional.",
+      "opts": [
+        "\"If I knew, I would have told you.\"",
+        "\"If I had known, I would have told you.\"",
+        "\"If I had known, I would told you.\"",
+        "\"If I known, I would have told you.\""
+      ],
+      "correct": "\"If I had known, I would have told you.\"",
+      "hint": "\"If I HAD KNOWN, I WOULD HAVE TOLD you.\" — Past Perfect + would have + pp. ✅ All others have errors."
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "\"If only\" — intensity.",
+      "text": "\"If only I could start over.\" — \"If only\" vs \"I wish\" here:",
+      "opts": [
+        "They are different grammatically",
+        "Both are correct; \"if only\" is more emotional/emphatic",
+        "\"If only\" requires would, not could",
+        "\"I wish I could\" is wrong"
+      ],
+      "correct": "Both are correct; \"if only\" is more emotional/emphatic",
+      "hint": "\"If only I could start over.\" ✅ = \"I wish I could start over.\" ✅ — same grammar, \"if only\" is more emotionally intense. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "fill",
+      "instruction": "Complete the wish about present reality.",
+      "text": "\"I ___ (wish) I ___ (speak) three languages fluently. Sadly I only speak one.\"",
+      "correct": "wish / spoke",
+      "hint": "Wish + PAST SIMPLE = contrary to present reality. \"I WISH I SPOKE three languages.\" (I don't speak them — present reality) ✅"
+    },
+    {
+      "id": "e17",
+      "type": "mc",
+      "instruction": "Mixed or pure? Identify the type.",
+      "text": "\"If I were naturally confident, I would have given a better presentation last Tuesday.\"",
+      "opts": [
+        "Pure 2nd conditional",
+        "Pure 3rd conditional",
+        "Mixed Type B: present quality → past result",
+        "Mixed Type A: past action → present state"
+      ],
+      "correct": "Mixed Type B: present quality → past result",
+      "hint": "\"If I WERE confident\" (2nd — present quality I don't have) + \"would HAVE GIVEN better\" (3rd — past result last Tuesday). Type B mixed. ✅"
+    },
+    {
+      "id": "e18",
+      "type": "mc",
+      "instruction": "Third conditional — negative result.",
+      "text": "\"If you hadn't reminded me, I ___ the appointment.\"",
+      "opts": [
+        "will have missed",
+        "would miss",
+        "would have missed",
+        "had missed"
+      ],
+      "correct": "would have missed",
+      "hint": "\"If you hadn't reminded me, I WOULD HAVE MISSED the appointment.\" — 3rd conditional: PP + would have + pp. ✅"
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "Could have / might have in 3rd conditional.",
+      "text": "\"If we had left earlier, we ___ the traffic.\" (possible but not certain)",
+      "opts": [
+        "would have avoided",
+        "could have avoided",
+        "might have avoided",
+        "All three work, with different certainty"
+      ],
+      "correct": "All three work, with different certainty",
+      "hint": "\"would have\" = certainty. \"could have\" = had the ability/opportunity. \"might have\" = possibility. All are correct in 3rd conditional. ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Find the correct form of I wish.",
+      "text": "\"___ things were different.\" (about the present situation)",
+      "opts": [
+        "I wish",
+        "If only",
+        "Both \"I wish\" and \"If only\" are correct",
+        "Neither is correct"
+      ],
+      "correct": "Both \"I wish\" and \"If only\" are correct",
+      "hint": "\"I wish things were different.\" ✅ / \"If only things were different.\" ✅ — both correct; \"if only\" is more emphatic. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Third conditional is formed with:",
+      "opts": [
+        "if + PS + would + base",
+        "if + PP + would have + pp",
+        "if + PS + would have + pp",
+        "if + PP + would + base"
+      ],
+      "correct": "if + PP + would have + pp",
+      "hint": "3rd conditional: if + PAST PERFECT + would have + PAST PARTICIPLE. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If she ___ (not / call) me, I ___ (miss) the meeting.\"",
+      "correct": "hadn't called / would have missed",
+      "hint": "3rd conditional: \"If she HADN'T CALLED me, I WOULD HAVE MISSED the meeting.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I would have known, I would have come.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"would have known\" in if-clause → should be \"had known\"",
+        "\"come\" needs \"have\"",
+        "\"I\" should be \"she\""
+      ],
+      "correct": "\"would have known\" in if-clause → should be \"had known\"",
+      "hint": "✅ \"If I HAD KNOWN...\" — NEVER \"would have\" in the if-clause of 3rd conditional. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had taken the scholarship, I would be in Berlin now.\" — This is:",
+      "opts": [
+        "Pure 3rd conditional",
+        "Mixed Type A: past condition + present result",
+        "Mixed Type B",
+        "Second conditional"
+      ],
+      "correct": "Mixed Type A: past condition + present result",
+      "hint": "\"had taken\" (PP/3rd) + \"would be NOW\" (present/2nd) = MIXED Type A. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wish I knew the answer.\" — What does this express?",
+      "opts": [
+        "The speaker knows the answer",
+        "Past regret",
+        "The speaker does NOT know the answer now — contrary to present reality",
+        "A future hope"
+      ],
+      "correct": "The speaker does NOT know the answer now — contrary to present reality",
+      "hint": "Wish + PS = contrary to present reality. \"I wish I knew\" = I DON'T know now. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wish I had taken better notes.\" — What does this express?",
+      "opts": [
+        "Present frustration",
+        "Past regret — they didn't take good notes",
+        "Future hope",
+        "A general wish"
+      ],
+      "correct": "Past regret — they didn't take good notes",
+      "hint": "Wish + PAST PERFECT = past regret. \"I wish I had taken\" = I DIDN'T take good notes — I now regret it. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wish you would stop.\" — What does \"would\" signal?",
+      "opts": [
+        "Past regret",
+        "Contrary to present reality",
+        "Frustration about ongoing behaviour + wanting change",
+        "Future prediction"
+      ],
+      "correct": "Frustration about ongoing behaviour + wanting change",
+      "hint": "Wish + WOULD = frustrated about ongoing behaviour; wanting the other person to change. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Had I known about this, I would have responded.\" — \"Had I known\" is:",
+      "opts": [
+        "A mistake",
+        "Formal inversion of \"If I had known\"",
+        "Past Perfect Continuous",
+        "Second conditional"
+      ],
+      "correct": "Formal inversion of \"If I had known\"",
+      "hint": "\"Had I known...\" = inverted 3rd conditional (formal/literary). = \"If I had known...\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If she were more disciplined, she would have finished on time.\" — Type:",
+      "opts": [
+        "Pure 3rd conditional",
+        "Pure 2nd conditional",
+        "Mixed Type A: past→present",
+        "Mixed Type B: present quality → past result"
+      ],
+      "correct": "Mixed Type B: present quality → past result",
+      "hint": "\"were more disciplined\" (2nd/present) + \"would have finished\" (3rd/past) = MIXED Type B. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If only I had told her sooner.\" vs \"I wish I had told her sooner.\" —:",
+      "opts": [
+        "Different grammar",
+        "Different meaning",
+        "Same grammar and meaning; \"if only\" is more emphatic",
+        "\"If only\" requires different tense"
+      ],
+      "correct": "Same grammar and meaning; \"if only\" is more emphatic",
+      "hint": "Both use Past Perfect for past regret. \"If only\" is more emotionally emphatic. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wish it would stop raining.\" — \"would stop\" because:",
+      "opts": [
+        "It refers to the past",
+        "You wish for a change in an ongoing situation",
+        "\"will\" doesn't work with wish",
+        "\"rain\" is a stative verb"
+      ],
+      "correct": "You wish for a change in an ongoing situation",
+      "hint": "Wish + WOULD = wanting an ongoing situation or behaviour to change. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is CORRECT?",
+      "opts": [
+        "\"If I had taken the offer, I would earn more now.\"",
+        "\"If I had taken the offer, I would be earning more now.\"",
+        "\"If I had took the offer, I would earn more.\"",
+        "\"If I had taken the offer, I would earned more.\""
+      ],
+      "correct": "\"If I had taken the offer, I would be earning more now.\"",
+      "hint": "\"had taken\" (PP) + \"would be earning now\" = mixed Type A. ✅ (Would earn also possible; \"be earning\" emphasises the ongoing state now.) ✅"
+    }
+  ]
+}

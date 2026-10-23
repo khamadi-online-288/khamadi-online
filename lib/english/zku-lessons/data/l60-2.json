@@ -1,0 +1,550 @@
+{
+  "id": "l60-2",
+  "moduleNum": 2,
+  "lessonNum": 2,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "reading",
+  "title": "Secondhand: What Gets Lost When We Report What Others Say",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "There is a well-known communication game — sometimes called Chinese Whispers, or Telephone — in which a message is whispered from person to person along a chain. By the time it reaches the end, it has almost always been transformed, sometimes beyond recognition. The game is usually played for amusement, but it illustrates something important and a little unsettling: that human communication is extraordinarily good at producing meaning, and extraordinarily bad at preserving it accurately.",
+    "This principle extends far beyond childhood games. In professional, academic, and journalistic contexts, the process of reporting what someone said — converting their words into reported speech — inevitably involves interpretation. The reporter must decide which words to reproduce, which to paraphrase, which to omit. They must decide which reporting verb to use, which pieces of context to include, and how much of the original tone to preserve. Every one of these decisions introduces a small degree of interpretive distance between the original speaker and the eventual audience.",
+    "Researchers who study how information travels through social networks have documented a consistent pattern: each \"relay\" in a chain of communication tends to reduce the total amount of information transmitted while increasing the proportion that reflects the relayer's own perspective. By the time a message has been reported three or four times — journalist reports a speech, newspaper article is summarised by a blog, blog post is shared on social media with a comment — the original meaning may be almost unrecognisable.",
+    "The problem is compounded by the natural tendency of human memory to reconstruct rather than replay. When Rustam reports to Kamila what his professor said in last week's seminar, he is not playing back a recording. He is reconstructing the experience from memory — and memory, psychologists have established beyond reasonable doubt, is not a passive recorder but an active interpreter. Rustam remembers what seemed important to him, what resonated with things he already believed, and what confirmed or challenged his existing views. His report of what the professor said will inevitably carry Rustam's own perspective even when he is trying to be as accurate as possible.",
+    "This does not mean that reported speech is unreliable or that we should distrust all secondhand accounts. It means that all reported speech must be understood as a version — shaped by the choices of the reporter, the limitations of memory, and the constraints of the medium. The question to ask of any reported account is not \"Is this true?\" but rather \"Whose version is this, and what might they have emphasised, omitted, or reinterpreted?\"",
+    "In academic writing, this is why proper citation matters so much. When you write \"Smith argued that...\" you are representing the work of another scholar, and your reader trusts that you have done this responsibly. Choosing the wrong reporting verb, summarising inaccurately, or omitting crucial context are all forms of misrepresentation — even if they are entirely unintentional.",
+    "For students working at B1 and above, the practical implication is this: reported speech is not merely a grammatical exercise. It is an act of representation that carries responsibility. Whether you are summarising a lecture, reporting a conversation, writing a news article, or citing a source in an essay, you are making choices about how someone else's words will be received. Those choices matter — grammatically, ethically, and epistemically."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Daniyar",
+      "text": "I told Amir what you said in your presentation yesterday. He seemed interested.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What did you tell him exactly?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That you argued that journalism shapes public opinion more than politicians do.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I said journalism can sometimes be as powerful as policy. That's quite different.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "I thought that was what you meant.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Exactly — that's the problem. You reported what you thought I meant, not what I said.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "So your version is more cautious. Mine sounds like a much stronger claim.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And once it's out there, it's my name attached to Amir's version of your version of my words.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "secondhand",
+      "ru": "из вторых рук / пересказанный",
+      "context": "\"Secondhand accounts.\" = information received through another person, not directly."
+    },
+    {
+      "phrase": "inevitably",
+      "ru": "неизбежно",
+      "context": "\"Reporting inevitably involves interpretation.\" = it always happens, cannot be avoided."
+    },
+    {
+      "phrase": "interpretive distance",
+      "ru": "интерпретационная дистанция",
+      "context": "\"Interpretive distance between speaker and audience.\" = the gap created by reporting."
+    },
+    {
+      "phrase": "compounded",
+      "ru": "усугублённый / усиленный",
+      "context": "\"The problem is compounded by...\" = made worse by an additional factor."
+    },
+    {
+      "phrase": "reconstruct",
+      "ru": "реконструировать / воссоздавать",
+      "context": "\"Memory reconstructs rather than replays.\" = builds back up, not plays back."
+    },
+    {
+      "phrase": "relay",
+      "ru": "ретрансляция / передача",
+      "context": "\"Each relay in a chain.\" = each time information is passed from one person to another."
+    },
+    {
+      "phrase": "misrepresentation",
+      "ru": "искажение / неверное представление",
+      "context": "\"Forms of misrepresentation.\" = presenting something falsely or inaccurately."
+    },
+    {
+      "phrase": "epistemically",
+      "ru": "эпистемически / с точки зрения знания",
+      "context": "\"Matters epistemically.\" = from the perspective of how we know and understand things."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "reconstruct",
+      "ipa": "/ˌriːkənˈstrʌkt/",
+      "pos": "verb",
+      "ru": "реконструировать",
+      "kz": "қайта жасау",
+      "emoji": "🔧",
+      "definition": "to build or create again; to put together from parts or memory",
+      "example": "Memory reconstructs rather than replays — it is an active process, not a recording.",
+      "collocations": [
+        "reconstruct events",
+        "reconstruct from memory",
+        "attempt to reconstruct"
+      ]
+    },
+    {
+      "en": "inevitably",
+      "ipa": "/ɪnˈevɪtəbli/",
+      "pos": "adverb",
+      "ru": "неизбежно",
+      "kz": "сөзсіз",
+      "emoji": "⚙️",
+      "definition": "as is certain to happen; unavoidably",
+      "example": "Reporting what someone said inevitably involves some degree of interpretation.",
+      "collocations": [
+        "inevitably leads to",
+        "this will inevitably",
+        "almost inevitably"
+      ]
+    },
+    {
+      "en": "relay",
+      "ipa": "/rɪˈleɪ/",
+      "pos": "noun/verb",
+      "ru": "передача / ретрансляция",
+      "kz": "жеткізу",
+      "emoji": "📡",
+      "definition": "passing something (message) from one person/place to another",
+      "example": "Each relay in the chain reduces information and adds the relayer's perspective.",
+      "collocations": [
+        "relay a message",
+        "relay information",
+        "communication relay"
+      ]
+    },
+    {
+      "en": "compound",
+      "ipa": "/kəmˈpaʊnd/",
+      "pos": "verb",
+      "ru": "усугублять",
+      "kz": "ушықтыру",
+      "emoji": "📈",
+      "definition": "to make worse by adding to; to increase in severity",
+      "example": "The problem of memory loss is compounded by our tendency to reinterpret events.",
+      "collocations": [
+        "compound the problem",
+        "compounded by",
+        "further compound"
+      ]
+    },
+    {
+      "en": "distort",
+      "ipa": "/dɪˈstɔːt/",
+      "pos": "verb",
+      "ru": "искажать",
+      "kz": "бұрмалау",
+      "emoji": "🌀",
+      "definition": "to change the original form or meaning in an unnatural way",
+      "example": "Each time a message is retold, there is a risk it will be distorted.",
+      "collocations": [
+        "distort the truth",
+        "distort meaning",
+        "unintentionally distort"
+      ]
+    },
+    {
+      "en": "citation",
+      "ipa": "/saɪˈteɪʃən/",
+      "pos": "noun",
+      "ru": "цитирование / ссылка",
+      "kz": "дерек",
+      "emoji": "📚",
+      "definition": "a quotation from a source; the act of referring to a source",
+      "example": "In academic writing, proper citation is essential when reporting others' ideas.",
+      "collocations": [
+        "accurate citation",
+        "provide a citation",
+        "citation style"
+      ]
+    },
+    {
+      "en": "omit",
+      "ipa": "/əˈmɪt/",
+      "pos": "verb",
+      "ru": "опускать / пропускать",
+      "kz": "өткізіп жіберу",
+      "emoji": "⬚",
+      "definition": "to leave out; to not include",
+      "example": "Omitting crucial context when reporting speech is a form of misrepresentation.",
+      "collocations": [
+        "omit details",
+        "deliberately omit",
+        "omit from the report"
+      ]
+    },
+    {
+      "en": "proportion",
+      "ipa": "/prəˈpɔːʃən/",
+      "pos": "noun",
+      "ru": "доля / пропорция",
+      "kz": "үлес",
+      "emoji": "📊",
+      "definition": "a part or share of the whole; a ratio",
+      "example": "Each relay increases the proportion that reflects the reporter's own perspective.",
+      "collocations": [
+        "in proportion to",
+        "large proportion",
+        "proportion of"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "reconstruct",
+      "emoji": "🔧",
+      "opts": [
+        "воспроизводить точно",
+        "реконструировать",
+        "запоминать",
+        "создавать заново"
+      ],
+      "correct": "реконструировать"
+    },
+    {
+      "id": "p2",
+      "word": "inevitably",
+      "emoji": "⚙️",
+      "opts": [
+        "возможно",
+        "неизбежно",
+        "иногда",
+        "редко"
+      ],
+      "correct": "неизбежно"
+    },
+    {
+      "id": "p3",
+      "word": "relay",
+      "emoji": "📡",
+      "opts": [
+        "хранить",
+        "передача / ретрансляция",
+        "исправлять",
+        "создавать"
+      ],
+      "correct": "передача / ретрансляция"
+    },
+    {
+      "id": "p4",
+      "word": "distort",
+      "emoji": "🌀",
+      "opts": [
+        "сохранять",
+        "искажать",
+        "переводить",
+        "сокращать"
+      ],
+      "correct": "искажать"
+    },
+    {
+      "id": "p5",
+      "word": "citation",
+      "emoji": "📚",
+      "opts": [
+        "аргумент",
+        "цитирование / ссылка",
+        "перевод",
+        "введение"
+      ],
+      "correct": "цитирование / ссылка"
+    },
+    {
+      "id": "p6",
+      "word": "omit",
+      "emoji": "⬚",
+      "opts": [
+        "включать",
+        "опускать / пропускать",
+        "подчёркивать",
+        "объяснять"
+      ],
+      "correct": "опускать / пропускать"
+    }
+  ],
+  "task1Bank": [
+    "interpretation",
+    "memory",
+    "perspective",
+    "three or four",
+    "reconstructs",
+    "citation",
+    "version",
+    "responsibly"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Reporting speech inevitably involves ___ — choices about how to present it.",
+      "correct": "interpretation"
+    },
+    {
+      "id": "t2",
+      "question": "The problem is compounded by how human ___ works — it reconstructs rather than replays.",
+      "correct": "memory"
+    },
+    {
+      "id": "t3",
+      "question": "Each relay in a communication chain increases the proportion reflecting the relayer's ___ .",
+      "correct": "perspective"
+    },
+    {
+      "id": "t4",
+      "question": "By the time a message has been reported ___ times, the original meaning may be unrecognisable.",
+      "correct": "three or four"
+    },
+    {
+      "id": "t5",
+      "question": "The text says memory ___ experience rather than playing it back.",
+      "correct": "reconstructs"
+    },
+    {
+      "id": "t6",
+      "question": "In academic writing, proper ___ matters because you are representing another scholar's work.",
+      "correct": "citation"
+    },
+    {
+      "id": "t7",
+      "question": "The text says all reported speech must be understood as a ___ .",
+      "correct": "version"
+    },
+    {
+      "id": "t8",
+      "question": "When reporting others' words in an essay, you must do so ___ .",
+      "correct": "responsibly"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "The text says human communication is perfect at preserving meaning.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Memory reconstructs experience rather than replaying it accurately.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Each relay in a communication chain increases accuracy.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "The text says secondhand accounts are always unreliable and untrustworthy.",
+      "correct": "false"
+    },
+    {
+      "id": "c5",
+      "statement": "Using the wrong reporting verb in an essay is a form of misrepresentation.",
+      "correct": "true"
+    },
+    {
+      "id": "c6",
+      "statement": "Daniyar reported Kamila's words accurately in the dialogue.",
+      "correct": "false"
+    },
+    {
+      "id": "c7",
+      "statement": "The text argues that reported speech carries responsibility.",
+      "correct": "true"
+    },
+    {
+      "id": "c8",
+      "statement": "The text says the key question about reported accounts is \"Is this true?\"",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the Chinese Whispers game illustrate according to the text?",
+      "opts": [
+        "How well humans communicate",
+        "That meaning is preserved perfectly in chains",
+        "That communication produces meaning well but preserves it poorly",
+        "That games teach language skills"
+      ],
+      "correct": "That communication produces meaning well but preserves it poorly",
+      "hint": "\"Extraordinarily good at producing meaning, and extraordinarily bad at preserving it accurately.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What happens to information at each relay in a communication chain?",
+      "opts": [
+        "It becomes more accurate",
+        "The total information reduces while the reporter's perspective increases",
+        "It stays the same",
+        "It becomes more detailed"
+      ],
+      "correct": "The total information reduces while the reporter's perspective increases",
+      "hint": "\"Each relay tends to reduce total information transmitted while increasing the proportion that reflects the relayer's own perspective.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Rustam's report of his professor's words carry his perspective?",
+      "opts": [
+        "He is dishonest",
+        "He records lectures poorly",
+        "Memory reconstructs rather than replays — reflecting what seemed important to him",
+        "He doesn't understand the professor"
+      ],
+      "correct": "Memory reconstructs rather than replays — reflecting what seemed important to him",
+      "hint": "\"He is reconstructing the experience from memory... memory is not a passive recorder but an active interpreter.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say is the right question to ask about reported accounts?",
+      "opts": [
+        "\"Is this true?\"",
+        "\"Who is the original source?\"",
+        "\"Whose version is this, and what might they have emphasised or omitted?\"",
+        "\"Is the grammar correct?\""
+      ],
+      "correct": "\"Whose version is this, and what might they have emphasised or omitted?\"",
+      "hint": "\"The question to ask... is not 'Is this true?' but 'Whose version is this, and what might they have emphasised, omitted, or reinterpreted?'\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Omitting crucial context when reporting is a form of ___ .",
+      "correct": "misrepresentation",
+      "hint": "\"Summarising inaccurately, or omitting crucial context are all forms of MISREPRESENTATION.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Daniyar report that differed from what Kamila said?",
+      "opts": [
+        "That journalism shapes opinion less than politicians",
+        "That journalism is sometimes as powerful as policy (Kamila) vs always more powerful (Daniyar)",
+        "That journalism is unimportant",
+        "That politicians shape opinion more"
+      ],
+      "correct": "That journalism is sometimes as powerful as policy (Kamila) vs always more powerful (Daniyar)",
+      "hint": "Kamila said \"can sometimes be as powerful as policy.\" Daniyar reported \"shapes opinion MORE than politicians.\" Different strength of claim."
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Memory reconstructs rather than replays.\" \"Reconstructs\" means:",
+      "opts": [
+        "Records accurately",
+        "Builds back up from parts; creates rather than copies",
+        "Deletes",
+        "Repeats exactly"
+      ],
+      "correct": "Builds back up from parts; creates rather than copies",
+      "hint": "\"reconstruct\" = to build back up; memory doesn't play back like a recorder but actively recreates."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The problem is compounded by.\" \"Compounded\" means:",
+      "opts": [
+        "Solved by",
+        "Made worse by an additional factor",
+        "Caused by",
+        "Ignored by"
+      ],
+      "correct": "Made worse by an additional factor",
+      "hint": "\"compound\" = to make a problem worse by adding another factor on top."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She argued that journalism SHAPES opinion.\" — Present Simple used because:",
+      "opts": [
+        "She said it in the past",
+        "It's still presented as her current view/general claim",
+        "Backshift is optional here",
+        "Both \"shapes\" and \"shaped\" are correct"
+      ],
+      "correct": "Both \"shapes\" and \"shaped\" are correct",
+      "hint": "Both are acceptable: \"shaped\" (backshift applied) or \"shapes\" (general truth/current view — no shift needed). ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He denied taking the money.\" — \"denied\" + gerund because:",
+      "opts": [
+        "deny needs a gerund, not an infinitive",
+        "taking is an adjective here",
+        "deny + that clause only",
+        "deny + infinitive is also correct"
+      ],
+      "correct": "deny needs a gerund, not an infinitive",
+      "hint": "\"deny\" + GERUND (taking). NEVER \"denied to take.\" ✅ \"He denied TAKING the money.\" ✅"
+    }
+  ]
+}

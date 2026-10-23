@@ -1,0 +1,490 @@
+{
+  "id": "l42-3",
+  "moduleNum": 8,
+  "lessonNum": 3,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "listening",
+  "title": "A Recipe Podcast: Kazakh Manti",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Host",
+      "text": "Welcome to Student Kitchen — the podcast for university students who want to eat well on a budget. Today we're learning to make manti — the classic Kazakh steamed dumpling. Our guest is Rustam Seilov from WKU. Rustam, how many people does your recipe serve?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "About eight to ten people. You can make a lot at once and freeze the leftovers.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Perfect. Let's start with the dough. How much flour do you need?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "About 500 grams — roughly four cups. Not too much or the dough gets too heavy.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "And how much water?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "About 200ml of warm water. Add it little by little — you don't want too much at once or it gets sticky.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "How many eggs go into the dough?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Just one. One egg and a pinch of salt. Not too many extras — keep it simple.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Now the filling. How much meat do you use?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "400 grams of minced lamb or beef. Not too little — you need enough filling so the manti aren't empty.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "How many onions?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Two or three large ones. Chop them very finely — they shouldn't have too many big chunks.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "Any other vegetables?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "My grandmother adds a little pumpkin — about 150 grams. It adds sweetness. But not too much or it changes the flavour too much.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "How much oil goes into the filling?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "A few tablespoons. Enough to keep it moist. My advice: don't add too much fat or the manti become greasy.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "How long do you steam them?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "35 to 40 minutes. Steam enough so they're cooked through but not too long or the dough goes soft.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "minced",
+      "emoji": "🥩",
+      "opts": [
+        "целый",
+        "молотый / фарш",
+        "нарезанный",
+        "маринованный"
+      ],
+      "correct": "молотый / фарш"
+    },
+    {
+      "id": "p2",
+      "word": "dough",
+      "emoji": "🫓",
+      "opts": [
+        "бульон",
+        "тесто",
+        "соус",
+        "начинка"
+      ],
+      "correct": "тесто"
+    },
+    {
+      "id": "p3",
+      "word": "steam",
+      "emoji": "♨️",
+      "opts": [
+        "жарить",
+        "запекать",
+        "готовить на пару",
+        "варить"
+      ],
+      "correct": "готовить на пару"
+    },
+    {
+      "id": "p4",
+      "word": "sticky",
+      "emoji": "🍯",
+      "opts": [
+        "сухой",
+        "lipкий",
+        "хрустящий",
+        "солёный"
+      ],
+      "correct": "lipкий"
+    },
+    {
+      "id": "p5",
+      "word": "pinch",
+      "emoji": "🤏",
+      "opts": [
+        "столовая ложка",
+        "щепотка",
+        "стакан",
+        "горсть"
+      ],
+      "correct": "щепотка"
+    },
+    {
+      "id": "p6",
+      "word": "greasy",
+      "emoji": "🛢️",
+      "opts": [
+        "хрустящий",
+        "жирный",
+        "пресный",
+        "острый"
+      ],
+      "correct": "жирный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam's recipe serves eight to ten people.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The recipe requires one kilogram of flour.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Rustam puts two eggs in the dough.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The filling contains lamb or beef mince.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam's grandmother always adds pumpkin to the filling.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "The manti should be steamed for 35 to 40 minutes.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "👨‍🍳",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Sharing his manti recipe — quantities and method"
+    },
+    {
+      "id": "host",
+      "name": "Host",
+      "city": "WKU",
+      "emoji": "🎙️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Podcast host — asking about ingredients and amounts"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Asks how much flour is needed for the recipe.",
+      "correctCharId": "host"
+    },
+    {
+      "id": "s2",
+      "text": "Says 500 grams of flour — adding too much makes the dough too heavy.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Says to add water little by little — too much at once makes it sticky.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Mentions that his grandmother adds a little pumpkin for sweetness.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Advises not to add too much fat or the manti will become greasy.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Asks how long the manti should be steamed.",
+      "correctCharId": "host"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many people does Rustam's recipe serve?",
+      "opts": [
+        "Four to six",
+        "Eight to ten",
+        "Twelve to fifteen",
+        "Twenty"
+      ],
+      "correct": "Eight to ten",
+      "hint": "\"About eight to ten people.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much flour does Rustam use?",
+      "opts": [
+        "250 grams",
+        "500 grams",
+        "750 grams",
+        "1 kilogram"
+      ],
+      "correct": "500 grams",
+      "hint": "\"About 500 grams — roughly four cups.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam puts two eggs in the dough.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Just one. One egg and a pinch of salt.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The filling contains ___ grams of minced lamb or beef.",
+      "correct": "400",
+      "hint": "\"400 grams of minced lamb or beef.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What optional ingredient does Rustam's grandmother add?",
+      "opts": [
+        "Garlic",
+        "Carrots",
+        "Pumpkin",
+        "Spinach"
+      ],
+      "correct": "Pumpkin",
+      "hint": "\"My grandmother adds a little pumpkin — about 150 grams.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why shouldn't you add too much fat to the filling?",
+      "opts": [
+        "It changes the colour",
+        "The manti become greasy",
+        "It makes the dough sticky",
+        "It's too expensive"
+      ],
+      "correct": "The manti become greasy",
+      "hint": "\"don't add too much fat or the manti become greasy.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The manti should be steamed for ___ to 40 minutes.",
+      "correct": "35",
+      "hint": "\"35 to 40 minutes.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happens if you add too much water to the dough?",
+      "opts": [
+        "It becomes too dry",
+        "It becomes sticky",
+        "It becomes too heavy",
+        "It falls apart"
+      ],
+      "correct": "It becomes sticky",
+      "hint": "\"you don't want too much at once or it gets sticky.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How much flour do you need?\" — Why \"much\" not \"many\"?",
+      "opts": [
+        "Flour is countable",
+        "Flour is plural",
+        "Flour is uncountable",
+        "Flour is always much"
+      ],
+      "correct": "Flour is uncountable",
+      "hint": "\"much\" = uncountable nouns (flour, water, oil, salt). \"many\" = countable (eggs, onions, cups)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How many onions?\" — \"Onions\" uses \"many\" because:",
+      "opts": [
+        "It's a liquid",
+        "It's countable (one onion, two onions)",
+        "It's always many",
+        "Onion is uncountable"
+      ],
+      "correct": "It's countable (one onion, two onions)",
+      "hint": "\"many\" = countable nouns. You can count onions: one onion, two onions. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Add a ___ pumpkin — about 150 grams.\" (small amount, uncountable)",
+      "correct": "little",
+      "hint": "\"a little\" = small amount of uncountable noun. \"a little pumpkin\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Don't add too much fat.\" \"Too much\" = :",
+      "opts": [
+        "The right amount",
+        "Not enough fat",
+        "Excessive fat (more than ideal)",
+        "A moderate amount"
+      ],
+      "correct": "Excessive fat (more than ideal)",
+      "hint": "\"too much\" = more than what is good or needed. \"Too much fat\" = an excessive amount."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Steam enough so they're cooked through.\" \"Enough\" here means:",
+      "opts": [
+        "Too long",
+        "Too short",
+        "Insufficient time",
+        "Sufficient time"
+      ],
+      "correct": "Sufficient time",
+      "hint": "\"enough\" = sufficient, adequate. \"Steam enough\" = steam for the right amount of time."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Add water ___ ___ (in small quantities, gradually).\"",
+      "correct": "little by little",
+      "hint": "\"little by little\" = gradually, in small amounts. \"Add water little by little.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Not too many extras.\" — \"Extras\" is countable. What confirms this?",
+      "opts": [
+        "It follows \"too much\"",
+        "It follows \"too many\"",
+        "It's a verb",
+        "It's an adjective"
+      ],
+      "correct": "It follows \"too many\"",
+      "hint": "\"too many\" = used with countable nouns. \"Not too many extras\" → extras are countable."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A lot\" can be used with:",
+      "opts": [
+        "Only countable nouns",
+        "Only uncountable nouns",
+        "Both countable and uncountable",
+        "Only negative sentences"
+      ],
+      "correct": "Both countable and uncountable",
+      "hint": "\"a lot of\" = can be used with BOTH countable and uncountable. \"a lot of eggs\" / \"a lot of flour\" ✅"
+    }
+  ]
+}

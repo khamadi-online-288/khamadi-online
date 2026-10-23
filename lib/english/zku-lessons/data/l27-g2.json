@@ -1,0 +1,560 @@
+{
+  "id": "l27-g2",
+  "moduleNum": 11,
+  "lessonNum": 3,
+  "moduleTitle": "Conditionals",
+  "type": "grammar",
+  "title": "First Conditional: If + Present, Will",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "First Conditional",
+  "grammarNote": "Первый условный (1st Conditional) — для РЕАЛЬНЫХ и ВОЗМОЖНЫХ ситуаций в будущем.\n\n📌 Формула: IF + Present Simple → WILL + base verb\n⚠️ В if-clause нет \"will\"! После \"if\" всегда Present Simple!\n\n① Реальные будущие условия:\n   \"If I pass the exam, I will celebrate.\"\n   \"If she studies hard, she will get a good grade.\"\n   \"If it rains tomorrow, we will cancel the trip.\"\n\n② Предупреждения:\n   \"If you don't hurry, you will miss the bus!\"\n\n③ Обещания:\n   \"If you help me, I will help you in return.\"\n\n🔄 Порядок клауз — оба варианта правильны:\n\"If I study hard, I will pass.\" = \"I will pass if I study hard.\"\nЕсли IF-clause первый → запятая!\n\n⚠️ Типичная ошибка:\n❌ \"If I will study, I will pass.\" → ✅ \"If I study, I will pass.\"",
+  "grammarTable": [
+    {
+      "subject": "STRUCTURE",
+      "verb": "If + Present Simple,",
+      "short": "→ will + infinitive",
+      "example": "First conditional: condition (present) + result (will)."
+    },
+    {
+      "subject": "If I study hard,",
+      "verb": "I will pass the exam.",
+      "short": "positive result",
+      "example": "If I study hard, I will pass the exam."
+    },
+    {
+      "subject": "If it rains tomorrow,",
+      "verb": "we will cancel the picnic.",
+      "short": "positive result",
+      "example": "If it rains tomorrow, we will cancel the picnic."
+    },
+    {
+      "subject": "If Kamila gets a scholarship,",
+      "verb": "she will study in Germany.",
+      "short": "positive result",
+      "example": "If Kamila gets a scholarship, she will study in Germany."
+    },
+    {
+      "subject": "NEGATIVE IF: If you don't hurry,",
+      "verb": "you will miss the bus.",
+      "short": "negative if-clause",
+      "example": "If you don't hurry, you will miss the bus."
+    },
+    {
+      "subject": "NEGATIVE WILL: If he practises,",
+      "verb": "he won't lose the match.",
+      "short": "negative result",
+      "example": "If he practises, he won't lose the match."
+    },
+    {
+      "subject": "QUESTION: What will you do",
+      "verb": "if you fail the test?",
+      "short": "will in main clause",
+      "example": "What will you do if you fail the test?"
+    },
+    {
+      "subject": "RULE: NEVER \"will\" in if-clause",
+      "verb": "✅ If I study, I will pass.",
+      "short": "❌ If I will study…",
+      "example": "The if-clause always uses present simple, NOT will."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Positive conditions → positive results",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "If she arrives on time,",
+          "example": "we will start the meeting."
+        },
+        {
+          "form": "If Amir wins the competition,",
+          "example": "he will get a trophy."
+        },
+        {
+          "form": "If I finish early,",
+          "example": "I will help you."
+        },
+        {
+          "form": "If the weather is nice,",
+          "example": "we will go to the park."
+        },
+        {
+          "form": "If you work hard,",
+          "example": "you will achieve your goals."
+        },
+        {
+          "form": "If Zhibek practises,",
+          "example": "her English will improve."
+        }
+      ]
+    },
+    {
+      "title": "Negative if-clause → negative result",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "If you don't sleep,",
+          "example": "you won't concentrate."
+        },
+        {
+          "form": "If we don't hurry,",
+          "example": "we won't catch the train."
+        },
+        {
+          "form": "If he doesn't apologise,",
+          "example": "she won't forgive him."
+        },
+        {
+          "form": "If I don't eat breakfast,",
+          "example": "I won't have energy."
+        },
+        {
+          "form": "If they don't study,",
+          "example": "they won't pass."
+        },
+        {
+          "form": "If you don't try,",
+          "example": "you won't know."
+        }
+      ]
+    },
+    {
+      "title": "Questions with first conditional",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Will you come if I invite you?",
+          "example": "Yes, I will come if I have time."
+        },
+        {
+          "form": "What will happen if it rains?",
+          "example": "We will stay inside."
+        },
+        {
+          "form": "Will she be angry if I'm late?",
+          "example": "She won't be happy."
+        },
+        {
+          "form": "What will you buy if you have money?",
+          "example": "I'll buy new shoes."
+        },
+        {
+          "form": "Will we win if we practise?",
+          "example": "We will have a better chance."
+        },
+        {
+          "form": "What will you do if you fail?",
+          "example": "I'll try again."
+        }
+      ]
+    },
+    {
+      "title": "If-clause second (result first)",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "I will call you",
+          "example": "if I need help. (no comma needed)"
+        },
+        {
+          "form": "We will go hiking",
+          "example": "if the forecast is good."
+        },
+        {
+          "form": "Rustam will be disappointed",
+          "example": "if his team loses."
+        },
+        {
+          "form": "Gulnaz will be happy",
+          "example": "if you visit her."
+        },
+        {
+          "form": "Students will improve",
+          "example": "if they do their homework."
+        },
+        {
+          "form": "Dr. Akhmetov will be proud",
+          "example": "if we all pass."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главное правило — никогда \"will\" в if-клаузе!\n\n❌ \"If I WILL study, I will pass.\" (ОШИБКА!)\n✅ \"If I study, I will pass.\" (правильно)\n\nПрактика — исправь ошибки:\n❌ \"If she will call, I will answer.\" → ✅ \"If she calls, I will answer.\"\n❌ \"If you will help me, I will be grateful.\" → ✅ \"If you help me, I will be grateful.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct verb form.",
+      "text": "If she studies hard, she ___ the exam.",
+      "opts": [
+        "will pass",
+        "passes",
+        "passed",
+        "passing"
+      ],
+      "correct": "will pass",
+      "hint": "First conditional result: will + infinitive."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "If it rains, we ___ (cancel) the trip.",
+      "correct": "will cancel",
+      "hint": "First conditional result: will + base verb."
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"If I will go, I will see her\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never use \"will\" in the if-clause. Correct: \"If I go, I will see her.\""
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Identify the correct first conditional.",
+      "text": "Which is a correct first conditional?",
+      "opts": [
+        "If you will come, I am happy.",
+        "If you come, I will be happy.",
+        "If you came, I will be happy.",
+        "If you come, I am happy."
+      ],
+      "correct": "If you come, I will be happy.",
+      "hint": "If + present simple, will + infinitive = first conditional."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with will not (contracted).",
+      "text": "I ___ (not pass) if I don't study.",
+      "correct": "won't pass",
+      "hint": "Negative result: won't + base verb."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct result.",
+      "text": "If Amir doesn't practise, he ___ lose the match.",
+      "opts": [
+        "will",
+        "won't",
+        "would",
+        "might not always"
+      ],
+      "correct": "will",
+      "hint": "If he doesn't practise → he WILL lose. Negative condition + positive result."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete the if-clause.",
+      "text": "What will you do if you ___ (fail) the test?",
+      "correct": "fail",
+      "hint": "If-clause: present simple (no will). \"fail\" not \"will fail\"."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct use.",
+      "text": "First conditional is used for:",
+      "opts": [
+        "Past habits",
+        "Imaginary situations",
+        "Real, possible future situations",
+        "General scientific truths"
+      ],
+      "correct": "Real, possible future situations",
+      "hint": "First conditional = real future possibilities. Scientific truths = zero conditional."
+    },
+    {
+      "id": "e9",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "In \"If she practises, her English will improve,\" the if-clause uses present simple.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"she practises\" = present simple in the if-clause. Correct first conditional."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct negative form.",
+      "text": "If we ___ (not hurry), we will miss the train.",
+      "correct": "don't hurry",
+      "hint": "Negative if-clause: don't + base verb (present simple)."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which is correct?",
+      "opts": [
+        "If she practises, she will improve.",
+        "If she will practise, she improves.",
+        "She will improve if she will practise.",
+        "If she improves, she will practise."
+      ],
+      "correct": "If she practises, she will improve.",
+      "hint": "If-clause: present simple. Result clause: will + infinitive."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the key difference.",
+      "text": "Zero conditional vs first conditional:",
+      "opts": [
+        "Zero uses will; first uses present simple",
+        "Zero is for facts; first is for real future possibilities",
+        "They are the same structure",
+        "Zero is for the past; first for the present"
+      ],
+      "correct": "Zero is for facts; first is for real future possibilities",
+      "hint": "Zero = always true facts. First = possible future situations."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "First conditional structure is:",
+      "opts": [
+        "If + past simple, would + infinitive",
+        "If + present simple, will + infinitive",
+        "If + present simple, present simple",
+        "If + will, present simple"
+      ],
+      "correct": "If + present simple, will + infinitive",
+      "hint": "First conditional: if + present simple → will + infinitive (the result)."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "If Kamila gets a scholarship, she ___ study in Germany.",
+      "correct": "will",
+      "hint": "First conditional result clause: will + infinitive."
+    },
+    {
+      "id": "q3",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"If it will rain, we will stay inside\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never use \"will\" in the if-clause. Correct: \"If it rains, we will stay inside.\""
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "If you don't hurry, you ___ miss the bus.",
+      "opts": [
+        "will",
+        "won't",
+        "don't",
+        "can"
+      ],
+      "correct": "will",
+      "hint": "\"If you don't hurry\" = negative condition → \"you will miss\" = the result."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "We ___ (go) hiking if the weather is good.",
+      "correct": "will go",
+      "hint": "First conditional result: will + infinitive."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is first conditional?",
+      "opts": [
+        "If you heat it, it melts.",
+        "If I had money, I would buy it.",
+        "If she studies, she will pass.",
+        "If I were you, I would help."
+      ],
+      "correct": "If she studies, she will pass.",
+      "hint": "If + present simple, will + infinitive = first conditional."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "If they ___ (not practise), they won't win.",
+      "correct": "don't practise",
+      "hint": "If-clause: present simple, negative → don't practise."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I will help you if I finish early.\" — The if-clause is:",
+      "opts": [
+        "I will help you",
+        "if I finish early",
+        "I finish early",
+        "if I will finish early"
+      ],
+      "correct": "if I finish early",
+      "hint": "The if-clause introduces the condition. It can come at the end of the sentence."
+    },
+    {
+      "id": "q9",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "First conditional describes real, possible future situations.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Yes — first conditional is for situations that are genuinely possible."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"If you don't eat breakfast, you ___ have energy.\" Fill in:",
+      "opts": [
+        "will",
+        "won't",
+        "don't",
+        "aren't"
+      ],
+      "correct": "won't",
+      "hint": "Negative result: won't (= will not)."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek says that if it is hot this summer, she will:",
+      "opts": [
+        "Study for her exams",
+        "Travel to the mountains",
+        "Stay at home",
+        "Visit her parents"
+      ],
+      "correct": "Travel to the mountains",
+      "hint": "From the listening: Zhibek said \"If it is hot, I will travel to the mountains.\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Rustam says that if his team wins, he will practise more.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Rustam said he will celebrate with friends if they win."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Gulnaz uses the zero conditional when she says:",
+      "opts": [
+        "If I get a scholarship, I will study abroad",
+        "If we practise every day, we will win",
+        "If you press the button, the machine starts",
+        "If it is hot, I will travel"
+      ],
+      "correct": "If you press the button, the machine starts",
+      "hint": "Gulnaz used the zero conditional — present simple in both clauses."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Possibility\" means:",
+      "opts": [
+        "Something that cannot happen",
+        "Something that might happen",
+        "A past event",
+        "A type of test question"
+      ],
+      "correct": "Something that might happen",
+      "hint": "\"Possibility\" = a chance that something may happen."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "A general ___ is a fact that is always true, like \"water boils at 100°C\".",
+      "correct": "truth",
+      "hint": "A \"truth\" is something that is always correct — often expressed with zero conditional."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"promise\" is:",
+      "opts": [
+        "A type of conditional sentence",
+        "A commitment to do something in the future",
+        "A plan with conditions",
+        "A scientific fact"
+      ],
+      "correct": "A commitment to do something in the future",
+      "hint": "A promise = a firm commitment to do something."
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "id": "l29-4",
+  "moduleNum": 13,
+  "lessonNum": 4,
+  "moduleTitle": "Sports & Exercise",
+  "type": "grammar",
+  "title": "Present Perfect with for and since",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect: for and since",
+  "grammarNote": "\"For\" и \"since\" с Present Perfect — действия начались в прошлом и ПРОДОЛЖАЮТСЯ сейчас.\n\n📌 FOR — период времени (КАК ДОЛГО? = how long?)\n\"I have lived in Uralsk for five years.\" (пять лет)\n\"She has studied English for three months.\"\n\nС \"for\": minutes · hours · days · weeks · months · years · ages · a long time\n\n📌 SINCE — точка отсчёта (С КАКОГО МОМЕНТА? = since when?)\n\"I have lived here since 2019.\" (с 2019 года)\n\"She has studied since January.\"\n\nС \"since\": конкретный год, месяц, день, или событие\n\n💡 Простое правило:\nFOR + период → for five years / for a week / for ages\nSINCE + момент → since 2020 / since Monday / since I was a child\n\n⚠️ Типичные ошибки:\n❌ \"I live here for 5 years.\" → ✅ \"I HAVE LIVED here for 5 years.\"\n❌ \"She is here since Monday.\" → ✅ \"She HAS BEEN here since Monday.\"",
+  "grammarTable": [
+    {
+      "subject": "Word",
+      "verb": "Used with",
+      "short": "Answers",
+      "example": "Example"
+    },
+    {
+      "subject": "for",
+      "verb": "a period of time",
+      "short": "How long?",
+      "example": "for two years / for a week / for months"
+    },
+    {
+      "subject": "since",
+      "verb": "a point in time",
+      "short": "When did it start?",
+      "example": "since 2020 / since Monday / since I was ten"
+    },
+    {
+      "subject": "for",
+      "verb": "I have studied English for three years.",
+      "short": "duration",
+      "example": "for + period of time"
+    },
+    {
+      "subject": "since",
+      "verb": "She has lived in Uralsk since 2019.",
+      "short": "starting point",
+      "example": "since + specific time"
+    },
+    {
+      "subject": "for",
+      "verb": "He has been a champion for five years.",
+      "short": "how long",
+      "example": "for + number + time unit"
+    },
+    {
+      "subject": "since",
+      "verb": "They have trained together since school.",
+      "short": "start moment",
+      "example": "since + event or year"
+    },
+    {
+      "subject": "How long?",
+      "verb": "How long have you been playing football?",
+      "short": "question",
+      "example": "How long + have/has + subject + past participle?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "for + period of time",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "I have studied at WKU for two years.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "She has played piano for ten years.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "He has known Amir for three months.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "We have lived in this city for a long time.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "Kamila has kept a journal for one year.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "Rustam has trained every day for six months.",
+          "example": "for + period ✅"
+        }
+      ]
+    },
+    {
+      "title": "since + point in time",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "She has worked here since 2021.",
+          "example": "since + year ✅"
+        },
+        {
+          "form": "He has played for WKU since September.",
+          "example": "since + month ✅"
+        },
+        {
+          "form": "They have been friends since primary school.",
+          "example": "since + event ✅"
+        },
+        {
+          "form": "I have not eaten since this morning.",
+          "example": "since + time of day ✅"
+        },
+        {
+          "form": "She has loved running since she was a child.",
+          "example": "since + clause ✅"
+        },
+        {
+          "form": "We have used this textbook since the start of term.",
+          "example": "since + phrase ✅"
+        }
+      ]
+    },
+    {
+      "title": "How long…? questions",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "How long have you lived here?",
+          "example": "I've lived here for five years."
+        },
+        {
+          "form": "How long has she studied English?",
+          "example": "She's studied English since 2018."
+        },
+        {
+          "form": "How long have they been training?",
+          "example": "They've trained for two hours."
+        },
+        {
+          "form": "How long has he worked at WKU?",
+          "example": "He's worked there since 2015."
+        },
+        {
+          "form": "How long have you known Zhibek?",
+          "example": "I've known her for three years."
+        },
+        {
+          "form": "How long have you been playing?",
+          "example": "Since I was six years old."
+        }
+      ]
+    },
+    {
+      "title": "Negatives with for / since",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "I haven't seen him for a week.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "She hasn't exercised since Monday.",
+          "example": "since + day ✅"
+        },
+        {
+          "form": "He hasn't eaten since breakfast.",
+          "example": "since + meal ✅"
+        },
+        {
+          "form": "We haven't spoken for two months.",
+          "example": "for + period ✅"
+        },
+        {
+          "form": "They haven't trained since the tournament.",
+          "example": "since + event ✅"
+        },
+        {
+          "form": "I haven't felt this well for years.",
+          "example": "for + period ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Запомни через вопросы:\n\nFOR → \"КАК ДОЛГО?\" (период)\nfor 3 years · for a week · for two months · for ages\n\nSINCE → \"С КАКОГО МОМЕНТА?\" (точка)\nsince 2020 · since Monday · since morning · since I was born\n\n🎯 Практика — выбери for или since:\n\"I have known her ___ 10 years.\" → for\n\"She has worked here ___ January.\" → since\n\"He has studied ___ he was 7.\" → since\n\"We haven't met ___ a long time.\" → for",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose for or since.",
+      "text": "I have studied English ___ three years.",
+      "opts": [
+        "since",
+        "for",
+        "from",
+        "in"
+      ],
+      "correct": "for",
+      "hint": "\"three years\" is a period → for."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with for or since.",
+      "text": "She has lived in Almaty ___ 2019.",
+      "correct": "since",
+      "hint": "2019 is a point in time → since."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose for or since.",
+      "text": "He has been a coach ___ he was thirty.",
+      "opts": [
+        "for",
+        "since",
+        "from",
+        "during"
+      ],
+      "correct": "since",
+      "hint": "\"he was thirty\" is a starting moment → since."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with for or since.",
+      "text": "They have trained together ___ five months.",
+      "correct": "for",
+      "hint": "\"five months\" is a period → for."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct auxiliary.",
+      "text": "How long ___ she ___ at WKU?",
+      "opts": [
+        "has / studied",
+        "did / study",
+        "is / studying",
+        "was / studying"
+      ],
+      "correct": "has / studied",
+      "hint": "How long + has + subject + past participle (Present Perfect)."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I have known him since two years\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"two years\" is a period → use \"for\": \"I have known him for two years.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with for or since.",
+      "text": "We haven't spoken ___ last week.",
+      "correct": "since",
+      "hint": "\"last week\" is a point in time → since."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the correct rule.",
+      "text": "\"Since\" is used with:",
+      "opts": [
+        "A period of time",
+        "A point in time",
+        "A future plan",
+        "A daily habit"
+      ],
+      "correct": "A point in time",
+      "hint": "\"since\" answers \"when did it start?\" — used with specific moments."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Choose the correct sentence:",
+      "opts": [
+        "I've lived here since five years.",
+        "I've lived here for five years.",
+        "I live here since five years.",
+        "I've lived here during five years."
+      ],
+      "correct": "I've lived here for five years.",
+      "hint": "\"five years\" = period → for; use Present Perfect."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with for or since.",
+      "text": "Amir has played football ___ he was six years old.",
+      "correct": "since",
+      "hint": "\"he was six\" is a starting moment → since."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Identify the correct rule.",
+      "text": "\"For\" is used with:",
+      "opts": [
+        "A specific past date",
+        "A period of time (duration)",
+        "A starting moment",
+        "A completed action"
+      ],
+      "correct": "A period of time (duration)",
+      "hint": "\"for\" answers \"how long?\" — used with durations."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She has exercised for Monday\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Monday\" is a point in time → use \"since\": \"She has exercised since Monday.\""
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"for\" is used with:",
+      "opts": [
+        "A point in time",
+        "A period of time",
+        "A future plan",
+        "A past completed action"
+      ],
+      "correct": "A period of time",
+      "hint": "\"for\" answers \"how long?\" — for 3 years, for a week."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She has worked at WKU ___ 2020.",
+      "correct": "since",
+      "hint": "2020 is a point in time → since."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He has trained ___ six months.",
+      "opts": [
+        "since",
+        "for",
+        "from",
+        "in"
+      ],
+      "correct": "for",
+      "hint": "\"six months\" is a period → for."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I have known him since five years\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Five years is a period → use \"for\": \"I have known him for five years.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "How long ___ you ___ (play) football?",
+      "correct": "have / played",
+      "hint": "How long + have/has + subject + past participle."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Since\" is used with:",
+      "opts": [
+        "A period of time",
+        "A point in time when something started",
+        "A future prediction",
+        "A negative sentence only"
+      ],
+      "correct": "A point in time when something started",
+      "hint": "\"since\" answers \"when did it start?\" — since 2021, since Monday."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "We haven't spoken ___ two weeks.",
+      "correct": "for",
+      "hint": "\"two weeks\" = period → for."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct sentence:",
+      "opts": [
+        "She has played since 3 years.",
+        "She has played for 3 years.",
+        "She played since 3 years.",
+        "She plays for 3 years."
+      ],
+      "correct": "She has played for 3 years.",
+      "hint": "Period of time (3 years) → for; Present Perfect → has played."
+    },
+    {
+      "id": "q9",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She has swum since she was ten\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"since she was ten\" = point in time → since ✅"
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He has been a coach ___ many years.",
+      "correct": "for",
+      "hint": "\"many years\" = period → for."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "According to the reading, Amir has played football for:",
+      "opts": [
+        "Two years",
+        "Six years",
+        "Since he was six years old",
+        "Three seasons"
+      ],
+      "correct": "Since he was six years old",
+      "hint": "Paragraph 5: \"He has been playing football since he was six years old.\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Vinokourov won the Olympic road race in Beijing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Paragraph 3: Vinokourov won in London (2012), not Beijing."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "According to Dr. Akhmetov, what does sport build?",
+      "opts": [
+        "Only physical strength",
+        "Academic knowledge",
+        "Character",
+        "Exam preparation skills"
+      ],
+      "correct": "Character",
+      "hint": "Paragraph 6: \"sport builds character as much as studying builds knowledge.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Resilience\" means:",
+      "opts": [
+        "Physical strength",
+        "The ability to recover from difficulties",
+        "A type of sporting event",
+        "Following a strict routine"
+      ],
+      "correct": "The ability to recover from difficulties",
+      "hint": "\"Resilience\" = the ability to bounce back and recover after setbacks."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She won the national ___ and will now compete internationally.",
+      "correct": "tournament",
+      "hint": "A \"tournament\" = a competition with multiple teams or players."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Discipline\" in a sports context means:",
+      "opts": [
+        "A type of punishment",
+        "Consistent effort and self-control in training",
+        "Choosing which sport to play",
+        "A rule about uniforms"
+      ],
+      "correct": "Consistent effort and self-control in training",
+      "hint": "\"Discipline\" = the practice of training yourself to follow rules and work consistently."
+    }
+  ]
+}

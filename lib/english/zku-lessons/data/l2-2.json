@@ -1,0 +1,288 @@
+{
+  "id": "l2-2",
+  "moduleNum": 2,
+  "lessonNum": 2,
+  "moduleTitle": "My family",
+  "title": "Family dinner talk",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Mom",
+      "text": "Aizhan! Can you hear us? We are all here for our Friday dinner!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes, Mum! I can see you all! The food looks so delicious. What is it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Mom",
+      "text": "It's beshbarmak — your favourite! I made it especially for you.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Oh, I miss your cooking so much! How are you, Mum?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Mom",
+      "text": "I'm fine, dear. Very busy at the hospital, but happy. How is your food in Uralsk? Are you eating well?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes, don't worry! The dormitory cafeteria has good food. Hi, Dad!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dad",
+      "text": "Hi, my daughter! How are your studies going? Are your professors good?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes, Dad! My English professor is excellent. Her name is Ms. Aigerim.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dad",
+      "text": "Good. Study hard and make us proud. Your future career depends on it!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Arman",
+      "text": "Hey Aizhan! Did you make any new friends?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes! My best friend is Dias. He studies Computer Science, like you!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Arman",
+      "text": "Great! Give him my advice — join the coding club. It helped me a lot!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dana",
+      "text": "Aizhan! Look at my new drawing! I drew our whole family!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Dana, it's beautiful! You are so talented! I love the colours!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dana",
+      "text": "I miss you, sister! Come home soon, okay?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I miss you all too! See you at the holidays. I love you, family!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Mom",
+      "text": "We love you too, Aizhan. Study well and sleep enough. Goodnight!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "delicious",
+      "emoji": "😋",
+      "opts": [
+        "горький",
+        "вкусный",
+        "солёный",
+        "острый"
+      ],
+      "correct": "вкусный"
+    },
+    {
+      "id": "p2",
+      "word": "proud",
+      "emoji": "🦁",
+      "opts": [
+        "усталый",
+        "грустный",
+        "гордый",
+        "злой"
+      ],
+      "correct": "гордый"
+    },
+    {
+      "id": "p3",
+      "word": "advice",
+      "emoji": "💡",
+      "opts": [
+        "вопрос",
+        "совет",
+        "правило",
+        "задание"
+      ],
+      "correct": "совет"
+    },
+    {
+      "id": "p4",
+      "word": "talented",
+      "emoji": "🌟",
+      "opts": [
+        "скучный",
+        "обычный",
+        "талантливый",
+        "тихий"
+      ],
+      "correct": "талантливый"
+    },
+    {
+      "id": "p5",
+      "word": "career",
+      "emoji": "💼",
+      "opts": [
+        "хобби",
+        "учёба",
+        "карьера",
+        "отдых"
+      ],
+      "correct": "карьера"
+    },
+    {
+      "id": "p6",
+      "word": "professor",
+      "emoji": "👨‍🏫",
+      "opts": [
+        "студент",
+        "директор",
+        "преподаватель",
+        "врач"
+      ],
+      "correct": "преподаватель"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The family is eating beshbarmak for Friday dinner.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Aizhan says the cafeteria food is terrible.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Aizhan's father asks about her studies and professors.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Arman advises Aizhan to join the coding club.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Dana drew a picture of her university.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Aizhan's best friend at WKU studies English.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "mom",
+      "name": "Mum Ainur",
+      "city": "Aktobe",
+      "emoji": "👩‍⚕️",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "role": "Doctor, Aizhan's mother"
+    },
+    {
+      "id": "dad",
+      "name": "Dad Marat",
+      "city": "Aktobe",
+      "emoji": "👷",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Engineer, Aizhan's father"
+    },
+    {
+      "id": "arman",
+      "name": "Arman",
+      "city": "Astana",
+      "emoji": "👨‍💻",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Student, Aizhan's brother"
+    },
+    {
+      "id": "dana",
+      "name": "Dana",
+      "city": "Aktobe",
+      "emoji": "👧",
+      "color": "#0F766E",
+      "bg": "#CCFBF1",
+      "role": "Schoolgirl, Aizhan's sister"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"I made beshbarmak especially for you!\"",
+      "correctCharId": "mom"
+    },
+    {
+      "id": "s2",
+      "text": "\"Study hard and make us proud. Your future career depends on it!\"",
+      "correctCharId": "dad"
+    },
+    {
+      "id": "s3",
+      "text": "\"Join the coding club — it helped me a lot!\"",
+      "correctCharId": "arman"
+    },
+    {
+      "id": "s4",
+      "text": "\"I drew our whole family! Look at my new drawing!\"",
+      "correctCharId": "dana"
+    },
+    {
+      "id": "s5",
+      "text": "Asks about Aizhan's food and whether she is eating well.",
+      "correctCharId": "mom"
+    },
+    {
+      "id": "s6",
+      "text": "Tells Aizhan that his friend studies Computer Science.",
+      "correctCharId": "arman"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "l29-3",
+  "moduleNum": 13,
+  "lessonNum": 3,
+  "moduleTitle": "Sports & Exercise",
+  "type": "listening",
+  "title": "At the Sports Centre",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "🏋️",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student, asking about the sports centre"
+    },
+    {
+      "id": "gulnaz",
+      "name": "Gulnaz",
+      "city": "Uralsk",
+      "emoji": "📋",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU sports centre receptionist"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "He has just signed up for a gym membership at WKU.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "She has worked at the sports centre for three years.",
+      "correctCharId": "gulnaz"
+    },
+    {
+      "id": "s3",
+      "text": "He has never used a professional gym before — only trained outdoors.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "She has already given him a tour of the swimming pool and courts.",
+      "correctCharId": "gulnaz"
+    },
+    {
+      "id": "s5",
+      "text": "He has decided to try the morning fitness class starting next Monday.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "She has organised the class schedule — it starts at 7 a.m. on weekdays.",
+      "correctCharId": "gulnaz"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

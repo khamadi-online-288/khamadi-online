@@ -1,0 +1,265 @@
+{
+  "id": "l8-2",
+  "moduleNum": 8,
+  "lessonNum": 2,
+  "moduleTitle": "My home",
+  "title": "Welcome to my place!",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Damir",
+      "text": "Kamila, is this your building? It looks really nice!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes! Come in — welcome to our apartment! There is a coat hook on the left.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "Thanks! How many rooms are there?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "There are three rooms: a living room, a kitchen, and a bedroom.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "Is there a separate study room? You always study so much!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "No, there isn't. But there is a desk in the bedroom for each of us.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "Oh nice! Is there a TV in the living room?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, there is a TV on the wall. And there are two big bookshelves.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "Are there any plants? Zara mentioned she loves plants.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Ha! There are four plants on the balcony and one in the bedroom.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "Is there a balcony? Can I see it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Of course! There is a great view of the courtyard. Come look!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "Wow — there are so many trees down there! Is there a park nearby?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, there is a small park just around the corner. Very peaceful.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Damir",
+      "text": "This is amazing. Is there anything you don't like about this apartment?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Honestly? There is no dishwasher! That's the only problem!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "separate",
+      "emoji": "🚪",
+      "opts": [
+        "общий",
+        "отдельный",
+        "маленький",
+        "большой"
+      ],
+      "correct": "отдельный"
+    },
+    {
+      "id": "p2",
+      "word": "mention",
+      "emoji": "💬",
+      "opts": [
+        "забывать",
+        "спрашивать",
+        "упоминать",
+        "объяснять"
+      ],
+      "correct": "упоминать"
+    },
+    {
+      "id": "p3",
+      "word": "courtyard",
+      "emoji": "🌳",
+      "opts": [
+        "улица",
+        "парк",
+        "двор",
+        "сад"
+      ],
+      "correct": "двор"
+    },
+    {
+      "id": "p4",
+      "word": "nearby",
+      "emoji": "📍",
+      "opts": [
+        "далеко",
+        "рядом / поблизости",
+        "везде",
+        "нигде"
+      ],
+      "correct": "рядом / поблизости"
+    },
+    {
+      "id": "p5",
+      "word": "peaceful",
+      "emoji": "😌",
+      "opts": [
+        "шумный",
+        "грустный",
+        "спокойный / тихий",
+        "опасный"
+      ],
+      "correct": "спокойный / тихий"
+    },
+    {
+      "id": "p6",
+      "word": "dishwasher",
+      "emoji": "🍽️",
+      "opts": [
+        "стиральная машина",
+        "холодильник",
+        "посудомоечная машина",
+        "микроволновка"
+      ],
+      "correct": "посудомоечная машина"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "There are three rooms in Kamila's apartment.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "There is a separate study room in the apartment.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "There is a TV and two bookshelves in the living room.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "There are five plants on the balcony.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "There is a small park near the apartment building.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila says there is no washing machine in the apartment.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Kokshetau",
+      "emoji": "🏠",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Economics student, Group 401"
+    },
+    {
+      "id": "damir",
+      "name": "Damir",
+      "city": "Uralsk",
+      "emoji": "👨‍🎓",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Engineering student, Group 402"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Shows the apartment and welcomes the guest inside.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Asks if there is a separate study room.",
+      "correctCharId": "damir"
+    },
+    {
+      "id": "s3",
+      "text": "Says there is a desk in the bedroom for each person.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Mentions that Zara loves plants.",
+      "correctCharId": "damir"
+    },
+    {
+      "id": "s5",
+      "text": "Points out there is a great view of the courtyard from the balcony.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Says the only problem is there is no dishwasher.",
+      "correctCharId": "kamila"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "id": "l39-g2",
+  "moduleNum": 5,
+  "lessonNum": 5,
+  "moduleTitle": "Better, Best, Most",
+  "type": "grammar",
+  "title": "Superlatives: -est and the most",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Superlative Adjectives — the best, the most",
+  "grammarNote": "Превосходная степень используется для выражения того, что ОДИН элемент превосходит ВСЕ ОСТАЛЬНЫЕ в группе. Всегда используется с артиклем \"the\". Правила образования аналогичны сравнительной степени: короткие → the + er (→ est), длинные → the most. Есть те же неправильные формы.",
+  "grammarTable": [
+    {
+      "subject": "Short (1 syllable)",
+      "verb": "the + -est",
+      "short": "tall → the tallest",
+      "example": "Astana has the coldest winters in Kazakhstan."
+    },
+    {
+      "subject": "Ends in -e",
+      "verb": "the + -st",
+      "short": "nice → the nicest",
+      "example": "This is the nicest flat I've seen."
+    },
+    {
+      "subject": "CVC: double + est",
+      "verb": "the + double + est",
+      "short": "big → the biggest",
+      "example": "Almaty is the biggest city in Kazakhstan."
+    },
+    {
+      "subject": "Ends in -y: y → iest",
+      "verb": "drop y + iest",
+      "short": "noisy → the noisiest",
+      "example": "That's the busiest street in Uralsk."
+    },
+    {
+      "subject": "Long (2+ syllables)",
+      "verb": "the most + adj",
+      "short": "modern → the most modern",
+      "example": "Astana has the most futuristic architecture."
+    },
+    {
+      "subject": "Irregular",
+      "verb": "memorise!",
+      "short": "good/bad/far",
+      "example": "good → the best · bad → the worst · far → the furthest"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Always use \"the\" before a superlative",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Superlative = the + adjective-est (or the most)",
+          "example": "\"Almaty is THE biggest city.\" (NOT \"Almaty is biggest city\")."
+        },
+        {
+          "form": "Possessive can replace \"the\"",
+          "example": "\"Her best essay.\" / \"His worst week.\" (possessive = the)"
+        },
+        {
+          "form": "\"One of the + superlative + plural noun\"",
+          "example": "\"WKU is one of the best universities in the region.\""
+        },
+        {
+          "form": "With \"in\" or \"of\" for context",
+          "example": "\"The tallest building IN Kazakhstan.\" / \"The best OF all the options.\""
+        }
+      ]
+    },
+    {
+      "title": "Spelling rules for superlatives",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Most: the + -est",
+          "example": "tall → the tallest · fast → the fastest · dark → the darkest"
+        },
+        {
+          "form": "Ends in -e: the + -st",
+          "example": "nice → the nicest · large → the largest · close → the closest"
+        },
+        {
+          "form": "CVC: double + the + -est",
+          "example": "big → the biggest · hot → the hottest · thin → the thinnest"
+        },
+        {
+          "form": "Ends in -y: drop y + the + -iest",
+          "example": "noisy → the noisiest · busy → the busiest · easy → the easiest"
+        }
+      ]
+    },
+    {
+      "title": "Irregular superlatives — memorise!",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "good → the best",
+          "example": "\"Kamila made the best decision of her life.\" ✅"
+        },
+        {
+          "form": "bad → the worst",
+          "example": "\"That was the worst winter on record.\""
+        },
+        {
+          "form": "far → the furthest",
+          "example": "\"Astana is the furthest city from Uralsk.\""
+        },
+        {
+          "form": "little → the least",
+          "example": "\"She did the least amount of research.\" (Rustam!)"
+        },
+        {
+          "form": "many/much → the most",
+          "example": "\"Almaty has the most universities in Kazakhstan.\""
+        }
+      ]
+    },
+    {
+      "title": "Comparing: Superlative vs Comparative",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Comparative (2 things)",
+          "example": "\"Almaty is LARGER than Uralsk.\" (comparing two cities)"
+        },
+        {
+          "form": "Superlative (3+ things)",
+          "example": "\"Almaty is THE LARGEST city in Kazakhstan.\" (comparing all cities)"
+        },
+        {
+          "form": "Comparative (no \"the\")",
+          "example": "\"She is more ambitious than her classmate.\" (never \"the more ambitious\")"
+        },
+        {
+          "form": "Superlative (always \"the\")",
+          "example": "\"She is the most ambitious student in the class.\" (always \"the most\")"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Превосходная степень — четыре ключевых правила:\n① ВСЕГДА артикль \"the\": the biggest, the most modern, the best.\n② Правила написания: как у сравнительной, но + est вместо er.\n③ Неправильные: good → the best, bad → the worst, far → the furthest.\n④ Контекст: \"the best IN Kazakhstan\" / \"the worst OF all options\".\n\n💡 \"One of the + superlative + plural noun\" — очень популярная конструкция:\n→ \"WKU is ONE OF THE BEST universities in western Kazakhstan.\"\n\n⚠️ Comparative = NO \"the\" (bigger than). Superlative = ALWAYS \"the\" (the biggest).",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Form the superlative.",
+      "text": "Almaty is ___ (large) city in Kazakhstan.",
+      "opts": [
+        "the larger",
+        "the largest",
+        "the most large",
+        "largest"
+      ],
+      "correct": "the largest",
+      "hint": "\"large\" → the largest (short adj: + st). Always \"the\" before superlatives! ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the superlative.",
+      "text": "That was ___ (bad) winter in decades.",
+      "correct": "the worst",
+      "hint": "\"bad → the worst\" (irregular). \"That was the worst winter.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct superlative.",
+      "text": "Astana has ___ (futuristic) architecture in Kazakhstan.",
+      "opts": [
+        "the futuristicker",
+        "the most futuristic",
+        "the futuristicest",
+        "most futuristic"
+      ],
+      "correct": "the most futuristic",
+      "hint": "\"futuristic\" = 4 syllables → the most futuristic. Always \"the most\" for long adjectives. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She is the most good student in the class\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She is the BEST student in the class.\" — \"good → the best\" (irregular). NEVER \"the most good\"!"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which is correct?",
+      "opts": [
+        "WKU is one of best university.",
+        "WKU is one of the best universities.",
+        "WKU is the one best university.",
+        "WKU is most best university."
+      ],
+      "correct": "WKU is one of the best universities.",
+      "hint": "\"One of the + superlative + PLURAL noun.\" → \"one of the best universities.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the superlative.",
+      "text": "That flat was ___ (noisy) place I've ever lived.",
+      "correct": "the noisiest",
+      "hint": "\"noisy\" → drop y + iest: the noisiest. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose \"comparative\" or \"superlative\".",
+      "text": "\"Almaty is ___ than Uralsk.\" (comparing two cities)",
+      "opts": [
+        "the largest",
+        "larger",
+        "the most large",
+        "most large"
+      ],
+      "correct": "larger",
+      "hint": "Comparing TWO things → comparative (no \"the\"): \"larger than\". Superlative (the biggest) = for 3+ things."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Add the missing word.",
+      "text": "Kazakhstan is ___ largest landlocked country in the world.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "the",
+      "hint": "Superlatives always use \"the\": \"THE largest landlocked country.\" ✅ Never \"a largest\"."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Write the correct superlative.",
+      "text": "She is ___ (dedicated) student I've ever taught.",
+      "correct": "the most dedicated",
+      "hint": "\"dedicated\" = 4 syllables → the most dedicated. \"...the most dedicated student I've ever taught.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Form the superlative (CVC).",
+      "text": "What is ___ (big) city in Kazakhstan?",
+      "opts": [
+        "the most big",
+        "the biggest",
+        "the bigtest",
+        "biggest"
+      ],
+      "correct": "the biggest",
+      "hint": "\"big\" = CVC → double g + est: the biggest. Always \"the\" before superlatives! ✅"
+    },
+    {
+      "id": "e11",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"This is my best work\" — here \"best\" is used without \"the\" because \"my\" replaces it.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Possessives (my, his, her, their) replace \"the\" before superlatives. \"My BEST work.\" ✅ = \"the best of my work.\""
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with the superlative.",
+      "text": "That was ___ (good) meal I've had all semester.",
+      "correct": "the best",
+      "hint": "\"good → the best\" (irregular). \"...the best meal I've had.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Cold\" superlative is:",
+      "opts": [
+        "the most cold",
+        "the coldest",
+        "coldest",
+        "colder"
+      ],
+      "correct": "the coldest",
+      "hint": "\"cold\" = 1 syllable → the coldest. Always \"the\" before superlatives! ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Beautiful\" superlative is:",
+      "opts": [
+        "the beautifullest",
+        "the beautifulest",
+        "the most beautiful",
+        "most beautiful"
+      ],
+      "correct": "the most beautiful",
+      "hint": "\"beautiful\" = 3 syllables → the most beautiful. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"good → ___ (superlative)\"",
+      "correct": "the best",
+      "hint": "\"good → the best\" (irregular). The most important irregular superlative!"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"bad → ___ (superlative)\"",
+      "correct": "the worst",
+      "hint": "\"bad → the worst\" (irregular). \"This was the worst exam I've taken.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Big\" superlative is:",
+      "opts": [
+        "the bigest",
+        "the biggest",
+        "the most big",
+        "biggest"
+      ],
+      "correct": "the biggest",
+      "hint": "\"big\" = CVC → double g + est: the biggest. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"One of ___ universities in Kazakhstan.\" Complete.",
+      "opts": [
+        "better",
+        "the best",
+        "a best",
+        "most best"
+      ],
+      "correct": "the best",
+      "hint": "\"One of the BEST universities\" (plural noun + superlative + \"the\"). ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She is most dedicated student in the class\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She is THE most dedicated student.\" — ALWAYS \"the\" before a superlative."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Busy\" superlative is:",
+      "opts": [
+        "the most busy",
+        "the busiest",
+        "the busyest",
+        "the busiest ever"
+      ],
+      "correct": "the busiest",
+      "hint": "\"busy\" ends in -y → drop y + iest: the busiest. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When do you use a superlative instead of a comparative?",
+      "opts": [
+        "Comparing two things",
+        "Comparing one thing to all others in a group",
+        "Showing equal quality",
+        "Describing current states"
+      ],
+      "correct": "Comparing one thing to all others in a group",
+      "hint": "Superlative = ONE thing vs ALL others. Comparative = comparing TWO things."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"This is ___ (important) decision of my life.\"",
+      "correct": "the most important",
+      "hint": "\"important\" = 3 syllables → the most important. \"The most important decision.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"My best work\" — why is there no \"the\" before \"best\"?",
+      "opts": [
+        "Because \"best\" is comparative",
+        "Because \"my\" replaces \"the\"",
+        "Because it's wrong",
+        "Because \"best\" doesn't need \"the\""
+      ],
+      "correct": "Because \"my\" replaces \"the\"",
+      "hint": "Possessives (my, his, her) replace \"the\". \"my best\" = \"the best of mine.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The tallest building ___ Kazakhstan.\" Which preposition?",
+      "opts": [
+        "of",
+        "in",
+        "at",
+        "from"
+      ],
+      "correct": "in",
+      "hint": "\"The tallest building IN Kazakhstan.\" = within a location. \"The best OF all options.\" = within a group."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"far → ___ (superlative)\"",
+      "correct": "the furthest",
+      "hint": "\"far → the furthest/farthest\" (irregular). \"Astana is the furthest capital from Uralsk.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She did the least research.\" — What is \"the least\" the superlative of?",
+      "opts": [
+        "few",
+        "little",
+        "small",
+        "less"
+      ],
+      "correct": "little",
+      "hint": "\"little → less → the least\" (irregular superlative for uncountable/amount things)."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses a superlative correctly?",
+      "opts": [
+        "She is the most smartest.",
+        "She is the most smart.",
+        "She is the smartest.",
+        "She is the most smarter."
+      ],
+      "correct": "She is the smartest.",
+      "hint": "\"smart\" = 1 syllable → the smartest. NEVER \"the most smartest\" (double superlative)! ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Almaty is ___ (cosmopolitan) city I've visited.\" Choose correctly.",
+      "opts": [
+        "the most cosmopolitan",
+        "the cosmopolitanest",
+        "more cosmopolitan",
+        "most cosmopolitan"
+      ],
+      "correct": "the most cosmopolitan",
+      "hint": "\"cosmopolitan\" = 5 syllables → the most cosmopolitan. Always \"the most\" for long adjectives. ✅"
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "id": "l68-5",
+  "moduleNum": 10,
+  "lessonNum": 9,
+  "moduleTitle": "Narrative Writing",
+  "title": "Module 10 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She ___ across the room when she ___ a voice she recognised.\" Choose the correct forms.",
+      "opts": [
+        "walked / was hearing",
+        "was walking / heard",
+        "had walked / heard",
+        "walked / heard"
+      ],
+      "correct": "was walking / heard",
+      "hint": "Past continuous (background) + past simple (interruption)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The lights ___ and the room ___ of old wood and rain.\" (Scene-setting)",
+      "opts": [
+        "flickered / smelled",
+        "were flickering / smelled",
+        "had flickered / smelled",
+        "flickered / was smelling"
+      ],
+      "correct": "were flickering / smelled",
+      "hint": "Past continuous for ongoing scene + past simple for state",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She ___ (never / visit) that part of the city before that night.\"",
+      "correct": "had never visited",
+      "hint": "Past perfect for event/state before the narrative moment",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"No sooner ___ she ___ (arrive) than the meeting was called to order.\"",
+      "opts": [
+        "did / arrive",
+        "had / arrived",
+        "was / arriving",
+        "has / arrived"
+      ],
+      "correct": "had / arrived",
+      "hint": "\"No sooner had + subject + pp… than\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ had he felt so exposed.\" (Dramatic inversion)",
+      "opts": [
+        "Not once",
+        "Never",
+        "Rarely",
+        "All of the above are correct"
+      ],
+      "correct": "All of the above are correct",
+      "hint": "Never / not once / rarely + had + subject + pp",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"By the time they ___ (reach) the shelter, the storm ___ (already / begin).\"",
+      "correct": "reached / had already begun",
+      "hint": "\"By the time\" + past simple; earlier event = past perfect",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, outside, someone was watching the house.\" (Same time, different location)",
+      "opts": [
+        "Eventually",
+        "Despite this",
+        "Meanwhile",
+        "Suddenly"
+      ],
+      "correct": "Meanwhile",
+      "hint": "\"Meanwhile\" = simultaneous action elsewhere",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is \"showing\" not \"telling\"?",
+      "opts": [
+        "He was angry.",
+        "She felt afraid.",
+        "They were all exhausted.",
+        "His hands were shaking as he read the letter."
+      ],
+      "correct": "His hands were shaking as he read the letter.",
+      "hint": "Showing = emotion expressed through physical action/detail",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, she placed the envelope on the table and walked out.\" (Manner adverb fronted)",
+      "correct": "Carefully",
+      "hint": "Manner adverb at the front = emphasis on how the action was done",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She ___ (wait) for three hours by the time he finally appeared.\" Choose the correct form.",
+      "opts": [
+        "waited",
+        "was waiting",
+        "had been waiting",
+        "has been waiting"
+      ],
+      "correct": "had been waiting",
+      "hint": "Past perfect continuous = ongoing action before narrative present",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "The \"inciting incident\" is best described as…",
+      "opts": [
+        "The story's climax",
+        "The event that starts the story moving",
+        "The final resolution",
+        "The character's backstory"
+      ],
+      "correct": "The event that starts the story moving",
+      "hint": "Reading 1: \"sets the whole story in motion\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Without warning, ___.\" Which correctly uses this phrase?",
+      "opts": [
+        "the lights went out",
+        "the lights were going out",
+        "the lights had gone out",
+        "the lights go out"
+      ],
+      "correct": "the lights went out",
+      "hint": "\"Without warning\" + past simple = sudden action",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"She opens the door and steps inside\" in a past narrative is a tense consistency error.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Present tense in a past narrative = tense slip",
+      "points": 1
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"pacing\" mean in narrative writing?",
+      "opts": [
+        "The number of characters in a story",
+        "The speed at which the narrative moves",
+        "The number of tenses used",
+        "The length of the story"
+      ],
+      "correct": "The speed at which the narrative moves",
+      "hint": "Reading 1: \"pacing — the speed at which the narrative moves\"",
+      "points": 1
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which correctly uses dramatic inversion?",
+      "opts": [
+        "She never had felt so frightened.",
+        "Never she had felt so frightened.",
+        "Never had she felt so frightened.",
+        "Had never she felt so frightened."
+      ],
+      "correct": "Never had she felt so frightened.",
+      "hint": "Never + had + subject + past participle",
+      "points": 2
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He sat down. He ___ his hands together. He waited.\" (= joined/clasped — complete the sequence)",
+      "correct": "clasped",
+      "hint": "Past simple sequence of main actions",
+      "points": 1
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She had grown up here. ___ she felt like a stranger.\" (= contrast with the past)",
+      "opts": [
+        "Eventually",
+        "Meanwhile",
+        "Despite this",
+        "Now"
+      ],
+      "correct": "Now",
+      "hint": "\"Now\" shifts from past perfect backstory back to narrative present",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is a \"compression sentence\"?",
+      "opts": [
+        "She heard every word he said and remembered each one.",
+        "Ten years passed.",
+        "He was walking slowly, looking at every window.",
+        "She felt the cold air on her face."
+      ],
+      "correct": "Ten years passed.",
+      "hint": "Compression = skipping time quickly in one short sentence",
+      "points": 1
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Not once ___ he ___ (apologise) for what he had done.\"",
+      "correct": "did / apologise",
+      "hint": "\"Not once + did + subject + bare infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "reading",
+      "text": "According to the lectures, what does a strong narrative closing do?",
+      "opts": [
+        "Introduces a new mystery",
+        "Summarises all the events",
+        "Echoes the opening or shifts the reader's understanding",
+        "Ends with the main character leaving"
+      ],
+      "correct": "Echoes the opening or shifts the reader's understanding",
+      "hint": "Listening 3B: Ms. Aldanova on closings",
+      "points": 1
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"While she was talking, he ___ quietly towards the door.\" Choose the correct form.",
+      "opts": [
+        "was moving",
+        "had moved",
+        "moved",
+        "moves"
+      ],
+      "correct": "moved",
+      "hint": "\"While\" + past continuous; the other action = past simple",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "Starting a narrative in the middle of the action is called starting \"in ___ ___.\"",
+      "correct": "medias res",
+      "hint": "Latin phrase from Listening 3",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There, ___ the window, stood a figure she had not seen in years.\" (= fronted place phrase)",
+      "opts": [
+        "from",
+        "at",
+        "by",
+        "in"
+      ],
+      "correct": "by",
+      "hint": "Place fronted phrase with \"there\": \"There, by the window, stood…\"",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "The past continuous is described as the \"workhorse\" of narrative — carrying the main events forward.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Reading 2: past simple is the \"workhorse\"",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A narrator who distorts events deliberately or unconsciously is called…",
+      "opts": [
+        "A first-person narrator",
+        "An omniscient narrator",
+        "An unreliable narrator",
+        "A limited narrator"
+      ],
+      "correct": "An unreliable narrator",
+      "hint": "Reading 1: \"unreliable narrator\"",
+      "points": 1
+    }
+  ]
+}

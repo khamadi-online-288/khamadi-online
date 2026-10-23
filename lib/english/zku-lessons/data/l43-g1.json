@@ -1,0 +1,524 @@
+{
+  "id": "l43-g1",
+  "moduleNum": 9,
+  "lessonNum": 3,
+  "moduleTitle": "Asking & Answering",
+  "type": "grammar",
+  "title": "Indirect Questions: Could you tell me…?",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Indirect Questions — polite and formal ways to ask",
+  "grammarNote": "Косвенные вопросы (indirect questions) — это вопросы, встроенные в другую, более вежливую структуру. Они звучат более тактично, чем прямые вопросы, особенно в формальных ситуациях (собеседования, незнакомые люди, официальные контексты). Ключевое правило: в косвенном вопросе слова НЕ инвертируются (подлежащее стоит перед глаголом, как в утвердительном предложении).",
+  "grammarTable": [
+    {
+      "subject": "Direct question",
+      "verb": "word order",
+      "short": "auxiliary + subject",
+      "example": "\"Where IS the library?\" / \"What TIME does it start?\" / \"WHO are you?\""
+    },
+    {
+      "subject": "Indirect question",
+      "verb": "word order",
+      "short": "subject + verb",
+      "example": "\"Could you tell me where the library IS?\" / \"Do you know what time IT STARTS?\""
+    },
+    {
+      "subject": "Introducing phrase",
+      "verb": "+ indirect Q",
+      "short": "polite frame",
+      "example": "\"Could you tell me / Do you know / I'd like to know / I wonder...\""
+    },
+    {
+      "subject": "Yes/No → whether/if",
+      "verb": "whether or if",
+      "short": "for yes/no indirect",
+      "example": "\"Is there a café?\" → \"Do you know WHETHER/IF there is a café?\""
+    },
+    {
+      "subject": "Wh- stays",
+      "verb": "wh-word stays",
+      "short": "where/when/who etc.",
+      "example": "\"Where is it?\" → \"Do you know WHERE it is?\" (wh-word stays at the beginning)"
+    },
+    {
+      "subject": "No do/does/did",
+      "verb": "drop auxiliaries",
+      "short": "no inversion",
+      "example": "\"What time DOES it start?\" → \"Do you know what time IT STARTS?\" (drop does!)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Step-by-step: How to form indirect questions",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Step 1: Start with a polite phrase",
+          "example": "\"Could you tell me...\" / \"Do you know...\" / \"I wonder...\" / \"I'd like to know...\""
+        },
+        {
+          "form": "Step 2: Add the wh-word (or whether/if)",
+          "example": "\"...where / when / how / who / whether...\""
+        },
+        {
+          "form": "Step 3: Use NORMAL word order (no inversion)",
+          "example": "\"...where the library IS.\" (NOT \"where IS the library\")"
+        },
+        {
+          "form": "Step 4: Drop do/does/did",
+          "example": "\"...what time it STARTS.\" (NOT \"what time DOES it start\")"
+        }
+      ]
+    },
+    {
+      "title": "Common introducing phrases — from most to least formal",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Most formal",
+          "example": "\"Could you tell me...?\" / \"Would you be able to tell me...?\""
+        },
+        {
+          "form": "Formal",
+          "example": "\"Can you tell me...?\" / \"Do you know...?\" / \"I'd like to know...\""
+        },
+        {
+          "form": "Semi-formal",
+          "example": "\"I wonder if you could tell me...?\" / \"I was wondering where...\""
+        },
+        {
+          "form": "Checking/wondering",
+          "example": "\"Do you happen to know...?\" / \"Could you possibly tell me...?\""
+        }
+      ]
+    },
+    {
+      "title": "Yes/No direct → whether/if in indirect",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"Is the café open?\" → \"whether/if\"",
+          "example": "\"Do you know WHETHER/IF the café is open?\" (NOT \"Do you know is the café open?\")"
+        },
+        {
+          "form": "\"whether\" vs \"if\"",
+          "example": "\"whether\" is more formal. Both are correct. \"Do you know if she arrived?\" ✅"
+        },
+        {
+          "form": "Normal statement word order follows",
+          "example": "\"...whether the café IS open.\" (not \"...whether IS the café open?\")"
+        },
+        {
+          "form": "NEVER invert after whether/if",
+          "example": "✗ \"Do you know whether IS she coming?\" → ✅ \"Do you know whether SHE IS coming?\""
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common mistakes with indirect questions",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"Could you tell me where IS the library?\"",
+          "example": "✅ \"Could you tell me WHERE THE LIBRARY IS?\" — no inversion!"
+        },
+        {
+          "form": "✗ \"Do you know what time does it start?\"",
+          "example": "✅ \"Do you know WHAT TIME IT STARTS?\" — drop \"does\"!"
+        },
+        {
+          "form": "✗ \"I'd like to know is she coming.\"",
+          "example": "✅ \"I'd like to know WHETHER SHE IS coming.\" — use whether for yes/no!"
+        },
+        {
+          "form": "✗ \"Could you tell me who are you?\"",
+          "example": "✅ \"Could you tell me who you are?\" — subject before verb!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Косвенные вопросы — три золотых правила:\n① Начни с вежливой фразы: \"Could you tell me / Do you know / I'd like to know...\"\n② Слова НЕ инвертируются: \"...where the library IS\" (НЕ \"where IS the library\")\n③ Убери do/does/did: \"...what time it STARTS\" (НЕ \"does it start\")\n\nДля вопросов типа yes/no → используй WHETHER или IF:\n\"Do you know WHETHER she is coming?\"\n\n💡 Тест: если в прямом вопросе есть \"is / are / was / were\" — перенеси его ПОСЛЕ подлежащего:\n\"Where IS the café?\" → \"...where the café IS.\"\n\nЕсли есть \"do/does/did\" — УБЕРИ его:\n\"What time DOES it start?\" → \"...what time it STARTS.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Convert to an indirect question.",
+      "text": "\"Where is the library?\" → \"Could you tell me ___ ?\"",
+      "opts": [
+        "where is the library",
+        "where the library is",
+        "where library the is",
+        "is the library where"
+      ],
+      "correct": "where the library is",
+      "hint": "No inversion in indirect: subject + verb. \"...where THE LIBRARY IS.\" ✅ (not \"where IS the library\")"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the indirect question.",
+      "text": "\"What time does the lecture start?\" → \"Do you know what time ___ ?\"",
+      "correct": "it starts",
+      "hint": "Drop \"does\", no inversion: \"...what time IT STARTS.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Convert the yes/no question to indirect.",
+      "text": "\"Is there a café near here?\" → \"Do you know ___ a café near here?\"",
+      "opts": [
+        "is there",
+        "whether there is",
+        "whether is there",
+        "if is there"
+      ],
+      "correct": "whether there is",
+      "hint": "Yes/no direct → \"whether/if\" + normal order. \"...WHETHER THERE IS a café.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Could you tell me where does the bus stop?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Could you tell me WHERE THE BUS STOPS?\" — drop \"does\" and use normal word order!"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct indirect form.",
+      "text": "\"Who are you?\" → \"Could you tell me ___ ?\"",
+      "opts": [
+        "who are you",
+        "who you are",
+        "who is you",
+        "are you who"
+      ],
+      "correct": "who you are",
+      "hint": "\"Could you tell me WHO YOU ARE?\" — no inversion. subject (you) + verb (are). ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete using whether or if.",
+      "text": "\"Has she applied?\" → \"Do you know ___ she has applied?\"",
+      "correct": "whether / if",
+      "hint": "Yes/no question → whether or if. \"Do you know WHETHER/IF she has applied?\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the most formal introducing phrase.",
+      "text": "\"___ you could tell me the way to the dean's office?\"",
+      "opts": [
+        "Do",
+        "Can",
+        "Could",
+        "Would"
+      ],
+      "correct": "Could",
+      "hint": "\"Could you tell me...?\" is more formal than \"Can you tell me...?\" — use \"Could\" in formal/interview contexts. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the correct indirect question.",
+      "text": "\"What is the application deadline?\" → Choose the correct indirect form.",
+      "opts": [
+        "\"Do you know what is the application deadline?\"",
+        "\"Do you know what the application deadline is?\"",
+        "\"Do you know what the application deadline are?\"",
+        "\"Do you know what application deadline is?\""
+      ],
+      "correct": "\"Do you know what the application deadline is?\"",
+      "hint": "\"Do you know WHAT THE APPLICATION DEADLINE IS?\" — no inversion, subject before verb. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete the indirect question.",
+      "text": "\"Where does the professor live?\" → \"I'd like to know where ___.\"",
+      "correct": "the professor lives",
+      "hint": "Drop \"does\", normal order: \"...where THE PROFESSOR LIVES.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose \"whether\" or a wh-word.",
+      "text": "\"Did she get the scholarship?\" → \"Do you know ___ she got the scholarship?\"",
+      "opts": [
+        "what",
+        "where",
+        "whether",
+        "how"
+      ],
+      "correct": "whether",
+      "hint": "\"Did she...?\" is a yes/no question → use \"whether\" (or \"if\") in indirect: \"...WHETHER she got the scholarship.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I'd like to know is she happy there.\" is a correct indirect question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"I'd like to know WHETHER SHE IS happy there.\" — yes/no → whether + normal word order!"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Convert the direct question.",
+      "text": "\"How many students are in the group?\" → \"Could you tell me how many students ___?\"",
+      "correct": "are in the group",
+      "hint": "No inversion needed: \"how many students ARE IN THE GROUP?\" — \"are\" comes after the subject. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Where is the office?\" → Indirect: \"Could you tell me ___?\"",
+      "opts": [
+        "where is the office",
+        "where the office is",
+        "where the office are",
+        "is the office where"
+      ],
+      "correct": "where the office is",
+      "hint": "\"...where THE OFFICE IS.\" — no inversion! Subject + verb. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What time does the seminar start?\" → \"Do you know ___?\"",
+      "opts": [
+        "what time does the seminar start",
+        "what time the seminar starts",
+        "what time start the seminar",
+        "starts the seminar what time"
+      ],
+      "correct": "what time the seminar starts",
+      "hint": "Drop \"does\", no inversion: \"...what time THE SEMINAR STARTS.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Is the library open?\" → \"Do you know ___ the library is open?\"",
+      "correct": "whether / if",
+      "hint": "Yes/no question → \"whether\" or \"if\". \"...WHETHER THE LIBRARY IS open.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Do you know where is the professor?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Do you know WHERE THE PROFESSOR IS?\" — no inversion in indirect questions!"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Who is in charge?\" → \"Could you tell me ___?\"",
+      "opts": [
+        "who is in charge",
+        "who in charge is",
+        "who are in charge",
+        "who you charge"
+      ],
+      "correct": "who is in charge",
+      "hint": "\"...who IS IN CHARGE.\" — no change needed here; \"who\" is the subject, so it comes first. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Did she pass?\" → \"Do you know ___ she passed?\"",
+      "opts": [
+        "if",
+        "what",
+        "when",
+        "did"
+      ],
+      "correct": "if",
+      "hint": "\"Did she...?\" is yes/no → use \"if\" or \"whether\". \"...IF she passed.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How do I get to the dean's office?\" → \"Could you tell me how ___?\"",
+      "opts": [
+        "do I get there",
+        "I get there",
+        "to get there",
+        "I do get there"
+      ],
+      "correct": "I get there",
+      "hint": "\"...how I GET there.\" — no inversion, drop \"do\": subject (I) + verb (get). ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What does WKU stand for?\" → \"I'd like to know what WKU ___.\"",
+      "correct": "stands for",
+      "hint": "Drop \"does\", normal order: \"...what WKU STANDS FOR.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is a correct indirect question?",
+      "opts": [
+        "\"Do you know where does she work?\"",
+        "\"Could you tell me where she works?\"",
+        "\"I'd like to know where works she.\"",
+        "\"Can you tell me where she work?\""
+      ],
+      "correct": "\"Could you tell me where she works?\"",
+      "hint": "\"...where SHE WORKS.\" — no inversion, correct 3rd person verb. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Are there any seats available?\" → \"Do you know ___?\"",
+      "opts": [
+        "are there any seats available",
+        "whether there are any seats available",
+        "if are there any seats",
+        "whether are there seats"
+      ],
+      "correct": "whether there are any seats available",
+      "hint": "\"WHETHER THERE ARE any seats available.\" — yes/no + normal word order. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which introducing phrase is most formal?",
+      "opts": [
+        "\"Can you tell me...?\"",
+        "\"Do you know...?\"",
+        "\"Could you tell me...?\"",
+        "\"I wonder...?\""
+      ],
+      "correct": "\"Could you tell me...?\"",
+      "hint": "\"Could you tell me...?\" is the most politely formal. \"Could\" is more formal than \"can\". ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"When does the term end?\" → \"Could you tell me when the term ___?\"",
+      "correct": "ends",
+      "hint": "Drop \"does\", normal order: \"...when the term ENDS.\" (3rd person -s) ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wonder ___.\" — which continues correctly?",
+      "opts": [
+        "where does she live.",
+        "where she lives.",
+        "where she does live.",
+        "where lives she."
+      ],
+      "correct": "where she lives.",
+      "hint": "\"I wonder WHERE SHE LIVES.\" — no inversion, normal order. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Whether\" and \"if\" are both correct for yes/no indirect questions.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"whether\" and \"if\" can both introduce yes/no indirect questions. \"whether\" is slightly more formal. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Who does she work for?\" → \"Do you know who ___?\"",
+      "opts": [
+        "she works for",
+        "does she work for",
+        "she do work for",
+        "works she for"
+      ],
+      "correct": "she works for",
+      "hint": "\"Do you know who SHE WORKS FOR?\" — drop \"does\", normal order. ✅ (Note: \"for\" stays at the end)"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The main difference between direct and indirect questions is:",
+      "opts": [
+        "The tense",
+        "The word order (no inversion in indirect) and the introducing phrase",
+        "The punctuation",
+        "The length"
+      ],
+      "correct": "The word order (no inversion in indirect) and the introducing phrase",
+      "hint": "Indirect questions: (1) polite introducing phrase + (2) no inversion of subject+verb."
+    }
+  ]
+}

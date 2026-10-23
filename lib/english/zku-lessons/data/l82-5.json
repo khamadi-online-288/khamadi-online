@@ -1,0 +1,348 @@
+{
+  "id": "l82-5",
+  "moduleNum": 24,
+  "lessonNum": 9,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "Module 24 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the warrant linking evidence to claim was never explicitly stated.\" (most decisive point)",
+      "opts": [
+        "Admittedly",
+        "Notably",
+        "Crucially",
+        "Surprisingly"
+      ],
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = introducing the most important point",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, not all of the studies were peer-reviewed. Nevertheless, the overall pattern is clear.\" (concede before countering)",
+      "correct": "Admittedly / Granted",
+      "hint": "\"Admittedly / Granted\" = concessive stance adverb",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the largest studies consistently showed the smallest effect sizes.\" (counterintuitive finding)",
+      "opts": [
+        "Crucially",
+        "Admittedly",
+        "Surprisingly",
+        "Arguably"
+      ],
+      "correct": "Surprisingly",
+      "hint": "\"Surprisingly\" = flags a counterintuitive or unexpected result",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that this correlation has been replicated across multiple independent studies.\" (impersonal passive)",
+      "correct": "It has been demonstrated / It has been shown",
+      "hint": "\"It has been demonstrated/shown that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"This ___ raises important questions about the generalisability of the findings.\" (summary noun = the limitation)",
+      "opts": [
+        "finding",
+        "limitation",
+        "result",
+        "pattern"
+      ],
+      "correct": "limitation",
+      "hint": "\"This limitation\" = naming the small sample or narrow context as a limitation",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ of these results confirms the central hypothesis.\" (find → noun, plural)",
+      "correct": "findings",
+      "hint": "\"find\" → \"findings\" — nominalisation",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that the assumptions underlying the model require re-examination.\" (it is significant)",
+      "opts": [
+        "It is significant that",
+        "What significant that",
+        "It significantly that",
+        "That it is significant"
+      ],
+      "correct": "It is significant that",
+      "hint": "\"It is significant that + clause\" = impersonal evaluation",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___, it can be concluded that both approaches have merit.\" (given the evidence presented)",
+      "correct": "In light of the above",
+      "hint": "\"In light of the above\" = formal conclusion phrase",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, this represents the most important gap in the current research literature.\" (contestable claim)",
+      "opts": [
+        "Evidently",
+        "Admittedly",
+        "Arguably",
+        "Surprisingly"
+      ],
+      "correct": "Arguably",
+      "hint": "\"Arguably\" = this can be argued but is not universally agreed",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ of the new curriculum took three years.\" (implement → noun)",
+      "correct": "implementation",
+      "hint": "\"implement\" → \"implementation\" — nominalisation",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"warrant\" in Toulmin's model?",
+      "opts": [
+        "The evidence supporting the claim",
+        "The principle connecting evidence to the claim",
+        "The conclusion of the argument",
+        "The sources cited in the essay"
+      ],
+      "correct": "The principle connecting evidence to the claim",
+      "hint": "Listening 3B: Toulmin model",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that the intervention has no significant effect on long-term outcomes.\" (premature to conclude)",
+      "opts": [
+        "It would be premature to conclude",
+        "It was premature concluding",
+        "It is premature for concluding",
+        "It was premature to have concluded"
+      ],
+      "correct": "It would be premature to conclude",
+      "hint": "\"It would be premature to conclude that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ that this sample is not representative of the broader population.\" (it is worth noting)",
+      "correct": "It is worth noting",
+      "hint": "\"It is worth noting that + clause\" = comment clause",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ is that both groups showed identical improvement rates.\" (what is striking)",
+      "opts": [
+        "What striking",
+        "What is striking",
+        "That is striking",
+        "Striking what"
+      ],
+      "correct": "What is striking",
+      "hint": "\"What is striking is that + clause\" = wh-cleft comment clause",
+      "points": 2
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is a \"list essay\"?",
+      "opts": [
+        "An essay with bullet points instead of paragraphs",
+        "An essay with a series of discrete points lacking the argumentative thread connecting them",
+        "An essay that lists all sources at the end",
+        "An essay with too many body paragraphs"
+      ],
+      "correct": "An essay with a series of discrete points lacking the argumentative thread connecting them",
+      "hint": "Reading 2: \"list essay\"",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ are an important quality of academic writing — they show intellectual honesty about the limits of claims.\" (qualifiers)",
+      "opts": [
+        "Admittedly qualifiers",
+        "Notably, qualifiers",
+        "Qualifiers",
+        "Arguing qualifiers"
+      ],
+      "correct": "Qualifiers",
+      "hint": "Listening 3B: \"qualifiers are not weakness — they are intellectual honesty\"",
+      "points": 1
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ ___ demonstrates a consistent positive effect.\" (formal: large amount of research)",
+      "correct": "A substantial body of research",
+      "hint": "Replace \"loads of research shows\" with formal academic expression",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Smith and colleagues (2019) ___ that three conditions must be met.\" (active — specific authors)",
+      "opts": [
+        "it is argued",
+        "has been argued",
+        "argue",
+        "were arguing"
+      ],
+      "correct": "argue",
+      "hint": "Specific authors: active voice \"Author(s) argue/demonstrate/find\"",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What distinguishes a strong academic claim from a vague one?",
+      "opts": [
+        "Strong claims are longer and more detailed",
+        "Strong claims cannot be contested by anyone",
+        "Strong claims are specific, contestable, and require evidence to support",
+        "Strong claims quote from high-impact journals"
+      ],
+      "correct": "Strong claims are specific, contestable, and require evidence to support",
+      "hint": "Reading 1: \"specific, open to empirical challenge, requires evidence and reasoning\"",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Participants ___ randomly ___ to one of four conditions.\" (methods section passive)",
+      "correct": "were / assigned",
+      "hint": "Methods: passive voice \"were + pp\"",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence has the strongest academic register?",
+      "opts": [
+        "\"Lots of research shows this is true.\"",
+        "\"Evidently, a substantial body of peer-reviewed research demonstrates the effectiveness of this approach.\"",
+        "\"It seems like researchers agree about this.\"",
+        "\"This is really important and well-evidenced.\""
+      ],
+      "correct": "\"Evidently, a substantial body of peer-reviewed research demonstrates the effectiveness of this approach.\"",
+      "hint": "Stance adverb + formal noun phrase + precise reporting verb = best academic register",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A reference to a source of information used to support a claim is called a ___.",
+      "correct": "citation",
+      "hint": "Reading 1: \"proper citation\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"This ___ has important implications for language teaching practice.\" (what the finding is)",
+      "opts": [
+        "raises",
+        "finding",
+        "pattern raises",
+        "pattern"
+      ],
+      "correct": "finding",
+      "hint": "\"This finding has important implications\" = \"this + summary noun + verb\"",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Arguably\" should be used before well-established, uncontested facts.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Arguably\" signals contestable claims — not uncontested facts. Use \"evidently\" for clear evidence.",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"intellectual rigour\" in academic writing?",
+      "opts": [
+        "Using very long and complex sentences",
+        "Saying exactly what can be supported — no more and no less",
+        "Citing as many sources as possible",
+        "Writing in a very formal style"
+      ],
+      "correct": "Saying exactly what can be supported — no more and no less",
+      "hint": "Reading 1: \"intellectual rigour — saying exactly what can be supported\"",
+      "points": 1
+    }
+  ]
+}

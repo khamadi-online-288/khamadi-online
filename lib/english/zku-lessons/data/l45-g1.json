@@ -1,0 +1,522 @@
+{
+  "id": "l45-g1",
+  "moduleNum": 11,
+  "lessonNum": 3,
+  "moduleTitle": "What Would You Do?",
+  "type": "grammar",
+  "title": "Second Conditional: if + Past Simple, would",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Second Conditional — Imaginary and Hypothetical Situations",
+  "grammarNote": "Second Conditional (второе условное предложение) используется для воображаемых, маловероятных или нереальных ситуаций в настоящем или будущем. Оно выражает: ① советы (\"If I were you...\"), ② мечты и желания, ③ маловероятные сценарии. Структура: IF + Past Simple, WOULD + base verb.",
+  "grammarTable": [
+    {
+      "subject": "If clause (condition)",
+      "verb": "if + Past Simple",
+      "short": "if + V-ed",
+      "example": "\"If I had more money...\" / \"If she lived in Almaty...\" / \"If we knew...\""
+    },
+    {
+      "subject": "Result clause",
+      "verb": "would + base verb",
+      "short": "would + inf",
+      "example": "\"...I'd travel.\" / \"...she'd be happier.\" / \"...we'd apply.\""
+    },
+    {
+      "subject": "Negative condition",
+      "verb": "if + didn't/weren't",
+      "short": "if not",
+      "example": "\"If I didn't have to work, I'd study more.\" / \"If she weren't so busy...\""
+    },
+    {
+      "subject": "Negative result",
+      "verb": "wouldn't + base",
+      "short": "wouldn't",
+      "example": "\"If I were rich, I wouldn't stay in this flat.\""
+    },
+    {
+      "subject": "Question form",
+      "verb": "What/How would...?",
+      "short": "would + S?",
+      "example": "\"What would you do if you had the money?\" / \"Would you go if she invited you?\""
+    },
+    {
+      "subject": "\"were\" for all subjects",
+      "verb": "if I/he/she/it WERE",
+      "short": "special form",
+      "example": "\"If I were you...\" / \"If she were here...\" / \"If it were possible...\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Uses of Second Conditional",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "① Imaginary present/future",
+          "example": "\"If I lived in London, I'd go to the theatre every week.\" (I don't live there)"
+        },
+        {
+          "form": "② Advice: If I were you...",
+          "example": "\"If I were you, I'd take the research position.\" (giving advice)"
+        },
+        {
+          "form": "③ Dreams and wishes",
+          "example": "\"If I won the lottery, I'd travel the world.\" (very unlikely)"
+        },
+        {
+          "form": "④ Unlikely hypothetical",
+          "example": "\"If she called me right now, I'd be surprised.\" (unlikely to happen)"
+        }
+      ]
+    },
+    {
+      "title": "Alternatives to \"would\": could, might, should",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "would = certain result",
+          "example": "\"If I had time, I'd definitely go.\" (definite)"
+        },
+        {
+          "form": "could = possible ability",
+          "example": "\"If I had time, I could visit her.\" (it would be possible)"
+        },
+        {
+          "form": "might = uncertain result",
+          "example": "\"If I had time, I might go.\" (perhaps, not certain)"
+        },
+        {
+          "form": "should = recommendation",
+          "example": "\"If you had the chance, you should try it.\" (advice/recommendation)"
+        }
+      ]
+    },
+    {
+      "title": "\"were\" vs \"was\" in Second Conditional",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"were\" = formal/standard",
+          "example": "\"If I WERE you, I'd take it.\" (ALL subjects → were in formal English)"
+        },
+        {
+          "form": "\"was\" = informal/spoken",
+          "example": "\"If I WAS rich, I'd buy a house.\" (acceptable in everyday speech)"
+        },
+        {
+          "form": "\"If I were you\" is fixed",
+          "example": "The expression \"If I were you\" is ALWAYS \"were\" — never \"If I was you\" in formal English."
+        },
+        {
+          "form": "\"If it were possible\" = standard",
+          "example": "\"If it were/was possible, I'd move to Edinburgh.\" (both acceptable)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes with Second Conditional",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"If I would have money...\"",
+          "example": "✅ \"If I HAD money...\" — NEVER use \"would\" in the IF clause!"
+        },
+        {
+          "form": "✗ \"If I have more time, I'd go.\"",
+          "example": "✅ \"If I HAD more time, I'd go.\" — Past Simple (had), not Present Simple."
+        },
+        {
+          "form": "✗ \"I would go if I will have time.\"",
+          "example": "✅ \"I would go if I HAD time.\" — Past Simple in if-clause always."
+        },
+        {
+          "form": "✗ \"If I were you, I will take it.\"",
+          "example": "✅ \"If I were you, I'd (would) take it.\" — always \"would\" in result."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Second Conditional — структура:\nIF + PAST SIMPLE → WOULD + BASE VERB\n\n\"If I HAD the money, I WOULD travel.\"\n\"If she LIVED here, she WOULD be happier.\"\n\n⚠️ Главные ошибки:\n① НИКОГДА не пиши \"would\" в if-части:\n✗ \"If I would have money...\" → ✅ \"If I HAD money...\"\n② В if-части PAST SIMPLE, не Present Simple:\n✗ \"If I have time, I'd go.\" → ✅ \"If I HAD time, I'd go.\"\n\n💡 Специальный случай: \"If I were you\" — ВСЕГДА were\n→ \"If I were you, I'd take the research position.\"\n\n💡 Would может заменяться на could (возможность), might (неопределённость):\n\"If I had time, I COULD visit you.\" / \"I MIGHT go.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Form the Second Conditional.",
+      "text": "If Kamila ___ (have) the money, she ___ (study) in Scotland.",
+      "opts": [
+        "has / will study",
+        "had / would study",
+        "would have / studied",
+        "had / will study"
+      ],
+      "correct": "had / would study",
+      "hint": "If + PAST SIMPLE (had) + WOULD + base verb. \"If she HAD the money, she WOULD STUDY in Scotland.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the Second Conditional.",
+      "text": "\"If I ___ (be) you, I ___ (take) the research position.\" (advice)",
+      "correct": "were / would take",
+      "hint": "\"If I WERE you, I WOULD TAKE the research position.\" — classic 2nd conditional advice. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"If I would have more time, I'd travel more.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"would\" in the if-clause — should be Past Simple \"had\"",
+        "\"I'd\" is wrong",
+        "\"travel more\" is wrong"
+      ],
+      "correct": "\"would\" in the if-clause — should be Past Simple \"had\"",
+      "hint": "✅ \"If I HAD more time, I'd travel more.\" — NEVER \"would\" in the if-clause! ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct modal for an uncertain result.",
+      "text": "\"If I had the money, I ___ go to Edinburgh — but I'm not sure yet.\"",
+      "opts": [
+        "would",
+        "could",
+        "might",
+        "should"
+      ],
+      "correct": "might",
+      "hint": "\"might\" = uncertain result (perhaps). \"If I had the money, I MIGHT go.\" ✅ (\"would\" = certain; \"might\" = uncertain)"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the Second Conditional question.",
+      "text": "\"What ___ you ___ (do) if you had a million tenge?\" (second conditional)",
+      "correct": "would / do",
+      "hint": "\"What WOULD you DO if you had a million tenge?\" ✅ (would + subject + base verb)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"If she ___ (live) in Uralsk, she ___ (know) the city well.\"",
+      "opts": [
+        "lives / will know",
+        "lived / would know",
+        "would live / knew",
+        "lived / will know"
+      ],
+      "correct": "lived / would know",
+      "hint": "If + PAST SIMPLE (lived) + WOULD + base verb. \"If she LIVED in Uralsk, she WOULD KNOW the city well.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"If I have the money, I'd travel.\" is a correct Second Conditional.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"If I HAD the money, I'd travel.\" — use Past Simple \"had\", not Present Simple \"have\"."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct negative Second Conditional.",
+      "text": "\"If I ___ (not / have) to work, I ___ (study) more.\"",
+      "opts": [
+        "don't have / will study",
+        "didn't have / would study",
+        "wouldn't have / studied",
+        "didn't have / studied"
+      ],
+      "correct": "didn't have / would study",
+      "hint": "\"If I DIDN'T HAVE to work, I WOULD STUDY more.\" — Negative if-clause: didn't + base verb. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with \"could\" (possible ability).",
+      "text": "\"If she had a car, she ___ (drive) to Aktobe in four hours.\"",
+      "correct": "could drive",
+      "hint": "\"If she had a car, she COULD DRIVE to Aktobe.\" = it would be possible. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which sentence is correct Second Conditional?",
+      "text": "Choose the correctly formed sentence.",
+      "opts": [
+        "\"If I would have more money, I'd invest it.\"",
+        "\"If I had more money, I would invest it.\"",
+        "\"If I have more money, I would invest it.\"",
+        "\"If I had more money, I will invest it.\""
+      ],
+      "correct": "\"If I had more money, I would invest it.\"",
+      "hint": "\"If I HAD more money, I WOULD INVEST it.\" — Past Simple + would + base verb. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Rewrite using \"If I were you\".",
+      "text": "Choose the correct advice sentence.",
+      "opts": [
+        "\"If I was you, I will take it.\"",
+        "\"If I were you, I would take it.\"",
+        "\"If I be you, I would take it.\"",
+        "\"If I were you, I will take it.\""
+      ],
+      "correct": "\"If I were you, I would take it.\"",
+      "hint": "\"If I WERE you, I WOULD TAKE it.\" — always \"were\" + would. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the hypothetical sentence.",
+      "text": "\"If Rustam ___ (win) the lottery, he ___ (travel) all over Central Asia.\"",
+      "correct": "won / would travel",
+      "hint": "\"If Rustam WON the lottery, he WOULD TRAVEL all over Central Asia.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If she had the money, she ___ study in Scotland.\" Complete.",
+      "opts": [
+        "will",
+        "would",
+        "could to",
+        "might to"
+      ],
+      "correct": "would",
+      "hint": "2nd Conditional: if + Past Simple → WOULD + base verb. \"...she WOULD study.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I ___ you, I'd take the offer.\" (advice)",
+      "opts": [
+        "am",
+        "will be",
+        "were",
+        "be"
+      ],
+      "correct": "were",
+      "hint": "\"If I WERE you\" — special form for advice. \"Were\" for all subjects in formal 2nd Conditional. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"If I would have more time, I'd go.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"If I HAD more time, I'd go.\" — NEVER \"would\" in the if-clause!"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If Amir ___ (not / work), he'd study more.\" Choose correctly.",
+      "opts": [
+        "don't work",
+        "didn't work",
+        "wouldn't work",
+        "doesn't work"
+      ],
+      "correct": "didn't work",
+      "hint": "Negative if-clause: DIDN'T + base verb. \"If Amir DIDN'T WORK, he'd study more.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What would you do if you ___ (have) a million tenge?\"",
+      "correct": "had",
+      "hint": "2nd Conditional: if + PAST SIMPLE. \"...if you HAD a million tenge?\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If she had time, she ___ visit us.\" (it would be possible)",
+      "opts": [
+        "would",
+        "could",
+        "might",
+        "should"
+      ],
+      "correct": "could",
+      "hint": "\"could\" = it would be possible. \"If she had time, she COULD visit us.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If she had time, she ___ visit us.\" (maybe, uncertain)",
+      "opts": [
+        "would definitely",
+        "must",
+        "might",
+        "could definitely"
+      ],
+      "correct": "might",
+      "hint": "\"might\" = uncertain/possible. \"If she had time, she MIGHT visit us.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If he ___ (live) closer, he ___ (not / take) the bus every day.\"",
+      "correct": "lived / wouldn't take",
+      "hint": "\"If he LIVED closer, he WOULDN'T TAKE the bus.\" — Past Simple + wouldn't + base. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Second Conditional is used for:",
+      "opts": [
+        "Real future plans",
+        "Imaginary/hypothetical situations in the present or future",
+        "Past events",
+        "General truths"
+      ],
+      "correct": "Imaginary/hypothetical situations in the present or future",
+      "hint": "2nd Conditional = imaginary, unlikely, or hypothetical. Not real current plans."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I were rich, I wouldn't stay here.\" — \"were\" is used because:",
+      "opts": [
+        "It's Past Continuous",
+        "\"I\" is plural",
+        "Hypothetical subjunctive — imaginary situation",
+        "\"Was\" doesn't exist"
+      ],
+      "correct": "Hypothetical subjunctive — imaginary situation",
+      "hint": "\"were\" in 2nd Conditional = hypothetical subjunctive. \"If I WERE rich\" = imaginary situation. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is the correct Second Conditional?",
+      "opts": [
+        "\"If I have money, I'd travel.\"",
+        "\"If I would have money, I'd travel.\"",
+        "\"If I had money, I'd travel.\"",
+        "\"If I had money, I will travel.\""
+      ],
+      "correct": "\"If I had money, I'd travel.\"",
+      "hint": "\"If I HAD money, I'D TRAVEL.\" — Past Simple + would. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If Zhibek ___ (be) a professional athlete, she ___ (need) more training.\"",
+      "correct": "were / would need",
+      "hint": "\"If Zhibek WERE a professional athlete, she WOULD NEED more training.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Would you travel if you had more money?\" — This is:",
+      "opts": [
+        "A First Conditional question",
+        "A Second Conditional question",
+        "A Third Conditional question",
+        "A direct question"
+      ],
+      "correct": "A Second Conditional question",
+      "hint": "\"if you HAD more money\" = Past Simple → Second Conditional. \"WOULD you travel?\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'd\" in \"I'd take it\" is short for:",
+      "opts": [
+        "I did",
+        "I should",
+        "I would",
+        "I could"
+      ],
+      "correct": "I would",
+      "hint": "\"I'd\" = \"I would\" (contracted form). Very common in spoken and informal English. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If he ___ (not / live) far away, we ___ (see) him more often.\"",
+      "correct": "didn't live / would see",
+      "hint": "\"If he DIDN'T LIVE far away, we WOULD SEE him more often.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is NEVER in the if-clause of a Second Conditional?",
+      "opts": [
+        "Past Simple",
+        "Were",
+        "Would",
+        "Didn't"
+      ],
+      "correct": "Would",
+      "hint": "NEVER \"would\" in the if-clause! ✅ \"If I would have...\" = ✗. Always Past Simple: \"If I had...\" ✅"
+    }
+  ]
+}

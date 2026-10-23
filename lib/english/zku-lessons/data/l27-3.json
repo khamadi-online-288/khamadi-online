@@ -1,0 +1,560 @@
+{
+  "id": "l27-3",
+  "moduleNum": 11,
+  "lessonNum": 3,
+  "moduleTitle": "Conditionals",
+  "type": "grammar",
+  "title": "Zero Conditional: If + Present, Present",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Zero Conditional",
+  "grammarNote": "Нулевой условный (Zero Conditional) — для научных фактов и вещей, которые ВСЕГДА происходят при определённом условии. Стопроцентная уверенность.\n\n📌 Формула: IF + Present Simple → Present Simple\n(оба глагола в Present Simple — не будущее время!)\n\n① Научные факты:\n   \"If you heat water to 100°C, it boils.\" (всегда!)\n   \"If you mix red and blue, you get purple.\"\n\n② Общие истины:\n   \"If students miss classes, their grades suffer.\"\n   \"If you don't sleep enough, you feel tired.\"\n\n③ Инструкции:\n   \"If the printer breaks, call IT support.\"\n\n💡 Можно заменить IF на WHEN — смысл не меняется:\n\"When you heat water to 100°C, it boils.\" = то же самое\n\n⚠️ Отличие от 1st Conditional:\nZero: \"If it rains, the ground gets wet.\" (всегда!)\n1st: \"If it rains, I will stay home.\" (конкретная возможная ситуация)",
+  "grammarTable": [
+    {
+      "subject": "STRUCTURE",
+      "verb": "If + Present Simple,",
+      "short": "→ Present Simple",
+      "example": "Zero conditional: both clauses use present simple."
+    },
+    {
+      "subject": "If you heat water to 100°C,",
+      "verb": "it boils.",
+      "short": "always true",
+      "example": "If you heat water to 100°C, it boils."
+    },
+    {
+      "subject": "If it rains,",
+      "verb": "the ground gets wet.",
+      "short": "always true",
+      "example": "If it rains, the ground gets wet."
+    },
+    {
+      "subject": "Water freezes",
+      "verb": "if the temperature drops below 0°C.",
+      "short": "if-clause 2nd",
+      "example": "Water freezes if the temperature drops below 0°C."
+    },
+    {
+      "subject": "If students study,",
+      "verb": "they improve.",
+      "short": "always true",
+      "example": "If students study, they improve."
+    },
+    {
+      "subject": "NEGATIVE: If you don't eat,",
+      "verb": "you feel hungry.",
+      "short": "negative if-clause",
+      "example": "If you don't eat, you feel hungry."
+    },
+    {
+      "subject": "QUESTION: What happens",
+      "verb": "if you press this button?",
+      "short": "wh- question",
+      "example": "What happens if you press this button?"
+    },
+    {
+      "subject": "NOTE: \"when\" = \"if\"",
+      "verb": "for events that always happen",
+      "short": "when = if",
+      "example": "When it rains, the ground gets wet. (= If it rains...)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Science & nature facts",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "If you mix red and blue,",
+          "example": "you get purple."
+        },
+        {
+          "form": "If plants don't get sunlight,",
+          "example": "they die."
+        },
+        {
+          "form": "If you drop something,",
+          "example": "it falls."
+        },
+        {
+          "form": "If metal gets hot,",
+          "example": "it expands."
+        },
+        {
+          "form": "If you don't water flowers,",
+          "example": "they wilt."
+        },
+        {
+          "form": "If it snows a lot,",
+          "example": "roads become dangerous."
+        }
+      ]
+    },
+    {
+      "title": "Daily life truths",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "If I drink coffee late,",
+          "example": "I can't sleep."
+        },
+        {
+          "form": "If Amir misses breakfast,",
+          "example": "he feels weak."
+        },
+        {
+          "form": "If the class is boring,",
+          "example": "students lose focus."
+        },
+        {
+          "form": "If Kamila reads every day,",
+          "example": "her vocabulary grows."
+        },
+        {
+          "form": "If you speak English daily,",
+          "example": "you become more fluent."
+        },
+        {
+          "form": "If I don't set an alarm,",
+          "example": "I wake up late."
+        }
+      ]
+    },
+    {
+      "title": "Environment & body",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "If bees disappear,",
+          "example": "many plants die too."
+        },
+        {
+          "form": "If the air is humid,",
+          "example": "it feels hotter."
+        },
+        {
+          "form": "If you exercise regularly,",
+          "example": "your heart becomes stronger."
+        },
+        {
+          "form": "If rivers flood,",
+          "example": "villages are at risk."
+        },
+        {
+          "form": "If you cook meat too long,",
+          "example": "it becomes dry."
+        },
+        {
+          "form": "If glass breaks,",
+          "example": "the pieces are sharp."
+        }
+      ]
+    },
+    {
+      "title": "Using \"when\" instead of \"if\"",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "When it rains,",
+          "example": "I take an umbrella. (always happens)"
+        },
+        {
+          "form": "When Zhibek is tired,",
+          "example": "she listens to music."
+        },
+        {
+          "form": "When students arrive late,",
+          "example": "the teacher waits."
+        },
+        {
+          "form": "When the exam starts,",
+          "example": "phones must be off."
+        },
+        {
+          "form": "When I see Gulnaz,",
+          "example": "I feel happy."
+        },
+        {
+          "form": "When the weekend comes,",
+          "example": "Rustam plays football."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Нулевой условный — запомни три вещи:\n\n① IF + Present Simple, Present Simple (нет \"will\"!):\n❌ \"If you heat water, it will boil.\" → это 1st Conditional\n✅ \"If you heat water, it boils.\" → Zero Conditional\n\n② IF = WHEN (взаимозаменяемы):\n\"If you press this button, the light turns on.\" = \"When you press...\"\n\n③ Только для ФАКТОВ (100% уверенность):\n\"If babies are hungry, they cry.\" (закон природы)\n\"If you don't water plants, they die.\" (всегда!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct verb form.",
+      "text": "If water reaches 100°C, it ___.",
+      "opts": [
+        "will boil",
+        "boils",
+        "boiled",
+        "is boiling"
+      ],
+      "correct": "boils",
+      "hint": "Zero conditional: result clause = present simple, NOT will."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct negative form.",
+      "text": "If you ___ (not study), you fail the test.",
+      "correct": "don't study",
+      "hint": "If-clause in zero conditional: present simple negative = don't + base verb."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Identify the zero conditional.",
+      "text": "Which is a zero conditional?",
+      "opts": [
+        "If it rains, I will stay home.",
+        "If it rains, I stay home.",
+        "If it will rain, I stay home.",
+        "If it rained, I stayed home."
+      ],
+      "correct": "If it rains, I stay home.",
+      "hint": "Zero conditional: both clauses use present simple. \"will\" = first conditional."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "Plants die if they ___ (not get) enough sunlight.",
+      "correct": "don't get",
+      "hint": "If-clause after the result clause: present simple negative."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct answer.",
+      "text": "If you mix yellow and blue, you ___ green.",
+      "opts": [
+        "get",
+        "will get",
+        "got",
+        "are getting"
+      ],
+      "correct": "get",
+      "hint": "Scientific fact = zero conditional. Result: present simple."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "Zero conditional uses \"will\" in the result clause.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "False — zero conditional uses present simple in BOTH clauses. \"will\" belongs to first conditional."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete the sentence correctly.",
+      "text": "If I drink too much coffee, I ___ (not sleep) well.",
+      "correct": "don't sleep",
+      "hint": "Result clause of zero conditional: present simple negative."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose when \"when\" can replace \"if\".",
+      "text": "\"When\" can replace \"if\" in a zero conditional when:",
+      "opts": [
+        "the event is a real future plan",
+        "something always happens",
+        "we are talking about the past",
+        "we are giving advice"
+      ],
+      "correct": "something always happens",
+      "hint": "\"When\" replaces \"if\" only for guaranteed, repeated events — not future possibilities."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Find the sentence with if-clause second.",
+      "text": "Which sentence has the \"if\" clause second?",
+      "opts": [
+        "The ground gets wet if it rains.",
+        "If it rains, the ground gets wet.",
+        "If the ground is wet, it rained.",
+        "It rained if the ground was wet."
+      ],
+      "correct": "The ground gets wet if it rains.",
+      "hint": "When if-clause comes second, no comma is needed between the clauses."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with \"if\" or \"when\".",
+      "text": "___ you heat metal, it expands.",
+      "correct": "If",
+      "hint": "\"If\" or \"when\" — both correct here. \"When\" emphasises it always happens; \"if\" introduces the condition."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct verb form.",
+      "text": "If students ___ every day, their English improves.",
+      "opts": [
+        "practise",
+        "will practise",
+        "practised",
+        "are practising"
+      ],
+      "correct": "practise",
+      "hint": "If-clause of zero conditional: present simple → practise (no -s for they)."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "Zero conditional can describe personal habits and routines.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "True — zero conditional covers both universal facts and regular personal habits."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Zero conditional uses ___ in both clauses.",
+      "opts": [
+        "present simple",
+        "will + infinitive",
+        "past simple",
+        "present continuous"
+      ],
+      "correct": "present simple",
+      "hint": "Both the if-clause and the result clause use present simple."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "If you ___ (exercise) regularly, you stay healthy.",
+      "correct": "exercise",
+      "hint": "Zero conditional: if + present simple, present simple."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "If glass breaks, the pieces ___ sharp.",
+      "opts": [
+        "are",
+        "will be",
+        "were",
+        "being"
+      ],
+      "correct": "are",
+      "hint": "Zero conditional result clause: present simple."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"If it rains, I will stay home\" is a zero conditional.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"will stay\" = first conditional, not zero. Zero uses present simple in both clauses."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which zero conditional is correct?",
+      "opts": [
+        "If you heat it, it will melt.",
+        "If you heat it, it melts.",
+        "If you will heat it, it melts.",
+        "If you heated it, it melts."
+      ],
+      "correct": "If you heat it, it melts.",
+      "hint": "Zero conditional: if + present simple, present simple."
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Plants ___ (die) if they don't get sunlight.",
+      "correct": "die",
+      "hint": "Result clause in zero conditional: present simple."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Can \"when\" replace \"if\" in a zero conditional?",
+      "opts": [
+        "Never",
+        "Always",
+        "Yes, when the event always happens",
+        "Only in questions"
+      ],
+      "correct": "Yes, when the event always happens",
+      "hint": "\"When\" replaces \"if\" when the event is a guaranteed, repeated occurrence."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "If you mix red and blue, you ___ purple.",
+      "correct": "get",
+      "hint": "Zero conditional — result clause uses present simple: get."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which example is NOT a zero conditional?",
+      "opts": [
+        "If I eat late, I feel ill.",
+        "If you press play, music starts.",
+        "If she studies, she will pass.",
+        "If bees die, plants suffer."
+      ],
+      "correct": "If she studies, she will pass.",
+      "hint": "\"will pass\" = first conditional."
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Zero conditional describes scientific and universal truths.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Yes — zero conditional is for facts, laws, and things that always happen."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In the reading, Kamila writes her plans:",
+      "opts": [
+        "Every morning",
+        "Every Sunday evening",
+        "Before every class",
+        "When she wakes up"
+      ],
+      "correct": "Every Sunday evening",
+      "hint": "Paragraph 1: \"Every Sunday evening she sits at her desk…\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What does Kamila's mother say about her planning style?",
+      "opts": [
+        "She is too pessimistic",
+        "She is very careful — she makes plans not promises",
+        "She doesn't plan enough",
+        "She uses too many conditionals"
+      ],
+      "correct": "She is very careful — she makes plans not promises",
+      "hint": "Paragraph 3: \"You are very careful. You don't make promises — you make plans.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Amir makes detailed written plans every week like Kamila.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir acts immediately — he doesn't wait or write plans."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"condition\" is:",
+      "opts": [
+        "A fact about science",
+        "A requirement that must be met",
+        "A type of grammar",
+        "A future promise"
+      ],
+      "correct": "A requirement that must be met",
+      "hint": "A condition is something that must be true or done for something else to happen."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She goes jogging ___ the weather is sunny.",
+      "correct": "if",
+      "hint": "Use \"if\" to introduce a condition."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Immediately\" means:",
+      "opts": [
+        "After a long time",
+        "Without delay, right now",
+        "Sometimes",
+        "In the future"
+      ],
+      "correct": "Without delay, right now",
+      "hint": "\"Immediately\" = at once, without waiting."
+    }
+  ]
+}

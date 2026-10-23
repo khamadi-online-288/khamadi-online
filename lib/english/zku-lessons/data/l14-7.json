@@ -1,0 +1,423 @@
+{
+  "id": "l14-7",
+  "moduleNum": 14,
+  "lessonNum": 9,
+  "moduleTitle": "Weather and clothes",
+  "title": "Module 14 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aizat Sarsenova study at WKU?",
+      "opts": [
+        "Architecture",
+        "Economics",
+        "Ecology",
+        "Tourism"
+      ],
+      "correct": "Ecology",
+      "hint": "\"I study Ecology at WKU in Uralsk.\" — Aizat introduces herself in the first paragraph."
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "In Astana, winter temperatures can drop to minus thirty degrees or lower.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"In winter, the temperature drops to MINUS THIRTY DEGREES or even lower.\" — Aizat describes her home city's climate."
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was the weather like when Aizat first arrived in Uralsk in September?",
+      "opts": [
+        "Cold and rainy with grey skies",
+        "Sunny but very windy",
+        "Mild and warm — about eighteen degrees",
+        "Freezing and overcast"
+      ],
+      "correct": "Mild and warm — about eighteen degrees",
+      "hint": "\"When I arrived in September, the weather was mild and surprisingly warm... the temperature was around eighteen degrees.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "The first snow of the season in Uralsk fell on a ___ morning in November.",
+      "correct": "Tuesday",
+      "hint": "\"The first snow fell on a TUESDAY morning — light, dry flakes that covered the ground in just a few hours.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Timur Bekzhanov's favourite season for fashion?",
+      "opts": [
+        "Summer",
+        "Winter",
+        "Spring",
+        "Autumn"
+      ],
+      "correct": "Autumn",
+      "hint": "\"AUTUMN is my favourite season for fashion. The weather is cool and crisp — usually between five and fifteen degrees.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Timur's waterproof jacket is dark green with a hood.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"A long WATERPROOF JACKET — dark NAVY BLUE, with a hood.\" — NOT dark green. Dark navy blue is the correct colour."
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Timur's cream-coloured woollen scarf was knitted by his ___ in Kostanay.",
+      "correct": "grandmother",
+      "hint": "\"It's woollen and very warm. My GRANDMOTHER knitted it for me in Kostanay.\" — Timur tells Aizat about his scarf."
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Timur's main advice for dressing well as a student on a budget?",
+      "opts": [
+        "Buy one very expensive coat and nothing else",
+        "Choose fashionable items in bright colours",
+        "Buy practical, well-made items in neutral colours",
+        "Only wear clothes from sports brands"
+      ],
+      "correct": "Buy practical, well-made items in neutral colours",
+      "hint": "\"I buy practical, well-made clothes in neutral colours — dark blue, grey, white, brown, black — that work in all weather.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the temperature outside when Gulnara and Arsen meet?",
+      "opts": [
+        "Minus two degrees",
+        "Zero degrees",
+        "Minus six degrees",
+        "Plus four degrees"
+      ],
+      "correct": "Minus six degrees",
+      "hint": "\"A thick orange sweater, dark jeans, and my brown leather boots. It's MINUS SIX outside — very cold!\" — Arsen tells Gulnara."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Arsen's wool scarf was bought at a market in Astana.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It's pure wool — my mum bought it at the market in ALMATY.\" — NOT Astana. The scarf comes from the Almaty market."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Arsen checks his weather forecast ___ every morning before he gets out of bed.",
+      "correct": "app",
+      "hint": "\"I check my forecast APP before I even get out of bed.\" — Arsen describes his morning routine to Gulnara."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the weather forecast for Saturday?",
+      "opts": [
+        "Sunny and calm with plus four degrees",
+        "Heavy snow all day with minus ten degrees",
+        "Partly cloudy, minus two degrees, and quite windy",
+        "Foggy and freezing with minus fifteen degrees"
+      ],
+      "correct": "Partly cloudy, minus two degrees, and quite windy",
+      "hint": "\"Saturday is going to be PARTLY CLOUDY with a temperature of MINUS TWO DEGREES. And QUITE WINDY.\" — Zulfiya reads the forecast."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Sunday's forecast is colder and windier than Saturday.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Sunday is MUCH BETTER! SUNNY and CALM — almost no wind. The temperature RISES to PLUS FOUR.\" — Sunday is warmer and calmer, not colder and windier."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the temperature on Saturday morning before noon?",
+      "opts": [
+        "Minus two degrees",
+        "Zero degrees",
+        "Minus five degrees",
+        "Plus four degrees"
+      ],
+      "correct": "Minus five degrees",
+      "hint": "\"Saturday morning is the coldest part — MINUS FIVE before noon. But it gets warmer through the afternoon.\" — Zulfiya explains."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses the adjective correctly?",
+      "opts": [
+        "The weather cold is very today.",
+        "The very cold is weather today.",
+        "The weather is very cold today.",
+        "Today very is the weather cold."
+      ],
+      "correct": "The weather is very cold today.",
+      "hint": "Adjective AFTER \"be\": Subject + be + adjective. \"The weather IS very cold.\" ✅ Adjectives in English always come before the noun OR after \"be\" — never at the end alone."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Three warm coats\" is correct English — adjectives do NOT change for plural nouns.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "TRUE! English adjectives NEVER change for plural. \"three WARM coats\" ✅ — NOT \"three warms coats.\" Only the noun gets -s. This is a key difference from Russian and Kazakh!"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Saturday is ___ than today — the forecast shows minus two versus zero degrees.",
+      "opts": [
+        "more cold",
+        "coldest",
+        "colder",
+        "most cold"
+      ],
+      "correct": "colder",
+      "hint": "cold = 1 syllable → comparative: cold + ER = COLDER. \"Saturday is COLDER THAN today.\" ✅ Short adjectives use -er, NOT \"more cold\" — that's a common mistake!"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Write the comparative form of \"hot\": \"July in Uralsk is ___ than October.\"",
+      "correct": "hotter",
+      "hint": "hot = CVC (h-o-t): 1 syllable, consonant-vowel-consonant → DOUBLE the final consonant + er: hot → HOTT-ER. ✅ \"hoter\" is wrong — the t must be doubled!"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Uralsk is ___ cold ___ Astana in winter\" — Uralsk has milder winters.",
+      "opts": [
+        "more / than",
+        "not as / as",
+        "much / than",
+        "less / that"
+      ],
+      "correct": "not as / as",
+      "hint": "\"Uralsk is NOT AS cold AS Astana.\" ✅ Both AS are required. This structure means Uralsk is less cold — Astana is colder. NOT AS + adjective + AS."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"The most comfortable coat\" is the correct superlative form of the adjective \"comfortable\".",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "TRUE! comfortable = long adjective (4 syllables) → superlative: THE MOST comfortable ✅ NOT \"the comfortablest.\" Long adjectives always use THE MOST, never -est."
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Timur's scarf is long, dark, and woollen. The correct order of adjectives is: \"a beautiful ___ dark woollen scarf\".",
+      "correct": "long",
+      "hint": "Order: opinion → SIZE → colour → material. beautiful (opinion) → LONG (size) → dark (colour) → woollen (material). \"a beautiful LONG dark woollen scarf\" ✅"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence correctly uses a comparative adjective with \"much\"?",
+      "opts": [
+        "Sunday is much better than Saturday.",
+        "Sunday is much more better than Saturday.",
+        "Sunday is the much best day.",
+        "Sunday is much the better of Saturday."
+      ],
+      "correct": "Sunday is much better than Saturday.",
+      "hint": "\"MUCH + comparative\" = намного: \"much BETTER than.\" ✅ \"much more better\" is double comparative — wrong! \"much the better\" is not a standard form."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"mild\" mean when describing weather?",
+      "opts": [
+        "Very cold and difficult to bear",
+        "Extremely hot with no wind",
+        "Not too cold and not too hot; pleasantly moderate",
+        "Wet and rainy with strong winds"
+      ],
+      "correct": "Not too cold and not too hot; pleasantly moderate",
+      "hint": "\"When Aizat arrived in September, the weather was MILD and warm.\" MILD = мягкий, умеренный. The opposite of harsh or extreme."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Relentless\" rain means it rains for a short time and then quickly stops.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "RELENTLESS = never stopping, continuing without rest or pause. \"The wind in Astana is sharp, dry, and RELENTLESS — it never stops.\" The opposite of brief or light."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "A jacket that does not allow water to pass through, even in heavy rain, is called ___.",
+      "correct": "waterproof",
+      "hint": "WATERPROOF = водонепроницаемый. \"Timur wears a long WATERPROOF jacket with a hood on rainy days.\" Water cannot get through it — the key feature for wet weather."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"durable\" mean?",
+      "opts": [
+        "Very fashionable and expensive",
+        "Light and thin — easy to carry",
+        "Strong and long-lasting; able to survive regular use",
+        "Bright and colourful; easy to see in the dark"
+      ],
+      "correct": "Strong and long-lasting; able to survive regular use",
+      "hint": "\"These boots are more DURABLE than any others I have tried.\" DURABLE = прочный, долговечный — built to last a long time without breaking."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"lining\" in a piece of clothing?",
+      "opts": [
+        "The outer layer that protects from rain",
+        "The pattern printed on the fabric",
+        "A layer of material on the inside of a coat or hat",
+        "The zip or buttons on the front"
+      ],
+      "correct": "A layer of material on the inside of a coat or hat",
+      "hint": "\"The hood has a soft fleece LINING on the inside.\" LINING = подкладка — the inner layer that adds warmth and comfort."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Freezing\" weather means it is slightly cool — pleasant for a walk in the park.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "FREEZING = extremely cold — much colder than just \"cool.\" \"My hands are absolutely FREEZING!\" — it means dangerously cold, not slightly cool. Cool is pleasant; freezing is not!"
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The bottom part of a shoe or boot that touches the ground is called the ___.",
+      "correct": "sole",
+      "hint": "SOLE = подошва. \"The thick rubber SOLE of Timur's boots does not slip on icy pavements.\" The sole is the very bottom part — in contact with the ground."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"essential\" mean in \"The scarf, hat and gloves are absolutely essential\"?",
+      "opts": [
+        "Fashionable and stylish in the current season",
+        "Cheap and easy to find in any shop",
+        "Absolutely necessary and very important",
+        "Optional but nice to have in cold weather"
+      ],
+      "correct": "Absolutely necessary and very important",
+      "hint": "\"The scarf, hat and gloves are simple but absolutely ESSENTIAL.\" ESSENTIAL = необходимый, обязательный — you cannot go without it. Without them, even the warmest coat is not enough."
+    }
+  ]
+}

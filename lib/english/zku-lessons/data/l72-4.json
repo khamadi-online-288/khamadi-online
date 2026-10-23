@@ -1,0 +1,246 @@
+{
+  "id": "l72-4",
+  "moduleNum": 14,
+  "lessonNum": 7,
+  "moduleTitle": "Travel & Global Cultures",
+  "title": "Writing: A Travel Essay — \"What Travel Taught Me\"",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Begin with a specific moment or image — where were you, what happened?",
+      "hint": "Start in medias res — a moment, not a general statement"
+    },
+    {
+      "key": "para1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe what surprised or challenged you about the culture or place",
+      "hint": "Be specific — use prepositions carefully (in, at, on, through, across)"
+    },
+    {
+      "key": "para2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Reflect on what this taught you about yourself or your own culture",
+      "hint": "Use: \"I became aware of…\", \"I realised that…\", \"I was proud of… but surprised by…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "End with what you bring back — how travel changed you",
+      "hint": "Use strong, specific language — not \"it was amazing\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "Opening moment: where you were and what was happening (specific, concrete)",
+      "hint": "Use past continuous + past simple for scene-setting"
+    },
+    {
+      "key": "l2",
+      "prefix": "What surprised me most was ",
+      "suffix": ".",
+      "placeholder": "a specific cultural difference or encounter",
+      "hint": "Be precise — a sound, a sight, a conversation, a custom"
+    },
+    {
+      "key": "l3",
+      "prefix": "At first, I was ",
+      "suffix": ".",
+      "placeholder": "your initial reaction — uncomfortable / confused / fascinated",
+      "hint": "Honest reactions make better writing than idealising"
+    },
+    {
+      "key": "l4",
+      "prefix": "In time, I came to realise that ",
+      "suffix": ".",
+      "placeholder": "what you understood about the difference — and about yourself",
+      "hint": "\"In time\" = after a while; use \"came to + infinitive\""
+    },
+    {
+      "key": "l5",
+      "prefix": "Looking back, I am ",
+      "suffix": " by what that experience taught me.",
+      "placeholder": "moved / humbled / changed",
+      "hint": "\"Looking back\" for reflection; use past participle after \"am\""
+    },
+    {
+      "key": "l6",
+      "prefix": "I returned home with ",
+      "suffix": " — something no souvenir could capture.",
+      "placeholder": "a new perspective / a deeper awareness of my own assumptions",
+      "hint": "End with something abstract but meaningful"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Setting the scene",
+      "color": "#003876",
+      "items": [
+        "I was walking along the river when…",
+        "At the airport in Seoul, I noticed that…",
+        "On a train travelling through the mountains…",
+        "In the market, surrounded by unfamiliar sounds and smells…",
+        "By the time I arrived at the border, I already felt…"
+      ]
+    },
+    {
+      "category": "Expressing surprise and adjustment",
+      "color": "#1D9E75",
+      "items": [
+        "What surprised me most was the attitude towards…",
+        "I was unfamiliar with the custom of…",
+        "At first, I was uncomfortable with the idea of…",
+        "In time, I became accustomed to…",
+        "I came to appreciate the way in which…"
+      ]
+    },
+    {
+      "category": "Reflection and insight",
+      "color": "#C9933B",
+      "items": [
+        "Looking back, I realise that…",
+        "The experience made me aware of my own assumptions about…",
+        "I returned home with a deeper respect for…",
+        "Travel taught me that…",
+        "I was proud of my own culture, but also curious about…"
+      ]
+    },
+    {
+      "category": "Preposition-rich travel phrases",
+      "color": "#1B8FC4",
+      "items": [
+        "On arrival in the city, I was struck by…",
+        "By the end of the week, I had become accustomed to…",
+        "In contrast to what I expected, the people were…",
+        "Compared to my own experience, the approach to time was…",
+        "As a result of the trip, I am now more interested in…"
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She arrived ___ the city ___ a hot afternoon ___ July.\"",
+      "opts": [
+        "at / on / in",
+        "in / on / in",
+        "in / at / in",
+        "at / in / on"
+      ],
+      "correct": "in / on / in",
+      "hint": "\"In the city\" (enclosed space); \"on a hot afternoon\"; \"in July\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ arrival ___ the hotel, guests are asked to check in ___ the reception desk.\"",
+      "correct": "On / at / at",
+      "hint": "\"On arrival\"; \"at the hotel\"; \"at the reception desk\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She is very sensitive ___ cultural norms and responsible ___ training the team.\"",
+      "opts": [
+        "about / for",
+        "to / for",
+        "of / about",
+        "to / of"
+      ],
+      "correct": "to / for",
+      "hint": "\"Sensitive to\"; \"responsible for\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The reason ___ misunderstanding is often a lack ___ cultural awareness.\"",
+      "correct": "for / of",
+      "hint": "\"Reason for\"; \"lack of\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"We set off ___ dawn and walked ___ the forest, arriving ___ the summit by noon.\"",
+      "opts": [
+        "at / through / at",
+        "in / across / on",
+        "on / through / at",
+        "at / past / in"
+      ],
+      "correct": "at / through / at",
+      "hint": "\"At dawn\"; \"through the forest\" (enclosed); \"at the summit\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"He is interested about Korean culture\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Interested in\" — not \"interested about\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Travelling ___ different cultures results ___ greater empathy and understanding.\"",
+      "correct": "through / in",
+      "hint": "\"Travel through\" different cultures; \"result in\" = lead to",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the end of the trip, she had changed — she was more open ___ new ideas.\"",
+      "opts": [
+        "By / for",
+        "At / to",
+        "In / of",
+        "On / for"
+      ],
+      "correct": "By / to",
+      "hint": "\"By the end\" = deadline/completion point; \"open to\" new ideas",
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "id": "l39-3",
+  "moduleNum": 5,
+  "lessonNum": 3,
+  "moduleTitle": "Better, Best, Most",
+  "type": "listening",
+  "title": "Comparing Two Flats",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Okay, so I'm looking at two flats. I need your honest opinion.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Tell me everything. Which one is closer to the university?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Flat A is much closer — about eight minutes on foot. Flat B is at least twenty-five minutes by bus.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's already a big difference. What about price?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Flat B is cheaper. About 15% less than Flat A per month. But Flat A includes utilities.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Hmm. With utilities included, Flat A might actually be the better deal.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That's what I was thinking too. And Flat A is significantly larger — two full rooms versus one.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Is it as bright as Flat B? Light is really important.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Flat A is darker, unfortunately. Lower floor, faces north. Flat B has much better natural light.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's a real downside. I struggle more in darker rooms.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Me too. But Flat B is noisier — it's right on the main road.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Which is the quieter neighbourhood overall?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Flat A — by far. It's a residential street. Much more peaceful.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And is the building itself in better condition?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Flat A is newer and better maintained. The landlord seems more reliable too.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Zhibek, it sounds like Flat A is the obvious choice — except for the light.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I know. I just keep thinking — is bright light worth 25 extra minutes of commuting every day?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Probably not. Time is harder to get back than sunlight.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "utilities",
+      "emoji": "💡",
+      "opts": [
+        "мебель",
+        "коммунальные услуги",
+        "налоги",
+        "аренда"
+      ],
+      "correct": "коммунальные услуги"
+    },
+    {
+      "id": "p2",
+      "word": "residential",
+      "emoji": "🏘️",
+      "opts": [
+        "промышленный",
+        "жилой",
+        "коммерческий",
+        "городской"
+      ],
+      "correct": "жилой"
+    },
+    {
+      "id": "p3",
+      "word": "downside",
+      "emoji": "⬇️",
+      "opts": [
+        "преимущество",
+        "недостаток",
+        "особенность",
+        "характеристика"
+      ],
+      "correct": "недостаток"
+    },
+    {
+      "id": "p4",
+      "word": "maintained",
+      "emoji": "🔧",
+      "opts": [
+        "загрязнённый",
+        "обслуживаемый",
+        "старый",
+        "сломанный"
+      ],
+      "correct": "обслуживаемый"
+    },
+    {
+      "id": "p5",
+      "word": "commuting",
+      "emoji": "🚌",
+      "opts": [
+        "пешая прогулка",
+        "ежедневные поездки на работу/учёбу",
+        "путешествие",
+        "пробки"
+      ],
+      "correct": "ежедневные поездки на работу/учёбу"
+    },
+    {
+      "id": "p6",
+      "word": "deal",
+      "emoji": "🤝",
+      "opts": [
+        "проблема",
+        "выгодная сделка",
+        "договор",
+        "скидка"
+      ],
+      "correct": "выгодная сделка"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Flat A is closer to the university than Flat B.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Flat A is cheaper than Flat B per month.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Flat A is larger than Flat B.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Flat A has better natural light than Flat B.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Flat B is on a quieter street than Flat A.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila recommends Flat A despite the lighting issue.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏠",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Looking for a flat — comparing Flat A and Flat B"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "💡",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Helping Zhibek decide — asking key comparison questions"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Flat A is much closer to the university — only 8 minutes on foot.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s2",
+      "text": "Asks if Flat A is as bright as Flat B — natural light is important.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Flat B has much better natural light but is noisier — on the main road.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "Concludes that Flat A is the obvious choice except for the lighting.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Flat A's building is newer, better maintained, and the landlord is more reliable.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "Says \"time is harder to get back than sunlight\" — supports Flat A.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How far is Flat A from the university?",
+      "opts": [
+        "25 minutes by bus",
+        "8 minutes on foot",
+        "15 minutes on foot",
+        "20 minutes by bus"
+      ],
+      "correct": "8 minutes on foot",
+      "hint": "\"Flat A is much closer — about eight minutes on foot.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which flat includes utilities in the rent?",
+      "opts": [
+        "Flat B",
+        "Flat A",
+        "Both",
+        "Neither"
+      ],
+      "correct": "Flat A",
+      "hint": "\"Flat A includes utilities.\" — making it potentially the better deal."
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Flat A has better natural light than Flat B.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Flat B has much better natural light.\" Flat A faces north and is darker."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which flat is on a quieter street?",
+      "opts": [
+        "Flat A",
+        "Flat B",
+        "Both are equally quiet",
+        "Neither is quiet"
+      ],
+      "correct": "Flat A",
+      "hint": "\"Flat A — by far. It's a residential street. Much more peaceful.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Flat B is about ___ % cheaper than Flat A per month.",
+      "correct": "15",
+      "hint": "\"Flat B is about 15% less than Flat A per month.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says the light in Flat B is worth the 25-minute commute.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Probably not. Time is harder to get back than sunlight.\" — she supports Flat A."
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about the landlord of Flat A?",
+      "opts": [
+        "Less reliable",
+        "More reliable",
+        "Same as Flat B",
+        "Not mentioned"
+      ],
+      "correct": "More reliable",
+      "hint": "\"The landlord seems more reliable too.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main advantage of Flat B over Flat A?",
+      "opts": [
+        "Closer to university",
+        "Quieter street",
+        "Better natural light",
+        "Cheaper overall"
+      ],
+      "correct": "Better natural light",
+      "hint": "\"Flat B has much better natural light.\" That's the only significant advantage mentioned."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Flat A is much ___ than Flat B.\" Which comparative is correct?",
+      "opts": [
+        "close",
+        "closer",
+        "the closest",
+        "more close"
+      ],
+      "correct": "closer",
+      "hint": "\"close\" is a one-syllable adjective → add -er: closer. \"Much closer than...\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Flat B has ___ better natural light.\" Which intensifier fits?",
+      "correct": "much",
+      "hint": "\"much\" intensifies comparatives: \"much better\", \"much closer\", \"much more expensive\". Stronger than \"a bit\"."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Is it ___ as Flat B?\" — comparing equal quality.",
+      "opts": [
+        "as bright",
+        "brighter than",
+        "the brightest",
+        "bright as"
+      ],
+      "correct": "as bright",
+      "hint": "\"as + adjective + as\" = equal comparison. \"Is it AS BRIGHT AS Flat B?\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Flat A is the ___ neighbourhood overall.\" Use superlative.",
+      "opts": [
+        "quiet",
+        "quieter",
+        "more quiet",
+        "quietest"
+      ],
+      "correct": "quietest",
+      "hint": "Superlative of \"quiet\": quietest (short adjective + -est). \"the quietest neighbourhood.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Flat B is more noisier than Flat A\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Flat B is noisier than Flat A.\" — \"noisy\" ends in -y → drop y + ier. NEVER \"more noisier\"!"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Flat A is ___ better deal.\" Choose the article.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "no article"
+      ],
+      "correct": "the",
+      "hint": "\"the better deal\" — we use \"the\" before comparatives when comparing TWO specific things. \"the better of the two\"."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Flat A is ___ maintained than Flat B.\" Use comparative.",
+      "correct": "better",
+      "hint": "\"good → better\" (irregular). \"Flat A is better maintained.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Flat A is by far the ___ choice.\" Use superlative.",
+      "opts": [
+        "obvious",
+        "more obvious",
+        "most obvious",
+        "obviousest"
+      ],
+      "correct": "most obvious",
+      "hint": "\"obvious\" is a long adjective (3 syllables) → superlative: \"the most obvious\". ✅"
+    }
+  ]
+}

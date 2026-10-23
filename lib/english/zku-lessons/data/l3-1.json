@@ -1,0 +1,295 @@
+{
+  "id": "l3-1",
+  "moduleNum": 3,
+  "lessonNum": 1,
+  "moduleTitle": "My things",
+  "title": "My room at WKU",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Aizhan and I live in the WKU student dormitory. My room is on the fourth floor — Room 412. It is a small but comfortable room. I share it with my roommate Zarina. Our room has everything we need for studying and sleeping. I am very happy with my room!",
+    "This is my desk. It is next to the window, so I have good natural light when I study. On this desk, I have my laptop, my notebook, three pens, and a dictionary. That dictionary is very important — it is an English-Kazakh dictionary and I use it every day. My desk is always clean and organised.",
+    "These are my textbooks on the shelf above the desk. I have six textbooks this semester: English, Mathematics, Physics, Computer Science, History of Kazakhstan, and Physical Education. That big red book is my English textbook — it is my favourite! Those small books are my notebooks for each subject.",
+    "This is my wardrobe. It is not very big, but it is enough for my clothes. I have two pairs of jeans, four t-shirts, two sweaters, one jacket, and my formal clothes for university presentations. That blue sweater is my favourite — my grandmother made it for me. Those shoes under the wardrobe are my everyday sneakers.",
+    "On my bedside table, I have three important things. This is my phone charger — I never forget it! That small plant is a cactus. My mother gave it to me before I left home. She said: \"This cactus is strong — just like you!\" I love this little cactus. And those headphones are for listening to music and online English classes.",
+    "I also have a small mirror on the wall and a poster of Kazakhstan above my bed. That poster has a beautiful photo of the Altai mountains. These mountains are in East Kazakhstan and they are amazing. Zarina has a poster of Paris on her side of the room. We have very different tastes!",
+    "My favourite object in this room is my laptop. This laptop is two years old but it still works perfectly. I use it for everything — watching lectures, writing essays, video calls with my family, and studying English grammar. Without this laptop, university life would be very difficult for me.",
+    "Every morning, I make my bed and organise my desk before breakfast. My mother taught me this habit. She always says: \"A clean room means a clean mind!\" I agree with her. When my room is tidy, I can concentrate better and study more effectively. I am proud of my little room — it is my home away from home!"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Dias",
+      "text": "Aizhan, show me your room! I want to see how you live.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Okay, look! This is my room — Room 412. Not big, but cosy!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Oh, nice! What is that on your desk?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "This is my laptop. And that big book is my English dictionary.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "What are those books on the shelf?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "These are my textbooks — one for each subject. That red one is English.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "And what is that small green thing on the table?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Ha! That is my cactus. My mum gave it to me. I call it \"Strong\"!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "That's so cute! What is that poster on the wall?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Those are the Altai mountains! Beautiful, right? I love Kazakhstan.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dias",
+      "text": "Your room looks really comfortable. My room is very messy!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Ha! Clean room, clean mind — my mother's rule. Try it!",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "What is this?",
+      "ru": "Что это?",
+      "context": "What is that on your desk?"
+    },
+    {
+      "phrase": "This is my...",
+      "ru": "Это мой/моя/моё...",
+      "context": "This is my laptop."
+    },
+    {
+      "phrase": "That is...",
+      "ru": "Вон то — это...",
+      "context": "That big book is my dictionary."
+    },
+    {
+      "phrase": "These are my...",
+      "ru": "Вот это мои...",
+      "context": "These are my textbooks."
+    },
+    {
+      "phrase": "Those are...",
+      "ru": "Вон те — это...",
+      "context": "Those are the Altai mountains!"
+    },
+    {
+      "phrase": "next to the window",
+      "ru": "рядом с окном",
+      "context": "My desk is next to the window."
+    },
+    {
+      "phrase": "on the shelf",
+      "ru": "на полке",
+      "context": "My textbooks are on the shelf."
+    },
+    {
+      "phrase": "I share it with...",
+      "ru": "Я делю это с...",
+      "context": "I share my room with Zarina."
+    },
+    {
+      "phrase": "I use it for...",
+      "ru": "Я использую это для...",
+      "context": "I use my laptop for everything."
+    },
+    {
+      "phrase": "home away from home",
+      "ru": "дом вдали от дома",
+      "context": "It is my home away from home!"
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "wardrobe",
+      "emoji": "🚪",
+      "opts": [
+        "кровать",
+        "стол",
+        "шкаф",
+        "полка"
+      ],
+      "correct": "шкаф"
+    },
+    {
+      "id": "p2",
+      "word": "shelf",
+      "emoji": "📚",
+      "opts": [
+        "полка",
+        "окно",
+        "зеркало",
+        "стена"
+      ],
+      "correct": "полка"
+    },
+    {
+      "id": "p3",
+      "word": "charger",
+      "emoji": "🔌",
+      "opts": [
+        "наушники",
+        "зарядное устройство",
+        "ноутбук",
+        "кабель"
+      ],
+      "correct": "зарядное устройство"
+    },
+    {
+      "id": "p4",
+      "word": "organised",
+      "emoji": "📋",
+      "opts": [
+        "грязный",
+        "тихий",
+        "организованный",
+        "сломанный"
+      ],
+      "correct": "организованный"
+    },
+    {
+      "id": "p5",
+      "word": "concentrate",
+      "emoji": "🎯",
+      "opts": [
+        "расслабляться",
+        "спать",
+        "сосредоточиться",
+        "играть"
+      ],
+      "correct": "сосредоточиться"
+    },
+    {
+      "id": "p6",
+      "word": "cosy",
+      "emoji": "🏡",
+      "opts": [
+        "холодный",
+        "уютный",
+        "большой",
+        "тёмный"
+      ],
+      "correct": "уютный"
+    }
+  ],
+  "task1Bank": [
+    "fourth",
+    "Zarina",
+    "window",
+    "dictionary",
+    "cactus",
+    "Altai",
+    "two years",
+    "red"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan's room is on the ___ floor of the dormitory.",
+      "correct": "fourth"
+    },
+    {
+      "id": "t2",
+      "question": "Aizhan shares her room with her roommate ___.",
+      "correct": "Zarina"
+    },
+    {
+      "id": "t3",
+      "question": "Aizhan's desk is next to the ___.",
+      "correct": "window"
+    },
+    {
+      "id": "t4",
+      "question": "Aizhan uses an English-Kazakh ___ every day.",
+      "correct": "dictionary"
+    },
+    {
+      "id": "t5",
+      "question": "Aizhan's mother gave her a small ___ plant.",
+      "correct": "cactus"
+    },
+    {
+      "id": "t6",
+      "question": "The poster above Aizhan's bed shows the ___ mountains.",
+      "correct": "Altai"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Aizhan's room is on the second floor.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "Aizhan's desk is next to the window for natural light.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Zarina has a poster of Kazakhstan on her side of the room.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Aizhan's laptop is two years old.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "Aizhan makes her bed every morning before breakfast.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "Aizhan has seven textbooks this semester.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

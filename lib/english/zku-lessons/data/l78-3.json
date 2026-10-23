@@ -1,0 +1,428 @@
+{
+  "id": "l78-3",
+  "moduleNum": 20,
+  "lessonNum": 3,
+  "moduleTitle": "Law, Rights & Justice",
+  "title": "Justice Delayed: A Conversation About the Legal System",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Priya",
+      "text": "My cousin has been waiting three years for her case to go to trial. Three years. She was the victim of a serious crime and she still hasn't had a day in court.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "That's extremely common. The courts in most countries are severely backlogged. It's one of the biggest failures of modern justice systems — the principle that justice must be done, but also that it must be done in a timely way.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "There's even a phrase for it — \"justice delayed is justice denied.\" My cousin has had to live with this unresolved for three years. She's not allowed to move on properly. It affects her mental health, her work, everything.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "And you have to think about the accused as well. If someone is innocent, being under indictment for three years is essentially a punishment before any conviction. That's a fundamental problem.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "I hadn't thought about it from that angle. What causes the delays? Is it just funding?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "Funding is a big part of it — more judges, more court staff, more legal aid lawyers would reduce backlogs significantly. But there are also structural issues. Complex cases require extensive pre-trial processes: disclosure of evidence, expert witnesses, legal argument over admissibility. And both defence and prosecution are entitled to adequate time to prepare.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "What about the accused's right to a fair trial? That should be protected, surely.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "Absolutely. The accused must be presumed innocent until proven guilty. They have the right to know the charges against them, to have access to the evidence, and to have a lawyer. In theory these rights are guaranteed. In practice, access to a good lawyer depends heavily on what you can afford, which undermines the whole idea of equal justice.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "So if you're wealthy, you can hire a better lawyer and get a better outcome?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "That's unfortunately very often the case. Research consistently shows that quality of legal representation correlates strongly with outcomes. Public defenders are typically much more overworked than private lawyers — they may have hundreds of clients at a time, which means they can't give adequate attention to each one.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "That seems like a structural injustice built into the system.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "It is. And it's compounded by other inequalities — in how police treat different communities, in the discretion prosecutors have in deciding what to charge, in how juries are composed. The law on paper can be neutral; the law in practice rarely is.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "What would genuine reform look like?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "More investment in legal aid. More use of alternative dispute resolution — mediation and arbitration — for cases that don't need to go to criminal court. Mandatory time limits on proceedings. Diversification of the judiciary. Reform of policing practices. And honestly — a political class that actually believes in a just legal system rather than just in winning elections by being \"tough on crime.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Priya",
+      "text": "That last one seems like the hardest to achieve.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sasha",
+      "text": "Without a doubt. But it's the one that makes all the others possible.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "justice delayed is justice denied",
+      "ru": "правосудие, отложенное в долгий ящик — это отказ в правосудии",
+      "context": "If justice takes too long, it fails to be justice at all"
+    },
+    {
+      "phrase": "presumed innocent",
+      "ru": "считается невиновным",
+      "context": "A legal principle: everyone is innocent until proven guilty"
+    },
+    {
+      "phrase": "public defender",
+      "ru": "государственный защитник",
+      "context": "A lawyer paid by the state to represent defendants who cannot afford private counsel"
+    },
+    {
+      "phrase": "alternative dispute resolution",
+      "ru": "альтернативное урегулирование споров",
+      "context": "Methods like mediation and arbitration that resolve conflicts outside court"
+    },
+    {
+      "phrase": "under indictment",
+      "ru": "под следствием / обвиняемый",
+      "context": "Formally charged with a crime but not yet tried"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "backlog",
+      "ipa": "/ˈbæklɒɡ/",
+      "pos": "noun",
+      "ru": "накопившиеся дела / задержка",
+      "kz": "жинақталған жұмыс",
+      "emoji": "📋",
+      "definition": "an accumulation of work or cases that have not yet been dealt with",
+      "example": "\"Courts in most countries are severely backlogged — cases wait years for a hearing.\"",
+      "collocations": [
+        "court backlog",
+        "clear the backlog",
+        "reduce the backlog"
+      ]
+    },
+    {
+      "en": "indictment",
+      "ipa": "/ɪnˈdaɪtmənt/",
+      "pos": "noun",
+      "ru": "обвинительное заключение",
+      "kz": "айыпталым",
+      "emoji": "📄",
+      "definition": "a formal accusation that a person has committed a serious crime",
+      "example": "\"Being under indictment for three years is essentially a punishment before conviction.\"",
+      "collocations": [
+        "under indictment",
+        "face an indictment",
+        "issue an indictment"
+      ]
+    },
+    {
+      "en": "admissibility",
+      "ipa": "/ədˌmɪsəˈbɪlɪti/",
+      "pos": "noun",
+      "ru": "допустимость (доказательств)",
+      "kz": "жарамдылық",
+      "emoji": "✅",
+      "definition": "the quality of evidence being acceptable for use in a court of law",
+      "example": "\"Legal argument over the admissibility of evidence is one cause of pre-trial delay.\"",
+      "collocations": [
+        "admissibility of evidence",
+        "rule on admissibility",
+        "challenge admissibility"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "backlog",
+      "emoji": "📋",
+      "opts": [
+        "an accumulation of undealt-with cases",
+        "a shortage of legal staff",
+        "a type of court procedure",
+        "an appeal against a conviction"
+      ],
+      "correct": "an accumulation of undealt-with cases"
+    },
+    {
+      "id": "p2",
+      "word": "presumed innocent",
+      "emoji": "⚖️",
+      "opts": [
+        "treated as not guilty until proven otherwise",
+        "released from custody automatically",
+        "assumed to be guilty until proven otherwise",
+        "given bail automatically"
+      ],
+      "correct": "treated as not guilty until proven otherwise"
+    }
+  ],
+  "task1Bank": [
+    "Priya",
+    "Sasha",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Whose cousin has been waiting three years for trial?",
+      "correct": "Priya"
+    },
+    {
+      "id": "t2",
+      "question": "Who explains that quality of legal representation correlates with outcomes?",
+      "correct": "Sasha"
+    },
+    {
+      "id": "t3",
+      "question": "Who describes the situation as a \"structural injustice\"?",
+      "correct": "Priya"
+    },
+    {
+      "id": "t4",
+      "question": "Who proposes investment in legal aid and mandatory time limits as reform measures?",
+      "correct": "Sasha"
+    },
+    {
+      "id": "t5",
+      "question": "Who agrees that the political class is the hardest obstacle to reform?",
+      "correct": "Both"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Sasha says delays in justice only harm victims, not accused persons.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Public defenders typically have far fewer clients than private lawyers.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Sasha argues that the law on paper may be neutral, but the law in practice rarely is.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "Sasha suggests that alternative dispute resolution could reduce court backlogs.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Priya had already considered the impact of delays on the accused before the conversation.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What effect has the three-year wait had on Priya's cousin?",
+      "opts": [
+        "She has received a settlement from the court",
+        "It has affected her mental health, work, and ability to move on",
+        "She has had to pay large legal fees",
+        "She has had to move to another country"
+      ],
+      "correct": "It has affected her mental health, work, and ability to move on",
+      "hint": "Priya: \"affects her mental health, her work, everything\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Sasha say about being under indictment for three years?",
+      "opts": [
+        "It is an appropriate part of the justice process",
+        "It is essentially a punishment before conviction for potentially innocent people",
+        "It helps defendants prepare their case properly",
+        "It is unavoidable in the current system"
+      ],
+      "correct": "It is essentially a punishment before conviction for potentially innocent people",
+      "hint": "Sasha: \"essentially a punishment before any conviction\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does research show about the quality of legal representation?",
+      "opts": [
+        "Quality of legal aid is equal to private representation",
+        "Quality of representation correlates strongly with legal outcomes",
+        "Public defenders win more cases than private lawyers",
+        "Better representation has no effect on outcomes"
+      ],
+      "correct": "Quality of representation correlates strongly with legal outcomes",
+      "hint": "Sasha: \"quality of legal representation correlates strongly with outcomes\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "Which reform does Sasha NOT suggest?",
+      "opts": [
+        "More investment in legal aid",
+        "Abolishing all criminal courts",
+        "Mandatory time limits on proceedings",
+        "Alternative dispute resolution"
+      ],
+      "correct": "Abolishing all criminal courts",
+      "hint": "Sasha lists specific reforms — abolishing courts is not among them",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Sasha argues that inequalities in the justice system are only related to funding.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Sasha: also mentions policing, prosecutorial discretion, jury composition",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Sasha says political will for genuine reform is the hardest thing to achieve.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Sasha: \"Without a doubt. But it's the one that makes all the others possible.\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The accused ___ be presumed innocent until proven guilty.\" (legal principle — must)",
+      "opts": [
+        "should",
+        "must",
+        "may",
+        "would"
+      ],
+      "correct": "must",
+      "hint": "\"Must be\" = strong legal obligation/requirement",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Both prosecution and defence ___ (= have the right to) adequate time to prepare their case.\"",
+      "correct": "are entitled to",
+      "hint": "\"Are entitled to + noun\" = have a legal right to",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Judges ___ disclose any personal interest in a case — it is prohibited.\" (must not)",
+      "opts": [
+        "must not",
+        "should not",
+        "need not",
+        "would not"
+      ],
+      "correct": "must not",
+      "hint": "\"Must not\" = prohibition in legal/professional context",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A \"court backlog\" means there are…",
+      "opts": [
+        "Too many judges for the number of cases",
+        "Cases waiting to be heard that have accumulated over time",
+        "An appeal process blocking new cases",
+        "More lawyers than are needed"
+      ],
+      "correct": "Cases waiting to be heard that have accumulated over time",
+      "hint": "Sasha: \"courts are severely backlogged\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "Being \"under indictment\" means…",
+      "opts": [
+        "Having been convicted and sentenced",
+        "Formally accused but not yet tried",
+        "Having been released on bail",
+        "Being investigated but not yet charged"
+      ],
+      "correct": "Formally accused but not yet tried",
+      "hint": "Sasha: \"being under indictment for three years\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"Alternative ___ resolution\" refers to methods like mediation and arbitration outside court.",
+      "correct": "dispute",
+      "hint": "Sasha: \"alternative dispute resolution\"",
+      "points": 1
+    }
+  ]
+}

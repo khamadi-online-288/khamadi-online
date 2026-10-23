@@ -1,0 +1,429 @@
+{
+  "id": "l16-1",
+  "moduleNum": 16,
+  "lessonNum": 1,
+  "moduleTitle": "A1 Final Exam",
+  "title": "Part 1 — Reading & Use of English",
+  "type": "test",
+  "xp": 300,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Samal Bekova study at WKU?",
+      "opts": [
+        "Medicine",
+        "Architecture",
+        "Economics",
+        "Geography"
+      ],
+      "correct": "Economics",
+      "hint": "\"Samal Bekova studies ECONOMICS at WKU in Uralsk — she is in her second year.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Samal has lectures on Tuesday afternoons.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"On TUESDAY AFTERNOONS, Samal studies in the library.\" — she has lectures on Monday, Wednesday, and Friday, not Tuesday."
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Samal do on Thursday evenings?",
+      "opts": [
+        "Studies in the library",
+        "Goes to the Student Music Club",
+        "Visits the market with Aigerim",
+        "Has a lecture on Economics"
+      ],
+      "correct": "Goes to the Student Music Club",
+      "hint": "\"On Thursday evenings, Samal goes to the WKU Student Music Club — she plays the guitar a little.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Samal comes from ___, a city on the Caspian Sea in western Kazakhstan.",
+      "correct": "Aktau",
+      "hint": "\"Samal Bekova comes from AKTAU, on the Caspian Sea in western Kazakhstan.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was the weather like last Saturday when Samal and Aigerim went out?",
+      "opts": [
+        "Sunny and warm, about 18 degrees",
+        "Heavy snow and very icy",
+        "Cold and windy — minus three degrees",
+        "Mild and partly cloudy"
+      ],
+      "correct": "Cold and windy — minus three degrees",
+      "hint": "\"Last Saturday was cold (MINUS THREE DEGREES) and windy. They wore their warmest coats and scarves.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Samal is going to apply for a scholarship next October.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"She is going to apply for a scholarship in SEPTEMBER.\" — Not October. The deadline is in September."
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "After she graduates, Samal wants to work as an economist in her hometown of ___.",
+      "correct": "Aktau",
+      "hint": "\"After graduation, Samal is going to work in AKTAU and help her community.\" — she is going back to where she came from."
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Samal is planning to leave Kazakhstan after she finishes university.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"She is NOT going to leave Kazakhstan — her country needs people like her.\" — clear statement of her intention to stay."
+    },
+    {
+      "id": "q09",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct form: \"There ___ a beautiful park next to the university.\"",
+      "opts": [
+        "are",
+        "have",
+        "is",
+        "be"
+      ],
+      "correct": "is",
+      "hint": "\"There IS a park\" — singular noun (a park) → There IS. \"There ARE parks\" → plural. Module 8: there is / there are."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She can plays the guitar very well\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "FALSE! After CAN, always use the BASE form (no -s, no -ing, no -ed). ✅ \"She CAN PLAY the guitar.\" ❌ \"She can plays\" — Module 5: can/can't."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Samal's friend asks: \"How ___ students are in your Economics group?\"",
+      "opts": [
+        "much",
+        "many",
+        "any",
+        "some"
+      ],
+      "correct": "many",
+      "hint": "\"How MANY students?\" — students = countable plural → MANY. \"How MUCH water?\" → uncountable. Module 7: how much / how many."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Last Saturday, Samal and Aigerim ___ to the market and ___ apples.",
+      "opts": [
+        "go / buy",
+        "goes / buys",
+        "walked / bought",
+        "are going / are buying"
+      ],
+      "correct": "walked / bought",
+      "hint": "\"Last Saturday\" = Past Simple signal. walk → walked ✅, buy → bought (irregular!). Module 11: Past Simple."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Yesterday was cold, but today is ___ than yesterday.",
+      "opts": [
+        "more warm",
+        "warmest",
+        "warmer",
+        "most warm"
+      ],
+      "correct": "warmer",
+      "hint": "warm = short adjective (1 syllable) → comparative: warm + ER = WARMER. ✅ Comparing 2 days → comparative. Module 14: comparative adjectives."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Samal ___ (study) in the library every Tuesday afternoon. It is her routine.",
+      "correct": "studies",
+      "hint": "Present Simple for routines/habits. She (3rd person singular) + study → STUDIES (consonant + y → -ies). \"Every Tuesday\" = routine. Module 4: Present Simple."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ there any students in the lecture hall?\" — \"No, ___ aren't any.\"",
+      "opts": [
+        "Is / it",
+        "Are / there",
+        "Have / they",
+        "Is / there"
+      ],
+      "correct": "Are / there",
+      "hint": "\"ARE there any students?\" (plural) → \"No, there AREN'T any.\" ✅ Module 8: questions and negatives with there is/are."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"What are you doing right now?\" is the correct way to ask about a current action.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "TRUE! \"What ARE you DOING right now?\" — Present Continuous for actions happening NOW. am/is/are + verb-ing. Module 9: Present Continuous."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Samal ___ (not / leave) Kazakhstan after graduation — she wants to stay and work there.",
+      "correct": "isn't going to leave",
+      "hint": "Future plan (already decided) → GOING TO. Negative 3rd person: ISN'T going to + base verb. \"She ISN'T GOING TO LEAVE.\" ✅ Module 15: going to."
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Last year, the winter ___ very harsh in Uralsk. The temperature ___ minus twenty.",
+      "opts": [
+        "is / is",
+        "was / was",
+        "were / were",
+        "are / are"
+      ],
+      "correct": "was / was",
+      "hint": "\"Last year\" = past. \"The winter WAS harsh.\" \"The temperature WAS minus twenty.\" — singular subjects → WAS. Module 10: was / were."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "January is ___ month of the year in Uralsk — temperatures can reach minus thirty.",
+      "opts": [
+        "colder",
+        "cold",
+        "most cold",
+        "the coldest"
+      ],
+      "correct": "the coldest",
+      "hint": "Superlative (among ALL months) → THE + adjective + EST: THE COLDEST. ✅ Not comparative (\"colder\") — we are talking about the extreme, not comparing 2. Module 14."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I think it will rain tomorrow\" uses \"will\" correctly for a general prediction.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "TRUE! \"I THINK it WILL rain\" = general opinion/prediction without specific evidence → WILL ✅. Compare: \"Look at those clouds — it's GOING TO rain!\" (with evidence). Module 15: will vs going to."
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"breathtaking\" mean?",
+      "opts": [
+        "Very old and historically important",
+        "Extremely impressive or beautiful",
+        "Slightly interesting to look at",
+        "Very warm and comfortable"
+      ],
+      "correct": "Extremely impressive or beautiful",
+      "hint": "\"The view from Shymbulak was BREATHTAKING — the whole city far below.\" Module 12: travel vocabulary."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"affordable\" mean?",
+      "opts": [
+        "Too expensive for most people",
+        "Cheap enough that most people can pay for it",
+        "Available only to wealthy people",
+        "Free of charge with no payment needed"
+      ],
+      "correct": "Cheap enough that most people can pay for it",
+      "hint": "\"4,500 tenge per night — that's very AFFORDABLE!\" AFFORDABLE = доступный по цене. Module 13 & 15 vocabulary."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "A \"deadline\" is the earliest possible time to submit something.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "FALSE! A DEADLINE is the LATEST time — the final limit. \"The scholarship deadline is October 15th.\" After the deadline, it's too late. Module 15 vocabulary."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The part of a shoe or boot that touches the ground is called the ___.",
+      "correct": "sole",
+      "hint": "SOLE = подошва. \"The thick rubber SOLE of the boots does not slip on icy pavements.\" Module 14: weather and clothes vocabulary."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"contribute\" mean?",
+      "opts": [
+        "To take money from a shared fund",
+        "To leave a place and never return",
+        "To give something to help achieve a shared goal",
+        "To compete against someone for a prize"
+      ],
+      "correct": "To give something to help achieve a shared goal",
+      "hint": "\"Samal wants to CONTRIBUTE to her community in Aktau.\" = вносить вклад. Module 15 vocabulary."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is an \"internship\"?",
+      "opts": [
+        "A final exam at the end of a university course",
+        "A period of practical work experience at a company",
+        "A type of academic scholarship",
+        "A government certificate for professionals"
+      ],
+      "correct": "A period of practical work experience at a company",
+      "hint": "\"After I graduate, I am going to do a one-year INTERNSHIP at the hospital.\" Module 15 vocabulary."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Relentless\" rain means it rains occasionally and stops frequently.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "FALSE! RELENTLESS = never stopping, continuing without rest. \"The wind in Astana is relentless — it never stops.\" Module 14 vocabulary."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"consistent\" mean?",
+      "opts": [
+        "Changing your approach every single day",
+        "Doing the same thing reliably over time",
+        "Finishing something very quickly",
+        "Making one big effort and then stopping"
+      ],
+      "correct": "Doing the same thing reliably over time",
+      "hint": "\"Study consistently — not perfectly, but regularly every day.\" CONSISTENT = последовательный. Module 15 vocabulary."
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "After all her shopping, Nursultan calculated: 15,000 − 11,450 = ___ tenge remaining.",
+      "correct": "3,550",
+      "hint": "15,000 minus 11,450 = 3,550 tenge. Module 13: numbers and money. \"Remaining budget after all purchases: 3,550 tenge.\""
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"essential\" mean in \"A good coat and boots are essential in a Uralsk winter\"?",
+      "opts": [
+        "Nice to have but not necessary",
+        "Fashionable and stylish",
+        "Absolutely necessary and cannot be done without",
+        "Expensive and hard to find"
+      ],
+      "correct": "Absolutely necessary and cannot be done without",
+      "hint": "\"The scarf, hat and gloves are absolutely ESSENTIAL.\" = обязательный, необходимый. Module 14 vocabulary."
+    }
+  ]
+}

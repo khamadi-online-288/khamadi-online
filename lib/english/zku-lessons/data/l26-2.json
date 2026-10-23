@@ -1,0 +1,467 @@
+{
+  "id": "l26-2",
+  "moduleNum": 10,
+  "lessonNum": 2,
+  "moduleTitle": "Advice & Rules",
+  "title": "Asking for Advice",
+  "type": "listening",
+  "xp": 35,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Amir, I have a problem. I think I accidentally submitted the wrong file for my English essay. I submitted an old draft instead of the final version. What should I do?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Oh no! You should email your lecturer immediately. Don't wait — the sooner you contact them, the better. Explain what happened honestly.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "But should I be worried? Will they be angry? I've heard some lecturers are very strict about submission rules.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "You shouldn't panic. Mistakes happen. You should explain it was an accident and attach the correct file straight away. Most lecturers appreciate honesty much more than excuses.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Should I go to see them in person, or is an email enough?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "An email is fine for the first contact. But if they don't reply by tomorrow, you should go to their office hours. You mustn't leave it too long without a response.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "OK. And should I also tell my academic advisor?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "You don't have to tell the advisor at this stage — it's a small mistake, not an academic violation. But if the lecturer doesn't respond positively, then you should involve the advisor.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "That makes sense. Actually, now I'm also worried about my end-of-semester presentation. I haven't prepared anything yet! Should I be stressed?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "You shouldn't stress, but you really should start today. You mustn't leave it to the last minute. How much time do you have?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Two weeks. Is that enough?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Definitely! Two weeks is plenty of time if you use it well. You should plan your structure first, then research, then practise. You shouldn't try to do everything in one day — break it into small tasks.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "You're so calm about everything. How do you stay organised? Do you have any other advice?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Well, you should use a planner — digital or paper, whatever works for you. And you mustn't forget to sleep properly. Tired people make more mistakes. And finally — you should celebrate small victories. You're doing great, Zhibek!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "You should + BASE",
+      "ru": "Тебе следует / Тебе стоит",
+      "context": "You should email your lecturer immediately."
+    },
+    {
+      "phrase": "You shouldn't + BASE",
+      "ru": "Тебе не следует",
+      "context": "You shouldn't panic."
+    },
+    {
+      "phrase": "You mustn't + BASE",
+      "ru": "Нельзя / Ни в коем случае не",
+      "context": "You mustn't leave it too long."
+    },
+    {
+      "phrase": "You don't have to + BASE",
+      "ru": "Тебе не нужно (необязательно)",
+      "context": "You don't have to tell the advisor."
+    },
+    {
+      "phrase": "What should I do?",
+      "ru": "Что мне делать?",
+      "context": "What should I do?"
+    },
+    {
+      "phrase": "break it into small tasks",
+      "ru": "разбить на мелкие задачи",
+      "context": "Break it into small tasks."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "draft",
+      "ipa": "/drɑːft/",
+      "pos": "noun",
+      "ru": "черновик",
+      "kz": "қара нұсқа",
+      "emoji": "📝",
+      "definition": "a first version of a piece of writing, not the final version",
+      "example": "Zhibek accidentally submitted an old draft instead of the final version.",
+      "collocations": [
+        "first draft",
+        "rough draft",
+        "submit a draft"
+      ]
+    },
+    {
+      "en": "violation",
+      "ipa": "/ˌvaɪəˈleɪʃn/",
+      "pos": "noun",
+      "ru": "нарушение",
+      "kz": "бұзушылық",
+      "emoji": "⚠️",
+      "definition": "the act of breaking a rule or law",
+      "example": "It's a small mistake, not an academic violation.",
+      "collocations": [
+        "academic violation",
+        "rule violation",
+        "serious violation"
+      ]
+    },
+    {
+      "en": "submission",
+      "ipa": "/səbˈmɪʃn/",
+      "pos": "noun",
+      "ru": "сдача / отправка (работы)",
+      "kz": "тапсырыс",
+      "emoji": "📤",
+      "definition": "the action of presenting a piece of work to someone",
+      "example": "Most lecturers appreciate honesty about submission mistakes.",
+      "collocations": [
+        "late submission",
+        "assignment submission",
+        "submission deadline"
+      ]
+    },
+    {
+      "en": "planner",
+      "ipa": "/ˈplænər/",
+      "pos": "noun",
+      "ru": "ежедневник / планировщик",
+      "kz": "жоспарлаушы",
+      "emoji": "📅",
+      "definition": "a book or app used to organise your schedule and tasks",
+      "example": "Amir recommends using a planner — digital or paper.",
+      "collocations": [
+        "digital planner",
+        "daily planner",
+        "use a planner"
+      ]
+    },
+    {
+      "en": "structure",
+      "ipa": "/ˈstrʌktʃər/",
+      "pos": "noun",
+      "ru": "структура",
+      "kz": "құрылым",
+      "emoji": "🏗️",
+      "definition": "the way something is organised or arranged",
+      "example": "You should plan your presentation structure first.",
+      "collocations": [
+        "clear structure",
+        "essay structure",
+        "presentation structure"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "pt1",
+      "word": "draft",
+      "emoji": "📝",
+      "opts": [
+        "the final version",
+        "a first / early version of a document",
+        "a letter of complaint",
+        "an exam paper"
+      ],
+      "correct": "a first / early version of a document"
+    },
+    {
+      "id": "pt2",
+      "word": "violation",
+      "emoji": "⚠️",
+      "opts": [
+        "a rule recommendation",
+        "the act of breaking a rule",
+        "a type of assignment",
+        "a positive achievement"
+      ],
+      "correct": "the act of breaking a rule"
+    },
+    {
+      "id": "pt3",
+      "word": "planner",
+      "emoji": "📅",
+      "opts": [
+        "a type of academic rule",
+        "a tool to organise tasks and schedule",
+        "a university handbook",
+        "a grading system"
+      ],
+      "correct": "a tool to organise tasks and schedule"
+    }
+  ],
+  "task1Bank": [
+    "should email",
+    "shouldn't panic",
+    "don't have to tell",
+    "mustn't leave",
+    "should start",
+    "should plan",
+    "shouldn't try",
+    "should use"
+  ],
+  "task1Items": [
+    {
+      "id": "t1a",
+      "question": "Amir says Zhibek ___ her lecturer immediately.",
+      "correct": "should email"
+    },
+    {
+      "id": "t1b",
+      "question": "Amir says Zhibek ___ because mistakes happen.",
+      "correct": "shouldn't panic"
+    },
+    {
+      "id": "t1c",
+      "question": "Zhibek ___ the advisor at this stage.",
+      "correct": "don't have to tell"
+    },
+    {
+      "id": "t1d",
+      "question": "Amir says Zhibek ___ it to the last minute.",
+      "correct": "mustn't leave"
+    },
+    {
+      "id": "t1e",
+      "question": "Amir says Zhibek ___ everything in one day.",
+      "correct": "shouldn't try"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "t2a",
+      "statement": "Zhibek submitted the correct version of her essay.",
+      "correct": "false"
+    },
+    {
+      "id": "t2b",
+      "statement": "Amir advises Zhibek to go to the lecturer's office first.",
+      "correct": "false"
+    },
+    {
+      "id": "t2c",
+      "statement": "Amir thinks two weeks is enough time for a presentation.",
+      "correct": "true"
+    },
+    {
+      "id": "t2d",
+      "statement": "Amir recommends sleeping properly to avoid mistakes.",
+      "correct": "true"
+    },
+    {
+      "id": "t2e",
+      "statement": "Zhibek should contact her advisor immediately about the essay.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zhib",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU Student"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "👨‍💻",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU Student"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Accidentally submitted the wrong essay file.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s2",
+      "text": "Advised emailing the lecturer immediately and being honest.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Said the advisor doesn't need to be involved at this stage.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "Worried about the end-of-semester presentation with 2 weeks left.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s5",
+      "text": "Recommended using a planner and sleeping properly.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Told Zhibek to break the presentation into small tasks.",
+      "correctCharId": "amir"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What mistake did Zhibek make?",
+      "opts": [
+        "She didn't attend class",
+        "She submitted an old draft instead of the final essay",
+        "She forgot her presentation",
+        "She was late for an exam"
+      ],
+      "correct": "She submitted an old draft instead of the final essay",
+      "hint": "Zhibek said she accidentally submitted an old draft instead of the final version."
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir advises Zhibek to visit the lecturer's office first.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir said \"An email is fine for the first contact.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Does Amir think Zhibek should involve her academic advisor immediately?",
+      "opts": [
+        "Yes, immediately",
+        "Only if the lecturer doesn't respond positively",
+        "No, never",
+        "Yes, but after the email"
+      ],
+      "correct": "Only if the lecturer doesn't respond positively",
+      "hint": "\"if the lecturer doesn't respond positively, then you should involve the advisor.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek has ___ weeks before her end-of-semester presentation.",
+      "correct": "two",
+      "hint": "Zhibek said \"Two weeks. Is that enough?\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir advises Zhibek to plan the presentation in what order?",
+      "opts": [
+        "Research, practise, structure",
+        "Structure, research, practise",
+        "Practise, structure, research",
+        "Research, structure, practise"
+      ],
+      "correct": "Structure, research, practise",
+      "hint": "\"You should plan your structure first, then research, then practise.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir says that tired people make fewer mistakes.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir said \"Tired people make MORE mistakes.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What type of planner does Amir recommend?",
+      "opts": [
+        "Only digital",
+        "Only paper",
+        "Either digital or paper",
+        "Neither — just use your phone"
+      ],
+      "correct": "Either digital or paper",
+      "hint": "\"you should use a planner — digital or paper, whatever works for you.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "\"Break it into small tasks\" means:",
+      "opts": [
+        "Destroy it",
+        "Stop working on it",
+        "Divide it into smaller, manageable steps",
+        "Finish it quickly"
+      ],
+      "correct": "Divide it into smaller, manageable steps",
+      "hint": "\"Break into small tasks\" = divide a large task into smaller, easier steps."
+    }
+  ]
+}

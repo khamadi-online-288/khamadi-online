@@ -1,0 +1,507 @@
+{
+  "id": "l52-3",
+  "moduleNum": 18,
+  "lessonNum": 3,
+  "moduleTitle": "Health & Body",
+  "type": "listening",
+  "title": "At the Doctor's",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Doctor",
+      "text": "Good morning. Please sit down. So — what seems to be the problem?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've been feeling really tired for the past two weeks. Not just normal tired — I can't seem to shake it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "I see. Are you sleeping well?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not really. I've been going to bed quite late — around 2 or 3 a.m. And I have to be up by 8.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "So you're getting around five hours of sleep. That's quite low. Any other symptoms?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've had some headaches. And I've been finding it hard to concentrate in lectures.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "Have you been eating regularly?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not really. I often skip breakfast. And lunch is usually just something from the vending machine.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "That would explain some of the fatigue and headaches. You shouldn't skip meals — your brain needs fuel. How much water are you drinking?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not much. Mostly coffee.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "You should drink at least two litres of water a day. Coffee is a diuretic — it actually dehydrates you. Are you exercising at all?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I used to. But since the semester got busy, I've stopped.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "You don't have to do intense training. Even a twenty-minute walk helps. I'd strongly recommend getting back into some form of movement.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Do I need any tests or medication?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "I don't think so at this stage. Your symptoms are consistent with sleep deprivation and poor nutrition. But if things don't improve in two weeks, come back and we'll do a blood test.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Should I take any vitamins?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "A general multivitamin wouldn't hurt. But you shouldn't rely on supplements — they don't replace a proper diet. Focus on food first.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "OK. Thank you, Doctor.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Doctor",
+      "text": "Take care of yourself. Sleep is medicine. Food is medicine. Start there.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "symptoms",
+      "emoji": "🤒",
+      "opts": [
+        "лечение",
+        "симптомы",
+        "диагноз",
+        "лекарства"
+      ],
+      "correct": "симптомы"
+    },
+    {
+      "id": "p2",
+      "word": "fatigue",
+      "emoji": "😩",
+      "opts": [
+        "энергия",
+        "усталость / утомление",
+        "боль",
+        "тошнота"
+      ],
+      "correct": "усталость / утомление"
+    },
+    {
+      "id": "p3",
+      "word": "diuretic",
+      "emoji": "🚽",
+      "opts": [
+        "питательный",
+        "мочегонный",
+        "успокаивающий",
+        "тонизирующий"
+      ],
+      "correct": "мочегонный"
+    },
+    {
+      "id": "p4",
+      "word": "dehydrates",
+      "emoji": "💧",
+      "opts": [
+        "увлажняет",
+        "обезвоживает",
+        "охлаждает",
+        "наполняет"
+      ],
+      "correct": "обезвоживает"
+    },
+    {
+      "id": "p5",
+      "word": "supplement",
+      "emoji": "💊",
+      "opts": [
+        "основное питание",
+        "добавка / витамин",
+        "рецепт",
+        "диета"
+      ],
+      "correct": "добавка / витамин"
+    },
+    {
+      "id": "p6",
+      "word": "consistent with",
+      "emoji": "🔗",
+      "opts": [
+        "противоречит",
+        "соответствует / указывает на",
+        "не связан с",
+        "исключает"
+      ],
+      "correct": "соответствует / указывает на"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam has been feeling tired for about two weeks.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Rustam sleeps about eight hours per night.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The doctor says Rustam should skip breakfast to save time.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The doctor recommends drinking at least two litres of water a day.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The doctor says Rustam needs blood tests immediately.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "The doctor says supplements can replace a proper diet.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "😩",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Student patient — tired, headaches, poor sleep, skipping meals, lots of coffee"
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "city": "Uralsk",
+      "emoji": "👨‍⚕️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "University doctor — gives practical advice using should/shouldn't/have to"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says he has been going to bed around 2 or 3 a.m. and gets about five hours of sleep.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "Says skipping meals explains some of the fatigue and headaches.",
+      "correctCharId": "doctor"
+    },
+    {
+      "id": "s3",
+      "text": "Says coffee dehydrates you because it is a diuretic.",
+      "correctCharId": "doctor"
+    },
+    {
+      "id": "s4",
+      "text": "Says he stopped exercising since the semester got busy.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Says symptoms are consistent with sleep deprivation and poor nutrition — no tests needed yet.",
+      "correctCharId": "doctor"
+    },
+    {
+      "id": "s6",
+      "text": "Says supplements don't replace a proper diet — focus on food first.",
+      "correctCharId": "doctor"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Rustam been feeling tired?",
+      "opts": [
+        "One day",
+        "One week",
+        "Two weeks",
+        "One month"
+      ],
+      "correct": "Two weeks",
+      "hint": "\"I've been feeling really tired for the past two weeks.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much sleep is Rustam getting?",
+      "opts": [
+        "Eight hours",
+        "Six hours",
+        "About five hours",
+        "Three hours"
+      ],
+      "correct": "About five hours",
+      "hint": "\"Going to bed at 2-3 a.m. and up by 8.\" = about five hours."
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the doctor say coffee is bad for hydration?",
+      "opts": [
+        "It contains too much sugar",
+        "It is a diuretic — it dehydrates you",
+        "It disrupts sleep only",
+        "It has no effect"
+      ],
+      "correct": "It is a diuretic — it dehydrates you",
+      "hint": "\"Coffee is a diuretic — it actually dehydrates you.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much water does the doctor recommend per day?",
+      "opts": [
+        "One litre",
+        "At least two litres",
+        "Three litres",
+        "As much as possible"
+      ],
+      "correct": "At least two litres",
+      "hint": "\"You should drink at least two litres of water a day.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The doctor says Rustam needs blood tests immediately.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I don't think so at this stage.\" — tests only if no improvement in two weeks."
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What exercise does the doctor recommend?",
+      "opts": [
+        "Intense training",
+        "Nothing — rest is better",
+        "Even a twenty-minute walk helps",
+        "Swimming only"
+      ],
+      "correct": "Even a twenty-minute walk helps",
+      "hint": "\"You don't have to do intense training. Even a twenty-minute walk helps.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the doctor say about vitamins/supplements?",
+      "opts": [
+        "They are essential",
+        "A general multivitamin is fine but supplements don't replace a proper diet",
+        "Don't take any vitamins",
+        "Take them instead of eating properly"
+      ],
+      "correct": "A general multivitamin is fine but supplements don't replace a proper diet",
+      "hint": "\"A general multivitamin wouldn't hurt. But you shouldn't rely on supplements — they don't replace a proper diet.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the doctor's final sentence mean: \"Sleep is medicine. Food is medicine.\"?",
+      "opts": [
+        "You need to buy medicine",
+        "Basic lifestyle changes are the treatment — not drugs",
+        "Medicines replace sleep",
+        "Doctors always say this"
+      ],
+      "correct": "Basic lifestyle changes are the treatment — not drugs",
+      "hint": "The doctor is saying: sleep and food ARE the treatment. You don't need drugs — focus on basics."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You shouldn't skip meals.\" This means:",
+      "opts": [
+        "It's forbidden",
+        "It's not a good idea — advice against it",
+        "You are not allowed to by law",
+        "You don't need to"
+      ],
+      "correct": "It's not a good idea — advice against it",
+      "hint": "\"shouldn't\" = advice against doing something. It's not wise. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should drink at least two litres.\" This means:",
+      "opts": [
+        "You must by law",
+        "I recommend / it's a good idea",
+        "You are able to",
+        "You need to get permission"
+      ],
+      "correct": "I recommend / it's a good idea",
+      "hint": "\"should\" = advice; recommendation. \"I think this is a good idea for you.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You don't have to do intense training.\" This means:",
+      "opts": [
+        "Intense training is forbidden",
+        "Intense training is not necessary, but you can if you want",
+        "You must avoid training",
+        "Exercise is compulsory"
+      ],
+      "correct": "Intense training is not necessary, but you can if you want",
+      "hint": "\"don't have to\" = not necessary / not obligatory. ✅ Different from \"must not\"!"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You ___ rely on supplements — they don't replace a proper diet.\" (advice against)",
+      "correct": "shouldn't",
+      "hint": "\"shouldn't\" = advice against. \"You SHOULDN'T rely on supplements.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You have to be up by 8.\" This means:",
+      "opts": [
+        "It is recommended",
+        "It is not necessary",
+        "It is required / obligatory",
+        "It is impossible"
+      ],
+      "correct": "It is required / obligatory",
+      "hint": "\"have to\" = obligation / necessity. \"You HAVE TO be up by 8.\" = it's required. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"shouldn't\" and \"don't have to\"?",
+      "opts": [
+        "No difference",
+        "\"shouldn't\" = bad advice; \"don't have to\" = not necessary",
+        "\"don't have to\" = forbidden",
+        "\"shouldn't\" = impossible"
+      ],
+      "correct": "\"shouldn't\" = bad advice; \"don't have to\" = not necessary",
+      "hint": "\"shouldn't\" = I advise against it. \"don't have to\" = not obligatory (but you can). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You ___ see a doctor if you feel worse.\" (strong advice)",
+      "correct": "should",
+      "hint": "\"should\" = strong recommendation. \"You SHOULD see a doctor.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You don't have to take a blood test now.\" — Meaning:",
+      "opts": [
+        "Blood tests are forbidden now",
+        "Blood tests are not necessary yet",
+        "Blood tests are compulsory",
+        "Blood tests are painful"
+      ],
+      "correct": "Blood tests are not necessary yet",
+      "hint": "\"don't have to\" = not obligatory / not necessary. \"NOT NECESSARY yet.\" ✅"
+    }
+  ]
+}

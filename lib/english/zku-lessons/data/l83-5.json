@@ -1,0 +1,342 @@
+{
+  "id": "l83-5",
+  "moduleNum": 25,
+  "lessonNum": 9,
+  "moduleTitle": "Listening & Speaking Strategies",
+  "title": "Module 25 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She's been working on her listening skills, ___?\" (tag)",
+      "opts": [
+        "has she",
+        "hasn't she",
+        "isn't she",
+        "doesn't she"
+      ],
+      "correct": "hasn't she",
+      "hint": "Positive + present perfect → negative tag \"hasn't she\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He didn't use any repair strategies, ___ ___?\" (tag)",
+      "correct": "did he",
+      "hint": "Negative past → positive tag \"did he\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"We should practise active listening more deliberately, ___?\" (modal tag)",
+      "opts": [
+        "will we",
+        "would we",
+        "shouldn't we",
+        "won't we"
+      ],
+      "correct": "shouldn't we",
+      "hint": "Positive modal \"should\" → negative tag \"shouldn't we\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Nobody really practises repair strategies, ___ ___?\" (negative word tag)",
+      "correct": "do they",
+      "hint": "\"Nobody\" = negative meaning → positive tag \"do they\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I'm getting better at turn-taking, ___?\" (I am — special case)",
+      "opts": [
+        "am I",
+        "aren't I",
+        "isn't it",
+        "I am"
+      ],
+      "correct": "aren't I",
+      "hint": "\"I am\" → special case: \"aren't I\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She barely makes eye contact in presentations, ___ ___?\" (negative word \"barely\")",
+      "correct": "does she",
+      "hint": "\"Barely\" = negative meaning → positive tag \"does she\"",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the key skill is communication repair, not linguistic accuracy.\" (summarising/getting to the point)",
+      "opts": [
+        "Actually",
+        "Anyway",
+        "Basically",
+        "Honestly"
+      ],
+      "correct": "Basically",
+      "hint": "\"Basically\" = getting to the core point",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, I think we're doing this the wrong way.\" (gently correcting)",
+      "correct": "Actually",
+      "hint": "\"Actually\" = correcting, introducing a contradiction or surprise",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, as I was saying — let's get back to repair strategies.\" (returning to main point)",
+      "opts": [
+        "By the way",
+        "Anyway",
+        "Honestly",
+        "Actually"
+      ],
+      "correct": "Anyway",
+      "hint": "\"Anyway\" = returning to the main point after a digression",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"A: 'The pause felt very long.' B: '___ ___ — but to the audience it probably seemed normal.'\" (accepting a point)",
+      "correct": "Fair enough",
+      "hint": "\"Fair enough\" = accepting a point without necessarily fully agreeing",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is \"the listener's gap\"?",
+      "opts": [
+        "The gap between what speakers say and what they mean",
+        "The difference between speech speed and thought speed",
+        "The cultural difference between listeners",
+        "The gap in formal education for listening skills"
+      ],
+      "correct": "The difference between speech speed and thought speed",
+      "hint": "Reading 1: \"listener's gap\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It's ___ hard to explain without a concrete example.\" (hedging: softening)",
+      "correct": "kind of / sort of / a bit",
+      "hint": "Hedging words soften the statement",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Let's try that repair strategy again, ___?\" (imperative \"let's\" tag)",
+      "opts": [
+        "do we",
+        "will we",
+        "shall we",
+        "won't we"
+      ],
+      "correct": "shall we",
+      "hint": "\"Let's\" → \"shall we?\" = invitation to do something together",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ to practise signposting — it'll make a huge difference.\" (clarifying what was said)",
+      "correct": "I mean",
+      "hint": "\"I mean\" = clarifying or elaborating on what was just said",
+      "points": 2
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does research show is the most important predictor of communicative success?",
+      "opts": [
+        "Linguistic accuracy",
+        "Having a large vocabulary",
+        "Communication repair — dealing well with breakdowns",
+        "Speaking at the right pace"
+      ],
+      "correct": "Communication repair — dealing well with breakdowns",
+      "hint": "Listening 3B: Dr. Lim's lecture",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ ___, have you practised using minimal responses during conversations?\" (off-topic/additional point)",
+      "opts": [
+        "By the way",
+        "In other words",
+        "Basically",
+        "Anyway"
+      ],
+      "correct": "By the way",
+      "hint": "\"By the way\" = introducing something not directly in the main flow",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The issue is pacing — ___ ___ ___, the need to slow down deliberately.\" (reformulating)",
+      "correct": "in other words / that is",
+      "hint": "\"In other words\" = reformulating the same idea more clearly",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence correctly uses a tag question?",
+      "opts": [
+        "\"She is a good listener, doesn't she?\"",
+        "\"They haven't tried this, haven't they?\"",
+        "\"He can explain clearly, can't he?\"",
+        "\"We should practise, aren't we?\""
+      ],
+      "correct": "\"He can explain clearly, can't he?\"",
+      "hint": "Modal \"can\" positive → negative tag \"can't he\" — correct",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"active listening\" involve?",
+      "opts": [
+        "Listening while taking notes",
+        "Passively recording all information",
+        "Attending to tone, signalling engagement, and asking clarifying questions",
+        "Listening at 2x speed to save time"
+      ],
+      "correct": "Attending to tone, signalling engagement, and asking clarifying questions",
+      "hint": "Reading 1: active listening definition",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ improving pacing, I will record myself speaking and listen back.\" (with the aim of)",
+      "correct": "With a view to",
+      "hint": "\"With a view to + gerund\"",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "What function does \"you know\" perform in conversation?",
+      "opts": [
+        "Introducing new technical information",
+        "Seeking solidarity or confirmation of mutual understanding",
+        "Marking a formal transition between topics",
+        "Correcting a misunderstanding"
+      ],
+      "correct": "Seeking solidarity or confirmation of mutual understanding",
+      "hint": "\"You know?\" = \"Do you understand what I mean?\" seeking connection",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The system by which speakers alternate in conversation is called ___.",
+      "correct": "turn-taking",
+      "hint": "Reading 2: turn-taking",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She'd benefit from practising in low-stakes settings, ___?\"",
+      "opts": [
+        "hadn't she",
+        "wouldn't she",
+        "didn't she",
+        "hasn't she"
+      ],
+      "correct": "wouldn't she",
+      "hint": "\"She'd\" = \"she would\" → \"wouldn't she\"",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Notwithstanding\" is a common spoken discourse marker used in conversation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Notwithstanding\" is a formal written connector — not typically used as a spoken discourse marker",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"communication repair\" mean?",
+      "opts": [
+        "Fixing recording equipment in a language lab",
+        "The ability to recognise and fix breakdowns in communication",
+        "Correcting grammar errors after speaking",
+        "Practising communication skills repeatedly"
+      ],
+      "correct": "The ability to recognise and fix breakdowns in communication",
+      "hint": "Listening 3B: \"communication repair — recognise breakdown, seek clarification, rephrase\"",
+      "points": 1
+    }
+  ]
+}

@@ -1,0 +1,538 @@
+{
+  "id": "l40-1",
+  "moduleNum": 6,
+  "lessonNum": 1,
+  "moduleTitle": "Life Experiences",
+  "type": "reading",
+  "title": "Things I've Done and Things I Haven't Done Yet",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "One of the most interesting exercises in any English class is asking students to describe their life experiences — the things they have done and the things they haven't done yet. At WKU, Professor Aidarov asked his A2 group to write a personal reflection on this theme. What emerged was a collection of honest, sometimes surprising, and occasionally funny confessions.",
+    "Kamila Seitkali, who is from Almaty originally, wrote about languages. \"I have spoken English in three countries,\" she wrote. \"I have used it in shops, cafés, and once at an airport in Turkey when nobody else in the queue could help a confused tourist. That was one of the best moments — feeling genuinely useful.\" She paused before listing what she hasn't done yet: \"I have never given a speech in front of more than twenty people. That terrifies me more than anything.\"",
+    "Amir's reflection was technical. He has built three applications from scratch, won a regional coding competition at the age of seventeen, and contributed to an open-source project used by developers in forty-two countries. \"I've done things I'm proud of,\" he wrote. \"But I've never finished a novel. I start them, get fifty pages in, and abandon them. I've started and abandoned the same Aitmatov novel three times. He deserves better.\"",
+    "Rustam surprised everyone with his list. He has climbed three different mountains in Kazakhstan, been stung by a jellyfish in the Caspian Sea, accidentally attended a wedding he wasn't invited to (the hosts were too polite to ask him to leave), and eaten food in eleven different countries. \"I've had an interesting life,\" he wrote simply. \"But I've never been on an aeroplane. I've always travelled by train or car. Aeroplanes still seem like magic to me.\"",
+    "Zhibek's reflection was the shortest and perhaps the most honest. \"I've trained more than five thousand hours to become a volleyball player. I've won two regional championships. I've injured my shoulder twice and come back both times. But I've never won the national championship, and that's the only thing I've ever truly wanted.\" She added, almost as an afterthought: \"I haven't given up.\"",
+    "Professor Aidarov read all the reflections and offered the same comment to each student: \"Your experiences don't define you. What you plan to do with them does.\" He then asked the class to write one more sentence — not about what they have done or haven't done, but about what they are going to do next.",
+    "The answers were as varied as the students themselves. Kamila is going to give a speech in front of two hundred people at a linguistics conference next month. Amir has finally decided to finish the Aitmatov novel — by June. Rustam has booked his first flight — to Tbilisi, Georgia, in July. And Zhibek is going to try one more time for the national championship.",
+    "The exercise, Professor Aidarov explained afterwards, wasn't really about grammar. It was about learning to look at your own life with curiosity rather than judgment. \"You have all done remarkable things,\" he said. \"The question is: do you know what they are?\""
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "Have you ever done something that surprised you — something you didn't know you could do?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes. That airport situation in Turkey. I never thought I'd be the person who steps forward.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I accidentally went to a stranger's wedding once. And stayed for three hours.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've always known what I want. Is that lucky or boring?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "It's lucky. I've changed my mind about what I want at least ten times.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Have you ever regretted any of those changes?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Not yet. But ask me in ten years.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "come back from",
+      "ru": "восстановиться / вернуться",
+      "context": "She's injured her shoulder twice and come back both times."
+    },
+    {
+      "phrase": "as an afterthought",
+      "ru": "как послесловие / мимоходом",
+      "context": "\"I haven't given up.\" — added almost as an afterthought."
+    },
+    {
+      "phrase": "not define you",
+      "ru": "не определять вас",
+      "context": "\"Your experiences don't define you. What you do with them does.\""
+    },
+    {
+      "phrase": "with curiosity",
+      "ru": "с любопытством",
+      "context": "Learning to look at your own life with curiosity rather than judgment."
+    },
+    {
+      "phrase": "step forward",
+      "ru": "выйти вперёд / взять инициативу",
+      "context": "\"I never thought I'd be the person who steps forward.\""
+    },
+    {
+      "phrase": "genuinely useful",
+      "ru": "по-настоящему полезным",
+      "context": "\"Feeling genuinely useful.\" — real, authentic usefulness."
+    },
+    {
+      "phrase": "from scratch",
+      "ru": "с нуля",
+      "context": "He has built three applications from scratch."
+    },
+    {
+      "phrase": "open-source",
+      "ru": "с открытым исходным кодом",
+      "context": "He contributed to an open-source project."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "reflection",
+      "ipa": "/rɪˈflekʃən/",
+      "pos": "noun",
+      "ru": "размышление / рефлексия",
+      "kz": "толғаныс",
+      "emoji": "💭",
+      "definition": "careful thinking about your own experiences and feelings",
+      "example": "Professor Aidarov asked students to write a personal reflection on their experiences.",
+      "collocations": [
+        "personal reflection",
+        "written reflection",
+        "moment of reflection"
+      ]
+    },
+    {
+      "en": "confession",
+      "ipa": "/kənˈfeʃən/",
+      "pos": "noun",
+      "ru": "признание",
+      "kz": "мойындау",
+      "emoji": "💬",
+      "definition": "a statement admitting something private or embarrassing",
+      "example": "The class produced a collection of honest confessions about their experiences.",
+      "collocations": [
+        "honest confession",
+        "make a confession",
+        "public confession"
+      ]
+    },
+    {
+      "en": "contribute",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "pos": "verb",
+      "ru": "вносить вклад",
+      "kz": "үлес қосу",
+      "emoji": "🤝",
+      "definition": "to give something — time, money, or effort — to help achieve a result",
+      "example": "Amir has contributed to an open-source project used worldwide.",
+      "collocations": [
+        "contribute to",
+        "contribute ideas",
+        "actively contribute"
+      ]
+    },
+    {
+      "en": "abandon",
+      "ipa": "/əˈbændən/",
+      "pos": "verb",
+      "ru": "бросать / оставлять",
+      "kz": "тастау",
+      "emoji": "🚪",
+      "definition": "to leave or stop doing something without finishing it",
+      "example": "He has started and abandoned the same novel three times.",
+      "collocations": [
+        "abandon a project",
+        "abandon hope",
+        "abandon an idea"
+      ]
+    },
+    {
+      "en": "championship",
+      "ipa": "/ˈtʃæmpiənʃɪp/",
+      "pos": "noun",
+      "ru": "чемпионат / первенство",
+      "kz": "чемпионат",
+      "emoji": "🏆",
+      "definition": "a competition to find the best player or team",
+      "example": "Zhibek has won two regional championships but not the national one.",
+      "collocations": [
+        "national championship",
+        "win a championship",
+        "championship title"
+      ]
+    },
+    {
+      "en": "remarkable",
+      "ipa": "/rɪˈmɑːkəbl/",
+      "pos": "adjective",
+      "ru": "замечательный / выдающийся",
+      "kz": "ерекше",
+      "emoji": "✨",
+      "definition": "unusual or surprising in a way that causes admiration",
+      "example": "\"You have all done remarkable things,\" said Professor Aidarov.",
+      "collocations": [
+        "truly remarkable",
+        "remarkable achievement",
+        "quite remarkable"
+      ]
+    },
+    {
+      "en": "genuine",
+      "ipa": "/ˈdʒenjuɪn/",
+      "pos": "adjective",
+      "ru": "настоящий / искренний",
+      "kz": "шынайы",
+      "emoji": "💎",
+      "definition": "real; truly what it appears to be; sincere",
+      "example": "She felt genuinely useful when she helped the tourist at the airport.",
+      "collocations": [
+        "genuine interest",
+        "genuine feeling",
+        "completely genuine"
+      ]
+    },
+    {
+      "en": "accidentally",
+      "ipa": "/ˌæksɪˈdentəli/",
+      "pos": "adverb",
+      "ru": "случайно",
+      "kz": "кездейсоқ",
+      "emoji": "😅",
+      "definition": "by chance; without intention",
+      "example": "Rustam accidentally attended a wedding he wasn't invited to.",
+      "collocations": [
+        "accidentally find",
+        "completely accidentally",
+        "accidentally delete"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "reflection",
+      "emoji": "💭",
+      "opts": [
+        "действие",
+        "размышление",
+        "оценка",
+        "решение"
+      ],
+      "correct": "размышление"
+    },
+    {
+      "id": "p2",
+      "word": "abandon",
+      "emoji": "🚪",
+      "opts": [
+        "продолжать",
+        "бросать / оставлять",
+        "начинать",
+        "исправлять"
+      ],
+      "correct": "бросать / оставлять"
+    },
+    {
+      "id": "p3",
+      "word": "contribute",
+      "emoji": "🤝",
+      "opts": [
+        "забирать",
+        "вносить вклад",
+        "игнорировать",
+        "требовать"
+      ],
+      "correct": "вносить вклад"
+    },
+    {
+      "id": "p4",
+      "word": "remarkable",
+      "emoji": "✨",
+      "opts": [
+        "обычный",
+        "замечательный",
+        "трудный",
+        "частый"
+      ],
+      "correct": "замечательный"
+    },
+    {
+      "id": "p5",
+      "word": "accidentally",
+      "emoji": "😅",
+      "opts": [
+        "намеренно",
+        "случайно",
+        "постепенно",
+        "регулярно"
+      ],
+      "correct": "случайно"
+    },
+    {
+      "id": "p6",
+      "word": "confession",
+      "emoji": "💬",
+      "opts": [
+        "вопрос",
+        "признание",
+        "описание",
+        "инструкция"
+      ],
+      "correct": "признание"
+    }
+  ],
+  "task1Bank": [
+    "three countries",
+    "twenty",
+    "coding competition",
+    "forty-two",
+    "three times",
+    "jellyfish",
+    "two",
+    "national championship"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila has spoken English in ___ .",
+      "correct": "three countries"
+    },
+    {
+      "id": "t2",
+      "question": "She has never given a speech in front of more than ___ people.",
+      "correct": "twenty"
+    },
+    {
+      "id": "t3",
+      "question": "Amir won a regional ___ at age seventeen.",
+      "correct": "coding competition"
+    },
+    {
+      "id": "t4",
+      "question": "His open-source project is used in ___ countries.",
+      "correct": "forty-two"
+    },
+    {
+      "id": "t5",
+      "question": "Amir has started the same Aitmatov novel ___ .",
+      "correct": "three times"
+    },
+    {
+      "id": "t6",
+      "question": "Rustam has been stung by a ___ in the Caspian Sea.",
+      "correct": "jellyfish"
+    },
+    {
+      "id": "t7",
+      "question": "Zhibek has injured her shoulder ___ times.",
+      "correct": "two"
+    },
+    {
+      "id": "t8",
+      "question": "Zhibek has never won the ___ .",
+      "correct": "national championship"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Kamila is originally from Uralsk.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Amir is proud of the applications he has built.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Rustam has flown on an aeroplane many times.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Rustam stayed at the stranger's wedding for three hours.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Zhibek has never been injured during volleyball.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Professor Aidarov says experiences define who you are.",
+      "correct": "false"
+    },
+    {
+      "id": "c7",
+      "statement": "Amir has decided to finish the Aitmatov novel by June.",
+      "correct": "true"
+    },
+    {
+      "id": "c8",
+      "statement": "Rustam has booked a flight to Tbilisi.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Professor Aidarov's exercise about?",
+      "opts": [
+        "Writing about grammar",
+        "Describing life experiences and plans",
+        "Comparing cities",
+        "Practising past tenses"
+      ],
+      "correct": "Describing life experiences and plans",
+      "hint": "Students wrote about things they have done and haven't done yet, then about future plans."
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila has given many public speeches.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I have never given a speech in front of more than twenty people.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Amir never managed to do?",
+      "opts": [
+        "Win a competition",
+        "Build an application",
+        "Finish a novel",
+        "Travel abroad"
+      ],
+      "correct": "Finish a novel",
+      "hint": "\"I've never finished a novel. I start them... and abandon them.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam has never been on an ___ .",
+      "correct": "aeroplane",
+      "hint": "\"I've never been on an aeroplane. I've always travelled by train or car.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was the final task Professor Aidarov gave the class?",
+      "opts": [
+        "List more past experiences",
+        "Write one sentence about future plans",
+        "Compare their lives",
+        "Read each other's reflections"
+      ],
+      "correct": "Write one sentence about future plans",
+      "hint": "\"He then asked the class to write one more sentence — about what they are going to do next.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Professor Aidarov say actually defines a person?",
+      "opts": [
+        "Their experiences",
+        "Their grades",
+        "What they plan to do with their experiences",
+        "Their background"
+      ],
+      "correct": "What they plan to do with their experiences",
+      "hint": "\"Your experiences don't define you. What you plan to do with them does.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He built the app from scratch.\" \"From scratch\" means:",
+      "opts": [
+        "Very quickly",
+        "Starting from zero",
+        "Using a template",
+        "With help from others"
+      ],
+      "correct": "Starting from zero",
+      "hint": "\"from scratch\" = starting completely from the beginning, with nothing prepared."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "She has started and ___ the same novel three times.",
+      "correct": "abandoned",
+      "hint": "\"abandon\" = to stop doing something without finishing it."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Feeling genuinely useful\" — \"genuinely\" means:",
+      "opts": [
+        "slightly",
+        "occasionally",
+        "truly and sincerely",
+        "unexpectedly"
+      ],
+      "correct": "truly and sincerely",
+      "hint": "\"genuinely\" = really, truly, in a sincere and authentic way."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Professor Aidarov asked for a personal reflection.\" A \"reflection\" is:",
+      "opts": [
+        "A photograph",
+        "An exam answer",
+        "Careful thinking about your own experiences",
+        "A report about others"
+      ],
+      "correct": "Careful thinking about your own experiences",
+      "hint": "\"reflection\" = thoughtful consideration of your own experiences, feelings, and thoughts."
+    }
+  ]
+}

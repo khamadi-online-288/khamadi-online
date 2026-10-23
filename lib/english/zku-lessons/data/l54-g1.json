@@ -1,0 +1,530 @@
+{
+  "id": "l54-g1",
+  "moduleNum": 20,
+  "lessonNum": 4,
+  "moduleTitle": "Work & Career",
+  "type": "grammar",
+  "title": "Present Perfect Continuous: have been + -ing",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect Continuous — Duration and Evidence",
+  "grammarNote": "Present Perfect Continuous (have/has been + -ing) описывает действие, которое началось в прошлом и:\n1) ВСЁ ЕЩЁ ПРОДОЛЖАЕТСЯ сейчас, OR\n2) ТОЛЬКО ЧТО ЗАВЕРШИЛОСЬ и оставило видимый результат\n\nКлючевые слова: for (на протяжении), since (с тех пор как), how long (как долго), all day/week/morning, recently, lately.",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "have been + -ing",
+      "short": "duration",
+      "example": "\"I have been studying English for two years.\" / \"They have been working since 9 a.m.\""
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "has been + -ing",
+      "short": "he/she",
+      "example": "\"She has been preparing for the interview for months.\" / \"He has been coding all night.\""
+    },
+    {
+      "subject": "Negative",
+      "verb": "haven't / hasn't been + -ing",
+      "short": "neg",
+      "example": "\"I haven't been sleeping well.\" / \"She hasn't been eating much.\""
+    },
+    {
+      "subject": "Question",
+      "verb": "Have/Has + S + been + -ing?",
+      "short": "question",
+      "example": "\"How long have you been working here?\" / \"Has she been studying today?\""
+    },
+    {
+      "subject": "FOR",
+      "verb": "duration = length of time",
+      "short": "period",
+      "example": "\"FOR three months\" / \"FOR an hour\" / \"FOR ages\" — length of time."
+    },
+    {
+      "subject": "SINCE",
+      "verb": "starting point",
+      "short": "starting",
+      "example": "\"SINCE 2022\" / \"SINCE Monday\" / \"SINCE I was 15\" — point when it started."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Present Perfect Continuous vs Present Perfect Simple",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Continuous: emphasises DURATION / process",
+          "example": "\"I've been reading this book.\" (I'm still reading it / process matters)"
+        },
+        {
+          "form": "Simple: emphasises COMPLETION / result",
+          "example": "\"I've read this book.\" (I finished it — result is important)"
+        },
+        {
+          "form": "Continuous: explains VISIBLE EVIDENCE",
+          "example": "\"You look tired.\" \"I've been working all night.\" (explains WHY I look tired)"
+        },
+        {
+          "form": "Simple: states the NUMBER of times done",
+          "example": "\"I've read three books this month.\" (counting completions — NOT \"been reading three books\")"
+        }
+      ]
+    },
+    {
+      "title": "When to use Present Perfect Continuous",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Duration still ongoing (FOR/SINCE)",
+          "example": "\"I've been studying English FOR two years.\" (started 2 years ago, still studying now) ✅"
+        },
+        {
+          "form": "Activity that just stopped (visible effect)",
+          "example": "\"My hands are dirty — I've been fixing the car.\" (just stopped, dirty hands = evidence) ✅"
+        },
+        {
+          "form": "Explaining a current state or visible sign",
+          "example": "\"Why are you sweating? I've been running.\" (the running explains the sweat) ✅"
+        },
+        {
+          "form": "Temporary/recent activity up to now",
+          "example": "\"She's been working really hard lately.\" (recently, up to this moment) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Stative verbs — NOT used in continuous",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "know / understand / believe / want",
+          "example": "✗ \"I've been knowing her for years.\" → ✅ \"I've known her for years.\" (stative = use Simple!)"
+        },
+        {
+          "form": "like / love / hate / prefer",
+          "example": "✗ \"I've been loving this job.\" → ✅ \"I've loved this job.\" / \"I love this job.\" ✅"
+        },
+        {
+          "form": "own / have (possession) / contain",
+          "example": "✗ \"She's been owning this car for 5 years.\" → ✅ \"She's owned this car for 5 years.\""
+        },
+        {
+          "form": "seem / appear / exist",
+          "example": "✗ \"It's been seeming difficult.\" → ✅ \"It seems difficult.\" / \"It has seemed difficult.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I've been studying FOR 2020.\"",
+          "example": "✅ \"I've been studying SINCE 2020.\" (2020 = starting point → SINCE) or \"FOR 4 years\" (duration)."
+        },
+        {
+          "form": "✗ \"She has been working here since 3 years.\"",
+          "example": "✅ \"She has been working here FOR 3 years.\" (3 years = duration → FOR!)"
+        },
+        {
+          "form": "✗ \"I been working here.\"",
+          "example": "✅ \"I'VE been working here.\" — never omit \"have/has\"!"
+        },
+        {
+          "form": "✗ \"I've been know her for years.\"",
+          "example": "✅ \"I've KNOWN her for years.\" — stative verbs use Simple, not Continuous!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Present Perfect Continuous = have/has + been + -ing\n\nФОРМУЛА:\nSubject + have/has + been + verb-ing\n\nДля ПРОДОЛЖИТЕЛЬНОСТИ:\nFOR + период: \"for three months\" ✅\nSINCE + точка: \"since 2022\" / \"since Monday\" ✅\n\nКогда использовать Continuous vs Simple:\nContinuous → ПРОЦЕСС важен / действие длится:\n\"I've been working here.\" (ещё работаю)\n\nSimple → РЕЗУЛЬТАТ / завершение:\n\"I've finished the project.\" (готово)\n\"I've read 5 books.\" (считаю — не \"been reading 5 books\")\n\n⚠️ Stative verbs → НЕ continuous:\n✗ \"I've been knowing her\"\n✅ \"I've known her for years.\"\n\nFOR vs SINCE:\nFOR = продолжительность: for 2 years, for ages\nSINCE = начало: since 2020, since Monday, since I was 15",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "She looks exhausted. She ___ all night.",
+      "opts": [
+        "has been working",
+        "worked",
+        "has worked",
+        "is working"
+      ],
+      "correct": "has been working",
+      "hint": "Visible evidence (she looks exhausted) explains ongoing/just-stopped action = Present Perfect Continuous. \"She HAS BEEN WORKING all night.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with FOR or SINCE.",
+      "text": "\"I've been studying English ___ three years.\"",
+      "correct": "for",
+      "hint": "\"three years\" = duration/period → FOR. \"FOR three years.\" ✅ (SINCE = starting point, like \"since 2021\")"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with FOR or SINCE.",
+      "text": "\"She's been working at DataBridge ___ she graduated.\"",
+      "correct": "since",
+      "hint": "\"she graduated\" = a starting point in time → SINCE. \"SINCE she graduated.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Continuous or Simple? Choose.",
+      "text": "\"I ___ (read) this article — it's really interesting.\" (still reading now)",
+      "opts": [
+        "have been reading",
+        "have read",
+        "was reading",
+        "read"
+      ],
+      "correct": "have been reading",
+      "hint": "Process ongoing = Present Perfect Continuous. \"I HAVE BEEN READING.\" ✅ (If I had finished: \"I HAVE READ\" ✅)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Continuous or Simple? Choose.",
+      "text": "\"He ___ three books this month.\" (completed, counting)",
+      "opts": [
+        "has been reading",
+        "has read",
+        "was reading",
+        "is reading"
+      ],
+      "correct": "has read",
+      "hint": "Counting completions → Present Perfect SIMPLE. \"He HAS READ three books this month.\" ✅ (NOT \"has been reading three books\" — can't count with Continuous!)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct form for a stative verb.",
+      "text": "\"I ___ her since secondary school.\" (know)",
+      "opts": [
+        "'ve been knowing",
+        "'ve known",
+        "'m knowing",
+        "was knowing"
+      ],
+      "correct": "'ve known",
+      "hint": "\"know\" = stative verb → Present Perfect SIMPLE. \"I'VE KNOWN her since secondary school.\" ✅ Never \"been knowing\"!"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Form the Present Perfect Continuous.",
+      "text": "\"How long ___ (you / study) for the exam?\"",
+      "correct": "have you been studying",
+      "hint": "Question: \"How long HAVE YOU BEEN STUDYING for the exam?\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "True or False?",
+      "text": "\"She has been working here since 3 years.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She has been working here FOR 3 years.\" — duration (3 years) requires FOR, not SINCE!"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the best sentence.",
+      "text": "\"Why is your shirt wet?\" — Best answer:",
+      "opts": [
+        "\"I've been running.\"",
+        "\"I've run.\"",
+        "\"I ran.\"",
+        "\"I run.\""
+      ],
+      "correct": "\"I've been running.\"",
+      "hint": "Visible evidence (wet shirt) + explains current state = Perfect Continuous. \"I'VE BEEN RUNNING.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"She ___ (prepare) for this interview for months.\"",
+      "correct": "has been preparing",
+      "hint": "Duration ongoing → Present Perfect Continuous. \"She HAS BEEN PREPARING for months.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose: Continuous or Simple?",
+      "text": "\"I ___ (finish) the report — here it is.\" (completed, result matters)",
+      "opts": [
+        "'ve been finishing",
+        "'ve finished",
+        "was finishing",
+        "finished"
+      ],
+      "correct": "'ve finished",
+      "hint": "Completed result ready to hand over = Present Perfect SIMPLE. \"I'VE FINISHED the report.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "\"She ___ well lately — something must be wrong.\"",
+      "opts": [
+        "hasn't been sleeping",
+        "didn't sleep",
+        "doesn't sleep",
+        "wasn't sleeping"
+      ],
+      "correct": "hasn't been sleeping",
+      "hint": "Ongoing recent pattern → Present Perfect Continuous negative. \"She HASN'T BEEN SLEEPING well lately.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Present Perfect Continuous is formed with:",
+      "opts": [
+        "have + past participle",
+        "have been + -ing",
+        "was/were + -ing",
+        "will have + -ing"
+      ],
+      "correct": "have been + -ing",
+      "hint": "have/has + been + present participle (-ing). ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has been working here ___.\" Which word fits?",
+      "opts": [
+        "FOR six months",
+        "SINCE six months",
+        "FROM six months",
+        "AT six months"
+      ],
+      "correct": "FOR six months",
+      "hint": "\"six months\" = duration → FOR. \"FOR six months.\" ✅ (SINCE = starting point)"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been studying SINCE ___.\" Which fits?",
+      "opts": [
+        "three years",
+        "a long time",
+        "2021",
+        "ages"
+      ],
+      "correct": "2021",
+      "hint": "SINCE + starting point (specific time). \"SINCE 2021.\" ✅ (FOR + duration: \"for three years\")"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She HAS BEEN WORKING\" — \"has been\" = ?",
+      "opts": [
+        "Present Simple",
+        "Auxiliary for Present Perfect Continuous (she/he/it)",
+        "Past Simple",
+        "Future"
+      ],
+      "correct": "Auxiliary for Present Perfect Continuous (she/he/it)",
+      "hint": "\"has been + -ing\" = Present Perfect Continuous for she/he/it. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When is Present Perfect Continuous most appropriate?",
+      "opts": [
+        "Completed past actions",
+        "Actions still ongoing or just-stopped — duration or evidence",
+        "Predictions",
+        "Schedules"
+      ],
+      "correct": "Actions still ongoing or just-stopped — duration or evidence",
+      "hint": "Use when: duration is the focus, action continues, OR visible evidence explains the current state. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (know) her since school.\" (stative verb)",
+      "correct": "'ve known",
+      "hint": "\"know\" = stative verb → CANNOT use Continuous. \"I'VE KNOWN her since school.\" ✅ Never \"been knowing\"!"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been reading\" vs \"I've read.\" Key difference:",
+      "opts": [
+        "No difference",
+        "\"been reading\" = process ongoing; \"read\" = completed",
+        "\"been reading\" = past only; \"read\" = future",
+        "\"been reading\" is informal"
+      ],
+      "correct": "\"been reading\" = process ongoing; \"read\" = completed",
+      "hint": "Continuous = duration/process. Simple = completion/result. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He has read 5 books this month.\" Can we say \"been reading 5 books\"?",
+      "opts": [
+        "Yes, both work",
+        "No — can't count with Continuous; use Simple for numbers",
+        "Yes, but only informally",
+        "No — use Past Simple"
+      ],
+      "correct": "No — can't count with Continuous; use Simple for numbers",
+      "hint": "Counting completions → Simple. \"He HAS READ 5 books.\" ✅ NOT \"been reading 5 books.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You look tired.\" What's the most natural reply?",
+      "opts": [
+        "\"I've worked all night.\"",
+        "\"I've been working all night.\"",
+        "\"I worked all night.\"",
+        "\"I work all night.\""
+      ],
+      "correct": "\"I've been working all night.\"",
+      "hint": "Explaining a visible state (looking tired) = Perfect Continuous. \"I'VE BEEN WORKING all night.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"How long ___ (you / work) at WKU?\" (question form)",
+      "correct": "have you been working",
+      "hint": "\"How long HAVE YOU BEEN WORKING at WKU?\" ✅ Question form of Present Perfect Continuous."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been knowing her for years.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Known\" should replace \"knowing\" — stative verb",
+        "\"Been\" is incorrect",
+        "\"For\" should be \"since\""
+      ],
+      "correct": "\"Known\" should replace \"knowing\" — stative verb",
+      "hint": "\"know\" = stative → use Simple. \"I'VE KNOWN her for years.\" ✅ Never \"been knowing\"!"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She hasn't been eating much.\" — This suggests:",
+      "opts": [
+        "She ate a lot in the past",
+        "She ate something once recently",
+        "A recent pattern of not eating enough — visible concern",
+        "She will not eat in the future"
+      ],
+      "correct": "A recent pattern of not eating enough — visible concern",
+      "hint": "Present Perfect Continuous negative = recent ongoing pattern with implication. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (study) since 7 a.m. It's now noon.\"",
+      "correct": "has been studying",
+      "hint": "\"has been studying\" = Perfect Continuous. Duration from 7 a.m. until now. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"FOR\" is used with:",
+      "opts": [
+        "A starting point (since 2020)",
+        "A duration/length of time (three months)",
+        "Both equally",
+        "Neither — use \"since\" always"
+      ],
+      "correct": "A duration/length of time (three months)",
+      "hint": "FOR + period of time (three months, ages, two years). SINCE + starting point (2020, Monday). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been working here since I was 18.\" — \"since\" is followed by:",
+      "opts": [
+        "Duration",
+        "Starting point/time",
+        "Result",
+        "Number"
+      ],
+      "correct": "Starting point/time",
+      "hint": "SINCE + starting point in time. \"since I was 18\" = the moment it began. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses Present Perfect Continuous CORRECTLY?",
+      "opts": [
+        "\"I've been knowing him for years.\"",
+        "\"She's been read the report.\"",
+        "\"He has been preparing for the interview for weeks.\"",
+        "\"They've been finish the project.\""
+      ],
+      "correct": "\"He has been preparing for the interview for weeks.\"",
+      "hint": "\"He HAS BEEN PREPARING for the interview for weeks.\" ✅ Correct: have been + -ing + duration."
+    }
+  ]
+}

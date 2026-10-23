@@ -1,0 +1,368 @@
+{
+  "id": "l39-5",
+  "moduleNum": 5,
+  "lessonNum": 8,
+  "moduleTitle": "Better, Best, Most",
+  "type": "test",
+  "title": "Module 5 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to Text 1, why is Almaty more cosmopolitan than other cities?",
+      "opts": [
+        "It's the capital",
+        "It has international connections and many cultures",
+        "It's the biggest",
+        "It's near Europe"
+      ],
+      "correct": "It has international connections and many cultures",
+      "hint": "\"Almaty is larger, louder, and more cosmopolitan... It has more international connections.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir says Astana is more comfortable to live in than Almaty.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Astana is more impressive than Almaty, but it's also less comfortable.\" — Amir."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In Text 2, which factor does Amir say is more important than modern buildings?",
+      "opts": [
+        "Price of tuition",
+        "Access to professors",
+        "Campus size",
+        "International ranking"
+      ],
+      "correct": "Access to professors",
+      "hint": "\"Better access to professors is worth more than a better-looking building.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila says the most significant factor in choosing a university is ___ .",
+      "correct": "fit",
+      "hint": "\"The most significant factor was not rank or fame, but fit.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Text 1 say is the most honest definition of academic success?",
+      "opts": [
+        "Getting top grades",
+        "Getting a degree from the most prestigious place",
+        "Leaving knowing who you are",
+        "Having the biggest salary"
+      ],
+      "correct": "Leaving knowing who you are",
+      "hint": "\"not the degree from the most famous institution, but the student who leaves four years later knowing exactly who they are.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Text 2 admits that prestigious universities help with job prospects.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"a degree from a more famous university opens more doors in the job market. This is undeniably true.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which flat is closer to the university?",
+      "opts": [
+        "Flat A",
+        "Flat B",
+        "Both are the same distance",
+        "Neither is mentioned"
+      ],
+      "correct": "Flat A",
+      "hint": "\"Flat A is much closer — about eight minutes on foot. Flat B is at least twenty-five minutes by bus.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which flat has better natural light?",
+      "opts": [
+        "Flat A",
+        "Flat B",
+        "Both are equally bright",
+        "Neither has good light"
+      ],
+      "correct": "Flat B",
+      "hint": "\"Flat B has much better natural light.\" Flat A faces north and is darker."
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila says \"___ is harder to get back than sunlight.\"",
+      "correct": "time",
+      "hint": "\"Time is harder to get back than sunlight.\" — Kamila's argument for Flat A despite the lighting."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Flat A is on a busier, noisier street than Flat B.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Flat B is noisier — it's right on the main road.\" / \"Flat A is residential. Much more peaceful.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which flat has a more reliable landlord?",
+      "opts": [
+        "Flat A",
+        "Flat B",
+        "Both the same",
+        "Not mentioned"
+      ],
+      "correct": "Flat A",
+      "hint": "\"The landlord seems more reliable too.\" — Zhibek about Flat A."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila's overall recommendation?",
+      "opts": [
+        "Flat B because of the light",
+        "Flat A despite the lighting",
+        "Neither flat",
+        "She doesn't decide"
+      ],
+      "correct": "Flat A despite the lighting",
+      "hint": "\"Zhibek, it sounds like Flat A is the obvious choice — except for the light.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Big\" comparative is:",
+      "opts": [
+        "more big",
+        "biger",
+        "bigger",
+        "the biggest"
+      ],
+      "correct": "bigger",
+      "hint": "\"big\" = CVC → double g + er: bigger. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Beautiful\" superlative is:",
+      "opts": [
+        "beautifulest",
+        "more beautiful",
+        "the most beautiful",
+        "the beautifulest"
+      ],
+      "correct": "the most beautiful",
+      "hint": "\"beautiful\" = 3+ syllables → the most beautiful. Always \"the\" before superlatives. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"good → ___ (comparative)\" and \"good → ___ (superlative)\"",
+      "correct": "better / the best",
+      "hint": "\"good → better (comparative) → the best (superlative)\" — both irregular."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is ___ student in the class.\" (superlative of \"dedicated\")",
+      "opts": [
+        "more dedicated",
+        "the dedicatedest",
+        "the most dedicated",
+        "the most dedicatedest"
+      ],
+      "correct": "the most dedicated",
+      "hint": "\"dedicated\" = 4 syllables → the most dedicated. ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Flat A is ___ closer than Flat B.\" (BIG difference)",
+      "opts": [
+        "a bit",
+        "slightly",
+        "much",
+        "even a"
+      ],
+      "correct": "much",
+      "hint": "\"much + comparative\" = big difference. \"Flat A is much closer.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Almaty is the most bigger city in Kazakhstan\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Almaty is the biggest city.\" — NEVER \"the most\" + short adjective. ✗ \"the most bigger\"!"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Is this flat ___ nice ___ the other one?\" (equal comparison)",
+      "correct": "as / as",
+      "hint": "\"as + adjective + as\" = equal comparison. \"Is it AS NICE AS...?\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Noisy\" comparative is:",
+      "opts": [
+        "more noisy",
+        "noisier",
+        "noisyer",
+        "the noisiest"
+      ],
+      "correct": "noisier",
+      "hint": "\"noisy\" ends in -y → drop y + ier: noisier. ✅ (Note: \"the noisiest\" is superlative, not comparative)"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Almaty is the most cosmopolitan city.\" \"Cosmopolitan\" means:",
+      "opts": [
+        "very old",
+        "including people from many countries",
+        "very expensive",
+        "located by the sea"
+      ],
+      "correct": "including people from many countries",
+      "hint": "\"cosmopolitan\" = including diverse cultures, people, and international influences."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The teaching quality here is ___ higher than at larger universities.",
+      "correct": "consistently",
+      "hint": "\"consistently\" = always, over time. Not just sometimes — reliably always higher."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She felt invisible at the large university.\" This means:",
+      "opts": [
+        "She was hiding",
+        "She was unnoticed and overlooked",
+        "She was well-known",
+        "She was shy"
+      ],
+      "correct": "She was unnoticed and overlooked",
+      "hint": "\"Invisible\" here = not seen as an individual; anonymous and unnoticed."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The professor-to-student ratio is better here.\" \"Ratio\" means:",
+      "opts": [
+        "The distance between them",
+        "The relationship in number between two things",
+        "The quality of professors",
+        "The size of classes"
+      ],
+      "correct": "The relationship in number between two things",
+      "hint": "\"ratio\" = the comparative relationship between two quantities, e.g. 1 professor : 15 students."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"On paper, the option looked better.\" \"On paper\" means:",
+      "opts": [
+        "Printed on paper",
+        "In theory / according to information",
+        "Officially and legally",
+        "In a newspaper"
+      ],
+      "correct": "In theory / according to information",
+      "hint": "\"on paper\" = theoretically, based on written information, before experiencing reality."
+    }
+  ]
+}

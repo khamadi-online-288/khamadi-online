@@ -1,0 +1,246 @@
+{
+  "id": "l77-4",
+  "moduleNum": 19,
+  "lessonNum": 7,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Writing: A Scientific Summary and Critical Evaluation",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the study: what was investigated and why it matters",
+      "hint": "State the topic, the gap in knowledge, and why it was investigated"
+    },
+    {
+      "key": "method",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe the methodology — sample, procedure, controls",
+      "hint": "Use passive and hedging: \"approximately X participants were selected…\""
+    },
+    {
+      "key": "results",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Report findings with appropriate hedging",
+      "hint": "Use: \"Results suggest…\", \"Approximately…\", \"The group that X performed considerably better than…\""
+    },
+    {
+      "key": "evaluation",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Evaluate strengths and limitations",
+      "hint": "Comparatives: \"The study was considerably more rigorous than…\" / \"The sample was smaller than…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Conclude with implications and need for further research",
+      "hint": "\"These findings may have implications for… / Further research is needed to establish whether…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "This study investigated ",
+      "suffix": ", a question of considerable scientific significance.",
+      "placeholder": "the relationship between open data practices and replication rates",
+      "hint": "Introduce the research question — use noun phrase"
+    },
+    {
+      "key": "l2",
+      "prefix": "Approximately ",
+      "suffix": " participants were recruited and randomly assigned to ___.",
+      "hint": "Describe the sample and design with hedging",
+      "placeholder": "150 / the experimental or control condition"
+    },
+    {
+      "key": "l3",
+      "prefix": "The results suggest that ",
+      "suffix": ", though the effect size was ___.",
+      "hint": "Report findings with hedging verb + comparative for effect size",
+      "placeholder": "open data practices are associated with higher replication rates / considerably smaller than anticipated"
+    },
+    {
+      "key": "l4",
+      "prefix": "While the methodology was ",
+      "suffix": ", the study was limited by ___.",
+      "hint": "Use \"while\" for contrast; comparative for evaluation",
+      "placeholder": "considerably more rigorous than previous studies / its relatively small and non-representative sample"
+    },
+    {
+      "key": "l5",
+      "prefix": "Further research is needed to establish whether ",
+      "suffix": ", and to determine ___.",
+      "hint": "Hedge the conclusion — \"needed to establish whether + clause\"",
+      "placeholder": "these findings generalise to other scientific disciplines / the precise mechanisms underlying the observed effects"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing and contextualising",
+      "color": "#003876",
+      "items": [
+        "This study aimed to investigate the relationship between X and Y.",
+        "There is currently considerable debate about whether X causes Y.",
+        "Previous research has suggested that X may be associated with Y.",
+        "It remains unclear whether X is a causal factor or merely a correlate.",
+        "This study addressed a significant gap in the existing literature."
+      ]
+    },
+    {
+      "category": "Reporting findings with hedging",
+      "color": "#1D9E75",
+      "items": [
+        "The results suggest that X is associated with Y.",
+        "Participants in the experimental group tended to perform considerably better.",
+        "Approximately 60% of the sample showed measurable improvement.",
+        "The effect size, while statistically significant, was smaller than anticipated.",
+        "These findings appear to be consistent with previous research on this topic."
+      ]
+    },
+    {
+      "category": "Evaluating with comparatives",
+      "color": "#C9933B",
+      "items": [
+        "The methodology was considerably more rigorous than that of earlier studies.",
+        "The sample size was larger than average for this type of research.",
+        "Effect sizes were not as large as those reported in initial pilot studies.",
+        "The more carefully variables were controlled, the more consistent the results became.",
+        "The control group showed significantly fewer improvements than the experimental group."
+      ]
+    },
+    {
+      "category": "Hedged conclusions",
+      "color": "#1B8FC4",
+      "items": [
+        "These findings may have important implications for X.",
+        "Further research is needed to establish whether these results are replicable.",
+        "It is likely that the effect will be smaller in a more diverse population.",
+        "There is some evidence that X may contribute to Y, though causation cannot yet be confirmed.",
+        "These results are best interpreted as preliminary and should be replicated before conclusions are drawn."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The experimental group performed ___ better than the control group across all measures.\" (considerably)",
+      "opts": [
+        "very much",
+        "considerably",
+        "the most",
+        "much more considerably"
+      ],
+      "correct": "considerably",
+      "hint": "\"Considerably better than\" = amplified comparative",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ 150 participants were recruited from the general population.\" (imprecise quantity)",
+      "correct": "Approximately",
+      "hint": "\"Approximately + number\" = standard scientific approximator",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The results ___ that open data is associated with higher replication rates.\" (medium-strength hedge)",
+      "opts": [
+        "prove",
+        "suggest",
+        "must show",
+        "clearly demonstrate"
+      ],
+      "correct": "suggest",
+      "hint": "\"Suggest\" = hedging reporting verb — not \"prove\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ carefully variables were controlled, the ___ consistent the findings became.\" (proportional)",
+      "correct": "more / more",
+      "hint": "\"The more + comparative, the more + comparative\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It remains ___ whether the effects will replicate in a more diverse population.\" (impersonal hedge)",
+      "opts": [
+        "unclear",
+        "maybe",
+        "possible that",
+        "probably unclear"
+      ],
+      "correct": "unclear",
+      "hint": "\"It remains unclear whether + clause\" = formal impersonal hedge",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"This study proves that open science improves research quality\" is an appropriately hedged scientific claim.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Proves\" is too strong — use \"suggests,\" \"indicates,\" or \"appears to\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"These findings ___ have important implications for how journals evaluate submissions.\" (possibility)",
+      "correct": "may / might / could",
+      "hint": "Modal verb for possibility: \"may/might/could have\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Effect sizes were not ___ large as those reported in initial pilot studies.\" (below equal)",
+      "opts": [
+        "so",
+        "as",
+        "much",
+        "quite"
+      ],
+      "correct": "as",
+      "hint": "\"Not as + adjective + as\" = lower than the comparison point",
+      "points": 2
+    }
+  ]
+}

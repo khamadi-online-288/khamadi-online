@@ -1,0 +1,497 @@
+{
+  "id": "l19-3",
+  "moduleNum": 3,
+  "lessonNum": 3,
+  "moduleTitle": "Getting Around",
+  "title": "Asking for directions",
+  "type": "listening",
+  "xp": 60,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "Excuse me, could you help me? I'm looking for the City History Museum. Am I going the right way?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "The History Museum? Hmm, let me think. Actually, you're going in the wrong direction, I'm afraid.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Oh no! How far is it from here?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "Not too far — about ten minutes on foot. Turn around and go back the way you came. Walk straight ahead for about 200 metres.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "OK, straight ahead for 200 metres. And then?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "Then turn left at the big roundabout — you'll see a tall blue building on the corner. That's the main post office.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Turn left at the roundabout, past the post office. Got it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "That's right. Then cross the road at the zebra crossing. The museum is the large grey building directly opposite.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Cross the road and it's the grey building opposite. Is it easy to find?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "Very easy! There's a big blue sign with the museum's name above the entrance. You can't miss it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Wonderful. One more thing — do you know if the museum is open on Mondays?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "I believe it's closed on Mondays. Most museums here are. You should check their website to be sure.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Good to know — thank you so much! You've been very helpful.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Woman",
+      "text": "My pleasure! Oh, and don't forget — the museum café is excellent. The apple cake is legendary!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Ha! Now I'm really looking forward to it. Thank you again!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "roundabout",
+      "emoji": "🔄",
+      "opts": [
+        "перекрёсток",
+        "кольцевая развязка",
+        "тротуар",
+        "мост"
+      ],
+      "correct": "кольцевая развязка"
+    },
+    {
+      "id": "p2",
+      "word": "zebra crossing",
+      "emoji": "🦓",
+      "opts": [
+        "подземный переход",
+        "пешеходный переход",
+        "светофор",
+        "пешеходный мост"
+      ],
+      "correct": "пешеходный переход"
+    },
+    {
+      "id": "p3",
+      "word": "opposite",
+      "emoji": "↔️",
+      "opts": [
+        "рядом",
+        "напротив",
+        "за углом",
+        "вдалеке"
+      ],
+      "correct": "напротив"
+    },
+    {
+      "id": "p4",
+      "word": "on foot",
+      "emoji": "🚶",
+      "opts": [
+        "на машине",
+        "на велосипеде",
+        "пешком",
+        "на автобусе"
+      ],
+      "correct": "пешком"
+    },
+    {
+      "id": "p5",
+      "word": "entrance",
+      "emoji": "🚪",
+      "opts": [
+        "выход",
+        "вход",
+        "этаж",
+        "окно"
+      ],
+      "correct": "вход"
+    },
+    {
+      "id": "p6",
+      "word": "legendary",
+      "emoji": "⭐",
+      "opts": [
+        "обычный",
+        "дорогой",
+        "легендарный",
+        "новый"
+      ],
+      "correct": "легендарный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam is going in the right direction when he asks.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "The museum is about ten minutes on foot.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Rustam should turn right at the roundabout.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The museum is a large grey building.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The museum is open on Mondays.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "The woman recommends the café's apple cake.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Aktobe",
+      "emoji": "🧭",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student, lost!"
+    },
+    {
+      "id": "woman",
+      "name": "Woman",
+      "city": "Uralsk",
+      "emoji": "👩",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "role": "Local resident, helpful"
+    },
+    {
+      "id": "post",
+      "name": "Post Office",
+      "city": "—",
+      "emoji": "📮",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "Key landmark on the route"
+    },
+    {
+      "id": "museum",
+      "name": "Museum",
+      "city": "Uralsk",
+      "emoji": "🏛️",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "The final destination"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"You're going in the wrong direction, I'm afraid.\"",
+      "correctCharId": "woman"
+    },
+    {
+      "id": "s2",
+      "text": "\"Turn left at the big roundabout — past the tall blue building.\"",
+      "correctCharId": "post"
+    },
+    {
+      "id": "s3",
+      "text": "\"Cross the road. It's the large grey building directly opposite.\"",
+      "correctCharId": "museum"
+    },
+    {
+      "id": "s4",
+      "text": "\"Excuse me — I'm looking for the City History Museum.\"",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "\"The café's apple cake is legendary — don't miss it!\"",
+      "correctCharId": "woman"
+    },
+    {
+      "id": "s6",
+      "text": "\"I believe it's closed on Mondays. Check their website.\"",
+      "correctCharId": "woman"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam was walking in the correct direction.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"you're going in the wrong direction, I'm afraid\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does it take to walk to the museum?",
+      "opts": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "20 minutes"
+      ],
+      "correct": "10 minutes",
+      "hint": "\"about ten minutes on foot\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What should Rustam do first?",
+      "opts": [
+        "Turn left",
+        "Cross the road",
+        "Turn around and go back",
+        "Take the bus"
+      ],
+      "correct": "Turn around and go back",
+      "hint": "\"Turn around and go back the way you came.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is at the roundabout?",
+      "opts": [
+        "A red post office",
+        "A tall blue building",
+        "A green park",
+        "A shopping centre"
+      ],
+      "correct": "A tall blue building",
+      "hint": "\"a tall blue building on the corner. That's the main post office.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Rustam need to do after the roundabout?",
+      "opts": [
+        "Turn right",
+        "Go straight",
+        "Cross the road at the zebra crossing",
+        "Take the bus"
+      ],
+      "correct": "Cross the road at the zebra crossing",
+      "hint": "\"cross the road at the zebra crossing\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What colour is the museum building?",
+      "opts": [
+        "Blue",
+        "White",
+        "Red",
+        "Grey"
+      ],
+      "correct": "Grey",
+      "hint": "\"the large grey building directly opposite\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The museum is open on Mondays.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I believe it's closed on Mondays.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the woman recommend at the museum?",
+      "opts": [
+        "The gift shop",
+        "The apple cake in the café",
+        "A guided tour",
+        "The entrance exhibition"
+      ],
+      "correct": "The apple cake in the café",
+      "hint": "\"the museum café is excellent. The apple cake is legendary!\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is above the museum entrance?",
+      "opts": [
+        "A clock",
+        "A flag",
+        "A big blue sign with the museum's name",
+        "A statue"
+      ],
+      "correct": "A big blue sign with the museum's name",
+      "hint": "\"There's a big blue sign with the museum's name above the entrance.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does the woman describe the museum? \"You can't ___ it.\"",
+      "opts": [
+        "find",
+        "miss",
+        "see",
+        "visit"
+      ],
+      "correct": "miss",
+      "hint": "\"You can't miss it.\" — a common English expression meaning \"it's very easy to find\"."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ straight ahead for 200 metres, then turn left.",
+      "correct": "Go",
+      "hint": "Imperative direction: Go straight."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ the road at the zebra crossing.\" — correct imperative?",
+      "opts": [
+        "Crossing",
+        "To cross",
+        "Cross",
+        "You cross"
+      ],
+      "correct": "Cross",
+      "hint": "Imperative = base verb. Cross the road."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ left at the roundabout — not right!",
+      "correct": "Turn",
+      "hint": "Imperative: Turn left."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which direction word means the same as \"in front of you\"?",
+      "opts": [
+        "opposite",
+        "straight ahead",
+        "on the left",
+        "around the corner"
+      ],
+      "correct": "straight ahead",
+      "hint": "\"Go straight ahead\" = keep walking forward without turning."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"zebra crossing\"?",
+      "opts": [
+        "A type of road",
+        "A pedestrian crossing with black-and-white stripes",
+        "A roundabout",
+        "An underground passage"
+      ],
+      "correct": "A pedestrian crossing with black-and-white stripes",
+      "hint": "Zebra crossing = painted pedestrian crossing."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The museum is ___ — directly across the road from the post office.",
+      "correct": "opposite",
+      "hint": "Opposite = directly facing, on the other side."
+    }
+  ]
+}

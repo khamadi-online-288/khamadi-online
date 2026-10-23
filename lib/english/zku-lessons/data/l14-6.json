@@ -1,0 +1,215 @@
+{
+  "id": "l14-6",
+  "moduleNum": 14,
+  "lessonNum": 7,
+  "moduleTitle": "Weather and clothes",
+  "title": "Describe your perfect outfit",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "My perfect outfit for... is...",
+      "emoji": "👗",
+      "opts": [
+        "Мой худший образ для... —...",
+        "Мой модный образ для... —...",
+        "Мой идеальный образ для... —...",
+        "Мой любимый цвет для... —..."
+      ],
+      "correct": "Мой идеальный образ для... —..."
+    },
+    {
+      "id": "p2",
+      "word": "I would wear...",
+      "emoji": "🧥",
+      "opts": [
+        "Я ношу каждый день...",
+        "Я покупаю...",
+        "Я бы надел(а)...",
+        "Я смотрю на..."
+      ],
+      "correct": "Я бы надел(а)..."
+    },
+    {
+      "id": "p3",
+      "word": "It keeps me warm / dry",
+      "emoji": "🔥",
+      "opts": [
+        "Это делает меня модным",
+        "Это помогает мне учиться",
+        "Это согревает / защищает от дождя",
+        "Это делает меня уставшим"
+      ],
+      "correct": "Это согревает / защищает от дождя"
+    },
+    {
+      "id": "p4",
+      "word": "I prefer... to... because...",
+      "emoji": "⚖️",
+      "opts": [
+        "Я покупаю... вместо... потому что...",
+        "Я предпочитаю... вместо... потому что...",
+        "Я сравниваю... с... потому что...",
+        "Я надеваю... после... потому что..."
+      ],
+      "correct": "Я предпочитаю... вместо... потому что..."
+    },
+    {
+      "id": "p5",
+      "word": "The most important item is...",
+      "emoji": "⭐",
+      "opts": [
+        "Самый дорогой предмет — ...",
+        "Самый красивый предмет — ...",
+        "Самый важный предмет — ...",
+        "Самый новый предмет — ..."
+      ],
+      "correct": "Самый важный предмет — ..."
+    },
+    {
+      "id": "p6",
+      "word": "Without it, I feel...",
+      "emoji": "🥶",
+      "opts": [
+        "Без него я покупаю...",
+        "Без него я выгляжу...",
+        "Без него я нахожу...",
+        "Без него я чувствую себя..."
+      ],
+      "correct": "Без него я чувствую себя..."
+    }
+  ],
+  "writingModel": [
+    "My perfect outfit is designed for a cold Uralsk winter day — the kind of day when the temperature is around minus ten degrees and the wind is sharp, relentless, and coming straight across the open steppe. On days like that, getting dressed correctly is not just about fashion or style. It is about staying warm, protected, and comfortable enough to walk between buildings, sit through two-hour lectures, and still feel like a human being by the end of the day. After two winters in Uralsk, I have finally found the combination that works perfectly for me.",
+    "I always start with the base layer — a thin but extremely warm thermal undershirt and thermal leggings. These are the most important items in my whole winter wardrobe, even though nobody ever sees them. A good thermal layer is warmer than three ordinary t-shirts put together, and much thinner and lighter than a thick jumper. On top of the thermals, I put on a thick dark navy woollen jumper. It is soft, heavy, and slightly oversized — more comfortable to wear under a coat than a tight-fitting one. The colour is dark enough to go with anything.",
+    "My outer layer is the star of the whole outfit — a long charcoal-grey parka that reaches almost to my knees. It has a wide hood lined with soft fleece fabric on the inside, a waterproof outer shell that repels even heavy snow, and two deep pockets on the front. This coat is warmer than any coat I have ever owned before. On the bottom, I wear thick dark jeans over my thermal leggings. They are not as warm as wool trousers, but they are much more practical for a student — easier to move in and smart enough for lectures and the library.",
+    "For my feet, I always choose my tall dark brown waterproof boots. The sole is thick and rubber — it does not slip on icy pavements, which is very important in Uralsk from November to March. The inner lining is warm fleece that keeps my feet comfortable even at minus fifteen degrees. These boots are much more practical and much more durable than ordinary leather shoes or canvas trainers in this weather. Then come the accessories — my three non-negotiables. A long cream-coloured woollen scarf, wrapped twice around my neck. A dark grey knitted hat that covers my ears completely. And black leather gloves with a thin wool lining inside. Together, these three items make the whole outfit work. Without them, even the warmest coat cannot protect you from a sharp Uralsk wind.",
+    "What makes this outfit truly perfect is the balance of warmth, practicality, and simplicity. Every item is a neutral colour — navy, charcoal-grey, dark brown, black, cream — and every item matches every other item. Nothing is too fashionable or too expensive. Everything is well-made, practical, and built to last. The coat is warmer and more waterproof than most. The boots are more durable and more practical than any others I have tried. And the accessories are simple but absolutely essential. I believe that the best outfit for cold weather is not the most stylish one — it is the one that makes you forget you are cold at all. That is the test of a truly perfect winter outfit."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "My perfect outfit is for ",
+      "suffix": " weather — the kind of day when ___.",
+      "placeholder": "season / temperature",
+      "hint": "e.g. cold winter / a hot summer / a rainy autumn / a mild spring"
+    },
+    {
+      "key": "base",
+      "prefix": "I start with ",
+      "suffix": ", which is ___ and ___.",
+      "placeholder": "base layer / first item + two adjectives",
+      "hint": "e.g. a thin thermal layer, which is warm and light / a soft cotton t-shirt, which is light and breathable"
+    },
+    {
+      "key": "main",
+      "prefix": "On top, I wear a ",
+      "suffix": ", which is ___ than ___.",
+      "placeholder": "main item + comparative + what you compare to",
+      "hint": "e.g. thick woollen jumper, which is warmer than a thin one / long waterproof coat, which is more practical than a short jacket"
+    },
+    {
+      "key": "bottom",
+      "prefix": "For the bottom, I choose ",
+      "suffix": " because they are ___ than ___.",
+      "placeholder": "trousers / jeans + comparative",
+      "hint": "e.g. dark jeans, because they are more practical than wool trousers / warm leggings, because they are warmer than ordinary ones"
+    },
+    {
+      "key": "shoes",
+      "prefix": "On my feet, I always wear ",
+      "suffix": " because ___.",
+      "placeholder": "shoes / boots + reason",
+      "hint": "e.g. tall waterproof boots because the sole does not slip on ice / warm ankle boots because they keep my feet comfortable"
+    },
+    {
+      "key": "access",
+      "prefix": "My most important accessory is ",
+      "suffix": ", which keeps me ___.",
+      "placeholder": "hat / scarf / gloves + what it does",
+      "hint": "e.g. a woollen scarf, which keeps me warm around my neck / a knitted hat, which keeps my ears from freezing"
+    },
+    {
+      "key": "without",
+      "prefix": "Without ",
+      "suffix": ", even the warmest coat is not enough.",
+      "placeholder": "the accessory or layer you cannot skip",
+      "hint": "e.g. my scarf and gloves / a good base layer / a waterproof outer layer"
+    },
+    {
+      "key": "end",
+      "prefix": "What makes this outfit perfect is ",
+      "suffix": " because ___.",
+      "placeholder": "the key quality + reason",
+      "hint": "e.g. the balance of warmth and practicality / the combination of neutral colours / the layers that work together"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Setting the scene — weather context",
+      "color": "#003876",
+      "items": [
+        "My perfect outfit is for [season / weather] — the kind of day when...",
+        "On a typical [cold / hot / rainy / windy] day in [city], I would wear...",
+        "When the temperature is around [number] degrees and the wind is [adjective]...",
+        "In [Uralsk / Astana / Kostanay], [winter / autumn] can be very [adjective].",
+        "Getting dressed correctly in this weather is about [warmth / comfort / protection].",
+        "After [one / two] year(s) in this city, I have found the perfect combination."
+      ]
+    },
+    {
+      "category": "Describing clothing — adjectives and details",
+      "color": "#1B8FC4",
+      "items": [
+        "I wear a [thick / thin / long / short / waterproof] [item].",
+        "The [item] is [adjective] and [adjective] — perfect for this weather.",
+        "It has a [warm / soft / wide] [feature] on the [inside / outside / front].",
+        "The colour is [neutral / dark / bright] — it goes with everything.",
+        "It is made of [wool / cotton / leather / rubber / fleece].",
+        "The [sole / lining / hood / pocket] is [thick / warm / soft / deep]."
+      ]
+    },
+    {
+      "category": "Comparing items — comparative adjectives",
+      "color": "#7C3AED",
+      "items": [
+        "This [item] is warmer / more comfortable / more practical than [other item].",
+        "It is much warmer than [alternative] — a huge difference in cold weather.",
+        "[Item] is not as warm as [item], but it is more practical for a student.",
+        "These boots are more durable and more waterproof than ordinary shoes.",
+        "A good base layer is warmer than three ordinary t-shirts put together.",
+        "The most important item in my outfit is [item] — nothing is more essential."
+      ]
+    },
+    {
+      "category": "Explaining your choices — why this outfit works",
+      "color": "#1D9E75",
+      "items": [
+        "Without [item], even the warmest coat is not enough.",
+        "Together, [item 1] and [item 2] make the whole outfit work.",
+        "The combination of [A] and [B] is perfect because...",
+        "I prefer [item] to [item] because it is more [adjective].",
+        "What makes this outfit perfect is the balance of [quality] and [quality].",
+        "I believe the best outfit for cold weather is the one that makes you forget you are cold."
+      ]
+    }
+  ]
+}

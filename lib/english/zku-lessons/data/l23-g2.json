@@ -1,0 +1,596 @@
+{
+  "id": "l23-g2",
+  "moduleNum": 7,
+  "lessonNum": 4,
+  "moduleTitle": "Stories from the Past",
+  "title": "Past Simple — Irregular Verbs",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Simple — Irregular Verbs",
+  "grammarNote": "Неправильные глаголы (Irregular verbs) — особые формы Past Simple. Их нужно запомнить!\n\nГруппа 1 — гласная меняется (A→O):\ncome→came · run→ran · swim→swam · sing→sang · drink→drank\n\nГруппа 2 — bought/thought/caught:\nbuy→bought · think→thought · bring→brought · catch→caught · teach→taught\n\nГруппа 3 — все формы одинаковые:\nput→put · cut→cut · hit→hit · let→let · hurt→hurt · cost→cost\n\nГруппа 4 — запомни отдельно (самые важные):\ngo→went · be→was/were · have→had · do→did · say→said\nmake→made · take→took · know→knew · give→gave · see→saw\nget→got · find→found · tell→told · write→wrote · read→read\nleave→left · feel→felt · keep→kept · think→thought · become→became\n\n💡 Учи тройками: work / worked / worked (regular) · go / went / gone (irregular)",
+  "grammarTable": [
+    {
+      "subject": "Base form → Past Simple",
+      "verb": "go → went",
+      "short": "come → came",
+      "example": "She went to the museum. They came late."
+    },
+    {
+      "subject": "see → saw / have → had",
+      "verb": "get → got",
+      "short": "make → made",
+      "example": "I saw a rare sword. He had a great idea."
+    },
+    {
+      "subject": "take → took / give → gave",
+      "verb": "write → wrote",
+      "short": "read → read*",
+      "example": "She took notes. He wrote the answer. (*same spelling)"
+    },
+    {
+      "subject": "buy → bought / think → thought",
+      "verb": "know → knew",
+      "short": "feel → felt",
+      "example": "I bought a book. She felt excited."
+    },
+    {
+      "subject": "say → said / tell → told",
+      "verb": "find → found",
+      "short": "leave → left",
+      "example": "He said \"hello\". They left early."
+    },
+    {
+      "subject": "NEGATIVE: didn't + BASE",
+      "verb": "didn't go",
+      "short": "didn't come",
+      "example": "She didn't go. They didn't come."
+    },
+    {
+      "subject": "QUESTION: Did + subject + BASE?",
+      "verb": "Did you go?",
+      "short": "Did she see?",
+      "example": "Did you go to the museum? Did she see the sword?"
+    },
+    {
+      "subject": "SHORT ANSWERS",
+      "verb": "Yes, I did.",
+      "short": "No, she didn't.",
+      "example": "Did you see it? — Yes, I did. / No, I didn't."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Group 1 — Vowel Change (i → a → u pattern)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "begin → began",
+          "example": "The exhibition began at 10 a.m."
+        },
+        {
+          "form": "drink → drank",
+          "example": "She drank tea while reading."
+        },
+        {
+          "form": "sing → sang",
+          "example": "The children sang traditional songs."
+        },
+        {
+          "form": "swim → swam",
+          "example": "He swam in the river as a child."
+        },
+        {
+          "form": "run → ran",
+          "example": "They ran to catch the bus."
+        },
+        {
+          "form": "sit → sat",
+          "example": "We sat in the front row of the lecture hall."
+        }
+      ]
+    },
+    {
+      "title": "Group 2 — Same form for Past (base = past)",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "read → read (pronunciation changes: /riːd/ → /red/)",
+          "example": "I read the whole book last night."
+        },
+        {
+          "form": "cut → cut",
+          "example": "She cut the bread carefully."
+        },
+        {
+          "form": "put → put",
+          "example": "He put the artefact back on the shelf."
+        },
+        {
+          "form": "hit → hit",
+          "example": "The flood hit the city hard."
+        },
+        {
+          "form": "let → let",
+          "example": "She let them look at the photographs."
+        },
+        {
+          "form": "cost → cost",
+          "example": "The museum ticket cost 500 tenge."
+        }
+      ]
+    },
+    {
+      "title": "Group 3 — Completely Different Forms",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "go → went",
+          "example": "Amir went to the museum yesterday."
+        },
+        {
+          "form": "be → was / were",
+          "example": "She was a teacher. They were students."
+        },
+        {
+          "form": "have → had",
+          "example": "The city had a large market in the 19th century."
+        },
+        {
+          "form": "do → did",
+          "example": "She did her homework after the museum visit."
+        },
+        {
+          "form": "say → said",
+          "example": "Dr. Akhmetov said the sword was very old."
+        },
+        {
+          "form": "make → made",
+          "example": "Merchants made the city wealthy."
+        }
+      ]
+    },
+    {
+      "title": "Critical Rules — Never Make These Mistakes",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "Negative: didn't + BASE (not past form)",
+          "example": "She didn't go ✓ / She didn't went ✗"
+        },
+        {
+          "form": "Question: Did + subject + BASE",
+          "example": "Did she go? ✓ / Did she went? ✗"
+        },
+        {
+          "form": "Affirmative: subject + PAST FORM",
+          "example": "She went ✓ / She did go ✗ (emphasis only)"
+        },
+        {
+          "form": "\"Was/were\" for states in the past",
+          "example": "She was a teacher ✓ / She did be a teacher ✗"
+        },
+        {
+          "form": "\"was/were\" question: was/were + subject",
+          "example": "Was she happy? ✓ / Did she be happy? ✗"
+        },
+        {
+          "form": "read: check context for pronunciation",
+          "example": "I read every day [riːd]. / I read it yesterday [red]."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "ТОП-20 неправильных глаголов — знай наизусть:\ngo/went · come/came · have/had · get/got · say/said · make/made\ntake/took · know/knew · give/gave · see/saw · do/did · find/found\ntell/told · write/wrote · think/thought · become/became\nleave/left · feel/felt · put/put (не меняется!) · read/read (не меняется!)\n\n💡 Совет: учи по группам и повторяй вслух каждый день!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct irregular Past Simple.",
+      "text": "Amir ___ to the museum yesterday.",
+      "opts": [
+        "goed",
+        "gone",
+        "went",
+        "goes"
+      ],
+      "correct": "went",
+      "hint": "go → went (completely irregular)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple.",
+      "text": "Dr. Akhmetov ___ (say) that the sword was very old.",
+      "opts": [
+        "said",
+        "sayed",
+        "says",
+        "saiyed"
+      ],
+      "correct": "said",
+      "hint": "say → said (irregular)."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple.",
+      "text": "She ___ (see) an amazing sword in the museum display.",
+      "opts": [
+        "seed",
+        "sawed",
+        "saw",
+        "seen"
+      ],
+      "correct": "saw",
+      "hint": "see → saw (irregular)."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Zhibek ___ about the Pugachev Rebellion at school.",
+      "opts": [
+        "didn't knew",
+        "didn't know",
+        "not know",
+        "didn't known"
+      ],
+      "correct": "didn't know",
+      "hint": "Negative: didn't + BASE form. 'know' is the base form of 'knew'."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the correct irregular Past Simple.",
+      "text": "Apai Raushan ___ (have) a very busy life as a teacher.",
+      "opts": [
+        "haved",
+        "had",
+        "have",
+        "having"
+      ],
+      "correct": "had",
+      "hint": "have → had (irregular)."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct question form.",
+      "text": "___ Kamila ___ (take) notes during the visit?",
+      "opts": [
+        "Did / took",
+        "Did / take",
+        "Does / take",
+        "Was / take"
+      ],
+      "correct": "Did / take",
+      "hint": "Question: Did + subject + BASE form. 'take' is the base of 'took'."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple.",
+      "text": "The merchants ___ (make) Uralsk very wealthy in the 19th century.",
+      "opts": [
+        "maked",
+        "maded",
+        "made",
+        "makes"
+      ],
+      "correct": "made",
+      "hint": "make → made (irregular)."
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple.",
+      "text": "Kamila ___ (feel) deeply moved by her grandmother's stories.",
+      "opts": [
+        "feeled",
+        "felt",
+        "feels",
+        "feel"
+      ],
+      "correct": "felt",
+      "hint": "feel → felt (irregular)."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Find the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She didn't went to school.",
+        "She didn't go to school.",
+        "She didn't going to school.",
+        "She no went to school."
+      ],
+      "correct": "She didn't go to school.",
+      "hint": "After 'didn't', always use the BASE form: go (not went)."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple.",
+      "text": "Pushkin ___ (write) a famous book after his visit to Uralsk.",
+      "opts": [
+        "writed",
+        "wrote",
+        "written",
+        "writes"
+      ],
+      "correct": "wrote",
+      "hint": "write → wrote (irregular)."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple.",
+      "text": "Zhibek ___ (think) the museum would be boring, but it was amazing.",
+      "opts": [
+        "thinked",
+        "thought",
+        "thinks",
+        "thunk"
+      ],
+      "correct": "thought",
+      "hint": "think → thought (irregular)."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple.",
+      "text": "The children ___ (sing) traditional songs at the school concert.",
+      "opts": [
+        "singed",
+        "sang",
+        "sung",
+        "singing"
+      ],
+      "correct": "sang",
+      "hint": "sing → sang (vowel change: i → a)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He ___ to Uralsk to research the rebellion.",
+      "opts": [
+        "goed",
+        "gone",
+        "went",
+        "goes"
+      ],
+      "correct": "went",
+      "hint": "go → went (irregular Past Simple)."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (say) that every child is a miracle.",
+      "correct": "said",
+      "hint": "say → said (irregular)."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Kamila ___ (see) an old photograph in her grandmother's house.",
+      "opts": [
+        "seed",
+        "sawed",
+        "saw",
+        "seen"
+      ],
+      "correct": "saw",
+      "hint": "see → saw (irregular)."
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "They ___ a great time at the museum.",
+      "opts": [
+        "haved",
+        "had",
+        "have",
+        "did have"
+      ],
+      "correct": "had",
+      "hint": "have → had (irregular)."
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She didn't went home\" is correct Past Simple negative.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After 'didn't', use BASE form: 'She didn't go home.'"
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "The guide ___ (tell) them about the Pugachev Rebellion.",
+      "opts": [
+        "telled",
+        "told",
+        "tells",
+        "tell"
+      ],
+      "correct": "told",
+      "hint": "tell → told (irregular)."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Kamila ___ (feel) proud of her grandmother's courage.",
+      "correct": "felt",
+      "hint": "feel → felt (irregular)."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "___ Zhibek know about the rebellion before the visit?",
+      "opts": [
+        "Was",
+        "Did",
+        "Does",
+        "Had"
+      ],
+      "correct": "Did",
+      "hint": "Past Simple question: Did + subject + BASE form."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Amir ___ (think) the museum would be interesting.",
+      "opts": [
+        "thinked",
+        "thought",
+        "thinks",
+        "thunk"
+      ],
+      "correct": "thought",
+      "hint": "think → thought (irregular)."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ (buy) a souvenir from the museum shop.",
+      "opts": [
+        "buyed",
+        "buyed",
+        "bought",
+        "buy"
+      ],
+      "correct": "bought",
+      "hint": "buy → bought (irregular)."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"read\" has the same spelling in present and past tense.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "read [riːd] (present) → read [red] (past). Same spelling, different pronunciation."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Pushkin ___ (write) a famous book about the rebellion.",
+      "opts": [
+        "writed",
+        "wrote",
+        "written",
+        "writ"
+      ],
+      "correct": "wrote",
+      "hint": "write → wrote (irregular)."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (find) an old photograph in the box.",
+      "correct": "found",
+      "hint": "find → found (irregular)."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence uses irregular verbs correctly?",
+      "opts": [
+        "I goed and I seed it.",
+        "I went and I saw it.",
+        "I went and I seed it.",
+        "I goed and I saw it."
+      ],
+      "correct": "I went and I saw it.",
+      "hint": "go → went, see → saw. Both must be irregular forms."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "The children ___ (sing) before they ___ (sit) down.",
+      "opts": [
+        "sang / sat",
+        "singed / sat",
+        "sang / sitted",
+        "singed / sitted"
+      ],
+      "correct": "sang / sat",
+      "hint": "sing → sang, sit → sat (both vowel-change irregulars)."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ (give) Kamila the old photograph as a gift.",
+      "opts": [
+        "gaved",
+        "given",
+        "gave",
+        "gives"
+      ],
+      "correct": "gave",
+      "hint": "give → gave (irregular)."
+    }
+  ]
+}

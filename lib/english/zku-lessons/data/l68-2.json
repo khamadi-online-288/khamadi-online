@@ -1,0 +1,325 @@
+{
+  "id": "l68-2",
+  "moduleNum": 10,
+  "lessonNum": 2,
+  "moduleTitle": "Narrative Writing",
+  "title": "Time Layers in Prose: How Writers Use Narrative Tenses",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "One of the defining features of skilled narrative prose is the management of time. Unlike a simple chronological account — \"first this happened, then that happened\" — literary narrative moves fluidly between different time periods, creating depth, suspense, and meaning. The primary grammatical tool for this in English is the system of past tenses. Understanding how these tenses work together is essential for anyone who wants to write or analyse narrative effectively.",
+    "The past simple is the workhorse of English narrative. It carries the main line of the story forward: \"She walked into the room. She looked around. She sat down.\" Each past simple verb marks a completed action or event. In narrative, these events form the backbone of the story — the sequence of things that actually happen. When we read a sequence of past simple verbs, we understand that these events occurred one after another, in the order they are presented.",
+    "The past continuous serves a different function: it provides the background against which the main events occur. Consider this sentence: \"The rain was falling steadily and the streets were empty when she turned the corner.\" Here, \"was falling\" and \"were empty\" describe the ongoing state of the world at the time of the main action. They set the scene, establish atmosphere, and often create a sense of the world continuing independently of the characters' actions. The past continuous also describes interrupted actions: \"He was reading when the phone rang.\"",
+    "The past perfect allows writers to reach back in time before the moment of the story — to include backstory, motivation, or context that explains the present situation. When a character pauses in a narrative to remember something, or when the narrator explains what had led to this moment, the past perfect is the tense of choice. \"She had grown up in this city, but she had never felt at home here.\" The past perfect creates what literary critics call \"time layers\" — the sense that the present moment of the story is built on a history that still shapes it.",
+    "Skilled writers combine all three tenses within a single paragraph, sometimes within a single sentence. Here is an example from a student essay: \"She stood in the doorway, watching the snow fall. She had been waiting for this moment for years. Now it was here, and she did not know what to do.\" In three sentences, the writer establishes a present action (stood), a background condition (watching), a long backstory (had been waiting — past perfect continuous), and the character's present emotional state. The effect is to make the moment feel simultaneously immediate and weighted with history.",
+    "One common error among learners is to use the past perfect too much, which makes writing feel heavy and over-explained. The rule of thumb is this: use the past perfect when you need to signal that an event happened before the narrative present, but switch back to the past simple once the time frame is established. A single \"had gone\" can establish the backstory; you do not need to use \"had\" throughout the whole passage that follows.",
+    "Good narrative writing also uses time connectors — words and phrases that signal the relationship between events. \"Meanwhile,\" \"just as,\" \"no sooner had... than,\" \"by the time,\" and \"as soon as\" all give the reader precise information about when events occurred relative to each other. These connectors allow writers to manage complex time relationships clearly and elegantly, without losing the reader in a tangle of tenses."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "the workhorse of narrative",
+      "ru": "рабочая лошадка повествования",
+      "context": "The main tense carrying the story forward (past simple)"
+    },
+    {
+      "phrase": "time layers",
+      "ru": "временные пласты",
+      "context": "The sense of the present being built on history"
+    },
+    {
+      "phrase": "rule of thumb",
+      "ru": "практическое правило",
+      "context": "A general guideline, not an absolute rule"
+    },
+    {
+      "phrase": "backstory",
+      "ru": "предыстория",
+      "context": "Events that happened before the main narrative begins"
+    },
+    {
+      "phrase": "time connectors",
+      "ru": "временные связки",
+      "context": "Words like \"meanwhile,\" \"just as,\" \"by the time\""
+    }
+  ],
+  "vocab": [
+    {
+      "en": "backstory",
+      "ipa": "/ˈbækstɔːri/",
+      "pos": "noun",
+      "ru": "предыстория",
+      "kz": "алдыңғы тарих",
+      "emoji": "📜",
+      "definition": "the history of a character or situation before the main story begins",
+      "example": "\"She had grown up in this city\" — giving the character's backstory.",
+      "collocations": [
+        "provide backstory",
+        "character backstory",
+        "reveal the backstory"
+      ]
+    },
+    {
+      "en": "chronological",
+      "ipa": "/ˌkrɒnəˈlɒdʒɪkəl/",
+      "pos": "adjective",
+      "ru": "хронологический",
+      "kz": "хронологиялық",
+      "emoji": "⏰",
+      "definition": "arranged in order of time",
+      "example": "A simple chronological account: \"first this, then that.\"",
+      "collocations": [
+        "chronological order",
+        "chronological account",
+        "strictly chronological"
+      ]
+    },
+    {
+      "en": "suspense",
+      "ipa": "/səˈspens/",
+      "pos": "noun",
+      "ru": "напряжение / интрига",
+      "kz": "күтім",
+      "emoji": "😰",
+      "definition": "a state of anxious uncertainty about what will happen",
+      "example": "Narrative tenses create suspense by layering different time frames.",
+      "collocations": [
+        "create suspense",
+        "build suspense",
+        "atmosphere of suspense"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is the main function of the past simple in narrative?",
+      "correct": "To carry the main events of the story forward"
+    },
+    {
+      "id": "t2",
+      "question": "What does the past continuous provide in a narrative?",
+      "correct": "Background and atmosphere — the ongoing state of the world during the main action"
+    },
+    {
+      "id": "t3",
+      "question": "What does the past perfect allow writers to do?",
+      "correct": "Reach back in time before the narrative present — include backstory and motivation"
+    },
+    {
+      "id": "t4",
+      "question": "What is the \"rule of thumb\" for using the past perfect?",
+      "correct": "Use it to signal an earlier event, then switch back to past simple once the time frame is established"
+    },
+    {
+      "id": "t5",
+      "question": "What are \"time connectors\"?",
+      "correct": "Words and phrases that signal the time relationship between events (meanwhile, just as, by the time)"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Past simple verbs in narrative show actions happening at the same time.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "The past continuous is used to describe the background and set the scene.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Using the past perfect too much can make writing feel heavy.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "\"Time layers\" refers to the sense that the present moment is shaped by its history.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Time connectors are optional decorations that add no grammatical information.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the main function of the past simple in narrative?",
+      "opts": [
+        "To describe ongoing background actions",
+        "To carry the main story forward",
+        "To show events before the main story",
+        "To create atmosphere"
+      ],
+      "correct": "To carry the main story forward",
+      "hint": "Para 2: \"backbone of the story\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "\"The rain was falling… when she turned the corner.\" What does \"was falling\" provide?",
+      "opts": [
+        "The main action",
+        "The outcome",
+        "Background atmosphere",
+        "A backstory event"
+      ],
+      "correct": "Background atmosphere",
+      "hint": "Para 3: \"set the scene, establish atmosphere\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What literary device does the past perfect create, according to paragraph 4?",
+      "opts": [
+        "Suspense",
+        "Irony",
+        "Time layers",
+        "An unreliable narrator"
+      ],
+      "correct": "Time layers",
+      "hint": "Para 4: \"time layers\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the problem with using the past perfect too much?",
+      "opts": [
+        "It confuses the timeline",
+        "It makes writing feel heavy and over-explained",
+        "It removes suspense",
+        "It is grammatically incorrect"
+      ],
+      "correct": "It makes writing feel heavy and over-explained",
+      "hint": "Para 6: \"heavy and over-explained\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "Time connectors give readers information about when events occurred relative to each other.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 7: \"precise information about when events occurred\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "Once the past perfect is established, you should continue using it throughout the whole passage.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 6: \"switch back to the past simple once the time frame is established\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She ___ (read) when the storm began.\" Choose the correct form.",
+      "opts": [
+        "read",
+        "was reading",
+        "had read",
+        "reads"
+      ],
+      "correct": "was reading",
+      "hint": "Past continuous = interrupted background action",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"He ___ (never / visit) that part of the city before that evening.\" Choose the correct form.",
+      "opts": [
+        "never visited",
+        "was never visiting",
+        "had never visited",
+        "never visits"
+      ],
+      "correct": "had never visited",
+      "hint": "Past perfect = event before the narrative present",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"By the time she arrived, everyone ___.\" (= they had already left)",
+      "correct": "had left",
+      "hint": "\"By the time\" + past perfect = earlier completed action",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"backstory\" mean?",
+      "opts": [
+        "The final chapter of a novel",
+        "A story told backwards",
+        "The history of a character before the main story",
+        "A secondary character's story"
+      ],
+      "correct": "The history of a character before the main story",
+      "hint": "Para 4: \"what had led to this moment\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"chronological\" mean?",
+      "opts": [
+        "Arranged by importance",
+        "Arranged in time order",
+        "Arranged alphabetically",
+        "Arranged by character"
+      ],
+      "correct": "Arranged in time order",
+      "hint": "Para 1: \"a simple chronological account\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"___ had… than\" is an example of a ___ connector used in narrative to show immediate sequence.",
+      "correct": "No sooner / time",
+      "hint": "Para 7: \"time connectors\"",
+      "points": 2
+    }
+  ]
+}

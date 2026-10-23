@@ -1,0 +1,570 @@
+{
+  "id": "l48-g2",
+  "moduleNum": 14,
+  "lessonNum": 5,
+  "moduleTitle": "Describing & Defining",
+  "type": "grammar",
+  "title": "Adjective Order Before Nouns",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Adjective Order — How to Stack Adjectives Naturally",
+  "grammarNote": "В английском языке прилагательные перед существительным располагаются в определённом порядке. Нарушение этого порядка делает предложение неестественным, хотя технически не всегда неправильным. Носители языка инстинктивно чувствуют этот порядок, но для изучающих его нужно запомнить. Порядок: Мнение → Размер → Возраст → Форма → Цвет → Происхождение → Материал → Назначение → Существительное.",
+  "grammarTable": [
+    {
+      "subject": "1. Opinion",
+      "verb": "beautiful, ugly, nice, interesting",
+      "short": "мнение",
+      "example": "\"a beautiful old building\" (opinion first)"
+    },
+    {
+      "subject": "2. Size",
+      "verb": "large, small, tiny, enormous",
+      "short": "размер",
+      "example": "\"a large old building\" / \"a small round table\""
+    },
+    {
+      "subject": "3. Age",
+      "verb": "old, young, new, ancient",
+      "short": "возраст",
+      "example": "\"a beautiful old Kazakh library\""
+    },
+    {
+      "subject": "4. Shape",
+      "verb": "round, square, rectangular",
+      "short": "форма",
+      "example": "\"a small round wooden table\""
+    },
+    {
+      "subject": "5. Colour",
+      "verb": "blue, red, golden, dark",
+      "short": "цвет",
+      "example": "\"a beautiful large old golden gate\""
+    },
+    {
+      "subject": "6. Origin",
+      "verb": "Kazakh, Russian, Soviet, French",
+      "short": "происхождение",
+      "example": "\"a beautiful old Kazakh wooden chair\""
+    },
+    {
+      "subject": "7. Material",
+      "verb": "wooden, glass, silk, stone",
+      "short": "материал",
+      "example": "\"a small round silver ring\""
+    },
+    {
+      "subject": "8. Purpose",
+      "verb": "cooking, sleeping, reading",
+      "short": "назначение",
+      "example": "\"a comfortable old leather reading chair\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "The order: OSASCOMP (or OSACOPM)",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "O = Opinion",
+          "example": "\"a beautiful, interesting, extraordinary...\" — your judgement of the thing."
+        },
+        {
+          "form": "S = Size",
+          "example": "\"big, tiny, enormous, large, small, short, tall...\""
+        },
+        {
+          "form": "A = Age",
+          "example": "\"old, young, new, ancient, modern, medieval...\""
+        },
+        {
+          "form": "S = Shape",
+          "example": "\"round, square, oval, flat, curved...\""
+        },
+        {
+          "form": "C = Colour",
+          "example": "\"blue, red, dark green, golden, pale...\""
+        },
+        {
+          "form": "O = Origin",
+          "example": "\"Kazakh, Soviet, French, Central Asian...\""
+        },
+        {
+          "form": "M = Material",
+          "example": "\"wooden, glass, silk, leather, stone, metal...\""
+        },
+        {
+          "form": "P = Purpose",
+          "example": "\"sleeping (bag), writing (desk), cooking (pot)...\""
+        }
+      ]
+    },
+    {
+      "title": "Examples with multiple adjectives",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Opinion + Size + Age",
+          "example": "\"a beautiful large old library\" (opinion → size → age) ✅"
+        },
+        {
+          "form": "Size + Age + Origin",
+          "example": "\"a small old Soviet building\" (size → age → origin) ✅"
+        },
+        {
+          "form": "Opinion + Age + Material",
+          "example": "\"a lovely old wooden bench\" (opinion → age → material) ✅"
+        },
+        {
+          "form": "Size + Colour + Origin",
+          "example": "\"a large golden Kazakh ornament\" (size → colour → origin) ✅"
+        }
+      ]
+    },
+    {
+      "title": "Practical tips",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "You rarely use more than 2-3 adjectives",
+          "example": "\"a beautiful old building\" (2 adj) is natural. \"a beautiful old large Soviet wooden building\" = too many!"
+        },
+        {
+          "form": "Opinion adjectives feel first",
+          "example": "Native speakers feel \"a nice old café\" naturally before \"an old nice café.\""
+        },
+        {
+          "form": "Colour before origin",
+          "example": "\"a red Russian flag\" (colour before origin) ✅. Not \"a Russian red flag.\""
+        },
+        {
+          "form": "Material always near the noun",
+          "example": "\"a small old wooden table\" — wooden is close to \"table.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common order mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"an old beautiful building\"",
+          "example": "✅ \"a beautiful OLD building\" — opinion before age."
+        },
+        {
+          "form": "✗ \"a wooden old small table\"",
+          "example": "✅ \"a small old wooden table\" — size → age → material."
+        },
+        {
+          "form": "✗ \"a Russian red amazing flag\"",
+          "example": "✅ \"an amazing red Russian flag\" — opinion → colour → origin."
+        },
+        {
+          "form": "✗ \"a reading comfortable old chair\"",
+          "example": "✅ \"a comfortable old leather reading chair\" — opinion → age → material → purpose."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Порядок прилагательных — запомни фразу:\n\"Opinions Seldom Actually Shape Completely Organised Material Products\"\nO-S-A-S-C-O-M-P\nМнение → Размер → Возраст → Форма → Цвет → Происхождение → Материал → Назначение\n\n💡 На практике обычно используют 2-3 прилагательных максимум:\n\"a beautiful old library\" ✅\n\"a large old Soviet building\" ✅\n\"a lovely old wooden bench\" ✅\n\n⚠️ Если что-то звучит «не так» — доверяй интуиции:\n\"a old beautiful library\" → звучит неправильно → порядок нарушен!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct adjective order.",
+      "text": "We sat in ___ café.",
+      "opts": [
+        "an old beautiful small",
+        "a small beautiful old",
+        "a beautiful small old",
+        "a small old beautiful"
+      ],
+      "correct": "a beautiful small old",
+      "hint": "Opinion (beautiful) → Size (small) → Age (old). \"a BEAUTIFUL SMALL OLD café.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct order.",
+      "text": "She owns ___ table.",
+      "opts": [
+        "a wooden old round",
+        "an old round wooden",
+        "a round wooden old",
+        "a wooden round old"
+      ],
+      "correct": "an old round wooden",
+      "hint": "Age (old) → Shape (round) → Material (wooden). \"an OLD ROUND WOODEN table.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "They visited ___ building.",
+      "opts": [
+        "a Soviet large old",
+        "a large old Soviet",
+        "an old large Soviet",
+        "a Soviet old large"
+      ],
+      "correct": "a large old Soviet",
+      "hint": "Size (large) → Age (old) → Origin (Soviet). \"a LARGE OLD SOVIET building.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"A wooden old beautiful bench\" is in the correct adjective order.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"A BEAUTIFUL OLD WOODEN bench.\" — Opinion (beautiful) → Age (old) → Material (wooden). ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Put in the correct order.",
+      "text": "\"Photographs / old / black and white / small\" → \"___\"",
+      "opts": [
+        "small black and white old photographs",
+        "old small black and white photographs",
+        "small old black and white photographs",
+        "black and white small old photographs"
+      ],
+      "correct": "small old black and white photographs",
+      "hint": "Size (small) → Age (old) → Colour (black and white). \"SMALL OLD BLACK AND WHITE photographs.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct order.",
+      "text": "\"___ ring.\" (golden / small / beautiful / Kazakh)",
+      "opts": [
+        "Kazakh golden small beautiful",
+        "small beautiful golden Kazakh",
+        "beautiful small golden Kazakh",
+        "beautiful Kazakh small golden"
+      ],
+      "correct": "beautiful small golden Kazakh",
+      "hint": "Opinion (beautiful) → Size (small) → Colour (golden) → Origin (Kazakh). \"a BEAUTIFUL SMALL GOLDEN KAZAKH ring.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which adjective order is correct?",
+      "text": "\"a comfortable old leather reading chair\"",
+      "opts": [
+        "Incorrect — leather should come last",
+        "Correct — opinion → age → material → purpose",
+        "Incorrect — reading should come first",
+        "Correct but only in formal writing"
+      ],
+      "correct": "Correct — opinion → age → material → purpose",
+      "hint": "Opinion (comfortable) → Age (old) → Material (leather) → Purpose (reading) → noun (chair). ✅"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Put the adjectives in the correct order.",
+      "text": "\"She found a ___ book.\" (old / interesting / Kazakh)",
+      "correct": "interesting old Kazakh",
+      "hint": "Opinion (interesting) → Age (old) → Origin (Kazakh). \"an INTERESTING OLD KAZAKH book.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the natural order.",
+      "text": "\"The server room has ___ lights.\"",
+      "opts": [
+        "green small indicator",
+        "small green indicator",
+        "indicator small green",
+        "green indicator small"
+      ],
+      "correct": "small green indicator",
+      "hint": "Size (small) → Colour (green) → Purpose (indicator). \"SMALL GREEN INDICATOR lights.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which is NOT in the correct order?",
+      "text": "Choose the INCORRECT order.",
+      "opts": [
+        "a beautiful old library",
+        "a small round table",
+        "an old wooden beautiful box",
+        "a large Soviet building"
+      ],
+      "correct": "an old wooden beautiful box",
+      "hint": "✗ \"an old wooden beautiful box.\" ✅ Should be: \"a BEAUTIFUL OLD WOODEN box.\" Opinion comes FIRST."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Order these adjectives correctly.",
+      "text": "\"a ___ chair\" (old / comfortable / wooden)",
+      "correct": "comfortable old wooden",
+      "hint": "Opinion (comfortable) → Age (old) → Material (wooden). \"a COMFORTABLE OLD WOODEN chair.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct order: opinion or age first?",
+      "text": "\"a ___ café\" (old-fashioned / lovely)",
+      "opts": [
+        "old-fashioned lovely",
+        "lovely old-fashioned",
+        "both are correct",
+        "neither is natural"
+      ],
+      "correct": "lovely old-fashioned",
+      "hint": "Opinion (lovely) → Age/character (old-fashioned). \"a LOVELY OLD-FASHIONED café.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"a beautiful small old library\" — what is the order?",
+      "opts": [
+        "Wrong order",
+        "Opinion → Size → Age ✅",
+        "Size → Opinion → Age",
+        "Age → Opinion → Size"
+      ],
+      "correct": "Opinion → Size → Age ✅",
+      "hint": "Opinion (beautiful) → Size (small) → Age (old) → noun. This is correct! ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"a wooden round old table\" — what is wrong?",
+      "opts": [
+        "Nothing",
+        "Material should be last: \"old round wooden\"",
+        "\"round\" should be after \"wooden\"",
+        "\"a\" should be \"an\""
+      ],
+      "correct": "Material should be last: \"old round wooden\"",
+      "hint": "✅ \"an OLD ROUND WOODEN table.\" — Age (old) → Shape (round) → Material (wooden). Material is last."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"large old Soviet building\" — which position is \"origin\"?",
+      "opts": [
+        "First",
+        "Second",
+        "Third (last)",
+        "Before size"
+      ],
+      "correct": "Third (last)",
+      "hint": "Size (large) → Age (old) → Origin (Soviet). Origin comes after size and age, before material. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which adjective type always comes first?",
+      "opts": [
+        "Colour",
+        "Size",
+        "Opinion",
+        "Material"
+      ],
+      "correct": "Opinion",
+      "hint": "Opinion adjectives (beautiful, nice, interesting) ALWAYS come first in any combination. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"a ___ café\" — put in order: (small / old / traditional)",
+      "correct": "small old traditional",
+      "hint": "Size (small) → Age (old) → Opinion/character (traditional). \"a SMALL OLD TRADITIONAL café.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"a Kazakh golden small ring\" — correct order?",
+      "opts": [
+        "Yes",
+        "No — should be \"a small golden Kazakh ring\"",
+        "No — should be \"a golden Kazakh small ring\"",
+        "No — should be \"a small Kazakh golden ring\""
+      ],
+      "correct": "No — should be \"a small golden Kazakh ring\"",
+      "hint": "✅ Size (small) → Colour (golden) → Origin (Kazakh). \"a SMALL GOLDEN KAZAKH ring.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Material adjectives go:",
+      "opts": [
+        "Before everything",
+        "After opinion but before size",
+        "Near the noun, after most other adjectives",
+        "Always last before the noun"
+      ],
+      "correct": "Near the noun, after most other adjectives",
+      "hint": "Material (wooden, glass, leather) goes after origin and before purpose — near the noun."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ ring\" — correct order: (beautiful / silver / small)",
+      "correct": "beautiful small silver",
+      "hint": "Opinion (beautiful) → Size (small) → Material (silver). \"a BEAUTIFUL SMALL SILVER ring.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"a comfortable old leather reading chair\" uses the order:",
+      "opts": [
+        "Opinion → Age → Origin → Purpose",
+        "Opinion → Age → Material → Purpose",
+        "Size → Age → Material → Purpose",
+        "Opinion → Shape → Material → Purpose"
+      ],
+      "correct": "Opinion → Age → Material → Purpose",
+      "hint": "comfortable (opinion) → old (age) → leather (material) → reading (purpose). ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "How many adjectives is a comfortable and natural limit?",
+      "opts": [
+        "One only",
+        "5-6",
+        "2-3",
+        "4 or more is normal"
+      ],
+      "correct": "2-3",
+      "hint": "2-3 adjectives is natural. \"a beautiful old building\" / \"a small round table.\" More sounds unnatural."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"an old nice library\" — what sounds wrong?",
+      "opts": [
+        "Nothing",
+        "\"old\" should come before \"nice\" — but opinion goes first",
+        "\"nice\" should be \"beautiful\"",
+        "\"an\" should be \"a\""
+      ],
+      "correct": "\"old\" should come before \"nice\" — but opinion goes first",
+      "hint": "✅ \"a NICE OLD library.\" — Opinion (nice) must come before Age (old)."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"red Russian amazing flag\" — correct order?",
+      "opts": [
+        "Yes",
+        "No — should be \"amazing red Russian flag\"",
+        "No — \"Russian\" must come first",
+        "No — \"red\" must come last"
+      ],
+      "correct": "No — should be \"amazing red Russian flag\"",
+      "hint": "✅ Opinion (amazing) → Colour (red) → Origin (Russian). \"an AMAZING RED RUSSIAN flag.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correctly ordered?",
+      "opts": [
+        "\"a wooden beautiful old box\"",
+        "\"a beautiful old wooden box\"",
+        "\"an old beautiful wooden box\"",
+        "\"a wooden old beautiful box\""
+      ],
+      "correct": "\"a beautiful old wooden box\"",
+      "hint": "✅ Opinion (beautiful) → Age (old) → Material (wooden) → noun (box). \"a BEAUTIFUL OLD WOODEN box.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She found ___ photographs.\" (old / black and white / small)",
+      "correct": "small old black and white",
+      "hint": "Size (small) → Age (old) → Colour (black and white). \"SMALL OLD BLACK AND WHITE photographs.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Shape adjectives go after:",
+      "opts": [
+        "Opinion, Size, and Age",
+        "Only opinion",
+        "Colour and Origin",
+        "Material and Purpose"
+      ],
+      "correct": "Opinion, Size, and Age",
+      "hint": "Order: Opinion → Size → Age → Shape → Colour → Origin → Material. Shape comes 4th. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"an ancient large Buddhist stone temple\" — what order is this?",
+      "opts": [
+        "Wrong — ancient before large",
+        "Correct — Age → Size → Origin → Material",
+        "Wrong — stone before Buddhist",
+        "Wrong — large before ancient"
+      ],
+      "correct": "Correct — Age → Size → Origin → Material",
+      "hint": "ancient (age) → large (size) → Buddhist (origin) → stone (material) → temple. ✅"
+    }
+  ]
+}

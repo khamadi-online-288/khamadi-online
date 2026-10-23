@@ -1,0 +1,510 @@
+{
+  "id": "l17-g2",
+  "moduleNum": 1,
+  "lessonNum": 4,
+  "moduleTitle": "Abilities & Skills",
+  "title": "could / couldn't – past ability",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "could / couldn't — past ability",
+  "grammarNote": "COULD — это прошедшее время глагола CAN. Используется для описания умений и способностей в ПРОШЛОМ: что ты умел/мог делать раньше. Как и CAN, глагол COULD одинаков для всех лиц и никогда не изменяется. После COULD стоит базовый инфинитив без 'to'.",
+  "grammarTable": [
+    {
+      "subject": "I / You",
+      "verb": "could",
+      "short": "✓ past",
+      "example": "I could swim at age 6. · You could speak Kazakh fluently."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "could",
+      "short": "✓ past",
+      "example": "She could dance at 4. · He could play chess as a child."
+    },
+    {
+      "subject": "We / They",
+      "verb": "could",
+      "short": "✓ past",
+      "example": "We could stay up late. · They could run very fast."
+    },
+    {
+      "subject": "I / You",
+      "verb": "couldn't",
+      "short": "✗ past",
+      "example": "I couldn't read at 3. · You couldn't drive last year."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "couldn't",
+      "short": "✗ past",
+      "example": "She couldn't swim. · He couldn't speak English before."
+    },
+    {
+      "subject": "We / They",
+      "verb": "couldn't",
+      "short": "✗ past",
+      "example": "We couldn't be late. · They couldn't afford it."
+    },
+    {
+      "subject": "Could + subject + verb?",
+      "verb": "?",
+      "short": "? past",
+      "example": "Could you run fast as a child? · Could she speak English at 10?"
+    },
+    {
+      "subject": "Short answers",
+      "verb": "+ / −",
+      "short": "Yes/No",
+      "example": "Yes, I could. / No, I couldn't. · Yes, she could. / No, he couldn't."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "could — past ability (что умел раньше)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "I could walk at 1 year old.",
+          "example": "I could walk before I could talk!"
+        },
+        {
+          "form": "She could sing at age 5.",
+          "example": "She could sing perfectly at the age of five."
+        },
+        {
+          "form": "He could play chess at 8.",
+          "example": "He could beat adults at chess when he was 8."
+        },
+        {
+          "form": "They could speak Kazakh fluently.",
+          "example": "As children they could speak Kazakh fluently."
+        },
+        {
+          "form": "We could stay up until midnight.",
+          "example": "We could stay up late in the summer holidays."
+        },
+        {
+          "form": "Kamila could play dombra at 8.",
+          "example": "Kamila could play the dombra when she was eight."
+        }
+      ]
+    },
+    {
+      "title": "couldn't — past inability (что не умел)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I couldn't read at 4.",
+          "example": "I couldn't read yet when I started school."
+        },
+        {
+          "form": "She couldn't drive last year.",
+          "example": "She couldn't drive last year — she just passed her test."
+        },
+        {
+          "form": "He couldn't speak English at 10.",
+          "example": "He couldn't speak English at all before university."
+        },
+        {
+          "form": "They couldn't afford new phones.",
+          "example": "They couldn't afford it on a student budget."
+        },
+        {
+          "form": "We couldn't find the address.",
+          "example": "We couldn't find the address and arrived late."
+        },
+        {
+          "form": "couldn't = could not (formal)",
+          "example": "He could not attend the exam. (formal writing)"
+        }
+      ]
+    },
+    {
+      "title": "can (present) vs could (past)",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "NOW: I can speak English.",
+          "example": "PAST: I couldn't speak English two years ago."
+        },
+        {
+          "form": "NOW: She can swim 2km.",
+          "example": "PAST: She could only swim 500m last year."
+        },
+        {
+          "form": "NOW: He can code in Python.",
+          "example": "PAST: He could only code in Scratch as a child."
+        },
+        {
+          "form": "NOW: They can drive.",
+          "example": "PAST: They couldn't drive before last summer."
+        },
+        {
+          "form": "NOW: We can stay up late.",
+          "example": "PAST: We could stay up all night as teenagers!"
+        },
+        {
+          "form": "NOW: Kamila can play 20 songs.",
+          "example": "PAST: She could only play 3 songs at first."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes (типичные ошибки)",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "❌ She coulds speak French.",
+          "example": "✅ She could speak French. — COULD не меняется!"
+        },
+        {
+          "form": "❌ I could to swim.",
+          "example": "✅ I could swim. — После COULD нет \"to\"!"
+        },
+        {
+          "form": "❌ He couldn't swam.",
+          "example": "✅ He couldn't swim. — Базовая форма, не прошедшее!"
+        },
+        {
+          "form": "❌ Could she danced?",
+          "example": "✅ Could she dance? — Базовая форма в вопросе!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "could = прошедшее время can:\n→ I can swim NOW. · I could swim AT AGE 5.\n→ She can speak English NOW. · She couldn't speak English LAST YEAR.\n\nТри правила could (такие же, как у can!):\n① COULD не меняется: I could · She could · They could (НЕ 'she coulds'!)\n② После COULD — базовый глагол: could swim · could dance (НЕ 'could to swim', НЕ 'could swam'!)\n③ Отрицание: couldn't = could not.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Kamila ___ play the dombra when she was eight years old.",
+      "opts": [
+        "could",
+        "coulds",
+        "could to",
+        "can"
+      ],
+      "correct": "could",
+      "hint": "Past ability → could. (when she was eight = past)"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct form.",
+      "text": "Amir ___ speak English well before university — he practised a lot.",
+      "correct": "couldn't",
+      "hint": "Negative past ability → couldn't."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Change to past ability.",
+      "text": "She CAN swim 2km. → She ___ only swim 500m last year.",
+      "opts": [
+        "could",
+        "couldn't",
+        "can",
+        "can't"
+      ],
+      "correct": "couldn't",
+      "hint": "\"Only 500m\" suggests limited past ability → could + couldn't."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She coulds dance as a child\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "COULD never takes -s. → She could dance."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct answer.",
+      "text": "Could Rustam juggle at age 10? — ___",
+      "opts": [
+        "Yes, he could.",
+        "Yes, he coulds.",
+        "Yes, he can.",
+        "Yes, he coud."
+      ],
+      "correct": "Yes, he could.",
+      "hint": "Short answer to a Could-question: Yes, he could."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which is NOT correct?",
+      "text": "Choose the incorrect sentence.",
+      "opts": [
+        "I could swim at age 6.",
+        "She could dance as a child.",
+        "He could to play chess.",
+        "They couldn't drive last year."
+      ],
+      "correct": "He could to play chess.",
+      "hint": "NEVER use \"to\" after could! → He could play chess."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Translate into English.",
+      "text": "Год назад она не умела водить машину.",
+      "correct": "couldn't drive",
+      "hint": "Past negative + base verb: couldn't drive."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses could/couldn't correctly?",
+      "opts": [
+        "He couldn't spoke English.",
+        "She could danced beautifully.",
+        "They could run very fast as children.",
+        "I couldn't to read at 5."
+      ],
+      "correct": "They could run very fast as children.",
+      "hint": "\"They could run\" ✅ — could + base verb. Others wrongly use past tense or add \"to\"."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the past form of CAN?",
+      "opts": [
+        "coud",
+        "could",
+        "can",
+        "canned"
+      ],
+      "correct": "could",
+      "hint": "The past of CAN is COULD."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "She ___ swim at age 3 — she was amazing!",
+      "correct": "could",
+      "hint": "Past ability (at age 3) → could."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He coulds play chess\" — what is wrong?",
+      "opts": [
+        "Missing \"to\"",
+        "Wrong subject",
+        "COULD never takes -s",
+        "Nothing is wrong"
+      ],
+      "correct": "COULD never takes -s",
+      "hint": "COULD never changes form. → He could play chess."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I couldn't to speak English last year\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "No 'to' after couldn't! → I couldn't speak English."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "How do you say \"Раньше я не умел читать\"?",
+      "opts": [
+        "I can't read.",
+        "I couldn't read.",
+        "I couldn't to read.",
+        "I not could read."
+      ],
+      "correct": "I couldn't read.",
+      "hint": "Past negative ability → I couldn't + base verb."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila ___ play 20 songs now, but she ___ only play 3 when she started.",
+      "correct": "can could",
+      "hint": "Now = can; Past (when she started) = could."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Could Amir code at age 12? — ___",
+      "opts": [
+        "Yes, he could.",
+        "Yes, he can.",
+        "Yes, he coulds.",
+        "Yes, he could to."
+      ],
+      "correct": "Yes, he could.",
+      "hint": "Short answer: Yes, he could."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She could swam.",
+        "She could to swim.",
+        "She could swim.",
+        "She coulds swim."
+      ],
+      "correct": "She could swim.",
+      "hint": "COULD + base infinitive (not past tense, no \"to\")."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Could she danced?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Could → base form: Could she dance?"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct translation: \"Он не умел водить год назад.\"",
+      "opts": [
+        "He can't drive.",
+        "He couldn't drive.",
+        "He couldn't drove.",
+        "He not could drive."
+      ],
+      "correct": "He couldn't drive.",
+      "hint": "couldn't + base verb = couldn't drive."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "As a child, Zhibek ___ do gymnastics, but she ___ do a backflip — she learned it later.",
+      "correct": "could couldn't",
+      "hint": "could = general ability in past; couldn't = specific thing she couldn't do."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "could not (formal) = ___",
+      "opts": [
+        "can't",
+        "couldn't",
+        "will not",
+        "would not"
+      ],
+      "correct": "couldn't",
+      "hint": "could not = couldn't (informal contraction)."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "COULD is used to talk about ability in the present.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "COULD is the PAST of CAN — it talks about past ability."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which uses COULD correctly for past ability?",
+      "opts": [
+        "I could swimming last year.",
+        "She could ran fast as a child.",
+        "He could speak three languages as a teenager.",
+        "They could to play chess."
+      ],
+      "correct": "He could speak three languages as a teenager.",
+      "hint": "could + base verb only."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Before I studied English I ___ understand films, but now I ___!",
+      "correct": "couldn't can",
+      "hint": "Past negative → couldn't; Present positive → can."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I could speak Kazakh when I was 2.\" — When did this happen?",
+      "opts": [
+        "Now",
+        "In the future",
+        "In the past",
+        "Every day"
+      ],
+      "correct": "In the past",
+      "hint": "\"when I was 2\" — this is clearly in the past → could is correct."
+    }
+  ]
+}

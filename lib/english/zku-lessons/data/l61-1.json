@@ -1,0 +1,551 @@
+{
+  "id": "l61-1",
+  "moduleNum": 3,
+  "lessonNum": 1,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "reading",
+  "title": "If Things Had Been Different: Conditional Thinking in Real Life",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "Conditional thinking is one of the most distinctive features of human cognition. Animals respond to the world as it is. Humans are uniquely capable of imagining how things might have been different, how they could be different now, and how they might turn out differently in the future. This capacity — sometimes called counterfactual thinking — is expressed in everyday language through conditional sentences, and it underlies everything from personal regret to scientific hypothesis.",
+    "\"If I had studied harder, I would have got into the programme.\" \"If temperatures continue to rise, sea levels will flood coastal cities within a century.\" \"If I were you, I'd take the scholarship.\" These sentences belong to different conditional types, each serving a distinct communicative purpose. Understanding which conditional to use — and why — is one of the marks of sophisticated English.",
+    "The zero conditional is used for universal truths and automatic consequences: if you heat water to 100°C, it boils. There is no uncertainty here. The result follows the condition as a matter of physical law. This conditional is also used for habits and general facts: if she misses breakfast, she gets headaches. If the electricity goes out, the lifts stop working.",
+    "The first conditional deals with real, possible futures: if I finish the assignment today, I will have the weekend free. The speaker genuinely believes this is achievable. It is the conditional of plans, intentions, and realistic threats: if you don't submit by Thursday, you will fail the module. Importantly, first conditional sentences often carry a pragmatic force beyond their literal meaning — \"if you don't sit down, I'll call the professor\" is not merely a prediction. It is a warning.",
+    "The second conditional shifts into the realm of the hypothetical. \"If I were the rector, I would reduce class sizes\" does not express a realistic expectation — the speaker does not expect to become the rector. Instead, it invites the listener to imagine an alternative reality: what would be different if the world were otherwise? This conditional is also used for polite distancing — \"if I were you, I would apply\" is softer than \"you should apply,\" even though the advice is the same.",
+    "The third conditional takes this further, moving into the purely counterfactual — the past as it did not happen. \"If I had taken the other road, I would have avoided the traffic\" describes something that cannot be changed. It is the conditional of regret, hindsight, and historical analysis. Historians use it constantly: \"If Lenin had died of typhus in 1919, the Soviet Union might never have been established.\" This is not idle speculation — it is a way of identifying causal relationships by imagining their absence.",
+    "Mixed conditionals — which combine third-conditional if-clauses with second-conditional results, or vice versa — allow speakers to connect past conditions with present consequences: \"If I had taken the scholarship, I would be in Berlin right now.\" The condition (taking the scholarship) is in the past; the result (being in Berlin) is in the present. Learning to use mixed conditionals naturally is one of the clearest signs of B2-level English.",
+    "Conditional thinking, in the end, is not just grammar. It is a form of moral and intellectual imagination: the ability to hold reality and its alternatives in mind simultaneously, and to speak precisely about the relationship between them."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "I keep thinking: if I'd applied for that internship in February, I would have got it. The deadline passed while I was revising.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's a third conditional — imagining the past differently. Useful for understanding regret, but dangerous if you spend too long there.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "The mixed conditional version is worse: \"If I'd applied, I would be in Astana right now.\" Past condition, present consequence.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "But there's also a first conditional version of your situation: if you apply for the autumn intake, you will get another chance.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "True. Same event, completely different emotional register depending on which conditional you use.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's what's interesting. The grammar is choosing which reality to focus on: the one that happened, the one that could happen, or the one that didn't.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Grammar as a way of managing time and possibility.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Exactly. And which conditional you choose says something about your state of mind.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "counterfactual",
+      "ru": "контрфактический / несбывшийся",
+      "context": "\"Counterfactual thinking.\" = imagining what could have been different."
+    },
+    {
+      "phrase": "hypothesis",
+      "ru": "гипотеза",
+      "context": "\"Scientific hypothesis.\" = a proposed explanation to be tested."
+    },
+    {
+      "phrase": "pragmatic force",
+      "ru": "прагматическая сила",
+      "context": "\"Carries pragmatic force beyond literal meaning.\" = doing more than what the words literally say."
+    },
+    {
+      "phrase": "hypothetical",
+      "ru": "гипотетический / воображаемый",
+      "context": "\"The realm of the hypothetical.\" = an imagined or theoretical situation."
+    },
+    {
+      "phrase": "hindsight",
+      "ru": "ретроспективный взгляд",
+      "context": "\"The conditional of regret, hindsight.\" = understanding after the fact."
+    },
+    {
+      "phrase": "counterfactual",
+      "ru": "контрфактический",
+      "context": "\"Purely counterfactual.\" = describing a past that did not happen."
+    },
+    {
+      "phrase": "causal",
+      "ru": "причинно-следственный",
+      "context": "\"Identifying causal relationships.\" = finding what causes what."
+    },
+    {
+      "phrase": "simultaneously",
+      "ru": "одновременно",
+      "context": "\"Hold reality and its alternatives simultaneously.\" = at the same time."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "counterfactual",
+      "ipa": "/ˌkaʊntəˈfæktʃuəl/",
+      "pos": "adjective",
+      "ru": "контрфактический",
+      "kz": "болмаған жағдай",
+      "emoji": "🔄",
+      "definition": "relating to what did not happen; imagining alternative pasts",
+      "example": "\"If I had studied harder\" is a counterfactual statement about the past.",
+      "collocations": [
+        "counterfactual thinking",
+        "counterfactual history",
+        "purely counterfactual"
+      ]
+    },
+    {
+      "en": "hypothesis",
+      "ipa": "/haɪˈpɒθɪsɪs/",
+      "pos": "noun",
+      "ru": "гипотеза",
+      "kz": "болжам",
+      "emoji": "🔬",
+      "definition": "a proposed explanation or prediction to be tested",
+      "example": "Scientists use conditional sentences to express hypotheses about cause and effect.",
+      "collocations": [
+        "test a hypothesis",
+        "working hypothesis",
+        "prove the hypothesis"
+      ]
+    },
+    {
+      "en": "hindsight",
+      "ipa": "/ˈhaɪnsaɪt/",
+      "pos": "noun",
+      "ru": "ретроспективный взгляд",
+      "kz": "кері қарау",
+      "emoji": "🔙",
+      "definition": "understanding of a situation only after it has happened",
+      "example": "The third conditional is the conditional of regret and hindsight.",
+      "collocations": [
+        "with hindsight",
+        "benefit of hindsight",
+        "in hindsight"
+      ]
+    },
+    {
+      "en": "hypothetical",
+      "ipa": "/ˌhaɪpəˈθetɪkəl/",
+      "pos": "adjective",
+      "ru": "гипотетический",
+      "kz": "болжалды",
+      "emoji": "💭",
+      "definition": "supposed or imagined for the purpose of argument; not real",
+      "example": "\"If I were the rector\" is a hypothetical statement — the speaker is not actually the rector.",
+      "collocations": [
+        "hypothetical situation",
+        "purely hypothetical",
+        "in a hypothetical world"
+      ]
+    },
+    {
+      "en": "pragmatic",
+      "ipa": "/præɡˈmætɪk/",
+      "pos": "adjective",
+      "ru": "прагматический",
+      "kz": "прагматикалық",
+      "emoji": "🎯",
+      "definition": "dealing with practical matters; in linguistics: relating to how context shapes meaning",
+      "example": "\"If you don't sit down, I'll call the professor\" has a pragmatic force: it's a warning.",
+      "collocations": [
+        "pragmatic approach",
+        "pragmatic force",
+        "pragmatic meaning"
+      ]
+    },
+    {
+      "en": "causal",
+      "ipa": "/ˈkɔːzəl/",
+      "pos": "adjective",
+      "ru": "причинно-следственный",
+      "kz": "себеп-салдарлық",
+      "emoji": "➡️",
+      "definition": "relating to cause and effect",
+      "example": "Historians use third conditionals to identify causal relationships by imagining their absence.",
+      "collocations": [
+        "causal relationship",
+        "causal link",
+        "causal factor"
+      ]
+    },
+    {
+      "en": "cognition",
+      "ipa": "/kɒɡˈnɪʃən/",
+      "pos": "noun",
+      "ru": "познание / когниция",
+      "kz": "таным",
+      "emoji": "🧠",
+      "definition": "mental processes of acquiring knowledge and understanding",
+      "example": "Conditional thinking is a distinctive feature of human cognition.",
+      "collocations": [
+        "human cognition",
+        "cognitive process",
+        "higher cognition"
+      ]
+    },
+    {
+      "en": "speculate",
+      "ipa": "/ˈspekjʊleɪt/",
+      "pos": "verb",
+      "ru": "строить предположения",
+      "kz": "болжау",
+      "emoji": "🔮",
+      "definition": "to form opinions or theories without firm evidence",
+      "example": "\"This is not idle speculation — it is a way of identifying causal relationships.\"",
+      "collocations": [
+        "speculate about",
+        "idle speculation",
+        "wildly speculate"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "counterfactual",
+      "emoji": "🔄",
+      "opts": [
+        "реальный",
+        "контрфактический",
+        "настоящий",
+        "гипотетический"
+      ],
+      "correct": "контрфактический"
+    },
+    {
+      "id": "p2",
+      "word": "hypothesis",
+      "emoji": "🔬",
+      "opts": [
+        "доказательство",
+        "гипотеза",
+        "теория",
+        "факт"
+      ],
+      "correct": "гипотеза"
+    },
+    {
+      "id": "p3",
+      "word": "hindsight",
+      "emoji": "🔙",
+      "opts": [
+        "предвидение",
+        "ретроспективный взгляд",
+        "догадка",
+        "знание"
+      ],
+      "correct": "ретроспективный взгляд"
+    },
+    {
+      "id": "p4",
+      "word": "hypothetical",
+      "emoji": "💭",
+      "opts": [
+        "реальный",
+        "гипотетический",
+        "логичный",
+        "спорный"
+      ],
+      "correct": "гипотетический"
+    },
+    {
+      "id": "p5",
+      "word": "pragmatic",
+      "emoji": "🎯",
+      "opts": [
+        "теоретический",
+        "прагматический",
+        "академический",
+        "нейтральный"
+      ],
+      "correct": "прагматический"
+    },
+    {
+      "id": "p6",
+      "word": "speculate",
+      "emoji": "🔮",
+      "opts": [
+        "доказывать",
+        "строить предположения",
+        "знать точно",
+        "опровергать"
+      ],
+      "correct": "строить предположения"
+    }
+  ],
+  "task1Bank": [
+    "zero",
+    "first",
+    "second",
+    "third",
+    "mixed",
+    "warning",
+    "hindsight",
+    "simultaneously"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The ___ conditional is used for universal truths and automatic consequences.",
+      "correct": "zero"
+    },
+    {
+      "id": "t2",
+      "question": "The ___ conditional deals with real, possible futures.",
+      "correct": "first"
+    },
+    {
+      "id": "t3",
+      "question": "The ___ conditional is used for hypothetical situations, not realistic expectations.",
+      "correct": "second"
+    },
+    {
+      "id": "t4",
+      "question": "The ___ conditional describes the past as it did not happen.",
+      "correct": "third"
+    },
+    {
+      "id": "t5",
+      "question": "___ conditionals combine past conditions with present results.",
+      "correct": "mixed"
+    },
+    {
+      "id": "t6",
+      "question": "\"If you don't sit down, I'll call the professor\" has pragmatic force as a ___ .",
+      "correct": "warning"
+    },
+    {
+      "id": "t7",
+      "question": "The third conditional is the conditional of regret and ___ .",
+      "correct": "hindsight"
+    },
+    {
+      "id": "t8",
+      "question": "Conditional thinking holds reality and its alternatives in mind ___ .",
+      "correct": "simultaneously"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Animals use conditional thinking in the same way as humans.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "The zero conditional expresses certain, automatic consequences.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "The first conditional is used for impossible or hypothetical situations.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "\"If I were you, I would apply\" is a second conditional.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Third conditionals can be changed — they describe the present, not the past.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Mixed conditionals connect past conditions with present consequences.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Kamila says spending too long in third conditional thinking is beneficial.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Amir shows three different conditionals can describe the same event.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is counterfactual thinking?",
+      "opts": [
+        "Thinking about facts",
+        "Imagining how things might have been different",
+        "Planning the future",
+        "Mathematical reasoning"
+      ],
+      "correct": "Imagining how things might have been different",
+      "hint": "\"Counterfactual thinking — the ability to imagine how things might have been different.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which conditional is for universal truths and automatic results?",
+      "opts": [
+        "First",
+        "Second",
+        "Third",
+        "Zero"
+      ],
+      "correct": "Zero",
+      "hint": "\"The zero conditional is used for universal truths and automatic consequences.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What extra meaning does \"If you don't sit down, I'll call the professor\" carry beyond prediction?",
+      "opts": [
+        "An invitation",
+        "A warning",
+        "A promise",
+        "A suggestion"
+      ],
+      "correct": "A warning",
+      "hint": "\"It is not merely a prediction. It is a warning.\" — pragmatic force beyond the literal conditional. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is \"If I were the rector, I would reduce class sizes\" second conditional?",
+      "opts": [
+        "It's realistic",
+        "The speaker may become rector soon",
+        "The speaker does not expect to become rector — it's hypothetical",
+        "It's about the past"
+      ],
+      "correct": "The speaker does not expect to become rector — it's hypothetical",
+      "hint": "\"The speaker does not expect to become the rector.\" Second conditional = imagined alternative reality. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The third conditional is described as the conditional of regret, ___ , and historical analysis.",
+      "correct": "hindsight",
+      "hint": "\"The conditional of regret, HINDSIGHT, and historical analysis.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"If I had taken the scholarship, I would be in Berlin right now\" illustrate?",
+      "opts": [
+        "Zero conditional",
+        "First conditional",
+        "Mixed conditional — past condition + present result",
+        "Third conditional only"
+      ],
+      "correct": "Mixed conditional — past condition + present result",
+      "hint": "\"If I had taken...\" (past condition) + \"I would be...\" (present result) = mixed conditional. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Historians use conditionals to identify causal relationships.\" \"Causal\" means:",
+      "opts": [
+        "Time-related",
+        "Cause-and-effect related",
+        "Historical",
+        "Random"
+      ],
+      "correct": "Cause-and-effect related",
+      "hint": "\"causal\" = relating to cause and effect; what causes what."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"With the benefit of hindsight.\" \"Hindsight\" means:",
+      "opts": [
+        "Foresight",
+        "Understanding a situation only after it has happened",
+        "Current knowledge",
+        "Expert advice"
+      ],
+      "correct": "Understanding a situation only after it has happened",
+      "hint": "\"hindsight\" = understanding that comes AFTER the event, not before."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I had applied, I would be in Astana now.\" — This is:",
+      "opts": [
+        "First conditional",
+        "Second conditional",
+        "Third conditional",
+        "Mixed: 3rd if-clause + 2nd result"
+      ],
+      "correct": "Mixed: 3rd if-clause + 2nd result",
+      "hint": "\"had applied\" = past (3rd type if-clause) + \"would be now\" = present result (2nd type). Mixed conditional. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If you apply for the autumn intake, you will get another chance.\" — This is:",
+      "opts": [
+        "Zero conditional",
+        "First conditional — real future possibility",
+        "Second conditional",
+        "Third conditional"
+      ],
+      "correct": "First conditional — real future possibility",
+      "hint": "if + Present Simple + will = First Conditional. Real, achievable future. ✅"
+    }
+  ]
+}

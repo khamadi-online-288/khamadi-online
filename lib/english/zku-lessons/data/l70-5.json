@@ -1,0 +1,358 @@
+{
+  "id": "l70-5",
+  "moduleNum": 12,
+  "lessonNum": 9,
+  "moduleTitle": "Technology & The Future",
+  "title": "Module 12 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I think electric vehicles ___ dominate the market by 2035.\" (opinion prediction)",
+      "opts": [
+        "are going to",
+        "will",
+        "are",
+        "will be"
+      ],
+      "correct": "will",
+      "hint": "\"I think / believe\" + prediction = will",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The battery is almost empty — the drone ___ fall.\" (visible evidence)",
+      "opts": [
+        "will",
+        "is going to",
+        "will be",
+        "falls"
+      ],
+      "correct": "is going to",
+      "hint": "Evidence-based immediate prediction = going to",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"When AI ___ (become) more capable, governments ___ (need) new laws.\"",
+      "correct": "becomes / will need",
+      "hint": "Time clause: present simple; result: will + infinitive",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"We ___ with the development team on Thursday.\" (arranged, in the calendar)",
+      "opts": [
+        "'ll meet",
+        "'re meeting",
+        "'re going to meet",
+        "meet"
+      ],
+      "correct": "'re meeting",
+      "hint": "Fixed future arrangement = present continuous",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By 2040, researchers ___ a viable quantum computer.\" Choose the correct form.",
+      "opts": [
+        "will develop",
+        "will be developing",
+        "will have developed",
+        "are going to develop"
+      ],
+      "correct": "will have developed",
+      "hint": "\"By + future time\" = future perfect: will have + pp",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In 2035, most white-collar workers ___ (collaborate) with AI tools daily.\" (ongoing activity)",
+      "correct": "will be collaborating",
+      "hint": "Future continuous: typical ongoing activity at a future time",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"AI ___ transform medicine — it's already happening in diagnostics.\" (evidence-based, formal)",
+      "opts": [
+        "will",
+        "is going to",
+        "is expected to",
+        "is about to"
+      ],
+      "correct": "is expected to",
+      "hint": "\"is expected to\" = formal evidence-based prediction",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"By next year, she ___ (work) on AI safety research for five years.\" (duration until future)",
+      "correct": "will have been working",
+      "hint": "Future perfect continuous: will have been + -ing",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The new law is ___ come into effect in March.\" (scheduled, formal)",
+      "opts": [
+        "about to",
+        "going to",
+        "due to",
+        "likely to"
+      ],
+      "correct": "due to",
+      "hint": "\"is due to\" = scheduled to happen at a specific time",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"When AI ___ mature, it will reshape the economy.\" — What is WRONG here?",
+      "opts": [
+        "Nothing — it is correct",
+        "\"Will mature\" should be \"matures\" in a time clause",
+        "\"Will reshape\" should be \"reshapes\"",
+        "\"Reshape\" should be past tense"
+      ],
+      "correct": "\"Will mature\" should be \"matures\" in a time clause",
+      "hint": "Time clauses use present simple, not will",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"the digital divide\" refer to?",
+      "opts": [
+        "The gap between old and new technology",
+        "The gap between those with and without digital access",
+        "The difference between AI and human intelligence",
+        "The divide between digital and physical workplaces"
+      ],
+      "correct": "The gap between those with and without digital access",
+      "hint": "Reading 1: \"digital divide\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Technology ___ (likely / disrupt) traditional industries significantly over the next decade.\"",
+      "correct": "is likely to disrupt",
+      "hint": "\"is likely to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most academic way to predict AI's future impact?",
+      "opts": [
+        "AI is going to change everything soon.",
+        "I think AI will help a lot.",
+        "AI is predicted to transform multiple sectors within the next decade.",
+        "AI is about to make big changes."
+      ],
+      "correct": "AI is predicted to transform multiple sectors within the next decade.",
+      "hint": "\"is predicted to + infinitive\" = formal, evidence-based, academic",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Unless governments invest in retraining, many workers will be left behind\" — this conditional is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Unless\" = if not; present simple in condition, will in result",
+      "points": 1
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Amara's Law say?",
+      "opts": [
+        "Technology always develops exactly as predicted",
+        "We overestimate short-term impact and underestimate long-term impact",
+        "AI will inevitably replace all human jobs",
+        "Predictions about technology are always wrong"
+      ],
+      "correct": "We overestimate short-term impact and underestimate long-term impact",
+      "hint": "Listening 3B: Prof. Seitkali quotes Amara's Law",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The seminar ___ at 10am.\" (official timetable — present simple)",
+      "opts": [
+        "will start",
+        "is going to start",
+        "starts",
+        "will be starting"
+      ],
+      "correct": "starts",
+      "hint": "Fixed timetable: present simple",
+      "points": 1
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"As soon as the results ___ (publish), we ___ (analyse) them.\"",
+      "correct": "are published / will analyse",
+      "hint": "Time clause: present simple (passive); result: will",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ you ___ using the lab tomorrow?\" (Polite future enquiry)",
+      "opts": [
+        "Will / be",
+        "Are / being",
+        "Do / be",
+        "Are / going"
+      ],
+      "correct": "Will / be",
+      "hint": "Polite enquiry: Will you be + -ing?",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the text say about workers who \"lack access to education or retraining\"?",
+      "opts": [
+        "They will benefit most from AI",
+        "They find themselves left behind",
+        "They are most likely to retrain successfully",
+        "They are encouraged to start businesses"
+      ],
+      "correct": "They find themselves left behind",
+      "hint": "Reading 1: \"find themselves left behind\"",
+      "points": 1
+    },
+    {
+      "id": "q20",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"By the time the AI regulations pass, much of the damage ___ (do).\" (passive future perfect)",
+      "correct": "will have been done",
+      "hint": "Future perfect passive: will have been + pp",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which uses \"be about to\" correctly?",
+      "opts": [
+        "The company is about to launching its product.",
+        "The company is about launch its product.",
+        "The company is about to launch its product.",
+        "The company about to launch its product."
+      ],
+      "correct": "The company is about to launch its product.",
+      "hint": "\"is about to + bare infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The replacement of human labour by machines is called ___.",
+      "correct": "automation",
+      "hint": "Reading 1: \"automation — replacement of human labour by machines\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I've already decided — I ___ study machine learning next year.\" (pre-made intention)",
+      "opts": [
+        "'ll",
+        "'m going to",
+        "'m studying",
+        "study"
+      ],
+      "correct": "'m going to",
+      "hint": "Pre-made intention = going to",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Technology is likely transforming education\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"is likely to transform\" — must use \"to + infinitive\" after \"likely\"",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "To \"augment\" human capabilities means to…",
+      "opts": [
+        "Replace them completely",
+        "Test them carefully",
+        "Add to them, making them greater",
+        "Reduce them gradually"
+      ],
+      "correct": "Add to them, making them greater",
+      "hint": "Reading 2: \"augment human capabilities\"",
+      "points": 1
+    }
+  ]
+}

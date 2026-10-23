@@ -1,0 +1,480 @@
+{
+  "id": "l25-2",
+  "moduleNum": 9,
+  "lessonNum": 2,
+  "moduleTitle": "Have you ever…?",
+  "title": "Have You Ever Tried…?",
+  "type": "listening",
+  "xp": 35,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "Guys, I'm putting together ideas for our Altai trip. Has anyone here been hiking before? I want to know everyone's experience level.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I've been hiking twice — once near Almaty with my family when I was twelve, and once last year at Burabay. Both times were amazing!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've never gone proper hiking before. I've walked a lot in cities, but I've never slept in a tent or carried a heavy rucksack. Is it very difficult?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "It depends on the trail. Have you ever exercised a lot outdoors? Even running or cycling counts as preparation.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've played football twice a week for five years, so I think I'm fit enough. But I've never cooked on a campfire. Is that a skill we need?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Yes! Have you ever tried making tea on a gas stove? It's much harder than it sounds. But Kamila's brilliant at camp cooking. She's already taught me once.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Ha! I've made lots of mistakes too. Once, I accidentally burned the rice completely. But I've learned from each mistake. The key is preparation.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've been on five hiking trips. I've slept in a tent, crossed rivers, and once even got lost for two hours! But I've always found my way back.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "You've gotten LOST? That sounds terrifying! Has anything really dangerous ever happened on a trip?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Nothing too serious. I've twisted my ankle once, and Zhibek — haven't you seen a bear near the trail before?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Not a bear! We heard strange sounds at night. I've never been so scared in my life! But it turned out to be a deer.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "OK I feel better now! So — Amir, you've never camped before, but you're fit. Rustam has the most experience. Zhibek has done it twice. And I've prepared the food list already. We're going to be fine.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Sounds perfect. I have to say — I've never looked forward to anything as much as this trip. Let's go to Altai!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Have you ever + past participle?",
+      "ru": "Ты когда-нибудь...?",
+      "context": "Have you ever been hiking before?"
+    },
+    {
+      "phrase": "I've never + past participle",
+      "ru": "Я никогда не...",
+      "context": "I've never gone proper hiking before."
+    },
+    {
+      "phrase": "I've + past participle (experience)",
+      "ru": "Я (уже) делал/а...",
+      "context": "I've been hiking twice."
+    },
+    {
+      "phrase": "She's already + past participle",
+      "ru": "Она уже...",
+      "context": "She's already taught me once."
+    },
+    {
+      "phrase": "I've never been so + adjective",
+      "ru": "Я никогда не был(а) так...",
+      "context": "I've never been so scared in my life!"
+    },
+    {
+      "phrase": "look forward to + noun/-ing",
+      "ru": "с нетерпением ждать",
+      "context": "I've never looked forward to anything as much as this trip."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "trail",
+      "ipa": "/treɪl/",
+      "pos": "noun",
+      "ru": "тропа",
+      "kz": "жол",
+      "emoji": "🌲",
+      "definition": "a path through a natural area for walking or hiking",
+      "example": "It depends on the trail — some are easier than others.",
+      "collocations": [
+        "hiking trail",
+        "follow the trail",
+        "mountain trail"
+      ]
+    },
+    {
+      "en": "campfire",
+      "ipa": "/ˈkæmpfaɪər/",
+      "pos": "noun",
+      "ru": "костёр",
+      "kz": "лагер оты",
+      "emoji": "🔥",
+      "definition": "an outdoor fire made at a campsite for warmth or cooking",
+      "example": "Amir has never cooked on a campfire before.",
+      "collocations": [
+        "light a campfire",
+        "cook on a campfire",
+        "sit by the campfire"
+      ]
+    },
+    {
+      "en": "twist",
+      "ipa": "/twɪst/",
+      "pos": "verb",
+      "ru": "вывихнуть (лодыжку)",
+      "kz": "бұрау",
+      "emoji": "🦶",
+      "definition": "to injure a joint by turning it suddenly",
+      "example": "Rustam has twisted his ankle on a hiking trip before.",
+      "collocations": [
+        "twist an ankle",
+        "twist a knee",
+        "badly twisted"
+      ]
+    },
+    {
+      "en": "preparation",
+      "ipa": "/ˌprepəˈreɪʃn/",
+      "pos": "noun",
+      "ru": "подготовка",
+      "kz": "дайындық",
+      "emoji": "📋",
+      "definition": "the action of making ready in advance",
+      "example": "The key to a successful trip is preparation.",
+      "collocations": [
+        "careful preparation",
+        "trip preparation",
+        "make preparations"
+      ]
+    },
+    {
+      "en": "terrifying",
+      "ipa": "/ˈterɪfaɪɪŋ/",
+      "pos": "adjective",
+      "ru": "ужасающий / пугающий",
+      "kz": "қорқынышты",
+      "emoji": "😱",
+      "definition": "extremely frightening",
+      "example": "Getting lost in the mountains sounds terrifying!",
+      "collocations": [
+        "absolutely terrifying",
+        "terrifying experience",
+        "terrifying situation"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "pt1",
+      "word": "trail",
+      "emoji": "🌲",
+      "opts": [
+        "a city street",
+        "a path through nature",
+        "a river crossing",
+        "a mountain peak"
+      ],
+      "correct": "a path through nature"
+    },
+    {
+      "id": "pt2",
+      "word": "campfire",
+      "emoji": "🔥",
+      "opts": [
+        "a kitchen stove",
+        "a gas lamp",
+        "an outdoor fire at a campsite",
+        "a torch"
+      ],
+      "correct": "an outdoor fire at a campsite"
+    },
+    {
+      "id": "pt3",
+      "word": "terrifying",
+      "emoji": "😱",
+      "opts": [
+        "very exciting",
+        "very boring",
+        "extremely frightening",
+        "very funny"
+      ],
+      "correct": "extremely frightening"
+    }
+  ],
+  "task1Bank": [
+    "has been",
+    "has twisted",
+    "has never gone",
+    "has already taught",
+    "has made",
+    "has played",
+    "have never looked",
+    "has prepared"
+  ],
+  "task1Items": [
+    {
+      "id": "t1a",
+      "question": "Zhibek ___ hiking twice before.",
+      "correct": "has been"
+    },
+    {
+      "id": "t1b",
+      "question": "Amir ___ proper hiking before this trip.",
+      "correct": "has never gone"
+    },
+    {
+      "id": "t1c",
+      "question": "Amir ___ football twice a week for five years.",
+      "correct": "has played"
+    },
+    {
+      "id": "t1d",
+      "question": "Kamila ___ Zhibek about camp cooking once.",
+      "correct": "has already taught"
+    },
+    {
+      "id": "t1e",
+      "question": "Rustam ___ his ankle on a hiking trip.",
+      "correct": "has twisted"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "t2a",
+      "statement": "Amir has gone proper hiking many times before.",
+      "correct": "false"
+    },
+    {
+      "id": "t2b",
+      "statement": "Rustam has been on five hiking trips.",
+      "correct": "true"
+    },
+    {
+      "id": "t2c",
+      "statement": "The strange sounds near Zhibek's tent turned out to be a bear.",
+      "correct": "false"
+    },
+    {
+      "id": "t2d",
+      "statement": "Kamila has already prepared the food list for the Altai trip.",
+      "correct": "true"
+    },
+    {
+      "id": "t2e",
+      "statement": "Amir is excited about the upcoming trip.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rust",
+      "name": "Rustam",
+      "city": "Shymkent",
+      "emoji": "⚽",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "role": "WKU Student"
+    },
+    {
+      "id": "zhib",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU Student"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "👨‍💻",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU Student"
+    },
+    {
+      "id": "kami",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "👩‍🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU Student"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been on five hiking trips and once got lost for two hours.",
+      "correctCharId": "rust"
+    },
+    {
+      "id": "s2",
+      "text": "Has been hiking twice — near Almaty and at Burabay.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s3",
+      "text": "Has never gone proper hiking; plays football twice a week.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "Has already prepared the food list and taught Zhibek to cook.",
+      "correctCharId": "kami"
+    },
+    {
+      "id": "s5",
+      "text": "Heard strange sounds at night — turned out to be a deer.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s6",
+      "text": "Has never looked forward to anything as much as this trip.",
+      "correctCharId": "amir"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How many times has Zhibek been hiking?",
+      "opts": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Five times"
+      ],
+      "correct": "Twice",
+      "hint": "Zhibek said \"I've been hiking twice.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir has been on many hiking trips before.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir said \"I've never gone proper hiking before.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How long has Amir played football?",
+      "opts": [
+        "One year",
+        "Three years",
+        "Five years",
+        "Ten years"
+      ],
+      "correct": "Five years",
+      "hint": "Amir said \"I've played football twice a week for five years.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Rustam once got ___ for two hours on a hiking trip.",
+      "correct": "lost",
+      "hint": "Rustam said \"once even got lost for two hours!\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did the strange sounds near Zhibek's tent turn out to be?",
+      "opts": [
+        "A bear",
+        "A wolf",
+        "A deer",
+        "The wind"
+      ],
+      "correct": "A deer",
+      "hint": "Zhibek said \"it turned out to be a deer.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila has already prepared the food list for the Altai trip.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Kamila said \"I've prepared the food list already.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How many hiking trips has Rustam been on?",
+      "opts": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": "Five",
+      "hint": "Rustam said \"I've been on five hiking trips.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "\"Look forward to\" means:",
+      "opts": [
+        "To look behind you",
+        "To be excited and wait eagerly for something",
+        "To be worried about something",
+        "To remember something"
+      ],
+      "correct": "To be excited and wait eagerly for something",
+      "hint": "\"Look forward to\" = to feel excited about something that is going to happen."
+    }
+  ]
+}

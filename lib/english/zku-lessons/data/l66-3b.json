@@ -1,0 +1,436 @@
+{
+  "id": "l66-3b",
+  "moduleNum": 8,
+  "lessonNum": 4,
+  "moduleTitle": "Gerunds & Infinitives: Advanced",
+  "type": "listening",
+  "title": "A Lecture Excerpt: Gerunds and Infinitives in Academic Language",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "Today's session is about something that confuses a lot of advanced learners: when to use a gerund versus an infinitive, particularly in the pairs that change meaning. Let me start with what I consider the most important pair: \"try.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "If I say \"I tried understanding the problem,\" I mean I made an attempt to understand it — I approached it as something to test, to experiment with. The gerund signals experiment. If I say \"I tried to understand the problem,\" I mean I made an effort to achieve understanding, but possibly I didn't succeed. The infinitive signals effort toward a goal.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Is there a test — a quick way to remember which is which?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "The test I find most useful is the word \"out.\" \"Try + gerund\" is close in meaning to \"try out\" — experiment, test it, see what happens. \"Try + infinitive\" is more like \"make an effort to achieve.\" \"Try out drinking herbal tea\" (experiment) vs \"try to drink herbal tea\" (attempt despite difficulty).",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What about \"remember\"? I always get confused about that one.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "Think of it this way: \"remember + gerund\" is about the past. \"I remember meeting her\" — the meeting is a memory. \"Remember + infinitive\" is about the future. \"I remember to call her\" — I don't forget to do something I need to do. Past event versus future task.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "And \"stop\" — is it the same pattern?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "\"Stop\" is slightly different. \"Stop + gerund\" means the activity ends — it stops. \"She stopped working.\" \"Stop + infinitive\" expresses purpose — why you stopped. \"She stopped to work\" means she stopped something else in order to work. The infinitive explains the reason for stopping, not the thing that stopped.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "What about \"regret\"? I saw it used in a formal email yesterday — \"We regret to inform you that...\"",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "Ah yes — \"regret to + infinitive\" is used in formal contexts to introduce bad news. \"I regret to inform you / to say / to announce.\" The regret is about the action that follows. Whereas \"regret + gerund\" is about something already done — you did it and now feel sorry. \"I regret telling him\" = I told him and now wish I hadn't.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "So in formal letters, you always use \"regret + infinitive\"?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Seitkali",
+      "text": "In that specific pattern, yes. \"We regret to inform you...\" / \"I regret to say that...\" It's a formula. The gerund version would imply you've already informed them and feel bad about it, which is a different situation.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "confuses",
+      "emoji": "😕",
+      "opts": [
+        "проясняет",
+        "сбивает с толку",
+        "запоминает",
+        "объясняет"
+      ],
+      "correct": "сбивает с толку"
+    },
+    {
+      "id": "p2",
+      "word": "herbal tea",
+      "emoji": "🍵",
+      "opts": [
+        "чёрный чай",
+        "травяной чай",
+        "зелёный чай",
+        "кофе"
+      ],
+      "correct": "травяной чай"
+    },
+    {
+      "id": "p3",
+      "word": "experiment",
+      "emoji": "🔬",
+      "opts": [
+        "делать усилие",
+        "экспериментировать",
+        "добиться",
+        "отказываться"
+      ],
+      "correct": "экспериментировать"
+    },
+    {
+      "id": "p4",
+      "word": "formula",
+      "emoji": "📋",
+      "opts": [
+        "правило",
+        "формула / устойчивое выражение",
+        "метод",
+        "шаблон"
+      ],
+      "correct": "формула / устойчивое выражение"
+    },
+    {
+      "id": "p5",
+      "word": "implies",
+      "emoji": "💭",
+      "opts": [
+        "говорит прямо",
+        "подразумевает",
+        "отрицает",
+        "подтверждает"
+      ],
+      "correct": "подразумевает"
+    },
+    {
+      "id": "p6",
+      "word": "despite",
+      "emoji": "⚡",
+      "opts": [
+        "благодаря",
+        "несмотря на",
+        "из-за",
+        "по причине"
+      ],
+      "correct": "несмотря на"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "\"Try + gerund\" = experiment; \"try + infinitive\" = effort toward a goal.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Dr. Seitkali says \"try out\" is close in meaning to \"try + infinitive.\"",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "\"Remember + gerund\" is about a past memory.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "\"Stop + gerund\" explains the PURPOSE of stopping.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "\"Regret + infinitive\" is used in formal contexts to introduce bad news.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "\"I regret telling him\" = I told him and now wish I hadn't.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "seitkali",
+      "name": "Dr. Seitkali",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Linguist delivering an advanced lesson on gerund/infinitive pairs"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Asks questions about \"try\" and \"regret\""
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Asks about \"remember\" and formal letter usage"
+    },
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "⚖️",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Asks about \"stop\""
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Explains \"try + gerund\" = experiment/test; \"try + infinitive\" = effort toward a goal.",
+      "correctCharId": "seitkali"
+    },
+    {
+      "id": "s2",
+      "text": "Suggests \"try out\" as a test for \"try + gerund\" meaning.",
+      "correctCharId": "seitkali"
+    },
+    {
+      "id": "s3",
+      "text": "Explains \"remember + gerund\" = past memory; \"remember + infinitive\" = future task.",
+      "correctCharId": "seitkali"
+    },
+    {
+      "id": "s4",
+      "text": "Explains \"stop + gerund\" = activity ends; \"stop + infinitive\" = purpose of stopping.",
+      "correctCharId": "seitkali"
+    },
+    {
+      "id": "s5",
+      "text": "Confirms \"regret + infinitive\" is a formal formula: \"regret to inform/say/announce.\"",
+      "correctCharId": "seitkali"
+    },
+    {
+      "id": "s6",
+      "text": "Notes that \"regret + gerund\" implies the action is already done.",
+      "correctCharId": "seitkali"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"try + gerund\" signal?",
+      "opts": [
+        "Effort toward a goal",
+        "Experiment — testing something to see what happens",
+        "Failure",
+        "Obligation"
+      ],
+      "correct": "Experiment — testing something to see what happens",
+      "hint": "\"Try + gerund signals experiment.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What word does Dr. Seitkali use as a test for \"try + gerund\"?",
+      "opts": [
+        "Hard",
+        "Out",
+        "More",
+        "Again"
+      ],
+      "correct": "Out",
+      "hint": "Try + gerund is close in meaning to \"try out\" — experiment, test, see what happens. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Dr. Seitkali describe \"remember + gerund\"?",
+      "opts": [
+        "About the future",
+        "About a past memory",
+        "About obligation",
+        "About intention"
+      ],
+      "correct": "About a past memory",
+      "hint": "\"Remember + gerund is about the past. 'I remember meeting her' — the meeting is a memory.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"stop + infinitive\" express?",
+      "opts": [
+        "The activity that ends",
+        "The purpose of stopping — why you stopped",
+        "The consequence of stopping",
+        "The person who stops"
+      ],
+      "correct": "The purpose of stopping — why you stopped",
+      "hint": "\"Stop + infinitive expresses purpose — why you stopped.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In what context is \"regret + infinitive\" used?",
+      "opts": [
+        "When you feel sorry about the past",
+        "In formal contexts to introduce bad news",
+        "After the event has happened",
+        "In informal conversation"
+      ],
+      "correct": "In formal contexts to introduce bad news",
+      "hint": "\"Regret to + infinitive is used in formal contexts to introduce bad news.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"I regret telling him\" mean?",
+      "opts": [
+        "I am going to tell him something bad",
+        "I told him and now wish I hadn't (past action, now feel sorry)",
+        "I refused to tell him",
+        "I intend to tell him but feel bad about it"
+      ],
+      "correct": "I told him and now wish I hadn't (past action, now feel sorry)",
+      "hint": "\"Regret + gerund is about something already done — I did it and now feel sorry.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "\"We regret informing you\" is the correct formal formula.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"We regret TO INFORM you\" = correct formula. \"We regret informing you\" = we already told them and feel bad. Different! ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What example does Dr. Seitkali use for \"try + gerund\"?",
+      "opts": [
+        "Trying to pass the exam",
+        "Trying drinking herbal tea (experiment)",
+        "Trying to solve the problem",
+        "Trying understanding grammar"
+      ],
+      "correct": "Trying drinking herbal tea (experiment)",
+      "hint": "\"Try out drinking herbal tea (experiment)\" — trying it as an experiment. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I tried to understand the problem.\" — \"tried + infinitive\" implies:",
+      "opts": [
+        "I was experimenting",
+        "I tested whether I could understand",
+        "I made an effort to understand (possibly failed)",
+        "I understand it now"
+      ],
+      "correct": "I made an effort to understand (possibly failed)",
+      "hint": "\"Try + infinitive = effort toward a goal that may not be achieved.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She stopped to work.\" — What stopped?",
+      "opts": [
+        "Her work stopped",
+        "Something ELSE stopped — she stopped in order to work (purpose)",
+        "She worked and then stopped",
+        "Work was finished"
+      ],
+      "correct": "Something ELSE stopped — she stopped in order to work (purpose)",
+      "hint": "\"Stop + infinitive = purpose.\" She stopped [another activity] IN ORDER TO work. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I remember to call her.\" — What does this mean?",
+      "opts": [
+        "I recall calling her",
+        "I don't forget to call her (future task/obligation)",
+        "I called her and remember",
+        "I regret calling her"
+      ],
+      "correct": "I don't forget to call her (future task/obligation)",
+      "hint": "\"Remember + infinitive = future task.\" I remember that I need to call her — I don't forget to do it. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We ___ (regret) ___ (inform) you that your application was unsuccessful.\"",
+      "correct": "regret to inform",
+      "hint": "Formal letter: \"We REGRET TO INFORM you...\" — regret + infinitive for formal bad news. ✅"
+    }
+  ]
+}

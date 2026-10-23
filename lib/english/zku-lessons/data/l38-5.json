@@ -1,0 +1,370 @@
+{
+  "id": "l38-5",
+  "moduleNum": 4,
+  "lessonNum": 7,
+  "moduleTitle": "Plans & Intentions",
+  "type": "test",
+  "title": "Module 4 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila's plan after graduation?",
+      "opts": [
+        "Work at a startup",
+        "Take a year off",
+        "Apply for a master's in Edinburgh",
+        "Stay at WKU"
+      ],
+      "correct": "Apply for a master's in Edinburgh",
+      "hint": "\"I'm going to apply for a master's programme in Edinburgh.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam has a clear, detailed plan for after his trip to Altai.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Then I'll figure it out.\" — Rustam is deliberately keeping his options open."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir prefer a startup over a large corporation?",
+      "opts": [
+        "Startups pay more",
+        "He'll learn more and have more responsibility",
+        "He knows the founders",
+        "He failed the corporate interview"
+      ],
+      "correct": "He'll learn more and have more responsibility",
+      "hint": "\"I'll learn more in a startup environment. More responsibility, more variety.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Zhibek will be working on a project about bilingual ___ in Kazakhstan.",
+      "correct": "education",
+      "hint": "\"a research project on bilingual education in Kazakhstan\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Daniyar plan to do after graduation?",
+      "opts": [
+        "Apply for a master's",
+        "Travel abroad",
+        "Help expand his family's business",
+        "Work at WKU"
+      ],
+      "correct": "Help expand his family's business",
+      "hint": "\"I'm going to help expand it.\" — his family runs a small business in Aktobe."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila mean by \"a life you made vs a life that happened to you\"?",
+      "opts": [
+        "Lucky vs unlucky",
+        "Intentional choices vs drifting without deciding",
+        "Rich vs poor",
+        "Work vs travel"
+      ],
+      "correct": "Intentional choices vs drifting without deciding",
+      "hint": "\"The difference between a life you made and a life that happened to you.\" = active choice vs passive drift."
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who booked the venue for the celebration?",
+      "opts": [
+        "Kamila",
+        "Amir",
+        "Rustam",
+        "Zhibek"
+      ],
+      "correct": "Zhibek",
+      "hint": "\"I've already booked the garden area for May 30th.\" — Zhibek."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila's job for the celebration?",
+      "opts": [
+        "Music",
+        "Venue",
+        "Food",
+        "Invitations"
+      ],
+      "correct": "Food",
+      "hint": "\"I'll handle the food. I'm going to order from that Georgian place.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir offered to arrive at ___ to help set up.",
+      "correct": "2:30",
+      "hint": "\"I can be there by 2:30 to help.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar has already left Uralsk before the celebration.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"He's leaving June 2nd. So he'll be here on the 30th.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Rustam offered to help with:",
+      "opts": [
+        "Music",
+        "Picking up food",
+        "Invitations",
+        "Setting up equipment"
+      ],
+      "correct": "Picking up food",
+      "hint": "\"Sure — I'll pick it up. Just tell me the address.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Amir feel about the celebration?",
+      "opts": [
+        "Nervous",
+        "Uninterested",
+        "Looking forward to it",
+        "Worried about the food"
+      ],
+      "correct": "Looking forward to it",
+      "hint": "\"I'm actually looking forward to it.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ apply for a scholarship.\" (decision made 2 weeks ago)",
+      "opts": [
+        "will",
+        "'m going to",
+        "go to",
+        "would"
+      ],
+      "correct": "'m going to",
+      "hint": "Decision made BEFORE this conversation → \"going to\". \"I'm going to apply.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There's no milk! — Don't worry, I ___ get some.\"",
+      "opts": [
+        "'m going to",
+        "'ll",
+        "was going to",
+        "go to"
+      ],
+      "correct": "'ll",
+      "hint": "Spontaneous offer/decision made NOW → \"will\". \"I'll get some!\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Look at those dark clouds — it ___ (rain)!\"",
+      "correct": "'s going to rain",
+      "hint": "Visible evidence (clouds) → \"going to\" for predictions with evidence."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I think technology ___ change everything in 10 years.\"",
+      "opts": [
+        "is going to",
+        "will",
+        "goes to",
+        "would"
+      ],
+      "correct": "will",
+      "hint": "\"I think\" + general prediction (no visible evidence) → \"will\"."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ you going to attend the conference?\" — \"Yes, I ___.\"",
+      "opts": [
+        "Will / will",
+        "Are / am",
+        "Is / am",
+        "Do / am"
+      ],
+      "correct": "Are / am",
+      "hint": "\"Are you going to...?\" → Short answer: \"Yes, I am.\" (not \"Yes, I will.\" for going to questions)"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She is going to studied in Edinburgh\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She is going to STUDY.\" — \"going to\" must be followed by BASE VERB (no -ed, no -ing)."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I won't forget your birthday, I promise.\" — What is \"won't\" here?",
+      "opts": [
+        "Prediction",
+        "Refusal",
+        "Negative promise",
+        "Spontaneous decision"
+      ],
+      "correct": "Negative promise",
+      "hint": "\"I won't forget — I promise\" = a promise NOT to do something. Negative promise."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She has already decided. She ___ (join) the research team.\"",
+      "correct": "'s going to join",
+      "hint": "Already decided before = \"going to\". \"She's going to join the research team.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Keep your options open\" means:",
+      "opts": [
+        "Make a firm decision quickly",
+        "Not commit to one specific plan",
+        "Apply for many jobs",
+        "Open a business"
+      ],
+      "correct": "Not commit to one specific plan",
+      "hint": "\"Keep your options open\" = stay flexible, don't commit to just one path."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "He ___ on his plans. He just said he would return to Aktobe.",
+      "correct": "didn't elaborate",
+      "hint": "\"elaborate\" = to give more details. \"He didn't elaborate\" = no further explanation."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Language acquisition\" means:",
+      "opts": [
+        "Buying language books",
+        "The process of learning a language",
+        "Teaching English abroad",
+        "Language testing"
+      ],
+      "correct": "The process of learning a language",
+      "hint": "\"acquisition\" = gaining or learning something. \"Language acquisition\" = how languages are learned."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She deliberately kept her options open.\" \"Deliberately\" means:",
+      "opts": [
+        "accidentally",
+        "slowly",
+        "intentionally",
+        "sadly"
+      ],
+      "correct": "intentionally",
+      "hint": "\"deliberately\" = on purpose, by choice. She intentionally chose not to commit to one path."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm going to integrate AI into the product.\" \"Integrate\" means:",
+      "opts": [
+        "Remove from",
+        "Separate from",
+        "Combine into a unified whole",
+        "Study closely"
+      ],
+      "correct": "Combine into a unified whole",
+      "hint": "\"integrate\" = to combine things so they work together as one system."
+    }
+  ]
+}

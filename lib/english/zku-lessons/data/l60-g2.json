@@ -1,0 +1,720 @@
+{
+  "id": "l60-g2",
+  "moduleNum": 2,
+  "lessonNum": 6,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "grammar",
+  "title": "Reported Speech: Questions, Commands & Reporting Verbs",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Reported Speech — Part 2: Questions, Commands & Advanced Reporting Verbs",
+  "grammarNote": "В этом уроке мы разбираем три важных аспекта косвенной речи: 1) Как сообщать вопросы (с особым вниманием к порядку слов); 2) Как передавать приказы, просьбы и советы; 3) Как использовать расширенный набор reporting verbs для точной и нюансированной передачи смысла.",
+  "grammarTable": [
+    {
+      "subject": "Yes/No questions",
+      "verb": "ask + if / whether + S + V (normal order)",
+      "short": "if/whether — NO inversion",
+      "example": "\"Are you ready?\" → He asked IF I WAS ready. (NOT \"if was I ready\")"
+    },
+    {
+      "subject": "Wh- questions",
+      "verb": "ask + wh-word + S + V (normal order)",
+      "short": "wh-word — NO do/did/does",
+      "example": "\"Where do you live?\" → She asked WHERE I LIVED. (NOT \"where did I live\")"
+    },
+    {
+      "subject": "Commands",
+      "verb": "tell/order/warn + object + to + infinitive",
+      "short": "positive: to + inf",
+      "example": "\"Close the door!\" → She told him TO CLOSE the door."
+    },
+    {
+      "subject": "Negative commands",
+      "verb": "tell + object + not + to + infinitive",
+      "short": "negative: not to + inf",
+      "example": "\"Don't be late!\" → He told us NOT TO BE late."
+    },
+    {
+      "subject": "Requests",
+      "verb": "ask + object + to + infinitive",
+      "short": "polite request",
+      "example": "\"Could you help me?\" → She asked me TO HELP her."
+    },
+    {
+      "subject": "Advice / suggestions",
+      "verb": "advise + object + to + inf / suggest + gerund / suggest + that + clause",
+      "short": "advise to / suggest -ing",
+      "example": "\"You should rest.\" → She advised me TO REST. / \"Why not rest?\" → She suggested RESTING."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Reported Questions: the critical word order rule",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Direct question: INVERTED word order + auxiliary",
+          "example": "\"Where DO you work?\" / \"Have you BEEN there?\" / \"What DID she say?\""
+        },
+        {
+          "form": "Reported question: NORMAL word order — no inversion, no do/did/does",
+          "example": "\"She asked where I WORKED.\" / \"He asked if I HAD BEEN there.\" / \"She asked what she HAD SAID.\""
+        },
+        {
+          "form": "✗ \"She asked where did I work.\"",
+          "example": "✅ \"She asked where I WORKED.\" — remove \"did\", normal order (subject before verb) ✅"
+        },
+        {
+          "form": "✗ \"He asked what did she say.\"",
+          "example": "✅ \"He asked what she HAD SAID.\" — PS→PP in reported, + normal order ✅"
+        },
+        {
+          "form": "Yes/No: if or whether — both correct",
+          "example": "\"Are you coming?\" → She asked IF I was coming. / She asked WHETHER I was coming. ✅"
+        },
+        {
+          "form": "Tense shift applies to reported questions too",
+          "example": "\"Are you ready?\" → He asked if I WAS ready. (\"are\"→\"was\") ✅"
+        }
+      ]
+    },
+    {
+      "title": "Commands, requests and advice — structures",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "tell + obj + to + inf (command)",
+          "example": "\"Sit down!\" → She told him TO SIT DOWN. ✅"
+        },
+        {
+          "form": "tell + obj + NOT + to + inf (negative command)",
+          "example": "\"Don't speak!\" → She told him NOT TO SPEAK. ✅"
+        },
+        {
+          "form": "ask + obj + to + inf (request)",
+          "example": "\"Could you open the window?\" → She asked him TO OPEN the window. ✅"
+        },
+        {
+          "form": "advise + obj + to + inf",
+          "example": "\"You should see a doctor.\" → He advised her TO SEE a doctor. ✅"
+        },
+        {
+          "form": "warn + obj + not + to + inf",
+          "example": "\"Don't touch that!\" → She warned him NOT TO TOUCH it. ✅"
+        },
+        {
+          "form": "order + obj + to + inf (strong command)",
+          "example": "\"Evacuate immediately!\" → The officer ordered them TO EVACUATE immediately. ✅"
+        }
+      ]
+    },
+    {
+      "title": "Advanced reporting verbs — B1 precision",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "verb + that clause: say, tell, explain, add, admit, agree, claim, complain, confirm, deny, explain, insist, mention, promise, reply, report, suggest, warn",
+          "example": "\"She ADMITTED THAT she had been wrong.\" / \"He INSISTED THAT the report was accurate.\" ✅"
+        },
+        {
+          "form": "verb + gerund: admit, avoid, deny, recommend, suggest",
+          "example": "\"She ADMITTED MAKING a mistake.\" / \"He SUGGESTED MEETING on Friday.\" / \"She DENIED KNOWING anything.\" ✅"
+        },
+        {
+          "form": "verb + to-infinitive: agree, claim, decide, demand, offer, promise, refuse, threaten",
+          "example": "\"He AGREED TO HELP.\" / \"She REFUSED TO SIGN.\" / \"He THREATENED TO LEAVE.\" ✅"
+        },
+        {
+          "form": "verb + object + to-infinitive: advise, ask, command, encourage, invite, order, remind, tell, urge, warn",
+          "example": "\"She ADVISED ME TO APPLY.\" / \"He REMINDED US TO CHECK.\" / \"She URGED HIM TO RECONSIDER.\" ✅"
+        },
+        {
+          "form": "suggest + -ing (NOT suggest to do)",
+          "example": "\"Why don't we go?\" → She SUGGESTED GOING. ✅ NOT \"suggested to go\" ✗ ✅"
+        },
+        {
+          "form": "suggest + that + clause (subjunctive/PS in British)",
+          "example": "\"She suggested THAT we SHOULD GO.\" / \"He suggested THAT they MEET tomorrow.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Choosing the right reporting verb — meaning matters",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "\"I didn't take it.\" → DENY",
+          "example": "\"He DENIED TAKING the money.\" (denying an accusation with gerund) ✅"
+        },
+        {
+          "form": "\"OK, I made a mistake.\" → ADMIT",
+          "example": "\"She ADMITTED MAKING a mistake.\" (accepting fault with gerund) ✅"
+        },
+        {
+          "form": "\"You should go.\" → ADVISE",
+          "example": "\"She ADVISED HIM TO GO.\" (advice with object + to-inf) ✅"
+        },
+        {
+          "form": "\"I'll definitely do it.\" → PROMISE",
+          "example": "\"She PROMISED TO DO IT.\" / \"She promised that she would do it.\" ✅"
+        },
+        {
+          "form": "\"No, I won't do it.\" → REFUSE",
+          "example": "\"He REFUSED TO COOPERATE.\" (refusing with to-infinitive) ✅"
+        },
+        {
+          "form": "\"If you do that, I'll tell the professor.\" → THREATEN",
+          "example": "\"She THREATENED TO TELL the professor.\" (threat with to-inf) ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common errors with reported questions",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"She asked me where did I live.\"",
+          "example": "✅ \"She asked me where I LIVED.\" — normal order, no \"did\" ✅"
+        },
+        {
+          "form": "✗ \"He asked if was I ready.\"",
+          "example": "✅ \"He asked if I WAS ready.\" — no inversion in reported questions ✅"
+        },
+        {
+          "form": "✗ \"She said me to come.\"",
+          "example": "✅ \"She TOLD me to come.\" — SAY cannot be used for commands; use TELL ✅"
+        },
+        {
+          "form": "✗ \"He suggested to go there.\"",
+          "example": "✅ \"He suggested GOING there.\" or \"He suggested THAT we (should) GO.\" — suggest + gerund, NOT to-inf ✅"
+        },
+        {
+          "form": "✗ \"She asked what time does it start.\"",
+          "example": "✅ \"She asked what time IT STARTED.\" — PS reported, normal order, no \"does\" ✅"
+        },
+        {
+          "form": "✗ \"He told that he was coming.\" (no object)",
+          "example": "✅ \"He said that he was coming.\" OR \"He told US that he was coming.\" ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Reported Questions — КЛЮЧЕВОЕ ПРАВИЛО:\nНормальный порядок слов! Никакой инверсии! Никаких do/did/does!\n\nDirect: \"Where DO you WORK?\" (inversion + do)\nReported: She asked where I WORKED. (normal S+V, no do) ✅\n\nDirect: \"Are you COMING?\" (inversion)\nReported: He asked IF I WAS coming. (if/whether + normal order) ✅\n\nCommands / Requests:\ntell + obj + to do ✅\ntell + obj + not to do ✅\nask + obj + to do ✅\nwarn + obj + not to do ✅\nadvise + obj + to do ✅\n\nSuggest — ОСОБОЕ ПРАВИЛО:\n✗ suggest to do\n✅ suggest doing (gerund)\n✅ suggest that + clause\n\nReporting verbs + structure:\nadmit/deny + -ing\npromise/refuse/agree/offer + to-inf\ntell/warn/advise/remind/urge + obj + to-inf\nadmit/claim/insist + that clause",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Report the yes/no question correctly.",
+      "text": "\"Are you coming to the lecture?\" → She asked me if I ___ to the lecture.",
+      "opts": [
+        "am coming",
+        "was coming",
+        "came",
+        "had come"
+      ],
+      "correct": "was coming",
+      "hint": "are → was (backshift). Normal word order. \"She asked if I WAS COMING.\" ✅ No inversion!"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Report the wh-question correctly.",
+      "text": "\"Where do you live?\" → He asked me where I ___.",
+      "opts": [
+        "do live",
+        "lived",
+        "did live",
+        "was living"
+      ],
+      "correct": "lived",
+      "hint": "PS for reported question (do live → lived). Normal word order — NO \"did\" or inversion. \"He asked where I LIVED.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Report the command.",
+      "text": "\"Close your laptop!\" → She told him ___ his laptop.",
+      "correct": "to close",
+      "hint": "tell + object + TO + infinitive. \"She told him TO CLOSE his laptop.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Report the negative command.",
+      "text": "\"Don't be late!\" → He told us ___ late.",
+      "opts": [
+        "to not be",
+        "not to be",
+        "don't be",
+        "not being"
+      ],
+      "correct": "not to be",
+      "hint": "tell + obj + NOT + TO + infinitive. \"He told us NOT TO BE late.\" ✅ (not \"to not be\" — split infinitive)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form for \"suggest\".",
+      "text": "\"Why don't we meet on Friday?\" → She suggested ___ on Friday.",
+      "opts": [
+        "to meet",
+        "meeting",
+        "meet",
+        "that meet"
+      ],
+      "correct": "meeting",
+      "hint": "suggest + GERUND (-ing). \"She suggested MEETING on Friday.\" ✅ NEVER \"suggested to meet.\" ✗"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Find the error in the reported question.",
+      "text": "\"She asked me what time did the lecture start.\"",
+      "opts": [
+        "Correct",
+        "\"did\" should be removed — should be \"what time the lecture started\"",
+        "\"she\" should be \"he\"",
+        "\"start\" should be \"starts\""
+      ],
+      "correct": "\"did\" should be removed — should be \"what time the lecture started\"",
+      "hint": "✅ \"She asked me what time THE LECTURE STARTED.\" — normal order, no \"did\" in reported questions. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the right reporting verb.",
+      "text": "\"I didn't steal it,\" she said. → She ___ stealing it.",
+      "opts": [
+        "said",
+        "admitted",
+        "denied",
+        "refused"
+      ],
+      "correct": "denied",
+      "hint": "\"deny\" + gerund = denied STEALING. \"She DENIED STEALING it.\" ✅ (deny = claim you did NOT do something)"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with the correct reporting structure.",
+      "text": "\"You should see a specialist,\" he said to me. → He advised me ___ a specialist.",
+      "correct": "to see",
+      "hint": "advise + object + TO + infinitive. \"He ADVISED ME TO SEE a specialist.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Report the request.",
+      "text": "\"Could you lend me your notes?\" → She asked me ___ her my notes.",
+      "opts": [
+        "if I could lend",
+        "to lend",
+        "that I lend",
+        "for lending"
+      ],
+      "correct": "to lend",
+      "hint": "ask + object + TO + infinitive for requests. \"She asked me TO LEND her my notes.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Report correctly using \"warn\".",
+      "text": "\"Don't walk home alone at night!\" → He warned her ___ home alone at night.",
+      "opts": [
+        "not to walk",
+        "don't walk",
+        "to not walk",
+        "not walking"
+      ],
+      "correct": "not to walk",
+      "hint": "warn + obj + NOT + TO + infinitive. \"He WARNED her NOT TO WALK home alone at night.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which sentence uses \"promise\" correctly?",
+      "text": "Choose the correctly reported sentence.",
+      "opts": [
+        "\"She promised to call me back.\" ✅",
+        "\"She promised calling me back.\"",
+        "\"She promised that she calls me back.\"",
+        "\"She promised me call back.\""
+      ],
+      "correct": "\"She promised to call me back.\" ✅",
+      "hint": "\"promise\" + TO + infinitive. \"She PROMISED TO CALL me back.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Complex reported question — find the error.",
+      "text": "\"She asked him what had he been doing all day.\"",
+      "opts": [
+        "Correct",
+        "\"had he been doing\" should be \"he had been doing\" — normal word order",
+        "\"what\" should be \"if\"",
+        "\"all day\" should be \"that day\""
+      ],
+      "correct": "\"had he been doing\" should be \"he had been doing\" — normal word order",
+      "hint": "✅ \"She asked him what HE HAD BEEN DOING all day.\" — no inversion in reported questions! ✅"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Choose the correct reporting verb + structure.",
+      "text": "\"I'll leave if you don't listen!\" → She ___ leave if I didn't listen.",
+      "correct": "threatened to",
+      "hint": "\"threaten\" + TO + infinitive. \"She THREATENED TO LEAVE if I didn't listen.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Report using \"remind\".",
+      "text": "\"Don't forget to submit your essay!\" → She reminded us ___ our essay.",
+      "opts": [
+        "to submit",
+        "not to forget submitting",
+        "submitting",
+        "that we submit"
+      ],
+      "correct": "to submit",
+      "hint": "remind + obj + TO + infinitive. \"She REMINDED US TO SUBMIT our essay.\" ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose \"if\" or \"whether\".",
+      "text": "\"Do you want coffee or tea?\" → She asked ___ I wanted coffee or tea.",
+      "opts": [
+        "if",
+        "whether",
+        "Both \"if\" and \"whether\" are correct here",
+        "what"
+      ],
+      "correct": "Both \"if\" and \"whether\" are correct here",
+      "hint": "\"Whether\" is more natural with alternatives (coffee OR tea), but \"if\" also works. Both are grammatically acceptable. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Identify the correct use of \"suggest that\".",
+      "text": "\"Why don't we all meet at 3?\" → He suggested that we ___ at 3.",
+      "opts": [
+        "should meet",
+        "meet",
+        "had met",
+        "Both \"should meet\" and \"meet\" (subjunctive) are correct"
+      ],
+      "correct": "Both \"should meet\" and \"meet\" (subjunctive) are correct",
+      "hint": "\"suggest that we should meet\" (British/formal) or \"suggest that we meet\" (subjunctive) — both correct. ✅"
+    },
+    {
+      "id": "e17",
+      "type": "mc",
+      "instruction": "Report the complex question correctly.",
+      "text": "\"How long have you been studying English?\" → She asked me how long I ___ English.",
+      "opts": [
+        "have been studying",
+        "had been studying",
+        "was studying",
+        "studied"
+      ],
+      "correct": "had been studying",
+      "hint": "PPC → PPP Continuous in reported question. \"She asked how long I HAD BEEN STUDYING English.\" Normal order. ✅"
+    },
+    {
+      "id": "e18",
+      "type": "mc",
+      "instruction": "Choose between \"tell\" and \"say\" + command.",
+      "text": "\"___ not to worry about it.\" (no explicit object stated)",
+      "opts": [
+        "He said me",
+        "He told me",
+        "He said",
+        "He told"
+      ],
+      "correct": "He told me",
+      "hint": "Commands use TELL + object. \"He TOLD ME not to worry.\" ✅ Even if implied, \"told\" needs an object here. ✅"
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "Which verb structure is WRONG?",
+      "text": "Find the incorrect sentence.",
+      "opts": [
+        "\"She suggested going to the cinema.\" ✅",
+        "\"He agreed to help her.\" ✅",
+        "\"She admitted making a mistake.\" ✅",
+        "\"He suggested to go to the cinema.\" ✗"
+      ],
+      "correct": "\"He suggested to go to the cinema.\" ✗",
+      "hint": "✗ \"suggest to + inf\" is ALWAYS wrong! ✅ \"He suggested GOING.\" / \"He suggested THAT they GO.\" ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Report this multi-verb sentence.",
+      "text": "Rustam to Kamila: \"Can you help me, and don't tell anyone?\" → He asked her ___ him and ___ anyone.",
+      "opts": [
+        "to help / not to tell",
+        "if she can help / not to tell",
+        "to help / to not tell",
+        "help / not tell"
+      ],
+      "correct": "to help / not to tell",
+      "hint": "Request: ask + obj + TO + inf. Negative command: not to tell. \"He asked her TO HELP him and NOT TO TELL anyone.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the key rule for word order in reported questions?",
+      "opts": [
+        "Always use inversion",
+        "Never use normal order",
+        "Use NORMAL word order — no inversion, no do/did/does",
+        "Use question marks"
+      ],
+      "correct": "Use NORMAL word order — no inversion, no do/did/does",
+      "hint": "Reported questions use normal S + V word order. NO inversion, NO auxiliary do/did/does. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Where does she live?\" → He asked where she ___.",
+      "opts": [
+        "does live",
+        "did live",
+        "lived",
+        "lives"
+      ],
+      "correct": "lived",
+      "hint": "PS in reported question (does live → lived). Normal order. \"He asked where she LIVED.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Are you ready?\" → She asked ___ I was ready.",
+      "opts": [
+        "that",
+        "what",
+        "if / whether",
+        "how"
+      ],
+      "correct": "if / whether",
+      "hint": "\"if\" or \"whether\" for yes/no questions. \"She asked IF / WHETHER I was ready.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Don't open that!\" → She told him ___ that.",
+      "correct": "not to open",
+      "hint": "tell + obj + NOT + TO + infinitive. \"She told him NOT TO OPEN that.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Could you lend me your pen?\" → He asked me ___ him my pen.",
+      "opts": [
+        "if I can lend",
+        "to lend",
+        "that I lend",
+        "lending"
+      ],
+      "correct": "to lend",
+      "hint": "ask + obj + TO + infinitive for requests. \"He asked me TO LEND him my pen.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"suggest\" is followed by:",
+      "opts": [
+        "to + infinitive",
+        "gerund OR that + clause",
+        "object + to-inf",
+        "that + infinitive"
+      ],
+      "correct": "gerund OR that + clause",
+      "hint": "\"suggest\" + GERUND or \"suggest that + clause.\" NEVER \"suggest to do.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"deny\" is followed by:",
+      "opts": [
+        "to + infinitive",
+        "gerund",
+        "that + past tense",
+        "object + to-inf"
+      ],
+      "correct": "gerund",
+      "hint": "\"deny\" + GERUND. \"He denied TAKING it.\" ✅ NEVER \"denied to take.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"advise\" is followed by:",
+      "opts": [
+        "gerund",
+        "that clause only",
+        "object + to + infinitive",
+        "object + gerund"
+      ],
+      "correct": "object + to + infinitive",
+      "hint": "\"advise\" + OBJECT + TO + infinitive. \"She advised HIM TO SEE a doctor.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She asked where was he going.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"was he going\" should be \"he was going\" — normal order, no inversion",
+        "\"asked\" should be \"said\"",
+        "\"where\" should be \"if\""
+      ],
+      "correct": "\"was he going\" should be \"he was going\" — normal order, no inversion",
+      "hint": "✅ \"She asked where HE WAS GOING.\" No inversion in reported questions. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll call you back,\" she said. → She ___ call me back.",
+      "opts": [
+        "said to",
+        "promised to",
+        "told to",
+        "warned to"
+      ],
+      "correct": "promised to",
+      "hint": "\"promise\" + TO + infinitive = the right reporting verb for a firm commitment. \"She PROMISED TO CALL me back.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is CORRECT?",
+      "opts": [
+        "\"He suggested to leave early.\"",
+        "\"He suggested leaving early.\"",
+        "\"He suggested me to leave early.\"",
+        "\"He suggested for leaving early.\""
+      ],
+      "correct": "\"He suggested leaving early.\"",
+      "hint": "\"suggest\" + GERUND. \"He SUGGESTED LEAVING early.\" ✅ All others are wrong. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Don't be nervous,\" she said to me. → She told me ___ nervous.",
+      "correct": "not to be",
+      "hint": "tell + obj + NOT + TO + infinitive. \"She told me NOT TO BE nervous.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I won't do it.\" → She ___ do it.",
+      "opts": [
+        "told not to",
+        "refused to",
+        "denied to",
+        "said not"
+      ],
+      "correct": "refused to",
+      "hint": "\"refuse\" + TO + infinitive. \"She REFUSED TO do it.\" ✅ (refuse = definitively decline)"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Have you ever been to Istanbul?\" → He asked me if I ___ to Istanbul.",
+      "opts": [
+        "have been",
+        "had ever been",
+        "was",
+        "went"
+      ],
+      "correct": "had ever been",
+      "hint": "PPS → PPP in reported. Normal order. \"He asked if I HAD EVER BEEN to Istanbul.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence correctly uses \"remind\"?",
+      "opts": [
+        "\"She reminded me submitting the form.\"",
+        "\"She reminded me to submit the form.\"",
+        "\"She reminded me that I should submitting.\"",
+        "\"She reminded that I submit.\""
+      ],
+      "correct": "\"She reminded me to submit the form.\"",
+      "hint": "\"remind\" + obj + TO + infinitive. \"She reminded ME TO SUBMIT the form.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll expose you if you lie again!\" → She ___ expose him if he lied again.",
+      "opts": [
+        "said to",
+        "warned to",
+        "threatened to",
+        "insisted to"
+      ],
+      "correct": "threatened to",
+      "hint": "\"threaten\" + TO + infinitive. \"She THREATENED TO EXPOSE him if he lied again.\" ✅"
+    }
+  ]
+}

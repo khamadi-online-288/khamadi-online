@@ -1,0 +1,206 @@
+{
+  "id": "l64-4",
+  "moduleNum": 6,
+  "lessonNum": 7,
+  "moduleTitle": "Present Perfect: Simple vs Continuous",
+  "type": "writing",
+  "title": "A Personal Academic Statement Using Perfect Tenses",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I have been studying...",
+      "emoji": "📚",
+      "opts": [
+        "Я изучал(а) давно",
+        "Я изучаю (в процессе, с прошлого)",
+        "Я уже изучил(а)",
+        "Я буду изучать"
+      ],
+      "correct": "Я изучаю (в процессе, с прошлого)"
+    },
+    {
+      "id": "p2",
+      "word": "I have developed...",
+      "emoji": "🌱",
+      "opts": [
+        "Я развивал(а)",
+        "Я уже развил(а) (результат)",
+        "Я буду развивать",
+        "Я развиваю сейчас"
+      ],
+      "correct": "Я уже развил(а) (результат)"
+    },
+    {
+      "id": "p3",
+      "word": "My interest has grown...",
+      "emoji": "📈",
+      "opts": [
+        "Мой интерес рос",
+        "Мой интерес вырос (результат)",
+        "Мой интерес будет расти",
+        "Мой интерес растёт"
+      ],
+      "correct": "Мой интерес вырос (результат)"
+    },
+    {
+      "id": "p4",
+      "word": "I have been working on...",
+      "emoji": "🔧",
+      "opts": [
+        "Я работал(а) (завершено)",
+        "Я работаю над (процесс до сейчас)",
+        "Я начну работать над",
+        "Я хочу работать над"
+      ],
+      "correct": "Я работаю над (процесс до сейчас)"
+    },
+    {
+      "id": "p5",
+      "word": "I have completed...",
+      "emoji": "✅",
+      "opts": [
+        "Я завершал(а)",
+        "Я завершил(а) (готово)",
+        "Я начал(а) завершать",
+        "Я ещё не завершил(а)"
+      ],
+      "correct": "Я завершил(а) (готово)"
+    },
+    {
+      "id": "p6",
+      "word": "I have gained...",
+      "emoji": "🎯",
+      "opts": [
+        "Я получал(а) когда-то",
+        "Я получил(а) (приобретённый результат)",
+        "Я получу в будущем",
+        "Я хочу получить"
+      ],
+      "correct": "Я получил(а) (приобретённый результат)"
+    }
+  ],
+  "writingModel": [
+    "Personal Academic Statement: Kamila Seitkali",
+    "I have been interested in the relationship between language and identity since I first encountered the concept in my second year at WKU. Since then, my interest has grown from a passing curiosity into what I believe is a genuine research vocation.",
+    "Over the past three years, I have studied linguistics, discourse analysis, and sociolinguistics at undergraduate level. I have completed all required modules with distinction and have been consistently ranked among the top students in my cohort. I have also attended three national conferences and have presented my work at two of them.",
+    "My research focus has been developing throughout this period. I have been particularly interested in code-switching — the practice of alternating between languages within a conversation — among Kazakhstani university students. I have interviewed 24 students for my ongoing thesis project, and I have been analysing the patterns that have emerged from these conversations for the past six months.",
+    "Through this work, I have discovered that language choice in Kazakhstani academic contexts is far more strategic than it appears on the surface. I have learned that students switch languages not randomly but in response to topic, audience, and social relationship. I have developed a framework for understanding these patterns that I believe contributes to the broader literature on multilingualism in post-Soviet educational settings.",
+    "I have also been developing my professional skills alongside my research. I have worked as a teaching assistant for two semesters, during which I have supported over 40 students with their academic writing. I have found this experience invaluable: it has deepened my understanding of how students acquire academic language, which has in turn enriched my research perspective.",
+    "In applying for this programme, I bring a strong foundation in linguistic theory, a completed data collection phase, and several months of active analysis. I have read widely in the field and have engaged critically with the key debates. I believe I am ready to take the next step. What I have been building over these three years has prepared me for it."
+  ],
+  "writingTemplate": [
+    {
+      "key": "opening",
+      "prefix": "I have been interested in ",
+      "suffix": " since ___.",
+      "placeholder": "your field + starting point",
+      "hint": "PPC for ongoing interest: \"I have BEEN INTERESTED in X since Y.\" ✅"
+    },
+    {
+      "key": "study",
+      "prefix": "Over the past [N] years, I have ",
+      "suffix": ".",
+      "placeholder": "studied / completed / attended",
+      "hint": "PPS for completed achievements: \"I have STUDIED / COMPLETED / ATTENDED X.\" ✅"
+    },
+    {
+      "key": "focus",
+      "prefix": "My research focus has been ",
+      "suffix": ". I have been particularly interested in ___.",
+      "placeholder": "developing (PPS result) + topic (PPC)",
+      "hint": "\"has been developing\" (PPS — result) / \"have been particularly interested in\" (PPS stative) ✅"
+    },
+    {
+      "key": "discover",
+      "prefix": "Through this work, I have ",
+      "suffix": ".",
+      "placeholder": "discovered / learned / developed (PPS results)",
+      "hint": "PPS for completed findings: \"I have DISCOVERED / LEARNED / DEVELOPED X.\" ✅"
+    },
+    {
+      "key": "develop",
+      "prefix": "I have also been developing ",
+      "suffix": ". I have ___.",
+      "placeholder": "professional skills (PPC) + worked/supported (PPS)",
+      "hint": "PPC for ongoing development + PPS for completed professional actions. ✅"
+    },
+    {
+      "key": "bring",
+      "prefix": "In applying for this programme, I bring ",
+      "suffix": ".",
+      "placeholder": "foundation / completed phase / skills",
+      "hint": "Present tense for current readiness. \"I BRING a strong foundation...\" ✅"
+    },
+    {
+      "key": "close",
+      "prefix": "What I have been ",
+      "suffix": " has prepared me for it.",
+      "placeholder": "building / developing / working on",
+      "hint": "PPC for ongoing process that leads to present readiness. ✅"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening with PPC (ongoing interest/process)",
+      "color": "#003876",
+      "items": [
+        "I have been interested in X since [year/point].",
+        "I have been working in this area for [period].",
+        "My interest has been developing since I encountered X.",
+        "Over the past [period], I have been exploring the question of...",
+        "I have been pursuing this research direction since [year]."
+      ]
+    },
+    {
+      "category": "Achievements with PPS (completed results)",
+      "color": "#1D9E75",
+      "items": [
+        "I have completed [X modules / a degree / a project].",
+        "I have published / presented / contributed to...",
+        "I have developed a framework for understanding...",
+        "I have discovered that... / I have learned that...",
+        "I have interviewed / collected / analysed..."
+      ]
+    },
+    {
+      "category": "Counting and listing (PPS)",
+      "color": "#1B8FC4",
+      "items": [
+        "I have attended [N] conferences and presented at [N].",
+        "I have interviewed [N] students / collected [N] samples.",
+        "I have written [N] essays / completed [N] modules.",
+        "I have supported over [N] students with...",
+        "I have read widely in the field and engaged with..."
+      ]
+    },
+    {
+      "category": "Connecting past to present readiness",
+      "color": "#C9933B",
+      "items": [
+        "Through this work, I have gained...",
+        "I have found this experience invaluable — it has deepened...",
+        "What I have been building over these years has prepared me.",
+        "I believe I am ready, having [completed / studied / developed]...",
+        "I bring a foundation that [N months / years] of work has established."
+      ]
+    }
+  ]
+}

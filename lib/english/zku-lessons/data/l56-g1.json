@@ -1,0 +1,546 @@
+{
+  "id": "l56-g1",
+  "moduleNum": 22,
+  "lessonNum": 4,
+  "moduleTitle": "Natural World",
+  "type": "grammar",
+  "title": "Passive Voice: All Tenses Review",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Passive Voice — All Tenses in One Place",
+  "grammarNote": "Пассивный залог = TO BE (в нужном времени) + PAST PARTICIPLE. Это правило одинаково для всех времён — меняется только форма TO BE. В этом уроке мы собираем все формы пассивного залога вместе и практикуем переключение между временами.",
+  "grammarTable": [
+    {
+      "subject": "Present Simple",
+      "verb": "is/are + pp",
+      "short": "Forests are cut.",
+      "example": "\"The data is processed daily.\" / \"Trees are planted each spring.\""
+    },
+    {
+      "subject": "Present Cont.",
+      "verb": "is/are being + pp",
+      "short": "is being studied now",
+      "example": "\"The river is being tested.\" / \"New laws are being proposed.\""
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "was/were + pp",
+      "short": "was built in 1990",
+      "example": "\"The factory was shut down.\" / \"They were fined.\""
+    },
+    {
+      "subject": "Past Cont.",
+      "verb": "was/were being + pp",
+      "short": "was being investigated",
+      "example": "\"The water was being tested when the problem was found.\""
+    },
+    {
+      "subject": "Present Perfect",
+      "verb": "has/have been + pp",
+      "short": "has been reduced",
+      "example": "\"The population has been reduced.\" / \"Laws have been strengthened.\""
+    },
+    {
+      "subject": "Past Perfect",
+      "verb": "had been + pp",
+      "short": "had already been done",
+      "example": "\"The river had been contaminated for years.\" / \"It had been studied.\""
+    },
+    {
+      "subject": "Future (will)",
+      "verb": "will be + pp",
+      "short": "will be announced",
+      "example": "\"The results will be announced tomorrow.\" / \"It will be cleaned up.\""
+    },
+    {
+      "subject": "Modal passive",
+      "verb": "modal + be + pp",
+      "short": "must be checked",
+      "example": "\"It must be reported.\" / \"It should be protected.\" / \"It can be done.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "The passive across tenses — key patterns",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Present Simple: is/are + pp",
+          "example": "\"Water IS TESTED regularly.\" / \"Species ARE PROTECTED by law.\""
+        },
+        {
+          "form": "Present Cont: is/are being + pp",
+          "example": "\"The river IS BEING CLEANED.\" / \"New rules ARE BEING WRITTEN.\""
+        },
+        {
+          "form": "Past Simple: was/were + pp",
+          "example": "\"The factory WAS SHUT DOWN.\" / \"They WERE FINED last year.\""
+        },
+        {
+          "form": "Present Perfect: has/have been + pp",
+          "example": "\"The area HAS BEEN PROTECTED since 2015.\" / \"Laws HAVE BEEN PASSED.\""
+        },
+        {
+          "form": "Future: will be + pp",
+          "example": "\"The study WILL BE COMPLETED by June.\" / \"Results WILL BE PUBLISHED.\""
+        },
+        {
+          "form": "Modal: modal + be + pp",
+          "example": "\"Chemicals MUST BE DISPOSED of safely.\" / \"Emissions SHOULD BE REDUCED.\""
+        }
+      ]
+    },
+    {
+      "title": "Subject-verb agreement in passive",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Singular subject → was / is",
+          "example": "\"The factory WAS shut down.\" / \"The forest IS protected.\""
+        },
+        {
+          "form": "Plural subject → were / are",
+          "example": "\"The factories WERE shut down.\" / \"The forests ARE protected.\""
+        },
+        {
+          "form": "He/She/It: Present Perfect → has been",
+          "example": "\"The species HAS BEEN studied.\" / \"The river HAS BEEN contaminated.\""
+        },
+        {
+          "form": "They/We: Present Perfect → have been",
+          "example": "\"The laws HAVE BEEN strengthened.\" / \"They HAVE BEEN warned.\""
+        }
+      ]
+    },
+    {
+      "title": "BY + agent — when to include it",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Include BY when agent is important",
+          "example": "\"The law was passed BY the parliament.\" (parliament = important info)"
+        },
+        {
+          "form": "Omit BY when agent is obvious",
+          "example": "\"The road was repaired.\" (of course workers repaired it — no need to say \"by workers\")"
+        },
+        {
+          "form": "Omit BY when agent is unknown",
+          "example": "\"The chemicals were released.\" (we don't know exactly who)"
+        },
+        {
+          "form": "Scientific/environmental writing",
+          "example": "\"The sample was collected and analysed.\" (standard — no \"by scientists\" needed)"
+        }
+      ]
+    },
+    {
+      "title": "Environmental passive — common phrases",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Present Simple (general facts)",
+          "example": "\"Carbon dioxide is released into the atmosphere.\" / \"Species are protected by law.\""
+        },
+        {
+          "form": "Present Continuous (happening now)",
+          "example": "\"The Aral Sea is still being studied.\" / \"New species are being discovered.\""
+        },
+        {
+          "form": "Present Perfect (change up to now)",
+          "example": "\"Sea levels have been rising.\" / \"Emissions have been reduced.\""
+        },
+        {
+          "form": "Will be (future actions)",
+          "example": "\"New reserves will be established.\" / \"Emissions will be limited by 2030.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Passive Voice — все времена:\n\nПресент Симпл: is/are + pp\n\"Water IS tested regularly.\"\n\nПрезент Прогрессив: is/are being + pp\n\"The river IS BEING cleaned.\"\n\nПрошедшее (Past Simple): was/were + pp\n\"The factory WAS shut down.\"\n\nPresentПерфект: has/have been + pp\n\"The law HAS BEEN strengthened.\"\n\nПаст Перфект: had been + pp\n\"It HAD BEEN contaminated for years.\"\n\nБудущее: will be + pp\n\"Results WILL BE published.\"\n\nМодальные: modal + be + pp\n\"Emissions MUST BE reduced.\"\n\n💡 Правило одно для всех: TO BE (в нужном времени) + PAST PARTICIPLE",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Present Simple Passive.",
+      "text": "The water samples ___ every week to check for contamination.",
+      "opts": [
+        "is tested",
+        "are tested",
+        "was tested",
+        "have been tested"
+      ],
+      "correct": "are tested",
+      "hint": "\"samples\" = plural → ARE. Present Simple Passive: \"The samples ARE TESTED every week.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with Present Continuous Passive.",
+      "text": "\"New environmental laws ___ (write) by the government right now.\"",
+      "correct": "are being written",
+      "hint": "Present Continuous Passive: are/is + being + pp. \"ARE BEING WRITTEN.\" ✅ (laws = plural → are)"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose Past Simple Passive.",
+      "text": "The illegal factory ___ last year after years of investigation.",
+      "opts": [
+        "is shut down",
+        "was shut down",
+        "has been shut down",
+        "will be shut down"
+      ],
+      "correct": "was shut down",
+      "hint": "\"last year\" = specific past time → Past Simple Passive. \"WAS SHUT DOWN.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with Present Perfect Passive.",
+      "text": "\"Several new national parks ___ (establish) in Kazakhstan recently.\"",
+      "correct": "have been established",
+      "hint": "Recent change up to now → Present Perfect Passive. \"HAVE BEEN ESTABLISHED.\" ✅ (parks = plural → have)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose Future Passive.",
+      "text": "The cleanup of the river ___ by 2030 according to the government plan.",
+      "opts": [
+        "is completed",
+        "was completed",
+        "will be completed",
+        "has been completed"
+      ],
+      "correct": "will be completed",
+      "hint": "\"by 2030\" = future → WILL BE COMPLETED. Future Simple Passive. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose Modal Passive.",
+      "text": "Toxic waste ___ disposed of safely — it's required by law.",
+      "opts": [
+        "is",
+        "was",
+        "must be",
+        "has been"
+      ],
+      "correct": "must be",
+      "hint": "Obligation + passive → modal + be + pp. \"MUST BE disposed of safely.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with Past Perfect Passive.",
+      "text": "\"The river ___ (contaminate) for years before the factory was discovered.\"",
+      "correct": "had been contaminated",
+      "hint": "Earlier past action → Past Perfect Passive. \"HAD BEEN CONTAMINATED.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose Present Continuous Passive.",
+      "text": "\"Right now, the riverbed ___ by environmental scientists.\"",
+      "opts": [
+        "was studied",
+        "is studied",
+        "is being studied",
+        "has been studied"
+      ],
+      "correct": "is being studied",
+      "hint": "\"Right now\" = Present Continuous Passive. \"IS BEING STUDIED.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which sentence uses passive correctly?",
+      "text": "Choose the correct passive sentence.",
+      "opts": [
+        "\"The animals was protected.\"",
+        "\"Species are being study.\"",
+        "\"The park has been protected for fifty years.\"",
+        "\"New laws will being passed.\""
+      ],
+      "correct": "\"The park has been protected for fifty years.\"",
+      "hint": "\"The park HAS BEEN PROTECTED for fifty years.\" ✅ — Present Perfect Passive. Others: \"was\" ≠ plural, \"study\" ≠ \"studied\", \"will being\" → \"will be.\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Convert active to passive.",
+      "text": "\"Scientists are studying the glacier.\" → \"The glacier ___.\"",
+      "correct": "is being studied",
+      "hint": "Active Present Continuous → Passive Present Continuous. \"The glacier IS BEING STUDIED.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Identify the tense of the passive.",
+      "text": "\"The law had already been passed before the pollution was discovered.\"",
+      "opts": [
+        "Present Perfect Passive",
+        "Past Simple Passive",
+        "Past Perfect Passive",
+        "Modal Passive"
+      ],
+      "correct": "Past Perfect Passive",
+      "hint": "\"had been passed\" = Past Perfect Passive (had + been + past participle). ✅ Earlier past action."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct modal passive.",
+      "text": "\"Carbon emissions ___ significantly by 2035 to meet climate targets.\"",
+      "opts": [
+        "must reduced",
+        "must be reduced",
+        "must have reduced",
+        "should reduced"
+      ],
+      "correct": "must be reduced",
+      "hint": "Modal passive: modal + BE + past participle. \"MUST BE REDUCED.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "All passive forms follow the structure:",
+      "opts": [
+        "do + infinitive",
+        "to be + past participle",
+        "have + infinitive",
+        "was + gerund"
+      ],
+      "correct": "to be + past participle",
+      "hint": "Passive = TO BE (in the right tense) + PAST PARTICIPLE. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Water IS TESTED daily.\" — Tense:",
+      "opts": [
+        "Past Simple Passive",
+        "Present Continuous Passive",
+        "Present Simple Passive",
+        "Present Perfect Passive"
+      ],
+      "correct": "Present Simple Passive",
+      "hint": "\"is tested\" = is + pp = Present Simple Passive. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The river IS BEING CLEANED.\" — Tense:",
+      "opts": [
+        "Present Simple Passive",
+        "Past Passive",
+        "Present Continuous Passive",
+        "Present Perfect"
+      ],
+      "correct": "Present Continuous Passive",
+      "hint": "\"is being cleaned\" = is + being + pp = Present Continuous Passive. ✅ Action ongoing now."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The factory ___ (shut down) last year.\" (Past Simple Passive)",
+      "correct": "was shut down",
+      "hint": "\"last year\" = past → WAS SHUT DOWN. Past Simple Passive. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Laws HAVE BEEN strengthened.\" — Tense:",
+      "opts": [
+        "Past Simple",
+        "Present Continuous",
+        "Past Perfect",
+        "Present Perfect Passive"
+      ],
+      "correct": "Present Perfect Passive",
+      "hint": "\"have been strengthened\" = have + been + pp = Present Perfect Passive. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It ___ (contaminate) for years before anyone noticed.\" (Past Perfect Passive)",
+      "correct": "had been contaminated",
+      "hint": "Earlier past → Past Perfect Passive: \"HAD BEEN CONTAMINATED.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The results WILL BE published next week.\" — Form:",
+      "opts": [
+        "Past",
+        "Present",
+        "Future Passive (will be + pp)",
+        "Modal Passive"
+      ],
+      "correct": "Future Passive (will be + pp)",
+      "hint": "\"will be published\" = will + be + pp = Future Simple Passive. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Emissions MUST BE reduced.\" — Form:",
+      "opts": [
+        "Conditional",
+        "Modal Passive (modal + be + pp)",
+        "Future Perfect",
+        "Past Perfect"
+      ],
+      "correct": "Modal Passive (modal + be + pp)",
+      "hint": "\"must be reduced\" = modal (must) + be + past participle. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The data WAS BEING COLLECTED when the error was found.\" — Tense:",
+      "opts": [
+        "Past Simple Passive",
+        "Past Continuous Passive",
+        "Present Perfect Passive",
+        "Past Perfect"
+      ],
+      "correct": "Past Continuous Passive",
+      "hint": "\"was being collected\" = was + being + pp = Past Continuous Passive. ✅ Ongoing action in past."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Trees ARE planted every autumn.\" — This is:",
+      "opts": [
+        "Active voice",
+        "Present Simple Passive",
+        "Present Continuous Passive",
+        "Past Simple"
+      ],
+      "correct": "Present Simple Passive",
+      "hint": "\"ARE planted\" = are + pp = Present Simple Passive. ✅ Routine action in general."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Right now, the pollution levels ___ (monitor) by our team.\"",
+      "correct": "are being monitored",
+      "hint": "Ongoing now → Present Continuous Passive. \"ARE BEING MONITORED.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Several national parks ___ in Kazakhstan last decade.\" (establish)",
+      "opts": [
+        "established",
+        "were established",
+        "have established",
+        "are established"
+      ],
+      "correct": "were established",
+      "hint": "\"last decade\" = specific past → WERE ESTABLISHED. Past Simple Passive. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"BY + agent\" is included when:",
+      "opts": [
+        "Always",
+        "The agent is obvious or unknown",
+        "The agent is important or surprising",
+        "Only in Present Passive"
+      ],
+      "correct": "The agent is important or surprising",
+      "hint": "Include BY + agent when the information is worth emphasising. Omit when obvious or unknown. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The species should be protected.\" — \"Should be protected\" is:",
+      "opts": [
+        "Obligation (must)",
+        "Modal Passive expressing recommendation",
+        "Past Passive",
+        "Conditional"
+      ],
+      "correct": "Modal Passive expressing recommendation",
+      "hint": "\"should be protected\" = should (recommendation) + be + pp = Modal Passive. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The study ___ (complete) by 2030.\" (Future Passive)",
+      "correct": "will be completed",
+      "hint": "Future Passive: will + be + pp. \"WILL BE COMPLETED by 2030.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the CORRECT Present Perfect Passive?",
+      "opts": [
+        "\"The law has passed.\"",
+        "\"The law has been passed.\"",
+        "\"The law was passed.\"",
+        "\"The law is passing.\""
+      ],
+      "correct": "\"The law has been passed.\"",
+      "hint": "\"The law HAS BEEN PASSED.\" = has + been + pp = Present Perfect Passive. ✅"
+    }
+  ]
+}

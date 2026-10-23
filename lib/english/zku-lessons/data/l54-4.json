@@ -1,0 +1,231 @@
+{
+  "id": "l54-4",
+  "moduleNum": 20,
+  "lessonNum": 6,
+  "moduleTitle": "Work & Career",
+  "type": "writing",
+  "title": "A Cover Letter for an Internship",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I am writing to apply for...",
+      "emoji": "✉️",
+      "opts": [
+        "я пишу чтобы пожаловаться",
+        "я пишу чтобы подать заявку",
+        "я пишу чтобы уволиться",
+        "я пишу чтобы узнать"
+      ],
+      "correct": "я пишу чтобы подать заявку"
+    },
+    {
+      "id": "p2",
+      "word": "I have been studying...",
+      "emoji": "📚",
+      "opts": [
+        "я буду изучать",
+        "я изучал раньше",
+        "я изучаю уже (и сейчас)",
+        "я хочу изучать"
+      ],
+      "correct": "я изучаю уже (и сейчас)"
+    },
+    {
+      "id": "p3",
+      "word": "I would be a strong candidate...",
+      "emoji": "💪",
+      "opts": [
+        "я не подхожу",
+        "я был бы подходящим кандидатом",
+        "я хочу стать",
+        "я не уверен что подхожу"
+      ],
+      "correct": "я был бы подходящим кандидатом"
+    },
+    {
+      "id": "p4",
+      "word": "I look forward to hearing from you",
+      "emoji": "📬",
+      "opts": [
+        "я устал ждать",
+        "жду вашего ответа",
+        "я уже слышал от вас",
+        "я не жду ответа"
+      ],
+      "correct": "жду вашего ответа"
+    },
+    {
+      "id": "p5",
+      "word": "I am particularly interested in...",
+      "emoji": "🎯",
+      "opts": [
+        "меня не интересует",
+        "меня особенно интересует",
+        "я уже работал над",
+        "я изучал"
+      ],
+      "correct": "меня особенно интересует"
+    },
+    {
+      "id": "p6",
+      "word": "I have developed strong skills in...",
+      "emoji": "🔧",
+      "opts": [
+        "у меня нет навыков в",
+        "я хочу развить навыки в",
+        "я развил сильные навыки в",
+        "мне нужно изучить"
+      ],
+      "correct": "я развил сильные навыки в"
+    }
+  ],
+  "writingModel": [
+    "Cover Letter: DataBridge Solutions Student Internship",
+    "Dear Ms Abdrakhimova,",
+    "I am writing to apply for the Student Software Internship position at DataBridge Solutions, which I found advertised on the WKU Careers Portal. I am currently a second-year Computer Science student at WKU in Uralsk, and I believe this internship would be an excellent opportunity to develop my professional skills in a real-world environment.",
+    "I have been studying computer science for two years, and I have been developing practical skills in parallel with my studies. I have been building a student timetable application for WKU in my spare time — a project that currently has over thirty active users. I have been studying machine learning independently for the past six weeks, working through online courses and applying what I have learned to real datasets. I am particularly interested in the work DataBridge Solutions is doing in data analysis for education, as this aligns closely with my own interests and career goals.",
+    "I would be a strong candidate for this internship for several reasons. First, I have experience working on real, user-facing software — not just academic projects. Second, I take responsibility seriously and have been told that I show initiative and follow through on commitments. Third, I have been improving my professional communication skills, and I am confident I can contribute to team meetings and client-facing interactions.",
+    "I am available to begin the internship on the first of June and can commit to the full eight-week programme. I have attached my CV and a link to my student timetable project for your review.",
+    "I would welcome the opportunity to discuss my application further. I look forward to hearing from you.",
+    "Yours sincerely,",
+    "Amir Bekzhanov",
+    "Second-Year Computer Science, WKU",
+    "amir.bekzhanov@zku.kz · 8-705-456-7890"
+  ],
+  "writingTemplate": [
+    {
+      "key": "greeting",
+      "prefix": "Dear ",
+      "suffix": ",",
+      "placeholder": "Ms / Mr + Surname (or \"Hiring Manager\")",
+      "hint": "Always use \"Dear Ms/Mr [Surname]\" if you know the name. Otherwise: \"Dear Hiring Manager.\""
+    },
+    {
+      "key": "opening",
+      "prefix": "I am writing to apply for the ",
+      "suffix": ", which I found advertised on ___.",
+      "placeholder": "internship / position name ... where you found it",
+      "hint": "\"I am writing to apply for the [role], which I found advertised on [source].\""
+    },
+    {
+      "key": "who",
+      "prefix": "I am currently a ",
+      "suffix": " student at WKU in Uralsk.",
+      "placeholder": "year + subject",
+      "hint": "\"I am currently a second-year Computer Science student at WKU.\""
+    },
+    {
+      "key": "skills1",
+      "prefix": "I have been ",
+      "suffix": " for the past ___.",
+      "placeholder": "studying/developing/building + time period",
+      "hint": "Use Present Perfect Continuous: \"I have been STUDYING... for 2 years.\" / \"I have been BUILDING...\""
+    },
+    {
+      "key": "project",
+      "prefix": "I have ",
+      "suffix": ", which ___.",
+      "placeholder": "developed / built / created + your project + impact",
+      "hint": "\"I have built a student app, which has 30 users.\""
+    },
+    {
+      "key": "interest",
+      "prefix": "I am particularly interested in ",
+      "suffix": ", as this aligns with my career goals.",
+      "placeholder": "the company's work + why it interests you",
+      "hint": "\"I am particularly interested in [company work], as this aligns with my goals.\""
+    },
+    {
+      "key": "why",
+      "prefix": "I would be a strong candidate because ",
+      "suffix": ".",
+      "placeholder": "2-3 brief reasons (experience / initiative / skills)",
+      "hint": "Give 2-3 reasons: \"I have real project experience, I take initiative, I can communicate professionally.\""
+    },
+    {
+      "key": "avail",
+      "prefix": "I am available to begin on ",
+      "suffix": " and can commit to the full programme.",
+      "placeholder": "starting date",
+      "hint": "\"I am available to begin on the [date] and can commit to the full programme.\""
+    },
+    {
+      "key": "close",
+      "prefix": "I look forward to ",
+      "suffix": ".",
+      "placeholder": "hearing from you / discussing my application",
+      "hint": "\"I look forward to HEARING FROM YOU.\" / \"I look forward to DISCUSSING my application.\" ✅"
+    },
+    {
+      "key": "sign",
+      "prefix": "Yours sincerely,\n",
+      "suffix": "",
+      "placeholder": "Full name + details below",
+      "hint": "\"Yours sincerely, [Name]. Year + Department. Email · Phone.\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening phrases",
+      "color": "#003876",
+      "items": [
+        "I am writing to apply for the [position] at [company].",
+        "I found this opportunity advertised on [source].",
+        "I am currently a [year]-year [subject] student at WKU.",
+        "I believe this internship would be an excellent opportunity to...",
+        "I am particularly interested in [field/company work] because..."
+      ]
+    },
+    {
+      "category": "Present Perfect Continuous (duration)",
+      "color": "#1D9E75",
+      "items": [
+        "I have been studying [subject] for [time period].",
+        "I have been developing [skill] over the past [time].",
+        "I have been building [project] in my spare time.",
+        "I have been working on [task] since [starting point].",
+        "I have been improving my [skill] and I am confident that..."
+      ]
+    },
+    {
+      "category": "Strengths and qualities",
+      "color": "#1B8FC4",
+      "items": [
+        "I would be a strong candidate because...",
+        "I take responsibility seriously and...",
+        "I have experience working on real, user-facing software.",
+        "I show initiative and follow through on commitments.",
+        "I have developed strong skills in [area]."
+      ]
+    },
+    {
+      "category": "Closing phrases",
+      "color": "#C9933B",
+      "items": [
+        "I am available to begin on [date] and can commit to the full programme.",
+        "I have attached my CV for your review.",
+        "I would welcome the opportunity to discuss my application.",
+        "I look forward to hearing from you.",
+        "Yours sincerely, / Kind regards,"
+      ]
+    }
+  ]
+}

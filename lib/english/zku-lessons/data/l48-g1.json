@@ -1,0 +1,532 @@
+{
+  "id": "l48-g1",
+  "moduleNum": 14,
+  "lessonNum": 4,
+  "moduleTitle": "Describing & Defining",
+  "type": "grammar",
+  "title": "Relative Clauses: who, which, where, that",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Relative Clauses — Defining with who, which, where, that",
+  "grammarNote": "Относительные придаточные предложения (relative clauses) используются для определения или уточнения, о ком или о чём идёт речь. Они отвечают на вопросы \"который?\", \"которая?\", \"где?\". В определительных придаточных (defining relative clauses) без запятых: WHO — для людей, WHICH — для вещей/предметов, WHERE — для мест, THAT — может заменять who или which.",
+  "grammarTable": [
+    {
+      "subject": "who",
+      "verb": "→ people",
+      "short": "для людей",
+      "example": "\"She's a person WHO reads everything carefully.\" / \"The man WHO taught me.\""
+    },
+    {
+      "subject": "which",
+      "verb": "→ things",
+      "short": "для вещей",
+      "example": "\"A book WHICH changed my thinking.\" / \"The café WHICH serves Kazakh food.\""
+    },
+    {
+      "subject": "where",
+      "verb": "→ places",
+      "short": "для мест",
+      "example": "\"A room WHERE nothing decorative exists.\" / \"The library WHERE I studied.\""
+    },
+    {
+      "subject": "that",
+      "verb": "→ things or people",
+      "short": "может = who/which",
+      "example": "\"A place THAT inspires me.\" / \"The people THAT run it.\" (less formal than who)"
+    },
+    {
+      "subject": "whose",
+      "verb": "→ possession",
+      "short": "чей / которого",
+      "example": "\"A student WHOSE notes I read.\" / \"A café WHOSE menu hasn't changed.\""
+    },
+    {
+      "subject": "when",
+      "verb": "→ time",
+      "short": "когда",
+      "example": "\"I remember the day WHEN I first arrived.\" / \"A time WHEN things were simpler.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "who, which, where — choosing the right pronoun",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "WHO = people",
+          "example": "\"She's the professor WHO taught me linguistics.\" / \"The students WHO arrived early.\""
+        },
+        {
+          "form": "WHICH = things",
+          "example": "\"A book WHICH I found in the library.\" / \"The soup WHICH my grandmother always ordered.\""
+        },
+        {
+          "form": "WHERE = places",
+          "example": "\"A city WHERE everyone knows your name.\" / \"The bench WHERE she sits every morning.\""
+        },
+        {
+          "form": "THAT = who or which (informal)",
+          "example": "\"The café THAT my grandmother used to visit.\" / \"The woman THAT taught me.\" (less formal)."
+        }
+      ]
+    },
+    {
+      "title": "Defining vs non-defining relative clauses",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Defining (no commas) = essential",
+          "example": "\"The book that changed my life.\" (which book? → the one that changed my life — essential info)"
+        },
+        {
+          "form": "Non-defining (with commas) = extra",
+          "example": "\"The library, which was built in the Soviet era, is beautiful.\" (extra info, not essential)"
+        },
+        {
+          "form": "Defining: \"that\" possible",
+          "example": "\"The book THAT I loved.\" (defining = \"that\" OK)"
+        },
+        {
+          "form": "Non-defining: no \"that\"",
+          "example": "\"The library, WHICH was built in 1960, is beautiful.\" (non-defining = must use \"which\", not \"that\")"
+        }
+      ]
+    },
+    {
+      "title": "Whose and when",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "WHOSE = possession (of the noun)",
+          "example": "\"A woman WHOSE notes I found.\" = her notes / \"A café WHOSE menu hasn't changed.\" = its menu."
+        },
+        {
+          "form": "WHEN = time",
+          "example": "\"The year WHEN I arrived.\" = the year; at that time."
+        },
+        {
+          "form": "\"whose\" replaces \"his/her/its/their\"",
+          "example": "\"She is a student. Her essay won.\" → \"She is a student WHOSE essay won.\" ✅"
+        },
+        {
+          "form": "\"when\" after time nouns",
+          "example": "\"The moment WHEN everything changed.\" / \"A time WHEN life was simpler.\""
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes with relative clauses",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"The place which I was born.\"",
+          "example": "✅ \"The place WHERE I was born.\" — places use \"where\" not \"which\" when no preposition follows."
+        },
+        {
+          "form": "✗ \"The man which teaches me.\"",
+          "example": "✅ \"The man WHO teaches me.\" — people always use \"who\" (or \"that\" informally)."
+        },
+        {
+          "form": "✗ \"The book who she wrote.\"",
+          "example": "✅ \"The book WHICH/THAT she wrote.\" — things use \"which\" or \"that\", never \"who\"."
+        },
+        {
+          "form": "✗ \"This is the professor that whose notes I found.\"",
+          "example": "✅ Use WHOSE for possession: \"The professor WHOSE notes I found.\" ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Относительные местоимения — простая схема:\n→ ЧЕЛОВЕК: WHO (или that в разговорной речи)\n→ ВЕЩЬ: WHICH (или that)\n→ МЕСТО: WHERE\n→ ВЛАДЕНИЕ: WHOSE (чей)\n→ ВРЕМЯ: WHEN\n\nОпределительные (без запятых) = essential information\n\"A place THAT inspires me.\"\n\nНеопределительные (с запятыми) = extra information\n\"The library, WHICH was built in 1960, is beautiful.\"\n→ В неопределительных НЕЛЬЗЯ использовать THAT!\n\n💡 Тест: уберите придаточное.\nЕсли смысл сохранился → неопределительное (нужны запятые).\nЕсли смысл изменился → определительное (без запятых).",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "She's a person ___ always pays attention to what she reads.",
+      "opts": [
+        "which",
+        "where",
+        "who",
+        "that they"
+      ],
+      "correct": "who",
+      "hint": "A PERSON → use \"who\". \"She's a person WHO always pays attention.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "It's a book ___ changed my whole approach to reading.",
+      "opts": [
+        "who",
+        "where",
+        "which",
+        "whose"
+      ],
+      "correct": "which",
+      "hint": "A BOOK (thing) → use \"which\" or \"that\". \"A book WHICH changed my approach.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with \"where\" or \"which\".",
+      "text": "It's a city ___ everyone knows your name.",
+      "correct": "where",
+      "hint": "A CITY (place) → use \"where\". \"A city WHERE everyone knows your name.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose \"who\" or \"whose\".",
+      "text": "She's a librarian ___ notes I found in every book I read.",
+      "opts": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "correct": "whose",
+      "hint": "\"WHOSE notes\" = possession (HER notes). \"A librarian WHOSE notes I found.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Can \"that\" replace \"who\" here?",
+      "text": "\"The people who run the café.\" — Can you say \"the people that run\"?",
+      "opts": [
+        "No — only \"who\" for people",
+        "Yes — \"that\" can replace \"who\" in defining clauses (informal)",
+        "No — use \"which\" for plural",
+        "Yes — but only in formal writing"
+      ],
+      "correct": "Yes — \"that\" can replace \"who\" in defining clauses (informal)",
+      "hint": "\"that\" can replace \"who\" in informal, defining relative clauses. \"The people THAT run the café.\" ✅ (informal)"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "I remember the day ___ I first arrived in Uralsk.",
+      "correct": "when",
+      "hint": "\"WHEN\" for time (the day, the moment, the year). \"The day WHEN I arrived.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Is \"that\" possible in this non-defining clause?",
+      "text": "\"The library, ___ was built in the Soviet era, is beautiful.\"",
+      "opts": [
+        "that",
+        "which",
+        "who",
+        "where"
+      ],
+      "correct": "which",
+      "hint": "Non-defining clause (with commas) → NEVER use \"that\". Must use \"which\". \"The library, WHICH was built in the Soviet era...\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct pronoun.",
+      "text": "The bench ___ she sits every morning faces the morning sun.",
+      "opts": [
+        "who",
+        "which",
+        "where",
+        "whose"
+      ],
+      "correct": "where",
+      "hint": "A BENCH (place where she sits) → use \"where\". \"The bench WHERE she sits.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete the relative clause.",
+      "text": "She's a student ___ notebook is filled with interesting questions.",
+      "correct": "whose",
+      "hint": "\"WHOSE notebook\" = the notebook belongs to her. \"A student WHOSE notebook is filled with questions.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which sentence has the correct relative pronoun?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "\"The book which she wrote is interesting.\"",
+        "\"The man which taught me is here.\"",
+        "\"The place who I was born.\"",
+        "\"A feeling which nobody understands.\""
+      ],
+      "correct": "\"The book which she wrote is interesting.\"",
+      "hint": "Book = thing → \"which.\" ✅ \"Man which\" ✗ (should be \"who\"), \"place who\" ✗ (should be \"where\"), \"feeling which\" ✓ but less natural."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which is a defining relative clause (no commas)?",
+      "text": "Choose the defining relative clause.",
+      "opts": [
+        "\"Kamila, who studies linguistics, is from Almaty.\"",
+        "\"The café that my grandmother used to visit.\"",
+        "\"The library, which is in Almaty, is beautiful.\"",
+        "\"Amir, who studies computer science, is from Aktobe.\""
+      ],
+      "correct": "\"The café that my grandmother used to visit.\"",
+      "hint": "Defining = no commas; essential information. \"The café THAT my grandmother used to visit.\" ✅ (tells us WHICH café)"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with \"who\", \"which\", or \"where\".",
+      "text": "\"There's a reading room ___ she used to study for exams.\"",
+      "correct": "where",
+      "hint": "A ROOM (place) → \"where\". \"A reading room WHERE she used to study for exams.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's a person ___ reads everything.\" Choose the pronoun.",
+      "opts": [
+        "which",
+        "where",
+        "who",
+        "whose"
+      ],
+      "correct": "who",
+      "hint": "\"who\" = people. \"She's a person WHO reads everything.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A book ___ changed my life.\" Choose the pronoun.",
+      "opts": [
+        "who",
+        "where",
+        "which",
+        "when"
+      ],
+      "correct": "which",
+      "hint": "\"which\" = things. \"A book WHICH changed my life.\" ✅ (or \"that\")"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A place ___ you feel at home.\" Choose the pronoun.",
+      "opts": [
+        "who",
+        "which",
+        "where",
+        "whose"
+      ],
+      "correct": "where",
+      "hint": "\"where\" = places. \"A place WHERE you feel at home.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"A librarian ___ notes I found.\" (possession)",
+      "correct": "whose",
+      "hint": "\"WHOSE\" = possession. \"A librarian WHOSE notes I found.\" ✅ (the notes belong to her)"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"That\" can replace \"who\" in:",
+      "opts": [
+        "Non-defining clauses",
+        "Defining clauses only (informal)",
+        "All relative clauses",
+        "No relative clauses"
+      ],
+      "correct": "Defining clauses only (informal)",
+      "hint": "\"that\" replaces \"who\" or \"which\" only in DEFINING (no comma) clauses. Not in non-defining (comma) clauses! ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The library, ___ was built in 1960, is beautiful.\" (extra info)",
+      "opts": [
+        "that",
+        "which",
+        "who",
+        "where"
+      ],
+      "correct": "which",
+      "hint": "Non-defining (commas) → must use \"WHICH\", never \"that\". \"The library, WHICH was built in 1960...\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I remember the year ___ she arrived.\" (time)",
+      "opts": [
+        "which",
+        "who",
+        "when",
+        "where"
+      ],
+      "correct": "when",
+      "hint": "\"when\" = time. \"The year WHEN she arrived.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The man which taught me.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"which\" should be \"who\" — man is a person",
+        "\"man\" should be \"person\"",
+        "\"taught\" should be \"teaches\""
+      ],
+      "correct": "\"which\" should be \"who\" — man is a person",
+      "hint": "✅ \"The man WHO taught me.\" — \"which\" is for things. People always use \"who\". ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A café whose menu hasn't changed.\" — \"whose\" refers to:",
+      "opts": [
+        "The food",
+        "The café's menu (possession)",
+        "The customers",
+        "The soup"
+      ],
+      "correct": "The café's menu (possession)",
+      "hint": "\"WHOSE menu\" = the café's menu. \"Whose\" shows possession. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "A defining relative clause is one that:",
+      "opts": [
+        "Has commas around it",
+        "Is optional extra information",
+        "Defines/identifies which person or thing you mean",
+        "Only uses \"which\""
+      ],
+      "correct": "Defines/identifies which person or thing you mean",
+      "hint": "Defining = essential. \"The book THAT changed my life.\" — tells you WHICH book. Without it, the sentence loses meaning."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The students who study hard succeed.\" — Can you replace \"who\" with \"that\"?",
+      "opts": [
+        "No — only for things",
+        "Yes — informal defining clause",
+        "No — only for non-defining",
+        "Yes — always"
+      ],
+      "correct": "Yes — informal defining clause",
+      "hint": "\"The students THAT study hard succeed.\" ✅ — informal. \"that\" replaces \"who\" in defining clauses."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It's the room ___ she does all her thinking.\"",
+      "correct": "where",
+      "hint": "\"where\" for places. \"The room WHERE she does all her thinking.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is a student ___ work I always admire.\" Choose the pronoun.",
+      "opts": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "correct": "whose",
+      "hint": "\"WHOSE work I admire\" = possession (her work). \"A student WHOSE work I always admire.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is grammatically correct?",
+      "opts": [
+        "\"The book who she wrote.\"",
+        "\"The man which taught me.\"",
+        "\"A café where serves food.\"",
+        "\"A place where she grew up.\""
+      ],
+      "correct": "\"A place where she grew up.\"",
+      "hint": "\"A place WHERE she grew up.\" ✅ — place → where. ✓ Others: \"book who\" ✗, \"man which\" ✗, \"café where serves\" ✗."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"There was a time ___ we didn't have smartphones.\"",
+      "correct": "when",
+      "hint": "\"when\" after time expressions (year, day, moment, time). \"A time WHEN we didn't have smartphones.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The non-defining relative clause uses commas because:",
+      "opts": [
+        "It's more formal",
+        "The information is extra — the sentence is complete without it",
+        "It uses \"which\"",
+        "It's negative"
+      ],
+      "correct": "The information is extra — the sentence is complete without it",
+      "hint": "Non-defining = extra info in commas. Remove it and the sentence still makes sense and identifies the noun."
+    }
+  ]
+}

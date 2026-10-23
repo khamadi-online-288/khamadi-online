@@ -1,0 +1,227 @@
+{
+  "id": "l48-4",
+  "moduleNum": 14,
+  "lessonNum": 6,
+  "moduleTitle": "Describing & Defining",
+  "type": "writing",
+  "title": "A Person or Place That Matters to Me",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "who changed my life",
+      "emoji": "👤",
+      "opts": [
+        "который/которая изменил(а) мою жизнь",
+        "с кем я работаю",
+        "которого я встретил",
+        "кто помог мне"
+      ],
+      "correct": "который/которая изменил(а) мою жизнь"
+    },
+    {
+      "id": "p2",
+      "word": "where I feel myself",
+      "emoji": "📍",
+      "opts": [
+        "где я чувствую стресс",
+        "где я чувствую себя собой",
+        "куда я редко хожу",
+        "где всегда шумно"
+      ],
+      "correct": "где я чувствую себя собой"
+    },
+    {
+      "id": "p3",
+      "word": "which I will never forget",
+      "emoji": "💫",
+      "opts": [
+        "которое я легко забуду",
+        "которое я никогда не забуду",
+        "которое мне надоело",
+        "которое непонятно"
+      ],
+      "correct": "которое я никогда не забуду"
+    },
+    {
+      "id": "p4",
+      "word": "whose influence I still feel",
+      "emoji": "🌊",
+      "opts": [
+        "чьё влияние я не чувствую",
+        "чьё влияние я до сих пор ощущаю",
+        "кого я больше не встречаю",
+        "чья работа закончилась"
+      ],
+      "correct": "чьё влияние я до сих пор ощущаю"
+    },
+    {
+      "id": "p5",
+      "word": "that defines who I am",
+      "emoji": "🔑",
+      "opts": [
+        "что не важно для меня",
+        "что определяет кто я есть",
+        "что я потерял",
+        "что мне не нравится"
+      ],
+      "correct": "что определяет кто я есть"
+    },
+    {
+      "id": "p6",
+      "word": "a beautiful old quiet",
+      "emoji": "🏛️",
+      "opts": [
+        "порядок неправильный",
+        "красивый старый тихий (правильный порядок)",
+        "старый красивый тихий",
+        "тихий красивый старый"
+      ],
+      "correct": "красивый старый тихий (правильный порядок)"
+    }
+  ],
+  "writingModel": [
+    "The Person Who Changed How I Read — by Kamila Seitkali",
+    "There is a woman who changed my entire approach to books — and I have never met her. Her name was Apai Zarina, an elderly Kazakh librarian who worked at WKU for thirty-seven years. I discovered her through the handwritten notes that she left in the margins of dozens of library books — notes which were not summaries but responses, not repetitions but arguments.",
+    "Her notes were remarkable. In one ancient, yellowed linguistics textbook, she had written: \"The author has not read Saussure carefully enough.\" In a beautiful old Central Asian history book, she had noted that one paragraph contradicted another source entirely. These were the observations of someone who read with great concentration and no deference to authority — a reader whose attention was total.",
+    "What she gave me was a way of reading that I had never considered. I had always read passively — receiving information from texts without replying. Zarina's notes showed me a different kind of reading: reading as conversation. Since discovering her, I have started writing responses in the margins of my own books — not summaries, but my honest reactions. Disagree. Question. Connect. Reply.",
+    "The place that connects me most to Zarina is, of course, the WKU library — specifically, the fourth floor, where the oldest books are kept. It is a quiet, slightly dusty place that smells of old paper. When I sit there and open one of those books, I sometimes wonder if she sat in the same chair, at the same worn wooden table, reading by the same low winter light.",
+    "Zarina never knew she was teaching me. She probably never knew anyone was reading her notes. But the influence which she had on my life is one of the most significant I have experienced. She is the person who showed me that paying attention is itself a form of generosity — that when you read carefully and respond honestly, you give something to the world, even if no one is watching.",
+    "A person who teaches you something important doesn't always know they're doing it. And the place that matters most isn't always the one you chose — sometimes it chooses you."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Title: A person/place that...",
+      "hint": "Use a relative clause in your title: \"The Person Who...\" / \"The Place Where...\""
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "There is a ",
+      "suffix": " — and I will never forget them/it.",
+      "placeholder": "person who... OR place where...",
+      "hint": "Open with a relative clause: \"a person WHO...\" / \"a place WHERE...\""
+    },
+    {
+      "key": "describe",
+      "prefix": "They/It is ",
+      "suffix": ".",
+      "placeholder": "physical description (adj order: opinion + age + material)",
+      "hint": "Use 2-3 adjectives in the correct order."
+    },
+    {
+      "key": "defining",
+      "prefix": "What makes them/it special is ",
+      "suffix": ".",
+      "placeholder": "the defining quality",
+      "hint": "Define what makes them/it unique."
+    },
+    {
+      "key": "clause1",
+      "prefix": "The thing that ",
+      "suffix": " is unforgettable.",
+      "placeholder": "relative clause describing their quality",
+      "hint": "\"The thing THAT they showed me...\" / \"The way THAT she talked...\""
+    },
+    {
+      "key": "effect",
+      "prefix": "Their influence, which ",
+      "suffix": ", has changed me.",
+      "placeholder": "extra information about the influence",
+      "hint": "Non-defining relative clause: add extra info with commas and \"which\"."
+    },
+    {
+      "key": "place",
+      "prefix": "The place where ",
+      "suffix": " stays with me.",
+      "placeholder": "a specific place connected to them",
+      "hint": "\"The place WHERE we first met...\" / \"The room WHERE I discovered...\""
+    },
+    {
+      "key": "lesson",
+      "prefix": "They/It taught me that ",
+      "suffix": ".",
+      "placeholder": "the key lesson or insight",
+      "hint": "What did this person or place teach you about life or yourself?"
+    },
+    {
+      "key": "conclude",
+      "prefix": "A ",
+      "suffix": " person or place that defines who you are.",
+      "placeholder": "one or two adjectives in correct order",
+      "hint": "End with a noun phrase using correct adjective order."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing with relative clauses",
+      "color": "#003876",
+      "items": [
+        "There is a person WHO changed how I think about...",
+        "It is a place WHERE I feel completely myself.",
+        "She is someone WHOSE influence I still feel today.",
+        "It was a moment WHEN I understood something important.",
+        "It is the kind of place THAT makes you feel welcome."
+      ]
+    },
+    {
+      "category": "Describing with correct adjective order",
+      "color": "#1D9E75",
+      "items": [
+        "A beautiful old wooden... / a small quiet traditional...",
+        "An interesting ancient Soviet... / a large comfortable reading...",
+        "A lovely old Kazakh... / a simple clean modern...",
+        "A wonderful old stone... / a tiny dark silent...",
+        "Opinion → Size → Age → Colour → Origin → Material"
+      ]
+    },
+    {
+      "category": "Defining and non-defining clauses",
+      "color": "#1B8FC4",
+      "items": [
+        "The notes, which were not summaries, were remarkable.",
+        "The library, which was built in the Soviet era, is still there.",
+        "A reader WHOSE attention was total.",
+        "The café THAT my grandmother used to visit.",
+        "A place WHERE nobody expects anything from you."
+      ]
+    },
+    {
+      "category": "Reflection and conclusion",
+      "color": "#C9933B",
+      "items": [
+        "Their influence, which I still feel, is one of the most significant.",
+        "The thing THAT they taught me is this...",
+        "What they gave me was a way of... that I had never considered.",
+        "A person who teaches you doesn't always know they're doing it.",
+        "The place that matters most isn't always the one you chose."
+      ]
+    }
+  ]
+}

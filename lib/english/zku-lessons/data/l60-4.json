@@ -1,0 +1,215 @@
+{
+  "id": "l60-4",
+  "moduleNum": 2,
+  "lessonNum": 7,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "writing",
+  "title": "A Journalistic Report Using Reported Speech",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "He stated that...",
+      "emoji": "📢",
+      "opts": [
+        "он предположил",
+        "он заявил / утверждал",
+        "он попросил",
+        "он отрицал"
+      ],
+      "correct": "он заявил / утверждал"
+    },
+    {
+      "id": "p2",
+      "word": "She acknowledged...",
+      "emoji": "✋",
+      "opts": [
+        "она отрицала",
+        "она признала / отметила",
+        "она пообещала",
+        "она предложила"
+      ],
+      "correct": "она признала / отметила"
+    },
+    {
+      "id": "p3",
+      "word": "Critics claimed...",
+      "emoji": "⚡",
+      "opts": [
+        "критики согласились",
+        "критики утверждали",
+        "критики отказались",
+        "критики отметили"
+      ],
+      "correct": "критики утверждали"
+    },
+    {
+      "id": "p4",
+      "word": "He warned that...",
+      "emoji": "⚠️",
+      "opts": [
+        "он пообещал",
+        "он предупредил",
+        "он отверг",
+        "он спросил"
+      ],
+      "correct": "он предупредил"
+    },
+    {
+      "id": "p5",
+      "word": "She insisted...",
+      "emoji": "💪",
+      "opts": [
+        "она намекнула",
+        "она настаивала",
+        "она предлагала",
+        "она описала"
+      ],
+      "correct": "она настаивала"
+    },
+    {
+      "id": "p6",
+      "word": "The minister denied...",
+      "emoji": "🚫",
+      "opts": [
+        "министр признал",
+        "министр отрицал",
+        "министр сообщил",
+        "министр пообещал"
+      ],
+      "correct": "министр отрицал"
+    }
+  ],
+  "writingModel": [
+    "WKU to Introduce B2 English Requirement from 2027",
+    "By Kamila Seitkali, WKU Student Journal",
+    "The university rector confirmed at a press briefing yesterday that WKU would introduce a mandatory B2 English proficiency requirement for all students enrolling from 2027. The rector stated that the requirement would not apply to current students, adding that the policy had been designed to reflect the linguistic demands of modern professional environments.",
+    "In response to questions about regional inequality, the rector acknowledged that access to English preparation varied significantly across Kazakhstan. She announced that the university would fund English preparation courses for all first-year students from next autumn, describing this as a \"core commitment\" to fair access.",
+    "However, not all voices at the briefing expressed support. The student council president, who was not present at the event, had previously claimed that the council had not been given sufficient time to consult properly before the policy was finalised. The rector did not dispute this directly. She accepted that the consultation timeline had been challenging and promised that the university would improve its engagement processes for future decisions.",
+    "Faculty members who had spoken to this journal before the briefing expressed mixed views. One lecturer in the social sciences, who asked not to be named, warned that the requirement could disadvantage students whose secondary schooling had provided limited English instruction. She insisted that without substantial support, the policy risked becoming a barrier rather than a bridge.",
+    "Another faculty member, a professor in the engineering faculty, argued that the requirement was both necessary and overdue. She noted that international research collaboration had been hampered by inadequate English proficiency among many graduates, and that the policy would ultimately benefit students' careers.",
+    "The rector concluded the briefing by assuring students that the university had no intention of using the English requirement as a reason to deny graduation to students who made genuine effort. She urged students who were concerned to contact their faculty offices for guidance on available support.",
+    "The new requirement represents the most significant change to WKU's graduation criteria in over a decade. How effectively it is implemented — and whether the promised support materialises — will be closely watched by students, faculty, and external observers alike."
+  ],
+  "writingTemplate": [
+    {
+      "key": "headline",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "News headline — clear and factual",
+      "hint": "Short, informative: \"WKU to Introduce X\" / \"University Announces Y\" / \"Students React to Z\""
+    },
+    {
+      "key": "byline",
+      "prefix": "By ",
+      "suffix": ", WKU Student Journal",
+      "placeholder": "your name",
+      "hint": "Your name — journalistic byline."
+    },
+    {
+      "key": "lead",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Opening paragraph: who, what, where, when",
+      "hint": "The most important information first. Use a strong reporting verb: \"confirmed / announced / stated / revealed.\""
+    },
+    {
+      "key": "detail1",
+      "prefix": "The ",
+      "suffix": " acknowledged / stated / confirmed that ___.",
+      "placeholder": "official source + what they said",
+      "hint": "Report the official position using precise reporting verbs. Include tense backshift."
+    },
+    {
+      "key": "contrast",
+      "prefix": "However, ",
+      "suffix": " claimed / argued / insisted that ___.",
+      "placeholder": "opposing voice + what they claimed",
+      "hint": "\"However, critics claimed...\" / \"However, students argued...\" — introduce the counter-view."
+    },
+    {
+      "key": "quote1",
+      "prefix": "One ",
+      "suffix": " warned that ___.",
+      "placeholder": "unnamed source + warning",
+      "hint": "\"One lecturer warned that...\" — using \"warned\" signals a concern/threat. Include tense shifts."
+    },
+    {
+      "key": "balance",
+      "prefix": "Another ",
+      "suffix": " argued / noted that ",
+      "placeholder": "balancing voice + what they noted",
+      "hint": "Balance with a view from the other side: \"Another faculty member argued...\""
+    },
+    {
+      "key": "close",
+      "prefix": "",
+      "suffix": " — will be closely watched.",
+      "placeholder": "Concluding observation about the future",
+      "hint": "End with a forward-looking statement using future or conditional tenses."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening reporting verbs (strong)",
+      "color": "#003876",
+      "items": [
+        "The rector confirmed / announced / stated that...",
+        "The university revealed / disclosed that...",
+        "Officials acknowledged / admitted that...",
+        "The minister announced (that) the policy would...",
+        "A spokesperson confirmed (that) students would be affected."
+      ]
+    },
+    {
+      "category": "Introducing critical voices",
+      "color": "#1D9E75",
+      "items": [
+        "Critics claimed / argued / insisted that...",
+        "Opponents warned that the decision could...",
+        "The student council president claimed (that) they had not been...",
+        "Faculty members expressed concern that...",
+        "One lecturer, who asked not to be named, warned that..."
+      ]
+    },
+    {
+      "category": "Balanced reporting",
+      "color": "#1B8FC4",
+      "items": [
+        "However, not all voices expressed support.",
+        "Another faculty member argued / noted / maintained that...",
+        "Supporters of the policy suggested / pointed out that...",
+        "In contrast, critics denied that the changes would benefit students.",
+        "The rector did not dispute / rejected the claim that..."
+      ]
+    },
+    {
+      "category": "Concluding and forward-looking",
+      "color": "#C9933B",
+      "items": [
+        "The rector concluded by assuring / promising / urging...",
+        "She urged students to contact / apply / respond.",
+        "How effectively the policy is implemented will be closely watched.",
+        "Whether the promised support materialises remains to be seen.",
+        "The decision represents the most significant change in over a decade."
+      ]
+    }
+  ]
+}

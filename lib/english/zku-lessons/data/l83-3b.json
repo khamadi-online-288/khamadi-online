@@ -1,0 +1,378 @@
+{
+  "id": "l83-3b",
+  "moduleNum": 25,
+  "lessonNum": 4,
+  "moduleTitle": "Listening & Speaking Strategies",
+  "title": "The Science of Spoken Communication: What Research Tells Us",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Lim",
+      "text": "Good morning, everyone. Today I want to look at what research actually tells us about spoken communication — specifically what makes communication more or less effective, and what we can do about it. I'll cover three areas: the role of non-verbal communication, the science of comprehension, and what we know about cross-cultural communication differences.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Lim",
+      "text": "Let's begin with non-verbal communication. A frequently cited figure — that 93% of communication is non-verbal — is a widespread misquotation of research by Albert Mehrabian from the 1960s. Mehrabian studied the communication of feelings and attitudes, not communication in general. His finding that people rely more on tone and facial expression than words, in ambiguous affective situations, has been extrapolated far beyond its original scope. The actual situation is more nuanced: non-verbal communication is crucially important, but its relative importance varies enormously by context.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Lim",
+      "text": "What we can say with confidence is this: in face-to-face communication, non-verbal cues — facial expression, eye contact, posture, gesture, and proxemics (the use of space) — are processed simultaneously with verbal content and often override it when the two conflict. If someone says \"I'm fine\" with a tense posture and averted eyes, listeners will typically disbelieve the verbal message. This is why written communication is more vulnerable to misinterpretation — the non-verbal channel is missing.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Lim",
+      "text": "Regarding comprehension: research on listening comprehension reveals that we process spoken language very differently from written language. In reading, we process text somewhat linearly, with the ability to re-read. In listening, we process in real time — information is transient. We rely heavily on prosodic cues — stress, rhythm, and intonation — to identify the information structure of utterances. We use our knowledge of context and discourse structure to predict what is likely to come next. And we rely on short-term memory, which is significantly more limited in listening than our intuition suggests.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Lim",
+      "text": "Interestingly, research shows that slightly slower speech — around 130 words per minute rather than the typical conversational rate of 150-200 — significantly improves comprehension for second-language listeners without sounding unnatural to native-speaker listeners. Pausing at appropriate junctures, rather than filling silence with hesitation markers, also improves comprehension. These are evidence-based recommendations for anyone who regularly speaks to mixed language audiences.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Lim",
+      "text": "On cross-cultural communication: the research here confirms many of the dimensions identified by Hofstede and Hall — differences in high versus low context communication, in attitudes to silence, in the management of disagreement. One consistently important finding is that the willingness to make explicit what is left implicit in one's own cultural setting — to over-communicate rather than assume shared background — significantly reduces miscommunication in intercultural contexts. This is sometimes called \"accommodation to the interlocutor.\"",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Lim",
+      "text": "Let me close with what I think is the most practically important finding. Research on communication breakdowns consistently shows that the single most important skill for managing miscommunication is not linguistic accuracy — it is what researchers call \"communication repair.\" The ability to recognise that communication has broken down, to seek clarification rather than proceeding on a false assumption, and to rephrase or reformulate when not understood — this skill predicts communicative success more reliably than any other single measure. In other words: it's not how well you speak, it's how well you deal with it when things go wrong.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "proxemics",
+      "ru": "проксемика",
+      "context": "The study of how people use space in communication — distance and territorial behaviour"
+    },
+    {
+      "phrase": "utterance",
+      "ru": "высказывание",
+      "context": "A unit of spoken language — anything from a single word to several sentences"
+    },
+    {
+      "phrase": "communication repair",
+      "ru": "восстановление коммуникации",
+      "context": "The ability to recognise and fix breakdowns in communication"
+    },
+    {
+      "phrase": "accommodation to the interlocutor",
+      "ru": "аккомодация к собеседнику",
+      "context": "Adjusting your communication style to better suit your listener's needs"
+    },
+    {
+      "phrase": "transient",
+      "ru": "мимолётный / преходящий",
+      "context": "Lasting only a short time — in listening, information is transient because you cannot re-read it"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "proxemics",
+      "ipa": "/prɒkˈsiːmɪks/",
+      "pos": "noun",
+      "ru": "проксемика",
+      "kz": "проксемика",
+      "emoji": "↔️",
+      "definition": "the study of how people use physical space and distance in social communication",
+      "example": "\"Proxemics — how close people stand to each other — varies significantly across cultures.\"",
+      "collocations": [
+        "study of proxemics",
+        "proxemic norms",
+        "personal proxemics"
+      ]
+    },
+    {
+      "en": "transient",
+      "ipa": "/ˈtrænziənt/",
+      "pos": "adjective",
+      "ru": "мимолётный / преходящий",
+      "kz": "уақытша",
+      "emoji": "⏱️",
+      "definition": "lasting for only a short time; in listening contexts: information that disappears and cannot be re-read",
+      "example": "\"In listening, information is transient — unlike text, it cannot be re-read.\"",
+      "collocations": [
+        "transient information",
+        "transient nature",
+        "transient speech"
+      ]
+    },
+    {
+      "en": "miscommunication",
+      "ipa": "/ˌmɪskəˌmjuːnɪˈkeɪʃən/",
+      "pos": "noun",
+      "ru": "недопонимание / сбой в коммуникации",
+      "kz": "қате түсінісу",
+      "emoji": "❌",
+      "definition": "a failure of communication — when the intended meaning is not received accurately",
+      "example": "\"Communication repair is the most important skill for managing miscommunication.\"",
+      "collocations": [
+        "prevent miscommunication",
+        "result in miscommunication",
+        "manage miscommunication"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "proxemics",
+      "emoji": "↔️",
+      "opts": [
+        "the study of how people use physical space in communication",
+        "the study of non-verbal facial expressions",
+        "a type of body language involving gestures",
+        "the rules for professional distance"
+      ],
+      "correct": "the study of how people use physical space in communication"
+    },
+    {
+      "id": "p2",
+      "word": "communication repair",
+      "emoji": "🔧",
+      "opts": [
+        "the ability to recognise and fix communication breakdowns",
+        "fixing technical problems in audio equipment",
+        "apologising after a communication mistake",
+        "correcting grammar errors in speech"
+      ],
+      "correct": "the ability to recognise and fix communication breakdowns"
+    }
+  ],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What does Dr. Lim say about the \"93% non-verbal\" claim?",
+      "correct": "It is a widespread misquotation — Mehrabian's research was about feelings/attitudes in ambiguous situations, not communication in general"
+    },
+    {
+      "id": "t2",
+      "question": "What happens when verbal and non-verbal messages conflict?",
+      "correct": "Non-verbal cues typically override verbal content — listeners disbelieve the verbal message"
+    },
+    {
+      "id": "t3",
+      "question": "What does research show about speech rate and comprehension?",
+      "correct": "Slightly slower speech (~130 wpm) significantly improves comprehension for L2 listeners without sounding unnatural"
+    },
+    {
+      "id": "t4",
+      "question": "What is the recommendation for intercultural communication?",
+      "correct": "Over-communicate rather than assume shared background — make explicit what is left implicit in your own culture"
+    },
+    {
+      "id": "t5",
+      "question": "What does research identify as the single most important skill for managing miscommunication?",
+      "correct": "Communication repair — recognising breakdown, seeking clarification, rephrasing when not understood"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "The 93% non-verbal claim is a direct, accurate quotation from Mehrabian's research.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Non-verbal cues often override verbal content when the two conflict.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Listening comprehension is processed in the same way as reading comprehension.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Making explicit what your culture leaves implicit reduces miscommunication interculturally.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Dr. Lim says linguistic accuracy is the single most important predictor of communicative success.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is Dr. Lim's main point about the 93% non-verbal claim?",
+      "opts": [
+        "It is exactly correct",
+        "It is a misquotation — Mehrabian studied feelings, not general communication",
+        "It was disproved in the 1990s",
+        "It applies only to visual communication"
+      ],
+      "correct": "It is a misquotation — Mehrabian studied feelings, not general communication",
+      "hint": "Lecture: \"widespread misquotation… studied the communication of feelings and attitudes\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What are \"prosodic cues\" in the context of listening?",
+      "opts": [
+        "The words used to communicate",
+        "Facial expressions and gestures",
+        "Stress, rhythm, and intonation that identify information structure",
+        "The vocabulary level of the speaker"
+      ],
+      "correct": "Stress, rhythm, and intonation that identify information structure",
+      "hint": "Lecture: \"prosodic cues — stress, rhythm, and intonation\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What speech rate does research recommend for mixed-language audiences?",
+      "opts": [
+        "As fast as possible to keep energy high",
+        "Around 200 wpm — the natural conversational rate",
+        "Around 130 wpm — slightly slower than normal",
+        "50 wpm — very slow and deliberate"
+      ],
+      "correct": "Around 130 wpm — slightly slower than normal",
+      "hint": "Lecture: \"around 130 words per minute… significantly improves comprehension for second-language listeners\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Dr. Lim say predicts communicative success most reliably?",
+      "opts": [
+        "Linguistic accuracy",
+        "Vocabulary range",
+        "Communication repair — dealing with breakdowns",
+        "Formal register and politeness"
+      ],
+      "correct": "Communication repair — dealing with breakdowns",
+      "hint": "Lecture: \"communication repair… predicts communicative success more reliably than any other single measure\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Dr. Lim says written communication is more vulnerable to misinterpretation than spoken communication.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Lecture: \"written communication is more vulnerable to misinterpretation — the non-verbal channel is missing\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "The lecture recommends filling silence with hesitation markers to maintain pace.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"pausing at appropriate junctures rather than filling silence with hesitation markers… improves comprehension\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She doesn't speak slowly enough for this audience, ___?\" (tag — negative statement)",
+      "opts": [
+        "does she",
+        "doesn't she",
+        "did she",
+        "has she"
+      ],
+      "correct": "does she",
+      "hint": "Negative statement → positive tag \"does she\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"You've studied cross-cultural communication, ___ ___?\" (tag — present perfect positive)",
+      "correct": "haven't you",
+      "hint": "Positive statement + present perfect → \"haven't you\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"They will need to practise repair strategies, ___?\" (tag — future positive)",
+      "opts": [
+        "won't they",
+        "will they",
+        "don't they",
+        "do they"
+      ],
+      "correct": "won't they",
+      "hint": "Positive future statement → \"won't they\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Proxemics\" refers to…",
+      "opts": [
+        "Eye contact and facial expression",
+        "The use of physical space and distance in communication",
+        "The study of gestures and hand movements",
+        "The speed and rhythm of speech"
+      ],
+      "correct": "The use of physical space and distance in communication",
+      "hint": "Lecture: \"proxemics (the use of space)\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "Why is spoken information described as \"transient\"?",
+      "opts": [
+        "It is always very brief",
+        "It cannot be re-read — it disappears as it is spoken",
+        "It is only used in temporary situations",
+        "It changes meaning quickly over time"
+      ],
+      "correct": "It cannot be re-read — it disappears as it is spoken",
+      "hint": "Lecture: \"information is transient\" — unlike text",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"___ repair\" — the skill of recognising and fixing communication breakdowns — is the strongest predictor of communicative success.",
+      "correct": "Communication",
+      "hint": "Lecture: \"communication repair\"",
+      "points": 1
+    }
+  ]
+}

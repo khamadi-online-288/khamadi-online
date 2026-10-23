@@ -1,0 +1,542 @@
+{
+  "id": "l44-1",
+  "moduleNum": 10,
+  "lessonNum": 1,
+  "moduleTitle": "Around the City",
+  "type": "reading",
+  "title": "Getting Around Uralsk: A First-Year Guide",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Uralsk — officially called Oral in Kazakh — is a city of about 260,000 people in western Kazakhstan. It sits at the confluence of the Ural and Chagan rivers, and much of its character comes from this geographical position: it is a river city, and the rivers shape everything from the layout of the streets to the social life of its residents. For new students arriving at WKU, understanding how to navigate the city is one of the first practical challenges they face.",
+    "The university campus is located in the northern part of the city, on Dostyq Avenue. From the main dormitory, students can walk to most lecture buildings in under ten minutes. The central library is on the same avenue, just past the main fountain, and the sports hall is behind the administration building, across the car park. For most daily academic needs, students rarely need to leave the campus.",
+    "The city centre — known locally as the Old Town area — is about twenty minutes by bus from the university. Students who want to explore Uralsk's cafés, shops, and cultural institutions usually take Bus 5, which stops directly in front of the main gate. The bus runs every fifteen minutes during the day and every thirty minutes in the evening. A single ticket costs 90 tenge.",
+    "One of the most useful landmarks for orientation is the Central Mosque, which is visible from many parts of the city. When students ask for directions, locals often use it as a reference point: \"Turn left at the mosque\" or \"It's just past the mosque on the right.\" The Pushkin Museum, which commemorates the Russian poet's visit to the region in 1833, is another landmark that appears regularly in directions.",
+    "The Ural River divides the city. The WKU campus and most student accommodation are on the western bank. The eastern bank is less developed but has some excellent markets and a popular park. To cross from one bank to the other, students use the Central Bridge, which is walkable in about eight minutes, or the Northern Bridge, which is reached by Bus 3. Both bridges offer scenic views of the river and, in winter, of the frozen water and ice fishermen.",
+    "Getting around at night requires some planning. Most buses stop running after 10 p.m., and taxis are the main option after that. The city has no metro and limited night transport. However, the university area is compact and safe, and most students find they can walk between the dormitory, the main building, and the nearest convenience stores without difficulty.",
+    "For students from larger cities, Uralsk sometimes feels small. For those from smaller towns, it feels like a city. In either case, most students agree that within two or three weeks of arrival, the city becomes familiar. The streets feel readable, the bus routes feel logical, and the landmarks become old friends. Navigation, like language, improves with practice."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Daniyar",
+      "text": "Rustam, do you know where the nearest ATM is?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Yes — there's one in the main building, on the ground floor. Just inside the entrance, on the left.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "And is there one near the city centre? I need to get there anyway.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "There's one on the corner of the main square — opposite the museum, next to a pharmacy.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "How do I get to the city centre from here?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Take Bus 5 from outside the main gate. Get off at the Central Mosque stop. Everything is within walking distance of there.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Does it run in the evening?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Until about 10. After that you'll need a taxi. The app works well here.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "confluence",
+      "ru": "место слияния рек",
+      "context": "Uralsk sits at the confluence of the Ural and Chagan rivers."
+    },
+    {
+      "phrase": "layout",
+      "ru": "планировка / расположение",
+      "context": "The rivers shape the layout of the streets."
+    },
+    {
+      "phrase": "orientation",
+      "ru": "ориентация / ориентирование",
+      "context": "\"The Central Mosque is useful for orientation.\""
+    },
+    {
+      "phrase": "reference point",
+      "ru": "ориентир / точка отсчёта",
+      "context": "\"Locals often use the mosque as a reference point.\""
+    },
+    {
+      "phrase": "scenic views",
+      "ru": "живописные виды",
+      "context": "Both bridges offer scenic views of the river."
+    },
+    {
+      "phrase": "compact",
+      "ru": "компактный / небольшой",
+      "context": "\"The university area is compact and safe.\""
+    },
+    {
+      "phrase": "commemorate",
+      "ru": "отмечать / увековечивать",
+      "context": "The Pushkin Museum commemorates the poet's visit to the region."
+    },
+    {
+      "phrase": "within walking distance",
+      "ru": "в пешей доступности",
+      "context": "\"Everything is within walking distance of there.\""
+    }
+  ],
+  "vocab": [
+    {
+      "en": "confluence",
+      "ipa": "/ˈkɒnfluəns/",
+      "pos": "noun",
+      "ru": "слияние (рек)",
+      "kz": "өзендер қосылатын жер",
+      "emoji": "🌊",
+      "definition": "the place where two rivers meet and join together",
+      "example": "Uralsk sits at the confluence of the Ural and Chagan rivers.",
+      "collocations": [
+        "confluence of rivers",
+        "at the confluence",
+        "the confluence point"
+      ]
+    },
+    {
+      "en": "landmark",
+      "ipa": "/ˈlændmɑːk/",
+      "pos": "noun",
+      "ru": "ориентир / достопримечательность",
+      "kz": "белгілі нүкте",
+      "emoji": "🏛️",
+      "definition": "a well-known feature used to identify a location",
+      "example": "The Central Mosque is one of the most useful landmarks for orientation.",
+      "collocations": [
+        "famous landmark",
+        "historic landmark",
+        "use as a landmark"
+      ]
+    },
+    {
+      "en": "orientation",
+      "ipa": "/ˌɔːriənˈteɪʃən/",
+      "pos": "noun",
+      "ru": "ориентирование",
+      "kz": "бағдарлану",
+      "emoji": "🧭",
+      "definition": "the ability to know where you are in relation to your surroundings",
+      "example": "The mosque helps with orientation — it's visible from many parts of the city.",
+      "collocations": [
+        "spatial orientation",
+        "sense of orientation",
+        "for orientation"
+      ]
+    },
+    {
+      "en": "accommodate",
+      "ipa": "/əˈkɒmədeɪt/",
+      "pos": "verb",
+      "ru": "вмещать / принимать",
+      "kz": "орналастыру",
+      "emoji": "🏠",
+      "definition": "to provide space or lodging for someone",
+      "example": "The dormitory can accommodate over 2,000 students.",
+      "collocations": [
+        "accommodate students",
+        "accommodate guests",
+        "accommodation available"
+      ]
+    },
+    {
+      "en": "scenic",
+      "ipa": "/ˈsiːnɪk/",
+      "pos": "adjective",
+      "ru": "живописный",
+      "kz": "көрнекі",
+      "emoji": "🌄",
+      "definition": "providing beautiful views of natural scenery",
+      "example": "Both bridges offer scenic views of the river in all seasons.",
+      "collocations": [
+        "scenic view",
+        "scenic route",
+        "scenic landscape"
+      ]
+    },
+    {
+      "en": "compact",
+      "ipa": "/ˈkɒmpækt/",
+      "pos": "adjective",
+      "ru": "компактный / небольшой",
+      "kz": "шағын",
+      "emoji": "🗺️",
+      "definition": "closely and neatly packed; small but well-organised",
+      "example": "The university area is compact and students can walk between buildings easily.",
+      "collocations": [
+        "compact city",
+        "compact design",
+        "compact area"
+      ]
+    },
+    {
+      "en": "commemorate",
+      "ipa": "/kəˈmeməreɪt/",
+      "pos": "verb",
+      "ru": "commemorировать / увековечивать",
+      "kz": "еске алу",
+      "emoji": "🏅",
+      "definition": "to do something special to remember a person or event",
+      "example": "The Pushkin Museum commemorates the poet's visit to the region in 1833.",
+      "collocations": [
+        "commemorate an event",
+        "monument commemorating",
+        "day to commemorate"
+      ]
+    },
+    {
+      "en": "readable",
+      "ipa": "/ˈriːdəbl/",
+      "pos": "adjective",
+      "ru": "читаемый / понятный",
+      "kz": "түсінікті",
+      "emoji": "🗺️",
+      "definition": "easy to understand and navigate",
+      "example": "After a few weeks, the streets feel readable — like a book you've learned to read.",
+      "collocations": [
+        "highly readable",
+        "readable map",
+        "become readable"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "confluence",
+      "emoji": "🌊",
+      "opts": [
+        "исток",
+        "слияние рек",
+        "устье",
+        "водопад"
+      ],
+      "correct": "слияние рек"
+    },
+    {
+      "id": "p2",
+      "word": "landmark",
+      "emoji": "🏛️",
+      "opts": [
+        "перекрёсток",
+        "ориентир",
+        "адрес",
+        "маршрут"
+      ],
+      "correct": "ориентир"
+    },
+    {
+      "id": "p3",
+      "word": "scenic",
+      "emoji": "🌄",
+      "opts": [
+        "промышленный",
+        "живописный",
+        "шумный",
+        "далёкий"
+      ],
+      "correct": "живописный"
+    },
+    {
+      "id": "p4",
+      "word": "compact",
+      "emoji": "🗺️",
+      "opts": [
+        "огромный",
+        "компактный",
+        "длинный",
+        "сложный"
+      ],
+      "correct": "компактный"
+    },
+    {
+      "id": "p5",
+      "word": "commemorate",
+      "emoji": "🏅",
+      "opts": [
+        "игнорировать",
+        "увековечивать",
+        "отменять",
+        "создавать"
+      ],
+      "correct": "увековечивать"
+    },
+    {
+      "id": "p6",
+      "word": "orientation",
+      "emoji": "🧭",
+      "opts": [
+        "потеря пути",
+        "ориентирование",
+        "расписание",
+        "навигация"
+      ],
+      "correct": "ориентирование"
+    }
+  ],
+  "task1Bank": [
+    "northern",
+    "Dostyq Avenue",
+    "Bus 5",
+    "90 tenge",
+    "Central Mosque",
+    "eight minutes",
+    "10 p.m.",
+    "two or three weeks"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The WKU campus is in the ___ part of Uralsk.",
+      "correct": "northern"
+    },
+    {
+      "id": "t2",
+      "question": "The campus is located on ___ .",
+      "correct": "Dostyq Avenue"
+    },
+    {
+      "id": "t3",
+      "question": "Students take ___ to get to the city centre.",
+      "correct": "Bus 5"
+    },
+    {
+      "id": "t4",
+      "question": "A single bus ticket costs ___ .",
+      "correct": "90 tenge"
+    },
+    {
+      "id": "t5",
+      "question": "The ___ is used as a reference point for directions.",
+      "correct": "Central Mosque"
+    },
+    {
+      "id": "t6",
+      "question": "Walking across the Central Bridge takes about ___ .",
+      "correct": "eight minutes"
+    },
+    {
+      "id": "t7",
+      "question": "Most buses stop running after ___ .",
+      "correct": "10 p.m."
+    },
+    {
+      "id": "t8",
+      "question": "Most students feel comfortable in the city after ___ of arrival.",
+      "correct": "two or three weeks"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "The WKU campus is in the southern part of Uralsk.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "The central library is just past the main fountain.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Bus 5 runs every fifteen minutes during the day.",
+      "correct": "true"
+    },
+    {
+      "id": "c4",
+      "statement": "The Pushkin Museum is named after a Kazakh poet.",
+      "correct": "false"
+    },
+    {
+      "id": "c5",
+      "statement": "The WKU campus is on the eastern bank of the Ural River.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Uralsk has a metro system for students.",
+      "correct": "false"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says navigation improves with practice, like language.",
+      "correct": "true"
+    },
+    {
+      "id": "c8",
+      "statement": "The eastern bank is more developed than the western bank.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is the WKU campus located?",
+      "opts": [
+        "Southern Uralsk",
+        "City centre",
+        "Northern part on Dostyq Avenue",
+        "Eastern bank of the river"
+      ],
+      "correct": "Northern part on Dostyq Avenue",
+      "hint": "\"The university campus is located in the northern part of the city, on Dostyq Avenue.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How do students usually get to the city centre?",
+      "opts": [
+        "By car",
+        "By metro",
+        "Bus 5 from the main gate",
+        "Taxi only"
+      ],
+      "correct": "Bus 5 from the main gate",
+      "hint": "\"students usually take Bus 5, which stops directly in front of the main gate.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The Pushkin Museum is on the eastern bank of the river.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "The text does not place the Pushkin Museum on the eastern bank. The eastern bank is described as less developed."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The Central Bridge can be crossed on foot in about ___ minutes.",
+      "correct": "eight",
+      "hint": "\"To cross from one bank to the other... the Central Bridge, which is walkable in about eight minutes.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say about getting around at night?",
+      "opts": [
+        "Buses run all night",
+        "There is a metro",
+        "Most buses stop at 10 p.m. — taxis needed after",
+        "Walking is dangerous"
+      ],
+      "correct": "Most buses stop at 10 p.m. — taxis needed after",
+      "hint": "\"Most buses stop running after 10 p.m., and taxis are the main option after that.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What comparison does the text make about navigation and language?",
+      "opts": [
+        "Both are difficult",
+        "Both improve with practice",
+        "Both require a teacher",
+        "Both are natural skills"
+      ],
+      "correct": "Both improve with practice",
+      "hint": "\"Navigation, like language, improves with practice.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Uralsk sits at the confluence of two rivers.\" \"Confluence\" means:",
+      "opts": [
+        "The source",
+        "The place where two rivers meet",
+        "The bank of a river",
+        "A river crossing"
+      ],
+      "correct": "The place where two rivers meet",
+      "hint": "\"confluence\" = the place where two rivers join together."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The mosque is a useful ___ for orientation.",
+      "correct": "landmark",
+      "hint": "\"landmark\" = a well-known feature used to identify a location or give directions."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The area is compact.\" \"Compact\" means:",
+      "opts": [
+        "Very large",
+        "Small but well-organised and easy to navigate",
+        "Far from everything",
+        "Noisy and busy"
+      ],
+      "correct": "Small but well-organised and easy to navigate",
+      "hint": "\"compact\" = closely organised; small in area but containing everything you need."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The bridges offer scenic views.\" \"Scenic\" means:",
+      "opts": [
+        "Dangerous",
+        "Industrial",
+        "Providing beautiful views",
+        "Far from the city centre"
+      ],
+      "correct": "Providing beautiful views",
+      "hint": "\"scenic\" = offering beautiful natural or landscape views."
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "id": "l8-6",
+  "moduleNum": 8,
+  "lessonNum": 6,
+  "moduleTitle": "My home",
+  "title": "Module 8 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila study at WKU?",
+      "opts": [
+        "Biology",
+        "Economics",
+        "Physics",
+        "Engineering"
+      ],
+      "correct": "Economics",
+      "hint": "\"My name is Kamila Dzhaksybekova. I study Economics at WKU.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila lives in the WKU student dormitory.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Unlike most of my classmates, I do not live in the student dormitory. I rent a small apartment near the university.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What colour is the sofa in the living room?",
+      "opts": [
+        "Grey",
+        "Green",
+        "Blue",
+        "Brown"
+      ],
+      "correct": "Blue",
+      "hint": "\"There is a comfortable blue sofa against the wall.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "There are ___ potted plants on the balcony.",
+      "correct": "four",
+      "hint": "\"There are four potted plants on the balcony — Zara brought them from her home in Almaty.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is on Zara's bedside table?",
+      "opts": [
+        "A book and a phone charger",
+        "A reading lamp",
+        "A small cactus plant",
+        "A glass of water"
+      ],
+      "correct": "A small cactus plant",
+      "hint": "\"Zara's has a small cactus plant!\" — Kamila's bedside table has a book and a phone charger."
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "There is a bathtub in the bathroom.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"There is no bathtub — only a shower.\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How much does each girl pay for rent per month?",
+      "opts": [
+        "80,000 tenge",
+        "35,000 tenge",
+        "60,000 tenge",
+        "40,000 tenge"
+      ],
+      "correct": "40,000 tenge",
+      "hint": "\"Our apartment costs 80,000 tenge per month — we each pay 40,000.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which appliance is in the kitchen but NOT in the apartment?",
+      "opts": [
+        "A microwave",
+        "A washing machine",
+        "A dishwasher",
+        "An electric kettle"
+      ],
+      "correct": "A dishwasher",
+      "hint": "The kitchen has a fridge, microwave, kettle, and washing machine — but NO dishwasher. Kamila confirms this in the dialogue."
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many rooms are there in Kamila's apartment?",
+      "opts": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": "Three",
+      "hint": "\"There are three rooms: a living room, a kitchen, and a bedroom.\" — Kamila."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "There is a separate study room in Kamila's apartment.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, there isn't. But there is a desk in the bedroom for each of us.\" — Kamila answers Damir's question."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many plants are there in total in the apartment (balcony + bedroom)?",
+      "opts": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": "Five",
+      "hint": "\"There are four plants on the balcony and one in the bedroom.\" — Kamila. 4 + 1 = 5."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "There is a small ___ just around the corner from Kamila's apartment.",
+      "correct": "park",
+      "hint": "\"Yes, there is a small park just around the corner. Very peaceful.\" — Kamila tells Damir."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila's only complaint about the apartment is that there isn't a washing machine.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"There is no dishwasher! That's the only problem!\" — Kamila. The apartment DOES have a washing machine."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Damir see when he looks from the balcony?",
+      "opts": [
+        "The WKU campus",
+        "A busy market",
+        "Trees in the courtyard",
+        "A mountain view"
+      ],
+      "correct": "Trees in the courtyard",
+      "hint": "\"There are so many trees down there!\" — Damir, after Kamila shows him the balcony view of the courtyard."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There ___ a blue sofa in the living room.\"",
+      "opts": [
+        "are",
+        "is",
+        "isn't",
+        "aren't"
+      ],
+      "correct": "is",
+      "hint": "Sofa = singular noun → \"There IS a sofa.\" (There IS + singular)"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"There are two bookshelves near the window\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Bookshelves\" is plural → \"There ARE two bookshelves.\" ✓ (plural noun = are)"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"Is there a dishwasher in the kitchen?\" — \"No, there ___.\"",
+      "correct": "isn't",
+      "hint": "Short answer to \"Is there...?\" in negative = \"No, there ISN'T.\" (singular)"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Are there ___ plants on the balcony?\" — \"Yes, there are four!\"",
+      "opts": [
+        "some",
+        "a",
+        "much",
+        "any"
+      ],
+      "correct": "any",
+      "hint": "In questions, we use ANY: \"Are there ANY plants?\" (not \"some\" — some is for positives/offers)."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "\"There is two bookshelves in the room.\"",
+        "\"There are a bookshelf near the window.\"",
+        "\"There are two bookshelves in the room.\"",
+        "\"There is some bookshelves on the wall.\""
+      ],
+      "correct": "\"There are two bookshelves in the room.\"",
+      "hint": "\"Two bookshelves\" = plural → \"There ARE two bookshelves.\" (Never \"is\" with a plural noun.)"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"There isn't any noisy neighbours in our building\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Neighbours\" is plural → use \"aren't\": \"There AREN'T any noisy neighbours.\" (ISN'T is only for singular.)"
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"___ there a lift in the building?\" — \"No, there isn't — we walk up the stairs!\"",
+      "correct": "Is",
+      "hint": "\"Lift\" is singular → question form: \"IS there a lift?\" (Are there = only with plural nouns.)"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Kamila describes the balcony: \"There ___ four beautiful plants.\"",
+      "opts": [
+        "is",
+        "isn't",
+        "are",
+        "aren't"
+      ],
+      "correct": "are",
+      "hint": "\"Four plants\" = plural → \"There ARE four plants.\" (plural = are, not is)."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"bookshelf\"?",
+      "opts": [
+        "A type of sofa",
+        "A kitchen appliance",
+        "A floor covering",
+        "A shelf on the wall for storing books"
+      ],
+      "correct": "A shelf on the wall for storing books",
+      "hint": "Bookshelf (книжная полка) — \"There are two bookshelves near the window — full of textbooks and novels.\""
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "A \"landlord\" is the person who rents an apartment FROM the owner.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Landlord (хозяин/арендодатель) = the OWNER who rents the apartment TO others. The person who rents FROM them is called a \"tenant\"."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The opposite of \"noisy\" is ___.",
+      "correct": "quiet",
+      "hint": "Noisy (шумный) ↔ quiet (тихий). \"There are no noisy neighbours — the building is very quiet.\""
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"spacious\" mean?",
+      "opts": [
+        "Very small and cosy",
+        "Bright and filled with sunlight",
+        "Cheap and affordable",
+        "Large and with plenty of space"
+      ],
+      "correct": "Large and with plenty of space",
+      "hint": "Spacious (просторный) — the opposite of cramped. A spacious apartment has a lot of room to move."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "Which of these is a household appliance?",
+      "opts": [
+        "A carpet",
+        "A curtain",
+        "A sofa",
+        "A washing machine"
+      ],
+      "correct": "A washing machine",
+      "hint": "Appliance (бытовой прибор) = an electrical machine. A washing machine, fridge, and microwave are appliances."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "A \"lift\" takes you between floors of a building.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Lift (лифт) — \"There isn't a lift, so we walk up three flights of stairs every day!\" — Kamila."
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The room where you sleep is called a ___.",
+      "correct": "bedroom",
+      "hint": "Bedroom (спальня) — \"Zara and I share one bedroom. There are two single beds on opposite sides.\""
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"convenient\" mean?",
+      "opts": [
+        "Very expensive and luxurious",
+        "Large and spacious",
+        "Easy and practical to use or get to",
+        "Very bright and sunny"
+      ],
+      "correct": "Easy and practical to use or get to",
+      "hint": "Convenient (удобный/практичный) — \"There is a washing machine, which is very convenient for students.\""
+    }
+  ]
+}

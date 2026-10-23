@@ -1,0 +1,246 @@
+{
+  "id": "l81-4",
+  "moduleNum": 23,
+  "lessonNum": 7,
+  "moduleTitle": "Global English & Intercultural Communication",
+  "title": "Writing: An Analytical Essay on Language and Communication",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Introduce the issue using formal framing phrases",
+      "hint": "\"In terms of…\", \"In the context of…\", \"With regard to…\""
+    },
+    {
+      "key": "body1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "First argument — use \"from the perspective of\" or \"in view of\"",
+      "hint": "\"From the perspective of ELF research…\" / \"In view of the evidence…\""
+    },
+    {
+      "key": "body2",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Counter-argument with concessive structure",
+      "hint": "\"To the extent that X is true, Y remains the case.\" / \"Insofar as this criticism is valid…\""
+    },
+    {
+      "key": "body3",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Analysis — formal discourse phrases for nuance",
+      "hint": "\"By virtue of… / In the interests of… / With a view to…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Balanced conclusion with formal framing",
+      "hint": "\"In light of the above…\" / \"As far as X is concerned, it follows that…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "In the context of globalisation, the question of ",
+      "suffix": " has become increasingly significant.",
+      "placeholder": "which language norms should govern international communication",
+      "hint": "\"In the context of\" = formal framing phrase"
+    },
+    {
+      "key": "l2",
+      "prefix": "From the perspective of ELF research, ",
+      "suffix": ".",
+      "placeholder": "intelligibility and communicative effectiveness are the most appropriate benchmarks",
+      "hint": "\"From the perspective of X\" = as seen through a specific analytical lens"
+    },
+    {
+      "key": "l3",
+      "prefix": "In view of this, it follows that ",
+      "suffix": ".",
+      "placeholder": "the native speaker model is no longer fit for purpose in a globalised world",
+      "hint": "\"In view of\" = given this evidence, considering this"
+    },
+    {
+      "key": "l4",
+      "prefix": "To the extent that the objection has force, ",
+      "suffix": ".",
+      "placeholder": "it is best addressed by rethinking what \"communicative success\" means in international contexts",
+      "hint": "\"To the extent that X\" = qualifying the concession"
+    },
+    {
+      "key": "l5",
+      "prefix": "In light of the above, it is argued that ",
+      "suffix": ".",
+      "placeholder": "language education should prioritise communicative effectiveness and intercultural competence over native-speaker accuracy",
+      "hint": "\"In light of the above\" = formal conclusion phrase"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Framing the issue formally",
+      "color": "#003876",
+      "items": [
+        "In the context of global communication, this question has become pressing.",
+        "With regard to language policy, the evidence points clearly in one direction.",
+        "In terms of communicative effectiveness, the native speaker model is inadequate.",
+        "In relation to intercultural competence, perspective-taking is paramount.",
+        "As far as language learners are concerned, the goal should be intelligibility."
+      ]
+    },
+    {
+      "category": "Building the argument formally",
+      "color": "#1D9E75",
+      "items": [
+        "From the perspective of ELF research, intelligibility outweighs accent.",
+        "In view of the evidence, the curriculum requires fundamental revision.",
+        "By virtue of their multilingual background, these speakers have a clear advantage.",
+        "In light of recent research, the native speaker model needs rethinking.",
+        "Insofar as the model accounts for context, it remains useful."
+      ]
+    },
+    {
+      "category": "Expressing purpose and interest",
+      "color": "#C9933B",
+      "items": [
+        "With a view to developing intercultural competence, the curriculum was redesigned.",
+        "In the interests of equity, all language varieties deserve recognition.",
+        "For the purposes of this analysis, ELF is defined as English between non-native speakers.",
+        "With a view to improving intelligibility, the programme focuses on key features.",
+        "In the interests of learners, teachers must prioritise communicative effectiveness."
+      ]
+    },
+    {
+      "category": "Qualifying and concluding formally",
+      "color": "#1B8FC4",
+      "items": [
+        "To the extent that the objection is valid, it can be addressed by redefining success.",
+        "Insofar as the model captures real differences, it remains analytically useful.",
+        "In light of the above, it follows that language education must evolve.",
+        "In view of these considerations, a pluralistic approach is recommended.",
+        "As far as global communication is concerned, flexibility matters more than accuracy."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the context of globalisation, the question of English norms has become pressing.\" (formal framing)",
+      "opts": [
+        "From",
+        "With",
+        "In",
+        "By"
+      ],
+      "correct": "In",
+      "hint": "\"In the context of\" = within the domain/situation of",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ELF research, intelligibility is the most appropriate benchmark.\" (from the perspective of)",
+      "correct": "From the perspective of",
+      "hint": "\"From the perspective of + noun\" = as seen through a specific lens",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ this evidence, the native speaker model requires revision.\" (given this)",
+      "opts": [
+        "In view of",
+        "In view to",
+        "By view of",
+        "By virtue in"
+      ],
+      "correct": "In view of",
+      "hint": "\"In view of + noun\" = given, considering",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ developing intercultural citizens, the curriculum was redesigned.\" (with the aim of)",
+      "correct": "With a view to",
+      "hint": "\"With a view to + gerund\" = with the aim of",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The objection is valid ___ ___ ___ it challenges an overly simplified model.\" (to the degree that)",
+      "opts": [
+        "to the extent that",
+        "insofar of",
+        "to the extent to",
+        "insofar in"
+      ],
+      "correct": "to the extent that",
+      "hint": "\"To the extent that + clause\" = to the degree that",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"In the interests to equity\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"In the interests OF equity\" — always \"of\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ the above discussion, it follows that communicative effectiveness should be the primary goal.\" (given)",
+      "correct": "In light of / In view of",
+      "hint": "\"In light of / In view of + noun\" = given, taking into account",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ ___ their diverse backgrounds, these speakers navigate intercultural communication more effectively.\" (because of)",
+      "opts": [
+        "By virtue of",
+        "By virtue to",
+        "In virtue of",
+        "With virtue of"
+      ],
+      "correct": "By virtue of",
+      "hint": "\"By virtue of + noun\" = because of / on account of",
+      "points": 2
+    }
+  ]
+}

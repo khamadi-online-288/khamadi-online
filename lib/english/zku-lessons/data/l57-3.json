@@ -1,0 +1,398 @@
+{
+  "id": "l57-3",
+  "moduleNum": 23,
+  "lessonNum": 3,
+  "moduleTitle": "Linking Ideas",
+  "type": "listening",
+  "title": "A Student Debate",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Moderator",
+      "text": "Welcome to the WKU Student Debate Club. Today's motion: \"University education should be free for all students.\" Speaking for the motion: Kamila. Against: Amir. Kamila, you have the floor.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Thank you. I believe university education should be free, and I'll give you three reasons. Firstly, education is a public good. When citizens are educated, the whole society benefits. Therefore, it should be funded publicly. Furthermore, student debt is a significant burden that disproportionately affects students from low-income families. Although wealthier students can absorb this cost, poorer students often cannot. As a result, the current system reinforces inequality rather than reducing it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Thank you, Kamila. Amir?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Kamila makes some compelling points. Nevertheless, I believe free university education is not the most effective use of public funds. Firstly, university education primarily benefits the individual — graduates earn more, on average, than non-graduates. Therefore, it is reasonable to expect them to contribute to the cost. Moreover, free tuition might reduce educational quality. If universities are fully funded by the state, they have less incentive to compete for students by improving their programmes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Despite the individual benefits, higher earnings also mean higher tax contributions over a lifetime. Consequently, the state does receive a return on its investment. Furthermore, the argument that free universities lose quality ignores the evidence from countries like Germany and Norway, where university education is free and quality is high.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Even though Germany and Norway have free university systems, these are small, wealthy countries with different economic structures. Although their models work there, they may not be transferable to Kazakhstan without significant tax increases that could harm economic growth. Nevertheless, I agree that access to education should be improved. However, targeted scholarships and grants for low-income students are a more cost-effective solution.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "While targeted scholarships are useful, they are insufficient. As a result, many students from middle-income families who don't qualify for scholarships still struggle with debt. In addition, means-testing creates bureaucracy and stigma. Therefore, universal free education is a simpler and more equitable solution.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Thank you both. This has been an excellent example of structured academic debate. We'll now open the floor to questions.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "public good",
+      "emoji": "🌐",
+      "opts": [
+        "частная выгода",
+        "общественное благо",
+        "правительственный расход",
+        "налог"
+      ],
+      "correct": "общественное благо"
+    },
+    {
+      "id": "p2",
+      "word": "disproportionately",
+      "emoji": "⚖️",
+      "opts": [
+        "равно",
+        "непропорционально / непомерно",
+        "незначительно",
+        "ожидаемо"
+      ],
+      "correct": "непропорционально / непомерно"
+    },
+    {
+      "id": "p3",
+      "word": "means-testing",
+      "emoji": "📋",
+      "opts": [
+        "тестирование знаний",
+        "проверка нуждаемости",
+        "вступительный экзамен",
+        "оценка"
+      ],
+      "correct": "проверка нуждаемости"
+    },
+    {
+      "id": "p4",
+      "word": "equitable",
+      "emoji": "⚖️",
+      "opts": [
+        "неравный",
+        "справедливый / равный",
+        "дорогостоящий",
+        "нейтральный"
+      ],
+      "correct": "справедливый / равный"
+    },
+    {
+      "id": "p5",
+      "word": "bureaucracy",
+      "emoji": "📁",
+      "opts": [
+        "эффективность",
+        "бюрократия",
+        "образование",
+        "экономия"
+      ],
+      "correct": "бюрократия"
+    },
+    {
+      "id": "p6",
+      "word": "transferable",
+      "emoji": "🔄",
+      "opts": [
+        "уникальный",
+        "переносимый / применимый",
+        "бесплатный",
+        "местный"
+      ],
+      "correct": "переносимый / применимый"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila argues that education is a public good and should be publicly funded.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Amir agrees that university education should be completely free.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila says graduates pay more tax over a lifetime, which is a return on investment.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Amir says Germany and Norway prove free universities don't work.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Amir suggests targeted scholarships for low-income students as an alternative.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila says means-testing is an efficient and stigma-free solution.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "For the motion — argues for free university education using linkers"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Against the motion — argues for targeted scholarships using linkers"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Uses \"Therefore\" to argue that education being a public good means it should be publicly funded.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Uses \"Nevertheless\" to acknowledge Kamila's points while disagreeing.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Uses \"Consequently\" to argue graduates repay the state through higher taxes.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Uses \"Although\" to acknowledge the Germany/Norway model while questioning its transferability.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Uses \"While\" and \"As a result\" to argue scholarships leave middle-income students struggling.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Uses \"However\" to introduce targeted scholarships as a better alternative.",
+      "correctCharId": "amir"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila's first argument for free education?",
+      "opts": [
+        "Universities need money",
+        "Education is a public good benefiting society",
+        "Students are poor",
+        "Other countries do it"
+      ],
+      "correct": "Education is a public good benefiting society",
+      "hint": "\"Firstly, education is a public good. When citizens are educated, the whole society benefits. Therefore, it should be funded publicly.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's main counter-argument?",
+      "opts": [
+        "Education is too expensive",
+        "Graduates earn more so should contribute to cost",
+        "Universities are already free",
+        "Scholarships don't exist"
+      ],
+      "correct": "Graduates earn more so should contribute to cost",
+      "hint": "\"University education primarily benefits the individual — graduates earn more... Therefore, it is reasonable to expect them to contribute to the cost.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say about graduate tax contributions?",
+      "opts": [
+        "Graduates don't pay taxes",
+        "They pay more tax → state gets return on investment",
+        "Tax contributions don't change",
+        "Graduates avoid taxes"
+      ],
+      "correct": "They pay more tax → state gets return on investment",
+      "hint": "\"Higher earnings mean higher tax contributions... Consequently, the state does receive a return on its investment.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir question the Germany/Norway model?",
+      "opts": [
+        "Their universities are bad",
+        "They are small, wealthy countries — different from Kazakhstan",
+        "Their system is not actually free",
+        "It was tried and failed"
+      ],
+      "correct": "They are small, wealthy countries — different from Kazakhstan",
+      "hint": "\"These are small, wealthy countries with different economic structures... may not be transferable to Kazakhstan.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What alternative does Amir propose?",
+      "opts": [
+        "No financial support at all",
+        "Making all education free",
+        "Targeted scholarships and grants for low-income students",
+        "Reducing university costs by 50%"
+      ],
+      "correct": "Targeted scholarships and grants for low-income students",
+      "hint": "\"Targeted scholarships and grants for low-income students are a more cost-effective solution.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say is wrong with means-testing?",
+      "opts": [
+        "It doesn't exist",
+        "It's too expensive",
+        "It creates bureaucracy and stigma",
+        "It helps the wrong students"
+      ],
+      "correct": "It creates bureaucracy and stigma",
+      "hint": "\"Means-testing creates bureaucracy and stigma.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir completely disagrees with improving access to education.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I agree that access to education should be improved.\" — Amir agrees access matters, just disagrees on the method."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which linker does Kamila use to show a result/consequence?",
+      "opts": [
+        "Nevertheless",
+        "Although",
+        "Furthermore",
+        "Consequently"
+      ],
+      "correct": "Consequently",
+      "hint": "\"Consequently, the state does receive a return on its investment.\" — CONSEQUENTLY signals a result/consequence. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Nevertheless, I believe free education is not the best use of funds.\" \"Nevertheless\" means:",
+      "opts": [
+        "Therefore",
+        "In addition",
+        "Despite what was said — I still think this",
+        "As a result"
+      ],
+      "correct": "Despite what was said — I still think this",
+      "hint": "\"Nevertheless\" = despite what was just said; a contrast marker similar to \"however.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Furthermore, student debt disproportionately affects low-income families.\" \"Furthermore\" means:",
+      "opts": [
+        "However",
+        "Therefore",
+        "In addition to this",
+        "As a result"
+      ],
+      "correct": "In addition to this",
+      "hint": "\"Furthermore\" = moreover; in addition. It ADDS a supporting point to what came before. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Although their models work there, they may not be transferable.\" \"Although\" signals:",
+      "opts": [
+        "Addition",
+        "Result",
+        "Contrast — something is true but another thing contrasts with it",
+        "Example"
+      ],
+      "correct": "Contrast — something is true but another thing contrasts with it",
+      "hint": "\"although\" introduces a concession — it admits the first part is true while the main clause contrasts with it. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Education is a public good. ___, it should be publicly funded.\"",
+      "correct": "Therefore",
+      "hint": "\"THEREFORE\" = result/logical consequence. \"Education benefits all → THEREFORE it should be funded by all.\" ✅"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "l1-4",
+  "moduleNum": 1,
+  "lessonNum": 5,
+  "moduleTitle": "Hello, world!",
+  "title": "My profile",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "My name is...",
+      "emoji": "👤",
+      "opts": [
+        "Я учусь...",
+        "Меня зовут...",
+        "Мне нравится...",
+        "Я из..."
+      ],
+      "correct": "Меня зовут..."
+    },
+    {
+      "id": "p2",
+      "word": "I am from...",
+      "emoji": "📍",
+      "opts": [
+        "Я учусь в...",
+        "Меня зовут...",
+        "Я из...",
+        "Мой предмет..."
+      ],
+      "correct": "Я из..."
+    },
+    {
+      "id": "p3",
+      "word": "My favourite subject...",
+      "emoji": "📚",
+      "opts": [
+        "Моя цель...",
+        "Мой любимый предмет...",
+        "Мой друг...",
+        "Я хочу..."
+      ],
+      "correct": "Мой любимый предмет..."
+    },
+    {
+      "id": "p4",
+      "word": "My dream is to...",
+      "emoji": "💭",
+      "opts": [
+        "Меня зовут...",
+        "Я учусь в...",
+        "Моя мечта...",
+        "Мой сосед..."
+      ],
+      "correct": "Моя мечта..."
+    },
+    {
+      "id": "p5",
+      "word": "I study at...",
+      "emoji": "🏫",
+      "opts": [
+        "Я из...",
+        "Мой предмет...",
+        "Я учусь в...",
+        "Я хочу стать..."
+      ],
+      "correct": "Я учусь в..."
+    },
+    {
+      "id": "p6",
+      "word": "My goal is to...",
+      "emoji": "🎯",
+      "opts": [
+        "Моя цель...",
+        "Меня зовут...",
+        "Я из...",
+        "Мой друг..."
+      ],
+      "correct": "Моя цель..."
+    }
+  ],
+  "writingModel": [
+    "Hello! My name is Aizhan Bekova. I am 18 years old and I am from Aktobe, Kazakhstan.",
+    "I study at West Kazakhstan University named after Makhambет Utemisov (WKU) in Uralsk. I am a first-year student in Group 101. There are 20 students in my group.",
+    "My favourite subjects are English and Computer Science. English is important for my future career. Mathematics is difficult for me, but I study hard every day.",
+    "My best friend at university is Dias Serik. He is 19 years old and he is from Shymkent. He is intelligent, funny, and very creative. His dream is to become a software engineer.",
+    "My main goal this year is to improve my English and to pass all my exams. I am very happy and proud to be a WKU student. University is an amazing adventure!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "name",
+      "prefix": "My name is ",
+      "suffix": ".",
+      "placeholder": "your full name",
+      "hint": "e.g. Aigerim Bekova"
+    },
+    {
+      "key": "age",
+      "prefix": "I am ",
+      "suffix": " years old.",
+      "placeholder": "your age",
+      "hint": "e.g. 18"
+    },
+    {
+      "key": "city",
+      "prefix": "I am from ",
+      "suffix": ", Kazakhstan.",
+      "placeholder": "your city",
+      "hint": "e.g. Almaty"
+    },
+    {
+      "key": "uni",
+      "prefix": "I study at ",
+      "suffix": ".",
+      "placeholder": "your university",
+      "hint": "e.g. WKU, Uralsk"
+    },
+    {
+      "key": "group",
+      "prefix": "I am in ",
+      "suffix": ".",
+      "placeholder": "your group",
+      "hint": "e.g. Group 101"
+    },
+    {
+      "key": "subject",
+      "prefix": "My favourite subject is ",
+      "suffix": ".",
+      "placeholder": "your favourite subject",
+      "hint": "e.g. English"
+    },
+    {
+      "key": "friend",
+      "prefix": "My best friend is ",
+      "suffix": ". We are classmates.",
+      "placeholder": "your friend's name",
+      "hint": "e.g. Zarina"
+    },
+    {
+      "key": "dream",
+      "prefix": "My dream is to ",
+      "suffix": ".",
+      "placeholder": "your dream",
+      "hint": "e.g. become a doctor"
+    },
+    {
+      "key": "goal",
+      "prefix": "My goal this year is to ",
+      "suffix": " and to make new friends.",
+      "placeholder": "your goal",
+      "hint": "e.g. improve my English"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing yourself",
+      "color": "#003876",
+      "items": [
+        "My name is...",
+        "I am ... years old.",
+        "I am from ...",
+        "I study at ...",
+        "I am a first-year student."
+      ]
+    },
+    {
+      "category": "Describing studies",
+      "color": "#1B8FC4",
+      "items": [
+        "My favourite subject is...",
+        "I am good at...",
+        "... is difficult for me.",
+        "I study hard every day.",
+        "Classes start at 8:30."
+      ]
+    },
+    {
+      "category": "Describing people",
+      "color": "#7C3AED",
+      "items": [
+        "My best friend is...",
+        "He / She is ... years old.",
+        "He / She is from...",
+        "He / She is tall / funny / smart.",
+        "We are classmates."
+      ]
+    },
+    {
+      "category": "Goals & dreams",
+      "color": "#1D9E75",
+      "items": [
+        "My dream is to...",
+        "My goal is to...",
+        "I want to become a...",
+        "I want to improve my English.",
+        "I am ready for this challenge!"
+      ]
+    }
+  ]
+}

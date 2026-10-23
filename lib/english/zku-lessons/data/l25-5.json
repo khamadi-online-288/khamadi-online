@@ -1,0 +1,107 @@
+{
+  "id": "l25-5",
+  "moduleNum": 9,
+  "lessonNum": 6,
+  "moduleTitle": "Have you ever…?",
+  "title": "Writing: 5 Things I Have (Never) Done",
+  "type": "writing",
+  "xp": 40,
+  "duration": 22,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "writingModel": [
+    "I have had many interesting experiences in my life, but there are still plenty of things I want to try. Here are five things I have done and five things I have never done yet.",
+    "I have been to the Charyn Canyon in southeastern Kazakhstan. I went there last summer with my cousin. The red rocks were absolutely breathtaking. I have also performed in front of an audience — I sang at my school graduation concert in 2022. It was terrifying but also the most exciting thing I had ever done at that point.",
+    "I have learned to cook three traditional Kazakh dishes: beshbarmak, samsa, and plov. My grandmother taught me. I have never managed to make them as well as she does, but I keep trying! I have also studied French for six months. I haven't become fluent yet, but I can hold a basic conversation.",
+    "As for things I have never done: I have never been abroad. I've applied for an exchange programme, but I haven't been accepted yet. I have also never learned to drive — I keep planning to start lessons, but I haven't booked them yet. I have never tried sushi, even though my friends say it's delicious.",
+    "But every item on this list is a future adventure. I have already started planning which ones to try first. The world is full of experiences waiting to be discovered."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Write your introduction (what you have/haven't done — general statement)...",
+      "hint": "Use: \"I have had... but there are still... Here are...\""
+    },
+    {
+      "key": "done1",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe 2-3 things you HAVE done (use Present Perfect + add details in Past Simple)...",
+      "hint": "\"I have been to... I went there in... It was...\""
+    },
+    {
+      "key": "never",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe 2-3 things you have NEVER done (use never / haven't... yet)...",
+      "hint": "\"I have never... / I haven't... yet. I keep planning but...\""
+    },
+    {
+      "key": "close",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Write your closing sentence (future plans, positive attitude)...",
+      "hint": "\"Every item is a future adventure. I have already planned...\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Positive experiences",
+      "color": "#003876",
+      "items": [
+        "I have been to...",
+        "I have tried...",
+        "I have learned to...",
+        "I have performed / competed in...",
+        "I have already + past participle"
+      ]
+    },
+    {
+      "category": "Negative experiences",
+      "color": "#DB2777",
+      "items": [
+        "I have never...",
+        "I haven't... yet",
+        "I still haven't...",
+        "I have never had the chance to..."
+      ]
+    },
+    {
+      "category": "Adding details (Past Simple)",
+      "color": "#16A34A",
+      "items": [
+        "I went there last summer.",
+        "It happened in [year].",
+        "At the time, I felt...",
+        "When I did it, I..."
+      ]
+    },
+    {
+      "category": "Closing / future",
+      "color": "#C9933B",
+      "items": [
+        "Every item is a future adventure.",
+        "I hope to try... someday.",
+        "I have already planned...",
+        "The world is full of experiences waiting to be discovered."
+      ]
+    }
+  ]
+}

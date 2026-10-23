@@ -1,0 +1,438 @@
+{
+  "id": "l64-3",
+  "moduleNum": 6,
+  "lessonNum": 3,
+  "moduleTitle": "Present Perfect: Simple vs Continuous",
+  "type": "listening",
+  "title": "Catching Up: A Conversation About Life, Work and Progress",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Daniyar",
+      "text": "Kamila! I haven't seen you for ages. How's everything?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good — busy. I've been working on my thesis since September. It's been taking over my life.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "What's it about?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Language and identity in Kazakhstani higher education. I've interviewed twelve students so far.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That sounds fascinating. Have you found anything surprising?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes — I've discovered that students switch languages mid-sentence much more than I expected. I've been analysing the patterns.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "I've noticed that myself. I've been doing it since I started at WKU.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Exactly. And I've found that the patterns aren't random — they depend on the topic and the relationship between speakers.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Have you written anything yet? Or is it all still in the analysis phase?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I've written the introduction and the methodology. But I've been struggling with the findings chapter — it keeps growing.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "How many words have you written overall?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "About 8,000. But I've rewritten about 3,000 of those. And I've been reading so much that my desk is buried in papers.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "You've made good progress though. How long have you been working on it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Six months. It feels like six years.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "What about you — how has your year been?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good question. I've been learning a lot. And I've finally started to enjoy the process — which I haven't always done.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "thesis",
+      "emoji": "📄",
+      "opts": [
+        "экзаменационная работа",
+        "диссертация / научная работа",
+        "курсовая",
+        "реферат"
+      ],
+      "correct": "диссертация / научная работа"
+    },
+    {
+      "id": "p2",
+      "word": "code-switch",
+      "emoji": "🔄",
+      "opts": [
+        "переключать компьютер",
+        "переключаться между языками",
+        "переводить",
+        "изучать"
+      ],
+      "correct": "переключаться между языками"
+    },
+    {
+      "id": "p3",
+      "word": "findings",
+      "emoji": "📊",
+      "opts": [
+        "данные",
+        "результаты / выводы",
+        "методология",
+        "вопросы"
+      ],
+      "correct": "результаты / выводы"
+    },
+    {
+      "id": "p4",
+      "word": "methodology",
+      "emoji": "🔬",
+      "opts": [
+        "заключение",
+        "методология",
+        "введение",
+        "список литературы"
+      ],
+      "correct": "методология"
+    },
+    {
+      "id": "p5",
+      "word": "analysis",
+      "emoji": "🔍",
+      "opts": [
+        "создание",
+        "анализ",
+        "написание",
+        "сбор данных"
+      ],
+      "correct": "анализ"
+    },
+    {
+      "id": "p6",
+      "word": "patterns",
+      "emoji": "📈",
+      "opts": [
+        "случайности",
+        "закономерности",
+        "исключения",
+        "правила"
+      ],
+      "correct": "закономерности"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila has been working on her thesis since September.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila has interviewed six students for her research.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila has discovered that language switching patterns are random.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Kamila has written approximately 8,000 words overall.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila has been working on the thesis for six months.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila says she has always enjoyed the process of academic research.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Thesis writer — naturally uses both PPS (achievements) and PPC (ongoing work) throughout"
+    },
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "⚖️",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Law student — catches up with Kamila; asks natural perfect tense questions"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been working on the thesis since September — it has been taking over her life.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Has interviewed twelve students so far and discovered unexpected code-switching patterns.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Has written the introduction and methodology but has been struggling with the findings chapter.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Has written about 8,000 words and rewritten about 3,000 of those.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Has been doing code-switching since starting at WKU.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s6",
+      "text": "Says she has finally started to enjoy the process — which she hasn't always done.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long has Kamila been working on her thesis?",
+      "opts": [
+        "Three months",
+        "Since January",
+        "Since September",
+        "Six years"
+      ],
+      "correct": "Since September",
+      "hint": "\"I've been working on my thesis since September.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many students has Kamila interviewed?",
+      "opts": [
+        "Six",
+        "Ten",
+        "Twelve",
+        "Twenty"
+      ],
+      "correct": "Twelve",
+      "hint": "\"I've interviewed twelve students so far.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Kamila discovered about code-switching?",
+      "opts": [
+        "It's random",
+        "It doesn't happen",
+        "The patterns depend on topic and speaker relationship",
+        "Only formal speakers do it"
+      ],
+      "correct": "The patterns depend on topic and speaker relationship",
+      "hint": "\"The patterns aren't random — they depend on the topic and the relationship between speakers.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which part of the thesis is Kamila struggling with?",
+      "opts": [
+        "The introduction",
+        "The methodology",
+        "The findings chapter",
+        "The conclusion"
+      ],
+      "correct": "The findings chapter",
+      "hint": "\"I've been struggling with the findings chapter — it keeps growing.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many words has Kamila written overall?",
+      "opts": [
+        "3,000",
+        "5,000",
+        "8,000",
+        "12,000"
+      ],
+      "correct": "8,000",
+      "hint": "\"About 8,000. But I've rewritten about 3,000 of those.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say about enjoying the research process?",
+      "opts": [
+        "She has always enjoyed it",
+        "She has never enjoyed it",
+        "She has finally started to enjoy it — but hasn't always",
+        "She enjoys data collection but not writing"
+      ],
+      "correct": "She has finally started to enjoy it — but hasn't always",
+      "hint": "\"I've finally started to enjoy the process — which I haven't always done.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar says he has not noticed himself code-switching.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I've noticed that myself. I've been doing it since I started at WKU.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Count the perfect tenses in: \"I've written the introduction and the methodology. But I've been struggling.\"",
+      "opts": [
+        "One PPS, zero PPC",
+        "Two PPS",
+        "One PPS, one PPC",
+        "Zero PPS, two PPC"
+      ],
+      "correct": "One PPS, one PPC",
+      "hint": "\"I've written\" (PPS — completed) + \"I've been struggling\" (PPC — ongoing). ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been working on my thesis since September.\" — PPC because:",
+      "opts": [
+        "Work is stative",
+        "The thesis is finished",
+        "The work started in the past and is still ongoing",
+        "\"Since\" requires PPC"
+      ],
+      "correct": "The work started in the past and is still ongoing",
+      "hint": "PPC + since = duration of ongoing activity from starting point. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've interviewed twelve students.\" — PPS because:",
+      "opts": [
+        "It's a recent event",
+        "It counts completed actions (achievements)",
+        "Interviewing is stative",
+        "\"Twelve\" requires PPS"
+      ],
+      "correct": "It counts completed actions (achievements)",
+      "hint": "PPS for counting completions: TWELVE students — each one is a completed interview. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've discovered that patterns aren't random.\" — PPS because:",
+      "opts": [
+        "Discovery is ongoing",
+        "It's a completed finding — a result with present relevance",
+        "It uses \"that\"",
+        "Discovery is stative"
+      ],
+      "correct": "It's a completed finding — a result with present relevance",
+      "hint": "PPS for completed findings: \"discovered\" = complete action with a result now. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"How long ___ (you / work) on it?\" — response: \"Six months.\"",
+      "correct": "have you been working",
+      "hint": "\"How long\" + duration → PPC. \"How long HAVE YOU BEEN WORKING on it?\" ✅"
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "id": "l5-6",
+  "moduleNum": 5,
+  "lessonNum": 7,
+  "moduleTitle": "I can / I can't",
+  "title": "Module 5 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Arlan Bekov from?",
+      "opts": [
+        "Almaty",
+        "Shymkent",
+        "Astana",
+        "Aktobe"
+      ],
+      "correct": "Astana",
+      "hint": "\"I am 19 years old and I am from Astana, the capital of Kazakhstan.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Arlan can cook well — he learned from his mother.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I cannot cook at all — I always burn the food or forget to add salt.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What age was Arlan when he became the city chess champion?",
+      "opts": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correct": "16",
+      "hint": "\"I was the Under-18 city champion in Astana when I was 16 years old.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Malika can draw and paint. Three of her ___ are displayed in the WKU Art Gallery.",
+      "correct": "paintings",
+      "hint": "\"Three of them are displayed in the WKU Art Gallery!\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which of these can Malika do?",
+      "opts": [
+        "Code in Python",
+        "Play chess",
+        "Sing and dance",
+        "Speak five languages"
+      ],
+      "correct": "Sing and dance",
+      "hint": "\"I can sing... I can also dance — I know traditional Kazakh dances and modern hip-hop.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Malika can speak English very fluently.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"My English is not very strong yet — I can understand a lot, but I cannot speak very fluently.\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many languages can Ainur speak?",
+      "opts": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correct": "Five",
+      "hint": "\"Ainur from Astana can speak five languages: Kazakh, Russian, English, Chinese, and Korean!\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What do Arlan and Malika agree to teach each other?",
+      "opts": [
+        "Arlan teaches coding, Malika teaches drawing",
+        "Arlan teaches chess, Malika teaches cooking",
+        "Arlan teaches languages, Malika teaches singing",
+        "Arlan teaches maths, Malika teaches dancing"
+      ],
+      "correct": "Arlan teaches chess, Malika teaches cooking",
+      "hint": "\"Arlan will teach Malika chess, and Malika will teach Arlan how to cook a proper meal.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Arlan need help with in \"Can you help me?\"",
+      "opts": [
+        "His English essay",
+        "His maths homework",
+        "The design of his CS presentation slides",
+        "His chess tournament preparation"
+      ],
+      "correct": "The design of his CS presentation slides",
+      "hint": "\"I need to design the slides for my CS presentation. But I can't draw at all!\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Malika can use Canva to create designs.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I can also use Canva — can you?\" — Malika."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Malika ask Arlan to help her with?",
+      "opts": [
+        "Her English translation",
+        "Her Economics maths homework",
+        "Her chess practice",
+        "Her singing performance"
+      ],
+      "correct": "Her Economics maths homework",
+      "hint": "\"Can you help me too? I can't understand my Economics maths homework.\" — Malika."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Bekzat tried to play ___ once but said it was terrible.",
+      "correct": "guitar",
+      "hint": "\"I tried guitar once — terrible!\" — Bekzat in \"Talents and skills\"."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Ainur can dance very well.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I can't dance. I have two left feet!\" — Ainur."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What do Bekzat and Ainur decide to do at the end of their conversation?",
+      "opts": [
+        "Start a cooking club",
+        "Join the swimming team",
+        "Join the dance club",
+        "Take language classes together"
+      ],
+      "correct": "Join the dance club",
+      "hint": "\"We should join the dance club — then we CAN dance by the end of the year.\" — Ainur."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Ainur ___ speak five languages fluently.",
+      "opts": [
+        "cans",
+        "is can",
+        "can to",
+        "can"
+      ],
+      "correct": "can",
+      "hint": "CAN never changes for any subject — no -s, no \"to\". \"Ainur can speak.\""
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Bekzat cans play football brilliantly\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "CAN never gets -s! \"Bekzat can play football brilliantly.\" — always \"can\", never \"cans\"."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "___ Malika sing? — Yes, she can!",
+      "correct": "Can",
+      "hint": "Questions with can: Can + subject + base verb? → \"Can Malika sing?\""
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is 100% correct?",
+      "opts": [
+        "Arlan can to code in Python.",
+        "She can sings very well.",
+        "They can't play any instrument.",
+        "He can dancing hip-hop."
+      ],
+      "correct": "They can't play any instrument.",
+      "hint": "can't + base form ✅. Others: no 'to', no -s, no -ing after can/can't."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Arlan doesn't have a driving licence. He ___ drive.",
+      "opts": [
+        "can't to",
+        "cants",
+        "can't",
+        "don't can"
+      ],
+      "correct": "can't",
+      "hint": "can't + base form. All subjects use can't — no exceptions."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Can she to dance?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "No \"to\" after can in questions! \"Can she dance?\" — base form directly."
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "When Bekzat was younger, he ___ run even faster than now.",
+      "correct": "could",
+      "hint": "Past ability → could. \"When I was younger, I could run faster.\""
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Can Arlan speak Kazakh?\" — Choose the correct short answer.",
+      "opts": [
+        "Yes, he can speak.",
+        "Yes, he can Kazakh.",
+        "Yes, he can.",
+        "Yes, he cans."
+      ],
+      "correct": "Yes, he can.",
+      "hint": "Short answer: Yes, + subject + can. Never repeat the verb. \"Yes, he can.\""
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"talent\" mean?",
+      "opts": [
+        "a skill learned through years of hard training",
+        "a natural ability to do something well without being taught",
+        "a competition prize",
+        "a type of musical instrument"
+      ],
+      "correct": "a natural ability to do something well without being taught",
+      "hint": "Talent = талант — something you are naturally good at, not learned. \"Malika has a real talent for singing.\""
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Malika won second place at a regional singing ___.",
+      "correct": "competition",
+      "hint": "Competition = соревнование — an event where people try to win by being the best."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"brilliant\" describe?",
+      "opts": [
+        "something very bright in colour",
+        "extremely clever, impressive, or skilled",
+        "something very heavy",
+        "someone who is shy and quiet"
+      ],
+      "correct": "extremely clever, impressive, or skilled",
+      "hint": "\"Brilliant\" = блестящий. \"Bekzat can play football brilliantly — 30 goals last season!\""
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "A \"beginner\" is someone who is already an expert at something.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Beginner = начинающий — someone who is just starting to learn. The opposite of expert."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"encourage\" mean?",
+      "opts": [
+        "to criticise someone's work",
+        "to give someone confidence or support to do something",
+        "to compete against someone",
+        "to teach someone a new skill"
+      ],
+      "correct": "to give someone confidence or support to do something",
+      "hint": "\"Together we can do anything!\" — Malika encourages Arlan."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Arlan was the city ___ in chess in Astana when he was 16.",
+      "correct": "champion",
+      "hint": "Champion = чемпион — the winner of a competition. \"Arlan was the city champion.\""
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"unique\" mean?",
+      "opts": [
+        "very common and ordinary",
+        "being the only one of its kind; unlike anything else",
+        "very difficult to understand",
+        "very expensive"
+      ],
+      "correct": "being the only one of its kind; unlike anything else",
+      "hint": "\"Every WKU student has a unique mix of skills and talents.\" — unique = уникальный."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"develop\" mean?",
+      "opts": [
+        "to forget a skill over time",
+        "to copy someone else's ability",
+        "to grow or cause something to grow stronger over time",
+        "to compete in a competition"
+      ],
+      "correct": "to grow or cause something to grow stronger over time",
+      "hint": "\"I am excited to develop new skills at WKU this year.\" — develop = развивать."
+    }
+  ]
+}

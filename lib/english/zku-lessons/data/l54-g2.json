@@ -1,0 +1,554 @@
+{
+  "id": "l54-g2",
+  "moduleNum": 20,
+  "lessonNum": 5,
+  "moduleTitle": "Work & Career",
+  "type": "grammar",
+  "title": "Work & Career Collocations",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Work & Career Collocations — Words That Go Together",
+  "grammarNote": "В профессиональном английском языке существуют устойчивые словосочетания (collocations), которые нельзя заменять синонимами. \"Apply FOR a job\" — нельзя говорить \"apply to a job.\" \"Make progress\" — нельзя говорить \"do progress.\" Эти сочетания нужно запомнить как единицы.",
+  "grammarTable": [
+    {
+      "subject": "apply for",
+      "verb": "apply for a job / position / scholarship",
+      "short": "подавать заявку",
+      "example": "\"I applied for three internships this week.\" / \"She applied for the scholarship.\""
+    },
+    {
+      "subject": "get / receive",
+      "verb": "get a promotion / raise / qualification",
+      "short": "получать",
+      "example": "\"He got a promotion last year.\" / \"She received a pay raise.\""
+    },
+    {
+      "subject": "make",
+      "verb": "make progress / a decision / a mistake",
+      "short": "делать",
+      "example": "\"She's been making progress.\" / \"I made a mistake — I'll fix it.\""
+    },
+    {
+      "subject": "take",
+      "verb": "take responsibility / a break / notes",
+      "short": "брать/принимать",
+      "example": "\"He takes responsibility for his team.\" / \"Take a break at 1 pm.\""
+    },
+    {
+      "subject": "do",
+      "verb": "do research / an internship / overtime",
+      "short": "делать/проходить",
+      "example": "\"She's doing an internship at DataBridge.\" / \"He does research in AI.\""
+    },
+    {
+      "subject": "have",
+      "verb": "have experience / a meeting / an impact",
+      "short": "иметь/проводить",
+      "example": "\"Do you have experience with Python?\" / \"We're having a meeting at 3.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Apply, get, find — job-seeking collocations",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "apply FOR a job/position/role",
+          "example": "\"I applied FOR a software engineer position.\" ✅ NOT \"apply to\" or \"apply a job.\""
+        },
+        {
+          "form": "get a job / an offer / a promotion",
+          "example": "\"She got a job at DataBridge.\" / \"Did you get the offer?\" ✅"
+        },
+        {
+          "form": "find a job / work",
+          "example": "\"It's hard to find a job after graduation.\" ✅ \"Find\" collocates with \"job\" naturally."
+        },
+        {
+          "form": "land a job (informal)",
+          "example": "\"She landed a great job at a tech startup!\" ✅ (informal = get a desirable job)"
+        }
+      ]
+    },
+    {
+      "title": "Make, do, take — common work collocations",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "make: progress / a decision / a mistake / money / time",
+          "example": "\"MAKE progress.\" / \"MAKE a decision.\" / \"MAKE a mistake.\" / \"MAKE money.\" ✅"
+        },
+        {
+          "form": "do: research / overtime / an internship / a course",
+          "example": "\"DO research.\" / \"DO overtime.\" / \"DO an internship.\" / \"DO a course.\" ✅"
+        },
+        {
+          "form": "take: responsibility / a break / notes / action",
+          "example": "\"TAKE responsibility.\" / \"TAKE a break.\" / \"TAKE notes.\" / \"TAKE action.\" ✅"
+        },
+        {
+          "form": "✗ Common confusions",
+          "example": "✗ \"do progress\" → ✅ \"make progress.\" ✗ \"make research\" → ✅ \"do research.\" ✗ \"take a mistake\" → ✅ \"make a mistake.\""
+        }
+      ]
+    },
+    {
+      "title": "Have, gain, develop — experience collocations",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "have experience in/with",
+          "example": "\"Do you have experience WITH Python?\" / \"She has experience IN project management.\" ✅"
+        },
+        {
+          "form": "gain experience",
+          "example": "\"I'm doing an internship to gain experience.\" ✅ (acquire experience)"
+        },
+        {
+          "form": "build skills / expertise",
+          "example": "\"She's been building her skills in machine learning.\" ✅ (gradually develop)"
+        },
+        {
+          "form": "develop skills / abilities",
+          "example": "\"He's been developing his communication skills.\" ✅ (grow and improve)"
+        }
+      ]
+    },
+    {
+      "title": "Career progression collocations",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "get / receive a promotion",
+          "example": "\"She got a promotion to Senior Engineer after two years.\" ✅"
+        },
+        {
+          "form": "get / receive a pay raise",
+          "example": "\"He asked for a pay raise and received one.\" ✅"
+        },
+        {
+          "form": "climb the career ladder",
+          "example": "\"She's been climbing the career ladder quickly.\" ✅ (getting more senior positions)"
+        },
+        {
+          "form": "resign from / quit a job",
+          "example": "\"She resigned from her position.\" / \"He quit his job.\" ✅"
+        },
+        {
+          "form": "be made redundant",
+          "example": "\"He was made redundant when the company downsized.\" ✅ (lost job due to company cuts)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Work & Career collocations — не путай:\n\nAPPLY FOR (не to, не a):\n\"Apply FOR a job / scholarship\" ✅\n\nMAKE: progress / a decision / a mistake / money\nDO: research / overtime / an internship / a course\nTAKE: responsibility / a break / notes / action\n\n⚠️ Ловушки:\n✗ \"do progress\" → ✅ \"make progress\"\n✗ \"make research\" → ✅ \"do research\"\n✗ \"take a mistake\" → ✅ \"make a mistake\"\n✗ \"apply to a job\" → ✅ \"apply FOR a job\"\n\nПоследовательность карьеры:\nget a job → gain experience → make progress\n→ get a promotion → climb the career ladder",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "She ___ a job at DataBridge Solutions after her internship.",
+      "opts": [
+        "made",
+        "did",
+        "got",
+        "applied"
+      ],
+      "correct": "got",
+      "hint": "\"GET a job.\" ✅ Not \"make a job\" or \"do a job.\" You get / find / land a job."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "I ___ for three internships this month. I'm waiting to hear back.",
+      "opts": [
+        "applied",
+        "made",
+        "did",
+        "got"
+      ],
+      "correct": "applied",
+      "hint": "\"APPLY FOR an internship/job.\" ✅ You apply for positions."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Make or Do?",
+      "text": "She's been ___ a lot of progress since she started the course.",
+      "opts": [
+        "doing",
+        "making",
+        "having",
+        "taking"
+      ],
+      "correct": "making",
+      "hint": "\"MAKE progress.\" ✅ Never \"do progress.\""
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Make or Do?",
+      "text": "He's ___ an internship at the Ministry of Education this summer.",
+      "opts": [
+        "making",
+        "doing",
+        "having",
+        "getting"
+      ],
+      "correct": "doing",
+      "hint": "\"DO an internship.\" ✅ Also: \"do a course / do overtime / do research.\""
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Make, Do, or Take?",
+      "text": "In meetings, I always ___ notes so I don't forget anything.",
+      "opts": [
+        "make",
+        "do",
+        "take",
+        "get"
+      ],
+      "correct": "take",
+      "hint": "\"TAKE notes.\" ✅ Also: \"take a break / take responsibility / take action.\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct word.",
+      "text": "\"She's been ___ experience in project management over the past year.\"",
+      "correct": "gaining",
+      "hint": "\"GAIN experience.\" ✅ = acquire or develop. \"She's been GAINING experience.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Do you have experience ___ Python and machine learning?",
+      "opts": [
+        "for",
+        "in",
+        "with",
+        "at"
+      ],
+      "correct": "with",
+      "hint": "\"have experience WITH [tool/skill].\" ✅ \"Have experience WITH Python.\" OR \"experience IN [field].\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Correct the collocation error.",
+      "text": "\"She did a big mistake in the report.\" — What is wrong?",
+      "opts": [
+        "Nothing — \"did a mistake\" is correct",
+        "\"did\" should be \"made\" — \"make a mistake\"",
+        "\"big\" should be \"serious\"",
+        "\"in\" should be \"on\""
+      ],
+      "correct": "\"did\" should be \"made\" — \"make a mistake\"",
+      "hint": "✅ \"She MADE a big mistake.\" — \"make a mistake.\" NEVER \"do a mistake.\""
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "After five years, she finally ___ a promotion to Senior Manager.",
+      "opts": [
+        "did",
+        "made",
+        "got",
+        "took"
+      ],
+      "correct": "got",
+      "hint": "\"GET a promotion.\" ✅ Also: \"receive a promotion.\" NOT \"make\" or \"do\" a promotion."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct collocation.",
+      "text": "He needs to ___ responsibility for the project outcomes.",
+      "opts": [
+        "make",
+        "do",
+        "take",
+        "get"
+      ],
+      "correct": "take",
+      "hint": "\"TAKE responsibility.\" ✅ Also: \"take notes / take a break / take action.\""
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the correct collocation verb.",
+      "text": "\"She ___ research into renewable energy for her thesis.\"",
+      "correct": "did",
+      "hint": "\"DO research.\" ✅ Also: \"do overtime / do a course / do an internship.\" NEVER \"make research.\""
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct phrase.",
+      "text": "\"She left her job last month.\" — Formal equivalent:",
+      "opts": [
+        "\"She quit her job.\"",
+        "\"She resigned from her position.\"",
+        "\"She stopped working.\"",
+        "\"She made her job.\""
+      ],
+      "correct": "\"She resigned from her position.\"",
+      "hint": "\"RESIGN FROM a position/job.\" ✅ Formal equivalent of \"quit.\" \"She RESIGNED FROM her position.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She applied ___ a senior position.\" Correct preposition:",
+      "opts": [
+        "to",
+        "for",
+        "at",
+        "in"
+      ],
+      "correct": "for",
+      "hint": "\"apply FOR a job/position.\" ✅ Always \"apply FOR\" — never \"apply to\" or \"apply a job.\""
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ a lot of progress this year.\" Choose.",
+      "opts": [
+        "did",
+        "made",
+        "took",
+        "got"
+      ],
+      "correct": "made",
+      "hint": "\"MAKE progress.\" ✅ Never \"do progress.\""
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's ___ an internship at a tech firm.\" Choose.",
+      "opts": [
+        "making",
+        "doing",
+        "taking",
+        "getting"
+      ],
+      "correct": "doing",
+      "hint": "\"DO an internship.\" ✅ Also: do research / do overtime / do a course."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ notes in every meeting.\" Correct verb:",
+      "opts": [
+        "Make",
+        "Do",
+        "Take",
+        "Have"
+      ],
+      "correct": "Take",
+      "hint": "\"TAKE notes.\" ✅ Also: \"take a break / take responsibility / take action.\""
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You need to ___ responsibility for your decisions.\" (accept it)",
+      "correct": "take",
+      "hint": "\"TAKE responsibility.\" ✅ Always \"take\" with \"responsibility.\""
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He got a ___ after two years of excellent performance.\"",
+      "opts": [
+        "progress",
+        "promotion",
+        "responsibility",
+        "course"
+      ],
+      "correct": "promotion",
+      "hint": "\"GET a promotion.\" ✅ = move to a higher position."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She made a mistake.\" — Which verb is WRONG with \"mistake\"?",
+      "opts": [
+        "made",
+        "did (= wrong)",
+        "has made",
+        "was making"
+      ],
+      "correct": "did (= wrong)",
+      "hint": "✅ \"MAKE a mistake.\" NEVER \"DO a mistake.\" The verb is always \"make\" with \"mistake.\""
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Do you have experience ___ Python?\" Correct preposition:",
+      "opts": [
+        "in",
+        "for",
+        "with",
+        "at"
+      ],
+      "correct": "with",
+      "hint": "\"experience WITH [tool/technology].\" ✅ \"Have experience WITH Python.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been ___ her leadership skills.\" (building gradually)",
+      "opts": [
+        "doing",
+        "making",
+        "developing",
+        "taking"
+      ],
+      "correct": "developing",
+      "hint": "\"DEVELOP skills.\" ✅ = grow and improve over time. Also: \"build skills.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I applied ___ the scholarship and got it!\" (preposition)",
+      "correct": "for",
+      "hint": "\"apply FOR a scholarship / job / position.\" ✅ Always \"FOR.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She does ___ every week to finish the project.\"",
+      "opts": [
+        "progress",
+        "overtime",
+        "a promotion",
+        "a mistake"
+      ],
+      "correct": "overtime",
+      "hint": "\"DO overtime.\" ✅ = work extra hours beyond normal time. \"She does overtime every week.\""
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's been ___ experience as a team leader.\" (gaining it)",
+      "opts": [
+        "making",
+        "doing",
+        "gaining",
+        "taking"
+      ],
+      "correct": "gaining",
+      "hint": "\"GAIN experience.\" ✅ = gradually acquire/develop experience."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He resigned ___ his position last month.\"",
+      "opts": [
+        "from",
+        "of",
+        "in",
+        "to"
+      ],
+      "correct": "from",
+      "hint": "\"resign FROM a position/job.\" ✅ \"He RESIGNED FROM his position.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ a big mistake in the report.\" Choose correctly.",
+      "opts": [
+        "did",
+        "made",
+        "took",
+        "had"
+      ],
+      "correct": "made",
+      "hint": "\"MAKE a mistake.\" ✅ Always \"make\" — never \"do a mistake.\""
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Do you have experience ___ project management?\"",
+      "opts": [
+        "with",
+        "in",
+        "both with and in are correct",
+        "for"
+      ],
+      "correct": "both with and in are correct",
+      "hint": "\"experience IN project management\" (field) ✅ / \"experience WITH project management tools\" (specific). Both patterns work! ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "\"She did progress.\"",
+        "\"He made research.\"",
+        "\"She applied for the internship.\"",
+        "\"He took a mistake.\""
+      ],
+      "correct": "\"She applied for the internship.\"",
+      "hint": "\"applied FOR the internship.\" ✅ Others: \"made progress\" ✅, \"did research\" ✅, \"made a mistake\" ✅."
+    }
+  ]
+}

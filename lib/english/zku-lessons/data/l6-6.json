@@ -1,0 +1,431 @@
+{
+  "id": "l6-6",
+  "moduleNum": 6,
+  "lessonNum": 7,
+  "moduleTitle": "My hobbies",
+  "title": "Module 6 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Samal Nurova's favourite hobby?",
+      "opts": [
+        "Hiking",
+        "Cooking",
+        "Photography",
+        "Playing guitar"
+      ],
+      "correct": "Photography",
+      "hint": "\"My absolute favourite hobby is photography. I take photos every single day.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Samal bought her Canon camera with her own money.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"My father gave it to me as a birthday present when I was 16.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many Instagram followers does Samal have?",
+      "opts": [
+        "More than 800",
+        "More than 1,000",
+        "More than 1,400",
+        "More than 2,000"
+      ],
+      "correct": "More than 1,400",
+      "hint": "\"I currently have more than 1,400 followers — mostly students from WKU.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Samal's biggest dream is to organise a solo photo ___ at WKU called \"WKU Through My Eyes\".",
+      "correct": "exhibition",
+      "hint": "\"My biggest dream is to organise a solo photo exhibition at WKU before I graduate.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Aibek Dosov from, and what does he study?",
+      "opts": [
+        "Karaganda, Psychology",
+        "Astana, History",
+        "Pavlodar, History",
+        "Shymkent, Economics"
+      ],
+      "correct": "Pavlodar, History",
+      "hint": "\"My name is Aibek Dosov. I am from Pavlodar. I study History at WKU.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Zarina uses a recipe book when she makes beshbarmak.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"She knows how to make beshbarmak, baursaks, and manty from memory — without a recipe!\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Bekzat do every morning before breakfast?",
+      "opts": [
+        "He codes for one hour.",
+        "He runs five kilometres.",
+        "He reads a book.",
+        "He plays guitar."
+      ],
+      "correct": "He runs five kilometres.",
+      "hint": "\"He wakes up early to run five kilometres before breakfast.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many times a week does Ainur visit the WKU library?",
+      "opts": [
+        "Once",
+        "Twice",
+        "Three times",
+        "Every day"
+      ],
+      "correct": "Three times",
+      "hint": "\"She visits the WKU library three times a week and always borrows four or five books.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "On which days does Timur play basketball?",
+      "opts": [
+        "Tuesday, Thursday, Saturday",
+        "Monday, Wednesday, Friday",
+        "Every day after class",
+        "Only on weekends"
+      ],
+      "correct": "Monday, Wednesday, Friday",
+      "hint": "\"I play basketball three times a week — Monday, Wednesday, Friday after class.\" — Timur."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Timur plays video games before doing his homework in the evenings.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I also play video games in the evenings when I finish homework.\" — after homework, not before."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What type of video games does Timur prefer?",
+      "opts": [
+        "Action games",
+        "Sports games",
+        "Strategy games",
+        "Puzzle games"
+      ],
+      "correct": "Strategy games",
+      "hint": "\"Strategy games mostly — I love planning and thinking ahead.\" — Timur."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Samal says photography IS her way of ___.",
+      "correct": "relaxing",
+      "hint": "\"Photography IS my way of relaxing!\" — Samal."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Both Samal and Timur go hiking on Sundays near Uralsk.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Timur: \"I go hiking on Sundays.\" Samal: \"I go hiking too! I take my camera on the trails.\""
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Timur offer to teach Samal at the end of their conversation?",
+      "opts": [
+        "How to play basketball",
+        "His favourite strategy game",
+        "How to hike safely",
+        "How to take better photos"
+      ],
+      "correct": "His favourite strategy game",
+      "hint": "\"In the evenings I'll teach you my favourite strategy game.\" — Timur."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Samal ___ her camera everywhere she goes.",
+      "opts": [
+        "carry",
+        "carrys",
+        "carries",
+        "is carrying"
+      ],
+      "correct": "carries",
+      "hint": "Samal = She → carries. (carry → -ies because y after consonant)"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Zarina cook beshbarmak every Sunday\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zarina = She → \"Zarina cookS beshbarmak every Sunday.\" He/She/It always needs -s!"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Bekzat ___ (train) for two hours after every class.",
+      "correct": "trains",
+      "hint": "Bekzat = He → trains. (train → trains, just +s)"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Zarina ___ a recipe — she makes beshbarmak from memory.",
+      "opts": [
+        "don't use",
+        "doesn't uses",
+        "doesn't use",
+        "not uses"
+      ],
+      "correct": "doesn't use",
+      "hint": "Zarina = She → doesn't + base form. Never \"doesn't uses\"!"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ Arlan wake up at 7 am every morning?\" — \"Yes, he does.\"",
+      "opts": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+      ],
+      "correct": "Does",
+      "hint": "Arlan = He → Does he wake up...? (Does + base form)"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"What does Aibek ___ in his free time?\" — \"He plays guitar every evening.\"",
+      "correct": "do",
+      "hint": "After \"does\" → base form. \"What does he DO?\" — never \"does\"."
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is 100% correct?",
+      "opts": [
+        "Ainur read books in five languages.",
+        "She enjoy hiking every weekend.",
+        "He goes hiking on Sundays.",
+        "Timur don't skip training."
+      ],
+      "correct": "He goes hiking on Sundays.",
+      "hint": "\"goes\" ✅ — go → goes for He/She/It. Others miss -s or use don't instead of doesn't."
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Does Samal goes hiking every Sunday?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Does → base form! \"Does Samal GO hiking?\" — never \"goes\" in a Does-question."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"dedicated\" mean?",
+      "opts": [
+        "doing something only once or twice",
+        "giving a lot of time and effort to something you care about",
+        "feeling bored with an activity",
+        "being new to a hobby"
+      ],
+      "correct": "giving a lot of time and effort to something you care about",
+      "hint": "\"Bekzat is dedicated — he trains every single day.\" — dedicated = преданный делу."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Aibek plays guitar every evening because it is very ___. It helps him forget about stress.",
+      "correct": "relaxing",
+      "hint": "Relaxing = расслабляющий. \"Playing guitar is very relaxing after a hard day.\""
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"trail\"?",
+      "opts": [
+        "a wide road for cars",
+        "a flat area for playing sports",
+        "a path through the countryside for walking",
+        "a building where art is displayed"
+      ],
+      "correct": "a path through the countryside for walking",
+      "hint": "Trail = тропа. \"There are beautiful hiking trails near the city of Uralsk.\""
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Leisure\" means time when you are very busy with work and responsibilities.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Leisure = досуг — FREE time when you are NOT working or studying. The opposite of busy time."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"inspiring\" describe?",
+      "opts": [
+        "something that makes you feel tired",
+        "something that makes you feel enthusiastic and creative",
+        "something that is very difficult",
+        "something that is boring and repetitive"
+      ],
+      "correct": "something that makes you feel enthusiastic and creative",
+      "hint": "\"Samal's photos are truly inspiring — they change how you see the world.\""
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Zarina makes beshbarmak without a ___. She knows it completely from memory!",
+      "correct": "recipe",
+      "hint": "Recipe = рецепт — instructions for preparing a dish. \"She cooks without a recipe.\""
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is an \"audience\"?",
+      "opts": [
+        "a music studio",
+        "a sports competition",
+        "the group of people who watch or listen to a performance",
+        "a type of art gallery"
+      ],
+      "correct": "the group of people who watch or listen to a performance",
+      "hint": "\"Aibek plays guitar for a small audience in the common room.\" — audience = зрители/слушатели."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"rewarding\" mean?",
+      "opts": [
+        "extremely difficult and frustrating",
+        "giving satisfaction and a feeling it was worth the effort",
+        "very fast and competitive",
+        "quiet and peaceful"
+      ],
+      "correct": "giving satisfaction and a feeling it was worth the effort",
+      "hint": "\"Learning guitar is challenging but very rewarding.\" — rewarding = стоящий/приятный."
+    }
+  ]
+}

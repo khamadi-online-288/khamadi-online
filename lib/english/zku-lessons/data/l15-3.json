@@ -1,0 +1,255 @@
+{
+  "id": "l15-3",
+  "moduleNum": 15,
+  "lessonNum": 3,
+  "moduleTitle": "Future plans",
+  "title": "What are you going to do?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Gulim",
+      "text": "Aibek! Exams are finally over! What are you going to do now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "First I'm going to sleep for about twelve hours! Then I'm going to pack and go home to Aktau.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulim",
+      "text": "Lovely! How long are you going to stay in Aktau?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "About three weeks. I'm going to be with my family and go to the Caspian Sea every day!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulim",
+      "text": "That sounds amazing. I'm not going to go home straight away — I'm going to visit Almaty first.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Almaty? What are you going to do there?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulim",
+      "text": "I'm going to visit a famous architecture firm — they offered me a tour. And I'm going to see a school friend who lives there.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "That's great! After Almaty, are you going to go home to Shymkent?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulim",
+      "text": "Yes — I'm going to spend the last two weeks of summer with my parents. My mum is going to teach me her special beshbarmak recipe!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Ha! And next semester — do you have any academic plans?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulim",
+      "text": "I'm going to work on a big architecture project and start learning AutoCAD properly. You?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "I'm going to study much more systematically. Better grades next semester — that's my goal!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulim",
+      "text": "Good idea! We should make a study group. Are you going to be free on Thursday evenings?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Definitely! Let's do it. We're going to have the best second year ever!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "pack bags",
+      "emoji": "🧳",
+      "opts": [
+        "покупать вещи",
+        "распаковывать",
+        "собирать чемоданы",
+        "искать багаж"
+      ],
+      "correct": "собирать чемоданы"
+    },
+    {
+      "id": "p2",
+      "word": "straight away",
+      "emoji": "⏩",
+      "opts": [
+        "медленно / постепенно",
+        "никогда",
+        "потом / позже",
+        "сразу же / немедленно"
+      ],
+      "correct": "сразу же / немедленно"
+    },
+    {
+      "id": "p3",
+      "word": "systematically",
+      "emoji": "📋",
+      "opts": [
+        "случайно",
+        "быстро",
+        "систематически / методично",
+        "редко"
+      ],
+      "correct": "систематически / методично"
+    },
+    {
+      "id": "p4",
+      "word": "architecture firm",
+      "emoji": "🏢",
+      "opts": [
+        "строительный магазин",
+        "архитектурная фирма",
+        "дизайн-студия",
+        "инженерное бюро"
+      ],
+      "correct": "архитектурная фирма"
+    },
+    {
+      "id": "p5",
+      "word": "recipe",
+      "emoji": "📝",
+      "opts": [
+        "меню",
+        "рецепт",
+        "история",
+        "инструкция по сборке"
+      ],
+      "correct": "рецепт"
+    },
+    {
+      "id": "p6",
+      "word": "semester",
+      "emoji": "📅",
+      "opts": [
+        "неделя",
+        "каникулы",
+        "семестр / учебный период",
+        "учебный год"
+      ],
+      "correct": "семестр / учебный период"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aibek's first plan after exams is to sleep for about twelve hours.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Aibek is going to spend two weeks in Aktau with his family.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Gulim is going to go straight home to Shymkent immediately after exams.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Gulim is going to visit a famous architecture firm during her time in Almaty.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Gulim's mother is going to teach her to make beshbarmak.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Aibek and Gulim decide to form a study group that meets on Thursday evenings.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "gulim",
+      "name": "Gulim",
+      "city": "Shymkent",
+      "emoji": "🏛️",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Architecture student, Year 2"
+    },
+    {
+      "id": "aibek",
+      "name": "Aibek",
+      "city": "Aktau",
+      "emoji": "📊",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Economics student, Year 1"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Is going to sleep for twelve hours, then pack bags and go home.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s2",
+      "text": "Is NOT going home immediately — going to Almaty first to visit a firm and a friend.",
+      "correctCharId": "gulim"
+    },
+    {
+      "id": "s3",
+      "text": "Is going to visit a famous architecture firm during the summer.",
+      "correctCharId": "gulim"
+    },
+    {
+      "id": "s4",
+      "text": "Plans to study more systematically and get better grades next semester.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s5",
+      "text": "Is going to learn to make a special beshbarmak recipe from their mother.",
+      "correctCharId": "gulim"
+    },
+    {
+      "id": "s6",
+      "text": "Suggested forming a study group that meets on Thursday evenings.",
+      "correctCharId": "gulim"
+    }
+  ]
+}

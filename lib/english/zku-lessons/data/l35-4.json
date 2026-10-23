@@ -1,0 +1,280 @@
+{
+  "id": "l35-4",
+  "moduleNum": 1,
+  "lessonNum": 5,
+  "moduleTitle": "Daily Routines & Habits",
+  "type": "writing",
+  "title": "My Weekly Routine at WKU",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I wake up at...",
+      "emoji": "⏰",
+      "opts": [
+        "Я ложусь спать в...",
+        "Я просыпаюсь в...",
+        "Я завтракаю в...",
+        "Я ухожу в..."
+      ],
+      "correct": "Я просыпаюсь в..."
+    },
+    {
+      "id": "p2",
+      "word": "I always / usually...",
+      "emoji": "📅",
+      "opts": [
+        "Я никогда...",
+        "Я всегда / обычно...",
+        "Я редко...",
+        "Я иногда..."
+      ],
+      "correct": "Я всегда / обычно..."
+    },
+    {
+      "id": "p3",
+      "word": "In the morning / evening",
+      "emoji": "🌅",
+      "opts": [
+        "Утром / вечером",
+        "В полдень / ночью",
+        "До / после",
+        "Рано / поздно"
+      ],
+      "correct": "Утром / вечером"
+    },
+    {
+      "id": "p4",
+      "word": "I find it + adjective",
+      "emoji": "💭",
+      "opts": [
+        "Я нахожу это + прил.",
+        "Я теряю это",
+        "Я забываю об этом",
+        "Я избегаю этого"
+      ],
+      "correct": "Я нахожу это + прил."
+    },
+    {
+      "id": "p5",
+      "word": "In my free time...",
+      "emoji": "🎮",
+      "opts": [
+        "На работе...",
+        "В свободное время...",
+        "На занятиях...",
+        "По вечерам обычно..."
+      ],
+      "correct": "В свободное время..."
+    },
+    {
+      "id": "p6",
+      "word": "I try to...",
+      "emoji": "💪",
+      "opts": [
+        "Мне нравится...",
+        "Я стараюсь...",
+        "Я хочу...",
+        "Я должен..."
+      ],
+      "correct": "Я стараюсь..."
+    }
+  ],
+  "writingModel": [
+    "My Weekly Routine at WKU — by Kamila Seitkali",
+    "I am a second-year Linguistics student at WKU. My week is busy, but I have a routine that helps me manage everything without feeling stressed. I usually wake up at 7:15 and spend the first ten minutes planning my day in a small notebook. I always eat breakfast — I find that I concentrate much better when I have something to eat in the morning.",
+    "My weekdays follow a similar pattern. I have lectures from 8:00 to 14:00, with short breaks in between. During breaks, I quickly review my notes or chat with classmates in the corridor. I never use my phone during lectures — I put it on silent and focus completely on what the professor is saying. After lunch, I usually spend one or two hours in the library completing assignments or reading ahead for the next class.",
+    "Three times a week — on Monday, Wednesday, and Friday — I go for a short run after classes. It takes about twenty-five minutes and helps me clear my head after a long day of studying. I find it quite difficult to motivate myself on cold mornings, but I always feel better afterwards. On Tuesdays and Thursdays, I attend the English Conversation Club at 5 p.m. — it meets for ninety minutes and we practise speaking on different topics.",
+    "My evenings are quieter. I usually cook a simple dinner — something like pasta or fried rice — and eat while watching a short documentary in English. I find this a very efficient way to practise the language without feeling like I am \"studying\". I rarely go to bed later than 11 p.m. during the week because I know that sleep affects my concentration the next day.",
+    "Weekends are completely different. I sleep longer, call my family in Almaty, and meet friends at a café in the afternoon. I do some studying on Sunday — usually preparing for the week ahead — but I always leave time for things I enjoy. I sometimes visit a museum or art gallery with my roommate Zarina, and we occasionally cook a big meal together in the evening.",
+    "Looking back at my routine, I think the most important thing I have learned at university is that small, consistent habits are more powerful than occasional bursts of hard work. I do not always study brilliantly, and I do not always run quickly or cook well. But I always show up, every single day, and that is what makes the difference."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "My Weekly Routine at WKU — by ",
+      "suffix": "",
+      "placeholder": "your full name",
+      "hint": "Write your name as the author."
+    },
+    {
+      "key": "intro1",
+      "prefix": "I am a ",
+      "suffix": "-year ",
+      "placeholder": "first / second / third",
+      "hint": "What year of study are you?"
+    },
+    {
+      "key": "intro2",
+      "prefix": "",
+      "suffix": " student at WKU.",
+      "placeholder": "your subject / faculty",
+      "hint": "e.g. Computer Science / Mathematics / Linguistics"
+    },
+    {
+      "key": "intro3",
+      "prefix": "I usually wake up at ",
+      "suffix": " and ",
+      "placeholder": "your wake-up time",
+      "hint": "e.g. 7:00 / 6:45 / 8:00"
+    },
+    {
+      "key": "intro4",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what you do first in the morning",
+      "hint": "e.g. have breakfast / review my notes / go for a walk"
+    },
+    {
+      "key": "weekday1",
+      "prefix": "My weekdays follow a similar pattern. I have lectures from ",
+      "suffix": ".",
+      "placeholder": "your lecture schedule",
+      "hint": "e.g. 8:00 to 14:00 / 9:00 to 15:00"
+    },
+    {
+      "key": "weekday2",
+      "prefix": "I ",
+      "suffix": " use my phone during lectures —",
+      "placeholder": "always / usually / never / rarely",
+      "hint": "Use an adverb of frequency. \"I never use my phone...\" is a strong, confident statement."
+    },
+    {
+      "key": "weekday3",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what you do instead (focus on the lecture, take notes carefully)",
+      "hint": "Describe your good habit during lectures."
+    },
+    {
+      "key": "activity",
+      "prefix": "",
+      "suffix": " times a week, I ",
+      "placeholder": "Two / Three / Four",
+      "hint": "How many days a week do you do a specific activity?"
+    },
+    {
+      "key": "actdetail",
+      "prefix": "",
+      "suffix": ". I find it ",
+      "placeholder": "name the activity (go running / study in the library / attend a club)",
+      "hint": "Name your regular activity."
+    },
+    {
+      "key": "actfeel",
+      "prefix": "",
+      "suffix": " but I always feel better afterwards.",
+      "placeholder": "challenging / tiring / motivating",
+      "hint": "How do you honestly find this activity? Be real!"
+    },
+    {
+      "key": "evening1",
+      "prefix": "In the evenings, I ",
+      "suffix": ".",
+      "placeholder": "describe your typical evening routine",
+      "hint": "e.g. cook a simple dinner / review notes / watch something in English"
+    },
+    {
+      "key": "evening2",
+      "prefix": "I ",
+      "suffix": " go to bed later than ",
+      "placeholder": "rarely / never / usually",
+      "hint": "Use an adverb of frequency."
+    },
+    {
+      "key": "bedtime",
+      "prefix": "",
+      "suffix": " p.m.",
+      "placeholder": "10 / 10:30 / 11 / 11:30",
+      "hint": "What time do you go to sleep on weekdays?"
+    },
+    {
+      "key": "weekend",
+      "prefix": "At weekends, I ",
+      "suffix": ".",
+      "placeholder": "describe how your weekend is different",
+      "hint": "e.g. sleep longer and spend time with friends / go home to my family / relax and read"
+    },
+    {
+      "key": "conclude",
+      "prefix": "I think the most important habit I have developed at university is ",
+      "suffix": ".",
+      "placeholder": "your key learning or habit",
+      "hint": "e.g. reviewing notes every day / sleeping regularly / planning my week on Sunday"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Starting your routine",
+      "color": "#003876",
+      "items": [
+        "I usually wake up at... and...",
+        "My week starts on Monday when I...",
+        "I always begin my day by...",
+        "The first thing I do in the morning is...",
+        "I spend the first ... minutes ..."
+      ]
+    },
+    {
+      "category": "Frequency & how often",
+      "color": "#1D9E75",
+      "items": [
+        "I always / usually / often / sometimes / rarely / never...",
+        "Three times a week, I...",
+        "Once / Twice a week, I...",
+        "Every morning / evening / Monday...",
+        "I try to ... every day."
+      ]
+    },
+    {
+      "category": "Describing HOW (adverbs of manner)",
+      "color": "#1B8FC4",
+      "items": [
+        "I work hard during the week.",
+        "I review my notes carefully.",
+        "I quickly check my messages after class.",
+        "I speak English well / badly / confidently.",
+        "I find it quite + adjective (difficult / easy / motivating)."
+      ]
+    },
+    {
+      "category": "Weekends & free time",
+      "color": "#C9933B",
+      "items": [
+        "At weekends, I...",
+        "On Saturdays / Sundays, I usually...",
+        "In my free time, I enjoy + -ing...",
+        "I occasionally / sometimes...",
+        "I try to leave time for things I enjoy."
+      ]
+    },
+    {
+      "category": "Concluding your paragraph",
+      "color": "#7C3AED",
+      "items": [
+        "Looking back at my routine, I think...",
+        "I have learned that small habits...",
+        "The most important thing is...",
+        "I do not always ..., but I always show up.",
+        "Consistency is more powerful than occasional effort."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "l10-2",
+  "moduleNum": 10,
+  "lessonNum": 2,
+  "moduleTitle": "Yesterday",
+  "title": "A difficult day",
+  "type": "reading",
+  "xp": 60,
+  "duration": 12,
+  "paragraphs": [
+    "My name is Ainur Ospanova. I am twenty years old and I am from Kostanay. I am a second-year Medicine student at WKU. Yesterday was Monday, the twelfth of October, and it was, without any doubt, one of the most difficult days of my life at university. I am going to tell you honestly about everything that went wrong.",
+    "The morning was a disaster from the very beginning. My alarm clock was broken — it was silent all night. I woke up late and I was in a panic. Breakfast was impossible. By the time I ran to the cafeteria, it was already full of students and the queue was very long. I only had time for a glass of water. Outside, the weather was cold and grey. There was a strong wind and it was raining. My umbrella was at home in Kostanay. I was wet, cold, and hungry before my first lecture even started.",
+    "My first lecture was on Human Anatomy — one of the most important subjects in Medicine. I was almost ten minutes late when I arrived. The door was heavy and it made a loud noise when I opened it. All fifty students turned to look at me. The professor, Dr. Seitkali, was not happy. Her expression was stern and she was silent for a moment before she continued. I was so embarrassed. My face was red for the next twenty minutes.",
+    "The second lecture was even worse. There was an unexpected written quiz on the material from the previous week. I was completely unprepared — I was sure the quiz was scheduled for Friday, not Monday. The questions were very difficult. My mind was blank. The results were disappointing: I was in the bottom third of the group. It was a painful moment.",
+    "At lunchtime, I was exhausted and hungry. The cafeteria was crowded — every table was full. The queue was long and slow. When I finally reached the counter, the chicken soup was already cold and there was no bread left. I was alone because my friends were at a different lecture and were not free for lunch. The cafeteria was noisy and I was miserable. It was the loneliest hour of my week.",
+    "In the afternoon, I was in the library for three hours. The internet connection was slow and my laptop was almost out of battery. My notes from Monday's anatomy lecture were incomplete because I was late. I was frustrated and tired. But I was also determined. I found the textbook on the shelf and I was at my desk for the whole afternoon, filling in the gaps in my notes. The library was warm, at least, and that was something.",
+    "By the evening, my head was full of new information and my body was completely exhausted. I was back in my dormitory room by eight o'clock. My roommate Gulnara was there — she was kind and caring. She made a big cup of tea for both of us and we were sitting together in silence for a while. That moment of quiet companionship was the best part of the entire day. It was exactly what I needed.",
+    "Yesterday was terrible. But today is a new day. Medicine is the hardest subject at WKU — everyone knows that. The road is long and the days are sometimes very hard. But I was always certain of one thing: I want to be a doctor. That dream was strong yesterday, and it is even stronger today."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Gulnara",
+      "text": "Ainur, you look exhausted. Was yesterday difficult?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "It was a complete disaster, Gulnara. From start to finish.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Oh no! Were you late for your lecture?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Almost ten minutes late! My alarm was broken. I was so embarrassed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Was the professor angry?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "She was not happy. Her face was very stern. It was awful.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Was there a quiz? You mentioned something about a quiz.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Yes! It was unexpected. I was totally unprepared. The questions were so hard.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Were your friends with you at lunch?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "No — they were at a different lecture. I was completely alone.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "Was the cafeteria busy?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "It was packed! The soup was cold and there was no bread left.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnara",
+      "text": "You were so brave to keep going. Were you in the library after?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Yes, for three hours. I was tired but I was determined. Like always.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Yesterday was terrible",
+      "ru": "Вчера было ужасно",
+      "context": "Yesterday was one of the most difficult days of my life."
+    },
+    {
+      "phrase": "My alarm was broken",
+      "ru": "Мой будильник был сломан",
+      "context": "My alarm clock was broken — it was silent all night."
+    },
+    {
+      "phrase": "The weather was cold",
+      "ru": "Погода была холодной",
+      "context": "The weather was cold and grey — and it was raining."
+    },
+    {
+      "phrase": "I was late",
+      "ru": "Я опоздала",
+      "context": "I was almost ten minutes late when I arrived."
+    },
+    {
+      "phrase": "The questions were hard",
+      "ru": "Вопросы были сложными",
+      "context": "The questions were very difficult. My mind was blank."
+    },
+    {
+      "phrase": "There were no seats",
+      "ru": "Не было мест",
+      "context": "The cafeteria was crowded — every table was full."
+    },
+    {
+      "phrase": "I was determined",
+      "ru": "Я была решительной",
+      "context": "I was frustrated and tired. But I was also determined."
+    },
+    {
+      "phrase": "Were you late?",
+      "ru": "Ты опоздала?",
+      "context": "\"Were you late for your lecture?\" — \"Almost ten minutes!\""
+    },
+    {
+      "phrase": "Was the professor angry?",
+      "ru": "Профессор была злой?",
+      "context": "\"Was the professor angry?\" — \"She was not happy.\""
+    },
+    {
+      "phrase": "It was a disaster!",
+      "ru": "Это была катастрофа!",
+      "context": "\"Was yesterday difficult?\" — \"It was a complete disaster!\""
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "alarm clock",
+      "emoji": "⏰",
+      "opts": [
+        "телефон",
+        "будильник",
+        "расписание",
+        "напоминание"
+      ],
+      "correct": "будильник"
+    },
+    {
+      "id": "p2",
+      "word": "unexpected",
+      "emoji": "😲",
+      "opts": [
+        "запланированный",
+        "лёгкий",
+        "неожиданный",
+        "скучный"
+      ],
+      "correct": "неожиданный"
+    },
+    {
+      "id": "p3",
+      "word": "embarrassed",
+      "emoji": "😳",
+      "opts": [
+        "злой",
+        "счастливый",
+        "смущённый / в неловком положении",
+        "спокойный"
+      ],
+      "correct": "смущённый / в неловком положении"
+    },
+    {
+      "id": "p4",
+      "word": "crowded",
+      "emoji": "👥",
+      "opts": [
+        "пустой",
+        "грязный",
+        "тихий",
+        "переполненный / многолюдный"
+      ],
+      "correct": "переполненный / многолюдный"
+    },
+    {
+      "id": "p5",
+      "word": "determined",
+      "emoji": "💪",
+      "opts": [
+        "уставшая",
+        "растерянная",
+        "решительная / целеустремлённая",
+        "грустная"
+      ],
+      "correct": "решительная / целеустремлённая"
+    },
+    {
+      "id": "p6",
+      "word": "miserable",
+      "emoji": "😢",
+      "opts": [
+        "злой",
+        "доволный",
+        "несчастный / подавленный",
+        "скучающий"
+      ],
+      "correct": "несчастный / подавленный"
+    }
+  ],
+  "task1Bank": [
+    "Kostanay",
+    "Medicine",
+    "alarm",
+    "quiz",
+    "three",
+    "Gulnara"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Ainur is from ___, Kazakhstan.",
+      "correct": "Kostanay"
+    },
+    {
+      "id": "t2",
+      "question": "Ainur studies ___ at WKU — she is in her second year.",
+      "correct": "Medicine"
+    },
+    {
+      "id": "t3",
+      "question": "Ainur was late because her ___ clock was broken.",
+      "correct": "alarm"
+    },
+    {
+      "id": "t4",
+      "question": "In the second lecture, there was an unexpected written ___.",
+      "correct": "quiz"
+    },
+    {
+      "id": "t5",
+      "question": "Ainur was in the library for ___ hours in the afternoon.",
+      "correct": "three"
+    },
+    {
+      "id": "t6",
+      "question": "Ainur's roommate ___ made tea for both of them in the evening.",
+      "correct": "Gulnara"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Yesterday was Monday for Ainur.",
+      "correct": "true"
+    },
+    {
+      "id": "f2",
+      "statement": "Ainur arrived on time for her first Anatomy lecture.",
+      "correct": "false"
+    },
+    {
+      "id": "f3",
+      "statement": "Ainur was well-prepared for the unexpected quiz.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Ainur ate lunch with her friends in the cafeteria.",
+      "correct": "false"
+    },
+    {
+      "id": "f5",
+      "statement": "The library was warm and Ainur studied there all afternoon.",
+      "correct": "true"
+    },
+    {
+      "id": "f6",
+      "statement": "Ainur is thinking about changing her subject to something easier.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

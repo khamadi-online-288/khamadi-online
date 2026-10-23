@@ -1,0 +1,423 @@
+{
+  "id": "l12-7",
+  "moduleNum": 12,
+  "lessonNum": 9,
+  "moduleTitle": "Travel and places",
+  "title": "Module 12 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Madina Tolenova study at WKU?",
+      "opts": [
+        "Architecture",
+        "Tourism and Hospitality",
+        "Geography",
+        "International Relations"
+      ],
+      "correct": "Tourism and Hospitality",
+      "hint": "\"I study Tourism and Hospitality at WKU — it is my second year.\" — Madina."
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The Zenkov Cathedral in Panfilov Park stands in the east of Almaty, near the mountains.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Panfilov Park is in the heart of the city, between two wide avenues.\" — in the centre, NOT the east."
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is the Green Bazaar located in relation to the central post office?",
+      "opts": [
+        "In front of it",
+        "Next to it",
+        "Opposite it",
+        "Just behind it"
+      ],
+      "correct": "Just behind it",
+      "hint": "\"The Green Bazaar is about five minutes on foot from Panfilov Park, just BEHIND the central post office.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Madina and Sabina took a ___ up to Shymbulak — a famous mountain resort twenty-five kilometres from the city.",
+      "correct": "cable car",
+      "hint": "\"We took a cable car up to Shymbulak — a famous mountain resort high in the Zailiysky Alatau mountains.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why did Damir Yessimov get lost in Taraz?",
+      "opts": [
+        "He lost his map completely",
+        "The woman gave him wrong directions",
+        "The street names on his map were different from the real signs",
+        "He turned right instead of left at the park"
+      ],
+      "correct": "The street names on his map were different from the real signs",
+      "hint": "\"The street names on the map were different from the signs on the walls of the buildings. It was confusing.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "A man in the park showed Damir the way to the Karakhan Mausoleum.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"A woman was standing at the gate of her house, watering flowers.\" — It was a woman at her gate, NOT a man in the park."
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "The small museum on the ___ of the mausoleum had photographs and historical information about the building.",
+      "correct": "left",
+      "hint": "\"On the LEFT of the mausoleum, there was a small museum with photographs and historical information.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which mausoleum did Damir plan to visit after the Karakhan Mausoleum?",
+      "opts": [
+        "The Khoja Ahmed Yasawi Mausoleum",
+        "The Sultan Mausoleum",
+        "The Aisha Bibi Mausoleum",
+        "The Babaji Khatun Mausoleum"
+      ],
+      "correct": "The Aisha Bibi Mausoleum",
+      "hint": "\"Later that afternoon, I found the Aisha Bibi Mausoleum — this time without getting lost.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where are the check-in desks located in the airport?",
+      "opts": [
+        "On the second floor, next to the departure gates",
+        "On the ground floor, next to the café",
+        "On the ground floor, opposite the main entrance",
+        "Upstairs, in front of Gate 3"
+      ],
+      "correct": "On the ground floor, opposite the main entrance",
+      "hint": "\"The check-in desks are on the ground floor, directly OPPOSITE the main entrance.\" — Aibek tells Kamila."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The departure gates in the airport are on the ground floor.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"After security, go upstairs to the SECOND FLOOR. All the departure gates are there.\" — Aibek explains to Kamila."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "The shop between the café and the information ___ sells snacks and newspapers.",
+      "correct": "desk",
+      "hint": "\"One is between the café and the information DESK — it sells snacks and newspapers.\" — Aibek describes the airport shop."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Marat tell Zara to do when she reaches the crossroads?",
+      "opts": [
+        "Go straight on past the post office",
+        "Cross the bridge immediately",
+        "Turn right towards the library",
+        "Turn left at the crossroads"
+      ],
+      "correct": "Turn left at the crossroads",
+      "hint": "\"At the end of this road, you will reach a big crossroads. TURN LEFT at the crossroads.\" — Marat gives Zara directions."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The tall red-brick library building is on the left side of the road after the crossroads.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"After you turn left, you will see a tall red-brick building on your RIGHT. That is the city library.\" — NOT on the left, but on the RIGHT."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does it take on foot from where Zara is to the post office?",
+      "opts": [
+        "About five minutes",
+        "About fifteen to twenty minutes",
+        "About ten to twelve minutes",
+        "About half an hour"
+      ],
+      "correct": "About ten to twelve minutes",
+      "hint": "\"About ten to twelve minutes. It is not far at all.\" — Marat tells Zara the walking time."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "WKU is located ___ Uralsk, which is ___ the west of Kazakhstan.",
+      "opts": [
+        "at / in",
+        "in / in",
+        "on / at",
+        "in / on"
+      ],
+      "correct": "in / in",
+      "hint": "Cities and regions → IN. \"WKU is IN Uralsk\" · \"Uralsk is IN the west of Kazakhstan.\" ✅ Not AT (for institutions, not cities)."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"The post office is opposite the park\" means the post office and the park are next to each other, side by side.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "OPPOSITE = directly FACING, across from. \"The post office is opposite the park\" means they face each other. NEXT TO = side by side — that is different!"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Damir walked ___ the park — there was a path that went from the entrance on one side to the exit on the other.",
+      "correct": "through",
+      "hint": "THROUGH = movement INSIDE a space, crossing from one side to another. \"Walk THROUGH the park.\" ALONG = beside it; PAST = outside it without entering."
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Kamila walked ___ the departure hall and found her check-in desk.",
+      "opts": [
+        "past",
+        "along",
+        "into",
+        "above"
+      ],
+      "correct": "into",
+      "hint": "INTO = movement entering an enclosed space. \"She walked INTO the departure hall\" = she entered it. Compare: \"She is IN the hall\" (already there, no movement)."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Walk ___ the post office — do not turn there — and carry on to the bridge.",
+      "opts": [
+        "through",
+        "into",
+        "above",
+        "past"
+      ],
+      "correct": "past",
+      "hint": "PAST = to go by a place without stopping or entering. \"Walk PAST the post office.\" ✅ Marat's exact directions to Zara!"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"The flight is in 10 o'clock\" is a correct English sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Exact times → AT, not IN! ✅ \"The flight is AT 10 o'clock.\" IN = months, years, seasons. ON = days, dates. AT = clock times, specific moments."
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "Madina visited Almaty ___ a long weekend ___ October.",
+      "correct": "for",
+      "hint": "Duration → FOR (\"for a long weekend\"). Month → IN (\"in October\"). \"She stayed there FOR three days IN October.\" ✅"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses prepositions correctly?",
+      "opts": [
+        "\"The café is at the second floor, next to the security.\"",
+        "\"The café is on the second floor, next to the security checkpoint.\"",
+        "\"The café is in the second floor, opposite the security.\"",
+        "\"The café is above the second floor, between security.\""
+      ],
+      "correct": "\"The café is on the second floor, next to the security checkpoint.\"",
+      "hint": "Floors → ON (\"on the second floor\"). Adjacent places → NEXT TO (\"next to the checkpoint\"). ✅ AT/IN/ABOVE are wrong for floors."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"breathtaking\" mean?",
+      "opts": [
+        "Very tiring and difficult to complete",
+        "Slightly interesting and worth seeing",
+        "Extremely impressive or beautiful, causing sudden excitement",
+        "Old and well-known but not very beautiful"
+      ],
+      "correct": "Extremely impressive or beautiful, causing sudden excitement",
+      "hint": "\"From the platform at Shymbulak, the view of Almaty was BREATHTAKING.\" = so beautiful it takes your breath away."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "A \"stall\" is a large department store with many floors and escalators.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "A STALL = a small table or stand in a market where goods are sold. NOT a large store. \"Sellers offered fresh fruit from their STALLS in the bazaar.\""
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Damir asked a woman at her gate for ___ — he was completely lost in the old streets of Taraz.",
+      "correct": "directions",
+      "hint": "DIRECTIONS = instructions for getting somewhere. \"Ask for DIRECTIONS.\" · \"Damir asked the woman for DIRECTIONS to the mausoleum.\""
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"destination\" mean?",
+      "opts": [
+        "The place you are coming from",
+        "The route you use to travel",
+        "The place where someone is going",
+        "The amount of time a trip takes"
+      ],
+      "correct": "The place where someone is going",
+      "hint": "\"My DREAM DESTINATION is Istanbul.\" — the place you want to GO TO. From Latin \"destinare\" = to determine, to aim at."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"landmark\"?",
+      "opts": [
+        "A sign on a motorway showing speed limits",
+        "A well-known building or place that helps you know where you are",
+        "A map given to tourists at an information desk",
+        "A type of road that goes through a park"
+      ],
+      "correct": "A well-known building or place that helps you know where you are",
+      "hint": "\"The library is your LANDMARK — you can see it from most of the road.\" — Marat. A landmark helps you navigate."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "To \"explore\" a city means to stay in your hotel and look at a map.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "EXPLORE = to travel THROUGH a place, moving around and discovering it. \"Damir EXPLORED Taraz on foot.\" Active movement and discovery — not staying still!"
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The Karakhan Mausoleum is over a thousand years old — it is a truly ___ building.",
+      "correct": "ancient",
+      "hint": "ANCIENT = belonging to a time long ago in history; very old. \"An ANCIENT brick structure over a thousand years old.\" ✅"
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"content\" mean in \"Damir came back tired but content\"?",
+      "opts": [
+        "Very energetic and excited after the trip",
+        "Worried and slightly disappointed",
+        "Quietly happy and satisfied with the experience",
+        "Confused and planning to try again"
+      ],
+      "correct": "Quietly happy and satisfied with the experience",
+      "hint": "\"Damir came back tired but CONTENT.\" — content = calm, quietly satisfied. Not excited (energetic) but peacefully happy."
+    }
+  ]
+}

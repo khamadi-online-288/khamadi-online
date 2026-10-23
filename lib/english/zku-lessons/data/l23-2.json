@@ -1,0 +1,476 @@
+{
+  "id": "l23-2",
+  "moduleNum": 7,
+  "lessonNum": 2,
+  "moduleTitle": "Stories from the Past",
+  "title": "At the History Museum",
+  "type": "listening",
+  "xp": 35,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Welcome to the Regional History Museum of Uralsk! I'm Dr. Akhmetov, your guide for today. Before we begin, tell me — what do you already know about the history of this region?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I know that Uralsk is one of the oldest cities in Kazakhstan. I read that Pushkin visited here in 1833.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Excellent! You're right. Pushkin came to Uralsk to research a historical uprising. He interviewed local people and collected stories for his book. That visit produced one of the most important works in Russian literature.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What was the uprising about? I didn't study that in school yet.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "It was the Pugachev Rebellion of 1773–1775. Pugachev was a Cossack leader who led a massive revolt against Catherine the Great. Thousands of people from this region joined him.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Wow. And what happened to Pugachev in the end?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "The government captured him in 1774. He was executed in Moscow. But the stories of the rebellion stayed alive here for generations. Now look at this display — these are real artefacts from that period.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Is that a real sword? It looks incredible! Did soldiers actually use these weapons?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Indeed. Soldiers carried those swords into battle. This particular sword belonged to a local commander. His name was carved onto the handle — can you see it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I can see some letters but they're hard to read. The metal got very old. What language is it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "It's an old form of Cyrillic. In those days, people wrote very differently from today. Now, let's move to the next room — it tells the story of Uralsk in the 19th century, when merchants and traders made the city very wealthy.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I love this museum. I didn't expect history to be so interesting! Can we come back next week?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Dr. Akhmetov",
+      "text": "Of course! We also have a special exhibition next month about the Kazakh steppe in the early 20th century. I think you will find it very fascinating.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Definitely. I'm going to tell my parents about this place tonight. Thank you, Dr. Akhmetov!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Did you study...?",
+      "ru": "Ты изучал...?",
+      "context": "I didn't study that in school yet."
+    },
+    {
+      "phrase": "captured / executed",
+      "ru": "захватили / казнили",
+      "context": "They captured him in 1774. He was executed in Moscow."
+    },
+    {
+      "phrase": "artefacts from that period",
+      "ru": "артефакты того периода",
+      "context": "These are real artefacts from that period."
+    },
+    {
+      "phrase": "belonged to",
+      "ru": "принадлежал (кому-то)",
+      "context": "This sword belonged to a local commander."
+    },
+    {
+      "phrase": "I didn't expect...",
+      "ru": "Я не ожидал/а...",
+      "context": "I didn't expect history to be so interesting!"
+    },
+    {
+      "phrase": "Let's move to the next...",
+      "ru": "Давайте перейдём к следующему...",
+      "context": "Let's move to the next room."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "artefact",
+      "ipa": "/ˈɑːtɪfækt/",
+      "pos": "noun",
+      "ru": "артефакт",
+      "kz": "артефакт",
+      "emoji": "🏺",
+      "definition": "a historical object made by humans",
+      "example": "These are real artefacts from that period.",
+      "collocations": [
+        "historical artefact",
+        "ancient artefact",
+        "museum artefact"
+      ]
+    },
+    {
+      "en": "rebellion",
+      "ipa": "/rɪˈbeljən/",
+      "pos": "noun",
+      "ru": "восстание",
+      "kz": "бүлік",
+      "emoji": "⚔️",
+      "definition": "an attempt to overthrow or resist authority",
+      "example": "The Pugachev Rebellion changed the region's history.",
+      "collocations": [
+        "mass rebellion",
+        "lead a rebellion",
+        "crush a rebellion"
+      ]
+    },
+    {
+      "en": "execute",
+      "ipa": "/ˈeksɪkjuːt/",
+      "pos": "verb",
+      "ru": "казнить",
+      "kz": "өлім жазасына кесу",
+      "emoji": "⚖️",
+      "definition": "to kill someone legally as a punishment",
+      "example": "Pugachev was executed in Moscow.",
+      "collocations": [
+        "execute a criminal",
+        "publicly executed",
+        "execute by order"
+      ]
+    },
+    {
+      "en": "merchant",
+      "ipa": "/ˈmɜːtʃənt/",
+      "pos": "noun",
+      "ru": "купец / торговец",
+      "kz": "саудагер",
+      "emoji": "🛒",
+      "definition": "a person who buys and sells goods for profit",
+      "example": "Merchants made Uralsk very wealthy in the 19th century.",
+      "collocations": [
+        "wealthy merchant",
+        "merchant trader",
+        "local merchant"
+      ]
+    },
+    {
+      "en": "carved",
+      "ipa": "/kɑːvd/",
+      "pos": "adjective",
+      "ru": "вырезанный",
+      "kz": "ойылған",
+      "emoji": "🗡️",
+      "definition": "cut into a surface to make a shape or letters",
+      "example": "His name was carved onto the handle of the sword.",
+      "collocations": [
+        "carved into",
+        "carved wood",
+        "carved letters"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "pt1",
+      "word": "artefact",
+      "emoji": "🏺",
+      "opts": [
+        "a new tool",
+        "a historical object",
+        "a type of food",
+        "a musical instrument"
+      ],
+      "correct": "a historical object"
+    },
+    {
+      "id": "pt2",
+      "word": "rebellion",
+      "emoji": "⚔️",
+      "opts": [
+        "a party",
+        "an election",
+        "an attempt to fight against authority",
+        "a school exam"
+      ],
+      "correct": "an attempt to fight against authority"
+    },
+    {
+      "id": "pt3",
+      "word": "merchant",
+      "emoji": "🛒",
+      "opts": [
+        "a soldier",
+        "a teacher",
+        "a person who buys and sells goods",
+        "a museum guide"
+      ],
+      "correct": "a person who buys and sells goods"
+    }
+  ],
+  "task1Bank": [
+    "captured",
+    "visited",
+    "belonged",
+    "joined",
+    "carved",
+    "built",
+    "moved",
+    "produced"
+  ],
+  "task1Items": [
+    {
+      "id": "t1a",
+      "question": "Pushkin ___ Uralsk in 1833 to research the rebellion.",
+      "correct": "visited"
+    },
+    {
+      "id": "t1b",
+      "question": "Thousands of people from the region ___ the rebellion.",
+      "correct": "joined"
+    },
+    {
+      "id": "t1c",
+      "question": "The government ___ Pugachev in 1774.",
+      "correct": "captured"
+    },
+    {
+      "id": "t1d",
+      "question": "The sword ___ to a local commander.",
+      "correct": "belonged"
+    },
+    {
+      "id": "t1e",
+      "question": "A commander's name was ___ onto the sword handle.",
+      "correct": "carved"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "t2a",
+      "statement": "Pushkin visited Uralsk in 1830.",
+      "correct": "false"
+    },
+    {
+      "id": "t2b",
+      "statement": "The sword in the display belonged to a local commander.",
+      "correct": "true"
+    },
+    {
+      "id": "t2c",
+      "statement": "Amir and Zhibek plan to return to the museum next week.",
+      "correct": "true"
+    },
+    {
+      "id": "t2d",
+      "statement": "Dr. Akhmetov is the museum's director, not a guide.",
+      "correct": "false"
+    },
+    {
+      "id": "t2e",
+      "statement": "The special exhibition next month is about the Kazakh steppe.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "dr",
+      "name": "Dr. Akhmetov",
+      "city": "Uralsk",
+      "emoji": "👨‍🏫",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Museum Guide"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "👨‍💻",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU Student"
+    },
+    {
+      "id": "zhib",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU Student"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Already knew that Pushkin visited Uralsk in 1833.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "Said the sword belonged to a local commander.",
+      "correctCharId": "dr"
+    },
+    {
+      "id": "s3",
+      "text": "Didn't study the Pugachev Rebellion at school yet.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s4",
+      "text": "Explained that Pugachev was captured in 1774.",
+      "correctCharId": "dr"
+    },
+    {
+      "id": "s5",
+      "text": "Said history was more interesting than expected.",
+      "correctCharId": "zhib"
+    },
+    {
+      "id": "s6",
+      "text": "Planned to tell his parents about the museum that night.",
+      "correctCharId": "amir"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Why did Pushkin come to Uralsk in 1833?",
+      "opts": [
+        "To teach at a school",
+        "To research a historical uprising",
+        "To meet Kazakh merchants",
+        "To paint a portrait of the city"
+      ],
+      "correct": "To research a historical uprising",
+      "hint": "Dr. Akhmetov said Pushkin came to research a historical uprising and collect stories."
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek had already studied the Pugachev Rebellion at school.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zhibek said \"I didn't study that in school yet.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What happened to Pugachev in the end?",
+      "opts": [
+        "He escaped to Turkey",
+        "He became governor of Uralsk",
+        "He was captured and executed in Moscow",
+        "He surrendered and was sent to Siberia"
+      ],
+      "correct": "He was captured and executed in Moscow",
+      "hint": "Dr. Akhmetov: \"The government captured him in 1774. He was executed in Moscow.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "The sword ___ to a local commander, and his name was carved onto the handle.",
+      "correct": "belonged",
+      "hint": "Dr. Akhmetov said \"This particular sword belonged to a local commander.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What language was carved on the sword handle?",
+      "opts": [
+        "Latin",
+        "Arabic",
+        "Old Kazakh",
+        "An old form of Cyrillic"
+      ],
+      "correct": "An old form of Cyrillic",
+      "hint": "Dr. Akhmetov said it was \"an old form of Cyrillic.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Amir said he will tell his classmates about the museum.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir said he would tell his PARENTS, not classmates."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is the next special exhibition about?",
+      "opts": [
+        "The Pugachev Rebellion",
+        "The Kazakh steppe in the early 20th century",
+        "Famous Kazakh merchants",
+        "Pushkin's visit to Uralsk"
+      ],
+      "correct": "The Kazakh steppe in the early 20th century",
+      "hint": "Dr. Akhmetov mentioned \"a special exhibition next month about the Kazakh steppe in the early 20th century.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Which word best describes Zhibek's reaction to the museum?",
+      "opts": [
+        "Bored",
+        "Confused",
+        "Surprised and enthusiastic",
+        "Nervous and quiet"
+      ],
+      "correct": "Surprised and enthusiastic",
+      "hint": "Zhibek said \"I didn't expect history to be so interesting!\" and asked to come back."
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "id": "l32-4",
+  "moduleNum": 16,
+  "lessonNum": 4,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "grammar",
+  "title": "too / enough: too big, not big enough",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "too and enough",
+  "grammarNote": "\"Too\" и \"enough\" — о количестве/степени, но с разным значением и позицией:\n\n🔴 TOO = слишком (больше нормы, негативно):\n\"It's too hot.\" (слишком жарко — неприятно)\n\"She's too tired to study.\" (слишком устала — не может)\n\"This bag is too heavy.\" (проблема)\n\nПозиция: TOO + ПРИЛАГАТЕЛЬНОЕ/НАРЕЧИЕ\nКонструкция: too + adj + to + infinitive\n\"It's too cold to swim.\" · \"She's too young to drive.\"\n\n🟢 ENOUGH = достаточно (нейтрально/позитивно):\n\"The soup is warm enough.\" · \"She's not old enough to drive.\"\n\nПозиция ПОСЛЕ прилагательного: adj + ENOUGH\nwarm enough · strong enough · experienced enough\n\nПозиция ПЕРЕД существительным: ENOUGH + noun\nenough time · enough money · enough experience\n\nКонструкция: adj + enough + to + infinitive\n\"She's tall enough to play basketball.\"\n\n⚠️ Типичные ошибки:\n❌ \"She is enough tall.\" → ✅ \"She is tall enough.\"\n❌ \"I have too money.\" → ✅ \"I have enough money.\"",
+  "grammarTable": [
+    {
+      "subject": "Word",
+      "verb": "Position",
+      "short": "Meaning",
+      "example": "Example sentence"
+    },
+    {
+      "subject": "too",
+      "verb": "too + adjective",
+      "short": "more than needed",
+      "example": "The jacket is too expensive."
+    },
+    {
+      "subject": "too … to",
+      "verb": "too + adj + to + verb",
+      "short": "prevents action",
+      "example": "It's too expensive to buy."
+    },
+    {
+      "subject": "enough",
+      "verb": "adjective + enough",
+      "short": "right amount",
+      "example": "The bag is big enough."
+    },
+    {
+      "subject": "enough … to",
+      "verb": "adj + enough + to + verb",
+      "short": "enables action",
+      "example": "Is it warm enough to wear outside?"
+    },
+    {
+      "subject": "not enough",
+      "verb": "not + adj + enough",
+      "short": "less than needed",
+      "example": "This coat is not warm enough."
+    },
+    {
+      "subject": "too many/much",
+      "verb": "too many + countable noun",
+      "short": "excess quantity",
+      "example": "There are too many options."
+    },
+    {
+      "subject": "enough + noun",
+      "verb": "enough + noun",
+      "short": "sufficient quantity",
+      "example": "Do you have enough money?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "too + adjective",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "The shoes are too small for me.",
+          "example": "too = more than acceptable"
+        },
+        {
+          "form": "This bag is too heavy to carry.",
+          "example": "too = prevents carrying"
+        },
+        {
+          "form": "The colour is too bright for work.",
+          "example": "too = more than appropriate"
+        },
+        {
+          "form": "The jacket is too expensive to buy.",
+          "example": "too = prevents buying"
+        },
+        {
+          "form": "The jeans are too tight to wear comfortably.",
+          "example": "too = prevents comfort"
+        },
+        {
+          "form": "The fabric is too rough for sensitive skin.",
+          "example": "too = more than ideal"
+        }
+      ]
+    },
+    {
+      "title": "adjective + enough",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "The dress is long enough for the ceremony.",
+          "example": "enough = meets the requirement"
+        },
+        {
+          "form": "Are these boots warm enough for winter?",
+          "example": "enough = right amount of warmth"
+        },
+        {
+          "form": "The fabric is soft enough to wear all day.",
+          "example": "enough = enables wearing all day"
+        },
+        {
+          "form": "Is the discount big enough to make a difference?",
+          "example": "enough = meets expectation?"
+        },
+        {
+          "form": "The material is durable enough to last years.",
+          "example": "enough = sufficient durability"
+        },
+        {
+          "form": "The shop is close enough to walk to.",
+          "example": "enough = enables walking"
+        }
+      ]
+    },
+    {
+      "title": "not + adjective + enough",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "The jacket is not warm enough.",
+          "example": "(you need warmer)"
+        },
+        {
+          "form": "The bag is not big enough for my books.",
+          "example": "(you need bigger)"
+        },
+        {
+          "form": "The colour is not bright enough.",
+          "example": "(you need brighter)"
+        },
+        {
+          "form": "The discount is not large enough to interest me.",
+          "example": "(you need more)"
+        },
+        {
+          "form": "The quality is not good enough for the price.",
+          "example": "(you expect better)"
+        },
+        {
+          "form": "The size is not small enough.",
+          "example": "(you need smaller)"
+        }
+      ]
+    },
+    {
+      "title": "too vs not enough (same meaning)",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "It's too expensive.",
+          "example": "It's not cheap enough."
+        },
+        {
+          "form": "The coat is too big.",
+          "example": "The coat is not small enough."
+        },
+        {
+          "form": "It's too tight.",
+          "example": "It's not loose enough."
+        },
+        {
+          "form": "The bag is too heavy.",
+          "example": "The bag is not light enough."
+        },
+        {
+          "form": "The colour is too dark.",
+          "example": "The colour is not light enough."
+        },
+        {
+          "form": "It's too formal.",
+          "example": "It's not casual enough."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Запомни позиции:\n\nTOO → всегда ПЕРЕД прилагательным:\nTOO + adj: too hot · too small · too difficult · too expensive\n\"It's TOO HOT to go outside.\"\n\nENOUGH → ПОСЛЕ прилагательного, НО ПЕРЕД существительным:\nadj + ENOUGH: hot enough · big enough · cheap enough\n\"It's HOT ENOUGH to swim.\"\nENOUGH + noun: enough time · enough money · enough space\n\n🎯 Тест:\n\"The coffee is ___ hot to drink.\" → too\n\"She's tall ___ to reach the shelf.\" → enough\n\"He doesn't have ___ time.\" → enough",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose too or enough.",
+      "text": "The jacket is ___ expensive. I can't afford it.",
+      "opts": [
+        "enough",
+        "too",
+        "very",
+        "quite"
+      ],
+      "correct": "too",
+      "hint": "\"too\" comes before the adjective: too expensive."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with too or enough.",
+      "text": "Is it warm ___ to wear without a scarf?",
+      "correct": "enough",
+      "hint": "\"enough\" comes after the adjective: warm enough."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose too or enough.",
+      "text": "The bag is not big ___ for all my textbooks.",
+      "opts": [
+        "too",
+        "enough",
+        "very",
+        "quite"
+      ],
+      "correct": "enough",
+      "hint": "\"not big enough\" = not the right size. \"enough\" comes after the adjective."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with too or enough.",
+      "text": "The shoes are ___ small to fit me.",
+      "correct": "too",
+      "hint": "\"too small to fit\" — too + adjective + to + infinitive."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Complete the sentence.",
+      "text": "\"The dress is too long to ___.\" Fill in:",
+      "opts": [
+        "walk comfortable",
+        "walking comfortably",
+        "walk comfortably",
+        "walked comfortably"
+      ],
+      "correct": "walk comfortably",
+      "hint": "\"too … to\" + base verb (infinitive without \"to\"): to walk comfortably."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The bag is enough big for my books\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"The bag is big enough for my books.\" \"enough\" comes AFTER the adjective."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with too or enough.",
+      "text": "He isn't old ___ to vote.",
+      "correct": "enough",
+      "hint": "\"old enough\" = has reached the required age."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Find the equivalent meaning.",
+      "text": "\"It's too expensive\" has the same meaning as:",
+      "opts": [
+        "It's not expensive enough",
+        "It's not cheap enough",
+        "It's cheap enough",
+        "It's expensive enough"
+      ],
+      "correct": "It's not cheap enough",
+      "hint": "\"too expensive\" = the price exceeds what is acceptable = \"not cheap enough\"."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose too or enough.",
+      "text": "\"___ many options can be confusing.\" Fill in:",
+      "opts": [
+        "enough",
+        "too",
+        "very",
+        "quite"
+      ],
+      "correct": "too",
+      "hint": "\"too many\" + countable noun = more than needed."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with too or enough.",
+      "text": "Do you have ___ money to buy the jacket?",
+      "correct": "enough",
+      "hint": "\"enough\" before a noun: enough money."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which is correct?",
+      "opts": [
+        "She's too young to drive too.",
+        "She's too young to drive.",
+        "She's young too to drive.",
+        "She's enough young to drive."
+      ],
+      "correct": "She's too young to drive.",
+      "hint": "\"too + adj + to + verb\": too young to drive."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The coat is not warm enough for winter\" means the coat is too cold.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"not warm enough\" = below the required warmth = too cold for its purpose."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Position of \"too\" is:",
+      "opts": [
+        "After the adjective",
+        "Before the adjective",
+        "At the end of the sentence",
+        "Before the noun"
+      ],
+      "correct": "Before the adjective",
+      "hint": "\"too\" + adjective: too big, too expensive."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The jacket is ___ small. I need a larger size.",
+      "correct": "too",
+      "hint": "\"too\" = more than needed. Here: too small = not the right size."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Position of \"enough\" is:",
+      "opts": [
+        "Before the adjective",
+        "After the adjective",
+        "Before the noun always",
+        "At the beginning of the sentence"
+      ],
+      "correct": "After the adjective",
+      "hint": "\"enough\" comes AFTER the adjective: big enough, warm enough."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"The bag is enough big for my books\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"The bag is big enough for my books.\" \"enough\" comes AFTER the adjective."
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Is the jacket warm ___ for Kazakh winters?",
+      "correct": "enough",
+      "hint": "\"warm enough\" = has the right level of warmth."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"It's too expensive to buy\" — what does this mean?",
+      "opts": [
+        "I can buy it comfortably",
+        "The price stops me from buying it",
+        "It is a good price",
+        "I might buy it later"
+      ],
+      "correct": "The price stops me from buying it",
+      "hint": "\"too + adj + to + verb\" = the quality prevents the action."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She isn't confident ___ to do a presentation alone.",
+      "correct": "enough",
+      "hint": "\"confident enough\" = has the required level of confidence."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"It's too tight\" has the same meaning as:",
+      "opts": [
+        "It's loose enough",
+        "It's not loose enough",
+        "It's not tight enough",
+        "It's tight enough"
+      ],
+      "correct": "It's not loose enough",
+      "hint": "\"too tight\" = not enough room = \"not loose enough.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is correct?",
+      "opts": [
+        "enough warm to go outside",
+        "too warm to go outside",
+        "warm too to go outside",
+        "warm enough go outside"
+      ],
+      "correct": "too warm to go outside",
+      "hint": "\"too warm to go outside\" = it's warmer than needed for going outside."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "There are ___ many clothes in my wardrobe — I need to sort it out.",
+      "correct": "too",
+      "hint": "\"too many\" + countable noun = more than needed."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In reading 1, what is the \"fast fashion\" concern?",
+      "opts": [
+        "Clothes are too expensive",
+        "Cheap clothes create huge textile waste",
+        "Traditional designs are unpopular",
+        "Fabric quality is improving"
+      ],
+      "correct": "Cheap clothes create huge textile waste",
+      "hint": "Paragraph 5: \"Cheap clothes that are worn a few times… create enormous amounts of textile waste.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In reading 2, why does Amir buy electronics online?",
+      "opts": [
+        "The quality is better online",
+        "The prices are much lower",
+        "It arrives faster",
+        "He prefers not to go to shops"
+      ],
+      "correct": "The prices are much lower",
+      "hint": "Paragraph 5: \"Amir always buys electronics online because the prices are much lower.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "The shapan is a traditional Kazakh hat.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Paragraph 2: the shapan is a long robe; the takhiya is the traditional hat."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Fast fashion\" refers to:",
+      "opts": [
+        "Clothes that are made very quickly for professional athletes",
+        "Cheaply made clothes designed to be worn briefly and discarded",
+        "Traditional fashion from the past",
+        "High-quality designer clothing"
+      ],
+      "correct": "Cheaply made clothes designed to be worn briefly and discarded",
+      "hint": "\"Fast fashion\" = cheap, trendy clothes produced rapidly, leading to waste."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She bought a ___ coat — someone had worn it before, but it was in perfect condition.",
+      "correct": "second-hand",
+      "hint": "\"Second-hand\" = previously owned by someone else; not new."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Accessories\" in fashion means:",
+      "opts": [
+        "The main items of clothing",
+        "Extra items like bags, scarves, and jewellery",
+        "The fabric used to make clothes",
+        "Seasonal fashion trends"
+      ],
+      "correct": "Extra items like bags, scarves, and jewellery",
+      "hint": "\"Accessories\" = items that complement an outfit but are not the main garment."
+    }
+  ]
+}

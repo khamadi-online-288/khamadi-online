@@ -1,0 +1,287 @@
+{
+  "id": "l31-1",
+  "moduleNum": 15,
+  "lessonNum": 1,
+  "moduleTitle": "Environment",
+  "type": "reading",
+  "title": "Saving Our Planet",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Climate change is one of the biggest challenges of our time. Temperatures are rising, glaciers are melting, and extreme weather events are becoming more frequent. Scientists agree that human activity — especially the burning of fossil fuels — is the main cause.",
+    "Kazakhstan is particularly affected by environmental change. The Aral Sea, once the fourth largest lake in the world, has almost completely dried up due to irrigation projects in the twentieth century. This is considered one of the greatest environmental disasters in history.",
+    "But there is hope. Renewable energy sources — solar, wind, and hydroelectric power — are being developed around the world. In Kazakhstan, the government has committed to producing 15% of its electricity from renewable sources by 2030.",
+    "Many young people are taking action. At WKU, students have formed an Eco Club. They organise tree-planting events, recycling campaigns, and awareness programmes. 'Every action counts,' says the club president, Zhibek Akhmetova.",
+    "Individual changes matter too. Plastic bags are being replaced by reusable ones. Public transport is being expanded in major cities. Many products are now made from recycled materials. Each small step adds up.",
+    "The environment is not just a science issue — it is an economic and social issue. If we don't act now, the costs in the future will be enormous. As Zhibek says: 'We don't inherit the Earth from our ancestors — we borrow it from our children.'"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Did you know that plastic is produced in huge quantities every year, and most of it is never recycled?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I know — it's terrifying. What can we do as students?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Small things make a difference. Carry a reusable bottle. Use public transport. Sort your rubbish.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Our Eco Club is organising a clean-up day next Saturday. Will you come?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Of course! The river near campus is being polluted — we need to act.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "passive voice: is/are + past participle",
+      "ru": "страдательный залог",
+      "context": "Plastic bags are replaced by reusable ones."
+    },
+    {
+      "phrase": "is being + past participle",
+      "ru": "страдательный залог настоящее",
+      "context": "Renewable energy is being developed worldwide."
+    },
+    {
+      "phrase": "renewable energy",
+      "ru": "возобновляемая энергия",
+      "context": "Solar and wind are renewable energy sources."
+    },
+    {
+      "phrase": "climate change",
+      "ru": "изменение климата",
+      "context": "Climate change is one of the biggest challenges of our time."
+    },
+    {
+      "phrase": "take action",
+      "ru": "принимать меры, действовать",
+      "context": "Many young people are taking action for the environment."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "renewable",
+      "ipa": "/rɪˈnjuː.ə.bəl/",
+      "pos": "adj",
+      "ru": "возобновляемый",
+      "kz": "жаңартылатын",
+      "emoji": "♻️",
+      "definition": "Able to be replaced naturally and used again without running out.",
+      "example": "Solar and wind are renewable energy sources.",
+      "collocations": [
+        "renewable energy",
+        "renewable resources",
+        "renewable materials"
+      ]
+    },
+    {
+      "en": "fossil fuels",
+      "ipa": "/ˈfɒs.əl fjuːlz/",
+      "pos": "n",
+      "ru": "ископаемое топливо",
+      "kz": "қазба отын",
+      "emoji": "⛽",
+      "definition": "Natural fuels like coal and oil formed millions of years ago.",
+      "example": "Burning fossil fuels is the main cause of climate change.",
+      "collocations": [
+        "burn fossil fuels",
+        "fossil fuel emissions",
+        "replace fossil fuels"
+      ]
+    },
+    {
+      "en": "glacier",
+      "ipa": "/ˈɡlæs.i.ər/",
+      "pos": "n",
+      "ru": "ледник",
+      "kz": "мұздық",
+      "emoji": "🧊",
+      "definition": "A large mass of ice that moves slowly over land.",
+      "example": "Glaciers are melting due to rising temperatures.",
+      "collocations": [
+        "melting glaciers",
+        "glacier retreat",
+        "glacier water"
+      ]
+    },
+    {
+      "en": "recycle",
+      "ipa": "/ˌriːˈsaɪ.kəl/",
+      "pos": "v",
+      "ru": "перерабатывать, рециклировать",
+      "kz": "қайта өңдеу",
+      "emoji": "🔄",
+      "definition": "To process used materials to make new products.",
+      "example": "Students are encouraged to recycle their waste.",
+      "collocations": [
+        "recycle plastic",
+        "recycling campaign",
+        "recycled materials"
+      ]
+    },
+    {
+      "en": "irrigation",
+      "ipa": "/ˌɪr.ɪˈɡeɪ.ʃən/",
+      "pos": "n",
+      "ru": "орошение, ирригация",
+      "kz": "суару",
+      "emoji": "💧",
+      "definition": "Supplying water to land for farming through channels or pipes.",
+      "example": "The Aral Sea dried up due to irrigation projects.",
+      "collocations": [
+        "irrigation system",
+        "irrigation projects",
+        "irrigation water"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "renewable",
+      "emoji": "♻️",
+      "opts": [
+        "Used only once",
+        "Able to be replaced naturally",
+        "Very expensive to produce",
+        "Made from fossil fuels"
+      ],
+      "correct": "Able to be replaced naturally"
+    },
+    {
+      "id": "p2",
+      "word": "fossil fuels",
+      "emoji": "⛽",
+      "opts": [
+        "Solar and wind energy",
+        "Coal, oil, and natural gas",
+        "Hydroelectric power",
+        "Nuclear energy"
+      ],
+      "correct": "Coal, oil, and natural gas"
+    },
+    {
+      "id": "p3",
+      "word": "glacier",
+      "emoji": "🧊",
+      "opts": [
+        "A type of renewable energy",
+        "A river in Kazakhstan",
+        "A large mass of ice that moves slowly over land",
+        "A type of ocean current"
+      ],
+      "correct": "A large mass of ice that moves slowly over land"
+    },
+    {
+      "id": "p4",
+      "word": "recycle",
+      "emoji": "🔄",
+      "opts": [
+        "To throw away used materials",
+        "To process used materials to make new products",
+        "To reduce energy usage",
+        "To plant new trees"
+      ],
+      "correct": "To process used materials to make new products"
+    },
+    {
+      "id": "p5",
+      "word": "irrigation",
+      "emoji": "💧",
+      "opts": [
+        "Planting trees in cities",
+        "Cleaning polluted rivers",
+        "Supplying water to land for farming",
+        "Collecting rainwater"
+      ],
+      "correct": "Supplying water to land for farming"
+    }
+  ],
+  "task1Bank": [
+    "recycled",
+    "renewable",
+    "developed",
+    "replaced",
+    "expanded",
+    "produced",
+    "committed",
+    "affected"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "Kazakhstan is particularly ___ by environmental change.",
+      "correct": "affected"
+    },
+    {
+      "id": "i2",
+      "question": "Renewable energy sources are being ___ around the world.",
+      "correct": "developed"
+    },
+    {
+      "id": "i3",
+      "question": "The government has ___ to 15% renewable energy by 2030.",
+      "correct": "committed"
+    },
+    {
+      "id": "i4",
+      "question": "Plastic bags are being ___ by reusable ones.",
+      "correct": "replaced"
+    },
+    {
+      "id": "i5",
+      "question": "Many products are made from ___ materials.",
+      "correct": "recycled"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "The Aral Sea is now the largest lake in the world.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "WKU students have formed an Eco Club.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Zhibek is the president of the Eco Club.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "Kazakhstan plans to produce 50% of electricity from renewables by 2030.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "The article says the environment is only a science issue.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

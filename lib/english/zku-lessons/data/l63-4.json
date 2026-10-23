@@ -1,0 +1,216 @@
+{
+  "id": "l63-4",
+  "moduleNum": 5,
+  "lessonNum": 7,
+  "moduleTitle": "Modal Verbs: Deduction & Advice",
+  "type": "writing",
+  "title": "An Analytical Essay: Evidence, Deduction & Retrospective Judgement",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "The evidence suggests that",
+      "emoji": "🔍",
+      "opts": [
+        "Это доказывает что",
+        "Улики/данные предполагают что",
+        "Ясно что",
+        "Невозможно что"
+      ],
+      "correct": "Улики/данные предполагают что"
+    },
+    {
+      "id": "p2",
+      "word": "This must have been caused by",
+      "emoji": "🔗",
+      "opts": [
+        "Это точно было вызвано",
+        "Это скорее всего было вызвано",
+        "Это невозможно было вызвано",
+        "Это могло быть вызвано"
+      ],
+      "correct": "Это скорее всего было вызвано"
+    },
+    {
+      "id": "p3",
+      "word": "They should have responded by",
+      "emoji": "⚠️",
+      "opts": [
+        "Им следовало ответить к",
+        "Они могли ответить к",
+        "Им не нужно было отвечать к",
+        "Они должны ответить к"
+      ],
+      "correct": "Им следовало ответить к"
+    },
+    {
+      "id": "p4",
+      "word": "The decision could have been different if",
+      "emoji": "💭",
+      "opts": [
+        "Решение уже было другим",
+        "Решение могло бы быть другим если",
+        "Решение не могло быть другим",
+        "Решение будет другим если"
+      ],
+      "correct": "Решение могло бы быть другим если"
+    },
+    {
+      "id": "p5",
+      "word": "It is difficult to say with certainty, but it might have",
+      "emoji": "🤔",
+      "opts": [
+        "Точно произошло",
+        "Трудно сказать наверняка, но могло произойти",
+        "Невозможно что произошло",
+        "Определённо произошло"
+      ],
+      "correct": "Трудно сказать наверняка, но могло произойти"
+    },
+    {
+      "id": "p6",
+      "word": "In retrospect, more attention should have been paid to",
+      "emoji": "🔙",
+      "opts": [
+        "В будущем нужно уделять",
+        "В ретроспективе больше внимания следовало уделять",
+        "Сейчас нужно уделять",
+        "Раньше уделяли"
+      ],
+      "correct": "В ретроспективе больше внимания следовало уделять"
+    }
+  ],
+  "writingModel": [
+    "What Went Wrong with the WKU Library Renovation? An Analytical Assessment",
+    "Introduction",
+    "In late 2024, the WKU central library underwent a six-month renovation. The project ran three months over schedule and significantly over budget. The original deadline must have seemed achievable at the planning stage — the project scope was not unusual for a building of this size. Yet the delays were extensive. This essay analyses what went wrong, what should have been done differently, and what can be learned for future projects.",
+    "What the Evidence Suggests",
+    "Several factors must have contributed to the overrun. The initial contractor, who was responsible for the structural work, was replaced after two months. This replacement can't have been planned — it suggests a serious performance failure that should have been identified earlier in the tendering process. The original tender may have been too focused on cost, and the lowest bidder might not have had the capacity to deliver on time.",
+    "Furthermore, the procurement of materials appears to have been poorly coordinated. Delays in material delivery must have cascaded, pushing subsequent phases back. The project manager's records, which have since been reviewed, suggest that problems were being identified internally but weren't being escalated. Someone should have raised these concerns with senior management much earlier.",
+    "What Could Have Been Done Differently",
+    "Several missed opportunities can be identified. First, the university could have engaged a project management consultant from the outset. Given the scale and importance of the renovation, this oversight is surprising. Second, the tendering process ought to have included stricter capacity requirements — the lowest bid should have been rejected on those grounds alone.",
+    "Third, a contingency budget should have been established at the start. None was apparently set aside. The project needn't have failed so expensively had basic risk mitigation been applied.",
+    "Conclusion",
+    "The evidence suggests that the overrun was largely avoidable. The project must have failed for a combination of reasons: a weak initial contractor, poor procurement coordination, and inadequate escalation of early warning signs. More attention should have been paid to risk management from the beginning. Future renovations of comparable scale should be subject to independent oversight throughout."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "What Went Wrong with ",
+      "suffix": "? An Analytical Assessment",
+      "placeholder": "your topic/event/project",
+      "hint": "\"What Went Wrong with X?\" — analytical essay title."
+    },
+    {
+      "key": "intro",
+      "prefix": "In [time period], ",
+      "suffix": ". The original plan must have seemed achievable, yet...",
+      "placeholder": "introduce the event and its failure",
+      "hint": "Introduce the topic using modal deduction: \"must have seemed achievable.\" ✅"
+    },
+    {
+      "key": "evid1",
+      "prefix": "Several factors must have ",
+      "suffix": ". This can't have been planned — it suggests ___.",
+      "placeholder": "contributed to the failure + cause",
+      "hint": "\"must have contributed\" (deduction) + \"can't have been planned\" (impossibility). ✅"
+    },
+    {
+      "key": "evid2",
+      "prefix": "The problems were being identified but ",
+      "suffix": ". Someone should have ___.",
+      "placeholder": "weren't escalated + retrospective advice",
+      "hint": "\"should have [action]\" = criticism of what wasn't done. ✅"
+    },
+    {
+      "key": "could",
+      "prefix": "The [organisation] could have ",
+      "suffix": ". Given the scale, this oversight might have ___.",
+      "placeholder": "alternative action + possible explanation",
+      "hint": "\"could have [done]\" = opportunity not taken. \"might have [been]\" = possible reason. ✅"
+    },
+    {
+      "key": "ought",
+      "prefix": "The [process] ought to have ",
+      "suffix": ".",
+      "placeholder": "stronger moral/ethical obligation",
+      "hint": "\"ought to have [done]\" = stronger moral obligation not met. ✅"
+    },
+    {
+      "key": "neednt",
+      "prefix": "The [outcome] needn't have ",
+      "suffix": " had [condition].",
+      "placeholder": "unnecessary failure + condition",
+      "hint": "\"needn't have failed\" = the failure happened but was unnecessary. ✅"
+    },
+    {
+      "key": "concl",
+      "prefix": "The evidence suggests the [outcome] was largely avoidable. The [event] must have ",
+      "suffix": ". More attention should have been paid to ___.",
+      "placeholder": "combination of deduction + retrospective advice",
+      "hint": "Combine deduction (must have) with retrospective advice (should have). ✅"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Analytical deduction (present/past)",
+      "color": "#003876",
+      "items": [
+        "The evidence suggests that X must have been caused by Y.",
+        "This can't have been accidental — it suggests...",
+        "The original plan must have seemed feasible at the time.",
+        "Problems might have been identified earlier if...",
+        "The data could indicate that X was the primary cause."
+      ]
+    },
+    {
+      "category": "Retrospective criticism / advice",
+      "color": "#1D9E75",
+      "items": [
+        "The [decision-makers] should have responded sooner.",
+        "Concerns ought to have been raised with management earlier.",
+        "The tendering process should have been more rigorous.",
+        "A contingency plan should have been established at the outset.",
+        "The lowest bid should have been rejected on those grounds."
+      ]
+    },
+    {
+      "category": "Unrealised alternatives (could have)",
+      "color": "#1B8FC4",
+      "items": [
+        "The organisation could have engaged a consultant from the start.",
+        "A different approach could have been taken to risk management.",
+        "The procurement process could have been better coordinated.",
+        "A more thorough needs assessment might have prevented this.",
+        "The project could have succeeded with better oversight."
+      ]
+    },
+    {
+      "category": "Unnecessary actions (needn't have)",
+      "color": "#C9933B",
+      "items": [
+        "The failure needn't have been so costly had basic measures been applied.",
+        "The project needn't have run over schedule had the contractor been vetted properly.",
+        "Much of the disruption needn't have occurred.",
+        "The cost overrun needn't have been so severe."
+      ]
+    }
+  ]
+}

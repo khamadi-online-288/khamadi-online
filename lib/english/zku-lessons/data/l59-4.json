@@ -1,0 +1,228 @@
+{
+  "id": "l59-4",
+  "moduleNum": 1,
+  "lessonNum": 7,
+  "moduleTitle": "Complex Conversations",
+  "type": "writing",
+  "title": "A Reflective Personal Statement",
+  "xp": 80,
+  "duration": 90,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "When I first arrived,",
+      "emoji": "🚪",
+      "opts": [
+        "В последнее время",
+        "Когда я только приехал",
+        "Сейчас",
+        "В будущем"
+      ],
+      "correct": "Когда я только приехал"
+    },
+    {
+      "id": "p2",
+      "word": "I had been expecting...",
+      "emoji": "💭",
+      "opts": [
+        "Я ожидал (уже давно)",
+        "Я ожидаю сейчас",
+        "Я ожидал один раз",
+        "Я не ожидал"
+      ],
+      "correct": "Я ожидал (уже давно)"
+    },
+    {
+      "id": "p3",
+      "word": "Over the past two years,",
+      "emoji": "📅",
+      "opts": [
+        "Когда-то в прошлом",
+        "За последние два года",
+        "Через два года",
+        "В течение двух лет до этого"
+      ],
+      "correct": "За последние два года"
+    },
+    {
+      "id": "p4",
+      "word": "I have been discovering...",
+      "emoji": "🔍",
+      "opts": [
+        "Я открываю (постоянный процесс до сейчас)",
+        "Я открыл однажды",
+        "Я буду открывать",
+        "Я открывал раньше"
+      ],
+      "correct": "Я открываю (постоянный процесс до сейчас)"
+    },
+    {
+      "id": "p5",
+      "word": "I have realised that...",
+      "emoji": "💡",
+      "opts": [
+        "Я собираюсь понять",
+        "Я понял (результат)",
+        "Я понимал раньше",
+        "Я будущем пойму"
+      ],
+      "correct": "Я понял (результат)"
+    },
+    {
+      "id": "p6",
+      "word": "Going forward, I intend to...",
+      "emoji": "🎯",
+      "opts": [
+        "Оглядываясь назад",
+        "В дальнейшем я намерен",
+        "Прямо сейчас я",
+        "Раньше я намеревался"
+      ],
+      "correct": "В дальнейшем я намерен"
+    }
+  ],
+  "writingModel": [
+    "Who I Was and Who I Am Becoming — Amir Bekzhanov",
+    "When I first arrived at WKU two years ago, I had a clear image of who I was and what I wanted: a computer science student from Aktobe who was going to graduate, find a good job, and return home. I had been building towards this plan for years. I had studied hard, had chosen my subjects carefully, and had arrived with my future, as I imagined it, largely planned.",
+    "The plan was not wrong. But it was incomplete. What I had not anticipated was how much the experience of being here — the conversations, the difficulties, the unexpected things I have found myself caring about — would reshape not the plan, but the person who was following it.",
+    "Over the past two years, I have been changing in ways that are difficult to describe precisely. I arrived speaking English as a learned system. I have been using it as a working tool. The shift happened without my noticing. One afternoon I realised I had been writing documentation for three hours without once stopping to translate. That moment told me something about fluency that no test result has.",
+    "I have also been discovering things about myself that I did not know before I left home. I had assumed I was someone who worked best alone. But since I began collaborating on projects with classmates — people who had been studying the same problems from completely different angles — I have found that I think better in dialogue than in isolation. The friction of other perspectives has been producing better work than I had ever produced alone.",
+    "What I have learned most clearly is this: the person I was when I arrived had been formed by everything I had experienced before — my family, my school, my city. The person I am becoming is being formed by everything that has been happening since. Both of these people are me. But the second one is more interesting.",
+    "Going forward, I intend to continue this process deliberately. I have been developing skills in machine learning that I plan to apply in contexts I have not yet imagined. I have been building relationships with people whose work I admire and whose questions challenge me. I have been reading — more widely than any course has demanded — because I have realised that the most important parts of my education have been the ones that nobody assigned.",
+    "I do not know exactly who I will be in four years. But I know that I have been learning how to not be afraid of that uncertainty. That, more than any technical skill, feels like progress."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — ",
+      "placeholder": "Title of your personal statement",
+      "hint": "\"Who I Was and Who I Am Becoming\" / \"Two Years In\" / \"What University Has Changed\""
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "past1",
+      "prefix": "When I first arrived, I had ",
+      "suffix": "",
+      "placeholder": "a past plan or expectation (PP)",
+      "hint": "\"I had a clear image...\" / \"I had been expecting...\" / \"I had planned...\" — use Past Perfect for what existed before."
+    },
+    {
+      "key": "change",
+      "prefix": "What I had not anticipated was ",
+      "suffix": "",
+      "placeholder": "what surprised you / what changed",
+      "hint": "\"What I had not anticipated was how much...\" — use Past Perfect for the earlier assumption."
+    },
+    {
+      "key": "ppc",
+      "prefix": "Over the past two years, I have been ",
+      "suffix": "",
+      "placeholder": "changing / learning / discovering",
+      "hint": "Use Present Perfect Continuous for the ongoing process of change up to now."
+    },
+    {
+      "key": "result",
+      "prefix": "I have realised that ",
+      "suffix": "",
+      "placeholder": "a key insight or result (PPS)",
+      "hint": "\"I have realised...\" = Present Perfect Simple. A completed discovery with present relevance."
+    },
+    {
+      "key": "before",
+      "prefix": "I had assumed ",
+      "suffix": "",
+      "placeholder": "what you believed before (PP)",
+      "hint": "\"I had assumed I was someone who...\" — what you used to think, now proved incomplete or wrong."
+    },
+    {
+      "key": "now",
+      "prefix": "Since ",
+      "suffix": "",
+      "placeholder": "a specific change / since + time",
+      "hint": "\"Since I began X, I have found...\" / \"Since arriving, I have been discovering...\" ✅"
+    },
+    {
+      "key": "future",
+      "prefix": "Going forward, I intend to ",
+      "suffix": "",
+      "placeholder": "your plans and intentions",
+      "hint": "\"I intend to...\" / \"I plan to...\" / \"I am going to...\" — clear intention for the future."
+    },
+    {
+      "key": "close",
+      "prefix": "I do not know exactly who I will be, but I know that I have been ",
+      "suffix": "",
+      "placeholder": "learning / developing / growing",
+      "hint": "Close with PPC + reflection. \"I have been learning how to...\" ✅"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening — who you were (Past Perfect)",
+      "color": "#003876",
+      "items": [
+        "When I first arrived, I had been expecting...",
+        "Before coming to WKU, I had always believed...",
+        "I had planned my future carefully. I had chosen...",
+        "I had assumed I was someone who...",
+        "The person I was had been formed by everything I had experienced before."
+      ]
+    },
+    {
+      "category": "The process of change (Present Perfect Continuous)",
+      "color": "#1D9E75",
+      "items": [
+        "Over the past two years, I have been changing...",
+        "I have been discovering things about myself that...",
+        "I have been learning how to...",
+        "I have been developing skills in... that I plan to...",
+        "I have been reading more widely than any course has demanded."
+      ]
+    },
+    {
+      "category": "Results and realisations (Present Perfect Simple)",
+      "color": "#1B8FC4",
+      "items": [
+        "I have realised that...",
+        "I have found that I think better in...",
+        "I have learned that...",
+        "The shift has happened without my noticing.",
+        "That moment has told me something that no test result has."
+      ]
+    },
+    {
+      "category": "Looking forward (Future forms)",
+      "color": "#C9933B",
+      "items": [
+        "Going forward, I intend to...",
+        "I plan to apply these skills in...",
+        "I am going to continue...",
+        "I do not know exactly who I will be, but...",
+        "I have been learning how to not be afraid of that uncertainty."
+      ]
+    }
+  ]
+}

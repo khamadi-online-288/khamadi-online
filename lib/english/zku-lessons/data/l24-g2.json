@@ -1,0 +1,594 @@
+{
+  "id": "l24-g2",
+  "moduleNum": 8,
+  "lessonNum": 4,
+  "moduleTitle": "Traditions & Culture",
+  "title": "Past Simple vs used to",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Simple vs used to",
+  "grammarNote": "Past Simple и \"used to\" оба описывают прошлое, но означают РАЗНЫЕ вещи:\n\n📌 PAST SIMPLE — конкретное событие в конкретный момент:\n   \"I visited my grandmother last week.\" (один конкретный раз)\n   \"She called me at 9 pm yesterday.\" (конкретный момент)\n\n📌 USED TO — повторяющаяся привычка / состояние, которое изменилось:\n   \"I used to visit my grandmother every Sunday.\" (регулярно, но уже нет)\n   \"She used to call me every evening.\" (привычка в прошлом)\n\n🔑 Тест: можно добавить \"every day / regularly\"?\n✅ Да → used to: \"I used to exercise every morning.\"\n❌ Нет (один раз) → Past Simple: \"I exercised yesterday morning.\"",
+  "grammarTable": [
+    {
+      "subject": "Past Simple — specific event",
+      "verb": "went",
+      "short": "visited / met",
+      "example": "We went to the Nauryz festival last year."
+    },
+    {
+      "subject": "Past Simple — completed action",
+      "verb": "celebrated",
+      "short": "prepared / ate",
+      "example": "She prepared Nauryz kozhe on March 21st."
+    },
+    {
+      "subject": "used to — repeated habit",
+      "verb": "used to go",
+      "short": "used to visit",
+      "example": "We used to go to the big city festival every year."
+    },
+    {
+      "subject": "used to — past state",
+      "verb": "used to have",
+      "short": "used to be",
+      "example": "They used to have a yurt in their garden."
+    },
+    {
+      "subject": "BOTH can be used",
+      "verb": "walked / used to walk",
+      "short": "depends on meaning",
+      "example": "I walked to school. / I used to walk to school."
+    },
+    {
+      "subject": "Past Simple — NOT \"used to\"",
+      "verb": "visited (once)",
+      "short": "single event",
+      "example": "She visited Almaty in 2020. (NOT: she used to visit in 2020)"
+    },
+    {
+      "subject": "\"used to\" — NOT Past Simple",
+      "verb": "used to smoke",
+      "short": "habit that stopped",
+      "example": "He used to smoke. (can't say: he smoked = unclear if habit)"
+    },
+    {
+      "subject": "Time words help decide",
+      "verb": "yesterday / ago = Past Simple",
+      "short": "when I was young = used to",
+      "example": "She visited in 2018. / She used to visit when she was young."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "When to use Past Simple (NOT \"used to\")",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "A single event at a specific time",
+          "example": "She visited Nauryz celebrations in Uralsk in 2021."
+        },
+        {
+          "form": "A sequence of events (then... then... then...)",
+          "example": "She arrived, put on her dress, and walked to the celebration."
+        },
+        {
+          "form": "A completed state for a specific period",
+          "example": "He was in Almaty for two weeks in 2023."
+        },
+        {
+          "form": "An interrupting event in a narrative",
+          "example": "While we were cooking, grandmother arrived."
+        },
+        {
+          "form": "With specific time references: yesterday, on Monday, in 1969",
+          "example": "Pushkin visited Uralsk in 1833. (specific date → Past Simple)"
+        },
+        {
+          "form": "Situations that occurred only once",
+          "example": "She made Nauryz kozhe for the first time last year."
+        }
+      ]
+    },
+    {
+      "title": "When to use \"used to\" (NOT Past Simple alone)",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "A repeated past habit (implies: not anymore)",
+          "example": "We used to have big Nauryz parties. (we don't now)"
+        },
+        {
+          "form": "A long-lasting past state (implies: changed now)",
+          "example": "She used to be very shy. (she isn't now)"
+        },
+        {
+          "form": "Contrasting past vs present",
+          "example": "People used to travel by horse — now everyone drives."
+        },
+        {
+          "form": "With when I was young / as a child / in those days / back then",
+          "example": "When I was young, we used to make Nauryz kozhe outdoors."
+        },
+        {
+          "form": "Something that was true for a long time (not a specific day)",
+          "example": "He used to play the dombra. (over many years)"
+        },
+        {
+          "form": "NOT for single events — it implies repeated pattern",
+          "example": "She used to arrive late. (= she was always late, not once)"
+        }
+      ]
+    },
+    {
+      "title": "Both Possible — Different Nuance",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "Past Simple: \"She walked to school.\"",
+          "example": "Could mean once, or could be a habit — context unclear."
+        },
+        {
+          "form": "\"used to\": \"She used to walk to school.\"",
+          "example": "Clear: this was a regular habit, and she no longer does it."
+        },
+        {
+          "form": "Past Simple in a story/narrative",
+          "example": "She woke up, got dressed, and walked to school."
+        },
+        {
+          "form": "\"used to\" for background habit in a story",
+          "example": "She used to walk to school, but one day she took the bus."
+        },
+        {
+          "form": "\"would\" for past habits (same as \"used to\")",
+          "example": "She would walk to school every day. (literary/formal)"
+        },
+        {
+          "form": "\"would\" CANNOT replace \"used to\" for states",
+          "example": "She used to be poor. ✓ / She would be poor. ✗ (incorrect)"
+        }
+      ]
+    },
+    {
+      "title": "Tricky Cases — Watch Out!",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "Past Simple for something that happened once at Nauryz",
+          "example": "Last year, she made Nauryz kozhe for the first time. (= once, Past Simple)"
+        },
+        {
+          "form": "\"used to\" impossible with a specific time",
+          "example": "She used to visit Almaty in 2021. ✗ (2021 is a specific year — use Past Simple)"
+        },
+        {
+          "form": "\"How long\" questions → Past Simple",
+          "example": "How long did she live there? (specific duration → Past Simple, not used to)"
+        },
+        {
+          "form": "\"used to\" with stative verbs (know, believe, think, have)",
+          "example": "He used to know the recipe. / We used to have a yurt. ✓"
+        },
+        {
+          "form": "Negative of Past Simple ≠ negative of \"used to\"",
+          "example": "She didn't celebrate Nauryz last year. vs She didn't use to celebrate Nauryz (ever)."
+        },
+        {
+          "form": "Do not confuse \"be used to\" (accustomed) with \"used to\"",
+          "example": "I am used to spicy food. (= accustomed) ≠ I used to eat spicy food. (past habit)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Быстрый тест:\n\"Это было регулярно / снова и снова?\" → used to ✅\n\"Это было один раз / в конкретный момент?\" → Past Simple ✅\n\n\"I _____ smoke.\" (курил — прошлая привычка) → USED TO smoke\n\"I _____ a cigarette yesterday.\" (один раз) → smoked\n\"She _____ live in Paris.\" (раньше жила, сейчас нет) → USED TO live\n\"She _____ to Paris last year.\" (поехала один раз) → went",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose Past Simple or \"used to\".",
+      "text": "She ___ Nauryz kozhe for the first time last week.",
+      "opts": [
+        "used to make",
+        "made",
+        "use to make",
+        "was making"
+      ],
+      "correct": "made",
+      "hint": "\"For the first time last week\" = a single completed event → Past Simple."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose Past Simple or \"used to\".",
+      "text": "When Amir was young, his family ___ set up a big yurt for Nauryz every year.",
+      "opts": [
+        "used to",
+        "were",
+        "made to",
+        "is used to"
+      ],
+      "correct": "used to",
+      "hint": "\"Every year when young\" = repeated past habit → \"used to\"."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose Past Simple or \"used to\".",
+      "text": "Kamila ___ the museum in Uralsk with her class last Thursday.",
+      "opts": [
+        "used to visit",
+        "visited",
+        "would visit",
+        "use to visit"
+      ],
+      "correct": "visited",
+      "hint": "\"Last Thursday\" = specific time → Past Simple."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose Past Simple or \"used to\".",
+      "text": "People ___ travel by horse before cars were invented.",
+      "opts": [
+        "used to",
+        "were using to",
+        "use to",
+        "travel"
+      ],
+      "correct": "used to",
+      "hint": "Before cars = long past habit that no longer exists → \"used to\"."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Find the incorrect sentence.",
+      "text": "Which sentence is WRONG?",
+      "opts": [
+        "She used to be poor.",
+        "He used to know the answer.",
+        "She used to arrive in Uralsk in 2019.",
+        "They used to have a big family."
+      ],
+      "correct": "She used to arrive in Uralsk in 2019.",
+      "hint": "\"In 2019\" is a specific time → must use Past Simple: \"She arrived in Uralsk in 2019.\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with Past Simple or \"used to\".",
+      "text": "When she was a child, Kamila ___ (not/like) traditional music. Now she loves it.",
+      "opts": [
+        "didn't use to like",
+        "didn't like (once)",
+        "was not like",
+        "didn't used to like"
+      ],
+      "correct": "didn't use to like",
+      "hint": "\"When she was a child... now she loves it\" = past state vs present contrast → \"used to\"."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Last Nauryz, they ___ fifty guests at their home.",
+      "opts": [
+        "used to invite",
+        "invited",
+        "use to invite",
+        "would invited"
+      ],
+      "correct": "invited",
+      "hint": "\"Last Nauryz\" = specific past event → Past Simple."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "My grandfather ___ the dombra every evening as a child.",
+      "opts": [
+        "plays",
+        "used to play",
+        "played yesterday",
+        "is playing"
+      ],
+      "correct": "used to play",
+      "hint": "Regular childhood habit (every evening) that no longer continues → \"used to\"."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "What is the difference?",
+      "text": "\"She walked to school.\" vs \"She used to walk to school.\" — what is the key difference?",
+      "opts": [
+        "No difference",
+        "Past Simple is single/unclear; \"used to\" clearly shows a repeated habit",
+        "\"used to\" is more formal",
+        "Past Simple is about the future"
+      ],
+      "correct": "Past Simple is single/unclear; \"used to\" clearly shows a repeated habit",
+      "hint": "\"used to walk\" is unambiguous: it was a regular habit that has now stopped."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "He ___ (not/be) interested in history. Then he visited the museum and changed his mind.",
+      "opts": [
+        "didn't use to be",
+        "wasn't used to be",
+        "used to not be",
+        "didn't used to be"
+      ],
+      "correct": "didn't use to be",
+      "hint": "Past state that changed: \"didn't use to be\" (negative of \"used to\" for states)."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She arrived home, changed clothes, and ___ the Nauryz song with her family.",
+      "opts": [
+        "used to sing",
+        "singing",
+        "sang",
+        "would sing"
+      ],
+      "correct": "sang",
+      "hint": "Sequence of events in a narrative → Past Simple (arrived... changed... sang)."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify which sentence is about a past STATE.",
+      "text": "Choose the sentence describing a past state with \"used to\".",
+      "opts": [
+        "She used to walk to school.",
+        "He used to visit his grandmother.",
+        "They used to run to school.",
+        "I used to be afraid of speaking English."
+      ],
+      "correct": "I used to be afraid of speaking English.",
+      "hint": "\"Be afraid\" is a state (not an action) → \"used to be\" describes a past state."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence uses the correct form?",
+      "opts": [
+        "She used to cook yesterday.",
+        "She cooked Nauryz kozhe yesterday.",
+        "She use to cook yesterday.",
+        "She would cooked yesterday."
+      ],
+      "correct": "She cooked Nauryz kozhe yesterday.",
+      "hint": "\"Yesterday\" = specific time → Past Simple."
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "When Kamila was young, she ___ dance at every Nauryz celebration.",
+      "opts": [
+        "used to",
+        "was used to",
+        "use to",
+        "would used to"
+      ],
+      "correct": "used to",
+      "hint": "Childhood repeated activity → \"used to\"."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He ___ (visit) the museum last year for the first time.",
+      "correct": "visited",
+      "hint": "\"Last year, for the first time\" = single specific event → Past Simple."
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"used to\" is used for:",
+      "opts": [
+        "A single event yesterday",
+        "A repeated past habit or long state that has ended",
+        "A present habit",
+        "A future plan"
+      ],
+      "correct": "A repeated past habit or long state that has ended",
+      "hint": "\"used to\" = something that was regular or true in the past but is no longer."
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She used to arrive in Uralsk in 2020\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"In 2020\" is a specific year — use Past Simple: \"She arrived in Uralsk in 2020.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She arrived, greeted everyone, and ___ at the table.",
+      "opts": [
+        "used to sit",
+        "was sitting",
+        "sat",
+        "would sit"
+      ],
+      "correct": "sat",
+      "hint": "Sequence of events in a narrative → Past Simple."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "People ___ travel by horse in Central Asia before modern transport.",
+      "opts": [
+        "used to",
+        "was used",
+        "has used to",
+        "use to"
+      ],
+      "correct": "used to",
+      "hint": "Long past habit (before modern transport) that no longer exists → \"used to\"."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (not/like) spicy food when she was a child. Now she loves it.",
+      "correct": "didn't use to like",
+      "hint": "Past habit/state that changed = negative \"used to\": didn't use to like."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"would\" can replace \"used to\" for past STATES (like \"used to be\").",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"would\" can only replace \"used to\" for HABITS: \"I would go\" ✓. But NOT for states: \"I would be poor\" ✗."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Time expression test: which goes with \"used to\"?",
+      "opts": [
+        "yesterday morning",
+        "on March 21st 2022",
+        "when I was a child",
+        "three hours ago"
+      ],
+      "correct": "when I was a child",
+      "hint": "\"When I was a child/young/in those days\" goes with \"used to\"."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I am used to spicy food\" and \"I used to eat spicy food\" mean the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"be used to\" = be accustomed to (present). \"used to eat\" = past habit (no longer true)."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He ___ (know) the answer in those days, but he has forgotten now.",
+      "opts": [
+        "used to know",
+        "knew last week",
+        "use to knew",
+        "would know"
+      ],
+      "correct": "used to know",
+      "hint": "\"In those days... but now forgotten\" = past state that has changed → \"used to know\"."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Last spring, Kamila ___ (attend) a big Nauryz concert in the city centre.",
+      "correct": "attended",
+      "hint": "\"Last spring\" = specific past event → Past Simple."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence clearly shows a PAST HABIT (not ambiguous)?",
+      "opts": [
+        "She walked to school.",
+        "She used to walk to school.",
+        "She was walking to school.",
+        "She walks to school."
+      ],
+      "correct": "She used to walk to school.",
+      "hint": "\"used to walk\" unambiguously shows a repeated past habit that has now stopped."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Kamila ___ (not/be) confident in English. Now she speaks fluently.",
+      "opts": [
+        "didn't use to be",
+        "wasn't used to be",
+        "used not be",
+        "didn't used to be"
+      ],
+      "correct": "didn't use to be",
+      "hint": "Past state contrasted with present: negative \"used to\": didn't use to be."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ the dombra at the Nauryz concert last Saturday. Everyone loved it.",
+      "opts": [
+        "used to play",
+        "would play",
+        "played",
+        "use to play"
+      ],
+      "correct": "played",
+      "hint": "\"Last Saturday at the concert\" = specific single event → Past Simple."
+    }
+  ]
+}

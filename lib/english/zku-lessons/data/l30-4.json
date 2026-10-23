@@ -1,0 +1,562 @@
+{
+  "id": "l30-4",
+  "moduleNum": 14,
+  "lessonNum": 4,
+  "moduleTitle": "Work & Career",
+  "type": "grammar",
+  "title": "Work Vocabulary + Collocations",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Work Vocabulary & Collocations",
+  "grammarNote": "Коллокации (collocations) — устойчивые словосочетания. Нельзя просто перевести дословно!\n\n📌 HAVE: have a meeting · have an interview · have a break · have experience\n📌 DO: do business · do research · do a project · do overtime · do well\n📌 MAKE: make a decision · make progress · make a mistake · make a profit\n📌 TAKE: take responsibility · take notes · take action · take part in\n\n⚠️ Ошибки дословного перевода:\n❌ \"Do a mistake\" → ✅ \"Make a mistake\"\n❌ \"Make research\" → ✅ \"Do research\"\n❌ \"Have a decision\" → ✅ \"Make a decision\"\n\n💡 Учи коллокации как единую фразу, а не по отдельным словам!",
+  "grammarTable": [
+    {
+      "subject": "Verb",
+      "verb": "Work collocations",
+      "short": "noun phrase",
+      "example": "Example"
+    },
+    {
+      "subject": "apply for",
+      "verb": "a job / a position / an internship",
+      "short": "formal request",
+      "example": "She applied for a marketing internship."
+    },
+    {
+      "subject": "attend",
+      "verb": "a meeting / a conference / an interview",
+      "short": "be present at",
+      "example": "He attends a team meeting every Monday."
+    },
+    {
+      "subject": "miss",
+      "verb": "a deadline / a meeting / an opportunity",
+      "short": "fail to do/attend",
+      "example": "Don't miss the application deadline."
+    },
+    {
+      "subject": "meet",
+      "verb": "a deadline / a target / a client",
+      "short": "achieve/reach",
+      "example": "We always meet our project deadlines."
+    },
+    {
+      "subject": "give",
+      "verb": "a presentation / feedback / a report",
+      "short": "deliver",
+      "example": "She gave an excellent presentation."
+    },
+    {
+      "subject": "take",
+      "verb": "a break / a course / responsibility",
+      "short": "do/accept",
+      "example": "Take a break — you've worked for 3 hours."
+    },
+    {
+      "subject": "earn",
+      "verb": "a salary / a bonus / respect",
+      "short": "receive for work",
+      "example": "She earned a promotion after one year."
+    },
+    {
+      "subject": "get",
+      "verb": "a job / a promotion / experience",
+      "short": "obtain/receive",
+      "example": "He got his first job through LinkedIn."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "apply / attend / miss",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "apply for a job",
+          "example": "She applied for a job at the WKU library."
+        },
+        {
+          "form": "apply for a position",
+          "example": "He applied for the manager's position."
+        },
+        {
+          "form": "attend a meeting",
+          "example": "All team members must attend the Monday meeting."
+        },
+        {
+          "form": "attend an interview",
+          "example": "She attended three interviews before getting the job."
+        },
+        {
+          "form": "miss a deadline",
+          "example": "If you miss the deadline, your grade will be lower."
+        },
+        {
+          "form": "miss an opportunity",
+          "example": "Don't miss the opportunity to apply for this internship."
+        }
+      ]
+    },
+    {
+      "title": "meet / give / take",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "meet a deadline",
+          "example": "We need to meet the deadline — it's on Friday."
+        },
+        {
+          "form": "meet a client",
+          "example": "He meets clients every Tuesday afternoon."
+        },
+        {
+          "form": "give a presentation",
+          "example": "She gave an impressive presentation to the board."
+        },
+        {
+          "form": "give feedback",
+          "example": "Please give feedback on my CV."
+        },
+        {
+          "form": "take a break",
+          "example": "Take a short break before your interview."
+        },
+        {
+          "form": "take responsibility",
+          "example": "He took responsibility for the mistake."
+        }
+      ]
+    },
+    {
+      "title": "earn / get / make",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "earn a salary",
+          "example": "She earns a good salary as a software engineer."
+        },
+        {
+          "form": "earn a promotion",
+          "example": "He earned a promotion after just one year."
+        },
+        {
+          "form": "get a job",
+          "example": "She got her dream job right after graduation."
+        },
+        {
+          "form": "get experience",
+          "example": "You can get experience through internships."
+        },
+        {
+          "form": "make a decision",
+          "example": "The manager has to make difficult decisions every day."
+        },
+        {
+          "form": "make progress",
+          "example": "He's making great progress in his English."
+        }
+      ]
+    },
+    {
+      "title": "work + preposition collocations",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "work as + profession",
+          "example": "She works as an accountant."
+        },
+        {
+          "form": "work for + company",
+          "example": "He works for a startup in Almaty."
+        },
+        {
+          "form": "work in + sector",
+          "example": "She works in healthcare."
+        },
+        {
+          "form": "work on + project",
+          "example": "We are working on a new app."
+        },
+        {
+          "form": "work overtime",
+          "example": "He often works overtime during busy periods."
+        },
+        {
+          "form": "work from home",
+          "example": "Many WKU graduates now work from home."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главное правило коллокаций: учи как ЕДИНУЮ фразу!\n\nDO: homework · research · exercise · business · the dishes · your best\nMAKE: a mistake · progress · a decision · money · a presentation · an effort\nHAVE: a meeting · a break · a conversation · lunch · experience · fun\nTAKE: notes · responsibility · action · a break · part (in) · a risk\n\n🎯 Тест (какой глагол?):\n___ a report? → write\n___ a deadline? → meet\n___ a salary? → earn / receive\n___ a promotion? → get / receive",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "She ___ for three jobs last week.",
+      "opts": [
+        "attended",
+        "applied",
+        "earned",
+        "got"
+      ],
+      "correct": "applied",
+      "hint": "\"apply for a job\" is the correct collocation."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct verb.",
+      "text": "Don't ___ the deadline — submit by Friday.",
+      "correct": "miss",
+      "hint": "\"miss a deadline\" = fail to submit on time."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "He ___ as a software engineer for a startup.",
+      "opts": [
+        "works",
+        "applies",
+        "earns",
+        "takes"
+      ],
+      "correct": "works",
+      "hint": "\"work as + profession\": works as a software engineer."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct verb.",
+      "text": "She ___ a presentation to the whole department.",
+      "correct": "gave",
+      "hint": "\"give a presentation\" = the correct collocation."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "After five years, she ___ a promotion.",
+      "opts": [
+        "made",
+        "got",
+        "applied",
+        "attended"
+      ],
+      "correct": "got",
+      "hint": "\"get a promotion\" = receive a higher position."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Do a meeting\" is a correct work collocation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct: \"attend a meeting\" or \"have a meeting.\" Not \"do\"."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete the collocation.",
+      "text": "Take a short ___ before the interview — it helps you relax.",
+      "correct": "break",
+      "hint": "\"take a break\" = the correct collocation."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "\"She works ___ healthcare\" — which preposition?",
+      "opts": [
+        "as",
+        "for",
+        "in",
+        "on"
+      ],
+      "correct": "in",
+      "hint": "\"work in\" + sector/industry: work in healthcare."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct verb.",
+      "text": "He ___ a salary of 400,000 tenge per month.",
+      "opts": [
+        "makes",
+        "earns",
+        "gets",
+        "gives"
+      ],
+      "correct": "earns",
+      "hint": "\"earn a salary\" = the correct collocation."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "We are working ___ a new app for university students.",
+      "correct": "on",
+      "hint": "\"work on + project\" = be engaged in a task."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Identify the incorrect collocation.",
+      "text": "Which is NOT a work collocation?",
+      "opts": [
+        "attend a meeting",
+        "give feedback",
+        "take a course",
+        "do a salary"
+      ],
+      "correct": "do a salary",
+      "hint": "\"do a salary\" is not used. You \"earn a salary\" or \"receive a salary\"."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Apply for a job\" is a correct collocation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"apply for a job\" ✅ — standard fixed expression."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Apply ___ a job\" — which preposition?",
+      "opts": [
+        "to",
+        "for",
+        "at",
+        "in"
+      ],
+      "correct": "for",
+      "hint": "\"apply for\" = to formally request a job or position."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ a presentation at the company conference.",
+      "correct": "gave",
+      "hint": "give + a presentation = correct collocation."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Work ___ healthcare\" — which preposition?",
+      "opts": [
+        "as",
+        "for",
+        "on",
+        "in"
+      ],
+      "correct": "in",
+      "hint": "\"work in\" + sector/industry: work in healthcare, IT, education."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Do a meeting\" is a standard work collocation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Correct collocation: \"attend a meeting\" or \"have a meeting.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He ___ his first job right after graduating from WKU.",
+      "correct": "got",
+      "hint": "\"get a job\" = correct collocation."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct collocation:",
+      "opts": [
+        "make a presentation",
+        "do a presentation",
+        "give a presentation",
+        "take a presentation"
+      ],
+      "correct": "give a presentation",
+      "hint": "\"give a presentation\" = the standard collocation."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Don't ___ the deadline — it's tomorrow at midnight.",
+      "correct": "miss",
+      "hint": "\"miss a deadline\" = fail to complete something on time."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She works ___ a software engineer\" — which preposition?",
+      "opts": [
+        "in",
+        "at",
+        "as",
+        "for"
+      ],
+      "correct": "as",
+      "hint": "\"work as + profession\": She works as a doctor/engineer."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ a good salary at her new company.",
+      "opts": [
+        "makes",
+        "gets",
+        "earns",
+        "takes"
+      ],
+      "correct": "earns",
+      "hint": "\"earn a salary\" = the correct collocation."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "They are working ___ a new project for a client in Germany.",
+      "correct": "on",
+      "hint": "\"work on + project\" = be engaged in a specific task."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "According to reading 1, what percentage of children will work in jobs that don't exist yet?",
+      "opts": [
+        "Over 40%",
+        "Over 60%",
+        "Almost 80%",
+        "About 30%"
+      ],
+      "correct": "Over 60%",
+      "hint": "Paragraph 2: \"over 60% of children starting primary school today will work in jobs that do not yet exist.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In reading 2, what does Nurlan do from 10 a.m. to 1 p.m.?",
+      "opts": [
+        "Attends meetings",
+        "Writes and tests code",
+        "Talks to clients",
+        "Reviews applications"
+      ],
+      "correct": "Writes and tests code",
+      "hint": "Paragraph 3: \"he does his main work: writing and testing code.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Dr. Akhmetov believes that only technical skills matter for future careers.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Reading 1, paragraph 6: \"communication skills, emotional intelligence, and teamwork will be just as important as technical expertise.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Internship\" means:",
+      "opts": [
+        "A full-time permanent job",
+        "A short work experience placement, usually for students",
+        "A type of online course",
+        "A job interview at a company"
+      ],
+      "correct": "A short work experience placement, usually for students",
+      "hint": "\"Internship\" = a temporary position to gain work experience, often unpaid or paid a small amount."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She has great ___ in data analysis — she has worked in the field for ten years.",
+      "correct": "expertise",
+      "hint": "\"Expertise\" = expert knowledge or skill in a particular area."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Automation\" means:",
+      "opts": [
+        "Working from home",
+        "The use of machines or computers to do tasks previously done by humans",
+        "A type of job interview",
+        "A government employment programme"
+      ],
+      "correct": "The use of machines or computers to do tasks previously done by humans",
+      "hint": "\"Automation\" = using technology to replace human work."
+    }
+  ]
+}

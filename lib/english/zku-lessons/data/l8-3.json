@@ -1,0 +1,295 @@
+{
+  "id": "l8-3",
+  "moduleNum": 8,
+  "lessonNum": 3,
+  "moduleTitle": "My home",
+  "title": "there is / there are",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "there is / there are — описываем что есть в доме",
+  "grammarNote": "\"There is\" и \"there are\" — это конструкции для описания того, что СУЩЕСТВУЕТ или НАХОДИТСЯ где-то. В казахском языке им соответствует \"бар\" (есть), в русском — \"есть / имеется / находится\".\n\nВ Модуле 3 мы говорили \"This is my desk\" — это МОЙ стол (мы показываем конкретный предмет).\nТеперь мы говорим \"There is a desk\" — ЕСТЬ стол (мы описываем, что существует).\n\nСравни:\n\"This is my sofa.\" → Вот мой диван. (показываешь)\n\"There is a sofa in the living room.\" → В гостиной есть диван. (описываешь)\n\nГлавное правило:\n→ THERE IS + один предмет (ед. ч.) или неисчисляемое\n→ THERE ARE + несколько предметов (мн. ч.)\n\nПримеры из квартиры Камилы:\n\"There IS a sofa in the living room.\" (один диван)\n\"There ARE two bookshelves near the window.\" (несколько полок)\n\"There IS some furniture in the hallway.\" (неисчисляемое)\n\"There ARE some plants on the balcony.\" (несколько растений)\n\n💡 Запомни: \"there\" здесь не значит \"там\" — это грамматическая конструкция!",
+  "grammarTable": [
+    {
+      "subject": "There IS + ед.ч. / неисчисл.",
+      "verb": "есть (один)",
+      "short": "+ утверждение",
+      "example": "There is a sofa. · There is a kitchen. · There is some furniture."
+    },
+    {
+      "subject": "There ARE + мн.ч.",
+      "verb": "есть (много)",
+      "short": "+ утверждение",
+      "example": "There are two beds. · There are some plants. · There are four chairs."
+    },
+    {
+      "subject": "There ISN'T + ед.ч.",
+      "verb": "нет (одного)",
+      "short": "– отрицание",
+      "example": "There isn't a dishwasher. · There isn't a bathtub. · There isn't a lift."
+    },
+    {
+      "subject": "There AREN'T + мн.ч.",
+      "verb": "нет (многих)",
+      "short": "– отрицание",
+      "example": "There aren't any noisy neighbours. · There aren't any curtains."
+    },
+    {
+      "subject": "IS there + ед.ч.?",
+      "verb": "есть ли...?",
+      "short": "? вопрос",
+      "example": "Is there a balcony? · Is there a washing machine? · Is there a park nearby?"
+    },
+    {
+      "subject": "ARE there + мн.ч.?",
+      "verb": "есть ли...?",
+      "short": "? вопрос",
+      "example": "Are there two bedrooms? · Are there any plants? · Are there any shops?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Affirmative — утверждение: there is / there are",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "There IS + singular noun",
+          "example": "\"There is a comfortable sofa in the living room.\""
+        },
+        {
+          "form": "There IS + uncountable noun",
+          "example": "\"There is some furniture in the hallway.\" · \"There is natural light in the kitchen.\""
+        },
+        {
+          "form": "There ARE + plural noun",
+          "example": "\"There are two bookshelves near the window.\""
+        },
+        {
+          "form": "There ARE + some + plural noun",
+          "example": "\"There are some plants on the balcony.\" · \"There are some books on the shelf.\""
+        },
+        {
+          "form": "Сокращённые формы (разговорные):",
+          "example": "\"There's a sofa.\" = \"There is a sofa.\" · Нет краткой формы для \"there are\"!"
+        },
+        {
+          "form": "Порядок слов: THERE + BE + предмет + место",
+          "example": "\"There is a desk [near the window].\" · \"There are two beds [in the bedroom].\""
+        }
+      ]
+    },
+    {
+      "title": "Negative — отрицание: there isn't / there aren't",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "There ISN'T + singular noun",
+          "example": "\"There isn't a lift in our building.\" · \"There isn't a bathtub — only a shower.\""
+        },
+        {
+          "form": "There AREN'T + plural noun",
+          "example": "\"There aren't any noisy neighbours.\" · \"There aren't any curtains in the bedroom.\""
+        },
+        {
+          "form": "there isn't any + uncountable",
+          "example": "\"There isn't any hot water today!\" · \"There isn't any space for a dishwasher.\""
+        },
+        {
+          "form": "ISN'T = is not · AREN'T = are not",
+          "example": "\"There is not a balcony.\" = \"There isn't a balcony.\" (оба верны, isn't более разговорное)"
+        },
+        {
+          "form": "⚠️ Типичная ошибка!",
+          "example": "❌ \"There is no a sofa.\" → ✅ \"There isn't a sofa.\" ИЛИ \"There is no sofa.\" (без артикля!)"
+        },
+        {
+          "form": "there is no + noun (без артикля)",
+          "example": "\"There is no lift.\" · \"There is no garden.\" · \"There are no curtains.\" (формально)"
+        }
+      ]
+    },
+    {
+      "title": "Questions — вопросы: Is there? / Are there?",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Is there + a/an + noun?",
+          "example": "\"Is there a balcony?\" — \"Yes, there is!\" / \"No, there isn't.\""
+        },
+        {
+          "form": "Are there + any + plural noun?",
+          "example": "\"Are there any plants?\" — \"Yes, there are!\" / \"No, there aren't.\""
+        },
+        {
+          "form": "Краткие ответы — ОБЯЗАТЕЛЬНО:",
+          "example": "\"Is there a park nearby?\" → \"Yes, there IS.\" ❌НЕ \"Yes, it is.\" или \"Yes, there.\""
+        },
+        {
+          "form": "How many + ARE there?",
+          "example": "\"How many rooms are there?\" → \"There are three rooms.\""
+        },
+        {
+          "form": "How much + IS there?",
+          "example": "\"How much space is there?\" → \"There isn't much space — it's a small apartment.\""
+        },
+        {
+          "form": "What + IS there in...?",
+          "example": "\"What is there in the living room?\" → \"There is a sofa, a TV, and two bookshelves.\""
+        }
+      ]
+    },
+    {
+      "title": "there is/are + some / any — связь с Модулем 7",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "There is SOME + uncountable (+)",
+          "example": "\"There is some furniture in the hallway.\" · \"There is some hot water.\""
+        },
+        {
+          "form": "There are SOME + countable pl. (+)",
+          "example": "\"There are some books on the shelf.\" · \"There are some hooks on the door.\""
+        },
+        {
+          "form": "There isn't ANY + uncountable (–)",
+          "example": "\"There isn't any space for a dishwasher.\" · \"There isn't any natural light.\""
+        },
+        {
+          "form": "There aren't ANY + countable pl. (–)",
+          "example": "\"There aren't any curtains.\" · \"There aren't any shops nearby.\""
+        },
+        {
+          "form": "Is there ANY + uncountable (?)",
+          "example": "\"Is there any hot water?\" → \"Yes, there is some!\" / \"No, there isn't any.\""
+        },
+        {
+          "form": "Are there ANY + countable pl. (?)",
+          "example": "\"Are there any plants?\" → \"Yes, there are some!\" / \"No, there aren't any.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три шага — и ты никогда не ошибёшься с there is / there are:\n\n① Посмотри на существительное после there is/are:\n   Один предмет → THERE IS: \"There IS a sofa.\"\n   Несколько → THERE ARE: \"There ARE two beds.\"\n\n② Для отрицания добавь NOT:\n   There IS + NOT → There ISN'T\n   There ARE + NOT → There AREN'T\n   \"There ISN'T a dishwasher.\" · \"There AREN'T any curtains.\"\n\n③ Для вопроса переставь IS/ARE вперёд:\n   IS there a balcony? (один предмет)\n   ARE there any plants? (несколько)\n   Краткий ответ: \"Yes, there IS.\" / \"No, there ISN'T.\"\n\n🏠 Запомни через квартиру Камилы:\n\"There's a sofa, a TV, and two bookshelves in the living room.\"\n\"There's a washing machine but there ISN'T a dishwasher!\"\n\"ARE there any plants? Yes, there ARE — four on the balcony!\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "___ a comfortable sofa in the living room.",
+      "opts": [
+        "There are",
+        "There is",
+        "It is",
+        "They are"
+      ],
+      "correct": "There is",
+      "hint": "Sofa = singular → There IS a sofa."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "___ two single beds in the bedroom.",
+      "opts": [
+        "There is",
+        "There are",
+        "It are",
+        "They is"
+      ],
+      "correct": "There are",
+      "hint": "Two beds = plural → There ARE two beds."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct negative form.",
+      "text": "Kamila's apartment is small. ___ a lift in the building.",
+      "correct": "There isn't",
+      "hint": "Singular (a lift) → There ISN'T a lift."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Are there a sofa in the living room?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Sofa is singular → \"IS there a sofa?\" Not \"are there a sofa\"."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "___ any plants on the balcony?",
+      "opts": [
+        "Is there",
+        "Are there",
+        "There is",
+        "There are"
+      ],
+      "correct": "Are there",
+      "hint": "Plants = plural → ARE there any plants?"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct short answer.",
+      "text": "\"Is there a balcony?\" — \"Yes, ___!\"",
+      "correct": "there is",
+      "hint": "Short answer: Yes, there IS. (never \"Yes, it is.\")"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "There is no a dishwasher.",
+        "There are some plants on the balcony.",
+        "Is there any sofa in the room?",
+        "There aren't a washing machine."
+      ],
+      "correct": "There are some plants on the balcony.",
+      "hint": "\"There are SOME plants\" ✅ — plants = plural. Others have grammar errors."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct answer.",
+      "text": "\"How many rooms are there in Kamila's apartment?\" — ___",
+      "opts": [
+        "Yes, there are.",
+        "There is three rooms.",
+        "There are three rooms.",
+        "It has three rooms."
+      ],
+      "correct": "There are three rooms.",
+      "hint": "\"How many rooms ARE THERE?\" → \"There ARE three rooms.\" (plural → are)"
+    }
+  ],
+  "questions": []
+}

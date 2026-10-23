@@ -1,0 +1,305 @@
+{
+  "id": "l14-g2",
+  "moduleNum": 14,
+  "lessonNum": 6,
+  "moduleTitle": "Weather and clothes",
+  "title": "Comparative adjectives",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Сравнительная и превосходная степень прилагательных",
+  "grammarNote": "Сравнительная степень (Comparative) — используется для сравнения ДВУХ вещей.\nПревосходная степень (Superlative) — говорит о том, что что-то является самым/наибольшим/наименьшим СРЕДИ ВСЕХ.\n\n📐 КАК ОБРАЗОВАТЬ СРАВНИТЕЛЬНУЮ СТЕПЕНЬ:\n\n① Короткие прилагательные (1–2 слога) → + ER + THAN:\ncold → COLDER THAN · warm → WARMER THAN · hot → HOTTER THAN\nold → OLDER THAN · long → LONGER THAN · thick → THICKER THAN\n\"Saturday is COLDER THAN today.\" · \"The coat is WARMER THAN the jacket.\"\n\n② Длинные прилагательные (3+ слога) → MORE + adj + THAN:\ncomfortable → MORE COMFORTABLE THAN\nwaterproof → MORE WATERPROOF THAN\npractical → MORE PRACTICAL THAN\n\"This coat is MORE COMFORTABLE THAN that one.\"\n\"Wool is MORE PRACTICAL THAN cotton in winter.\"\n\n📐 КАК ОБРАЗОВАТЬ ПРЕВОСХОДНУЮ СТЕПЕНЬ:\n\n① Короткие: THE + adj + EST:\ncold → THE COLDEST · warm → THE WARMEST · long → THE LONGEST\n\"Astana is THE COLDEST capital in the world.\"\n\"January is THE COLDEST month in Kazakhstan.\"\n\n② Длинные: THE MOST + adj:\ncomfortable → THE MOST COMFORTABLE · expensive → THE MOST EXPENSIVE\n\"This is THE MOST COMFORTABLE coat I have ever worn.\"\n\n⚠️ ПРАВИЛА НАПИСАНИЯ (сравнительная степень):\n\n▸ Прилагательное заканчивается на -e → просто + r/st:\nnice → nicer → nicest · large → larger → largest\n\n▸ Прилагательное CVC (согласная-гласная-согласная, 1 слог) → двойная согласная:\nhot → HOT-TER → hottest · big → BIG-GER → biggest · thin → THIN-NER → thinnest\nwet → WET-TER → wettest · slim → SLIM-MER → slimmest\n\n▸ Прилагательное заканчивается на -y → -y меняется на -ier/-iest:\nheavy → HEAVIER → heaviest · windy → WINDIER → windiest\ncloudy → CLOUDIER → cloudiest · cosy → COSIER → cosiest\n\n🔴 ИСКЛЮЧЕНИЯ (неправильные формы — нужно запомнить!):\ngood → BETTER → the best\nbad → WORSE → the worst\nfar → FURTHER → the furthest\nmuch/many → MORE → the most\nlittle → LESS → the least\n\n💪 КАК УСИЛИТЬ ИЛИ СМЯГЧИТЬ СРАВНЕНИЕ:\n\"MUCH colder than\" (намного холоднее) — большая разница\n\"A BIT / SLIGHTLY colder than\" (чуть холоднее) — маленькая разница\n\"FAR colder than\" (значительно холоднее) — подчёркивает разницу\n\"NOT AS cold AS\" (не такой холодный как) — они почти одинаковые или отличаются\n\n\"Uralsk is MUCH warmer than Astana in winter.\" (намного теплее)\n\"Saturday is SLIGHTLY colder than today.\" (чуть-чуть холоднее)\n\"Uralsk is NOT AS cold AS Astana in winter.\" (менее холодный)\n\n📌 THAN — обязательный элемент при сравнении двух вещей:\n✅ \"Saturday is colder THAN today.\"\n❌ \"Saturday is colder as today.\" — только THAN, не AS!",
+  "grammarTable": [
+    {
+      "subject": "Short adj (1 syl.)",
+      "verb": "adj + -er + than",
+      "short": "cold → colder than",
+      "example": "cold → colder · warm → warmer · hot → hotter · long → longer · thick → thicker"
+    },
+    {
+      "subject": "Long adj (3+ syl.)",
+      "verb": "more + adj + than",
+      "short": "comfortable → more...",
+      "example": "comfortable → more comfortable · waterproof → more waterproof · practical → more practical"
+    },
+    {
+      "subject": "Ends in -e",
+      "verb": "just + r (not -er)",
+      "short": "nice → nicer",
+      "example": "nice → nicer → nicest · large → larger → largest · pale → paler → palest"
+    },
+    {
+      "subject": "CVC 1-syllable",
+      "verb": "double consonant + er",
+      "short": "hot → hott-er",
+      "example": "hot → hotter · big → bigger · thin → thinner · wet → wetter · slim → slimmer"
+    },
+    {
+      "subject": "Ends in -y",
+      "verb": "-y → -ier (comparative)",
+      "short": "windy → windier",
+      "example": "windy → windier · cloudy → cloudier · heavy → heavier · cosy → cosier"
+    },
+    {
+      "subject": "Superlative (short)",
+      "verb": "the + adj + -est",
+      "short": "the coldest",
+      "example": "the coldest · the warmest · the longest · the thickest · the hottest"
+    },
+    {
+      "subject": "Superlative (long)",
+      "verb": "the most + adj",
+      "short": "the most comfortable",
+      "example": "the most comfortable · the most waterproof · the most practical · the most stylish"
+    },
+    {
+      "subject": "Irregular forms",
+      "verb": "good/bad/far → special",
+      "short": "must memorise!",
+      "example": "good → better → best · bad → worse → worst · far → further → furthest"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Сравнительная степень: короткие и длинные прилагательные",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Короткие (1–2 слога) → + ER + THAN:",
+          "example": "\"Saturday is COLDER THAN today.\" · \"The wool scarf is WARMER THAN the cotton one.\" · \"Uralsk is MILDER THAN Astana.\""
+        },
+        {
+          "form": "Длинные (3+ слога) → MORE + adj + THAN:",
+          "example": "\"Wool is MORE COMFORTABLE THAN synthetic fabric.\" · \"This coat is MORE EXPENSIVE THAN that jacket.\" · \"Spring is MORE PLEASANT THAN winter.\""
+        },
+        {
+          "form": "Двухсложные — зависит от слова:",
+          "example": "simple: \"simpler\" (+ er) · careful: \"more careful\" (more +) · quiet: \"quieter\" (+er) · extreme: \"more extreme\" (more +)"
+        },
+        {
+          "form": "THAN — обязательно после comparative:",
+          "example": "\"colder THAN\" · \"more comfortable THAN\" ✅ — ❌ \"colder as\" — неправильно! Всегда THAN, не AS!"
+        },
+        {
+          "form": "Примеры из урока (Aizat):",
+          "example": "\"Astana is COLDER THAN Uralsk in winter.\" · \"Uralsk is MILDER THAN Astana — but still COLDER THAN most cities.\""
+        },
+        {
+          "form": "Примеры из урока (прогноз):",
+          "example": "\"Saturday is COLDER THAN today.\" · \"Sunday is BETTER THAN Saturday.\" · \"The wool coat is WARMER THAN the jacket.\""
+        }
+      ]
+    },
+    {
+      "title": "② Правила написания сравнительной степени",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "CVC (согласная-гласная-согласная) → удвоение:",
+          "example": "hot → HOT-TER (tt!) · big → BIG-GER (gg!) · thin → THIN-NER (nn!) · wet → WET-TER · slim → SLIM-MER"
+        },
+        {
+          "form": "⚠️ CVC проверка: 1 слог + заканчивается на согласную:",
+          "example": "hot = h-o-t (CVC ✅) → hotter · warm = w-a-r-m (CVCC — две согласных!) → warmer (без удвоения)"
+        },
+        {
+          "form": "-y → -ier (y меняется на i):",
+          "example": "windy → windIER · cloudy → cloudIER · heavy → heavIER · cosy → cosIER · foggy → foggIER"
+        },
+        {
+          "form": "⚠️ -y → -ier только если перед y согласная:",
+          "example": "cloudy: d-y → cloudier ✅ · grey: e-y → greyER ✅ (не \"greier\"!) — буква y после гласной → просто + er"
+        },
+        {
+          "form": "Заканчивается на -e → + r (не + er):",
+          "example": "nice → nicER · large → largER · pale → palER (НЕ \"niceer\", \"largeer\") · strange → strangER"
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "hot (Uralsk summer) → HOTTER · thin (Gulnara's jacket) → THINNER · heavy (October sky) → HEAVIER"
+        }
+      ]
+    },
+    {
+      "title": "③ Превосходная степень + неправильные формы",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "THE + short adj + EST:",
+          "example": "THE COLDEST month · THE WARMEST coat · THE THICKEST scarf · THE LONGEST winter · THE HOTTEST summer"
+        },
+        {
+          "form": "THE MOST + long adj:",
+          "example": "THE MOST COMFORTABLE coat · THE MOST WATERPROOF jacket · THE MOST PRACTICAL choice · THE MOST STYLISH outfit"
+        },
+        {
+          "form": "⚠️ Исключения — запомни обязательно:",
+          "example": "good → BETTER → THE BEST · bad → WORSE → THE WORST · far → FURTHER → THE FURTHEST · much → MORE → THE MOST"
+        },
+        {
+          "form": "Superlative в контексте:",
+          "example": "\"January is THE COLDEST month in Uralsk.\" · \"This is THE BEST coat I have ever bought.\" · \"The fog was THE WORST on Tuesday.\""
+        },
+        {
+          "form": "\"One of the + superlative + plural\":",
+          "example": "\"Astana is ONE OF THE COLDEST capital cities in the world.\" — очень частая конструкция в описаниях."
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"Saturday morning is THE COLDEST part of the day.\" · \"My warmest coat\" = \"THE WARMEST coat I have\" = THE BEST for winter."
+        }
+      ]
+    },
+    {
+      "title": "④ Усиление и смягчение сравнения: much / a bit / not as...as",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "MUCH + comparative (намного):",
+          "example": "\"Astana is MUCH COLDER than Uralsk.\" · \"Sunday is MUCH BETTER than Saturday.\" · \"Wool is MUCH WARMER than cotton.\""
+        },
+        {
+          "form": "A BIT / SLIGHTLY + comparative (чуть):",
+          "example": "\"Saturday is A BIT COLDER than today.\" · \"This coat is SLIGHTLY THICKER than the other one.\" · \"Spring is SLIGHTLY WARMER.\""
+        },
+        {
+          "form": "FAR + comparative (значительно):",
+          "example": "\"Astana is FAR COLDER than most European cities.\" · \"This coat is FAR MORE COMFORTABLE than my old one.\""
+        },
+        {
+          "form": "NOT AS + adj + AS (не такой... как):",
+          "example": "\"Uralsk is NOT AS COLD AS Astana.\" (= Uralsk менее холодный) · \"The jacket is NOT AS WARM AS the coat.\""
+        },
+        {
+          "form": "JUST AS + adj + AS (такой же... как):",
+          "example": "\"The paperback is JUST AS USEFUL AS the hardcover.\" · \"Spring in Uralsk is JUST AS BEAUTIFUL AS in Astana.\""
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"Uralsk in winter is NOT AS EXTREME AS Astana.\" · \"Saturday is SLIGHTLY COLDER THAN today.\" · \"Sunday is MUCH BETTER THAN Saturday.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре шага — и сравнительная степень всегда правильная:\n\n① Посчитай слоги:\n   1–2 слога → + ER: cold → COLDER · warm → WARMER\n   3+ слога → MORE +: comfortable → MORE COMFORTABLE\n\n② Проверь на ловушки:\n   CVC (1 слог, -согл.) → удвоение: hot → HOTT-ER\n   -y → -ier: windy → WIND-IER\n   -e в конце → только + r: nice → NIC-ER\n\n③ Добавь THAN (всегда!):\n   \"colder THAN\" ✅ · \"more comfortable THAN\" ✅\n   ❌ \"colder as\" — только THAN!\n\n④ Исключения — знай наизусть:\n   good → BETTER · bad → WORSE · far → FURTHER\n\n💡 Запомни из наших уроков:\n   \"Astana is MUCH COLDER THAN Uralsk.\"\n   \"Saturday is SLIGHTLY COLDER THAN today.\"\n   \"Sunday is MUCH BETTER THAN Saturday.\"\n   \"Uralsk is NOT AS EXTREME AS Astana.\"\n   \"January is THE COLDEST month of the year.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct comparative form.",
+      "text": "November in Uralsk is ___ than September.",
+      "opts": [
+        "more cold",
+        "coldest",
+        "colder",
+        "most cold"
+      ],
+      "correct": "colder",
+      "hint": "cold = 1 syllable → comparative: cold + ER = COLDER. \"November is COLDER THAN September.\" ✅ Never \"more cold\" for short adjectives!"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the comparative form.",
+      "text": "A wool coat is ___ (comfortable) than a thin synthetic jacket for winter.",
+      "correct": "more comfortable",
+      "hint": "comfortable = 4 syllables → MORE comfortable THAN. ✅ Long adjectives use MORE, not -ER. \"MORE COMFORTABLE THAN\" — never \"comfortabler\"!"
+    },
+    {
+      "id": "e3",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Saturday is colder as today\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "FALSE! After a comparative adjective, always use THAN — never AS. ✅ \"Saturday is colder THAN today.\" ❌ \"colder AS\" is wrong in English."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct spelling.",
+      "text": "What is the correct comparative form of \"hot\"?",
+      "opts": [
+        "hoter",
+        "more hot",
+        "hotter",
+        "hottest"
+      ],
+      "correct": "hotter",
+      "hint": "hot = CVC (h-o-t): consonant-vowel-consonant, 1 syllable → DOUBLE the final consonant + er: hot → HOTT-ER. ✅ \"hoter\" is wrong — must double the t!"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the correct comparative or superlative.",
+      "text": "Of all the months, January is ___ (cold) in Uralsk.",
+      "correct": "the coldest",
+      "hint": "Superlative (among ALL months) → THE + short adj + EST: cold → THE COLDEST. \"January is THE COLDEST month.\" ✅ Use THE + -est for superlative."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Today it's zero degrees. Sunday will be minus two. Which sentence is correct?",
+      "opts": [
+        "Sunday will be more cold than today.",
+        "Sunday will be colder than today.",
+        "Sunday will be coldest than today.",
+        "Sunday will be the colder than today."
+      ],
+      "correct": "Sunday will be colder than today.",
+      "hint": "cold = short adj → colder. Comparing TWO things (Sunday vs today) = comparative, not superlative. \"Sunday will be COLDER THAN today.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Astana is much colder than Uralsk\" means Astana and Uralsk have almost the same temperature.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"MUCH colder\" = намного холоднее — a BIG difference! \"A BIT colder\" = маленькая разница. \"Much\" before a comparative = very large difference. Astana is significantly colder!"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence uses \"not as...as\" correctly?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "Uralsk is not as cold as Astana.",
+        "Uralsk is not cold as Astana.",
+        "Uralsk is not as cold than Astana.",
+        "Uralsk is not colder as Astana."
+      ],
+      "correct": "Uralsk is not as cold as Astana.",
+      "hint": "\"NOT AS + adjective + AS\" — both \"as\" are required! \"Uralsk is not AS cold AS Astana.\" ✅ Means: Uralsk is less cold than Astana. Both AS must be present."
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,293 @@
+{
+  "id": "l6-2",
+  "moduleNum": 6,
+  "lessonNum": 2,
+  "moduleTitle": "My hobbies",
+  "title": "Hobbies around WKU",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Aibek Dosov. I am 19 years old and I am from Pavlodar. I study History at WKU. I love talking to people and learning about their lives. One of my favourite things to do is ask my friends and classmates about their hobbies. Every person at WKU has a unique passion — and today I want to share the hobbies of the most interesting people I know.",
+    "My classmate Zarina is from Almaty and she loves cooking. She cooks in the dormitory kitchen every Sunday and makes amazing traditional Kazakh food. She knows how to make beshbarmak, baursaks, and manty from memory — without a recipe! She also bakes chocolate cakes for birthdays. When Zarina cooks, the whole floor of the dormitory smells wonderful. She says: \"Cooking is like chemistry — you mix the right things and something magical happens!\"",
+    "Bekzat from Kyzylorda has only one true passion: football. He trains every day after class for at least two hours. He plays in the WKU university football team and he scores goals in almost every match. He watches international football matches every weekend and studies the techniques of famous players. He wakes up early to run five kilometres before breakfast. Football is not just Bekzat's hobby — it is his dream and his entire life.",
+    "Ainur is from Astana and she has an extraordinary hobby — she reads books in five different languages! She reads Kazakh poetry, Russian classic novels, English science fiction, Chinese short stories, and Korean comics. She reads for at least one hour every evening before sleeping. She visits the WKU library three times a week and always borrows four or five books at a time. She says that reading is the cheapest way to travel the world.",
+    "Arlan from Astana has two main hobbies that are actually very similar: chess and coding. He plays chess online every day and he practises coding problems on competitive programming websites. He wakes up at 7 am, makes tea, and codes for one hour before breakfast every single morning. He says: \"Chess teaches you to think many steps ahead. Coding teaches you to think precisely. Together, they make you unstoppable.\"",
+    "Samal from Karaganda carries her camera everywhere she goes. She photographs the WKU campus, the streets of Uralsk, and the people she meets. She wakes up at 6 am on weekends to catch the sunrise light over the steppe. She posts her three best photos every week on Instagram, where she already has more than 1,400 followers. She says: \"Photography is not about the camera — it is about learning to see.\"",
+    "And what about me? My hobby is playing guitar. I play for about one hour every evening in my room. I learned my first three chords when I was 14 years old — I taught myself using YouTube videos. Now I know more than 25 songs and I sometimes play for my friends in the common room. Music relaxes my mind after a long day of reading history textbooks. I play best when I am alone and the dormitory is quiet.",
+    "Every student at WKU has a hobby that makes them feel alive. Zarina cooks. Bekzat plays football. Ainur reads. Arlan codes. Samal photographs. And I play guitar. Our hobbies are all different, but they all do the same thing — they give us energy, joy, and a reason to get up in the morning. What is YOUR hobby? Whatever it is, do it with passion every single day!"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Aibek",
+      "text": "Zarina! The whole floor smells incredible. What are you cooking?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Baursaks! I make them every Sunday. Do you want some?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Yes please! How long have you been into cooking?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Since I was eight. My grandmother taught me. I cook every Sunday — it relaxes me.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Amazing! I play guitar to relax. What do you think about Bekzat's hobby?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Football? He is obsessed! He trains every day, even in the rain!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Ha! And Ainur — she reads books in five languages. Can you believe that?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "I know! She borrows five books at once from the library. Five! I read one a month!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Different hobbies, different people. That's what makes WKU interesting!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Exactly! What is your hobby, Aibek? Besides asking everyone about their lives!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Ha! Guitar. I play every evening. It helps me forget about history exams.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zarina",
+      "text": "Guitar! You should play for us one evening. We will all come and listen!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "She loves cooking.",
+      "ru": "Она обожает готовить.",
+      "context": "Zarina loves cooking every Sunday."
+    },
+    {
+      "phrase": "He trains every day.",
+      "ru": "Он тренируется каждый день.",
+      "context": "Bekzat trains every day after class."
+    },
+    {
+      "phrase": "She reads for an hour.",
+      "ru": "Она читает час каждый вечер.",
+      "context": "Ainur reads for at least one hour every evening."
+    },
+    {
+      "phrase": "He wakes up at 7 am.",
+      "ru": "Он просыпается в 7 утра.",
+      "context": "Arlan wakes up at 7 am and codes before breakfast."
+    },
+    {
+      "phrase": "She carries her camera.",
+      "ru": "Она носит камеру везде.",
+      "context": "Samal carries her camera everywhere she goes."
+    },
+    {
+      "phrase": "He plays in a team.",
+      "ru": "Он играет в команде.",
+      "context": "Bekzat plays in the WKU football team."
+    },
+    {
+      "phrase": "She says that...",
+      "ru": "Она говорит, что...",
+      "context": "She says that reading is the cheapest way to travel."
+    },
+    {
+      "phrase": "He scores goals.",
+      "ru": "Он забивает голы.",
+      "context": "Bekzat scores goals in almost every match."
+    },
+    {
+      "phrase": "She posts photos online.",
+      "ru": "Она выкладывает фото онлайн.",
+      "context": "Samal posts her best photos on Instagram."
+    },
+    {
+      "phrase": "What is YOUR hobby?",
+      "ru": "А каким хобби занимаешься ТЫ?",
+      "context": "What is YOUR hobby? Do it with passion every day!"
+    }
+  ],
+  "vocab": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "passion",
+      "emoji": "❤️",
+      "opts": [
+        "усталость",
+        "страсть / увлечение",
+        "работа",
+        "скука"
+      ],
+      "correct": "страсть / увлечение"
+    },
+    {
+      "id": "p2",
+      "word": "recipe",
+      "emoji": "📋",
+      "opts": [
+        "меню",
+        "рецепт",
+        "учебник",
+        "расписание"
+      ],
+      "correct": "рецепт"
+    },
+    {
+      "id": "p3",
+      "word": "technique",
+      "emoji": "🎯",
+      "opts": [
+        "ошибка",
+        "результат",
+        "техника / приём",
+        "правило"
+      ],
+      "correct": "техника / приём"
+    },
+    {
+      "id": "p4",
+      "word": "borrow",
+      "emoji": "📚",
+      "opts": [
+        "покупать",
+        "брать домой",
+        "брать напрокат / в долг",
+        "терять"
+      ],
+      "correct": "брать напрокат / в долг"
+    },
+    {
+      "id": "p5",
+      "word": "obsessed",
+      "emoji": "🔥",
+      "opts": [
+        "скучающий",
+        "одержимый",
+        "уставший",
+        "занятой"
+      ],
+      "correct": "одержимый"
+    },
+    {
+      "id": "p6",
+      "word": "chord",
+      "emoji": "🎸",
+      "opts": [
+        "нота",
+        "аккорд",
+        "мелодия",
+        "ритм"
+      ],
+      "correct": "аккорд"
+    }
+  ],
+  "task1Bank": [
+    "Pavlodar",
+    "Sunday",
+    "five",
+    "chess",
+    "1,400",
+    "guitar"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aibek Dosov is from ___, Kazakhstan.",
+      "correct": "Pavlodar"
+    },
+    {
+      "id": "t2",
+      "question": "Zarina cooks in the dormitory kitchen every ___.",
+      "correct": "Sunday"
+    },
+    {
+      "id": "t3",
+      "question": "Ainur reads books in ___ different languages.",
+      "correct": "five"
+    },
+    {
+      "id": "t4",
+      "question": "Arlan's two hobbies are ___ and coding.",
+      "correct": "chess"
+    },
+    {
+      "id": "t5",
+      "question": "Samal has more than ___ followers on Instagram.",
+      "correct": "1,400"
+    },
+    {
+      "id": "t6",
+      "question": "Aibek plays ___ for one hour every evening.",
+      "correct": "guitar"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Zarina uses a recipe book to make beshbarmak.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "Bekzat runs five kilometres before breakfast every morning.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Ainur visits the WKU library once a week.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Arlan codes for one hour before breakfast every morning.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "Aibek learned guitar at a music school.",
+      "correct": "false"
+    },
+    {
+      "id": "f6",
+      "statement": "Samal wakes up at 6 am on weekends to photograph the sunrise.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

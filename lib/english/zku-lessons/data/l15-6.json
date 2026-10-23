@@ -1,0 +1,215 @@
+{
+  "id": "l15-6",
+  "moduleNum": 15,
+  "lessonNum": 7,
+  "moduleTitle": "Future plans",
+  "title": "My plans for next year",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "This is going to be...",
+      "emoji": "🌟",
+      "opts": [
+        "Это было...",
+        "Это стало...",
+        "Это будет...",
+        "Это могло быть..."
+      ],
+      "correct": "Это будет..."
+    },
+    {
+      "id": "p2",
+      "word": "My biggest goal is to...",
+      "emoji": "🎯",
+      "opts": [
+        "Мой самый большой страх —...",
+        "Моя самая большая проблема —...",
+        "Моя главная цель —...",
+        "Моё любимое занятие —..."
+      ],
+      "correct": "Моя главная цель —..."
+    },
+    {
+      "id": "p3",
+      "word": "I'm not going to waste time on",
+      "emoji": "⏰",
+      "opts": [
+        "Я трачу время на",
+        "Я собираюсь тратить время на",
+        "Я не собираюсь тратить время на",
+        "Мне нравится тратить время на"
+      ],
+      "correct": "Я не собираюсь тратить время на"
+    },
+    {
+      "id": "p4",
+      "word": "By the end of the year,",
+      "emoji": "📅",
+      "opts": [
+        "В начале года,",
+        "В середине года,",
+        "К концу года,",
+        "Через год,"
+      ],
+      "correct": "К концу года,"
+    },
+    {
+      "id": "p5",
+      "word": "I will look back and feel...",
+      "emoji": "💭",
+      "opts": [
+        "Я оглянусь и буду чувствовать...",
+        "Я смотрю назад и чувствую...",
+        "Я смотрю вперёд и жду...",
+        "Я забуду как я чувствую..."
+      ],
+      "correct": "Я оглянусь и буду чувствовать..."
+    },
+    {
+      "id": "p6",
+      "word": "I'm going to put... aside",
+      "emoji": "🏦",
+      "opts": [
+        "Я собираюсь потратить...",
+        "Я собираюсь занять...",
+        "Я собираюсь откладывать...",
+        "Я собираюсь потерять..."
+      ],
+      "correct": "Я собираюсь откладывать..."
+    }
+  ],
+  "writingModel": [
+    "This is going to be one of the most important years of my life at WKU. I am now in my second year, and the decisions I make this year are going to have a real impact on my future career and personal development. Last year, I learned a lot — but I also made mistakes. I spent too much time on things that did not matter, and not enough time on the things that did. This year is going to be different. I have made a clear, honest plan — and I am going to follow it.",
+    "Academically, I am going to work much harder than last year. I am going to attend every lecture without exception — no more skipping Tuesday morning classes because I am tired! I am going to spend at least ninety minutes every evening reviewing my notes from the day. In September, I am going to start preparing for the WKU Academic Excellence Scholarship — the application deadline is the fifteenth of October, and I am going to submit a strong application well before the deadline. I am also going to join the student research group in my faculty. It is going to take time and effort, but it is going to be worth it.",
+    "Professionally, I am going to do everything I can to gain real experience before I graduate. I am going to apply for at least two internship programmes this year — one during the winter break and one during the summer. I know that competition for internships is very strong, so I am going to prepare a professional CV and a well-written cover letter in advance. I am also going to improve my English every day — not just in lectures, but by reading English articles about my field, watching documentaries without subtitles, and speaking with my international classmates as often as possible.",
+    "On a personal level, I am going to learn to code in Python this year. I have been curious about programming for a long time, and this is finally the year I am going to start. I found an excellent free course online — I am going to spend thirty minutes every morning on it, before breakfast. I am also going to manage my money much more carefully. I am going to put five thousand tenge aside every month and not touch it until the end of the year. By December, I will have sixty thousand tenge saved — enough for a good new laptop or a short trip that I can plan as a reward for a hard year of work.",
+    "My biggest goal for this year is both simple and demanding: I am going to become someone who is genuinely proud of their own efforts. I am not going to make excuses. I am not going to say \"I will start next week\" when I can start today. I will work hard, stay focused on what matters, and take care of my health and my closest relationships. I know that at this time next year, I will look back at this moment — sitting here writing these plans — and I will feel satisfied with what I have achieved. That is my promise to myself. And I am going to keep it."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "This is going to be ",
+      "suffix": " year because ___.",
+      "placeholder": "adjective(s) + type of year",
+      "hint": "e.g. one of the most important / a very challenging but exciting / a decisive"
+    },
+    {
+      "key": "study",
+      "prefix": "Academically, I am going to ",
+      "suffix": " this year.",
+      "placeholder": "specific academic plan",
+      "hint": "e.g. attend every lecture / review my notes every evening / join the research group"
+    },
+    {
+      "key": "apply",
+      "prefix": "I am going to apply for ",
+      "suffix": " before the deadline in ___.",
+      "placeholder": "what you're applying for",
+      "hint": "e.g. the WKU scholarship / an internship / a research programme"
+    },
+    {
+      "key": "career",
+      "prefix": "Professionally, I am going to ",
+      "suffix": " because ___.",
+      "placeholder": "career plan + reason",
+      "hint": "e.g. apply for two internships / improve my CV / gain real work experience"
+    },
+    {
+      "key": "english",
+      "prefix": "I am also going to improve my ",
+      "suffix": " every day by ___.",
+      "placeholder": "skill + method",
+      "hint": "e.g. English / programming skills / professional vocabulary — by reading / practising / watching"
+    },
+    {
+      "key": "personal",
+      "prefix": "On a personal level, I am going to ",
+      "suffix": " every ___.",
+      "placeholder": "personal habit + how often",
+      "hint": "e.g. exercise / study Python / read for thirty minutes — every morning / evening / week"
+    },
+    {
+      "key": "save",
+      "prefix": "I am going to put ",
+      "suffix": " tenge aside every month to ___.",
+      "placeholder": "amount + what you're saving for",
+      "hint": "e.g. five thousand tenge aside every month to save for a laptop / trip / emergency fund"
+    },
+    {
+      "key": "goal",
+      "prefix": "My biggest goal for this year is to ",
+      "suffix": ". I am going to keep this promise.",
+      "placeholder": "your most important goal",
+      "hint": "e.g. become someone proud of their own efforts / work consistently and not make excuses"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Stating your plans — going to",
+      "color": "#003876",
+      "items": [
+        "I am going to [verb] this year / this semester / next month.",
+        "I'm going to [verb] every [morning / evening / week / month].",
+        "In [September / October / January], I am going to [verb].",
+        "After [I graduate / the exam / the break], I am going to [verb].",
+        "I am not going to [verb] any more — that changes now.",
+        "This is going to be [adjective] because [reason]."
+      ]
+    },
+    {
+      "category": "Academic and professional goals",
+      "color": "#1B8FC4",
+      "items": [
+        "I am going to attend every lecture / every seminar.",
+        "I am going to apply for [the scholarship / an internship] before [deadline].",
+        "I am going to prepare a strong CV / cover letter in advance.",
+        "I am going to join [the research group / the coding club / the debate team].",
+        "I am going to improve my [English / programming skills / academic writing].",
+        "I am going to gain real experience before I graduate."
+      ]
+    },
+    {
+      "category": "Personal development — habits and skills",
+      "color": "#7C3AED",
+      "items": [
+        "On a personal level, I am going to [learn / practise / develop] [skill].",
+        "I am going to spend [time] every [morning / evening] on [activity].",
+        "I am going to put [amount] tenge aside every month.",
+        "By the end of the year, I will have [saved / learned / achieved] [goal].",
+        "I found an excellent [course / book / programme] and I am going to start it.",
+        "I am going to manage my time / money / health more carefully."
+      ]
+    },
+    {
+      "category": "Making promises — will",
+      "color": "#1D9E75",
+      "items": [
+        "I will work hard and stay focused on what matters.",
+        "I won't make excuses — I'll start today, not next week.",
+        "I will look back at this time next year and feel proud.",
+        "I will take care of my health and my closest relationships.",
+        "I promise I'll follow this plan — not perfectly, but consistently.",
+        "This is my promise to myself — and I am going to keep it."
+      ]
+    }
+  ]
+}

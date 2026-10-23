@@ -1,0 +1,433 @@
+{
+  "id": "l77-3",
+  "moduleNum": 19,
+  "lessonNum": 3,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Inside the Lab: Two Researchers Discuss Science and Its Limits",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Aisha",
+      "text": "So you've just had a paper rejected by three journals in a row. How are you feeling?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "Honestly? A strange mixture of disappointed and weirdly optimistic. The reviewers' feedback was actually more useful than I expected. Two of them identified a methodological gap I hadn't fully considered.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "That's the ideal outcome from peer review, isn't it? Not just a gatekeeping function but actual intellectual engagement.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "Exactly. The third reviewer was less constructive — essentially repeated our arguments back to us and said they found them unconvincing without explaining why. But two out of three being genuinely helpful is better than average.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "What was the methodological gap they identified?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "We hadn't sufficiently controlled for the participants' prior experience with the task. It turns out that people with even minimal exposure perform considerably better than those with none. So our effect sizes were probably overestimated.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "That's significant. That's exactly the kind of confounding variable that can make a result look more robust than it is.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "Yes. So we're redesigning the study with a pre-screening questionnaire to control for that. The sample will be slightly smaller as a result, but the results will be much more interpretable.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "Are you worried about statistical power? A smaller sample tends to produce less reliable estimates.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "That's the tension, yes. We're running simulations to find the minimum sample size that still gives us adequate power. The preliminary analysis suggests around 80 participants should be sufficient.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "Has this changed how you think about the original findings? Do you still believe the core hypothesis?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "I believe there's a real effect there. The question is how large it is. Our original estimate may have been inflated. But I'd be surprised if it vanished completely once we control properly. The effect appears to be moderate at worst.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "That's actually a mature scientific attitude. A lot of people, once they've publicly committed to a hypothesis, find it very hard to acknowledge when the effect size is smaller than they hoped.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "I know. And that's exactly where replication matters — not just for verification, but for calibration. You need multiple studies to get a reliable estimate of the true effect size. Any single study, however well-designed, is just one data point.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "The history of science is full of effects that seemed enormous in early studies and became much smaller once the evidence base grew.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Takeshi",
+      "text": "The \"winner's curse\" — inflated effect sizes in early, small studies. The more studies are done on something, the more the estimate tends to converge on the true value, which is usually more modest.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aisha",
+      "text": "I love how science gradually gets more honest with itself. It's frustrating in the short term, but it's the whole point.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "effect size",
+      "ru": "размер эффекта",
+      "context": "The magnitude or strength of a relationship or treatment effect in a study"
+    },
+    {
+      "phrase": "statistical power",
+      "ru": "статистическая мощность",
+      "context": "The probability that a study will detect an effect if one genuinely exists"
+    },
+    {
+      "phrase": "winner's curse",
+      "ru": "проклятие победителя",
+      "context": "The tendency for early, small studies to overestimate effect sizes"
+    },
+    {
+      "phrase": "calibration",
+      "ru": "калибровка",
+      "context": "Getting your estimates closer to the true value through repeated measurement"
+    },
+    {
+      "phrase": "pre-screening",
+      "ru": "предварительный отбор",
+      "context": "Filtering participants before a study to ensure they meet specific criteria"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "effect size",
+      "ipa": "/ɪˈfekt saɪz/",
+      "pos": "noun phrase",
+      "ru": "размер эффекта",
+      "kz": "əсер көлемі",
+      "emoji": "📊",
+      "definition": "a measure of the magnitude or strength of a relationship or effect in a study",
+      "example": "\"Our original estimate of the effect size was probably inflated.\"",
+      "collocations": [
+        "measure effect size",
+        "estimate effect size",
+        "large/small effect size"
+      ]
+    },
+    {
+      "en": "statistical power",
+      "ipa": "/stəˈtɪstɪkəl ˈpaʊə/",
+      "pos": "noun phrase",
+      "ru": "статистическая мощность",
+      "kz": "статистикалық қуат",
+      "emoji": "⚡",
+      "definition": "the probability that a study will correctly detect a real effect if one exists",
+      "example": "\"A smaller sample tends to produce less statistical power and less reliable estimates.\"",
+      "collocations": [
+        "adequate statistical power",
+        "increase statistical power",
+        "lack of power"
+      ]
+    },
+    {
+      "en": "inflate",
+      "ipa": "/ɪnˈfleɪt/",
+      "pos": "verb",
+      "ru": "завышать / преувеличивать",
+      "kz": "асыра бағалау",
+      "emoji": "🎈",
+      "definition": "to make something larger or greater than it truly is; to overestimate",
+      "example": "\"Effect sizes from early studies are often inflated compared to later, larger studies.\"",
+      "collocations": [
+        "inflate estimates",
+        "inflated results",
+        "inflated effect size"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "effect size",
+      "emoji": "📊",
+      "opts": [
+        "the magnitude of a treatment effect or relationship",
+        "the number of participants in a study",
+        "the length of a research paper",
+        "the publication status of a study"
+      ],
+      "correct": "the magnitude of a treatment effect or relationship"
+    },
+    {
+      "id": "p2",
+      "word": "the winner's curse",
+      "emoji": "🏆",
+      "opts": [
+        "the tendency for early studies to overestimate effect sizes",
+        "the first team to publish a finding winning recognition",
+        "the most impressive result in a set of studies",
+        "a prize awarded for breakthrough research"
+      ],
+      "correct": "the tendency for early studies to overestimate effect sizes"
+    }
+  ],
+  "task1Bank": [
+    "Aisha",
+    "Takeshi",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Whose paper was rejected by three journals?",
+      "correct": "Takeshi"
+    },
+    {
+      "id": "t2",
+      "question": "Who identifies the rejected paper's methodological gap?",
+      "correct": "Takeshi (identified by reviewers)"
+    },
+    {
+      "id": "t3",
+      "question": "Who raises the concern about statistical power?",
+      "correct": "Aisha"
+    },
+    {
+      "id": "t4",
+      "question": "Who introduces the concept of the \"winner's curse\"?",
+      "correct": "Takeshi"
+    },
+    {
+      "id": "t5",
+      "question": "Who says \"science gradually gets more honest with itself\"?",
+      "correct": "Aisha"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Takeshi found all three peer reviewers' feedback useful.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "The methodological gap involved not controlling for participants' prior experience.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Takeshi no longer believes the core hypothesis is correct.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "The \"winner's curse\" means early studies tend to overestimate effect sizes.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Takeshi says replication is only useful for verification, not for calibration.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What methodological gap did the reviewers identify?",
+      "opts": [
+        "The sample size was too large",
+        "The study hadn't controlled for participants' prior experience",
+        "The statistics were incorrectly calculated",
+        "The study used an outdated methodology"
+      ],
+      "correct": "The study hadn't controlled for participants' prior experience",
+      "hint": "Takeshi: \"hadn't sufficiently controlled for the participants' prior experience\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What will the researchers change in the redesigned study?",
+      "opts": [
+        "They will use a larger sample",
+        "They will add a pre-screening questionnaire to control for prior experience",
+        "They will change the core hypothesis",
+        "They will submit to a different type of journal"
+      ],
+      "correct": "They will add a pre-screening questionnaire to control for prior experience",
+      "hint": "Takeshi: \"pre-screening questionnaire to control for that\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Takeshi believe about his core hypothesis?",
+      "opts": [
+        "The effect probably does not exist at all",
+        "The effect is real but may be smaller than originally estimated",
+        "The effect is larger than originally estimated",
+        "He has abandoned the hypothesis entirely"
+      ],
+      "correct": "The effect is real but may be smaller than originally estimated",
+      "hint": "Takeshi: \"there's a real effect… how large it is… original estimate may have been inflated\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is the \"winner's curse\"?",
+      "opts": [
+        "The fame that comes with a major scientific breakthrough",
+        "The pressure on scientists to always publish positive results",
+        "The tendency for early, small studies to overestimate effect sizes",
+        "The prize awarded for the most-cited paper"
+      ],
+      "correct": "The tendency for early, small studies to overestimate effect sizes",
+      "hint": "Takeshi: \"inflated effect sizes in early, small studies\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Takeshi says replication is useful for calibration as well as verification.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Takeshi: \"not just for verification, but for calibration\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "All three peer reviewers gave constructive and useful feedback.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Takeshi: \"The third reviewer was less constructive\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The results will be ___ more interpretable with the new design.\" (considerably)",
+      "opts": [
+        "the much",
+        "much",
+        "many",
+        "a lot much"
+      ],
+      "correct": "much",
+      "hint": "\"Much more + adjective\" = amplified comparative; \"considerably/far/significantly\" also work",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The effect size ___ to be moderate at worst.\" (hedging: seems or appears)",
+      "correct": "appears / seems",
+      "hint": "\"Appears to be\" = hedging language — \"it seems to be\" but we're not certain",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ studies are done on something, the ___ the estimate becomes.\" (proportional)",
+      "opts": [
+        "more / reliable",
+        "more / more reliable",
+        "most / most reliable",
+        "more / reliably"
+      ],
+      "correct": "more / more reliable",
+      "hint": "\"The more... the more...\" = proportional relationship",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "An \"inflated\" effect size means the result is…",
+      "opts": [
+        "Smaller than the true value",
+        "Larger than the true value",
+        "Exactly equal to the true value",
+        "Impossible to measure"
+      ],
+      "correct": "Larger than the true value",
+      "hint": "Takeshi: \"our original estimate may have been inflated\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Statistical power\" refers to…",
+      "opts": [
+        "The number of statistics in a study",
+        "The probability of detecting a real effect if one exists",
+        "The mathematical complexity of analysis",
+        "The significance level chosen by the researcher"
+      ],
+      "correct": "The probability of detecting a real effect if one exists",
+      "hint": "Aisha: \"less reliable estimates\" with smaller samples",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A fortuitous discovery made by chance during unrelated investigation is called ___.",
+      "correct": "serendipity",
+      "hint": "Reading 2: Fleming, Röntgen, Becquerel",
+      "points": 1
+    }
+  ]
+}

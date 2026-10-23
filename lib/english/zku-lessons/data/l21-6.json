@@ -1,0 +1,439 @@
+{
+  "id": "l21-6",
+  "moduleNum": 5,
+  "lessonNum": 8,
+  "moduleTitle": "Technology & Communication",
+  "title": "Module 5 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Which app does Amir use to memorise English vocabulary?",
+      "opts": [
+        "Duolingo",
+        "Quizlet",
+        "Anki",
+        "Notion"
+      ],
+      "correct": "Anki",
+      "hint": "\"I use Anki — a spaced repetition app — to memorise English vocabulary.\""
+    },
+    {
+      "id": "q02",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Amir always uses phone calls to communicate with friends.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I rarely use phone calls anymore — I prefer texting.\""
+    },
+    {
+      "id": "q03",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many unread messages does Amir usually have by morning?",
+      "opts": [
+        "About 20",
+        "About 30",
+        "About 47",
+        "About 100"
+      ],
+      "correct": "About 47",
+      "hint": "\"I usually have about forty-seven unread messages by morning.\""
+    },
+    {
+      "id": "q04",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Amir says he plans to start his better habits \"starting next ___\".",
+      "correct": "Monday",
+      "hint": "\"Starting next Monday!\" (he's joking about procrastinating)."
+    },
+    {
+      "id": "q05",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Amir's professor fully approves of his use of ChatGPT.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"My professor has mixed feelings about this.\""
+    },
+    {
+      "id": "q06",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What percentage of students use Instagram?",
+      "opts": [
+        "72%",
+        "80%",
+        "87%",
+        "95%"
+      ],
+      "correct": "87%",
+      "hint": "\"Instagram is the most popular platform, used by 87% of respondents.\""
+    },
+    {
+      "id": "q07",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Telegram is used by choice — students can use other tools instead.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Telegram is practically a compulsory tool for academic survival.\""
+    },
+    {
+      "id": "q08",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What percentage of students want to use social media less?",
+      "opts": [
+        "23%",
+        "47%",
+        "64%",
+        "71%"
+      ],
+      "correct": "71%",
+      "hint": "\"71% of students said they wanted to use social media less\""
+    },
+    {
+      "id": "q09",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "\"Digital literacy\" means...",
+      "opts": [
+        "Reading fast",
+        "Using technology critically and purposefully",
+        "Having many followers",
+        "Building websites"
+      ],
+      "correct": "Using technology critically and purposefully",
+      "hint": "\"digital literacy: the skill of using technology critically, purposefully\""
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Rustam's first problem when he calls IT support?",
+      "opts": [
+        "Lost password",
+        "Laptop screen went black",
+        "Broken keyboard",
+        "No internet"
+      ],
+      "correct": "Laptop screen went black",
+      "hint": "\"My laptop stopped working — the screen is completely black.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does the support agent ask Rustam to do first?",
+      "opts": [
+        "Restart the Wi-Fi router",
+        "Press and hold the power button for 10 seconds",
+        "Reinstall Windows",
+        "Contact a technician"
+      ],
+      "correct": "Press and hold the power button for 10 seconds",
+      "hint": "\"try pressing and holding the power button for ten seconds\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Rustam saves his work to OneDrive.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"uploading to Google Drive\" — Google Drive, not OneDrive."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What backup solution does the support agent suggest?",
+      "opts": [
+        "Ethernet cable",
+        "Mobile hotspot",
+        "Different browser",
+        "New router"
+      ],
+      "correct": "Mobile hotspot",
+      "hint": "\"use your phone as a mobile hotspot as a backup\""
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "The support agent's name is ___.",
+      "correct": "Daniyar",
+      "hint": "\"You're speaking with Daniyar.\""
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I ___ check my phone first thing in the morning.\" (100% of the time)",
+      "opts": [
+        "never",
+        "rarely",
+        "sometimes",
+        "always"
+      ],
+      "correct": "always",
+      "hint": "always = 100% of the time. Position: before main verb."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Correct: \"She ___ is ___ late.\"",
+      "opts": [
+        "always / Ø",
+        "Ø / always",
+        "never / Ø",
+        "Ø / never"
+      ],
+      "correct": "Ø / always",
+      "hint": "With \"be\": She IS always late. Adverb comes AFTER \"be\"."
+    },
+    {
+      "id": "q17",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I check always my email\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Adverb BEFORE main verb: \"I always check my email.\" ✅"
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ she use LinkedIn for job searching? — Yes, she does.",
+      "correct": "Does",
+      "hint": "She = 3rd person → Does she use? (base verb after does)."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Does she uses Twitter?\" — what is wrong?",
+      "opts": [
+        "\"she\" is wrong",
+        "\"uses\" should be \"use\" after does",
+        "wrong tense",
+        "nothing"
+      ],
+      "correct": "\"uses\" should be \"use\" after does",
+      "hint": "After does/do → base form: Does she USE? (never \"uses\")."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I want ___ reduce my screen time.\"",
+      "opts": [
+        "reduce",
+        "to reduce",
+        "reducing",
+        "reduced"
+      ],
+      "correct": "to reduce",
+      "hint": "want → to + infinitive: I want to reduce."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I enjoy ___ programming tutorials.\"",
+      "opts": [
+        "watch",
+        "to watch",
+        "watching",
+        "watched"
+      ],
+      "correct": "watching",
+      "hint": "enjoy → -ing: I enjoy watching."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She avoids ___ her phone in lectures.\"",
+      "opts": [
+        "use",
+        "to use",
+        "using",
+        "used"
+      ],
+      "correct": "using",
+      "hint": "avoid → -ing: She avoids using."
+    },
+    {
+      "id": "q23",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "He needs ___ (update) his graphics driver this week.",
+      "correct": "to update",
+      "hint": "need → to + infinitive: He needs to update."
+    },
+    {
+      "id": "q24",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I like ___ music while I study.\" Which is correct?",
+      "opts": [
+        "listen only",
+        "to listen only",
+        "listening only",
+        "both: to listen and listening"
+      ],
+      "correct": "both: to listen and listening",
+      "hint": "like → both forms OK! I like to listen = I like listening."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"screen time\" mean?",
+      "opts": [
+        "Time to watch a film",
+        "Amount of time spent looking at screens",
+        "A type of phone setting",
+        "A break from devices"
+      ],
+      "correct": "Amount of time spent looking at screens",
+      "hint": "Screen time = total daily time spent on phones, laptops, tablets."
+    },
+    {
+      "id": "q26",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "A message or alert from an app on your phone is a ___.",
+      "correct": "notification",
+      "hint": "Notification = an alert from an app."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Digital literacy\" is...",
+      "opts": [
+        "Fast typing",
+        "The ability to read e-books",
+        "Using technology critically and purposefully",
+        "Having many followers"
+      ],
+      "correct": "Using technology critically and purposefully",
+      "hint": "Digital literacy = using technology with skill and critical thinking."
+    },
+    {
+      "id": "q28",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Intentional\" means doing something by accident.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Intentional = done on purpose, with a clear goal in mind."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"memorise\" mean?",
+      "opts": [
+        "Forget something",
+        "Write something down",
+        "Learn something so you can remember it perfectly",
+        "Read something quickly"
+      ],
+      "correct": "Learn something so you can remember it perfectly",
+      "hint": "Memorise = to learn something so well you can recall it exactly."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"distract\" mean?",
+      "opts": [
+        "To help focus",
+        "To take attention away from what you should be doing",
+        "To organise your time",
+        "To study more efficiently"
+      ],
+      "correct": "To take attention away from what you should be doing",
+      "hint": "Distract = to take someone's attention away from their task."
+    }
+  ]
+}

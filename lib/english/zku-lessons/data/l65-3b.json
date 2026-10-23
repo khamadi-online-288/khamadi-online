@@ -1,0 +1,422 @@
+{
+  "id": "l65-3b",
+  "moduleNum": 7,
+  "lessonNum": 4,
+  "moduleTitle": "Relative Clauses: Defining & Non-defining",
+  "type": "listening",
+  "title": "A Policy Discussion: Complex Relative Clause Structures",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Moderator",
+      "text": "We're here to discuss the new curriculum framework. Let me start with the most debated question: which subjects should be compulsory at university level?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'd argue for English — and specifically, for a model of English instruction that goes beyond grammar drills. The skills that employers consistently value are communication and critical thinking. Any curriculum that doesn't include these isn't preparing students for the world they're entering.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I agree. But I'd add physical education, which is consistently undervalued in post-secondary systems. The research on physical activity and cognitive performance, which has been accumulating for decades, makes a compelling case.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Both of those are important. I'd also argue for a civic education component — the kind of course in which students learn about their legal rights, the institutions through which policy is made, and the obligations that citizenship involves.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Amir, what does \"communication\" mean in the context you're describing?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "It means the ability to explain complex ideas in clear language — to audiences who don't share your technical background. The engineer who can only talk to other engineers is at a disadvantage in a world where collaboration across disciplines is essential.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Which is exactly why interdisciplinary courses are valuable. A module in which a biologist works alongside a lawyer and an economist to solve a shared problem is the kind of learning environment that develops these skills.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "And civic education, in the form I'm proposing, isn't about political parties — it's about the structures through which society organises itself. That's knowledge that every citizen needs, regardless of the field they enter.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Moderator",
+      "text": "Are there subjects that you think universities have traditionally valued too highly?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Memorisation of content that can be looked up. The student who has memorised 500 facts but who can't explain how those facts connect is less equipped than the student who has memorised fewer facts but who can reason clearly about what they know.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "The skill that universities should be producing — the ability to evaluate evidence critically — is one that cuts across all disciplines. That's what the curriculum should be built around.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "compulsory",
+      "emoji": "📋",
+      "opts": [
+        "необязательный",
+        "обязательный",
+        "рекомендованный",
+        "дополнительный"
+      ],
+      "correct": "обязательный"
+    },
+    {
+      "id": "p2",
+      "word": "civic education",
+      "emoji": "🏛️",
+      "opts": [
+        "религиозное обучение",
+        "гражданское образование",
+        "политическое образование",
+        "история"
+      ],
+      "correct": "гражданское образование"
+    },
+    {
+      "id": "p3",
+      "word": "interdisciplinary",
+      "emoji": "🔗",
+      "opts": [
+        "узкоспециализированный",
+        "межпредметный",
+        "самостоятельный",
+        "практический"
+      ],
+      "correct": "межпредметный"
+    },
+    {
+      "id": "p4",
+      "word": "cognitive",
+      "emoji": "🧠",
+      "opts": [
+        "физический",
+        "когнитивный",
+        "эмоциональный",
+        "социальный"
+      ],
+      "correct": "когнитивный"
+    },
+    {
+      "id": "p5",
+      "word": "curriculum",
+      "emoji": "📚",
+      "opts": [
+        "учебник",
+        "учебный план",
+        "программа занятий",
+        "расписание"
+      ],
+      "correct": "учебный план"
+    },
+    {
+      "id": "p6",
+      "word": "obligation",
+      "emoji": "⚖️",
+      "opts": [
+        "возможность",
+        "обязательство",
+        "право",
+        "выбор"
+      ],
+      "correct": "обязательство"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir argues for English instruction that goes beyond grammar drills.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Zhibek argues against physical education in university.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Daniyar proposes a civic education course about political parties.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Amir says the engineer who can only talk to other engineers is at a disadvantage.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Zhibek argues for interdisciplinary courses where different fields solve shared problems.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Amir argues that universities value memorisation of content too highly.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Argues for communication and English; uses defining relative clauses naturally"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏐",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Argues for physical education and interdisciplinary learning"
+    },
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "⚖️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Argues for civic education; uses formal relative structures"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Any curriculum that doesn't include communication skills isn't preparing students properly.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "Research on physical activity and cognitive performance has been accumulating for decades.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "Proposes a civic education course through which students learn legal rights and civic obligations.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s4",
+      "text": "The engineer who can only talk to other engineers is at a disadvantage in collaborative work.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s5",
+      "text": "Describes a module in which different disciplines work together to solve a shared problem.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "The student who has memorised facts but can't connect them is less equipped than one who reasons.",
+      "correctCharId": "amir"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What model of English instruction does Amir argue for?",
+      "opts": [
+        "Grammar drills only",
+        "One that goes beyond grammar drills to develop communication and critical thinking",
+        "Literature only",
+        "Translation-focused instruction"
+      ],
+      "correct": "One that goes beyond grammar drills to develop communication and critical thinking",
+      "hint": "\"A model of English instruction that goes beyond grammar drills.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek add to the discussion?",
+      "opts": [
+        "Mathematics",
+        "Physical education — with research on its cognitive benefits",
+        "Music",
+        "History"
+      ],
+      "correct": "Physical education — with research on its cognitive benefits",
+      "hint": "\"I'd add physical education, which is consistently undervalued... The research on physical activity and cognitive performance.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What kind of civic education does Daniyar propose?",
+      "opts": [
+        "About political parties",
+        "About legal rights, policy institutions, and civic obligations — not about political parties",
+        "About voting systems only",
+        "About history only"
+      ],
+      "correct": "About legal rights, policy institutions, and civic obligations — not about political parties",
+      "hint": "\"Not about political parties — about the structures through which society organises itself.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir mean by \"communication\"?",
+      "opts": [
+        "Speaking in public",
+        "Explaining complex ideas in clear language to audiences without your technical background",
+        "Writing essays",
+        "Knowing many languages"
+      ],
+      "correct": "Explaining complex ideas in clear language to audiences without your technical background",
+      "hint": "\"The ability to explain complex ideas in clear language — to audiences who don't share your technical background.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about interdisciplinary courses?",
+      "opts": [
+        "They are too difficult",
+        "A module where different disciplines solve a shared problem develops key skills",
+        "They should be optional",
+        "Biology is the most important discipline"
+      ],
+      "correct": "A module where different disciplines solve a shared problem develops key skills",
+      "hint": "\"A module in which a biologist works alongside a lawyer and an economist to solve a shared problem.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say should be at the centre of the curriculum?",
+      "opts": [
+        "Memorisation of content",
+        "The ability to evaluate evidence critically",
+        "Interdisciplinary courses only",
+        "Physical education"
+      ],
+      "correct": "The ability to evaluate evidence critically",
+      "hint": "\"The skill that universities should be producing — the ability to evaluate evidence critically — is one that cuts across all disciplines.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar's civic education proposal focuses on political parties.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"That's NOT about political parties — it's about the structures through which society organises itself.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir criticise as being overvalued at universities?",
+      "opts": [
+        "Language learning",
+        "Physical education",
+        "Memorisation of content that can be looked up",
+        "Critical thinking"
+      ],
+      "correct": "Memorisation of content that can be looked up",
+      "hint": "\"Memorisation of content that can be looked up.\" — Amir says this is overvalued. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Any curriculum that doesn't include these isn't preparing students.\" — type:",
+      "opts": [
+        "Non-defining",
+        "Defining — \"that\" + no commas = defining clause",
+        "\"Which\" should be used",
+        "\"That\" requires commas"
+      ],
+      "correct": "Defining — \"that\" + no commas = defining clause",
+      "hint": "\"That\" + no commas = defining clause. \"Any curriculum THAT...\" = tells us which curriculum (the kind that doesn't include them). ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Physical education, which is consistently undervalued, has compelling research.\" — type:",
+      "opts": [
+        "Defining (no commas needed)",
+        "Non-defining — physical education already identified; commas + which",
+        "\"That\" should replace \"which\"",
+        "Wrong — should be \"what\""
+      ],
+      "correct": "Non-defining — physical education already identified; commas + which",
+      "hint": "Commas + \"which\" = non-defining. \"Physical education\" already identified; the clause adds extra info. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A module in which a biologist works alongside a lawyer.\" — \"in which\" is:",
+      "opts": [
+        "Wrong — should be \"where\"",
+        "Formal preposition + relative pronoun",
+        "Non-defining marker",
+        "Possessive relative"
+      ],
+      "correct": "Formal preposition + relative pronoun",
+      "hint": "\"in which\" = formal structure. \"A module IN WHICH X happens.\" = \"a module where X happens\" (informal). ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The student ___ can't explain how facts connect is less equipped.\" (relative pronoun)",
+      "correct": "who",
+      "hint": "People → WHO. \"The student WHO can't explain how facts connect.\" ✅"
+    }
+  ]
+}

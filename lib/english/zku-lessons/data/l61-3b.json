@@ -1,0 +1,418 @@
+{
+  "id": "l61-3b",
+  "moduleNum": 3,
+  "lessonNum": 4,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "listening",
+  "title": "An Interview: The Decision That Changed Everything",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "You took a scholarship to study in Prague at 18, when most people would have stayed close to home. Looking back, how different would your life have been if you hadn't gone?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Completely different. If I hadn't gone to Prague, I wouldn't have studied international law. I probably would have studied in Aktobe or Almaty — which is fine, but my perspective would have been narrower.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Were there moments when you nearly didn't go?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Yes. My father was ill that year. If his condition hadn't stabilised in July, I would have deferred the place. I had the form ready to send.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "And if you had deferred — what would have happened?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "The scholarship would have been withdrawn. It was non-deferrable. So if I'd deferred, I wouldn't have gone to Prague at all. A different life entirely.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "You've described the Czech language as the key that opened your research. What do you mean?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "If I speak Czech, I can access legal archives that are not translated. If you want to work on Central European constitutional law, you need the primary sources. Without Czech, my research would be derivative — based entirely on what others had already translated and interpreted.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What would you say to a Kazakhstani student who is considering studying abroad but is afraid?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "I'd say: if you don't go, you'll always wonder. The discomfort passes. The experience doesn't. And if I hadn't had that discomfort — two years of real struggle in a foreign country — I wouldn't be the researcher I am now. The struggle was the education.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "One final question. If you could go back and give advice to yourself at 18, what would you say?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "I'd tell myself: trust the discomfort. If things were easy from the start, they wouldn't be worth doing. And I'd warn him not to call home every day for the first month — it makes it harder.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "deferred",
+      "emoji": "⏸️",
+      "opts": [
+        "отменённый",
+        "отложенный / перенесённый",
+        "принятый",
+        "утверждённый"
+      ],
+      "correct": "отложенный / перенесённый"
+    },
+    {
+      "id": "p2",
+      "word": "stabilised",
+      "emoji": "⚖️",
+      "opts": [
+        "ухудшился",
+        "стабилизировался",
+        "улучшился",
+        "изменился"
+      ],
+      "correct": "стабилизировался"
+    },
+    {
+      "id": "p3",
+      "word": "derivative",
+      "emoji": "📋",
+      "opts": [
+        "оригинальный",
+        "производный / вторичный",
+        "академический",
+        "переведённый"
+      ],
+      "correct": "производный / вторичный"
+    },
+    {
+      "id": "p4",
+      "word": "perspective",
+      "emoji": "👁️",
+      "opts": [
+        "знание",
+        "точка зрения / перспектива",
+        "уверенность",
+        "цель"
+      ],
+      "correct": "точка зрения / перспектива"
+    },
+    {
+      "id": "p5",
+      "word": "archive",
+      "emoji": "📂",
+      "opts": [
+        "лаборатория",
+        "архив",
+        "библиотека",
+        "база данных"
+      ],
+      "correct": "архив"
+    },
+    {
+      "id": "p6",
+      "word": "constitutional",
+      "emoji": "📜",
+      "opts": [
+        "уголовный",
+        "конституционный",
+        "международный",
+        "гражданский"
+      ],
+      "correct": "конституционный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Daniyar says his life would have been completely different without the scholarship.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "His father's illness did not affect his decision to go to Prague.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The scholarship could have been deferred if Daniyar had needed more time.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Czech language allows Daniyar to access untranslated legal archives.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Daniyar says his research would be derivative without Czech.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Daniyar would advise his 18-year-old self to call home every day.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "daniyar",
+      "name": "Daniyar",
+      "city": "Aktobe",
+      "emoji": "⚖️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Kazakhstani legal scholar who studied in Prague — reflects on life decisions using conditionals"
+    },
+    {
+      "id": "inter",
+      "name": "Interviewer",
+      "city": "Uralsk",
+      "emoji": "🎙️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Journalist asking reflective questions that elicit conditional thinking"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says his perspective would have been narrower if he hadn't gone to Prague.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s2",
+      "text": "Reveals the scholarship was non-deferrable — if he'd deferred, he wouldn't have gone at all.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s3",
+      "text": "Explains Czech gives access to legal archives that cannot be accessed without it.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s4",
+      "text": "Says research would be derivative without Czech — based on others' translations only.",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s5",
+      "text": "Advises a student: \"if you don't go, you'll always wonder.\"",
+      "correctCharId": "daniyar"
+    },
+    {
+      "id": "s6",
+      "text": "Warns his 18-year-old self not to call home every day — it makes it harder.",
+      "correctCharId": "daniyar"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What would have been different if Daniyar hadn't gone to Prague?",
+      "opts": [
+        "Only his language skills",
+        "Everything — he wouldn't have studied international law and his perspective would be narrower",
+        "Only his career",
+        "Nothing significant"
+      ],
+      "correct": "Everything — he wouldn't have studied international law and his perspective would be narrower",
+      "hint": "\"Completely different. If I hadn't gone to Prague, I wouldn't have studied international law.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why could Daniyar have missed going to Prague?",
+      "opts": [
+        "He didn't want to go",
+        "He failed an exam",
+        "His father was ill — if his condition hadn't stabilised, Daniyar would have deferred",
+        "He missed the deadline"
+      ],
+      "correct": "His father was ill — if his condition hadn't stabilised, Daniyar would have deferred",
+      "hint": "\"If his condition hadn't stabilised in July, I would have deferred the place.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why would deferral have meant not going at all?",
+      "opts": [
+        "He would have lost interest",
+        "The scholarship would have been withdrawn — it was non-deferrable",
+        "His father wouldn't have allowed it",
+        "He couldn't afford to delay"
+      ],
+      "correct": "The scholarship would have been withdrawn — it was non-deferrable",
+      "hint": "\"The scholarship would have been withdrawn. It was non-deferrable.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes Czech language essential to Daniyar's research?",
+      "opts": [
+        "It's his native language",
+        "It allows access to untranslated legal archives needed for primary sources",
+        "It's required by his university",
+        "It helps him communicate with colleagues"
+      ],
+      "correct": "It allows access to untranslated legal archives needed for primary sources",
+      "hint": "\"I can access legal archives that are not translated... you need the primary sources.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"derivative\" research mean in Daniyar's context?",
+      "opts": [
+        "Very original",
+        "Based entirely on others' translations — not using primary sources",
+        "Highly theoretical",
+        "Done in a different language"
+      ],
+      "correct": "Based entirely on others' translations — not using primary sources",
+      "hint": "\"Derivative — based entirely on what others had already translated and interpreted.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What advice would Daniyar give his 18-year-old self?",
+      "opts": [
+        "Avoid discomfort",
+        "Call home every day",
+        "Trust the discomfort — it's the education; and don't call home every day",
+        "Stay in Kazakhstan"
+      ],
+      "correct": "Trust the discomfort — it's the education; and don't call home every day",
+      "hint": "\"Trust the discomfort. If things were easy from the start, they wouldn't be worth doing. And don't call home every day.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar says the discomfort of living abroad lasts a long time.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The discomfort passes. The experience doesn't.\" — the discomfort is temporary; the experience is lasting. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence from the dialogue uses zero conditional?",
+      "opts": [
+        "\"If I hadn't gone, I wouldn't have studied law.\"",
+        "\"If I speak Czech, I can access legal archives.\"",
+        "\"If things were easy, they wouldn't be worth doing.\"",
+        "\"If you don't go, you'll always wonder.\""
+      ],
+      "correct": "\"If I speak Czech, I can access legal archives.\"",
+      "hint": "Present + present = zero conditional. \"If I speak Czech, I CAN access...\" — factual relationship. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I hadn't gone to Prague, I wouldn't have studied international law.\" — Third conditional because:",
+      "opts": [
+        "He didn't go to Prague (false)",
+        "He DID go to Prague — this imagines the alternative past that didn't happen",
+        "It's about the future",
+        "It uses past perfect"
+      ],
+      "correct": "He DID go to Prague — this imagines the alternative past that didn't happen",
+      "hint": "Third conditional = he actually went to Prague, but imagines the alternative (not going). Counterfactual past. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If things WERE easy from the start, they WOULDN'T be worth doing.\" — Second conditional because:",
+      "opts": [
+        "Things are easy",
+        "Things are not easy, and the speaker imagines a hypothetical where they were — about current reality",
+        "It's about the past",
+        "It's a scientific law"
+      ],
+      "correct": "Things are not easy, and the speaker imagines a hypothetical where they were — about current reality",
+      "hint": "Second conditional = things are NOT easy (reality), but imagines \"if they were\" (hypothetical present). ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If you don't go, you'll always wonder.\" — This is:",
+      "opts": [
+        "Zero conditional",
+        "First conditional — real future consequence of not going",
+        "Second conditional",
+        "Third conditional"
+      ],
+      "correct": "First conditional — real future consequence of not going",
+      "hint": "if + present simple + will = first conditional. Real, possible future consequence. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If I ___ that discomfort, I ___ the researcher I am now.\" (3rd→mixed)",
+      "correct": "hadn't had / wouldn't be",
+      "hint": "Past condition (3rd type: hadn't had) + present result (2nd type: wouldn't BE now) = mixed conditional. ✅"
+    }
+  ]
+}

@@ -1,0 +1,506 @@
+{
+  "id": "l20-2",
+  "moduleNum": 4,
+  "lessonNum": 2,
+  "moduleTitle": "Food & Eating Out",
+  "title": "Ordering food",
+  "type": "listening",
+  "xp": 60,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Waiter",
+      "text": "Good afternoon! Welcome to Stepnoy Corner. Here's your menu. Are you ready to order or do you need a few more minutes?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "We're almost ready, thank you. Excuse me — is the beshbarmak available today?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Yes, it is! It's our most popular dish. Today's version is with lamb and homemade noodles.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Perfect. I'd like the beshbarmak, please. And Zhibek, what about you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'll have the pumpkin manty — I'm vegetarian. And could I get extra sauce on the side?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Of course, no problem. Would you like any starters? Today's soup is mushroom and barley.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Oh, that sounds lovely. I'll have a small bowl of soup as a starter, please.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Not for me, thanks. But could I have some bread while I wait?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Absolutely — I'll bring some baursak right away. And to drink?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "A large black tea for me, please. Not too sweet — just a little sugar.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'd love the fresh watermelon juice. Is it freshly squeezed?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Yes, made fresh to order! Any allergies I should know about?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "No allergies. Oh — and is there any honey? I love a bit of honey with tea.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Waiter",
+      "text": "We have lovely local wildflower honey — I'll put a small pot on your table. Anything else?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "No, I think that's everything. Thank you!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Waiter",
+      "text": "Excellent! Your starters will be ready in about five minutes. Enjoy your meal!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Are you ready to order?",
+      "emoji": "📋",
+      "opts": [
+        "Вы закончили есть?",
+        "Вы готовы сделать заказ?",
+        "Вы хотите счёт?",
+        "Вы заходили раньше?"
+      ],
+      "correct": "Вы готовы сделать заказ?"
+    },
+    {
+      "id": "p2",
+      "word": "on the side",
+      "emoji": "🥣",
+      "opts": [
+        "в центре тарелки",
+        "отдельно (соус и т.д.)",
+        "горячим",
+        "без соли"
+      ],
+      "correct": "отдельно (соус и т.д.)"
+    },
+    {
+      "id": "p3",
+      "word": "allergy",
+      "emoji": "⚠️",
+      "opts": [
+        "предпочтение",
+        "аллергия",
+        "диета",
+        "непереносимость"
+      ],
+      "correct": "аллергия"
+    },
+    {
+      "id": "p4",
+      "word": "freshly squeezed",
+      "emoji": "🍊",
+      "opts": [
+        "из концентрата",
+        "свежевыжатый",
+        "газированный",
+        "замороженный"
+      ],
+      "correct": "свежевыжатый"
+    },
+    {
+      "id": "p5",
+      "word": "starter",
+      "emoji": "🥣",
+      "opts": [
+        "десерт",
+        "закуска / первое блюдо",
+        "гарнир",
+        "специальное блюдо"
+      ],
+      "correct": "закуска / первое блюдо"
+    },
+    {
+      "id": "p6",
+      "word": "wildflower honey",
+      "emoji": "🍯",
+      "opts": [
+        "искусственный мёд",
+        "цветочный мёд",
+        "сахарный сироп",
+        "джем"
+      ],
+      "correct": "цветочный мёд"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila orders the beshbarmak as her main course.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Zhibek orders the mushroom and barley soup.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila asks for a large black tea with a little sugar.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Zhibek orders a glass of orange juice.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Neither Kamila nor Zhibek has any food allergies.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The waiter brings local wildflower honey for the table.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "👩‍🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Vegetarian student"
+    },
+    {
+      "id": "waiter",
+      "name": "Waiter",
+      "city": "WKU",
+      "emoji": "🧑‍🍳",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "Café staff"
+    },
+    {
+      "id": "gulnaz",
+      "name": "Gulnaz",
+      "city": "Uralsk",
+      "emoji": "👩‍🍳",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Owner & chef"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"I'd like the beshbarmak — today's version with lamb.\"",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "\"I'll have the pumpkin manty. I'm vegetarian.\"",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "\"Today's soup is mushroom and barley — would you like a starter?\"",
+      "correctCharId": "waiter"
+    },
+    {
+      "id": "s4",
+      "text": "\"A large black tea — not too sweet, just a little sugar.\"",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "\"Is the watermelon juice freshly squeezed?\"",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "\"We have lovely local wildflower honey — I'll bring a small pot.\"",
+      "correctCharId": "waiter"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila order as her main course?",
+      "opts": [
+        "Pumpkin manty",
+        "Mushroom soup",
+        "Beshbarmak",
+        "Sorpa"
+      ],
+      "correct": "Beshbarmak",
+      "hint": "\"I'd like the beshbarmak, please.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek order?",
+      "opts": [
+        "Beshbarmak",
+        "Pumpkin manty",
+        "Lamb soup",
+        "Salad"
+      ],
+      "correct": "Pumpkin manty",
+      "hint": "\"I'll have the pumpkin manty — I'm vegetarian.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek orders the mushroom and barley soup.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Not for me, thanks.\" — Zhibek refused the soup."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila order to drink?",
+      "opts": [
+        "Green tea",
+        "Watermelon juice",
+        "Large black tea",
+        "Shubat"
+      ],
+      "correct": "Large black tea",
+      "hint": "\"A large black tea for me, please.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Kamila want her tea?",
+      "opts": [
+        "Very sweet",
+        "No sugar",
+        "A little sugar",
+        "With milk"
+      ],
+      "correct": "A little sugar",
+      "hint": "\"Not too sweet — just a little sugar.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The watermelon juice is freshly squeezed.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Yes, made fresh to order!\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek ask for while she waits?",
+      "opts": [
+        "A starter",
+        "Some bread",
+        "A glass of water",
+        "Some soup"
+      ],
+      "correct": "Some bread",
+      "hint": "\"could I have some bread while I wait?\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila has an allergy to honey.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No allergies. And is there any honey? I love a bit of honey with tea.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long will the starters take?",
+      "opts": [
+        "2 minutes",
+        "5 minutes",
+        "10 minutes",
+        "15 minutes"
+      ],
+      "correct": "5 minutes",
+      "hint": "\"Your starters will be ready in about five minutes.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What type of honey does the café have?",
+      "opts": [
+        "Acacia honey",
+        "Manuka honey",
+        "Local wildflower honey",
+        "Artificial honey"
+      ],
+      "correct": "Local wildflower honey",
+      "hint": "\"We have lovely local wildflower honey.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Could I have ___ bread while I wait, please?",
+      "correct": "some",
+      "hint": "some + uncountable noun (bread) in a request = some bread."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Is there ___ honey?\" — Kamila is asking if any exists.",
+      "opts": [
+        "some",
+        "any",
+        "a",
+        "many"
+      ],
+      "correct": "any",
+      "hint": "\"any\" is used in questions with uncountable nouns: Is there any honey?"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "How much or how many sugar?",
+      "opts": [
+        "How many sugar?",
+        "How much sugar?",
+        "How sugar?",
+        "What sugar?"
+      ],
+      "correct": "How much sugar?",
+      "hint": "Sugar is uncountable → How much sugar?"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I'd like ___ black tea, please. (one specific cup)",
+      "correct": "a",
+      "hint": "\"a\" = one specific countable thing: a black tea (= one cup)."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"freshly squeezed\" mean for juice?",
+      "opts": [
+        "Made from powder",
+        "Served cold",
+        "Made directly from fruit",
+        "Served warm"
+      ],
+      "correct": "Made directly from fruit",
+      "hint": "Freshly squeezed = juice pressed directly from fresh fruit."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"on the side\" mean when ordering food?",
+      "opts": [
+        "Served cold",
+        "Served separately",
+        "Served in a small bowl",
+        "Mixed into the food"
+      ],
+      "correct": "Served separately",
+      "hint": "\"On the side\" = served separately, not mixed with the main dish."
+    }
+  ]
+}

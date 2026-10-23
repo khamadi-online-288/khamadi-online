@@ -1,0 +1,508 @@
+{
+  "id": "l67-g1",
+  "moduleNum": 9,
+  "lessonNum": 5,
+  "moduleTitle": "Wishes, Regrets & Hypotheticals",
+  "title": "Grammar: I wish / If only / Would rather",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Wish, if only и would rather — \"сдвиг времени назад\":\n\nWISH/IF ONLY для настоящего → используй Past Simple:\n\"I wish I knew the answer.\" (знать сейчас → knew)\n\"If only she were here.\" (быть сейчас → were)\n\nWISH/IF ONLY для прошлого → используй Past Perfect:\n\"I wish I had studied harder.\" (учиться раньше → had studied)\n\"If only I hadn't said that.\" (не говорить → hadn't said)\n\nWOULD RATHER + base form (для чужих действий — Past Simple):\n\"I'd rather you didn't smoke here.\" (предпочёл бы что ты не...)\n\"I'd rather they came tomorrow.\" (предпочёл бы что они...)",
+  "grammarTable": [
+    {
+      "subject": "I wish",
+      "verb": "+ past simple",
+      "short": "present wish",
+      "example": "I wish I lived in Paris. (I don't live there now)"
+    },
+    {
+      "subject": "I wish",
+      "verb": "+ past perfect",
+      "short": "past regret",
+      "example": "I wish I had studied harder. (I didn't study enough)"
+    },
+    {
+      "subject": "I wish",
+      "verb": "+ would",
+      "short": "change request",
+      "example": "I wish you would stop interrupting me."
+    },
+    {
+      "subject": "If only",
+      "verb": "+ past simple",
+      "short": "intense present wish",
+      "example": "If only I knew the answer!"
+    },
+    {
+      "subject": "If only",
+      "verb": "+ past perfect",
+      "short": "intense past regret",
+      "example": "If only she had called earlier."
+    },
+    {
+      "subject": "Would rather",
+      "verb": "+ past simple (different subject)",
+      "short": "preference about others",
+      "example": "I'd rather you didn't tell anyone."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Wish + would: Annoyance or Request for Change",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "I wish + subject + would + verb",
+          "example": "I wish it would stop raining."
+        },
+        {
+          "form": "I wish you would + verb",
+          "example": "I wish you would listen more carefully."
+        },
+        {
+          "form": "Note: Cannot say \"I wish I would\"",
+          "example": "Use \"I wish I could\" instead."
+        }
+      ]
+    },
+    {
+      "title": "If Only: Extra Emphasis",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "If only + past simple",
+          "example": "If only I had more confidence!"
+        },
+        {
+          "form": "If only + past perfect",
+          "example": "If only I had accepted the offer."
+        },
+        {
+          "form": "If only can stand alone (no result clause)",
+          "example": "If only things were different..."
+        }
+      ]
+    },
+    {
+      "title": "Would rather + Different Subject",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "I'd rather + subject + past simple",
+          "example": "I'd rather you came tomorrow, not today."
+        },
+        {
+          "form": "I'd rather + subject + hadn't + pp",
+          "example": "I'd rather she hadn't mentioned it."
+        },
+        {
+          "form": "For same subject: I'd rather + bare infinitive",
+          "example": "I'd rather stay home tonight."
+        }
+      ]
+    },
+    {
+      "title": "It's Time + Past Simple",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "It's (high) time + subject + past simple",
+          "example": "It's time you made a decision."
+        },
+        {
+          "form": "It's high time + subject + past simple",
+          "example": "It's high time we left."
+        },
+        {
+          "form": "Meaning: The action should happen NOW or SOON",
+          "example": "It's time you apologised to her."
+        }
+      ]
+    },
+    {
+      "title": "Common Errors to Avoid",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ I wish I would have more money.",
+          "example": "✅ I wish I had more money."
+        },
+        {
+          "form": "❌ If only I didn't say that.",
+          "example": "✅ If only I hadn't said that. (past perfect for past)"
+        },
+        {
+          "form": "❌ I'd rather you will come tomorrow.",
+          "example": "✅ I'd rather you came tomorrow."
+        },
+        {
+          "form": "❌ It's time to you leave.",
+          "example": "✅ It's time you left."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"I wish I ___ a car.\" (I don't have one now)",
+      "opts": [
+        "have",
+        "had",
+        "would have",
+        "has"
+      ],
+      "correct": "had",
+      "hint": "Wish + past simple = present impossible wish"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"If only she ___ the email earlier.\" (She sent it too late)",
+      "opts": [
+        "sent",
+        "had sent",
+        "would send",
+        "sends"
+      ],
+      "correct": "had sent",
+      "hint": "If only + past perfect = past regret"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct form of the verb in brackets.",
+      "text": "\"I wish you ___ (not/interrupt) me all the time.\" (annoying habit — wish + would)",
+      "correct": "wouldn't interrupt",
+      "hint": "Wish + would for change requests / annoyance"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence expresses a past regret correctly?",
+      "opts": [
+        "I wish I didn't take that job.",
+        "I wish I hadn't taken that job.",
+        "I wish I wouldn't take that job.",
+        "I wish I don't take that job."
+      ],
+      "correct": "I wish I hadn't taken that job.",
+      "hint": "Past regret: wish + past perfect"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"I'd rather you ___ (not/tell) anyone about this.\" (preference about another person)",
+      "correct": "didn't tell",
+      "hint": "Would rather + different subject + past simple"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"It's high time we ___ a decision.\"",
+      "opts": [
+        "make",
+        "made",
+        "will make",
+        "have made"
+      ],
+      "correct": "made",
+      "hint": "It's (high) time + past simple"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Rewrite using \"if only.\"",
+      "text": "I wish the weather were better. → If ___ the weather ___ better!",
+      "correct": "only / were",
+      "hint": "\"If only\" replaces \"I wish\" — same grammar rules"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which is correct?",
+      "text": "\"I'd rather ___ tonight.\" (Same subject — prefer to stay home)",
+      "opts": [
+        "I stayed",
+        "to stay",
+        "stay",
+        "staying"
+      ],
+      "correct": "stay",
+      "hint": "Same subject: I'd rather + bare infinitive"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"I wish it ___ (stop) raining — it's been going on for days!\" (Annoying ongoing situation)",
+      "correct": "would stop",
+      "hint": "Wish + would + verb = change request / annoyance"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "Which sentence is INCORRECT?",
+      "opts": [
+        "I wish I knew the answer.",
+        "If only I had arrived earlier.",
+        "I wish I would have more free time.",
+        "It's time you went to bed."
+      ],
+      "correct": "I wish I would have more free time.",
+      "hint": "Cannot say \"wish I would\" — use \"wish I had\""
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete the formal inverted conditional.",
+      "text": "\"___ I known about the problem, I would have acted immediately.\" (= If I had known)",
+      "correct": "Had",
+      "hint": "Inverted conditional: Had + subject + past participle"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct completion.",
+      "text": "\"I'd rather you ___ smoking in this room.\"",
+      "opts": [
+        "don't",
+        "didn't",
+        "won't",
+        "wouldn't"
+      ],
+      "correct": "didn't",
+      "hint": "Would rather + different subject + past simple negative"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Write the complete wish sentence.",
+      "text": "\"She doesn't speak French.\" → She wishes she ___ French.",
+      "correct": "spoke",
+      "hint": "Wish + past simple for present impossible wish"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "What does this sentence mean?",
+      "text": "\"I wish you would be more organised.\"",
+      "opts": [
+        "I am glad you are organised",
+        "I am annoyed at your lack of organisation",
+        "I hope you will organise something soon",
+        "I think you should organise an event"
+      ],
+      "correct": "I am annoyed at your lack of organisation",
+      "hint": "Wish + would = annoyance / request for change"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Rewrite as an inverted conditional.",
+      "text": "\"If the report had been submitted on time, there would have been no problems.\" → ___ the report ___ submitted on time, there would have been no problems.",
+      "correct": "Had / been",
+      "hint": "Drop \"if,\" move \"had\" to front: \"Had the report been...\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the correct form for \"It's time.\"",
+      "text": "\"It's time you ___ an apology.\"",
+      "opts": [
+        "make",
+        "to make",
+        "made",
+        "making"
+      ],
+      "correct": "made",
+      "hint": "It's time + subject + past simple"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I wish I ___ to the party.\" (I didn't go — past regret)",
+      "opts": [
+        "went",
+        "had gone",
+        "would go",
+        "go"
+      ],
+      "correct": "had gone",
+      "hint": "Wish + past perfect = past regret",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"If only she ___ harder.\" (She doesn't work hard now)",
+      "opts": [
+        "works",
+        "worked",
+        "had worked",
+        "would work"
+      ],
+      "correct": "worked",
+      "hint": "If only + past simple = present wish/regret",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I'd rather you ___ (not/come) tomorrow — I'll be busy.\"",
+      "correct": "didn't come",
+      "hint": "Would rather + different subject + past simple negative",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence expresses annoyance about a habit?",
+      "opts": [
+        "I wish I were taller.",
+        "I wish I had been more careful.",
+        "I wish you would stop making that noise.",
+        "If only I had more time."
+      ],
+      "correct": "I wish you would stop making that noise.",
+      "hint": "Wish + would = annoyance/request for change",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It's high time we ___ something about the problem.\"",
+      "opts": [
+        "do",
+        "will do",
+        "did",
+        "have done"
+      ],
+      "correct": "did",
+      "hint": "It's (high) time + past simple",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"I wish I would have a car\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Cannot use \"wish + I would\" — use \"wish + I had\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ they consulted us earlier, the project would have succeeded.\" (Formal inverted conditional)",
+      "correct": "Had",
+      "hint": "\"Had\" moves to front in inverted conditional",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I'd rather stay home tonight.\" — What is the subject of \"stay\"?",
+      "opts": [
+        "Someone else",
+        "I (the speaker)",
+        "We",
+        "You"
+      ],
+      "correct": "I (the speaker)",
+      "hint": "Same subject: I'd rather + bare infinitive",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She ___ she had listened to her teacher's advice.\" (She didn't listen — past regret)",
+      "correct": "wishes",
+      "hint": "Wish + past perfect for past regret",
+      "points": 1
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is NOT a correct use of \"if only\"?",
+      "opts": [
+        "If only I were taller!",
+        "If only she had called!",
+        "If only I will try harder!",
+        "If only the rain would stop!"
+      ],
+      "correct": "If only I will try harder!",
+      "hint": "\"Will\" after \"if only\" is not used — use past tense backshift",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It's time you ___ (apologise) to her.\"",
+      "correct": "apologised",
+      "hint": "It's time + subject + past simple",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I'd rather you hadn't mentioned that.\" — What does this mean?",
+      "opts": [
+        "I prefer that you don't mention it in the future",
+        "I regret that you mentioned it (past)",
+        "I am glad you mentioned it",
+        "I want you to mention it again"
+      ],
+      "correct": "I regret that you mentioned it (past)",
+      "hint": "Would rather + subject + past perfect = past preference/regret",
+      "points": 2
+    }
+  ]
+}

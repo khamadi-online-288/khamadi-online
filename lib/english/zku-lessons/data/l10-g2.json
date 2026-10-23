@@ -1,0 +1,305 @@
+{
+  "id": "l10-g2",
+  "moduleNum": 10,
+  "lessonNum": 5,
+  "moduleTitle": "Yesterday",
+  "title": "was / were: Negative & Questions",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "was / were — отрицание и вопросы",
+  "grammarNote": "В прошлом уроке мы изучили утвердительные формы: \"The weather WAS sunny.\" · \"They WERE happy.\"\n\nТеперь изучим, как делать ОТРИЦАНИЕ и задавать ВОПРОСЫ.\n\n❌ ОТРИЦАНИЕ — добавляем NOT:\nWAS + NOT → WASN'T (сокращение)\nWERE + NOT → WEREN'T (сокращение)\n\n\"The professor WAS NOT happy.\" = \"The professor WASN'T happy.\"\n\"My friends WERE NOT free.\" = \"My friends WEREN'T free.\"\n\n❓ ВОПРОС — переставляем was/were ПЕРЕД подлежащим:\n\"WAS the weather good?\" — \"No, it wasn't.\"\n\"WERE your friends with you?\" — \"Yes, they were!\"\n\"WHERE WAS she in the morning?\" — \"She was at the lecture.\"\n\nПримеры из диалога Daniyal и Ainur:\n\"Was the professor angry?\" → \"She wasn't happy — her face was stern!\"\n\"Were you nervous?\" → \"Yes, I was very nervous at first.\"\n\"Where were you yesterday?\" → \"I was at the Debate Club!\"",
+  "grammarTable": [
+    {
+      "subject": "I / He / She / It",
+      "verb": "wasn't",
+      "short": "was + not",
+      "example": "The soup wasn't hot — it was cold. · She wasn't happy at all."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "weren't",
+      "short": "were + not",
+      "example": "My friends weren't free. · The questions weren't easy."
+    },
+    {
+      "subject": "Was + I/he/she/it?",
+      "verb": "—",
+      "short": "question",
+      "example": "Was the lecture interesting? · Was Ainur on time?"
+    },
+    {
+      "subject": "Were + you/we/they?",
+      "verb": "—",
+      "short": "question",
+      "example": "Were you nervous? · Were the questions difficult?"
+    },
+    {
+      "subject": "Yes, I/he/she/it was.",
+      "verb": "—",
+      "short": "short +",
+      "example": "\"Was the debate exciting?\" — \"Yes, it was!\""
+    },
+    {
+      "subject": "No, I/he/she wasn't.",
+      "verb": "—",
+      "short": "short –",
+      "example": "\"Was Ainur ready for the quiz?\" — \"No, she wasn't.\""
+    },
+    {
+      "subject": "Yes, you/we/they were.",
+      "verb": "—",
+      "short": "short +",
+      "example": "\"Were they difficult?\" — \"Yes, they were!\""
+    },
+    {
+      "subject": "No, you/we/they weren't.",
+      "verb": "—",
+      "short": "short –",
+      "example": "\"Were your friends there?\" — \"No, they weren't.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Negative — отрицание: wasn't / weren't",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I/He/She/It + WASN'T",
+          "example": "\"The weather wasn't warm — it was cold and rainy.\" · \"She wasn't happy.\""
+        },
+        {
+          "form": "You/We/They + WEREN'T",
+          "example": "\"My friends weren't free for lunch.\" · \"The seats weren't empty.\""
+        },
+        {
+          "form": "wasn't = was not (оба верны)",
+          "example": "\"The soup was not hot.\" = \"The soup wasn't hot.\" — оба правильны, wasn't разговорнее."
+        },
+        {
+          "form": "weren't = were not (оба верны)",
+          "example": "\"They were not ready.\" = \"They weren't ready.\" — оба правильны."
+        },
+        {
+          "form": "⚠️ NOT всегда ПОСЛЕ was/were:",
+          "example": "❌ \"Not she was happy.\" ❌ \"She not was happy.\" → ✅ \"She wasn't happy.\" ✅ \"She was not happy.\""
+        },
+        {
+          "form": "⚠️ Типичная ошибка:",
+          "example": "❌ \"I weren't ready.\" → ✅ \"I wasn't ready.\" (I → was/wasn't, не were/weren't!)"
+        }
+      ]
+    },
+    {
+      "title": "Questions — вопросы: Was...? / Were...?",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Was + I/he/she/it + ...?",
+          "example": "\"Was the lecture interesting?\" · \"Was Ainur late?\" · \"Was it a good day, Daniyal?\""
+        },
+        {
+          "form": "Were + you/we/they + ...?",
+          "example": "\"Were you nervous before the debate?\" · \"Were your friends with you at lunch?\""
+        },
+        {
+          "form": "Where + was/were + subject?",
+          "example": "\"Where were you yesterday evening?\" · \"Where was Ainur in the afternoon?\""
+        },
+        {
+          "form": "What + was + subject + like?",
+          "example": "\"What was the lecture like?\" · \"What was the weather like yesterday?\" · \"What was the quiz like?\""
+        },
+        {
+          "form": "How + was/were + subject?",
+          "example": "\"How was your Monday?\" → \"It was a disaster!\" · \"How were the questions?\" → \"Very difficult!\""
+        },
+        {
+          "form": "⚠️ Порядок слов в вопросе:",
+          "example": "❌ \"The lecture was interesting?\" → ✅ \"Was the lecture interesting?\" (was/were ПЕРЕД подлежащим!)"
+        }
+      ]
+    },
+    {
+      "title": "Short answers — краткие ответы (обязательно!)",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "\"Was it a good day?\" →",
+          "example": "\"Yes, it WAS!\" ✅ · \"No, it WASN'T.\" ✅\n❌ \"Yes, it was good.\" ❌ \"Yes.\" (без was — неполный ответ!)"
+        },
+        {
+          "form": "\"Were you nervous?\" →",
+          "example": "\"Yes, I WAS!\" ✅ · \"No, I WASN'T.\" ✅\n❌ \"Yes, I was nervous.\" ❌ \"Yes, was.\" (без подлежащего!)"
+        },
+        {
+          "form": "\"Were they busy?\" →",
+          "example": "\"Yes, they WERE!\" ✅ · \"No, they WEREN'T.\" ✅\n❌ \"Yes, they were busy.\" (повтор прилагательного лишний)"
+        },
+        {
+          "form": "Структура краткого ответа:",
+          "example": "Yes/No + subject (I/he/she/it/you/we/they) + was/were/wasn't/weren't."
+        },
+        {
+          "form": "⚠️ Никогда не сокращай Yes-ответ!",
+          "example": "❌ \"Yes, it wasn't.\" (противоречие!) · ❌ \"Yes, it was.\" — сокращение ТУТ возможно, но в ответе не нужно."
+        },
+        {
+          "form": "Из диалога Daniyal и Ainur:",
+          "example": "\"Was the professor angry?\" → \"She wasn't happy.\" · \"Were you nervous?\" → \"Yes, I was very nervous!\""
+        }
+      ]
+    },
+    {
+      "title": "was/were в прошлом vs. am/is/are сейчас",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Сейчас (present):",
+          "example": "\"The weather IS sunny today.\" · \"Ainur IS a Medicine student.\" · \"I AM happy now.\""
+        },
+        {
+          "form": "Вчера (past):",
+          "example": "\"The weather WAS cold yesterday.\" · \"Ainur WAS late this morning.\" · \"I WAS nervous.\""
+        },
+        {
+          "form": "Сейчас: IS/ARE — вчера: WAS/WERE",
+          "example": "\"Today the cafeteria IS busy.\" vs. \"Yesterday the cafeteria WAS crowded and the soup WAS cold.\""
+        },
+        {
+          "form": "Вопрос сейчас vs. вчера:",
+          "example": "\"Is the lecture interesting?\" (сейчас) vs. \"Was the lecture interesting?\" (вчера?)"
+        },
+        {
+          "form": "Отрицание сейчас vs. вчера:",
+          "example": "\"She isn't happy.\" (сейчас) vs. \"She wasn't happy.\" (вчера — о профессоре Ainur)"
+        },
+        {
+          "form": "WAS/WERE + время в прошлом:",
+          "example": "\"Yesterday, last week, two days ago, on Monday, in October\" → всегда was/were, НЕ is/are!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре шага для was/were в вопросах и отрицаниях:\n\n① ОТРИЦАНИЕ — добавь NOT после was/were:\n   \"It was cold.\" → \"It WASN'T cold.\"\n   \"They were busy.\" → \"They WEREN'T busy.\"\n   Запомни: was + not = WASN'T · were + not = WEREN'T\n\n② ВОПРОС — поставь was/were ПЕРЕД подлежащим:\n   \"It was cold.\" → \"WAS it cold?\"\n   \"They were busy.\" → \"WERE they busy?\"\n   \"The lecture was interesting.\" → \"WAS the lecture interesting?\"\n\n③ КРАТКИЙ ОТВЕТ — только subject + was/were:\n   \"Was it good?\" → \"Yes, it WAS.\" / \"No, it WASN'T.\"\n   \"Were they ready?\" → \"Yes, they WERE.\" / \"No, they WEREN'T.\"\n   ⚠️ Никогда не повторяй прилагательное: ❌ \"Yes, it was good.\"\n\n④ Не путай I/he/she/it с you/we/they:\n   ❌ \"I weren't ready.\" → ✅ \"I WASN'T ready.\"\n   ❌ \"They wasn't free.\" → ✅ \"They WEREN'T free.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Ainur ___ ready for the unexpected quiz at all.",
+      "opts": [
+        "weren't",
+        "isn't",
+        "wasn't",
+        "aren't"
+      ],
+      "correct": "wasn't",
+      "hint": "Ainur = she = singular → WASN'T. \"She WASN'T ready.\" ✅ (weren't = you/we/they)"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct negative form.",
+      "text": "The cafeteria tables ___ empty — every seat was taken.",
+      "correct": "weren't",
+      "hint": "Tables = they = plural → WEREN'T. \"The tables WEREN'T empty.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "You want to ask: \"Was Daniyal nervous before the debate?\"",
+      "opts": [
+        "Daniyal was nervous?",
+        "Was Daniyal nervous?",
+        "Were Daniyal nervous?",
+        "Did Daniyal was nervous?"
+      ],
+      "correct": "Was Daniyal nervous?",
+      "hint": "Daniyal = he = singular → WAS. Question: WAS + subject + adjective? ✅ Was/were goes BEFORE the subject."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Was the lecture interesting?\" — \"Yes, it was interesting.\" is a correct short answer.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Short answers don't repeat the adjective! → \"Yes, it WAS.\" ✅ \"Yes, it was interesting.\" is too long — just subject + was."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct short answer.",
+      "text": "\"Were Ainur's friends with her at lunch?\" — ___",
+      "opts": [
+        "Yes, they were busy.",
+        "No, they weren't.",
+        "No, they wasn't.",
+        "Yes, they was."
+      ],
+      "correct": "No, they weren't.",
+      "hint": "\"They\" = plural → WEREN'T. Short answer: \"No, they WEREN'T.\" ✅ (\"wasn't\" = only for I/he/she/it)"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct question word + was/were.",
+      "text": "\"___ you yesterday evening, Daniyal?\" — \"I was at the Debate Club!\"",
+      "correct": "Where were",
+      "hint": "Asking about location in the past → \"Where WERE you?\" (you = were). \"WHERE WERE you yesterday?\""
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"I weren't nervous\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "I → was / WASN'T (not weren't). → \"I WASN'T nervous.\" ✅ \"weren't\" is only for you/we/they."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which pair of sentences is completely correct?",
+      "opts": [
+        "The soup wasn't cold. Were the tables full?",
+        "The soup weren't cold. Was the tables full?",
+        "The soup wasn't hot. Were the tables empty?",
+        "The soup wasn't hot. Was the tables empty?"
+      ],
+      "correct": "The soup wasn't hot. Were the tables empty?",
+      "hint": "\"soup\" = singular → WASN'T ✅. \"tables\" = plural → WERE ✅. \"Were the tables empty?\" ✅"
+    }
+  ],
+  "questions": []
+}

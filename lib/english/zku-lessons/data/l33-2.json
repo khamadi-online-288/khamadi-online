@@ -1,0 +1,89 @@
+{
+  "id": "l33-2",
+  "moduleNum": 17,
+  "lessonNum": 2,
+  "moduleTitle": "Film & Literature",
+  "type": "listening",
+  "title": "What's On at the Cinema?",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "🎬",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student, loves action films"
+    },
+    {
+      "id": "gulnaz",
+      "name": "Gulnaz",
+      "city": "Uralsk",
+      "emoji": "🎭",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "WKU student, prefers drama and romance"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🍿",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student, enjoys any good film"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "He wants to watch the new action film that has just been released.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "She prefers films that have interesting characters and deep emotions.",
+      "correctCharId": "gulnaz"
+    },
+    {
+      "id": "s3",
+      "text": "She suggests a Kazakh film that has received great reviews.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "He says the cinema that they always go to is now showing three new films.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "She mentions an actor who has appeared in many international films.",
+      "correctCharId": "gulnaz"
+    },
+    {
+      "id": "s6",
+      "text": "She says she will go to any film that the group agrees on.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

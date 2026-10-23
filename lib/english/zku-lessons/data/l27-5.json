@@ -1,0 +1,427 @@
+{
+  "id": "l27-5",
+  "moduleNum": 11,
+  "lessonNum": 5,
+  "moduleTitle": "Conditionals",
+  "type": "test",
+  "title": "Module 11 Final Test",
+  "xp": 100,
+  "duration": 55,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "In the reading, Kamila adds \"if\" to her plans because:",
+      "opts": [
+        "She is pessimistic",
+        "Plans with conditions feel less stressful when things change",
+        "She is lazy",
+        "She doesn't like making promises at all"
+      ],
+      "correct": "Plans with conditions feel less stressful when things change",
+      "hint": "Paragraph 3: \"If you make plans with conditions, you don't feel bad when things change.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Amir writes all his plans in a notebook every Sunday.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir acts immediately — Kamila writes in a notebook, not Amir."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Dr. Akhmetov says language and life are:",
+      "opts": [
+        "Completely different",
+        "The same — both use conditionals every day",
+        "Unrelated to grammar",
+        "Too difficult for students"
+      ],
+      "correct": "The same — both use conditionals every day",
+      "hint": "Paragraph 6: \"Language and life are the same.\""
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kamila and Amir agree to meet:",
+      "opts": [
+        "At the café",
+        "At the park",
+        "At the library",
+        "At the sports centre"
+      ],
+      "correct": "At the library",
+      "hint": "Dialogue: \"If the library is open, we will study together.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Kamila says that learning conditionals makes English your \"thinking ___\".",
+      "correct": "tool",
+      "hint": "Dr. Akhmetov: \"English becomes your thinking tool.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek's plan for summer depends on:",
+      "opts": [
+        "Getting a scholarship",
+        "The weather being hot",
+        "Rustam's tournament",
+        "The library being open"
+      ],
+      "correct": "The weather being hot",
+      "hint": "Listening: Zhibek said \"If it is hot this summer, I will travel to the mountains.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Gulnaz uses which type of conditional?",
+      "opts": [
+        "First conditional only",
+        "Zero conditional only",
+        "Both zero and first conditional",
+        "Neither"
+      ],
+      "correct": "Both zero and first conditional",
+      "hint": "Gulnaz used zero conditional (press button → starts) and also zero truth statements."
+    },
+    {
+      "id": "q8",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Rustam's team is certain to win the tournament.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Rustam said \"if\" his team wins — it is a condition, not a certainty."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek says if she gets a scholarship, she will:",
+      "opts": [
+        "Buy new clothes",
+        "Study abroad",
+        "Celebrate with Rustam",
+        "Move to Almaty"
+      ],
+      "correct": "Study abroad",
+      "hint": "Listening: Zhibek said \"If I get a scholarship, I will study abroad.\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Rustam says \"If we practise every day, we ___ next month.\"",
+      "correct": "will win",
+      "hint": "First conditional — Rustam's statement about the team."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Zero conditional uses:",
+      "opts": [
+        "If + past simple, would + verb",
+        "If + present simple, present simple",
+        "If + present simple, will + verb",
+        "If + present perfect, will + verb"
+      ],
+      "correct": "If + present simple, present simple",
+      "hint": "Zero conditional — both clauses in present simple. No \"will\"."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "First conditional result clause uses:",
+      "opts": [
+        "Present simple",
+        "Past simple",
+        "will + infinitive",
+        "Present perfect"
+      ],
+      "correct": "will + infinitive",
+      "hint": "First conditional: If + present simple, WILL + infinitive."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "If you ___ (not water) the plants, they will die.",
+      "correct": "don't water",
+      "hint": "Negative if-clause: don't + verb."
+    },
+    {
+      "id": "q14",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"If I will study, I will pass\" is correct first conditional.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never use \"will\" in the if-clause! Correct: \"If I study, I will pass.\""
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "If you mix red and yellow, you ___ orange.",
+      "opts": [
+        "get",
+        "will get",
+        "got",
+        "are getting"
+      ],
+      "correct": "get",
+      "hint": "This is a scientific fact — zero conditional, present simple."
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (be) happy if you visit her.",
+      "correct": "will be",
+      "hint": "First conditional: will + infinitive in the result clause."
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"When\" can replace \"if\" in the zero conditional when:",
+      "opts": [
+        "The result uses \"will\"",
+        "The event is always true or always happens",
+        "The sentence is about the future",
+        "The sentence is negative"
+      ],
+      "correct": "The event is always true or always happens",
+      "hint": "\"When\" is used for regular, habitual, or always-true situations."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is a first conditional?",
+      "opts": [
+        "If plants die, they need water.",
+        "If Amir wins, he will celebrate.",
+        "If ice gets cold, it stays solid.",
+        "When she is tired, she rests."
+      ],
+      "correct": "If Amir wins, he will celebrate.",
+      "hint": "If + present simple, will + infinitive = first conditional."
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "If we don't hurry, we ___ (miss) the bus.",
+      "correct": "will miss",
+      "hint": "First conditional: will + miss."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Zero conditional is used for real, possible future situations.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Zero conditional is for facts/truths. FIRST conditional is for future possibilities."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Condition\" means:",
+      "opts": [
+        "A type of grammar exercise",
+        "A requirement that must be met for something to happen",
+        "A future promise",
+        "A scientific experiment"
+      ],
+      "correct": "A requirement that must be met for something to happen",
+      "hint": "A condition = something that must be true for the result to occur."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Immediately\" means:",
+      "opts": [
+        "Slowly",
+        "Later",
+        "Without any delay",
+        "Perhaps"
+      ],
+      "correct": "Without any delay",
+      "hint": "\"Immediately\" = at once, right now."
+    },
+    {
+      "id": "q23",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"promise\" and a \"condition\" are the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "A promise = commitment; a condition = requirement. Different meanings."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She explained the ___ clearly: no phones during the exam.",
+      "correct": "rule",
+      "hint": "A \"rule\" = an instruction or regulation you must follow."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"General truth\" refers to:",
+      "opts": [
+        "A story that is slightly true",
+        "A fact that is always correct, not just sometimes",
+        "An opinion about life",
+        "A historical event"
+      ],
+      "correct": "A fact that is always correct, not just sometimes",
+      "hint": "\"General truth\" = something universally true, like \"water boils at 100°C\"."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Possibility\" is closest in meaning to:",
+      "opts": [
+        "Certainty",
+        "Impossibility",
+        "Chance",
+        "Refusal"
+      ],
+      "correct": "Chance",
+      "hint": "\"Possibility\" = the chance that something might happen."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"If\" always begins the sentence in a conditional.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "The if-clause can come second: \"I will help you if I finish early.\""
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Expand\" means:",
+      "opts": [
+        "To shrink or reduce",
+        "To grow larger or wider",
+        "To repeat something",
+        "To explain briefly"
+      ],
+      "correct": "To grow larger or wider",
+      "hint": "\"Expand\" = to become bigger or broader."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"forecast\" is:",
+      "opts": [
+        "A type of conditional",
+        "A weather prediction",
+        "A result clause",
+        "A university plan"
+      ],
+      "correct": "A weather prediction",
+      "hint": "\"Forecast\" = a prediction, especially about weather."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "If you work hard, you will ___ your goal.",
+      "correct": "achieve",
+      "hint": "\"Achieve\" = to succeed in reaching a goal through effort."
+    }
+  ]
+}

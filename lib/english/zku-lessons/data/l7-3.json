@@ -1,0 +1,265 @@
+{
+  "id": "l7-3",
+  "moduleNum": 7,
+  "lessonNum": 3,
+  "moduleTitle": "Food and drinks",
+  "title": "some / any",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "some / any — количество без точного числа",
+  "grammarNote": "\"Some\" и \"any\" — это слова-количители (quantifiers). Они стоят перед существительными и означают \"какое-то количество\" — не точное число, а просто \"немного\", \"несколько\", \"какой-то\".\n\nПосмотри, как мы уже использовали их в столовой ЗКУ им. М. Утемісова:\n\"There is some soup.\" → Есть суп (какое-то количество).\n\"I don't want any meat.\" → Я не хочу никакого мяса.\n\"Is there any compote?\" → Есть ли компот?\n\"Would you like some tea?\" → Хотите чаю?\n\nЧетыре главных правила:\n\n① SOME → утвердительные предложения (+)\n   \"There is some bread.\" · \"I have some money.\" · \"There are some baursaks.\"\n\n② ANY → отрицательные предложения (–)\n   \"There isn't any meat.\" · \"I don't have any money.\" · \"There aren't any apples.\"\n\n③ ANY → вопросы (?)\n   \"Is there any soup?\" · \"Do you want any tea?\" · \"Are there any salads?\"\n\n④ SOME → в вопросах-предложениях (offers) и вежливых просьбах\n   \"Would you like some compote?\" · \"Can I have some bread, please?\" · \"Shall I get some water?\"\n\n💡 Запомни: SOME = ты ЗНАЕШЬ, что что-то есть. ANY = ты НЕ ЗНАЕШЬ или ОТРИЦАЕШЬ.",
+  "grammarTable": [
+    {
+      "subject": "Positive (+)",
+      "verb": "some",
+      "short": "утверждение",
+      "example": "There is some soup. · I want some bread. · There are some salads."
+    },
+    {
+      "subject": "Negative (–)",
+      "verb": "any",
+      "short": "отрицание",
+      "example": "There isn't any meat. · I don't want any coffee. · There aren't any chips."
+    },
+    {
+      "subject": "Question (?)",
+      "verb": "any",
+      "short": "вопрос",
+      "example": "Is there any compote? · Do you have any bread? · Are there any vegetarian options?"
+    },
+    {
+      "subject": "Offer / Request",
+      "verb": "some",
+      "short": "предложение/просьба",
+      "example": "Would you like some soup? · Can I have some water, please? · Shall I get some tea?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "SOME — подробно: когда и как использовать",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Утверждение: there is/are some + noun",
+          "example": "\"There is some rice.\" · \"There are some baursaks on the table.\""
+        },
+        {
+          "form": "I have / I want / I need some + noun",
+          "example": "\"I have some money.\" · \"I want some soup.\" · \"I need some water.\""
+        },
+        {
+          "form": "some + uncountable noun (ед. ч.)",
+          "example": "\"some bread\" · \"some soup\" · \"some rice\" · \"some milk\" · \"some tea\""
+        },
+        {
+          "form": "some + countable noun (мн. ч.)",
+          "example": "\"some apples\" · \"some baursaks\" · \"some students\" · \"some eggs\""
+        },
+        {
+          "form": "SOME в вопросе = предложение/просьба",
+          "example": "\"Would you like SOME tea?\" (предлагаю) ≠ \"Do you want ANY tea?\" (спрашиваю)"
+        },
+        {
+          "form": "Can I have some...? / Shall I get some...?",
+          "example": "\"Can I have some bread, please?\" · \"Shall I get some compote for you?\""
+        }
+      ]
+    },
+    {
+      "title": "ANY — подробно: когда и как использовать",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "Отрицание: there isn't/aren't any + noun",
+          "example": "\"There isn't any meat today.\" · \"There aren't any chips on the menu.\""
+        },
+        {
+          "form": "I don't have / don't want any + noun",
+          "example": "\"I don't have any money.\" · \"I don't want any spicy food.\""
+        },
+        {
+          "form": "Вопрос: is there / are there any + noun?",
+          "example": "\"Is there any bread?\" · \"Are there any vegetarian options today?\""
+        },
+        {
+          "form": "Do you have / want any + noun?",
+          "example": "\"Do you have any compote?\" · \"Do you want any more soup?\""
+        },
+        {
+          "form": "⚠️ NOT \"any\" в утверждениях!",
+          "example": "❌ \"I have any money.\" → ✅ \"I have some money.\" (any только в – и ?)"
+        },
+        {
+          "form": "any = \"никакого/никаких\" в отрицании",
+          "example": "\"I don't want any meat.\" = \"Я не хочу никакого мяса.\""
+        }
+      ]
+    },
+    {
+      "title": "some / any с исчисляемыми и неисчисляемыми существительными",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Неисчисляемые (uncountable) + some/any",
+          "example": "some water / any water · some rice / any rice · some bread / any bread"
+        },
+        {
+          "form": "Исчисляемые мн. ч. (countable pl.) + some/any",
+          "example": "some apples / any apples · some baursaks / any baursaks · some eggs / any eggs"
+        },
+        {
+          "form": "⚠️ НЕ используй с исч. ед. ч.!",
+          "example": "❌ \"some apple\" → ✅ \"some apples\" / \"an apple\" · ❌ \"any egg\" → ✅ \"any eggs\" / \"an egg\""
+        },
+        {
+          "form": "Сравни: some soup (жидкость, ед.ч.) vs some baursaks (штуки, мн.ч.)",
+          "example": "\"There is some soup.\" · \"There are some baursaks.\" — глагол тоже меняется!"
+        }
+      ]
+    },
+    {
+      "title": "Составные слова: some–, any– (бонус)",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "someone / anyone",
+          "example": "\"Someone is in the cafeteria.\" · \"Is there anyone here?\" · \"I don't know anyone.\""
+        },
+        {
+          "form": "something / anything",
+          "example": "\"I want something to eat.\" · \"Is there anything vegetarian?\" · \"I don't want anything.\""
+        },
+        {
+          "form": "somewhere / anywhere",
+          "example": "\"Let's sit somewhere quiet.\" · \"Is there anywhere to sit?\" · \"I don't want to go anywhere.\""
+        },
+        {
+          "form": "Правило то же самое!",
+          "example": "some– → утверждение / предложение. any– → отрицание / вопрос."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Самый простой способ запомнить some / any:\n\n✅ SOME = \"Есть! Я знаю, что есть.\"\n   → Утверждение + Предложение/просьба\n   \"There is SOME soup.\" · \"Would you like SOME tea?\"\n\n❌ ANY = \"Нет? Есть ли? Не уверен.\"\n   → Отрицание + Вопрос\n   \"There isn't ANY meat.\" · \"Is there ANY bread?\"\n\n💡 Лайфхак — переведи на русский:\nЕсли можешь сказать \"какой-нибудь / немного\" → some\nЕсли говоришь \"никакого / есть ли\" → any\n\n⚠️ Запомни исключение:\n\"Would you like SOME tea?\" — это предложение (offer), поэтому SOME, а не any!\n\"Can I have SOME soup?\" — это вежливая просьба → SOME!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose some or any.",
+      "text": "There is ___ chicken soup on the menu today.",
+      "opts": [
+        "some",
+        "any",
+        "a",
+        "no"
+      ],
+      "correct": "some",
+      "hint": "Positive sentence (+) → some. \"There is SOME chicken soup.\""
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose some or any.",
+      "text": "I don't want ___ spicy food today — it upsets my stomach.",
+      "opts": [
+        "some",
+        "any",
+        "a",
+        "no"
+      ],
+      "correct": "any",
+      "hint": "Negative sentence (don't) → any. \"I don't want ANY spicy food.\""
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write some or any.",
+      "text": "Is there ___ compote left? I really want some!",
+      "correct": "any",
+      "hint": "Question (?) → any. \"Is there ANY compote left?\""
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"I have any money — let me buy lunch\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Positive sentence → some! \"I have SOME money.\" ANY is only for negatives and questions."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "This is an offer. Choose some or any.",
+      "text": "Would you like ___ fresh baursaks? They are still warm!",
+      "opts": [
+        "some",
+        "any",
+        "a few",
+        "much"
+      ],
+      "correct": "some",
+      "hint": "Offer / Would you like...? → SOME. \"Would you like SOME baursaks?\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write some or any.",
+      "text": "There aren't ___ vegetarian options today — only meat dishes.",
+      "correct": "any",
+      "hint": "Negative (aren't) → any. \"There aren't ANY vegetarian options.\""
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Can I have any bread, please?",
+        "There aren't some chips on the menu.",
+        "Do you have any water?",
+        "I want any compote."
+      ],
+      "correct": "Do you have any water?",
+      "hint": "\"Do you have ANY water?\" ✅ — question → any. Others misuse some/any."
+    },
+    {
+      "id": "e8",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Is there something to eat here?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Something\" = any– compound in a question. Actually here it's some– (you expect the answer yes). Both \"something\" and \"anything\" can work in questions, but \"something\" implies you expect food to be there."
+    }
+  ],
+  "questions": []
+}

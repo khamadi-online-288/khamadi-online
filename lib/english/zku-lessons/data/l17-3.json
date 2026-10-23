@@ -1,0 +1,510 @@
+{
+  "id": "l17-3",
+  "moduleNum": 1,
+  "lessonNum": 3,
+  "moduleTitle": "Abilities & Skills",
+  "title": "can / can't – ability",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "can / can't — ability & possibility",
+  "grammarNote": "CAN — это модальный глагол. Он выражает УМЕНИЕ или СПОСОБНОСТЬ делать что-то. Главное правило: после CAN глагол стоит в БАЗОВОЙ форме (инфинитив без 'to'). CAN не изменяется по лицам — для I, He, She, We, They он всегда одинаковый.",
+  "grammarTable": [
+    {
+      "subject": "I / You",
+      "verb": "can",
+      "short": "✓",
+      "example": "I can swim fast. · You can speak English."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "can",
+      "short": "✓",
+      "example": "She can dance. · He can code in Python."
+    },
+    {
+      "subject": "We / They",
+      "verb": "can",
+      "short": "✓",
+      "example": "We can help. · They can play volleyball."
+    },
+    {
+      "subject": "I / You",
+      "verb": "can't",
+      "short": "✗",
+      "example": "I can't drive. · You can't sing in tune."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "can't",
+      "short": "✗",
+      "example": "She can't cook. · He can't wake up early."
+    },
+    {
+      "subject": "We / They",
+      "verb": "can't",
+      "short": "✗",
+      "example": "We can't be late. · They can't speak French."
+    },
+    {
+      "subject": "Can + subject + verb?",
+      "verb": "?",
+      "short": "?",
+      "example": "Can you help me? · Can she dance? · Can they swim?"
+    },
+    {
+      "subject": "Short answers",
+      "verb": "+ / −",
+      "short": "Yes/No",
+      "example": "Yes, I can. / No, I can't. · Yes, she can. / No, he can't."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Affirmative — I can... (утверждение)",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "I can play the dombra.",
+          "example": "I can play about twenty Kazakh songs."
+        },
+        {
+          "form": "She can speak French.",
+          "example": "She can speak French and English fluently."
+        },
+        {
+          "form": "He can solve a Rubik's cube.",
+          "example": "He can solve it in under two minutes."
+        },
+        {
+          "form": "They can perform dances.",
+          "example": "They can perform three different dances."
+        },
+        {
+          "form": "We can help each other.",
+          "example": "We can help each other with homework."
+        },
+        {
+          "form": "It can connect to the internet.",
+          "example": "This laptop can connect anywhere."
+        }
+      ]
+    },
+    {
+      "title": "Negative — I can't... (отрицание)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I can't / cannot drive.",
+          "example": "I can't drive — I don't have a licence yet."
+        },
+        {
+          "form": "She can't cook well.",
+          "example": "She can't even make a bowl of soup!"
+        },
+        {
+          "form": "He can't sing in tune.",
+          "example": "He can't sing — please don't ask him!"
+        },
+        {
+          "form": "We can't be late for class.",
+          "example": "We can't be late — the teacher marks attendance."
+        },
+        {
+          "form": "They can't speak Russian.",
+          "example": "They can't speak Russian, only Kazakh."
+        },
+        {
+          "form": "can't = cannot (formal)",
+          "example": "I cannot attend today. (formal writing)"
+        }
+      ]
+    },
+    {
+      "title": "Questions — Can you...? (вопросы)",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Can you swim?",
+          "example": "Can you swim? — Yes, I can. / No, I can't."
+        },
+        {
+          "form": "Can she dance?",
+          "example": "Can she dance? — Yes, she can beautifully!"
+        },
+        {
+          "form": "Can he code?",
+          "example": "Can he code? — Yes, he can. He's the best."
+        },
+        {
+          "form": "What can you do?",
+          "example": "What can you do? — I can play guitar."
+        },
+        {
+          "form": "How well can she sing?",
+          "example": "How well can she sing? — Very well!"
+        },
+        {
+          "form": "Where can we study?",
+          "example": "Where can we study? — In the library."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes (типичные ошибки)",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "❌ She cans dance.",
+          "example": "✅ She can dance. — CAN не меняется! Никакого -s!"
+        },
+        {
+          "form": "❌ I can to swim.",
+          "example": "✅ I can swim. — После CAN нет \"to\"!"
+        },
+        {
+          "form": "❌ Can she dances?",
+          "example": "✅ Can she dance? — Базовая форма в вопросе!"
+        },
+        {
+          "form": "❌ He can't to drive.",
+          "example": "✅ He can't drive. — После CAN'T тоже нет 'to'!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три золотых правила CAN:\n① CAN не меняется: I can · She can · They can (НЕ 'she cans'!)\n② После CAN всегда базовый глагол: can swim · can dance (НЕ 'can to swim', НЕ 'can swimming'!)\n③ Отрицание: can't = cannot. Краткое can't — в разговоре. Cannot — в формальном письме.\n\n💡 Запомни пары: 'can' [kæn] (слабый звук в предложении) vs 'can't' [kɑːnt] (всегда ударный, чёткий!).",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Zhibek ___ perform three traditional Kazakh dances.",
+      "opts": [
+        "can",
+        "cans",
+        "can to",
+        "is can"
+      ],
+      "correct": "can",
+      "hint": "Zhibek = She → She can (NOT \"cans\"! CAN never takes -s)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct form.",
+      "text": "Rustam ___ juggle three footballs at the same time.",
+      "correct": "can",
+      "hint": "Positive ability → can. No -s needed."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct negative.",
+      "text": "I ___ cook well — my soup always tastes terrible!",
+      "opts": [
+        "can't",
+        "cants",
+        "can not to",
+        "cannot to"
+      ],
+      "correct": "can't",
+      "hint": "Negative of can = can't / cannot. Never 'cants' or 'cannot to'."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Can she dances well?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Can → base form! \"Can she dance well?\" (no -s)."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Which answer is correct?",
+      "text": "Can Amir build a website? — ___",
+      "opts": [
+        "Yes, he cans.",
+        "Yes, he can.",
+        "Yes, he is can.",
+        "Yes, he can to."
+      ],
+      "correct": "Yes, he can.",
+      "hint": "Short answer: Yes, he can. (never \"cans\", never \"is can\")."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Make the question.",
+      "text": "___ you help me with the computer?",
+      "correct": "Can",
+      "hint": "Question: Can + subject + base verb."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which sentence is 100% correct?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "She can to speak three languages.",
+        "He cans play the piano.",
+        "They can swim and dive.",
+        "I can't to wake up early."
+      ],
+      "correct": "They can swim and dive.",
+      "hint": "\"They can swim and dive.\" ✅ — can + base verb. Others wrongly add \"to\" or \"-s\"."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Translate correctly.",
+      "text": "Он не умеет петь.",
+      "opts": [
+        "He can't sing.",
+        "He not can sing.",
+        "He can't to sing.",
+        "He no can sing."
+      ],
+      "correct": "He can't sing.",
+      "hint": "He can't + base verb = He can't sing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "She ___ play the dombra.",
+      "opts": [
+        "can",
+        "cans",
+        "can to",
+        "is can"
+      ],
+      "correct": "can",
+      "hint": "CAN never takes -s."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ drive yet — I'm still learning.",
+      "correct": "can't",
+      "hint": "Negative ability → can't."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct?",
+      "opts": [
+        "He cans code.",
+        "He can codes.",
+        "He can code.",
+        "He can to code."
+      ],
+      "correct": "He can code.",
+      "hint": "CAN + bare infinitive (no -s, no \"to\")."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Can she dances?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Can → base form: Can she dance?"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ you help me? — Yes, I ___.",
+      "correct": "Can can",
+      "hint": "Question: Can you...? → Yes, I can."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "How do you say \"Она не умеет петь\"?",
+      "opts": [
+        "She can't sing.",
+        "She not sing.",
+        "She can sings not.",
+        "She isn't can sing."
+      ],
+      "correct": "She can't sing.",
+      "hint": "She can't + base verb."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Can Rustam juggle? — ___",
+      "opts": [
+        "Yes, he cans.",
+        "Yes, he is.",
+        "Yes, he can.",
+        "Yes, he can to."
+      ],
+      "correct": "Yes, he can.",
+      "hint": "Short answer: Yes, he can."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I cannot to swim\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "cannot + base verb: I cannot swim. (no 'to'!)"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "They can swimming.",
+        "They can swims.",
+        "They can to swim.",
+        "They can swim."
+      ],
+      "correct": "They can swim.",
+      "hint": "CAN + base infinitive only."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila ___ sing, but she ___ play the dombra well.",
+      "correct": "can't can",
+      "hint": "can't = negative, can = positive."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What can / can't is can + not?",
+      "opts": [
+        "can't",
+        "cannt",
+        "canot",
+        "cann't"
+      ],
+      "correct": "can't",
+      "hint": "can + not = can't or cannot."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ Amir solve a Rubik's cube?\" — \"Yes, he ___.\"",
+      "opts": [
+        "Can / can",
+        "Does / does",
+        "Is / is",
+        "Do / do"
+      ],
+      "correct": "Can / can",
+      "hint": "Ability questions use Can. Short answer: Yes, he can."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She cans speak English\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "CAN never takes -s. → She can speak English."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I practise every morning but I ___ do a backflip.",
+      "correct": "can't",
+      "hint": "Negative → can't."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct translation: \"Что ты умеешь делать?\"",
+      "opts": [
+        "What do you can do?",
+        "What can you do?",
+        "What you can do?",
+        "What can you to do?"
+      ],
+      "correct": "What can you do?",
+      "hint": "WH + can + subject + verb."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the formal version of \"can't\"?",
+      "opts": [
+        "canot",
+        "cannot",
+        "can not",
+        "Both: cannot and can not"
+      ],
+      "correct": "Both: cannot and can not",
+      "hint": "\"cannot\" (one word) is most common; \"can not\" is also acceptable in formal writing."
+    }
+  ]
+}

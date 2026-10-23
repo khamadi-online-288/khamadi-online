@@ -1,0 +1,244 @@
+{
+  "id": "l43-4",
+  "moduleNum": 9,
+  "lessonNum": 5,
+  "moduleTitle": "Asking & Answering",
+  "type": "writing",
+  "title": "Preparing Interview Questions",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Could you tell me...",
+      "emoji": "💬",
+      "opts": [
+        "Требую ответа...",
+        "Не могли бы вы рассказать...",
+        "Я знаю, что...",
+        "Вы должны..."
+      ],
+      "correct": "Не могли бы вы рассказать..."
+    },
+    {
+      "id": "p2",
+      "word": "Do you know whether...",
+      "emoji": "❓",
+      "opts": [
+        "Я уверен...",
+        "Знаете ли вы...",
+        "Расскажите мне...",
+        "Вы сказали..."
+      ],
+      "correct": "Знаете ли вы..."
+    },
+    {
+      "id": "p3",
+      "word": "You've worked here, haven't you?",
+      "emoji": "✅",
+      "opts": [
+        "Разделительный вопрос",
+        "Прямой вопрос",
+        "Косвенный вопрос",
+        "Риторический вопрос"
+      ],
+      "correct": "Разделительный вопрос"
+    },
+    {
+      "id": "p4",
+      "word": "I'd like to know...",
+      "emoji": "🔍",
+      "opts": [
+        "Я не знаю...",
+        "Я хотел бы узнать...",
+        "Расскажите мне...",
+        "Вы можете..."
+      ],
+      "correct": "Я хотел бы узнать..."
+    },
+    {
+      "id": "p5",
+      "word": "structured interview",
+      "emoji": "📋",
+      "opts": [
+        "случайная беседа",
+        "структурированное интервью",
+        "тест",
+        "опрос"
+      ],
+      "correct": "структурированное интервью"
+    },
+    {
+      "id": "p6",
+      "word": "follow-up question",
+      "emoji": "🔄",
+      "opts": [
+        "первый вопрос",
+        "уточняющий вопрос",
+        "последний вопрос",
+        "закрытый вопрос"
+      ],
+      "correct": "уточняющий вопрос"
+    }
+  ],
+  "writingModel": [
+    "Interview Questions for Professor Sultanova — prepared by Kamila Seitkali",
+    "Context: I am preparing to interview Professor Sultanova about her career in bilingual linguistics research. I want to use indirect questions to be polite and professional, and tag questions where appropriate to show interest and invite elaboration.",
+    "Opening questions (to establish background):",
+    "Could you tell me how long you have been working in the field of bilingualism? // I'd like to know what first inspired you to specialise in language acquisition. // You've been based at WKU for several years, haven't you? // Do you know whether the department has always focused on Kazakh-Russian bilingualism, or whether this developed over time?",
+    "Research questions (main topic):",
+    "Could you explain what your current research project involves? // I'd like to know how you select participants for your studies. // The research has produced some interesting results, hasn't it? // Do you happen to know whether your findings have influenced educational policy in Kazakhstan?",
+    "Personal experience questions (building rapport):",
+    "Could you tell me what the most surprising finding in your career has been? // I wonder whether you have conducted research in any countries outside Kazakhstan. // You speak at least three languages, don't you? // I'd like to know whether you find it easier to communicate about linguistics in Kazakh, Russian, or English.",
+    "Closing questions (future and advice):",
+    "Could you tell me what advice you would give to a student beginning a career in linguistics research? // Do you know whether WKU plans to expand its linguistics research programme in the next few years? // You believe the future of language education looks promising, don't you? // I'd like to know what you think the most important challenge will be for researchers in this field."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "Interview Questions for ",
+      "suffix": " — prepared by ",
+      "placeholder": "Name of person you'll interview",
+      "hint": "Name the interviewee and yourself."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your full name."
+    },
+    {
+      "key": "context",
+      "prefix": "Context: I am preparing to interview ",
+      "suffix": " about ",
+      "placeholder": "interviewee's name",
+      "hint": "Briefly describe the purpose of the interview."
+    },
+    {
+      "key": "ctopic",
+      "prefix": "",
+      "suffix": ". I want to use indirect questions to be polite and professional.",
+      "placeholder": "their expertise / topic area",
+      "hint": "What topic will you ask about?"
+    },
+    {
+      "key": "open1",
+      "prefix": "Could you tell me ",
+      "suffix": "?",
+      "placeholder": "an opening background question (indirect)",
+      "hint": "\"Could you tell me how long you have worked in...?\""
+    },
+    {
+      "key": "open2",
+      "prefix": "I'd like to know ",
+      "suffix": ".",
+      "placeholder": "what inspired / motivated them",
+      "hint": "\"I'd like to know what first inspired you to...\""
+    },
+    {
+      "key": "open3",
+      "prefix": "You've been ",
+      "suffix": ", haven't you?",
+      "placeholder": "a fact you believe is true about them",
+      "hint": "Tag question — positive + negative tag."
+    },
+    {
+      "key": "main1",
+      "prefix": "Could you explain ",
+      "suffix": "?",
+      "placeholder": "main research/work question",
+      "hint": "\"Could you explain what your current project involves?\""
+    },
+    {
+      "key": "main2",
+      "prefix": "Do you happen to know whether ",
+      "suffix": "?",
+      "placeholder": "a yes/no question about their work",
+      "hint": "\"Do you happen to know WHETHER your findings have been published?\""
+    },
+    {
+      "key": "main3",
+      "prefix": "The ",
+      "suffix": ", hasn't it?",
+      "placeholder": "a fact + tag to invite elaboration",
+      "hint": "\"The research has produced interesting results, hasn't it?\""
+    },
+    {
+      "key": "close1",
+      "prefix": "Could you tell me what advice you would give to ",
+      "suffix": "?",
+      "placeholder": "who should receive the advice",
+      "hint": "\"...to a student beginning a career in your field?\""
+    },
+    {
+      "key": "close2",
+      "prefix": "I'd like to know what you think ",
+      "suffix": ".",
+      "placeholder": "a reflective final question",
+      "hint": "\"...what you think the biggest challenge will be.\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Indirect questions (formal)",
+      "color": "#003876",
+      "items": [
+        "Could you tell me + wh-word + subject + verb?",
+        "Do you know + whether/wh-word + subject + verb?",
+        "I'd like to know + wh-word + subject + verb.",
+        "Could you explain + what/how/why + subject + verb?",
+        "I wonder + whether + subject + verb."
+      ]
+    },
+    {
+      "category": "Tag questions (checking/confirming)",
+      "color": "#1D9E75",
+      "items": [
+        "Positive sentence + negative tag, tag pronoun?",
+        "She has worked here for years, hasn't she?",
+        "You speak three languages, don't you?",
+        "The research is ongoing, isn't it?",
+        "You've published this before, haven't you?"
+      ]
+    },
+    {
+      "category": "Asking about experience and views",
+      "color": "#1B8FC4",
+      "items": [
+        "Could you tell me what the most important moment in your career has been?",
+        "I'd like to know how you first became interested in this topic.",
+        "Do you know whether your work has influenced policy?",
+        "Could you explain what advice you'd give to someone starting out?",
+        "I wonder whether the situation has changed significantly."
+      ]
+    },
+    {
+      "category": "Closing the interview",
+      "color": "#C9933B",
+      "items": [
+        "I'd like to know what you see as the future of this field.",
+        "Could you tell me what challenges you anticipate?",
+        "You believe this area is growing, don't you?",
+        "Do you know whether there will be further research on this?",
+        "Thank you — I'd like to know if you have any final thoughts."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "l31-2",
+  "moduleNum": 15,
+  "lessonNum": 2,
+  "moduleTitle": "Environment",
+  "type": "listening",
+  "title": "An Eco-Friendly Student",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🌱",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU Eco Club president"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "♻️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student, Eco Club new member"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🌍",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student, interested in joining"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "She says that a lot of food at WKU is wasted every day.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s2",
+      "text": "He decided to join the Eco Club after seeing a documentary about plastic pollution.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "She is interested in organising a recycling station near the dormitory.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "She explains that trees are planted every spring by the club.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s5",
+      "text": "He says he has started using a reusable water bottle and bag.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "She says she will bring five friends to the next Eco Club meeting.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

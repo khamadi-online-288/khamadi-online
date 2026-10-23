@@ -1,0 +1,255 @@
+{
+  "id": "l15-4",
+  "moduleNum": 15,
+  "lessonNum": 4,
+  "moduleTitle": "Future plans",
+  "title": "Planning a trip together",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Marat",
+      "text": "Nurgul! Are we still going to go to Almaty during the October break?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Yes! I'm so excited. But we need to plan everything first. When exactly are we going to leave?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marat",
+      "text": "I think we're going to leave on Friday the 4th of October — the train departs at 7 pm.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Perfect. And where are we going to stay? A hostel or a hotel?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marat",
+      "text": "I found a great hostel near the city centre — it's going to cost about 4,500 tenge per night each.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "That's very affordable! What are we going to do on Saturday?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marat",
+      "text": "First we're going to visit Panfilov Park and the Zenkov Cathedral. Then we're going to walk along the Arbat — the famous pedestrian street.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Wonderful! And I really want to go to the Green Bazaar — can we go there?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marat",
+      "text": "I'm going to put that on Saturday afternoon. And in the evening, we're going to find a good traditional restaurant.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Perfect. And Sunday morning?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marat",
+      "text": "On Sunday, we're going to take a cable car up to Shymbulak! But it's going to be cold up there — bring your warmest jacket.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "I'm going to bring my thick coat and gloves — I learned my lesson from last winter!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Marat",
+      "text": "Good. And one more thing — who's going to book the train tickets?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "You do it — you found the hostel! I'm going to book the cable car online this evening.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "hostel",
+      "emoji": "🏠",
+      "opts": [
+        "пятизвёздочный отель",
+        "хостел / молодёжное общежитие",
+        "съёмная квартира",
+        "кемпинг"
+      ],
+      "correct": "хостел / молодёжное общежитие"
+    },
+    {
+      "id": "p2",
+      "word": "pedestrian street",
+      "emoji": "🚶",
+      "opts": [
+        "скоростная трасса",
+        "пешеходная улица",
+        "рыночный переулок",
+        "велодорожка"
+      ],
+      "correct": "пешеходная улица"
+    },
+    {
+      "id": "p3",
+      "word": "affordable",
+      "emoji": "💰",
+      "opts": [
+        "дорогой / роскошный",
+        "бесплатный",
+        "доступный по цене",
+        "дешёвый и некачественный"
+      ],
+      "correct": "доступный по цене"
+    },
+    {
+      "id": "p4",
+      "word": "book",
+      "emoji": "📅",
+      "opts": [
+        "купить",
+        "отменить",
+        "забронировать / зарезервировать",
+        "вернуть деньги"
+      ],
+      "correct": "забронировать / зарезервировать"
+    },
+    {
+      "id": "p5",
+      "word": "cable car",
+      "emoji": "🚡",
+      "opts": [
+        "автобус",
+        "поезд",
+        "трамвай",
+        "канатная дорога"
+      ],
+      "correct": "канатная дорога"
+    },
+    {
+      "id": "p6",
+      "word": "departs",
+      "emoji": "🚂",
+      "opts": [
+        "прибывает",
+        "останавливается",
+        "отправляется / уходит",
+        "задерживается"
+      ],
+      "correct": "отправляется / уходит"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Nurgul and Marat are going to leave for Almaty on Friday the 4th of October.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "They are going to stay at a hotel in the city centre.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The hostel is going to cost about 4,500 tenge per night each.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "On Saturday afternoon, they are going to visit the Green Bazaar.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "On Sunday, they are going to take a bus up to Shymbulak.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Nurgul is going to book the cable car, and Marat is going to book the train tickets.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "marat",
+      "name": "Marat",
+      "city": "Kostanay",
+      "emoji": "🗺️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Geography student, Year 2"
+    },
+    {
+      "id": "nurgul",
+      "name": "Nurgul",
+      "city": "Pavlodar",
+      "emoji": "✈️",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "Tourism student, Year 1"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Found a hostel near the centre for 4,500 tenge per night each.",
+      "correctCharId": "marat"
+    },
+    {
+      "id": "s2",
+      "text": "Wants to visit the Green Bazaar on Saturday afternoon.",
+      "correctCharId": "nurgul"
+    },
+    {
+      "id": "s3",
+      "text": "Planned the full Saturday itinerary: park, cathedral, Arbat, bazaar, restaurant.",
+      "correctCharId": "marat"
+    },
+    {
+      "id": "s4",
+      "text": "Warned that it is going to be cold at Shymbulak and said to bring a warm jacket.",
+      "correctCharId": "marat"
+    },
+    {
+      "id": "s5",
+      "text": "Is going to bring a thick coat and gloves for the Sunday trip.",
+      "correctCharId": "nurgul"
+    },
+    {
+      "id": "s6",
+      "text": "Is going to book the cable car online that same evening.",
+      "correctCharId": "nurgul"
+    }
+  ]
+}

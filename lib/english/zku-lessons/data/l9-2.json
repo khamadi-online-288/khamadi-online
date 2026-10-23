@@ -1,0 +1,255 @@
+{
+  "id": "l9-2",
+  "moduleNum": 9,
+  "lessonNum": 2,
+  "moduleTitle": "Right now",
+  "title": "What are you doing?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "Hey Sholpan! What are you doing right now?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "I'm eating lunch in the cafeteria. Why? What's happening?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Are you working on the project? The deadline is tomorrow!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "Not right now. I'm starving! Are you in the library?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes, I'm writing the code for our program. Where is Dastan?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "He's playing football outside with the sports club. Again.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Again?! He's always playing football! What are you eating?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "Soup and bread. The soup is really good today — chicken with vegetables.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "OK. Are you coming to the library after lunch?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "Yes! I'm finishing my food right now. Give me twenty minutes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Great. I'm saving a seat for you. Please hurry — I need help with the loop.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "I'm coming! Stop panicking, Amir. The code isn't running away!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Ha! OK, see you soon. And tell Dastan to come too!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Sholpan",
+      "text": "I'm texting him right now. But I'm not promising anything.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "deadline",
+      "emoji": "⏰",
+      "opts": [
+        "начало",
+        "срок сдачи",
+        "перерыв",
+        "экзамен"
+      ],
+      "correct": "срок сдачи"
+    },
+    {
+      "id": "p2",
+      "word": "starving",
+      "emoji": "😫",
+      "opts": [
+        "уставший",
+        "скучающий",
+        "очень голодный",
+        "спешащий"
+      ],
+      "correct": "очень голодный"
+    },
+    {
+      "id": "p3",
+      "word": "code",
+      "emoji": "💻",
+      "opts": [
+        "текст сообщения",
+        "программный код",
+        "пароль",
+        "конспект"
+      ],
+      "correct": "программный код"
+    },
+    {
+      "id": "p4",
+      "word": "loop",
+      "emoji": "🔁",
+      "opts": [
+        "ошибка в программе",
+        "цикл (в программировании)",
+        "файл",
+        "функция"
+      ],
+      "correct": "цикл (в программировании)"
+    },
+    {
+      "id": "p5",
+      "word": "save a seat",
+      "emoji": "🪑",
+      "opts": [
+        "покупать билет",
+        "садиться первым",
+        "занимать место",
+        "убирать стул"
+      ],
+      "correct": "занимать место"
+    },
+    {
+      "id": "p6",
+      "word": "panic",
+      "emoji": "😰",
+      "opts": [
+        "торопиться",
+        "паниковать",
+        "злиться",
+        "смеяться"
+      ],
+      "correct": "паниковать"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Sholpan is in the library when Amir calls her.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Amir is writing code for their group programming project.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Dastan is helping Amir with the project in the library.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Sholpan is eating soup and bread for lunch.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Sholpan is planning to come to the library after eating.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Sholpan is calling Dastan at the end of the conversation.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktau",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Computer Science, Group 201"
+    },
+    {
+      "id": "sholpan",
+      "name": "Sholpan",
+      "city": "Petropavlovsk",
+      "emoji": "🍜",
+      "color": "#1D9E75",
+      "bg": "#DCFCE7",
+      "role": "Computer Science, Group 201"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Is eating lunch in the cafeteria when the call begins.",
+      "correctCharId": "sholpan"
+    },
+    {
+      "id": "s2",
+      "text": "Is writing the code for the group project.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "Says Dastan is playing football with the sports club.",
+      "correctCharId": "sholpan"
+    },
+    {
+      "id": "s4",
+      "text": "Says the soup today is chicken with vegetables.",
+      "correctCharId": "sholpan"
+    },
+    {
+      "id": "s5",
+      "text": "Is saving a seat in the library for the classmate.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Is texting Dastan at the end of the conversation.",
+      "correctCharId": "sholpan"
+    }
+  ]
+}

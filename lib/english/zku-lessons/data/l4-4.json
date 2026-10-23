@@ -1,0 +1,222 @@
+{
+  "id": "l4-4",
+  "moduleNum": 4,
+  "lessonNum": 4,
+  "moduleTitle": "My day",
+  "title": "My daily schedule",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I get up at...",
+      "emoji": "🌅",
+      "opts": [
+        "Я учусь в...",
+        "Я встаю в...",
+        "Я иду в...",
+        "Я ем в..."
+      ],
+      "correct": "Я встаю в..."
+    },
+    {
+      "id": "p2",
+      "word": "I usually have...",
+      "emoji": "🍽️",
+      "opts": [
+        "Я всегда иду...",
+        "Я обычно ем/пью...",
+        "Я редко делаю...",
+        "Я никогда не..."
+      ],
+      "correct": "Я обычно ем/пью..."
+    },
+    {
+      "id": "p3",
+      "word": "After that, I...",
+      "emoji": "➡️",
+      "opts": [
+        "До этого я...",
+        "Вместо этого я...",
+        "После этого я...",
+        "Пока я..."
+      ],
+      "correct": "После этого я..."
+    },
+    {
+      "id": "p4",
+      "word": "My favourite part is...",
+      "emoji": "⭐",
+      "opts": [
+        "Моя любимая часть — это...",
+        "Самое трудное — это...",
+        "Я не люблю...",
+        "Мне нужно..."
+      ],
+      "correct": "Моя любимая часть — это..."
+    },
+    {
+      "id": "p5",
+      "word": "I go to sleep at...",
+      "emoji": "🌙",
+      "opts": [
+        "Я сплю...",
+        "Я просыпаюсь в...",
+        "Я ложусь спать в...",
+        "Я отдыхаю в..."
+      ],
+      "correct": "Я ложусь спать в..."
+    },
+    {
+      "id": "p6",
+      "word": "It helps me to...",
+      "emoji": "💡",
+      "opts": [
+        "Это мешает мне...",
+        "Это помогает мне...",
+        "Это заставляет меня...",
+        "Без этого я..."
+      ],
+      "correct": "Это помогает мне..."
+    }
+  ],
+  "writingModel": [
+    "I want to describe my typical day as a first-year student at WKU. My day starts early and finishes late, but I love my schedule. I always try to be organised and use my time well. Every day is busy, but every day I learn something new — and that makes me happy.",
+    "My morning routine starts at 6:30. I get up immediately when my alarm rings — I never press snooze! First, I make my bed and wash my face. Then I go to the cafeteria at 7:15. I usually have porridge or an omelette for breakfast. I always eat with my friend Dias. After breakfast, I walk to the academic building. It takes about ten minutes and I listen to an English podcast on the way.",
+    "Classes start at 8:30 every morning. I usually have three subjects in the morning and two in the afternoon. My favourite subject is English because it helps me communicate with people from all over the world. Mathematics is my most difficult subject, but I study hard. I always sit in the second row — it helps me concentrate better. Classes finish at 3:30 pm.",
+    "After classes, I go back to my room and rest for thirty minutes. Then I do my homework from 4:30 to 6:30. I always do English exercises first, then Mathematics. At 7:00 I have dinner in the cafeteria. After dinner, I call my parents in Aktobe — we talk for about twenty minutes. I tell them about my day and they ask about my grades and my health.",
+    "I usually go to sleep at 10:30 pm. Before I sleep, I write in my diary for five minutes. I write about the best moment of my day — it is a very nice habit. My favourite part of the day is the morning walk to class when I listen to podcasts and feel ready for a new day. I am proud of my daily routine — it helps me to be a good student at WKU!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "I want to describe my typical day as ",
+      "suffix": ".",
+      "placeholder": "a WKU student / a first-year student",
+      "hint": "e.g. a first-year student at WKU"
+    },
+    {
+      "key": "wakeup",
+      "prefix": "Every morning, I get up at ",
+      "suffix": ".",
+      "placeholder": "time",
+      "hint": "e.g. 6:30 / 7:00 / 7:15"
+    },
+    {
+      "key": "morning",
+      "prefix": "For breakfast, I usually ",
+      "suffix": ".",
+      "placeholder": "eat / drink something",
+      "hint": "e.g. eat porridge and drink tea"
+    },
+    {
+      "key": "class",
+      "prefix": "My classes start at ",
+      "suffix": " and finish at ___.",
+      "placeholder": "start time ... finish time",
+      "hint": "e.g. 8:30 ... 3:30 pm"
+    },
+    {
+      "key": "fav",
+      "prefix": "My favourite subject is ",
+      "suffix": " because it is ___.",
+      "placeholder": "subject ... adjective",
+      "hint": "e.g. English ... very interesting"
+    },
+    {
+      "key": "after",
+      "prefix": "After classes, I usually ",
+      "suffix": ".",
+      "placeholder": "what you do first",
+      "hint": "e.g. rest for 30 minutes / go to the library"
+    },
+    {
+      "key": "study",
+      "prefix": "I study for about ",
+      "suffix": " every evening.",
+      "placeholder": "how long",
+      "hint": "e.g. one hour / two hours"
+    },
+    {
+      "key": "evening",
+      "prefix": "In the evening, I always ",
+      "suffix": ".",
+      "placeholder": "evening activity",
+      "hint": "e.g. call my parents / watch a lecture"
+    },
+    {
+      "key": "sleep",
+      "prefix": "I go to sleep at ",
+      "suffix": ". My favourite part of the day is ___.",
+      "placeholder": "time ... your favourite moment",
+      "hint": "e.g. 10:30 pm ... the morning walk"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Time expressions",
+      "color": "#003876",
+      "items": [
+        "at 6:30 / at 7:00 / at 8:30",
+        "in the morning / in the evening",
+        "after breakfast / after classes",
+        "before dinner / before sleeping",
+        "every day / every morning",
+        "from 4:30 to 6:30"
+      ]
+    },
+    {
+      "category": "Daily actions",
+      "color": "#1B8FC4",
+      "items": [
+        "I get up at... / I wake up at...",
+        "I have breakfast / I eat porridge",
+        "I go to class / I walk to...",
+        "I study for... hours",
+        "I call my parents",
+        "I go to sleep at..."
+      ]
+    },
+    {
+      "category": "Adverbs of frequency",
+      "color": "#7C3AED",
+      "items": [
+        "I always make my bed.",
+        "I usually eat in the cafeteria.",
+        "I often go to the library.",
+        "I sometimes feel tired.",
+        "I never skip breakfast.",
+        "I rarely watch TV."
+      ]
+    },
+    {
+      "category": "Opinions & feelings",
+      "color": "#1D9E75",
+      "items": [
+        "My favourite subject is...",
+        "It helps me to concentrate.",
+        "I love my routine because...",
+        "My favourite part of the day is...",
+        "I am proud of...",
+        "Every day I learn something new."
+      ]
+    }
+  ]
+}

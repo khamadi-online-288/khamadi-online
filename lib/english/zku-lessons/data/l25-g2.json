@@ -1,0 +1,596 @@
+{
+  "id": "l25-g2",
+  "moduleNum": 9,
+  "lessonNum": 5,
+  "moduleTitle": "Have you ever…?",
+  "title": "ever / never / already / yet / just",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect: ever / never / already / yet / just",
+  "grammarNote": "Пять ключевых наречий Present Perfect — каждое со своим значением и позицией:\n\n① ALREADY — уже (раньше ожидаемого):\n   Позиция: между have и participle\n   \"I have already done my homework.\" (уже сделал — раньше чем ожидалось)\n   \"She has already left.\" (уже ушла)\n\n② JUST — только что (совсем недавно):\n   Позиция: между have и participle\n   \"I have just finished lunch.\" (только что закончил)\n   \"He has just arrived.\" (только что приехал)\n\n③ YET — уже/ещё (в вопросах и отрицаниях):\n   Позиция: В КОНЦЕ предложения!\n   В вопросе: \"Have you finished yet?\" (уже закончил?)\n   В отрицании: \"I haven't finished yet.\" (ещё не закончил)\n\n④ EVER — когда-нибудь (в вопросах об опыте):\n   Позиция: между have и participle\n   \"Have you ever been to London?\" (когда-нибудь бывал?)\n   \"Has she ever tried beshbarmak?\" (когда-нибудь пробовала?)\n\n⑤ NEVER — никогда (отрицание опыта):\n   Позиция: между have и participle\n   \"I have never eaten sushi.\" (никогда не ел)\n   \"He has never been abroad.\" (никогда не был за рубежом)\n\n💡 Схема позиций:\nHave + ALREADY/JUST/EVER/NEVER + participle\nHave + participle + YET Mastering their position and meaning is essential for natural English.",
+  "grammarTable": [
+    {
+      "subject": "ever",
+      "verb": "questions only — between have and past participle",
+      "short": "at any time in your life",
+      "example": "Have you EVER tried kokpar? Has she EVER been to Almaty?"
+    },
+    {
+      "subject": "never",
+      "verb": "positive form — between have and past participle",
+      "short": "at no time / not ever",
+      "example": "I have NEVER seen snow. She has NEVER eaten horsemeat."
+    },
+    {
+      "subject": "already",
+      "verb": "positive form — between have and past participle",
+      "short": "sooner than expected",
+      "example": "I have ALREADY finished. She has ALREADY left."
+    },
+    {
+      "subject": "yet",
+      "verb": "negatives and questions — end of sentence",
+      "short": "expected but not done",
+      "example": "I haven't booked YET. Have you packed YET?"
+    },
+    {
+      "subject": "just",
+      "verb": "positive — between have and past participle",
+      "short": "a very short time ago",
+      "example": "She has JUST arrived. He has JUST called."
+    },
+    {
+      "subject": "still",
+      "verb": "negative — between subject and have (not yet done)",
+      "short": "unexpectedly continuing",
+      "example": "She still hasn't replied. He still hasn't eaten."
+    },
+    {
+      "subject": "so far",
+      "verb": "end of sentence",
+      "short": "up to this point in time",
+      "example": "I have crossed off five items SO FAR."
+    },
+    {
+      "subject": "recently",
+      "verb": "end or beginning of sentence",
+      "short": "not long ago (no exact time)",
+      "example": "She has recently started hiking. RECENTLY, she has started hiking."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "\"ever\" and \"never\" — position and meaning",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "\"ever\" = at any time in your life — ONLY in questions",
+          "example": "Have you ever been to Almaty? / Has she ever tried horseback riding?"
+        },
+        {
+          "form": "\"never\" = not at any time — in positive sentences (means negative)",
+          "example": "I have never tried skydiving. (= I haven't ever tried skydiving.)"
+        },
+        {
+          "form": "Position: between \"have/has\" and the past participle",
+          "example": "I have NEVER seen... / Have you EVER tried...? ✓ / Never have I seen... (literary)"
+        },
+        {
+          "form": "Don't use \"never\" in negative sentences",
+          "example": "I have never not gone. ✗ / I've never gone. ✓ / I haven't ever gone. ✓"
+        },
+        {
+          "form": "Superlative + ever",
+          "example": "It's the best film I've ever seen. / The most terrifying thing I've ever experienced."
+        },
+        {
+          "form": "\"Have you ever?\" — short answers",
+          "example": "Yes, I have! / No, I never have. / No, I haven't."
+        }
+      ]
+    },
+    {
+      "title": "\"already\" and \"yet\" — opposite meanings",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "\"already\" = done sooner than expected (positive sentences + questions)",
+          "example": "She's ALREADY finished! (surprised it's so early)"
+        },
+        {
+          "form": "\"yet\" = expected but not done (negatives and questions)",
+          "example": "I haven't packed YET. / Have you booked YET? (expected action)"
+        },
+        {
+          "form": "Position of \"already\": between have/has and participle",
+          "example": "I have ALREADY eaten. / She has ALREADY left."
+        },
+        {
+          "form": "Position of \"yet\": at the END of the sentence",
+          "example": "I haven't eaten YET. / Have you eaten YET?"
+        },
+        {
+          "form": "\"yet\" in questions = expecting the action to be done",
+          "example": "Has she heard back yet? (= I expect she will hear back)"
+        },
+        {
+          "form": "\"already\" in questions = surprised it happened so soon",
+          "example": "Have you already finished?! (= That's fast! I didn't expect it.)"
+        }
+      ]
+    },
+    {
+      "title": "\"just\" and \"recently\" — very recent events",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "\"just\" = a very short time ago (minutes / hours)",
+          "example": "She's JUST arrived. / He's JUST called."
+        },
+        {
+          "form": "\"recently\" = not long ago (days / weeks, no exact time)",
+          "example": "I've recently started yoga. / She's recently moved to Uralsk."
+        },
+        {
+          "form": "Position of \"just\": between have/has and past participle",
+          "example": "She has JUST finished. ✓ / She has finished JUST. ✗"
+        },
+        {
+          "form": "Position of \"recently\": flexible (start or end)",
+          "example": "RECENTLY, she has started hiking. / She has started hiking RECENTLY."
+        },
+        {
+          "form": "Both signal \"no specific time\" → Present Perfect (not Past Simple)",
+          "example": "She has just arrived. ✓ / She just arrived. ✓ (informal only)"
+        },
+        {
+          "form": "\"just\" emphasises immediacy",
+          "example": "The train has JUST left — you'll catch the next one. (only seconds ago)"
+        }
+      ]
+    },
+    {
+      "title": "Position Summary Table",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "have + EVER + past participle?",
+          "example": "Have you EVER tried...? Has she EVER seen...?"
+        },
+        {
+          "form": "have + NEVER + past participle",
+          "example": "I have NEVER eaten... She has NEVER been..."
+        },
+        {
+          "form": "have + ALREADY + past participle",
+          "example": "I have ALREADY finished. She has ALREADY left."
+        },
+        {
+          "form": "have + JUST + past participle",
+          "example": "He has JUST called. They have JUST arrived."
+        },
+        {
+          "form": "haven't/hasn't + past participle + YET",
+          "example": "I haven't packed YET. She hasn't replied YET."
+        },
+        {
+          "form": "Have/Has + subject + past participle + YET?",
+          "example": "Have you packed YET? Has she replied YET?"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Позиции пяти ключевых наречий Present Perfect:\n\nALREADY, JUST, EVER, NEVER → между have/has и participle:\n\"I have ALREADY done it.\" · \"She has JUST left.\"\n\"Have you EVER seen it?\" · \"I have NEVER been abroad.\"\n\n❗ Только YET → В КОНЕЦ предложения:\n\"Have you done it YET?\" · \"I haven't finished YET.\"\n\n💡 Мнемоника: YET = \"ещё нет?\" или \"уже ли?\" → задаёт вопрос в конце",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Insert \"ever\" in the correct position.",
+      "text": "Have you ___ tried Nauryz kozhe?",
+      "opts": [
+        "ever",
+        "never",
+        "already",
+        "just"
+      ],
+      "correct": "ever",
+      "hint": "\"Ever\" goes between \"have\" and the past participle in questions about life experience."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "I ___ been to Scotland. It's on my bucket list!",
+      "opts": [
+        "haven't yet",
+        "have never",
+        "have already",
+        "have just"
+      ],
+      "correct": "have never",
+      "hint": "\"Never\" = not at any time. Used in positive-form sentences to express \"not ever\"."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Choose the correct position of \"already\".",
+      "text": "She has ___ finished her essay. She's very fast!",
+      "opts": [
+        "already",
+        "yet",
+        "ever",
+        "just now"
+      ],
+      "correct": "already",
+      "hint": "\"Already\" = sooner than expected. Position: between has and past participle."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct word for the negative.",
+      "text": "I haven't booked my hiking boots ___.",
+      "opts": [
+        "yet",
+        "already",
+        "ever",
+        "just"
+      ],
+      "correct": "yet",
+      "hint": "\"Yet\" = expected but not done. Goes at the END of negative sentences."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "She has ___ arrived — she walked through the door two minutes ago!",
+      "opts": [
+        "just",
+        "already",
+        "yet",
+        "never"
+      ],
+      "correct": "just",
+      "hint": "\"Just\" = a very short time ago. Goes between has and past participle."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Find the sentence with the correct word order.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "I have yet packed my bag.",
+        "I haven't packed my bag yet.",
+        "I have packed yet my bag.",
+        "I haven't yet packed my bag yet."
+      ],
+      "correct": "I haven't packed my bag yet.",
+      "hint": "\"Yet\" goes at the END of negative sentences. Between the auxiliary and participle is wrong for \"yet\"."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Insert \"already\" or \"yet\" correctly.",
+      "text": "Have you eaten ___? — Yes, I've ___ eaten. I finished an hour ago.",
+      "opts": [
+        "yet / already",
+        "already / yet",
+        "just / yet",
+        "never / already"
+      ],
+      "correct": "yet / already",
+      "hint": "Question: \"...yet?\" (end). Answer: \"I've already eaten\" (between have and participle)."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses \"never\" correctly?",
+      "opts": [
+        "I haven't never tried it.",
+        "I never have tried it.",
+        "I have never tried it.",
+        "I have tried it never."
+      ],
+      "correct": "I have never tried it.",
+      "hint": "\"Never\" goes between \"have\" and the past participle. Do NOT combine with \"haven't\" (double negative)."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "This is the most beautiful place I've ___ seen!",
+      "opts": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "correct": "ever",
+      "hint": "\"The most/best... I've ever seen/done\" — superlative + ever is a fixed collocation."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Choose the correct word for this question.",
+      "text": "Has Kamila heard back from the university ___?",
+      "opts": [
+        "yet",
+        "already",
+        "just",
+        "never"
+      ],
+      "correct": "yet",
+      "hint": "\"Yet\" at the end of a question = is the expected action done?"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "He has ___ published his first novel — I saw it in the bookshop yesterday!",
+      "opts": [
+        "recently",
+        "yet",
+        "ever",
+        "never"
+      ],
+      "correct": "recently",
+      "hint": "\"Recently\" = not long ago (no exact time). Goes with Present Perfect for recent events."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence correctly uses \"just\"?",
+      "opts": [
+        "She has called just me.",
+        "She just has called me.",
+        "She has just called me.",
+        "She has called me just."
+      ],
+      "correct": "She has just called me.",
+      "hint": "\"Just\" goes between \"has\" and the past participle: has + just + past participle."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Have you ___ tried skydiving?",
+      "opts": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "correct": "ever",
+      "hint": "\"Ever\" goes in questions: Have you EVER tried...?"
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "I ___ seen the Northern Lights. It's my biggest dream!",
+      "opts": [
+        "have never",
+        "haven't never",
+        "have yet",
+        "have ever not"
+      ],
+      "correct": "have never",
+      "hint": "\"Never\" = at no time. Position: have + NEVER + past participle."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She has ___ finished packing — she's very organised!",
+      "correct": "already",
+      "hint": "\"Already\" = sooner than expected. Position: has + ALREADY + past participle."
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "I haven't booked my flight ___.",
+      "opts": [
+        "yet",
+        "already",
+        "ever",
+        "never"
+      ],
+      "correct": "yet",
+      "hint": "\"Yet\" = expected but not done. Goes at the END of negative sentences."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He has ___ called — I can hear his voice outside the door!",
+      "opts": [
+        "just",
+        "already",
+        "yet",
+        "never"
+      ],
+      "correct": "just",
+      "hint": "\"Just\" = a very short time ago (seconds/minutes). Position: has + JUST + past participle."
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I haven't never done it\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Double negative is incorrect. Use either: \"I haven't done it\" OR \"I have never done it.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Have you eaten ___? It's already 2pm!",
+      "opts": [
+        "yet",
+        "already",
+        "ever",
+        "just"
+      ],
+      "correct": "yet",
+      "hint": "\"Yet\" at the end of a question = asking if the expected action has been done."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "It's the best concert I've ___ been to!",
+      "correct": "ever",
+      "hint": "\"The best/most... I've ever...\" — superlative + ever is a fixed pattern."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Correct position of \"just\": \"She ___.\"",
+      "opts": [
+        "has called just me",
+        "just has called me",
+        "has just called me",
+        "has called me just"
+      ],
+      "correct": "has just called me",
+      "hint": "\"Just\" goes between auxiliary (has) and past participle: has + JUST + called."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which word expresses \"not at any time in your life\"?",
+      "opts": [
+        "yet",
+        "already",
+        "ever",
+        "never"
+      ],
+      "correct": "never",
+      "hint": "\"Never\" = not at any time. Used in positive-form present perfect sentences."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Already\" can go at the end of a sentence (I've finished already).",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Already\" can also go at the end, though it more commonly goes before the participle. Both are correct."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She has ___ arrived home — she left the office just three minutes ago.",
+      "opts": [
+        "just",
+        "yet",
+        "never",
+        "already"
+      ],
+      "correct": "just",
+      "hint": "\"Just\" = a very short time ago (she left only 3 minutes ago)."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Has the result come out ___? — No, not ___!",
+      "correct": "yet / yet",
+      "hint": "\"Yet\" at end of question and at end of negative: \"No, not yet!\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Recently\" is used with:",
+      "opts": [
+        "Past Simple only",
+        "Present Perfect for recent events with no exact time",
+        "Future only",
+        "Past Simple for exact times"
+      ],
+      "correct": "Present Perfect for recent events with no exact time",
+      "hint": "\"Recently\" signals a vague recent time → Present Perfect. No exact time mentioned."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence correctly uses \"already\" in a question?",
+      "opts": [
+        "Have you already eaten?",
+        "Have already you eaten?",
+        "Already have you eaten?",
+        "Have you eaten already not?"
+      ],
+      "correct": "Have you already eaten?",
+      "hint": "\"Already\" in a question = surprised the action happened so soon: \"Have you already...?\""
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct sentence with \"never\":",
+      "opts": [
+        "She has never not been to Paris.",
+        "She has never been to Paris.",
+        "She never has been to Paris.",
+        "She has been to Paris never."
+      ],
+      "correct": "She has never been to Paris.",
+      "hint": "Position: has + NEVER + past participle. No double negatives."
+    }
+  ]
+}

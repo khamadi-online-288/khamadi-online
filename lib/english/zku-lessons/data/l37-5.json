@@ -1,0 +1,366 @@
+{
+  "id": "l37-5",
+  "moduleNum": 3,
+  "lessonNum": 8,
+  "moduleTitle": "Stories & Memories",
+  "type": "test",
+  "title": "Module 3 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Kamila doing when the power went out?",
+      "opts": [
+        "Sleeping",
+        "Studying linguistics",
+        "Writing an essay",
+        "Watching a film"
+      ],
+      "correct": "Studying linguistics",
+      "hint": "\"Kamila Seitkali was sitting in her dormitory room, studying for her linguistics exam.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek was in the sports hall practising volleyball when the blackout happened.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I was practising for volleyball in my room when it happened.\" — she was in her ROOM, not the sports hall."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why was the exam postponed the next morning?",
+      "opts": [
+        "Kamila complained",
+        "Students hadn't slept",
+        "A pipe burst in the exam building",
+        "The power was still off"
+      ],
+      "correct": "A pipe burst in the exam building",
+      "hint": "\"A pipe had burst in the examination building overnight due to the extreme cold.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where was Rustam going on the train?",
+      "opts": [
+        "Shymkent",
+        "Almaty",
+        "Astana",
+        "Aktobe"
+      ],
+      "correct": "Almaty",
+      "hint": "\"He was travelling from Uralsk to Almaty by train.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Apai Raushan was visiting Almaty for the first time in her life.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I went there in 1978. My first time.\" — she had been before, in 1978."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam saved Apai Raushan's number under \"___ — Train to Almaty\".",
+      "correct": "Apai Raushan",
+      "hint": "\"He took her phone number and put it in his contacts under 'Apai Raushan — Train to Almaty.'\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What was Rustam doing when Amir's postponement message arrived?",
+      "opts": [
+        "Sleeping",
+        "Eating",
+        "Practising football in the corridor",
+        "Studying"
+      ],
+      "correct": "Practising football in the corridor",
+      "hint": "\"I was practising football in the corridor when Amir's message arrived.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Zhibek feel about the postponement?",
+      "opts": [
+        "Only happy",
+        "Angry",
+        "Both relieved and guilty",
+        "Confused and worried"
+      ],
+      "correct": "Both relieved and guilty",
+      "hint": "\"I was feeling relieved and guilty at the same time. I hadn't prepared enough.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir was fully prepared for the exam before the postponement.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I wasn't ready at all. I was planning to stay up all night.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam claims he was sharing \"cultural ___\" not scaring anyone.",
+      "correct": "narratives",
+      "hint": "\"I was not scaring anyone. I was simply... sharing cultural narratives.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Kamila find out about the postponement?",
+      "opts": [
+        "A phone notification",
+        "Rustam's voice message the next morning",
+        "Zhibek called her",
+        "She saw it in the corridor"
+      ],
+      "correct": "Rustam's voice message the next morning",
+      "hint": "\"I was sleeping. I found out in the morning when Rustam sent me a voice message.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek hid behind a pillow during Rustam's ghost stories.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"You made Zhibek hide behind a pillow. That counts as scaring.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"At midnight, she ___ for her exam.\" Choose the correct form.",
+      "opts": [
+        "studies",
+        "is studying",
+        "was studying",
+        "studied"
+      ],
+      "correct": "was studying",
+      "hint": "At midnight (specific past time) + ongoing = Past Continuous: was studying."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They ___ when the power went out.\" Choose correctly.",
+      "opts": [
+        "sleep",
+        "slept",
+        "were sleeping",
+        "was sleeping"
+      ],
+      "correct": "were sleeping",
+      "hint": "They = plural → were sleeping (PC). Background interrupted by event (PS)."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"While Rustam ___ (tell) stories, Kamila ___ (laugh).\"",
+      "correct": "was telling / was laughing",
+      "hint": "\"while\" + two simultaneous actions = both Past Continuous."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was reading when I ___.\" Choose the interrupting event.",
+      "opts": [
+        "was calling",
+        "am calling",
+        "called",
+        "call"
+      ],
+      "correct": "called",
+      "hint": "Interrupting event = short, sudden = Past Simple: \"called\". Background = PC: \"was reading\"."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She ___ , grabbed her phone, and ran.\" What is this?",
+      "opts": [
+        "was jumping up / was grabbing / was running",
+        "jumps / grabs / runs",
+        "jumped up / grabbed / ran",
+        "is jumping / grabbing / running"
+      ],
+      "correct": "jumped up / grabbed / ran",
+      "hint": "Sequence of completed actions = all Past Simple: jumped → grabbed → ran."
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I was knowing the answer when she asked me.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"know\" is stative → always Past Simple. ✅ \"I knew the answer when she asked me.\""
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ you sleeping when the alarm rang?\" — \"No, I ___ .\"",
+      "opts": [
+        "Did / didn't",
+        "Were / wasn't",
+        "Was / was",
+        "Are / am not"
+      ],
+      "correct": "Were / wasn't",
+      "hint": "You → Were you sleeping? Short negative: \"No, I wasn't.\" (Past Continuous)."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"As the train ___ (move) through the steppe, Rustam ___ (think).\"",
+      "correct": "was moving / was thinking",
+      "hint": "\"As\" = while = simultaneously. Both ongoing actions = both Past Continuous."
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The exam was postponed.\" What does \"postponed\" mean?",
+      "opts": [
+        "cancelled forever",
+        "moved to a later time",
+        "made easier",
+        "made longer"
+      ],
+      "correct": "moved to a later time",
+      "hint": "\"postpone\" = to delay, to schedule for a later date. NOT the same as \"cancel\"."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The students were ___ from their rooms, carrying blankets and food.",
+      "correct": "emerging",
+      "hint": "\"emerge from\" = to come out from. \"emerging from their rooms\" = coming out."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He was terrified.\" Terrified means:",
+      "opts": [
+        "slightly surprised",
+        "extremely frightened",
+        "a little nervous",
+        "bored"
+      ],
+      "correct": "extremely frightened",
+      "hint": "\"terrified\" = extremely frightened, filled with terror. Stronger than \"scared\" or \"afraid\"."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"An impromptu meeting.\" What does \"impromptu\" mean?",
+      "opts": [
+        "formal and planned",
+        "spontaneous, without preparation",
+        "short",
+        "boring"
+      ],
+      "correct": "spontaneous, without preparation",
+      "hint": "\"impromptu\" = done without preparation. An impromptu meeting = not planned in advance."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The steppe of western Kazakhstan\" — what is a steppe?",
+      "opts": [
+        "A mountain range",
+        "A large flat area with no trees",
+        "A desert",
+        "A river valley"
+      ],
+      "correct": "A large flat area with no trees",
+      "hint": "\"steppe\" = a vast, flat, treeless landscape. Common in Central Asia and eastern Europe."
+    }
+  ]
+}

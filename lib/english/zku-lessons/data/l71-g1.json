@@ -1,0 +1,524 @@
+{
+  "id": "l71-g1",
+  "moduleNum": 13,
+  "lessonNum": 5,
+  "moduleTitle": "Health, Medicine & Wellbeing",
+  "title": "Grammar: Quantifiers — All, Every, Each, Both, Neither, Either",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Квантификаторы — сколько? сколько много?\n\nALL / MOST / SOME / ANY / NO:\nAll students passed. · Most students passed. · Some failed. · None failed.\n\nMUCH / MANY / A LOT OF / LOTS OF:\nMuch + неисчисляемые: much time · much money · much information\nMany + исчисляемые: many students · many books · many hours\nA lot of / lots of + оба типа (в разговорной речи)\n\nA LITTLE / A FEW / LITTLE / FEW:\na little = немного (достаточно): \"I have a little time.\"\nlittle = почти нет (мало): \"I have little time.\" (проблема!)\na few = несколько (достаточно): \"I have a few friends.\"\nfew = почти нет: \"Few people know this.\" (редкость)\n\n💡 Разница a little/few vs little/few = оптимизм vs пессимизм!",
+  "grammarTable": [
+    {
+      "subject": "all",
+      "verb": "+ plural noun / + of + plural",
+      "short": "100% as a group",
+      "example": "All patients received treatment. All of the results were positive."
+    },
+    {
+      "subject": "every",
+      "verb": "+ singular noun",
+      "short": "100% individually, one by one",
+      "example": "Every patient received treatment. Every result was positive."
+    },
+    {
+      "subject": "each",
+      "verb": "+ singular noun / + of + plural",
+      "short": "individually, one at a time",
+      "example": "Each patient received a different dose. Each of them responded differently."
+    },
+    {
+      "subject": "both",
+      "verb": "+ plural noun / + of + plural",
+      "short": "two things together, 100%",
+      "example": "Both treatments were effective. Both of the doctors agreed."
+    },
+    {
+      "subject": "neither",
+      "verb": "+ singular noun / + of + plural",
+      "short": "not one, not the other (of two)",
+      "example": "Neither treatment worked. Neither of them improved."
+    },
+    {
+      "subject": "either",
+      "verb": "+ singular noun / + of + plural",
+      "short": "one or the other (of two)",
+      "example": "Either treatment may help. You can choose either of the options."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "All vs Every vs Each: Key Differences",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "ALL: group together, with plural verb",
+          "example": "\"All patients need support.\" \"All of the results were positive.\""
+        },
+        {
+          "form": "EVERY: one by one, with singular verb — emphasises individual members",
+          "example": "\"Every patient needs individual attention.\" \"Every single result was checked.\""
+        },
+        {
+          "form": "EACH: individual members, often in smaller groups or in sequence",
+          "example": "\"Each patient was given a different treatment.\" \"She spoke to each person in the group.\""
+        },
+        {
+          "form": "EVERY/EACH cannot be used with two things",
+          "example": "\"Both (not every/each) of the two options are valid.\""
+        }
+      ]
+    },
+    {
+      "title": "Both, Either, Neither: For Exactly Two",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "BOTH: two things/people together (positive)",
+          "example": "\"Both the doctor and the patient agreed.\" \"Both treatments are effective.\""
+        },
+        {
+          "form": "EITHER: one or the other (positive choice or negative with not)",
+          "example": "\"You can take either tablet.\" \"She didn't respond to either treatment.\""
+        },
+        {
+          "form": "NEITHER: not one AND not the other (negative meaning)",
+          "example": "\"Neither medication worked.\" \"Neither of the patients improved.\""
+        },
+        {
+          "form": "Neither/either + singular verb (unless \"of\" construction)",
+          "example": "\"Neither doctor is available.\" BUT \"Neither of the doctors are/is available.\" (both OK)"
+        }
+      ]
+    },
+    {
+      "title": "All of / Both of / Neither of / Each of + the/pronoun",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "all of + the + noun / pronoun",
+          "example": "\"All of the patients recovered.\" \"All of them were discharged.\""
+        },
+        {
+          "form": "both of + the + noun / pronoun",
+          "example": "\"Both of the studies showed the same result.\" \"Both of them agreed.\""
+        },
+        {
+          "form": "neither of + the + noun / pronoun (+ singular or plural verb)",
+          "example": "\"Neither of the treatments worked.\" / \"Neither of them were available.\""
+        },
+        {
+          "form": "each of + the + noun / pronoun (+ singular verb)",
+          "example": "\"Each of the patients received a different dose.\" \"Each of them was examined.\""
+        }
+      ]
+    },
+    {
+      "title": "Whole vs All: Difference in Meaning",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "whole = complete / uninterrupted",
+          "example": "\"She slept for the whole night.\" (= without waking up)"
+        },
+        {
+          "form": "all = every part of / total amount",
+          "example": "\"She slept all night.\" (= throughout the night)"
+        },
+        {
+          "form": "the whole + singular noun (not plural)",
+          "example": "\"The whole country was affected.\" (not \"the whole countries\")"
+        },
+        {
+          "form": "all + plural noun (general)",
+          "example": "\"All countries were affected.\" (general — no \"the\")"
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with All, Every, Both, Neither",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Every patients received treatment.",
+          "example": "✅ Every patient received treatment. (every + singular noun)"
+        },
+        {
+          "form": "❌ Neither of the options are available. (strict grammar)",
+          "example": "✅ Neither of the options is available. (singular after \"neither of\" in formal English)"
+        },
+        {
+          "form": "❌ Both of them is correct.",
+          "example": "✅ Both of them are correct. (both = plural → plural verb)"
+        },
+        {
+          "form": "❌ I didn't take neither of them.",
+          "example": "✅ I took neither of them. / I didn't take either of them. (no double negative)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"___ patient in the ward received the new medication.\" (100%, one by one)",
+      "opts": [
+        "All",
+        "Every",
+        "Both",
+        "Neither"
+      ],
+      "correct": "Every",
+      "hint": "\"Every\" + singular noun = 100%, individually"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"___ of the two vaccines showed strong results in the trial.\"",
+      "opts": [
+        "Each",
+        "Every",
+        "Both",
+        "All"
+      ],
+      "correct": "Both",
+      "hint": "\"Both\" = two things together, 100%"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct quantifier.",
+      "text": "\"___ treatment is effective for this condition — the patient will need surgery.\" (not one, not the other)",
+      "correct": "Neither",
+      "hint": "\"Neither\" = not one and not the other (of two)"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "Each of the patients were given a different dose.",
+        "Each of the patients was given a different dose.",
+        "Each of the patients are given a different dose.",
+        "Each of the patients being given a different dose."
+      ],
+      "correct": "Each of the patients was given a different dose.",
+      "hint": "\"Each of\" + singular verb in formal English"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"___ the doctors on the team are specialists — there are no general practitioners.\" (100% of the group)",
+      "correct": "All",
+      "hint": "\"All\" + plural noun = 100% as a group"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"You can choose ___ option — they are equally effective.\" (one or the other)",
+      "opts": [
+        "neither",
+        "either",
+        "every",
+        "all"
+      ],
+      "correct": "either",
+      "hint": "\"Either\" = one or the other (positive choice)"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"all of\" or \"every.\"",
+      "text": "\"___ the studies concluded the same thing: exercise reduces depression.\" (specific set of studies)",
+      "correct": "All of",
+      "hint": "\"All of + the\" refers to a specific group"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence about two things.",
+      "text": "",
+      "opts": [
+        "Both of the clinic is busy.",
+        "Both the clinics are busy.",
+        "Both of clinic are busy.",
+        "Both clinics is busy."
+      ],
+      "correct": "Both the clinics are busy.",
+      "hint": "\"Both\" + plural noun + plural verb"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Choose \"whole\" or \"all.\"",
+      "text": "\"She worked ___ night without sleeping.\" (= throughout the night)",
+      "correct": "all",
+      "hint": "\"All night\" = throughout the night (duration)"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"Neither of the options are suitable for a patient with hypertension.\" (formal written English)",
+      "opts": [
+        "Neither is wrong here",
+        "\"Of\" should be removed",
+        "\"Are\" should be \"is\" in formal English",
+        "\"Suitable\" is wrong"
+      ],
+      "correct": "\"Are\" should be \"is\" in formal English",
+      "hint": "Strictly: \"neither of + the + noun\" → singular verb in formal English"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with neither, either, or both.",
+      "text": "\"___ diet and exercise are important for managing diabetes. Focusing on only one or the other is not enough.\"",
+      "correct": "Both",
+      "hint": "\"Both... and\" = two things together, both equally needed"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"___ single patient matters — no one should be left without care.\"",
+      "opts": [
+        "All",
+        "Every",
+        "Each",
+        "Both"
+      ],
+      "correct": "Every",
+      "hint": "\"Every single\" = all, with emphasis on each one"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete the sentence correctly.",
+      "text": "\"She didn't respond to ___ of the treatments offered.\" (= not one or the other)",
+      "correct": "either",
+      "hint": "\"Not... either\" = negative; \"neither\" without \"not\" is also possible"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the sentence without an error.",
+      "text": "",
+      "opts": [
+        "Every patients need support.",
+        "All of us needs more rest.",
+        "Each of the reports was reviewed carefully.",
+        "Neither of the doctors are available."
+      ],
+      "correct": "Each of the reports was reviewed carefully.",
+      "hint": "\"Each of + the + noun + singular verb\" — correct"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with \"the whole\" or \"all.\"",
+      "text": "\"___ country was affected by the outbreak.\" (= the complete country, every part)",
+      "correct": "The whole",
+      "hint": "\"The whole + singular noun\" = the complete, unbroken unit"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"She checked ___ recommendation in the report individually before signing off.\"",
+      "opts": [
+        "all",
+        "both",
+        "every",
+        "each"
+      ],
+      "correct": "each",
+      "hint": "\"Each\" = individually, one by one (in sequence, often implies careful attention)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ day brings new evidence about the benefits of exercise.\" (100%, singular, one by one)",
+      "opts": [
+        "All",
+        "Every",
+        "Both",
+        "Each of"
+      ],
+      "correct": "Every",
+      "hint": "\"Every\" + singular noun = 100%, individually",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the participants in the study completed the questionnaire.\" (100% as a group)",
+      "opts": [
+        "Every",
+        "Each",
+        "All",
+        "Both"
+      ],
+      "correct": "All",
+      "hint": "\"All\" + plural noun = 100% as a group (or \"All of\")",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ treatment is effective for everyone — individual responses vary.\"",
+      "correct": "No",
+      "hint": "\"No + noun\" = zero instances; also \"Neither\" works for two options",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ of the two hospitals were well-equipped.\" (two hospitals, both)",
+      "opts": [
+        "All",
+        "Each",
+        "Both",
+        "Every"
+      ],
+      "correct": "Both",
+      "hint": "\"Both of\" = two things together, 100%",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ of the two treatments showed any improvement.\" (not one, not the other)",
+      "opts": [
+        "Either",
+        "Both",
+        "Neither",
+        "None"
+      ],
+      "correct": "Neither",
+      "hint": "\"Neither of\" = not one and not the other (of two)",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Every patients need support\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Every\" + singular noun: \"Every patient needs support\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ of the three approaches has advantages — choose the one that suits your lifestyle.\"",
+      "correct": "Each",
+      "hint": "\"Each of\" = individually considering each one",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"You can use ___ approach — both are clinically valid.\" (one or the other)",
+      "opts": [
+        "neither",
+        "either",
+        "all",
+        "every"
+      ],
+      "correct": "either",
+      "hint": "\"Either\" = one or the other (positive choice between two)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ single system in the body is affected by poor sleep — immune, cardiac, metabolic, and cognitive.\" (strong emphasis, 100%)",
+      "correct": "Every",
+      "hint": "\"Every single\" = all, with extra emphasis",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the doctor and the patient agreed on the treatment plan.\"",
+      "opts": [
+        "All",
+        "Either",
+        "Both",
+        "Every"
+      ],
+      "correct": "Both",
+      "hint": "\"Both the doctor and the patient\" = two people, 100%",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She slept ___ night — she was completely exhausted.\" (= the complete, unbroken night)",
+      "correct": "the whole",
+      "hint": "\"The whole night\" = the complete, uninterrupted night",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Both of us is committed to improving our health.",
+        "Both of us are committed to improving our health.",
+        "Both of us was committed to improving our health.",
+        "Both of us were committed to improving our health. (same as option 4)"
+      ],
+      "correct": "Both of us are committed to improving our health.",
+      "hint": "\"Both of\" = plural → plural verb \"are\"",
+      "points": 2
+    }
+  ]
+}

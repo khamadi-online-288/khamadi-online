@@ -1,0 +1,241 @@
+{
+  "id": "l39-4",
+  "moduleNum": 5,
+  "lessonNum": 6,
+  "moduleTitle": "Better, Best, Most",
+  "type": "writing",
+  "title": "Comparing Two Places I Know",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "compared to",
+      "emoji": "⚖️",
+      "opts": [
+        "больше чем",
+        "по сравнению с",
+        "лучше чем",
+        "похоже на"
+      ],
+      "correct": "по сравнению с"
+    },
+    {
+      "id": "p2",
+      "word": "on the other hand",
+      "emoji": "↔️",
+      "opts": [
+        "с другой стороны",
+        "в конце концов",
+        "из-за этого",
+        "так же как"
+      ],
+      "correct": "с другой стороны"
+    },
+    {
+      "id": "p3",
+      "word": "in terms of",
+      "emoji": "📐",
+      "opts": [
+        "благодаря",
+        "с точки зрения / в отношении",
+        "вместо",
+        "хотя"
+      ],
+      "correct": "с точки зрения / в отношении"
+    },
+    {
+      "id": "p4",
+      "word": "overall",
+      "emoji": "🏁",
+      "opts": [
+        "особенно",
+        "в целом",
+        "кроме того",
+        "например"
+      ],
+      "correct": "в целом"
+    },
+    {
+      "id": "p5",
+      "word": "significantly",
+      "emoji": "📊",
+      "opts": [
+        "немного",
+        "иногда",
+        "значительно",
+        "постепенно"
+      ],
+      "correct": "значительно"
+    },
+    {
+      "id": "p6",
+      "word": "whereas",
+      "emoji": "↔️",
+      "opts": [
+        "потому что",
+        "тогда как / в то время как",
+        "также",
+        "несмотря на"
+      ],
+      "correct": "тогда как / в то время как"
+    }
+  ],
+  "writingModel": [
+    "Two Places I Know: Aktobe and Uralsk — by Rustam Seilov",
+    "I grew up in Aktobe and have now spent three years studying in Uralsk. Both cities are in western Kazakhstan, but they have remarkably different personalities. I've thought a lot about how they compare — and which one has felt more like home.",
+    "In terms of size, Aktobe is significantly larger than Uralsk. It has a bigger population, more shopping centres, and a wider variety of restaurants and entertainment options. The road infrastructure is also more developed. However, Uralsk is more compact, and I've found that easier to navigate. In Aktobe, everything is further apart — you need a car or a long bus ride to get anywhere. In Uralsk, I can walk to most places I need within twenty minutes.",
+    "When it comes to atmosphere, the two cities feel quite different. Aktobe is busier and noisier — especially in the city centre. Uralsk is quieter, and that has been better for my concentration and study habits. The pace of life here is slightly slower, and I've actually enjoyed that more than I expected.",
+    "The most significant difference, for me, is the sense of community. In Aktobe, I knew my neighbourhood well, but the city felt larger than any individual. In Uralsk, I know my professors by name, my local café owner recognises me, and my dormitory friends have become some of the closest people in my life. It's a smaller community, but a stronger one.",
+    "On the other hand, I miss some things about Aktobe. It has more cultural events — concerts, exhibitions, sports competitions. The selection of food is also better. Whereas Uralsk has a limited number of restaurants, Aktobe has cuisines from across Kazakhstan and beyond.",
+    "Overall, I think Uralsk has been the better choice for me as a student. It's not the most exciting city, and it doesn't have the most impressive facilities. But it has given me exactly what I needed: focus, community, and the feeling that I belong somewhere. That, I've decided, is more valuable than size or glamour."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "Two Places I Know: ",
+      "suffix": " — by ",
+      "placeholder": "City A and City B",
+      "hint": "Name the two places you're comparing."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "I know both ",
+      "suffix": " well, and they are very different.",
+      "placeholder": "place A and place B",
+      "hint": "Briefly introduce both places."
+    },
+    {
+      "key": "size",
+      "prefix": "In terms of size, ",
+      "suffix": " is significantly ___ than ___ .",
+      "placeholder": "larger / smaller / more compact",
+      "hint": "Compare the size using a comparative."
+    },
+    {
+      "key": "size2",
+      "prefix": "However, ",
+      "suffix": ".",
+      "placeholder": "add a contrasting point (on the other hand...)",
+      "hint": "What's a downside of the bigger/smaller one?"
+    },
+    {
+      "key": "atmos",
+      "prefix": "When it comes to atmosphere, ",
+      "suffix": " is ___ than ___ .",
+      "placeholder": "busier / quieter / more relaxed",
+      "hint": "Compare the mood or vibe of both places."
+    },
+    {
+      "key": "atmos2",
+      "prefix": "I've found that ",
+      "suffix": ".",
+      "placeholder": "what you prefer about the atmosphere",
+      "hint": "Which atmosphere works better for you, and why?"
+    },
+    {
+      "key": "key",
+      "prefix": "The most significant difference, for me, is ",
+      "suffix": ".",
+      "placeholder": "your main personal observation",
+      "hint": "Use a superlative! \"The most important / significant / surprising...\""
+    },
+    {
+      "key": "miss",
+      "prefix": "On the other hand, I miss ",
+      "suffix": " about ___.",
+      "placeholder": "what you miss from the other place",
+      "hint": "What does one place have that the other doesn't?"
+    },
+    {
+      "key": "miss2",
+      "prefix": "Whereas ",
+      "suffix": ".",
+      "placeholder": "contrast using whereas (A has X; B has Y)",
+      "hint": "\"Whereas A has X, B only has Y.\" — a contrast linking word."
+    },
+    {
+      "key": "overall",
+      "prefix": "Overall, I think ",
+      "suffix": " has been the better choice for me because ___.",
+      "placeholder": "which place and why",
+      "hint": "Give your final verdict using \"the better\" + reason."
+    },
+    {
+      "key": "end",
+      "prefix": "That is more valuable than ",
+      "suffix": ".",
+      "placeholder": "what matters less (size / fame / money)",
+      "hint": "End with a personal reflection. What matters most?"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing the comparison",
+      "color": "#003876",
+      "items": [
+        "In terms of..., A is more/less... than B.",
+        "Compared to A, B is...",
+        "When it comes to..., A and B are very different.",
+        "The most significant difference is...",
+        "The two places have remarkably different..."
+      ]
+    },
+    {
+      "category": "Comparatives and superlatives",
+      "color": "#1D9E75",
+      "items": [
+        "A is much larger / quieter / more developed than B.",
+        "B is slightly smaller / cheaper / more compact.",
+        "The most important / significant / surprising thing is...",
+        "A has the best... / the worst... / the most...",
+        "In A, everything is further apart / closer / easier."
+      ]
+    },
+    {
+      "category": "Contrasting ideas",
+      "color": "#1B8FC4",
+      "items": [
+        "However, / On the other hand, ...",
+        "Whereas A has X, B has Y.",
+        "Despite this, / Even so, ...",
+        "Although A is larger, B is more...",
+        "B doesn't have as many... as A, but..."
+      ]
+    },
+    {
+      "category": "Personal conclusion",
+      "color": "#C9933B",
+      "items": [
+        "Overall, I think A/B has been the better choice.",
+        "For me personally, X matters more than Y.",
+        "That is more valuable than size / fame / convenience.",
+        "By that measure, A/B suits me better.",
+        "I'd choose A again, knowing what I know now."
+      ]
+    }
+  ]
+}

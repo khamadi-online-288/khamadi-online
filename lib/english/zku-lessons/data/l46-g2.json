@@ -1,0 +1,524 @@
+{
+  "id": "l46-g2",
+  "moduleNum": 12,
+  "lessonNum": 4,
+  "moduleTitle": "Saying What They Said",
+  "type": "grammar",
+  "title": "Reported Questions and Commands",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Reported Questions and Commands",
+  "grammarNote": "Косвенные вопросы и приказы следуют другим правилам, чем косвенные утверждения. В косвенных вопросах слова НЕ ИНВЕРТИРУЮТСЯ (как в indirect questions), а времена сдвигаются назад. В косвенных приказах и просьбах используется структура told/asked + person + to + infinitive.",
+  "grammarTable": [
+    {
+      "subject": "Reported wh-question",
+      "verb": "asked + wh-word + S + V",
+      "short": "asked what/where/when...",
+      "example": "\"What time is it?\" → He asked what time IT WAS."
+    },
+    {
+      "subject": "Reported yes/no Q",
+      "verb": "asked + whether/if + S + V",
+      "short": "asked whether/if",
+      "example": "\"Are you coming?\" → She asked whether I WAS COMING."
+    },
+    {
+      "subject": "Direct command (+)",
+      "verb": "told + person + to + inf",
+      "short": "told to...",
+      "example": "\"Study harder!\" → He told her TO STUDY harder."
+    },
+    {
+      "subject": "Negative command",
+      "verb": "told + person + not to + inf",
+      "short": "told not to...",
+      "example": "\"Don't be late!\" → She told me NOT TO BE late."
+    },
+    {
+      "subject": "Reported request",
+      "verb": "asked + person + to + inf",
+      "short": "asked to...",
+      "example": "\"Please help me.\" → He asked me TO HELP him."
+    },
+    {
+      "subject": "Negative request",
+      "verb": "asked + person + not to + inf",
+      "short": "asked not to...",
+      "example": "\"Please don't tell anyone.\" → She asked me NOT TO TELL anyone."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Reported Questions — word order NEVER inverts",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Direct: \"Where IS the library?\"",
+          "example": "Reported: \"He asked where the library WAS.\" (NOT \"where WAS the library\")"
+        },
+        {
+          "form": "Direct: \"What TIME does it start?\"",
+          "example": "Reported: \"She asked what time it STARTED.\" (NOT \"did it start\")"
+        },
+        {
+          "form": "Yes/No: \"Are you coming?\" → whether",
+          "example": "\"He asked whether I WAS COMING.\" (NOT \"was I coming\")"
+        },
+        {
+          "form": "Yes/No: \"Did she apply?\" → if/whether",
+          "example": "\"She asked if I HAD APPLIED.\" (NOT \"had I applied\")"
+        }
+      ]
+    },
+    {
+      "title": "Reported Commands and Requests",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Positive command: told + person + to + inf",
+          "example": "\"Come to my office.\" → He told me TO COME to his office."
+        },
+        {
+          "form": "Negative command: told + person + not to + inf",
+          "example": "\"Don't submit late.\" → She told me NOT TO SUBMIT late."
+        },
+        {
+          "form": "Request: asked + person + to + inf",
+          "example": "\"Please open the window.\" → She asked me TO OPEN the window."
+        },
+        {
+          "form": "Negative request: asked + person + not to + inf",
+          "example": "\"Please don't tell.\" → She asked me NOT TO TELL."
+        }
+      ]
+    },
+    {
+      "title": "Backshift in reported questions",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"What do you want?\" → asked what I WANTED",
+          "example": "\"What do you want?\" → She asked what I WANTED. (do → -)"
+        },
+        {
+          "form": "\"Where are you from?\" → asked where I WAS FROM",
+          "example": "\"Where are you from?\" → He asked where I WAS FROM. (are → was)"
+        },
+        {
+          "form": "\"Have you been there?\" → asked if I HAD BEEN",
+          "example": "\"Have you been?\" → She asked if I HAD BEEN. (have → had)"
+        },
+        {
+          "form": "\"Will you come?\" → asked if I WOULD COME",
+          "example": "\"Will you come?\" → He asked if I WOULD COME. (will → would)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common errors with reported questions",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"He asked where was the library.\"",
+          "example": "✅ \"He asked where THE LIBRARY WAS.\" — NO inversion in reported questions!"
+        },
+        {
+          "form": "✗ \"She asked whether did I apply.\"",
+          "example": "✅ \"She asked whether I HAD APPLIED.\" — no \"did\" in reported questions!"
+        },
+        {
+          "form": "✗ \"He told to study harder.\"",
+          "example": "✅ \"He told ME to study harder.\" — told MUST have a person object!"
+        },
+        {
+          "form": "✗ \"He asked me study harder.\"",
+          "example": "✅ \"He asked me TO STUDY harder.\" — must include \"to\"!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Косвенные вопросы и приказы:\n① ВОПРОСЫ — никакой инверсии:\n\"Where IS the library?\" → He asked where the library WAS.\nНЕ \"where WAS the library\"!\n\n② YES/NO вопросы → whether / if:\n\"Are you coming?\" → She asked WHETHER I WAS COMING.\n\n③ ПРИКАЗЫ → told/asked + person + to + inf:\n\"Come here!\" → He told me TO COME there.\n\"Don't be late!\" → She told me NOT TO BE late.\n\n💡 Важное различие:\ntold = команда/инструкция\nasked = вежливая просьба\n\n\"He TOLD me to leave.\" (приказал)\n\"He ASKED me to leave.\" (попросил)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Convert to a reported question.",
+      "text": "\"Where is the office?\" → She asked where ___.",
+      "opts": [
+        "is the office",
+        "was the office",
+        "the office was",
+        "the office is"
+      ],
+      "correct": "the office was",
+      "hint": "No inversion + backshift. \"She asked where THE OFFICE WAS.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Convert the yes/no question.",
+      "text": "\"Are you coming?\" → He asked whether I ___ .",
+      "correct": "was coming",
+      "hint": "yes/no → whether + backshift. \"He asked WHETHER I WAS COMING.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Convert the command to reported speech.",
+      "text": "\"Study harder!\" → She told her ___.",
+      "opts": [
+        "study harder",
+        "to study harder",
+        "studying harder",
+        "studied harder"
+      ],
+      "correct": "to study harder",
+      "hint": "\"told + person + to + infinitive.\" \"She told her TO STUDY harder.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"He asked where was the library.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "The word order is inverted — should be \"where the library was\"",
+        "\"asked\" should be \"said\"",
+        "\"library\" should be \"book\""
+      ],
+      "correct": "The word order is inverted — should be \"where the library was\"",
+      "hint": "✅ \"He asked where THE LIBRARY WAS.\" — no inversion in reported questions!"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Report the negative command.",
+      "text": "\"Don't be late!\" → She told him ___ late.",
+      "correct": "not to be",
+      "hint": "Negative command: told + person + NOT TO + infinitive. \"She told him NOT TO BE late.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Report the request.",
+      "text": "\"Please help me.\" → He asked me ___.",
+      "opts": [
+        "help him",
+        "to help him",
+        "helping him",
+        "helped him"
+      ],
+      "correct": "to help him",
+      "hint": "\"asked + person + to + infinitive.\" \"He asked me TO HELP him.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Report the wh-question with backshift.",
+      "text": "\"What time does the lecture start?\" → She asked what time the lecture ___.",
+      "correct": "started",
+      "hint": "No inversion + backshift: \"does start\" → \"started\". \"She asked what time the lecture STARTED.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct reported form.",
+      "text": "\"Did you apply?\" → He asked ___ I had applied.",
+      "opts": [
+        "that",
+        "what",
+        "if",
+        "how"
+      ],
+      "correct": "if",
+      "hint": "yes/no question → \"if\" or \"whether\". \"He asked IF I HAD APPLIED.\" ✅ (did → had)"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Convert to reported question.",
+      "text": "\"Will she come?\" → She asked whether he ___ .",
+      "correct": "would come",
+      "hint": "will → would in reported speech. \"She asked whether he WOULD COME.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose \"told\" or \"asked\".",
+      "text": "Professor Aidarov ___ us to read Aitmatov for next week.",
+      "opts": [
+        "asked",
+        "told",
+        "said",
+        "told that"
+      ],
+      "correct": "told",
+      "hint": "\"told + person + to + inf\" = instruction/command. \"He TOLD us to read Aitmatov.\" ✅ (told = more directive than asked)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Convert the polite request.",
+      "text": "\"Please don't tell anyone about this.\" → She asked me ___.",
+      "opts": [
+        "not tell anyone",
+        "to not tell anyone",
+        "not to tell anyone",
+        "to tell no one"
+      ],
+      "correct": "not to tell anyone",
+      "hint": "\"asked + person + NOT TO + infinitive.\" \"She asked me NOT TO TELL anyone.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Report the question with full backshift.",
+      "text": "\"Have you finished your essay?\" → He asked if I ___ my essay.",
+      "correct": "had finished",
+      "hint": "Present Perfect → Past Perfect. \"He asked if I HAD FINISHED my essay.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Where is the library?\" → She asked where ___.",
+      "opts": [
+        "is the library",
+        "the library is",
+        "was the library",
+        "the library was"
+      ],
+      "correct": "the library was",
+      "hint": "No inversion + backshift. \"She asked where THE LIBRARY WAS.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Are you interested?\" → He asked ___ I was interested.",
+      "opts": [
+        "that",
+        "what",
+        "whether",
+        "how"
+      ],
+      "correct": "whether",
+      "hint": "yes/no question → \"whether\" or \"if\". \"He asked WHETHER I WAS interested.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Read the handbook!\" → She told us ___.",
+      "opts": [
+        "read the handbook",
+        "to read the handbook",
+        "reading the handbook",
+        "had read the handbook"
+      ],
+      "correct": "to read the handbook",
+      "hint": "\"told + person + to + infinitive.\" \"She told us TO READ the handbook.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Don't use your phone!\" → He told them ___ their phones.",
+      "opts": [
+        "not use",
+        "not to use",
+        "to not use",
+        "don't use"
+      ],
+      "correct": "not to use",
+      "hint": "\"told + person + NOT TO + infinitive.\" \"He told them NOT TO USE their phones.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What does WKU stand for?\" → She asked what WKU ___ for.",
+      "correct": "stood",
+      "hint": "No inversion + backshift. \"does stand\" → \"stood\". \"She asked what WKU STOOD for.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Will you help?\" → She asked if I ___ help.",
+      "opts": [
+        "will",
+        "would",
+        "can",
+        "shall"
+      ],
+      "correct": "would",
+      "hint": "Backshift: will → would. \"She asked if I WOULD help.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"He asked where was the office.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"He asked where THE OFFICE WAS.\" — no inversion in reported questions!"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Please come early.\" → She asked me ___.",
+      "opts": [
+        "come early",
+        "coming early",
+        "to come early",
+        "came early"
+      ],
+      "correct": "to come early",
+      "hint": "\"asked + person + to + infinitive.\" \"She asked me TO COME early.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"told\" and \"asked\" in commands?",
+      "opts": [
+        "No difference",
+        "\"told\" = directive/command; \"asked\" = polite request",
+        "\"asked\" is more formal",
+        "\"told\" is past only"
+      ],
+      "correct": "\"told\" = directive/command; \"asked\" = polite request",
+      "hint": "\"He TOLD me to leave.\" (strong instruction) vs \"He ASKED me to leave.\" (polite request)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Did she apply?\" → He asked if she ___ applied.",
+      "opts": [
+        "did",
+        "had",
+        "was",
+        "were"
+      ],
+      "correct": "had",
+      "hint": "Backshift: did → had. \"He asked if she HAD APPLIED.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Please don't tell anyone.\" → She asked me ___.",
+      "opts": [
+        "not tell anyone",
+        "to not tell anyone",
+        "don't tell anyone",
+        "not to tell anyone"
+      ],
+      "correct": "not to tell anyone",
+      "hint": "\"asked + person + NOT TO + infinitive.\" \"She asked me NOT TO TELL anyone.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Who is in charge?\" → She asked who ___ in charge.",
+      "correct": "was",
+      "hint": "No inversion + backshift. \"is\" → \"was\". \"She asked who WAS in charge.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Why didn't you come?\" → He asked why I ___ come.",
+      "opts": [
+        "didn't",
+        "hadn't",
+        "wouldn't",
+        "shouldn't"
+      ],
+      "correct": "hadn't",
+      "hint": "Backshift: \"didn't\" → \"hadn't\". \"He asked why I HADN'T come.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct reported command?",
+      "opts": [
+        "\"She told to study.\"",
+        "\"She told me study.\"",
+        "\"She told me to study.\"",
+        "\"She said me to study.\""
+      ],
+      "correct": "\"She told me to study.\"",
+      "hint": "\"told + person + to + infinitive.\" \"She TOLD ME TO STUDY.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Are you a student?\" → She asked ___ I was a student.",
+      "correct": "if / whether",
+      "hint": "\"if\" or \"whether\" for yes/no questions. \"She asked IF/WHETHER I was a student.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What structure introduces reported commands?",
+      "opts": [
+        "said + to",
+        "told that",
+        "told/asked + person + to + infinitive",
+        "asked that"
+      ],
+      "correct": "told/asked + person + to + infinitive",
+      "hint": "Commands/requests: \"told/asked + person + to + base verb.\" \"He TOLD ME TO come.\" ✅"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "id": "l68-g2",
+  "moduleNum": 10,
+  "lessonNum": 6,
+  "moduleTitle": "Narrative Writing",
+  "title": "Grammar: Advanced Narrative Devices — Inversion, Discourse Markers, Sentence Variety",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Профессиональный нарративный стиль — три секрета:\n\n① РАЗНООБРАЗИЕ длины предложений:\nКороткие = удар, ударение, драма.\nДлинные создают плавность, показывают связь между идеями.\n\n② КОНКРЕТНЫЕ детали вместо общих слов:\nВместо \"it was cold\" → \"frost had formed on the windows\"\nВместо \"she was nervous\" → \"her hands were shaking\"\n\n③ ПОКАЗЫВАЙ, а не рассказывай (Show, don't tell):\n❌ \"He was very angry.\" → ✅ \"He slammed the door without a word.\"\n❌ \"She was happy.\" → ✅ \"She couldn't stop smiling all morning.\"",
+  "grammarTable": [
+    {
+      "subject": "Fronting for emphasis",
+      "verb": "Adverb/phrase moved to start",
+      "short": "emphasis on time/place/manner",
+      "example": "Slowly, she turned. Outside, the storm was growing. There, on the table, was a letter."
+    },
+    {
+      "subject": "Inversion after negative",
+      "verb": "Neg. adverb + auxiliary + subject",
+      "short": "dramatic / literary style",
+      "example": "Never had she felt so afraid. Not once did he look back."
+    },
+    {
+      "subject": "Short sentences",
+      "verb": "2–5 words",
+      "short": "dramatic impact / climax moment",
+      "example": "She stopped. She listened. Nothing."
+    },
+    {
+      "subject": "Long sentences",
+      "verb": "Multiple clauses",
+      "short": "atmosphere, reflection, complexity",
+      "example": "The rain fell steadily, as it had for days, filling the gutters and washing the streets clean."
+    },
+    {
+      "subject": "Discourse markers",
+      "verb": "Meanwhile, suddenly, later, eventually",
+      "short": "signal narrative time shifts",
+      "example": "Meanwhile, in another part of the city... / Suddenly, everything changed."
+    },
+    {
+      "subject": "Repetition for effect",
+      "verb": "Deliberate word/phrase repetition",
+      "short": "rhythm and emphasis",
+      "example": "\"She waited. And waited. And waited.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Fronting: Moving Elements to the Beginning",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Time phrase fronted",
+          "example": "\"At midnight, the city was finally quiet.\""
+        },
+        {
+          "form": "Manner adverb fronted",
+          "example": "\"Carefully, she lifted the photograph from the drawer.\""
+        },
+        {
+          "form": "Place phrase fronted",
+          "example": "\"On the floor, among the scattered papers, she found what she was looking for.\""
+        }
+      ]
+    },
+    {
+      "title": "Dramatic Inversion in Narrative",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Never / not once + auxiliary + subject",
+          "example": "\"Never had she felt so alone.\" \"Not once did he mention her name.\""
+        },
+        {
+          "form": "No sooner + had + subject + pp + than…",
+          "example": "\"No sooner had he arrived than the argument started.\""
+        },
+        {
+          "form": "There + be + subject (existential)",
+          "example": "\"There, on the step, stood a figure she recognised.\""
+        }
+      ]
+    },
+    {
+      "title": "Narrative Discourse Markers",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Sequence: first, then, next, finally, eventually",
+          "example": "\"Eventually, after hours of silence, he spoke.\""
+        },
+        {
+          "form": "Time shift: meanwhile, in the meantime, at the same time",
+          "example": "\"Meanwhile, across town, something else was happening.\""
+        },
+        {
+          "form": "Sudden change: suddenly, all at once, without warning",
+          "example": "\"Without warning, the door burst open.\""
+        },
+        {
+          "form": "Contrast: however, but, despite this, even so",
+          "example": "\"She smiled. Despite this, her eyes were cold.\""
+        }
+      ]
+    },
+    {
+      "title": "Sentence Length and Rhythm",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Short sentences at climax",
+          "example": "\"He ran. He fell. It was over.\""
+        },
+        {
+          "form": "Long sentences for atmosphere",
+          "example": "\"The afternoon light stretched long and golden across the floor, and in it the dust moved slowly, as if the air itself were considering whether to stay.\""
+        },
+        {
+          "form": "Fragment for dramatic effect",
+          "example": "\"She opened the envelope. A single sheet of paper. No date. No signature.\""
+        }
+      ]
+    },
+    {
+      "title": "Showing vs. Telling",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "TELLING: stating the emotion directly",
+          "example": "\"She was afraid.\" / \"He was angry.\""
+        },
+        {
+          "form": "SHOWING: expressing emotion through action/detail",
+          "example": "\"Her hands were shaking.\" / \"He slammed the door without a word.\""
+        },
+        {
+          "form": "SHOWING uses specific, concrete details",
+          "example": "\"The coffee went cold while she sat staring at the letter.\" = showing preoccupation."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Which uses dramatic inversion correctly?",
+      "text": "",
+      "opts": [
+        "She had never felt so afraid.",
+        "Never she had felt so afraid.",
+        "Never had she felt so afraid.",
+        "Never she felt so afraid."
+      ],
+      "correct": "Never had she felt so afraid.",
+      "hint": "Never + had + subject + past participle"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Rewrite with fronting for emphasis.",
+      "text": "\"She carefully opened the drawer.\" → ___, she opened the drawer.",
+      "correct": "Carefully",
+      "hint": "Move the manner adverb to the front"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Which is an example of \"showing\" rather than \"telling\"?",
+      "text": "",
+      "opts": [
+        "He was very nervous.",
+        "She felt happy.",
+        "His voice cracked as he tried to speak.",
+        "They were all afraid."
+      ],
+      "correct": "His voice cracked as he tried to speak.",
+      "hint": "Showing = emotion expressed through physical action/detail"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the dramatic inversion.",
+      "text": "\"Not once ___ he ___ (look) at her during the whole conversation.\"",
+      "correct": "did / look",
+      "hint": "Not once + did + subject + bare infinitive"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Which discourse marker signals a sudden change?",
+      "text": "",
+      "opts": [
+        "Eventually",
+        "Meanwhile",
+        "Without warning",
+        "Despite this"
+      ],
+      "correct": "Without warning",
+      "hint": "\"Without warning\" = sudden unexpected event"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence creates dramatic impact through short sentences?",
+      "text": "",
+      "opts": [
+        "The room was dark and cold, and she could hear rain falling against the window.",
+        "She stood. She stared. She ran.",
+        "Walking slowly, she approached the door, uncertain of what she might find inside.",
+        "The long corridor stretched out before her, its walls covered in faded photographs."
+      ],
+      "correct": "She stood. She stared. She ran.",
+      "hint": "Short sentences = impact at a climax moment"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Add the correct discourse marker.",
+      "text": "\"___, in another part of the building, someone was listening.\" (= at the same time)",
+      "correct": "Meanwhile",
+      "hint": "Meanwhile = at the same time, in a different location"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which is a \"telling\" sentence?",
+      "text": "",
+      "opts": [
+        "His coffee was cold on the table.",
+        "The door swung open.",
+        "She smiled at the children.",
+        "She was devastated by the news."
+      ],
+      "correct": "She was devastated by the news.",
+      "hint": "Telling = stating the emotion directly (\"devastated\")"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Rewrite as a \"showing\" sentence.",
+      "text": "\"He was very angry.\" → He ___ the door ___ without saying a word.",
+      "correct": "slammed / shut",
+      "hint": "Show anger through physical action, not the word \"angry\""
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which correctly uses \"no sooner… than\"?",
+      "text": "",
+      "opts": [
+        "No sooner she left than he called.",
+        "No sooner had she left than he called.",
+        "No sooner she had left when he called.",
+        "No sooner did she leave than he had called."
+      ],
+      "correct": "No sooner had she left than he called.",
+      "hint": "\"No sooner had + subject + pp… than + past simple\""
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "What effect does this create? \"She waited. And waited. And waited.\"",
+      "opts": [
+        "Confusion",
+        "Urgency and speed",
+        "Rhythm and emphasis on duration",
+        "A flashback"
+      ],
+      "correct": "Rhythm and emphasis on duration",
+      "hint": "Deliberate repetition = emphasises how long / how much"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the fronted sentence.",
+      "text": "\"___ the table was a small, folded piece of paper.\" (= There, on the table)",
+      "correct": "There on",
+      "hint": "Existential fronting: \"There, on [place], was/stood...\""
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Which creates the strongest atmosphere through sentence length?",
+      "text": "",
+      "opts": [
+        "It was dark.",
+        "She went inside.",
+        "The fog lay heavy over the river, blurring the lights on the far bank into soft, amber smears.",
+        "He stopped walking."
+      ],
+      "correct": "The fog lay heavy over the river, blurring the lights on the far bank into soft, amber smears.",
+      "hint": "Longer sentences build atmosphere through detail and rhythm"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Add the correct time marker.",
+      "text": "\"He sat at the table for a long time. ___, he picked up the phone.\"",
+      "correct": "Eventually",
+      "hint": "\"Eventually\" = after a long time, finally"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence uses contrast discourse correctly?",
+      "text": "",
+      "opts": [
+        "He looked calm. Eventually, he was nervous.",
+        "He looked calm. Meanwhile, he was terrified inside.",
+        "He looked calm. Despite this, he was terrified inside.",
+        "He looked calm. Without warning, he was terrified inside."
+      ],
+      "correct": "He looked calm. Despite this, he was terrified inside.",
+      "hint": "\"Despite this\" = contrast between outward appearance and inner feeling"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Transform: \"She had never felt this way before.\" → Dramatic inversion:",
+      "text": "",
+      "opts": [
+        "Before, she had never felt this way.",
+        "Never had she felt this way before.",
+        "She never had felt this way before.",
+        "Never she had felt this way before."
+      ],
+      "correct": "Never had she felt this way before.",
+      "hint": "Never + had + subject + pp = dramatic inversion"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ had she seen anything so strange in her life.\" (Dramatic inversion)",
+      "opts": [
+        "Not",
+        "Never",
+        "Rarely",
+        "Barely"
+      ],
+      "correct": "Never",
+      "hint": "Never + had + subject + past participle = dramatic inversion",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, she turned to face him.\" (Manner adverb fronted for emphasis — slowly)",
+      "correct": "Slowly",
+      "hint": "Adverb fronted: \"Slowly, she turned…\"",
+      "points": 1
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is an example of \"showing\" rather than \"telling\"?",
+      "opts": [
+        "She was sad.",
+        "He felt guilty.",
+        "She stared at the photo for a long time without speaking.",
+        "They were all exhausted."
+      ],
+      "correct": "She stared at the photo for a long time without speaking.",
+      "hint": "Showing = emotion through action, not the emotion word itself",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Not once ___ he ___ (explain) what had happened.\"",
+      "correct": "did / explain",
+      "hint": "Not once + did + subject + bare infinitive",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, in a room at the end of the corridor, a light came on.\" (= at the same time, different location)",
+      "opts": [
+        "Eventually",
+        "Meanwhile",
+        "Suddenly",
+        "Despite this"
+      ],
+      "correct": "Meanwhile",
+      "hint": "\"Meanwhile\" = at the same time, elsewhere",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"She was angry\" is an example of showing, not telling.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Stating the emotion directly = telling",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which creates a strong climax through sentence length?",
+      "opts": [
+        "The afternoon was warm and pleasant, and the birds were singing in the trees outside.",
+        "He stopped. He looked. He ran.",
+        "Walking carefully through the long corridor, she noticed many things she had not seen before.",
+        "There were many people waiting in the room when she arrived."
+      ],
+      "correct": "He stopped. He looked. He ran.",
+      "hint": "Short sentences = maximum impact at dramatic moments",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"No sooner ___ she ___ (open) the letter than she burst into tears.\"",
+      "correct": "had / opened",
+      "hint": "\"No sooner had + subject + pp… than\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Without warning, the lights went out.\" What does \"without warning\" signal?",
+      "opts": [
+        "A contrast",
+        "A sudden unexpected event",
+        "A time shift to the past",
+        "A new character entry"
+      ],
+      "correct": "A sudden unexpected event",
+      "hint": "\"Without warning\" = sudden change discourse marker",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The table, the chairs, the walls — everything was covered in dust.\" This uses…",
+      "opts": [
+        "Short sentences for impact",
+        "Repetition/listing for emphasis",
+        "Dramatic inversion",
+        "A flashback"
+      ],
+      "correct": "Repetition/listing for emphasis",
+      "hint": "Listing items = building emphasis through repetition",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ this, she smiled. Inside, she was breaking.\" (= contrast marker)",
+      "correct": "Despite",
+      "hint": "\"Despite this\" = outward behaviour contrasts with inner feeling",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which correctly fronts a place phrase for emphasis?",
+      "opts": [
+        "She found it under the bed.",
+        "Under the bed she found it.",
+        "Under the bed, she found it.",
+        "Found under the bed, she it."
+      ],
+      "correct": "Under the bed, she found it.",
+      "hint": "Place phrase fronted: \"Under the bed, she found it.\"",
+      "points": 2
+    }
+  ]
+}

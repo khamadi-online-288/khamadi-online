@@ -1,0 +1,265 @@
+{
+  "id": "l5-3",
+  "moduleNum": 5,
+  "lessonNum": 3,
+  "moduleTitle": "I can / I can't",
+  "title": "Talents and skills",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Bekzat",
+      "text": "Ainur, you can speak five languages? I can't believe it! How?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Ha! I practise every day. I can speak Kazakh, Russian, English, Chinese, and Korean.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "Incredible. I can only speak Kazakh and Russian. I can't learn languages — my brain doesn't work that way!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Of course you can! It just takes time. Can you play any musical instrument?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "No, I can't play any instrument. I tried guitar once — terrible! But I can play football. Can you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Ha! No, I can't play football at all. I can run, but I can't kick the ball straight!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "I can teach you! Football is not so difficult. Can you swim?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Yes, I can swim — I competed in regional swimming competitions. Can you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "A little. I can swim, but not very fast. Can you cook?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Yes! I can make Korean dishes. Can you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "I can make shashlik on the grill — that's it! Can you sing or dance?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "I can sing a little, but I can't dance. I have two left feet!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "Me too! I can't dance at all. I look like a robot at parties!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Ha! We should join the dance club — then we CAN dance by the end of the year.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Bekzat",
+      "text": "Good idea! I can't dance now, but I can learn. I can do anything with practice!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ainur",
+      "text": "Exactly! \"I can't yet\" is very different from \"I can't ever.\" Remember that!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "instrument",
+      "emoji": "🎸",
+      "opts": [
+        "инструмент",
+        "способность",
+        "навык",
+        "оборудование"
+      ],
+      "correct": "инструмент"
+    },
+    {
+      "id": "p2",
+      "word": "compete",
+      "emoji": "🏆",
+      "opts": [
+        "тренироваться",
+        "участвовать в соревновании",
+        "побеждать",
+        "проигрывать"
+      ],
+      "correct": "участвовать в соревновании"
+    },
+    {
+      "id": "p3",
+      "word": "straight",
+      "emoji": "➡️",
+      "opts": [
+        "быстро",
+        "прямо",
+        "далеко",
+        "точно"
+      ],
+      "correct": "прямо"
+    },
+    {
+      "id": "p4",
+      "word": "grill",
+      "emoji": "🔥",
+      "opts": [
+        "плита",
+        "мангал / гриль",
+        "духовка",
+        "микроволновка"
+      ],
+      "correct": "мангал / гриль"
+    },
+    {
+      "id": "p5",
+      "word": "two left feet",
+      "emoji": "🦶",
+      "opts": [
+        "очень быстрый",
+        "неуклюжий в танце",
+        "усталый",
+        "сильный"
+      ],
+      "correct": "неуклюжий в танце"
+    },
+    {
+      "id": "p6",
+      "word": "practice",
+      "emoji": "🔁",
+      "opts": [
+        "отдых",
+        "практика / тренировка",
+        "соревнование",
+        "урок"
+      ],
+      "correct": "практика / тренировка"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Ainur can speak five languages.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Bekzat can play guitar very well.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Ainur competed in regional swimming competitions.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Bekzat can cook shashlik on the grill.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Ainur can dance very well.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Both Bekzat and Ainur decide to join the dance club.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "bekzat",
+      "name": "Bekzat",
+      "city": "Kyzylorda",
+      "emoji": "⚽",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Engineering student, Group 203"
+    },
+    {
+      "id": "ainur",
+      "name": "Ainur",
+      "city": "Astana",
+      "emoji": "🌍",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "Languages student, Group 204"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Can speak five languages: Kazakh, Russian, English, Chinese, Korean.",
+      "correctCharId": "ainur"
+    },
+    {
+      "id": "s2",
+      "text": "Can play football but can't play any musical instrument.",
+      "correctCharId": "bekzat"
+    },
+    {
+      "id": "s3",
+      "text": "Can swim and competed in regional swimming competitions.",
+      "correctCharId": "ainur"
+    },
+    {
+      "id": "s4",
+      "text": "Can cook shashlik on the grill — and nothing else!",
+      "correctCharId": "bekzat"
+    },
+    {
+      "id": "s5",
+      "text": "Can sing a little but can't dance at all.",
+      "correctCharId": "ainur"
+    },
+    {
+      "id": "s6",
+      "text": "Says \"I can't yet is very different from I can't ever.\"",
+      "correctCharId": "ainur"
+    }
+  ]
+}

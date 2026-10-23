@@ -1,0 +1,540 @@
+{
+  "id": "l46-g1",
+  "moduleNum": 12,
+  "lessonNum": 3,
+  "moduleTitle": "Saying What They Said",
+  "type": "grammar",
+  "title": "Reported Speech: Statements (said / told)",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Reported Speech — Statements: said and told",
+  "grammarNote": "Косвенная речь (Reported Speech) используется для передачи того, что сказал кто-то другой — без использования его точных слов. Главное правило: времена СДВИГАЮТСЯ НАЗАД (\"backshift\"). Present Simple → Past Simple; Present Continuous → Past Continuous; will → would; can → could; have/has → had и т.д. Также меняются местоимения и указательные слова (this → that, here → there, tomorrow → the next day).",
+  "grammarTable": [
+    {
+      "subject": "Direct → Reported",
+      "verb": "Present → Past",
+      "short": "backshift",
+      "example": "\"I study hard.\" → He said (that) HE STUDIED hard."
+    },
+    {
+      "subject": "Continuous backshift",
+      "verb": "P.Cont → P.Cont (past)",
+      "short": "was/were -ing",
+      "example": "\"I'm working.\" → She said she WAS WORKING."
+    },
+    {
+      "subject": "Perfect backshift",
+      "verb": "have/has → had",
+      "short": "past perfect",
+      "example": "\"I've finished.\" → He said he HAD FINISHED."
+    },
+    {
+      "subject": "Future backshift",
+      "verb": "will → would",
+      "short": "will→would",
+      "example": "\"I'll help.\" → She said she WOULD HELP."
+    },
+    {
+      "subject": "Modal backshift",
+      "verb": "can→could, may→might",
+      "short": "modals",
+      "example": "\"I can come.\" → He said he COULD COME. \"I may be late.\" → She said she MIGHT BE LATE."
+    },
+    {
+      "subject": "said vs told",
+      "verb": "said (no object), told + person",
+      "short": "key difference",
+      "example": "\"He said (that)...\" / \"He told me (that)...\" — told needs a person!"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Tense backshift table",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Present Simple → Past Simple",
+          "example": "\"I work here.\" → She said she WORKED there."
+        },
+        {
+          "form": "Present Continuous → Past Continuous",
+          "example": "\"I'm studying.\" → He said he WAS STUDYING."
+        },
+        {
+          "form": "Present Perfect → Past Perfect",
+          "example": "\"I've finished.\" → She said she HAD FINISHED."
+        },
+        {
+          "form": "Past Simple → Past Perfect",
+          "example": "\"I went.\" → He said he HAD GONE."
+        },
+        {
+          "form": "will → would",
+          "example": "\"I'll call.\" → She said she WOULD CALL."
+        },
+        {
+          "form": "can → could / may → might",
+          "example": "\"I can help.\" → He said he COULD HELP."
+        }
+      ]
+    },
+    {
+      "title": "said vs told — an essential distinction",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "said + (that) — no person object",
+          "example": "\"He said (that) language changes.\" ✅ NOT \"He said me that...\""
+        },
+        {
+          "form": "told + person + (that)",
+          "example": "\"He told ME (that) language changes.\" / \"She told US to read Aitmatov.\" ✅"
+        },
+        {
+          "form": "✗ \"He said me...\" → always wrong",
+          "example": "✗ \"He said me it was interesting.\" → ✅ \"He told me it was interesting.\" OR \"He said it was interesting.\" ✅"
+        },
+        {
+          "form": "told + to + inf = command",
+          "example": "\"He told me to come to his office.\" / \"She told us to read the book.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Pronoun and time/place changes",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "I → he/she / we → they",
+          "example": "\"I love this.\" → She said she loved IT."
+        },
+        {
+          "form": "my → his/her / our → their",
+          "example": "\"This is my book.\" → She said it was HER book."
+        },
+        {
+          "form": "here → there",
+          "example": "\"Come here.\" → He told me to go THERE."
+        },
+        {
+          "form": "this → that / these → those",
+          "example": "\"I like this place.\" → He said he liked THAT place."
+        },
+        {
+          "form": "now → then",
+          "example": "\"I'm busy now.\" → She said she was busy THEN."
+        },
+        {
+          "form": "today → that day / tomorrow → next day",
+          "example": "\"Meet me tomorrow.\" → He said to meet him THE NEXT DAY."
+        }
+      ]
+    },
+    {
+      "title": "When backshift is NOT needed",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "If the situation is still true NOW",
+          "example": "\"The Earth orbits the sun.\" → She said the Earth orbits the sun. (still true!)"
+        },
+        {
+          "form": "If reporting immediately (just now)",
+          "example": "\"She says she's coming.\" (very recent — present still works)"
+        },
+        {
+          "form": "After present tense reporting verb",
+          "example": "\"He says he works hard.\" (he says = present → no need to backshift)"
+        },
+        {
+          "form": "Opinion/fact that hasn't changed",
+          "example": "\"He said Aitmatov was a great writer.\" (was OR is — both acceptable)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Reported Speech — три главных правила:\n① Времена сдвигаются НАЗАД:\nPresent → Past, will → would, can → could, have → had\n② SAY vs TELL:\n\"said\" = без объекта: \"He said (that)...\"\n\"told\" = с объектом: \"He told ME (that)...\"\n✗ \"He said me\" — НИКОГДА!\n③ Меняются местоимения и указательные слова:\n\"I\" → he/she, \"here\" → there, \"now\" → then, \"tomorrow\" → the next day\n\n💡 Слово \"that\" после said/told — НЕОБЯЗАТЕЛЬНО:\n\"She said (that) she was coming.\" ✅\n\"She said she was coming.\" ✅ — оба правильны!\n\n⚠️ Факты, всегда истинные → сдвиг не нужен:\n\"She said water BOILS at 100°C.\" (не \"boiled\")",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Convert to reported speech.",
+      "text": "\"I study linguistics.\" → She said ___.",
+      "opts": [
+        "she studies linguistics",
+        "she studied linguistics",
+        "she is studying linguistics",
+        "she has studied linguistics"
+      ],
+      "correct": "she studied linguistics",
+      "hint": "Backshift: Present Simple → Past Simple. \"I study\" → \"she STUDIED linguistics.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the reported speech.",
+      "text": "\"I'm working on the essay.\" → He said he ___ on the essay.",
+      "correct": "was working",
+      "hint": "Backshift: Present Continuous → Past Continuous. \"I'm working\" → \"he WAS WORKING.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose: said or told?",
+      "text": "Professor Aidarov ___ us to read Aitmatov.",
+      "opts": [
+        "said",
+        "told",
+        "said to",
+        "told that"
+      ],
+      "correct": "told",
+      "hint": "\"told\" + person (us) + to + infinitive. \"He TOLD US to read Aitmatov.\" ✅ (NOT \"said us\")"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Convert to reported speech.",
+      "text": "\"I'll help you.\" → She said she ___ help.",
+      "correct": "would",
+      "hint": "Backshift: will → would. \"I'll help\" → \"she said she WOULD HELP.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"He said me that language never changes.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"said me\" — should be \"told me\"",
+        "\"language never changes\" should be past",
+        "\"that\" should be removed"
+      ],
+      "correct": "\"said me\" — should be \"told me\"",
+      "hint": "✅ \"He TOLD ME that language never changes.\" — \"said\" cannot have a person object! Use \"told + person\". ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Convert the pronoun correctly.",
+      "text": "\"My research is on Kazakh.\" → She said ___ research was on Kazakh.",
+      "opts": [
+        "my",
+        "her",
+        "our",
+        "its"
+      ],
+      "correct": "her",
+      "hint": "Pronoun change: \"my\" (her speaking) → \"her\" (reporting about her). \"She said HER research was on Kazakh.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Backshift the modal verb.",
+      "text": "\"I can come to the office.\" → He said he ___ come to the office.",
+      "correct": "could",
+      "hint": "Backshift: can → could. \"He said he COULD come to the office.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Change the time expression.",
+      "text": "\"Meet me tomorrow.\" → He told her to meet him ___.",
+      "opts": [
+        "tomorrow",
+        "the next day",
+        "later",
+        "yesterday"
+      ],
+      "correct": "the next day",
+      "hint": "\"tomorrow\" → \"the next day\" in reported speech. \"He told her to meet him THE NEXT DAY.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Convert from direct to reported.",
+      "text": "\"I've finished the assignment.\" → She said she ___ the assignment.",
+      "correct": "had finished",
+      "hint": "Backshift: Present Perfect → Past Perfect. \"I've finished\" → \"she said she HAD FINISHED.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Is backshift needed here?",
+      "text": "\"Water freezes at 0°C.\" → He said water ___ at 0°C. (scientific fact)",
+      "opts": [
+        "froze",
+        "freezes",
+        "will freeze",
+        "frozen"
+      ],
+      "correct": "freezes",
+      "hint": "Scientific/permanent facts: backshift is NOT needed. \"He said water FREEZES at 0°C.\" ✅ (still true)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct reported speech.",
+      "text": "\"I'm here right now.\" → She said she was ___ ___.",
+      "opts": [
+        "here then",
+        "there then",
+        "here now",
+        "there now"
+      ],
+      "correct": "there then",
+      "hint": "\"here\" → \"there\" and \"now\" → \"then\" in reported speech. \"She said she was THERE THEN.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete with \"said\" or \"told\".",
+      "text": "Professor Aidarov ___ that the project was competitive. He ___ us to apply anyway.",
+      "correct": "said / told",
+      "hint": "\"said\" (no person object) / \"told us\" (with person object + to + inf). \"He SAID... He TOLD US.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I work here.\" → She said ___.",
+      "opts": [
+        "she works here",
+        "she worked there",
+        "she work here",
+        "she had worked there"
+      ],
+      "correct": "she worked there",
+      "hint": "Backshift: works → worked. \"here\" → \"there\". \"She said she WORKED THERE.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm studying.\" → He said he ___.",
+      "opts": [
+        "is studying",
+        "was studying",
+        "studied",
+        "had studied"
+      ],
+      "correct": "was studying",
+      "hint": "Backshift: am/is/are + -ing → was/were + -ing. \"He said he WAS STUDYING.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll call you.\" → She said she ___ call.",
+      "opts": [
+        "will",
+        "would",
+        "can",
+        "shall"
+      ],
+      "correct": "would",
+      "hint": "Backshift: will → would. \"She said she WOULD CALL.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose: \"He ___ me to read Aitmatov.\"",
+      "opts": [
+        "said",
+        "told",
+        "said to",
+        "said me"
+      ],
+      "correct": "told",
+      "hint": "\"told + person + to + inf\" = command. \"He TOLD ME to read...\" ✅ \"said\" cannot have a person object!"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I can help.\" → He said he ___ help.",
+      "correct": "could",
+      "hint": "Backshift: can → could. \"He said he COULD help.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've finished.\" → She said she ___.",
+      "opts": [
+        "has finished",
+        "finished",
+        "had finished",
+        "was finishing"
+      ],
+      "correct": "had finished",
+      "hint": "Backshift: Present Perfect → Past Perfect. \"She said she HAD FINISHED.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"He said me it was interesting.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"He TOLD ME it was interesting.\" OR \"He SAID it was interesting.\" Never \"said me\"!"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"My name is Kamila.\" → She said ___ name was Kamila.",
+      "opts": [
+        "my",
+        "your",
+        "her",
+        "its"
+      ],
+      "correct": "her",
+      "hint": "Pronoun change: \"my\" → \"her\" (we are reporting about her). \"She said HER name was Kamila.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Meet me here tomorrow.\" → He told her to meet him ___ ___ .",
+      "correct": "there the next day",
+      "hint": "\"here\" → \"there\" and \"tomorrow\" → \"the next day\". ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The Earth orbits the sun.\" → She said the Earth ___ the sun. (fact)",
+      "opts": [
+        "orbited",
+        "orbits",
+        "would orbit",
+        "had orbited"
+      ],
+      "correct": "orbits",
+      "hint": "Scientific/permanent fact → NO backshift needed. \"She said the Earth ORBITS the sun.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I may be late.\" → He said he ___ be late.",
+      "opts": [
+        "will",
+        "might",
+        "can",
+        "must"
+      ],
+      "correct": "might",
+      "hint": "Backshift: may → might. \"He said he MIGHT be late.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I'm going to apply.\" → She said she ___ apply.",
+      "correct": "was going to",
+      "hint": "Backshift: am going to → was going to. \"She said she WAS GOING TO APPLY.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Is \"that\" after \"said\" required?",
+      "opts": [
+        "Always",
+        "Never",
+        "No — it's optional",
+        "Only in formal writing"
+      ],
+      "correct": "No — it's optional",
+      "hint": "\"She said (THAT) she was coming.\" — \"that\" is optional and often omitted in spoken English. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I went to Almaty.\" → She said she ___ to Almaty.",
+      "opts": [
+        "went",
+        "had gone",
+        "was going",
+        "goes"
+      ],
+      "correct": "had gone",
+      "hint": "Backshift: Past Simple → Past Perfect. \"She said she HAD GONE to Almaty.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"This is interesting.\" → He said ___ was interesting.",
+      "opts": [
+        "this",
+        "that",
+        "it",
+        "there"
+      ],
+      "correct": "that",
+      "hint": "\"this\" → \"that\" in reported speech. \"He said THAT was interesting.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is in correct reported speech?",
+      "opts": [
+        "\"She said me she was tired.\"",
+        "\"She told she was tired.\"",
+        "\"She said she was tired.\"",
+        "\"She told that she was tired.\""
+      ],
+      "correct": "\"She said she was tired.\"",
+      "hint": "\"said\" + no person object. \"She SAID she was tired.\" ✅ (Not \"said me\" or \"told that\")"
+    }
+  ]
+}

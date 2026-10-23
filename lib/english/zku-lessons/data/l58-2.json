@@ -1,0 +1,649 @@
+{
+  "id": "l58-2",
+  "moduleNum": 24,
+  "lessonNum": 2,
+  "moduleTitle": "A2 Final Exam",
+  "type": "listening",
+  "title": "Listening Exam (4 parts)",
+  "xp": 400,
+  "duration": 90,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Tell me about the most challenging project you've worked on.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've been building a student timetable application for WKU over the past eight months. The challenge was that I had to learn a new framework while developing it. By the time I launched the first version, I had already rewritten the core architecture twice.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What did you learn from that experience?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "That beginning poorly is still better than not beginning. Furthermore, the mistakes I made early on helped me understand the system more deeply than I would have if I'd planned everything perfectly from the start.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I watched the documentary on the Aral Sea last night. It was sobering.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I know — despite the international attention it has received, the remediation efforts have been very slow. As a result, communities near what used to be the sea are still suffering.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What struck me most was the speed of the decline. By 1990, the sea had already lost more than half its volume. Although some restoration projects have been established in the north, they are very small compared to the original scale.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Nevertheless, the North Aral Sea has recovered slightly. Furthermore, it's become an important case study for what can and cannot be achieved through environmental intervention.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I've been thinking about what I want to do after WKU. I intend to apply for a journalism position at a national newspaper.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Is there anything specific you'd like to cover?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Environmental journalism, ideally. The connection between science communication and public action has always interested me. Despite not having a science background, I've been studying ecology independently for two years.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That's actually an advantage. Scientists can explain what's happening, but they often struggle to communicate it to a general audience. Consequently, science communicators who can bridge that gap are in high demand.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Host",
+      "text": "We're discussing whether social media should be regulated. Aizhan, you support regulation.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Yes. Although I believe in free expression, I also believe that platforms are currently profiting from content that demonstrably harms users. Therefore, some form of accountability is not just justified — it is necessary.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Host",
+      "text": "And Baglan, you oppose regulation.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baglan",
+      "text": "My concern is who decides what is harmful. Furthermore, even well-intentioned regulation can suppress voices that are inconvenient to those in power. Nevertheless, I agree that transparency requirements are reasonable.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "framework",
+      "emoji": "🛠️",
+      "opts": [
+        "готовый продукт",
+        "фреймворк / структура разработки",
+        "интерфейс",
+        "алгоритм"
+      ],
+      "correct": "фреймворк / структура разработки"
+    },
+    {
+      "id": "p2",
+      "word": "remediation",
+      "emoji": "🌱",
+      "opts": [
+        "загрязнение",
+        "ремедиация / очистка",
+        "исследование",
+        "мониторинг"
+      ],
+      "correct": "ремедиация / очистка"
+    },
+    {
+      "id": "p3",
+      "word": "intervention",
+      "emoji": "🔧",
+      "opts": [
+        "игнорирование",
+        "вмешательство / действие",
+        "мониторинг",
+        "исследование"
+      ],
+      "correct": "вмешательство / действие"
+    },
+    {
+      "id": "p4",
+      "word": "bridge the gap",
+      "emoji": "🌉",
+      "opts": [
+        "создать разрыв",
+        "устранить разрыв / стать связующим звеном",
+        "усилить",
+        "избежать"
+      ],
+      "correct": "устранить разрыв / стать связующим звеном"
+    },
+    {
+      "id": "p5",
+      "word": "accountability",
+      "emoji": "⚖️",
+      "opts": [
+        "безнаказанность",
+        "подотчётность / ответственность",
+        "прозрачность",
+        "регулирование"
+      ],
+      "correct": "подотчётность / ответственность"
+    },
+    {
+      "id": "p6",
+      "word": "transparency",
+      "emoji": "🔍",
+      "opts": [
+        "секретность",
+        "прозрачность / открытость",
+        "ограничение",
+        "лицензия"
+      ],
+      "correct": "прозрачность / открытость"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir had rewritten the core architecture twice before launching the first version.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Amir says planning everything perfectly from the start is the best approach.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "By 1990, the Aral Sea had lost more than half its volume.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The North Aral Sea has fully recovered to its original size.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila has been studying ecology independently for two years.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Baglan completely opposes all social media regulation.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Part 1: Job interview — discusses his timetable app project"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🌿",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Part 2: Discusses the Aral Sea documentary with Rustam"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📰",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Part 3: Plans environmental journalism career"
+    },
+    {
+      "id": "aizhan",
+      "name": "Aizhan",
+      "city": "Uralsk",
+      "emoji": "✊",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Part 4: Argues for social media regulation"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says beginning poorly is still better than not beginning at all.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s2",
+      "text": "Says the North Aral Sea has become an important environmental case study.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "Says science communicators who can bridge the gap are in high demand.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Says platforms profit from content that demonstrably harms users.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s5",
+      "text": "Notes that despite attention, remediation of the Aral Sea has been very slow.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "Agrees that transparency requirements for social media are reasonable.",
+      "correctCharId": "aizhan"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What challenge did Amir face with the timetable app?",
+      "opts": [
+        "Lack of users",
+        "Had to learn a new framework while building it",
+        "No internet access",
+        "Team conflicts"
+      ],
+      "correct": "Had to learn a new framework while building it",
+      "hint": "\"I had to learn a new framework while developing it.\""
+    },
+    {
+      "id": "q02",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "By the time Amir launched the first version, he had done what?",
+      "opts": [
+        "Only planned",
+        "Rewritten the core architecture twice",
+        "Launched two other apps",
+        "Hired other developers"
+      ],
+      "correct": "Rewritten the core architecture twice",
+      "hint": "\"By the time I launched the first version, I had already rewritten the core architecture twice.\""
+    },
+    {
+      "id": "q03",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happened to the Aral Sea's volume by 1990?",
+      "opts": [
+        "It grew",
+        "It stayed the same",
+        "It had already lost more than half its volume",
+        "It fully disappeared"
+      ],
+      "correct": "It had already lost more than half its volume",
+      "hint": "\"By 1990, the sea had already lost more than half its volume.\""
+    },
+    {
+      "id": "q04",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The North Aral Sea has fully recovered to its original size.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The North Aral Sea has recovered SLIGHTLY.\" — not fully."
+    },
+    {
+      "id": "q05",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What role does the Aral Sea case play in environmental science?",
+      "opts": [
+        "Example of success",
+        "Case study of what can and cannot be achieved through intervention",
+        "Proof that nothing can be done",
+        "Irrelevant to modern issues"
+      ],
+      "correct": "Case study of what can and cannot be achieved through intervention",
+      "hint": "\"It's become an important case study for what can and cannot be achieved through environmental intervention.\""
+    },
+    {
+      "id": "q06",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What career does Kamila intend to pursue?",
+      "opts": [
+        "Environmental science research",
+        "Teaching",
+        "Environmental journalism",
+        "Government policy"
+      ],
+      "correct": "Environmental journalism",
+      "hint": "\"Environmental journalism, ideally... I intend to apply for a journalism position.\""
+    },
+    {
+      "id": "q07",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyar says Kamila's lack of a science background is a disadvantage.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"That's actually an ADVANTAGE. Scientists can explain what's happening, but they often struggle to communicate it.\""
+    },
+    {
+      "id": "q08",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why are science communicators in high demand?",
+      "opts": [
+        "They are cheaper than scientists",
+        "They bridge the gap between science and general audiences",
+        "They replace scientists",
+        "They write faster"
+      ],
+      "correct": "They bridge the gap between science and general audiences",
+      "hint": "\"Consequently, science communicators who can bridge that gap are in high demand.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Aizhan's argument for social media regulation?",
+      "opts": [
+        "She dislikes social media",
+        "Platforms profit from content that harms users",
+        "She works for the government",
+        "All speech should be censored"
+      ],
+      "correct": "Platforms profit from content that harms users",
+      "hint": "\"Platforms are currently profiting from content that demonstrably harms users. Therefore, some form of accountability is necessary.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Baglan agree with, despite opposing regulation generally?",
+      "opts": [
+        "Banning platforms",
+        "Full government control",
+        "Transparency requirements are reasonable",
+        "No regulation at all"
+      ],
+      "correct": "Transparency requirements are reasonable",
+      "hint": "\"Nevertheless, I agree that transparency requirements are reasonable.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Furthermore, mistakes helped me understand more deeply.\" \"Furthermore\" signals:",
+      "opts": [
+        "Contrast",
+        "Addition",
+        "Result",
+        "Example"
+      ],
+      "correct": "Addition",
+      "hint": "\"Furthermore\" adds another benefit — beyond just launching the app. ADDITION marker. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "\"As a result, communities are still suffering.\" \"As a result\" signals:",
+      "opts": [
+        "Addition",
+        "Contrast",
+        "Cause-effect consequence",
+        "Example"
+      ],
+      "correct": "Cause-effect consequence",
+      "hint": "\"As a result\" = consequence. Slow remediation → communities still suffering. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"By the time I launched, I ___ the architecture twice.\" Choose.",
+      "opts": [
+        "rewritten",
+        "had rewritten",
+        "have rewritten",
+        "was rewriting"
+      ],
+      "correct": "had rewritten",
+      "hint": "\"By the time + PS → Past Perfect.\" \"I HAD REWRITTEN the architecture twice.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ the attention, remediation has been slow.\" Choose.",
+      "opts": [
+        "Despite",
+        "Although",
+        "However",
+        "Nevertheless"
+      ],
+      "correct": "Despite",
+      "hint": "\"DESPITE the attention\" — noun (no verb) → \"despite.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A monitoring programme ___ (establish) near the sea.\" (ongoing now)",
+      "opts": [
+        "was established",
+        "has been established",
+        "is being established",
+        "will establish"
+      ],
+      "correct": "is being established",
+      "hint": "Ongoing now → Present Continuous Passive: \"IS BEING ESTABLISHED.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (study) ecology independently for two years.\" (up to now)",
+      "correct": "has been studying",
+      "hint": "Duration up to now → Present Perfect Continuous: \"HAS BEEN STUDYING.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Therefore, accountability is necessary.\" \"Therefore\" signals:",
+      "opts": [
+        "Addition",
+        "Contrast",
+        "Logical consequence",
+        "Example"
+      ],
+      "correct": "Logical consequence",
+      "hint": "\"Therefore\" = A proves/leads to B. Logical consequence. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ I believe in free expression, I also believe in accountability.\" Choose.",
+      "opts": [
+        "Despite",
+        "Although",
+        "Therefore",
+        "Furthermore"
+      ],
+      "correct": "Although",
+      "hint": "\"ALTHOUGH I believe...\" — full clause (subject + verb). Contrast/concession. ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She intend to apply for journalism.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Intend\" should be \"intends\" — she/he/it needs -s",
+        "\"Journalism\" should be \"a journalism\"",
+        "\"Apply\" needs \"to\""
+      ],
+      "correct": "\"Intend\" should be \"intends\" — she/he/it needs -s",
+      "hint": "✅ \"She INTENDS to apply.\" — third person singular needs -s. Modal-like verbs still conjugate!"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Social media regulation ___ (discuss) widely now.\" (ongoing passive)",
+      "opts": [
+        "was discussed",
+        "is discussed",
+        "is being discussed",
+        "has been discussed"
+      ],
+      "correct": "is being discussed",
+      "hint": "\"IS BEING DISCUSSED\" = Present Continuous Passive. Ongoing now. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I intend to focus on remediation.\" \"Remediation\" means:",
+      "opts": [
+        "Pollution",
+        "Cleaning up environmental damage",
+        "Measurement",
+        "Research"
+      ],
+      "correct": "Cleaning up environmental damage",
+      "hint": "\"remediation\" = the process of cleaning up and restoring contaminated land or water."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Accountability is necessary.\" \"Accountability\" means:",
+      "opts": [
+        "Secrecy",
+        "Speed",
+        "Being responsible and answerable for actions",
+        "Independence"
+      ],
+      "correct": "Being responsible and answerable for actions",
+      "hint": "\"accountability\" = the obligation to explain your actions and be responsible for outcomes."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Transparency requirements are reasonable.\" \"Transparency\" means:",
+      "opts": [
+        "Complexity",
+        "Speed",
+        "Openness — making processes visible and understandable",
+        "Secrecy"
+      ],
+      "correct": "Openness — making processes visible and understandable",
+      "hint": "\"transparency\" = openness; making information or processes clear and visible to others."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Bridge the gap.\" What does this phrase mean?",
+      "opts": [
+        "Build a bridge",
+        "Increase a difference",
+        "Connect two different areas; reduce a gap",
+        "Ignore differences"
+      ],
+      "correct": "Connect two different areas; reduce a gap",
+      "hint": "\"bridge the gap\" = to connect two things that are separated; to reduce the distance or difference between them."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The results were sobering.\" \"Sobering\" means:",
+      "opts": [
+        "Exciting and motivating",
+        "Making you think seriously about a difficult truth",
+        "Very positive",
+        "Surprising and funny"
+      ],
+      "correct": "Making you think seriously about a difficult truth",
+      "hint": "\"sobering\" = causes you to think seriously; a sobering experience is humbling and makes you face a difficult reality."
+    }
+  ]
+}

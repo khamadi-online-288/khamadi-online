@@ -1,0 +1,265 @@
+{
+  "id": "l9-3",
+  "moduleNum": 9,
+  "lessonNum": 3,
+  "moduleTitle": "Right now",
+  "title": "Live from the WKU café",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Aigerim",
+      "text": "Malika! Where are you right now? I can see a lot of people!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "I'm sitting in the WKU café! I'm having a coffee between lectures.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "Who is sitting next to you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "Two boys from the Engineering faculty. They're arguing about something!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "Ha! What are they arguing about?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "I think it's a maths problem. One of them is drawing something on paper.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "Is anyone else working near you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "Yes! A girl near the window is typing on her laptop really fast. She's wearing headphones and isn't looking at anyone.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "That sounds like me when I'm studying. What is the barista doing?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "He's making a cappuccino. It smells absolutely amazing. I think I want another one!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "Stop it! Now — what are YOU doing, apart from watching everyone else?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "I'm reading my Psychology notes. And drinking coffee. And now I'm talking to you!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "You're doing too many things at once! What am I doing right now, by the way?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "I don't know — what ARE you doing?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aigerim",
+      "text": "I'm sitting in the library. I'm listening to you... and pretending to study.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Malika",
+      "text": "Ha! We're both being terrible students today!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "argue",
+      "emoji": "💬",
+      "opts": [
+        "соглашаться",
+        "спорить",
+        "молчать",
+        "смеяться"
+      ],
+      "correct": "спорить"
+    },
+    {
+      "id": "p2",
+      "word": "headphones",
+      "emoji": "🎧",
+      "opts": [
+        "очки",
+        "шапка",
+        "наушники",
+        "шарф"
+      ],
+      "correct": "наушники"
+    },
+    {
+      "id": "p3",
+      "word": "barista",
+      "emoji": "☕",
+      "opts": [
+        "учитель",
+        "повар",
+        "бариста (тот кто готовит кофе)",
+        "кассир"
+      ],
+      "correct": "бариста (тот кто готовит кофе)"
+    },
+    {
+      "id": "p4",
+      "word": "apart from",
+      "emoji": "➕",
+      "opts": [
+        "вместо",
+        "кроме / помимо",
+        "после",
+        "перед"
+      ],
+      "correct": "кроме / помимо"
+    },
+    {
+      "id": "p5",
+      "word": "pretend",
+      "emoji": "🎭",
+      "opts": [
+        "стараться",
+        "помнить",
+        "притворяться / делать вид",
+        "соглашаться"
+      ],
+      "correct": "притворяться / делать вид"
+    },
+    {
+      "id": "p6",
+      "word": "absolutely",
+      "emoji": "💯",
+      "opts": [
+        "немного",
+        "иногда",
+        "абсолютно / совершенно",
+        "почти"
+      ],
+      "correct": "абсолютно / совершенно"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Malika is in the WKU library when she video-calls Aigerim.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Two boys from the Engineering faculty are arguing near Malika.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "The girl near the window is wearing headphones and typing fast.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The barista is making a cappuccino.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Aigerim studies at WKU in Uralsk.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Aigerim is studying seriously in the library during the call.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "malika",
+      "name": "Malika",
+      "city": "Shymkent",
+      "emoji": "☕",
+      "color": "#7C3AED",
+      "bg": "#EDE9FE",
+      "role": "Psychology student, WKU"
+    },
+    {
+      "id": "aigerim",
+      "name": "Aigerim",
+      "city": "Almaty",
+      "emoji": "📚",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "Student at KazNU, Almaty"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Is sitting in the WKU café and having coffee between lectures.",
+      "correctCharId": "malika"
+    },
+    {
+      "id": "s2",
+      "text": "Spots two boys from Engineering arguing about a maths problem.",
+      "correctCharId": "malika"
+    },
+    {
+      "id": "s3",
+      "text": "Asks what the barista is doing.",
+      "correctCharId": "aigerim"
+    },
+    {
+      "id": "s4",
+      "text": "Is reading Psychology notes while talking and drinking coffee.",
+      "correctCharId": "malika"
+    },
+    {
+      "id": "s5",
+      "text": "Says she is listening to the call and pretending to study.",
+      "correctCharId": "aigerim"
+    },
+    {
+      "id": "s6",
+      "text": "Describes a girl near the window typing fast with headphones on.",
+      "correctCharId": "malika"
+    }
+  ]
+}

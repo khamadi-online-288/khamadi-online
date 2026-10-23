@@ -1,0 +1,521 @@
+{
+  "id": "l78-g1",
+  "moduleNum": 20,
+  "lessonNum": 5,
+  "moduleTitle": "Law, Rights & Justice",
+  "title": "Grammar: Modal Verbs for Obligation, Permission, and Prohibition",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Модальные глаголы в юридическом и формальном письме:\n\nОБЯЗАТЕЛЬСТВО / ТРЕБОВАНИЕ:\nshall → юридически обязателен: \"The tenant shall pay rent by the 1st.\"\nmust → строгое требование: \"All documents must be submitted.\"\n\nРАЗРЕШЕНИЕ:\nmay → официальное разрешение: \"The committee may adjourn the meeting.\"\ncan → менее формально: \"You can request an extension.\"\n\nРЕКОМЕНДАЦИЯ:\nshould → рекомендуется: \"Applicants should submit all required documents.\"\nought to → менее частый формальный вариант\n\n⚠️ Юридическое \"shall\" ≠ обычное \"will\":\n\"I shall be there.\" (формальное обещание)\n\"All parties shall comply.\" (юридическое обязательство)",
+  "grammarTable": [
+    {
+      "subject": "must",
+      "verb": "strong obligation / prohibition",
+      "short": "it is required / it is forbidden",
+      "example": "\"All defendants must be informed of the charges against them.\" / \"Courts must not be politically influenced.\""
+    },
+    {
+      "subject": "have to / need to",
+      "verb": "external necessity",
+      "short": "it is necessary (external rule)",
+      "example": "\"Witnesses have to tell the truth under oath.\" / \"Lawyers need to register with the bar.\""
+    },
+    {
+      "subject": "should / ought to",
+      "verb": "recommendation / moral duty",
+      "short": "it is advisable / morally right",
+      "example": "\"Judges should declare conflicts of interest.\" / \"Citizens ought to be aware of their rights.\""
+    },
+    {
+      "subject": "may",
+      "verb": "formal permission / prohibition",
+      "short": "is permitted / is not permitted",
+      "example": "\"The accused may remain silent.\" / \"Evidence may not be withheld from the defence.\""
+    },
+    {
+      "subject": "can / cannot",
+      "verb": "ability-based permission / prohibition",
+      "short": "is able to / is not able to (legally)",
+      "example": "\"Anyone can access the court records.\" / \"You cannot be convicted without evidence.\""
+    },
+    {
+      "subject": "be allowed to / be permitted to",
+      "verb": "passive permission",
+      "short": "is granted permission",
+      "example": "\"Defendants are allowed to consult a lawyer.\" / \"Juveniles are not permitted to appear in adult courts.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Must vs Have To: Strong vs External Obligation",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Must = internal/strong obligation (often moral or legal principle)",
+          "example": "\"Governments must protect their citizens' rights.\" (a moral/legal imperative)"
+        },
+        {
+          "form": "Have to = external obligation (imposed by rules or authority)",
+          "example": "\"Lawyers have to pay annual registration fees.\" (an external rule)"
+        },
+        {
+          "form": "Must not = strong prohibition (a legal or moral ban)",
+          "example": "\"Judges must not accept gifts from parties in a case.\" (categorically forbidden)"
+        },
+        {
+          "form": "Don't have to = no obligation (but it is permitted)",
+          "example": "\"Suspects don't have to answer police questions.\" (they have the right to remain silent)"
+        }
+      ]
+    },
+    {
+      "title": "May, Can, Be Allowed To: Permission in Formal Contexts",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "May (formal permission)",
+          "example": "\"Any citizen may request access to public court records.\""
+        },
+        {
+          "form": "May not (formal prohibition)",
+          "example": "\"The jury may not communicate with either party during the trial.\""
+        },
+        {
+          "form": "Be allowed to (less formal permission)",
+          "example": "\"Defendants are allowed to have a lawyer present during questioning.\""
+        },
+        {
+          "form": "Cannot (strong prohibition — not possible legally)",
+          "example": "\"A person cannot be tried twice for the same crime.\" (legal principle)"
+        }
+      ]
+    },
+    {
+      "title": "Should and Ought To: Moral and Professional Obligation",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Should = recommendation or expected behaviour",
+          "example": "\"Witnesses should answer questions truthfully and completely.\""
+        },
+        {
+          "form": "Ought to = moral duty (slightly more formal than should)",
+          "example": "\"Prosecutors ought to disclose all relevant evidence to the defence.\""
+        },
+        {
+          "form": "Should have + pp = past obligation not fulfilled (regret/criticism)",
+          "example": "\"The judge should have recused himself — he had a conflict of interest.\""
+        },
+        {
+          "form": "Ought to have + pp = same as should have (slightly more formal)",
+          "example": "\"The evidence ought to have been disclosed earlier.\""
+        }
+      ]
+    },
+    {
+      "title": "Formal Legal Language: Shall, Be Required To, Be Obliged To",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Shall (in legal documents) = mandatory obligation (formal written law)",
+          "example": "\"All parties shall be notified of the hearing date.\" (in a statute or contract)"
+        },
+        {
+          "form": "Be required to + infinitive = external obligation",
+          "example": "\"Employers are required to provide written contracts.\" / \"States are required to provide legal aid.\""
+        },
+        {
+          "form": "Be obliged to + infinitive = obligated to do",
+          "example": "\"Lawyers are obliged to maintain client confidentiality.\" (professional duty)"
+        },
+        {
+          "form": "Be prohibited from + gerund = cannot do this",
+          "example": "\"Police are prohibited from questioning suspects without a lawyer present.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Modal Verbs in Legal Contexts",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Suspects must not answer questions. (= they are forbidden)",
+          "example": "✅ Suspects don't have to answer questions. (= they have the right to remain silent, but may speak if they wish)"
+        },
+        {
+          "form": "❌ The judge should recuse himself last week.",
+          "example": "✅ The judge should have recused himself last week. (past unfulfilled obligation = should + have + pp)"
+        },
+        {
+          "form": "❌ Lawyers are allowed from revealing client information.",
+          "example": "✅ Lawyers are prohibited from revealing client information. (prohibited from + gerund)"
+        },
+        {
+          "form": "❌ All citizens can to vote.",
+          "example": "✅ All citizens can vote. / All citizens are allowed to vote. (no \"to\" after \"can\")"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct modal.",
+      "text": "\"The accused ___ be presumed innocent until proven guilty.\" (strong legal principle)",
+      "opts": [
+        "should",
+        "must",
+        "may",
+        "can"
+      ],
+      "correct": "must",
+      "hint": "\"Must be\" = strong legal requirement/principle"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct modal for formal permission.",
+      "text": "\"The defendant ___ remain silent when questioned by police.\"",
+      "opts": [
+        "must",
+        "should",
+        "may",
+        "has to"
+      ],
+      "correct": "may",
+      "hint": "\"May\" = formal permission (the right to)"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct modal.",
+      "text": "\"Police ___ (= are forbidden from) question a suspect without a lawyer present.\" (prohibition)",
+      "correct": "are prohibited from",
+      "hint": "\"Are prohibited from + gerund\" = formal prohibition"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct modal for no obligation.",
+      "text": "\"Suspects ___ answer police questions — they have the right to remain silent.\"",
+      "opts": [
+        "must not",
+        "don't have to",
+        "may not",
+        "cannot"
+      ],
+      "correct": "don't have to",
+      "hint": "\"Don't have to\" = no obligation (but they may if they choose)"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"Lawyers ___ (= are obligated to) maintain client confidentiality at all times.\" (professional duty)",
+      "correct": "are obliged to / are required to",
+      "hint": "\"Are obliged/required to + infinitive\" = professional/legal obligation"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct modal for past unfulfilled obligation.",
+      "text": "\"The judge ___ recused himself — he had a clear conflict of interest.\"",
+      "opts": [
+        "must recuse",
+        "should have recused",
+        "had to recuse",
+        "must have recused"
+      ],
+      "correct": "should have recused",
+      "hint": "\"Should have + pp\" = past obligation not fulfilled (criticism/regret)"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with a formal legal modal.",
+      "text": "\"All parties ___ (= are required in law) submit written evidence before the hearing date.\" (legal document style)",
+      "correct": "shall",
+      "hint": "\"Shall\" in legal documents = mandatory obligation (written law)"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct modal for strong prohibition.",
+      "text": "\"Jurors ___ discuss the case with anyone outside the court during the trial.\"",
+      "opts": [
+        "don't have to",
+        "should not",
+        "must not",
+        "may not prefer to"
+      ],
+      "correct": "must not",
+      "hint": "\"Must not\" = strong prohibition — it is categorically forbidden"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct expression.",
+      "text": "\"Citizens ___ (= have the right to) vote in all public elections once they reach legal age.\"",
+      "correct": "are entitled to / are allowed to",
+      "hint": "\"Are entitled to / allowed to + infinitive\" = have the right to"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which expresses a recommendation, not a strong obligation?",
+      "text": "",
+      "opts": [
+        "\"Lawyers must disclose conflicts of interest.\"",
+        "\"Courts must not interfere with jury deliberations.\"",
+        "\"Prosecutors should disclose all relevant evidence.\"",
+        "\"States shall provide legal aid to those who cannot afford it.\""
+      ],
+      "correct": "\"Prosecutors should disclose all relevant evidence.\"",
+      "hint": "\"Should\" = recommendation/professional expectation — softer than \"must\""
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Choose the correct form.",
+      "text": "\"Evidence ___ (= is forbidden from being) withheld from the defence.\" (legal prohibition — passive)",
+      "correct": "may not be / must not be",
+      "hint": "\"May not be withheld\" or \"must not be withheld\" = formal passive prohibition"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"The witness ___ lie under oath — perjury is a serious criminal offence.\"",
+      "opts": [
+        "should not",
+        "don't have to",
+        "must not",
+        "may not prefer to"
+      ],
+      "correct": "must not",
+      "hint": "\"Must not\" = strong prohibition",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Rewrite using \"be prohibited from.\"",
+      "text": "\"Lawyers cannot reveal their clients' communications to the police.\" → Lawyers ___ revealing their clients' communications to the police.",
+      "correct": "are prohibited from",
+      "hint": "\"Are prohibited from + gerund\" = formal prohibition"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct modal for a past obligation that was not fulfilled.",
+      "text": "\"The evidence ___ submitted earlier — the delay caused serious harm to the claimant.\"",
+      "opts": [
+        "must have been submitted",
+        "should have been submitted",
+        "had to be submitted",
+        "was supposed to submit"
+      ],
+      "correct": "should have been submitted",
+      "hint": "\"Should have been + pp\" = past obligation not fulfilled (passive)",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete using \"shall\" (formal legal document style).",
+      "text": "\"The court ___ notify both parties of the hearing date at least 14 days in advance.\"",
+      "correct": "shall",
+      "hint": "\"Shall\" in legal documents = mandatory obligation",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"Defendants are allowed from speaking to their lawyer before questioning.\"",
+      "opts": [
+        "No error",
+        "\"From\" should be \"to\"",
+        "\"Questioning\" should be \"question\"",
+        "\"Are allowed\" should be \"must\""
+      ],
+      "correct": "\"From\" should be \"to\"",
+      "hint": "\"Are allowed TO + infinitive\" (not \"from\"); \"prohibited FROM + gerund\""
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"All suspects ___ be treated equally under the law — regardless of social status.\" (legal principle)",
+      "opts": [
+        "should",
+        "must",
+        "may",
+        "ought to"
+      ],
+      "correct": "must",
+      "hint": "\"Must\" = strong legal obligation/principle",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The accused ___ (= has the legal right to) know the specific charges against them.\"",
+      "correct": "is entitled to / is allowed to",
+      "hint": "\"Is entitled to + infinitive\" = has the legal right to",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Suspects ___ answer questions — they have the right to remain silent.\" (no obligation)",
+      "opts": [
+        "must not",
+        "cannot",
+        "don't have to",
+        "may not"
+      ],
+      "correct": "don't have to",
+      "hint": "\"Don't have to\" = no obligation, they may speak if they wish",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The judge ___ accepted gifts from either party — it is a fundamental breach of judicial ethics.\"",
+      "opts": [
+        "must not",
+        "should not have",
+        "should not",
+        "must not have"
+      ],
+      "correct": "should not have",
+      "hint": "\"Should not have + pp\" = past action that was done but shouldn't have been",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Police ___ (= are formally forbidden from) using excessive force during arrest.\" (formal passive prohibition)",
+      "correct": "are prohibited from using / must not use",
+      "hint": "\"Are prohibited from + gerund\" or \"must not use\" = formal prohibition",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Must not\" and \"don't have to\" have the same meaning in legal English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Must not\" = forbidden; \"don't have to\" = no obligation but permitted",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In the contract: All parties ___ submit claims within 30 days of the incident.\" (legal document style)",
+      "correct": "shall",
+      "hint": "\"Shall\" in legal documents = formal mandatory obligation",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Evidence ___ not be withheld from the defence.\" (formal legal prohibition — passive)",
+      "opts": [
+        "should",
+        "may",
+        "can",
+        "will"
+      ],
+      "correct": "may",
+      "hint": "\"May not be withheld\" = formal legal prohibition (passive)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Lawyers ___ (= are legally required to) report suspicions of money laundering to the authorities.\"",
+      "correct": "are required to / are obliged to",
+      "hint": "\"Are required to / obliged to + infinitive\" = legal/professional obligation",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Prosecutors ___ disclosed the evidence earlier — the late disclosure was a serious procedural error.\"",
+      "opts": [
+        "must have",
+        "should have",
+        "had to have",
+        "ought to"
+      ],
+      "correct": "should have",
+      "hint": "\"Should have + pp\" = past obligation not fulfilled",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Citizens ___ (= have the right to) appeal against decisions made by lower courts.\"",
+      "correct": "are entitled to / are allowed to",
+      "hint": "\"Are entitled to\" = have the legal right to",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence expresses a recommendation, not a legal requirement?",
+      "opts": [
+        "\"Lawyers must maintain client confidentiality.\"",
+        "\"Witnesses must not lie under oath.\"",
+        "\"Judges should declare any conflicts of interest.\"",
+        "\"States shall provide legal aid.\""
+      ],
+      "correct": "\"Judges should declare any conflicts of interest.\"",
+      "hint": "\"Should\" = professional expectation/recommendation — softer than \"must\"",
+      "points": 2
+    }
+  ]
+}

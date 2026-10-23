@@ -1,0 +1,378 @@
+{
+  "id": "l59-5",
+  "moduleNum": 1,
+  "lessonNum": 9,
+  "moduleTitle": "Complex Conversations",
+  "type": "test",
+  "title": "Module 1 Final Test",
+  "xp": 120,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What surprised Amir most about moving to university?",
+      "opts": [
+        "Complex academic content",
+        "Non-academic challenges: washing machines, landlords, managing alone",
+        "English language difficulty",
+        "The distance from Aktobe"
+      ],
+      "correct": "Non-academic challenges: washing machines, landlords, managing alone",
+      "hint": "\"I couldn't read the washing machine instructions. I didn't know how to argue politely with a landlord.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Amir's English improve to fluency?",
+      "opts": [
+        "By following an intensive programme",
+        "Through necessity in real situations — fixing bugs, reading documentation",
+        "His professor gave special support",
+        "By studying grammar rules intensively"
+      ],
+      "correct": "Through necessity in real situations — fixing bugs, reading documentation",
+      "hint": "\"I was trying to fix a bug or understand an error message. The language was just the tool.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the second text, what do university employers value most?",
+      "opts": [
+        "Subject-specific knowledge",
+        "Grades and certifications",
+        "Communication, critical thinking, adaptability, teamwork",
+        "Speed and technical skill"
+      ],
+      "correct": "Communication, critical thinking, adaptability, teamwork",
+      "hint": "\"Communication skills, critical thinking, adaptability, and the ability to work in teams.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The second text says subject knowledge is not important at all.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"This does not mean that subject knowledge is unimportant.\" — it's necessary, just not sufficient."
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Both languages are ___ , but together they're enough. (Amir)",
+      "correct": "incomplete",
+      "hint": "\"Both languages are INCOMPLETE. But together they're enough.\" — final sentence of Reading 1."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Daniyar in the dialogue says university has made him more ___.",
+      "opts": [
+        "confident",
+        "certain",
+        "uncertain — and that feels like progress",
+        "informed about law"
+      ],
+      "correct": "uncertain — and that feels like progress",
+      "hint": "\"University has made me more uncertain. And somehow that feels like progress.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir mean by \"the language has become part of how you think\"?",
+      "opts": [
+        "He memorised all grammar rules",
+        "He thinks directly in English without translating",
+        "His vocabulary is now larger",
+        "He passed an English exam"
+      ],
+      "correct": "He thinks directly in English without translating",
+      "hint": "\"I noticed I had been writing... without once thinking about what the Kazakh would have been.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Zhibek been doing since February?",
+      "opts": [
+        "Coaching volleyball",
+        "Studying sports science in Almaty",
+        "Doing data analytics for the volleyball team",
+        "Preparing for her final exams"
+      ],
+      "correct": "Doing data analytics for the volleyball team",
+      "hint": "\"I've been doing data analysis for the volleyball team since February.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Rustam been secretly doing for himself?",
+      "opts": [
+        "Studying extra economics",
+        "Planning a business",
+        "Writing essays",
+        "Learning data science"
+      ],
+      "correct": "Writing essays",
+      "hint": "\"I've been writing. Essays, mainly. Not for university — just for myself.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Baglan's main argument in the debate?",
+      "opts": [
+        "Online learning is worse",
+        "University costs have risen while value hasn't kept pace with job market",
+        "Graduates are well-prepared",
+        "Credentials are highly valued"
+      ],
+      "correct": "University costs have risen while value hasn't kept pace with job market",
+      "hint": "\"The cost has been rising... students are finding credentials don't guarantee employment.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aliya say online learning has NOT replicated?",
+      "opts": [
+        "Free access",
+        "Credentials",
+        "Sustained intellectual community",
+        "Convenience"
+      ],
+      "correct": "Sustained intellectual community",
+      "hint": "\"University has been providing something that no online course has replicated: sustained intellectual community.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aliya argues universities should be abandoned in favour of better online alternatives.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The solution isn't to abandon university — it's to fund it better.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila says doing something without being ___ to is usually what matters.",
+      "correct": "told",
+      "hint": "\"Something you've been doing without being TOLD to. That's usually the thing that matters.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was studying when he called.\" — \"was studying\" is Past Continuous because:",
+      "opts": [
+        "It's more polite",
+        "\"Study\" is irregular",
+        "It was an ongoing background action interrupted by \"called\"",
+        "It's a habit"
+      ],
+      "correct": "It was an ongoing background action interrupted by \"called\"",
+      "hint": "Past Continuous = ongoing background interrupted by Past Simple. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"When I arrived, she had already left.\" — \"had left\" is Past Perfect because:",
+      "opts": [
+        "More formal",
+        "Her leaving happened BEFORE my arrival",
+        "I arrived before she left",
+        "\"Already\" requires PP"
+      ],
+      "correct": "Her leaving happened BEFORE my arrival",
+      "hint": "Past Perfect = the earlier of two past events. She left FIRST, then I arrived. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (study) for three hours when he arrived.\" (duration before past moment)",
+      "correct": "had been studying",
+      "hint": "Duration before a past moment = Past Perfect Continuous. \"She HAD BEEN STUDYING for three hours when he arrived.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has been writing essays for two years.\" — This uses PPC because:",
+      "opts": [
+        "She finished two years ago",
+        "She writes habitually",
+        "The process/duration up to now matters",
+        "She will write for two more years"
+      ],
+      "correct": "The process/duration up to now matters",
+      "hint": "PPC = ongoing process/duration from past to now. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has written 5 essays this semester.\" — Why PPS not PPC?",
+      "opts": [
+        "She hasn't finished",
+        "\"Write\" is irregular",
+        "Counting completions requires PPS — PPC cannot count",
+        "\"This semester\" requires PPS"
+      ],
+      "correct": "Counting completions requires PPS — PPC cannot count",
+      "hint": "Counting → always PPS. \"has WRITTEN 5 essays.\" NOT \"has been writing 5 essays.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ (know) her for ten years.\" — Correct form:",
+      "opts": [
+        "am knowing",
+        "have been knowing",
+        "have known",
+        "had known"
+      ],
+      "correct": "have known",
+      "hint": "\"know\" = stative verb → PPS only. \"I HAVE KNOWN her for ten years.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll get the door.\" — \"will\" here expresses:",
+      "opts": [
+        "A pre-made plan",
+        "A spontaneous decision",
+        "A confirmed arrangement",
+        "An official schedule"
+      ],
+      "correct": "A spontaneous decision",
+      "hint": "\"will\" for spontaneous decisions/offers at the moment of speaking. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The conference starts at 9 a.m.\" — Present Simple for future because:",
+      "opts": [
+        "All future events use PS",
+        "The speaker is certain",
+        "It's an official fixed schedule/timetable",
+        "It's a personal plan"
+      ],
+      "correct": "It's an official fixed schedule/timetable",
+      "hint": "Present Simple = fixed schedules/timetables. ✅"
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Look at those clouds — it ___ (rain)!\" (evidence-based prediction)",
+      "correct": "is going to rain",
+      "hint": "Visible evidence → prediction = GOING TO. \"It IS GOING TO RAIN!\" ✅"
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He adapted to English through necessity.\" \"Adapted\" means:",
+      "opts": [
+        "Memorised",
+        "Gave up",
+        "Changed to suit a new situation",
+        "Translated"
+      ],
+      "correct": "Changed to suit a new situation",
+      "hint": "\"adapt\" = to change and adjust to suit a new situation."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Subject knowledge is necessary, not sufficient.\" \"Sufficient\" means:",
+      "opts": [
+        "Required",
+        "Enough on its own",
+        "Important",
+        "Difficult"
+      ],
+      "correct": "Enough on its own",
+      "hint": "\"sufficient\" = enough for the purpose; adequate. \"Not sufficient\" = not enough on its own."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She simultaneously managed three tasks.\" \"Simultaneously\" means:",
+      "opts": [
+        "One after another",
+        "Very quickly",
+        "At the same time",
+        "With difficulty"
+      ],
+      "correct": "At the same time",
+      "hint": "\"simultaneously\" = at the same time as other things."
+    }
+  ]
+}

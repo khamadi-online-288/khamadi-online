@@ -1,0 +1,301 @@
+{
+  "id": "l10-4",
+  "moduleNum": 10,
+  "lessonNum": 4,
+  "moduleTitle": "Yesterday",
+  "title": "was / were: Affirmative",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "was / were — прошедшее время глагола \"to be\"",
+  "grammarNote": "\"Was\" и \"were\" — это формы глагола \"to be\" (быть) в ПРОШЕДШЕМ времени.\n\nВ настоящем времени мы говорим:\n\"I AM a student.\" · \"She IS from Taraz.\" · \"They ARE happy.\"\n\nВ прошедшем времени (вчера, раньше, в прошлом):\n\"I WAS a student.\" · \"She WAS from Taraz.\" · \"They WERE happy.\"\n\n📐 Главное правило:\n→ WAS → I / He / She / It (единственное число)\n→ WERE → You / We / They (множественное число + you)\n\n💡 Подсказка:\n\"was\" — это прошедшее от \"is\" (he IS → he WAS)\n\"were\" — это прошедшее от \"are\" (they ARE → they WERE)\n\nПримеры из рассказа Daniyal:\n\"Yesterday WAS Tuesday.\" — Вчера было вторником.\n\"The weather WAS sunny and warm.\" — Погода была солнечной и тёплой.\n\"The lecture WAS on Constitutional Law.\" — Лекция была по конституционному праву.\n\"My team WAS the winner!\" — Моя команда была победителем!\n\nПримеры из рассказа Ainur:\n\"My alarm WAS broken.\" — Мой будильник был сломан.\n\"The cafeteria WAS crowded.\" — Кафетерий был переполнен.\n\"My friends WERE busy.\" — Мои друзья были заняты.\n\"The questions WERE very difficult.\" — Вопросы были очень сложными.",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "was",
+      "short": "I was",
+      "example": "I was in the library for two hours after the lecture."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "was",
+      "short": "He/She was",
+      "example": "She was late to her Anatomy lecture. · The soup was cold."
+    },
+    {
+      "subject": "You",
+      "verb": "were",
+      "short": "You were",
+      "example": "You were very brave to keep going after such a hard day!"
+    },
+    {
+      "subject": "We",
+      "verb": "were",
+      "short": "We were",
+      "example": "We were all relaxed and happy at lunch together."
+    },
+    {
+      "subject": "They",
+      "verb": "were",
+      "short": "They were",
+      "example": "They were excellent — especially the Economics faculty team."
+    },
+    {
+      "subject": "There was",
+      "verb": "—",
+      "short": "+ singular",
+      "example": "There was a strong wind outside. · There was an unexpected quiz."
+    },
+    {
+      "subject": "There were",
+      "verb": "—",
+      "short": "+ plural",
+      "example": "There were no empty tables. · There were fifty students in the room."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "WAS — I / He / She / It (единственное число)",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "I was...",
+          "example": "\"I was in the library for two hours.\" · \"I was tired but satisfied.\" — Daniyal."
+        },
+        {
+          "form": "He was...",
+          "example": "\"Dr. Akhanov was outstanding yesterday.\" · \"Rustem was in a good mood.\" — Daniyal."
+        },
+        {
+          "form": "She was...",
+          "example": "\"The professor was not pleased.\" · \"Gulnara was kind and caring.\" — Ainur."
+        },
+        {
+          "form": "It was...",
+          "example": "\"It was a wonderful day!\" · \"The weather was sunny.\" · \"The soup was cold.\""
+        },
+        {
+          "form": "Краткая форма — нет!",
+          "example": "⚠️ У \"was\" НЕТ краткой формы в утверждении! \"I was\" — нельзя сократить до \"I's\"."
+        },
+        {
+          "form": "WAS → is/am в прошлом",
+          "example": "\"She IS a professor.\" → \"She WAS a professor.\" · \"It IS cold.\" → \"It WAS cold.\""
+        }
+      ]
+    },
+    {
+      "title": "WERE — You / We / They (множественное число)",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "You were...",
+          "example": "\"You were very brave to keep studying!\" · \"You were late, weren't you?\""
+        },
+        {
+          "form": "We were...",
+          "example": "\"We were all relaxed and happy at lunch.\" · \"We were the winners!\" — Daniyal."
+        },
+        {
+          "form": "They were...",
+          "example": "\"They were all excellent participants.\" · \"My friends were busy.\" — Ainur."
+        },
+        {
+          "form": "WERE → are в прошлом",
+          "example": "\"They ARE busy.\" → \"They WERE busy.\" · \"We ARE happy.\" → \"We WERE happy.\""
+        },
+        {
+          "form": "⚠️ YOU всегда + WERE!",
+          "example": "❌ \"You was nervous.\" → ✅ \"You were nervous.\" (даже если один человек — YOU = WERE!)"
+        },
+        {
+          "form": "Краткая форма — нет!",
+          "example": "⚠️ У \"were\" НЕТ краткой формы в утверждении! \"They were\" — нельзя сократить."
+        }
+      ]
+    },
+    {
+      "title": "There was / There were — в прошедшем времени",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "There WAS + ед.ч. (прошлое)",
+          "example": "\"There was a strong wind yesterday.\" · \"There was an unexpected quiz in the lecture.\""
+        },
+        {
+          "form": "There WERE + мн.ч. (прошлое)",
+          "example": "\"There were no empty tables in the cafeteria.\" · \"There were fifty students in the hall.\""
+        },
+        {
+          "form": "Сравни с настоящим временем:",
+          "example": "\"There IS a queue now.\" → \"There WAS a queue yesterday.\" (длинная!)"
+        },
+        {
+          "form": "There was/were + some:",
+          "example": "\"There were some students sleeping in the library.\" · \"There was some bread left.\""
+        },
+        {
+          "form": "Contrast: yesterday vs. today",
+          "example": "\"Today there IS sun. Yesterday there WAS rain and wind.\" — Ainur describes her Monday."
+        },
+        {
+          "form": "⚠️ Типичная ошибка:",
+          "example": "❌ \"There were a quiz.\" → ✅ \"There WAS a quiz.\" (quiz = один = was, не were!)"
+        }
+      ]
+    },
+    {
+      "title": "Слова-сигналы прошедшего времени",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "yesterday",
+          "example": "\"Yesterday WAS Tuesday.\" · \"Yesterday the weather WAS beautiful.\" — Daniyal."
+        },
+        {
+          "form": "last + [day/week/year]",
+          "example": "\"Last Monday WAS a disaster.\" · \"Last semester WAS very difficult for Ainur.\""
+        },
+        {
+          "form": "in + [year/month]",
+          "example": "\"In October, the weather WAS cold.\" · \"In my first year, the exams WERE very hard.\""
+        },
+        {
+          "form": "ago",
+          "example": "\"Two days ago, I WAS at the debate club.\" · \"An hour ago, she WAS in the cafeteria.\""
+        },
+        {
+          "form": "on + [day]",
+          "example": "\"On Monday, the cafeteria WAS crowded.\" · \"On Tuesday, the beshbarmak WAS delicious.\""
+        },
+        {
+          "form": "that day / that morning",
+          "example": "\"That morning WAS a disaster.\" · \"That day WERE the hardest moments of the semester.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Два правила — и was/were всегда правильно:\n\n① I / He / She / It → WAS (единственное число)\n   \"I WAS in the library.\" · \"She WAS late.\" · \"The weather WAS sunny.\"\n\n② You / We / They → WERE (множественное число)\n   \"We WERE happy.\" · \"They WERE busy.\" · \"You WERE brave!\"\n\n⚠️ Внимание на YOU:\n   Даже если ты говоришь об одном человеке — YOU = WERE!\n   ❌ \"You was nervous.\" → ✅ \"You WERE nervous.\"\n\n🔑 Слова-сигналы прошедшего времени:\n   yesterday · last week · last Monday · two days ago · on Tuesday · in October\n   Если в предложении есть эти слова → всегда was/were, НЕ am/is/are!\n\n💡 Запомни через Daniyal и Ainur:\n   \"Yesterday WAS Tuesday. The weather WAS sunny.\" (Daniyal)\n   \"My alarm WAS broken. My friends WERE busy.\" (Ainur)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Yesterday ___ Tuesday — a perfect day for Daniyal.",
+      "opts": [
+        "is",
+        "are",
+        "am",
+        "was"
+      ],
+      "correct": "was",
+      "hint": "\"Yesterday\" = past. It = singular → WAS. \"Yesterday WAS Tuesday.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Ainur's friends ___ all busy during lunchtime.",
+      "opts": [
+        "was",
+        "is",
+        "were",
+        "are"
+      ],
+      "correct": "were",
+      "hint": "Friends = they = plural → WERE. \"Her friends WERE busy.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write was or were.",
+      "text": "The questions in the quiz ___ very difficult — Ainur was not ready.",
+      "correct": "were",
+      "hint": "Questions = they = plural → WERE. \"The questions WERE very difficult.\""
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"You was nervous before the debate\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "YOU always takes WERE — even for one person! → \"You WERE nervous.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "There ___ an unexpected quiz in the second lecture.",
+      "opts": [
+        "were",
+        "are",
+        "was",
+        "is"
+      ],
+      "correct": "was",
+      "hint": "\"A quiz\" = one = singular → There WAS a quiz. (not \"were a quiz\")"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write was or were.",
+      "text": "Dr. Akhanov ___ outstanding yesterday — his explanations were clear and fascinating.",
+      "correct": "was",
+      "hint": "Dr. Akhanov = he = singular → WAS. \"He WAS outstanding yesterday.\""
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "The cafeteria were crowded at lunchtime.",
+        "My team was the winners of the debate!",
+        "They was all relaxed and happy.",
+        "We was in the library all afternoon."
+      ],
+      "correct": "My team was the winners of the debate!",
+      "hint": "My team = it = singular → WAS ✅. \"The cafeteria WERE\" ❌ (was). \"They WAS\" ❌ (were). \"We WAS\" ❌ (were)."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct time expression.",
+      "text": "\"___ Monday, the weather was awful and Ainur was late.\"",
+      "opts": [
+        "Tomorrow",
+        "Right now",
+        "Last",
+        "Always"
+      ],
+      "correct": "Last",
+      "hint": "\"Last Monday\" = прошлый понедельник. \"Last\" + day/week/year → past tense was/were. ✅"
+    }
+  ],
+  "questions": []
+}

@@ -1,0 +1,531 @@
+{
+  "id": "l77-g2",
+  "moduleNum": 19,
+  "lessonNum": 6,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Grammar: Hedging Language in Academic and Scientific Writing",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Хеджирование (Hedging) — смягчение утверждений в академическом письме:\n\nХеджирующие глаголы:\nseem · appear · suggest · indicate · tend to · be likely to\n\"The results suggest that...\" · \"The data appear to indicate...\"\n\nМодальные глаголы для хеджирования:\nmay · might · could · should · would\n\"This could explain why...\" · \"There may be a connection...\"\n\nНаречия-хеджеры:\napparently · seemingly · presumably · generally · typically\n\"This is generally considered to be...\" · \"It is typically assumed...\"\n\nСтруктуры:\n\"It seems / appears that...\" · \"It is possible that...\"\n\"It is widely believed that...\" · \"There is evidence to suggest...\"\n\n💡 В академическом письме хеджирование = интеллектуальная честность, а не слабость!",
+  "grammarTable": [
+    {
+      "subject": "Modal verbs",
+      "verb": "may / might / could + infinitive",
+      "short": "possibility and probability",
+      "example": "\"The effect may be larger in older populations.\" / \"This could suggest a different mechanism.\""
+    },
+    {
+      "subject": "Hedging verbs",
+      "verb": "suggest / indicate / appear / seem / tend to",
+      "short": "cautious assertion",
+      "example": "\"The data suggests a correlation.\" / \"Results appear to indicate…\" / \"Participants tend to perform better when…\""
+    },
+    {
+      "subject": "Adverb hedges",
+      "verb": "possibly / probably / likely / apparently",
+      "short": "degree of certainty",
+      "example": "\"The effect is probably due to…\" / \"This is likely related to…\" / \"Apparently, the mechanism differs across groups.\""
+    },
+    {
+      "subject": "Approximators",
+      "verb": "approximately / roughly / around / about / up to / as many as / at least",
+      "short": "imprecise quantification",
+      "example": "\"Approximately 60% of participants responded.\" / \"Up to 40% showed improvement.\""
+    },
+    {
+      "subject": "Limiting expressions",
+      "verb": "in some cases / under certain conditions / in this context",
+      "short": "restricting the claim",
+      "example": "\"In some cases, the effect may be reversed.\" / \"Under controlled conditions, results are consistent.\""
+    },
+    {
+      "subject": "Reporting with caution",
+      "verb": "It is possible/likely/unclear/uncertain that",
+      "short": "impersonal hedging structures",
+      "example": "\"It is likely that further studies will confirm this.\" / \"It remains unclear whether the effect is causal.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Modal Verbs for Hedging: Degrees of Certainty",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "will = certainty (avoid in science unless proven)",
+          "example": "\"The drug WILL cure the disease.\" ❌ (too strong) → \"The drug MAY reduce symptoms.\" ✅"
+        },
+        {
+          "form": "should = expectation based on evidence",
+          "example": "\"Based on the data, these results should be replicable.\""
+        },
+        {
+          "form": "may/might = possibility (might = slightly more uncertain)",
+          "example": "\"This may indicate a novel mechanism.\" / \"The effect might be artefactual.\""
+        },
+        {
+          "form": "could = theoretical possibility",
+          "example": "\"This could suggest a relationship between the variables.\""
+        }
+      ]
+    },
+    {
+      "title": "Hedging Verbs: From Strong to Weak",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Strong (avoid over-use in science): prove, demonstrate, show",
+          "example": "\"The data demonstrates a correlation.\" (can be used when evidence is very strong)"
+        },
+        {
+          "form": "Medium: suggest, indicate, imply, point to",
+          "example": "\"The findings suggest a link between X and Y.\" / \"Results indicate that further research is needed.\""
+        },
+        {
+          "form": "Weak / cautious: appear to, seem to, tend to, be consistent with",
+          "example": "\"Participants appear to benefit from the intervention.\" / \"This seems to suggest…\""
+        },
+        {
+          "form": "\"Tend to\" = common pattern, not universal",
+          "example": "\"Older participants tend to show larger effects.\" (= usually, but not always)"
+        }
+      ]
+    },
+    {
+      "title": "Approximators: Quantifying Imprecision",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "approximately / roughly / around / about + number",
+          "example": "\"Approximately 300 participants were enrolled.\" / \"Around 70% showed improvement.\""
+        },
+        {
+          "form": "up to + number (= maximum)",
+          "example": "\"Up to 40% of participants may experience side effects.\" (= the maximum observed)"
+        },
+        {
+          "form": "as many as + number (= surprising high maximum)",
+          "example": "\"As many as 80% responded positively in the first trial.\""
+        },
+        {
+          "form": "at least + number (= minimum)",
+          "example": "\"At least 50 replications are needed to establish a reliable estimate.\""
+        }
+      ]
+    },
+    {
+      "title": "Impersonal Hedging Structures",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "It is possible/likely/probable that + clause",
+          "example": "\"It is likely that the effect will be smaller in a larger sample.\""
+        },
+        {
+          "form": "It remains/is unclear/uncertain whether/how + clause",
+          "example": "\"It remains unclear whether the effect is causal or merely correlational.\""
+        },
+        {
+          "form": "It should be noted that / It is worth mentioning that",
+          "example": "\"It should be noted that the sample was not representative of the general population.\""
+        },
+        {
+          "form": "There is some/little/no evidence that + clause",
+          "example": "\"There is some evidence that meditation reduces cortisol levels.\""
+        }
+      ]
+    },
+    {
+      "title": "Over-hedging and Under-hedging: Common Errors",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Under-hedging: \"This proves that exercise cures depression.\"",
+          "example": "✅ \"These results suggest that exercise may significantly reduce depressive symptoms.\""
+        },
+        {
+          "form": "❌ Over-hedging: \"It is possible that something might perhaps be the case.\"",
+          "example": "✅ \"It is possible that X contributes to Y.\" (one hedge is usually enough)"
+        },
+        {
+          "form": "❌ Wrong modal: \"The drug will help patients.\"",
+          "example": "✅ \"The drug may help patients with this condition.\""
+        },
+        {
+          "form": "❌ Missing limitation: \"Meditation reduces stress.\" (always true?)",
+          "example": "✅ \"In this study, meditation appeared to reduce stress in adults aged 30–50.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the most appropriate hedging modal.",
+      "text": "\"The effect ___ be larger in populations with greater genetic diversity.\"",
+      "opts": [
+        "will",
+        "must",
+        "may",
+        "shall"
+      ],
+      "correct": "may",
+      "hint": "\"May\" = possibility — appropriate for cautious scientific claim"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with a hedging verb.",
+      "text": "\"The data ___ that a correlation exists between the two variables, though causation cannot yet be established.\"",
+      "correct": "suggests / indicates",
+      "hint": "\"Suggests/indicates\" = cautious reporting verb — not \"proves\""
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct approximator.",
+      "text": "\"___ 65% of participants reported a reduction in symptoms after 8 weeks.\"",
+      "opts": [
+        "Very",
+        "Up to",
+        "Approximately",
+        "As least"
+      ],
+      "correct": "Approximately",
+      "hint": "\"Approximately + number\" = imprecise but informative quantification"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct impersonal hedging structure.",
+      "text": "\"It ___ unclear whether the effect is causal or merely correlational at this stage.\"",
+      "correct": "remains",
+      "hint": "\"It remains unclear whether\" = formal, impersonal hedge",
+      "points": 1
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Which is the most appropriately hedged claim?",
+      "text": "",
+      "opts": [
+        "\"Exercise definitely cures depression.\"",
+        "\"Exercise may significantly reduce depressive symptoms in some populations.\"",
+        "\"Exercise perhaps could maybe help a bit.\"",
+        "\"Exercise is probably somewhat beneficial.\""
+      ],
+      "correct": "\"Exercise may significantly reduce depressive symptoms in some populations.\"",
+      "hint": "One modal + specific language + limiting expression = well-hedged",
+      "points": 1
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct approximator.",
+      "text": "\"___ 40 independent replications have been conducted — a remarkable level of replication for this field.\"",
+      "correct": "At least",
+      "hint": "\"At least + number\" = minimum figure confirmed",
+      "points": 1
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct hedging verb.",
+      "text": "\"Participants ___ to respond more positively to the treatment when given clear instructions.\"",
+      "opts": [
+        "prove",
+        "tend",
+        "demonstrate",
+        "establish"
+      ],
+      "correct": "tend",
+      "hint": "\"Tend to\" = common pattern but not universal — appropriate hedge",
+      "points": 1
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with an appropriate impersonal hedge.",
+      "text": "\"___ likely ___ the sample size will need to be increased for the effect to reach significance.\"",
+      "correct": "It is / that",
+      "hint": "\"It is likely that + clause\" = formal impersonal hedging",
+      "points": 1
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which approximator expresses the maximum possible figure?",
+      "text": "\"___ 80% of participants showed improvement in the first trial.\" (surprising maximum)",
+      "opts": [
+        "At least",
+        "Approximately",
+        "As many as",
+        "Up to"
+      ],
+      "correct": "As many as",
+      "hint": "\"As many as + number\" = surprisingly high maximum figure",
+      "points": 1
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Rewrite to add appropriate hedging.",
+      "text": "\"The drug cures the condition.\" → The drug ___ treat the condition in most patients under controlled conditions.\"",
+      "correct": "may / appears to / seems to",
+      "hint": "Modal verb (\"may\") or hedging verb (\"appears to\") softens the claim",
+      "points": 1
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct limiting expression.",
+      "text": "\"The effect was consistent ___ controlled laboratory conditions.\" (restricting the claim)",
+      "opts": [
+        "under",
+        "in spite of",
+        "as much as",
+        "while"
+      ],
+      "correct": "under",
+      "hint": "\"Under + conditions\" = limiting the scope of the claim",
+      "points": 1
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the hedged statement.",
+      "text": "\"There is ___ ___ that the intervention is effective in preventing relapse.\" (some evidence)",
+      "correct": "some evidence",
+      "hint": "\"There is some evidence that + clause\" — cautious positive claim",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Which modal is most appropriate for a cautious scientific prediction?",
+      "text": "\"Based on current evidence, this treatment ___ reduce mortality rates by up to 20%.\"",
+      "opts": [
+        "will",
+        "must",
+        "could",
+        "should definitely"
+      ],
+      "correct": "could",
+      "hint": "\"Could\" = theoretical possibility — appropriate for prediction without full evidence",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the appropriately hedged sentence.",
+      "text": "\"The results ___ ___ be explained by chance alone, given the sample size.\" (= it is unlikely)",
+      "correct": "cannot / are unlikely to",
+      "hint": "\"Cannot be explained\" or \"unlikely to be explained\" — appropriate hedging negative",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence is appropriately hedged for a scientific paper?",
+      "text": "",
+      "opts": [
+        "\"This study proves that open data is better.\"",
+        "\"This study definitively shows the effect.\"",
+        "\"These findings suggest that open data practices may be associated with higher replication rates.\"",
+        "\"It is definitely the case that open data helps.\""
+      ],
+      "correct": "\"These findings suggest that open data practices may be associated with higher replication rates.\"",
+      "hint": "Two hedges: \"suggest\" + \"may\" — avoiding overstatement",
+      "points": 2
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What is \"over-hedging\" in academic writing?",
+      "text": "",
+      "opts": [
+        "Using too few modals and approximators",
+        "Using so many hedging words that the claim becomes meaningless",
+        "Making claims that are too strong",
+        "Using hedging only in conclusions"
+      ],
+      "correct": "Using so many hedging words that the claim becomes meaningless",
+      "hint": "\"It is possible that something might perhaps be the case\" = too many hedges",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The results ___ indicate a causal relationship — but further research is needed.\" (medium-certainty hedge)",
+      "opts": [
+        "prove",
+        "will",
+        "may",
+        "must"
+      ],
+      "correct": "may",
+      "hint": "\"May + verb\" = possibility — appropriate cautious scientific claim",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The data ___ a strong correlation between the two variables.\" (hedging reporting verb — not \"proves\")",
+      "correct": "suggests / indicates",
+      "hint": "\"Suggests/indicates\" = hedging verbs — cautious claim",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ 300 participants completed the study.\" (imprecise quantification)",
+      "opts": [
+        "Very",
+        "Most",
+        "Approximately",
+        "As little as"
+      ],
+      "correct": "Approximately",
+      "hint": "\"Approximately + number\" = standard approximator in scientific writing",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It remains ___ whether the observed improvements are due to the drug or to the placebo effect.\" (uncertain)",
+      "correct": "unclear / uncertain",
+      "hint": "\"It remains unclear/uncertain whether\" = formal impersonal hedge",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Participants ___ to perform better when they are given frequent feedback.\" (common pattern but not universal)",
+      "opts": [
+        "tend",
+        "prove",
+        "will",
+        "demonstrate"
+      ],
+      "correct": "tend",
+      "hint": "\"Tend to\" = common pattern, not absolute rule — appropriate hedge",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"This proves that the drug works\" is an appropriately hedged scientific claim.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Proves\" is too strong — use \"suggests,\" \"indicates,\" or \"appears to show\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ 80% of patients responded positively in the first trial.\" (surprising maximum)",
+      "correct": "As many as",
+      "hint": "\"As many as + number\" = surprisingly high maximum figure",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ is possible that some of the effect may be artefactual.\" (impersonal hedge)",
+      "opts": [
+        "This",
+        "It",
+        "That",
+        "Which"
+      ],
+      "correct": "It",
+      "hint": "\"It is possible that + clause\" = standard impersonal hedging",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"There ___ ___ evidence that pre-registration reduces publication bias.\" (some but not definitive)",
+      "correct": "is some",
+      "hint": "\"There is some evidence that\" = cautious positive claim",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The treatment ___ reduce symptoms in some patients.\" (theoretical possibility)",
+      "opts": [
+        "will",
+        "must",
+        "could",
+        "shall"
+      ],
+      "correct": "could",
+      "hint": "\"Could\" = theoretical possibility — softer than \"may\"",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ 50 independent replications were conducted on this finding.\" (minimum figure)",
+      "correct": "At least",
+      "hint": "\"At least + number\" = confirmed minimum",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence is the most appropriately hedged for academic writing?",
+      "opts": [
+        "\"Open science definitely improves reliability.\"",
+        "\"Open science might perhaps possibly help a little.\"",
+        "\"Open science practices appear to be associated with improved replication rates.\"",
+        "\"Open science will certainly solve the replication crisis.\""
+      ],
+      "correct": "\"Open science practices appear to be associated with improved replication rates.\"",
+      "hint": "\"Appear to be associated with\" = well-hedged scientific claim",
+      "points": 2
+    }
+  ]
+}

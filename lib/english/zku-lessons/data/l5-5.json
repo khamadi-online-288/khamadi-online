@@ -1,0 +1,222 @@
+{
+  "id": "l5-5",
+  "moduleNum": 5,
+  "lessonNum": 5,
+  "moduleTitle": "I can / I can't",
+  "title": "My skills and abilities",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I can... very well.",
+      "emoji": "💪",
+      "opts": [
+        "Я пытаюсь...",
+        "Я очень хорошо умею...",
+        "Мне трудно...",
+        "Я учусь..."
+      ],
+      "correct": "Я очень хорошо умею..."
+    },
+    {
+      "id": "p2",
+      "word": "I can't... at all.",
+      "emoji": "🚫",
+      "opts": [
+        "Я умею немного...",
+        "Я совсем не умею...",
+        "Я иногда могу...",
+        "Я хочу..."
+      ],
+      "correct": "Я совсем не умею..."
+    },
+    {
+      "id": "p3",
+      "word": "I want to learn...",
+      "emoji": "📖",
+      "opts": [
+        "Я уже умею...",
+        "Я хочу научиться...",
+        "Я не хочу...",
+        "Я забыл..."
+      ],
+      "correct": "Я хочу научиться..."
+    },
+    {
+      "id": "p4",
+      "word": "My best skill is...",
+      "emoji": "⭐",
+      "opts": [
+        "Моя любимая еда — это...",
+        "Мой лучший навык — это...",
+        "Мой лучший друг — это...",
+        "Моё расписание — это..."
+      ],
+      "correct": "Мой лучший навык — это..."
+    },
+    {
+      "id": "p5",
+      "word": "I practise every day.",
+      "emoji": "🔁",
+      "opts": [
+        "Я отдыхаю каждый день.",
+        "Я практикуюсь каждый день.",
+        "Я занимаюсь раз в неделю.",
+        "Я пропускаю иногда."
+      ],
+      "correct": "Я практикуюсь каждый день."
+    },
+    {
+      "id": "p6",
+      "word": "With practice, I can!",
+      "emoji": "🚀",
+      "opts": [
+        "С практикой я смогу!",
+        "Без практики я умею!",
+        "Это слишком трудно.",
+        "Я никогда не смогу."
+      ],
+      "correct": "С практикой я смогу!"
+    }
+  ],
+  "writingModel": [
+    "My name is Arlan Bekov and I study Computer Science at WKU. I am 19 years old and I am from Astana. I want to describe my skills and abilities — the things I can do well, the things I cannot do, and the things I want to learn in the future. Every person has a unique mix of talents, and I believe it is important to know your strengths and your weaknesses.",
+    "I can do several things very well. First, I can code in Python and JavaScript — I practise programming every day for at least one hour. I can solve complex problems and build small applications. Second, I can play chess at a high level — I was the Under-18 city champion in Astana when I was 16. I can think strategically and plan several moves ahead. Third, I can speak three languages fluently: Kazakh, Russian, and English. Languages come naturally to me because I read a lot in all three.",
+    "However, there are many things I cannot do. I cannot cook at all — every time I try, I burn the food or forget an ingredient. My roommate says my cooking is a danger to the whole dormitory! I also cannot drive yet — I do not have a licence and I have never sat behind the wheel of a car. And unfortunately, I absolutely cannot sing. My friends say my voice sounds like a broken radio. I accept this weakness with humour!",
+    "I have clear goals for the things I want to learn. This year, I want to learn how to cook at least five basic meals — it is an essential life skill for a student living away from home. I also plan to take driving lessons next summer when the semester finishes. As for singing — I will try! My friend Malika says she can teach me. I am not sure I can become a good singer, but I can certainly improve with practice.",
+    "I believe that every person has special skills, and with enough practice, we can learn almost anything. My best skill is coding because it helps me solve real problems and build useful things for people. I am proud of my abilities, and I am excited to develop new ones at WKU. As our teacher always says: \"The only skill you truly cannot learn is the one you never try.\" So I will keep trying every day!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "My name is ",
+      "suffix": " and I study ___.",
+      "placeholder": "your name",
+      "hint": "e.g. Arlan / Malika / Bekzat"
+    },
+    {
+      "key": "skill1",
+      "prefix": "I can ",
+      "suffix": " very well.",
+      "placeholder": "your best skill",
+      "hint": "e.g. swim / sing / code / draw / cook"
+    },
+    {
+      "key": "skill1d",
+      "prefix": "I practise ",
+      "suffix": " every day / every week.",
+      "placeholder": "this skill",
+      "hint": "e.g. swimming / coding / painting"
+    },
+    {
+      "key": "skill2",
+      "prefix": "I can also ",
+      "suffix": ".",
+      "placeholder": "second skill",
+      "hint": "e.g. play chess / speak Kazakh / dance"
+    },
+    {
+      "key": "lang",
+      "prefix": "I can speak ",
+      "suffix": " language(s): ___.",
+      "placeholder": "number",
+      "hint": "e.g. two / three / four"
+    },
+    {
+      "key": "cant1",
+      "prefix": "However, I can't ",
+      "suffix": " at all.",
+      "placeholder": "something you can't do",
+      "hint": "e.g. cook / drive / sing / draw"
+    },
+    {
+      "key": "cant2",
+      "prefix": "I also can't ",
+      "suffix": " yet — but I want to learn!",
+      "placeholder": "another thing you can't",
+      "hint": "e.g. drive / play guitar / speak French"
+    },
+    {
+      "key": "goal",
+      "prefix": "This year, I want to learn ",
+      "suffix": " because it is very useful.",
+      "placeholder": "a skill to learn",
+      "hint": "e.g. cooking / driving / a new language"
+    },
+    {
+      "key": "best",
+      "prefix": "My best skill is ",
+      "suffix": " — it helps me ___.",
+      "placeholder": "your best skill ... why",
+      "hint": "e.g. English ... communicate with the world"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Abilities — I can",
+      "color": "#003876",
+      "items": [
+        "I can swim / sing / dance / draw.",
+        "I can code in Python / JavaScript.",
+        "I can speak ___ languages.",
+        "I can play chess / guitar / football.",
+        "I can cook traditional food.",
+        "I can... very well / fluently / brilliantly."
+      ]
+    },
+    {
+      "category": "Inabilities — I can't",
+      "color": "#EF4444",
+      "items": [
+        "I can't cook / drive / sing at all.",
+        "I can't... yet — I'm learning.",
+        "I can't... — it's very difficult for me.",
+        "Unfortunately, I cannot...",
+        "I'm not good at... yet.",
+        "This is my weakness, but I accept it!"
+      ]
+    },
+    {
+      "category": "Goals & learning",
+      "color": "#7C3AED",
+      "items": [
+        "I want to learn... this year.",
+        "I plan to take lessons in...",
+        "I practise every day to improve.",
+        "My goal is to learn...",
+        "With practice, I can get better!",
+        "I can't yet, but I will!"
+      ]
+    },
+    {
+      "category": "Opinions & conclusions",
+      "color": "#1D9E75",
+      "items": [
+        "My best skill is... because...",
+        "I am proud of my ability to...",
+        "Everyone has a special talent.",
+        "I am good at... and I love it.",
+        "With practice, anyone can learn!",
+        "I believe I can achieve my goals."
+      ]
+    }
+  ]
+}

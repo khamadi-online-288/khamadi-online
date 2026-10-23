@@ -1,0 +1,523 @@
+{
+  "id": "l78-g2",
+  "moduleNum": 20,
+  "lessonNum": 6,
+  "moduleTitle": "Law, Rights & Justice",
+  "title": "Grammar: Formal Modal Passives and Semi-Modals in Legal Language",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Пассивные конструкции в правовом и академическом письме:\n\nMODAL PASSIVE для официальных требований:\n\"must be done\" · \"shall be submitted\" · \"may be extended\"\n\"should be considered\" · \"can be requested\"\n\n\"Applications must be submitted before the deadline.\"\n\"The contract shall be governed by the laws of Kazakhstan.\"\n\"Evidence may be presented in writing.\"\n\nАКАДЕМИЧЕСКИЙ ПАССИВ для объективности:\n\"It was found that...\" · \"It has been suggested that...\"\n\"The results were analysed using...\" · \"Data were collected from...\"\n\n💡 Пассив скрывает деятеля → академический/правовой текст звучит объективно\nАктив раскрывает деятеля → личная или аргументированная речь",
+  "grammarTable": [
+    {
+      "subject": "Modal + passive",
+      "verb": "modal + be + past participle",
+      "short": "obligation/permission in passive",
+      "example": "\"The decision must be communicated in writing.\" / \"The evidence may be submitted digitally.\""
+    },
+    {
+      "subject": "Shall + passive (legal)",
+      "verb": "shall + be + past participle",
+      "short": "mandatory obligation in written law",
+      "example": "\"All parties shall be notified of the hearing.\" / \"The sentence shall be recorded.\""
+    },
+    {
+      "subject": "Be entitled to",
+      "verb": "be entitled to + noun / to-infinitive",
+      "short": "have a right to",
+      "example": "\"All defendants are entitled to a fair trial.\" / \"Citizens are entitled to legal aid.\""
+    },
+    {
+      "subject": "Be required to",
+      "verb": "be required to + infinitive",
+      "short": "be obligated to (external rule)",
+      "example": "\"Employers are required to provide written contracts.\" / \"Companies are required to report financial irregularities.\""
+    },
+    {
+      "subject": "Be prohibited from",
+      "verb": "be prohibited from + gerund",
+      "short": "be forbidden from doing",
+      "example": "\"Police are prohibited from entering without a warrant.\" / \"Jurors are prohibited from discussing the case.\""
+    },
+    {
+      "subject": "Be obliged / bound to",
+      "verb": "be obliged/bound to + infinitive",
+      "short": "have a duty to",
+      "example": "\"States are obliged to provide legal aid.\" / \"Witnesses are bound to tell the truth.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Modal Passive Patterns in Legal Writing",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "must + be + pp = mandatory (obligation passive)",
+          "example": "\"Suspects must be informed of their rights before questioning.\" / \"The verdict must be delivered publicly.\""
+        },
+        {
+          "form": "may + be + pp = permitted (permission passive)",
+          "example": "\"Evidence may be challenged in cross-examination.\" / \"The sentence may be appealed within 30 days.\""
+        },
+        {
+          "form": "may not + be + pp = prohibited (prohibition passive)",
+          "example": "\"Juvenile offenders may not be named in press reports.\" / \"Confessions may not be obtained under duress.\""
+        },
+        {
+          "form": "shall + be + pp = mandatory (formal written law)",
+          "example": "\"All decisions shall be made available to the public.\" (statutory language)"
+        }
+      ]
+    },
+    {
+      "title": "Be Entitled To: Rights and Entitlements",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "be entitled to + noun",
+          "example": "\"All workers are entitled to a minimum wage.\" / \"Citizens are entitled to social security benefits.\""
+        },
+        {
+          "form": "be entitled to + infinitive",
+          "example": "\"Defendants are entitled to remain silent.\" / \"Employees are entitled to appeal disciplinary decisions.\""
+        },
+        {
+          "form": "Not be entitled to + noun/infinitive",
+          "example": "\"Non-residents may not be entitled to free legal aid.\" / \"She was not entitled to vote at that time.\""
+        },
+        {
+          "form": "Note: \"entitlement\" is the noun form",
+          "example": "\"Legal entitlement to a fair trial is enshrined in international human rights law.\""
+        }
+      ]
+    },
+    {
+      "title": "Be Prohibited From vs Must Not",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Be prohibited from + gerund = formal written prohibition",
+          "example": "\"Police are prohibited from searching property without a warrant.\""
+        },
+        {
+          "form": "Must not + infinitive = strong prohibition (less formal)",
+          "example": "\"Police must not search property without a warrant.\" (same meaning, less formal register)"
+        },
+        {
+          "form": "Be banned from + gerund = informal equivalent",
+          "example": "\"He was banned from practising law.\" (disciplinary, informal register)"
+        },
+        {
+          "form": "\"Be prohibited from\" is most appropriate in legal documents",
+          "example": "\"The organisation is prohibited from engaging in political campaigning.\""
+        }
+      ]
+    },
+    {
+      "title": "Be Required To vs Have To: Formality Register",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Be required to + infinitive = formal external obligation",
+          "example": "\"All companies are required to file annual tax returns.\" (legal requirement)"
+        },
+        {
+          "form": "Have to + infinitive = similar meaning, less formal",
+          "example": "\"All companies have to file annual tax returns.\" (same meaning, more conversational)"
+        },
+        {
+          "form": "Be obliged to + infinitive = duty-based obligation",
+          "example": "\"States are obliged to investigate credible human rights violations.\" (moral/legal duty)"
+        },
+        {
+          "form": "Be bound to + infinitive = legally committed",
+          "example": "\"Parties are bound to comply with the terms of the contract.\""
+        }
+      ]
+    },
+    {
+      "title": "Negative Permissions and Prohibitions in Legal Texts",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Not be entitled to = lack of right",
+          "example": "\"Non-citizens are not entitled to vote in national elections.\""
+        },
+        {
+          "form": "Not be required to = no obligation",
+          "example": "\"Witnesses are not required to answer self-incriminating questions.\""
+        },
+        {
+          "form": "Not be permitted to = formal prohibition",
+          "example": "\"Lawyers are not permitted to disclose privileged communications.\""
+        },
+        {
+          "form": "Be exempt from = official exception from obligation",
+          "example": "\"Diplomatic personnel are exempt from local taxation.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct modal passive.",
+      "text": "\"Suspects ___ ___ of their right to remain silent before police questioning.\" (inform — obligation)",
+      "opts": [
+        "must inform",
+        "must be informed",
+        "shall inform",
+        "are informing"
+      ],
+      "correct": "must be informed",
+      "hint": "\"Must be + pp\" = obligation passive — suspects are the object"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete using \"be entitled to.\"",
+      "text": "\"All defendants ___ ___ legal representation, regardless of their ability to pay.\"",
+      "correct": "are entitled to",
+      "hint": "\"Are entitled to + noun/infinitive\" = have the right to"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct formal prohibition.",
+      "text": "\"Police ___ ___ private property without a warrant.\"",
+      "opts": [
+        "must enter",
+        "may not enter",
+        "are not entering",
+        "are prohibited entering"
+      ],
+      "correct": "may not enter",
+      "hint": "\"May not + infinitive\" = formal prohibition (also: are prohibited from entering)"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete using \"be required to.\"",
+      "text": "\"All lawyers ___ ___ complete 20 hours of professional development training per year.\"",
+      "correct": "are required to",
+      "hint": "\"Are required to + infinitive\" = formal external obligation"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the most formal legal prohibition.",
+      "text": "\"Jurors ___ ___ discussing the case with members of the public during the trial.\"",
+      "opts": [
+        "must not",
+        "are prohibited from",
+        "shouldn't be",
+        "won't be"
+      ],
+      "correct": "are prohibited from",
+      "hint": "\"Are prohibited from + gerund\" = most formal written prohibition"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with \"shall be\" (formal statute language).",
+      "text": "\"All court decisions ___ ___ recorded and made available to the public.\" (legal document)",
+      "correct": "shall be",
+      "hint": "\"Shall be + pp\" = mandatory passive in formal written law"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct entitlement structure.",
+      "text": "\"Workers ___ ___ a minimum of 28 days' paid leave per year.\"",
+      "opts": [
+        "must have",
+        "are entitled to",
+        "shall be",
+        "are prohibited from"
+      ],
+      "correct": "are entitled to",
+      "hint": "\"Are entitled to + noun\" = have the legal right to"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete using \"be obliged to.\"",
+      "text": "\"States ___ ___ investigate credible human rights violations reported to them.\"",
+      "correct": "are obliged to",
+      "hint": "\"Are obliged to + infinitive\" = have a duty to (moral/legal)"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct passive permission.",
+      "text": "\"The sentence ___ ___ within 30 days if new evidence comes to light.\" (may — allow)",
+      "opts": [
+        "must appeal",
+        "may be appealed",
+        "is appealing",
+        "shall appeal"
+      ],
+      "correct": "may be appealed",
+      "hint": "\"May be + pp\" = permitted/possible in passive form"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with \"be exempt from.\"",
+      "text": "\"Diplomatic personnel ___ ___ prosecution in the host country under international law.\"",
+      "correct": "are exempt from",
+      "hint": "\"Are exempt from + noun/gerund\" = officially excused from"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct structure.",
+      "text": "\"Witnesses ___ ___ self-incriminating questions — they have the right to refuse.\" (not obligated)",
+      "opts": [
+        "are not required to answer",
+        "must not answer",
+        "are prohibited from answering",
+        "shall not answer"
+      ],
+      "correct": "are not required to answer",
+      "hint": "\"Are not required to + infinitive\" = have no obligation to"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the modal passive prohibition.",
+      "text": "\"Confessions ___ not ___ obtained through coercion or threats.\" (may — passive prohibition)",
+      "correct": "may / be",
+      "hint": "\"May not be + pp\" = formal passive prohibition",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the most formal way to express this right.",
+      "text": "\"You can take the case to a higher court.\"",
+      "opts": [
+        "You can take it higher.",
+        "You may take the case to a higher court.",
+        "You are entitled to appeal the decision to a higher court.",
+        "You're allowed to go to a higher court."
+      ],
+      "correct": "You are entitled to appeal the decision to a higher court.",
+      "hint": "\"Are entitled to + infinitive\" = most formal expression of a right",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the formal legal requirement.",
+      "text": "\"All parties ___ ___ notified in writing at least 14 days before the hearing.\" (shall — passive)",
+      "correct": "shall be",
+      "hint": "\"Shall be + pp\" = mandatory requirement in legal document",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which sentence uses \"be bound to\" correctly?",
+      "text": "",
+      "opts": [
+        "She is bound to sign the document.",
+        "The company is bound to comply with the terms of the agreement.",
+        "Judges are bound to follow their personal opinions.",
+        "Witnesses are bound from lying."
+      ],
+      "correct": "The company is bound to comply with the terms of the agreement.",
+      "hint": "\"Are bound to + infinitive\" = legally committed/obligated",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What is the most appropriate formal legal register?",
+      "text": "The police cannot enter your home without a warrant.",
+      "opts": [
+        "\"The police can't enter your home without a warrant.\"",
+        "\"Police must not enter without a warrant.\"",
+        "\"Police officers are prohibited from entering private property without a valid warrant.\"",
+        "\"You don't have to let the police in.\""
+      ],
+      "correct": "\"Police officers are prohibited from entering private property without a valid warrant.\"",
+      "hint": "\"Are prohibited from + gerund\" = most formal register for a legal text",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Suspects ___ ___ of their rights before any police interview.\" (must — passive)",
+      "opts": [
+        "must inform",
+        "must be informed",
+        "shall inform",
+        "are required to inform"
+      ],
+      "correct": "must be informed",
+      "hint": "\"Must be + pp\" = mandatory passive obligation",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"All citizens ___ ___ free legal aid if they cannot afford a lawyer.\" (= have the right to)",
+      "correct": "are entitled to",
+      "hint": "\"Are entitled to + noun\" = have the legal right to",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The verdict ___ ___ in open court in front of all parties.\" (shall — passive obligation in law)",
+      "opts": [
+        "shall deliver",
+        "shall be delivered",
+        "must deliver",
+        "should deliver"
+      ],
+      "correct": "shall be delivered",
+      "hint": "\"Shall be + pp\" = formal mandatory passive in legal documents",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Employers ___ ___ providing written employment contracts within 8 weeks of hiring.\" (formal prohibition)",
+      "correct": "are prohibited from / must not be found",
+      "hint": "\"Are prohibited from + gerund\" = formal written prohibition",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Companies ___ ___ report significant financial irregularities to the regulator.\" (external legal requirement)",
+      "opts": [
+        "are entitled to",
+        "are required to",
+        "may",
+        "are prohibited from"
+      ],
+      "correct": "are required to",
+      "hint": "\"Are required to + infinitive\" = formal external legal obligation",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Are prohibited from\" and \"don't have to\" express the same legal meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Prohibited from\" = forbidden; \"don't have to\" = no obligation (permitted)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"States ___ ___ providing legal aid to those who cannot access justice.\" (duty — obliged)",
+      "correct": "are obliged to / are required to",
+      "hint": "\"Are obliged to / required to + infinitive\" = have a duty to",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The decision ___ ___ within 28 days of the original ruling.\" (may — passive permission)",
+      "opts": [
+        "may appeal",
+        "may be appealed",
+        "must be appealing",
+        "shall appeal"
+      ],
+      "correct": "may be appealed",
+      "hint": "\"May be + pp\" = passive permission — the decision can be appealed",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Diplomatic personnel ___ ___ local prosecution under the Vienna Convention.\" (exempt from)",
+      "correct": "are exempt from",
+      "hint": "\"Are exempt from + noun/gerund\" = officially excused from obligation",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Witnesses ___ ___ self-incriminating statements — they may exercise the right to silence.\" (no obligation)",
+      "opts": [
+        "are prohibited from making",
+        "are not required to make",
+        "must not make",
+        "are banned from making"
+      ],
+      "correct": "are not required to make",
+      "hint": "\"Are not required to + infinitive\" = have no obligation to do this",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"All court proceedings ___ ___ recorded and archived for public access.\" (shall — formal law)",
+      "correct": "shall be",
+      "hint": "\"Shall be + pp\" = mandatory formal legal requirement",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most formal and precise legal prohibition?",
+      "opts": [
+        "\"You can't search without a warrant.\"",
+        "\"Police must not search without a warrant.\"",
+        "\"Police officers are prohibited from conducting searches without a valid judicial warrant.\"",
+        "\"The police shouldn't search without a warrant.\""
+      ],
+      "correct": "\"Police officers are prohibited from conducting searches without a valid judicial warrant.\"",
+      "hint": "\"Are prohibited from + gerund\" = most formal legal register",
+      "points": 2
+    }
+  ]
+}

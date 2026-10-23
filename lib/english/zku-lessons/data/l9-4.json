@@ -1,0 +1,313 @@
+{
+  "id": "l9-4",
+  "moduleNum": 9,
+  "lessonNum": 4,
+  "moduleTitle": "Right now",
+  "title": "Present Continuous: Form",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Continuous — как его образовать",
+  "grammarNote": "Present Continuous (Настоящее продолженное время) — мы используем его, чтобы описать действие, которое происходит ПРЯМО СЕЙЧАС, в момент речи.\n\nВ казахском языке ему соответствует -п жатыр (жазып жатыр = пишет прямо сейчас). В русском — настоящее время с акцентом на \"прямо сейчас\" (читает, пишет, идёт).\n\n📐 Формула:\n[Подлежащее] + [am / is / are] + [глагол + -ing]\n\nПримеры из чтения про Амира:\n\"I am sitting in the WKU library right now.\" → Я сижу в библиотеке прямо сейчас.\n\"Sholpan is eating lunch in the cafeteria.\" → Шолпан ест обед в кафетерии.\n\"They are arguing about a maths problem.\" → Они спорят о задаче по математике.\n\"The printer is making a loud noise.\" → Принтер издаёт громкий шум.\n\n⚙️ Выбор am / is / are зависит от подлежащего:\n→ I → AM\n→ He / She / It → IS\n→ You / We / They → ARE\n\nВажно помнить:\n✅ \"He IS reading.\" (не \"He are reading\")\n✅ \"We ARE studying.\" (не \"We is studying\")\n✅ \"I AM working.\" (не \"I is working\")",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "am",
+      "short": "am + verb-ing",
+      "example": "I am writing code for my project."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "is",
+      "short": "is + verb-ing",
+      "example": "She is reading a Psychology book. · It is raining outside."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "are",
+      "short": "are + verb-ing",
+      "example": "They are arguing about a maths problem. · We are studying."
+    },
+    {
+      "subject": "I",
+      "verb": "am not",
+      "short": "am not + -ing",
+      "example": "I am not sleeping — I'm thinking deeply!"
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "isn't",
+      "short": "isn't + -ing",
+      "example": "She isn't attending a lecture right now. · He isn't studying."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "aren't",
+      "short": "aren't + -ing",
+      "example": "They aren't talking — they're writing. · We aren't sleeping."
+    },
+    {
+      "subject": "Am I...?",
+      "verb": "—",
+      "short": "Am + I + -ing?",
+      "example": "Am I speaking too fast? · What am I doing?"
+    },
+    {
+      "subject": "Is he/she/it...?",
+      "verb": "—",
+      "short": "Is + sub + -ing?",
+      "example": "Is she studying? · What is the barista making?"
+    },
+    {
+      "subject": "Are you/we/they?",
+      "verb": "—",
+      "short": "Are + sub + -ing?",
+      "example": "Are you coming to the library? · What are they doing?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Affirmative — утверждение (полные и краткие формы)",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "I am working. → I'm working.",
+          "example": "\"I'm writing the code for our project.\" — Amir (= I am writing)"
+        },
+        {
+          "form": "He is reading. → He's reading.",
+          "example": "\"He's eating porridge and reading a textbook.\" — Bekzat (= He is)"
+        },
+        {
+          "form": "She is studying. → She's studying.",
+          "example": "\"She's highlighting sentences with a marker.\" — Malika (= She is)"
+        },
+        {
+          "form": "They are arguing. → They're arguing.",
+          "example": "\"They're arguing about a maths problem.\" (= They are arguing)"
+        },
+        {
+          "form": "We are working. → We're working.",
+          "example": "\"We're both being terrible students today!\" — Malika to Aigerim."
+        },
+        {
+          "form": "⚠️ Нет краткой формы для \"am not\"!",
+          "example": "✅ \"I'm not sleeping.\" ❌ \"I amn't sleeping.\" — такой формы не существует!"
+        }
+      ]
+    },
+    {
+      "title": "Negative — отрицание: am not / isn't / aren't",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I am NOT + verb-ing",
+          "example": "\"I am not attending a lecture at this moment.\" — Amir. Нет краткой формы!"
+        },
+        {
+          "form": "He/She/It ISN'T + verb-ing",
+          "example": "\"She isn't looking at anyone.\" — девушка с наушниками. (= is not)"
+        },
+        {
+          "form": "You/We/They AREN'T + verb-ing",
+          "example": "\"We aren't studying seriously.\" — Malika и Aigerim. (= are not)"
+        },
+        {
+          "form": "is not = isn't · are not = aren't",
+          "example": "\"He is not sleeping.\" = \"He isn't sleeping.\" — оба варианта правильны."
+        },
+        {
+          "form": "⚠️ Типичная ошибка:",
+          "example": "❌ \"He not is working.\" ❌ \"He is not working not.\" → ✅ \"He isn't working.\""
+        },
+        {
+          "form": "NOT всегда после am/is/are:",
+          "example": "✅ \"I am NOT writing.\" ✅ \"She IS NOT reading.\" ❌ \"NOT she is reading.\""
+        }
+      ]
+    },
+    {
+      "title": "Questions — вопросы: Am I? / Is he? / Are they?",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Am I + verb-ing?",
+          "example": "\"Am I speaking too fast?\" · \"What am I doing wrong?\" — вопрос от первого лица."
+        },
+        {
+          "form": "Is + he/she/it + verb-ing?",
+          "example": "\"Is the barista making a cappuccino?\" — Aigerim asks Malika."
+        },
+        {
+          "form": "Are + you/we/they + verb-ing?",
+          "example": "\"Are you coming to the library after lunch?\" — Amir asks Sholpan."
+        },
+        {
+          "form": "Yes/No краткие ответы:",
+          "example": "\"Are you studying?\" → \"Yes, I am.\" / \"No, I'm not.\" (Never \"Yes, I'm.\")"
+        },
+        {
+          "form": "What + am/is/are + sub + doing?",
+          "example": "\"What are you doing?\" · \"What is the professor writing?\" · \"What am I doing?\""
+        },
+        {
+          "form": "Who + is/are + verb-ing?",
+          "example": "\"Who is sleeping near the window?\" · \"Who is arguing next to you, Malika?\""
+        }
+      ]
+    },
+    {
+      "title": "Spelling rules — правила написания -ing",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "1. Большинство глаголов: просто + -ing",
+          "example": "work → working · read → reading · study → studying · talk → talking · play → playing"
+        },
+        {
+          "form": "2. Глагол на -e: убери -e, добавь -ing",
+          "example": "write → writing · make → making · have → having · use → using · come → coming"
+        },
+        {
+          "form": "3. Краткий глагол (согл.+гласн.+согл.): удвои!",
+          "example": "sit → sitting · run → running · swim → swimming · get → getting · stop → stopping"
+        },
+        {
+          "form": "   ⚠️ Не удваивай, если 2 гласных подряд:",
+          "example": "read → reading (не readding!) · sleep → sleeping · wait → waiting"
+        },
+        {
+          "form": "4. Глагол на -ie: измени на -y, добавь -ing",
+          "example": "lie → lying · die → dying · tie → tying"
+        },
+        {
+          "form": "5. Глагол на -y: просто + -ing (не меняй!)",
+          "example": "study → studying · enjoy → enjoying · carry → carrying · try → trying"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три шага — и Present Continuous всегда правильный:\n\n① Определи подлежащее → выбери am / is / are:\n   I → AM · He/She/It → IS · You/We/They → ARE\n   \"I AM working.\" · \"She IS reading.\" · \"They ARE arguing.\"\n\n② Проверь окончание -ing (4 правила):\n   Обычный глагол → + ing: work → working\n   Оканчивается на -e → убери -e: write → writing\n   Краткий (согл.+гласн.+согл.) → удвой: sit → sitting\n   Оканчивается на -ie → -ying: lie → lying\n\n③ Для отрицания → NOT после am/is/are:\n   \"She IS NOT reading.\" = \"She ISN'T reading.\"\n   Для вопроса → am/is/are перед подлежащим:\n   \"IS she reading?\" · \"ARE they working?\" · \"AM I late?\"\n\n💡 Запомни через Амира:\n\"I AM sitting in the library. Sholpan IS eating lunch. They ARE working. The printer IS making a noise. Dastan ISN'T helping — he IS playing football!\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form of \"to be\".",
+      "text": "Right now, I ___ writing code for my Computer Science project.",
+      "opts": [
+        "is",
+        "am",
+        "are",
+        "be"
+      ],
+      "correct": "am",
+      "hint": "I → AM. \"I am writing code right now.\" (not \"I is\" or \"I are\")"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Look! Malika ___ highlighting sentences in her book.",
+      "opts": [
+        "am",
+        "are",
+        "is",
+        "be"
+      ],
+      "correct": "is",
+      "hint": "Malika = She → IS. \"She is highlighting sentences.\" (He/She/It → is)"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct -ing form of the verb.",
+      "text": "Amir is ___ (sit) in the library on the second floor.",
+      "correct": "sitting",
+      "hint": "sit → short verb (s-i-t: consonant-vowel-consonant) → double the last letter! sit → sitting."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write the correct -ing form of the verb.",
+      "text": "The professor is ___ (write) something on the whiteboard.",
+      "correct": "writing",
+      "hint": "write → ends in -e → drop the -e, add -ing: write → writing."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Dastan ___ the project — he is playing football outside.",
+      "opts": [
+        "is not helping",
+        "not is helping",
+        "is helping not",
+        "are not helping"
+      ],
+      "correct": "is not helping",
+      "hint": "Dastan = He → IS NOT helping. (= isn't helping). NOT goes after IS."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"Are you coming to the library?\" — \"Yes, I'm.\" is a correct short answer.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Yes, I'm.\" is WRONG — never use a contraction in a short answer! → \"Yes, I AM.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "You want to ask: \"What is Sholpan doing right now?\"",
+      "opts": [
+        "What Sholpan is doing?",
+        "What is doing Sholpan?",
+        "What is Sholpan doing?",
+        "What does Sholpan doing?"
+      ],
+      "correct": "What is Sholpan doing?",
+      "hint": "Question word + IS/ARE + subject + verb-ing: \"What IS Sholpan DOING?\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence has the correct -ing spelling?",
+      "text": "Choose the correctly spelled sentence.",
+      "opts": [
+        "The students are studing in the library.",
+        "Malika is makeing coffee right now.",
+        "Dastan is runing across the courtyard.",
+        "Amir is having a break between lectures."
+      ],
+      "correct": "Amir is having a break between lectures.",
+      "hint": "have → drop -e → having ✅. \"studing\" ❌ (studying), \"makeing\" ❌ (making), \"runing\" ❌ (running — double n!)."
+    }
+  ],
+  "questions": []
+}

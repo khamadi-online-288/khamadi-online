@@ -1,0 +1,372 @@
+{
+  "id": "l49-5",
+  "moduleNum": 15,
+  "lessonNum": 7,
+  "moduleTitle": "Things Being Done",
+  "type": "test",
+  "title": "Module 15 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the text say the passive was \"invented\" for process descriptions?",
+      "opts": [
+        "It was easier to write",
+        "The process matters more than who performs each step",
+        "It is shorter",
+        "It uses fewer words"
+      ],
+      "correct": "The process matters more than who performs each step",
+      "hint": "\"Usually more interested in the process than in who is performing each step.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"The cotton is picked\" emphasise compared to \"Workers pick the cotton\"?",
+      "opts": [
+        "The specific workers",
+        "The universal process, not the actor",
+        "The speed of picking",
+        "The country of origin"
+      ],
+      "correct": "The universal process, not the actor",
+      "hint": "\"The passive removes the actor from view and focuses attention on the object and the action.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says the passive voice is always bad or weak writing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"There is a common myth that passive voice is always 'bad'...\" — the text calls this a myth."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Mistakes were made\" is an example of ___ use of the passive.",
+      "correct": "evasive",
+      "hint": "\"Mistakes were made\" is described as \"evasive\" — it avoids naming who made the mistakes."
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "The text says passive appears in news, academic writing, and official notices.",
+      "opts": [
+        "Only in news",
+        "Only in academic writing",
+        "In news, academic writing, and official notices",
+        "Only in scientific reports"
+      ],
+      "correct": "In news, academic writing, and official notices",
+      "hint": "\"They appear in news reports... academic writing... official notices...\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the \"invisible agent\" mentioned in the text?",
+      "opts": [
+        "An unknown writer",
+        "The missing \"by whom\" in a passive sentence",
+        "A passive verb",
+        "A process step"
+      ],
+      "correct": "The missing \"by whom\" in a passive sentence",
+      "hint": "\"That invisible agent — the missing 'by...' — is often the most interesting thing of all.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the first step in the WKU workshop process?",
+      "opts": [
+        "Assembly",
+        "Testing",
+        "Computer design",
+        "Inspection"
+      ],
+      "correct": "Computer design",
+      "hint": "\"All products are first designed on a computer.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who reviews the designs before printing?",
+      "opts": [
+        "Students",
+        "The guide",
+        "Supervisors",
+        "The dean"
+      ],
+      "correct": "Supervisors",
+      "hint": "\"They're reviewed by supervisors.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "In the WKU workshop, products are assembled by robots.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The product is assembled here, by students.\" / \"assembled by hand, not by machine.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happens to finished products that pass inspection?",
+      "opts": [
+        "Sold to companies",
+        "Kept in a store",
+        "Photographed and stored in a showcase; displayed at exhibition",
+        "Given to students to keep"
+      ],
+      "correct": "Photographed and stored in a showcase; displayed at exhibition",
+      "hint": "\"Photographed and stored in our showcase. The best ones are displayed at the end-of-year exhibition.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "The prototype is tested for stress, ___, and heat.",
+      "correct": "weight",
+      "hint": "\"Stress tests, weight tests, heat tests.\" — three tests mentioned."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Has a student project ever been used commercially?",
+      "opts": [
+        "Never",
+        "Only once, adapted by a local company",
+        "Many times",
+        "Only at the exhibition"
+      ],
+      "correct": "Only once, adapted by a local company",
+      "hint": "\"One was adapted and used by a local company last year.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The passive voice is formed with:",
+      "opts": [
+        "do + base form",
+        "to be + past participle",
+        "to have + infinitive",
+        "modal + verb"
+      ],
+      "correct": "to be + past participle",
+      "hint": "Passive = TO BE (correct form) + PAST PARTICIPLE. Always!"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The bridge was built in 1850.\" This is:",
+      "opts": [
+        "Present passive",
+        "Past passive",
+        "Future passive",
+        "Perfect passive"
+      ],
+      "correct": "Past passive",
+      "hint": "\"WAS built\" = was/were + past participle = past simple passive."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The products ___ every morning.\" (check — present passive)",
+      "correct": "are checked",
+      "hint": "Present passive: \"The products ARE CHECKED every morning.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The results will be announced tomorrow.\" — Future passive uses:",
+      "opts": [
+        "will + past tense",
+        "will be + past participle",
+        "will + base form",
+        "will + been + past participle"
+      ],
+      "correct": "will be + past participle",
+      "hint": "Future passive: WILL + BE + past participle. \"Will BE ANNOUNCED.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The letter was wrote by her.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"was\" should be \"were\"",
+        "\"wrote\" should be \"written\" — use past participle!",
+        "\"by\" should be \"from\""
+      ],
+      "correct": "\"wrote\" should be \"written\" — use past participle!",
+      "hint": "✅ \"The letter was WRITTEN by her.\" — \"write\" → past participle = \"written\", never \"wrote\"!"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"My car was stolen.\" — Why passive?",
+      "opts": [
+        "The car is the object",
+        "Active is impossible here",
+        "Unknown agent — we don't know who stole it",
+        "\"Stolen\" is always passive"
+      ],
+      "correct": "Unknown agent — we don't know who stole it",
+      "hint": "Unknown agent → passive is natural. \"My car was stolen.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The problem ___ (solve — modal passive: can).\"",
+      "correct": "can be solved",
+      "hint": "Modal passive: modal + BE + past participle. \"The problem CAN BE SOLVED.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Convert to passive: \"Workers built the mosque.\"",
+      "opts": [
+        "The mosque built.",
+        "The mosque was built.",
+        "The mosque is built.",
+        "Built the mosque."
+      ],
+      "correct": "The mosque was built.",
+      "hint": "Past active → past passive. \"The mosque WAS BUILT.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The parts are assembled.\" \"Assembled\" means:",
+      "opts": [
+        "Destroyed",
+        "Designed",
+        "Fitted together to make something",
+        "Transported"
+      ],
+      "correct": "Fitted together to make something",
+      "hint": "\"assemble\" = to fit parts together to make a complete object."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"All products are inspected before delivery.\" \"Inspected\" means:",
+      "opts": [
+        "Sold",
+        "Looked at carefully to check quality",
+        "Designed",
+        "Stored"
+      ],
+      "correct": "Looked at carefully to check quality",
+      "hint": "\"inspect\" = to examine carefully, especially to check quality or safety."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The passive ___ technical and scientific writing.",
+      "correct": "dominates",
+      "hint": "\"Passive constructions DOMINATE technical writing, science, and manufacturing descriptions.\""
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The data is processed.\" \"Processed\" means:",
+      "opts": [
+        "Destroyed",
+        "Handled/analysed according to a method",
+        "Ignored",
+        "Printed"
+      ],
+      "correct": "Handled/analysed according to a method",
+      "hint": "\"process\" = to handle or deal with data/materials using a defined method."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The writer chose to emphasise the result.\" \"Emphasise\" means:",
+      "opts": [
+        "Hide",
+        "Ignore",
+        "Give special importance or attention to",
+        "Remove"
+      ],
+      "correct": "Give special importance or attention to",
+      "hint": "\"emphasise\" = to give special importance to something; to highlight it."
+    }
+  ]
+}

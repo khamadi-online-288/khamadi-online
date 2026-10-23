@@ -1,0 +1,428 @@
+{
+  "id": "l83-3",
+  "moduleNum": 25,
+  "lessonNum": 3,
+  "moduleTitle": "Listening & Speaking Strategies",
+  "title": "Working It Out: A Conversation About Communication Skills",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Selin",
+      "text": "Can I pick your brain about something? I have a big presentation coming up and I'm terrified. I always freeze or rush through the slides and then nobody asks questions, which makes me feel like I've completely failed.",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "The no-questions thing is interesting, isn't it? It doesn't necessarily mean it went badly. Sometimes it means it was very clear, so there was nothing to ask. But I take your point — it can feel that way.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "You've given loads of presentations, haven't you? What's your secret?",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "Honestly? The first thing is slowing down. When you're nervous, you rush. And rushing makes you harder to follow, which increases anxiety, which makes you rush more. It's a vicious cycle. So the single most useful thing is to deliberately breathe before you start and between each main point.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "I know that's good advice. But in the moment I just can't seem to do it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "That's because you're trying to do it in the moment. You need to practise it in low-stakes situations first — casual conversations, small meetings. Basically, you're training a new habit. You can't suddenly perform a behaviour you've never practised under pressure.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "Right. What else?",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "Signpost everything. Tell your audience where you're going and where you've been. \"First I'll cover…\" \"So, to sum up that section…\" \"Now, moving on to…\" It sounds obvious, but it makes an enormous difference. When people know what structure to expect, they can follow even complex content.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "I tend to assume people are following me. Maybe I'm wrong to do that.",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "You probably are. You know your material — they're encountering it fresh. What's obvious to you isn't obvious to them. And I'd add: don't be afraid of silence. A pause feels much longer to you than it does to the audience. Use it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "I've heard that. It's harder than it sounds, isn't it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "Absolutely. But it gets easier. The other thing — and this one is underrated — is eye contact. Not scanning nervously, not staring at your slides. Making actual contact with individual people in the room. It's connecting, not performing.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "What about questions? I'm always worried I won't know the answer.",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "Well, you don't have to know everything. \"That's a really good question — I'd need to look into that\" is a completely valid response. What you should avoid is making up an answer you're not sure about. That's where credibility gets damaged.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Selin",
+      "text": "That's really reassuring. So it's about communicating, not performing. I think I've been thinking about it the wrong way.",
+      "isLeft": true
+    },
+    {
+      "speaker": "James",
+      "text": "Exactly. The audience wants you to succeed. They're on your side. If you can just connect with them rather than trying to impress them, most presentations go much better than expected.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "a vicious cycle",
+      "ru": "порочный круг",
+      "context": "A self-reinforcing negative process where each element makes the next worse"
+    },
+    {
+      "phrase": "low-stakes situation",
+      "ru": "ситуация с низкими ставками",
+      "context": "A context where mistakes don't have serious consequences — ideal for practice"
+    },
+    {
+      "phrase": "underrated",
+      "ru": "недооценённый",
+      "context": "Not appreciated or valued as much as it deserves"
+    },
+    {
+      "phrase": "credibility",
+      "ru": "доверие / авторитет",
+      "context": "The quality of being trusted and believed; your reputation for reliability"
+    },
+    {
+      "phrase": "connecting vs performing",
+      "ru": "связь vs выступление",
+      "context": "The distinction between genuine communication with an audience vs trying to impress them"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "vicious cycle",
+      "ipa": "/ˈvɪʃəs ˈsaɪkl/",
+      "pos": "noun phrase",
+      "ru": "порочный круг",
+      "kz": "жаман айналым",
+      "emoji": "🌀",
+      "definition": "a self-reinforcing negative spiral where one problem makes another worse, which makes the first worse",
+      "example": "\"Anxiety makes you rush, rushing increases anxiety — a vicious cycle.\"",
+      "collocations": [
+        "break the vicious cycle",
+        "caught in a vicious cycle",
+        "a vicious cycle of anxiety"
+      ]
+    },
+    {
+      "en": "credibility",
+      "ipa": "/ˌkredɪˈbɪlɪti/",
+      "pos": "noun",
+      "ru": "доверие / авторитет",
+      "kz": "сенімділік",
+      "emoji": "🏅",
+      "definition": "the quality of being trusted, believed, and reliable",
+      "example": "\"Making up an answer you're not sure about is where credibility gets damaged.\"",
+      "collocations": [
+        "establish credibility",
+        "damage credibility",
+        "maintain credibility"
+      ]
+    },
+    {
+      "en": "signpost",
+      "ipa": "/ˈsaɪnpəʊst/",
+      "pos": "verb",
+      "ru": "давать ориентиры / обозначать структуру",
+      "kz": "бағыт көрсету",
+      "emoji": "🚦",
+      "definition": "to guide an audience through the structure of a presentation or speech using explicit phrases",
+      "example": "\"Signpost everything — tell your audience where you're going and where you've been.\"",
+      "collocations": [
+        "signpost clearly",
+        "signpost your ideas",
+        "use signposting phrases"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "a vicious cycle",
+      "emoji": "🌀",
+      "opts": [
+        "a self-reinforcing negative spiral",
+        "a very strict rule",
+        "a harmful habit",
+        "a complicated process"
+      ],
+      "correct": "a self-reinforcing negative spiral"
+    },
+    {
+      "id": "p2",
+      "word": "credibility",
+      "emoji": "🏅",
+      "opts": [
+        "the quality of being trusted and believed",
+        "speaking very confidently",
+        "having impressive qualifications",
+        "using formal language"
+      ],
+      "correct": "the quality of being trusted and believed"
+    }
+  ],
+  "task1Bank": [
+    "Selin",
+    "James",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Who explains the vicious cycle of anxiety and rushing?",
+      "correct": "James"
+    },
+    {
+      "id": "t2",
+      "question": "Who suggests practising skills in low-stakes situations first?",
+      "correct": "James"
+    },
+    {
+      "id": "t3",
+      "question": "Who admits to assuming audiences are following them?",
+      "correct": "Selin"
+    },
+    {
+      "id": "t4",
+      "question": "Who identifies eye contact as underrated in presentations?",
+      "correct": "James"
+    },
+    {
+      "id": "t5",
+      "question": "Who reframes the problem as \"communicating not performing\"?",
+      "correct": "Selin"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "James says no questions after a presentation always means it went badly.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "James recommends practising skills in low-stakes situations before high-pressure ones.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "James says Selin should make up an answer if she doesn't know it.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Pauses feel longer to the presenter than to the audience, according to James.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "James says the audience wants the presenter to fail.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What \"vicious cycle\" does James describe?",
+      "opts": [
+        "Reading slides instead of presenting from memory",
+        "Anxiety causing rushing, which makes things harder to follow, increasing anxiety",
+        "Preparing too much and then not using the preparation",
+        "Making eye contact that leads to losing your place"
+      ],
+      "correct": "Anxiety causing rushing, which makes things harder to follow, increasing anxiety",
+      "hint": "James: \"rushing makes you harder to follow, which increases anxiety, which makes you rush more\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "Why does James say you can't just practise in the moment?",
+      "opts": [
+        "Because the moment is too short",
+        "Because you can't suddenly perform a behaviour you've never practised under pressure",
+        "Because nervousness physically prevents practice",
+        "Because audiences don't give you enough time"
+      ],
+      "correct": "Because you can't suddenly perform a behaviour you've never practised under pressure",
+      "hint": "James: \"you can't suddenly perform a behaviour you've never practised under pressure\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does James say about pauses during a presentation?",
+      "opts": [
+        "They make the audience lose concentration",
+        "A pause feels much longer to you than it does to the audience",
+        "Pauses should be avoided in professional settings",
+        "Pauses are only appropriate at the end of sections"
+      ],
+      "correct": "A pause feels much longer to you than it does to the audience",
+      "hint": "James: \"a pause feels much longer to you than it does to the audience\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does James say about unknown questions?",
+      "opts": [
+        "You should always have an answer prepared",
+        "\"I'd need to look into that\" is a valid response",
+        "You should redirect to another topic",
+        "You should make your best guess"
+      ],
+      "correct": "\"I'd need to look into that\" is a valid response",
+      "hint": "James: \"That's a really good question — I'd need to look into that is a completely valid response\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "James says the audience wants the presenter to succeed.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "James: \"The audience wants you to succeed. They're on your side.\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Selin concludes that presentations are about performing rather than communicating.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Selin: \"it's about communicating, not performing\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"You've given loads of presentations, ___?\" (tag question)",
+      "opts": [
+        "have you",
+        "haven't you",
+        "did you",
+        "don't you"
+      ],
+      "correct": "haven't you",
+      "hint": "Positive statement + present perfect → \"haven't you\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It's harder than it sounds, ___ ___?\" (tag)",
+      "correct": "isn't it",
+      "hint": "Positive statement (it's) → negative tag \"isn't it\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She didn't prepare enough for the presentation, ___?\" (tag)",
+      "opts": [
+        "did she",
+        "didn't she",
+        "does she",
+        "has she"
+      ],
+      "correct": "did she",
+      "hint": "Negative past statement → positive tag \"did she\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Credibility\" in the context of presentations means…",
+      "opts": [
+        "Having impressive academic qualifications",
+        "Being trusted and believed by your audience",
+        "Speaking in formal language",
+        "Making no mistakes during delivery"
+      ],
+      "correct": "Being trusted and believed by your audience",
+      "hint": "James: \"that's where credibility gets damaged\" — making up answers",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "To \"signpost\" in a presentation means…",
+      "opts": [
+        "Using road sign metaphors",
+        "Guiding your audience through the structure using explicit phrases",
+        "Writing key points on a whiteboard",
+        "Using visual aids and diagrams"
+      ],
+      "correct": "Guiding your audience through the structure using explicit phrases",
+      "hint": "James: \"tell your audience where you're going and where you've been\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A situation where each problem makes the next one worse is called a ___ cycle.",
+      "correct": "vicious",
+      "hint": "James: \"a vicious cycle\"",
+      "points": 1
+    }
+  ]
+}

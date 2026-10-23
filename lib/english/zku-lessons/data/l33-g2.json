@@ -1,0 +1,554 @@
+{
+  "id": "l33-g2",
+  "moduleNum": 17,
+  "lessonNum": 3,
+  "moduleTitle": "Film & Literature",
+  "type": "grammar",
+  "title": "Defining Relative Clauses in Context",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Defining vs Non-Defining Relative Clauses",
+  "grammarNote": "Определительные (Defining) и неопределительные (Non-defining) клаузы:\n\n🔵 DEFINING — обязательная информация:\nБез неё предложение теряет смысл. БЕЗ запятых. \"That\" возможен.\n\"The student who answered first got bonus points.\"\n(Какой студент? — WHO ANSWERED FIRST. Убери — непонятно!)\n\n🟡 NON-DEFINING — дополнительная информация:\nМожно убрать. ОБЯЗАТЕЛЬНО с запятыми. \"That\" НЕЛЬЗЯ!\n\"My professor, who teaches linguistics, is brilliant.\"\n(Убери: \"My professor is brilliant.\" ✅ — всё понятно)\n\"The Eiffel Tower, which was built in 1889, attracts tourists.\"\n\n💡 Тест:\nЕсли убрать → непонятно → Defining (без запятых)\nЕсли убрать → понятно → Non-defining (с запятыми)\n\n⚠️ \"That\" ТОЛЬКО в Defining:\n\"The book that I need is out of stock.\" ✅\n\"War and Peace, that was written by Tolstoy...\" ❌ (нужно \"which\")",
+  "grammarTable": [
+    {
+      "subject": "Feature",
+      "verb": "Defining",
+      "short": "vs",
+      "example": "Non-defining"
+    },
+    {
+      "subject": "Meaning",
+      "verb": "Identifies which specific one",
+      "short": "essential",
+      "example": "Adds extra (non-essential) info"
+    },
+    {
+      "subject": "Commas",
+      "verb": "No commas",
+      "short": "key rule",
+      "example": "Always uses commas"
+    },
+    {
+      "subject": "\"that\"",
+      "verb": "Can use \"that\"",
+      "short": "allowed",
+      "example": "CANNOT use \"that\""
+    },
+    {
+      "subject": "Can omit?",
+      "verb": "Can omit who/that if object",
+      "short": "optional",
+      "example": "Cannot omit who/which"
+    },
+    {
+      "subject": "Example 1",
+      "verb": "The book that I read was amazing.",
+      "short": "defining",
+      "example": "The Kite Runner, which I read, was amazing."
+    },
+    {
+      "subject": "Example 2",
+      "verb": "The student who won is my friend.",
+      "short": "defining",
+      "example": "Amir, who studies engineering, won."
+    },
+    {
+      "subject": "Example 3",
+      "verb": "The film that we saw last night",
+      "short": "defining",
+      "example": "October Sky, which is based on a true story,"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Defining relative clauses (no commas)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "The film that everyone is talking about is finally here.",
+          "example": "defining: identifies which film"
+        },
+        {
+          "form": "I need a book that will challenge me intellectually.",
+          "example": "defining: identifies what kind"
+        },
+        {
+          "form": "She is the student who always asks the best questions.",
+          "example": "defining: identifies which student"
+        },
+        {
+          "form": "This is the documentary that changed my opinion.",
+          "example": "defining: identifies which one"
+        },
+        {
+          "form": "The author that I admire most writes about psychology.",
+          "example": "defining: identifies which author"
+        },
+        {
+          "form": "The library where I study has over 50,000 books.",
+          "example": "defining: identifies which library"
+        }
+      ]
+    },
+    {
+      "title": "Non-defining relative clauses (with commas)",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "The Kite Runner, which was published in 2003, is a masterpiece.",
+          "example": "non-defining: extra info about the book"
+        },
+        {
+          "form": "Dr. Akhmetov, who teaches English at WKU, wrote a paper.",
+          "example": "non-defining: extra info about him"
+        },
+        {
+          "form": "October Sky, which is based on a true story, won several awards.",
+          "example": "non-defining: extra info about the film"
+        },
+        {
+          "form": "Foundation, which Amir loves, explores the fall of civilisation.",
+          "example": "non-defining: extra info"
+        },
+        {
+          "form": "Zhibek, who is the Eco Club president, also loves documentaries.",
+          "example": "non-defining: extra info about Zhibek"
+        },
+        {
+          "form": "WKU, which is in Uralsk, offers modern English language programmes.",
+          "example": "non-defining: extra info about WKU"
+        }
+      ]
+    },
+    {
+      "title": "Omitting the relative pronoun (defining clauses only)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "The film (that) I watched was incredible.",
+          "example": "\"that\" omitted — it's the object"
+        },
+        {
+          "form": "The book (which) she recommended is out of stock.",
+          "example": "\"which\" omitted — it's the object"
+        },
+        {
+          "form": "The student (who) we met is from Astana.",
+          "example": "\"who\" omitted — it's the object"
+        },
+        {
+          "form": "The story (that) he told was fascinating.",
+          "example": "object — can omit"
+        },
+        {
+          "form": "She is the teacher (who) I admire most.",
+          "example": "object — can omit"
+        },
+        {
+          "form": "That's the film (that) everyone is watching.",
+          "example": "object — can omit"
+        }
+      ]
+    },
+    {
+      "title": "Common errors",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "❌ The Kite Runner that is a novel is my favourite.",
+          "example": "✅ The Kite Runner, which is a novel, is my favourite."
+        },
+        {
+          "form": "❌ Amir who studies engineering won the award.",
+          "example": "✅ Amir, who studies engineering, won the award."
+        },
+        {
+          "form": "❌ The film, that I watched, was amazing.",
+          "example": "✅ The film that I watched was amazing. (no commas)"
+        },
+        {
+          "form": "❌ Kamila, that loves books, is a blogger.",
+          "example": "✅ Kamila, who loves books, is a blogger."
+        },
+        {
+          "form": "❌ The student loves reading won the award.",
+          "example": "✅ The student who loves reading won the award."
+        },
+        {
+          "form": "❌ Dr. Akhmetov who teaches at WKU wrote a book.",
+          "example": "✅ Dr. Akhmetov, who teaches at WKU, wrote a book."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Простой тест — убери клаузу:\n\n\"The woman [who called you] is my aunt.\"\nУбери: \"The woman is my aunt.\" → НЕПОНЯТНО (какая?)\n→ DEFINING (без запятых) ✅\n\n\"Aizhan, [who called you], is my aunt.\"\nУбери: \"Aizhan is my aunt.\" → ПОНЯТНО (и так ясно кто)\n→ NON-DEFINING (с запятыми) ✅\n\n📌 Три отличия:\nDefining: без запятых · \"That\" можно · убрать нельзя\nNon-defining: с запятыми · \"That\" нельзя · убрать можно",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Identify the clause type.",
+      "text": "\"The book ___ I borrowed is on the table.\" Defining or non-defining?",
+      "opts": [
+        "Non-defining (use commas)",
+        "Defining (no commas)",
+        "Both are possible",
+        "Neither"
+      ],
+      "correct": "Defining (no commas)",
+      "hint": "No specific name given — \"the book\" needs to be identified → defining, no commas."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct pronoun.",
+      "text": "\"The Kite Runner, ___ is set in Afghanistan, is my favourite book.\" Fill in:",
+      "correct": "which",
+      "hint": "Non-defining clause for a thing → \"which\" (with commas)."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Identify the non-defining clause.",
+      "text": "Which sentence is a non-defining relative clause?",
+      "opts": [
+        "The film that I watched was great.",
+        "She is the student who always asks questions.",
+        "Amir, who studies engineering, won the award.",
+        "I need a book that challenges me."
+      ],
+      "correct": "Amir, who studies engineering, won the award.",
+      "hint": "\"Amir, who studies engineering, won.\" — commas + extra info = non-defining."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"That\" can be used in non-defining relative clauses.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"that\" is NEVER used in non-defining clauses. Use \"who\" or \"which\" instead."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct pronoun.",
+      "text": "Dr. Akhmetov, ___ teaches English at WKU, is very inspiring.",
+      "correct": "who",
+      "hint": "Non-defining clause for a person → \"who\" (with commas)."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the reason for omission.",
+      "text": "In \"The book (that) she recommended is out of stock,\" why can \"that\" be omitted?",
+      "opts": [
+        "Because it's non-defining",
+        "Because it's the object of the clause",
+        "Because it's a subject",
+        "Because it refers to a place"
+      ],
+      "correct": "Because it's the object of the clause",
+      "hint": "Object pronouns can be omitted in defining clauses. Subject pronouns cannot."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct pronoun.",
+      "text": "Foundation, ___ was written by Asimov, is a classic of science fiction.",
+      "correct": "which",
+      "hint": "Non-defining clause for a thing → \"which\" (with commas)."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct punctuation rule.",
+      "text": "Non-defining relative clauses always use:",
+      "opts": [
+        "No punctuation",
+        "Commas",
+        "Brackets",
+        "Hyphens"
+      ],
+      "correct": "Commas",
+      "hint": "Non-defining relative clauses are always separated from the main clause by commas."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose defining or non-defining.",
+      "text": "\"Kamila ___ loves reading is a blogger.\" Should this be defining or non-defining?",
+      "opts": [
+        "Defining — she is identified by loving reading",
+        "Non-defining — her name already identifies her",
+        "Neither works",
+        "Both are fine"
+      ],
+      "correct": "Non-defining — her name already identifies her",
+      "hint": "When a name is used, the person is already identified → non-defining (commas)."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete with the correct pronoun.",
+      "text": "WKU, ___ is located in Uralsk, offers a modern English programme.",
+      "correct": "which",
+      "hint": "Non-defining clause for a thing/institution → \"which\"."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct non-defining sentence.",
+      "text": "Correct non-defining sentence:",
+      "opts": [
+        "Zhibek that is the club president loves documentaries.",
+        "Zhibek, who is the club president, loves documentaries.",
+        "Zhibek, that is the club president, loves documentaries.",
+        "Zhibek who is the club president, loves documentaries."
+      ],
+      "correct": "Zhibek, who is the club president, loves documentaries.",
+      "hint": "Non-defining: commas + \"who\" for people (not \"that\")."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "In a defining relative clause, \"who/that\" can be omitted when it is the object.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Object pronouns can be omitted in defining clauses: \"The film (that) I watched.\" Subject pronouns cannot be omitted."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "A defining relative clause:",
+      "opts": [
+        "Adds extra info, uses commas",
+        "Identifies which person/thing, no commas",
+        "Is optional — removes without losing meaning",
+        "Uses \"that\" only"
+      ],
+      "correct": "Identifies which person/thing, no commas",
+      "hint": "Defining = essential information. No commas. The sentence is unclear without it."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "\"The Kite Runner, ___ is a novel by Hosseini, is Kamila's favourite.\" Fill in:",
+      "correct": "which",
+      "hint": "Non-defining + thing → \"which\". Never \"that\" in non-defining."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Non-defining relative clauses:",
+      "opts": [
+        "Use no commas",
+        "Use commas and cannot be omitted",
+        "Can use \"that\"",
+        "Always identify the noun"
+      ],
+      "correct": "Use commas and cannot be omitted",
+      "hint": "Non-defining: always uses commas; cannot use \"that\"; adds extra info."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Amir, that studies engineering, won the prize\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Non-defining clauses cannot use \"that.\" Correct: \"Amir, who studies engineering, won the prize.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "\"The film ___ I watched last night was excellent.\" Fill in (use the common neutral choice):",
+      "correct": "that",
+      "hint": "Defining clause — can use \"that\" or \"which\" for things. \"that\" is common in informal/neutral use."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "When can you omit \"that/who\" in a relative clause?",
+      "opts": [
+        "Always",
+        "Never",
+        "When it is the subject of the clause",
+        "When it is the object of the clause"
+      ],
+      "correct": "When it is the object of the clause",
+      "hint": "Object pronoun can be omitted in defining clauses: \"The film (that) I watched.\" But not the subject: \"The film that won.\" ✅"
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "WKU, ___ is in Uralsk, has a modern English programme.",
+      "correct": "which",
+      "hint": "Non-defining + thing → \"which\" with commas."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is a correctly punctuated non-defining relative clause?",
+      "opts": [
+        "Dr. Akhmetov who teaches English wrote a paper.",
+        "Dr. Akhmetov, who teaches English, wrote a paper.",
+        "Dr. Akhmetov, that teaches English, wrote a paper.",
+        "Dr. Akhmetov which teaches English wrote a paper."
+      ],
+      "correct": "Dr. Akhmetov, who teaches English, wrote a paper.",
+      "hint": "Non-defining: use commas; use \"who\" for people; never \"that\"."
+    },
+    {
+      "id": "q9",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "In a defining clause, \"that\" can replace \"who\" or \"which.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"that\" can replace both \"who\" and \"which\" in defining relative clauses."
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Foundation, ___ Amir loves, is a classic science fiction series.",
+      "correct": "which",
+      "hint": "Non-defining clause for a thing → \"which.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What type of film does Rustam want to see?",
+      "opts": [
+        "A drama",
+        "A documentary",
+        "A Kazakh historical film",
+        "An action film"
+      ],
+      "correct": "An action film",
+      "hint": "Statement 1: \"He wants to watch the new action film that has just been released.\""
+    },
+    {
+      "id": "q12",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Kamila says she will only go if it's a specific film she has chosen.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 6: \"She says she will go to any film that the group agrees on.\""
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Gulnaz prefer in films?",
+      "opts": [
+        "Lots of action and special effects",
+        "Interesting characters and deep emotions",
+        "Historical documentaries",
+        "Foreign language films"
+      ],
+      "correct": "Interesting characters and deep emotions",
+      "hint": "Statement 2: \"She prefers films that have interesting characters and deep emotions.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Genre\" in film and books refers to:",
+      "opts": [
+        "The length of a story",
+        "A category or type of art, such as drama or comedy",
+        "The author's nationality",
+        "The setting of the story"
+      ],
+      "correct": "A category or type of art, such as drama or comedy",
+      "hint": "\"Genre\" = a category of art or media, such as horror, romance, science fiction."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The theme of the novel is ___ — the hero cannot forgive his friend for lying to him.",
+      "correct": "betrayal",
+      "hint": "\"Betrayal\" = the act of breaking someone's trust or being disloyal."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Redemption\" means:",
+      "opts": [
+        "Punishment for a mistake",
+        "Regaining good standing after doing something wrong",
+        "A type of film genre",
+        "A way of analysing stories"
+      ],
+      "correct": "Regaining good standing after doing something wrong",
+      "hint": "\"Redemption\" = being saved from sin or error; making up for past wrongdoing."
+    }
+  ]
+}

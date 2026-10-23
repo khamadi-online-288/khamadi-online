@@ -1,0 +1,427 @@
+{
+  "id": "l31-5",
+  "moduleNum": 15,
+  "lessonNum": 5,
+  "moduleTitle": "Environment",
+  "type": "test",
+  "title": "Module 15 Final Test",
+  "xp": 100,
+  "duration": 55,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is described as one of the greatest environmental disasters in history?",
+      "opts": [
+        "Global warming",
+        "The disappearance of the Aral Sea",
+        "Air pollution in Almaty",
+        "Deforestation in the Kazakh steppe"
+      ],
+      "correct": "The disappearance of the Aral Sea",
+      "hint": "Paragraph 2: \"This is considered one of the greatest environmental disasters in history.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kazakhstan plans to produce 30% of electricity from renewables by 2030.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Paragraph 3: the goal is 15%, not 30%."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "The WKU Eco Club organises:",
+      "opts": [
+        "Football tournaments",
+        "Tree-planting, recycling, and awareness events",
+        "Language exchange events",
+        "Career fairs"
+      ],
+      "correct": "Tree-planting, recycling, and awareness events",
+      "hint": "Paragraph 4: \"They organise tree-planting events, recycling campaigns, and awareness programmes.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Zhibek says: \"We don't ___ the Earth — we borrow it from our children.\"",
+      "correct": "inherit",
+      "hint": "Last paragraph of the reading: \"We don't inherit the Earth from our ancestors.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "According to the article, what is replacing plastic bags?",
+      "opts": [
+        "Paper bags",
+        "Glass containers",
+        "Reusable bags",
+        "Fabric pouches"
+      ],
+      "correct": "Reusable bags",
+      "hint": "Paragraph 5: \"Plastic bags are being replaced by reusable ones.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does Zhibek say is wasted every day at WKU?",
+      "opts": [
+        "Electricity",
+        "Water",
+        "Food",
+        "Paper"
+      ],
+      "correct": "Food",
+      "hint": "Statement 1: \"She says that a lot of food at WKU is wasted every day.\""
+    },
+    {
+      "id": "q7",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Rustam started using a reusable water bottle and bag.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Statement 5: \"He says he has started using a reusable water bottle and bag.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How many friends will Kamila bring to the next meeting?",
+      "opts": [
+        "Two",
+        "Three",
+        "Five",
+        "Ten"
+      ],
+      "correct": "Five",
+      "hint": "Statement 6: \"She says she will bring five friends to the next Eco Club meeting.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What does the Eco Club do every spring?",
+      "opts": [
+        "Organise a career fair",
+        "Clean the campus river",
+        "Plant trees",
+        "Hold a photography competition"
+      ],
+      "correct": "Plant trees",
+      "hint": "Statement 4: \"She explains that trees are planted every spring by the club.\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Rustam joined the Eco Club after seeing a documentary about plastic ___.",
+      "correct": "pollution",
+      "hint": "Statement 2: \"after seeing a documentary about plastic pollution.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Present simple passive form is:",
+      "opts": [
+        "was/were + past participle",
+        "will be + past participle",
+        "is/are + past participle",
+        "has/have been + past participle"
+      ],
+      "correct": "is/are + past participle",
+      "hint": "Present passive: is/are + past participle."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "English ___ (speak) in over 50 countries.",
+      "correct": "is spoken",
+      "hint": "Present passive: is + spoken."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Change to passive: \"The factory produces cars.\"",
+      "opts": [
+        "Cars produce by the factory.",
+        "Cars are produced by the factory.",
+        "Cars is produced by the factory.",
+        "Cars were produced by factory."
+      ],
+      "correct": "Cars are produced by the factory.",
+      "hint": "\"Cars\" = subject; \"are produced\" = passive; \"by the factory\" = agent."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Past passive form is:",
+      "opts": [
+        "is/are + past participle",
+        "will be + past participle",
+        "was/were + past participle",
+        "be + past participle"
+      ],
+      "correct": "was/were + past participle",
+      "hint": "Past passive: was/were + past participle."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "The stadium ___ (build) by a Kazakh construction company in 2015.",
+      "correct": "was built",
+      "hint": "Past passive: was + built."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Future passive \"500 trees ___ next spring.\" Fill in:",
+      "opts": [
+        "are planted",
+        "were planted",
+        "will be planted",
+        "plant"
+      ],
+      "correct": "will be planted",
+      "hint": "Future passive: will be + planted."
+    },
+    {
+      "id": "q17",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Plastic must be recycled\" is a correct modal passive.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Modal passive: must be + recycled. ✅"
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "A new sports hall ___ (build) near the dormitory right now.",
+      "correct": "is being built",
+      "hint": "Present continuous passive: is being + built."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"A cure has been discovered\" uses which tense?",
+      "opts": [
+        "Past simple passive",
+        "Present perfect passive",
+        "Future passive",
+        "Present simple passive"
+      ],
+      "correct": "Present perfect passive",
+      "hint": "has/have been + past participle = present perfect passive."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"By + agent\" is always required in passive sentences.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"By + agent\" is optional — only include it when the doer is important information."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Renewable energy\" comes from:",
+      "opts": [
+        "Fossil fuels like coal",
+        "Sources that can be naturally replenished",
+        "Nuclear reactions",
+        "Old machines and technology"
+      ],
+      "correct": "Sources that can be naturally replenished",
+      "hint": "\"Renewable\" = can be replenished naturally. Solar, wind, and water are renewable."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Fossil fuels\" include:",
+      "opts": [
+        "Solar and wind power",
+        "Coal, oil, and natural gas",
+        "Water and geothermal energy",
+        "Hydrogen and biogas"
+      ],
+      "correct": "Coal, oil, and natural gas",
+      "hint": "\"Fossil fuels\" = non-renewable energy formed from ancient organisms: coal, oil, gas."
+    },
+    {
+      "id": "q23",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Climate change\" refers only to temperature rising.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Climate change\" includes rising temperatures, changing rainfall patterns, extreme weather events, etc."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She sorted her rubbish and ___ the glass and plastic.",
+      "correct": "recycled",
+      "hint": "\"Recycle\" = process used materials to make new products."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Glacier\" is:",
+      "opts": [
+        "A type of polluted river",
+        "A large slow-moving mass of ice",
+        "A renewable energy source",
+        "A government environmental programme"
+      ],
+      "correct": "A large slow-moving mass of ice",
+      "hint": "\"Glacier\" = a large body of ice moving slowly over land."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Pollution\" means:",
+      "opts": [
+        "Cleaning the environment",
+        "Introducing harmful substances into the environment",
+        "Measuring environmental damage",
+        "Protecting natural habitats"
+      ],
+      "correct": "Introducing harmful substances into the environment",
+      "hint": "\"Pollution\" = contamination of the environment with harmful substances."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Eco-friendly\" products are harmful to the environment.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Eco-friendly\" = not harmful to the environment; designed to cause minimal damage."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Sustainable\" development means:",
+      "opts": [
+        "Development that destroys natural resources",
+        "Development that meets current needs without harming future generations",
+        "Building as fast as possible",
+        "Using fossil fuels efficiently"
+      ],
+      "correct": "Development that meets current needs without harming future generations",
+      "hint": "\"Sustainable\" = able to continue without depleting resources or causing permanent damage."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Irrigation\" is the process of:",
+      "opts": [
+        "Purifying water for drinking",
+        "Supplying water to farmland",
+        "Collecting rainwater",
+        "Treating industrial wastewater"
+      ],
+      "correct": "Supplying water to farmland",
+      "hint": "\"Irrigation\" = artificially supplying water to land for agricultural purposes."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She uses a ___ water bottle to avoid buying plastic ones.",
+      "correct": "reusable",
+      "hint": "\"Reusable\" = can be used many times, not thrown away after one use."
+    }
+  ]
+}

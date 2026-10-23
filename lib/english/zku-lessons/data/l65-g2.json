@@ -1,0 +1,586 @@
+{
+  "id": "l65-g2",
+  "moduleNum": 7,
+  "lessonNum": 6,
+  "moduleTitle": "Relative Clauses: Defining & Non-defining",
+  "type": "grammar",
+  "title": "Non-defining, Reduced & Advanced Relative Clause Structures",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Non-defining Relative Clauses + Reduced Forms + Advanced Structures",
+  "grammarNote": "Неопределительные придаточные (non-defining) добавляют информацию о уже идентифицированном существительном. Они обязательно выделяются запятыми. \"That\" НЕЛЬЗЯ использовать. На продвинутом уровне важны также редуцированные придаточные, конструкция \"which\" для отсылки к целому предложению, и формальные структуры с предлогами.",
+  "grammarTable": [
+    {
+      "subject": "NON-DEFINING: who",
+      "verb": "commas + who (people)",
+      "short": ", who ... ,",
+      "example": "\"Kamila, who studies linguistics, presented her thesis.\" ✅"
+    },
+    {
+      "subject": "NON-DEFINING: which",
+      "verb": "commas + which (things)",
+      "short": ", which ... ,",
+      "example": "\"The study, which took three years, was published last week.\" ✅"
+    },
+    {
+      "subject": "NON-DEFINING: whose",
+      "verb": "commas + whose",
+      "short": ", whose ... ,",
+      "example": "\"Abai, whose poetry changed Kazakh literature, was born in 1845.\" ✅"
+    },
+    {
+      "subject": "Reduced: V-ing",
+      "verb": "active meaning",
+      "short": "\"who is → V-ing\"",
+      "example": "\"The student presenting her work\" = \"the student who is presenting her work.\" ✅"
+    },
+    {
+      "subject": "Reduced: V-ed / pp",
+      "verb": "passive meaning",
+      "short": "\"which was → pp\"",
+      "example": "\"The report published last month\" = \"the report which was published.\" ✅"
+    },
+    {
+      "subject": "Which = whole clause",
+      "verb": "\"...which is surprising.\"",
+      "short": "sentential which",
+      "example": "\"She passed all her exams, which surprised everyone.\" ✅ (which = the whole fact)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Non-defining rules — the most important",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "1. ALWAYS commas around the clause",
+          "example": "\"Uralsk, which sits on the Ural River, is in western Kazakhstan.\" ✅ (not \"Uralsk which sits...\")"
+        },
+        {
+          "form": "2. NEVER use \"that\" in non-defining clauses",
+          "example": "✗ \"Kamila, that studies linguistics, is brilliant.\" → ✅ \"Kamila, WHO studies linguistics, is brilliant.\" ✅"
+        },
+        {
+          "form": "3. The clause can be removed without changing the core meaning",
+          "example": "\"Kamila [, who studies linguistics,] is brilliant.\" = core meaning intact without the clause. ✅"
+        },
+        {
+          "form": "4. \"Who\" for people; \"which\" for things",
+          "example": "\"Rustam, WHO plays volleyball, is also a writer.\" ✅ / \"The book, WHICH I loved, was long.\" ✅"
+        },
+        {
+          "form": "5. Name/proper noun/already-identified → non-defining",
+          "example": "\"Fleming [already identified by name], who worked at St Mary's, discovered penicillin.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Reduced relative clauses — active and passive",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Active: who/which + is/are + V-ing → V-ing",
+          "example": "\"The student WHO IS STUDYING in the corner\" → \"The student STUDYING in the corner.\" ✅"
+        },
+        {
+          "form": "Passive: which + was/were + pp → pp",
+          "example": "\"The document WHICH WAS SIGNED yesterday\" → \"The document SIGNED yesterday.\" ✅"
+        },
+        {
+          "form": "Passive: which + has been + pp → pp",
+          "example": "\"A building WHICH HAS BEEN LISTED\" → \"A listed building.\" ✅ (becomes adjective-like)"
+        },
+        {
+          "form": "When to use reductions",
+          "example": "In formal writing, reductions make prose less cluttered. \"Students applying for the programme\" is more economical than \"students who are applying.\""
+        }
+      ]
+    },
+    {
+      "title": "\"Which\" referring to a whole clause (sentential which)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"...which is [adj/surprising/interesting]\"",
+          "example": "\"She passed all her exams, WHICH was unexpected.\" = the fact that she passed was unexpected. ✅"
+        },
+        {
+          "form": "\"...which means that...\"",
+          "example": "\"The road was closed, WHICH MEANS THAT we had to take a detour.\" ✅"
+        },
+        {
+          "form": "\"...which suggests that...\"",
+          "example": "\"The data showed no effect, WHICH SUGGESTS THAT the hypothesis was incorrect.\" ✅"
+        },
+        {
+          "form": "Always \"which\" for clauses (never \"that\")",
+          "example": "✗ \"She passed, that surprised everyone.\" → ✅ \"She passed, WHICH surprised everyone.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Formal structures with prepositions",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Prep + which (formal, no hanging preposition)",
+          "example": "\"The country IN WHICH she lived.\" / \"The situation FOR WHICH we were unprepared.\" ✅"
+        },
+        {
+          "form": "Prep + whom (formal, people)",
+          "example": "\"The professor FOR WHOM I have the most respect.\" / \"The person BY WHOM it was written.\" ✅"
+        },
+        {
+          "form": "Informal: which/who + prep at end",
+          "example": "\"The country WHICH she lived IN.\" / \"The person WHO I have the most respect FOR.\" ✅ (natural spoken)"
+        },
+        {
+          "form": "Very formal: of which / of whom",
+          "example": "\"The report, THE CONCLUSIONS OF WHICH were disputed...\" ✅ (rare; seen in academic/legal writing)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Non-defining errors",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"Kamila, that studies linguistics, is brilliant.\"",
+          "example": "✅ \"Kamila, WHO studies linguistics, is brilliant.\" — NEVER \"that\" in non-defining. ✅"
+        },
+        {
+          "form": "✗ \"The book which I loved was great.\" (no commas)",
+          "example": "✅ \"The book, WHICH I loved, was great.\" — non-defining ALWAYS needs commas. ✅"
+        },
+        {
+          "form": "✗ \"She passed, what surprised everyone.\"",
+          "example": "✅ \"She passed, WHICH surprised everyone.\" — sentential relative = \"which\" not \"what.\" ✅"
+        },
+        {
+          "form": "✗ \"The student studying, who is from Almaty...\"",
+          "example": "✅ \"The student studying is from Almaty.\" OR \"The student WHO IS studying is from Almaty.\" — don't combine unless you mean two separate clauses. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Non-defining Relative Clauses:\nALWAYS commas · NEVER \"that\" · WHO for people · WHICH for things\n\n\"Kamila, who studies linguistics, is brilliant.\" ✅\n\"The study, which took three years, was published.\" ✅\n\"Abai, whose poetry is foundational, was born in 1845.\" ✅\n\nREDUCED relative clauses:\nActive: who is/are + V-ing → V-ing\n\"The student STUDYING in the corner.\" ✅\n\nPassive: which was/were + pp → pp\n\"The document SIGNED yesterday.\" ✅\n\nSentential \"which\" = refers to whole clause:\n\"She passed, WHICH surprised everyone.\" ✅\n(= the fact that she passed surprised everyone)\n\nFormal prep + which/whom:\n\"The country IN WHICH she lived.\" ✅\n\"The professor FOR WHOM I have most respect.\" ✅",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Non-defining — choose the correct pronoun.",
+      "text": "\"Rustam, ___ plays volleyball, is also a talented writer.\"",
+      "opts": [
+        "that",
+        "which",
+        "who",
+        "whose"
+      ],
+      "correct": "who",
+      "hint": "Person + commas = non-defining. Must use WHO (not \"that\"). \"Rustam, WHO plays volleyball, is also a talented writer.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Non-defining — find the error.",
+      "text": "\"The report, that was published last year, has been widely cited.\"",
+      "opts": [
+        "Correct",
+        "\"that\" must be \"which\" in non-defining clause",
+        "Commas are wrong",
+        "\"was published\" should be \"is published\""
+      ],
+      "correct": "\"that\" must be \"which\" in non-defining clause",
+      "hint": "✅ \"The report, WHICH was published last year, has been widely cited.\" — NEVER \"that\" in non-defining clauses. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Sentential \"which\" — choose.",
+      "text": "\"She failed the exam, ___ was a shock to everyone.\"",
+      "opts": [
+        "that",
+        "what",
+        "which",
+        "who"
+      ],
+      "correct": "which",
+      "hint": "\"she failed\" = whole clause → sentential \"which.\" \"She failed, WHICH was a shock.\" ✅ NEVER \"that\" for sentential relative. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Reduce the relative clause.",
+      "text": "\"The students who are applying for the scholarship must submit by Friday.\" → \"The students ___ for the scholarship...\"",
+      "correct": "applying",
+      "hint": "Active reduction: \"who are applying\" → APPLYING. \"The students APPLYING for the scholarship.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Reduce the passive relative clause.",
+      "text": "\"The report which was submitted last Tuesday.\" → \"The report ___.\"",
+      "opts": [
+        "submitting last Tuesday",
+        "submitted last Tuesday",
+        "which submitted",
+        "to submit last Tuesday"
+      ],
+      "correct": "submitted last Tuesday",
+      "hint": "Passive reduction: \"which was submitted\" → SUBMITTED. \"The report SUBMITTED last Tuesday.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Non-defining — add commas correctly.",
+      "text": "\"WKU which was founded in 1957 is in Uralsk.\" — Where do the commas go?",
+      "opts": [
+        "\"WKU, which was founded in 1957, is in Uralsk.\"",
+        "\"WKU which, was founded in 1957, is in Uralsk.\"",
+        "\"WKU which was founded, in 1957, is in Uralsk.\"",
+        "No commas needed"
+      ],
+      "correct": "\"WKU, which was founded in 1957, is in Uralsk.\"",
+      "hint": "\"WKU, WHICH was founded in 1957, is in Uralsk.\" — commas around the non-defining clause. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Formal structure — choose.",
+      "text": "\"The programme ___ she applied is very competitive.\" (formal, with preposition)",
+      "opts": [
+        "which she applied to",
+        "to which she applied",
+        "Both are correct — different formality",
+        "where she applied"
+      ],
+      "correct": "Both are correct — different formality",
+      "hint": "\"to which she applied\" (formal) ✅ / \"which she applied to\" (informal) ✅ — both correct. \"Where she applied\" also possible if \"programme\" acts as location. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Non-defining with \"whose.\"",
+      "text": "\"Kamila ___ research was shortlisted for the prize, was delighted.\"",
+      "opts": [
+        "who",
+        "whose",
+        "which",
+        "that"
+      ],
+      "correct": "whose",
+      "hint": "\"Kamila, WHOSE research was shortlisted...\" — possessive non-defining. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "\"Which\" for the whole clause.",
+      "text": "\"The project was cancelled at the last minute, ___ meant three months of work was wasted.\"",
+      "opts": [
+        "that",
+        "what",
+        "which",
+        "who"
+      ],
+      "correct": "which",
+      "hint": "\"...which MEANS THAT...\" — \"which\" refers back to the whole situation (project being cancelled). ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Defining or non-defining? Decide.",
+      "text": "\"The essay which she submitted for the prize won first place.\" — Is this defining or non-defining?",
+      "opts": [
+        "Non-defining (with commas)",
+        "Defining (no commas — tells which essay)",
+        "Neither",
+        "Depends on context"
+      ],
+      "correct": "Defining (no commas — tells which essay)",
+      "hint": "No commas = defining. \"The essay WHICH she submitted for the prize\" = tells us which essay (the prize one). ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "\"What\" vs \"which\" — choose.",
+      "text": "\"She hasn't responded yet, ___ worries me.\"",
+      "opts": [
+        "what",
+        "which",
+        "that",
+        "who"
+      ],
+      "correct": "which",
+      "hint": "\"She hasn't responded yet, WHICH worries me.\" — sentential relative = \"which.\" NOT \"what.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Find the non-defining clause without commas error.",
+      "text": "\"The WKU library which has 500,000 books is the largest in the region.\"",
+      "opts": [
+        "Correct",
+        "\"which\" needs commas — should be \"...library, which has... books,\"",
+        "\"which\" should be \"that\"",
+        "\"largest\" is wrong"
+      ],
+      "correct": "\"which\" needs commas — should be \"...library, which has... books,\"",
+      "hint": "✅ \"The WKU library, WHICH has 500,000 books, is the largest...\" — non-defining needs commas. ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Reduced relative — active.",
+      "text": "\"Anyone wishing to participate must register by Friday.\" — This is a reduction of:",
+      "opts": [
+        "\"Anyone who wished to participate\"",
+        "\"Anyone who wishes to participate\"",
+        "\"Anyone that is wishing to participate\"",
+        "\"Anyone to participate\""
+      ],
+      "correct": "\"Anyone who wishes to participate\"",
+      "hint": "\"Anyone WISHING to participate\" = \"Anyone WHO WISHES to participate.\" Active reduction: drop \"who is/are.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Formal: \"of which.\"",
+      "text": "\"The report, the conclusions of which were disputed, has been retracted.\" — This means:",
+      "opts": [
+        "\"...the report which conclusions were disputed...\"",
+        "\"...the report whose conclusions were disputed...\"",
+        "\"Both 'whose conclusions' and 'the conclusions of which' are correct\"",
+        "\"'Of which' is wrong\""
+      ],
+      "correct": "\"Both 'whose conclusions' and 'the conclusions of which' are correct\"",
+      "hint": "\"...the report, WHOSE CONCLUSIONS were disputed...\" ✅ = \"...the conclusions OF WHICH were disputed...\" ✅ — \"of which\" is the formal equivalent of \"whose\" for things. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which type of relative clause?",
+      "text": "\"The only person who understands this is Kamila.\"",
+      "opts": [
+        "Non-defining",
+        "Defining — \"the only person\" needs to be identified",
+        "\"That\" should be used, not \"who\"",
+        "Reduced clause"
+      ],
+      "correct": "Defining — \"the only person\" needs to be identified",
+      "hint": "No commas. \"The only person WHO understands this\" = defining — tells WHICH person. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Sentential which — which version is correct?",
+      "text": "\"She finished the marathon, ___ she was very proud of.\"",
+      "opts": [
+        "\"which\" only",
+        "\"that\" only",
+        "\"Both 'which' and 'that' work\"",
+        "\"what\" is better"
+      ],
+      "correct": "\"which\" only",
+      "hint": "\"She finished the marathon, WHICH she was very proud of.\" — sentential relative (refers to the whole fact) = \"which.\" NOT \"that.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Non-defining relative clauses:",
+      "opts": [
+        "Never use commas",
+        "Always have commas; never use \"that\"",
+        "Use \"that\" instead of \"which\"",
+        "Are optional extras always starting with \"that\""
+      ],
+      "correct": "Always have commas; never use \"that\"",
+      "hint": "Non-defining = ALWAYS commas. NEVER \"that.\" Must use \"who\" or \"which.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Kamila, that studies linguistics, is brilliant.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"that\" must be \"who\" — NEVER \"that\" in non-defining clause",
+        "\"Kamila\" needs \"the\"",
+        "\"studies\" should be \"studied\""
+      ],
+      "correct": "\"that\" must be \"who\" — NEVER \"that\" in non-defining clause",
+      "hint": "✅ \"Kamila, WHO studies linguistics, is brilliant.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She passed, which surprised everyone.\" — \"which\" refers to:",
+      "opts": [
+        "She",
+        "Everyone",
+        "The whole fact that she passed (sentential)",
+        "The exam"
+      ],
+      "correct": "The whole fact that she passed (sentential)",
+      "hint": "Sentential \"which\" = refers to the whole preceding clause. The fact of her passing surprised everyone. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The student ___ research was published is from Astana.\" (non-defining)",
+      "correct": "whose",
+      "hint": "\"Whose research was published\" — possessive relative. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The student studying in the corner\" is a reduced form of:",
+      "opts": [
+        "\"The student who studied\"",
+        "\"The student who is studying\"",
+        "\"The student studied\"",
+        "\"The student to study\""
+      ],
+      "correct": "\"The student who is studying\"",
+      "hint": "\"The student STUDYING\" = \"the student WHO IS STUDYING.\" Drop \"who is\" for active reduction. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The document signed yesterday\" is a reduced form of:",
+      "opts": [
+        "\"The document that signed\"",
+        "\"The document which was signed yesterday\"",
+        "\"The document signing yesterday\"",
+        "\"The signed of document\""
+      ],
+      "correct": "\"The document which was signed yesterday\"",
+      "hint": "\"The document SIGNED yesterday\" = \"the document WHICH WAS SIGNED yesterday.\" Passive reduction. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"In which\" is the formal equivalent of:",
+      "opts": [
+        "which",
+        "where (in places)",
+        "whose",
+        "when"
+      ],
+      "correct": "where (in places)",
+      "hint": "\"The room IN WHICH they met.\" = \"The room WHERE they met.\" Formal prep + which = where. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Can the clause be removed here? \"Rustam, who plays volleyball, is also a writer.\"",
+      "opts": [
+        "No — it's essential",
+        "Yes — it's extra info; remove it and \"Rustam is also a writer\" still makes sense",
+        "Only if you add \"but\"",
+        "\"Who\" makes it essential"
+      ],
+      "correct": "Yes — it's extra info; remove it and \"Rustam is also a writer\" still makes sense",
+      "hint": "Non-defining = can be removed without breaking the core meaning. \"Rustam is also a writer.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She hasn't called, what worries me.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"what\" must be \"which\" — sentential relative = which",
+        "\"called\" is wrong",
+        "\"worries\" needs past tense"
+      ],
+      "correct": "\"what\" must be \"which\" — sentential relative = which",
+      "hint": "✅ \"She hasn't called, WHICH worries me.\" — sentential relative = \"which,\" never \"what.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The professor for whom I have most respect\" — \"for whom\" is:",
+      "opts": [
+        "Wrong — should be \"who I respect for\"",
+        "Formal preposition + relative pronoun (formal style)",
+        "Non-defining marker",
+        "A reduced clause"
+      ],
+      "correct": "Formal preposition + relative pronoun (formal style)",
+      "hint": "\"For WHOM\" = formal. \"The professor FOR WHOM I have respect.\" = \"the professor who I have respect for.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When is a sentence definitely non-defining?",
+      "opts": [
+        "When \"that\" is used",
+        "When the antecedent is a name or already identified noun",
+        "When there are no commas",
+        "When \"where\" is used"
+      ],
+      "correct": "When the antecedent is a name or already identified noun",
+      "hint": "Name/specific already-identified noun → non-defining. \"Fleming, who worked at St Mary's...\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is CORRECT?",
+      "opts": [
+        "\"Uralsk, that is in western Kazakhstan, is an interesting city.\"",
+        "\"The report, which I found useful, was long.\"",
+        "\"She succeeded what motivated her further.\"",
+        "\"The building, that was built in 1920, is now a museum.\""
+      ],
+      "correct": "\"The report, which I found useful, was long.\"",
+      "hint": "\"The report, WHICH I found useful, was long.\" ✅ — commas + \"which\" = correct non-defining. ✅"
+    }
+  ]
+}

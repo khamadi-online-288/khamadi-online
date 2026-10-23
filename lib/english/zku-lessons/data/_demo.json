@@ -1,0 +1,96 @@
+{
+  "id": "default",
+  "moduleNum": 4,
+  "lessonNum": 3,
+  "moduleTitle": "My day",
+  "title": "Present Simple",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Simple — настоящее простое время",
+  "grammarNote": "Present Simple — одно из самых важных времён. Мы используем его когда говорим о действиях, которые происходят РЕГУЛЯРНО или являются ФАКТОМ.\n\n① Привычки и рутина — то, что ты делаешь постоянно:\n   \"I study English every day.\" · \"She checks her phone every morning.\"\n   \"We have classes at 8:30.\" · \"He always drinks tea for breakfast.\"\n\n② Факты и постоянные истины:\n   \"Water boils at 100°C.\" · \"Uralsk is in western Kazakhstan.\"\n   \"English is spoken in 67 countries.\"\n\n③ Расписания — официальные тайминги:\n   \"The library closes at 8 pm.\" · \"The bus leaves at 9:15.\"\n\n⚠️ ГЛАВНОЕ ПРАВИЛО — He / She / It → глагол + s:\n   I work → She work-S\n   You study → He studi-ES\n   We go → It go-ES\n\nОкончания: -s (work→works) · -es (go→goes, watch→watches) · -ies (study→studies)\n\nОтрицание:\n   I/You/We/They + DON'T + глагол → \"I don't work on Sundays.\"\n   He/She/It + DOESN'T + глагол → \"She doesn't work on Sundays.\"\n\nВопрос:\n   DO + I/You/We/They + глагол? → \"Do you work here?\"\n   DOES + He/She/It + глагол? → \"Does she work here?\"",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "base form",
+      "short": "work",
+      "example": "I work every day. · They study English. · We go to the library."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "+ s/es/ies",
+      "short": "works",
+      "example": "She works hard. · He studies medicine. · It opens at 9."
+    },
+    {
+      "subject": "Отрицание (–)",
+      "verb": "don't / doesn't",
+      "short": "base",
+      "example": "I don't know. · She doesn't live here. · They don't study law."
+    },
+    {
+      "subject": "Вопрос (?)",
+      "verb": "Do / Does",
+      "short": "+ base",
+      "example": "Do you know her? · Does he study here? · Do they work together?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Правописание окончания -s (3 правила)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Большинство глаголов → + s",
+          "example": "work→works · read→reads · play→plays · drink→drinks · come→comes"
+        },
+        {
+          "form": "Оканчиваются на -o, -sh, -ch, -x → + es",
+          "example": "go→goes · do→does · watch→watches · wash→washes · fix→fixes"
+        },
+        {
+          "form": "Оканчиваются на согл.+y → -ies",
+          "example": "study→studies · carry→carries · fly→flies · try→tries"
+        }
+      ]
+    },
+    {
+      "title": "Сигнальные слова Present Simple",
+      "color": "#1D9E75",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Частота",
+          "example": "always · usually · often · sometimes · rarely · never · every day/week/month"
+        },
+        {
+          "form": "Время суток",
+          "example": "in the morning · at night · at 8 o'clock · on Mondays · at weekends"
+        },
+        {
+          "form": "Другие слова",
+          "example": "generally · regularly · normally · tend to · as a rule"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три типа окончаний для He/She/It:\n① Большинство → + s: work→works, read→reads, play→plays\n② После sh/ch/o/x/ss → + es: go→goes, watch→watches, wash→washes\n③ Согл.+y → ies: study→studies, try→tries, carry→carries\n\nВажно: в отрицании (doesn't) и вопросе (Does?) глагол ВСЕГДА без окончания!\n\"Does she studIES?\" ❌ → \"Does she study?\" ✅\n\"She doesn't workS.\" ❌ → \"She doesn't work.\" ✅",
+  "exercises": [],
+  "questions": []
+}

@@ -1,0 +1,378 @@
+{
+  "id": "l82-3b",
+  "moduleNum": 24,
+  "lessonNum": 4,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "The Architecture of Academic Argument: From Claim to Conclusion",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Prof. Kim",
+      "text": "Good morning. Today I want to take a step back and talk about something fundamental: what actually happens when we make an academic argument, and what it looks like when it goes wrong. I want to use the Toulmin model of argument as a framework — it's one of the most useful tools I know for analysing and improving academic reasoning.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Kim",
+      "text": "Stephen Toulmin was a British philosopher who, in the 1950s, proposed an analysis of how arguments actually work in practice, as opposed to how formal logic says they should work. His model has six elements: claim, grounds, warrant, backing, qualifier, and rebuttal. Let's go through them.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Kim",
+      "text": "The \"claim\" is the conclusion you want to establish — the central position of your argument. The \"grounds\" are the facts, evidence, or data that support the claim. The \"warrant\" is the principle or assumption that connects the grounds to the claim — it explains why the evidence supports the conclusion. The \"backing\" is the support for the warrant itself — the reasons why the warrant is reliable or valid.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Kim",
+      "text": "Interestingly, the warrant is often the weakest part of student arguments. Students typically present their claim and their evidence clearly enough, but fail to articulate the principle that connects them. \"Studies show that bilingual students perform better on attention tasks\" — that's grounds. \"Bilingualism provides cognitive advantages\" — that's the claim. But the warrant — the principle explaining why performing better on attention tasks constitutes a cognitive advantage, and why cognitive advantages matter for the claim at hand — is often left implicit.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Kim",
+      "text": "The \"qualifier\" is Toulmin's recognition that most real-world arguments are not absolute — they hold in most cases, or under certain conditions, or to a certain degree. \"This evidence strongly suggests…\" \"Under these specific conditions, it appears that…\" \"In the majority of cases…\" These qualifiers are not weakness — they are intellectual honesty. An argument that claims too much is vulnerable; an argument that qualifies its claims appropriately is more defensible.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Kim",
+      "text": "The \"rebuttal\" is the acknowledgement of conditions under which the claim would not hold — the counter-argument or exception. Notably, including a rebuttal does not weaken your argument if you handle it well. If you can identify the conditions under which your claim fails and show that those conditions do not apply in the case you're arguing, you've actually strengthened your position. You've shown that you know the limits of your argument, and that it holds within those limits.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Prof. Kim",
+      "text": "Let me close with a practical observation. One of the most common ways academic arguments fail is at the level of the warrant — students present evidence and conclusions but do not explain the inferential step between them. The reader is left asking: \"Why should I accept that this evidence establishes this conclusion?\" Crucially, making this step explicit is not about dumbing down your argument for a less sophisticated reader. It is about the intellectual work of actually making the argument, rather than gesturing at it.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "Toulmin model",
+      "ru": "Модель Тулмина",
+      "context": "A six-part framework for analysing practical arguments (claim, grounds, warrant, backing, qualifier, rebuttal)"
+    },
+    {
+      "phrase": "warrant",
+      "ru": "основание / связующий принцип",
+      "context": "The principle that connects evidence (grounds) to the conclusion (claim)"
+    },
+    {
+      "phrase": "qualifier",
+      "ru": "квалификатор / оговорка",
+      "context": "Language acknowledging that the claim holds under certain conditions or to a certain degree"
+    },
+    {
+      "phrase": "rebuttal",
+      "ru": "опровержение / условие исключения",
+      "context": "The counter-argument or conditions under which the claim would not hold"
+    },
+    {
+      "phrase": "inferential step",
+      "ru": "умозаключительный шаг",
+      "context": "The logical move from evidence to conclusion — what the warrant makes explicit"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "warrant",
+      "ipa": "/ˈwɒrənt/",
+      "pos": "noun",
+      "ru": "основание / связующий принцип",
+      "kz": "негіздеме",
+      "emoji": "🔗",
+      "definition": "in argumentation: the principle or assumption that connects evidence to the conclusion",
+      "example": "\"The warrant is often the weakest part of student arguments — the connection between evidence and claim.\"",
+      "collocations": [
+        "the warrant for",
+        "implicit warrant",
+        "state the warrant explicitly"
+      ]
+    },
+    {
+      "en": "qualifier",
+      "ipa": "/ˈkwɒlɪfaɪə/",
+      "pos": "noun",
+      "ru": "квалификатор / оговорка",
+      "kz": "шектеуші",
+      "emoji": "🔵",
+      "definition": "language that limits the strength of a claim — \"suggests,\" \"in most cases,\" \"under these conditions\"",
+      "example": "\"Qualifiers are not weakness — they are intellectual honesty about the limits of your claim.\"",
+      "collocations": [
+        "use a qualifier",
+        "appropriate qualifier",
+        "hedging qualifier"
+      ]
+    },
+    {
+      "en": "rebuttal",
+      "ipa": "/rɪˈbʌtl/",
+      "pos": "noun",
+      "ru": "опровержение / контраргумент",
+      "kz": "жоққа шығару",
+      "emoji": "⚔️",
+      "definition": "a counter-argument; in Toulmin's model: the conditions under which the claim would not hold",
+      "example": "\"Including a rebuttal does not weaken your argument if you handle it well.\"",
+      "collocations": [
+        "include a rebuttal",
+        "address the rebuttal",
+        "rebuttal to the argument"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "warrant (in argumentation)",
+      "emoji": "🔗",
+      "opts": [
+        "the principle connecting evidence to the conclusion",
+        "the central claim of the essay",
+        "the sources used to support the argument",
+        "the conclusion of the argument"
+      ],
+      "correct": "the principle connecting evidence to the conclusion"
+    },
+    {
+      "id": "p2",
+      "word": "qualifier",
+      "emoji": "🔵",
+      "opts": [
+        "language limiting the strength of a claim",
+        "a type of citation format",
+        "a sentence summarising the argument",
+        "evidence that supports the main claim"
+      ],
+      "correct": "language limiting the strength of a claim"
+    }
+  ],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What are the six elements of Toulmin's model of argument?",
+      "correct": "Claim, grounds, warrant, backing, qualifier, rebuttal"
+    },
+    {
+      "id": "t2",
+      "question": "Why is the warrant often the weakest part of student arguments?",
+      "correct": "Students present claim and evidence but fail to articulate the principle connecting them — the inferential step is left implicit"
+    },
+    {
+      "id": "t3",
+      "question": "What does Prof. Kim say about qualifiers?",
+      "correct": "Qualifiers are not weakness — they are intellectual honesty; an argument claiming too much is more vulnerable than one that qualifies appropriately"
+    },
+    {
+      "id": "t4",
+      "question": "What does including a rebuttal do to an argument, if handled well?",
+      "correct": "It strengthens the argument — showing you know its limits and that the counter-conditions don't apply in this case"
+    },
+    {
+      "id": "t5",
+      "question": "What is the most common way academic arguments fail, according to Prof. Kim?",
+      "correct": "At the warrant — students present evidence and conclusions but don't explain the inferential step between them"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Toulmin's model was designed to describe formal logical proofs.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "The warrant connects the evidence (grounds) to the claim.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Using qualifiers makes an argument weaker and less academic.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Including a rebuttal is described as potentially strengthening an argument.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Prof. Kim says making the warrant explicit is about dumbing down the argument.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is the \"warrant\" in Toulmin's model?",
+      "opts": [
+        "The conclusion of the argument",
+        "The evidence supporting the claim",
+        "The principle connecting evidence to the claim",
+        "The counter-argument being addressed"
+      ],
+      "correct": "The principle connecting evidence to the claim",
+      "hint": "Lecture: \"the principle or assumption that connects the grounds to the claim\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "Why is the warrant often the weakest part of student arguments?",
+      "opts": [
+        "Students don't understand how to find evidence",
+        "The principle connecting evidence to claim is left implicit",
+        "Students argue too many claims at once",
+        "The warrant requires citations that are hard to find"
+      ],
+      "correct": "The principle connecting evidence to claim is left implicit",
+      "hint": "Lecture: \"often left implicit\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Prof. Kim say about qualifiers?",
+      "opts": [
+        "They make arguments too uncertain",
+        "They should be avoided in strong academic writing",
+        "They are intellectual honesty, not weakness",
+        "They are only appropriate in scientific papers"
+      ],
+      "correct": "They are intellectual honesty, not weakness",
+      "hint": "Lecture: \"qualifiers are not weakness — they are intellectual honesty\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "How can including a rebuttal strengthen an argument?",
+      "opts": [
+        "It makes the essay longer",
+        "By showing you know the limits of your claim and that they don't apply here",
+        "It confuses the reader and they give up criticising",
+        "It shows that the opposing view is totally wrong"
+      ],
+      "correct": "By showing you know the limits of your claim and that they don't apply here",
+      "hint": "Lecture: \"shown that you know the limits… and that it holds within those limits\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Prof. Kim says making the warrant explicit is about dumbing down the argument.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"not about dumbing down… it is about the intellectual work of actually making the argument\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Toulmin proposed his model as a description of formal logic.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"how arguments actually work in practice, as opposed to how formal logic says they should work\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the strongest counter-argument is the lack of longitudinal evidence.\" (most important/decisive)",
+      "opts": [
+        "Notably",
+        "Admittedly",
+        "Crucially",
+        "Interestingly"
+      ],
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = most important, decisive point",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___, these studies do not establish causation — only correlation.\" (acknowledging an important limitation)",
+      "correct": "Importantly / Crucially / Notably",
+      "hint": "Stance adverb introducing a key qualification",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the studies with the largest samples showed the strongest effects.\" (noting something worth attention)",
+      "opts": [
+        "Admittedly",
+        "Notably",
+        "Arguably",
+        "Evidently"
+      ],
+      "correct": "Notably",
+      "hint": "\"Notably\" = worth noting, particularly worth attention",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is a \"rebuttal\" in academic argumentation?",
+      "opts": [
+        "A summary of the main argument",
+        "A reference to a key source",
+        "A counter-argument or the conditions under which the claim would not hold",
+        "The conclusion of the essay"
+      ],
+      "correct": "A counter-argument or the conditions under which the claim would not hold",
+      "hint": "Lecture: \"conditions under which the claim would not hold\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is a \"qualifier\" in academic writing?",
+      "opts": [
+        "A person who qualifies for a course",
+        "Language that limits the strength of a claim — \"suggests,\" \"in most cases\"",
+        "A type of citation format",
+        "The backing for a warrant"
+      ],
+      "correct": "Language that limits the strength of a claim — \"suggests,\" \"in most cases\"",
+      "hint": "Lecture: \"qualifier is Toulmin's recognition that most real-world arguments are not absolute\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The principle that connects the evidence (grounds) to the conclusion (claim) is called the ___.",
+      "correct": "warrant",
+      "hint": "Lecture: Toulmin's model — \"warrant\"",
+      "points": 1
+    }
+  ]
+}

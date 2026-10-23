@@ -1,0 +1,427 @@
+{
+  "id": "l33-5",
+  "moduleNum": 17,
+  "lessonNum": 5,
+  "moduleTitle": "Film & Literature",
+  "type": "test",
+  "title": "Module 17 Final Test",
+  "xp": 100,
+  "duration": 55,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is Kamila's favourite book about?",
+      "opts": [
+        "A galactic empire's fall",
+        "Social media and democracy",
+        "A friendship tested by betrayal and redemption",
+        "A boy who dreams of space"
+      ],
+      "correct": "A friendship tested by betrayal and redemption",
+      "hint": "Paragraph 2: \"a novel that tells the story of a friendship that is tested by betrayal and redemption.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "\"October Sky\" is a fictional story Kamila invented.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Paragraph 3: \"October Sky, a true story about a boy who dreams of becoming a rocket scientist.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What theme does Amir's favourite book explore?",
+      "opts": [
+        "Love and betrayal",
+        "Civilisation, history, and knowledge",
+        "Social media and youth",
+        "Sports and determination"
+      ],
+      "correct": "Civilisation, history, and knowledge",
+      "hint": "Paragraph 4: \"It's a book that makes you think about civilisation, history, and the power of knowledge.\""
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What does Dr. Akhmetov say about difficult books?",
+      "opts": [
+        "Avoid them until your English is advanced",
+        "A book that makes you uncomfortable can change you the most",
+        "Only read books in your native language first",
+        "Difficult books are not useful for beginners"
+      ],
+      "correct": "A book that makes you uncomfortable can change you the most",
+      "hint": "Paragraph 6: \"A book that makes you uncomfortable is often the book that changes you the most.\""
+    },
+    {
+      "id": "q5",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Zhibek says \"The Social Dilemma\" is a film that everyone ___ watch.",
+      "correct": "should",
+      "hint": "\"It's a film that everyone should watch,\" she says firmly."
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did Kamila suggest watching?",
+      "opts": [
+        "A Hollywood blockbuster",
+        "A Kazakh film that received great reviews",
+        "An international documentary",
+        "An animated film"
+      ],
+      "correct": "A Kazakh film that received great reviews",
+      "hint": "Statement 3: \"She suggests a Kazakh film that has received great reviews.\""
+    },
+    {
+      "id": "q7",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Gulnaz mentioned an actor who has only appeared in Kazakh films.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Statement 5: \"She mentions an actor who has appeared in many international films.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How many new films is the cinema showing?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "Three",
+      "hint": "Statement 4: \"the cinema that they always go to is now showing three new films.\""
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Kamila's position on choosing a film?",
+      "opts": [
+        "She insists on her choice",
+        "She refuses to watch action films",
+        "She will go to any film the group agrees on",
+        "She only wants to watch Kazakh films"
+      ],
+      "correct": "She will go to any film the group agrees on",
+      "hint": "Statement 6: \"She says she will go to any film that the group agrees on.\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Gulnaz prefers films that have interesting characters and deep ___.",
+      "correct": "emotions",
+      "hint": "Statement 2: \"films that have interesting characters and deep emotions.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"who\" in relative clauses is used for:",
+      "opts": [
+        "Things",
+        "Places",
+        "People",
+        "Possession"
+      ],
+      "correct": "People",
+      "hint": "\"who\" = relative pronoun for people."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "It's a documentary ___ examines the impact of social media.",
+      "correct": "that",
+      "hint": "\"that\" or \"which\" — both correct for things in defining clauses."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Non-defining relative clauses always use:",
+      "opts": [
+        "No punctuation",
+        "Commas",
+        "\"that\" as the pronoun",
+        "Brackets"
+      ],
+      "correct": "Commas",
+      "hint": "Non-defining relative clauses are separated by commas."
+    },
+    {
+      "id": "q14",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Kamila, that loves reading, is a blogger\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Non-defining clauses CANNOT use \"that.\" Correct: \"Kamila, who loves reading, is a blogger.\""
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Foundation, ___ Amir loves, is a classic series.",
+      "correct": "which",
+      "hint": "Non-defining clause for a thing → \"which\" with commas."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "When can \"that\" be omitted in a relative clause?",
+      "opts": [
+        "When it refers to a place",
+        "When it is the subject",
+        "When it is the object of the clause",
+        "In non-defining clauses only"
+      ],
+      "correct": "When it is the object of the clause",
+      "hint": "Object pronouns can be omitted in defining clauses: \"The book (that) I read was great.\""
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Correct use of \"where\":",
+      "opts": [
+        "She is a student where studies hard.",
+        "That's the library where I study.",
+        "It's a book where I recommend.",
+        "She is someone where I admire."
+      ],
+      "correct": "That's the library where I study.",
+      "hint": "\"where\" = relative pronoun for places."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She is a director ___ films are shown worldwide.",
+      "correct": "whose",
+      "hint": "\"whose\" = relative pronoun for possession."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is a defining relative clause?",
+      "opts": [
+        "Zhibek, who is the club president, loves films.",
+        "WKU, which is in Uralsk, is a great university.",
+        "The book that I read was amazing.",
+        "Dr. Akhmetov, who teaches English, wrote a paper."
+      ],
+      "correct": "The book that I read was amazing.",
+      "hint": "No commas + essential information = defining relative clause."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"The student who wins the prize will receive a scholarship\" has a defining relative clause.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "No commas, identifies WHICH student → defining relative clause."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Betrayal\" means:",
+      "opts": [
+        "Being very loyal to someone",
+        "Breaking trust or being disloyal",
+        "An emotional scene in a film",
+        "A plot twist in a novel"
+      ],
+      "correct": "Breaking trust or being disloyal",
+      "hint": "\"Betrayal\" = the act of being unfaithful or disloyal to someone who trusted you."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Documentary\" is:",
+      "opts": [
+        "A fictional story set in the future",
+        "A film or programme presenting real facts",
+        "A type of animated film",
+        "A short story collection"
+      ],
+      "correct": "A film or programme presenting real facts",
+      "hint": "\"Documentary\" = a non-fiction film that presents real people and events."
+    },
+    {
+      "id": "q23",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Redemption\" means being punished for something wrong.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Redemption\" = being saved from wrongdoing; making amends; opposite of punishment."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "Science ___ is a genre set in the future or in space.",
+      "correct": "fiction",
+      "hint": "\"Science fiction\" = a genre involving imaginative, futuristic, or scientific concepts."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Analytical\" skills allow you to:",
+      "opts": [
+        "Make things by hand",
+        "Speak fluently in public",
+        "Examine and evaluate information carefully",
+        "Write creative fiction"
+      ],
+      "correct": "Examine and evaluate information carefully",
+      "hint": "\"Analytical\" = the ability to break down complex information and understand it."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"To inspire\" means:",
+      "opts": [
+        "To frighten someone",
+        "To give someone enthusiasm and desire to achieve something",
+        "To force someone to do something",
+        "To confuse or mislead someone"
+      ],
+      "correct": "To give someone enthusiasm and desire to achieve something",
+      "hint": "\"Inspire\" = to fill with enthusiasm, motivation, or creative energy."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"novel\" is a type of short poem.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "A \"novel\" = a long fictional prose work. Not a poem."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Genre\" refers to:",
+      "opts": [
+        "The number of pages in a book",
+        "A category of art such as romance, thriller, or science fiction",
+        "The book's main character",
+        "The author's nationality"
+      ],
+      "correct": "A category of art such as romance, thriller, or science fiction",
+      "hint": "\"Genre\" = a category of literature, film, or music with shared characteristics."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Plot\" in a film or book means:",
+      "opts": [
+        "The theme or moral lesson",
+        "The series of events that make up the story",
+        "The setting or location",
+        "The dialogue between characters"
+      ],
+      "correct": "The series of events that make up the story",
+      "hint": "\"Plot\" = the sequence of events in a story; what happens."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "She ___ the book to all her friends — it changed the way she thinks.",
+      "correct": "recommended",
+      "hint": "\"Recommend\" = suggest that something is good for someone."
+    }
+  ]
+}

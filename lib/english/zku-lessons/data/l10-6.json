@@ -1,0 +1,429 @@
+{
+  "id": "l10-6",
+  "moduleNum": 10,
+  "lessonNum": 8,
+  "moduleTitle": "Yesterday",
+  "title": "Module 10 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Daniyal study at WKU?",
+      "opts": [
+        "Economics",
+        "Computer Science",
+        "Medicine",
+        "Law"
+      ],
+      "correct": "Law",
+      "hint": "\"My name is Daniyal Sultanov. I study Law at WKU — it is my first year.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The weather was cold and rainy on Daniyal's great day.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The weather was sunny and surprisingly warm for October — the sky was clear and blue.\" — Daniyal."
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How long was Daniyal in the library after his lecture?",
+      "opts": [
+        "One hour",
+        "Three hours",
+        "Two hours",
+        "Four hours"
+      ],
+      "correct": "Two hours",
+      "hint": "\"After the lecture, I was in the university library for two hours.\" — Daniyal."
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "When the judges announced the result, Daniyal's team was the ___.",
+      "correct": "winner",
+      "hint": "\"When the judges announced the result, my team was the winner.\" — the best moment of Daniyal's day."
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why was Ainur's morning a disaster?",
+      "opts": [
+        "She missed the bus to WKU",
+        "She forgot her textbooks at home",
+        "She was sick and had a fever",
+        "Her alarm was broken and she was soaking wet in the rain"
+      ],
+      "correct": "Her alarm was broken and she was soaking wet in the rain",
+      "hint": "\"My alarm clock was broken — it was silent all night.\" + \"There was a strong wind and it was raining. My umbrella was at home in Kostanay. I was wet, cold, and hungry.\" — Ainur."
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Ainur was well-prepared for the unexpected quiz in her second lecture.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I was completely unprepared — I was sure the quiz was scheduled for Friday, not Monday.\" — Ainur."
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Who helped Ainur at the end of her difficult day?",
+      "opts": [
+        "Dr. Seitkali",
+        "Her friend Asel",
+        "Her mother from Kostanay",
+        "Her roommate Gulnara"
+      ],
+      "correct": "Her roommate Gulnara",
+      "hint": "\"My roommate Gulnara was there — she was kind and caring. She made a big cup of tea for both of us.\" — Ainur."
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "At lunch, what were the problems Ainur faced in the cafeteria?",
+      "opts": [
+        "It was closed and she was hungry",
+        "The food was too spicy and expensive",
+        "It was crowded, the soup was cold, there was no bread, and she was alone",
+        "Her friends were rude and left without her"
+      ],
+      "correct": "It was crowded, the soup was cold, there was no bread, and she was alone",
+      "hint": "\"The cafeteria was crowded. The soup was already cold and there was no bread left. I was alone because my friends were at a different lecture.\" — Ainur."
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where do Daniyal and Ainur meet at the start of the conversation?",
+      "opts": [
+        "In the university library",
+        "In the WKU cafeteria",
+        "At the Debate Club",
+        "In the WKU corridor"
+      ],
+      "correct": "In the WKU corridor",
+      "hint": "They meet \"in the corridor\" on Tuesday morning and start comparing their very different Mondays."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyal says the weather on his Monday was cold, rainy, and windy.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Mine was actually great! The weather was sunny and warm all day.\" — Daniyal. It was AINUR's day that was cold and rainy."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Ainur was almost ___ minutes late to her Anatomy lecture.",
+      "correct": "ten",
+      "hint": "\"No — I was almost ten minutes late! My alarm clock was broken.\" — Ainur tells Daniyal."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why were Ainur's friends not at lunch with her?",
+      "opts": [
+        "They were at the library",
+        "They were at the Debate Club",
+        "They were asleep in the dormitory",
+        "They were all busy at a different lecture"
+      ],
+      "correct": "They were all busy at a different lecture",
+      "hint": "\"No — they were all busy. I was alone.\" — Ainur explains to Daniyal why she was at lunch by herself."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Daniyal says he was confident and calm from the very start of the debate.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I was very nervous at first, but once I started speaking, I was fine.\" — Daniyal. He WAS nervous at first."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long was Ainur in the library in the afternoon?",
+      "opts": [
+        "One hour",
+        "Two hours",
+        "Four hours",
+        "Three hours"
+      ],
+      "correct": "Three hours",
+      "hint": "\"Yes, for three whole hours. I was exhausted but I was determined to finish my notes.\" — Ainur."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The weather ___ sunny and the sky ___ clear and blue all day.\"",
+      "opts": [
+        "were / were",
+        "was / were",
+        "were / was",
+        "was / was"
+      ],
+      "correct": "was / was",
+      "hint": "\"Weather\" = it (singular) → WAS. \"Sky\" = it (singular) → WAS. Both are singular nouns → both take WAS."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"My friends were all busy during lunchtime\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Friends\" = they = plural → WERE. ✅ \"My friends WERE all busy.\" — Ainur tells Daniyal. Plural nouns always take WERE."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"The cafeteria ___ crowded — every table was full and the queue was very long.\"",
+      "correct": "was",
+      "hint": "\"Cafeteria\" = it = singular → WAS. \"The cafeteria WAS crowded.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ your team the winner, Daniyal?\" — \"Yes, we were!\"",
+      "opts": [
+        "Were",
+        "Is",
+        "Are",
+        "Was"
+      ],
+      "correct": "Was",
+      "hint": "\"Your team\" = it = singular → WAS. \"WAS your team the winner?\" ✅ (not \"were your team\" — team is one unit)"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Ainur speaks about the quiz: \"The questions ___ very difficult — I ___ not ready at all.\"",
+      "opts": [
+        "was / were",
+        "were / were",
+        "was / was",
+        "were / was"
+      ],
+      "correct": "were / was",
+      "hint": "\"Questions\" = they = plural → WERE ✅. \"I\" = singular → WAS ✅. \"The questions WERE difficult. I WAS not ready.\""
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I weren't ready for the quiz\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I\" takes WAS / WASN'T — never WERE / WEREN'T! → \"I WASN'T ready.\" ✅ \"weren't\" is only for you/we/they."
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"Was the Constitutional Law lecture interesting?\" — \"Yes, it ___!\"",
+      "correct": "was",
+      "hint": "Short answer to \"Was it...?\" → \"Yes, it WAS.\" ✅ Never repeat the adjective — just subject + was."
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "There were a quiz in the second lecture.",
+        "There was some quizzes yesterday.",
+        "There was an unexpected quiz in the second lecture.",
+        "There were the quiz on Monday."
+      ],
+      "correct": "There was an unexpected quiz in the second lecture.",
+      "hint": "\"A quiz\" = one = singular → \"There WAS a quiz.\" ✅ (not \"there were a quiz\" — quiz is singular!)"
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"outstanding\" mean?",
+      "opts": [
+        "very strict and serious with students",
+        "extremely tired after a long day",
+        "extremely good, clearly better than others",
+        "very crowded and uncomfortable"
+      ],
+      "correct": "extremely good, clearly better than others",
+      "hint": "\"Dr. Akhanov was outstanding yesterday — his explanations were clear and his stories were truly fascinating.\" — Daniyal."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Miserable\" means feeling very happy and excited about something.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Miserable\" = feeling very UNHAPPY and uncomfortable. \"Ainur was alone in the crowded cafeteria — she felt truly miserable.\" The opposite of happy."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Ainur's notes from the lecture were ___ because she arrived ten minutes late.",
+      "correct": "incomplete",
+      "hint": "\"Incomplete\" = not finished, missing some parts. \"My notes from Monday's anatomy lecture were incomplete because I was late.\" — Ainur."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"stern\" mean?",
+      "opts": [
+        "kind and encouraging to students",
+        "shy and quiet in class",
+        "serious and strict, showing disapproval",
+        "confused and unsure of herself"
+      ],
+      "correct": "serious and strict, showing disapproval",
+      "hint": "\"Dr. Seitkali's face was stern — she was not happy that Ainur was late.\" Stern = строгий / суровый."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"companionship\"?",
+      "opts": [
+        "a type of legal contract",
+        "a university study method",
+        "the feeling of friendship and comfort from being with someone",
+        "a quiet room for studying alone"
+      ],
+      "correct": "the feeling of friendship and comfort from being with someone",
+      "hint": "\"That moment of quiet companionship was the best part of the entire day.\" — Ainur about sitting with Gulnara over tea."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Determined\" means giving up easily when things get difficult.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Determined\" = having a STRONG wish to do something and NOT giving up. \"I was frustrated and tired. But I was also determined.\" — Ainur in the library."
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Ainur had no umbrella, so she was ___ wet when she arrived at WKU.",
+      "correct": "soaking",
+      "hint": "\"Soaking wet\" = промокший насквозь — completely wet all the way through. \"I was soaking wet!\" — Ainur."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"content\" mean?",
+      "opts": [
+        "very sad and deeply disappointed",
+        "very excited and full of energy",
+        "extremely tired after hard work",
+        "quietly happy and satisfied with your situation"
+      ],
+      "correct": "quietly happy and satisfied with your situation",
+      "hint": "\"After the phone call, Daniyal was tired but content — it was a good day.\" Content = доволен / умиротворённый."
+    }
+  ]
+}

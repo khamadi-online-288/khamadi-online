@@ -1,0 +1,255 @@
+{
+  "id": "l12-4",
+  "moduleNum": 12,
+  "lessonNum": 4,
+  "moduleTitle": "Travel and places",
+  "title": "How do I get there?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Zara",
+      "text": "Excuse me! Could you help me? I am looking for the central post office. I think it is near here, but I cannot find it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "Yes, of course! You are on the right street. Walk straight on along this road for about three minutes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Three minutes straight on. OK. And then?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "At the end of this road, you will reach a big crossroads. Turn left at the crossroads.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Turn left at the crossroads. Got it. And then what do I look for?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "After you turn left, you will see a tall red-brick building on your right. That is the city library. Walk past the library and continue along the road.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Past the red-brick library on the right. And then the post office?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "Almost! Keep going until you reach a small park. The post office is directly opposite the park — you can see it from the park entrance.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Opposite the park — that is easy to remember! Is there a bus stop near the post office?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "Yes, there is a bus stop right in front of the post office, next to the park gates. Buses number 4 and 7 stop there.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "Perfect! And how long does it take on foot from here?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "About ten to twelve minutes. It is not far at all. And if you get confused, the library is your landmark — you can see it from most of the road.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zara",
+      "text": "That is very helpful. Thank you so much — you explained it really clearly!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Marat",
+      "text": "You are welcome! Good luck — and enjoy exploring Uralsk!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "crossroads",
+      "emoji": "🔀",
+      "opts": [
+        "парковка",
+        "перекрёсток",
+        "тупик",
+        "скоростная трасса"
+      ],
+      "correct": "перекрёсток"
+    },
+    {
+      "id": "p2",
+      "word": "straight on",
+      "emoji": "➡️",
+      "opts": [
+        "налево",
+        "направо",
+        "назад",
+        "прямо"
+      ],
+      "correct": "прямо"
+    },
+    {
+      "id": "p3",
+      "word": "post office",
+      "emoji": "📮",
+      "opts": [
+        "банк",
+        "больница",
+        "почта / почтовое отделение",
+        "рынок"
+      ],
+      "correct": "почта / почтовое отделение"
+    },
+    {
+      "id": "p4",
+      "word": "opposite",
+      "emoji": "🔄",
+      "opts": [
+        "рядом",
+        "за",
+        "между",
+        "напротив"
+      ],
+      "correct": "напротив"
+    },
+    {
+      "id": "p5",
+      "word": "landmark",
+      "emoji": "🗺️",
+      "opts": [
+        "светофор",
+        "остановка",
+        "ориентир / известное место",
+        "скамейка"
+      ],
+      "correct": "ориентир / известное место"
+    },
+    {
+      "id": "p6",
+      "word": "red-brick",
+      "emoji": "🧱",
+      "opts": [
+        "стеклянный",
+        "деревянный",
+        "бетонный",
+        "кирпичный красный"
+      ],
+      "correct": "кирпичный красный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Zara is looking for the city library.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Marat tells Zara to turn left at the crossroads.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "The city library is on the left side of the road after the crossroads.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The post office is directly opposite a small park.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Bus numbers 4 and 7 stop in front of the post office.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The post office is about twenty minutes away on foot.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "zara",
+      "name": "Zara",
+      "city": "Aktobe",
+      "emoji": "🌿",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Ecology student, Year 1"
+    },
+    {
+      "id": "marat",
+      "name": "Marat",
+      "city": "Pavlodar",
+      "emoji": "🏙️",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "Architecture student, Year 3"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Is new to Uralsk and cannot find the post office.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s2",
+      "text": "Said to walk straight and then turn left at the crossroads.",
+      "correctCharId": "marat"
+    },
+    {
+      "id": "s3",
+      "text": "Described the tall red-brick library as a landmark on the right.",
+      "correctCharId": "marat"
+    },
+    {
+      "id": "s4",
+      "text": "Asked about the bus stop near the post office.",
+      "correctCharId": "zara"
+    },
+    {
+      "id": "s5",
+      "text": "Explained that buses 4 and 7 stop in front of the post office.",
+      "correctCharId": "marat"
+    },
+    {
+      "id": "s6",
+      "text": "Said the walk takes about ten to twelve minutes.",
+      "correctCharId": "marat"
+    }
+  ]
+}

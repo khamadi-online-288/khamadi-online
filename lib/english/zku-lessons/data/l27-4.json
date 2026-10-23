@@ -1,0 +1,131 @@
+{
+  "id": "l27-4",
+  "moduleNum": 11,
+  "lessonNum": 4,
+  "moduleTitle": "Conditionals",
+  "type": "writing",
+  "title": "Writing: What I Will Do If I Pass My Exams",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    "My name is Kamila and I have three big exams next month. I am excited and a little nervous.",
+    "If I pass all my exams, I will celebrate with my family. We will have a special dinner at home. If I get a high score in English, I will feel very proud.",
+    "If I fail one exam, I won't give up. I will study harder and try again. I always say: if something is difficult, it just means I need more time.",
+    "If I do well this semester, I will apply for the WKU scholarship next year. That is my biggest dream. If I get the scholarship, I will study in a partner university abroad.",
+    "So — wish me luck! If I work hard, I know I will succeed."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro1",
+      "prefix": "My name is ",
+      "suffix": " and I have",
+      "placeholder": "your name",
+      "hint": "e.g. Aibek / Zarina / Rustam"
+    },
+    {
+      "key": "intro2",
+      "prefix": "",
+      "suffix": " coming up soon.",
+      "placeholder": "what you have (exams / tests / an important event)",
+      "hint": "e.g. three big exams / an important presentation"
+    },
+    {
+      "key": "cond1",
+      "prefix": "If I ",
+      "suffix": ", I will ",
+      "placeholder": "positive condition",
+      "hint": "e.g. pass all my exams / get a high score"
+    },
+    {
+      "key": "cond1r",
+      "prefix": "",
+      "suffix": ". Also, if I ",
+      "placeholder": "what you will do or feel",
+      "hint": "e.g. celebrate with my family / feel very proud"
+    },
+    {
+      "key": "cond2",
+      "prefix": "",
+      "suffix": ", I will ",
+      "placeholder": "another positive condition",
+      "hint": "e.g. do well this semester / finish all assignments early"
+    },
+    {
+      "key": "cond2r",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "another result",
+      "hint": "e.g. apply for the scholarship / take a summer course"
+    },
+    {
+      "key": "neg",
+      "prefix": "If I don't ",
+      "suffix": ", I won't give up. I will ",
+      "placeholder": "worst case scenario",
+      "hint": "e.g. pass one exam / get the grade I need"
+    },
+    {
+      "key": "negr",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "what you will do instead",
+      "hint": "e.g. study harder and try again / ask my professor for help"
+    },
+    {
+      "key": "goal",
+      "prefix": "If I do well, I will ",
+      "suffix": ". That is my goal for this year.",
+      "placeholder": "your big dream/goal",
+      "hint": "e.g. apply for a scholarship / travel abroad / study at a partner university"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "First conditional",
+      "color": "#003876",
+      "items": [
+        "If I pass my exams, I will…",
+        "If I do well this semester, I will…",
+        "If I get a high score, I will feel…",
+        "If I work hard, I know I will succeed."
+      ]
+    },
+    {
+      "category": "Negative conditional",
+      "color": "#EF4444",
+      "items": [
+        "If I don't pass, I won't give up.",
+        "I will study harder and try again.",
+        "If something is difficult, I just need more time.",
+        "Every challenge is a learning opportunity."
+      ]
+    },
+    {
+      "category": "Goals & motivation",
+      "color": "#1D9E75",
+      "items": [
+        "That is my dream / goal.",
+        "I am excited and a little nervous.",
+        "I have already started preparing.",
+        "Wish me luck!"
+      ]
+    }
+  ],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

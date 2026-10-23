@@ -1,0 +1,192 @@
+{
+  "id": "l84-3",
+  "moduleNum": 26,
+  "lessonNum": 3,
+  "moduleTitle": "B1 Final Exam",
+  "type": "writing",
+  "title": "Writing Exam (2 tasks)",
+  "xp": 400,
+  "duration": 120,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "writingModel": [
+    "═══ WRITING TASK 1: SEMI-FORMAL EMAIL ═══",
+    "You are Aigerim Bekova, a recent graduate applying for an internship at GlobalLink, an international NGO. Write a semi-formal email to the Internship Coordinator:\n• Introduce yourself and explain why you are interested in this internship\n• Mention two specific skills or experiences that make you suitable\n• Ask one question about the internship programme\n• Close appropriately (150–180 words)",
+    "─── MODEL ANSWER ───",
+    "Dear Ms. Nazarova,",
+    "I am writing to apply for the International Programmes Internship advertised on the GlobalLink website. I am a recent International Relations graduate from WKU, Uralsk, and I am very interested in the work GlobalLink does in community development and environmental policy.",
+    "I believe I have two qualities that make me a strong candidate. Firstly, I have practical experience coordinating multi-stakeholder projects: during my final year at WKU, I managed a team of five students in a community research project in partnership with the Uralsk Environmental Agency. Secondly, I have strong written and spoken English skills at B1 level, which I have developed through two years of structured academic study alongside my degree.",
+    "I would like to ask one question about the programme: would interns have the opportunity to participate in any international partner meetings or conferences during the placement?",
+    "I look forward to hearing from you and to the possibility of contributing to GlobalLink's important work.",
+    "Yours sincerely,",
+    "Aigerim Bekova",
+    "a.bekova@student.zku.kz",
+    "",
+    "═══ WRITING TASK 2: OPINION ESSAY ═══",
+    "Write an opinion essay (200–250 words) responding to this question:\n\"Is individual action or government policy more important for addressing climate change?\"\nSupport your opinion with reasons and examples.",
+    "─── MODEL ANSWER ───",
+    "Individual Action vs Government Policy on Climate Change — by Aigerim Bekova",
+    "In my opinion, government policy is more important than individual action in addressing climate change, though both play necessary roles. While individual choices matter, the scale and speed of change required can only be achieved through systemic, policy-driven intervention.",
+    "Firstly, individual action is limited in scope. Even if every person in Kazakhstan reduced their carbon footprint significantly, the contribution would be small compared to the emissions produced by industry, energy generation, and large-scale agriculture. Therefore, meaningful reductions require regulation, investment, and standards that only governments can impose.",
+    "Secondly, relying on individuals to drive environmental change places the burden on those least responsible and least able. Furthermore, research consistently shows that behaviour change at scale happens most effectively when supported by structural incentives — carbon taxes, renewable energy subsidies, and public transport investment — rather than by appeals to individual conscience alone.",
+    "Despite this, I do not dismiss individual action entirely. When large numbers of people change their behaviour, they send a signal to governments and corporations about what citizens value and expect. Consequently, individual action and collective policy are not opposites — they are mutually reinforcing.",
+    "To sum up, government policy must lead the response to climate change, but individual action builds the social and political conditions that make ambitious policy possible. Both matter — but they are not equal in their potential impact."
+  ],
+  "writingTemplate": [
+    {
+      "key": "task1_head",
+      "prefix": "═══ TASK 1: SEMI-FORMAL EMAIL ═══\nDear ",
+      "suffix": ",",
+      "placeholder": "Ms./Mr. + Surname or \"Hiring Manager\"",
+      "hint": "Semi-formal: \"Dear Ms. Nazarova,\" — polite but not as stiff as \"Dear Sir/Madam\"."
+    },
+    {
+      "key": "task1_opening",
+      "prefix": "I am writing to apply for ",
+      "suffix": ".",
+      "placeholder": "the [position] advertised on [source]",
+      "hint": "\"I am writing to apply for the X position advertised on Y.\" — clear purpose immediately."
+    },
+    {
+      "key": "task1_skill1",
+      "prefix": "Firstly, I have ",
+      "suffix": ".",
+      "placeholder": "practical experience in + area + specific example",
+      "hint": "\"Firstly, I have practical experience in X: [specific example].\""
+    },
+    {
+      "key": "task1_skill2",
+      "prefix": "Secondly, I have ",
+      "suffix": ".",
+      "placeholder": "strong + skill + how developed/evidenced",
+      "hint": "\"Secondly, I have strong [skill], which I have developed through [evidence].\""
+    },
+    {
+      "key": "task1_question",
+      "prefix": "I would like to ask one question: ",
+      "suffix": "?",
+      "placeholder": "specific, relevant question about the programme",
+      "hint": "Ask something specific and genuinely relevant — shows engagement with the role."
+    },
+    {
+      "key": "task1_close",
+      "prefix": "I look forward to hearing from you.\nYours sincerely,\n",
+      "suffix": "",
+      "placeholder": "Your full name + contact",
+      "hint": "\"Yours sincerely\" — semi-formal close when you know the person's name."
+    },
+    {
+      "key": "task2_title",
+      "prefix": "═══ TASK 2: OPINION ESSAY ═══\n",
+      "suffix": " — by ",
+      "placeholder": "Essay title (the question or your position)",
+      "hint": "Give your essay a clear, specific title."
+    },
+    {
+      "key": "task2_author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "task2_intro",
+      "prefix": "In my opinion, ",
+      "suffix": ", though both play necessary roles.",
+      "placeholder": "your clear position + acknowledge the other side",
+      "hint": "State a clear position but acknowledge complexity — this is more sophisticated than a simple either/or."
+    },
+    {
+      "key": "task2_arg1",
+      "prefix": "Firstly, ",
+      "suffix": ". Therefore, ",
+      "placeholder": "first argument + logical consequence",
+      "hint": "\"Firstly, [argument]. Therefore, [result/implication].\""
+    },
+    {
+      "key": "task2_arg2",
+      "prefix": "Secondly, ",
+      "suffix": ". Furthermore, ",
+      "placeholder": "second argument + addition",
+      "hint": "\"Secondly, [argument]. Furthermore, [extra point supporting this].\""
+    },
+    {
+      "key": "task2_concess",
+      "prefix": "Despite this, ",
+      "suffix": ". Consequently, ",
+      "placeholder": "concession + consequence",
+      "hint": "\"Despite this, [acknowledge the other view]. Consequently, [show the two are compatible].\""
+    },
+    {
+      "key": "task2_close",
+      "prefix": "To sum up, ",
+      "suffix": ".",
+      "placeholder": "balanced summary + final position",
+      "hint": "\"To sum up, [both + your priority]. Both matter — but [your position].\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Semi-formal email phrases",
+      "color": "#003876",
+      "items": [
+        "I am writing to apply for / enquire about / express my interest in...",
+        "I believe I have [quality] that makes me a strong candidate.",
+        "Firstly, I have practical experience in... / Secondly, I have strong...",
+        "I would like to ask one question about the programme:...",
+        "I look forward to hearing from you. / Yours sincerely,",
+        "I am very interested in the work [organisation] does in [area]."
+      ]
+    },
+    {
+      "category": "Opinion essay openers",
+      "color": "#1D9E75",
+      "items": [
+        "In my opinion, X is more important than Y, though both play necessary roles.",
+        "While individual choices matter, systemic change requires policy.",
+        "I believe the case for X is strong, for the following reasons.",
+        "There are strong arguments on both sides; however, overall I believe...",
+        "This is a question on which reasonable people disagree. Nevertheless, I..."
+      ]
+    },
+    {
+      "category": "Body paragraph linkers",
+      "color": "#1B8FC4",
+      "items": [
+        "Firstly, / Secondly, / Finally,",
+        "Furthermore, / Moreover, / In addition,",
+        "Therefore, / As a result, / Consequently,",
+        "Although / Even though [concession], nevertheless...",
+        "Despite this, / Despite the challenges,",
+        "Research consistently shows that... / Evidence suggests that..."
+      ]
+    },
+    {
+      "category": "Conclusion phrases",
+      "color": "#C9933B",
+      "items": [
+        "To sum up, / In conclusion, / Overall,",
+        "Both matter — but they are not equal in their potential impact.",
+        "For these reasons, I believe that...",
+        "Consequently, / As a result, / Therefore,",
+        "The evidence ultimately suggests that...",
+        "Governments / Individuals / Organisations that adopt this approach will..."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,560 @@
+{
+  "id": "l29-g2",
+  "moduleNum": 13,
+  "lessonNum": 4,
+  "moduleTitle": "Sports & Exercise",
+  "type": "grammar",
+  "title": "Present Perfect vs Past Simple",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect vs Past Simple",
+  "grammarNote": "Present Perfect vs Past Simple:\n\nPRESENT PERFECT → прошлое связано с НАСТОЯЩИМ:\n✅ Опыт: \"Have you ever seen a snow leopard?\"\n✅ Недавнее: \"I've just finished the report.\"\n✅ Продолжается: \"I've lived here for 5 years.\" (и сейчас живу!)\n✅ Результат сейчас: \"I've lost my keys.\" (не могу войти)\n\nPAST SIMPLE → действие ЗАВЕРШЕНО в конкретный момент:\n✅ \"I saw her YESTERDAY.\" · \"He called LAST WEEK.\"\n✅ \"She graduated IN 2022.\"\n\nСигналы:\nPresent Perfect: ever · never · already · just · yet · recently · for · since\nPast Simple: yesterday · last week · ago · in 2020 · when I was...\n\n💡 Ключевой тест:\n\"I've lived here for 5 years.\" = живу СЕЙЧАС → Present Perfect\n\"I lived there for 5 years.\" = больше не живу → Past Simple",
+  "grammarTable": [
+    {
+      "subject": "Feature",
+      "verb": "Present Perfect",
+      "short": "PP",
+      "example": "Past Simple"
+    },
+    {
+      "subject": "Form",
+      "verb": "have/has + past participle",
+      "short": "structure",
+      "example": "verb + -ed / irregular form"
+    },
+    {
+      "subject": "Time signal",
+      "verb": "ever, never, already, yet, just, for, since",
+      "short": "no specific",
+      "example": "yesterday, last week, in 2020, ago, then"
+    },
+    {
+      "subject": "Focus",
+      "verb": "result / connection to now",
+      "short": "unfinished",
+      "example": "completed event at specific time"
+    },
+    {
+      "subject": "Example 1",
+      "verb": "I have seen that film.",
+      "short": "experience",
+      "example": "I saw that film last Friday."
+    },
+    {
+      "subject": "Example 2",
+      "verb": "She has won three medals.",
+      "short": "result",
+      "example": "She won a medal in 2022."
+    },
+    {
+      "subject": "Example 3",
+      "verb": "Have you ever been to London?",
+      "short": "question",
+      "example": "Did you go to London in 2019?"
+    },
+    {
+      "subject": "Example 4",
+      "verb": "I haven't finished yet.",
+      "short": "negative",
+      "example": "I didn't finish the race."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Present Perfect — no specific time",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "I have visited Almaty.",
+          "example": "(we don't say when)"
+        },
+        {
+          "form": "She has played three matches.",
+          "example": "(total so far)"
+        },
+        {
+          "form": "Have you ever tried kumiss?",
+          "example": "(any time in your life)"
+        },
+        {
+          "form": "He has already eaten breakfast.",
+          "example": "(sometime this morning)"
+        },
+        {
+          "form": "I haven't seen her this week.",
+          "example": "(this week = unfinished period)"
+        },
+        {
+          "form": "They have just arrived.",
+          "example": "(very recently)"
+        }
+      ]
+    },
+    {
+      "title": "Past Simple — specific time",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "I visited Almaty in 2021.",
+          "example": "(specific year)"
+        },
+        {
+          "form": "She played a match yesterday.",
+          "example": "(specific day)"
+        },
+        {
+          "form": "Did you try kumiss last summer?",
+          "example": "(specific time)"
+        },
+        {
+          "form": "He ate breakfast at 7 a.m.",
+          "example": "(specific time)"
+        },
+        {
+          "form": "I didn't see her on Monday.",
+          "example": "(specific day)"
+        },
+        {
+          "form": "They arrived at 6 p.m.",
+          "example": "(specific time)"
+        }
+      ]
+    },
+    {
+      "title": "Switching between the two",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Have you ever broken a bone?",
+          "example": "Present Perfect (experience)"
+        },
+        {
+          "form": "Yes, I broke my arm when I was eight.",
+          "example": "Past Simple (specific time)"
+        },
+        {
+          "form": "Has she passed her driving test?",
+          "example": "Present Perfect (result)"
+        },
+        {
+          "form": "Yes, she passed last month.",
+          "example": "Past Simple (last month)"
+        },
+        {
+          "form": "How long have you studied here?",
+          "example": "Present Perfect (still studying)"
+        },
+        {
+          "form": "I started in September 2023.",
+          "example": "Past Simple (start = specific)"
+        }
+      ]
+    },
+    {
+      "title": "Common errors",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "❌ I have visited Almaty last year.",
+          "example": "✅ I visited Almaty last year."
+        },
+        {
+          "form": "❌ Did you ever eat beshbarmak?",
+          "example": "✅ Have you ever eaten beshbarmak?"
+        },
+        {
+          "form": "❌ She has won the medal in 2022.",
+          "example": "✅ She won the medal in 2022."
+        },
+        {
+          "form": "❌ I saw her already.",
+          "example": "✅ I have already seen her."
+        },
+        {
+          "form": "❌ He has arrived yesterday.",
+          "example": "✅ He arrived yesterday."
+        },
+        {
+          "form": "❌ Have you finished it last night?",
+          "example": "✅ Did you finish it last night?"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "KEY RULE: If there's a specific past time (yesterday, in 2022, last week, ago) → PAST SIMPLE. If there's no specific time, or the action connects to now (ever, never, already, yet, just, for, since) → PRESENT PERFECT.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose Present Perfect or Past Simple.",
+      "text": "I ___ to London twice in my life.",
+      "opts": [
+        "went",
+        "have been",
+        "was",
+        "did go"
+      ],
+      "correct": "have been",
+      "hint": "\"twice in my life\" = experience without specific time → Present Perfect."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Use the correct tense.",
+      "text": "She ___ (win) the championship last year.",
+      "correct": "won",
+      "hint": "\"last year\" = specific time → Past Simple: won."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct auxiliary.",
+      "text": "___ you ever tried beshbarmak?",
+      "opts": [
+        "Did",
+        "Have",
+        "Do",
+        "Were"
+      ],
+      "correct": "Have",
+      "hint": "\"ever\" = experience → Present Perfect: Have you ever…?"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Use the correct negative form.",
+      "text": "I ___ (not finish) my essay yet.",
+      "correct": "haven't finished",
+      "hint": "\"yet\" = Present Perfect negative: haven't finished."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "We ___ Amir at the tournament in March.",
+      "opts": [
+        "have seen",
+        "see",
+        "saw",
+        "have saw"
+      ],
+      "correct": "saw",
+      "hint": "\"in March\" = specific time → Past Simple: saw."
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She has won a medal in 2022\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"in 2022\" = specific time → Past Simple: \"She won a medal in 2022.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Use the correct tense.",
+      "text": "They ___ (just arrive) — they're in the lobby now.",
+      "correct": "have just arrived",
+      "hint": "\"just\" = recent action connecting to now → Present Perfect: have just arrived."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the tense for this signal word.",
+      "text": "\"Yesterday\" is a time signal for:",
+      "opts": [
+        "Present Perfect",
+        "Past Simple",
+        "Present Simple",
+        "Future"
+      ],
+      "correct": "Past Simple",
+      "hint": "\"Yesterday\" = specific past time → Past Simple."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses the correct tense?",
+      "opts": [
+        "I have visited Almaty last week.",
+        "I visited Almaty last week.",
+        "I have visited Almaty yesterday.",
+        "I visit Almaty last week."
+      ],
+      "correct": "I visited Almaty last week.",
+      "hint": "\"last week\" = specific time → Past Simple."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the tense.",
+      "text": "\"Ever\" is typically used with:",
+      "opts": [
+        "Past Simple",
+        "Present Perfect",
+        "Future Simple",
+        "Present Continuous"
+      ],
+      "correct": "Present Perfect",
+      "hint": "\"Ever\" asks about life experience → Present Perfect."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Use the correct tense.",
+      "text": "Amir ___ (score) twice in last night's match.",
+      "correct": "scored",
+      "hint": "\"last night\" = specific time → Past Simple: scored."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Have you ever broken a bone? Yes, I broke my arm when I was eight\" — both tenses are correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "PP for experience question; PS for specific past event. Both correct ✅."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which tense do we use with \"last week\"?",
+      "opts": [
+        "Present Perfect",
+        "Past Simple",
+        "Present Simple",
+        "Future"
+      ],
+      "correct": "Past Simple",
+      "hint": "\"Last week\" = specific past time → Past Simple."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I ___ (never see) snow before this winter.",
+      "correct": "had never seen",
+      "hint": "Never + past perfect, but also: \"I have never seen snow\" (Present Perfect) is fine in present context."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Have you ever…?\" uses which tense?",
+      "opts": [
+        "Past Simple",
+        "Present Perfect",
+        "Past Continuous",
+        "Future Simple"
+      ],
+      "correct": "Present Perfect",
+      "hint": "\"Have you ever…?\" = Present Perfect — asking about life experience."
+    },
+    {
+      "id": "q4",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She has trained in 2022\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"In 2022\" = specific time → Past Simple: \"She trained in 2022.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Did you ever try sushi?",
+        "Have you ever tried sushi?",
+        "Have you ever try sushi?",
+        "Did you ever tried sushi?"
+      ],
+      "correct": "Have you ever tried sushi?",
+      "hint": "\"Ever\" = life experience → Present Perfect: \"Have you ever tried…?\""
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Amir ___ (score) twice in last night's match.",
+      "correct": "scored",
+      "hint": "\"Last night\" = specific past time → Past Simple."
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Already\" is typically used with:",
+      "opts": [
+        "Past Simple",
+        "Future Simple",
+        "Present Perfect",
+        "Past Continuous"
+      ],
+      "correct": "Present Perfect",
+      "hint": "\"Already\" connects the past action to now → Present Perfect."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (just finish) her workout — she's still at the gym.",
+      "correct": "has just finished",
+      "hint": "\"Just\" + Present Perfect: has just finished."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Choose the correct response to \"Have you finished your essay?\"",
+      "opts": [
+        "Yes, I finished it last night.",
+        "Yes, I have finished it last night.",
+        "Yes, I was finish it last night.",
+        "Yes, I did finish it."
+      ],
+      "correct": "Yes, I finished it last night.",
+      "hint": "\"Last night\" in the answer = specific time → Past Simple."
+    },
+    {
+      "id": "q10",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She has won a gold medal\" tells us WHEN she won.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Present Perfect does NOT specify when. If you say \"She won a gold medal in 2022\" that gives the specific time."
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "In listening 1, how long has Rustam played football for the university team?",
+      "opts": [
+        "Since he was ten",
+        "For two years",
+        "For six months",
+        "Since September"
+      ],
+      "correct": "For two years",
+      "hint": "Statement 1: \"He has played football for the university team for two years.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "In listening 2, what has Amir signed up for?",
+      "opts": [
+        "A football tournament",
+        "A gym membership at WKU",
+        "A swimming class",
+        "A yoga programme"
+      ],
+      "correct": "A gym membership at WKU",
+      "hint": "Listening 2, statement 1: \"He has just signed up for a gym membership at WKU.\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Zhibek has done yoga since she started university.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Listening 1, statement 2: confirmed."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Champion\" means:",
+      "opts": [
+        "A person who loses competitions",
+        "A person who has won a competition",
+        "A sports coach",
+        "A type of sporting event"
+      ],
+      "correct": "A person who has won a competition",
+      "hint": "\"Champion\" = the winner of a competition; a person who is the best."
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "The team showed great ___ — they lost three matches but kept fighting.",
+      "correct": "resilience",
+      "hint": "\"Resilience\" = the ability to recover and keep going after difficulty."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Discipline\" most closely means:",
+      "opts": [
+        "Punishment",
+        "Consistent training and self-control",
+        "A type of exam",
+        "A university subject"
+      ],
+      "correct": "Consistent training and self-control",
+      "hint": "\"Discipline\" in a sporting context = consistent effort and self-control."
+    }
+  ]
+}

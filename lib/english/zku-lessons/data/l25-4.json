@@ -1,0 +1,596 @@
+{
+  "id": "l25-4",
+  "moduleNum": 9,
+  "lessonNum": 4,
+  "moduleTitle": "Have you ever…?",
+  "title": "Present Perfect: have + past participle",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect: have + past participle",
+  "grammarNote": "Present Perfect СОЕДИНЯЕТ прошлое с настоящим. Думаем о РЕЗУЛЬТАТЕ сейчас, а не о времени когда это произошло.\n\n① Жизненный опыт (ever/never):\n   \"I have visited Almaty.\" (был → имею этот опыт)\n   \"She has never eaten sushi.\" (никогда не пробовала)\n   \"Have you ever tried skiing?\"\n\n② Только что завершилось (just/already/yet):\n   \"I have just finished my homework.\" (только что)\n   \"She has already sent the email.\" (уже)\n   \"Have you done your project yet?\" (уже / ещё нет?)\n\n③ Началось в прошлом и продолжается сейчас (for/since):\n   \"I have lived in Uralsk for 5 years.\" (живу и сейчас!)\n\n🔧 Образование: have/has + PAST PARTICIPLE\nRegular: work→worked, study→studied\nIrregular: go→gone, see→seen, write→written, do→done\n\n⚠️ Отличие от Past Simple:\n\"I visited Astana last year.\" (конкретное время)\n\"I have visited Astana.\" (опыт, время не важно)",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "have visited",
+      "short": "I've visited",
+      "example": "I've visited the Altai Mountains."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "has visited",
+      "short": "She's visited",
+      "example": "She's tried skydiving twice."
+    },
+    {
+      "subject": "NEGATIVE: I / You / We / They",
+      "verb": "have not visited",
+      "short": "haven't visited",
+      "example": "I haven't been to Edinburgh yet."
+    },
+    {
+      "subject": "NEGATIVE: He / She / It",
+      "verb": "has not visited",
+      "short": "hasn't visited",
+      "example": "She hasn't heard back from Edinburgh."
+    },
+    {
+      "subject": "QUESTION: Have + I/you/we/they",
+      "verb": "visited?",
+      "short": "Have you visited?",
+      "example": "Have you ever been to the Altai?"
+    },
+    {
+      "subject": "QUESTION: Has + he/she/it",
+      "verb": "visited?",
+      "short": "Has she visited?",
+      "example": "Has she ever tried skydiving?"
+    },
+    {
+      "subject": "SHORT ANSWER positive",
+      "verb": "Yes, I have.",
+      "short": "Yes, she has.",
+      "example": "Have you tried it? — Yes, I have."
+    },
+    {
+      "subject": "SHORT ANSWER negative",
+      "verb": "No, I haven't.",
+      "short": "No, she hasn't.",
+      "example": "Has she been? — No, she hasn't."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Forming the Past Participle",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Regular verbs: base + -ed (same as Past Simple)",
+          "example": "visit → visited, try → tried, live → lived, play → played"
+        },
+        {
+          "form": "Irregular Group 1: different past, different participle",
+          "example": "go → went → gone;  see → saw → seen;  do → did → done"
+        },
+        {
+          "form": "Irregular Group 2: past = participle",
+          "example": "have → had → had;  make → made → made;  buy → bought → bought"
+        },
+        {
+          "form": "Irregular Group 3: all three forms different",
+          "example": "write → wrote → written;  take → took → taken;  give → gave → given"
+        },
+        {
+          "form": "Irregular Group 4: base = participle (not past)",
+          "example": "come → came → come;  run → ran → run;  become → became → become"
+        },
+        {
+          "form": "Key ones to memorise",
+          "example": "be → been, eat → eaten, speak → spoken, break → broken, choose → chosen"
+        }
+      ]
+    },
+    {
+      "title": "Three Main Uses of Present Perfect",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Use 1: Life experience (ever/never) — no specific time",
+          "example": "Have you ever tried Kazakh food? / I've never seen the Northern Lights."
+        },
+        {
+          "form": "Use 2: Recent event — result matters now (just/recently)",
+          "example": "She's just arrived. / He's recently started a new job. (the result = they are now here/employed)"
+        },
+        {
+          "form": "Use 3: Unfinished time period (for/since)",
+          "example": "She has lived here for 3 years. / He has studied English since 2020. (still happening now)"
+        },
+        {
+          "form": "Connecting word: already (sooner than expected)",
+          "example": "I've already finished my homework! (earlier than expected)"
+        },
+        {
+          "form": "Connecting word: yet (expected but not done)",
+          "example": "I haven't packed yet. / Have you booked yet?"
+        },
+        {
+          "form": "Connecting word: just (very recently)",
+          "example": "She's just called me. / He's just left the building."
+        }
+      ]
+    },
+    {
+      "title": "Present Perfect vs Past Simple — Key Rule",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "Present Perfect: no specific past time mentioned",
+          "example": "I have visited Almaty. (some time in my life — not specified)"
+        },
+        {
+          "form": "Past Simple: specific past time mentioned",
+          "example": "I visited Almaty in 2022. / I visited Almaty last summer."
+        },
+        {
+          "form": "The \"time word\" test",
+          "example": "yesterday / last week / in 2020 / three days ago → Past Simple ONLY"
+        },
+        {
+          "form": "Vague time → Present Perfect OK",
+          "example": "recently / before / ever / never / so far / already / just / yet → Present Perfect"
+        },
+        {
+          "form": "Follow-up question after Present Perfect → Past Simple",
+          "example": "Have you been to Paris? — Yes! / When did you go? — I went in 2019."
+        },
+        {
+          "form": "Common mistake: \"I have gone there yesterday.\" ✗",
+          "example": "Correct: \"I went there yesterday.\" (yesterday = specific → Past Simple)"
+        }
+      ]
+    },
+    {
+      "title": "for vs since — Duration vs Start Point",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "for + period of time (duration)",
+          "example": "She has studied English for three years. / He has lived here for six months."
+        },
+        {
+          "form": "since + point in time (start)",
+          "example": "She has studied English since 2021. / He has lived here since January."
+        },
+        {
+          "form": "Quick test: \"for\" answers \"How long?\" and \"since\" answers \"Since when?\"",
+          "example": "How long? — for 3 years. Since when? — since 2021."
+        },
+        {
+          "form": "for + number + time unit",
+          "example": "for two weeks, for six months, for a long time, for five years"
+        },
+        {
+          "form": "since + specific point",
+          "example": "since Monday, since 1990, since I was a child, since she arrived"
+        },
+        {
+          "form": "Both with Present Perfect (not Past Simple)",
+          "example": "She has lived here for 3 years. ✓ / She lived here for 3 years. ✗ (if still true now)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Самый простой способ выбрать Past Simple или Present Perfect:\n\n❓ Знаешь конкретное время? → PAST SIMPLE\n\"I visited Astana LAST SUMMER.\" → Past Simple\n\"She called me YESTERDAY.\" → Past Simple\n\n❓ Время не важно / опыт / результат сейчас? → PRESENT PERFECT\n\"I have visited Astana.\" (просто был — когда? не важно)\n\nСигналы:\nPast Simple: yesterday, last week, in 2020, ago, when I was...\nPresent Perfect: ever, never, already, just, yet, recently, for, since",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Present Perfect form.",
+      "text": "Kamila ___ skydiving twice.",
+      "opts": [
+        "has tried",
+        "tried",
+        "is trying",
+        "have tried"
+      ],
+      "correct": "has tried",
+      "hint": "Subject \"Kamila\" = she/he/it → \"has\" + past participle (tried)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct Present Perfect form.",
+      "text": "I ___ (never / see) the Northern Lights.",
+      "opts": [
+        "have never seen",
+        "has never seen",
+        "never saw",
+        "have never saw"
+      ],
+      "correct": "have never seen",
+      "hint": "I → \"have\" + never + past participle. \"See\" → past participle is \"seen\"."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct question form.",
+      "text": "___ you ever ___ (be) to Scotland?",
+      "opts": [
+        "Have / been",
+        "Has / been",
+        "Did / be",
+        "Were / been"
+      ],
+      "correct": "Have / been",
+      "hint": "Question: Have + you + ever + past participle. \"Be\" → past participle is \"been\"."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose Present Perfect or Past Simple.",
+      "text": "She ___ Almaty in 2022.",
+      "opts": [
+        "has visited",
+        "visited",
+        "have visited",
+        "is visiting"
+      ],
+      "correct": "visited",
+      "hint": "\"In 2022\" is a specific time → Past Simple."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Amir ___ football for five years.",
+      "opts": [
+        "has played",
+        "played",
+        "is playing",
+        "have played"
+      ],
+      "correct": "has played",
+      "hint": "\"For five years\" with an ongoing activity → Present Perfect: has played."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with \"for\" or \"since\".",
+      "text": "Zhibek has volunteered at the hospital ___ two years.",
+      "opts": [
+        "for",
+        "since",
+        "in",
+        "from"
+      ],
+      "correct": "for",
+      "hint": "\"Two years\" = a period of time → use \"for\"."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "___ Rustam ever ___ (get) lost on a hiking trip?",
+      "opts": [
+        "Has / got",
+        "Did / got",
+        "Have / got",
+        "Was / gotten"
+      ],
+      "correct": "Has / got",
+      "hint": "Question about experience: Has + he/she + ever + past participle. \"Get\" → past participle = \"got\"."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose Present Perfect or Past Simple.",
+      "text": "I ___ the email. I received it just now.",
+      "opts": [
+        "'ve just received",
+        "received yesterday",
+        "have receive",
+        "did receive"
+      ],
+      "correct": "'ve just received",
+      "hint": "\"Just\" (very recently) → Present Perfect: have/has + just + past participle."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with \"for\" or \"since\".",
+      "text": "She has studied English ___ she was fourteen.",
+      "opts": [
+        "since",
+        "for",
+        "from",
+        "in"
+      ],
+      "correct": "since",
+      "hint": "\"She was fourteen\" = a point in time → use \"since\"."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "I ___ my homework yet. I'll do it tonight.",
+      "opts": [
+        "haven't done",
+        "didn't do",
+        "haven't did",
+        "not done"
+      ],
+      "correct": "haven't done",
+      "hint": "\"Yet\" signals something expected but not done → Present Perfect negative: haven't + past participle."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which sentence is in Present Perfect?",
+      "text": "Choose the Present Perfect sentence.",
+      "opts": [
+        "She visited Paris last year.",
+        "She has visited Paris.",
+        "She was visiting Paris.",
+        "She visits Paris every year."
+      ],
+      "correct": "She has visited Paris.",
+      "hint": "Present Perfect = has/have + past participle. \"Has visited\" is the correct form."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct response.",
+      "text": "\"Have you ever tried skydiving?\" — \"___, I have. It was incredible!\"",
+      "opts": [
+        "No",
+        "Yes",
+        "Not",
+        "Never"
+      ],
+      "correct": "Yes",
+      "hint": "Short answer to \"Have you ever...?\": Yes, I have. / No, I haven't."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ five items off her bucket list.",
+      "opts": [
+        "has crossed",
+        "crossed",
+        "have crossed",
+        "is crossing"
+      ],
+      "correct": "has crossed",
+      "hint": "She = third person singular → \"has\" + past participle (crossed)."
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I ___ (never / be) to the Altai Mountains.",
+      "correct": "have never been",
+      "hint": "\"I\" → have + never + past participle. \"Be\" → past participle is \"been\"."
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "___ Amir ever ___ (sleep) in a tent?",
+      "opts": [
+        "Has / slept",
+        "Did / sleep",
+        "Have / slept",
+        "Was / sleeping"
+      ],
+      "correct": "Has / slept",
+      "hint": "\"Has\" + he + ever + past participle. \"Sleep\" → past participle = \"slept\"."
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Kamila ___ Almaty in 2021.",
+      "opts": [
+        "has visited",
+        "visited",
+        "have visited",
+        "visiting"
+      ],
+      "correct": "visited",
+      "hint": "\"In 2021\" = specific past time → Past Simple (visited)."
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I have gone there yesterday\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Yesterday\" = specific time → must use Past Simple: \"I went there yesterday.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She has studied English ___ 2019.",
+      "opts": [
+        "for",
+        "since",
+        "in",
+        "from"
+      ],
+      "correct": "since",
+      "hint": "\"2019\" = a point in time → use \"since\"."
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Zhibek ___ (just / receive) her exam results.",
+      "correct": "has just received",
+      "hint": "\"Just\" = very recently → Present Perfect: has + just + past participle."
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "They ___ the report yet. They're still working on it.",
+      "opts": [
+        "haven't finished",
+        "didn't finish",
+        "haven't finish",
+        "not finished yet"
+      ],
+      "correct": "haven't finished",
+      "hint": "\"Yet\" with a negative → Present Perfect: haven't + past participle."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "What is the past participle of \"write\"?",
+      "opts": [
+        "wrote",
+        "writed",
+        "written",
+        "writting"
+      ],
+      "correct": "written",
+      "hint": "write → wrote → written (completely irregular: base / past / participle)."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He has lived in Uralsk ___ five years.",
+      "opts": [
+        "since",
+        "for",
+        "in",
+        "from"
+      ],
+      "correct": "for",
+      "hint": "\"Five years\" = a period/duration → use \"for\"."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Present Perfect can be used with \"last year\" and \"yesterday\".",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Last year\" and \"yesterday\" are specific times → use Past Simple, not Present Perfect."
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Have you ever ___ a traditional meal?",
+      "opts": [
+        "cook",
+        "cooked",
+        "cooking",
+        "cooks"
+      ],
+      "correct": "cooked",
+      "hint": "Present Perfect: have + ever + past participle. \"Cook\" → past participle is \"cooked\"."
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ she ___ (see) the Northern Lights? — No, she ___.",
+      "correct": "Has / seen / hasn't",
+      "hint": "Question: Has + she + past participle? Short negative answer: No, she hasn't."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "I've ___ finished my essay — I sent it five minutes ago.",
+      "opts": [
+        "already",
+        "yet",
+        "never",
+        "ago"
+      ],
+      "correct": "already",
+      "hint": "\"Already\" = sooner than expected → present perfect: \"I've already finished.\""
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "What is the past participle of \"take\"?",
+      "opts": [
+        "taked",
+        "took",
+        "taken",
+        "taking"
+      ],
+      "correct": "taken",
+      "hint": "take → took → taken (three different forms)."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence correctly uses Present Perfect?",
+      "opts": [
+        "She has called me yesterday.",
+        "She called me yesterday.",
+        "She has called me last night.",
+        "She have called me today."
+      ],
+      "correct": "She called me yesterday.",
+      "hint": "\"Yesterday\" = specific time → Past Simple. Present Perfect cannot be used with \"yesterday\"."
+    }
+  ]
+}

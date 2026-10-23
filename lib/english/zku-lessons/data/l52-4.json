@@ -1,0 +1,220 @@
+{
+  "id": "l52-4",
+  "moduleNum": 18,
+  "lessonNum": 6,
+  "moduleTitle": "Health & Body",
+  "type": "writing",
+  "title": "Advice for a Healthy Student Lifestyle",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "You should...",
+      "emoji": "✅",
+      "opts": [
+        "Тебе запрещено",
+        "Тебе следует / рекомендую",
+        "Тебе не нужно",
+        "Ты обязан"
+      ],
+      "correct": "Тебе следует / рекомендую"
+    },
+    {
+      "id": "p2",
+      "word": "You shouldn't...",
+      "emoji": "❌",
+      "opts": [
+        "Тебе следует",
+        "Тебе не рекомендую / нельзя",
+        "Тебе не нужно",
+        "Ты можешь"
+      ],
+      "correct": "Тебе не рекомендую / нельзя"
+    },
+    {
+      "id": "p3",
+      "word": "You have to...",
+      "emoji": "⚠️",
+      "opts": [
+        "Это необязательно",
+        "Это обязательно",
+        "Это запрещено",
+        "Это рекомендуется"
+      ],
+      "correct": "Это обязательно"
+    },
+    {
+      "id": "p4",
+      "word": "You don't have to...",
+      "emoji": "🆓",
+      "opts": [
+        "Это запрещено",
+        "Это не обязательно",
+        "Это обязательно",
+        "Тебе следует"
+      ],
+      "correct": "Это не обязательно"
+    },
+    {
+      "id": "p5",
+      "word": "It's important to...",
+      "emoji": "❗",
+      "opts": [
+        "Это несущественно",
+        "Это важно",
+        "Это запрещено",
+        "Это случается"
+      ],
+      "correct": "Это важно"
+    },
+    {
+      "id": "p6",
+      "word": "Try to avoid...",
+      "emoji": "🚫",
+      "opts": [
+        "старайся делать",
+        "старайся избегать",
+        "обязательно делай",
+        "попробуй"
+      ],
+      "correct": "старайся избегать"
+    }
+  ],
+  "writingModel": [
+    "How to Stay Healthy at University: Advice for First-Year Students — by Rustam Seilov",
+    "Starting university is exciting. It is also physically and mentally demanding in ways that many students do not anticipate. If you are about to begin your first year, or if you are struggling with the health challenges of student life, this guide is for you.",
+    "First, you should take sleep seriously. You have to understand that sleep is not a luxury — it is a basic biological need. Research shows that students who sleep fewer than six hours a night perform significantly worse academically. You shouldn't stay up past 2 a.m. regularly, even during exam periods. Set a consistent bedtime and try to keep to it. You don't have to go to bed at 9 p.m. — but you should aim for seven hours minimum.",
+    "Second, you should eat regularly, even when you are busy. You don't have to cook elaborate meals. A piece of fruit, a bowl of porridge, a sandwich with protein — these are all better than nothing. You shouldn't skip breakfast. Your brain has to have fuel to function effectively. If you eat in the cafeteria, try to choose something that includes vegetables and protein, not just carbohydrates.",
+    "Third, you have to move your body regularly. At school, this was compulsory. At university, it is optional — which means you have to take personal responsibility for it. You don't have to train intensively. A thirty-minute walk three times a week is enough to produce measurable benefits. If you feel resistance to exercise, remember: you don't have to enjoy it. You just have to do it.",
+    "Fourth, you should protect your mental health. University should be challenging, but it shouldn't feel impossible. If you are feeling anxious, overwhelmed, or persistently low, you should talk to someone. WKU has a counselling service that is free and confidential. You don't have to be in crisis to use it. Going when things are manageable is smarter than waiting until they are not.",
+    "Finally, you should be kind to yourself. You don't have to be perfect. You don't have to have everything figured out. University is a process — the mistakes you make, the habits you build, and the adjustments you learn to make are all part of the education. Take care of your body and your mind. Everything else follows."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Title: How to... / Advice for...",
+      "hint": "Give your piece a clear, helpful title."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "University life is ",
+      "suffix": ". Here is my advice.",
+      "placeholder": "two adjectives describing student life",
+      "hint": "Open with how you see student life generally."
+    },
+    {
+      "key": "sleep",
+      "prefix": "You should ",
+      "suffix": ". You shouldn't ___.",
+      "placeholder": "sleep advice (positive + negative)",
+      "hint": "\"You should [positive habit]. You shouldn't [bad habit].\""
+    },
+    {
+      "key": "must",
+      "prefix": "You have to ",
+      "suffix": " because ___.",
+      "placeholder": "one obligation + reason",
+      "hint": "\"You HAVE TO + base form, because...\" — something truly necessary."
+    },
+    {
+      "key": "notnec",
+      "prefix": "You don't have to ",
+      "suffix": ", but you should try.",
+      "placeholder": "something that is optional but helpful",
+      "hint": "\"You DON'T HAVE TO + base form, but...\""
+    },
+    {
+      "key": "food",
+      "prefix": "You shouldn't ",
+      "suffix": ". Instead, you should ___.",
+      "placeholder": "bad habit → better alternative",
+      "hint": "\"You shouldn't skip meals. Instead, you should eat something regular.\""
+    },
+    {
+      "key": "mental",
+      "prefix": "If you feel stressed, you should ",
+      "suffix": ".",
+      "placeholder": "action: talk to someone / rest / take a break",
+      "hint": "\"If you feel stressed, you should...\""
+    },
+    {
+      "key": "close",
+      "prefix": "Remember: you don't have to be perfect. You just have to ",
+      "suffix": ".",
+      "placeholder": "your key message for students",
+      "hint": "Close with a memorable, kind message using \"have to\" or \"should\"."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Giving advice (should)",
+      "color": "#003876",
+      "items": [
+        "You should sleep at least seven hours a night.",
+        "You should eat something before lectures.",
+        "You should try to exercise at least twice a week.",
+        "You should talk to someone if you feel overwhelmed.",
+        "You should protect your mental health as well as your physical health."
+      ]
+    },
+    {
+      "category": "Advising against (shouldn't)",
+      "color": "#1D9E75",
+      "items": [
+        "You shouldn't skip meals, even if you're busy.",
+        "You shouldn't stay up all night studying regularly.",
+        "You shouldn't rely only on coffee for energy.",
+        "You shouldn't ignore signs of stress or anxiety.",
+        "You shouldn't wait until a crisis to ask for help."
+      ]
+    },
+    {
+      "category": "Obligation (have to)",
+      "color": "#1B8FC4",
+      "items": [
+        "You have to take responsibility for your own health.",
+        "Your brain has to have fuel to function properly.",
+        "You have to find some form of regular movement.",
+        "You have to manage your own time — no one will do it for you.",
+        "You have to be in bed by a reasonable hour regularly."
+      ]
+    },
+    {
+      "category": "Not necessary (don't have to)",
+      "color": "#C9933B",
+      "items": [
+        "You don't have to exercise intensively — a walk is enough.",
+        "You don't have to cook elaborate meals.",
+        "You don't have to be in crisis to use the counselling service.",
+        "You don't have to be perfect.",
+        "You don't have to have everything figured out at 18."
+      ]
+    }
+  ]
+}

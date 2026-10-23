@@ -1,0 +1,474 @@
+{
+  "id": "l37-g2",
+  "moduleNum": 3,
+  "lessonNum": 5,
+  "moduleTitle": "Stories & Memories",
+  "type": "grammar",
+  "title": "Past Continuous vs Past Simple",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Continuous vs Past Simple — Choosing the Right Tense",
+  "grammarNote": "Past Simple описывает ЗАВЕРШЁННЫЕ действия в прошлом — то, что произошло и закончилось. Past Continuous описывает действия, которые ПРОДОЛЖАЛИСЬ в определённый момент. Главный паттерн: \"I was doing X (PC = background) when something happened (PS = event).\" PC = the stage/setting. PS = the action that changes everything.",
+  "grammarTable": [
+    {
+      "subject": "Past Simple",
+      "verb": "The power went out.",
+      "short": "Completed",
+      "example": "The power went out at 11:47 p.m. (= single event, done)"
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "She was studying.",
+      "short": "In progress",
+      "example": "She was studying when the power went out. (= ongoing at that moment)"
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "He ate a sandwich.",
+      "short": "Sequence",
+      "example": "He arrived at the station and ate a sandwich. (= one after another)"
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "He was eating a sandwich.",
+      "short": "Setting",
+      "example": "He was eating a sandwich when the train arrived. (= background action)"
+    },
+    {
+      "subject": "Past Simple",
+      "verb": "She read three chapters.",
+      "short": "Completed",
+      "example": "She read three chapters. (= completed, we know she finished)"
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "She was reading a chapter.",
+      "short": "Unfinished",
+      "example": "She was reading when the lights went out. (= didn't necessarily finish)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Key pattern: PC when PS",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "LONGER action + when + SHORTER event",
+          "example": "\"I was studying WHEN the phone rang.\" (studying = ongoing; rang = sudden)"
+        },
+        {
+          "form": "The PC is the \"stage\"",
+          "example": "\"The wind was howling. Snow was falling.\" = the stage is set."
+        },
+        {
+          "form": "PS enters and changes things",
+          "example": "\"...when the power went out.\" = event that disrupts the stage."
+        },
+        {
+          "form": "Result of event = Past Simple",
+          "example": "\"She closed her laptop and went to bed.\" = sequence of completed actions after the event."
+        }
+      ]
+    },
+    {
+      "title": "Signal words for each tense",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Past Simple signals",
+          "example": "yesterday, last night, in 2020, ago, suddenly, immediately, then, after that, at that moment, once"
+        },
+        {
+          "form": "Past Continuous signals",
+          "example": "while, when (+ PS event), at 11 p.m., all evening, throughout, during, as, at that time"
+        },
+        {
+          "form": "\"When\" can introduce BOTH",
+          "example": "\"When the alarm rang, she was sleeping.\" — \"when\" + PS interrupts the PC action."
+        },
+        {
+          "form": "\"While\" → always PC",
+          "example": "\"While she was sleeping, the alarm rang.\" — \"while\" always introduces the longer PC action."
+        }
+      ]
+    },
+    {
+      "title": "PS for sequence vs PC for simultaneous",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "PS sequence: then, after, next",
+          "example": "\"He arrived at the station. He bought a ticket. He got on the train.\" = one after another."
+        },
+        {
+          "form": "PC simultaneous: while, at the same time",
+          "example": "\"While Kamila was telling stories, Rustam was scaring everyone.\" = both at once."
+        },
+        {
+          "form": "Test: can you say \"at the same time\"?",
+          "example": "If yes → both PC. If one happens AFTER → PS for both (sequence)."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common A2 Confusion",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I was studying all night\" (if you finished)",
+          "example": "✅ \"I studied all night.\" — if it's a completed period, PS is more natural."
+        },
+        {
+          "form": "✗ \"When I was arriving, she left.\"",
+          "example": "✅ \"When I arrived, she left.\" — two sequential events = both PS."
+        },
+        {
+          "form": "✗ \"She was falling asleep when her alarm rang.\"",
+          "example": "✅ \"She fell asleep when her alarm rang.\" OR \"She was falling asleep when her alarm rang.\" — both possible, but PS clearer for completed action."
+        },
+        {
+          "form": "✗ \"I was knowing she was tired.\"",
+          "example": "✅ \"I knew she was tired.\" — stative verb = always Past Simple."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Простое правило для выбора:\n① Это ЗАВЕРШЁННОЕ действие? → Past Simple\n② Это было В ПРОЦЕССЕ в момент прошлого? → Past Continuous\n③ Два действия: одно ПРЕРЫВАЕТ другое → длинное = PC, короткое = PS\n④ Два действия ОДНОВРЕМЕННО → оба PC (while)\n⑤ Последовательность действий (одно за другим) → оба PS\n\n💡 Самый надёжный тест: «Можно ли сказать 'в это время шёл процесс'?» → Да = PC. «Просто произошло и закончилось?» → PS.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct combination.",
+      "text": "Kamila ___ when Rustam ___ to the group chat.",
+      "opts": [
+        "slept / was sending",
+        "was sleeping / sent",
+        "sleeping / sent",
+        "was sleeping / was sending"
+      ],
+      "correct": "was sleeping / sent",
+      "hint": "Background: was sleeping (PC). Shorter event: sent a message (PS)."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct tenses.",
+      "text": "While the students ___ (chat) in the hallway, the power ___ (come) back on.",
+      "correct": "were chatting / came",
+      "hint": "\"while\" + PC (background). PS = the event that changed things: \"came back on\"."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the sentence that shows a SEQUENCE of completed actions.",
+      "text": "Which sentence shows actions one after another?",
+      "opts": [
+        "She was running while he was calling.",
+        "She ran, stopped, and called him back.",
+        "She was running when he called.",
+        "While she was calling, he was waiting."
+      ],
+      "correct": "She ran, stopped, and called him back.",
+      "hint": "Sequence = three completed Past Simple actions one after another: ran → stopped → called."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"He was arriving when she left.\" is the most natural way to say both actions happened quickly.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"He arrived when she left.\" — two sequential, short events = both Past Simple is more natural."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "What does the difference in tense show?",
+      "text": "\"She read three chapters.\" vs \"She was reading a chapter when the lights went out.\"",
+      "opts": [
+        "Both mean the same thing",
+        "\"Read\" = finished; \"was reading\" = may not have finished",
+        "\"Was reading\" = faster than \"read\"",
+        "\"Read\" is more formal"
+      ],
+      "correct": "\"Read\" = finished; \"was reading\" = may not have finished",
+      "hint": "PS: she finished the chapters. PC: she was in the middle of reading — the lights went out, so we don't know if she finished."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct tenses.",
+      "text": "Amir ___ (type) his conclusion when the power ___ (go out).",
+      "correct": "was typing / went out",
+      "hint": "Longer background: was typing (PC). Sudden interruption: went out (PS)."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct tense.",
+      "text": "Rustam ___ onto the train, ___ his bag, and ___ into his bunk.",
+      "opts": [
+        "was getting / was putting / was climbing",
+        "got / put / climbed",
+        "gets / puts / climbs",
+        "was getting / put / climbed"
+      ],
+      "correct": "got / put / climbed",
+      "hint": "Sequence of completed actions = all Past Simple. got → put → climbed (one after another)."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence uses \"while\" correctly?",
+      "text": "Choose the correct use of \"while\".",
+      "opts": [
+        "While the train arrived, she was reading.",
+        "While she was reading, the train arrived.",
+        "While she read, the train was arriving.",
+        "While the train was arriving, she read."
+      ],
+      "correct": "While she was reading, the train arrived.",
+      "hint": "\"While\" introduces the longer ongoing PC action. The shorter event (train arrived) is PS."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct tense: \"She ___ her novel when I called.\"",
+      "opts": [
+        "read",
+        "was reading",
+        "reads",
+        "is reading"
+      ],
+      "correct": "was reading",
+      "hint": "Background action = PC. Shorter interrupting event (called) = PS. \"She was reading when I called.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct tense: \"He ___ , sat down, and opened his book.\"",
+      "opts": [
+        "was arriving",
+        "arrived",
+        "arrive",
+        "is arriving"
+      ],
+      "correct": "arrived",
+      "hint": "Sequence: arrived → sat → opened = all Past Simple. \"Arrived, sat, opened\" = one after another."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"While Zhibek ___ (practise) volleyball, the power ___ (cut out).\"",
+      "correct": "was practising / cut out",
+      "hint": "While + PC (longer background). Short event = PS: cut out."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was studying all night.\" — When is Past Simple more natural?",
+      "opts": [
+        "When she's still studying",
+        "When the studying was completed (she finished)",
+        "When it was raining",
+        "When we don't know if she finished"
+      ],
+      "correct": "When the studying was completed (she finished)",
+      "hint": "\"She studied all night.\" = completed period, she finished. PS is more natural for completed periods."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"While I ___ , she ___.\" Which pair shows simultaneous actions?",
+      "opts": [
+        "studied / called",
+        "was studying / was calling",
+        "studied / was calling",
+        "was studying / called"
+      ],
+      "correct": "was studying / was calling",
+      "hint": "Simultaneous ongoing actions = both PC: was studying + was calling. \"While\" confirms they happened at the same time."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (finish) his essay and ___ (go) to sleep.\"",
+      "correct": "finished / went",
+      "hint": "Sequence of two completed actions = both Past Simple: finished → went."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The wind was howling. Snow was falling.\" What is this called?",
+      "opts": [
+        "A sequence of events",
+        "Scene-setting / narrative atmosphere",
+        "A question",
+        "A stative verb use"
+      ],
+      "correct": "Scene-setting / narrative atmosphere",
+      "hint": "Multiple Past Continuous actions setting the atmosphere/background of a story = scene-setting."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was reading THREE chapters.\" — What does this suggest?",
+      "opts": [
+        "She definitely finished all three",
+        "She may not have finished — action was in progress",
+        "She read them quickly",
+        "She read them yesterday"
+      ],
+      "correct": "She may not have finished — action was in progress",
+      "hint": "PC = action in progress, possibly unfinished. PS (\"she read\") = she completed them."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ I was ___ the essay, Kamila was sleeping.\" Which word fits?",
+      "opts": [
+        "When",
+        "While",
+        "Then",
+        "After"
+      ],
+      "correct": "While",
+      "hint": "\"While\" introduces the ongoing background action (PC). \"While I was writing...\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Complete: \"Suddenly, the lights ___ (go out) while everyone ___ (study).\"",
+      "correct": "went out / was studying",
+      "hint": "\"Suddenly\" = PS event. \"while\" + ongoing background = PC."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"When I arrived, she was leaving\" means they were both there at the same moment.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"She was leaving\" = in the middle of leaving = still there when he arrived. Their actions overlapped for a moment."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ three times before I finally reached her.\" Choose the correct form.",
+      "opts": [
+        "was calling",
+        "called",
+        "am calling",
+        "have called"
+      ],
+      "correct": "called",
+      "hint": "\"Three times\" = completed number of times = Past Simple. Counted, completed actions always use PS."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which combination is NOT possible?",
+      "opts": [
+        "PS + when + PS",
+        "PC + when + PS",
+        "PC + while + PC",
+        "PC + while + PS + PS + PS"
+      ],
+      "correct": "PC + while + PS + PS + PS",
+      "hint": "\"while\" + PC = correct. \"while\" + PS sequence is unusual — \"while\" implies simultaneity, not sequence."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"As the train ___ (move) through the steppe, Rustam ___ (think) about the future.\"",
+      "correct": "was moving / was thinking",
+      "hint": "\"As\" = while = both actions simultaneous → both PC: was moving / was thinking."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the most natural sentence for a sequence.",
+      "opts": [
+        "While he woke up, while he showered, he ate.",
+        "He was waking up, showering, and eating.",
+        "He woke up, showered, and ate breakfast.",
+        "He was waking up when he showered."
+      ],
+      "correct": "He woke up, showered, and ate breakfast.",
+      "hint": "Sequence of morning actions = all Past Simple: woke → showered → ate. No PC needed for simple sequences."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was wanting to help but I didn't know how.\" — What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"wanting\" should be \"want\" — stative verb",
+        "\"didn't know\" should be \"wasn't knowing\"",
+        "The tense is wrong — use future"
+      ],
+      "correct": "\"wanting\" should be \"want\" — stative verb",
+      "hint": "\"want\" is stative → always Past Simple: \"I wanted to help but I didn't know how.\" ✅"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "l7-5",
+  "moduleNum": 7,
+  "lessonNum": 5,
+  "moduleTitle": "Food and drinks",
+  "title": "My food diary",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "For breakfast, I have some...",
+      "emoji": "🍳",
+      "opts": [
+        "На обед я готовлю...",
+        "На завтрак я ем немного...",
+        "До завтрака я пью...",
+        "После завтрака я иду..."
+      ],
+      "correct": "На завтрак я ем немного..."
+    },
+    {
+      "id": "p2",
+      "word": "I don't eat any...",
+      "emoji": "🚫",
+      "opts": [
+        "Я немного ем...",
+        "Я не ем никакого...",
+        "Я всегда ем...",
+        "Мне нравится..."
+      ],
+      "correct": "Я не ем никакого..."
+    },
+    {
+      "id": "p3",
+      "word": "There is some... today.",
+      "emoji": "🍲",
+      "opts": [
+        "Сегодня нет...",
+        "Сегодня есть немного...",
+        "Сегодня много...",
+        "Сегодня мало..."
+      ],
+      "correct": "Сегодня есть немного..."
+    },
+    {
+      "id": "p4",
+      "word": "How much... do I drink?",
+      "emoji": "💧",
+      "opts": [
+        "Сколько... я ем?",
+        "Сколько... я пью?",
+        "Что... я пью?",
+        "Зачем... я пью?"
+      ],
+      "correct": "Сколько... я пью?"
+    },
+    {
+      "id": "p5",
+      "word": "My favourite dish is...",
+      "emoji": "⭐",
+      "opts": [
+        "Моя любимая тарелка — это...",
+        "Моё любимое блюдо — это...",
+        "Мой любимый напиток — это...",
+        "Мой любимый рецепт — это..."
+      ],
+      "correct": "Моё любимое блюдо — это..."
+    },
+    {
+      "id": "p6",
+      "word": "I always / never eat...",
+      "emoji": "🔁",
+      "opts": [
+        "Я иногда готовлю...",
+        "Я всегда / никогда не ем...",
+        "Я редко покупаю...",
+        "Я обычно заказываю..."
+      ],
+      "correct": "Я всегда / никогда не ем..."
+    }
+  ],
+  "writingModel": [
+    "Today is Monday and I want to write about my food diary for the whole day. I think it is very important to eat well as a university student. When I eat some nutritious food, I can concentrate better in my Biology lectures. When I don't eat any breakfast, I feel tired and I can't focus. So I always try to eat three meals a day at the WKU cafeteria.",
+    "For breakfast this morning, I had some oat porridge with a little honey, some fresh bread with butter, and some black Kazakh tea with milk. I also drank some orange juice. I don't eat any fried food in the morning — I prefer something light and warm. I had breakfast at 7:15 with Ruslan. He had some scrambled eggs and some green tea. Neither of us ate any sweets or any biscuits — we save those for the weekend!",
+    "For lunch, there was some delicious shurpa in the cafeteria today — a rich lamb soup with vegetables. I had a bowl of that, some mashed potatoes with chicken, and some fresh cucumber salad. There wasn't any beshbarmak today — that is only on Fridays! I drank some compote with my lunch. How much did the meal cost? Only 600 tenge — very affordable! I don't eat any fast food for lunch because there isn't any on the campus menu.",
+    "In the afternoon, I had a small snack between my lectures. I ate some apple slices and drank some mineral water. I didn't eat any chips or any chocolate — I try to avoid any sugary snacks during the week. Ruslan had some grapes from the market — he always brings some fruit to share. How many grapes did he bring? About thirty! We shared them between lectures and felt much more energetic.",
+    "For dinner this evening, I had some pasta with tomato sauce and some mixed vegetable salad. I didn't eat any meat for dinner — I prefer lighter food in the evenings. I drank two glasses of water and some herbal tea before bed. How much water do I drink in total every day? About six glasses — my Biology teacher says that is the minimum for good health. My favourite dish of the whole day was the shurpa at lunch — there is some warmth in a good bowl of soup that makes university life feel a little more like home!"
+  ],
+  "writingTemplate": [
+    {
+      "key": "day",
+      "prefix": "Today is ",
+      "suffix": " and I want to write about my food for the day.",
+      "placeholder": "day of the week",
+      "hint": "e.g. Monday / Wednesday / Friday"
+    },
+    {
+      "key": "bfast",
+      "prefix": "For breakfast, I have some ",
+      "suffix": ".",
+      "placeholder": "breakfast food",
+      "hint": "e.g. porridge / eggs / bread and tea"
+    },
+    {
+      "key": "nobfast",
+      "prefix": "I don't eat any ",
+      "suffix": " in the morning — I prefer something light.",
+      "placeholder": "food you avoid at breakfast",
+      "hint": "e.g. fried food / meat / sweets"
+    },
+    {
+      "key": "lunch",
+      "prefix": "For lunch, there is some ",
+      "suffix": " in the cafeteria today.",
+      "placeholder": "lunch food",
+      "hint": "e.g. soup / rice / salad / beshbarmak"
+    },
+    {
+      "key": "drink",
+      "prefix": "I always drink some ",
+      "suffix": " with my lunch.",
+      "placeholder": "drink",
+      "hint": "e.g. compote / water / juice / tea"
+    },
+    {
+      "key": "fav",
+      "prefix": "My favourite dish is ",
+      "suffix": " because it is ___.",
+      "placeholder": "dish ... adjective",
+      "hint": "e.g. shurpa ... warm and nutritious"
+    },
+    {
+      "key": "snack",
+      "prefix": "In the afternoon, I eat some ",
+      "suffix": " as a snack between lectures.",
+      "placeholder": "snack",
+      "hint": "e.g. fruit / nuts / an apple / grapes"
+    },
+    {
+      "key": "dinner",
+      "prefix": "For dinner, I have some ",
+      "suffix": ". I don't eat any ___.",
+      "placeholder": "dinner ... food you avoid",
+      "hint": "e.g. pasta ... heavy food / meat"
+    },
+    {
+      "key": "water",
+      "prefix": "How much water do I drink? About ",
+      "suffix": " glasses every day — it helps me concentrate better!",
+      "placeholder": "number",
+      "hint": "e.g. five / six / eight"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Meals — some + food",
+      "color": "#003876",
+      "items": [
+        "For breakfast / lunch / dinner, I have some...",
+        "There is some soup / rice / bread today.",
+        "I always eat some fruit as a snack.",
+        "I had some porridge this morning.",
+        "I drink some compote / water / tea with every meal.",
+        "I eat some vegetables every day."
+      ]
+    },
+    {
+      "category": "Negatives — I don't eat any...",
+      "color": "#EF4444",
+      "items": [
+        "I don't eat any fried food in the morning.",
+        "I don't drink any coffee.",
+        "There isn't any beshbarmak today.",
+        "I never eat any sweets during the week.",
+        "I didn't have any meat for dinner.",
+        "There weren't any vegetarian options."
+      ]
+    },
+    {
+      "category": "Quantities — How much / How many",
+      "color": "#7C3AED",
+      "items": [
+        "How much water do I drink? About 6 glasses.",
+        "How many meals do I eat? Three.",
+        "I eat a lot of vegetables every day.",
+        "I drink a little coffee — just one cup.",
+        "I eat a few pieces of fruit in the afternoon.",
+        "How much does lunch cost? 600 tenge."
+      ]
+    },
+    {
+      "category": "Opinions & habits",
+      "color": "#1D9E75",
+      "items": [
+        "My favourite dish is... because it is...",
+        "I always eat breakfast — it gives me energy!",
+        "I prefer light food in the evenings.",
+        "I try to avoid any sugary snacks.",
+        "Eating well helps me concentrate better.",
+        "A good meal makes university life better!"
+      ]
+    }
+  ]
+}

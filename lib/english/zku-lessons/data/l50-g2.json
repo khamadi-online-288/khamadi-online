@@ -1,0 +1,550 @@
+{
+  "id": "l50-g2",
+  "moduleNum": 16,
+  "lessonNum": 4,
+  "moduleTitle": "Gerunds & Infinitives",
+  "type": "grammar",
+  "title": "Infinitive: decide / want / hope + to",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Infinitives — Verbs That Take to + Base Form",
+  "grammarNote": "После некоторых глаголов в английском языке обязательно используется инфинитив (to + base form). Эти глаголы, как правило, выражают решения, намерения, желания, надежды, ожидания и отказы. Нельзя после них использовать герундий. Это нужно запомнить как лексику.",
+  "grammarTable": [
+    {
+      "subject": "want",
+      "verb": "+ to + base",
+      "short": "хотеть",
+      "example": "\"I want to learn Kazakh.\" / \"She wants to travel.\""
+    },
+    {
+      "subject": "decide",
+      "verb": "+ to + base",
+      "short": "решить",
+      "example": "\"She decided to apply.\" / \"We decided to stay.\""
+    },
+    {
+      "subject": "hope",
+      "verb": "+ to + base",
+      "short": "надеяться",
+      "example": "\"I hope to graduate this year.\" / \"He hopes to find a job.\""
+    },
+    {
+      "subject": "plan",
+      "verb": "+ to + base",
+      "short": "планировать",
+      "example": "\"She plans to study abroad.\" / \"They plan to leave early.\""
+    },
+    {
+      "subject": "promise",
+      "verb": "+ to + base",
+      "short": "обещать",
+      "example": "\"He promised to call.\" / \"She promised to help.\""
+    },
+    {
+      "subject": "refuse",
+      "verb": "+ to + base",
+      "short": "отказываться",
+      "example": "\"She refused to answer.\" / \"He refused to give up.\""
+    },
+    {
+      "subject": "manage",
+      "verb": "+ to + base",
+      "short": "удаваться / суметь",
+      "example": "\"She managed to pass.\" / \"He managed to finish.\""
+    },
+    {
+      "subject": "expect",
+      "verb": "+ to + base",
+      "short": "ожидать",
+      "example": "\"I expect to hear from you soon.\" / \"She expects to win.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Full list: verbs always followed by infinitive",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "want / need / would like / wish",
+          "example": "\"I want TO go.\" / \"She needs TO rest.\" / \"I'd like TO try.\" ✅"
+        },
+        {
+          "form": "decide / plan / choose / agree",
+          "example": "\"Decided TO apply.\" / \"Planned TO leave.\" / \"Agreed TO help.\" ✅"
+        },
+        {
+          "form": "hope / expect / intend / mean",
+          "example": "\"Hope TO pass.\" / \"Expect TO arrive.\" / \"Mean TO call.\" ✅"
+        },
+        {
+          "form": "promise / offer / refuse / fail",
+          "example": "\"Promised TO help.\" / \"Offered TO drive.\" / \"Failed TO submit.\" ✅"
+        },
+        {
+          "form": "learn / manage / tend / afford",
+          "example": "\"Learned TO swim.\" / \"Managed TO pass.\" / \"Can't afford TO wait.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Verb + object + infinitive",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "tell / ask + object + to",
+          "example": "\"She told ME TO leave.\" / \"He asked HER TO wait.\" ✅"
+        },
+        {
+          "form": "want / need + object + to",
+          "example": "\"I want YOU TO help.\" / \"She needs HIM TO stop.\" ✅"
+        },
+        {
+          "form": "allow / permit + object + to",
+          "example": "\"They allowed US TO enter.\" / \"She permitted THEM TO stay.\" ✅"
+        },
+        {
+          "form": "encourage / help + object + to",
+          "example": "\"She encouraged ME TO apply.\" / \"He helped HER TO finish.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Verbs that change meaning: gerund vs infinitive",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "stop + gerund = end action",
+          "example": "\"She stopped SMOKING.\" = She no longer smokes. ✅"
+        },
+        {
+          "form": "stop + infinitive = pause for purpose",
+          "example": "\"She stopped TO smoke.\" = She paused (in order) to smoke. ✅"
+        },
+        {
+          "form": "remember + gerund = recall past",
+          "example": "\"I remember POSTING the letter.\" = I recall doing it."
+        },
+        {
+          "form": "remember + infinitive = future task",
+          "example": "\"Remember TO post the letter.\" = Don't forget to do it!"
+        },
+        {
+          "form": "try + gerund = experiment",
+          "example": "\"Try EATING less sugar.\" = Experiment with this approach."
+        },
+        {
+          "form": "try + infinitive = attempt",
+          "example": "\"Try TO eat less sugar.\" = Make an effort to do so."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common infinitive mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"She decided going.\"",
+          "example": "✅ \"She decided TO GO.\" — decide + infinitive."
+        },
+        {
+          "form": "✗ \"I want swimming.\"",
+          "example": "✅ \"I want TO SWIM.\" — want + infinitive."
+        },
+        {
+          "form": "✗ \"She refused answering.\"",
+          "example": "✅ \"She refused TO ANSWER.\" — refuse + infinitive."
+        },
+        {
+          "form": "✗ \"He managed finishing.\"",
+          "example": "✅ \"He managed TO FINISH.\" — manage + infinitive."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Инфинитив (to + глагол) — запомни глаголы:\n\nwant, need, decide, plan, hope,\npromise, offer, refuse, agree, expect,\nmanage, learn, tend, afford, fail,\nchoose, intend, mean, wish\n\n→ Все они + to + base form (НИКОГДА + V-ing!)\n\n💡 Verb + Object + Infinitive:\n\"She told ME TO leave.\" ✅\n\"I want YOU TO help.\" ✅\n\"He asked HER TO wait.\" ✅\n\n⚠️ Глаголы с изменением значения:\n\"stop SMOKING\" (бросить) vs \"stop TO SMOKE\" (остановиться чтобы)\n\"remember POSTING\" (помню что отправил) vs\n\"remember TO POST\" (не забудь отправить!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She decided ___ to a different university.",
+      "opts": [
+        "transferring",
+        "to transfer",
+        "transfer",
+        "transferred"
+      ],
+      "correct": "to transfer",
+      "hint": "\"decide\" + INFINITIVE. \"She decided TO TRANSFER.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"I want ___ English fluently.\" (speak)",
+      "correct": "to speak",
+      "hint": "\"want\" + INFINITIVE. \"I want TO SPEAK English fluently.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "He hopes ___ the final exam.",
+      "opts": [
+        "passing",
+        "to pass",
+        "pass",
+        "passed"
+      ],
+      "correct": "to pass",
+      "hint": "\"hope\" + INFINITIVE. \"He hopes TO PASS the exam.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She refused ___ the question.",
+      "opts": [
+        "answering",
+        "to answer",
+        "answer",
+        "answered"
+      ],
+      "correct": "to answer",
+      "hint": "\"refuse\" + INFINITIVE. \"She refused TO ANSWER.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"He managed ___ the project on time.\" (finish)",
+      "correct": "to finish",
+      "hint": "\"manage\" + INFINITIVE. \"He managed TO FINISH.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose: gerund or infinitive?",
+      "text": "\"She stopped ___ when she heard the news.\" (cry)",
+      "opts": [
+        "to cry (she paused in order to cry)",
+        "crying (she stopped the action)",
+        "cry",
+        "cried"
+      ],
+      "correct": "crying (she stopped the action)",
+      "hint": "\"stopped CRYING\" = she was crying, and then she stopped. The crying ended. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose: gerund or infinitive?",
+      "text": "\"Remember ___ the lights before you leave!\" (turn off)",
+      "opts": [
+        "turning off (recall past)",
+        "to turn off (future task — don't forget)",
+        "turn off",
+        "turned off"
+      ],
+      "correct": "to turn off (future task — don't forget)",
+      "hint": "\"Remember TO turn off\" = don't forget to do it in the future! ✅ \"Remember TURNING off\" = I recall having done it."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"I plan ___ abroad after graduation.\"",
+      "opts": [
+        "studying",
+        "to study",
+        "study",
+        "studied"
+      ],
+      "correct": "to study",
+      "hint": "\"plan\" + INFINITIVE. \"I plan TO STUDY abroad.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Verb + object + infinitive.",
+      "text": "\"She told him ___ the door.\" (close)",
+      "correct": "to close",
+      "hint": "\"tell + object + TO + base\". \"She told him TO CLOSE the door.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose: \"try + gerund\" or \"try + infinitive\"?",
+      "text": "\"Try ___ less coffee — it might help your sleep.\" (drink)",
+      "opts": [
+        "to drink (attempt)",
+        "drinking (experiment with this approach)",
+        "drink",
+        "drank"
+      ],
+      "correct": "drinking (experiment with this approach)",
+      "hint": "\"Try DRINKING less coffee\" = experiment with this approach. \"Try TO drink less\" = make an effort to reduce. Both work but meaning shifts!"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She offered ___ us at the airport.",
+      "opts": [
+        "meeting",
+        "to meet",
+        "meet",
+        "met"
+      ],
+      "correct": "to meet",
+      "hint": "\"offer\" + INFINITIVE. \"She offered TO MEET us.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete.",
+      "text": "\"I expect ___ a reply by Friday.\" (receive)",
+      "correct": "to receive",
+      "hint": "\"expect\" + INFINITIVE. \"I expect TO RECEIVE a reply.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She decided ___.\" Choose.",
+      "opts": [
+        "going",
+        "to go",
+        "goes",
+        "go"
+      ],
+      "correct": "to go",
+      "hint": "\"decide\" + INFINITIVE. \"She decided TO GO.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I want ___.\" Choose.",
+      "opts": [
+        "swimming",
+        "to swim",
+        "swim",
+        "swam"
+      ],
+      "correct": "to swim",
+      "hint": "\"want\" + INFINITIVE. \"I want TO SWIM.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He hopes ___ the exam.\" Choose.",
+      "opts": [
+        "passing",
+        "to pass",
+        "pass",
+        "passed"
+      ],
+      "correct": "to pass",
+      "hint": "\"hope\" + INFINITIVE. \"He hopes TO PASS.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She refused ___ .\" (answer)",
+      "correct": "to answer",
+      "hint": "\"refuse\" + INFINITIVE. \"She refused TO ANSWER.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They managed ___ the deadline.\" Choose.",
+      "opts": [
+        "meeting",
+        "to meet",
+        "meet",
+        "met"
+      ],
+      "correct": "to meet",
+      "hint": "\"manage\" + INFINITIVE. \"They managed TO MEET the deadline.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She promised ___ back by 8.\" Choose.",
+      "opts": [
+        "coming",
+        "to come",
+        "come",
+        "came"
+      ],
+      "correct": "to come",
+      "hint": "\"promise\" + INFINITIVE. \"She promised TO COME back.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I stopped ___ when I realised it was wrong.\" (+ infinitive means...)",
+      "opts": [
+        "smoking (gave it up)",
+        "to smoke (paused in order to smoke)",
+        "smoke",
+        "smoked"
+      ],
+      "correct": "to smoke (paused in order to smoke)",
+      "hint": "\"stopped TO smoke\" = stopped [what I was doing] IN ORDER TO smoke. The infinitive = purpose. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Remember ___ the lights!\" means don't forget.",
+      "opts": [
+        "turning off",
+        "to turn off",
+        "turn off",
+        "turned off"
+      ],
+      "correct": "to turn off",
+      "hint": "\"Remember TO turn off\" = don't forget to do it (future task). ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She asked him ___ .\" (help)",
+      "correct": "to help",
+      "hint": "\"ask + object + TO + base\". \"She asked him TO HELP.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She agreed ___ the proposal.\" Choose.",
+      "opts": [
+        "accepting",
+        "to accept",
+        "accept",
+        "accepted"
+      ],
+      "correct": "to accept",
+      "hint": "\"agree\" + INFINITIVE. \"She agreed TO ACCEPT.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She failed ___ the assignment on time.\" Choose.",
+      "opts": [
+        "submitting",
+        "to submit",
+        "submit",
+        "submitted"
+      ],
+      "correct": "to submit",
+      "hint": "\"fail\" + INFINITIVE. \"She failed TO SUBMIT.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I plan ___ after graduation.\" (travel)",
+      "correct": "to travel",
+      "hint": "\"plan\" + INFINITIVE. \"I plan TO TRAVEL after graduation.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I want you ___ this.\" Choose.",
+      "opts": [
+        "checking",
+        "to check",
+        "check",
+        "checked"
+      ],
+      "correct": "to check",
+      "hint": "\"want + object + TO + base\". \"I want you TO CHECK this.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Try ___ the problem from a different angle.\" (experiment)",
+      "opts": [
+        "to approach (attempt)",
+        "approaching (experiment)",
+        "approach",
+        "approached"
+      ],
+      "correct": "approaching (experiment)",
+      "hint": "\"Try APPROACHING\" = experiment with this approach. \"Try TO approach\" = make an effort. Both are possible with \"try\"!"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She encouraged him ___ .\" (apply)",
+      "correct": "to apply",
+      "hint": "\"encourage + object + TO + base\". \"She encouraged him TO APPLY.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I remember ___ you the answer.\" — I recall doing it in the past.",
+      "opts": [
+        "to tell",
+        "telling",
+        "tell",
+        "told"
+      ],
+      "correct": "telling",
+      "hint": "\"remember TELLING\" = I have a memory of having told you (past action). ✅"
+    }
+  ]
+}

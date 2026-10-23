@@ -1,0 +1,220 @@
+{
+  "id": "l55-4",
+  "moduleNum": 21,
+  "lessonNum": 6,
+  "moduleTitle": "Telling Stories",
+  "type": "writing",
+  "title": "A Short Story from My Past",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I had been...",
+      "emoji": "🔄",
+      "opts": [
+        "я буду",
+        "я (уже) делал — до момента в прошлом",
+        "я делаю сейчас",
+        "я сделал давно"
+      ],
+      "correct": "я (уже) делал — до момента в прошлом"
+    },
+    {
+      "id": "p2",
+      "word": "When I arrived,...",
+      "emoji": "🚪",
+      "opts": [
+        "после того как я пришёл",
+        "когда я пришёл",
+        "перед тем как я пришёл",
+        "потому что я пришёл"
+      ],
+      "correct": "когда я пришёл"
+    },
+    {
+      "id": "p3",
+      "word": "By the time...",
+      "emoji": "⏰",
+      "opts": [
+        "в то время как",
+        "к тому моменту как",
+        "как только",
+        "перед тем как"
+      ],
+      "correct": "к тому моменту как"
+    },
+    {
+      "id": "p4",
+      "word": "I had already...",
+      "emoji": "✅",
+      "opts": [
+        "я ещё не",
+        "я уже (сделал)",
+        "я собирался",
+        "я должен был"
+      ],
+      "correct": "я уже (сделал)"
+    },
+    {
+      "id": "p5",
+      "word": "After I had...",
+      "emoji": "➡️",
+      "opts": [
+        "до того как я",
+        "после того как я",
+        "когда я ещё",
+        "пока я"
+      ],
+      "correct": "после того как я"
+    },
+    {
+      "id": "p6",
+      "word": "What I hadn't known was...",
+      "emoji": "💭",
+      "opts": [
+        "что я знал",
+        "чего я не знал",
+        "что я хотел",
+        "что я узнал потом"
+      ],
+      "correct": "чего я не знал"
+    }
+  ],
+  "writingModel": [
+    "The Day I Almost Didn't Arrive — by Rustam Seilov",
+    "It was the first week of the new semester, and I had been looking forward to the first WKU volleyball practice of the year for a long time. I had been playing for the student team for almost a year by then, and I had trained hard all summer. The practice was at 5 p.m. on the other side of the city.",
+    "When I left the dormitory, I had checked the bus schedule carefully. The number 7 bus left at 4:15. I had ten minutes. I walked quickly to the stop — and as I arrived, I watched the bus pull away. The number 7 had come early. I had missed it by thirty seconds.",
+    "I stood at the stop and thought about my options. I had already missed the previous practice due to a lecture clash, so missing this one as well felt impossible. I decided to walk. The journey would take forty minutes. The practice started in forty-five. I was going to be late. I walked anyway.",
+    "What I hadn't known was that the route passed through the market district. As I walked, the street filled with noise and movement — sellers calling out, children running, the smell of bread from a bakery I hadn't noticed before. I had been so focused on the bus that I hadn't seen any of it. I started walking more slowly, looking around, forgetting briefly that I was almost certainly going to be late.",
+    "By the time I reached the sports hall, the practice had already started — five minutes earlier, not at 5 p.m. as I had thought. I had run the last three hundred metres. Zhibek was waiting outside. \"Where were you?\" she said. \"I've been covering for you with the coach.\" I hadn't known she would do that. I hadn't asked.",
+    "That evening, I thought about the day. I had missed the bus, walked through a market I hadn't seen before, arrived five minutes late, and been helped by someone who hadn't needed to help me. It had all happened because the number 7 bus had come early. None of it would have happened otherwise. Sometimes, I think, the things that go wrong are the things that end up mattering."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "",
+      "suffix": " — by ",
+      "placeholder": "Story title (can include a twist)",
+      "hint": "Choose a title that suggests something unexpected or personal."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "context",
+      "prefix": "It was ",
+      "suffix": ", and I had been ___.",
+      "placeholder": "when + what you had been doing/expecting",
+      "hint": "Set the scene: when it was, and what had been happening before the main event."
+    },
+    {
+      "key": "event",
+      "prefix": "When I ",
+      "suffix": ".",
+      "placeholder": "arrived / got there / started — main past event",
+      "hint": "\"When I arrived...\" — the main past event. What happened?"
+    },
+    {
+      "key": "problem",
+      "prefix": "I had already ",
+      "suffix": ", so ___.",
+      "placeholder": "what had happened earlier that made this worse",
+      "hint": "\"I had already missed X, so...\" — use Past Perfect for earlier context."
+    },
+    {
+      "key": "decide",
+      "prefix": "I decided to ",
+      "suffix": ".",
+      "placeholder": "your decision in response to the problem",
+      "hint": "What did you decide to do? Simple past."
+    },
+    {
+      "key": "twist",
+      "prefix": "What I hadn't known was ",
+      "suffix": ".",
+      "placeholder": "the thing you hadn't expected",
+      "hint": "\"What I hadn't known was...\" = the unexpected element. Past Perfect negative."
+    },
+    {
+      "key": "end",
+      "prefix": "By the time I ",
+      "suffix": ", it had already ___.",
+      "placeholder": "arrived / finished / happened — by the time structure",
+      "hint": "\"By the time I arrived, it had already...\" — use the deadline structure."
+    },
+    {
+      "key": "reflect",
+      "prefix": "That evening, I thought about ",
+      "suffix": ".",
+      "placeholder": "what the day had taught you",
+      "hint": "Reflect on the experience. What did it mean? What had you learned?"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Setting the scene (Past Perfect)",
+      "color": "#003876",
+      "items": [
+        "I had been looking forward to this for a long time.",
+        "I had been preparing for weeks / months.",
+        "I had already arranged / decided / told myself...",
+        "It had been a difficult / unusual / ordinary week.",
+        "By that point, I had been living in Uralsk for..."
+      ]
+    },
+    {
+      "category": "The main events (Past Simple)",
+      "color": "#1D9E75",
+      "items": [
+        "When I arrived, everything had already changed.",
+        "I stood there and thought about my options.",
+        "I decided to / I chose to / I had no choice but to...",
+        "As I walked, the street filled with...",
+        "I ran the last hundred metres."
+      ]
+    },
+    {
+      "category": "The twist / unexpected moment",
+      "color": "#1B8FC4",
+      "items": [
+        "What I hadn't known was...",
+        "I hadn't expected to find...",
+        "By the time I arrived, it had already...",
+        "The thing that surprised me most was...",
+        "None of this would have happened if..."
+      ]
+    },
+    {
+      "category": "Reflection and conclusion",
+      "color": "#C9933B",
+      "items": [
+        "That evening, I thought about what had happened.",
+        "I had missed the bus — and somehow that had led to...",
+        "Looking back, I realise that...",
+        "It had all started because...",
+        "Sometimes, I think, the things that go wrong are the things that matter."
+      ]
+    }
+  ]
+}

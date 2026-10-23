@@ -1,0 +1,287 @@
+{
+  "id": "l32-1",
+  "moduleNum": 16,
+  "lessonNum": 1,
+  "moduleTitle": "Shopping & Fashion",
+  "type": "reading",
+  "title": "Fashion Trends in Kazakhstan",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Fashion in Kazakhstan is a fascinating blend of traditional and modern influences. While international brands are popular in cities like Almaty and Astana, there is also a growing movement to celebrate traditional Kazakh designs, patterns, and craftsmanship.",
+    "Traditional Kazakh clothing includes the shapan — a long robe worn at ceremonies and celebrations. The takhiya, a traditional hat, and felt boots called sarypyl are also part of the cultural heritage. These items are now being incorporated into modern fashion designs.",
+    "Young designers at universities like WKU are creating collections that combine traditional Kazakh patterns (called ornaments) with contemporary cuts and fabrics. Kamila Seitkali visited one such exhibition last spring. 'The colours were stunning — deep reds, golds, and blues. It was a beautiful mix of old and new,' she said.",
+    "On the streets of Uralsk, students dress practically. Warm jackets and boots are essential in winter. In spring and summer, bright colours and light fabrics are popular. Many students prefer casual clothes — jeans, hoodies, trainers — but dress smartly for important events.",
+    "Fast fashion is a concern among younger generations. Cheap clothes that are worn a few times and then thrown away create enormous amounts of textile waste. In response, many students are choosing to buy second-hand or invest in quality pieces that last longer.",
+    "Fashion is not just about appearance — it is a form of expression. What you wear tells a story about who you are, where you come from, and what you value. As Kamila says: 'I love mixing Kazakh-inspired accessories with modern clothes. It's my way of showing who I am.'"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Gulnaz, have you seen those new Kazakh-inspired handbags in the exhibition?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnaz",
+      "text": "Yes! They're beautiful but a bit too expensive for me right now.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I know. The quality is excellent though — they're big enough for all my books and sturdy enough.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Gulnaz",
+      "text": "I prefer shopping second-hand. You find amazing things and it's much cheaper.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's a good point. The coat I'm wearing cost only 2,000 tenge — it was second-hand.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "too + adjective",
+      "ru": "слишком + прилагательное",
+      "context": "They're too expensive for me right now."
+    },
+    {
+      "phrase": "adjective + enough",
+      "ru": "прилагательное + достаточно",
+      "context": "They're big enough for all my books."
+    },
+    {
+      "phrase": "too expensive to buy",
+      "ru": "слишком дорого, чтобы купить",
+      "context": "It's too expensive to buy right now."
+    },
+    {
+      "phrase": "big enough for…",
+      "ru": "достаточно большой для…",
+      "context": "The bag is big enough for all my textbooks."
+    },
+    {
+      "phrase": "not warm enough",
+      "ru": "недостаточно тёплый",
+      "context": "This jacket is not warm enough for winter."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "fast fashion",
+      "ipa": "/fɑːst ˈfæʃ.ən/",
+      "pos": "n",
+      "ru": "быстрая мода",
+      "kz": "жылдам сән",
+      "emoji": "👕",
+      "definition": "Cheaply made clothes produced quickly to follow the latest trends.",
+      "example": "Fast fashion creates enormous amounts of textile waste.",
+      "collocations": [
+        "fast fashion brands",
+        "avoid fast fashion",
+        "fast fashion industry"
+      ]
+    },
+    {
+      "en": "second-hand",
+      "ipa": "/ˌsek.ənd ˈhænd/",
+      "pos": "adj",
+      "ru": "подержанный, секонд-хэнд",
+      "kz": "қолданылған",
+      "emoji": "♻️",
+      "definition": "Previously owned and used by someone else.",
+      "example": "Kamila's coat cost only 2,000 tenge — it was second-hand.",
+      "collocations": [
+        "second-hand shop",
+        "buy second-hand",
+        "second-hand clothes"
+      ]
+    },
+    {
+      "en": "textile",
+      "ipa": "/ˈtek.staɪl/",
+      "pos": "n",
+      "ru": "текстиль, ткань",
+      "kz": "тоқыма",
+      "emoji": "🧵",
+      "definition": "Any type of woven or manufactured fabric or cloth.",
+      "example": "Fast fashion creates enormous amounts of textile waste.",
+      "collocations": [
+        "textile industry",
+        "textile waste",
+        "natural textile"
+      ]
+    },
+    {
+      "en": "craftsmanship",
+      "ipa": "/ˈkrɑːfts.mən.ʃɪp/",
+      "pos": "n",
+      "ru": "мастерство, ремесленничество",
+      "kz": "шеберлік",
+      "emoji": "🎨",
+      "definition": "The quality of making something with skill and care.",
+      "example": "Traditional Kazakh clothing shows beautiful craftsmanship.",
+      "collocations": [
+        "fine craftsmanship",
+        "traditional craftsmanship",
+        "skilled craftsmanship"
+      ]
+    },
+    {
+      "en": "accessories",
+      "ipa": "/əkˈses.ər.iz/",
+      "pos": "n",
+      "ru": "аксессуары",
+      "kz": "аксессуарлар",
+      "emoji": "👜",
+      "definition": "Extra items like bags, jewellery, and scarves that complement an outfit.",
+      "example": "Kamila loves mixing Kazakh-inspired accessories with modern clothes.",
+      "collocations": [
+        "fashion accessories",
+        "mix accessories",
+        "traditional accessories"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "fast fashion",
+      "emoji": "👕",
+      "opts": [
+        "Clothing that is very expensive and high quality",
+        "Cheap clothes made quickly to follow trends",
+        "Traditional handmade clothing",
+        "Formal business attire"
+      ],
+      "correct": "Cheap clothes made quickly to follow trends"
+    },
+    {
+      "id": "p2",
+      "word": "second-hand",
+      "emoji": "♻️",
+      "opts": [
+        "Brand new clothing just arrived in store",
+        "Clothes made in factories",
+        "Previously owned and used by someone else",
+        "Clothes imported from abroad"
+      ],
+      "correct": "Previously owned and used by someone else"
+    },
+    {
+      "id": "p3",
+      "word": "craftsmanship",
+      "emoji": "🎨",
+      "opts": [
+        "Mass production in factories",
+        "Skilled, careful manual work",
+        "Online fashion design",
+        "Cheap clothing production"
+      ],
+      "correct": "Skilled, careful manual work"
+    },
+    {
+      "id": "p4",
+      "word": "textile",
+      "emoji": "🧵",
+      "opts": [
+        "A fashion brand name",
+        "A type of shoe",
+        "Any type of woven fabric or cloth",
+        "A style of clothing"
+      ],
+      "correct": "Any type of woven fabric or cloth"
+    },
+    {
+      "id": "p5",
+      "word": "accessories",
+      "emoji": "👜",
+      "opts": [
+        "Main clothing items like shirts and trousers",
+        "Extra items like bags and jewellery",
+        "Shoes and boots only",
+        "Traditional ceremonial clothing"
+      ],
+      "correct": "Extra items like bags and jewellery"
+    }
+  ],
+  "task1Bank": [
+    "too",
+    "enough",
+    "traditional",
+    "modern",
+    "patterns",
+    "second-hand",
+    "waste",
+    "blend"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "Fashion in Kazakhstan is a ___ of traditional and modern influences.",
+      "correct": "blend"
+    },
+    {
+      "id": "i2",
+      "question": "Traditional Kazakh ___ are used in modern fashion designs.",
+      "correct": "patterns"
+    },
+    {
+      "id": "i3",
+      "question": "Fast fashion creates ___ amounts of textile ___.",
+      "correct": "waste"
+    },
+    {
+      "id": "i4",
+      "question": "Many students choose to buy ___ clothes to avoid waste.",
+      "correct": "second-hand"
+    },
+    {
+      "id": "i5",
+      "question": "The bag is ___ big for all my books.",
+      "correct": "enough"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Traditional Kazakh clothing includes the shapan.",
+      "correct": "true"
+    },
+    {
+      "id": "s2",
+      "statement": "Kamila visited a fashion exhibition last autumn.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Fast fashion is considered a positive trend in the article.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Kamila's second-hand coat cost 2,000 tenge.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "All WKU students dress in traditional Kazakh clothes.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

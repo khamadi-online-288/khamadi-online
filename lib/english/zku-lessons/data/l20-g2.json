@@ -1,0 +1,570 @@
+{
+  "id": "l20-g2",
+  "moduleNum": 4,
+  "lessonNum": 5,
+  "moduleTitle": "Food & Eating Out",
+  "title": "a / an / some / any / much / many",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "a / an / some / any / much / many / a few / a little",
+  "grammarNote": "Эти слова называются КВАНТОРАМИ — они говорят нам, СКОЛЬКО чего-то. Выбор зависит от двух вещей: 1) существительное исчисляемое или нет; 2) предложение утвердительное, отрицательное или вопросительное. Правильный выбор квантора — одна из самых важных грамматических тем в английском!",
+  "grammarTable": [
+    {
+      "subject": "a / an",
+      "verb": "countable singular (+)",
+      "short": "a/an",
+      "example": "a tomato · an apple · a café · Have an egg for breakfast."
+    },
+    {
+      "subject": "some",
+      "verb": "C plural + U in (+)",
+      "short": "some +",
+      "example": "some apples · some water · some bread · I'd like some tea."
+    },
+    {
+      "subject": "any",
+      "verb": "C plural + U in (?) (−)",
+      "short": "any ?/−",
+      "example": "Is there any milk? · I don't have any eggs. · Any bread left?"
+    },
+    {
+      "subject": "much",
+      "verb": "uncountable in (?) (−)",
+      "short": "much U",
+      "example": "How much sugar? · Not much water. · Is there much time?"
+    },
+    {
+      "subject": "many",
+      "verb": "countable in (?) (−)",
+      "short": "many C",
+      "example": "How many eggs? · Not many cafés. · Are there many students?"
+    },
+    {
+      "subject": "a lot of",
+      "verb": "C + U in (+)",
+      "short": "a lot of",
+      "example": "a lot of apples · a lot of milk · There's a lot of food here."
+    },
+    {
+      "subject": "a few",
+      "verb": "countable — small number",
+      "short": "a few C",
+      "example": "a few tomatoes · a few minutes · I have a few ideas."
+    },
+    {
+      "subject": "a little",
+      "verb": "uncountable — small amount",
+      "short": "a little U",
+      "example": "a little sugar · a little water · just a little honey."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "some vs any — the key rule",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "some → positive statements",
+          "example": "There is some milk in the fridge. ✅ · I want some tea. ✅"
+        },
+        {
+          "form": "any → questions",
+          "example": "Is there any milk? ✅ · Do you have any eggs? ✅"
+        },
+        {
+          "form": "any → negative statements",
+          "example": "There isn't any milk. ✅ · I don't have any bread. ✅"
+        },
+        {
+          "form": "some → offers & polite requests",
+          "example": "Would you like some tea? ✅ · Can I have some water? ✅"
+        },
+        {
+          "form": "any → \"it doesn't matter which\"",
+          "example": "You can have any cake you want. ✅ · Come any time. ✅"
+        },
+        {
+          "form": "❌ Is there some milk? (wrong)",
+          "example": "❌ Usually wrong in questions. → Is there any milk? ✅"
+        }
+      ]
+    },
+    {
+      "title": "much vs many — and a lot of",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "much + uncountable (mainly ? and −)",
+          "example": "How much sugar? · Not much time. · There's too much salt!"
+        },
+        {
+          "form": "many + countable (mainly ? and −)",
+          "example": "How many eggs? · Not many people. · Too many dishes!"
+        },
+        {
+          "form": "a lot of = informal + / ? / −",
+          "example": "a lot of sugar ✅ · a lot of eggs ✅ · a lot of time ✅"
+        },
+        {
+          "form": "lots of = very informal",
+          "example": "\"There are lots of options on the menu!\" (spoken)"
+        },
+        {
+          "form": "⚠️ much/many are formal in (+)",
+          "example": "\"There is much food\" (formal) → prefer \"a lot of food\"."
+        },
+        {
+          "form": "too much / too many = negative excess",
+          "example": "\"There's too much salt!\" · \"Too many people in here!\""
+        }
+      ]
+    },
+    {
+      "title": "a few vs a little (positive meaning)",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "a few + countable = some (positive)",
+          "example": "I have a few tomatoes — enough for a salad."
+        },
+        {
+          "form": "a little + uncountable = some (positive)",
+          "example": "Just add a little salt — not too much."
+        },
+        {
+          "form": "few (no \"a\") = almost none (negative)",
+          "example": "There are few options — I'm not happy."
+        },
+        {
+          "form": "little (no \"a\") = almost none (negative)",
+          "example": "There's little water left — we need more."
+        },
+        {
+          "form": "a few vs few: nuance!",
+          "example": "a few friends came ✅ (positive) vs few friends (sad, almost none)"
+        },
+        {
+          "form": "a little vs little: nuance!",
+          "example": "a little time left ✅ (positive) vs little time (worrying)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Classic mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ I don't have some milk.",
+          "example": "✅ I don't have any milk. (negatives use \"any\"!)"
+        },
+        {
+          "form": "❌ Is there some cheese?",
+          "example": "✅ Is there any cheese? (questions usually use \"any\"!)"
+        },
+        {
+          "form": "❌ How many rice?",
+          "example": "✅ How much rice? (rice is uncountable!)"
+        },
+        {
+          "form": "❌ I have few ideas for this.",
+          "example": "✅ I have a few ideas. (\"few\" without \"a\" = almost none — negative!)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Шпаргалка:\n(+) Утверждение: some milk · some apples · a lot of food · a few eggs · a little sugar\n(?) Вопрос:       any milk? · any apples? · how much? · how many? · a few? · a little?\n(−) Отрицание:   not any milk · not many eggs · not much sugar · no bread at all\n\n💡 ИСКЛЮЧЕНИЕ: some в вопросах-предложениях/просьбах:\n'Would you like some tea?' ✅  (это предложение, а не вопрос о наличии)\n'Can I have some water?' ✅  (это вежливая просьба)\n\n💡 a few vs a little:\na few EGGS (исчисляемое) · a little SUGAR (неисчисляемое)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose: some or any?",
+      "text": "Is there ___ honey in the jar?",
+      "opts": [
+        "some",
+        "any",
+        "a",
+        "many"
+      ],
+      "correct": "any",
+      "hint": "Question → any. \"Is there any honey?\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose: some or any?",
+      "text": "I'd like ___ milk in my tea, please.",
+      "opts": [
+        "some",
+        "any",
+        "much",
+        "a few"
+      ],
+      "correct": "some",
+      "hint": "Positive statement → some. \"I'd like some milk.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write: much or many?",
+      "text": "How ___ eggs do we need for the omelette?",
+      "correct": "many",
+      "hint": "Eggs = countable → How many eggs?"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write: much or many?",
+      "text": "There isn't ___ time — hurry up!",
+      "correct": "much",
+      "hint": "Time = uncountable → not much time."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose: a few or a little?",
+      "text": "She added ___ sugar to the tea — just enough.",
+      "opts": [
+        "a few",
+        "a little",
+        "some",
+        "few"
+      ],
+      "correct": "a little",
+      "hint": "Sugar = uncountable → a little sugar."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose: a few or a little?",
+      "text": "I have ___ friends coming for dinner — about three.",
+      "opts": [
+        "a little",
+        "a few",
+        "few",
+        "a lot"
+      ],
+      "correct": "a few",
+      "hint": "Friends = countable → a few friends."
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I don't have some bread\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Negatives use \"any\": \"I don't have any bread.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "There is ___ food at the market — it's amazing!",
+      "opts": [
+        "many",
+        "much",
+        "a lot of",
+        "a few"
+      ],
+      "correct": "a lot of",
+      "hint": "a lot of + uncountable/countable in positive statements. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Which is correct?",
+      "text": "\"___ rice is left?\" — asking about quantity.",
+      "opts": [
+        "How many",
+        "How much",
+        "How few",
+        "How little"
+      ],
+      "correct": "How much",
+      "hint": "Rice = uncountable → How much rice?"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the polite offer.",
+      "text": "\"Would you like ___ tea?\"",
+      "opts": [
+        "any",
+        "many",
+        "some",
+        "a lot"
+      ],
+      "correct": "some",
+      "hint": "Offers and polite requests → \"some\", not \"any\". \"Would you like some tea?\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Correct the mistake.",
+      "text": "I don't have ___ apples at home — the fridge is empty.",
+      "correct": "any",
+      "hint": "Negative + countable noun → \"any\": I don't have any apples."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "There are ___ cafés near WKU — only Stepnoy Corner.",
+      "opts": [
+        "a little",
+        "much",
+        "few",
+        "a few"
+      ],
+      "correct": "few",
+      "hint": "\"few\" (without \"a\") = almost none — negative/disappointing. \"a few\" = some."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ milk is in the fridge?\" — asking about quantity.",
+      "opts": [
+        "How many",
+        "How much",
+        "How few",
+        "How often"
+      ],
+      "correct": "How much",
+      "hint": "Milk = uncountable → How much milk?"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Is there ___ butter?\" — correct question.",
+      "opts": [
+        "some",
+        "any",
+        "a few",
+        "many"
+      ],
+      "correct": "any",
+      "hint": "Questions → \"any\": Is there any butter?"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I don't have ___ eggs — I need to go to the market.",
+      "correct": "any",
+      "hint": "Negatives → \"any\": I don't have any eggs."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Would you like ___ soup?\" — polite offer.",
+      "opts": [
+        "any",
+        "many",
+        "some",
+        "a few"
+      ],
+      "correct": "some",
+      "hint": "Offers use \"some\": Would you like some soup? ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There's ___ food at the market — incredible variety!\"",
+      "opts": [
+        "many",
+        "much",
+        "a lot of",
+        "a few"
+      ],
+      "correct": "a lot of",
+      "hint": "\"a lot of\" = large amount, positive, used with countable and uncountable."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She added just ___ honey — it was perfect.\"",
+      "opts": [
+        "a few",
+        "many",
+        "a little",
+        "much"
+      ],
+      "correct": "a little",
+      "hint": "Honey = uncountable → \"a little honey\"."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "How ___ apples do we need for the cake?",
+      "correct": "many",
+      "hint": "Apples = countable → How many apples?"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Is there some cheese in the fridge?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Questions → \"any\": Is there any cheese? (Some in questions = usually wrong.)"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have ___ ideas — let me share them.\"",
+      "opts": [
+        "a little",
+        "much",
+        "a few",
+        "any"
+      ],
+      "correct": "a few",
+      "hint": "Ideas = countable → \"a few ideas\" (= some, positive)."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference: \"a few\" vs \"few\"?",
+      "opts": [
+        "No difference",
+        "\"few\" = more than \"a few\"",
+        "\"a few\" = positive (some); \"few\" = negative (almost none)",
+        "\"a few\" = uncountable"
+      ],
+      "correct": "\"a few\" = positive (some); \"few\" = negative (almost none)",
+      "hint": "\"a few friends\" = I have some friends ✅. \"few friends\" = I have almost none 😞."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "There isn't some water.",
+        "There isn't any water.",
+        "There isn't much waters.",
+        "There are any water."
+      ],
+      "correct": "There isn't any water.",
+      "hint": "Negative + uncountable → 'There isn't any water.' ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "There are ___ options here — just one or two.",
+      "correct": "few",
+      "hint": "\"few\" (without \"a\") = almost none. Negative meaning."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Too ___ salt!\" — the soup is inedible!",
+      "opts": [
+        "many",
+        "few",
+        "much",
+        "some"
+      ],
+      "correct": "much",
+      "hint": "Salt = uncountable → too much salt."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Too ___ people in the café — let's go elsewhere.\"",
+      "opts": [
+        "much",
+        "little",
+        "many",
+        "few"
+      ],
+      "correct": "many",
+      "hint": "People = countable → too many people."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I only have ___ time — let's be quick.\"",
+      "opts": [
+        "a few",
+        "many",
+        "a little",
+        "any"
+      ],
+      "correct": "a little",
+      "hint": "Time = uncountable → a little time (= some, but not much)."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which quantifier works with BOTH countable AND uncountable?",
+      "opts": [
+        "many",
+        "much",
+        "a little",
+        "a lot of"
+      ],
+      "correct": "a lot of",
+      "hint": "\"a lot of\" works with both: a lot of apples ✅ · a lot of milk ✅."
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "id": "l43-g2",
+  "moduleNum": 9,
+  "lessonNum": 4,
+  "moduleTitle": "Asking & Answering",
+  "type": "grammar",
+  "title": "Question Tags: isn't it? / aren't you?",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Question Tags — checking, confirming, inviting conversation",
+  "grammarNote": "Разделительные вопросы (question tags) добавляются в конец утвердительного предложения. Они используются для: ① проверки информации, которую говорящий считает верной, ② приглашения к разговору, ③ выражения удивления. Главное правило: если предложение ПОЛОЖИТЕЛЬНОЕ — тег ОТРИЦАТЕЛЬНЫЙ. Если предложение ОТРИЦАТЕЛЬНОЕ — тег ПОЛОЖИТЕЛЬНЫЙ.",
+  "grammarTable": [
+    {
+      "subject": "Positive → negative tag",
+      "verb": "are/is/have/can → aren't/isn't/haven't/can't",
+      "short": "+ → −",
+      "example": "\"She's a linguist, ISN'T she?\" / \"You've been there, HAVEN'T you?\""
+    },
+    {
+      "subject": "Negative → positive tag",
+      "verb": "aren't/isn't → are/is",
+      "short": "− → +",
+      "example": "\"He isn't late, IS he?\" / \"She hasn't left, HAS she?\""
+    },
+    {
+      "subject": "be (am/is/are/was/were)",
+      "verb": "→ be tag",
+      "short": "be → be",
+      "example": "\"It's cold, isn't it?\" / \"They were there, weren't they?\""
+    },
+    {
+      "subject": "have/has/had",
+      "verb": "→ have tag",
+      "short": "have → have",
+      "example": "\"She's already applied, hasn't she?\" / \"You've met him, haven't you?\""
+    },
+    {
+      "subject": "modal (can/could/will)",
+      "verb": "→ modal tag",
+      "short": "modal → modal",
+      "example": "\"You can swim, can't you?\" / \"She'll be there, won't she?\""
+    },
+    {
+      "subject": "Present/Past Simple",
+      "verb": "→ do/does/did tag",
+      "short": "PS → do",
+      "example": "\"He studies here, doesn't he?\" / \"You went there, didn't you?\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Rule: Positive sentence → Negative tag",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "\"She is clever, ISN'T she?\"",
+          "example": "Positive (is) → Negative tag (isn't)"
+        },
+        {
+          "form": "\"They are coming, AREN'T they?\"",
+          "example": "Positive (are) → Negative tag (aren't)"
+        },
+        {
+          "form": "\"He has finished, HASN'T he?\"",
+          "example": "Positive (has) → Negative tag (hasn't)"
+        },
+        {
+          "form": "\"You can drive, CAN'T you?\"",
+          "example": "Positive (can) → Negative tag (can't)"
+        },
+        {
+          "form": "\"She went there, DIDN'T she?\"",
+          "example": "Positive PS (went) → Negative tag (didn't)"
+        },
+        {
+          "form": "\"I am right, AREN'T I?\"",
+          "example": "\"am\" → \"aren't I?\" (special case! NOT \"amn't I?\")"
+        }
+      ]
+    },
+    {
+      "title": "Rule: Negative sentence → Positive tag",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "\"She isn't here, IS she?\"",
+          "example": "Negative (isn't) → Positive tag (is)"
+        },
+        {
+          "form": "\"He doesn't know, DOES he?\"",
+          "example": "Negative (doesn't) → Positive tag (does)"
+        },
+        {
+          "form": "\"You haven't eaten, HAVE you?\"",
+          "example": "Negative (haven't) → Positive tag (have)"
+        },
+        {
+          "form": "\"They won't come, WILL they?\"",
+          "example": "Negative (won't) → Positive tag (will)"
+        },
+        {
+          "form": "\"She couldn't do it, COULD she?\"",
+          "example": "Negative (couldn't) → Positive tag (could)"
+        }
+      ]
+    },
+    {
+      "title": "How tags change with INTONATION",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "FALLING intonation (↘) = confirming",
+          "example": "\"It's a beautiful day, isn't it? ↘\" (I'm sure — just checking/agreeing)"
+        },
+        {
+          "form": "RISING intonation (↗) = genuine question",
+          "example": "\"She's coming, isn't she? ↗\" (I'm not sure — I really want to know)"
+        },
+        {
+          "form": "Keep conversation going",
+          "example": "\"You've been to Almaty, haven't you? ↘\" (Let's talk about Almaty!)"
+        },
+        {
+          "form": "Express surprise",
+          "example": "\"You've never been abroad, have you? ↗\" (I'm surprised!)"
+        }
+      ]
+    },
+    {
+      "title": "Special and tricky cases",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "\"I am right, AREN'T I?\"",
+          "example": "\"am\" → \"aren't I?\" (NOT \"amn't I?\" — doesn't exist!)"
+        },
+        {
+          "form": "\"There is a problem, ISN'T there?\"",
+          "example": "\"there is\" → \"isn't there?\" (not \"isn't it?\")"
+        },
+        {
+          "form": "\"Let's go, SHALL we?\"",
+          "example": "\"Let's\" → \"shall we?\" (special tag for suggestions)"
+        },
+        {
+          "form": "\"Don't do that, WILL you?\"",
+          "example": "Imperative → \"will you?\" or \"won't you?\" (requesting)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Разделительные вопросы — два главных правила:\n① Положительное предложение → ОТРИЦАТЕЛЬНЫЙ тег\n\"She's smart, ISN'T she?\"\n② Отрицательное предложение → ПОЛОЖИТЕЛЬНЫЙ тег\n\"He isn't coming, IS he?\"\n\n💡 Тег использует тот же вспомогательный глагол, что и предложение:\n\"She IS clever → ISN'T she?\"\n\"He HAS done it → HASN'T he?\"\n\"She CAN swim → CAN'T she?\"\n\"They WENT → DIDN'T they?\" (Past Simple → did!)\n\n⚠️ Особые случаи:\n\"I am → AREN'T I?\" (not \"amn't I!\")\n\"There IS → ISN'T there?\" (not \"isn't it\")",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Add the correct tag.",
+      "text": "\"She's a linguistics student, ___ she?\"",
+      "opts": [
+        "is",
+        "isn't",
+        "does",
+        "doesn't"
+      ],
+      "correct": "isn't",
+      "hint": "Positive (is) → negative tag (isn't). \"She's a linguistics student, ISN'T she?\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the tag.",
+      "text": "\"They haven't submitted the paper yet, ___ they?\"",
+      "correct": "have",
+      "hint": "Negative (haven't) → positive tag (have). \"...haven't submitted, HAVE they?\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Add the correct tag.",
+      "text": "\"You can speak Russian, ___ you?\"",
+      "opts": [
+        "can't",
+        "can",
+        "don't",
+        "won't"
+      ],
+      "correct": "can't",
+      "hint": "Positive (can) → negative tag (can't). \"You can speak Russian, CAN'T you?\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Add the correct tag.",
+      "text": "\"He didn't attend the lecture, ___ he?\"",
+      "opts": [
+        "didn't",
+        "did",
+        "does",
+        "doesn't"
+      ],
+      "correct": "did",
+      "hint": "Negative (didn't) → positive tag (did). \"He didn't attend, DID he?\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Write the correct tag.",
+      "text": "\"Kamila studies linguistics, ___ she?\"",
+      "correct": "doesn't",
+      "hint": "Present Simple positive (studies) → negative tag (doesn't). \"...studies linguistics, DOESN'T she?\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct special tag.",
+      "text": "\"I am the first to arrive, ___ ?\"",
+      "opts": [
+        "am I not",
+        "aren't I",
+        "isn't I",
+        "amn't I"
+      ],
+      "correct": "aren't I",
+      "hint": "\"I am\" → tag is \"AREN'T I?\" (not \"amn't I\" — this form doesn't exist in standard English!) ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete the tag question.",
+      "text": "\"She won't be late, ___ she?\"",
+      "correct": "will",
+      "hint": "Negative (won't) → positive tag (will). \"She won't be late, WILL she?\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Add the correct tag.",
+      "text": "\"There's a problem with the application, ___ there?\"",
+      "opts": [
+        "isn't it",
+        "isn't there",
+        "aren't there",
+        "doesn't there"
+      ],
+      "correct": "isn't there",
+      "hint": "\"There is\" → tag is \"ISN'T THERE?\" (not \"isn't it?\"). \"There's a problem, ISN'T THERE?\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Add the correct tag.",
+      "text": "\"You've already met Professor Sultanova, ___ you?\"",
+      "opts": [
+        "have",
+        "haven't",
+        "did",
+        "didn't"
+      ],
+      "correct": "haven't",
+      "hint": "Positive (have) → negative tag (haven't). \"You've already met her, HAVEN'T you?\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct tag for \"Let's\".",
+      "text": "\"Let's take a break, ___ ?\"",
+      "opts": [
+        "don't we",
+        "shall we",
+        "will we",
+        "won't we"
+      ],
+      "correct": "shall we",
+      "hint": "\"Let's\" → \"SHALL we?\" (special tag for suggestions). \"Let's take a break, SHALL WE?\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Write the complete tag question.",
+      "text": "\"He was there, ___ he?\"",
+      "correct": "wasn't",
+      "hint": "Positive (was) → negative tag (wasn't). \"He was there, WASN'T he?\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Which sentence uses a tag question correctly?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "\"She is clever, is she?\"",
+        "\"She is clever, isn't she?\"",
+        "\"She is clever, doesn't she?\"",
+        "\"She is clever, wasn't she?\""
+      ],
+      "correct": "\"She is clever, isn't she?\"",
+      "hint": "Positive (is) → negative tag (isn't). \"She is clever, ISN'T SHE?\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's from Uralsk, ___ she?\"",
+      "opts": [
+        "is",
+        "isn't",
+        "does",
+        "doesn't"
+      ],
+      "correct": "isn't",
+      "hint": "Positive (is) → negative tag (isn't). ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He doesn't know, ___ he?\"",
+      "opts": [
+        "does",
+        "doesn't",
+        "is",
+        "isn't"
+      ],
+      "correct": "does",
+      "hint": "Negative (doesn't) → positive tag (does). ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"They've already left, ___ they?\"",
+      "correct": "haven't",
+      "hint": "Positive (have) → negative tag (haven't). \"They've left, HAVEN'T they?\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You can't speak Mandarin, ___ you?\"",
+      "opts": [
+        "can",
+        "can't",
+        "do",
+        "don't"
+      ],
+      "correct": "can",
+      "hint": "Negative (can't) → positive tag (can). ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She studied in Scotland, ___ she?\"",
+      "opts": [
+        "didn't",
+        "doesn't",
+        "wasn't",
+        "hadn't"
+      ],
+      "correct": "didn't",
+      "hint": "Positive Past Simple (studied) → negative tag (didn't). ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I am the last one, ___ ?\" — Choose the correct tag.",
+      "opts": [
+        "am I not?",
+        "aren't I?",
+        "isn't I?",
+        "amn't I?"
+      ],
+      "correct": "aren't I?",
+      "hint": "\"I am\" → tag is \"AREN'T I?\" (not amn't I — this form doesn't exist!) ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It will be difficult, ___ it?\"",
+      "correct": "won't",
+      "hint": "Positive (will) → negative tag (won't). \"It will be difficult, WON'T it?\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There are no seats left, ___ there?\"",
+      "opts": [
+        "aren't",
+        "are",
+        "is",
+        "isn't"
+      ],
+      "correct": "are",
+      "hint": "Negative (there are no) → positive tag (are there?). \"...no seats, ARE there?\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He hadn't done it before, ___ he?\"",
+      "opts": [
+        "hadn't",
+        "had",
+        "hasn't",
+        "has"
+      ],
+      "correct": "had",
+      "hint": "Negative (hadn't) → positive tag (had). \"He hadn't done it, HAD he?\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Let's start, ___ ?\" — Choose the special tag.",
+      "opts": [
+        "don't we",
+        "won't we",
+        "shall we",
+        "will we"
+      ],
+      "correct": "shall we",
+      "hint": "\"Let's\" → \"shall we?\" (special tag for suggestions/invitations). ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You're Kamila's classmate, ___ you?\"",
+      "correct": "aren't",
+      "hint": "Positive (are) → negative tag (aren't). \"You're Kamila's classmate, AREN'T you?\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When does a tag question with FALLING intonation (↘) signal?",
+      "opts": [
+        "Genuine uncertainty",
+        "Surprise",
+        "Confirmation — the speaker is fairly sure",
+        "Anger"
+      ],
+      "correct": "Confirmation — the speaker is fairly sure",
+      "hint": "Falling intonation ↘ = mostly sure, just checking or inviting agreement. Rising ↗ = genuinely uncertain."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She didn't apply in time, ___ she?\"",
+      "opts": [
+        "did",
+        "didn't",
+        "does",
+        "doesn't"
+      ],
+      "correct": "did",
+      "hint": "Negative (didn't) → positive tag (did). \"She didn't apply, DID she?\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There's enough time, ___ ?\"",
+      "opts": [
+        "isn't there",
+        "isn't it",
+        "aren't there",
+        "doesn't there"
+      ],
+      "correct": "isn't there",
+      "hint": "\"There is\" → \"ISN'T THERE?\" (always use \"there\" in the tag, not \"it\"). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She could have done it better, ___ she?\"",
+      "opts": [
+        "could",
+        "couldn't",
+        "can't",
+        "can"
+      ],
+      "correct": "couldn't",
+      "hint": "Positive (could) → negative tag (couldn't). \"She could have done it better, COULDN'T she?\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Tag questions can be used to:",
+      "opts": [
+        "Only ask yes/no questions",
+        "Confirm information, invite agreement, or express surprise",
+        "Replace indirect questions",
+        "Make sentences negative"
+      ],
+      "correct": "Confirm information, invite agreement, or express surprise",
+      "hint": "Tags have three main uses: confirming, inviting conversation, expressing surprise."
+    }
+  ]
+}

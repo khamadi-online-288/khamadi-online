@@ -1,0 +1,433 @@
+{
+  "id": "l2-5",
+  "moduleNum": 2,
+  "lessonNum": 7,
+  "moduleTitle": "My family",
+  "title": "Module 2 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Aizhan's mother's job?",
+      "opts": [
+        "Teacher",
+        "Engineer",
+        "Doctor",
+        "Lawyer"
+      ],
+      "correct": "Doctor",
+      "hint": "\"My mother is a doctor at the city hospital in Aktobe.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How old is Aizhan's father Marat?",
+      "opts": [
+        "42",
+        "44",
+        "47",
+        "50"
+      ],
+      "correct": "47",
+      "hint": "\"My father is 47 years old and he is an engineer.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Arman, Aizhan's brother, studies Computer Science.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"He studies Computer Science — the same subject I love!\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where do Aizhan's grandparents live?",
+      "opts": [
+        "In Uralsk",
+        "In Almaty",
+        "In Astana",
+        "In a village near Aktobe"
+      ],
+      "correct": "In a village near Aktobe",
+      "hint": "\"They live in a small village near Aktobe.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Aizhan's sister Dana loves ___ and painting.",
+      "correct": "drawing",
+      "hint": "\"Dana loves drawing and painting. Her room is full of her beautiful pictures.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Aizhan's father's favourite hobby?",
+      "opts": [
+        "Football",
+        "Cooking",
+        "Fishing",
+        "Reading"
+      ],
+      "correct": "Fishing",
+      "hint": "\"His favourite hobby is fishing — he goes to the river every weekend.\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan's family has a tradition of eating dinner together every Friday.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Every Friday evening, we have dinner together and talk about our week.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many siblings does Aizhan have?",
+      "opts": [
+        "None",
+        "One",
+        "Two",
+        "Three"
+      ],
+      "correct": "Two",
+      "hint": "\"I have one brother and one sister.\" — two siblings total."
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What food does the family eat during the Friday video call?",
+      "opts": [
+        "Samsa",
+        "Beshbarmak",
+        "Pizza",
+        "Soup"
+      ],
+      "correct": "Beshbarmak",
+      "hint": "\"It's beshbarmak — your favourite! I made it especially for you.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan's father asks about her new friends at university.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"How are your studies going? Are your professors good?\" — he asks about studies, not friends."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Arman advise Aizhan to join at WKU?",
+      "opts": [
+        "The drama club",
+        "The sports club",
+        "The coding club",
+        "The music club"
+      ],
+      "correct": "The coding club",
+      "hint": "\"Join the coding club. It helped me a lot!\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Dana drew a picture of their whole ___.",
+      "correct": "family",
+      "hint": "\"I drew our whole family!\" — Dana."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan says the food in the dormitory cafeteria is terrible.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The dormitory cafeteria has good food.\" — Aizhan."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who asks Aizhan if she is eating well?",
+      "opts": [
+        "Dad Marat",
+        "Brother Arman",
+        "Mum Ainur",
+        "Sister Dana"
+      ],
+      "correct": "Mum Ainur",
+      "hint": "\"How is your food in Uralsk? Are you eating well?\" — Mum."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "My sister ___ a beautiful room full of paintings.",
+      "opts": [
+        "have",
+        "has",
+        "is",
+        "are"
+      ],
+      "correct": "has",
+      "hint": "My sister = She → has. He/She/It always takes \"has\"."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"He don't have a sister\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "He → He doesn't have a sister. Use \"doesn't have\", never \"don't has\"."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "___ your parents have a garden at home? (question)",
+      "correct": "do",
+      "hint": "Parents = They → Do your parents have...?"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She have two cats.",
+        "He doesn't have a car.",
+        "They has a big garden.",
+        "My mother don't have a job."
+      ],
+      "correct": "He doesn't have a car.",
+      "hint": "He → doesn't have. The others all have errors."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "This is Aizhan. ___ family lives in Aktobe.",
+      "opts": [
+        "My",
+        "His",
+        "Her",
+        "Their"
+      ],
+      "correct": "Her",
+      "hint": "Aizhan = she → her family."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Arman and Dana are siblings. ___ hobbies are different.",
+      "opts": [
+        "My",
+        "His",
+        "Our",
+        "Their"
+      ],
+      "correct": "Their",
+      "hint": "Arman and Dana = they → their hobbies."
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "I love ___ grandmother's cooking. (I am talking about my own grandmother)",
+      "correct": "my",
+      "hint": "I → my grandmother."
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence correctly uses a possessive adjective?",
+      "opts": [
+        "She loves her brother.",
+        "He loves his sister's.",
+        "They loves their garden.",
+        "We is proud of our family."
+      ],
+      "correct": "She loves her brother.",
+      "hint": "She → her brother. The others have grammar mistakes."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"caring\" mean?",
+      "opts": [
+        "strict and serious",
+        "kind and wanting to help others",
+        "quiet and shy",
+        "busy and stressed"
+      ],
+      "correct": "kind and wanting to help others",
+      "hint": "Caring = kind and wanting to look after and help people."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "My grandparents are ___. They stopped working and now relax at home.",
+      "correct": "retired",
+      "hint": "Retired = having stopped working because of age."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"siblings\" mean?",
+      "opts": [
+        "parents and grandparents",
+        "brothers and sisters",
+        "cousins and uncles",
+        "friends and classmates"
+      ],
+      "correct": "brothers and sisters",
+      "hint": "Siblings = your brothers and sisters."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Miss\" means to find someone you were looking for.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Miss\" = to feel sad because someone you love is not with you. \"I miss my family.\""
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"role model\"?",
+      "opts": [
+        "a fashion model",
+        "a type of job",
+        "a person you admire and want to be like",
+        "a school subject"
+      ],
+      "correct": "a person you admire and want to be like",
+      "hint": "\"My brother Arman is my role model.\" — someone you look up to."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "My family is my ___. They make me want to study hard every day.",
+      "correct": "motivation",
+      "hint": "Motivation = a reason or desire to do something. \"My family is my motivation.\""
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"tradition\" mean?",
+      "opts": [
+        "a new modern idea",
+        "a type of food",
+        "a custom passed down through generations",
+        "a school rule"
+      ],
+      "correct": "a custom passed down through generations",
+      "hint": "\"Our family tradition is Friday dinner.\" — a regular, meaningful custom."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"energetic\" describe?",
+      "opts": [
+        "someone who is very tired",
+        "someone who is shy",
+        "someone who has a lot of energy",
+        "someone who is old"
+      ],
+      "correct": "someone who has a lot of energy",
+      "hint": "\"Dana is small, energetic, and very creative.\" — full of life and energy."
+    }
+  ]
+}

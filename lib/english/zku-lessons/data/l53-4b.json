@@ -1,0 +1,224 @@
+{
+  "id": "l53-4b",
+  "moduleNum": 19,
+  "lessonNum": 7,
+  "moduleTitle": "Travel",
+  "type": "writing",
+  "title": "My Ideal Travel Plan",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I'm going to...",
+      "emoji": "✈️",
+      "opts": [
+        "я уже сделал",
+        "я планирую",
+        "я не хочу",
+        "я забыл"
+      ],
+      "correct": "я планирую"
+    },
+    {
+      "id": "p2",
+      "word": "I'll stay at...",
+      "emoji": "🏨",
+      "opts": [
+        "я уеду из",
+        "я остановлюсь в",
+        "я забронировал до",
+        "я пропущу"
+      ],
+      "correct": "я остановлюсь в"
+    },
+    {
+      "id": "p3",
+      "word": "I'm flying on...",
+      "emoji": "🛫",
+      "opts": [
+        "я уже летел",
+        "я лечу (конкретная дата)",
+        "я хочу лететь",
+        "я не лечу"
+      ],
+      "correct": "я лечу (конкретная дата)"
+    },
+    {
+      "id": "p4",
+      "word": "I've booked...",
+      "emoji": "📋",
+      "opts": [
+        "я ещё не бронировал",
+        "я уже забронировал",
+        "я отменил",
+        "я хочу"
+      ],
+      "correct": "я уже забронировал"
+    },
+    {
+      "id": "p5",
+      "word": "I'm going to make the most of...",
+      "emoji": "🌟",
+      "opts": [
+        "потратить зря",
+        "использовать по максимуму",
+        "пропустить",
+        "потерять"
+      ],
+      "correct": "использовать по максимуму"
+    },
+    {
+      "id": "p6",
+      "word": "I'd recommend...",
+      "emoji": "👍",
+      "opts": [
+        "я не советую",
+        "я рекомендую",
+        "я требую",
+        "мне нравится"
+      ],
+      "correct": "я рекомендую"
+    }
+  ],
+  "writingModel": [
+    "My Ideal Travel Plan: Five Days in Georgia — by Daniyar Bekmuratov",
+    "I have been thinking about this trip for over a year, and this summer I'm finally going to make it happen. I'm going to spend five days in Tbilisi, Georgia — a city I have read about, watched documentaries about, and heard described by everyone who has been there as one of the most beautiful places they have ever visited.",
+    "I'm flying from Almaty to Tbilisi on the 15th of June. The flight takes about four hours. I've already booked my ticket — I bought it three months ago when the price was at its lowest. I'll arrive in Tbilisi in the evening and take a taxi from the airport to my hostel. The hostel is in the old town district, which means I'll be within walking distance of most of the main sights.",
+    "My plan for the five days is this: Day 1 — arrive and explore the old town on foot, following no particular route and stopping wherever looks interesting. Day 2 — visit the Narikala Fortress and the famous Sulphur Baths. Day 3 — take a day trip to Mtskheta, the ancient capital of Georgia, which is only 20 kilometres from Tbilisi. Day 4 — spend the morning in the National Museum and the afternoon in the Marjanishvili district, which I've heard has excellent cafés. Day 5 — pack my bags in the morning, walk slowly through the city one last time, and take the evening flight home.",
+    "I'm going to travel light — just a backpack with five days' worth of clothes, a camera, and my notebook. I've booked the hostel dormitory, which costs around 20 dollars per night. My daily budget for food and transport is around 25 dollars — Georgia is known for being affordable, and the food is apparently extraordinary.",
+    "I'm most looking forward to the food, honestly. Georgian cuisine — khinkali, khachapuri, churchkhela — is famous across the former Soviet Union, and I want to try as many dishes as possible. I've read that the best restaurants are small, family-run places that don't appear on any tourist map. I'm going to find them.",
+    "This trip is going to be everything I've hoped for — and probably a few things I haven't anticipated. That's the point. I'll set off in June, make the most of every day, and come back with a full notebook and an empty wallet. I can't wait."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "My Ideal Travel Plan: ",
+      "suffix": " — by ",
+      "placeholder": "number of days + destination",
+      "hint": "\"Five Days in Georgia\" / \"A Week in Istanbul\" / \"Four Days in Shymkent\""
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "I've been planning this trip for ",
+      "suffix": ", and I'm finally going to go.",
+      "placeholder": "time period (months / a year)",
+      "hint": "Open with how long you've been thinking about this trip."
+    },
+    {
+      "key": "flight",
+      "prefix": "I'm flying from ",
+      "suffix": " on ___.",
+      "placeholder": "departure city → destination + date",
+      "hint": "\"flying FROM Uralsk TO Almaty on the 20th of June\" — Present Continuous for confirmed arrangement."
+    },
+    {
+      "key": "booked",
+      "prefix": "I've already booked ",
+      "suffix": ".",
+      "placeholder": "what you've booked (ticket/hostel)",
+      "hint": "\"I've already BOOKED my ticket / a hostel room / the tour.\" Present Perfect = already done."
+    },
+    {
+      "key": "plan",
+      "prefix": "My plan for the days: ",
+      "suffix": ".",
+      "placeholder": "day-by-day itinerary",
+      "hint": "\"Day 1 — explore the old town. Day 2 — visit the famous...\""
+    },
+    {
+      "key": "budget",
+      "prefix": "I'm going to travel light — ",
+      "suffix": ". My daily budget is about ___.",
+      "placeholder": "what you'll bring + amount",
+      "hint": "\"just a backpack... My daily budget is about 20 dollars.\""
+    },
+    {
+      "key": "forward",
+      "prefix": "I'm most looking forward to ",
+      "suffix": ".",
+      "placeholder": "the thing you're most excited about",
+      "hint": "\"looking forward to\" + gerund: \"visiting...\", \"trying the food...\", \"seeing...\""
+    },
+    {
+      "key": "close",
+      "prefix": "I'll set off on ",
+      "suffix": " and come back with ___.",
+      "placeholder": "date + what you'll bring back (memories/photos)",
+      "hint": "\"I'll set off on the 15th and come back with full notebooks and happy memories.\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Planning with future forms",
+      "color": "#003876",
+      "items": [
+        "I'm going to spend X days in...",
+        "I'm flying to... on the [date].",
+        "I've already booked my ticket / hostel / tour.",
+        "My plan is to... / My itinerary includes...",
+        "I'll arrive in the evening and...",
+        "I'm going to travel light."
+      ]
+    },
+    {
+      "category": "Travel collocations",
+      "color": "#1D9E75",
+      "items": [
+        "Book a hostel / flight / ticket in advance.",
+        "Take a taxi / bus / overnight train to...",
+        "Go on a day trip to... (20 km from...)",
+        "Set off early / arrive in the evening.",
+        "Make the most of every day.",
+        "Catch my connecting flight in..."
+      ]
+    },
+    {
+      "category": "Describing the destination",
+      "color": "#1B8FC4",
+      "items": [
+        "The old town / historic district / national park is...",
+        "It's known for its... / famous for...",
+        "I've read that the best... are...",
+        "I've heard that... is extraordinary.",
+        "It's only X kilometres from... — a day trip is possible.",
+        "The food / architecture / people are apparently..."
+      ]
+    },
+    {
+      "category": "Looking forward and concluding",
+      "color": "#C9933B",
+      "items": [
+        "I'm most looking forward to...",
+        "I can't wait to...",
+        "This trip is going to be everything I've hoped for.",
+        "I'll come back with full notebooks and...",
+        "That's the point of travel — the unexpected.",
+        "I'd recommend this destination to anyone who..."
+      ]
+    }
+  ]
+}

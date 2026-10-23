@@ -1,0 +1,548 @@
+{
+  "id": "l54-1",
+  "moduleNum": 20,
+  "lessonNum": 1,
+  "moduleTitle": "Work & Career",
+  "type": "reading",
+  "title": "Jobs of Today and Tomorrow: What Will You Do?",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "When WKU students are asked what they want to do after graduation, the answers are often confident: \"I want to work in IT,\" \"I'm going to be a doctor,\" \"I plan to go into finance.\" What is less common is the follow-up thought: what will those jobs actually look like in ten or fifteen years? The world of work is changing faster than at any other point in history, and the profession you train for today may bear only a partial resemblance to the job you actually do in 2035.",
+    "The most significant driver of change is automation. Artificial intelligence and machine learning are not simply replacing routine manual tasks — they are beginning to handle work that was previously considered the exclusive territory of highly educated professionals. Legal research, financial analysis, medical diagnosis, and even creative writing are now being assisted or partially performed by AI systems. The question for university graduates is not whether automation will affect their field, but how, and by how much.",
+    "Some jobs are well-positioned to survive and thrive. Work that requires genuine human connection — counselling, teaching, nursing, social work — is difficult to automate because it depends on empathy, trust, and the ability to read complex emotional situations. Work that requires creative problem-solving in novel, unpredictable contexts is similarly resistant. A therapist who listens carefully and a poet who creates something new are both doing something that machines, for the foreseeable future, cannot replicate.",
+    "Other fields are transforming in interesting ways. Medicine is not disappearing, but the role of the doctor is changing: AI systems can now read medical scans with accuracy that rivals or exceeds human specialists. This does not mean radiologists will be replaced — it means the best radiologists will be those who can work alongside AI, interpret its outputs critically, and focus their own attention on the cases that require human judgment.",
+    "For WKU students studying for careers in IT, engineering, economics, ecology, and education, the message is nuanced. Your technical skills matter — but so does your ability to communicate, collaborate, and think creatively. The graduates who thrive will be those who can do something that AI cannot: synthesise information from different domains, communicate it clearly, and make decisions under genuine uncertainty.",
+    "The most honest advice for anyone entering the workforce in the next five years is this: build T-shaped skills. Go deep in one area — develop genuine expertise. But also build breadth — learn to communicate, to understand other fields, to see how your work connects to the wider world. Read widely. Build relationships. Practise disagreeing respectfully and thinking for yourself.",
+    "The jobs of the future have not been invented yet. Some of the most valuable work done in 2035 will be done by people in roles that do not currently exist. The best preparation is not to predict which profession will survive — it is to become a person who can adapt."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "I've been thinking a lot about what job I'll actually have in ten years.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "It's hard to predict. Do you think AI will change software engineering a lot?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Definitely. But I think the engineers who can work with AI will have MORE work, not less.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Like the radiologist example in the text — humans working alongside machines.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Exactly. The key is to stay adaptable. Keep learning new things even after you graduate.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "The T-shaped skills idea makes sense to me. Deep expertise plus broad communication.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "The question is: what's YOUR depth? What are you going to go deep in?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Linguistics and education technology. That combination doesn't exist yet — which is exactly why it might.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "automation",
+      "ru": "автоматизация",
+      "context": "\"The most significant driver of change is automation.\" = using machines to replace human work."
+    },
+    {
+      "phrase": "foreseeable future",
+      "ru": "в обозримом будущем",
+      "context": "\"For the foreseeable future, machines cannot replicate this.\" = in the near future we can see."
+    },
+    {
+      "phrase": "T-shaped skills",
+      "ru": "T-образные навыки",
+      "context": "\"Build T-shaped skills.\" = deep in one area + broad knowledge of others."
+    },
+    {
+      "phrase": "synthesise",
+      "ru": "синтезировать / объединять",
+      "context": "\"Synthesise information from different domains.\" = combine ideas from different areas."
+    },
+    {
+      "phrase": "nuanced",
+      "ru": "нюансированный / многогранный",
+      "context": "\"The message is nuanced.\" = complex, with many different aspects."
+    },
+    {
+      "phrase": "expertise",
+      "ru": "экспертиза / профессионализм",
+      "context": "\"Develop genuine expertise.\" = deep, real knowledge and skill in a field."
+    },
+    {
+      "phrase": "rival",
+      "ru": "соперничать / не уступать",
+      "context": "\"AI can read scans with accuracy that rivals specialists.\" = equals or exceeds."
+    },
+    {
+      "phrase": "adapt",
+      "ru": "адаптироваться",
+      "context": "\"Become a person who can adapt.\" = change and adjust to new situations."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "automation",
+      "ipa": "/ˌɔːtəˈmeɪʃən/",
+      "pos": "noun",
+      "ru": "автоматизация",
+      "kz": "автоматтандыру",
+      "emoji": "🤖",
+      "definition": "the use of machines or computers to do work previously done by people",
+      "example": "Automation is changing which jobs exist — and what those jobs involve.",
+      "collocations": [
+        "job automation",
+        "factory automation",
+        "driven by automation"
+      ]
+    },
+    {
+      "en": "expertise",
+      "ipa": "/ˌekspɜːˈtiːz/",
+      "pos": "noun",
+      "ru": "экспертиза / профессионализм",
+      "kz": "тәжірибе",
+      "emoji": "🎯",
+      "definition": "a high level of knowledge or skill in a particular field",
+      "example": "\"Develop genuine expertise.\" — deep, real mastery of a subject.",
+      "collocations": [
+        "technical expertise",
+        "develop expertise",
+        "area of expertise"
+      ]
+    },
+    {
+      "en": "synthesise",
+      "ipa": "/ˈsɪnθəsaɪz/",
+      "pos": "verb",
+      "ru": "синтезировать / объединять",
+      "kz": "біріктіру",
+      "emoji": "🔗",
+      "definition": "to combine information from different sources into a whole",
+      "example": "The best graduates can synthesise ideas from different fields.",
+      "collocations": [
+        "synthesise information",
+        "synthesise ideas",
+        "ability to synthesise"
+      ]
+    },
+    {
+      "en": "nuanced",
+      "ipa": "/ˈnjuːɑːnst/",
+      "pos": "adjective",
+      "ru": "нюансированный / тонкий",
+      "kz": "нәзік",
+      "emoji": "🎨",
+      "definition": "showing small and subtle differences; not simple",
+      "example": "\"The message is nuanced.\" — there are many complex factors to consider.",
+      "collocations": [
+        "nuanced view",
+        "highly nuanced",
+        "nuanced understanding"
+      ]
+    },
+    {
+      "en": "replicate",
+      "ipa": "/ˈreplɪkeɪt/",
+      "pos": "verb",
+      "ru": "воспроизводить / копировать",
+      "kz": "қайталау",
+      "emoji": "📋",
+      "definition": "to copy or reproduce something exactly",
+      "example": "Machines cannot replicate the empathy of a good counsellor.",
+      "collocations": [
+        "replicate results",
+        "hard to replicate",
+        "cannot replicate"
+      ]
+    },
+    {
+      "en": "inevitable",
+      "ipa": "/ɪnˈevɪtəbl/",
+      "pos": "adjective",
+      "ru": "неизбежный",
+      "kz": "сөзсіз",
+      "emoji": "⚙️",
+      "definition": "certain to happen; impossible to avoid",
+      "example": "It is inevitable that automation will affect some careers.",
+      "collocations": [
+        "seemingly inevitable",
+        "feel inevitable",
+        "inevitable change"
+      ]
+    },
+    {
+      "en": "adaptable",
+      "ipa": "/əˈdæptəbl/",
+      "pos": "adjective",
+      "ru": "адаптивный / гибкий",
+      "kz": "бейімді",
+      "emoji": "🔀",
+      "definition": "able to change and adjust to new conditions",
+      "example": "The best preparation is to become an adaptable person.",
+      "collocations": [
+        "highly adaptable",
+        "adaptable worker",
+        "remain adaptable"
+      ]
+    },
+    {
+      "en": "breadth",
+      "ipa": "/bretθ/",
+      "pos": "noun",
+      "ru": "широта / разнообразие",
+      "kz": "кеңдік",
+      "emoji": "↔️",
+      "definition": "the wide range of something; extent across many areas",
+      "example": "\"Build breadth\" — knowledge across many different fields.",
+      "collocations": [
+        "breadth of knowledge",
+        "breadth of experience",
+        "depth and breadth"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "automation",
+      "emoji": "🤖",
+      "opts": [
+        "ручной труд",
+        "автоматизация",
+        "образование",
+        "инновация"
+      ],
+      "correct": "автоматизация"
+    },
+    {
+      "id": "p2",
+      "word": "expertise",
+      "emoji": "🎯",
+      "opts": [
+        "дилетантизм",
+        "экспертиза / профессионализм",
+        "умение",
+        "знакомство"
+      ],
+      "correct": "экспертиза / профессионализм"
+    },
+    {
+      "id": "p3",
+      "word": "synthesise",
+      "emoji": "🔗",
+      "opts": [
+        "разделять",
+        "синтезировать / объединять",
+        "анализировать",
+        "игнорировать"
+      ],
+      "correct": "синтезировать / объединять"
+    },
+    {
+      "id": "p4",
+      "word": "nuanced",
+      "emoji": "🎨",
+      "opts": [
+        "простой",
+        "нюансированный / тонкий",
+        "очевидный",
+        "поверхностный"
+      ],
+      "correct": "нюансированный / тонкий"
+    },
+    {
+      "id": "p5",
+      "word": "adaptable",
+      "emoji": "🔀",
+      "opts": [
+        "негибкий",
+        "адаптивный / гибкий",
+        "специализированный",
+        "постоянный"
+      ],
+      "correct": "адаптивный / гибкий"
+    },
+    {
+      "id": "p6",
+      "word": "breadth",
+      "emoji": "↔️",
+      "opts": [
+        "глубина",
+        "широта / разнообразие",
+        "высота",
+        "точность"
+      ],
+      "correct": "широта / разнообразие"
+    }
+  ],
+  "task1Bank": [
+    "T-shaped",
+    "automation",
+    "empathy",
+    "radiology",
+    "creativity",
+    "uncertain",
+    "invented",
+    "depth"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The text recommends building \"___ skills\" — deep + broad.",
+      "correct": "T-shaped"
+    },
+    {
+      "id": "t2",
+      "question": "___ is described as the most significant driver of change.",
+      "correct": "automation"
+    },
+    {
+      "id": "t3",
+      "question": "Work requiring ___ and trust is hardest to automate.",
+      "correct": "empathy"
+    },
+    {
+      "id": "t4",
+      "question": "The text uses the example of ___ to show AI working alongside humans.",
+      "correct": "radiology"
+    },
+    {
+      "id": "t5",
+      "question": "Work requiring ___ problem-solving in unpredictable contexts is resistant to automation.",
+      "correct": "creativity"
+    },
+    {
+      "id": "t6",
+      "question": "The best graduates make decisions under genuine ___ .",
+      "correct": "uncertain"
+    },
+    {
+      "id": "t7",
+      "question": "The text says some 2035 jobs have not yet been ___ .",
+      "correct": "invented"
+    },
+    {
+      "id": "t8",
+      "question": "T-shaped: ___ in one area + breadth across others.",
+      "correct": "depth"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "AI is only replacing manual, routine jobs.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Work requiring empathy and genuine human connection is hardest to automate.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "The text says radiologists will be completely replaced by AI.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "The text recommends building both depth and breadth in your skills.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Technical skills alone are sufficient for success in future careers.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Some jobs that will exist in 2035 do not yet exist.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says you should predict exactly which jobs will survive automation.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Being adaptable is described as the best preparation for the future.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is described as the most significant driver of change in work?",
+      "opts": [
+        "Globalisation",
+        "Automation and AI",
+        "Economic crises",
+        "Population growth"
+      ],
+      "correct": "Automation and AI",
+      "hint": "\"The most significant driver of change is automation.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is counselling/nursing hard to automate?",
+      "opts": [
+        "Too many rules",
+        "Requires empathy, trust, and reading emotional situations",
+        "Too expensive",
+        "Uses too much data"
+      ],
+      "correct": "Requires empathy, trust, and reading emotional situations",
+      "hint": "\"Difficult to automate because it depends on empathy, trust, and the ability to read complex emotional situations.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says radiologists will be completely replaced by AI.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"This does not mean radiologists will be replaced — it means the best radiologists will work alongside AI.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The text recommends building \"___ skills\" — deep in one area, broad across others.",
+      "correct": "T-shaped",
+      "hint": "\"Build T-shaped skills. Go deep in one area... But also build breadth.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the text say about the best preparation for future careers?",
+      "opts": [
+        "Predict which jobs survive",
+        "Learn as many skills as possible",
+        "Become an adaptable person who can adjust",
+        "Study the same field for decades"
+      ],
+      "correct": "Become an adaptable person who can adjust",
+      "hint": "\"The best preparation is to become a person who can adapt.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What can humans do that AI currently cannot?",
+      "opts": [
+        "Read faster",
+        "Store more information",
+        "Synthesise across domains, communicate clearly, decide under uncertainty",
+        "Write code"
+      ],
+      "correct": "Synthesise across domains, communicate clearly, decide under uncertainty",
+      "hint": "\"Do something that AI cannot: synthesise information from different domains, communicate it clearly, and make decisions under genuine uncertainty.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Develop genuine expertise.\" \"Expertise\" means:",
+      "opts": [
+        "Basic knowledge",
+        "High level of knowledge and skill in a particular field",
+        "Interest in a topic",
+        "Work experience"
+      ],
+      "correct": "High level of knowledge and skill in a particular field",
+      "hint": "\"expertise\" = deep, genuine mastery in a specific domain."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The message is nuanced.\" \"Nuanced\" means:",
+      "opts": [
+        "Simple and clear",
+        "Complex with subtle differences",
+        "Wrong",
+        "Optimistic"
+      ],
+      "correct": "Complex with subtle differences",
+      "hint": "\"nuanced\" = showing fine, subtle differences; not black and white."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Machines cannot replicate human empathy.\" \"Replicate\" means:",
+      "opts": [
+        "Understand",
+        "Copy or reproduce exactly",
+        "Improve",
+        "Replace"
+      ],
+      "correct": "Copy or reproduce exactly",
+      "hint": "\"replicate\" = to reproduce something identical; to copy."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Build T-shaped skills: depth and breadth.\" \"Breadth\" means:",
+      "opts": [
+        "Depth in one area",
+        "Width across many areas",
+        "Technical skill",
+        "Height"
+      ],
+      "correct": "Width across many areas",
+      "hint": "\"breadth\" = the wide extent across many different areas or topics."
+    }
+  ]
+}

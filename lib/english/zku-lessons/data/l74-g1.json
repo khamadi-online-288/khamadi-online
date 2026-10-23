@@ -1,0 +1,525 @@
+{
+  "id": "l74-g1",
+  "moduleNum": 16,
+  "lessonNum": 5,
+  "moduleTitle": "Arts, Film & Literature",
+  "title": "Grammar: Linking Words — Contrast, Concession, and Addition",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Дискурсивные маркеры (Discourse markers / Linking words) структурируют текст:\n\nДОБАВЛЕНИЕ: furthermore · in addition · moreover · besides · what is more\nКОНТРАСТ: however · nevertheless · on the other hand · in contrast · yet\nПРИЧИНА: because · since · as · due to · owing to\nРЕЗУЛЬТАТ: therefore · consequently · as a result · thus · hence\nПРИМЕР: for example · for instance · such as · namely · to illustrate\nВЫВОД: in conclusion · to sum up · overall · in summary · to conclude\n\n⚠️ Используй маркеры осмысленно — не механически!\n\"Furthermore\" должен добавлять действительно важную информацию.\n\"However\" должен вводить реальный контраст.",
+  "grammarTable": [
+    {
+      "subject": "CONTRAST",
+      "verb": "however, whereas, while, on the other hand, in contrast",
+      "short": "two opposing ideas",
+      "example": "\"The novel is brilliantly written. However, its plot is weak.\""
+    },
+    {
+      "subject": "CONCESSION",
+      "verb": "although, even though, despite, in spite of, nevertheless",
+      "short": "acknowledging one side while arguing the other",
+      "example": "\"Although the film is flawed, it remains emotionally powerful.\""
+    },
+    {
+      "subject": "ADDITION",
+      "verb": "furthermore, moreover, in addition, besides, not only…but also",
+      "short": "adding a further supporting point",
+      "example": "\"The acting is strong. Furthermore, the cinematography is exceptional.\""
+    },
+    {
+      "subject": "CAUSE",
+      "verb": "because, since, as, owing to, due to, as a result of",
+      "short": "explaining why",
+      "example": "\"The film succeeded owing to its unconventional structure.\""
+    },
+    {
+      "subject": "EFFECT",
+      "verb": "therefore, consequently, as a result, thus, hence",
+      "short": "showing the result of something",
+      "example": "\"The ending was ambiguous; consequently, audiences were divided.\""
+    },
+    {
+      "subject": "EXAMPLE",
+      "verb": "for example, for instance, such as, in particular, namely",
+      "short": "giving a specific illustration",
+      "example": "\"Several critics praised specific scenes; for instance, the opening sequence.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Contrast Linkers: Position and Punctuation",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "However: sentence start or mid-sentence, with comma",
+          "example": "\"However, the film fails to develop its themes.\" / \"The film, however, fails…\""
+        },
+        {
+          "form": "Whereas / While: mid-sentence, joining two clauses",
+          "example": "\"The novel is tragic, whereas the film adaptation is comic.\""
+        },
+        {
+          "form": "On the other hand: introduces the opposing point",
+          "example": "\"The cast is excellent. On the other hand, the script is weak.\""
+        },
+        {
+          "form": "In contrast: comparing to what was just said",
+          "example": "\"Dickens wrote long, complex sentences. In contrast, Hemingway used short, direct ones.\""
+        }
+      ]
+    },
+    {
+      "title": "Concession Linkers: Acknowledging and Countering",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Although / Even though + subject + verb",
+          "example": "\"Although the ending is ambiguous, it feels emotionally satisfying.\""
+        },
+        {
+          "form": "Despite / In spite of + noun or gerund (-ing)",
+          "example": "\"Despite its slow pace, the film is compelling.\" / \"In spite of being flawed, it works.\""
+        },
+        {
+          "form": "Nevertheless / Nonetheless: sentence start, acknowledging concession",
+          "example": "\"The film has weaknesses. Nevertheless, it is worth watching.\""
+        },
+        {
+          "form": "Even so / Even then: similar to nevertheless",
+          "example": "\"The script was poor. Even so, the performances saved the film.\""
+        }
+      ]
+    },
+    {
+      "title": "Addition Linkers: Building the Argument",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Furthermore / Moreover: adds a stronger, supporting point",
+          "example": "\"The cinematography is stunning. Furthermore, the score is unforgettable.\""
+        },
+        {
+          "form": "In addition / Additionally: adds information",
+          "example": "\"The film explores identity. In addition, it raises questions about memory.\""
+        },
+        {
+          "form": "Not only…but also: emphasises both points equally",
+          "example": "\"The film not only challenges its audience but also rewards them.\""
+        },
+        {
+          "form": "Besides: adds a different kind of point (often informal)",
+          "example": "\"The acting is strong. Besides, the story is genuinely original.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Mistakes with Linking Words",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Despite the film was slow, I enjoyed it.",
+          "example": "✅ Despite the slow pace, I enjoyed it. (despite + noun/gerund, NOT + clause)"
+        },
+        {
+          "form": "❌ Although of its flaws, the film succeeds.",
+          "example": "✅ Despite its flaws, the film succeeds. (although + clause; despite + noun)"
+        },
+        {
+          "form": "❌ The film is good, however the ending is weak.",
+          "example": "✅ The film is good. However, the ending is weak. (however needs a new sentence or semicolon)"
+        },
+        {
+          "form": "❌ Furthermore is the acting impressive.",
+          "example": "✅ Furthermore, the acting is impressive. (normal word order after furthermore)"
+        }
+      ]
+    },
+    {
+      "title": "Choosing the Right Linker for Academic Writing",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "To introduce a contrasting point: however, whereas, on the other hand",
+          "example": "Preferred in formal essays and reviews."
+        },
+        {
+          "form": "To acknowledge and counter: although, despite, nevertheless",
+          "example": "Essential for balanced critical writing."
+        },
+        {
+          "form": "To strengthen with evidence: furthermore, moreover, in addition",
+          "example": "Build your argument progressively."
+        },
+        {
+          "form": "To show cause-effect: therefore, consequently, as a result",
+          "example": "Analyse the impact of artistic choices."
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct linker.",
+      "text": "\"The film has a weak script. ___, the performances are outstanding.\"",
+      "opts": [
+        "As a result",
+        "However",
+        "Due to",
+        "Since"
+      ],
+      "correct": "However",
+      "hint": "\"However\" = introducing a contrasting point"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct linker.",
+      "text": "\"___ its slow pace, the novel is deeply rewarding.\"",
+      "opts": [
+        "Although",
+        "Despite",
+        "However",
+        "Because"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + noun/gerund\" = concession"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct linker.",
+      "text": "\"The director's previous film was dark and bleak. ___, this new one is surprisingly optimistic.\" (contrast)",
+      "correct": "In contrast",
+      "hint": "\"In contrast\" = comparing to the opposite of what was just stated"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct form after \"despite.\"",
+      "text": "\"Despite ___ the main award, the film received mixed reviews.\"",
+      "opts": [
+        "it won",
+        "winning",
+        "won",
+        "that it won"
+      ],
+      "correct": "winning",
+      "hint": "\"Despite + gerund (-ing)\" — NOT despite + clause"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct linker.",
+      "text": "\"The film explores grief beautifully. ___, it raises important questions about memory.\" (addition)",
+      "correct": "Furthermore / Moreover / In addition",
+      "hint": "\"Furthermore/Moreover\" = adds a related, supporting point"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "Although of its flaws, the film succeeds.",
+        "Despite the film was flawed, it succeeds.",
+        "Although the film is flawed, it succeeds.",
+        "Despite that the film is flawed, it succeeds."
+      ],
+      "correct": "Although the film is flawed, it succeeds.",
+      "hint": "\"Although + subject + verb\" (full clause); \"despite + noun/gerund\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"however\" in the correct position.",
+      "text": "\"The screenplay is intelligent. ___, the dialogue often feels stilted.\" (start of second sentence)",
+      "correct": "However",
+      "hint": "\"However\" at the start of a new sentence with a comma after it"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the most formal addition linker.",
+      "text": "\"The novel challenges colonial assumptions. ___, it reclaims indigenous narrative traditions.\"",
+      "opts": [
+        "Plus",
+        "Also",
+        "Moreover",
+        "And"
+      ],
+      "correct": "Moreover",
+      "hint": "\"Moreover\" = formal; adds a stronger or more significant point"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct concession linker.",
+      "text": "\"The reviews were negative. ___, the film became a cult classic.\"",
+      "correct": "Nevertheless / Even so",
+      "hint": "\"Nevertheless\" = despite what was just said, the opposite happened"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which is a correct concession structure?",
+      "text": "",
+      "opts": [
+        "Although its complexity, the film succeeds.",
+        "Despite the film is complex, it succeeds.",
+        "In spite of its complexity, the film succeeds.",
+        "Nonetheless its complexity, the film succeeds."
+      ],
+      "correct": "In spite of its complexity, the film succeeds.",
+      "hint": "\"In spite of + noun\" = concession; same as \"despite\""
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with \"not only…but also.\"",
+      "text": "\"The film ___ tells a compelling story ___ raises profound moral questions.\"",
+      "correct": "not only / but also",
+      "hint": "\"Not only… but also\" = emphasises both elements equally"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct contrast linker for comparing two things.",
+      "text": "\"The novel is character-driven, ___ the film adaptation focuses entirely on plot.\"",
+      "opts": [
+        "however",
+        "whereas",
+        "nevertheless",
+        "although"
+      ],
+      "correct": "whereas",
+      "hint": "\"Whereas\" = direct comparison of two contrasting things within one sentence"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete with the correct addition linker.",
+      "text": "\"The novel won the Booker Prize. ___, it was adapted into an acclaimed film.\" (adds a further achievement)",
+      "correct": "In addition / Furthermore / Moreover",
+      "hint": "Addition linker + comma",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct position for \"however.\"",
+      "text": "",
+      "opts": [
+        "The film is brilliant however it has some flaws.",
+        "The film is brilliant. However it has some flaws.",
+        "The film is brilliant. However, it has some flaws.",
+        "However the film is brilliant, it has some flaws."
+      ],
+      "correct": "The film is brilliant. However, it has some flaws.",
+      "hint": "\"However\" starts a new sentence followed by a comma"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with despite or although.",
+      "text": "\"___ the film is long, it never feels slow.\" / \"___ its length, the film never feels slow.\"",
+      "correct": "Although / Despite",
+      "hint": "\"Although + clause\"; \"Despite + noun\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which linker introduces a contrast within the same sentence?",
+      "text": "\"The film is technically innovative, ___ its narrative is fairly conventional.\"",
+      "opts": [
+        "however",
+        "whereas",
+        "nevertheless",
+        "furthermore"
+      ],
+      "correct": "whereas",
+      "hint": "\"Whereas\" mid-sentence: X is one way, whereas Y is another"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ being critically praised, the novel sold poorly on publication.\" (concession + noun/gerund)",
+      "opts": [
+        "Although",
+        "Despite",
+        "However",
+        "Nevertheless"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite + gerund\" = concession",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The acting is superb. ___, the script leaves much to be desired.\" (contrast)",
+      "opts": [
+        "Furthermore",
+        "As a result",
+        "However",
+        "Despite"
+      ],
+      "correct": "However",
+      "hint": "\"However\" = introducing a contrasting point (new sentence)",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ the film has some weaknesses, it remains one of the most important of the decade.\" (concession clause)",
+      "correct": "Although / Even though",
+      "hint": "\"Although/Even though + subject + verb\" = concession clause",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The novel explores themes of identity. ___, it offers a powerful critique of colonial history.\" (addition)",
+      "opts": [
+        "However",
+        "In contrast",
+        "Moreover",
+        "Despite"
+      ],
+      "correct": "Moreover",
+      "hint": "\"Moreover\" = adds a further, significant supporting point",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The film received negative reviews on release. ___, it has since become a cult classic.\" (unexpected positive result)",
+      "opts": [
+        "Furthermore",
+        "Due to",
+        "Nevertheless",
+        "Whereas"
+      ],
+      "correct": "Nevertheless",
+      "hint": "\"Nevertheless\" = despite negative outcome, the positive happened",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Despite the film was slow, I enjoyed it\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Despite + noun/gerund\" — NOT \"despite + subject + verb (clause)\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The novel ___ explores grief ___ offers a meditation on memory.\" (equal emphasis on both)",
+      "correct": "not only / but also",
+      "hint": "\"Not only… but also\" = equal emphasis on two points",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Dickens used long sentences, ___ Hemingway preferred short, direct ones.\"",
+      "opts": [
+        "however",
+        "whereas",
+        "in addition",
+        "despite"
+      ],
+      "correct": "whereas",
+      "hint": "\"Whereas\" in a single sentence = direct comparison of two contrasting things",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The novel won multiple awards. ___ ___ being awarded, it sold very few copies initially.\" (contrast — use \"in spite of\")",
+      "correct": "In spite of",
+      "hint": "\"In spite of\" = despite (concession)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The director's use of silence is striking. ___, the use of colour is equally effective.\" (addition)",
+      "opts": [
+        "However",
+        "In contrast",
+        "Furthermore",
+        "Despite"
+      ],
+      "correct": "Furthermore",
+      "hint": "\"Furthermore\" = adding a further, related supporting point",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The film failed commercially. ___, it had a lasting influence on independent cinema.\" (unexpected positive despite negative)",
+      "correct": "Nevertheless / Even so",
+      "hint": "\"Nevertheless/Even so\" = despite the failure, something positive happened",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is correctly punctuated?",
+      "opts": [
+        "The novel is brilliant, however it has flaws.",
+        "The novel is brilliant; however, it has flaws.",
+        "The novel is brilliant; however it has flaws.",
+        "The novel is brilliant however, it has flaws."
+      ],
+      "correct": "The novel is brilliant; however, it has flaws.",
+      "hint": "\"However\" after a semicolon and before a comma is standard punctuation",
+      "points": 2
+    }
+  ]
+}

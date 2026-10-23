@@ -1,0 +1,378 @@
+{
+  "id": "l69-3b",
+  "moduleNum": 11,
+  "lessonNum": 4,
+  "moduleTitle": "Society & Social Issues",
+  "title": "Understanding Homelessness: Beyond the Stereotype",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "Good afternoon. Today I want to talk about homelessness — a social issue that exists in every country in the world, yet is often profoundly misunderstood. I'd like to begin by asking you to consider: what image comes to mind when you hear the word \"homeless\"?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "For most people, the image is of a single adult, probably male, sleeping rough on a city street. That image is real — but it is also partial. It represents only one form of homelessness. Research shows that many more people are experiencing what researchers call \"hidden homelessness\" — people who are sleeping on friends' sofas, staying in overcrowded temporary accommodation, or living in situations of domestic violence with nowhere safe to go.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "The stereotype of the homeless person as someone who has \"brought it on themselves\" through addiction or poor choices is both inaccurate and harmful. While substance abuse can be a factor in some cases, it is rarely the root cause. More commonly, homelessness results from a combination of structural factors: rising housing costs, shortage of affordable homes, cuts to welfare benefits, relationship breakdown, and the complete absence of a financial safety net.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "Consider the data. In the United Kingdom, the most common cause of new homelessness is the ending of a private tenancy — not addiction, not criminal behaviour. In the United States, the largest growing group of newly homeless people is families with children. These facts challenge the stereotype powerfully.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "The consequences of homelessness are severe and wide-ranging. People without stable housing have significantly shorter life expectancy, higher rates of mental and physical illness, and reduced ability to access employment. Children who experience homelessness show measurable negative effects on educational attainment and emotional development. Homelessness is not a lifestyle choice — it is a public health crisis.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "What does the evidence tell us about solutions? \"Housing First\" is one of the most evidence-based approaches. Rather than requiring homeless people to address addiction or mental health issues before being housed, Housing First provides stable accommodation immediately and then offers support services alongside it. Studies in Finland, Canada, and the United States have shown this approach significantly reduces long-term homelessness and is more cost-effective than emergency shelter systems.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Okonkwo",
+      "text": "The key lesson is this: homelessness is a structural problem that requires structural solutions. It will not be solved by charity alone, though charity matters. It requires investment in affordable housing, stronger protections for tenants, and a welfare system that catches people before they fall. The question is not whether we can afford this — it is whether we choose to.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "hidden homelessness",
+      "ru": "скрытая бездомность",
+      "context": "Homelessness not visible on streets — sofa-surfing, overcrowded accommodation"
+    },
+    {
+      "phrase": "structural factors",
+      "ru": "структурные факторы",
+      "context": "Systemic causes of a problem, not individual choices"
+    },
+    {
+      "phrase": "Housing First",
+      "ru": "Жильё прежде всего",
+      "context": "Policy of providing housing immediately, then support services"
+    },
+    {
+      "phrase": "root cause",
+      "ru": "первопричина",
+      "context": "The underlying cause, not the surface symptom"
+    },
+    {
+      "phrase": "financial safety net",
+      "ru": "финансовая сеть безопасности",
+      "context": "Support systems that prevent people falling into extreme poverty"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "tenancy",
+      "ipa": "/ˈtenənsi/",
+      "pos": "noun",
+      "ru": "аренда жилья",
+      "kz": "жалдау",
+      "emoji": "🏠",
+      "definition": "the right to occupy a property as a tenant; a rental arrangement",
+      "example": "\"The ending of a private tenancy is the most common cause of new homelessness.\"",
+      "collocations": [
+        "private tenancy",
+        "end a tenancy",
+        "tenancy agreement"
+      ]
+    },
+    {
+      "en": "attainment",
+      "ipa": "/əˈteɪnmənt/",
+      "pos": "noun",
+      "ru": "достижение / успеваемость",
+      "kz": "жетістік",
+      "emoji": "🎓",
+      "definition": "the achievement of a standard or level; especially in education",
+      "example": "\"Children who experience homelessness show negative effects on educational attainment.\"",
+      "collocations": [
+        "educational attainment",
+        "academic attainment",
+        "improve attainment"
+      ]
+    },
+    {
+      "en": "welfare",
+      "ipa": "/ˈwelfeə/",
+      "pos": "noun",
+      "ru": "социальное обеспечение / благосостояние",
+      "kz": "əлеуметтік қамсыздандыру",
+      "emoji": "🛡️",
+      "definition": "government support for people in need; also: general health and happiness",
+      "example": "\"Cuts to welfare benefits are a structural cause of homelessness.\"",
+      "collocations": [
+        "welfare benefits",
+        "welfare state",
+        "welfare system"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "tenancy",
+      "emoji": "🏠",
+      "opts": [
+        "a rental arrangement",
+        "home ownership",
+        "a government benefit",
+        "a housing charity"
+      ],
+      "correct": "a rental arrangement"
+    },
+    {
+      "id": "p2",
+      "word": "attainment",
+      "emoji": "🎓",
+      "opts": [
+        "achievement of a level or standard",
+        "financial support",
+        "a social problem",
+        "a type of building"
+      ],
+      "correct": "achievement of a level or standard"
+    }
+  ],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is \"hidden homelessness\" according to Dr. Okonkwo?",
+      "correct": "Homelessness not visible on streets: sofa-surfing, overcrowded temporary accommodation, domestic violence situations"
+    },
+    {
+      "id": "t2",
+      "question": "What does the data show is the most common cause of new homelessness in the UK?",
+      "correct": "The ending of a private tenancy"
+    },
+    {
+      "id": "t3",
+      "question": "What is the \"Housing First\" approach?",
+      "correct": "Providing stable accommodation immediately, then offering support services alongside"
+    },
+    {
+      "id": "t4",
+      "question": "What effects does homelessness have on children?",
+      "correct": "Negative effects on educational attainment and emotional development"
+    },
+    {
+      "id": "t5",
+      "question": "What structural solutions does Dr. Okonkwo suggest?",
+      "correct": "Investment in affordable housing, stronger tenant protections, better welfare systems"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Dr. Okonkwo says that addiction is the main cause of homelessness.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Hidden homelessness includes people sleeping on friends' sofas.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "The Housing First approach requires people to address addiction before being housed.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Dr. Okonkwo says charity alone is sufficient to solve homelessness.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Studies show Housing First is more cost-effective than emergency shelter systems.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Dr. Okonkwo mean by \"hidden homelessness\"?",
+      "opts": [
+        "Homeless people who hide from authorities",
+        "People who are homeless but not visibly sleeping rough",
+        "Homelessness in rural areas",
+        "Homelessness caused by unknown factors"
+      ],
+      "correct": "People who are homeless but not visibly sleeping rough",
+      "hint": "Lecture: \"sofa-surfing, temporary accommodation\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "According to the lecture, what is the most common cause of new homelessness in the UK?",
+      "opts": [
+        "Addiction and substance abuse",
+        "Criminal behaviour",
+        "The ending of a private tenancy",
+        "Mental illness"
+      ],
+      "correct": "The ending of a private tenancy",
+      "hint": "Lecture: \"most common cause… ending of a private tenancy\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What makes \"Housing First\" different from traditional approaches?",
+      "opts": [
+        "It provides housing only after addiction is treated",
+        "It provides housing immediately, then support services alongside",
+        "It only helps families with children",
+        "It relies entirely on charity"
+      ],
+      "correct": "It provides housing immediately, then support services alongside",
+      "hint": "Lecture: \"provides stable accommodation immediately and then offers support\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "How does Dr. Okonkwo describe homelessness at the end of the lecture?",
+      "opts": [
+        "A personal failure",
+        "A temporary problem",
+        "A structural problem requiring structural solutions",
+        "A problem only charities can solve"
+      ],
+      "correct": "A structural problem requiring structural solutions",
+      "hint": "Lecture: \"structural problem that requires structural solutions\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Dr. Okonkwo says the typical street-sleeping image of homelessness is completely false.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"That image is real — but it is also partial\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Families with children are described as the largest growing group of newly homeless in the USA.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Lecture: \"largest growing group… families with children\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ homeless are a diverse group.\" (The group as a whole — definite article + adjective)",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "The",
+      "hint": "\"The + adjective\" = group of people (the homeless, the elderly)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Homelessness is ___ public health crisis.\" (= a crisis, first mention)",
+      "correct": "a",
+      "hint": "\"A\" before consonant sound — first mention, one of a kind",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ homelessness requires structural solutions.\" (General statement — the concept)",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "No article"
+      ],
+      "correct": "No article",
+      "hint": "Homelessness as a general concept = zero article",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"educational attainment\"?",
+      "opts": [
+        "The cost of education",
+        "The level of academic achievement",
+        "Access to free education",
+        "A government education policy"
+      ],
+      "correct": "The level of academic achievement",
+      "hint": "Lecture: \"negative effects on educational attainment\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Welfare benefits\" are…",
+      "opts": [
+        "Perks for company employees",
+        "Government support payments for people in need",
+        "Benefits of physical exercise",
+        "Corporate tax breaks"
+      ],
+      "correct": "Government support payments for people in need",
+      "hint": "Lecture: \"cuts to welfare benefits\" = less government support",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"The ___ cause of homelessness is not addiction — it is structural factors.\"",
+      "correct": "root",
+      "hint": "Lecture: \"root cause\" = the underlying cause",
+      "points": 1
+    }
+  ]
+}

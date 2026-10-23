@@ -1,0 +1,662 @@
+{
+  "id": "l64-g1",
+  "moduleNum": 6,
+  "lessonNum": 5,
+  "moduleTitle": "Present Perfect: Simple vs Continuous",
+  "type": "grammar",
+  "title": "Present Perfect Simple: All Uses, Stative Verbs & For/Since",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect Simple — The Complete Guide",
+  "grammarNote": "Present Perfect Simple (have/has + past participle) — одно из самых важных и часто используемых времён в английском. На B1 уровне вы должны уметь различать все его значения, правильно использовать FOR и SINCE, понимать стативные глаголы, и выбирать между PPS и Past Simple с уверенностью.",
+  "grammarTable": [
+    {
+      "subject": "Completed action + result",
+      "verb": "have/has + pp",
+      "short": "\"I've finished it.\"",
+      "example": "\"She has finished the report.\" (It's done — the report exists.) ✅"
+    },
+    {
+      "subject": "Life experience",
+      "verb": "have/has + pp + ever",
+      "short": "\"Have you ever...?\"",
+      "example": "\"Have you ever been to Istanbul?\" / \"I've never tried durian.\" ✅"
+    },
+    {
+      "subject": "Recent news/announcement",
+      "verb": "have/has + just/recently",
+      "short": "\"He's just arrived.\"",
+      "example": "\"She's just published a paper.\" / \"They've recently moved.\" ✅"
+    },
+    {
+      "subject": "Duration (FOR/SINCE)",
+      "verb": "stative verbs + PPS",
+      "short": "\"I've lived here 3 yrs\"",
+      "example": "\"I've known her for ten years.\" / \"She's been here since 2022.\" ✅"
+    },
+    {
+      "subject": "Counting completions",
+      "verb": "have/has + number + pp",
+      "short": "\"She's done it 5 times\"",
+      "example": "\"He's read 12 books this year.\" / \"I've visited 8 countries.\" ✅"
+    },
+    {
+      "subject": "With THIS week/year/ever",
+      "verb": "time still open",
+      "short": "period still current",
+      "example": "\"She's written 3 essays this semester.\" (semester not over) ✅"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "FOR vs SINCE: period of time vs starting point",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "FOR + period of time",
+          "example": "\"I've known her FOR three years.\" / \"FOR a long time.\" / \"FOR ages.\" ✅"
+        },
+        {
+          "form": "SINCE + starting point",
+          "example": "\"I've known her SINCE 2021.\" / \"SINCE Monday.\" / \"SINCE I was a child.\" ✅"
+        },
+        {
+          "form": "FOR = how long / SINCE = when it started",
+          "example": "The key: FOR = duration (3 years). SINCE = starting point (2021). ✅"
+        },
+        {
+          "form": "✗ \"I've known her since three years.\"",
+          "example": "✅ \"I've known her FOR three years.\" — three years = duration → FOR. ✅"
+        },
+        {
+          "form": "✗ \"I've known her for 2021.\"",
+          "example": "✅ \"I've known her SINCE 2021.\" — 2021 = starting point → SINCE. ✅"
+        },
+        {
+          "form": "How long have you...? → FOR answers",
+          "example": "\"How long have you lived here?\" → \"For three years.\" / \"Since 2021.\" ✅ (both work!)"
+        }
+      ]
+    },
+    {
+      "title": "Stative verbs — PPS only, never PPC",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "know / understand / believe / want",
+          "example": "✗ \"I've been knowing her.\" → ✅ \"I've KNOWN her for years.\" ✅"
+        },
+        {
+          "form": "like / love / hate / prefer",
+          "example": "✗ \"I've been liking this song.\" → ✅ \"I've liked this song since I heard it.\" ✅"
+        },
+        {
+          "form": "own / have (possession) / contain",
+          "example": "✗ \"She's been owning that car for 5 years.\" → ✅ \"She's OWNED it for 5 years.\" ✅"
+        },
+        {
+          "form": "seem / appear / exist / belong to",
+          "example": "✗ \"It's been seeming difficult.\" → ✅ \"It's SEEMED difficult.\" ✅"
+        },
+        {
+          "form": "remember / forget / mean / need",
+          "example": "✗ \"I've been forgetting.\" (habit is ok) vs ✅ \"I've FORGOTTEN.\" (completed) ✅"
+        },
+        {
+          "form": "live / work = BOTH (grey area)",
+          "example": "\"I've lived here for 3 years.\" (stative-like) AND \"I've been living here for 3 years.\" (both natural!) ✅"
+        }
+      ]
+    },
+    {
+      "title": "PPS vs Past Simple — the critical distinction",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "PPS = past action with PRESENT relevance",
+          "example": "\"She has passed the exam.\" (result now: she has passed) ✅"
+        },
+        {
+          "form": "Past Simple = completed action, past focus",
+          "example": "\"She passed the exam in June.\" (specific past time — done, no explicit present connection) ✅"
+        },
+        {
+          "form": "When SPECIFIC TIME = Past Simple!",
+          "example": "\"I saw him YESTERDAY.\" ✅ NOT \"I have seen him yesterday.\" ✗ (yesterday = specific past time)"
+        },
+        {
+          "form": "When RESULT MATTERS NOW = PPS",
+          "example": "\"I've lost my keys!\" (result now: I can't get in) ✅"
+        },
+        {
+          "form": "American English difference",
+          "example": "American: \"Did you eat?\" (asking recently). British: \"Have you eaten?\" ✅ Both correct in context."
+        },
+        {
+          "form": "Yet / already / just signal PPS",
+          "example": "\"She hasn't finished YET.\" / \"He's ALREADY left.\" / \"She's JUST arrived.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Perfect tense signal words — summary",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "ever / never → PPS (experience)",
+          "example": "\"Have you EVER been to Almaty?\" / \"I've NEVER tried this.\" ✅"
+        },
+        {
+          "form": "just / recently / lately → PPS",
+          "example": "\"She's JUST finished.\" / \"I've RECENTLY started.\" / \"Things have changed LATELY.\" ✅"
+        },
+        {
+          "form": "already / yet / still not → PPS",
+          "example": "\"I've ALREADY eaten.\" / \"They haven't arrived YET.\" / \"She STILL hasn't called.\" ✅"
+        },
+        {
+          "form": "for / since → PPS or PPC (with duration)",
+          "example": "\"I've known her FOR years.\" (PPS stative) / \"I've been studying FOR 3 hours.\" (PPC) ✅"
+        },
+        {
+          "form": "This week/year/semester → PPS",
+          "example": "\"She's written 3 essays THIS semester.\" (semester open) ✅"
+        },
+        {
+          "form": "Specific past time → Past Simple!",
+          "example": "\"I saw him YESTERDAY/LAST WEEK/IN 2020.\" → Past Simple always ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Most common PPS errors at B1",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I have seen him yesterday.\"",
+          "example": "✅ \"I saw him yesterday.\" — specific past time → Past Simple. ✅"
+        },
+        {
+          "form": "✗ \"I've been knowing her for years.\"",
+          "example": "✅ \"I've KNOWN her for years.\" — \"know\" = stative. ✅"
+        },
+        {
+          "form": "✗ \"She has finished the report last year.\"",
+          "example": "✅ \"She finished the report last year.\" — specific past time. ✅"
+        },
+        {
+          "form": "✗ \"I've never went to Paris.\"",
+          "example": "✅ \"I've never BEEN to Paris.\" — past participle of \"go\" = \"been\" (for travel). ✅"
+        },
+        {
+          "form": "✗ \"How long did you live here?\"",
+          "example": "✅ \"How long HAVE YOU LIVED here?\" — still living = PPS/PPC. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Present Perfect Simple — всё в одном:\n\nhas/have + PAST PARTICIPLE\n\n1. Результат: \"She has finished the report.\"\n2. Опыт: \"Have you ever been to Istanbul?\"\n3. Недавние события: \"He's just arrived.\"\n4. Длительность (стативные): \"I've known her FOR 10 years.\"\n5. Счёт: \"She's published 3 papers this year.\"\n\nFOR = продолжительность (for 3 years)\nSINCE = начало (since 2021, since Monday)\n\nСтативные глаголы → ТОЛЬКО PPS:\n✗ I've been knowing → ✅ I've known\n✗ I've been liking → ✅ I've liked\n\nКонкретное прошедшее время → Past Simple!\n✗ \"I have seen him yesterday\" \n✅ \"I saw him yesterday\"\n\nСигналы: ever/never/just/already/yet/recently",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "PPS for completed result.",
+      "text": "\"She ___ (finish) the project. We can submit it now.\"",
+      "opts": [
+        "finished",
+        "has finished",
+        "had finished",
+        "is finishing"
+      ],
+      "correct": "has finished",
+      "hint": "Result = important NOW. \"She HAS FINISHED the project.\" → result: now we can submit. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "PPS for experience.",
+      "text": "\"___ you ever ___ (try) horse milk?\"",
+      "opts": [
+        "Did / try",
+        "Have / tried",
+        "Have / been trying",
+        "Do / try"
+      ],
+      "correct": "Have / tried",
+      "hint": "\"Have you ever TRIED horse milk?\" — life experience → PPS + ever. ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "FOR or SINCE?",
+      "text": "\"She has lived in Uralsk ___ three years.\"",
+      "correct": "for",
+      "hint": "\"three years\" = duration → FOR. \"FOR three years.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "FOR or SINCE?",
+      "text": "\"He has been studying English ___ he was twelve.\"",
+      "correct": "since",
+      "hint": "\"when he was twelve\" = starting point → SINCE. \"SINCE he was twelve.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "PPS vs Past Simple — specific time?",
+      "text": "\"I ___ (see) that film last Tuesday.\"",
+      "opts": [
+        "have seen",
+        "had seen",
+        "saw",
+        "have been seeing"
+      ],
+      "correct": "saw",
+      "hint": "\"Last Tuesday\" = specific past time → PAST SIMPLE. \"I SAW that film last Tuesday.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Stative verb — choose correctly.",
+      "text": "\"I ___ her for ten years.\" (know)",
+      "opts": [
+        "'ve been knowing",
+        "'ve known",
+        "knew",
+        "know"
+      ],
+      "correct": "'ve known",
+      "hint": "\"know\" = stative → PPS. \"I'VE KNOWN her for ten years.\" ✅ Never \"been knowing.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "PPS for counting.",
+      "text": "\"She ___ (visit) twelve countries so far.\"",
+      "opts": [
+        "visited",
+        "has visited",
+        "has been visiting",
+        "is visiting"
+      ],
+      "correct": "has visited",
+      "hint": "Counting completions → PPS. \"She HAS VISITED twelve countries.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "\"Just\" — choose correctly.",
+      "text": "\"He ___ (arrive). He's taking his coat off.\"",
+      "opts": [
+        "just arrived",
+        "has just arrived",
+        "had just arrived",
+        "was just arriving"
+      ],
+      "correct": "has just arrived",
+      "hint": "\"just\" + recent event = PPS. \"He HAS JUST ARRIVED.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "\"Yet\" — choose correctly.",
+      "text": "\"She hasn't submitted the essay ___.\"",
+      "opts": [
+        "already",
+        "yet",
+        "just",
+        "ever"
+      ],
+      "correct": "yet",
+      "hint": "Negative + \"YET\" = PPS for something expected but not done. \"She hasn't submitted YET.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "\"Already\" — choose correctly.",
+      "text": "\"He ___ (eat) — he's not hungry.\"",
+      "opts": [
+        "already ate",
+        "has already eaten",
+        "had already eaten",
+        "is already eating"
+      ],
+      "correct": "has already eaten",
+      "hint": "\"has ALREADY EATEN.\" — present result (not hungry now). ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "PPS vs Past Simple — result now?",
+      "text": "\"Oh no — I ___ (lose) my keys!\"",
+      "opts": [
+        "lost",
+        "have lost",
+        "had lost",
+        "was losing"
+      ],
+      "correct": "have lost",
+      "hint": "\"I HAVE LOST my keys!\" — result matters NOW (I can't get in). PPS for current relevance. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Open time period → PPS.",
+      "text": "\"She ___ (write) three essays this semester.\" (semester not over)",
+      "opts": [
+        "wrote",
+        "has written",
+        "has been writing",
+        "had written"
+      ],
+      "correct": "has written",
+      "hint": "\"This semester\" = still open → PPS. \"She HAS WRITTEN three essays this semester.\" ✅ (counting completions)"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Experience with \"never.\"",
+      "text": "\"I've never ___ (go) to a horse race.\"",
+      "opts": [
+        "went",
+        "been",
+        "gone",
+        "go"
+      ],
+      "correct": "been",
+      "hint": "\"I've never BEEN to a horse race.\" — for travel/visits: go → BEEN (not \"gone\"). \"Have you BEEN to...?\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"How long have you studied here?\"",
+      "opts": [
+        "Correct",
+        "Wrong — \"studied\" should be \"been studying\" or \"studied\" is fine; \"how long\" often prefers PPC",
+        "\"have\" should be \"did\"",
+        "\"here\" should be removed"
+      ],
+      "correct": "Wrong — \"studied\" should be \"been studying\" or \"studied\" is fine; \"how long\" often prefers PPC",
+      "hint": "\"How long HAVE YOU BEEN STUDYING here?\" (PPC) is more natural. \"Have you studied\" = also possible but less natural for duration. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "\"Have you\" question — choose correctly.",
+      "text": "\"___ you ___ (hear) from Rustam recently?\"",
+      "opts": [
+        "Did / hear",
+        "Have / heard",
+        "Have / been hearing",
+        "Do / hear"
+      ],
+      "correct": "Have / heard",
+      "hint": "\"Have you HEARD from Rustam recently?\" — PPS for recent, result-oriented question. ✅"
+    },
+    {
+      "id": "e16",
+      "type": "fill",
+      "instruction": "Complete with the correct tense.",
+      "text": "\"She ___ (not / reply) yet. Should I send another message?\"",
+      "correct": "hasn't replied",
+      "hint": "\"She HASN'T REPLIED yet.\" — PPS negative + \"yet.\" ✅"
+    },
+    {
+      "id": "e17",
+      "type": "mc",
+      "instruction": "Past Simple or PPS? Choose.",
+      "text": "\"The company ___ (open) its first branch in 1998.\"",
+      "opts": [
+        "has opened",
+        "opened",
+        "had opened",
+        "is opening"
+      ],
+      "correct": "opened",
+      "hint": "\"In 1998\" = specific past time → Past Simple. \"The company OPENED its first branch in 1998.\" ✅"
+    },
+    {
+      "id": "e18",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Choose the correct PPS use.",
+      "opts": [
+        "\"I've never went to Paris.\"",
+        "\"She has finished yesterday.\"",
+        "\"They've been here since three hours.\"",
+        "\"He's just called. He's on his way.\""
+      ],
+      "correct": "\"He's just called. He's on his way.\"",
+      "hint": "\"He's just called.\" — PPS + just = recent event with present relevance. ✅ All others have errors."
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "\"Lately\" and \"recently\" — choose.",
+      "text": "\"I ___ (not / sleep) well lately.\"",
+      "opts": [
+        "didn't sleep",
+        "haven't slept",
+        "haven't been sleeping",
+        "Both haven't slept and haven't been sleeping work"
+      ],
+      "correct": "Both haven't slept and haven't been sleeping work",
+      "hint": "\"HAVEN'T SLEPT well lately\" (PPS ✅) / \"HAVEN'T BEEN SLEEPING well lately\" (PPC ✅) — both natural for ongoing pattern. ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Duration + stative.",
+      "text": "\"I ___ (want) to visit Georgia for years.\"",
+      "opts": [
+        "'ve been wanting",
+        "'ve wanted",
+        "Both are correct",
+        "wanted"
+      ],
+      "correct": "Both are correct",
+      "hint": "\"want\" is stative → \"I'VE WANTED to visit Georgia.\" ✅ However, \"wanting\" in continuous is sometimes used informally. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "PPS is used for:",
+      "opts": [
+        "Ongoing activities with duration",
+        "Completed actions with present relevance, experiences, and counting",
+        "Actions interrupted in the past",
+        "Habitual past"
+      ],
+      "correct": "Completed actions with present relevance, experiences, and counting",
+      "hint": "PPS = result (I've finished), experience (I've been to X), counting (I've read 3 books). ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"FOR three years\" vs \"SINCE 2021\" — difference:",
+      "opts": [
+        "No difference",
+        "FOR = duration (length); SINCE = starting point",
+        "FOR = starting point; SINCE = duration",
+        "\"Since\" is more formal"
+      ],
+      "correct": "FOR = duration (length); SINCE = starting point",
+      "hint": "FOR + period (three years). SINCE + starting point (2021, Monday, I was young). ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been knowing her for years.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"knowing\" is wrong — \"know\" is stative; should be \"known\"",
+        "\"years\" needs an article",
+        "\"'ve been\" is wrong"
+      ],
+      "correct": "\"knowing\" is wrong — \"know\" is stative; should be \"known\"",
+      "hint": "✅ \"I'VE KNOWN her for years.\" — stative verb → PPS only. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I have seen him yesterday.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Yesterday\" = specific past time → Past Simple needed: \"I saw him yesterday\"",
+        "\"Seen\" is wrong",
+        "\"Have\" should be \"had\""
+      ],
+      "correct": "\"Yesterday\" = specific past time → Past Simple needed: \"I saw him yesterday\"",
+      "hint": "Specific past time = Past Simple. ✅ \"I SAW him yesterday.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (just / finish) her essay. She's relieved.\"",
+      "correct": "has just finished",
+      "hint": "\"HAS JUST FINISHED\" — PPS + just = recent completion with present result (relief). ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Have you ever been to Almaty?\" — \"ever\" signals:",
+      "opts": [
+        "Recent action",
+        "Life experience up to now",
+        "Current ongoing activity",
+        "Future plan"
+      ],
+      "correct": "Life experience up to now",
+      "hint": "\"ever\" with PPS = asking about any time in your life experience. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She hasn't replied yet.\" — \"yet\" signals:",
+      "opts": [
+        "She did reply",
+        "Something expected but not done (negative + yet)",
+        "It happened recently",
+        "She's replying now"
+      ],
+      "correct": "Something expected but not done (negative + yet)",
+      "hint": "Negative + YET = something expected but not yet happened. PPS. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's written 3 essays this semester.\" — PPS because:",
+      "opts": [
+        "The semester is over",
+        "It counts completions within an open time period",
+        "Writing is stative",
+        "\"This\" requires PPS"
+      ],
+      "correct": "It counts completions within an open time period",
+      "hint": "PPS for counting within still-open time period (semester not over). ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've never been to Paris.\" — \"been\" because:",
+      "opts": [
+        "\"Go\" is irregular",
+        "For travel/visits: \"gone\" = still away; \"been\" = went and came back",
+        "\"Been\" is always used with \"never\"",
+        "\"Gone\" doesn't exist"
+      ],
+      "correct": "For travel/visits: \"gone\" = still away; \"been\" = went and came back",
+      "hint": "\"Have you BEEN to Paris?\" (and returned). \"He's GONE to Paris\" = he is still there now. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How long have you lived here?\" — Can you also say \"have you been living\"?",
+      "opts": [
+        "No — \"live\" is stative, must use PPS",
+        "\"Been living\" is wrong grammar",
+        "Yes — \"live\" can use PPC for duration too",
+        "\"Lived\" is wrong"
+      ],
+      "correct": "Yes — \"live\" can use PPC for duration too",
+      "hint": "\"I've lived here\" (PPS, stative-like) ✅ AND \"I've been living here\" (PPC, duration-focused) ✅ — both are natural! ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which requires Past Simple, not PPS?",
+      "opts": [
+        "\"He's just left.\"",
+        "\"I started the course last September.\"",
+        "\"She's never tried this.\"",
+        "\"Have you eaten today?\""
+      ],
+      "correct": "\"I started the course last September.\"",
+      "hint": "\"LAST SEPTEMBER\" = specific past time → Past Simple. \"I STARTED the course last September.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has lived here since 2020.\" — SINCE because:",
+      "opts": [
+        "2020 = duration",
+        "2020 = starting point",
+        "\"Since\" is always used with years",
+        "\"For 2020\" would be wrong anyway"
+      ],
+      "correct": "2020 = starting point",
+      "hint": "SINCE + starting point in time. \"She's lived here SINCE 2020.\" = 2020 is when it started. ✅"
+    }
+  ]
+}

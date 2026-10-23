@@ -1,0 +1,435 @@
+{
+  "id": "l25-6",
+  "moduleNum": 9,
+  "lessonNum": 8,
+  "moduleTitle": "Have you ever…?",
+  "title": "Module 9 — Final Test",
+  "type": "test",
+  "xp": 60,
+  "duration": 35,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What is a \"bucket list\"?",
+      "opts": [
+        "A shopping list",
+        "A to-do list for university",
+        "A list of life experiences to have",
+        "A list of failures"
+      ],
+      "correct": "A list of life experiences to have",
+      "hint": "Kamila's bucket list = experiences she wants to have before she turns thirty."
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kamila successfully cycled all 40 kilometres to the village.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She gave up after 15 kilometres when her tyre burst."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Kamila jumped from a plane at ___ metres above the steppe.",
+      "correct": "4,000",
+      "hint": "\"She jumped from a plane at 4,000 metres above Kazakhstan's steppe.\""
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How many bucket list experiences does Kamila have left?",
+      "opts": [
+        "5",
+        "10",
+        "16",
+        "21"
+      ],
+      "correct": "16",
+      "hint": "\"She has exactly sixteen experiences left to complete before she turns thirty.\""
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Kamila has already been to the Altai Mountains.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"She has never been to the Altai region.\""
+    },
+    {
+      "id": "q6",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "How many hiking trips has Rustam been on?",
+      "opts": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": "Five",
+      "hint": "Rustam said: \"I've been on five hiking trips.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What did the strange sounds near Zhibek's tent turn out to be?",
+      "opts": [
+        "A bear",
+        "A wolf",
+        "A deer",
+        "The wind"
+      ],
+      "correct": "A deer",
+      "hint": "Zhibek said \"it turned out to be a deer.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "Where has Zhibek applied for an exchange programme?",
+      "opts": [
+        "London",
+        "Edinburgh",
+        "Dublin",
+        "Manchester"
+      ],
+      "correct": "Edinburgh",
+      "hint": "Zhibek mentioned she has applied for a programme in Edinburgh."
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "Zhibek has volunteered at a children's hospital for ___ years.",
+      "correct": "two",
+      "hint": "\"I've volunteered at a children's hospital in Uralsk for two years.\""
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What is Zhibek's top dream experience?",
+      "opts": [
+        "Skydiving",
+        "Living in Scotland",
+        "Seeing the Northern Lights",
+        "Hiking in Altai"
+      ],
+      "correct": "Seeing the Northern Lights",
+      "hint": "\"I've never seen the Northern Lights. That's my number one dream experience.\""
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ five items off her bucket list.",
+      "opts": [
+        "has crossed",
+        "crossed",
+        "have crossed",
+        "is crossing"
+      ],
+      "correct": "has crossed",
+      "hint": "She = third person → has + past participle (crossed)."
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I ___ (never/be) to Edinburgh.",
+      "correct": "have never been",
+      "hint": "\"I\" → have + never + past participle. \"Be\" → participle is \"been\"."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ in Almaty in 2021.",
+      "opts": [
+        "has lived",
+        "lived",
+        "is living",
+        "have lived"
+      ],
+      "correct": "lived",
+      "hint": "\"In 2021\" = specific time → Past Simple."
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"yet\" goes at the ___ of a negative sentence.",
+      "opts": [
+        "beginning",
+        "middle",
+        "end",
+        "before the subject"
+      ],
+      "correct": "end",
+      "hint": "\"Yet\" always goes at the END: \"I haven't finished YET.\""
+    },
+    {
+      "id": "q15",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I have gone there yesterday\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Yesterday\" = specific time → Past Simple: \"I went there yesterday.\""
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Have you ___ tried traditional Kazakh food?",
+      "opts": [
+        "ever",
+        "never",
+        "already",
+        "yet"
+      ],
+      "correct": "ever",
+      "hint": "\"Ever\" goes in questions about life experience: Have you EVER...?"
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She has ___ arrived — she walked in two minutes ago.",
+      "opts": [
+        "just",
+        "yet",
+        "never",
+        "ever"
+      ],
+      "correct": "just",
+      "hint": "\"Just\" = a very short time ago. Position: has + JUST + past participle."
+    },
+    {
+      "id": "q18",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She has studied English ___ 2019.",
+      "correct": "since",
+      "hint": "\"2019\" = a specific point in time → \"since\"."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"bucket list\" item is something you:",
+      "opts": [
+        "Need to buy",
+        "Want to experience in your lifetime",
+        "Must do for university",
+        "Have already done"
+      ],
+      "correct": "Want to experience in your lifetime",
+      "hint": "A bucket list = a list of experiences or goals you want to achieve before you die."
+    },
+    {
+      "id": "q20",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Terrifying\" means very exciting.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Terrifying\" means extremely frightening, not exciting."
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"volunteer\" means to:",
+      "opts": [
+        "Be paid extra money",
+        "Freely offer to help without payment",
+        "Study abroad",
+        "Follow orders"
+      ],
+      "correct": "Freely offer to help without payment",
+      "hint": "Volunteer = to freely offer to do something, especially for a good cause."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What is a \"rucksack\"?",
+      "opts": [
+        "A type of food",
+        "A hiking trail",
+        "A bag worn on the back",
+        "A sleeping bag"
+      ],
+      "correct": "A bag worn on the back",
+      "hint": "A rucksack = a bag carried on your back, used for hiking or travel."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Standing ovation\" means:",
+      "opts": [
+        "A quiet clap",
+        "A loud booing",
+        "Audience standing to applaud enthusiastically",
+        "A short performance"
+      ],
+      "correct": "Audience standing to applaud enthusiastically",
+      "hint": "Standing ovation = the audience stands up and applauds enthusiastically."
+    },
+    {
+      "id": "q24",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "\"Look ___ to\" means to feel excited about something coming.",
+      "correct": "forward",
+      "hint": "\"Look forward to\" = to feel excited and wait eagerly for something."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"perspective\" means:",
+      "opts": [
+        "A way of looking at or understanding something",
+        "A type of performance",
+        "A hiking trail",
+        "A life experience"
+      ],
+      "correct": "A way of looking at or understanding something",
+      "hint": "\"Perspective\" = a particular way of thinking about or understanding something."
+    },
+    {
+      "id": "q26",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"deadline\" means:",
+      "opts": [
+        "A quiet time of day",
+        "The latest time you must finish something",
+        "A long journey",
+        "A type of examination"
+      ],
+      "correct": "The latest time you must finish something",
+      "hint": "\"Deadline\" = the latest date or time by which something must be completed."
+    },
+    {
+      "id": "q27",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"trail\" refers to a path in a natural area for hiking.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Trail\" = a path through a natural area, especially for walking or hiking."
+    },
+    {
+      "id": "q28",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"so far\" means:",
+      "opts": [
+        "From a great distance",
+        "Up to this point in time",
+        "Very far away",
+        "A long time ago"
+      ],
+      "correct": "Up to this point in time",
+      "hint": "\"So far\" = until now; up to this moment."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"choreograph\" a dance means to:",
+      "opts": [
+        "Watch a dance",
+        "Design and arrange the movements of a dance",
+        "Teach grammar",
+        "Volunteer at a hospital"
+      ],
+      "correct": "Design and arrange the movements of a dance",
+      "hint": "\"Choreograph\" = to design and organise the movements in a dance."
+    },
+    {
+      "id": "q30",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "\"___ exchange programme\" is a programme where students study at a foreign university.",
+      "correct": "An",
+      "hint": "An exchange programme = a programme where students go to study at a university in another country."
+    }
+  ]
+}

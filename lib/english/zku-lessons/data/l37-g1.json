@@ -1,0 +1,524 @@
+{
+  "id": "l37-g1",
+  "moduleNum": 3,
+  "lessonNum": 4,
+  "moduleTitle": "Stories & Memories",
+  "type": "grammar",
+  "title": "Past Continuous: was / were + -ing",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Continuous — was / were + verb-ing",
+  "grammarNote": "Past Continuous описывает действие, которое ПРОДОЛЖАЛОСЬ в определённый момент в прошлом. Образуется из was/were + глагол с окончанием -ing. Оно часто используется вместе с Past Simple — чтобы показать, что одно действие (длинное, фон) прерывалось другим (короткое, главное событие). Сигнальное слово for Past Continuous в таком контексте: WHEN (когда произошло краткое действие) и WHILE (пока оба действия длились одновременно).",
+  "grammarTable": [
+    {
+      "subject": "I / He / She / It",
+      "verb": "was working",
+      "short": "was + -ing",
+      "example": "I was sleeping at midnight. · She was running when it started raining."
+    },
+    {
+      "subject": "We / You / They",
+      "verb": "were working",
+      "short": "were + -ing",
+      "example": "They were studying when the power went out."
+    },
+    {
+      "subject": "I / He / She / It",
+      "verb": "was not working",
+      "short": "wasn't + -ing",
+      "example": "He wasn't sleeping — he was listening to music."
+    },
+    {
+      "subject": "We / You / They",
+      "verb": "were not working",
+      "short": "weren't + -ing",
+      "example": "They weren't celebrating — they were panicking."
+    },
+    {
+      "subject": "Was I / he / she...?",
+      "verb": "working?",
+      "short": "Was...?",
+      "example": "Was she studying when you called? — Yes, she was."
+    },
+    {
+      "subject": "Were we / you / they...?",
+      "verb": "working?",
+      "short": "Were...?",
+      "example": "Were they sleeping? — No, they weren't."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Uses of Past Continuous",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "① In progress at a past moment",
+          "example": "\"At 11 p.m. last night, I was revising for an exam.\" = ongoing at that time."
+        },
+        {
+          "form": "② Background action (when + PS)",
+          "example": "\"She was sleeping WHEN the power went out.\" = PC is the background; PS is the event."
+        },
+        {
+          "form": "③ Two simultaneous past actions",
+          "example": "\"While Kamila was telling stories, Rustam was scaring everyone.\" = both ongoing."
+        },
+        {
+          "form": "④ Setting the scene in a story",
+          "example": "\"The wind was howling. Snow was hitting the windows. Kamila was studying...\" = narrative atmosphere."
+        },
+        {
+          "form": "⑤ Planned past intention",
+          "example": "\"I was going to submit my essay, but the power went out.\" = intended but didn't happen."
+        }
+      ]
+    },
+    {
+      "title": "When + Past Simple / Past Continuous",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "WHEN + PS = short event",
+          "example": "\"...when the power went out.\" = sudden, completed event."
+        },
+        {
+          "form": "PC + when + PS",
+          "example": "\"She was studying WHEN the lights went off.\" = studying (background) interrupted by lights off (event)."
+        },
+        {
+          "form": "PS + when + PC",
+          "example": "\"The lights went off WHEN she was studying.\" = same meaning, different word order."
+        },
+        {
+          "form": "when + PS, PS (sequence)",
+          "example": "\"When I got to the station, I bought a ticket.\" = one completed action after another. (NOT continuous)"
+        }
+      ]
+    },
+    {
+      "title": "While + Past Continuous",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "WHILE = at the same time",
+          "example": "\"While Amir was writing, Kamila was sleeping.\" = both actions in progress simultaneously."
+        },
+        {
+          "form": "WHILE + PC, PS",
+          "example": "\"While he was typing, he got a notification.\" = longer action + interrupting event."
+        },
+        {
+          "form": "WHILE + PC, PC",
+          "example": "\"While the students were studying, the wind was howling outside.\""
+        },
+        {
+          "form": "Difference: when vs while",
+          "example": "\"WHEN\" often introduces the short event. \"WHILE\" often introduces the long background action."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common Mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"I was study at midnight.\"",
+          "example": "✅ \"I was studying at midnight.\" — always need -ing with was/were!"
+        },
+        {
+          "form": "✗ \"She were sleeping.\"",
+          "example": "✅ \"She was sleeping.\" — I/he/she/it → was. We/you/they → were."
+        },
+        {
+          "form": "✗ \"What did you doing?\"",
+          "example": "✅ \"What were you doing?\" — Past Continuous question uses were/was, not did."
+        },
+        {
+          "form": "✗ \"I was knowing the answer.\"",
+          "example": "✅ \"I knew the answer.\" — stative verbs (know/want/like) NEVER in Continuous."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Past Continuous — три ключевых правила:\n① was = I/he/she/it. were = we/you/they. Никогда не путай!\n② В вопросе — инверсия: Was she sleeping? (НЕ 'She was sleeping?')\n③ Stative verbs (know/like/want/believe) — НИКОГДА в Continuous, даже в прошедшем!\n\n💡 Самый частый паттерн на экзамене:\n«PC (длинное действие) + when + PS (короткое событие)»\n→ \"I WAS STUDYING when the power WENT OUT.\"\nPC = фон. PS = событие, которое прерывает фон.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Past Continuous form.",
+      "text": "At midnight, Kamila ___ for her linguistics exam.",
+      "opts": [
+        "studied",
+        "was studying",
+        "is studying",
+        "were studying"
+      ],
+      "correct": "was studying",
+      "hint": "Kamila = she → \"was studying\". At midnight = specific past moment → Past Continuous."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct Past Continuous form.",
+      "text": "The wind ___ (howl) and snow ___ (hit) the windows all night.",
+      "correct": "was howling / was hitting",
+      "hint": "Setting the scene (narrative): was howling / was hitting. Both = background actions."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct negative.",
+      "text": "Rustam ___ celebrating — he was laughing.",
+      "opts": [
+        "wasn't celebrating",
+        "didn't celebrating",
+        "not celebrating",
+        "weren't celebrating"
+      ],
+      "correct": "wasn't celebrating",
+      "hint": "Rustam = he = singular → wasn't (not weren't). wasn't celebrating ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Form the correct question.",
+      "text": "\"___ Zhibek ___ a shower when the messages arrived?\"",
+      "opts": [
+        "Did / have",
+        "Was / having",
+        "Were / having",
+        "Is / having"
+      ],
+      "correct": "Was / having",
+      "hint": "Zhibek = she = singular → Was she having...? Past Continuous question: Was/Were + subject + verb-ing?"
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"They were know the answer\" is correct Past Continuous.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"know\" is a stative verb — NEVER used in Continuous. ✅ \"They knew the answer.\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with Past Continuous.",
+      "text": "While Amir ___ (type) his essay, Kamila ___ (sleep) in her room.",
+      "correct": "was typing / was sleeping",
+      "hint": "While + PC, PC = two simultaneous background actions. was typing / was sleeping."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence sets the scene correctly?",
+      "opts": [
+        "The students were studying. The wind howled.",
+        "The students studied. The wind was howling.",
+        "The students were studying. The wind was howling.",
+        "The students studied. The wind howled."
+      ],
+      "correct": "The students were studying. The wind was howling.",
+      "hint": "Scene-setting uses Past Continuous for all background actions: were studying + was howling = both ongoing."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form for the short event.",
+      "text": "She was reading when the lights ___ .",
+      "opts": [
+        "were going out",
+        "went out",
+        "go out",
+        "going out"
+      ],
+      "correct": "went out",
+      "hint": "\"the lights went out\" = short, sudden event = Past Simple. \"She was reading\" = background = Past Continuous."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Write was or were.",
+      "text": "I ___ sleeping, but my friends ___ talking in the corridor.",
+      "correct": "was / were",
+      "hint": "I → was. My friends = they (plural) → were."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which use of Past Continuous is in this sentence: \"I was planning to submit my essay, but the power went out.\"",
+      "text": "What does \"was planning\" express here?",
+      "opts": [
+        "A completed action",
+        "A background action interrupted by an event",
+        "A past intention that didn't happen",
+        "A regular habit"
+      ],
+      "correct": "A past intention that didn't happen",
+      "hint": "\"was going to / was planning to\" = intended future action at that time. The power going out prevented it."
+    },
+    {
+      "id": "e11",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Were you study when I called?\" is a correctly formed Past Continuous question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Were you STUDYING when I called?\" — always need -ing! \"Were you study\" is impossible."
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the story sentence with Past Continuous.",
+      "text": "It was a cold night. The students ___ (sit) in the hallway and ___ (share) stories.",
+      "correct": "were sitting / were sharing",
+      "hint": "Narrative scene-setting. Students = they (plural) → were sitting / were sharing."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"At 11 p.m., Kamila ___ for her exam.\" Choose the correct form.",
+      "opts": [
+        "studied",
+        "was studying",
+        "is studying",
+        "studies"
+      ],
+      "correct": "was studying",
+      "hint": "At 11 p.m. = specific past moment → Past Continuous. Kamila → was studying."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"They ___ when the power went out.\" Choose the correct form.",
+      "opts": [
+        "slept",
+        "sleep",
+        "were sleeping",
+        "was sleeping"
+      ],
+      "correct": "were sleeping",
+      "hint": "They = plural → were sleeping. Background action interrupted by \"power went out\"."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ she sleeping when you called?\" — \"Yes, she ___.\"",
+      "correct": "Was / was",
+      "hint": "She = singular → Was she sleeping? Short answer: \"Yes, she was.\" (not \"Yes, she were.\")"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The -ing form of \"run\" used in Past Continuous is:",
+      "opts": [
+        "runing",
+        "running",
+        "runned",
+        "runs"
+      ],
+      "correct": "running",
+      "hint": "run: CVC → double n + ing: running. \"He was running to class.\""
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"While Rustam ___ football, Amir ___ his essay.\"",
+      "opts": [
+        "played / wrote",
+        "was playing / was writing",
+        "plays / writes",
+        "is playing / is writing"
+      ],
+      "correct": "was playing / was writing",
+      "hint": "\"While\" + two simultaneous actions = both Past Continuous: was playing / was writing."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ when you sent the message.\" Choose the stative verb answer.",
+      "opts": [
+        "wasn't knowing it",
+        "didn't know it",
+        "wasn't believe it",
+        "were not knowing"
+      ],
+      "correct": "didn't know it",
+      "hint": "\"know\" is stative → Past Simple negative: \"didn't know\". Never \"wasn't knowing\"."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The wind ___ (blow) hard all night.\" Use Past Continuous.",
+      "correct": "was blowing",
+      "hint": "The wind = it → was blowing. An ongoing background action throughout the night."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She was reading a novel when Rustam ___ .\" Which event interrupted?",
+      "opts": [
+        "was arriving",
+        "arrived",
+        "arrives",
+        "is arriving"
+      ],
+      "correct": "arrived",
+      "hint": "The interrupting event (shorter, sudden) = Past Simple: \"arrived\". The ongoing activity = Past Continuous."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What ___ you ___ when the announcement came?\" Form the question.",
+      "opts": [
+        "did / do",
+        "were / doing",
+        "was / doing",
+        "do / do"
+      ],
+      "correct": "were / doing",
+      "hint": "\"What were you doing?\" — Past Continuous question: were + subject + verb-ing."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She weren't sleeping.\" is correct Past Continuous.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She wasn't sleeping.\" — she/he/it → WAS, not WERE. \"She weren't\" is wrong."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses Past Continuous for scene-setting?",
+      "opts": [
+        "The power went out.",
+        "They talked for hours.",
+        "Snow was falling and students were gathering in the corridor.",
+        "Kamila fell asleep."
+      ],
+      "correct": "Snow was falling and students were gathering in the corridor.",
+      "hint": "Scene-setting = multiple ongoing Past Continuous actions creating the atmosphere/background."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (plan) to submit my essay, but the power cut stopped me.\"",
+      "correct": "was planning",
+      "hint": "\"was planning to\" = past intention that didn't happen. A use of Past Continuous for frustrated plans."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He was running to the station when he ___ his ticket.\" Choose.",
+      "opts": [
+        "was dropping",
+        "dropped",
+        "drops",
+        "is dropping"
+      ],
+      "correct": "dropped",
+      "hint": "\"dropped the ticket\" = short, sudden accident = Past Simple. \"was running\" = background = Past Continuous."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ the students celebrating or panicking?\" Complete the question.",
+      "opts": [
+        "Did",
+        "Was",
+        "Were",
+        "Are"
+      ],
+      "correct": "Were",
+      "hint": "\"the students\" = they (plural) → Were they celebrating or panicking? ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"At 6:15 a.m., the train ___ (leave) Uralsk station.\"",
+      "correct": "was leaving",
+      "hint": "At 6:15 a.m. = specific past moment → Past Continuous. The train = it → was leaving."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"While she was having a shower, her phone ___ .\" Complete.",
+      "opts": [
+        "was buzzing",
+        "buzzed",
+        "buzzes",
+        "is buzzing"
+      ],
+      "correct": "was buzzing",
+      "hint": "Both actions happening at the same time → both Past Continuous OR PS for the shorter one. \"was buzzing\" = also ongoing → PC."
+    }
+  ]
+}

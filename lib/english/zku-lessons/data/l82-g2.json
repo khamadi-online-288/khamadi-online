@@ -1,0 +1,523 @@
+{
+  "id": "l82-g2",
+  "moduleNum": 24,
+  "lessonNum": 6,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "Grammar: Academic Sentence Patterns — Nominalisation, Complex Structures, and Register",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Академические конструкции предложений — отличаются от разговорных:\n\nНОМИНАЛИЗАЦИЯ (глагол → существительное):\nRazговорное: \"We investigated...\"\nАкадемическое: \"An investigation was conducted...\"\n\"discover\" → \"the discovery of\" · \"develop\" → \"the development of\"\n\nПАССИВНЫЙ ЗАЛОГ для объективности:\n\"It was found that...\" · \"It has been suggested that...\"\n\"The results were analysed...\" · \"Data were collected from 50 participants.\"\n\nКОМПЛЕКСНЫЕ ИМЕННЫЕ ГРУППЫ:\n\"a significant decrease in carbon emissions over the past decade\"\n\"the relationship between economic growth and environmental impact\"\n\nХЕДЖИРОВАНИЕ:\n\"may · might · could · tend to · appear to · seem to · it is possible that\"\n\n💡 Главный принцип: академический текст избегает \"I\" → используй пассив и номинализацию",
+  "grammarTable": [
+    {
+      "subject": "Nominalisation",
+      "verb": "verb/adj → noun phrase",
+      "short": "turning process into concept",
+      "example": "\"The government decided to regulate\" → \"The decision to regulate\" / \"analyse\" → \"analysis\""
+    },
+    {
+      "subject": "Impersonal passive",
+      "verb": "It is + pp + that / to",
+      "short": "removing personal agent",
+      "example": "\"It is argued that… / It has been shown that… / It is necessary to consider…\""
+    },
+    {
+      "subject": "Complex NP",
+      "verb": "multiple pre-modifiers + noun",
+      "short": "dense noun phrase for economy",
+      "example": "\"a large-scale, longitudinal, double-blind randomised controlled trial\""
+    },
+    {
+      "subject": "This + noun",
+      "verb": "This + summary noun + (rest)",
+      "short": "cohesive reference + advance organiser",
+      "example": "\"This finding suggests / This analysis reveals / This pattern indicates / This raises the question\""
+    },
+    {
+      "subject": "Active vs passive",
+      "verb": "when to choose which",
+      "short": "passive for process; active for emphasis",
+      "example": "Passive: \"The data were collected over 12 months.\" Active: \"Smith and colleagues demonstrate that…\""
+    },
+    {
+      "subject": "it + empty subject",
+      "verb": "It is/was/seems/appears + adj + that/to",
+      "short": "impersonal evaluation",
+      "example": "\"It is clear that… / It seems likely that… / It would be premature to conclude that…\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Nominalisation: Converting Verbs to Nouns",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Simple verbs → nouns for academic precision",
+          "example": "\"analyse → analysis; distribute → distribution; implement → implementation; investigate → investigation\""
+        },
+        {
+          "form": "Verb phrases → noun phrases",
+          "example": "\"They decided to investigate\" → \"The decision to investigate\" / \"They found that X\" → \"The finding that X\""
+        },
+        {
+          "form": "Why nominalise? Allows economy, precision, and reference to prior ideas",
+          "example": "\"This increase in productivity\" (nominal) vs \"Because productivity increased\" (verbal)"
+        },
+        {
+          "form": "Common academic nominalisations to learn",
+          "example": "examine → examination; propose → proposal; conclude → conclusion; assume → assumption; demonstrate → demonstration"
+        }
+      ]
+    },
+    {
+      "title": "Impersonal Passive: Removing the Agent",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"It has been argued/suggested/demonstrated that + clause\"",
+          "example": "\"It has been demonstrated that bilingual children show enhanced executive function.\" (who demonstrated this — implicitly: the research community)"
+        },
+        {
+          "form": "\"It is widely accepted/recognised/acknowledged that\"",
+          "example": "\"It is widely acknowledged that the native speaker model is no longer fit for purpose.\""
+        },
+        {
+          "form": "\"It should be noted/emphasised/acknowledged that\"",
+          "example": "\"It should be noted that this sample does not represent the broader population.\""
+        },
+        {
+          "form": "Avoids first person; focuses on the claim rather than the claimant",
+          "example": "\"I found that…\" → \"It was found that…\" / \"We can see that…\" → \"It can be seen that…\""
+        }
+      ]
+    },
+    {
+      "title": "\"This\" + Summary Noun: Cohesive Reference",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "\"This\" + precise summary noun creates cohesion and advances argument",
+          "example": "\"This finding / This pattern / This suggests / This analysis / This limitation / This raises the question of…\""
+        },
+        {
+          "form": "The summary noun names what was just discussed",
+          "example": "\"The intervention reduced anxiety. This reduction supports the hypothesis that…\""
+        },
+        {
+          "form": "Avoid vague \"this\" without a noun — it creates ambiguity",
+          "example": "❌ \"This suggests that…\" (what does \"this\" refer to exactly?) ✅ \"This finding suggests that…\" (specific and clear)"
+        },
+        {
+          "form": "Common summary nouns in academic writing",
+          "example": "finding, pattern, limitation, result, issue, challenge, assumption, distinction, framework, approach"
+        }
+      ]
+    },
+    {
+      "title": "Active vs Passive in Academic Writing",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Use passive for: methods, processes, procedures",
+          "example": "\"Participants were randomly assigned to groups.\" / \"Data were collected over six months.\""
+        },
+        {
+          "form": "Use passive for: impersonal statements of fact",
+          "example": "\"It has been established that…\" / \"A correlation was observed between…\""
+        },
+        {
+          "form": "Use active for: specific authors' contributions",
+          "example": "\"Jones (2020) argues that…\" / \"Smith and colleagues demonstrate that…\""
+        },
+        {
+          "form": "Use active for: your own analytical moves",
+          "example": "\"This essay argues that…\" / \"I will now examine three competing explanations.\""
+        }
+      ]
+    },
+    {
+      "title": "Informal vs Academic Register: Key Contrasts",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "❌ \"Loads of research shows\" → ✅ \"A substantial body of research demonstrates\"",
+          "example": "❌ Loads → ✅ a substantial body of / a considerable volume of / extensive"
+        },
+        {
+          "form": "❌ \"The study is about\" → ✅ \"The study examines / investigates / analyses\"",
+          "example": "❌ is about → ✅ examines, explores, investigates, addresses, considers"
+        },
+        {
+          "form": "❌ \"It seems like\" → ✅ \"It appears that / It seems that\" (no \"like\" in academic register)",
+          "example": "❌ seems like → ✅ appears to / seems to / would appear to"
+        },
+        {
+          "form": "❌ \"Really important\" → ✅ \"Crucially important / of considerable significance\"",
+          "example": "❌ really/very → ✅ considerably, significantly, substantially, markedly"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Nominalise the underlined phrase.",
+      "text": "\"The researchers decided to investigate the effects of bilingualism.\" → \"___ to investigate the effects\"",
+      "opts": [
+        "Deciding",
+        "The decision",
+        "Decided",
+        "They decided"
+      ],
+      "correct": "The decision",
+      "hint": "decide → decision (-sion suffix: nominalisation)"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the impersonal passive sentence.",
+      "text": "\"___ ___ ___ ___ that the intervention significantly reduces anxiety.\" (passive: research demonstrates this)",
+      "correct": "It has been demonstrated",
+      "hint": "\"It has been demonstrated that + clause\""
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct summary noun after \"this.\"",
+      "text": "\"The sample was non-representative. ___ ___ raises questions about external validity.\"",
+      "opts": [
+        "This raises",
+        "This limitation",
+        "This is",
+        "This finding"
+      ],
+      "correct": "This limitation",
+      "hint": "\"This limitation\" = naming the non-representative sample as a limitation before saying what it raises"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Convert to academic register.",
+      "text": "\"Loads of research shows that…\" → \"___ ___ ___ ___ ___ demonstrates that…\"",
+      "correct": "A substantial body of research",
+      "hint": "Replace \"loads of research shows\" with formal equivalent"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct verb form for a methods section (passive).",
+      "text": "\"The participants ___ randomly ___ to one of three conditions.\"",
+      "opts": [
+        "were / assigned",
+        "assigned / assigned",
+        "have / assigned",
+        "were / assigning"
+      ],
+      "correct": "were / assigned",
+      "hint": "Methods: passive voice — \"participants were assigned\""
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the \"it + adj + that\" construction.",
+      "text": "\"___ ___ ___ ___ that this correlation reflects a causal relationship.\" (premature to conclude)",
+      "correct": "It would be premature to conclude",
+      "hint": "\"It would be premature to conclude that + clause\""
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which is the correct academic form?",
+      "text": "\"The study is about how language affects cognition.\" → Academic version:",
+      "opts": [
+        "\"The study really looks at language and cognition.\"",
+        "\"The study examines the relationship between language use and cognitive outcomes.\"",
+        "\"The study is like, about language and the brain.\"",
+        "\"The study shows things about language.\""
+      ],
+      "correct": "\"The study examines the relationship between language use and cognitive outcomes.\"",
+      "hint": "\"Is about\" → \"examines / investigates\"; precise academic noun phrase"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with the correct impersonal passive.",
+      "text": "\"___ ___ ___ ___ that the results cannot be generalised beyond this specific context.\" (it should be noted)",
+      "correct": "It should be noted",
+      "hint": "\"It should be noted that + clause\" — impersonal comment clause"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct academic equivalent.",
+      "text": "\"It seems like the study has some problems.\" → Academic:",
+      "opts": [
+        "\"It appears that the study contains several methodological limitations.\"",
+        "\"It seems like there are issues.\"",
+        "\"The study is not very good.\"",
+        "\"There are some problems here.\""
+      ],
+      "correct": "\"It appears that the study contains several methodological limitations.\"",
+      "hint": "\"Seems like\" → \"appears that\"; \"problems\" → \"methodological limitations\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Nominalise the verbal phrase.",
+      "text": "\"They found that the intervention reduced anxiety.\" → \"The ___ that the intervention reduced anxiety supported the hypothesis.\"",
+      "correct": "finding",
+      "hint": "\"Find\" → \"finding\" (gerund used as noun: the finding that + clause)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which is the correct active voice for citing an author's argument?",
+      "text": "",
+      "opts": [
+        "\"It is argued by Jones that…\"",
+        "\"It has been demonstrated that…\"",
+        "\"Jones (2020) argues that…\"",
+        "\"The argument is made that…\""
+      ],
+      "correct": "\"Jones (2020) argues that…\"",
+      "hint": "Citing specific authors: use active voice with their name",
+      "points": 1
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Convert to academic register.",
+      "text": "\"Really important findings were ignored.\" → \"___ ___ findings were overlooked.\"",
+      "correct": "Crucially important / Significantly",
+      "hint": "Replace \"really important\" with formal academic modifier",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the sentence with the best academic register.",
+      "text": "",
+      "opts": [
+        "\"Loads of evidence shows that bilingualism helps the brain.\"",
+        "\"A substantial body of evidence demonstrates that bilingualism enhances cognitive function.\"",
+        "\"There is lots of stuff about bilingualism and the brain.\"",
+        "\"It seems like bilingualism is good for you.\""
+      ],
+      "correct": "\"A substantial body of evidence demonstrates that bilingualism enhances cognitive function.\"",
+      "hint": "Formal vocabulary + active reporting verb + precise academic language"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete the \"this + summary noun\" structure.",
+      "text": "\"The data showed a strong correlation. ___ ___ suggests that the variables are closely linked.\", (this pattern)",
+      "correct": "This pattern",
+      "hint": "\"This pattern suggests that…\" = specific summary noun + precise follow-up claim",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which uses the impersonal passive correctly?",
+      "text": "",
+      "opts": [
+        "\"It is argued that by researchers that…\"",
+        "\"It has been argued that the model requires revision.\"",
+        "\"It is arguing that the model requires revision.\"",
+        "\"It was argued to the model requires revision.\""
+      ],
+      "correct": "\"It has been argued that the model requires revision.\"",
+      "hint": "\"It has been + pp + that + clause\" = correct impersonal passive",
+      "points": 1
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the correct nominalised form.",
+      "text": "\"The government implemented the policy.\" → \"The ___ of the policy had significant effects.\"",
+      "opts": [
+        "implementing",
+        "implementation",
+        "implemented",
+        "implement"
+      ],
+      "correct": "implementation",
+      "hint": "implement → implementation (-ation suffix: nominalisation)",
+      "points": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of these findings supports the central hypothesis.\" (find → noun)",
+      "opts": [
+        "finding",
+        "findings",
+        "found",
+        "finded"
+      ],
+      "correct": "findings",
+      "hint": "\"find\" → \"findings\" (plural noun: the findings)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that the intervention produced no significant effect in the long term.\" (passive: research shows this)",
+      "correct": "It has been shown",
+      "hint": "\"It has been shown that + clause\" — impersonal passive",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The sample was small. ___ ___ raises serious questions about generalisability.\" (specify what \"this\" refers to)",
+      "opts": [
+        "This raises",
+        "This limitation",
+        "This finding",
+        "This problem"
+      ],
+      "correct": "This limitation",
+      "hint": "\"This limitation\" = naming the small sample as a limitation before explaining its consequences",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that these results could be replicated in other contexts.\" (premature to conclude)",
+      "correct": "It would be premature to conclude",
+      "hint": "\"It would be premature to conclude that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Participants ___ randomly ___ to one of four groups.\" (methods passive)",
+      "opts": [
+        "were / allocated",
+        "was / allocated",
+        "are / allocated",
+        "were / allocating"
+      ],
+      "correct": "were / allocated",
+      "hint": "Methods section: passive voice \"were + pp\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "In academic writing, \"loads of research shows\" is an appropriate expression.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Register error: \"loads of\" is informal. Use \"a substantial body of research demonstrates\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ of the policy improved outcomes significantly.\" (implement → noun)",
+      "correct": "implementation",
+      "hint": "implement → implementation (-ation suffix: nominalisation)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Smith and colleagues (2020) ___ that higher sample sizes are needed.\" (active — citing specific authors)",
+      "opts": [
+        "is argued by",
+        "it is argued",
+        "argue",
+        "are argued"
+      ],
+      "correct": "argue",
+      "hint": "Citing specific authors: active voice \"Jones argues that…\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ ___ that this is an unusually large effect for this type of intervention.\" (it is significant)",
+      "correct": "It is significant that",
+      "hint": "\"It is significant that + clause\" = impersonal evaluation",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most academically appropriate replacement for \"The study is about…\"?",
+      "opts": [
+        "The study really looks into",
+        "The study examines / investigates / analyses",
+        "The study is kind of exploring",
+        "The study is doing research on"
+      ],
+      "correct": "The study examines / investigates / analyses",
+      "hint": "\"Is about\" → examines, investigates, analyses (precise academic verbs)",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The results were mixed. ___ ___ raises the need for further research.\" (this inconsistency / ambiguity)",
+      "correct": "This ambiguity / This inconsistency / This pattern",
+      "hint": "\"This + summary noun\" = precise, cohesive reference",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence has the strongest academic register?",
+      "opts": [
+        "\"There is lots of research on this topic that shows interesting things.\"",
+        "\"A substantial body of peer-reviewed research demonstrates a consistent pattern across contexts.\"",
+        "\"It seems like there might be some evidence for this.\"",
+        "\"Really important research shows really big effects.\""
+      ],
+      "correct": "\"A substantial body of peer-reviewed research demonstrates a consistent pattern across contexts.\"",
+      "hint": "Formal noun phrase + precise academic verb + specific claim = best academic register",
+      "points": 2
+    }
+  ]
+}

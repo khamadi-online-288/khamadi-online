@@ -1,0 +1,428 @@
+{
+  "id": "l65-3",
+  "moduleNum": 7,
+  "lessonNum": 3,
+  "moduleTitle": "Relative Clauses: Defining & Non-defining",
+  "type": "listening",
+  "title": "A Research Discussion: Using Relative Clauses Naturally",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Asel",
+      "text": "Let's talk about the students you've been interviewing. What profile emerges?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "The students who use the most code-switching are those who grew up in bilingual households. They're the ones who switch most naturally.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Asel",
+      "text": "And what about the students who come from monolingual backgrounds?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "They switch too, but the patterns are different. The topics that trigger switching are usually more academic. They switch when they can't find the right term in one language.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Asel",
+      "text": "So the context in which the switching happens is different.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes. And the situations where it's most common are seminars and informal discussions — not formal lectures.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Asel",
+      "text": "Tell me about a student whose case particularly interested you.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "There's one student whose home language is Kazakh but who has spent most of his academic career in Russian-medium instruction. He switches in a way that I haven't seen described in the literature.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Asel",
+      "text": "What makes his switching unusual?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "The words he borrows are technical — physics, chemistry terms that don't have established Kazakh equivalents. He fills gaps that the language itself hasn't filled yet.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Asel",
+      "text": "That's a phenomenon that linguists call lexical borrowing. It's different from the code-switching that serves a social function.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes — which is why I think the framework I've been using needs to be extended. The students I've interviewed represent a range of motivations, which my current model doesn't fully capture.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Asel",
+      "text": "The question that drives your thesis forward, then, is: what are the conditions under which different types of switching occur?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Exactly. And the answer that has been emerging from my data is more complex than I expected.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "bilingual",
+      "emoji": "🌐",
+      "opts": [
+        "одноязычный",
+        "двуязычный",
+        "многоязычный",
+        "иностранный"
+      ],
+      "correct": "двуязычный"
+    },
+    {
+      "id": "p2",
+      "word": "monolingual",
+      "emoji": "📖",
+      "opts": [
+        "двуязычный",
+        "одноязычный",
+        "образованный",
+        "академический"
+      ],
+      "correct": "одноязычный"
+    },
+    {
+      "id": "p3",
+      "word": "lexical borrowing",
+      "emoji": "🔤",
+      "opts": [
+        "грамматическое заимствование",
+        "лексическое заимствование",
+        "перевод",
+        "код-свитчинг"
+      ],
+      "correct": "лексическое заимствование"
+    },
+    {
+      "id": "p4",
+      "word": "trigger",
+      "emoji": "🔑",
+      "opts": [
+        "предотвращать",
+        "вызывать / запускать",
+        "изучать",
+        "описывать"
+      ],
+      "correct": "вызывать / запускать"
+    },
+    {
+      "id": "p5",
+      "word": "profile",
+      "emoji": "👤",
+      "opts": [
+        "список",
+        "профиль / характеристика",
+        "результат",
+        "анализ"
+      ],
+      "correct": "профиль / характеристика"
+    },
+    {
+      "id": "p6",
+      "word": "equivalent",
+      "emoji": "↔️",
+      "opts": [
+        "противоположность",
+        "эквивалент",
+        "синоним",
+        "антоним"
+      ],
+      "correct": "эквивалент"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Students who grew up in bilingual households code-switch most naturally.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Monolingual-background students don't code-switch at all.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Code-switching is most common in formal lectures.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The student whose case interests Kamila grew up speaking Kazakh.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "This student borrows technical terms that don't have Kazakh equivalents.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila says her current framework fully captures all the students' motivations.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Thesis researcher — naturally uses relative clauses to describe findings"
+    },
+    {
+      "id": "asel",
+      "name": "Dr. Asel",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Supervisor — asks probing questions that elicit relative clause structures"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Says students who grew up in bilingual households switch most naturally.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Notes the topics that trigger switching in monolingual students are usually academic.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Describes a student whose home language is Kazakh but who was educated in Russian.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Identifies the phenomenon as lexical borrowing — different from social code-switching.",
+      "correctCharId": "asel"
+    },
+    {
+      "id": "s5",
+      "text": "Says her current model doesn't fully capture the range of motivations she's found.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Says the answer emerging from her data is more complex than she expected.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which students code-switch most naturally?",
+      "opts": [
+        "Those with Russian education",
+        "Those who grew up in bilingual households",
+        "Those studying science",
+        "Those from Uralsk"
+      ],
+      "correct": "Those who grew up in bilingual households",
+      "hint": "\"The students who use the most code-switching are those who grew up in bilingual households.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What triggers switching in monolingual-background students?",
+      "opts": [
+        "Social situations",
+        "Formal lectures",
+        "Academic topics where they can't find the right term",
+        "Music and films"
+      ],
+      "correct": "Academic topics where they can't find the right term",
+      "hint": "\"The topics that trigger switching are usually more academic. They switch when they can't find the right term.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In what contexts is code-switching most common?",
+      "opts": [
+        "Formal lectures",
+        "Seminars and informal discussions",
+        "Written assignments",
+        "Individual study"
+      ],
+      "correct": "Seminars and informal discussions",
+      "hint": "\"The situations where it's most common are seminars and informal discussions — not formal lectures.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What makes the special student's switching unusual?",
+      "opts": [
+        "He switches too frequently",
+        "He borrows technical terms that don't have Kazakh equivalents",
+        "He switches in formal lectures",
+        "He uses only Russian"
+      ],
+      "correct": "He borrows technical terms that don't have Kazakh equivalents",
+      "hint": "\"The words he borrows are technical — physics, chemistry terms that don't have established Kazakh equivalents.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Dr. Asel call this phenomenon?",
+      "opts": [
+        "Code-switching",
+        "Lexical borrowing",
+        "Language mixing",
+        "Bilingualism"
+      ],
+      "correct": "Lexical borrowing",
+      "hint": "\"That's a phenomenon that linguists call lexical borrowing.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say about her current research framework?",
+      "opts": [
+        "It's perfect",
+        "It needs to be published",
+        "It needs to be extended — doesn't fully capture all motivations",
+        "It's been rejected by the supervisor"
+      ],
+      "correct": "It needs to be extended — doesn't fully capture all motivations",
+      "hint": "\"The framework I've been using needs to be extended... my current model doesn't fully capture it.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The special student has spent most of his academic career in Kazakh-medium instruction.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"He has spent most of his academic career in RUSSIAN-MEDIUM instruction.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the central question Dr. Asel identifies for the thesis?",
+      "opts": [
+        "How many students were interviewed?",
+        "What are the conditions under which different types of switching occur?",
+        "Why do students go to university?",
+        "How many languages do students speak?"
+      ],
+      "correct": "What are the conditions under which different types of switching occur?",
+      "hint": "\"What are the conditions UNDER WHICH different types of switching occur?\" — preposition + relative pronoun (formal). ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The students who use the most code-switching are those who grew up in bilingual households.\" — type:",
+      "opts": [
+        "Non-defining (with commas)",
+        "Defining — identifies WHICH students",
+        "Should use \"that\" instead of \"who\"",
+        "Relative pronoun can be omitted"
+      ],
+      "correct": "Defining — identifies WHICH students",
+      "hint": "No commas = defining. \"The students WHO use the most...\" = identifies which specific students. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A student whose home language is Kazakh but who has spent most of his career in Russian.\" — \"whose\" because:",
+      "opts": [
+        "Whose = non-defining marker",
+        "\"Whose\" refers to the student's possession (home language belongs to the student)",
+        "\"Whose\" replaces \"which\"",
+        "\"Whose\" is wrong here — should be \"which\""
+      ],
+      "correct": "\"Whose\" refers to the student's possession (home language belongs to the student)",
+      "hint": "\"Whose\" = possessive relative. The home language BELONGS TO the student. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The conditions under which different types of switching occur.\" — \"under which\" is:",
+      "opts": [
+        "Informal",
+        "Formal preposition + relative pronoun structure (prep + which)",
+        "Wrong — should be \"where\"",
+        "Non-defining"
+      ],
+      "correct": "Formal preposition + relative pronoun structure (prep + which)",
+      "hint": "\"under which\" = formal relative clause with preposition. \"The conditions UNDER WHICH...\" = \"the conditions in which\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The answer ___ has been emerging from my data is more complex than expected.\"",
+      "correct": "that",
+      "hint": "\"The answer THAT has been emerging from my data...\" — defining relative clause (tells which answer). ✅"
+    }
+  ]
+}

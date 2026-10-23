@@ -1,0 +1,443 @@
+{
+  "id": "l53-4",
+  "moduleNum": 19,
+  "lessonNum": 4,
+  "moduleTitle": "Travel",
+  "type": "listening",
+  "title": "At the Airport",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Agent",
+      "text": "Good morning. May I see your passport and booking confirmation, please?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Of course. Here you are.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you, Mr Seilov. Are you checking in any bags today, or just carry-on luggage?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Just one bag to check in. It's 18 kilograms.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "That's within the allowance — 23 kilograms is the limit. Would you like a window seat or an aisle seat?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "A window seat, please. I've never flown before — I want to see the view.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "Of course! Here's your boarding pass. Your gate is B12. Boarding begins at 09:40.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "And where is security?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "Straight ahead and then follow the signs. Please make sure all liquids are in containers under 100ml.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I have a bottle of water — will that be a problem?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "You'll need to finish it or throw it away before security. You can buy water after you pass through.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "OK. What about my laptop? Do I need to take it out?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "Yes — remove your laptop and place it separately in the tray. Also remove your belt and jacket.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Got it. And what time does my flight depart?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "Your flight to Almaty departs at 10:15. The gate closes at 10:00 — please be there at least 20 minutes early.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I will. Thank you very much.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Agent",
+      "text": "Have a wonderful flight, Mr Seilov. Enjoy Almaty!",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "check in (luggage)",
+      "emoji": "🧳",
+      "opts": [
+        "ручная кладь",
+        "сдать багаж",
+        "получить багаж",
+        "взвесить сумку"
+      ],
+      "correct": "сдать багаж"
+    },
+    {
+      "id": "p2",
+      "word": "carry-on",
+      "emoji": "🎒",
+      "opts": [
+        "сданный багаж",
+        "ручная кладь (в салоне)",
+        "тяжёлый груз",
+        "посылка"
+      ],
+      "correct": "ручная кладь (в салоне)"
+    },
+    {
+      "id": "p3",
+      "word": "boarding pass",
+      "emoji": "🎫",
+      "opts": [
+        "паспорт",
+        "посадочный талон",
+        "виза",
+        "билет на автобус"
+      ],
+      "correct": "посадочный талон"
+    },
+    {
+      "id": "p4",
+      "word": "aisle seat",
+      "emoji": "💺",
+      "opts": [
+        "место у окна",
+        "место у прохода",
+        "средний ряд",
+        "первый класс"
+      ],
+      "correct": "место у прохода"
+    },
+    {
+      "id": "p5",
+      "word": "gate",
+      "emoji": "🚪",
+      "opts": [
+        "выход на посадку",
+        "выход из аэропорта",
+        "стойка регистрации",
+        "паспортный контроль"
+      ],
+      "correct": "выход на посадку"
+    },
+    {
+      "id": "p6",
+      "word": "depart",
+      "emoji": "✈️",
+      "opts": [
+        "приземляться",
+        "вылетать / отправляться",
+        "задерживаться",
+        "приземлиться"
+      ],
+      "correct": "вылетать / отправляться"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam is checking in one bag weighing 18 kilograms.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "He chose an aisle seat.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "This is Rustam's first time flying.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Gate B12 opens for boarding at 10:00.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Rustam must remove his laptop at security.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The flight to Almaty departs at 09:40.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "😰",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "First-time flyer — nervous, asks lots of practical questions"
+    },
+    {
+      "id": "agent",
+      "name": "Check-in Agent",
+      "city": "Uralsk",
+      "emoji": "✈️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Airport agent — professional, helpful, informative"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Checks in a bag weighing 18 kg — within the 23 kg allowance.",
+      "correctCharId": "agent"
+    },
+    {
+      "id": "s2",
+      "text": "Asks for a window seat — it's their first time flying.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Tells Rustam the boarding pass, gate B12, and boarding time 09:40.",
+      "correctCharId": "agent"
+    },
+    {
+      "id": "s4",
+      "text": "Asks about the water bottle and whether it will be a problem at security.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Explains Rustam needs to remove laptop and place it in a separate tray.",
+      "correctCharId": "agent"
+    },
+    {
+      "id": "s6",
+      "text": "Says the gate closes at 10:00 — be there at least 20 minutes early.",
+      "correctCharId": "agent"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How much does Rustam's bag weigh?",
+      "opts": [
+        "15 kg",
+        "18 kg",
+        "20 kg",
+        "23 kg"
+      ],
+      "correct": "18 kg",
+      "hint": "\"Just one bag to check in. It's 18 kilograms.\" — within the 23 kg limit."
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which seat does Rustam request?",
+      "opts": [
+        "Aisle seat",
+        "Middle seat",
+        "Window seat",
+        "First class"
+      ],
+      "correct": "Window seat",
+      "hint": "\"A window seat, please. I've never flown before — I want to see the view.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "This is Rustam's first flight.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I've never flown before.\" — confirmed first flight."
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Rustam's gate number?",
+      "opts": [
+        "A12",
+        "B12",
+        "C12",
+        "D12"
+      ],
+      "correct": "B12",
+      "hint": "\"Your gate is B12. Boarding begins at 09:40.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What must Rustam do with his water bottle?",
+      "opts": [
+        "Put it in his checked bag",
+        "Declare it at customs",
+        "Finish it or throw it away before security",
+        "Seal it in a bag"
+      ],
+      "correct": "Finish it or throw it away before security",
+      "hint": "\"You'll need to finish it or throw it away before security. You can buy water after you pass through.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What time does Rustam's flight to Almaty depart?",
+      "opts": [
+        "09:40",
+        "10:00",
+        "10:15",
+        "10:30"
+      ],
+      "correct": "10:15",
+      "hint": "\"Your flight to Almaty departs at 10:15.\" (Boarding is 09:40; gate closes at 10:00.)"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What must Rustam remove at security?",
+      "opts": [
+        "Watch and shoes",
+        "Phone and keys",
+        "Laptop, belt, and jacket",
+        "Passport and boarding pass"
+      ],
+      "correct": "Laptop, belt, and jacket",
+      "hint": "\"Remove your laptop and place it separately in the tray. Also remove your belt and jacket.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When should Rustam arrive at the gate?",
+      "opts": [
+        "At exactly 10:00",
+        "At 09:40",
+        "At least 20 minutes before gate closes (by 09:40)",
+        "As late as 10:14"
+      ],
+      "correct": "At least 20 minutes before gate closes (by 09:40)",
+      "hint": "\"The gate closes at 10:00 — please be there at least 20 minutes early.\" = by 09:40."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've never flown before.\" This uses:",
+      "opts": [
+        "Past Simple",
+        "Present Simple",
+        "Present Perfect",
+        "Future"
+      ],
+      "correct": "Present Perfect",
+      "hint": "\"I've never FLOWN\" = Present Perfect (have/has + past participle) — life experience up to now. \"Flown\" = past participle of \"fly\"."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Would you like a window seat or an aisle seat?\" — \"Would you like\" is:",
+      "opts": [
+        "A question about the past",
+        "A polite offer or question",
+        "A command",
+        "A future plan"
+      ],
+      "correct": "A polite offer or question",
+      "hint": "\"Would you like...?\" = polite way to offer something or ask for a preference. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Please make sure all ___ are in containers under 100ml.\"",
+      "correct": "liquids",
+      "hint": "Airport security rule: LIQUIDS (water, shampoo, etc.) must be in containers under 100ml."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The gate closes at 10:00.\" This is future scheduled by:",
+      "opts": [
+        "Will + verb",
+        "Going to + verb",
+        "Present Simple (official schedule)",
+        "Past Perfect"
+      ],
+      "correct": "Present Simple (official schedule)",
+      "hint": "Present Simple used for fixed schedules: \"The flight DEPARTS at 10:15.\" / \"The gate CLOSES at 10:00.\" ✅"
+    }
+  ]
+}

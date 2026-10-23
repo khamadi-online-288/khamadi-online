@@ -1,0 +1,548 @@
+{
+  "id": "l49-1",
+  "moduleNum": 15,
+  "lessonNum": 1,
+  "moduleTitle": "Things Being Done",
+  "type": "reading",
+  "title": "How Things Are Made: The World Behind the Label",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Every time you pick up an object — a phone, a bottle of water, a pen, a jacket — you are holding the end result of a long, complex process that you almost certainly never think about. The jacket was designed somewhere, the fabric was woven from thread that was spun from cotton that was grown in a field, the buttons were pressed from plastic or metal, the whole thing was assembled in a factory, inspected, packaged, and shipped across borders before it arrived on the shop shelf where you found it.",
+    "The passive voice was invented for precisely this kind of description. When we talk about how something is made, we are usually more interested in the process than in who is performing each step. The cotton is picked. The fabric is woven. The garment is cut and sewn. The jacket is packaged and delivered. Who picks the cotton? Who sews the seams? In a general process description, these questions are less important than the sequence of actions.",
+    "This is why passive constructions dominate technical writing, science, and manufacturing descriptions. \"The samples were collected and analysed in a controlled environment.\" \"The data was processed using the standard algorithm.\" \"The building was constructed in 1978.\" In each case, the writer is interested in what happened, not who made it happen.",
+    "The contrast with active voice is clear. \"Workers pick the cotton\" sounds specific — it points to a particular group performing a particular action. \"The cotton is picked\" sounds like a universal process — this is how it works, everywhere, all the time. The passive removes the actor from view and focuses attention on the object and the action.",
+    "Passive constructions are not just for factories and laboratories. They appear in news reports: \"Three people were injured in the accident.\" They appear in official notices: \"Your application has been received.\" They appear in academic writing: \"The theory was first proposed by Darwin.\" They are used whenever the writer wants to emphasise what happened rather than who did it.",
+    "There is a common myth that passive voice is always \"bad\" or \"weak\" writing. In fact, the passive voice is a tool — like any tool, it is good when used appropriately and unhelpful when used to avoid clarity or responsibility. \"Mistakes were made\" (without saying by whom) is evasive. \"The experiment was conducted three times\" is clear and precise. The difference is intent.",
+    "Understanding the passive is not just a grammar exercise. It is a literacy skill. Almost every document you will read in an academic, scientific, or professional context will use it extensively. Reading with full comprehension requires knowing not just what is happening in a passive sentence, but to whom, by what means, and why the writer chose not to mention the actor. That invisible agent — the missing \"by...\" — is often the most interesting thing of all."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Amir",
+      "text": "Have you ever thought about how a phone is actually made? Like, step by step?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not really. I know it's assembled in a factory somewhere.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "The components are produced in different countries, then shipped to one place to be put together.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That's strange to think about. You hold one object but it was made in a dozen places.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "And then it's tested, packaged, and shipped again. Every step is done somewhere different.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I've been told passive voice is used a lot in descriptions like that. For processes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Exactly. \"The chip is designed in California, manufactured in Taiwan, assembled in China.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Rustam",
+      "text": "It focuses on the thing being done, not who does it.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "passive voice",
+      "ru": "страдательный залог",
+      "context": "\"The passive voice was invented for precisely this kind of description.\""
+    },
+    {
+      "phrase": "process description",
+      "ru": "описание процесса",
+      "context": "\"In a general process description, who does it is less important.\""
+    },
+    {
+      "phrase": "emphasise",
+      "ru": "подчёркивать / акцентировать",
+      "context": "\"Used whenever the writer wants to emphasise what happened.\""
+    },
+    {
+      "phrase": "evasive",
+      "ru": "уклончивый",
+      "context": "\"Mistakes were made\" (without saying by whom) is evasive."
+    },
+    {
+      "phrase": "agent",
+      "ru": "агент / исполнитель",
+      "context": "\"That invisible agent — the missing 'by...' — is often the most interesting.\""
+    },
+    {
+      "phrase": "literacy skill",
+      "ru": "навык грамотности",
+      "context": "\"Understanding the passive is not just a grammar exercise. It is a literacy skill.\""
+    },
+    {
+      "phrase": "dominate",
+      "ru": "доминировать / преобладать",
+      "context": "\"Passive constructions dominate technical writing, science, and manufacturing.\""
+    },
+    {
+      "phrase": "intent",
+      "ru": "намерение / цель",
+      "context": "\"The difference is intent.\" — why you chose to write it that way."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "assemble",
+      "ipa": "/əˈsembl/",
+      "pos": "verb",
+      "ru": "собирать / монтировать",
+      "kz": "жинау",
+      "emoji": "🔧",
+      "definition": "to fit together parts to make something; to gather people in one place",
+      "example": "The phone components are assembled in a large factory.",
+      "collocations": [
+        "assemble parts",
+        "assembly line",
+        "fully assembled"
+      ]
+    },
+    {
+      "en": "inspect",
+      "ipa": "/ɪnˈspekt/",
+      "pos": "verb",
+      "ru": "проверять / осматривать",
+      "kz": "тексеру",
+      "emoji": "🔍",
+      "definition": "to look carefully at something to check quality or condition",
+      "example": "All products are inspected before they leave the factory.",
+      "collocations": [
+        "inspect carefully",
+        "safety inspection",
+        "be inspected"
+      ]
+    },
+    {
+      "en": "evasive",
+      "ipa": "/ɪˈveɪsɪv/",
+      "pos": "adjective",
+      "ru": "уклончивый",
+      "kz": "жалтарушы",
+      "emoji": "🌫️",
+      "definition": "avoiding giving a clear or direct answer",
+      "example": "\"Mistakes were made\" is evasive — it avoids naming who made them.",
+      "collocations": [
+        "evasive answer",
+        "evasive language",
+        "be deliberately evasive"
+      ]
+    },
+    {
+      "en": "emphasise",
+      "ipa": "/ˈemfəsaɪz/",
+      "pos": "verb",
+      "ru": "подчёркивать / акцентировать",
+      "kz": "баса айту",
+      "emoji": "📢",
+      "definition": "to give special importance to something",
+      "example": "The passive emphasises what happened rather than who did it.",
+      "collocations": [
+        "emphasise a point",
+        "strongly emphasise",
+        "emphasise the result"
+      ]
+    },
+    {
+      "en": "sequence",
+      "ipa": "/ˈsiːkwəns/",
+      "pos": "noun",
+      "ru": "последовательность",
+      "kz": "кезектілік",
+      "emoji": "📋",
+      "definition": "the order in which things happen",
+      "example": "In process descriptions, the sequence of actions is very important.",
+      "collocations": [
+        "correct sequence",
+        "in sequence",
+        "sequence of events"
+      ]
+    },
+    {
+      "en": "dominate",
+      "ipa": "/ˈdɒmɪneɪt/",
+      "pos": "verb",
+      "ru": "доминировать / преобладать",
+      "kz": "үстемдік ету",
+      "emoji": "👑",
+      "definition": "to have the most importance or influence in a situation",
+      "example": "Passive constructions dominate technical and scientific writing.",
+      "collocations": [
+        "dominate the market",
+        "dominate a conversation",
+        "clearly dominate"
+      ]
+    },
+    {
+      "en": "agent",
+      "ipa": "/ˈeɪdʒənt/",
+      "pos": "noun",
+      "ru": "агент / исполнитель",
+      "kz": "орындаушы",
+      "emoji": "👤",
+      "definition": "the person or thing that performs an action (in grammar)",
+      "example": "In \"the cake was baked\", the baker is the missing agent.",
+      "collocations": [
+        "passive agent",
+        "agent of change",
+        "invisible agent"
+      ]
+    },
+    {
+      "en": "comprehension",
+      "ipa": "/ˌkɒmprɪˈhenʃən/",
+      "pos": "noun",
+      "ru": "понимание",
+      "kz": "түсіну",
+      "emoji": "💡",
+      "definition": "the ability to understand something fully",
+      "example": "Reading comprehension requires knowing who performed each action.",
+      "collocations": [
+        "full comprehension",
+        "reading comprehension",
+        "test comprehension"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "assemble",
+      "emoji": "🔧",
+      "opts": [
+        "разбирать",
+        "собирать / монтировать",
+        "продавать",
+        "изолировать"
+      ],
+      "correct": "собирать / монтировать"
+    },
+    {
+      "id": "p2",
+      "word": "inspect",
+      "emoji": "🔍",
+      "opts": [
+        "игнорировать",
+        "проверять / осматривать",
+        "создавать",
+        "разрушать"
+      ],
+      "correct": "проверять / осматривать"
+    },
+    {
+      "id": "p3",
+      "word": "emphasise",
+      "emoji": "📢",
+      "opts": [
+        "скрывать",
+        "подчёркивать / акцентировать",
+        "опускать",
+        "уменьшать"
+      ],
+      "correct": "подчёркивать / акцентировать"
+    },
+    {
+      "id": "p4",
+      "word": "evasive",
+      "emoji": "🌫️",
+      "opts": [
+        "прямой",
+        "уклончивый",
+        "честный",
+        "формальный"
+      ],
+      "correct": "уклончивый"
+    },
+    {
+      "id": "p5",
+      "word": "sequence",
+      "emoji": "📋",
+      "opts": [
+        "беспорядок",
+        "последовательность",
+        "результат",
+        "причина"
+      ],
+      "correct": "последовательность"
+    },
+    {
+      "id": "p6",
+      "word": "agent",
+      "emoji": "👤",
+      "opts": [
+        "объект",
+        "агент / исполнитель",
+        "тема",
+        "результат"
+      ],
+      "correct": "агент / исполнитель"
+    }
+  ],
+  "task1Bank": [
+    "process",
+    "passive",
+    "actor",
+    "picked",
+    "myth",
+    "literacy",
+    "news",
+    "intent"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The text says the passive voice is useful for describing a ___ step-by-step.",
+      "correct": "process"
+    },
+    {
+      "id": "t2",
+      "question": "The ___ voice removes the actor from view and focuses on the object.",
+      "correct": "passive"
+    },
+    {
+      "id": "t3",
+      "question": "\"The cotton is picked\" removes the ___ from focus.",
+      "correct": "actor"
+    },
+    {
+      "id": "t4",
+      "question": "\"The cotton is ___.\" — this is an example of passive construction.",
+      "correct": "picked"
+    },
+    {
+      "id": "t5",
+      "question": "The text says there is a common ___ that passive voice is always weak writing.",
+      "correct": "myth"
+    },
+    {
+      "id": "t6",
+      "question": "The text says understanding the passive is a ___ skill.",
+      "correct": "literacy"
+    },
+    {
+      "id": "t7",
+      "question": "Passive constructions appear in ___ reports: \"Three people were injured.\"",
+      "correct": "news"
+    },
+    {
+      "id": "t8",
+      "question": "The text says the difference between good and bad passive use is ___ .",
+      "correct": "intent"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "The passive voice focuses on the person performing the action.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Passive constructions are used in scientific, news, and academic writing.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "\"Mistakes were made\" is an example of a precise and clear passive statement.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "The text says passive voice is always bad or weak writing.",
+      "correct": "false"
+    },
+    {
+      "id": "c5",
+      "statement": "The text compares passive voice to a tool — useful when used appropriately.",
+      "correct": "true"
+    },
+    {
+      "id": "c6",
+      "statement": "The passive is useful when who performs the action is less important than what happened.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Active voice always sounds more \"universal\" than passive voice.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "The \"invisible agent\" is the missing \"by...\" in a passive sentence.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is the passive voice useful for process descriptions?",
+      "opts": [
+        "It sounds more formal",
+        "Who performs each step is less important than the sequence of actions",
+        "It is shorter",
+        "It is easier to write"
+      ],
+      "correct": "Who performs each step is less important than the sequence of actions",
+      "hint": "\"We are usually more interested in the process than in who is performing each step.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the passive construction do compared to the active?",
+      "opts": [
+        "Adds the actor",
+        "Removes the actor and focuses on the object/action",
+        "Makes sentences shorter",
+        "Makes sentences negative"
+      ],
+      "correct": "Removes the actor and focuses on the object/action",
+      "hint": "\"The passive removes the actor from view and focuses attention on the object and the action.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says passive voice is always bad or weak writing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"There is a common myth that passive voice is always 'bad'...\" — it's a myth, not a fact."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Understanding the passive is not just grammar — it is a ___ skill.",
+      "correct": "literacy",
+      "hint": "\"Understanding the passive is not just a grammar exercise. It is a literacy skill.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"Mistakes were made\" (evasive) and good passive use?",
+      "opts": [
+        "Length",
+        "Intent — whether it adds or avoids clarity",
+        "Tense",
+        "Number of words"
+      ],
+      "correct": "Intent — whether it adds or avoids clarity",
+      "hint": "\"The difference is intent.\" — why you chose the passive matters."
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the \"invisible agent\" mentioned in the final paragraph?",
+      "opts": [
+        "A robot in the factory",
+        "The missing \"by whom\" in a passive sentence",
+        "The passive verb itself",
+        "The object of the sentence"
+      ],
+      "correct": "The missing \"by whom\" in a passive sentence",
+      "hint": "\"That invisible agent — the missing 'by...' — is often the most interesting thing of all.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The experiment was conducted and the data was analysed.\" This is:",
+      "opts": [
+        "Active voice",
+        "Passive voice — focus on the process",
+        "Future tense",
+        "Negative form"
+      ],
+      "correct": "Passive voice — focus on the process",
+      "hint": "\"was conducted\" / \"was analysed\" = passive constructions (was/were + past participle)."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The samples were collected.\" The missing agent is:",
+      "opts": [
+        "The samples",
+        "\"were\"",
+        "Who collected them — not stated",
+        "\"collected\""
+      ],
+      "correct": "Who collected them — not stated",
+      "hint": "In a passive sentence, the agent (who did it) is often omitted. The \"invisible agent.\""
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"All products are inspected.\" \"Inspected\" means:",
+      "opts": [
+        "Built",
+        "Looked at carefully to check quality",
+        "Sold",
+        "Designed"
+      ],
+      "correct": "Looked at carefully to check quality",
+      "hint": "\"inspect\" = to look carefully at something to check its quality or condition."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "Passive constructions ___ technical and scientific writing.",
+      "opts": [
+        "avoid",
+        "dominate",
+        "replace",
+        "confuse"
+      ],
+      "correct": "dominate",
+      "hint": "\"Passive constructions dominate technical writing, science, and manufacturing descriptions.\""
+    }
+  ]
+}

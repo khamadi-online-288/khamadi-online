@@ -1,0 +1,584 @@
+{
+  "id": "l21-g2",
+  "moduleNum": 5,
+  "lessonNum": 5,
+  "moduleTitle": "Technology & Communication",
+  "title": "Verbs + infinitive: want / need / like to",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Verbs + to + infinitive vs verbs + -ing",
+  "grammarNote": "Некоторые глаголы в английском ВСЕГДА требуют после себя \"to + инфинитив\", другие — только \"-ing\" форму, а третьи могут использоваться с обеими. Это правило нельзя угадать — его нужно запомнить. Самые важные глаголы для уровня A1.1 — это группа \"want to, need to, like to\" и группа \"enjoy, avoid, mind\".",
+  "grammarTable": [
+    {
+      "subject": "want to",
+      "verb": "+ infinitive",
+      "short": "want to",
+      "example": "I want to learn Python. · She wants to check her email."
+    },
+    {
+      "subject": "need to",
+      "verb": "+ infinitive",
+      "short": "need to",
+      "example": "I need to charge my phone. · He needs to submit the task."
+    },
+    {
+      "subject": "hope to",
+      "verb": "+ infinitive",
+      "short": "hope to",
+      "example": "She hopes to find a tech job. · We hope to improve."
+    },
+    {
+      "subject": "plan to",
+      "verb": "+ infinitive",
+      "short": "plan to",
+      "example": "I plan to reduce my screen time. · He plans to study."
+    },
+    {
+      "subject": "decide to",
+      "verb": "+ infinitive",
+      "short": "decide to",
+      "example": "She decided to use Anki every day. · He decided to call."
+    },
+    {
+      "subject": "forget to",
+      "verb": "+ infinitive",
+      "short": "forget to",
+      "example": "I always forget to turn off notifications. · She forgot."
+    },
+    {
+      "subject": "enjoy",
+      "verb": "+ -ing",
+      "short": "enjoy -ing",
+      "example": "I enjoy watching YouTube. · He enjoys coding."
+    },
+    {
+      "subject": "avoid",
+      "verb": "+ -ing",
+      "short": "avoid -ing",
+      "example": "She avoids using TikTok before bed. · I avoid checking."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Verbs + to + infinitive (verb + to + base)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "want to + verb",
+          "example": "I want to use technology more intentionally."
+        },
+        {
+          "form": "need to + verb",
+          "example": "I need to update my laptop's graphics driver."
+        },
+        {
+          "form": "hope to + verb",
+          "example": "She hopes to get a tech internship next summer."
+        },
+        {
+          "form": "plan to + verb",
+          "example": "I plan to limit my screen time to two hours a day."
+        },
+        {
+          "form": "decide to + verb",
+          "example": "He decided to delete TikTok from his phone."
+        },
+        {
+          "form": "manage to + verb",
+          "example": "She managed to submit the assignment on time."
+        },
+        {
+          "form": "try to + verb",
+          "example": "I try to read before bed instead of scrolling."
+        },
+        {
+          "form": "forget to + verb",
+          "example": "He always forgets to charge his laptop overnight."
+        },
+        {
+          "form": "remember to + verb",
+          "example": "Remember to save your work to the cloud regularly!"
+        },
+        {
+          "form": "learn to + verb",
+          "example": "I want to learn to code in Python this semester."
+        }
+      ]
+    },
+    {
+      "title": "Verbs + -ing form",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "enjoy + -ing",
+          "example": "I enjoy watching programming tutorials on YouTube."
+        },
+        {
+          "form": "avoid + -ing",
+          "example": "She tries to avoid scrolling Instagram in bed."
+        },
+        {
+          "form": "mind + -ing",
+          "example": "I don't mind sharing my screen during calls."
+        },
+        {
+          "form": "keep + -ing",
+          "example": "He keeps forgetting to mute his mic in meetings."
+        },
+        {
+          "form": "finish + -ing",
+          "example": "Finish reading this article before checking your phone."
+        },
+        {
+          "form": "suggest + -ing",
+          "example": "The IT support suggested reconnecting to the Wi-Fi."
+        }
+      ]
+    },
+    {
+      "title": "like / love / hate / prefer — both possible!",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "like to + verb / like + -ing",
+          "example": "I like to listen to music. = I like listening to music. ✅ (both OK)"
+        },
+        {
+          "form": "love to + verb / love + -ing",
+          "example": "She loves to code. = She loves coding. ✅ (both OK)"
+        },
+        {
+          "form": "hate to + verb / hate + -ing",
+          "example": "I hate to wake up early. = I hate waking up early. ✅ (both OK)"
+        },
+        {
+          "form": "prefer to + verb (vs. -ing)",
+          "example": "I prefer to use my laptop rather than my phone for studying."
+        },
+        {
+          "form": "would like to + verb (polite)",
+          "example": "\"I'd like to make an appointment.\" = more polite than \"I want to\"."
+        },
+        {
+          "form": "would prefer to + verb",
+          "example": "\"I'd prefer to study alone, thank you.\""
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ I want study Python.",
+          "example": "✅ I want to study Python. (want → need \"to\"!)"
+        },
+        {
+          "form": "❌ She needs learning more.",
+          "example": "✅ She needs to learn more. (need → always \"to + verb\"!)"
+        },
+        {
+          "form": "❌ I enjoy to watch YouTube.",
+          "example": "✅ I enjoy watching YouTube. (enjoy → always \"-ing\"!)"
+        },
+        {
+          "form": "❌ He avoids to use TikTok.",
+          "example": "✅ He avoids using TikTok. (avoid → always \"-ing\"!)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три группы — запомни их раз и навсегда:\n\n① TO + INFINITIVE: want to · need to · hope to · plan to · decide to · manage to · try to · forget to · remember to · learn to\n   → 'I want TO go. · She needs TO update. · He forgot TO charge.'\n\n② ONLY -ING: enjoy · avoid · mind · keep · finish · suggest\n   → 'I enjoy WATCHING. · She avoids SCROLLING. · He keeps FORGETTING.'\n\n③ BOTH OK: like / love / hate / prefer\n   → 'I like TO code. = I like CODING.' (same meaning!)\n\n💡 Trick: after PREPOSITIONS always use -ing:\n   'good at CODING' · 'tired of SCROLLING' · 'interested in LEARNING'",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "I want ___ reduce my screen time.",
+      "opts": [
+        "reduce",
+        "to reduce",
+        "reducing",
+        "reduced"
+      ],
+      "correct": "to reduce",
+      "hint": "want → always + to + infinitive: I want to reduce."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "I enjoy ___ tutorials on YouTube.",
+      "opts": [
+        "watch",
+        "to watch",
+        "watching",
+        "watched"
+      ],
+      "correct": "watching",
+      "hint": "enjoy → always + -ing: I enjoy watching."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct form.",
+      "text": "She needs ___ (update) her graphics driver this week.",
+      "correct": "to update",
+      "hint": "need → to + infinitive: She needs to update."
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write the correct form.",
+      "text": "He avoids ___ (use) his phone in lectures.",
+      "correct": "using",
+      "hint": "avoid → -ing: He avoids using."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "She decided ___ delete TikTok from her phone.",
+      "opts": [
+        "delete",
+        "to delete",
+        "deleting",
+        "deleted"
+      ],
+      "correct": "to delete",
+      "hint": "decide → to + infinitive: She decided to delete."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "He keeps ___ to mute himself in online meetings!",
+      "opts": [
+        "forget",
+        "to forget",
+        "forgetting",
+        "forgot"
+      ],
+      "correct": "forgetting",
+      "hint": "keep → -ing: He keeps forgetting."
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I enjoy to scroll Instagram\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "enjoy → -ing only! ✅ I enjoy scrolling Instagram."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence has the correct form?",
+      "text": "Choose the correct option.",
+      "opts": [
+        "She hopes study abroad next year.",
+        "She hopes studying abroad next year.",
+        "She hopes to study abroad next year.",
+        "She hopes to studying abroad."
+      ],
+      "correct": "She hopes to study abroad next year.",
+      "hint": "hope → to + infinitive: She hopes to study."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "\"like\" — both forms possible?",
+      "text": "\"I like ___ music when I study.\" Which form is correct?",
+      "opts": [
+        "listen",
+        "to listen only",
+        "listening only",
+        "both to listen and listening"
+      ],
+      "correct": "both to listen and listening",
+      "hint": "like → both forms OK! I like to listen = I like listening. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Write the correct form.",
+      "text": "I try ___ (read) for 30 minutes before bed instead of scrolling.",
+      "correct": "to read",
+      "hint": "try → to + infinitive: I try to read."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Polite request: which is more formal?",
+      "text": "\"I ___ to make an appointment.\" — more polite than \"I want to\".",
+      "opts": [
+        "I'd like",
+        "I need",
+        "I hope",
+        "I decide"
+      ],
+      "correct": "I'd like",
+      "hint": "would like to = more polite than want to. 'I'd like to make an appointment.' ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "After a preposition — which form?",
+      "text": "She is good at ___ — she can write clean code.",
+      "opts": [
+        "code",
+        "to code",
+        "coding",
+        "coded"
+      ],
+      "correct": "coding",
+      "hint": "After prepositions → always -ing: good at CODING · tired of SCROLLING."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I want ___ use technology more intentionally.\"",
+      "opts": [
+        "use",
+        "to use",
+        "using",
+        "used"
+      ],
+      "correct": "to use",
+      "hint": "want → to + infinitive: I want to use."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I enjoy ___ programming tutorials.\"",
+      "opts": [
+        "watch",
+        "to watch",
+        "watching",
+        "watched"
+      ],
+      "correct": "watching",
+      "hint": "enjoy → -ing: I enjoy watching."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "She needs ___ (charge) her phone — battery is at 3%!",
+      "correct": "to charge",
+      "hint": "need → to + infinitive: She needs to charge."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He avoids ___ his phone in bed.\"",
+      "opts": [
+        "use",
+        "to use",
+        "using",
+        "used"
+      ],
+      "correct": "using",
+      "hint": "avoid → -ing: He avoids using."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I enjoy to scroll\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "enjoy → -ing only! I enjoy scrolling. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which verb takes ONLY -ing?",
+      "opts": [
+        "want",
+        "hope",
+        "plan",
+        "enjoy"
+      ],
+      "correct": "enjoy",
+      "hint": "enjoy → always -ing. want/hope/plan → to + infinitive."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I plan ___ (set) a screen time limit of 2 hours.",
+      "correct": "to set",
+      "hint": "plan → to + infinitive: I plan to set."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She decided ___ delete TikTok from her phone.\"",
+      "opts": [
+        "delete",
+        "to delete",
+        "deleting",
+        "deleted"
+      ],
+      "correct": "to delete",
+      "hint": "decide → to + infinitive: She decided to delete."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I like ___ music while I study.\" — correct?",
+      "opts": [
+        "listen only",
+        "to listen only",
+        "listening only",
+        "both to listen and listening"
+      ],
+      "correct": "both to listen and listening",
+      "hint": "like → both forms are correct! I like to listen = I like listening. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He keeps ___ to save his work — he lost 3 hours of code!\"",
+      "opts": [
+        "forget",
+        "to forget",
+        "forgetting",
+        "forgot"
+      ],
+      "correct": "forgetting",
+      "hint": "keep → -ing: He keeps forgetting."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I always forget ___ (turn off) my notifications before class.",
+      "correct": "to turn off",
+      "hint": "forget → to + infinitive: I forget to turn off."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "After a preposition, which form do you use?",
+      "opts": [
+        "base form",
+        "to + infinitive",
+        "-ing form",
+        "past tense"
+      ],
+      "correct": "-ing form",
+      "hint": "After prepositions → always -ing: good at CODING · tired of SCROLLING · interested in LEARNING."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I need ___ submit my assignment by midnight.\"",
+      "opts": [
+        "submit",
+        "to submit",
+        "submitting",
+        "submitted"
+      ],
+      "correct": "to submit",
+      "hint": "need → to + infinitive: I need to submit."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ to see you\" — polite way to say \"I want to see you.\"",
+      "opts": [
+        "I'd like",
+        "I'd enjoy",
+        "I'm hoping",
+        "I'd avoid"
+      ],
+      "correct": "I'd like",
+      "hint": "would like to = more polite version of 'want to'. 'I'd like to see you.' ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I managed to submit the assignment just in time\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "manage → to + infinitive: I managed to submit. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which verb takes ONLY to + infinitive (never -ing)?",
+      "opts": [
+        "like",
+        "hate",
+        "need",
+        "love"
+      ],
+      "correct": "need",
+      "hint": "need → always to + infinitive: I need to go. (never \"I need going\"!)"
+    }
+  ]
+}

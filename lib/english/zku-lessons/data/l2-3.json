@@ -1,0 +1,203 @@
+{
+  "id": "l2-3",
+  "moduleNum": 2,
+  "lessonNum": 3,
+  "moduleTitle": "My family",
+  "title": "have / has",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [],
+  "grammarTitle": "have / has — describing possession",
+  "grammarNote": "Глагол \"have\" означает \"иметь\" и используется для описания того, что у тебя есть: семья, вещи, качества, животные. Важно: с местоимениями He / She / It глагол меняется на \"has\". Это такое же правило, как am/is/are!",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "have",
+      "short": "have",
+      "example": "I have a sister. · We have a big family. · They have a dog."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "has",
+      "short": "has",
+      "example": "She has a brother. · He has a cat. · It has a long tail."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Negative form — don't have / doesn't have",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I / You / We / They + don't have",
+          "example": "I don't have a pet. · We don't have a garden."
+        },
+        {
+          "form": "He / She / It + doesn't have",
+          "example": "She doesn't have a sister. · He doesn't have a car."
+        },
+        {
+          "form": "NEVER: \"She don't has\"",
+          "example": "✗ She don't has a brother. ✓ She doesn't have a brother."
+        }
+      ]
+    },
+    {
+      "title": "Question form — Do / Does",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Do I / you / we / they have...?",
+          "example": "Do you have a brother? — Yes, I do. / No, I don't."
+        },
+        {
+          "form": "Does he / she / it have...?",
+          "example": "Does she have a pet? — Yes, she does. / No, she doesn't."
+        },
+        {
+          "form": "Short answers",
+          "example": "Do they have a garden? — Yes, they do."
+        }
+      ]
+    },
+    {
+      "title": "WH-questions — How many / What",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "How many brothers do you have?",
+          "example": "I have one brother and one sister."
+        },
+        {
+          "form": "What does she have?",
+          "example": "She has a cat and a small dog."
+        },
+        {
+          "form": "How many people does your family have?",
+          "example": "My family has five people."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Запомни: He / She / It → has (не have!)\nТа же логика что и с \"to be\": I am → He is / I have → He has\n\nI have = у меня есть · She has = у неё есть\nI don't have = у меня нет · She doesn't have = у неё нет",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "I ___ two sisters and one brother.",
+      "opts": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "correct": "have",
+      "hint": "I → have. Only He/She/It → has."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "My mother ___ a very stressful job.",
+      "opts": [
+        "have",
+        "has",
+        "am",
+        "is"
+      ],
+      "correct": "has",
+      "hint": "My mother = She → has."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Fill in: have or has.",
+      "text": "Arman and Aizhan ___ the same grandmother.",
+      "correct": "have",
+      "hint": "Arman and Aizhan = They → have."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "She ___ a pet at university.",
+      "opts": [
+        "don't have",
+        "doesn't have",
+        "hasn't",
+        "haven't"
+      ],
+      "correct": "doesn't have",
+      "hint": "She → doesn't have. NEVER \"she don't has\"."
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"He don't have a sister\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "He → He doesn't have a sister. Use \"doesn't have\" with He/She/It."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "___ she have any brothers?",
+      "opts": [
+        "Do",
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correct": "Does",
+      "hint": "She → Does she have...? (not \"Do she have\")"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Make a question. Fill in Do or Does.",
+      "text": "___ your grandparents have a garden?",
+      "correct": "do",
+      "hint": "Grandparents = They → Do they have...? → Do your grandparents have...?"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She have two cats.",
+        "He don't has a car.",
+        "We have a big family.",
+        "My father have a job."
+      ],
+      "correct": "We have a big family.",
+      "hint": "We → have. \"She have\" ✗, \"don't has\" ✗, \"father have\" ✗."
+    }
+  ]
+}

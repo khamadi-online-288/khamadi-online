@@ -1,0 +1,305 @@
+{
+  "id": "l12-5",
+  "moduleNum": 12,
+  "lessonNum": 5,
+  "moduleTitle": "Travel and places",
+  "title": "Prepositions of place",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Предлоги места — где находится предмет?",
+  "grammarNote": "Предлоги места (Prepositions of place) — это слова, которые показывают, ГДЕ находится человек, предмет или место. В казахском языке им соответствуют послелоги (-да/-де/-та/-те для \"в/на\", -дың/-нің жанында для \"рядом с\"). В русском — предлоги \"в\", \"на\", \"у\", \"рядом с\", \"между\", \"напротив\" и другие.\n\nТри самых важных предлога: IN, ON, AT\n\n📍 IN — внутри чего-то, в ограниченном пространстве:\n\"The students are IN the library.\" (студенты внутри здания)\n\"Almaty is IN the south-east of Kazakhstan.\" (город IN стране)\n\"There are flowers IN the garden.\" (цветы IN саду)\n\n📍 ON — на поверхности чего-то, с физическим контактом:\n\"Put your bag ON the desk.\" (сумка лежит ON столе — поверхность)\n\"The café is ON the second floor.\" (кафе ON этаже здания)\n\"We live ON Gogol Street.\" (ON улице — улица как поверхность)\n\n📍 AT — конкретная точка, место или адрес:\n\"We met AT the station.\" (в конкретной точке — станция)\n\"I study AT WKU.\" (в учреждении — AT используем для организаций)\n\"She was AT the bus stop.\" (AT = у конкретного места)\n\n⚠️ ТИПИЧНЫЕ ОШИБКИ казахстанских студентов:\n❌ \"I am in the bus stop.\" → ✅ \"I am AT the bus stop.\"\n❌ \"The book is at the table.\" → ✅ \"The book is ON the table.\"\n❌ \"She lives in 15 Abay Street.\" → ✅ \"She lives AT 15 Abay Street.\" (адрес = AT)\n\n💡 ДРУГИЕ ПРЕДЛОГИ МЕСТА:\nNEXT TO / BESIDE = рядом с (вплотную):\n\"The café is next to the bookshop.\"\n\nBETWEEN = между (двумя вещами):\n\"The mausoleum stands between two old trees.\"\n\nOPPOSITE = напротив (прямо лицом к лицу):\n\"The post office is opposite the park.\"\n\nABOVE = над (выше, но не обязательно касаясь):\n\"The lamp is above the table.\"\n\nBELOW / UNDER = ниже / под:\n\"Put your bag under the seat.\" (под = физически под)\n\"The city is below the mountains.\" (ниже в рельефе)\n\nBEHIND = позади, за:\n\"The bazaar is behind the post office.\"\n\nIN FRONT OF = перед, спереди:\n\"We took photos in front of the cathedral.\"\n\nNEAR = рядом с, недалеко от (расстояние):\n\"The hotel is near the station.\"\n\nAROUND = вокруг:\n\"Children were playing around the fountain.\"",
+  "grammarTable": [
+    {
+      "subject": "IN",
+      "verb": "внутри / в",
+      "short": "закрытое пространство",
+      "example": "\"The students are in the library.\" · \"Almaty is in Kazakhstan.\" · \"There is a map in my bag.\""
+    },
+    {
+      "subject": "ON",
+      "verb": "на поверхности",
+      "short": "контакт с поверхностью",
+      "example": "\"Your keys are on the desk.\" · \"The café is on the second floor.\" · \"We live on Gogol Street.\""
+    },
+    {
+      "subject": "AT",
+      "verb": "у / в конкретной точке",
+      "short": "адрес, организация, место",
+      "example": "\"She is at the bus stop.\" · \"I study at WKU.\" · \"Meet me at the airport.\""
+    },
+    {
+      "subject": "NEXT TO",
+      "verb": "рядом с (вплотную)",
+      "short": "immediate proximity",
+      "example": "\"The shop is next to the café.\" · \"Sit next to me.\" · \"The museum is next to the mausoleum.\""
+    },
+    {
+      "subject": "BETWEEN",
+      "verb": "между (двумя)",
+      "short": "two reference points",
+      "example": "\"The park is between the two avenues.\" · \"I sat between Aibek and Kamila.\""
+    },
+    {
+      "subject": "OPPOSITE",
+      "verb": "напротив",
+      "short": "directly facing",
+      "example": "\"The post office is opposite the park.\" · \"We sat opposite the cathedral.\""
+    },
+    {
+      "subject": "ABOVE / UNDER",
+      "verb": "над / под",
+      "short": "above ↔ below",
+      "example": "\"The lamp is above the table.\" · \"Put your bag under the seat, not on the floor.\""
+    },
+    {
+      "subject": "BEHIND / IN FRONT OF",
+      "verb": "за / перед",
+      "short": "back ↔ front",
+      "example": "\"The bazaar is behind the post office.\" · \"We stood in front of the cathedral.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① IN — внутри пространства, городов, стран, комнат",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "IN + закрытое помещение:",
+          "example": "\"The professor is IN the lecture room.\" · \"There are 50 books IN the bag.\" · \"She waited IN the corridor.\""
+        },
+        {
+          "form": "IN + город / страна / регион:",
+          "example": "\"Almaty is IN Kazakhstan.\" · \"WKU is IN Uralsk.\" · \"The resort is IN the mountains.\" · \"She grew up IN the south.\""
+        },
+        {
+          "form": "IN + комната / здание:",
+          "example": "\"The café is IN the airport building.\" · \"They met IN the library.\" · \"The information desk is IN the corner.\""
+        },
+        {
+          "form": "⚠️ НЕ путай с AT для организаций:",
+          "example": "❌ \"I study in WKU.\" → ✅ \"I study AT WKU.\" (организации, учреждения → AT, не IN!)"
+        },
+        {
+          "form": "IN + части города:",
+          "example": "\"The park is IN the centre of Almaty.\" · \"She lives IN the north of the city.\" · \"The market is IN the old part of town.\""
+        },
+        {
+          "form": "IN + природные места:",
+          "example": "\"They walked IN the park.\" · \"The resort is IN the forest.\" · \"Children played IN the garden.\""
+        }
+      ]
+    },
+    {
+      "title": "② ON — на поверхности, этажах, улицах, транспорте",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "ON + горизонтальная поверхность:",
+          "example": "\"The map is ON the wall.\" · \"Your phone is ON the desk.\" · \"The cat is ON the chair.\""
+        },
+        {
+          "form": "ON + этаж здания:",
+          "example": "\"The departure gates are ON the second floor.\" · \"The café is ON the ground floor.\" · \"My room is ON the third floor.\""
+        },
+        {
+          "form": "ON + улица (название):",
+          "example": "\"We walked ON Zhibek Zholy Street.\" · \"The library is ON Lenin Avenue.\" · \"Turn left ON Abay Street.\""
+        },
+        {
+          "form": "ON + транспорт (открытый/большой):",
+          "example": "\"We were ON the bus.\" · \"She was ON the train to Almaty.\" · \"Fly ON the plane to Astana.\""
+        },
+        {
+          "form": "ON + стены / доски / экраны:",
+          "example": "\"The timetable is ON the board.\" · \"My photo is ON the screen.\" · \"The information is ON the departures board.\""
+        },
+        {
+          "form": "ON + правая / левая сторона:",
+          "example": "\"The library is ON your right.\" · \"The spices are ON the left side of the bazaar.\" · \"The museum is ON the south side.\""
+        }
+      ]
+    },
+    {
+      "title": "③ AT — конкретная точка, адрес, организация, событие",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "AT + организация / учреждение:",
+          "example": "\"I study AT WKU.\" · \"She works AT the hospital.\" · \"He trains AT the sports centre.\""
+        },
+        {
+          "form": "AT + транспортные объекты:",
+          "example": "\"We met AT the station.\" · \"Kamila was AT the airport.\" · \"Wait for me AT the bus stop.\""
+        },
+        {
+          "form": "AT + адрес (номер дома):",
+          "example": "\"She lives AT 42 Gogol Street.\" · \"The office is AT 15 Abay Avenue.\" · \"Meet me AT the main entrance.\""
+        },
+        {
+          "form": "AT + события и мероприятия:",
+          "example": "\"I was AT the conference.\" · \"She is AT a wedding today.\" · \"We met AT the debate competition.\""
+        },
+        {
+          "form": "AT + верх/низ (top/bottom):",
+          "example": "\"There is a fountain AT the bottom of the steps.\" · \"We stood AT the top of the mountain.\" · \"Sign AT the bottom of the page.\""
+        },
+        {
+          "form": "⚠️ IN vs AT для зданий:",
+          "example": "\"I am AT the library\" (= at the location) vs \"I am IN the library\" (= inside the building). Оба правильны — разный акцент!"
+        }
+      ]
+    },
+    {
+      "title": "④ BETWEEN, OPPOSITE, NEXT TO, ABOVE, BEHIND — позиция",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "NEXT TO / BESIDE (рядом с):",
+          "example": "\"Sit next to me.\" · \"The shop is next to the café.\" · \"There is a bus stop next to the park gates.\""
+        },
+        {
+          "form": "BETWEEN (между двумя точками):",
+          "example": "\"The park is between Gogol Street and Kabar Avenue.\" · \"I sat between Aibek and Kamila at dinner.\""
+        },
+        {
+          "form": "OPPOSITE (напротив — лицом к):",
+          "example": "\"The post office is opposite the park.\" · \"We sat opposite each other.\" · \"The mosque is opposite the mausoleum.\""
+        },
+        {
+          "form": "ABOVE vs BELOW (над vs под):",
+          "example": "\"Lamps hang above the stalls.\" (выше, не касается) · \"Your bag is below the seat.\" (ниже) · \"The city is below the mountains.\""
+        },
+        {
+          "form": "BEHIND vs IN FRONT OF (за / перед):",
+          "example": "\"The bazaar is behind the post office.\" · \"We stood in front of the cathedral and took photos.\""
+        },
+        {
+          "form": "NEAR vs AROUND (рядом / вокруг):",
+          "example": "\"The hotel is near the station.\" (недалеко) vs \"Children ran around the fountain.\" (по кругу вокруг)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три шага — и предлог места всегда правильный:\n\n① Задай себе вопрос \"КАК расположен предмет?\":\n   Внутри чего-то? → IN (\"in the bag\", \"in Kazakhstan\")\n   На поверхности? → ON (\"on the desk\", \"on the second floor\")\n   У конкретной точки? → AT (\"at the station\", \"at WKU\")\n\n② Запомни через сцены из урока:\n   Madina was IN Almaty (в городе) ✅\n   She stood IN FRONT OF the cathedral ✅\n   The bazaar is BEHIND the post office ✅\n   The gates are ON the second floor ✅\n   She waited AT the airport ✅\n\n③ Проверь себя — предложения-ловушки:\n   ❌ \"I am in the bus stop.\" → ✅ AT the bus stop\n   ❌ \"The book is at the table.\" → ✅ ON the table\n   ❌ \"She works in the hospital.\" → ✅ AT the hospital (организация!)\n\n💡 Подсказка: если можешь \"войти внутрь\" — скорее всего IN или AT. Если \"лежит сверху\" — ON. Если \"конкретная точка или место встречи\" — AT.",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct preposition of place.",
+      "text": "The WKU library is ___ Uralsk, in the west of Kazakhstan.",
+      "opts": [
+        "at",
+        "on",
+        "in",
+        "above"
+      ],
+      "correct": "in",
+      "hint": "Города, страны, регионы → IN. \"Uralsk is IN the west of Kazakhstan.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Fill in the correct preposition.",
+      "text": "The departure gates are all ___ the second floor — take the stairs after security.",
+      "correct": "on",
+      "hint": "Этажи здания → ON. \"The café is ON the ground floor.\" · \"The gates are ON the second floor.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Kamila waited for Aibek ___ the main entrance of the airport.",
+      "opts": [
+        "in",
+        "on",
+        "at",
+        "between"
+      ],
+      "correct": "at",
+      "hint": "Конкретная точка встречи → AT. \"Meet me AT the entrance.\" · \"Wait AT the bus stop.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The Zenkov Cathedral stands opposite the fountain in Panfilov Park\" means the cathedral and the fountain face each other directly.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "OPPOSITE = напротив, лицом к лицу. \"The post office is opposite the park.\" — они смотрят друг на друга. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Panfilov Park is ___ Gogol Street and Kabar Avenue — one avenue on each side.",
+      "opts": [
+        "opposite",
+        "above",
+        "between",
+        "behind"
+      ],
+      "correct": "between",
+      "hint": "BETWEEN = между двумя вещами. \"The park is BETWEEN two avenues.\" ✅ (Opposite = напротив одного; Between = между двумя!)"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Fill in the correct preposition.",
+      "text": "Damir put his notebook ___ the seat so it would not fall off the train.",
+      "correct": "under",
+      "hint": "Физически ниже, под поверхностью → UNDER. \"Put your bag UNDER the seat.\" ✅ (Below = более общее \"ниже\"; Under = конкретно \"под\".)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Above the market stalls, colourful lamps ___ the ceiling made the whole bazaar feel warm.",
+      "opts": [
+        "in front of",
+        "below",
+        "next to",
+        "above"
+      ],
+      "correct": "above",
+      "hint": "Лампы висели ВЫШЕ над прилавками → ABOVE. \"The lamps were ABOVE the stalls, hanging from the ceiling.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She lives next to the park\" and \"She lives near the park\" mean exactly the same thing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "NEXT TO = вплотную рядом (immediate, touching/adjacent). NEAR = недалеко (some distance away). \"Next to\" ближе, чем \"near\"! They are similar but not identical."
+    }
+  ],
+  "questions": []
+}

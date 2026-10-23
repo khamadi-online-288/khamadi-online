@@ -1,0 +1,89 @@
+{
+  "id": "l29-2",
+  "moduleNum": 13,
+  "lessonNum": 2,
+  "moduleTitle": "Sports & Exercise",
+  "type": "listening",
+  "title": "My Sports Routine",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "⚽",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student, plays football and swims"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🏃",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU student, does yoga and runs"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🎽",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student, starting to exercise more"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "He has played football for the university team for two years.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "She has done yoga since she started university — it helps her stay calm.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "She has not done regular exercise yet, but she wants to start this month.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "He has swum every week since he was ten years old.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "She has run in two local competitions since September.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s6",
+      "text": "She has already joined the WKU fitness club and attended three sessions.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

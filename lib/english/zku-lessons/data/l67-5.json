@@ -1,0 +1,360 @@
+{
+  "id": "l67-5",
+  "moduleNum": 9,
+  "lessonNum": 9,
+  "moduleTitle": "Wishes, Regrets & Hypotheticals",
+  "title": "Module 9 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I wish I ___ the answer to this question right now.\"",
+      "opts": [
+        "know",
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "correct": "knew",
+      "hint": "Wish + past simple = present impossible wish",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"If only she ___ that email — it caused so many problems.\"",
+      "opts": [
+        "didn't send",
+        "hadn't sent",
+        "wouldn't send",
+        "won't send"
+      ],
+      "correct": "hadn't sent",
+      "hint": "If only + past perfect = past regret",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I'd rather you ___ (not/tell) anyone about this conversation.\"",
+      "correct": "didn't tell",
+      "hint": "Would rather + different subject + past simple negative",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It's high time they ___ a decision about the future.\"",
+      "opts": [
+        "make",
+        "made",
+        "will make",
+        "would make"
+      ],
+      "correct": "made",
+      "hint": "It's (high) time + past simple",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the results had been different, we would have continued the project.\" (Formal inverted)",
+      "opts": [
+        "If",
+        "Were",
+        "Had",
+        "Should"
+      ],
+      "correct": "Had",
+      "hint": "Had + subject + pp = inverted past conditional",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ she to leave the company, the entire team would be affected.\" (Formal present hypothetical)",
+      "correct": "Were",
+      "hint": "Were + subject + to-infinitive = formal inverted conditional",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"He speaks as if he ___ everything.\" (He doesn't know everything)",
+      "opts": [
+        "knows",
+        "knew",
+        "had known",
+        "would know"
+      ],
+      "correct": "knew",
+      "hint": "As if + past simple = unreal present comparison",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I wish you ___ making that noise!\" (Annoyance about current habit)",
+      "opts": [
+        "stopped",
+        "had stopped",
+        "would stop",
+        "stop"
+      ],
+      "correct": "would stop",
+      "hint": "Wish + would = annoyance / request for change",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ you need additional information, please contact our office.\" (Formal polite condition)",
+      "correct": "Should",
+      "hint": "Should + subject = formal inverted conditional",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Supposing we ___ the budget — what would we prioritise?\" (future hypothetical)",
+      "opts": [
+        "double",
+        "doubled",
+        "had doubled",
+        "will double"
+      ],
+      "correct": "doubled",
+      "hint": "Supposing + past simple = present/future hypothetical",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the main difference between \"I wish I had done X\" and \"I regret doing X\"?",
+      "opts": [
+        "\"Wish\" is formal; \"regret\" is informal",
+        "\"Wish\" is counterfactual (imagines alternative); \"regret\" is factual",
+        "\"Wish\" is past; \"regret\" is present",
+        "There is no real difference"
+      ],
+      "correct": "\"Wish\" is counterfactual (imagines alternative); \"regret\" is factual",
+      "hint": "Key concept from Listening 3B / Reading 1",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"What if they ___ the problem earlier?\" (= They didn't notice it — past hypothetical)",
+      "opts": [
+        "noticed",
+        "had noticed",
+        "notice",
+        "would notice"
+      ],
+      "correct": "had noticed",
+      "hint": "What if + past perfect = past hypothetical",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ I had listened to that advice, I would not be in this situation now.\" (Mixed conditional — formal inverted)",
+      "correct": "Had",
+      "hint": "Had + subject + pp = inverted past conditional",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "In the context of regret, \"in hindsight\" means…",
+      "opts": [
+        "thinking ahead carefully",
+        "understanding only after the event",
+        "at the same time as the event",
+        "planning before the event"
+      ],
+      "correct": "understanding only after the event",
+      "hint": "\"In hindsight, everything is obvious\"",
+      "points": 1
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"We idealise the roads not taken\" means…",
+      "opts": [
+        "We plan alternative routes carefully",
+        "We imagine unchosen paths as better than they might have been",
+        "We regret every choice we make",
+        "We travel different roads as often as possible"
+      ],
+      "correct": "We imagine unchosen paths as better than they might have been",
+      "hint": "From Listening 3 dialogue",
+      "points": 1
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She looked as though she ___ (just see) something terrible.\"",
+      "correct": "had just seen",
+      "hint": "As though + past perfect for unreal past comparison",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It would ___ preferable to consult the team first.\" (Expresses regret without assigning blame)",
+      "opts": [
+        "be",
+        "have been",
+        "been",
+        "being"
+      ],
+      "correct": "have been",
+      "hint": "\"It would have been preferable to…\" = regret without blame",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ you could change one decision in your life — what would it be?\" (Hypothetical invitation)",
+      "opts": [
+        "Although",
+        "Unless",
+        "Imagine",
+        "Despite"
+      ],
+      "correct": "Imagine",
+      "hint": "\"Imagine\" introduces hypothetical scenarios",
+      "points": 2
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I'd rather ___ (stay) at home than go to the party tonight.\" (Same subject preference)",
+      "correct": "stay",
+      "hint": "Would rather + bare infinitive (same subject)",
+      "points": 2
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "reading",
+      "text": "A \"counterfactual\" statement describes…",
+      "opts": [
+        "What actually happened",
+        "What might have happened under different conditions",
+        "What will happen in the future",
+        "What is happening now"
+      ],
+      "correct": "What might have happened under different conditions",
+      "hint": "Para 1 of Reading 1: \"contrary to fact\"",
+      "points": 1
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"If only I ___ harder at school — things would be different.\" (Past regret, strong emotion)",
+      "opts": [
+        "worked",
+        "had worked",
+        "would work",
+        "work"
+      ],
+      "correct": "had worked",
+      "hint": "If only + past perfect = intense past regret",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The ability to make something seem better than it is = to ___ it.",
+      "correct": "idealise",
+      "hint": "\"We idealise the roads not taken\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the most formal way to express a past conditional?",
+      "opts": [
+        "If they had checked, the error would have been caught.",
+        "If only they had checked!",
+        "Had they checked, the error would have been caught.",
+        "They should have checked."
+      ],
+      "correct": "Had they checked, the error would have been caught.",
+      "hint": "Inverted conditional = most formal register",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"I'd rather you hadn't mentioned that\" uses the past perfect to express a preference about the past.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Would rather + subject + past perfect = past preference/regret",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "If something is \"evasive,\" it…",
+      "opts": [
+        "Directly addresses a problem",
+        "Avoids a direct answer or acknowledgement",
+        "Is extremely emotional",
+        "Is too formal"
+      ],
+      "correct": "Avoids a direct answer or acknowledgement",
+      "hint": "From Listening 3B lecture",
+      "points": 1
+    }
+  ]
+}

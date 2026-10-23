@@ -1,0 +1,556 @@
+{
+  "id": "l49-g2",
+  "moduleNum": 15,
+  "lessonNum": 4,
+  "moduleTitle": "Things Being Done",
+  "type": "grammar",
+  "title": "Passive vs Active: When to Use Each",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Passive vs Active — Choosing the Right Voice",
+  "grammarNote": "Выбор между активным и страдательным залогом — это вопрос акцента. Активный залог (active voice) акцентирует исполнителя действия: \"Kamila wrote the essay.\" Страдательный залог (passive voice) акцентирует объект и само действие: \"The essay was written.\" Правильный выбор зависит от контекста: что важнее — КТО или ЧТО?",
+  "grammarTable": [
+    {
+      "subject": "Active voice",
+      "verb": "subject + verb + object",
+      "short": "акцент на исполнителе",
+      "example": "\"Kamila WROTE the essay.\" — We focus on Kamila (the writer)."
+    },
+    {
+      "subject": "Passive voice",
+      "verb": "object + be + pp",
+      "short": "акцент на действии/объекте",
+      "example": "\"The essay WAS WRITTEN.\" — We focus on the essay (the result)."
+    },
+    {
+      "subject": "Use active when:",
+      "verb": "actor is the focus",
+      "short": "who matters",
+      "example": "\"Darwin proposed the theory.\" (Darwin's role = important!)"
+    },
+    {
+      "subject": "Use passive when:",
+      "verb": "action/result is focus",
+      "short": "what matters",
+      "example": "\"The theory was first proposed in 1859.\" (history, not person)"
+    },
+    {
+      "subject": "Unknown actor:",
+      "verb": "passive best",
+      "short": "we don't know",
+      "example": "\"The window was broken.\" (we don't know who — passive natural)"
+    },
+    {
+      "subject": "Obvious actor:",
+      "verb": "passive common",
+      "short": "everyone knows",
+      "example": "\"The president was elected.\" (voters = obvious; not worth stating)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "When passive is the natural choice",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Unknown agent",
+          "example": "\"My bike was stolen last night.\" (we don't know who — passive is the only natural option)"
+        },
+        {
+          "form": "Unimportant agent",
+          "example": "\"The road was repaired.\" (workers repaired it, but who exactly doesn't matter)"
+        },
+        {
+          "form": "Scientific / process",
+          "example": "\"The sample was heated to 100°C.\" (the scientist's identity is irrelevant)"
+        },
+        {
+          "form": "News / official notices",
+          "example": "\"Three people were arrested.\" / \"Your application has been received.\""
+        },
+        {
+          "form": "Formal academic writing",
+          "example": "\"It was found that...\" / \"The data was collected from three sources.\""
+        }
+      ]
+    },
+    {
+      "title": "When active is the natural choice",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Agent is important / interesting",
+          "example": "\"Einstein developed the theory of relativity.\" (Einstein = important!)"
+        },
+        {
+          "form": "Personal writing / narrative",
+          "example": "\"I met her in the library.\" NOT \"She was met by me in the library.\" ✗"
+        },
+        {
+          "form": "Casual / everyday conversation",
+          "example": "\"We need to fix this.\" NOT \"This needs to be fixed by us.\" ✗"
+        },
+        {
+          "form": "When passive sounds evasive",
+          "example": "\"Mistakes were made.\" (Who? passive hides this) → ✅ \"We made mistakes.\""
+        }
+      ]
+    },
+    {
+      "title": "The \"by agent\" — when to include it",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Include \"by\" when agent is surprising / important",
+          "example": "\"The building was designed by a 22-year-old student.\" (surprising — worth mentioning!)"
+        },
+        {
+          "form": "Omit \"by\" when agent is obvious",
+          "example": "\"The president was elected.\" → not \"...by voters\" (everyone knows)"
+        },
+        {
+          "form": "Omit \"by\" when agent is unknown",
+          "example": "\"My phone was stolen.\" → not \"...by someone unknown.\" (unnecessary)"
+        },
+        {
+          "form": "Omit \"by\" in process descriptions",
+          "example": "\"The cotton is picked, washed, and dried.\" (no need to say by whom at each step)"
+        }
+      ]
+    },
+    {
+      "title": "Transforming active ↔ passive",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "Active → Passive",
+          "example": "\"Zarina annotated the books.\" → \"The books were annotated by Zarina.\""
+        },
+        {
+          "form": "Passive → Active",
+          "example": "\"The bridge was built in 1850.\" → \"Workers built the bridge in 1850.\""
+        },
+        {
+          "form": "Present → Past (passive)",
+          "example": "\"The data is collected.\" → \"The data was collected.\""
+        },
+        {
+          "form": "Modal passive",
+          "example": "\"We must check this.\" → \"This must be checked.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Активный vs Страдательный — вопрос АКЦЕНТА:\n\n✅ Активный — когда важен исполнитель:\n\"Darwin proposed the theory.\" (Дарвин = важная фигура)\n\n✅ Страдательный — когда важен объект/результат:\n\"The theory was first proposed in 1859.\"\n\n✅ Страдательный — когда исполнитель неизвестен:\n\"My laptop was stolen.\" (не знаем кто)\n\n✅ Страдательный — в научном и официальном стиле:\n\"The experiment was conducted three times.\"\n\n⚠️ Избегай страдательного без причины:\n✗ \"The essay was written by me.\" (зачем прятать себя?)\n✅ \"I wrote the essay.\" (естественнее и честнее)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Active or passive — which is more natural?",
+      "text": "\"My phone ___ last night.\" (steal)",
+      "opts": [
+        "Someone stole my phone.",
+        "My phone was stolen.",
+        "My phone stole.",
+        "I stolen my phone."
+      ],
+      "correct": "My phone was stolen.",
+      "hint": "Unknown agent → passive is the most natural. \"My phone WAS STOLEN.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose active or passive.",
+      "text": "\"___ the theory of relativity.\"",
+      "opts": [
+        "The theory of relativity was developed by Einstein.",
+        "Einstein developed the theory of relativity.",
+        "Both are equally natural.",
+        "The theory was by Einstein developed."
+      ],
+      "correct": "Both are equally natural.",
+      "hint": "Both are correct! Einstein = important (active ✅). If you want to focus on the theory (not Einstein), passive ✅ too."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Convert to passive.",
+      "text": "\"Workers repair the road every year.\" → \"___ every year.\"",
+      "opts": [
+        "The road is repaired every year.",
+        "The road repairs every year.",
+        "The road was repaired every year.",
+        "The road repaired every year."
+      ],
+      "correct": "The road is repaired every year.",
+      "hint": "Present active → Present passive: \"The road IS REPAIRED every year.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She was met by me in the library.\" is more natural than \"I met her in the library.\"",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "In personal narrative, active is more natural. \"I met her in the library.\" ✅ is cleaner. \"She was met by me\" sounds unnatural."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Should you include \"by workers\" in this sentence?",
+      "text": "\"The road ___ repaired. (Do you need \"by workers\"?)\"",
+      "opts": [
+        "Yes — always include \"by + agent\"",
+        "No — agent is obvious/unimportant; omit it",
+        "Only in formal writing",
+        "Only in spoken English"
+      ],
+      "correct": "No — agent is obvious/unimportant; omit it",
+      "hint": "When the agent is obvious (of course workers fix roads!), omit \"by workers\". Just: \"The road is repaired.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which situation calls for passive?",
+      "text": "\"Someone broke my window.\" → Better as passive:",
+      "opts": [
+        "Someone broke my window.",
+        "My window was broken.",
+        "My window is breaking.",
+        "I broke my window."
+      ],
+      "correct": "My window was broken.",
+      "hint": "Unknown agent → passive natural. \"My window WAS BROKEN.\" ✅ (we don't know who)"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Convert active → passive.",
+      "text": "\"We must check all documents.\" → \"All documents ___ .\"",
+      "correct": "must be checked",
+      "hint": "Modal passive: \"All documents MUST BE CHECKED.\" ✅ (must + be + past participle)"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "In scientific writing, which is more common?",
+      "text": "\"We heated the sample to 100°C.\" vs \"The sample was heated to 100°C.\"",
+      "opts": [
+        "Both equally common",
+        "\"We heated\" — more natural in scientific writing",
+        "\"The sample was heated\" — passive more common in scientific texts",
+        "\"We heated\" — passive is always wrong"
+      ],
+      "correct": "\"The sample was heated\" — passive more common in scientific texts",
+      "hint": "In scientific writing, passive is standard. The scientist's identity is usually irrelevant. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "When should you include \"by + agent\"?",
+      "text": "\"___ by a 22-year-old student.\" — Should \"by\" be included?",
+      "opts": [
+        "No — never include \"by\"",
+        "Yes — the agent is surprising and worth mentioning",
+        "Only in past passive",
+        "Only in academic writing"
+      ],
+      "correct": "Yes — the agent is surprising and worth mentioning",
+      "hint": "Include \"by + agent\" when it is surprising or important. \"Designed BY a 22-year-old student\" = surprising! ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which sentence is evasive?",
+      "text": "Choose the evasive passive sentence.",
+      "opts": [
+        "\"The experiment was conducted three times.\"",
+        "\"Three people were injured.\"",
+        "\"Mistakes were made.\" (without naming who)",
+        "\"The results have been published.\""
+      ],
+      "correct": "\"Mistakes were made.\" (without naming who)",
+      "hint": "\"Mistakes were made\" deliberately hides who made them — this is evasive use of the passive."
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Convert to active voice.",
+      "text": "\"The essay was written by Kamila.\" → \"Kamila ___ the essay.\"",
+      "correct": "wrote",
+      "hint": "\"Kamila WROTE the essay.\" — active voice, past simple. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "For a news report, which is more natural?",
+      "text": "\"The journalist wrote a report.\" vs \"A report was written by the journalist.\"",
+      "opts": [
+        "Both equally natural for news",
+        "\"A report was written by the journalist.\" — passive is standard in news",
+        "\"The journalist wrote a report.\" — active is more natural",
+        "Neither is correct for news"
+      ],
+      "correct": "\"The journalist wrote a report.\" — active is more natural",
+      "hint": "In news, active is more engaging: \"The journalist WROTE a report.\" ✅. Passive \"A report was written by the journalist\" sounds awkward and overly formal."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When is passive voice most appropriate?",
+      "opts": [
+        "When you want to hide the action",
+        "When the result/action matters more than who did it",
+        "In all formal writing",
+        "When the subject is plural"
+      ],
+      "correct": "When the result/action matters more than who did it",
+      "hint": "Passive emphasises the action/result over the actor."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Darwin proposed the theory.\" — Why active here?",
+      "opts": [
+        "Past tense only works with active",
+        "\"Darwin\" is not important",
+        "Darwin is important — active highlights him",
+        "The sentence is too short for passive"
+      ],
+      "correct": "Darwin is important — active highlights him",
+      "hint": "When the agent is important and interesting, active voice highlights them better."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"My car was stolen.\" — Why passive?",
+      "opts": [
+        "The car is the subject",
+        "We don't know who stole it — passive is natural",
+        "Active: \"Someone stole my car\" sounds wrong",
+        "\"Stolen\" is an adjective"
+      ],
+      "correct": "We don't know who stole it — passive is natural",
+      "hint": "Unknown agent → passive is the natural choice. \"My car WAS STOLEN.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Convert to passive: \"Workers repaired the road.\"",
+      "opts": [
+        "The road was repaired.",
+        "The road is repaired.",
+        "The road repaired.",
+        "Repaired the road."
+      ],
+      "correct": "The road was repaired.",
+      "hint": "\"Workers repaired (past active)\" → \"The road WAS REPAIRED.\" (past passive)"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The president was elected.\" — Why is \"by voters\" omitted?",
+      "opts": [
+        "It's grammatically wrong",
+        "Voters are obvious — everyone knows who elects presidents",
+        "\"By\" is always optional",
+        "Elections use different grammar"
+      ],
+      "correct": "Voters are obvious — everyone knows who elects presidents",
+      "hint": "When the agent is obvious, omit \"by + agent\". No need to state the obvious. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I wrote the essay.\" — Is \"The essay was written by me\" better?",
+      "opts": [
+        "Yes — passive is always more formal",
+        "No — in personal writing, active is more natural",
+        "Yes — \"by me\" is important information",
+        "They are identical in meaning and style"
+      ],
+      "correct": "No — in personal writing, active is more natural",
+      "hint": "In personal writing and narrative, active voice is cleaner. \"I wrote the essay.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The sample was heated to 100°C.\" — Why passive in a science report?",
+      "opts": [
+        "The scientist's name is always irrelevant",
+        "Scientific writing focuses on the process, not the person",
+        "It's a grammar rule",
+        "\"Heated\" is always passive"
+      ],
+      "correct": "Scientific writing focuses on the process, not the person",
+      "hint": "Science writing uses passive because the method/result matters more than who specifically did it."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Mistakes were made.\" is an example of clear, precise passive writing.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Mistakes were made\" is EVASIVE passive — it deliberately hides who made them."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We must check this.\" → Passive:",
+      "opts": [
+        "This was checked.",
+        "This is checked.",
+        "This must be checked.",
+        "This checked must."
+      ],
+      "correct": "This must be checked.",
+      "hint": "Modal passive: modal + BE + past participle. \"This MUST BE CHECKED.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When should you include \"by + agent\"?",
+      "opts": [
+        "Always",
+        "Never",
+        "When the agent is surprising, interesting, or important",
+        "Only in past tense"
+      ],
+      "correct": "When the agent is surprising, interesting, or important",
+      "hint": "Include \"by + agent\" when it adds value. Omit it when obvious or unknown."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The theory was proposed by Darwin.\" → Active:",
+      "opts": [
+        "Darwin proposed the theory.",
+        "The theory proposed Darwin.",
+        "Darwin was proposing the theory.",
+        "Proposed the theory."
+      ],
+      "correct": "Darwin proposed the theory.",
+      "hint": "Active: \"Darwin PROPOSED the theory.\" — the passive subject (the theory) becomes the object. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Three people were arrested.\" — This is used in:",
+      "opts": [
+        "Personal narratives",
+        "Science reports",
+        "News reports",
+        "Academic definitions"
+      ],
+      "correct": "News reports",
+      "hint": "News uses passive to focus on the event and victim/subject: \"Three people were arrested.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The road ___ every autumn.\" (repair — present passive)",
+      "correct": "is repaired",
+      "hint": "Present passive: \"The road IS REPAIRED every autumn.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "In a process description of how bread is made, which is more natural?",
+      "opts": [
+        "Bakers mix the dough. Bakers put it in the oven...",
+        "The dough is mixed. It is put in the oven...",
+        "Both are equally natural",
+        "Neither is correct"
+      ],
+      "correct": "The dough is mixed. It is put in the oven...",
+      "hint": "Process descriptions use passive — the baker's identity doesn't change with each step. Passive reads more naturally. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The building was designed by a 22-year-old.\" — Why include \"by a 22-year-old\"?",
+      "opts": [
+        "Because you must always include the agent",
+        "The young age is surprising — worth mentioning",
+        "To make the sentence longer",
+        "The passive requires \"by\""
+      ],
+      "correct": "The young age is surprising — worth mentioning",
+      "hint": "\"By a 22-year-old\" is surprising! Including the agent here adds interesting information. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is in active voice and most natural for personal narrative?",
+      "opts": [
+        "\"A library was visited by me.\"",
+        "\"I visited the library.\"",
+        "\"The library has been visited.\"",
+        "\"The library was visited.\""
+      ],
+      "correct": "\"I visited the library.\"",
+      "hint": "\"I visited the library.\" ✅ — active voice is most natural for personal narrative. \"A library was visited by me\" is awkward."
+    }
+  ]
+}

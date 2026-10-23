@@ -1,0 +1,550 @@
+{
+  "id": "l62-2",
+  "moduleNum": 4,
+  "lessonNum": 2,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "reading",
+  "title": "How Discoveries Are Made: The Passive Voice in Science",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "In 1928, a petri dish was left near an open window in a London laboratory. Penicillin was not invented — it was discovered. A mould had grown on the dish, and bacteria around the mould had been killed. Alexander Fleming noticed what had happened. From this accidental observation, a drug was developed that would go on to save hundreds of millions of lives. The passive voice dominates this story for a reason: the discovery was made by circumstances as much as by any individual, and the passive allows the narrative to reflect this.",
+    "Scientific writing has used passive voice as its default register for well over a century, and the reasons are deeply embedded in the philosophy of scientific knowledge. Science claims to produce objective, reproducible findings — findings that are true regardless of who produced them. When a chemist writes \"the solution was heated to 80°C,\" the identity of the chemist is irrelevant. What matters is that the solution was heated, to that temperature, in that way. The passive construction makes this epistemological claim visible in the grammar itself.",
+    "This does not mean all passive is appropriate in all scientific contexts. The style conventions of scientific writing have been shifting, particularly in recent decades. Many journals now actively encourage active voice in sections where the researcher's choices are the focus: \"We designed the experiment to test three hypotheses.\" \"We chose to include rural populations in the sample.\" Here, the first person active acknowledges that these were decisions — choices made by specific researchers — rather than procedures that simply happened.",
+    "A common complaint about passive voice in academic writing is that it is used to obscure accountability. \"The data was misinterpreted.\" \"The results were inadequately reported.\" \"The conflict of interest was not disclosed.\" Each of these passives hides the agent who made the error. Critics argue that this kind of passive is a mechanism of institutional self-protection — a way of acknowledging that something went wrong while avoiding the assignment of individual responsibility.",
+    "The passive is also central to how scientific consensus is communicated: \"It has been established that smoking causes cancer.\" \"It has been demonstrated that sleep deprivation impairs cognitive function.\" \"It is now widely accepted that climate change is human-caused.\" These impersonal passive constructions — it has been shown, it is believed, it has been confirmed — allow scientists to invoke the authority of a community of evidence rather than making a personal claim. The grammar performs the collective nature of scientific knowledge.",
+    "For students at B1 level, the practical implication is this: learn to read passive constructions not just grammatically but epistemically. When you read \"it has been suggested that X,\" ask: by whom? With what evidence? With what degree of certainty? The passive construction is not merely a choice of form — it is a choice of how to present knowledge, and knowledge presented differently carries different authority, different certainty, and different political implications.",
+    "The discovery of penicillin was not a single moment. It was a process — involving Fleming's observation, subsequent laboratory work by others, clinical trials, manufacturing innovations, and distribution decisions. Each of these stages can be narrated in passive: \"the compound was isolated, was tested, was approved, was manufactured, was distributed.\" The passive traces the journey of an object — the drug — through the processes that made it what it eventually became."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "I read that scientific journals are now encouraging active voice. But my ecology supervisor wants passive. Who's right?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Both, in different sections. For methods: passive — \"samples were collected, data was processed.\" For interpretation: active — \"we argue that X.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "So passive for the procedure, active for the argument?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Exactly. Passive says: here's what happened, objectively. Active says: here's what we think it means.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What about when passive hides errors — like \"the data was misinterpreted\"?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's the political use. The passive removes the agent and diffuses accountability. Which is why it gets criticised.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "So knowing passive well means knowing when NOT to use it too.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes. Passive is a precision tool. Using it without thinking is just as bad as avoiding it entirely.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "epistemological",
+      "ru": "эпистемологический",
+      "context": "\"Epistemological claim.\" = a claim about the nature and source of knowledge."
+    },
+    {
+      "phrase": "reproducible",
+      "ru": "воспроизводимый",
+      "context": "\"Reproducible findings.\" = results that can be replicated by other scientists."
+    },
+    {
+      "phrase": "register",
+      "ru": "регистр (стиль речи)",
+      "context": "\"Default register of scientific writing.\" = the typical style or level of language used."
+    },
+    {
+      "phrase": "obscure",
+      "ru": "скрывать / затушёвывать",
+      "context": "\"Used to obscure accountability.\" = to make something less clear or hide it."
+    },
+    {
+      "phrase": "consensus",
+      "ru": "консенсус / единое мнение",
+      "context": "\"Scientific consensus.\" = general agreement among scientists based on evidence."
+    },
+    {
+      "phrase": "invokes",
+      "ru": "призывает / ссылается на",
+      "context": "\"Invokes the authority of evidence.\" = calls upon or refers to for support."
+    },
+    {
+      "phrase": "epistemically",
+      "ru": "с точки зрения знания",
+      "context": "\"Read not just grammatically but epistemically.\" = thinking about the nature of the knowledge."
+    },
+    {
+      "phrase": "accountability",
+      "ru": "подотчётность",
+      "context": "\"Avoid the assignment of individual accountability.\" = being responsible and answerable."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "reproducible",
+      "ipa": "/ˌriːprəˈdjuːsɪbl/",
+      "pos": "adjective",
+      "ru": "воспроизводимый",
+      "kz": "қайталануы мүмкін",
+      "emoji": "🔁",
+      "definition": "able to be repeated with the same results",
+      "example": "\"Reproducible findings\" — results that hold true regardless of who runs the experiment.",
+      "collocations": [
+        "reproducible results",
+        "reproducible study",
+        "fully reproducible"
+      ]
+    },
+    {
+      "en": "obscure",
+      "ipa": "/əbˈskjʊər/",
+      "pos": "verb",
+      "ru": "скрывать / затушёвывать",
+      "kz": "бүркемелеу",
+      "emoji": "🌫️",
+      "definition": "to make difficult to see or understand; to hide",
+      "example": "\"Passive is used to obscure accountability.\" — it hides who made the error.",
+      "collocations": [
+        "obscure the truth",
+        "deliberately obscure",
+        "obscure accountability"
+      ]
+    },
+    {
+      "en": "accountability",
+      "ipa": "/əˌkaʊntəˈbɪlɪti/",
+      "pos": "noun",
+      "ru": "подотчётность",
+      "kz": "жауапкершілік",
+      "emoji": "⚖️",
+      "definition": "being responsible and required to explain your actions",
+      "example": "\"A way of avoiding individual accountability.\" — passive hides who is responsible.",
+      "collocations": [
+        "hold accountable",
+        "lack of accountability",
+        "demand accountability"
+      ]
+    },
+    {
+      "en": "consensus",
+      "ipa": "/kənˈsensəs/",
+      "pos": "noun",
+      "ru": "консенсус / единое мнение",
+      "kz": "келісім",
+      "emoji": "🤝",
+      "definition": "general agreement among a group",
+      "example": "\"Scientific consensus.\" — what the scientific community broadly agrees on.",
+      "collocations": [
+        "scientific consensus",
+        "reach a consensus",
+        "broad consensus"
+      ]
+    },
+    {
+      "en": "compound",
+      "ipa": "/ˈkɒmpaʊnd/",
+      "pos": "noun",
+      "ru": "соединение / вещество",
+      "kz": "қосылыс",
+      "emoji": "⚗️",
+      "definition": "a substance formed from two or more elements chemically united",
+      "example": "\"The compound was isolated, tested, approved, manufactured.\" — penicillin's journey.",
+      "collocations": [
+        "chemical compound",
+        "natural compound",
+        "isolate a compound"
+      ]
+    },
+    {
+      "en": "epistemology",
+      "ipa": "/ɪˌpiːstɪˈmɒlədʒi/",
+      "pos": "noun",
+      "ru": "эпистемология",
+      "kz": "эпистемология",
+      "emoji": "🔬",
+      "definition": "the branch of philosophy concerned with the nature and extent of knowledge",
+      "example": "\"Epistemological claim.\" — about how we know what we know and what counts as knowledge.",
+      "collocations": [
+        "epistemological question",
+        "epistemological claim",
+        "theory of epistemology"
+      ]
+    },
+    {
+      "en": "mould",
+      "ipa": "/məʊld/",
+      "pos": "noun",
+      "ru": "плесень",
+      "kz": "зең",
+      "emoji": "🍄",
+      "definition": "a fungus that grows on damp surfaces",
+      "example": "\"A mould had grown on the dish.\" — Fleming's famous penicillin discovery.",
+      "collocations": [
+        "mould grew",
+        "penicillin mould",
+        "bread mould"
+      ]
+    },
+    {
+      "en": "impairs",
+      "ipa": "/ɪmˈpeərz/",
+      "pos": "verb",
+      "ru": "нарушает / ухудшает",
+      "kz": "нашарлатады",
+      "emoji": "⬇️",
+      "definition": "to weaken or damage the ability to do something",
+      "example": "\"Sleep deprivation impairs cognitive function.\" — damages the ability to think.",
+      "collocations": [
+        "impair performance",
+        "impair judgment",
+        "seriously impair"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "reproducible",
+      "emoji": "🔁",
+      "opts": [
+        "случайный",
+        "воспроизводимый",
+        "уникальный",
+        "сомнительный"
+      ],
+      "correct": "воспроизводимый"
+    },
+    {
+      "id": "p2",
+      "word": "obscure",
+      "emoji": "🌫️",
+      "opts": [
+        "раскрывать",
+        "скрывать / затушёвывать",
+        "объяснять",
+        "поддерживать"
+      ],
+      "correct": "скрывать / затушёвывать"
+    },
+    {
+      "id": "p3",
+      "word": "accountability",
+      "emoji": "⚖️",
+      "opts": [
+        "безнаказанность",
+        "подотчётность",
+        "гибкость",
+        "авторитет"
+      ],
+      "correct": "подотчётность"
+    },
+    {
+      "id": "p4",
+      "word": "consensus",
+      "emoji": "🤝",
+      "opts": [
+        "разногласие",
+        "консенсус / единое мнение",
+        "мнение",
+        "правило"
+      ],
+      "correct": "консенсус / единое мнение"
+    },
+    {
+      "id": "p5",
+      "word": "impairs",
+      "emoji": "⬇️",
+      "opts": [
+        "улучшает",
+        "нарушает / ухудшает",
+        "изменяет",
+        "измеряет"
+      ],
+      "correct": "нарушает / ухудшает"
+    },
+    {
+      "id": "p6",
+      "word": "compound",
+      "emoji": "⚗️",
+      "opts": [
+        "элемент",
+        "соединение / вещество",
+        "смесь",
+        "вирус"
+      ],
+      "correct": "соединение / вещество"
+    }
+  ],
+  "task1Bank": [
+    "1928",
+    "objective",
+    "shifting",
+    "obscure",
+    "it has been",
+    "epistemically",
+    "penicillin",
+    "individuals"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "In ___, a petri dish was left near an open window by accident.",
+      "correct": "1928"
+    },
+    {
+      "id": "t2",
+      "question": "Science uses passive because it claims to produce ___ findings.",
+      "correct": "objective"
+    },
+    {
+      "id": "t3",
+      "question": "The style conventions of scientific writing have been ___ recently.",
+      "correct": "shifting"
+    },
+    {
+      "id": "t4",
+      "question": "Passive can be used to ___ accountability when errors occur.",
+      "correct": "obscure"
+    },
+    {
+      "id": "t5",
+      "question": "\"___ established / demonstrated / suggested\" = impersonal passive for scientific consensus.",
+      "correct": "it has been"
+    },
+    {
+      "id": "t6",
+      "question": "The text says students should read passive constructions ___ , not just grammatically.",
+      "correct": "epistemically"
+    },
+    {
+      "id": "t7",
+      "question": "The discovery of ___ was traced through passive voice: isolated, tested, approved, manufactured.",
+      "correct": "penicillin"
+    },
+    {
+      "id": "t8",
+      "question": "The passive allows the discovery story to reflect that circumstances mattered as much as ___ .",
+      "correct": "individuals"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Fleming invented penicillin deliberately in a controlled experiment.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Science uses passive to show findings are true regardless of who produced them.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "All scientific writing now uses active voice exclusively.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Active voice is now encouraged in some scientific sections — especially interpretation.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Passive is always used to hide responsibility in academic writing.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "\"It has been established that...\" invokes community evidence rather than individual claims.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Zhibek concludes that passive should never be used in ecology writing.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Amir says passive says \"here's what happened objectively\" while active says \"here's what we think.\"",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does the penicillin story use passive voice throughout?",
+      "opts": [
+        "It's more dramatic",
+        "The discovery was made by circumstances as much as any individual",
+        "Fleming preferred passive",
+        "Passive is always used in history"
+      ],
+      "correct": "The discovery was made by circumstances as much as any individual",
+      "hint": "\"The discovery was made by circumstances as much as by any individual, and the passive allows the narrative to reflect this.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What epistemological claim does passive grammar make in science?",
+      "opts": [
+        "Only experts can do science",
+        "The finding is true regardless of who produced it",
+        "All scientists agree",
+        "The method was wrong"
+      ],
+      "correct": "The finding is true regardless of who produced it",
+      "hint": "\"Science claims to produce objective, reproducible findings — findings that are true regardless of who produced them.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where do journals now encourage active voice?",
+      "opts": [
+        "Methods sections",
+        "Interpretation sections where researcher choices matter",
+        "Abstract sections",
+        "Reference sections"
+      ],
+      "correct": "Interpretation sections where researcher choices matter",
+      "hint": "\"Many journals encourage active voice in sections where the researcher's choices are the focus: 'We designed the experiment...'\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The data was misinterpreted.\" — Critics argue this passive:",
+      "opts": [
+        "Is grammatically incorrect",
+        "Hides who made the error — a mechanism of institutional self-protection",
+        "Is too formal",
+        "Should use active voice for clarity only"
+      ],
+      "correct": "Hides who made the error — a mechanism of institutional self-protection",
+      "hint": "\"A way of acknowledging that something went wrong while avoiding the assignment of individual responsibility.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It has been ___ that smoking causes cancer.\" (scientific consensus)",
+      "correct": "established",
+      "hint": "\"It has been ESTABLISHED that smoking causes cancer.\" — impersonal passive for consensus. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"read passives epistemically\" mean, according to the text?",
+      "opts": [
+        "Check the grammar only",
+        "Think about what knowledge claims the passive is making — certainty, source, authority",
+        "Read aloud to check rhythm",
+        "Check for agent"
+      ],
+      "correct": "Think about what knowledge claims the passive is making — certainty, source, authority",
+      "hint": "\"Read passive not just grammatically but epistemically — ask: by whom? With what evidence? With what certainty?\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Reproducible findings.\" \"Reproducible\" means:",
+      "opts": [
+        "Surprising",
+        "Unique to one researcher",
+        "Able to be repeated with the same results",
+        "Published"
+      ],
+      "correct": "Able to be repeated with the same results",
+      "hint": "\"reproducible\" = results that can be replicated by other scientists in other settings."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Passive is used to obscure accountability.\" \"Obscure\" means:",
+      "opts": [
+        "Clarify",
+        "Emphasise",
+        "Hide or make unclear",
+        "Praise"
+      ],
+      "correct": "Hide or make unclear",
+      "hint": "\"obscure\" = to make something difficult to see or understand; to hide."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It has been established that X.\" — This passive is used to:",
+      "opts": [
+        "Name the researcher",
+        "Show individual opinion",
+        "Invoke community evidence — collective scientific authority",
+        "Avoid formal writing"
+      ],
+      "correct": "Invoke community evidence — collective scientific authority",
+      "hint": "\"Allows scientists to invoke the authority of a community of evidence rather than making a personal claim.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The compound was isolated, was tested, was approved.\" — These passives:",
+      "opts": [
+        "Make the story about individual scientists",
+        "Trace the journey of the drug through its processes",
+        "Are grammatically wrong",
+        "Should use active voice"
+      ],
+      "correct": "Trace the journey of the drug through its processes",
+      "hint": "\"The passive traces the journey of an object — the drug — through the processes that made it what it eventually became.\" ✅"
+    }
+  ]
+}

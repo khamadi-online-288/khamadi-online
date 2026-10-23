@@ -1,0 +1,518 @@
+{
+  "id": "l76-g1",
+  "moduleNum": 18,
+  "lessonNum": 5,
+  "moduleTitle": "Media, News & Propaganda",
+  "title": "Grammar: Noun Clauses — That-Clauses and Wh-Clauses",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Именные клаузы (Noun clauses) — клауза работает как существительное:\n\nКак ПОДЛЕЖАЩЕЕ:\n\"What he said was surprising.\" (что он сказал = подлежащее)\n\"That she passed was unexpected.\"\n\nКак ДОПОЛНЕНИЕ:\n\"I know what you did.\" · \"She said that she was tired.\"\n\"He asked where we were going.\"\n\nКак ДОПОЛНЕНИЕ К ПРИЛАГАТЕЛЬНОМУ:\n\"I am sure that she'll come.\"\n\"Are you aware of what happened?\"\n\nСВОДНАЯ ТАБЛИЦА вводных слов:\nTHAT → факт: \"I know that she's right.\"\nWHAT → \"что\" неизвестное: \"I don't know what to do.\"\nWHETHER/IF → альтернатива: \"Ask whether she's coming.\"\nWH-words → вопросительные слова: who, when, where, why, how",
+  "grammarTable": [
+    {
+      "subject": "That-clause (subject)",
+      "verb": "That + S + V + is/seems + adj",
+      "short": "noun clause as grammatical subject",
+      "example": "That misinformation spreads quickly is alarming. / That he lied is now established."
+    },
+    {
+      "subject": "That-clause (object)",
+      "verb": "verb + that + S + V",
+      "short": "noun clause as object of main verb",
+      "example": "She believes that the report was accurate. / He discovered that the source was fabricated."
+    },
+    {
+      "subject": "It + that-clause",
+      "verb": "It + be + adj/pp + that + S + V",
+      "short": "impersonal \"it\" + that-clause",
+      "example": "It is clear that social media enables disinformation. / It has been shown that fact-checking works."
+    },
+    {
+      "subject": "The fact that",
+      "verb": "The fact + that + S + V + verb phrase",
+      "short": "noun phrase + that-clause",
+      "example": "The fact that only one site carried the story should raise alarm."
+    },
+    {
+      "subject": "Wh-clause (what/how/where/why/who/when)",
+      "verb": "wh-word + S + V / wh-word + to-inf",
+      "short": "embedded indirect statement or question",
+      "example": "What matters is the source. / I understand how algorithms work. / She knows what to look for."
+    },
+    {
+      "subject": "Wh-clause as subject",
+      "verb": "wh-word + S + V + is + X",
+      "short": "\"what concerns me is…\"",
+      "example": "What concerns me most is the speed of disinformation spread. / How this happened is unclear."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "That-Clause After Common Reporting/Thinking Verbs",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Believe, think, know, understand, realise + that",
+          "example": "\"I believe that media literacy is essential.\" / \"She realised that the story was fabricated.\""
+        },
+        {
+          "form": "Claim, argue, suggest, assert, maintain + that",
+          "example": "\"He claimed that the video was authentic.\" / \"Critics argue that regulation is needed.\""
+        },
+        {
+          "form": "Show, prove, find, discover, demonstrate + that",
+          "example": "\"Research has shown that emotional content spreads faster.\" / \"The data demonstrates that the filter bubble effect is real.\""
+        },
+        {
+          "form": "Fear, hope, worry, suspect, expect + that",
+          "example": "\"Many fear that disinformation will undermine democracy.\" / \"She suspected that the account was a bot.\""
+        }
+      ]
+    },
+    {
+      "title": "It + be + adj/pp + that-clause",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "It is clear / obvious / apparent / evident + that",
+          "example": "\"It is clear that the story was fabricated.\" / \"It is evident that the site is partisan.\""
+        },
+        {
+          "form": "It is important / essential / necessary / vital + that",
+          "example": "\"It is essential that citizens develop media literacy skills.\""
+        },
+        {
+          "form": "It has been shown / found / established + that",
+          "example": "\"It has been established that the accounts were bots.\" / \"It has been found that corrections reach fewer people than false claims.\""
+        },
+        {
+          "form": "It is alleged / reported / claimed + that (passive)",
+          "example": "\"It is alleged that the government used bots to manipulate discourse.\" / \"It was reported that the video was a deepfake.\""
+        }
+      ]
+    },
+    {
+      "title": "The Fact That: Noun Phrase + That-Clause",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "The fact that + S + V",
+          "example": "\"The fact that the story was shared 10,000 times before being corrected is deeply concerning.\""
+        },
+        {
+          "form": "Despite the fact that / In spite of the fact that",
+          "example": "\"Despite the fact that the article was debunked, it is still circulating online.\""
+        },
+        {
+          "form": "Given the fact that / Bearing in mind the fact that",
+          "example": "\"Given the fact that outlets are under financial pressure, quality has declined.\""
+        },
+        {
+          "form": "The fact that cannot begin a sentence easily — use \"It is a fact that\" or reorder",
+          "example": "\"It is a fact that media ownership is increasingly concentrated.\""
+        }
+      ]
+    },
+    {
+      "title": "Wh-Clauses: What, How, Why, Who, Where, When",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "What + S + V = the thing that (subject or object)",
+          "example": "\"What matters is the source's track record.\" / \"Tell me what you found.\""
+        },
+        {
+          "form": "How + S + V = the way in which",
+          "example": "\"Understanding how algorithms determine what we see is important.\""
+        },
+        {
+          "form": "Why + S + V = the reason",
+          "example": "\"We need to understand why emotional content spreads faster.\""
+        },
+        {
+          "form": "Who + S + V / Who + V = the person who",
+          "example": "\"The question of who owns the media matters enormously.\" / \"She doesn't know who wrote the article.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Noun Clauses",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ She believes the story is false. (missing \"that\" — ambiguous)",
+          "example": "✅ She believes that the story is false. (explicit \"that\" is clearer in formal writing)"
+        },
+        {
+          "form": "❌ What I wonder is that she said. (wrong connector)",
+          "example": "✅ What I wonder is what she said. / I wonder what she said."
+        },
+        {
+          "form": "❌ It is clear what disinformation is dangerous.",
+          "example": "✅ It is clear that disinformation is dangerous. (use \"that\" after \"it is clear\")"
+        },
+        {
+          "form": "❌ The fact that he said, it was false.",
+          "example": "✅ The fact that he said it was false... / The fact that what he said was false... (restructure)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct connector for the noun clause.",
+      "text": "\"It is clear ___ social media has changed how information spreads.\"",
+      "opts": [
+        "whether",
+        "what",
+        "that",
+        "which"
+      ],
+      "correct": "that",
+      "hint": "\"It is clear that + clause\" — standard that-clause pattern"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the noun clause.",
+      "text": "\"Researchers have found ___ emotional content is shared more widely than neutral content.\"",
+      "correct": "that",
+      "hint": "\"Found that + clause\" — reporting verb + that-clause"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct wh-word.",
+      "text": "\"___ concerns me most is the concentration of media ownership in a few hands.\"",
+      "opts": [
+        "That",
+        "Whether",
+        "What",
+        "How"
+      ],
+      "correct": "What",
+      "hint": "\"What concerns me is…\" = wh-clause as grammatical subject"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the noun clause.",
+      "text": "\"The fact ___ corrections reach fewer people than false claims is well documented.\"",
+      "correct": "that",
+      "hint": "\"The fact that + clause\" = noun phrase + that-clause"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct structure.",
+      "text": "\"She realised ___ the account was automated — it was a bot.\"",
+      "opts": [
+        "whether",
+        "what",
+        "that",
+        "how"
+      ],
+      "correct": "that",
+      "hint": "\"Realised that + clause\" = discovery reporting verb + that-clause"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with the correct wh-word.",
+      "text": "\"Understanding ___ algorithms decide what to show us is the first step in media literacy.\"",
+      "correct": "how",
+      "hint": "\"How + S + V\" = the mechanism/way in which"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "It is essential that media literacy teaching in schools.",
+        "It is essential that media literacy is taught in schools.",
+        "It is essential what media literacy is taught in schools.",
+        "It is essential if media literacy is taught in schools."
+      ],
+      "correct": "It is essential that media literacy is taught in schools.",
+      "hint": "\"It is essential that + S + V\" — standard pattern with that-clause"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Complete with the correct noun clause pattern.",
+      "text": "\"The government claimed ___ the report contained no errors — but fact-checkers disagreed.\"",
+      "correct": "that",
+      "hint": "\"Claimed that + clause\" — that-clause after a reporting verb"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct connector.",
+      "text": "\"I don't understand ___ this story reached so many people before being corrected.\"",
+      "opts": [
+        "that",
+        "which",
+        "what",
+        "how"
+      ],
+      "correct": "how",
+      "hint": "\"How + S + V\" = the mechanism/way — not \"what\""
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the sentence correctly.",
+      "text": "\"___ he stated publicly and ___ the data actually showed were two very different things.\"",
+      "correct": "What / what",
+      "hint": "\"What + S + V\" = the thing that (used twice as noun clause subjects)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct noun clause pattern.",
+      "text": "\"Despite the fact ___ the article was debunked, it continued to circulate.\"",
+      "opts": [
+        "which",
+        "of",
+        "that",
+        "whether"
+      ],
+      "correct": "that",
+      "hint": "\"Despite the fact that + clause\" — concessive noun phrase + that-clause"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"It has been demonstrated ___ fact-checking can reduce belief in false claims by up to 40%.\"",
+      "correct": "that",
+      "hint": "\"It has been demonstrated that\" = formal passive + that-clause"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Which sentence uses the wh-clause correctly?",
+      "text": "",
+      "opts": [
+        "\"I know what is she doing.\"",
+        "\"I know what she is doing.\"",
+        "\"I know that what she is doing.\"",
+        "\"I know whether she is doing.\""
+      ],
+      "correct": "\"I know what she is doing.\"",
+      "hint": "\"Know + what + S + V\" — no inversion in embedded clauses"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete with the correct pattern.",
+      "text": "\"It is alleged ___ foreign governments used bots to interfere in the election.\"",
+      "correct": "that",
+      "hint": "\"It is alleged that + clause\" — passive reporting + that-clause"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the correct sentence for formal writing.",
+      "text": "Choose the most formal and correct version:",
+      "opts": [
+        "\"That propaganda works is shown by history.\"",
+        "\"History shows that propaganda works.\"",
+        "\"History shows what propaganda works.\"",
+        "\"What history shows propaganda works.\""
+      ],
+      "correct": "\"History shows that propaganda works.\"",
+      "hint": "\"Shows that + clause\" — subject + reporting verb + that-clause (most natural in formal writing)"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What is wrong with this sentence?",
+      "text": "\"It is clear what disinformation spreads faster than corrections.\"",
+      "opts": [
+        "Nothing is wrong",
+        "\"What\" should be \"that\"",
+        "\"Clear\" should be \"clearly\"",
+        "\"Spreads\" should be \"spread\""
+      ],
+      "correct": "\"What\" should be \"that\"",
+      "hint": "\"It is clear that + clause\" — use \"that\" after evaluative expressions, not \"what\""
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It is clear ___ the media landscape has changed fundamentally in the digital age.\"",
+      "opts": [
+        "whether",
+        "what",
+        "that",
+        "how"
+      ],
+      "correct": "that",
+      "hint": "\"It is clear that + clause\" — standard noun clause after evaluative expression",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Researchers have demonstrated ___ emotional content spreads faster than factual reporting.\"",
+      "correct": "that",
+      "hint": "\"Demonstrated that + clause\" — reporting verb + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ concerns me is the lack of independent local journalism in many regions.\"",
+      "opts": [
+        "That",
+        "It",
+        "What",
+        "Whether"
+      ],
+      "correct": "What",
+      "hint": "\"What concerns me is…\" = wh-clause as grammatical subject",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The fact ___ newsrooms have been dramatically downsized has serious implications for democracy.\"",
+      "correct": "that",
+      "hint": "\"The fact that + clause\" = noun phrase + that-clause as subject",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She realised ___ the article was from a site with a known bias for publishing false stories.\"",
+      "opts": [
+        "whether",
+        "that",
+        "what",
+        "which"
+      ],
+      "correct": "that",
+      "hint": "\"Realised that + clause\" — that-clause after a cognitive verb",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"It is clear what disinformation is dangerous\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It is clear THAT disinformation is dangerous\" — \"what\" is wrong here",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Understanding ___ filter bubbles form is crucial to addressing the problem.\" (the mechanism)",
+      "correct": "how",
+      "hint": "\"How + S + V\" = the mechanism/way in which something happens",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"It has been shown ___ fact-checking can reduce belief in false claims.\"",
+      "opts": [
+        "whether",
+        "what",
+        "how",
+        "that"
+      ],
+      "correct": "that",
+      "hint": "\"It has been shown that + clause\" — passive reporting + that-clause",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Despite the fact ___ the story was false, it reached 10 million people before being corrected.\"",
+      "correct": "that",
+      "hint": "\"Despite the fact that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ she found was that the video had been manipulated.\" (noun clause as subject + direct object)",
+      "opts": [
+        "What",
+        "That",
+        "How",
+        "Whether"
+      ],
+      "correct": "What",
+      "hint": "\"What + S + V + was that…\" = wh-clause as subject",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It is essential ___ citizens develop critical media literacy skills.\" (formal recommendation)",
+      "correct": "that",
+      "hint": "\"It is essential that + clause\"",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses the noun clause correctly?",
+      "opts": [
+        "\"I know what is she believing.\"",
+        "\"She believes what the story is false.\"",
+        "\"It is evident that disinformation is a serious threat.\"",
+        "\"That media literacy is important, it should be taught in schools.\""
+      ],
+      "correct": "\"It is evident that disinformation is a serious threat.\"",
+      "hint": "\"It is evident that + clause\" = correct impersonal noun clause",
+      "points": 2
+    }
+  ]
+}

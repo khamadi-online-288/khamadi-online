@@ -1,0 +1,237 @@
+{
+  "id": "l44-4",
+  "moduleNum": 10,
+  "lessonNum": 6,
+  "moduleTitle": "Around the City",
+  "type": "writing",
+  "title": "How to Get to the WKU Campus",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "Turn left / right",
+      "emoji": "↩️",
+      "opts": [
+        "Идите прямо",
+        "Поверните налево / направо",
+        "Остановитесь",
+        "Вернитесь"
+      ],
+      "correct": "Поверните налево / направо"
+    },
+    {
+      "id": "p2",
+      "word": "Walk along",
+      "emoji": "🚶",
+      "opts": [
+        "Пересеките",
+        "Идите вдоль",
+        "Войдите в",
+        "Пройдите мимо"
+      ],
+      "correct": "Идите вдоль"
+    },
+    {
+      "id": "p3",
+      "word": "Go past",
+      "emoji": "➡️",
+      "opts": [
+        "Остановитесь у",
+        "Войдите в",
+        "Пройдите мимо",
+        "Пересеките"
+      ],
+      "correct": "Пройдите мимо"
+    },
+    {
+      "id": "p4",
+      "word": "Cross the road",
+      "emoji": "🚦",
+      "opts": [
+        "Идите вдоль дороги",
+        "Пересеките дорогу",
+        "Войдите в здание",
+        "Выйдите из автобуса"
+      ],
+      "correct": "Пересеките дорогу"
+    },
+    {
+      "id": "p5",
+      "word": "You'll see... on your left/right",
+      "emoji": "👁️",
+      "opts": [
+        "Повернитесь",
+        "Вы увидите... слева/справа",
+        "Вы дошли",
+        "Осмотритесь"
+      ],
+      "correct": "Вы увидите... слева/справа"
+    },
+    {
+      "id": "p6",
+      "word": "You can't miss it",
+      "emoji": "🎯",
+      "opts": [
+        "Вы пропустите",
+        "Это трудно найти",
+        "Это невозможно пропустить",
+        "Поищите его"
+      ],
+      "correct": "Это невозможно пропустить"
+    }
+  ],
+  "writingModel": [
+    "How to Get to WKU from the City Centre — by Rustam Seilov",
+    "Getting to WKU from the city centre is straightforward once you know the route. Here are directions from the Central Mosque — one of the most recognisable landmarks in Uralsk.",
+    "Start at the Central Mosque. With the mosque on your right, walk along the main road heading north. You'll pass a row of shops on your left and a small park on your right. After about five minutes, you'll see a large intersection ahead.",
+    "At the intersection, cross the road using the pedestrian crossing. Once you're across, continue straight on. Don't turn — go past the hospital on your right and the post office on your left. You're now on Dostyq Avenue.",
+    "Walk along Dostyq Avenue for about seven minutes. You'll go past the central fountain and a large supermarket. Just past the supermarket, there's a set of traffic lights. Cross the road there and turn right.",
+    "After turning right, walk along the side street for about two minutes. You'll go through a small archway — it looks narrow but it's perfectly safe. Once you're through the archway, you'll see the WKU main gate directly ahead.",
+    "The whole journey takes about twenty minutes on foot from the Central Mosque. Alternatively, take Bus 5 from outside the mosque — it stops directly in front of the main gate and takes about eight minutes. You can't miss the bus stop — it's right next to the pharmacy across from the mosque."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "How to Get to ",
+      "suffix": " — by ",
+      "placeholder": "your destination",
+      "hint": "Name the place and yourself."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "Getting to ",
+      "suffix": " is straightforward once you know the route.",
+      "placeholder": "the destination",
+      "hint": "Open by naming the place and reassuring the reader."
+    },
+    {
+      "key": "start",
+      "prefix": "Start at ",
+      "suffix": ".",
+      "placeholder": "a well-known landmark to begin",
+      "hint": "Use \"at\" + landmark. \"Start AT the bus stop.\""
+    },
+    {
+      "key": "dir1",
+      "prefix": "Walk ",
+      "suffix": ".",
+      "placeholder": "along/past/through + direction",
+      "hint": "Use movement prepositions: along, past, through, across."
+    },
+    {
+      "key": "dir2",
+      "prefix": "You'll ",
+      "suffix": ".",
+      "placeholder": "see / pass / come to something",
+      "hint": "\"You'll see...\" / \"You'll pass...\" / \"You'll come to...\""
+    },
+    {
+      "key": "cross",
+      "prefix": "Cross the road ",
+      "suffix": ".",
+      "placeholder": "at the lights / at the crossing",
+      "hint": "\"Cross the road AT the pedestrian crossing.\""
+    },
+    {
+      "key": "dir3",
+      "prefix": "Walk ",
+      "suffix": ".",
+      "placeholder": "along + street name OR past + landmark",
+      "hint": "\"Walk ALONG the avenue\" / \"Walk PAST the bank\"."
+    },
+    {
+      "key": "dir4",
+      "prefix": "Once you ",
+      "suffix": ", you'll see ___.",
+      "placeholder": "pass/cross something",
+      "hint": "\"Once you CROSS the bridge / go PAST the park...\""
+    },
+    {
+      "key": "dest",
+      "prefix": "The destination is ",
+      "suffix": ". You can't miss it.",
+      "placeholder": "where exactly (on the left / at the end)",
+      "hint": "\"in / on / at\" + description. Then reassure."
+    },
+    {
+      "key": "alt",
+      "prefix": "Alternatively, take ",
+      "suffix": " — it's faster.",
+      "placeholder": "a bus/tram/taxi option",
+      "hint": "Offer an alternative transport option if possible."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Starting and locating",
+      "color": "#003876",
+      "items": [
+        "Start at + landmark",
+        "From the + landmark, walk...",
+        "With the [landmark] on your left/right...",
+        "Begin at + address / bus stop",
+        "The starting point is + place"
+      ]
+    },
+    {
+      "category": "Movement prepositions in directions",
+      "color": "#1D9E75",
+      "items": [
+        "Walk along + street/river/avenue",
+        "Go past + landmark (without stopping)",
+        "Cross the road / bridge / square",
+        "Walk through + enclosed space (tunnel/park)",
+        "Turn into + street / alleyway",
+        "Come out of + building / tunnel",
+        "Go round + roundabout / corner"
+      ]
+    },
+    {
+      "category": "Landmarks and reference points",
+      "color": "#1B8FC4",
+      "items": [
+        "You'll see... on your left/right",
+        "Just past the + landmark...",
+        "At the corner / intersection...",
+        "At the traffic lights, turn...",
+        "Opposite the + landmark",
+        "The building is on the left/right side"
+      ]
+    },
+    {
+      "category": "Closing and reassurance",
+      "color": "#C9933B",
+      "items": [
+        "The whole journey takes about... minutes.",
+        "You can't miss it.",
+        "Alternatively, take Bus [N]...",
+        "It should take you no more than... minutes.",
+        "Once you arrive, you'll see..."
+      ]
+    }
+  ]
+}

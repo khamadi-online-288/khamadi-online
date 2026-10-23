@@ -1,0 +1,554 @@
+{
+  "id": "l57-g2",
+  "moduleNum": 23,
+  "lessonNum": 5,
+  "moduleTitle": "Linking Ideas",
+  "type": "grammar",
+  "title": "Addition & Result: furthermore, moreover, therefore, as a result",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Addition and Result Markers — Adding and Consequencing",
+  "grammarNote": "Маркеры добавления (addition) присоединяют новые доводы к уже сказанному. Маркеры результата (result/consequence) показывают, что одна идея является следствием другой. Важно понимать разницу: \"furthermore\" просто добавляет, а \"therefore\" утверждает причинно-следственную связь. Неправильный выбор ослабляет аргумент.",
+  "grammarTable": [
+    {
+      "subject": "furthermore",
+      "verb": "+ new sentence",
+      "short": "кроме того (addition)",
+      "example": "\"The policy is expensive. Furthermore, it has not been proven effective.\""
+    },
+    {
+      "subject": "moreover",
+      "verb": "+ new sentence",
+      "short": "более того (stronger add.)",
+      "example": "\"The policy is expensive. Moreover, it actively harms the most vulnerable.\""
+    },
+    {
+      "subject": "in addition",
+      "verb": "+ new sentence/clause",
+      "short": "в дополнение",
+      "example": "\"In addition, studies show that...\" / \"...in addition to its cost...\""
+    },
+    {
+      "subject": "therefore",
+      "verb": "+ new sentence/clause",
+      "short": "следовательно (result)",
+      "example": "\"The data supports the hypothesis. Therefore, the model is valid.\""
+    },
+    {
+      "subject": "as a result",
+      "verb": "+ new sentence",
+      "short": "в результате",
+      "example": "\"The factory was closed. As a result, 200 workers lost their jobs.\""
+    },
+    {
+      "subject": "consequently",
+      "verb": "+ new sentence",
+      "short": "следовательно (formal)",
+      "example": "\"Emissions increased. Consequently, temperatures rose further.\""
+    },
+    {
+      "subject": "thus",
+      "verb": "+ clause",
+      "short": "таким образом (formal)",
+      "example": "\"The evidence is strong, thus supporting the conclusion.\" (can join clauses)"
+    },
+    {
+      "subject": "hence",
+      "verb": "+ clause (formal)",
+      "short": "отсюда (very formal)",
+      "example": "\"The cost is high, hence the government's reluctance.\" (literary/academic)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Addition markers — different strengths",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "In addition = neutral addition",
+          "example": "\"IN ADDITION, the study found...\" ✅ — simple addition, no special emphasis."
+        },
+        {
+          "form": "Furthermore = adds a further point",
+          "example": "\"FURTHERMORE, this approach also reduces costs.\" ✅ — a related additional point."
+        },
+        {
+          "form": "Moreover = stronger addition",
+          "example": "\"MOREOVER, the problem is worsening.\" ✅ — implies the new point is even more significant."
+        },
+        {
+          "form": "Also = informal (mid-sentence)",
+          "example": "\"The policy is expensive. It is ALSO ineffective.\" ✅ — can be mid-sentence, less formal."
+        }
+      ]
+    },
+    {
+      "title": "Result markers — different levels of claim",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "therefore = logical consequence",
+          "example": "\"All mammals breathe air. Dolphins are mammals. THEREFORE, dolphins breathe air.\" ✅"
+        },
+        {
+          "form": "as a result = causal consequence",
+          "example": "\"The factory was closed. AS A RESULT, workers were unemployed.\" ✅ (cause and effect)"
+        },
+        {
+          "form": "consequently = formal consequence",
+          "example": "\"Temperatures increased. CONSEQUENTLY, sea levels rose.\" ✅ (more formal than \"as a result\")"
+        },
+        {
+          "form": "thus = academic/formal",
+          "example": "\"Data was collected from three sources, THUS ensuring reliability.\" ✅ (often mid-sentence)"
+        }
+      ]
+    },
+    {
+      "title": "Position in sentences",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Start of new sentence + comma",
+          "example": "\"Furthermore, the data shows...\" / \"As a result, the policy was changed.\" ✅"
+        },
+        {
+          "form": "After semicolon + comma",
+          "example": "\"Prices rose; therefore, consumers spent less.\" ✅"
+        },
+        {
+          "form": "Mid-sentence (also/thus/hence)",
+          "example": "\"The policy failed, thus reinforcing the need for reform.\" ✅ (thus/hence can be mid-clause)"
+        },
+        {
+          "form": "✗ as a connector (wrong)",
+          "example": "✗ \"It was expensive, furthermore it was ineffective.\" → need semicolon or period: \"...; furthermore, it was...\""
+        }
+      ]
+    },
+    {
+      "title": "⚠️ The critical difference: therefore vs furthermore",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "\"Therefore\" claims CAUSATION",
+          "example": "\"All evidence supports the theory. THEREFORE, the theory is correct.\" — claims logical consequence."
+        },
+        {
+          "form": "\"Furthermore\" only ADDS",
+          "example": "\"The policy is expensive. FURTHERMORE, it has not worked.\" — just adds a second criticism."
+        },
+        {
+          "form": "Using \"therefore\" wrongly",
+          "example": "✗ \"The café was closed. Therefore, I went to the library.\" → ✅ \"AS A RESULT, I went to the library.\" (\"therefore\" for pure consequences feels too formal)"
+        },
+        {
+          "form": "The \"therefore\" test",
+          "example": "Ask: \"Does A logically PROVE B?\" If yes → \"therefore.\" If A merely CAUSED B → \"as a result.\" If A is just ADDED → \"furthermore.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Addition vs Result — ключевые различия:\n\nADDITION (добавление):\nIn addition / Furthermore / Moreover\n→ просто добавляют новую мысль\n\"The policy is expensive. FURTHERMORE, it hasn't worked.\"\n\nRESULT (следствие/результат):\nTherefore / As a result / Consequently / Thus\n→ утверждают, что одно вызвало/следует из другого\n\"Prices rose. AS A RESULT, fewer people bought cars.\"\n\n⚠️ THEREFORE = логическое следствие (A доказывает B)\nAS A RESULT = причинно-следственная связь (A вызвало B)\nFURTHERMORE = просто дополнение (ещё один довод)\n\n💡 Запомни: если A не ВЫЗЫВАЕТ B, не используй\n\"therefore\" → используй \"furthermore\" или \"as a result\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose: addition or result?",
+      "text": "\"The new software is faster. ___, it uses less memory.\"",
+      "opts": [
+        "Therefore",
+        "Furthermore",
+        "As a result",
+        "Consequently"
+      ],
+      "correct": "Furthermore",
+      "hint": "\"FURTHERMORE, it uses less memory.\" — adding a second benefit. NOT cause-effect. ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose: addition or result?",
+      "text": "\"The factory was shut down. ___, 500 workers lost their jobs.\"",
+      "opts": [
+        "Furthermore",
+        "In addition",
+        "As a result",
+        "Moreover"
+      ],
+      "correct": "As a result",
+      "hint": "\"AS A RESULT, 500 workers lost their jobs.\" — the shutdown CAUSED the job losses. ✅ Result/consequence."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with a result marker.",
+      "text": "\"The evidence is strong. ___, we can accept the hypothesis.\"",
+      "correct": "Therefore",
+      "hint": "\"THEREFORE\" = logical consequence. The evidence logically supports the hypothesis. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the stronger addition marker.",
+      "text": "\"The experiment failed. ___, it wasted three months of work.\"",
+      "opts": [
+        "In addition",
+        "Furthermore",
+        "Moreover",
+        "Also"
+      ],
+      "correct": "Moreover",
+      "hint": "\"MOREOVER\" implies the new point is even more significant. \"Moreover, it wasted three months\" — adds even more impact. ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "True or False?",
+      "text": "\"Prices rose. Therefore, I was unhappy.\" — \"therefore\" is correctly used here.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Therefore\" claims logical causation. Being unhappy about price rises is a natural reaction, not a logical proof. ✅ \"As a result, I was unhappy.\" sounds more natural here."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose: \"furthermore\" or \"therefore\"?",
+      "text": "\"CO₂ traps heat. ___, global temperatures are rising.\"",
+      "opts": [
+        "Furthermore",
+        "Therefore",
+        "As a result",
+        "Both \"Therefore\" and \"As a result\" work"
+      ],
+      "correct": "Both \"Therefore\" and \"As a result\" work",
+      "hint": "\"CO₂ traps heat → THEREFORE temperatures rise\" (logical consequence ✅) / \"AS A RESULT temperatures rise\" (causal consequence ✅). Both are natural here!"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"consequently\" or \"furthermore\".",
+      "text": "\"The dam was built upstream. ___, the river level dropped.\"",
+      "correct": "Consequently",
+      "hint": "\"CONSEQUENTLY\" = formal result/consequence. The dam caused the river to drop. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct punctuation with \"furthermore\".",
+      "text": "\"It is expensive, furthermore it is unreliable.\" — Is this correct?",
+      "opts": [
+        "Yes",
+        "No — should be \"It is expensive; furthermore, it is unreliable.\"",
+        "No — \"furthermore\" can't be used here",
+        "Yes but only informally"
+      ],
+      "correct": "No — should be \"It is expensive; furthermore, it is unreliable.\"",
+      "hint": "✅ Use a semicolon or period before \"furthermore,\" not just a comma. \"It is expensive; FURTHERMORE, it is unreliable.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the best linker.",
+      "text": "\"The report found three problems. ___, it suggested five solutions.\"",
+      "opts": [
+        "Therefore",
+        "As a result",
+        "In addition",
+        "Consequently"
+      ],
+      "correct": "In addition",
+      "hint": "\"IN ADDITION, it suggested five solutions.\" — adding a further fact (solutions), not a result. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete.",
+      "text": "\"Temperatures have risen. ___, sea levels are higher than fifty years ago.\"",
+      "correct": "As a result / Consequently",
+      "hint": "\"AS A RESULT / CONSEQUENTLY\" — higher temperatures cause sea levels to rise. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose: \"thus\" or \"furthermore\"?",
+      "text": "\"Data was collected from five sources, ___ increasing the study's reliability.\"",
+      "opts": [
+        "furthermore",
+        "thus",
+        "as a result",
+        "however"
+      ],
+      "correct": "thus",
+      "hint": "\"THUS\" can join clauses mid-sentence. \"...five sources, THUS increasing reliability.\" ✅ (academic, formal, mid-sentence)"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the most formal result marker.",
+      "text": "\"Emissions increased; ___, climate projections were revised upwards.\"",
+      "opts": [
+        "so",
+        "as a result",
+        "consequently",
+        "hence"
+      ],
+      "correct": "hence",
+      "hint": "\"HENCE\" is very formal and academic. \"Emissions increased; HENCE, projections were revised.\" ✅ Most formal option."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Furthermore\" is a marker of:",
+      "opts": [
+        "Contrast",
+        "Addition",
+        "Result",
+        "Example"
+      ],
+      "correct": "Addition",
+      "hint": "\"Furthermore\" = adds a further point. ADDITION marker. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Therefore\" is a marker of:",
+      "opts": [
+        "Contrast",
+        "Addition",
+        "Logical consequence",
+        "Example"
+      ],
+      "correct": "Logical consequence",
+      "hint": "\"Therefore\" = the logical consequence of what was just said. RESULT marker. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Moreover\" vs \"Furthermore\" — difference?",
+      "opts": [
+        "No difference",
+        "\"Moreover\" is more emphatic — new point is even more significant",
+        "\"Furthermore\" is more formal",
+        "\"Moreover\" is informal"
+      ],
+      "correct": "\"Moreover\" is more emphatic — new point is even more significant",
+      "hint": "\"Moreover\" suggests the new point is even more important than the previous. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The lab was flooded. ___, the experiment was delayed.\"",
+      "correct": "As a result / Consequently",
+      "hint": "Cause and effect → \"AS A RESULT / CONSEQUENTLY.\" The flooding caused the delay. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Prices rose; ___, consumers spent less.\" Choose.",
+      "opts": [
+        "furthermore",
+        "moreover",
+        "therefore",
+        "in addition"
+      ],
+      "correct": "therefore",
+      "hint": "\"Prices rose → THEREFORE consumers spent less.\" = logical cause and effect. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When should you use \"therefore\" not \"as a result\"?",
+      "opts": [
+        "Never — they're identical",
+        "When the connection is logical/proof-based",
+        "When talking about physical events",
+        "Only in informal writing"
+      ],
+      "correct": "When the connection is logical/proof-based",
+      "hint": "\"Therefore\" = logical proof (A proves B). \"As a result\" = cause-effect (A caused B). ✅ Overlap but different nuances."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The policy was unpopular. Furthermore, it was expensive.\" — \"furthermore\" is:",
+      "opts": [
+        "Result",
+        "Contrast",
+        "Addition — a second criticism",
+        "Example"
+      ],
+      "correct": "Addition — a second criticism",
+      "hint": "\"Furthermore\" adds a second point (expensive) to the first (unpopular). ADDITION. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Thus\" can be used:",
+      "opts": [
+        "Only at the start of sentences",
+        "Mid-sentence to join clauses; very formal/academic",
+        "In everyday conversation",
+        "Only with \"however\""
+      ],
+      "correct": "Mid-sentence to join clauses; very formal/academic",
+      "hint": "\"THUS\" is academic/formal and can appear mid-clause. \"Data was collected, THUS ensuring reliability.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It is expensive, furthermore it is unreliable.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Furthermore\" needs a semicolon/period before it, not just a comma",
+        "\"Furthermore\" is the wrong linker",
+        "\"Expensive\" should be \"costly\""
+      ],
+      "correct": "\"Furthermore\" needs a semicolon/period before it, not just a comma",
+      "hint": "✅ \"It is expensive; FURTHERMORE, it is unreliable.\" — comma alone creates a comma splice. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Consequently\" is ___ than \"as a result.\"",
+      "opts": [
+        "Less formal",
+        "More formal",
+        "The same",
+        "Incorrect in academic English"
+      ],
+      "correct": "More formal",
+      "hint": "\"Consequently\" is more formal and academic than \"as a result.\" Both signal consequence. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The experiment was successful. ___, the team celebrated.\"",
+      "correct": "As a result / Therefore / Consequently",
+      "hint": "All three work: \"AS A RESULT\" / \"THEREFORE\" / \"CONSEQUENTLY\" — the success caused/led to celebrating. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"In addition\" is most similar in meaning to:",
+      "opts": [
+        "However",
+        "Therefore",
+        "Furthermore",
+        "Despite"
+      ],
+      "correct": "Furthermore",
+      "hint": "\"In addition\" ≈ \"furthermore\" — both ADD a new point. \"In addition\" is slightly more neutral. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses addition correctly?",
+      "opts": [
+        "\"The policy failed. Moreover, it was a success.\"",
+        "\"Prices rose. Furthermore, fewer people could afford cars.\"",
+        "\"She studied. Therefore, she ate dinner.\"",
+        "\"The water was cold. As a result, it tasted nice.\""
+      ],
+      "correct": "\"Prices rose. Furthermore, fewer people could afford cars.\"",
+      "hint": "Rising prices → fewer can afford cars: related addition. ✅ Others use wrong linkers for the logic."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Hence\" is:",
+      "opts": [
+        "Very informal",
+        "Very formal/literary; similar to \"therefore\"",
+        "The same as \"however\"",
+        "Only used in spoken English"
+      ],
+      "correct": "Very formal/literary; similar to \"therefore\"",
+      "hint": "\"HENCE\" = formal/literary. Similar to \"therefore.\" \"The cost is high, hence the hesitation.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"All mammals breathe air. Dolphins are mammals. ___, dolphins breathe air.\"",
+      "opts": [
+        "Furthermore",
+        "As a result",
+        "Therefore",
+        "However"
+      ],
+      "correct": "Therefore",
+      "hint": "\"THEREFORE\" = logical deduction/proof. This is classic syllogism — logical proof, not just cause-effect. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which linker would NOT work in this sentence: \"The report was delayed. ___, the meeting was postponed.\"",
+      "opts": [
+        "Therefore",
+        "As a result",
+        "Consequently",
+        "Furthermore"
+      ],
+      "correct": "Furthermore",
+      "hint": "\"FURTHERMORE\" adds a new unrelated point — but postponing a meeting IS the result of the delay. ✅ \"Furthermore\" signals addition, not result. \"Therefore/As a result/Consequently\" would all work."
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "id": "l35-3",
+  "moduleNum": 1,
+  "lessonNum": 3,
+  "moduleTitle": "Daily Routines & Habits",
+  "type": "grammar",
+  "title": "Present Simple + Adverbs of Frequency",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Simple — Review + Adverbs of Frequency",
+  "grammarNote": "Present Simple описывает РЕГУЛЯРНЫЕ действия, факты, и привычки. На уровне A2 ты уже знаешь эту форму — сейчас добавляем наречия частотности (adverbs of frequency), которые точно указывают КАК ЧАСТО что-то происходит. Главное правило: наречие стоит ПЕРЕД основным глаголом, но ПОСЛЕ глагола to be.",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "work / study",
+      "short": "(+)",
+      "example": "I study every evening. · They always review their notes."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "works / studies",
+      "short": "(+)",
+      "example": "She usually wakes up at 7. · He often skips breakfast."
+    },
+    {
+      "subject": "I / You / We / They",
+      "verb": "don't work",
+      "short": "(−)",
+      "example": "I don't check my phone before coffee. · They never miss class."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "doesn't work",
+      "short": "(−)",
+      "example": "He doesn't eat breakfast. · She rarely goes to the gym alone."
+    },
+    {
+      "subject": "Do I / you / we / they?",
+      "verb": "work?",
+      "short": "(?)",
+      "example": "Do you always sit in the front row? · How often do they meet?"
+    },
+    {
+      "subject": "Does he / she / it?",
+      "verb": "work?",
+      "short": "(?)",
+      "example": "Does she usually cook dinner? · How often does he review notes?"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Adverbs of Frequency — from 100% to 0%",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "always   (100%)",
+          "example": "I always wake up at 6:30. — no exceptions, every single day."
+        },
+        {
+          "form": "usually  (~80%)",
+          "example": "She usually has toast for breakfast. — most days but not always."
+        },
+        {
+          "form": "often    (~60%)",
+          "example": "He often studies in the library. — more than half the time."
+        },
+        {
+          "form": "sometimes (~40%)",
+          "example": "I sometimes skip lunch when I'm busy. — less than half, but not rare."
+        },
+        {
+          "form": "rarely   (~10%)",
+          "example": "She rarely uses her phone during class. — almost never."
+        },
+        {
+          "form": "never    (0%)",
+          "example": "He never misses a lecture. — not a single time."
+        }
+      ]
+    },
+    {
+      "title": "Word Order — WHERE does the adverb go?",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "BEFORE main verb",
+          "example": "I always review notes. · She never eats breakfast. · They sometimes play football."
+        },
+        {
+          "form": "AFTER verb \"to be\"",
+          "example": "He is always tired. · She is never late. · They are usually on time."
+        },
+        {
+          "form": "How often? — beginning",
+          "example": "\"How often do you exercise?\" → \"Three times a week.\" (not an adverb of frequency)"
+        },
+        {
+          "form": "❌ Common mistake",
+          "example": "✗ \"She goes always to the gym.\" → ✅ \"She always goes to the gym.\""
+        }
+      ]
+    },
+    {
+      "title": "Spelling rules for He / She / It (+s)",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "Most verbs → + s",
+          "example": "work→works, study→studies? No! study→studies (consonant+y→ies)"
+        },
+        {
+          "form": "-ch, -sh, -x, -o → + es",
+          "example": "watch→watches, finish→finishes, go→goes, do→does"
+        },
+        {
+          "form": "consonant + y → drop y + ies",
+          "example": "study→studies, carry→carries, try→tries"
+        },
+        {
+          "form": "Irregulars: have→has, be→is",
+          "example": "She has coffee every morning. · It is always cold in January."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common A2 Mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ She go always to the gym.",
+          "example": "✅ She always goes to the gym. — adverb before verb!"
+        },
+        {
+          "form": "✗ He don't usually study.",
+          "example": "✅ He doesn't usually study. — 3rd person uses doesn't."
+        },
+        {
+          "form": "✗ Does she goes to WKU?",
+          "example": "✅ Does she go to WKU? — after Does, use base verb."
+        },
+        {
+          "form": "✗ He is never comes late.",
+          "example": "✅ He never comes late. / He is never late. — not both together!"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три правила, которые ты должен знать наизусть на A2:\n① NEVER / ALWAYS / USUALLY / OFTEN / SOMETIMES / RARELY — перед основным глаголом: «She rarely eats breakfast.»\n② После TO BE — после: «He is always busy.» — не «He always is busy!»\n③ В вопросах и отрицаниях 3-го лица — ТОЛЬКО doesn't/does: «Does she always study?» — никакого -s у глагола после does!\n\n💡 Запомни шкалу: always(100) → usually(80) → often(60) → sometimes(40) → rarely(10) → never(0)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct word order.",
+      "text": "She ___ reviews her notes the same evening.",
+      "opts": [
+        "usually",
+        "She usually",
+        "reviews usually",
+        "usually reviews she"
+      ],
+      "correct": "usually",
+      "hint": "Adverb of frequency goes BEFORE the main verb: \"She usually reviews...\""
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct form of the verb.",
+      "text": "Amir ___ (go) to the library three times a week.",
+      "correct": "goes",
+      "hint": "Amir = He → goes (3rd person singular adds -s)."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Choose the correct sentence about Zhibek.",
+      "opts": [
+        "She is always late.",
+        "She always is late.",
+        "Always she is late.",
+        "She is late always."
+      ],
+      "correct": "She is always late.",
+      "hint": "With \"to be\": subject + is/am/are + adverb. \"She is always late.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete with the correct negative form.",
+      "text": "Kamila ___ (not skip) class — she has a perfect attendance record.",
+      "correct": "never skips",
+      "hint": "\"never\" = 0%. never + main verb (with -s for she): never skips."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct question form.",
+      "text": "___  he usually eat breakfast before class?",
+      "opts": [
+        "Do",
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correct": "Does",
+      "hint": "\"he\" = 3rd person singular → Does he usually eat...? (base verb after Does)"
+    },
+    {
+      "id": "e6",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"He doesn't usually goes to the gym.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After doesn't → base verb (no -s): \"He doesn't usually go to the gym.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the adverb that means \"approximately 80% of the time\".",
+      "text": "Which adverb fits a habit that happens most days, but not every single day?",
+      "opts": [
+        "always",
+        "usually",
+        "sometimes",
+        "rarely"
+      ],
+      "correct": "usually",
+      "hint": "usually ≈ 80% — most of the time, but not always. \"She usually studies in the evening.\""
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Correct the spelling — 3rd person.",
+      "text": "He ___ (study) until midnight every night.",
+      "correct": "studies",
+      "hint": "study → studies. Consonant + y → drop y, add -ies. (carry→carries, try→tries)"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct question.",
+      "text": "How often ___ Zhibek go to the gym?",
+      "opts": [
+        "do",
+        "does",
+        "is",
+        "has"
+      ],
+      "correct": "does",
+      "hint": "Zhibek = she = 3rd person → Does she go...? Always use \"does\" for he/she/it questions."
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Write the correct negative.",
+      "text": "Amir ___ (not use) social media in the morning.",
+      "correct": "doesn't use",
+      "hint": "3rd person singular negative: doesn't + base verb. Never 'don't uses' or 'doesn't uses'."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Where does \"always\" go in this sentence?",
+      "text": "Kamila / is / late / always / for breakfast.",
+      "opts": [
+        "Kamila always is late for breakfast.",
+        "Kamila is always late for breakfast.",
+        "Always Kamila is late for breakfast.",
+        "Kamila is late always for breakfast."
+      ],
+      "correct": "Kamila is always late for breakfast.",
+      "hint": "With TO BE: subject + is/am/are + adverb: \"is ALWAYS late\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"How often do you study?\" is answered with a frequency adverb like \"always\" or \"never\".",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"How often?\" is answered with expressions like \"three times a week\", \"every day\", \"once a month\" — not usually just \"always\"."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "She ___ (go) to the library every Monday.",
+      "opts": [
+        "go",
+        "goes",
+        "going",
+        "is go"
+      ],
+      "correct": "goes",
+      "hint": "She = 3rd person singular → goes. Most verbs + -s."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "He ___ (not have) breakfast on weekdays.",
+      "correct": "doesn't have",
+      "hint": "3rd person negative: doesn't + base verb. 'have' stays as 'have', not 'has'."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ she always study in the library?\" Choose the correct form.",
+      "opts": [
+        "Do",
+        "Does",
+        "Is",
+        "Has"
+      ],
+      "correct": "Does",
+      "hint": "She = 3rd person → Does she always study...? (base verb after does)"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence has the correct word order?",
+      "opts": [
+        "He rarely is late.",
+        "He is rarely late.",
+        "Rarely he is late.",
+        "He is late rarely."
+      ],
+      "correct": "He is rarely late.",
+      "hint": "With TO BE: subject + is + adverb: \"He IS rarely late.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which adverb fits: \"She ___ eats breakfast — 0% of the time.\"",
+      "opts": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "correct": "never",
+      "hint": "never = 0% of the time. \"She never eats breakfast.\""
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "The verb \"watch\" in 3rd person singular is: he ___.",
+      "correct": "watches",
+      "hint": "Verbs ending in -ch → add -es: watch→watches, teach→teaches."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ check social media before coffee.\" (= 0% of the time)",
+      "opts": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "correct": "never",
+      "hint": "\"I never check social media before coffee.\" = 0%, no exceptions."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She go always to the gym on Mondays.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "❌ Two mistakes: \"go\" → \"goes\" (3rd person); word order: \"always goes\" not \"go always\"."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the correct negative sentence?",
+      "opts": [
+        "She don't usually study.",
+        "She doesn't usually study.",
+        "She doesn't usually studies.",
+        "She isn't usually study."
+      ],
+      "correct": "She doesn't usually study.",
+      "hint": "3rd person negative: doesn't + base verb. Never 'don't' for she/he/it."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Rank from most to least frequent: ___  (always / rarely / sometimes)",
+      "correct": "always / sometimes / rarely",
+      "hint": "always(100%) > sometimes(40%) > rarely(10%). The scale: always→usually→often→sometimes→rarely→never."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"How often ___ you go running?\" — \"___ a week.\"",
+      "opts": [
+        "do / Three times",
+        "does / Three times",
+        "are / Usually",
+        "is / Always"
+      ],
+      "correct": "do / Three times",
+      "hint": "\"How often do you go running?\" (I/you/we/they) → \"Three times a week.\" — frequency expression, not adverb."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "The verb \"carry\" in 3rd person: she ___.",
+      "correct": "carries",
+      "hint": "carry → carries. Consonant + y → drop y, add -ies. (study→studies, try→tries)"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Amir ___ his notes even when he is tired. (= no exceptions)",
+      "opts": [
+        "usually reviews",
+        "always reviews",
+        "sometimes review",
+        "never review"
+      ],
+      "correct": "always reviews",
+      "hint": "always = 100%, no exceptions. 3rd person: reviews (not review)."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Does she goes to WKU?\" is a correct question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Does → base verb (no -s): \"Does she go to WKU?\" ✅ Never \"goes\" after does."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is NOT possible?",
+      "opts": [
+        "She often studies late.",
+        "She studies often late.",
+        "She is often tired after class.",
+        "She is rarely on time."
+      ],
+      "correct": "She studies often late.",
+      "hint": "Adverb goes BEFORE main verb, not between verb and adverb of place. \"She often studies late.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Complete: \"___ Kamila usually have breakfast?\" — \"No, she ___.\"",
+      "correct": "Does / doesn't",
+      "hint": "Question: Does + subject + base. Short negative answer: No, she doesn't."
+    }
+  ]
+}

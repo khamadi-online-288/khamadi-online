@@ -1,0 +1,426 @@
+{
+  "id": "l56-3",
+  "moduleNum": 22,
+  "lessonNum": 3,
+  "moduleTitle": "Natural World",
+  "type": "listening",
+  "title": "An Environmental Activist",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Welcome. You've been described as Kazakhstan's youngest environmental activist. Is that a title you're comfortable with?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I'm comfortable with \"activist.\" I don't think age is the most interesting thing about the work.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Tell us how you got started. What first made you interested in environmental issues?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "I was raised in a village near the Ural River. Every summer I could see that the river was lower than the year before. The fish were disappearing. I asked my grandmother why, and she said things had been better when she was young.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "And when did you decide to become an activist rather than just someone who noticed these things?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "When I was seventeen, a factory near our village was found to have been releasing untreated chemicals into the river. The water had been contaminated for years. Nobody was being held responsible. That's when I knew I had to do something.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What happened with the factory?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Eventually it was shut down and the owners were fined. But the cleanup hasn't been completed — the riverbed is still being studied. It will take years.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What is your main focus now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Water rights. Communities in rural Kazakhstan are being denied clean water that is legally guaranteed to them. The problem is being documented by our organisation.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What gives you hope?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Young people. More young Kazakhstanis care about the environment than ever before. The attitude has been changed by climate news, by what they can see with their own eyes. That gives me a lot of hope.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What would you say to a student thinking about environmental work?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aizhan",
+      "text": "Start local. The issues that have been ignored for decades are right outside your window. Learn the science. Talk to the communities. Then act.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "activist",
+      "emoji": "✊",
+      "opts": [
+        "наблюдатель",
+        "активист",
+        "учёный",
+        "журналист"
+      ],
+      "correct": "активист"
+    },
+    {
+      "id": "p2",
+      "word": "contaminated",
+      "emoji": "☠️",
+      "opts": [
+        "чистый",
+        "загрязнённый",
+        "охраняемый",
+        "охлаждённый"
+      ],
+      "correct": "загрязнённый"
+    },
+    {
+      "id": "p3",
+      "word": "untreated",
+      "emoji": "🚫",
+      "opts": [
+        "очищенный",
+        "необработанный / неочищенный",
+        "опасный",
+        "промышленный"
+      ],
+      "correct": "необработанный / неочищенный"
+    },
+    {
+      "id": "p4",
+      "word": "water rights",
+      "emoji": "💧",
+      "opts": [
+        "право на образование",
+        "право на чистую воду",
+        "право на жильё",
+        "право на труд"
+      ],
+      "correct": "право на чистую воду"
+    },
+    {
+      "id": "p5",
+      "word": "fined",
+      "emoji": "💰",
+      "opts": [
+        "награждён",
+        "оштрафован",
+        "арестован",
+        "закрыт"
+      ],
+      "correct": "оштрафован"
+    },
+    {
+      "id": "p6",
+      "word": "documented",
+      "emoji": "📋",
+      "opts": [
+        "скрытый",
+        "задокументированный",
+        "опубликованный",
+        "проигнорированный"
+      ],
+      "correct": "задокументированный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aizhan grew up near the Ural River.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The river was getting higher each summer when Aizhan was young.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The factory was found to have been releasing untreated chemicals into the river.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The factory cleanup was completed quickly.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Aizhan's organisation is documenting water rights problems in rural Kazakhstan.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Aizhan says she has no hope because young people don't care.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "aizhan",
+      "name": "Aizhan",
+      "city": "Uralsk",
+      "emoji": "🌿",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Young environmental activist from a village near the Ural River"
+    },
+    {
+      "id": "inter",
+      "name": "Interviewer",
+      "city": "Uralsk",
+      "emoji": "🎙️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Journalist conducting the interview"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Grew up in a village near the Ural River and noticed it getting lower each year.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s2",
+      "text": "Was motivated to act when a factory was found releasing untreated chemicals into the river.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s3",
+      "text": "Says the factory was eventually shut down and the owners were fined.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s4",
+      "text": "Says their organisation is documenting water rights issues in rural Kazakhstan.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s5",
+      "text": "Says young Kazakhstanis' attitude to the environment has been changed by climate news.",
+      "correctCharId": "aizhan"
+    },
+    {
+      "id": "s6",
+      "text": "Advises students to start local and look for ignored issues outside their window.",
+      "correctCharId": "aizhan"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why was Aizhan first interested in environmental issues?",
+      "opts": [
+        "She read about it at school",
+        "The Ural River near her village was getting lower and fish disappearing",
+        "A documentary inspired her",
+        "Her parents were scientists"
+      ],
+      "correct": "The Ural River near her village was getting lower and fish disappearing",
+      "hint": "\"Every summer I could see that the river was lower than the year before. The fish were disappearing.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What made Aizhan decide to become an activist?",
+      "opts": [
+        "Winning an award",
+        "A factory was found releasing chemicals into the river — nobody held responsible",
+        "A school project",
+        "Government invitation"
+      ],
+      "correct": "A factory was found releasing chemicals into the river — nobody held responsible",
+      "hint": "\"A factory was found to have been releasing untreated chemicals into the river... Nobody was being held responsible.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The factory cleanup was completed after it was shut down.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The cleanup hasn't been completed — the riverbed is still being studied. It will take years.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Aizhan's current main focus?",
+      "opts": [
+        "Air quality",
+        "Solar energy",
+        "Water rights for rural communities",
+        "Wildlife protection"
+      ],
+      "correct": "Water rights for rural communities",
+      "hint": "\"Water rights. Communities in rural Kazakhstan are being denied clean water that is legally guaranteed to them.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What gives Aizhan hope?",
+      "opts": [
+        "Government policy",
+        "International agreements",
+        "Young Kazakhstanis caring more about the environment",
+        "New technologies"
+      ],
+      "correct": "Young Kazakhstanis caring more about the environment",
+      "hint": "\"More young Kazakhstanis care about the environment than ever before... That gives me a lot of hope.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What advice does Aizhan give to students?",
+      "opts": [
+        "Study abroad first",
+        "Join an international organisation",
+        "Start local — find issues outside your window",
+        "Focus on politics"
+      ],
+      "correct": "Start local — find issues outside your window",
+      "hint": "\"Start local. The issues that have been ignored for decades are right outside your window.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The factory owners were imprisoned.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The factory was shut down and the owners were FINED.\" — fined means given a financial penalty, not imprisoned."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Aizhan describe the change in young people's attitudes?",
+      "opts": [
+        "They are worse than before",
+        "They care more, changed by climate news and what they can see",
+        "They only care about social media",
+        "Change is very slow"
+      ],
+      "correct": "They care more, changed by climate news and what they can see",
+      "hint": "\"The attitude has been changed by climate news, by what they can see with their own eyes.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A factory was found to have been releasing chemicals.\" This uses:",
+      "opts": [
+        "Past Simple",
+        "Present Perfect",
+        "Past Perfect Continuous in passive",
+        "Future Perfect"
+      ],
+      "correct": "Past Perfect Continuous in passive",
+      "hint": "\"was found to have been RELEASING\" = complex passive + Perfect Continuous. The releasing was ongoing before it was discovered. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Communities are being denied clean water.\" \"are being denied\" is:",
+      "opts": [
+        "Present Simple passive",
+        "Present Continuous passive",
+        "Present Perfect passive",
+        "Past passive"
+      ],
+      "correct": "Present Continuous passive",
+      "hint": "\"are being denied\" = Present Continuous Passive (am/is/are + being + past participle). Ongoing denial right now. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The riverbed is still being studied.\" — \"is still being studied\" means:",
+      "opts": [
+        "The study finished",
+        "The study is ongoing right now",
+        "The study will start soon",
+        "No study is planned"
+      ],
+      "correct": "The study is ongoing right now",
+      "hint": "\"is being studied\" = Present Continuous Passive. The studying is happening now and is not finished. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The factory ___ (eventually shut) down and the owners ___ (fine).\"",
+      "correct": "was shut / were fined",
+      "hint": "Past Simple Passive. \"was SHUT down\" / \"were FINED.\" ✅ The factory = singular (was), owners = plural (were)."
+    }
+  ]
+}

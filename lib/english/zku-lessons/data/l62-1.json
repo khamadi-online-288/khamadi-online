@@ -1,0 +1,548 @@
+{
+  "id": "l62-1",
+  "moduleNum": 4,
+  "lessonNum": 1,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "reading",
+  "title": "Behind the Headline: How News Is Written",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "Open any international newspaper and count the passive constructions on the front page. The exercise is instructive: on a typical day, you will find that between a third and a half of all clauses in news writing use passive voice. \"Three people were killed.\" \"The building was destroyed by fire.\" \"A new policy has been announced.\" \"The suspects are being questioned.\" These are not stylistic accidents — they are the deliberate choices of writers who understand exactly when the passive serves communication better than the active.",
+    "The passive is the natural choice in news writing for several structural reasons. First, news stories are almost always focused on the event or its victim, not the agent. When a building burns down, the building is the news — not the fire. \"The building was destroyed\" puts the building first, which is where reader attention belongs. \"Fire destroyed the building\" puts fire first, which shifts attention away from the more newsworthy subject.",
+    "Second, in breaking news, the agent is often unknown. \"A bomb has been detonated in the city centre\" is more factually accurate than \"someone has detonated a bomb in the city centre\" — because at the time of writing, no one knows who detonated it. The passive allows journalists to report the event without overstating what is known. This is not evasion — it is precision.",
+    "Third, the passive allows what linguists call \"topic continuity.\" When a news story follows a particular subject through a sequence of events, keeping that subject in topic position throughout — \"he was arrested, was charged, was released on bail, and has since been placed under surveillance\" — creates coherence and readability that active voice would disrupt.",
+    "The get passive is less common in formal news writing but appears in more conversational journalistic genres — blogs, comment pieces, human interest stories. \"She got fired after posting a photo online.\" \"The candidates got selected through a genuinely competitive process.\" \"The deal got done in the early hours of the morning.\" The get passive typically emphasises the subject's experience of the event — often with overtones of surprise, inconvenience, or fortune.",
+    "Academic and scientific writing follows similar principles. When researchers report experimental findings, the passive is the standard: \"Samples were collected. The data was analysed. The hypothesis was supported.\" This is not because passive sounds more prestigious — it is because the researcher's identity is genuinely irrelevant to the findings. What matters is not who collected the samples but that they were collected, and in what way.",
+    "Understanding these conventions is not just useful for writing — it is essential for reading critically. When passive voice hides the agent, ask why. When a press release says \"mistakes were made,\" notice what is missing. When a company states that \"a decision has been taken to reduce the workforce,\" the passive is doing political work: it reports the decision without attaching it to a decision-maker. Passive voice is a tool. Like all tools, it can be used honestly or dishonestly."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Rustam",
+      "text": "I've been trying to write more passively in my academic essays. But I'm not sure when to use it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Think about what you want to focus on. Passive puts the object or result first — the action, not the actor.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "So in my economics essay, should I say \"the government implemented the policy\" or \"the policy was implemented by the government\"?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What are you writing about — the government or the policy?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "The policy and its effects.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Then passive: \"The policy was implemented.\" The government isn't the point — the policy is. You don't even need \"by the government\" if it's obvious.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "And when someone gets fired, is that \"get passive\"?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes. \"She got fired\" emphasises what happened to her — it's more experiential. \"She was fired\" is more neutral.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "breaking news",
+      "ru": "срочные новости",
+      "context": "\"In breaking news, the agent is often unknown.\" = news being reported as it happens."
+    },
+    {
+      "phrase": "topic continuity",
+      "ru": "тематическая непрерывность",
+      "context": "\"Topic continuity.\" = keeping the same subject throughout a sequence of sentences."
+    },
+    {
+      "phrase": "agent",
+      "ru": "агент / исполнитель",
+      "context": "\"The agent is unknown.\" = the person or thing performing the action."
+    },
+    {
+      "phrase": "precision",
+      "ru": "точность",
+      "context": "\"This is not evasion — it is precision.\" = using passive to be accurate, not to hide."
+    },
+    {
+      "phrase": "genre",
+      "ru": "жанр",
+      "context": "\"Journalistic genres.\" = types or categories of writing with their own conventions."
+    },
+    {
+      "phrase": "overstating",
+      "ru": "преувеличивать",
+      "context": "\"Without overstating what is known.\" = reporting facts without exaggerating certainty."
+    },
+    {
+      "phrase": "coherence",
+      "ru": "связность",
+      "context": "\"Creates coherence and readability.\" = logical connection between parts of a text."
+    },
+    {
+      "phrase": "convention",
+      "ru": "принятое правило / норма",
+      "context": "\"Understanding these conventions.\" = accepted ways of doing things in a particular field."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "deliberate",
+      "ipa": "/dɪˈlɪbərɪt/",
+      "pos": "adjective",
+      "ru": "намеренный / обдуманный",
+      "kz": "қасақана",
+      "emoji": "🎯",
+      "definition": "done intentionally; fully considered",
+      "example": "\"These are not accidents — they are the deliberate choices of skilled writers.\"",
+      "collocations": [
+        "deliberate choice",
+        "deliberate act",
+        "deliberate use"
+      ]
+    },
+    {
+      "en": "agent",
+      "ipa": "/ˈeɪdʒənt/",
+      "pos": "noun",
+      "ru": "агент / исполнитель",
+      "kz": "орындаушы",
+      "emoji": "👤",
+      "definition": "the person or thing performing the action in a sentence",
+      "example": "\"Fire destroyed the building.\" — fire is the agent. In passive, the agent may be omitted.",
+      "collocations": [
+        "grammatical agent",
+        "hidden agent",
+        "omit the agent"
+      ]
+    },
+    {
+      "en": "coherence",
+      "ipa": "/kəʊˈhɪərəns/",
+      "pos": "noun",
+      "ru": "связность / логичность",
+      "kz": "жүйелілік",
+      "emoji": "🧩",
+      "definition": "the quality of forming a logical and consistent whole",
+      "example": "\"Passive creates coherence and readability.\" — parts connect logically.",
+      "collocations": [
+        "textual coherence",
+        "logical coherence",
+        "improve coherence"
+      ]
+    },
+    {
+      "en": "evasion",
+      "ipa": "/ɪˈveɪʒən/",
+      "pos": "noun",
+      "ru": "уклонение / избегание",
+      "kz": "жалтару",
+      "emoji": "🌫️",
+      "definition": "the act of avoiding something, especially a question or responsibility",
+      "example": "\"This is not evasion — it is precision.\" — not hiding, just accurate reporting.",
+      "collocations": [
+        "tax evasion",
+        "deliberate evasion",
+        "evasion of responsibility"
+      ]
+    },
+    {
+      "en": "overtone",
+      "ipa": "/ˈəʊvətəʊn/",
+      "pos": "noun",
+      "ru": "оттенок / подтекст",
+      "kz": "астарлы мән",
+      "emoji": "🎵",
+      "definition": "a subtle quality or implication beyond the main meaning",
+      "example": "\"Get passive has overtones of surprise or inconvenience.\"",
+      "collocations": [
+        "political overtones",
+        "emotional overtones",
+        "carry overtones"
+      ]
+    },
+    {
+      "en": "surveillance",
+      "ipa": "/səˈveɪləns/",
+      "pos": "noun",
+      "ru": "наблюдение / слежка",
+      "kz": "бақылау",
+      "emoji": "📷",
+      "definition": "close observation or monitoring of a person or place",
+      "example": "\"He has been placed under surveillance.\" — passive + state result.",
+      "collocations": [
+        "under surveillance",
+        "mass surveillance",
+        "surveillance system"
+      ]
+    },
+    {
+      "en": "workforce",
+      "ipa": "/ˈwɜːkfɔːs/",
+      "pos": "noun",
+      "ru": "рабочая сила / персонал",
+      "kz": "жұмыс күші",
+      "emoji": "👥",
+      "definition": "all the people engaged in or available for work",
+      "example": "\"A decision has been taken to reduce the workforce.\" — passive hides the decision-maker.",
+      "collocations": [
+        "reduce the workforce",
+        "skilled workforce",
+        "entire workforce"
+      ]
+    },
+    {
+      "en": "instructive",
+      "ipa": "/ɪnˈstrʌktɪv/",
+      "pos": "adjective",
+      "ru": "поучительный / познавательный",
+      "kz": "тағылымды",
+      "emoji": "💡",
+      "definition": "providing useful information; educational",
+      "example": "\"The exercise is instructive.\" — counting passive constructions teaches you about news writing.",
+      "collocations": [
+        "highly instructive",
+        "instructive example",
+        "find it instructive"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "deliberate",
+      "emoji": "🎯",
+      "opts": [
+        "случайный",
+        "намеренный / обдуманный",
+        "неожиданный",
+        "формальный"
+      ],
+      "correct": "намеренный / обдуманный"
+    },
+    {
+      "id": "p2",
+      "word": "agent",
+      "emoji": "👤",
+      "opts": [
+        "объект",
+        "агент / исполнитель",
+        "тема",
+        "результат"
+      ],
+      "correct": "агент / исполнитель"
+    },
+    {
+      "id": "p3",
+      "word": "coherence",
+      "emoji": "🧩",
+      "opts": [
+        "бессвязность",
+        "связность / логичность",
+        "краткость",
+        "точность"
+      ],
+      "correct": "связность / логичность"
+    },
+    {
+      "id": "p4",
+      "word": "evasion",
+      "emoji": "🌫️",
+      "opts": [
+        "точность",
+        "уклонение / избегание",
+        "признание",
+        "объяснение"
+      ],
+      "correct": "уклонение / избегание"
+    },
+    {
+      "id": "p5",
+      "word": "overtone",
+      "emoji": "🎵",
+      "opts": [
+        "основное значение",
+        "оттенок / подтекст",
+        "факт",
+        "правило"
+      ],
+      "correct": "оттенок / подтекст"
+    },
+    {
+      "id": "p6",
+      "word": "instructive",
+      "emoji": "💡",
+      "opts": [
+        "скучный",
+        "поучительный",
+        "сложный",
+        "необязательный"
+      ],
+      "correct": "поучительный"
+    }
+  ],
+  "task1Bank": [
+    "event",
+    "unknown",
+    "topic continuity",
+    "get",
+    "scientist",
+    "precision",
+    "agent",
+    "political"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "News writing focuses on the ___ or its victim, not the agent.",
+      "correct": "event"
+    },
+    {
+      "id": "t2",
+      "question": "In breaking news, the agent is often ___ .",
+      "correct": "unknown"
+    },
+    {
+      "id": "t3",
+      "question": "Linguists call keeping the same subject throughout \"___ \".",
+      "correct": "topic continuity"
+    },
+    {
+      "id": "t4",
+      "question": "The \"___ passive\" emphasises the subject's experience of the event.",
+      "correct": "get"
+    },
+    {
+      "id": "t5",
+      "question": "In academic writing, the researcher's identity is like a ___ — irrelevant to findings.",
+      "correct": "scientist"
+    },
+    {
+      "id": "t6",
+      "question": "Reporting the event without overstating facts is called ___ .",
+      "correct": "precision"
+    },
+    {
+      "id": "t7",
+      "question": "\"Mistakes were made\" — passive voice hides the ___ .",
+      "correct": "agent"
+    },
+    {
+      "id": "t8",
+      "question": "\"A decision has been taken to reduce the workforce\" — passive does ___ work.",
+      "correct": "political"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "The text says passive voice is overused and should be avoided.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Passive is natural in news because it focuses on events, not agents.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "In breaking news, using passive overstates what is known.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "\"Get passive\" typically appears in formal news writing.",
+      "correct": "false"
+    },
+    {
+      "id": "c5",
+      "statement": "Academic writing uses passive because the researcher's identity is usually irrelevant.",
+      "correct": "true"
+    },
+    {
+      "id": "c6",
+      "statement": "Kamila advises Rustam to use active voice when writing about the policy's effects.",
+      "correct": "false"
+    },
+    {
+      "id": "c7",
+      "statement": "\"Mistakes were made\" is an example of passive that hides responsibility.",
+      "correct": "true"
+    },
+    {
+      "id": "c8",
+      "statement": "The text says passive can be used both honestly and dishonestly.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does news writing use so much passive voice?",
+      "opts": [
+        "Journalists prefer formal language",
+        "Passive focuses on events and victims; agent is often unknown or irrelevant",
+        "Active voice sounds uneducated",
+        "Style guidelines require it"
+      ],
+      "correct": "Passive focuses on events and victims; agent is often unknown or irrelevant",
+      "hint": "\"News stories are focused on the event or its victim, not the agent.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"topic continuity\" mean in the text?",
+      "opts": [
+        "Writing only one topic per article",
+        "Keeping the same subject in topic position throughout a sequence",
+        "Using the same reporting verb",
+        "Writing in the same tense"
+      ],
+      "correct": "Keeping the same subject in topic position throughout a sequence",
+      "hint": "\"Keeping that subject in topic position throughout — creates coherence and readability.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What distinguishes the \"get passive\" from \"be passive\"?",
+      "opts": [
+        "Get passive is more formal",
+        "Be passive is only for news",
+        "Get passive emphasises the subject's experience, often with overtones of surprise or inconvenience",
+        "They are identical"
+      ],
+      "correct": "Get passive emphasises the subject's experience, often with overtones of surprise or inconvenience",
+      "hint": "\"The get passive typically emphasises the subject's experience of the event — often with overtones of surprise, inconvenience, or fortune.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says passive voice in academic writing is pretentious.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"This is not because passive sounds more prestigious.\" — it's because the researcher's identity is genuinely irrelevant. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Mistakes were made\" is an example of passive hiding the ___ .",
+      "correct": "agent",
+      "hint": "Passive hides the agent (who made the mistakes). \"Mistakes were made\" = no one named. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say is the key question for choosing passive vs active?",
+      "opts": [
+        "Which sounds more academic?",
+        "What are you writing about — the actor or the subject?",
+        "Which tense is being used?",
+        "How formal is the text?"
+      ],
+      "correct": "What are you writing about — the actor or the subject?",
+      "hint": "\"What are you writing about — the government or the policy?\" — the focus determines the voice. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"These are deliberate choices.\" \"Deliberate\" means:",
+      "opts": [
+        "Accidental",
+        "Intentional and carefully considered",
+        "Complex",
+        "Traditional"
+      ],
+      "correct": "Intentional and carefully considered",
+      "hint": "\"deliberate\" = done on purpose; fully thought through."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"This is not evasion — it is precision.\" \"Evasion\" means:",
+      "opts": [
+        "Exactness",
+        "Dishonesty",
+        "Avoiding something; not being direct",
+        "Excellence"
+      ],
+      "correct": "Avoiding something; not being direct",
+      "hint": "\"evasion\" = avoiding a question, fact, or responsibility; being indirect."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A new policy has been announced.\" — Tense:",
+      "opts": [
+        "Past Simple Passive",
+        "Present Continuous Passive",
+        "Present Perfect Passive",
+        "Future Passive"
+      ],
+      "correct": "Present Perfect Passive",
+      "hint": "\"has been announced\" = has/have + been + pp = Present Perfect Passive. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She got fired.\" vs \"She was fired.\" — The key difference:",
+      "opts": [
+        "Tense",
+        "\"Got fired\" is informal and emphasises her experience; \"was fired\" is neutral",
+        "\"Was fired\" is passive, \"got fired\" is active",
+        "No difference"
+      ],
+      "correct": "\"Got fired\" is informal and emphasises her experience; \"was fired\" is neutral",
+      "hint": "\"Get passive emphasises the subject's experience.\" \"Was fired\" = neutral. \"Got fired\" = experiential. ✅"
+    }
+  ]
+}

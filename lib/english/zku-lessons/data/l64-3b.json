@@ -1,0 +1,430 @@
+{
+  "id": "l64-3b",
+  "moduleNum": 6,
+  "lessonNum": 4,
+  "moduleTitle": "Present Perfect: Simple vs Continuous",
+  "type": "listening",
+  "title": "A Career Interview: Achievements and Ongoing Work",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Thank you for joining us. You've had an interesting career path. Can you tell us where you've come from and where you are now?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "Of course. I've been working in environmental science for six years. I started as a research assistant and I've gradually moved into a more advisory role.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What has your most significant work been?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "I've contributed to two national environmental reports. We've also established a monitoring network across five regions of Kazakhstan that hasn't existed before.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "That's impressive. What are you working on at the moment?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "We've been conducting a three-year study of industrial pollution near former mining sites. We've collected over 2,000 samples so far and we've been building a database to make the data publicly accessible.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Have you published any of the findings yet?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "We've published preliminary findings in two journals. But the full study hasn't been completed — we've been refining the methodology as we go.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "How has the field of environmental science changed since you started?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "Dramatically. The funding has increased. More universities have been establishing environmental programmes. And the government has passed two new pieces of environmental legislation in the last three years.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Have you noticed any change in public awareness?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "Yes. Public interest has grown significantly. Young people especially have been engaging with environmental issues in ways that weren't happening ten years ago.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "What do you hope to achieve in the next five years?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aliya",
+      "text": "I've set a personal goal to complete the current study and get the database fully operational. And I've been developing a proposal for a regional environmental training programme. I believe we've only just started.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "advisory role",
+      "emoji": "💼",
+      "opts": [
+        "исследовательская должность",
+        "консультативная роль",
+        "административная работа",
+        "технический персонал"
+      ],
+      "correct": "консультативная роль"
+    },
+    {
+      "id": "p2",
+      "word": "monitoring network",
+      "emoji": "🌐",
+      "opts": [
+        "локальная сеть",
+        "сеть мониторинга",
+        "исследовательский центр",
+        "база данных"
+      ],
+      "correct": "сеть мониторинга"
+    },
+    {
+      "id": "p3",
+      "word": "preliminary",
+      "emoji": "📋",
+      "opts": [
+        "окончательный",
+        "предварительный",
+        "подробный",
+        "приблизительный"
+      ],
+      "correct": "предварительный"
+    },
+    {
+      "id": "p4",
+      "word": "legislation",
+      "emoji": "⚖️",
+      "opts": [
+        "постановление суда",
+        "законодательство",
+        "регулирование",
+        "разрешение"
+      ],
+      "correct": "законодательство"
+    },
+    {
+      "id": "p5",
+      "word": "operational",
+      "emoji": "⚙️",
+      "opts": [
+        "в ремонте",
+        "действующий / рабочий",
+        "в разработке",
+        "закрытый"
+      ],
+      "correct": "действующий / рабочий"
+    },
+    {
+      "id": "p6",
+      "word": "engaging with",
+      "emoji": "🤝",
+      "opts": [
+        "игнорируя",
+        "активно участвуя в",
+        "изучая",
+        "поддерживая"
+      ],
+      "correct": "активно участвуя в"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Aliya has been working in environmental science for six years.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Aliya has contributed to three national environmental reports.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The monitoring network has existed for many years before Aliya's team established it.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The team has collected over 2,000 samples for the pollution study.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The full three-year study has been completed.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "The government has passed two new pieces of environmental legislation recently.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "aliya",
+      "name": "Aliya",
+      "city": "Karagandy",
+      "emoji": "🌿",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Environmental scientist — naturally mixes PPS (achievements) and PPC (ongoing work) throughout"
+    },
+    {
+      "id": "inter",
+      "name": "Interviewer",
+      "city": "Uralsk",
+      "emoji": "🎙️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Interviewer asking about career history and current work"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been working in environmental science for six years, moving into an advisory role.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s2",
+      "text": "Has contributed to two national reports and helped establish a monitoring network across five regions.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s3",
+      "text": "Has been conducting a three-year pollution study; collected 2,000+ samples and been building a database.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s4",
+      "text": "Has published preliminary findings in two journals but full study hasn't been completed.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s5",
+      "text": "Notes public interest has grown; young people have been engaging with environmental issues.",
+      "correctCharId": "aliya"
+    },
+    {
+      "id": "s6",
+      "text": "Has been developing a proposal for a regional environmental training programme.",
+      "correctCharId": "aliya"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What role has Aliya gradually moved into?",
+      "opts": [
+        "Research assistant",
+        "Teaching",
+        "Advisory role",
+        "Government official"
+      ],
+      "correct": "Advisory role",
+      "hint": "\"I've gradually moved into a more advisory role.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Aliya's team established that didn't exist before?",
+      "opts": [
+        "A new university",
+        "A monitoring network across five regions",
+        "A government committee",
+        "An international programme"
+      ],
+      "correct": "A monitoring network across five regions",
+      "hint": "\"We've established a monitoring network across five regions of Kazakhstan that hasn't existed before.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many samples has the team collected for the pollution study?",
+      "opts": [
+        "500",
+        "1,000",
+        "2,000+",
+        "5,000"
+      ],
+      "correct": "2,000+",
+      "hint": "\"We've collected over 2,000 samples so far.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Have they published findings from the pollution study?",
+      "opts": [
+        "No — nothing yet",
+        "Yes — preliminary findings in two journals",
+        "Yes — the full study",
+        "Only in newspapers"
+      ],
+      "correct": "Yes — preliminary findings in two journals",
+      "hint": "\"We've published preliminary findings in two journals.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why has the full study not been completed?",
+      "opts": [
+        "Funding ran out",
+        "The team has been refining the methodology as they go",
+        "Political issues",
+        "Loss of data"
+      ],
+      "correct": "The team has been refining the methodology as they go",
+      "hint": "\"The full study hasn't been completed — we've been refining the methodology as we go.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What change has Aliya noticed in public awareness?",
+      "opts": [
+        "Decreasing interest",
+        "No change",
+        "Public interest has grown; young people have been engaging more",
+        "Interest only among experts"
+      ],
+      "correct": "Public interest has grown; young people have been engaging more",
+      "hint": "\"Public interest has grown significantly. Young people especially have been engaging with environmental issues.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What has Aliya been developing?",
+      "opts": [
+        "A new monitoring device",
+        "A government policy",
+        "A proposal for a regional environmental training programme",
+        "A new research database"
+      ],
+      "correct": "A proposal for a regional environmental training programme",
+      "hint": "\"I've been developing a proposal for a regional environmental training programme.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How has the field changed since Aliya started?",
+      "opts": [
+        "Declined",
+        "Funding has increased; more university programmes established; new legislation passed",
+        "Remained the same",
+        "Become less international"
+      ],
+      "correct": "Funding has increased; more university programmes established; new legislation passed",
+      "hint": "\"Funding has increased. More universities have been establishing programmes. The government has passed two new pieces of legislation.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We've been conducting a three-year study.\" — PPC because:",
+      "opts": [
+        "Study is stative",
+        "The study has finished",
+        "The study started in the past and is still ongoing — three years in progress",
+        "\"A study\" requires PPC"
+      ],
+      "correct": "The study started in the past and is still ongoing — three years in progress",
+      "hint": "PPC = ongoing activity, still in progress. \"Been conducting\" = still conducting. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We've contributed to two national reports.\" — PPS because:",
+      "opts": [
+        "It's happening now",
+        "It counts completed achievements",
+        "\"Two\" requires PPS",
+        "Contributing is stative"
+      ],
+      "correct": "It counts completed achievements",
+      "hint": "PPS for counting: TWO national reports = two completed contributions. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The government has passed two new pieces of legislation.\" — PPS signals:",
+      "opts": [
+        "Ongoing process",
+        "Completed events with present relevance",
+        "Future plans",
+        "Past Simple would be better"
+      ],
+      "correct": "Completed events with present relevance",
+      "hint": "PPS = past events whose results matter NOW. The legislation has been passed — it exists and is relevant. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"How long ___ (you / work) in this field?\" — use correct tense.",
+      "correct": "have you been working",
+      "hint": "\"How long HAVE YOU BEEN WORKING in this field?\" — duration up to now = PPC. ✅"
+    }
+  ]
+}

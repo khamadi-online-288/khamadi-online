@@ -1,0 +1,353 @@
+{
+  "id": "l26-1",
+  "moduleNum": 10,
+  "lessonNum": 1,
+  "moduleTitle": "Advice & Rules",
+  "title": "The WKU Student Handbook",
+  "type": "reading",
+  "xp": 40,
+  "duration": 20,
+  "paragraphs": [
+    "Welcome to WKU — Zhaksylyk Karim University in Uralsk! Every new student receives a copy of the WKU Student Handbook on their first day. The handbook explains the rules, responsibilities, and expectations for all students. Reading it carefully is one of the most important things a new student must do.",
+    "Academic rules are taken very seriously at WKU. Students must attend at least 80% of all classes. If you miss more than three consecutive lessons without a valid reason, you must provide a medical certificate or written explanation. Students must not use mobile phones during lectures unless the lecturer gives permission. Academic dishonesty — including plagiarism and cheating in exams — is strictly prohibited. Students who cheat may be expelled from the university.",
+    "The campus has specific rules about behaviour and respect. Students must speak politely to all staff and fellow students at all times. You must not make noise in the library, study rooms, or corridors during exam periods. Smoking is prohibited on campus — students who smoke must go to the designated area outside the main gate. Students don't have to wear a uniform, but clothing must be appropriate and respectful.",
+    "Dormitory residents have additional responsibilities. You have to sign in and out of the dormitory if you return after 11pm. Guests are allowed until 10pm — they don't have to show identification during daytime hours, but they must register at the reception desk. You shouldn't play loud music after 10pm as it disturbs other residents. The kitchen and common areas must be kept clean at all times.",
+    "WKU also has rules about digital conduct. Students must not post disrespectful content about the university or its staff on social media. You should respond to official emails within 24 hours. You must not share your student login details with others. If your device is lost or stolen, you should report it to the IT department immediately.",
+    "Finally, WKU encourages students to get involved in campus life. You don't have to join a club or society, but it is strongly recommended. Studies show that students who participate in extracurricular activities perform better academically. You should try at least one new activity each semester. The Student Union office is open every weekday — they will be happy to help you find the right club for your interests."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "must + BASE form (obligation)",
+      "ru": "должен (обязан)",
+      "context": "Students must attend 80% of classes."
+    },
+    {
+      "phrase": "must not / mustn't + BASE form (prohibition)",
+      "ru": "нельзя / запрещено",
+      "context": "You must not use mobile phones during lectures."
+    },
+    {
+      "phrase": "have to + BASE form (external obligation)",
+      "ru": "нужно (вынужден)",
+      "context": "You have to sign in after 11pm."
+    },
+    {
+      "phrase": "don't have to + BASE form (no obligation)",
+      "ru": "не обязан (но можешь)",
+      "context": "Students don't have to wear a uniform."
+    },
+    {
+      "phrase": "should + BASE form (advice)",
+      "ru": "следует / рекомендуется",
+      "context": "You should respond to emails within 24 hours."
+    },
+    {
+      "phrase": "shouldn't + BASE form (negative advice)",
+      "ru": "не следует",
+      "context": "You shouldn't play loud music after 10pm."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "prohibited",
+      "ipa": "/prəˈhɪbɪtɪd/",
+      "pos": "adjective",
+      "ru": "запрещённый",
+      "kz": "тыйым салынған",
+      "emoji": "🚫",
+      "definition": "officially forbidden by a rule or law",
+      "example": "Smoking is prohibited on the WKU campus.",
+      "collocations": [
+        "strictly prohibited",
+        "prohibited by law",
+        "prohibited activity"
+      ]
+    },
+    {
+      "en": "plagiarism",
+      "ipa": "/ˈpleɪdʒərɪzəm/",
+      "pos": "noun",
+      "ru": "плагиат",
+      "kz": "плагиат",
+      "emoji": "📋",
+      "definition": "copying someone else's work and presenting it as your own",
+      "example": "Plagiarism is a serious form of academic dishonesty.",
+      "collocations": [
+        "commit plagiarism",
+        "plagiarism check",
+        "academic plagiarism"
+      ]
+    },
+    {
+      "en": "expelled",
+      "ipa": "/ɪkˈspeld/",
+      "pos": "adjective",
+      "ru": "отчисленный",
+      "kz": "шығарылған",
+      "emoji": "🚪",
+      "definition": "officially required to leave a school or university",
+      "example": "Students who cheat may be expelled from the university.",
+      "collocations": [
+        "get expelled",
+        "be expelled for",
+        "risk being expelled"
+      ]
+    },
+    {
+      "en": "designated",
+      "ipa": "/ˈdezɪɡneɪtɪd/",
+      "pos": "adjective",
+      "ru": "специально отведённый",
+      "kz": "арнайы белгіленген",
+      "emoji": "📍",
+      "definition": "officially chosen for a particular purpose",
+      "example": "Smokers must use the designated area outside the gate.",
+      "collocations": [
+        "designated area",
+        "designated driver",
+        "designated space"
+      ]
+    },
+    {
+      "en": "extracurricular",
+      "ipa": "/ˌekstrəkəˈrɪkjʊlər/",
+      "pos": "adjective",
+      "ru": "внеучебный / внеурочный",
+      "kz": "оқудан тыс",
+      "emoji": "⚽",
+      "definition": "activities outside the normal academic curriculum",
+      "example": "Students who join extracurricular activities perform better.",
+      "collocations": [
+        "extracurricular activity",
+        "extracurricular programme",
+        "join an extracurricular"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "pt1",
+      "word": "prohibited",
+      "emoji": "🚫",
+      "opts": [
+        "recommended",
+        "officially forbidden",
+        "required",
+        "optional"
+      ],
+      "correct": "officially forbidden"
+    },
+    {
+      "id": "pt2",
+      "word": "plagiarism",
+      "emoji": "📋",
+      "opts": [
+        "studying hard",
+        "copying someone's work as your own",
+        "attending lectures",
+        "failing an exam"
+      ],
+      "correct": "copying someone's work as your own"
+    },
+    {
+      "id": "pt3",
+      "word": "extracurricular",
+      "emoji": "⚽",
+      "opts": [
+        "subjects in the timetable",
+        "activities outside normal lessons",
+        "library books",
+        "exam results"
+      ],
+      "correct": "activities outside normal lessons"
+    }
+  ],
+  "task1Bank": [
+    "must attend",
+    "must not use",
+    "have to sign",
+    "don't have to wear",
+    "should try",
+    "shouldn't play",
+    "must not post",
+    "should report"
+  ],
+  "task1Items": [
+    {
+      "id": "t1a",
+      "question": "Students ___ at least 80% of all classes.",
+      "correct": "must attend"
+    },
+    {
+      "id": "t1b",
+      "question": "Students ___ mobile phones during lectures.",
+      "correct": "must not use"
+    },
+    {
+      "id": "t1c",
+      "question": "Students ___ a uniform, but clothing must be appropriate.",
+      "correct": "don't have to wear"
+    },
+    {
+      "id": "t1d",
+      "question": "Dormitory residents ___ in after 11pm.",
+      "correct": "have to sign"
+    },
+    {
+      "id": "t1e",
+      "question": "You ___ at least one new activity each semester.",
+      "correct": "should try"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "t2a",
+      "statement": "Students must attend at least 80% of classes.",
+      "correct": "true"
+    },
+    {
+      "id": "t2b",
+      "statement": "Students must wear a uniform at WKU.",
+      "correct": "false"
+    },
+    {
+      "id": "t2c",
+      "statement": "Smoking is completely banned everywhere on campus.",
+      "correct": "false"
+    },
+    {
+      "id": "t2d",
+      "statement": "Students must not share their login details with others.",
+      "correct": "true"
+    },
+    {
+      "id": "t2e",
+      "statement": "Joining a club is compulsory at WKU.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What percentage of classes must WKU students attend?",
+      "opts": [
+        "60%",
+        "70%",
+        "80%",
+        "90%"
+      ],
+      "correct": "80%",
+      "hint": "\"Students must attend at least 80% of all classes.\""
+    },
+    {
+      "id": "q2",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Students at WKU must wear a uniform.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Students don't have to wear a uniform, but clothing must be appropriate.\""
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What may happen to students who cheat in exams?",
+      "opts": [
+        "They get a warning",
+        "They must pay a fine",
+        "They may be expelled",
+        "They must retake the exam"
+      ],
+      "correct": "They may be expelled",
+      "hint": "\"Students who cheat may be expelled from the university.\""
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Dormitory residents must sign in if they return after ___ pm.",
+      "correct": "11",
+      "hint": "\"You have to sign in and out of the dormitory if you return after 11pm.\""
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Where must smokers go on campus?",
+      "opts": [
+        "Outside the main gate",
+        "To the library",
+        "To the dormitory",
+        "To the student canteen"
+      ],
+      "correct": "Outside the main gate",
+      "hint": "\"students who smoke must go to the designated area outside the main gate.\""
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Joining a club or society at WKU is mandatory.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"You don't have to join a club or society, but it is strongly recommended.\""
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What should students do if their device is lost or stolen?",
+      "opts": [
+        "Tell their parents",
+        "Post about it on social media",
+        "Report it to the IT department",
+        "Contact the police first"
+      ],
+      "correct": "Report it to the IT department",
+      "hint": "\"you should report it to the IT department immediately.\""
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "\"Prohibited\" means:",
+      "opts": [
+        "Recommended",
+        "Optional",
+        "Officially forbidden",
+        "Required"
+      ],
+      "correct": "Officially forbidden",
+      "hint": "\"Prohibited\" = officially not allowed; forbidden by rules or law."
+    }
+  ]
+}

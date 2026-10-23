@@ -1,0 +1,295 @@
+{
+  "id": "l11-g2",
+  "moduleNum": 11,
+  "lessonNum": 4,
+  "moduleTitle": "Last weekend",
+  "title": "Past Simple: spelling & negatives",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Simple — правописание -ed и отрицание",
+  "grammarNote": "В прошлом уроке мы изучили базовое правило: глагол + -ed. Но у некоторых глаголов есть ОСОБЫЕ правила написания. И теперь мы изучим, как делать ОТРИЦАНИЕ в Past Simple.\n\n📌 Правила написания -ed (4 правила):\n\n① Большинство глаголов: просто + -ed\ncall → called · walk → walked · clean → cleaned · watch → watched\n\n② Глагол оканчивается на -e: просто + -d (не -ed!)\npractise → practised · arrive → arrived · use → used · like → liked\n\n③ Глагол оканчивается на согласная + -y: замени -y на -i, добавь -ed\nstudy → studied · try → tried · carry → carried · hurry → hurried\n(Но: play → played · stay → stayed — гласная + y, правило не применяется!)\n\n④ Короткий глагол (согл. + гласн. + согл.): удвой последнюю согласную + -ed\nstop → stopped · plan → planned · shop → shopped · jog → jogged\n\n❌ ОТРИЦАНИЕ в Past Simple:\nDidn't + [base form глагола] (НИКОГДА с -ed!)\n\"I didn't clean.\" (НЕ \"I didn't cleaned.\")\n\"She didn't cook.\" (НЕ \"She didn't cooked.\")\n\nПочему? Потому что \"did\" уже показывает прошедшее время — глагол после didn't всегда в БАЗОВОЙ форме!",
+  "grammarTable": [
+    {
+      "subject": "① + -ed (обычный)",
+      "verb": "call → called",
+      "short": "просто + ed",
+      "example": "called · walked · cleaned · watched · listened · stayed · talked"
+    },
+    {
+      "subject": "② + -d (на -e)",
+      "verb": "practise → practised",
+      "short": "убери -e, + d",
+      "example": "practised · arrived · liked · used · moved · decided · smiled"
+    },
+    {
+      "subject": "③ согл.+y → -ied",
+      "verb": "study → studied",
+      "short": "-y → -ied",
+      "example": "studied · tried · carried · hurried · worried · replied · tidied"
+    },
+    {
+      "subject": "④ СГС → удвой + -ed",
+      "verb": "stop → stopped",
+      "short": "double + ed",
+      "example": "stopped · planned · shopped · jogged · dropped · preferred · admitted"
+    },
+    {
+      "subject": "Didn't + base form (–)",
+      "verb": "didn't + clean",
+      "short": "NO -ed after didn't!",
+      "example": "I didn't clean. · She didn't cook. · We didn't walk. · They didn't study."
+    },
+    {
+      "subject": "⚠️ Частая ошибка:",
+      "verb": "—",
+      "short": "—",
+      "example": "❌ \"She didn't cooked.\" → ✅ \"She didn't cook.\" (base form — без -ed!)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Правила написания -ed — подробно",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Правило 1: просто + -ed",
+          "example": "call → call-ED · clean → clean-ED · watch → watch-ED · listen → listen-ED · help → help-ED"
+        },
+        {
+          "form": "Правило 2: оканчивается на -e → + -d",
+          "example": "practis-E → practisED · arriv-E → arrivED · lik-E → likED · us-E → usED · smil-E → smilED"
+        },
+        {
+          "form": "   ⚠️ НЕ добавляй -ed если уже -e:",
+          "example": "❌ \"practise-ed\" ❌ \"like-ed\" → ✅ \"practised\" ✅ \"liked\" (только -d, не -ed!)"
+        },
+        {
+          "form": "Правило 3: согл. + y → -ied",
+          "example": "stud-Y → studIED · tr-Y → trIED · carr-Y → carrIED · hurr-Y → hurrIED · worr-Y → worrIED"
+        },
+        {
+          "form": "   ⚠️ НО: гласная + y → просто -ed:",
+          "example": "play → played (a+y) ✅ · stay → stayed (a+y) ✅ · enjoy → enjoyed (o+y) ✅ — НЕ playied!"
+        },
+        {
+          "form": "Правило 4: СГС (1 слог) → удвой + -ed",
+          "example": "st-O-p → stopped · pl-A-n → planned · sh-O-p → shopped · jo-G → jogged\n⚠️ НЕ удваивай если 2+ гласных: look → looked (не lookked!)"
+        }
+      ]
+    },
+    {
+      "title": "② Отрицание: didn't + BASE FORM (без -ed!)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "Структура: Subject + DIDN'T + base verb",
+          "example": "\"I didn't clean my room.\" · \"She didn't cook.\" · \"We didn't walk to the park.\""
+        },
+        {
+          "form": "Для ВСЕХ лиц — didn't (не don't/doesn't!)",
+          "example": "\"He didn't study.\" ✅ (не \"He doesn't studied\" ✅). В прошлом — всегда didn't!"
+        },
+        {
+          "form": "⚠️ САМАЯ частая ошибка — -ed после didn't:",
+          "example": "❌ \"I didn't cleaned.\" ❌ \"She didn't cooked.\" → ✅ \"I didn't clean.\" ✅ \"She didn't cook.\""
+        },
+        {
+          "form": "Почему BASE FORM? Потому что DID = уже прошедшее:",
+          "example": "\"did\" уже несёт значение прошедшего времени → глагол после него в базовой форме. didn't = did + not."
+        },
+        {
+          "form": "Примеры из диалога Bekzhan и Yerlan:",
+          "example": "\"Bekzhan didn't walk to the park.\" · \"He didn't cook anything.\" · \"He didn't leave his room.\""
+        },
+        {
+          "form": "didn't = did not (оба верны):",
+          "example": "\"I did not finish the essay.\" = \"I didn't finish the essay.\" — оба правильны, didn't более разговорно."
+        }
+      ]
+    },
+    {
+      "title": "③ Типичные ошибки — разбор и исправление",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "❌ \"She study last weekend.\"",
+          "example": "→ ✅ \"She studied last weekend.\" (study+y с согл. перед y → studied)"
+        },
+        {
+          "form": "❌ \"I didn't cleaned my room.\"",
+          "example": "→ ✅ \"I didn't clean my room.\" (base form после didn't — без -ed!)"
+        },
+        {
+          "form": "❌ \"He stoped at the market.\"",
+          "example": "→ ✅ \"He stopped at the market.\" (stop — СГС правило → double p → stopped)"
+        },
+        {
+          "form": "❌ \"They enjoyed-ed the weekend.\"",
+          "example": "→ ✅ \"They enjoyed the weekend.\" (enjoy → enjoyed — гласная+y → просто -ed, не -ied!)"
+        },
+        {
+          "form": "❌ \"She practiseed English.\"",
+          "example": "→ ✅ \"She practised English.\" (practise оканчивается на -e → только + d, не + ed)"
+        },
+        {
+          "form": "❌ \"Bekzhan doesn't study last Sunday.\"",
+          "example": "→ ✅ \"Bekzhan didn't study last Sunday.\" (прошлое → didn't, не doesn't!)"
+        }
+      ]
+    },
+    {
+      "title": "④ didn't vs wasn't/weren't — чем отличаются?",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "didn't + ACTION verb (что делал/не делал):",
+          "example": "\"I didn't clean.\" · \"She didn't cook.\" · \"We didn't walk to the park.\" (действия)"
+        },
+        {
+          "form": "wasn't / weren't + STATE (каким был):",
+          "example": "\"The weather wasn't cold.\" · \"They weren't tired.\" · \"I wasn't at home.\" (состояния, was/were = to be)"
+        },
+        {
+          "form": "Сравни:",
+          "example": "\"I didn't study.\" (не учился — действие) vs \"I wasn't at university.\" (не был там — местонахождение/состояние)"
+        },
+        {
+          "form": "⚠️ НЕ смешивай:",
+          "example": "❌ \"I didn't tired yesterday.\" → ✅ \"I wasn't tired yesterday.\" (tired — прилагательное → was/were)"
+        },
+        {
+          "form": "Aruzhan и Bekzhan:",
+          "example": "\"Bekzhan didn't cook.\" (действие) · \"Bekzhan wasn't happy about his weekend.\" (состояние)"
+        },
+        {
+          "form": "Запомни:",
+          "example": "Глагол ДЕЙСТВИЯ → didn't · Глагол \"быть\" (be) / прилагательное → wasn't / weren't"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Четыре шага для идеального Past Simple:\n\n① Выбери правило написания -ed:\n   Обычный → + ed: walk → walked\n   На -e → + d: arrive → arrived\n   Согл. + y → -ied: study → studied\n   Короткий СГС → удвой: stop → stopped\n\n② Проверь: гласная + y = просто -ed!\n   play → played ✅ (НЕ playied!) · stay → stayed ✅\n\n③ Для отрицания: DIDN'T + BASE FORM (без -ed!)\n   \"I didn't clean.\" ✅ · \"She didn't cook.\" ✅\n   ❌ \"I didn't cleaned.\" ❌ \"She didn't cooked.\"\n\n④ Не путай didn't и wasn't:\n   Действие → didn't + verb: \"I didn't study.\"\n   Состояние → wasn't/weren't: \"I wasn't tired.\"\n\n💡 Тест на ошибку:\nЕсли после didn't есть -ed → ОШИБКА! Убери -ed!\n\"She didn't studied.\" ❌ → \"She didn't study.\" ✅",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct -ed spelling.",
+      "text": "Aruzhan ___ English every summer before coming to WKU.",
+      "opts": [
+        "studyed",
+        "studiyed",
+        "studied",
+        "studeed"
+      ],
+      "correct": "studied",
+      "hint": "study → consonant (d) + y → change y to i, add -ed: studied ✅. NOT \"studyed\" — the rule applies because \"d\" before y is a consonant."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "Yerlan ___ (practise) cooking at his grandmother's every summer.",
+      "correct": "practised",
+      "hint": "practise ends in -e → just add -d: practised ✅. NOT \"practiseed\" — verb ends in -e, so only +d!"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "Bekzhan ___ leave his room all weekend — he studied the whole time.",
+      "opts": [
+        "didn't left",
+        "doesn't leave",
+        "wasn't leave",
+        "didn't leave"
+      ],
+      "correct": "didn't leave",
+      "hint": "\"didn't\" + BASE FORM! \"leave\" is the base form. ❌ \"didn't left\" — NEVER use past form after didn't!"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She didn't cooked dinner last night\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "NEVER use -ed after didn't! → \"She didn't COOK dinner last night.\" ✅ (base form, no -ed after didn't)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct -ed spelling.",
+      "text": "Saule ___ over her tea when she laughed too hard during the film.",
+      "opts": [
+        "spilled",
+        "spillled",
+        "spilt",
+        "spillied"
+      ],
+      "correct": "spilled",
+      "hint": "spill → ends in double -ll (not CVC rule) → just add -ed: spilled ✅. (British English also accepts \"spilt\" but \"spilled\" is standard.)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Bekzhan doesn't study last Sunday.",
+        "Bekzhan didn't studied last Sunday.",
+        "Bekzhan didn't study last Sunday.",
+        "Bekzhan wasn't study last Sunday."
+      ],
+      "correct": "Bekzhan didn't study last Sunday.",
+      "hint": "\"last Sunday\" = past → didn't (not doesn't) ✅. After didn't → BASE FORM: study (not studied!) ✅."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "Aruzhan ___ (stop) at the market and bought apples on her way back.",
+      "correct": "stopped",
+      "hint": "stop → CVC rule (s-t-o-p: consonant-vowel-consonant, 1 syllable) → double the p → stopped ✅. NOT \"stoped\"!"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Aruzhan describes her Sunday. Which sentence is correct?",
+      "opts": [
+        "\"I was play card games all evening.\" ",
+        "\"I didn't was tired after studying.\"",
+        "\"I played cards, but I didn't watch TV.\"",
+        "\"I plaied cards last night.\""
+      ],
+      "correct": "\"I played cards, but I didn't watch TV.\"",
+      "hint": "\"played\" ✅ (play → +ed, regular). \"didn't watch\" ✅ (base form after didn't). Others: \"was play\" ❌, \"didn't was\" ❌, \"plaied\" ❌ (play+ed, not play+ied — vowel+y!)."
+    }
+  ],
+  "questions": []
+}

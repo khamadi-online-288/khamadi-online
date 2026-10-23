@@ -1,0 +1,265 @@
+{
+  "id": "l16-2",
+  "moduleNum": 16,
+  "lessonNum": 2,
+  "moduleTitle": "A1 Final Exam",
+  "title": "Part 2 — Listening",
+  "type": "listening",
+  "xp": 250,
+  "duration": 40,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "Good morning, Baurzhan. Please sit down. So — you are finishing your third year next month. How do you feel about your progress?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "Good morning, Dr. Sultanov. I feel quite positive, actually. My grades this year are much better than last year.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "Yes — I can see that. Your Economics grade went from 71 to 88. That is excellent improvement. What changed?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "I started studying more systematically. I review my notes every evening, and I joined the Economics Research Group in January.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "Good. Now — what are your plans for the summer break?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "I'm going to do an internship at a business consulting firm in Almaty for six weeks. I applied in March and got a place.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "Impressive! Can you speak Kazakh, Russian, and English in a professional context?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "I can speak Kazakh and Russian fluently. My English is getting better — I can read reports and write emails, but I can't give a full presentation yet.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "That is honest. English is going to be essential in your career. What are you going to do to improve it?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "I'm going to attend an intensive English course this autumn. And I'm going to read one English article about business every morning.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "Excellent. And after you graduate next year — what are your long-term plans?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "I'm going to work for two or three years first. Then I'm going to apply for a Master's degree in Finance — ideally in Almaty or Astana.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "A solid plan. One last question — are there any areas of your studies that are still difficult for you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "Statistics. I find it the most challenging subject. But I'm not going to give up — I'm going to hire a private tutor next semester.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Sultanov",
+      "text": "That shows real maturity, Baurzhan. I think you're going to have a very successful career. Good luck with the internship!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Baurzhan",
+      "text": "Thank you very much, Dr. Sultanov. I will work hard and make WKU proud!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "progress",
+      "emoji": "📈",
+      "opts": [
+        "неудача",
+        "отставание",
+        "прогресс / улучшение",
+        "результат экзамена"
+      ],
+      "correct": "прогресс / улучшение"
+    },
+    {
+      "id": "p2",
+      "word": "fluently",
+      "emoji": "🗣️",
+      "opts": [
+        "с акцентом",
+        "медленно",
+        "редко",
+        "свободно / бегло"
+      ],
+      "correct": "свободно / бегло"
+    },
+    {
+      "id": "p3",
+      "word": "consulting",
+      "emoji": "💼",
+      "opts": [
+        "производственная",
+        "строительная",
+        "консалтинговая / консультационная",
+        "торговая"
+      ],
+      "correct": "консалтинговая / консультационная"
+    },
+    {
+      "id": "p4",
+      "word": "maturity",
+      "emoji": "🌱",
+      "opts": [
+        "наивность",
+        "зрелость / взрослость",
+        "упрямство",
+        "независимость"
+      ],
+      "correct": "зрелость / взрослость"
+    },
+    {
+      "id": "p5",
+      "word": "challenging",
+      "emoji": "🏋️",
+      "opts": [
+        "лёгкий",
+        "неинтересный",
+        "трудный / требующий усилий",
+        "скучный"
+      ],
+      "correct": "трудный / требующий усилий"
+    },
+    {
+      "id": "p6",
+      "word": "presentation",
+      "emoji": "🎤",
+      "opts": [
+        "эссе",
+        "тест",
+        "выступление / презентация перед аудиторией",
+        "отчёт"
+      ],
+      "correct": "выступление / презентация перед аудиторией"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Baurzhan's Economics grade improved from 71 to 88 this year.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Baurzhan joined the Research Group in the autumn semester.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Baurzhan is going to do an internship at a law firm in Almaty.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Baurzhan can speak Kazakh and Russian fluently.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Baurzhan finds Statistics the most challenging subject.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "After graduation, Baurzhan is going to apply for a Master's degree immediately.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "baurzhan",
+      "name": "Baurzhan",
+      "city": "Kyzylorda",
+      "emoji": "📊",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Business student, Year 3"
+    },
+    {
+      "id": "dr",
+      "name": "Dr. Sultanov",
+      "city": "Uralsk",
+      "emoji": "👨‍🏫",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "WKU Academic Advisor"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Started studying more systematically and reviewing notes every evening.",
+      "correctCharId": "baurzhan"
+    },
+    {
+      "id": "s2",
+      "text": "Said that English is going to be essential in Baurzhan's future career.",
+      "correctCharId": "dr"
+    },
+    {
+      "id": "s3",
+      "text": "Plans to read one English business article every morning to improve.",
+      "correctCharId": "baurzhan"
+    },
+    {
+      "id": "s4",
+      "text": "Wants to work for two or three years before applying for a Master's degree.",
+      "correctCharId": "baurzhan"
+    },
+    {
+      "id": "s5",
+      "text": "Is going to hire a private tutor to improve Statistics next semester.",
+      "correctCharId": "baurzhan"
+    },
+    {
+      "id": "s6",
+      "text": "Said that Baurzhan showed real maturity and wished him good luck.",
+      "correctCharId": "dr"
+    }
+  ]
+}

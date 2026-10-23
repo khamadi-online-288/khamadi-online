@@ -1,0 +1,287 @@
+{
+  "id": "l28-1",
+  "moduleNum": 12,
+  "lessonNum": 1,
+  "moduleTitle": "Emotions & Feelings",
+  "type": "reading",
+  "title": "How Are You Feeling Today?",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Kamila Seitkali writes a blog for WKU students. Every week she posts a short article about student life. This week, her topic is feelings.",
+    "'How are you feeling today?' she begins. 'Most of us answer: Fine, thanks. But is that the truth? University life brings many emotions — excitement, stress, joy, loneliness, pride, and confusion. All of these are normal.'",
+    "Kamila describes her own experience. 'I remember my first week at WKU. I felt excited about my new life, but I also felt overwhelmed. There were new people, new rules, new subjects. I didn't know what to feel first.'",
+    "'The turning point came when I started talking,' she writes. 'I told my friend Zhibek that I was feeling anxious about my first English test. She listened. She didn't judge me. She just said: Me too. And suddenly, I felt much better.'",
+    "Research shows that naming your feelings is powerful. When you say 'I feel stressed' instead of just feeling it, the emotion becomes smaller. Psychologists call this 'labelling' your emotions. It helps you think more clearly.",
+    "Kamila ends her article with a question: 'What emotion are you avoiding right now? Name it. Write it down. Talk to a friend. You might be surprised how much better you feel afterwards.'"
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Zhibek, I'm feeling really anxious about the English presentation tomorrow.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Me too! I always feel nervous before speaking in front of people.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Really? You always seem so confident. I didn't know you felt the same.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I love doing presentations eventually, but I hate preparing them. Funny, right?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's actually really helpful to know. I feel better already.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I feel / I felt / I am feeling",
+      "ru": "я чувствую / чувствовал / чувствую",
+      "context": "I feel anxious before presentations."
+    },
+    {
+      "phrase": "overwhelmed",
+      "ru": "подавленный, перегруженный",
+      "context": "I felt overwhelmed during my first week."
+    },
+    {
+      "phrase": "anxious",
+      "ru": "тревожный, беспокойный",
+      "context": "She felt anxious about her first English test."
+    },
+    {
+      "phrase": "name your emotions",
+      "ru": "называть свои эмоции",
+      "context": "Name your emotions to make them smaller."
+    },
+    {
+      "phrase": "labelling feelings",
+      "ru": "маркировка чувств",
+      "context": "Psychologists call this \"labelling\" your emotions."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "emotion",
+      "ipa": "/ɪˈməʊ.ʃən/",
+      "pos": "n",
+      "ru": "эмоция, чувство",
+      "kz": "сезім",
+      "emoji": "💭",
+      "definition": "A strong feeling such as joy, fear, or sadness.",
+      "example": "University life brings many different emotions.",
+      "collocations": [
+        "feel an emotion",
+        "emotional intelligence",
+        "express emotions"
+      ]
+    },
+    {
+      "en": "overwhelmed",
+      "ipa": "/ˌəʊ.vəˈwelmd/",
+      "pos": "adj",
+      "ru": "подавленный, перегруженный",
+      "kz": "жоғалып кеткен",
+      "emoji": "😵",
+      "definition": "Feeling as if you have too much to deal with.",
+      "example": "She felt overwhelmed during her first week at WKU.",
+      "collocations": [
+        "feel overwhelmed",
+        "overwhelmed by",
+        "completely overwhelmed"
+      ]
+    },
+    {
+      "en": "anxious",
+      "ipa": "/ˈæŋk.ʃəs/",
+      "pos": "adj",
+      "ru": "тревожный, беспокойный",
+      "kz": "алаңды",
+      "emoji": "😰",
+      "definition": "Nervous or worried about something that might happen.",
+      "example": "She felt anxious about her first English test.",
+      "collocations": [
+        "feel anxious",
+        "anxious about",
+        "deeply anxious"
+      ]
+    },
+    {
+      "en": "confident",
+      "ipa": "/ˈkɒn.fɪ.dənt/",
+      "pos": "adj",
+      "ru": "уверенный в себе",
+      "kz": "өзіне сенімді",
+      "emoji": "💪",
+      "definition": "Feeling sure about your own abilities.",
+      "example": "Zhibek always seems confident in class.",
+      "collocations": [
+        "feel confident",
+        "confident in",
+        "self-confident"
+      ]
+    },
+    {
+      "en": "loneliness",
+      "ipa": "/ˈləʊn.li.nəs/",
+      "pos": "n",
+      "ru": "одиночество",
+      "kz": "жалғыздық",
+      "emoji": "🌧️",
+      "definition": "The state of being alone and unhappy about it.",
+      "example": "Loneliness is one of the emotions students feel at university.",
+      "collocations": [
+        "feel loneliness",
+        "sense of loneliness",
+        "overcome loneliness"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "overwhelmed",
+      "emoji": "😵",
+      "opts": [
+        "Very excited and happy",
+        "Feeling too much to cope with",
+        "Confident and ready",
+        "Angry and frustrated"
+      ],
+      "correct": "Feeling too much to cope with"
+    },
+    {
+      "id": "p2",
+      "word": "anxious",
+      "emoji": "😰",
+      "opts": [
+        "Calm and relaxed",
+        "Confident and sure",
+        "Nervous and worried",
+        "Tired and sleepy"
+      ],
+      "correct": "Nervous and worried"
+    },
+    {
+      "id": "p3",
+      "word": "labelling",
+      "emoji": "🏷️",
+      "opts": [
+        "Writing a list of tasks",
+        "Naming your emotions to manage them",
+        "Judging other people's feelings",
+        "Ignoring difficult emotions"
+      ],
+      "correct": "Naming your emotions to manage them"
+    },
+    {
+      "id": "p4",
+      "word": "emotion",
+      "emoji": "💭",
+      "opts": [
+        "A grammar rule",
+        "A type of exercise",
+        "A strong feeling like joy or fear",
+        "A scientific theory"
+      ],
+      "correct": "A strong feeling like joy or fear"
+    },
+    {
+      "id": "p5",
+      "word": "loneliness",
+      "emoji": "🌧️",
+      "opts": [
+        "Feeling excited about the future",
+        "Being in a large crowd",
+        "Feeling alone and unhappy about it",
+        "Having too many friends"
+      ],
+      "correct": "Feeling alone and unhappy about it"
+    }
+  ],
+  "task1Bank": [
+    "anxious",
+    "normal",
+    "label",
+    "overwhelmed",
+    "feelings",
+    "stressed",
+    "talking",
+    "emotion"
+  ],
+  "task1Items": [
+    {
+      "id": "i1",
+      "question": "All emotions — joy, stress, loneliness — are ___.",
+      "correct": "normal"
+    },
+    {
+      "id": "i2",
+      "question": "Kamila felt ___ during her first week at WKU.",
+      "correct": "overwhelmed"
+    },
+    {
+      "id": "i3",
+      "question": "When you say \"I feel ___\", the emotion gets smaller.",
+      "correct": "stressed"
+    },
+    {
+      "id": "i4",
+      "question": "Psychologists call naming your emotions ___ them.",
+      "correct": "label"
+    },
+    {
+      "id": "i5",
+      "question": "She started feeling better after she started ___ to Zhibek.",
+      "correct": "talking"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Kamila felt only excitement during her first week at WKU.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Zhibek judged Kamila for feeling anxious.",
+      "correct": "false"
+    },
+    {
+      "id": "s3",
+      "statement": "Naming your feelings can make them feel smaller.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "Kamila's blog article is about university food.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Kamila asks readers to name and share their feelings.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

@@ -1,0 +1,325 @@
+{
+  "id": "l82-2",
+  "moduleNum": 24,
+  "lessonNum": 2,
+  "moduleTitle": "Academic Writing & Argumentation",
+  "title": "The Structure of Academic Prose: Paragraphs, Transitions, and Coherence",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "A well-structured academic essay is not simply a collection of good ideas arranged in sequence. It is a carefully crafted argument in which each element — each sentence, each paragraph, each transition — contributes to a single coherent purpose. Understanding how to construct this kind of writing requires attention not just to what you say, but to how the parts of your argument relate to each other and to the whole. This relational quality — the way parts connect and serve the whole — is what we mean by coherence.",
+    "The paragraph is the fundamental unit of academic prose. Each body paragraph should typically do four things: state its main point in a topic sentence, provide evidence for that point, analyse or explain the evidence in relation to the main claim of the essay, and link to the next paragraph. This structure is sometimes expressed as the \"PEEL\" method — Point, Evidence, Explain, Link — or similar acronyms, but the labels matter less than the underlying logic. A paragraph that jumps from topic to topic without a clear controlling idea, or that presents evidence without explaining its significance, has failed to do its job.",
+    "The topic sentence is particularly important. It should be the most substantive sentence in the paragraph — not a bland statement of intent (\"In this paragraph, I will discuss…\") but a genuine claim or analytical observation that the rest of the paragraph develops and supports. A well-crafted topic sentence allows a reader to predict what the paragraph will contain and to understand how it connects to the essay's central argument. Reading only the topic sentences of a well-structured essay should give you a clear outline of the argument.",
+    "Transitions — words, phrases, and sentences that connect one idea to another — are the connective tissue of academic prose. Within a paragraph, transitional phrases show how sentences relate to each other: \"this suggests that,\" \"for example,\" \"in contrast,\" \"as a result,\" \"moreover.\" Between paragraphs, transitional sentences show how each paragraph connects to the previous one and to the overall argument. A common formula for paragraph transitions is to refer back to the key point of the previous paragraph before introducing the new one, creating a logical chain of reasoning.",
+    "Cohesion — the set of linguistic mechanisms that make a text \"hang together\" as a unified whole rather than a series of disconnected ideas — is related to but distinct from coherence. Coherence is about logical and conceptual organisation; cohesion is about the linguistic devices that express it. Cohesive devices include reference pronouns (using \"it,\" \"they,\" \"this\" to refer back to previously mentioned concepts), lexical repetition (repeating key terms or using synonyms to maintain focus), and connective adverbs and conjunctions (linking ideas explicitly). Sophisticated academic writing uses all of these to create a seamlessly unified text.",
+    "One of the most common weaknesses in student academic writing is what is sometimes called the \"list essay\" — an essay that consists of a series of discrete points with little or no connection between them, structured like a shopping list rather than an argument. Each point may be individually valid and well-evidenced, but without the argumentative thread that connects them — the \"so what?\" that shows how each point contributes to the central claim — the essay lacks the analytical depth that distinguishes truly academic writing from mere reportage.",
+    "Developing the ability to write coherently and cohesively is a cumulative process. It requires reading widely in your discipline to absorb the conventions of academic prose in that field. It requires attention to how expert writers structure their arguments, manage their evidence, and make their transitions. It requires drafting and revising — not simply producing a first draft and hoping it is good enough, but reading critically what you have produced and asking: Is the argument clear? Is each paragraph doing what it needs to do? Is the evidence sufficient and relevant? Are the connections between ideas explicit and logical? These are the questions of a mature academic writer."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "coherence",
+      "ru": "связность / логическая целостность",
+      "context": "The logical and conceptual organisation of an essay — how parts relate to the whole"
+    },
+    {
+      "phrase": "cohesion",
+      "ru": "сцепленность / когезия",
+      "context": "The linguistic mechanisms (pronouns, connectives, repetition) that make a text hang together"
+    },
+    {
+      "phrase": "topic sentence",
+      "ru": "тематическое предложение",
+      "context": "The controlling sentence of a paragraph that states its main point"
+    },
+    {
+      "phrase": "PEEL structure",
+      "ru": "структура PEEL",
+      "context": "Point, Evidence, Explain, Link — a paragraph structure framework"
+    },
+    {
+      "phrase": "list essay",
+      "ru": "эссе-список",
+      "context": "An essay that presents discrete points without the argumentative thread connecting them"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "coherence",
+      "ipa": "/kəʊˈhɪərəns/",
+      "pos": "noun",
+      "ru": "связность / логическая целостность",
+      "kz": "мазмұндық тұтастық",
+      "emoji": "🔗",
+      "definition": "the logical and conceptual organisation of ideas — the quality of making sense as a unified whole",
+      "example": "\"Coherence is about how parts of an argument connect and serve the whole.\"",
+      "collocations": [
+        "logical coherence",
+        "maintain coherence",
+        "lack of coherence"
+      ]
+    },
+    {
+      "en": "cohesion",
+      "ipa": "/kəʊˈhiːʒən/",
+      "pos": "noun",
+      "ru": "когезия / языковая связность",
+      "kz": "тілдік тұтастық",
+      "emoji": "🧩",
+      "definition": "the linguistic devices (pronouns, connectives, repetition) that make a text hang together",
+      "example": "\"Cohesive devices include reference pronouns, lexical repetition, and connective adverbs.\"",
+      "collocations": [
+        "textual cohesion",
+        "achieve cohesion",
+        "cohesion devices"
+      ]
+    },
+    {
+      "en": "reportage",
+      "ipa": "/ˌrepɔːˈtɑːʒ/",
+      "pos": "noun",
+      "ru": "репортаж / описание без анализа",
+      "kz": "хабарлама",
+      "emoji": "📰",
+      "definition": "the reporting of facts without analysis or interpretation; descriptive writing without argument",
+      "example": "\"An essay without argumentative thread is not academic writing — it is mere reportage.\"",
+      "collocations": [
+        "mere reportage",
+        "avoid reportage",
+        "move beyond reportage"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What are the four functions of a body paragraph according to the text?",
+      "correct": "State main point (topic sentence), provide evidence, analyse/explain the evidence in relation to the central claim, link to the next paragraph"
+    },
+    {
+      "id": "t2",
+      "question": "What is a \"topic sentence\" and what should it do?",
+      "correct": "The controlling sentence of a paragraph — a genuine claim or analytical observation that the rest of the paragraph develops, allowing readers to predict the content"
+    },
+    {
+      "id": "t3",
+      "question": "What is the difference between coherence and cohesion?",
+      "correct": "Coherence = logical/conceptual organisation; cohesion = linguistic devices (pronouns, connectives, repetition) that express it"
+    },
+    {
+      "id": "t4",
+      "question": "What is a \"list essay\" and why is it a weakness?",
+      "correct": "A series of discrete valid points without the argumentative thread connecting them — lacks the \"so what?\" that shows how each contributes to the central claim"
+    },
+    {
+      "id": "t5",
+      "question": "What questions should a mature academic writer ask when revising?",
+      "correct": "Is the argument clear? Is each paragraph doing what it needs to? Is evidence sufficient and relevant? Are connections explicit and logical?"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "A topic sentence should begin with \"In this paragraph, I will discuss...\"",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Reading only the topic sentences of a well-structured essay should give a clear outline of the argument.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Cohesion and coherence are different aspects of textual organisation.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "A \"list essay\" is considered a strength of academic writing.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "Good academic writing requires reading, drafting, and revising — not just producing a first draft.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the \"PEEL\" structure?",
+      "opts": [
+        "An acronym for essay structure: Purpose, Evidence, Elaboration, Length",
+        "A paragraph structure: Point, Evidence, Explain, Link",
+        "A proofreading checklist",
+        "A citation method"
+      ],
+      "correct": "A paragraph structure: Point, Evidence, Explain, Link",
+      "hint": "Para 2: \"Point, Evidence, Explain, Link\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What should a well-crafted topic sentence do?",
+      "opts": [
+        "State \"In this paragraph, I will discuss...\"",
+        "Summarise the entire essay in one sentence",
+        "Make a genuine claim that the paragraph then develops",
+        "Quote from a source"
+      ],
+      "correct": "Make a genuine claim that the paragraph then develops",
+      "hint": "Para 3: \"genuine claim or analytical observation that the rest of the paragraph develops\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the key difference between coherence and cohesion?",
+      "opts": [
+        "Coherence is about grammar; cohesion is about content",
+        "Coherence is about logical organisation; cohesion is about linguistic devices",
+        "Coherence is used in essays; cohesion in scientific papers",
+        "Coherence refers to introductions; cohesion to conclusions"
+      ],
+      "correct": "Coherence is about logical organisation; cohesion is about linguistic devices",
+      "hint": "Para 5: \"coherence is about logical… organisation; cohesion is about the linguistic devices\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What distinguishes a \"list essay\" from true academic writing?",
+      "opts": [
+        "The number of paragraphs",
+        "The use of formal language",
+        "The absence of an argumentative thread showing how points contribute to the central claim",
+        "The number of sources cited"
+      ],
+      "correct": "The absence of an argumentative thread showing how points contribute to the central claim",
+      "hint": "Para 6: \"without the argumentative thread\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text says a good first draft rarely needs revision.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 7: \"not simply producing a first draft and hoping it is good enough, but reading critically\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "\"In this paragraph, I will discuss…\" is recommended as a strong topic sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 3: \"not a bland statement of intent… but a genuine claim\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, this paragraph lacks the analytical depth that distinguishes academic writing.\" (stance adverb)",
+      "opts": [
+        "Notably",
+        "Admittedly",
+        "Surprisingly",
+        "Any stance adverb fits depending on context"
+      ],
+      "correct": "Any stance adverb fits depending on context",
+      "hint": "Different stance adverbs create different analytical stances",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The increase in productivity is ___ (= can be seen to be) linked to the policy changes.\" (evidently/apparently)",
+      "correct": "evidently / apparently / arguably",
+      "hint": "Stance adverbs that signal degree of certainty or evidence quality",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the strongest objection to this argument is the lack of longitudinal data.\" (introducing key point)",
+      "opts": [
+        "Crucially",
+        "Interestingly",
+        "Surprisingly",
+        "Evidently"
+      ],
+      "correct": "Crucially",
+      "hint": "\"Crucially\" = introducing what is most important or decisive",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"coherence\" in academic writing?",
+      "opts": [
+        "The linguistic devices that link sentences",
+        "The logical and conceptual organisation of an argument",
+        "The formal register of academic prose",
+        "The number of sources used"
+      ],
+      "correct": "The logical and conceptual organisation of an argument",
+      "hint": "Para 5: \"coherence is about logical and conceptual organisation\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "Writing that merely describes and reports facts without analysis is called…",
+      "opts": [
+        "Advocacy",
+        "Reportage",
+        "Cohesion",
+        "Rigour"
+      ],
+      "correct": "Reportage",
+      "hint": "Para 6: \"mere reportage\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The controlling sentence of a paragraph that states its main point is called the ___ sentence.",
+      "correct": "topic",
+      "hint": "Para 2-3: \"topic sentence\"",
+      "points": 1
+    }
+  ]
+}

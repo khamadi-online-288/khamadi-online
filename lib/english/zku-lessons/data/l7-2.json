@@ -1,0 +1,265 @@
+{
+  "id": "l7-2",
+  "moduleNum": 7,
+  "lessonNum": 2,
+  "moduleTitle": "Food and drinks",
+  "title": "What's for lunch today?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Ruslan",
+      "text": "Nurgul, what's on the menu today? I can't read the board from here.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Let me see — there's some chicken soup, some rice with beef, and some pasta with vegetables.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "Pasta with vegetables — perfect for me! Is there any salad today?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Yes! There's some tomato salad and some cucumber salad. And some fresh compote.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "Great. I don't want any meat today. What are you having, Nurgul?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "I always start with some soup. The chicken soup here is so delicious!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "Is it spicy? I can't eat any spicy food — it upsets my stomach.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "No, it's very mild. No chilli, no pepper. Everyone can eat it!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "Good to know. Is there any bread today? I need some bread with my pasta.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Yes — some fresh white bread at the counter. And — wait — some baursaks too!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "Baursaks! I love them. Do you want some water or some compote?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Compote please! I drink some compote with every lunch. You?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "Just some water for me — compote is too sweet. I prefer something plain.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "Ha! Different tastes! What food do you miss most from home, Ruslan?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Ruslan",
+      "text": "My grandmother's samsa from Semey. Crispy pastry, juicy meat inside. Nothing beats it!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nurgul",
+      "text": "For me it's my mother's plov — with some carrots, some raisins, and some lamb. Heavenly!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "menu",
+      "emoji": "📋",
+      "opts": [
+        "очередь",
+        "рецепт",
+        "меню",
+        "счёт"
+      ],
+      "correct": "меню"
+    },
+    {
+      "id": "p2",
+      "word": "mild",
+      "emoji": "🌿",
+      "opts": [
+        "острый",
+        "горький",
+        "мягкий / нежгучий",
+        "кислый"
+      ],
+      "correct": "мягкий / нежгучий"
+    },
+    {
+      "id": "p3",
+      "word": "spicy",
+      "emoji": "🌶️",
+      "opts": [
+        "сладкий",
+        "острый",
+        "солёный",
+        "кислый"
+      ],
+      "correct": "острый"
+    },
+    {
+      "id": "p4",
+      "word": "counter",
+      "emoji": "🏪",
+      "opts": [
+        "касса",
+        "стол",
+        "прилавок / стойка",
+        "поднос"
+      ],
+      "correct": "прилавок / стойка"
+    },
+    {
+      "id": "p5",
+      "word": "pastry",
+      "emoji": "🥐",
+      "opts": [
+        "начинка",
+        "тесто / выпечка",
+        "соус",
+        "глазурь"
+      ],
+      "correct": "тесто / выпечка"
+    },
+    {
+      "id": "p6",
+      "word": "heavenly",
+      "emoji": "😇",
+      "opts": [
+        "ужасный",
+        "обычный",
+        "небесный / восхитительный",
+        "тяжёлый"
+      ],
+      "correct": "небесный / восхитительный"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "There is some chicken soup on the menu today.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Ruslan wants some meat for his lunch.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The chicken soup is spicy and has a lot of chilli.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Ruslan drinks compote because he loves sweet drinks.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "There are some baursaks available at the counter today.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Nurgul misses her mother's plov with carrots, raisins, and lamb.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "nurgul",
+      "name": "Nurgul",
+      "city": "Taraz",
+      "emoji": "🥗",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Biology student, Group 401"
+    },
+    {
+      "id": "ruslan",
+      "name": "Ruslan",
+      "city": "Semey",
+      "emoji": "🍝",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Engineering student, Group 402"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Always starts lunch with some soup — today it's chicken soup.",
+      "correctCharId": "nurgul"
+    },
+    {
+      "id": "s2",
+      "text": "Doesn't want any meat today — prefers pasta with vegetables.",
+      "correctCharId": "ruslan"
+    },
+    {
+      "id": "s3",
+      "text": "Drinks some compote with every single lunch.",
+      "correctCharId": "nurgul"
+    },
+    {
+      "id": "s4",
+      "text": "Prefers plain water — compote is too sweet.",
+      "correctCharId": "ruslan"
+    },
+    {
+      "id": "s5",
+      "text": "Misses grandmother's crispy samsa from their home city.",
+      "correctCharId": "ruslan"
+    },
+    {
+      "id": "s6",
+      "text": "Misses mother's plov with carrots, raisins, and lamb.",
+      "correctCharId": "nurgul"
+    }
+  ]
+}

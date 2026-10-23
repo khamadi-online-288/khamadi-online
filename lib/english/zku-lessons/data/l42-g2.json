@@ -1,0 +1,528 @@
+{
+  "id": "l42-g2",
+  "moduleNum": 8,
+  "lessonNum": 5,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "grammar",
+  "title": "too much / too many / not enough / enough",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "too much / too many / not enough / enough",
+  "grammarNote": "\"Too much/many\" выражают ИЗБЫТОК — больше, чем нужно или хорошо. \"Enough\" выражает ДОСТАТОЧНОСТЬ. \"Not enough\" = недостаточно. Эти слова часто выражают ПРОБЛЕМУ. Порядок слов: too much/many + noun; not + adjective/adverb + enough; enough + noun; adjective + enough.",
+  "grammarTable": [
+    {
+      "subject": "too much",
+      "verb": "+ uncountable",
+      "short": "excessive amount",
+      "example": "\"There's too much oil.\" / \"I ate too much yesterday.\" (UC / no noun)"
+    },
+    {
+      "subject": "too many",
+      "verb": "+ countable",
+      "short": "excessive number",
+      "example": "\"There are too many ingredients.\" / \"I bought too many eggs.\" (C, plural)"
+    },
+    {
+      "subject": "enough",
+      "verb": "+ noun",
+      "short": "sufficient amount",
+      "example": "\"We have enough flour.\" / \"Is there enough time?\""
+    },
+    {
+      "subject": "not enough",
+      "verb": "+ noun",
+      "short": "insufficient",
+      "example": "\"There's not enough salt.\" / \"We don't have enough eggs.\" (UC or C)"
+    },
+    {
+      "subject": "adj + enough",
+      "verb": "adjective + enough",
+      "short": "sufficiently",
+      "example": "\"The dough isn't thick enough.\" / \"She's good enough to apply.\""
+    },
+    {
+      "subject": "not adj + enough",
+      "verb": "not adj + enough",
+      "short": "insufficient quality",
+      "example": "\"The soup isn't hot enough.\" / \"I wasn't fast enough.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "too much vs too many — same rule as much/many",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "too much + UNCOUNTABLE",
+          "example": "\"There's too much salt.\" / \"Don't eat too much sugar.\" / \"We have too much rice.\""
+        },
+        {
+          "form": "too many + COUNTABLE",
+          "example": "\"There are too many onions.\" / \"I bought too many eggs.\" / \"She has too many classes.\""
+        },
+        {
+          "form": "too much ALONE (no noun)",
+          "example": "\"I ate too much.\" (no noun — uncountable feeling implied)"
+        },
+        {
+          "form": "⚠️ Never \"too much eggs\"",
+          "example": "✗ \"too much eggs\" → ✅ \"too many eggs\" (countable plural!)"
+        }
+      ]
+    },
+    {
+      "title": "not enough — problems with quantity",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "not enough + uncountable",
+          "example": "\"There isn't enough flour.\" / \"We don't have enough time.\" (UC)"
+        },
+        {
+          "form": "not enough + countable",
+          "example": "\"There aren't enough eggs.\" / \"There aren't enough chairs.\" (C)"
+        },
+        {
+          "form": "Note the verb agreement",
+          "example": "\"There ISN'T enough water.\" / \"There AREN'T enough eggs.\" (match the noun)"
+        },
+        {
+          "form": "Position: before noun",
+          "example": "\"not enough + noun\" (unlike adjective + enough)"
+        }
+      ]
+    },
+    {
+      "title": "enough with adjectives — different position!",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "adjective + ENOUGH",
+          "example": "\"The room is warm ENOUGH.\" / \"She's old ENOUGH to decide.\" (after adjective!)"
+        },
+        {
+          "form": "not + adjective + ENOUGH",
+          "example": "\"The soup isn't hot ENOUGH.\" / \"He's not tall ENOUGH.\" (problem = quality)"
+        },
+        {
+          "form": "enough + noun",
+          "example": "\"There's ENOUGH food.\" / \"We have ENOUGH time.\" (before noun)"
+        },
+        {
+          "form": "⚠️ Never \"enough warm\"",
+          "example": "✗ \"The room is enough warm.\" → ✅ \"The room is warm enough.\""
+        }
+      ]
+    },
+    {
+      "title": "too vs very — an important difference",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "\"very\" = intensifier (neutral)",
+          "example": "\"This is very spicy.\" = it's very spicy (I might like it or not)"
+        },
+        {
+          "form": "\"too\" = excessive (problem!)",
+          "example": "\"This is too spicy.\" = it's more spicy than I can eat — a PROBLEM!"
+        },
+        {
+          "form": "\"too\" implies a negative result",
+          "example": "\"The dough is too sticky.\" → I can't work with it. Problem implied."
+        },
+        {
+          "form": "Test: Is there a problem?",
+          "example": "Problem → \"too\". No problem → \"very\". \"Very good\" ≠ \"Too good (to eat here).\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "\"Too\" = проблема! \"Enough\" = достаточно:\n① too much + UNCOUNTABLE (Oil is too much) → \"There's too much oil.\"\n② too many + COUNTABLE (Eggs are too many) → \"There are too many eggs.\"\n③ not enough + any noun → \"There isn't enough salt.\" / \"There aren't enough eggs.\"\n④ adjective + ENOUGH (after!) → \"The soup is hot enough.\" / \"It's not sweet enough.\"\n\n💡 \"Too\" всегда указывает на ПРОБЛЕМУ:\n\"The soup is very hot.\" (нейтрально — возможно, мне нравится)\n\"The soup is too hot.\" (проблема — я не могу есть!)\n\n⚠️ Порядок:\n\"enough\" + noun: enough food ✅\nadjective + \"enough\": warm enough ✅\n✗ никогда \"enough warm\"!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose \"too much\" or \"too many\".",
+      "text": "Don't add ___ salt — it will ruin the dish.",
+      "opts": [
+        "too many",
+        "too much",
+        "too a lot",
+        "too few"
+      ],
+      "correct": "too much",
+      "hint": "\"salt\" = uncountable → \"too much salt\". \"Don't add TOO MUCH salt.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose \"too much\" or \"too many\".",
+      "text": "I bought ___ eggs — I don't know what to do with them all.",
+      "opts": [
+        "too much",
+        "too many",
+        "too a lot of",
+        "so many"
+      ],
+      "correct": "too many",
+      "hint": "\"eggs\" = countable → \"too many eggs\". \"I bought TOO MANY eggs.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with \"not enough\".",
+      "text": "The manti were flat — there was ___ filling.",
+      "correct": "not enough",
+      "hint": "\"not enough filling\" = insufficient quantity. \"There was NOT ENOUGH filling.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "The soup needs more salt. Which sentence describes this?",
+      "opts": [
+        "The soup is too salty.",
+        "The soup has too much salt.",
+        "The soup isn't salty enough.",
+        "The soup has too many salt."
+      ],
+      "correct": "The soup isn't salty enough.",
+      "hint": "\"not salty enough\" = needs more salt. \"The soup isn't salty ENOUGH.\" ✅ (adjective + enough)"
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The room is enough warm\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"The room is warm ENOUGH.\" — adjective + enough. NEVER \"enough + adjective\"!"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with \"too much\", \"too many\", or \"not enough\".",
+      "text": "The dough is too sticky because you added ___ water.",
+      "correct": "too much",
+      "hint": "\"water\" = uncountable → \"too much water\". \"You added TOO MUCH water.\" ✅ (= excessive)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct form with adjective + enough.",
+      "text": "The rice isn't ___ — we should cook it a bit more.",
+      "opts": [
+        "enough cooked",
+        "cooked enough",
+        "too cooked",
+        "much cooked"
+      ],
+      "correct": "cooked enough",
+      "hint": "adjective + enough (after the adjective!). \"The rice isn't COOKED ENOUGH.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the problem described.",
+      "text": "\"I have too much work this week.\" — The speaker feels:",
+      "opts": [
+        "They have no work",
+        "They have just enough work",
+        "They have more work than they can manage",
+        "They enjoy their work"
+      ],
+      "correct": "They have more work than they can manage",
+      "hint": "\"too much\" = excessive; more than what is good or manageable. A PROBLEM is implied."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with \"too many\" or \"not enough\".",
+      "text": "There are ___ people and ___ chairs — some must stand.",
+      "correct": "too many / not enough",
+      "hint": "\"too many people\" (C, excessive) + \"not enough chairs\" (C, insufficient). ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose \"very\" or \"too\".",
+      "text": "\"This coffee is ___ strong — I can't drink it.\"",
+      "opts": [
+        "very",
+        "too",
+        "enough",
+        "much"
+      ],
+      "correct": "too",
+      "hint": "\"too strong\" = so strong it's a PROBLEM (can't drink it). \"Very strong\" = neutral (might enjoy it). ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct position of \"enough\".",
+      "text": "The water is warm. Choose the correct sentence.",
+      "opts": [
+        "Enough the water is warm.",
+        "The water is enough warm.",
+        "The water is warm enough.",
+        "The water enough is warm."
+      ],
+      "correct": "The water is warm enough.",
+      "hint": "adjective + ENOUGH (comes AFTER the adjective). \"The water is warm ENOUGH.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"She can't apply for the scholarship — she isn't ___ (experienced) ___.\"",
+      "correct": "experienced enough",
+      "hint": "adjective + enough: \"She isn't EXPERIENCED ENOUGH.\" = her experience level is insufficient. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There's too much oil.\" — \"too much\" is used because:",
+      "opts": [
+        "oil is countable",
+        "oil is uncountable",
+        "it's positive",
+        "it's a question"
+      ],
+      "correct": "oil is uncountable",
+      "hint": "\"too much\" = uncountable noun. \"oil\" is uncountable. \"Too MUCH oil.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There are too many onions.\" — \"too many\" because:",
+      "opts": [
+        "onions is uncountable",
+        "onions is countable and plural",
+        "it's a question",
+        "it's negative"
+      ],
+      "correct": "onions is countable and plural",
+      "hint": "\"too many\" = countable plural noun. \"onions\" (one onion, two onions). \"Too MANY onions.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The soup isn't hot ___.\" Complete correctly.",
+      "opts": [
+        "enough",
+        "too",
+        "much",
+        "a lot"
+      ],
+      "correct": "enough",
+      "hint": "adjective + ENOUGH: \"isn't hot ENOUGH\" = needs to be hotter. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"We have ___ chairs — everyone can sit.\"",
+      "correct": "enough",
+      "hint": "\"enough\" before noun = sufficient. \"We have ENOUGH chairs.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Too much\" implies:",
+      "opts": [
+        "just the right amount",
+        "not enough",
+        "a problem — excessive amount",
+        "a small amount"
+      ],
+      "correct": "a problem — excessive amount",
+      "hint": "\"too\" = problem/negative consequence. \"Too much oil\" = more oil than is good. A problem."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There isn't enough flour.\" — \"flour\" is:",
+      "opts": [
+        "countable",
+        "uncountable",
+        "plural",
+        "both"
+      ],
+      "correct": "uncountable",
+      "hint": "\"flour\" is uncountable. \"There isn't enough flour.\" (not \"There aren't enough flour.\" — wrong!)"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"There aren't ___ eggs.\" (insufficient number)",
+      "correct": "enough",
+      "hint": "\"enough\" with countable noun: \"There aren't ENOUGH eggs.\" (= we need more eggs) ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"The room is enough warm\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"The room is warm ENOUGH.\" — adjective + enough. NEVER \"enough + adjective\"!"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"This coffee is very strong.\" vs \"This coffee is too strong.\" — difference?",
+      "opts": [
+        "Same meaning",
+        "\"Very\" = neutral; \"too\" = problem (can't drink it)",
+        "\"Too\" is less strong than \"very\"",
+        "Both mean excessive"
+      ],
+      "correct": "\"Very\" = neutral; \"too\" = problem (can't drink it)",
+      "hint": "\"very strong\" = neutral intensifier. \"too strong\" = excessively strong; a PROBLEM implied."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ate too ___.\" (no noun — I ate an excessive amount)",
+      "opts": [
+        "many",
+        "much",
+        "a lot",
+        "enough"
+      ],
+      "correct": "much",
+      "hint": "\"too much\" alone (no noun) = excessive eating. \"I ate TOO MUCH.\" = I ate more than I should have. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence describes a problem?",
+      "opts": [
+        "\"This is very hot.\"",
+        "\"This is hot enough.\"",
+        "\"This is too hot.\"",
+        "\"This isn't too hot.\""
+      ],
+      "correct": "\"This is too hot.\"",
+      "hint": "\"too hot\" = excessive heat — a PROBLEM (e.g. can't eat it). \"Very hot\" = neutral, might still enjoy."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She's not old ___ to vote.\" (age is insufficient)",
+      "correct": "enough",
+      "hint": "adjective + enough: \"She's not old ENOUGH to vote.\" = her age is insufficient for voting. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ many students — not enough space.\" Choose correctly.",
+      "opts": [
+        "Too much",
+        "Too many",
+        "Too few",
+        "Much too"
+      ],
+      "correct": "Too many",
+      "hint": "\"students\" = countable → \"too MANY students\". \"Too many students — not enough space.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses \"enough\" correctly?",
+      "opts": [
+        "\"The room is enough big.\"",
+        "\"Big enough the room is.\"",
+        "\"The room is big enough.\"",
+        "\"Enough the room is big.\""
+      ],
+      "correct": "\"The room is big enough.\"",
+      "hint": "adjective + enough (always after the adjective). \"The room is BIG ENOUGH.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There isn't ___ sugar.\" vs \"There aren't ___ oranges.\"",
+      "opts": [
+        "enough / enough",
+        "many / much",
+        "too many / too much",
+        "some / any"
+      ],
+      "correct": "enough / enough",
+      "hint": "\"enough\" works with BOTH: \"isn't enough sugar\" (UC) and \"aren't enough oranges\" (C). ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The manti had too ___ filling.\" (U.C. — filling is a mass)",
+      "opts": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "correct": "much",
+      "hint": "\"filling\" = uncountable mass → \"too MUCH filling\". ✅"
+    }
+  ]
+}

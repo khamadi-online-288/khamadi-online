@@ -1,0 +1,429 @@
+{
+  "id": "l9-6",
+  "moduleNum": 9,
+  "lessonNum": 8,
+  "moduleTitle": "Right now",
+  "title": "Module 9 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir study at WKU?",
+      "opts": [
+        "Biology",
+        "Economics",
+        "Physics",
+        "Computer Science"
+      ],
+      "correct": "Computer Science",
+      "hint": "\"My name is Amir Bekzhanov. I study Computer Science at WKU.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir's first lecture starts at 9:15 in the morning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I am not attending a lecture at this moment because my first class starts at eleven.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Amir sitting at the start of the text?",
+      "opts": [
+        "First floor cafeteria",
+        "Ground floor entrance",
+        "Third floor lecture hall",
+        "Second floor library"
+      ],
+      "correct": "Second floor library",
+      "hint": "\"I am sitting in the WKU library on the second floor.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Amir closes his laptop at ___ and prepares to go to his lecture.",
+      "correct": "10:45",
+      "hint": "\"At 10:45 I close my laptop and pick up my bag. My lecture is starting in fifteen minutes.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is Malika studying in the library today instead of her room?",
+      "opts": [
+        "She prefers the library",
+        "The library is closer to her lecture",
+        "Her room is too noisy",
+        "Her internet is not working"
+      ],
+      "correct": "Her internet is not working",
+      "hint": "\"Today she is in the library because her internet is not working.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The student near the window in the library is talking on the phone.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "The student near the WINDOW is sleeping on his notebook. It is the student near the ENTRANCE who is talking on the phone."
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Bekzat doing when Amir sees him in the cafeteria?",
+      "opts": [
+        "Waiting in the queue",
+        "Talking to Sholpan",
+        "Sleeping at the table",
+        "Eating porridge and reading a textbook"
+      ],
+      "correct": "Eating porridge and reading a textbook",
+      "hint": "\"My friend Bekzat is sitting at a corner table. He is eating a bowl of porridge and reading a textbook at the same time.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Amir's father doing when Amir calls home?",
+      "opts": [
+        "Watching the news on TV",
+        "Playing with Dinara in the garden",
+        "Working at the university",
+        "Fixing the car in the garage"
+      ],
+      "correct": "Fixing the car in the garage",
+      "hint": "\"My father is fixing the car in the garage.\" — Amir's mother tells him."
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Sholpan when Amir calls her?",
+      "opts": [
+        "In the library",
+        "In the dormitory",
+        "In the lecture hall",
+        "In the cafeteria"
+      ],
+      "correct": "In the cafeteria",
+      "hint": "\"I'm eating lunch in the cafeteria. Why?\" — Sholpan answers Amir's call."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Dastan is helping Amir write the code for the project.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"He's playing football outside with the sports club. Again.\" — Sholpan tells Amir where Dastan is."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Sholpan tells Amir that the project deadline is ___.",
+      "correct": "tomorrow",
+      "hint": "\"Are you working on the project? The deadline is tomorrow!\" — Amir says this at the start of the call."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Malika doing in the WKU café during the video call?",
+      "opts": [
+        "Waiting for a lecture to start",
+        "Eating lunch with a friend",
+        "Working on her laptop",
+        "Drinking coffee and reading her Psychology notes"
+      ],
+      "correct": "Drinking coffee and reading her Psychology notes",
+      "hint": "\"I'm reading my Psychology notes. And drinking coffee. And now I'm talking to you!\" — Malika to Aigerim."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The two boys arguing near Malika are from the Physics faculty.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Two boys from the Engineering faculty. They're arguing about something!\" — Malika. Engineering, not Physics."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Aigerim doing during the video call with Malika?",
+      "opts": [
+        "Having coffee in the WKU café",
+        "Walking to her lecture",
+        "Sitting in the library and pretending to study",
+        "Cooking dinner at home"
+      ],
+      "correct": "Sitting in the library and pretending to study",
+      "hint": "\"I'm sitting in the library. I'm listening to you... and pretending to study.\" — Aigerim."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ Malika reading her notes?\" — \"Yes, she ___!\"",
+      "opts": [
+        "Are / are",
+        "Am / is",
+        "Is / are",
+        "Is / is"
+      ],
+      "correct": "Is / is",
+      "hint": "Malika = she (singular) → IS. Short answer: \"Yes, she IS.\" (never \"Yes, she's.\")"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I am knowing the answer to this question\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Know\" is a stative verb — it NEVER takes -ing! → \"I know the answer.\" ✅ Stative verbs: know, like, love, want, understand."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "The correct -ing form of the verb \"sit\" is ___.",
+      "correct": "sitting",
+      "hint": "\"sit\" = consonant + vowel + consonant (s-i-t) → double the last letter! sit → sitting. \"Amir is sitting in the library.\""
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses Present Continuous correctly?",
+      "opts": [
+        "\"She is wanting another coffee right now.\"",
+        "\"I am knowing all the spelling rules.\"",
+        "\"They are understanding the grammar today.\"",
+        "\"Look — the professor is writing on the board!\""
+      ],
+      "correct": "\"Look — the professor is writing on the board!\"",
+      "hint": "\"Look!\" = signal for Present Continuous. \"write\" is an action verb → writing ✅. The others use stative verbs (want, know, understand) which never take -ing."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Malika usually ___ in her room, but today she ___ in the library.",
+      "opts": [
+        "is studying / studies",
+        "studies / studies",
+        "is studying / is studying",
+        "studies / is studying"
+      ],
+      "correct": "studies / is studying",
+      "hint": "\"Usually\" → Present Simple: studies ✅. \"Today\" (temporary situation) → Present Continuous: is studying ✅."
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Are you coming to the library?\" — \"Yes, I'm.\" is a correct short answer.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "You can NEVER use a contraction in a short positive answer! → \"Yes, I AM.\" ✅ \"Yes, I'm.\" ❌"
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "The correct -ing form of the verb \"write\" is ___.",
+      "correct": "writing",
+      "hint": "\"write\" ends in -e → drop the -e, add -ing: write → writing. \"The professor is writing on the board.\""
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is a signal word for Present Continuous?",
+      "opts": [
+        "every morning",
+        "usually",
+        "always",
+        "right now"
+      ],
+      "correct": "right now",
+      "hint": "\"right now / at the moment / look! / listen!\" → Present Continuous. \"every morning / usually / always\" → Present Simple."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"deadline\" mean?",
+      "opts": [
+        "The beginning of a new project",
+        "A long line of waiting people",
+        "A type of computer program",
+        "The latest time by which something must be finished"
+      ],
+      "correct": "The latest time by which something must be finished",
+      "hint": "\"The deadline is tomorrow!\" — Amir. Deadline = срок сдачи — the last moment to hand in your work."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Starving\" means feeling just a little bit hungry.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Starving\" (informal) = EXTREMELY hungry. \"I'm starving!\" — Sholpan says this because she hasn't eaten all morning."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "The opposite of \"permanent\" is ___.",
+      "correct": "temporary",
+      "hint": "Temporary (временный) = lasting only a short time. The opposite of permanent (постоянный). Malika is in the library — it's a temporary situation."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"concentrate\" mean?",
+      "opts": [
+        "to relax and take a break",
+        "to remember something from the past",
+        "to focus all your attention on one thing",
+        "to work very quickly without stopping"
+      ],
+      "correct": "to focus all your attention on one thing",
+      "hint": "\"Amir is trying hard to concentrate during the lecture.\" Concentrate = to focus, to give your full attention."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a \"barista\"?",
+      "opts": [
+        "A computer algorithm",
+        "A student activity club leader",
+        "A person whose job is to make and serve coffee",
+        "A type of university lecture"
+      ],
+      "correct": "A person whose job is to make and serve coffee",
+      "hint": "\"The barista is making a cappuccino — it smells absolutely amazing!\" — Malika describes the WKU café."
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Meanwhile\" means before something else happens.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Meanwhile\" = at the SAME TIME as something else. \"Amir is studying. Meanwhile, Dastan is playing football.\" — both things happen simultaneously."
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Dastan is playing football ___ of working on the project.",
+      "correct": "instead",
+      "hint": "\"Instead\" = in place of; as an alternative. \"Dastan is playing football INSTEAD OF working on the project.\" — Sholpan tells Amir."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"fascinating\" mean?",
+      "opts": [
+        "extremely tired after effort",
+        "extremely interesting and attractive",
+        "very temporary and short-lived",
+        "very angry and frustrated"
+      ],
+      "correct": "extremely interesting and attractive",
+      "hint": "\"This book about memory is fascinating!\" — Malika. Fascinating = захватывающий / увлекательный — something you find very interesting."
+    }
+  ]
+}

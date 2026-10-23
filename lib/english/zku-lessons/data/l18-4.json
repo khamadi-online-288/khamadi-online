@@ -1,0 +1,222 @@
+{
+  "id": "l18-4",
+  "moduleNum": 2,
+  "lessonNum": 5,
+  "moduleTitle": "Health & the Body",
+  "title": "A letter to a sick friend",
+  "type": "writing",
+  "xp": 75,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "I'm sorry to hear that...",
+      "emoji": "😢",
+      "opts": [
+        "Рад слышать...",
+        "Мне жаль слышать...",
+        "Я слышал что...",
+        "Надеюсь что..."
+      ],
+      "correct": "Мне жаль слышать..."
+    },
+    {
+      "id": "p2",
+      "word": "I hope you feel better soon.",
+      "emoji": "🌸",
+      "opts": [
+        "Надеюсь ты вернёшься скоро.",
+        "Надеюсь тебе скоро станет лучше.",
+        "Надеюсь ты не забудешь.",
+        "Надеюсь это несерьёзно."
+      ],
+      "correct": "Надеюсь тебе скоро станет лучше."
+    },
+    {
+      "id": "p3",
+      "word": "Make sure you...",
+      "emoji": "✅",
+      "opts": [
+        "Не забудь...",
+        "Убедись что...",
+        "Старайся...",
+        "Попробуй..."
+      ],
+      "correct": "Убедись что..."
+    },
+    {
+      "id": "p4",
+      "word": "Don't worry about...",
+      "emoji": "😌",
+      "opts": [
+        "Не забывай о...",
+        "Не беспокойся о...",
+        "Подумай о...",
+        "Расскажи о..."
+      ],
+      "correct": "Не беспокойся о..."
+    },
+    {
+      "id": "p5",
+      "word": "Take care of yourself.",
+      "emoji": "💚",
+      "opts": [
+        "Береги себя.",
+        "Отдыхай хорошо.",
+        "Выздоравливай быстро.",
+        "Позаботься о себе."
+      ],
+      "correct": "Береги себя."
+    },
+    {
+      "id": "p6",
+      "word": "We all miss you in class.",
+      "emoji": "🏫",
+      "opts": [
+        "Мы все скучаем по тебе на занятиях.",
+        "Мы все рады что тебя нет.",
+        "Никто не замечает твоего отсутствия.",
+        "Нам нужны твои записи."
+      ],
+      "correct": "Мы все скучаем по тебе на занятиях."
+    }
+  ],
+  "writingModel": [
+    "Dear Amir,\n\nI'm writing to say that I hope you feel better very soon. We all heard that you've got food poisoning and that you've had to stay home for a few days. I'm so sorry to hear that — it sounds absolutely terrible! Zhibek told me you were quite unwell yesterday evening.",
+    "I'm sure the doctors have given you good advice. The most important thing right now is to rest properly and drink plenty of fluids. Make sure you follow all the doctor's instructions — drink your water, avoid solid food for now, and take your medicines on time. I know you're the kind of person who wants to work even when you're ill, but please resist the temptation! Your body has to recover first.",
+    "Don't worry about university at all. I've already spoken to our group coordinator and explained the situation. Your absences will be officially excused, so you won't have to stress about that. I've also collected all the lecture notes from today and put them in our shared online folder. There's no rush — you can look at them when you're feeling better.",
+    "We really miss you in class, especially in English. It was quiet today without your tech wizard jokes! Rustam asked me to send his greetings, and Zhibek said she'll bring you some homemade soup this evening. She's an excellent cook — much better than the cafeteria, I'm sure!",
+    "Please eat well when you can, sleep as much as possible, and don't push yourself to come back too early. We want you to return fully recovered, not half-recovered. Take care of yourself, and I'll see you very soon.\n\nGet well soon! 💚\nYour friend,\nKamila"
+  ],
+  "writingTemplate": [
+    {
+      "key": "greeting",
+      "prefix": "Dear ",
+      "suffix": ",",
+      "placeholder": "friend's name",
+      "hint": "e.g. Amir / Zhibek / Rustam"
+    },
+    {
+      "key": "opening",
+      "prefix": "I'm writing because I heard you've got ",
+      "suffix": ". I'm so sorry to hear that!",
+      "placeholder": "illness/problem",
+      "hint": "e.g. a bad cold / food poisoning / a fever"
+    },
+    {
+      "key": "advice1",
+      "prefix": "The most important thing is to ",
+      "suffix": " and ___.",
+      "placeholder": "advice 1 ... advice 2",
+      "hint": "e.g. rest ... drink plenty of water"
+    },
+    {
+      "key": "advice2",
+      "prefix": "Make sure you ",
+      "suffix": " every day.",
+      "placeholder": "medical instruction",
+      "hint": "e.g. take your medicine / sleep enough / eat warm food"
+    },
+    {
+      "key": "dont",
+      "prefix": "Don't worry about ",
+      "suffix": " — I've got it covered.",
+      "placeholder": "something to reassure",
+      "hint": "e.g. the classes / the homework / your notes"
+    },
+    {
+      "key": "update",
+      "prefix": "I've collected ",
+      "suffix": " for you.",
+      "placeholder": "what you did to help",
+      "hint": "e.g. all the lecture notes / the homework tasks"
+    },
+    {
+      "key": "miss",
+      "prefix": "We all miss you in class — ",
+      "suffix": ".",
+      "placeholder": "fun detail",
+      "hint": "e.g. it's too quiet without you / your jokes are the best"
+    },
+    {
+      "key": "close",
+      "prefix": "Please ",
+      "suffix": " and come back when you're ready.",
+      "placeholder": "final advice",
+      "hint": "e.g. rest well / take care of yourself / eat well"
+    },
+    {
+      "key": "sign",
+      "prefix": "Get well soon! \nYour friend,\n",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "e.g. Kamila / Zhibek / Rustam"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Opening the letter",
+      "color": "#003876",
+      "items": [
+        "I'm writing to say I hope you feel better soon.",
+        "I'm so sorry to hear you're not well.",
+        "We all heard that you've got a fever/cold/food poisoning.",
+        "It sounds absolutely terrible!",
+        "I hope you're resting and taking care of yourself.",
+        "Zhibek / Amir told me you were quite unwell."
+      ]
+    },
+    {
+      "category": "Health advice",
+      "color": "#EF4444",
+      "items": [
+        "The most important thing is to rest properly.",
+        "Make sure you drink at least 2 litres of water.",
+        "You have to take your medicine on time.",
+        "Don't push yourself — your body needs time.",
+        "Try to eat warm soup if you can.",
+        "Sleep as much as possible — sleep heals everything!"
+      ]
+    },
+    {
+      "category": "Reassurance & help",
+      "color": "#1D9E75",
+      "items": [
+        "Don't worry about university — I'll help.",
+        "I've collected all the notes for you.",
+        "Your absences will be officially excused.",
+        "There's no rush — look at the notes when you're ready.",
+        "I spoke to the coordinator — everything is sorted.",
+        "We have everything under control here!"
+      ]
+    },
+    {
+      "category": "Closing the letter",
+      "color": "#7C3AED",
+      "items": [
+        "We really miss you in class!",
+        "It's too quiet without you!",
+        "Get well soon! 💚",
+        "Take care of yourself!",
+        "See you very soon — fully recovered!",
+        "Sending you lots of warm wishes and good health!"
+      ]
+    }
+  ]
+}

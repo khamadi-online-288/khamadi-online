@@ -1,0 +1,231 @@
+{
+  "id": "l2-g2",
+  "moduleNum": 2,
+  "lessonNum": 4,
+  "moduleTitle": "My family",
+  "title": "Possessive adjectives",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [],
+  "grammarTitle": "Possessive adjectives: my / your / his / her / our / their",
+  "grammarNote": "Притяжательные прилагательные показывают кому что-то принадлежит. В отличие от русского и казахского языков, они НЕ изменяются в зависимости от существительного — одна форма для всего! My brother, my sister, my family — всегда \"my\".",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "my",
+      "short": "мой / моя",
+      "example": "my mother · my brother · my family · my name"
+    },
+    {
+      "subject": "you",
+      "verb": "your",
+      "short": "твой / ваш",
+      "example": "your father · your sister · your city"
+    },
+    {
+      "subject": "he",
+      "verb": "his",
+      "short": "его",
+      "example": "his dream · his job · his name is Marat"
+    },
+    {
+      "subject": "she",
+      "verb": "her",
+      "short": "её",
+      "example": "her cooking · her name is Ainur · her job"
+    },
+    {
+      "subject": "we",
+      "verb": "our",
+      "short": "наш / наша",
+      "example": "our family · our tradition · our home"
+    },
+    {
+      "subject": "they",
+      "verb": "their",
+      "short": "их",
+      "example": "their garden · their house · their children"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Common mistakes — не путай!",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "your vs you're",
+          "example": "✓ your name (притяж.) · ✓ you're a student = you are"
+        },
+        {
+          "form": "their vs they're",
+          "example": "✓ their garden (притяж.) · ✓ they're happy = they are"
+        },
+        {
+          "form": "its vs it's",
+          "example": "✓ its tail (притяж.) · ✓ it's a cat = it is"
+        }
+      ]
+    },
+    {
+      "title": "Possessive 's — принадлежность через имя",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Aizhan's family",
+          "example": "семья Айжан (не \"the family of Aizhan\")"
+        },
+        {
+          "form": "My father's name",
+          "example": "имя моего отца = my father's name is Marat"
+        },
+        {
+          "form": "Dana's drawings",
+          "example": "рисунки Даны = Dana's drawings are beautiful"
+        }
+      ]
+    },
+    {
+      "title": "Family descriptions — практика",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "My mother's job is...",
+          "example": "My mother's job is very important."
+        },
+        {
+          "form": "His / Her hobby is...",
+          "example": "His hobby is fishing. Her hobby is cooking."
+        },
+        {
+          "form": "Their home is in...",
+          "example": "Their home is in Aktobe."
+        },
+        {
+          "form": "Our family tradition is...",
+          "example": "Our family tradition is Friday dinner."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главное правило: притяжательное прилагательное зависит от ВЛАДЕЛЬЦА, а не от предмета!\nMy brother · my sister · my family — всё \"my\", не меняется!\n\nСравни с русским: МОЙ брат, МОЯ сестра, МОЯ семья — меняется\nВ английском: MY brother, MY sister, MY family — всегда MY! 🎯",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct possessive adjective.",
+      "text": "Aizhan talks about ___ family every day.",
+      "opts": [
+        "my",
+        "her",
+        "his",
+        "their"
+      ],
+      "correct": "her",
+      "hint": "Aizhan = she → her family."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Fill in the correct possessive adjective.",
+      "text": "Arman and Dana live with ___ parents in Aktobe.",
+      "correct": "their",
+      "hint": "Arman and Dana = they → their parents."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct possessive adjective.",
+      "text": "I call ___ mother every evening.",
+      "opts": [
+        "my",
+        "her",
+        "his",
+        "our"
+      ],
+      "correct": "my",
+      "hint": "I → my mother."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"His name is Marat\" — \"his\" is correct here (talking about Aizhan's father).",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Father = he → his name. Correct!"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct option.",
+      "text": "___ hobby is cooking traditional Kazakh food. (about Aizhan's mother)",
+      "opts": [
+        "My",
+        "His",
+        "Her",
+        "Their"
+      ],
+      "correct": "Her",
+      "hint": "Mother = she → her hobby."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "We love ___ family tradition — Friday dinner.",
+      "opts": [
+        "my",
+        "her",
+        "our",
+        "their"
+      ],
+      "correct": "our",
+      "hint": "We → our tradition."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Fill in: his, her or their.",
+      "text": "Dana's room is full of ___ beautiful pictures.",
+      "correct": "her",
+      "hint": "Dana = she → her pictures."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the mistake.",
+      "text": "Which sentence has a mistake?",
+      "opts": [
+        "My father's name is Marat.",
+        "Her job is very important.",
+        "He loves his hobby.",
+        "She loves her brother's — his name is Arman."
+      ],
+      "correct": "She loves her brother's — his name is Arman.",
+      "hint": "\"her brother's\" is wrong here — just say \"her brother\". \"She loves her brother — his name is Arman.\""
+    }
+  ]
+}

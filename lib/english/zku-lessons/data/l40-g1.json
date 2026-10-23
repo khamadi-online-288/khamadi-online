@@ -1,0 +1,534 @@
+{
+  "id": "l40-g1",
+  "moduleNum": 6,
+  "lessonNum": 4,
+  "moduleTitle": "Life Experiences",
+  "type": "grammar",
+  "title": "Present Perfect: Irregular Past Participles",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Present Perfect — have/has + past participle",
+  "grammarNote": "Present Perfect образуется из have/has + ПРИЧАСТИЕ ПРОШЕДШЕГО ВРЕМЕНИ (past participle). Для правильных глаголов это просто verb + -ed (работает так же, как Past Simple). Но для НЕПРАВИЛЬНЫХ глаголов форма ДРУГАЯ и её нужно заучить. На уровне A2 нужно знать 50-60 самых частых неправильных причастий.",
+  "grammarTable": [
+    {
+      "subject": "I / You / We / They",
+      "verb": "have + past participle",
+      "short": "I've / We've",
+      "example": "I've been to Almaty. · They've seen this film before."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "has + past participle",
+      "short": "She's / He's",
+      "example": "She's won two championships. · He's built three apps."
+    },
+    {
+      "subject": "Negative",
+      "verb": "have/has + not + pp",
+      "short": "haven't / hasn't",
+      "example": "I haven't finished the novel. · She hasn't given up."
+    },
+    {
+      "subject": "Question",
+      "verb": "Have/Has + subj + pp?",
+      "short": "Have you...?",
+      "example": "Have you ever been abroad? · Has she won yet?"
+    },
+    {
+      "subject": "Short answer (+)",
+      "verb": "Yes, I/he/she have/has",
+      "short": "Yes, I have.",
+      "example": "\"Have you been to Almaty?\" — \"Yes, I have.\" (not \"Yes, I did.\")"
+    },
+    {
+      "subject": "Short answer (−)",
+      "verb": "No, haven't / hasn't",
+      "short": "No, I haven't.",
+      "example": "\"Has he finished?\" — \"No, he hasn't.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Group 1: No change (base = past = participle)",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "cut → cut → cut",
+          "example": "\"She's cut her hair.\" / \"He's cut it three times.\""
+        },
+        {
+          "form": "put → put → put",
+          "example": "\"They've put the results online.\""
+        },
+        {
+          "form": "hit → hit → hit",
+          "example": "\"The team has hit a new record.\""
+        },
+        {
+          "form": "let → let → let",
+          "example": "\"She's let him use her notes.\""
+        }
+      ]
+    },
+    {
+      "title": "Group 2: Vowel change only (i → a → u pattern)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "sing → sang → sung",
+          "example": "\"She's sung at three concerts.\""
+        },
+        {
+          "form": "swim → swam → swum",
+          "example": "\"I've swum in the Caspian Sea.\""
+        },
+        {
+          "form": "drink → drank → drunk",
+          "example": "\"He's drunk too much coffee today.\""
+        },
+        {
+          "form": "begin → began → begun",
+          "example": "\"The semester has begun well.\""
+        },
+        {
+          "form": "run → ran → run",
+          "example": "\"She's run five marathons.\""
+        }
+      ]
+    },
+    {
+      "title": "Group 3: Most common irregular participles",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "be → was/were → been",
+          "example": "\"I've been to Almaty three times.\""
+        },
+        {
+          "form": "go → went → gone/been",
+          "example": "\"She's gone to Astana.\" (still there) / \"She's been to Astana.\" (and returned)"
+        },
+        {
+          "form": "see → saw → seen",
+          "example": "\"Have you seen this documentary?\""
+        },
+        {
+          "form": "do → did → done",
+          "example": "\"I've done all the exercises.\""
+        },
+        {
+          "form": "write → wrote → written",
+          "example": "\"She's written two research papers.\""
+        },
+        {
+          "form": "read → read → read",
+          "example": "\"I've read that novel three times.\" (pronounced /red/)"
+        },
+        {
+          "form": "know → knew → known",
+          "example": "\"I've known her since secondary school.\""
+        },
+        {
+          "form": "give → gave → given",
+          "example": "\"She's given a speech at two conferences.\""
+        },
+        {
+          "form": "take → took → taken",
+          "example": "\"I've taken this exam before.\""
+        },
+        {
+          "form": "make → made → made",
+          "example": "\"He's made three applications from scratch.\""
+        }
+      ]
+    },
+    {
+      "title": "been vs gone — an important distinction!",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "have BEEN to = visited (and came back)",
+          "example": "\"I've been to Almaty.\" = I visited Almaty and I'm back now."
+        },
+        {
+          "form": "have GONE to = went (still there)",
+          "example": "\"She's gone to Almaty.\" = She left for Almaty and is still there."
+        },
+        {
+          "form": "have been = existed/stayed",
+          "example": "\"We've been here for three hours.\" = we are here, for 3 hours."
+        },
+        {
+          "form": "Test: Is the person still there?",
+          "example": "YES → gone. NO (came back) → been."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Лучшая стратегия для неправильных причастий:\n① Учи группами: cut/put/hit (без изменений), sing/swim/drink (i→a→u), see/write/give (-en).\n② Самые важные: been, done, seen, gone, written, known, given, taken, made.\n③ been vs gone — одно из самых частых различий! \"I've been to Almaty\" (вернулся). \"She's gone to Almaty\" (ещё там).\n\n💡 Метод: учи тройку: base → past simple → past participle.\n→ see → SAW → SEEN. / write → WROTE → WRITTEN.\n\n⚠️ Никогда не используй Past Simple в Present Perfect:\n✗ \"I have saw\" → ✅ \"I have seen\"\n✗ \"She has went\" → ✅ \"She has gone/been\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct past participle.",
+      "text": "Zhibek has ___ (win) two regional championships.",
+      "opts": [
+        "winned",
+        "won",
+        "winning",
+        "wined"
+      ],
+      "correct": "won",
+      "hint": "\"win → won → won\" (irregular). \"She has won two championships.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the correct past participle.",
+      "text": "I have ___ (see) that documentary three times.",
+      "correct": "seen",
+      "hint": "\"see → saw → seen\" (irregular). \"I have seen that documentary.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose: been or gone?",
+      "text": "\"Where's Amir?\" — \"He's ___ to the lab. He won't be back until 9.\"",
+      "opts": [
+        "been",
+        "gone",
+        "went",
+        "go"
+      ],
+      "correct": "gone",
+      "hint": "\"gone to\" = went and is STILL THERE. He's still at the lab. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Write the past participle.",
+      "text": "She has ___ (write) two research papers this semester.",
+      "correct": "written",
+      "hint": "\"write → wrote → written\" (irregular). \"She has written two papers.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose: been or gone?",
+      "text": "\"Have you ever ___ to Shymkent?\" — \"Yes, I went there in 2021.\"",
+      "opts": [
+        "gone",
+        "been",
+        "went",
+        "go"
+      ],
+      "correct": "been",
+      "hint": "\"have been to\" = visited and came back. She was there in 2021 and is back now. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct past participle.",
+      "text": "He has ___ (make) three applications from scratch.",
+      "correct": "made",
+      "hint": "\"make → made → made\" (irregular: same for past and participle). \"has made\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Identify the mistake.",
+      "text": "\"She has gave a speech at the conference.\" What is wrong?",
+      "opts": [
+        "Nothing is wrong",
+        "\"gave\" should be \"given\"",
+        "\"has\" should be \"have\"",
+        "\"at\" should be \"in\""
+      ],
+      "correct": "\"gave\" should be \"given\"",
+      "hint": "✅ \"She has GIVEN a speech.\" — \"give → gave → given\". Never use Past Simple form in PP!"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Write the past participle.",
+      "text": "I have ___ (know) him since secondary school.",
+      "correct": "known",
+      "hint": "\"know → knew → known\" (irregular). \"I have known him since...\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"Have you ___ (do) all the exercises?\" — \"No, I haven't ___ the last two.\"",
+      "opts": [
+        "did / did",
+        "done / done",
+        "done / did",
+        "did / done"
+      ],
+      "correct": "done / done",
+      "hint": "\"do → did → done\". In PP: \"Have you done...?\" / \"I haven't done...\" Both need \"done\". ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Write the correct past participle.",
+      "text": "She has ___ (take) this exam twice already.",
+      "correct": "taken",
+      "hint": "\"take → took → taken\" (irregular). \"She has taken this exam twice.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct past participle of \"read\".",
+      "text": "\"I've ___ (read) that article.\" (pronunciation: /red/)",
+      "opts": [
+        "readed",
+        "read",
+        "red",
+        "reading"
+      ],
+      "correct": "read",
+      "hint": "\"read\" stays \"read\" in ALL forms (base/past/participle), but pronounced /red/ (like \"bed\") in past."
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the Present Perfect sentence.",
+      "text": "\"She ___ (sing) at three international competitions.\"",
+      "correct": "has sung",
+      "hint": "\"sing → sang → SUNG\" (irregular: vowel change pattern). \"She HAS SUNG at three competitions.\" ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Past participle of \"go\" (when someone has visited and returned):",
+      "opts": [
+        "went",
+        "gone",
+        "been",
+        "go"
+      ],
+      "correct": "been",
+      "hint": "\"have BEEN to\" = visited and came back. \"I've been to Almaty.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Past participle of \"go\" (when someone is still there):",
+      "opts": [
+        "been",
+        "went",
+        "gone",
+        "go"
+      ],
+      "correct": "gone",
+      "hint": "\"have GONE to\" = went and is STILL THERE. \"She's gone to Almaty.\" (She's still there.) ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"see → saw → ___\"",
+      "correct": "seen",
+      "hint": "\"see → saw → seen\" (irregular). \"Have you SEEN the film?\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"write → wrote → ___\"",
+      "correct": "written",
+      "hint": "\"write → wrote → written\" (irregular). \"She has WRITTEN two papers.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has ___ (give) three speeches this year.\" Choose correctly.",
+      "opts": [
+        "gave",
+        "given",
+        "givenned",
+        "give"
+      ],
+      "correct": "given",
+      "hint": "\"give → gave → given\" (irregular). \"She has GIVEN three speeches.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"He has went to the library\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"He has GONE to the library.\" — \"go → went → gone\". NEVER \"has went\"!"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"do → did → ___\" — past participle of \"do\":",
+      "opts": [
+        "did",
+        "done",
+        "doed",
+        "doing"
+      ],
+      "correct": "done",
+      "hint": "\"do → did → done\" (irregular). \"Have you DONE the homework?\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"swim → swam → ___\" — past participle:",
+      "opts": [
+        "swimmed",
+        "swum",
+        "swamed",
+        "swimming"
+      ],
+      "correct": "swum",
+      "hint": "\"swim → swam → swum\" (i→a→u pattern). \"She's SWUM in three oceans.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (be) to Bishkek and Tashkent.\" (visited and returned)",
+      "correct": "'s been",
+      "hint": "\"have BEEN to\" = visited and came back. \"She's been to Bishkek and Tashkent.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"make → made → ___\" — past participle:",
+      "opts": [
+        "maked",
+        "made",
+        "maken",
+        "making"
+      ],
+      "correct": "made",
+      "hint": "\"make → made → made\" (same for Past Simple and participle). \"She has MADE three apps.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"know → knew → ___\" — past participle:",
+      "opts": [
+        "knowed",
+        "known",
+        "knew",
+        "knowing"
+      ],
+      "correct": "known",
+      "hint": "\"know → knew → known\" (irregular). \"I've KNOWN her for years.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"take → took → ___\" — past participle of \"take\":",
+      "correct": "taken",
+      "hint": "\"take → took → taken\" (irregular). \"She has TAKEN the exam twice.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She has won two championships.\" — \"won\" is:",
+      "opts": [
+        "Past Simple of win",
+        "Past participle of win",
+        "Base form of win",
+        "Wrong — should be \"winned\""
+      ],
+      "correct": "Past participle of win",
+      "hint": "\"win → won → won\". Same form for PS and participle. \"She has WON.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"sing → sang → ___\" — past participle:",
+      "opts": [
+        "sanged",
+        "sung",
+        "singed",
+        "sang"
+      ],
+      "correct": "sung",
+      "hint": "\"sing → sang → sung\" (i→a→u pattern). \"She's SUNG at concerts.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"He ___ (read) the Aitmatov novel three times.\" (present perfect)",
+      "correct": "'s read",
+      "hint": "\"read → read → read\" (same pronunciation: /red/ for past/participle). \"He's READ it.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Amir is ___ to the lab.\" — He's still there. Which is correct?",
+      "opts": [
+        "been",
+        "gone",
+        "went",
+        "go"
+      ],
+      "correct": "gone",
+      "hint": "\"gone to\" = went and is STILL THERE. He's at the lab right now. \"He's GONE to the lab.\" ✅"
+    }
+  ]
+}

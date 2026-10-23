@@ -1,0 +1,418 @@
+{
+  "id": "l67-3",
+  "moduleNum": 9,
+  "lessonNum": 3,
+  "moduleTitle": "Wishes, Regrets & Hypotheticals",
+  "title": "If Only We Had Known: A Conversation About Regrets",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Mira",
+      "text": "I've been thinking a lot lately. Do you ever look back and wish you'd made different choices?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "All the time, honestly. I sometimes wish I hadn't dropped out of the architecture programme. I really regret that decision.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Mira",
+      "text": "I didn't know you had studied architecture. What happened?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Life happened. My father got ill, I needed to work, and I thought — I'll come back to it. But I never did. If only I had found a way to do both. I know that sounds unrealistic, but…",
+      "isLeft": false
+    },
+    {
+      "speaker": "Mira",
+      "text": "No, it doesn't sound unrealistic. It sounds human. I have my own version of that story. I wish I had taken the job in London when it was offered. I turned it down because I was too scared.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Fear is the great regret-maker, isn't it? Supposing you had gone — do you think your life would look completely different?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Mira",
+      "text": "Almost certainly. I'd probably be in a completely different field. Which is strange to imagine. But then again — what if I'd been miserable there? We only ever see one path.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That's true. I often think: if I had stayed in the programme, maybe I would have graduated but never practised. Maybe I'd have hated it by now. We idealise the roads not taken.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Mira",
+      "text": "Exactly. I think the honest version is: I wish I had been braver, not necessarily that I wish the outcome had been different. The courage is what I miss.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That's a really interesting distinction. So it's not \"if only I had gone to London\" — it's \"if only I had been the kind of person who could take that risk.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Mira",
+      "text": "Yes. And I think I am that person now. Which means the regret might actually have been useful. It pushed me to become braver over time.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "So what starts as regret can turn into growth. I hadn't thought of it that way. Maybe I should have thanked my past self for failing, rather than blaming him.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Mira",
+      "text": "Should have thanked, could have thanked — but didn't! That's the grammar of life, I suppose. We always know what we should have done in hindsight.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "Ha! Yes. In hindsight, everything is obvious. Imagine if we could always see that clearly in the moment. The world would be very different.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I wish I hadn't dropped out",
+      "ru": "Жаль, что я бросил учёбу",
+      "context": "Wish + past perfect = past regret"
+    },
+    {
+      "phrase": "If only I had found a way to do both",
+      "ru": "Если бы только я нашёл способ делать и то, и другое",
+      "context": "If only + past perfect"
+    },
+    {
+      "phrase": "Supposing you had gone — do you think…",
+      "ru": "Предположим, ты поехала — как ты думаешь…",
+      "context": "Hypothetical speculation about the past"
+    },
+    {
+      "phrase": "We idealise the roads not taken",
+      "ru": "Мы идеализируем дороги, которые не выбрали",
+      "context": "Metaphor for regret and imagination"
+    },
+    {
+      "phrase": "In hindsight, everything is obvious",
+      "ru": "В ретроспективе всё очевидно",
+      "context": "Key phrase about regret and time"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "hindsight",
+      "ipa": "/ˈhaɪndsaɪt/",
+      "pos": "noun",
+      "ru": "ретроспектива / взгляд назад",
+      "kz": "кейінгі ой",
+      "emoji": "🔭",
+      "definition": "understanding of a situation only after it has happened",
+      "example": "\"In hindsight, everything is obvious.\"",
+      "collocations": [
+        "in hindsight",
+        "with hindsight",
+        "20/20 hindsight"
+      ]
+    },
+    {
+      "en": "idealise",
+      "ipa": "/aɪˈdɪəlaɪz/",
+      "pos": "verb",
+      "ru": "идеализировать",
+      "kz": "идеалдау",
+      "emoji": "✨",
+      "definition": "to regard something as better or more perfect than it actually is",
+      "example": "\"We idealise the roads not taken.\"",
+      "collocations": [
+        "idealise the past",
+        "tend to idealise",
+        "idealise a relationship"
+      ]
+    },
+    {
+      "en": "distinction",
+      "ipa": "/dɪˈstɪŋkʃən/",
+      "pos": "noun",
+      "ru": "различие / разграничение",
+      "kz": "айырмашылық",
+      "emoji": "⚖️",
+      "definition": "a difference between two similar things",
+      "example": "\"That's a really interesting distinction\" — separating two related ideas.",
+      "collocations": [
+        "make a distinction",
+        "draw a distinction",
+        "important distinction"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "hindsight",
+      "emoji": "🔭",
+      "opts": [
+        "only now / after the fact",
+        "before something happens",
+        "at the same moment",
+        "very quickly"
+      ],
+      "correct": "only now / after the fact"
+    },
+    {
+      "id": "p2",
+      "word": "to idealise",
+      "emoji": "✨",
+      "opts": [
+        "to imagine something as better than it is",
+        "to plan carefully",
+        "to describe accurately",
+        "to forget quickly"
+      ],
+      "correct": "to imagine something as better than it is"
+    }
+  ],
+  "task1Bank": [
+    "Mira",
+    "Daniyar",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Who regrets dropping out of a university programme?",
+      "correct": "Daniyar"
+    },
+    {
+      "id": "t2",
+      "question": "Who turned down a job abroad out of fear?",
+      "correct": "Mira"
+    },
+    {
+      "id": "t3",
+      "question": "Who suggests that regret can lead to growth?",
+      "correct": "Mira"
+    },
+    {
+      "id": "t4",
+      "question": "Who says we only ever see one path?",
+      "correct": "Mira"
+    },
+    {
+      "id": "t5",
+      "question": "Who makes a joke about \"the grammar of life\"?",
+      "correct": "Mira"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Daniyar wishes he had never started studying architecture.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Mira regrets not being brave enough rather than regretting the specific outcome.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Both speakers agree that regret is purely negative and destructive.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Daniyar considers the possibility that he might have hated architecture if he had finished.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Mira says she is now more courageous than she was then.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "Why did Daniyar leave the architecture programme?",
+      "opts": [
+        "He failed his exams",
+        "He needed to work due to his father's illness",
+        "He didn't enjoy it",
+        "He got a better job offer"
+      ],
+      "correct": "He needed to work due to his father's illness",
+      "hint": "Daniyar: \"My father got ill, I needed to work\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "Why did Mira not take the job in London?",
+      "opts": [
+        "She was not qualified",
+        "She was too scared",
+        "She had family obligations",
+        "She didn't like London"
+      ],
+      "correct": "She was too scared",
+      "hint": "Mira: \"I was too scared\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Mira say she truly misses?",
+      "opts": [
+        "The specific job in London",
+        "The outcomes she could have had",
+        "The courage to take risks",
+        "Her old colleagues"
+      ],
+      "correct": "The courage to take risks",
+      "hint": "Mira: \"The courage is what I miss\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does \"we idealise the roads not taken\" mean in context?",
+      "opts": [
+        "We plan alternative routes carefully",
+        "We imagine unchosen paths as better than they might have been",
+        "We regret every decision we make",
+        "We never think about other options"
+      ],
+      "correct": "We imagine unchosen paths as better than they might have been",
+      "hint": "Daniyar: \"We idealise the roads not taken\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Both speakers end the conversation believing regret can be useful and lead to growth.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Mira and Daniyar's final exchanges",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Daniyar is certain that his life would have been better if he had stayed in architecture.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Maybe I would have graduated but never practised\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I wish I ___ the job in London.\" (She didn't take it — regret)",
+      "opts": [
+        "take",
+        "took",
+        "had taken",
+        "would take"
+      ],
+      "correct": "had taken",
+      "hint": "Wish + past perfect = past regret",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"In ___, everything is obvious.\" (Understanding only after the event)",
+      "correct": "hindsight",
+      "hint": "Key phrase from the dialogue",
+      "points": 1
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I should ___ thanked my past self.\" Choose the correct completion.",
+      "opts": [
+        "to have",
+        "have",
+        "has",
+        "had"
+      ],
+      "correct": "have",
+      "hint": "Should have + past participle",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"to idealise\" mean?",
+      "opts": [
+        "To describe accurately",
+        "To imagine as better than it is",
+        "To plan for the future",
+        "To criticise unfairly"
+      ],
+      "correct": "To imagine as better than it is",
+      "hint": "\"We idealise the roads not taken\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A \"distinction\" between two things is…",
+      "opts": [
+        "A similarity",
+        "A difference",
+        "A combination",
+        "A contradiction"
+      ],
+      "correct": "A difference",
+      "hint": "\"That's a really interesting distinction\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "\"___ you had gone to London — do you think life would be different?\" (Hypothetical suggestion word)",
+      "correct": "Supposing",
+      "hint": "Daniyar's question in the dialogue",
+      "points": 2
+    }
+  ]
+}

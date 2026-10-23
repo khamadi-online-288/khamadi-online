@@ -1,0 +1,550 @@
+{
+  "id": "l61-2",
+  "moduleNum": 3,
+  "lessonNum": 2,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "reading",
+  "title": "The Science of \"What If\": Conditionals in Academic and Scientific Writing",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "Science is, at its core, a conditional enterprise. Every experiment is a test of a hypothesis that takes the form: \"If X is true, then Y should follow.\" Every model is a conditional prediction: if temperatures rise by 2°C, then sea ice will reduce by approximately this amount; if the intervention is effective, then the treatment group should show measurable improvement relative to the control. Understanding how scientists and academics use conditional language is essential for anyone reading or writing in these fields.",
+    "The zero conditional is the language of scientific law. \"If water is cooled below 0°C, it freezes.\" \"If a force is applied to a body, the body accelerates in proportion to the force.\" These are not guesses or possibilities — they are expressions of regularities so well established that we consider them laws of nature. The conditional form is used not because there is any uncertainty about the result, but because the relationship is truly conditional: it holds only when the stated condition is met.",
+    "The first conditional appears in scientific writing when researchers express predictions that depend on results still to come: \"If the current rate of ice loss continues, the Arctic Ocean will be ice-free in summer by 2050.\" \"If the trial is successful, the treatment could be approved for clinical use within two years.\" These are genuine predictions about future states — they may or may not come true, and the scientist is committed to the possibility rather than the certainty.",
+    "The second conditional is less common in natural science writing, but it appears in thought experiments and hypothetical scenarios: \"If we were to remove all atmospheric CO₂, the earth would cool dramatically and most plant life would die.\" This describes something that cannot practically be done, but by imagining it, scientists can reason about the role of CO₂ in the climate system. This is the scientific use of the hypothetical — not speculation, but controlled imagination in the service of understanding.",
+    "The third conditional is the conditional of retrospective analysis: \"If the initial survey had included rural populations, the results would have been more representative.\" This is how scientists acknowledge the limitations of past research. It is also the language of historical counterfactuals in science: \"If penicillin had not been discovered when it was, millions more would have died from bacterial infections during the twentieth century.\"",
+    "Academic writing in the social sciences uses all four conditionals with particular sophistication. A sociologist might write: \"If the minimum wage is increased (zero conditional for predicted effect), employment will fall by X percent in the short term (first conditional for policy prediction), but if the economy had been in better shape at the time of introduction (third conditional for retrospective), the effect might have been smaller (mixed).\" A single paragraph might move through multiple conditional types as the argument shifts between established theory, prediction, and retrospective analysis.",
+    "For students writing academic essays, the challenge is to use conditionals with precision — to know when you are expressing a law, a prediction, a hypothesis, or a retrospective analysis, and to signal this clearly through your choice of conditional type. An unnecessary shift to the second conditional can make a genuine prediction sound hypothetical; an unnecessary third conditional can make a past event sound more contingent than it actually was. The conditional, in academic writing, is a precision instrument."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "I'm writing about what would happen to biodiversity if temperatures rose by 3°C. Which conditional should I use?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "It depends on your certainty. If it's an established scientific prediction, use first: \"temperatures will rise, biodiversity will decline.\" If it's more exploratory, second: \"if temperatures were to rise by 3°C, we would expect...\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "The scientific consensus is strong — it's closer to a prediction than a speculation.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Then first conditional. \"If global temperatures rise by 3°C, approximately X% of species will face extinction risk.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "But later I'm talking about past failures in conservation — the ones that should have been done differently.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "That's third conditional. \"If the reserves had been established ten years earlier, more habitat would have been preserved.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "And then I connect past failures to the present situation — if those reserves had been established, the situation would be better now.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Mixed conditional. Past condition → present result. Exactly the right tool for that argument.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "thought experiment",
+      "ru": "мысленный эксперимент",
+      "context": "\"Thought experiments and hypothetical scenarios.\" = imagined experiments to test ideas."
+    },
+    {
+      "phrase": "retrospective analysis",
+      "ru": "ретроспективный анализ",
+      "context": "\"The conditional of retrospective analysis.\" = looking back and evaluating past events."
+    },
+    {
+      "phrase": "contingent",
+      "ru": "случайный / зависящий от",
+      "context": "\"More contingent than it actually was.\" = dependent on particular conditions; not inevitable."
+    },
+    {
+      "phrase": "precision instrument",
+      "ru": "точный инструмент",
+      "context": "\"The conditional is a precision instrument.\" = a tool that requires careful, exact use."
+    },
+    {
+      "phrase": "relative to",
+      "ru": "по сравнению с",
+      "context": "\"Relative to the control.\" = compared to; in relation to."
+    },
+    {
+      "phrase": "established",
+      "ru": "устоявшийся / доказанный",
+      "context": "\"Well established regularities.\" = accepted as true; no longer disputed."
+    },
+    {
+      "phrase": "intervention",
+      "ru": "вмешательство / воздействие",
+      "context": "\"If the intervention is effective.\" = a deliberate action designed to change an outcome."
+    },
+    {
+      "phrase": "representative",
+      "ru": "репрезентативный",
+      "context": "\"More representative results.\" = accurately reflecting the full population or situation."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "intervention",
+      "ipa": "/ˌɪntəˈvenʃən/",
+      "pos": "noun",
+      "ru": "вмешательство",
+      "kz": "араласу",
+      "emoji": "🔧",
+      "definition": "an action taken to deliberately change an outcome",
+      "example": "\"If the intervention is effective, the treatment group should show improvement.\"",
+      "collocations": [
+        "medical intervention",
+        "policy intervention",
+        "intervention strategy"
+      ]
+    },
+    {
+      "en": "retrospective",
+      "ipa": "/ˌretrəˈspektɪv/",
+      "pos": "adjective",
+      "ru": "ретроспективный",
+      "kz": "кері қарайтын",
+      "emoji": "🔙",
+      "definition": "looking back on or dealing with past events",
+      "example": "The third conditional is used for retrospective analysis of past research.",
+      "collocations": [
+        "retrospective analysis",
+        "retrospective study",
+        "in retrospect"
+      ]
+    },
+    {
+      "en": "established",
+      "ipa": "/ɪˈstæblɪʃt/",
+      "pos": "adjective",
+      "ru": "устоявшийся / доказанный",
+      "kz": "орнаған",
+      "emoji": "✅",
+      "definition": "accepted as true; no longer disputed; firmly set up",
+      "example": "\"Well established regularities\" are expressed using zero conditionals.",
+      "collocations": [
+        "well established",
+        "firmly established",
+        "established fact"
+      ]
+    },
+    {
+      "en": "contingent",
+      "ipa": "/kənˈtɪndʒənt/",
+      "pos": "adjective",
+      "ru": "случайный / зависящий",
+      "kz": "мүмkіндік",
+      "emoji": "🎲",
+      "definition": "dependent on particular conditions; not inevitable",
+      "example": "Making a past event sound more contingent than it was is a common error with conditionals.",
+      "collocations": [
+        "contingent on",
+        "historically contingent",
+        "contingent outcome"
+      ]
+    },
+    {
+      "en": "precision",
+      "ipa": "/prɪˈsɪʒən/",
+      "pos": "noun",
+      "ru": "точность",
+      "kz": "дәлдік",
+      "emoji": "🎯",
+      "definition": "exactness and accuracy",
+      "example": "\"The conditional is a precision instrument.\" — requires careful, exact use.",
+      "collocations": [
+        "with precision",
+        "precision instrument",
+        "high precision"
+      ]
+    },
+    {
+      "en": "approximation",
+      "ipa": "/əˌprɒksɪˈmeɪʃən/",
+      "pos": "noun",
+      "ru": "приблизительная оценка",
+      "kz": "жуықтауы",
+      "emoji": "≈",
+      "definition": "a close estimate; something that is close but not exact",
+      "example": "\"Ice will reduce by approximately this amount.\" — conditional predictions use approximations.",
+      "collocations": [
+        "rough approximation",
+        "close approximation",
+        "approximate value"
+      ]
+    },
+    {
+      "en": "sophisticated",
+      "ipa": "/səˈfɪstɪkeɪtɪd/",
+      "pos": "adjective",
+      "ru": "сложный / изощрённый",
+      "kz": "күрделі",
+      "emoji": "🎩",
+      "definition": "showing advanced knowledge; complex",
+      "example": "Social scientists use conditionals with particular sophistication.",
+      "collocations": [
+        "highly sophisticated",
+        "sophisticated approach",
+        "sophisticated analysis"
+      ]
+    },
+    {
+      "en": "clinical",
+      "ipa": "/ˈklɪnɪkəl/",
+      "pos": "adjective",
+      "ru": "клинический",
+      "kz": "клиникалық",
+      "emoji": "🏥",
+      "definition": "relating to medical treatment and observation",
+      "example": "\"The treatment could be approved for clinical use.\" — use in actual medical settings.",
+      "collocations": [
+        "clinical trial",
+        "clinical use",
+        "clinical evidence"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "retrospective",
+      "emoji": "🔙",
+      "opts": [
+        "предстоящий",
+        "ретроспективный",
+        "текущий",
+        "случайный"
+      ],
+      "correct": "ретроспективный"
+    },
+    {
+      "id": "p2",
+      "word": "established",
+      "emoji": "✅",
+      "opts": [
+        "спорный",
+        "устоявшийся / доказанный",
+        "временный",
+        "новый"
+      ],
+      "correct": "устоявшийся / доказанный"
+    },
+    {
+      "id": "p3",
+      "word": "contingent",
+      "emoji": "🎲",
+      "opts": [
+        "неизбежный",
+        "случайный / зависящий",
+        "предсказуемый",
+        "изменчивый"
+      ],
+      "correct": "случайный / зависящий"
+    },
+    {
+      "id": "p4",
+      "word": "precision",
+      "emoji": "🎯",
+      "opts": [
+        "неточность",
+        "точность",
+        "сложность",
+        "скорость"
+      ],
+      "correct": "точность"
+    },
+    {
+      "id": "p5",
+      "word": "intervention",
+      "emoji": "🔧",
+      "opts": [
+        "наблюдение",
+        "вмешательство",
+        "измерение",
+        "анализ"
+      ],
+      "correct": "вмешательство"
+    },
+    {
+      "id": "p6",
+      "word": "sophisticated",
+      "emoji": "🎩",
+      "opts": [
+        "простой",
+        "сложный / изощрённый",
+        "устаревший",
+        "спорный"
+      ],
+      "correct": "сложный / изощрённый"
+    }
+  ],
+  "task1Bank": [
+    "zero",
+    "law",
+    "first",
+    "second",
+    "thought experiments",
+    "third",
+    "representative",
+    "precision"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The ___ conditional is the language of scientific law.",
+      "correct": "zero"
+    },
+    {
+      "id": "t2",
+      "question": "\"If water is cooled below 0°C, it freezes\" is an expression of a ___ of nature.",
+      "correct": "law"
+    },
+    {
+      "id": "t3",
+      "question": "The ___ conditional is used for genuine scientific predictions about future states.",
+      "correct": "first"
+    },
+    {
+      "id": "t4",
+      "question": "The ___ conditional is used for thought experiments and hypothetical scenarios.",
+      "correct": "second"
+    },
+    {
+      "id": "t5",
+      "question": "\"Removing all atmospheric CO₂\" is an example of scientific ___ .",
+      "correct": "thought experiments"
+    },
+    {
+      "id": "t6",
+      "question": "The ___ conditional is for retrospective analysis of past research limitations.",
+      "correct": "third"
+    },
+    {
+      "id": "t7",
+      "question": "\"If the survey had included rural populations, results would have been more ___ .\"",
+      "correct": "representative"
+    },
+    {
+      "id": "t8",
+      "question": "The text describes the conditional as a \"___ instrument\" in academic writing.",
+      "correct": "precision"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Science uses conditionals because outcomes are always uncertain.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Zero conditionals express certainties — results that always follow from conditions.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Second conditionals are more common than first conditionals in science writing.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Third conditionals allow scientists to acknowledge limitations of past research.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "The text says unnecessary shifts to second conditional can make a prediction sound like a fact.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Zhibek's biodiversity argument uses first conditional for prediction and third for past failures.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says all academic writing should use second conditional.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Mixed conditionals allow connecting past conditions with present consequences.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What form does every scientific hypothesis take?",
+      "opts": [
+        "A certainty",
+        "A conditional: if X is true, then Y should follow",
+        "An observation",
+        "A definition"
+      ],
+      "correct": "A conditional: if X is true, then Y should follow",
+      "hint": "\"Every experiment is a test of a hypothesis that takes the form: if X is true, then Y should follow.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does science use zero conditional for laws if there is no uncertainty?",
+      "opts": [
+        "Tradition",
+        "It sounds more academic",
+        "The relationship is truly conditional — holds only when the condition is met",
+        "It's easier to write"
+      ],
+      "correct": "The relationship is truly conditional — holds only when the condition is met",
+      "hint": "\"The conditional form is used because the relationship is truly conditional: it holds only when the stated condition is met.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does second conditional allow scientists to do in thought experiments?",
+      "opts": [
+        "Make certain predictions",
+        "Imagine impossible or impractical scenarios to understand cause and effect",
+        "Describe past failures",
+        "Express established laws"
+      ],
+      "correct": "Imagine impossible or impractical scenarios to understand cause and effect",
+      "hint": "\"By imagining it, scientists can reason about the role of CO₂ in the climate system.\" — controlled imagination in service of understanding."
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the danger of an unnecessary shift to second conditional?",
+      "opts": [
+        "It's grammatically wrong",
+        "It makes a genuine prediction sound hypothetical",
+        "It confuses the reader about time",
+        "It is too informal"
+      ],
+      "correct": "It makes a genuine prediction sound hypothetical",
+      "hint": "\"An unnecessary shift to the second conditional can make a genuine prediction sound hypothetical.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "An unnecessary third conditional can make a past event sound more ___ than it was.",
+      "correct": "contingent",
+      "hint": "\"An unnecessary third conditional can make a past event sound more CONTINGENT than it actually was.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Zhibek uses mixed conditional when she says \"if those reserves had been established, the situation would be better now.\" Why mixed?",
+      "opts": [
+        "It's a mistake",
+        "Past condition (had been established) + present result (would be better now)",
+        "It's expressing a law",
+        "It's a prediction"
+      ],
+      "correct": "Past condition (had been established) + present result (would be better now)",
+      "hint": "\"had been established\" = 3rd type past condition + \"would be better now\" = 2nd type present result = mixed conditional. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If the intervention is effective.\" \"Intervention\" means here:",
+      "opts": [
+        "Interference in other countries",
+        "A deliberate action to change an outcome",
+        "A natural process",
+        "An observation"
+      ],
+      "correct": "A deliberate action to change an outcome",
+      "hint": "\"intervention\" = an action taken deliberately to change or improve a situation, especially in medicine or policy."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Well established regularities.\" \"Established\" means:",
+      "opts": [
+        "New and tentative",
+        "Accepted as true; no longer disputed",
+        "Experimental",
+        "Complicated"
+      ],
+      "correct": "Accepted as true; no longer disputed",
+      "hint": "\"established\" = firmly accepted; set up over time and no longer questioned."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If the trial is successful, the treatment WILL be approved.\" — First conditional because:",
+      "opts": [
+        "It's speculative",
+        "The speaker considers it a real possibility with genuine future chance",
+        "It's about the past",
+        "It uses \"will\""
+      ],
+      "correct": "The speaker considers it a real possibility with genuine future chance",
+      "hint": "First conditional = real, possible future. The trial genuinely could succeed. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If we WERE TO remove all CO₂, the earth WOULD cool.\" — Second conditional because:",
+      "opts": [
+        "Past tense is used",
+        "It's impossible or impractical to do — hypothetical scenario",
+        "It's a law of nature",
+        "It uses \"would\""
+      ],
+      "correct": "It's impossible or impractical to do — hypothetical scenario",
+      "hint": "\"were to remove all CO₂\" = hypothetical/impossible scenario → second conditional. ✅"
+    }
+  ]
+}

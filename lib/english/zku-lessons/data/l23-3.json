@@ -1,0 +1,594 @@
+{
+  "id": "l23-3",
+  "moduleNum": 7,
+  "lessonNum": 3,
+  "moduleTitle": "Stories from the Past",
+  "title": "Past Simple — Regular Verbs",
+  "type": "grammar",
+  "xp": 45,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Past Simple — Regular Verbs",
+  "grammarNote": "Past Simple используется для ЗАВЕРШЁННЫХ действий в прошлом.\n\n① Конкретное время в прошлом: \"I met her yesterday.\" · \"We arrived last Monday.\"\n② Последовательность: \"I woke up, had breakfast, and went to class.\"\n③ Прошлые привычки (уже не актуальные): \"We lived in Almaty for three years.\"\n\nОбразование правильных глаголов (regular verbs) → + ed:\nwork→worked · play→played · study→studied · stop→stopped\n⚠️ -e в конце → + d: love→loved · -y → ied: study→studied · удвоение: stop→stopped\n\nОтрицание: Subject + DIDN'T + base form\n\"She didn't come yesterday.\" ⚠️ После didn't — BASE FORM без -ed!\n\nВопрос: DID + Subject + base form?\n\"Did you call her?\" · \"Did they arrive on time?\"\n\n📌 Сигналы: yesterday · last night/week · in 2020 · ago · when I was... · then",
+  "grammarTable": [
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "studied",
+      "short": "—",
+      "example": "Kamila studied hard last night."
+    },
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "walked",
+      "short": "—",
+      "example": "We walked to school every day."
+    },
+    {
+      "subject": "I / You / He / She / It / We / They",
+      "verb": "lived",
+      "short": "—",
+      "example": "She lived in a small village."
+    },
+    {
+      "subject": "NEGATIVE: I / He / She...",
+      "verb": "didn't study",
+      "short": "did not",
+      "example": "She didn't study English at school."
+    },
+    {
+      "subject": "NEGATIVE: You / We / They...",
+      "verb": "didn't live",
+      "short": "did not",
+      "example": "They didn't live in a city."
+    },
+    {
+      "subject": "QUESTION: Did + I / he / she...",
+      "verb": "study?",
+      "short": "—",
+      "example": "Did she study at WKU?"
+    },
+    {
+      "subject": "QUESTION: Did + you / we / they...",
+      "verb": "walk?",
+      "short": "—",
+      "example": "Did you walk to school?"
+    },
+    {
+      "subject": "SHORT ANSWER",
+      "verb": "Yes, I did. / No, I didn't.",
+      "short": "—",
+      "example": "Did you study? — Yes, I did."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Spelling Rules for -ed",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Most verbs → add -ed",
+          "example": "walk → walked, talk → talked, visit → visited"
+        },
+        {
+          "form": "Verb ends in -e → add -d only",
+          "example": "live → lived, love → loved, move → moved"
+        },
+        {
+          "form": "Verb ends in consonant + y → -ied",
+          "example": "study → studied, try → tried, carry → carried"
+        },
+        {
+          "form": "Short verb ends in vowel + consonant → double the consonant + ed",
+          "example": "stop → stopped, plan → planned, drop → dropped"
+        },
+        {
+          "form": "Verbs ending in -l (British English) → double -l",
+          "example": "travel → travelled, cancel → cancelled"
+        },
+        {
+          "form": "Exception: -y after a vowel → just add -ed",
+          "example": "play → played, stay → stayed, enjoy → enjoyed"
+        }
+      ]
+    },
+    {
+      "title": "Common Time Expressions",
+      "color": "#16A34A",
+      "bg": "#DCFCE7",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "yesterday",
+          "example": "I visited the museum yesterday."
+        },
+        {
+          "form": "last night / last week / last year",
+          "example": "She studied last night. He moved last year."
+        },
+        {
+          "form": "ago (after a number)",
+          "example": "They lived there 50 years ago. She called 5 minutes ago."
+        },
+        {
+          "form": "in + year",
+          "example": "Pushkin visited Uralsk in 1833. She graduated in 1966."
+        },
+        {
+          "form": "when + past clause",
+          "example": "When I was young, I walked to school every day."
+        },
+        {
+          "form": "at the weekend / on Monday",
+          "example": "We travelled at the weekend. She called on Monday."
+        }
+      ]
+    },
+    {
+      "title": "Negative Form: didn't + BASE FORM",
+      "color": "#DB2777",
+      "bg": "#FCE7F3",
+      "border": "#F9A8D4",
+      "rows": [
+        {
+          "form": "Rule: subject + did not (didn't) + BASE form",
+          "example": "She didn't study → NOT \"She didn't studied\""
+        },
+        {
+          "form": "He / She / It: same as I / You / We / They",
+          "example": "He didn't play. She didn't walk. It didn't work."
+        },
+        {
+          "form": "Contracted form",
+          "example": "didn't = did not (used in speech and informal writing)"
+        },
+        {
+          "form": "Common mistake",
+          "example": "He no walked. ✗ → He didn't walk. ✓"
+        },
+        {
+          "form": "Another common mistake",
+          "example": "She didn't walked. ✗ → She didn't walk. ✓"
+        },
+        {
+          "form": "Emphasis (full form)",
+          "example": "She did NOT study — she played all day."
+        }
+      ]
+    },
+    {
+      "title": "Question Form: Did + subject + BASE FORM?",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D695",
+      "rows": [
+        {
+          "form": "Rule: Did + subject + BASE form + ?",
+          "example": "Did she study? Did they live here? Did you walk?"
+        },
+        {
+          "form": "Short answers",
+          "example": "Yes, she did. / No, she didn't. / Yes, I did. / No, I didn't."
+        },
+        {
+          "form": "Wh- questions: Wh- word + did + subject + BASE form",
+          "example": "Where did she study? When did they move? Why did he stop?"
+        },
+        {
+          "form": "Common mistake",
+          "example": "Did she studied? ✗ → Did she study? ✓"
+        },
+        {
+          "form": "Who as subject (no did)",
+          "example": "Who visited Uralsk? → Pushkin did. (NOT: Who did visit?)"
+        },
+        {
+          "form": "How long + did + subject + verb?",
+          "example": "How long did she teach? — For forty years."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "После DIDN'T и DID всегда BASE FORM (без -ed)!\n❌ \"I didn't went.\" → ✅ \"I didn't go.\"\n❌ \"Did she came?\" → ✅ \"Did she come?\"\n\nЛогика: did/didn't уже несёт прошедшее время — глагол остаётся базовым.\n\nУтверждение: I went · She called\nОтрицание: I didn't GO · She didn't CALL\nВопрос: Did I go? · Did she call?\n\nКраткие ответы: \"Did you see her?\" → \"Yes, I did.\" / \"No, I didn't.\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple form.",
+      "text": "She ___ in a village when she was young.",
+      "opts": [
+        "live",
+        "lived",
+        "living",
+        "was live"
+      ],
+      "correct": "lived",
+      "hint": "Verb \"live\" ends in -e → add only -d → lived."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple form.",
+      "text": "They ___ five kilometres to school every day.",
+      "opts": [
+        "walk",
+        "walks",
+        "walked",
+        "were walk"
+      ],
+      "correct": "walked",
+      "hint": "Regular verb: walk + ed = walked."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "Kamila ___ (study) hard for her exams last night.",
+      "opts": [
+        "studies",
+        "studied",
+        "studyed",
+        "studying"
+      ],
+      "correct": "studied",
+      "hint": "study → consonant + y → change y to i → studied."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "She ___ in Uralsk as a child — she lived in a village.",
+      "opts": [
+        "didn't live",
+        "didn't lived",
+        "not lived",
+        "wasn't live"
+      ],
+      "correct": "didn't live",
+      "hint": "Negative: didn't + BASE form. Never 'didn't lived'."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct question form.",
+      "text": "___ Apai Raushan teach at a university?",
+      "opts": [
+        "Did",
+        "Was",
+        "Does",
+        "Had"
+      ],
+      "correct": "Did",
+      "hint": "Past Simple question: Did + subject + BASE form?"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Write the correct Past Simple form.",
+      "text": "The family ___ (move) to Uralsk when she was eighteen.",
+      "opts": [
+        "move",
+        "moves",
+        "moved",
+        "moveed"
+      ],
+      "correct": "moved",
+      "hint": "\"move\" ends in -e → add -d only → moved."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Find the sentence with the correct spelling.",
+      "text": "Which Past Simple is spelled correctly?",
+      "opts": [
+        "He stoped the car.",
+        "He stopped the car.",
+        "He stopted the car.",
+        "He stopt the car."
+      ],
+      "correct": "He stopped the car.",
+      "hint": "Short verb (CVC pattern): stop → double p → stopped."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct time expression.",
+      "text": "Pushkin visited Uralsk ___ 1833.",
+      "opts": [
+        "on",
+        "at",
+        "in",
+        "ago"
+      ],
+      "correct": "in",
+      "hint": "We say \"in + year\" for past dates: in 1833, in 1966."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete the question.",
+      "text": "___ she graduate in 1966?",
+      "opts": [
+        "Do",
+        "Was",
+        "Did",
+        "Has"
+      ],
+      "correct": "Did",
+      "hint": "Past Simple question: Did + she + BASE form (graduate)."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct negative sentence.",
+      "text": "Amir ___  history at school last year.",
+      "opts": [
+        "didn't studied",
+        "didn't study",
+        "not study",
+        "didn't studies"
+      ],
+      "correct": "didn't study",
+      "hint": "After 'didn't', always use BASE form (study), not past form."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct Past Simple form.",
+      "text": "Zhibek ___ (try) to read the old inscription on the sword.",
+      "opts": [
+        "tryed",
+        "tried",
+        "trys",
+        "try"
+      ],
+      "correct": "tried",
+      "hint": "try → consonant + y → change y to i → tried."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct response.",
+      "text": "Did Apai Raushan enjoy her teaching career?\n— ___, she did. She loved every day.",
+      "opts": [
+        "No",
+        "Yes",
+        "Not",
+        "Never"
+      ],
+      "correct": "Yes",
+      "hint": "Short answer to a \"Did\" question: Yes, she did. / No, she didn't."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ in Uralsk all her life.",
+      "opts": [
+        "live",
+        "lived",
+        "living",
+        "lives"
+      ],
+      "correct": "lived",
+      "hint": "Past Simple positive: subject + verb + ed."
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "They ___ five kilometres every day.",
+      "opts": [
+        "didn't walked",
+        "didn't walk",
+        "not walked",
+        "don't walk"
+      ],
+      "correct": "didn't walk",
+      "hint": "Negative Past Simple: didn't + BASE form (walk)."
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ you study English at school? — Yes, I ___.",
+      "correct": "Did / did",
+      "hint": "Question: Did + subject + base form. Short answer: Yes, I did."
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which spelling is correct?",
+      "opts": [
+        "She studyed.",
+        "She studied.",
+        "She studed.",
+        "She studeid."
+      ],
+      "correct": "She studied.",
+      "hint": "study → y after consonant → change to -ied."
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "He ___ (stop) the car and got out.",
+      "opts": [
+        "stoped",
+        "stopped",
+        "stopted",
+        "stopping"
+      ],
+      "correct": "stopped",
+      "hint": "stop: short verb, ends in CVC → double the final consonant → stopped."
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She didn't lived there\" is correct Past Simple.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After 'didn't', use BASE form: 'She didn't live there.'"
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Pushkin visited Uralsk ___ 1833.",
+      "opts": [
+        "on",
+        "at",
+        "in",
+        "during"
+      ],
+      "correct": "in",
+      "hint": "Use \"in\" with years in Past Simple."
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "Where ___ she ___ (live) when she was a child?",
+      "correct": "did / live",
+      "hint": "Wh- question: Where + did + subject + BASE form."
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which sentence is correct?",
+      "opts": [
+        "Did she studied hard?",
+        "Did she study hard?",
+        "Did she studies hard?",
+        "Did studied she hard?"
+      ],
+      "correct": "Did she study hard?",
+      "hint": "Question form: Did + subject + BASE form (no -ed)."
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "They ___ (play) outside until it got dark.",
+      "opts": [
+        "plaied",
+        "plaid",
+        "played",
+        "play"
+      ],
+      "correct": "played",
+      "hint": "play → vowel + y → just add -ed → played."
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"ago\" is used with Past Simple (e.g., \"2 years ago\").",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Ago\" always goes with Past Simple: \"She moved here 10 years ago.\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "She ___ (not / miss) school even in winter.",
+      "opts": [
+        "didn't missed",
+        "didn't miss",
+        "not missed",
+        "doesn't miss"
+      ],
+      "correct": "didn't miss",
+      "hint": "Past Simple negative: didn't + BASE form."
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "___ Dr. Akhmetov explain the history of Uralsk?",
+      "opts": [
+        "Does",
+        "Did",
+        "Was",
+        "Do"
+      ],
+      "correct": "Did",
+      "hint": "Past Simple question: Did + subject + base form."
+    },
+    {
+      "id": "q14",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "She ___ (try) to understand the old Cyrillic writing.",
+      "correct": "tried",
+      "hint": "try → y after consonant → change to -ied → tried."
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "The museum guide ___ (travel) to Almaty last month.",
+      "opts": [
+        "travell",
+        "traveled",
+        "traveld",
+        "travelled"
+      ],
+      "correct": "travelled",
+      "hint": "travel → ends in consonant -l → double l → travelled (British English)."
+    },
+    {
+      "id": "q16",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Who visited Uralsk?\" uses \"did\" in the question.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "When \"who\" is the subject, do NOT use \"did\": \"Who visited Uralsk?\" = Pushkin visited."
+    }
+  ]
+}

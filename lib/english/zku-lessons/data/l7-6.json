@@ -1,0 +1,431 @@
+{
+  "id": "l7-6",
+  "moduleNum": 7,
+  "lessonNum": 7,
+  "moduleTitle": "Food and drinks",
+  "title": "Module 7 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Nurgul Abenova from, and what does she study?",
+      "opts": [
+        "Semey, Engineering",
+        "Almaty, Medicine",
+        "Taraz, Biology",
+        "Astana, Psychology"
+      ],
+      "correct": "Taraz, Biology",
+      "hint": "\"My name is Nurgul Abenova. I am from Taraz. I study Biology at WKU.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The WKU cafeteria closes at 9:00 pm every day.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It is open every day from 7:00 am to 8:00 pm.\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which special traditional dish is served every Friday at the WKU cafeteria?",
+      "opts": [
+        "Manty",
+        "Shurpa",
+        "Beshbarmak",
+        "Plov"
+      ],
+      "correct": "Beshbarmak",
+      "hint": "\"On Fridays, the cafeteria serves something very special: beshbarmak!\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "A full lunch at the WKU cafeteria costs only ___ tenge.",
+      "correct": "600",
+      "hint": "\"A full lunch costs only 600 tenge, which is very affordable for a student.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Ruslan bring from the market every Sunday?",
+      "opts": [
+        "Some samsa",
+        "Some baursaks",
+        "Some fruit",
+        "Some vegetables"
+      ],
+      "correct": "Some fruit",
+      "hint": "\"He brings some fruit from the market every Sunday — some apples, some bananas, or some grapes.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "There is a coffee machine near the entrance of the WKU cafeteria.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"There is a small coffee machine near the entrance — you can get some espresso or some cappuccino for 200 tenge.\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why doesn't Ruslan buy any chips or biscuits from the student shop?",
+      "opts": [
+        "They are too expensive.",
+        "The shop is closed.",
+        "He tries to avoid unhealthy snacks.",
+        "He doesn't like the taste."
+      ],
+      "correct": "He tries to avoid unhealthy snacks.",
+      "hint": "\"He never buys any chips or any sweet biscuits from the student shop.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How much does a coffee from the machine cost?",
+      "opts": [
+        "100 tenge",
+        "150 tenge",
+        "200 tenge",
+        "300 tenge"
+      ],
+      "correct": "200 tenge",
+      "hint": "\"You can get some espresso or some cappuccino for 200 tenge.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Which dish does Ruslan choose for lunch?",
+      "opts": [
+        "Chicken soup",
+        "Rice with beef",
+        "Pasta with vegetables",
+        "Beshbarmak"
+      ],
+      "correct": "Pasta with vegetables",
+      "hint": "\"Pasta with vegetables — perfect for me!\" — Ruslan does not want any meat."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The chicken soup in the cafeteria today is very spicy.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"No, it's very mild. No chilli, no pepper. Everyone can eat it!\" — Nurgul."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Ruslan choose water instead of compote?",
+      "opts": [
+        "He doesn't like cold drinks.",
+        "There isn't any compote today.",
+        "Compote is too sweet for him.",
+        "He is on a diet."
+      ],
+      "correct": "Compote is too sweet for him.",
+      "hint": "\"Just some water for me — compote is too sweet. I prefer something plain.\" — Ruslan."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Nurgul spots some fresh ___ near the counter — she loves them!",
+      "correct": "baursaks",
+      "hint": "\"Yes — some fresh white bread at the counter. And — wait — some baursaks too!\" — Nurgul."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Nurgul misses her grandmother's samsa from Taraz.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "It is RUSLAN who misses his grandmother's samsa from SEMEY. Nurgul misses her mother's plov."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What ingredients does Nurgul mention in her mother's plov?",
+      "opts": [
+        "Lamb, onion, and pepper",
+        "Carrots, raisins, and lamb",
+        "Rice, chicken, and carrots",
+        "Meat, tomatoes, and garlic"
+      ],
+      "correct": "Carrots, raisins, and lamb",
+      "hint": "\"My mother's plov — with some carrots, some raisins, and some lamb. Heavenly!\" — Nurgul."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "There is ___ fresh beshbarmak on the menu today — it's Friday!",
+      "opts": [
+        "any",
+        "some",
+        "a",
+        "many"
+      ],
+      "correct": "some",
+      "hint": "Positive sentence (+) → some. \"There is SOME beshbarmak today.\""
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I have any money — let me pay for lunch\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Positive sentence → some! \"I have SOME money.\" ANY is only for negatives and questions."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "___ water does Nurgul drink every day? — About six glasses.",
+      "correct": "How much",
+      "hint": "Water = uncountable → How MUCH water. (You cannot say \"1 water, 2 waters\".)"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Ruslan offers food to Nurgul. Which sentence is correct?",
+      "opts": [
+        "\"Do you want any baursaks?\" (offer)",
+        "\"Would you like some baursaks?\" (offer)",
+        "\"Is there any baursaks?\" (offer)",
+        "\"Have you got any baursaks?\" (offer)"
+      ],
+      "correct": "\"Would you like some baursaks?\" (offer)",
+      "hint": "Offers use SOME: \"Would you like SOME baursaks?\" — not any."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "I don't want ___ spicy food today.",
+      "opts": [
+        "some",
+        "any",
+        "much",
+        "many"
+      ],
+      "correct": "any",
+      "hint": "Negative sentence (don't want) → any. \"I don't want ANY spicy food.\""
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "___ does lunch cost? — 600 tenge.",
+      "opts": [
+        "How many",
+        "How much",
+        "How some",
+        "How any"
+      ],
+      "correct": "How much",
+      "hint": "Money/price = uncountable → How MUCH does it cost?"
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"How much baursaks are there?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Baursaks = countable (1 baursak, 2 baursaks) → \"How MANY baursaks are there?\""
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "\"Is there ___ compote left?\" — \"Yes, I got some for you!\"",
+      "correct": "any",
+      "hint": "Question (?) → any. \"Is there ANY compote left?\""
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is beshbarmak?",
+      "opts": [
+        "A steamed dumpling filled with meat",
+        "A fried dough ball snack",
+        "The national Kazakh dish of flat noodles with boiled meat and rich broth",
+        "A rice dish with carrots and lamb"
+      ],
+      "correct": "The national Kazakh dish of flat noodles with boiled meat and rich broth",
+      "hint": "\"The most famous traditional Kazakh dish — large flat noodles with tender boiled meat and rich broth.\""
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Baursaks are ___ in oil until they are golden and crispy outside.",
+      "correct": "fried",
+      "hint": "Fry = жарить. Baursaks are fried (not boiled or steamed)."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"nutritious\" mean?",
+      "opts": [
+        "very cheap and affordable",
+        "having a very pleasant taste",
+        "containing many substances your body needs to stay healthy",
+        "freshly made today"
+      ],
+      "correct": "containing many substances your body needs to stay healthy",
+      "hint": "\"Eating nutritious food helps Nurgul concentrate in her Biology lectures.\""
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Mild\" food is very spicy and burns your mouth.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Mild = мягкий/нежгучий — NOT spicy. \"The soup is very mild — no chilli, no pepper.\""
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"shurpa\"?",
+      "opts": [
+        "A baked pastry filled with meat",
+        "A rich Kazakh soup made with lamb and vegetables",
+        "Small dried salty cheese balls",
+        "Steamed dumplings with onion"
+      ],
+      "correct": "A rich Kazakh soup made with lamb and vegetables",
+      "hint": "Shurpa = шурпа — \"a rich, hearty Kazakh soup made with lamb and vegetables.\""
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"affordable\" describe?",
+      "opts": [
+        "very expensive and luxurious",
+        "cheap enough for most people to buy",
+        "very rare and hard to find",
+        "very large in quantity"
+      ],
+      "correct": "cheap enough for most people to buy",
+      "hint": "\"A full lunch costs only 600 tenge — very affordable for a student!\""
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Ruslan brought some ___ from the market — about thirty of them! They shared them between lectures.",
+      "correct": "grapes",
+      "hint": "From the reading: \"Ruslan had some grapes from the market... About thirty! We shared them...\""
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"manty\"?",
+      "opts": [
+        "fried dough balls",
+        "a type of Kazakh soup",
+        "large steamed dumplings filled with minced meat and onion",
+        "small dried cheese balls"
+      ],
+      "correct": "large steamed dumplings filled with minced meat and onion",
+      "hint": "Manty = манты — \"large steamed dumplings filled with minced meat and onion.\""
+    }
+  ]
+}

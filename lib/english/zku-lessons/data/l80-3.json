@@ -1,0 +1,418 @@
+{
+  "id": "l80-3",
+  "moduleNum": 22,
+  "lessonNum": 3,
+  "moduleTitle": "Philosophy, Ethics & Values",
+  "title": "The Trolley Problem and Moral Dilemmas: A Philosophical Conversation",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Nour",
+      "text": "I was reading about the trolley problem last night. You know — a runaway trolley is heading towards five people on the track. You're standing at a lever that would divert it to a side track where only one person is standing. Do you pull the lever?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "I've thought about it a lot. My instinct is yes — five lives versus one life, you pull the lever.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nour",
+      "text": "Most people say that. But what about the variant? Now you're on a footbridge above the track, and the only way to stop the trolley is to push a large man off the bridge onto the track. He'll be killed, but his body will stop the trolley and save the five. Do you push him?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "That feels completely different. I don't think I could push him. Even though the arithmetic is the same — one death to save five.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nour",
+      "text": "Right. And that's exactly the point. The numbers are identical, but our moral intuitions diverge sharply. Why?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "I think it's something about using a person as a means — physically using their body as an instrument to save others. That feels like a fundamental violation of their dignity, even if the outcome is the same.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nour",
+      "text": "That's a very Kantian intuition — treating a person as a means rather than an end. A consequentialist would say: five lives saved is five lives saved. The how doesn't matter.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "But surely the how does matter? If it didn't, you could justify almost anything — torturing an innocent person to get information, for instance, if the information would save many lives.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nour",
+      "text": "That's the ticking time bomb scenario. And yes — most people feel strongly that torture is wrong even then. But why? The consequentialist numbers seem to support it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "I think there are several reasons. One is epistemic — you can rarely be certain that torture will produce accurate information. Another is rule-based — if you allow torture in \"exceptional\" cases, you create a system that will be abused. And another is the point about persons — there are things you simply may not do to a human being, full stop.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nour",
+      "text": "That third argument is the most philosophically interesting to me. It implies there are absolute moral constraints — deontological constraints — that hold even when violating them would produce better outcomes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "And yet — I struggle with pure deontology too. If I could save a million people by telling one lie, it seems perverse to refuse on the grounds that lying is categorically wrong.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Nour",
+      "text": "Maybe the honest answer is that we have multiple moral frameworks operating simultaneously and that they pull in different directions in extreme cases. Moral dilemmas exist precisely because there are genuine conflicts between legitimate moral considerations.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aleksei",
+      "text": "I think that's right. And philosophy's job isn't to dissolve those conflicts by finding the one true theory that resolves all dilemmas. It's to help us understand them more clearly and to make our best judgment in full awareness of what's at stake.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "the trolley problem",
+      "ru": "проблема вагонетки",
+      "context": "A famous philosophical thought experiment about moral dilemmas"
+    },
+    {
+      "phrase": "treating a person as a means",
+      "ru": "использовать человека как средство",
+      "context": "Kant's concept: people must not be used merely as instruments"
+    },
+    {
+      "phrase": "epistemic",
+      "ru": "эпистемический",
+      "context": "Relating to knowledge or the grounds for knowing something"
+    },
+    {
+      "phrase": "absolute moral constraint",
+      "ru": "абсолютное моральное ограничение",
+      "context": "A rule that cannot be violated regardless of consequences"
+    },
+    {
+      "phrase": "moral dilemma",
+      "ru": "моральная дилемма",
+      "context": "A situation where there are genuine conflicts between legitimate moral considerations"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "thought experiment",
+      "ipa": "/θɔːt ɪkˈsperɪmənt/",
+      "pos": "noun phrase",
+      "ru": "мысленный эксперимент",
+      "kz": "ойша тəжірибе",
+      "emoji": "🧠",
+      "definition": "a hypothetical scenario used to explore philosophical or scientific concepts",
+      "example": "\"The trolley problem is a thought experiment designed to reveal moral intuitions.\"",
+      "collocations": [
+        "conduct a thought experiment",
+        "philosophical thought experiment",
+        "famous thought experiment"
+      ]
+    },
+    {
+      "en": "epistemic",
+      "ipa": "/ˌepɪˈstiːmɪk/",
+      "pos": "adjective",
+      "ru": "эпистемический",
+      "kz": "гносеологиялық",
+      "emoji": "🔍",
+      "definition": "relating to knowledge or the conditions for knowing something",
+      "example": "\"One epistemic argument against torture: you can rarely be certain it will produce accurate information.\"",
+      "collocations": [
+        "epistemic uncertainty",
+        "epistemic limitation",
+        "epistemic argument"
+      ]
+    },
+    {
+      "en": "dilemma",
+      "ipa": "/dɪˈlemə/",
+      "pos": "noun",
+      "ru": "дилемма",
+      "kz": "дилемма",
+      "emoji": "⚖️",
+      "definition": "a situation involving a difficult choice between two or more equally undesirable alternatives",
+      "example": "\"Moral dilemmas exist because there are genuine conflicts between legitimate moral considerations.\"",
+      "collocations": [
+        "moral dilemma",
+        "ethical dilemma",
+        "face a dilemma"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "thought experiment",
+      "emoji": "🧠",
+      "opts": [
+        "a hypothetical scenario exploring philosophical concepts",
+        "a laboratory experiment in psychology",
+        "a type of philosophical argument",
+        "a test of moral behaviour"
+      ],
+      "correct": "a hypothetical scenario exploring philosophical concepts"
+    },
+    {
+      "id": "p2",
+      "word": "epistemic",
+      "emoji": "🔍",
+      "opts": [
+        "relating to knowledge or the grounds for knowing",
+        "relating to emotions and feelings",
+        "relating to moral rules and duties",
+        "relating to outcomes and consequences"
+      ],
+      "correct": "relating to knowledge or the grounds for knowing"
+    }
+  ],
+  "task1Bank": [
+    "Nour",
+    "Aleksei",
+    "Both",
+    "Neither"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Who introduces the trolley problem and its footbridge variant?",
+      "correct": "Nour"
+    },
+    {
+      "id": "t2",
+      "question": "Who identifies the Kantian intuition in the footbridge scenario?",
+      "correct": "Aleksei"
+    },
+    {
+      "id": "t3",
+      "question": "Who raises the ticking time bomb/torture scenario?",
+      "correct": "Nour"
+    },
+    {
+      "id": "t4",
+      "question": "Who gives three arguments against torture (epistemic, rule-based, and persons-based)?",
+      "correct": "Aleksei"
+    },
+    {
+      "id": "t5",
+      "question": "Who concludes that philosophy's job is to understand dilemmas more clearly, not dissolve them?",
+      "correct": "Aleksei"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "Most people feel equally comfortable pulling the lever and pushing the man off the bridge.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Aleksei argues that \"how\" you bring about an outcome matters morally.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Nour concludes that pure consequentialism provides all the answers to moral dilemmas.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Both speakers end up accepting that multiple moral frameworks can pull in different directions.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Aleksei is entirely comfortable with pure deontology as a moral framework.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What makes the footbridge variant of the trolley problem feel different from the lever variant?",
+      "opts": [
+        "The numbers of people involved are different",
+        "You are physically using a person's body as an instrument — treating them as a means",
+        "The footbridge variant is simpler to resolve",
+        "The outcome is uncertain in the footbridge case"
+      ],
+      "correct": "You are physically using a person's body as an instrument — treating them as a means",
+      "hint": "Aleksei: \"using their body as an instrument to save others\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does Aleksei call the intuition that you must not use a person as a means?",
+      "opts": [
+        "Consequentialist",
+        "Virtue-based",
+        "Kantian",
+        "Libertarian"
+      ],
+      "correct": "Kantian",
+      "hint": "Nour: \"that's a very Kantian intuition\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What are Aleksei's three arguments against torture even to save lives?",
+      "opts": [
+        "It is illegal, unethical, and costly",
+        "Epistemic (uncertain to work), rule-based (risk of abuse), and persons-based (absolute constraints)",
+        "Physical harm, legal risk, and moral guilt",
+        "Too expensive, unreliable, and inhumane"
+      ],
+      "correct": "Epistemic (uncertain to work), rule-based (risk of abuse), and persons-based (absolute constraints)",
+      "hint": "Aleksei: \"epistemic / rule-based / the point about persons\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What conclusion do both speakers reach about moral dilemmas?",
+      "opts": [
+        "Consequentialism resolves all moral dilemmas",
+        "Deontology provides the definitive answer",
+        "Genuine conflicts exist between legitimate moral considerations — multiple frameworks pull in different directions",
+        "Philosophy cannot contribute anything useful to moral dilemmas"
+      ],
+      "correct": "Genuine conflicts exist between legitimate moral considerations — multiple frameworks pull in different directions",
+      "hint": "Nour and Aleksei's final exchange",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Aleksei is fully committed to pure deontology as a moral framework.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Aleksei: \"I struggle with pure deontology too\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Both speakers agree that philosophy's role is to help us understand moral dilemmas clearly, not to eliminate them.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Aleksei: \"help us understand them more clearly\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Consequentialism has great force. ___, its conclusions can seem deeply counterintuitive.\" (concession)",
+      "opts": [
+        "Therefore",
+        "Additionally",
+        "Nevertheless",
+        "Since"
+      ],
+      "correct": "Nevertheless",
+      "hint": "\"Nevertheless\" = concessive adverb — acknowledging then countering",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ the numbers are the same, the moral intuitions diverge sharply.\" (granting the first point)",
+      "correct": "Even though / Although / While",
+      "hint": "Concessive clause: even though X, Y holds",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The argument seems compelling. ___ ___ ___, it faces a serious objection about persons.\" (concessive phrase)",
+      "opts": [
+        "Be that as it may",
+        "As a result",
+        "Furthermore",
+        "Since this is so"
+      ],
+      "correct": "Be that as it may",
+      "hint": "\"Be that as it may\" = concessive phrase granting the point before countering",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is a \"thought experiment\"?",
+      "opts": [
+        "A laboratory experiment on human thinking",
+        "A hypothetical scenario used to explore philosophical concepts",
+        "An argument based entirely on logical deduction",
+        "A type of philosophical dialogue"
+      ],
+      "correct": "A hypothetical scenario used to explore philosophical concepts",
+      "hint": "The trolley problem is a famous thought experiment",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "An \"epistemic\" argument about torture is one that concerns…",
+      "opts": [
+        "The emotional impact on the torturer",
+        "The legal framework around interrogation",
+        "The reliability of knowledge or information obtained",
+        "The moral dignity of the person being tortured"
+      ],
+      "correct": "The reliability of knowledge or information obtained",
+      "hint": "Aleksei: \"epistemic — you can rarely be certain that torture will produce accurate information\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A situation where there is a genuine conflict between two legitimate moral considerations is called a moral ___.",
+      "correct": "dilemma",
+      "hint": "Nour: \"moral dilemmas exist precisely because there are genuine conflicts\"",
+      "points": 1
+    }
+  ]
+}

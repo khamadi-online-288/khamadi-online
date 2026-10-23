@@ -1,0 +1,556 @@
+{
+  "id": "l44-g2",
+  "moduleNum": 10,
+  "lessonNum": 5,
+  "moduleTitle": "Around the City",
+  "type": "grammar",
+  "title": "Prepositions of Movement: across, along, through, over, past",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Prepositions of Movement — describing how you get there",
+  "grammarNote": "Предлоги движения описывают, КАК вы перемещаетесь. Они связаны с маршрутом, а не с местом. В английском каждый предлог передаёт конкретный тип движения: across = с одной стороны на другую; along = вдоль; through = насквозь; over = сверху/через; under = под; past = мимо; into/out of = в/из; round = вокруг.",
+  "grammarTable": [
+    {
+      "subject": "across",
+      "verb": "from one side to the other",
+      "short": "поперёк / через",
+      "example": "\"Walk ACROSS the road.\" / \"Swim ACROSS the river.\" / \"Go ACROSS the park.\""
+    },
+    {
+      "subject": "along",
+      "verb": "following the length of",
+      "short": "вдоль",
+      "example": "\"Walk ALONG the river.\" / \"Drive ALONG the avenue.\" / \"ALONG the corridor.\""
+    },
+    {
+      "subject": "through",
+      "verb": "enter and exit a space",
+      "short": "через / насквозь",
+      "example": "\"Walk THROUGH the park.\" / \"Drive THROUGH the tunnel.\" / \"Go THROUGH the archway.\""
+    },
+    {
+      "subject": "over",
+      "verb": "going higher than / above",
+      "short": "над / через",
+      "example": "\"Walk OVER the bridge.\" / \"Jump OVER the fence.\" / \"OVER the hill.\""
+    },
+    {
+      "subject": "under",
+      "verb": "below something",
+      "short": "под",
+      "example": "\"Walk UNDER the bridge.\" / \"Go UNDER the tunnel.\" / \"UNDER the archway.\""
+    },
+    {
+      "subject": "past",
+      "verb": "go beyond without stopping",
+      "short": "мимо",
+      "example": "\"Walk PAST the bank.\" / \"Drive PAST the church.\" / \"Go PAST the park entrance.\""
+    },
+    {
+      "subject": "into",
+      "verb": "entering a space",
+      "short": "в (движение)",
+      "example": "\"Walk INTO the building.\" / \"Turn INTO the side street.\" / \"Go INTO the park.\""
+    },
+    {
+      "subject": "out of",
+      "verb": "exiting a space",
+      "short": "из",
+      "example": "\"Come OUT OF the tunnel.\" / \"Walk OUT OF the building.\" / \"Get OUT OF the car.\""
+    },
+    {
+      "subject": "round",
+      "verb": "in a circular direction",
+      "short": "вокруг",
+      "example": "\"Go ROUND the roundabout.\" / \"Walk ROUND the lake.\" / \"Turn ROUND the corner.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "across vs through — an important distinction",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "across = from one side to the other (open space)",
+          "example": "\"Walk ACROSS the road.\" / \"ACROSS the bridge.\" / \"ACROSS the square.\""
+        },
+        {
+          "form": "through = enter and exit an enclosed space",
+          "example": "\"Walk THROUGH the tunnel.\" / \"THROUGH the park (enclosed by fences).\" / \"THROUGH the forest.\""
+        },
+        {
+          "form": "Test: is it open or enclosed?",
+          "example": "Open (road, field, river) → ACROSS. Enclosed (tunnel, forest, building) → THROUGH."
+        },
+        {
+          "form": "Some overlap: \"through the park\" OK too",
+          "example": "Parks can use either. \"Walk across the park\" (open feel) / \"through the park\" (it has gates/paths). Both ✅"
+        }
+      ]
+    },
+    {
+      "title": "over vs under — above or below",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "over = go above / higher than",
+          "example": "\"Walk OVER the bridge.\" (you walk on top of it) / \"Jump OVER the wall.\""
+        },
+        {
+          "form": "under = go below / lower than",
+          "example": "\"Walk UNDER the bridge.\" (you pass beneath it) / \"Go UNDER the railway.\""
+        },
+        {
+          "form": "Both refer to the same structure from different positions",
+          "example": "\"We walked OVER the bridge.\" vs \"There's a tunnel that goes UNDER the road.\""
+        },
+        {
+          "form": "through (hollow) = different",
+          "example": "\"We walked THROUGH the tunnel.\" (entered, walked inside, exited) — not over or under."
+        }
+      ]
+    },
+    {
+      "title": "along vs past — direction or point of reference",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "along = following the length continuously",
+          "example": "\"Walk ALONG the river.\" / \"Drive ALONG Dostyq Avenue.\" = the whole length."
+        },
+        {
+          "form": "past = go beyond a specific point",
+          "example": "\"Walk PAST the mosque.\" / \"Drive PAST the bank.\" = at that point and continue."
+        },
+        {
+          "form": "Often used together",
+          "example": "\"Walk ALONG the main road until you go PAST the mosque.\""
+        },
+        {
+          "form": "into vs out of",
+          "example": "\"Walk INTO the building.\" (entering) ↔ \"Come OUT OF the building.\" (exiting)"
+        }
+      ]
+    },
+    {
+      "title": "round and common direction expressions",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "round = in a circle / around something",
+          "example": "\"Go ROUND the roundabout.\" / \"Walk ROUND the lake.\" / \"Turn ROUND the corner.\""
+        },
+        {
+          "form": "up / down = vertical movement",
+          "example": "\"Go UP the stairs.\" / \"Walk DOWN the hill.\" / \"Climb UP the steps.\""
+        },
+        {
+          "form": "to = destination",
+          "example": "\"Walk TO the library.\" / \"Go TO the bus stop.\" (destination, not route)"
+        },
+        {
+          "form": "towards = direction (not necessarily arrival)",
+          "example": "\"Walk TOWARDS the mosque.\" (heading that way, may not arrive)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Предлоги движения — ключевые различия:\n① ACROSS = с одной стороны на другую (открытое пространство):\n→ \"cross the road\" / \"across the bridge\"\n② THROUGH = войти и выйти из закрытого пространства:\n→ \"through the tunnel\" / \"through the park\"\n③ ALONG = вдоль чего-то (по всей длине):\n→ \"along the river\" / \"along the avenue\"\n④ PAST = мимо (не останавливаясь):\n→ \"past the bank\" / \"past the mosque\"\n⑤ OVER = над / сверху. UNDER = под.\n→ \"over the bridge\" (шли по нему) vs \"under the bridge\" (прошли под ним)\n\n💡 into = вход. out of = выход:\n\"walk INTO the building\" / \"come OUT OF the tunnel\"",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Walk ___ the road at the pedestrian crossing — it's safer.",
+      "opts": [
+        "along",
+        "through",
+        "across",
+        "past"
+      ],
+      "correct": "across",
+      "hint": "\"across\" = from one side to the other (open space like a road). \"Walk ACROSS the road.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Walk ___ the tunnel — it's only thirty seconds.",
+      "opts": [
+        "across",
+        "past",
+        "through",
+        "over"
+      ],
+      "correct": "through",
+      "hint": "\"through\" = enter and exit an enclosed space. \"Walk THROUGH the tunnel.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct preposition.",
+      "text": "Go ___ the mosque without stopping — the bank is further on.",
+      "correct": "past",
+      "hint": "\"past\" = go beyond a point without stopping. \"Go PAST the mosque.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose: over or under?",
+      "text": "We walked ___ the bridge to reach the eastern bank of the river.",
+      "opts": [
+        "under",
+        "through",
+        "over",
+        "across"
+      ],
+      "correct": "over",
+      "hint": "\"over the bridge\" = walked on top of / across it. \"We walked OVER the bridge.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Walk ___ the river path until you reach the park.",
+      "opts": [
+        "over",
+        "through",
+        "across",
+        "along"
+      ],
+      "correct": "along",
+      "hint": "\"along\" = following the length of something. \"Walk ALONG the river path.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete with into or out of.",
+      "text": "She walked ___ the building quickly. Five minutes later, she came ___ with a book.",
+      "correct": "into / out of",
+      "hint": "\"into\" = entering. \"out of\" = exiting. \"walked INTO the building / came OUT OF.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose: across or through?",
+      "text": "He walked ___ the park (which has fences and paths and feels enclosed).",
+      "opts": [
+        "across",
+        "through",
+        "past",
+        "over"
+      ],
+      "correct": "through",
+      "hint": "\"through\" = enclosed space with entry and exit. Fenced park = \"through the park.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Go ___ the roundabout and take the second exit.",
+      "opts": [
+        "past",
+        "through",
+        "across",
+        "round"
+      ],
+      "correct": "round",
+      "hint": "\"round the roundabout\" = in a circular direction. \"Go ROUND the roundabout.\" ✅"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete the directions.",
+      "text": "Walk ___ the avenue, ___ the bank, then ___ the street to reach the library.",
+      "correct": "along / past / across",
+      "hint": "along (following length) + past (go beyond bank) + across (cross the street)."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose: over or under?",
+      "text": "There's a path ___ the railway that goes through a tunnel.",
+      "opts": [
+        "over",
+        "under",
+        "past",
+        "across"
+      ],
+      "correct": "under",
+      "hint": "\"under the railway\" = a path going below the railway line. \"UNDER the railway.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct preposition.",
+      "text": "Go ___ the hill and you'll see the village on the other side.",
+      "opts": [
+        "past",
+        "along",
+        "over",
+        "through"
+      ],
+      "correct": "over",
+      "hint": "\"over the hill\" = go above and across. \"Go OVER the hill.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "\"Walk along the road at the pedestrian crossing.\"",
+        "\"Walk across the road at the pedestrian crossing.\"",
+        "\"Walk through the road at the pedestrian crossing.\"",
+        "\"Walk past the road at the pedestrian crossing.\""
+      ],
+      "correct": "\"Walk across the road at the pedestrian crossing.\"",
+      "hint": "\"across\" = from one side to the other of an open space (a road). ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk ___ the road.\" (from one side to the other)",
+      "opts": [
+        "along",
+        "through",
+        "across",
+        "past"
+      ],
+      "correct": "across",
+      "hint": "\"across\" = open space, one side to the other. \"Walk ACROSS the road.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk ___ the tunnel.\" (enter and exit)",
+      "opts": [
+        "across",
+        "past",
+        "over",
+        "through"
+      ],
+      "correct": "through",
+      "hint": "\"through\" = enclosed space, enter and exit. \"Walk THROUGH the tunnel.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk ___ the river bank.\" (following the length)",
+      "opts": [
+        "across",
+        "through",
+        "along",
+        "over"
+      ],
+      "correct": "along",
+      "hint": "\"along\" = following the length of. \"Walk ALONG the river bank.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Go ___ the bank.\" (without stopping, continue beyond)",
+      "opts": [
+        "through",
+        "along",
+        "across",
+        "past"
+      ],
+      "correct": "past",
+      "hint": "\"past\" = go beyond a specific point without stopping. \"Go PAST the bank.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"We walked ___ the bridge.\" (we walked on top of it)",
+      "opts": [
+        "under",
+        "past",
+        "over",
+        "across"
+      ],
+      "correct": "over",
+      "hint": "\"over the bridge\" = you walked on top of / across it. \"We walked OVER the bridge.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"There's a path ___ the railway.\" (below it)",
+      "opts": [
+        "over",
+        "across",
+        "past",
+        "under"
+      ],
+      "correct": "under",
+      "hint": "\"under the railway\" = the path goes below it. \"A path UNDER the railway.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Go ___ the roundabout and take the first exit.\"",
+      "correct": "round",
+      "hint": "\"round the roundabout\" = circling it. \"Go ROUND the roundabout.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She walked ___ the building.\" (entering it)",
+      "correct": "into",
+      "hint": "\"into\" = entering. \"She walked INTO the building.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Come ___ the tunnel — you can see it now.\" (exiting)",
+      "opts": [
+        "into",
+        "through",
+        "out of",
+        "past"
+      ],
+      "correct": "out of",
+      "hint": "\"out of\" = exiting. \"Come OUT OF the tunnel.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the difference between \"across\" and \"through\"?",
+      "opts": [
+        "No difference",
+        "\"across\" = open space; \"through\" = enclosed",
+        "\"through\" is longer",
+        "\"across\" is for water only"
+      ],
+      "correct": "\"across\" = open space; \"through\" = enclosed",
+      "hint": "\"across\" = open area (road, field). \"through\" = enclosed space (tunnel, forest, building)."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk ___ the park.\" (the park has fences and paths — enclosed)",
+      "opts": [
+        "across",
+        "past",
+        "through",
+        "over"
+      ],
+      "correct": "through",
+      "hint": "Enclosed park with fences → \"through\". \"Walk THROUGH the park.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She went ___ the corner.\" (she went around the bend)",
+      "opts": [
+        "past",
+        "round",
+        "across",
+        "through"
+      ],
+      "correct": "round",
+      "hint": "\"round the corner\" = went around the bend. \"She went ROUND the corner.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Go ___ the hill and turn right.\" (climb and cross over)",
+      "opts": [
+        "past",
+        "under",
+        "along",
+        "over"
+      ],
+      "correct": "over",
+      "hint": "\"over the hill\" = go above and across to the other side. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Walk ___ the avenue as far as the mosque.\"",
+      "correct": "along",
+      "hint": "\"along\" = following the length. \"Walk ALONG the avenue.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ran ___ the building to get inside.\"",
+      "opts": [
+        "along",
+        "past",
+        "into",
+        "over"
+      ],
+      "correct": "into",
+      "hint": "\"into\" = entering. \"He ran INTO the building to get inside.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Towards\" is different from movement prepositions because:",
+      "opts": [
+        "It's incorrect",
+        "It shows direction only, not arrival",
+        "It's the same as \"to\"",
+        "It's always used with \"across\""
+      ],
+      "correct": "It shows direction only, not arrival",
+      "hint": "\"towards\" = heading in the direction of — you may not arrive. \"to\" = you reach the destination."
+    }
+  ]
+}

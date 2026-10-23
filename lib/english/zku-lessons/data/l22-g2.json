@@ -1,0 +1,574 @@
+{
+  "id": "l22-g2",
+  "moduleNum": 6,
+  "lessonNum": 4,
+  "moduleTitle": "The Natural World",
+  "title": "Extreme adjectives: huge, tiny, wonderful",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Extreme adjectives + intensifiers",
+  "grammarNote": "ОБЫЧНЫЕ прилагательные описывают качество по шкале (big, cold, good). КРАЙНИЕ (extreme) прилагательные уже содержат идею \"очень\" — они выражают максимальную степень. Для обычных прилагательных мы говорим \"very big\", но для крайних — нельзя сказать \"very enormous\". Вместо \"very\" используют \"absolutely\", \"completely\", \"totally\".",
+  "grammarTable": [
+    {
+      "subject": "big",
+      "verb": "→ huge / enormous / massive",
+      "short": "huge",
+      "example": "The saiga herd is enormous. The steppe is absolutely massive."
+    },
+    {
+      "subject": "small",
+      "verb": "→ tiny / minute",
+      "short": "tiny",
+      "example": "The pygmy jerboa is tiny. The mouse is absolutely minute."
+    },
+    {
+      "subject": "cold",
+      "verb": "→ freezing / icy / Arctic",
+      "short": "freezing",
+      "example": "It's absolutely freezing in the Altai in winter."
+    },
+    {
+      "subject": "hot",
+      "verb": "→ boiling / scorching / baking",
+      "short": "boiling",
+      "example": "The Kyzylkum Desert is scorching in summer."
+    },
+    {
+      "subject": "good",
+      "verb": "→ wonderful / fantastic / superb",
+      "short": "wonderful",
+      "example": "The documentary was absolutely wonderful."
+    },
+    {
+      "subject": "bad",
+      "verb": "→ terrible / awful / dreadful",
+      "short": "terrible",
+      "example": "The pollution is completely terrible for wildlife."
+    },
+    {
+      "subject": "tired",
+      "verb": "→ exhausted",
+      "short": "exhausted",
+      "example": "After the hike I was absolutely exhausted."
+    },
+    {
+      "subject": "surprised",
+      "verb": "→ astonished / amazed / stunned",
+      "short": "amazed",
+      "example": "I was totally amazed by the saiga migration."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Intensifiers: very, absolutely, completely, totally",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"very\" → only with NORMAL adjectives",
+          "example": "very big ✅ · very cold ✅ · very good ✅ · very tired ✅"
+        },
+        {
+          "form": "\"absolutely\" → only with EXTREME adj.",
+          "example": "absolutely enormous ✅ · absolutely freezing ✅ · absolutely wonderful ✅"
+        },
+        {
+          "form": "\"completely\" → only with EXTREME adj.",
+          "example": "completely exhausted ✅ · completely silent ✅ · completely wrong ✅"
+        },
+        {
+          "form": "\"totally\" → only with EXTREME adj.",
+          "example": "totally amazed ✅ · totally different ✅ · totally destroyed ✅"
+        },
+        {
+          "form": "❌ very enormous / very freezing",
+          "example": "❌ very enormous → ✅ absolutely enormous / just enormous"
+        },
+        {
+          "form": "❌ absolutely big / absolutely cold",
+          "example": "❌ absolutely big → ✅ absolutely enormous (use the extreme!)"
+        }
+      ]
+    },
+    {
+      "title": "Full list of extreme adjective pairs",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "big → huge / enormous / massive / gigantic",
+          "example": "The whale is absolutely enormous — the biggest animal on Earth."
+        },
+        {
+          "form": "small → tiny / minute / microscopic",
+          "example": "The pygmy jerboa has a totally tiny body but huge ears!"
+        },
+        {
+          "form": "cold → freezing / icy / Arctic / bitter",
+          "example": "It was absolutely freezing — minus forty! I couldn't feel my feet."
+        },
+        {
+          "form": "hot → boiling / scorching / baking / sweltering",
+          "example": "The desert was completely scorching — over 45 degrees!"
+        },
+        {
+          "form": "good → wonderful / fantastic / superb / magnificent",
+          "example": "The documentary was absolutely wonderful — a masterpiece."
+        },
+        {
+          "form": "bad → terrible / awful / dreadful / appalling",
+          "example": "The air quality near the factory is totally awful."
+        }
+      ]
+    },
+    {
+      "title": "More useful extreme adjectives",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "dirty → filthy",
+          "example": "The river was absolutely filthy — black with industrial waste."
+        },
+        {
+          "form": "clean → spotless / pristine",
+          "example": "The mountain air was completely pristine — crystal clear."
+        },
+        {
+          "form": "tired → exhausted",
+          "example": "After the trek I was totally exhausted — I slept for 12 hours."
+        },
+        {
+          "form": "frightened → terrified",
+          "example": "I was absolutely terrified when the eagle flew past my head."
+        },
+        {
+          "form": "surprised → astonished / amazed",
+          "example": "I was completely amazed by the saiga migration — I couldn't speak."
+        },
+        {
+          "form": "silent → deadly quiet",
+          "example": "The steppe at night was absolutely silent — not a sound."
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes with intensifiers",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ very enormous",
+          "example": "✅ absolutely enormous / just enormous."
+        },
+        {
+          "form": "❌ very freezing",
+          "example": "✅ absolutely freezing / completely freezing."
+        },
+        {
+          "form": "❌ absolutely big",
+          "example": "✅ very big / absolutely huge (use the extreme version!)."
+        },
+        {
+          "form": "❌ absolutely nice / quite unique",
+          "example": "\"unique\" = extreme (only one of its kind) → absolutely unique ✅."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Два типа прилагательных — разные правила:\n\n① ОБЫЧНЫЕ (gradable): big, cold, good, tired, bad\n   → Используй: very / quite / rather + adj\n   very big · quite cold · rather bad\n\n② КРАЙНИЕ (non-gradable/extreme): huge, freezing, wonderful, exhausted, terrible\n   → Используй: absolutely / completely / totally + adj\n   absolutely enormous · completely exhausted · totally wonderful\n   → НЕ используй: very enormous / very freezing ❌\n\n💡 Парочки для запоминания:\nbig ↔ huge/enormous · cold ↔ freezing · good ↔ wonderful\nbad ↔ terrible · tired ↔ exhausted · surprised ↔ amazed",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct extreme adjective.",
+      "text": "The saiga herd was ___ — there must have been a million animals!",
+      "opts": [
+        "very big",
+        "absolutely enormous",
+        "very enormous",
+        "quite huge"
+      ],
+      "correct": "absolutely enormous",
+      "hint": "\"enormous\" is extreme → \"absolutely enormous\". Never \"very enormous\"."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct intensifier.",
+      "text": "The temperature in the Altai in winter is ___ freezing.",
+      "opts": [
+        "very",
+        "quite",
+        "absolutely",
+        "a bit"
+      ],
+      "correct": "absolutely",
+      "hint": "\"freezing\" is extreme → use \"absolutely\". Never \"very freezing\"."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the extreme version of the adjective.",
+      "text": "The steppe at night is not just quiet — it's ___ (extremely quiet).",
+      "correct": "absolutely silent",
+      "hint": "quiet → silent. Extreme → absolutely silent."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "\"very\" or \"absolutely\"?",
+      "text": "The wildlife documentary was ___ wonderful.",
+      "opts": [
+        "very",
+        "absolutely",
+        "quite",
+        "rather"
+      ],
+      "correct": "absolutely",
+      "hint": "\"wonderful\" is extreme → \"absolutely wonderful\". Not \"very wonderful\"."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct extreme adjective.",
+      "text": "After the long hike up the mountain, I was ___ .",
+      "opts": [
+        "very tired",
+        "absolutely exhausted",
+        "very exhausted",
+        "quite tired"
+      ],
+      "correct": "absolutely exhausted",
+      "hint": "\"exhausted\" is the extreme version of \"tired\" → absolutely exhausted ✅."
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which is wrong?",
+      "text": "Which sentence has a mistake?",
+      "opts": [
+        "It was absolutely freezing.",
+        "The steppe is enormous.",
+        "It was very freezing.",
+        "I was completely amazed."
+      ],
+      "correct": "It was very freezing.",
+      "hint": "\"very\" + extreme adjective is wrong. ✅ \"It was absolutely freezing.\""
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Write the extreme adjective.",
+      "text": "The desert in summer is not just hot — it's ___ (extreme: very hot).",
+      "correct": "scorching",
+      "hint": "hot → boiling / scorching / baking (all correct). The desert is scorching."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which intensifier is correct with extreme adjectives?",
+      "text": "The pollution in the river was ___ awful.",
+      "opts": [
+        "very",
+        "quite",
+        "completely",
+        "a little"
+      ],
+      "correct": "completely",
+      "hint": "\"awful\" is extreme → use \"completely\" or \"absolutely\". Not \"very\"."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct pair.",
+      "text": "The Caspian seal's eyes are ___ (= very beautiful).",
+      "opts": [
+        "very gorgeous",
+        "absolutely gorgeous",
+        "completely pretty",
+        "very stunning"
+      ],
+      "correct": "absolutely gorgeous",
+      "hint": "\"gorgeous/stunning/magnificent\" = extreme → absolutely gorgeous ✅."
+    },
+    {
+      "id": "e10",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"The elephant is very enormous\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"enormous\" is already extreme → \"absolutely enormous\" or just \"enormous\". Never \"very enormous\"."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "What is the extreme version of \"small\"?",
+      "text": "The pygmy jerboa is not just small — it is ___.",
+      "opts": [
+        "very small",
+        "absolutely small",
+        "tiny / minute",
+        "more small"
+      ],
+      "correct": "tiny / minute",
+      "hint": "The extreme version of \"small\" is \"tiny\" or \"minute\". Then: absolutely tiny ✅."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Complete: \"I was ___ when I saw the saiga herd.\"",
+      "text": "\"I was ___ when I saw the saiga herd.\" (= completely surprised)",
+      "opts": [
+        "very surprised",
+        "absolutely surprised",
+        "completely amazed",
+        "totally surprised"
+      ],
+      "correct": "completely amazed",
+      "hint": "\"amazed\" = extreme version of \"surprised\" → completely amazed ✅. Not \"absolutely surprised\"."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the correct extreme version of \"cold\"?",
+      "opts": [
+        "very cold",
+        "quite cold",
+        "freezing",
+        "coldest"
+      ],
+      "correct": "freezing",
+      "hint": "cold → freezing (extreme). Then: absolutely freezing ✅."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The steppe is ___ enormous.\" — which intensifier?",
+      "opts": [
+        "very",
+        "quite",
+        "absolutely",
+        "rather"
+      ],
+      "correct": "absolutely",
+      "hint": "\"enormous\" is extreme → absolutely enormous. Never \"very enormous\"."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"It was very freezing\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"freezing\" is extreme → \"absolutely freezing\" ✅. Never \"very freezing\"."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the extreme version of \"good\"?",
+      "opts": [
+        "very good",
+        "better",
+        "wonderful / fantastic",
+        "most good"
+      ],
+      "correct": "wonderful / fantastic",
+      "hint": "good → wonderful, fantastic, superb, magnificent (extreme versions)."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "After the 10-hour trek, she was ___ .",
+      "correct": "absolutely exhausted",
+      "hint": "\"tired\" → extreme: exhausted. Intensifier: absolutely exhausted."
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is correct?",
+      "opts": [
+        "very enormous",
+        "absolutely big",
+        "absolutely enormous",
+        "very huge"
+      ],
+      "correct": "absolutely enormous",
+      "hint": "\"enormous\" = extreme → absolutely enormous ✅."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The extreme version of \"bad\" is:",
+      "opts": [
+        "very bad",
+        "worser",
+        "terrible / awful",
+        "the worst"
+      ],
+      "correct": "terrible / awful",
+      "hint": "bad → terrible, awful, dreadful, appalling (extreme versions)."
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was ___ amazed by the saiga herd.\" — which intensifier?",
+      "opts": [
+        "very",
+        "quite",
+        "completely",
+        "slightly"
+      ],
+      "correct": "completely",
+      "hint": "\"amazed\" is extreme → completely/totally/absolutely amazed ✅."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "The desert in summer is ___ ___ . (extreme: extremely hot)",
+      "correct": "absolutely scorching",
+      "hint": "hot → scorching/boiling. Intensifier: absolutely scorching."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Absolutely wonderful\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"wonderful\" = extreme → absolutely wonderful ✅."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The extreme version of \"small\" is:",
+      "opts": [
+        "very small",
+        "the smallest",
+        "tiny / minute",
+        "absolutely small"
+      ],
+      "correct": "tiny / minute",
+      "hint": "small → tiny / minute (extreme). Then: absolutely tiny ✅."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which intensifier is used with BOTH normal and extreme adjectives?",
+      "opts": [
+        "very",
+        "absolutely",
+        "completely",
+        "quite"
+      ],
+      "correct": "quite",
+      "hint": "\"quite\" is flexible: quite big (normal) AND quite extraordinary (extreme). Very = normal only."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The pollution was ___ terrible.\" — correct intensifier:",
+      "opts": [
+        "very",
+        "a bit",
+        "absolutely",
+        "slightly"
+      ],
+      "correct": "absolutely",
+      "hint": "\"terrible\" = extreme → absolutely terrible ✅."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "The pristine mountain air is ___ clean (extreme).",
+      "correct": "absolutely pristine",
+      "hint": "clean → pristine (extreme). Absolutely pristine ✅."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I was completely ___ by the snow leopard.\" (extreme version of surprised)",
+      "opts": [
+        "surprised",
+        "very surprised",
+        "astonished",
+        "quite surprised"
+      ],
+      "correct": "astonished",
+      "hint": "surprised → astonished/amazed (extreme). Completely astonished ✅."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which word CANNOT follow \"very\"?",
+      "opts": [
+        "big",
+        "cold",
+        "good",
+        "enormous"
+      ],
+      "correct": "enormous",
+      "hint": "\"enormous\" is already extreme → cannot use \"very enormous\". Use \"absolutely enormous\"."
+    }
+  ]
+}

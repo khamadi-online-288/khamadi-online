@@ -1,0 +1,374 @@
+{
+  "id": "l43-5",
+  "moduleNum": 9,
+  "lessonNum": 7,
+  "moduleTitle": "Asking & Answering",
+  "type": "test",
+  "title": "Module 9 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What must students do before Professor Aidarov's Thursday session?",
+      "opts": [
+        "Write a summary of last week",
+        "Submit one indirect question they genuinely want answered",
+        "Read a text about linguistics",
+        "Prepare a speech"
+      ],
+      "correct": "Submit one indirect question they genuinely want answered",
+      "hint": "\"students must submit one question they genuinely want answered — written as a proper indirect question.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila says she still asks questions quickly without thinking.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I used to fire off questions... Now I think before I ask.\" — she has changed."
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir's \"garbage in, garbage out\" principle mean in this context?",
+      "opts": [
+        "Computers produce waste data",
+        "A poor question produces a poor answer",
+        "AI is unreliable",
+        "Technology creates problems"
+      ],
+      "correct": "A poor question produces a poor answer",
+      "hint": "\"Garbage in, garbage out... If I ask a poorly structured question, I get a vague answer.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Rustam say the best question does?",
+      "opts": [
+        "Traps the other person",
+        "Makes the other person think and opens something up",
+        "Shows off knowledge",
+        "Gets a quick factual answer"
+      ],
+      "correct": "Makes the other person think and opens something up",
+      "hint": "\"The best question... makes the other person think... actually opens something up.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "The final paragraph says universities rarely teach students how to ___ .",
+      "correct": "ask",
+      "hint": "\"Universities teach students what to know. They rarely teach them how to ask.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Tag questions signal closed-mindedness and a lack of interest in others' views.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"They signal openness... I want to know what you think too.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What topic does Kamila want to specialise in?",
+      "opts": [
+        "Adult language teaching",
+        "Bilingual acquisition in early childhood",
+        "Historical linguistics",
+        "Translation"
+      ],
+      "correct": "Bilingual acquisition in early childhood",
+      "hint": "\"bilingual language acquisition, particularly in early childhood.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila's research paper has already been published.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It hasn't been published yet, but Professor Aidarov has submitted it.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila personally conducted ___ parent interviews.",
+      "correct": "twelve",
+      "hint": "\"I personally conducted twelve of the parent interviews.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say is the main challenge in bilingual research?",
+      "opts": [
+        "Finding funding",
+        "Recruiting participants",
+        "Controlling variables",
+        "Publishing results"
+      ],
+      "correct": "Controlling variables",
+      "hint": "\"it's the difficulty of controlling variables.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila ultimately want to contribute to?",
+      "opts": [
+        "University teaching",
+        "Commercial translation",
+        "Educational policy in Kazakhstan",
+        "International research"
+      ],
+      "correct": "Educational policy in Kazakhstan",
+      "hint": "\"contribute to educational policy in Kazakhstan.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "The interview uses which type of questions?",
+      "opts": [
+        "Direct demanding questions",
+        "Polite indirect questions",
+        "Tag questions only",
+        "Yes/no questions only"
+      ],
+      "correct": "Polite indirect questions",
+      "hint": "The interviewer says \"Could you tell me...?\" and \"Do you know...?\" — all indirect question structures."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Where is the library?\" → Indirect: \"Could you tell me ___?\"",
+      "opts": [
+        "where is the library",
+        "where the library is",
+        "where library is the",
+        "is where the library"
+      ],
+      "correct": "where the library is",
+      "hint": "No inversion in indirect: \"WHERE THE LIBRARY IS.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"What time does it start?\" → \"Do you know ___?\"",
+      "opts": [
+        "what time does it start",
+        "what time it starts",
+        "what time start it",
+        "what time do it start"
+      ],
+      "correct": "what time it starts",
+      "hint": "Drop \"does\", normal order: \"WHAT TIME IT STARTS.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Is she coming?\" → \"Do you know ___ she is coming?\"",
+      "correct": "whether / if",
+      "hint": "Yes/no question → \"whether\" or \"if\". \"...WHETHER SHE IS coming.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's very talented, ___ she?\" (tag)",
+      "opts": [
+        "is",
+        "isn't",
+        "does",
+        "doesn't"
+      ],
+      "correct": "isn't",
+      "hint": "Positive (is) → negative tag (isn't). \"She's talented, ISN'T she?\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He doesn't know the answer, ___ he?\" (tag)",
+      "opts": [
+        "does",
+        "doesn't",
+        "is",
+        "isn't"
+      ],
+      "correct": "does",
+      "hint": "Negative (doesn't) → positive tag (does). \"...doesn't know, DOES he?\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Could you tell me where does she work?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Could you tell me WHERE SHE WORKS?\" — no inversion in indirect questions!"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I am right, ___ ?\" — the correct special tag:",
+      "opts": [
+        "am I not?",
+        "isn't I?",
+        "aren't I?",
+        "amn't I?"
+      ],
+      "correct": "aren't I?",
+      "hint": "\"I am\" → \"AREN'T I?\" — special case. \"amn't\" does not exist in standard English! ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Let's go to the library, ___ ?\"",
+      "opts": [
+        "don't we",
+        "shall we",
+        "will we",
+        "won't we"
+      ],
+      "correct": "shall we",
+      "hint": "\"Let's\" → \"SHALL WE?\" — special tag for suggestions. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"An indirect question\" is:",
+      "opts": [
+        "A rude question",
+        "A question embedded in a polite structure",
+        "A yes/no question",
+        "A question without a question mark"
+      ],
+      "correct": "A question embedded in a polite structure",
+      "hint": "\"indirect\" = not going straight to the point. Indirect questions use polite frames like \"Could you tell me...?\""
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"An abrupt answer\" means:",
+      "opts": [
+        "A very detailed answer",
+        "A sudden, not very polite answer",
+        "A formal answer",
+        "A correct answer"
+      ],
+      "correct": "A sudden, not very polite answer",
+      "hint": "\"abrupt\" = sudden and not very friendly or polite."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "A ___ question is added to the end of a statement to check or confirm.",
+      "correct": "tag",
+      "hint": "A \"tag question\" (разделительный вопрос) is a short question added to a statement."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The skill is underrated.\" \"Underrated\" means:",
+      "opts": [
+        "Famous and well-known",
+        "Not given enough credit for its value",
+        "Recently discovered",
+        "Too difficult to develop"
+      ],
+      "correct": "Not given enough credit for its value",
+      "hint": "\"underrated\" = not appreciated or valued as much as it deserves to be."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She needs a more precise question.\" \"Precise\" means:",
+      "opts": [
+        "longer",
+        "exactly right and specific",
+        "informal and casual",
+        "emotional"
+      ],
+      "correct": "exactly right and specific",
+      "hint": "\"precise\" = exact, accurate, specific. A precise question leaves no room for misunderstanding."
+    }
+  ]
+}

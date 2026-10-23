@@ -1,0 +1,438 @@
+{
+  "id": "l60-3b",
+  "moduleNum": 2,
+  "lessonNum": 4,
+  "moduleTitle": "Reported Speech & Reporting",
+  "type": "listening",
+  "title": "On the Record: A Press Briefing at WKU",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Rector",
+      "text": "Good morning. I've called this briefing to address the questions that have been circulating about the new English language requirement.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Reporter 1",
+      "text": "Rector, can you confirm whether all students will be required to pass a B2 English assessment to graduate?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rector",
+      "text": "The university has decided that from the 2027 intake, students will need to demonstrate B2 English proficiency. However, this applies to new students only. Current students are not affected.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Reporter 2",
+      "text": "Some faculty members have suggested this would put additional pressure on students from non-urban areas. How do you respond?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rector",
+      "text": "We acknowledge that access to English-language preparation varies across regions. That's why we're announcing today that the university will fund English preparation courses for all first-year students from next autumn.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Reporter 1",
+      "text": "Did you consult students before making this decision?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rector",
+      "text": "The student council was informed of the proposal in February and was invited to provide feedback. Their feedback was considered during the final decision-making process.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Reporter 2",
+      "text": "The student council president has claimed that they were not given sufficient time to respond properly. Do you dispute that?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rector",
+      "text": "I wouldn't say \"dispute.\" I'd say that the timeline was challenging, and I accept that the consultation process could have been longer. We intend to improve this for future policy decisions.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Reporter 1",
+      "text": "Will students who fail the B2 assessment be denied graduation?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rector",
+      "text": "Students who do not meet the requirement will be offered additional support and multiple assessment opportunities. We have no intention of withholding graduation from students who make genuine effort.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Reporter 2",
+      "text": "Finally, what would you say to students who are worried about this change?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rector",
+      "text": "I'd tell them that this requirement reflects the reality of the professional world they are entering. English proficiency is not an add-on — it is a core professional skill. And I would assure them that the university will support them in achieving it.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "circulating",
+      "emoji": "🔄",
+      "opts": [
+        "исчезающий",
+        "распространяющийся",
+        "публикующийся",
+        "решённый"
+      ],
+      "correct": "распространяющийся"
+    },
+    {
+      "id": "p2",
+      "word": "proficiency",
+      "emoji": "⭐",
+      "opts": [
+        "начальный уровень",
+        "профессиональный уровень владения",
+        "сертификат",
+        "экзамен"
+      ],
+      "correct": "профессиональный уровень владения"
+    },
+    {
+      "id": "p3",
+      "word": "consult",
+      "emoji": "💬",
+      "opts": [
+        "игнорировать",
+        "консультироваться / спрашивать мнение",
+        "осуждать",
+        "сообщать"
+      ],
+      "correct": "консультироваться / спрашивать мнение"
+    },
+    {
+      "id": "p4",
+      "word": "dispute",
+      "emoji": "⚡",
+      "opts": [
+        "соглашаться",
+        "оспаривать / не соглашаться",
+        "подтверждать",
+        "признавать"
+      ],
+      "correct": "оспаривать / не соглашаться"
+    },
+    {
+      "id": "p5",
+      "word": "withhold",
+      "emoji": "🚫",
+      "opts": [
+        "предоставлять",
+        "удерживать / не давать",
+        "откладывать",
+        "планировать"
+      ],
+      "correct": "удерживать / не давать"
+    },
+    {
+      "id": "p6",
+      "word": "intake",
+      "emoji": "📅",
+      "opts": [
+        "результаты",
+        "приём (студентов на определённый год)",
+        "курс",
+        "программа"
+      ],
+      "correct": "приём (студентов на определённый год)"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The B2 English requirement applies to all current students.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "The university will fund English preparation courses for first-year students.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "The student council was given several months to respond to the proposal.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The rector acknowledged the consultation timeline was challenging.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Students who fail the assessment will automatically be denied graduation.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "The rector described English proficiency as a core professional skill.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rector",
+      "name": "Rector",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU Rector — announcing and defending new English policy in press briefing"
+    },
+    {
+      "id": "rep1",
+      "name": "Reporter 1",
+      "city": "Uralsk",
+      "emoji": "🎙️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Journalist — asks direct factual questions"
+    },
+    {
+      "id": "rep2",
+      "name": "Reporter 2",
+      "city": "Uralsk",
+      "emoji": "📰",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Journalist — asks about student concerns and consultation"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Confirmed the B2 requirement applies from 2027 intake and does not affect current students.",
+      "correctCharId": "rector"
+    },
+    {
+      "id": "s2",
+      "text": "Acknowledged that access to English preparation varies by region.",
+      "correctCharId": "rector"
+    },
+    {
+      "id": "s3",
+      "text": "Said the student council was informed in February and invited to provide feedback.",
+      "correctCharId": "rector"
+    },
+    {
+      "id": "s4",
+      "text": "Stated the student council president claimed they had not been given sufficient response time.",
+      "correctCharId": "rep2"
+    },
+    {
+      "id": "s5",
+      "text": "Accepted the consultation timeline was challenging and promised to improve future processes.",
+      "correctCharId": "rector"
+    },
+    {
+      "id": "s6",
+      "text": "Assured students the university would support them and would not withhold graduation from genuine effort.",
+      "correctCharId": "rector"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Who does the B2 English requirement apply to?",
+      "opts": [
+        "All students immediately",
+        "No one yet",
+        "Students from the 2027 intake onwards — not current students",
+        "Only science students"
+      ],
+      "correct": "Students from the 2027 intake onwards — not current students",
+      "hint": "\"From the 2027 intake, students will need to demonstrate B2 English proficiency... Current students are not affected.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the university offering to address regional inequality?",
+      "opts": [
+        "Extra exams",
+        "More time",
+        "Funded English preparation courses for all first-year students from next autumn",
+        "Online certificates"
+      ],
+      "correct": "Funded English preparation courses for all first-year students from next autumn",
+      "hint": "\"The university will fund English preparation courses for all first-year students from next autumn.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did the student council president claim?",
+      "opts": [
+        "The policy was fair",
+        "They supported the decision",
+        "They were not given sufficient time to respond properly",
+        "They were not informed"
+      ],
+      "correct": "They were not given sufficient time to respond properly",
+      "hint": "\"The student council president has claimed that they were not given sufficient time to respond properly.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does the rector respond to the student council president's claim?",
+      "opts": [
+        "Disputes it completely",
+        "Accepts the timeline was challenging and promises improvement",
+        "Ignores it",
+        "Says the president is wrong"
+      ],
+      "correct": "Accepts the timeline was challenging and promises improvement",
+      "hint": "\"I accept that the consultation process could have been longer. We intend to improve this for future policy decisions.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happens to students who fail the B2 assessment?",
+      "opts": [
+        "They are denied graduation",
+        "They fail the year",
+        "They are offered extra support and multiple assessment chances",
+        "They must repeat the year"
+      ],
+      "correct": "They are offered extra support and multiple assessment chances",
+      "hint": "\"Students who do not meet the requirement will be offered additional support and multiple assessment opportunities.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does the rector characterise English proficiency?",
+      "opts": [
+        "An optional extra",
+        "A temporary requirement",
+        "A core professional skill",
+        "A European standard"
+      ],
+      "correct": "A core professional skill",
+      "hint": "\"English proficiency is not an add-on — it is a core professional skill.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The rector disputes that the consultation timeline was too short.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I accept that the consultation process could have been longer.\" — The rector accepts, not disputes, this. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What word does the rector prefer instead of \"dispute\"?",
+      "opts": [
+        "agree",
+        "confirm",
+        "accept",
+        "acknowledge"
+      ],
+      "correct": "accept",
+      "hint": "\"I wouldn't say 'dispute.' I'd say... I accept that the consultation process could have been longer.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Can you confirm WHETHER all students will be required to pass?\" — \"whether\" because:",
+      "opts": [
+        "It's a wh-question",
+        "It's a yes/no question",
+        "It's a command",
+        "\"if\" doesn't work here"
+      ],
+      "correct": "It's a yes/no question",
+      "hint": "\"whether\" (or \"if\") introduces yes/no questions: \"Will students be required? Yes or no?\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The rector confirmed THAT students would need to demonstrate proficiency.\" — \"would\" because:",
+      "opts": [
+        "Conditional",
+        "Future→past backshift in reported speech",
+        "It's modal perfect",
+        "No reason — \"will\" works here too"
+      ],
+      "correct": "Future→past backshift in reported speech",
+      "hint": "\"will need\" → \"would need\" — will shifts to would in reported speech. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The student council president HAS CLAIMED they were not given time.\" — \"has claimed\" (PPS) suggests:",
+      "opts": [
+        "A completed past action far in the past",
+        "A recent statement relevant now — news context",
+        "The claim is definitely true",
+        "The president agrees with the rector"
+      ],
+      "correct": "A recent statement relevant now — news context",
+      "hint": "PPS in news = recent event with current relevance. The student council president said it recently, and it's relevant to the current briefing. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He assured them the university WOULD support them.\" — \"assured\" + that clause — the correct reporting verb because:",
+      "opts": [
+        "It's the same as \"said\"",
+        "\"Assured\" = gave a firm promise + reassurance, more specific than \"said\"",
+        "\"Said\" would be wrong here",
+        "\"Assured\" is informal only"
+      ],
+      "correct": "\"Assured\" = gave a firm promise + reassurance, more specific than \"said\"",
+      "hint": "\"assure\" = to tell firmly and reassuringly. More specific than \"say\" — the rector was making a commitment to calm fears. ✅"
+    }
+  ]
+}

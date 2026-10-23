@@ -1,0 +1,556 @@
+{
+  "id": "l21-4",
+  "moduleNum": 5,
+  "lessonNum": 4,
+  "moduleTitle": "Technology & Communication",
+  "title": "Frequency adverbs + Present Simple review",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 18,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Frequency adverbs + Present Simple",
+  "grammarNote": "НАРЕЧИЯ ЧАСТОТНОСТИ (Frequency adverbs) отвечают на вопрос \"КАК ЧАСТО?\" (How often?). Они используются с PRESENT SIMPLE, который описывает регулярные действия, привычки и общие факты. Правильное РАСПОЛОЖЕНИЕ наречия в предложении — одна из самых частых ошибок студентов.",
+  "grammarTable": [
+    {
+      "subject": "always",
+      "verb": "100%",
+      "short": "всегда",
+      "example": "I always check Telegram before class. · She is always online."
+    },
+    {
+      "subject": "usually",
+      "verb": "80%",
+      "short": "обычно",
+      "example": "He usually studies in the library. · They are usually punctual."
+    },
+    {
+      "subject": "often",
+      "verb": "60%",
+      "short": "часто",
+      "example": "We often watch tutorials on YouTube. · He is often tired."
+    },
+    {
+      "subject": "sometimes",
+      "verb": "40%",
+      "short": "иногда",
+      "example": "I sometimes forget to charge my laptop. · She is sometimes late."
+    },
+    {
+      "subject": "rarely",
+      "verb": "20%",
+      "short": "редко",
+      "example": "He rarely uses Facebook. · She is rarely offline."
+    },
+    {
+      "subject": "never",
+      "verb": "0%",
+      "short": "никогда",
+      "example": "I never use TikTok at work. · They are never on time."
+    },
+    {
+      "subject": "POSITION 1",
+      "verb": "Before main verb",
+      "short": "⬅️ verb",
+      "example": "I always check / She never posts / They often share"
+    },
+    {
+      "subject": "POSITION 2",
+      "verb": "After be",
+      "short": "be ➡️",
+      "example": "He is always late / She is never offline / I am usually tired"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "How often? — specific frequency expressions",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "every day / week / month / year",
+          "example": "I check my email every day. · She calls her parents every Sunday."
+        },
+        {
+          "form": "once / twice / three times a day",
+          "example": "I use Anki twice a day. · He checks his phone about forty times a day!"
+        },
+        {
+          "form": "once a week / month / year",
+          "example": "I clean my room once a week. · We have IT classes twice a week."
+        },
+        {
+          "form": "every other day / week",
+          "example": "She does yoga every other day. · I visit the library every other week."
+        },
+        {
+          "form": "on Mondays / at weekends / in the morning",
+          "example": "On Mondays we have lectures. · At weekends I always sleep until 10."
+        },
+        {
+          "form": "How often do you...? — answer",
+          "example": "How often do you check your phone? — About sixty times a day, sadly!"
+        }
+      ]
+    },
+    {
+      "title": "Position rules — the most important grammar rule",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "With main verb → BEFORE it",
+          "example": "I always / usually / often CHECK my phone. ✅"
+        },
+        {
+          "form": "With \"be\" → AFTER it",
+          "example": "She IS always / usually / often online. ✅"
+        },
+        {
+          "form": "❌ NEVER put adverb after main verb",
+          "example": "❌ I check always my phone. → ✅ I always check my phone."
+        },
+        {
+          "form": "❌ NEVER put adverb before \"be\"",
+          "example": "❌ She always is online. → ✅ She is always online."
+        },
+        {
+          "form": "sometimes / usually can go at start",
+          "example": "Sometimes I forget to charge my phone. (informal, emphatic)"
+        },
+        {
+          "form": "never/always can NOT go at start",
+          "example": "❌ Always I check Telegram. → ✅ I always check Telegram."
+        }
+      ]
+    },
+    {
+      "title": "Present Simple: positive, negative, question review",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "I / You / We / They + base verb",
+          "example": "I use Instagram. · They check emails every morning."
+        },
+        {
+          "form": "He / She / It + verb-s/-es",
+          "example": "She uses Telegram. · He watches tutorials every evening."
+        },
+        {
+          "form": "Negative: don't / doesn't + base",
+          "example": "I don't use TikTok. · She doesn't post selfies."
+        },
+        {
+          "form": "Question: Do/Does + subject + base",
+          "example": "Do you use LinkedIn? · Does he check email daily?"
+        },
+        {
+          "form": "Short answer: Yes/No + do/does",
+          "example": "Do you use Anki? — Yes, I do. / No, I don't."
+        },
+        {
+          "form": "WH + do/does + subject + base",
+          "example": "How often do you check your phone? · What does she use?"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ I check always my email.",
+          "example": "✅ I always check my email. (adverb BEFORE main verb!)"
+        },
+        {
+          "form": "❌ She always is busy.",
+          "example": "✅ She is always busy. (adverb AFTER \"be\"!)"
+        },
+        {
+          "form": "❌ He use social media every day.",
+          "example": "✅ He uses social media every day. (3rd person → -s!)"
+        },
+        {
+          "form": "❌ Does she uses Instagram?",
+          "example": "✅ Does she use Instagram? (after does → base form!)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "ПОЗИЦИЯ наречия частотности — два правила, которые НУЖНО знать:\n\n① С обычным глаголом → ПЕРЕД глаголом:\n   I ALWAYS check / She NEVER posts / They OFTEN share\n\n② С глаголом BE → ПОСЛЕ него:\n   He IS always late / She IS never offline / I AM usually tired\n\n💡 Мнемоника: 'be' = 'быть' — наречие ПОСЛЕ него, потому что 'be' отвечает само за себя!\n\n⚠️ Всегда помни: He/She/It в Present Simple → verb + -s:\n   She always CHECKS (не 'check'!) · He usually WATCHES (не 'watch'!)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct position.",
+      "text": "I ___ check ___ my messages before breakfast.",
+      "opts": [
+        "always / Ø",
+        "Ø / always",
+        "always check / Ø",
+        "check always / Ø"
+      ],
+      "correct": "always / Ø",
+      "hint": "adverb + main verb: I always check. (not \"I check always\")."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct position with \"be\".",
+      "text": "She ___ is ___ online after midnight.",
+      "opts": [
+        "always / Ø",
+        "Ø / always",
+        "never / Ø",
+        "Ø / never"
+      ],
+      "correct": "Ø / always",
+      "hint": "With \"be\": She is always online. (adverb AFTER \"be\")."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Write the correct verb form.",
+      "text": "Amir ___ (check) his phone about 60 times a day.",
+      "correct": "checks",
+      "hint": "Amir = He → 3rd person singular → checks (add -s)."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct negative.",
+      "text": "She ___ use TikTok — she thinks it wastes time.",
+      "opts": [
+        "doesn't",
+        "don't",
+        "isn't",
+        "not"
+      ],
+      "correct": "doesn't",
+      "hint": "She = 3rd person → doesn't + base verb."
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Make a question.",
+      "text": "___ you ___ (use) LinkedIn for job searching?",
+      "correct": "Do use",
+      "hint": "I/You/We/They → Do + subject + base verb?"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct frequency expression.",
+      "text": "I use Anki ___ — morning and evening.",
+      "opts": [
+        "once a day",
+        "twice a day",
+        "every other day",
+        "once a week"
+      ],
+      "correct": "twice a day",
+      "hint": "Twice = two times. Morning + evening = two times → twice a day."
+    },
+    {
+      "id": "e7",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She always is late\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "With \"be\": adverb goes AFTER \"be\". ✅ She is always late."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "He check Facebook every day.",
+        "He checks Facebook every day.",
+        "He is check Facebook every day.",
+        "He always checking Facebook."
+      ],
+      "correct": "He checks Facebook every day.",
+      "hint": "He = 3rd person → checks. Present Simple, no -ing."
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Write the adverb that means \"0% of the time\".",
+      "text": "I ___ watch TV — I only use YouTube.",
+      "correct": "never",
+      "hint": "never = 0% of the time. Position: before main verb."
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct WH-question.",
+      "text": "\"___ does she check her email?\" — \"Every morning at 8.\"",
+      "opts": [
+        "What time",
+        "How often",
+        "How long",
+        "Where"
+      ],
+      "correct": "How often",
+      "hint": "\"How often?\" asks about frequency. \"Every morning\" = the answer."
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which adverb fits? (about 80% of the time)",
+      "text": "He ___ uses Google Docs for lecture notes.",
+      "opts": [
+        "always",
+        "usually",
+        "rarely",
+        "never"
+      ],
+      "correct": "usually",
+      "hint": "usually ≈ 80% of the time. Not always, but most of the time."
+    },
+    {
+      "id": "e12",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"Sometimes I forget to charge my laptop\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"sometimes\" can go at the beginning of a sentence for emphasis. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ check my phone first thing in the morning.\" (100%)",
+      "opts": [
+        "never",
+        "rarely",
+        "always",
+        "sometimes"
+      ],
+      "correct": "always",
+      "hint": "always = 100% of the time."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Correct position: \"She ___ is ___ late for class.\"",
+      "opts": [
+        "always / Ø",
+        "Ø / always",
+        "never / Ø",
+        "Ø / never"
+      ],
+      "correct": "Ø / always",
+      "hint": "With \"be\": She IS always late. Adverb after \"be\"."
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Zhibek ___ (use) Instagram for dance content every evening.",
+      "correct": "uses",
+      "hint": "Zhibek = She → 3rd person → uses (add -s)."
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He ___ Facebook — he says it's for old people.\" (0%)",
+      "opts": [
+        "always uses",
+        "sometimes uses",
+        "usually uses",
+        "never uses"
+      ],
+      "correct": "never uses",
+      "hint": "never = 0%, placed before the main verb."
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"I check always my Telegram messages\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Adverb goes BEFORE main verb: \"I always check my Telegram messages.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "I use Anki in the morning AND in the evening. That's ___.",
+      "opts": [
+        "once a day",
+        "twice a day",
+        "every other day",
+        "three times a week"
+      ],
+      "correct": "twice a day",
+      "hint": "Twice = two times. Morning + evening = twice a day."
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ she use LinkedIn? — Yes, she does.",
+      "correct": "Does",
+      "hint": "She = 3rd person → Does + subject + base verb?"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Does she uses Twitter?\" — what is wrong?",
+      "opts": [
+        "Wrong subject",
+        "Wrong tense",
+        "\"uses\" should be \"use\" after \"does\"",
+        "Nothing is wrong"
+      ],
+      "correct": "\"uses\" should be \"use\" after \"does\"",
+      "hint": "After Does → base form: Does she USE? (never \"uses\" after does/do)."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which adverb = about 60% frequency?",
+      "opts": [
+        "always",
+        "usually",
+        "often",
+        "rarely"
+      ],
+      "correct": "often",
+      "hint": "often ≈ 60% · usually ≈ 80% · always = 100%."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "He ___ go to the IT office — he fixes everything himself.",
+      "correct": "rarely",
+      "hint": "rarely = almost never (about 20% of the time)."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"How often...?\" ask about?",
+      "opts": [
+        "Time of day",
+        "How long something takes",
+        "How frequently something happens",
+        "The reason for something"
+      ],
+      "correct": "How frequently something happens",
+      "hint": "\"How often?\" = asking about frequency: always, sometimes, twice a week, etc."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Sometimes I forget to charge my laptop\" — is this correct?",
+      "opts": [
+        "Yes, correct",
+        "No — \"sometimes\" can't start a sentence",
+        "No — wrong tense",
+        "No — use \"often\""
+      ],
+      "correct": "Yes, correct",
+      "hint": "\"sometimes\" can go at the start of a sentence for emphasis. ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila ___ (not / use) Facebook — she says it's for parents.",
+      "correct": "doesn't use",
+      "hint": "She → doesn't + base verb: doesn't use."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She is never ___.\" — what kind of word fills the blank?",
+      "opts": [
+        "A main verb",
+        "An adjective or adverb",
+        "A noun",
+        "An article"
+      ],
+      "correct": "An adjective or adverb",
+      "hint": "She is never [offline/late/available] — adjective/adverb after \"be never\"."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "She always is late.",
+        "She is late always.",
+        "She is always late.",
+        "Always she is late."
+      ],
+      "correct": "She is always late.",
+      "hint": "\"be\" → adverb after it: She IS always late. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "How ___ do you check social media? — About twenty times a day!",
+      "correct": "often",
+      "hint": "\"How often?\" = asking about frequency."
+    }
+  ]
+}

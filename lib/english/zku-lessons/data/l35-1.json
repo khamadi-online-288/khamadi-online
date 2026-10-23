@@ -1,0 +1,667 @@
+{
+  "id": "l35-1",
+  "moduleNum": 1,
+  "lessonNum": 1,
+  "moduleTitle": "Daily Routines & Habits",
+  "type": "reading",
+  "title": "A Student's Typical Week",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Amir Bekzhanov is a second-year Computer Science student at WKU. His weekly routine is busy but well-organised. Every morning, he wakes up at 6:30 — not because he wants to, but because his first lecture starts at 8:00. He quickly showers, eats a light breakfast (usually toast and tea), and walks to the main building. The walk takes about twelve minutes, which he uses to listen to an English podcast. \"I always listen to something in English,\" he says. \"It helps me think in the language.\" By the time he arrives at the lecture hall, he already feels mentally active and ready to focus.",
+    "Amir's schedule varies from day to day, but certain habits stay the same. He always attends all his lectures — he never misses a class unless he is seriously ill. After each lecture, he spends fifteen minutes reviewing his notes while the information is still fresh. He does this without fail, even when he is tired. \"If you review your notes immediately, you remember twice as much,\" he explains. \"I learned that from a study skills course in my first year.\" He also keeps a small notebook where he writes down any word or phrase he doesn't understand — in any subject, not just English.",
+    "Three evenings a week, Amir studies in the WKU library from 6 p.m. to 9 p.m. He sits at the same desk near the window, away from the noisy areas. He sometimes works on programming assignments, sometimes reads textbooks, and occasionally helps classmates who are struggling with code. He rarely uses his phone during library sessions — he puts it on silent and turns it face down. \"Three hours of focused work is worth more than six hours of distracted work,\" he says. His classmates have noticed that he is one of the most productive students in the group, even though he doesn't appear to rush or panic.",
+    "Amir is also a member of the WKU Robotics Club, which meets every Wednesday at 5 p.m. for two hours. He finds this the most exciting part of his week. \"In class, we learn the theory,\" he says. \"In the club, we build things. It makes the theory real.\" The club is currently working on an autonomous navigation system for a small robot — Amir leads the software team. He believes that practical projects build skills that lectures alone cannot teach.",
+    "Nutrition and physical health are also part of Amir's system. He tries to eat a balanced diet during the week — the WKU canteen offers affordable meals, and he usually has soup and a main course for lunch. He occasionally cooks for himself on evenings when the canteen is closed, but he admits his cooking skills are basic. Exercise happens three times a week: he does a twenty-minute workout in his room on Monday and Thursday mornings, and plays football on Saturday afternoons. \"I don't need a gym membership,\" he says. \"Consistency matters more than equipment.\"",
+    "On weekends, Amir is more relaxed. He sleeps until 8:30, cooks a proper breakfast, and calls his parents in Aktobe. Saturday afternoons are for sport — he usually plays football with friends from his dormitory. Sunday is reserved for reading and planning. He reads both fiction and technical books: at the moment, he is working through a novel by Chinghiz Aitmatov in Russian and a book on machine learning in English. Sunday evening is planning time — he writes next week's tasks in his notebook and estimates how long each will take.",
+    "Amir's relationship with technology is intentional. He uses his phone as a tool, not as entertainment. Notifications are turned off for all social media apps during study hours. He checks messages twice a day — once at lunchtime and once in the evening. \"Most messages are not urgent,\" he says. \"And if something is truly urgent, people call.\" This approach is unusual among his peers, but Amir believes it saves him at least two hours every day.",
+    "Despite his busy schedule, Amir never feels overwhelmed. \"The key is not to do everything at once,\" he says. \"You plan the week on Sunday evening, you follow the plan, and you rest properly. Rest is not wasted time — it is part of the system.\" Many of his classmates wonder how he manages to do so much and still stay calm. His answer is always the same: \"Consistency. Small habits, every single day. You don't need to be the most talented person in the room — you just need to show up, every single day, and do the work.\""
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, how do you stay so organised? You always seem to have everything under control.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Honestly? I plan everything on Sunday. I write the week in my notebook — every task, every deadline.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "But don't you ever feel like you're missing out? Like, you never just relax spontaneously.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I do relax — I just schedule it. Saturday football, Sunday reading. It's on the plan.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's so different from me. I always start things at the last minute.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "I used to do that too in school. But at university, it stopped working. There's just too much.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What's the one thing you'd recommend to a first-year student?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Review your notes on the same day. Fifteen minutes. Every single day. It changes everything.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "vary from day to day",
+      "ru": "меняться изо дня в день",
+      "context": "His schedule varies from day to day, but certain habits stay the same."
+    },
+    {
+      "phrase": "without fail",
+      "ru": "без исключений / неизменно",
+      "context": "He does this without fail, even when he is tired."
+    },
+    {
+      "phrase": "face down",
+      "ru": "экраном вниз",
+      "context": "He puts his phone on silent and turns it face down."
+    },
+    {
+      "phrase": "feel overwhelmed",
+      "ru": "чувствовать себя подавленным",
+      "context": "Despite his busy schedule, Amir never feels overwhelmed."
+    },
+    {
+      "phrase": "at the moment",
+      "ru": "в данный момент / сейчас",
+      "context": "At the moment, he is working through a novel by Aitmatov."
+    },
+    {
+      "phrase": "missing out",
+      "ru": "упускать что-то",
+      "context": "Don't you feel like you're missing out?"
+    },
+    {
+      "phrase": "under control",
+      "ru": "под контролем",
+      "context": "You always seem to have everything under control."
+    },
+    {
+      "phrase": "consistency",
+      "ru": "последовательность / постоянство",
+      "context": "The answer is always the same: \"Consistency.\""
+    }
+  ],
+  "vocab": [
+    {
+      "en": "routine",
+      "ipa": "/ruːˈtiːn/",
+      "pos": "noun",
+      "ru": "распорядок / рутина",
+      "kz": "күнделікті тәртіп",
+      "emoji": "📅",
+      "definition": "a regular way of doing things in a fixed order",
+      "example": "His weekly routine is busy but well-organised.",
+      "collocations": [
+        "daily routine",
+        "follow a routine",
+        "stick to a routine"
+      ]
+    },
+    {
+      "en": "vary",
+      "ipa": "/ˈveəri/",
+      "pos": "verb",
+      "ru": "меняться / варьироваться",
+      "kz": "өзгеру",
+      "emoji": "🔄",
+      "definition": "to be different in different situations or at different times",
+      "example": "His schedule varies from day to day.",
+      "collocations": [
+        "vary from day to day",
+        "vary greatly",
+        "vary depending on"
+      ]
+    },
+    {
+      "en": "immediately",
+      "ipa": "/ɪˈmiːdiətli/",
+      "pos": "adverb",
+      "ru": "немедленно / сразу",
+      "kz": "дереу",
+      "emoji": "⚡",
+      "definition": "at once; without delay",
+      "example": "He reviews his notes immediately after each lecture.",
+      "collocations": [
+        "immediately after",
+        "respond immediately",
+        "contact immediately"
+      ]
+    },
+    {
+      "en": "occasionally",
+      "ipa": "/əˈkeɪʒənəli/",
+      "pos": "adverb",
+      "ru": "иногда / время от времени",
+      "kz": "кейде",
+      "emoji": "🕐",
+      "definition": "sometimes, but not regularly",
+      "example": "He occasionally helps classmates who are struggling with code.",
+      "collocations": [
+        "occasionally visit",
+        "occasionally used",
+        "only occasionally"
+      ]
+    },
+    {
+      "en": "autonomous",
+      "ipa": "/ɔːˈtɒnəməs/",
+      "pos": "adjective",
+      "ru": "автономный / самостоятельный",
+      "kz": "автономды",
+      "emoji": "🤖",
+      "definition": "working or acting independently, without outside control",
+      "example": "The club is working on an autonomous navigation system.",
+      "collocations": [
+        "autonomous vehicle",
+        "autonomous system",
+        "autonomous region"
+      ]
+    },
+    {
+      "en": "overwhelmed",
+      "ipa": "/ˌəʊvəˈwelmd/",
+      "pos": "adjective",
+      "ru": "подавленный / перегруженный",
+      "kz": "шаршаған",
+      "emoji": "😓",
+      "definition": "having too much to deal with, feeling unable to cope",
+      "example": "Despite his busy schedule, Amir never feels overwhelmed.",
+      "collocations": [
+        "feel overwhelmed",
+        "become overwhelmed",
+        "overwhelmed by work"
+      ]
+    },
+    {
+      "en": "consistency",
+      "ipa": "/kənˈsɪstənsi/",
+      "pos": "noun",
+      "ru": "последовательность / постоянство",
+      "kz": "тұрақтылық",
+      "emoji": "📏",
+      "definition": "the quality of always behaving in the same way",
+      "example": "\"Consistency. Small habits, every single day.\"",
+      "collocations": [
+        "consistency is key",
+        "lack of consistency",
+        "maintain consistency"
+      ]
+    },
+    {
+      "en": "spontaneously",
+      "ipa": "/spɒnˈteɪniəsli/",
+      "pos": "adverb",
+      "ru": "спонтанно / неожиданно",
+      "kz": "стихиялы түрде",
+      "emoji": "🎲",
+      "definition": "done in a natural, unplanned way",
+      "example": "Don't you ever feel like you're missing out — like, you never just relax spontaneously?",
+      "collocations": [
+        "act spontaneously",
+        "happen spontaneously",
+        "decide spontaneously"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "routine",
+      "emoji": "📅",
+      "opts": [
+        "рутина / распорядок",
+        "расписание",
+        "задание",
+        "правило"
+      ],
+      "correct": "рутина / распорядок"
+    },
+    {
+      "id": "p2",
+      "word": "immediately",
+      "emoji": "⚡",
+      "opts": [
+        "иногда",
+        "медленно",
+        "немедленно / сразу",
+        "регулярно"
+      ],
+      "correct": "немедленно / сразу"
+    },
+    {
+      "id": "p3",
+      "word": "overwhelmed",
+      "emoji": "😓",
+      "opts": [
+        "спокойный",
+        "расслабленный",
+        "перегруженный",
+        "опытный"
+      ],
+      "correct": "перегруженный"
+    },
+    {
+      "id": "p4",
+      "word": "consistency",
+      "emoji": "📏",
+      "opts": [
+        "скорость",
+        "разнообразие",
+        "постоянство",
+        "случай"
+      ],
+      "correct": "постоянство"
+    },
+    {
+      "id": "p5",
+      "word": "occasionally",
+      "emoji": "🕐",
+      "opts": [
+        "никогда",
+        "всегда",
+        "иногда",
+        "часто"
+      ],
+      "correct": "иногда"
+    },
+    {
+      "id": "p6",
+      "word": "vary",
+      "emoji": "🔄",
+      "opts": [
+        "повторять",
+        "планировать",
+        "меняться",
+        "следовать"
+      ],
+      "correct": "меняться"
+    },
+    {
+      "id": "p7",
+      "word": "intentional",
+      "emoji": "🎯",
+      "opts": [
+        "случайный",
+        "намеренный",
+        "привычный",
+        "автоматический"
+      ],
+      "correct": "намеренный"
+    },
+    {
+      "id": "p8",
+      "word": "productive",
+      "emoji": "⚙️",
+      "opts": [
+        "ленивый",
+        "медленный",
+        "продуктивный",
+        "спокойный"
+      ],
+      "correct": "продуктивный"
+    }
+  ],
+  "task1Bank": [
+    "6:30",
+    "fifteen minutes",
+    "Wednesday",
+    "9 p.m.",
+    "Sunday evening",
+    "Aktobe",
+    "machine learning",
+    "football",
+    "twice",
+    "three times"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Amir wakes up at ___ every morning.",
+      "correct": "6:30"
+    },
+    {
+      "id": "t2",
+      "question": "After each lecture, he spends ___ reviewing his notes.",
+      "correct": "fifteen minutes"
+    },
+    {
+      "id": "t3",
+      "question": "The Robotics Club meets every ___ at 5 p.m.",
+      "correct": "Wednesday"
+    },
+    {
+      "id": "t4",
+      "question": "His library sessions run until ___ .",
+      "correct": "9 p.m."
+    },
+    {
+      "id": "t5",
+      "question": "Amir plans his next week on ___ .",
+      "correct": "Sunday evening"
+    },
+    {
+      "id": "t6",
+      "question": "His parents live in ___.",
+      "correct": "Aktobe"
+    },
+    {
+      "id": "t7",
+      "question": "One of the technical books he is reading is about ___.",
+      "correct": "machine learning"
+    },
+    {
+      "id": "t8",
+      "question": "On Saturday afternoons, Amir usually plays ___.",
+      "correct": "football"
+    },
+    {
+      "id": "t9",
+      "question": "He goes to the canteen ___ a day for lunch.",
+      "correct": "twice"
+    },
+    {
+      "id": "t10",
+      "question": "He exercises ___ a week.",
+      "correct": "three times"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Amir misses lectures when he feels tired.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "He reviews his lecture notes on the same day.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Amir leads the hardware team in the Robotics Club.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "He turns his phone face down during library sessions.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Amir plans his week on Sunday evening.",
+      "correct": "true"
+    },
+    {
+      "id": "c6",
+      "statement": "He reads only technical books in English.",
+      "correct": "false"
+    },
+    {
+      "id": "c7",
+      "statement": "Amir believes that rest is a wasted part of the system.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "He listens to English podcasts on his morning walk to university.",
+      "correct": "true"
+    },
+    {
+      "id": "c9",
+      "statement": "Amir has all social media notifications turned off during study hours.",
+      "correct": "true"
+    },
+    {
+      "id": "c10",
+      "statement": "He believes that being talented is more important than being consistent.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What time does Amir wake up every morning?",
+      "opts": [
+        "6:00",
+        "6:30",
+        "7:00",
+        "7:30"
+      ],
+      "correct": "6:30",
+      "hint": "\"he wakes up at 6:30\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir sometimes skips lectures when he is busy.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"He never misses a class unless he is seriously ill.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does Amir review his notes after each lecture?",
+      "opts": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "30 minutes"
+      ],
+      "correct": "15 minutes",
+      "hint": "\"he spends fifteen minutes reviewing his notes\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many evenings a week does Amir study in the library?",
+      "opts": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correct": "Three",
+      "hint": "\"Three evenings a week, Amir studies in the WKU library\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir leads the software team in the Robotics Club.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Amir leads the software team.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir do on Saturday afternoons?",
+      "opts": [
+        "Studies in the library",
+        "Plays football",
+        "Attends the Robotics Club",
+        "Calls his parents"
+      ],
+      "correct": "Plays football",
+      "hint": "\"Saturday afternoons are for sport — he usually plays football\""
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Amir says the key to staying organised is ___ — small habits every day.",
+      "correct": "consistency",
+      "hint": "\"Consistency. Small habits, every single day.\""
+    },
+    {
+      "id": "q8",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "The phrase \"without fail\" (paragraph 2) means:",
+      "opts": [
+        "rarely",
+        "sometimes",
+        "always, without exception",
+        "only when possible"
+      ],
+      "correct": "always, without exception",
+      "hint": "\"He does this without fail\" = he always does it, no exceptions."
+    },
+    {
+      "id": "q9",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir thinks rest is a waste of time.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Rest is not wasted time — it is part of the system.\""
+    },
+    {
+      "id": "q10",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main message of the text?",
+      "opts": [
+        "University is very difficult",
+        "You need to study 24 hours a day",
+        "Small consistent habits lead to success",
+        "Technology students are the best organised"
+      ],
+      "correct": "Small consistent habits lead to success",
+      "hint": "Amir's key message throughout: \"Consistency. Small habits, every single day.\""
+    },
+    {
+      "id": "q11",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"His schedule varies from day to day.\" What does \"vary\" mean?",
+      "opts": [
+        "stay the same",
+        "be different each time",
+        "improve",
+        "get worse"
+      ],
+      "correct": "be different each time",
+      "hint": "vary = to be different in different situations or at different times."
+    },
+    {
+      "id": "q12",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "He turned his phone ___ down so he wouldn't see notifications.",
+      "correct": "face",
+      "hint": "\"face down\" = with the screen pointing downward."
+    },
+    {
+      "id": "q13",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence uses \"immediately\" correctly?",
+      "opts": [
+        "She called immediately me.",
+        "He left immediately after the lecture.",
+        "I immediately to go home.",
+        "They immediately finished yesterday."
+      ],
+      "correct": "He left immediately after the lecture.",
+      "hint": "\"immediately\" is an adverb — it goes after the verb or before \"after\"."
+    },
+    {
+      "id": "q14",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Overwhelmed\" has a positive meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Overwhelmed\" = having too much to cope with — it's a negative feeling."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Occasionally\" is closest in meaning to:",
+      "opts": [
+        "always",
+        "never",
+        "sometimes",
+        "often"
+      ],
+      "correct": "sometimes",
+      "hint": "\"occasionally\" = sometimes, but not regularly or often."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "The word \"___\" describes working independently, without outside control.",
+      "correct": "autonomous",
+      "hint": "autonomous = self-governing, working without external control. e.g. autonomous vehicle."
+    }
+  ]
+}

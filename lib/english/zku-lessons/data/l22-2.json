@@ -1,0 +1,497 @@
+{
+  "id": "l22-2",
+  "moduleNum": 6,
+  "lessonNum": 2,
+  "moduleTitle": "The Natural World",
+  "title": "A wildlife documentary",
+  "type": "listening",
+  "xp": 60,
+  "duration": 15,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "dialogue": [
+    {
+      "speaker": "Narrator",
+      "text": "Welcome to \"Wild Kazakhstan\" — a journey through the most spectacular and least-explored natural landscapes on Earth.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Wow, even the introduction is incredible. I had no idea Kazakhstan had so much wild nature.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Our first stop is the Altai Mountains — home to the most elusive predator in Asia: the snow leopard.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Look at it! It's the most beautiful animal I've ever seen. And those enormous paws!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Narrator",
+      "text": "The Altai snow leopard has adapted to the harshest conditions imaginable. Temperatures here drop to minus forty degrees in winter.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Minus forty? That's absolutely freezing! How does it survive?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Its fur is the thickest of any wild cat — up to twelve centimetres deep in winter. It also has the longest tail relative to its body size.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "It's completely wild and free. That's the most moving thing — something so magnificent existing so far from human reach.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Narrator",
+      "text": "We now travel south to the vast Kazakh steppe — one of the largest grasslands on the planet. Here, a tiny dot on the horizon reveals itself...",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "Is that the saiga? It looks tiny from here but the herd is enormous — there must be thousands of them!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Narrator",
+      "text": "This is the world's largest remaining herd of saiga antelope — nearly one million animals moving together across the steppe.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'm speechless. This is the most spectacular thing I've ever watched. Why don't people know about this?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Narrator",
+      "text": "Kazakhstan is one of the best-kept secrets of the natural world. Its wildlife is extraordinary — and worth every effort to protect.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I've decided. After this degree, I'm applying for a conservation internship. This is too important to ignore.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I'll come with you! The most beautiful things in the world deserve the most passionate defenders.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "spectacular",
+      "emoji": "🌟",
+      "opts": [
+        "обычный",
+        "скромный",
+        "захватывающий",
+        "редкий"
+      ],
+      "correct": "захватывающий"
+    },
+    {
+      "id": "p2",
+      "word": "herd",
+      "emoji": "🦬",
+      "opts": [
+        "стая (птиц)",
+        "стадо",
+        "пара",
+        "семья"
+      ],
+      "correct": "стадо"
+    },
+    {
+      "id": "p3",
+      "word": "speechless",
+      "emoji": "😶",
+      "opts": [
+        "молчаливый",
+        "потрясённый до немоты",
+        "радостный",
+        "испуганный"
+      ],
+      "correct": "потрясённый до немоты"
+    },
+    {
+      "id": "p4",
+      "word": "magnificent",
+      "emoji": "✨",
+      "opts": [
+        "маленький",
+        "опасный",
+        "великолепный",
+        "стремительный"
+      ],
+      "correct": "великолепный"
+    },
+    {
+      "id": "p5",
+      "word": "horizon",
+      "emoji": "🌅",
+      "opts": [
+        "горизонт",
+        "вершина горы",
+        "горизонтальная линия",
+        "небо"
+      ],
+      "correct": "горизонт"
+    },
+    {
+      "id": "p6",
+      "word": "internship",
+      "emoji": "💼",
+      "opts": [
+        "исследование",
+        "стажировка",
+        "экскурсия",
+        "экзамен"
+      ],
+      "correct": "стажировка"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The documentary is called \"Wild Kazakhstan\".",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The snow leopard lives in the Tian Shan Mountains.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Temperatures in the Altai drop to minus forty degrees in winter.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The snow leopard's fur is up to twelve centimetres deep in winter.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Zhibek says the saiga herd is the most spectacular thing she's seen.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Amir decides to study a different subject after watching the documentary.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "narrator",
+      "name": "Narrator",
+      "city": "—",
+      "emoji": "🎙️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Documentary narrator"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "💻",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "role": "WKU student watching"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "💃",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "WKU student watching"
+    },
+    {
+      "id": "leopard",
+      "name": "Snow Leopard",
+      "city": "Altai",
+      "emoji": "🐆",
+      "color": "#EF9F27",
+      "bg": "#FEF3C7",
+      "role": "Star of the documentary!"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "\"Its fur is the thickest of any wild cat — up to 12 cm deep in winter.\"",
+      "correctCharId": "narrator"
+    },
+    {
+      "id": "s2",
+      "text": "\"Minus forty? That's absolutely freezing! How does it survive?\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s3",
+      "text": "\"It's the most beautiful animal I've ever seen. Those enormous paws!\"",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s4",
+      "text": "\"Kazakhstan — one of the best-kept secrets of the natural world.\"",
+      "correctCharId": "narrator"
+    },
+    {
+      "id": "s5",
+      "text": "\"After this degree, I'm applying for a conservation internship!\"",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "The star animal: thick fur, enormous paws, the longest tail.",
+      "correctCharId": "leopard"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the documentary called?",
+      "opts": [
+        "Wild Asia",
+        "Wild Kazakhstan",
+        "Steppe Life",
+        "Kazakhstan Nature"
+      ],
+      "correct": "Wild Kazakhstan",
+      "hint": "\"Welcome to 'Wild Kazakhstan'\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "In which mountains does the snow leopard live in the documentary?",
+      "opts": [
+        "Tian Shan",
+        "Altai",
+        "Ural",
+        "Pamir"
+      ],
+      "correct": "Altai",
+      "hint": "\"the Altai Mountains — home to the most elusive predator in Asia\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How cold does it get in winter in the Altai?",
+      "opts": [
+        "Minus 20°",
+        "Minus 30°",
+        "Minus 40°",
+        "Minus 50°"
+      ],
+      "correct": "Minus 40°",
+      "hint": "\"Temperatures here drop to minus forty degrees in winter.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The snow leopard's fur is up to twelve centimetres deep in winter.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"fur is the thickest of any wild cat — up to twelve centimetres deep in winter\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Amir describe minus forty degrees?",
+      "opts": [
+        "Totally cold",
+        "Absolutely freezing",
+        "Extremely cold",
+        "Very chilly"
+      ],
+      "correct": "Absolutely freezing",
+      "hint": "\"That's absolutely freezing!\" (extreme adjective + intensifier)"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many saiga antelopes are in the herd?",
+      "opts": [
+        "About 10,000",
+        "About 100,000",
+        "Nearly one million",
+        "Over two million"
+      ],
+      "correct": "Nearly one million",
+      "hint": "\"nearly one million animals moving together across the steppe\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek says the saiga herd is the most spectacular thing she's ever watched.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"This is the most spectacular thing I've ever watched.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir decide after watching the documentary?",
+      "opts": [
+        "To change his subject",
+        "To visit the Altai Mountains",
+        "To apply for a conservation internship",
+        "To become a wildlife photographer"
+      ],
+      "correct": "To apply for a conservation internship",
+      "hint": "\"After this degree, I'm applying for a conservation internship.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does the narrator describe Kazakhstan's wildlife in general?",
+      "opts": [
+        "Common and ordinary",
+        "One of the best-kept secrets of the natural world",
+        "Well known globally",
+        "The most studied wildlife"
+      ],
+      "correct": "One of the best-kept secrets of the natural world",
+      "hint": "\"Kazakhstan is one of the best-kept secrets of the natural world.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Zhibek say about beautiful things in the world?",
+      "opts": [
+        "They should be photographed",
+        "They deserve the most passionate defenders",
+        "They are found only in Kazakhstan",
+        "They need government funding"
+      ],
+      "correct": "They deserve the most passionate defenders",
+      "hint": "\"The most beautiful things in the world deserve the most passionate defenders.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "The snow leopard is ___ (elusive) predator in Asia.",
+      "correct": "the most elusive",
+      "hint": "Long adjective → the most elusive."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Absolutely ___\" — which word fits? (extreme, not gradable)",
+      "opts": [
+        "very freezing",
+        "quite freezing",
+        "absolutely freezing",
+        "a little freezing"
+      ],
+      "correct": "absolutely freezing",
+      "hint": "\"absolutely\" is used with extreme adjectives like \"freezing\". Not \"very freezing\"."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Superlative of \"spectacular\":",
+      "opts": [
+        "more spectacular",
+        "spectacularest",
+        "the most spectacular",
+        "the spectacularst"
+      ],
+      "correct": "the most spectacular",
+      "hint": "Long adjective: the most spectacular."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "This is ___ (amazing) wildlife documentary I've ever seen!",
+      "correct": "the most amazing",
+      "hint": "Long adjective → the most amazing."
+    },
+    {
+      "id": "q15",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"magnificent\" mean?",
+      "opts": [
+        "Very small",
+        "Very beautiful and impressive",
+        "Very dangerous",
+        "Very rare"
+      ],
+      "correct": "Very beautiful and impressive",
+      "hint": "Magnificent = extremely beautiful and impressive."
+    },
+    {
+      "id": "q16",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "A group of antelopes or cattle moving together is called a ___ .",
+      "correct": "herd",
+      "hint": "Herd = a large group of animals (cattle, antelope, elephants)."
+    }
+  ]
+}

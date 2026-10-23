@@ -1,0 +1,234 @@
+{
+  "id": "l45-4",
+  "moduleNum": 11,
+  "lessonNum": 5,
+  "moduleTitle": "What Would You Do?",
+  "type": "writing",
+  "title": "If I Could Change One Thing at WKU…",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "If I could change...",
+      "emoji": "🔄",
+      "opts": [
+        "Если бы я изменил(а)...",
+        "Я могу изменить...",
+        "Я изменю...",
+        "Мне нравится..."
+      ],
+      "correct": "Если бы я изменил(а)..."
+    },
+    {
+      "id": "p2",
+      "word": "I would introduce...",
+      "emoji": "💡",
+      "opts": [
+        "Я бы убрал(а)...",
+        "Я бы ввёл(а)...",
+        "Я требую...",
+        "Мне нужно..."
+      ],
+      "correct": "Я бы ввёл(а)..."
+    },
+    {
+      "id": "p3",
+      "word": "It would make... easier",
+      "emoji": "✅",
+      "opts": [
+        "Это сделало бы... сложнее",
+        "Это сделало бы... легче",
+        "Это важно",
+        "Это работает"
+      ],
+      "correct": "Это сделало бы... легче"
+    },
+    {
+      "id": "p4",
+      "word": "In my opinion",
+      "emoji": "💭",
+      "opts": [
+        "По факту",
+        "По моему мнению",
+        "Официально",
+        "В теории"
+      ],
+      "correct": "По моему мнению"
+    },
+    {
+      "id": "p5",
+      "word": "The main benefit would be",
+      "emoji": "🎯",
+      "opts": [
+        "Главный недостаток...",
+        "Главная польза была бы...",
+        "Эффект нулевой",
+        "Результат неизвестен"
+      ],
+      "correct": "Главная польза была бы..."
+    },
+    {
+      "id": "p6",
+      "word": "As a result...",
+      "emoji": "➡️",
+      "opts": [
+        "Вместо этого...",
+        "В результате...",
+        "Несмотря на это...",
+        "Хотя..."
+      ],
+      "correct": "В результате..."
+    }
+  ],
+  "writingModel": [
+    "If I Could Change One Thing at WKU — by Amir Bekzhanov",
+    "If I could change one thing about WKU, I would introduce a formal mentorship programme for first-year students. At the moment, new students are largely left to find their way by themselves — a process that is often difficult, sometimes discouraging, and occasionally completely unnecessary. If every first-year student were paired with a second or third-year mentor, the adjustment would be much smoother.",
+    "The idea is simple. At the start of each academic year, the university would match first-year students with more experienced peers from the same faculty. These pairs would meet at least twice a month. The mentor would answer questions, share study strategies, warn about common mistakes, and provide the kind of practical information that official documentation never quite captures.",
+    "If this programme existed, it would have several significant benefits. First, first-year students would feel less isolated. Many of them — I know because I was one of them — spend the first month feeling overwhelmed and unsure who to ask for help. A mentor would change that immediately. Second, the mentors themselves would benefit. Teaching and guiding someone else is one of the best ways to consolidate your own knowledge.",
+    "There is also a social dimension. If students from different years had regular, structured contact, the university community would feel more connected. Currently, year groups largely move in separate circles. A mentorship programme would break those silos down. It would create relationships that last beyond university — and in a small city like Uralsk, those relationships matter.",
+    "I acknowledge that implementing such a programme would require time and coordination. The university would need to recruit volunteer mentors, train them briefly, and establish a light administrative structure. But I don't think these challenges are insurmountable. If WKU invested in a pilot programme with one faculty first, it would be possible to measure the impact before scaling up.",
+    "If I could change one thing, it would be this. Not the curriculum, not the buildings, not the canteen food — though all of those could also be improved. The one thing that would make the biggest difference is helping students feel that they are not navigating university alone. If they felt supported from day one, everything else would be easier."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "If I Could Change One Thing at ",
+      "suffix": " — by ",
+      "placeholder": "your university / WKU",
+      "hint": "Name the place and yourself."
+    },
+    {
+      "key": "author",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "If I could change one thing about ",
+      "suffix": ", I would ",
+      "placeholder": "place / institution",
+      "hint": "Start with your main change using Second Conditional."
+    },
+    {
+      "key": "change",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "the specific change you'd make",
+      "hint": "Name your change: \"introduce / create / improve / remove...\""
+    },
+    {
+      "key": "problem",
+      "prefix": "At the moment, ",
+      "suffix": ".",
+      "placeholder": "describe the current problem",
+      "hint": "Explain what the current situation is (why change is needed)."
+    },
+    {
+      "key": "how",
+      "prefix": "If this change were introduced, the university would ",
+      "suffix": ".",
+      "placeholder": "describe how it would work",
+      "hint": "Use 2nd Conditional: \"If this existed, it would...\""
+    },
+    {
+      "key": "benefit1",
+      "prefix": "First, if this happened, ",
+      "suffix": " would ___.",
+      "placeholder": "who benefits + how",
+      "hint": "\"If this happened, students would feel...\" — imaginary benefit."
+    },
+    {
+      "key": "benefit2",
+      "prefix": "Second, ",
+      "suffix": ".",
+      "placeholder": "another benefit",
+      "hint": "Add a second benefit using \"would\"."
+    },
+    {
+      "key": "challenge",
+      "prefix": "I acknowledge that implementing this would require ",
+      "suffix": ".",
+      "placeholder": "what it would cost/need",
+      "hint": "Be honest about challenges: \"it would require time / money / effort.\""
+    },
+    {
+      "key": "solution",
+      "prefix": "But if ",
+      "suffix": ", it would be possible to ___.",
+      "placeholder": "a first step — pilot / small start",
+      "hint": "\"If the university started small, it would be possible to...\""
+    },
+    {
+      "key": "conclude",
+      "prefix": "If I could change one thing, it would be ",
+      "suffix": ". If this happened, everything else would be easier.",
+      "placeholder": "restate your main idea",
+      "hint": "End by restating your change and its overall impact."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Introducing the change (2nd Conditional)",
+      "color": "#003876",
+      "items": [
+        "If I could change one thing, I would...",
+        "If this existed/happened, it would...",
+        "If the university introduced X, it would be Y.",
+        "If every student had access to X, they would feel...",
+        "If I were in charge, I would..."
+      ]
+    },
+    {
+      "category": "Describing benefits (imaginary results)",
+      "color": "#1D9E75",
+      "items": [
+        "It would make... easier / better / more enjoyable.",
+        "Students would feel less... / more...",
+        "The main benefit would be...",
+        "As a result, ... would improve significantly.",
+        "This would create a much stronger sense of..."
+      ]
+    },
+    {
+      "category": "Acknowledging challenges",
+      "color": "#1B8FC4",
+      "items": [
+        "I acknowledge that this would require...",
+        "Of course, implementing this wouldn't be free.",
+        "It would need coordination/time/money.",
+        "But I don't think these challenges are insurmountable.",
+        "If the university started small, it would be possible to..."
+      ]
+    },
+    {
+      "category": "Conclusion and reflection",
+      "color": "#C9933B",
+      "items": [
+        "If I could change one thing, it would be this.",
+        "This would make the biggest difference because...",
+        "If this change were made, everything else would be easier.",
+        "The change I'd make is not about buildings or curriculum — it's about...",
+        "The goal would be to make students feel that they are not navigating alone."
+      ]
+    }
+  ]
+}

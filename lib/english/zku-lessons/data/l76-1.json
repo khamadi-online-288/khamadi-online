@@ -1,0 +1,325 @@
+{
+  "id": "l76-1",
+  "moduleNum": 18,
+  "lessonNum": 1,
+  "moduleTitle": "Media, News & Propaganda",
+  "title": "The Information Age: Truth, Trust, and the Challenge of Misinformation",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "We live in an era of unprecedented information abundance. At any moment, a person with a smartphone has access to more text, images, audio, and video than any previous generation could have consumed in a lifetime. This abundance is, in many ways, extraordinary — it has democratised knowledge, connected communities across the globe, and enabled forms of creative expression and civic engagement that would have been impossible before. But it has also created a profound new challenge: the difficulty of distinguishing reliable information from unreliable information, fact from opinion, and good-faith reporting from deliberate manipulation.",
+    "Misinformation — false or inaccurate information, spread without necessarily malicious intent — has always existed. Rumours, urban myths, and honest mistakes are as old as human communication. What has changed is the speed, scale, and reach with which false information can now travel. A false claim posted on social media can reach millions of people within hours, long before any fact-check or correction has time to catch up. By the time the truth is established, the false version has often been shared so widely that retraction becomes almost meaningless.",
+    "Disinformation is a more specific and more alarming category: false information spread deliberately, with the intent to deceive. State actors, political campaigns, corporations, and extremist groups all engage in deliberate disinformation campaigns. The techniques are sophisticated and varied: fabricated stories, manipulated images and videos, coordinated networks of fake accounts, and the strategic amplification of genuine-but-misleading content. The 2016 US presidential election and the Brexit referendum are widely cited as examples in which organised disinformation campaigns played a significant, though contested, role.",
+    "The rise of social media has fundamentally changed the economics of information. Traditional journalism — with its editors, fact-checkers, legal teams, and professional standards — was expensive to produce and expensive to distribute. Social media allows anyone to publish anything, instantly and globally, at almost no cost. This has genuine benefits: citizen journalism has captured events that mainstream media missed; whistleblowers have reached the public without going through editorial gatekeepers; marginalised voices have found platforms. But it has also flooded the information environment with content of wildly varying quality, and it has allowed demonstrably false claims to circulate alongside well-researched journalism, with no obvious way for the average reader to tell them apart.",
+    "The concept of \"filter bubbles\" and \"echo chambers\" has been widely discussed as a consequence of social media algorithms. These algorithms, designed to maximise engagement, tend to show users content similar to what they have previously engaged with — reinforcing existing beliefs rather than challenging them. The concern is that this creates ideological silos in which people are rarely exposed to perspectives or evidence that might challenge their existing worldview. The empirical evidence for this effect is more mixed than popular accounts suggest, but the basic concern — that curated information environments can harden attitudes and reduce exposure to uncomfortable truths — has real merit.",
+    "The news media — print, broadcast, and online — faces its own credibility challenges. Declining revenues from print advertising, disrupted by the internet, have reduced newsroom resources and increased pressure to produce content quickly and cheaply. The 24-hour news cycle rewards speed over accuracy, sensationalism over nuance, and conflict over complexity. Partisan media outlets — which present news through an explicitly ideological lens — have become significant forces in many countries, blurring the line between journalism and political advocacy.",
+    "Media literacy — the ability to critically evaluate information sources, identify bias, and distinguish fact from opinion — is increasingly recognised as an essential skill for democratic citizenship. Understanding how media is produced, who owns it, and what incentives shape its content; knowing how to verify claims and check primary sources; recognising emotional manipulation and rhetorical techniques; and understanding the basic mechanics of how algorithms determine what we see — these are the cognitive tools that a genuinely informed citizen requires in the twenty-first century."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "misinformation vs disinformation",
+      "ru": "дезинформация случайная vs намеренная",
+      "context": "Misinformation = false info spread without malicious intent; disinformation = deliberate deception"
+    },
+    {
+      "phrase": "filter bubble",
+      "ru": "информационный пузырь",
+      "context": "When algorithms show only content that reinforces your existing beliefs"
+    },
+    {
+      "phrase": "echo chamber",
+      "ru": "эхо-камера",
+      "context": "A space where people only hear views that agree with their own"
+    },
+    {
+      "phrase": "media literacy",
+      "ru": "медиаграмотность",
+      "context": "The ability to critically evaluate information sources and distinguish fact from opinion"
+    },
+    {
+      "phrase": "fact-check",
+      "ru": "проверка фактов",
+      "context": "To verify whether a claim is accurate using evidence"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "misinformation",
+      "ipa": "/ˌmɪsɪnfəˈmeɪʃən/",
+      "pos": "noun",
+      "ru": "дезинформация (случайная)",
+      "kz": "жалған ақпарат",
+      "emoji": "❌",
+      "definition": "false or inaccurate information spread without necessarily malicious intent",
+      "example": "\"Misinformation can spread faster than corrections — the false version reaches millions first.\"",
+      "collocations": [
+        "spread misinformation",
+        "combat misinformation",
+        "online misinformation"
+      ]
+    },
+    {
+      "en": "disinformation",
+      "ipa": "/ˌdɪsɪnfəˈmeɪʃən/",
+      "pos": "noun",
+      "ru": "дезинформация (намеренная)",
+      "kz": "арнайы жалған ақпарат",
+      "emoji": "🕵️",
+      "definition": "false information spread deliberately with the intent to deceive",
+      "example": "\"Disinformation campaigns use fake accounts, manipulated images, and fabricated stories.\"",
+      "collocations": [
+        "disinformation campaign",
+        "state-backed disinformation",
+        "combat disinformation"
+      ]
+    },
+    {
+      "en": "media literacy",
+      "ipa": "/ˈmiːdiə ˈlɪtərəsi/",
+      "pos": "noun phrase",
+      "ru": "медиаграмотность",
+      "kz": "медиасауаттылық",
+      "emoji": "🧠",
+      "definition": "the ability to critically evaluate, understand, and engage with media content",
+      "example": "\"Media literacy is increasingly recognised as an essential skill for democratic citizenship.\"",
+      "collocations": [
+        "promote media literacy",
+        "media literacy skills",
+        "teach media literacy"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is the difference between misinformation and disinformation?",
+      "correct": "Misinformation is false info spread without malicious intent; disinformation is deliberately spread to deceive"
+    },
+    {
+      "id": "t2",
+      "question": "How has social media changed the economics of information publishing?",
+      "correct": "Anyone can now publish anything globally at almost no cost — eliminating traditional editorial gatekeeping"
+    },
+    {
+      "id": "t3",
+      "question": "What are \"filter bubbles\" and how do they form?",
+      "correct": "When algorithms show users content similar to what they previously engaged with, reinforcing existing beliefs"
+    },
+    {
+      "id": "t4",
+      "question": "What challenges does the 24-hour news cycle create?",
+      "correct": "It rewards speed over accuracy, sensationalism over nuance, and conflict over complexity"
+    },
+    {
+      "id": "t5",
+      "question": "What skills does media literacy involve?",
+      "correct": "Critically evaluating sources, identifying bias, verifying claims, recognising manipulation, understanding algorithms"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "The text argues that information abundance creates only benefits.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "A false claim on social media can reach millions before any fact-check catches up.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "The text says the empirical evidence for filter bubbles is more mixed than popular accounts suggest.",
+      "correct": "true"
+    },
+    {
+      "id": "s4",
+      "statement": "Partisan media blur the line between journalism and political advocacy.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "The text argues that social media has only negative effects on journalism.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What has changed about misinformation in the digital age?",
+      "opts": [
+        "Misinformation is a new phenomenon",
+        "The speed and scale at which false information spreads",
+        "Fewer people believe false claims now",
+        "Traditional media no longer makes mistakes"
+      ],
+      "correct": "The speed and scale at which false information spreads",
+      "hint": "Para 2: \"what has changed is the speed, scale, and reach\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is the key difference between misinformation and disinformation?",
+      "opts": [
+        "The type of technology used to spread it",
+        "The intent — disinformation is deliberately spread to deceive",
+        "The topic it covers",
+        "The number of people who believe it"
+      ],
+      "correct": "The intent — disinformation is deliberately spread to deceive",
+      "hint": "Para 3: \"false information spread deliberately, with the intent to deceive\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What are \"filter bubbles\" caused by?",
+      "opts": [
+        "Journalists choosing what to report",
+        "Government censorship",
+        "Algorithms showing users content similar to what they previously engaged with",
+        "People deliberately avoiding different views"
+      ],
+      "correct": "Algorithms showing users content similar to what they previously engaged with",
+      "hint": "Para 5: \"algorithms… show users content similar to what they have previously engaged with\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the text say about citizen journalism?",
+      "opts": [
+        "It is entirely unreliable",
+        "It has captured events mainstream media missed",
+        "It has replaced traditional journalism",
+        "It always contains disinformation"
+      ],
+      "correct": "It has captured events mainstream media missed",
+      "hint": "Para 4: \"citizen journalism has captured events that mainstream media missed\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text argues that information abundance has no benefits whatsoever.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 1: \"in many ways, extraordinary — it has democratised knowledge\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text describes media literacy as an increasingly essential skill for citizens.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 7: \"essential skill for democratic citizenship\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The fact ___ misinformation spreads faster than corrections is deeply concerning.\" (noun clause)",
+      "opts": [
+        "which",
+        "of",
+        "that",
+        "when"
+      ],
+      "correct": "that",
+      "hint": "\"The fact that + clause\" = noun clause as subject complement",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"I wonder ___ social media companies should be regulated more strictly.\" (embedded question)",
+      "opts": [
+        "that",
+        "which",
+        "whether",
+        "what"
+      ],
+      "correct": "whether",
+      "hint": "\"Wonder + whether\" = embedded yes/no question (indirect question)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ information is reliable and ___ is not — this is the central challenge of media literacy.\" (what + what)",
+      "correct": "What / what",
+      "hint": "\"What + subject + verb\" = embedded question/noun clause",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What is \"media literacy\"?",
+      "opts": [
+        "The ability to read very quickly",
+        "The ability to critically evaluate and engage with media content",
+        "Being famous in the media",
+        "The study of literature and film"
+      ],
+      "correct": "The ability to critically evaluate and engage with media content",
+      "hint": "Para 7: definition of media literacy",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What makes \"disinformation\" different from \"misinformation\"?",
+      "opts": [
+        "Disinformation uses social media; misinformation uses traditional media",
+        "Disinformation is deliberately spread with intent to deceive",
+        "Misinformation is more dangerous",
+        "They mean exactly the same thing"
+      ],
+      "correct": "Disinformation is deliberately spread with intent to deceive",
+      "hint": "Para 3: \"false information spread deliberately, with the intent to deceive\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "When algorithms show you only content similar to what you already believe, you are in a ___ bubble.",
+      "correct": "filter",
+      "hint": "Para 5: \"filter bubbles\"",
+      "points": 1
+    }
+  ]
+}

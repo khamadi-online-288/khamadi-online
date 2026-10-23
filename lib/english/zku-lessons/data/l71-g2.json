@@ -1,0 +1,512 @@
+{
+  "id": "l71-g2",
+  "moduleNum": 13,
+  "lessonNum": 6,
+  "moduleTitle": "Health, Medicine & Wellbeing",
+  "title": "Grammar: Quantifiers — Few, A Few, Little, A Little, Many, Much, Plenty",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Исчисляемые vs неисчисляемые существительные:\n\nИСЧИСЛЯЕМЫЕ (Countable) — можно посчитать:\nstudent/students · book/books · idea/ideas · mistake/mistakes\n→ many · a few · fewer · several · a number of · each · every\n\nНЕИСЧИСЛЯЕМЫЕ (Uncountable) — нельзя посчитать:\nwater · information · advice · knowledge · money · time · music · homework\n→ much · a little · less · a great deal of · a small amount of\n\n⚠️ Слова только с неисчисляемыми: much, less, a little\nСлова только с исчисляемыми: many, fewer, a few, each, every\nСлова с обоими: some, any, a lot of, lots of, plenty of, no\n\n❌ \"many informations\" → ✅ \"much information\"\n❌ \"less students\" → ✅ \"fewer students\"",
+  "grammarTable": [
+    {
+      "subject": "many",
+      "verb": "+ plural countable",
+      "short": "large number (questions/negatives or formal)",
+      "example": "Many patients report improved sleep. How many tablets should I take?"
+    },
+    {
+      "subject": "much",
+      "verb": "+ uncountable",
+      "short": "large amount (questions/negatives or formal)",
+      "example": "How much sleep do you get? She doesn't drink much coffee."
+    },
+    {
+      "subject": "few",
+      "verb": "+ plural countable",
+      "short": "very small number — almost none (negative)",
+      "example": "Few doctors specialise in this area. (= not enough, a problem)"
+    },
+    {
+      "subject": "a few",
+      "verb": "+ plural countable",
+      "short": "small but positive number",
+      "example": "A few studies support this approach. (= some, which is encouraging)"
+    },
+    {
+      "subject": "little",
+      "verb": "+ uncountable",
+      "short": "very small amount — almost none (negative)",
+      "example": "There is little evidence for this treatment. (= insufficient evidence)"
+    },
+    {
+      "subject": "a little",
+      "verb": "+ uncountable",
+      "short": "small but positive amount",
+      "example": "A little exercise can make a big difference. (= some, which helps)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Few vs A Few: Same Number, Different Attitude",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "\"Few\" = negative — almost none, not enough",
+          "example": "\"Few people understand the full complexity of mental health.\" (= most don't — this is a problem)"
+        },
+        {
+          "form": "\"A few\" = positive — some, enough to matter",
+          "example": "\"A few studies have shown promising results.\" (= some exist — this is encouraging)"
+        },
+        {
+          "form": "Test: can you replace with \"hardly any\" (few) or \"some\" (a few)?",
+          "example": "\"Hardly any doctors\" = few; \"Some doctors\" = a few."
+        }
+      ]
+    },
+    {
+      "title": "Little vs A Little: Same Amount, Different Attitude",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "\"Little\" = negative — very small amount, almost none",
+          "example": "\"Little progress has been made on this issue.\" (= not enough, disappointing)"
+        },
+        {
+          "form": "\"A little\" = positive — small amount, but it helps",
+          "example": "\"A little stress can actually improve performance.\" (= some is beneficial)"
+        },
+        {
+          "form": "\"A little\" can also soften adjectives/adverbs",
+          "example": "\"She was a little tired.\" \"Take it a little more slowly.\""
+        }
+      ]
+    },
+    {
+      "title": "Many / Much: Questions and Formal Contexts",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Many and much are more formal; \"a lot of\" is informal",
+          "example": "\"Many factors affect health.\" (formal) / \"Lots of factors affect health.\" (informal)"
+        },
+        {
+          "form": "Much is mostly used in negatives and questions in spoken English",
+          "example": "\"I don't have much time.\" \"Do you eat much sugar?\" (NOT: \"I have much time.\" ❌)"
+        },
+        {
+          "form": "\"So much/many\", \"too much/many\", \"very much/many\" are common",
+          "example": "\"Too much stress causes burnout.\" \"So many patients wait for treatment.\""
+        }
+      ]
+    },
+    {
+      "title": "Plenty of / A Great Deal of / A Large Number of",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "\"Plenty of\" = more than enough (positive, informal/semi-formal)",
+          "example": "\"There is plenty of evidence that exercise reduces depression.\""
+        },
+        {
+          "form": "\"A great deal of\" = a large amount (formal, uncountable)",
+          "example": "\"A great deal of research has been conducted into sleep deprivation.\""
+        },
+        {
+          "form": "\"A large number of\" = many (formal, countable)",
+          "example": "\"A large number of studies support the benefits of meditation.\""
+        },
+        {
+          "form": "\"The majority of\" = most (formal)",
+          "example": "\"The majority of patients responded positively to the treatment.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Quantifier Errors",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ How much patients visited the clinic?",
+          "example": "✅ How many patients visited the clinic? (patients = countable)"
+        },
+        {
+          "form": "❌ I have few money for the prescription.",
+          "example": "✅ I have little money for the prescription. (money = uncountable)"
+        },
+        {
+          "form": "❌ There is a little time left — we must hurry.",
+          "example": "✅ There is little time left — we must hurry. (negative meaning: not enough)"
+        },
+        {
+          "form": "❌ A few information was provided.",
+          "example": "✅ A little information was provided. / Some information was provided. (information = uncountable)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"There is ___ evidence to support this approach.\" (positive: some exists)",
+      "opts": [
+        "little",
+        "a little",
+        "few",
+        "a few"
+      ],
+      "correct": "a little",
+      "hint": "\"A little\" + uncountable = small amount, positive"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct quantifier.",
+      "text": "\"___ doctors specialise in this rare condition — it's very hard to find one.\" (almost none, negative)",
+      "opts": [
+        "A few",
+        "Few",
+        "Little",
+        "A little"
+      ],
+      "correct": "Few",
+      "hint": "\"Few\" = almost none, negative meaning (not enough)"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with \"much\" or \"many.\"",
+      "text": "\"How ___ sleep do most adults need? How ___ warning signs are there before burnout?\"",
+      "correct": "much / many",
+      "hint": "Sleep (uncountable): much; warning signs (countable): many"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "There is little progress in this area.",
+        "There is a little progress in this area.",
+        "There is few progress in this area.",
+        "There is a few progress in this area."
+      ],
+      "correct": "There is little progress in this area.",
+      "hint": "\"Little\" + uncountable = almost none (negative/insufficient)"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct formal quantifier.",
+      "text": "\"___ research has been conducted into the link between loneliness and cardiovascular disease.\" (large formal amount, uncountable)",
+      "correct": "A great deal of",
+      "hint": "\"A great deal of\" = large formal amount + uncountable noun"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence has the correct positive meaning?",
+      "text": "\"___ exercise every day can significantly reduce anxiety.\"",
+      "opts": [
+        "Little",
+        "A little",
+        "Few",
+        "A few"
+      ],
+      "correct": "A little",
+      "hint": "\"A little\" = small amount that has a positive effect"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"a few\" or \"few.\"",
+      "text": "\"___ people realise how serious sleep deprivation is — most underestimate its effects.\"",
+      "correct": "Few",
+      "hint": "\"Few\" = almost none = most people do NOT realise (negative)"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the most formal option.",
+      "text": "\"___ studies have confirmed the benefits of mindfulness.\" (formal, large number)",
+      "opts": [
+        "Lots of",
+        "A lot of",
+        "A large number of",
+        "Plenty of"
+      ],
+      "correct": "A large number of",
+      "hint": "\"A large number of\" = formal equivalent of \"many\""
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct quantifier.",
+      "text": "\"How ___ money is available for mental health services? There is very ___ — the system is underfunded.\"",
+      "correct": "much / little",
+      "hint": "Money (uncountable): \"how much\" / \"very little\""
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which sentence uses the quantifier to express a POSITIVE small amount?",
+      "text": "",
+      "opts": [
+        "Few studies support this claim.",
+        "Little is known about this condition.",
+        "A few treatments have shown promise.",
+        "Little evidence exists for this claim."
+      ],
+      "correct": "A few treatments have shown promise.",
+      "hint": "\"A few\" = some treatments exist — this is positive/encouraging"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with \"plenty of\" or \"little.\"",
+      "text": "\"There is ___ evidence for the health benefits of social connection — this is a well-researched area.\" (more than enough)",
+      "correct": "plenty of",
+      "hint": "\"Plenty of\" = more than enough, positive"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"I have few patience for people who ignore medical advice.\"",
+      "opts": [
+        "Few is wrong — should be \"little\"",
+        "\"Patience\" should be \"patients\"",
+        "\"For\" should be \"with\"",
+        "No error"
+      ],
+      "correct": "Few is wrong — should be \"little\"",
+      "hint": "\"Patience\" is uncountable → \"little patience\" not \"few patience\""
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete with \"much\" or \"many.\"",
+      "text": "\"Too ___ stress causes physical illness. Too ___ responsibilities lead to the same result.\"",
+      "correct": "much / many",
+      "hint": "Stress (uncountable): much; responsibilities (countable): many"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct sentence for a formal report.",
+      "text": "",
+      "opts": [
+        "Lots of people struggle with mental health.",
+        "A large number of individuals experience mental health difficulties.",
+        "So many people have mental health problems.",
+        "Heaps of research exists on this topic."
+      ],
+      "correct": "A large number of individuals experience mental health difficulties.",
+      "hint": "\"A large number of individuals\" = formal; \"lots of/so many/heaps\" are informal"
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with \"few\" or \"a few.\"",
+      "text": "\"I know ___ people who exercise regularly. Sadly, most of my friends live quite sedentary lives.\" (positive: some exist)",
+      "correct": "a few",
+      "hint": "\"A few\" = some people — the speaker knows some, which is positive"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Choose the sentence with the correct meaning.",
+      "text": "\"There is little hope for a quick resolution.\" means…",
+      "opts": [
+        "There is some hope, which is good.",
+        "There is almost no hope — the situation is very difficult.",
+        "There are very few hopeful people.",
+        "We have no time left."
+      ],
+      "correct": "There is almost no hope — the situation is very difficult.",
+      "hint": "\"Little\" (without \"a\") = almost none, negative"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There is ___ research on the benefits of mindfulness — the evidence is clear.\" (large amount, positive)",
+      "opts": [
+        "little",
+        "a little",
+        "few",
+        "plenty of"
+      ],
+      "correct": "plenty of",
+      "hint": "\"Plenty of\" = more than enough (positive)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ doctors work in rural areas — there is a serious shortage.\" (almost none, negative)",
+      "opts": [
+        "A few",
+        "Few",
+        "A little",
+        "Little"
+      ],
+      "correct": "Few",
+      "hint": "\"Few\" = almost none, negative",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ exercise can help with mild depression — even a short walk makes a difference.\" (small amount, positive)",
+      "correct": "A little",
+      "hint": "\"A little\" + uncountable = small amount, positive",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"How ___ time should we spend on screen-free activities?\" (uncountable)",
+      "opts": [
+        "many",
+        "much",
+        "few",
+        "little"
+      ],
+      "correct": "much",
+      "hint": "\"How much\" = question with uncountable noun",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ studies have examined this specific population — more research is needed.\" (almost none, negative)",
+      "opts": [
+        "A few",
+        "Few",
+        "A little",
+        "Little"
+      ],
+      "correct": "Few",
+      "hint": "\"Few\" studies = almost none — not enough (negative)",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"A little progress has been made\" means there has been almost no progress.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"A little\" = some (positive). \"Little\" (no \"a\") = almost none (negative)",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ funding is available for mental health services — this is a major crisis.\" (almost none, uncountable, negative)",
+      "correct": "Little",
+      "hint": "\"Little\" + uncountable = almost none, negative",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ research has been conducted into this treatment.\" (large amount, formal, uncountable)",
+      "opts": [
+        "Lots of",
+        "A few of",
+        "A great deal of",
+        "A few"
+      ],
+      "correct": "A great deal of",
+      "hint": "\"A great deal of\" = formal large amount + uncountable",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ people in this study had a history of serious illness — most were in good general health.\" (some, positive)",
+      "correct": "A few",
+      "hint": "\"A few\" = some (positive number)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which contains a quantifier error?",
+      "opts": [
+        "There is little evidence for this claim.",
+        "A few studies support this.",
+        "I have few information about the treatment.",
+        "Much research remains to be done."
+      ],
+      "correct": "I have few information about the treatment.",
+      "hint": "\"Information\" is uncountable → \"little information\" not \"few information\"",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ patients responded well to the new treatment.\" (formal large number, countable)",
+      "correct": "A large number of",
+      "hint": "\"A large number of\" = formal equivalent of \"many\"",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There is ___ time to address the mental health crisis — we need to act urgently.\" (almost none)",
+      "opts": [
+        "a little",
+        "little",
+        "a few",
+        "few"
+      ],
+      "correct": "little",
+      "hint": "\"Little\" (no \"a\") + uncountable = almost none, negative/urgent",
+      "points": 2
+    }
+  ]
+}

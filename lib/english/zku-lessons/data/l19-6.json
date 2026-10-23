@@ -1,0 +1,431 @@
+{
+  "id": "l19-6",
+  "moduleNum": 3,
+  "lessonNum": 8,
+  "moduleTitle": "Getting Around",
+  "title": "Module 3 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 25,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "Which city has Kazakhstan's only metro system?",
+      "opts": [
+        "Astana",
+        "Almaty",
+        "Shymkent",
+        "Uralsk"
+      ],
+      "correct": "Almaty",
+      "hint": "\"Almaty has the only metro system in Kazakhstan.\""
+    },
+    {
+      "id": "q02",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "A metro journey in Almaty costs about 100 tenge.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"a single journey costs only about 100 tenge\""
+    },
+    {
+      "id": "q03",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How long does a train journey from Uralsk to Almaty take?",
+      "opts": [
+        "6 hours",
+        "12 hours",
+        "24 hours",
+        "36 hours"
+      ],
+      "correct": "24 hours",
+      "hint": "\"A journey from Uralsk to Almaty takes about 24 hours by train.\""
+    },
+    {
+      "id": "q04",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "Oral Airport is about ___ kilometres from Uralsk city centre.",
+      "correct": "6",
+      "hint": "\"Oral Airport, located about 6 kilometres from the city centre.\""
+    },
+    {
+      "id": "q05",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "Cycling in Kazakhstan is popular in winter.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"cycling in winter — temperatures can drop to minus 30 — is not practical!\""
+    },
+    {
+      "id": "q06",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "How early should you arrive for a domestic flight at Oral Airport?",
+      "opts": [
+        "30 minutes",
+        "1 hour",
+        "90 minutes",
+        "3 hours"
+      ],
+      "correct": "90 minutes",
+      "hint": "\"arrive at the airport at least one hour and thirty minutes before departure\""
+    },
+    {
+      "id": "q07",
+      "type": "tf",
+      "cat": "reading",
+      "points": 10,
+      "text": "There is a direct public bus from WKU to Oral Airport.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"There is currently no direct public bus route to Oral Airport.\""
+    },
+    {
+      "id": "q08",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What document do you receive after airport check-in?",
+      "opts": [
+        "A visa",
+        "A boarding pass",
+        "A medical note",
+        "A gate card"
+      ],
+      "correct": "A boarding pass",
+      "hint": "\"The check-in agent will give you a boarding pass.\""
+    },
+    {
+      "id": "q09",
+      "type": "mc",
+      "cat": "reading",
+      "points": 10,
+      "text": "What time zone does Uralsk use?",
+      "opts": [
+        "UTC+4",
+        "UTC+5",
+        "UTC+6",
+        "UTC+7"
+      ],
+      "correct": "UTC+5",
+      "hint": "\"Uralsk (West Kazakhstan) uses UTC+5\""
+    },
+    {
+      "id": "q10",
+      "type": "fill",
+      "cat": "reading",
+      "points": 15,
+      "text": "In the dialogue, Rustam's flight to Aktobe departs at ___.",
+      "correct": "11:00",
+      "hint": "\"My flight is at 11:00.\""
+    },
+    {
+      "id": "q11",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "Rustam was walking in the correct direction when he asked.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"you're going in the wrong direction, I'm afraid\""
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What colour is the museum building?",
+      "opts": [
+        "Blue",
+        "White",
+        "Red",
+        "Grey"
+      ],
+      "correct": "Grey",
+      "hint": "\"the large grey building directly opposite\""
+    },
+    {
+      "id": "q13",
+      "type": "tf",
+      "cat": "listening",
+      "points": 10,
+      "text": "The museum is open on Mondays.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I believe it's closed on Mondays.\""
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "listening",
+      "points": 10,
+      "text": "What landmark is at the roundabout?",
+      "opts": [
+        "A red post office",
+        "A tall blue building (the post office)",
+        "A green park",
+        "A shopping centre"
+      ],
+      "correct": "A tall blue building (the post office)",
+      "hint": "\"a tall blue building on the corner. That's the main post office.\""
+    },
+    {
+      "id": "q15",
+      "type": "fill",
+      "cat": "listening",
+      "points": 15,
+      "text": "The woman says: \"You can't ___ it!\" — meaning it's very easy to find.",
+      "correct": "miss",
+      "hint": "\"You can't miss it\" = you will definitely see it."
+    },
+    {
+      "id": "q16",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "Which is a correct imperative?",
+      "opts": [
+        "You turning left.",
+        "To turn left here.",
+        "Turn left here.",
+        "Turns left."
+      ],
+      "correct": "Turn left here.",
+      "hint": "Imperative = base verb, no subject, no -ing, no \"to\"."
+    },
+    {
+      "id": "q17",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "___ miss your stop — set an alarm!",
+      "correct": "Don't",
+      "hint": "Negative imperative = Don't + base verb."
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"___ take the metro — it's faster!\" = a shared suggestion.",
+      "opts": [
+        "Don't",
+        "Let's",
+        "Please",
+        "You should"
+      ],
+      "correct": "Let's",
+      "hint": "Let's = suggestion for both people."
+    },
+    {
+      "id": "q19",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Get ___ the bus at the WKU stop.\"",
+      "opts": [
+        "in",
+        "into",
+        "on",
+        "at"
+      ],
+      "correct": "on",
+      "hint": "Bus = large vehicle → get ON."
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Get ___ the taxi — the driver is here!\"",
+      "opts": [
+        "on",
+        "onto",
+        "off",
+        "in"
+      ],
+      "correct": "in",
+      "hint": "Taxi = small vehicle → get IN."
+    },
+    {
+      "id": "q21",
+      "type": "fill",
+      "cat": "grammar",
+      "points": 15,
+      "text": "I travel to Almaty ___ plane twice a year.",
+      "correct": "by",
+      "hint": "\"by + transport\": by plane, by train, by car."
+    },
+    {
+      "id": "q22",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"Walk ___ the bridge\" = go from one side to the other.",
+      "opts": [
+        "along",
+        "across",
+        "past",
+        "towards"
+      ],
+      "correct": "across",
+      "hint": "Across = from one side to the other."
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"She ___ the last bus and had to walk.\" = failed to catch it.",
+      "opts": [
+        "caught",
+        "took",
+        "missed",
+        "got off"
+      ],
+      "correct": "missed",
+      "hint": "miss the bus = arrive too late to catch it."
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "points": 10,
+      "text": "\"I travel by foot\" is the correct English expression.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "The correct expression is \"on foot\", not \"by foot\"."
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"fare\" mean?",
+      "opts": [
+        "A bus route number",
+        "The price you pay to travel on public transport",
+        "A type of ticket",
+        "A transport schedule"
+      ],
+      "correct": "The price you pay to travel on public transport",
+      "hint": "Fare = the cost of a journey on public transport."
+    },
+    {
+      "id": "q26",
+      "type": "fill",
+      "cat": "vocabulary",
+      "points": 15,
+      "text": "Always check the bus ___ so you don't miss the last service.",
+      "correct": "schedule",
+      "hint": "Schedule = a timetable of departure times."
+    },
+    {
+      "id": "q27",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What is a \"boarding pass\"?",
+      "opts": [
+        "A student ID card",
+        "A train compartment ticket",
+        "A document showing your seat and gate for a flight",
+        "A transport card"
+      ],
+      "correct": "A document showing your seat and gate for a flight",
+      "hint": "Boarding pass = given at check-in; shows seat number and gate."
+    },
+    {
+      "id": "q28",
+      "type": "tf",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "\"Overweight\" luggage means lighter than allowed.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Overweight = HEAVIER than the allowed maximum. You pay extra."
+    },
+    {
+      "id": "q29",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "What does \"affordable\" mean?",
+      "opts": [
+        "Very expensive",
+        "Free of charge",
+        "Cheap enough for ordinary people",
+        "Unavailable"
+      ],
+      "correct": "Cheap enough for ordinary people",
+      "hint": "Affordable = cheap enough to be within most people's budget."
+    },
+    {
+      "id": "q30",
+      "type": "mc",
+      "cat": "vocabulary",
+      "points": 10,
+      "text": "A \"route\" in transport means...",
+      "opts": [
+        "The price of a journey",
+        "The time of departure",
+        "The path from one place to another",
+        "The name of the driver"
+      ],
+      "correct": "The path from one place to another",
+      "hint": "Route = the path or way taken to travel from A to B."
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "l42-4",
+  "moduleNum": 8,
+  "lessonNum": 6,
+  "moduleTitle": "Food, Quantities & Shopping",
+  "type": "writing",
+  "title": "My Ideal Healthy Meal Plan",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "a lot of",
+      "emoji": "🍽️",
+      "opts": [
+        "слишком мало",
+        "много",
+        "достаточно",
+        "немного"
+      ],
+      "correct": "много"
+    },
+    {
+      "id": "p2",
+      "word": "not enough",
+      "emoji": "⚠️",
+      "opts": [
+        "слишком много",
+        "недостаточно",
+        "достаточно",
+        "умеренно"
+      ],
+      "correct": "недостаточно"
+    },
+    {
+      "id": "p3",
+      "word": "balanced",
+      "emoji": "⚖️",
+      "opts": [
+        "острый",
+        "сбалансированный",
+        "тяжёлый",
+        "привычный"
+      ],
+      "correct": "сбалансированный"
+    },
+    {
+      "id": "p4",
+      "word": "a portion of",
+      "emoji": "🥗",
+      "opts": [
+        "мешок",
+        "порция",
+        "запас",
+        "упаковка"
+      ],
+      "correct": "порция"
+    },
+    {
+      "id": "p5",
+      "word": "on a budget",
+      "emoji": "💰",
+      "opts": [
+        "по расписанию",
+        "в рамках бюджета",
+        "без правил",
+        "по рецепту"
+      ],
+      "correct": "в рамках бюджета"
+    },
+    {
+      "id": "p6",
+      "word": "protein",
+      "emoji": "🥩",
+      "opts": [
+        "углеводы",
+        "белок",
+        "клетчатка",
+        "калории"
+      ],
+      "correct": "белок"
+    }
+  ],
+  "writingModel": [
+    "My Ideal Healthy Meal Plan — by Zhibek Akhmetova",
+    "As a volleyball player and a student, I need a lot of energy throughout the day. My meal plan is designed around three goals: enough protein to support my training, enough variety to keep me interested, and not too much processed food. Here is what a typical day looks like for me.",
+    "Breakfast should be substantial. I usually have a bowl of porridge with a little honey and a few walnuts. I add a small amount of milk — not too much, as I don't want it to be too heavy before a morning lecture. I also drink a large glass of water and sometimes a cup of green tea with a little sugar. I need enough energy to last until lunchtime without snacking too much.",
+    "For lunch, I try to have a lot of vegetables — usually a portion of roasted or steamed vegetables — and a moderate amount of protein: chicken, lentils, or eggs. I don't eat too many carbohydrates at lunch because I find I feel sleepy in afternoon lectures. I eat enough to feel full, but not so much that I feel heavy.",
+    "Dinner is my main meal. I cook enough food for two days — this saves a lot of time during the week. I like rice or pasta with a generous portion of vegetables and a small amount of meat. I don't add too much oil or sauce — I prefer lighter food in the evening. I drink plenty of water with dinner and sometimes a small glass of kefir.",
+    "Snacks are important for an athlete. I keep a few pieces of fruit in my room and sometimes some nuts — a small handful is enough. I try not to eat too many biscuits or crisps, even though I enjoy them. I allow myself a small amount of chocolate once or twice a week as a reward after training.",
+    "My shopping list is simple. Each week I buy enough rice or pasta for five days, a dozen eggs, a few tins of lentils, plenty of vegetables, and a small amount of meat. The total usually comes to about 9,000-10,000 tenge. Not a lot of money, but enough to eat really well."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "My Ideal Healthy Meal Plan — by ",
+      "suffix": "",
+      "placeholder": "your name",
+      "hint": "Write your name."
+    },
+    {
+      "key": "intro",
+      "prefix": "As a ",
+      "suffix": ", I need a lot of energy throughout the day.",
+      "placeholder": "student / athlete / working person",
+      "hint": "Establish who you are and what energy you need."
+    },
+    {
+      "key": "goals",
+      "prefix": "My meal plan is designed around three goals: enough ",
+      "suffix": ".",
+      "placeholder": "list three nutrition goals (protein, variety, etc.)",
+      "hint": "Introduce what matters most to you nutritionally."
+    },
+    {
+      "key": "break1",
+      "prefix": "For breakfast, I usually have ",
+      "suffix": ".",
+      "placeholder": "your typical breakfast food + quantities",
+      "hint": "Use quantifiers: a bowl of, a little, a few, some..."
+    },
+    {
+      "key": "break2",
+      "prefix": "I need enough ",
+      "suffix": " to last until lunchtime without snacking too much.",
+      "placeholder": "energy / protein / food",
+      "hint": "Use \"enough + noun\" and \"too much\" in one sentence."
+    },
+    {
+      "key": "lunch1",
+      "prefix": "For lunch, I try to have a lot of ",
+      "suffix": ".",
+      "placeholder": "vegetables / protein / balanced food",
+      "hint": "\"a lot of\" = large positive amount."
+    },
+    {
+      "key": "lunch2",
+      "prefix": "I don't eat too ",
+      "suffix": " at lunch.",
+      "placeholder": "many / much + food type",
+      "hint": "\"too many\" (C) or \"too much\" (UC) — depends on the food."
+    },
+    {
+      "key": "dinner1",
+      "prefix": "For dinner, I cook ",
+      "suffix": ".",
+      "placeholder": "what you cook and in what quantity",
+      "hint": "\"enough food for 2 days\" — use \"enough + noun\"."
+    },
+    {
+      "key": "dinner2",
+      "prefix": "I don't add ",
+      "suffix": " — I prefer lighter food.",
+      "placeholder": "too much oil / sauce / salt",
+      "hint": "\"too much\" with uncountable = excessive, a problem."
+    },
+    {
+      "key": "snacks",
+      "prefix": "For snacks, I keep ",
+      "suffix": " in my room.",
+      "placeholder": "a few pieces of fruit / some nuts",
+      "hint": "\"a few\" (C) or \"a little\" (UC) for small amounts."
+    },
+    {
+      "key": "shop",
+      "prefix": "My weekly shopping comes to about ",
+      "suffix": " — enough to eat really well.",
+      "placeholder": "your weekly food budget",
+      "hint": "\"enough to...\" — show the money is sufficient."
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Large amounts (positive)",
+      "color": "#1D9E75",
+      "items": [
+        "a lot of + noun (C or UC)",
+        "lots of + noun (C or UC, informal)",
+        "plenty of + noun (= more than enough)",
+        "a large amount of + UC",
+        "a generous portion of + noun"
+      ]
+    },
+    {
+      "category": "Small amounts (positive)",
+      "color": "#003876",
+      "items": [
+        "a little + UC (small amount)",
+        "a few + C (small number)",
+        "a small amount of + UC",
+        "a handful of + C",
+        "a bit of + UC (informal)"
+      ]
+    },
+    {
+      "category": "Problems with quantity",
+      "color": "#EF4444",
+      "items": [
+        "too much + UC (excessive amount)",
+        "too many + C (excessive number)",
+        "not enough + noun (insufficient)",
+        "I don't eat enough + noun",
+        "there isn't/aren't enough + noun"
+      ]
+    },
+    {
+      "category": "Sufficiency and meals",
+      "color": "#C9933B",
+      "items": [
+        "enough + noun to feel/last/sustain...",
+        "I eat enough to feel full, but not so much that...",
+        "adjective + enough (warm enough / sweet enough)",
+        "I allow myself a + small amount / a few...",
+        "A total of... — not a lot, but enough to..."
+      ]
+    }
+  ]
+}

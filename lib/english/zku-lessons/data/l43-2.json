@@ -1,0 +1,482 @@
+{
+  "id": "l43-2",
+  "moduleNum": 9,
+  "lessonNum": 2,
+  "moduleTitle": "Asking & Answering",
+  "type": "listening",
+  "title": "A University Admissions Interview",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Interviewer",
+      "text": "Good morning. Please have a seat. Could you tell me a little about yourself and why you're applying to our master's programme?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good morning. My name is Kamila Seitkali. I'm a final-year linguistics student at WKU in Uralsk. I've been interested in language acquisition research for about two years, which is why I'm applying to your programme.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Excellent. Do you know what area of linguistics you'd like to specialise in?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes — bilingual language acquisition, particularly in early childhood. I'm interested in how children in multilingual households develop both languages simultaneously.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Could you tell me about any research experience you have?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I've assisted Professor Aidarov at WKU with a research project on bilingual education in Kazakhstan. We collected data from schools in three different regions.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Interesting. Do you know whether your data will be published?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "It hasn't been published yet, but Professor Aidarov has submitted it to a peer-reviewed journal. We're awaiting the response.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Could you explain what methods you used in the data collection?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "We used a combination of classroom observation and structured interviews with both teachers and parents. I personally conducted twelve of the parent interviews.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "I see. Can you tell me what you see as the main challenge in bilingual education research?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I think it's the difficulty of controlling variables. Every child is different, every household is different, and it's hard to isolate one factor from another.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Very good. Do you happen to know if any of your work has been presented at a conference?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Not yet — but Professor Aidarov is planning to present our findings at a regional conference in Astana in September.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Interviewer",
+      "text": "Could you tell me what you hope to achieve with a master's degree from our programme?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I'd like to develop more rigorous research methodology skills, publish independently, and eventually contribute to educational policy in Kazakhstan.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "simultaneously",
+      "emoji": "⏱️",
+      "opts": [
+        "по очереди",
+        "одновременно",
+        "быстро",
+        "медленно"
+      ],
+      "correct": "одновременно"
+    },
+    {
+      "id": "p2",
+      "word": "peer-reviewed",
+      "emoji": "📋",
+      "opts": [
+        "популярный",
+        "рецензируемый",
+        "международный",
+        "популярный"
+      ],
+      "correct": "рецензируемый"
+    },
+    {
+      "id": "p3",
+      "word": "variable",
+      "emoji": "🔢",
+      "opts": [
+        "результат",
+        "переменная",
+        "вывод",
+        "метод"
+      ],
+      "correct": "переменная"
+    },
+    {
+      "id": "p4",
+      "word": "rigorous",
+      "emoji": "🔬",
+      "opts": [
+        "простой",
+        "строгий / тщательный",
+        "быстрый",
+        "случайный"
+      ],
+      "correct": "строгий / тщательный"
+    },
+    {
+      "id": "p5",
+      "word": "methodology",
+      "emoji": "📊",
+      "opts": [
+        "результат",
+        "методология",
+        "статистика",
+        "эксперимент"
+      ],
+      "correct": "методология"
+    },
+    {
+      "id": "p6",
+      "word": "findings",
+      "emoji": "🔍",
+      "opts": [
+        "методы",
+        "результаты / выводы",
+        "темы",
+        "участники"
+      ],
+      "correct": "результаты / выводы"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila is a final-year linguistics student at WKU.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "She is interested in adult language learning.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The research data has already been published.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "Kamila personally conducted twelve parent interviews.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The research findings have been presented at a conference.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila wants to contribute to educational policy in Kazakhstan.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "Applicant — applying for master's in bilingual linguistics"
+    },
+    {
+      "id": "interviewer",
+      "name": "Interviewer",
+      "city": "UK",
+      "emoji": "📋",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Admissions interviewer — asks indirect questions formally"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Asks Kamila to tell about herself and why she's applying.",
+      "correctCharId": "interviewer"
+    },
+    {
+      "id": "s2",
+      "text": "Is interested in bilingual language acquisition in early childhood.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Asks whether Kamila's research data will be published.",
+      "correctCharId": "interviewer"
+    },
+    {
+      "id": "s4",
+      "text": "Explains she used classroom observation and structured interviews for data collection.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Says the main challenge is controlling variables in bilingual research.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s6",
+      "text": "Wants to develop research skills, publish independently, and contribute to policy.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila want to specialise in?",
+      "opts": [
+        "Adult language learning",
+        "Bilingual acquisition in early childhood",
+        "Translation studies",
+        "Historical linguistics"
+      ],
+      "correct": "Bilingual acquisition in early childhood",
+      "hint": "\"bilingual language acquisition, particularly in early childhood.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The research paper has already been published.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"It hasn't been published yet, but Professor Aidarov has submitted it.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How many parent interviews did Kamila personally conduct?",
+      "opts": [
+        "Five",
+        "Eight",
+        "Twelve",
+        "Twenty"
+      ],
+      "correct": "Twelve",
+      "hint": "\"I personally conducted twelve of the parent interviews.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say is the main challenge in bilingual research?",
+      "opts": [
+        "Funding",
+        "Finding participants",
+        "Controlling variables",
+        "Publishing results"
+      ],
+      "correct": "Controlling variables",
+      "hint": "\"it's the difficulty of controlling variables. Every child is different...\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Professor Aidarov plans to present findings at a conference in ___ in September.",
+      "correct": "Astana",
+      "hint": "\"Professor Aidarov is planning to present our findings at a regional conference in Astana in September.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila hope to do after getting her master's?",
+      "opts": [
+        "Return to WKU to teach",
+        "Work in industry",
+        "Contribute to educational policy in Kazakhstan",
+        "Move abroad permanently"
+      ],
+      "correct": "Contribute to educational policy in Kazakhstan",
+      "hint": "\"contribute to educational policy in Kazakhstan.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What data collection methods did Kamila use?",
+      "opts": [
+        "Online surveys only",
+        "Classroom observation and structured interviews",
+        "Standardised tests",
+        "Phone surveys"
+      ],
+      "correct": "Classroom observation and structured interviews",
+      "hint": "\"We used a combination of classroom observation and structured interviews with both teachers and parents.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila collected data from schools in one region.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"We collected data from schools in three different regions.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Could you tell me a little about yourself?\" — This is:",
+      "opts": [
+        "A direct question",
+        "An indirect question",
+        "A tag question",
+        "A rhetorical question"
+      ],
+      "correct": "An indirect question",
+      "hint": "\"Could you tell me...\" = indirect question. Polite structure embedding the question."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Do you know what area you'd like to specialise in?\" — The word order after \"what area\":",
+      "opts": [
+        "Like you to specialise",
+        "You'd like to specialise",
+        "Would you like specialise",
+        "Would you specialise to"
+      ],
+      "correct": "You'd like to specialise",
+      "hint": "In indirect questions, word order is: subject + verb (not inverted). \"...what area YOU'D LIKE to specialise in.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Do you know ___ the data will be published?\" (indirect yes/no)",
+      "correct": "whether",
+      "hint": "\"whether\" introduces an indirect yes/no question. \"Do you know WHETHER it will be published?\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Could you explain what methods you used?\" — Why not \"what methods did you use\"?",
+      "opts": [
+        "It's wrong",
+        "In indirect questions, no inversion: \"what methods you used\" ✅",
+        "\"Did you use\" is past simple",
+        "\"Could you\" changes the tense"
+      ],
+      "correct": "In indirect questions, no inversion: \"what methods you used\" ✅",
+      "hint": "Indirect questions DON'T invert subject+verb. ✅ \"...what methods you USED\" (not \"what methods DID YOU USE\")."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the correct indirect form of \"Where is the library?\"",
+      "opts": [
+        "\"Do you know where is the library?\"",
+        "\"Do you know where the library is?\"",
+        "\"Do you know where the library be?\"",
+        "\"Where is the library, do you know?\""
+      ],
+      "correct": "\"Do you know where the library is?\"",
+      "hint": "Indirect: \"Do you know WHERE THE LIBRARY IS?\" — no inversion (library + is, not is + library)."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Can you tell me what time does the lecture start?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"Can you tell me what time THE LECTURE STARTS?\" — no inversion in indirect question!"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which phrase introduces an indirect question most formally?",
+      "opts": [
+        "\"Do you know...?\"",
+        "\"Can you tell me...?\"",
+        "\"Could you tell me...?\"",
+        "\"I wonder...?\""
+      ],
+      "correct": "\"Could you tell me...?\"",
+      "hint": "\"Could you tell me...?\" is the most formal/polite. \"Could\" is more formal than \"can\". ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I'd like to know ___ you decided to apply.\" (indirect \"why\" question)",
+      "correct": "why",
+      "hint": "\"I'd like to know WHY you decided to apply.\" — \"why\" stays at the beginning of the embedded question."
+    }
+  ]
+}

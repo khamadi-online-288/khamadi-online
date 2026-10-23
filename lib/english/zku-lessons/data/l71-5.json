@@ -1,0 +1,360 @@
+{
+  "id": "l71-5",
+  "moduleNum": 13,
+  "lessonNum": 9,
+  "moduleTitle": "Health, Medicine & Wellbeing",
+  "title": "Module 13 Final Test",
+  "type": "test",
+  "xp": 120,
+  "duration": 45,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ country in the study showed some health improvement.\" (100%, singular, individually)",
+      "opts": [
+        "All",
+        "Every",
+        "Both",
+        "Each of"
+      ],
+      "correct": "Every",
+      "hint": "\"Every\" + singular noun = 100%, individually",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ treatments were tested in the trial, and ___ showed promising results.\" (two treatments, both)",
+      "opts": [
+        "Both / both",
+        "All / all",
+        "Each / each",
+        "Either / either"
+      ],
+      "correct": "Both / both",
+      "hint": "\"Both\" for exactly two things",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ of the two medications worked for this patient — surgery is now required.\" (not one, not the other)",
+      "correct": "Neither",
+      "hint": "\"Neither of\" = not one and not the other",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"There is ___ research supporting this claim.\" (very small amount, almost none, negative)",
+      "opts": [
+        "a little",
+        "little",
+        "few",
+        "a few"
+      ],
+      "correct": "little",
+      "hint": "\"Little\" + uncountable = almost none, negative",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ studies have confirmed the link between sleep and cognitive performance.\" (some, positive)",
+      "opts": [
+        "Few",
+        "A few",
+        "Little",
+        "A little"
+      ],
+      "correct": "A few",
+      "hint": "\"A few\" = some (positive)",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ adults get the recommended seven to nine hours of sleep — most get significantly less.\" (almost none)",
+      "correct": "Few",
+      "hint": "\"Few\" = almost none (negative)",
+      "points": 2
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ evidence supports the use of this supplement.\" (large formal amount, positive)",
+      "opts": [
+        "Lots of",
+        "A few",
+        "A great deal of",
+        "Little"
+      ],
+      "correct": "A great deal of",
+      "hint": "\"A great deal of\" = formal large amount + uncountable",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ of the patients was given a personalised treatment plan.\" (individually, one by one)",
+      "opts": [
+        "All",
+        "Both",
+        "Each",
+        "Every"
+      ],
+      "correct": "Each",
+      "hint": "\"Each of\" = individually, considering each one",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ stress is healthy — a small amount improves focus.\" (small amount, positive)",
+      "correct": "A little",
+      "hint": "\"A little\" + uncountable = small amount, positive",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"You can choose ___ therapy — both approaches are effective for your condition.\" (one or the other)",
+      "opts": [
+        "neither",
+        "either",
+        "every",
+        "all"
+      ],
+      "correct": "either",
+      "hint": "\"Either\" = one or the other (positive choice)",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What is described as the \"double burden of disease\"?",
+      "opts": [
+        "Having two doctors for one patient",
+        "Both communicable and non-communicable diseases in the same population",
+        "The financial cost of treating illness",
+        "Two peaks in global disease rates"
+      ],
+      "correct": "Both communicable and non-communicable diseases in the same population",
+      "hint": "Reading 1: \"double burden\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ rest ___ vulnerability seems valued in this workplace.\" (neither is valued)",
+      "correct": "Neither / nor",
+      "hint": "\"Neither... nor\" = not one and not the other",
+      "points": 2
+    },
+    {
+      "id": "q13",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"How ___ patients visited the clinic last month?\" (countable)",
+      "opts": [
+        "much",
+        "many",
+        "few",
+        "little"
+      ],
+      "correct": "many",
+      "hint": "\"How many\" = countable nouns",
+      "points": 2
+    },
+    {
+      "id": "q14",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the text on mental health say is the main barrier to treatment?",
+      "opts": [
+        "A lack of effective treatments",
+        "The high cost of medication",
+        "Stigma — the social shame associated with mental illness",
+        "A shortage of hospital beds"
+      ],
+      "correct": "Stigma — the social shame associated with mental illness",
+      "hint": "Reading 2: \"stigma is perhaps the most powerful barrier\"",
+      "points": 1
+    },
+    {
+      "id": "q15",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ single person in the group completed the full health assessment.\" (100%, emphatic)",
+      "opts": [
+        "All",
+        "Every",
+        "Both",
+        "Each of"
+      ],
+      "correct": "Every",
+      "hint": "\"Every single\" = 100% with emphatic individual focus",
+      "points": 2
+    },
+    {
+      "id": "q16",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ of us can be truly healthy in isolation.\" (not anyone at all)",
+      "correct": "None",
+      "hint": "\"None of us\" = not one person (zero)",
+      "points": 2
+    },
+    {
+      "id": "q17",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses a quantifier correctly in formal writing?",
+      "opts": [
+        "Lots of research has been done.",
+        "A large number of studies confirm this finding.",
+        "Heaps of evidence supports this.",
+        "So many data shows this."
+      ],
+      "correct": "A large number of studies confirm this finding.",
+      "hint": "\"A large number of\" = formal; other options are informal",
+      "points": 2
+    },
+    {
+      "id": "q18",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What did the Harvard study find was the strongest predictor of late-life health?",
+      "opts": [
+        "Diet and nutrition",
+        "Exercise habits",
+        "Quality of social relationships",
+        "Socioeconomic status"
+      ],
+      "correct": "Quality of social relationships",
+      "hint": "Listening 3B: Dr. Petrov quotes the Harvard study",
+      "points": 1
+    },
+    {
+      "id": "q19",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ the doctor and the patient agreed — communication is essential in healthcare.\"",
+      "correct": "Both",
+      "hint": "\"Both... and\" = two parties, both agreeing",
+      "points": 2
+    },
+    {
+      "id": "q20",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ information about this treatment is available to the public.\" (very small amount, uncountable)",
+      "opts": [
+        "Few",
+        "A few",
+        "Little",
+        "A little"
+      ],
+      "correct": "Little",
+      "hint": "\"Little\" + uncountable = almost none (negative)",
+      "points": 2
+    },
+    {
+      "id": "q21",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ of the participants chose the same treatment option.\" (100% as a group, with \"of\")",
+      "opts": [
+        "Every",
+        "Each",
+        "All",
+        "Both"
+      ],
+      "correct": "All",
+      "hint": "\"All of\" + the + noun = 100% as a group",
+      "points": 2
+    },
+    {
+      "id": "q22",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A state of physical and emotional exhaustion caused by prolonged work stress is called ___.",
+      "correct": "burnout",
+      "hint": "Listening 3: Ben mentions \"risk of burnout\"",
+      "points": 1
+    },
+    {
+      "id": "q23",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She slept ___ night without interruption.\" (= the complete, unbroken night)",
+      "opts": [
+        "all",
+        "every",
+        "the whole",
+        "each"
+      ],
+      "correct": "the whole",
+      "hint": "\"The whole night\" = complete, uninterrupted",
+      "points": 2
+    },
+    {
+      "id": "q24",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Few patients improved\" and \"A few patients improved\" have the same meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Few\" = almost none (negative); \"a few\" = some (positive)",
+      "points": 1
+    },
+    {
+      "id": "q25",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"eradicate\" mean in the context of disease?",
+      "opts": [
+        "To slow the spread of",
+        "To completely eliminate",
+        "To study extensively",
+        "To vaccinate against"
+      ],
+      "correct": "To completely eliminate",
+      "hint": "Reading 1: \"eradicated through vaccination\"",
+      "points": 1
+    }
+  ]
+}

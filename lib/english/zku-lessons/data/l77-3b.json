@@ -1,0 +1,378 @@
+{
+  "id": "l77-3b",
+  "moduleNum": 19,
+  "lessonNum": 4,
+  "moduleTitle": "Science, Research & Discovery",
+  "title": "Open Science: Transparency, Reproducibility, and the Future of Research",
+  "type": "listening",
+  "xp": 80,
+  "duration": 50,
+  "paragraphs": [],
+  "dialogue": [
+    {
+      "speaker": "Dr. Korolev",
+      "text": "Good afternoon. I want to talk about something that is simultaneously a problem in science and a solution to it: data. The problem is that for most of science's modern history, the data underlying published findings were the private property of individual researchers and laboratories. The solution is what we now call \"open science\" — the movement to make data, materials, and methods available to any researcher who wants to verify, extend, or challenge a published finding.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Korolev",
+      "text": "Why does open data matter? Consider what happened during the replication crisis. Dozens of findings in psychology, medicine, and nutrition that had been widely accepted were found to be much weaker than believed, or not replicable at all. In several cases, when researchers attempted to recheck the original analysis, they couldn't — because the raw data no longer existed, had been lost, or was never shared. Without access to the original data, there is no way to identify whether a result was due to a genuine effect, a statistical error, or — in a small number of documented cases — deliberate fraud.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Korolev",
+      "text": "Open science has several components. Pre-registration is perhaps the most transformative. Before collecting any data, a researcher publicly registers their hypothesis, methodology, and analysis plan on a platform like the Open Science Framework. This makes it impossible to engage in \"HARKing\" — Hypothesising After the Results are Known — a practice in which researchers present exploratory findings as if they had been predicted in advance. Pre-registration creates a clear distinction between confirmatory research (testing a pre-specified hypothesis) and exploratory research (looking for patterns without a prior prediction).",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Korolev",
+      "text": "Open data means making the raw data from a study publicly available in a form that other researchers can access and analyse independently. This is increasingly required by major funding bodies and some journals. It makes fraud vastly harder to conceal, enables meta-analyses of pooled data from many studies, and allows researchers in under-resourced settings to conduct analyses without needing to run their own data collection.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Korolev",
+      "text": "Open methods — sharing detailed protocols, code, and materials — enables exact replication. If I replicate your study using your exact protocol and find a different result, that is much more informative than a conceptual replication using different materials. The more exactly the original conditions can be reproduced, the more clearly any discrepancy can be located and understood.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Korolev",
+      "text": "There are, of course, real challenges. Some data cannot be made publicly available for reasons of participant privacy — medical records, genetic data, data from vulnerable populations. Some researchers in competitive fields are reluctant to share data before they have exhausted their own analyses, fearing that rivals will publish using their data before they can. And in some scientific communities, there is simply no established culture of data sharing, making it harder for individual researchers to adopt open practices without institutional support.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Dr. Korolev",
+      "text": "But the direction of travel is clear. Funders, journals, and institutions are increasingly incentivising — and in some cases requiring — open practices. The long-term result will be a science that is more trustworthy, more efficient, and more equitable in its distribution of both data and credit. The question is not whether open science will become the norm, but how quickly.",
+      "isLeft": true
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "open science",
+      "ru": "открытая наука",
+      "context": "The movement to make scientific data, methods, and findings freely accessible"
+    },
+    {
+      "phrase": "pre-registration",
+      "ru": "предрегистрация",
+      "context": "Publicly registering a hypothesis and methodology before collecting data"
+    },
+    {
+      "phrase": "HARKing",
+      "ru": "HARK (гипотетизирование после получения результатов)",
+      "context": "Hypothesising After the Results are Known — presenting exploratory findings as predicted"
+    },
+    {
+      "phrase": "meta-analysis",
+      "ru": "мета-анализ",
+      "context": "A statistical technique that combines results from multiple studies"
+    },
+    {
+      "phrase": "open data",
+      "ru": "открытые данные",
+      "context": "Making raw research data publicly available for independent analysis"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "pre-registration",
+      "ipa": "/priːˌredʒɪˈstreɪʃən/",
+      "pos": "noun",
+      "ru": "предрегистрация",
+      "kz": "алдын ала тіркеу",
+      "emoji": "📋",
+      "definition": "the practice of publicly registering a research hypothesis and methodology before data collection begins",
+      "example": "\"Pre-registration prevents HARKing — presenting exploratory findings as pre-predicted.\"",
+      "collocations": [
+        "study pre-registration",
+        "require pre-registration",
+        "pre-registration platform"
+      ]
+    },
+    {
+      "en": "meta-analysis",
+      "ipa": "/ˌmetəəˈnælɪsɪs/",
+      "pos": "noun",
+      "ru": "мета-анализ",
+      "kz": "мета-талдау",
+      "emoji": "📊",
+      "definition": "a statistical method that combines results from multiple studies to produce a more reliable estimate",
+      "example": "\"Open data enables meta-analyses of pooled data from many studies.\"",
+      "collocations": [
+        "conduct a meta-analysis",
+        "large meta-analysis",
+        "systematic review and meta-analysis"
+      ]
+    },
+    {
+      "en": "protocol",
+      "ipa": "/ˈprəʊtəkɒl/",
+      "pos": "noun",
+      "ru": "протокол / методика",
+      "kz": "хаттама",
+      "emoji": "📄",
+      "definition": "a detailed set of instructions or rules for conducting an experiment or study",
+      "example": "\"Sharing detailed protocols enables exact replication of the original study conditions.\"",
+      "collocations": [
+        "research protocol",
+        "follow a protocol",
+        "detailed protocol"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "pre-registration",
+      "emoji": "📋",
+      "opts": [
+        "registering a hypothesis before collecting data",
+        "signing up for a conference",
+        "submitting a paper before peer review",
+        "registering a patent"
+      ],
+      "correct": "registering a hypothesis before collecting data"
+    },
+    {
+      "id": "p2",
+      "word": "HARKing",
+      "emoji": "🔀",
+      "opts": [
+        "presenting exploratory findings as if they were predicted in advance",
+        "testing multiple hypotheses at once",
+        "repeating another researcher's study",
+        "changing your hypothesis after reading other papers"
+      ],
+      "correct": "presenting exploratory findings as if they were predicted in advance"
+    }
+  ],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What is \"open science\"?",
+      "correct": "The movement to make research data, materials, and methods available for any researcher to verify, extend, or challenge"
+    },
+    {
+      "id": "t2",
+      "question": "What is \"pre-registration\" and why is it important?",
+      "correct": "Publicly registering hypothesis and methodology before data collection — prevents HARKing (presenting exploratory findings as pre-predicted)"
+    },
+    {
+      "id": "t3",
+      "question": "What is \"HARKing\"?",
+      "correct": "Hypothesising After the Results are Known — presenting exploratory findings as if they had been predicted in advance"
+    },
+    {
+      "id": "t4",
+      "question": "What are three challenges to open science mentioned in the lecture?",
+      "correct": "Privacy concerns, competitive reluctance to share data, and lack of established data-sharing culture"
+    },
+    {
+      "id": "t5",
+      "question": "What does Dr. Korolev predict about open science?",
+      "correct": "It will become the norm — the question is how quickly, not whether"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "During the replication crisis, raw data was always easily available for reanalysis.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "Pre-registration distinguishes between confirmatory and exploratory research.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Open data makes fraud easier to conceal.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "Dr. Korolev acknowledges that some data cannot be made public due to privacy concerns.",
+      "correct": "true"
+    },
+    {
+      "id": "s5",
+      "statement": "Dr. Korolev says open science is currently the established norm in all scientific fields.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What problem with data did the replication crisis reveal?",
+      "opts": [
+        "Scientists were fabricating data routinely",
+        "Original data was often lost, non-existent, or not shared",
+        "Data was stored in incompatible formats",
+        "There was too much data for researchers to analyse"
+      ],
+      "correct": "Original data was often lost, non-existent, or not shared",
+      "hint": "Lecture: \"data no longer existed, had been lost, or was never shared\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What is \"HARKing\" and why is it a problem?",
+      "opts": [
+        "Publishing a paper before peer review is complete",
+        "Changing a hypothesis after data is collected, then presenting it as pre-predicted",
+        "Sharing data with competing labs",
+        "Using only small samples to save time"
+      ],
+      "correct": "Changing a hypothesis after data is collected, then presenting it as pre-predicted",
+      "hint": "Lecture: \"Hypothesising After the Results are Known\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What does pre-registration prevent?",
+      "opts": [
+        "Errors in statistical analysis",
+        "Submission to journals with high rejection rates",
+        "HARKing — presenting exploratory findings as if they were predicted",
+        "Publication bias against null results"
+      ],
+      "correct": "HARKing — presenting exploratory findings as if they were predicted",
+      "hint": "Lecture: \"makes it impossible to engage in HARKing\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "listening",
+      "text": "What benefit of open data does Dr. Korolev highlight for under-resourced settings?",
+      "opts": [
+        "More grant funding is available",
+        "They can conduct analyses without running their own data collection",
+        "Their studies get published in top journals",
+        "They can replicate studies more cheaply"
+      ],
+      "correct": "They can conduct analyses without running their own data collection",
+      "hint": "Lecture: \"researchers in under-resourced settings to conduct analyses\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Dr. Korolev says open data makes fraud vastly harder to conceal.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Lecture: \"makes fraud vastly harder to conceal\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "listening",
+      "text": "Dr. Korolev argues that open science is unlikely to become standard practice.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Lecture: \"not whether open science will become the norm, but how quickly\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Open data enables ___ more informative analyses than closed data alone.\" (considerably)",
+      "opts": [
+        "considerably",
+        "much more considerable",
+        "considerable",
+        "as considerably"
+      ],
+      "correct": "considerably",
+      "hint": "\"considerably + more + adjective\" OR \"considerably\" modifying a comparative",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Results from open studies tend to be ___ reliable than those from closed research.\" (slightly)",
+      "correct": "slightly more",
+      "hint": "\"Slightly more + adjective\" = small comparative increase",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ precisely the original conditions are reproduced, the ___ clearly any discrepancy can be identified.\"",
+      "opts": [
+        "more / more",
+        "most / most",
+        "more / clearly",
+        "more precisely / most"
+      ],
+      "correct": "more / more",
+      "hint": "\"The more + adverb, the more + adverb/adjective\" = proportional structure",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Pre-registration\" in research means…",
+      "opts": [
+        "Signing up for a conference early",
+        "Registering a hypothesis before data collection begins",
+        "Publishing a study before peer review",
+        "Registering intellectual property rights"
+      ],
+      "correct": "Registering a hypothesis before data collection begins",
+      "hint": "Lecture: \"publicly registers their hypothesis, methodology, and analysis plan… before collecting any data\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "A \"meta-analysis\" is…",
+      "opts": [
+        "A very large single study",
+        "A statistical method combining results from multiple studies",
+        "A review written by experts without original data",
+        "A type of pre-registration"
+      ],
+      "correct": "A statistical method combining results from multiple studies",
+      "hint": "Lecture: \"meta-analyses of pooled data from many studies\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "A detailed set of instructions for conducting an experiment is called a research ___.",
+      "correct": "protocol",
+      "hint": "Lecture: \"sharing detailed protocols enables exact replication\"",
+      "points": 1
+    }
+  ]
+}

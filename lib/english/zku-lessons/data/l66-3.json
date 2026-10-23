@@ -1,0 +1,428 @@
+{
+  "id": "l66-3",
+  "moduleNum": 8,
+  "lessonNum": 3,
+  "moduleTitle": "Gerunds & Infinitives: Advanced",
+  "type": "listening",
+  "title": "Decision-Making Language: Gerunds and Infinitives in Conversation",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "I've been considering applying for the exchange programme to Vienna. But I keep putting off actually doing anything about it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "What's stopping you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I can't decide whether to go for a semester or to stay here and finish my thesis on time. Both feel important.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Have you tried making a list of pros and cons? It sounds basic but I find it helps when I can't stop going back and forth.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I've tried doing that. The problem is that both sides feel equally compelling. Vienna would mean delaying completing the thesis.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "What does your supervisor say?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "She says she would support me going, but she reminds me to consider the deadline implications carefully.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "That sounds like she wants you to go but doesn't want to be blamed for the delay.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Ha! Possibly. She also suggested considering whether I could do preliminary research in Vienna — which would actually contribute to the thesis.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "So going would mean combining two things instead of treating them as opposed. That changes the decision.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I know. I've been trying to avoid thinking about it that way because it makes the decision harder.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Or easier — because now you need to stop seeing them as a choice and start imagining how to do both.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "You're annoyingly right. I regret not having raised this with her earlier. I should have thought of asking sooner.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Well, you're thinking about it now. That's the point of conversations like this.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "exchange programme",
+      "emoji": "🌍",
+      "opts": [
+        "программа стажировки",
+        "программа обмена",
+        "учебная программа",
+        "летняя школа"
+      ],
+      "correct": "программа обмена"
+    },
+    {
+      "id": "p2",
+      "word": "putting off",
+      "emoji": "⏸️",
+      "opts": [
+        "ускоряя",
+        "откладывая",
+        "планируя",
+        "завершая"
+      ],
+      "correct": "откладывая"
+    },
+    {
+      "id": "p3",
+      "word": "compelling",
+      "emoji": "💪",
+      "opts": [
+        "слабый",
+        "убедительный",
+        "обязательный",
+        "трудный"
+      ],
+      "correct": "убедительный"
+    },
+    {
+      "id": "p4",
+      "word": "preliminary",
+      "emoji": "📋",
+      "opts": [
+        "окончательный",
+        "предварительный",
+        "дополнительный",
+        "сложный"
+      ],
+      "correct": "предварительный"
+    },
+    {
+      "id": "p5",
+      "word": "implications",
+      "emoji": "💭",
+      "opts": [
+        "возможности",
+        "последствия / вывод",
+        "требования",
+        "правила"
+      ],
+      "correct": "последствия / вывод"
+    },
+    {
+      "id": "p6",
+      "word": "opposed",
+      "emoji": "⚡",
+      "opts": [
+        "схожие",
+        "противоположные",
+        "равноценные",
+        "сложные"
+      ],
+      "correct": "противоположные"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila is considering applying for an exchange programme to Vienna.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "Kamila has already made a list of pros and cons.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Kamila's supervisor would support her going to Vienna.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "The supervisor says the deadline implications don't matter.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "The supervisor suggests she could do preliminary research in Vienna.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila regrets not having raised the idea with her supervisor earlier.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "📚",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Deciding about Vienna exchange — uses complex gerund/infinitive structures naturally"
+    },
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "📝",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Helps her think it through — reframes the problem"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has been considering applying for the exchange programme but keeps putting it off.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Can't decide whether to go for a semester or to stay and finish her thesis on time.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s3",
+      "text": "Says the supervisor would support her going but reminds her to consider deadline implications.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Suggests she could do preliminary research in Vienna — contributing to the thesis.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Points out going means combining two things rather than treating them as opposed.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Regrets not having raised the idea with her supervisor earlier.",
+      "correctCharId": "kamila"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Kamila considering doing?",
+      "opts": [
+        "Moving to Vienna permanently",
+        "Applying for an exchange programme to Vienna",
+        "Changing her thesis topic",
+        "Quitting her thesis"
+      ],
+      "correct": "Applying for an exchange programme to Vienna",
+      "hint": "\"I've been considering applying for the exchange programme to Vienna.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is her main dilemma?",
+      "opts": [
+        "Cost of travel",
+        "Whether to go for a semester or stay and finish the thesis on time",
+        "Which city to choose",
+        "What to study in Vienna"
+      ],
+      "correct": "Whether to go for a semester or stay and finish the thesis on time",
+      "hint": "\"Whether to go for a semester or to stay here and finish my thesis on time.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did Rustam suggest to help with the decision?",
+      "opts": [
+        "Talking to her parents",
+        "Making a list of pros and cons",
+        "Applying immediately",
+        "Asking the rector"
+      ],
+      "correct": "Making a list of pros and cons",
+      "hint": "\"Have you tried making a list of pros and cons?\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the supervisor suggest she could do in Vienna?",
+      "opts": [
+        "Write the full thesis",
+        "Take a holiday",
+        "Do preliminary research that would contribute to the thesis",
+        "Teach English"
+      ],
+      "correct": "Do preliminary research that would contribute to the thesis",
+      "hint": "\"Considering whether I could do preliminary research in Vienna — which would actually contribute to the thesis.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Rustam reframe the decision?",
+      "opts": [
+        "He says she should stay",
+        "He suggests combining both — Vienna AND thesis work",
+        "He says the thesis is more important",
+        "He says it doesn't matter"
+      ],
+      "correct": "He suggests combining both — Vienna AND thesis work",
+      "hint": "\"Stop seeing them as a choice and start imagining how to do both.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila regret?",
+      "opts": [
+        "Applying for Vienna too late",
+        "Not having raised the idea with her supervisor earlier",
+        "Telling Rustam about it",
+        "Making the list of pros and cons"
+      ],
+      "correct": "Not having raised the idea with her supervisor earlier",
+      "hint": "\"I regret not having raised this with her earlier.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila has already made a decision about Vienna.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She's still deciding — the conversation is about working through the choice. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Rustam says she needs to stop seeing them as a choice and start doing what?",
+      "opts": [
+        "Stop worrying",
+        "Imagining how to do both",
+        "Choosing one definitively",
+        "Asking her parents"
+      ],
+      "correct": "Imagining how to do both",
+      "hint": "\"Stop seeing them as a choice and start imagining how to do both.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I've been considering applying for the programme.\" — \"considering + applying\":",
+      "opts": [
+        "consider + infinitive; apply + gerund",
+        "consider + gerund; apply = gerund object of considering",
+        "Both are infinitives",
+        "Both wrong"
+      ],
+      "correct": "consider + gerund; apply = gerund object of considering",
+      "hint": "\"consider\" + GERUND. \"Applying\" = gerund object of \"considering.\" \"I've been considering APPLYING.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I regret not having raised this earlier.\" — \"not having raised\" is:",
+      "opts": [
+        "Negative infinitive",
+        "Perfect gerund (negative)",
+        "Past simple",
+        "Passive gerund"
+      ],
+      "correct": "Perfect gerund (negative)",
+      "hint": "\"Not having raised\" = negative perfect gerund. \"Regret + gerund\" for past action (or in this case, past non-action). ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She reminds me to consider the deadline implications.\" — \"to consider\" because:",
+      "opts": [
+        "consider = gerund verb",
+        "remind + object + to-infinitive",
+        "\"implications\" requires infinitive",
+        "She = subject of consider"
+      ],
+      "correct": "remind + object + to-infinitive",
+      "hint": "\"remind + object + TO + infinitive.\" \"She reminds me TO CONSIDER.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I keep putting ___ (it) off. I can't stop ___ (think) back and forth.\"",
+      "correct": "off / thinking",
+      "hint": "\"putting it off\" (phrasal verb) + \"can't stop THINKING\" (stop + gerund = the activity ends). ✅"
+    }
+  ]
+}

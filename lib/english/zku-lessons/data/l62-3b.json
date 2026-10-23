@@ -1,0 +1,442 @@
+{
+  "id": "l62-3b",
+  "moduleNum": 4,
+  "lessonNum": 4,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "listening",
+  "title": "A University Senate Meeting: Policy Under Discussion",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Chair",
+      "text": "Item three: the proposed student feedback system. The proposal has been reviewed by the academic quality committee. Senator Aibek, you prepared the report.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Thank you. The current feedback system was introduced six years ago and has not been updated since. Submissions are collected once per year, results are analysed centrally, and improvements are rarely implemented in the same academic year they were requested.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Senator Asel",
+      "text": "Has any external benchmarking been done?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "It has. Three comparable institutions were examined. In each case, real-time feedback is collected via digital platforms, responses are reviewed monthly, and identified issues are addressed within two weeks of being raised.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Chair",
+      "text": "So the proposed system is modelled on these?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Largely, yes. Under the proposed system, feedback would be collected digitally throughout the semester. Responses would be reviewed by department heads. Actions taken in response to feedback would be published and visible to students.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Senator Asel",
+      "text": "What concerns have been raised about privacy?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "These have been carefully considered. All submissions would be anonymised at the point of collection. Individual responses could not be linked to individual students by any member of staff.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Chair",
+      "text": "Has a budget been allocated?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "A provisional budget has been proposed. The precise figure will be confirmed once the platform has been selected. Three vendors are being evaluated.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Senator Asel",
+      "text": "Has the student union been consulted?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Yes. A meeting was held with student representatives in September. Their input was incorporated into the current proposal. Two of their suggestions have been adopted directly.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Chair",
+      "text": "I would like a vote to be taken on whether the proposal should be approved in principle. Those in favour?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "In favour.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Chair",
+      "text": "The motion has been carried. The proposal is approved in principle. Implementation plans will be presented at the February meeting.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "benchmarking",
+      "emoji": "📊",
+      "opts": [
+        "оценивание отдельного человека",
+        "сравнительный анализ с аналогами",
+        "аудит расходов",
+        "опрос студентов"
+      ],
+      "correct": "сравнительный анализ с аналогами"
+    },
+    {
+      "id": "p2",
+      "word": "anonymised",
+      "emoji": "🙈",
+      "opts": [
+        "идентифицированный",
+        "анонимизированный",
+        "зашифрованный",
+        "удалённый"
+      ],
+      "correct": "анонимизированный"
+    },
+    {
+      "id": "p3",
+      "word": "provisional",
+      "emoji": "📝",
+      "opts": [
+        "окончательный",
+        "предварительный",
+        "необязательный",
+        "подтверждённый"
+      ],
+      "correct": "предварительный"
+    },
+    {
+      "id": "p4",
+      "word": "vendor",
+      "emoji": "💼",
+      "opts": [
+        "студент",
+        "поставщик / подрядчик",
+        "менеджер",
+        "пользователь"
+      ],
+      "correct": "поставщик / подрядчик"
+    },
+    {
+      "id": "p5",
+      "word": "incorporated",
+      "emoji": "📎",
+      "opts": [
+        "проигнорирован",
+        "включён / учтён",
+        "опубликован",
+        "одобрен"
+      ],
+      "correct": "включён / учтён"
+    },
+    {
+      "id": "p6",
+      "word": "motion",
+      "emoji": "🗳️",
+      "opts": [
+        "движение",
+        "предложение / резолюция (на заседании)",
+        "решение",
+        "обсуждение"
+      ],
+      "correct": "предложение / резолюция (на заседании)"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "The current feedback system was introduced six years ago.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "In the new system, feedback would be collected once per year as before.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "Three comparable institutions were examined during the benchmarking exercise.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Student submissions would be linked to individual students under the new system.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Three vendors are currently being evaluated for the platform.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The proposal was approved in principle at this meeting.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "chair",
+      "name": "Chair",
+      "city": "Uralsk",
+      "emoji": "🎓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Senate Chair — formal meeting, dense passive voice throughout"
+    },
+    {
+      "id": "aibek",
+      "name": "Sen. Aibek",
+      "city": "Uralsk",
+      "emoji": "📋",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Presents the feedback system proposal using all passive tenses"
+    },
+    {
+      "id": "asel",
+      "name": "Sen. Asel",
+      "city": "Uralsk",
+      "emoji": "⚖️",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "role": "Asks questions — probes privacy and consultation process"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "The current system was introduced six years ago and has not been updated since.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s2",
+      "text": "In comparable institutions, issues are addressed within two weeks of being raised.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s3",
+      "text": "Under the proposal, all submissions would be anonymised at the point of collection.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s4",
+      "text": "A provisional budget has been proposed — the precise figure will be confirmed once a platform is selected.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s5",
+      "text": "A meeting was held with student representatives; their input was incorporated.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s6",
+      "text": "Announced the motion has been carried and the proposal approved in principle.",
+      "correctCharId": "chair"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What problem does Aibek identify with the current system?",
+      "opts": [
+        "It was never used",
+        "It's six years old, never updated, and improvements rarely happen same year as requested",
+        "It's too expensive",
+        "Students don't use it"
+      ],
+      "correct": "It's six years old, never updated, and improvements rarely happen same year as requested",
+      "hint": "\"Introduced six years ago, not updated since... improvements are rarely implemented in the same year requested.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How often are issues addressed in comparable institutions?",
+      "opts": [
+        "Once per year",
+        "Once per semester",
+        "Within two weeks of being raised",
+        "Within one month"
+      ],
+      "correct": "Within two weeks of being raised",
+      "hint": "\"Identified issues are addressed within two weeks of being raised.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How would privacy be protected in the new system?",
+      "opts": [
+        "Students would use their student IDs",
+        "All submissions would be anonymised at point of collection",
+        "Only the rector sees results",
+        "Feedback is voluntary"
+      ],
+      "correct": "All submissions would be anonymised at point of collection",
+      "hint": "\"All submissions would be anonymised at the point of collection.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is currently being evaluated?",
+      "opts": [
+        "Three staff members",
+        "Three student proposals",
+        "Three vendors for the platform",
+        "Three pilot programmes"
+      ],
+      "correct": "Three vendors for the platform",
+      "hint": "\"Three vendors are being evaluated.\" — Present Continuous Passive. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happened to student input in the consultation?",
+      "opts": [
+        "It was ignored",
+        "Two suggestions were adopted directly",
+        "All suggestions were rejected",
+        "Students weren't consulted"
+      ],
+      "correct": "Two suggestions were adopted directly",
+      "hint": "\"Two of their suggestions have been adopted directly.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the outcome of the vote?",
+      "opts": [
+        "Rejected",
+        "Deferred to next meeting",
+        "Approved in principle",
+        "Approved for immediate implementation"
+      ],
+      "correct": "Approved in principle",
+      "hint": "\"The motion has been carried. The proposal is approved in principle.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The budget has been finalised and confirmed.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"A provisional budget has been proposed. The precise figure will be confirmed once the platform has been selected.\" — not yet confirmed. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Count the passive verbs: \"Their input was incorporated. Two suggestions have been adopted directly.\" — how many passives?",
+      "opts": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correct": "2",
+      "hint": "\"was incorporated\" (Past Simple Passive) + \"have been adopted\" (Present Perfect Passive) = 2 passives. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The proposal has been reviewed by the committee.\" — Tense:",
+      "opts": [
+        "Past Simple",
+        "Present Simple",
+        "Present Perfect Passive",
+        "Past Perfect"
+      ],
+      "correct": "Present Perfect Passive",
+      "hint": "\"has been reviewed\" = has/have + been + pp = Present Perfect Passive. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Three vendors are being evaluated.\" — Tense:",
+      "opts": [
+        "Present Simple Passive",
+        "Present Continuous Passive",
+        "Past Passive",
+        "Future Passive"
+      ],
+      "correct": "Present Continuous Passive",
+      "hint": "\"are being evaluated\" = are/is/am + being + pp = Present Continuous Passive. Happening now. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Feedback would be collected digitally.\" — This passive is:",
+      "opts": [
+        "Future (will be)",
+        "Past Simple",
+        "Modal passive (would be + pp) — hypothetical future",
+        "Conditional passive"
+      ],
+      "correct": "Modal passive (would be + pp) — hypothetical future",
+      "hint": "\"would be collected\" = modal (would) + be + pp = Modal Passive. Future conditional/hypothetical. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The motion ___ (carry). The proposal ___ (approve) in principle.\"",
+      "correct": "has been carried / is approved",
+      "hint": "PPS: \"HAS BEEN CARRIED.\" Present Simple Passive: \"IS APPROVED in principle.\" ✅"
+    }
+  ]
+}

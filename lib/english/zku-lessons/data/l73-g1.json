@@ -1,0 +1,552 @@
+{
+  "id": "l73-g1",
+  "moduleNum": 15,
+  "lessonNum": 5,
+  "moduleTitle": "Work, Careers & Ambition",
+  "title": "Grammar: Reporting Verbs — Patterns and Structures",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Глаголы сообщения (Reporting verbs) — точнее чем просто \"said\":\n\nCLAIM (утверждать): \"She claimed to have finished.\" (спорное утверждение)\nADMIT (признавать): \"He admitted making a mistake.\"\nDENY (отрицать): \"She denied stealing the report.\"\nWARN (предупреждать): \"They warned us not to park there.\"\nSUGGEST (предлагать): \"He suggested changing the deadline.\"\nACCUSE (обвинять): \"She accused him of lying.\"\nAPOLOGISE (извиняться): \"He apologised for being late.\"\nINSIST (настаивать): \"She insisted on paying.\"\n\n💡 Шаблоны:\nclaim/admit/deny/suggest + -ing\nwarn/advise/remind + object + to\naccuse + of + -ing\napologise + for + -ing",
+  "grammarTable": [
+    {
+      "subject": "verb + -ing",
+      "verb": "admit, deny, suggest, recommend, avoid, consider",
+      "short": "verb + gerund",
+      "example": "\"She admitted taking the wrong file.\" \"He suggested working from home.\""
+    },
+    {
+      "subject": "verb + to-inf",
+      "verb": "agree, offer, promise, refuse, threaten, claim, decide",
+      "short": "verb + infinitive",
+      "example": "\"She agreed to start immediately.\" \"He refused to sign the contract.\""
+    },
+    {
+      "subject": "verb + obj + to-inf",
+      "verb": "advise, encourage, persuade, remind, warn, invite, ask, tell",
+      "short": "verb + object + infinitive",
+      "example": "\"She advised him to apply.\" \"He warned her not to accept the first offer.\""
+    },
+    {
+      "subject": "verb + that-clause",
+      "verb": "admit, claim, deny, explain, insist, say, suggest, warn",
+      "short": "verb + that + subject + verb",
+      "example": "\"She insisted that the contract was unfair.\" \"He claimed that he had no prior knowledge.\""
+    },
+    {
+      "subject": "verb + obj + that",
+      "verb": "tell, remind, warn, convince, persuade, inform",
+      "short": "verb + object + that-clause",
+      "example": "\"She told him that the position had been filled.\" \"He convinced her that it was worth applying.\""
+    },
+    {
+      "subject": "verb + preposition + -ing",
+      "verb": "apologise for, insist on, object to, accuse of",
+      "short": "verb + prep + gerund",
+      "example": "\"She apologised for arriving late.\" \"He insisted on reviewing the contract.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Pattern 1: Verb + Gerund (-ing)",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "admit + -ing",
+          "example": "\"She admitted making the error.\" (acknowledge a negative act)"
+        },
+        {
+          "form": "deny + -ing",
+          "example": "\"He denied taking any credit for her work.\" (say you did NOT do it)"
+        },
+        {
+          "form": "suggest + -ing",
+          "example": "\"The manager suggested meeting on Friday.\" (put forward an idea)"
+        },
+        {
+          "form": "recommend + -ing",
+          "example": "\"She recommended applying for the grant.\" (say this is a good idea)"
+        },
+        {
+          "form": "consider + -ing",
+          "example": "\"She considered leaving the company.\" (think about doing it)"
+        }
+      ]
+    },
+    {
+      "title": "Pattern 2: Verb + To-Infinitive",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "agree + to-inf",
+          "example": "\"He agreed to extend the deadline.\" (say yes to doing something)"
+        },
+        {
+          "form": "refuse + to-inf",
+          "example": "\"She refused to sign without legal advice.\" (say no to doing something)"
+        },
+        {
+          "form": "promise + to-inf",
+          "example": "\"He promised to submit the report by Friday.\" (commit to doing it)"
+        },
+        {
+          "form": "threaten + to-inf",
+          "example": "\"She threatened to resign if the policy changed.\" (warn about a negative action)"
+        },
+        {
+          "form": "offer + to-inf",
+          "example": "\"He offered to cover her shifts while she was away.\" (volunteer to do something)"
+        },
+        {
+          "form": "claim + to-inf",
+          "example": "\"She claimed to have five years of experience.\" (say you have / are something)"
+        }
+      ]
+    },
+    {
+      "title": "Pattern 3: Verb + Object + To-Infinitive",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "advise + obj + to-inf",
+          "example": "\"She advised him to update his LinkedIn profile.\""
+        },
+        {
+          "form": "encourage + obj + to-inf",
+          "example": "\"The mentor encouraged her to apply for the leadership programme.\""
+        },
+        {
+          "form": "warn + obj + not to-inf",
+          "example": "\"He warned her not to accept the first offer without negotiating.\""
+        },
+        {
+          "form": "persuade + obj + to-inf",
+          "example": "\"She persuaded the board to delay the decision.\""
+        },
+        {
+          "form": "remind + obj + to-inf",
+          "example": "\"He reminded her to bring her portfolio to the interview.\""
+        },
+        {
+          "form": "invite + obj + to-inf",
+          "example": "\"They invited her to present at the conference.\""
+        }
+      ]
+    },
+    {
+      "title": "Pattern 4: Verb + That-Clause",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "insist + that + clause",
+          "example": "\"She insisted that the interview process was unfair.\""
+        },
+        {
+          "form": "claim + that + clause",
+          "example": "\"He claimed that he had been misled by the job description.\""
+        },
+        {
+          "form": "explain + that + clause",
+          "example": "\"She explained that the role had changed significantly.\""
+        },
+        {
+          "form": "admit + that + clause",
+          "example": "\"He admitted that he had no experience in that area.\""
+        },
+        {
+          "form": "warn + that + clause",
+          "example": "\"She warned that the project was behind schedule.\""
+        },
+        {
+          "form": "suggest + that + clause",
+          "example": "\"He suggested that the team needed more training.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Reporting Verbs",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ She suggested to take a break.",
+          "example": "✅ She suggested taking a break. (suggest + gerund, NOT to-infinitive)"
+        },
+        {
+          "form": "❌ He recommended me to apply.",
+          "example": "✅ He recommended that I apply. OR He advised me to apply. (recommend cannot take object + infinitive)"
+        },
+        {
+          "form": "❌ She denied to have taken the money.",
+          "example": "✅ She denied taking the money. (deny + gerund, NOT infinitive)"
+        },
+        {
+          "form": "❌ He admitted to make a mistake.",
+          "example": "✅ He admitted making a mistake. (admit + gerund)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct verb pattern.",
+      "text": "\"She ___ (suggest) ___ the salary before accepting the offer.\"",
+      "opts": [
+        "suggested to negotiate",
+        "suggested negotiating",
+        "suggested that negotiate",
+        "suggested negotiate"
+      ],
+      "correct": "suggested negotiating",
+      "hint": "\"Suggest + gerund\" (suggest doing)"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct verb pattern.",
+      "text": "\"He ___ (refuse) ___ the non-disclosure agreement.\"",
+      "opts": [
+        "refused signing",
+        "refused to sign",
+        "refused that he signs",
+        "refused for signing"
+      ],
+      "correct": "refused to sign",
+      "hint": "\"Refuse + to + infinitive\""
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct verb pattern.",
+      "text": "\"She denied ___ (take) credit for her colleague's work.\"",
+      "correct": "taking",
+      "hint": "\"Deny + gerund\" (deny doing something)"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "He recommended her to apply for the position.",
+        "He recommended her applying for the position.",
+        "He recommended that she apply for the position.",
+        "He recommended to apply for the position."
+      ],
+      "correct": "He recommended that she apply for the position.",
+      "hint": "\"Recommend + that + subject + base verb\" OR \"recommend + gerund\" — NOT \"recommend + object + to-inf\""
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"She advised him ___ (not / accept) the first offer without researching the market rate.\"",
+      "correct": "not to accept",
+      "hint": "\"Advise + object + not to + infinitive\""
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose the correct verb pattern.",
+      "text": "\"He admitted ___ (not prepare) adequately for the presentation.\"",
+      "opts": [
+        "to not prepare",
+        "not to prepare",
+        "not preparing",
+        "that not prepared"
+      ],
+      "correct": "not preparing",
+      "hint": "\"Admit + gerund\" (admit doing / not doing)"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"She promised ___ (send) the updated CV before noon.\"",
+      "correct": "to send",
+      "hint": "\"Promise + to + infinitive\""
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "He warned her don't sign without reading.",
+        "He warned her not to sign without reading.",
+        "He warned her to not signing without reading.",
+        "He warned her for not signing."
+      ],
+      "correct": "He warned her not to sign without reading.",
+      "hint": "\"Warn + object + not to + infinitive\""
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"She encouraged ___ (him / continue) despite the setbacks.\"",
+      "correct": "him to continue",
+      "hint": "\"Encourage + object + to + infinitive\""
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Which reporting verb is followed by a gerund ONLY?",
+      "text": "",
+      "opts": [
+        "promise",
+        "threaten",
+        "deny",
+        "agree"
+      ],
+      "correct": "deny",
+      "hint": "\"Deny\" must be followed by a gerund: \"deny doing\" (NOT \"deny to do\")"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"He threatened ___ (resign) if the team was not given proper resources.\"",
+      "correct": "to resign",
+      "hint": "\"Threaten + to + infinitive\""
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct verb pattern.",
+      "text": "\"She insisted ___ reviewing all contracts before signing.\"",
+      "opts": [
+        "to review",
+        "that review",
+        "on reviewing",
+        "for reviewing"
+      ],
+      "correct": "on reviewing",
+      "hint": "\"Insist on + gerund\" (insist on doing)"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"He apologised ___ (not / reply) to her email sooner.\"",
+      "correct": "for not replying",
+      "hint": "\"Apologise for + gerund\" (apologise for doing)"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "",
+      "opts": [
+        "She offered help with the application.",
+        "She offered to help with the application.",
+        "She offered helping with the application.",
+        "She offered her help to the application."
+      ],
+      "correct": "She offered to help with the application.",
+      "hint": "\"Offer + to + infinitive\""
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Rewrite using a reporting verb.",
+      "text": "\"'You should update your skills,' she said to him.\" → She advised ___ his skills.",
+      "correct": "him to update",
+      "hint": "\"Advise + object + to + infinitive\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which sentence is INCORRECT?",
+      "text": "",
+      "opts": [
+        "He agreed to start the project immediately.",
+        "She suggested working from home on Fridays.",
+        "He claimed to have significant experience.",
+        "She denied to have made the error."
+      ],
+      "correct": "She denied to have made the error.",
+      "hint": "\"Deny + gerund\": \"denied making the error\" (not \"denied to have made\")"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She admitted ___ the deadline.\" (she said she missed it)",
+      "opts": [
+        "to miss",
+        "missing",
+        "that miss",
+        "to have miss"
+      ],
+      "correct": "missing",
+      "hint": "\"Admit + gerund\" (admit doing something)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"He refused ___ overtime without additional pay.\"",
+      "opts": [
+        "working",
+        "to work",
+        "work",
+        "that work"
+      ],
+      "correct": "to work",
+      "hint": "\"Refuse + to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She denied ___ (take) any credit for the team's success.\"",
+      "correct": "taking",
+      "hint": "\"Deny + gerund\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The mentor encouraged her ___ the position even though it was a stretch.\"",
+      "opts": [
+        "apply",
+        "applying",
+        "to apply",
+        "that applies"
+      ],
+      "correct": "to apply",
+      "hint": "\"Encourage + object + to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence uses a reporting verb correctly?",
+      "opts": [
+        "She suggested to take a different approach.",
+        "He recommended her to apply.",
+        "She denied making any errors in the report.",
+        "He admitted to make a mistake."
+      ],
+      "correct": "She denied making any errors in the report.",
+      "hint": "\"Deny + gerund\" — all other options have errors",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"He recommended that she apply for the role\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Recommend + that + subject + base verb\" — correct",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She warned him ___ (not / sign) the contract without legal advice.\"",
+      "correct": "not to sign",
+      "hint": "\"Warn + object + not to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"He promised ___ the performance review on time this quarter.\"",
+      "opts": [
+        "completing",
+        "complete",
+        "to complete",
+        "that completing"
+      ],
+      "correct": "to complete",
+      "hint": "\"Promise + to + infinitive\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She apologised ___ (miss) the quarterly review meeting.\"",
+      "correct": "for missing",
+      "hint": "\"Apologise for + gerund\"",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"He insisted ___ having his annual leave approved before starting the project.\"",
+      "opts": [
+        "to have",
+        "on having",
+        "that having",
+        "for having"
+      ],
+      "correct": "on having",
+      "hint": "\"Insist on + gerund\"",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She ___ (threaten) to go to HR if the situation was not resolved.\"",
+      "correct": "threatened",
+      "hint": "\"Threaten + to + infinitive\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She claimed ___ over ten years of relevant experience.\"",
+      "opts": [
+        "having",
+        "to have",
+        "that having",
+        "have"
+      ],
+      "correct": "to have",
+      "hint": "\"Claim + to + infinitive\" (claim to have / be / do)",
+      "points": 2
+    }
+  ]
+}

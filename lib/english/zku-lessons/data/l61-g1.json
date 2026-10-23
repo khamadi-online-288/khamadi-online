@@ -1,0 +1,620 @@
+{
+  "id": "l61-g1",
+  "moduleNum": 3,
+  "lessonNum": 5,
+  "moduleTitle": "Conditionals: All Four Types",
+  "type": "grammar",
+  "title": "Zero, First & Second Conditionals: Form and Use",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Zero, First & Second Conditionals — Form, Use & Subtle Differences",
+  "grammarNote": "Три первых типа условных предложений охватывают всё: от универсальных фактов до гипотетических ситуаций. На уровне B1 важно не просто знать формулы, но понимать, почему выбирается тот или иной тип — какое отношение к реальности он выражает, и как тонкие изменения в выборе типа меняют смысл.",
+  "grammarTable": [
+    {
+      "subject": "ZERO conditional",
+      "verb": "if + Present Simple, Present Simple",
+      "short": "facts / laws / habits",
+      "example": "\"If water boils at 100°C.\" / \"If she misses breakfast, she gets headaches.\""
+    },
+    {
+      "subject": "FIRST conditional",
+      "verb": "if + Present Simple, will + base",
+      "short": "real future possibility",
+      "example": "\"If you study now, you will pass.\" / \"If it rains, we'll cancel.\""
+    },
+    {
+      "subject": "SECOND conditional",
+      "verb": "if + Past Simple, would + base",
+      "short": "hypothetical / unlikely",
+      "example": "\"If I were you, I'd apply.\" / \"If I had more time, I would help.\""
+    },
+    {
+      "subject": "Second: were to",
+      "verb": "if + were to + base, would + base",
+      "short": "emphatic hypothetical",
+      "example": "\"If the government were to raise taxes, inflation would fall.\" (formal)"
+    },
+    {
+      "subject": "Unless",
+      "verb": "= if not",
+      "short": "negative condition",
+      "example": "\"Unless you study, you won't pass.\" = \"If you don't study, you won't pass.\""
+    },
+    {
+      "subject": "Provided / As long as",
+      "verb": "= if (only when condition is met)",
+      "short": "condition required",
+      "example": "\"You can stay, provided you are quiet.\" / \"...as long as you help.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Zero vs First: certainty vs possibility",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Zero = automatic, certain result",
+          "example": "\"If you heat water to 100°C, it boils.\" (always — no exception) ✅"
+        },
+        {
+          "form": "First = likely, possible result",
+          "example": "\"If you heat the water, it will boil.\" (likely — you expect it to happen) ✅"
+        },
+        {
+          "form": "The difference is speaker's certainty",
+          "example": "Zero = law / fact. First = prediction / expectation. Same words, different relationship to reality."
+        },
+        {
+          "form": "First for warnings and promises",
+          "example": "\"If you don't submit, you will fail.\" (warning) / \"If you help me, I will return the favour.\" (promise) ✅"
+        }
+      ]
+    },
+    {
+      "title": "First vs Second: real vs hypothetical",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "First = the speaker thinks it's realistic",
+          "example": "\"If I get the scholarship, I will go.\" (speaker expects this might happen) ✅"
+        },
+        {
+          "form": "Second = the speaker considers it unlikely or imagined",
+          "example": "\"If I got the scholarship, I would go.\" (speaker doesn't really expect to get it) ✅"
+        },
+        {
+          "form": "Same event, different attitude",
+          "example": "\"If it rains, I'll cancel.\" (probable rain) vs \"If it rained, I'd cancel.\" (unlikely — speaker expects sun) ✅"
+        },
+        {
+          "form": "Second for polite distancing",
+          "example": "\"If I were you, I'd apply.\" — hypothetical you, softer than \"You should apply.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "Second conditional: \"were to\" — formal and emphatic",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"If I were you\" — fixed expression",
+          "example": "\"If I were you, I'd reconsider.\" ✅ (NOT \"If I was you\" in formal English)"
+        },
+        {
+          "form": "\"were to\" = formal/emphatic hypothetical",
+          "example": "\"If the government were to raise taxes, inflation would fall.\" — formal policy discussion ✅"
+        },
+        {
+          "form": "\"were to\" stresses the hypothetical nature",
+          "example": "\"If she were to discover the truth, it would change everything.\" (emphasises: she won't, but suppose she did) ✅"
+        },
+        {
+          "form": "vs plain \"was\" in informal speech",
+          "example": "\"If I was richer, I'd travel more.\" — acceptable in informal/spoken English ✅"
+        }
+      ]
+    },
+    {
+      "title": "Variations: unless / provided / as long as / in case",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "UNLESS = if not",
+          "example": "\"Unless you study, you won't pass.\" = \"If you don't study, you won't pass.\" ✅"
+        },
+        {
+          "form": "PROVIDED (THAT) = only if the condition is met",
+          "example": "\"You can stay, provided that you don't make noise.\" = \"If you don't make noise, you can stay.\" ✅"
+        },
+        {
+          "form": "AS LONG AS = provided (same meaning)",
+          "example": "\"I'll help you, as long as you help me too.\" = same as \"provided that.\" ✅"
+        },
+        {
+          "form": "IN CASE = because something might happen",
+          "example": "\"Take an umbrella IN CASE it rains.\" (not IF) — preparing for a possibility, not stating a condition ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common errors with first and second conditionals",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"If I will go to Paris, I will visit the Eiffel Tower.\"",
+          "example": "✅ \"If I GO to Paris...\" — if-clause uses Present Simple, NOT will! ✅"
+        },
+        {
+          "form": "✗ \"If I would have more time, I would help.\"",
+          "example": "✅ \"If I HAD more time, I would help.\" — if-clause uses Past Simple in 2nd conditional. ✅"
+        },
+        {
+          "form": "✗ \"If I was you, I would apply.\" (formal context)",
+          "example": "✅ \"If I WERE you...\" — in formal English, always \"were\" not \"was\" for hypothetical. ✅"
+        },
+        {
+          "form": "✗ \"Unless you don't study, you won't pass.\"",
+          "example": "✅ \"Unless you study...\" — \"unless\" already means \"if not.\" Adding \"don't\" creates double negative. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Zero, First & Second Conditionals:\n\nZERO: if + PS, PS\n→ Facts, laws, automatic results\n\"If water boils, steam rises.\"\n\nFIRST: if + PS, will + base\n→ Real possible future\n\"If you study, you WILL pass.\"\n⚠️ NEVER \"if you will study\"\n\nSECOND: if + Past Simple, would + base\n→ Hypothetical / unlikely / imagined\n\"If I HAD more time, I WOULD help.\"\n⚠️ NEVER \"if I would have\"\n\nWERE TO = formal emphatic hypothetical:\n\"If I WERE TO apply, what would happen?\"\n\nVariations:\nunless = if not\nprovided/as long as = only if\nin case = preparing for possibility (≠ if)\n\n💡 Real or hypothetical?\n\"If it rains, I'll cancel.\" → I think it might rain\n\"If it rained, I'd cancel.\" → I don't expect rain",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Zero or First? Choose.",
+      "text": "\"If you ___ this button, the screen ___.\" (automatic physical result)",
+      "opts": [
+        "press / turns off",
+        "will press / turns off",
+        "press / will turn off",
+        "pressed / would turn off"
+      ],
+      "correct": "press / turns off",
+      "hint": "Automatic physical result = ZERO conditional. Present + Present. \"If you PRESS this button, the screen TURNS OFF.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "First or Second? Choose based on meaning.",
+      "text": "\"___ I win this competition, I ___ spend the prize money on a trip.\" (speaker thinks winning is possible)",
+      "opts": [
+        "Would / will",
+        "If / will",
+        "If / would",
+        "Should / would"
+      ],
+      "correct": "If / will",
+      "hint": "Possible future (speaker thinks it could happen) = FIRST conditional. \"If I win...I WILL spend...\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Second conditional — fill in correctly.",
+      "text": "\"If I ___ (be) the university president, I ___ (make) tuition free.\"",
+      "correct": "were / would make",
+      "hint": "Second conditional: IF + WERE + would + base. \"If I WERE the president, I WOULD MAKE tuition free.\" ✅ (NOT \"was\" in formal)"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Find the error.",
+      "text": "\"If it will rain tomorrow, we will cancel the picnic.\"",
+      "opts": [
+        "Correct",
+        "\"will rain\" should be \"rains\" — Present Simple in if-clause",
+        "\"cancel\" should be \"cancelled\"",
+        "\"will cancel\" should be \"would cancel\""
+      ],
+      "correct": "\"will rain\" should be \"rains\" — Present Simple in if-clause",
+      "hint": "✅ \"If it RAINS tomorrow, we will cancel.\" — NEVER \"will\" in the if-clause of first conditional! ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "\"Unless\" — choose the correct sentence.",
+      "text": "Which is correct?",
+      "opts": [
+        "\"Unless you don't call, she won't know.\"",
+        "\"Unless you call, she won't know.\"",
+        "\"Unless you will call, she won't know.\"",
+        "\"Unless you called, she would know.\""
+      ],
+      "correct": "\"Unless you call, she won't know.\"",
+      "hint": "\"unless\" = \"if not\" — already negative. \"Unless you call\" = \"If you don't call.\" NEVER \"unless you don't.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "\"Were to\" — formal hypothetical.",
+      "text": "\"If the government ___ to reduce interest rates, inflation ___ fall.\"",
+      "opts": [
+        "was / would",
+        "were / would",
+        "is / will",
+        "had / would have"
+      ],
+      "correct": "were / would",
+      "hint": "\"were to\" = formal emphatic hypothetical. \"If the government WERE TO reduce rates, inflation WOULD fall.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"unless,\" \"provided,\" or \"as long as.\"",
+      "text": "\"You can borrow my notes, ___ you return them by Friday.\"",
+      "correct": "provided / as long as",
+      "hint": "\"provided (that)\" or \"as long as\" = only on the condition that. \"You can borrow them PROVIDED you return them.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "\"In case\" vs \"if\" — choose.",
+      "text": "\"Take a spare pen ___ yours runs out during the exam.\"",
+      "opts": [
+        "if",
+        "in case",
+        "unless",
+        "provided"
+      ],
+      "correct": "in case",
+      "hint": "\"IN CASE\" = because something might happen (preparation). \"Take a pen IN CASE yours runs out.\" ≠ \"if\" (which states a condition) ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose: first or second conditional?",
+      "text": "\"If I had a car, I would drive you to the station.\" — The speaker probably:",
+      "opts": [
+        "has a car",
+        "is planning to buy a car",
+        "does NOT have a car — this is hypothetical",
+        "could get a car soon"
+      ],
+      "correct": "does NOT have a car — this is hypothetical",
+      "hint": "Second conditional = the speaker doesn't have a car. \"If I HAD a car\" = hypothetical (I don't). ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Change from first to second conditional to make hypothetical.",
+      "text": "\"If she applies, she will get the job.\" → Hypothetical: \"If she ___ , she ___ get the job.\"",
+      "correct": "applied / would",
+      "hint": "2nd conditional: \"If she APPLIED, she WOULD get the job.\" (hypothetical — perhaps she won't apply or it's unlikely) ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Find the error in the second conditional.",
+      "text": "\"If I would have more time, I would study more languages.\"",
+      "opts": [
+        "Correct",
+        "\"would have\" in if-clause is wrong — should be \"had\"",
+        "\"study\" should be \"studied\"",
+        "\"more\" is used incorrectly"
+      ],
+      "correct": "\"would have\" in if-clause is wrong — should be \"had\"",
+      "hint": "✅ \"If I HAD more time, I would study...\" — if-clause uses PAST SIMPLE, never \"would.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Zero conditional for a scientific law.",
+      "text": "\"If you apply a force to a body, the body ___ according to F=ma.\"",
+      "opts": [
+        "will accelerate",
+        "accelerates",
+        "would accelerate",
+        "has accelerated"
+      ],
+      "correct": "accelerates",
+      "hint": "Scientific law = ZERO conditional. Present Simple both clauses. \"the body ACCELERATES according to F=ma.\" ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "\"If I were you\" — why \"were\" not \"was\"?",
+      "text": "Why do we say \"If I were you\" not \"If I was you\"?",
+      "opts": [
+        "Grammar error — \"was\" is always correct",
+        "\"Were\" is the formal/subjunctive form required after \"if\" in hypothetical conditions (especially \"if I were you\")",
+        "\"Was\" is always informal",
+        "\"Were\" is only for plural subjects"
+      ],
+      "correct": "\"Were\" is the formal/subjunctive form required after \"if\" in hypothetical conditions (especially \"if I were you\")",
+      "hint": "\"If I were you\" = subjunctive were = formal hypothetical. In formal/written English, always \"were\" not \"was.\" ✅"
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "First conditional warning.",
+      "text": "\"If you ___ (not finish) the report by 5, you ___ (miss) the deadline.\"",
+      "opts": [
+        "won't finish / will miss",
+        "don't finish / will miss",
+        "won't finish / would miss",
+        "didn't finish / would miss"
+      ],
+      "correct": "don't finish / will miss",
+      "hint": "First conditional warning: \"If you DON'T FINISH... you WILL MISS...\" Present Simple + will. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the correct conditional.",
+      "text": "\"She looks exhausted. If she doesn't sleep now, ___ .\"",
+      "opts": [
+        "she would be worse",
+        "she will feel worse tomorrow",
+        "she had felt worse",
+        "she might have felt worse"
+      ],
+      "correct": "she will feel worse tomorrow",
+      "hint": "Real, likely consequence → First conditional. \"If she doesn't sleep, she WILL FEEL worse tomorrow.\" ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Polite advice — second conditional.",
+      "text": "\"___ in your position, I would speak to the professor directly.\"",
+      "opts": [
+        "If I am",
+        "If I were",
+        "If I would be",
+        "If I will be"
+      ],
+      "correct": "If I were",
+      "hint": "\"If I WERE in your position\" — hypothetical you (I'm not in your position). Second conditional. \"I WOULD speak...\" ✅"
+    },
+    {
+      "id": "e17",
+      "type": "fill",
+      "instruction": "Zero conditional for habit.",
+      "text": "\"Whenever I ___ (feel) stressed, I ___ (go) for a run — it always helps.\"",
+      "correct": "feel / go",
+      "hint": "Habit/automatic response = ZERO conditional. Present + Present. \"Whenever I FEEL stressed, I GO for a run.\" ✅"
+    },
+    {
+      "id": "e18",
+      "type": "mc",
+      "instruction": "Ambitious hypothetical — choose the type.",
+      "text": "\"If I ___ the president of Kazakhstan, I ___ invest more in rural education.\"",
+      "opts": [
+        "am / will",
+        "was / will",
+        "were / would",
+        "had been / would have"
+      ],
+      "correct": "were / would",
+      "hint": "Not realistic expectation = SECOND conditional. \"If I WERE the president, I WOULD invest...\" ✅"
+    },
+    {
+      "id": "e19",
+      "type": "mc",
+      "instruction": "Select the most natural conditional.",
+      "text": "\"If you leave now, ___ the 9 o'clock train.\" (realistic possibility)",
+      "opts": [
+        "you'd catch",
+        "you caught",
+        "you catch",
+        "you'll catch"
+      ],
+      "correct": "you'll catch",
+      "hint": "Realistic possibility + real train = FIRST conditional. \"If you leave now, you'LL CATCH the 9 o'clock train.\" ✅"
+    },
+    {
+      "id": "e20",
+      "type": "mc",
+      "instruction": "Identify: zero, first, or second conditional?",
+      "text": "\"If I spoke fluent Mandarin, I would have so many more job opportunities.\"",
+      "opts": [
+        "Zero — automatic result",
+        "First — real future possibility",
+        "Second — hypothetical (the speaker probably doesn't speak fluent Mandarin)",
+        "Mixed conditional"
+      ],
+      "correct": "Second — hypothetical (the speaker probably doesn't speak fluent Mandarin)",
+      "hint": "if + Past Simple + would = SECOND conditional. Speaker probably doesn't speak fluent Mandarin. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Zero conditional expresses:",
+      "opts": [
+        "Real future possibilities",
+        "Hypothetical situations",
+        "Automatic facts, laws, and habits",
+        "Past regrets"
+      ],
+      "correct": "Automatic facts, laws, and habits",
+      "hint": "Zero conditional = certain, automatic results — laws, habits, facts. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If you will study, you will pass.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"will study\" in if-clause is wrong — should be \"study\" (Present Simple)",
+        "\"pass\" needs \"will\"",
+        "\"if\" should be \"unless\""
+      ],
+      "correct": "\"will study\" in if-clause is wrong — should be \"study\" (Present Simple)",
+      "hint": "✅ \"If you STUDY, you will pass.\" NEVER \"will\" in the if-clause. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Second conditional uses ___ in the if-clause.",
+      "opts": [
+        "Present Simple",
+        "Will + base",
+        "Past Simple",
+        "Past Perfect"
+      ],
+      "correct": "Past Simple",
+      "hint": "Second conditional: if + PAST SIMPLE, would + base. \"If I had more time, I would help.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Unless you study\" is equivalent to:",
+      "opts": [
+        "\"If you study\"",
+        "\"If you don't study\"",
+        "\"Although you study\"",
+        "\"Provided you study\""
+      ],
+      "correct": "\"If you don't study\"",
+      "hint": "\"unless\" = \"if not.\" \"Unless you study\" = \"If you DON'T study.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If I ___ (be) taller, I ___ (play) basketball professionally.\"",
+      "correct": "were / would play",
+      "hint": "Second conditional: IF + WERE + would + base. \"If I WERE taller, I WOULD PLAY professionally.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If I were you\" vs \"If I was you\" — in formal English:",
+      "opts": [
+        "Both are always correct",
+        "\"was\" is always preferred",
+        "\"were\" is the correct subjunctive form",
+        "\"were\" is only for plural"
+      ],
+      "correct": "\"were\" is the correct subjunctive form",
+      "hint": "\"were\" = subjunctive mood in hypothetical conditions. In formal English, always \"If I WERE you.\" ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Take a first aid kit in case there is an accident.\" — \"in case\" means:",
+      "opts": [
+        "If",
+        "Unless",
+        "Because there will be (prediction)",
+        "Preparing for a possibility that might happen"
+      ],
+      "correct": "Preparing for a possibility that might happen",
+      "hint": "\"in case\" = because X might happen — preparation, not a condition. \"In case\" ≠ \"if.\" ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If it rains, I'll cancel.\" vs \"If it rained, I'd cancel.\" — difference?",
+      "opts": [
+        "No difference",
+        "First = speaker thinks rain is possible; Second = speaker doesn't expect rain",
+        "First is formal, Second informal",
+        "One is past, one future"
+      ],
+      "correct": "First = speaker thinks rain is possible; Second = speaker doesn't expect rain",
+      "hint": "First = realistic possibility. Second = hypothetical (speaker thinks it won't rain). Same event, different attitude. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"If the government were to introduce this law...\" — \"were to\" is:",
+      "opts": [
+        "A mistake — should be \"was\"",
+        "Past simple",
+        "Formal emphatic hypothetical — second conditional variant",
+        "Third conditional"
+      ],
+      "correct": "Formal emphatic hypothetical — second conditional variant",
+      "hint": "\"were to\" = emphatic, formal second conditional. Stresses the hypothetical nature. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is CORRECT?",
+      "opts": [
+        "\"If I would have time, I'd help.\"",
+        "\"If I have time, I'll help.\"",
+        "\"If I will have time, I'd help.\"",
+        "\"If I had time, I will help.\""
+      ],
+      "correct": "\"If I have time, I'll help.\"",
+      "hint": "\"If I HAVE time, I'LL help.\" — First conditional. Present + will. ✅ All others have errors in if-clause."
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Provided that you submit by Friday, I will accept it.\" — \"provided that\" means:",
+      "opts": [
+        "\"Unless\"",
+        "\"Only if this condition is met\"",
+        "\"Even if\"",
+        "\"In case\""
+      ],
+      "correct": "\"Only if this condition is met\"",
+      "hint": "\"provided that\" = only on condition that. Similar to \"if\" but stronger emphasis on the condition. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "The main difference between first and second conditional is:",
+      "opts": [
+        "Tense only",
+        "The speaker's view of likelihood — first = realistic, second = hypothetical/unlikely",
+        "Formality",
+        "The use of \"would\""
+      ],
+      "correct": "The speaker's view of likelihood — first = realistic, second = hypothetical/unlikely",
+      "hint": "First = speaker considers it possible. Second = speaker considers it unlikely or imagined. ✅"
+    }
+  ]
+}

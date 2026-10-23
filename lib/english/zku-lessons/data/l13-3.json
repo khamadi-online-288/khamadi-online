@@ -1,0 +1,255 @@
+{
+  "id": "l13-3",
+  "moduleNum": 13,
+  "lessonNum": 3,
+  "moduleTitle": "Numbers and money",
+  "title": "At the bank",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Teller",
+      "text": "Good afternoon! Welcome to Uralsk City Bank. How can I help you today?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "Good afternoon. I'd like to exchange some US dollars into tenge, please.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Teller",
+      "text": "Of course. How many dollars would you like to exchange?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "I have fifty dollars. What is the exchange rate today?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Teller",
+      "text": "Today's rate is 460 tenge to one dollar. So fifty dollars gives you 23,000 tenge.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "And is there a commission fee for the exchange?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Teller",
+      "text": "Yes — our commission is one percent. So from 23,000 tenge, we take 230 tenge as commission.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "So I receive 22,770 tenge in the end. That's fine. I'll go ahead with the exchange.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Teller",
+      "text": "Perfect. I also need to see your passport to process the exchange.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "Here it is. One more question — how much does it cost to send money to Pavlodar?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Teller",
+      "text": "A domestic transfer costs 150 tenge if the amount is under 50,000 tenge.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "And if the amount is above 50,000 tenge?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Teller",
+      "text": "Above 50,000, it's a flat fee of 300 tenge — very affordable for large transfers.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Tolegen",
+      "text": "Great. I'll take the exchange and also send 10,000 tenge to my parents in Pavlodar, please.",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "exchange rate",
+      "emoji": "📊",
+      "opts": [
+        "процентная ставка",
+        "налог на доходы",
+        "обменный курс",
+        "комиссия за перевод"
+      ],
+      "correct": "обменный курс"
+    },
+    {
+      "id": "p2",
+      "word": "commission",
+      "emoji": "💼",
+      "opts": [
+        "скидка",
+        "бонус",
+        "возврат",
+        "комиссия / банковский сбор"
+      ],
+      "correct": "комиссия / банковский сбор"
+    },
+    {
+      "id": "p3",
+      "word": "transfer",
+      "emoji": "🔄",
+      "opts": [
+        "снятие наличных",
+        "вклад",
+        "обмен валюты",
+        "денежный перевод"
+      ],
+      "correct": "денежный перевод"
+    },
+    {
+      "id": "p4",
+      "word": "currency",
+      "emoji": "💵",
+      "opts": [
+        "монета",
+        "чек",
+        "валюта",
+        "банкнота"
+      ],
+      "correct": "валюта"
+    },
+    {
+      "id": "p5",
+      "word": "domestic",
+      "emoji": "🇰🇿",
+      "opts": [
+        "международный",
+        "зарубежный",
+        "иностранный",
+        "внутренний / в пределах страны"
+      ],
+      "correct": "внутренний / в пределах страны"
+    },
+    {
+      "id": "p6",
+      "word": "flat fee",
+      "emoji": "🔒",
+      "opts": [
+        "переменная ставка",
+        "фиксированная комиссия",
+        "бесплатная услуга",
+        "скрытый налог"
+      ],
+      "correct": "фиксированная комиссия"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Tolegen wants to exchange euros into tenge.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "The exchange rate today is 460 tenge to one US dollar.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "The bank commission for the exchange is one percent.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "After the commission, Tolegen receives exactly 23,000 tenge.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "A domestic transfer under 50,000 tenge costs 150 tenge.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Tolegen plans to send 20,000 tenge to his parents in Pavlodar.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "tolegen",
+      "name": "Tolegen",
+      "city": "Pavlodar",
+      "emoji": "⚖️",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Law student, Year 1"
+    },
+    {
+      "id": "teller",
+      "name": "Teller",
+      "city": "Uralsk",
+      "emoji": "🏦",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "role": "Uralsk City Bank"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Wants to exchange US dollars into Kazakhstani tenge.",
+      "correctCharId": "tolegen"
+    },
+    {
+      "id": "s2",
+      "text": "Explained the exchange rate of 460 tenge per dollar.",
+      "correctCharId": "teller"
+    },
+    {
+      "id": "s3",
+      "text": "Calculated that 22,770 tenge is the final amount after commission.",
+      "correctCharId": "tolegen"
+    },
+    {
+      "id": "s4",
+      "text": "Asked about the cost of sending money to Pavlodar.",
+      "correctCharId": "tolegen"
+    },
+    {
+      "id": "s5",
+      "text": "Explained that transfers over 50,000 tenge cost a flat 300 tenge.",
+      "correctCharId": "teller"
+    },
+    {
+      "id": "s6",
+      "text": "Decided to exchange money AND send 10,000 tenge to parents.",
+      "correctCharId": "tolegen"
+    }
+  ]
+}

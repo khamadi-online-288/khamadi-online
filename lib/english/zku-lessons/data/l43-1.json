@@ -1,0 +1,543 @@
+{
+  "id": "l43-1",
+  "moduleNum": 9,
+  "lessonNum": 1,
+  "moduleTitle": "Asking & Answering",
+  "type": "reading",
+  "title": "The Art of Asking Good Questions",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Asking a good question is a skill. It sounds obvious, but most people — including many university students — have never been explicitly taught how to do it. They ask questions that are too vague, too leading, or simply unclear. They interrupt before the other person has finished answering. They ask several questions at once, leaving the person they're asking unsure which to address first. The result is usually a poor answer, not because the other person doesn't know, but because the question didn't give them enough direction.",
+    "At WKU, Professor Aidarov has started something new: a \"Question of the Week\" session at the start of each Thursday lecture. Before the session, students must submit one question they genuinely want answered — about the topic, about language learning, about career paths, about anything academically relevant. The constraint: the question must be written as a proper indirect question. Not \"Where is the stress in English?\" but \"Could you explain where the stress tends to fall in English compound nouns?\"",
+    "The difference, Professor Aidarov explains, is significant. A direct question can feel abrupt or even aggressive in a formal context. \"When you ask 'Where is the stress?'\" he says, \"you sound like you're demanding information. When you ask 'Could you tell me where the stress falls?' you sound like you're requesting it. The same information. Completely different relationship.\"",
+    "Students have responded enthusiastically. Kamila says the exercise has changed how she asks questions in seminars and even in everyday conversation. \"I used to fire off questions like machine gun bullets,\" she admits. \"Now I think before I ask. I consider what I actually want to know, how specific my question needs to be, and whether I'm asking the right person at the right moment.\"",
+    "Amir agrees, though he approaches the skill from a different angle. \"In computer science, the way you phrase a question to a search engine or an AI tool determines everything about the quality of the answer you get,\" he says. \"Garbage in, garbage out. The same is true for human conversations. If I ask my supervisor a poorly structured question, I get a vague answer. If I ask a precise, well-framed question, I get exactly what I need.\"",
+    "Rustam, characteristically, offers a simpler observation. \"The best question is the one that makes the other person think,\" he says. \"Not the one that traps them. Not the one that shows off what you already know. The one that actually opens something up.\" He pauses. \"I also think there's a lot to be said for not asking anything and just listening carefully. You learn a lot more than you think.\"",
+    "Tag questions are another important tool. \"You've been to Almaty, haven't you?\" invites confirmation and conversation. \"It's a beautiful city, isn't it?\" checks that the listener shares your view. These small additions to statements — the tags — keep conversation alive. They signal openness. They say: \"I'm not just talking at you. I want to know what you think too.\"",
+    "The ability to ask clearly, listen actively, and follow up precisely is one of the most valuable communication skills a student can develop. It is also, perhaps, one of the most underrated. Universities teach students what to know. They rarely teach them how to ask."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Could you tell me what \"indirect questions\" means exactly? I keep confusing them with reported speech.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "Good question — and perfectly phrased as an indirect question, incidentally. Indirect questions are polite question forms embedded in a larger structure.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Could you give me an example?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "\"Where is the library?\" becomes \"Could you tell me where the library is?\" Notice the word order changes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Ah — so the verb stays after the subject. It doesn't invert like in a direct question.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "Exactly. \"Do you know what time the lecture starts?\" — not \"Do you know what time does the lecture start?\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And tag questions? Could you tell me when we use those?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Aidarov",
+      "text": "Tags are added to the end of statements to check information or invite agreement. \"You're a linguist, aren't you?\" — you already believe it; you're confirming.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "too vague",
+      "ru": "слишком расплывчатый",
+      "context": "Most students ask questions that are too vague or unclear."
+    },
+    {
+      "phrase": "leading question",
+      "ru": "наводящий вопрос",
+      "context": "A leading question hints at the answer the questioner expects."
+    },
+    {
+      "phrase": "fire off questions",
+      "ru": "выстреливать вопросами",
+      "context": "\"I used to fire off questions like machine gun bullets.\" — many rapid questions."
+    },
+    {
+      "phrase": "garbage in, garbage out",
+      "ru": "на входе мусор — на выходе мусор",
+      "context": "\"Garbage in, garbage out.\" — the quality of the question determines the quality of the answer."
+    },
+    {
+      "phrase": "well-framed",
+      "ru": "хорошо сформулированный",
+      "context": "\"If I ask a precise, well-framed question, I get exactly what I need.\""
+    },
+    {
+      "phrase": "open something up",
+      "ru": "открывать что-то / создавать возможность",
+      "context": "\"The question that actually opens something up.\" — creates space for new ideas."
+    },
+    {
+      "phrase": "abrupt",
+      "ru": "резкий / отрывистый",
+      "context": "\"A direct question can feel abrupt in a formal context.\""
+    },
+    {
+      "phrase": "underrated",
+      "ru": "недооценённый",
+      "context": "\"Asking clearly is one of the most underrated skills.\""
+    }
+  ],
+  "vocab": [
+    {
+      "en": "indirect",
+      "ipa": "/ˌɪndɪˈrekt/",
+      "pos": "adjective",
+      "ru": "косвенный / непрямой",
+      "kz": "жанама",
+      "emoji": "↩️",
+      "definition": "not going straight to the point; expressed in a more polite way",
+      "example": "An indirect question sounds more polite than a direct demand for information.",
+      "collocations": [
+        "indirect question",
+        "indirect approach",
+        "speak indirectly"
+      ]
+    },
+    {
+      "en": "embed",
+      "ipa": "/ɪmˈbed/",
+      "pos": "verb",
+      "ru": "встраивать / включать",
+      "kz": "енгізу",
+      "emoji": "📌",
+      "definition": "to place something inside something else",
+      "example": "Indirect questions are embedded in a larger polite structure.",
+      "collocations": [
+        "embed in",
+        "deeply embedded",
+        "embedded clause"
+      ]
+    },
+    {
+      "en": "abrupt",
+      "ipa": "/əˈbrʌpt/",
+      "pos": "adjective",
+      "ru": "резкий / неожиданный",
+      "kz": "кенет",
+      "emoji": "⚡",
+      "definition": "sudden and unexpected; not polite or friendly",
+      "example": "A direct question can feel abrupt in a formal context.",
+      "collocations": [
+        "abrupt manner",
+        "seem abrupt",
+        "abrupt change"
+      ]
+    },
+    {
+      "en": "vague",
+      "ipa": "/veɪɡ/",
+      "pos": "adjective",
+      "ru": "расплывчатый / неясный",
+      "kz": "анық емес",
+      "emoji": "☁️",
+      "definition": "not clear or specific; leaving things uncertain",
+      "example": "If I ask a poorly structured question, I get a vague answer.",
+      "collocations": [
+        "vague answer",
+        "rather vague",
+        "be too vague"
+      ]
+    },
+    {
+      "en": "precise",
+      "ipa": "/prɪˈsaɪs/",
+      "pos": "adjective",
+      "ru": "точный",
+      "kz": "дәл",
+      "emoji": "🎯",
+      "definition": "exact and accurate; not vague",
+      "example": "A precise, well-framed question gets you exactly what you need.",
+      "collocations": [
+        "be more precise",
+        "precise definition",
+        "precise language"
+      ]
+    },
+    {
+      "en": "tag question",
+      "ipa": "/tæɡ ˈkwestʃən/",
+      "pos": "noun phrase",
+      "ru": "разделительный вопрос",
+      "kz": "бөлу сұрағы",
+      "emoji": "❓",
+      "definition": "a short question added to a statement to check or confirm",
+      "example": "\"You've been to Almaty, haven't you?\" — the tag question invites confirmation.",
+      "collocations": [
+        "add a tag question",
+        "positive tag",
+        "negative tag"
+      ]
+    },
+    {
+      "en": "confirmation",
+      "ipa": "/ˌkɒnfəˈmeɪʃən/",
+      "pos": "noun",
+      "ru": "подтверждение",
+      "kz": "растау",
+      "emoji": "✅",
+      "definition": "a statement or action that confirms something is true",
+      "example": "Tag questions seek confirmation of something the speaker already believes.",
+      "collocations": [
+        "seek confirmation",
+        "await confirmation",
+        "final confirmation"
+      ]
+    },
+    {
+      "en": "underrated",
+      "ipa": "/ˌʌndəˈreɪtɪd/",
+      "pos": "adjective",
+      "ru": "недооценённый",
+      "kz": "бағасы жеткіліксіз",
+      "emoji": "💎",
+      "definition": "not given enough credit or recognition for its value",
+      "example": "The ability to ask good questions is one of the most underrated skills.",
+      "collocations": [
+        "highly underrated",
+        "underrated skill",
+        "underrated talent"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "indirect",
+      "emoji": "↩️",
+      "opts": [
+        "прямой",
+        "косвенный",
+        "формальный",
+        "сложный"
+      ],
+      "correct": "косвенный"
+    },
+    {
+      "id": "p2",
+      "word": "abrupt",
+      "emoji": "⚡",
+      "opts": [
+        "мягкий",
+        "резкий / грубый",
+        "длинный",
+        "осторожный"
+      ],
+      "correct": "резкий / грубый"
+    },
+    {
+      "id": "p3",
+      "word": "vague",
+      "emoji": "☁️",
+      "opts": [
+        "точный",
+        "расплывчатый",
+        "ясный",
+        "подробный"
+      ],
+      "correct": "расплывчатый"
+    },
+    {
+      "id": "p4",
+      "word": "precise",
+      "emoji": "🎯",
+      "opts": [
+        "примерный",
+        "точный",
+        "разный",
+        "случайный"
+      ],
+      "correct": "точный"
+    },
+    {
+      "id": "p5",
+      "word": "underrated",
+      "emoji": "💎",
+      "opts": [
+        "переоценённый",
+        "недооценённый",
+        "популярный",
+        "неизвестный"
+      ],
+      "correct": "недооценённый"
+    },
+    {
+      "id": "p6",
+      "word": "embed",
+      "emoji": "📌",
+      "opts": [
+        "удалять",
+        "встраивать",
+        "перемещать",
+        "заменять"
+      ],
+      "correct": "встраивать"
+    }
+  ],
+  "task1Bank": [
+    "Thursday",
+    "indirect question",
+    "abrupt",
+    "machine gun bullets",
+    "supervisor",
+    "confirmation",
+    "underrated",
+    "listen"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Professor Aidarov's \"Question of the Week\" session happens on ___ .",
+      "correct": "Thursday"
+    },
+    {
+      "id": "t2",
+      "question": "Students must write their question as a proper ___ .",
+      "correct": "indirect question"
+    },
+    {
+      "id": "t3",
+      "question": "A direct question in a formal context can feel ___ .",
+      "correct": "abrupt"
+    },
+    {
+      "id": "t4",
+      "question": "Kamila says she used to fire off questions like ___ .",
+      "correct": "machine gun bullets"
+    },
+    {
+      "id": "t5",
+      "question": "Amir says a poorly structured question to his ___ gets a vague answer.",
+      "correct": "supervisor"
+    },
+    {
+      "id": "t6",
+      "question": "Tag questions at the end of statements seek ___ or invite agreement.",
+      "correct": "confirmation"
+    },
+    {
+      "id": "t7",
+      "question": "The text calls the ability to ask clearly one of the most ___ skills.",
+      "correct": "underrated"
+    },
+    {
+      "id": "t8",
+      "question": "Rustam suggests that sometimes it's better not to ask anything and just ___ carefully.",
+      "correct": "listen"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Most people have been explicitly taught how to ask good questions.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Professor Aidarov requires students to use indirect questions in his session.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Kamila still fires off questions rapidly without thinking.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "Amir connects good questioning to computer science principles.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Rustam believes the best question makes the other person feel trapped.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Tag questions signal openness and invite the listener to share their view.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says universities teach students how to ask questions effectively.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "An indirect question has different word order from a direct question.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Professor Aidarov require students to submit before his Thursday session?",
+      "opts": [
+        "A summary of the lecture",
+        "One indirect question they genuinely want answered",
+        "A quiz answer",
+        "A response to last week's question"
+      ],
+      "correct": "One indirect question they genuinely want answered",
+      "hint": "\"students must submit one question they genuinely want answered... written as a proper indirect question.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "A direct question sounds more polite than an indirect question in formal contexts.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"A direct question can feel abrupt or even aggressive in a formal context.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Amir mean by \"garbage in, garbage out\"?",
+      "opts": [
+        "Computers produce waste",
+        "A poor question produces a poor answer",
+        "AI is unreliable",
+        "You get what you pay for"
+      ],
+      "correct": "A poor question produces a poor answer",
+      "hint": "\"Garbage in, garbage out... If I ask a poorly structured question, I get a vague answer.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Rustam say the best question does?",
+      "opts": [
+        "Traps the person",
+        "Shows off your knowledge",
+        "Makes the person think and opens something up",
+        "Gets a factual answer quickly"
+      ],
+      "correct": "Makes the person think and opens something up",
+      "hint": "\"The best question is the one that makes the other person think... that actually opens something up.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Tag questions signal openness and say: \"I want to know what you ___ too.\"",
+      "correct": "think",
+      "hint": "\"They say: 'I'm not just talking at you. I want to know what you think too.'\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "According to the last paragraph, what do universities rarely teach?",
+      "opts": [
+        "What to know",
+        "How to study",
+        "How to ask questions",
+        "How to write essays"
+      ],
+      "correct": "How to ask questions",
+      "hint": "\"Universities teach students what to know. They rarely teach them how to ask.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"An abrupt manner\" means:",
+      "opts": [
+        "a gentle, careful approach",
+        "a sudden, not very friendly manner",
+        "a detailed, careful approach",
+        "a formal, polite manner"
+      ],
+      "correct": "a sudden, not very friendly manner",
+      "hint": "\"abrupt\" = sudden and unexpected; not polite or gentle."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "Ask a ___ question — not vague or unclear, but exact and specific.",
+      "correct": "precise",
+      "hint": "\"precise\" = exact and accurate. A precise question gets you exactly what you need."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The skill is underrated.\" \"Underrated\" means:",
+      "opts": [
+        "well-known and respected",
+        "not given enough credit for its value",
+        "too difficult to learn",
+        "recently discovered"
+      ],
+      "correct": "not given enough credit for its value",
+      "hint": "\"underrated\" = not appreciated or recognised as much as it should be."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A tag question\" is:",
+      "opts": [
+        "A long formal question",
+        "A question at the start of a sentence",
+        "A short question added to a statement to check or confirm",
+        "A type of indirect question"
+      ],
+      "correct": "A short question added to a statement to check or confirm",
+      "hint": "\"You've been to Almaty, haven't you?\" — the tag (\"haven't you?\") invites confirmation."
+    }
+  ]
+}

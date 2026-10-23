@@ -1,0 +1,233 @@
+{
+  "id": "l1-g2",
+  "moduleNum": 1,
+  "lessonNum": 4,
+  "moduleTitle": "Hello, world!",
+  "title": "Articles: a / an / the",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Articles: a / an / the / Ø",
+  "grammarNote": "Артикль — маленькое слово перед существительным. Показывает: конкретный это предмет или нет, впервые упоминается или уже известен. В казахском и русском артиклей нет, поэтому их нужно специально учить.",
+  "grammarTable": [
+    {
+      "subject": "a",
+      "verb": "перед согласным звуком",
+      "short": "неизвестный",
+      "example": "a student · a book · a city · a university (звук [j])"
+    },
+    {
+      "subject": "an",
+      "verb": "перед гласным звуком",
+      "short": "неизвестный",
+      "example": "an apple · an English teacher · an hour · an idea"
+    },
+    {
+      "subject": "the",
+      "verb": "конкретный / единственный",
+      "short": "известный",
+      "example": "the library · the sun · the WKU campus · the first lesson"
+    },
+    {
+      "subject": "Ø",
+      "verb": "множ. ч. / в целом",
+      "short": "без артикля",
+      "example": "Ø students · Ø English · go to Ø university · Ø books"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Звук важнее буквы!",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "a university",
+          "example": "Буква u, но звук [j] — согласный → a, НЕ an"
+        },
+        {
+          "form": "an hour",
+          "example": "Буква h, но звук [aʊ] — гласный → an, НЕ a"
+        },
+        {
+          "form": "a European",
+          "example": "Буква E, но звук [j] — согласный → a"
+        },
+        {
+          "form": "an honest person",
+          "example": "Буква h немая, звук [ɒ] — гласный → an"
+        }
+      ]
+    },
+    {
+      "title": "Когда использовать THE",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "#C7D7EE",
+      "rows": [
+        {
+          "form": "the sun / the moon",
+          "example": "Одна такая вещь в мире — только одна"
+        },
+        {
+          "form": "the WKU library",
+          "example": "Оба знают, о какой библиотеке речь"
+        },
+        {
+          "form": "the first / the best",
+          "example": "С порядковыми числительными и превосходной степенью"
+        },
+        {
+          "form": "I bought a book. The book was great.",
+          "example": "Второй раз упоминаем тот же предмет"
+        }
+      ]
+    },
+    {
+      "title": "Когда артикль НЕ нужен (Ø)",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Ø English is fun",
+          "example": "Язык / предмет в целом — не конкретный"
+        },
+        {
+          "form": "go to Ø university",
+          "example": "Идти учиться (не в конкретный университет)"
+        },
+        {
+          "form": "Ø students are creative",
+          "example": "Все студенты вообще, не конкретные"
+        },
+        {
+          "form": "Ø Kazakhstan",
+          "example": "Большинство стран без артикля"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Главное правило — первый раз a/an, второй раз the:\n«I met a student. The student was from Aktobe.»\n\nНе знаешь — используй a/an. Ошибиться с a/an менее критично, чем забыть артикль совсем!",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "She is ___ English teacher.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct": "an",
+      "hint": "\"English\" starts with vowel sound [ɪ] → an."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "I study at ___ WKU.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct": "the",
+      "hint": "Specific university both know about → the."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Which is correct?",
+      "text": "___ sun rises in the east.",
+      "opts": [
+        "A",
+        "An",
+        "The",
+        "Ø"
+      ],
+      "correct": "The",
+      "hint": "There is only one sun in the world → the."
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "{t.lesson.task2_title}",
+      "text": "\"She is a university student\" is correct (a, not an).",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"University\" sounds like [j]uːnɪvɜːsɪti — consonant sound → a."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "I have ___ idea!",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct": "an",
+      "hint": "\"Idea\" starts with vowel sound [aɪ] → an."
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Fill in: a, an, the or Ø (type Ø if no article).",
+      "text": "I saw ___ cat yesterday. ___ cat was black.",
+      "correct": "a the",
+      "hint": "First mention → a. Second mention (we know which cat) → the."
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Which sentence is correct?",
+      "text": "She goes to ___ school every day.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct": "Ø",
+      "hint": "\"Go to school\" (general activity, not a specific building) → no article."
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct article.",
+      "text": "He is ___ honest person.",
+      "opts": [
+        "a",
+        "an",
+        "the",
+        "Ø"
+      ],
+      "correct": "an",
+      "hint": "\"Honest\" — the h is silent, sounds like [ɒnɪst] — vowel sound → an."
+    }
+  ],
+  "questions": []
+}

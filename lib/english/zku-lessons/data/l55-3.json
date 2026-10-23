@@ -1,0 +1,436 @@
+{
+  "id": "l55-3",
+  "moduleNum": 21,
+  "lessonNum": 3,
+  "moduleTitle": "Telling Stories",
+  "type": "listening",
+  "title": "What Had Happened?",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Rustam, you look terrible. What happened?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "You won't believe this. Yesterday was a disaster.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Tell me everything.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "OK. So I had arranged to present my research project to Professor Akhmetov at 2 p.m.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Right — you had been working on it for weeks.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Exactly. I had prepared everything. The slides, the data, even the summary printout. But when I arrived at the office — the professor wasn't there.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What? Had he forgotten?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "He had been called to an emergency faculty meeting at 1:45. No one had told me. His assistant said she had tried to email me, but I hadn't checked.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Oh no. So what did you do?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I waited for an hour. Then his assistant came and said: \"The professor will see you now.\" I went in. He apologised. Then he asked me to present — still in his coat.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Did the presentation go well?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Better than I'd expected, honestly. By the time I started speaking, I had calmed down. All the preparation I had done paid off.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "So after all that drama, it turned out OK?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not just OK — he said it was one of the best student research presentations he had seen this year.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I can't believe it! After everything that had happened!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "I know. If I had known it would end like that, I wouldn't have panicked so much.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "arrange",
+      "emoji": "📋",
+      "opts": [
+        "отменить",
+        "организовать / договориться",
+        "забыть",
+        "изменить"
+      ],
+      "correct": "организовать / договориться"
+    },
+    {
+      "id": "p2",
+      "word": "emergency",
+      "emoji": "🚨",
+      "opts": [
+        "плановый",
+        "экстренный / срочный",
+        "обычный",
+        "долгосрочный"
+      ],
+      "correct": "экстренный / срочный"
+    },
+    {
+      "id": "p3",
+      "word": "faculty meeting",
+      "emoji": "🏛️",
+      "opts": [
+        "встреча студентов",
+        "собрание факультета",
+        "зачёт",
+        "экзамен"
+      ],
+      "correct": "собрание факультета"
+    },
+    {
+      "id": "p4",
+      "word": "apologise",
+      "emoji": "😔",
+      "opts": [
+        "обвинить",
+        "принести извинения",
+        "объяснить",
+        "проигнорировать"
+      ],
+      "correct": "принести извинения"
+    },
+    {
+      "id": "p5",
+      "word": "pay off",
+      "emoji": "✅",
+      "opts": [
+        "потерпеть неудачу",
+        "оправдаться / принести результат",
+        "занять",
+        "продолжить"
+      ],
+      "correct": "оправдаться / принести результат"
+    },
+    {
+      "id": "p6",
+      "word": "panic",
+      "emoji": "😱",
+      "opts": [
+        "расслабляться",
+        "паниковать",
+        "сосредотачиваться",
+        "спать"
+      ],
+      "correct": "паниковать"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Rustam had arranged to present at 2 p.m.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The professor had forgotten about the meeting completely.",
+      "correct": "false"
+    },
+    {
+      "id": "t3",
+      "question": "The professor had been called to an emergency faculty meeting.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Rustam had checked his email before arriving.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "The professor presented while still wearing his coat.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "The professor said it was the best presentation he had ever seen.",
+      "correct": "false"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "rustam",
+      "name": "Rustam",
+      "city": "Uralsk",
+      "emoji": "😩",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Telling a chaotic story using Past Perfect throughout"
+    },
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "😮",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "Listening and reacting, prompting Rustam to continue"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Had arranged to present research to Professor Akhmetov at 2 p.m.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s2",
+      "text": "Had prepared slides, data, and a summary printout.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s3",
+      "text": "Had been called to an emergency faculty meeting at 1:45.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s4",
+      "text": "Says the assistant had tried to email but Rustam hadn't checked.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s5",
+      "text": "Says by the time he started speaking, he had calmed down.",
+      "correctCharId": "rustam"
+    },
+    {
+      "id": "s6",
+      "text": "Says all the preparation he had done paid off.",
+      "correctCharId": "rustam"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What had Rustam arranged for 2 p.m.?",
+      "opts": [
+        "An exam",
+        "A research presentation to Professor Akhmetov",
+        "A group meeting",
+        "An appointment at the clinic"
+      ],
+      "correct": "A research presentation to Professor Akhmetov",
+      "hint": "\"I had arranged to present my research project to Professor Akhmetov at 2 p.m.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why was the professor not in his office?",
+      "opts": [
+        "He had forgotten",
+        "He had gone home",
+        "He had been called to an emergency faculty meeting at 1:45",
+        "He was ill"
+      ],
+      "correct": "He had been called to an emergency faculty meeting at 1:45",
+      "hint": "\"He had been called to an emergency faculty meeting at 1:45.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam had checked his email before arriving.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"His assistant said she had tried to email me, but I hadn't checked.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long did Rustam wait before the professor returned?",
+      "opts": [
+        "30 minutes",
+        "45 minutes",
+        "One hour",
+        "Two hours"
+      ],
+      "correct": "One hour",
+      "hint": "\"I waited for an hour. Then his assistant came and said: 'The professor will see you now.'\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How did Rustam feel by the time he started the presentation?",
+      "opts": [
+        "Still panicking",
+        "Calm — the preparation had helped",
+        "Angry at the professor",
+        "Too tired to care"
+      ],
+      "correct": "Calm — the preparation had helped",
+      "hint": "\"By the time I started speaking, I had calmed down. All the preparation I had done paid off.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What did the professor say about the presentation?",
+      "opts": [
+        "It needed more work",
+        "It was adequate",
+        "It was one of the best student presentations he had seen this year",
+        "It was too long"
+      ],
+      "correct": "It was one of the best student presentations he had seen this year",
+      "hint": "\"He said it was one of the best student research presentations he had seen this year.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam says he wishes he had panicked more.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"If I had known it would end like that, I wouldn't have panicked so much.\" — he regrets panicking too much, not too little."
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"all the preparation I had done paid off\" mean?",
+      "opts": [
+        "The preparation was wasted",
+        "The preparation eventually brought good results",
+        "He prepared too much",
+        "He didn't prepare enough"
+      ],
+      "correct": "The preparation eventually brought good results",
+      "hint": "\"pay off\" = to produce a good result after effort. The hard work rewarded him. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I had arranged to present at 2 p.m.\" — Past Perfect because:",
+      "opts": [
+        "Past Simple felt wrong",
+        "This happened BEFORE another past event (arriving and finding no one)",
+        "Future plans use Past Perfect",
+        "This was a habitual action"
+      ],
+      "correct": "This happened BEFORE another past event (arriving and finding no one)",
+      "hint": "Past Perfect = earlier past action. The arrangement happened BEFORE the arrival. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He had been called to a meeting.\" Past Perfect Passive because:",
+      "opts": [
+        "It shows future plans",
+        "Something happened TO the professor before Rustam arrived",
+        "Past Continuous is not enough",
+        "Present Perfect sounds wrong"
+      ],
+      "correct": "Something happened TO the professor before Rustam arrived",
+      "hint": "\"had been called\" = Past Perfect Passive. The meeting call happened BEFORE Rustam arrived. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"By the time I started speaking, I had calmed down.\" — \"had calmed\" means:",
+      "opts": [
+        "Calmed while speaking",
+        "Calmed at the same time as starting",
+        "Calmed BEFORE starting to speak — earlier action",
+        "Will calm down later"
+      ],
+      "correct": "Calmed BEFORE starting to speak — earlier action",
+      "hint": "\"By the time + Past Simple\" → the earlier action uses Past Perfect. \"HAD calmed\" before \"started.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"If I ___ (know) it would end like that, I wouldn't have panicked.\"",
+      "correct": "had known",
+      "hint": "Third conditional: \"If I HAD KNOWN...\" — imagining a different past. ✅"
+    }
+  ]
+}

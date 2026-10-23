@@ -1,0 +1,255 @@
+{
+  "id": "l13-2",
+  "moduleNum": 13,
+  "lessonNum": 2,
+  "moduleTitle": "Numbers and money",
+  "title": "How much is it?",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Asel",
+      "text": "Sanzhar, how much is that photo frame? I think our professor would really like it.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "Let me check the price tag... it says 3,200 tenge. That's a bit expensive for a group gift, isn't it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Asel",
+      "text": "You're right — if eight people split it, that's 400 tenge each. Hmm. What about those notebooks?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "Those ones? They're 850 tenge each. That's much more reasonable!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Asel",
+      "text": "But one notebook feels too simple. What about that pen set over there, next to the bookmarks?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "The black pen set? It's 2,100 tenge. That's about 262 tenge each if eight people pay.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Asel",
+      "text": "That's perfect! And how much are those bookmarks beside it? I think we should add them.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "450 tenge for a set of five beautiful bookmarks. So the pen set plus bookmarks is 2,550 tenge total.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Asel",
+      "text": "I love it. Can we get a discount if we pay in cash?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "Good idea — let me ask. [whispering] How much cash do you have on you?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Asel",
+      "text": "I have 1,300 tenge. What about you?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "I have 1,400. Together that's 2,700 — enough for both! And 150 tenge change.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Asel",
+      "text": "Let's do it. The professor is going to love this gift!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Sanzhar",
+      "text": "Eight people, about 319 tenge each. That's the best value gift I've ever bought!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "discount",
+      "emoji": "🏷️",
+      "opts": [
+        "наценка",
+        "налог",
+        "скидка",
+        "комиссия"
+      ],
+      "correct": "скидка"
+    },
+    {
+      "id": "p2",
+      "word": "cash",
+      "emoji": "💵",
+      "opts": [
+        "карта",
+        "кредит",
+        "чек",
+        "наличные деньги"
+      ],
+      "correct": "наличные деньги"
+    },
+    {
+      "id": "p3",
+      "word": "split the cost",
+      "emoji": "🤝",
+      "opts": [
+        "удвоить цену",
+        "заплатить всё одному",
+        "разделить стоимость",
+        "вернуть деньги"
+      ],
+      "correct": "разделить стоимость"
+    },
+    {
+      "id": "p4",
+      "word": "reasonable",
+      "emoji": "✅",
+      "opts": [
+        "очень дорогой",
+        "бесплатный",
+        "редкий",
+        "разумный / приемлемый по цене"
+      ],
+      "correct": "разумный / приемлемый по цене"
+    },
+    {
+      "id": "p5",
+      "word": "total",
+      "emoji": "🧮",
+      "opts": [
+        "частичная сумма",
+        "остаток",
+        "итого / общая сумма",
+        "налог"
+      ],
+      "correct": "итого / общая сумма"
+    },
+    {
+      "id": "p6",
+      "word": "change",
+      "emoji": "🪙",
+      "opts": [
+        "скидка",
+        "перевод",
+        "сдача",
+        "банкнота"
+      ],
+      "correct": "сдача"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Sanzhar and Asel are choosing a gift for their professor.",
+      "correct": "true"
+    },
+    {
+      "id": "t2",
+      "question": "The photo frame costs 3,200 tenge.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "The bookmarks cost 850 tenge for a set of five.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The pen set costs 2,100 tenge.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "Together Sanzhar and Asel have exactly 2,550 tenge in cash.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "The total cost of the pen set and bookmarks is 2,550 tenge.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "asel",
+      "name": "Asel",
+      "city": "Astana",
+      "emoji": "🩺",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "role": "Medicine student, Year 2"
+    },
+    {
+      "id": "sanzhar",
+      "name": "Sanzhar",
+      "city": "Shymkent",
+      "emoji": "💻",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "IT student, Year 1"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "First suggested the photo frame as a possible gift.",
+      "correctCharId": "asel"
+    },
+    {
+      "id": "s2",
+      "text": "Said the frame was too expensive to split between eight people.",
+      "correctCharId": "sanzhar"
+    },
+    {
+      "id": "s3",
+      "text": "Suggested adding the bookmarks to the pen set.",
+      "correctCharId": "asel"
+    },
+    {
+      "id": "s4",
+      "text": "Calculated the total cost of pen set and bookmarks as 2,550 tenge.",
+      "correctCharId": "sanzhar"
+    },
+    {
+      "id": "s5",
+      "text": "Has 1,300 tenge in cash.",
+      "correctCharId": "asel"
+    },
+    {
+      "id": "s6",
+      "text": "Worked out that eight people pay about 319 tenge each.",
+      "correctCharId": "sanzhar"
+    }
+  ]
+}

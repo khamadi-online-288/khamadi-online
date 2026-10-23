@@ -1,0 +1,246 @@
+{
+  "id": "l83-4",
+  "moduleNum": 25,
+  "lessonNum": 7,
+  "moduleTitle": "Listening & Speaking Strategies",
+  "title": "Writing: A Reflective Essay on Communication Skills",
+  "type": "writing",
+  "xp": 100,
+  "duration": 70,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Identify the communication skill you will reflect on and why it matters",
+      "hint": "\"Effective X is essential for… / One of the most significant challenges I face as a communicator is…\""
+    },
+    {
+      "key": "description",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe your current strengths and weaknesses in this area",
+      "hint": "Be specific and honest — use \"I tend to…\", \"I often find…\", \"My greatest strength is…\""
+    },
+    {
+      "key": "analysis",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Analyse why you have these patterns — background, experience, cultural context",
+      "hint": "\"This is partly because…\" / \"Growing up in a high-context culture, I tend to…\""
+    },
+    {
+      "key": "action",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Describe specific steps you will take to improve",
+      "hint": "\"With a view to improving X, I intend to…\" / \"I will practise Y in low-stakes situations…\""
+    },
+    {
+      "key": "conclusion",
+      "prefix": "",
+      "suffix": "",
+      "placeholder": "Draw a broader conclusion about the value of communication skills",
+      "hint": "\"In the interests of becoming a more effective communicator, I recognise that…\""
+    }
+  ],
+  "writingTemplate": [
+    {
+      "key": "l1",
+      "prefix": "Of the many skills required for effective communication, I find ",
+      "suffix": " the most challenging.",
+      "placeholder": "active listening in high-stakes professional contexts",
+      "hint": "Open with a specific, honest identification of the challenge"
+    },
+    {
+      "key": "l2",
+      "prefix": "In terms of my strengths, ",
+      "suffix": ". However, ",
+      "hint": "Balance of strengths and weaknesses",
+      "placeholder": "I am generally good at signposting my ideas clearly / I tend to rush when nervous"
+    },
+    {
+      "key": "l3",
+      "prefix": "This pattern is partly explained by ",
+      "suffix": ".",
+      "placeholder": "my background in a high-context culture, where explicit verbal signposting is less common",
+      "hint": "Analyse the cultural or personal roots of your patterns"
+    },
+    {
+      "key": "l4",
+      "prefix": "With a view to improving, I intend to ",
+      "suffix": " in low-stakes situations first, before applying the same strategy under pressure.",
+      "placeholder": "practise deliberate pausing and eye contact during casual conversations",
+      "hint": "\"With a view to + gerund\" + low-stakes practice strategy"
+    },
+    {
+      "key": "l5",
+      "prefix": "In the interests of becoming a genuinely effective communicator, I recognise that ",
+      "suffix": ".",
+      "placeholder": "improvement requires not just practice but the willingness to reflect honestly on failure",
+      "hint": "\"In the interests of + noun\" = formal purposive phrase"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Honest self-description",
+      "color": "#003876",
+      "items": [
+        "I tend to rush when I am nervous or uncertain.",
+        "I find it difficult to maintain eye contact under pressure.",
+        "My greatest challenge as a listener is maintaining concentration over long periods.",
+        "I often use fillers rather than pausing deliberately.",
+        "I have a tendency to assume my listeners are following me."
+      ]
+    },
+    {
+      "category": "Analysing patterns",
+      "color": "#1D9E75",
+      "items": [
+        "This pattern is partly explained by my cultural background.",
+        "Growing up in a high-context culture, I am accustomed to leaving things unsaid.",
+        "My instinct to rush is, I believe, a consequence of anxiety about judgement.",
+        "The tendency to over-explain is common in academic contexts.",
+        "This habit was reinforced by years of formal education in a particular style."
+      ]
+    },
+    {
+      "category": "Committing to improvement",
+      "color": "#C9933B",
+      "items": [
+        "With a view to improving my pacing, I will practise deliberate pausing.",
+        "In the interests of becoming a clearer communicator, I will focus on signposting.",
+        "I intend to practise repair strategies in low-stakes conversations first.",
+        "By recording myself, I will be able to identify patterns I am not consciously aware of.",
+        "I will seek feedback from trusted colleagues on specific aspects of my delivery."
+      ]
+    },
+    {
+      "category": "Broader reflections",
+      "color": "#1B8FC4",
+      "items": [
+        "Effective communication is, arguably, the most important professional skill.",
+        "Good listening is a gift to the person being listened to.",
+        "Communicative intelligence develops over time through practice and reflection.",
+        "The willingness to be uncomfortable is a prerequisite for genuine development.",
+        "In the interests of effective cross-cultural communication, I must hold my interpretations tentatively."
+      ]
+    }
+  ],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"You've thought carefully about your communication style, ___?\" (tag)",
+      "opts": [
+        "have you",
+        "haven't you",
+        "don't you",
+        "didn't you"
+      ],
+      "correct": "haven't you",
+      "hint": "Positive + present perfect → negative tag \"haven't you\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"I don't practise signposting enough in casual conversation, ___ ___?\" (tag)",
+      "correct": "do I",
+      "hint": "Negative statement → positive tag \"do I\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, I'm not sure I've been listening actively enough.\" (signalling honesty)",
+      "opts": [
+        "Anyway",
+        "Basically",
+        "Honestly",
+        "Actually"
+      ],
+      "correct": "Honestly",
+      "hint": "\"Honestly\" = signalling candour about something personal",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ ___ improving my listening, I will practise in low-stakes conversations first.\" (with the aim of)",
+      "correct": "With a view to",
+      "hint": "\"With a view to + gerund\" = with the aim of",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ effective communication, I recognise that practice and reflection are both essential.\" (for the benefit of)",
+      "opts": [
+        "With a view to",
+        "In the interests of",
+        "By virtue of",
+        "To the extent that"
+      ],
+      "correct": "In the interests of",
+      "hint": "\"In the interests of + noun/gerund\" = for the benefit of",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"This is kind of difficult to explain\" uses a hedge appropriately in informal reflection.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Kind of\" = informal hedge — appropriate in personal reflective writing",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She improved significantly, ___ ___?\" (past simple positive, tag)",
+      "correct": "didn't she",
+      "hint": "Positive past simple → negative tag \"didn't she\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___, the key insight is this: communication repair matters more than linguistic accuracy.\" (summarising)",
+      "opts": [
+        "Actually",
+        "Anyway",
+        "Basically",
+        "By the way"
+      ],
+      "correct": "Basically",
+      "hint": "\"Basically\" = getting to the core point / summarising",
+      "points": 2
+    }
+  ]
+}

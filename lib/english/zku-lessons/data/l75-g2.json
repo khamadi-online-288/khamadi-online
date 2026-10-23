@@ -1,0 +1,520 @@
+{
+  "id": "l75-g2",
+  "moduleNum": 17,
+  "lessonNum": 6,
+  "moduleTitle": "Environment & Climate Action",
+  "title": "Grammar: Emphasis Structures — Cleft Sentences and Fronting",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Структуры для усиления/выделения (Emphasis structures):\n\nCLEFT SENTENCES — выделяем нужное слово:\n\"It was JOHN who broke the window.\" (не кто-то другой — Джон)\n\"It is THIS PROBLEM that we need to solve.\" (именно эту проблему)\n\"What I need is MORE TIME.\" (то, что нужно = больше времени)\n\"What surprised me was HER REACTION.\" (что удивило = её реакция)\n\nINVERSION для усиления:\n\"Not only did he fail, but he also refused to try again.\"\n\"Rarely have I seen such dedication.\"\n\"Little did she know what was waiting for her.\"\n\n💡 Cleft sentences и инверсия — инструменты опытного писателя. Используй для логического ударения, не для красоты.",
+  "grammarTable": [
+    {
+      "subject": "It-cleft",
+      "verb": "It is/was + X + that/who + rest",
+      "short": "emphasises the subject or object",
+      "example": "\"It is political will that we lack, not technology.\" / \"It was the Paris Agreement that marked a turning point.\""
+    },
+    {
+      "subject": "Wh-cleft",
+      "verb": "What + subject + verb + is/was + X",
+      "short": "emphasises the complement",
+      "example": "\"What we need is urgent action.\" / \"What scientists fear most is the crossing of tipping points.\""
+    },
+    {
+      "subject": "All-cleft",
+      "verb": "All + subject + verb + is/was + X",
+      "short": "restrictive — only one thing",
+      "example": "\"All that is required is political determination.\""
+    },
+    {
+      "subject": "Fronting",
+      "verb": "Moving element to front of sentence",
+      "short": "creates focus and contrast",
+      "example": "\"Climate action, we cannot afford to delay.\" / \"This crisis alone can we not ignore.\""
+    },
+    {
+      "subject": "Not…but-cleft",
+      "verb": "It is not X but Y that…",
+      "short": "correction emphasis — not this but that",
+      "example": "\"It is not individuals but corporations that bear the greatest responsibility.\""
+    },
+    {
+      "subject": "Inversion",
+      "verb": "Never / Only / Not only + auxiliary + subject",
+      "short": "dramatic emphasis (formal/literary)",
+      "example": "\"Never before has the planet warmed so rapidly.\" / \"Only by acting now can we prevent the worst.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "It-Cleft: Highlighting One Element",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "It is/was + emphasis + that/who + rest of sentence",
+          "example": "\"It is rapid decarbonisation that offers the best hope.\" (emphasis on \"rapid decarbonisation\")"
+        },
+        {
+          "form": "Can emphasise subject, object, or adverb",
+          "example": "\"It was in 2015 that the Paris Agreement was signed.\" (emphasises the time)"
+        },
+        {
+          "form": "For people: use \"who\"; for things: use \"that\"",
+          "example": "\"It was Greta Thunberg who first brought climate strikes to global attention.\""
+        },
+        {
+          "form": "Negative it-cleft: it is not X but Y",
+          "example": "\"It is not hope but determination that drives effective action.\""
+        }
+      ]
+    },
+    {
+      "title": "Wh-Cleft (Pseudo-Cleft): Emphasising the Complement",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "What + subject + verb + is/was + X",
+          "example": "\"What the world needs is coordinated global action on emissions.\""
+        },
+        {
+          "form": "Common openings: What…is; What…matters; What…shows; What…requires",
+          "example": "\"What the data shows is an accelerating rate of warming.\""
+        },
+        {
+          "form": "Can be reversed: X is what + subject + verb",
+          "example": "\"Coordinated action is what the world desperately needs.\""
+        },
+        {
+          "form": "\"All that…\" = only thing (more restrictive than \"what\")",
+          "example": "\"All that is standing in the way is political will.\""
+        }
+      ]
+    },
+    {
+      "title": "Fronting: Moving Elements Forward for Emphasis",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Object fronted for contrast or emphasis",
+          "example": "\"The oceans, the forests, and the atmosphere — these we are destroying at unprecedented speed.\""
+        },
+        {
+          "form": "Adverb/adverbial fronted",
+          "example": "\"In the Arctic, the effects of warming are most dramatic.\""
+        },
+        {
+          "form": "Complement fronted",
+          "example": "\"More urgent, perhaps, is the need for international financial commitments.\""
+        },
+        {
+          "form": "Common in formal spoken and written English",
+          "example": "\"Central to the whole debate is the question of who pays for the transition.\""
+        }
+      ]
+    },
+    {
+      "title": "Negative Inversion: Dramatic Emphasis",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Never + auxiliary + subject + verb",
+          "example": "\"Never before has the planet warmed so rapidly in human history.\""
+        },
+        {
+          "form": "Only + time/condition + auxiliary + subject + verb",
+          "example": "\"Only by acting decisively can we avoid the worst consequences.\""
+        },
+        {
+          "form": "Not only + auxiliary + subject + verb + but also",
+          "example": "\"Not only does climate change threaten ecosystems, but it also deepens inequality.\""
+        },
+        {
+          "form": "Rarely / Seldom / Hardly + auxiliary + subject + verb",
+          "example": "\"Seldom have governments faced a challenge of this scale and urgency.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Emphasis Structures",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ It is the technology that is what we need.",
+          "example": "✅ It is technology that we need. (it-cleft) OR What we need is technology. (wh-cleft)"
+        },
+        {
+          "form": "❌ What we need it is global cooperation.",
+          "example": "✅ What we need is global cooperation. (no \"it\" after \"is\")"
+        },
+        {
+          "form": "❌ Never before the planet has warmed so rapidly.",
+          "example": "✅ Never before has the planet warmed so rapidly. (inversion: auxiliary before subject)"
+        },
+        {
+          "form": "❌ Only when we act, we can prevent the worst.",
+          "example": "✅ Only when we act can we prevent the worst. (inversion after \"only\")"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct it-cleft.",
+      "text": "\"___ government policy ___ will determine whether we achieve net zero.\" (emphasis on \"government policy\")",
+      "opts": [
+        "It is / that",
+        "What is / is",
+        "All is / that",
+        "It was / who"
+      ],
+      "correct": "It is / that",
+      "hint": "\"It is + X + that\" = it-cleft emphasising \"government policy\""
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Complete the wh-cleft.",
+      "text": "\"___ we lack is not technology but political will.\" (emphasis on \"not technology but political will\")",
+      "correct": "What",
+      "hint": "\"What + subject + verb + is + emphasis\" = wh-cleft"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct negative inversion.",
+      "text": "\"___ has the planet experienced warming at this speed.\"",
+      "opts": [
+        "Never before",
+        "Not before",
+        "Only before",
+        "Seldom that"
+      ],
+      "correct": "Never before",
+      "hint": "\"Never before + auxiliary + subject + verb\" = dramatic negative inversion"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Complete the \"not…but\" cleft.",
+      "text": "\"It is not individuals ___ corporations that bear the greatest historical responsibility.\"",
+      "correct": "but",
+      "hint": "\"It is not X but Y that…\" = correction/contrast emphasis"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose the correct wh-cleft.",
+      "text": "\"___ scientists fear most is the possibility of crossing multiple tipping points simultaneously.\"",
+      "opts": [
+        "It is what",
+        "What is",
+        "What",
+        "All is what"
+      ],
+      "correct": "What",
+      "hint": "\"What + subject + verb + is + X\" = wh-cleft emphasising the feared outcome"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Complete the inversion.",
+      "text": "\"Only by reducing emissions drastically ___ ___ (we / prevent) the worst consequences of climate change.\"",
+      "correct": "can / we prevent",
+      "hint": "\"Only by… + auxiliary + subject + verb\" = inversion after \"only\""
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Identify the emphasis structure.",
+      "text": "\"Central to any effective climate strategy is the pricing of carbon emissions.\"",
+      "opts": [
+        "It-cleft",
+        "Wh-cleft",
+        "Fronting of the complement",
+        "Negative inversion"
+      ],
+      "correct": "Fronting of the complement",
+      "hint": "\"Central to… is X\" = complement fronted for emphasis"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Rewrite using a wh-cleft.",
+      "text": "\"We need international cooperation urgently.\" → ___ we need is international cooperation.",
+      "correct": "What",
+      "hint": "\"What + subject + verb + is + emphasis\" = wh-cleft"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Complete the inversion correctly.",
+      "text": "\"Not only ___ climate change threaten biodiversity, but it also destabilises food systems.\"",
+      "opts": [
+        "does",
+        "do",
+        "is",
+        "will"
+      ],
+      "correct": "does",
+      "hint": "\"Not only + does + subject + verb… but also\" = negative inversion"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the it-cleft for emphasis.",
+      "text": "\"___ the Amazon that acts as the world's largest carbon sink.\" (= The Amazon does this)",
+      "correct": "It is",
+      "hint": "\"It is + X + that\" = it-cleft",
+      "points": 1
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which sentence correctly uses \"all that\"?",
+      "text": "",
+      "opts": [
+        "All that we need it is more data.",
+        "All that is required is political determination.",
+        "All what we need is more funding.",
+        "All we need it political determination."
+      ],
+      "correct": "All that is required is political determination.",
+      "hint": "\"All that + verb + is + X\" = restrictive wh-cleft (\"the only thing required is…\")"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Complete the inversion.",
+      "text": "\"Seldom ___ governments ___ (face) such an urgent and complex challenge simultaneously.\"",
+      "correct": "have / faced",
+      "hint": "\"Seldom + have + subject + past participle\" = inversion"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct emphasis structure.",
+      "text": "\"What the Paris Agreement represented was a turning point in international climate diplomacy.\"",
+      "opts": [
+        "It-cleft",
+        "Wh-cleft emphasising the complement",
+        "Negative inversion",
+        "All-cleft"
+      ],
+      "correct": "Wh-cleft emphasising the complement",
+      "hint": "\"What + subject + verb + was + X\" = wh-cleft",
+      "points": 1
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Rewrite as an it-cleft.",
+      "text": "\"International financial commitments will determine the success of the agreement.\" → ___ ___ financial commitments ___ will determine the success.\", (emphasise \"international financial commitments\")",
+      "correct": "It is / international / that",
+      "hint": "\"It is + X + that…\" = it-cleft"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the correct inversion after \"only when.\"",
+      "text": "\"Only when governments act decisively ___ we prevent the worst.\"",
+      "opts": [
+        "will",
+        "that",
+        "then",
+        "and then"
+      ],
+      "correct": "will",
+      "hint": "\"Only when + clause + will + subject + verb\" = inversion"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is the most emphatic way to state the argument?",
+      "text": "\"Technology is not the main obstacle to climate action.\"",
+      "opts": [
+        "Technology is not the main obstacle.",
+        "It is not technology that is the main obstacle.",
+        "Not technology is the main obstacle.",
+        "The main obstacle is not technology."
+      ],
+      "correct": "It is not technology that is the main obstacle.",
+      "hint": "\"It is not X that…\" = negative it-cleft for maximum emphasis"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ political will ___ is the most critical missing ingredient in climate action.\"",
+      "opts": [
+        "What is / that",
+        "It is / that",
+        "All that / is",
+        "Never / has"
+      ],
+      "correct": "It is / that",
+      "hint": "\"It is + X + that\" = it-cleft emphasising \"political will\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ scientists warn about most is the possibility of crossing multiple tipping points.\"",
+      "correct": "What",
+      "hint": "\"What + subject + verb + is + X\" = wh-cleft",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ has the need for climate action been more urgent than it is today.\"",
+      "opts": [
+        "Never before",
+        "Only when",
+        "Not only",
+        "Seldom if"
+      ],
+      "correct": "Never before",
+      "hint": "\"Never before + auxiliary + subject + verb\" = negative inversion",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"It is not individuals ___ corporations that have produced the majority of global emissions.\"",
+      "correct": "but",
+      "hint": "\"It is not X but Y that\" = negative it-cleft correction",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Only by achieving net zero by 2050 ___ we limit warming to 1.5°C.\"",
+      "opts": [
+        "that",
+        "will",
+        "do",
+        "can"
+      ],
+      "correct": "can",
+      "hint": "\"Only by… + can/will + subject + verb\" = inversion after \"only\"",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"What we need it is global cooperation\" is grammatically correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"What we need is global cooperation\" — no \"it\" after \"is\" in a wh-cleft",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ does climate change threaten biodiversity, but it also deepens global inequality.\" (negative inversion)",
+      "correct": "Not only",
+      "hint": "\"Not only + does + subject + verb… but also\"",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Central to the whole debate is the question of who pays for the transition.\" — This uses…",
+      "opts": [
+        "An it-cleft",
+        "A wh-cleft",
+        "Fronting of the complement",
+        "Negative inversion"
+      ],
+      "correct": "Fronting of the complement",
+      "hint": "The complement (\"Central to the debate\") is moved to the front",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ is required is not more data but more decisive action.\" (restrictive wh-cleft)",
+      "correct": "All that",
+      "hint": "\"All that + verb + is + X\" = the only thing required is…",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Seldom ___ governments faced a challenge of this scale.\" (inversion)",
+      "opts": [
+        "does",
+        "have",
+        "did",
+        "are"
+      ],
+      "correct": "have",
+      "hint": "\"Seldom have + subject + past participle\" = inversion",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ ___ the 2015 Paris Agreement ___ first established legally recognised emissions targets for nearly all nations.\" (it-cleft, time)",
+      "correct": "It was / that",
+      "hint": "\"It was + time + that\" = it-cleft emphasising when",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence correctly uses a negative it-cleft?",
+      "opts": [
+        "It is not that technology lacks, but will.",
+        "It is not technology that we lack, but political will.",
+        "It not technology that is we lack.",
+        "Not it is technology that we lack."
+      ],
+      "correct": "It is not technology that we lack, but political will.",
+      "hint": "\"It is not X that… but Y\" = correct negative it-cleft structure",
+      "points": 2
+    }
+  ]
+}

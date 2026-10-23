@@ -1,0 +1,491 @@
+{
+  "id": "l35-2",
+  "moduleNum": 1,
+  "lessonNum": 2,
+  "moduleTitle": "Daily Routines & Habits",
+  "type": "listening",
+  "title": "Talking About Routines",
+  "xp": 60,
+  "duration": 50,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "dialogue": [
+    {
+      "speaker": "Zhibek",
+      "text": "Kamila, do you have a fixed morning routine, or does it change every day?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I always wake up at seven, but honestly, I rarely eat breakfast. I usually just grab a coffee and run.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Really? I never skip breakfast. I always have porridge with fruit. It takes about ten minutes, but it's worth it.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I know I should. I sometimes feel dizzy by 10 a.m. because I haven't eaten anything.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I'm somewhere in the middle. I usually have toast or an egg if I have time. But I always, always review my notes from the day before — even if it's just for five minutes.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "Oh, I do that too! I find that I remember things so much better when I review them in the morning.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I rarely do that, I have to admit. I usually check my phone first — messages, social media. Bad habit.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I never check my phone before I've had coffee and reviewed my notes. That's my rule. Social media can wait.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "What about exercise? Do you work out in the mornings?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I go for a run three times a week — usually Monday, Wednesday, and Friday. About twenty minutes. It wakes me up.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I don't run in the mornings. I sometimes do push-ups in my room — maybe ten or fifteen minutes. Nothing serious.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I go to the campus gym twice a week after classes. Morning exercise doesn't work for me — I'm not a morning person.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "How do you both stay focused during long lectures? I often find myself drifting off after about forty minutes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Amir",
+      "text": "I always sit in the front row. If the professor can see me, I stay focused. Works every time.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Zhibek",
+      "text": "I take notes by hand. Writing things down keeps my brain active. If I type, I occasionally zone out completely.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Good tips. Maybe I need to rethink my whole routine. Start with breakfast and go from there.",
+      "isLeft": false
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "fixed",
+      "emoji": "📌",
+      "opts": [
+        "случайный",
+        "фиксированный / постоянный",
+        "новый",
+        "сложный"
+      ],
+      "correct": "фиксированный / постоянный"
+    },
+    {
+      "id": "p2",
+      "word": "porridge",
+      "emoji": "🥣",
+      "opts": [
+        "бутерброд",
+        "каша",
+        "йогурт",
+        "яичница"
+      ],
+      "correct": "каша"
+    },
+    {
+      "id": "p3",
+      "word": "dizzy",
+      "emoji": "😵",
+      "opts": [
+        "голодный",
+        "усталый",
+        "головокружение",
+        "злой"
+      ],
+      "correct": "головокружение"
+    },
+    {
+      "id": "p4",
+      "word": "drift off",
+      "emoji": "💭",
+      "opts": [
+        "сосредоточиться",
+        "отвлекаться / задремать",
+        "учиться",
+        "уходить"
+      ],
+      "correct": "отвлекаться / задремать"
+    },
+    {
+      "id": "p5",
+      "word": "front row",
+      "emoji": "🪑",
+      "opts": [
+        "задний ряд",
+        "средний ряд",
+        "первый ряд",
+        "боковой ряд"
+      ],
+      "correct": "первый ряд"
+    },
+    {
+      "id": "p6",
+      "word": "zone out",
+      "emoji": "😶",
+      "opts": [
+        "сосредоточиться",
+        "отключиться полностью",
+        "учиться лучше",
+        "задать вопрос"
+      ],
+      "correct": "отключиться полностью"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila always eats a full breakfast before class.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "Zhibek has porridge with fruit every morning.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "Amir reviews his notes before checking his phone.",
+      "correct": "true"
+    },
+    {
+      "id": "t4",
+      "question": "Kamila goes running every day of the week.",
+      "correct": "false"
+    },
+    {
+      "id": "t5",
+      "question": "Zhibek prefers exercising at the gym after classes.",
+      "correct": "true"
+    },
+    {
+      "id": "t6",
+      "question": "Amir sits in the front row to help him stay focused.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Uralsk",
+      "emoji": "☕",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "role": "WKU student — admits she has some bad morning habits"
+    },
+    {
+      "id": "amir",
+      "name": "Amir",
+      "city": "Aktobe",
+      "emoji": "📓",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "WKU student — very structured morning routine"
+    },
+    {
+      "id": "zhibek",
+      "name": "Zhibek",
+      "city": "Uralsk",
+      "emoji": "🥣",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "role": "WKU student — healthy habits, gym after class"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Rarely eats breakfast — usually just grabs a coffee and runs.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Always has porridge with fruit and never skips breakfast.",
+      "correctCharId": "zhibek"
+    },
+    {
+      "id": "s3",
+      "text": "Always reviews notes from the day before — even for five minutes.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s4",
+      "text": "Goes for a run three times a week — Monday, Wednesday, and Friday.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s5",
+      "text": "Never checks social media before coffee and reviewing notes.",
+      "correctCharId": "amir"
+    },
+    {
+      "id": "s6",
+      "text": "Takes notes by hand during lectures to keep her brain active.",
+      "correctCharId": "zhibek"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila usually do instead of having breakfast?",
+      "opts": [
+        "Eats toast",
+        "Grabs a coffee and runs",
+        "Reviews her notes",
+        "Goes for a run"
+      ],
+      "correct": "Grabs a coffee and runs",
+      "hint": "\"I usually just grab a coffee and run.\""
+    },
+    {
+      "id": "q2",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek never skips breakfast.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"I never skip breakfast. I always have porridge with fruit.\""
+    },
+    {
+      "id": "q3",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When does Amir review his notes?",
+      "opts": [
+        "After lunch",
+        "In the library at night",
+        "Before checking his phone in the morning",
+        "On the bus"
+      ],
+      "correct": "Before checking his phone in the morning",
+      "hint": "\"I always review my notes from the day before — even if it's just for five minutes.\""
+    },
+    {
+      "id": "q4",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Kamila goes running ___ times a week.",
+      "correct": "three",
+      "hint": "\"I go for a run three times a week.\""
+    },
+    {
+      "id": "q5",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where does Zhibek exercise?",
+      "opts": [
+        "In her room",
+        "On the street",
+        "At the campus gym",
+        "In the park"
+      ],
+      "correct": "At the campus gym",
+      "hint": "\"I go to the campus gym twice a week after classes.\""
+    },
+    {
+      "id": "q6",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does Amir sit in the front row?",
+      "opts": [
+        "To see the board better",
+        "So the professor can see him and he stays focused",
+        "To ask more questions",
+        "Because he arrives late"
+      ],
+      "correct": "So the professor can see him and he stays focused",
+      "hint": "\"If the professor can see me, I stay focused.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zhibek types her notes on a laptop to stay focused.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I take notes by hand. Writing things down keeps my brain active. If I type, I occasionally zone out.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What problem does Kamila sometimes have at 10 a.m.?",
+      "opts": [
+        "She falls asleep",
+        "She feels dizzy because she hasn't eaten",
+        "She loses her notes",
+        "She misses her bus"
+      ],
+      "correct": "She feels dizzy because she hasn't eaten",
+      "hint": "\"I sometimes feel dizzy by 10 a.m. because I haven't eaten anything.\""
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ check my phone before I've had coffee.\" Which adverb fits Amir's rule?",
+      "opts": [
+        "always",
+        "often",
+        "never",
+        "usually"
+      ],
+      "correct": "never",
+      "hint": "\"I never check my phone before I've had coffee.\" Never = 0% of the time."
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Where does an adverb of frequency go with the verb \"to be\"?",
+      "opts": [
+        "Before \"to be\"",
+        "After \"to be\"",
+        "At the end of the sentence",
+        "At the beginning"
+      ],
+      "correct": "After \"to be\"",
+      "hint": "With \"to be\": subject + to be + adverb. \"She is always late.\" NOT \"She always is late.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "She ___ has porridge for breakfast. (= every morning, no exceptions)",
+      "correct": "always",
+      "hint": "always = 100% of the time. The strongest frequency adverb."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "I check never my phone.",
+        "I never check my phone.",
+        "Never I check my phone.",
+        "I check my never phone."
+      ],
+      "correct": "I never check my phone.",
+      "hint": "Adverbs of frequency go BEFORE the main verb (but after \"to be\"): I never check / She always eats."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I ___ do push-ups in the morning — maybe 3 times a month.\" Which fits?",
+      "opts": [
+        "always",
+        "usually",
+        "sometimes",
+        "never"
+      ],
+      "correct": "sometimes",
+      "hint": "\"sometimes\" = less than 50% of the time. Amir does this only occasionally."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She goes rarely to the gym.\" is a correct English sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Incorrect word order! Correct: \"She rarely goes to the gym.\" — adverb before main verb."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "He ___ arrives late — maybe once a semester. (= almost never)",
+      "correct": "rarely",
+      "hint": "rarely = very infrequently, almost never. Less than \"sometimes\"."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Order from most to least frequent: always / sometimes / rarely / usually",
+      "opts": [
+        "always → usually → sometimes → rarely",
+        "usually → always → rarely → sometimes",
+        "rarely → sometimes → usually → always",
+        "always → sometimes → usually → rarely"
+      ],
+      "correct": "always → usually → sometimes → rarely",
+      "hint": "always (100%) → usually (80%) → often (60%) → sometimes (40%) → rarely (10%) → never (0%)"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "id": "l28-5",
+  "moduleNum": 12,
+  "lessonNum": 5,
+  "moduleTitle": "Emotions & Feelings",
+  "type": "writing",
+  "title": "Writing: About Your Feelings",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [
+    "I am a second-year student at WKU and I want to write about how I feel about my studies.",
+    "I enjoy studying English because it opens many doors. I love learning new vocabulary — it feels like collecting treasures. However, I sometimes hate making mistakes when I speak in front of the class.",
+    "I decided to practise speaking more this semester. I hope to join the English debate club. I also plan to find a language partner — someone to practise with twice a week.",
+    "I avoid procrastinating because I know it makes me feel worse. I keep reminding myself: every small step matters.",
+    "I feel proud of how far I have come. One year ago, I was afraid to speak English at all. Now I am writing about my feelings in English — and that is a great achievement."
+  ],
+  "writingTemplate": [
+    {
+      "key": "intro",
+      "prefix": "I am a ",
+      "suffix": " student at WKU and I want to write about ",
+      "placeholder": "year (first / second / third)",
+      "hint": "e.g. first / second / third"
+    },
+    {
+      "key": "topic",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "your topic (your studies / a hobby / your feelings)",
+      "hint": "e.g. how I feel about my English studies"
+    },
+    {
+      "key": "enjoy",
+      "prefix": "I enjoy ",
+      "suffix": " because ",
+      "placeholder": "activity + -ing (studying / learning / speaking)",
+      "hint": "Use enjoy + -ing: \"I enjoy learning vocabulary\""
+    },
+    {
+      "key": "enjoyr",
+      "prefix": "",
+      "suffix": ". I love ",
+      "placeholder": "reason (it opens doors / it challenges me)",
+      "hint": "Give a reason why you enjoy it."
+    },
+    {
+      "key": "love",
+      "prefix": "",
+      "suffix": ". However, I sometimes hate ",
+      "placeholder": "something you love + -ing",
+      "hint": "e.g. reading in English / solving grammar puzzles"
+    },
+    {
+      "key": "hate",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "something you hate + -ing",
+      "hint": "e.g. making mistakes in front of class / forgetting words"
+    },
+    {
+      "key": "plan1",
+      "prefix": "I decided to ",
+      "suffix": ". I hope to ",
+      "placeholder": "a decision you made",
+      "hint": "e.g. practise speaking every day / review vocabulary each evening"
+    },
+    {
+      "key": "plan2",
+      "prefix": "",
+      "suffix": ". I also plan to ",
+      "placeholder": "a goal (join a club / find a tutor)",
+      "hint": "e.g. join the English debate club / attend extra classes"
+    },
+    {
+      "key": "plan3",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "another plan",
+      "hint": "e.g. find a language partner / read one article daily"
+    },
+    {
+      "key": "close",
+      "prefix": "I feel ",
+      "suffix": ". This year, my goal is ",
+      "placeholder": "emotion (proud / excited / motivated) + reason",
+      "hint": "e.g. proud of how far I have come"
+    },
+    {
+      "key": "closeg",
+      "prefix": "",
+      "suffix": ".",
+      "placeholder": "your goal for this year",
+      "hint": "e.g. to speak English confidently / to pass the B1 exam"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Enjoy / love / hate + -ing",
+      "color": "#003876",
+      "items": [
+        "I enjoy studying because…",
+        "I love learning new vocabulary.",
+        "I hate making mistakes in front of the class.",
+        "I avoid procrastinating because…"
+      ]
+    },
+    {
+      "category": "Plans and decisions",
+      "color": "#1D9E75",
+      "items": [
+        "I decided to practise speaking more.",
+        "I hope to join the debate club.",
+        "I also plan to find a language partner.",
+        "I keep reminding myself: every step matters."
+      ]
+    },
+    {
+      "category": "Feelings and progress",
+      "color": "#C9933B",
+      "items": [
+        "I feel proud of how far I have come.",
+        "One year ago, I was afraid to…",
+        "Now I can… — and that is a great achievement.",
+        "This year, my goal is to…"
+      ]
+    }
+  ],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": []
+}

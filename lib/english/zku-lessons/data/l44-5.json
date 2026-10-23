@@ -1,0 +1,376 @@
+{
+  "id": "l44-5",
+  "moduleNum": 10,
+  "lessonNum": 8,
+  "moduleTitle": "Around the City",
+  "type": "test",
+  "title": "Module 10 Final Test",
+  "xp": 110,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is the WKU campus located?",
+      "opts": [
+        "Southern Uralsk",
+        "Eastern bank of the river",
+        "Northern part on Dostyq Avenue",
+        "City centre"
+      ],
+      "correct": "Northern part on Dostyq Avenue",
+      "hint": "\"The university campus is located in the northern part of the city, on Dostyq Avenue.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Uralsk has a metro system that students can use.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"The city has no metro and limited night transport.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "In Text 2, why couldn't Rustam get on a bus at first?",
+      "opts": [
+        "He had no money",
+        "He was too embarrassed to ask which bus",
+        "The buses were full",
+        "The stop was on the wrong side"
+      ],
+      "correct": "He was too embarrassed to ask which bus",
+      "hint": "\"I didn't know which number to take, and I was too embarrassed to ask.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Rustam found a shortcut that cut his journey to the library from 12 to ___ minutes.",
+      "correct": "six",
+      "hint": "\"he could get to the library in six minutes instead of twelve.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does the final paragraph of Text 2 say about knowing a city?",
+      "opts": [
+        "You need GPS",
+        "A map tells you everything",
+        "Walking builds knowledge that no map can capture",
+        "You need a local friend"
+      ],
+      "correct": "Walking builds knowledge that no map can capture",
+      "hint": "\"a city that is walked, not just visited, becomes familiar in a way that no map can fully capture.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam found the best shashlyk restaurant through a recommendation.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"He found the city's best shashlyk restaurant — completely by accident, by going down the wrong street.\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where is Daniyar when he calls Rustam?",
+      "opts": [
+        "At the library",
+        "At the university",
+        "At the bus stop opposite the Central Mosque",
+        "In the park"
+      ],
+      "correct": "At the bus stop opposite the Central Mosque",
+      "hint": "\"I'm at the bus stop opposite the Central Mosque.\""
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "Where should Daniyar cross the road?",
+      "opts": [
+        "At the traffic lights",
+        "At the mosque",
+        "Just past the bank at a pedestrian crossing",
+        "At the roundabout"
+      ],
+      "correct": "Just past the bank at a pedestrian crossing",
+      "hint": "\"Just past the bank, there's a pedestrian crossing. Cross the road there.\""
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "Daniyar walks ___ a tunnel under the railway line.",
+      "correct": "through",
+      "hint": "\"Walk through a short tunnel under the railway line.\""
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "The large blue glass building is the library.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"That's not the library — that's the city administration.\""
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How does Daniyar reach the library entrance?",
+      "opts": [
+        "Through a gate",
+        "Down some steps",
+        "Up the steps and through the main entrance",
+        "By bus"
+      ],
+      "correct": "Up the steps and through the main entrance",
+      "hint": "\"Go up the steps and through the main entrance.\""
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Daniyar NOT do when he passes the park?",
+      "opts": [
+        "Keep going straight",
+        "Go into the park",
+        "Notice a café on the corner",
+        "Cross to the other side"
+      ],
+      "correct": "Go into the park",
+      "hint": "\"Go past a small park on your right — don't go into the park, just keep going straight.\""
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The library is ___ the second floor.\"",
+      "opts": [
+        "at",
+        "in",
+        "on",
+        "above"
+      ],
+      "correct": "on",
+      "hint": "\"on the second floor\" — floors use \"on\". ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She studies ___ WKU ___ Uralsk.\"",
+      "opts": [
+        "in / at",
+        "at / in",
+        "in / in",
+        "at / at"
+      ],
+      "correct": "at / in",
+      "hint": "\"at WKU\" (institution) + \"in Uralsk\" (city). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk ___ the road.\" (from one side to the other)",
+      "opts": [
+        "along",
+        "through",
+        "across",
+        "past"
+      ],
+      "correct": "across",
+      "hint": "\"across\" = one side to the other of an open space. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Walk ___ the tunnel.\" (enter and exit)",
+      "opts": [
+        "across",
+        "past",
+        "over",
+        "through"
+      ],
+      "correct": "through",
+      "hint": "\"through\" = enclosed space, enter and exit. ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The university is ___ Dostyq Avenue.\"",
+      "opts": [
+        "at",
+        "in",
+        "on",
+        "by"
+      ],
+      "correct": "on",
+      "hint": "\"on\" + street/avenue name. \"The university is ON Dostyq Avenue.\" ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Go ___ the bank.\" (without stopping, continue beyond)",
+      "opts": [
+        "through",
+        "along",
+        "across",
+        "past"
+      ],
+      "correct": "past",
+      "hint": "\"past\" = go beyond without stopping. \"Go PAST the bank.\" ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She walked ___ the building.\" (entering)",
+      "opts": [
+        "past",
+        "out of",
+        "through",
+        "into"
+      ],
+      "correct": "into",
+      "hint": "\"into\" = entering a space. \"She walked INTO the building.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Come ___ the tunnel — you can see the building now.\"",
+      "correct": "out of",
+      "hint": "\"out of\" = exiting. \"Come OUT OF the tunnel.\" ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A landmark\" is:",
+      "opts": [
+        "Any building",
+        "A sign on a road",
+        "A well-known feature used to identify location",
+        "A type of map"
+      ],
+      "correct": "A well-known feature used to identify location",
+      "hint": "\"landmark\" = a well-known, recognisable feature used to give directions or orientation."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The area is compact.\" \"Compact\" means:",
+      "opts": [
+        "Very large and spread out",
+        "Small but well-organised and easy to navigate",
+        "Far from everything",
+        "Noisy"
+      ],
+      "correct": "Small but well-organised and easy to navigate",
+      "hint": "\"compact\" = small in area but containing everything in close proximity."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "fill",
+      "text": "He found a ___ through the garden that saved him six minutes.",
+      "correct": "shortcut",
+      "hint": "\"shortcut\" = a quicker route than the usual one."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The first day was disorienting.\" \"Disorienting\" means:",
+      "opts": [
+        "Very exciting",
+        "Making you confused about where you are",
+        "Very dangerous",
+        "Boring"
+      ],
+      "correct": "Making you confused about where you are",
+      "hint": "\"disorienting\" = causing confusion about direction and location."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He learned the routes through trial and error.\" This means:",
+      "opts": [
+        "He studied a map carefully",
+        "He learned by trying things and making mistakes until it worked",
+        "A teacher showed him",
+        "He asked for help"
+      ],
+      "correct": "He learned by trying things and making mistakes until it worked",
+      "hint": "\"trial and error\" = the process of learning by trying different things until you find what works."
+    }
+  ]
+}

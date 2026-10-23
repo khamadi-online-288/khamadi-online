@@ -1,0 +1,514 @@
+{
+  "id": "l79-g1",
+  "moduleNum": 21,
+  "lessonNum": 5,
+  "moduleTitle": "Economics & Money in Society",
+  "title": "Grammar: Word Formation — Noun and Verb Suffixes",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Словообразование (Word formation) — как строить новые слова:\n\nСУФФИКСЫ существительных:\n-tion/-sion: investigate→investigation · contribute→contribution\n-ment: develop→development · manage→management\n-ness: aware→awareness · effective→effectiveness\n-ity: responsible→responsibility · flexible→flexibility\n-er/-or: research→researcher · instruct→instructor\n\nСУФФИКСЫ прилагательных:\n-ful: success→successful · help→helpful\n-less: use→useless · care→careless\n-ive: effect→effective · create→creative\n-able/-ible: rely→reliable · access→accessible\n-al: tradition→traditional · economy→economical\n\nПРЕФИКСЫ:\nun- = отрицание: unsuccessful · unreliable\nmis- = неправильно: misunderstand · misinterpret\npre- = до: predict · prepare\nover- = слишком: overestimate · overlook",
+  "grammarTable": [
+    {
+      "subject": "-tion / -sion",
+      "verb": "verb → noun (process/act/result)",
+      "short": "distribute → distribution",
+      "example": "invest → investment? NO: invest → investment; but: distribute → distribution; regulate → regulation; inflate → inflation"
+    },
+    {
+      "subject": "-ment",
+      "verb": "verb → noun (result/state)",
+      "short": "invest → investment",
+      "example": "employ → employment; govern → government; develop → development; manage → management"
+    },
+    {
+      "subject": "-er / -or / -ist",
+      "verb": "verb → noun (person who does)",
+      "short": "invest → investor",
+      "example": "invest → investor; consume → consumer; produce → producer; manage → manager; economy → economist"
+    },
+    {
+      "subject": "-ity / -ness",
+      "verb": "adjective → noun (state/quality)",
+      "short": "equal → equality",
+      "example": "equal → equality; stable → stability; scarce → scarcity; productive → productivity; aware → awareness"
+    },
+    {
+      "subject": "-ance / -ence",
+      "verb": "adjective/verb → noun (state)",
+      "short": "perform → performance",
+      "example": "perform → performance; depend → dependence; compete → competition; prefer → preference; influ→ influence"
+    },
+    {
+      "subject": "-ise / -ize",
+      "verb": "noun/adj → verb (to make/become)",
+      "short": "private → privatise",
+      "example": "private → privatise; global → globalise; stable → stabilise; capital → capitalise; modern → modernise"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "-tion / -sion: Turning Verbs into Nouns",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Most common pattern for economic/academic nouns",
+          "example": "regulate → regulation; distribute → distribution; consume → consumption; produce → production; allocate → allocation"
+        },
+        {
+          "form": "Verb endings affect the spelling: -te drops to -tion",
+          "example": "inflate → inflation; investigate → investigation; appreciate → appreciation"
+        },
+        {
+          "form": "-ss + ion: express → expression; oppress → oppression",
+          "example": "compress → compression; possess → possession; access → accession"
+        },
+        {
+          "form": "Note irregular forms to memorise",
+          "example": "grow → growth (not growtion!); lose → loss; choose → choice; solve → solution"
+        }
+      ]
+    },
+    {
+      "title": "-ment: Results and States",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "verb + -ment = noun (result or state of the verb)",
+          "example": "employ → employment; invest → investment; achieve → achievement; govern → government"
+        },
+        {
+          "form": "Common in economics and policy language",
+          "example": "develop → development; manage → management; adjust → adjustment; improve → improvement"
+        },
+        {
+          "form": "Sometimes the base form changes slightly",
+          "example": "judge → judgement (or judgment); move → movement"
+        },
+        {
+          "form": "Note: NOT all verbs take -ment (must learn individually)",
+          "example": "consume → consumption (not \"consumement\"); produce → production (not \"producement\")"
+        }
+      ]
+    },
+    {
+      "title": "-er / -or / -ist: People and Roles",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "-er = most common (person who does the verb)",
+          "example": "manage → manager; borrow → borrower; save → saver; spend → spender; lead → leader"
+        },
+        {
+          "form": "-or = formal/Latin origin verbs",
+          "example": "invest → investor; regulate → regulator; direct → director; supervise → supervisor"
+        },
+        {
+          "form": "-ist = person who follows an idea or discipline",
+          "example": "economy → economist; capital → capitalist; social → socialist; specialism → specialist"
+        },
+        {
+          "form": "Some have multiple forms with different meanings",
+          "example": "compete → competitor (in a market); compete → competence (skill) — NOT \"competer\""
+        }
+      ]
+    },
+    {
+      "title": "-ise / -ize: Converting to Verbs",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "noun/adj + -ise/-ize = to make or become",
+          "example": "global → globalise/globalize; private → privatise/privatize; stable → stabilise/stabilize"
+        },
+        {
+          "form": "Very productive in economics and policy",
+          "example": "modern → modernise; liberal → liberalise; national → nationalise; computer → computerise"
+        },
+        {
+          "form": "BrE spelling: -ise; AmE: -ize (both acceptable in B1)",
+          "example": "\"privatise\" (BrE) = \"privatize\" (AmE) — same meaning"
+        },
+        {
+          "form": "Some verbs: noun + -ify (alternative pattern)",
+          "example": "simple → simplify; class → classify; identity → identify; diversity → diversify"
+        }
+      ]
+    },
+    {
+      "title": "Key Word Families in Economics",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "economy, economic, economical, economically, economist, economics",
+          "example": "\"An economist studies the economic policies of nations to understand if they are economical.\""
+        },
+        {
+          "form": "invest, investor, investment, investable, investing",
+          "example": "\"Investors evaluate investment opportunities based on their risk and return.\""
+        },
+        {
+          "form": "produce, producer, product, production, productive, productively, productivity",
+          "example": "\"High productivity enables producers to increase production without higher costs.\""
+        },
+        {
+          "form": "distribute, distributor, distribution, distributive",
+          "example": "\"Distribution of income affects distributive justice and social equality.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Form the correct noun.",
+      "text": "\"The ___ of income between different groups has become more unequal.\" (distribute)",
+      "opts": [
+        "distributing",
+        "distribution",
+        "distributive",
+        "distributor"
+      ],
+      "correct": "distribution",
+      "hint": "distribute → distribution (-tion suffix)"
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Form the noun from the verb.",
+      "text": "\"___ in renewable energy has increased significantly.\" (invest)",
+      "correct": "Investment",
+      "hint": "invest → investment (-ment suffix)"
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct word form.",
+      "text": "\"The ___ in this market faces stiff competition from abroad.\" (produce)",
+      "opts": [
+        "produce",
+        "productive",
+        "producer",
+        "production"
+      ],
+      "correct": "producer",
+      "hint": "produce → producer (-er suffix: person who produces)"
+    },
+    {
+      "id": "e4",
+      "type": "fill",
+      "instruction": "Form the correct noun from the adjective.",
+      "text": "\"Economic ___ has grown in most developed countries.\" (equal — opposite with -ity → inequality)\", (use \"inequality\")",
+      "correct": "inequality",
+      "hint": "equal → equality; + prefix \"in-\" → inequality"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Form the correct verb.",
+      "text": "\"Many industries have been ___d, moving from state to private ownership.\" (private)",
+      "opts": [
+        "privatised",
+        "privatise",
+        "private",
+        "privatisation"
+      ],
+      "correct": "privatised",
+      "hint": "private → privatise → privatised (past participle)"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Choose the correct word form.",
+      "text": "\"Strong ___ between firms keeps prices low.\" (compete)\", (competition)",
+      "correct": "competition",
+      "hint": "compete → competition (-tion suffix: irregular)"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Form the correct noun.",
+      "text": "\"___ studies how governments should manage the economy.\" (economy)\", (which noun?)",
+      "opts": [
+        "Economics",
+        "Economical",
+        "Economist",
+        "Economising"
+      ],
+      "correct": "Economics",
+      "hint": "economy → economics (the discipline/field of study)"
+    },
+    {
+      "id": "e8",
+      "type": "fill",
+      "instruction": "Form the correct noun.",
+      "text": "\"Market ___ occur when unregulated markets produce poor social outcomes.\" (fail)\", (failure)",
+      "correct": "failures",
+      "hint": "fail → failure (-ure suffix: result/condition) → failures (plural)"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Form the correct word.",
+      "text": "\"The ___ of wages is one of the most debated economic issues.\" (regulate)\", (noun)",
+      "opts": [
+        "regulation",
+        "regulating",
+        "regulative",
+        "regulator"
+      ],
+      "correct": "regulation",
+      "hint": "regulate → regulation (-tion suffix)"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Form the correct person noun.",
+      "text": "\"An ___ studies the economy and advises governments on policy.\" (economy)\", (person who studies it)",
+      "correct": "economist",
+      "hint": "economy → economist (-ist suffix: specialist in a field)"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"The ___ of the industry improved after new technology was introduced.\" (produce + -ivity)\", (noun)",
+      "opts": [
+        "production",
+        "productive",
+        "productivity",
+        "producer"
+      ],
+      "correct": "productivity",
+      "hint": "productive → productivity (-ity suffix: the quality/state of being productive)"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Convert the adjective to a verb.",
+      "text": "\"Governments ___ the currency by printing too much money.\" (stable → opposite of stable → destabilise/inflate)\", (use: inflate)",
+      "correct": "inflate",
+      "hint": "inflate = to increase money supply causing inflation; inflate → inflation",
+      "points": 1
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Choose the correct word form.",
+      "text": "\"The government decided to ___ the industry to make it more competitive.\" (liberal)\", (verb)",
+      "opts": [
+        "liberalise",
+        "liberation",
+        "liberal",
+        "liberalness"
+      ],
+      "correct": "liberalise",
+      "hint": "liberal → liberalise (-ise suffix: to make liberal/free)"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Form the correct noun.",
+      "text": "\"___ of goods across borders has increased dramatically.\" (distribute — the activity of distributing)\", (= distribution)",
+      "correct": "Distribution",
+      "hint": "distribute → distribution",
+      "points": 1
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Choose the correct word.",
+      "text": "\"The ___ performance of a company determines its share price.\" (finance → adjective)",
+      "opts": [
+        "finance",
+        "financial",
+        "financially",
+        "financeable"
+      ],
+      "correct": "financial",
+      "hint": "finance → financial (-ial suffix: relating to finance)"
+    },
+    {
+      "id": "e16",
+      "type": "fill",
+      "instruction": "Form the correct noun from the adjective.",
+      "text": "\"There is great ___ in the labour market — workers can change jobs easily.\" (flexible + -ibility → flexibility)\", (noun)",
+      "correct": "flexibility",
+      "hint": "flexible → flexibility (-ity suffix: the state of being flexible)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of wealth between the rich and poor is highly unequal.\" (distribute → noun)",
+      "opts": [
+        "distributing",
+        "distribution",
+        "distributive",
+        "distributor"
+      ],
+      "correct": "distribution",
+      "hint": "distribute → distribution (-tion suffix)",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ in technology companies has grown rapidly.\" (invest → noun)",
+      "correct": "Investment",
+      "hint": "invest → investment (-ment suffix)",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"An ___ is a person who studies the economy and economic policy.\" (economy → person)",
+      "opts": [
+        "economic",
+        "economical",
+        "economist",
+        "economics"
+      ],
+      "correct": "economist",
+      "hint": "economy → economist (-ist: specialist in a field)",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Strong ___ between companies keeps prices low and quality high.\" (compete → noun)",
+      "correct": "competition",
+      "hint": "compete → competition (-tion: irregular)",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The government decided to ___ the state-owned airline.\" (private → verb)",
+      "opts": [
+        "private",
+        "privatisation",
+        "privatise",
+        "privately"
+      ],
+      "correct": "privatise",
+      "hint": "private → privatise (-ise suffix: to make private)",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Economy\" and \"economist\" are both nouns.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"Economy\" (the system) and \"economist\" (a person) are both nouns",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"Market ___ occurs when unregulated markets produce suboptimal outcomes.\" (fail → noun: failure)",
+      "correct": "failure",
+      "hint": "fail → failure (-ure suffix)",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Rising ___ means workers produce more per hour worked.\" (productive → noun)",
+      "opts": [
+        "production",
+        "produce",
+        "productivity",
+        "producer"
+      ],
+      "correct": "productivity",
+      "hint": "productive → productivity (-ity suffix)",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"The ___ of wages is fiercely debated between governments and trade unions.\" (regulate → noun: regulation)",
+      "correct": "regulation",
+      "hint": "regulate → regulation (-tion suffix)",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The ___ of income matters as much as its level.\" (distribute → noun)",
+      "opts": [
+        "distributor",
+        "distribution",
+        "distributive",
+        "distributing"
+      ],
+      "correct": "distribution",
+      "hint": "distribute → distribution",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ studies how people make decisions under conditions of scarcity.\" (economy → the discipline)",
+      "correct": "Economics",
+      "hint": "economy → economics (the discipline; also: the economist studies it)",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"The government plans to ___ the currency by pegging it to the euro.\" (stable → verb)",
+      "opts": [
+        "stable",
+        "stability",
+        "stabilise",
+        "stabilising"
+      ],
+      "correct": "stabilise",
+      "hint": "stable → stabilise (-ise suffix: to make stable)",
+      "points": 2
+    }
+  ]
+}

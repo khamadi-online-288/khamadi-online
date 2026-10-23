@@ -1,0 +1,224 @@
+{
+  "id": "l49-4",
+  "moduleNum": 15,
+  "lessonNum": 5,
+  "moduleTitle": "Things Being Done",
+  "type": "writing",
+  "title": "How Something Is Made or Done",
+  "xp": 75,
+  "duration": 80,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "First, the... is...",
+      "emoji": "1️⃣",
+      "opts": [
+        "в конце",
+        "сначала / во-первых",
+        "как только",
+        "поэтому"
+      ],
+      "correct": "сначала / во-первых"
+    },
+    {
+      "id": "p2",
+      "word": "Then it is...",
+      "emoji": "2️⃣",
+      "opts": [
+        "до этого",
+        "затем / после этого",
+        "иногда",
+        "несмотря на это"
+      ],
+      "correct": "затем / после этого"
+    },
+    {
+      "id": "p3",
+      "word": "After that,...",
+      "emoji": "3️⃣",
+      "opts": [
+        "перед этим",
+        "после этого",
+        "тем временем",
+        "хотя"
+      ],
+      "correct": "после этого"
+    },
+    {
+      "id": "p4",
+      "word": "Finally, it is...",
+      "emoji": "✅",
+      "opts": [
+        "сначала",
+        "в конце концов / наконец",
+        "также",
+        "затем"
+      ],
+      "correct": "в конце концов / наконец"
+    },
+    {
+      "id": "p5",
+      "word": "It is made from...",
+      "emoji": "🧱",
+      "opts": [
+        "это убирается",
+        "это сделано из",
+        "это используется для",
+        "это создано в"
+      ],
+      "correct": "это сделано из"
+    },
+    {
+      "id": "p6",
+      "word": "It is used to...",
+      "emoji": "🎯",
+      "opts": [
+        "это избегается",
+        "это используется для того чтобы",
+        "это хранится",
+        "это находится в"
+      ],
+      "correct": "это используется для того чтобы"
+    }
+  ],
+  "writingModel": [
+    "How a WKU Student ID Card Is Made",
+    "The WKU student ID card is a small document that carries a lot of information: the student's name, photograph, student number, faculty, and year of enrolment. But how is it produced? The process involves several careful steps.",
+    "First, the student's personal information is collected during registration. A form is completed by the student online, and a photograph is uploaded to the university system. The data is verified by the registration office to make sure all details are correct.",
+    "Once the data has been approved, it is sent to the printing department. A template is loaded, and the card is designed digitally — the name, photograph, and barcode are all placed in their correct positions. A proof version is generated and checked by a supervisor.",
+    "The physical card is then printed on a special plastic material. The surface is laminated to protect the printed information from damage. After lamination, the card is cut to the standard size and a small hole is punched in the corner so it can be attached to a lanyard.",
+    "The finished card is inspected for printing errors, incorrect information, or physical damage. Cards that pass inspection are packaged individually and sent to the relevant faculty office. Cards that fail the inspection are reprinted.",
+    "Finally, the card is collected by the student from their faculty office or delivered directly to their dormitory. The whole process, from registration to delivery, typically takes between five and ten working days.",
+    "A student ID card may seem like a simple object. But the process by which it is created, checked, approved, printed, inspected, and delivered involves many people, many stages, and a great deal of careful attention."
+  ],
+  "writingTemplate": [
+    {
+      "key": "title",
+      "prefix": "How ",
+      "suffix": " Is Made / Done / Produced",
+      "placeholder": "Your product or process",
+      "hint": "Choose a product or process you know well: bread, tea, a document, a phone, etc."
+    },
+    {
+      "key": "intro",
+      "prefix": "",
+      "suffix": " — but how is it made?",
+      "placeholder": "Brief description of what it is and what it does",
+      "hint": "Introduce the object/process. What is it used for?"
+    },
+    {
+      "key": "step1",
+      "prefix": "First, ",
+      "suffix": ".",
+      "placeholder": "is/are + past participle (step 1)",
+      "hint": "\"First, the materials ARE COLLECTED.\" / \"First, the form IS FILLED IN.\" Passive!"
+    },
+    {
+      "key": "step2",
+      "prefix": "Then it ",
+      "suffix": ".",
+      "placeholder": "is/are + past participle (step 2)",
+      "hint": "\"Then it IS SENT to...\" / \"Then it IS HEATED to...\" Passive!"
+    },
+    {
+      "key": "step3",
+      "prefix": "After that, ",
+      "suffix": ".",
+      "placeholder": "is/are + past participle (step 3)",
+      "hint": "\"After that, it IS CUT / IS PACKAGED / IS TESTED.\" Passive!"
+    },
+    {
+      "key": "step4",
+      "prefix": "Once it has been ",
+      "suffix": ", it is then...",
+      "placeholder": "past participle (checked/approved/dried/cooled)",
+      "hint": "\"Once it has been CHECKED, it is then...\" — perfect passive for completed step."
+    },
+    {
+      "key": "inspect",
+      "prefix": "The finished ",
+      "suffix": " is inspected for any problems.",
+      "placeholder": "product/document/result",
+      "hint": "Mention the quality check: \"inspected for errors / damage / problems.\""
+    },
+    {
+      "key": "final",
+      "prefix": "Finally, it is ",
+      "suffix": ".",
+      "placeholder": "delivered / stored / distributed / sold",
+      "hint": "The last step — where does the product go?"
+    },
+    {
+      "key": "closing",
+      "prefix": "The whole process, from ___ to ___, ",
+      "suffix": ".",
+      "placeholder": "reflection on the full process",
+      "hint": "\"The whole process, from start to finish, involves many careful steps.\""
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Sequence connectors",
+      "color": "#003876",
+      "items": [
+        "First, ... is/are...",
+        "Next, it is...",
+        "Then it is...",
+        "After that, it is...",
+        "Once it has been..., it is...",
+        "Finally, it is..."
+      ]
+    },
+    {
+      "category": "Passive process verbs (present)",
+      "color": "#1D9E75",
+      "items": [
+        "is collected / are collected",
+        "is checked / is verified / is approved",
+        "is designed / is printed / is produced",
+        "is cut / is shaped / is assembled",
+        "is packaged / is wrapped / is labelled",
+        "is delivered / is distributed / is stored"
+      ]
+    },
+    {
+      "category": "Passive process verbs (past perfect)",
+      "color": "#1B8FC4",
+      "items": [
+        "Once it has been approved,...",
+        "After the data has been verified,...",
+        "When the design has been finalised,...",
+        "Once the product has been inspected,...",
+        "After it has been tested,..."
+      ]
+    },
+    {
+      "category": "Materials and tools",
+      "color": "#C9933B",
+      "items": [
+        "It is made from / made of...",
+        "It is printed on special paper / plastic...",
+        "It is produced using...",
+        "It is cut by machine / by hand...",
+        "It is stored in a... / kept in a...",
+        "It is used to... / designed to..."
+      ]
+    }
+  ]
+}

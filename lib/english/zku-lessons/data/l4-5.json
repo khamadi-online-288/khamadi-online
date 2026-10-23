@@ -1,0 +1,431 @@
+{
+  "id": "l4-5",
+  "moduleNum": 4,
+  "lessonNum": 6,
+  "moduleTitle": "My day",
+  "title": "Module 4 Final Test",
+  "type": "test",
+  "xp": 100,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q01",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What time does Aizhan's alarm ring every morning?",
+      "opts": [
+        "6:00",
+        "6:30",
+        "7:00",
+        "7:15"
+      ],
+      "correct": "6:30",
+      "hint": "\"My alarm rings at 6:30 every morning.\""
+    },
+    {
+      "id": "q02",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan sometimes presses snooze when her alarm rings.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I get up immediately — I never press snooze!\""
+    },
+    {
+      "id": "q03",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does it take Aizhan to walk to her academic building?",
+      "opts": [
+        "Five minutes",
+        "Ten minutes",
+        "Fifteen minutes",
+        "Twenty minutes"
+      ],
+      "correct": "Ten minutes",
+      "hint": "\"I walk from the dormitory to the main academic building — it takes about ten minutes.\""
+    },
+    {
+      "id": "q04",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aizhan usually eat for breakfast?",
+      "opts": [
+        "Toast and tea",
+        "Soup and bread",
+        "Porridge or an omelette",
+        "A banana and compote"
+      ],
+      "correct": "Porridge or an omelette",
+      "hint": "\"I usually eat porridge or an omelette with bread and a glass of orange juice.\""
+    },
+    {
+      "id": "q05",
+      "cat": "reading",
+      "points": 15,
+      "type": "fill",
+      "text": "Aizhan always sits in the ___ row because it helps her concentrate.",
+      "correct": "second",
+      "hint": "\"I always sit in the second row — it helps me concentrate.\""
+    },
+    {
+      "id": "q06",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What do Aizhan and Dias do after lunch?",
+      "opts": [
+        "They go to Computer Science class.",
+        "They sit in the library for twenty minutes.",
+        "They walk in the park.",
+        "They call their parents."
+      ],
+      "correct": "They sit in the library for twenty minutes.",
+      "hint": "\"Dias and I often sit in the library for twenty minutes.\""
+    },
+    {
+      "id": "q07",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan's classes finish at 4:00 pm every day.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Classes finish at 3:30 pm every day.\""
+    },
+    {
+      "id": "q08",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Aizhan do for five minutes before going to sleep?",
+      "opts": [
+        "She reviews her notes.",
+        "She calls her parents.",
+        "She watches a lecture.",
+        "She writes in her diary."
+      ],
+      "correct": "She writes in her diary.",
+      "hint": "\"Before I sleep, I write in my diary for five minutes.\""
+    },
+    {
+      "id": "q09",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What time does Zarina get up every morning?",
+      "opts": [
+        "6:30",
+        "7:00",
+        "7:15",
+        "7:30"
+      ],
+      "correct": "7:15",
+      "hint": "\"I get up at 7:15. I press snooze at least twice.\" — Zarina."
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Zarina always eats a full breakfast before class.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"Sometimes I skip breakfast. I just grab a banana and run to class.\" — Zarina."
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How long does Zarina do yoga every morning?",
+      "opts": [
+        "Five minutes",
+        "Ten minutes",
+        "Fifteen minutes",
+        "Twenty minutes"
+      ],
+      "correct": "Ten minutes",
+      "hint": "\"I do yoga every morning — ten minutes. It gives me energy!\" — Zarina."
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 15,
+      "type": "fill",
+      "text": "Aizhan listens to English ___ on her walk to class.",
+      "correct": "podcasts",
+      "hint": "\"I listen to English podcasts on my walk to class. It helps me wake up!\" — Aizhan."
+    },
+    {
+      "id": "q13",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "When does Zarina feel most energetic?",
+      "opts": [
+        "Early in the morning",
+        "During breakfast",
+        "In the afternoon",
+        "Late at night"
+      ],
+      "correct": "In the afternoon",
+      "hint": "\"Definitely afternoon. After lunch I feel amazing.\" — Zarina."
+    },
+    {
+      "id": "q14",
+      "cat": "listening",
+      "points": 10,
+      "type": "tf",
+      "text": "Aizhan stretches for five minutes every morning after waking up.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"First, I stretch for five minutes and wash my face.\" — Aizhan."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Zarina ___ yoga every morning before class.",
+      "opts": [
+        "do",
+        "does",
+        "is do",
+        "doing"
+      ],
+      "correct": "does",
+      "hint": "Zarina = She → She does. He/She/It + does for \"do\"."
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"She don't get up early\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "She → doesn't. \"She doesn't get up early.\" Never \"don't\" with He/She/It."
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "___ Aizhan call her parents every evening? (question)",
+      "correct": "Does",
+      "hint": "Aizhan = She → Does she call...? (base form after Does)."
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "She study hard every day.",
+        "He go to the library after lunch.",
+        "Dias studies Computer Science.",
+        "They eats in the cafeteria."
+      ],
+      "correct": "Dias studies Computer Science.",
+      "hint": "Dias = He → studies. Others have errors: study→studies, go→goes, eats→eat."
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Where does the adverb go? Choose the correct sentence.",
+      "opts": [
+        "She calls always her parents.",
+        "Always she calls her parents.",
+        "She always calls her parents.",
+        "She calls her parents always evening."
+      ],
+      "correct": "She always calls her parents.",
+      "hint": "Adverbs of frequency go BEFORE the main verb: \"She always calls...\""
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 15,
+      "type": "fill",
+      "text": "I ___ (never / press) snooze — I get up immediately!",
+      "correct": "never press",
+      "hint": "\"never\" goes before the main verb. \"I never press snooze.\""
+    },
+    {
+      "id": "q21",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Does she studies every evening?\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "After Does → base form. \"Does she study every evening?\" NOT \"studies\"."
+    },
+    {
+      "id": "q22",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which negative sentence is correct?",
+      "opts": [
+        "She don't skips breakfast.",
+        "She doesn't skips breakfast.",
+        "She doesn't skip breakfast.",
+        "She not skip breakfast."
+      ],
+      "correct": "She doesn't skip breakfast.",
+      "hint": "doesn't + base form. Never \"doesn't skips\" — no -s after doesn't."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"routine\" mean?",
+      "opts": [
+        "a single unusual event",
+        "a set of actions you do regularly in the same order",
+        "a very busy schedule",
+        "a school timetable"
+      ],
+      "correct": "a set of actions you do regularly in the same order",
+      "hint": "Routine = a fixed set of regular actions. \"I love my morning routine at WKU.\""
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Before sleeping, Aizhan writes in her ___ for five minutes.",
+      "correct": "diary",
+      "hint": "Diary = дневник — a book where you write your thoughts each day."
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"exhausted\" mean?",
+      "opts": [
+        "full of energy",
+        "very hungry",
+        "extremely tired",
+        "slightly bored"
+      ],
+      "correct": "extremely tired",
+      "hint": "Exhausted = измотанный — far more tired than just \"tired\". \"Mornings are exhausting for me!\" — Zarina."
+    },
+    {
+      "id": "q26",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "tf",
+      "text": "\"To snooze\" means to wake up and get out of bed immediately.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Snooze = to press the alarm button to get a few more minutes of sleep. The opposite of getting up immediately."
+    },
+    {
+      "id": "q27",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"productive\" describe?",
+      "opts": [
+        "feeling lazy and tired",
+        "achieving a lot and using time well",
+        "being very loud",
+        "feeling nervous about exams"
+      ],
+      "correct": "achieving a lot and using time well",
+      "hint": "Productive = продуктивный. \"I have a very productive morning when I wake up early.\""
+    },
+    {
+      "id": "q28",
+      "cat": "vocabulary",
+      "points": 15,
+      "type": "fill",
+      "text": "Zarina sometimes ___ breakfast and just grabs a banana.",
+      "correct": "skips",
+      "hint": "Skip = пропускать. \"Sometimes I skip breakfast.\" — Zarina."
+    },
+    {
+      "id": "q29",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What is \"compote\"?",
+      "opts": [
+        "a type of soup",
+        "a traditional fruit drink",
+        "a hot breakfast cereal",
+        "a type of bread"
+      ],
+      "correct": "a traditional fruit drink",
+      "hint": "Compote = компот — a sweet drink made by boiling fruit in water. Common in Kazakh cafeterias."
+    },
+    {
+      "id": "q30",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"concentrate\" mean?",
+      "opts": [
+        "to feel relaxed",
+        "to give all your attention to something",
+        "to write quickly",
+        "to remember something"
+      ],
+      "correct": "to give all your attention to something",
+      "hint": "\"I always sit in the second row — it helps me concentrate.\" — Aizhan."
+    }
+  ]
+}

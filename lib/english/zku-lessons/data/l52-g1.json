@@ -1,0 +1,530 @@
+{
+  "id": "l52-g1",
+  "moduleNum": 18,
+  "lessonNum": 4,
+  "moduleTitle": "Health & Body",
+  "type": "grammar",
+  "title": "should / shouldn't for Health Advice",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "should / shouldn't — Advice and Recommendations",
+  "grammarNote": "SHOULD используется для дачи совета или рекомендации — это мягкое \"нужно\". SHOULDN'T — совет против чего-то делать. Важно: should — это НЕ обязательство (не must/have to). Это просто рекомендация: \"Я думаю, что это хорошая идея для тебя.\" Структура: subject + should/shouldn't + base form (без to).",
+  "grammarTable": [
+    {
+      "subject": "You should",
+      "verb": "+ base form",
+      "short": "рекомендация",
+      "example": "\"You should drink more water.\" / \"She should sleep earlier.\""
+    },
+    {
+      "subject": "You shouldn't",
+      "verb": "+ base form",
+      "short": "против действия",
+      "example": "\"You shouldn't skip meals.\" / \"He shouldn't work so late.\""
+    },
+    {
+      "subject": "Should I...?",
+      "verb": "question",
+      "short": "просить совет",
+      "example": "\"Should I take vitamins?\" / \"Should we call a doctor?\""
+    },
+    {
+      "subject": "You should have",
+      "verb": "+ past participle",
+      "short": "критика прошлого",
+      "example": "\"You should have slept earlier.\" (but you didn't)"
+    },
+    {
+      "subject": "Strength",
+      "verb": "mild advice",
+      "short": "мягко",
+      "example": "\"should\" < \"must/have to\" — advice, not obligation"
+    },
+    {
+      "subject": "Form",
+      "verb": "modal verb",
+      "short": "без изменений",
+      "example": "\"She should eat.\" (NOT \"she shoulds eat\" — modals don't change!)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Giving health advice with should",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Positive advice",
+          "example": "\"You should get more sleep.\" / \"She should see a doctor.\" / \"He should eat breakfast.\""
+        },
+        {
+          "form": "Negative advice",
+          "example": "\"You shouldn't drink so much coffee.\" / \"You shouldn't study all night.\""
+        },
+        {
+          "form": "Asking for advice",
+          "example": "\"Should I take a day off?\" / \"Should we call an ambulance?\" / \"What should I do?\""
+        },
+        {
+          "form": "\"should\" + \"try to\"",
+          "example": "\"You should try to exercise more.\" / \"You should try to reduce screen time.\""
+        }
+      ]
+    },
+    {
+      "title": "should vs must vs have to",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "should = advice",
+          "example": "\"You should sleep more.\" (recommendation — it's a good idea)"
+        },
+        {
+          "form": "must = strong obligation",
+          "example": "\"You must wear a seatbelt.\" (rule/law — obligatory)"
+        },
+        {
+          "form": "have to = external obligation",
+          "example": "\"You have to be at work by 9.\" (it's required by someone/something)"
+        },
+        {
+          "form": "shouldn't vs mustn't",
+          "example": "\"You shouldn't eat so much sugar.\" (advice) vs \"You mustn't enter.\" (forbidden — rule)"
+        }
+      ]
+    },
+    {
+      "title": "should have + past participle (past criticism)",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"You should have slept earlier.\"",
+          "example": "You didn't sleep earlier — that was a mistake. Past criticism/regret. ✅"
+        },
+        {
+          "form": "\"She should have eaten breakfast.\"",
+          "example": "She didn't eat breakfast — that was a bad idea. ✅"
+        },
+        {
+          "form": "\"I shouldn't have drunk so much.\"",
+          "example": "I drank too much — and now I regret it. ✅"
+        },
+        {
+          "form": "Form: should have + pp",
+          "example": "\"should + have + past participle\" — only for past. \"You should have rested.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common mistakes with should",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"She shoulds sleep.\"",
+          "example": "✅ \"She should sleep.\" — modals never take -s. ✅"
+        },
+        {
+          "form": "✗ \"You should to drink water.\"",
+          "example": "✅ \"You should drink water.\" — no \"to\" after modals! ✅"
+        },
+        {
+          "form": "✗ \"Should you drink?\" (order)",
+          "example": "✅ \"Should you drink water?\" — this asks for advice. ✅"
+        },
+        {
+          "form": "✗ \"You shouldn't to skip it.\"",
+          "example": "✅ \"You shouldn't skip it.\" — no \"to\" after should/shouldn't. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "SHOULD / SHOULDN'T — совет и рекомендация:\n\nshould + base form (без TO!):\n\"You should drink more water.\" ✅\n\"You should get some rest.\" ✅\n\nshouldn't + base form:\n\"You shouldn't skip meals.\" ✅\n\"She shouldn't work so late.\" ✅\n\n⚠️ Типичные ошибки:\n✗ \"She shoulds sleep.\" → ✅ \"She should sleep.\"\n✗ \"You should to rest.\" → ✅ \"You should rest.\"\n\nПрошедшее время (критика/сожаление):\n\"You should have slept earlier.\" (но ты не спал)\n\"I shouldn't have eaten so much.\" (но я съел)\n\nСила совета:\nshould (рекомендация) < must/have to (обязательство)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "You ___ drink more water — you're dehydrated.",
+      "opts": [
+        "should to drink",
+        "should drink",
+        "shoulds drink",
+        "should drinking"
+      ],
+      "correct": "should drink",
+      "hint": "\"should\" + base form (NO \"to\"). \"You SHOULD DRINK more water.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct negative form.",
+      "text": "She ___ stay up so late — she has an exam tomorrow.",
+      "opts": [
+        "shouldn't to stay",
+        "shouldn't stays",
+        "shouldn't stay",
+        "should stay not"
+      ],
+      "correct": "shouldn't stay",
+      "hint": "\"shouldn't\" + base form. \"She SHOULDN'T STAY up so late.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with should or shouldn't.",
+      "text": "\"You ___ skip breakfast. It's the most important meal of the day.\"",
+      "correct": "shouldn't",
+      "hint": "Advice against → \"SHOULDN'T skip breakfast.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Form a question asking for advice.",
+      "text": "\"___ I see a doctor about this headache?\"",
+      "opts": [
+        "Should",
+        "Shouldn't",
+        "Should to",
+        "Am should"
+      ],
+      "correct": "Should",
+      "hint": "\"Should I...?\" = asking for advice. \"SHOULD I see a doctor?\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"She shoulds exercise more.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"She SHOULD exercise more.\" — modals NEVER take -s. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose: should, must, or have to?",
+      "text": "\"You ___ eat more vegetables.\" (strong advice from a doctor)",
+      "opts": [
+        "should (advice / recommendation)",
+        "must (absolute obligation)",
+        "have to (external rule)",
+        "All three work equally"
+      ],
+      "correct": "should (advice / recommendation)",
+      "hint": "A doctor's advice = \"should\". \"You SHOULD eat more vegetables.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with should have + past participle.",
+      "text": "\"You ___ (sleep) earlier last night. You look exhausted.\"",
+      "correct": "should have slept",
+      "hint": "Past criticism: \"You SHOULD HAVE SLEPT earlier.\" = you didn't, and that was a mistake. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the meaning of \"shouldn't\".",
+      "text": "\"You shouldn't drink so much coffee.\" means:",
+      "opts": [
+        "It's forbidden by law",
+        "I advise you not to — it's not a good idea",
+        "You are not able to",
+        "You don't need to"
+      ],
+      "correct": "I advise you not to — it's not a good idea",
+      "hint": "\"shouldn't\" = advice against doing something. ✅ Not forbidden, not impossible."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence uses \"should\" correctly?",
+      "opts": [
+        "\"You should to rest.\"",
+        "\"She shoulds eat less sugar.\"",
+        "\"You should eat less sugar.\"",
+        "\"Should you eat less sugar.\" (as a statement)"
+      ],
+      "correct": "\"You should eat less sugar.\"",
+      "hint": "\"should\" + base form (no \"to\", no \"-s\"). \"You SHOULD eat less sugar.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the past criticism.",
+      "text": "\"I ___ (eat) so much last night. I feel terrible.\"",
+      "correct": "shouldn't have eaten",
+      "hint": "Past regret: \"I SHOULDN'T HAVE EATEN so much.\" = I ate too much and regret it. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Choose the correct advice.",
+      "text": "\"What should I do about my headaches?\" — Good advice:",
+      "opts": [
+        "\"You should to rest and drink water.\"",
+        "\"You should rest and drink water.\"",
+        "\"You shoulds rest.\"",
+        "\"Should you rest and drink water?\""
+      ],
+      "correct": "\"You should rest and drink water.\"",
+      "hint": "\"should\" + base form. \"You SHOULD REST and DRINK water.\" ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose: shouldn't or mustn't?",
+      "text": "\"You ___ enter the laboratory without protective equipment.\" (rule / safety law)",
+      "opts": [
+        "shouldn't (advice)",
+        "mustn't (forbidden — rule)",
+        "both are the same",
+        "don't have to"
+      ],
+      "correct": "mustn't (forbidden — rule)",
+      "hint": "\"mustn't\" = forbidden by rule. \"MUSTN'T enter without protection.\" ✅ vs \"shouldn't\" = advice only."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should sleep more.\" — \"Should\" expresses:",
+      "opts": [
+        "Obligation",
+        "Advice / recommendation",
+        "Permission",
+        "Ability"
+      ],
+      "correct": "Advice / recommendation",
+      "hint": "\"should\" = advice; recommendation. Not as strong as \"must.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She shoulds exercise.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Should\" takes -s with she/he/it",
+        "\"Shoulds\" is never correct — modals don't change",
+        "\"Exercise\" needs \"to\""
+      ],
+      "correct": "\"Shoulds\" is never correct — modals don't change",
+      "hint": "Modal verbs NEVER add -s. \"She SHOULD exercise.\" ✅ Never \"shoulds.\""
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"You ___ skip meals. Eat regularly.\"",
+      "correct": "shouldn't",
+      "hint": "\"shouldn't\" = advice against. \"You SHOULDN'T skip meals.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should to drink water.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"To\" should not come after \"should\"",
+        "\"Drink\" should be \"drinking\"",
+        "\"Should\" is wrong here"
+      ],
+      "correct": "\"To\" should not come after \"should\"",
+      "hint": "\"should\" + BASE FORM (no \"to\"). \"You should DRINK water.\" ✅ Never \"should to drink.\""
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ I take a day off?\" — Asking for advice:",
+      "opts": [
+        "Should",
+        "Must",
+        "Have to",
+        "Am"
+      ],
+      "correct": "Should",
+      "hint": "\"Should I...?\" = question asking for advice/recommendation. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should have slept earlier.\" — This means:",
+      "opts": [
+        "You slept early and that was good",
+        "You didn't sleep early — that was a mistake",
+        "You need to sleep early",
+        "You usually sleep early"
+      ],
+      "correct": "You didn't sleep early — that was a mistake",
+      "hint": "\"should have + pp\" = past criticism. You didn't do it, but you should have. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I ___ (eat) so much cake. I feel terrible.\" (past regret)",
+      "correct": "shouldn't have eaten",
+      "hint": "\"shouldn't have eaten\" = I ate too much and now regret it. Past form. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You shouldn't drink coffee late.\" vs \"You must not enter.\" — Difference:",
+      "opts": [
+        "No difference",
+        "\"Shouldn't\" = advice; \"must not\" = forbidden",
+        "\"Must not\" is softer",
+        "\"Shouldn't\" is stronger"
+      ],
+      "correct": "\"Shouldn't\" = advice; \"must not\" = forbidden",
+      "hint": "\"shouldn't\" = not a good idea (advice). \"Must not\" = forbidden/prohibited. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is grammatically correct?",
+      "opts": [
+        "\"She should to eat.\"",
+        "\"She shoulds eat.\"",
+        "\"She should eat.\"",
+        "\"She should eating.\""
+      ],
+      "correct": "\"She should eat.\"",
+      "hint": "\"should\" + base form. \"She SHOULD EAT.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should try to exercise.\" — \"Should\" here is:",
+      "opts": [
+        "Obligatory",
+        "A recommendation",
+        "Impossible",
+        "Permission"
+      ],
+      "correct": "A recommendation",
+      "hint": "\"should\" = recommendation. \"You SHOULD try to exercise.\" = I advise you to. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"What ___ I do about this headache?\" (asking for advice)",
+      "correct": "should",
+      "hint": "\"What SHOULD I do?\" = asking for a recommendation. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You should have seen a doctor.\" — Form: should + have + ___.",
+      "opts": [
+        "base form",
+        "past simple",
+        "past participle",
+        "gerund"
+      ],
+      "correct": "past participle",
+      "hint": "\"should have + PAST PARTICIPLE.\" \"should have SEEN.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"should\" is ___ than \"must.\"",
+      "opts": [
+        "stronger",
+        "weaker / softer",
+        "the same",
+        "more formal"
+      ],
+      "correct": "weaker / softer",
+      "hint": "\"should\" = advice. \"must\" = obligation. \"should\" is WEAKER — a suggestion, not a command. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ (exercise) more. She looks tired.\" (give advice)",
+      "correct": "should exercise",
+      "hint": "\"should\" + base form. \"She SHOULD EXERCISE more.\" ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "You give advice to a friend who is stressed. Which is most appropriate?",
+      "opts": [
+        "\"You must sleep more.\"",
+        "\"You should sleep more.\"",
+        "\"You have to sleep more.\"",
+        "\"You may sleep more.\""
+      ],
+      "correct": "\"You should sleep more.\"",
+      "hint": "\"should\" is most appropriate for friendly advice. \"Must\" and \"have to\" sound too strong. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"You shouldn't have stayed up so late.\" means:",
+      "opts": [
+        "Don't stay up late in the future",
+        "You stayed up late — that was a mistake",
+        "You are not allowed to stay up late",
+        "You don't need to stay up late"
+      ],
+      "correct": "You stayed up late — that was a mistake",
+      "hint": "\"shouldn't have + pp\" = past criticism. You did it, but you shouldn't have. ✅"
+    }
+  ]
+}

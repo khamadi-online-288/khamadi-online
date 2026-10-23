@@ -1,0 +1,215 @@
+{
+  "id": "l13-5",
+  "moduleNum": 13,
+  "lessonNum": 6,
+  "moduleTitle": "Numbers and money",
+  "title": "My monthly budget",
+  "type": "writing",
+  "xp": 70,
+  "duration": 20,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "My monthly income is...",
+      "emoji": "💰",
+      "opts": [
+        "Мой ежемесячный долг — ...",
+        "Мои ежемесячные расходы — ...",
+        "Мой ежемесячный доход — ...",
+        "Моя ежемесячная цель — ..."
+      ],
+      "correct": "Мой ежемесячный доход — ..."
+    },
+    {
+      "id": "p2",
+      "word": "I spend ... tenge on...",
+      "emoji": "💸",
+      "opts": [
+        "Я экономлю ... тенге на ...",
+        "Я зарабатываю ... тенге на ...",
+        "Я трачу ... тенге на ...",
+        "Я получаю ... тенге на ..."
+      ],
+      "correct": "Я трачу ... тенге на ..."
+    },
+    {
+      "id": "p3",
+      "word": "My biggest expense is...",
+      "emoji": "📊",
+      "opts": [
+        "Мой самый большой долг — ...",
+        "Мой самый большой доход — ...",
+        "Мой самый большой расход — ...",
+        "Моя самая большая цель — ..."
+      ],
+      "correct": "Мой самый большой расход — ..."
+    },
+    {
+      "id": "p4",
+      "word": "I try to save...",
+      "emoji": "🏦",
+      "opts": [
+        "Я стараюсь тратить...",
+        "Я стараюсь зарабатывать...",
+        "Я стараюсь откладывать...",
+        "Я стараюсь занимать..."
+      ],
+      "correct": "Я стараюсь откладывать..."
+    },
+    {
+      "id": "p5",
+      "word": "I can afford...",
+      "emoji": "✅",
+      "opts": [
+        "Я не могу позволить...",
+        "Я хочу купить...",
+        "Я могу позволить себе...",
+        "Мне нравится..."
+      ],
+      "correct": "Я могу позволить себе..."
+    },
+    {
+      "id": "p6",
+      "word": "At the end of the month,",
+      "emoji": "📅",
+      "opts": [
+        "В начале месяца,...",
+        "В середине месяца,...",
+        "В конце месяца,...",
+        "Каждую неделю,..."
+      ],
+      "correct": "В конце месяца,..."
+    }
+  ],
+  "writingModel": [
+    "Managing money as a university student is one of the most important skills I am learning at WKU. Before I came to Uralsk, I never thought carefully about budgets or expenses. My parents paid for everything, and I did not think about prices. But when I arrived here alone, with a fixed amount of money each month, I had to learn quickly. Now, after one year, I have a clear system — and I am proud of it.",
+    "Every month, my total income is twenty-five thousand tenge. Fifteen thousand comes from my parents as a monthly allowance — they send it on the first of every month, always on time. The remaining ten thousand I earn myself through a tutoring job: I help two younger students from my faculty with Economics once a week, and they each pay me five thousand tenge per month. Having my own income makes me feel more independent and more careful about how I spend money.",
+    "My fixed expenses take up the largest part of my budget. The dormitory costs eight thousand tenge per month — that is my biggest single expense. My mobile phone plan is one thousand five hundred tenge, which gives me unlimited calls within Kazakhstan and four gigabytes of internet data. Transport — mainly buses to the city centre and back — costs around two thousand tenge. So my fixed expenses total eleven thousand five hundred tenge per month. These costs do not change, so I always know exactly what I need to cover first.",
+    "After fixed expenses, I spend approximately seven thousand tenge on food each month. About four thousand five hundred goes to the WKU cafeteria — I eat breakfast there almost every morning and lunch on weekdays. The remaining two thousand five hundred goes on fruit, snacks, and occasional café visits with friends. I also set aside two thousand tenge for study materials — books, notebooks, pens, and printing fees. For personal spending and small pleasures — a film, a magazine, a gift for a friend — I allow myself no more than two thousand tenge per month. That is a firm rule I follow carefully.",
+    "At the end of each month, I try to save two thousand five hundred tenge. I keep my savings in a separate digital account so I am not tempted to spend them. My goal is to save thirty thousand tenge by the end of the academic year — enough to buy a good laptop to replace my old, slow one. This budget plan is not always easy to follow. Some months, an unexpected expense appears — a medical visit, a new textbook, a birthday gift. But having a plan means I always know where I stand. Managing money well is, I believe, as important as any subject at university."
+  ],
+  "writingTemplate": [
+    {
+      "key": "income",
+      "prefix": "Every month, my total income is ",
+      "suffix": " tenge.",
+      "placeholder": "amount in words or numbers",
+      "hint": "e.g. fifteen thousand / twenty-five thousand / twelve thousand"
+    },
+    {
+      "key": "source",
+      "prefix": "I receive this money from ",
+      "suffix": ".",
+      "placeholder": "source(s) of income",
+      "hint": "e.g. my parents and a part-time job / a monthly allowance / my tutoring work"
+    },
+    {
+      "key": "biggest",
+      "prefix": "My biggest fixed expense is ",
+      "suffix": ", which costs ___ tenge per month.",
+      "placeholder": "name of expense ... amount",
+      "hint": "e.g. the dormitory (8,000) / transport (2,000) / my phone plan (1,500)"
+    },
+    {
+      "key": "food",
+      "prefix": "I spend about ",
+      "suffix": " tenge on food every month.",
+      "placeholder": "amount in words",
+      "hint": "e.g. six thousand / seven thousand five hundred / five thousand"
+    },
+    {
+      "key": "limit",
+      "prefix": "I try not to spend too much on ",
+      "suffix": ", so I limit myself to ___ tenge.",
+      "placeholder": "something + your limit amount",
+      "hint": "e.g. entertainment / café visits / clothes / personal shopping"
+    },
+    {
+      "key": "save",
+      "prefix": "At the end of the month, I try to save ",
+      "suffix": " tenge because ___.",
+      "placeholder": "amount ... reason for saving",
+      "hint": "e.g. two thousand because I want to buy a laptop / three thousand for emergencies"
+    },
+    {
+      "key": "goal",
+      "prefix": "My financial goal for this year is to ",
+      "suffix": " because ___.",
+      "placeholder": "your goal ... reason",
+      "hint": "e.g. save thirty thousand tenge for a new laptop / learn to spend more carefully"
+    },
+    {
+      "key": "end",
+      "prefix": "Managing money as a student is ",
+      "suffix": " because ___.",
+      "placeholder": "adjective(s) ... reason",
+      "hint": "e.g. challenging but important because / one of the most useful skills because"
+    }
+  ],
+  "writingPhrases": [
+    {
+      "category": "Talking about income — how much you receive",
+      "color": "#003876",
+      "items": [
+        "My monthly income is [amount] tenge.",
+        "Every month, I receive [amount] tenge from [source].",
+        "I earn [amount] tenge per month by [doing something].",
+        "My parents send me [amount] tenge on the [date] of every month.",
+        "I also earn [amount] tenge from my part-time [job].",
+        "My total income comes from [source 1] and [source 2]."
+      ]
+    },
+    {
+      "category": "Describing expenses — what you spend money on",
+      "color": "#1B8FC4",
+      "items": [
+        "My biggest expense is [item], which costs [amount] tenge.",
+        "I spend about [amount] tenge on [category] every month.",
+        "Fixed expenses: [item 1] ([amount]) + [item 2] ([amount]) = [total].",
+        "For food, I spend approximately [amount] tenge per month.",
+        "I set aside [amount] tenge for [books / transport / personal spending].",
+        "I allow myself no more than [amount] tenge on [entertainment / going out]."
+      ]
+    },
+    {
+      "category": "Comparing and budgeting — more / less / the same",
+      "color": "#7C3AED",
+      "items": [
+        "This month I spent more / less than last month on [category].",
+        "[Item A] is more expensive than [Item B] — [amount] vs [amount].",
+        "Compared to [last month / last year], I spend [more / less] on...",
+        "My fixed costs are [amount] tenge. My flexible costs are about [amount].",
+        "In total, my expenses come to [amount] tenge per month.",
+        "That leaves [amount] tenge at the end of the month."
+      ]
+    },
+    {
+      "category": "Savings and goals — your financial plans",
+      "color": "#1D9E75",
+      "items": [
+        "I try to save [amount] tenge every month.",
+        "My goal is to save [total amount] by [date / end of year].",
+        "I keep my savings in a [separate account / envelope / digital wallet].",
+        "I am saving for [a laptop / a trip / an emergency fund / a gift].",
+        "Managing money well is one of the most important skills at university.",
+        "Having a budget means I always know where I stand financially."
+      ]
+    }
+  ]
+}

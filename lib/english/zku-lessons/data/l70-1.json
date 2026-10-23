@@ -1,0 +1,325 @@
+{
+  "id": "l70-1",
+  "moduleNum": 12,
+  "lessonNum": 1,
+  "moduleTitle": "Technology & The Future",
+  "title": "The Technological Transformation: How Innovation Is Reshaping Society",
+  "type": "reading",
+  "xp": 80,
+  "duration": 55,
+  "paragraphs": [
+    "We are living through one of the most rapid periods of technological change in human history. In the space of a single generation, the internet has transformed how people access information, communicate, shop, and organise their lives. Smartphones have put more computational power in individual pockets than existed in entire government research facilities fifty years ago. Artificial intelligence is beginning to perform tasks that, until recently, were considered uniquely human. The pace of change shows no signs of slowing — if anything, it is accelerating.",
+    "This transformation brings extraordinary benefits. Medical technology is extending life expectancy and enabling treatments that were unimaginable a century ago. Digital communication has connected people across continents, enabling collaboration, cultural exchange, and access to information on an unprecedented scale. Renewable energy technologies are making it increasingly possible to power societies without the carbon emissions that have driven climate change. The potential of technology to address humanity's greatest challenges — from disease to poverty to environmental destruction — is genuinely exciting.",
+    "But technological change also creates disruption, inequality, and risk. Automation — the replacement of human labour by machines — is transforming the economy in ways that are creating winners and losers. Jobs that once provided stable, well-paid employment for millions of workers are disappearing. While new technologies create new jobs, these are often concentrated among the highly educated and geographically clustered in particular regions. Workers who lack access to education or retraining programmes find themselves left behind.",
+    "The digital divide is another significant concern. Access to digital technology and the internet is not equally distributed. In wealthy countries, there is near-universal internet access; in many parts of the developing world, billions of people remain offline. Even within wealthy countries, there are significant gaps based on income, age, and geography — rural communities, elderly populations, and low-income households are all disproportionately likely to have limited digital access. This divide risks compounding existing inequalities.",
+    "Privacy and surveillance represent a third major concern. The digital economy is built on data — enormous quantities of information about individuals' behaviour, preferences, movements, and relationships. This data is collected, stored, and analysed by corporations and governments. In the wrong hands, or under inadequate regulation, this creates the potential for manipulation, discrimination, and the erosion of civil liberties. The question of who owns personal data, who can access it, and on what terms is one of the defining regulatory challenges of the twenty-first century.",
+    "Technological governance — the question of how technology should be regulated and directed — is therefore increasingly urgent. Left entirely to market forces, technological development follows profit motives rather than social needs. Public investment, democratic oversight, and thoughtful regulation are needed to ensure that the benefits of technology are widely shared and its risks are minimised. This is not a question of being for or against technology — it is a question of who controls it, and for whose benefit.",
+    "The future is not predetermined. The technologies being developed today will shape the world of tomorrow — but how they shape it depends on choices being made now: by governments, by companies, by researchers, and by citizens. Understanding those choices, and participating in the conversations that shape them, is one of the most important forms of civic engagement in the digital age."
+  ],
+  "dialogue": [],
+  "keyPhrases": [
+    {
+      "phrase": "the digital divide",
+      "ru": "цифровой разрыв",
+      "context": "The gap between those with and without access to digital technology"
+    },
+    {
+      "phrase": "automation",
+      "ru": "автоматизация",
+      "context": "Replacement of human labour by machines"
+    },
+    {
+      "phrase": "technological governance",
+      "ru": "управление технологиями",
+      "context": "The regulation and direction of technological development"
+    },
+    {
+      "phrase": "left behind",
+      "ru": "оставленный позади",
+      "context": "Those who do not benefit from technological change"
+    },
+    {
+      "phrase": "civil liberties",
+      "ru": "гражданские свободы",
+      "context": "Individual rights and freedoms protected from government interference"
+    }
+  ],
+  "vocab": [
+    {
+      "en": "automation",
+      "ipa": "/ˌɔːtəˈmeɪʃən/",
+      "pos": "noun",
+      "ru": "автоматизация",
+      "kz": "автоматтандыру",
+      "emoji": "🤖",
+      "definition": "the use of machines to perform tasks previously done by people",
+      "example": "\"Automation is transforming the economy, creating winners and losers.\"",
+      "collocations": [
+        "industrial automation",
+        "automation of jobs",
+        "driven by automation"
+      ]
+    },
+    {
+      "en": "digital divide",
+      "ipa": "/ˈdɪdʒɪtl dɪˈvaɪd/",
+      "pos": "noun phrase",
+      "ru": "цифровой разрыв",
+      "kz": "цифрлық алшақтық",
+      "emoji": "📡",
+      "definition": "the gap between those with and without access to digital technology",
+      "example": "\"Billions of people remain offline — the digital divide risks compounding inequality.\"",
+      "collocations": [
+        "bridge the digital divide",
+        "the global digital divide",
+        "widen the digital divide"
+      ]
+    },
+    {
+      "en": "surveillance",
+      "ipa": "/səˈveɪləns/",
+      "pos": "noun",
+      "ru": "слежка / наблюдение",
+      "kz": "бақылау",
+      "emoji": "📷",
+      "definition": "close observation of a person or group, especially by authorities",
+      "example": "\"Digital surveillance raises serious questions about privacy and civil liberties.\"",
+      "collocations": [
+        "mass surveillance",
+        "government surveillance",
+        "digital surveillance"
+      ]
+    }
+  ],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "What benefits of technology does the text describe in paragraph 2?",
+      "correct": "Extended life expectancy, global communication, renewable energy, addressing disease/poverty"
+    },
+    {
+      "id": "t2",
+      "question": "What is the \"digital divide\"?",
+      "correct": "The gap between those with and without access to digital technology"
+    },
+    {
+      "id": "t3",
+      "question": "What concern does paragraph 5 raise about personal data?",
+      "correct": "It is collected and used by corporations/governments, creating risks of manipulation and erosion of civil liberties"
+    },
+    {
+      "id": "t4",
+      "question": "What does \"technological governance\" mean?",
+      "correct": "The regulation and direction of how technology is developed and used"
+    },
+    {
+      "id": "t5",
+      "question": "What does the text say about the future of technology?",
+      "correct": "It is not predetermined — it depends on choices being made now by governments, companies, researchers and citizens"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "s1",
+      "statement": "The text says technological change brings only benefits.",
+      "correct": "false"
+    },
+    {
+      "id": "s2",
+      "statement": "New jobs created by technology are often concentrated among the highly educated.",
+      "correct": "true"
+    },
+    {
+      "id": "s3",
+      "statement": "Internet access is equally distributed in wealthy countries.",
+      "correct": "false"
+    },
+    {
+      "id": "s4",
+      "statement": "The text argues that technology left entirely to market forces will serve social needs best.",
+      "correct": "false"
+    },
+    {
+      "id": "s5",
+      "statement": "The text says the pace of technological change is accelerating.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does \"automation\" create in the economy according to paragraph 3?",
+      "opts": [
+        "Only new jobs",
+        "Winners and losers",
+        "Universal prosperity",
+        "Higher wages for everyone"
+      ],
+      "correct": "Winners and losers",
+      "hint": "Para 3: \"creating winners and losers\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "reading",
+      "text": "Who is \"disproportionately likely to have limited digital access\"?",
+      "opts": [
+        "Young professionals in cities",
+        "Rural communities, elderly, and low-income households",
+        "Highly educated workers",
+        "People who choose not to use technology"
+      ],
+      "correct": "Rural communities, elderly, and low-income households",
+      "hint": "Para 4: \"rural communities, elderly populations, low-income households\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does paragraph 6 say technology left to market forces will follow?",
+      "opts": [
+        "Social needs",
+        "Democratic decisions",
+        "Profit motives",
+        "Government priorities"
+      ],
+      "correct": "Profit motives",
+      "hint": "Para 6: \"follows profit motives rather than social needs\"",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "reading",
+      "text": "What does the text say is \"one of the most important forms of civic engagement\"?",
+      "opts": [
+        "Voting in elections",
+        "Understanding and participating in conversations about technology choices",
+        "Learning to code",
+        "Using social media responsibly"
+      ],
+      "correct": "Understanding and participating in conversations about technology choices",
+      "hint": "Para 7: \"one of the most important forms of civic engagement\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text argues we should be \"against technology\" to protect civil liberties.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Para 6: \"not a question of being for or against technology\"",
+      "points": 1
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "reading",
+      "text": "The text says the future shape of technology depends on choices being made now.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "Para 7: \"depends on choices being made now\"",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"By 2040, robots ___ most routine manufacturing tasks.\" (prediction — future perfect)",
+      "opts": [
+        "will do",
+        "will have done",
+        "are doing",
+        "do"
+      ],
+      "correct": "will have done",
+      "hint": "Future perfect: will have + pp — completed by a future point",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"Scientists ___ on this problem for the next decade.\" (ongoing future action)",
+      "opts": [
+        "will work",
+        "will be working",
+        "work",
+        "are going to work"
+      ],
+      "correct": "will be working",
+      "hint": "Future continuous: will be + -ing — ongoing at a future time",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"When AI ___ (become) more advanced, many jobs ___ (change) dramatically.\" (future time clause)",
+      "correct": "becomes / will change",
+      "hint": "Time clause (when) + present simple; result clause = will",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "What does \"surveillance\" mean?",
+      "opts": [
+        "Remote control of machines",
+        "Close observation, especially by authorities",
+        "Wireless communication",
+        "Data encryption"
+      ],
+      "correct": "Close observation, especially by authorities",
+      "hint": "Para 5: \"surveillance... erosion of civil liberties\"",
+      "points": 1
+    },
+    {
+      "id": "q11",
+      "type": "mc",
+      "cat": "vocabulary",
+      "text": "\"Automation\" refers to…",
+      "opts": [
+        "Cars that drive themselves only",
+        "The use of machines to do tasks previously done by people",
+        "Digital communication between computers",
+        "The internet of things"
+      ],
+      "correct": "The use of machines to do tasks previously done by people",
+      "hint": "Para 3: \"replacement of human labour by machines\"",
+      "points": 1
+    },
+    {
+      "id": "q12",
+      "type": "fill",
+      "cat": "vocabulary",
+      "text": "The gap between those with and without internet access is called the ___ divide.",
+      "correct": "digital",
+      "hint": "Para 4: \"the digital divide\"",
+      "points": 1
+    }
+  ]
+}

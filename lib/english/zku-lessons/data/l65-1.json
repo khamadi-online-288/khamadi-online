@@ -1,0 +1,548 @@
+{
+  "id": "l65-1",
+  "moduleNum": 7,
+  "lessonNum": 1,
+  "moduleTitle": "Relative Clauses: Defining & Non-defining",
+  "type": "reading",
+  "title": "People Who Changed the World: Relative Clauses in Biographical Writing",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [
+    "Biographical writing relies more heavily on relative clauses than almost any other genre. The reason is structural: when you write about a person, you constantly need to add information about them — who they were, what they did, when they did it, where they lived, whose ideas they built on. Relative clauses are the grammatical tool that allows you to incorporate this information within a sentence rather than breaking it into fragments.",
+    "Consider the difference between these two versions of the same information: Version A: \"Marie Curie was a physicist. She discovered radium. She was the first woman to win a Nobel Prize.\" Version B: \"Marie Curie, who discovered radium and who was the first woman to win a Nobel Prize, was a physicist whose work transformed our understanding of radioactivity.\" Version B uses three relative clauses to create a single, coherent sentence. The information is the same; the effect is dramatically different.",
+    "The defining relative clause is used to identify which person or thing we mean. Without it, the sentence loses its meaning or becomes ambiguous. \"The scientist who discovered penicillin changed medicine forever\" — without \"who discovered penicillin,\" we would not know which scientist is being referred to. The relative clause here is not extra information: it is essential information that defines the subject.",
+    "The non-defining relative clause, by contrast, adds information about a person or thing that has already been identified. \"Alexander Fleming, who was working at St Mary's Hospital in 1928, noticed that bacteria near a mould had been killed.\" Fleming has already been identified by name, so the relative clause that follows is additional context — interesting, but not necessary to identify the subject. We signal this by surrounding the clause with commas.",
+    "The distinction between the two types has consequences that go beyond punctuation. In a defining relative clause, \"that\" can replace \"who\" or \"which\" in informal English: \"The scientist that discovered penicillin\" is acceptable in speech. But in a non-defining clause, \"that\" cannot be used: \"Alexander Fleming, that worked at St Mary's Hospital\" is wrong. The non-defining clause requires \"who\" for people and \"which\" for things.",
+    "Biographical writing at B1 and above uses both types fluidly. A biographer might write: \"The discovery, which was made almost by accident, changed the course of modern medicine. Fleming, whose earlier work had focused on antiseptics, had been investigating ways to fight bacterial infections. It was a mould, specifically Penicillium notatum, which contaminated one of his petri dishes, that produced the antibacterial effect that he went on to study.\" This passage contains five relative clauses — each doing a different piece of structural work.",
+    "Reading these constructions with full comprehension requires not just knowing the grammar, but understanding why each clause was placed where it was — what question it answers, what additional meaning it creates, and whether its presence is essential or supplementary to the sentence's core meaning. That capacity — to read structure analytically — is one of the markers of B1+ reading comprehension."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Daniyar",
+      "text": "I'm trying to write a biography of Abai for my literature essay. I keep producing lists of facts.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "That's the defining vs non-defining relative clause problem. You're writing \"He was born in 1845. He studied in Semipalatinsk. He wrote the Book of Words.\" Each sentence is fine but they don't connect.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "How do I combine them?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "\"Abai, who was born in 1845 and who spent his formative years in Semipalatinsk, produced the Book of Words, which remains one of the foundational texts of Kazakh literature.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "That's much better. The commas make the difference — the clauses feel like they belong.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Exactly. The commas say: \"This is extra information. I've already told you who I'm talking about.\"",
+      "isLeft": false
+    },
+    {
+      "speaker": "Daniyar",
+      "text": "And without commas, the clause defines which one.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "\"The poem that made him famous\" — defines which poem. \"The poem, which made him famous\" — adds that extra information about an already-identified poem.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "defining relative clause",
+      "ru": "определительное придаточное",
+      "context": "\"Essential information that defines the subject.\" = needed to identify which one."
+    },
+    {
+      "phrase": "non-defining relative clause",
+      "ru": "неопределительное придаточное",
+      "context": "\"Adds information about an already-identified person.\" = extra, surrounded by commas."
+    },
+    {
+      "phrase": "antecedent",
+      "ru": "антецедент (слово, к которому относится придаточное)",
+      "context": "\"The noun that a relative pronoun refers back to.\""
+    },
+    {
+      "phrase": "ambiguous",
+      "ru": "неоднозначный",
+      "context": "\"The sentence becomes ambiguous.\" = unclear, can be interpreted in more than one way."
+    },
+    {
+      "phrase": "incorporate",
+      "ru": "включать / интегрировать",
+      "context": "\"Incorporate information within a sentence.\" = include it as part of the structure."
+    },
+    {
+      "phrase": "fragment",
+      "ru": "фрагмент",
+      "context": "\"Rather than breaking into fragments.\" = short disconnected pieces."
+    },
+    {
+      "phrase": "supplementary",
+      "ru": "дополнительный",
+      "context": "\"Essential or supplementary.\" = extra/extra detail, not the core meaning."
+    },
+    {
+      "phrase": "analytically",
+      "ru": "аналитически",
+      "context": "\"Read structure analytically.\" = examine it carefully and think critically."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "antecedent",
+      "ipa": "/ˌæntɪˈsiːdənt/",
+      "pos": "noun",
+      "ru": "антецедент",
+      "kz": "алдыңғы сөз",
+      "emoji": "🔙",
+      "definition": "the noun that a relative pronoun refers back to",
+      "example": "\"In 'the scientist who won,' scientist is the antecedent of who.\"",
+      "collocations": [
+        "identify the antecedent",
+        "pronoun antecedent",
+        "clear antecedent"
+      ]
+    },
+    {
+      "en": "ambiguous",
+      "ipa": "/æmˈbɪɡjuəs/",
+      "pos": "adjective",
+      "ru": "неоднозначный",
+      "kz": "екіұшты",
+      "emoji": "🌫️",
+      "definition": "having more than one possible meaning; unclear",
+      "example": "\"Without the relative clause, the sentence becomes ambiguous.\"",
+      "collocations": [
+        "highly ambiguous",
+        "deliberately ambiguous",
+        "ambiguous statement"
+      ]
+    },
+    {
+      "en": "incorporate",
+      "ipa": "/ɪnˈkɔːpəreɪt/",
+      "pos": "verb",
+      "ru": "включать / интегрировать",
+      "kz": "кіргізу",
+      "emoji": "🔗",
+      "definition": "to include something as part of a whole",
+      "example": "\"Relative clauses incorporate additional information within a sentence.\"",
+      "collocations": [
+        "incorporate into",
+        "fully incorporated",
+        "incorporate ideas"
+      ]
+    },
+    {
+      "en": "supplementary",
+      "ipa": "/ˌsʌplɪˈmentəri/",
+      "pos": "adjective",
+      "ru": "дополнительный",
+      "kz": "қосымша",
+      "emoji": "➕",
+      "definition": "additional; providing extra information",
+      "example": "\"Whether its presence is essential or supplementary to the core meaning.\"",
+      "collocations": [
+        "supplementary information",
+        "supplementary material",
+        "supplementary clause"
+      ]
+    },
+    {
+      "en": "coherent",
+      "ipa": "/kəʊˈhɪərənt/",
+      "pos": "adjective",
+      "ru": "связный / логичный",
+      "kz": "жүйелі",
+      "emoji": "🧩",
+      "definition": "logical and consistent; forming a clear whole",
+      "example": "\"A single, coherent sentence.\" — all parts connect logically.",
+      "collocations": [
+        "coherent argument",
+        "logically coherent",
+        "coherent writing"
+      ]
+    },
+    {
+      "en": "radioactivity",
+      "ipa": "/ˌreɪdiəʊækˈtɪvɪti/",
+      "pos": "noun",
+      "ru": "радиоактивность",
+      "kz": "радиоактивтілік",
+      "emoji": "☢️",
+      "definition": "the emission of radiation from unstable atomic nuclei",
+      "example": "\"Curie's work transformed our understanding of radioactivity.\"",
+      "collocations": [
+        "study radioactivity",
+        "nuclear radioactivity",
+        "radioactive decay"
+      ]
+    },
+    {
+      "en": "biographer",
+      "ipa": "/baɪˈɒɡrəfər/",
+      "pos": "noun",
+      "ru": "биограф",
+      "kz": "өмірбаян жазушы",
+      "emoji": "✍️",
+      "definition": "a person who writes a biography of someone",
+      "example": "\"A biographer uses relative clauses to incorporate essential details.\"",
+      "collocations": [
+        "literary biographer",
+        "official biographer",
+        "skilled biographer"
+      ]
+    },
+    {
+      "en": "analytically",
+      "ipa": "/ˌænəˈlɪtɪkli/",
+      "pos": "adverb",
+      "ru": "аналитически",
+      "kz": "аналитикалық",
+      "emoji": "🔬",
+      "definition": "using careful logical thinking",
+      "example": "\"Read structure analytically — understand WHY each clause is placed where it is.\"",
+      "collocations": [
+        "think analytically",
+        "approach analytically",
+        "reason analytically"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "antecedent",
+      "emoji": "🔙",
+      "opts": [
+        "относительное местоимение",
+        "антецедент",
+        "придаточное предложение",
+        "глагол"
+      ],
+      "correct": "антецедент"
+    },
+    {
+      "id": "p2",
+      "word": "ambiguous",
+      "emoji": "🌫️",
+      "opts": [
+        "чёткий",
+        "неоднозначный",
+        "сложный",
+        "длинный"
+      ],
+      "correct": "неоднозначный"
+    },
+    {
+      "id": "p3",
+      "word": "incorporate",
+      "emoji": "🔗",
+      "opts": [
+        "исключать",
+        "включать",
+        "упрощать",
+        "заменять"
+      ],
+      "correct": "включать"
+    },
+    {
+      "id": "p4",
+      "word": "supplementary",
+      "emoji": "➕",
+      "opts": [
+        "основной",
+        "дополнительный",
+        "обязательный",
+        "сложный"
+      ],
+      "correct": "дополнительный"
+    },
+    {
+      "id": "p5",
+      "word": "coherent",
+      "emoji": "🧩",
+      "opts": [
+        "хаотичный",
+        "связный / логичный",
+        "краткий",
+        "формальный"
+      ],
+      "correct": "связный / логичный"
+    },
+    {
+      "id": "p6",
+      "word": "analytically",
+      "emoji": "🔬",
+      "opts": [
+        "быстро",
+        "аналитически",
+        "формально",
+        "интуитивно"
+      ],
+      "correct": "аналитически"
+    }
+  ],
+  "task1Bank": [
+    "relative clauses",
+    "defining",
+    "non-defining",
+    "that",
+    "commas",
+    "five",
+    "essential",
+    "ambiguous"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Biographical writing relies on ___ more than almost any other genre.",
+      "correct": "relative clauses"
+    },
+    {
+      "id": "t2",
+      "question": "A ___ clause identifies which person or thing we mean.",
+      "correct": "defining"
+    },
+    {
+      "id": "t3",
+      "question": "A ___ clause adds information about an already-identified person or thing.",
+      "correct": "non-defining"
+    },
+    {
+      "id": "t4",
+      "question": "In a defining clause, \"___ \" can replace \"who\" or \"which\" (informal).",
+      "correct": "that"
+    },
+    {
+      "id": "t5",
+      "question": "Non-defining relative clauses are surrounded by ___ .",
+      "correct": "commas"
+    },
+    {
+      "id": "t6",
+      "question": "The last biographical paragraph contains ___ relative clauses.",
+      "correct": "five"
+    },
+    {
+      "id": "t7",
+      "question": "A defining clause is ___ information — without it the meaning changes.",
+      "correct": "essential"
+    },
+    {
+      "id": "t8",
+      "question": "Without the defining clause, the sentence may become ___ .",
+      "correct": "ambiguous"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "Relative clauses allow additional information to be split into separate short sentences.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "\"That\" cannot be used in non-defining relative clauses.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "Commas are optional in both defining and non-defining relative clauses.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "A defining relative clause is essential for identifying which person or thing is meant.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Kamila says \"that\" is better than \"which\" in non-defining clauses.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Daniyar's problem is that he writes lists of facts that don't connect.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "Version B in the text uses only one relative clause.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "Reading relative clauses analytically is described as a marker of B1+ reading.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why does biographical writing rely so heavily on relative clauses?",
+      "opts": [
+        "For formality",
+        "To incorporate extra information within sentences rather than producing fragments",
+        "To avoid repetition",
+        "Because biographies are long"
+      ],
+      "correct": "To incorporate extra information within sentences rather than producing fragments",
+      "hint": "\"Relative clauses allow you to incorporate this information within a sentence rather than breaking it into fragments.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is a defining relative clause?",
+      "opts": [
+        "Extra information about an identified person",
+        "Essential information that identifies which person or thing is meant",
+        "A clause surrounded by commas",
+        "A clause using only \"which\""
+      ],
+      "correct": "Essential information that identifies which person or thing is meant",
+      "hint": "\"The defining relative clause is used to identify which person or thing we mean.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What signals a non-defining relative clause?",
+      "opts": [
+        "The word \"that\"",
+        "The word \"whose\"",
+        "Commas surrounding the clause",
+        "The absence of a comma"
+      ],
+      "correct": "Commas surrounding the clause",
+      "hint": "\"We signal this by surrounding the clause with commas.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "\"That\" can replace \"who\" or \"which\" in non-defining clauses.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"'That' cannot be used in a non-defining clause.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The scientist ___ discovered penicillin changed medicine forever.\" — which relative pronoun?",
+      "correct": "who",
+      "hint": "\"The scientist WHO discovered penicillin...\" — WHO for people in defining clause. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is Daniyar's writing problem in the dialogue?",
+      "opts": [
+        "His grammar is wrong",
+        "He writes lists of facts that don't connect into coherent sentences",
+        "His vocabulary is limited",
+        "He uses too many relative clauses"
+      ],
+      "correct": "He writes lists of facts that don't connect into coherent sentences",
+      "hint": "\"I keep producing lists of facts.\" — no relative clauses connecting the information. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The sentence becomes ambiguous.\" \"Ambiguous\" means:",
+      "opts": [
+        "Clear and direct",
+        "Having more than one possible meaning; unclear",
+        "Very long",
+        "Grammatically wrong"
+      ],
+      "correct": "Having more than one possible meaning; unclear",
+      "hint": "\"ambiguous\" = unclear; can be interpreted in more than one way."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Incorporating information within a sentence.\" \"Incorporating\" means:",
+      "opts": [
+        "Excluding",
+        "Including as part of a whole",
+        "Summarising",
+        "Translating"
+      ],
+      "correct": "Including as part of a whole",
+      "hint": "\"incorporate\" = to include something as part of a larger structure."
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Marie Curie, who discovered radium, was a physicist.\" — type of relative clause?",
+      "opts": [
+        "Defining (no commas)",
+        "Non-defining (with commas)",
+        "\"That\" would replace \"who\" here",
+        "It should use \"which\""
+      ],
+      "correct": "Non-defining (with commas)",
+      "hint": "Commas = non-defining. Marie Curie is already identified by name — the clause adds extra info. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The poem that made him famous.\" — type:",
+      "opts": [
+        "Non-defining",
+        "Defining — identifies WHICH poem",
+        "\"That\" should be \"which\"",
+        "Wrong grammar"
+      ],
+      "correct": "Defining — identifies WHICH poem",
+      "hint": "No commas + \"that\" = defining. It tells us WHICH poem (the one that made him famous). ✅"
+    }
+  ]
+}

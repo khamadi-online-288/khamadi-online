@@ -1,0 +1,305 @@
+{
+  "id": "l13-g2",
+  "moduleNum": 13,
+  "lessonNum": 5,
+  "moduleTitle": "Numbers and money",
+  "title": "Prices and money expressions",
+  "type": "grammar",
+  "xp": 65,
+  "duration": 15,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Цены, деньги и покупки — как говорить по-английски",
+  "grammarNote": "В этом уроке — всё, что нужно знать, чтобы уверенно говорить о ценах, деньгах и покупках по-английски.\n\n❓ КАК СПРОСИТЬ ЦЕНУ:\n\n\"How much is it?\" — универсальный вопрос (сколько это стоит?)\n\"How much does it cost?\" — более формальный вариант\n\"What's the price?\" — какова цена?\n\"How much are these?\" — если предметов несколько\n\n💰 КАК НАЗВАТЬ ЦЕНУ:\n\"It's 2,500 tenge.\" — самый простой ответ\n\"It costs two thousand five hundred tenge.\"\n\"The price is 1,800 tenge.\"\n\"It's on sale for 1,200 tenge.\" — распродажа\n\n📌 В АНГЛИЙСКОМ ЦЕНА читается с ВАЛЮТОЙ ПОСЛЕ числа:\n✅ \"two thousand five hundred TENGE\"\n✅ \"fifty DOLLARS\"\n✅ \"one hundred EUROS\"\n❌ НЕ говори: \"tenge two thousand\" — валюта всегда ПОСЛЕ числа!\n\n🔄 СРАВНЕНИЕ ЦЕН:\n\"This is more expensive than that.\" (дороже)\n\"This is cheaper than that.\" (дешевле)\n\"This is the most expensive item.\" (самый дорогой)\n\"This is the cheapest option.\" (самый дешёвый)\n\"That's good value.\" (выгодно / хорошая цена)\n\"That's too expensive for me.\" (слишком дорого)\n\"That's very reasonable.\" (вполне приемлемо)\n\n💳 КАК ПЛАТИТЬ:\n\"I'll pay by card.\" (картой)\n\"I'd like to pay in cash.\" (наличными)\n\"Can I pay by card?\" (можно картой?)\n\"Do you have change for 1,000 tenge?\" (есть сдача с 1000?)\n\"Keep the change.\" (оставьте сдачу себе)\n\"Can I have a receipt, please?\" (дайте чек, пожалуйста)\n\n🛒 ФРАЗЫ ДЛЯ ПОКУПКИ:\n\"I'm looking for...\" (я ищу...)\n\"Do you have anything cheaper?\" (есть что-нибудь подешевле?)\n\"I'll take it.\" (возьму это)\n\"I'll leave it, thanks.\" (не возьму, спасибо)\n\"Is there a discount?\" (есть скидка?)\n\"It's on sale.\" (на распродаже / со скидкой)\n\"It's a bargain!\" (отличная цена! / выгодная покупка!)\n\n📊 ПРОЦЕНТЫ И СКИДКИ:\n10% off = \"ten percent off\" (скидка 10%)\n\"The price is reduced by 20%.\" (цена снижена на 20%)\n\"Half price\" = 50% скидка (половина цены)\n\"Buy one, get one free\" = акция (купи один, получи второй бесплатно)\n\n🧮 РАСЧЁТ СДАЧИ:\n\"I gave 1,000 tenge for a 650-tenge item.\"\n\"My change is 350 tenge.\" (1,000 − 650 = 350)\n\"That's 350 tenge change.\"\n\n💡 ORDINAL NUMBERS (порядковые числа) для дат:\n1st = first · 2nd = second · 3rd = third · 4th = fourth\n5th = fifth · 8th = eighth · 9th = ninth · 11th = eleventh\n12th = twelfth · 20th = twentieth · 21st = twenty-first\n\"My sister's birthday is on the seventeenth of March.\"",
+  "grammarTable": [
+    {
+      "subject": "How much is it?",
+      "verb": "Сколько это стоит?",
+      "short": "asking price",
+      "example": "\"How much is that phone case?\" — \"It's 2,500 tenge.\""
+    },
+    {
+      "subject": "It costs / It's...",
+      "verb": "Это стоит...",
+      "short": "stating price",
+      "example": "\"The book costs 1,800 tenge.\" · \"It's three thousand five hundred tenge.\""
+    },
+    {
+      "subject": "more expensive / cheaper",
+      "verb": "дороже / дешевле",
+      "short": "comparison",
+      "example": "\"The hardcover is more expensive than the paperback.\" · \"The paperback is cheaper.\""
+    },
+    {
+      "subject": "I'll take it.",
+      "verb": "Я возьму это.",
+      "short": "buying decision",
+      "example": "\"The blue case is perfect. I'll take it.\" — Nursultan at the shop."
+    },
+    {
+      "subject": "I'll pay by card/cash",
+      "verb": "Заплачу картой/наличными",
+      "short": "payment method",
+      "example": "\"I'll pay by card.\" · \"Do you accept cash?\" · \"Can I pay by card?\""
+    },
+    {
+      "subject": "Do you have anything cheaper?",
+      "verb": "Есть подешевле?",
+      "short": "asking for alternatives",
+      "example": "\"I asked if there were any cheaper options — she showed me one for 1,700.\""
+    },
+    {
+      "subject": "That's a bargain!",
+      "verb": "Вот это выгодно!",
+      "short": "expressing value",
+      "example": "\"850 tenge for a notebook — that's a bargain!\" · \"Great value for the price.\""
+    },
+    {
+      "subject": "% off / on sale",
+      "verb": "скидка / распродажа",
+      "short": "discounts",
+      "example": "\"20% off\" = \"twenty percent off.\" · \"It's on sale for 1,200 tenge.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "① Как спросить и назвать цену",
+      "color": "#1D9E75",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "Вопросы о цене:",
+          "example": "\"How much IS it?\" (разговорный) · \"How much DOES it cost?\" (формальный) · \"What's the price?\" · \"How much ARE these?\" (мн. число)"
+        },
+        {
+          "form": "Ответы с ценой:",
+          "example": "\"It's 2,500 tenge.\" · \"It costs one thousand eight hundred tenge.\" · \"The price is 850 tenge.\" · \"It's on sale for 1,200.\""
+        },
+        {
+          "form": "ВАЛЮТА всегда ПОСЛЕ числа:",
+          "example": "✅ \"two thousand five hundred TENGE\" · ✅ \"fifty DOLLARS\" · ❌ \"TENGE two thousand\" — порядок только такой!"
+        },
+        {
+          "form": "Когда стоимость округлённая:",
+          "example": "\"It's about 2,000 tenge.\" (около 2000) · \"roughly 1,500 tenge\" (примерно) · \"just under 3,000\" (чуть меньше 3000)"
+        },
+        {
+          "form": "Это дорого или нет?",
+          "example": "\"That's too expensive for me.\" · \"That's very reasonable.\" · \"That's good value.\" · \"It's a bit steep.\" (немного дороговато)"
+        },
+        {
+          "form": "Из нашего урока:",
+          "example": "\"The hardcover costs 3,500 tenge — too expensive! The paperback costs 1,800 tenge — much better value!\" — Nursultan"
+        }
+      ]
+    },
+    {
+      "title": "② Сравнение цен: cheaper / more expensive / the cheapest",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Сравнительная степень (comparing two):",
+          "example": "\"The hardcover is MORE EXPENSIVE THAN the paperback.\" · \"The paperback is CHEAPER THAN the hardcover.\""
+        },
+        {
+          "form": "Превосходная степень (best/worst):",
+          "example": "\"The scarf was THE MOST EXPENSIVE item I bought.\" · \"The compote was THE CHEAPEST — only 300 tenge.\""
+        },
+        {
+          "form": "Короткие прилагательные → -er/-est:",
+          "example": "cheap → cheaper → cheapest · high → higher → highest · low → lower → lowest · dear → dearer → dearest"
+        },
+        {
+          "form": "Длинные прилагательные → more/most:",
+          "example": "expensive → more expensive → most expensive · affordable → more affordable → most affordable"
+        },
+        {
+          "form": "Полезные выражения для сравнения:",
+          "example": "\"It's twice as expensive.\" (в два раза дороже) · \"half the price\" (вдвое дешевле) · \"the same price\" (та же цена)"
+        },
+        {
+          "form": "Примеры из урока:",
+          "example": "\"Do you have anything CHEAPER?\" · \"The plain black case was CHEAPER — 1,700 instead of 2,500.\" · \"I preferred the blue one.\""
+        }
+      ]
+    },
+    {
+      "title": "③ Оплата и покупка: карта, наличные, сдача",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "Способы оплаты:",
+          "example": "\"I'll pay BY CARD.\" · \"I'd like to pay IN CASH.\" · \"Can I pay by card?\" · \"Do you accept card payments?\""
+        },
+        {
+          "form": "Сдача (change):",
+          "example": "\"Do you have change for 1,000 tenge?\" · \"Keep the change.\" · \"Here's your change — 150 tenge.\" · \"I got 350 tenge change.\""
+        },
+        {
+          "form": "Чек (receipt):",
+          "example": "\"Can I have a receipt, please?\" · \"The receipt showed the price, the date, and a thank-you message.\" — Nursultan"
+        },
+        {
+          "form": "Решение о покупке:",
+          "example": "\"I'll TAKE IT.\" (куплю) · \"I'll LEAVE IT, thanks.\" (не буду брать) · \"I'll think about it.\" (подумаю)"
+        },
+        {
+          "form": "Торг и скидки:",
+          "example": "\"Is there a discount?\" · \"Do you have a loyalty card?\" · \"Any special offers today?\" · \"Can you do it for 2,000?\""
+        },
+        {
+          "form": "Расчёт сдачи из урока:",
+          "example": "Sanzhar: \"I have 1,400 tenge. Asel: 1,300. Together: 2,700. Item costs 2,550. Change = 2,700 − 2,550 = 150 tenge.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "④ Порядковые числа и проценты",
+      "color": "#C9933B",
+      "bg": "#FEF3C7",
+      "border": "#FCD34D",
+      "rows": [
+        {
+          "form": "1st–3rd (исключения):",
+          "example": "1st = FIRST · 2nd = SECOND · 3rd = THIRD — эти три нужно запомнить, они не по правилу!"
+        },
+        {
+          "form": "4th–20th (+th):",
+          "example": "4th = fourth · 5th = fifth · 8th = eighth (не \"eighthth\"!) · 9th = ninth (не \"nineth\"!) · 12th = twelfth"
+        },
+        {
+          "form": "20th–99th (tens + th):",
+          "example": "20th = twentieth · 21st = twenty-FIRST · 30th = thirtieth · 35th = thirty-FIFTH · 100th = hundredth"
+        },
+        {
+          "form": "Проценты:",
+          "example": "\"10% off\" = \"ten percent off\" · \"20% discount\" = \"twenty percent discount\" · \"one percent commission\" (банк Tolegen!)"
+        },
+        {
+          "form": "Половина / четверть:",
+          "example": "\"half price\" = 50% скидка · \"a quarter of the price\" = 25% · \"three quarters\" = 75% · \"a third\" = 33%"
+        },
+        {
+          "form": "Порядковые в датах:",
+          "example": "\"My sister turns seventeen on the SEVENTEENTH of March.\" · \"The FIRST of January.\" · \"On the TWENTY-FIRST of April.\""
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Пять правил — и любой разговор о деньгах пройдёт отлично:\n\n① Чтобы спросить цену — всегда \"How much is it?\"\n   Это самый универсальный вопрос. Работает везде.\n\n② Валюта — ПОСЛЕ числа:\n   ✅ \"two thousand five hundred TENGE\"\n   ❌ \"TENGE two thousand\" — так не говорят!\n\n③ Сравниваешь две вещи → -er / more... than:\n   \"The paperback is CHEAPER THAN the hardcover.\"\n   \"The scarf is MORE EXPENSIVE THAN the case.\"\n\n④ Платишь → by card / in cash (предлог важен!):\n   \"I'll pay BY card.\" (картой — предлог BY)\n   \"I'll pay IN cash.\" (наличными — предлог IN)\n   ❌ \"I'll pay with card\" — не по правилу!\n\n⑤ Хочешь купить → \"I'll take it.\"\n   Не хочешь → \"I'll leave it, thanks.\"\n   Это самые вежливые и естественные фразы.\n\n💡 Запомни диалог Nursultan:\n   \"How much is it?\" — \"It's 1,800 tenge.\"\n   \"That's much better value — I'll take it.\"\n   \"I'll pay by card.\" ✅",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct question to ask the price.",
+      "text": "You are in a shop and want to know the price of a jacket. What do you ask?",
+      "opts": [
+        "What is the cost for jacket?",
+        "How much is it?",
+        "Tell me the price now.",
+        "What money does the jacket?"
+      ],
+      "correct": "How much is it?",
+      "hint": "\"HOW MUCH IS IT?\" — универсальный вопрос о цене в магазине. ✅ \"How much does it cost?\" тоже правильно, но из четырёх вариантов только один верный."
+    },
+    {
+      "id": "e2",
+      "type": "fill",
+      "instruction": "Write the price in words.",
+      "text": "The exchange rate is 460 tenge per dollar — write \"460\" in English words.",
+      "correct": "four hundred and sixty",
+      "hint": "460 = FOUR HUNDRED AND SIXTY. 400 = four hundred · AND (обязателен!) · 60 = sixty. ✅ Не забывай AND между сотнями и остатком."
+    },
+    {
+      "id": "e3",
+      "type": "mc",
+      "instruction": "Choose the correct comparison.",
+      "text": "The hardcover costs 3,500 tenge. The paperback costs 1,800 tenge. Which sentence is correct?",
+      "opts": [
+        "The paperback is more cheaper than the hardcover.",
+        "The hardcover is cheaper than the paperback.",
+        "The paperback is cheaper than the hardcover.",
+        "The hardcover is the most cheap book."
+      ],
+      "correct": "The paperback is cheaper than the hardcover.",
+      "hint": "cheap → CHEAPER (короткое прилагательное → -er, не \"more cheaper\"!). 1,800 < 3,500, значит paperback дешевле. ✅"
+    },
+    {
+      "id": "e4",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I'll pay by cash\" is the correct way to say you want to pay with physical money.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Правильно: \"I'll pay IN cash\" (наличными → предлог IN). \"I'll pay BY card\" (картой → предлог BY). Запомни: IN cash · BY card — предлоги разные!"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Choose what the person means.",
+      "text": "In the shop, the customer says: \"I'll leave it, thanks.\" What does this mean?",
+      "opts": [
+        "They will buy the item and leave the shop",
+        "They want to leave the item and come back later",
+        "They have decided not to buy the item",
+        "They want a discount before buying"
+      ],
+      "correct": "They have decided not to buy the item",
+      "hint": "\"I'll LEAVE IT\" = я не возьму это / не буду покупать. Противоположность \"I'll TAKE IT\" (куплю). Вежливый отказ от покупки. ✅"
+    },
+    {
+      "id": "e6",
+      "type": "fill",
+      "instruction": "Calculate and write the answer.",
+      "text": "Tolegen exchanged 50 dollars at a rate of 460 tenge per dollar. The commission was 1%. Write the commission amount in words.",
+      "correct": "two hundred and thirty",
+      "hint": "50 × 460 = 23,000 tenge. 1% of 23,000 = 230 tenge. 230 = TWO HUNDRED AND THIRTY. ✅ As the bank teller explained to Tolegen!"
+    },
+    {
+      "id": "e7",
+      "type": "mc",
+      "instruction": "Choose the correct sentence about the discount.",
+      "text": "A jacket costs 10,000 tenge. There is a 20% discount. How much do you pay?",
+      "opts": [
+        "12,000 tenge",
+        "10,200 tenge",
+        "8,000 tenge",
+        "2,000 tenge"
+      ],
+      "correct": "8,000 tenge",
+      "hint": "20% of 10,000 = 2,000 tenge discount. 10,000 − 2,000 = 8,000 tenge. \"Twenty percent off\" means you subtract 20% from the original price. ✅"
+    },
+    {
+      "id": "e8",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"My sister's birthday is on the seventeen of March\" is correct English.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Даты используют ПОРЯДКОВЫЕ числа (ordinals), не количественные! ❌ \"the seventeen\" → ✅ \"the SEVENTEENTH of March.\" 17th = seventeenth. Always use ordinals for dates!"
+    }
+  ],
+  "questions": []
+}

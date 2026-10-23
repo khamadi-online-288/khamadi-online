@@ -1,0 +1,536 @@
+{
+  "id": "l57-g1",
+  "moduleNum": 23,
+  "lessonNum": 4,
+  "moduleTitle": "Linking Ideas",
+  "type": "grammar",
+  "title": "Contrast: although, even though, despite, however, nevertheless",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Contrast Markers — Showing the Other Side",
+  "grammarNote": "Contrast markers (маркеры контраста) показывают, что два факта противоречат ожиданиям или контрастируют друг с другом. Разные contrast markers требуют разных грамматических структур. Выбор неправильного маркера или структуры — распространённая ошибка.",
+  "grammarTable": [
+    {
+      "subject": "although / even though",
+      "verb": "+ clause (S + V)",
+      "short": "concession clause",
+      "example": "\"Although it is expensive, it is worth it.\" / \"Even though she studied, she failed.\""
+    },
+    {
+      "subject": "despite / in spite of",
+      "verb": "+ noun / gerund",
+      "short": "preposition + noun/V-ing",
+      "example": "\"Despite the cost, it is worth it.\" / \"In spite of studying, she failed.\""
+    },
+    {
+      "subject": "however",
+      "verb": "new sentence (;/.) + however,",
+      "short": "between sentences",
+      "example": "\"It is expensive. However, it is worth it.\" / \"She studied; however, she failed.\""
+    },
+    {
+      "subject": "nevertheless",
+      "verb": "new sentence (;/.)",
+      "short": "stronger contrast",
+      "example": "\"The evidence is mixed. Nevertheless, the policy was approved.\""
+    },
+    {
+      "subject": "yet",
+      "verb": "joining clauses (but/yet)",
+      "short": "informal/literary",
+      "example": "\"She worked hard, yet she failed.\" / \"Small but powerful.\" / \"Simple, yet effective.\""
+    },
+    {
+      "subject": "while / whereas",
+      "verb": "+ clause",
+      "short": "parallel contrast",
+      "example": "\"While Kazakhstan is large, it has a small population.\" / \"Kamila likes coffee, whereas Amir prefers tea.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "although / even though — followed by a clause",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "although = standard concession",
+          "example": "\"ALTHOUGH the cost is high, the benefits outweigh it.\" (acknowledges the cost, then contrasts)"
+        },
+        {
+          "form": "even though = stronger emphasis",
+          "example": "\"EVEN THOUGH she knew the risks, she continued.\" (stronger, more dramatic contrast)"
+        },
+        {
+          "form": "Position: start or middle",
+          "example": "\"Although X, Y.\" OR \"Y, although X.\" (flexible position)"
+        },
+        {
+          "form": "✗ although + noun (wrong)",
+          "example": "✗ \"Although the cost...\" is wrong if \"the cost\" is the full noun phrase with no verb → use DESPITE."
+        }
+      ]
+    },
+    {
+      "title": "despite / in spite of — followed by noun or gerund",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "despite + noun",
+          "example": "\"DESPITE the high cost, it is worth it.\" (noun: \"the high cost\")"
+        },
+        {
+          "form": "in spite of + noun",
+          "example": "\"IN SPITE OF the cost, it is worth it.\" (same meaning as despite)"
+        },
+        {
+          "form": "despite + gerund",
+          "example": "\"DESPITE studying hard, she failed.\" (gerund: \"studying hard\")"
+        },
+        {
+          "form": "✗ despite + clause (wrong)",
+          "example": "✗ \"Despite she studied...\" → ✅ \"Despite studying...\" or \"Although she studied...\""
+        }
+      ]
+    },
+    {
+      "title": "however / nevertheless — between sentences",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "however = common contrast",
+          "example": "\"The cost is high. HOWEVER, the benefits are significant.\" (position: start of new sentence + comma)"
+        },
+        {
+          "form": "nevertheless = stronger/formal",
+          "example": "\"Evidence was mixed. NEVERTHELESS, the committee approved it.\" (stronger, more formal)"
+        },
+        {
+          "form": "Both = start of new sentence",
+          "example": "Cannot start main clause. \"However\" and \"nevertheless\" need a sentence/clause before them. ✅"
+        },
+        {
+          "form": "With semicolon",
+          "example": "\"The cost is high; however, the benefits are significant.\" ✅ (semicolon before; comma after)"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common contrast marker mistakes",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"Despite she worked hard\"",
+          "example": "✅ \"Despite WORKING hard\" (gerund) OR \"ALTHOUGH she worked hard\" (clause)."
+        },
+        {
+          "form": "✗ \"Although the cost, it...\"",
+          "example": "✅ \"Although the cost IS HIGH, it...\" — \"although\" needs a full clause (verb required)!"
+        },
+        {
+          "form": "✗ \"However she studied...\"",
+          "example": "✅ \"HOWEVER, she studied...\" — \"however\" starts a new sentence with a comma, not a clause."
+        },
+        {
+          "form": "✗ \"Despite of the cost\"",
+          "example": "✅ \"DESPITE the cost\" — NEVER \"despite of.\" \"In spite OF\" ✅ but not \"despite of\"."
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Contrast markers — правила структуры:\n\nALTHOUGH / EVEN THOUGH + clause (S + V):\n\"Although the cost is high, it is worth it.\" ✅\n\"Even though she studied, she failed.\" ✅\n\nDESPITE / IN SPITE OF + noun / gerund:\n\"Despite the cost, it is worth it.\" ✅\n\"Despite studying hard, she failed.\" ✅\n✗ НИКОГДА: \"Despite she studied\" → нужен noun/gerund!\n✗ НИКОГДА: \"Despite of\" → только \"In spite OF\" ✅\n\nHOWEVER / NEVERTHELESS — начало нового предложения:\n\"The cost is high. However, it is worth it.\" ✅\n\"The cost is high; however, it is worth it.\" ✅\n\nWHILE / WHEREAS — параллельный контраст:\n\"While X, Y.\" / \"Kamila likes tea, whereas Amir prefers coffee.\" ✅",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct contrast marker.",
+      "text": "___ the price is high, the quality is excellent.",
+      "opts": [
+        "Despite",
+        "Although",
+        "However",
+        "Nevertheless"
+      ],
+      "correct": "Although",
+      "hint": "\"Although\" + full clause (the price IS high). ✅ \"Despite\" needs a noun/gerund, not a clause."
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct contrast marker.",
+      "text": "___ the high price, the quality is excellent.",
+      "opts": [
+        "Although",
+        "Despite",
+        "However",
+        "Even though"
+      ],
+      "correct": "Despite",
+      "hint": "\"Despite\" + noun (the high price). ✅ \"Although\" needs a full clause with a verb."
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with \"despite\" or \"although\".",
+      "text": "\"___ studying for three weeks, she didn't pass.\" (no subject in the clause)",
+      "correct": "Despite",
+      "hint": "\"Despite STUDYING for three weeks\" — gerund (no separate subject). ✅ \"Although\" needs: Although SHE STUDIED (subject + verb)."
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct position for \"however\".",
+      "text": "\"The food was expensive. ___, it was delicious.\"",
+      "opts": [
+        "However,",
+        "Although",
+        "Despite",
+        "Even though"
+      ],
+      "correct": "However,",
+      "hint": "\"HOWEVER,\" starts a new sentence with a comma. ✅ \"However, it was delicious.\" — new sentence after a period or semicolon."
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "True or False?",
+      "text": "\"Despite of the difficulties, she succeeded.\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✅ \"DESPITE the difficulties\" — NEVER \"despite of.\" \"In spite OF\" ✅ but \"despite\" has NO \"of.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Choose: \"although\" or \"despite\"?",
+      "text": "\"___ she knew the risks, she accepted the challenge.\" (clause with subject)",
+      "opts": [
+        "Despite",
+        "Although",
+        "In spite of",
+        "However"
+      ],
+      "correct": "Although",
+      "hint": "\"Although SHE KNEW the risks...\" — full clause (subject + verb) → \"although.\" ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with \"while\" or \"whereas\".",
+      "text": "\"Amir prefers coffee, ___ Kamila prefers tea.\"",
+      "correct": "whereas",
+      "hint": "\"WHEREAS\" is used to contrast two parallel things or people. \"Amir... WHEREAS Kamila...\" ✅ \"While\" also works here!"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose \"however\" or \"nevertheless\".",
+      "text": "\"The evidence was unclear. ___, the decision was made.\"",
+      "opts": [
+        "Although",
+        "However",
+        "Nevertheless",
+        "Both However and Nevertheless work"
+      ],
+      "correct": "Both However and Nevertheless work",
+      "hint": "\"HOWEVER\" ✅ and \"NEVERTHELESS\" ✅ — both work here. \"Nevertheless\" is slightly stronger/more formal."
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct sentence.",
+      "text": "Which sentence is correct?",
+      "opts": [
+        "\"Despite she worked hard, she failed.\"",
+        "\"Although working hard, she failed.\"",
+        "\"Despite working hard, she failed.\"",
+        "\"However she worked hard, she failed.\""
+      ],
+      "correct": "\"Despite working hard, she failed.\"",
+      "hint": "\"DESPITE + gerund (working hard)\" ✅ is correct. \"Although\" needs a full clause with a subject. ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct contrast.",
+      "text": "\"Kazakhstan is vast. ___, its population is small.\"",
+      "opts": [
+        "Although",
+        "Despite",
+        "However,",
+        "Even though"
+      ],
+      "correct": "However,",
+      "hint": "Two separate sentences → \"HOWEVER,\" starts the second. \"Kazakhstan is vast. HOWEVER, its population is small.\" ✅"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with \"in spite of\" or \"despite\".",
+      "text": "\"___ ___ the bad weather, the match continued.\" (preposition + \"the\")",
+      "correct": "In spite of",
+      "hint": "\"In spite OF the bad weather.\" ✅ \"In spite of\" = same as \"despite\" but uses \"of.\" \"Despite THE bad weather\" = also correct (no \"of\"). ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the most natural sentence.",
+      "text": "\"She failed the exam ___ she had studied every day for a month.\"",
+      "opts": [
+        "despite",
+        "although",
+        "however",
+        "nevertheless"
+      ],
+      "correct": "although",
+      "hint": "\"She failed... ALTHOUGH she had studied every day.\" ✅ — \"although\" introduces a full clause (she had studied). \"Despite\" would need a noun/gerund."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Although\" is followed by:",
+      "opts": [
+        "a noun phrase",
+        "a gerund only",
+        "a full clause (subject + verb)",
+        "a new sentence"
+      ],
+      "correct": "a full clause (subject + verb)",
+      "hint": "\"although\" + FULL CLAUSE. \"Although THE COST IS HIGH...\" ✅ (not just a noun)."
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Despite\" is followed by:",
+      "opts": [
+        "a full clause",
+        "a gerund or noun phrase",
+        "a comma and new sentence",
+        "an adjective"
+      ],
+      "correct": "a gerund or noun phrase",
+      "hint": "\"despite\" + NOUN or GERUND. \"Despite THE HIGH COST\" / \"Despite WORKING hard.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Despite of the cost\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"Of\" should be removed — \"despite the cost\"",
+        "\"Despite\" should be \"although\"",
+        "\"Cost\" needs an article"
+      ],
+      "correct": "\"Of\" should be removed — \"despite the cost\"",
+      "hint": "✅ \"DESPITE the cost.\" NEVER \"despite OF.\" \"In spite OF\" ✅ but not \"despite of.\""
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ the difficulty of the task, she completed it.\" (without a clause)",
+      "correct": "Despite",
+      "hint": "\"DESPITE the difficulty...\" — noun phrase (no verb) → \"despite\" or \"in spite of.\" ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"However\" is used:",
+      "opts": [
+        "Before a main clause only",
+        "At the start of a new sentence or after a semicolon",
+        "In the middle of a clause only",
+        "Instead of \"although\""
+      ],
+      "correct": "At the start of a new sentence or after a semicolon",
+      "hint": "\"HOWEVER,\" starts a new sentence (after period or semicolon). \"The cost is high. HOWEVER, it is worth it.\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Even though\" is ___ than \"although.\"",
+      "opts": [
+        "Weaker",
+        "Stronger/more emphatic",
+        "Formal only",
+        "The same in all contexts"
+      ],
+      "correct": "Stronger/more emphatic",
+      "hint": "\"Even though\" is more emphatic than \"although\" — it emphasises that the contrast is surprising or notable. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She studied hard. ___, she failed the exam.\" (strong contrast)",
+      "correct": "Nevertheless",
+      "hint": "\"NEVERTHELESS\" = despite what came before; strong formal contrast. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"___ Kamila likes cities, Amir prefers the countryside.\" (parallel contrast)",
+      "opts": [
+        "Although",
+        "Despite",
+        "While",
+        "However"
+      ],
+      "correct": "While",
+      "hint": "\"WHILE\" = parallel contrast between two things. \"While X, Y.\" \"Whereas\" also works. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is CORRECT?",
+      "opts": [
+        "\"Despite she studied.\"",
+        "\"Although studying, she failed.\"",
+        "\"Despite studying, she failed.\"",
+        "\"However she studied, she failed.\""
+      ],
+      "correct": "\"Despite studying, she failed.\"",
+      "hint": "\"DESPITE + gerund (studying)\" ✅ is the correct structure. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"In spite of\" has the same meaning as:",
+      "opts": [
+        "Furthermore",
+        "Therefore",
+        "Despite",
+        "However"
+      ],
+      "correct": "Despite",
+      "hint": "\"In spite OF\" = \"despite.\" Same meaning, both signal contrast, but \"despite\" has no \"of.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The exam was hard. ___ the difficulty, she passed.\"",
+      "opts": [
+        "Although",
+        "Despite",
+        "However",
+        "Even though"
+      ],
+      "correct": "Despite",
+      "hint": "\"DESPITE the difficulty\" — noun phrase (no verb) after \"despite.\" ✅ \"Although\" needs a full clause."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"___ it was expensive, the government purchased it.\" (start of sentence)",
+      "correct": "Although / Even though",
+      "hint": "\"ALTHOUGH/EVEN THOUGH it was expensive...\" — full clause (it WAS expensive, subject + verb). ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The results were inconclusive; ___, the study was published.\" (between clauses)",
+      "opts": [
+        "although",
+        "despite",
+        "nevertheless",
+        "even though"
+      ],
+      "correct": "nevertheless",
+      "hint": "After semicolon + contrast → \"NEVERTHELESS,\" or \"however,\". \"...inconclusive; NEVERTHELESS, the study was published.\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She worked hard, ___ she failed.\" (literary/informal joining)",
+      "opts": [
+        "however",
+        "nevertheless",
+        "yet",
+        "despite"
+      ],
+      "correct": "yet",
+      "hint": "\"YET\" can join two clauses like \"but\": \"She worked hard, YET she failed.\" ✅ (same meaning as \"but\" with slightly literary feel)"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is the most formal contrast marker?",
+      "opts": [
+        "but",
+        "yet",
+        "however",
+        "nevertheless"
+      ],
+      "correct": "nevertheless",
+      "hint": "\"NEVERTHELESS\" is the most formal. \"However\" is formal. \"Yet\" and \"but\" are informal/neutral. ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Choose the correct sentence.",
+      "opts": [
+        "\"Although the cost, it is worth it.\"",
+        "\"Despite she worked, she failed.\"",
+        "\"However, the results were surprising.\"",
+        "\"Despite of the challenges.\""
+      ],
+      "correct": "\"However, the results were surprising.\"",
+      "hint": "\"HOWEVER, the results were surprising.\" ✅ — \"however\" + comma at start of new sentence. ✅"
+    }
+  ]
+}

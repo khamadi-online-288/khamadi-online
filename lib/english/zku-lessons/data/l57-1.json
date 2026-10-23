@@ -1,0 +1,548 @@
+{
+  "id": "l57-1",
+  "moduleNum": 23,
+  "lessonNum": 1,
+  "moduleTitle": "Linking Ideas",
+  "type": "reading",
+  "title": "Linking Ideas in Academic Writing: Why Connectors Matter",
+  "xp": 65,
+  "duration": 55,
+  "paragraphs": [
+    "Academic writing is not simply the presentation of ideas. It is the organisation of ideas into an argument — a structure in which each sentence connects to the next, each paragraph follows logically from the previous one, and the whole text moves the reader from a question toward an answer. The tools that make this structure visible are known as discourse markers or linking words, and they are one of the most significant differences between competent and sophisticated academic writing.",
+    "At the most basic level, linking words signal relationships between ideas. They tell the reader: this idea adds to the previous one (furthermore, in addition); this idea contrasts with it (however, although, nevertheless); this idea is the result of it (therefore, as a result, consequently); this idea gives an example of it (for example, for instance, such as); this idea summarises it (in conclusion, to sum up, overall). Without these signals, the reader has to infer the relationship — and inference takes effort, introduces ambiguity, and risks misreading.",
+    "Consider the difference between these two versions of the same information:\n\nVersion A: \"The university library has extended its opening hours. More students are using it.\"\n\nVersion B: \"The university library has extended its opening hours. As a result, more students are using it.\"\n\nBoth sentences are grammatically correct. But Version B is more informative: it tells the reader that the extended hours caused the increase in use. The link between the two facts is not just temporal (they happened together) — it is causal. \"As a result\" does this work in two words.",
+    "Not all linking words are equal. Some signal strong logical relationships (therefore, consequently) — they commit the writer to a claim about cause and effect. Others are weaker and more flexible (also, additionally) — they simply add information without claiming that the relationship is logical. Using \"therefore\" when a connection is merely associative, rather than causal, is a common and significant error that weakens an argument's credibility.",
+    "Contrast markers are particularly useful in academic writing because they allow the writer to acknowledge complexity. \"Although solar energy has grown rapidly, it still supplies less than 5% of global electricity.\" This sentence does not deny the growth — it acknowledges it — but places it in a larger perspective. The contrast marker \"although\" is doing important work: it prevents the reader from concluding that the growth alone is enough.",
+    "A common mistake among students writing in a second language is to use too many linking words — to insert a connector at the beginning of every sentence. This creates writing that feels mechanical rather than analytical. Good academic writing uses linking words purposefully: when the relationship between ideas is not obvious, when a contrast or consequence needs to be highlighted, when the reader might otherwise draw the wrong conclusion. The absence of a linking word can sometimes be as powerful as its presence.",
+    "Learning to use linking words well is not simply a grammatical exercise. It is a thinking exercise. Every time you choose a connector, you are making a decision about how one idea relates to another. That decision is an act of analysis. It is, in the deepest sense, what academic writing is for."
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "My professor said my essay reads as a \"list of facts\" rather than an argument. What does that mean?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Probably that the ideas aren't connected — they just sit next to each other without showing how they relate.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "So I need to add linking words?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Not just add them — choose them carefully. \"Therefore\" means cause and effect. \"However\" means contrast.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "What if I use \"therefore\" when the connection isn't really causal?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Then the argument is weaker than it looks. The reader notices when the logic doesn't match the connector.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "So it's more than just style — it's about being logically honest.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Rustam",
+      "text": "Exactly. Choosing the right connector is choosing what you claim about the relationship between ideas.",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "discourse marker",
+      "ru": "дискурсивный маркер / связующее слово",
+      "context": "\"Discourse markers — linking words that show relationships between ideas.\""
+    },
+    {
+      "phrase": "inference",
+      "ru": "вывод / умозаключение",
+      "context": "\"Without signals, the reader has to INFER the relationship.\" = guess from context."
+    },
+    {
+      "phrase": "causal",
+      "ru": "причинно-следственный",
+      "context": "\"The link is not temporal — it is CAUSAL.\" = one thing caused the other."
+    },
+    {
+      "phrase": "associative",
+      "ru": "ассоциативный / смежный",
+      "context": "\"Merely ASSOCIATIVE rather than causal.\" = related but not cause-effect."
+    },
+    {
+      "phrase": "credibility",
+      "ru": "доверие / авторитет",
+      "context": "\"Weakens an argument's CREDIBILITY.\" = how believable and trustworthy it is."
+    },
+    {
+      "phrase": "acknowledge",
+      "ru": "признавать",
+      "context": "\"Contrast markers allow the writer to ACKNOWLEDGE complexity.\" = accept and note."
+    },
+    {
+      "phrase": "purposefully",
+      "ru": "целенаправленно",
+      "context": "\"Use linking words PURPOSEFULLY.\" = with a clear purpose, not randomly."
+    },
+    {
+      "phrase": "mechanical",
+      "ru": "механический / формальный",
+      "context": "\"Writing that feels MECHANICAL.\" = follows a pattern without real thought."
+    }
+  ],
+  "vocab": [
+    {
+      "en": "discourse",
+      "ipa": "/ˈdɪskɔːs/",
+      "pos": "noun",
+      "ru": "дискурс / текст / речь",
+      "kz": "дискурс",
+      "emoji": "💬",
+      "definition": "written or spoken communication in extended form",
+      "example": "Discourse markers help organise academic text into clear arguments.",
+      "collocations": [
+        "academic discourse",
+        "discourse marker",
+        "written discourse"
+      ]
+    },
+    {
+      "en": "inference",
+      "ipa": "/ˈɪnfərəns/",
+      "pos": "noun",
+      "ru": "вывод / умозаключение",
+      "kz": "қорытынды",
+      "emoji": "🔍",
+      "definition": "a conclusion reached by reasoning from evidence",
+      "example": "Without linking words, the reader must make inferences about relationships.",
+      "collocations": [
+        "draw an inference",
+        "make an inference",
+        "logical inference"
+      ]
+    },
+    {
+      "en": "causal",
+      "ipa": "/ˈkɔːzəl/",
+      "pos": "adjective",
+      "ru": "причинно-следственный",
+      "kz": "себеп-салдарлық",
+      "emoji": "➡️",
+      "definition": "relating to a cause-and-effect relationship",
+      "example": "\"As a result\" signals a causal relationship — one thing caused the other.",
+      "collocations": [
+        "causal link",
+        "causal relationship",
+        "causal factor"
+      ]
+    },
+    {
+      "en": "credibility",
+      "ipa": "/ˌkredɪˈbɪlɪti/",
+      "pos": "noun",
+      "ru": "доверие / авторитет",
+      "kz": "сенімділік",
+      "emoji": "🏆",
+      "definition": "the quality of being trusted and believed",
+      "example": "Using \"therefore\" incorrectly weakens an argument's credibility.",
+      "collocations": [
+        "academic credibility",
+        "damage credibility",
+        "establish credibility"
+      ]
+    },
+    {
+      "en": "acknowledge",
+      "ipa": "/əkˈnɒlɪdʒ/",
+      "pos": "verb",
+      "ru": "признавать / отмечать",
+      "kz": "мойындау",
+      "emoji": "✋",
+      "definition": "to accept or admit the truth of something",
+      "example": "\"Although\" allows you to acknowledge a fact while contrasting it with another.",
+      "collocations": [
+        "acknowledge a fact",
+        "acknowledge complexity",
+        "acknowledge limitations"
+      ]
+    },
+    {
+      "en": "analytical",
+      "ipa": "/ˌænəˈlɪtɪkəl/",
+      "pos": "adjective",
+      "ru": "аналитический",
+      "kz": "аналитикалық",
+      "emoji": "🧩",
+      "definition": "using careful reasoning and logical thinking",
+      "example": "Good academic writing feels analytical, not just mechanical.",
+      "collocations": [
+        "analytical thinking",
+        "analytical writing",
+        "analytical skills"
+      ]
+    },
+    {
+      "en": "connector",
+      "ipa": "/kəˈnektər/",
+      "pos": "noun",
+      "ru": "связующее слово",
+      "kz": "байланыстырушы",
+      "emoji": "🔗",
+      "definition": "a word or phrase that links ideas in writing or speech",
+      "example": "\"Therefore\", \"however\", and \"in addition\" are common connectors.",
+      "collocations": [
+        "discourse connector",
+        "linking connector",
+        "use a connector"
+      ]
+    },
+    {
+      "en": "purposefully",
+      "ipa": "/ˈpɜːpəsfəli/",
+      "pos": "adverb",
+      "ru": "целенаправленно",
+      "kz": "мақсатты",
+      "emoji": "🎯",
+      "definition": "in a deliberate and intentional way",
+      "example": "Use linking words purposefully — only when they add meaning.",
+      "collocations": [
+        "act purposefully",
+        "choose purposefully",
+        "write purposefully"
+      ]
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "discourse marker",
+      "emoji": "🔗",
+      "opts": [
+        "ошибка в тексте",
+        "дискурсивный маркер",
+        "знак препинания",
+        "синоним"
+      ],
+      "correct": "дискурсивный маркер"
+    },
+    {
+      "id": "p2",
+      "word": "inference",
+      "emoji": "🔍",
+      "opts": [
+        "доказательство",
+        "вывод / умозаключение",
+        "предположение",
+        "факт"
+      ],
+      "correct": "вывод / умозаключение"
+    },
+    {
+      "id": "p3",
+      "word": "causal",
+      "emoji": "➡️",
+      "opts": [
+        "случайный",
+        "причинно-следственный",
+        "хронологический",
+        "сравнительный"
+      ],
+      "correct": "причинно-следственный"
+    },
+    {
+      "id": "p4",
+      "word": "credibility",
+      "emoji": "🏆",
+      "opts": [
+        "неопределённость",
+        "доверие / авторитет",
+        "популярность",
+        "экспертиза"
+      ],
+      "correct": "доверие / авторитет"
+    },
+    {
+      "id": "p5",
+      "word": "acknowledge",
+      "emoji": "✋",
+      "opts": [
+        "игнорировать",
+        "признавать / отмечать",
+        "отрицать",
+        "доказывать"
+      ],
+      "correct": "признавать / отмечать"
+    },
+    {
+      "id": "p6",
+      "word": "purposefully",
+      "emoji": "🎯",
+      "opts": [
+        "случайно",
+        "целенаправленно",
+        "быстро",
+        "формально"
+      ],
+      "correct": "целенаправленно"
+    }
+  ],
+  "task1Bank": [
+    "causal",
+    "therefore",
+    "although",
+    "mechanical",
+    "obvious",
+    "analytical",
+    "analysis",
+    "credibility"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "\"As a result\" signals a ___ relationship — one thing caused the other.",
+      "correct": "causal"
+    },
+    {
+      "id": "t2",
+      "question": "Using \"___ \" when the connection is not causal is a significant error.",
+      "correct": "therefore"
+    },
+    {
+      "id": "t3",
+      "question": "\"___ solar energy has grown, it supplies less than 5% of global electricity.\"",
+      "correct": "although"
+    },
+    {
+      "id": "t4",
+      "question": "Using too many linking words creates writing that feels ___ .",
+      "correct": "mechanical"
+    },
+    {
+      "id": "t5",
+      "question": "Use linking words when the relationship is not ___ to the reader.",
+      "correct": "obvious"
+    },
+    {
+      "id": "t6",
+      "question": "Good academic writing feels ___ , not mechanical.",
+      "correct": "analytical"
+    },
+    {
+      "id": "t7",
+      "question": "Choosing a connector is an act of ___ about how ideas relate.",
+      "correct": "analysis"
+    },
+    {
+      "id": "t8",
+      "question": "Incorrect use of \"therefore\" weakens an argument's ___ .",
+      "correct": "credibility"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "c1",
+      "statement": "\"As a result\" signals that ideas simply happened at the same time.",
+      "correct": "false"
+    },
+    {
+      "id": "c2",
+      "statement": "Without linking words, readers must infer relationships themselves.",
+      "correct": "true"
+    },
+    {
+      "id": "c3",
+      "statement": "The text says using too many connectors improves academic writing.",
+      "correct": "false"
+    },
+    {
+      "id": "c4",
+      "statement": "\"Although\" can acknowledge a fact while contrasting it with another.",
+      "correct": "true"
+    },
+    {
+      "id": "c5",
+      "statement": "Using \"therefore\" for a merely associative connection is acceptable.",
+      "correct": "false"
+    },
+    {
+      "id": "c6",
+      "statement": "Choosing a connector is described as an act of analysis.",
+      "correct": "true"
+    },
+    {
+      "id": "c7",
+      "statement": "The text says the absence of a linking word is always worse than its presence.",
+      "correct": "false"
+    },
+    {
+      "id": "c8",
+      "statement": "The text says linking words signal different types of relationships.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is the main function of linking words in academic writing?",
+      "opts": [
+        "Make text longer",
+        "Signal relationships between ideas",
+        "Add vocabulary variety",
+        "Show grammar accuracy"
+      ],
+      "correct": "Signal relationships between ideas",
+      "hint": "\"Linking words signal relationships between ideas — they tell the reader how one idea relates to another.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is \"As a result\" more informative than nothing in the example?",
+      "opts": [
+        "It's more formal",
+        "It signals a causal relationship, not just time",
+        "It adds new information",
+        "It is shorter"
+      ],
+      "correct": "It signals a causal relationship, not just time",
+      "hint": "\"It tells the reader that the extended hours CAUSED the increase. The link is causal.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "The text says students should use a connector before every sentence.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"A common mistake is to use too many linking words — to insert a connector at the beginning of every sentence.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "Using \"therefore\" for a merely ___ connection is a significant error.",
+      "correct": "associative",
+      "hint": "\"Using 'therefore' when a connection is merely ASSOCIATIVE, rather than causal... weakens credibility.\""
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"although\" allow a writer to do in academic writing?",
+      "opts": [
+        "Avoid a complex topic",
+        "Acknowledge complexity while contrasting",
+        "Add extra information",
+        "Summarise"
+      ],
+      "correct": "Acknowledge complexity while contrasting",
+      "hint": "\"Contrast markers allow the writer to acknowledge complexity... ALTHOUGH solar energy has grown... it still supplies less than 5%.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What is choosing a connector described as in the final paragraph?",
+      "opts": [
+        "A grammar exercise",
+        "A style choice",
+        "An act of analysis",
+        "A vocabulary decision"
+      ],
+      "correct": "An act of analysis",
+      "hint": "\"Every time you choose a connector, you are making a decision... That decision is an act of analysis.\""
+    },
+    {
+      "id": "q7",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"A causal relationship.\" \"Causal\" means:",
+      "opts": [
+        "Time-based",
+        "Cause-and-effect",
+        "Similar",
+        "Opposite"
+      ],
+      "correct": "Cause-and-effect",
+      "hint": "\"causal\" = relating to cause and effect; one thing causes the other."
+    },
+    {
+      "id": "q8",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Using 'therefore' incorrectly weakens credibility.\" \"Credibility\" means:",
+      "opts": [
+        "Length",
+        "Complexity",
+        "Trustworthiness",
+        "Formality"
+      ],
+      "correct": "Trustworthiness",
+      "hint": "\"credibility\" = the quality of being trusted and believed."
+    },
+    {
+      "id": "q9",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The writing feels mechanical.\" \"Mechanical\" means:",
+      "opts": [
+        "Detailed",
+        "Following a pattern without real thought",
+        "Scientific",
+        "Very formal"
+      ],
+      "correct": "Following a pattern without real thought",
+      "hint": "\"mechanical\" = done in a routine way, like a machine, without genuine analysis."
+    },
+    {
+      "id": "q10",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Use connectors purposefully.\" \"Purposefully\" means:",
+      "opts": [
+        "Randomly",
+        "Deliberately, with clear intention",
+        "Frequently",
+        "Rarely"
+      ],
+      "correct": "Deliberately, with clear intention",
+      "hint": "\"purposefully\" = with a clear purpose; intentionally, not by accident."
+    }
+  ]
+}

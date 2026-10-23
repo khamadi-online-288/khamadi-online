@@ -1,0 +1,525 @@
+{
+  "id": "l75-g1",
+  "moduleNum": 17,
+  "lessonNum": 5,
+  "moduleTitle": "Environment & Climate Action",
+  "title": "Grammar: Participle Clauses — Present, Past, and Perfect",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Причастные обороты (Participle clauses) заменяют более длинные придаточные:\n\nPresent Participle (-ing) = активное/одновременное действие:\n\"Walking home, she noticed something strange.\" (= while she was walking)\n\"Having finished the exam, he left immediately.\" (= after he had finished)\n\nPast Participle (-ed/irregular) = пассивное действие:\n\"Written in 1984, the novel remains relevant today.\"\n\"Shocked by the news, she couldn't speak.\"\n\n💡 Условие использования: подлежащее главного предложения = деятель причастного оборота!\n❌ \"Walking home, the rain started.\" (дождь не ходит домой!)\n✅ \"Walking home, she got caught in the rain.\" (она шла домой)",
+  "grammarTable": [
+    {
+      "subject": "Present participle (-ing)",
+      "verb": "active, ongoing action — same time as main verb",
+      "short": "doing = while/when doing",
+      "example": "\"Burning coal releases greenhouse gases.\" / \"Rising sea levels threaten coastal cities.\""
+    },
+    {
+      "subject": "Past participle (-ed/irregular)",
+      "verb": "passive meaning — done to the subject",
+      "short": "built/damaged = which was/having been",
+      "example": "\"Powered by solar energy, the factory reduced emissions.\" / \"Damaged by pollution, the reef is dying.\""
+    },
+    {
+      "subject": "Perfect participle",
+      "verb": "having + pp — completed before main action",
+      "short": "having done = after doing / because of having done",
+      "example": "\"Having emitted carbon for two centuries, industrialised nations bear greatest responsibility.\""
+    },
+    {
+      "subject": "Negative participle",
+      "verb": "not + -ing / not + pp / not having + pp",
+      "short": "not doing, not done",
+      "example": "\"Not knowing the scale of the problem, early industries burned fossil fuels without concern.\""
+    },
+    {
+      "subject": "Passive participle",
+      "verb": "being + pp (present passive)",
+      "short": "being done = while being done",
+      "example": "\"Being classified as a climate-critical habitat, the forest is legally protected.\""
+    },
+    {
+      "subject": "Purpose participle",
+      "verb": "Designed/Built/Intended/Created + to-infinitive",
+      "short": "purpose: made to do something",
+      "example": "\"Designed to store excess solar energy, the battery system covers night-time demand.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Present Participle (-ing): Active and Simultaneous",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Replaces \"which/that + verb\" in relative clauses",
+          "example": "\"Countries burning fossil fuels…\" = \"Countries that burn fossil fuels…\""
+        },
+        {
+          "form": "Replaces \"as/while/when\" in time clauses",
+          "example": "\"Talking to scientists, she realised the scale of the crisis.\" = \"When she talked to…\""
+        },
+        {
+          "form": "Replaces \"because/as\" in causal clauses",
+          "example": "\"Knowing the risks, the government acted.\" = \"Because it knew the risks…\""
+        },
+        {
+          "form": "The subject of the participle MUST be the same as the main clause",
+          "example": "\"Walking to the conference, the delegate considered her speech.\" ✅ NOT: \"Walking to the conference, a solution was found.\" ❌ (Who was walking?)"
+        }
+      ]
+    },
+    {
+      "title": "Past Participle (pp): Passive Meaning",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Replaces \"which was/has been + pp\" passive relative clauses",
+          "example": "\"Powered by renewables, the grid is now almost carbon-free.\" = \"The grid, which is powered by renewables, is…\""
+        },
+        {
+          "form": "Past participle expresses a state or condition of the subject",
+          "example": "\"Threatened by rising seas, many island nations face existential risk.\""
+        },
+        {
+          "form": "Common in formal, scientific, and journalistic writing",
+          "example": "\"Produced by melting permafrost, methane accelerates warming.\""
+        },
+        {
+          "form": "Position: beginning of sentence (most common) or mid-sentence",
+          "example": "\"The forest, damaged by acid rain, is recovering slowly.\" (mid-sentence)"
+        }
+      ]
+    },
+    {
+      "title": "Perfect Participle (having + pp): Earlier Action",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "The participle action happened BEFORE the main clause action",
+          "example": "\"Having ratified the Paris Agreement, the nation committed to reaching net zero by 2050.\""
+        },
+        {
+          "form": "Often implies: \"because/after/since having done…\"",
+          "example": "\"Having seen the data, she could no longer claim ignorance of the risks.\""
+        },
+        {
+          "form": "Passive perfect participle: having been + pp",
+          "example": "\"Having been warned repeatedly, the company still refused to change its practices.\""
+        },
+        {
+          "form": "More formal than \"after doing…\" or \"because she had done…\"",
+          "example": "\"Having spent ten years on the issue, she understood its complexity deeply.\""
+        }
+      ]
+    },
+    {
+      "title": "Participle Clauses in Environmental Writing",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Describing effects: past participle",
+          "example": "\"Bleached by warming waters, the coral reef has lost 50% of its coverage.\""
+        },
+        {
+          "form": "Describing causes: present participle",
+          "example": "\"Releasing carbon stored over millions of years, fossil fuels drive climate change.\""
+        },
+        {
+          "form": "Describing prior action: perfect participle",
+          "example": "\"Having reduced emissions by 40%, the country is now considered a climate leader.\""
+        },
+        {
+          "form": "Describing purpose: designed/built/intended + to-inf",
+          "example": "\"Designed to capture carbon, the new facility removes 1 million tonnes per year.\""
+        }
+      ]
+    },
+    {
+      "title": "Common Errors with Participle Clauses",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Dangling participle: subject mismatch",
+          "example": "\"Walking through the melting glacier, the data was striking.\" ❌ WHO was walking? → \"Walking through the melting glacier, she found the data striking.\" ✅"
+        },
+        {
+          "form": "❌ Wrong type: using -ing when action is completed before",
+          "example": "\"Studying the data for ten years, she now understands…\" ❌ (better: \"Having studied…\")"
+        },
+        {
+          "form": "❌ Using passive -ing for passive meaning",
+          "example": "\"Powering by solar energy, the factory reduced emissions.\" ❌ → \"Powered by solar energy…\" ✅"
+        },
+        {
+          "form": "❌ Unnecessary \"being\" with past participle",
+          "example": "\"Being damaged by pollution, the reef is dying.\" (correct but wordier) → \"Damaged by pollution, the reef is dying.\" ✅"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct participle type.",
+      "text": "\"___ (release) into the atmosphere, greenhouse gases trap heat from the sun.\"",
+      "opts": [
+        "Releasing",
+        "Released",
+        "Having released",
+        "To release"
+      ],
+      "correct": "Released",
+      "hint": "Past participle = passive: gases that are released (by burning)"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct participle type.",
+      "text": "\"___ (invest) in renewable energy for a decade, the country has almost eliminated coal.\"",
+      "opts": [
+        "Investing",
+        "Invested",
+        "Having invested",
+        "To invest"
+      ],
+      "correct": "Having invested",
+      "hint": "\"Having + pp\" = prior completed action (they invested first, now the result)"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Combine into one sentence using a participle clause.",
+      "text": "\"The factory was powered by solar energy. It significantly reduced its emissions.\" → ___ by solar energy, the factory significantly reduced its emissions.",
+      "correct": "Powered",
+      "hint": "Past participle = passive: \"powered by solar energy\""
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Identify the correct use.",
+      "text": "\"___ the IPCC report, scientists predict more extreme weather by 2050.\"",
+      "opts": [
+        "Citing",
+        "Cited",
+        "Having cited",
+        "To cite"
+      ],
+      "correct": "Citing",
+      "hint": "Present participle = active, simultaneous: \"while citing / based on citing\""
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete with the correct participle form.",
+      "text": "\"___ (warn) about the risks for decades, governments finally began to act.\"",
+      "correct": "Having been warned",
+      "hint": "\"Having been + pp\" = passive perfect participle (warnings came first)"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which is a \"dangling participle\" (error)?",
+      "text": "",
+      "opts": [
+        "\"Burning coal, the power station produces CO2.\"",
+        "\"Rising rapidly, sea levels threaten coastal towns.\"",
+        "\"Walking through the forest, the data was collected.\"",
+        "\"Threatened by drought, farmers are struggling.\""
+      ],
+      "correct": "\"Walking through the forest, the data was collected.\"",
+      "hint": "Data cannot walk — subject mismatch = dangling participle"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"___ (design) to capture carbon directly from the air, the machine removes 1,000 tonnes per year.\"",
+      "correct": "Designed",
+      "hint": "\"Designed to…\" = past participle expressing purpose"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"___ the scale of the crisis, young people are demanding more urgent action.\"",
+      "opts": [
+        "Understood",
+        "Having understood",
+        "Understand",
+        "Understanding"
+      ],
+      "correct": "Understanding",
+      "hint": "Present participle = because/since they understand (active, simultaneous)"
+    },
+    {
+      "id": "e9",
+      "type": "fill",
+      "instruction": "Rewrite using a participle clause.",
+      "text": "\"Because the scientists had studied the ice for twenty years, they recognised the changes immediately.\" → ___ the ice for twenty years, they recognised the changes immediately.",
+      "correct": "Having studied",
+      "hint": "\"Having + pp\" = prior completed action (\"after/because of having studied\")"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Choose the correct participle.",
+      "text": "\"___ from permafrost as temperatures rise, methane accelerates the greenhouse effect.\"",
+      "opts": [
+        "Releasing",
+        "Released",
+        "Having released",
+        "To release"
+      ],
+      "correct": "Released",
+      "hint": "Past participle = passive: methane that is released FROM permafrost"
+    },
+    {
+      "id": "e11",
+      "type": "fill",
+      "instruction": "Complete with the negative participle.",
+      "text": "\"___ (not / reduce) its emissions, the country failed to meet its Paris Agreement targets.\"",
+      "correct": "Not having reduced",
+      "hint": "\"Not having + pp\" = negative perfect participle"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Which sentence uses the participle clause correctly?",
+      "text": "",
+      "opts": [
+        "\"Built to store carbon, the forest absorbs millions of tonnes each year.\"",
+        "\"Being built to store carbon, the forest absorbs millions of tonnes.\"",
+        "\"Building to store carbon, the forest absorbs millions of tonnes.\"",
+        "\"Having been built to store carbon, the forest absorbs.\""
+      ],
+      "correct": "\"Built to store carbon, the forest absorbs millions of tonnes each year.\"",
+      "hint": "\"Built to + inf\" = past participle expressing purpose (designed to)"
+    },
+    {
+      "id": "e13",
+      "type": "fill",
+      "instruction": "Complete correctly.",
+      "text": "\"___ (threaten) by rising sea levels, the Maldives has called for urgent global action.\"",
+      "correct": "Threatened",
+      "hint": "Past participle = passive: \"being threatened by\""
+    },
+    {
+      "id": "e14",
+      "type": "mc",
+      "instruction": "What does this participle clause express?",
+      "text": "\"Having ratified the Paris Agreement, the nation committed to reaching net zero by 2050.\"",
+      "opts": [
+        "The two actions happened at the same time",
+        "The ratification happened before the commitment",
+        "The commitment caused the ratification",
+        "The nation is uncertain about the commitment"
+      ],
+      "correct": "The ratification happened before the commitment",
+      "hint": "\"Having + pp\" = prior completed action before the main clause",
+      "points": 2
+    },
+    {
+      "id": "e15",
+      "type": "fill",
+      "instruction": "Complete with the correct participle.",
+      "text": "\"___ (produce) by burning coal, sulphur dioxide causes acid rain.\"",
+      "correct": "Produced",
+      "hint": "Past participle = passive: \"which is produced by\""
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which is the most formal and economical version?",
+      "text": "\"Because they had cut emissions by 40%, the EU is now considered a climate leader.\"",
+      "opts": [
+        "\"Cutting emissions by 40%, the EU is now considered a climate leader.\"",
+        "\"Having cut emissions by 40%, the EU is now considered a climate leader.\"",
+        "\"Cut emissions by 40%, the EU is now considered a climate leader.\"",
+        "\"Have cut emissions by 40%, the EU is now considered a climate leader.\""
+      ],
+      "correct": "\"Having cut emissions by 40%, the EU is now considered a climate leader.\"",
+      "hint": "\"Having + pp\" = prior completed action before the main clause"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ by warming seas, coral reefs are dying at an alarming rate.\" (passive — ongoing condition)",
+      "opts": [
+        "Bleaching",
+        "Bleached",
+        "Having bleached",
+        "To bleach"
+      ],
+      "correct": "Bleached",
+      "hint": "Past participle = passive: \"reefs which are being bleached by\"",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ enormous quantities of carbon, the Amazon rainforest is essential to the climate system.\" (active — ongoing)",
+      "opts": [
+        "Stored",
+        "Having stored",
+        "Storing",
+        "To store"
+      ],
+      "correct": "Storing",
+      "hint": "Present participle = active, ongoing: \"which stores enormous quantities\"",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (ratify) the Paris Agreement, 195 nations committed to reducing their emissions.\"",
+      "correct": "Having ratified",
+      "hint": "\"Having + pp\" = action completed before the commitment",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ to prevent carbon leakage, the Carbon Border Adjustment Mechanism imposes levies on imports.\"",
+      "opts": [
+        "Designing",
+        "Having designed",
+        "Designed",
+        "Design"
+      ],
+      "correct": "Designed",
+      "hint": "\"Designed to + infinitive\" = past participle expressing purpose",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is a dangling participle?",
+      "opts": [
+        "\"Rising rapidly, sea levels threaten coastal cities.\"",
+        "\"Powering the grid, solar panels reduce coal use.\"",
+        "\"Walking through the melting glacier, the impact of warming became clear.\"",
+        "\"Emitted by industry, CO2 accumulates in the atmosphere.\""
+      ],
+      "correct": "\"Walking through the melting glacier, the impact of warming became clear.\"",
+      "hint": "\"The impact\" cannot walk — subject mismatch",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "\"Releasing carbon\" and \"Released by burning\" have the same meaning.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Present participle = active; past participle = passive",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (not / act) earlier on climate, governments now face much higher transition costs.\"",
+      "correct": "Not having acted",
+      "hint": "\"Not having + pp\" = negative perfect participle",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ from melting glaciers, fresh water floods coastal areas and disrupts ecosystems.\" (released from)",
+      "opts": [
+        "Releasing",
+        "Released",
+        "Having released",
+        "To release"
+      ],
+      "correct": "Released",
+      "hint": "Past participle = passive: \"water which is released from\"",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (invest) heavily in offshore wind, the country has become one of the world's leading clean energy producers.\"",
+      "correct": "Having invested",
+      "hint": "\"Having + pp\" = prior investment led to current status",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ the data carefully, scientists predict more extreme weather events in the coming decades.\" (while analysing)",
+      "opts": [
+        "Analysed",
+        "Having analysed",
+        "Analysing",
+        "To analyse"
+      ],
+      "correct": "Analysing",
+      "hint": "Present participle = active, simultaneous action",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"___ (build) to withstand rising sea levels, the new seawall protects over 50,000 homes.\"",
+      "correct": "Built",
+      "hint": "\"Built to + infinitive\" = past participle of purpose",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "What does the perfect participle express in: \"Having signed the agreement, the government faced pressure to deliver.\"",
+      "opts": [
+        "The signing and pressure happen at the same time",
+        "The signing happened before and caused the pressure",
+        "The government is uncertain about signing",
+        "The government is planning to sign"
+      ],
+      "correct": "The signing happened before and caused the pressure",
+      "hint": "\"Having + pp\" = prior completed action that explains or causes the main clause",
+      "points": 2
+    }
+  ]
+}

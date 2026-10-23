@@ -1,0 +1,546 @@
+{
+  "id": "l53-g1",
+  "moduleNum": 19,
+  "lessonNum": 5,
+  "moduleTitle": "Travel",
+  "type": "grammar",
+  "title": "Future Forms: will / going to / Present Continuous",
+  "xp": 70,
+  "duration": 65,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Three Ways to Talk About the Future",
+  "grammarNote": "В английском языке есть три основные формы для выражения будущего, и у каждой своё значение. WILL — для спонтанных решений, обещаний и предсказаний. GOING TO — для планов, уже принятых решений и предсказаний на основе доказательств. PRESENT CONTINUOUS — для конкретных договорённостей с датой и временем.",
+  "grammarTable": [
+    {
+      "subject": "will",
+      "verb": "will + base form",
+      "short": "спонтанно/обещание",
+      "example": "\"I'll help you.\" (решение прямо сейчас) / \"It will be warm tomorrow.\" (предсказание)"
+    },
+    {
+      "subject": "going to",
+      "verb": "am/is/are going to + base",
+      "short": "план/намерение",
+      "example": "\"I'm going to visit Almaty.\" (уже запланировано) / \"Look — it's going to rain!\" (доказательство)"
+    },
+    {
+      "subject": "Present Continuous",
+      "verb": "am/is/are + -ing",
+      "short": "договорённость",
+      "example": "\"I'm flying to Almaty on Friday.\" (конкретная дата, куплены билеты)"
+    },
+    {
+      "subject": "Present Simple",
+      "verb": "verb (schedule)",
+      "short": "расписание",
+      "example": "\"The flight departs at 10:15.\" (официальное расписание транспорта)"
+    },
+    {
+      "subject": "will vs going to",
+      "verb": "key difference",
+      "short": "спонтанность vs план",
+      "example": "\"I'll have the pasta.\" (just decided) vs \"I'm going to have pasta.\" (decided before)"
+    },
+    {
+      "subject": "going to vs Pres. Cont.",
+      "verb": "intention vs arrangement",
+      "short": "намерение vs договорённость",
+      "example": "\"I'm going to visit.\" (plan) vs \"I'm visiting on Monday.\" (confirmed, with time)"
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "WILL — when to use it",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "Spontaneous decision",
+          "example": "\"I'll carry your bag for you.\" (decided at the moment of speaking) ✅"
+        },
+        {
+          "form": "Promise",
+          "example": "\"I'll call you when I arrive.\" / \"I promise I won't be late.\" ✅"
+        },
+        {
+          "form": "Prediction (opinion)",
+          "example": "\"I think it will rain tomorrow.\" / \"You'll love Almaty — it's beautiful.\" ✅"
+        },
+        {
+          "form": "Offer",
+          "example": "\"I'll get the tickets.\" / \"Shall I help you with that?\" ✅"
+        },
+        {
+          "form": "✗ NOT for pre-made plans",
+          "example": "✗ \"I will visit Almaty next week.\" (if tickets already booked) → ✅ \"I'm visiting Almaty next week.\""
+        }
+      ]
+    },
+    {
+      "title": "GOING TO — when to use it",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "Pre-made plan / intention",
+          "example": "\"I'm going to apply for the scholarship.\" (already decided) ✅"
+        },
+        {
+          "form": "Prediction from evidence",
+          "example": "\"Look at those clouds — it's going to rain!\" (evidence = dark clouds) ✅"
+        },
+        {
+          "form": "Decision made BEFORE speaking",
+          "example": "\"I'm going to visit Georgia this summer.\" (plan made earlier) ✅"
+        },
+        {
+          "form": "✗ NOT spontaneous",
+          "example": "✗ \"I'm going to help you.\" (at that moment, spontaneously) → ✅ \"I'll help you.\""
+        }
+      ]
+    },
+    {
+      "title": "Present Continuous for future — when to use it",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "Confirmed arrangement",
+          "example": "\"I'm meeting Zhibek at the airport on Friday.\" (confirmed, time set) ✅"
+        },
+        {
+          "form": "With a specific time/date",
+          "example": "\"She's flying to Istanbul next Monday at 07:30.\" ✅"
+        },
+        {
+          "form": "More definite than going to",
+          "example": "\"I'm going to a conference.\" (plan) vs \"I'm attending a conference on Thursday.\" (confirmed)"
+        },
+        {
+          "form": "✗ NOT for things not arranged",
+          "example": "✗ \"It's raining tomorrow.\" → ✅ \"It's going to rain.\" or \"It will rain.\""
+        }
+      ]
+    },
+    {
+      "title": "Comparing the three forms",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "WILL: \"I'll book the hostel.\"",
+          "example": "Spontaneous — just decided now, in this conversation. ✅"
+        },
+        {
+          "form": "GOING TO: \"I'm going to book a hostel.\"",
+          "example": "Plan made earlier — already decided before this conversation. ✅"
+        },
+        {
+          "form": "PRES. CONT.: \"I'm booking a hostel on Thursday.\"",
+          "example": "Confirmed arrangement — date/time set, probably already arranged. ✅"
+        },
+        {
+          "form": "PRES. SIMPLE: \"The train leaves at 8.\"",
+          "example": "Fixed schedule — timetable, not personal plan. ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Три формы будущего — запомни разницу:\n\nWILL → спонтанное решение / обещание / общее предсказание:\n\"I'll help you!\" (только что решил)\n\"It will be warm.\" (моё предсказание)\n\nGOING TO → уже принятый план / предсказание по доказательствам:\n\"I'm going to visit Georgia.\" (план уже есть)\n\"Look — it's going to rain!\" (вижу тучи)\n\nPRESENT CONTINUOUS → конкретная договорённость с датой:\n\"I'm flying to Almaty on Friday.\" (билеты куплены)\n\"We're meeting at 3.\" (договорились)\n\nPRESENT SIMPLE → официальное расписание:\n\"The flight departs at 10:15.\" (расписание)",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose will or going to.",
+      "text": "\"Oh no, you dropped your bag! ___  help you pick it up.\"",
+      "opts": [
+        "I'm going to",
+        "I'll",
+        "I'm",
+        "I was going to"
+      ],
+      "correct": "I'll",
+      "hint": "Spontaneous decision at the moment = WILL. \"I'LL help you.\" ✅ (Not going to — going to = plan made before)"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "Kamila bought plane tickets last week. \"She ___ fly to Almaty on Friday.\"",
+      "opts": [
+        "will",
+        "is going to",
+        "is flying",
+        "flies"
+      ],
+      "correct": "is flying",
+      "hint": "Specific confirmed arrangement with a date (Friday) = PRESENT CONTINUOUS. \"She IS FLYING to Almaty on Friday.\" ✅"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with going to + verb.",
+      "text": "\"Look at those dark clouds! It ___ (rain).\"",
+      "correct": "is going to rain",
+      "hint": "Prediction based on visible evidence (dark clouds) = GOING TO. \"It IS GOING TO RAIN!\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct form for a schedule.",
+      "text": "\"The train to Shymkent ___ at 08:30.\" (official timetable)",
+      "opts": [
+        "will leave",
+        "is going to leave",
+        "leaves",
+        "is leaving"
+      ],
+      "correct": "leaves",
+      "hint": "Official transport schedule = PRESENT SIMPLE. \"The train LEAVES at 08:30.\" ✅ (Fixed timetable, not personal plan)"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Going to or will?",
+      "text": "Rustam has been thinking about learning to drive for months. \"___ get my driving licence this year.\"",
+      "opts": [
+        "I'll",
+        "I'm going to",
+        "I'm",
+        "I might"
+      ],
+      "correct": "I'm going to",
+      "hint": "Pre-made intention (decided before this moment) = GOING TO. \"I'M GOING TO get my licence.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence uses Present Continuous correctly for future?",
+      "text": "Choose the sentence with a confirmed arrangement.",
+      "opts": [
+        "\"It's raining tomorrow.\"",
+        "\"I'm meeting Zhibek at the airport on Sunday.\"",
+        "\"I'm going to visit sometime.\"",
+        "\"He will meet her soon.\""
+      ],
+      "correct": "\"I'm meeting Zhibek at the airport on Sunday.\"",
+      "hint": "\"I'M MEETING Zhibek... on Sunday.\" = confirmed arrangement with specific day. ✅ NOT \"it's raining\" — weather ≠ confirmed arrangement."
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Choose will or going to.",
+      "text": "\"I've decided — ___ (apply) for a student internship in Astana next year.\"",
+      "correct": "I'm going to apply",
+      "hint": "Decision made BEFORE this conversation = GOING TO. \"I'M GOING TO APPLY.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Choose the best form.",
+      "text": "\"A: What are you doing tomorrow? B: ___ visiting the Charyn Canyon with my friends.\"",
+      "opts": [
+        "I will be",
+        "I'm",
+        "I'm going",
+        "I going to be"
+      ],
+      "correct": "I'm",
+      "hint": "\"I'M visiting the Charyn Canyon.\" = Present Continuous for confirmed future arrangement with friends. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Identify the mistake.",
+      "text": "\"I will to fly to Almaty next week.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"will\" should be \"going to\"",
+        "\"will\" never takes \"to\" — should be \"I will fly\"",
+        "\"to fly\" is correct"
+      ],
+      "correct": "\"will\" never takes \"to\" — should be \"I will fly\"",
+      "hint": "✗ \"will TO fly\" — NEVER! \"will\" + BASE FORM (no \"to\"). \"I WILL FLY to Almaty.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "Offer using will.",
+      "text": "\"You look tired. ___ (make) you a cup of tea?\"",
+      "opts": [
+        "Shall I make",
+        "I'm going to make",
+        "I'm making",
+        "Am I going to make"
+      ],
+      "correct": "Shall I make",
+      "hint": "\"Shall I...?\" = polite offer using will form. \"SHALL I make you tea?\" ✅ (Also: \"I'll make you tea.\" ✅)"
+    },
+    {
+      "id": "e11",
+      "type": "tf",
+      "instruction": "True or False?",
+      "text": "\"I'm going to help you\" can describe a spontaneous decision made right now.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "✗ Spontaneous = WILL. \"I'LL help you.\" ✅ \"Going to\" = pre-made intention. You cannot use going to for a spontaneous moment decision."
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Choose the correct form.",
+      "text": "\"I ___ probably be late — there's a lot of traffic.\" (prediction)",
+      "opts": [
+        "going to",
+        "'ll",
+        "am",
+        "is"
+      ],
+      "correct": "'ll",
+      "hint": "\"I'LL probably be late.\" = WILL for personal prediction. ✅ \"Probably\" + will is a common combination for uncertain predictions."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'll help you!\" — \"will\" is used because:",
+      "opts": [
+        "It's a plan made earlier",
+        "It's a spontaneous decision made right now",
+        "It's a confirmed arrangement",
+        "It's an official schedule"
+      ],
+      "correct": "It's a spontaneous decision made right now",
+      "hint": "\"will\" = spontaneous decision / offer / promise. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm going to visit Georgia.\" — \"going to\" because:",
+      "opts": [
+        "Spontaneous",
+        "Confirmed time and date",
+        "Plan made before this conversation",
+        "Official schedule"
+      ],
+      "correct": "Plan made before this conversation",
+      "hint": "\"going to\" = pre-made intention, decided before the moment of speaking. ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I'm flying to Almaty on Friday.\" — Present Continuous here means:",
+      "opts": [
+        "It's happening right now",
+        "Spontaneous decision",
+        "Confirmed future arrangement with time",
+        "Official schedule"
+      ],
+      "correct": "Confirmed future arrangement with time",
+      "hint": "Present Continuous for future = confirmed arrangement. Specific day (Friday) + arranged. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The train leaves at 08:30.\" — Present Simple here expresses:",
+      "opts": [
+        "Personal plan",
+        "Prediction",
+        "Confirmed arrangement",
+        "Fixed official schedule"
+      ],
+      "correct": "Fixed official schedule",
+      "hint": "Present Simple for timetables/schedules. \"The train LEAVES at 08:30.\" = fixed timetable. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"Look at those clouds — it ___ (rain)!\" (evidence-based prediction)",
+      "correct": "is going to rain",
+      "hint": "Visible evidence (clouds) → GOING TO. \"It IS GOING TO RAIN!\" ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I will to fly to Almaty.\" — What is wrong?",
+      "opts": [
+        "Nothing",
+        "\"will\" + \"to\" is never correct — should be \"will fly\"",
+        "\"to fly\" should be \"flying\"",
+        "\"Almaty\" needs an article"
+      ],
+      "correct": "\"will\" + \"to\" is never correct — should be \"will fly\"",
+      "hint": "\"will\" + BASE FORM (no \"to\"). \"I WILL FLY to Almaty.\" ✅ Never \"will to fly\"!"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which is most natural for a spontaneous offer?",
+      "opts": [
+        "\"I'm going to carry your bag.\"",
+        "\"I'm carrying your bag.\"",
+        "\"I'll carry your bag.\"",
+        "\"I carry your bag.\""
+      ],
+      "correct": "\"I'll carry your bag.\"",
+      "hint": "\"I'LL carry your bag.\" = spontaneous offer, decided right now. WILL = ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She's meeting Amir at 3 p.m.\" — This is:",
+      "opts": [
+        "Present Simple schedule",
+        "Spontaneous decision",
+        "Confirmed future arrangement",
+        "Prediction"
+      ],
+      "correct": "Confirmed future arrangement",
+      "hint": "Present Continuous for future with specific time (3 p.m.) = confirmed arrangement. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It will be warm in Almaty.\" — This is a:",
+      "opts": [
+        "Pre-made plan",
+        "Prediction/opinion",
+        "Official schedule",
+        "Spontaneous offer"
+      ],
+      "correct": "Prediction/opinion",
+      "hint": "\"will\" for prediction based on opinion or general expectation. \"It WILL BE warm.\" ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"I've decided — ___ (study) abroad next year.\" (going to)",
+      "correct": "I'm going to study",
+      "hint": "Pre-made decision = GOING TO. \"I'M GOING TO STUDY abroad next year.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence describes a confirmed arrangement with a date?",
+      "opts": [
+        "\"I'll visit soon.\"",
+        "\"I'm going to visit.\"",
+        "\"I'm visiting on Saturday.\"",
+        "\"I visit next week.\""
+      ],
+      "correct": "\"I'm visiting on Saturday.\"",
+      "hint": "\"I'm visiting on Saturday.\" = Present Continuous with specific day = confirmed arrangement. ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"I probably won't be on time.\" — \"Won't\" is:",
+      "opts": [
+        "Going to negative",
+        "Will not (contraction)",
+        "Present Continuous negative",
+        "Past Simple"
+      ],
+      "correct": "Will not (contraction)",
+      "hint": "\"WON'T\" = will not. Irregular contraction. \"I WON'T be on time.\" ✅ (Never \"willn't\"!)"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Shall I book the tickets?\" — This uses \"shall\" for:",
+      "opts": [
+        "Past tense",
+        "A polite offer or suggestion",
+        "Official schedule",
+        "Going to plan"
+      ],
+      "correct": "A polite offer or suggestion",
+      "hint": "\"Shall I...?\" = polite offer/suggestion (British English). Equivalent to \"Do you want me to...?\" ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Compare: \"I'm going to fly.\" vs \"I'm flying on Thursday.\" — Difference?",
+      "opts": [
+        "No difference",
+        "\"Going to\" = intention; \"flying on Thursday\" = confirmed with date",
+        "\"Flying on Thursday\" = right now",
+        "\"Going to\" = schedule"
+      ],
+      "correct": "\"Going to\" = intention; \"flying on Thursday\" = confirmed with date",
+      "hint": "\"going to fly\" = plan/intention. \"flying on Thursday\" = confirmed arrangement with specific time. ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"A: What are your plans? B: ___ (travel / going to) to Shymkent in July.\"",
+      "correct": "I'm going to travel",
+      "hint": "Pre-made plan = GOING TO. \"I'M GOING TO TRAVEL to Shymkent in July.\" ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which uses Present Simple correctly for future?",
+      "opts": [
+        "\"I'm simple tomorrow.\"",
+        "\"The bus departs at 9.\" (timetable)",
+        "\"She simple goes next week.\"",
+        "\"They will simple go.\""
+      ],
+      "correct": "\"The bus departs at 9.\" (timetable)",
+      "hint": "Present Simple for fixed transport schedules: \"The bus DEPARTS at 9.\" ✅ Timetables use Present Simple."
+    }
+  ]
+}

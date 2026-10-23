@@ -1,0 +1,576 @@
+{
+  "id": "l65-g1",
+  "moduleNum": 7,
+  "lessonNum": 5,
+  "moduleTitle": "Relative Clauses: Defining & Non-defining",
+  "type": "grammar",
+  "title": "Defining Relative Clauses: who, which, that, whose, where, when",
+  "xp": 75,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "Defining Relative Clauses — Identifying Which One",
+  "grammarNote": "Определительные придаточные предложения (defining relative clauses) отвечают на вопрос «который именно?» — они необходимы для понимания смысла предложения. Без них предложение становится неполным или неоднозначным. Запятые НЕ используются. На B1 уровне важно правильно выбирать relative pronoun и понимать, когда его можно опустить.",
+  "grammarTable": [
+    {
+      "subject": "WHO",
+      "verb": "→ people (subject)",
+      "short": "для людей",
+      "example": "\"The student WHO passed the exam was happy.\" / \"The people WHO helped me.\""
+    },
+    {
+      "subject": "WHOM",
+      "verb": "→ people (object, formal)",
+      "short": "для людей (объект)",
+      "example": "\"The lecturer WHOM I admire most.\" (formal) / \"the person WHOM she met.\""
+    },
+    {
+      "subject": "WHICH",
+      "verb": "→ things/animals",
+      "short": "для вещей",
+      "example": "\"The book WHICH changed my mind.\" / \"The city WHICH she was born in.\""
+    },
+    {
+      "subject": "THAT",
+      "verb": "→ people or things (informal)",
+      "short": "замена who/which",
+      "example": "\"The student THAT passed.\" / \"The book THAT changed my mind.\""
+    },
+    {
+      "subject": "WHOSE",
+      "verb": "→ possession (people/things)",
+      "short": "притяжательный",
+      "example": "\"The student WHOSE essay won.\" / \"The building WHOSE windows were broken.\""
+    },
+    {
+      "subject": "WHERE",
+      "verb": "→ places",
+      "short": "для мест",
+      "example": "\"The library WHERE I study.\" / \"The city WHERE she grew up.\""
+    },
+    {
+      "subject": "WHEN",
+      "verb": "→ times",
+      "short": "для времени",
+      "example": "\"The year WHEN she graduated.\" / \"The moment WHEN I understood.\""
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Omitting the relative pronoun — when is it possible?",
+      "color": "#1D9E75",
+      "bg": "#D1FAE5",
+      "border": "#6EE7B7",
+      "rows": [
+        {
+          "form": "OBJECT clauses: pronoun CAN be omitted",
+          "example": "\"The book [that/which] she wrote.\" = \"The book she wrote.\" ✅ (she = subject; book = object → omit pronoun)"
+        },
+        {
+          "form": "SUBJECT clauses: pronoun CANNOT be omitted",
+          "example": "\"The book that changed her life.\" ✗ \"The book changed her life.\" — (book is the subject of \"changed\" — need pronoun) ✅"
+        },
+        {
+          "form": "Test: is there a subject after the pronoun?",
+          "example": "\"The book [that] she wrote\" → she = subject ✅ CAN omit. \"The book that changed her life\" → no other subject. CANNOT omit. ✅"
+        },
+        {
+          "form": "WHOSE and WHERE cannot be omitted",
+          "example": "\"The student whose essay won.\" ✅ / \"The place where they met.\" ✅ — cannot omit whose or where. ✅"
+        }
+      ]
+    },
+    {
+      "title": "WHO vs THAT — people",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.2)",
+      "rows": [
+        {
+          "form": "\"Who\" preferred for people (standard)",
+          "example": "\"The scientist WHO discovered penicillin.\" ✅ (preferred in formal writing)"
+        },
+        {
+          "form": "\"That\" acceptable for people (informal)",
+          "example": "\"The scientist THAT discovered penicillin.\" ✅ (acceptable, especially in speech)"
+        },
+        {
+          "form": "\"That\" often preferred in superlatives",
+          "example": "\"She is the best researcher THAT the department has ever had.\" ✅ (\"that\" very natural here)"
+        },
+        {
+          "form": "\"That\" after \"the only\" and \"the first\"",
+          "example": "\"He is the only student THAT has passed all modules.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "WHICH vs WHERE for places",
+      "color": "#1B8FC4",
+      "bg": "#DBEAFE",
+      "border": "#93C5FD",
+      "rows": [
+        {
+          "form": "\"Where\" for places (most natural)",
+          "example": "\"The city WHERE I was born.\" ✅ / \"The room WHERE we met.\" ✅"
+        },
+        {
+          "form": "\"Which\" for places (with preposition sense)",
+          "example": "\"The city WHICH she was born IN.\" ✅ / \"The room IN WHICH we met.\" ✅ (formal)"
+        },
+        {
+          "form": "\"In which\" = formal \"where\"",
+          "example": "\"The country IN WHICH she lived for twenty years.\" ✅ = \"the country WHERE she lived.\" ✅"
+        },
+        {
+          "form": "\"At which\" / \"on which\" etc.",
+          "example": "\"The moment AT WHICH she decided.\" / \"The event AT WHICH they met.\" ✅ (formal writing)"
+        }
+      ]
+    },
+    {
+      "title": "WHOSE — possessive in relative clauses",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "#F6D28C",
+      "rows": [
+        {
+          "form": "whose = of whom / of which",
+          "example": "\"The student WHOSE essay won first prize.\" = the student's essay. ✅"
+        },
+        {
+          "form": "whose for people AND things",
+          "example": "\"The building WHOSE architect won an award.\" ✅ / \"The company WHOSE profits have increased.\" ✅"
+        },
+        {
+          "form": "whose cannot be omitted",
+          "example": "\"The student whose essay won.\" ✗ \"The student essay won.\" — CANNOT omit whose. ✅"
+        },
+        {
+          "form": "\"Of which\" = formal alternative for things",
+          "example": "\"The report, the conclusions OF WHICH were disputed...\" = \"the report whose conclusions were disputed.\" ✅"
+        }
+      ]
+    },
+    {
+      "title": "❌ Common defining relative clause errors",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "✗ \"The scientist who he discovered penicillin.\"",
+          "example": "✅ \"The scientist WHO discovered penicillin.\" — remove \"he\": the relative pronoun IS the subject. ✅"
+        },
+        {
+          "form": "✗ \"The place what she visited.\"",
+          "example": "✅ \"The place WHICH she visited.\" — \"what\" is NOT a relative pronoun (for clauses only). ✅"
+        },
+        {
+          "form": "✗ \"The building which its windows broke.\"",
+          "example": "✅ \"The building WHOSE windows broke.\" — possessive = \"whose,\" not \"which + possessive.\" ✅"
+        },
+        {
+          "form": "✗ \"The year where I graduated.\"",
+          "example": "✅ \"The year WHEN I graduated.\" — time → \"when,\" not \"where.\" ✅"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "Defining Relative Clauses — NO commas:\n\nWHO → people (subject)\n\"The student WHO passed.\"\n\nWHOM → people (object, formal)\n\"The professor WHOM I admire.\"\n\nWHICH → things/animals\n\"The book WHICH changed my mind.\"\n\nTHAT → people or things (can replace who/which)\n\"The student THAT passed.\" / \"The book THAT changed.\"\n\nWHOSE → possession\n\"The student WHOSE essay won.\"\n\nWHERE → places\n\"The city WHERE she grew up.\"\n\nWHEN → times\n\"The year WHEN she graduated.\"\n\nOmitting the pronoun (object position only):\n\"The book [that] she wrote.\" ✅ (she = subject after pronoun)\n\"The book that changed her life.\" ✅ (CANNOT omit — no other subject)\n\n⚠️ Errors:\n✗ who HE discovered → ✅ who discovered\n✗ the place what → ✅ the place which/where\n✗ the year where → ✅ the year when",
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "\"The student ___ won the prize was from Almaty.\"",
+      "opts": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "correct": "who",
+      "hint": "People → WHO (subject). \"The student WHO won the prize.\" ✅"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct relative pronoun.",
+      "text": "\"She lost the report ___ she had been writing all week.\"",
+      "opts": [
+        "who",
+        "whose",
+        "that",
+        "where"
+      ],
+      "correct": "that",
+      "hint": "Things → WHICH or THAT. \"The report THAT she had been writing.\" ✅ (object position — could also omit)"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct pronoun.",
+      "text": "\"The city ___ I was born has changed a lot.\"",
+      "correct": "where",
+      "hint": "Place → WHERE. \"The city WHERE I was born.\" ✅"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Possessive — choose.",
+      "text": "\"I met a researcher ___ work has been published in Nature.\"",
+      "opts": [
+        "who",
+        "which",
+        "whose",
+        "that"
+      ],
+      "correct": "whose",
+      "hint": "\"whose work\" = the researcher's work (possessive). \"A researcher WHOSE work has been published.\" ✅"
+    },
+    {
+      "id": "e5",
+      "type": "mc",
+      "instruction": "Can the pronoun be omitted?",
+      "text": "\"The book that I read last week was excellent.\" — Can \"that\" be omitted?",
+      "opts": [
+        "No — it's the subject",
+        "Yes — \"I\" is the subject; \"that\" = object → can omit",
+        "\"That\" must always stay",
+        "Only in formal writing"
+      ],
+      "correct": "Yes — \"I\" is the subject; \"that\" = object → can omit",
+      "hint": "\"I\" is the subject after \"that\" → \"that\" = object → CAN omit. \"The book I read last week.\" ✅"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Can the pronoun be omitted?",
+      "text": "\"The book that changed her life.\" — Can \"that\" be omitted?",
+      "opts": [
+        "Yes — always optional",
+        "No — there's no other subject; \"that\" is the subject of \"changed\"",
+        "Yes in informal speech",
+        "Only if you add \"it\""
+      ],
+      "correct": "No — there's no other subject; \"that\" is the subject of \"changed\"",
+      "hint": "\"that\" = subject of \"changed\" → CANNOT omit. \"The book changed her life.\" would be a different sentence. ✅"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Choose the correct relative pronoun for time.",
+      "text": "\"The moment ___ I understood English was in my second year.\"",
+      "correct": "when",
+      "hint": "Time → WHEN. \"The moment WHEN I understood English.\" ✅"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Find the error.",
+      "text": "\"The scientist who he discovered radium won a Nobel Prize.\"",
+      "opts": [
+        "Correct",
+        "\"who he\" is wrong — remove \"he\": the relative pronoun IS the subject",
+        "\"discovered\" should be \"has discovered\"",
+        "\"won\" should be \"has won\""
+      ],
+      "correct": "\"who he\" is wrong — remove \"he\": the relative pronoun IS the subject",
+      "hint": "✅ \"The scientist WHO discovered radium.\" — remove \"he.\" \"Who\" IS the subject. ✅"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "\"What\" vs \"which\" — choose.",
+      "text": "\"The place ___ she grew up was a small village.\"",
+      "opts": [
+        "what",
+        "which",
+        "where",
+        "who"
+      ],
+      "correct": "where",
+      "hint": "Place → WHERE. NOT \"what\" (which is not a relative pronoun). \"The place WHERE she grew up.\" ✅"
+    },
+    {
+      "id": "e10",
+      "type": "mc",
+      "instruction": "\"That\" after superlatives.",
+      "text": "\"She is the most talented student ___ I have ever taught.\"",
+      "opts": [
+        "who",
+        "which",
+        "that",
+        "Both \"who\" and \"that\" are correct"
+      ],
+      "correct": "Both \"who\" and \"that\" are correct",
+      "hint": "\"...the most talented student WHO/THAT I have ever taught.\" — both correct; \"that\" is very natural after superlatives. ✅"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Formal: preposition + which.",
+      "text": "\"The university ___ she studied was founded in 1958.\" (formal version with preposition)",
+      "opts": [
+        "where she studied",
+        "at which she studied",
+        "which she studied at",
+        "All three are correct"
+      ],
+      "correct": "All three are correct",
+      "hint": "\"where she studied\" ✅ (natural) / \"at which she studied\" ✅ (formal) / \"which she studied at\" ✅ (informal with hanging prep). All natural. ✅"
+    },
+    {
+      "id": "e12",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"The building which its roof was damaged has been repaired.\"",
+      "opts": [
+        "Correct",
+        "\"which its roof\" should be \"whose roof\" — possessive = whose",
+        "\"which\" should be \"that\"",
+        "\"been repaired\" is wrong"
+      ],
+      "correct": "\"which its roof\" should be \"whose roof\" — possessive = whose",
+      "hint": "✅ \"The building WHOSE ROOF was damaged.\" — possessive: \"whose,\" not \"which + possessive pronoun.\" ✅"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Whom vs who.",
+      "text": "\"The professor ___ I admire most has just published a new book.\" (formal)",
+      "opts": [
+        "who",
+        "whom",
+        "Both are correct",
+        "that is more formal"
+      ],
+      "correct": "Both are correct",
+      "hint": "Formal: \"the professor WHOM I admire\" (object = whom). Informal: \"the professor WHO I admire\" also acceptable. ✅"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"The year ___ she won the scholarship was the turning point in her career.\"",
+      "correct": "when",
+      "hint": "\"The year WHEN she won the scholarship.\" — time → WHEN. ✅"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "\"The only one that\" — choose.",
+      "text": "\"He is the only student ___ has submitted on time.\"",
+      "opts": [
+        "who",
+        "that",
+        "Both \"who\" and \"that\" work",
+        "which"
+      ],
+      "correct": "Both \"who\" and \"that\" work",
+      "hint": "\"the only student WHO/THAT has submitted.\" — both work; \"that\" is very natural after \"the only.\" ✅"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "What does \"where\" replace in formal English?",
+      "text": "\"The laboratory where she worked\" = \"the laboratory ___ she worked.\"",
+      "opts": [
+        "that",
+        "in which",
+        "at which",
+        "Both \"in which\" and \"at which\" are possible depending on context"
+      ],
+      "correct": "Both \"in which\" and \"at which\" are possible depending on context",
+      "hint": "\"In which she worked\" (worked in the lab) ✅ / \"at which she worked\" (worked at the lab) ✅ — depends on the preposition. ✅"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Defining relative clauses:",
+      "opts": [
+        "Always have commas",
+        "Never have commas — they are essential for meaning",
+        "Can have commas or not",
+        "Only use \"which\""
+      ],
+      "correct": "Never have commas — they are essential for meaning",
+      "hint": "Defining = no commas. The clause is ESSENTIAL for identifying the noun. ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The book that she wrote\" — can \"that\" be omitted?",
+      "opts": [
+        "No — never",
+        "Yes — \"she\" is the subject; \"that\" = object → can omit",
+        "\"That\" is always obligatory",
+        "Only in formal writing"
+      ],
+      "correct": "Yes — \"she\" is the subject; \"that\" = object → can omit",
+      "hint": "\"she\" follows \"that\" = she is the subject. \"That\" = object position → can omit. \"The book she wrote.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The book that changed her mind\" — can \"that\" be omitted?",
+      "opts": [
+        "Yes — always omit",
+        "No — \"that\" is the subject of \"changed\"",
+        "Only informally",
+        "\"Which\" must replace it first"
+      ],
+      "correct": "No — \"that\" is the subject of \"changed\"",
+      "hint": "\"That\" = subject of \"changed\" → CANNOT omit. No other subject follows. ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The student ___ essay won is from Karagandy.\" (possessive)",
+      "correct": "whose",
+      "hint": "\"Whose essay won.\" — WHOSE = possessive. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The year when she graduated\" — \"when\" because:",
+      "opts": [
+        "She graduated",
+        "\"Year\" needs \"when\"",
+        "Time noun → WHEN (not \"where\" or \"which\")",
+        "\"When\" is more formal"
+      ],
+      "correct": "Time noun → WHEN (not \"where\" or \"which\")",
+      "hint": "\"WHEN\" after time nouns (year, moment, day, time). ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The place what she visited.\" — error:",
+      "opts": [
+        "Nothing",
+        "\"What\" is not a relative pronoun — should be \"which\" or \"that\"",
+        "\"Visited\" should be \"visits\"",
+        "\"Place\" should be \"spot\""
+      ],
+      "correct": "\"What\" is not a relative pronoun — should be \"which\" or \"that\"",
+      "hint": "✅ \"The place WHICH she visited.\" / \"The place THAT she visited.\" — \"what\" = NOT a relative pronoun. ✅"
+    },
+    {
+      "id": "q7",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The scientist who discovered X\" vs \"The scientist that discovered X\":",
+      "opts": [
+        "Only \"who\" is correct",
+        "Only \"that\" is correct",
+        "Both are correct; \"who\" is preferred in formal writing",
+        "\"That\" is wrong for people"
+      ],
+      "correct": "Both are correct; \"who\" is preferred in formal writing",
+      "hint": "\"Who\" preferred for people (formal). \"That\" also acceptable, especially in speech. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"In which\" is the formal equivalent of:",
+      "opts": [
+        "whom",
+        "where",
+        "whose",
+        "when"
+      ],
+      "correct": "where",
+      "hint": "\"The room IN WHICH we met.\" = \"The room WHERE we met.\" ✅ \"In which\" = formal \"where.\" ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The building whose windows broke.\" — whose here:",
+      "opts": [
+        "Is wrong — should be \"which\"",
+        "Shows possession: the windows belong to the building",
+        "Is only for people",
+        "Requires commas"
+      ],
+      "correct": "Shows possession: the windows belong to the building",
+      "hint": "\"WHOSE\" = possessive relative, for people AND things. The windows are the building's. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "When is \"that\" especially natural in a defining clause?",
+      "opts": [
+        "Never",
+        "After superlatives (\"the best that...\") and \"the only\"",
+        "Only in informal speech",
+        "When \"which\" would be wrong"
+      ],
+      "correct": "After superlatives (\"the best that...\") and \"the only\"",
+      "hint": "\"The best student THAT the department has had.\" / \"The only one THAT passed.\" — \"that\" very natural. ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The scientist who he discovered radium.\" — Error:",
+      "opts": [
+        "Nothing",
+        "Remove \"he\" — the relative pronoun IS the subject; \"he\" creates a double subject",
+        "\"Radium\" is wrong",
+        "\"Won\" is needed"
+      ],
+      "correct": "Remove \"he\" — the relative pronoun IS the subject; \"he\" creates a double subject",
+      "hint": "✅ \"The scientist WHO discovered radium.\" — \"who\" = subject. Don't add \"he.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Whose\" differs from other relative pronouns because:",
+      "opts": [
+        "It can't be omitted",
+        "It shows possession and links noun to what belongs to it",
+        "It only refers to people",
+        "It always uses commas"
+      ],
+      "correct": "It shows possession and links noun to what belongs to it",
+      "hint": "\"Whose\" = possessive. \"The student WHOSE essay won.\" = the student's essay. ✅"
+    }
+  ]
+}

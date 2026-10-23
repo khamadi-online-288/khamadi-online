@@ -1,0 +1,979 @@
+{
+  "id": "l17-1",
+  "moduleNum": 1,
+  "lessonNum": 1,
+  "moduleTitle": "Abilities & Skills",
+  "title": "What can you do?",
+  "type": "reading",
+  "xp": 60,
+  "duration": 20,
+  "paragraphs": [
+    "My name is Kamila Seitkali. I am a second-year student at West Kazakhstan University named after Makhambет Utemisov (WKU) in Uralsk. This semester, my English teacher gave our class an interesting task: \"Write a short text about what you CAN do and what you CANNOT do.\" At first, I thought it was a simple task. But when I started writing, I realised that I have more skills than I thought!",
+    "Let me start with languages. I can speak three languages: Kazakh, Russian, and English. I can speak Kazakh and Russian very well because they are my native languages. My English is not perfect yet, but I can understand most conversations, and I can write emails and short essays. I can also read English books — slowly, but I can do it! My dream is to speak English as fluently as a native speaker.",
+    "I can also play the dombra — a traditional Kazakh musical instrument with two strings. I learned it when I was eight years old. My grandfather taught me. I can play about twenty traditional Kazakh songs. Unfortunately, I cannot play the piano or the guitar. But music is in my heart, and I want to learn the guitar next year.",
+    "My best friend at WKU is Amir Bekzhanov. He is from Aktobe and he is studying Computer Science. Amir is very talented. He can program in three languages: Python, Java, and C++. He can create websites and mobile applications. Amir can also fix any computer or phone. Everybody in our group calls him \"The Tech Wizard!\" He cannot cook anything except instant noodles, though — which makes us laugh every time.",
+    "Our classmate Zhibek is a dancer. She can perform traditional Kazakh dances beautifully. She can also do gymnastics and yoga. Zhibek trains for two hours every day after classes. Another classmate, Rustam, is an excellent football player. He can run very fast and he can kick the ball with both his right foot and his left foot. He can also swim and play volleyball.",
+    "At university, we have the opportunity to learn new skills. I am learning to drive a car — but I cannot drive yet! I also started cooking lessons because I cannot cook well. My mother is a wonderful cook, but I cannot even make a proper bowl of soup! I want to change that this year. Learning new skills is exciting and sometimes a little frightening, but it is always worth it.",
+    "There are some things I cannot do but I want to learn: I cannot draw well — my drawings look like something a small child made. I cannot sing in tune — my friends always ask me to stop! And I cannot wake up easily in the morning — 7:30 am classes are a real challenge for me. But these are my goals for self-improvement this year.",
+    "I believe that every person has special abilities. Some people can run fast, some can think creatively, some can talk to anyone and make friends easily. The most important thing is to know your strengths and to keep developing them. And if there is something you cannot do today — practise, be patient, and one day you will say: \"I can!\""
+  ],
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Amir, can you help me with my computer? It's very slow.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Of course! I can look at it right now. What's the problem?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "I don't know exactly. Can you fix it?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Yes, I can. It needs more memory. I can install it in ten minutes.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "You're amazing! Can you teach me about computers too?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Sure! I can teach you the basics. Can you come on Saturday?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, I can! Can we meet at the library?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "Perfect. By the way, can you play the dombra? I heard you play!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Yes, I can! I can play twenty songs. Can you play any instrument?",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "No, I can't. I can't play music at all. But I can code!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Ha! You can fix computers, but you can't cook or play music!",
+      "isLeft": true
+    },
+    {
+      "speaker": "Amir",
+      "text": "True! We all have different abilities. That's what makes us a good team!",
+      "isLeft": false
+    }
+  ],
+  "keyPhrases": [
+    {
+      "phrase": "I can...",
+      "ru": "Я умею... / Я могу...",
+      "context": "I can speak three languages."
+    },
+    {
+      "phrase": "I can't / I cannot...",
+      "ru": "Я не умею... / Я не могу...",
+      "context": "I cannot play the guitar."
+    },
+    {
+      "phrase": "Can you...?",
+      "ru": "Ты умеешь...? / Ты можешь...?",
+      "context": "Can you help me with my computer?"
+    },
+    {
+      "phrase": "Yes, I can. / No, I can't.",
+      "ru": "Да, могу. / Нет, не могу.",
+      "context": "Can you fix it? — Yes, I can."
+    },
+    {
+      "phrase": "She / He can...",
+      "ru": "Она / Он умеет...",
+      "context": "She can perform traditional Kazakh dances."
+    },
+    {
+      "phrase": "I want to learn...",
+      "ru": "Я хочу научиться...",
+      "context": "I want to learn the guitar next year."
+    },
+    {
+      "phrase": "I am learning to...",
+      "ru": "Я учусь...",
+      "context": "I am learning to drive a car."
+    },
+    {
+      "phrase": "He / She cannot...",
+      "ru": "Он / Она не умеет...",
+      "context": "He cannot cook anything except instant noodles."
+    },
+    {
+      "phrase": "It is always worth it.",
+      "ru": "Оно того всегда стоит.",
+      "context": "Learning new skills is always worth it."
+    },
+    {
+      "phrase": "Keep developing them.",
+      "ru": "Продолжай их развивать.",
+      "context": "Know your strengths and keep developing them."
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "ability",
+      "emoji": "💪",
+      "opts": [
+        "умение",
+        "расписание",
+        "задание",
+        "оценка"
+      ],
+      "correct": "умение"
+    },
+    {
+      "id": "p2",
+      "word": "fluently",
+      "emoji": "🗣️",
+      "opts": [
+        "медленно",
+        "бегло",
+        "громко",
+        "тихо"
+      ],
+      "correct": "бегло"
+    },
+    {
+      "id": "p3",
+      "word": "talented",
+      "emoji": "🌟",
+      "opts": [
+        "усталый",
+        "занятой",
+        "талантливый",
+        "грустный"
+      ],
+      "correct": "талантливый"
+    },
+    {
+      "id": "p4",
+      "word": "instrument",
+      "emoji": "🎵",
+      "opts": [
+        "инструмент",
+        "упражнение",
+        "предмет",
+        "язык"
+      ],
+      "correct": "инструмент"
+    },
+    {
+      "id": "p5",
+      "word": "opportunity",
+      "emoji": "🚪",
+      "opts": [
+        "проблема",
+        "возможность",
+        "трудность",
+        "задача"
+      ],
+      "correct": "возможность"
+    },
+    {
+      "id": "p6",
+      "word": "strength",
+      "emoji": "🏋️",
+      "opts": [
+        "слабость",
+        "привычка",
+        "сила",
+        "цель"
+      ],
+      "correct": "сила"
+    }
+  ],
+  "task1Bank": [
+    "three",
+    "dombra",
+    "Python, Java, and C++",
+    "Aktobe",
+    "drive",
+    "Kazakh songs"
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila can speak ___ languages.",
+      "correct": "three"
+    },
+    {
+      "id": "t2",
+      "question": "She can play the ___ — a traditional Kazakh instrument.",
+      "correct": "dombra"
+    },
+    {
+      "id": "t3",
+      "question": "Amir can program in ___ .",
+      "correct": "Python, Java, and C++"
+    },
+    {
+      "id": "t4",
+      "question": "Amir is from ___.",
+      "correct": "Aktobe"
+    },
+    {
+      "id": "t5",
+      "question": "Kamila is learning to ___ a car.",
+      "correct": "drive"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila can play about twenty traditional ___.",
+      "correct": "Kazakh songs"
+    }
+  ],
+  "task2Items": [
+    {
+      "id": "f1",
+      "statement": "Kamila is a first-year student at WKU.",
+      "correct": "false"
+    },
+    {
+      "id": "f2",
+      "statement": "Kamila can speak Kazakh, Russian, and English.",
+      "correct": "true"
+    },
+    {
+      "id": "f3",
+      "statement": "Amir can play the dombra very well.",
+      "correct": "false"
+    },
+    {
+      "id": "f4",
+      "statement": "Zhibek can perform traditional Kazakh dances.",
+      "correct": "true"
+    },
+    {
+      "id": "f5",
+      "statement": "Kamila can already cook very well.",
+      "correct": "false"
+    },
+    {
+      "id": "f6",
+      "statement": "Rustam can kick the ball with both his right and left foot.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "vocab": [
+    {
+      "en": "ability",
+      "ipa": "/əˈbɪlɪti/",
+      "pos": "noun",
+      "ru": "умение, способность",
+      "kz": "қабілет",
+      "emoji": "💪",
+      "definition": "the skill or power to do something",
+      "example": "Every person has special abilities.",
+      "collocations": [
+        "natural ability",
+        "develop an ability",
+        "have the ability to"
+      ]
+    },
+    {
+      "en": "fluently",
+      "ipa": "/ˈfluːəntli/",
+      "pos": "adverb",
+      "ru": "бегло",
+      "kz": "еркін",
+      "emoji": "🗣️",
+      "definition": "in a smooth, natural, and confident way",
+      "example": "I want to speak English fluently.",
+      "collocations": [
+        "speak fluently",
+        "read fluently",
+        "write fluently"
+      ]
+    },
+    {
+      "en": "talented",
+      "ipa": "/ˈtæləntɪd/",
+      "pos": "adjective",
+      "ru": "талантливый",
+      "kz": "дарынды",
+      "emoji": "🌟",
+      "definition": "having a natural skill or ability in something",
+      "example": "Amir is a very talented programmer.",
+      "collocations": [
+        "highly talented",
+        "talented student",
+        "naturally talented"
+      ]
+    },
+    {
+      "en": "instrument",
+      "ipa": "/ˈɪnstrəmənt/",
+      "pos": "noun",
+      "ru": "музыкальный инструмент",
+      "kz": "аспап",
+      "emoji": "🎵",
+      "definition": "an object used to produce music",
+      "example": "The dombra is a traditional Kazakh instrument.",
+      "collocations": [
+        "musical instrument",
+        "play an instrument",
+        "learn an instrument"
+      ]
+    },
+    {
+      "en": "traditional",
+      "ipa": "/trəˈdɪʃənl/",
+      "pos": "adjective",
+      "ru": "традиционный",
+      "kz": "дәстүрлі",
+      "emoji": "🏛️",
+      "definition": "following customs and ideas that have existed for a long time",
+      "example": "She can perform traditional Kazakh dances.",
+      "collocations": [
+        "traditional music",
+        "traditional food",
+        "traditional culture"
+      ]
+    },
+    {
+      "en": "opportunity",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "pos": "noun",
+      "ru": "возможность",
+      "kz": "мүмкіндік",
+      "emoji": "🚪",
+      "definition": "a chance to do something good or useful",
+      "example": "University gives us the opportunity to learn.",
+      "collocations": [
+        "great opportunity",
+        "take an opportunity",
+        "miss an opportunity"
+      ]
+    },
+    {
+      "en": "strength",
+      "ipa": "/streŋθ/",
+      "pos": "noun",
+      "ru": "сила, сильная сторона",
+      "kz": "күш",
+      "emoji": "🏋️",
+      "definition": "a positive quality or skill that someone has",
+      "example": "Know your strengths and develop them.",
+      "collocations": [
+        "personal strength",
+        "build strength",
+        "use your strength"
+      ]
+    },
+    {
+      "en": "practise",
+      "ipa": "/ˈpræktɪs/",
+      "pos": "verb",
+      "ru": "практиковаться",
+      "kz": "жаттығу",
+      "emoji": "🔁",
+      "definition": "to do something regularly to improve your skill",
+      "example": "Practise every day and you will improve.",
+      "collocations": [
+        "practise English",
+        "practise regularly",
+        "practise hard"
+      ]
+    },
+    {
+      "en": "creative",
+      "ipa": "/kriˈeɪtɪv/",
+      "pos": "adjective",
+      "ru": "творческий",
+      "kz": "шығармашыл",
+      "emoji": "🎨",
+      "definition": "able to produce new and interesting ideas",
+      "example": "She is small, energetic, and very creative.",
+      "collocations": [
+        "creative person",
+        "creative thinking",
+        "very creative"
+      ]
+    },
+    {
+      "en": "improve",
+      "ipa": "/ɪmˈpruːv/",
+      "pos": "verb",
+      "ru": "улучшать(ся)",
+      "kz": "жақсарту",
+      "emoji": "📈",
+      "definition": "to become or make something better",
+      "example": "My main goal is to improve my English.",
+      "collocations": [
+        "improve your skills",
+        "improve quickly",
+        "keep improving"
+      ]
+    },
+    {
+      "en": "challenge",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "pos": "noun",
+      "ru": "испытание, вызов",
+      "kz": "қиындық",
+      "emoji": "⚡",
+      "definition": "something difficult that requires effort and determination",
+      "example": "7:30 am classes are a real challenge for me.",
+      "collocations": [
+        "real challenge",
+        "face a challenge",
+        "meet the challenge"
+      ]
+    },
+    {
+      "en": "native",
+      "ipa": "/ˈneɪtɪv/",
+      "pos": "adjective",
+      "ru": "родной",
+      "kz": "туған",
+      "emoji": "🏠",
+      "definition": "relating to the country or language you were born into",
+      "example": "My native language is Kazakh.",
+      "collocations": [
+        "native language",
+        "native speaker",
+        "native country"
+      ]
+    },
+    {
+      "en": "unfortunately",
+      "ipa": "/ʌnˈfɔːrtʃənɪtli/",
+      "pos": "adverb",
+      "ru": "к сожалению",
+      "kz": "өкінішке орай",
+      "emoji": "😔",
+      "definition": "used when you feel sad or disappointed about something",
+      "example": "Unfortunately, I cannot play the piano.",
+      "collocations": [
+        "unfortunately not",
+        "unfortunately I can't",
+        "unfortunately however"
+      ]
+    },
+    {
+      "en": "develop",
+      "ipa": "/dɪˈveləp/",
+      "pos": "verb",
+      "ru": "развивать(ся)",
+      "kz": "дамыту",
+      "emoji": "🌱",
+      "definition": "to grow or make something grow stronger over time",
+      "example": "Keep developing your special abilities.",
+      "collocations": [
+        "develop skills",
+        "develop talent",
+        "develop quickly"
+      ]
+    },
+    {
+      "en": "gymnastics",
+      "ipa": "/dʒɪmˈnæstɪks/",
+      "pos": "noun",
+      "ru": "гимнастика",
+      "kz": "гимнастика",
+      "emoji": "🤸",
+      "definition": "a sport involving physical exercises that need balance",
+      "example": "Zhibek can do gymnastics and yoga.",
+      "collocations": [
+        "do gymnastics",
+        "gymnastics class",
+        "gymnastics training"
+      ]
+    },
+    {
+      "en": "wizard",
+      "ipa": "/ˈwɪzəd/",
+      "pos": "noun",
+      "ru": "волшебник, мастер",
+      "kz": "шебер",
+      "emoji": "🧙",
+      "definition": "a person who is extremely skilled at something",
+      "example": "Everybody calls Amir \"The Tech Wizard\".",
+      "collocations": [
+        "tech wizard",
+        "absolute wizard",
+        "wizard at something"
+      ]
+    },
+    {
+      "en": "frightening",
+      "ipa": "/ˈfraɪtnɪŋ/",
+      "pos": "adjective",
+      "ru": "пугающий",
+      "kz": "қорқынышты",
+      "emoji": "😨",
+      "definition": "making you feel afraid or nervous",
+      "example": "Learning new skills is sometimes frightening.",
+      "collocations": [
+        "a bit frightening",
+        "quite frightening",
+        "frightening experience"
+      ]
+    },
+    {
+      "en": "tune",
+      "ipa": "/tjuːn/",
+      "pos": "noun",
+      "ru": "мелодия, нота",
+      "kz": "ән үні",
+      "emoji": "🎼",
+      "definition": "the correct musical pitch of a note or song",
+      "example": "I cannot sing in tune at all!",
+      "collocations": [
+        "in tune",
+        "out of tune",
+        "sing in tune"
+      ]
+    },
+    {
+      "en": "perform",
+      "ipa": "/pəˈfɔːrm/",
+      "pos": "verb",
+      "ru": "выступать, исполнять",
+      "kz": "орындау",
+      "emoji": "🎭",
+      "definition": "to do an activity such as a dance or music in front of people",
+      "example": "She can perform traditional dances on stage.",
+      "collocations": [
+        "perform a dance",
+        "perform well",
+        "perform on stage"
+      ]
+    },
+    {
+      "en": "self-improvement",
+      "ipa": "/ˌself ɪmˈpruːvmənt/",
+      "pos": "noun",
+      "ru": "саморазвитие",
+      "kz": "өзін-өзі дамыту",
+      "emoji": "🎯",
+      "definition": "the process of making yourself better through your own efforts",
+      "example": "These are my goals for self-improvement.",
+      "collocations": [
+        "self-improvement goal",
+        "path of self-improvement",
+        "focus on self-improvement"
+      ]
+    }
+  ],
+  "grammarTitle": "can / can't — expressing ability",
+  "grammarNote": "Модальный глагол CAN используется для выражения способности или умения что-то делать. Это один из самых важных глаголов в английском языке. После CAN всегда стоит инфинитив (основная форма глагола) БЕЗ \"to\". Глагол CAN одинаков для всех лиц — он никогда не меняет форму.",
+  "grammarTable": [
+    {
+      "subject": "I",
+      "verb": "can",
+      "short": "I can",
+      "example": "I can speak three languages. · I can play the dombra."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "can",
+      "short": "She can",
+      "example": "She can dance beautifully. · He can code in Python."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "can",
+      "short": "They can",
+      "example": "They can play football. · We can learn new skills."
+    },
+    {
+      "subject": "I",
+      "verb": "can't",
+      "short": "can't",
+      "example": "I can't drive yet. · I can't sing in tune."
+    },
+    {
+      "subject": "He / She / It",
+      "verb": "can't",
+      "short": "He can't",
+      "example": "He can't cook. · She can't play the guitar."
+    },
+    {
+      "subject": "You / We / They",
+      "verb": "can't",
+      "short": "can't",
+      "example": "We can't do everything. · They can't speak French."
+    },
+    {
+      "subject": "Can + subject",
+      "verb": "+ verb",
+      "short": "Can you?",
+      "example": "Can you help me? · Can she play? · Can they fix it?"
+    },
+    {
+      "subject": "Short answers",
+      "verb": "Yes / No",
+      "short": "✓ / ✗",
+      "example": "Yes, I can. / No, I can't. · Yes, she can. / No, he can't."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Affirmative (утверждение)",
+      "color": "#16A34A",
+      "bg": "#F0FDF4",
+      "border": "#86EFAC",
+      "rows": [
+        {
+          "form": "I can swim.",
+          "example": "I can swim very fast."
+        },
+        {
+          "form": "She can speak French.",
+          "example": "She can speak French and German."
+        },
+        {
+          "form": "They can dance.",
+          "example": "They can dance traditional dances."
+        },
+        {
+          "form": "He can play the guitar.",
+          "example": "He can play five instruments."
+        },
+        {
+          "form": "We can help you.",
+          "example": "We can help you with the project."
+        },
+        {
+          "form": "It can connect to Wi-Fi.",
+          "example": "This phone can connect to any network."
+        }
+      ]
+    },
+    {
+      "title": "Negative (отрицание)",
+      "color": "#EF4444",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "I can't / cannot drive.",
+          "example": "I can't drive — I don't have a licence."
+        },
+        {
+          "form": "She can't cook well.",
+          "example": "She can't cook, but she tries every day."
+        },
+        {
+          "form": "He can't sing in tune.",
+          "example": "He can't sing at all — it's very funny!"
+        },
+        {
+          "form": "We can't be late.",
+          "example": "We can't be late for the exam."
+        },
+        {
+          "form": "They can't speak Russian.",
+          "example": "They can't speak Russian, only Kazakh."
+        },
+        {
+          "form": "It can't connect here.",
+          "example": "My laptop can't connect to this Wi-Fi."
+        }
+      ]
+    },
+    {
+      "title": "Questions (вопросы)",
+      "color": "#1B8FC4",
+      "bg": "#EFF6FF",
+      "border": "#BFDBFE",
+      "rows": [
+        {
+          "form": "Can you help me?",
+          "example": "Can you help me with this exercise?"
+        },
+        {
+          "form": "Can she play the piano?",
+          "example": "Can she play the piano? — Yes, she can!"
+        },
+        {
+          "form": "Can they speak English?",
+          "example": "Can they speak English fluently?"
+        },
+        {
+          "form": "What can you do?",
+          "example": "What can you do? Tell me about your skills."
+        },
+        {
+          "form": "How well can she dance?",
+          "example": "How well can she dance? — Very well!"
+        },
+        {
+          "form": "Why can't he cook?",
+          "example": "Why can't he cook? — He never learned."
+        }
+      ]
+    },
+    {
+      "title": "Common mistakes (типичные ошибки)",
+      "color": "#7C3AED",
+      "bg": "#F5F3FF",
+      "border": "#DDD6FE",
+      "rows": [
+        {
+          "form": "❌ She cans speak English.",
+          "example": "✅ She can speak English. (NO -s after can!)"
+        },
+        {
+          "form": "❌ I can to swim.",
+          "example": "✅ I can swim. (NO \"to\" after can!)"
+        },
+        {
+          "form": "❌ He can speaks French.",
+          "example": "✅ He can speak French. (NO -s on verb!)"
+        },
+        {
+          "form": "❌ Can you to help me?",
+          "example": "✅ Can you help me? (NO \"to\" in questions!)"
+        }
+      ]
+    }
+  ],
+  "grammarTip": "CAN никогда не меняет форму: I can · She can · They can (НЕ \"she cans\"!)\nПосле CAN всегда голый инфинитив: I can swim · She can dance (НЕ \"can to swim\", НЕ \"can swimming\"!)\nОтрицание: can + not = cannot (formal) = can't (spoken)\nCAN'T произносится /kɑːnt/ — очень чётко, не путай с \"can\" /kæn/ в вопросах.",
+  "exercises": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many languages can Kamila speak?",
+      "opts": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correct": "Three",
+      "hint": "\"I can speak three languages: Kazakh, Russian, and English.\""
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Which traditional instrument can Kamila play?",
+      "opts": [
+        "Guitar",
+        "Piano",
+        "Dombra",
+        "Violin"
+      ],
+      "correct": "Dombra",
+      "hint": "\"I can play the dombra — a traditional Kazakh instrument.\""
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What programming languages can Amir use?",
+      "opts": [
+        "Python and Java",
+        "Python, Java, and C++",
+        "Java and C++",
+        "Python and C#"
+      ],
+      "correct": "Python, Java, and C++",
+      "hint": "\"He can program in three languages: Python, Java, and C++.\""
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Amir is a student of English Literature.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Amir studies Computer Science."
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What can Zhibek do?",
+      "opts": [
+        "Play the dombra",
+        "Code websites",
+        "Perform traditional Kazakh dances",
+        "Fix computers"
+      ],
+      "correct": "Perform traditional Kazakh dances",
+      "hint": "\"Zhibek can perform traditional Kazakh dances beautifully.\""
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Kamila can already drive a car.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "\"I am learning to drive a car — but I cannot drive yet!\""
+    },
+    {
+      "id": "q7",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does Kamila say about her cooking?",
+      "opts": [
+        "She cooks very well",
+        "She can't even make a proper bowl of soup",
+        "She doesn't like cooking",
+        "Her father taught her"
+      ],
+      "correct": "She can't even make a proper bowl of soup",
+      "hint": "\"I cannot even make a proper bowl of soup!\""
+    },
+    {
+      "id": "q8",
+      "cat": "reading",
+      "points": 10,
+      "type": "tf",
+      "text": "Rustam can kick the ball with both feet.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "True",
+      "hint": "\"He can kick the ball with both his right foot and his left foot.\""
+    },
+    {
+      "id": "q9",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What nickname does the group give Amir?",
+      "opts": [
+        "The Music Wizard",
+        "The Tech Wizard",
+        "The Maths Wizard",
+        "The Language Wizard"
+      ],
+      "correct": "The Tech Wizard",
+      "hint": "\"Everybody in our group calls him 'The Tech Wizard!'\""
+    },
+    {
+      "id": "q10",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "How many traditional Kazakh songs can Kamila play on dombra?",
+      "opts": [
+        "Ten",
+        "Fifteen",
+        "Twenty",
+        "Thirty"
+      ],
+      "correct": "Twenty",
+      "hint": "\"I can play about twenty traditional Kazakh songs.\""
+    },
+    {
+      "id": "q11",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "She ___ speak three languages fluently.",
+      "correct": "can",
+      "hint": "Ability in the present → can."
+    },
+    {
+      "id": "q12",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "Which sentence is CORRECT?",
+      "opts": [
+        "He cans code very well.",
+        "He can codes very well.",
+        "He can code very well.",
+        "He can to code very well."
+      ],
+      "correct": "He can code very well.",
+      "hint": "CAN + bare infinitive. No -s, no \"to\"."
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "I ___ drive a car yet — I'm still learning.",
+      "correct": "can't",
+      "hint": "Negative ability → can't."
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "How do you ask about someone's ability?",
+      "opts": [
+        "Does she can swim?",
+        "Is she can swim?",
+        "Can she swim?",
+        "She can swim?"
+      ],
+      "correct": "Can she swim?",
+      "hint": "Questions: Can + subject + verb."
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "tf",
+      "text": "\"Can you to play the dombra?\" is correct.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Never use \"to\" after can: Can you play?"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "___ you help me with the computer?",
+      "correct": "Can",
+      "hint": "Questions start with Can + subject."
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "id": "l62-5",
+  "moduleNum": 4,
+  "lessonNum": 9,
+  "moduleTitle": "The Passive in All Tenses",
+  "type": "test",
+  "title": "Module 4 Final Test",
+  "xp": 120,
+  "duration": 75,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "exercises": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "questions": [
+    {
+      "id": "q1",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why is passive natural in news writing?",
+      "opts": [
+        "It sounds more educated",
+        "News focuses on events/victims; agent is often unknown or irrelevant",
+        "Active is harder to write",
+        "Editors prefer it"
+      ],
+      "correct": "News focuses on events/victims; agent is often unknown or irrelevant",
+      "hint": "\"News stories are focused on the event or its victim, not the agent.\" ✅"
+    },
+    {
+      "id": "q2",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What does \"get passive\" emphasise vs \"be passive\"?",
+      "opts": [
+        "Get = formal; be = informal",
+        "Get = the subject's experience (often surprise/inconvenience); be = neutral",
+        "No difference",
+        "Be = experiential; get = neutral"
+      ],
+      "correct": "Get = the subject's experience (often surprise/inconvenience); be = neutral",
+      "hint": "\"Get passive emphasises the subject's experience — often with overtones of surprise or inconvenience.\" ✅"
+    },
+    {
+      "id": "q3",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Why do scientists use passive in research reports?",
+      "opts": [
+        "It sounds more prestigious",
+        "The researcher's identity is genuinely irrelevant to the findings",
+        "It's required by law",
+        "Active voice is too informal"
+      ],
+      "correct": "The researcher's identity is genuinely irrelevant to the findings",
+      "hint": "\"This is not because passive sounds more prestigious — it is because the researcher's identity is genuinely irrelevant to the findings.\" ✅"
+    },
+    {
+      "id": "q4",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "What can passive voice hide in institutional contexts?",
+      "opts": [
+        "Technical errors",
+        "Accountability — who made errors or decisions",
+        "The findings",
+        "The date of publication"
+      ],
+      "correct": "Accountability — who made errors or decisions",
+      "hint": "\"'Mistakes were made' — passive hides the agent who made the error.\" Political use of passive. ✅"
+    },
+    {
+      "id": "q5",
+      "cat": "reading",
+      "points": 10,
+      "type": "fill",
+      "text": "\"It ___ (establish) that smoking causes cancer.\" — impersonal passive",
+      "correct": "has been established",
+      "hint": "\"IT HAS BEEN ESTABLISHED THAT smoking causes cancer.\" — PPS impersonal passive for scientific consensus. ✅"
+    },
+    {
+      "id": "q6",
+      "cat": "reading",
+      "points": 10,
+      "type": "mc",
+      "text": "Kamila says passive is appropriate for the \"policy\" essay because:",
+      "opts": [
+        "Passive is always better in economics",
+        "The essay is about the policy, not the government — passive puts policy first",
+        "Government is unimportant",
+        "Active would be grammatically wrong"
+      ],
+      "correct": "The essay is about the policy, not the government — passive puts policy first",
+      "hint": "\"What are you writing about — the policy? Then passive: 'The policy was implemented.'\""
+    },
+    {
+      "id": "q7",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What happened to Kamila in Listening 1?",
+      "opts": [
+        "She missed a meeting",
+        "She got caught in a 3-hour meeting",
+        "She broke the equipment",
+        "She presented a proposal"
+      ],
+      "correct": "She got caught in a 3-hour meeting",
+      "hint": "\"I got caught in a meeting that lasted three hours.\" — get passive emphasising her experience. ✅"
+    },
+    {
+      "id": "q8",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is happening to Amir's name?",
+      "opts": [
+        "Being removed from records",
+        "Getting put on the documentation",
+        "Being kept secret",
+        "Not included anywhere"
+      ],
+      "correct": "Getting put on the documentation",
+      "hint": "\"His name is getting put on the documentation.\" — get passive Present Continuous. ✅"
+    },
+    {
+      "id": "q9",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What is currently being evaluated in the senate meeting?",
+      "opts": [
+        "Budget options",
+        "Staff members",
+        "Three platform vendors",
+        "Student proposals"
+      ],
+      "correct": "Three platform vendors",
+      "hint": "\"Three vendors are being evaluated.\" — Present Continuous Passive. ✅"
+    },
+    {
+      "id": "q10",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "How was the student union's input treated?",
+      "opts": [
+        "Ignored",
+        "Incorporated into the proposal; two suggestions adopted directly",
+        "Used only partially",
+        "Published separately"
+      ],
+      "correct": "Incorporated into the proposal; two suggestions adopted directly",
+      "hint": "\"Their input was incorporated... Two of their suggestions have been adopted directly.\" ✅"
+    },
+    {
+      "id": "q11",
+      "cat": "listening",
+      "points": 10,
+      "type": "mc",
+      "text": "What outcome did the senate vote produce?",
+      "opts": [
+        "Rejected",
+        "Deferred",
+        "Approved in principle",
+        "Approved for immediate implementation"
+      ],
+      "correct": "Approved in principle",
+      "hint": "\"The motion has been carried. The proposal is approved in principle.\" ✅"
+    },
+    {
+      "id": "q12",
+      "cat": "listening",
+      "points": 10,
+      "type": "fill",
+      "text": "\"A provisional budget ___ (propose). The figure ___ (confirm) later.\"",
+      "correct": "has been proposed / will be confirmed",
+      "hint": "\"A provisional budget HAS BEEN PROPOSED. The figure WILL BE CONFIRMED.\" ✅"
+    },
+    {
+      "id": "q13",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The system is being redesigned.\" — Tense:",
+      "opts": [
+        "PS Passive",
+        "PC Passive",
+        "PPS",
+        "Future"
+      ],
+      "correct": "PC Passive",
+      "hint": "\"is being redesigned\" = is/are + being + pp = Present Continuous Passive. ✅"
+    },
+    {
+      "id": "q14",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"The policy ___ (introduce) in 2018 and ___ (not / update) since.\"",
+      "correct": "was introduced / has not been updated",
+      "hint": "\"WAS INTRODUCED\" (PS Passive) + \"HAS NOT BEEN UPDATED\" (PPS negative). ✅"
+    },
+    {
+      "id": "q15",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The data was being processed when the error occurred.\" — \"was being processed\" shows:",
+      "opts": [
+        "Completed past",
+        "Earlier past",
+        "Ongoing background action at past moment",
+        "Future plan"
+      ],
+      "correct": "Ongoing background action at past moment",
+      "hint": "Past Continuous Passive = ongoing at a past moment (interrupted by \"occurred\"). ✅"
+    },
+    {
+      "id": "q16",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"She got fired last month.\" — Why \"got\" not \"was\"?",
+      "opts": [
+        "Grammar rule",
+        "More formal",
+        "Emphasises her experience; informal; often implies unexpectedness",
+        "No difference"
+      ],
+      "correct": "Emphasises her experience; informal; often implies unexpectedness",
+      "hint": "\"Get passive\" emphasises subject's experience + is informal. \"Got fired\" = more experiential than \"was fired.\" ✅"
+    },
+    {
+      "id": "q17",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"He is believed to have left the country.\" — \"to have left\" is:",
+      "opts": [
+        "Simple infinitive",
+        "Perfect infinitive — leaving is past relative to present belief",
+        "Passive infinitive",
+        "Wrong form"
+      ],
+      "correct": "Perfect infinitive — leaving is past relative to present belief",
+      "hint": "\"to have left\" = perfect infinitive. Leaving happened BEFORE the present believing. ✅"
+    },
+    {
+      "id": "q18",
+      "cat": "grammar",
+      "points": 10,
+      "type": "fill",
+      "text": "\"She ___ her laptop ___ (repair) — it's ready now.\" (causative)",
+      "correct": "had / repaired",
+      "hint": "\"She HAD her laptop REPAIRED.\" — causative: have + obj + pp. Someone repaired it for her. ✅"
+    },
+    {
+      "id": "q19",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"It is recommended that the portal BE redesigned.\" — \"be\" because:",
+      "opts": [
+        "Future tense",
+        "Subjunctive after \"recommended that\"",
+        "\"be\" is always used with \"recommended\"",
+        "Passive infinitive"
+      ],
+      "correct": "Subjunctive after \"recommended that\"",
+      "hint": "\"recommend/suggest/propose + that + subject + base form (subjunctive).\" \"IT IS RECOMMENDED THAT X BE done.\" ✅"
+    },
+    {
+      "id": "q20",
+      "cat": "grammar",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The report was wrote by the team.\" — Error:",
+      "opts": [
+        "Nothing",
+        "\"wrote\" → \"written\" — past participle required",
+        "\"by the team\" must be removed",
+        "\"was\" → \"were\""
+      ],
+      "correct": "\"wrote\" → \"written\" — past participle required",
+      "hint": "✅ \"The report was WRITTEN by the team.\" — passive needs PAST PARTICIPLE. \"Wrote\" = past simple. ✅"
+    },
+    {
+      "id": "q21",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"These are deliberate choices.\" \"Deliberate\" means:",
+      "opts": [
+        "Accidental",
+        "Intentional and carefully considered",
+        "Complex",
+        "Historical"
+      ],
+      "correct": "Intentional and carefully considered",
+      "hint": "\"deliberate\" = done on purpose; fully thought through."
+    },
+    {
+      "id": "q22",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Passive is used to obscure accountability.\" \"Obscure\" means:",
+      "opts": [
+        "Clarify",
+        "Emphasise",
+        "Hide or make unclear",
+        "Support"
+      ],
+      "correct": "Hide or make unclear",
+      "hint": "\"obscure\" = to make something difficult to see; to hide."
+    },
+    {
+      "id": "q23",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Reproducible findings.\" \"Reproducible\" means:",
+      "opts": [
+        "Surprising",
+        "Unique",
+        "Able to be repeated with the same results",
+        "Published"
+      ],
+      "correct": "Able to be repeated with the same results",
+      "hint": "\"reproducible\" = results that hold true and can be replicated in other settings."
+    },
+    {
+      "id": "q24",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"Topic continuity.\" In news, \"topic continuity\" means:",
+      "opts": [
+        "Writing about one topic only",
+        "Keeping the same subject in topic position through a sequence",
+        "Avoiding passive",
+        "Short sentences"
+      ],
+      "correct": "Keeping the same subject in topic position through a sequence",
+      "hint": "\"Topic continuity — keeping that subject in topic position throughout — creates coherence.\" ✅"
+    },
+    {
+      "id": "q25",
+      "cat": "vocabulary",
+      "points": 10,
+      "type": "mc",
+      "text": "\"The get passive carries overtones of surprise.\" \"Overtones\" means:",
+      "opts": [
+        "Main meaning",
+        "Musical notes",
+        "Subtle qualities or implications beyond the main meaning",
+        "Official rules"
+      ],
+      "correct": "Subtle qualities or implications beyond the main meaning",
+      "hint": "\"overtones\" = subtle associations or feelings carried by words or structures beyond their literal meaning."
+    }
+  ]
+}

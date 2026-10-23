@@ -1,0 +1,518 @@
+{
+  "id": "l68-g1",
+  "moduleNum": 10,
+  "lessonNum": 5,
+  "moduleTitle": "Narrative Writing",
+  "title": "Grammar: Narrative Tenses — Past Simple, Past Continuous, Past Perfect",
+  "type": "grammar",
+  "xp": 90,
+  "duration": 60,
+  "paragraphs": [],
+  "dialogue": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "prepTasks": [],
+  "task1Bank": [],
+  "task1Items": [],
+  "task2Items": [],
+  "listenChars": [],
+  "listenStatements": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTip": "Три времени в нарративном письме работают вместе:\n\nPast Simple → основные события в хронологическом порядке:\n\"She arrived, sat down, and opened her notebook.\"\n\nPast Continuous → фоновые действия, атмосфера:\n\"The sun was setting. Students were leaving the library.\"\n\nPast Perfect → действие ДО основного события:\n\"She had already read the report before the meeting started.\"\n\n💡 Комбинируй все три для живого, профессионального нарратива:\n\"When she arrived, the meeting had already started. The professor was explaining something complex. She sat down quietly.\"",
+  "grammarTable": [
+    {
+      "subject": "Past Simple",
+      "verb": "verb + -ed / irregular",
+      "short": "main story events",
+      "example": "She opened the door. He said nothing. They left."
+    },
+    {
+      "subject": "Past Continuous",
+      "verb": "was/were + verb-ing",
+      "short": "background / scene",
+      "example": "The rain was falling. People were walking past."
+    },
+    {
+      "subject": "Past Perfect",
+      "verb": "had + past participle",
+      "short": "earlier event (before story time)",
+      "example": "She had grown up there. He had never seen her before."
+    },
+    {
+      "subject": "Past Perf. Cont.",
+      "verb": "had been + verb-ing",
+      "short": "ongoing action before story time",
+      "example": "She had been waiting for years. He had been living alone."
+    },
+    {
+      "subject": "Interruption",
+      "verb": "past cont. + when + past simple",
+      "short": "background interrupted by event",
+      "example": "She was reading when the phone rang."
+    },
+    {
+      "subject": "Sequence",
+      "verb": "past simple + past simple",
+      "short": "events in order",
+      "example": "He arrived. He looked around. He sat down."
+    }
+  ],
+  "grammarExtra": [
+    {
+      "title": "Using Past Simple: Main Events",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "border": "rgba(0,56,118,0.15)",
+      "rows": [
+        {
+          "form": "Completed actions in sequence",
+          "example": "She walked in, sat down, and opened her notebook."
+        },
+        {
+          "form": "Specific past events (with or without time reference)",
+          "example": "He called her three times. She never answered."
+        },
+        {
+          "form": "Dialogue reporting verb",
+          "example": "\"I can't stay,\" she said. He nodded and looked away."
+        }
+      ]
+    },
+    {
+      "title": "Using Past Continuous: Scene & Background",
+      "color": "#1D9E75",
+      "bg": "#E6F7F2",
+      "border": "rgba(29,158,117,0.2)",
+      "rows": [
+        {
+          "form": "Describing the setting / atmosphere",
+          "example": "The lights were flickering. Children were running outside."
+        },
+        {
+          "form": "Action in progress when main event occurs",
+          "example": "He was crossing the bridge when he saw her."
+        },
+        {
+          "form": "Two parallel background actions",
+          "example": "She was cooking while he was reading."
+        }
+      ]
+    },
+    {
+      "title": "Using Past Perfect: Backstory & Flashback",
+      "color": "#C9933B",
+      "bg": "#FEF6E8",
+      "border": "rgba(201,147,59,0.2)",
+      "rows": [
+        {
+          "form": "Event before the narrative present",
+          "example": "She had lived there for twenty years before leaving."
+        },
+        {
+          "form": "Explaining why / motivation",
+          "example": "He was nervous because he had failed once before."
+        },
+        {
+          "form": "Switch to past perfect, then back to past simple",
+          "example": "She had grown up here. Now she was returning. (back to past simple)"
+        }
+      ]
+    },
+    {
+      "title": "Narrative Time Connectors",
+      "color": "#1B8FC4",
+      "bg": "#E8F4FB",
+      "border": "rgba(27,143,196,0.2)",
+      "rows": [
+        {
+          "form": "Sequence: as soon as, the moment, immediately after",
+          "example": "As soon as she saw him, she turned away."
+        },
+        {
+          "form": "Simultaneity: while, as, at the same time as",
+          "example": "While she was talking, he was watching her carefully."
+        },
+        {
+          "form": "Just before/after: just as, no sooner … than, by the time",
+          "example": "No sooner had she sat down than the lights went out."
+        },
+        {
+          "form": "Earlier event: before, already, by then, previously",
+          "example": "By the time he arrived, she had already left."
+        }
+      ]
+    },
+    {
+      "title": "Common Errors in Narrative Tenses",
+      "color": "#DC2626",
+      "bg": "#FEF2F2",
+      "border": "#FECACA",
+      "rows": [
+        {
+          "form": "❌ Tense slip: present tense in a past narrative",
+          "example": "✅ She opened the door. ❌ She opens the door."
+        },
+        {
+          "form": "❌ Overusing past perfect",
+          "example": "✅ Use it once to establish the earlier event, then return to past simple."
+        },
+        {
+          "form": "❌ Wrong tense for background",
+          "example": "✅ The rain WAS FALLING (cont.), not \"the rain fell\" (for ongoing background)."
+        },
+        {
+          "form": "❌ Missing the \"when\" clause",
+          "example": "✅ She WAS WALKING when the phone RANG — not \"she walked when the phone rang.\""
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e1",
+      "type": "mc",
+      "instruction": "Choose the correct tense for the main action.",
+      "text": "\"She ___ (enter) the room and ___ (look) around slowly.\"",
+      "opts": [
+        "was entering / was looking",
+        "entered / looked",
+        "had entered / had looked",
+        "enters / looks"
+      ],
+      "correct": "entered / looked",
+      "hint": "Past simple = main sequential events"
+    },
+    {
+      "id": "e2",
+      "type": "mc",
+      "instruction": "Choose the correct tense for the background.",
+      "text": "\"___ (snow / fall) outside, and the streets ___ (be) empty.\"",
+      "opts": [
+        "Snow fell / were",
+        "Snow was falling / were",
+        "Snow had fallen / had been",
+        "Snow falls / are"
+      ],
+      "correct": "Snow was falling / were",
+      "hint": "Past continuous = ongoing background scene"
+    },
+    {
+      "id": "e3",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"He ___ (live) in that house for ten years before he finally moved out.\" (Earlier event)",
+      "correct": "had lived",
+      "hint": "Past perfect = event/state before the narrative present"
+    },
+    {
+      "id": "e4",
+      "type": "mc",
+      "instruction": "Choose the correct \"interruption\" structure.",
+      "text": "\"She ___ (read) when she ___ (hear) a strange noise.\"",
+      "opts": [
+        "read / heard",
+        "was reading / heard",
+        "read / was hearing",
+        "had read / heard"
+      ],
+      "correct": "was reading / heard",
+      "hint": "Past continuous + when + past simple = interrupted action"
+    },
+    {
+      "id": "e5",
+      "type": "fill",
+      "instruction": "Complete the sentence.",
+      "text": "\"No sooner ___ she ___ (sit down) than the lights went out.\"",
+      "correct": "had / sat",
+      "hint": "No sooner had + subject + pp... than = immediate sequence"
+    },
+    {
+      "id": "e6",
+      "type": "mc",
+      "instruction": "Which sentence correctly establishes backstory and returns to past simple?",
+      "text": "",
+      "opts": [
+        "She had grown up here. She had felt out of place. She had decided to leave.",
+        "She had grown up here. She felt out of place. She decided to leave.",
+        "She grew up here. She felt out of place. She decided to leave.",
+        "She was growing up here. She felt out of place. She decided to leave."
+      ],
+      "correct": "She had grown up here. She felt out of place. She decided to leave.",
+      "hint": "One past perfect to establish, then return to past simple"
+    },
+    {
+      "id": "e7",
+      "type": "fill",
+      "instruction": "Complete with the correct form.",
+      "text": "\"By the time the ambulance ___ (arrive), he ___ (already / lose) consciousness.\"",
+      "correct": "arrived / had already lost",
+      "hint": "\"By the time\" + past simple; earlier event = past perfect"
+    },
+    {
+      "id": "e8",
+      "type": "mc",
+      "instruction": "Identify the error.",
+      "text": "\"The music plays softly as she enters the room.\"",
+      "opts": [
+        "No error — it is correct",
+        "\"Plays\" should be \"played\" — tense slip",
+        "\"Enters\" should be \"had entered\"",
+        "\"Softly\" is in the wrong place"
+      ],
+      "correct": "\"Plays\" should be \"played\" — tense slip",
+      "hint": "Present tense in a past narrative = tense inconsistency error"
+    },
+    {
+      "id": "e9",
+      "type": "mc",
+      "instruction": "Choose the correct time connector.",
+      "text": "\"___ she saw the letter, she knew something had gone wrong.\"",
+      "opts": [
+        "By the time",
+        "As soon as",
+        "No sooner",
+        "Before"
+      ],
+      "correct": "As soon as",
+      "hint": "\"As soon as\" = the moment she saw it"
+    },
+    {
+      "id": "e10",
+      "type": "fill",
+      "instruction": "Complete the sentence with the past perfect continuous.",
+      "text": "\"She looked exhausted. She ___ (wait) for over three hours.\"",
+      "correct": "had been waiting",
+      "hint": "Past perfect continuous = ongoing action before the narrative moment"
+    },
+    {
+      "id": "e11",
+      "type": "mc",
+      "instruction": "Which uses the past continuous correctly?",
+      "text": "",
+      "opts": [
+        "The children were played in the garden.",
+        "The children playing in the garden.",
+        "The children were playing in the garden when the storm began.",
+        "The children had been played in the garden."
+      ],
+      "correct": "The children were playing in the garden when the storm began.",
+      "hint": "Past continuous + when + past simple = interrupted scene"
+    },
+    {
+      "id": "e12",
+      "type": "fill",
+      "instruction": "Add the missing word.",
+      "text": "\"While she ___ (cook), he ___ (sit) at the window and watch the rain.\"",
+      "correct": "was cooking / sat",
+      "hint": "While + past continuous; simultaneous main action = past simple"
+    },
+    {
+      "id": "e13",
+      "type": "mc",
+      "instruction": "Which is a compression sentence?",
+      "text": "",
+      "opts": [
+        "She noticed every detail of the room.",
+        "Five years passed without incident.",
+        "Her hands were trembling as she opened the envelope.",
+        "He said her name once, quietly."
+      ],
+      "correct": "Five years passed without incident.",
+      "hint": "Compression = skipping over time quickly"
+    },
+    {
+      "id": "e14",
+      "type": "fill",
+      "instruction": "Complete with the correct narrative tense.",
+      "text": "\"He ___ (stand) in the doorway. The house ___ (smell) of old books. Nothing ___ (change) since he ___ (leave).\"",
+      "correct": "stood / smelled / had changed / had left",
+      "hint": "Past simple (actions/states) + past perfect (earlier events)"
+    },
+    {
+      "id": "e15",
+      "type": "mc",
+      "instruction": "Which correctly uses \"just as\"?",
+      "text": "",
+      "opts": [
+        "Just as she reached the door, she was hearing her name.",
+        "Just as she reached the door, she heard her name.",
+        "Just as she had reached the door, she heard her name.",
+        "Just as she reaches the door, she heard her name."
+      ],
+      "correct": "Just as she reached the door, she heard her name.",
+      "hint": "\"Just as\" + past simple + past simple = simultaneous events"
+    },
+    {
+      "id": "e16",
+      "type": "mc",
+      "instruction": "Which sentence uses past perfect correctly for motivation?",
+      "text": "",
+      "opts": [
+        "She was nervous. She will fail before.",
+        "She was nervous because she failed before.",
+        "She was nervous because she had failed before.",
+        "She was nervous because she was failing before."
+      ],
+      "correct": "She was nervous because she had failed before.",
+      "hint": "Past perfect = earlier event that explains current state"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"___ (music/play) softly and the candles ___ (flicker) on the table.\" (Scene-setting)",
+      "opts": [
+        "Music played / flickered",
+        "Music was playing / were flickering",
+        "Music had played / had flickered",
+        "Music plays / flicker"
+      ],
+      "correct": "Music was playing / were flickering",
+      "hint": "Past continuous for background scene",
+      "points": 2
+    },
+    {
+      "id": "q2",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"She ___ across the room when the stranger ___ her name.\" Choose the correct forms.",
+      "opts": [
+        "walked / was calling",
+        "was walking / called",
+        "had walked / called",
+        "walked / called"
+      ],
+      "correct": "was walking / called",
+      "hint": "Past continuous (background) + past simple (interruption)",
+      "points": 2
+    },
+    {
+      "id": "q3",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"He ___ (never / be) to that part of the city before that evening.\"",
+      "correct": "had never been",
+      "hint": "Past perfect = event/state before the narrative moment",
+      "points": 2
+    },
+    {
+      "id": "q4",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"No sooner ___ she ___ (open) the door than she heard footsteps.\"",
+      "opts": [
+        "did / open",
+        "had / opened",
+        "was / opening",
+        "has / opened"
+      ],
+      "correct": "had / opened",
+      "hint": "\"No sooner had + subject + pp… than\"",
+      "points": 2
+    },
+    {
+      "id": "q5",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which correctly uses the past perfect for backstory?",
+      "opts": [
+        "She lived there for ten years.",
+        "She was living there for ten years.",
+        "She had lived there for ten years.",
+        "She lives there for ten years."
+      ],
+      "correct": "She had lived there for ten years.",
+      "hint": "Past perfect = state before the narrative present",
+      "points": 2
+    },
+    {
+      "id": "q6",
+      "type": "tf",
+      "cat": "grammar",
+      "text": "Once the past perfect establishes a backstory, you should continue using it for the whole passage.",
+      "opts": [
+        "True",
+        "False"
+      ],
+      "correct": "False",
+      "hint": "Use it once, then return to past simple",
+      "points": 1
+    },
+    {
+      "id": "q7",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"By the time they ___ (arrive), the show ___ (already / start).\"",
+      "correct": "arrived / had already started",
+      "hint": "\"By the time\" + past simple; earlier event = past perfect",
+      "points": 2
+    },
+    {
+      "id": "q8",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "\"While he was reading, she ___ quietly out of the room.\" Choose the correct form.",
+      "opts": [
+        "was slipping",
+        "had slipped",
+        "slipped",
+        "slips"
+      ],
+      "correct": "slipped",
+      "hint": "Main action in the \"while\" clause: past simple",
+      "points": 2
+    },
+    {
+      "id": "q9",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She looked pale. She ___ (be) ill for days.\"",
+      "correct": "had been",
+      "hint": "Past perfect = state going on before the current moment",
+      "points": 2
+    },
+    {
+      "id": "q10",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which is the correct \"interruption\" structure?",
+      "opts": [
+        "As she was walking, the rain was starting.",
+        "As she walked, the rain started.",
+        "She was walking when the rain started.",
+        "She walked when the rain was starting."
+      ],
+      "correct": "She was walking when the rain started.",
+      "hint": "Past continuous (background) + when + past simple (event)",
+      "points": 2
+    },
+    {
+      "id": "q11",
+      "type": "fill",
+      "cat": "grammar",
+      "text": "\"She had been ___ (wait) for two hours by the time he finally appeared.\"",
+      "correct": "waiting",
+      "hint": "Past perfect continuous = had been + -ing",
+      "points": 2
+    },
+    {
+      "id": "q12",
+      "type": "mc",
+      "cat": "grammar",
+      "text": "Which sentence has a tense consistency error?",
+      "opts": [
+        "She opened the door. She stepped inside.",
+        "The lights were off. She felt her way to the wall.",
+        "He looks up. He had not expected her.",
+        "She had seen him before, but she could not remember where."
+      ],
+      "correct": "He looks up. He had not expected her.",
+      "hint": "\"Looks\" = present tense slip in a past narrative",
+      "points": 2
+    }
+  ]
+}

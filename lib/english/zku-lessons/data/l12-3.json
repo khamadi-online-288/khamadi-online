@@ -1,0 +1,255 @@
+{
+  "id": "l12-3",
+  "moduleNum": 12,
+  "lessonNum": 3,
+  "moduleTitle": "Travel and places",
+  "title": "At the airport",
+  "type": "listening",
+  "xp": 55,
+  "duration": 10,
+  "paragraphs": [],
+  "keyPhrases": [],
+  "vocab": [],
+  "exercises": [],
+  "questions": [],
+  "task1Bank": [],
+  "task2Items": [],
+  "writingModel": [],
+  "writingTemplate": [],
+  "writingPhrases": [],
+  "grammarTitle": "",
+  "grammarNote": "",
+  "grammarTable": [],
+  "grammarExtra": [],
+  "grammarTip": "",
+  "dialogue": [
+    {
+      "speaker": "Kamila",
+      "text": "Aibek! Thank goodness I found you. I have never been to an airport before. Where is the check-in desk for my flight?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Don't worry, Kamila! The check-in desks are on the ground floor, directly opposite the main entrance. You can see them from here.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And what do I do after check-in?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "After check-in, you go through security. The security checkpoint is at the end of the hall, just behind the café on the left.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Is the café before or after security?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Before security. You can get a coffee there while you wait — it is next to the information desk, on the right side of the hall.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And the departure gate — where do I find that?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "After security, go upstairs to the second floor. All the departure gates are there. Your gate number is on the departures board — it is on the wall above the security entrance.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "And my suitcase — should I check it in?",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Yes. The baggage drop is at your check-in desk. When you land in Karagandy, the baggage claim is on the ground floor, next to the arrivals exit.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "One more question — is there a shop here? I want to buy something for my mother.",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "Yes! There are two shops. One is between the café and the information desk — it sells snacks and newspapers. The bigger one is upstairs, in front of Gate 3.",
+      "isLeft": true
+    },
+    {
+      "speaker": "Kamila",
+      "text": "Perfect! Thank you so much, Aibek. You have saved me today!",
+      "isLeft": false
+    },
+    {
+      "speaker": "Aibek",
+      "text": "No problem — but go to the check-in desk now. Your flight is in ninety minutes!",
+      "isLeft": true
+    }
+  ],
+  "prepTasks": [
+    {
+      "id": "p1",
+      "word": "check-in desk",
+      "emoji": "✈️",
+      "opts": [
+        "выход на посадку",
+        "зона досмотра",
+        "стойка регистрации",
+        "багажная лента"
+      ],
+      "correct": "стойка регистрации"
+    },
+    {
+      "id": "p2",
+      "word": "security",
+      "emoji": "🔒",
+      "opts": [
+        "паспортный контроль",
+        "зона досмотра / безопасности",
+        "выход",
+        "зал прилёта"
+      ],
+      "correct": "зона досмотра / безопасности"
+    },
+    {
+      "id": "p3",
+      "word": "departure gate",
+      "emoji": "🚪",
+      "opts": [
+        "зал прилёта",
+        "таможня",
+        "выход на посадку",
+        "стойка информации"
+      ],
+      "correct": "выход на посадку"
+    },
+    {
+      "id": "p4",
+      "word": "departures board",
+      "emoji": "📋",
+      "opts": [
+        "карта города",
+        "табло вылетов",
+        "меню кафе",
+        "расписание автобусов"
+      ],
+      "correct": "табло вылетов"
+    },
+    {
+      "id": "p5",
+      "word": "baggage claim",
+      "emoji": "🧳",
+      "opts": [
+        "камера хранения",
+        "стойка информации",
+        "зона выдачи багажа",
+        "место регистрации"
+      ],
+      "correct": "зона выдачи багажа"
+    },
+    {
+      "id": "p6",
+      "word": "ground floor",
+      "emoji": "🏢",
+      "opts": [
+        "крыша",
+        "второй этаж",
+        "подвал",
+        "первый / цокольный этаж"
+      ],
+      "correct": "первый / цокольный этаж"
+    }
+  ],
+  "task1Items": [
+    {
+      "id": "t1",
+      "question": "Kamila has been to this airport several times before.",
+      "correct": "false"
+    },
+    {
+      "id": "t2",
+      "question": "The check-in desks are on the ground floor, opposite the main entrance.",
+      "correct": "true"
+    },
+    {
+      "id": "t3",
+      "question": "The café is located after the security checkpoint.",
+      "correct": "false"
+    },
+    {
+      "id": "t4",
+      "question": "The departure gates are all on the second floor.",
+      "correct": "true"
+    },
+    {
+      "id": "t5",
+      "question": "The shop between the café and information desk sells electronics.",
+      "correct": "false"
+    },
+    {
+      "id": "t6",
+      "question": "Kamila's flight departs in ninety minutes.",
+      "correct": "true"
+    }
+  ],
+  "listenChars": [
+    {
+      "id": "kamila",
+      "name": "Kamila",
+      "city": "Karagandy",
+      "emoji": "💼",
+      "color": "#003876",
+      "bg": "#EEF2F7",
+      "role": "Business student, Year 1"
+    },
+    {
+      "id": "aibek",
+      "name": "Aibek",
+      "city": "Astana",
+      "emoji": "✈️",
+      "color": "#7C3AED",
+      "bg": "#EDE9FE",
+      "role": "IT student, Year 2"
+    }
+  ],
+  "listenStatements": [
+    {
+      "id": "s1",
+      "text": "Has never been to an airport before.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s2",
+      "text": "Explained that the check-in desks are opposite the main entrance.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s3",
+      "text": "Wants to buy a gift for their mother at the airport shop.",
+      "correctCharId": "kamila"
+    },
+    {
+      "id": "s4",
+      "text": "Knows there are two shops in the airport and where they are.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s5",
+      "text": "Reminded the other person that the flight is in ninety minutes.",
+      "correctCharId": "aibek"
+    },
+    {
+      "id": "s6",
+      "text": "Is flying to Karagandy.",
+      "correctCharId": "kamila"
+    }
+  ]
+}
