@@ -24,6 +24,17 @@ const SECTIONS = [
 
 type SectionKey = typeof SECTIONS[number]['key']
 
+// Lesson ids use a running module number across A1–B1 (A1: l1–l16, A1.1: l17–l34,
+// A2: l35–l58, B1: l59–l84); B2/C1 use their own prefixes.
+function lessonPrefixOfModule(moduleId: string, orderNum: number): string {
+  if (moduleId.startsWith('m-a11-')) return `l${orderNum + 16}-`
+  if (moduleId.startsWith('m-a2-'))  return `l${orderNum + 34}-`
+  if (moduleId.startsWith('m-b1-'))  return `l${orderNum + 58}-`
+  if (moduleId.startsWith('m-b2-'))  return `lb2-${orderNum}-`
+  if (moduleId.startsWith('m-c1-'))  return `lc1-${orderNum}-`
+  return `l${orderNum}-`
+}
+
 interface LevelMeta {
   code: string; name: string; nameSub: string; desc: string
   color: string; bg: string; totalModules: number; total_lessons: number
@@ -66,9 +77,7 @@ export default function LevelPage() {
       const allMods = [...MOCK_A1_MODULES, ...MOCK_A11_MODULES, ...MOCK_A2_MODULES, ...MOCK_B1_MODULES, ...MOCK_B2_MODULES, ...MOCK_C1_MODULES]
 
       allMods.forEach(mod => {
-        const prefix = mod.id.startsWith('m-a11-')
-          ? `l${parseInt(mod.id.replace('m-a11-', '')) + 16}-`
-          : `l${mod.order_num}-`
+        const prefix = lessonPrefixOfModule(mod.id, mod.order_num)
         const modLessons = rows.filter(r => r.lesson_id?.startsWith(prefix))
         const sec        = mod.sections
         const total      = sec.reading + sec.listening + sec.grammar + sec.writing + sec.test
