@@ -17,6 +17,10 @@ interface Student {
 }
 interface Group { id: string; name: string; teacher_name?: string }
 type Toast = { msg: string; type: 'success'|'error' }
+interface StudentsResponse { students: Student[]; groups: Group[] }
+
+// Cleared by admin/layout.tsx on logout
+const CACHE_KEY = 'zku-admin-students'
 type SortKey = 'name' | 'xp' | 'streak' | 'active'
 
 const LEVEL_COLOR: Record<string,string> = { A1:N, 'A1.1':'#16A34A', A2:'#1B8FC4', B1:'#7C3AED', B2:'#DB2777', C1:'#D97706' }
@@ -62,25 +66,39 @@ export default function AdminStudentsPage() {
     }
   }, [])
 
+  const applyData = useCallback((data: StudentsResponse) => {
+    setGroups(data.groups)
+    const gm: Record<string,string> = {}
+    data.groups.forEach(g => { gm[g.id] = g.name })
+    setStudents(data.students.map(s => ({ ...s, group_name: s.group_id ? gm[s.group_id] : undefined })))
+    setLoading(false)
+  }, [])
+
   const load = useCallback(async () => {
     const supabase = createEnglishClient()
     const { data: { session } } = await supabase.auth.getSession()
     if (!session) return
     setToken(session.access_token)
 
+    // Show the last loaded list instantly while the fresh one is fetched
+    try {
+      const cached = sessionStorage.getItem(CACHE_KEY)
+      if (cached) applyData(JSON.parse(cached) as StudentsResponse)
+    } catch { /* ignore broken cache */ }
+
     // Use API route with service role — includes email + lessons_done + groups
     const res = await fetch('/api/english/admin/students', { headers: { Authorization: `Bearer ${session.access_token}` } })
-    const { students: raw, groups: grps } = await res.json()
-
-    const groupList = (grps ?? []) as Group[]
-    setGroups(groupList)
-    const gm: Record<string,string> = {}
-    groupList.forEach(g => { gm[g.id] = g.name })
-
-    setStudents(((raw ?? []) as Student[]).map(s => ({ ...s, group_name: s.group_id ? gm[s.group_id] : undefined })))
-    setLoading(false)
+    const d = await res.json() as Partial<StudentsResponse> & { error?: string }
+    if (!res.ok) {
+      showToast(d.error ?? 'Не удалось загрузить студентов', 'error')
+      setLoading(false)
+      return
+    }
+    const data: StudentsResponse = { students: d.students ?? [], groups: d.groups ?? [] }
+    applyData(data)
+    try { sessionStorage.setItem(CACHE_KEY, JSON.stringify(data)) } catch { /* quota or private mode */ }
     void loadOrphans(session.access_token)
-  }, [loadOrphans])
+  }, [applyData, loadOrphans])
 
   useEffect(() => { load() }, [load])
 
@@ -194,7 +212,8 @@ export default function AdminStudentsPage() {
 
   const filtered = useMemo(() => {
     let list = students.filter(s => {
-      const ms = !search || (s.full_name ?? '').toLowerCase().includes(search.toLowerCase())
+      const q = search.trim().toLowerCase()
+      const ms = !q || (s.full_name ?? '').toLowerCase().includes(q) || s.email.toLowerCase().includes(q)
       const ml = filterLevel === 'all' || s.current_level === filterLevel
       const d = daysSince(s.last_active_at)
       const ma = filterActivity === 'all' ? true
@@ -320,7 +339,7 @@ export default function AdminStudentsPage() {
 
       {/* Filters */}
       <div style={{ display: 'flex', gap: 10, marginBottom: 18, flexWrap: 'wrap' }}>
-        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="🔍 Поиск по имени..."
+        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="🔍 Поиск по имени или email..."
           style={{ flex: 1, minWidth: 200, padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit' }}
           onFocus={e => e.currentTarget.style.borderColor = N}
           onBlur={e => e.currentTarget.style.borderColor = BDR} />

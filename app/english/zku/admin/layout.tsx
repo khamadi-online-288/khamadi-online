@@ -10,6 +10,11 @@ import { ZkuLangProvider, ZkuLangSwitcher, useZkuLang } from '../student/zku-lan
 const ADMIN = '#7C3AED'
 const G = '#C9933B'
 
+function clearAdminCache() {
+  sessionStorage.removeItem('zku-admin-name')
+  sessionStorage.removeItem('zku-admin-students')
+}
+
 function AdminLayoutInner({ children }: { children: React.ReactNode }) {
   const { t } = useZkuLang()
   const pathname = usePathname()
@@ -20,25 +25,28 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const cached = sessionStorage.getItem('zku-admin-name')
-    if (cached) setName(cached)
+    // Already verified in this tab: render right away and re-verify in the background.
+    // Pages stay safe because admin API routes check the role server-side.
+    if (cached) { setName(cached); setReady(true) }
     async function check() {
       try {
         const supabase = createEnglishClient()
         const { data: { session }, error } = await supabase.auth.getSession()
-        if (error || !session) { router.replace(zkuLoginHref()); return }
-        const { error: re } = await supabase.auth.refreshSession()
-        if (re) { sessionStorage.removeItem('zku-admin-name'); await supabase.auth.signOut(); router.replace(zkuLoginHref()); return }
-        const { data: profile } = await supabase
-        .from('english_user_profiles').select('role, full_name')
-        .eq('user_id', session.user.id).maybeSingle()
-      if (!profile || profile.role !== 'admin') {
-        router.replace(zkuLoginHref()); return
-      }
+        if (error || !session) { clearAdminCache(); router.replace(zkuLoginHref()); return }
+        const [{ error: re }, { data: profile }] = await Promise.all([
+          supabase.auth.refreshSession(),
+          supabase.from('english_user_profiles').select('role, full_name')
+            .eq('user_id', session.user.id).maybeSingle(),
+        ])
+        if (re) { clearAdminCache(); await supabase.auth.signOut(); router.replace(zkuLoginHref()); return }
+        if (!profile || profile.role !== 'admin') {
+          clearAdminCache(); router.replace(zkuLoginHref()); return
+        }
       const n = profile.full_name ?? session.user.email ?? ''
         setName(n); setEmail(session.user.email ?? '')
         sessionStorage.setItem('zku-admin-name', n)
         setReady(true)
-      } catch { sessionStorage.removeItem('zku-admin-name'); router.replace(zkuLoginHref()) }
+      } catch { clearAdminCache(); router.replace(zkuLoginHref()) }
     }
     check()
   }, [router])
@@ -136,7 +144,7 @@ function AdminLayoutInner({ children }: { children: React.ReactNode }) {
               <div style={{ fontSize:9, fontWeight:800, color:'rgba(255,255,255,0.6)', background:'rgba(255,255,255,0.12)', padding:'3px 7px', borderRadius:99, flexShrink:0 }}>ADMIN</div>
             </div>
           </div>
-          <button onClick={async () => { const s = createEnglishClient(); sessionStorage.removeItem('zku-admin-name'); await s.auth.signOut(); router.push(zkuLoginHref()) }}
+          <button onClick={async () => { const s = createEnglishClient(); clearAdminCache(); await s.auth.signOut(); router.push(zkuLoginHref()) }}
             style={{ width:'100%', padding:'9px', borderRadius:10, border:'1px solid rgba(255,255,255,0.12)', background:'transparent', color:'rgba(255,255,255,0.45)', fontSize:12, cursor:'pointer', fontFamily:'inherit', fontWeight:600 }}
             onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(255,255,255,0.08)'; (e.currentTarget as HTMLElement).style.color = '#fff' }}
             onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = 'transparent'; (e.currentTarget as HTMLElement).style.color = 'rgba(255,255,255,0.45)' }}>
