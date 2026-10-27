@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { upgradeLevelIfEarned } from '@/lib/english/level-progress'
 import { useZkuLang } from '../zku-lang'
 import { IcLock, IcBook, IcClock, IcEdit, IcTarget } from '../_icons'
 
@@ -58,7 +59,12 @@ export default function CoursePage() {
         supabase.from('english_lesson_progress').select('lesson_id').eq('user_id', user.id).eq('completed', true),
       ])
 
-      if (profile?.current_level) setCurrentLevel(toCourseLevel(profile.current_level))
+      // Self-heal: students who passed a final exam but whose level was never
+      // advanced (e.g. before level sync existed) get upgraded here.
+      const done = new Set<string>(((progress ?? []) as { lesson_id: string }[]).map(r => r.lesson_id))
+      const upgraded = await upgradeLevelIfEarned(supabase, user.id, profile?.current_level, done)
+      const level = upgraded ?? profile?.current_level
+      if (level) setCurrentLevel(toCourseLevel(level))
 
       if (progress?.length) {
         setTotalDone(progress.length)

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { upgradeLevelIfEarned } from '@/lib/english/level-progress'
 //import { useZkuLang } from './zku-lang'
 import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
@@ -100,6 +101,9 @@ export default function ZKUStudentDashboard() {
         .eq('user_id', user.id)
         .order('completed_at', { ascending: false })
       type PR = { lesson_id: string; completed: boolean; score: number | null; lesson_type: string | null; xp_earned: number | null; lesson_title: string | null; completed_at: string | null }
+      const completedIds = new Set((progress as PR[] | null ?? []).filter(p => p.completed).map(p => p.lesson_id))
+      const upgraded = await upgradeLevelIfEarned(supabase, user.id, profile?.current_level, completedIds)
+      if (upgraded) setLevel(upgraded)
       if (progress?.length) {
         const done = (progress as PR[]).filter(p => p.completed)
         setLessonsDone(done.length); setLessonsTotal(progress.length)
