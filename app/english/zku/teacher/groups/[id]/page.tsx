@@ -4,8 +4,8 @@ import { useState, useEffect, useCallback, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { zkuLoginHref } from '@/lib/english/useZkuAppShell'
 import { levelBadge } from '@/lib/english/zku-level-certs'
-import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -37,46 +37,61 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
   const [addEmail, setAddEmail] = useState('')
   const [adding,   setAdding]   = useState(false)
   const [showAdd,  setShowAdd]  = useState(false)
-  const { t } = useZkuLang()
 
   const showToast = (msg: string, type: 'success'|'error' = 'success') => {
     setToast({ msg, type }); setTimeout(() => setToast(null), 3000)
   }
 
-  const load = useCallback(async () => {
+  // Returns null after redirecting (no session / no access); never touches state
+  const fetchGroup = useCallback(async (): Promise<{ group: Group; students: Student[] } | null> => {
     const supabase = createEnglishClient()
     const { data: { session } } = await supabase.auth.getSession()
-    if (!session) return
+    if (!session) { router.replace(zkuLoginHref()); return null }
 
-    // Verify teacher is assigned to this group (via junction table)
-    const { data: junc } = await supabase
-      .from('english_group_teachers')
-      .select('group_id')
-      .eq('teacher_id', session.user.id)
-      .eq('group_id', id)
-      .maybeSingle()
-    if (!junc) { router.replace('/english/zku/teacher/groups'); return }
+    // RLS on english_groups blocks teachers — load via service-role API (checks group assignment)
+    const res = await fetch(`/api/english/teacher/groups/${id}`, {
+      headers: { Authorization: `Bearer ${session.access_token}` },
+    })
+    const data = await res.json() as { group?: Group; students?: Student[]; error?: string }
+    if (!res.ok || !data.group) { router.replace('/english/zku/teacher/groups'); return null }
 
-    const { data: grp } = await supabase
-      .from('english_groups').select('*').eq('id', id).maybeSingle()
-    if (!grp) { router.replace('/english/zku/teacher/groups'); return }
-    setGroup(grp as Group)
-
-    const { data: studs } = await supabase
-      .from('english_user_profiles')
-      .select('user_id, full_name, current_level, total_xp, current_streak, last_active_at, group_id')
-      .eq('group_id', id)
-      .order('total_xp', { ascending: false })
-    setStudents((studs ?? []) as Student[])
-    setLoading(false)
+    return { group: data.group, students: data.students ?? [] }
   }, [id, router])
 
-  useEffect(() => { load() }, [load])
+  const applyGroup = (result: { group: Group; students: Student[] } | null) => {
+    if (!result) return
+    setGroup(result.group)
+    setStudents(result.students)
+    setLoading(false)
+  }
+
+  const load = async () => applyGroup(await fetchGroup())
+
+  useEffect(() => {
+    let cancelled = false
+    fetchGroup().then(result => { if (!cancelled) applyGroup(result) })
+    return () => { cancelled = true }
+  }, [fetchGroup])
+
+  // Membership changes go through the service-role API for the same RLS reason as load()
+  async function groupStudentsRequest(method: 'POST' | 'DELETE', body: Record<string, string>) {
+    const supabase = createEnglishClient()
+    const { data: { session } } = await supabase.auth.getSession()
+    if (!session) { router.replace(zkuLoginHref()); return null }
+    const res = await fetch(`/api/english/teacher/groups/${id}/students`, {
+      method,
+      headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${session.access_token}` },
+      body: JSON.stringify(body),
+    })
+    const data = await res.json().catch(() => ({})) as { student?: { full_name: string | null }; error?: string }
+    return { ok: res.ok, ...data }
+  }
 
   async function removeStudent(userId: string, name: string) {
     if (!confirm(`Убрать ${name} из группы?`)) return
-    const supabase = createEnglishClient()
-    await supabase.from('english_user_profiles').update({ group_id: null }).eq('user_id', userId)
+    const result = await groupStudentsRequest('DELETE', { userId })
+    if (!result) return
+    if (!result.ok) { showToast(result.error ?? 'Не удалось убрать студента', 'error'); return }
     showToast(`${name} убран из группы`)
     await load()
   }
@@ -84,38 +99,13 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
   async function addStudent() {
     if (!addEmail.trim()) return
     setAdding(true)
-    const supabase = createEnglishClient()
-
-    // Find user by email via auth (we search profiles by email-slug)
-    const { data: users } = await supabase
-      .from('english_user_profiles')
-      .select('user_id, full_name, group_id, role')
-      .eq('role', 'student')
-      .limit(100)
-
-    // Match by checking auth users
-    const { data: authData } = await supabase.auth.admin?.listUsers?.() ?? { data: null }
-
-    // Simpler: find student profile where user email matches
-    // Since we can't easily do cross-table join, we'll use group join code approach
-    // Instead - find by name/email hint
-    const email = addEmail.trim().toLowerCase()
-    const found = (users ?? []).find((u: Student & { role: string }) =>
-      u.user_id.includes(email.split('@')[0]) || (u.full_name ?? '').toLowerCase().includes(email)
-    )
-
-    if (!found) {
-      showToast('Студент не найден. Попросите его ввести код группы при входе.', 'error')
+    const result = await groupStudentsRequest('POST', { query: addEmail.trim() })
+    if (!result) { setAdding(false); return }
+    if (!result.ok) {
+      showToast(result.error ?? 'Не удалось добавить студента', 'error')
       setAdding(false); return
     }
-
-    if ((found as Student & { group_id?: string }).group_id === id) {
-      showToast('Студент уже в этой группе', 'error')
-      setAdding(false); return
-    }
-
-    await supabase.from('english_user_profiles').update({ group_id: id }).eq('user_id', found.user_id)
-    showToast(`${found.full_name ?? 'Студент'} добавлен в группу`)
+    showToast(`${result.student?.full_name ?? 'Студент'} добавлен в группу`)
     setAddEmail(''); setShowAdd(false)
     await load()
     setAdding(false)
@@ -197,7 +187,7 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
           <div style={{ display: 'flex', gap: 10 }}>
             <input value={addEmail} onChange={e => setAddEmail(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && addStudent()}
-              placeholder="Имя или часть email студента..."
+              placeholder="Email или имя студента..."
               style={{ flex: 1, padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit' }}
               onFocus={e => e.currentTarget.style.borderColor = N}
               onBlur={e => e.currentTarget.style.borderColor = BDR} />
