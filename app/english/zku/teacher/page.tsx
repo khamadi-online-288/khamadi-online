@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '../student/zku-lang'
 
 const N = '#003876'
@@ -190,7 +191,7 @@ export default function TeacherDashboard() {
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{ fontSize: 12, fontWeight: 700, color: N, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.full_name ?? 'Студент'}</div>
                       <div style={{ fontSize: 10, color: MUT }}>
-                        <span style={{ color: lc, fontWeight: 700 }}>{s.current_level ?? 'A1'}</span>
+                        <span style={{ color: lc, fontWeight: 700 }}>{levelBadge(s.current_level)}</span>
                         {' · '}{s.total_xp ?? 0} XP
                         {(s.current_streak ?? 0) > 0 && <span style={{ color: '#EF4444' }}> · 🔥{s.current_streak}</span>}
                       </div>

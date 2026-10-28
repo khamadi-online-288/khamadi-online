@@ -6,6 +6,8 @@ export interface LevelCert {
   moduleId: string
   lessons: string[]
   name: string
+  /** Student-facing label; differs from the DB code for some levels. */
+  badge: string
   program: string
   color: string
   header: string
@@ -19,6 +21,7 @@ export const LEVEL_CERTS: LevelCert[] = [
     code: 'A1', slug: 'a1', moduleId: 'm-16',
     lessons: ['l16-1', 'l16-2', 'l16-3'],
     name: 'Beginner', program: 'A1 English — Beginner Level',
+    badge: 'A1 BEGINNER',
     color: '#1D9E75',
     header: 'linear-gradient(135deg, #003876 0%, #012f5c 100%)',
     button: 'linear-gradient(135deg, #C9933B, #8B6427)',
@@ -29,6 +32,7 @@ export const LEVEL_CERTS: LevelCert[] = [
     code: 'A1.1', slug: 'a11', moduleId: 'm-a11-18',
     lessons: ['l34-1', 'l34-2', 'l34-3'],
     name: 'Elementary', program: 'A1.1 English — Elementary Level',
+    badge: 'A2 ELEMENTARY',
     color: '#16A34A',
     header: 'linear-gradient(135deg, #15803D 0%, #166534 100%)',
     button: 'linear-gradient(135deg, #16A34A, #15803D)',
@@ -39,6 +43,7 @@ export const LEVEL_CERTS: LevelCert[] = [
     code: 'A2', slug: 'a2', moduleId: 'm-a2-24',
     lessons: ['l58-1', 'l58-2', 'l58-3'],
     name: 'Pre-Intermediate', program: 'A2 English — Pre-Intermediate Level',
+    badge: 'B1 PRE-INTER',
     color: '#1B8FC4',
     header: 'linear-gradient(135deg, #1B8FC4 0%, #0e7490 100%)',
     button: 'linear-gradient(135deg, #1B8FC4, #0369a1)',
@@ -49,6 +54,7 @@ export const LEVEL_CERTS: LevelCert[] = [
     code: 'B1', slug: 'b1', moduleId: 'm-b1-26',
     lessons: ['l84-1', 'l84-2', 'l84-3'],
     name: 'Intermediate', program: 'B1 English — Intermediate Level',
+    badge: 'B2 INTERMEDIATE',
     color: '#7C3AED',
     header: 'linear-gradient(135deg, #7C3AED 0%, #5b21b6 100%)',
     button: 'linear-gradient(135deg, #7C3AED, #6d28d9)',
@@ -59,6 +65,7 @@ export const LEVEL_CERTS: LevelCert[] = [
     code: 'B2', slug: 'b2', moduleId: 'm-b2-26',
     lessons: ['lb2-26-1', 'lb2-26-2', 'lb2-26-3'],
     name: 'Upper-Intermediate', program: 'B2 English — Upper-Intermediate Level',
+    badge: 'C1 UPPER-INTER',
     color: '#DB2777',
     header: 'linear-gradient(135deg, #DB2777 0%, #9d174d 100%)',
     button: 'linear-gradient(135deg, #DB2777, #be185d)',
@@ -69,6 +76,7 @@ export const LEVEL_CERTS: LevelCert[] = [
     code: 'C1', slug: 'c1', moduleId: 'm-c1-32',
     lessons: ['lc1-32-1', 'lc1-32-2', 'lc1-32-3'],
     name: 'Advanced', program: 'C1 English — Advanced Level',
+    badge: 'C1 ADVANCED',
     color: '#D97706',
     header: 'linear-gradient(135deg, #D97706 0%, #92400e 100%)',
     button: 'linear-gradient(135deg, #D97706, #b45309)',
@@ -79,6 +87,12 @@ export const LEVEL_CERTS: LevelCert[] = [
 
 export function certByCode(code: string): LevelCert | undefined {
   return LEVEL_CERTS.find(c => c.code === code)
+}
+
+/** Student-facing level label for a DB `current_level` / `level_code`. */
+export function levelBadge(code: string | null | undefined): string {
+  const normalized = !code || code === 'Beginner' ? 'A1' : code
+  return certByCode(normalized)?.badge ?? normalized
 }
 
 export function certBySlug(slug: string): LevelCert | undefined {

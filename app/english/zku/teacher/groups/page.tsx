@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N = '#003876'
@@ -163,7 +164,7 @@ export default function TeacherGroupsPage() {
               <label style={{ display: 'block', fontSize: 11, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6 }}>Уровень</label>
               <select value={formLevel} onChange={e => setFormLevel(e.target.value)}
                 style={{ width: '100%', padding: '11px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 14, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
-                {LEVELS.map(l => <option key={l} value={l}>{l}</option>)}
+                {LEVELS.map(l => <option key={l} value={l}>{levelBadge(l)}</option>)}
               </select>
             </div>
           </div>
@@ -231,7 +232,7 @@ export default function TeacherGroupsPage() {
                           onMouseLeave={e => (e.currentTarget as HTMLElement).style.textDecoration = 'none'}>
                           {g.name}
                         </a>
-                        <span style={{ fontSize: 11, fontWeight: 700, background: `${lc}15`, color: lc, padding: '2px 8px', borderRadius: 99 }}>{g.level_code}</span>
+                        <span style={{ fontSize: 11, fontWeight: 700, background: `${lc}15`, color: lc, padding: '2px 8px', borderRadius: 99 }}>{levelBadge(g.level_code)}</span>
                         <button onClick={() => { setEditId(g.id); setEditName(g.name) }} style={{ padding: '3px 8px', borderRadius: 6, border: 'none', background: '#F1F5F9', color: MUT, fontSize: 11, cursor: 'pointer' }}>✏️</button>
                         <a href={`/english/zku/teacher/groups/${g.id}`} style={{ padding: '3px 10px', borderRadius: 6, background: '#EEF2F7', color: N, fontSize: 11, fontWeight: 700, textDecoration: 'none' }}>Открыть →</a>
                       </div>

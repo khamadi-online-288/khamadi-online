@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N = '#003876'
@@ -164,7 +165,7 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
           <div>
             <h1 style={{ fontSize: 24, fontWeight: 900, color: N, marginBottom: 4 }}>{group.name}</h1>
             <div style={{ display: 'flex', gap: 12, fontSize: 13, color: MUT }}>
-              <span style={{ fontWeight: 700, color: LEVEL_COLOR[group.level_code] ?? N }}>● {group.level_code}</span>
+              <span style={{ fontWeight: 700, color: LEVEL_COLOR[group.level_code] ?? N }}>● {levelBadge(group.level_code)}</span>
               <span>🎓 {students.length} студентов</span>
               <span>⚡ {activeToday} активны сегодня</span>
               <span>✨ Ср. XP: {avgXp.toLocaleString()}</span>
@@ -233,7 +234,7 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
       ) : (
         <div style={{ background: '#fff', borderRadius: 18, border: `1px solid ${BDR}`, overflow: 'hidden', boxShadow: '0 1px 6px rgba(0,56,118,0.04)' }}>
           {/* Header */}
-          <div style={{ display: 'grid', gridTemplateColumns: '2fr 80px 120px 80px 110px 80px', padding: '12px 20px', background: '#F8FBFF', borderBottom: `1px solid ${BDR}`, gap: 8 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '2fr 140px 120px 80px 110px 80px', padding: '12px 20px', background: '#F8FBFF', borderBottom: `1px solid ${BDR}`, gap: 8 }}>
             {['Студент', 'Уровень', 'XP', 'Стрик', 'Активность', ''].map(h => (
               <div key={h} style={{ fontSize: 10, fontWeight: 700, color: MUT, textTransform: 'uppercase', letterSpacing: '0.08em' }}>{h}</div>
             ))}
@@ -245,7 +246,7 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
             const ag = daysSince(s.last_active_at)
             return (
               <div key={s.user_id} style={{
-                display: 'grid', gridTemplateColumns: '2fr 80px 120px 80px 110px 80px',
+                display: 'grid', gridTemplateColumns: '2fr 140px 120px 80px 110px 80px',
                 padding: '13px 20px', gap: 8, alignItems: 'center',
                 borderTop: i > 0 ? `1px solid ${BDR}` : 'none',
                 background: i % 2 === 0 ? '#fff' : '#FAFCFF',
@@ -258,7 +259,7 @@ export default function GroupDetailPage({ params }: { params: Promise<{ id: stri
                     {s.full_name ?? 'Студент'}
                   </Link>
                 </div>
-                <div><span style={{ fontSize: 11, fontWeight: 800, background: `${lc}18`, color: lc, padding: '3px 9px', borderRadius: 99 }}>{s.current_level ?? 'A1'}</span></div>
+                <div><span style={{ fontSize: 11, fontWeight: 800, background: `${lc}18`, color: lc, padding: '3px 9px', borderRadius: 99 }}>{levelBadge(s.current_level)}</span></div>
                 <div style={{ fontSize: 13, fontWeight: 700, color: G }}>{(s.total_xp ?? 0).toLocaleString()} XP</div>
                 <div style={{ fontSize: 13, fontWeight: 700, color: (s.current_streak ?? 0) > 0 ? '#EF4444' : '#CBD5E1' }}>
                   {(s.current_streak ?? 0) > 0 ? `🔥 ${s.current_streak}` : '—'}

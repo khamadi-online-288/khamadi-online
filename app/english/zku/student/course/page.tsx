@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { upgradeLevelIfEarned } from '@/lib/english/level-progress'
+import { levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '../zku-lang'
 import { IcLock, IcBook, IcClock, IcEdit, IcTarget } from '../_icons'
 
@@ -88,7 +89,7 @@ export default function CoursePage() {
 
   const LEVELS: Level[] = [
     {
-      code: 'A1',  slug: 'a1',  badge: 'A1 BEGINNER',
+      code: 'A1',  slug: 'a1',  badge: levelBadge('A1'),
       title: t.course.title_a1,
       topics: ['am / is / are', 'Present Simple', 'Basic questions', 'Numbers & greetings'],
       color: N, colorLight: '#EEF2F7', colorBorder: 'rgba(0,56,118,0.2)',
@@ -98,7 +99,7 @@ export default function CoursePage() {
       modulesCompleted: Math.floor(((levelProgress['A1'] ?? 0) / 100) * 16),
     },
     {
-      code: 'A1.1', slug: 'a11', badge: 'A2 ELEMENTARY',
+      code: 'A1.1', slug: 'a11', badge: levelBadge('A1.1'),
       title: t.course.title_a11,
       topics: ['can/could', 'used to', 'Present Perfect', 'Conditionals'],
       color: '#16A34A', colorLight: '#DCFCE7', colorBorder: '#86EFAC',
@@ -108,7 +109,7 @@ export default function CoursePage() {
       modulesCompleted: Math.floor(((levelProgress['A1.1'] ?? 0) / 100) * 18),
     },
     {
-      code: 'A2',  slug: 'a2',  badge: 'B1 PRE-INTER',
+      code: 'A2',  slug: 'a2',  badge: levelBadge('A2'),
       title: t.course.title_a2,
       topics: ['Past Continuous', 'Future: will / going to', 'Conditionals', 'Comparatives'],
       color: '#1B8FC4', colorLight: '#DBEAFE', colorBorder: '#93C5FD',
@@ -118,7 +119,7 @@ export default function CoursePage() {
       modulesCompleted: Math.floor(((levelProgress['A2'] ?? 0) / 100) * 24),
     },
     {
-      code: 'B1',  slug: 'b1',  badge: 'B2 INTERMEDIATE',
+      code: 'B1',  slug: 'b1',  badge: levelBadge('B1'),
       title: t.course.title_b1,
       topics: ['Conditionals all types', 'Reported Speech', 'Passive Voice advanced', 'Modal verbs advanced'],
       color: '#7C3AED', colorLight: '#EDE9FE', colorBorder: '#C4B5FD',
@@ -128,7 +129,7 @@ export default function CoursePage() {
       modulesCompleted: Math.floor(((levelProgress['B1'] ?? 0) / 100) * 26),
     },
     {
-      code: 'B2',  slug: 'b2',  badge: 'C1 UPPER-INTER',
+      code: 'B2',  slug: 'b2',  badge: levelBadge('B2'),
       title: t.course.title_b2,
       topics: ['Mixed Conditionals', 'Advanced Modals', 'Inversion & Cleft', 'IELTS 6.0–7.0'],
       color: '#DB2777', colorLight: '#FCE7F3', colorBorder: '#F9A8D4',
@@ -138,7 +139,7 @@ export default function CoursePage() {
       modulesCompleted: Math.floor(((levelProgress['B2'] ?? 0) / 100) * 26),
     },
     {
-      code: 'C1',  slug: 'c1',  badge: 'C1 ADVANCED',
+      code: 'C1',  slug: 'c1',  badge: levelBadge('C1'),
       title: t.course.title_c1,
       topics: ['Subjunctive & Inversion', 'Academic Discourse', 'Ellipsis & Cohesion', 'IELTS 7.0+'],
       color: '#D97706', colorLight: '#FEF3C7', colorBorder: '#FCD34D',

@@ -4,7 +4,7 @@ import { useState, useEffect, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { levelOfLessonId, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
+import { levelBadge, levelOfLessonId, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -140,7 +140,7 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
             <div style={{ fontSize: 24, fontWeight: 900, marginBottom: 4 }}>{profile.full_name ?? 'Студент'}</div>
             <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
               <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.65)', fontWeight: 600 }}>👥 {groupName}</span>
-              <span style={{ fontSize: 13, fontWeight: 800, color: '#fff', background: `${lc}44`, border: `1px solid ${lc}88`, padding: '3px 10px', borderRadius: 99 }}>{profile.current_level ?? 'A1'}</span>
+              <span style={{ fontSize: 13, fontWeight: 800, color: '#fff', background: `${lc}44`, border: `1px solid ${lc}88`, padding: '3px 10px', borderRadius: 99 }}>{levelBadge(profile.current_level)}</span>
               {daysSince !== null && (
                 <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.65)' }}>
                   {daysSince === 0 ? '🟢 Активен сегодня' : `⏱ ${daysSince} дн. назад`}
@@ -165,7 +165,7 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
         {/* XP progress bar */}
         <div style={{ marginTop: 18, position: 'relative' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: 'rgba(255,255,255,0.5)', marginBottom: 6 }}>
-            <span>{profile.current_level ?? 'A1'}</span>
+            <span>{levelBadge(profile.current_level)}</span>
             <span>{xpInLevel.toLocaleString()} / {XP_PER_LEVEL.toLocaleString()} XP</span>
           </div>
           <div style={{ height: 6, background: 'rgba(255,255,255,0.15)', borderRadius: 99, overflow: 'hidden' }}>
@@ -223,7 +223,7 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
                   const scoreColor = row.avgScore >= 80 ? T : row.avgScore >= 60 ? G : '#EF4444'
                   return (
                     <div key={row.level} style={{ background: '#F8FBFF', borderRadius: 14, padding: '14px 14px 16px', border: `1px solid ${BDR}`, textAlign: 'center' }}>
-                      <div style={{ display: 'inline-block', fontSize: 11, fontWeight: 800, color: '#fff', background: color, padding: '3px 10px', borderRadius: 99, marginBottom: 10 }}>{row.level}</div>
+                      <div style={{ display: 'inline-block', fontSize: 11, fontWeight: 800, color: '#fff', background: color, padding: '3px 10px', borderRadius: 99, marginBottom: 10 }}>{levelBadge(row.level)}</div>
                       <div style={{ fontSize: 24, fontWeight: 900, color: scoreColor, lineHeight: 1 }}>{row.avgScore}%</div>
                       <div style={{ fontSize: 10, color: MUT, fontWeight: 600, marginTop: 4 }}>ср. балл</div>
                       <div style={{ height: 5, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden', margin: '10px 0 8px' }}>
