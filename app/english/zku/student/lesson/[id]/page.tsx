@@ -49763,7 +49763,7 @@ export default function LessonPage() {
   const [prepAnswers, setPrepAnswers] = useState<Record<string,string>>({})
   const [prepChecked, setPrepChecked] = useState(false)
   const [t1Answers,  setT1Answers] = useState<Record<string,string>>({})
-  const [t1Active,   setT1Active]  = useState<string|null>(null)
+  const [t1Active,   setT1Active]  = useState<number|null>(null)
   const [t1Checked,  setT1Checked] = useState(false)
   const [t2Answers,  setT2Answers] = useState<Record<string,string>>({})
   const [t2Checked,  setT2Checked] = useState(false)
@@ -50347,11 +50347,14 @@ export default function LessonPage() {
               {/* Word bank */}
               <div style={{ padding: '16px 24px', borderBottom: '1px solid rgba(0,56,118,0.07)', background: '#F8FBFF' }}>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-                  {lesson.task1Bank.map(w => {
-                    const used = Object.values(t1Answers).includes(w)
-                    const isSelected = t1Active === w
+                  {lesson.task1Bank.map((w, bankIdx) => {
+                    // A bank may repeat a word, so chips are tracked by index:
+                    // the first N copies of a word count as used when it fills N blanks.
+                    const copyIdx = lesson.task1Bank.slice(0, bankIdx).filter(x => x === w).length
+                    const used = copyIdx < Object.values(t1Answers).filter(a => a === w).length
+                    const isSelected = t1Active === bankIdx
                     return (
-                      <button key={w} onClick={() => !used && !t1Checked && setT1Active(a => a === w ? null : w)} style={{
+                      <button key={bankIdx} onClick={() => !used && !t1Checked && setT1Active(a => a === bankIdx ? null : bankIdx)} style={{
                         padding: '6px 14px', borderRadius: 99, fontSize: 12, fontWeight: 700,
                         border: `1.5px solid ${isSelected ? S : used ? '#E2E8F0' : 'rgba(0,56,118,0.2)'}`,
                         background: isSelected ? S : used ? '#F1F5F9' : '#fff',
@@ -50372,11 +50375,11 @@ export default function LessonPage() {
                   const isWrong = t1Checked && ans && !isCorr
                   const [before, after] = item.question.split('___')
                   return (
-                    <div key={item.id} onClick={() => { if (t1Active && !t1Checked) { setT1Answers(a => ({ ...a, [item.id]: t1Active })); setT1Active(null) } }} style={{
+                    <div key={item.id} onClick={() => { if (t1Active !== null && !t1Checked) { const word = lesson.task1Bank[t1Active]; setT1Answers(a => ({ ...a, [item.id]: word })); setT1Active(null) } }} style={{
                       display: 'flex', alignItems: 'center', gap: 8, padding: '12px 16px', borderRadius: 12,
                       background: isCorr ? '#F0FDF4' : isWrong ? '#FEF2F2' : '#F8FAFC',
                       border: `1.5px solid ${isCorr ? '#86EFAC' : isWrong ? '#FECACA' : ans ? S : 'rgba(0,56,118,0.1)'}`,
-                      cursor: t1Active && !t1Checked ? 'pointer' : 'default',
+                      cursor: t1Active !== null && !t1Checked ? 'pointer' : 'default',
                       transition: 'all 0.15s',
                     }}>
                       <span style={{ fontSize: 13, color: '#334155', fontWeight: 600 }}>{qi + 1}.</span>
