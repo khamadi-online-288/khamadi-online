@@ -100,13 +100,33 @@ function normalizeAnswer(raw: string): string {
     .trim()
     .toLowerCase()
     .replace(/[’‘]/g, "'")
-    .replace(/[.,!?;:]+/g, '')
+    .replace(/(\d),(?=\d)/g, '$1')
+    .replace(/[,;/]+/g, ' ')
+    .replace(/[.!?:]+/g, '')
     .replace(/\s+/g, ' ')
     .trim()
 }
 
-/** Gap drills ask for the missing words, but a correct full sentence is the same answer. */
+/**
+ * In the answer key " / " means one of two things: consecutive gaps
+ * ("Did / use to" for "___ you ___ play") or interchangeable answers
+ * ("whether / if" for one gap). Students separate gaps however they like, and
+ * need only one of several alternatives.
+ */
 function fillAnswerMatches(userRaw: string, correctRaw: string, prompt: string): boolean {
+  const parts = correctRaw.split(/\s+\/\s+/)
+  if (parts.length > 1) {
+    const blanks = (prompt.match(/_{2,}/g) ?? []).length
+    const wordCount = (part: string) => part.split(/\s+/).length
+    const totalWords = parts.reduce((sum, part) => sum + wordCount(part), 0)
+    const isSequence = blanks > 1 && (parts.length === blanks || totalWords === blanks)
+    if (!isSequence && parts.some(part => wordCount(part) >= blanks && singleAnswerMatches(userRaw, part, prompt))) return true
+  }
+  return singleAnswerMatches(userRaw, correctRaw, prompt)
+}
+
+/** Gap drills ask for the missing words, but a correct full sentence is the same answer. */
+function singleAnswerMatches(userRaw: string, correctRaw: string, prompt: string): boolean {
   const user = normalizeAnswer(userRaw)
   const correct = normalizeAnswer(correctRaw)
   if (!user || !correct) return false
@@ -18653,7 +18673,7 @@ const L35_3: FullLesson = {
     { id: 'q7',  cat: 'grammar', points: 10, type: 'mc',   text: '"I ___ check social media before coffee." (= 0% of the time)',         opts: ['always', 'usually', 'sometimes', 'never'],                               correct: 'never',               hint: '"I never check social media before coffee." = 0%, no exceptions.' },
     { id: 'q8',  cat: 'grammar', points: 10, type: 'tf',   text: '"She go always to the gym on Mondays." is correct.',                  opts: ['True', 'False'],                                                         correct: 'False',               hint: '❌ Two mistakes: "go" → "goes" (3rd person); word order: "always goes" not "go always".' },
     { id: 'q9',  cat: 'grammar', points: 10, type: 'mc',   text: 'Which is the correct negative sentence?',                             opts: ["She don't usually study.", "She doesn't usually study.", "She doesn't usually studies.", "She isn't usually study."], correct: "She doesn't usually study.", hint: "3rd person negative: doesn't + base verb. Never 'don't' for she/he/it." },
-    { id: 'q10', cat: 'grammar', points: 10, type: 'fill', text: 'Rank from most to least frequent: ___  (always / rarely / sometimes)', correct: 'always / sometimes / rarely',                                          hint: 'always(100%) > sometimes(40%) > rarely(10%). The scale: always→usually→often→sometimes→rarely→never.' },
+    { id: 'q10', cat: 'grammar', points: 10, type: 'fill', text: 'Rank from most to least frequent: ___  (always / rarely / sometimes)', correct: 'always, sometimes, rarely',                                          hint: 'always(100%) > sometimes(40%) > rarely(10%). The scale: always→usually→often→sometimes→rarely→never.' },
     { id: 'q11', cat: 'grammar', points: 10, type: 'mc',   text: '"How often ___ you go running?" — "___ a week."',                     opts: ['do / Three times', 'does / Three times', 'are / Usually', 'is / Always'], correct: 'do / Three times',     hint: '"How often do you go running?" (I/you/we/they) → "Three times a week." — frequency expression, not adverb.' },
     { id: 'q12', cat: 'grammar', points: 10, type: 'fill', text: 'The verb "carry" in 3rd person: she ___.',                            correct: 'carries',                                                              hint: 'carry → carries. Consonant + y → drop y, add -ies. (study→studies, try→tries)' },
     { id: 'q13', cat: 'grammar', points: 10, type: 'mc',   text: 'Amir ___ his notes even when he is tired. (= no exceptions)',         opts: ['usually reviews', 'always reviews', 'sometimes review', 'never review'],  correct: 'always reviews',      hint: 'always = 100%, no exceptions. 3rd person: reviews (not review).' },
