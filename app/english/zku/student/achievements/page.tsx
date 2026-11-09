@@ -49,7 +49,6 @@ const ALL_ACHIEVEMENTS: Achievement[] = [
   { id: 'xp_100',         category: 'xp',      titleRu: '100 XP',            titleKz: '100 XP',             titleEn: '100 XP',           descRu: 'Набери 100 XP',               descKz: '100 XP жина',                descEn: 'Earn 100 XP',                    target: 100,  color: G,         bg: '#FEF3C7' },
   { id: 'xp_1000',        category: 'xp',      titleRu: '1 000 XP',          titleKz: '1 000 XP',           titleEn: '1,000 XP',         descRu: 'Набери 1000 XP',              descKz: '1000 XP жина',               descEn: 'Earn 1,000 XP',                  target: 1000, color: G,         bg: '#FEF3C7' },
   { id: 'xp_5000',        category: 'xp',      titleRu: '5 000 XP',          titleKz: '5 000 XP',           titleEn: '5,000 XP',         descRu: 'Набери 5000 XP',              descKz: '5000 XP жина',               descEn: 'Earn 5,000 XP',                  target: 5000, color: G,         bg: '#FEF3C7' },
-  { id: 'placement',      category: 'test',    titleRu: 'Placement Test',    titleKz: 'Placement Test',     titleEn: 'Placement Test',   descRu: 'Пройди тест на уровень',      descKz: 'Деңгей тестін өт',           descEn: 'Complete the placement test',    target: 1,    color: '#0F766E', bg: '#CCFBF1' },
   { id: 'level_a2',       category: 'test',    titleRu: 'Уровень A2',        titleKz: 'A2 деңгейі',         titleEn: 'Level A2',         descRu: 'Достигни уровня A2',          descKz: 'A2 деңгейіне жет',           descEn: 'Reach level A2',                 target: 1,    color: '#1B8FC4', bg: '#DBEAFE' },
 ]
 

@@ -134,7 +134,6 @@ export default function ZKUStudentDashboard() {
   const QUICK = [
     { href: '/english/zku/student/course',       icon: ICONS.course,    label: t.dash.reading,   sub: t.dash.all_courses },
     { href: '/english/zku/student/vocab',          icon: ICONS.vocab,     label: t.dash.vocab_btn, sub: t.dash.words_wait  },
-    { href: '/english/zku/student/placement',      icon: ICONS.target,    label: t.dash.grammar,   sub: t.dash.test_level  },
     { href: '/english/zku/student/writing-coach',  icon: ICONS.writing,   label: t.dash.writing,   sub: t.dash.writing_sub },
     { href: '/english/zku/student/literature',     icon: ICONS.literature, label: t.dash.literature, sub: t.dash.literature_sub },
   ]

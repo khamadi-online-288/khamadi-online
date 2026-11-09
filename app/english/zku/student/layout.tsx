@@ -75,7 +75,6 @@ const NAV_KEYS = [
   { href: '/english/zku/student/vocab',          key: 'vocab',        icon: 'vocab'         },
   { href: '/english/zku/student/literature',     key: 'literature',   icon: 'literature'    },
   { href: '/english/zku/student/progress',       key: 'progress',     icon: 'progress'      },
-  { href: '/english/zku/student/placement',      key: 'placement',    icon: 'placement'     },
   { href: '/english/zku/student/writing-coach',  key: 'writing',      icon: 'writing'       },
   { href: '/english/zku/student/certificates',   key: 'certs',        icon: 'certs'         },
   { href: '/english/zku/student/leaderboard',    key: 'leaderboard',  icon: 'leaderboard'   },
@@ -90,7 +89,6 @@ const BOTTOM_TABS = [
 ] as const
 
 const MORE_LINKS = [
-  { href: '/english/zku/student/placement',     key: 'placement',    icon: 'placement' },
   { href: '/english/zku/student/writing-coach', key: 'writing',      icon: 'writing' },
   { href: '/english/zku/student/certificates',  key: 'certs',        icon: 'certs' },
   { href: '/english/zku/student/leaderboard',   key: 'leaderboard',  icon: 'leaderboard' },
