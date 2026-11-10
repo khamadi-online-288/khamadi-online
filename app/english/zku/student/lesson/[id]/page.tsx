@@ -131,6 +131,14 @@ function singleAnswerMatches(userRaw: string, correctRaw: string, prompt: string
   const correct = normalizeAnswer(correctRaw)
   if (!user || !correct) return false
   if (user === correct) return true
+
+  // Translation prompts (Russian/Kazakh text, no gap) key only the target
+  // construct ("couldn't drive"); a full translated sentence containing it
+  // as whole words is the same answer.
+  if (!/_{2,}/.test(prompt) && /[а-яёәғқңөұүһі]/i.test(prompt)) {
+    return ` ${user} `.includes(` ${correct} `)
+  }
+
   if ((prompt.match(/___/g) ?? []).length !== 1) return false
 
   const parts = prompt.split('→')
