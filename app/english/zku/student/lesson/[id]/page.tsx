@@ -51681,7 +51681,9 @@ export default function LessonPage() {
 
   // ── GRAMMAR phase (step-by-step) ──────────────────────────────
   if (phase === 'grammar') {
-    const allLines = lesson.grammarNote.split('\n')
+    // Some later lessons (module 9+) ship without grammarNote/grammarTitle
+    const allLines = (lesson.grammarNote ?? '').split('\n')
+    const grammarTitle = lesson.grammarTitle || lesson.title.replace(/^Grammar:\s*/, '')
 
     // Parse note into paragraph sections
     const sections: string[][] = []
@@ -51695,13 +51697,13 @@ export default function LessonPage() {
     const mistakeSecs = sections.filter(s => s.some(l => l.startsWith('⚠️') || l.startsWith('❌') || l.startsWith('✅')) && !s.every(l => l.startsWith('✅')))
     const tipSecs    = sections.filter(s => s.every(l => l.startsWith('💡') || l.startsWith('📌') || l.startsWith('🎯') || l.startsWith('🔧') || l.trim() === ''))
 
-    const steps: { type: string; label: string; emoji: string }[] = [
-      { type: 'intro', label: t.lesson.grammar_theory ?? 'Теория', emoji: '📖' },
-    ]
+    const steps: { type: string; label: string; emoji: string }[] = []
+    if (introSecs.length > 0) steps.push({ type: 'intro', label: t.lesson.grammar_theory ?? 'Теория', emoji: '📖' })
     if (lesson.grammarTable.length > 0) steps.push({ type: 'table', label: 'Формула', emoji: '📊' })
     if (lesson.grammarExtra.length > 0) steps.push({ type: 'extra', label: 'Паттерны', emoji: '🔍' })
     if (mistakeSecs.length > 0) steps.push({ type: 'mistakes', label: 'Ошибки', emoji: '⚠️' })
     if (lesson.grammarTip) steps.push({ type: 'tip', label: t.lesson.grammar_tip ?? 'Запомни', emoji: '💡' })
+    if (steps.length === 0) steps.push({ type: 'intro', label: t.lesson.grammar_theory ?? 'Теория', emoji: '📖' })
 
     const totalSteps = steps.length
     const curStep = Math.min(gramStep, totalSteps - 1)
@@ -51748,7 +51750,7 @@ export default function LessonPage() {
           <div style={{ fontSize: 9, color: 'rgba(255,255,255,0.5)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.14em', marginBottom: 5, position: 'relative' }}>
             {t.lesson.grammar_point ?? 'Grammar'}
           </div>
-          <div style={{ fontSize: 19, fontWeight: 900, color: '#fff', letterSpacing: '-0.02em', lineHeight: 1.2, position: 'relative' }}>{lesson.grammarTitle}</div>
+          <div style={{ fontSize: 19, fontWeight: 900, color: '#fff', letterSpacing: '-0.02em', lineHeight: 1.2, position: 'relative' }}>{grammarTitle}</div>
         </div>
 
         {/* Step tabs */}
