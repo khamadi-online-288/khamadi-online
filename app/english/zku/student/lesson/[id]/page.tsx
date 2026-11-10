@@ -50332,7 +50332,11 @@ export default function LessonPage() {
               </div>
             )}
 
-            <button onClick={() => setReadStep(hasTasks ? 2 : 0)} style={{
+            <button onClick={() => {
+              if (lesson.task1Items.length > 0) setReadStep(2)
+              else if (lesson.task2Items.length > 0) setReadStep(3)
+              else nextPhase()
+            }} style={{
               width: '100%', padding: '15px', borderRadius: 14, border: 'none',
               background: S, color: '#fff', fontSize: 14, fontWeight: 800,
               cursor: 'pointer', fontFamily: 'inherit', boxShadow: `0 4px 18px ${S}44`,
@@ -50347,8 +50351,9 @@ export default function LessonPage() {
 
     // ── Step 2: Task 1 — word bank ───────────────────────────────
     if (readStep === 2) {
-      const remaining = lesson.task1Bank.filter(w => !Object.values(t1Answers).includes(w))
-      const allFilled = lesson.task1Items.every(i => t1Answers[i.id])
+      // Lessons without a word bank (B1 module 9+) use open comprehension questions
+      const openMode = lesson.task1Bank.length === 0
+      const allFilled = lesson.task1Items.every(i => t1Answers[i.id]?.trim())
       const t1correct = lesson.task1Items.filter(i => t1Answers[i.id]?.toLowerCase() === i.correct.toLowerCase()).length
 
       return (
@@ -50373,7 +50378,7 @@ export default function LessonPage() {
               </div>
 
               {/* Word bank */}
-              <div style={{ padding: '16px 24px', borderBottom: '1px solid rgba(0,56,118,0.07)', background: '#F8FBFF' }}>
+              {!openMode && <div style={{ padding: '16px 24px', borderBottom: '1px solid rgba(0,56,118,0.07)', background: '#F8FBFF' }}>
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
                   {lesson.task1Bank.map((w, bankIdx) => {
                     // A bank may repeat a word, so chips are tracked by index:
@@ -50393,11 +50398,28 @@ export default function LessonPage() {
                     )
                   })}
                 </div>
-              </div>
+              </div>}
 
               {/* Questions */}
               <div style={{ padding: '16px 24px', display: 'flex', flexDirection: 'column', gap: 10 }}>
-                {lesson.task1Items.map((item, qi) => {
+                {openMode && lesson.task1Items.map((item, qi) => (
+                  <div key={item.id} style={{ padding: '12px 16px', borderRadius: 12, background: '#F8FAFC', border: '1.5px solid rgba(0,56,118,0.1)' }}>
+                    <div style={{ fontSize: 13, color: '#334155', fontWeight: 600, marginBottom: 8, lineHeight: 1.55 }}>{qi + 1}. {item.question}</div>
+                    <textarea
+                      value={t1Answers[item.id] ?? ''}
+                      readOnly={t1Checked}
+                      onChange={e => setT1Answers(a => ({ ...a, [item.id]: e.target.value }))}
+                      rows={2}
+                      style={{ width: '100%', boxSizing: 'border-box', padding: '10px 12px', borderRadius: 10, border: '1px solid rgba(0,56,118,0.15)', fontSize: 14, fontFamily: 'inherit', color: '#334155', resize: 'vertical', background: '#fff' }}
+                    />
+                    {t1Checked && (
+                      <div style={{ marginTop: 8, padding: '8px 12px', borderRadius: 10, background: '#F0FDF4', border: '1px solid #BBF7D0', fontSize: 12.5, color: '#166534', fontWeight: 600, lineHeight: 1.55 }}>
+                        ✅ {item.correct}
+                      </div>
+                    )}
+                  </div>
+                ))}
+                {!openMode && lesson.task1Items.map((item, qi) => {
                   const ans = t1Answers[item.id]
                   const isCorr = t1Checked && ans?.toLowerCase() === item.correct.toLowerCase()
                   const isWrong = t1Checked && ans && !isCorr
@@ -50438,7 +50460,7 @@ export default function LessonPage() {
               <div>
                 <div style={{ background: '#F0FDF4', border: '1px solid #86EFAC', borderRadius: 12, padding: '12px 18px', marginBottom: 10, display: 'flex', alignItems: 'center', gap: 10 }}>
                   <IcCheck size={16} color={T} />
-                  <span style={{ fontSize: 13, fontWeight: 700, color: T }}>{t1correct}/{lesson.task1Items.length} correct!</span>
+                  <span style={{ fontSize: 13, fontWeight: 700, color: T }}>{openMode ? 'Сравни свои ответы с образцом' : `${t1correct}/${lesson.task1Items.length} correct!`}</span>
                 </div>
                 <button onClick={() => setReadStep(3)} style={{ width: '100%', padding: '15px', borderRadius: 14, border: 'none', background: N, color: '#fff', fontSize: 14, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit', boxShadow: '0 4px 18px rgba(0,56,118,0.28)', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
                   Continue to Task 2 <IcArrowRight size={16} color="#fff" />
