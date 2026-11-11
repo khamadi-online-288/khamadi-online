@@ -185,7 +185,7 @@ interface FullLesson {
   task2Items: Task2Item[]
   listenChars: Character[]
   listenStatements: ListenStatement[]
-  writingModel: string[]
+  writingModel: (string | WritingLine)[]
   writingTemplate: WritingLine[]
   writingPhrases: WritingPhrase[]
   grammarTitle: string; grammarNote: string
@@ -39632,8 +39632,8 @@ const L67_G2: FullLesson = {
     { id: 'e11', type: 'mc', text: '', instruction: 'Which is the formal inverted version of "If you should have any questions…"?', opts: ['Had you any questions…', 'Were you to have questions…', 'Should you have any questions…', 'If only you had questions…'], correct: 'Should you have any questions…', hint: 'Should + subject = inverted conditional for polite offers/conditions' },
     { id: 'e12', type: 'fill', instruction: 'Complete the hypothetical question.', text: '"___ you could redesign this city — what would you change first?"', correct: 'Imagine', hint: '"Imagine" introduces hypothetical invitation' },
     { id: 'e13', type: 'mc', instruction: 'Choose the correct version.', text: '"Supposing she ___ the truth — what would have happened?"', opts: ['knew', 'had known', 'knows', 'would know'], correct: 'had known', hint: 'Supposing + past perfect = past hypothetical' },
-    { id: 'e14', type: 'fill', instruction: 'Complete the sentence.', text: '"He spent money ___ it ___ no limit." (= As if there were no limit)', correct: 'as if / had / were', hint: 'As if + past simple/were for unreal present comparison' },
-    { id: 'e15', type: 'mc', instruction: 'Which sentence is MOST formal?', opts: ['If they had reviewed the contract, the problem would not have occurred.', 'If only they had reviewed the contract.', 'Had they reviewed the contract, the problem would not have occurred.', 'Supposing they had reviewed the contract — the problem would not have occurred.'], correct: 'Had they reviewed the contract, the problem would not have occurred.', hint: 'Inverted conditionals are most formal' },
+    { id: 'e14', type: 'fill', instruction: 'Complete the sentence.', text: '"He spent money ___ it ___ no limit." (= The money did have a limit)', correct: 'as if / had', hint: 'As if + past simple for unreal present comparison: as if it had no limit' },
+    { id: 'e15', type: 'mc', instruction: 'Which sentence is MOST formal?', text: '', opts: ['If they had reviewed the contract, the problem would not have occurred.', 'If only they had reviewed the contract.', 'Had they reviewed the contract, the problem would not have occurred.', 'Supposing they had reviewed the contract — the problem would not have occurred.'], correct: 'Had they reviewed the contract, the problem would not have occurred.', hint: 'Inverted conditionals are most formal' },
     { id: 'e16', type: 'mc', instruction: 'What is the difference between these two?', text: '"What if we tried a new approach?" vs "What if we had tried a new approach?"', opts: ['No difference', 'First = future/present; Second = past hypothetical', 'First = formal; Second = informal', 'First = question; Second = statement'], correct: 'First = future/present; Second = past hypothetical', hint: 'Past simple = present/future hypothetical; past perfect = past hypothetical' },
   ],
   questions: [
@@ -40209,7 +40209,7 @@ const L68_G2: FullLesson = {
     { id: 'e8', type: 'mc', instruction: 'Which is a "telling" sentence?', text: '', opts: ['His coffee was cold on the table.', 'The door swung open.', 'She smiled at the children.', 'She was devastated by the news.'], correct: 'She was devastated by the news.', hint: 'Telling = stating the emotion directly ("devastated")' },
     { id: 'e9', type: 'fill', instruction: 'Rewrite as a "showing" sentence.', text: '"He was very angry." → He ___ the door ___ without saying a word.', correct: 'slammed / shut', hint: 'Show anger through physical action, not the word "angry"' },
     { id: 'e10', type: 'mc', instruction: 'Which correctly uses "no sooner… than"?', text: '', opts: ['No sooner she left than he called.', 'No sooner had she left than he called.', 'No sooner she had left when he called.', 'No sooner did she leave than he had called.'], correct: 'No sooner had she left than he called.', hint: '"No sooner had + subject + pp… than + past simple"' },
-    { id: 'e11', type: 'mc', instruction: 'What effect does this create? "She waited. And waited. And waited."', opts: ['Confusion', 'Urgency and speed', 'Rhythm and emphasis on duration', 'A flashback'], correct: 'Rhythm and emphasis on duration', hint: 'Deliberate repetition = emphasises how long / how much' },
+    { id: 'e11', type: 'mc', instruction: 'What effect does this create? "She waited. And waited. And waited."', text: '', opts: ['Confusion', 'Urgency and speed', 'Rhythm and emphasis on duration', 'A flashback'], correct: 'Rhythm and emphasis on duration', hint: 'Deliberate repetition = emphasises how long / how much' },
     { id: 'e12', type: 'fill', instruction: 'Complete the fronted sentence.', text: '"___ the table was a small, folded piece of paper." (= There, on the table)', correct: 'There on', hint: 'Existential fronting: "There, on [place], was/stood..."' },
     { id: 'e13', type: 'mc', instruction: 'Which creates the strongest atmosphere through sentence length?', text: '', opts: ['It was dark.', 'She went inside.', 'The fog lay heavy over the river, blurring the lights on the far bank into soft, amber smears.', 'He stopped walking.'], correct: 'The fog lay heavy over the river, blurring the lights on the far bank into soft, amber smears.', hint: 'Longer sentences build atmosphere through detail and rhythm' },
     { id: 'e14', type: 'fill', instruction: 'Add the correct time marker.', text: '"He sat at the table for a long time. ___, he picked up the phone."', correct: 'Eventually', hint: '"Eventually" = after a long time, finally' },
@@ -51254,7 +51254,15 @@ export default function LessonPage() {
 
               <div style={{ padding: '24px 28px' }}>
                 {lesson.writingModel.map((para, i) => (
-                  <p key={i} style={{ fontSize: 14, color: '#334155', lineHeight: 1.9, marginBottom: i < lesson.writingModel.length - 1 ? 14 : 0, paddingBottom: i < lesson.writingModel.length - 1 ? 14 : 0, borderBottom: i < lesson.writingModel.length - 1 ? '1px solid #F1F5F9' : 'none' }}>{para}</p>
+                  <div key={i} style={{ fontSize: 14, color: '#334155', lineHeight: 1.9, marginBottom: i < lesson.writingModel.length - 1 ? 14 : 0, paddingBottom: i < lesson.writingModel.length - 1 ? 14 : 0, borderBottom: i < lesson.writingModel.length - 1 ? '1px solid #F1F5F9' : 'none' }}>
+                    {typeof para === 'string' ? para : (
+                      // Some lessons ship a paragraph outline instead of a model text.
+                      <>
+                        <div style={{ fontWeight: 700, color: N }}>{i + 1}. {para.placeholder}</div>
+                        {para.hint && <div style={{ fontSize: 12, color: MU, lineHeight: 1.6 }}>💡 {para.hint}</div>}
+                      </>
+                    )}
+                  </div>
                 ))}
               </div>
 
@@ -52126,7 +52134,7 @@ export default function LessonPage() {
     const total = exs.length
     const val   = ex.type === 'fill' ? exFill : exAnswer
     const isCorrect = exChecked && answersMatch(ex, val)
-    const gapCount = (ex.text.match(/___/g) ?? []).length
+    const gapCount = ((ex.text ?? '').match(/___/g) ?? []).length
 
     function checkEx() {
       if (!val) return
