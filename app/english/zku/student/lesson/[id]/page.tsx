@@ -196,6 +196,24 @@ interface FullLesson {
   questions: Question[]
 }
 
+// Listening sub-steps: 0=prep, 1=listen, 2=task1 (T/F), 3=task2 (who said it).
+// Some lessons only ship part of the content, so empty steps are skipped.
+function lisStepHasContent(lesson: FullLesson, step: number): boolean {
+  switch (step) {
+    case 0: return lesson.prepTasks.length > 0
+    case 1: return lesson.dialogue.length > 0
+    case 2: return lesson.task2Items.length > 0 || lesson.task1Items.length > 0
+    default: return true
+  }
+}
+
+function nextLisStep(lesson: FullLesson, from: number): number {
+  let step = from
+  while (step < 3 && !lisStepHasContent(lesson, step)) step++
+  return step
+}
+
+
 // ── Lesson data ─────────────────────────────────────────────────
 const L1_1: FullLesson = {
   id: 'l1-1', moduleNum: 1, lessonNum: 1,
@@ -49796,7 +49814,7 @@ export default function LessonPage() {
   const [t2Answers,  setT2Answers] = useState<Record<string,string>>({})
   const [t2Checked,  setT2Checked] = useState(false)
   // listening sub-steps: 0=prep, 1=listen, 2=task1, 3=task2
-  const [lisStep,    setLisStep]   = useState(0)
+  const [lisStep,    setLisStep]   = useState(() => nextLisStep(lesson, 0))
   const [showTranscript, setShowTranscript] = useState(false)
   // TTS hooks
   const ttsRead = useTTSSingle()
@@ -50648,7 +50666,7 @@ export default function LessonPage() {
                   <IcCheck size={16} color={T} />
                   <span style={{ fontSize: 13, fontWeight: 700, color: T }}>{correctCount}/{lesson.prepTasks.length} correct! Now listen to the conversation.</span>
                 </div>
-                <button onClick={() => setLisStep(1)} style={{ width: '100%', padding: '15px', borderRadius: 14, border: 'none', background: P, color: '#fff', fontSize: 14, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+                <button onClick={() => setLisStep(nextLisStep(lesson, 1))} style={{ width: '100%', padding: '15px', borderRadius: 14, border: 'none', background: P, color: '#fff', fontSize: 14, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
                   <IcArrowRight size={16} color="#fff" /> Continue to Listen
                 </button>
               </div>
@@ -50778,7 +50796,7 @@ export default function LessonPage() {
               )}
             </div>
 
-            <button onClick={() => setLisStep(2)} style={{ width: '100%', padding: '15px', borderRadius: 14, border: 'none', background: P, color: '#fff', fontSize: 14, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit', boxShadow: `0 4px 18px ${P}44`, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
+            <button onClick={() => setLisStep(nextLisStep(lesson, 2))} style={{ width: '100%', padding: '15px', borderRadius: 14, border: 'none', background: P, color: '#fff', fontSize: 14, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit', boxShadow: `0 4px 18px ${P}44`, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
               <IcArrowRight size={16} color="#fff" /> Continue to Task 1
             </button>
           </div>
