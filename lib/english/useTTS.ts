@@ -20,6 +20,61 @@ function hasSpeechSynthesis(): boolean {
   return typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined'
 }
 
+// ── Native bridge (ZKU English mobile app) ─────────────────────
+// Android WebView has speechSynthesis but it never makes a sound, so the app injects
+// window.__NATIVE_TTS__ and speaks text posted to it with the device TTS engine
+// (see english-course/src/hooks/useNativeTTS.ts). Older app builds lack the flag.
+
+type NativeTTSDetail = { id: number; event: 'start' | 'done' | 'error' }
+
+type NativeWindow = Window & {
+  __NATIVE_TTS__?: number
+  ReactNativeWebView?: { postMessage: (msg: string) => void }
+}
+
+function nativeWindow(): NativeWindow | null {
+  if (typeof window === 'undefined') return null
+  const w = window as NativeWindow
+  return w.__NATIVE_TTS__ === 1 && typeof w.ReactNativeWebView?.postMessage === 'function' ? w : null
+}
+
+function hasNativeTTS(): boolean {
+  return nativeWindow() !== null
+}
+
+function stopNative(): void {
+  nativeWindow()?.ReactNativeWebView?.postMessage(JSON.stringify({ type: 'tts:stop' }))
+}
+
+let nativeSeq = 0
+
+// Resolves true when the app finished speaking, false on error or no answer.
+function speakNative(text: string, gender: 'female' | 'male', isCancelled: () => boolean, onStart?: () => void, rate = 0.9): Promise<boolean> {
+  return new Promise(resolve => {
+    const w = nativeWindow()
+    if (!w) { resolve(false); return }
+    const id = ++nativeSeq
+    let started = false
+    const finish = (ok: boolean) => {
+      clearInterval(watch); clearTimeout(timer)
+      window.removeEventListener('native-tts', onEvent)
+      resolve(ok)
+    }
+    const onEvent = (e: Event) => {
+      const d = (e as CustomEvent<NativeTTSDetail>).detail
+      if (!d || d.id !== id) return
+      if (d.event === 'start') { started = true; onStart?.() }
+      else finish(d.event === 'done')
+    }
+    // The app always answers; this only guards against a missing bridge or engine
+    const timer = setTimeout(() => finish(started), 15000 + text.length * 150)
+    // Whoever cancels also sends tts:stop; posting it here could kill the next utterance
+    const watch = setInterval(() => { if (isCancelled()) finish(true) }, 100)
+    window.addEventListener('native-tts', onEvent)
+    w.ReactNativeWebView?.postMessage(JSON.stringify({ type: 'tts:speak', id, text, gender, rate }))
+  })
+}
+
 // Pick the best available Web Speech voice (fallback when OpenAI TTS is unavailable)
 function getBestWSVoice(gender: 'female' | 'male'): SpeechSynthesisVoice | null {
   if (!hasSpeechSynthesis()) return null
@@ -109,7 +164,8 @@ export function useTTSSingle() {
   const stop = useCallback(() => {
     runId.current++
     getEl().pause()
-    if (hasSpeechSynthesis()) window.speechSynthesis.cancel()
+    if (hasNativeTTS()) stopNative()
+    else if (hasSpeechSynthesis()) window.speechSynthesis.cancel()
     setPlaying(false); setLoading(false)
   }, [getEl])
 
@@ -125,9 +181,13 @@ export function useTTSSingle() {
     if (cancelled()) return
 
     if (!ok) {
-      setLoading(false)
       const gender = voice === 'nova' ? 'female' : 'male'
-      await speakWS(text, gender, () => setPlaying(true))
+      if (hasNativeTTS()) {
+        await speakNative(text, gender, cancelled, () => { setLoading(false); setPlaying(true) })
+      } else {
+        setLoading(false)
+        await speakWS(text, gender, () => setPlaying(true))
+      }
     }
     if (!cancelled()) { setPlaying(false); setLoading(false) }
   }, [playing, loading, stop, getEl])
@@ -147,28 +207,25 @@ export function useTTSDialogue(lines: DialogLine[]) {
   const [loading,    setLoading]    = useState(false)
   const runId       = useRef(0)       // bumping it cancels the running loop
   const pauseReq    = useRef(false)
-  const usingWS     = useRef(false)
+  const mode        = useRef<'audio' | 'ws' | 'native'>('audio')
+  const curLine     = useRef(0)
 
   const stop = useCallback(() => {
     runId.current++
     pauseReq.current = false
     getEl().pause()
-    if (hasSpeechSynthesis()) window.speechSynthesis.cancel()
+    if (hasNativeTTS()) stopNative()
+    else if (hasSpeechSynthesis()) window.speechSynthesis.cancel()
     setPlaying(false); setPaused(false); setLineIdx(-1); setLoading(false)
   }, [getEl])
 
   const pause = useCallback(() => {
     pauseReq.current = true
-    if (usingWS.current) { if (hasSpeechSynthesis()) window.speechSynthesis.pause() }
+    // Device TTS can't pause: end the loop and let resume replay the current line
+    if (mode.current === 'native') { runId.current++; stopNative() }
+    else if (mode.current === 'ws') { if (hasSpeechSynthesis()) window.speechSynthesis.pause() }
     else getEl().pause()
     setPaused(true); setPlaying(false)
-  }, [getEl])
-
-  const resume = useCallback(() => {
-    pauseReq.current = false
-    if (usingWS.current) { if (hasSpeechSynthesis()) window.speechSynthesis.resume() }
-    else getEl().play().catch(() => { /* ignore */ })
-    setPlaying(true); setPaused(false)
   }, [getEl])
 
   // Must be invoked synchronously from a tap: the first play() happens before any await.
@@ -182,21 +239,29 @@ export function useTTSDialogue(lines: DialogLine[]) {
     for (let i = startIdx; i < lines.length; i++) {
       if (cancelled()) return
       setLineIdx(i)
+      curLine.current = i
       const line  = lines[i]
       const voice: TTSVoice = line.isLeft ? 'nova' : 'onyx'
 
       setLoading(true)
-      usingWS.current = false
+      mode.current = 'audio'
       const ok = await playClip(el, ttsUrl(line.text, voice, 0.85), () => setLoading(false), cancelled)
-      setLoading(false)
       if (cancelled()) return
 
+      if (!ok && pauseReq.current) { setLoading(false); return }
       if (!ok) {
-        usingWS.current = true
-        await speakWS(line.text, line.isLeft ? 'female' : 'male')
-        usingWS.current = false
+        const gender = line.isLeft ? 'female' : 'male'
+        if (hasNativeTTS()) {
+          mode.current = 'native'
+          await speakNative(line.text, gender, cancelled, () => setLoading(false))
+        } else {
+          setLoading(false)
+          mode.current = 'ws'
+          await speakWS(line.text, gender)
+        }
         if (cancelled()) return
       }
+      setLoading(false)
 
       if (!pauseReq.current) await new Promise(r => setTimeout(r, 400)) // pause between lines
       if (pauseReq.current || cancelled()) return
@@ -206,6 +271,14 @@ export function useTTSDialogue(lines: DialogLine[]) {
   }, [lines, getEl])
 
   const play = useCallback(() => { run(0) }, [run])
+
+  const resume = useCallback(() => {
+    pauseReq.current = false
+    if (mode.current === 'native') { run(curLine.current); return }
+    if (mode.current === 'ws') { if (hasSpeechSynthesis()) window.speechSynthesis.resume() }
+    else getEl().play().catch(() => { /* ignore */ })
+    setPlaying(true); setPaused(false)
+  }, [getEl, run])
 
   const playFrom = useCallback((idx: number) => {
     stop()
