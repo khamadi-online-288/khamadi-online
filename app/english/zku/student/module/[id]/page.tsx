@@ -12,11 +12,22 @@ import {
 } from '@/lib/english/mockData'
 import { useZkuLang } from '../../zku-lang'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { certByModule, certPath, examComplete } from '@/lib/english/zku-level-certs'
+import { badgeCode, certByCode, certByModule, certPath, examComplete } from '@/lib/english/zku-level-certs'
+
 import {
   IcBookOpen, IcHeadphones, IcEdit, IcBook, IcTarget,
   IcCheck, IcClock, IcStar, IcArrowRight, IcCheckCircle,
 } from '../../_icons'
+
+const MODULE_LEVEL_PREFIX: [string, string][] = [
+  ['m-a11-', 'A1.1'], ['m-a2-', 'A2'], ['m-b1-', 'B1'], ['m-b2-', 'B2'], ['m-c1-', 'C1'],
+]
+
+/** Badge-style level label for a module id, e.g. `m-a2-3` → "B1 Pre-Intermediate". */
+function moduleLevelLabel(moduleId: string): string {
+  const code = MODULE_LEVEL_PREFIX.find(([prefix]) => moduleId.startsWith(prefix))?.[1] ?? 'A1'
+  return `${badgeCode(code)} ${certByCode(code)?.name ?? ''}`.trim()
+}
 
 // ── Colors ──────────────────────────────────────────────────────
 const N   = '#003876'
@@ -348,7 +359,7 @@ export default function ModulePage() {
             const isB2  = id.startsWith('m-b2-')
             const isC1  = id.startsWith('m-c1-')
             const levelSlug = isA11 ? 'a11' : isA2 ? 'a2' : isB1 ? 'b1' : isB2 ? 'b2' : isC1 ? 'c1' : 'a1'
-            const levelLabel = isA11 ? 'A1.1' : isA2 ? 'A2' : isB1 ? 'B1' : isB2 ? 'B2' : isC1 ? 'C1' : 'A1'
+            const levelLabel = badgeCode(isA11 ? 'A1.1' : isA2 ? 'A2' : isB1 ? 'B1' : isB2 ? 'B2' : isC1 ? 'C1' : 'A1')
             return (
               <div className="zku-module-bar-nav" style={{
                 display: 'flex', alignItems: 'center', gap: 10, minWidth: 0, flex: 1,
@@ -397,7 +408,7 @@ export default function ModulePage() {
             <div style={{ position: 'absolute', right: 60, bottom: -50, width: 120, height: 120, borderRadius: '50%', background: 'rgba(255,255,255,0.04)' }} />
 
             <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 10 }}>
-              {id.startsWith('m-a11-') ? 'A1.1 Elementary' : id.startsWith('m-a2-') ? 'A2 Pre-Intermediate' : id.startsWith('m-b1-') ? 'B1 Intermediate' : 'A1 Beginner'} · Модуль {mod.order_num}
+              {moduleLevelLabel(id)} · Модуль {mod.order_num}
             </div>
             <div style={{ fontSize: 26, fontWeight: 900, marginBottom: 8, letterSpacing: '-0.02em' }}>{mod.title}</div>
             <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.7)', marginBottom: 24 }}>{mod.grammar_focus} · {mod.vocab_count} {t.module.words_word}</div>
@@ -580,11 +591,7 @@ export default function ModulePage() {
           {(() => {
             const exam = certByModule(id)
             if (!exam || !examComplete(exam, completed)) return null
-            const label = exam.code === 'A1' ? t.module.get_cert_a1
-              : exam.code === 'A1.1' ? t.module.get_cert_a11
-              : exam.code === 'A2' ? t.module.get_cert_a2
-              : exam.code === 'B1' ? t.module.get_cert_b1
-              : `${t.certs.completion_cert} ${exam.code}`
+            const label = t.module.get_cert.replace('{level}', badgeCode(exam.code))
             return (
               <Link href={certPath(exam)} style={{ textDecoration: 'none' }}>
                 <div style={{ marginTop: 20, borderRadius: 14, overflow: 'hidden', boxShadow: `0 8px 32px ${exam.shadow}`, cursor: 'pointer' }}>

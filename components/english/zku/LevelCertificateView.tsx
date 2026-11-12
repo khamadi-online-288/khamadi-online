@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { downloadCertificatePdf } from '@/lib/english/download-certificate-pdf'
-import type { LevelCert } from '@/lib/english/zku-level-certs'
+import { badgeProgram, type LevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const G = '#C9933B'
@@ -135,7 +135,7 @@ export default function LevelCertificateView({
               </div>
             </div>
             <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: 8 }}>Certificate of Achievement</div>
-            <div style={{ color: G, fontSize: 26, fontWeight: 900, letterSpacing: '0.04em', textTransform: 'uppercase' }}>{cert.program}</div>
+            <div style={{ color: G, fontSize: 26, fontWeight: 900, letterSpacing: '0.04em', textTransform: 'uppercase' }}>{badgeProgram(cert)}</div>
           </div>
 
           <div style={{ padding: '44px 60px' }}>
@@ -143,7 +143,7 @@ export default function LevelCertificateView({
               <div style={{ fontSize: 13, color: '#94A3B8', fontWeight: 600, marginBottom: 8, letterSpacing: '0.05em', textTransform: 'uppercase' }}>This is to certify that</div>
               <div style={{ fontSize: 34, fontWeight: 900, color: N, borderBottom: `2px solid ${G}`, paddingBottom: 10, display: 'inline-block', minWidth: 280 }}>{studentName}</div>
               <div style={{ fontSize: 14, color: '#64748B', marginTop: 12, lineHeight: 1.7 }}>
-                has successfully completed the full <strong>{cert.program}</strong> programme<br />
+                has successfully completed the full <strong>{badgeProgram(cert)}</strong> programme<br />
                 at the KHAMADI English Programme, West Kazakhstan University named after Makhambet Utemisov (WKU), Uralsk.
               </div>
             </div>

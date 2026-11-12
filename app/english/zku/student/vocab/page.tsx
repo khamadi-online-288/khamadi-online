@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode, levelOfLessonId } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '../zku-lang'
 import { IcBook, IcAward } from '../_icons'
 
@@ -20,16 +21,11 @@ interface VocabLesson {
 }
 
 function lessonIdToLevel(id: string): string {
-  const n = parseInt(id.replace(/^l/, '').split('-')[0])
-  if (n <= 16)  return 'A1'
-  if (n <= 34)  return 'A1.1'
-  if (n <= 58)  return 'A2'
-  if (n <= 84)  return 'B1'
-  return 'B2+'
+  return levelOfLessonId(id) ?? 'A1'
 }
 
 const LEVEL_COLOR: Record<string, string> = {
-  'A1': N, 'A1.1': '#16A34A', 'A2': '#1B8FC4', 'B1': '#7C3AED', 'B2+': '#DB2777',
+  'A1': N, 'A1.1': '#16A34A', 'A2': '#1B8FC4', 'B1': '#7C3AED', 'B2': '#DB2777', 'C1': '#D97706',
 }
 
 export default function VocabPage() {
@@ -133,7 +129,7 @@ export default function VocabPage() {
                   onMouseEnter={e => { (e.currentTarget as HTMLElement).style.transform = 'translateY(-2px)'; (e.currentTarget as HTMLElement).style.boxShadow = `0 8px 20px ${color}22` }}
                   onMouseLeave={e => { (e.currentTarget as HTMLElement).style.transform = 'none'; (e.currentTarget as HTMLElement).style.boxShadow = `0 2px 8px ${color}11` }}>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 10 }}>
-                      <span style={{ fontSize: 11, fontWeight: 800, color: '#fff', background: color, padding: '3px 10px', borderRadius: 99 }}>{level}</span>
+                      <span style={{ fontSize: 11, fontWeight: 800, color: '#fff', background: color, padding: '3px 10px', borderRadius: 99 }}>{badgeCode(level)}</span>
                       <span style={{ fontSize: 11, color: MUT }}>{date}</span>
                     </div>
                     <div style={{ fontSize: 15, fontWeight: 800, color: N, marginBottom: 6 }}>

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const ADMIN = '#7C3AED'
@@ -128,7 +129,7 @@ export default function AdminDashboard() {
                   <div style={{ fontSize: 13, fontWeight: 700, color: N, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{u.full_name ?? 'Пользователь'}</div>
                   <div style={{ fontSize: 11, color: MUT }}>
                     <span style={{ color: rc, fontWeight: 700 }}>{ROLE_LABEL[u.role] ?? u.role}</span>
-                    {u.role === 'student' && u.current_level && ` · ${u.current_level} · ${(u.total_xp ?? 0).toLocaleString()} XP`}
+                    {u.role === 'student' && u.current_level && ` · ${badgeCode(u.current_level)} · ${(u.total_xp ?? 0).toLocaleString()} XP`}
                   </div>
                 </div>
                 <div style={{ fontSize: 11, color: ago === 'только что' ? T : MUT, flexShrink: 0, fontWeight: 600 }}>{ago}</div>

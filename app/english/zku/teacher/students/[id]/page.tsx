@@ -4,7 +4,7 @@ import { useState, useEffect, use } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { levelBadge, levelOfLessonId, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
+import { badgeCode, badgeProgram, levelBadge, levelOfLessonId, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -331,13 +331,13 @@ export default function StudentProfilePage({ params }: { params: Promise<{ id: s
                     <div style={{ height: 6, background: color }} />
                     <div style={{ padding: '18px 18px 16px' }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
-                        <div style={{ width: 46, height: 46, borderRadius: 13, background: `${color}18`, color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900 }}>{cert.code}</div>
+                        <div style={{ width: 46, height: 46, borderRadius: 13, background: `${color}18`, color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900 }}>{badgeCode(cert.code)}</div>
                         <div>
                           <div style={{ fontSize: 15, fontWeight: 800, color: N }}>{cert.name}</div>
                           <div style={{ fontSize: 11, color: MUT }}>{issued}</div>
                         </div>
                       </div>
-                      <div style={{ fontSize: 12, color: MUT, marginBottom: 14, lineHeight: 1.5 }}>{cert.program}</div>
+                      <div style={{ fontSize: 12, color: MUT, marginBottom: 14, lineHeight: 1.5 }}>{badgeProgram(cert)}</div>
                       <Link href={`/english/zku/teacher/students/${id}/certificates/${cert.slug}`} style={{
                         display: 'block', textAlign: 'center', background: N, color: '#fff',
                         padding: '10px', borderRadius: 10, fontSize: 13, fontWeight: 700, textDecoration: 'none',

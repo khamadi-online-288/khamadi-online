@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { useZkuLang } from '../zku-lang'
 import { IcLock, IcTrophy, IcGraduation, IcCheck, IcClipboard, IcBook } from '../_icons'
-import { LEVEL_CERTS, certPath, examComplete, levelOfLessonId } from '@/lib/english/zku-level-certs'
+import { LEVEL_CERTS, badgeCode, certPath, examComplete, levelOfLessonId } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const S = '#1B8FC4'
@@ -45,7 +45,7 @@ function CertificateCard({
       <div style={{ borderRadius: 20, border: '2px dashed #E2E8F0', background: '#FAFAFA', opacity: 0.55 }}>
         <div style={{ padding: '32px 24px', textAlign: 'center' }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 10 }}><IcLock size={36} color="#CBD5E1" /></div>
-          <div style={{ display: 'inline-block', padding: '4px 14px', borderRadius: 99, background: '#F1F5F9', color: '#CBD5E1', fontSize: 16, fontWeight: 900, marginBottom: 6 }}>{levelCode}</div>
+          <div style={{ display: 'inline-block', padding: '4px 14px', borderRadius: 99, background: '#F1F5F9', color: '#CBD5E1', fontSize: 16, fontWeight: 900, marginBottom: 6 }}>{badgeCode(levelCode)}</div>
           <div style={{ fontSize: 13, fontWeight: 700, color: '#CBD5E1', marginBottom: 2 }}>{meta.name}</div>
           <div style={{ fontSize: 11, color: '#CBD5E1' }}>{t.certs.locked_msg}</div>
         </div>
@@ -59,7 +59,7 @@ function CertificateCard({
         <div style={{ height: 6, background: `linear-gradient(90deg, ${color}, ${color}88)`, borderRadius: '18px 18px 0 0' }} />
         <div style={{ padding: '22px' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16 }}>
-            <div style={{ width: 46, height: 46, borderRadius: 13, flexShrink: 0, background: meta.light, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, fontWeight: 900, color }}>{levelCode}</div>
+            <div style={{ width: 46, height: 46, borderRadius: 13, flexShrink: 0, background: meta.light, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 14, fontWeight: 900, color }}>{badgeCode(levelCode)}</div>
             <div>
               <div style={{ fontSize: 15, fontWeight: 800, color: N }}>{meta.name}</div>
               <div style={{ fontSize: 11, color: '#94A3B8' }}>{t.certs.in_progress}</div>
@@ -99,7 +99,7 @@ function CertificateCard({
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
               <div>
                 <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.55)', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: 4 }}>{t.certs.completion_cert}</div>
-                <div style={{ fontSize: 22, fontWeight: 900 }}>{levelCode} · {meta.name}</div>
+                <div style={{ fontSize: 22, fontWeight: 900 }}>{badgeCode(levelCode)} · {meta.name}</div>
               </div>
               <div style={{ width: 50, height: 50, borderRadius: '50%', background: 'rgba(255,255,255,0.2)', border: '2px solid rgba(255,255,255,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}><IcTrophy size={24} color="rgba(255,255,255,0.9)" /></div>
             </div>
@@ -139,7 +139,7 @@ function CertificateCard({
         }}>
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 12 }}><IcGraduation size={44} color="rgba(255,255,255,0.9)" /></div>
           <div style={{ fontSize: 11, color: 'rgba(255,255,255,0.4)', marginBottom: 6 }}>ЗАПАДНО-КАЗАХСТАНСКИЙ УНИВЕРСИТЕТ</div>
-          <div style={{ fontSize: 20, fontWeight: 900, color: G, marginBottom: 4 }}>{levelCode} — {meta.name}</div>
+          <div style={{ fontSize: 20, fontWeight: 900, color: G, marginBottom: 4 }}>{badgeCode(levelCode)} — {meta.name}</div>
           <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.65)', marginBottom: 20, lineHeight: 1.6 }}>{meta.desc}</div>
           <div style={{ width: 56, height: 56, borderRadius: '50%', background: G, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 16, boxShadow: '0 4px 20px rgba(201,147,59,0.4)' }}><IcCheck size={24} color="#fff" /></div>
           <button onClick={e => {

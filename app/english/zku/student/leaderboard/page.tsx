@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '../zku-lang'
 
 const N   = '#003876'
@@ -177,7 +178,7 @@ export default function LeaderboardPage() {
 
               <div style={{ textAlign: 'center' }}>
                 <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#EEF2F7', color: N }}>
-                  {row.current_level}
+                  {badgeCode(row.current_level)}
                 </span>
               </div>
 

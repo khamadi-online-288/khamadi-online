@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode, levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '@/app/english/zku/student/zku-lang'
 
 const N = '#003876'
@@ -143,7 +144,7 @@ export default function AdminGroupsPage() {
           onBlur={e => e.currentTarget.style.borderColor = BDR} />
         <select value={filterLevel} onChange={e => setFilterLevel(e.target.value)}
           style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
-          {levels.map(l => <option key={l} value={l}>{l === 'all' ? t.panel.all_levels : l}</option>)}
+          {levels.map(l => <option key={l} value={l}>{l === 'all' ? t.panel.all_levels : levelBadge(l)}</option>)}
         </select>
         <select value={filterTeacher} onChange={e => setFilterTeacher(e.target.value as 'all' | 'none')}
           style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${filterTeacher === 'none' ? '#F59E0B' : BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: filterTeacher === 'none' ? '#FFFBEB' : '#fff' }}>
@@ -185,7 +186,7 @@ export default function AdminGroupsPage() {
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 4, flexWrap: 'wrap' }}>
                       <span style={{ fontSize: 14, fontWeight: 800, color: N }}>{g.name}</span>
-                      <span style={{ fontSize: 11, fontWeight: 700, background: `${lc}15`, color: lc, padding: '2px 8px', borderRadius: 99 }}>{g.level_code}</span>
+                      <span style={{ fontSize: 11, fontWeight: 700, background: `${lc}15`, color: lc, padding: '2px 8px', borderRadius: 99 }}>{badgeCode(g.level_code)}</span>
                       {noTeacher && (
                         <span style={{ fontSize: 10, fontWeight: 700, color: '#EF4444', background: '#FEE2E2', padding: '2px 7px', borderRadius: 99 }}>Без преподавателя</span>
                       )}

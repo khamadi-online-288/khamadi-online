@@ -7,6 +7,7 @@ import { MOCK_A1_MODULES, MOCK_A11_MODULES, MOCK_A2_MODULES, MOCK_B1_MODULES, MO
 import { useZkuLang } from '../../zku-lang'
 import { IcLock, IcSearch, IcAlertTri, IcCheckCircle, IcCheck } from '../../_icons'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode, levelBadge } from '@/lib/english/zku-level-certs'
 
 const N   = '#003876'
 const G   = '#E5A800'
@@ -168,7 +169,7 @@ export default function LevelPage() {
             {t.common.all_levels}
           </Link>
           <span>/</span>
-          <span style={{ color: N, fontWeight: 700 }}>{levelData.code} · {levelData.name}</span>
+          <span style={{ color: N, fontWeight: 700 }}>{badgeCode(levelData.code)} · {levelData.name}</span>
         </div>
 
         {/* Level hero */}
@@ -184,7 +185,7 @@ export default function LevelPage() {
           <div className="zku-level-hero-inner" style={{ position: 'relative', display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 24 }}>
             <div style={{ flex: 1, minWidth: 0 }}>
               <div style={{ fontSize: 11, fontWeight: 700, color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: 8 }}>
-                {t.course.platform} · {levelData.code}
+                {t.course.platform} · {levelBadge(levelData.code)}
               </div>
               <div style={{ fontSize: 28, fontWeight: 900, marginBottom: 6, letterSpacing: '-0.02em' }}>{levelData.name}</div>
               <div style={{ fontSize: 14, color: 'rgba(255,255,255,0.75)', marginBottom: 20, maxWidth: 520 }}>{levelData.desc}</div>
@@ -240,7 +241,7 @@ export default function LevelPage() {
           <div style={{ background: '#fff', borderRadius: 20, padding: 56, textAlign: 'center', border: '2px dashed #E2E8F0' }}>
             <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 16 }}><IcLock size={48} color="#CBD5E1" /></div>
             <div style={{ fontSize: 18, fontWeight: 800, color: N, marginBottom: 8 }}>{t.course.level_locked_title}</div>
-            <div style={{ fontSize: 14, color: '#64748B', marginBottom: 24 }}>{t.course.level_locked_sub} {levelData.code}</div>
+            <div style={{ fontSize: 14, color: '#64748B', marginBottom: 24 }}>{t.course.level_locked_sub} {levelBadge(levelData.code)}</div>
             <Link href="/english/zku/student/course" style={{
               display: 'inline-block', background: N, color: '#fff',
               padding: '12px 28px', borderRadius: 12, fontSize: 14, fontWeight: 700, textDecoration: 'none',
