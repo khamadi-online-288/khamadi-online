@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '../zku-lang'
 import {
   IcUser, IcLock, IcBell, IcBarChart, IcLightning, IcFlame, IcTrophy, IcBook,
@@ -258,7 +259,7 @@ export default function ProfilePage() {
           <h1 style={{ fontSize: 22, fontWeight: 900, color: N, margin: 0, letterSpacing: '-0.02em' }}>{fullName || email}</h1>
           <div style={{ fontSize: 13, color: '#64748B', marginTop: 2, wordBreak: 'break-all' }}>{email}</div>
           <div className="zku-profile-badges" style={{ display: 'flex', gap: 6, marginTop: 6 }}>
-            <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#DCFCE7', color: T }}>{level}</span>
+            <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#DCFCE7', color: T }}>{levelBadge(level)}</span>
             <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#FEE2E2', color: '#EF4444', display: 'inline-flex', alignItems: 'center', gap: 4 }}><IcFlame size={11} color="#EF4444" /> {streak} {t.common.days}</span>
             <span style={{ fontSize: 11, fontWeight: 700, padding: '3px 10px', borderRadius: 99, background: '#FEF3C7', color: '#C9933B' }}>{xp.toLocaleString()} {t.common.xp}</span>
           </div>
@@ -338,7 +339,7 @@ export default function ProfilePage() {
                 </div>
                 <div>
                   <Label>{t.profile.level}</Label>
-                  <FieldInput value={level} disabled />
+                  <FieldInput value={levelBadge(level)} disabled />
                 </div>
                 <div>
                   <Label>{t.profile.reg_date}</Label>

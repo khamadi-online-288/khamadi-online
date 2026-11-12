@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { LEVEL_CERTS } from '@/lib/english/zku-level-certs'
+import { LEVEL_CERTS, badgeCode } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const MUT = '#64748B'
@@ -113,7 +113,7 @@ export default function AdminCertificatesPage() {
                 fontSize: 12, fontWeight: 800, cursor: 'pointer', fontFamily: 'inherit',
               }}
             >
-              {cert.code} · {byLevel[cert.code] ?? 0}
+              {badgeCode(cert.code)} · {byLevel[cert.code] ?? 0}
             </button>
           )
         })}

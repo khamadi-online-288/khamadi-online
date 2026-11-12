@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
-import { levelCertNumber, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
+import { badgeCode, badgeProgram, levelBadge, levelCertNumber, type EarnedLevelCert } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -256,7 +256,7 @@ export default function AdminStudentDetailPage() {
     { label: 'Факультет', value: student.faculty || '—' },
     { label: 'Группа', value: student.group_name || 'Без группы' },
     { label: 'Преподаватель', value: student.teacher_name || '—' },
-    { label: 'Уровень', value: student.current_level || 'A1' },
+    { label: 'Уровень', value: levelBadge(student.current_level) },
     { label: 'Регистрация', value: formatDate(student.created_at) },
     { label: 'Последний вход', value: formatDate(student.last_sign_in_at, true) },
     { label: 'Последняя активность', value: `${activityText(student.last_active_at)}${student.last_active_at ? ` · ${formatDate(student.last_active_at, true)}` : ''}` },
@@ -319,7 +319,7 @@ export default function AdminStudentDetailPage() {
             <div style={{ fontSize: 24, fontWeight: 900, marginBottom: 6 }}>{student.full_name || 'Студент'}</div>
             <div style={{ fontSize: 13, color: 'rgba(255,255,255,0.72)', marginBottom: 10 }}>{student.email || 'Email не указан'}</div>
             <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-              <span style={{ fontSize: 12, fontWeight: 800, background: 'rgba(255,255,255,0.16)', padding: '4px 10px', borderRadius: 99 }}>{student.current_level || 'A1'}</span>
+              <span style={{ fontSize: 12, fontWeight: 800, background: 'rgba(255,255,255,0.16)', padding: '4px 10px', borderRadius: 99 }}>{levelBadge(student.current_level)}</span>
               <span style={{ fontSize: 12, fontWeight: 700, background: student.group_name ? 'rgba(255,255,255,0.16)' : 'rgba(239,68,68,0.35)', padding: '4px 10px', borderRadius: 99 }}>{student.group_name || 'Без группы'}</span>
               <span style={{ fontSize: 12, fontWeight: 700, background: inactive ? 'rgba(245,158,11,0.35)' : 'rgba(29,158,117,0.35)', padding: '4px 10px', borderRadius: 99 }}>{activityText(student.last_active_at)}</span>
               <span style={{ fontSize: 12, fontWeight: 700, background: student.email_confirmed ? 'rgba(29,158,117,0.35)' : 'rgba(245,158,11,0.35)', padding: '4px 10px', borderRadius: 99 }}>{student.email_confirmed ? 'Email подтверждён' : 'Email не подтверждён'}</span>
@@ -487,13 +487,13 @@ export default function AdminStudentDetailPage() {
                     <div style={{ height: 6, background: color }} />
                     <div style={{ padding: '18px 18px 16px' }}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
-                        <div style={{ width: 46, height: 46, borderRadius: 13, background: `${color}18`, color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900 }}>{cert.code}</div>
+                        <div style={{ width: 46, height: 46, borderRadius: 13, background: `${color}18`, color, display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 13, fontWeight: 900 }}>{badgeCode(cert.code)}</div>
                         <div>
                           <div style={{ fontSize: 15, fontWeight: 800, color: N }}>{cert.name}</div>
                           <div style={{ fontSize: 11, color: MUT }}>{issued}</div>
                         </div>
                       </div>
-                      <div style={{ fontSize: 12, color: MUT, marginBottom: 6, lineHeight: 1.5 }}>{cert.program}</div>
+                      <div style={{ fontSize: 12, color: MUT, marginBottom: 6, lineHeight: 1.5 }}>{badgeProgram(cert)}</div>
                       <div style={{ fontSize: 11, fontWeight: 700, color: '#94A3B8', fontFamily: 'ui-monospace, monospace', marginBottom: 14 }}>{levelCertNumber(id, cert.code)}</div>
                       <Link href={`/english/zku/admin/students/${id}/certificates/${cert.slug}`} style={{
                         display: 'block', textAlign: 'center', background: ADMIN, color: '#fff',

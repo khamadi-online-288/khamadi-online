@@ -3,6 +3,7 @@
 import { useMemo, useState, type ReactNode } from 'react'
 import { ExternalLink, Download } from 'lucide-react'
 import { useZkuLang } from '../zku-lang'
+import { badgeCode } from '@/lib/english/zku-level-certs'
 import { IcBookOpen, IcSearch } from '../_icons'
 
 export interface Textbook {
@@ -428,7 +429,7 @@ export default function LiteraturePage({ textbooks = [] }: Props) {
           <FilterChip
             key={code}
             active={level === code}
-            label={`${code} · ${counts[code] || 0}`}
+            label={`${badgeCode(code)} · ${counts[code] || 0}`}
             color={LEVEL_COLOR[code]?.color ?? N}
             onClick={() => setLevel(code)}
           />
@@ -544,7 +545,7 @@ function LiteratureBookCard({ book, t }: { book: Textbook; t: any }) {
             padding: '3px 10px', borderRadius: 20,
             fontSize: 11, fontWeight: 800,
           }}>
-            {book.level}
+            {badgeCode(book.level)}
           </div>
         )}
 

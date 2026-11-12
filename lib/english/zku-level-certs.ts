@@ -95,6 +95,16 @@ export function levelBadge(code: string | null | undefined): string {
   return certByCode(normalized)?.badge ?? normalized
 }
 
+/** Short student-facing level code from the badge, e.g. DB `A2` → `B1`. */
+export function badgeCode(code: string | null | undefined): string {
+  return levelBadge(code).split(' ')[0]
+}
+
+/** Programme line in badge terms, e.g. DB `A2` → "B1 English — Pre-Intermediate Level". */
+export function badgeProgram(cert: { code: string; name: string }): string {
+  return `${badgeCode(cert.code)} English — ${cert.name} Level`
+}
+
 export function certBySlug(slug: string): LevelCert | undefined {
   return LEVEL_CERTS.find(c => c.slug === slug)
 }

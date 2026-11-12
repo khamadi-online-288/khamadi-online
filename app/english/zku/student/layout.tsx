@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { createEnglishClient } from '@/lib/english/supabase-client'
 import { zkuLoginHref } from '@/lib/english/useZkuAppShell'
+import { badgeCode } from '@/lib/english/zku-level-certs'
 import { ZkuLangProvider, ZkuLangSwitcher, useZkuLang } from './zku-lang'
 
 function Icon({ name, size = 15 }: { name: string; size?: number }) {
@@ -227,7 +228,7 @@ function UserMenu() {
         }}>{initial}</div>
         <div className="zku-user-meta">
           <div style={{ fontSize: 13, fontWeight: 700, color: '#fff', lineHeight: 1.2 }}>{firstName}</div>
-          <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.45)' }}>{level} · {streak} · {xp.toLocaleString()} XP</div>
+          <div style={{ fontSize: 10, color: 'rgba(255,255,255,0.45)' }}>{badgeCode(level)} · {streak} · {xp.toLocaleString()} XP</div>
         </div>
       </button>
 

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { levelBadge } from '@/lib/english/zku-level-certs'
 import { upgradeLevelIfEarned } from '@/lib/english/level-progress'
 //import { useZkuLang } from './zku-lang'
 import { useZkuLang } from '@/app/english/zku/student/zku-lang'
@@ -163,7 +164,7 @@ export default function ZKUStudentDashboard() {
 
           <div>
             <div style={{ fontSize: 11, fontWeight: 600, color: 'rgba(255,255,255,0.35)', letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: 10 }}>
-              {t.dash.cabinet} · {level}
+              {t.dash.cabinet} · {levelBadge(level)}
             </div>
             <div style={{ fontSize: 30, fontWeight: 900, color: '#fff', letterSpacing: '-0.02em', lineHeight: 1.1, marginBottom: 8 }}>
               {t.dash.greeting}, {firstName || '...'}

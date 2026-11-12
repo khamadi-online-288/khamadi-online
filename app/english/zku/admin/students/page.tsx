@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode, levelBadge } from '@/lib/english/zku-level-certs'
 
 const N = '#003876'
 const T = '#1D9E75'
@@ -345,7 +346,7 @@ export default function AdminStudentsPage() {
           onBlur={e => e.currentTarget.style.borderColor = BDR} />
         <select value={filterLevel} onChange={e => setFilterLevel(e.target.value)}
           style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
-          {levels.map(l => <option key={l} value={l}>{l === 'all' ? 'Все уровни' : l}</option>)}
+          {levels.map(l => <option key={l} value={l}>{l === 'all' ? 'Все уровни' : levelBadge(l)}</option>)}
         </select>
         <select value={filterActivity} onChange={e => setFilterActivity(e.target.value)}
           style={{ padding: '10px 14px', borderRadius: 10, border: `1.5px solid ${BDR}`, fontSize: 13, outline: 'none', fontFamily: 'inherit', background: '#fff' }}>
@@ -413,7 +414,7 @@ export default function AdminStudentsPage() {
                     <div style={{ fontSize: 10, color: '#94A3B8', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.email}</div>
                   </div>
                 </div>
-                <div><span style={{ fontSize: 10, fontWeight: 800, background: `${lc}18`, color: lc, padding: '2px 7px', borderRadius: 99 }}>{s.current_level ?? 'A1'}</span></div>
+                <div><span style={{ fontSize: 10, fontWeight: 800, background: `${lc}18`, color: lc, padding: '2px 7px', borderRadius: 99 }}>{badgeCode(s.current_level)}</span></div>
                 <div style={{ fontSize: 12, fontWeight: 700, color: G }}>{(s.total_xp ?? 0).toLocaleString()} XP</div>
                 <div style={{ fontSize: 12, fontWeight: 700, color: s.lessons_done > 0 ? T : '#CBD5E1' }}>{s.lessons_done > 0 ? `📚 ${s.lessons_done}` : '—'}</div>
                 <div style={{ fontSize: 12, fontWeight: 700, color: (s.current_streak ?? 0) > 0 ? '#EF4444' : '#CBD5E1' }}>

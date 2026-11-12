@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { createEnglishClient } from '@/lib/english/supabase-client'
+import { badgeCode, levelBadge } from '@/lib/english/zku-level-certs'
 import { useZkuLang } from '../zku-lang'
 
 const N   = '#003876'
@@ -116,7 +117,7 @@ export default function ProgressPage() {
           <div style={{ background: '#fff', borderRadius: 16, padding: '24px 28px', border: `1px solid ${BDR}`, marginBottom: 14 }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
               <span style={{ fontSize: 14, fontWeight: 800, color: N }}>{t.progress.overall}</span>
-              <span style={{ fontSize: 12, fontWeight: 700, color: G }}>{level}</span>
+              <span style={{ fontSize: 12, fontWeight: 700, color: G }}>{levelBadge(level)}</span>
             </div>
 
             <div style={{ display: 'flex', alignItems: 'center', marginBottom: 20 }}>
@@ -134,9 +135,9 @@ export default function ProgressPage() {
                         boxShadow: curr ? `0 3px 10px ${G}55` : 'none',
                         transition: 'all 0.3s',
                       }}>
-                        {done ? '✓' : lv}
+                        {done ? '✓' : badgeCode(lv)}
                       </div>
-                      <div style={{ fontSize: 9, color: curr ? N : '#94A3B8', fontWeight: curr ? 700 : 400, marginTop: 4, whiteSpace: 'nowrap' }}>{lv}</div>
+                      <div style={{ fontSize: 9, color: curr ? N : '#94A3B8', fontWeight: curr ? 700 : 400, marginTop: 4, whiteSpace: 'nowrap' }}>{badgeCode(lv)}</div>
                     </div>
                     {i < LEVELS.length - 1 && (
                       <div style={{ flex: 1, height: 2, background: done ? N : '#E2E8F0', margin: '0 4px', marginBottom: 18 }} />
@@ -147,14 +148,14 @@ export default function ProgressPage() {
             </div>
 
             <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 11, color: MUT, marginBottom: 6 }}>
-              <span>{t.progress.current_level}: {level}</span>
+              <span>{t.progress.current_level}: {levelBadge(level)}</span>
               <span style={{ fontWeight: 700, color: N }}>{xpPct.toFixed(0)}%</span>
             </div>
             <div style={{ height: 6, background: '#EEF2F7', borderRadius: 99, overflow: 'hidden', marginBottom: 6 }}>
               <div style={{ height: '100%', width: `${xpPct}%`, background: N, borderRadius: 99, transition: 'width 0.6s ease' }} />
             </div>
             <div style={{ fontSize: 11, color: MUT }}>
-              {xpInLevel.toLocaleString()} / {XP_PER_LEVEL.toLocaleString()} XP · {t.progress.next_level}: {nextLevel}
+              {xpInLevel.toLocaleString()} / {XP_PER_LEVEL.toLocaleString()} XP · {t.progress.next_level}: {levelBadge(nextLevel)}
             </div>
           </div>
 
