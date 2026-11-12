@@ -213,6 +213,53 @@ function nextLisStep(lesson: FullLesson, from: number): number {
   return step
 }
 
+/** What the student answered in each graded step of a non-test lesson. */
+interface LessonAnswerState {
+  prep: Record<string, string>
+  readT1: Record<string, string>
+  readT2: Record<string, string>
+  lisTf: Record<string, string>
+  lisWho: Record<string, string>
+  exerciseCorrect: number
+}
+
+/** Fallback score for lessons with nothing to grade (e.g. writing without prep tasks). */
+const UNGRADED_LESSON_SCORE = 80
+
+/**
+ * Percent of correct answers across the graded steps the lesson type actually shows.
+ * Mirrors the correctness checks used by each step's UI.
+ */
+function computeLessonScore(lesson: FullLesson, s: LessonAnswerState): number {
+  let correct = 0
+  let total = 0
+  const tally = (items: { ok: boolean }[]) => {
+    total += items.length
+    correct += items.filter(i => i.ok).length
+  }
+  const prep = () => tally(lesson.prepTasks.map(p => ({ ok: s.prep[p.id] === p.correct })))
+
+  if (lesson.type === 'grammar') {
+    total += lesson.exercises.length
+    correct += Math.min(s.exerciseCorrect, lesson.exercises.length)
+  } else if (lesson.type === 'listening') {
+    prep()
+    const tfItems = lesson.task2Items.length > 0
+      ? lesson.task2Items.map(i => ({ id: i.id, correct: i.correct as string }))
+      : lesson.task1Items.map(i => ({ id: i.id, correct: i.correct }))
+    tally(tfItems.map(i => ({ ok: s.lisTf[i.id] === i.correct })))
+    tally(lesson.listenStatements.map(st => ({ ok: s.lisWho[st.id] === st.correctCharId })))
+  } else if (lesson.type === 'writing') {
+    prep()
+  } else {
+    prep()
+    tally(lesson.task1Items.map(i => ({ ok: s.readT1[i.id]?.toLowerCase() === i.correct.toLowerCase() })))
+    tally(lesson.task2Items.map(i => ({ ok: s.readT2[i.id] === i.correct })))
+  }
+
+  return total > 0 ? Math.round(correct / total * 100) : UNGRADED_LESSON_SCORE
+}
+
 
 // ── Lesson data ─────────────────────────────────────────────────
 const L1_1: FullLesson = {
@@ -50053,13 +50100,16 @@ export default function LessonPage() {
 
         const alreadyDone = existing?.completed === true
 
-        // Compute score from answers
-        const total = lesson.questions?.length ?? 0
-        const computedScore = total > 0
-          ? Math.round(lesson.questions.filter(q =>
-              answersMatch(q, answers[q.id] ?? '')
-            ).length / total * 100)
-          : 80 // default for non-test lessons
+        // Score from the steps the student actually answered. `lesson.questions`
+        // is never shown outside test lessons, so it cannot be used here.
+        const computedScore = computeLessonScore(lesson, {
+          prep: prepAnswers,
+          readT1: t1Answers,
+          readT2: t2Answers,
+          lisTf: lisT1Ans,
+          lisWho: lisT2Ans,
+          exerciseCorrect: exScore,
+        })
 
         // Save progress record
         await writeLessonProgress(supabase, {
@@ -50110,7 +50160,7 @@ export default function LessonPage() {
       } catch { /* silent — don't block UI */ }
     }
     saveProgress()
-  }, [phase, id, lesson, answers])
+  }, [phase, id, lesson, prepAnswers, t1Answers, t2Answers, lisT1Ans, lisT2Ans, exScore])
 
   // ── Save quiz/test completion when qzDone becomes true ───────────
   const qzSavedRef = useRef(false)

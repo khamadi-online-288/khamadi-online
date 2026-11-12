@@ -92,7 +92,6 @@ export async function GET(
     .eq('user_id', userId)
     .eq('completed', true)
     .order('completed_at', { ascending: false })
-    .limit(80)
 
   const examIds = LEVEL_CERTS.flatMap(cert => cert.lessons)
   const [{ data: authData, error: userErr }, lessonsFirst, countRes, groupsRes, examRes] = await Promise.all([
@@ -138,7 +137,6 @@ export async function GET(
       .eq('user_id', userId)
       .eq('completed', true)
       .order('completed_at', { ascending: false })
-      .limit(80)
     : lessonsFirst
 
   const lessons = ((lessonsRes.data ?? []) as Array<Omit<LessonRow, 'time_spent_min'> & { time_spent_min?: number | null }>).map(lesson => ({

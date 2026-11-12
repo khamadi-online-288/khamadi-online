@@ -58,7 +58,6 @@ export async function GET(
     .eq('user_id', userId)
     .eq('completed', true)
     .order('completed_at', { ascending: false })
-    .limit(80)
 
   const examIds = LEVEL_CERTS.flatMap(c => c.lessons)
   const { data: examRows } = await admin
